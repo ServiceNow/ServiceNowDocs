@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/rn-summary-deprecated-info.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-23"
+last_updated: "2026-09-25"
 reading_time_minutes: 20
 breadcrumb: [Release notes summaries for Brazil features, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
