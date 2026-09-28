@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-integ
 release: store
 topic_type: reference
 last_updated: "2026-09-10"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Integration Hub version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -27,7 +27,6 @@ Version history for the Integration Hub Amazon S3 spoke on the ServiceNow Store.
         -   Added connection and credential alias support with configuration template for flexible multi-environment authentication setup.
         -   Introduced MID Server support, enabling the Amazon S3 Spoke to operate in environments without direct outbound internet access.
         -   Added alias override capability, allowing users to dynamically switch connection credentials at the action level.
-        -   Introduced certificate-based authentication support for enhanced security, addressing enterprise customer requirements \(e.g., JPMC\).
         -   Added a custom retry policy for S3 actions to improve resilience against transient API failures.
         -   Added new S3 actions with error evaluation and complex output handling for richer response processing.
         -   Added new S3 actions with automation test coverage for improved reliability and regression safety.

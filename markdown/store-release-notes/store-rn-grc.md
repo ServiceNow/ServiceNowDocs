@@ -258,6 +258,8 @@ Version history for the ServiceNow® ServiceNow Otto for Smart Assessment Engine
 Version history for the Smart Assessment Collaboration application on the ServiceNow Store.
 -   **[Smart Assessment Core release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-grc-rn-smart-assessment-core.md)**  
 Version history for the Smart Assessment Core application on the ServiceNow Store.
+-   **[smart-assessment-designer release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-grc-sn-smart-assessment-designer.md)**  
+Version history for the ServiceNow® smart-assessment-designer application on the ServiceNow Store.
 -   **[Smart Assessment Migration tools release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-grc-rn-smart-assessment-migration-tools.md)**  
 Version history for the Smart Assessment Migration tools application on the ServiceNow Store.
 -   **[Third-party Risk Management Advanced release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-grc-rn-third-party-risk-mgmt-advanced.md)**  
