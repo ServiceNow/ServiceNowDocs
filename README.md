@@ -21,5 +21,7 @@ normally at least monthly, sometimes more often.
   ```
 
 ## Change log
+- __28 Sept 2026__:
+  * Minor updates for Impact, others
 - __24 Sept 2026__:
   * Brazil Early Availability (EA) release
