@@ -48,8 +48,8 @@ Financial Services Operations \(FSO\) has new and updated features in the Brazil
 The Governance, Risk, and Compliance application has new and updated features in the Brazil release.
 -   **[Healthcare and Life Sciences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/healthcare-life-sciences-rn-landing.md)**  
 Healthcare and Life Sciences has new and updated features in the Brazil release.
--   **[Impact release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/impact-rn-landing_0.md)**  
-The Brazil release delivers new and updated features across ServiceNow Impact enhancing platform capabilities to help users drive faster time to value.
+-   **[Impact release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/impact-rn.md)**  
+ServiceNow® Impact is built on the ServiceNow AI Platform and combines customized service with a digital interface to provide tailored recommendations and guidance. Impact was enhanced and updated in the Brazil release. See the following sections for release notes by version.
 -   **[IT Operations Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/it-operations-management-rn-landing.md)**  
 IT Operations Management has new and updated features in the Brazil release.
 -   **[IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/it-service-management-rn-landing.md)**  

@@ -28,7 +28,7 @@ For a downloadable, sortable version of the fixed problems in this release, clic
 
 ## Security-related fixes
 
-Brazil includes fixes for security-related problems that affected certain ServiceNow® applications and the ServiceNow AI Platform®. We recommend that customers upgrade to this release for the most secure and up-to-date features. For more details on security problems fixed in Brazil, refer to .
+Brazil includes fixes for security-related problems that affected certain ServiceNow® applications and the ServiceNow AI Platform®. We recommend that customers upgrade to this release for the most secure and up-to-date features. For more details on security problems fixed in Brazil, refer to [KB3154282](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3154282).
 
 ## Notable fixes
 

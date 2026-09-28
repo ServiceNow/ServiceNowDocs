@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/rn-summary-new-features.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-23"
+last_updated: "2026-09-25"
 reading_time_minutes: 108
 breadcrumb: [Release notes summaries for Brazil features, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
@@ -1219,6 +1219,29 @@ Manage and audit firewall rules from Fortinet FortiManager devices. The new vend
 
 </td></tr><tr><td>
 
+Flows, subflows, and actions
+
+</td><td>
+
+-   **[Enhanced Workflow Studio flow designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/enhanced-workflow-studio-flow-designer.md)**
+
+Create and manage flows from the enhanced Workflow Studio flow designer.
+
+-   **[Flow troubleshooting agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/flow-troubleshooting-agent.md)**
+
+Diagnose and resolve flow errors from a conversation. Resume a flow the point of error, analyze flow steps, identify conflicts with business logic, and receive targeted recommendations to troubleshoot your flows.
+
+-   **[Flow input modification during debugging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/flow-debugger.md)**
+
+Modify input configuration values while debugging a flow. Determine whether specific input values cause a flow to run to completion or cause errors.
+
+-   ****
+
+Publish a system event when a flow enters the error, cancelled, or presumed interrupted states. Use the default event name or specify a custom event name.
+
+
+</td></tr><tr><td>
+
 Goal Framework for SPM
 
 </td><td>
@@ -1412,21 +1435,21 @@ Impact
 
 -   **[Product adoption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/product-adoption.md)**
 
-Access core Product adoption functionality, Capabilities Map and Product Adoption Roadmap without connecting to Service Exchange.
+Access core product adoption functionality, capabilities map and product adoption roadmap, without connecting to Service Exchange.
 
     -   View the capabilities map with a list of capabilities and their entitlement status. You can also edit the usage status manually for relevant capabilities.
     -   Create product adoption roadmaps using templates or manually, and manage capabilities for those new product adoption roadmaps.
     -   Receive a consistent message when functionality is limited by unavailable status or inability to edit existing product adoption roadmaps until Service Exchange connects with Guided Setup.
 -   **[Latest Accelerators by Release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/new-accelerators-australia-release.md)**
     -   Accelerate AI adoption and time to value by generating complete applications, surfacing automation opportunities, measuring AI investment impact, and migrating Virtual Agent topics.
-    -   Reduce onboarding friction and technical risk by orienting teams to scoped app development and enabling secure, integration-free access to external data sources. Activate Field Encryption Enterprise as a core part of your Vault security strategy.
+    -   Reduce onboarding friction and technical risk by orienting teams to scoped app development and enabling secure, integration-free access to external data sources. Activate Field Encryption Enterprise as a core part of your Vault Suite security strategy.
     -   Strengthen your governance foundation by structuring your CSDM data model, establishing sound IRM Entity Framework design, managing your demand pipeline, and improving Knowledge Management process maturity.
 -   **[Platform Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/platform-health-idi.md)**
     -   Call the Scan Engine API to provide trigger scans on demand, check scan status and results, and integrate findings into pipeline approval gates.
-    -   Use exception approval workflows with explicit Save Draft and Submit actions.
+    -   Use exception approval workflows with explicit **Save Draft** and **Submit** actions.
     -   Use configurable exception reason scope controls.
 -   **[Value management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/impact-in-platform-business-outcomes.md)**
-    -   View the same product line label in Impact Delivery Instance as Impact Store Application for the same product for example, IT Service Management instead of ITSM. Both legacy and current models in Impact Delivery Instance now map to the correct product line taxonomy.
+    -   View the same product line label in the Impact Delivery Instance as in the Impact Store Application for the same product. For example, IT Service Management instead of ITSM. Both legacy and current models in the Impact Delivery Instance now map to the correct product line taxonomy.
     -   Filter outcomes by version using the new Outcome version filter, available on the Objectives &amp; Outcomes landing page and the Outcome Insights page in Impact Delivery Instance.
 
 </td></tr><tr><td>

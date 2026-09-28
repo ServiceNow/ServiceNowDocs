@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/rn-summary-changes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-23"
+last_updated: "2026-09-25"
 reading_time_minutes: 65
 breadcrumb: [Release notes summaries for Brazil features, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
@@ -821,15 +821,15 @@ Impact
 
 -   **Accelerator Catalog**
     -   Success Readiness Assessment changed to Success Foundation Review.
-    -   UX Accelerators moved from Architecture to Technical sub-catalog
-    -   AI Readiness Assessment moved from Architecture to Technical sub-catalog
-    -   Tuneup Your IT Asset Management changed to Tuneup Your ITSM Asset Management
-    -   Jumpstart Your App Engine changed to Jumpstart Your App Deployment Governance
+    -   UX Accelerators moved from Architecture to the Technical sub-catalog.
+    -   AI Readiness Assessment moved from Architecture to the Technical sub-catalog.
+    -   Tuneup Your IT Asset Management changed to Tuneup Your ITSM Asset Management.
+    -   Jumpstart Your App Engine changed to Jumpstart Your App Deployment Governance.
 -   **[Platform Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/platform-health-idi.md)**
-    -   Use exception workflows in update set scans now provide multiple governance improvements.
-    -   Assign a dedicated exception approver role for governance separation
-    -   As and Instance administrator, control which finding levels are eligible for exception reasons.
-    -   Access update set origin tracking on all scan findings
+    -   Exception workflows in update set scans provide multiple governance improvements.
+    -   Assign a dedicated exception approver role for governance separation.
+    -   Control which finding levels are eligible for exception reasons, as an instance administrator.
+    -   Access update set origin tracking on all scan findings.
     -   View the captured update set data that contains the violating code whenever a full or delta scan runs and produces a finding.
     -   Full-scan scope updates so only definitions explicitly configured for single-finding-per-table scanning are included.
     -   The Scan Engine Properties page now displays a dedicated warning when the company code is unset, with a link to the system property for resolution.

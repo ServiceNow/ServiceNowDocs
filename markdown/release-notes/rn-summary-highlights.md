@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/rn-summary-highlights.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-23"
+last_updated: "2026-09-25"
 reading_time_minutes: 67
 breadcrumb: [Release notes summaries for Brazil features, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
@@ -934,6 +934,19 @@ See [ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDoc
 
 </td></tr><tr><td>
 
+Flows, subflows, and actions
+
+</td><td>
+
+-   Automate a repeatable multiple-step process.
+-   Run a sequence of reusable actions and flow logic to complete an automated process.
+-   Pass data between the steps of a flow.
+-   Pass data between child subflows and their parent calling flows.
+
+See [Workflow Studio flows, subflows, and actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio-flows-subflows-and-actions-landing.md) for more information.
+
+</td></tr><tr><td>
+
 Goal Framework for SPM
 
 </td><td>
@@ -1079,7 +1092,7 @@ Impact
 </td><td>
 
 -   Achieve success your way with tailored resources, driving outcomes aligned to your business priorities.
--   Accelerate business outcomes faster with the AI control tower, reducing time to measurable impact.
+-   Accelerate business outcomes faster with the AI Control Tower, reducing time to measurable impact.
 -   Adopt ServiceNow products and AI innovations rapidly, ensuring your team moves at the speed of transformation.
 -   Maximize your ServiceNow investment, proving its value to stakeholders through measurable adoption and outcomes.
 -   Improve platform health with proactive guidance, keeping your instance optimized and future-ready.
