@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-eventmanagement-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 9
 breadcrumb: [Products combined by family]
 ---
@@ -134,18 +134,6 @@ Yokohama
 
 </td><td>
 
--   **[Group alerts using network traffic-based grouping](https://www.servicenow.com/docs/access?context=network-traffic-correlation-grouping&family=yokohama&ft:locale=en-US)**
-
-Group alerts efficiently with network traffic-based alert grouping, which uses discovered TCP connections with ML Service Mapping to correlate alerts on host CIs that have network traffic connections between them.
-
--   **[View links between alerts in network traffic-based alert groups](https://www.servicenow.com/docs/access?context=el-network-traffic-based-link-view&family=yokohama&ft:locale=en-US)**
-
-Once a network traffic correlation is enabled, investigate network traffic alert group details and visualize connections through Link View in Express List®.
-
--   **[New role for team level operators](https://www.servicenow.com/docs/access?context=r_InstalledWithEventManagement&family=yokohama&ft:locale=en-US)**
-
-Enhance team-level control over alert management with the evt\_team\_operator role. This role enables operators to manage Event Management operations within their assigned team, including reading and writing alerts, making configuration changes,updating Alert Automation, and setting up new integrations in the Integrations Launchpad.
-
 -   **[\[Placeholder link text to key esc-notify-alert-sow-itom\]](https://www.servicenow.com/docs/access?context=esc-notify-alert-sow-itom&family=yokohama&ft:locale=en-US)**
 
 Starting in version 26.7.0, execute response subflows automatically, manually, or both for alerts that match specific conditions through the Run Other Response Actions option of Respond Automatic. This enhancement offers better control over automated responses with configurable execution limits and multiple response actions.
@@ -153,6 +141,20 @@ Starting in version 26.7.0, execute response subflows automatically, manually, o
 -   **[\[Placeholder link text to key enrich-alert-sow-itom\]](https://www.servicenow.com/docs/access?context=enrich-alert-sow-itom&family=yokohama&ft:locale=en-US)**
 
 Starting in version 26.7.0, link a CI to an alert for more accurate IT component mapping though the Improve Configuration Item \(CI identification option of Enrich Automation. This enhancement improves alert visibility, speeds up issue resolution, and ensures better correlation between alerts and infrastructure components.
+
+
+ -   **[View links between alerts in network traffic-based alert groups](https://www.servicenow.com/docs/access?context=el-network-traffic-based-link-view&family=yokohama&ft:locale=en-US)**
+
+Once a network traffic correlation is enabled, investigate network traffic alert group details and visualize connections through Link View in Express List®.
+
+
+ -   **[Group alerts using network traffic-based grouping](https://www.servicenow.com/docs/access?context=network-traffic-correlation-grouping&family=yokohama&ft:locale=en-US)**
+
+Group alerts efficiently with network traffic-based alert grouping, which uses discovered TCP connections with ML Service Mapping to correlate alerts on host CIs that have network traffic connections between them.
+
+-   **[New role for team level operators](https://www.servicenow.com/docs/access?context=r_InstalledWithEventManagement&family=yokohama&ft:locale=en-US)**
+
+Enhance team-level control over alert management with the evt\_team\_operator role. This role enables operators to manage Event Management operations within their assigned team, including reading and writing alerts, making configuration changes,updating Alert Automation, and setting up new integrations in the Integrations Launchpad.
 
 
 </td></tr></tbody>
@@ -195,13 +197,7 @@ Yokohama
 
 -   **[Property name changes](https://www.servicenow.com/docs/access?context=enable-alert-grouping&family=yokohama&ft:locale=en-US)**
 
-**Enable CMDB Correlation for Alert Aggregation \( CMDB groups\)** \(**sa\_analytics.agg.query\_cmdb\_correlation\_enabled**\) has been renamed **Enable CMDB correlation**.
-
-**Enable alert aggregation for CI-based Automated groups** \(**sa\_analytics.specific\_patterns\_enabled**\) has been renamed **Enable ML based Automation correlation**.
-
-**Enable alert aggregation for Text-based groups** \(**sa\_analytics.text\_based\_group\_enabled**\) has been renamed **Enable Text based correlation**.
-
-**Use all CMDB relations for CMDB group correlation. This property impacts both CMDB group correlation and Alert Similarity on the Alert form** \(**evt\_mgmt.related\_cis\_get\_all\_relation\_types**\) has been renamed **Use all CMDB relations for CMDB group correlation**.
+**Enable CMDB Correlation for Alert Aggregation \( CMDB groups\)** \(**sa\_analytics.agg.query\_cmdb\_correlation\_enabled**\) has been renamed **Enable CMDB correlation**.**Enable alert aggregation for CI-based Automated groups** \(**sa\_analytics.specific\_patterns\_enabled**\) has been renamed **Enable ML based Automation correlation**.**Enable alert aggregation for Text-based groups** \(**sa\_analytics.text\_based\_group\_enabled**\) has been renamed **Enable Text based correlation**.**Use all CMDB relations for CMDB group correlation. This property impacts both CMDB group correlation and Alert Similarity on the Alert form** \(**evt\_mgmt.related\_cis\_get\_all\_relation\_types**\) has been renamed **Use all CMDB relations for CMDB group correlation**.
 
 -   **[Pull connectors](https://www.servicenow.com/docs/access?context=t_EMConfigureConnectorInstance&family=yokohama&ft:locale=en-US)**
 
@@ -300,7 +296,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Event Management is available with activation of the Event Management plugin \(com.glideapp.itom.snac\). For details, see [Request Event Management](https://www.servicenow.com/docs/access?context=t_EMActivatePlugin&family=yokohama&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-servicecatalog-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -112,7 +112,10 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+-   **[Accessibility checker in the toolbar](https://www.servicenow.com/docs/access?context=service-catalog-accessibility-checker&family=yokohama&ft:locale=en-US)**
+
+Identify and resolve accessibility related issues during catalog item generation through a new accessibility checker button in the TinyMCE toolbar in Service Catalog.
+
 
 </td></tr></tbody>
 </table>## Removed
@@ -199,7 +202,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Service Catalog is a ServiceNow AI Platform feature that is active by default.
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -286,7 +292,10 @@ Yokohama
 
 </td><td>
 
+-   **Accessibility information**
+
 Accessibility checker in the TinyMCE toolbar enables you to identify and resolve accessibility related issues when creating a catalog item in Service Catalog. See [Accessibility checker in the toolbar](https://www.servicenow.com/docs/access?context=service-catalog-accessibility-checker&family=yokohama&ft:locale=en-US) for more information.
+
 
 </td></tr></tbody>
 </table>## Localization information

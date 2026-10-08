@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-auditmanagement-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
@@ -88,10 +88,6 @@ Yokohama
 
 </td><td>
 
--   **[Matrix report in the Audit Workspace](https://www.servicenow.com/docs/access?context=matrix-report-audit-ws&family=yokohama&ft:locale=en-US)**
-
-Analyze relationships between different variables by using a Matrix report that presents data in a structured format. Assess and document risks and the internal controls designed to mitigate those risks through the Risk and Controls Matrix.
-
 -   **[Entity Based Access for Audit Management](https://www.servicenow.com/docs/access?context=c_Engagements&family=yokohama&ft:locale=en-US)**
 
 Entity-based access enables you to create configurations for entities, entity classes, and entity types. When a user is qualified based on these configurations and has the minimum required roles, they can access to the following tables:
@@ -105,6 +101,11 @@ Entity-based access enables you to create configurations for entities, entity cl
     -   Risk to Engagement
     -   Issue to Engagement
     -   Entity to Engagement
+
+ -   **[Matrix report in the Audit Workspace](https://www.servicenow.com/docs/access?context=matrix-report-audit-ws&family=yokohama&ft:locale=en-US)**
+
+Analyze relationships between different variables by using a Matrix report that presents data in a structured format. Assess and document risks and the internal controls designed to mitigate those risks through the Risk and Controls Matrix.
+
 
 </td></tr></tbody>
 </table>## Changes
@@ -230,7 +231,12 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Install Audit Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
+
+**Important:** Audit Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -317,11 +323,12 @@ Yokohama
 
 </td><td>
 
--   **Accessibility improvements**
+-   **Accessibility information**
+    -   **Accessibility improvements**
 
 Accessibility improvements were completed to create a configurable workspace that supports WCAG 2.1 Level AA conformance.
 
--   **Reflow**
+    -   **Reflow**
 
 The Configurable Workspace supports reflow, which enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality. Additionally, content can be enlarged without scrolling in two dimensions at a width equivalent to 320 CSS pixels or a height equivalent to 256 CSS pixels. Page layouts are transformed into a vertical, stacked view automatically when users increase browser zoom to 400%. This enhancement helps users with low vision or who have trouble seeing web content in a browser due to monitor size, device type, poor lighting, or other situations. Reflow can be turned off with a system property for instances, experiences, and pages. See [Reflow for Configurable Workspace](https://www.servicenow.com/docs/access?context=auto-reflow&family=yokohama&ft:locale=en-US).
 

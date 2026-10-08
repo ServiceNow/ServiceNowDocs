@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-performanceanalytics-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -198,9 +198,12 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Complimentary Performance Analytics for Incident Management is active by default. You cannot create indicators or breakdowns with this complimentary application.
 
- The full features of Performance Analytics are available with a subscription. Activate the Premium plugin that matches  your subscription. For details, see Activate your Performance Analytics  subscription.
+The full features of Performance Analytics are available with a subscription. Activate the Premium plugin that matches  your subscription. For details, see Activate your Performance Analytics  subscription.
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -229,7 +232,10 @@ Yokohama
 
 </td><td>
 
+-   **Additional requirements**
+
 To use the new data snapshots feature, your instance must be on the RaptorDB Professional database.
+
 
 </td></tr></tbody>
 </table>## Browser requirements

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-platformanalyticsexperience-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 13
 breadcrumb: [Products combined by family]
 ---
@@ -48,7 +48,10 @@ Yokohama
 
 </td><td>
 
+-   **Upgrade information**
+
 If you had previously migrated your analytics assets to Platform Analytics, assets that were in compatibility mode but are newly supported in Yokohama are migrated automatically.
+
 
 </td></tr></tbody>
 </table>## New features
@@ -86,7 +89,7 @@ Yokohama
 
 -   **[Generate data visualizations conversationally](https://www.servicenow.com/docs/access?context=analytics-assist-landing-page&family=yokohama&ft:locale=en-US)**
 
-Generate Platform Analytics artifacts from conversational interactions using Analytics Generation. Analytics Generation is part of the Now Assist for Creator application.
+Generate Platform Analytics artifacts from conversational interactions using Analytics Generation. Analytics Generation is part of the ServiceNow Otto for Creator application.
 
 -   **[Implement filters in groups](https://www.servicenow.com/docs/access?context=create-filter-group&family=yokohama&ft:locale=en-US)**
 
@@ -197,7 +200,16 @@ Yokohama
 
 </td><td>
 
--   **[Migrate more features to Platform Analytics from the Core UI](https://www.servicenow.com/docs/access?context=data-migration&family=yokohama&ft:locale=en-US)**
+-   **[Migration center flow UX improved](https://www.servicenow.com/docs/access?context=data-migration-perform&family=yokohama&ft:locale=en-US)**
+    -   A confirmation modal is displayed when **Start moving** or **Activate** is selected.
+    -   Bulk migration can be retriggered after source artifacts are changed.
+    -   The creation of new analytics artifacts can be blocked when bulk migration starts.
+-   **Percent information added to tooltips**
+
+Tooltips in geomap, vertical and horizontal bar, heatmap, and bubble visualizations now include percentages when applicable.
+
+
+ -   **[Migrate more features to Platform Analytics from the Core UI](https://www.servicenow.com/docs/access?context=data-migration&family=yokohama&ft:locale=en-US)**
 
 Migration scripts are improved to support more features. All migration script improvements are applied automatically on upgrade to content that was previously migrated in compatibility mode.
 
@@ -363,10 +375,12 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 The Platform Analytics experience is active by default. However, some additional steps might be required.
 
--   To use indicator data sources, you might need to activate Performance Analytics.
--   To use Process Mining with the Platform Analytics experience, you might need to activate Process Mining.
+    -   To use indicator data sources, you might need to activate Performance Analytics.
+    -   To use Process Mining with the Platform Analytics experience, you might need to activate Process Mining.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -471,7 +485,10 @@ Yokohama
 
 </td><td>
 
+-   **Accessibility information**
+
 Dashboard overview and Filter components now support Reflow at 400% zoom.
+
 
 </td></tr></tbody>
 </table>## Localization information

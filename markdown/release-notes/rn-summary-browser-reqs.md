@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/rn-summary-browser-reqs.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 5
 breadcrumb: [Release notes summaries for Yokohama features, Release notes for upgrading from Xanadu, Learn about the Yokohama release, Yokohama release notes]
 ---
@@ -42,6 +42,17 @@ The AI Control Tower application supports all the browsers.
 
 </td></tr><tr><td>
 
+AI Search
+
+</td><td>
+
+-   ****
+
+For optimal performance, use AI Search in the latest release of Google Chrome or Mozilla Firefox. AI Search doesn’t support Internet Explorer.
+
+
+</td></tr><tr><td>
+
 AI Skill Kit
 
 </td><td>
@@ -70,7 +81,7 @@ Automated Test Framework
 
 </td><td>
 
-Automated Test Framework supports running tests only from desktop browsers. You can't run tests or test suites from tablets, mobile browsers, or the mobile UI. Some desktop browsers require additional configuration. For more information, see .
+Automated Test Framework supports running tests only from desktop browsers. You can't run tests or test suites from tablets, mobile browsers, or the mobile UI. Some desktop browsers require additional configuration. For more information, see [Browser recommendations for Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/browser-recommendations-atf.md).
 
 Automated Test Framework offers limited support for test design on tablets. You can't add new custom UI test steps from tablets because tablets can't retrieve components. Review any existing custom UI test steps that were added from a desktop browser instead.
 
@@ -110,6 +121,17 @@ Digital End-User Experience
 </td><td>
 
 Enable the DEX browser extension for monitoring Web applications to collect various operational or performance-based metrics on your system. For more information, see [Enable DEX browser extension for monitoring web/SaaS applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/enable-dex-browser-extension.md).
+
+</td></tr><tr><td>
+
+External Content Connectors
+
+</td><td>
+
+-   ****
+
+For optimal performance, use External Content Connectors in the latest release of Google Chrome or Mozilla Firefox. Internet Explorer isn't supported.
+
 
 </td></tr><tr><td>
 

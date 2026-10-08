@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Adobe Sign spoke v2.10.1 is the latest version.
+Adobe Sign spoke v2.11.0 is the latest version.
 
 ## Spoke dependencies
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-ordermanagement-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 8
 breadcrumb: [Products combined by family]
 ---
@@ -120,17 +120,18 @@ Create multiple instances of a child product offering in orders to generate a cu
 
 Add transient products, which are defined as one-time-use products or services, to new orders. Sold product and product inventory records are created but not maintained for transient products. Move, Add, Change and Disconnect \(MACD\) actions are not supported for transient products.
 
--   **[Business Portal for Order Management](https://www.servicenow.com/docs/access?context=order-mgt-create-an-order-using-customer-portal&family=yokohama&ft:locale=en-US)**
+-   **[Add subscription pricing to an order](https://www.servicenow.com/docs/access?context=add-subscription-pricing-to-an-order&family=yokohama&ft:locale=en-US)**
+
+Enable order agents and order managers to access and view key calculated metrics such as monthly recurring price and annual recurring price. The subscription pricing fields are automatically calculated based on contract start date and contract end date. These metrics enhance revenue reporting and help you to better understand recurring revenue dynamics.
+
+
+ -   **[Business Portal for Order Management](https://www.servicenow.com/docs/access?context=order-mgt-create-an-order-using-customer-portal&family=yokohama&ft:locale=en-US)**
 
 Use the Business Portal to view product catalogs, select product options, and place orders. Customers can also view their order status using the Business Portal.
 
 -   **[Cases for multiple invoices](https://www.servicenow.com/docs/access?context=csm-invoice-operations&family=yokohama&ft:locale=en-US)**
 
 Create cases for multiple invoices or for specific invoice lines. Agents can reference multiple invoices or invoice lines as case line items on an invoice case record. By using case line items, agents can track multiple issues for the same invoice case and resolve the issues in each case line item independently before resolving and closing the order case. This application is a feature of Customer Service Management and the Order to Cash Operations functionality for Order Management.
-
--   **[Add subscription pricing to an order](https://www.servicenow.com/docs/access?context=add-subscription-pricing-to-an-order&family=yokohama&ft:locale=en-US)**
-
-Enable order agents and order managers to access and view key calculated metrics such as monthly recurring price and annual recurring price. The subscription pricing fields are automatically calculated based on contract start date and contract end date. These metrics enhance revenue reporting and help you to better understand recurring revenue dynamics.
 
 
 </td></tr></tbody>
@@ -226,7 +227,8 @@ Yokohama
 </td><td>
 
 -   The Subscription start and end dates have been deprecated starting with the Q2 2025 release. Use the Contract start date and Contract end date to calculate Terms for setting subscriptions for recurring products.
--   The fields listed for the following tables are no longer supported.
+
+ -   The fields listed for the following tables are no longer supported.
 
     |Table name|Fields|
     |----------|------|
@@ -262,9 +264,14 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Install Order Management by requesting it from the ServiceNow Store.
 
- Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
+
+**Important:** Order Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements

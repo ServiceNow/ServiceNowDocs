@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-securityposturecontrol-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 8
 breadcrumb: [Products combined by family]
 ---
@@ -46,7 +46,10 @@ Yokohama
 
 </td><td>
 
+-   **Upgrade information**
+
 For a complete list of the applications that are required to implement Security Posture Control, see [Install Security Posture Control](https://www.servicenow.com/docs/access?context=spc-install&family=yokohama&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## New features
@@ -106,11 +109,11 @@ Yokohama
 
 -   **[Create a custom API service graph connector in the Security Posture Control workspace](https://www.servicenow.com/docs/access?context=spc-creating-sgc-template&family=yokohama&ft:locale=en-US)**
 
-Use generative AI to help your developers create SPC API connectors quickly with the Connector builder framework module in the Security Posture Control workspace. With a Now Assist skill that is included with the Now Assist for Vulnerability Response application, your developers have the option to automate steps in the Connector builder framework.
+Use generative AI to help your developers create SPC API connectors quickly with the Connector builder framework module in the Security Posture Control workspace. With a Now Assist skill that is included with the ServiceNow Otto for Unified Security Exposure Management application, your developers have the option to automate steps in the Connector builder framework.
 
     -   You have the option to automate the steps for selecting API templates, populating request and header parameters, and response field mapping with generative AI.
 
-**Note:** You must install [Yokohama Patch 11](https://www.servicenow.com/docs/access?context=yokohama-patch-11&family=yokohama&ft:locale=en-US) of the Now Assist for Vulnerability Response application to have access to the generative AI skill for the Connector builder framework. See the [Now Assist for Security Incident Response and Now Assist for Vulnerability Response release notes](https://www.servicenow.com/docs/access?context=secops-now-assist-security-operations-rn&family=yokohama&ft:locale=en-US) and [Supporting information](https://www.servicenow.com/docs/access?context=supporting-information-now-assist-vr&family=yokohama&ft:locale=en-US) for more information.
+**Note:** You must install [Yokohama Patch 11](https://www.servicenow.com/docs/access?context=yokohama-patch-11&family=yokohama&ft:locale=en-US) of the ServiceNow Otto for Unified Security Exposure Management application to have access to the generative AI skill for the Connector builder framework. See the [ServiceNow Otto for Security Incident Response \(SIR\) release notes](https://www.servicenow.com/docs/access?context=secops-now-assist-security-operations-rn&family=yokohama&ft:locale=en-US) and [Supporting information](https://www.servicenow.com/docs/access?context=supporting-information-now-assist-vr&family=yokohama&ft:locale=en-US) for more information.
 
     -   Use your custom API connector to integrate with security tools and import asset data that is based on the unique requirements of your environment.
     -   Help your cybersecurity teams monitor your overall security posture and identify assets that are missing key security tools with the API connectors that you build.
@@ -247,7 +250,12 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Install Security Posture Control by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
+
+**Important:** Security Posture Control is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -399,7 +407,7 @@ Yokohama
 
 </td><td>
 
--   Create and publish your own API connectors with a step-by-step process in the Connector builder module in the Security Posture Control workspace. You can use generative AI to automate some steps. See the [Now Assist for Security Incident Response and Now Assist for Vulnerability Response release notes](https://www.servicenow.com/docs/access?context=secops-now-assist-security-operations-rn&family=yokohama&ft:locale=en-US) for more information about the Now Assist skill.
+-   Create and publish your own API connectors with a step-by-step process in the Connector builder module in the Security Posture Control workspace. You can use generative AI to automate some steps. See the [ServiceNow Otto for Security Incident Response \(SIR\) release notes](https://www.servicenow.com/docs/access?context=secops-now-assist-security-operations-rn&family=yokohama&ft:locale=en-US) for more information about the Now Assist skill.
 -   Get insights into your overall security posture and configuration gaps in your security tools using new policies and asset proﬁles that are included with the Security Posture Control application.
 -   Use the policies included with the application or custom policies that you create to monitor your assets for overall security tool coverage, compliance with internal configuration standards, critical combinations of security gaps and vulnerabilities, and possible internet exposure.
 

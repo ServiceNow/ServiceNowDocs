@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-knowledgegraph-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
@@ -80,25 +80,18 @@ Yokohama
 Enter a query and test the Knowledge Graph schema using different LLM options. You can also add previous conversations before you run the query.
 
 
--   **[Access Knowledge Graph Schema](https://www.servicenow.com/docs/access?context=access-knowledge-graph-designer&family=yokohama&ft:locale=en-US)**
+ -   **[Access Knowledge Graph Schema](https://www.servicenow.com/docs/access?context=access-knowledge-graph-designer&family=yokohama&ft:locale=en-US)**
 
 Knowledge Graph now has a new NLQ graph schema available prebuilt along with user profile schema. See [KB article](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2069778) for schema attributes.
 
 
--   **[Leverage Knowledge Graph prebuilt integration with Virtual Agent](https://www.servicenow.com/docs/access?context=example-use-case-for-knowledge-graph&family=yokohama&ft:locale=en-US)**
+ -   **[Leverage Knowledge Graph prebuilt integration with Virtual Agent](https://www.servicenow.com/docs/access?context=example-use-case-for-knowledge-graph&family=yokohama&ft:locale=en-US)**
 
 Knowledge Graph provides the following new prebuilt integrations:
 
     -   Integration with Now Assist Virtual Agent: Helps requesters with personalized responses on people queries and Natural Language queries. Also supports people citation card.
 
--   **[Leverage Knowledge Graph prebuild integration with AI agents](https://www.servicenow.com/docs/access?context=leverage-knowledge-graph-prebuild-integration-with-agentic-ai&family=yokohama&ft:locale=en-US)**
-
-Knowledge Graph provides the following prebuilt integrations:
-
-    -   Integration with Now Assist AI agents for User Context: Helps users with personalized responses.
-    -   Integration with AI agents as a tool: Used to perform specific tasks that are assigned to the AI agents.
-
--   **[Exploring Knowledge Graph](https://www.servicenow.com/docs/access?context=exploring-knowledge-graph&family=yokohama&ft:locale=en-US)**
+ -   **[Exploring Knowledge Graph](https://www.servicenow.com/docs/access?context=exploring-knowledge-graph&family=yokohama&ft:locale=en-US)**
 
 Knowledge Graph helps requesters with personalized responses using its Integration with Now Assist Virtual Agent for User Context.
 
@@ -112,6 +105,13 @@ Use the Knowledge Graph integrations with Now Assist Virtual Agent to utilize Kn
 
 Use Knowledge Graph designer to manage Knowledge Graph schemas, their nodes, node properties and edges. You can also use the interface to create, edit, duplicate, or delete a Knowledge Graph schema.
 
+
+ -   **[Leverage Knowledge Graph prebuild integration with AI agents](https://www.servicenow.com/docs/access?context=leverage-knowledge-graph-prebuild-integration-with-agentic-ai&family=yokohama&ft:locale=en-US)**
+
+Knowledge Graph provides the following prebuilt integrations:
+
+    -   Integration with Now Assist AI agents for User Context: Helps users with personalized responses.
+    -   Integration with AI agents as a tool: Used to perform specific tasks that are assigned to the AI agents.
 
 </td></tr></tbody>
 </table>## Changes
@@ -144,13 +144,16 @@ Yokohama
 
 Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
--   **[Some Now Assist skills are now turned on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&family=yokohama&ft:locale=en-US)**
+-   **[Some Now Assist skills are turned on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&family=yokohama&ft:locale=en-US)**
 
 The new default behavior works as follows:
 
     -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
     -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
--   ****
+-   **[Configure ACLs for AI agents and agentic workflows](https://www.servicenow.com/docs/access?context=aia-security-implementation&family=yokohama&ft:locale=en-US)**
+
+Configure the access control lists for who can discover and trigger AI agents and agentic workflows in their guided setups in AI Agent Studio. You can determine whether an AI agent or agentic workflow behaves as a dynamic user or as an AI user. You can also specify if an AI agent or agentic workflow can be available to all authenticated users or publicly available.
+
 
 </td></tr></tbody>
 </table>## Removed
@@ -237,7 +240,12 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Knowledge Graph is a ServiceNow AI Platform feature that is active by default if you have downloaded the Generative AI for BU.
+
+
+**Important:** Knowledge Graph is enabled automatically in your BU Generative AI Application. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -266,7 +274,10 @@ Yokohama
 
 </td><td>
 
+-   **Additional requirements**
+
 Ensure that your instance is upgraded to XP7.
+
 
 </td></tr></tbody>
 </table>## Browser requirements

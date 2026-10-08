@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-manufacturingcommercialoperations-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
@@ -105,17 +105,17 @@ The sales promotion supports bulk import functionality. To enable bulk import, y
 List of all the plugins that are installed with Manufacturing Commercial Operations plugin.
 
 
--   **[Support multiple line items on a case to track requests on the Business Portal​](https://www.servicenow.com/docs/access?context=manufacturing-using&family=yokohama&ft:locale=en-US)**
+ -   **[Support multiple line items on a case to track requests on the Business Portal​](https://www.servicenow.com/docs/access?context=manufacturing-using&family=yokohama&ft:locale=en-US)**
 
 Capture and track requests for multiple items on the Business Portal.​ Case line items, case tasks, and case line tasks all appear on the case page​.
 
--   **[Enable copy of catalog items from Service Catalog to Remote Catalog in](https://www.servicenow.com/docs/access?context=mco-using-servicebridge-manufacturers&family=yokohama&ft:locale=en-US)**
+-   **[Enable copy of catalog items from Service Catalog to Remote Catalog in Service Exchange](https://www.servicenow.com/docs/access?context=mco-using-servicebridge-manufacturers&family=yokohama&ft:locale=en-US)**
 
-Eliminate duplication effort in Remote Catalog creation and maintenance​, by enabling the copying of standard portal catalog items. This process eliminates the need to manually recreate Service Catalog items in the Remote Catalog.
+Eliminate duplication effort in Remote Catalog creation and maintenance​, by enabling the copying of standard portal catalog items. This process eliminates the need to manually recreate Service Catalog items in the Service Exchange Remote Catalog.
 
--   **[View products from the catalog and place orders directly through the SOM self-service portal](https://www.servicenow.com/docs/access?context=mco-som-using&family=yokohama&ft:locale=en-US)**
+-   **[View products from the catalog and place orders directly through the Sales CRM self-service portal](https://www.servicenow.com/docs/access?context=mco-som-using&family=yokohama&ft:locale=en-US)**
 
-Enable B2B customers to configure products and place orders via an uptake of the Sales and Order Management self-service order placement portal​.​
+Enable B2B customers to configure products and place orders via an uptake of the Sales Customer Relationship Management self-service order placement portal​.​
 
 
 </td></tr></tbody>
@@ -232,7 +232,12 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Install Manufacturing applications by requesting them from the ServiceNow Store. For details on installing the applications, see [Configuring Manufacturing Commercial Operations](https://www.servicenow.com/docs/access?context=configuring-manufacturing-foundation&family=yokohama&ft:locale=en-US). Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
+
+**Important:** Manufacturing Commercial Operations is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -371,8 +376,8 @@ Xanadu
 
 -   Capture change requests for orders and order line items with Order Exceptions Case Management for Manufacturing Commercial Operations. Manage and track the progress by creating case tasks for other team members or assign case lines to other agents effectively.
 
--   Enable manufacturers, customers, suppliers, channels, and partners to connect and track services directly between instances without configuring and maintaining custom integrations. for Manufacturing Commercial Operations was enhanced and updated in the Xanadu release.
--   Enable for Manufacturing Commercial Operations to help with the following tasks:
+-   Enable manufacturers, customers, suppliers, channels, and partners to connect and track services directly between instances without configuring and maintaining custom integrations. Service Exchange for Manufacturing Commercial Operations was enhanced and updated in the Xanadu release.
+-   Enable Service Exchange for Manufacturing Commercial Operations to help with the following tasks:
     -   Enables manufacturers to adopt new features, publish product offerings, and provide uninterrupted service to their customers who haven’t upgraded.
     -   Assesses entitlements for compatibility before synchronizing them to customers, suppliers, channels, and partners.
     -   Supports automated synchronization of configuration data between manufacturers and customer instances. Enables customers, suppliers, channels, and partners to run specific processes before synchronizing tasks with their manufacturers.
@@ -386,7 +391,7 @@ Yokohama
 </td><td>
 
 -   Enable manufacturers, customers, suppliers, channels, and partners to connect and track services directly between instances without configuring and maintaining custom integrations.
--   Enable B2B customers to configure products and place orders via an uptake of the Sales and Order Management self-service order placement feature​.​
+-   Enable B2B customers to configure products and place orders via an uptake of the Sales Customer Relationship Management self-service order placement feature​.​
 -   Transform emails into interactions rather than cases with email interactions.
 -   Enable the dealer and sales promotion framework and its user role and responsibilities.
 -   Configure the Manufacturing Commercial Operations plugins.

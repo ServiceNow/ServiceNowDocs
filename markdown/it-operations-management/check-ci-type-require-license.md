@@ -18,6 +18,8 @@ View the list of configuration item \(CI\) types that require IT Operations Mana
 
 Ensure that your organization has purchased ITOM subscriptions. You cannot view the information in the **ITOM License** module without subscriptions.
 
+Verify that you installed the latest available version of ITOM/OT SU Licensing from ServiceNow Store.
+
 Role required: sn\_itom\_license.reader
 
 ## About this task

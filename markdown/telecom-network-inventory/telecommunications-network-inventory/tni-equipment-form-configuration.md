@@ -96,5 +96,5 @@ Storage size of the device, in gigabytes. For example, 2.5 GB.
 **Related topics**  
 
 
-[4c9e53ad8ec504f9a1ed062c23cddfc8c1d2e296.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/define-tni-equipment.md)
+[829eed273b1cf4dc4ebba88cd8857e4eb0c15cd6.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/define-tni-equipment.md)
 

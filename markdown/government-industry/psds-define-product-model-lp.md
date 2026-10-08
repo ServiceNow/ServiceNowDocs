@@ -26,7 +26,7 @@ Additional fields to describe the permit product can be added if required. For e
 
 If there are multiple types of permits with unrelated fields, you can extend specific product model classes from the permit model base class. For example, if your agency offers bird taxidermy and wildlife import/export permits out of the same organization, consider whether you need specific permit model classes that would help define different attributes on each permit product.
 
-For more information on product models, case types, and service definitions, see [Using the extendable data model in Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-using-flexible-data-model.md).
+For more information on product models, case types, and service definitions, see .
 
 ## Procedure
 

@@ -7,8 +7,9 @@ release: yokohama
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
 topic_type: task
-last_updated: "2025-04-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
+keywords: [KPI, action plan item, Milestone collection, Milestone target value, action plan]
 breadcrumb: [Create action plan for KPIs, Using Supplier Relationship and Performance Management, Using Supplier Lifecycle Operations, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 
@@ -18,7 +19,7 @@ Create milestones for the affected KPIs in the action plan.
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_kpi.admin
 
 ## Procedure
 
@@ -26,7 +27,7 @@ Role required: admin
 
 2.  Select **Create**.
 
-    The **Crate new action plan item** dialog box is displayed.\[Omitted image "create-milestone-task.png"\] Alt text: Create new action plan item dialog box for creating milestone
+    The **Create new action plan item** dialog box is displayed.\[Omitted image "create-milestone-task.png"\] Alt text: Create new action plan item dialog box for creating milestone
 
 3.  Select **Milestone**.
 
@@ -36,69 +37,22 @@ Role required: admin
 
 6.  In the form, fill in the required fields.
 
-<table id="table_oqn_ksw_1fc"><thead><tr><th>
+    |Field|Description|
+    |-----|-----------|
+    |Assigned to|User to whom the milestone tracking is assigned|
+    |Due date|Target date for the milestone|
+    |Short description|Brief description of the milestone|
+    |**Milestone details**|
+    |Milestone target value|The expected target value of the KPI for the milestone|
+    |Milestone collection start date|Start date for the milestone collection|
+    |Milestone collection end date|End date for the milestone collection|
 
-Field
+7.  Select **Save** to create and save the new milestone.
 
-</th><th>
 
-Description
+## Result
 
-</th></tr></thead><tbody><tr><td>
-
-Assigned to
-
-</td><td>
-
-User to whom the milestone tracking is assigned**Note:** This field is not available for action plans created for automated KPIs.
-
-</td></tr><tr><td>
-
-Due date
-
-</td><td>
-
-Target date for the milestone**Note:** For action plans created for automated KPIs, the KPI is run 7 days before the due date.
-
-</td></tr><tr><td>
-
-Short description
-
-</td><td>
-
-Brief description of the milestone
-
-</td></tr><tr><td colspan="2">
-
-**Milestone details**
-
-</td></tr><tr><td>
-
-Milestone target value
-
-</td><td>
-
-The expected target value of the KPI for the milestone
-
-</td></tr><tr><td>
-
-Milestone collection start date
-
-</td><td>
-
-Start date for the milestone collection
-
-</td></tr><tr><td>
-
-Milestone collection end date
-
-</td><td>
-
-End date for the milestone collection
-
-</td></tr></tbody>
-</table>7.  Select **Save** to create and save the new milestone.
-
+The milestones appear in the related list of the action plan.
 
 **Parent Topic:**[Create action plan for KPIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/source-to-pay-operations/supplier-lifecycle-operations/create-action-plan-for-kpis.md)
 

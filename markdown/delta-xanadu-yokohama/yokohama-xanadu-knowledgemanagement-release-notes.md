@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-knowledgemanagement-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 4
+last_updated: "2026-10-08"
+reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
 
@@ -132,7 +132,10 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+-   **[Editing functions for knowledge articles in the HTML editor](https://www.servicenow.com/docs/access?context=knowledge-html-editor&family=yokohama&ft:locale=en-US)**
+
+Identify and resolve accessibility related issues during Knowledge article generation through a new accessibility checker button in the TinyMCE toolbar.
+
 
 </td></tr></tbody>
 </table>## Removed
@@ -219,7 +222,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Knowledge Management is a ServiceNow AI Platform feature that is active by default.
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -306,7 +312,10 @@ Yokohama
 
 </td><td>
 
+-   **Accessibility information**
+
 Accessibility checker in the TinyMCE toolbar enables you to identify and resolve accessibility related issues when creating a Knowledge article. See [Accessibility checker in the toolbar](https://www.servicenow.com/docs/access?context=accessibility-checker&family=yokohama&ft:locale=en-US) for more information.
+
 
 </td></tr></tbody>
 </table>## Localization information

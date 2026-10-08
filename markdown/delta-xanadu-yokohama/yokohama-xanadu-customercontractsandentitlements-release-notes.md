@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-customercontractsandentitlements-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 5
+last_updated: "2026-10-08"
+reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
 
@@ -93,37 +93,37 @@ Yokohama
 Enables customer to create and manage contracts for product inventory records.
 
 
--   **[New workspace view for service contracts and entitlements](https://www.servicenow.com/docs/access?context=components-installed-pss&family=yokohama&ft:locale=en-US)**
+ -   **[New workspace view for service contracts and entitlements](https://www.servicenow.com/docs/access?context=components-installed-pss&family=yokohama&ft:locale=en-US)**
 
 A new workspace view named Service Contract Workspace has been added for customers on service contracts and entitlements in the Customer Service Management workspace. This view is set as the default view and can be changed by an administrator.
 
 
--   **[Enhancement on contract lines and entitlements](https://www.servicenow.com/docs/access?context=using-post-sales-support&family=yokohama&ft:locale=en-US)**
+ -   **[Enhancement on contract lines and entitlements](https://www.servicenow.com/docs/access?context=using-post-sales-support&family=yokohama&ft:locale=en-US)**
 
 View location and subscription pricing information on contract lines and entitlements.
 
 
--   **[Automatic renewal of contracts](https://www.servicenow.com/docs/access?context=using-customer-cnt-ent-wf&family=yokohama&ft:locale=en-US)**
+ -   **[Automatic renewal of contracts](https://www.servicenow.com/docs/access?context=using-customer-cnt-ent-wf&family=yokohama&ft:locale=en-US)**
 
 Enables customers to configure the date and pricing details of contract renewal while creating initial contracts.
 
 
--   **[Enable renewal opportunity creation](https://www.servicenow.com/docs/access?context=using-customer-cnt-ent-wf&family=yokohama&ft:locale=en-US)**
+ -   **[Enable renewal opportunity creation](https://www.servicenow.com/docs/access?context=using-customer-cnt-ent-wf&family=yokohama&ft:locale=en-US)**
 
 Create an opportunity or an opportunity and quote when you renew service contracts and service contract lines.
 
 
--   **[Co-terminating of Contract lines](https://www.servicenow.com/docs/access?context=using-customer-cnt-ent-wf&family=yokohama&ft:locale=en-US)**
+ -   **[Co-terminating of Contract lines](https://www.servicenow.com/docs/access?context=using-customer-cnt-ent-wf&family=yokohama&ft:locale=en-US)**
 
 Enables customers to assign same start and end date to multiple quote lines.
 
 
--   **[End-of-life check​](https://www.servicenow.com/docs/access?context=cce-renew-service-contract&family=yokohama&ft:locale=en-US)**
+ -   **[End-of-life check​](https://www.servicenow.com/docs/access?context=cce-renew-service-contract&family=yokohama&ft:locale=en-US)**
 
 Alert customers when the contract end date is exceeding the product offering end date during quote processing. Customers can then match the contract and product offering end date if required.
 
 
--   **[Renewal Uplift feature](https://www.servicenow.com/docs/access?context=cce-renew-service-contract&family=yokohama&ft:locale=en-US)**
+ -   **[Renewal Uplift feature](https://www.servicenow.com/docs/access?context=cce-renew-service-contract&family=yokohama&ft:locale=en-US)**
 
 Enables customers to set the pricing parameters of future renewals of contracts. You can select the markup or mark down percentage of the current contract price or you can apply the market price of the contract at the time of renewal.
 
@@ -246,11 +246,16 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Install Customer Contracts and Entitlements by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
- Customer Contracts and Entitlements is available with activation of the Customer Contracts and Entitlements \(com.sn\_pss\_core\) plugin, which requires a separate subscription. For details, see [Configure Post-Sales Support](https://www.servicenow.com/docs/access?context=configuring-post-sales-support&family=yokohama&ft:locale=en-US).
+Customer Contracts and Entitlements is available with activation of the Customer Contracts and Entitlements \(com.sn\_pss\_core\) plugin, which requires a separate subscription. For details, see [Configure Post-Sales Support](https://www.servicenow.com/docs/access?context=configuring-post-sales-support&family=yokohama&ft:locale=en-US).
 
- **Note:** With the activation of Customer Contracts and Entitlements, new contracts and entitlements are created using the new data model only. The new entitlement verification APIs and change workflows are based on the new data model. Older contracts and entitlements can still be viewed but not modified.
+**Note:** With the activation of Customer Contracts and Entitlements, new contracts and entitlements are created using the new data model only. The new entitlement verification APIs and change workflows are based on the new data model. Older contracts and entitlements can still be viewed but not modified.
+
+
+**Important:** Customer Contracts and Entitlements is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements

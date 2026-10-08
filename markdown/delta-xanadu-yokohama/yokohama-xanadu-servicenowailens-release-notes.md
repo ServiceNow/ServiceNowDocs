@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-servicenowailens-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 6
+last_updated: "2026-10-08"
+reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
 
@@ -75,7 +75,22 @@ Yokohama
 
 </td><td>
 
--   **[ServiceNow AI Lens UI enhancement](https://www.servicenow.com/docs/access?context=servicenow-lens-explore&family=yokohama&ft:locale=en-US)**
+-   **[Auto-fill the Catalog Item form in the Service Portal](https://www.servicenow.com/docs/access?context=create-record-in-the-service-portal&family=yokohama&ft:locale=en-US)**
+
+Fill the Catalog Item form fields by triggering ServiceNow AI Lens from Service Portal. ServiceNow AI Lens extracts data from one or more artifacts and auto-fills the relevant fields in the form.
+
+-   **[Handle post-processing in the standalone mode](https://www.servicenow.com/docs/access?context=create-sn-lens-recipe&family=yokohama&ft:locale=en-US)**
+
+The following fields have been added to handle post-processing timeout for previewing data in the standalone mode:
+
+    -   **Wait for processed response**: Option to wait for ServiceNow AI Lens to display the output of post-processing on the Preview window. If turned on, it waits for the post-processing output. If turned off, it doesn't wait for post-processing output, but post-processing continues in the background.
+    -   **Max wait time**: Maximum time ServiceNow AI Lens waits to display the output of post-processing. If the output doesn't appear within this duration, the session times out while the post-processing continues in the background until complete.
+-   **[Use ServiceNow AI Lens in Now Mobile®](https://www.servicenow.com/docs/access?context=servicenow-lens-mobile&family=yokohama&ft:locale=en-US)**
+
+Trigger ServiceNow AI Lens from the Now Mobile® application to extract data from artifacts and auto-fill forms on your mobile device.
+
+
+ -   **[ServiceNow AI Lens UI enhancement](https://www.servicenow.com/docs/access?context=servicenow-lens-explore&family=yokohama&ft:locale=en-US)**
 
 Use ServiceNow AI Lens to launch the scanner window by using the context defined in Lens actions or as a standalone application. You can preview the gathered insights or extracted data. You can also see the logged-in user and instance details.
 
@@ -93,12 +108,13 @@ Trigger ServiceNow AI Lens from a Virtual Agent conversation by using ServiceNow
 
 View captured images that are automatically attached to the record that is auto-filled using ServiceNow AI Lens. You can view the images to understand the source of the auto-filled information.
 
--   **[New third-party AI model provider options available for all Now Assist applications](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=yokohama&ft:locale=en-US)**
+
+ -   **[New third-party AI model provider options available for all Now Assist applications](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=yokohama&ft:locale=en-US)**
 
 Use Google Gemini and Anthropic Claude on AWS as AI model providers for ServiceNow AI Lens in addition to Azure OpenAI.
 
 
--   **[Capture data](https://www.servicenow.com/docs/access?context=servicenow-lens-explore&family=yokohama&ft:locale=en-US)**
+ -   **[Capture data](https://www.servicenow.com/docs/access?context=servicenow-lens-explore&family=yokohama&ft:locale=en-US)**
 
 Get actionable insights from such visual data as images, handwritten notes and forms, emails, websites, and applications. For example, ServiceNow AI Lens can scan an email to gather data for auto-filling the fields on the Incident form.
 
@@ -142,11 +158,18 @@ Yokohama
 
 </td><td>
 
--   **[Changes to Now Assist usage measurement](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=yokohama&ft:locale=en-US)**
+-   **[Changes in the scanner window UI](https://www.servicenow.com/docs/access?context=create-record-sn-lens&family=yokohama&ft:locale=en-US)**
+
+The UI of the scanner window has been changed. See the following image.\[Omitted image "image.lens-scanner-new-ui"\] Alt text: Screenshot of the Lens scanner new UI.
+
+When you open the scanner window, the toolbar is displayed outside of it. However, when you maximize the window, the toolbar moves inside.
+
+
+ -   **[Changes to Now Assist usage measurement](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=yokohama&ft:locale=en-US)**
 
 Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
--   **[Some Now Assist skills are now turned on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&family=yokohama&ft:locale=en-US)**
+-   **[Some Now Assist skills are turned on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&family=yokohama&ft:locale=en-US)**
 
 The new default behavior works as follows:
 
@@ -238,7 +261,12 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 ServiceNow AI Lens is available with activation of any Now Assist plugin from the ServiceNow Store. For more information about the prerequisites for using ServiceNow AI Lens, see [Configure](https://www.servicenow.com/docs/access?context=install-sn-lens&family=yokohama&ft:locale=en-US).
+
+
+**Important:** ServiceNow AI Lens is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements

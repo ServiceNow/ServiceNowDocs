@@ -7,7 +7,7 @@ release: yokohama
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [Installing Proactive Triggers, Proactive Triggers, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---

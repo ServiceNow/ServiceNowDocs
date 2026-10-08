@@ -27,6 +27,8 @@ The Problem Management Best Practice — Madrid – Knowledge Integration plugin
 -   Creating a known error article from a problem.
 -   Creating a knowledge base for known error articles.
 
+**Note:** By default, this plugin is activated on new instances.
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **System Applications** &gt; **All Available Applications** &gt; **All**.

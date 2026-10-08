@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/rn-summary-changes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 168
+last_updated: "2026-10-08"
+reading_time_minutes: 171
 breadcrumb: [Release notes summaries for Yokohama features, Release notes for upgrading from Xanadu, Learn about the Yokohama release, Yokohama release notes]
 ---
 
@@ -158,7 +158,7 @@ Methods
 
 </th></tr></thead><tbody><tr><td>
 
-
+[PDFGenerationAPI - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/PDFGenerationAPIBothAPI.md)
 
 </td><td>
 
@@ -180,7 +180,7 @@ Methods
 
 </th></tr></thead><tbody><tr><td>
 
-
+[PDFGenerationAPI - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/PDFGenerationAPIBothAPI.md)
 
 </td><td>
 
@@ -194,7 +194,7 @@ Methods
 </td></tr></tbody>
 </table>|API|Endpoints|
 |---|---------|
-||POST /now/attachment/file: A new parameter, creation\_time, can be used to capture attachment creation times when the Now Mobile app is offline and the attachment is uploaded to a record at a later time.|
+|[Attachment API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/c_AttachmentAPI.md)|POST /now/attachment/file: A new parameter, creation\_time, can be used to capture attachment creation times when the Now Mobile app is offline and the attachment is uploaded to a record at a later time.|
 
 </td></tr><tr><td>
 
@@ -399,10 +399,10 @@ Business Continuity Management
 
 </td><td>
 
--   ****
+-   **[Using latest assessment template for conducting BIAs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/using-smart-asmt-template.md)**
     -   The BIA form displays the assessment questionnaire that is based on the latest assessment template. The **Assessments** tab in the BIA record page has been enhanced to eliminate repetitive UI actions and reduce large empty spaces. The latest assessment template includes additional question types such as drop-down, references, text, attachments, check boxes, date, time, and number value inputs.
     -   The PDF template for the BIA has been updated to include the questions and answers that are based on the latest assessment template.
--   ****
+-   **[Adopting UIB page for improved performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/crisis-map-migration.md)**
 
 The enhancements to the Crisis map user interface are:
 
@@ -411,14 +411,14 @@ The enhancements to the Crisis map user interface are:
     -   The active alerts can be sorted by using the **Severity**, **Created**, **Updated** fields, and can also be toggled from top-to-bottom or bottom-to-top by using the Toggle option.
     -   The alerts display can be updated with the Refresh icon \[Omitted image "refresh-icon.jpg"\] Alt text: Refresh icon..
     -   The active and dismissed alerts are now displayed on the Alerts page.
--   ****
+-   **[Using nested plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/creating-nested-plan-in-event.md)**
 
 The enhancements to the nested plans user interface are:
 
     -   The hierarchical view shows the nested event tasks.
     -   The progress bar displays the progress of the creation of related plans, event assets, or event tasks.
 
--   ****
+-   **[Using latest assessment template for conducting BIAs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/using-smart-asmt-template.md)**
 
 You can use the latest assessment template to conduct the Business Impact Analysis \(BIA\).
 
@@ -511,16 +511,16 @@ The new default behavior works as follows:
 Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
 
--   ****
+-   **[Create data relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/create-data-relationships.md)**
 
 The **Data Relationship** tab has been added to the template configuration record as part of the configuration process for the Document designer Microsoft Word add-in.
 
 
--   **Column Organization**
+-   **[Column Organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/create-an-audit-report-template.md)**
 
 You can select and reorder columns when adding a table into your template by using the Document designer Microsoft Word add-in. You can now organize your content better to meet your reporting needs.
 
--   ****
+-   **[Create content configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/create-content-configurations.md)**
 
 You can add up to 20 columns in a table and content block by using the Document designer application. You now have more flexibility with customizing your table and content block to meet your reporting needs.
 
@@ -531,7 +531,7 @@ Compliance Case Management
 
 </td><td>
 
--   **Roles updated for smart assessment**
+-   **[Roles updated for smart assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/roles-compliance-case-management.md)**
 
 The following roles in Compliance Case Management have been updated with respect to smart assessments.
 
@@ -614,11 +614,11 @@ Continuous Authorization and Monitoring
 
 </td><td>
 
--   **Generate the OSCAL SSP model of an authorization package**
+-   **[Generate the OSCAL SSP model of an authorization package](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/generate-oscal-models.md)**
 
 Export the SSP model of an authorization package in the OSCAL format. The exported report contains only the control objectives linked to the authorization package and their additional information, such as inherited controls and the hierarchy of the control objectives.
 
--   **Generate ATO artifacts in Microsoft Word and HTML templates**
+-   **[Generate ATO artifacts in Microsoft Word and HTML templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/generate-ato-artifacts-cam-ws.md)**
 
 Use the Document designer plugin \(com.sn\_grc\_doc\_design\) to create report templates in Microsoft Word. A new property module has been introduced to select the template type as a Microsoft Word template in addition to an HTML template.
 
@@ -629,7 +629,7 @@ Creator Studio
 
 </td><td>
 
--   **Navigation moved from header to sidebar**
+-   **[Navigation moved from header to sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/creator-studio-add-form.md)**
 
 As of Creator Studio version 27.2.2, the navigation has moved from the application header to a navigation panel so you can more easily see what's in your application. The following changes have been made:
 
@@ -639,20 +639,20 @@ As of Creator Studio version 27.2.2, the navigation has moved from the applicati
     -   The submitted record configuration is now available in the **Record details** in the **Manage your submission configurations** section of the navigation panel.
     -   A search box in the new navigation panel enables you to search all forms and automations in an app.
     -   A bookmark icon \(\[Omitted image "crs-bookmark-icon.png"\] Alt text: bookmark icon\) in the navigation panel enables you to bookmark an app for faster access.
--   **Streamlined app creation**
+-   **[Streamlined app creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/create-app-creator-studio.md)**
 
 As of Creator Studio version 27.2.2, the following changes have been made when you create an app:
 
     -   A new page appears asking you what type of app you want to build, such as a Service Desk app. Note that admins can choose not to display this page.
     -   Choosing a template, adding a form, and previewing it is now a separate process rather than being done during the app creation process.
--   **Form preview change**
+-   **[Form preview change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/creator-studio-edit-form.md)**
 
 As of Creator Studio version 27.2.2, the way you preview forms has changed in the following ways:
 
     -   The option to select between **Portal**, **Now Mobile**, and **Virtual Agent** experiences has moved to the top of the preview.
     -   You can preview only the form you're currently viewing rather than being able to switch between forms in the preview.
     -   The preview no longer shows the record details and workspace configuration. Those items have moved to the new navigation panel.
--   **Request App Workspace more intuitive to use**
+-   **[Request App Workspace more intuitive to use](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/creator-studio-request-app-workspace.md)**
 
 As of Creator Studio version 27.2.2, the Request App Workspace has been streamlined to help fulfillers find and analyze requests more easily. The following changes have been made:
 
@@ -660,24 +660,24 @@ As of Creator Studio version 27.2.2, the Request App Workspace has been streamli
     -   The **Analytics** view has been renamed **Dashboard overview**, and the analytics **Home**, **Data Visualizations**, and **KPIs** tabs have been removed.
     -   A link to the **Request App Workspace** now appears in **All** &gt; **App Engine** &gt; **Workspaces**.
 
--   **Playbooks use only published forms**
+-   **[Playbooks use only published forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/creator-studio-add-automation.md)**
 
 As of Creator Studio version 27.2.2, forms must now be published \(marked as ready\) before you can use them to create an automated playbook.
 
--   **Hide the App Engine Studio template with a new system property**
+-   **[Hide the App Engine Studio template with a new system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/creator-studio-components-installed.md)**
 
 As of Creator Studio version 27.2.2, Creator Studio users who have both App Engine Studio \(AES\) and Creator Studio installed will no longer see the AES template when they create an app. Admins can choose to show the AES template using the new **com.glide.creator\_studio.template\_deny\_list** system property.
 
--   **Form location removed from form creation**
+-   **[Form location removed from form creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/creator-studio-edit-form-settings.md)**
 
 Defining the catalogs and topics for a form is now accomplished by modifying the form settings rather than being done during the form creation process. If you haven't defined a location for a form, you are prompted to do so before you can mark it as ready.
 
 
--   **Search for apps on the home page**
+-   **[Search for apps on the home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/view-apps-creator-studio-home-page.md)**
 
 Quickly find the app that you're looking for using the new search bar on the Creator Studio home page.
 
--   **Save and quickly find apps with bookmarks**
+-   **[Save and quickly find apps with bookmarks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/crs-work-with-bookmarked-apps.md)**
 
 Bookmark apps to find them faster using the new **Bookmarks** pill on the home page.
 
@@ -782,7 +782,7 @@ Decision Builder in Workflow Studio
 
 </td><td>
 
--   **Pagination**
+-   **[Pagination](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/decision-builder-user-interface.md#section_lyv_v4r_ndc)**
 
 Use the pagination feature to switch between pages by selecting the page you'd like to see.
 
@@ -982,7 +982,7 @@ ERP Semantic Mining
 
 </td><td>
 
--   **Faster initialization**
+-   **[Faster initialization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/how-erp-clean-core-inputs-data.md)**
 
 In addition to daily total application statistics, the SQLM and APPSTATS initial scan now also retrieves all monthly total application statistics up to the current date.
 
@@ -1261,7 +1261,7 @@ Flows, subflows, and actions in Workflow Studio
 
 </td><td>
 
--   **Display text descriptions of data changes**
+-   **[Display text descriptions of data changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/exploring-flows.md)**
 
 See a natural language description of the data each component of a flow uses. Understand what data flow triggers, actions, and flow logic blocks use without having to open their configuration details.
 
@@ -1657,7 +1657,7 @@ Mentoring
 
 </td><td>
 
--   **Share mentor names and key dates with my manager check box**
+-   **[Share mentor names and key dates with my manager check box](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/edit-mentee-preferences.md)**
 
 A new **Share mentor names and key dates with my manager** check box is introduced in the mentee preferences form. Selecting this check box shares information with your manager and helps them validate your skill levels.
 
@@ -2316,19 +2316,19 @@ Now Assist in Contract Management
 
 </td><td>
 
--   **Automated obligation extraction**
+-   **[Automated obligation extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/cmpro-na-reminder-agentic-wf.md#section_tgm_mt3_dhc)**
 
 Use the manage contract repository agentic workflow to automatically identify and capture key contractual obligations from signed contracts and create obligation records in the contract repository. The AI agent in the manage contract repository agentic workflow uses the Now Assist Contract obligation extraction skill to extract key contractual obligations from contracts.
 
--   **Using contract playbook to review AI-extracted obligations**
+-   **[Using contract playbook to review AI-extracted obligations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/cmpro-na-review-obligations.md)**
 
 Review extracted obligations in the contract playbook, with options to edit, approve, or reject each obligation. Approved obligations are added as obligation records in the contract repository while rejected obligations are deactivated.
 
--   **Contract obligation extraction skill in Now Assist in Contract Management**
+-   **[Contract obligation extraction skill in Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/cncore-conf-obligation-extraction.md)**
 
 Configure and map use cases for obligation extraction skill in the AI Admin Hub console to automatically extract key contractual obligations from signed contracts. The AI agent in the manage contract repository agentic workflow uses the Now Assist Contract obligation extraction skill to extract key contractual obligations from contracts.
 
--   ****
+-   **[Conversational contract search and insights Workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/cmpro-agentic-use-conv-search.md)**
 
 Contract documents are often complex and stored across multiple formats and repositories, making keyword-based search inefficient and error-prone. The new Now Assist powered conversational search feature enables you to search contract documents using natural language and dialogue-driven queries.
 
@@ -2345,20 +2345,20 @@ The new default behavior works as follows:
 Long term stable \(LTS\) models are part of Now LLM Service and provide longer model stability windows for regulated industries. These models can integrate with tools to provide governance, monitoring, and compliance controls.
 
 
--   **Extract metadata from signed contracts automatically**
+-   **[Extract metadata from signed contracts automatically](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/cmpro-na-reminder-agentic-wf.md)**
 
 Use the AI agents in the Manage contract repository agentic workflow to automatically extract metadata from signed contracts and calculate the contract reminder dates for contract renewal or termination. You can review the AI results in the contract playbook and update it if necessary before saving it.
 
--   ****
+-   **[Contract metadata extraction use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/metadata-extraction-use-case.md)**
 
 Support for 14 additional metadata fields in the CM Pro - Contract Metadata Extraction use case available in the base system.
 
 
--   ****
+-   **[Configuring contract metadata extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/cncore-conf-metadata-extraction.md)**
 
 Create a use case and its associated fields for contract metadata extraction in the AI Admin Hub console to define the information that you want Now Assist to detect in a signed contract.Create a use case mapping in the AI Admin Hub console to map a use case to specific tables and define conditions to apply the use case for metadata extraction.
 
--   ****
+-   **[Configuring contract analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/cmpro-conf-contract-analysis.md)**
 
 Create a use case and its associated question groups for contract analysis in the AI Admin Hub console to identify the non-standard and missing clauses in a contract.Create a clause mapping AI Admin Hub console to map question groups of a use case to active clauses in the clause library to display suggestions for non-standard clauses in a contract.Create an expected response mapping in the AI Admin Hub console to map questions of a use case to an expected response to identify the non-standard clause in a contract.Create a use case mapping in the AI Admin Hub console to map a use case to specific tables and define conditions to apply the use case for contract analysis.
 
@@ -2616,36 +2616,36 @@ Operational Resilience
 
 </td><td>
 
--   **Business services dashboard**
+-   **[Business services dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/opres-ws-homepage-overview.md)**
 
 The Business services dashboard has been added to display business services data.
 
--   **New modules for services and processes**
+-   **[New modules for services and processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/using-csdm-v5.md)**
 
 The Services, Business Services, Service Offerings, and Business Processes modules have been added to the Operational Resilience Workspace. Operational Resilience managers use these modules to manage the services, business services, service offerings, and business processes used in Operational Resilience reporting.
 
--   **Entity Types and Pillars modules**
+-   **[Entity Types and Pillars modules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/manage-entity-types-pillars-from-ws.md)**
 
 The Entity Types and Pillars modules have been added to the Operational Resilience Workspace. These modules enable Operational Resilience managers to update the entity types and pillars directly from the Workspace.
 
--   **Primary origin tab**
+-   **[Primary origin tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/add-impacted-area-to-vul.md)**
 
 The **Primary origin** tab has been added to the Operational vulnerability record to identify the main source and report the upstream entities of the vulnerability.
 
 
--   **Addition of classes to the assessment form**
+-   **[Addition of classes to the assessment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/submit-an-assessment-in-ws.md)**
 
 The Business Service and Offering classes have been added to the **Scope** tab of the assessment form, enabling you to assess the business services and service offerings alongside services. Once the assessment is complete, the importance and impact tolerance of these items are displayed in the Importance and Impact Tolerance columns on the **Scope** tab.
 
--   **Addition of classes to the scenario analysis form**
+-   **[Addition of classes to the scenario analysis form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/scenario-analysis-in-ws.md)**
 
 The Business Service and Offering classes have been added to the **Scope** tab of the scenario analysis form, enabling you to analyze the business services and service offerings alongside services.
 
--   **Addition of classes to the self-attestation form**
+-   **[Addition of classes to the self-attestation form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/self-attestation-in-ws.md)**
 
 The Business Service and Offering classes have been added to the **Scope** tab of the self-attestation form, enabling you to self-attest the business services and service offerings alongside services.
 
--   **Digital resilience incident reporting module**
+-   **[Digital resilience incident reporting module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/drir-module.md)**
 
 The Digital resilience incident reporting module is used to report the Information and Communication Technology \(ICT\) related incidents to the regulators.
 
@@ -2944,7 +2944,7 @@ Opportunity Marketplace
 
 </td><td>
 
--   **A new step is added in the task for creating opportunities.**
+-   **[A new step is added in the task for creating opportunities.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/egd-create-other-opportunities.md)**
 
 You must select how you want to get started with creating an opportunity.
 
@@ -2953,12 +2953,12 @@ You must select how you want to get started with creating an opportunity.
 **Note:** This option is only visible when both Project Workspace and Opportunity Marketplace are installed.
 
     -   **Create on your own** enables Opportunity Marketplace opportunity owners to create opportunities of type **Gig**, **Project**, or **Volunteer**.
--   **Enable selection of multiple user goups to manage which groups of users can view an opportunity.**
+-   **[Enable selection of multiple user goups to manage which groups of users can view an opportunity.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/egd-create-other-opportunities.md)**
 
 Select multiple user criteria groups from the **Who can view this opportunity?** field on the Opportunity details widget page.
 
 
--   **Import Project Workspace project information to create an opportunity**
+-   **[Import Project Workspace project information to create an opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/egd-create-other-opportunities.md)**
 
 Opportunity Marketplace opportunity owners can create Project Opportunity types by importing projects from the ServiceNow® Project Workspace.
 
@@ -2974,9 +2974,9 @@ If you’re assigned the resource\_user role, you can be a resource requester.
 
 The sn\_ppm\_read role provides read-only access to the Portfolio, Program, and Timecard dashboards along with the Resources report to the assigned users.
 
--   **Select multiple user criteria groups**
+-   **[Select multiple user criteria groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/egd-create-other-opportunities.md)**
 
-Opportunity owners can select multiple user criteria groups from the **Who can views this opportunity?** field on the Opportunity details page. For more information, see .
+Opportunity owners can select multiple user criteria groups from the **Who can views this opportunity?** field on the Opportunity details page. For more information, see [Create opportunities in Opportunity Marketplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/egd-create-other-opportunities.md).
 
 
 </td></tr><tr><td>
@@ -3125,11 +3125,11 @@ Privacy Management
 
 </td><td>
 
--   **Tagging of information object tags**
+-   **[Tagging of information object tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/tag-io-with-pi.md)**
 
 Use the **Data classification** field to tag information objects instead of using the tag icon.
 
--   **Initiating privacy assessment**
+-   **[Initiating privacy assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/send-privacy-asmt-from-pa.md)**
 
 When you initiate a privacy assessment from either an entity or a processing activity, you’re no longer redirected to the **Create new privacy assessment form**, instead, a new pop-up window appears where you can specify all the assessment details.
 
@@ -3307,24 +3307,24 @@ The new default behavior works as follows:
 Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
 
--   **Changes on the action task form**
+-   **[Changes on the action task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/create-action-task-using-ws.md)**
 
 The Category: Compliance section and the Category: Risk section on an action task form have been removed. They're replaced by the **Impacted area table** field and the **Impacted area** field.
 
--   **Assess impact**
+-   **[Assess impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/assess-impact-of-reg-change-using-ws.md)**
 
 The **Initiate Impact Assessment** button is now called the **Assess impact** button.
 
 
--   **Overview page of regulatory alerts**
+-   **[Overview page of regulatory alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/list-view-of-reg-alerts.md)**
 
 The Overview page for regulatory alerts includes a drop-down menu that enables you to track the progress of a regulatory assessment. Additionally, you can view the counts of completed, open, and overdue regulatory assessments.
 
--   **Home page updates for Regulatory Change Management**
+-   **[Home page updates for Regulatory Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/rcm-workspace-for-managers.md)**
 
 On the Regulatory Change Management home page, within the Tracking section, a new drop-down menu has the Regulatory Assessments or Risk Assessments options. With these options, regulatory change managers can see the number of open and overdue assessments to help them efficiently monitor the status of their assessments.
 
--   **Regulatory assessments in the Tasks pane**
+-   **[Regulatory assessments in the Tasks pane](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/regulatory-assessment-in-rcm.md)**
 
 The Tasks pane in the Compliance Workspace now displays all the Regulatory assessments.
 
@@ -3574,7 +3574,7 @@ Service Portal
 
 -   **[Use ECMAScript 2021 \(ES12\) JavaScript mode in server scripts for widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/widget-dev-guide.md)**
 
-Use features supported in the ECMAScript 2021 \(ES12\) JavaScript mode in server-side scripts for widgets by selecting **Turn on ECMAScript 2021 \(ES12\) mode** from the widget record or Widget Editor. For information about features supported in the ECMAScript 2021 \(ES12\) JavaScript mode, see .
+Use features supported in the ECMAScript 2021 \(ES12\) JavaScript mode in server-side scripts for widgets by selecting **Turn on ECMAScript 2021 \(ES12\) mode** from the widget record or Widget Editor. For information about features supported in the ECMAScript 2021 \(ES12\) JavaScript mode, see [JavaScript engine feature support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/javascript-engine-feature-support.md).
 
 -   **[Define roles for page route maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/reroute-page.md)**
 
@@ -3792,20 +3792,20 @@ Configure the access control lists for who can discover and trigger AI agents an
 Starting in Yokohama Patch 1, analytics generation supports GPT-4o for generating queries, to provide better accuracy in responses. These improvements include support for up to two levels of dot-walking based on user utterances.
 
 
--   **Find files faster when previewing an application in the Now Assist for app generation skill**
+-   **[Find files faster when previewing an application in the Now Assist for app generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/sns-app-gen-using-landing.md)**
 
 Filter the app files list and narrow the search when previewing an application that is created with the Now Assist for app generation skill.
 
--   **Enhanced visibility of apps created by the Now Assist for app generation skill**
+-   **[Enhanced visibility of apps created by the Now Assist for app generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/sns-app-gen-review-apps.md)**
 
 On the ServiceNow Studio home page, apps that are generated by AI display the AI indicator.
 
 
--   **More easily identify changes when previewing and updating applications**
+-   **[More easily identify changes when previewing and updating applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/sns-app-gen-using-landing.md)**
 
 When previewing an application, any requested changes made by the Now Assist for app generation skill are listed when the preview pane loads.
 
--   **Edit applications without having to change the scope manually**
+-   **[Edit applications without having to change the scope manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/sns-app-gen-review-apps.md)**
 
 When editing applications, the Now Assist for app generation skill now changes the scope that you’re working in to the scope of the application automatically.
 
@@ -4283,31 +4283,31 @@ ServiceNow SDK
 
 </td><td>
 
--   **Subcommands replaced with parameters on the auth command**
+-   **[Subcommands replaced with parameters on the auth command](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/servicenow-sdk-cli-commands.md)**
 
 Configure authentication credentials with the `--add`, `--delete`, `--list`, and `--use` parameters of the `now-sdk auth` command.
 
--   **Dependencies command installs type definitions**
+-   **[Dependencies command installs type definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/servicenow-sdk-cli-commands.md)**
 
 Download TypeScript type definitions for Glide APIs and script includes from a ServiceNow instance based on the scripts in your application.
 
--   **Build command includes --frozenKeys parameter**
+-   **[Build command includes --frozenKeys parameter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/servicenow-sdk-cli-commands.md)**
 
 Validate that the auto-generated `keys.ts` file is up to date for continuous integration \(CI\) builds by setting the `--frozenKeys` parameter to true with the `now-sdk build` command.
 
--   **Deploy command renamed install**
+-   **[Deploy command renamed install](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/servicenow-sdk-cli-commands.md)**
 
 Install or update an application on a ServiceNow instance using the `now-sdk install` command.
 
--   **Automated Test Framework Test API supports two-way synchronization**
+-   **[Automated Test Framework Test API supports two-way synchronization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/atf-test-now-ts.md)**
 
 Synchronize changes to Automated Test Framework tests made outside of source code into source code definitions and back to metadata.
 
--   **Table API supports licensing configurations**
+-   **[Table API supports licensing configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/table-api-now-ts.md)**
 
 Create a licensing configuration \[ua\_table\_licensing\_config\] to track subscription counts for a table with the licensing\_config object in the Table API.
 
--   **Table API supports remote tables**
+-   **[Table API supports remote tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/table-api-now-ts.md)**
 
 Create a remote table with the scriptable\_table property in a Table object.
 
@@ -4318,12 +4318,12 @@ ServiceNow Studio
 
 </td><td>
 
--   ****
+-   **[Create an application in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/create-an-application-in-servicenow-studio.md)**
 
 As of version 27.2.4, the available options at the success page for creating an application changed from **Go to app dashboard** to **View App Details** and **Create File**.
 
 
--   ****
+-   **[Modify an app's settings in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/modify-an-apps-settings-in-servicenow-studio.md)**
 
 The App settings icon in ServiceNow Studio used to open a small modal where only a few settings could be updated and the app could be deleted. In this release, the icon opens a Core UI view of all the app settings and related links for the app.
 
@@ -4440,11 +4440,11 @@ Talent Development Core
 
 </td><td>
 
--   **Credly Badges**
+-   **[Credly Badges](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/achievements-lxp.md)**
 
 As an employee, view your achievement badges on your employee profile. \(Available across multiple applications within Talent Development Core\).
 
--   **Create a growth plan with the help of Now Assist**
+-   **[Create a growth plan with the help of Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/egd-create-growth-plan-with-nowassist.md)**
 
 You can create growth plans with the help of Now Assist. Employees can select the **Build with Now Assist** button to access help from Now Assist.
 
@@ -4473,6 +4473,44 @@ The **Go to Component Editor** button is now labeled either **Style variants**, 
 -   **[Component Editor Interactions States panel updated](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/tb-edit-components.md)**
 
 The Interaction States panel within the Component Editor now refers to either **Interactions** or **Subcomponents**.
+
+
+</td></tr><tr><td>
+
+Third-party Risk Management
+
+</td><td>
+
+-   **[Multiple legal entities making use of the services for contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/tprm-drtp-reg-contract.md)**
+
+If you have the third-party assessor role \[sn\_vdr\_risk\_asmt.vendor\_assessor\], add multiple legal entities that are using services as part of a contract record in the digital resilience third-party registers within the Vendor Management Workspace. Including all entities that are using services associated with a contract is essential for maintaining transparency, helping ensure compliance, and enhancing operational resilience.
+
+
+-   **[Codes and additional identification information for ICT third-party service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/tprm-create-ICT-thirdparty-serv-prov-form.md)**
+
+If you have the third-party assessor role \[sn\_vdr\_risk\_asmt.vendor\_assessor\], help ensure compliance with DORA regulations by adding additional code types and a legal name to third-party and third-party engagement records in the digital resilience third-party registers within the Vendor Management Workspace. Include this information when the legal name of a third party differs from its commonly recognized name, or when you need to record multiple identification codes like a EUID, LEI, or Country code. When supply chain, assessment, or contract records are associated with a third party or third-party engagement using the EUID code type, all relevant fields will be automatically populated.
+
+-   **[Function types for ICT third-party service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/tprm-create-new-function-form.md)**
+
+If you have the third-party assessor role \[sn\_vdr\_risk\_asmt.vendor\_assessor\], help ensure compliance with DORA regulations by using Business capability as an additional function type for function records in the digital resilience third-party registers within the Vendor Management Workspace.
+
+
+-   **[TPRM personalized dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/tprm-monitor-dashboards.md)**
+
+The Third-party insights dashboard and the TPRM custom analytics dashboard are now available from the Dashboards page of the Vendor Management Workspace.
+
+-   **[Third-party portal import modal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/tprm-excel-template-support.md)**
+
+The import modal now enables you to respond to questionnaires by using a Microsoft Excel template. You can download the questionnaire, complete it according to the included instructions, and import the final version into the Third-party portal.
+
+
+-   **[Pre-populate responses using questionnaires](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/tprm-assessing-tpr.md)**
+
+If you have the Third-party risk assessor \[sn\_vdr\_risk\_asmt.vendor\_assessor\] or Third-party risk manager \[sn\_vdr\_risk\_asmt.vendor\_risk\_manager\] role, you can enable third-party and engagement contacts to review and update responses only if necessary by pre-populating questionnaires for engagements and entities with responses from completed questionnaires that are associated with the same third party. The attachment, duration, and signature type responses are excluded. This feature also helps ensure data consistency and accuracy.
+
+-   **[Microsoft Excel questionnaire template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/tprm-excel-template-support.md)**
+
+Streamline the due diligence process by enabling third-party and engagement contacts to respond to questionnaires using a Microsoft Excel template by downloading the questionnaire as a template, completing it according to the included instructions, and importing the final version into the Third-party portal. This feature update enhances flexibility by enabling third-party and engagement contacts to provide information outside the third-party portal. Third-party risk assessors \[sn\_vdr\_risk\_asmt.vendor\_assessor\] and Third-party risk managers \[sn\_vdr\_risk\_asmt.vendor\_risk\_manager\] can access this feature and respond to questionnaires on behalf of Third-party and engagement contacts through the Vendor Management Workspace.
 
 
 </td></tr><tr><td>
@@ -4760,11 +4798,11 @@ Zero Copy Connector for ERP
 
 </td><td>
 
--   ****
+-   **[View ERP Canvas software information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/view-erp-system-information.md)**
 
 From the ERP Canvas system form, view detailed system information including machine type, node name, supported database, and Unicode status.
 
--   **Preview model entities before adding to a model**
+-   **[Preview model entities before adding to a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/erp-canvas-preview-entity.md)**
 
 In the Model Manager, confirm you are adding the correct entity by examining and verifying read table entities before adding the entity to a model.
 

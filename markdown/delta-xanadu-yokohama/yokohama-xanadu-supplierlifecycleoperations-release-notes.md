@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-supplierlifecycleoperations-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 9
+last_updated: "2026-10-08"
+reading_time_minutes: 10
 breadcrumb: [Products combined by family]
 ---
 
@@ -67,9 +67,9 @@ Xanadu
 
 </td><td>
 
--   **[Now Assist for Supplier Lifecycle Operations \(SLO\)](https://www.servicenow.com/docs/access?context=now-assist-slo&family=xanadu&ft:locale=en-US)**
+-   **[ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)](https://www.servicenow.com/docs/access?context=now-assist-slo&family=xanadu&ft:locale=en-US)**
 
-With the Now Assist for Supplier Lifecycle Operations \(SLO\) application, supplier managers and fulfillers can summarize the details of supply-related records to keep them informed about their progress and action items.
+With the ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) application, supplier managers and fulfillers can summarize the details of supply-related records to keep them informed about their progress and action items.
 
 -   **[Supplier Relationship and Performance Management](https://www.servicenow.com/docs/access?context=supplier-performance-management-overview&family=xanadu&ft:locale=en-US)**
     -   Manage supplier relationship and performance to optimize the value and quality of the products and services delivered by suppliers.
@@ -98,7 +98,18 @@ Yokohama
 
 </td><td>
 
--   **[Supplier Operations](https://www.servicenow.com/docs/access?context=supplier-operations&family=yokohama&ft:locale=en-US)**
+-   **[Smart Assessments](https://www.servicenow.com/docs/access?context=slo-campaign-mgmt&family=yokohama&ft:locale=en-US)**
+
+Supplier managers can use the segmentation rules and assessment templates to create smart assessments in bulk for users. Smart assessments provide a survey-like experience with enhanced UI capabilities for both internal and external users. This feature utilizes the capabilities of the Smart Assessment Engine application.
+
+-   **[Emails view for supplier managers](https://www.servicenow.com/docs/access?context=enabling-emails-view-for-contacts&family=yokohama&ft:locale=en-US)**
+
+Supplier managers can access their emails within the Source-to-Pay Workspace from the **Emails** tab in the case, task, and supplier details pages respectively. Email actions are reflected, incomplete email errors are handled, and email-related activities can be summarized from the workspace.
+
+Supplier contacts receive the emails and they can perform the assigned tasks directly via email without logging in to the Supplier Collaboration Portal.
+
+
+ -   **[Supplier Operations](https://www.servicenow.com/docs/access?context=supplier-operations&family=yokohama&ft:locale=en-US)**
 
 Supplier Operations ​ provides support for advanced case management capabilities to handle key supplier lifecycle events such as onboarding, offboarding, and ongoing operations. It includes the ability to resolve cases via Playbooks for a structured and consistent approach.
 
@@ -110,7 +121,7 @@ Supplier managers can identify, prioritize, and track suppliers with high potent
     -   They can initiate credit card enablement journey for new or existing suppliers after checking their propensity scores \(currently requires manual updates\).
     -   They can view the saving estimates associated with the card for a given supplier using the **Savings calculator** tool. They can also view the calculation details of the savings estimator formulas.
 
--   **[Relish Integration](https://www.servicenow.com/docs/access?context=relish-slo-connector&family=yokohama&ft:locale=en-US)**
+ -   **[Relish Integration for Supplier Lifecycle Operations](https://www.servicenow.com/docs/access?context=relish-slo-connector&family=yokohama&ft:locale=en-US)**
 
 Supplier managers can conduct sanction screening, validate banking details change requests, and supplier location change requests via Relish integration.
 
@@ -127,7 +138,15 @@ Supplier contacts can create generic cases by selecting **Request Help** in the 
 The overall supplier performance dashboard provides detailed information about overall supplier scores, count of all active suppliers, their all-time spend, and overall risk ratings. It also includes the Supplier Insights section and the Action plans section showing relevant details.
 
 
--   **[Supplier Relationship and Performance Management](https://www.servicenow.com/docs/access?context=supplier-performance-management-overview&family=yokohama&ft:locale=en-US)**
+ -   **[ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)](https://www.servicenow.com/docs/access?context=now-assist-slo&family=yokohama&ft:locale=en-US)**
+    -   View the summarized details of supply-related cases within the **Now Assist Panel** to keep the supplier managers and fulfillers informed about their progress and action items.
+    -   Case summarization supports multiple languages.
+-   **[AI driven supplier onboarding](https://www.servicenow.com/docs/access?context=supplier-onboarding-agentic-workflow&family=yokohama&ft:locale=en-US)**
+
+Use agentic AI in Now Assist for Supplier Lifecycle Operations \(SLO\) to streamline the supplier onboarding process by automating supplier registration.
+
+
+ -   **[Supplier Relationship and Performance Management](https://www.servicenow.com/docs/access?context=supplier-performance-management-overview&family=yokohama&ft:locale=en-US)**
     -   **Flexible KPI tracking**: Supplier managers can create KPIs directly without predefined templates, which results in simplified KPI creation, enabling faster and more efficient performance tracking.
     -   **Enhanced KPI management**: Improved threshold setup, error messaging, and dashboard visualizations for KPI tracking.
     -   **Multiple dimensions for KPI tracking**: Create supplier-level and contract-level KPIs using KPI templates to measure supplier performance. Contract-level KPIs are created under supplier-level KPIs. The overall KPI value of a supplier is calculated based on the latest aggregated values of all the related contract-level KPIs.
@@ -137,14 +156,6 @@ The overall supplier performance dashboard provides detailed information about o
     -   Supplier contacts can manage multiple supplier records under a single login, with the ability to toggle between records in the Supplier Collaboration Portal. One supplier contact can be the contact for multiple suppliers, provided the suppliers share a parent-subsidiary relationship.
     -   M2M mapping between supplier contact and suppliers also enables supplier contacts to register using a company name across different email domains, thus simplifying onboarding for distributed supplier teams.
     -   M2M mapping between supplier contact and suppliers is available from the Xanadu December 2024 release onwards. To enable this feature, see [Enable M2M mapping between supplier contact and suppliers](https://www.servicenow.com/docs/access?context=enable-m2m-supplier-contacts&family=yokohama&ft:locale=en-US).
-
--   **[Now Assist for Supplier Lifecycle Operations \(SLO\)](https://www.servicenow.com/docs/access?context=now-assist-slo&family=yokohama&ft:locale=en-US)**
-    -   View the summarized details of supply-related cases within the **Now Assist Panel** to keep the supplier managers and fulfillers informed about their progress and action items.
-    -   Case summarization supports multiple languages.
--   **[Using agentic workflows in Now Assist for Supplier Lifecycle Management](https://www.servicenow.com/docs/access?context=agentic-workflows-na-slo&family=yokohama&ft:locale=en-US)**
-
-Use agentic workflows in Now Assist for Supplier Lifecycle Operations \(SLO\) to streamline the supplier onboarding process by automating supplier registration.
-
 
 </td></tr></tbody>
 </table>## Changes
@@ -266,7 +277,12 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Install Supplier Lifecycle Operations by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
+
+**Important:** Supplier Lifecycle Operations is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -417,7 +433,12 @@ Yokohama
 
 </td><td>
 
--   Advanced case management for supplier lifecycle events including onboarding, offboarding, and ongoing operations.
+**Important:**
+
+-   Starting from the Yokohama December 2025 \(v 5.2.0\) release, the Supplier Lifecycle Operations plugin \(com.snc.sn\_supplier\_mgmt\) is renamed to Supplier Case Management. For more information, see [Supplier Case Management](https://www.servicenow.com/docs/access?context=supplier-case-management&family=yokohama&ft:locale=en-US).
+-   The new plugin Supplier Operations \(com.snc.sn\_so\) \(v 1.2.0 \) must be installed after upgrading to the Supplier Case Management Yokohama December 2025 \(v 5.2.0\) release. For more information, see [Install Supplier Operations](https://www.servicenow.com/docs/access?context=install-supplier-ops&family=yokohama&ft:locale=en-US).
+
+ -   Advanced case management for supplier lifecycle events including onboarding, offboarding, and ongoing operations.
 -   Identify and prioritize suppliers for credit card payment adoption.
 -   Estimate card payment benefits using the savings calculator tool.
 -   Conduct sanction screening and validate banking details and supplier location change requests via Relish integration.

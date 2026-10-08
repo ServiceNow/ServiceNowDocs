@@ -7,7 +7,7 @@ release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2025-12-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Enabling Agent Client Collector data collection, Agent Client Collector Framework, Agent Client Collector, IT Operations Management]
 ---
@@ -22,6 +22,7 @@ Ensure that the following plugins are installed on your instance:
 
 -   Discovery \(com.snc.discovery\)
 -   Pattern Designer Enhancements \(com.sn\_itom\_pde\)
+-   **Pattern Allowlist Generator** available as part of Agent Client Collector for Visibility Content 1.5.0 \(202512\)
 
 Role required: discovery\_admin or agent\_client\_collector\_admin
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-playbooksinworkflowstudio-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
@@ -46,7 +46,10 @@ Yokohama
 
 </td><td>
 
+-   **Upgrade information**
+
 After you upgrade to Yokohama, update the Workflow Studio application in the ServiceNow Store.
+
 
 </td></tr></tbody>
 </table>## New features
@@ -95,13 +98,13 @@ Better manage access to your playbooks and playbook components.
 
 Schedule process execution data to be archived, and view the JSON files for your archived data.
 
--   **[Script support for activate, restart, deactivate, and duplicate](https://servicenow.com/docs/bundle/xanadu-release-notes/page/release-notes/now-platform-app-engine/api-rn.html)**
+-   **[Script support for activate, restart, deactivate, and duplicate](https://www.servicenow.com/docs/access?context=api-rn&family=xanadu&ft:locale=en-US)**
 
 Use a script include or business rule that calls the activate, deactivate, restart, or duplicate playbook APIs.
 
--   **[Washington 25.2 release](https://servicenow.com/docs/bundle/washingtondc-release-notes/page/release-notes/now-platform-app-engine/process-automation-designer-rn.html)**
+-   **[Washington 25.2 release](https://www.servicenow.com/docs/access?context=process-automation-designer-rn&family=xanadu&ft:locale=en-US)**
 
-See 25.2 features in the [Washington DC Playbooks release notes](https://servicenow.com/docs/bundle/washingtondc-release-notes/page/release-notes/now-platform-app-engine/process-automation-designer-rn.html):
+See 25.2 features in the [Washington DC Playbooks release notes](https://www.servicenow.com/docs/access?context=process-automation-designer-rn&family=xanadu&ft:locale=en-US):
 
     -   Playbook Assist
 
@@ -111,14 +114,6 @@ Yokohama
 
 </td><td>
 
--   **[Translate playbooks content](https://www.servicenow.com/docs/access?context=add-translations-playbooks&family=yokohama&ft:locale=en-US)**
-
-Add custom translations for labels, descriptions, and UI Layout properties in your playbooks.
-
--   **[Restart playbook activities that end in error](https://www.servicenow.com/docs/access?context=restart&family=yokohama&ft:locale=en-US)**
-
-Configure activities so that end users can restart any activity that ends in an error.
-
 -   **[Support for Retrieval Augmented Generation \(RAG\) with playbook generation](https://www.servicenow.com/docs/access?context=playbook-assist&family=yokohama&ft:locale=en-US)**
 
 Generate playbooks from inputs that refer to custom actions, flows, subflows, content from installed spokes, or activity definitions. Include the names of commonly used and recently published actions, subflows, flows, and activity definitions available on your instance in your playbook generation requests.
@@ -126,6 +121,15 @@ Generate playbooks from inputs that refer to custom actions, flows, subflows, co
 -   **[Generate playbooks with the OpenAI GPT-4o LLM](https://www.servicenow.com/docs/access?context=change-default-llm-playbook-generation&family=yokohama&ft:locale=en-US)**
 
 Use the OpenAI GPT-4o LLM to generate a playbook from text.
+
+
+ -   **[Translate playbooks content](https://www.servicenow.com/docs/access?context=add-translations-playbooks&family=yokohama&ft:locale=en-US)**
+
+Add custom translations for labels, descriptions, and UI Layout properties in your playbooks.
+
+-   **[Restart playbook activities that end in error](https://www.servicenow.com/docs/access?context=restart&family=yokohama&ft:locale=en-US)**
+
+Configure activities so that end users can restart any activity that ends in an error and variant conditions are automatically re-evaluated when playbooks are restarted.
 
 -   **[Add more fields in Create Task activities](https://www.servicenow.com/docs/access?context=create-task-activity&family=yokohama&ft:locale=en-US)**
 
@@ -170,7 +174,12 @@ Yokohama
 
 </td><td>
 
--   **[Change triggers in any playbook](https://www.servicenow.com/docs/access?context=duplicate-process&family=yokohama&ft:locale=en-US)**
+-   **[Trigger label updated](https://www.servicenow.com/docs/access?context=process-automation-designer-triggers&family=yokohama&ft:locale=en-US)**
+
+The trigger is now labeled "Start" in Workflow Studio.
+
+
+ -   **[Change triggers in any playbook](https://www.servicenow.com/docs/access?context=duplicate-process&family=yokohama&ft:locale=en-US)**
 
 Edit triggers when you duplicate a playbook, in a variant, etc.
 
@@ -231,7 +240,8 @@ Yokohama
 
 </td><td>
 
--   If you have the old Create Task activity in your existing playbooks, it will continue to function. You just can't add the extra fields that are available only in the new Create Task activity.
+-   -   
+ -   If you have the old Create Task activity in your existing playbooks, it will continue to function. You just can't add the extra fields that are available only in the new Create Task activity.
 -   If you have the old Checklist activity in your existing playbooks, it will continue to function. You just won't be able to update the checklist directly in Workflow Studio the way that you can with the new Checklist activity.
 
 </td></tr></tbody>
@@ -255,7 +265,7 @@ Xanadu
 
 The application comes with the app in the Workflow Studio ServiceNow Store app. Workflow Studio is part of the ServiceNow AI Platform® and is available by default. Get the latest Workflow Studio features by downloading the ServiceNow Store, as well as related applications like the Process Automation Experience Demo application.
 
- To use the playbook generation feature in Workflow Studio, download the [Now Assist for Creator](https://store.servicenow.com/sn_appstore_store.do#!/store/application/8178fec0ce0431105a7c9305875b2dca) application.
+ To use the playbook generation feature in Workflow Studio, download the [ServiceNow Otto for Creator](https://store.servicenow.com/sn_appstore_store.do#!/store/application/8178fec0ce0431105a7c9305875b2dca) application.
 
  Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
 
@@ -265,11 +275,16 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 The application comes with the application can be downloaded for patch fixes.Workflow Studio ServiceNow Store app. Workflow Studio is part of the ServiceNow AI Platform® and is available by default. Get the latest Workflow Studio features by downloading the latest Workflow Studio app in the ServiceNow Store, as well as related applications like the Process Automation Content and Process Automation Experience Demo applications. The
 
- To use the playbook generation feature in Workflow Studio, download the [Now Assist for Creator](https://store.servicenow.com/sn_appstore_store.do#!/store/application/8178fec0ce0431105a7c9305875b2dca) application.
+To use the playbook generation feature in Workflow Studio, download the [ServiceNow Otto for Creator](https://store.servicenow.com/sn_appstore_store.do#!/store/application/8178fec0ce0431105a7c9305875b2dca) application.
 
- Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
+
+**Important:** Workflow Studio is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -370,7 +385,7 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+-   **Accessibility information**
 
 </td></tr></tbody>
 </table>## Localization information
@@ -399,7 +414,10 @@ Yokohama
 
 </td><td>
 
+-   **Localization information**
+
 Using OpenAI LLMs for playbook generation is not available in the APAC region.
+
 
 </td></tr></tbody>
 </table>## Highlight information

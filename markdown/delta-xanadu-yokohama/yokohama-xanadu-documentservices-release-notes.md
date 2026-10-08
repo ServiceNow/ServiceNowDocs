@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-documentservices-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 4
+last_updated: "2026-10-08"
+reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
 
@@ -122,21 +122,28 @@ Yokohama
 
 </td><td>
 
--   **[PDF generation and accessibility](https://www.servicenow.com/docs/access?context=pdf-generation-accessibility&family=yokohama&ft:locale=en-US)**
+-   **[Summarize button](https://www.servicenow.com/docs/access?context=configure-skill-smart-documents&family=yokohama&ft:locale=en-US).**
+
+The **Summarize** button was changed to the **Ask Now Assist** button.
+
+
+ -   **[Subflows for Shared drives for Google Drive](https://www.servicenow.com/docs/access?context=google-drive-spoke-document-services&family=yokohama&ft:locale=en-US).**
+
+Added Spoke subflows for Shared drives in Google Drive.
+
+
+ -   **[Pop-up window](https://www.servicenow.com/docs/access?context=pdf-generation-accessibility&family=yokohama&ft:locale=en-US)**
+
+Added a pop-up window for list and form export with a check box that enables you to export an individual record or a list of records into a PDF format. The PDF includes accessibility support.
+
+
+ -   **[PDF generation and accessibility](https://www.servicenow.com/docs/access?context=pdf-generation-accessibility&family=yokohama&ft:locale=en-US)**
 
 Export a collection of records or a single record into a PDF format. New system property was added for better accessibility.
 
 -   **[Workflow migration for Managed Documents](https://www.servicenow.com/docs/access?context=c_ManagedDocuments&family=yokohama&ft:locale=en-US)**
 
 Improved usability, low code accessibility, and feature parity due to the newly configured workflows.​
-
--   **[Subflows for Shared drives for Google Drive](https://www.servicenow.com/docs/access?context=google-drive-spoke-document-services&family=yokohama&ft:locale=en-US).**
-
-Added Spoke subflows for Shared drives in Google Drive.
-
--   **[Summarize button](https://www.servicenow.com/docs/access?context=configure-skill-smart-documents&family=yokohama&ft:locale=en-US).**
-
-The **Summarize** button was changed to the **Ask Now Assist** button.
 
 
 </td></tr></tbody>
@@ -228,11 +235,16 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Document Services is a ServiceNow AI Platform feature that is active by default.
 
- Document Management is available with activation of the Document Management plugin \(com.snc.platform\_document\_management\). For more details, see [Activate](https://www.servicenow.com/docs/access?context=activate-doc-mgmt-plugin&family=yokohama&ft:locale=en-US).
+Document Management is available with activation of the Document Management plugin \(com.snc.platform\_document\_management\). For more details, see [Activate](https://www.servicenow.com/docs/access?context=activate-doc-mgmt-plugin&family=yokohama&ft:locale=en-US).
 
- [Multi Provider Document Services Framework](https://www.servicenow.com/docs/access?context=mp-document-services-framework-landing&family=yokohama&ft:locale=en-US) Install Multi Provider Document Services Framework by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+[Multi Provider Document Services Framework](https://www.servicenow.com/docs/access?context=mp-document-services-framework-landing&family=yokohama&ft:locale=en-US) Install Multi Provider Document Services Framework by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
+
+**Important:** Multi Provider Document Services Framework is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -319,7 +331,10 @@ Yokohama
 
 </td><td>
 
+-   **Accessibility information**
+
 Added accessibility support for PDF document generation. PDF accessibility tags are now available to help users who rely on screen readers to navigate, understand, and interact with these generated PDF documents. For more information, see [PDF generation and accessibility](https://www.servicenow.com/docs/access?context=pdf-generation-accessibility&family=yokohama&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Localization information

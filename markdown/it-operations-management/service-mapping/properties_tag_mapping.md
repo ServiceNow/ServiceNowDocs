@@ -7,7 +7,7 @@ release: yokohama
 product: Service Mapping
 classification: service-mapping
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-10-06"
 reading_time_minutes: 1
 breadcrumb: [Service Mapping reference, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
@@ -40,13 +40,22 @@ svc\_by\_tags.install\_status.blacklist
 
 </td><td>
 
-This property contains the list of exclusions based upon the install status separated by commas. Tag-based mapping excludes any tagged CIs with the following install statuses:**Note:** In this context, CIs brought by traversal rules are not considered tagged. This property applies only to original tagged CIs.
+This property contains the list of exclusions based upon the install status separated by commas. Tag-based mapping excludes any tagged CIs with the following install statuses:**Note:** In this context, CIs brought by traversal rules are not considered tagged by default. This property applies only to original tagged CIs unless svc\_by\_tags.install\_status.filter\_traversed\_cis is also set to true.
 
 **Default value**: 7,100
 
  **Other possible values**:
 
  Installed=1, On order=2, In maintenance=3, Pending install=4, Pending repair=5, In stock=6, Retired=7, Stolen=8
+
+</td></tr><tr><td>
+
+svc\_by\_tags.install\_status.filter\_traversed\_cis
+
+</td><td>
+
+Extends the svc\_by\_tags.install\_status.blacklist exclusion to CIs that traversal rules bring into a tag-based service. When set to true, the next service recalculation removes traversed CIs with an excluded install status.-   **Type:** boolean
+-   **Default value:** false
 
 </td></tr><tr><td>
 

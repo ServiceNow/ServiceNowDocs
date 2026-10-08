@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-datamanagementforcsm-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 10
+last_updated: "2026-10-08"
+reading_time_minutes: 11
 breadcrumb: [Products combined by family]
 ---
 
@@ -85,7 +85,7 @@ Associate groups with an internal or external business location through a one-to
 
 -   **[Install Base hierarchy visualization](https://www.servicenow.com/docs/access?context=install_base_hierarchy_visualisation&family=xanadu&ft:locale=en-US)**
 
-View the entire hierarchy of an install base item by using the **Install Base hierarchy** tab on the CSM Configurable Workspace. You can expand the multiple nodes of the hierarchy and create cases for the install base item.
+View the entire hierarchy of an install base item by using the **Install Base hierarchy** tab on the CRM Workspace. You can expand the multiple nodes of the hierarchy and create cases for the install base item.
 
 
 </td></tr><tr><td>
@@ -94,25 +94,23 @@ Yokohama
 
 </td><td>
 
--   **[Naming customer relationship records](https://www.servicenow.com/docs/access?context=adding-related-party-to-case&family=yokohama&ft:locale=en-US)**
+-   **[Billing account store application](https://www.servicenow.com/docs/access?context=configuring-billing-accounts&family=yokohama&ft:locale=en-US)**
 
-Use the Type field through related party configurations to name records in the account team member, contact relationship, consumer relationship, and household member relationship tables. With this functionality, you can identify the relationship that is based on the industry use case.
+Use the new CSM Billing Account Core store app that provides a foundational data model for managing billing accounts across organizations and users. It enables businesses to define, organize, and maintain billing relationships, supporting accurate billing, payments, and scalable financial operations.
 
--   **[Ordering customer relationship records](https://www.servicenow.com/docs/access?context=adding-related-party-to-case&family=yokohama&ft:locale=en-US)**
 
-Organize records in tables such as account team members, consumer relationships, and more by using the **Order** field. You can set the order manually or auto-populate it based on the selected Type through related party configurations. This way, you can arrange records logically based on your use case.
+ -   **[Inbound Request Configuration table](https://www.servicenow.com/docs/access?context=inbound-request-configuration-table&family=yokohama&ft:locale=en-US)**
 
--   **[Enhancements to the declarative responsibility framework](https://www.servicenow.com/docs/access?context=declarative-resposibility-framework&family=yokohama&ft:locale=en-US)**
+Use the Inbound Request Configuration \[sn\_tmt\_core\_inbound\_queue\_config\] table to enable configurations that determine how a flow is executed, whether synchronous or asynchronous.
 
-Enhance the declarative responsibility framework to simplify administration and access management by enabling administrators to do the following tasks:
+Use the **Trigger Notifications** field on the Inbound Request Configuration \[sn\_tmt\_core\_inbound\_queue\_config\] table to enable configuration of notification types, whether default, custom,or no notifications.
 
-    -   Add new granular roles for accessing customer data that is based on responsibility definitions.
-    -   Include additional entities in the framework.
--   **[Subscription metrics for sold products](https://www.servicenow.com/docs/access?context=create-sold-item&family=yokohama&ft:locale=en-US)**
+-   **[Activate Customer Life Cycle Management Self-Service](https://www.servicenow.com/docs/access?context=activate-customer-life-cycle-management-self-service&family=yokohama&ft:locale=en-US)**
 
-Enable agents to track and analyze the pricing information for products and services by using the pricing and subscription revenue metrics on the sold product form on the CSM Configurable Workspace.
+Enable customers who are primary contacts associated to a sold product to perform the Modify, Suspend, Resume, and Disconnect actions on the Business portal..
 
--   **[Project Management for business locations​](https://www.servicenow.com/docs/access?context=csm-ppm-integration&family=yokohama&ft:locale=en-US)**
+
+ -   **[Project Management for business locations​](https://www.servicenow.com/docs/access?context=csm-ppm-integration&family=yokohama&ft:locale=en-US)**
 
 Integrate SPM project management with business locations to support operations such as opening, closing, or modernizing locations. With the project management integration, your teams can track the timelines, collaborate, and execute the business location-facing tasks more effectively.
 
@@ -139,17 +137,24 @@ Use the Customer Life Cycle workflows to do the following tasks:
     -   Create a Modify, Suspend, Resume, and Disconnect order for single or multiple root product inventory records that are associated with a service specification.
     -   Select multiple root product inventories to perform the modify action to create both orders and quotes.
     -   Track the status of the Modify, Suspend, Resume, and Disconnect flows on sold products and product inventory record by using the Sales and Order Management Request Tracker \(sn\_tmt\_core\_inbound\_queue\) table.
--   **[Inbound Request Configuration table](https://www.servicenow.com/docs/access?context=inbound-request-configuration-table&family=yokohama&ft:locale=en-US)**
 
-Use the Inbound Request Configuration \[sn\_tmt\_core\_inbound\_queue\_config\] table to enable configurations that determine how a flow is executed, whether synchronous or asynchronous.
+ -   **[Naming customer relationship records](https://www.servicenow.com/docs/access?context=adding-related-party-to-case&family=yokohama&ft:locale=en-US)**
 
-Use the **Trigger Notifications** field on the Inbound Request Configuration \[sn\_tmt\_core\_inbound\_queue\_config\] table to enable configuration of notification types, whether default, custom,or no notifications.
+Use the Type field through related party configurations to name records in the account team member, contact relationship, consumer relationship, and household member relationship tables. With this functionality, you can identify the relationship that is based on the industry use case.
 
--   **[Activate Customer Life Cycle Management Self-Service](https://www.servicenow.com/docs/access?context=activate-customer-life-cycle-management-self-service&family=yokohama&ft:locale=en-US)**
+-   **[Ordering customer relationship records](https://www.servicenow.com/docs/access?context=adding-related-party-to-case&family=yokohama&ft:locale=en-US)**
 
-Enable customers who are primary contacts associated to a sold product to perform the Modify, Suspend, Resume, and Disconnect actions on the Business portal.
+Organize records in tables such as account team members, consumer relationships, and more by using the **Order** field. You can set the order manually or auto-populate it based on the selected Type through related party configurations. This way, you can arrange records logically based on your use case.
 
-.
+-   **[Enhancements to the declarative responsibility framework](https://www.servicenow.com/docs/access?context=declarative-resposibility-framework&family=yokohama&ft:locale=en-US)**
+
+Enhance the declarative responsibility framework to simplify administration and access management by enabling administrators to do the following tasks:
+
+    -   Add new granular roles for accessing customer data that is based on responsibility definitions.
+    -   Include additional entities in the framework.
+-   **[Subscription metrics for sold products](https://www.servicenow.com/docs/access?context=create-sold-item&family=yokohama&ft:locale=en-US)**
+
+Enable agents to track and analyze the pricing information for products and services by using the pricing and subscription revenue metrics on the sold product form on the CRM Workspace.
 
 
 </td></tr></tbody>
@@ -214,7 +219,28 @@ Yokohama
 
 </td><td>
 
--   **[Product Inventories configurations for Customer Life Cycle Management workflows](https://www.servicenow.com/docs/access?context=product_inventory_configurations&family=yokohama&ft:locale=en-US)**
+-   **[Inbound Request Configuration table](https://www.servicenow.com/docs/access?context=inbound-request-configuration-table&family=yokohama&ft:locale=en-US)**
+
+The Inbound Queue \[sn\_tmt\_core\_inbound\_queue\] table is renamed to Inbound Request table.
+
+Use the **Request Configuration** field on the Inbound Request \[sn\_tmt\_core\_inbound\_queue\] table to reference the Inbound Request Configuration \[sn\_tmt\_core\_inbound\_queue\_config\] table while executing synchronous or asynchronous flows.
+
+
+ -   **[Specification Class on Product Inventory related list](https://www.servicenow.com/docs/access?context=product_inventory_configurations&family=yokohama&ft:locale=en-US)**
+
+The **Specification class** field on the Product Inventory related list provides information on whether the selected product inventory record has a product specification or service specification that is associated with it.
+
+
+ -   **[Notification for case tasks at business locations](https://www.servicenow.com/docs/access?context=manage-business-location-cases&family=yokohama&ft:locale=en-US)**
+
+View the notifications for the case tasks that are associated with the business locations on the Business Location Service Portal \(BLSP\). This way, your location members can stay informed about their pending tasks.
+
+-   **[Case resolution by location staff at other business locations](https://www.servicenow.com/docs/access?context=ebl-as-a-fulfiller&family=yokohama&ft:locale=en-US)**
+
+Enable your location staff, whether at company-owned or third-party-owned organizations \(internal and external business locations\), to handle and resolve issues from other eligible business locations.
+
+
+ -   **[Product Inventories configurations for Customer Life Cycle Management workflows](https://www.servicenow.com/docs/access?context=product_inventory_configurations&family=yokohama&ft:locale=en-US)**
 
 Perform the Modify, Suspend, Resume, and Disconnect operations on product inventory records directly from the Product Inventory related list on the Accounts page.
 
@@ -233,20 +259,6 @@ Migrate the account manager responsibilities from the account team member relati
 -   **[Update roles within relationship agent and relationship contributor](https://www.servicenow.com/docs/access?context=features-supp-and-unsupp-by-unified-consumer&family=yokohama&ft:locale=en-US)**
 
 Modify the roles of the relationship agent and relationship contributor to include the new granular roles that can grant access by responsibilities.
-
--   **[Notification for case tasks at business locations](https://www.servicenow.com/docs/access?context=manage-business-location-cases&family=yokohama&ft:locale=en-US)**
-
-View the notifications for the case tasks that are associated with the business locations on the Business Location Service Portal \(BLSP\). This way, your location members can stay informed about their pending tasks.
-
--   **[Case resolution by location staff at other business locations](https://www.servicenow.com/docs/access?context=ebl-as-a-fulfiller&family=yokohama&ft:locale=en-US)**
-
-Enable your location staff, whether at company-owned or third-party-owned organizations \(internal and external business locations\), to handle and resolve issues from other eligible business locations.
-
--   **[Inbound Request Configuration table](https://www.servicenow.com/docs/access?context=inbound-request-configuration-table&family=yokohama&ft:locale=en-US)**
-
-The Inbound Queue \[sn\_tmt\_core\_inbound\_queue\] table is renamed to Inbound Request table.
-
-Use the **Request Configuration** field on the Inbound Request \[sn\_tmt\_core\_inbound\_queue\] table to reference the Inbound Request Configuration \[sn\_tmt\_core\_inbound\_queue\_config\] table while executing synchronous or asynchronous flows.
 
 
 </td></tr></tbody>
@@ -330,7 +342,7 @@ Customer Service Management is a ServiceNow AI Platform feature that is availabl
 
  Additional Customer Service Management features are available with the activation of other plugins. For details, see [Additional plugins for Customer Service Management](https://www.servicenow.com/docs/access?context=r_CustServMgmtAddtlPluginsTable&family=xanadu&ft:locale=en-US).
 
- Sales and Order Management is a ServiceNow AI Platform feature that is available with the activation of the Lead to Cash Core plugin \(com.snd.l2c.core\). For details, see [Exploring Sales and Order Management](https://www.servicenow.com/docs/access?context=som-exploring&family=xanadu&ft:locale=en-US).
+ Sales Customer Relationship Management is a ServiceNow AI Platform feature that is available with the activation of the Lead to Cash Core plugin \(com.snd.l2c.core\). For details, see [Exploring Sales Customer Relationship Management](https://www.servicenow.com/docs/access?context=som-exploring&family=xanadu&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -338,21 +350,25 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Customer Service Management is a ServiceNow AI Platform feature that is available with activation of the Customer Service Management plugin \(com.sn\_customerservice\). For details, see [Activate Customer Service Management](https://www.servicenow.com/docs/access?context=t_ActivateCustomerService&family=yokohama&ft:locale=en-US).
 
- Additional Customer Service Management features are available with the activation of other plugins. For details, see [Additional plugins for Customer Service Management](https://www.servicenow.com/docs/access?context=r_CustServMgmtAddtlPluginsTable&family=yokohama&ft:locale=en-US).
+Additional Customer Service Management features are available with the activation of other plugins. For details, see [Additional plugins for Customer Service Management](https://www.servicenow.com/docs/access?context=r_CustServMgmtAddtlPluginsTable&family=yokohama&ft:locale=en-US).
 
- Sales and Order Management is a ServiceNow AI Platform feature that is available with the activation of the Lead to Cash Core plugin \(com.snd.l2c.core\). For details, see [Exploring Sales and Order Management](https://www.servicenow.com/docs/access?context=som-exploring&family=yokohama&ft:locale=en-US).
+Sales Customer Relationship Management is a ServiceNow AI Platform feature that is available with the activation of the Lead to Cash Core plugin \(com.snd.l2c.core\). For details, see [Explore](https://www.servicenow.com/docs/access?context=som-exploring&family=yokohama&ft:locale=en-US).
 
- Starting from the Yokohama release, the following plugins are available on ServiceNow Store for quicker and better maintenance:
+Starting from the Yokohama release, the following plugins are available on ServiceNow Store for quicker and better maintenance:
 
--   Install Base Management \(com.snc.install\_base\)
--   Install base characteristics \(com.snc.install\_base\_characteristics\)
--   Customer Service with Service Portfolio management \(com.snc.csm\_spm\)
-
+    -   Install Base Management \(com.snc.install\_base\)
+    -   Install base characteristics \(com.snc.install\_base\_characteristics\)
+    -   Customer Service with Service Portfolio management \(com.snc.csm\_spm\)
 For details, see [Configure install base](https://www.servicenow.com/docs/access?context=configure-install-base&family=yokohama&ft:locale=en-US).
 
- Starting from the Yokohama release, the Business Location plugin \(com.snc.business\_location\) is available on ServiceNow Store for quicker and better maintenance. For details, see [Activate business locations](https://www.servicenow.com/docs/access?context=activate-business-location&family=yokohama&ft:locale=en-US).
+Starting from the Yokohama release, the Business Location plugin \(com.snc.business\_location\) is available on ServiceNow Store for quicker and better maintenance. For details, see [Activate business locations](https://www.servicenow.com/docs/access?context=activate-business-location&family=yokohama&ft:locale=en-US).
+
+
+**Important:** Business Location and Install Base Management are available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -410,7 +426,10 @@ Yokohama
 
 </td><td>
 
+-   **Browser requirements**
+
 Starting with the Yokohama release, data management for Customer Service Management doesn't support mobile devices and Internet Explorer. For more information, see [Browser support](https://www.servicenow.com/docs/access?context=browser-support&family=yokohama&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Accessibility information
@@ -502,7 +521,7 @@ Yokohama
 </td><td>
 
 -   Track the status and other information that is related to the Customer Life Cycle workflows by using the Sales and Order Management Request Tracker \(sn\_tmt\_core\_inbound\_queue\) table.
--   Track pricing and subscription information for products and services on the CSM Configurable Workspace by using the revenue metrics on the sold product form.
+-   Track pricing and subscription information for products and services on the CRM Workspace by using the revenue metrics on the sold product form.
 -   Integrate Strategic Portfolio Management \(SPM\) project management with business locations to create and manage projects across your organization.
 
  See [Data management for Customer Service Management](https://www.servicenow.com/docs/access?context=csm-data-management&family=yokohama&ft:locale=en-US) for more information.

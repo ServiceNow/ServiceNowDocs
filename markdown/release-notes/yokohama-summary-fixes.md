@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/yokohama-summary-fixes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 11
+last_updated: "2026-10-08"
+reading_time_minutes: 16
 breadcrumb: [Learn about the Yokohama release, Yokohama release notes]
 ---
 
@@ -138,6 +138,18 @@ from xanadu patch 3 to yokohama patch 7[csv](https://downloads.docs.servicenow.c
 
 </td></tr><tr><td>
 
+Xanadu Patch 3
+
+</td><td>
+
+Yokohama Patch 11 Hot Fix 4
+
+</td><td>
+
+from xanadu patch 3 to yokohama patch 11 hot fix 4[csv](https://downloads.docs.servicenow.com/prbrn/enus/yokohama/prbs-x03.00-y11.04.csv)
+
+</td></tr><tr><td>
+
 Xanadu Patch 3 Hot Fix 1
 
 </td><td>
@@ -231,6 +243,18 @@ Yokohama Patch 7
 </td><td>
 
 from xanadu patch 3 hot fix 1 to yokohama patch 7[csv](https://downloads.docs.servicenow.com/prbrn/enus/yokohama/prbs-x03.01-y07.00.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 3 Hot Fix 1
+
+</td><td>
+
+Yokohama Patch 11 Hot Fix 4
+
+</td><td>
+
+from xanadu patch 3 hot fix 1 to yokohama patch 11 hot fix 4[csv](https://downloads.docs.servicenow.com/prbrn/enus/yokohama/prbs-x03.01-y11.04.csv)
 
 </td></tr><tr><td>
 
@@ -330,6 +354,18 @@ from xanadu patch 4 to yokohama patch 7[csv](https://downloads.docs.servicenow.c
 
 </td></tr><tr><td>
 
+Xanadu Patch 4
+
+</td><td>
+
+Yokohama Patch 11 Hot Fix 4
+
+</td><td>
+
+from xanadu patch 4 to yokohama patch 11 hot fix 4[csv](https://downloads.docs.servicenow.com/prbrn/enus/yokohama/prbs-x04.00-y11.04.csv)
+
+</td></tr><tr><td>
+
 Xanadu Patch 5
 
 </td><td>
@@ -423,6 +459,18 @@ Yokohama Patch 7
 </td><td>
 
 from xanadu patch 5 to yokohama patch 7[csv](https://downloads.docs.servicenow.com/prbrn/enus/yokohama/prbs-x05.00-y07.00.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 5
+
+</td><td>
+
+Yokohama Patch 11 Hot Fix 4
+
+</td><td>
+
+from xanadu patch 5 to yokohama patch 11 hot fix 4[csv](https://downloads.docs.servicenow.com/prbrn/enus/yokohama/prbs-x05.00-y11.04.csv)
 
 </td></tr><tr><td>
 
@@ -522,6 +570,18 @@ from xanadu patch 7 to yokohama patch 7[csv](https://downloads.docs.servicenow.c
 
 </td></tr><tr><td>
 
+Xanadu Patch 7
+
+</td><td>
+
+Yokohama Patch 11 Hot Fix 4
+
+</td><td>
+
+from xanadu patch 7 to yokohama patch 11 hot fix 4[csv](https://downloads.docs.servicenow.com/prbrn/enus/yokohama/prbs-x07.00-y11.04.csv)
+
+</td></tr><tr><td>
+
 Xanadu Patch 7a
 
 </td><td>
@@ -615,6 +675,18 @@ Yokohama Patch 7
 </td><td>
 
 from xanadu patch 7a to yokohama patch 7[csv](https://downloads.docs.servicenow.com/prbrn/enus/yokohama/prbs-x07a.00-y07.00.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 7a
+
+</td><td>
+
+Yokohama Patch 11 Hot Fix 4
+
+</td><td>
+
+from xanadu patch 7a to yokohama patch 11 hot fix 4[csv](https://downloads.docs.servicenow.com/prbrn/enus/yokohama/prbs-x07a.00-y11.04.csv)
 
 </td></tr><tr><td>
 
@@ -714,6 +786,18 @@ from xanadu patch 8 to yokohama patch 7[csv](https://downloads.docs.servicenow.c
 
 </td></tr><tr><td>
 
+Xanadu Patch 8
+
+</td><td>
+
+Yokohama Patch 11 Hot Fix 4
+
+</td><td>
+
+from xanadu patch 8 to yokohama patch 11 hot fix 4[csv](https://downloads.docs.servicenow.com/prbrn/enus/yokohama/prbs-x08.00-y11.04.csv)
+
+</td></tr><tr><td>
+
 Xanadu Patch 9
 
 </td><td>
@@ -807,6 +891,18 @@ Yokohama Patch 7
 </td><td>
 
 from xanadu patch 9 to yokohama patch 7[csv](https://downloads.docs.servicenow.com/prbrn/enus/yokohama/prbs-x09.00-y07.00.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 9
+
+</td><td>
+
+Yokohama Patch 11 Hot Fix 4
+
+</td><td>
+
+from xanadu patch 9 to yokohama patch 11 hot fix 4[csv](https://downloads.docs.servicenow.com/prbrn/enus/yokohama/prbs-x09.00-y11.04.csv)
 
 </td></tr><tr><td>
 
@@ -906,6 +1002,18 @@ from xanadu patch 9a to yokohama patch 7[csv](https://downloads.docs.servicenow.
 
 </td></tr><tr><td>
 
+Xanadu Patch 9a
+
+</td><td>
+
+Yokohama Patch 11 Hot Fix 4
+
+</td><td>
+
+from xanadu patch 9a to yokohama patch 11 hot fix 4[csv](https://downloads.docs.servicenow.com/prbrn/enus/yokohama/prbs-x09a.00-y11.04.csv)
+
+</td></tr><tr><td>
+
 Xanadu Patch 11 Hot Fix 1
 
 </td><td>
@@ -1002,6 +1110,18 @@ from xanadu patch 11 hot fix 1 to yokohama patch 7[csv](https://downloads.docs.s
 
 </td></tr><tr><td>
 
+Xanadu Patch 11 Hot Fix 1
+
+</td><td>
+
+Yokohama Patch 11 Hot Fix 4
+
+</td><td>
+
+from xanadu patch 11 hot fix 1 to yokohama patch 11 hot fix 4[csv](https://downloads.docs.servicenow.com/prbrn/enus/yokohama/prbs-x11.01-y11.04.csv)
+
+</td></tr><tr><td>
+
 Yokohama Early Access
 
 </td><td>
@@ -1086,6 +1206,18 @@ from yokohama early access to yokohama patch 7[csv](https://downloads.docs.servi
 
 </td></tr><tr><td>
 
+Yokohama Early Access
+
+</td><td>
+
+Yokohama Patch 11 Hot Fix 4
+
+</td><td>
+
+from yokohama early access to yokohama patch 11 hot fix 4[csv](https://downloads.docs.servicenow.com/prbrn/enus/yokohama/prbs-y00.00-y11.04.csv)
+
+</td></tr><tr><td>
+
 Yokohama Early Access Hot Fix 1
 
 </td><td>
@@ -1155,6 +1287,18 @@ Yokohama Patch 7
 </td><td>
 
 from yokohama early access hot fix 1 to yokohama patch 7[csv](https://downloads.docs.servicenow.com/prbrn/enus/yokohama/prbs-y00.01-y07.00.csv)
+
+</td></tr><tr><td>
+
+Yokohama Early Access Hot Fix 1
+
+</td><td>
+
+Yokohama Patch 11 Hot Fix 4
+
+</td><td>
+
+from yokohama early access hot fix 1 to yokohama patch 11 hot fix 4[csv](https://downloads.docs.servicenow.com/prbrn/enus/yokohama/prbs-y00.01-y11.04.csv)
 
 </td></tr><tr><td>
 
@@ -1230,6 +1374,18 @@ from yokohama patch 1 to yokohama patch 7[csv](https://downloads.docs.servicenow
 
 </td></tr><tr><td>
 
+Yokohama Patch 1
+
+</td><td>
+
+Yokohama Patch 11 Hot Fix 4
+
+</td><td>
+
+from yokohama patch 1 to yokohama patch 11 hot fix 4[csv](https://downloads.docs.servicenow.com/prbrn/enus/yokohama/prbs-y01.00-y11.04.csv)
+
+</td></tr><tr><td>
+
 Yokohama Patch 2
 
 </td><td>
@@ -1266,6 +1422,18 @@ from yokohama patch 2 to yokohama patch 7[csv](https://downloads.docs.servicenow
 
 </td></tr><tr><td>
 
+Yokohama Patch 2
+
+</td><td>
+
+Yokohama Patch 11 Hot Fix 4
+
+</td><td>
+
+from yokohama patch 2 to yokohama patch 11 hot fix 4[csv](https://downloads.docs.servicenow.com/prbrn/enus/yokohama/prbs-y02.00-y11.04.csv)
+
+</td></tr><tr><td>
+
 Yokohama Patch 3
 
 </td><td>
@@ -1287,6 +1455,18 @@ Yokohama Patch 7
 </td><td>
 
 from yokohama patch 3 to yokohama patch 7[csv](https://downloads.docs.servicenow.com/prbrn/enus/yokohama/prbs-y03.00-y07.00.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 3
+
+</td><td>
+
+Yokohama Patch 11 Hot Fix 4
+
+</td><td>
+
+from yokohama patch 3 to yokohama patch 11 hot fix 4[csv](https://downloads.docs.servicenow.com/prbrn/enus/yokohama/prbs-y03.00-y11.04.csv)
 
 </td></tr><tr><td>
 
@@ -1314,6 +1494,18 @@ from yokohama patch 3 hot fix 2 to yokohama patch 7[csv](https://downloads.docs.
 
 </td></tr><tr><td>
 
+Yokohama Patch 3 Hot Fix 2
+
+</td><td>
+
+Yokohama Patch 11 Hot Fix 4
+
+</td><td>
+
+from yokohama patch 3 hot fix 2 to yokohama patch 11 hot fix 4[csv](https://downloads.docs.servicenow.com/prbrn/enus/yokohama/prbs-y03.02-y11.04.csv)
+
+</td></tr><tr><td>
+
 Yokohama Patch 3 Hot Fix 5
 
 </td><td>
@@ -1335,6 +1527,18 @@ Yokohama Patch 7
 </td><td>
 
 from yokohama patch 3 hot fix 5 to yokohama patch 7[csv](https://downloads.docs.servicenow.com/prbrn/enus/yokohama/prbs-y03.05-y07.00.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 3 Hot Fix 5
+
+</td><td>
+
+Yokohama Patch 11 Hot Fix 4
+
+</td><td>
+
+from yokohama patch 3 hot fix 5 to yokohama patch 11 hot fix 4[csv](https://downloads.docs.servicenow.com/prbrn/enus/yokohama/prbs-y03.05-y11.04.csv)
 
 </td></tr><tr><td>
 
@@ -1362,6 +1566,18 @@ from yokohama patch 4a to yokohama patch 7[csv](https://downloads.docs.serviceno
 
 </td></tr><tr><td>
 
+Yokohama Patch 4a
+
+</td><td>
+
+Yokohama Patch 11 Hot Fix 4
+
+</td><td>
+
+from yokohama patch 4a to yokohama patch 11 hot fix 4[csv](https://downloads.docs.servicenow.com/prbrn/enus/yokohama/prbs-y04a.00-y11.04.csv)
+
+</td></tr><tr><td>
+
 Yokohama Patch 5
 
 </td><td>
@@ -1383,6 +1599,18 @@ Yokohama Patch 7
 </td><td>
 
 from yokohama patch 5 to yokohama patch 7[csv](https://downloads.docs.servicenow.com/prbrn/enus/yokohama/prbs-y05.00-y07.00.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 5
+
+</td><td>
+
+Yokohama Patch 11 Hot Fix 4
+
+</td><td>
+
+from yokohama patch 5 to yokohama patch 11 hot fix 4[csv](https://downloads.docs.servicenow.com/prbrn/enus/yokohama/prbs-y05.00-y11.04.csv)
 
 </td></tr><tr><td>
 
@@ -1410,6 +1638,18 @@ from yokohama patch 5 hot fix 1 to yokohama patch 7[csv](https://downloads.docs.
 
 </td></tr><tr><td>
 
+Yokohama Patch 5 Hot Fix 1
+
+</td><td>
+
+Yokohama Patch 11 Hot Fix 4
+
+</td><td>
+
+from yokohama patch 5 hot fix 1 to yokohama patch 11 hot fix 4[csv](https://downloads.docs.servicenow.com/prbrn/enus/yokohama/prbs-y05.01-y11.04.csv)
+
+</td></tr><tr><td>
+
 Yokohama Patch 5 Hot Fix 4
 
 </td><td>
@@ -1434,6 +1674,18 @@ from yokohama patch 5 hot fix 4 to yokohama patch 7[csv](https://downloads.docs.
 
 </td></tr><tr><td>
 
+Yokohama Patch 5 Hot Fix 4
+
+</td><td>
+
+Yokohama Patch 11 Hot Fix 4
+
+</td><td>
+
+from yokohama patch 5 hot fix 4 to yokohama patch 11 hot fix 4[csv](https://downloads.docs.servicenow.com/prbrn/enus/yokohama/prbs-y05.04-y11.04.csv)
+
+</td></tr><tr><td>
+
 Yokohama Patch 6
 
 </td><td>
@@ -1443,6 +1695,18 @@ Yokohama Patch 7
 </td><td>
 
 from yokohama patch 6 to yokohama patch 7[csv](https://downloads.docs.servicenow.com/prbrn/enus/yokohama/prbs-y06.00-y07.00.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 6
+
+</td><td>
+
+Yokohama Patch 11 Hot Fix 4
+
+</td><td>
+
+from yokohama patch 6 to yokohama patch 11 hot fix 4[csv](https://downloads.docs.servicenow.com/prbrn/enus/yokohama/prbs-y06.00-y11.04.csv)
 
 </td></tr><tr><td>
 
@@ -1458,6 +1722,18 @@ from yokohama patch 6 hot fix 1 to yokohama patch 7[csv](https://downloads.docs.
 
 </td></tr><tr><td>
 
+Yokohama Patch 6 Hot Fix 1
+
+</td><td>
+
+Yokohama Patch 11 Hot Fix 4
+
+</td><td>
+
+from yokohama patch 6 hot fix 1 to yokohama patch 11 hot fix 4[csv](https://downloads.docs.servicenow.com/prbrn/enus/yokohama/prbs-y06.01-y11.04.csv)
+
+</td></tr><tr><td>
+
 Yokohama Patch 6 Hot Fix 2
 
 </td><td>
@@ -1470,6 +1746,18 @@ from yokohama patch 6 hot fix 2 to yokohama patch 7[csv](https://downloads.docs.
 
 </td></tr><tr><td>
 
+Yokohama Patch 6 Hot Fix 2
+
+</td><td>
+
+Yokohama Patch 11 Hot Fix 4
+
+</td><td>
+
+from yokohama patch 6 hot fix 2 to yokohama patch 11 hot fix 4[csv](https://downloads.docs.servicenow.com/prbrn/enus/yokohama/prbs-y06.02-y11.04.csv)
+
+</td></tr><tr><td>
+
 Yokohama Patch 6 Hot Fix 3
 
 </td><td>
@@ -1479,6 +1767,162 @@ Yokohama Patch 7
 </td><td>
 
 from yokohama patch 6 hot fix 3 to yokohama patch 7[csv](https://downloads.docs.servicenow.com/prbrn/enus/yokohama/prbs-y06.03-y07.00.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 6 Hot Fix 3
+
+</td><td>
+
+Yokohama Patch 11 Hot Fix 4
+
+</td><td>
+
+from yokohama patch 6 hot fix 3 to yokohama patch 11 hot fix 4[csv](https://downloads.docs.servicenow.com/prbrn/enus/yokohama/prbs-y06.03-y11.04.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 7 Hot Fix 2
+
+</td><td>
+
+Yokohama Patch 11 Hot Fix 4
+
+</td><td>
+
+from yokohama patch 7 hot fix 2 to yokohama patch 11 hot fix 4[csv](https://downloads.docs.servicenow.com/prbrn/enus/yokohama/prbs-y07.02-y11.04.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 7 Hot Fix 6
+
+</td><td>
+
+Yokohama Patch 11 Hot Fix 4
+
+</td><td>
+
+from yokohama patch 7 hot fix 6 to yokohama patch 11 hot fix 4[csv](https://downloads.docs.servicenow.com/prbrn/enus/yokohama/prbs-y07.06-y11.04.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 8
+
+</td><td>
+
+Yokohama Patch 11 Hot Fix 4
+
+</td><td>
+
+from yokohama patch 8 to yokohama patch 11 hot fix 4[csv](https://downloads.docs.servicenow.com/prbrn/enus/yokohama/prbs-y08.00-y11.04.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 8 Hot Fix 1
+
+</td><td>
+
+Yokohama Patch 11 Hot Fix 4
+
+</td><td>
+
+from yokohama patch 8 hot fix 1 to yokohama patch 11 hot fix 4[csv](https://downloads.docs.servicenow.com/prbrn/enus/yokohama/prbs-y08.01-y11.04.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 9
+
+</td><td>
+
+Yokohama Patch 11 Hot Fix 4
+
+</td><td>
+
+from yokohama patch 9 to yokohama patch 11 hot fix 4[csv](https://downloads.docs.servicenow.com/prbrn/enus/yokohama/prbs-y09.00-y11.04.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 9 Hot Fix 2
+
+</td><td>
+
+Yokohama Patch 11 Hot Fix 4
+
+</td><td>
+
+from yokohama patch 9 hot fix 2 to yokohama patch 11 hot fix 4[csv](https://downloads.docs.servicenow.com/prbrn/enus/yokohama/prbs-y09.02-y11.04.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 10
+
+</td><td>
+
+Yokohama Patch 11 Hot Fix 4
+
+</td><td>
+
+from yokohama patch 10 to yokohama patch 11 hot fix 4[csv](https://downloads.docs.servicenow.com/prbrn/enus/yokohama/prbs-y10.00-y11.04.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 10 Hot Fix 1
+
+</td><td>
+
+Yokohama Patch 11 Hot Fix 4
+
+</td><td>
+
+from yokohama patch 10 hot fix 1 to yokohama patch 11 hot fix 4[csv](https://downloads.docs.servicenow.com/prbrn/enus/yokohama/prbs-y10.01-y11.04.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 11
+
+</td><td>
+
+Yokohama Patch 11 Hot Fix 4
+
+</td><td>
+
+from yokohama patch 11 to yokohama patch 11 hot fix 4[csv](https://downloads.docs.servicenow.com/prbrn/enus/yokohama/prbs-y11.00-y11.04.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 11 Hot Fix 1
+
+</td><td>
+
+Yokohama Patch 11 Hot Fix 4
+
+</td><td>
+
+from yokohama patch 11 hot fix 1 to yokohama patch 11 hot fix 4[csv](https://downloads.docs.servicenow.com/prbrn/enus/yokohama/prbs-y11.01-y11.04.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 11 Hot Fix 2
+
+</td><td>
+
+Yokohama Patch 11 Hot Fix 4
+
+</td><td>
+
+from yokohama patch 11 hot fix 2 to yokohama patch 11 hot fix 4[csv](https://downloads.docs.servicenow.com/prbrn/enus/yokohama/prbs-y11.02-y11.04.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 11 Hot Fix 3
+
+</td><td>
+
+Yokohama Patch 11 Hot Fix 4
+
+</td><td>
+
+from yokohama patch 11 hot fix 3 to yokohama patch 11 hot fix 4[csv](https://downloads.docs.servicenow.com/prbrn/enus/yokohama/prbs-y11.03-y11.04.csv)
 
 </td></tr></tbody>
 </table>

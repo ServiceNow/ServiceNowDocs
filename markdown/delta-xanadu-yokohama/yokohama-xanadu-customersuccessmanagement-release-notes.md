@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-customersuccessmanagement-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 2
+last_updated: "2026-10-08"
+reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
 
@@ -67,7 +67,33 @@ Xanadu
 
 </td><td>
 
-No updates for this release.
+-   **[Account onboarding playbook](https://www.servicenow.com/docs/access?context=account-lifecycle-playbook-overview&family=xanadu&ft:locale=en-US)**
+
+Manage your account onboarding with the Customer Success Management playbook, which contains activity definitions for onboarding workflows that include key details such as onboarding status and progress, and shares clear instructions on when tasks should be delivered to various stakeholders.
+
+-   **[Account onboarding home page](https://www.servicenow.com/docs/access?context=account-lifecycle-events-onboarding-landing&family=xanadu&ft:locale=en-US)**
+
+Monitor onboarding cases assigned to you, including case tasks, data capture tasks, and associated risks.
+
+-   **[Data import and validation](https://www.servicenow.com/docs/access?context=account-lifecycle-import-flow&family=xanadu&ft:locale=en-US)**
+    -   Upload and process multiple files to the staging table simultaneously.
+    -   Use the Data Import Builder to configure data sources and transform maps for importing data.
+    -   Perform field and record level data validations in the Data Validation Assist table. Additionally, 8 pre-configured field level validations are also available with the base system.
+-   **[Recommended actions for account onboarding](https://www.servicenow.com/docs/access?context=account-lifecycle-events-recommend-action&family=xanadu&ft:locale=en-US)**
+
+Provide guidance and recommended actions to the user based on the context of the current record so agents can take appropriate actions as required. Additionally, agents can use guided decision trees to navigate and troubleshoot the onboarding process.
+
+-   **[View account onboarding cases in the Consumer Service Portal](https://www.servicenow.com/docs/access?context=account-lifecycle-view-csm-portal&family=xanadu&ft:locale=en-US)**
+
+View Customer Success Management onboarding case records or case task records on the CSM portal to see details of the Customer Success Management onboarding journey.
+
+-   **[Improve adoption and reduce attrition with Customer Success](https://www.servicenow.com/docs/access?context=account-lifecycle-events-customer-success-about&family=xanadu&ft:locale=en-US)**
+
+Use the Customer Success feature to engage with your customers, mitigate risks by running success plays, and identify opportunities for expansion and renewals.
+
+    -   Monitor your success portfolio on the Success landing page. View the status of your current engagements, upcoming renewals, and new engagements.
+    -   View engagement details including success initiatives, success blueprint, and monitor your success cases.
+    -   Create success plays and success blueprints to define manual or automated activities using the workflow launcher.
 
 </td></tr><tr><td>
 
@@ -75,7 +101,30 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+-   **[Health framework](https://www.servicenow.com/docs/access?context=account-lifeycle-health-frmwk&family=yokohama&ft:locale=en-US)**
+
+Define the key business and operational indicators and their impact on the overall health of an engagement. You can provide insights that help identify the trends and determine if the engagement is stable.
+
+-   **[Risk framework](https://www.servicenow.com/docs/access?context=account-lifecycle-risk-frmwrk&family=yokohama&ft:locale=en-US)**
+
+Centralize, track, and monitor the relational risks so that you can reduce customer turnover. You can identify risk signals and create repeatable remediation plans.
+
+-   **[Success blueprint builder](https://www.servicenow.com/docs/access?context=account-lifecycle-success-blueprint&family=yokohama&ft:locale=en-US)**
+
+Create standardized objectives and outcomes for an engagement. Your customer success managers can prioritize the requirements and identify the outcomes that provide the maximum customer impact.
+
+-   **[Success initiative roadmap](https://www.servicenow.com/docs/access?context=account-lifecycle-success-roadmap&family=yokohama&ft:locale=en-US)**
+
+Create a timeline view of the success initiatives and view the status, timing, and priority of these activities.
+
+-   **[Touchpoints enhancements](https://www.servicenow.com/docs/access?context=account-lifecycle-touchpoints&family=yokohama&ft:locale=en-US)**
+
+Use a touchpoint to track and manage your customer interactions through meetings and emails. With the touchpoint planner, you can help to ensure that all customer interactions and related activities are taking place on time with expected results.
+
+-   **[Case summarization for onboarding cases, engagements, and touchpoints](https://www.servicenow.com/docs/access?context=now-assist-spmc&family=yokohama&ft:locale=en-US)**
+
+Use generative AI to get a high-level summary of the status of your engagements, onboarding cases, and touchpoints.
+
 
 </td></tr></tbody>
 </table>## Changes
@@ -104,7 +153,18 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+-   **[Success portfolio](https://www.servicenow.com/docs/access?context=account-lifecycle-success-landing&family=yokohama&ft:locale=en-US)**
+
+The Success portfolio dashboard provides visibility into the overall health of a customer success manager's portfolio. With this dashboard, you can view the health of an engagement, individual indicators, health and risk trends, and touchpoints.
+
+-   **[Engagement page enhancements](https://www.servicenow.com/docs/access?context=account-lifecycle-view-engage&family=yokohama&ft:locale=en-US)**
+
+Use the engagement home page to see a high-level overview of an engagement. You can also view the current health score, identify issues, and monitor objectives and outcomes.
+
+-   **[Data import enhancements](https://www.servicenow.com/docs/access?context=account-lifecycle-import-data&family=yokohama&ft:locale=en-US)**
+
+Optimize the onboarding process by importing and publishing a large amount of data and resolve any errors or issues​ quickly.
+
 
 </td></tr></tbody>
 </table>## Removed
@@ -183,7 +243,7 @@ Xanadu
 
 </td><td>
 
-No updates for this release.
+Install Customer Success Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -191,7 +251,12 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+-   **Activation information**
+
+Install Customer Success Management by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
+
+**Important:** Customer Success Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -328,7 +393,13 @@ Xanadu
 
 </td><td>
 
-No updates for this release.
+-   Improve customer experience with process-based playbooks for onboarding cases.
+-   View onboarding cases and case tasks on the Customer Service Portal.
+-   Improve data capture and validation with the Data Import Builder and Data Validation Assist features.
+-   Define and measure business outcomes with documented success plans to promote value.
+-   Create customer engagements and monitor their health and evaluate progress.
+
+ See [Account Lifecycle Events](https://www.servicenow.com/docs/access?context=account-lifecycle-events-landing&family=xanadu&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -336,7 +407,13 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+-   Define, measure, and track the overall health of an engagement and monitor risk signals and issues.
+-   Manage all customer interactions in a single place and organize them with the touchpoint calendar.​
+-   Create templates to define common success objectives and outcomes and associate them with a product.
+-   Use ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) to summarize account onboarding cases, engagements, and touchpoints.
+-   Integrate your ServiceNow instance with external Customer Relationship Management \(CRM\) platforms during the engagement life cycle.
+
+ See [Account Lifecycle Events](https://www.servicenow.com/docs/access?context=account-lifecycle-events-landing&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/delta-xanadu-yokohama/rn-combined-intro.md)

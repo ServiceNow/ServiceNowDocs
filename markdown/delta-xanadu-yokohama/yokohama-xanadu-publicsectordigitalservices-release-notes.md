@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-publicsectordigitalservices-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 8
 breadcrumb: [Products combined by family]
 ---
@@ -38,7 +38,7 @@ Xanadu
 
 </td><td>
 
-After the upgrade, certain public sector menus and menu items in CSM Configurable Workspace revert to their original CSM label names. You can relabel these items for public sector use by updating the UX List Categories for Customer and Service Organizations. For more details on relabeling, navigate to **All** &gt; **Constituent Service** &gt; **Administration** &gt; **Guided Setup**, and select **Configurable Workspace for Public Sector Digital Services** &gt; **Customize Workspace Labels Manually**.
+After the upgrade, certain public sector menus and menu items in CRM Workspace revert to their original CSM label names. You can relabel these items for public sector use by updating the UX List Categories for Customer and Service Organizations. For more details on relabeling, navigate to **All** &gt; **Constituent Service** &gt; **Administration** &gt; **Guided Setup**, and select **Configurable Workspace for Public Sector Digital Services** &gt; **Customize Workspace Labels Manually**.
 
 </td></tr><tr><td>
 
@@ -46,7 +46,10 @@ Yokohama
 
 </td><td>
 
-After the upgrade, certain public sector menus and menu items in the CSM Configurable Workspace revert to their original CSM label names. You can relabel these items for public sector use by updating the labels for the **Customer**, **Accounts**, and **Service Organizations** UX list category records. For more details on relabeling, navigate to **All** &gt; **Constituent Service** &gt; **Administration** &gt; **Guided Setup**, and select **Configurable Workspace for Public Sector Digital Services** &gt; **Customize Workspace Labels Manually**.
+-   **Upgrade information**
+
+After the upgrade, certain public sector menus and menu items in the CRM Workspace revert to their original CSM label names. You can relabel these items for public sector use by updating the labels for the **Customer**, **Accounts**, and **Service Organizations** UX list category records. For more details on relabeling, navigate to **All** &gt; **Constituent Service** &gt; **Administration** &gt; **Guided Setup**, and select **Configurable Workspace for Public Sector Digital Services** &gt; **Customize Workspace Labels Manually**.
+
 
 </td></tr></tbody>
 </table>## New features
@@ -79,9 +82,9 @@ Streamline how you communicate with your constituents with easy appointment book
 
 Redact sensitive content, data, or entire documents within the document management tool in the Information Request Playbook. You can either highlight bodies of text, or search for strings of text and designate them to be redacted. This functionality is only available to information request case agents for documents in the Published or Draft state. New versions of the same document are generated each time that text is redacted or unredacted.
 
--   **[Now Assist for Public Sector Digital Services \(PSDS\)](https://www.servicenow.com/docs/access?context=now-assist-for-psds&family=xanadu&ft:locale=en-US)**
+-   **[ServiceNow Otto for Public Sector Digital Services \(PSDS\)](https://www.servicenow.com/docs/access?context=now-assist-for-psds&family=xanadu&ft:locale=en-US)**
 
-Condense case records into short summaries by using the case summarization skill in the Now Assist for PSDS application. Agents can use the resolution summarization skill to generate resolution information for a case, propose the resolution to the customer, and add the information to the case record. The Now Assist for PSDS application brings generative AI case summarization and resolution notes generation to Public Sector Digital Services.
+Condense case records into short summaries by using the case summarization skill in the ServiceNow Otto for PSDS application. Agents can use the resolution summarization skill to generate resolution information for a case, propose the resolution to the customer, and add the information to the case record. The ServiceNow Otto for PSDS application brings generative AI case summarization and resolution notes generation to Public Sector Digital Services.
 
 
 </td></tr><tr><td>
@@ -94,13 +97,14 @@ Yokohama
 
 Simplify and streamline Grant application intake and screening​ with Grants Management:​ Intake and Screening, a part of Grants Management. Improve self-service with a Grants Portal that streamlines finding, applying for, and tracking grants, with added features such as guided intake, and a save, resume, and export functionality. Set up and manage grant programs easily with guided steps​ using Grants Management: ​Program Set Up​, which guides grant program managers through the process of creating, publishing, and managing grant programs.​
 
--   **[Communicate and share citizen and agent data securely between agencies using for Public Sector Digital Services](https://www.servicenow.com/docs/access?context=servicebridge-psds-exploring&family=yokohama&ft:locale=en-US)**
+-   **[Communicate and share citizen and agent data securely between agencies using Service Exchange for Public Sector Digital Services](https://www.servicenow.com/docs/access?context=servicebridge-psds-exploring&family=yokohama&ft:locale=en-US)**
 
 Connect multiple ServiceNow instances to provide seamless support and service experiences across the Public Sector​ using Service Bridge for Public Sector Digital Services. Service Bridge enables unified case collaboration across agencies, streamlined approval workflows for funding distribution, and real-time crisis coordination with dynamic task management. Agencies can share citizen &amp; agency data securely through ​compliance-driven access.​​​
 
--   **[Post-chat summarization in Now Assist for Public Sector Digital Services \(PSDS\)](https://www.servicenow.com/docs/access?context=now-assist-psds-summarize-chat&family=yokohama&ft:locale=en-US)**
 
-Condense chat records into short summaries using the chat summarization skill in the Now Assist for PSDS application. Agents can use the chat summarization skill to generate chat records for a case, auto-populate the chat summary into the Interaction section of the case record, and obtain a summary of the main points discussed during the chat, helping them propose a case resolution. The Now Assist for PSDS application brings generative AI chat summarization to Public Sector Digital Services.
+ -   **[Post-chat summarization in ServiceNow Otto for Public Sector Digital Services \(PSDS\)](https://www.servicenow.com/docs/access?context=now-assist-psds-summarize-chat&family=yokohama&ft:locale=en-US)**
+
+Condense chat records into short summaries using the chat summarization skill in the ServiceNow Otto for PSDS application. Agents can use the chat summarization skill to generate chat records for a case, auto-populate the chat summary into the Interaction section of the case record, and obtain a summary of the main points discussed during the chat, helping them propose a case resolution. The ServiceNow Otto for PSDS application brings generative AI chat summarization to Public Sector Digital Services.
 
 
 </td></tr></tbody>
@@ -227,7 +231,12 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Install Public Sector Digital Services applications by requesting them from the ServiceNow Store. For details on installing the applications, see [Configuring Public Sector Digital Services](https://www.servicenow.com/docs/access?context=configuring-public-sector-digital-services&family=yokohama&ft:locale=en-US). Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
+
+**Important:** Public Sector Digital Services is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -367,7 +376,7 @@ Xanadu
 -   Added enhancements to License and Permit Playbook, including updates to the Intake stage for applicants on the constituent Government Service Portal, and added functionality for specifying license details and license endorsements on the agent playbook.
 -   Added enhancements to Social Benefits Playbook, including updates to the Intake and Decision stage, and updates to the process playbook for applicants on the Government Service Portal.
 -   Redact sensitive content or data from PDF documents in the Information Request Playbook.
--   Auto-generate case summaries and case resolution notes for cases in the Social Benefits Playbook by using the Now Assist for Public Sector Digital Services \(PSDS\) application.
+-   Auto-generate case summaries and case resolution notes for cases in the Social Benefits Playbook by using the ServiceNow Otto for Public Sector Digital Services \(PSDS\) application.
 
  See [Public Sector Digital Services](https://www.servicenow.com/docs/access?context=bun-public-sector-landing-page&family=xanadu&ft:locale=en-US) for more information.
 
@@ -379,7 +388,7 @@ Yokohama
 
 -   Review requests for grants, and create new grant programs using Grants Management.
 -   Connect multiple ServiceNow instances to provide seamless support and service experiences across the Public Sector​ using for Service Bridge for Public Sector Digital Services.
--   Utilize the Chat summarization skill, powered by Now LLM Service, to auto-generate chat summaries for customer-agent interactions in the Now Assist for Public Sector Digital Services \(PSDS\) application.
+-   Utilize the Chat summarization skill, powered by Now LLM, to auto-generate chat summaries for customer-agent interactions in the ServiceNow Otto for Public Sector Digital Services \(PSDS\) application.
 
  See [Public Sector Digital Services](https://www.servicenow.com/docs/access?context=bun-public-sector-landing-page&family=yokohama&ft:locale=en-US) for more information.
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-impact-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 13
 breadcrumb: [Products combined by family]
 ---
@@ -46,7 +46,10 @@ Yokohama
 
 </td><td>
 
+-   **Upgrade information**
+
 The Impact Store Application configuration requires a sequence of tasks. See [Configuring the Impact Store Application](https://www.servicenow.com/docs/access?context=configuring-impact-platform&family=yokohama&ft:locale=en-US) for details.
+
 
 </td></tr></tbody>
 </table>## New features
@@ -139,7 +142,8 @@ Yokohama
     -   [Connect to the provider instance](https://www.servicenow.com/docs/access?context=connect-instance-impact-store-app&family=yokohama&ft:locale=en-US): The administrator or a named contact log in to your instance to facilitate the connection of data with the Impact Store Application.
     -   [Product Adoption](https://www.servicenow.com/docs/access?context=product-adoption&family=yokohama&ft:locale=en-US): Start an initiative from an individual capability to log and track your activities toward the implementation. The reference of the created initiative is available in the capability details and initiatives roadmap. The reference of the created initiative is available in the capability details and initiatives roadmap.
     -   [Healthscan definitions updates: May 2025 store](https://www.servicenow.com/docs/access?context=healthscan-definitions-may-store&family=yokohama&ft:locale=en-US): Some HealthScan definitions have been updated or deprecated for the May store release.
--   **[Accelerator catalog](https://www.servicenow.com/docs/access?context=accelerator-catalog&family=yokohama&ft:locale=en-US)**
+
+ -   **[Accelerator catalog](https://www.servicenow.com/docs/access?context=accelerator-catalog&family=yokohama&ft:locale=en-US)**
     -   [Jumpstart Your Employee Journey Management](https://www.servicenow.com/docs/access?context=jumpstart-employee-journey-management&family=yokohama&ft:locale=en-US): Provides a demonstration of the possibilities and capabilities of Employee Journey Management.
     -   [Jumpstart Your Knowledge Management](https://www.servicenow.com/docs/access?context=jumpstart-knowledge-management&family=yokohama&ft:locale=en-US): Provides a demonstration of the possibilities and capabilities of Knowledge Management.
     -   [Jumpstart Your Legacy Workflow Migration](https://www.servicenow.com/docs/access?context=jumpstart-legacy-workflow-migration&family=yokohama&ft:locale=en-US): Provides a demonstration of the possibilities and capabilities of Legacy Workflow Migration.
@@ -210,17 +214,6 @@ Yokohama
 
 </td><td>
 
--   **New [Impact Store Application](https://www.servicenow.com/docs/access?context=impact-store-app&family=yokohama&ft:locale=en-US) experience**
-
-The new Impact Store Application provides a more efficient, streamlined way for you to work. For information about how to upgrade, see [Configuring the Impact Store Application](https://www.servicenow.com/docs/access?context=configuring-impact-platform&family=yokohama&ft:locale=en-US). Note that [Impact Delivery Instance \(formerly Impact Digital Experience\)](https://www.servicenow.com/docs/access?context=impact-digital-experience&family=yokohama&ft:locale=en-US) is still supported in this release.
-
--   **[Value Management](https://www.servicenow.com/docs/access?context=impact-value-journey&family=yokohama&ft:locale=en-US) name changes:**
-    -   Impact Value Journey is renamed to Impact Value
-    -   Value Blueprint is renamed to Objectives and Outcomes.
-    -   Outcomes Performance is renamed to Outcomes Insights.
-    -   Business Objectives is renamed to Objectives.
-    -   Operational Outcomes is renamed to Outcomes.
-    -   Business Value Report is renamed to Value Report.
 -   **[Impact Workspace name change](https://www.servicenow.com/docs/access?context=impact-in-platform-home&family=yokohama&ft:locale=en-US)**
 
 Impact Workspace has been renamed as Impact.
@@ -232,6 +225,11 @@ Impact users who have migrated from the Impact Delivery Instance may access Quic
 -   **[Custom payload in Instance Observer alerts integration](https://www.servicenow.com/docs/access?context=custom-payload-help-guide-impact&family=yokohama&ft:locale=en-US)**
 
 Define and manage a custom JSON request payload for ServiceNow and third-party integrations with the Instance Observer enhancements.
+
+
+ -   **New [Impact Store Application](https://www.servicenow.com/docs/access?context=impact-store-app&family=yokohama&ft:locale=en-US) experience**
+
+The new Impact Store Application provides a more efficient, streamlined way for you to work. For information about how to upgrade, see [Configuring the Impact Store Application](https://www.servicenow.com/docs/access?context=configuring-impact-platform&family=yokohama&ft:locale=en-US). Note that [Impact Delivery Instance \(formerly Impact Digital Experience\)](https://www.servicenow.com/docs/access?context=impact-digital-experience&family=yokohama&ft:locale=en-US) is still supported in this release.
 
 -   **[Accelerator catalog](https://www.servicenow.com/docs/access?context=accelerator-catalog&family=yokohama&ft:locale=en-US)**
 
@@ -246,9 +244,6 @@ The following Accelerators are renamed:
 
     -   Jumpstart Your Now Assist for ITSM is now [Jumpstart Your AI Agents for ITSM](https://www.servicenow.com/docs/access?context=jumpstart-your-ai-agents-for-itsm&family=yokohama&ft:locale=en-US)
     -   Jumpstart Your Now Assist for CSM is now [Jumpstart Your AI Agents for CSM](https://www.servicenow.com/docs/access?context=jumpstart-ai-agents-csm&family=yokohama&ft:locale=en-US)
--   **[Impact packages](https://www.servicenow.com/docs/access?context=impact-packages&family=yokohama&ft:locale=en-US)**
-    -   Add-on SKUs have been updated to provide additional flexibility for Impact customers and are available in all environments where Impact is available.
-    -   Updates to the Impact Advanced package, offered pursuant to the applicable Impact Accelerator Description available at  [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html).
 -   **[Data Collection Toolkit](https://www.servicenow.com/docs/access?context=data-collection-toolkit&family=yokohama&ft:locale=en-US)**
     -   Download the content packs for both regulated \(GCC/NSC\) and non-regulated customers.
     -   Automatically transfer Impact Value Metrics to the centralized Impact instance to manage the value journey, including setting value baselines and targets, outcome performance reviews, and the value report with the enhanced toolkit.
@@ -256,6 +251,22 @@ The following Accelerators are renamed:
 
 With the Yokohama release, Impact Digital Experience \(IDE\) has been renamed as Impact Delivery Instance \(IDI\).
 
+
+ -   **[Impact Store Application](https://www.servicenow.com/docs/access?context=impact-store-app&family=yokohama&ft:locale=en-US)**
+
+Impact is accessible in both the Impact Delivery Instance, formerly the Impact Digital Experience, and as the ServiceNow Impact Store Application.
+
+
+ -   **[Value Management](https://www.servicenow.com/docs/access?context=impact-value-journey&family=yokohama&ft:locale=en-US) name changes:**
+    -   Impact Value Journey is renamed to Impact Value
+    -   Value Blueprint is renamed to Objectives and Outcomes.
+    -   Outcomes Performance is renamed to Outcomes Insights.
+    -   Business Objectives is renamed to Objectives.
+    -   Operational Outcomes is renamed to Outcomes.
+    -   Business Value Report is renamed to Value Report.
+-   **[Impact packages](https://www.servicenow.com/docs/access?context=impact-packages&family=yokohama&ft:locale=en-US)**
+    -   Add-on SKUs have been updated to provide additional flexibility for Impact customers and are available in all environments where Impact is available.
+    -   Updates to the Impact Advanced package, offered pursuant to the applicable Impact Accelerator Description available at  [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html).
 
 </td></tr></tbody>
 </table>## Removed
@@ -284,7 +295,7 @@ Yokohama
 
 </td><td>
 
-The Expert Connect Accelerator is no longer supported as of Yokohama.
+No updates for this release.
 
 </td></tr></tbody>
 </table>## Deprecations
@@ -313,7 +324,7 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+The Expert Connect Accelerator is no longer supported as of Yokohama.
 
 </td></tr></tbody>
 </table>## Activation information
@@ -342,11 +353,15 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Impact is available for activation with a separate subscription. Your Customer Success Manager sets entitlement information for access.
 
--   Impact Delivery Instance is accessed using your unique portal URL. Your Impact Squad sends you login information to access your IDI portal.
--   For the Impact Store Application, see [Install the Impact Store Application from the ServiceNow Store](https://www.servicenow.com/docs/access?context=install-impact-innovation-lab&family=yokohama&ft:locale=en-US) for activation details.
--   Proactive Code Check can be activated in your production and non-production instances. See [Configuring Proactive Code Check](https://www.servicenow.com/docs/access?context=configuring-proactive-code-check&family=yokohama&ft:locale=en-US) for details.
+    -   Impact Delivery Instance is accessed using your unique portal URL. Your Impact Squad sends you login information to access your IDI portal.
+    -   For the Impact Store Application, see [Install the Impact Store Application from the ServiceNow Store](https://www.servicenow.com/docs/access?context=install-impact-innovation-lab&family=yokohama&ft:locale=en-US) for activation details.
+    -   Proactive Code Check can be activated in your production and non-production instances. See [Configuring Proactive Code Check](https://www.servicenow.com/docs/access?context=configuring-proactive-code-check&family=yokohama&ft:locale=en-US) for details.
+
+**Important:** Impact is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements

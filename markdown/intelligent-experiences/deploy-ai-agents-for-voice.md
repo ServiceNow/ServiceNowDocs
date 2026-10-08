@@ -52,5 +52,5 @@ By using this feature, you confirm that your use \(including use by your service
 **Related topics**  
 
 
-[bundle-itsm.now-assist-itsm-aiagents-voice]
+[Using the IT Service Management Now Assist Voice AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/now-assist-itsm-aiagents-voice.md)
 

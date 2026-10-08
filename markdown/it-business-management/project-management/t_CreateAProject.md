@@ -43,15 +43,15 @@ You can also use the multi-currency feature to create a project in a local curre
 
 1.  Create a project in any of the following ways.
 
-<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d219448e150">
+<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d219454e150">
 
 Location
 
-</th><th align="left" id="d219448e153">
+</th><th align="left" id="d219454e153">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d219448e159">
+</th></tr></thead><tbody><tr><td id="d219454e159">
 
 **From the Projects list**
 
@@ -59,7 +59,7 @@ Steps
 
 Navigate to **All** &gt; **Project** &gt; **Projects** &gt; **Create New**.
 
-</td></tr><tr><td id="d219448e185">
+</td></tr><tr><td id="d219454e185">
 
 **From the project workspace**
 
@@ -73,7 +73,7 @@ Navigate to **All** &gt; **Project** &gt; **Projects** &gt; **Create New**.
 </td></tr></tbody>
 </table>2.  On the form, fill in the fields.
 
-    For field information, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/create-a-project-form.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/create-a-project-form.md).
+    For field information, see [Project form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/create-a-project-form.md).
 
 3.  Select **Submit**.
 
@@ -130,7 +130,7 @@ Migrate the financial baselines of your project to Next Experience to manage the
 **Related topics**  
 
 
-[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/create-a-project-form.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/create-a-project-form.md)
+[Project form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/create-a-project-form.md)
 
 [Project Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/ppm-collaboration/c_ProjectPortfolioSuite.md)
 

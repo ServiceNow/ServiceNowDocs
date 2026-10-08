@@ -7,7 +7,7 @@ release: yokohama
 product: Asset Management
 classification: asset-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 2
 breadcrumb: [Using Asset Management, Asset Management, IT Asset Management]
 ---

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-agentchat-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 2
 breadcrumb: [Products combined by family]
 ---
@@ -67,11 +67,11 @@ Xanadu
 
 </td><td>
 
--   **[Using Agent Chat](https://www.servicenow.com/docs/access?context=ci-agent-chat-using&family=xanadu&ft:locale=en-US)**
+-   **[Use](https://www.servicenow.com/docs/access?context=ci-agent-chat-using&family=xanadu&ft:locale=en-US)**
 
 Trigger Now Assist while interacting with users in Agent Chat to generate a recommended response. You can edit the recommended response or have Now Assist shorten or lengthen it.
 
--   **[Using Agent Chat](https://www.servicenow.com/docs/access?context=ci-agent-chat-using&family=xanadu&ft:locale=en-US)**
+-   **[Use](https://www.servicenow.com/docs/access?context=ci-agent-chat-using&family=xanadu&ft:locale=en-US)**
 
 Agent Chat supports multiple languages in chat summarizations.
 
@@ -192,7 +192,7 @@ Xanadu
 
 </td><td>
 
-Agent Chat is a ServiceNow AI Platform feature that is available with activation of the Agent Chat plugin \(com.glide.interaction.awa\). For details, see [Configuring Agent Chat](https://www.servicenow.com/docs/access?context=ci-agent-chat-configuring&family=xanadu&ft:locale=en-US).
+Agent Chat is a ServiceNow AI Platform feature that is available with activation of the Agent Chat plugin \(com.glide.interaction.awa\). For details, see [Configure](https://www.servicenow.com/docs/access?context=ci-agent-chat-configuring&family=xanadu&ft:locale=en-US).
 
 </td></tr><tr><td>
 

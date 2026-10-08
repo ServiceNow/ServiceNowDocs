@@ -36,15 +36,15 @@ Domain separation is supported in the Agent Client Collector configuration data 
 
 3.  Add or remove an attachment.
 
-<table id="choicetable_v1p_3mr_3zb"><thead><tr><th align="left" id="d561794e110">
+<table id="choicetable_v1p_3mr_3zb"><thead><tr><th align="left" id="d563272e110">
 
 Action
 
-</th><th align="left" id="d561794e113">
+</th><th align="left" id="d563272e113">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d561794e119">
+</th></tr></thead><tbody><tr><td id="d563272e119">
 
 **Add a file**
 
@@ -58,7 +58,7 @@ The Attachments dialog box opens.
 3.  Close the Attachments dialog box.
 
 
-</td></tr><tr><td id="d561794e153">
+</td></tr><tr><td id="d563272e153">
 
 **Delete a file**
 

@@ -51,98 +51,98 @@ Available agentic workflows
 
 </td></tr><tr><td>
 
-
+[Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/cncore-now-assit-landing.md)
 
 </td><td>
 
-Manage contract repository
+[Manage contract repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/cmpro-na-reminder-agentic-wf.md)
 
 </td></tr><tr><td>
 
-ServiceNow Otto for Customer Service Management \(CSM\)
+[ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/now-assist-csm.md)
 
 </td><td>
 
-Triage cases
+[Triage cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/case-resolving-use-case.md)
 
 </td></tr><tr><td>
 
-ServiceNow Otto for Enterprise Architecture \(EA\)
+[ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-portfolio-management/now-assist-ea.md)
 
 </td><td>
 
-Generate enterprise architecture diagram
+[Generate enterprise architecture diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-portfolio-management/now-assist-aiagents-ea-diagramming-usecase.md)
 
 </td></tr><tr><td>
 
-ServiceNow Otto for Financial Services Operations \(FSO\)
+[ServiceNow Otto for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/financial-services-operations/now-assist-for-financial-services-operations.md)
 
 </td><td>
 
-Help resolve friendly fraud disputes
+[Help resolve friendly fraud disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/financial-services-operations/friendly-fraud-agentic-ai-workflow.md)
 
 </td></tr><tr><td>
 
-ServiceNow Otto for Hardware Asset Management \(HAM\)
+[ServiceNow Otto for Hardware Asset Management \(HAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/now-assist-ham.md)
 
 </td><td>
 
-Help manage hardware asset requests
+[Help manage hardware asset requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/now-assist-ham-fulfill-req-agent-workflow.md)
 
 </td></tr><tr><td>
 
-ServiceNow Otto for Health and Safety
+[ServiceNow Otto for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/now-assist-hs-landing.md)
 
 </td><td>
 
-Create actions for safety incidents
+[Create actions for safety incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/create-actions-safety-incidents.md)
 
 </td></tr><tr><td>
 
-ServiceNow Otto for HR Service Delivery \(HRSD\)
+[ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/now-assist-hrsd.md)
 
 </td><td>
 
--   Resolve noncritical HR cases
--   Resolve policy
+-   [Resolve noncritical HR cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/employee-issue-resolver-na.md)
+-   [Resolve policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/now-assist-hrsd-ai-agents-policy-resolving-tr-usecase.md)
 
 </td></tr><tr><td>
 
-ServiceNow Otto for Integrated Risk Management \(IRM\)
+[ServiceNow Otto for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/now-assist-for-irm.md)
 
 </td><td>
 
-Optimize GRC issue resolution
+[Optimize GRC issue resolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/generate-grc-issue-resolution.md)
 
 </td></tr><tr><td>
 
-ServiceNow Otto for IT Operations Management \(ITOM\)
+[ServiceNow Otto for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/now-assist-itom.md)
 
 </td><td>
 
--   Analyze alert impact
--   Triage and analyze alerts
+-   [Analyze alert impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/now-assist-itom-agentic-aia.md)
+-   [Triage and analyze alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/itom-alert-triage-agentic-workflow.md)
 
 </td></tr><tr><td>
 
-ServiceNow Otto for IT Service Management \(ITSM\)
+[ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/now-assist-itsm.md)
 
 </td><td>
 
--   Generate change request plans
--   Generate post incident reviews
--   Investigate and resolve ITSM incidents
--   Manage Microsoft 365 group members
--   Notify users with Twilio
--   Triage and categorize ITSM incidents
+-   [Generate change request plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/now-assist-itsm-aiagents-change-planner-usecase.md)
+-   [Generate post incident reviews](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/now-assist-itsm-aiagents-mim-usecase.md)
+-   [Investigate and resolve ITSM incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/now-assist-itsm-aiagents-incident-resolver-workflow.md)
+-   [Manage Microsoft 365 group members](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/now-assist-itsm-aiagents-O365-groupmembers-workflow.md)
+-   [Notify users with Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/now-assist-itsm-aiagents-twilio-text-usecase.md)
+-   [Triage and categorize ITSM incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/now-assist-itsm-aiagents-catincidents-usecase.md)
 
 </td></tr><tr><td>
 
-ServiceNow Otto for Legal Service Delivery \(LSD\)
+[ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/now-assist-lsd-landing.md)
 
 </td><td>
 
-Triage legal requests
+[Triage legal requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/trans-legal-request-agent.md)
 
 </td></tr><tr><td>
 
@@ -163,11 +163,11 @@ Triage legal requests
 
 </td></tr><tr><td>
 
-ServiceNow Otto for Strategic Portfolio Management
+[ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/now-assist-spm.md)
 
 </td><td>
 
-Monitor project tasks
+[Monitor project tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/na-spm-task-monitoring-usecase.md)
 
 </td></tr><tr><td>
 
@@ -190,12 +190,12 @@ Monitor project tasks
 
 </td></tr><tr><td>
 
-ServiceNow Otto for Workplace Service Delivery \(WSD\)
+[ServiceNow Otto for Workplace Service Delivery \(WSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/now-assist-wsd-landing.md)
 
 </td><td>
 
--   Manage temporary space closures
--   Help manage workplace reservations
+-   [Manage temporary space closures](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/manage-temp-space-closure-agent-ai.md)
+-   [Help manage workplace reservations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/manage-workplace-reservations-agent-ai.md)
 
 </td></tr><tr><td>
 

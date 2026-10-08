@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-nowassistforitoperationsmanagementitom-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 9
+last_updated: "2026-10-08"
+reading_time_minutes: 8
 breadcrumb: [Products combined by family]
 ---
 
@@ -67,20 +67,7 @@ Xanadu
 
 </td><td>
 
-[Xanadu Patch 1](https://www.servicenow.com/docs/access?context=xanadu-patch-1&family=xanadu&ft:locale=en-US)
-
--   **[Speed up alert resolution with a Now Assist analysis of past related incidents](https://www.servicenow.com/docs/access?context=nai-past-incidents&family=xanadu&ft:locale=en-US)**
-
-Enhance efficiency and reduce downtime with a Now Assist analysis of past incidents on the same or related CIs. Now Assist investigates historical data to identify past incidents related to the current alert and reports their frequency and criticality levels. It also provides a summary of effective strategies used to resolve them. In addition, Now Assist offers contact information for individuals or teams who have resolved similar incidents in the past and could assist when needed.
-
--   **[Generate an alert group description in Express List using Now Assist](https://www.servicenow.com/docs/access?context=alert-group-descr-generate-el&family=xanadu&ft:locale=en-US)**
-
-Use Now Assist to generate a description of an alert group in Express List that encompasses all the alerts within the group. The generated description replaces the original description of the group.
-
--   **[Launch an alert analysis from the Now Assist panel](https://www.servicenow.com/docs/access?context=alert-analysis-now-assist-panel&family=xanadu&ft:locale=en-US)**
-
-Analyze an alert from the Now Assist panel. The alert analysis displays directly in the Now Assist panel for convenient review.
-
+No updates for this release.
 
 </td></tr><tr><td>
 
@@ -97,7 +84,7 @@ Automate alert triage, impact analysis, and root cause investigation with an AI-
 Set up the new Datadog and Gemini Cloud Assistant observability skills to get insights from those tools in the manage alerts autonomously agentic workflow. With Datadog and Google Gemini, the workflow now supports five observability tools, including Dynatrace, Kentik, and New Relic, helping you investigate and respond to a wider range of alerts.
 
 
--   **[Configure the Dynatrace analysis AI agent](https://www.servicenow.com/docs/access?context=now-assist-itom-config-dynatrace&family=yokohama&ft:locale=en-US)**
+ -   **[Configure the Dynatrace analysis AI agent](https://www.servicenow.com/docs/access?context=now-assist-itom-config-dynatrace&family=yokohama&ft:locale=en-US)**
 
 Set up the Dynatrace analysis AI agent in the Analyze alert impact agentic workflow to investigate Dynatrace alerts. With Dynatrace, the agentic workflow now supports three observability tools, including Kentik and New Relic, helping you investigate and respond to a wider range of alerts.
 
@@ -117,12 +104,13 @@ Enable security settings to run AI agents and agentic workflows using ACLs and u
 
 Initiate the Triage and analyze alerts agentic workflow from the Now Assist panel in the context of the incident form to perform all the functions of the workflow. This workflow automatically assigns, acknowledges, and summarizes origin alerts, determines their significance through historical analysis, and analyzes related incidents.
 
--   **[New third-party AI model provider options available for all Now Assist applications](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=yokohama&ft:locale=en-US)**
+
+ -   **[New third-party AI model provider options available for all Now Assist applications](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=yokohama&ft:locale=en-US)**
 
 Google Gemini and AWS Claude are available for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
 
 
--   **[Analyze alert impact agentic workflow](https://www.servicenow.com/docs/access?context=now-assist-itom-agentic-aia&family=yokohama&ft:locale=en-US)**
+ -   **[Analyze alert impact agentic workflow](https://www.servicenow.com/docs/access?context=now-assist-itom-agentic-aia&family=yokohama&ft:locale=en-US)**
 
 Analyze the impact of alerts and identify the possible causes with the Analyze alert impact agentic workflow. The workflow interacts with observability tools, such as Kentik and New Relic, to surface alert details and provide insights.
 
@@ -162,13 +150,16 @@ Yokohama
 
 Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
--   **[Some Now Assist skills are now turned on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&family=yokohama&ft:locale=en-US)**
+-   **[Some Now Assist skills are turned on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&family=yokohama&ft:locale=en-US)**
 
 The new default behavior works as follows:
 
     -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
     -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
--   ****
+-   **[Configure ACLs for AI agents and agentic workflows](https://www.servicenow.com/docs/access?context=aia-security-implementation&family=yokohama&ft:locale=en-US)**
+
+Configure the access control lists for who can discover and trigger AI agents and agentic workflows in their guided setups in AI Agent Studio. You can determine whether an AI agent or agentic workflow behaves as a dynamic user or as an AI user. You can also specify if an AI agent or agentic workflow can be available to all authenticated users or publicly available.
+
 -   **[AIOps AI agents removed from the analyze alert impact agentic workflow](https://www.servicenow.com/docs/access?context=now-assist-itom-agentic-aia&family=yokohama&ft:locale=en-US)**
 
 Four AIOps AI agents have been removed from the analyze alert impact agentic workflow as they're now available in the manage alerts autonomously agentic workflow. AI agents for Dynatrace, Kentik, and New Relic remain in the analyze alert impact agentic workflow to help you learn about and respond to alerts.
@@ -193,8 +184,7 @@ Xanadu
 
 </td><td>
 
--   Starting with version 2.0.1 of AI Agents for Observability, the sn\_obs\_aia.admin role, previously required to configure AI agents in the Analyze alert impact agentic workflow, has been removed. Users must now have the credential\_admin and connection\_admin roles instead.
--   Starting with version 2.0.1 of AI Agents for Observability, the prompt `How severe is this alert?` no longer appears in the Analyze alert impact agentic workflow.
+No updates for this release.
 
 </td></tr><tr><td>
 
@@ -202,8 +192,7 @@ Yokohama
 
 </td><td>
 
--   Starting with version 2.0.1 of AI Agents for Observability, the sn\_obs\_aia.admin role, previously required to configure AI agents in the Analyze alert impact agentic workflow, has been removed. Users must now have the credential\_admin and connection\_admin roles instead.
--   Starting with version 2.0.1 of AI Agents for Observability, the prompt `How severe is this alert?` no longer appears in the Analyze alert impact agentic workflow.
+No updates for this release.
 
 </td></tr></tbody>
 </table>## Deprecations
@@ -232,7 +221,8 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+-   Starting with version 2.0.1 of AI Agents for Observability, the sn\_obs\_aia.admin role, previously required to configure AI agents in the Analyze alert impact agentic workflow, has been removed. Users must now have the credential\_admin and connection\_admin roles instead.
+-   Starting with version 2.0.1 of AI Agents for Observability, the prompt `How severe is this alert?` no longer appears in the Analyze alert impact agentic workflow.
 
 </td></tr></tbody>
 </table>## Activation information
@@ -253,7 +243,7 @@ Xanadu
 
 </td><td>
 
-Install Now Assist for ITOM by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
+No updates for this release.
 
 </td></tr><tr><td>
 
@@ -261,8 +251,11 @@ Yokohama
 
 </td><td>
 
--   Install the AIOps Experience \[sn\_sow\_aiops\] application from the ServiceNow Store. 
--   Install Now Assist for ITOM by requesting it from the ServiceNow Store. 
+-   **Activation information**
+    -   Install the AIOps Experience \[sn\_sow\_aiops\] application from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+    -   Install ServiceNow Otto for ITOM by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
+**Important:** ServiceNow Otto for ITOM is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -283,7 +276,7 @@ Xanadu
 
 </td><td>
 
-Now Assist for ITOM is supported on Vancouver Patch 7 and later releases.
+No updates for this release.
 
 </td></tr><tr><td>
 
@@ -291,7 +284,10 @@ Yokohama
 
 </td><td>
 
-The Now Assist for ITOM application requires an ITOM Pro Plus or Enterprise Plus license.
+-   **Additional requirements**
+
+The ServiceNow Otto for ITOM application requires an ITOM Pro Plus or Enterprise Plus license.
+
 
 </td></tr></tbody>
 </table>## Browser requirements
@@ -399,23 +395,7 @@ Xanadu
 
 </td><td>
 
-Xanadu Patch 10
-
--   Get deeper impact analysis in the Analyze alert impact agentic workflow with five new AI agents.
--   Enhance security for Now Assist AI agents with Access Control Lists \(ACLs\).
-
- Xanadu Patch 9
-
--   Investigate alerts and get the context that you need to respond efficiently using the Analyze alert impact agentic workflow.
--   Automatically perform initial alert triage and analysis tasks such as assigning alerts, analyzing alert history, and summarizing past incidents, with the Triage and analyze alert agentic workflow.
-
- [Xanadu Patch 1](https://www.servicenow.com/docs/access?context=xanadu-patch-1&family=xanadu&ft:locale=en-US)
-
--   Optimize alert resolution with Now Assist AI-driven investigation of past related incidents.
--   Generate an alert group description in Express List using Now Assist.
--   Launch an alert analysis from the Now Assist panel.
-
- See [Now Assist for IT Operations Management \(ITOM\)](https://www.servicenow.com/docs/access?context=now-assist-itom&family=xanadu&ft:locale=en-US) for more information.
+No updates for this release.
 
 </td></tr><tr><td>
 
@@ -444,7 +424,7 @@ Yokohama
 -   Automatically perform initial alert triage and analysis tasks such as assigning alerts, analyzing alert history, and summarizing past incidents, with the Triage and analyze alert agentic workflow.
 
 
- See [Now Assist for ITOM](https://www.servicenow.com/docs/access?context=now-assist-itom&family=yokohama&ft:locale=en-US) for more information.
+ See [ServiceNow Otto for ITOM](https://www.servicenow.com/docs/access?context=now-assist-itom&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/delta-xanadu-yokohama/rn-combined-intro.md)

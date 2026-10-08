@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-salesagreementmanagement-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -83,7 +83,7 @@ Yokohama
 Import, export, and synchronize sales agreements with external systems through REST APIs.
 
 
--   **[Request Tracker on Sales Agreement Management](https://www.servicenow.com/docs/access?context=sales-agreement-mgmt&family=yokohama&ft:locale=en-US)**
+ -   **[Request Tracker on Sales Agreement Management](https://www.servicenow.com/docs/access?context=sales-agreement-mgmt&family=yokohama&ft:locale=en-US)**
 
 Enable agents to monitor the progress of sales agreement creation from quotes by using the Request Tracker.
 
@@ -202,7 +202,7 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+**Important:** Sales Agreement Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements

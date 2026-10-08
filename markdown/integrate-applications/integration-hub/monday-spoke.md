@@ -30,7 +30,7 @@ monday.com admin account.
 
 ## Spoke version
 
-monday.com v1.2.1 is the latest version.
+monday.com v1.2.3 is the latest version.
 
 ## Spoke dependencies
 

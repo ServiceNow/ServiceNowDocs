@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-skillsfoundation-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -77,13 +77,7 @@ Yokohama
 
 -   **[Skills import](https://www.servicenow.com/docs/access?context=import-and-validate-custom-skills-onboarding&family=yokohama&ft:locale=en-US)**
 
-Import skill sets from the Workday Employee spoke using the existing import flow in the Skills Workspace. The imported sets of skills can either be the full list of skills from a given input or a subset.
-
-Import skills data from the external systems with the new Integration option in the Skills import.
-
-Automatically identify skills that are similar to the existing skills in the library \(cmn\_skills\) and display them in the Existing matches section.
-
-Import skills from any external source and harmonize them with the new **Custom import** option.
+Import skill sets from the Workday Employee spoke using the existing import flow in the Skills Workspace. The imported sets of skills can either be the full list of skills from a given input or a subset.Import skills data from the external systems with the new Integration option in the Skills import.Automatically identify skills that are similar to the existing skills in the library \(cmn\_skills\) and display them in the Existing matches section.Import skills from any external source and harmonize them with the new **Custom import** option.
 
 
 </td></tr></tbody>
@@ -200,7 +194,12 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Install Skills Foundation by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
+
+**Important:** Skills Foundation is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -229,7 +228,10 @@ Yokohama
 
 </td><td>
 
+-   **Additional requirements**
+
 The Skills Workspace plugin \(sn\_skills\_int\_ws\) must be installed to access the workspace experience.
+
 
 </td></tr></tbody>
 </table>## Browser requirements

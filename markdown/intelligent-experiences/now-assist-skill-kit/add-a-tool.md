@@ -7,7 +7,7 @@ release: yokohama
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Create a prompt, Using AI Skill Kit, AI Skill Kit, Enable AI experiences]
 ---
@@ -26,7 +26,7 @@ A tool is a utility that is configured to convert skill inputs into skill output
 
 You can use the Tool editor to configure tools and link them to each other.
 
-Decision nodes enable you to execute different tools, based on the logic of the branch. A decision node can contain multiple branches but will always need one default branch.
+Decision nodes enable you to execute different tools, based on the logic of the branch. A decision node can contain multiple branches but needs one default branch.
 
 ## Procedure
 
@@ -36,7 +36,7 @@ Decision nodes enable you to execute different tools, based on the logic of the 
 
 3.  Select the **Tool editor** tab.
 
-4.  Select \(+\) icon to add a node.
+4.  Select the \(+\) icon to add a node.
 
 5.  Select the type of node that you want to add.
 
@@ -52,7 +52,7 @@ Steps
 
 Tool node
 
- Types of tool:
+ Types of tools:
 
 -   Script
 -   SubFlow
@@ -61,7 +61,7 @@ Tool node
 -   Skill
 -   Web search
 
-**Note:** If you select Google as your web search tool provider, the web search tool leverages [Grounding with Google Search](https://cloud.google.com/vertex-ai/generative-ai/docs/grounding/grounding-with-google-search), offered under a Global Standard deployment. Because grounding is not [data resident](https://cloud.google.com/vertex-ai/generative-ai/docs/security-controls), Google's global infrastructure routes traffic to a global data center for each web search request. This processing may be different than your data processing location chosen for your ServiceNow instance. Please consider your organization's data policies before enabling skills that have Google web search tools.
+**Note:** If you select Google as your web search tool provider, the web search tool uses [Grounding with Google Search](https://cloud.google.com/vertex-ai/generative-ai/docs/grounding/grounding-with-google-search), offered under a Global Standard deployment. Because grounding is not [data resident](https://cloud.google.com/vertex-ai/generative-ai/docs/security-controls), Google's global infrastructure routes traffic to a global data center for each web search request. This processing location may be different from the data processing location that you chose for your ServiceNow instance. Consider your organization's data policies before enabling skills that have Google web search tools.
 
 -   Predictive Intelligence
 

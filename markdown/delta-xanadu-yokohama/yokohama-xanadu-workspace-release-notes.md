@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-workspace-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 5
+last_updated: "2026-10-08"
+reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
 
@@ -150,7 +150,77 @@ Yokohama
 
 </td><td>
 
--   **[Context-based suggestions with @mentions](https://www.servicenow.com/docs/access?context=set-up-at-mentions&family=yokohama&ft:locale=en-US)**
+-   **[AI filter assist](https://www.servicenow.com/docs/access?context=use-ai-filter-assist&family=yokohama&ft:locale=en-US)**
+
+Convert everyday language into an encoded query with AI filter assist.
+
+
+ -   **Favorite form templates**
+
+See your favorite form templates that you use most often in the Templates list.
+
+-   **Larger form template cards**
+
+Larger form template cards provide you with the entire labels for form templates in the Templates list without selecting them.
+
+-   **Sorting preferences for form templates**
+
+Sort form templates in the Templates list by the last used templates or in alphabetical order.
+
+-   **[Preview the relevant templates in the email composer](https://www.servicenow.com/docs/access?context=use-email-templates-in-the-compose-email-page&family=yokohama&ft:locale=en-US)**
+
+Preview relevant email templates, response templates, and quick messages that are listed in the email composer's Apply templates modal.
+
+-   **[View a total count of drafts in the email composer](https://www.servicenow.com/docs/access?context=review-draft-emails&family=yokohama&ft:locale=en-US)**
+
+A badge on the View drafts icon displays the total count of your drafts that are available in the email composer.
+
+-   **[Preview all drafts available in the email composer](https://www.servicenow.com/docs/access?context=review-draft-emails&family=yokohama&ft:locale=en-US)**
+
+Preview all drafts that are available in the email composer's View drafts modal instead of your three most recent drafts.
+
+-   **Time elapsed in the Activity stream**
+
+Timestamps in the Activity stream provide more clarity on the amount of time that has elapsed by reflecting the format for timestamps in the Core UI.
+
+-   **Compose text area expands with changes**
+
+The Compose text area expands dynamically to fit the parent container in the side-by-side view and modeless dialog.
+
+-   **[Customize the multi-record associator](https://www.servicenow.com/docs/access?context=set-up-resizing-for-select-modals-in-configurable-workspace&family=yokohama&ft:locale=en-US)**
+
+Resize the multi-record associator and adjust the number of rows that are shown per page in the multi-record associator.
+
+-   **Download all attachments**
+
+Create a zip file and download all attachments in the Attachments list.
+
+-   **Download multiple attachments at once**
+
+Select multiple attachments to download from the Attachments list at once.
+
+-   **Reopen special handling notes**
+
+Reopen special handling notes after they have been dismissed without refreshing the page or closing and reopening the record.
+
+-   **Indicator for personalized lists**
+
+A dot was added to the Update Personalized List icon as an indicator that the current list shows the personalized columns instead of the column defaults.
+
+-   **Progress bar for Percent complete list field**
+
+When you add a **Percent complete** field to a list, a progress bar displays next to the percentage.
+
+-   **Condition builder integrated into list**
+
+Condition builder opens above the list as an integrated part of the list experience instead of opening as a modal.
+
+-   **Open column search row with icon**
+
+The Show column search row icon enables you to display a row to search columns in a list instead of using the Column options menu.
+
+
+ -   **[Context-based suggestions with @mentions](https://www.servicenow.com/docs/access?context=set-up-at-mentions&family=yokohama&ft:locale=en-US)**
 
 Receive suggestions for users with access to the record when using @ mentions.
 
@@ -272,7 +342,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Workspace is a ServiceNow AI Platform feature that is active by default.
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -330,7 +403,10 @@ Yokohama
 
 </td><td>
 
+-   **Browser requirements**
+
 Workspace doesn’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge-Chromium or one of the other supported browsers that are listed in [Browser support](https://www.servicenow.com/docs/access?context=browser-support&family=yokohama&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Accessibility information
@@ -359,7 +435,13 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+-   **Accessibility information**
+    -   **[Screen Summarization](https://www.servicenow.com/docs/access?context=use-screen-summarization&family=yokohama&ft:locale=en-US)**
+
+Screen Summarization is a feature that supports visually impaired and low-vision users by providing AI-generated summaries of workspace pages and their sections. The summaries can be read aloud with a screen reader to help reduce navigation and comprehension time.
+
+Install Screen Summarization by requesting it from the ServiceNow® Store. Visit the [ServiceNow® Store](https://store.servicenow.com/store) to view all the available apps and information about submitting requests to the store.
+
 
 </td></tr></tbody>
 </table>## Localization information

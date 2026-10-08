@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-nextexperiencedevelopernedtools-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -123,7 +123,12 @@ Yokohama
 
 </td><td>
 
--   **Time filters for events**
+-   **Component visualization**
+
+Highlighted components feature a tooltip that displays the element tag name and element ID.
+
+
+ -   **Time filters for events**
 
 Icons were added to each event to enable you to select a timeframe when filtering events.
 
@@ -132,7 +137,7 @@ Icons were added to each event to enable you to select a timeframe when filterin
 Scroll and search through a selected portion of the component tree.
 
 
--   **Filters for traces**
+ -   **Filters for traces**
 
 Filter traces with front-end filters to streamline span visualizations, specialty filters to view targeted waterfall analysis without losing overall context, and level filters to adjust the detail display in span visualizations.
 
@@ -222,7 +227,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Download Next Experience Developer Tools from the Google Chrome Web Store.
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -280,7 +288,10 @@ Yokohama
 
 </td><td>
 
+-   **Browser requirements**
+
 Next Experience Developer Tools requires Google Chrome.
+
 
 </td></tr></tbody>
 </table>## Accessibility information

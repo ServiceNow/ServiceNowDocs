@@ -7,7 +7,7 @@ release: yokohama
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-16"
 reading_time_minutes: 4
 breadcrumb: [OS-level virtualization discovery, Data collected by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
@@ -217,11 +217,12 @@ Status \[status\]
 </td></tr></tbody>
 </table>The **Collect Container Repository** extension section discovers this information.
 
-|Table and field|Description|
-|---------------|-----------|
-|Container Repository \[cmdb\_ci\_container\_repository\]|
+|Field|Description|
+|-----|-----------|
 |Name \[name\]|The name of the container repository.|
-|Container Repository Entry \[cmdb\_ci\_container\_repository\_entry\]|
+
+|Field|Description|
+|-----|-----------|
 |Name \[name\]|The name of the container repository entry.|
 |Category \[category\]|The category of the container repository entry.|
 

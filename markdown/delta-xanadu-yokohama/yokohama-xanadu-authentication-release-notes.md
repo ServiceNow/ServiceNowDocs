@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-authentication-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 4
+last_updated: "2026-10-08"
+reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
 
@@ -114,7 +114,7 @@ Yokohama
 
 </td><td>
 
--   **[Multi-factor authentication \(MFA\) enforcement](https://www.servicenow.com/docs/access?context=mfa-enforcement&family=yokohama&ft:locale=en-US)**
+-   **[MFA enforcement](https://www.servicenow.com/docs/access?context=mfa-enforcement&family=yokohama&ft:locale=en-US)**
 
 MFA is mandated and is enforced to all the non-SSO login users accessing ServiceNow®.
 
@@ -206,7 +206,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Authentication is a ServiceNow AI Platform product that is active by default.
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -353,7 +356,16 @@ Yokohama
 
 </td><td>
 
-[Yokohama Patch 11](https://www.servicenow.com/docs/access?context=yokohama-patch-11&family=yokohama&ft:locale=en-US)
+[Yokohama Patch 13](https://www.servicenow.com/docs/access?context=yokohama-patch-13&family=yokohama&ft:locale=en-US)
+
+-   **[Knowledge-based factor enhancement for AI voice service](https://www.servicenow.com/docs/access?context=knowledge-based-authentication&family=yokohama&ft:locale=en-US)**
+
+Following are the knowledge-based authentication \(KBA\) enhancements:
+
+    -   [Voice input support for KBA questions](https://www.servicenow.com/docs/access?context=create-knowledge-based-questions&family=yokohama&ft:locale=en-US): Configure KBA questions to support Voice as an input type, allowing users to provide spoken responses during identification and authentication. When Voice input is enabled, you can configure the expected format, provide examples, and optionally define a validation pattern using regular expressions.
+    -   [Script-based validation for external systems](https://www.servicenow.com/docs/access?context=create-knowledge-based-answers&family=yokohama&ft:locale=en-US): Configure KBA answers to validate that are created against external systems using custom scripts through the Script Configuration field. When set to Identification mode, you can write scoped scripts that validate caller identity against external authentication systems instead of internal ServiceNow AI Platform tables.
+
+ [Yokohama Patch 11](https://www.servicenow.com/docs/access?context=yokohama-patch-11&family=yokohama&ft:locale=en-US)
 
 -   **[Authentication factors for AI voice service](https://www.servicenow.com/docs/access?context=authentication-factors&family=yokohama&ft:locale=en-US)**
 

@@ -33,3 +33,5 @@ The steps for configuring users are:
     Create users using the ServiceNow AI Platform user administration feature or during guided setup.
 
 
+For information on user roles, see [Roles installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/r_UserRoleInstallWFieldSrvMgmnt.md). For information on user roles when WFO is installed, see [Workforce Optimization for Field Service components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/components-wfo-fsm.md).
+

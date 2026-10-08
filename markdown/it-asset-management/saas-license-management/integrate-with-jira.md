@@ -162,15 +162,15 @@ If you’re using Software Asset Workspace, the option to create the Jira integr
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d183872e656">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d183869e656">
 
 Interface
 
-</th><th align="left" id="d183872e659">
+</th><th align="left" id="d183869e659">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d183872e665">
+</th></tr></thead><tbody><tr><td id="d183869e665">
 
 **Core UI**
 
@@ -181,7 +181,7 @@ Action
 3.  Select **Jira Integration Profile**.
 
 
-</td></tr><tr><td id="d183872e707">
+</td></tr><tr><td id="d183869e707">
 
 **Software Asset Workspace**
 
@@ -287,13 +287,13 @@ Jira Subscription. This field is automatically populated.
 
     3.  Select the **Select** button against the required organization.
 
-    4.  Select the **Products** tab.
+    4.  On the side navigation pane, select **Apps** &gt; **Atlassian apps**.
 
-    5.  On the Products page, select **Manage product** on the Jira product row.
+    5.  On the Atlassian apps page, select **Manage app** on the Jira product row.
 
     6.  View the list of groups that have access to Jira Software.
 
-        Take note of this information for later use.
+        Secure this information for later use.
 
     7.  Return to your ServiceNow instance and navigate to **Jira** &gt; **Jira Groups**.
 
@@ -509,9 +509,9 @@ Jira Role required: admin
 
 3.  On the side navigation pane, select **Apps** &gt; **Atlassian apps**.
 
-4.  On the Apps page, select **Manage product** on the Jira product row.
+4.  On the Atlassian apps page, select **Manage app** on the Jira product row.
 
-    The URL is in the following format in a new window: `https://admin.atlassian.com/o/<orgID>/products/jira-software/<Cloud-Id>`.
+    The URL is in the following format in a new window: `https://admin.atlassian.com/o/<orgID>/atlassian-apps/jira-software/<Cloud-Id>`.
 
 5.  Copy the value of Cloud ID and secure it for later use.
 
@@ -540,15 +540,15 @@ If you’re using Software Asset Workspace, the option to create the Jira integr
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d183872e2293">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d183869e2305">
 
 Interface
 
-</th><th align="left" id="d183872e2296">
+</th><th align="left" id="d183869e2308">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d183872e2302">
+</th></tr></thead><tbody><tr><td id="d183869e2314">
 
 **Core UI**
 
@@ -559,7 +559,7 @@ Action
 3.  Select **Jira Integration Profile**.
 
 
-</td></tr><tr><td id="d183872e2344">
+</td></tr><tr><td id="d183869e2356">
 
 **Software Asset Workspace**
 
@@ -723,9 +723,9 @@ URL of the OAuth provider that users are redirected to after authentication. Thi
 
     3.  Select the **Select** button against the required organization.
 
-    4.  Select the **Products** tab.
+    4.  On the side navigation pane, select **Apps** &gt; **Atlassian apps**.
 
-    5.  On the Products page, select **Manage product** on the Jira product row.
+    5.  On the Atlassian apps page, select **Manage app** on the Jira product row.
 
     6.  View the list of groups that have access to Jira Software.
 

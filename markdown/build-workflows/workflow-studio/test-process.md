@@ -18,7 +18,7 @@ Verify that your playbook works as expected by running the playbook with test tr
 
 ## Before you begin
 
--   [Set up an application in Guided Application Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/set-up-app.md) to store Playbooks content.
+-   Set up an application in Guided Application Creator to store Playbooks content.
 -   [Create a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/create-process-definition.md)
 -   Role required: the admin, playbook.admin, or pd\_operator roles grant users access to test playbooks and to view process execution records.
 -   The Playbook Experience plugin is required to preview a playbook in runtime.

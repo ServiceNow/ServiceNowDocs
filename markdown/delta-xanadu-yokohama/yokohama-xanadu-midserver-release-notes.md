@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-midserver-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
@@ -60,21 +60,22 @@ Yokohama
 
 </td><td>
 
+-   **Upgrade information**
+
 For the latest MID Server system requirements, see [MID Server system requirements](https://www.servicenow.com/docs/access?context=r_MIDServerSystemRequirements&family=yokohama&ft:locale=en-US). The minimum JRE version supported is 17.0.10 and the recommended version is 17.0.12.
 
- If you have installed your own JRE, the upgrade process takes the following actions to verify that the MID Server uses a supported JRE:
+If you have installed your own JRE, the upgrade process takes the following actions to verify that the MID Server uses a supported JRE:
 
--   If a MID Server is using an unsupported version of the JRE when it upgrades, the upgrade process displays a warning message with the minimum and recommended JRE version.
--   If a supported JRE is running on the MID Server host, the upgraded MID Server uses that version.
+    -   If a MID Server is using an unsupported version of the JRE when it upgrades, the upgrade process displays a warning message with the minimum and recommended JRE version.
+    -   If a supported JRE is running on the MID Server host, the upgraded MID Server uses that version.
+All MID Server host machines require access to the download site at `install.service-now.com` to enable auto-upgrades. For additional details, read how the system manages [MID Server upgrades](https://www.servicenow.com/docs/access?context=c_UpgradeAndTestMIDServer&family=yokohama&ft:locale=en-US).
 
- All MID Server host machines require access to the download site at `install.service-now.com` to enable auto-upgrades. For additional details, read how the system manages [MID Server upgrades](https://www.servicenow.com/docs/access?context=c_UpgradeAndTestMIDServer&family=yokohama&ft:locale=en-US).
+Only one Windows MID Server service is permitted according to the executable path. Upgraded Windows MID Servers that have multiple services pointing to the same installation folder can’t start. See [MID Server fails to start](https://www.servicenow.com/docs/access?context=mid-startup-fails&family=yokohama&ft:locale=en-US) for more information.
 
- Only one Windows MID Server service is permitted according to the executable path. Upgraded Windows MID Servers that have multiple services pointing to the same installation folder can’t start. See [MID Server fails to start](https://www.servicenow.com/docs/access?context=mid-startup-fails&family=yokohama&ft:locale=en-US) for more information.
+For more information about MID Server upgrades, see the following topics:
 
- For more information about MID Server upgrades, see the following topics:
-
--   [MID Server pre-upgrade check](https://www.servicenow.com/docs/access?context=c_UpgradeAndTestMIDServer&family=yokohama&ft:locale=en-US): Describes how the AutoUpgrade monitor tests the ability of the MID Server to upgrade on your system before the actual upgrade.
--   [Upgrade the MID Server manually](https://www.servicenow.com/docs/access?context=c_UpgradeAndTestMIDServer&family=yokohama&ft:locale=en-US): Describes how to upgrade your MID Servers manually.
+    -   [MID Server pre-upgrade check](https://www.servicenow.com/docs/access?context=c_UpgradeAndTestMIDServer&family=yokohama&ft:locale=en-US): Describes how the AutoUpgrade monitor tests the ability of the MID Server to upgrade on your system before the actual upgrade.
+    -   [Upgrade the MID Server manually](https://www.servicenow.com/docs/access?context=c_UpgradeAndTestMIDServer&family=yokohama&ft:locale=en-US): Describes how to upgrade your MID Servers manually.
 
 </td></tr></tbody>
 </table>## New features
@@ -177,7 +178,7 @@ Yokohama
 
 </td><td>
 
--   When upgrading to the Yokohama release, 3DES will be permanently removed from MID Server to improve security. See [3DES deprecation in SSH from Xanadu \[KB1644950\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1644950) for more information.
+No updates for this release.
 
 </td></tr></tbody>
 </table>## Deprecations
@@ -206,7 +207,7 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+-   When upgrading to the Yokohama release, 3DES will be permanently removed from MID Server to improve security. See [3DES deprecation in SSH from Xanadu \[KB1644950\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1644950) for more information.
 
 </td></tr></tbody>
 </table>## Activation information
@@ -235,7 +236,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 MID Server is a ServiceNow AI Platform feature that is active by default.
+
 
 </td></tr></tbody>
 </table>## Additional requirements

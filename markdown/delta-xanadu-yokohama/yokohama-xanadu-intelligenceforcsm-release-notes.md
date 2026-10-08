@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-intelligenceforcsm-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 10
 breadcrumb: [Products combined by family]
 ---
@@ -125,7 +125,31 @@ Yokohama
 
 </td><td>
 
--   **[Recommended Actions - Front-line case page integration with knowledge guidance](https://www.servicenow.com/docs/access?context=csm-front-line-case-page&family=yokohama&ft:locale=en-US)**
+-   **[Recommended Actions – AI search on CSM default record page, Front line case page, and CSM interaction record page](https://www.servicenow.com/docs/access?context=ra-csm-ai-search&family=yokohama&ft:locale=en-US)**
+
+The Recommended Actions – AI search is introduced on the [CSM default record page](https://www.servicenow.com/docs/access?context=csm-default-record-page&family=yokohama&ft:locale=en-US), [Front-line case page](https://www.servicenow.com/docs/access?context=csm-front-line-case-page&family=yokohama&ft:locale=en-US), and [CSM Interaction record page](https://www.servicenow.com/docs/access?context=csm-interaction-record-page&family=yokohama&ft:locale=en-US) \(for the chat, video, walk-up, and email type channels\) and it’s enabled by default for new customers. The default guidance is also enabled for these pages. Agents can attach and share knowledge article links in comments, work notes, and emails.
+
+-   **[Recommended Actions - Catalog item source type for AI search](https://www.servicenow.com/docs/access?context=ra-csm-ai-search&family=yokohama&ft:locale=en-US)**
+
+Search and filter the catalog items easily in the AI search tab of Recommended Actions in the CRM Workspace.
+
+-   **[Recommended Actions - Ability to have multiple active contexts for the same table](https://www.servicenow.com/docs/access?context=ra-csm-contexts&family=yokohama&ft:locale=en-US)**
+
+Enables multiple active contexts for the same table, so that tailored recommendations are displayed in the CRM Workspace:
+
+    -   For different user personas based on their requirements.
+    -   For different Predictive Intelligence models or AI model variants.
+    -   For the same record in different channels, such as chat, email, and so on.
+-   **[Recommended Actions - Ability to inherit active rules and their recommendations from a parent table context to extended table context](https://www.servicenow.com/docs/access?context=ra-csm-contexts&family=yokohama&ft:locale=en-US)**
+
+Assign the active rules and their recommendations from the parent table context to the extended context table for a streamlined process.
+
+-   **[Recommended Actions - Asynchronous evaluation for recommendations](https://www.servicenow.com/docs/access?context=ra-csm-contexts&family=yokohama&ft:locale=en-US)**
+
+Enables you to configure loading behavior at the context level by choosing between synchronous and asynchronous modes. In the asynchronous mode, recommendations load in the background without blocking the UI, allowing agents to interact with the record immediately.
+
+
+ -   **[Recommended Actions - Front-line case page integration with knowledge guidance](https://www.servicenow.com/docs/access?context=csm-front-line-case-page&family=yokohama&ft:locale=en-US)**
 
 Enable agents to attach and share knowledge article links in comments, work notes, or emails by using modeless dialogs.
 
@@ -153,36 +177,14 @@ Enable agents to view Recommended Actions in the contextual side panel on the CS
 
 Use the Interaction Context record to display the search results from the Knowledge table. The results are based on the interaction's short description. This context record includes a search-mapping record that maps knowledge results to the Share KB in chat interactions guidance.
 
--   **[Recommended Actions - Question font size customization for a Decision tree](https://www.servicenow.com/docs/access?context=configure-decision-trees-gdb&family=yokohama&ft:locale=en-US)**
 
-Enables you to customize the font size of questions in a Decision tree for a better look and feel. This font size is applied to the questions in the decision trees of playbooks, and recommendations, within the CSM Configurable Workspace and service portal.
+ -   **[Recommended Actions - Question font size customization for a Decision tree](https://www.servicenow.com/docs/access?context=configure-decision-trees-gdb&family=yokohama&ft:locale=en-US)**
+
+Enables you to customize the font size of questions in a Decision tree for a better look and feel. This font size is applied to the questions in the decision trees of playbooks, and recommendations, within the CRM Workspace and service portal.
 
 -   **[Recommended Actions - Control the visibility of completed guidance information](https://www.servicenow.com/docs/access?context=create-guidances&family=yokohama&ft:locale=en-US)**
 
-Allows you to manage the visibility of the completed guidance history information of a decision tree in playbooks, and recommendations for an agent, within the CSM Configurable Workspace, and service portal for a streamlined experience.
-
--   **[Recommended Actions – AI search on CSM default record page, Front line case page, and CSM interaction record page](https://www.servicenow.com/docs/access?context=ra-csm-ai-search&family=yokohama&ft:locale=en-US)**
-
-The Recommended Actions – AI search is introduced on the [CSM default record page](https://www.servicenow.com/docs/access?context=csm-default-record-page&family=yokohama&ft:locale=en-US), [Front-line case page](https://www.servicenow.com/docs/access?context=csm-front-line-case-page&family=yokohama&ft:locale=en-US), and [CSM Interaction record page](https://www.servicenow.com/docs/access?context=csm-interaction-record-page&family=yokohama&ft:locale=en-US) \(for the chat, video, walk-up, and email type channels\) and it’s enabled by default for new customers. The default guidance is also enabled for these pages. Agents can attach and share knowledge article links in comments, work notes, and emails.
-
--   **[Recommended Actions - Catalog item source type for AI search](https://www.servicenow.com/docs/access?context=ra-csm-ai-search&family=yokohama&ft:locale=en-US)**
-
-Search and filter the catalog items easily in the AI search tab of Recommended Actions in the CSM Configurable Workspace.
-
--   **[Recommended Actions - Ability to have multiple active contexts for the same table](https://www.servicenow.com/docs/access?context=ra-csm-contexts&family=yokohama&ft:locale=en-US)**
-
-Enables multiple active contexts for the same table, so that tailored recommendations are displayed in the CSM Configurable Workspace:
-
-    -   For different user personas based on their requirements.
-    -   For different Predictive Intelligence models or AI model variants.
-    -   For the same record in different channels, such as chat, email, and so on.
--   **[Recommended Actions - Ability to inherit active rules and their recommendations from a parent table context to extended table context](https://www.servicenow.com/docs/access?context=ra-csm-contexts&family=yokohama&ft:locale=en-US)**
-
-Assign the active rules and their recommendations from the parent table context to the extended context table for a streamlined process.
-
--   **[Recommended Actions - Asynchronous evaluation for recommendations](https://www.servicenow.com/docs/access?context=ra-csm-contexts&family=yokohama&ft:locale=en-US)**
-
-Enables you to configure loading behavior at the context level by choosing between synchronous and asynchronous modes. In the asynchronous mode, recommendations load in the background without blocking the UI, allowing agents to interact with the record immediately.
+Allows you to manage the visibility of the completed guidance history information of a decision tree in playbooks, and recommendations for an agent, within the CRM Workspace, and service portal for a streamlined experience.
 
 
 </td></tr></tbody>
@@ -302,7 +304,18 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Customer Service Management is available with activation of the Customer Service plugin \(com.sn\_customerservice\). For details, see [Activate Customer Service Management](https://www.servicenow.com/docs/access?context=t_ActivateCustomerService&family=yokohama&ft:locale=en-US).
+
+
+**Important:** The following applications are available in ServiceNow Store:
+
+-   Recommended Actions \(sn\_nb\_action\)
+-   Recommended Actions for Customer Service \(sn\_cs\_nb\_action\)
+-   Task Intelligence for Customer Service \(com.snc.csm\_ml\_task\)
+
+For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -360,7 +373,10 @@ Yokohama
 
 </td><td>
 
+-   **Browser requirements**
+
 ServiceNow workspaces don’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge - Chromium or one of the other supported browsers listed in [Browser support](https://www.servicenow.com/docs/access?context=browser-support&family=yokohama&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Accessibility information

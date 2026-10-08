@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/sg-mobile-ident
 release: yokohama
 topic_type: concept
 last_updated: "2025-01-30"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Identity and access management, Device security for ServiceNow Mobile apps, Mobile security, Configuring the Mobile Platform, Mobile Platform]
 ---
 
@@ -29,9 +29,9 @@ The ServiceNow mobile apps use a new authentication methodology called AppAuth. 
 
 ServiceNow mobile apps require multi-provider single sign-on in order to use external authentication. The multi providers SSO plugin \[com.snc.integration.sso.multi.installer\] provides SAML authentication support. The login process \(AppAuth\) uses this plugin to redirect the user to the IDP \(SAML provider\) login page when using SAML.
 
-For more information on this plugin, see [External single sign-on \(SSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/c_MultipleProviderSingleSignOn.md).
+For more information on this plugin, see External single sign-on \(SSO\).
 
-For more information on configuring multi provider SSO, see [Multi-Provider Single sign-on \(SSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/c_MultipleProviderSingleSignOn.md).
+For more information on configuring multi provider SSO, see .
 
 ## Multifactor authentication
 
@@ -39,11 +39,11 @@ Users can access the instance via Multifactor Authentication using the MFA plugi
 
 \[Omitted image "mobile-mfa-redirect.png"\] Alt text: Multifactor login page in the Mobile Agent app.
 
-For details on configuring Multi-factor Authentication, see [Multifactor authentication system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/mfa-properties.md)
+For details on configuring Multi-factor Authentication, see Multifactor authentication system properties
 
 ## LDAP
 
-Use LDAP authentication to access using LDAP credentials. The user sees the same login page as the local login \(DB based\) but the back end to the LDAP server deletes the authentication. For more information on LDAP configuration, see [LDAP integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/c_LDAPIntegration.md).
+Use LDAP authentication to access using LDAP credentials. The user sees the same login page as the local login \(DB based\) but the back end to the LDAP server deletes the authentication. For more information on LDAP configuration, see .
 
 ## Local DB
 

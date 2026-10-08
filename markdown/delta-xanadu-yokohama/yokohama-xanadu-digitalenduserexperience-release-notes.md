@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-digitalenduserexperience-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 7
+last_updated: "2026-10-08"
+reading_time_minutes: 8
 breadcrumb: [Products combined by family]
 ---
 
@@ -46,7 +46,12 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+-   **Upgrade information**
+
+To upgrade your DEX Desktop Assistant, do the following:
+
+    1.  Install the latest version of the Desktop Assistant in your instance.
+    2.  With admin rights, reinstall the Desktop Assistant on your local machine even if you have the latest version.
 
 </td></tr></tbody>
 </table>## New features
@@ -90,17 +95,18 @@ Yokohama
 
 </td><td>
 
--   **[Manage your system compliance report](https://www.servicenow.com/docs/access?context=manage-compliance-report&family=yokohama&ft:locale=en-US)**
+-   **[Check your device's health](https://www.servicenow.com/docs/access?context=exploring-dex-self-service&family=yokohama&ft:locale=en-US)**
+
+Digital End-user Experience Self-service \(DEX Self-service\) enables you to check the performance of your device using a Device health check. You can check the device health on demand and resolve the issues detected by DEX by leveraging the recommended resolutions for the issues. The resolutions can either be remedial actions \(that you can trigger via a button\), self-help instructions, or URL. You can also use Device actions which can be triggered even when no issues are detected on the device.  These actions enable you to maintain good performance of the devices and applications
+
+
+ -   **[Manage your system compliance report](https://www.servicenow.com/docs/access?context=manage-compliance-report&family=yokohama&ft:locale=en-US)**
 
 Identify vulnerabilities and keep end-user devices secure and efficient by confirming that they meet security policies and regulatory standards. The Compliance report provides a comprehensive view of how well the end-user devices are adhering to the security measures of your organization.
 
 -   **[Monitor system performance](https://www.servicenow.com/docs/access?context=monitor-system-performance&family=yokohama&ft:locale=en-US)**
 
 Identify high-performance devices by monitoring critical metrics, such as CPU usage, memory consumption, disk activity, and input/output \(IO\) reading and writing speeds. Monitoring system performance provides information about how device performance impacts overall system health.
-
--   **[Check your device's health](https://www.servicenow.com/docs/access?context=exploring-dex-self-service&family=yokohama&ft:locale=en-US)**
-
-Digital End-user Experience Self-service \(DEX Self-service\) enables you to check the performance of your device using a Device health check. You can check the device health on demand and resolve the issues detected by DEX by leveraging the recommended resolutions for the issues. The resolutions can either be remedial actions \(that you can trigger via a button\), self-help instructions, or URL. You can also use Device actions which can be triggered even when no issues are detected on the device.  These actions enable you to maintain good performance of the devices and applications
 
 -   **[Monitor apps network](https://www.servicenow.com/docs/access?context=monitor-user-apps-network&family=yokohama&ft:locale=en-US)**
 
@@ -163,7 +169,10 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+-   **[DEX UI enhancements](https://www.servicenow.com/docs/access?context=dex-landing&family=yokohama&ft:locale=en-US)**
+
+Several user interface improvements have been made to help enhance usability and make navigation more intuitive, leading to a better overall user experience.
+
 
 </td></tr></tbody>
 </table>## Removed
@@ -250,7 +259,15 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Install Digital End-User Experience by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
+
+**Important:**
+
+-   Digital Experience Score​ is supported from the Yokohama release onward. If you see the Digital Experience Score dashboard in Xanadu, you must disable the DEX Score feature. For more information, see the [Disable DEX Score Feature in Xanadu](https://support.servicenow.com/kb?sys_kb_id=5165617f970aaa90f03d739c1253af67&id=kb_article_view) article \[KB2224330\] in the Now Support Knowledge Base.
+-   Digital End-User Experience is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -308,7 +325,10 @@ Yokohama
 
 </td><td>
 
+-   **Browser requirements**
+
 Enable the DEX browser extension for monitoring Web applications to collect various operational or performance-based metrics on your system. For more information, see [Enable DEX browser extension for monitoring web/SaaS applications](https://www.servicenow.com/docs/access?context=enable-dex-browser-extension&family=yokohama&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Accessibility information
@@ -366,7 +386,10 @@ Yokohama
 
 </td><td>
 
+-   **Localization information**
+
 Localization is applicable to DEX in all languages supported by the ServiceNow AI Platform.
+
 
 </td></tr></tbody>
 </table>## Highlight information

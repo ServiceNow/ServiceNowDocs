@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-serviceoperationsworkspaceforitsm-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 28
 breadcrumb: [Products combined by family]
 ---
@@ -62,12 +62,14 @@ Yokohama
 
 </td><td>
 
+-   **Upgrade information**
+
 Ensure that the following applications have compatible upgraded versions:
 
--   Service Operations Workspace ITSM Applications application \(sn\_sow\_itsm\_cont\)
--   Service Operations Workspace ITOM Applications application \(sn\_sow\_itom\_cont\)
+    -   Service Operations Workspace ITSM Applications application \(sn\_sow\_itsm\_cont\)
+    -   Service Operations Workspace ITOM Applications application \(sn\_sow\_itom\_cont\)
+For more information on compatible versions, see [Version compatibility between Service Operations Workspace for ITSM and Service Operations Workspace ITOM](https://www.servicenow.com/docs/access?context=sow-itsm-itom-version&family=yokohama&ft:locale=en-US).
 
- For more information on compatible versions, see [Version compatibility between Service Operations Workspace for ITSM and Service Operations Workspace ITOM](https://www.servicenow.com/docs/access?context=sow-itsm-itom-version&family=yokohama&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## New features
@@ -250,7 +252,28 @@ Yokohama
 
 </td><td>
 
--   **[User role for service desk agents](https://www.servicenow.com/docs/access?context=roles-in-sow&family=yokohama&ft:locale=en-US)**
+-   **[Enhanced security model adoption in Service Operations Workspace](https://www.servicenow.com/docs/access?context=components-installed-investigate&family=yokohama&ft:locale=en-US)**
+
+Help prevent unauthorized access to the tables of the following applications with Deny-Unless ACLs:
+
+    -   Metrics and CI actions framework
+    -   Remedial actions framework
+    -   Agent client collector for investigation
+    -   Microsoft Endpoint Configuration Manager for Investigation
+A Deny-Unless authentication ACL restricts access for a non-authenticated user, such as a public role user. Without access, the user can't perform any actions on the tables related to the above mentioned applications, including reading, writing, deleting, creating, or accessing the report view. This feature is available to both new \(zboot\) and upgrade instances.
+
+-   **[Configure Notify in SOW](https://www.servicenow.com/docs/access?context=configure-notify-sow&family=yokohama&ft:locale=en-US)**
+
+Configure the provider preferences for Notify to manage the conference calls in Service Operations Workspace.
+
+-   **[Create CAB meetings in Service Operations Workspace](https://www.servicenow.com/docs/access?context=cm-create-cab-meeting-sow&family=yokohama&ft:locale=en-US)**
+
+Define and create Change Advisory Board \(CAB\) meetings, invite attendees and dynamically populate agenda items for each meeting in Service Operations Workspace.
+
+Run CAB meetings through CAB Workbench, available within Service Operations Workspace to review and authorize change requests. For more information, see [Conduct a CAB meeting in the CAB workbench](https://www.servicenow.com/docs/access?context=cm-manage-cab-meeting-workbench-sow&family=yokohama&ft:locale=en-US).
+
+
+ -   **[User role for service desk agents](https://www.servicenow.com/docs/access?context=roles-in-sow&family=yokohama&ft:locale=en-US)**
 
 Enable tier 1 service desk agents to quickly gather and verify information by granting the sn\_service\_desk\_agent role, which is accessible when the ITSM Roles plugin \(com.snc.itsm.roles\) is installed.
 
@@ -318,16 +341,6 @@ The following guided tours are available:
 
     -   Create an incident task
     -   Overview of the Interaction record in SOW
--   **[Enhanced security model adoption in Service Operations Workspace](https://www.servicenow.com/docs/access?context=components-installed-investigate&family=yokohama&ft:locale=en-US)**
-
-Help prevent unauthorized access to the tables of the following applications with Deny-Unless ACLs:
-
-    -   Metrics and CI actions framework
-    -   Remedial actions framework
-    -   Agent client collector for investigation
-    -   Microsoft Endpoint Configuration Manager for Investigation
-A Deny-Unless authentication ACL restricts access for a non-authenticated user, such as a public role user. Without access, the user can't perform any actions on the tables related to the above mentioned applications, including reading, writing, deleting, creating, or accessing the report view. This feature is available to both new \(zboot\) and upgrade instances.
-
 -   **[Known error article for a problem](https://www.servicenow.com/docs/access?context=work-on-problem-sow&family=yokohama&ft:locale=en-US)**
 
 Starting in version 7.1, share the workaround for a problem and deflect additional incidents by creating a known error article for the problem.
@@ -335,16 +348,6 @@ Starting in version 7.1, share the workaround for a problem and deflect addition
 -   **[On-Call Scheduling configurations in Admin Center](https://www.servicenow.com/docs/access?context=manage-admin-console-sow-itsm&family=yokohama&ft:locale=en-US)**
 
 Starting in version 7.1, use the simplified navigation from Admin Center to manage configurations for On-Call Scheduling in Service Operations Workspace for ITSM. It improves the administrator's experience.
-
--   **[Configure Notify in SOW](https://www.servicenow.com/docs/access?context=configure-notify-sow&family=yokohama&ft:locale=en-US)**
-
-Configure the provider preferences for Notify to manage the conference calls in Service Operations Workspace.
-
--   **[Create CAB meetings in Service Operations Workspace](https://www.servicenow.com/docs/access?context=cm-create-cab-meeting-sow&family=yokohama&ft:locale=en-US)**
-
-Define and create Change Advisory Board \(CAB\) meetings, invite attendees and dynamically populate agenda items for each meeting in Service Operations Workspace.
-
-Run CAB meetings through CAB Workbench, available within Service Operations Workspace to review and authorize change requests. For more information, see [Conduct a CAB meeting in the CAB workbench](https://www.servicenow.com/docs/access?context=cm-manage-cab-meeting-workbench-sow&family=yokohama&ft:locale=en-US).
 
 
 </td></tr></tbody>
@@ -448,7 +451,24 @@ Yokohama
 
 </td><td>
 
--   **[Incident record page changes](https://www.servicenow.com/docs/access?context=view-inc-record-info-contextual-sidepanel&family=yokohama&ft:locale=en-US)**
+-   **[GenAI email templates for communication](https://www.servicenow.com/docs/access?context=compose-communication-mim-sow&family=yokohama&ft:locale=en-US)**
+
+Use the GenAI capabilities for composing email with GenAI email templates in all major incident communications. The GenAI email templates are visible in a separate section when the email templates field is selected and the following conditions are met:
+
+    -   Any GenAI variable is available in the email templates.
+    -   ServiceNow Otto for ITSM is installed and activated.
+    -   GenAI skills are enabled.
+    -   User have the required roles to execute the GenAI skills.
+-   **[Close resolved incident](https://www.servicenow.com/docs/access?context=close-resolved-incident-sow&family=yokohama&ft:locale=en-US)**
+
+Close an incident in **Resolved** state using the itil\_admin user role.
+
+-   **[Resize modals on the SRP and list pages](https://www.servicenow.com/docs/access?context=srp-service-operations-workspace&family=yokohama&ft:locale=en-US)**
+
+Ensure flexibility and efficiency by enabling users to resize the modals on the SOW SRP and list pages. This helps in adjusting screen space allocation, enabling multi-tasking, and optimizing content visibility for different tasks and screen sizes. 
+
+
+ -   **[Incident record page changes](https://www.servicenow.com/docs/access?context=view-inc-record-info-contextual-sidepanel&family=yokohama&ft:locale=en-US)**
 
 The Incident record page has the following changes:
 
@@ -477,22 +497,6 @@ When a new interaction record is created and saved, the sidebar now loads record
 -   **[Problem Management state transitions](https://www.servicenow.com/docs/access?context=understanding-state-mgmt-transitions&family=yokohama&ft:locale=en-US)**
 
 Sections that are configured to be expanded now automatically expand when you transition to a new state, without requiring a page reload.
-
--   **[GenAI email templates for communication](https://www.servicenow.com/docs/access?context=compose-communication-mim-sow&family=yokohama&ft:locale=en-US)**
-
-Use the GenAI capabilities for composing email with GenAI email templates in all major incident communications. The GenAI email templates are visible in a separate section when the email templates field is selected and the following conditions are met:
-
-    -   Any GenAI variable is available in the email templates.
-    -   Now Assist for ITSM is installed and activated.
-    -   GenAI skills are enabled.
-    -   User have the required roles to execute the GenAI skills.
--   **[Close resolved incident](https://www.servicenow.com/docs/access?context=close-resolved-incident-sow&family=yokohama&ft:locale=en-US)**
-
-Close an incident in **Resolved** state using the itil\_admin user role.
-
--   **[Resize modals on the SRP and list pages](https://www.servicenow.com/docs/access?context=srp-service-operations-workspace&family=yokohama&ft:locale=en-US)**
-
-Ensure flexibility and efficiency by enabling users to resize the modals on the SOW SRP and list pages. This helps in adjusting screen space allocation, enabling multi-tasking, and optimizing content visibility for different tasks and screen sizes. 
 
 
 </td></tr></tbody>
@@ -580,7 +584,12 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Service Operations Workspace for ITSM is active by default and its default version is 7.0 in Yokohama. When you upgrade from any previous release to Yokohama from the ServiceNow Store, Service Operations Workspace for ITSM 7.0 is automatically installed.
+
+
+**Important:** Service Operations Workspace is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements

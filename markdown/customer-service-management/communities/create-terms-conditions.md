@@ -38,15 +38,15 @@ You can disable Terms and Conditions using the **sn\_communities.disable\_terms\
 
 2.  Complete one of the following actions to save the Terms and Conditions.
 
-<table id="choicetable_dq1_gnp_t1b"><thead><tr><th align="left" id="d62026e154">
+<table id="choicetable_dq1_gnp_t1b"><thead><tr><th align="left" id="d62064e154">
 
 To
 
-</th><th align="left" id="d62026e157">
+</th><th align="left" id="d62064e157">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d62026e163">
+</th></tr></thead><tbody><tr><td id="d62064e163">
 
 **Submit**
 
@@ -54,7 +54,7 @@ Do this
 
 Click **Submit** to save your Terms and Conditions.
 
-</td></tr><tr><td id="d62026e175">
+</td></tr><tr><td id="d62064e175">
 
 **Activate**
 

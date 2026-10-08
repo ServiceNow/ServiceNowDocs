@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-tablebuilder-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 2
+last_updated: "2026-10-08"
+reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
 
@@ -104,7 +104,20 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+-   **Transition to NOW Design Systems \(NDS\)**
+
+Shift from the previous custom table builder icons to the NOW Design System \(NDS\) icons in the user interface.
+
+
+ -   **[Launching App from the App Navigator](https://www.servicenow.com/docs/access?context=accessing-form-builder&family=yokohama&ft:locale=en-US)**
+
+You can directly access Table Builder by searching it. You can find Table Builder in the search results of the app navigator.
+
+
+ -   **[Accessing Table Builder](https://www.servicenow.com/docs/access?context=accessing-form-builder&family=yokohama&ft:locale=en-US)**
+
+At least one role with Read permissions should be assigned to each table during creation to ensure proper Access Control List \(ACL\) setup and help prevent access issues for developers.
+
 
 </td></tr></tbody>
 </table>## Removed
@@ -191,7 +204,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Table Builder is available without App Engine Studio.
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -249,7 +265,10 @@ Yokohama
 
 </td><td>
 
+-   **Browser requirements**
+
 Internet Explorer isn’t supported.
+
 
 </td></tr></tbody>
 </table>## Accessibility information
@@ -336,7 +355,11 @@ Yokohama
 
 </td><td>
 
-See [Table Builder](https://www.servicenow.com/docs/access?context=tb-landing-page&family=yokohama&ft:locale=en-US) for more information.
+-   Transition to NOW Design Systems \(NDS\) icons from the previous custom table builder icons.
+-   Launch the Table Builder App from the App Navigator.
+-   Consistency in role assignment during the table creation process to avoid access issues for the developers.
+
+ See [Table Builder](https://www.servicenow.com/docs/access?context=tb-landing-page&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/delta-xanadu-yokohama/rn-combined-intro.md)

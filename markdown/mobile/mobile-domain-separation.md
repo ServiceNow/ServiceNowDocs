@@ -30,7 +30,7 @@ For more information on support levels, see [Application support for domain sepa
 
 The mobile platform supports domain separation for all native clients. The mobile UI design clearly indicates the domain that a record is associated with.
 
-Before extending the domain separation functionality to mobile, the feature must be enabled on the platform web-based interface. For further information on configuration, see [Domain separation setup and administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/c_DomainSeparationSetup.md).
+Before extending the domain separation functionality to mobile, the feature must be enabled on the platform web-based interface. For further information on configuration, see Domain separation setup and administration.
 
 ## How domain separation works in mobile
 
@@ -38,7 +38,7 @@ You can use the company or account fields to display appropriate records by doma
 
 After the feature has been set up through the platform web-based interface, a two-part process is required to further extend the domain separation functionality on mobile. For additional information about configuring domain separation on mobile devices, contact Customer Service and Support.
 
-**Note:** ITSM Mobile Agent contains an automatically configured domain separation feature. For more information, refer to the [ITSM Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/itsm-mobile-agent.md) documentation.
+**Note:** ITSM Mobile Agent contains an automatically configured domain separation feature. For more information, refer to the  documentation.
 
 **Related topics**  
 

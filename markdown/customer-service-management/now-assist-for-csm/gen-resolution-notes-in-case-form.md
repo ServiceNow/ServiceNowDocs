@@ -22,14 +22,17 @@ Role required: sn\_customerservice\_agent, sn\_customerservice.consumer\_agent
 
 ## About this task
 
-In both the CSM Configurable Workspace and Core UI, you can generate resolution notes for a case by using the Now Assist context menu within the resolution notes field in the case form.
+You can generate resolution notes for a case in both the CSM Configurable Workspace and Core UI. Use the Now Assist context menu within the resolution notes field in the case form.
 
 An agent can do these actions by using the Now Assist icon \[Omitted image "icon-ai-sparkle.png"\] Alt text::
 
 -   Generate resolution notes based on the case context.
 -   Refine the recommendation by elaborating or shortening the content.
 
-**Note:** The case must be in the open state.
+**Note:**
+
+-   The context menu is the recommended experience. The popup window experience is going to be deprecated. Each interface operates differently.
+-   The case must be in the open state.
 
 ## Procedure
 

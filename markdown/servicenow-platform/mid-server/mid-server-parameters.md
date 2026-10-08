@@ -139,12 +139,12 @@ Parameters control the behavior of a particular MID Server and have lower preced
 
     Sets the default MID Server polling interval \(in seconds\). The polling interval is the amount of time the MID Server waits before checking the ECC queue for work when the MID Server is not busy. For more information, see the Asynchronous Message Bus section in.
 
-    When **mid.disable.amb** is set to false \(the default setting\), see the Asynchronous Message Bus section in [Asynchronous Message Bus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/mid-server/ecc-queue-mid-server.md) for more information about how **mid.poll.time** is used.
+    When **mid.disable\_amb** is set to false \(the default setting\), see the Asynchronous Message Bus section in [Asynchronous Message Bus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/mid-server/ecc-queue-mid-server.md) for more information about how **mid.poll.time** is used.
 
-    When **mid.disable.amb** is set to true, polling occurs on a fixed **mid.poll.time** interval, but polling switches to using **mid.poll.time.standard** \(5 seconds by default\) when the MID Server is busy.
+    When **mid.disable\_amb** is set to true, polling occurs on a fixed **mid.poll.time** interval, but polling switches to using **mid.poll.time.standard** \(5 seconds by default\) when the MID Server is busy.
 
     -   Type: integer \(seconds\)
-    -   Default value: 40 when **mid.disable.amb** is false, or 5 when **mid.disable.amb** is true.
+    -   Default value: 40 when **mid.disable\_amb** is false, or 5 when **mid.disable\_amb** is true.
 -   **mid.probe.wait.resources**
 
     Indicates whether probe execution is delayed until resources are available. Used to enable [MID Server Resource Reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/mid-server/mid_server_resource_reservation.md).
@@ -627,7 +627,7 @@ Add these parameters to the `config.xml` file in the `/agent` directory, in the 
 
     -   This property affects only OCSP revocation checks. It does not affect TLS certificate chain validation.
     -   If **Certificate Chain Check** is enabled in MID Certificate Check Policies, a complete and valid certificate chain, from the returned certificates to those present in the local cacerts, is enforced regardless of the **mid.httpclient.tls.verify\_revoked\_certificate.verify\_issuer** parameter setting.
-    -   Type: boolean
+    -   Data type: boolean
     -   Default value: true
 
 ## Shazzam parameters
@@ -665,12 +665,6 @@ Add these parameters to the `config.xml` file in the `/agent` directory, in the 
 
 ## SNMP configuration parameters
 
--   **mid.snmp.enable\_auto\_public**
-
-    Specifies whether to use the SNMP public community string automatically if no other SNMP credentials were successful.
-
-    -   Type: true \| false
-    -   Default value: true
 -   **mid.snmp.request.timeout**
 
     Specifies the timeout value for the first OID request, in milliseconds. For subsequent requests \(for example, table OIDs\), the **mid.snmp.session.timeout configuration** parameter \(see below\) takes effect.
@@ -958,7 +952,7 @@ By default, the MID Server is configured to search for SSH commands in the follo
     **Note:** Setting or changing this parameter requires restarting the MID Server.
 
     -   Type: integer
-    -   Default value: 2
+    -   Default value: 3
 -   **mid.sa.prefer\_powershell**
 
     Enables MID Server to use PowerShell Remoting.

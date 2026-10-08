@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-analyticsintelligenceandreporting-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -154,8 +154,8 @@ Xanadu
 
 </td><td>
 
--   Core UI Reporting functionality is deprecated in favor of [Data visualizations in Platform Analytics](https://www.servicenow.com/docs/access?context=analytics-center-data-visualizations&family=xanadu&ft:locale=en-US) for new instances and instances that have migrated to the Platform Analytics experience.
--   Core UI Dashboards functionality is deprecated in favor of [Dashboards in Platform Analytics](https://www.servicenow.com/docs/access?context=analytics-center-dashboards&family=xanadu&ft:locale=en-US) for new instances and instances that have migrated to the Platform Analytics experience.
+-   Core UI Reporting functionality is deprecated in favor of [Data visualizations in Platform Analytics](https://www.servicenow.com/docs/access?context=analytics-center-data-visualizations&family=xanadu&ft:locale=en-US) for new instances.
+-   Core UI Dashboards functionality is deprecated in favor of [Dashboards in Platform Analytics](https://www.servicenow.com/docs/access?context=analytics-center-dashboards&family=xanadu&ft:locale=en-US) for new instances.
 
 </td></tr><tr><td>
 

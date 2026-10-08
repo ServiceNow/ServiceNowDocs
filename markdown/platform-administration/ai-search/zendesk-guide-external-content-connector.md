@@ -29,7 +29,7 @@ Search results from Guide Media attachments open normally in new browser tabs wh
 Create an API token in Zendesk Admin Center to allow the Zendesk Guide external content connector to access your Zendesk source system.
 -   **[Create a Zendesk Guide external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/create-ext-cont-connector-zendesk-guide.md)**  
 Create an external content connector to retrieve searchable content and security principals from your Zendesk source system.
--   **[Configure crawl settings for a Zendesk Guide external crawl connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/configure-crawl-settings-zendesk-guide-external-crawl-connector.md)**  
+-   **[Configure crawl settings for a Zendesk Guide external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/configure-crawl-settings-zendesk-guide-external-content-connector.md)**  
 Specify the article locales and attachment file types you want your Zendesk Guide external content connector to crawl when running content crawls. Define inclusion or exclusion filters for domains to restrict the set of users the crawl retrieves access permissions for when running user permission crawls.
 
 **Parent Topic:**[Configuring External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/configuring-ext-cont-connectors.md)

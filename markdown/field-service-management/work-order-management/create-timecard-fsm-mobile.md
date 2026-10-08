@@ -30,15 +30,15 @@ Role required: wm\_agent
 
 4.  Add task-related or non-task related time cards.
 
-<table id="choicetable_yfs_nxg_qmb"><thead><tr><th align="left" id="d108160e79">
+<table id="choicetable_yfs_nxg_qmb"><thead><tr><th align="left" id="d108253e79">
 
 Time card type
 
-</th><th align="left" id="d108160e82">
+</th><th align="left" id="d108253e82">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d108160e88">
+</th></tr></thead><tbody><tr><td id="d108253e88">
 
 **Copy from previous time sheet**
 
@@ -46,7 +46,7 @@ Action
 
 Tap **Copy** from a previous time sheet.
 
-</td></tr><tr><td id="d108160e103">
+</td></tr><tr><td id="d108253e103">
 
 **Add assigned task**
 
@@ -57,7 +57,7 @@ Tap **Copy** from a previous time sheet.
 3.  Tap **Add**.
 
 
-</td></tr><tr><td id="d108160e130">
+</td></tr><tr><td id="d108253e130">
 
 **Add unassigned task**
 
@@ -67,7 +67,7 @@ Tap **Copy** from a previous time sheet.
 2.  Tap **Add**.
 
 
-</td></tr><tr><td id="d108160e151">
+</td></tr><tr><td id="d108253e151">
 
 **Add from category**
 

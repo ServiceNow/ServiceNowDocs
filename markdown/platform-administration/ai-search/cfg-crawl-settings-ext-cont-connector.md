@@ -80,7 +80,7 @@ Connector administrators can configure crawl settings for each external content 
 
 [Configure crawl settings for a Workday external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/configure-crawl-settings-workday-external-content-connector.md)
 
-[Configure crawl settings for a Zendesk Guide external crawl connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/configure-crawl-settings-zendesk-guide-external-crawl-connector.md)
+[Configure crawl settings for a Zendesk Guide external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/configure-crawl-settings-zendesk-guide-external-content-connector.md)
 
 [Configure crawl settings for a Zoom external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/configure-crawl-settings-zoom-external-content-connector.md)
 

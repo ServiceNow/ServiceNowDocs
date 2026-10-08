@@ -18,7 +18,7 @@ Configure the Knowledge Generation skill to draft knowledge articles on resolvin
 
 ## Before you begin
 
-Ensure that the following is set up before you activate the skill:
+Verify that the following is set up before you activate the skill:
 
 1.  Install the Required Plugin- Now Assist for CSM plugin.
 2.  Enable KCS system properties: The visibility of the **Create Knowledge** action in CRM Workspace depends on specific system properties and differs from its implementation in the Core UI UI.
@@ -31,7 +31,7 @@ Ensure that the following is set up before you activate the skill:
     -   sn\_customerservice.kcs.enable\_template\_on\_case\_workspace
         -   If this property is false, the button is a UI Action and clicking it does not open a template selector.
         -   If this property is true, the button is a Declarative Action and clicking it opens a template selector modal.
-    If either property is disabled, the action will not appear in CRM Workspace—even if it is visible in Core UI.
+    If either property is turned off, the action will not appear in CRM Workspace—even if it is visible in Core UI.
 
 3.  Activate the KCS template.
     1.  Navigate to **All** &gt; **Knowledge** &gt; **Administration** &gt; **Article Template**.
@@ -53,9 +53,9 @@ The knowledge generation skill incorporates information that you enter in the fo
 -   Work Notes
 -   Comments
 
-Any modifications to the names or labels of these fields can quality the generation and quality of knowledge generation articles.
+Any modifications to the names or labels of these fields can affect the generation and quality of knowledge generation articles. So, don't change field names or labels after you select them as the skill won't recognize the changes.
 
-**Note:** It is recommended to revert to the default field name and field label for the affected fields. To remove incompatible fields from generation, ensure a copy of the skill has been created, as not all fields are removable/configurable. Additionally, ensure that the Knowledge Management advanced installer plugin is enabled and the following system properties are set to TRUE:
+**Note:** It is preferable to revert to the default field name and field label for the affected fields. To remove incompatible fields from generation, verify a copy of the skill has been created, as not all fields are removable/configurable. Additionally, verify that the Knowledge Management advanced installer plugin is enabled and the following system properties are set to TRUE:
 
 -   sn\_customerservice.enable\_knowledge\_kcs
 -   kcs.enable\_template\_on\_case\_workspace
@@ -72,7 +72,7 @@ Any modifications to the names or labels of these fields can quality the generat
 
 4.  Select **Choose Input** and review the tables and fields to create prompts that determines where data is pulled from.
 
-    **Note:** You cannot modify the input data source.
+    **Note:** You can't modify the input data source.
 
 <table id="table_mnf_45q_1bc"><thead><tr><th>
 
@@ -116,9 +116,9 @@ Input fields
 
     -   If no changes are made, the default role sn\_esm\_agent will automatically appear in **Define Access** and **Select Display**.
     -   If custom roles were added before the upgrade, they’ll be updated automatically by a script.
-    -   If new roles are created after the upgrade, you’ll need to manually add them in both the **Define Access** and **Select Display**.
+    -   If new roles are created after the upgrade, you must manually add them in both the **Define Access** and **Select Display**.
 
-        **Note:** In the **Select Display** step, you can only choose roles that were added in the **Define Access** step. If you add a role in **Define Access**, you still need to manually select it in **Select Display** to make it active.
+        **Note:** In the **Select Display** step, you can only choose roles that were added in the **Define Access** step. If you add a role in **Define Access**, you still must manually select it in **Select Display** to make it active.
 
 7.  Select **Display** to determine where the KB generation appears.
 
@@ -131,6 +131,6 @@ Input fields
 
 To check if KB generation skill is working:
 
-1.  Ensure **Knowledge content recommendation** is active under **Now Assist Skills** &gt; **Platform**.
+1.  Confirm **Knowledge content recommendation** is active under **Now Assist Skills** &gt; **Platform**.
 2.  Verify that **Knowledge content recommendation** status is **Active** under**Now Assist Experiences** &gt; **Configurations**.
 

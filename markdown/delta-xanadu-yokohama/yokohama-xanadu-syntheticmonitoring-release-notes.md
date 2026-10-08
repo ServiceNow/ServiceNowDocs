@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-syntheticmonitoring-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -123,7 +123,15 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+-   **[Overview and detail pages in SOW](https://www.servicenow.com/docs/access?context=identifying-system-issues&family=yokohama&ft:locale=en-US).**
+
+Create view and manage your synthetic monitors on the overview and detail pages.
+
+As of version 1.2, the following UI enhancements are available:
+
+    -   Improved filtering for finding your endpoints.
+    -   Bulk editing of monitors.
+    -   Charts on the Overview page now display failures instead of successes.
 
 </td></tr></tbody>
 </table>## Removed
@@ -210,7 +218,12 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Install synthetic monitoring by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
+
+**Important:** Synthetic monitoring is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -239,14 +252,16 @@ Yokohama
 
 </td><td>
 
+-   **Additional requirements**
+
 You must do the following before you can use synthetic monitoring:
 
--   If you have version 1.0, configure at least one proxy agent on the Agent Client Collector. These agents should be the ones you use to monitor the health and performance of the services to be monitored. For more information about proxy agents, see [Using proxy agents in Agent Client Collector](https://www.servicenow.com/docs/access?context=proxy-agent&family=yokohama&ft:locale=en-US).
+    -   If you have version 1.0, configure at least one proxy agent on the Agent Client Collector. These agents should be the ones you use to monitor the health and performance of the services to be monitored. For more information about proxy agents, see [Using proxy agents in Agent Client Collector](https://www.servicenow.com/docs/access?context=proxy-agent&family=yokohama&ft:locale=en-US).
 
 Starting with version 1.2, you can run tests from your local Glide instance instead of a proxy agent.
 
--   Add CIs in the CMDB for the endpoints that you want to monitor.
--   If your endpoints require authentication, configure credentials in the Credentials \[discovery\_credentials\] table.
+    -   Add CIs in the CMDB for the endpoints that you want to monitor.
+    -   If your endpoints require authentication, configure credentials in the Credentials \[discovery\_credentials\] table.
 
 </td></tr></tbody>
 </table>## Browser requirements
