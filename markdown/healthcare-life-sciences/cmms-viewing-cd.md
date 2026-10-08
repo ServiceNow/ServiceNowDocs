@@ -22,7 +22,7 @@ The landing page of the Workspace provides an overview of the medical device cas
 
 ## Role required
 
-Clinical engineers must have the sn\_hcls\_cmms.clinical\_engineer role to use the Workspace. For more information, see [47e67112cdc490a9f972add442124d5f205a9b6c.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/cmms-assign-roles.md).
+Clinical engineers must have the sn\_hcls\_cmms.clinical\_engineer role to use the Workspace. For more information, see [df5a0a00a00fe88f39e406306fa1f0fe4a09a12d.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/cmms-assign-roles.md).
 
 ## Accessing and using the landing page
 

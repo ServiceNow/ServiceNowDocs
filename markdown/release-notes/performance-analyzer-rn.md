@@ -20,7 +20,7 @@ The ServiceNow® Performance Analyzer application enables you to access page loa
 -   Receive page load time data directly on the instance.
 -   Access aggregated metrics by application and routes.
 
-See Performance Analyzer for more information.
+See [Performance Analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/performance-analyzer-landing.md) for more information.
 
 ## Activation and other requirements
 
@@ -43,19 +43,19 @@ The ServiceNow® Performance Analyzer application enables you to access page loa
 
 ### What's new
 
--   **Filter by duration**
+-   **[Filter by duration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/filter-application-metrics-by-duration.md)**
 
     Select a duration from the last fifteen minutes to the last seven days to view the aggregate data from that time period for each of your applications. The aggregate data includes total UI time, download time, trends, and a comparison to previous performance over that duration.
 
--   **Application metrics**
+-   **[Application metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/get-application-metrics.md)**
 
     Select an application to filter metrics by total UI time and download time, as well as view page route performance.
 
--   **Page route metrics**
+-   **[Page route metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/get-page-route-metrics.md)**
 
     Select a page route within an application to view interaction metrics including timestamps, interaction types, total UI time, download time, and record.
 
--   **Interaction metrics**
+-   **[Interaction metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/get-interaction-metrics.md)**
 
     Select an interaction within a page route to view a waterfall with details for each resource on the page during that interaction.
 

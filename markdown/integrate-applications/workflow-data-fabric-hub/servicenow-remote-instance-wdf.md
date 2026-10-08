@@ -31,17 +31,11 @@ The connector has been enhanced to improve the performance of the following Glid
 -   sum\(\)
 -   References
 
-## Supported data types
+## Oracle instance limitation
 
-The following table lists supported ServiceNow data types and the default matching data types in a data fabric table.
+The remote ServiceNow instance must be running on a supported database platform when using the ServiceNow Remote Instance connector with Workflow Data Fabric or Workflow Data Fabric Hub.
 
-**Important:** ServiceNow data types not included in the table aren't supported for data mapping in Workflow Data Fabric Hub.
-
-|ServiceNow|Data fabric table|
-|----------|-----------------|
-| | |
-| | |
-| | |
+**Warning:** Connecting to a ServiceNow instance that uses Oracle as its underlying database is not supported. Queries that include tables from an Oracle-backed ServiceNow instance fail. This limitation applies specifically to instance-to-instance connectivity through the ServiceNow Remote Instance connector. Workflow Data Fabric and Workflow Data Fabric Hub support direct connections to external Oracle databases through the Oracle connector.
 
 **Related topics**  
 

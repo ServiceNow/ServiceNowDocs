@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-configurableworkspace-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
-reading_time_minutes: 6
+last_updated: "2026-10-08"
+reading_time_minutes: 11
 breadcrumb: [Products combined by family]
 ---
 
@@ -67,7 +67,18 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+-   **[Configure keyboard shortcut for response templates](https://www.servicenow.com/docs/access?context=configure-response-templates&family=yokohama&ft:locale=en-US)**
+
+Use a keyboard shortcut to add response templates to journal fields within a form.
+
+-   **[Create collapsible content for email templates](https://www.servicenow.com/docs/access?context=configure-collapsible-email-templates&family=yokohama&ft:locale=en-US)**
+
+Hide email content behind an ellipsis in email templates.
+
+-   **[Configure the email composer in Core UI](https://www.servicenow.com/docs/access?context=enable-next-experience-email-client-core-ui&family=yokohama&ft:locale=en-US)**
+
+Access the latest Workspace features for email composer in the Core UI.
+
 
 </td></tr><tr><td>
 
@@ -99,7 +110,112 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+-   **[AI filter assist](https://www.servicenow.com/docs/access?context=use-ai-filter-assist&family=yokohama&ft:locale=en-US)**
+
+Convert everyday language into an encoded query with AI filter assist.
+
+
+ -   **Favorite form templates**
+
+See your favorite form templates that you use most often in the Templates list.
+
+-   **Larger form template cards**
+
+Larger form template cards provide you with the entire labels for form templates in the Templates list without selecting them.
+
+-   **Sorting preferences for form templates**
+
+Sort form templates in the Templates list by the last used templates or in alphabetical order.
+
+-   **[Preview the relevant templates in the email composer](https://www.servicenow.com/docs/access?context=use-email-templates-in-the-compose-email-page&family=yokohama&ft:locale=en-US)**
+
+Preview relevant email templates, response templates, and quick messages that are listed in the email composer's Apply templates modal.
+
+-   **[View a total count of drafts in the email composer](https://www.servicenow.com/docs/access?context=review-draft-emails&family=yokohama&ft:locale=en-US)**
+
+A badge on the View drafts icon displays the total count of your drafts that are available in the email composer.
+
+-   **[Preview all drafts available in the email composer](https://www.servicenow.com/docs/access?context=review-draft-emails&family=yokohama&ft:locale=en-US)**
+
+Preview all drafts that are available in the email composer's View drafts modal instead of your three most recent drafts.
+
+-   **Time elapsed in the Activity stream**
+
+Timestamps in the Activity stream provide more clarity on the amount of time that has elapsed by reflecting the format for timestamps in the Core UI.
+
+-   **Compose text area expands with changes**
+
+The Compose text area expands dynamically to fit the parent container in the side-by-side view and modeless dialog.
+
+-   **[Customize the multi-record associator](https://www.servicenow.com/docs/access?context=set-up-resizing-for-select-modals-in-configurable-workspace&family=yokohama&ft:locale=en-US)**
+
+Resize the multi-record associator and adjust the number of rows that are shown per page in the multi-record associator.
+
+-   **Download all attachments**
+
+Create a zip file and download all attachments in the Attachments list.
+
+-   **Download multiple attachments at once**
+
+Select multiple attachments to download from the Attachments list at once.
+
+-   **Reopen special handling notes**
+
+Reopen special handling notes after they have been dismissed without refreshing the page or closing and reopening the record.
+
+-   **Indicator for personalized lists**
+
+A dot was added to the Update Personalized List icon as an indicator that the current list shows the personalized columns instead of the column defaults.
+
+-   **Progress bar for Percent complete list field**
+
+When you add a **Percent complete** field to a list, a progress bar displays next to the percentage.
+
+-   **Condition builder integrated into list**
+
+Condition builder opens above the list as an integrated part of the list experience instead of opening as a modal.
+
+-   **Open column search row with icon**
+
+The Show column search row icon enables you to display a row to search columns in a list instead of using the Column options menu.
+
+
+ -   **[Context-based suggestions with @mentions](https://www.servicenow.com/docs/access?context=set-up-at-mentions&family=yokohama&ft:locale=en-US)**
+
+Receive suggestions for users with access to the record when using @ mentions.
+
+-   **[Expand all tiles in the Activity stream](https://www.servicenow.com/docs/access?context=activity-stream-expand-tiles&family=yokohama&ft:locale=en-US)**
+
+Set a user preference to keep all tiles in the Activity stream expanded across cases and user sessions.
+
+-   **Access control security model for the Activity stream**
+
+Data filters and access rules provide role-based access control for viewing and editing tables in the Activity stream.
+
+-   **[Multiple records added from the multi-record associator load in the background](https://www.servicenow.com/docs/access?context=set-up-asynchronous-record-addition&family=yokohama&ft:locale=en-US)**
+
+Work on a record while the multiple records that were selected from the multi-record associator are added in the background.
+
+-   **Attach display text to knowledge base links in the email composer**
+
+Manage your email's appearance by attaching display text to knowledge base links.
+
+-   **Infinite scroll for lists**
+
+Use the Record List bundle to scroll through lists infinitely without pagination.
+
+-   **Live updates for lists**
+
+Use the Record List bundle to view live updates on lists without refreshing the page.
+
+-   **Temporary lists available in the list menu**
+
+Temporarily access personalized lists that are sent to you as links within the My Lists menu.
+
+-   **Filter for hierarchy in condition builder**
+
+The **is within hierarchy** field in the condition builder enables you to filter your list within a hierarchy instead of only direct reports.
+
 
 </td></tr><tr><td>
 
@@ -107,7 +223,50 @@ Zurich
 
 </td><td>
 
--   **[Browser warning for unsaved changes](https://www.servicenow.com/docs/access?context=config-browser-warning-unsaved-changes&family=zurich&ft:locale=en-US)**
+-   **[AI filter assist](https://www.servicenow.com/docs/access?context=use-ai-filter-assist&family=zurich&ft:locale=en-US)**
+
+Convert everyday language into an encoded query with AI filter assist.
+
+
+ -   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+-   **Lists**
+
+The following UI changes have been made to lists:
+
+    -   Change list header organization for responsive experiences.
+    -   Access the filter from the list header.
+    -   Use HTML fields in lists that are scrollable and display formatted text.
+-   **Forms**
+
+The following UI changes have been made to forms:
+
+    -   Live presence displays who is viewing the form. Access a user's contact card by selecting their avatar.
+    -   Currency fields display a menu with a search field and currency descriptions.
+-   **Activity stream**
+
+The following UI changes have been made to the Activity stream:
+
+    -   The Compose header is hidden when you're not using the stacked view.
+    -   Text area inputs are displayed as a single line.
+    -   Text area and rich text editor resize automatically.
+    -   The line height was set to display the scrollbar.
+    -   In the Activity stream, a post indicates when field changes were made by an AI agent instead of a human agent. When the AI agent updates the fields, the post also displays a message that field changes were made by Now Assist.
+    -   Translate emails in the Activity stream to your system language using the translate button.
+-   **Email composer**
+
+Email recipient pills display whether the user is online. Select an email recipient pill to view the user's contact card.
+
+-   **Attachments panel**
+
+The following UI changes have been made to the Attachments panel:
+
+    -   Preview files, change file names, select an encryption module, and remove files individually with a preview modal for attachments. After you select attachments to upload, the modal displays the selected files in a list view. For mobile experiences, the preview modal displays as a carousel with thumbnails.
+    -   Delete selected attachments from the Attachments panel by using the More Actions menu.
+
+ -   **[Browser warning for unsaved changes](https://www.servicenow.com/docs/access?context=config-browser-warning-unsaved-changes&family=zurich&ft:locale=en-US)**
 
 Configure a browser warning to alert you of unsaved changes when you navigate away from a page using the back or forward buttons.
 
@@ -124,10 +283,6 @@ Export your lists to Google Sheets directly from the Export menu.
 -   **[Live updates for lists](https://www.servicenow.com/docs/access?context=live-list-updates-configurable-workspace&family=zurich&ft:locale=en-US)**
 
 Configure live updates at the list page level without affecting other lists in your Configurable Workspace.
-
--   **[AI filter assist](https://www.servicenow.com/docs/access?context=use-ai-filter-assist&family=zurich&ft:locale=en-US)**
-
-Convert everyday language into an encoded query with AI filter assist.
 
 -   **[Predicate Builder component enhancements in UI Builder](https://developer.servicenow.com/dev.do#!/reference/next-experience/zurich/now-components/now-predicate-builder/uib-setup)**
 
@@ -210,8 +365,7 @@ Zurich
 
 </td><td>
 
--   The List, List - Simple, and List - Related components are no longer available in UI Builder are replaced by the Record List component bundle.
--   The Condition Builder component is no longer available in UI Builder and is replaced by the Predicate Builder component for all list types.
+No updates for this release.
 
 </td></tr></tbody>
 </table>## Deprecations
@@ -240,7 +394,8 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   The List, List - Simple, and List - Related components are no longer available in UI Builder are replaced by the Record List component bundle.
+-   The Condition Builder component is no longer available in UI Builder and is replaced by the Predicate Builder component for all list types.
 
 </td></tr></tbody>
 </table>## Activation information
@@ -269,7 +424,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Configurable Workspace is a ServiceNow AI Platform feature that is active by default.
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -327,7 +485,10 @@ Zurich
 
 </td><td>
 
+-   **Browser requirements**
+
 Configurable Workspace doesn’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge, Chromium or one of the other supported browsers that are listed in [Browser support](https://www.servicenow.com/docs/access?context=browser-support&family=zurich&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Accessibility information
@@ -356,7 +517,8 @@ Zurich
 
 </td><td>
 
--   **[Screen Summarization](https://www.servicenow.com/docs/access?context=use-screen-summarization&family=zurich&ft:locale=en-US)**
+-   **Accessibility information**
+    -   **[Screen Summarization](https://www.servicenow.com/docs/access?context=use-screen-summarization&family=zurich&ft:locale=en-US)**
 
 Screen Summarization is a feature that supports visually impaired and low-vision users by providing AI-generated summaries of workspace pages and their sections. The summaries can be read aloud with a screen reader to help reduce navigation and comprehension time.
 

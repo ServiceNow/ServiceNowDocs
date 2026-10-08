@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/create-dv-time-series-ac.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 12
 breadcrumb: [Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
@@ -26,11 +26,15 @@ A time series is an ordered sequence of metrics taken continuously over time. Th
 -   Identifying turning points, such as whether a change in policy led to a change in indicator scores.
 -   Evaluating the relationships between data sources.
 
-When you are selecting a visualization for a time series, consider whether you want to emphasize the trend in the data or specific changes in the data. Also consider whether you want to show one data source or compare several related data sources.
+When you select a visualization for a time series, consider whether you want to emphasize the trend in the data or specific changes in the data. Also consider whether you want to show one data source or compare several related data sources.
 
 For information about the use of a Time series visualization in a dashboard, see [the Developer Site](https://developer.servicenow.com/dev.do#!/reference/now-experience/xanadu/shared-components/now-vis-timeseries-wrapper/usage). This site gives information about Time series data visualization components in the UI Builder, and some configuration options may differ from the Visualization Designer.
 
 For an example of creating a time series visualization, see [Time series data visualization example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/dv-example-line.md).
+
+**Note:**
+
+In Platform Analytics experience, time series visualizations do not display records when the configured Trend by field has no value. If the Trend by field is empty for all records, no records will show in the visualization. If the field is populated for only a subset of the records, only that subset will appear in the visualization.
 
 ## Procedure
 

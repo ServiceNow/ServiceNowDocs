@@ -18,11 +18,7 @@ To access data securely on your provider account, the Discovery process must be 
 
 ## Before you begin
 
-Role required: insights\_admin \[sn\_clin\_core.insights\_admin\] or admin
-
-## About this task
-
-**Important:** This information applies to both the Cloud Cost Management and Cloud Insights Billing apps. All references to Cloud Cost Management also apply to Cloud Insights Billing.
+Role required: Insights admin \(sn\_clin\_core.insights\_admin\) or admin
 
 ## Procedure
 
@@ -41,7 +37,7 @@ Role required: insights\_admin \[sn\_clin\_core.insights\_admin\] or admin
     |Type|Provider name, GCP.|
     |Applies to|Indicates the MID Servers. If all, type All MID Servers.|
     |EMail|Billing service account email.|
-    |Secret Key|Secret key that you generated on the Google Cloud Console.|
+    |Secret Key|Secret key that you generated on the Google Cloud Console. For more information, see [Set up and configure billing data export in Google Cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/create-gcp-service-account.md).|
 
 5.  Select **Save**.
 

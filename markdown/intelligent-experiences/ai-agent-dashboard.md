@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/
 release: zurich
 topic_type: concept
 last_updated: "2026-07-21"
-reading_time_minutes: 19
+reading_time_minutes: 18
 breadcrumb: [Reference, AI Agent Studio, Enable AI experiences]
 ---
 

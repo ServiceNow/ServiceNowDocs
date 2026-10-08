@@ -71,9 +71,9 @@ Use the Jobs table to create lifecycle event cases where you can specify which j
 **Related topics**  
 
 
-[bundle-crapiref.hr_UtilsAPI]
+[hr\_Utils - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/hr_UtilsAPI.md)
 
-[bundle-crapiref.hr_ActivitySetAPI]
+[hr\_ActivitySet - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/hr_ActivitySetAPI.md)
 
-[bundle-crapiref.hr_ActivityUtilsAPI]
+[hr\_ActivityUtils - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/hr_ActivityUtilsAPI.md)
 

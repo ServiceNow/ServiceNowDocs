@@ -41,5 +41,5 @@ The Healthcare CMMS application uses the data model provided by the Healthcare a
 -   Manage the end-to-end process of medical device out-of-service.
 -   Provide a guided experience for clinical engineers to complete setting medical devices in-service, review AEM requests, and setting medical devices out-of-service from Workspace by using the Healthcare CMMS playbooks.
 
-To get started with the Healthcare CMMS application, see [797b7a621ac06d6aea2bfa051fdca403c2012311.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/cmms-config-app.md).
+To get started with the Healthcare CMMS application, see [e3eedef63cfe5a13a556de4602977f06140a0e2b.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/cmms-config-app.md).
 

@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/order-m
 release: zurich
 topic_type: concept
 last_updated: "2025-10-07"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Order fulfillment, Order Management, Use, Sales Customer Relationship Management]
 ---
 
@@ -49,7 +49,7 @@ The change order workflow is as follows:
 **Related topics**  
 
 
-[bundle-csm.customer-life-cycle-management-workflows]
+[Customer Life Cycle Management Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/customer-life-cycle-management-workflows.md)
 
 [Managing post-fulfillment order changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/managing-orders.md)
 

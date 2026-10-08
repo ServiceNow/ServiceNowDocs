@@ -1,6 +1,6 @@
 ---
 title: Execute Ansible automations for incidents
-description: Use the Ansible Execution Agent to automatically launch mapped Ansible job templates during incident remediation in the Service Operations Workspace, reducing manual effort and accelerating mean time to resolution..
+description: Use the Ansible Execution Agent to automatically launch mapped Ansible job templates during incident remediation in the Service Operations Workspace, reducing manual effort and accelerating mean time to resolution.
 locale: en-us
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/execute-ansible-automations-for-incidents.html
 release: zurich
@@ -15,67 +15,71 @@ breadcrumb: [Use, Learning Enhanced Automation Platform \(LEAP\), ServiceNow Ott
 
 # Execute Ansible automations for incidents
 
-Use the Ansible Execution Agent to automatically launch mapped Ansible job templates during incident remediation in the Service Operations Workspace, reducing manual effort and accelerating mean time to resolution..
+Use the Ansible Execution Agent to automatically launch mapped Ansible job templates during incident remediation in the Service Operations Workspace, reducing manual effort and accelerating mean time to resolution.
 
 ## Before you begin
 
 Before executing Ansible automations:
 
+-   The Ansible Execution Agent must be configured and enabled
 -   Step-to-job mappings must exist for the predicted automation opportunity group
 
     For more information, refer to [Map Ansible jobs to resolution steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/map-ansible-jobs-to-resolution-steps.md).
 
--   The mappings must be in **active** state
--   The Ansible Execution Agent must be configured and enabled
 
 Role required: LEAP agent
 
 ## About this task
 
-When an incident arrives in the SOW, LEAP predicts the automation opportunity group using existing clustering. If step-to-job mappings exist for that group, automation options are presented to incident responders for execution.
+When an incident arrives in SOW, LEAP predicts the automation opportunity group using existing clustering. For critical automation opportunities where resolution steps are generated, if step-to-job mappings exist for that group, automation options are presented to incident responders for execution.
 
 ## Procedure
 
 1.  In SOW, select the incident.
 
-2.  In the **Ansible Automations** section, review the available automation options.
+2.  In the **Recommendations** section, review the available automation options.
 
-    This section appears only if LEAP has predicted an automation opportunity group with active step-to-job mappings.
+    This section appears only if LEAP has predicted a critical automation opportunity group with step-to-job mappings.
 
-3.  Select **Execute Ansible Playbook**.
+3.  Select the required method to complete the resolution
 
-    Complete the workflow by appropriately providing approvals to the tasks,
+<table id="choicetable_xyd_2f4_skc"><thead><tr><th align="left" id="d222518e137">
 
-4.  For each automated step, provide the required inputs when prompted:
+Method
 
-    1.  Review the job template details presented by the agent.
+</th><th align="left" id="d222518e140">
 
-        The agent displays the template name, description, playbook, and current status.
+Steps
 
-    2.  Complete the input form with required survey questions and launch parameters.
+</th></tr></thead><tbody><tr><td id="d222518e146">
 
-        The agent consolidates all required inputs into a single form, including survey questions and any ask\_on\_launch parameters.
+**Manual**
 
-    3.  Approve the launch job to execute the automation.
+</td><td>
 
-5.  For manual steps, complete the required actions and confirm completion:
+1.  Review the manual step description provided by the agent.
+2.  Perform the required manual actions.
+3.  Select **Step Completed** to confirm that the manual step is finished.
 
-    1.  Review the manual step description provided by the agent.
 
-    2.  Perform the required manual actions outside of ServiceNow.
+</td></tr><tr><td id="d222518e173">
 
-    3.  Select **Step Completed** to confirm that the manual step is finished.
+**Automated**
 
-6.  Monitor job execution status and respond to agent prompts:
+</td><td>
 
-    -   The agent provides real-time status updates while a job is running.
-    -   You can request job status at any time.
-    -   After completing a step, the agent waits for your confirmation before proceeding to the next step.
-7.  Review the execution summary when all steps are completed.
+1.  Select **Execute Ansible Playbook**.
+2.  Provide the required inputs when prompted and confirm to proceed.
+
+
+</td></tr></tbody>
+</table>4.  Monitor job execution status and respond to agent prompts:
+
+5.  Review the execution summary when all steps are completed.
 
     The agent provides a summary including total steps processed, jobs launched with their Ansible Job IDs, manual steps completed, and any failures or errors.
 
-8.  Update the incident record with the remediation results and close the incident if resolution is successful.
+6.  Update the incident record with the remediation results and close the incident if resolution is successful.
 
 
 ## Result

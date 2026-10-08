@@ -9,7 +9,7 @@ classification: privacy-workspace
 topic_type: task
 last_updated: "2026-07-26"
 reading_time_minutes: 2
-breadcrumb: [Configure, Integrate with RadarFirst, Privacy Case Management, Privacy Management, Governance, Risk, and Compliance]
+breadcrumb: [RadarFirst configuration, Integrate with RadarFirst, Privacy Case Management, Privacy Management, Governance, Risk, and Compliance]
 ---
 
 # Map breach assessment data to RadarFirst data elements and risk factors

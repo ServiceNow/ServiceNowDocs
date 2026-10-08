@@ -22,7 +22,7 @@ Role required: sam\_admin
 
 ## About this task
 
-If you are running Discovery and have used a version of Software Asset Management previously, there is no need to run this script.
+If you are running Discovery and have used a version of Software Asset Management previously, there is no need to run this script. After the initial migration, Discovery writes new records directly to \[cmdb\_sam\_sw\_install\] — re-running this script is not needed for new data.
 
 When running the Migrate Software Installs script, allow enough time for the process to complete.
 

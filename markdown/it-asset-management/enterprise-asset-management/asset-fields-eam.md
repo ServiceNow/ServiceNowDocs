@@ -688,7 +688,7 @@ Work notes are updated for the following cases: -   Updates to **Assigned To**, 
 
 [Domain separation and Enterprise Asset Management]()
 
-[Enterprise Asset Management roles]()
+[Components installed with Enterprise Asset Management]()
 
 [OT Asset Workspace roles]()
 

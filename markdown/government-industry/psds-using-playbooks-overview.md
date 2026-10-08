@@ -26,7 +26,7 @@ The following applications are available with Public Sector Digital Services tha
 -   [Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-using-grants-management-playbook.md)
 -   [Social Benefits Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-using-sb-playbooks.md)
 -   [License and Permit Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-using-lp-playbooks.md)
--   [Information Request Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-using-ir-playbooks.md)
+-   [Information Request Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-using-ir-playbooks.md)
 -   [Service Request Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-using-sr-playbooks.md)
 
 The corresponding playbook for each case type automatically appears in the **Playbook** tab when you create an public service request case as an agent in the CRM Workspace, or when a constituent puts in a request through the Government Service Portal.
@@ -163,9 +163,9 @@ The Public Sector Digital Services platform includes the following playbooks:
     -   Packaged playbook that deploys out of the box case types, playbooks, business logic, SLAs, notifications and more to automate workflow to orchestrate the process​ and help agents resolve requests faster and efficiently.
     -   Customizable catalog of pre-built license and permit request options that constituents and businesses can choose from on the Government Service Portal.
     -   Extendable data model through service definitions.
--   **[Information Request Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-using-ir-playbooks.md)**
+-   **[Information Request Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-using-ir-playbooks.md)**
 
-    The Information Request Playbook application provides an end-to-end workflow for handling public record and information requests submitted by public sector end users. The application includes the following:
+    The Information Request Administration application provides an end-to-end workflow for handling public record and information requests submitted by public sector end users. The application includes the following:
 
     -   Service catalog of pre-built, information request options that constituents and businesses can choose from on the Government Service Portal.
     -   Automated workflow process that agents use to resolve information requests faster and efficiently.

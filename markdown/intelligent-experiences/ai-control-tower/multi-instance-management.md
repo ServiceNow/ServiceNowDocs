@@ -63,7 +63,7 @@ After configuring the Multi-Instance Framework, enable AI Asset data transfer on
 
 When you configure AI Asset data transfer, the remaining values are automatically configured. No additional setup is required.
 
-**Note:** For information about configuring Multi-instance management for AI Control Tower, see [Configure Multi-instance management for AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/configure-multi-instance-management-for-aict.md).
+**Note:** For information about configuring Multi-instance management for AI Control Tower, see [Configure Multi-Instance management for AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/configure-multi-instance-management-for-aict.md).
 
 ## AI asset Synchronization
 

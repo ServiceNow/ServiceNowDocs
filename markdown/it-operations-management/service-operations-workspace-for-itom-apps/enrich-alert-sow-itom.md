@@ -80,15 +80,15 @@ For users familiar with the classic Event Management experience, enrich automati
     -   **Copy or compose fields**: Merges various alert fields, tags and text to generate a composed alert output.
     -   **Change alert values**: Maps the current value of alert fields to specified new values.
     -   **Improve configuration item \(CI\) identification**: Identifies CIs other than a host for better alert grouping, team assignment, and service health.
-<table id="choicetable_p43_zvd_s1c"><thead><tr><th align="left" id="d214102e287">
+<table id="choicetable_p43_zvd_s1c"><thead><tr><th align="left" id="d217588e287">
 
 Option
 
-</th><th align="left" id="d214102e290">
+</th><th align="left" id="d217588e290">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d214102e296">
+</th></tr></thead><tbody><tr><td id="d217588e296">
 
 **__Extract alert fields__**
 
@@ -119,7 +119,7 @@ If you want to add an alert tag, select the **Set as a tag** check box.
 
  To include additional fields for extraction, select **+ Add fields**.
 
-</td></tr><tr><td id="d214102e398">
+</td></tr><tr><td id="d217588e398">
 
 **__Copy or compose fields__**
 
@@ -137,7 +137,7 @@ For easier grouping, you can select a tag from the menu. If you want to use the 
 
  To create additional alert data compositions, select **+ Add fields**.
 
-</td></tr><tr><td id="d214102e459">
+</td></tr><tr><td id="d217588e459">
 
 **__Change alert values__**
 
@@ -152,7 +152,7 @@ To add more field values, select **+ Add value** and to add more fields to map, 
 
 \[Omitted image "sow-change-alert-values.png"\] Alt text: Change values of a field to a format that is easier to read, filter, and group.
 
-</td></tr><tr><td id="d214102e518">
+</td></tr><tr><td id="d217588e518">
 
 **Improve configuration item \(CI\) identification**
 

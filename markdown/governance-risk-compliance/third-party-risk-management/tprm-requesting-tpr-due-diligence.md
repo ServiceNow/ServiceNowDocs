@@ -7,8 +7,8 @@ release: zurich
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 6
+last_updated: "2026-09-10"
+reading_time_minutes: 7
 breadcrumb: [Third-party Risk Management, Governance, Risk, and Compliance]
 ---
 
@@ -21,6 +21,9 @@ Any employee at your organization can request due diligence, which is an investi
 -   An engagement is the informal or contracted relationship that you intend to form with a third party that could potentially expose your organization to risk. The engagement outlines the services or products to be provided by the third party and other details of the relationship.
 -   A third party is any organization or individual that you have interacted or entered into a business relationship with. Third parties can have subsidiaries and can contract with fourth parties. For example, departments are subsidiaries.
 -   A fourth party can contract with further parties. All downstream parties, such as the fourth through the nth parties, carry risk in the same ways as third parties.
+-   Third-party elements \(TP elements\) are the external organizations that an engagement relies on to provide goods, services, or support. These organizations can include the suppliers, contractors, facilities, individuals, or any other external organization that can access the engagement's systems, data, or facilities.
+
+**Note:** If AI assets are involved in the engagement, the requester selects **AI assets involved** when creating the due diligence request and identifies the internal user who responds to the Inherent Risk Questionnaire \(IRQ\). This adds a paired internal task that assigns the due diligence requester to add AI use case elements, alongside the IRQ process. Both must be complete before due diligence can continue. For more information, see [Monitoring third-party elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-monitor-tp-elements.md).
 
 For more information about the terms that are used in these sections or why you might conduct due diligence, see [Terminology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-terminology.md) and [Why you conduct due diligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/vrm-due-diligence-why.md).
 
@@ -38,7 +41,7 @@ The following are the steps of the due diligence request process.
 6.  The TPR manager reviews the request for due diligence for the engagement and approves it. If the information provided by the requester was insufficient or the engagement is not possible for your organization, the TPR manager rejects it.
 7.  The IRQ process starts after the TPR manager approves the request for due diligence.
 
-To learn more about creating or monitoring a due diligence request, see [Request due diligence for a third-party engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-ws-request-dd-for-engagement.md) and [Monitoring the due diligence request process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-ws-dd-mgt-pg-overview.md).
+**Note:** Depending on how due diligence is configured in your organization, additional assessments or information requests may be included as part of the due diligence process. For example, organizations that manage software supply‑chain risk might request a Software Bill of Materials \(SBOM\) from third parties as part of due diligence. For more information, see [Exploring software bill of materials collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-sbom-exploring.md) and [Collecting software bill of materials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-sbom.md).
 
 When creating a due diligence request, the following options are available:
 

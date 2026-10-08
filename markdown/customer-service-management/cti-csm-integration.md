@@ -28,5 +28,6 @@ For more information, see the following topics:
 
 -   [Computer Telephony Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/r_ComputerTelephonyIntegration.md)
 -   [Computer Telephony Integration workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/cti-workflows.md)
+-   [OpenFrame overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/c_OpenFrameOverview.md)
 -   [Callback interaction features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/contact-center-intergration-with-icc-callback.md)
 

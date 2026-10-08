@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/rn-summary-highlights.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 171
+last_updated: "2026-10-08"
+reading_time_minutes: 172
 breadcrumb: [Release notes summaries for Zurich features, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
 ---
 
@@ -106,7 +106,6 @@ AI Control Tower
 
 AI Control Tower highlights in Zurich patch 13:
 
--   Detect unsanctioned AI usage across your enterprise and apply policies to control it.
 -   Apply policies to block AI activity and respond to AI threats.
 -   Add evaluation metrics for a specific AI system without changing your organization's global metric configuration.
 -   Discard session, trace, and span data to reduce storage usage, while retaining quality and safety scores.
@@ -343,7 +342,7 @@ API
 -   Use inbound REST APIs to interact with various ServiceNow functionalities within your application.
 -   Client Next Experience APIs include client APIs compatible with the Next Experience UI.
 
-See  for more information.
+See [API implementation and reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/api-implementation-reference.md) for more information.
 
 </td></tr><tr><td>
 
@@ -427,7 +426,7 @@ Advanced Work Assignment \(AWA\)
 
 Use AWA with an inbox card in Workspace without an existing interaction or work item.
 
-See  for more information.
+See [Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/awa-application-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -437,7 +436,7 @@ Agent Chat
 
 Integrate and use Agent Chat with third-party chat apps.
 
-See  for more information.
+See [Using Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/ci-agent-chat-using.md) for more information.
 
 </td></tr><tr><td>
 
@@ -496,7 +495,7 @@ App Engine Management Center
 -   Migrate your existing App Engine pipelines to ReleaseOps.
 -   Oversee application development, deployment, and insights using AEMC.
 
-See  for more information.
+See [App Engine Management Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/app-engine-management-center.md) for more information.
 
 </td></tr><tr><td>
 
@@ -606,7 +605,7 @@ Following are the OAuth enhancements:
 Use the Provider name field to enter the details of your inbound integrations to distinguish between different inbound integrations on your ServiceNow AI Platform®. Update the Provider name in your API integrations to improve monitoring capabilities:
 
     -   For OAuth integrations, update the provider name using the Provider name field. To know more, see [OAuth inbound](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/oauth-inbound.md).
-    -   For Basic authentication integrations, update the Provider name in the integration registration form. To know more about the integration registration form, see .
+    -   For Basic authentication integrations, update the Provider name in the integration registration form. To know more about the integration registration form, see [View Inbound API Integration Usage dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/view-inbound-api-integration-usage-dashboard.md).
 
 [Zurich Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-1.md)
 
@@ -637,7 +636,7 @@ Automated Test Framework
 -   Create and schedule test suites to organize and run tests in batches.
 -   Reduce test design time by copying quick start tests and test suites. You can also create custom test steps to expand test coverage.
 
-See  for more information.
+See [Automated Test Framework \(ATF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/atf-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -664,7 +663,7 @@ Build Agent
 -   Choose from newly supported models.
 -   Search external content without leaving Build Agent.
 
-See  for more information.
+See [Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/build-agent.md) for more information.
 
 </td></tr><tr><td>
 
@@ -795,7 +794,7 @@ Case management for CSM
 -   View and select from the available entitlements that are associated with the customer, product, and contract information to associate multiple entitlements with customer service cases.
 -   Filter the service definitions that are displayed to agents based on such criteria as the assigned role or group, or entity criteria.
 
-See Case management for Customer Service Management for more information.
+See [Case management for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/csm-case-management.md) for more information.
 
 </td></tr><tr><td>
 
@@ -820,7 +819,7 @@ Classic Workflow
 -   Added the snc\_required\_script\_writer\_permission role to all Workflow tasks.
 -   Removed the legacy workflows created and published by ServiceNow, Inc. from new customer installations.
 
-See  for more information.
+See [Classic Workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/c_WorkflowOverview.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1055,7 +1054,7 @@ Creator Studio
 -   Add playbooks with a new activity that automatically updates some fields on the app's generated record.
 -   Augment forms with the new Duration and Attachment question types.
 
-See  for more information.
+See [Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/creator-studio-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1171,7 +1170,7 @@ Data Management for CSM
 -   Improve traceability with serial numbers on Install Base items and direct links to model categories for industry-specific configurations.
 -   Enable partial sync using `allowedContextTypes` to sync specific sections with preserved structure and recursive filtering, and deliver clear, actionable error messages with consistent API responses.
 
-See  feature for more information.
+See [Data management for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/csm-data-management.md) feature for more information.
 
 </td></tr><tr><td>
 
@@ -1209,7 +1208,7 @@ Developer Sandboxes
 -   Provide developer isolation and parallelism for customer development environments and instances.
 -   View the total, available, and allocated sandboxes in your instance by using the Sandbox Management home dashboard. The dashboard also displays information about each sandbox, including the status, data utilization, owner, when it was last accessed, and when the sandbox was allocated.
 
-See  for more information.
+See [Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/sandboxes-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1337,7 +1336,7 @@ ERP Semantic Mining
 
 The name of the ERP Customization Mining application has been changed to ERP Semantic Mining.
 
-See  for more information.
+See [ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/erp-customization-mining-overview.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1425,7 +1424,7 @@ Enterprise Architecture
 -   Apply filters to the Application Rationalization bubble chart and list views pages, using the new filter options to filter for specific business applications. Also, select a fiscal period on the Application Rationalization pages using the new fiscal period filter option.
 -   Evaluate the technical debt score for business applications using the Technology Reference Model \(TRM\) technical debt indicator. This helps you to identify high-risk business applications and enables you to prioritize modernization and rationalization.
 
-See  for more information.
+See [Enterprise Architecture \(formerly Application Portfolio Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/application-portfolio-management-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1546,7 +1545,7 @@ Flows, subflows, and actions in Workflow Studio
 -   Create multiple skills for conversational subflows and actions from the conversational settings.
 -   Configure a default LLM for generating metadata for conversational subflows and actions.
 
-See , , and  for more information.
+See [Exploring flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/exploring-flows.md), [Exploring subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/exploring-subflows.md), and [Exploring actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/exploring-actions.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1741,7 +1740,7 @@ Using ITSM MCP Server, manage incidents, change requests, and on-call schedule. 
 -   **On-call scheduling:** Retrieve rosters and shifts, request time off, and query availability through natural-language questions.
 
 
-See  for more information.
+See [ITSM MCP Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/itsm-mcp-server-overview.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1759,7 +1758,7 @@ Identity
 **Important:** Access Analyzer is available in the ServiceNow Store. For more information, visit [ServiceNow Store](https://store.servicenow.com/store).
 
 -   Use Federated ID to uniquely identify roles across multiple instances. Federated ID provides a unique identifier for roles, making it easier to manage and track them across instances. To know more, see [Explore Federated ID](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/federated-id.md).
--   View the Inbound API Integration Usage dashboard under the Machine Identity Console's Unique API calls page to access statistics for requestors and their API calls. To know more, see [Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/machine-identity-metrics.md) and .
+-   View the Inbound API Integration Usage dashboard under the Machine Identity Console's Unique API calls page to access statistics for requestors and their API calls. To know more, see [Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/machine-identity-metrics.md) and [View Inbound API Integration Usage dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/view-inbound-api-integration-usage-dashboard.md).
 
 Zurich
 
@@ -1840,7 +1839,7 @@ Integration Hub
 -   Use load-balancing MID Server clusters in Stream Connect message replication.
 -   Enable testing of connection aliases directly from configuration templates.
 
-See  for more information.
+See [Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integrationhub.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1851,7 +1850,7 @@ Intelligence for CSM
 -   Get enhanced visibility of knowledge base articles by marking and displaying a lock icon for articles that aren’t accessible to the case requester within the CRM Workspace.
 -   Gain insights to the root causes of case service level agreement \(SLA\) breaches and view the suggested improvements to optimize process performance.
 
-See Intelligence for CSM for more information.
+See [Intelligence for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/intelligence-csm.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2091,7 +2090,7 @@ Mastercard Spoke
 -   Enable dispute agents with real-time data exchange and embedded Mastercard dispute life cycle workflows.
 -   Accelerate time to value with a predefined Mastercom Extended spoke that reduces development effort and speeds up deployment.
 
-See  for more information.
+See [Mastercard Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/mastercard-spoke.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2367,7 +2366,18 @@ Now Assist in Virtual Agent
 -   Expand the fallback options.
 -   Enter into web search mode manually via the input bar.
 
-See  for more information.
+See [ServiceNow Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/now-assist-in-va-landing.md) for more information.
+
+</td></tr><tr><td>
+
+On-Call Onboarding
+
+</td><td>
+
+-   Onboard many teams onto on-call rotations at once — shift templates, rosters, and escalation policies — instead of configuring each team one at a time.
+-   Keep bulk schedule setup safe with per-team rollback: if one team's setup fails, the rest of the batch still completes.
+
+See [Create on-call schedules for multiple groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/oc-create-bulk-schedule-onboarding.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2424,7 +2434,7 @@ Operational Technology \(OT\) Manager Foundation
 
 </td><td>
 
-Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
 
 [Zurich Patch 11](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-11.md)
 
@@ -2559,7 +2569,7 @@ Performance Analyzer
 -   Receive page load time data directly on the instance.
 -   Access aggregated metrics by application and routes.
 
-See Performance Analyzer for more information.
+See [Performance Analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/performance-analyzer-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2584,7 +2594,7 @@ Playbooks in Workflow Studio
 -   Set child variants to evaluate later in a playbook.
 -   Create decision branches for stages.
 
-See  for more information.
+See [Exploring Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/process-automation-designer.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2774,7 +2784,7 @@ RPA Hub
 -   Use a Smart Card authentication for enhanced security.
 -   Enhanced access controls for RPA bot generation skill.
 
-See  for more information.
+See [Robotic Process Automation \(RPA\) Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/rpa-main-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2782,7 +2792,7 @@ Recommended Actions for Operational Technology Service Management \(OTSM\)
 
 </td><td>
 
-Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
 
 [Zurich Patch 11](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-11.md)
 
@@ -2844,7 +2854,7 @@ ReleaseOps
 -   Schedule releases or deploy changes on-demand.
 -   Automate the testing and validation process with ReleaseOps to ensure that the proper checks, tests, scans, and approvals are completed before releasing changes to production.
 
-See  for more information.
+See [ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/releaseops-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2906,7 +2916,7 @@ SQL API
 -   Merge your ServiceNow data with third-party datasets in your data lakes and analytical platforms for comprehensive analysis.
 -   Write targeted SQL queries to retrieve only the data you need, reducing network overhead on data pipeline and data transformation, and improving performance.
 
-For more information, see .
+For more information, see [Access your ServiceNow data using Live Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/accessing-your-servicenow-data-using-sql-api.md).
 
 </td></tr><tr><td>
 
@@ -2990,7 +3000,7 @@ Self-service and omnichannel engagement for CSM
 -   Enable external routing of email interactions to reduce administrative effort.
 -   Improve agent callback transfers for smoother handovers and support customers to request scheduled callbacks.
 
-See  and  for more information.
+See [Omnichannels for communicating with customers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/omnichannels-communicating-customers.md) and [Interaction Controls Component \(ICC\) for voice calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/contact-center-integration-with-icc.md) for more information.
 
 </td></tr><tr><td>
 
@@ -3188,6 +3198,14 @@ Use the Feature Preview Program to choose which pre-release capabilities to acti
 
 </td></tr><tr><td>
 
+ServiceNow Cowork
+
+</td><td>
+
+See [ServiceNow Cowork](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/servicenow-cowork-landing.md) for more information.
+
+</td></tr><tr><td>
+
 ServiceNow IDE
 
 </td><td>
@@ -3196,7 +3214,7 @@ ServiceNow IDE
 -   Use light and dark developer themes.
 -   Use the ServiceNow IDE in any supported left-to-right language.
 
-See  for more information.
+See [ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/servicenow-ide-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -3286,7 +3304,7 @@ ServiceNow Otto for App Engine
 
 -   Use Google Gemini and Anthropic Claude on AWS as AI model providers for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
 
-See  for more information.
+See [ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/add-ai-to-custom-apps-with-now-assist-for-app-engine-enterprise.md) for more information.
 
 </td></tr><tr><td>
 
@@ -3412,7 +3430,7 @@ ServiceNow Otto for Creator
 -   Create, edit, and deploy fully functional ServiceNow applications using the Build Agent in the ServiceNow IDE.
 -   Enable security implementation to execute AI agents and agentic workflows through access control lists \(ACLs\) and user identities.
 
-See  for more information.
+See [ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/now-assist-for-creator-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -3468,7 +3486,7 @@ Early Availability
 -   Use the suggested steps that automatically display on the **Recommended Actions** tab to help resolve cases and increase agent productivity.
 -   Use Google Gemini and Anthropic Claude on AWS as AI model providers for generative AI skills and AI agents, in addition to Now LLM Service and Azure OpenAI.
 
-See  for more information.
+See [ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/now-assist-csm.md) for more information.
 
 </td></tr><tr><td>
 
@@ -3503,7 +3521,7 @@ Zurich Early Availability
 -   Enhance your productivity by using the Now LLM Service or a supported third-party LLM with any ServiceNow Otto for Enterprise Architecture \(EA\) skill or AI agent.
 -   Enhance your user experience with Coral that is used as the default theme for new portal, web, and mobile experiences.
 
-See  for more information.
+See [ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/now-assist-ea.md) for more information.
 
 </td></tr><tr><td>
 
@@ -3808,7 +3826,7 @@ ServiceNow Otto for Operational Technology \(OT\) Service Management
 
 </td><td>
 
-Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
 
 [Zurich Patch 12](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-12.md)
 
@@ -4154,7 +4172,7 @@ ServiceNow SDK
 -   Develop a user interface \(UI\) with React to build a full-stack application in source code.
 -   Define flows, service catalogs, UI pages and more in source code with ServiceNow Fluent APIs.
 
-See  for more information.
+See [ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/servicenow-sdk-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -4168,7 +4186,7 @@ ServiceNow Studio
 -   As of version 28.2.1, for file types that open in a builder, decide whether you want to edit the file in the builder or in the classic UI16 view.
 -   As of version 28.2.1, access your favorite lists in ServiceNow Studio by bookmarking them.
 
-See  for more information.
+See [ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/servicenow-studio-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -4181,7 +4199,7 @@ ServiceNow Vault
 -   Manage and monitor cloud encryption metrics.
 -   Get AI guidance using the Ask Now Assist panel in Vault console.
 
--   Use guided setup to begin autoclassifying sensitive data within [Financial Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/financial-services-operations/fso-overview.md) and  applications.
+-   Use guided setup to begin autoclassifying sensitive data within [Financial Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/financial-services-operations/fso-overview.md) and [Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/c_CustomerServiceManagement.md) applications.
 -   Monitor and review critical sensitive data metrics from the centralized ServiceNow Vault Console dashboard.
 -   Navigate between security tools efficiently using the ServiceNow Vault Console dashboard.
 
@@ -4195,7 +4213,7 @@ Sidebar
 
 Prevent Sidebar discussions from becoming cluttered by using threaded replies when responding to messages.
 
-See  for more information.
+See [Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/sidebar-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -4348,7 +4366,7 @@ Table Builder
 -   Read-only behavior is now controlled by the **Read only option** \[`read_only_option`\] choice field, which provides options such as **Display Read Only** or **Strict Read Only**.
 -   The existing **Read only** field will no longer be editable in the UI.
 
-See  for more information.
+See [Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/tb-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -4494,6 +4512,10 @@ Virtual Agent
 
 </td><td>
 
+[Zurich Patch 13](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-13.md)
+
+-   Use automated evaluations to test your conversational assistant.
+
 [Zurich Patch 12](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-12.md)
 
 -   ServiceNow Otto is the new AI experience brand. This change is reflected in the name of ServiceNow products, including ServiceNow Otto for Virtual Agent and ServiceNow Otto panel. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
@@ -4501,7 +4523,7 @@ Virtual Agent
 [Zurich Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-4.md)
 
 -   Create and manage LLM-based chat and voice assistants within Assistant Designer, a centralized assistant administrator experience.
--   :
+-   [Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/vad-topics-page.md):
     -   View an updated UI for Virtual Agent Designer topics in the new Assistant Designer Asset library page.
     -   Navigate between Assistants, Asset library, and Analytics tabs in the Assistant Designer UI.
     -   Disconnect an LLM Assistant from a given asset with the Actions on Row icon \[Omitted image "kebab-menu.png"\] Alt text:in the Asset library.
@@ -4513,7 +4535,7 @@ Virtual Agent
 -   Google Workspace chat now works with the ServiceNow® conversational interface features, including Virtual Agent, Natural Language Understanding \(NLU\), Notifications, and live agents.
 -   Start the create flow for all supported conversational assets directly from Virtual Agent Designer.
 
-See  for more information.
+See [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/virtual-agent-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -4523,7 +4545,7 @@ Visa Spoke
 
 Apply Visa Resolve Online \(VROL\) release 25.2 revision changes to some Visa Spoke actions.
 
-See  for more information.
+See [Visa Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/visa-spoke.md) for more information.
 
 </td></tr><tr><td>
 
@@ -4570,7 +4592,7 @@ Zero Copy Connector Hub
 -   Retrieve data from external sources in real time without copying any data to your instance using zero copy connections.
 -   Enrich AI agents and workflows on the ServiceNow AI Platform with external data using data fabric tables.
 
-See  for more information.
+See [Workflow Data Fabric Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/workflow-data-fabric.md) for more information.
 
 </td></tr><tr><td>
 
@@ -4592,7 +4614,7 @@ Zero Copy Connector for ERP
 -   The name of the ERP Contact Packs application has been changed to ERP Data Products.
 -   Accelerate your adoption of Zero Copy Connector for ERP using new and updated ERP Data Products.
 
-See  for more information.
+See [Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/erp-integration-overview.md) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Release notes summaries for Zurich features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/release-notes-summaries.md)

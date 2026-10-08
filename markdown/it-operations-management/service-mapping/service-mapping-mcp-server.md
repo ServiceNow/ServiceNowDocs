@@ -37,13 +37,13 @@ Once a license is obtained, the admin can set up the CMDB MCP Server. Then users
 
 -   **Service creation at scale**
 
-    The create\_top\_down\_service tool enables bulk onboarding of applications without manual efforts. An admin can prompt "create services using these entry points" and the tool creates application service records, detects entry point types \(HTTP vs TCP\), and triggers discovery. For detailed information on prompts and outputs, see [Service Mapping MCP tools reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/sm-mcp-tools.md).
+    The create\_top\_down\_application\_service tool enables bulk onboarding of applications without manual efforts. An admin can prompt "create services using these entry points" and the tool creates application service records, detects entry point types \(HTTP vs TCP\), and triggers discovery. For detailed information on prompts and outputs, see [Service Mapping MCP tools reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/sm-mcp-tools.md).
 
 -   **Secure, role-controlled access**
 
     The MCP tools enforce the same ACLs and role permissions that govern standard ServiceNow REST API calls. Each request is executed under the authenticated user's session using caller-scoped data access \(GlideRecordSecure\). OAuth 2.0 with JWT tokens is used to authenticate the AI client connection.
 
-    Read-only tools require the sm\_mcp\_user role. The create\_top\_down\_service write tool requires the sm\_mcp\_admin role.
+    All six tools require the sm\_mcp\_user role.
 
 -   **No additional scripting required**
 
@@ -70,7 +70,7 @@ The Service Mapping MCP tools are built on the following technical stack:
 
     Business logic is executed by the Service Mapping MCP tools, ensuring data is returned only for CIs and services the authenticated user is permitted to access.
 
-    Write operations \(service creation\) are performed under the authenticated user's permissions. The create\_top\_down\_service tool is restricted to users with the sm\_mcp\_admin role.
+    Write operations \(service creation\) are performed under the authenticated user's permissions. A user with the sm\_mcp\_user role can call the create\_top\_down\_application\_service tool.
 
     The data sources are CMDB Services tables, CMDB relationships, TCP Traffic, and service record creation tables.
 
@@ -93,7 +93,7 @@ The Service Mapping MCP tools enforce the following scale limits to maintain per
 
 -   **Response time target**
 
-    Under 5 seconds per tool call.
+    Under 5 seconds per tool call. The get\_all\_application\_service\_names tool targets under 3 seconds, enforced through pagination with a page size capped at 800 entries.
 
 
 For application services that approach these limits, request summary data rather than full topology to stay within the bounds. For example, ask for member count and edge count only, rather than the full topology.
@@ -146,7 +146,7 @@ For detailed input and output specifications and example queries, see [Service M
 
     Creates a new application service from one or more entry points \(HTTP URLs or TCP host-and-port pairs\). Automatically detects each entry point's type and validates inputs. Use this tool to onboard applications, stand up services on demand, or automate service creation workflows.
 
-    This tool requires the sm\_mcp\_admin role. For detailed information, see [Service Mapping MCP tools reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/sm-mcp-tools.md)
+    Requires the sm\_mcp\_user role. For detailed information, see [Service Mapping MCP tools reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/sm-mcp-tools.md)
 
 
 ## Setting up the Service Mapping MCP tools

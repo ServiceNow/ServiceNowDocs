@@ -6,8 +6,8 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/
 release: zurich
 topic_type: concept
 last_updated: "2026-07-22"
-reading_time_minutes: 5
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+reading_time_minutes: 4
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Explore, AI Control Tower, Enable AI experiences]
 ---
 
@@ -48,10 +48,6 @@ Access an overview of your AI portfolio on the **Home** page in AI Control Tower
     -   If you have the AI steward \[sn\_ai\_governance.ai\_steward\] role, you can view the total number of AI assets in the **Inventory** widget. If you have the AI asset owner \[sn\_ai\_asset\_mgmt.ai\_asset\_owner\] role, you can view the total number of assets you own in the **Your inventory** widget.
     -   Break down your inventory by **By type**, **By status**, **By department**, or **By management status**, and identify where your assets are concentrated.
     -   Select the widget to open the **Inventory** page, where you can search, filter, and take action on individual assets.
--   Track unsanctioned AI use across your organization from the **Shadow AI traffic** widget.
-    -   Review the number of AI services detected in the last 30 days and the percentage change from the previous period.
-    -   Select the arrow icon on the widget to open the **Shadow AI** overview page, where you can review detected AI traffic in more detail. For more information, see [Shadow AI overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/sh-ai-overview.md).
-    -   This widget appears only when Shadow AI is activated and configured. See [Configuring Shadow AI in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/sh-ai-configuring.md).
 -   Assess the governance health of your managed AI assets from the **Governance posture summary** widget.
     -   Review the distribution of managed AI assets across five dimensions: **Quality**, **Safety**, **Security**, **Compliance**, and **Residual risk**.
     -   Identify the dimensions where your portfolio has the most assets in the **Low** or **NA** category, and use those findings to prioritize governance work.

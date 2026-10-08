@@ -45,7 +45,7 @@ Cloud Services Catalog Linux VM with agent client collector \(ACC\), up to 10 ad
 -   **[Microsoft Azure Windows Out Of Box Catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-services-catalog/azure-microsoft-windows-out-of-box-catalogs.md)**  
 Cloud Services Catalog Windows VM, up to 10 additional disks on Microsoft Azure or with security groups.
 -   **[Microsoft Azure Out Of Box permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-services-catalog/azure-oob-permissions.md)**  
-Cloud Services Catalog Microsoft Azure Out Of Box catalog items permissions.
+Cloud Services Catalog Microsoft Azure Out Of Box catalog items permissions. These catalog items are available out of box in CSC Content Pack applications.
 -   **[Microsoft Azure Functions App Catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-services-catalog/azure-functions-app.md)**  
 Cloud Services Catalog Microsoft Azure Function App with pay-as-you-go pricing benefit.
 -   **[Out Of Box Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-services-catalog/out-of-box-actions.md)**  

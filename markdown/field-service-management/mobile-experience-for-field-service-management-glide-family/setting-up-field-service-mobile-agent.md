@@ -8,7 +8,7 @@ product: Mobile Experience for Field Service Management \(Glide Family\)
 classification: mobile-experience-for-field-service-management-glide-family
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Configure, Field Service Management]
 ---
 
@@ -26,6 +26,18 @@ You can configure the following functionalities within this mobile application t
 -   Enable the outsourced service provider to manage tasks on mobile devices. This functionality allows contractors to access and manage their assigned tasks, ensuring seamless collaboration and efficient task execution.
 -   Utilize the task briefing feature using the virtual agent capability. This enables agents to receive briefings and instructions for their tasks directly through the mobile application, ensuring they have all the necessary information to complete their assignments effectively.
 -   Implement indoor way finding functionality within the mobile application. This enables agents to navigate complex indoor environments more easily, improving their efficiency and reducing response times.
+
+## Offline Mobile Limitations
+
+The following items are known limitations to consider when using Field Service Mobile Agent in offline mode.
+
+-   Mobile Playbooks aren't available offline.
+-   Questionnaires can't be generated offline. However, if the questionnaire is generated online, it can be submitted offline.
+-   PDF work summary can't be generated offline.
+-   ServiceNow Otto® isn't available offline.
+-   The mandatory questionnaires button doesn't show when offline. However, you can still open the questionnaire from the task page and complete it.
+-   `Run client script` mobile UI rule action input form screens aren't supported offline.
+-   The map in Field Service Mobile Agent isn't supported offline.
 
 ## Configuration overview
 

@@ -266,9 +266,9 @@ Document Management \(com.snc.platform\_document\_management\)
 Enables you to manage large numbers of documents efficiently. Provides storage space and a filing system that allows you to easily upload, retrieve and delete documents.
 
 </td></tr></tbody>
-</table>## Plugins installed with Information Request Playbook
+</table>## Plugins installed with Information Request Administration
 
-The following plugins are installed with Information Request Playbook \(com.sn\_gsm\_info\_req\) application:
+The following plugins are installed with Information Request Administration \(com.sn\_gsm\_info\_req\) application:
 
 <table id="table_lq4_zrs_xhc"><thead><tr><th>
 

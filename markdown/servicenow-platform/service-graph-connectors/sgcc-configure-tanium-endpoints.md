@@ -1,26 +1,26 @@
 ---
-title: Configure Service Graph Connector for Tanium Endpoints using SGC Central
-description: Use the playbook in SGC Central to set up the Service Graph Connector for Tanium Endpoints and pull Tanium data into your CMDB.
+title: Configure Service Graph Connector for Tanium Atlas Endpoints using SGC Central
+description: Use the playbook in SGC Central to set up the Service Graph Connector for Tanium Atlas Endpoints and pull Tanium Atlas data into your CMDB.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-graph-connectors/sgcc-configure-tanium-endpoints.html
 release: zurich
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: task
-last_updated: "2026-05-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Tanium Endpoints, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Tanium Atlas Endpoints, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Configure Service Graph Connector for Tanium Endpoints using SGC Central
+# Configure Service Graph Connector for Tanium Atlas Endpoints using SGC Central
 
-Use the playbook in SGC Central to set up the Service Graph Connector for Tanium Endpoints and pull Tanium data into your CMDB.
+Use the playbook in SGC Central to set up the Service Graph Connector for Tanium Atlas Endpoints and pull Tanium Atlas data into your CMDB.
 
 ## Before you begin
 
-**Important:** The Service Graph Connector for Tanium Endpoints populates the Computer class with user-facing endpoints, and doesn't import data from the Server child class. Use this connector if you don't require Server data. If you require Server data, use the Service Graph Connector for Tanium.
+**Important:** The Service Graph Connector for Tanium Atlas Endpoints populates the Computer class with user-facing endpoints, and doesn't import data from the Server child class. Use this connector if you don't require Server data. If you require Server data, use the Service Graph Connector for Tanium.
 
-Install Service Graph Connector for Tanium Endpoints from the ServiceNow Store. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_InstallApplications.md).
+Install Service Graph Connector for Tanium Atlas Endpoints from the ServiceNow Store. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_InstallApplications.md).
 
 Role required: The following table shows the roles required for each stage of the playbook.
 

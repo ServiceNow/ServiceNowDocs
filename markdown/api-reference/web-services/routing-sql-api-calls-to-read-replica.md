@@ -1,49 +1,57 @@
 ---
 title: Route Live Connect calls to Read Replica
-description: You can route Live Connect calls to Read Replica to optimize the performance of your ServiceNow instance.
-locale: en-US
+description: Route Live Connect calls to a Read Replica database to reduce the processing load on the primary database in your ServiceNow instance.
+locale: en-us
 canonical_url: https://www.servicenow.com/docs/r/zurich/api-reference/web-services/routing-sql-api-calls-to-read-replica.html
 release: zurich
 product: Web Services
 classification: web-services
 topic_type: task
-last_updated: "2026-03-15"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Access your ServiceNow data using Live Connect, Additional integration resources, Web services, API implementation, API implementation and reference]
 ---
 
 # Route Live Connect calls to Read Replica
 
-You can route Live Connect calls to Read Replica to optimize the performance of your ServiceNow instance.
+Route Live Connect calls to a Read Replica database to reduce the processing load on the primary database in your ServiceNow instance.
 
 ## Before you begin
 
-You must have a secondary database configured for your ServiceNow instance.
+A secondary database must be configured for your ServiceNow instance.
 
 Role required: admin
 
 ## About this task
 
-Query routing takes the load off the primary database for SELECT queries that take numerous DB CPU cycles on the primary DB. For more information, see [Introduction to ServiceNow Read Replica Databases](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0824441).
+Query routing directs SELECT queries to a Read Replica database instead of the primary database, reducing the processing load on the primary database. For more information, see [Introduction to ServiceNow Read Replica Databases](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0824441) \(KB0824441\).
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Secondary Database** &gt; **Secondary Database Category**.
 
-2.  Select **New** to create a secondary database category for ODBC or JDBC.
+2.  Select **New**.
 
-3.  In the Name field, enter **odbc** or **jdbc**.
+    This creates a secondary database category for ODBC/JDBC.
 
-    Don't change any other field on this page. If you must change the default values, first refer to this KB: [https://support.servicenow.com/kb?id=kb\_article\_view&amp;sysparm\_article=KB0824441](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0824441) \[Omitted image "sql-api-read-replica.png"\] Alt text: UI screen example for creating secondary database category.
+3.  In the **Name** field, enter **odbc** or **jdbc**.
 
-4.  Select **Map All Pools** to map the database pools to this category.
+    **Warning:** Don't change any other field on this form. If you must change the default values, review the [Introduction to ServiceNow Read Replica Databases](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0824441) \(KB0824441\) article in the Now Support Knowledge Base before making changes.
 
-5.  Select the database pools to be added.
+4.  Select **Map All Pools**.
 
-    The selected pools appear under the **Member Secondary Database Pools**.
+    This maps the database pools to this category.
 
-6.  Select **Save**.
+5.  Select the database pools to add.
 
+    The selected pools appear in the **Member Secondary Database Pools** list.
+
+6.  Select **Update**.
+
+
+## Result
+
+Live Connect SELECT queries are routed to the Read Replica database. The primary database handles only write operations.
 
 **Parent Topic:**[Configuring Live Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/configuring-sql-api.md)
 

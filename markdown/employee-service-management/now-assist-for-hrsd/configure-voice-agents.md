@@ -85,11 +85,11 @@ Employee Details Updater, Holiday Calendar, Retrieve Worker Profile, Time off Re
     -   sn\_hr\_integr\_fw \(3.8.1 or later\)
     -   sn\_hr\_oracle\_adv \(1.2.1 or later\)
     -   com.glide.hub.integrations.enterprise
-2.  Follow the steps to 
+2.  Follow the steps to [Set up the Oracle HCM Cloud spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/set-up-the-oracle-hcm-spoke.md)
 
 
 </td></tr></tbody>
-</table>4.  Test the execution of the HR AI Voice agents by calling the telephony number to verify that the agent functions the way you expect: .
+</table>4.  Test the execution of the HR AI Voice agents by calling the telephony number to verify that the agent functions the way you expect: [Test a voice assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/test-a-voice-assistant.md).
 
 
 ## What to do next

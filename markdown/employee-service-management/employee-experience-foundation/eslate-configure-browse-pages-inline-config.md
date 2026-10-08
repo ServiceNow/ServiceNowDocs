@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-09-03"
 reading_time_minutes: 1
 keywords: [inline admin config, EmployeeWorks Web App, Explore page, topic pages, Employee Slate]
-breadcrumb: [Browse and topic experience, Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Admin editor, Browse and topic experience, Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
 ---
 
 # Edit widgets inline

@@ -148,8 +148,8 @@ Enable and use AI agents to examine agent behavior through the Agent Client Coll
 The analyze potential impact agentic workflow analyzes how a change request might impact servers and suggested services. This analysis helps you make informed decisions about the next steps regarding the change request.
 -   **[Certificate renewal AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/now-assist-cert-renewal-ai-agent.md)**  
 Find certificates that are about to expire and renew them by describing what you want in natural language, or renew a specific certificate directly from its record.
--   **[Pattern diagnostic agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/pattern-diagnostic-agentic-workflow.md)**  
-The Pattern diagnostic agentic workflow helps Discovery administrators investigate missing CI attributes. It identifies the gap, parses discovery logs, identifies the root cause, and suggests remediation — without manually navigating log files.
+-   **[Pattern Diagnostic agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/pattern-diagnostic-agentic-workflow.md)**  
+The Pattern Diagnostic agentic workflow helps Discovery administrators investigate missing CI attributes. It identifies the gap, parses discovery logs, identifies the root cause, and suggests remediation — without manually navigating log files.
 -   **[Manage alerts autonomously agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/itom-autonomous-operator-workflow.md)**  
 Enhance IT operations with AI-driven, autonomous alert management using the manage alerts autonomously agentic workflow.
 

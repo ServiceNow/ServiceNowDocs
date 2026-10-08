@@ -1,18 +1,18 @@
 ---
 title: Platform Help optimize team productivity agentic workflow
-description: Use the Platform Help optimize team productivity AI agents agentic workflow to gather relevant information about tasks automatically and make decisions about priorities and assignments.
+description: Use the Platform Help optimize team productivity agentic workflow to gather relevant information about tasks automatically and make decisions about priorities and assignments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/help-optimize-productivity.html
 release: zurich
 topic_type: concept
-last_updated: "2026-07-23"
+last_updated: "2026-09-28"
 reading_time_minutes: 6
 breadcrumb: [Platform agentic workflows, Agentic workflows, AI assets, Enable AI experiences]
 ---
 
 # Platform Help optimize team productivity agentic workflow
 
-Use the Platform Help optimize team productivity AI agents agentic workflow to gather relevant information about tasks automatically and make decisions about priorities and assignments.
+Use the Platform Help optimize team productivity agentic workflow to gather relevant information about tasks automatically and make decisions about priorities and assignments.
 
 ## Help optimize team productivity overview
 
@@ -24,13 +24,15 @@ The agentic workflow performs the following tasks:
 -   Calculates workloads relative to each team member's typical capacity
 -   Enables proactive team management with data-driven insights
 
-The agents, tools, and triggers that are associated with the Help optimize team productivity agentic workflow are provided by AI applications. You can [activate the agentic workflow template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/activate-aia-use-case.md) by making triggers active and setting the display settings to include the  panel. If you want to change this agentic workflow's instructions, you must [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/clone-aia-usecase.md), adjust the settings to suit your specific needs, and activate the duplicated version of the agentic workflow instead.
+The agents, tools, and triggers that are associated with the Help optimize team productivity agentic workflow are provided by AI applications. You can [activate the agentic workflow template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/activate-aia-use-case.md) by making triggers active and setting the display settings to include the ServiceNow Otto panel. If you want to change this agentic workflow's instructions, you must [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/clone-aia-usecase.md), adjust the settings to suit your specific needs, and activate the duplicated version of the agentic workflow instead.
+
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-native-sku-overview.md).
 
 ## Prerequisites and setup
 
-To access this workflow, you must have  for Platform installed on your instance, which you can get if you install any other AI application.
+To access this workflow, you must have ServiceNow Otto for Platform installed on your instance, which you can get if you install any other AI application.
 
-## Role masking
+## Role filtering
 
 Required role: sn\_uxc\_gen\_ai.platform\_ai\_help\_allocate\_work.
 
@@ -177,7 +179,7 @@ If you want to evaluate the agentic workflow over many different execution logs,
 
 ## Sample utterance
 
-After the workflow has been activated in AI Agent Studio, enter "Give me optimized assignment evaluations for the Software assignment group" or similar phrases in the  panel to trigger the workflow. You must name the specific assignment group you're allocating work for.
+After the workflow has been activated in AI Agent Studio, enter "Give me optimized assignment evaluations for the Software assignment group" or similar phrases in the ServiceNow Otto panel to trigger the workflow. You must name the specific assignment group you're allocating work for.
 
 You must have the sn.now\_assist\_panel\_user role to run the workflow. You can also run this workflow on the Testing page of AI Agent Studio with the same utterance in the Task field if you have the sn.aia\_admin role.
 

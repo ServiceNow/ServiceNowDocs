@@ -43,15 +43,15 @@ You can also use the multi-currency feature to create a project in a local curre
 
 1.  Create a project in any of the following ways.
 
-<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d261107e159">
+<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d261865e159">
 
 Location
 
-</th><th align="left" id="d261107e162">
+</th><th align="left" id="d261865e162">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d261107e168">
+</th></tr></thead><tbody><tr><td id="d261865e168">
 
 **From the Projects list**
 
@@ -59,7 +59,7 @@ Steps
 
 Navigate to **All** &gt; **Project** &gt; **Projects** &gt; **Create New**.
 
-</td></tr><tr><td id="d261107e194">
+</td></tr><tr><td id="d261865e194">
 
 **From the project workspace**
 
@@ -73,7 +73,7 @@ Navigate to **All** &gt; **Project** &gt; **Projects** &gt; **Create New**.
 </td></tr></tbody>
 </table>2.  On the form, fill in the fields.
 
-    For field information, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/create-a-project-form.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/create-a-project-form.md).
+    For field information, see [Project form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/create-a-project-form.md).
 
 3.  Select **Submit**.
 
@@ -101,7 +101,7 @@ Update the project and make adjustments in fields to handle scope, cost, and sch
 -   **[Copy a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/t_CopyAProject.md)**  
 Another option for creating a project is to copy an existing project with all its tasks and relationships. After you specify the start date for the copy, the system adjusts all task start and end dates automatically.
 -   **[Assign a project schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/t_UseAProjectSchedule.md)**  
-Without an assigned schedule, a project calculates a day as a full 24 work hours. To schedule tasks by a more realistic work day, assign a schedule to the project. If the schedules provided in the base system do not suit your needs, define a new one.
+Assign a schedule to a project so that task durations and dates reflect real working days and hours.
 -   **[Create baseline of a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/t_CreateAProjectBaseline.md)**  
 Create a schedule baseline and financial baseline of a project. A schedule baseline captures planned dates of all tasks and milestones at a particular moment in time. A financial baseline captures benefit and financial metric information \(snapshot of cost plan, benefit plan, and project-level financial metrics\) at a particular moment in time.
 -   **[Create a milestone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/t_CreateMilestones.md)**  
@@ -130,7 +130,7 @@ Migrate the financial baselines of your project to Next Experience to manage the
 **Related topics**  
 
 
-[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/create-a-project-form.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/create-a-project-form.md)
+[Project form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-management/create-a-project-form.md)
 
 [Project Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/ppm-collaboration/c_ProjectPortfolioSuite.md)
 

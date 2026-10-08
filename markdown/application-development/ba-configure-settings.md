@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2026-07-22"
 reading_time_minutes: 1
-keywords: [web search, build agent, web search tool, Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [web search, build agent, web search tool, ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configure, Build Agent, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
 ---
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/manage-employee-experience-itsm-mcp-server.html
 release: zurich
 topic_type: task
-last_updated: "2026-07-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [ITSM MCP Server, employee experience, requester, create incident, ticket status, escalate incident, add comments, knowledge base deflection, natural language prompts, AI workflow, service catalog, catalog items, lookup\_catalog\_items]
 breadcrumb: [Activate the ITSM MCP Server, ITSM MCP Server, IT Service Management]
@@ -19,7 +19,7 @@ Use the ITSM MCP Server to create incidents, check the status of your own incide
 
 Role required: authenticated user
 
-**Note:** An authenticated user is either a caller on an incident record or a requested-for user on the requested item record. These tools are scoped to tickets where you are the caller or requester.
+**Note:** An authenticated user is either a caller on an incident record or a requested for user on the requested item record. You can access only tickets where you're the caller or requester.
 
 ## About this task
 
@@ -39,14 +39,16 @@ For information on tools, see [ITSM MCP Server tools reference](https://raw.gith
 
     **Note:** The tools enforce ownership. You can access only tickets where you are the caller or requester.
 
-    -   **1. __requester.create\_incident__: Create an incident through a guided workflow that searches for self-service solutions, redirects to matching catalog items, and detects duplicate incidents before creating a ticket.**
+    -   **1. requester.create\_incident: Create an incident through a guided workflow that searches for self-service solutions, redirects to matching catalog items, and detects duplicate incidents before creating a ticket.**
+
+        **Note:** This tool uses the [Create incident AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/now-assist-for-it-service-management-itsm/itsm-create-incident-ai-agent.md) as an MCP tool. To configure, see [Configure an AI agent as an MCP tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/configure-ai-agent-as-mcp-tool.md).
 
         Example prompts:
 
         -   "Create an incident. My laptop won't start."
         -   "I need to log an issue. My VPN keeps disconnecting."
         -   "File a ticket. I can't access my email."
-    -   **2. __requester.check\_status__: Check the status and details of your own incidents and requested items.**
+    -   **2. requester.check\_status: Check the status and details of your own incidents and requested items.**
 
         Example prompts:
 
@@ -54,23 +56,15 @@ For information on tools, see [ITSM MCP Server tools reference](https://raw.gith
         -   "Show me details for RITM0123456."
         -   "What is the status of my VPN ticket?"
         -   "Show me all my open requests."
-    -   **3. __requester.escalate__: Request escalation of your incident to raise its urgency by one level.**
+    -   **3. request.modify: Add a customer-visible comment to your requested item.**
 
-        Example prompts:
+        Example prompts: "Add a comment to RITM0123456: The issue persists after the fix."
 
-        -   "Escalate INC0123456. Production is down and 200 users are affected."
-        -   "I need INC0012345 escalated. The system is completely unavailable."
-        **Note:** Escalation requires a reason and applies only when the incident is not in a Resolved, Closed, or Canceled state, the urgency is not already High, and the incident was not escalated within the last 24 hours.
+        **Important:**
 
-    -   **4. __requester.add\_comment__: Add a customer-visible comment to your incident or requested item.**
-
-        Example prompts:
-
-        -   "Add a comment to INC0123456: I've provided the requested information."
-        -   "Add a comment to RITM0123456: The issue persists after the fix."
-        **Note:** Comments are customer-visible only. Work notes aren't accessible to requesters. You can't add comments to closed or canceled tickets.
-
-    -   **5. __task\_approval\_decision__: Approve or reject the caller's oldest pending approval on a request item.**
+        -   Incident numbers are rejected. To add a comment to an incident, use incident.modify instead -- see [Manage incidents using the ITSM MCP Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/manage-incidents-itsm-mcp-server.md).
+        -   Comments are customer-visible only. Work notes aren't accessible to requesters. You can't add comments to closed or canceled tickets.
+    -   **4. task\_approval\_decision: Approve or reject the caller's oldest pending approval on a request item.**
 
         Example prompts:
 

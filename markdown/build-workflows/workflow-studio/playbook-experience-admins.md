@@ -26,6 +26,8 @@ Once customized to your satisfaction, mobile playbooks must be embedded. For pla
 
 -   **[Customize the Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/playbook-customize-playbook.md)**  
 Customize the layout of your Playbook Experience with base system modular components, templates, and more via integrated UI Builder functionality.
+-   **[Playbook layout bundles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/playbook-layouts-in-ui-builder.md)**  
+Playbook layout bundles are pre-wired component sets in UI Builder that determine how a playbook renders for end users at runtime. Each bundle packages a controller, supporting components, and styling so that authors can drop a complete playbook experience onto a page without configuring each component individually.
 -   **[Playbooks in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/playbooks-service-portal.md)**  
 Use playbooks to guide Service Portal users through your business processes.
 -   **[Configure a playbook for ServiceNow mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/configure-playbook-mobile.md)**  
@@ -33,7 +35,7 @@ Configuring a playbook for ServiceNow® mobile is exactly the same as in a confi
 -   **[Reflow for playbook components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/reflow-for-playbook-components.md)**  
 Apply reflow to out-of-the-box standalone and custom layout Playbook Experience components so that the UI adjusts when you resize your window or zoom.
 -   **[Playbook record generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/playbook-record-generator-overview.md)**  
-Use the playbook record generator to guide a user through the record creation process using a playbook experience.
+Use the playbook record generator to guide a user through the record creation process using the Playbook Experience.
 
 **Parent Topic:**[Using Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/building-workflow-studio-components.md)
 

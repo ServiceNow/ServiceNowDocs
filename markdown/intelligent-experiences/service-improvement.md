@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/service-improvement.html
 release: zurich
 topic_type: concept
-last_updated: "2026-07-23"
-reading_time_minutes: 6
+last_updated: "2026-09-28"
+reading_time_minutes: 7
 breadcrumb: [Platform agentic workflows, Agentic workflows, AI assets, Enable AI experiences]
 ---
 
@@ -18,17 +18,17 @@ Use the Platform Identify ways to improve service agentic workflow to analyze fe
 
 The Identify ways to improve service agentic workflow optimizes service delivery and customer satisfaction by analyzing feedback, metrics, and trends to provide actionable process improvement recommendations. After the analysis is generated, you can continue the conversation to ask follow-up questions or download the analysis as a PDF or Word document.
 
-AI applications provide the agents, tools, and triggers for the Identify ways to improve service agentic workflow. You can [activate the agentic workflow template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/activate-aia-use-case.md) by making triggers active and setting the display settings to include the  panel. To change this agentic workflow's instructions, [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/clone-aia-usecase.md), adjust the settings to suit your specific needs, and activate the duplicated version instead.
+AI applications provide the agents, tools, and triggers for the Identify ways to improve service agentic workflow. You can [activate the agentic workflow template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/activate-aia-use-case.md) by making triggers active and setting the display settings to include the ServiceNow Otto panel. To change this agentic workflow's instructions, [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/clone-aia-usecase.md), adjust the settings to suit your specific needs, and activate the duplicated version instead.
 
-**Note:** Depending on your license, you have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-native-sku-overview.md).
 
 ## Prerequisites and setup
 
-To access this workflow, you must have  for Platform installed on your instance. You can get this by installing any other AI application.
+To access this workflow, you must have ServiceNow Otto for Platform installed on your instance. You can get this by installing any other AI application.
 
 Because this agentic workflow relies on survey data, you must have Assessment records associated with task tables to analyze.
 
-## Role masking
+## Role filtering
 
 Required role: sn\_uxc\_gen\_ai.platform\_ai\_improve\_services.
 
@@ -197,7 +197,7 @@ To evaluate the agentic workflow over many different execution logs, run an [aut
 
 ## Sample utterance
 
-After the workflow is activated in AI Agent Studio, enter similar phrases to the following in the  panel to trigger the workflow. You can also run this workflow on the Testing page of AI Agent Studio with the same utterance in the Task field if you have the sn.aia\_admin role.
+After the workflow is activated in AI Agent Studio, enter similar phrases to the following in the ServiceNow Otto panel to trigger the workflow. You can also run this workflow on the Testing page of AI Agent Studio with the same utterance in the Task field if you have the sn.aia\_admin role.
 
 When invoking the agentic workflow, if you want to use additional filters, such as metric name or category, use the name of the field in the utterance. For example, "Identify ways to improve services for the Hardware category" is more likely to analyze the correct records than "Identify ways to improve Hardware."
 

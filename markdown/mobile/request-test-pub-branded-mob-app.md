@@ -54,8 +54,6 @@ Standard
 
 None
 
- BlackBerry
-
  Microsoft Intune
 
 </td><td>
@@ -80,8 +78,6 @@ Standard
 
 None
 
- BlackBerry
-
  Microsoft Intune
 
 </td><td>
@@ -99,8 +95,6 @@ Custom
 </td><td>
 
 None
-
- BlackBerry
 
  Microsoft Intune
 
@@ -126,8 +120,6 @@ Standard
 
 None
 
- BlackBerry
-
  Microsoft Intune
 
 </td><td>
@@ -152,8 +144,6 @@ Standard
 
 None
 
- BlackBerry
-
  Microsoft Intune
 
 </td><td>
@@ -171,8 +161,6 @@ Custom
 </td><td>
 
 None
-
- BlackBerry
 
  Microsoft Intune
 

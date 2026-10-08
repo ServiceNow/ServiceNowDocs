@@ -34,7 +34,7 @@ Role required: admin
 
 3.  Select **Submit**.
 
-    You can download the import set template too. For more information, see .
+    You can download the import set template too. For more information, see [Download an import template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/t_DownloadAnImportTemplate.md).
 
 4.  In the Next steps section, select **Run Transform** related link.
 

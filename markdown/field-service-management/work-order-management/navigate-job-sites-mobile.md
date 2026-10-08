@@ -18,7 +18,7 @@ View a map of the job site and get directions to the specific on-site location.
 
 ## Before you begin
 
-To view site maps, administrators must activate the Site Mapping for Field Service Management plugin \(com.\). Only one job can be displayed at the site at a time. For more information, see [Activate Site Mapping for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/mobile-experience-for-field-service-management-glide-family/activate-sitemap-fsm.md).
+To view site maps, administrators must activate the Site Mapping for Field Service Management plugin \(sn\_fsm\_site\_map\). Only one job can be displayed at the site at a time. For more information, see [Activate Site Mapping for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/mobile-experience-for-field-service-management-glide-family/activate-sitemap-fsm.md).
 
 Role required: wm\_agent
 

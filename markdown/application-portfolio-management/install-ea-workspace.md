@@ -19,7 +19,7 @@ Install the Enterprise Architecture Workspace application \(sn\_apm\_ws\) if you
 -   Review the Enterprise Architecture Workspace application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
 -   Ensure you have activated the Enterprise Architecture plugin \(com.snc.apm\).
 -   For enabling the technology portfolio management information in the Enterprise Architecture Workspace:
-    -   Ensure you have activated the Software Asset Management Foundation plugin \(com.snc.sams\).
+    -   Ensure you have activated the Basic Software Asset Management \(com.snc.sams\).
     -   Ensure you have installed the Technology Portfolio Management \(sn\_apm\_tpm\) store app.
 
 Role required: admin

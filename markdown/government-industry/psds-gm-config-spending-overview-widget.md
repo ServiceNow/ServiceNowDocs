@@ -57,7 +57,7 @@ To verify the configuration, open a grant program record and select the **Fundin
 
 **Parent Topic:**[Set up a grant program in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-config-gmp-grant-pgr.md)
 
-**Previous topic:**[Configure a merit review scoring rubric for a grants proposal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-config-gmp-create-rubric.md)
+**Previous topic:**[Configure the applicant information form for a grant program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-config-gmp-applicant-info-form.md)
 
 **Next topic:**[Configure program lifecycle stepper](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-config-gmp-pgr-lifecycle-stepper.md)
 

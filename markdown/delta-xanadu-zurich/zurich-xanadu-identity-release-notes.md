@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-identity-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
+last_updated: "2026-10-08"
 reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
@@ -142,8 +142,6 @@ Yokohama
 Assign the `access_analyzer_admin` role to the users to access and administer the Access Analyzer.
 
 
-**Important:** Access Analyzer V4 is available in the ServiceNow Store. For more information, visit ServiceNow Store.
-
 </td></tr><tr><td>
 
 Zurich
@@ -155,6 +153,11 @@ Zurich
 Display the Security data filter that is in the **Applied** or **Undefined** status in the Access Analyzer results. Access Analyzer also supports the new criteria in ACLs that is controlled by reference.
 
 **Important:** Access Analyzer is available in the ServiceNow Store. For more information, visit [ServiceNow Store](https://store.servicenow.com/store).
+
+
+ -   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
 
 
 </td></tr></tbody>
@@ -258,7 +261,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Identity is a ServiceNow AI Platform product that is active by default.
+
 
 </td></tr><tr><td>
 
@@ -266,7 +272,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Identity is a ServiceNow AI Platform product that is active by default.
+
 
 </td></tr></tbody>
 </table>## Additional requirements

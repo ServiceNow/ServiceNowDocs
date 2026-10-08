@@ -7,7 +7,7 @@ release: zurich
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2026-04-06"
+last_updated: "2026-10-05"
 reading_time_minutes: 18
 breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-SuccessFactors spoke v4.11.1 is the latest version.
+SuccessFactors spoke v4.12.0 is the latest version.
 
 ## Supported versions
 
@@ -115,6 +115,14 @@ Retrieves the department data from SuccessFactors and stores it in SuccessFactor
 
 </td></tr><tr><td>
 
+Look Up Employee Compensation Using Personal Authentication
+
+</td><td>
+
+Retrieves an employee’s compensation details based on their Personal External ID.
+
+</td></tr><tr><td>
+
 Retrieve Effective Worker Profiles
 
 </td><td>
@@ -123,7 +131,7 @@ Retrieves the Effective Worker Profiles data from SuccessFactors and stores it i
 
 </td></tr><tr><td>
 
-Retrieve Full Job History Including Secondary Assignments
+Retrieve Job History Including Secondary Assignments
 
 </td><td>
 
@@ -207,7 +215,7 @@ Action
 
 Description
 
-</th></tr></thead><tbody><tr><td rowspan="24">
+</th></tr></thead><tbody><tr><td rowspan="25">
 
 Employee Management
 
@@ -301,7 +309,7 @@ Manages the recurring component of a specified employee's compensation.
 
 </td></tr><tr><td>
 
-Get Employee Benefit Enrollments
+Look up Employee Benefit Enrollments by User ID
 
 </td><td>
 
@@ -354,6 +362,14 @@ Update Employee Address
 </td><td>
 
 Updates the address of the specified employee.
+
+</td></tr><tr><td>
+
+Update Employee Recurring Compensations
+
+</td><td>
+
+Updates the recurring component of a specified employee's compensation.
 
 </td></tr><tr><td>
 

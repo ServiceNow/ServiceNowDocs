@@ -139,10 +139,8 @@ Mobile Application Management vendor
 
 </td><td>
 
-Select one of the following MAM vendors form the list:
+Select the **Intune** MAM vendor form the list:
 
- -   **Blackberry**
--   **Intune**
  This field is only visible if you select the **Mobile Application Management \(MAM\)** toggle.
 
 </td></tr><tr><td>

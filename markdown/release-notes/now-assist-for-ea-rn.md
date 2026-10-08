@@ -43,7 +43,7 @@ Zurich Early Availability
 -   Enhance your productivity by using the Now LLM Service or a supported third-party LLM with any ServiceNow Otto for Enterprise Architecture \(EA\) skill or AI agent.
 -   Enhance your user experience with Coral that is used as the default theme for new portal, web, and mobile experiences.
 
-See  for more information.
+See [ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/now-assist-ea.md) for more information.
 
 ## Activation and other requirements
 

@@ -1,6 +1,6 @@
 ---
 title: Microsoft Azure Out Of Box permissions
-description: Cloud Services Catalog Microsoft Azure Out Of Box catalog items permissions.
+description: Cloud Services Catalog Microsoft Azure Out Of Box catalog items permissions. These catalog items are available out of box in CSC Content Pack applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/cloud-services-catalog/azure-oob-permissions.html
 release: zurich
@@ -14,7 +14,9 @@ breadcrumb: [Out of Box, Cloud Services Catalog, ITOM Cloud Accelerate, IT Opera
 
 # Microsoft Azure Out Of Box permissions
 
-Cloud Services Catalog Microsoft Azure Out Of Box catalog items permissions.
+Cloud Services Catalog Microsoft Azure Out Of Box catalog items permissions. These catalog items are available out of box in CSC Content Pack applications.
+
+These catalog items are available out of box in CSC Content Pack applications.
 
 <table id="table_hfp_fcg_hzb"><thead><tr><th>
 
@@ -215,4 +217,9 @@ resources/\*
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Out Of Box Catalogs using Cloud Services Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-services-catalog/out-of-the-box-catalog-items.md)
+
+**Related topics**  
+
+
+[Out Of Box Catalogs using Cloud Services Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-services-catalog/out-of-the-box-catalog-items.md)
 

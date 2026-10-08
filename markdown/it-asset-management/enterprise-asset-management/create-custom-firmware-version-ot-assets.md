@@ -18,7 +18,7 @@ If the version of the firmware that is embedded into your OT assets isn't alread
 
 ## Before you begin
 
-**Important:** You can create custom firmware versions only using the OT Asset Workspace. To use the OT Asset Workspace, install the OT Asset Management application on your ServiceNow instance. See [Install OT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/install-otam.md) for detailed instructions.
+**Important:** You can create custom firmware versions only using the OT Asset Workspace. To use the OT Asset Workspace, install the OT Asset Management application on your ServiceNow instance. See [Install OT Asset Management from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/install-otam.md) for detailed instructions.
 
 Role required: sn\_eam.enterprise\_admin
 

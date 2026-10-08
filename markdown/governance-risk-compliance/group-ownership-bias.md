@@ -15,7 +15,7 @@ breadcrumb: [Explore, Business Continuity Management, Governance, Risk, and Comp
 
 Assign a user group as the owner of business impact analysis \(BIA\), plans, and event records, instead of or alongside an individual owner. Every member of the owner group gets the same access to these records as an individual owner.
 
-A comprehensive group ownership capability now enables organizational teams to collectively own and manage critical business continuity records. This feature is implemented across the business impact analysis \(BIA\), plans, and event records.
+Group ownership enables organizational teams to collectively own and manage critical business continuity records. This feature is implemented across the business impact analysis \(BIA\), plans, and event records.
 
 ## Records enhanced
 
@@ -49,7 +49,7 @@ Business continuity records now show two related ownership fields:
 -   **Owner** – An individual user responsible for the record
 -   **Owner group** – A group of users collectively responsible for the record
 
-Either the **Owner** or the **Owner group** field is required to save the record. If you submit a record with both fields empty, an error message displays indicating the required fields.
+Either the **Owner** or the **Owner group** field is required to save the record. If you submit a record with both fields empty, an error message appears indicating the required fields.
 
 -   **Default behavior**
     -   When you open a new record form, the current user is preselected as the owner.
@@ -59,14 +59,14 @@ Either the **Owner** or the **Owner group** field is required to save the record
 
     At least one ownership field must be populated before saving:
 
-    -   If both the **Owner group** and **Owner** fields are empty, both fields highlight in red with an asterisk.
+    -   If both the **Owner group** and **Owner** fields are empty, both fields appear in red with an asterisk.
     -   A validation error message appears displaying: `Select either a group or an individual to save the record and proceed with the workflow.`
     -   An informational banner prompts you to populate at least one ownership field.
     -   The record can only be saved when at least one ownership field is populated.
 
 ## Owner group requirements and owner filtering
 
-The **Owner group** field filters candidate groups based on role eligibility. Only groups that hold an eligible edit role are shown as selectable options. This confirms that groups shown in the owner field actually have the permissions needed to manage the record.
+The **Owner group** field filters candidate groups based on role eligibility. Only groups that hold an eligible edit role are shown as selectable options. This verifies that groups shown in the owner field actually have the permissions needed to manage the record.
 
 -   **Eligible groups and roles**
 
@@ -82,7 +82,7 @@ The **Owner group** field filters candidate groups based on role eligibility. On
     -   Event user \(sn\_recovery.event\_user\)
 -   **Intelligent filtering behavior**
 
-    The **Owner** and **Owner group** fields work together with intelligent filtering to verify the right people can be selected in the right order:
+    The **Owner** and **Owner group** fields work together with intelligent filtering to ensure the right people can be selected in the right order:
 
     -   Group selected first: The **Owner** field automatically filters to show only members of that group who hold an eligible role. This confirms the selected owner is part of the assigned team.
     -   Individual selected first: The **Owner group** field remains unfiltered. If a group is later selected and the individual is not a member of that group, the system allows the selection. An informational message displays rather than blocking the selection. This flexibility accommodates edge cases where an individual may serve as owner even if not formally part of the group.
@@ -138,7 +138,7 @@ When a BIA is created, the **BIA Owner**, **BIA Owner group**, and **BCM Lead** 
     -   The synced contributors appear in the assessment's contributor list
 -   **Auto-sync on removal**
     -   If you remove any contributor from the BIA, it automatically syncs and removes them from the assessment
-    -   This verifies the assessment reflects the current BIA contributor list
+    -   This ensures the assessment reflects the current BIA contributor list
 -   **One-way sync and assessment-level customization**
 
     Contributor synchronization flows in one direction only, from the BIA to the assessment. Contributors added directly in the assessment view aren't synced back to the BIA contributor list.
@@ -150,7 +150,7 @@ When a BIA is created, the **BIA Owner**, **BIA Owner group**, and **BCM Lead** 
 -   **BIA Owner change behavior**
 
     -   If you change the BIA owner from one user to another user and save the record, the assigned owner in the assessment gets updated
-    -   When accessing the assessment after owner change, the "assigned to" field will show the new owner \(for example, planner instead of manager\)
+    -   When accessing the assessment after owner change, the **Assigned to** field shows the new owner \(for example, planner instead of manager\)
     **Note:** If an assessment is already submitted, changing the BIA owner does not sync the change to the assessment. When you change the BIA owner after submission, a message displays indicating that the assessment is not synced because it's already submitted.
 
 
@@ -182,22 +182,22 @@ BIA records include unique synchronization with Smart Assessment templates:
 -   When a BIA owner or owner group is set, the owner automatically syncs with the associated assessment
 -   Contributors added to the BIA sync to the assessment contributor list
 -   Assessment owner defaults to the group manager or first group member if BIA owner is not explicitly selected
--   Explicit individual owners always take precedence over group-based defaults
+-   Explicit individual owners take precedence over group-based defaults
 
 ## Plan records
 
 Business Continuity Plan records provide team-based maintenance accountability:
 
--   Plans support group ownership across both UI Builder and Classic UI workspaces with identical behavior
+-   Plans support group ownership across both UI Builder and Classic UI Workspace with identical behavior
 -   Group ownership works seamlessly with existing automation and workflows built on individual assignment
 -   Plan records require backward compatibility—existing single-owner plans continue to function unchanged
--   Group ownership is optional; records do not require a group to be valid
+-   Group ownership is optional; records don't require a group to be valid
 
 ## Recovery Event records
 
 Recovery Event records coordinate team-based incident response and escalation:
 
--   Event records support group ownership to ensure all responders have equal access and accountability
+-   Event records support group ownership to verify all responders have equal access and accountability
 -   Owner group changes propagate to escalation rules and notification workflows
 -   Event manager and event planner roles are eligible for owner group assignment
 

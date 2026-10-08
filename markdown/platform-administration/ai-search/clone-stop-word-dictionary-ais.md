@@ -22,7 +22,7 @@ Role required: ais\_admin
 
 ## About this task
 
-Cloning a stop word dictionary copies the source dictionary's settings and all of its all defined stop word terms. This process can save you time when you need multiple stop word dictionaries that have many stop word terms in common.
+Cloning a stop word dictionary copies the source dictionary's settings and all of its defined stop word terms. This process can save you time when you need multiple stop word dictionaries that have many stop word terms in common.
 
 ## Procedure
 

@@ -53,7 +53,7 @@ Role required: admin, playbook.admin
 
 4.  Add and configure your trigger.
 
-    To learn more, see [Add and configure a trigger in a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/add-configure-trigger.md).
+    To learn more, see .
 
     1.  Select the more options icon \(\[Omitted image "more-options.png"\] Alt text: More Options Icon and select **Properties**.
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-unifiedsecurityexposuremanagement-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
+last_updated: "2026-10-08"
 reading_time_minutes: 11
 breadcrumb: [Products combined by family]
 ---
@@ -46,7 +46,10 @@ Zurich
 
 </td><td>
 
+-   **Upgrade information**
+
 Unified Security Exposure Management is available to all customers who are entitled to Vulnerability Response. However, migrating to USEM is a major upgrade that introduces a unified architecture for improved performance, scalability, and streamlined workflows. Before upgrading, leverage the Migration assistant for Unified Security Exposure Management that is available as an update set. See the [Migration Guidance to Unified Security Exposure Management \[KB2556844\]](https://support.servicenow.com/kb?sys_kb_id=8652717893a8ba94f538fb2d6cba1078&id=kb_article_view) Knowledge Base article for more information. This tool provides a guided experience for plugin installation, data mapping, rule migration, and post-migration validation, reducing risk and manual effort. Ensure that all integrations and workflows are reviewed for compatibility before initiating migration. For more information, see [Migrating to USEM](https://www.servicenow.com/docs/access?context=migrating-to-usem&family=zurich&ft:locale=en-US) and [Migrate to USEM](https://www.servicenow.com/docs/access?context=migrate-to-usem&family=zurich&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## New features
@@ -91,10 +94,6 @@ The GitHub Secret Scanning Integration now imports generic secrets in addition t
 
 Starting with v 6.1.3, the Tenable.io Compliance Results Integration is replaced by the Tenable.io Fixed Compliance Results Integration and Tenable.io Open Compliance Results Integration. Compliance results are now imported based on their status, optimizing ingestion performance and scalability for environments with large volumes of compliance data while keeping remediation and compliance tracking aligned with the current state of findings.
 
--   **[Qualys Integration – API enhancements](https://www.servicenow.com/docs/access?context=qualys-rest-messages-cc&family=zurich&ft:locale=en-US)**
-
-Qualys Integration has been upgraded to support newer Qualys API versions across Host Detection, Host List, Knowledgebase, PC Controls, PC Policies, and PCRS integrations. The integrations now ingest additional data fields, including vulnerability detection source, authentication privilege status, active status for controls and policies, and cloud metadata, giving you better visibility into your vulnerability and compliance data. Use the new `posture_api_version` integration instance parameter to choose between the default v2.0 APIs or the newer v5.0 streaming APIs for the PCRS Policy Host and PCRS Test Results integrations.
-
 -   **[Improved vulnerability assessment workflows](https://www.servicenow.com/docs/access?context=vr-ws-vuln-assessment&family=zurich&ft:locale=en-US)**
     -   CI filtering for vulnerability assessments: You can now filter which configuration items are included in a vulnerability assessment using a condition builder.
     -   Business Application population on AVITs: AVITs created from SBOM assessment results now include Business Application information, helping you understand application impact and prioritize remediation.
@@ -103,7 +102,13 @@ Qualys Integration has been upgraded to support newer Qualys API versions across
 
 When new vulnerable items are ingested and associated with a remediation task that already has an approved compensating control, the reduced risk rating is now automatically inherited by those new vulnerable items.
 
--   **[Enhanced security exposure management](https://www.servicenow.com/docs/access?context=sem-workspace-user-interface&family=zurich&ft:locale=en-US)**
+
+ -   **[Qualys Integration – API enhancements](https://www.servicenow.com/docs/access?context=qualys-rest-messages-cc&family=zurich&ft:locale=en-US)**
+
+Qualys Integration has been upgraded to support newer Qualys API versions across Host Detection, Host List, Knowledgebase, PC Controls, PC Policies, and PCRS integrations. The integrations now ingest additional data fields, including vulnerability detection source, authentication privilege status, active status for controls and policies, and cloud metadata, giving you better visibility into your vulnerability and compliance data. Use the new `posture_api_version` integration instance parameter to choose between the default v2.0 APIs or the newer v5.0 streaming APIs for the PCRS Policy Host and PCRS Test Results integrations.
+
+
+ -   **[Enhanced security exposure management](https://www.servicenow.com/docs/access?context=sem-workspace-user-interface&family=zurich&ft:locale=en-US)**
 
 Introduced Security Exposure Management Workspace for all security personas, providing a centralized platform for managing security exposures. It includes the following views:
 
@@ -149,15 +154,11 @@ Remediation target \(RT\) dates now dynamically recalculate when a finding’s r
     -   Comprehensive exception tracking and audit trails: Detailed records of approvals, justifications, and timelines support compliance efforts and simplify regulatory reporting.
 -   **Consistent remediation task management with [remediation views](https://www.servicenow.com/docs/access?context=sem-workspaces-ui-remediation-module&family=zurich&ft:locale=en-US) and [centralized findings configuration](https://www.servicenow.com/docs/access?context=sem-configure-rules-manage-findings&family=zurich&ft:locale=en-US)**
 
-Unified task management: Supports both manual task creation and automated rule-based task generation across all Unified Security Exposure Management applications.
-
-Centralized rule definition: Enables efficient management of tasks across Vulnerability Response, Application Vulnerability Response, Container Vulnerability Response, and Configuration Compliance applications.
+Unified task management: Supports both manual task creation and automated rule-based task generation across all Unified Security Exposure Management applications.Centralized rule definition: Enables efficient management of tasks across Vulnerability Response, Application Vulnerability Response, Container Vulnerability Response, and Configuration Compliance applications.
 
 -   **[Advanced risk management](https://www.servicenow.com/docs/access?context=sem-vuln-calc-define-risk-rule-fields&family=zurich&ft:locale=en-US)**
 
-Risk calculators: Introduced for all Unified Security Exposure Management applications, enabling definition of risk rules based on multiple factors and calculation mechanisms.
-
-Risk rollup calculators: Aggregate scores from findings to higher-level entities, ensuring consistent risk scoring across applications.
+Risk calculators: Introduced for all Unified Security Exposure Management applications, enabling definition of risk rules based on multiple factors and calculation mechanisms.Risk rollup calculators: Aggregate scores from findings to higher-level entities, ensuring consistent risk scoring across applications.
 
 -   **[Generate approval recommendations with generative AI](https://www.servicenow.com/docs/access?context=sem-approval-recommendation-skill&family=zurich&ft:locale=en-US)**
 
@@ -284,7 +285,12 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Unified Security Exposure Management is a ServiceNow AI Platform feature that is available with activation of the Security Exposure Management \(com.snc.security\_support.core\). For details, see [Install Unified Security Exposure Management](https://www.servicenow.com/docs/access?context=sem-install-and-configure&family=zurich&ft:locale=en-US).
+
+
+**Important:** Unified Security Exposure Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -371,7 +377,8 @@ Zurich
 
 </td><td>
 
--   **Dark theme**
+-   **Accessibility information**
+    -   **Dark theme**
 
 The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
 

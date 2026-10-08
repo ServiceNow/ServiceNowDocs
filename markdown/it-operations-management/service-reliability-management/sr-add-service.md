@@ -45,15 +45,15 @@ When you add a technology management service to SRM, you also add its offerings.
 
 3.  In the Add services for your teams modal, you can either create a service or add existing services.
 
-<table id="choicetable_m3m_brg_n1c"><thead><tr><th align="left" id="d436008e164">
+<table id="choicetable_m3m_brg_n1c"><thead><tr><th align="left" id="d444988e164">
 
 Option
 
-</th><th align="left" id="d436008e167">
+</th><th align="left" id="d444988e167">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d436008e173">
+</th></tr></thead><tbody><tr><td id="d444988e173">
 
 **Create a new service**
 
@@ -64,7 +64,7 @@ Steps
 3.  Select **Next**.
 
 
-</td></tr><tr><td id="d436008e211">
+</td></tr><tr><td id="d444988e211">
 
 **Select existing services**
 

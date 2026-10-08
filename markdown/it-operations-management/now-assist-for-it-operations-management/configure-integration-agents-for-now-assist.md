@@ -9,7 +9,7 @@ classification: now-assist-for-it-operations-management
 topic_type: concept
 last_updated: "2026-05-27"
 reading_time_minutes: 8
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configure, ServiceNow Otto for ITOM, IT Operations Management]
 ---
 
@@ -419,7 +419,7 @@ Required Dynatrace Intelligence settings
 </td></tr></tbody>
 </table>## Google Cloud
 
-**Note:** Before configuring this connection, create a keystore file by following the steps in [Create a Java KeyStore certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/setup-google-translator.md).
+**Note:** Before configuring this connection, create a keystore file by following the steps in .
 
 <table id="table_iqq_xqz_1kc"><thead><tr><th>
 

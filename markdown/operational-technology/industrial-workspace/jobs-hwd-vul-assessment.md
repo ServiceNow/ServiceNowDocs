@@ -54,5 +54,5 @@ You must perform the following scheduled jobs to detect firmware vulnerabilities
 **Related topics**  
 
 
-[bundle-platadm.c_ScheduledJobs]
+[Scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/c_ScheduledJobs.md)
 

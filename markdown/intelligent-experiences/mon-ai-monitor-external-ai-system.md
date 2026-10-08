@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2026-07-13"
 reading_time_minutes: 3
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configure evaluation scoring for external AI systems, Configure, Monitoring and evaluating AI systems, Monitor AI assets, AI Control Tower, Enable AI experiences]
 ---
 
@@ -36,15 +36,15 @@ External AI systems require trace data to be scored by the evaluation engine. Un
 
 4.  Connect your external AI system to send trace data to AI Control Tower using SDK instrumentation or a trace connection.
 
-<table id="choicetable_connection_method"><thead><tr><th align="left" id="d31276e149">
+<table id="choicetable_connection_method"><thead><tr><th align="left" id="d31850e149">
 
 Connection method
 
-</th><th align="left" id="d31276e152">
+</th><th align="left" id="d31850e152">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d31276e158">
+</th></tr></thead><tbody><tr><td id="d31850e158">
 
 **SDK instrumentation**
 
@@ -133,7 +133,7 @@ The new API key appears in the **API key for external AI system evaluation** sec
 
 For instrumentation steps using the Traceloop SDK, see [Instrument a third-party AI agent with the Traceloop SDK for AI Control Tower Evaluations](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3144255).
 
-</td></tr><tr><td id="d31276e346">
+</td></tr><tr><td id="d31850e346">
 
 **Trace connection**
 

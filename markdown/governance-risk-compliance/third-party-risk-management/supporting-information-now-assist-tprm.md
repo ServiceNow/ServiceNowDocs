@@ -7,7 +7,7 @@ release: zurich
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: concept
-last_updated: "2026-06-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, Agentic AI, generative AI, Gen AI]
 breadcrumb: [AI in Third-party Risk Management, Explore, Third-party Risk Management, Governance, Risk, and Compliance]
@@ -25,11 +25,11 @@ ServiceNow Otto for TPRM is supported starting from the Zurich patch 4 release.
 
 You can use Azure OpenAI, Google Gemini, or Anthropic Claude on AWS as the AI model providers for supported ServiceNow Otto® capabilities. Model availability depends on the feature and your AI licensing tier. For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/exploring-large-language-models.md).
 
-Starting from the Zurich patch 12 release, ServiceNow Otto for Third-party Risk Management \(TPRM\) supports Google Gemini 3.5 Flash, OpenAI GPT 5.1, and OpenAI GPT 5.4 mini models in addition to the previously supported models. The default model for the issue recommendation skill is Azure OpenAI gpt-4-5-mini.
+As of version 22.3.4, ServiceNow Otto for Third-party Risk Management \(TPRM\) supports Google Gemini 3.5 Flash, OpenAI GPT 5.1, and OpenAI GPT 5.4 mini models in addition to the previously supported models. The default model for the issue recommendation skill is Azure OpenAI gpt-4-5-mini.
 
 ## Supported user interfaces
 
-The ServiceNow Otto for TPRM application skills TPRM Issue Summarization and TPRM Issue Recommendation can be accessed in the Vendor Management Workspace and Core UI. Issue recommendations are available only for Smart Assessment Engine questionnaires.
+The ServiceNow Otto for TPRM application skills TPRM Issue Summarization and TPRM Issue Recommendation can be accessed in the Vendor Management Workspace. Issue recommendations are available only for Smart Assessment Engine questionnaires.
 
 ## Application information
 

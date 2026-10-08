@@ -41,7 +41,15 @@ A digital product or service has a release life cycle that starts with planning,
 
 Digital Product Release is aimed at the following personas:
 
-<table id="table_knl_gfb_myb"><tbody><tr><td>
+<table id="id_v5l_bw5_5kc"><thead><tr><th>
+
+Persona
+
+</th><th>
+
+Responsibilities
+
+</th></tr></thead><tbody><tr><td>
 
 Release manager
 
@@ -92,7 +100,7 @@ Engineering lead
 |Create policies to automate the release process.|[Policy administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-policies.md)|Release manager|
 |Manage products, services,features, product enhancements,versions, and initiate a release.|[Release planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-plan-feature-version.md)|Product manager|
 |Generate AI-powered release notes that streamline release documentation, reduces manual effort, and improves clarity for stakeholders.|[Generate AI-powered release notes for a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-generate-release-notes.md)|Product manager|
-|Plan and manage the release process from start to finish.|[Release execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-work-release.md)|Release manager|
+|Plan and manage the release process from start to finish.|[Release management and execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-product-release/dpr-work-release.md)|Release manager|
 
 ## Digital Product Release key terms
 

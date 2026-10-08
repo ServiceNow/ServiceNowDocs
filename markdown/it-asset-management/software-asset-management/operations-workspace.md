@@ -1,6 +1,6 @@
 ---
 title: License operations view
-description: Use the License operations view in Software Asset Workspace to manage software asset operations. These operations include management of licenses, contracts, discovery, client access, resource value, user subscriptions, content suggestions, software asset success, cloud cost simulation, SAM implementation, IBM ASP, and IBM ILMT V2 integrations.
+description: Use the License operations view in Software Asset Workspace to manage software asset operations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/software-asset-management/operations-workspace.html
 release: zurich
@@ -8,17 +8,19 @@ product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 16
+reading_time_minutes: 17
 breadcrumb: [Software Asset Workspace, Explore, Software Asset Management, IT Asset Management]
 ---
 
 # License operations view
 
-Use the License operations view in Software Asset Workspace to manage software asset operations. These operations include management of licenses, contracts, discovery, client access, resource value, user subscriptions, content suggestions, software asset success, cloud cost simulation, SAM implementation, IBM ASP, and IBM ILMT V2 integrations.
+Use the License operations view in Software Asset Workspace to manage software asset operations.
 
-You can access the License operations view by navigating to **Software Asset Workspace** &gt; **License operations**.
+The operations on the License operation view include license management, administration,contracts, discovery, client access, resource value, user subscriptions, content suggestions, cloud cost simulation, and SAM implementation. The application specific operations include IBM ASP, IBM ILMT V2 integrations, and engineering apps integrations.
 
-The list view for software assets on the License operations view shows the total number of records for your organization based on the value specified in the **SAM Workspace License operations list count limit** system property \(**sn\_sam\_workspace.sam\_license\_operations\_list\_count**\). The default value for the record count is set to **5000000**. However, the SAM administrator can set the value for the count in the system property as required. If there are less than five million records, then the exact count is shown. If there are more than five million records, then the count is shown as 5000000+.
+Access the License operations view by navigating to **Software Asset Workspace** &gt; **License operations**.
+
+The list view of the software assets shows the total number of records for your organization based on the value specified in the system property **SAM Workspace License operations list count limit** \(**sn\_sam\_workspace.sam\_license\_operations\_list\_count**\). The default value for the record count is set to **5000000**. However, the SAM administrator can set the value for the count in the system property as required. If there are less than five million records, then the exact count is shown. If there are more than five million records, then the count is shown as 5000000+.
 
 \[Omitted image "license-operations-view.png"\] Alt text: License operations view
 
@@ -57,6 +59,24 @@ The License operations view includes the following categories:
 
         View the details of software installation such as discovery model, publisher, and reconciliation details. The list view also shows the total number of software installation records for your organization. For more information, see [Software installation fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/software-installation-fields.md).
 
+-   **Administration**
+    -   **Reclamation rules**
+
+        View the details of reclamation rules that are configured to specify a period of time, amount of time, or the most recent date that a software unit must be used before the software is flagged for reclamation. For more information, see [Software reclamation rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/sw-reclamation-rules.md).
+
+    -   **Deduplication rules**
+
+        View the details of software deduplication rules that are created to define how duplicate software installations are identified and matched within your organization. For more information, see .
+
+-   **Reclamation**
+    -   **Removal candidates**
+
+        View a list of all removal candidates. Removal candidates are used to reclaim software installations that aren’t being used. You can also create removal candidates. For more details, see [Create a software removal candidate in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/add-sw-removal-workspace.md).
+
+    -   **Reclamation summary**
+
+        View reclamation candidates consolidated by software model, product, and justification across all reclamation sources. Select a record to view the individual removal candidates in that group.
+
 -   **Contract - Software contracts**
 
     Create a software contract to bind agreement between two parties. [Create a contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/contract-management/t_CreateAContract.md).
@@ -76,7 +96,7 @@ The License operations view includes the following categories:
 
     -   **Software usage**
 
-        View software usage records to track the usage of software products for which you have created reclamation rules. You can also create software usage records manually from third party integrations or Microsoft System Center Configuration Manager \(SCCM\) integrations. For more information, see [View or create software usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/view-sw-usage-workspace.md).
+        View software usage records to track the usage of software products for which you have created reclamation rules. You can also create software usage records manually from third-party integrations or Microsoft System Center Configuration Manager \(SCCM\) integrations. For more information, see [View or create software usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/view-sw-usage-workspace.md).
 
     -   **All SAP engines**
 

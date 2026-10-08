@@ -24,7 +24,7 @@ Role required: admin
 
 1.  Set up the Microsoft Exchange Online spoke.
 
-    For more information, see .
+    For more information, see [Microsoft Exchange Online Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/ms-exch-online-spoke.md).
 
 2.  In the navigation filter, enter `sys_properties.list`.
 

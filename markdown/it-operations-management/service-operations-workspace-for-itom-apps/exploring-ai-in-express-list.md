@@ -17,7 +17,7 @@ breadcrumb: [Express List, Use, Service Operations Workspace for ITOM, ITOM AIOp
 
 ServiceNow Otto for ITOM provides generative AI skills and agentic workflows in Express List that help operators triage alerts, investigate incidents, and respond faster.
 
-Express List includes several generative AI skills and agentic workflows. All features require ServiceNow Otto for IT Operations Management \(ITOM\) to be installed.
+Express List includes several generative AI skills and agentic workflows. All features require ServiceNow Otto for IT Operations Management \(ITOM\) to be installed. For a summary of all AI features across ITOM AIOps, see [Install ITOM using ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/exploring-nowassist-setup-itom-aiops.md).
 
 <table id="table_exploring-ai-in-express-list"><thead><tr><th>
 

@@ -49,7 +49,7 @@ If you haven’t selected a display experience, branding options aren’t shown.
 
     To create and edit additional brand settings, navigate to **Conversational Interfaces** &gt; **Settings** &gt; **Branding**.
 
-    Learn more about customizing the look-and-feel of enhanced chat by navigating to [Theming for Now Assist in Virtual Agent enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/theming-na-full-page-experience.md).
+    Learn more about customizing the look-and-feel of enhanced chat by navigating to [Theming for ServiceNow Otto for Virtual Agent enhanced and premium chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/theming-na-full-page-experience.md).
 
     If your display experience has premium chat, the **Premium chat** section is shown.
 
@@ -93,8 +93,6 @@ If you haven’t selected a display experience, branding options aren’t shown.
     **Note:** Branding selections must happen in the channel, and not in the platform.
 
 2.  In the **Personalization** section, customize the assistant's tone, response length, and personal details.
-
-    **Note:** The **Personalization** section is viewable by default. To hide personalization or its different settings, use the **sn\_nowassist\_va.assistant\_personalization** system property. For more information, see [ServiceNow Otto for Virtual Agent system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/nava-sys-props.md).
 
     \[Omitted image "sno-personalization-tone-0826.png"\] Alt text: Select your assistant's tone, response length, and persona.
 

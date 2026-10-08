@@ -7,8 +7,8 @@ release: zurich
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks
 topic_type: reference
-last_updated: "2026-04-14"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [LEAP reference, Learning Enhanced Automation Platform \(LEAP\), ServiceNow Otto for ITOM, IT Operations Management]
 ---
 
@@ -50,7 +50,7 @@ Average time spent on each work note entry and helps estimate the total time imp
 
 </td></tr><tr><td>
 
- 
+P1 - High priority incidents
 
 </td><td>
 
@@ -138,7 +138,7 @@ Default resolution steps filter
 
 </td><td>
 
-A condition builder filter that determines which automation opportunities are eligible for resolution step generation. The default filter is `automation_priority=40`, which corresponds to Critical priority. Update the filter using the condition builder to change the priority scope.
+A condition builder filter that determines which automation opportunities are eligible for resolution step generation. By default, this filter is set to 'Critical priority' \(automation\_priority=40\). Therefore, resolution steps are generated only for critical automation opportunities. To include additional priorities, update the filter in the condition builder. The condition builder is accessible when you edit LEAP settings. Example: To generate resolution steps for both Critical and High priority automation opportunities, update the filter to select both Critical and High priority.\[Omitted image "change-automation-priority-filter.png"\] Alt text: Change the default resolution step generation criteria
 
 </td></tr></tbody>
 </table>## LEAP AI agent settings fields
@@ -181,7 +181,7 @@ KB agent: Minimum incident count
 
 </td><td>
 
-Minimum number of incidents a cluster must contain before the LEAP Knowledge base agent autonomously creates a knowledge base article. The default value is 15.
+Minimum number of incidents a cluster must contain before the LEAP AI agent autonomously creates a knowledge base article. The default value is 15.
 
 </td></tr><tr><td>
 
@@ -189,7 +189,39 @@ KB agent: Severity
 
 </td><td>
 
-Automation opportunity severity levels that make a cluster eligible for knowledge base article creation by the LEAP Knowledge base agent. You can select multiple severity levels. The default values are Critical or High.
+Automation opportunity severity levels that make a cluster eligible for knowledge base article creation by the LEAP AI agent. You can select multiple severity levels. The default values are Critical or High.
+
+</td></tr><tr class="sub-head"><td colspan="2">
+
+Knowledge base routing
+
+</td></tr><tr><td>
+
+Default knowledge base
+
+</td><td>
+
+The knowledge base where articles created automatically by the LEAP AI agent are stored. This field is mandatory. You can't save settings without selecting a value.
+
+ Articles created through the ServiceNow Otto panel are also routed to this knowledge base.
+
+</td></tr><tr><td>
+
+Default category
+
+</td><td>
+
+The category within the default knowledge base where articles created by the LEAP AI agent are stored. The available categories are filtered based on the selected default knowledge base.
+
+</td></tr><tr><td>
+
+Eligible knowledge bases
+
+</td><td>
+
+The knowledge bases that users can select from when manually creating a knowledge base article from an automation opportunity using **Actions** &gt; **Draft KB article**.
+
+ When specific knowledge bases are selected, only those appear in the knowledge base selection dialog. If this field is not configured, all active knowledge bases are shown.
 
 </td></tr></tbody>
 </table>

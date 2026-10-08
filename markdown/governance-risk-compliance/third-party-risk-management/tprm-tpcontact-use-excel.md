@@ -7,8 +7,8 @@ release: zurich
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Using a Microsoft Excel spreadsheet template for external questionnaires, Manage the third-party portal, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
 
@@ -60,4 +60,13 @@ The Microsoft Excel questionnaire template enables third-party and engagement co
 
     The complete questionnaire is now available for review by the requester.
 
+
+**Related topics**  
+
+
+[Managing the Third-party portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/vendor-portal.md)
+
+[Using a Microsoft Excel spreadsheet template for external questionnaires](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-excel-template-support.md)
+
+[Respond to a questionnaire in the third-party portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-portal-respond-questionnaire.md)
 

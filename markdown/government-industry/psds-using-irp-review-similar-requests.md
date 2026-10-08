@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2026-03-29"
 reading_time_minutes: 1
-breadcrumb: [Review request details, Information Request Playbook, Playbooks and solutions, Use, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Review request details, Information Request Administration, Playbooks and solutions, Use, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Evaluate an information request case for similar requests

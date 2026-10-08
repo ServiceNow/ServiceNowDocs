@@ -35,6 +35,8 @@ A MID Server using mutual authentication cannot be re-keyed or validated as a UI
 
 Self-signed certificates are not supported with mutual authentication. Internally signed certificates are only supported when signed by a private certificate authority. Commercially signed certificates are supported when signed by a commonly trusted certificate authority, such as those trusted by browsers and operating systems.
 
+The ServiceNow instance must be able to reach the certificate's OCSP and CRL endpoints. Certificate revocation checks require this access. An internally signed certificate whose OCSP or CRL endpoints are reachable only on an internal network is not supported, and validation fails. You cannot disable the CRL check selectively or suppress log messages for unreachable CRL endpoints.
+
 In the Quebec release, a MID Server using the Health Log Analytic application cannot be configured with mutual authentication.
 
 **Note:** Certificate-based authentication is not supported on On-Prem or edge encryption-enabled instances.

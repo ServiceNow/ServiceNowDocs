@@ -24,12 +24,21 @@ Two properties, **glide.ui.user\_cookie.life\_span\_in\_days** and **glide.ui.us
 
 Configure the following properties to control the **Remember me** cookie behaviour:
 
+|Property|Description|
+|--------|-----------|
+|**glide.ui.user\_cookie.life\_span\_in\_days**|Number of days before the cookie expires if the user does not revisit the instance.|
+|**glide.ui.user\_cookie.max\_life\_span\_in\_days**|Maximum number of days before the cookie expires, regardless of user activity.|
+
 **Note:** To learn more about these properties, see the following topics in Instance Security Hardening Settings:
 
 -   [Minimize absolute session timeout duration \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-absolute-session-timeout.md)
 -   [Minimize session window timeout duration \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-session-window-timeout.md)
 
 If the **Remember me** feature does not persist between sessions, verify the following conditions:
+
+-   Cookies are enabled in your browser and not blocked by browser settings.
+-   You are not using a private or incognito browsing session, which discards cookies when the session ends.
+-   The **glide.ui.user\_cookie.max\_life\_span\_in\_days** property value has not been reached. After the maximum life span is reached, the cookie expires and you must log in again.
 
 ## Change the default value of the Remember me check box
 

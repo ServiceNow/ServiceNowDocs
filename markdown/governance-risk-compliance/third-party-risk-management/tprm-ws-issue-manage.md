@@ -7,8 +7,8 @@ release: zurich
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Assess third-party risk, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
 
@@ -56,5 +56,7 @@ Role required: sn\_vdr\_risk\_asmt.vendor\_assessor
     -   **Questions tab for an issue**
 
         The tab displays a list of the questions that are associated with the issue. Select a question to view the question definition and current response.
+
+        **Note:** Starting with version 23.0.x, questions associated with an issue that has a Smart Assessment Engine question relationship are also visible to the third-party contact in the corresponding conversation view in the third-party portal.
 
 

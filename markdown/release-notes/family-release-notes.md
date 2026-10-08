@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/family-release-notes.html
 release: zurich
 topic_type: concept
-last_updated: "2026-08-07"
+last_updated: "2026-10-08"
 reading_time_minutes: 4
 ---
 

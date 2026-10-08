@@ -8,7 +8,7 @@ product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Contextual side panel configurations in Service Operations Workspace for ITSM, Getting started with Service Operations Workspace for ITSM, Configure, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
@@ -26,6 +26,8 @@ By default, all record pages such as an incident and interaction record page hav
 
 \[Omitted image "sow-contextual-side-panel.png"\] Alt text: Contextual side panel in Service Operations Workspace
 
+**Important:** Before editing screen conditions or scripts, duplicate the variant to create a customer-specific copy. Editing the base system variant directly causes those changes to be overwritten during upgrades.
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **UI Builder**.
@@ -42,7 +44,11 @@ By default, all record pages such as an incident and interaction record page hav
 
     The pages and variants associated with contextual sidebar appears. For example, select the Agent assist SNC to add the Agent assist option in the sidebar.
 
-7.  Edit the screen condition for the UX screen.
+7.  Duplicate the variant before editing it.
+
+    **Important:** Do not edit the base system variant. Edits to base system variants are overwritten during upgrades.
+
+8.  Edit the screen condition for the UX screen.
 
     1.  From the left of the page, select \[Omitted image "menu-fill-24.svg"\] Alt text: Menu and navigate to **Developer** &gt; **Open variant record**.
 
@@ -52,7 +58,7 @@ By default, all record pages such as an incident and interaction record page hav
 
         You’re redirected to the Dashboards page.
 
-8.  Edit the screen condition script for the UX screen by performing the following steps.
+9.  Edit the screen condition script for the UX screen by performing the following steps.
 
     1.  Select the previously opened tab of the UI Builder page, for example, the Agent assist SNC tab page.
 

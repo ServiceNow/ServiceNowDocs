@@ -1,6 +1,6 @@
 ---
 title: MSI installation parameters
-description: The following table describes the MSI parameters used when preparing an agent to be installed on a gold image and used with a Virtual Desktop Infrastructure \(VDI\) machine.
+description: The following table describes the MSI parameters used when preparing an agent for installation on a gold image and used with a non-persistent virtual desktop infrastructure \(NPVDI\) machine.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/agent-client-collector/msi-installation-parameters.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [Agent Client Collector Framework reference, Agent Client Collector,
 
 # MSI installation parameters
 
-The following table describes the MSI parameters used when preparing an agent to be installed on a gold image and used with a Virtual Desktop Infrastructure \(VDI\) machine.
+The following table describes the MSI parameters used when preparing an agent for installation on a gold image and used with a non-persistent virtual desktop infrastructure \(NPVDI\) machine.
 
 <table id="table_lpn_byt_kkc"><thead><tr><th>
 
@@ -62,7 +62,7 @@ string
 
 </td><td>
 
-Basic-auth username for `fetch_vdi_config` REST API.This is the user created in the [Prepare for agent deployment on a non-persistent virtual desktop infrastructure machine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/npvdi-agent-instance-prep.md) procedure.
+Basic-auth username for `fetch_vdi_config` REST API.This is the user created in the [Prepare agent deployment on a non-persistent virtual desktop infrastructure machine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/npvdi-agent-instance-prep.md) procedure.
 
 </td></tr><tr><td>
 

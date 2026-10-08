@@ -48,19 +48,19 @@ The Version 11.0.0 release introduces AI-powered summarization of cloud spend, s
 
 ### What's new
 
--   **Get complete cost visibility with TCO and unit economics**
+-   **[Get complete cost visibility with TCO and unit economics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/business-insights-ccm-ws.md)**
 
     Enhance total spend analysis with TCO insights for your business applications by combining cloud costs with non-cloud costs such as hardware, software licensing, and labor. Upload business data to track revenue, units, and margins alongside your cloud costs using the Unit Economics view. Use the new Business Insights view to analyze spending trends by application owner, business application, department, business unit, and cost center.
 
--   **Get complete cost visibility with TCO and unit economics**
+-   **[Get complete cost visibility with TCO and unit economics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/business-insights-ccm-ws.md)**
 
     Enhance total spend analysis with TCO insights for your business applications by combining cloud costs with non-cloud costs such as hardware, software licensing, and labor. Upload business data to track revenue, units, and margins alongside your cloud costs using the Unit Economics view. Use the new Business Insights view to analyze spending trends by application owner, business application, department, business unit, and cost center.
 
--   **Manage cloud spend attribution with the tag category source selection capability**
+-   **[Manage cloud spend attribution with the tag category source selection capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/tag-category-source.md)**
 
     Align cloud spend attribution with your organization's enterprise architecture \(EA\) by selecting a tag category source. Instead of manually tagging resources in each cloud provider, derive business context automatically from existing CMDB relationships. This feature eliminates duplicate tagging effort and ensures that cost reports reflect the same taxonomy already maintained in your ServiceNow instance.
 
--   **Streamline spend analysis with saved, shared, and reusable report views**
+-   **[Streamline spend analysis with saved, shared, and reusable report views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/spend-anaytics.md)**
 
     Eliminate repetitive setup using Spend analytics filters, time ranges, groupings, and cost types and apply your saved views instantly without manual reconfiguration. Set a default view to load your preferred configuration automatically every time you open the Spend Analytics page. Mark frequently used views as favorites or set a default view to streamline your daily workflow.
 
@@ -73,7 +73,7 @@ The Version 11.0.0 release introduces AI-powered summarization of cloud spend, s
 
 ### What's changed
 
--   **Optimization view on the Cloud Cost Management Workspace**
+-   **[Optimization view on the Cloud Cost Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/optimization-view-ccm-ws.md)**
 
     The Recommendations have been moved from the Operations view to the newly added Optimization view in the Cloud Cost Management Workspace. The Optimization view shows savings opportunities and recommendations for you across Unused resources, Rightsizing, Business hours, and Commitments.
 

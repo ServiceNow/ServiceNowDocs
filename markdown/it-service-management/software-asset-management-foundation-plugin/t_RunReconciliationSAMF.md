@@ -1,5 +1,5 @@
 ---
-title: Run Software Asset Management Foundation plugin software reconciliation in classic
+title: Run Basic Software Asset Management software reconciliation in classic
 description: Reconciliation is run as a scheduled job \(default is weekly\), but you can also run reconciliation manually to reconcile software products in your environment on demand.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/software-asset-management-foundation-plugin/t\_RunReconciliationSAMF.html
@@ -9,10 +9,10 @@ classification: software-asset-management-foundation-plugin
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Using Software Asset Management Foundation plugin classic, Software Asset Management Foundation plugin, ITSM Software Asset Management, Asset Management, IT Service Management]
+breadcrumb: [Using Basic Software Asset Management classic, Basic Software Asset Management, ITSM Software Asset Management, Asset Management, IT Service Management]
 ---
 
-# Run Software Asset Management Foundation plugin software reconciliation in classic
+# Run Basic Software Asset Management software reconciliation in classic
 
 Reconciliation is run as a scheduled job \(default is weekly\), but you can also run reconciliation manually to reconcile software products in your environment on demand.
 
@@ -37,5 +37,5 @@ When running reconciliation manually, allow enough time for the process to compl
     The Reconciliation Results list is shown.
 
 
-**Parent Topic:**[Using Software Asset Management Foundation plugin classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/software-asset-management-foundation-plugin/using-samf-classic.md)
+**Parent Topic:**[Using Basic Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/software-asset-management-foundation-plugin/using-samf-classic.md)
 

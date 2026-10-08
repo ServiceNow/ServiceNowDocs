@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-airiskandcompliance-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
-reading_time_minutes: 13
+last_updated: "2026-10-08"
+reading_time_minutes: 14
 breadcrumb: [Products combined by family]
 ---
 
@@ -166,7 +166,8 @@ Use the 360° AI asset view in the AI Control Tower to explore the relationship 
 
 Manage AI asset changes and retirements through structured workflows that ensure compliance and reduce operational risk. Track and approve modifications to models, datasets, and systems while automatically identifying impacts on dependent assets. Initiate formal offboarding processes that remove access, close documentation, and update related controls when retiring underperforming or deprecated AI assets. Maintain complete audit trails integrated with your policy and risk frameworks to demonstrate governance continuity during lifecycle transitions.
 
--   **[Deliver system-level AI risk score aggregation and visualization](https://www.servicenow.com/docs/access?context=ai-assets-airc&family=zurich&ft:locale=en-US)**
+
+ -   **[Deliver system-level AI risk score aggregation and visualization](https://www.servicenow.com/docs/access?context=ai-assets-airc&family=zurich&ft:locale=en-US)**
 
 Aggregate AI system-level risk scores by integrating heatmaps and residual risk score widgets directly within your AI asset overview records. These visual tools help you to see the cumulative risk exposure and track the residual risks across the entire AI asset inventory. With this feature, you get clear, data-driven insights into the overall AI system risk posture.
 
@@ -234,7 +235,17 @@ Zurich
 
 </td><td>
 
--   **[AI risk and compliance home page](https://www.servicenow.com/docs/access?context=ai-risk-and-compliance-workspace&family=zurich&ft:locale=en-US)**
+-   **Feature-specific administrator role enhancements**
+
+Starting with version 21.1.1, if you have a feature admin role you can now complete tasks that were initially reserved for users with the broader administrator role.
+
+
+ -   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+
+ -   **[AI risk and compliance home page](https://www.servicenow.com/docs/access?context=ai-risk-and-compliance-workspace&family=zurich&ft:locale=en-US)**
 
 The **Risk and compliance** tab now features dedicated Risk overview and Compliance overview sections that enable you to continuously monitor the risk and compliance posture of your AI assets.
 
@@ -243,10 +254,6 @@ The Risk overview section is a filtered view of your AI assets that are based on
 -   **[Worknotes and comments in AI system records](https://www.servicenow.com/docs/access?context=ai-system-airc&family=zurich&ft:locale=en-US)**
 
 The AI system record now supports worknotes and comments. You can now document decisions, share updates, and provide context throughout the AI risk and compliance life-cycle. Worknotes and comments help improve the communication among stakeholders and ensure a comprehensive audit trail.
-
--   **Feature-specific administrator role enhancements**
-
-Starting with version 21.1.1, if you have a feature admin role you can now complete tasks that were initially reserved for users with the broader administrator role.
 
 
 </td></tr></tbody>
@@ -350,7 +357,12 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Install AI Risk and Compliance by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
+
+**Important:** AI Risk and Compliance is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 
@@ -358,7 +370,12 @@ Zurich
 
 </td><td>
 
-Install AI Risk and Compliance by requesting it from the ServiceNow Store. 
+-   **Activation information**
+
+Install AI Risk and Compliance by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
+
+**Important:** AI Risk and Compliance is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -469,7 +486,11 @@ Zurich
 
 </td><td>
 
--   ****
+-   **Accessibility information**
+    -   **Dark theme**
+
+The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
 
 </td></tr></tbody>
 </table>## Localization information

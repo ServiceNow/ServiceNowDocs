@@ -1,21 +1,21 @@
 ---
 title: Improving CMDB data quality for Data Foundations
-description: The Remediation actions panel available for a chart in the CMDB success advisor dashboard for Data Foundations suggests targeted actions to address Data Foundations data quality issues and improve the overall quality of your Configuration Management Database \(CMDB\).
+description: The Remediation actions panel available for a chart in the CMDB success advisor dashboard for Data Foundations suggests targeted actions to address Data Foundations data quality issues and improve the overall quality of your Configuration Management Database \(CMDB\). Select the Ask Otto action on a KPI card to start an agent conversation without waiting for the next scheduled agent run.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-remediation.html
 release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-30"
+reading_time_minutes: 3
 keywords: [Remediation actions panel, Data Foundations data quality improvement, KPI Details page remediation, stale CIs and duplicate CIs remediation, CIs missing location or owner]
 breadcrumb: [Use Data Foundations advisor, CMDB success advisor, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Improving CMDB data quality for Data Foundations
 
-The Remediation actions panel available for a chart in the CMDB success advisor dashboard for Data Foundations suggests targeted actions to address Data Foundations data quality issues and improve the overall quality of your Configuration Management Database \(CMDB\).
+The Remediation actions panel available for a chart in the CMDB success advisor dashboard for Data Foundations suggests targeted actions to address Data Foundations data quality issues and improve the overall quality of your Configuration Management Database \(CMDB\). Select the Ask Otto action on a KPI card to start an agent conversation without waiting for the next scheduled agent run.
 
 \[Omitted image "cmdb-sa-df-remediation-actions.png"\] Alt text: Example actions in the remediation actions panel shown for stale CIs not updated within the selected time period.
 
@@ -61,6 +61,8 @@ The remediation actions are available for the improvement of the following issue
 
     Remove or merge duplicate records within your principal classes. Duplicates can cause split incident history and routing errors in workflows.
 
+
+The Stale CIs card and the Duplicate CIs card on the Data Foundations advisor dashboard each display their own **Ask Otto** action, separate from this panel. For more information, see [Monitoring CMDB data quality using dashboard metrics in CMDB success advisor for Data Foundations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-dashboard.md).
 
 ## Data Foundations specific remediation tips
 

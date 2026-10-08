@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/mon-ai-configure-global-metrics-external.html
 release: zurich
 topic_type: task
-last_updated: "2026-08-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configure evaluation scoring for external AI systems, Configure, Monitoring and evaluating AI systems, Monitor AI assets, AI Control Tower, Enable AI experiences]
 ---
 
@@ -53,17 +53,17 @@ Global metric configuration determines which metrics evaluate every external AI 
 
 4.  In the Evaluation metrics for Agentic AI section, add or remove metrics that you want to evaluate.
 
-    **Important:** Adding more metrics increases the visibility you gain into each session, but also increases the processing performed to evaluate it. Select the metrics that give you the insight you need.
+    **Important:** Adding more metrics increases the visibility you gain into each session, but also increases assist usage to evaluate it. Select the metrics that give you the insight you need.
 
-<table id="choicetable_add_remove_metrics_ext"><thead><tr><th align="left" id="d58879e180">
+<table id="choicetable_add_remove_metrics_ext"><thead><tr><th align="left" id="d60024e180">
 
 Option
 
-</th><th align="left" id="d58879e183">
+</th><th align="left" id="d60024e183">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d58879e189">
+</th></tr></thead><tbody><tr><td id="d60024e189">
 
 **Add metrics**
 
@@ -75,7 +75,7 @@ Description
 4.  Select **Done**.
 
 
-</td></tr><tr><td id="d58879e219">
+</td></tr><tr><td id="d60024e219">
 
 **Remove metrics**
 
@@ -89,9 +89,11 @@ Description
 </td></tr></tbody>
 </table>5.  Adjust the sample rate for one or more included metrics.
 
-    The sample rate determines what percentage of AI executions a metric evaluates. For external AI systems, each metric has its own sample rate, so you can evaluate the metrics that matter most on more executions and sample the rest to limit processing.
+    The sample rate determines what percentage of AI executions a metric evaluates. For external AI systems, each metric has its own sample rate, so you can evaluate the metrics that matter most on more executions and sample the rest.
 
-    **Note:** When metrics that contribute to the same quality or safety score use different sample rates, the metric with the higher rate evaluates more executions and can skew that score toward its results.
+    When metrics that contribute to the same quality or safety score use different sample rates, the metric with the higher rate evaluates more executions and can skew that score toward its results.
+
+    **Important:** Increasing a metric's sample rate evaluates more executions and gives you more confidence in its score, but also increases assist usage. Set the lowest rate that produces enough evaluated sessions to trust the score.
 
     1.  In the Evaluation metrics for Agentic AI section, select the edit icon next to the sample rate that you want to update.
 

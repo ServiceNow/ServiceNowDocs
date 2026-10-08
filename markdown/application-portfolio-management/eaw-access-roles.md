@@ -303,6 +303,34 @@ Activate the Read only roles for Enterprise Architecture plugin
 
  
 
+</td></tr><tr><td>
+
+Run the Migrate BA Product Model Map from EA Workspace scheduled job
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td>
+
+Requires the admin role. Run on demand from **All** &gt; **System Definition** &gt; **Scheduled Jobs**.
+
 </td></tr></tbody>
 </table>## Setup page
 

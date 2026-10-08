@@ -45,7 +45,7 @@ Build Agent\[Omitted image "bus-rocketship.svg"\] Alt text:Generate a complete s
 
 </td></tr><tr><td>
 
-[Code generation\[Omitted image "bus-start-developing.svg"\] Alt text:Get help writing scripts quickly with AI-generated code based on text or code prompts.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/scripts/now-assist-code-landing.md)
+Code generation\[Omitted image "bus-start-developing.svg"\] Alt text:Get help writing scripts quickly with AI-generated code based on text or code prompts.
 
 </td><td>
 
@@ -69,11 +69,11 @@ Build Agent\[Omitted image "bus-rocketship.svg"\] Alt text:Generate a complete s
 
 </td></tr><tr><td>
 
-Process Mining\[Omitted image "bus-elevate.svg"\] Alt text:Identify the work notes and generate insights about inefficiencies, challenges, and other reasons that cause reassignment of work.
+[Process Mining\[Omitted image "bus-elevate.svg"\] Alt text:Identify the work notes and generate insights about inefficiencies, challenges, and other reasons that cause reassignment of work.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/now-assist.md)
 
 </td><td>
 
-[RPA bot generation \[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Create automations, activities, and add automation logic from text instructions and preview options.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/rpa-bot-generation.md)
+RPA bot generation \[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Create automations, activities, and add automation logic from text instructions and preview options.
 
 </td><td>
 
@@ -89,7 +89,7 @@ UI generation\[Omitted image "bus-app-creator.svg"\] Alt text:Create experiences
 
 </td><td>
 
-[Widget generation and updation\[Omitted image "bus-asset.svg"\] Alt text:Create and modify widgets via natural language prompts.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/eslate-ai-widget-builder.md)
+Widget generation and updation\[Omitted image "bus-asset.svg"\] Alt text:Create and modify widgets via natural language prompts.
 
 </td></tr></tbody>
 </table>**Important:**

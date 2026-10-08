@@ -20,7 +20,7 @@ You can create and define several results letter or document templates that are 
 
 ## Before you begin
 
-Role required: sn\_gsm\_grnt\_mgmt.program\_manager, sn\_gsm\_grnt\_mgmt.grant\_director
+Role required: sn\_svc\_appl\_pgm\_mg.grant\_program\_manager or sn\_svc\_appl\_pgm\_mg.grant\_program\_director
 
 ## Procedure
 

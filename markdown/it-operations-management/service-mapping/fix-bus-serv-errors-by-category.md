@@ -92,7 +92,7 @@ There may be discovery errors not assigned to any category:
 
     -   **Create a ServiceNow task**
 
-        Opens the ServiceNow Error task form in a pop-up window so you can create and assign a task for the selected errors. Sets the **Error Status** field in the error record as **Assigned**. For information on creating error tasks, see [Create a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_CreateATable.md) and [Create a task from an incident, problem, or change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/t_CreateTaskIntPrblmChange.md).
+        Opens the ServiceNow Error task form in a pop-up window so you can create and assign a task for the selected errors. Sets the **Error Status** field in the error record as **Assigned**. For information on creating error tasks, see [Create a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_CreateATable.md) and Create a task from an incident, problem, or change request.
 
         **Note:** The **Mark as assigned** action also sets the **Error Status** field in the error record as **Assigned**.
 

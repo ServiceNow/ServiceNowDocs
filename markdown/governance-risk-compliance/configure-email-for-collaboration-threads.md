@@ -25,17 +25,17 @@ Sending and receiving email from a collaboration thread requires at least one ac
 
 ## Procedure
 
-1.  In the filter navigator, search for and select **Email Accounts** under **System Mailboxes** and **Administration**.
+1.  Navigate to **System Mailboxes** &gt; **Administration** &gt; **Email Accounts**.
 
     \[Omitted image "cm-collab-email-config-email-accounts-option.png"\] Alt text: Filter navigator search for the Email Accounts module.
 
-2.  Verify that at least one active SMTP account is available for sending email and at least one active POP3 or IMAP account is available for receiving email.
+2.  Confirm that at least one active SMTP account is available for sending email and at least one active POP3 or IMAP account is available for receiving email.
 
     The example shows the default **ServiceNow SMTP** and **ServiceNow POP3** accounts with the **Active** column set to true.
 
     \[Omitted image "cm-collab-email-config-two-email-accounts.png"\] Alt text: Email Accounts list with name, active status, type, server, and port columns.
 
-3.  In the filter navigator, search for and select **Email Properties** under **System Properties**.
+3.  Navigate to **System Properties** &gt; **Email Properties**.
 
     For more information on the Email Properties configurations in the ServiceNow AI Platform, see [Email properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/c_EmailProperties.md).
 
@@ -49,11 +49,11 @@ Sending and receiving email from a collaboration thread requires at least one ac
 
 6.  Select **Save**.
 
-    Crisis managers can now send and receive email from collaboration threads on crisis events.
+    Crisis managers can send and receive email from collaboration threads on crisis events.
 
-7.  Verify that both email properties remain enabled.
+7.  Confirm that both email properties remain enabled.
 
-    **Note:** By default, sending and receiving email is disabled on a new instance. If **Email sending enabled** is set to **No**, emails composed from collaboration threads stay in **Send Ready** status and never move to **Sent**. If either property is disabled, the compose and reply or forward email options are hidden from the collaboration thread UI rather than shown as unavailable.
+    **Note:** By default, sending and receiving email is turned off on a new instance. If **Email sending enabled** is set to **No**, emails composed from collaboration threads stay in **Send Ready** status and never move to **Sent**. If either property is inactive, the compose and reply or forward email options are hidden from the collaboration thread UI rather than shown as unavailable.
 
 
 **Parent Topic:**[Setup by system administrators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/set-up-bcm-sys-admin-tasks.md)

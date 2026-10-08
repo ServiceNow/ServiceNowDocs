@@ -72,10 +72,6 @@ After you have tested your app, set it up, and customize its workflows, you are 
 
     To publish your private branded Android app from the Google Play Console, see [Google documentation](https://support.google.com/a/answer/2494992?hl=en).
 
--   **BlackBerry Portal:**
-
-    To publish your private branded Android app to the BlackBerry Portal if you are using BlackBerry mobile application management \(MAM\), see [KB0813295](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0813295).
-
 -   **Microsoft Intune:**
 
     To sync your private branded Android app from Google to Microsoft Intune, see [Microsoft documentation](https://learn.microsoft.com/en-us/mem/intune/apps/apps-add-android-for-work).

@@ -9,7 +9,7 @@ classification: now-assist-for-it-service-management-itsm
 topic_type: reference
 last_updated: "2026-03-04"
 reading_time_minutes: 14
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configure, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 

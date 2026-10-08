@@ -49,7 +49,7 @@ You can connect to a live agent by selecting **Accounts payable team**.
 
 ## Additional Information
 
-The AI skills in Virtual Agent provides your users with an interactive generative AI experience. A friendly, natural language conversation is easier to understand and makes fulfillers more comfortable with talking to a bot. To learn how a conversation that is powered by generative AI might look in Virtual Agent, see [Using ServiceNow® Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/using-now-assist-in-va.md).
+The AI skills in Virtual Agent provides your users with an interactive generative AI experience. A friendly, natural language conversation is easier to understand and makes fulfillers more comfortable with talking to a bot. To learn how a conversation that is powered by generative AI might look in Virtual Agent, see .
 
 As an administrator, you can use the Now Assist in Virtual Agent Analytics dashboard to monitor the performance of generative AI skills in Virtual Agent as a self-service deflection tool. The generative AI skills in Virtual Agent Analytics calculates the conversation deflection rate based on the resolution status associated with Now Assist query responses.
 

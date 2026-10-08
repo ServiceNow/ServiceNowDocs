@@ -19,7 +19,7 @@ Configure MID-less Agent Client Collector to enable sending information through 
 -   **[Configure MID-less Agent Client Collector using a single-line command](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/configure-acc-midless.md)**  
 Use a single-line command to set up a MID-less Agent Client Collector. You can also use the single-line command to migrate agents configured with a MID Server to have a MID-less configuration.
 -   **[Installing MID-less Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-itom-cloud-services.md)**  
-Installing MID-less Agent Client Collector enables you to send data from the agent to the instance through the cloud. Sending information through the cloud allows the MID Server to be used for more persistent resources.
+Installing MID-less Agent Client Collector \(ACC\) enables you to send data from the agent to the instance through the cloud. Sending information through the cloud allows the MID Server to be used for more persistent resources.
 
 **Parent Topic:**[Agent Client Collector deployment - endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-endpoint-deployment.md)
 

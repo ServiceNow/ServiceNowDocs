@@ -1,6 +1,6 @@
 ---
-title: Configuring the classic Software Asset Management Foundation plugin
-description: Configure Software Asset Management Foundation plugin if you prefer to continue using the classic version.
+title: Configuring the classic Basic Software Asset Management
+description: Configure Basic Software Asset Management if you prefer to continue using the classic version.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/software-asset-management-foundation-plugin/samf-plugin-configuration.html
 release: zurich
@@ -9,12 +9,12 @@ classification: software-asset-management-foundation-plugin
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Software Asset Management Foundation plugin, ITSM Software Asset Management, Asset Management, IT Service Management]
+breadcrumb: [Basic Software Asset Management, ITSM Software Asset Management, Asset Management, IT Service Management]
 ---
 
-# Configuring the classic Software Asset Management Foundation plugin
+# Configuring the classic Basic Software Asset Management
 
-Configure Software Asset Management Foundation plugin if you prefer to continue using the classic version.
+Configure Basic Software Asset Management if you prefer to continue using the classic version.
 
 -   **[Create a SAM Foundation entitlement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/software-asset-management-foundation-plugin/t_AddASoftwareEntitlementSAMF.md)**  
 Software entitlements enable you to define license details that are matched to software models.
@@ -25,5 +25,5 @@ You can edit a software discovery model to manually normalize discovered softwar
 -   **[Manually override SAM Foundation edition value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/software-asset-management-foundation-plugin/t_ManOverrideEditionSAMF.md)**  
 When the edition of a software install is not automatically discovered, you can specify the edition on the Software Installation form with the correct value \(if known\) so the software can be successfully reconciled.
 
-**Parent Topic:**[Software Asset Management Foundation plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/software-asset-management-foundation-plugin/c_SoftwareAssetMgmtSAMF.md)
+**Parent Topic:**[Basic Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/software-asset-management-foundation-plugin/c_SoftwareAssetMgmtSAMF.md)
 

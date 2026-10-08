@@ -22,7 +22,7 @@ Configure prompts and skills for AI Data Kit.
 
     Create a skill in AI Skill Kit.
 
-2.  [Configure skill deployment settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skill-kit/configure-skill-settings.md)
+2.  [Configure deployment and skill settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skill-kit/configure-skill-settings.md)
 
     Configure the deployment settings for the skill that you create. The deployment settings enable you to choose where the admin can find the skill in AI Admin Hub.
 

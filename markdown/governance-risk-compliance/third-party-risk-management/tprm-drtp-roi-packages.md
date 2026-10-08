@@ -7,8 +7,8 @@ release: zurich
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 keywords: [RoI, CSV report, DORA, TPRM]
 breadcrumb: [Register of information regulatory packages, Use digital resilience third-party registers, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -20,6 +20,12 @@ Use the CSV report option in the download page to generate regulator-ready Regis
 ## Before you begin
 
 Role required: sn\_vdr\_risk\_asmt.vendor\_assessor
+
+## About this task
+
+Generate a Register of Information \(RoI\) package to create DORA reporting files from your digital resilience third-party register data. You can generate an Excel master template for data preparation and review or a CSV reporting package for regulator submission. When processing is complete, the generated files are attached to the download request record.
+
+**Note:** A separate scheduled job, DORA: Quarterly CSV download, can automate this generation instead of you triggering the export manually each quarter. For details, see [Register of information regulatory packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-dora-roi.md).
 
 ## Procedure
 
@@ -39,6 +45,21 @@ Role required: sn\_vdr\_risk\_asmt.vendor\_assessor
 
     When a Register of Information \(RoI\) package is uploaded using the Plain-CSV Report Package option, the system automatically generates a ZIP file containing metadata and report folders with CSV files formatted to meet DORA specifications. Real-time validation is performed during the upload process. If any errors or warnings are detected, a validation report is generated and attached to the request record alongside the CSV package. This report includes mappings to regulator fields \(such as Template Code, Row Code, and Column Code\), rule expressions, field labels, and record identifiers to help you locate and resolve issues. An email notification is sent to whoever initiated the request once the download is complete. If no issues are found, only the CSV package is attached. You can access the report from the attachment area of the request record and cross-reference it with the downloadable Excel master template, which mirrors the CSV structure and assists with error resolution.
 
-    For more information on validation, see [Validate Register of Information packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-valid-dora.md).
+    For more information on validation, see [Validate Register of Information packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-valid-dora.md). For information on reviewing LEI validation results in the package, see [Validate Legal Entity Identifier codes for DORA reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-valid-lei.md).
 
+    **Note:** If duplicate rows are detected in the Contractual Arrangements – Specific Information \(B.02.02\) or ICT service supply chains \(B.05.02\) tables, a warning is added to the request record. Duplicates are warned but not removed from the generated CSV. Review the warning and correct the source data before resubmitting.
+
+
+**Related topics**  
+
+
+[Validate Register of Information packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-valid-dora.md)
+
+[Validate Legal Entity Identifier codes for DORA reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-valid-lei.md)
+
+[Create a contract and enhance digital resilience data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-drtp-reg-contract.md)
+
+[Create New Excel download/upload request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-excel-upload-download-req.md)
+
+[Register of information regulatory packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-dora-roi.md)
 

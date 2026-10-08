@@ -7,8 +7,9 @@ release: zurich
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+keywords: [DORA, supply chain, ICT services, digital resilience, LEI, Register of Information]
 breadcrumb: [Use digital resilience third-party registers, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
 
@@ -19,6 +20,12 @@ Create an Information and Communication Technology \(ICT\) service supply chain 
 ## Before you begin
 
 Role required: sn\_vdr\_risk\_asmt.vendor\_assessor
+
+## About this task
+
+Rank 1 ICT service supply chain records are generated automatically when you save a Contractual Arrangements – Specific Information record. The Type of ICT services value on the Specific Information record determines which supply chain records are created. If you update that value, the Rank 1 supply chain records update automatically. If you remove a value, the corresponding Rank 1 and higher supply chain records are deleted automatically. Use this task to create Rank 2 and higher supply chain records manually, or to view and edit existing supply chain records. For more information, see [Create a contract and enhance digital resilience data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-drtp-reg-contract.md).
+
+LEI codes on supply chain records are validated against the GLEIF database during Register of Information reporting. For more information, see [Validate Legal Entity Identifier codes for DORA reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-valid-lei.md). To generate a Register of Information package, see [Generate a register of information package](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-drtp-roi-packages.md).
 
 ## Procedure
 
@@ -62,4 +69,13 @@ Role required: sn\_vdr\_risk\_asmt.vendor\_assessor
 
         -   **Download**
         -   **Email**
+
+**Related topics**  
+
+
+[Create a contract and enhance digital resilience data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-drtp-reg-contract.md)
+
+[Generate a register of information package](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-drtp-roi-packages.md)
+
+[Validate Legal Entity Identifier codes for DORA reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-valid-lei.md)
 

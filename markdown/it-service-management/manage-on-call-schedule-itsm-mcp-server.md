@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/manage-on-call-schedule-itsm-mcp-server.html
 release: zurich
 topic_type: task
-last_updated: "2026-07-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [ITSM MCP Server, on-call schedule, on-call rotation, who is on call, on-call shift, time off request, on-call coverage, rota, roster, natural language prompts, AI workflow]
 breadcrumb: [Activate the ITSM MCP Server, ITSM MCP Server, IT Service Management]
@@ -27,7 +27,7 @@ For detailed information on each tool, supported operations, and operation-speci
 
 ## Procedure
 
-1.  Open your MCP client application such as Moveworks or Claude, that is connected to your ServiceNow instance using the ITSM MCP Server.
+1.  Open your MCP client application like Moveworks or Claude, that is connected to your ServiceNow instance using the ITSM MCP Server.
 
     Your system administrator configures this integration during setup.
 
@@ -62,5 +62,5 @@ For detailed information on each tool, supported operations, and operation-speci
 
 ## What to do next
 
-After using the ITSM MCP Server to request time off, verify that request and coverage assignments in your ServiceNow instance.
+After using the ITSM MCP Server to request time off, verify the request and coverage assignments in your ServiceNow instance.
 

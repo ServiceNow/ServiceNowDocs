@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/mon-ai-asset-monitor.html
 release: zurich
 topic_type: concept
-last_updated: "2026-04-10"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Working with AI asset records, Discover and manage AI assets, AI Control Tower, Enable AI experiences]
 ---
 
@@ -105,11 +105,15 @@ Two line styles distinguish how each metric contributes to scoring:
 
 To add a dotted-line metric to your scoring formula or to adjust how much existing metrics contribute to your overall scores, see [Configure an evaluation metric template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/mon-ai-configure-metric-templates.md).
 
-Choose which metrics to display by selecting an option from the list:
+Choose which metrics to display by selecting an option from the list.
 
--   **__All metric categories__**
+-   **__Lowest performing metrics__**
 
-    Show every quality and safety metric that has data for this AI system. This is the default selection.
+    Show the top five metrics that had the biggest drop in performance over the selected time period. This is the default selection.
+
+-   **Top performing metrics**
+
+    Show the top five metrics that had the biggest increase in performance over the selected time period.
 
 -   **__Quality metrics__**
 
@@ -119,6 +123,12 @@ Choose which metrics to display by selecting an option from the list:
 
     Show only metrics in the Safety category.
 
+-   **__All metrics__**
+
+    Show every quality and safety metric that has data for the selected date range.
+
+
+Alternatively, select an individual metric from the list to view performance for that metric over time.
 
 Point to a data point on the chart to see the exact score for that date.
 

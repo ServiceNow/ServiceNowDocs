@@ -22,7 +22,7 @@ The ServiceNow® Studio application provides a unified experience for all Servic
 -   As of version 28.2.1, for file types that open in a builder, decide whether you want to edit the file in the builder or in the classic UI16 view.
 -   As of version 28.2.1, access your favorite lists in ServiceNow Studio by bookmarking them.
 
-See  for more information.
+See [ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/servicenow-studio-landing.md) for more information.
 
 ## Activation and other requirements
 
@@ -43,38 +43,38 @@ The ServiceNow® Studio application provides a unified experience for all Servic
 
 ### What's new
 
--   ****
+-   **[Create an application in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/create-an-application-in-servicenow-studio.md)**
 
     As of version 28.2.1, you can use Now Assist or Creator Studio to begin creating your applications. You can also view the App Gallery for more inspiration.
 
--   ****
+-   **[Elevate your role in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/elevate-your-role-in-servicenow-studio.md)**
 
     As of version 28.2.1, you can elevate your role to security\_admin without having to leave ServiceNow Studio. Users with the security\_admin role can make changes to other roles and to access control lists \(ACLs\).
 
--   ****
+-   **[ServiceNow Studio personas and roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/sn-studio-personas-roles.md)**
 
     As of version 28.2.1, several new granular admin roles enable developers to complete administrative configuration tasks without requiring the full admin role in ServiceNow Studio.
 
--   ****
+-   **[Opening files in your preferred editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/opening-files-in-your-preferred-editor.md)**
 
     As of version 28.2.1, for file types that open in a builder, decide whether you want to edit the file in the builder or in the classic UI16 view.
 
--   ****
+-   **[Bookmark lists in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/bookmark-lists-in-sns.md)**
 
     As of version 28.2.1, access your favorite lists by bookmarking them.
 
--   **AppSee support in ServiceNow Studio**
+-   **[AppSee support in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/exploring-servicenow-studio.md)**
 
     As of version 28.2.1, AppSee is supported in ServiceNow Studio.
 
--   ****
+-   **[Create an app file in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/sn-studio-create-app-file.md)**
 
     As of version 28.2.1, you can create files directly from an app open in the Navigator panel.
 
 
 ### What's changed
 
--   ****
+-   **[App details page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/app-details-page.md)**
 
     As of version 28.2.1, access to source control integration and collaboration functions on each App details page has moved into the More actions menu. Some icon placement depends on the configuration for each application.
 
@@ -85,30 +85,30 @@ The ServiceNow® Studio application provides a unified experience for all Servic
 
 ### What's new
 
--   **Add AI files to your apps in ServiceNow Studio**
+-   **[Add AI files to your apps in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/servicenow-studio-file-navigator-taxonomy.md)**
 
     You can add agentic workflows, AI Agents, and skills to your apps in ServiceNow Studio.
 
--   ****
+-   **[Link an app to source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/link-app-to-source-control.md)**
 
     Use source control operations on the App details page to link an application to a Git repository.
 
--   ****
+-   **[App details page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/app-details-page.md)**
 
     View and manage app files and metadata on the enhanced App details page. You can also link your app to source control from the App details page and create new files for your application.
 
--   ****
+-   **[Focus the Navigator panel on an app or app file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/qs-focus-navigator-panel-on-app-app-file.md)**
 
     Improve efficiency as you work in ServiceNow Studio by focusing the Navigator panel on any file or application open in an integrated tab.
 
--   **Personalize your UI with dark theme**
+-   **[Personalize your UI with dark theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/servicenow-studio-user-interface.md)**
 
     Dark theme is now supported in ServiceNow Studio. Access user preferences to switch between dark and light mode on your instance.
 
 
 ### What's changed
 
--   **Open in Creator Studio link**
+-   **[Open in Creator Studio link](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/viewing-app-origination-information-in-sns.md)**
 
     The link to open an app in Creator Studio was previously available on the App details page in the app metadata section. The link is now in the More actions menu.
 

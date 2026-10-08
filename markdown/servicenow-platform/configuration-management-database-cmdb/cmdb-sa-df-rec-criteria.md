@@ -7,7 +7,7 @@ release: zurich
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-05-24"
+last_updated: "2026-09-28"
 reading_time_minutes: 1
 keywords: [principal class recommendation criteria property, sn\_cmdb\_advisor system property, predefined CI class recommendations, Data Foundations recommendation criteria, principal class recommendations]
 breadcrumb: [CI class recommendations, Use Data Foundations advisor, CMDB success advisor, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
@@ -67,7 +67,7 @@ Value
 
 `PREDEFINED`
 
- Tells CMDB success advisor to recommend a standard set of commonly managed CI classes: Computer \[cmdb\_ci\_computer\], Server \[cmdb\_ci\_server\], Database \[cmdb\_ci\_database\], Cloud Database \[cmdb\_ci\_cloud\_database\], Virtual Machine Instance \[cmdb\_ci\_vm\_instance\], and IP Router \[cmdb\_ci\_ip\_router\].
+ Tells CMDB success advisor to recommend a standard set of commonly managed CI classes: Computer \[cmdb\_ci\_computer\], Server \[cmdb\_ci\_server\], Database \[cmdb\_ci\_database\], Cloud Database \[cmdb\_ci\_cloud\_database\], and Virtual Machine Instance \[cmdb\_ci\_vm\_instance\].
 
 </td></tr></tbody>
 </table>5.  Select **Submit**.

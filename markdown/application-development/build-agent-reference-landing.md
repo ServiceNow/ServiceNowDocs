@@ -7,7 +7,7 @@ release: zurich
 topic_type: concept
 last_updated: "2026-04-02"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Build Agent, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
 ---
 
@@ -21,6 +21,8 @@ Metadata and app file types that Build Agent can create and manage.
 Explore example prompts for building apps, as well as adding governance, UI and other ServiceNow metadata to help you get started with prompting Build Agent.
 -   **[Supported file types for Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ba-supported-file-types.md)**  
 Build Agent accepts images, documents, code files, and file types specific to ServiceNow as uploads. Supported formats, size limits, and general guidelines apply when generating apps and metadata.
+-   **[Domain separation and Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ba-domain-separation.md)**  
+Domain separation is supported for Build Agent. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 
 **Parent Topic:**[Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/build-agent.md)
 

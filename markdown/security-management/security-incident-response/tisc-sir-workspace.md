@@ -17,7 +17,7 @@ breadcrumb: [Working with Security Incident Records, Use, Security Incident Resp
 The following section includes information about the Threat Intelligence Security Center integration from within the SIR workspace context.
 
 -   **[Send data from SIR Workspace to TISC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/send-sir-to-tisc.md)**  
-Learn how the data is collaborated and shared between the Threat Intelligence Security Center \(TISC\) and Security Incident Response \(SIR\) Workspaces by following the procedures explained in the following sections.
+Learn how the data is collaborated and shared between the Threat Intelligence Security Center \(TISC\) and Security Incident Response \(SIR\) Workspaces.
 -   **[Working with TISC Context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/working-with-tisc-context.md)**  
 TISC context facilitates viewing threat intelligence data such as observables within the security incident response workspace.
 -   **[Enable security incidents for vulnerabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/tisc-view-security-context.md)**  

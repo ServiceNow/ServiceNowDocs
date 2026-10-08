@@ -7,8 +7,8 @@ release: zurich
 product: MID Server
 classification: mid-server
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 5
+last_updated: "2026-10-01"
+reading_time_minutes: 6
 breadcrumb: [Resolving MID Server issues, MID Server reference, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -16,11 +16,11 @@ breadcrumb: [Resolving MID Server issues, MID Server reference, MID Server, Mana
 
 Debugging output from the system log is available in either a summary or detailed view for MID Server user issues, but must be enabled manually.
 
-To enable debugging and display all connectivity issues in either of the available formats, you must run a method manually on your instance. For instructions on enabling debugging, see [Test remediation efforts for MID Server user connectivity issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/mid-server/mid-server-connectivity-issues.md). For information about each error condition and how records are created in the MID Server Issue \[ecc\_agent\_issue\] table, see [MID Server user connectivity issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/mid-server/mid-server-connectivity-issues.md).
+To enable debugging and display all connectivity issues in either of the available formats, you must run a method manually on your instance. For instructions on enabling debugging, see [Test remediation efforts for MID Server user connectivity issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/mid-server/mid-server-connectivity-issues.md). For information about each error condition and how records are created in the MID Server Issue \[ecc\_agent\_issue\] table, see [MID Server user connectivity issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/mid-server/mid-server-connectivity-issues.md). For information about debug parameters and setting debug logging, see [MID Server parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/mid-server/mid-server-parameters.md).
 
 ## Available formats
 
-You can configure the instance to generate a simple summary of the issue or a detailed output that identifies users and MID Servers. Summaries provide a quick look at the issue conditions, by count, while the detailed view allows you to examine roles, MID Server associations, and login activity by named users.
+You can configure the instance to generate a simple summary of the issue or a detailed output that identifies users and MID Servers. Summaries provide a quick look at the issue conditions, by count. The detailed view allows you to examine roles, MID Server associations, and login activity by named users.
 
 In this summary example of an authorization issue, the instance evaluates each condition and indicates how many users met that condition. You can see that a MID Server is down and that one of two users configured for a MID Server failed authorization. Because this is a summary, neither the MID Server nor the users are named.
 

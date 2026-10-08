@@ -166,7 +166,7 @@ Create saved problemcom.snc.problem.create\_from\_interaction.save
 
 </td><td>
 
--   Type: Boolean
+-   Type: true or false
 -   Default value:
     -   Upgrade customers: No
     -   New customers: Yes

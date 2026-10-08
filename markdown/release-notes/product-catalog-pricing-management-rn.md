@@ -86,7 +86,7 @@ The ServiceNow® Sales Customer Relationship Management applications include the
     The Create Product Offering form, used when creating product offerings, has two new options. The **Configurable** option indicates that the product offering is configurable and that it can be customized by agents and customers using the CPQ Configurator. The **Enable ramps** option indicates that price ramps can be defined for a configurable product.
 
 
--   ****
+-   **[CSM Pricing API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/csm-pricing-api.md)**
 
     Use the Pricing REST API to enable integration of Pricing Management features with external applications. The CPQ Configurator is integrated with the Pricing REST API, to display pricing information for configurable products.
 

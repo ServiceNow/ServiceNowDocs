@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-regulatorychangemanagement-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
-reading_time_minutes: 9
+last_updated: "2026-10-08"
+reading_time_minutes: 11
 breadcrumb: [Products combined by family]
 ---
 
@@ -98,7 +98,8 @@ Zurich
 
 You can review the ServiceNow Otto for Integrated Risk Management \(IRM\) release notes for full descriptions of the Now Assist in Regulatory Change Management \(RCM\) features.
 
--   **[Add multiple regulatory tasks](https://www.servicenow.com/docs/access?context=regulatory-change-tasks&family=zurich&ft:locale=en-US)**
+
+ -   **[Add multiple regulatory tasks](https://www.servicenow.com/docs/access?context=regulatory-change-tasks&family=zurich&ft:locale=en-US)**
 
 Add multiple regulatory tasks to an alert. Each task can represent a distinct area of impact or required action. By organizing work into separate change tasks, your teams can assign responsibilities, track progress, and manage dependencies more effectively.
 
@@ -142,7 +143,27 @@ Yokohama
 
 </td><td>
 
--   **[Overview page of regulatory alerts](https://www.servicenow.com/docs/access?context=list-view-of-reg-alerts&family=yokohama&ft:locale=en-US)**
+-   **[Some Now Assist skills are turned on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&family=yokohama&ft:locale=en-US)**
+
+The new default behavior works as follows:
+
+    -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
+    -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
+-   **[Changes to Now Assist usage measurement](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=yokohama&ft:locale=en-US)**
+
+Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
+
+
+ -   **[Changes on the action task form](https://www.servicenow.com/docs/access?context=create-action-task-using-ws&family=yokohama&ft:locale=en-US)**
+
+The Category: Compliance section and the Category: Risk section on an action task form have been removed. They're replaced by the **Impacted area table** field and the **Impacted area** field.
+
+-   **[Assess impact](https://www.servicenow.com/docs/access?context=assess-impact-of-reg-change-using-ws&family=yokohama&ft:locale=en-US)**
+
+The **Initiate Impact Assessment** button is now called the **Assess impact** button.
+
+
+ -   **[Overview page of regulatory alerts](https://www.servicenow.com/docs/access?context=list-view-of-reg-alerts&family=yokohama&ft:locale=en-US)**
 
 The Overview page for regulatory alerts includes a drop-down menu that enables you to track the progress of a regulatory assessment. Additionally, you can view the counts of completed, open, and overdue regulatory assessments.
 
@@ -153,17 +174,6 @@ On the Regulatory Change Management home page, within the Tracking section, a ne
 -   **[Regulatory assessments in the Tasks pane](https://www.servicenow.com/docs/access?context=regulatory-assessment-in-rcm&family=yokohama&ft:locale=en-US)**
 
 The Tasks pane in the Compliance Workspace now displays all the Regulatory assessments.
-
-
--   **[Some Now Assist skills are turned on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&family=yokohama&ft:locale=en-US)**
-
-The new default behavior works as follows:
-
-    -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
-    -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
--   **[Changes to Now Assist usage measurement](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=yokohama&ft:locale=en-US)**
-
-
 
 
 </td></tr><tr><td>
@@ -186,7 +196,17 @@ Starting with version 21.1.x, the following Regulatory Change Management plugins
     -   GRC Case Management Core \[com.sn\_grc\_case\_mgmt\]
     -   GRC integration with Thomson Reuters Regulatory Intelligence \[com.sn\_grc\_int\_tr\]
     -   Regulatory Agency Library \[com.sn\_reg\_body\_mgmt\]
--   **[Tasks widget](https://www.servicenow.com/docs/access?context=list-view-of-reg-alerts&family=zurich&ft:locale=en-US)**
+
+ -   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+-   **[Default column list](https://www.servicenow.com/docs/access?context=action-tasks&family=zurich&ft:locale=en-US)**
+
+Starting with the Zurich release, the default column configuration for regulatory tasks and action tasks, linked to a regulatory alert, has been updated. This change enhances usability and ensures better visibility of the key information that is relevant to each task type.
+
+
+ -   **[Tasks widget](https://www.servicenow.com/docs/access?context=list-view-of-reg-alerts&family=zurich&ft:locale=en-US)**
 
 The overview page of a regulatory alert includes a newly added Tasks widget that enables you to get more visibility into related activities. This widget displays the total number of associated action tasks and change tasks that are linked to the specific regulatory alert. By using this widget, you can assess the level of effort that is required for compliance.
 
@@ -239,9 +259,7 @@ Yokohama
 
 </td><td>
 
--   Related documents related list will be hidden for both the workspace and classic view for a regulatory alert.
--   The entity class configuration has been removed and is no longer necessary for conducting an assessment. You can select the entities now when you send the risk assessment.
--   Starting with the Yokohama release, all open assessments for a regulatory alert, whether they’re risk assessments or regulatory assessments, aren’t marked as canceled and remain open even after an alert is marked as applicable.
+No updates for this release.
 
 </td></tr><tr><td>
 
@@ -270,7 +288,9 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+-   Related documents related list will be hidden for both the workspace and classic view for a regulatory alert.
+-   The entity class configuration has been removed and is no longer necessary for conducting an assessment. You can select the entities now when you send the risk assessment.
+-   Starting with the Yokohama release, all open assessments for a regulatory alert, whether they’re risk assessments or regulatory assessments, aren’t marked as canceled and remain open even after an alert is marked as applicable.
 
 </td></tr><tr><td>
 
@@ -299,7 +319,12 @@ Yokohama
 
 </td><td>
 
-Install Regulatory Change Management and ServiceNow Otto for IRM by requesting them from ServiceNow Store. 
+-   **Activation information**
+
+Install Regulatory Change Management and ServiceNow Otto for IRM by requesting them from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
+
+**Important:** Regulatory Change Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 
@@ -307,7 +332,12 @@ Zurich
 
 </td><td>
 
-Install Regulatory Change Management and ServiceNow Otto for IRM by requesting them from the ServiceNow Store. 
+-   **Activation information**
+
+Install Regulatory Change Management and ServiceNow Otto for IRM by requesting them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
+
+**Important:** Regulatory Change Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -394,7 +424,11 @@ Zurich
 
 </td><td>
 
--   ****
+-   **Accessibility information**
+    -   **Dark theme**
+
+The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
 
 </td></tr></tbody>
 </table>## Localization information

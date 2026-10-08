@@ -7,7 +7,7 @@ release: zurich
 topic_type: concept
 last_updated: "2026-08-25"
 reading_time_minutes: 2
-keywords: [Now Assist, AI Agents, generative AI, agentic AI, use]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, use]
 breadcrumb: [AI Control Tower, Enable AI experiences]
 ---
 
@@ -29,9 +29,11 @@ The **Inventory** page is designed to give you a complete picture of every AI as
 
 The asset record is where you investigate and act on a single asset. In the asset record, you can review the asset's governance posture, evaluation scores, lifecycle progress, and value contribution. You can initiate asset-level actions such as starting a lifecycle review, submitting a change request, or turning on evaluation. See [Working with AI asset records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/disc-managing-ai-assets.md).
 
-## Discovering unsanctioned AI use with Shadow AI
+## Connecting external AI through AI Gateway
 
-Connectors and manual entry only find AI systems your organization already knows to look for. Shadow AI detects AI use that never went through an official channel instead, such as an employee sending data to a public AI tool your organization hasn't sanctioned. It relies on multiple independent detection methods, including **Armis** and **Agent Client Collector** \(ACC\), to observe traffic and endpoint activity for signs of that use.
+AI Gateway manages MCP \(Model Context Protocol\) server connections, providing a governed pathway for external AI tools to interact with your ServiceNow environment. Where Service Graph Connectors focus on discovering what AI exists externally, AI Gateway focuses on governing how external AI tools connect to and operate within your platform.
 
-Because these detections represent AI systems your organization hasn't reviewed yet, Shadow AI keeps them in their own space rather than mixing them into the governed AI asset inventory. An AI steward reviews each detected service and decides how to respond, such as snoozing it for more time, blocking access, or confirming it's not actually an AI service. See [Detecting shadow AI in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/sh-ai-landing.md).
+When an MCP server is added through AI Agent Studio, AI Gateway tracks the connection, monitors transaction volumes and success rates, and enforces approval workflows if MCP server approval controls are active. AI stewards can review MCP server records, pause and resume transactions, and manage global MCP clients from the AI Gateway settings page.
+
+AI Gateway provides a comprehensive view of all connected MCP servers, showing name, total transactions, and success rate. Total transactions represent all tool calls \(MCP method equal to "tools/call"\), and the success rate reflects the proportion of those calls returning a successful HTTP status.
 

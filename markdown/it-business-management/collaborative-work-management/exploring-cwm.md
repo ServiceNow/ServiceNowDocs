@@ -248,7 +248,7 @@ Reference live ServiceNow AI Platform records such as Incidents, Risks, or Issue
 
 </td><td>
 
-[Enable ServiceNow AI Platform records in CWM Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/enable-now-platform-servicenow-records-cwm-docs.md)
+[Collaborative documentation using CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/collaborative-work-management/cwm-docs.md)
 
 </td><td>
 
@@ -279,7 +279,7 @@ Share Doc content with stakeholders who don't have access to CWM by exporting pa
 Knowledge worker
 
 </td></tr></tbody>
-</table>**Note:** Depending on your license, you have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+</table>**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 ## What to explore next
 

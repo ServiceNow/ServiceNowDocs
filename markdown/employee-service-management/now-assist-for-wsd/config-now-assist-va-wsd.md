@@ -20,7 +20,7 @@ Enable your employees to submit a reservation request using a conversational exp
 
 Workplace users can use the ServiceNow Otto for Virtual Agent by configuring the ServiceNow Otto for WSD. ServiceNow Otto for Workplace Service Delivery \(WSD\) can be configured to reserve workplace items, invite visitors, and add extra services. The ServiceNow Otto for Virtual Agent in application provides conversational experiences for Workplace Service Delivery flows.
 
-For more information, see .
+For more information, see [ServiceNow Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/now-assist-in-va-landing.md).
 
 ## Before you begin
 
@@ -55,7 +55,7 @@ Role required: admin
 
 3.  Publish the **Reserve Space** topic.
 
-    For more information about publishing a topic, see .
+    For more information about publishing a topic, see [Publish a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/publish-virtual-agent-topic.md).
 
     The Reserve Space topic is published and can be used from the ServiceNow Otto for Virtual Agent.
 

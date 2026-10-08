@@ -1,6 +1,6 @@
 ---
 title: Add Document Intelligence
-description: Add Document Intelligence as a tool in AI Skill Kit to extract structured data from documents as part of your skill's execution flow
+description: Add Document Intelligence as a tool in AI Skill Kit to extract structured data from documents as part of your skill's execution flow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/now-assist-skill-kit/add-document-intelligence.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [Add a tool, Create a prompt, Using AI Skill Kit, AI Skill Kit, Enab
 
 # Add Document Intelligence
 
-Add Document Intelligence as a tool in AI Skill Kit to extract structured data from documents as part of your skill's execution flow
+Add Document Intelligence as a tool in AI Skill Kit to extract structured data from documents as part of your skill's execution flow.
 
 ## Before you begin
 
@@ -24,11 +24,11 @@ Role required: sn\_skill\_builder.admin
 
 1.  Navigate to **All** &gt; **AI Skill Kit** &gt; **Home**.
 
-2.  Create a skill or select the skill that you want to add document intelligence to.
+2.  Create a skill or select the skill that you want to add Document Intelligence to.
 
 3.  Select the **2. Add tools** tab.
 
-4.  Select \(+\) icon to add a node.
+4.  Select the \(+\) icon to add a node.
 
 5.  Select **Tool node**.
 
@@ -60,15 +60,15 @@ Action
 
 </td><td>
 
--   Ask a Question
+-   **Ask a Question**
 
 Ask a question about the file content.
 
--   Extract information
+-   **Extract information**
 
 Pull structured data and insights from file content.
 
--   Summarize files
+-   **Summarize files**
 
 Generate a summary of the file contents.
 

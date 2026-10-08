@@ -1,18 +1,20 @@
 ---
 title: CAB meeting attendance using the CAB workbench
-description: 
+description: As an itil user, attend a Change Advisory Board \(CAB\) meeting from the CAB workbench. Follow the current agenda item, view the change schedule, and if you are an approver, approve or reject a change request.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/change-management/attend-cab-meeting-using-cab-workbench.html
 release: zurich
 product: Change Management
 classification: change-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Working with the CAB Workbench, Use, Change Management, IT Service Management]
 ---
 
 # CAB meeting attendance using the CAB workbench
+
+As an itil user, attend a Change Advisory Board \(CAB\) meeting from the CAB workbench. Follow the current agenda item, view the change schedule, and if you are an approver, approve or reject a change request.
 
 View the details of a CAB meeting and its agenda by navigating to **Change** &gt; **Change Advisory Board** &gt; **CAB Workbench**. From the calendar, you can view the CAB meeting schedule for a day, week, or month. To view details of a meeting, select the meeting and then select **Open** in the pop-up window.
 

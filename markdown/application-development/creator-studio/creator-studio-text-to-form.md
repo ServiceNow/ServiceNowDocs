@@ -32,7 +32,7 @@ The benefits of using Now Assist to generate forms in Creator Studio are below:
 -   If you provide more details about your form while writing the direction, Now Assist can generate the form specifically to meet your needs.
 -   You can also use the pre-available examples in the directions available to generate forms.
 
-## Now Assist language availability notice
+## ServiceNow Otto language availability notice
 
 **Important:**
 

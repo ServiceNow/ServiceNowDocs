@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-securityincidentresponse-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
-reading_time_minutes: 13
+last_updated: "2026-10-08"
+reading_time_minutes: 14
 breadcrumb: [Products combined by family]
 ---
 
@@ -71,7 +71,34 @@ Yokohama
 
 Identify factors contributing to delays in processing Security Incident Response \(SIR\) incidents that take a long time to close or resolve by scanning historical SIR records through Process Mining. Time-consuming factors can include multiple reassignments, prolonged hold times, and periods of inactivity.
 
--   **[CrowdStrike Next-Gen SIEM integration](https://www.servicenow.com/docs/access?context=crowdstrike-next-gen-integration-secops&family=yokohama&ft:locale=en-US)**
+-   **[Add indirectly linked VITs to CVEs](https://www.servicenow.com/docs/access?context=configure-mitre-att-ck-properties&family=yokohama&ft:locale=en-US)**
+
+Identify all the Third-Party Entities \(TPEs\) associated with a Common Vulnerabilities and Exposures \(CVE\) and then calculate and display the total number of vulnerable items \(VITs\) indirectly linked to those CVEs through the TPEs by setting the sn\_ti.include\_cve\_vit\_indirect\_relation property.
+
+-   **[Configure on-call schedules](https://www.servicenow.com/docs/access?context=on-call-schedule-sir&family=yokohama&ft:locale=en-US)**
+
+As an admin:
+
+    -   Create a shift and assign or remove members to/from the shift.
+    -   Create/edit on-call schedules for groups.
+    -   View any group’s on-call schedule, including those to which they belong.
+As an analyst:
+
+    -   Specify your availability and preferred contact methods.
+    -   View your on-call schedule and see other members of your shift.
+-   **[Enhancements to relationship graphs](https://www.servicenow.com/docs/access?context=sir-relationship-graph&family=yokohama&ft:locale=en-US)**
+
+As an admin:
+
+    -   Define default child nodes to populate in the relationship graph.
+    -   Configure relationship labels.
+As an analyst:
+
+    -   Add or remove child nodes at the parent node level.
+    -   Save the state of the relationship graph.
+    -   Retrieve updated data.
+
+ -   **[CrowdStrike Next-Gen SIEM integration](https://www.servicenow.com/docs/access?context=crowdstrike-next-gen-integration-secops&family=yokohama&ft:locale=en-US)**
 
 As a Profile Admin:
 
@@ -91,21 +118,6 @@ As a Profile Admin:
 
 A new Profile Admin role \(sn\_si.ingestion\_profile\_admin\) provides access to configure plugins, and create, edit, delete, and manage profiles for the Splunk, Splunk ES, and Azure Sentinel Integration for Security Operations application.
 
--   **[Add indirectly linked VITs to CVEs](https://www.servicenow.com/docs/access?context=configure-mitre-att-ck-properties&family=yokohama&ft:locale=en-US)**
-
-Identify all the Third-Party Entities \(TPEs\) associated with a Common Vulnerabilities and Exposures \(CVE\) and then calculate and display the total number of vulnerable items \(VITs\) indirectly linked to those CVEs through the TPEs by setting the sn\_ti.include\_cve\_vit\_indirect\_relation property.
-
--   **[Configure on-call schedules](https://www.servicenow.com/docs/access?context=on-call-schedule-sir&family=yokohama&ft:locale=en-US)**
-
-As an admin:
-
-    -   Create a shift and assign or remove members to/from the shift.
-    -   Create/edit on-call schedules for groups.
-    -   View any group’s on-call schedule, including those to which they belong.
-As an analyst:
-
-    -   Specify your availability and preferred contact methods.
-    -   View your on-call schedule and see other members of your shift.
 -   **[Configure report templates in Security Incident Response](https://www.servicenow.com/docs/access?context=daily-status-sir&family=yokohama&ft:locale=en-US)**
 
 As an admin, create report templates that can be used to generate an incident summary or an executive summary for analysis and sharing.
@@ -116,17 +128,6 @@ As an analyst, use the templates to generate analyst summary or executive summar
 
 Initiate conference calls using communication channels such as Microsoft Teams, Cisco Webex, or Zoom with customers and peer agents to resolve security incidents over a call by using the SIR conference call feature.
 
--   **[Enhancements to relationship graphs](https://www.servicenow.com/docs/access?context=sir-relationship-graph&family=yokohama&ft:locale=en-US)**
-
-As an admin:
-
-    -   Define default child nodes to populate in the relationship graph.
-    -   Configure relationship labels.
-As an analyst:
-
-    -   Add or remove child nodes at the parent node level.
-    -   Save the state of the relationship graph.
-    -   Retrieve updated data.
 -   **[Proofpoint integration for Security Operations](https://www.servicenow.com/docs/access?context=proofpoint-integration-secops-landing&family=yokohama&ft:locale=en-US)**
 
 Proofpoint integration for Security Operations supports integration between SOAR \(Security Orchestration, Automation, and Response\) and Proofpoint Targeted Attack Protection \(TAP\) software. This integration provides the following benefits:
@@ -144,7 +145,25 @@ Zurich
 
 </td><td>
 
--   **[Security Incident Response Integration with Cortex XSIAM by Palo Alto Networks](https://www.servicenow.com/docs/access?context=cortex-xsiam-siem&family=zurich&ft:locale=en-US)**
+-   **[MITRE D3FEND framework](https://www.servicenow.com/docs/access?context=mitre-d3fend-framework&family=zurich&ft:locale=en-US)**
+
+Security administrators can now ingest MITRE D3FEND data. Security analysts can explore MITRE ATT&amp;CK and D3FEND techniques through an interactive, node-based visualization that maps attack techniques, defense techniques, and related artifacts within a Security Incident Response \(SIR\) record.
+
+
+ -   **[Close multiple security incidents](https://www.servicenow.com/docs/access?context=close-multiple-incidents-sir&family=zurich&ft:locale=en-US)**
+
+Close security incidents in bulk with predefined closure comments or codes to reduce the time that would be spent on manually closing individual incidents. Closure candidates might include multiple incidents with common root causes such as alert misconfiguration, duplicates, or changes in system behavior.
+
+-   **[Process Mining for security incidents](https://www.servicenow.com/docs/access?context=sir-process-mining&family=zurich&ft:locale=en-US)**
+
+Identify factors contributing to delays in processing SIR incidents that take a long time to close or resolve by scanning historical SIR records through Process Mining. Time-consuming factors can include multiple reassignments, prolonged hold times, and periods of inactivity. Use analysis methods to identify these factors such as multi-hop analysis or bottleneck analysis.
+
+-   **[Send Observables to TISC](https://www.servicenow.com/docs/access?context=tisc-context-in-sir-workspace&family=zurich&ft:locale=en-US)**
+
+Add metadata to the observables such as confidence score, Traffic Light Protocol value, notes and TISC tags before sending them to TISC.
+
+
+ -   **[Security Incident Response Integration with Cortex XSIAM by Palo Alto Networks](https://www.servicenow.com/docs/access?context=cortex-xsiam-siem&family=zurich&ft:locale=en-US)**
 
 As a profile admin:
 
@@ -167,10 +186,6 @@ With the ServiceNow platform's latest LLM powered integrations, you can create p
 -   **[Deny rule for phishing emails](https://www.servicenow.com/docs/access?context=urp-about&family=zurich&ft:locale=en-US)**
 
 The security admin can add rules to prevent the conversion of phishing emails such as false positives or low-risk messages into security incidents. Any new phishing email is verified first with the deny rules to avoid unwanted security incidents.
-
--   **[MITRE D3FEND framework](https://www.servicenow.com/docs/access?context=mitre-d3fend-framework&family=zurich&ft:locale=en-US)**
-
-Security administrators can now ingest MITRE D3FEND data. Security analysts can explore MITRE ATT&amp;CK and D3FEND techniques through an interactive, node-based visualization that maps attack techniques, defense techniques, and related artifacts within a Security Incident Response \(SIR\) record.
 
 -   **[Update information in security incident related records](https://www.servicenow.com/docs/access?context=edit-related-records-in-list&family=zurich&ft:locale=en-US)**
 
@@ -210,19 +225,7 @@ Security analysts can assign these categories and subcategories to security inci
 Include the **Functional Impact**, **Recoverability** and **Information Impact** fields on the Details tab of a security incident to improve triage accuracy, incident handling efficiency, and executive reporting for calculating the risk score.
 
 
--   **[Close multiple security incidents](https://www.servicenow.com/docs/access?context=close-multiple-incidents-sir&family=zurich&ft:locale=en-US)**
-
-Close security incidents in bulk with predefined closure comments or codes to reduce the time that would be spent on manually closing individual incidents. Closure candidates might include multiple incidents with common root causes such as alert misconfiguration, duplicates, or changes in system behavior.
-
--   **[Process Mining for security incidents](https://www.servicenow.com/docs/access?context=sir-process-mining&family=zurich&ft:locale=en-US)**
-
-Identify factors contributing to delays in processing SIR incidents that take a long time to close or resolve by scanning historical SIR records through Process Mining. Time-consuming factors can include multiple reassignments, prolonged hold times, and periods of inactivity. Use analysis methods to identify these factors such as multi-hop analysis or bottleneck analysis.
-
--   **[Send Observables to TISC](https://www.servicenow.com/docs/access?context=tisc-context-in-sir-workspace&family=zurich&ft:locale=en-US)**
-
-Add metadata to the observables such as confidence score, Traffic Light Protocol value, notes and TISC tags before sending them to TISC.
-
--   **[Add indirectly linked VITs to CVEs](https://www.servicenow.com/docs/access?context=configure-mitre-att-ck-properties&family=zurich&ft:locale=en-US)**
+ -   **[Add indirectly linked VITs to CVEs](https://www.servicenow.com/docs/access?context=configure-mitre-att-ck-properties&family=zurich&ft:locale=en-US)**
 
 In MITRE-ATT&amp;CK framework, identify all third-party entities \(TPEs\) associated with common vulnerabilities and exposures \(CVEs\) and then calculate and display the total number of vulnerable items \(VITs\) indirectly linked to those CVEs through the TPEs by setting the **sn\_ti.include\_cve\_vit\_indirect\_relation** system property.
 
@@ -296,7 +299,12 @@ Yokohama
 
 </td><td>
 
--   **[Security Operations](https://www.servicenow.com/docs/access?context=security-operations-landing-page&family=yokohama&ft:locale=en-US)**
+-   **[Start a Sidebar chat in Security Incident Response](https://www.servicenow.com/docs/access?context=initiate-chat-sidebar-sir&family=yokohama&ft:locale=en-US)**
+
+The **Discuss** option has been renamed **Start Chat** and moved under the **Collaborate** option.
+
+
+ -   **[Security Operations](https://www.servicenow.com/docs/access?context=security-operations-landing-page&family=yokohama&ft:locale=en-US)**
 
 <table><thead><tr><th>
 
@@ -375,7 +383,17 @@ Zurich
 
 </td><td>
 
--   **[Security Incident Response Other Records](https://www.servicenow.com/docs/access?context=security-incident-response-other-records&family=zurich&ft:locale=en-US)**
+-   **[Shift Handover Records](https://www.servicenow.com/docs/access?context=manage-shift-handover-records&family=zurich&ft:locale=en-US)**
+
+The **Start date** and **End date** fields have been removed. You can now select the shift name instead when configuring the Shift Handover record.
+
+
+ -   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+
+ -   **[Security Incident Response Other Records](https://www.servicenow.com/docs/access?context=security-incident-response-other-records&family=zurich&ft:locale=en-US)**
 
 Add  multiple ITSM incidents, problems, or change requests to a security incident for which multiple IT actions are needed. For more information, see the "Link multiple ITSM incidents" section.
 
@@ -461,7 +479,16 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Install Security Incident Response by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
+    -   **[Security Operations common functionality](https://www.servicenow.com/docs/access?context=sec-ops-common-functionality&family=yokohama&ft:locale=en-US)**
+
+The Security Support Common plugin is activated when any of the plugins for the main Security Operations applications \(Security Incident Response, Vulnerability Response, Threat Intelligence, or Configuration Compliance\) are activated.
+
+
+**Important:** Security Incident Response is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 
@@ -469,7 +496,16 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **Activation information**
+
+Install Security Incident Response by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
+    -   **[Security Operations common functionality](https://www.servicenow.com/docs/access?context=sec-ops-common-functionality&family=zurich&ft:locale=en-US)**
+
+The Security Support Common plugin is activated when any of the plugins for the main Security Operations applications \(Security Incident Response, Vulnerability Response, Threat Intelligence, or Configuration Compliance\) are activated.
+
+
+**Important:** Security Incident Response is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -556,7 +592,11 @@ Zurich
 
 </td><td>
 
--   ****
+-   **Accessibility information**
+    -   **Dark theme**
+
+The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
 
 </td></tr></tbody>
 </table>## Localization information

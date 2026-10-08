@@ -69,6 +69,7 @@ This diagram shows the following capabilities in AI Admin Center:
 -   Assess AI readiness
     -   View readiness assessments
     -   Take remediation steps
+    -   Plan upgrades
 -   Install and configure AI products
     -   Install plugins
     -   Activate skills
@@ -85,6 +86,7 @@ This diagram shows the following capabilities in AI Admin Center:
 -   Manage AI assets
     -   View asset library
     -   Create AI assets
+    -   Manage system properties
 -   Set up AI settings and guardrails
     -   Configure settings
     -   Manage models

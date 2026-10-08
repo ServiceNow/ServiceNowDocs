@@ -20,7 +20,7 @@ Role required: None. However, upgraded instances may require pa\_viewer.
 
 ## About this task
 
-You can select as many breakdowns as the indicator supports. With [breakdown matrix collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/create-breakdown-mapping.md) enabled on the indicator, you can select up to two levels of breakdown, and you can select multiple elements on the first breakdown. \(If the indicator is a formula indicator, breakdown matrix collection must be enabled on the contributing automated indicators.\) With [data snapshots](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/multi-level-breakdowns.md) enabled on the indicator, you can select any number of breakdowns and elements.
+You can select as many breakdowns as the indicator supports. With [breakdown matrix collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/configure-breakdown-matrix.md) enabled on the indicator, you can select up to two levels of breakdown, and you can select multiple elements on the first breakdown. \(If the indicator is a formula indicator, breakdown matrix collection must be enabled on the contributing automated indicators.\) With [data snapshots](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/multi-level-breakdowns.md) enabled on the indicator, you can select any number of breakdowns and elements.
 
 **Important:** Filter conditions do not persist between KPI Details page refreshes.
 

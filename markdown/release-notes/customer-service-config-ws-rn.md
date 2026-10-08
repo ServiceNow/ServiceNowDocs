@@ -52,15 +52,15 @@ The ServiceNow® Agent experience for CSM provides customer service agents with 
 
 ### What's new
 
--   **Task SLA cards component**
+-   **[Task SLA cards component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/csm-record-page-sla-card-component.md)**
 
     Use the Task SLA cards component as a standalone component on the Front-line case page. Visual updates to the Task SLA cards component enable agents to see where they are in the lifecycle of multiple task SLAs at a glance.
 
--   **Task activity timeline preset and controller**
+-   **[Task activity timeline preset and controller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/csm-record-page-timeline-component.md)**
 
     Use the Task activity timeline preset and controller to add the Timeline component as a standalone component on task record pages such as case or incident.
 
--   ****
+-   **[Notifications for agent mentions in records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/notifications-for-agent-mentions-in-records.md)**
 
     Receive workspace notifications when agents are mentioned using @ in comments or work notes. Notifications include record details and a direct link for quick access.
 
@@ -73,9 +73,9 @@ The ServiceNow® Agent experience for CSM provides customer service agents with 
 
     Updated the bell icon behavior so the notification count accurately reflects the number of unique, unread notifications in real time, eliminating duplicate increments.
 
--   **Follow records to receive notifications**
+-   **[Follow records to receive notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/csm-default-record-page.md#section_follow_action)**
 
-    Select the **Follow** action to receive notifications when comments or work notes are added to a record. The Follow action is available in the More actions menu on the Front-line case page and the CSM default record page.
+    Select the **Follow** action to receive notifications when comments or work notes are added to a record. The Follow action is available in the More actions menu on the [Front-line case page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/csm-front-line-case-page.md) and the [CSM default record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/csm-default-record-page.md).
 
 
 ## Zurich
@@ -84,15 +84,15 @@ The ServiceNow® Agent experience for CSM provides customer service agents with 
 
 ### What's new
 
--   **CSM centered chat interaction record page**
+-   **[CSM centered chat interaction record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/csm-centered-chat-interaction-page.md)**
 
     Includes a chat component in the center of the record page that provides front-line chat agents with a modernized interaction page layout.
 
--   **Callback component on the CSM voice interaction record page**
+-   **[Callback component on the CSM voice interaction record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/csm-native-voice-record-page.md#section_vtg_dzk_vfc)**
 
     Provides agents with the ability to return customer calls and to create interaction records at the time of callback.
 
--   **Quick start tests for Customer Service Management**
+-   **[Quick start tests for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/quick-start-tests-csm.md)**
 
     After upgrades and deployments of new applications or integrations, run quick start tests to verify that Customer Service Management works as expected. If you customized Customer Service Management, copy the quick start tests and configure them for your customizations.
 
@@ -104,7 +104,7 @@ The ServiceNow® Agent experience for CSM provides customer service agents with 
     Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
 
 
--   **Thin compose modeless dialogs**
+-   **[Thin compose modeless dialogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/csm-front-line-case-page-modeless-dialogs.md#section_nws_1rs_rfc)**
 
     Enable agents to initiate a comment, work note, or email in the activity stream and then open the text in a modeless dialog. This feature is available on the following record pages:
 
@@ -114,7 +114,7 @@ The ServiceNow® Agent experience for CSM provides customer service agents with 
     -   CSM voice interaction record page
     -   CSM centered chat interaction record page
     -   Email interaction record page
--   **Lookup component on CSM Configurable Workspace record pages**
+-   **[Lookup component on CSM Configurable Workspace record pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/csm-record-page-lookup-component.md)**
 
     Use the Lookup component to look up and link a contact and then verify the contact. The Lookup component replaces the Lookup and Verify component on the CRM Workspace record pages.
 
@@ -126,7 +126,7 @@ The ServiceNow® Agent experience for CSM provides customer service agents with 
 
     Supports having two forms on a record page.
 
--   **Customer History enhancements**
+-   **[Customer History enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/customer-history-component-features.md)**
 
     Use the following enhancements to control grouping, appearance, and refresh behavior in customer history:
 
@@ -135,7 +135,7 @@ The ServiceNow® Agent experience for CSM provides customer service agents with 
     -   Display activities by updated date: A new property enables feeds to surface activities based on the last updated timestamp in Customer History.
     -   Dynamic refresh updates: Customer History feeds now refresh automatically, but only for records in the Customer History activities table and within the current context \(for example, Contact\). Other tables and parent records are not included.
     -   Introduced a new search icon that lets agents show or hide the search bar with a click.
--   **Improve discoverability of Recommended Actions**
+-   **[Improve discoverability of Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/csm-front-line-case-page.md)**
 
     Use the following updates to improve the visibility of Recommended Actions across key CSM pages:
 
@@ -148,11 +148,11 @@ The ServiceNow® Agent experience for CSM provides customer service agents with 
         -   CSM centered chat interaction record page
     -   Load Recommended Actions asynchronously to keep the UI responsive while recommendations load.
     -   Enable agents to send relevant KB articles through SMS during voice interactions and messaging-type interactions.
--   **Default recommendations for Pro customers**
+-   **[Default recommendations for Pro customers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/csm-front-line-case-page.md)**
 
     Recommendations are now delivered by default for Pro customers when either the Task Intelligence for CSM or the Now Assist for CSM plugin is installed. Agents can view contextual recommendations under the **Suggested Actions** tab, such as similar cases and open incidents, when the case meets the predefined criteria. Agents can link or copy resolutions directly into the current case.
 
--   **Resurface special handling notes**
+-   **[Resurface special handling notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/c_OnScreenAlerts.md)**
 
     Display the special handling notes at any time by selecting  Special handling notes  from the More actions menu on the case record action bar. This action is now available on records from the following tables:
 
@@ -164,21 +164,21 @@ The ServiceNow® Agent experience for CSM provides customer service agents with 
     -   Work Order Task
     This applies only to records where special handling notes are configured.
 
--   **Information session tab enhancements**
+-   **[Information session tab enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/csm-workspace-chat-session-tabs-configure.md)**
 
     Use the following changes to enforce permissions and improve usability of the **Session** tab:
 
     -   Restrict access to unauthorized users with error messages and validate role-based permissions.
     -   Auto-save admin updates to timer and color changes in real time.
     -   Display workspace settings only after the Session tab is enabled.
--   **Configure Alert Dismissal settings at experience and alert level**
+-   **[Configure Alert Dismissal settings at experience and alert level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/auto-dismiss-alerts-in-csm-configurable-workspace.md)**
 
     Use the following settings to control alert dismissal:
 
     -   Set alerts to auto-dismiss or require manual dismissal.
     -   Configure alert behavior globally or according to alert.
     -   Reduce alert overload while supporting accessibility standards, which helps agents focus on critical alerts.
--   **ServiceNow Link Manager is available on the Google Chrome, Microsoft Edge, and Mozilla Firefox plugin store**
+-   **[ServiceNow Link Manager is available on the Google Chrome, Microsoft Edge, and Mozilla Firefox plugin store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/csm-workspace-snow-link-manager.md)**
 
     Streamline tab management and reduce browser clutter with ServiceNow Link Manager:
 

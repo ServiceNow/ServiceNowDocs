@@ -9,7 +9,7 @@ classification: workflow-studio
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Building flows, Use, Workflow Studio, Build workflows]
 ---
 

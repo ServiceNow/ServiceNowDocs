@@ -9,7 +9,7 @@ classification: now-assist-for-creator
 topic_type: task
 last_updated: "2026-06-24"
 reading_time_minutes: 3
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Playbook generation from a KB article, Playbook generation, ServiceNow Otto for Creator, Build workflows]
 ---
 

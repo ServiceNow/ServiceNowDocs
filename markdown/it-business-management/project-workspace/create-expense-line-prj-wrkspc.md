@@ -36,15 +36,15 @@ The video is recorded using the Strategic Planning view. Navigate to your portfo
 
 3.  Use one of the following options to add an expense line.
 
-<table id="choicetable_n25_2rm_fyb"><thead><tr><th align="left" id="d56993e115">
+<table id="choicetable_n25_2rm_fyb"><thead><tr><th align="left" id="d57021e115">
 
 Choice
 
-</th><th align="left" id="d56993e118">
+</th><th align="left" id="d57021e118">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d56993e124">
+</th></tr></thead><tbody><tr><td id="d57021e124">
 
 **Select a cost plan**
 
@@ -54,7 +54,7 @@ Description
 2.  In the Expense lines side panel, select **New**.
 
 
-</td></tr><tr><td id="d56993e145">
+</td></tr><tr><td id="d57021e145">
 
 **Select options**
 
@@ -64,7 +64,7 @@ Description
 2.  Select **Add expense lines**.
 
 
-</td></tr><tr><td id="d56993e172">
+</td></tr><tr><td id="d57021e172">
 
 **Select new expense line option**
 

@@ -1,6 +1,6 @@
 ---
-title: CMDB classes targeted in Service Graph Connector for Tanium Endpoints
-description: When you complete setting up the connection, you can configure the integration to periodically pull data from Tanium. The data is saved in tables that extend from the Configuration Item \[cmdb\_ci\] table.
+title: CMDB classes targeted in Service Graph Connector for Tanium Atlas Endpoints
+description: When you complete setting up the connection, you can configure the integration to periodically pull data from Tanium Atlas. The data is saved in tables that extend from the Configuration Item \[cmdb\_ci\] table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-graph-connectors/sgc-tanium-endpoints-classes.html
 release: zurich
@@ -9,14 +9,14 @@ classification: service-graph-connectors
 topic_type: reference
 last_updated: "2026-05-12"
 reading_time_minutes: 4
-breadcrumb: [Tanium Endpoints, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Tanium Atlas Endpoints, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# CMDB classes targeted in Service Graph Connector for Tanium Endpoints
+# CMDB classes targeted in Service Graph Connector for Tanium Atlas Endpoints
 
-When you complete setting up the connection, you can configure the integration to periodically pull data from Tanium. The data is saved in tables that extend from the Configuration Item \[cmdb\_ci\] table.
+When you complete setting up the connection, you can configure the integration to periodically pull data from Tanium Atlas. The data is saved in tables that extend from the Configuration Item \[cmdb\_ci\] table.
 
-**Important:** The Service Graph Connector for Tanium Endpoints populates the Computer class with user-facing endpoints, and doesn't import data from the Server child class. Use this connector if you don't require Server data. If you require Server data, use the Service Graph Connector for Tanium.
+**Important:** The Service Graph Connector for Tanium Atlas Endpoints populates the Computer class with user-facing endpoints, and doesn't import data from the Server child class. Use this connector if you don't require Server data. If you require Server data, use the Service Graph Connector for Tanium.
 
 ## Computer \[cmdb\_ci\_computer\]
 
@@ -156,7 +156,7 @@ The following attributes in the Key Value \[cmdb\_key\_value\] table are populat
 |Value|value|
 |Tag|tag|
 
-**Note:** Of the four tags available in Tanium \(Custom, Extended Custom, Enhanced, and Meta\), the Service Graph Connector for Tanium Endpoints 1.0.0 version supports only Custom tags. See [Supported Tanium resource types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-sgc-tanium-endpoints-resource-types.md).
+**Note:** Of the four tags available in Tanium \(Custom, Extended Custom, Enhanced, and Meta\), the Service Graph Connector for Tanium Endpoints 1.0.0 version supports only Custom tags. See [Supported Tanium Atlas resource types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-sgc-tanium-endpoints-resource-types.md).
 
 ## Network Adapter \[cmdb\_ci\_network\_adapter\]
 

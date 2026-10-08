@@ -54,15 +54,15 @@ To use IBM Netcool\_V2 connector, configure a connector instance for the MID Ser
 
 4.  In the Connector Parameters section, specify the value of the required Netcool parameters.
 
-<table id="choicetable_ict_hmx_n4b"><thead><tr><th align="left" id="d206365e248">
+<table id="choicetable_ict_hmx_n4b"><thead><tr><th align="left" id="d209849e248">
 
 Connector
 
-</th><th align="left" id="d206365e251">
+</th><th align="left" id="d209849e251">
 
 Required parameters
 
-</th></tr></thead><tbody><tr><td id="d206365e257">
+</th></tr></thead><tbody><tr><td id="d209849e257">
 
 **IBM Netcool\_V2**
 

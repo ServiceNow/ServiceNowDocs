@@ -57,7 +57,7 @@ Software Product
 
 </td><td>
 
-Name of the software product.**Note:** This field appears only when the **Type** is selected as Software and the Software Asset Management Foundation plugin is installed on your instance.
+Name of the software product.**Note:** This field appears only when the **Type** is selected as Software and the Basic Software Asset Management is installed on your instance.
 
 </td></tr><tr><td>
 

@@ -18,7 +18,7 @@ Assign search sources to a chat assistant. Search sources are used to determine 
 
 ## Before you begin
 
-See [Use agentic support for a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/use-agentic-support.md).
+See [Create a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/create-assistant.md).
 
 Role required: virtual\_agent\_admin or admin
 

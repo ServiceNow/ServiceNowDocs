@@ -21,7 +21,7 @@ The ServiceNow Vault application provides a set of data security tools that prot
 -   Manage and monitor cloud encryption metrics.
 -   Get AI guidance using the Ask Now Assist panel in Vault console.
 
--   Use guided setup to begin autoclassifying sensitive data within [Financial Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/financial-services-operations/fso-overview.md) and  applications.
+-   Use guided setup to begin autoclassifying sensitive data within [Financial Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/financial-services-operations/fso-overview.md) and [Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/c_CustomerServiceManagement.md) applications.
 -   Monitor and review critical sensitive data metrics from the centralized ServiceNow Vault Console dashboard.
 -   Navigate between security tools efficiently using the ServiceNow Vault Console dashboard.
 
@@ -75,5 +75,5 @@ The ServiceNow Vault application provides a set of data security tools that prot
     Use guided setup to quickly start using ServiceNow Vault on the following applications:
 
     -   [Financial Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/financial-services-operations/fso-overview.md)
-    -   
+    -   [Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/c_CustomerServiceManagement.md)
 

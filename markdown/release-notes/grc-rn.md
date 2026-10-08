@@ -56,17 +56,17 @@ The ServiceNow® Integrated Risk Management \(IRM\) application enables your org
 
 ### What's new
 
--   ****
+-   **[Report a GRC issue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/report-a-grc-issue.md)**
 
     The report a GRC issue AI agent is now available in the Employee Center, enabling employee users to report issues through a guided conversational experience. As users respond to prompts, the agent structures the issue and recommends relevant controls, entities, and policies based on the input provided. The AI agent helps ensure that the issue is well-defined and enriched with contextual information before it's submitted.
 
--   ****
+-   **[Entity-based record access rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/continuous-monitoring-of-entity-based-access.md)**
 
     Maintain seamless access for users and groups referenced in record fields when entity-based access restrictions are applied. This feature enables users and groups referenced in a record’s user or group fields to access the records they are associated with. By configuring record-level user access at the table or record type level, it reduces administrative overhead and streamlines EBA adoption with minimal disruption.
 
--   ****
+-   **[Functional domain bulk update](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/functional-domain-bulk-update.md)**
 
-    Apply or remove domain-specific tags across multiple records at once. This streamlines workspace management by letting you quickly filter and organize records, for example, you can exclude non-privacy-tagged items in the Privacy Workspace for a more focused, efficient view.
+    Apply or remove domain-specific tags across multiple records at once. This streamlines workspace management by letting you quickly filter and organize records. For example, you can exclude non-privacy-tagged items in the Privacy Workspace for a more focused, efficient view.
 
 -   **[Entity record page enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/entities-in-risk-ws.md)**
 
@@ -74,12 +74,12 @@ The ServiceNow® Integrated Risk Management \(IRM\) application enables your org
 
     **Note:** You may experience issues with custom actions that emit events on the Risks or Entity type related lists on the Entity record page. To ensure a smooth transition and adopt these changes, refer to [KB2593527](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2593527) for detailed guidance.
 
--   ****
+-   **[My tasks in the workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/configuration-of-tasks.md)**
 
     Easily manage which configurations appear on the My Tasks page by marking them Active or Inactive. This gives you flexibility to enable or disable configurations without manual intervention, simplifying administration and improving control. An Active/Inactive flag has also been introduced in the My Choice table for enhanced configuration management.
 
 
--   ****
+-   **[Entities in GRC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/what-is-an-entity.md)**
 
     Entity names in GRC now automatically update when the associated CI name changes. This enhancement improves data consistency, reduces manual effort, and ensures alignment between CI and Entity records without requiring custom automation.
 

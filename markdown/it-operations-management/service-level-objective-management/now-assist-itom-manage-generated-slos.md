@@ -9,7 +9,7 @@ classification: service-level-objective-management
 topic_type: task
 last_updated: "2026-01-20"
 reading_time_minutes: 2
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Generating service level objectives, Using SLO Management, Service Level Objective Management, ITOM AIOps, IT Operations Management]
 ---
 
@@ -35,15 +35,15 @@ Role required: srm\_admin
 
 3.  Configure the SLO creator agent settings.
 
-<table id="choicetable_bxh_g3y_23c"><thead><tr><th align="left" id="d509456e164">
+<table id="choicetable_bxh_g3y_23c"><thead><tr><th align="left" id="d517906e164">
 
 Setting
 
-</th><th align="left" id="d509456e167">
+</th><th align="left" id="d517906e167">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d509456e173">
+</th></tr></thead><tbody><tr><td id="d517906e173">
 
 **Allow the agent to automatically generate SLOs from service alerts and outages.**
 
@@ -51,7 +51,7 @@ Description
 
 Turns on or off the SLO creator agent.When the agent is active, it generates SLOs based on alerts, incidents, and outages for eligible services and configuration items \(CIs\).
 
-</td></tr><tr><td id="d509456e184">
+</td></tr><tr><td id="d517906e184">
 
 **Include a policy to email the assigned team if the error budget is less than or equal to 25%.**
 
@@ -59,7 +59,7 @@ Turns on or off the SLO creator agent.When the agent is active, it generates SLO
 
 Sends an email notification to the team assigned to the service or CI when the SLO error budget reaches 25% or lower.
 
-</td></tr><tr><td id="d509456e193">
+</td></tr><tr><td id="d517906e193">
 
 **Email team managers when an SLO is generated, or the team if no manager is assigned.**
 

@@ -45,21 +45,21 @@ The ServiceNow® Customer Contracts and Entitlements application provides the fo
 
 ### What's new
 
--   **Support Price Ramps in contract**
+-   **[Support Price Ramps in contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/using-customer-cnt-ent-wf.md)**
 
     Enable customers to specify price ramps for a product or service in a single quote. When the quote is completed and the order process is finalized, the contract captures the new pricing details.​
 
 
--   **Enhancements in Renewals workflow**
+-   **[Enhancements in Renewals workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/create-cont-ent-workflows-csm.md)**
     -   Configure renewal opportunity and quote generation dates on separate dates.
     -   Renewed quotes automatically update when new products are added to auto-renewed contracts.
 
--   **Non-Standard Renewals**
+-   **[Non-Standard Renewals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/cce-renew-service-contract.md)**
 
     Renew customer contracts outside the standard renewal cycle. You can perform early renewals to generate new contracts with updated pricing terms or late renewals to extend contracts after the expiry date.
 
 
--   **Modify line item quantities**
+-   **[Modify line item quantities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/cce-upsell-downsell-service-contract.md)**
 
     Swap an existing subscribed product or service with another product, either partially or fully.
 

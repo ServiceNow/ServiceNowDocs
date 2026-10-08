@@ -8,7 +8,7 @@ product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 8
+reading_time_minutes: 9
 breadcrumb: [Use, Hardware Asset Management, IT Asset Management]
 ---
 
@@ -121,6 +121,8 @@ Extend your lease contract before the contract expires and avoid paying a penalt
 [Manage the lifecycle of hardware models with calculated lifecycle templates]()
 
 [Create an internal lifecycle in the Hardware Asset Workspace]()
+
+[Calculate the active lifecycle phase for a model]()
 
 [Receive asset warranty details from Lenovo]()
 

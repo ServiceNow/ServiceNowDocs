@@ -7,7 +7,7 @@ release: zurich
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-09-16"
+last_updated: "2026-10-08"
 reading_time_minutes: 9
 breadcrumb: [Using Software Asset Management classic, Software Asset Management, IT Asset Management]
 ---
@@ -96,7 +96,7 @@ CrowdStrike
 </td></tr></tbody>
 </table>License metrics are set on the [software entitlement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/track-software-rights.md) form and can be accessed from the **Metric Attributes** related list on the [software model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/record-terms-software-licenses.md) form.
 
-**Important:** You can enable the Software Asset Management application to automatically create client access records for Oracle Database Server using the **Auto-generate client access for allocations** option on the corresponding software model. To use this option, you must request the Data Collection for Oracle Global Licensing and Advisory Services application from the ServiceNow Store. See [Software model fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/software-model-fields.md) for more details on the **Auto-generate client access for allocations** option. See [Request Data Collection for Oracle Global Licensing and Advisory Services \(GLAS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/request-data-collection-oracle-glas-app.md) for more details on the Data Collection for Oracle Global Licensing and Advisory Services application.
+**Important:** You can enable the Software Asset Management application to automatically create client access records for Oracle Database using the **Auto-generate client access for allocations** option on the corresponding software model. To use this option, you must request the Data Collection for Oracle Global Licensing and Advisory Services application from the ServiceNow Store. See [Software model fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/software-model-fields.md) for more details on the **Auto-generate client access for allocations** option. See [Request Data Collection for Oracle Global Licensing and Advisory Services \(GLAS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/request-data-collection-oracle-glas-app.md) for more details on the Data Collection for Oracle Global Licensing and Advisory Services application.
 
 ## Procedure
 
@@ -180,7 +180,7 @@ Oracle WebLogic Server application to which your users or devices are granted ac
 
 </td></tr><tr><td>
 
-Database instance**Note:** This field appears only if you select an Oracle Database Server software model.
+Database instance**Note:** This field appears only if you select an Oracle Database software model.
 
 </td><td>
 
@@ -188,7 +188,7 @@ Oracle database instance that accesses and manages the data in your Oracle datab
 
 </td></tr><tr><td>
 
-Source**Note:** This field appears only if you select an Oracle Database Server software model.
+Source**Note:** This field appears only if you select an Oracle Database software model.
 
 </td><td>
 
@@ -204,13 +204,13 @@ Count
 
 Number of unique users or devices that are granted access to the associated server.
 
- On automatically generated client access records for Oracle Database Server or Oracle WebLogic Server, this field populates automatically based on the number of users or devices that are currently added to the record. See [step 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/t_AddAClientAccessRec.md) for more information on how to add users or devices to the client access record.
+ On automatically generated client access records for Oracle Database or Oracle WebLogic Server, this field populates automatically based on the number of users or devices that are currently added to the record. See [step 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/t_AddAClientAccessRec.md) for more information on how to add users or devices to the client access record.
 
  **Note:** If you are using a Citrix software model and User/Device CAL type, the **Count** field is based on the number of user/device licenses that are assigned to your users or shared devices.
 
 </td></tr><tr><td>
 
-PaaS**Note:** This field appears only if you select an Oracle Database Server software model.
+PaaS**Note:** This field appears only if you select an Oracle Database software model.
 
 </td><td>
 
@@ -260,7 +260,7 @@ Company of the users or devices that are granted access to the associated server
         1.  Select the **Users** tab.
         2.  In the **User** field of the Client Access User Breakdowns list, double-click **Insert a new row...**.
 
-            **Note:** If you are using an Oracle Database Server software model, double-click **Insert a new row...** in the **Database user** field of the Client Access User Breakdowns list instead.
+            **Note:** If you are using an Oracle Database software model, double-click **Insert a new row...** in the **Database user** field of the Client Access User Breakdowns list instead.
 
         3.  When prompted, search for and select a user that you want to assign a user-based CAL to.
         4.  Select the Save icon \[Omitted image "save-icon.png"\].

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-notifications-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
+last_updated: "2026-10-08"
 reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
@@ -101,13 +101,14 @@ Zurich
 
 </td><td>
 
--   **[Email diagnostics dashboard](https://www.servicenow.com/docs/access?context=email-diagnostics-dashboard&family=zurich&ft:locale=en-US)**
-
-With email diagnostics you can track bounce management, email delivery metrics, email sender, and reader jobs health.
-
 -   **[Email agentic workflow](https://www.servicenow.com/docs/access?context=use-agentic-ai-notifications&family=zurich&ft:locale=en-US)**
 
 With email agentic workflow you can intelligently handle new email agentic workflows by identifying intent, executing actions, &amp; drafting appropriate email responses.
+
+
+ -   **[Email diagnostics dashboard](https://www.servicenow.com/docs/access?context=email-diagnostics-dashboard&family=zurich&ft:locale=en-US)**
+
+With email diagnostics you can track bounce management, email delivery metrics, email sender, and reader jobs health.
 
 
 </td></tr></tbody>
@@ -148,7 +149,24 @@ Yokohama
 
 </td><td>
 
--   **[Advanced filters in notification preferences](https://www.servicenow.com/docs/access?context=advanced-notification-prefrences&family=yokohama&ft:locale=en-US)**
+-   **[Advanced filters options for notification preferences](https://www.servicenow.com/docs/access?context=advanced-notification-prefrences&family=yokohama&ft:locale=en-US)**
+
+Added categories, delivery channels, active or inactive notifications, subscriptions, and digest-enabled filter options for notification preferences.
+
+-   **[Standard forms](https://www.servicenow.com/docs/access?context=advanced-notification-prefrences&family=yokohama&ft:locale=en-US)**
+
+Enabled standardized forms across custom notification preferences and delivery channels.
+
+-   **[Assignment group field](https://www.servicenow.com/docs/access?context=create-add-assignment-group&family=yokohama&ft:locale=en-US)**
+
+Extended the provider framework to add support for assignment groups.
+
+-   **[Advanced condition field](https://www.servicenow.com/docs/access?context=noti-new-update-notification&family=yokohama&ft:locale=en-US)**
+
+Extended the provider framework to add an advanced condition.
+
+
+ -   **[Advanced filters in notification preferences](https://www.servicenow.com/docs/access?context=advanced-notification-prefrences&family=yokohama&ft:locale=en-US)**
 
 Use notifications filters for categories, delivery channels, active or inactive notifications, subscriptions, and digest enabled notifications.
 
@@ -175,7 +193,16 @@ Zurich
 
 </td><td>
 
--   **[Email digest for multiple target records](https://www.servicenow.com/docs/access?context=configure-email-digest&family=zurich&ft:locale=en-US)**
+-   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+-   **[Allow Digest](https://www.servicenow.com/docs/access?context=configure-email-digest&family=zurich&ft:locale=en-US)**
+
+The **Allow Digest** check box is dynamic and includes **Digest type**.
+
+
+ -   **[Email digest for multiple target records](https://www.servicenow.com/docs/access?context=configure-email-digest&family=zurich&ft:locale=en-US)**
 
 The email digest now supports both single or multiple target records within a set time interval.
 
@@ -285,7 +312,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Notifications is a ServiceNow AI Platform feature that is active by default.
+
 
 </td></tr><tr><td>
 
@@ -293,9 +323,12 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Notifications is a ServiceNow AI Platform feature that is active by default.
 
- Install Email agentic workflow by requesting it from the ServiceNow Store. 
+Install Email agentic workflow by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements

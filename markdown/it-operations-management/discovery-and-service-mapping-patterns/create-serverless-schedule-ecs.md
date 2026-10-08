@@ -7,7 +7,7 @@ release: zurich
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Amazon ECS resource, AWS discovery, Available cloud discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
@@ -18,7 +18,8 @@ Create a serverless schedule to discover Amazon Elastic Container Service \(Amaz
 
 ## Before you begin
 
-Verify you have an AWS service account ID and have created AWS credentials. For more information, see the prerequisites section in [Amazon ECS resource discovery with Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/aws-ecs-fargate-discovery.md).
+-   Verify you have an AWS service account ID and have created AWS credentials. For more information, see the prerequisites section in [Amazon ECS resource discovery with Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/aws-ecs-fargate-discovery.md).
+-   Download the [Cloud Discovery patterns spreadsheet](https://downloads.docs.servicenow.com/resource/enus/api/servicenow-discovery-patterns-api-details.xlsx) so you can grant user permissions required for running the Discovery patterns.
 
 Role required: discovery\_admin
 

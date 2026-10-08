@@ -62,11 +62,11 @@ The ServiceNow® Workforce Optimization for Customer Service application enables
 
 ### What's new
 
--   **View the monthly staff alignment on the team calendar in the Manager Workspace**
+-   **[View the monthly staff alignment on the team calendar in the Manager Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/scheduling-configurable-wfo-cs.md)**
 
     Enable managers to plan, monitor, and adjust staffing more effectively with the month view on the Team Calendar tab in the Schedule page of the Manager Workspace. You can also view staffing and shift details across a full month to optimize and identify gaps in coverage, detect over staffing, and take proactive steps to balance workloads improving operational efficiency and responsiveness.
 
--   **View the monthly schedule on the team calendar in the Configurable CSM or FSM Workspace**
+-   **[View the monthly schedule on the team calendar in the Configurable CSM or FSM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/scheduling-configurable-wfo-cs.md)**
 
     Enable agents to view your upcoming shifts, time-off requests, and availability for the entire month in the month view of the Team Calendar in the CSM or FSM Configurable Workspace. This enables them to better plan their schedules, stay informed, and remain engaged with their work commitments.
 

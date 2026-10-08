@@ -7,7 +7,7 @@ release: zurich
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Purchase Order Management, Source-to-Pay Operations, Finance and Supply Chain]
 ---
 

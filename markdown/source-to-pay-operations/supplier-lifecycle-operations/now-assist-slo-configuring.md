@@ -81,15 +81,15 @@ Supplier case summarization
 
 10. Select **Define Availability** and select one of the following options.
 
-<table id="choicetable_e25_bvj_1cc"><thead><tr><th align="left" id="d29561e379">
+<table id="choicetable_e25_bvj_1cc"><thead><tr><th align="left" id="d126504e379">
 
 Option
 
-</th><th align="left" id="d29561e382">
+</th><th align="left" id="d126504e382">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d29561e388">
+</th></tr></thead><tbody><tr><td id="d126504e388">
 
 **Skill is always available**
 
@@ -97,7 +97,7 @@ Description
 
 The skill is available to users at all times.
 
-</td></tr><tr><td id="d29561e397">
+</td></tr><tr><td id="d126504e397">
 
 **Customize skill availability**
 
@@ -110,15 +110,15 @@ The skill is available only when certain conditions are met \(Default\).Use the 
 
 12. Choose **Select display** to determine where you'd like to display the skill.
 
-<table id="choicetable_x1c_5b2_1cc"><thead><tr><th align="left" id="d29561e433">
+<table id="choicetable_x1c_5b2_1cc"><thead><tr><th align="left" id="d126504e433">
 
 Option
 
-</th><th align="left" id="d29561e436">
+</th><th align="left" id="d126504e436">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d29561e442">
+</th></tr></thead><tbody><tr><td id="d126504e442">
 
 **In-product desktop**
 
@@ -126,13 +126,13 @@ Description
 
 AI skills are displayed on forms and workspaces.
 
-</td></tr><tr><td id="d29561e451">
+</td></tr><tr><td id="d126504e451">
 
 **ServiceNow Otto panel**
 
 </td><td>
 
-AI skills are available in the ServiceNow Otto panel. Turn on multi-language support for user-entered text with Dynamic Translation in ServiceNow Otto applications. For more information, see [Configure multilingual service for Now Assist applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/enable-dynamic-translation-for-now-assist-applications.md).**Note:** If you don't see this option, you must activate the ServiceNow Otto panel. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-now-assist-panel.md).
+AI skills are available in the ServiceNow Otto panel. Turn on multi-language support for user-entered text with Dynamic Translation in ServiceNow Otto applications. For more information, see .**Note:** If you don't see this option, you must activate the ServiceNow Otto panel. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
 </td></tr></tbody>
 </table>13. Select **Save and continue** to go to the next step.

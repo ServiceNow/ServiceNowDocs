@@ -7,8 +7,8 @@ release: zurich
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Managing TPRM SAE templates with Unified Content Management, Smart Assessment Engine assessments, Configure, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
 
@@ -40,6 +40,8 @@ Use Unified Content Management to control which TPRM SAE templates are available
 
 3.  Select the year from the dropdown menu for the template you want to activate or update.
 
+    SIG Full 2026, SIG Core 2026, and SIG Lite 2026 templates are available for selection. These templates are available in both Classic and SAE format. For more information, see [Using the SIG questionnaire for a risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-sig-use-and-support.md).
+
 4.  Choose the action you want to perform.
 
     |Action|Description|
@@ -64,5 +66,7 @@ To modify template content, contact a team member with the TPR admin \[sn\_vdr\_
 
 **Note:**
 
-You can create an assessment only from a published assessment template. You can update a published template only if no active assessment is associated with it. You can also copy an existing template, including all questions, sections, instructions, and configurations. For more information, see [Copy an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-duplicate.md).
+To create a new version of a published template, use the **Create Version** action on the template record in the Vendor Management Workspace. Editing a published template in place is no longer supported. For more information, see [Smart assessments with Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-sae-using.md).
+
+You can also copy an existing template, including all questions, sections, instructions, and configurations. For more information, see [Copy an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-duplicate.md).
 

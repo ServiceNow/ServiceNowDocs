@@ -1,6 +1,6 @@
 ---
-title: Dependencies for integrating the Issues module with BCM
-description: Certain GRC applications are required for Issues integration with BCM.
+title: Issues module integration dependencies with BCM
+description: The following GRC applications are required for Issues integration with BCM.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/issues-bcm-dependencies.html
 release: zurich
@@ -11,16 +11,15 @@ keywords: [BCM, issues, dependencies]
 breadcrumb: [Managing issues from Business Continuity Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
-# Dependencies for integrating the Issues module with BCM
+# Issues module integration dependencies with BCM
 
-Certain GRC applications are required for Issues integration with BCM.
-
-The following GRC applications are required for Issues integration.
+The following GRC applications are required for Issues integration with BCM.
 
 |Capability|Application|Dependency type|
 |----------|-----------|---------------|
 |Issues and Issue remediation tasks modules|GRC: Profiles|Soft dependency|
 |Issue triage module|GRC: Advanced Core|Soft dependency|
 |Issues layout|GRC: Issue Management|Soft dependency|
-|Vertical layout|Record page vertical template \(sn-rec-pg-vertical\)|Auto- installed with GRC Base Workspace \(app-grc-base-workspace\)|
+|Vertical layout|Record page vertical template \(sn-rec-pg-vertical\)|Auto-installed with GRC Base Workspace \(app-grc-base-workspace\)|
+|Issue AI capabilities \(issue summarization, issue submission agent, issue resolution agent\)|GRC GenAI \(**sn\_grc\_genai**\)|Soft dependency|
 

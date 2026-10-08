@@ -1,5 +1,5 @@
 ---
-title: Viewing the dynamic related records in Information Request Playbook
+title: Viewing the dynamic related records in Information Request Administration
 description: You can view the dynamic related records in the playbook contextual side panel in CRM Workspace. These records dynamically change based on the current record or playbook activity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/psds-ir-playbook-viewing-rel-records.html
@@ -7,14 +7,14 @@ release: zurich
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Using the contextual side panel, Information Request Playbook, Playbooks and solutions, Use, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Using the contextual side panel, Information Request Administration, Playbooks and solutions, Use, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Viewing the dynamic related records in Information Request Playbook
+# Viewing the dynamic related records in Information Request Administration
 
 You can view the dynamic related records in the playbook contextual side panel in CRM Workspace. These records dynamically change based on the current record or playbook activity.
 
-## Using related records in Information Request Playbook
+## Using related records in Information Request Administration
 
 You can view, search, and sort the records in the **Related Records** tab in the contextual side panel after you create an information request record.
 

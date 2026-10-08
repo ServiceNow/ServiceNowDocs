@@ -117,7 +117,7 @@ Attribute-based cost plan **Resource\_Internal\_Capex** is created after migrati
 \[Omitted image "rp-ra-cost-plans-migrated.png"\] Alt text: List of attribute-based labor costs capturing the aggregate planned costs.
 
 -   **[Migrate resource plans and cost plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/migrate-rsrc-plan-rsrc-asgnmnt.md)**  
-Migrate resource plans and cost plans of your projects or demands to resource assignments and attribute-based cost plans. Then, work on the resource allocations and project financials using Project Workspace.
+Migrate resource plans and cost plans of your projects or demands to resource assignments and attribute-based cost plans. Then, work on the resource allocations and project financials using Project Workspace. The effort table automatically syncs with migrated resource assignments to ensure accurate capacity planning data.
 -   **[Enable attribute-based resource assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/enable-resource-assignments.md)**  
 Enable the property to work on attribute-based resource assignments to request efforts for your planning items.
 -   **[Create resource assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/create-rsrc-asgnmnts-ppm.md)**  

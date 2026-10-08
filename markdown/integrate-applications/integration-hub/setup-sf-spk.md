@@ -8,7 +8,7 @@ product: Integration Hub
 classification: integration-hub
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 11
+reading_time_minutes: 13
 breadcrumb: [Salesforce Spoke, Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
@@ -210,31 +210,210 @@ Integrate your Salesforce account with your ServiceNow instance. Create a custom
 
 ### Procedure
 
-1.  Navigate to **Connection &amp; Credentials** &gt; **Connection &amp; Credential Aliases**.
+1.  Log in to [Salesforce](https://login.salesforce.com/?startURL=%2Fsetup%2Fsecur%2FRemoteAccessAuthorizationPage.apexp%3Fsource%3DCAAAAWd_ycj7ME8wMHkwMDAwMDA4T0k2AAAA2CFKH_C6K2jEXMcAAa95DHha0KQ0IeY1ykrwEVRkz67RUi8i4a0jM7Vp8V21BaS_L33r3duBQbWQwqlyiK2ggRW4EpVHap4wptWMLW6rSLEX9sFPr9tx-KL10Co6XYnGi6obC4k1a5vaO0N2nCjm2hZZ9ncAxKjFL7Dg5Yn93smtqoQquTJlPn85UW8f4CtFFRxNmMkvCs8fsBriDWCmolMpA7RSre5FgwDVuhOsLTVi7WcOvYa9KQof9RQDptCwsh3emhXvc0b4eIr_mTHD1q-yCB8LCgtH3PZLh7NlpywhUjvaEcqLC1LIaM-s7zxbvNdJnNiYx7ZBVMgvLc7KuHqTrJqnKEHVqRUAQjDbpNHV7IIsiviaGhEnY1uwJM84XtO2z2NYSjT-ANIriMblKQXaVGMucWCSZjvvT-XzrgEUPQCK6ZloS4-icbOjf7dNOIWxBR_Ps6Ux3mmvZE8wsABMyFuPAa0lJr9JLsS1EYT_LXBJSWGZ8GajEk55_zQzkxZzWRX5H5nkqxXu6xIVqNVUdS6DkiK4SSJ0nkLEFyQ3HoAVdWxegmYkcqVgy0KupBs-i2KSW47vgr6D3dU0pWhPaLkf10V3m1kd_C3ZL6ic8MS4_lUtsoyR7T9NbpRdeQ1gERuDu-tRSVgdcPkVi9Kxn9DUvhuFiQx1Cs8F2tcqE417kbJqONd7_2M1UL9b5Wy3s_T5SD1tbjsi9hwvEK1hfIe-JmxykwGgIZRT5Q4rQ-GlkJWxSiIxZOJrWI5ZoNbZX7_GIcC01InFN8OMveE1EAvO4JuC3KZ8Yxwypmr5jUYqzQLOLWhDB5mjoEwdFbns1PQtgwwkFjRnfEI90yysbVMQwMq2X8rp75vc-KDMrqTWyALTkVDbxsyuMWfLqUZ5NFaHggbtwQO7fK9o3ZESzswI6YBZWnzbEmHYaOPjbSIulXe7XjbLVLEMEXyLyr3V7PAPtGv_t3Y0mEG0NeenO_pi3NfUFxgvTZo571hgbEVqSvEdgtJWzTLYN0VxKIf7iYcJwO_zRRPCEA4vpJqha-ppCesm1EwjzdQPj7g0lh7G4faQ4916YDLiJCH2MFPTzyz4z4ib0Zg4ejnPPt3v7xWDenkSL6SiD8PgYSA7zPiTZSuMbXt0TOVXyIhg-RsVaDx9Nlv1Jz5NdDWXUWsxk_vI6LJv63Ib_Ky-X6yalB2bY-Y5GyuthFOpIgEjv1P-NurpdZkHdfKR3EdxgBzpnl35XW2M_7oyz9M0CK1MbxaYlgS6t0LVKkXJC21oMaMnykekz7coxVVZxg94Y28J_zZ0Hk75Xj4yuwRc04XSWvwhyDvaYGV5cR7zXeimrMmMylEBYQOxr7-UBSzxoSuLIJWuDxW2qaIwwW8s134O1U62SPYe-l6m1vzq3AZ6vlYpkngznqLjS6iVruD2qbw%253D&sdtd=1).
 
-2.  Open the record, **Salesforce**.
+    You can also switch from the Lightning UI.
 
-3.  Click the **Create New Connection &amp; Credential** related link.
+2.  Select the setup icon \[Omitted image "gear-icon.png"\] Alt text: Gear icon and then select **Setup**.
 
-4.  On the form, fill these values.
+3.  Search for and select  **OAuth and OpenID Connect Settings**  in the setup page search bar.
 
-    |Field|Description|
-    |-----|-----------|
-    |Connection name|Name to identify the connection record.|
-    |Connection URL \(Instance URL\)|Base URL to connect to your Salesforce instance in this format: `https://<instance-name>.salesforce.com`|
-    |OAuth Client ID|Consumer key that you generated during the Salesforce connected app configuration.|
-    |OAuth Client Secret|Consumer secret that you generated during the Salesforce connected app configuration.|
-    |OAuth Redirect URL|URL of the OAuth provider that users are redirected to after authentication. This field populates automatically.|
+4.  Enable **Allow Authorization Code and Credentials Flows**.
 
-5.  Click **Create and Get OAuth Token**.
+5.  Search for and select **App Manager** in the setup page search bar.
 
-    The OAuth2 authentication dialog box is displayed.
+6.  On the App Manager page, select **New External Client App** to create an external client application.
 
-6.  Log in to the Salesforce admin account that you used to create your Salesforce application.
+7.  On the form, fill in the fields.
 
-    Your ServiceNow instance creates an OAuth token for Salesforce and then automatically returns you to the Integration Profile form.
+<table id="table_rwk_qrt_5kc"><thead><tr><th>
 
-7.  Click **Publish**.
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td class="sub-head" colspan="2">
+
+Basic Information
+
+</td></tr><tr><td>
+
+External Client App Name
+
+</td><td>
+
+Name of your application.
+
+</td></tr><tr><td>
+
+API Name
+
+</td><td>
+
+Name of the API. This field is automatically populated.
+
+</td></tr><tr><td>
+
+Contact Email
+
+</td><td>
+
+The email address that you want to associate with the application.
+
+</td></tr><tr><td>
+
+Distribution State
+
+</td><td>
+
+The scope of distribution of the application.Select **Local** as the distribution state.
+
+</td></tr><tr><td>
+
+Contact Phone
+
+</td><td>
+
+The phone number that you want to associate with the application.
+
+</td></tr><tr><td>
+
+Info URL
+
+</td><td>
+
+The URL of the web page with more information about your application.
+
+</td></tr><tr><td>
+
+Logo URL
+
+</td><td>
+
+The URL of your logo image that is displayed with the connected application.
+
+</td></tr><tr><td>
+
+Icon URL
+
+</td><td>
+
+The URL of the icon for the connected application.
+
+</td></tr><tr><td>
+
+Description
+
+</td><td>
+
+Description of the application.
+
+</td></tr><tr><td class="sub-head" colspan="2">
+
+API \(Enable OAuth Settings\)
+
+</td></tr><tr><td>
+
+Enable OAuth
+
+</td><td>
+
+Option to enable OAuth settings.Select this option to enable the OAuth settings.
+
+</td></tr><tr><td>
+
+Callback URL
+
+</td><td>
+
+URL of the OAuth provider that users are redirected to after authentication. Enter `https://*instance*.service-now.com/oauth_redirect.do`, where &lt;*instance*&gt; is the name of your ServiceNow instance.
+
+</td></tr><tr><td>
+
+OAuth Scopes
+
+</td><td>
+
+OAuth scopes that determine the amount of access that is granted to an access token. When the grant type is **Authorization Code**, use:
+
+-   **Manage user data via APIs \(api\)**
+-   **Perform requests at any time \(refresh\_token, offline\_access\)**
+When the grant type is **Client Credentials**, use **Manage user data via APIs \(api\)**.
+
+</td></tr><tr><td class="sub-head" colspan="2">
+
+Flow Enablement
+
+</td></tr><tr><td>
+
+Enable Client Credentials Flow
+
+</td><td>
+
+Select this option when the grant type is **Client Credentials**.
+
+</td></tr><tr><td class="sub-head" colspan="2">
+
+Security
+
+</td></tr><tr><td>
+
+Require Secret for Web Server Flow
+
+</td><td>
+
+The option to implement the Require Secret for Web Server Flow in your external client app or connected app settings.-   If the grant type is **Authorization Code**, select this option.
+-   If the grant type is **Client Credentials**, clear this option.
+
+
+</td></tr><tr><td>
+
+Require Secret for Refresh Token Flow
+
+</td><td>
+
+The option in your external client app or connected app while implementing the refresh token flow using a server-side callback handler.-   If the grant type is **Authorization Code**, select this option.
+-   If the grant type is **Client Credentials**, clear this option.
+
+
+</td></tr><tr><td>
+
+Require Proof Key for Code Exchange \(PKCE\) Extension for Supported Authorization Flows
+
+</td><td>
+
+If this field is selected by default, clear the **Require Secret for Web Server Flow** and **Require Secret for Refresh Token Flow** options.**Note:** Enable **Require Proof Key for Code Exchange \(PKCE\) Extension for Supported Authorization Flows**.
+
+</td></tr></tbody>
+</table>8.  Select **Create**.
+
+    The application registration is complete and you're redirected to the Manage External Client Apps page.
+
+9.  Verify and edit the policies for the registered application by selecting **Edit**.
+
+10. In the OAuth Policies section, verify that the **Permitted Users** field is set to **Admin approved users are pre-authorized** for the ServiceNow application.
+
+    **Note:** Admin-approved users who are preauthorized enable any users with the corresponding profile or permission set to access the application without prior authorization. For more information, see [Pre-Authorize User App Access Through Connected App Policies](https://help.salesforce.com/s/articleView?id=xcloud.branded_apps_allow_deny_con_app.htm&type=5).
+
+11. In the App Policies section, select either the profile of the integration user or the profile of the user that you want to use for the integration.
+
+12. If you have selected the **Enable Client Credentials Flow** option, then in the OAuth Flows and External Client App Enhancements section, select **Enable Client Credentials Flow** and enter either the username or email address of the integration user that you want to use for the integration profile.
+
+13. In the App Authorization section, verify that the **Refresh token policy** field is set to **Refresh token is valid until revoked** and the **IP Relaxation** field is set to **Relax IP restrictions**.
+
+14. Select **Save**.
+
+15. Retrieve OAuth credentials.
+
+    1.  Navigate to **Settings** &gt; **OAuth Settings** and then select **Consumer Key and Secret**.
+
+        The Salesforce login page opens in a new window.
+
+    2.  Enter your credentials to log in to Salesforce.
+
+    3.  Copy the **Consumer Key** and **Consumer Secret** and save them in a secure location for later use.
 
 
 ## Option 2: Set up the Salesforce spoke using JWT signing key

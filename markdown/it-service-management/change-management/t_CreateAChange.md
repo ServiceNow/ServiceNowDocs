@@ -39,7 +39,7 @@ To modify fields after saving, verify that the change request is still in an edi
 
 1.  Create the change request with one of these options.
 
-<table id="choicetable_agp_ckc_3t"><tbody><tr><td id="d190102e96">
+<table id="choicetable_agp_ckc_3t"><tbody><tr><td id="d192111e96">
 
 **From the Change application**
 
@@ -57,7 +57,7 @@ You can create all three types of change from the **Change** application. This i
 -   **All**: All models are available to select.
 
 
-</td></tr><tr><td id="d190102e192">
+</td></tr><tr><td id="d192111e192">
 
 **From an incident or a problem**
 
@@ -67,7 +67,7 @@ As a user with the sn\_change\_write role, you can create a standard, normal, or
 2.  Right-click the form header and select **Create Normal Change**, **Create Standard Change**, or **Create Emergency Change**.
 
 
-</td></tr><tr><td id="d190102e219">
+</td></tr><tr><td id="d192111e219">
 
 **From an existing change record**
 
@@ -348,6 +348,14 @@ Service Offerings
 List of service offerings affected by the change. You can associate multiple service offerings with a change. This related list is available only when a service offering is selected.If there are service offerings associated to the Impacted Services, then refresh the Impacted services/CIs related list to view the offerings.
 
  **Note:** If you have customized the default view of your form or related list before the Paris release, you cannot see the field or the related list by default. Modify the form to add them manually.
+
+</td></tr><tr><td>
+
+Approvers
+
+</td><td>
+
+This list is automatically generated from the workflow and any applicable change approval policies. You can also view the **Group** of approvers assigned to the task. To add additional approvers, define or update a change approval policy. For details, see [Change approval policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/change-approval-policy.md) and [Create approval definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/create-approval-definitions.md).
 
 </td></tr><tr><td>
 

@@ -35,15 +35,15 @@ Role required: sn\_cwm.cwm\_user
 
 5.  Create a version of an existing list or define a new list.
 
-<table id="choicetable_vn1_4m3_jkc"><thead><tr><th align="left" id="d318894e130">
+<table id="choicetable_vn1_4m3_jkc"><thead><tr><th align="left" id="d319691e130">
 
 Goal
 
-</th><th align="left" id="d318894e133">
+</th><th align="left" id="d319691e133">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d318894e139">
+</th></tr></thead><tbody><tr><td id="d319691e139">
 
 **Create a version of an existing list**
 
@@ -55,7 +55,7 @@ Action
 4.  Add filter conditions that determine which records appear in the list.
 
 
-</td></tr><tr><td id="d318894e163">
+</td></tr><tr><td id="d319691e163">
 
 **Define a new list**
 

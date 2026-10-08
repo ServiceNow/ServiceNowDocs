@@ -99,7 +99,7 @@ If you change the **glide.ui.filter.first\_day\_of\_week** property after collec
 
 2.  Set one of the following integer values.
 
-<table id="choicetable_mmt_yv3_55"><tbody><tr><td id="d216212e340">
+<table id="choicetable_mmt_yv3_55"><tbody><tr><td id="d216892e340">
 
 **Start weeks on Sunday**
 
@@ -107,7 +107,7 @@ If you change the **glide.ui.filter.first\_day\_of\_week** property after collec
 
 Set **Value** to `1`
 
-</td></tr><tr><td id="d216212e355">
+</td></tr><tr><td id="d216892e355">
 
 **Start weeks on Monday**
 
@@ -115,7 +115,7 @@ Set **Value** to `1`
 
 Set **Value** to `2`
 
-</td></tr><tr><td id="d216212e370">
+</td></tr><tr><td id="d216892e370">
 
 **Start weeks on Tuesday**
 
@@ -123,7 +123,7 @@ Set **Value** to `2`
 
 Set **Value** to `3`
 
-</td></tr><tr><td id="d216212e385">
+</td></tr><tr><td id="d216892e385">
 
 **Start weeks on Wednesday**
 
@@ -131,7 +131,7 @@ Set **Value** to `3`
 
 Set **Value** to `4`
 
-</td></tr><tr><td id="d216212e400">
+</td></tr><tr><td id="d216892e400">
 
 **Start weeks on Thursday**
 
@@ -139,7 +139,7 @@ Set **Value** to `4`
 
 Set **Value** to `5`
 
-</td></tr><tr><td id="d216212e416">
+</td></tr><tr><td id="d216892e416">
 
 **Start weeks on Friday**
 
@@ -147,7 +147,7 @@ Set **Value** to `5`
 
 Set **Value** to `6`
 
-</td></tr><tr><td id="d216212e431">
+</td></tr><tr><td id="d216892e431">
 
 **Start weeks on Saturday**
 
@@ -190,7 +190,7 @@ Role required: admin
 
 3.  Set one of the following string values.
 
-<table id="choicetable_mmt_yv3_55"><tbody><tr><td id="d216212e578">
+<table id="choicetable_mmt_yv3_55"><tbody><tr><td id="d216892e578">
 
 **iso\_week**
 
@@ -198,7 +198,7 @@ Role required: admin
 
 Week 1 is the week with January 4, the first business day, or the first Thursday in it. \(These are mutually equivalent.\) There is no Week 00.
 
-</td></tr><tr><td id="d216212e587">
+</td></tr><tr><td id="d216892e587">
 
 **sunday\_week**
 
@@ -206,7 +206,7 @@ Week 1 is the week with January 4, the first business day, or the first Thursday
 
 Week 1 is the week with the first Sunday of the year. Days before it are in Week 0.
 
-</td></tr><tr><td id="d216212e596">
+</td></tr><tr><td id="d216892e596">
 
 **monday\_week**
 
@@ -214,7 +214,7 @@ Week 1 is the week with the first Sunday of the year. Days before it are in Week
 
 Week 1 is the week with the first Monday of the year. Days before it are in Week 0.
 
-</td></tr><tr><td id="d216212e605">
+</td></tr><tr><td id="d216892e605">
 
 **jan1\_week**
 
@@ -240,7 +240,7 @@ Role required: admin.
 
 2.  Complete the form with the following values.
 
-<table id="choicetable_xm2_5rq_y1b"><tbody><tr><td id="d216212e700">
+<table id="choicetable_xm2_5rq_y1b"><tbody><tr><td id="d216892e700">
 
 **Name**
 
@@ -248,7 +248,7 @@ Role required: admin.
 
 **glide.ui.max\_calendar\_records**
 
-</td></tr><tr><td id="d216212e712">
+</td></tr><tr><td id="d216892e712">
 
 **Description**
 
@@ -256,7 +256,7 @@ Role required: admin.
 
 Enter a phrase that describes the function of the property, such as `Maximum number of calendar records saved`.
 
-</td></tr><tr><td id="d216212e724">
+</td></tr><tr><td id="d216892e724">
 
 **Type**
 
@@ -264,7 +264,7 @@ Enter a phrase that describes the function of the property, such as `Maximum num
 
 Integer
 
-</td></tr><tr><td id="d216212e733">
+</td></tr><tr><td id="d216892e733">
 
 **Value**
 

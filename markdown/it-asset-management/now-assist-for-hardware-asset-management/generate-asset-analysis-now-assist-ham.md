@@ -9,7 +9,7 @@ classification: now-assist-for-hardware-asset-management
 topic_type: task
 last_updated: "2026-02-03"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Use generative AI skills, ServiceNow Otto for Hardware Asset Management \(HAM\), Hardware Asset Management, IT Asset Management]
 ---
 

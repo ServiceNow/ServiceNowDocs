@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-dataprivacy-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
+last_updated: "2026-10-08"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -38,7 +38,10 @@ Yokohama
 
 </td><td>
 
+-   **Upgrade information**
+
 Licensing changes enable you to install Data Discovery, Data Discovery APIs, Data Anonymization, and Data Privacy APIs without an entitlement, but you must have an entitlement to run a job.
+
 
 </td></tr><tr><td>
 
@@ -75,7 +78,8 @@ Use AI/ML data discovery using Named Entity Recognition \(NER\) models to discov
 
 Sanitize sensitive data entered in Now Assist prompts to prevent data leakage without impacting the response.
 
--   **[Discover sensitive data from attachments.](https://www.servicenow.com/docs/access?context=configure-data-discovery-jobs&family=yokohama&ft:locale=en-US)**
+
+ -   **[Discover sensitive data from attachments.](https://www.servicenow.com/docs/access?context=configure-data-discovery-jobs&family=yokohama&ft:locale=en-US)**
 
 Discover and report on sensitive data from attachments.
 
@@ -126,7 +130,12 @@ Zurich
 
 </td><td>
 
--   **[Full scan support added](https://www.servicenow.com/docs/access?context=configure-data-discovery-jobs&family=zurich&ft:locale=en-US)**
+-   **[Text to Regex from a LLM](https://www.servicenow.com/docs/access?context=configure-data-discovery-patterns&family=zurich&ft:locale=en-US)**
+
+Create a regex data pattern with the help of Now Assist, which supports all third-party LLMs approved by ServiceNow.
+
+
+ -   **[Full scan support added](https://www.servicenow.com/docs/access?context=configure-data-discovery-jobs&family=zurich&ft:locale=en-US)**
 
 Data Discovery jobs support full type scans, which scan for sensitive data patterns in all the records. You can also use an incremental scan, which acts as a delta scan from the point of the last full scan.
 
@@ -134,12 +143,8 @@ Data Discovery jobs support full type scans, which scan for sensitive data patte
 
 Data Discovery attachment scan type jobs now support XLS and CSV files. Attachment scans are incremental scans by default.
 
--   **[Text to Regex from a LLM](https://www.servicenow.com/docs/access?context=configure-data-discovery-patterns&family=zurich&ft:locale=en-US)**
 
-Create a regex data pattern with the help of Now Assist, which supports all third-party LLMs approved by ServiceNow.
-
-
--   **Key word matching**
+ -   **Key word matching**
 
 As part of key word matching when discovering sensitive data using regex, more precise data pattern matching has been implemented, using full strings of text. This may require customers to add more specific variants of keywords to achieve the same level of discovery precision as prior platform releases
 
@@ -221,7 +226,12 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Data Privacy is available with activation of the Data Privacy Plugin \(sn\_dp\_store\_app\). For details, see [Activate data privacy](https://www.servicenow.com/docs/access?context=dps-activate-data-privacy&family=yokohama&ft:locale=en-US).
+
+
+**Important:** Data Privacy is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 
@@ -229,7 +239,12 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Data Privacy is available with activation of the Data Privacy plugin \(sn\_dp\_store\_app\). For details, see [Activate data privacy](https://www.servicenow.com/docs/access?context=dps-activate-data-privacy&family=zurich&ft:locale=en-US).
+
+
+**Important:** Data Privacy is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements

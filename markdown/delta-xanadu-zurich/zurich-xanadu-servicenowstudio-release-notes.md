@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-servicenowstudio-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
-reading_time_minutes: 8
+last_updated: "2026-10-08"
+reading_time_minutes: 9
 breadcrumb: [Products combined by family]
 ---
 
@@ -46,7 +46,10 @@ Yokohama
 
 </td><td>
 
+-   **Upgrade information**
+
 ServiceNow Studio no longer has to be downloaded from the ServiceNow Store. It’s available on the ServiceNow AI Platform by default.
+
 
 </td></tr><tr><td>
 
@@ -54,7 +57,10 @@ Zurich
 
 </td><td>
 
+-   **Upgrade information**
+
 ServiceNow Studio no longer has to be downloaded from the ServiceNow Store. It’s available on the ServiceNow AI Platform by default.
+
 
 </td></tr></tbody>
 </table>## New features
@@ -98,7 +104,20 @@ Yokohama
 
 </td><td>
 
--   **[Change your development experience in ServiceNow Studio](https://www.servicenow.com/docs/access?context=change-your-development-experience&family=yokohama&ft:locale=en-US)**
+-   **[File Navigator performance has been improved for large applications](https://www.servicenow.com/docs/access?context=configuring-servicenow-studio&family=yokohama&ft:locale=en-US)**
+
+As of version 27.2.4, smaller apps load all files on open, while larger apps \(exceeding a configurable limit\) load a subset initially, with additional files available on demand. Search for files in larger apps will perform server-side calls to decrease load times. Contact your ServiceNow support team to change the app size limits.
+
+-   **[Create an app file in ServiceNow Studio](https://www.servicenow.com/docs/access?context=sn-studio-create-app-file&family=yokohama&ft:locale=en-US)**
+
+As of version 27.2.4, use the new full-page, guided file creation experience to create any type of file for which you have permission.
+
+-   **[Viewing app origination information in ServiceNow Studio](https://www.servicenow.com/docs/access?context=viewing-app-origination-information-in-sns&family=yokohama&ft:locale=en-US)**
+
+As of version 27.2.4, the app details page for each app shows which development environment your app was created in. Use this information to switch between environments as needed in the course of app development and deployment.
+
+
+ -   **[Change your development experience in ServiceNow Studio](https://www.servicenow.com/docs/access?context=change-your-development-experience&family=yokohama&ft:locale=en-US)**
 
 Use the best tool for your app development by switching between Creator Studio, ServiceNow Studio, and ServiceNow IDE.
 
@@ -114,44 +133,12 @@ Change settings or see related links for an app from the app details page. Refre
 
 In the November 2024 release, only admins could create apps in ServiceNow Studio. Now, users with Guided Application Creator \(GAC\) roles can also create applications.
 
--   **[File Navigator performance has been improved for large applications](https://www.servicenow.com/docs/access?context=configuring-servicenow-studio&family=yokohama&ft:locale=en-US)**
-
-As of version 27.2.4, smaller apps load all files on open, while larger apps \(exceeding a configurable limit\) load a subset initially, with additional files available on demand. Search for files in larger apps will perform server-side calls to decrease load times. Contact your ServiceNow support team to change the app size limits.
-
--   **[Create an app file in ServiceNow Studio](https://www.servicenow.com/docs/access?context=sn-studio-create-app-file&family=yokohama&ft:locale=en-US)**
-
-As of version 27.2.4, use the new full-page, guided file creation experience to create any type of file for which you have permission.
-
--   **[Viewing app origination information in ServiceNow Studio](https://www.servicenow.com/docs/access?context=viewing-app-origination-information-in-sns&family=yokohama&ft:locale=en-US)**
-
-As of version 27.2.4, the app details page for each app shows which development environment your app was created in. Use this information to switch between environments as needed in the course of app development and deployment.
-
 
 </td></tr><tr><td>
 
 Zurich
 
 </td><td>
-
--   **[Add AI files to your apps in ServiceNow Studio](https://www.servicenow.com/docs/access?context=servicenow-studio-file-navigator-taxonomy&family=zurich&ft:locale=en-US)**
-
-You can add agentic workflows, AI Agents, and skills to your apps in ServiceNow Studio.
-
--   **[Link an app to source control](https://www.servicenow.com/docs/access?context=link-app-to-source-control&family=zurich&ft:locale=en-US)**
-
-Use source control operations on the App details page to link an application to a Git repository.
-
--   **[App details page](https://www.servicenow.com/docs/access?context=app-details-page&family=zurich&ft:locale=en-US)**
-
-View and manage app files and metadata on the enhanced App details page. You can also link your app to source control from the App details page and create new files for your application.
-
--   **[Focus the Navigator panel on an app file](https://www.servicenow.com/docs/access?context=qs-focus-navigator-panel-on-app-app-file&family=zurich&ft:locale=en-US)**
-
-Improve efficiency as you work in ServiceNow Studio by focusing the Navigator panel on any file or application open in an integrated tab.
-
--   **[Personalize your UI with dark theme](https://www.servicenow.com/docs/access?context=servicenow-studio-user-interface&family=zurich&ft:locale=en-US)**
-
-Dark theme is now supported in ServiceNow Studio. Access user preferences to switch between dark and light mode on your instance.
 
 -   **[Create an application](https://www.servicenow.com/docs/access?context=create-an-application-in-servicenow-studio&family=zurich&ft:locale=en-US)**
 
@@ -182,6 +169,27 @@ As of version 28.2.1, AppSee is supported in ServiceNow Studio.
 As of version 28.2.1, you can create files directly from an app open in the Navigator panel.
 
 
+ -   **[Add AI files to your apps in ServiceNow Studio](https://www.servicenow.com/docs/access?context=servicenow-studio-file-navigator-taxonomy&family=zurich&ft:locale=en-US)**
+
+You can add agentic workflows, AI Agents, and skills to your apps in ServiceNow Studio.
+
+-   **[Link an app to source control](https://www.servicenow.com/docs/access?context=link-app-to-source-control&family=zurich&ft:locale=en-US)**
+
+Use source control operations on the App details page to link an application to a Git repository.
+
+-   **[App details page](https://www.servicenow.com/docs/access?context=app-details-page&family=zurich&ft:locale=en-US)**
+
+View and manage app files and metadata on the enhanced App details page. You can also link your app to source control from the App details page and create new files for your application.
+
+-   **[Focus the Navigator panel on an app file](https://www.servicenow.com/docs/access?context=qs-focus-navigator-panel-on-app-app-file&family=zurich&ft:locale=en-US)**
+
+Improve efficiency as you work in ServiceNow Studio by focusing the Navigator panel on any file or application open in an integrated tab.
+
+-   **[Personalize your UI with dark theme](https://www.servicenow.com/docs/access?context=servicenow-studio-user-interface&family=zurich&ft:locale=en-US)**
+
+Dark theme is now supported in ServiceNow Studio. Access user preferences to switch between dark and light mode on your instance.
+
+
 </td></tr></tbody>
 </table>## Changes
 
@@ -209,13 +217,14 @@ Yokohama
 
 </td><td>
 
--   **[Modify an app's settings in ServiceNow Studio](https://www.servicenow.com/docs/access?context=modify-an-apps-settings-in-servicenow-studio&family=yokohama&ft:locale=en-US)**
-
-The App settings icon in ServiceNow Studio used to open a small modal where only a few settings could be updated and the app could be deleted. In this release, the icon opens a Core UI view of all the app settings and related links for the app.
-
 -   **[Create an application in ServiceNow Studio](https://www.servicenow.com/docs/access?context=create-an-application-in-servicenow-studio&family=yokohama&ft:locale=en-US)**
 
 As of version 27.2.4, the available options at the success page for creating an application changed from **Go to app dashboard** to **View App Details** and **Create File**.
+
+
+ -   **[Modify an app's settings in ServiceNow Studio](https://www.servicenow.com/docs/access?context=modify-an-apps-settings-in-servicenow-studio&family=yokohama&ft:locale=en-US)**
+
+The App settings icon in ServiceNow Studio used to open a small modal where only a few settings could be updated and the app could be deleted. In this release, the icon opens a Core UI view of all the app settings and related links for the app.
 
 
 </td></tr><tr><td>
@@ -224,7 +233,15 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **[App details page](https://www.servicenow.com/docs/access?context=app-details-page&family=zurich&ft:locale=en-US)**
+
+As of version 28.2.1, access to source control integration and collaboration functions on each App details page has moved into the More actions menu. Some icon placement depends on the configuration for each application.
+
+
+ -   **[Open in Creator Studio link](https://www.servicenow.com/docs/access?context=viewing-app-origination-information-in-sns&family=zurich&ft:locale=en-US)**
+
+The link to open an app in Creator Studio was previously available on the App details page in the app metadata section. The link is now in the More actions menu.
+
 
 </td></tr></tbody>
 </table>## Removed
@@ -327,7 +344,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 ServiceNow Studio is a ServiceNow AI Platform feature that is active by default.
+
 
 </td></tr><tr><td>
 
@@ -335,7 +355,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 ServiceNow Studio is a ServiceNow AI Platform feature that is active by default.
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -475,7 +498,10 @@ Yokohama
 
 </td><td>
 
+-   **Localization information**
+
 As of version 27.2.4, there is Right-to-Left language support for ServiceNow Studio.
+
 
 </td></tr><tr><td>
 

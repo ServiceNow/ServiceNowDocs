@@ -1,20 +1,20 @@
 ---
 title: Create a report
-description: Create a report to visualize and analyze current instance data or temporary data that you have imported.Enter a question on the Report Designer form, and Analytics Q&amp;A generates a report. Analytics Q&amp;A gives you a choice of data sources and picks an appropriate visualization.When you edit a form, you can also choose to save, share, run, delete, or view more information about the report.
+description: Create Core UI reports in the legacy Report Designer tool to visualize and analyze instance data.Enter a question on the Report Designer form, and Analytics Q&amp;A generates a report. Analytics Q&amp;A gives you a choice of data sources and picks an appropriate visualization.When you edit a form, you can also choose to save, share, run, delete, or view more information about the report.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/reporting/t\_CreateYourOwnReport.html
 release: zurich
 product: Reporting
 classification: reporting
 topic_type: task
-last_updated: "2025-11-17"
+last_updated: "2026-09-17"
 reading_time_minutes: 6
 breadcrumb: [Core UI Reporting, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Create a report
 
-Create a report to visualize and analyze current instance data or temporary data that you have imported.
+Create Core UI reports in the legacy Report Designer tool to visualize and analyze instance data.
 
 ## Before you begin
 
@@ -28,7 +28,7 @@ This topic refers to Reporting in the Core UI.
 
 1.  Follow one of these paths.
 
-<table id="choicetable_urt_hlc_5w"><tbody><tr><td id="d197029e82">
+<table id="choicetable_urt_hlc_5w"><tbody><tr><td id="d197657e85">
 
 **Create a report**
 
@@ -36,7 +36,7 @@ This topic refers to Reporting in the Core UI.
 
 Navigate to **Reports** &gt; **Create New**.
 
-</td></tr><tr><td id="d197029e100">
+</td></tr><tr><td id="d197657e103">
 
 **Edit an existing report**
 
@@ -44,7 +44,7 @@ Navigate to **Reports** &gt; **Create New**.
 
 Navigate to **Reports** &gt; **View / Run** and click the edit icon \(\[Omitted image "Pencil.png"\] Alt text: The edit icon\) beside the report name.
 
-</td></tr><tr><td id="d197029e122">
+</td></tr><tr><td id="d197657e125">
 
 **Create a report on a dashboard**
 
@@ -52,7 +52,7 @@ Navigate to **Reports** &gt; **View / Run** and click the edit icon \(\[Omitted 
 
 Navigate to the dashboard where you want to add the report, click the Add Widgets icon \(\[Omitted image "AddWidgetButton.png"\] Alt text: Plus sign button\), and select **Reports**.
 
-</td></tr><tr><td id="d197029e140">
+</td></tr><tr><td id="d197657e143">
 
 **Edit a report on a dashboard**
 
@@ -194,15 +194,7 @@ Export to PDF
 
 </td><td>
 
-Generates a PDF that you can download or email. This option is not available for calendar reports.**Note:** Drilldown reports do not export to PDF. If you select **Export to PDF** on a drilldown report, a PDF of the top-level report is generated.
-
-</td></tr><tr><td>
-
-Publish
-
-</td><td>
-
-Creates a URL for the report and displays the URL above the report form. You can email this URL to share the report.
+Generates a PDF that you can download or email. This option is not available for calendar reports.**Note:** Drilldown reports don't export to PDF. If you select **Export to PDF** on a drilldown report, a PDF of the top-level report is generated.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 

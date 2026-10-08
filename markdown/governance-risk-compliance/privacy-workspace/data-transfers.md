@@ -1,6 +1,6 @@
 ---
 title: Manage data transfers
-description: Organizations often transfer personal data between applications, vendors, business units, and regions, which might be subject to privacy regulations. The Privacy Management application captures each movement of personal data as a data transfer record on the processing activity.
+description: Organizations often transfer personal data between applications, vendors, business units, and regions, which are subject to privacy regulations. Privacy Management captures each movement as a data transfer record on the processing activity to help you comply with privacy regulations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/privacy-workspace/data-transfers.html
 release: zurich
@@ -15,7 +15,7 @@ breadcrumb: [Use, Privacy Management, Governance, Risk, and Compliance]
 
 # Manage data transfers
 
-Organizations often transfer personal data between applications, vendors, business units, and regions, which might be subject to privacy regulations. The Privacy Management application captures each movement of personal data as a data transfer record on the processing activity.
+Organizations often transfer personal data between applications, vendors, business units, and regions, which are subject to privacy regulations. Privacy Management captures each movement as a data transfer record on the processing activity to help you comply with privacy regulations.
 
 ## Overview of data transfer
 
@@ -30,7 +30,7 @@ By default, only the following relationship types generate data transfer records
 -   **Send data to**
 -   **Received data from**
 
-For information on the different relationship types, see [New hierarchy relationship forms in Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/new-relationship-forms.md).
+For information on the different relationship types, see [Hierarchy relationship forms in Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/new-relationship-forms.md).
 
 -   **Data transfer example**
 
@@ -75,7 +75,7 @@ An analyst reviews the data transfer records generated for a processing activity
 -   To add a transfer mechanism to a data transfer record, see [Add a transfer mechanism to a data transfer record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/add-transfer-mechanism-dt.md).
 -   To add new transfer mechanisms in your Privacy Workspace, see [Manage transfer mechanisms in the Privacy Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/update-transfer-mechanism.md).
 
-## Roles requirements
+## Role requirements
 
 |User|Required role|Task|
 |----|-------------|----|

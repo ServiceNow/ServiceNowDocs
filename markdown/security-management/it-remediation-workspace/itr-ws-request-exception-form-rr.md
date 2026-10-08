@@ -1,6 +1,6 @@
 ---
 title: Request exception form for risk reduction
-description: The following table shows the fields that you must fill on the Request exception form for risk reduction requests.
+description: The following table shows the fields that you must fill on the Request exception form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/it-remediation-workspace/itr-ws-request-exception-form-rr.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [Reference, IT Remediation Workspace, Vulnerability Response Workspa
 
 # Request exception form for risk reduction
 
-The following table shows the fields that you must fill on the Request exception form for risk reduction requests.
+The following table shows the fields that you must fill on the Request exception form.
 
 <table id="table_kxh_gh2_4lb"><thead><tr><th>
 
@@ -30,7 +30,7 @@ Reason
 
 </td><td>
 
-Reason for your exception request. Select Mitigating Control in Place for risk reduction request.To see how to add new reason choices, see [Define policy reason mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/application-vulnerability-response/define-policy-reason-mapping.md).
+Reason for your exception request.To see how to add new reason choices, see [Define policy reason mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/application-vulnerability-response/define-policy-reason-mapping.md).
 
 </td></tr><tr><td>
 
@@ -40,51 +40,13 @@ Request for Deferral
 
 Deffer the record. This field is selected by default.**Note:** This field appears only when the Mitigating Control in Place option is selected in the **Reason** field.
 
-</td></tr><tr><td id="entry-risk-reduction">
-
-Request for Risk Reduction
-
-</td><td>
-
-Enables you to request for the risk score reduction.**Note:** This check box appears only when the Mitigating Control in Place option is selected in the **Reason** field.
-
-</td></tr><tr><td>
-
-Current Risk Rating
-
-</td><td>
-
-Current severity of the risk.**Note:** This field appears only when the **Request for Risk Reduction** check box is selected.
-
-</td></tr><tr><td>
-
-Desired Risk Rating
-
-</td><td>
-
-New risk rating that you want to assign to the record.The highest risk score in this risk rating range is applied to the record when your request is approved.
-
-**Note:** This field appears only when the **Request for Risk Reduction** check box is selected.
-
-</td></tr><tr><td id="entry-select-controls">
-
-Select Compensating Controls
-
-</td><td>
-
-Reason for your request to reduce the risk rating.
-
 </td></tr><tr><td>
 
 Until
 
 </td><td>
 
-Date on which the deferral or risk reduction request expires.When the exception request expires:
-
--   The record reverts to the Open state.
--   The compensating controls expire.
--   The calculated score will be in place of a reduced score.
+Date on which the deferral request expires.When the exception request expires, the record reverts to the Open state.
 
 </td></tr><tr><td>
 
@@ -100,5 +62,7 @@ Details that are related to the reason why this request is being made.
 **Related topics**  
 
 
-[Request risk reduction for a vulnerable item or remediation task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/it-remediation-workspace/request-risk-reduction.md)
+[Request a risk modification for a vulnerable item or remediation task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/it-remediation-workspace/request-risk-reduction.md)
+
+[Modify the risk rating for a finding or remediation task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sem-modify-risk.md)
 

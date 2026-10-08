@@ -7,9 +7,9 @@ release: zurich
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit
 topic_type: concept
-last_updated: "2025-08-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure skill deployment settings, Configuring AI Skill Kit, AI Skill Kit, Enable AI experiences]
+breadcrumb: [Configure deployment and skill settings, Configuring AI Skill Kit, AI Skill Kit, Enable AI experiences]
 ---
 
 # Example deployment with Workflow Studio
@@ -28,7 +28,7 @@ To deploy the skill:
 1.  Navigate to **Skill settings**.
 2.  Select **Deployment settings**.
 3.  Select a workflow.
-4.  Select a product
+4.  Select a product.
 5.  Select a feature.
 6.  Select where you want the admin to enable the skill from. For this example, select Workflow Studio.
 
@@ -41,5 +41,5 @@ To execute the skill:
 3.  Navigate to Workflow Studio.
 4.  Add the [Execute Skill action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/execute-skill-action.md).
 
-**Parent Topic:**[Configure skill deployment settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skill-kit/configure-skill-settings.md)
+**Parent Topic:**[Configure deployment and skill settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skill-kit/configure-skill-settings.md)
 

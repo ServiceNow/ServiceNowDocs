@@ -16,7 +16,7 @@ breadcrumb: [Discovery for Microsoft Azure Cloud, Discovery for cloud environmen
 
 If your cloud resources are in an Azure cloud, create credentials that can access the Azure account. This procedure requires configuration in your Azure account.
 
-## Verify the REST API Permissions
+## Verify the REST API permissions
 
 Download the [Cloud Discovery patterns spreadsheet](https://downloads.docs.servicenow.com/resource/enus/api/servicenow-discovery-patterns-api-details.xlsx) so you can grant user permissions required for running the Discovery patterns. In addition to permissions, the spreadsheet also includes useful information such as pattern names, types, CI Classes, and links to vendor documentation. New patterns are available quarterly, so check periodically to be sure you have the latest version of the spreadsheet.
 
@@ -94,15 +94,15 @@ Expiration for the key.**Note:** Your organization may apply policies to restric
 
     -   Management group: Use this option to grant Reader access to all subscriptions under the management group
     -   Individual subscription: Use this option to grant Reader access to a specific subscription only
-<table id="choicetable_fwr_vmt_p3c"><thead><tr><th align="left" id="d620666e353">
+<table id="choicetable_fwr_vmt_p3c"><thead><tr><th align="left" id="d643136e354">
 
 Option
 
-</th><th align="left" id="d620666e356">
+</th><th align="left" id="d643136e357">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d620666e362">
+</th></tr></thead><tbody><tr><td id="d643136e363">
 
 **Management group**
 
@@ -120,7 +120,7 @@ Steps
 7.  Select **Save**.
 
 
-</td></tr><tr><td id="d620666e434">
+</td></tr><tr><td id="d643136e435">
 
 **Individual subscription**
 

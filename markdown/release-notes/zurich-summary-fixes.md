@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/zurich-summary-fixes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 37
+last_updated: "2026-10-08"
+reading_time_minutes: 75
 breadcrumb: [Learn about the Zurich release, Zurich release notes]
 ---
 
@@ -82,11 +82,47 @@ Xanadu Patch 3
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from xanadu patch 3 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-x03.00-z10.08.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 3
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from xanadu patch 3 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-x03.00-z11.05.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 3
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from xanadu patch 3 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-x03.00-z11.06.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 3
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from xanadu patch 3 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-x03.00-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -130,11 +166,47 @@ Xanadu Patch 3 Hot Fix 1
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from xanadu patch 3 hot fix 1 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-x03.01-z10.08.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 3 Hot Fix 1
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from xanadu patch 3 hot fix 1 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-x03.01-z11.05.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 3 Hot Fix 1
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from xanadu patch 3 hot fix 1 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-x03.01-z11.06.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 3 Hot Fix 1
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from xanadu patch 3 hot fix 1 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-x03.01-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -178,11 +250,47 @@ Xanadu Patch 4
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from xanadu patch 4 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-x04.00-z10.08.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 4
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from xanadu patch 4 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-x04.00-z11.05.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 4
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from xanadu patch 4 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-x04.00-z11.06.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 4
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from xanadu patch 4 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-x04.00-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -226,11 +334,47 @@ Xanadu Patch 5
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from xanadu patch 5 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-x05.00-z10.08.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 5
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from xanadu patch 5 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-x05.00-z11.05.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 5
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from xanadu patch 5 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-x05.00-z11.06.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 5
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from xanadu patch 5 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-x05.00-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -274,11 +418,47 @@ Xanadu Patch 7
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from xanadu patch 7 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-x07.00-z10.08.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 7
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from xanadu patch 7 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-x07.00-z11.05.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 7
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from xanadu patch 7 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-x07.00-z11.06.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 7
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from xanadu patch 7 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-x07.00-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -322,11 +502,47 @@ Xanadu Patch 7a
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from xanadu patch 7a to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-x07a.00-z10.08.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 7a
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from xanadu patch 7a to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-x07a.00-z11.05.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 7a
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from xanadu patch 7a to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-x07a.00-z11.06.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 7a
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from xanadu patch 7a to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-x07a.00-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -370,11 +586,47 @@ Xanadu Patch 8
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from xanadu patch 8 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-x08.00-z10.08.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 8
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from xanadu patch 8 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-x08.00-z11.05.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 8
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from xanadu patch 8 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-x08.00-z11.06.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 8
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from xanadu patch 8 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-x08.00-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -418,11 +670,47 @@ Xanadu Patch 9
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from xanadu patch 9 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-x09.00-z10.08.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 9
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from xanadu patch 9 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-x09.00-z11.05.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 9
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from xanadu patch 9 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-x09.00-z11.06.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 9
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from xanadu patch 9 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-x09.00-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -466,11 +754,47 @@ Xanadu Patch 9a
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from xanadu patch 9a to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-x09a.00-z10.08.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 9a
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from xanadu patch 9a to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-x09a.00-z11.05.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 9a
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from xanadu patch 9a to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-x09a.00-z11.06.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 9a
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from xanadu patch 9a to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-x09a.00-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -514,11 +838,47 @@ Xanadu Patch 11 Hot Fix 1
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from xanadu patch 11 hot fix 1 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-x11.01-z10.08.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 11 Hot Fix 1
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from xanadu patch 11 hot fix 1 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-x11.01-z11.05.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 11 Hot Fix 1
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from xanadu patch 11 hot fix 1 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-x11.01-z11.06.csv)
+
+</td></tr><tr><td>
+
+Xanadu Patch 11 Hot Fix 1
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from xanadu patch 11 hot fix 1 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-x11.01-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -562,11 +922,47 @@ Yokohama Early Access
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from yokohama early access to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y00.00-z10.08.csv)
+
+</td></tr><tr><td>
+
+Yokohama Early Access
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from yokohama early access to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y00.00-z11.05.csv)
+
+</td></tr><tr><td>
+
+Yokohama Early Access
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from yokohama early access to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y00.00-z11.06.csv)
+
+</td></tr><tr><td>
+
+Yokohama Early Access
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from yokohama early access to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y00.00-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -610,11 +1006,47 @@ Yokohama Early Access Hot Fix 1
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from yokohama early access hot fix 1 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y00.01-z10.08.csv)
+
+</td></tr><tr><td>
+
+Yokohama Early Access Hot Fix 1
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from yokohama early access hot fix 1 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y00.01-z11.05.csv)
+
+</td></tr><tr><td>
+
+Yokohama Early Access Hot Fix 1
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from yokohama early access hot fix 1 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y00.01-z11.06.csv)
+
+</td></tr><tr><td>
+
+Yokohama Early Access Hot Fix 1
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from yokohama early access hot fix 1 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y00.01-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -658,11 +1090,47 @@ Yokohama Patch 1
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from yokohama patch 1 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y01.00-z10.08.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 1
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from yokohama patch 1 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y01.00-z11.05.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 1
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from yokohama patch 1 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y01.00-z11.06.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 1
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from yokohama patch 1 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y01.00-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -706,11 +1174,47 @@ Yokohama Patch 2
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from yokohama patch 2 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y02.00-z10.08.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 2
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from yokohama patch 2 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y02.00-z11.05.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 2
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from yokohama patch 2 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y02.00-z11.06.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 2
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from yokohama patch 2 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y02.00-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -754,11 +1258,47 @@ Yokohama Patch 3
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from yokohama patch 3 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y03.00-z10.08.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 3
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from yokohama patch 3 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y03.00-z11.05.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 3
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from yokohama patch 3 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y03.00-z11.06.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 3
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from yokohama patch 3 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y03.00-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -802,11 +1342,47 @@ Yokohama Patch 3 Hot Fix 2
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from yokohama patch 3 hot fix 2 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y03.02-z10.08.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 3 Hot Fix 2
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from yokohama patch 3 hot fix 2 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y03.02-z11.05.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 3 Hot Fix 2
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from yokohama patch 3 hot fix 2 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y03.02-z11.06.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 3 Hot Fix 2
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from yokohama patch 3 hot fix 2 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y03.02-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -850,11 +1426,47 @@ Yokohama Patch 3 Hot Fix 5
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from yokohama patch 3 hot fix 5 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y03.05-z10.08.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 3 Hot Fix 5
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from yokohama patch 3 hot fix 5 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y03.05-z11.05.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 3 Hot Fix 5
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from yokohama patch 3 hot fix 5 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y03.05-z11.06.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 3 Hot Fix 5
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from yokohama patch 3 hot fix 5 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y03.05-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -898,11 +1510,47 @@ Yokohama Patch 4a
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from yokohama patch 4a to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y04a.00-z10.08.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 4a
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from yokohama patch 4a to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y04a.00-z11.05.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 4a
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from yokohama patch 4a to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y04a.00-z11.06.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 4a
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from yokohama patch 4a to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y04a.00-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -946,11 +1594,47 @@ Yokohama Patch 5
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from yokohama patch 5 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y05.00-z10.08.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 5
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from yokohama patch 5 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y05.00-z11.05.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 5
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from yokohama patch 5 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y05.00-z11.06.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 5
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from yokohama patch 5 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y05.00-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -994,11 +1678,47 @@ Yokohama Patch 5 Hot Fix 1
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from yokohama patch 5 hot fix 1 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y05.01-z10.08.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 5 Hot Fix 1
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from yokohama patch 5 hot fix 1 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y05.01-z11.05.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 5 Hot Fix 1
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from yokohama patch 5 hot fix 1 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y05.01-z11.06.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 5 Hot Fix 1
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from yokohama patch 5 hot fix 1 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y05.01-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -1042,11 +1762,47 @@ Yokohama Patch 5 Hot Fix 4
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from yokohama patch 5 hot fix 4 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y05.04-z10.08.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 5 Hot Fix 4
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from yokohama patch 5 hot fix 4 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y05.04-z11.05.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 5 Hot Fix 4
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from yokohama patch 5 hot fix 4 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y05.04-z11.06.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 5 Hot Fix 4
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from yokohama patch 5 hot fix 4 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y05.04-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -1090,11 +1846,47 @@ Yokohama Patch 6
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from yokohama patch 6 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y06.00-z10.08.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 6
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from yokohama patch 6 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y06.00-z11.05.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 6
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from yokohama patch 6 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y06.00-z11.06.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 6
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from yokohama patch 6 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y06.00-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -1138,11 +1930,47 @@ Yokohama Patch 6 Hot Fix 1
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from yokohama patch 6 hot fix 1 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y06.01-z10.08.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 6 Hot Fix 1
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from yokohama patch 6 hot fix 1 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y06.01-z11.05.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 6 Hot Fix 1
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from yokohama patch 6 hot fix 1 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y06.01-z11.06.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 6 Hot Fix 1
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from yokohama patch 6 hot fix 1 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y06.01-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -1186,11 +2014,47 @@ Yokohama Patch 6 Hot Fix 2
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from yokohama patch 6 hot fix 2 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y06.02-z10.08.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 6 Hot Fix 2
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from yokohama patch 6 hot fix 2 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y06.02-z11.05.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 6 Hot Fix 2
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from yokohama patch 6 hot fix 2 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y06.02-z11.06.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 6 Hot Fix 2
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from yokohama patch 6 hot fix 2 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y06.02-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -1234,11 +2098,47 @@ Yokohama Patch 6 Hot Fix 3
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from yokohama patch 6 hot fix 3 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y06.03-z10.08.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 6 Hot Fix 3
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from yokohama patch 6 hot fix 3 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y06.03-z11.05.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 6 Hot Fix 3
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from yokohama patch 6 hot fix 3 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y06.03-z11.06.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 6 Hot Fix 3
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from yokohama patch 6 hot fix 3 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y06.03-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -1282,11 +2182,47 @@ Yokohama Patch 7 Hot Fix 2
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from yokohama patch 7 hot fix 2 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y07.02-z10.08.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 7 Hot Fix 2
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from yokohama patch 7 hot fix 2 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y07.02-z11.05.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 7 Hot Fix 2
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from yokohama patch 7 hot fix 2 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y07.02-z11.06.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 7 Hot Fix 2
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from yokohama patch 7 hot fix 2 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y07.02-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -1330,11 +2266,47 @@ Yokohama Patch 7 Hot Fix 6
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from yokohama patch 7 hot fix 6 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y07.06-z10.08.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 7 Hot Fix 6
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from yokohama patch 7 hot fix 6 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y07.06-z11.05.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 7 Hot Fix 6
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from yokohama patch 7 hot fix 6 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y07.06-z11.06.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 7 Hot Fix 6
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from yokohama patch 7 hot fix 6 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y07.06-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -1378,11 +2350,47 @@ Yokohama Patch 8
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from yokohama patch 8 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y08.00-z10.08.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 8
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from yokohama patch 8 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y08.00-z11.05.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 8
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from yokohama patch 8 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y08.00-z11.06.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 8
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from yokohama patch 8 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y08.00-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -1426,11 +2434,47 @@ Yokohama Patch 8 Hot Fix 1
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from yokohama patch 8 hot fix 1 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y08.01-z10.08.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 8 Hot Fix 1
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from yokohama patch 8 hot fix 1 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y08.01-z11.05.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 8 Hot Fix 1
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from yokohama patch 8 hot fix 1 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y08.01-z11.06.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 8 Hot Fix 1
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from yokohama patch 8 hot fix 1 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y08.01-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -1474,11 +2518,47 @@ Yokohama Patch 9
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from yokohama patch 9 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y09.00-z10.08.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 9
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from yokohama patch 9 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y09.00-z11.05.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 9
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from yokohama patch 9 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y09.00-z11.06.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 9
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from yokohama patch 9 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y09.00-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -1522,11 +2602,47 @@ Yokohama Patch 9 Hot Fix 2
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from yokohama patch 9 hot fix 2 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y09.02-z10.08.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 9 Hot Fix 2
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from yokohama patch 9 hot fix 2 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y09.02-z11.05.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 9 Hot Fix 2
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from yokohama patch 9 hot fix 2 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y09.02-z11.06.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 9 Hot Fix 2
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from yokohama patch 9 hot fix 2 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y09.02-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -1570,11 +2686,47 @@ Yokohama Patch 10
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from yokohama patch 10 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y10.00-z10.08.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 10
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from yokohama patch 10 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y10.00-z11.05.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 10
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from yokohama patch 10 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y10.00-z11.06.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 10
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from yokohama patch 10 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y10.00-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -1618,11 +2770,47 @@ Yokohama Patch 10 Hot Fix 1
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from yokohama patch 10 hot fix 1 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y10.01-z10.08.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 10 Hot Fix 1
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from yokohama patch 10 hot fix 1 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y10.01-z11.05.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 10 Hot Fix 1
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from yokohama patch 10 hot fix 1 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y10.01-z11.06.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 10 Hot Fix 1
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from yokohama patch 10 hot fix 1 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y10.01-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -1666,11 +2854,47 @@ Yokohama Patch 11
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from yokohama patch 11 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y11.00-z10.08.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 11
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from yokohama patch 11 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y11.00-z11.05.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 11
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from yokohama patch 11 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y11.00-z11.06.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 11
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from yokohama patch 11 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y11.00-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -1714,11 +2938,47 @@ Yokohama Patch 11 Hot Fix 1
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from yokohama patch 11 hot fix 1 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y11.01-z10.08.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 11 Hot Fix 1
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from yokohama patch 11 hot fix 1 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y11.01-z11.05.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 11 Hot Fix 1
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from yokohama patch 11 hot fix 1 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y11.01-z11.06.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 11 Hot Fix 1
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from yokohama patch 11 hot fix 1 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y11.01-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -1762,11 +3022,47 @@ Yokohama Patch 11 Hot Fix 2
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from yokohama patch 11 hot fix 2 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y11.02-z10.08.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 11 Hot Fix 2
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from yokohama patch 11 hot fix 2 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y11.02-z11.05.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 11 Hot Fix 2
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from yokohama patch 11 hot fix 2 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y11.02-z11.06.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 11 Hot Fix 2
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from yokohama patch 11 hot fix 2 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y11.02-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -1810,11 +3106,131 @@ Yokohama Patch 11 Hot Fix 3
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from yokohama patch 11 hot fix 3 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y11.03-z10.08.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 11 Hot Fix 3
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from yokohama patch 11 hot fix 3 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y11.03-z11.05.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 11 Hot Fix 3
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from yokohama patch 11 hot fix 3 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y11.03-z11.06.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 11 Hot Fix 3
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from yokohama patch 11 hot fix 3 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y11.03-z13.00.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 11 Hot Fix 4
+
+</td><td>
+
+Zurich Patch 1 Hot Fix 2
+
+</td><td>
+
+from yokohama patch 11 hot fix 4 to zurich patch 1 hot fix 2[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y11.04-z01.02.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 11 Hot Fix 4
+
+</td><td>
+
+Zurich Patch 7
+
+</td><td>
+
+from yokohama patch 11 hot fix 4 to zurich patch 7[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y11.04-z07.00.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 11 Hot Fix 4
+
+</td><td>
+
+Zurich Patch 10 Hot Fix 1
+
+</td><td>
+
+from yokohama patch 11 hot fix 4 to zurich patch 10 hot fix 1[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y11.04-z10.01.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 11 Hot Fix 4
+
+</td><td>
+
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from yokohama patch 11 hot fix 4 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y11.04-z10.08.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 11 Hot Fix 4
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 5
+
+</td><td>
+
+from yokohama patch 11 hot fix 4 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y11.04-z11.05.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 11 Hot Fix 4
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from yokohama patch 11 hot fix 4 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y11.04-z11.06.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 11 Hot Fix 4
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from yokohama patch 11 hot fix 4 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y11.04-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -1858,11 +3274,47 @@ Yokohama Patch 12
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from yokohama patch 12 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y12.00-z10.08.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 12
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from yokohama patch 12 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y12.00-z11.05.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 12
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from yokohama patch 12 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y12.00-z11.06.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 12
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from yokohama patch 12 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y12.00-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -1906,11 +3358,47 @@ Yokohama Patch 12 Hot Fix 1
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from yokohama patch 12 hot fix 1 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y12.01-z10.08.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 12 Hot Fix 1
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from yokohama patch 12 hot fix 1 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y12.01-z11.05.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 12 Hot Fix 1
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from yokohama patch 12 hot fix 1 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y12.01-z11.06.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 12 Hot Fix 1
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from yokohama patch 12 hot fix 1 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y12.01-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -1954,11 +3442,47 @@ Yokohama Patch 12 Hot Fix 2
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from yokohama patch 12 hot fix 2 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y12.02-z10.08.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 12 Hot Fix 2
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from yokohama patch 12 hot fix 2 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y12.02-z11.05.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 12 Hot Fix 2
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from yokohama patch 12 hot fix 2 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y12.02-z11.06.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 12 Hot Fix 2
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from yokohama patch 12 hot fix 2 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y12.02-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -2002,11 +3526,47 @@ Yokohama Patch 13
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from yokohama patch 13 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y13.00-z10.08.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 13
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from yokohama patch 13 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y13.00-z11.05.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 13
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from yokohama patch 13 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y13.00-z11.06.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 13
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from yokohama patch 13 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y13.00-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -2050,11 +3610,47 @@ Yokohama Patch 13 Hot Fix 1
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from yokohama patch 13 hot fix 1 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y13.01-z10.08.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 13 Hot Fix 1
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from yokohama patch 13 hot fix 1 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y13.01-z11.05.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 13 Hot Fix 1
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from yokohama patch 13 hot fix 1 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y13.01-z11.06.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 13 Hot Fix 1
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from yokohama patch 13 hot fix 1 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y13.01-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -2098,11 +3694,47 @@ Yokohama Patch 13 Hot Fix 2
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from yokohama patch 13 hot fix 2 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y13.02-z10.08.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 13 Hot Fix 2
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from yokohama patch 13 hot fix 2 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y13.02-z11.05.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 13 Hot Fix 2
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from yokohama patch 13 hot fix 2 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y13.02-z11.06.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 13 Hot Fix 2
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from yokohama patch 13 hot fix 2 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y13.02-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -2146,11 +3778,47 @@ Yokohama Patch 13 Hot Fix 3
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from yokohama patch 13 hot fix 3 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y13.03-z10.08.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 13 Hot Fix 3
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from yokohama patch 13 hot fix 3 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y13.03-z11.05.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 13 Hot Fix 3
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from yokohama patch 13 hot fix 3 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y13.03-z11.06.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 13 Hot Fix 3
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from yokohama patch 13 hot fix 3 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y13.03-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -2194,11 +3862,47 @@ Yokohama Patch 13 Hot Fix 4
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from yokohama patch 13 hot fix 4 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y13.04-z10.08.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 13 Hot Fix 4
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from yokohama patch 13 hot fix 4 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y13.04-z11.05.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 13 Hot Fix 4
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from yokohama patch 13 hot fix 4 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y13.04-z11.06.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 13 Hot Fix 4
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from yokohama patch 13 hot fix 4 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y13.04-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -2242,11 +3946,47 @@ Yokohama Patch 13 Hot Fix 5
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from yokohama patch 13 hot fix 5 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y13.05-z10.08.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 13 Hot Fix 5
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from yokohama patch 13 hot fix 5 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y13.05-z11.05.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 13 Hot Fix 5
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from yokohama patch 13 hot fix 5 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y13.05-z11.06.csv)
+
+</td></tr><tr><td>
+
+Yokohama Patch 13 Hot Fix 5
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from yokohama patch 13 hot fix 5 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-y13.05-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -2290,11 +4030,47 @@ Zurich Patch 1
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from zurich patch 1 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z01.00-z10.08.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 1
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from zurich patch 1 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z01.00-z11.05.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 1
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from zurich patch 1 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z01.00-z11.06.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 1
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from zurich patch 1 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z01.00-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -2338,11 +4114,47 @@ Zurich Patch 1 Hot Fix 1
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from zurich patch 1 hot fix 1 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z01.01-z10.08.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 1 Hot Fix 1
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from zurich patch 1 hot fix 1 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z01.01-z11.05.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 1 Hot Fix 1
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from zurich patch 1 hot fix 1 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z01.01-z11.06.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 1 Hot Fix 1
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from zurich patch 1 hot fix 1 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z01.01-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -2374,11 +4186,47 @@ Zurich Patch 1 Hot Fix 2
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from zurich patch 1 hot fix 2 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z01.02-z10.08.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 1 Hot Fix 2
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from zurich patch 1 hot fix 2 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z01.02-z11.05.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 1 Hot Fix 2
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from zurich patch 1 hot fix 2 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z01.02-z11.06.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 1 Hot Fix 2
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from zurich patch 1 hot fix 2 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z01.02-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -2410,11 +4258,47 @@ Zurich Patch 2
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from zurich patch 2 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z02.00-z10.08.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 2
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from zurich patch 2 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z02.00-z11.05.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 2
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from zurich patch 2 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z02.00-z11.06.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 2
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from zurich patch 2 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z02.00-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -2446,11 +4330,47 @@ Zurich Patch 2 Hot Fix 1
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from zurich patch 2 hot fix 1 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z02.01-z10.08.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 2 Hot Fix 1
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from zurich patch 2 hot fix 1 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z02.01-z11.05.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 2 Hot Fix 1
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from zurich patch 2 hot fix 1 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z02.01-z11.06.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 2 Hot Fix 1
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from zurich patch 2 hot fix 1 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z02.01-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -2482,11 +4402,47 @@ Zurich Patch 2 Hot Fix 2
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from zurich patch 2 hot fix 2 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z02.02-z10.08.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 2 Hot Fix 2
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from zurich patch 2 hot fix 2 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z02.02-z11.05.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 2 Hot Fix 2
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from zurich patch 2 hot fix 2 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z02.02-z11.06.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 2 Hot Fix 2
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from zurich patch 2 hot fix 2 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z02.02-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -2518,11 +4474,47 @@ Zurich Patch 2 Hot Fix 3
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from zurich patch 2 hot fix 3 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z02.03-z10.08.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 2 Hot Fix 3
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from zurich patch 2 hot fix 3 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z02.03-z11.05.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 2 Hot Fix 3
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from zurich patch 2 hot fix 3 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z02.03-z11.06.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 2 Hot Fix 3
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from zurich patch 2 hot fix 3 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z02.03-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -2554,11 +4546,47 @@ Zurich Patch 3
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from zurich patch 3 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z03.00-z10.08.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 3
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from zurich patch 3 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z03.00-z11.05.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 3
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from zurich patch 3 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z03.00-z11.06.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 3
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from zurich patch 3 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z03.00-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -2590,11 +4618,47 @@ Zurich Patch 3 Hot Fix 1
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from zurich patch 3 hot fix 1 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z03.01-z10.08.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 3 Hot Fix 1
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from zurich patch 3 hot fix 1 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z03.01-z11.05.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 3 Hot Fix 1
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from zurich patch 3 hot fix 1 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z03.01-z11.06.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 3 Hot Fix 1
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from zurich patch 3 hot fix 1 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z03.01-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -2626,11 +4690,47 @@ Zurich Patch 3 Hot Fix 2
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from zurich patch 3 hot fix 2 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z03.02-z10.08.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 3 Hot Fix 2
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from zurich patch 3 hot fix 2 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z03.02-z11.05.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 3 Hot Fix 2
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from zurich patch 3 hot fix 2 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z03.02-z11.06.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 3 Hot Fix 2
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from zurich patch 3 hot fix 2 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z03.02-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -2662,11 +4762,47 @@ Zurich Patch 3 Hot Fix 3
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from zurich patch 3 hot fix 3 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z03.03-z10.08.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 3 Hot Fix 3
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from zurich patch 3 hot fix 3 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z03.03-z11.05.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 3 Hot Fix 3
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from zurich patch 3 hot fix 3 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z03.03-z11.06.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 3 Hot Fix 3
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from zurich patch 3 hot fix 3 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z03.03-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -2698,11 +4834,47 @@ Zurich Patch 4
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from zurich patch 4 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z04.00-z10.08.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 4
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from zurich patch 4 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z04.00-z11.05.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 4
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from zurich patch 4 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z04.00-z11.06.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 4
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from zurich patch 4 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z04.00-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -2734,11 +4906,47 @@ Zurich Patch 4 Hot Fix 1
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from zurich patch 4 hot fix 1 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z04.01-z10.08.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 4 Hot Fix 1
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from zurich patch 4 hot fix 1 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z04.01-z11.05.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 4 Hot Fix 1
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from zurich patch 4 hot fix 1 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z04.01-z11.06.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 4 Hot Fix 1
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from zurich patch 4 hot fix 1 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z04.01-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -2770,11 +4978,47 @@ Zurich Patch 4 Hot Fix 2
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from zurich patch 4 hot fix 2 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z04.02-z10.08.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 4 Hot Fix 2
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from zurich patch 4 hot fix 2 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z04.02-z11.05.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 4 Hot Fix 2
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from zurich patch 4 hot fix 2 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z04.02-z11.06.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 4 Hot Fix 2
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from zurich patch 4 hot fix 2 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z04.02-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -2806,11 +5050,47 @@ Zurich Patch 4 Hot Fix 3
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from zurich patch 4 hot fix 3 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z04.03-z10.08.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 4 Hot Fix 3
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from zurich patch 4 hot fix 3 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z04.03-z11.05.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 4 Hot Fix 3
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from zurich patch 4 hot fix 3 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z04.03-z11.06.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 4 Hot Fix 3
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from zurich patch 4 hot fix 3 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z04.03-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -2842,11 +5122,47 @@ Zurich Patch 4 Hot Fix 4
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from zurich patch 4 hot fix 4 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z04.04-z10.08.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 4 Hot Fix 4
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from zurich patch 4 hot fix 4 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z04.04-z11.05.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 4 Hot Fix 4
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from zurich patch 4 hot fix 4 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z04.04-z11.06.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 4 Hot Fix 4
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from zurich patch 4 hot fix 4 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z04.04-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -2878,11 +5194,47 @@ Zurich Patch 4 Hot Fix 5
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from zurich patch 4 hot fix 5 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z04.05-z10.08.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 4 Hot Fix 5
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from zurich patch 4 hot fix 5 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z04.05-z11.05.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 4 Hot Fix 5
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from zurich patch 4 hot fix 5 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z04.05-z11.06.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 4 Hot Fix 5
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from zurich patch 4 hot fix 5 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z04.05-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -2914,11 +5266,47 @@ Zurich Patch 4 Hot Fix 6
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from zurich patch 4 hot fix 6 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z04.06-z10.08.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 4 Hot Fix 6
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from zurich patch 4 hot fix 6 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z04.06-z11.05.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 4 Hot Fix 6
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from zurich patch 4 hot fix 6 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z04.06-z11.06.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 4 Hot Fix 6
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from zurich patch 4 hot fix 6 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z04.06-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -2950,11 +5338,47 @@ Zurich Patch 5 Hot Fix 1
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from zurich patch 5 hot fix 1 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z05.01-z10.08.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 5 Hot Fix 1
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from zurich patch 5 hot fix 1 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z05.01-z11.05.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 5 Hot Fix 1
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from zurich patch 5 hot fix 1 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z05.01-z11.06.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 5 Hot Fix 1
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from zurich patch 5 hot fix 1 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z05.01-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -2986,11 +5410,47 @@ Zurich Patch 6
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from zurich patch 6 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z06.00-z10.08.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 6
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from zurich patch 6 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z06.00-z11.05.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 6
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from zurich patch 6 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z06.00-z11.06.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 6
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from zurich patch 6 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z06.00-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -3022,11 +5482,47 @@ Zurich Patch 6 Hot Fix 1
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from zurich patch 6 hot fix 1 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z06.01-z10.08.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 6 Hot Fix 1
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from zurich patch 6 hot fix 1 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z06.01-z11.05.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 6 Hot Fix 1
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from zurich patch 6 hot fix 1 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z06.01-z11.06.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 6 Hot Fix 1
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from zurich patch 6 hot fix 1 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z06.01-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -3058,11 +5554,47 @@ Zurich Patch 6 Hot Fix 2
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from zurich patch 6 hot fix 2 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z06.02-z10.08.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 6 Hot Fix 2
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from zurich patch 6 hot fix 2 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z06.02-z11.05.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 6 Hot Fix 2
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from zurich patch 6 hot fix 2 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z06.02-z11.06.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 6 Hot Fix 2
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from zurich patch 6 hot fix 2 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z06.02-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -3082,11 +5614,47 @@ Zurich Patch 7
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from zurich patch 7 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z07.00-z10.08.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 7
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from zurich patch 7 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z07.00-z11.05.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 7
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from zurich patch 7 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z07.00-z11.06.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 7
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from zurich patch 7 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z07.00-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -3106,11 +5674,47 @@ Zurich Patch 7 Hot Fix 1
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from zurich patch 7 hot fix 1 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z07.01-z10.08.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 7 Hot Fix 1
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from zurich patch 7 hot fix 1 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z07.01-z11.05.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 7 Hot Fix 1
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from zurich patch 7 hot fix 1 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z07.01-z11.06.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 7 Hot Fix 1
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from zurich patch 7 hot fix 1 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z07.01-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -3130,11 +5734,47 @@ Zurich Patch 7 Hot Fix 3
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from zurich patch 7 hot fix 3 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z07.03-z10.08.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 7 Hot Fix 3
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from zurich patch 7 hot fix 3 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z07.03-z11.05.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 7 Hot Fix 3
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from zurich patch 7 hot fix 3 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z07.03-z11.06.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 7 Hot Fix 3
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from zurich patch 7 hot fix 3 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z07.03-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -3154,11 +5794,47 @@ Zurich Patch 7a
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from zurich patch 7a to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z07a.00-z10.08.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 7a
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from zurich patch 7a to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z07a.00-z11.05.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 7a
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from zurich patch 7a to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z07a.00-z11.06.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 7a
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from zurich patch 7a to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z07a.00-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -3178,11 +5854,47 @@ Zurich Patch 7a Hot Fix 1
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from zurich patch 7a hot fix 1 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z07a.01-z10.08.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 7a Hot Fix 1
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from zurich patch 7a hot fix 1 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z07a.01-z11.05.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 7a Hot Fix 1
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from zurich patch 7a hot fix 1 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z07a.01-z11.06.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 7a Hot Fix 1
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from zurich patch 7a hot fix 1 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z07a.01-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -3202,11 +5914,47 @@ Zurich Patch 7b
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from zurich patch 7b to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z07b.00-z10.08.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 7b
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from zurich patch 7b to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z07b.00-z11.05.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 7b
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from zurich patch 7b to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z07b.00-z11.06.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 7b
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from zurich patch 7b to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z07b.00-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -3226,11 +5974,47 @@ Zurich Patch 7b Hot Fix 1
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from zurich patch 7b hot fix 1 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z07b.01-z10.08.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 7b Hot Fix 1
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from zurich patch 7b hot fix 1 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z07b.01-z11.05.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 7b Hot Fix 1
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from zurich patch 7b hot fix 1 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z07b.01-z11.06.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 7b Hot Fix 1
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from zurich patch 7b hot fix 1 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z07b.01-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -3250,11 +6034,47 @@ Zurich Patch 7b Hot Fix 2
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from zurich patch 7b hot fix 2 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z07b.02-z10.08.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 7b Hot Fix 2
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from zurich patch 7b hot fix 2 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z07b.02-z11.05.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 7b Hot Fix 2
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from zurich patch 7b hot fix 2 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z07b.02-z11.06.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 7b Hot Fix 2
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from zurich patch 7b hot fix 2 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z07b.02-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -3274,11 +6094,47 @@ Zurich Patch 7b Hot Fix 3
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from zurich patch 7b hot fix 3 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z07b.03-z10.08.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 7b Hot Fix 3
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from zurich patch 7b hot fix 3 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z07b.03-z11.05.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 7b Hot Fix 3
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from zurich patch 7b hot fix 3 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z07b.03-z11.06.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 7b Hot Fix 3
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from zurich patch 7b hot fix 3 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z07b.03-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -3298,11 +6154,47 @@ Zurich Patch 8
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from zurich patch 8 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z08.00-z10.08.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 8
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from zurich patch 8 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z08.00-z11.05.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 8
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from zurich patch 8 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z08.00-z11.06.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 8
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from zurich patch 8 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z08.00-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -3322,11 +6214,47 @@ Zurich Patch 8 Hot Fix 1
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from zurich patch 8 hot fix 1 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z08.01-z10.08.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 8 Hot Fix 1
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from zurich patch 8 hot fix 1 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z08.01-z11.05.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 8 Hot Fix 1
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from zurich patch 8 hot fix 1 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z08.01-z11.06.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 8 Hot Fix 1
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from zurich patch 8 hot fix 1 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z08.01-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -3346,11 +6274,47 @@ Zurich Patch 8 Hot Fix 2
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from zurich patch 8 hot fix 2 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z08.02-z10.08.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 8 Hot Fix 2
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from zurich patch 8 hot fix 2 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z08.02-z11.05.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 8 Hot Fix 2
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from zurich patch 8 hot fix 2 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z08.02-z11.06.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 8 Hot Fix 2
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from zurich patch 8 hot fix 2 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z08.02-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -3370,11 +6334,47 @@ Zurich Patch 8 Hot Fix 3
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from zurich patch 8 hot fix 3 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z08.03-z10.08.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 8 Hot Fix 3
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from zurich patch 8 hot fix 3 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z08.03-z11.05.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 8 Hot Fix 3
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from zurich patch 8 hot fix 3 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z08.03-z11.06.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 8 Hot Fix 3
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from zurich patch 8 hot fix 3 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z08.03-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -3394,11 +6394,47 @@ Zurich Patch 8 Hot Fix 4
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from zurich patch 8 hot fix 4 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z08.04-z10.08.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 8 Hot Fix 4
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from zurich patch 8 hot fix 4 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z08.04-z11.05.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 8 Hot Fix 4
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from zurich patch 8 hot fix 4 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z08.04-z11.06.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 8 Hot Fix 4
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from zurich patch 8 hot fix 4 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z08.04-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -3418,11 +6454,47 @@ Zurich Patch 8 Hot Fix 5
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from zurich patch 8 hot fix 5 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z08.05-z10.08.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 8 Hot Fix 5
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from zurich patch 8 hot fix 5 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z08.05-z11.05.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 8 Hot Fix 5
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from zurich patch 8 hot fix 5 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z08.05-z11.06.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 8 Hot Fix 5
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from zurich patch 8 hot fix 5 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z08.05-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -3442,11 +6514,47 @@ Zurich Patch 8 Hot Fix 6
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from zurich patch 8 hot fix 6 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z08.06-z10.08.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 8 Hot Fix 6
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from zurich patch 8 hot fix 6 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z08.06-z11.05.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 8 Hot Fix 6
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from zurich patch 8 hot fix 6 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z08.06-z11.06.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 8 Hot Fix 6
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from zurich patch 8 hot fix 6 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z08.06-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -3466,11 +6574,47 @@ Zurich Patch 9
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from zurich patch 9 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z09.00-z10.08.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 9
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from zurich patch 9 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z09.00-z11.05.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 9
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from zurich patch 9 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z09.00-z11.06.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 9
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from zurich patch 9 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z09.00-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -3490,11 +6634,47 @@ Zurich Patch 9 Hot Fix 1
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from zurich patch 9 hot fix 1 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z09.01-z10.08.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 9 Hot Fix 1
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from zurich patch 9 hot fix 1 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z09.01-z11.05.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 9 Hot Fix 1
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from zurich patch 9 hot fix 1 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z09.01-z11.06.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 9 Hot Fix 1
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from zurich patch 9 hot fix 1 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z09.01-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -3514,11 +6694,47 @@ Zurich Patch 9 Hot Fix 2
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from zurich patch 9 hot fix 2 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z09.02-z10.08.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 9 Hot Fix 2
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from zurich patch 9 hot fix 2 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z09.02-z11.05.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 9 Hot Fix 2
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from zurich patch 9 hot fix 2 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z09.02-z11.06.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 9 Hot Fix 2
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from zurich patch 9 hot fix 2 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z09.02-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -3538,11 +6754,47 @@ Zurich Patch 9 Hot Fix 3
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from zurich patch 9 hot fix 3 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z09.03-z10.08.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 9 Hot Fix 3
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from zurich patch 9 hot fix 3 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z09.03-z11.05.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 9 Hot Fix 3
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from zurich patch 9 hot fix 3 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z09.03-z11.06.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 9 Hot Fix 3
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from zurich patch 9 hot fix 3 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z09.03-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -3562,11 +6814,47 @@ Zurich Patch 9 Hot Fix 4
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from zurich patch 9 hot fix 4 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z09.04-z10.08.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 9 Hot Fix 4
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from zurich patch 9 hot fix 4 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z09.04-z11.05.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 9 Hot Fix 4
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from zurich patch 9 hot fix 4 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z09.04-z11.06.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 9 Hot Fix 4
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from zurich patch 9 hot fix 4 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z09.04-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -3586,11 +6874,47 @@ Zurich Patch 9 Hot Fix 5
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from zurich patch 9 hot fix 5 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z09.05-z10.08.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 9 Hot Fix 5
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from zurich patch 9 hot fix 5 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z09.05-z11.05.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 9 Hot Fix 5
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from zurich patch 9 hot fix 5 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z09.05-z11.06.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 9 Hot Fix 5
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from zurich patch 9 hot fix 5 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z09.05-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -3610,11 +6934,47 @@ Zurich Patch 9 Hot Fix 6
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from zurich patch 9 hot fix 6 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z09.06-z10.08.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 9 Hot Fix 6
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from zurich patch 9 hot fix 6 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z09.06-z11.05.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 9 Hot Fix 6
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from zurich patch 9 hot fix 6 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z09.06-z11.06.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 9 Hot Fix 6
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from zurich patch 9 hot fix 6 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z09.06-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -3634,11 +6994,47 @@ Zurich Patch 9 Hot Fix 7
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from zurich patch 9 hot fix 7 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z09.07-z10.08.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 9 Hot Fix 7
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from zurich patch 9 hot fix 7 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z09.07-z11.05.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 9 Hot Fix 7
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from zurich patch 9 hot fix 7 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z09.07-z11.06.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 9 Hot Fix 7
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from zurich patch 9 hot fix 7 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z09.07-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -3658,11 +7054,59 @@ Zurich Patch 10
 
 </td><td>
 
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from zurich patch 10 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z10.00-z10.08.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 10
+
+</td><td>
+
 Zurich Patch 11 Hot Fix 5
 
 </td><td>
 
 from zurich patch 10 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z10.00-z11.05.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 10
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from zurich patch 10 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z10.00-z11.06.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 10
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from zurich patch 10 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z10.00-z13.00.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 10 Hot Fix 1
+
+</td><td>
+
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from zurich patch 10 hot fix 1 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z10.01-z10.08.csv)
 
 </td></tr><tr><td>
 
@@ -3678,6 +7122,42 @@ from zurich patch 10 hot fix 1 to zurich patch 11 hot fix 5[csv](https://downloa
 
 </td></tr><tr><td>
 
+Zurich Patch 10 Hot Fix 1
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from zurich patch 10 hot fix 1 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z10.01-z11.06.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 10 Hot Fix 1
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from zurich patch 10 hot fix 1 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z10.01-z13.00.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 10 Hot Fix 2
+
+</td><td>
+
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from zurich patch 10 hot fix 2 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z10.02-z10.08.csv)
+
+</td></tr><tr><td>
+
 Zurich Patch 10 Hot Fix 2
 
 </td><td>
@@ -3687,6 +7167,42 @@ Zurich Patch 11 Hot Fix 5
 </td><td>
 
 from zurich patch 10 hot fix 2 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z10.02-z11.05.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 10 Hot Fix 2
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from zurich patch 10 hot fix 2 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z10.02-z11.06.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 10 Hot Fix 2
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from zurich patch 10 hot fix 2 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z10.02-z13.00.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 10 Hot Fix 3
+
+</td><td>
+
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from zurich patch 10 hot fix 3 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z10.03-z10.08.csv)
 
 </td></tr><tr><td>
 
@@ -3702,6 +7218,42 @@ from zurich patch 10 hot fix 3 to zurich patch 11 hot fix 5[csv](https://downloa
 
 </td></tr><tr><td>
 
+Zurich Patch 10 Hot Fix 3
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from zurich patch 10 hot fix 3 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z10.03-z11.06.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 10 Hot Fix 3
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from zurich patch 10 hot fix 3 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z10.03-z13.00.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 10 Hot Fix 4
+
+</td><td>
+
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from zurich patch 10 hot fix 4 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z10.04-z10.08.csv)
+
+</td></tr><tr><td>
+
 Zurich Patch 10 Hot Fix 4
 
 </td><td>
@@ -3711,6 +7263,42 @@ Zurich Patch 11 Hot Fix 5
 </td><td>
 
 from zurich patch 10 hot fix 4 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z10.04-z11.05.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 10 Hot Fix 4
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from zurich patch 10 hot fix 4 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z10.04-z11.06.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 10 Hot Fix 4
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from zurich patch 10 hot fix 4 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z10.04-z13.00.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 10 Hot Fix 5
+
+</td><td>
+
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from zurich patch 10 hot fix 5 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z10.05-z10.08.csv)
 
 </td></tr><tr><td>
 
@@ -3726,6 +7314,42 @@ from zurich patch 10 hot fix 5 to zurich patch 11 hot fix 5[csv](https://downloa
 
 </td></tr><tr><td>
 
+Zurich Patch 10 Hot Fix 5
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from zurich patch 10 hot fix 5 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z10.05-z11.06.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 10 Hot Fix 5
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from zurich patch 10 hot fix 5 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z10.05-z13.00.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 10 Hot Fix 7
+
+</td><td>
+
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+from zurich patch 10 hot fix 7 to zurich patch 10 hot fix 8[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z10.07-z10.08.csv)
+
+</td></tr><tr><td>
+
 Zurich Patch 10 Hot Fix 7
 
 </td><td>
@@ -3735,6 +7359,66 @@ Zurich Patch 11 Hot Fix 5
 </td><td>
 
 from zurich patch 10 hot fix 7 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z10.07-z11.05.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 10 Hot Fix 7
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from zurich patch 10 hot fix 7 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z10.07-z11.06.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 10 Hot Fix 7
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from zurich patch 10 hot fix 7 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z10.07-z13.00.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 5
+
+</td><td>
+
+from zurich patch 10 hot fix 8 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z10.08-z11.05.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from zurich patch 10 hot fix 8 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z10.08-z11.06.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 10 Hot Fix 8
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from zurich patch 10 hot fix 8 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z10.08-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -3750,6 +7434,30 @@ from zurich patch 11 to zurich patch 11 hot fix 5[csv](https://downloads.docs.se
 
 </td></tr><tr><td>
 
+Zurich Patch 11
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from zurich patch 11 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z11.00-z11.06.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 11
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from zurich patch 11 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z11.00-z13.00.csv)
+
+</td></tr><tr><td>
+
 Zurich Patch 11 Hot Fix 1
 
 </td><td>
@@ -3759,6 +7467,30 @@ Zurich Patch 11 Hot Fix 5
 </td><td>
 
 from zurich patch 11 hot fix 1 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z11.01-z11.05.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 11 Hot Fix 1
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from zurich patch 11 hot fix 1 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z11.01-z11.06.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 11 Hot Fix 1
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from zurich patch 11 hot fix 1 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z11.01-z13.00.csv)
 
 </td></tr><tr><td>
 
@@ -3774,6 +7506,30 @@ from zurich patch 11 hot fix 2 to zurich patch 11 hot fix 5[csv](https://downloa
 
 </td></tr><tr><td>
 
+Zurich Patch 11 Hot Fix 2
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from zurich patch 11 hot fix 2 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z11.02-z11.06.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 11 Hot Fix 2
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from zurich patch 11 hot fix 2 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z11.02-z13.00.csv)
+
+</td></tr><tr><td>
+
 Zurich Patch 11 Hot Fix 3
 
 </td><td>
@@ -3786,6 +7542,30 @@ from zurich patch 11 hot fix 3 to zurich patch 11 hot fix 5[csv](https://downloa
 
 </td></tr><tr><td>
 
+Zurich Patch 11 Hot Fix 3
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from zurich patch 11 hot fix 3 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z11.03-z11.06.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 11 Hot Fix 3
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from zurich patch 11 hot fix 3 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z11.03-z13.00.csv)
+
+</td></tr><tr><td>
+
 Zurich Patch 11 Hot Fix 4
 
 </td><td>
@@ -3795,6 +7575,78 @@ Zurich Patch 11 Hot Fix 5
 </td><td>
 
 from zurich patch 11 hot fix 4 to zurich patch 11 hot fix 5[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z11.04-z11.05.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 11 Hot Fix 4
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from zurich patch 11 hot fix 4 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z11.04-z11.06.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 11 Hot Fix 4
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from zurich patch 11 hot fix 4 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z11.04-z13.00.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 11 Hot Fix 5
+
+</td><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+from zurich patch 11 hot fix 5 to zurich patch 11 hot fix 6[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z11.05-z11.06.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 11 Hot Fix 5
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from zurich patch 11 hot fix 5 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z11.05-z13.00.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 11 Hot Fix 6
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from zurich patch 11 hot fix 6 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z11.06-z13.00.csv)
+
+</td></tr><tr><td>
+
+Zurich Patch 12
+
+</td><td>
+
+Zurich Patch 13
+
+</td><td>
+
+from zurich patch 12 to zurich patch 13[csv](https://downloads.docs.servicenow.com/prbrn/enus/zurich/prbs-z12.00-z13.00.csv)
 
 </td></tr></tbody>
 </table>

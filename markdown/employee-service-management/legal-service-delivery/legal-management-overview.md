@@ -156,6 +156,6 @@ Some ServiceNow resources that can provide you with helpful information are:
 
 -   **\[Omitted image "dcx-icon-learning.svg"\] ServiceNow University**
 
-    Access real-time courses, self-paced training, and career resources, such as [Legal Service Delivery \(LSD\) Essentials](https://learning.servicenow.com/lxp/en/legal-service-delivery/legal-service-delivery-lsd-essentials-tokyo?id=learning_course_prev&course_id=9dbcfc34974b8a10524eb3cf9153affb) and more, from [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow).
+    Access real-time courses, self-paced training, and career resources from [ServiceNow University](https://learning.servicenow.com/lxp/en/legal-service-delivery/legal-service-delivery-lsd-essentials-tokyo?id=learning_course_prev&course_id=66b4e6cd474b5650ac2f89c2e36d43f9/).
 
 

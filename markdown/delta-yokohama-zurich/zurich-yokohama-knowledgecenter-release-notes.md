@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-knowledgecenter-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
-reading_time_minutes: 3
+last_updated: "2026-10-08"
+reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
 
@@ -67,7 +67,25 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+-   **[Search knowledge article](https://www.servicenow.com/docs/access?context=search-knowledge-article&family=yokohama&ft:locale=en-US)**
+
+Build a complete and accurate knowledge base, focus on continuous improvement by discovering and filling content gaps, removing redundant information, and optimizing existing articles for better quality.
+
+
+ -   **[Knowledge Center Article Optimization](https://www.servicenow.com/docs/access?context=knowledge-center-article-optimization&family=yokohama&ft:locale=en-US)**
+
+Improve the quality and health of your knowledge articles by using the Article Optimization tool in the Knowledge Center to scan the articles, and get instant, actionable feedback.
+
+
+ -   **[Generate and edit articles using Now Assist in the Knowledge Center article editor](https://www.servicenow.com/docs/access?context=kc-article-editor&family=yokohama&ft:locale=en-US)**
+
+Use the editing tools in the Knowledge Center to format knowledge article content such as text, images, and media.
+
+
+ -   **[Potential knowledge gaps](https://www.servicenow.com/docs/access?context=understanding-knowledge-gaps&family=yokohama&ft:locale=en-US)**
+
+Proactively identify and fill potential knowledge gaps. Identify missing knowledge articles and recurring issues that have incomplete or no knowledge article to refer to.
+
 
 </td></tr><tr><td>
 
@@ -80,17 +98,17 @@ Zurich
 Build a complete and accurate knowledge base, focus on continuous improvement by discovering and filling content gaps, removing redundant information, and optimizing existing articles for better quality.
 
 
--   **[Knowledge Center Article Optimization](https://www.servicenow.com/docs/access?context=knowledge-center-article-optimization&family=zurich&ft:locale=en-US)**
+ -   **[Knowledge Center Article Optimization](https://www.servicenow.com/docs/access?context=knowledge-center-article-optimization&family=zurich&ft:locale=en-US)**
 
 Improve the quality and health of your knowledge articles by using the Article Optimization tool in the Knowledge Center to scan the articles, and get instant, actionable feedback.
 
 
--   **[Generate and edit articles using Now Assist in the Knowledge Center article editor](https://www.servicenow.com/docs/access?context=kc-article-editor&family=zurich&ft:locale=en-US)**
+ -   **[Generate and edit articles using ServiceNow Otto in the Knowledge Center article editor](https://www.servicenow.com/docs/access?context=kc-article-editor&family=zurich&ft:locale=en-US)**
 
 Use the editing tools in the Knowledge Center to format knowledge article content such as text, images, and media.
 
 
--   **[Potential knowledge gaps](https://www.servicenow.com/docs/access?context=understanding-knowledge-gaps&family=zurich&ft:locale=en-US)**
+ -   **[Potential knowledge gaps](https://www.servicenow.com/docs/access?context=understanding-knowledge-gaps&family=zurich&ft:locale=en-US)**
 
 Proactively identify and fill potential knowledge gaps. Identify missing knowledge articles and recurring issues that have incomplete or no knowledge article to refer to.
 
@@ -114,7 +132,10 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+-   **[Knowledge Center Home Page](https://www.servicenow.com/docs/access?context=kc-home-page&family=yokohama&ft:locale=en-US)**
+
+The Knowledge Center home page comes equipped with dashboards. New features like article optimization, identify knowledge gaps and, manage duplicate articles improve productivity. The enhanced article editor is integrated with article optimization support to generate high quality content effortlessly.
+
 
 </td></tr><tr><td>
 
@@ -122,7 +143,10 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **[Knowledge Center home page](https://www.servicenow.com/docs/access?context=kc-home-page&family=zurich&ft:locale=en-US)**
+
+The Knowledge Center home page comes equipped with dashboards. New features like article optimization, identify knowledge gaps and, manage duplicate articles improve productivity. The enhanced article editor is integrated with article optimization support to generate high quality content effortlessly.
+
 
 </td></tr></tbody>
 </table>## Removed
@@ -201,7 +225,12 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+-   **Activation information**
+
+Knowledge Center would be available by default to all the roles of Knowledge Management.
+
+
+**Important:** Knowledge Center is available in the ServiceNow Store. For details, see the **Activation information** section of these release notes.
 
 </td></tr><tr><td>
 
@@ -209,7 +238,12 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Knowledge Center would be available by default to all the roles of Knowledge Management.
+
+
+**Important:** Knowledge Center is available in the ServiceNow Store. For details, see the **Activation information** section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -346,7 +380,12 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+-   Use Knowledge Center to manage and distribute organizational knowledge through a centralized and organized interface.
+-   Enhance productivity, reduce redundant work, and help ensure that users have access to the latest and most accurate information.
+-   Format your content within a knowledge article using editing tools in the article editor.
+-   Improve the quality and health of knowledge articles with article optimization, ensuring that the information is latest and relevant.
+
+ See [Knowledge Center](https://www.servicenow.com/docs/access?context=knowledge-center&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 

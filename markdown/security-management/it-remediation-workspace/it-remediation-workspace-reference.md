@@ -21,5 +21,5 @@ The following table shows the fields and their description in the Create change 
 -   **[Request exception form fields for policy exceptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/it-remediation-workspace/itr-ws-request-exception-form-grc.md)**  
 The following table shows the fields that you must fill on the Request exception form for policy exceptions.
 -   **[Request exception form for risk reduction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/it-remediation-workspace/itr-ws-request-exception-form-rr.md)**  
-The following table shows the fields that you must fill on the Request exception form for risk reduction requests.
+The following table shows the fields that you must fill on the Request exception form.
 

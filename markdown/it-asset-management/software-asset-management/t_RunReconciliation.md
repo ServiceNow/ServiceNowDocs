@@ -26,6 +26,8 @@ Reconciliation is run for products that have software entitlements or software i
 
 When running reconciliation manually, allow enough time for the process to complete. For faster results, narrow the scope by selecting specific publishers.
 
+**Note:** The classic path requires the legacy SAM module. If the classic menu is not visible, use the reconciliation task in SAM Workspace reconciliation task instead.
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **Software Asset** &gt; **Reconciliation** &gt; **Run Reconciliation** and select the publishers for which compliance should be calculated, or select all publishers.

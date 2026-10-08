@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-classicworkflow-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
+last_updated: "2026-10-08"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -168,8 +168,7 @@ Zurich
 
 </td><td>
 
--   Removed the legacy workflows created and published by ServiceNow, Inc. for new customers who start on the Zurich release.
--   Retained the legacy workflows created and published by ServiceNow, Inc. for customers who upgraded from versions prior to the Zurich release.
+No updates for this release.
 
 </td></tr></tbody>
 </table>## Deprecations
@@ -206,7 +205,11 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   Support for classic workflows is in Planned Deprecation. For more information about application and plugin deprecation, see [KB0867184 on Support](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184).
+-   Use Workflow Studio flows and subflows instead of classic Workflow.
+
+ -   Removed the legacy workflows created and published by ServiceNow, Inc. for new customers who start on the Zurich release.
+-   Retained the legacy workflows created and published by ServiceNow, Inc. for customers who upgraded from versions prior to the Zurich release.
 
 </td></tr></tbody>
 </table>## Activation information
@@ -243,7 +246,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Workflow is a ServiceNow AI Platform feature that is active by default.
+
 
 </td></tr></tbody>
 </table>## Additional requirements

@@ -19,7 +19,7 @@ Copy the Automated quality assurance skill to experiment with settings and confi
 
 ## Before you begin
 
-Role required: admin or skill\_manager
+Role required: Admin
 
 ## About this task
 

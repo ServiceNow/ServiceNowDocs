@@ -44,7 +44,7 @@ AI connections are a combination of hyperscalers, AI apps, and agentic AI framew
 
 Navigate to AI connections page to create AI connections and manage your existing ones. The connections that were set up without Service Graph Connectors appear in the Legacy connections section.
 
-\[Omitted image "ai-connections.png"\] Alt text:
+\[Omitted image "ai-connections.png"\] Alt text: Configuration for AI connections to third-party systems.
 
 ## AI connection record
 

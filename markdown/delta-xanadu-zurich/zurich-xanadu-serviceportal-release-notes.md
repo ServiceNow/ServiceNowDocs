@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-serviceportal-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
-reading_time_minutes: 6
+last_updated: "2026-10-08"
+reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
 
@@ -109,13 +109,19 @@ The Approval Info Record widget and the new Now Assist Approval Assistance AI ag
 
 The new Now Assist Approval Assistance AI agent allows you to see your pending approvals, as well as the details about your pending approvals. For more information, see [Approval assistance AI agent](https://www.servicenow.com/docs/access?context=platform-approval-aia&family=zurich&ft:locale=en-US).
 
--   **[Configure Service Portal Approval Configuration record](https://www.servicenow.com/docs/access?context=configure-approval-assistance-ai-agent&family=zurich&ft:locale=en-US)**
+
+ -   **[Configure Service Portal Approval Configuration record](https://www.servicenow.com/docs/access?context=configure-approval-assistance-ai-agent&family=zurich&ft:locale=en-US)**
 
 Configure the Service Portal Approval Configuration record to make the Approval Assistance AI agent and Approval Info Record widget work better for your specific use case.
 
 -   **[Configure widget loading order in Service Portal](https://www.servicenow.com/docs/access?context=configure-widget-loading-order&family=zurich&ft:locale=en-US)**
 
 As an admin, configure the widget loading order to defer their loading. This feature enables faster loading of the page and makes the widgets available for interaction as they load, thus improving the user experience.
+
+
+ -   **[Deferred loading of AI Search assets in Service Portal](https://www.servicenow.com/docs/access?context=defer-loading-ais-sp&family=zurich&ft:locale=en-US)**
+
+Enable deferred loading of AI Search assets on the Service Portal page until the main content is loaded. This feature helps the page load faster and improves user experience.
 
 
 </td></tr></tbody>
@@ -179,7 +185,10 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
 
 </td></tr></tbody>
 </table>## Removed
@@ -282,7 +291,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Service Portal is a ServiceNow AI Platform feature that is active by default.
+
 
 </td></tr><tr><td>
 
@@ -290,7 +302,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Service Portal is a ServiceNow AI Platform feature that is active by default.
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -360,11 +375,14 @@ Yokohama
 
 </td><td>
 
+-   **Browser requirements**
+
 The Yokohama release doesn't support Internet Explorer 11.
 
- The iOS version of Firefox doesn’t support Service Portal pages.
+The iOS version of Firefox doesn’t support Service Portal pages.
 
- For more information about Service Portal browser support, see [Browser support](https://www.servicenow.com/docs/access?context=browser-support&family=yokohama&ft:locale=en-US).
+For more information about Service Portal browser support, see [Browser support](https://www.servicenow.com/docs/access?context=browser-support&family=yokohama&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -409,7 +427,11 @@ Zurich
 
 </td><td>
 
--   ****
+-   **Accessibility information**
+    -   **Dark theme**
+
+The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
 
 </td></tr></tbody>
 </table>## Localization information

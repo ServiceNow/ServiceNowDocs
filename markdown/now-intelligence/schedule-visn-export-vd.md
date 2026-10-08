@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/schedule-visn-export-vd.html
 release: zurich
 topic_type: task
-last_updated: "2025-11-21"
+last_updated: "2026-09-21"
 reading_time_minutes: 4
 breadcrumb: [Share, edit, or delete, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
@@ -23,15 +23,15 @@ Role required:
 -   viz\_admin to create, update, or delete the scheduled export of any data visualization on the instance
 -   dashboard\_admin to create, update, or delete the scheduled export of any dashboard on the instance.
 
-To view the list of scheduled exports, navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Scheduled Export**. This list contains all scheduled exports including Core UI dashboards and reports and Platform Analytics experience dashboards and data visualizations.
+To view the list of scheduled exports, navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Scheduled Export**. This list contains all active scheduled exports of Core UI reports and both active and inactive scheduled exports of Platform Analytics experience dashboards and data visualizations. You can also access the scheduled exports using the library's left navigation pane.
 
 ## About this task
 
-You can export multiple dashboards and data visualizations together in one scheduled email. Supported export formats depend on what you are exporting and whether you are exporting it as part of a dashboard or as a standalone data visualization.
+You can export multiple dashboards and data visualizations together in one scheduled email. Supported export formats depend on what you're exporting and whether you're exporting it as part of a dashboard or as a standalone data visualization.
 
 |Data visualization or dashboard element|Supported dashboard export formats|Supported data visualization export formats|
 |---------------------------------------|----------------------------------|-------------------------------------------|
-|Calendar reports, Indicator scorecards, Geomap|None|None|
+|Calendar reports, Indicator scorecards, Pivot tables, Geomap|None|None|
 |Pivot tables|PowerPoint, PDF|PowerPoint, PDF, PNG, JPEG, Embedded PNG|
 |Lists|PDF|PDF, Microsoft Excel \(.xls or .xlsx\), Embedded LIST, CSV|
 |Other data visualizations|PowerPoint, PDF|PowerPoint, PDF, PNG, JPEG, Embedded PNG|
@@ -57,11 +57,11 @@ You can export multiple dashboards and data visualizations together in one sched
 
 4.  Select the file type.
 
-5.  If you are exporting a dashboard or data visualization to PDF, or a data visualization to a graphic file, select the page format and orientation.
+5.  If you're exporting a dashboard or data visualization to PDF, or a data visualization to a graphic file, select the page format and orientation.
 
-    Scheduled exports of List data visualizations to PDF do not have options for page format or orientation. If you need a PDF with a particular format or orientation, consider putting the List on a dashboard and scheduling the export of that dashboard, instead.
+    Scheduled exports of List data visualizations to PDF don't have options for page format or orientation. If you need a PDF with a particular format or orientation, consider putting the List on a dashboard and scheduling the export of that dashboard, instead.
 
-6.  If you are exporting a dashboard to Power Point, do the following steps:
+6.  If you're exporting a dashboard to Power Point, do the following steps:
 
     1.  Select whether to export all tabs or only specific tabs.
 
@@ -69,7 +69,7 @@ You can export multiple dashboards and data visualizations together in one sched
 
         \[Omitted image "sched-exp-by-tab.png"\] Alt text: Export configuration for one tab and the top level visualizations.
 
-        For example, if you do not turn on **Export all tabs**, you have to select the tabs to export. If you select a tab and turn on **Export all visualizations in the top layout**, you export that tab and any visualizations placed above the tabs.
+        For example, if you don't turn on **Export all tabs**, you have to select the tabs to export. If you select a tab and turn on **Export all visualizations in the top layout**, you export that tab and any visualizations placed above the tabs.
 
         \[Omitted image "sched-exp-top-and-tab.png"\] Alt text: Tab and top level visualizations that are exported.
 
@@ -148,7 +148,7 @@ A conditional script that determines if a scheduled job should run. The last exp
 </td></tr></tbody>
 </table>10. In the Email details section, specify the recipients and the email subject.
 
-    You can enter users and groups on your instance or any permitted internal or external email addresses. Security constraints may restrict who you can send the report to. You can also add a message. To send email to persons who are not on your instance, you need to have outbound email configured. See [Outbound Email Configuration](https://developer.servicenow.com/dev.do#!/learn/courses/xanadu/app_store_learnv2_automatingapps_xanadu_automating_application_logic/app_store_learnv2_automatingapps_xanadu_notifications/app_store_learnv2_automatingapps_xanadu_outbound_email_configuration).
+    You can enter users and groups on your instance or any permitted internal or external email addresses. Security constraints may restrict who you can send the report to. You can also add a message. To send email to persons who aren't on your instance, you must have outbound email configured. See [Outbound Email Configuration](https://developer.servicenow.com/dev.do#!/learn/courses/xanadu/app_store_learnv2_automatingapps_xanadu_automating_application_logic/app_store_learnv2_automatingapps_xanadu_notifications/app_store_learnv2_automatingapps_xanadu_outbound_email_configuration).
 
 11. Select **Save** to save the schedule.
 

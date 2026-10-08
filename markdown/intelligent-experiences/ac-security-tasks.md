@@ -7,7 +7,7 @@ release: zurich
 topic_type: concept
 last_updated: "2026-04-23"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI, security task, AI security, threat detection]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, security task, AI security, threat detection]
 breadcrumb: [Managing tasks and approvals, Address action items, AI Control Tower, Enable AI experiences]
 ---
 

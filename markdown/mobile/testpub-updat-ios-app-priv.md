@@ -61,7 +61,6 @@ Role required: admin
 
     -   See [KB1649495](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1649495) for information about distributing your iOS with redemption codes by using Apple Business Manager.
     -   If you are using the Microsoft Intune MAM, see [Sync your branded iOS app to Intune](https://www.servicenow.com/community/mobile-apps-platform-articles/mobile-publishing-sync-your-branded-ios-app-to-intune/ta-p/2301831) on the ServiceNow Community website.
-    -   If you are using the BlackBerry MAM, see [KB0821154](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0821154) for information about adding your iOS branded app to BlackBerry.
 6.  Update your app before you update your ServiceNow family version, or at least once per year to keep your push notifications working and to leverage the most up to date ServiceNow mobile features.
 
     For more information, see [Tested devices and supported versions for ServiceNow mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/mobile-supported-devices.md).

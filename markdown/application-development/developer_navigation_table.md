@@ -323,7 +323,7 @@ Create reports
 
 </td><td>
 
--   [CMDB 360 view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/cmdb-workspace-cmdb360-view.md)
+-   CMDB 360 view in CMDB Workspace
 -   [Analyze and optimize business processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/c_performanceAnalyticsAndReporting.md) - Performance Analytic Reports
 -   [Analytics Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/c_UsePerformanceAnalyticsScorecards.md)
 -   [Analytics Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/analytics-center.md)

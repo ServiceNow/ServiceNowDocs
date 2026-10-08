@@ -22,27 +22,29 @@ Create a geography of type GeoJSON.
 
 ### Before you begin
 
+The GeoJSON must meet the format requirements. For more information, see [GeoJSON format requirements for territory geographies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/geojson-format-requirements.md).
+
 Role required: sn\_fsm\_tp.fsm\_territory\_planner, sn\_fsm\_tp.territory\_manager
 
 ### About this task
 
 Use GeoJSON geography type to accommodate scenarios where detailed geo-spatial information is available externally, enabling organizations to incorporate diverse geographic datasets into the planning processes.
 
-**Note:** For effective task assignments using Schedule Optimization, it is recommended to use consistent shapes \(like polygons or circles\) and avoid overlapping or intersecting geographies to ensure accurate results.
+**Note:** For effective task assignments using Schedule Optimization, use consistent shapes, such as polygons or circles, and avoid overlapping or intersecting geographies to ensure accurate results.
 
 ### Procedure
 
 1.  Navigate to **All** &gt; **Field Service** &gt; **Territory Planning** &gt; **Territory Geography**.
 
-2.  In the **Territory Geographies** page, select **New**.
+2.  On the **Territory Geographies** page, select **New**.
 
 3.  On the form, fill in the fields.
 
     |Field|Description|
     |-----|-----------|
     |Name|Name of the geography.|
-    |Geography type|Select **GeoJSON**.|
-    |GeoJSON|Use the GeoJSON format for encoding variety of geographical data structures. GeoJSON supports the geometry types such as polygon, multi-polygon, and circle.|
+    |Geography Type|Select **GeoJSON**.|
+    |GeoJSON|GeoJSON content that defines the geography. Supported geometry types are Polygon, MultiPolygon, and Point \(circle\). For format requirements, see [GeoJSON format requirements for territory geographies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/geojson-format-requirements.md).|
 
 4.  Select **Submit**.
 
@@ -51,7 +53,7 @@ Use GeoJSON geography type to accommodate scenarios where detailed geo-spatial i
 
 ### Result
 
-After creating a GeoJSON geography, connect it to a territory for work order management; the associated territory will be listed in the **Territories** related list when you open the geography record. The geography of GeoJSON type appears visually on the map when its territory is selected in the Territory Planning console.
+After you link the geography to a territory, the territory appears in the Territories related list of the geography record. The GeoJSON geography appears on the map when you select its territory in the Territory Planning console.
 
 ### What to do next
 

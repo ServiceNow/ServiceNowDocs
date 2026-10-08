@@ -51,7 +51,7 @@ For more information, see [Working with update sets in ServiceNow Studio](https:
 
 ## Build Agent chat panel
 
-Use the Build Agent chat panel to create or update an app or app file. Make a selection to begin the chat, or enter a prompt.
+Use the Build Agent chat panel to create or update an app or app file. Make a selection to begin the chat, or enter a prompt. If you have a longer prompt, the chat box expands as you extend your input.
 
 \[Omitted image "ba-new-chat.png"\] Alt text: OTTO New Chat screen showing five quick-action buttons: Create an app, Update an app, Create a file, Update a file, and Add AI to an app.
 
@@ -63,7 +63,7 @@ For more information, see the following topics:
 -   [Edit an existing application using Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/edit-an-existing-application-using-build-agent.md)
 -   [Creating or updating an app file with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/creating-or-updating-an-app-file.md)
 -   [Revert app changes with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/revert-app-changes-using-build-agent.md)
--   [Build Agent checkpoints and conversation change log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ba-conversational-change-log.md)
+-   [Checkpoints and conversation change log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ba-conversational-change-log.md)
 -   [Example prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/build-agent-example-prompts.md)
 
 <table id="table_x2g_4c2_m3c"><thead><tr><th>

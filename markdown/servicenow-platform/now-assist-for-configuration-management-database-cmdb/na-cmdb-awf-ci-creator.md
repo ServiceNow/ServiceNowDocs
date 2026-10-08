@@ -42,17 +42,19 @@ To learn more about using the ServiceNow Otto panel, see [Working in the Service
     -   While working in the Service Graph Workspace orCMDB Workspace, select the ServiceNow Otto icon \[Omitted image "icon-otto-outline-24.svg"\] and then enter `create a ci`.
 2.  Enter the class of CI to create and then continue by answering the ServiceNow Otto questions.
 
+    To learn more about a field, select **Explain the CMDB data model** in the field's quick actions. For more information about this capability, see [Data Model Navigator app features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-awf-data-model-nav-ref.md).
+
 3.  Provide feedback, copy the response text to the clipboard, or refresh the response.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d519965e202">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d526011e221">
 
 Option
 
-</th><th align="left" id="d519965e205">
+</th><th align="left" id="d526011e224">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d519965e211">
+</th></tr></thead><tbody><tr><td id="d526011e230">
 
 **Provide feedback for the summary**
 
@@ -60,7 +62,7 @@ Procedure
 
 If you think that the response was helpful, select thumbs-up \[Omitted image "icon-thumbs-up.png"\]. If you think that it wasn’t helpful, select thumbs-down \[Omitted image "icon-thumbs-down.png"\].This feedback improves the agentic AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated response and stores it in the agentic AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d519965e226">
+</td></tr><tr><td id="d526011e245">
 
 **Copy the summary**
 
@@ -68,7 +70,7 @@ If you think that the response was helpful, select thumbs-up \[Omitted image "ic
 
 Select the copy to clipboard icon \[Omitted image "icon-clipboard.png"\] to use the response information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d519965e237">
+</td></tr><tr><td id="d526011e256">
 
 **Refresh the summary**
 

@@ -43,8 +43,8 @@ However, for calculated metric definitions that have the **Calculation level** f
 6.  Select **Submit**.
 
 
--   **[]()**  
-
+-   **[Ad hoc metric data task limitations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/ad-hoc-metric-data-task-limitations.md)**  
+Ad hoc metric data tasks don't support certain features that are available for scheduled metric data tasks.
 
 **Parent Topic:**[Using GRC: Metrics to provide data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/using-grc-metrics.md)
 

@@ -7,7 +7,7 @@ release: zurich
 product: Now Assist Skills
 classification: now-assist-skills
 topic_type: concept
-last_updated: "2026-08-03"
+last_updated: "2026-10-06"
 reading_time_minutes: 8
 keywords: [Generative AI, Gen AI]
 breadcrumb: [AI assets, Enable AI experiences]
@@ -174,13 +174,13 @@ For more information, see [AI agents, skills, and agentic workflows on by defaul
 |Agentic workflow|[Reclamation rule creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/now-assist-sam-create-software-reclamation-rule-workflow.md)|December 11, 2025|
 |[Removal candidate evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/now-assist-sam-evaluate-removal-candidate-workflow.md)|December 11, 2025|
 |[ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/now-assist-spm.md)|Skill|[EAP doc summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/summarize-and-refine-docs-content-in-eap.md)|December 11, 2025|
-|Feedback summarization|December 11, 2025|
+|[Feedback summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/feedback-summary-sentiment-topics-pf.md)|December 11, 2025|
 |[Identify similar records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/identify-similar-demand-records.md)|December 11, 2025|
-|Multi feedback summarization|December 11, 2025|
-|Planning item doc summarization|December 11, 2025|
-|Project doc summarization|December 11, 2025|
-|Project insights generation|December 11, 2025|
-|Refine records|December 11, 2025|
+|[Multi feedback summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/feedback-summary-sentiment-topics-pf.md)|December 11, 2025|
+|[Planning item doc summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/summarize-docs-genai-skill-pf.md)|December 11, 2025|
+|[Project doc summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/summarize-docs-genai-skill-pw.md)|December 11, 2025|
+|[Project insights generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/email-project-summary-pw.md)|December 11, 2025|
+|[Refine records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/generate-summarize-and-refine-content-of-docs-with-now-assist-spm.md)|December 11, 2025|
 |[Target generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/generate-targets-for-goal.md)|December 11, 2025|
 |Agentic workflow|[Create stories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/generate-agile-story-planning-items.md)|December 11, 2025|
 |[Monitor project tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/na-spm-task-monitoring-usecase.md)|December 11, 2025|

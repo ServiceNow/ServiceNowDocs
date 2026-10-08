@@ -7,7 +7,7 @@ release: zurich
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Classic assessments, Configure, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -25,6 +25,8 @@ Role required: sn\_vdr\_risk\_asmt.vendor\_risk\_manager
 1.  Navigate to **All** &gt; **Third-party Risk Management** &gt; **Scoring Setup** &gt; **Third-party Risk Scoring Rules**.
 
 2.  Select **New**, fill in the form, and then select **Submit**.
+
+    **Note:** If a different scoring rule already applies to a third party, changing which rule applies triggers a full recalculation of that third party's score tree, including its engagements and elements, using the existing scheduled/manual full vendor-tree recalculation job. Risk areas that aren't part of the newly applied rule's criteria no longer contribute to the score.
 
 <table id="table_eng-scoring-rule"><thead><tr><th>
 

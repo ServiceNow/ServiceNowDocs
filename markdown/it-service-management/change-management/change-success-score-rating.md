@@ -7,7 +7,7 @@ release: zurich
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Change success score, Configure, Change Management, IT Service Management]
 ---
@@ -45,8 +45,8 @@ You can choose to modify the score range, color, introduce, or modify new rating
 
     |Action|Procedure|
     |------|---------|
-    |**To add a new score range**|Click **New** and fill in the range details and the color you want to associate and submit.|
-    |**To modify the existing range**|Open the rating, and click the **here** link in the record information message to modify the values.|
+    |**To add a new score range**|Select **New** and fill in the range details and the color you want to associate and submit.|
+    |**To modify the existing range**|Open the rating, and select the **here** link in the record information message to modify the values.|
 
 3.  Select **Update**.
 

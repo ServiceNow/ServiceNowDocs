@@ -156,6 +156,8 @@ The client secret from the OAuth inbound integration on the server instance.If y
 
     The server runs the relevant tools and returns the result to the client as JSON data. The client presents the response as formatted text.
 
+    **Important:** The MCP service limits the size of tool call payloads. If a request payload from the MCP client exceeds 26 KB, the MCP service returns an error stating that the request payload is too big. If a response payload exceeds 64 KB, the MCP service returns an error stating that the response payload is too big. The minimum version for this restriction is Brail patch 1, Australia patch 7 and Zurich patch 13.
+
     **Note:** If you don't receive the expected data in the response, review the following troubleshooting tips:
 
     -   If you receive an empty or incomplete response rather than an error, first check the ACL configuration for the invoked tool. For more information, see [Creating tools for a Model Context Protocol server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/creating-tools-mcp-server.md).

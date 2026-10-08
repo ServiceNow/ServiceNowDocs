@@ -44,7 +44,7 @@ Date changes must pass the same rules that apply on creation. For the full list,
 
     The **Start date** and **End date** fields are editable only for an EAP scrum lead on an iteration that follows a planning calendar entry. On other iterations, an EAP user can also change these fields.
 
-    The **Spillover** and **New scope** fields are read-only. They're calculated when you complete the iteration. For more information, see [Start or complete iterations in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/start-or-complete-iteration-in-eap.md).
+    The **Spillover** and **New scope** fields are read-only. They're calculated when you complete the Sprint, and they don't appear on a Planning Interval. For more information, see [Start or complete iterations in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/enterprise-agile-planning/start-or-complete-iteration-in-eap.md).
 
     \[Omitted image "eap-edit-sprint.png"\] Alt text: Sprint details in the side panel in EAP.
 

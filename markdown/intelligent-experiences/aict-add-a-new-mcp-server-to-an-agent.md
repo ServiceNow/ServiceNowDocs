@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/aict-add-a-new-mcp-server-to-an-agent.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure agents to use MCP servers, Working with MCP server records, Discover and manage AI assets, AI Control Tower, Enable AI experiences]
 ---

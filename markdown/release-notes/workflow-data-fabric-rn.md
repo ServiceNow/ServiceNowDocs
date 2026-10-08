@@ -1,6 +1,6 @@
 ---
 title: Workflow Data Fabric Hub release notes
-description: The ServiceNow Workflow Data Fabric Hub application unifies data from across the enterprise, providing access to external data in real time without needing to copy it to your instance. Workflow Data Fabric Hub is a new application in the Zurich release.The ServiceNow Workflow Data Fabric Hub application unifies data from across the enterprise, providing access to external data in real time without needing to copy it to your instance. Workflow Data Fabric Hub is a new application in the Zurich release.The ServiceNow Workflow Data Fabric Hub application unifies data from across the enterprise, providing access to external data in real time without needing to copy it to your instance. Workflow Data Fabric Hub is a new application in the Zurich release.
+description: The ServiceNow Workflow Data Fabric Hub application unifies data from across the enterprise, providing access to external data in real time without needing to copy it to your instance.The ServiceNow Workflow Data Fabric Hub application unifies data from across the enterprise, providing access to external data in real time without needing to copy it to your instance. Workflow Data Fabric Hub is a new application in the Zurich release.The ServiceNow Workflow Data Fabric Hub application unifies data from across the enterprise, providing access to external data in real time without needing to copy it to your instance. Workflow Data Fabric Hub is a new application in the Zurich release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/workflow-data-fabric-rn.html
 release: zurich
@@ -12,7 +12,7 @@ breadcrumb: [App development and low-code release notes, Features and changes by
 
 # Workflow Data Fabric Hub release notes
 
-The ServiceNow® Workflow Data Fabric Hub application unifies data from across the enterprise, providing access to external data in real time without needing to copy it to your instance. Workflow Data Fabric Hub is a new application in the Zurich release.
+The ServiceNow® Workflow Data Fabric Hub application unifies data from across the enterprise, providing access to external data in real time without needing to copy it to your instance.
 
 ## About Workflow Data Fabric Hub
 
@@ -20,7 +20,7 @@ The ServiceNow® Workflow Data Fabric Hub application unifies data from across t
 -   Retrieve data from external sources in real time without copying any data to your instance using zero copy connections.
 -   Enrich AI agents and workflows on the ServiceNow AI Platform with external data using data fabric tables.
 
-See  for more information.
+See [Workflow Data Fabric Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/workflow-data-fabric.md) for more information.
 
 ## Activation and other requirements
 
@@ -30,7 +30,7 @@ See  for more information.
 
     Install Workflow Data Fabric Hub by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
-    Workflow Data Fabric Hub is also available with activation of the Zero Copy Connectors app \(sn\_data\_fabric\_zcc\), which requires a separate subscription. For details, see .
+    Workflow Data Fabric Hub is also available with activation of the Zero Copy Connectors app \(sn\_data\_fabric\_zcc\), which requires a separate subscription. For details, see [Request Zero Copy Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/request-wdf.md).
 
 
 ## Accessibility and localization
@@ -49,26 +49,26 @@ The ServiceNow® Workflow Data Fabric Hub application unifies data from across t
 
 ### What's new
 
--   **Connect to Teradata**
+-   **[Connect to Teradata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/teradata-wdf.md)**
 
     Retrieve data from Teradata in real-time without copying or duplicating the data.
 
--   **Connect to Amazon S3 tables**
+-   **[Connect to Amazon S3 tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/amazon-s3-tables-wdf.md)**
 
     Retrieve data from Amazon S3 tables in real-time without copying or duplicating the data.
 
 
 ### What's changed
 
--   **SAP ECC primary connector**
+-   **[SAP ECC primary connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/sap-ecc-primary-wdf.md)**
 
     The SAP ECC connector is now certified as a primary connector.
 
--   **SAP S/4HANA primary connector**
+-   **[SAP S/4HANA primary connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/sap-s4hana-primary-wdf.md)**
 
     The SAP S/4HANA connector is now certified as a primary connector.
 
--   **Primary connectors in preview**
+-   **[Primary connectors in preview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/primary-connectors-wdf.md)**
 
     Primary connectors that are still being enhanced to include all planned functionality are now identified as in preview. These connectors are fully supported by ServiceNow®.
 
@@ -79,11 +79,11 @@ The ServiceNow® Workflow Data Fabric Hub application unifies data from across t
 
 ### What's new
 
--   ****
+-   **[Established connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/connections-wdf.md)**
 
     Retrieve real-time data from external sources directly in the ServiceNow AI Platform, without copying any data to your instance using zero copy connections.
 
--   ****
+-   **[Data fabric tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/data-fabric-tables-wdf.md)**
 
     Enable data consumers to access external data on the ServiceNow AI Platform to power AI features and build applications using data fabric tables.
 

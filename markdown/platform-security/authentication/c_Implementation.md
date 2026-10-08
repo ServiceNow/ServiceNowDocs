@@ -1,6 +1,6 @@
 ---
 title: Implement a nonce
-description: 
+description: Add a cryptographic nonce to the authentication header for custom digest-based Single Sign- On \(SSO\) to confirm that each authentication token is valid for one use only. This implementation requires ServiceNow developer expertise.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-security/authentication/c\_Implementation.html
 release: zurich
@@ -13,6 +13,12 @@ breadcrumb: [Implement a nonce, Local authentication, Access Management]
 ---
 
 # Implement a nonce
+
+Add a cryptographic nonce to the authentication header for custom digest-based Single Sign- On \(SSO\) to confirm that each authentication token is valid for one use only. This implementation requires ServiceNow developer expertise.
+
+Implement a NONCE when your organization uses digest-based on Single Sign-On \(SSO\) authentication and requires that each authentication token can be used only once. This implementation requires developer expertise in ServiceNow scripting and knowledge of digest authentication protocols.
+
+**Note:** This topic is intended for developers and SSO administrators implementing custom authentication. For standard login configuration, see [Specify a login landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/authentication/t_SpecifyingALoginLandingPage.md).
 
 -   Create a system property called **glide.authenticate.header.nonce\_key** and set its value to whatever variable name you're using for the nonce, such as NONCE or NCE.
 -   Create a new table called `u_authentication_nonce`. Add a field to the table called `u_nonce`.

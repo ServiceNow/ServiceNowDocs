@@ -14,6 +14,8 @@ breadcrumb: [Scan Engine, Platform Health, Using Impact, Impact]
 
 You can integrate the Scan Engine into a variety of processes, such as the syncing of definitions or exception reasons, as well as integrating with your existing agile project management systems.
 
+**Important:** For the latest information on Scan Engine integrations, refer to the[Australia or later](https://www.servicenow.com/docs/r/impact/instance-integration-scan-engine.html) documentation.
+
 Scan Engine has the ability to integrate with your other environments running Impact so that you can:
 
 -   Compare technical debt across instances

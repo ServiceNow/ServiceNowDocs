@@ -24,7 +24,7 @@ The ServiceNow® Enterprise Architecture application unites strategic and operat
 -   Apply filters to the Application Rationalization bubble chart and list views pages, using the new filter options to filter for specific business applications. Also, select a fiscal period on the Application Rationalization pages using the new fiscal period filter option.
 -   Evaluate the technical debt score for business applications using the Technology Reference Model \(TRM\) technical debt indicator. This helps you to identify high-risk business applications and enables you to prioritize modernization and rationalization.
 
-See  for more information.
+See [Enterprise Architecture \(formerly Application Portfolio Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/application-portfolio-management-landing-page.md) for more information.
 
 ## Activation and other requirements
 
@@ -32,7 +32,7 @@ See  for more information.
 
 -   **Activation information**
 
-    Enterprise Architecture \(formerly Application Portfolio Management\) is available with activation of the Enterprise Architecture \(com.snc.apm\), which requires a separate subscription. For details, see Enterprise Architecture.
+    Enterprise Architecture \(formerly Application Portfolio Management\) is available with activation of the Enterprise Architecture \(com.snc.apm\), which requires a separate subscription. For details, see [Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/application-portfolio-management-landing-page.md).
 
 
 ## Accessibility and localization
@@ -51,27 +51,27 @@ The ServiceNow® Enterprise Architecture application unites strategic and operat
 
 ### What's new
 
--   **Data certification in Enterprise Architecture Workspace**
-    -   Use the Data Certification workflow in Enterprise Architecture Workspace to ensure the accuracy, completeness, and reliability of critical data within your organization. For details, see .
-    -   Create a data certification policy directly from the Enterprise Architecture Workspace using the Data certification workflow. For details, see .
-    -   Run certification on demand for published policies to generate a new certification instance for an active policy. For details, see .
-    -   Activate a certification policy to add it to the active certification runs. This process ensures that the policy is active and can be used for certifications. You can deactivate a policy to remove it from active certification runs. For details, see .
--   **TRM catalog enhancement**
+-   **[Data certification in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/eaw-work-with-data-cert.md)**
+    -   Use the Data Certification workflow in Enterprise Architecture Workspace to ensure the accuracy, completeness, and reliability of critical data within your organization. For details, see [Exploring data certification in the Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/eaw-explore-data-cert.md).
+    -   Create a data certification policy directly from the Enterprise Architecture Workspace using the Data certification workflow. For details, see [Create a certification policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/eaw-create-policy.md).
+    -   Run certification on demand for published policies to generate a new certification instance for an active policy. For details, see [Run certification for a policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/eaw-data-cert-run-certification.md).
+    -   Activate a certification policy to add it to the active certification runs. This process ensures that the policy is active and can be used for certifications. You can deactivate a policy to remove it from active certification runs. For details, see [Activate a certification policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/eaw-data-cert-activate.md).
+-   **[TRM catalog enhancement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/eaw-export-trm-prod-cat-data.md)**
 
     Export the TRM catalog data to Microsoft Excel or CSV format.
 
--   **Business Portfolio enhancement**
+-   **[Business Portfolio enhancement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/eaw-export-business-portfolio-data.md)**
 
     Export the Business Portfolio data to Microsoft Excel or CSV format.
 
--   **TRM category enhancements**
+-   **[TRM category enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/eaw-create-new-trm-category.md)**
 
     Assign an owner to a TRM category to ensure clear accountability and improved governance standards. The owner is responsible for maintaining consistent technology compliance standards for that TRM category.
 
--   **TPM lifecycle record enhancements**
+-   **[TPM lifecycle record enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/eaw-tpm.md)**
     -   TLM lifecycle records are now assigned unique identifiers are automatically,while creating the TLM lifecycle record. These identifiers serve as clickable links that provide direct access to full record details.
-    -   Run the Populate Number field in TPM Discovered Technologies scheduled job to populate the TPM lifecycle record identifiers of existing records created using previous versions \(before version 1.9.0\) of the TLM plugin. For details, .
--   **AI Portfolio section enhancements**
+    -   Run the Populate Number field in TPM Discovered Technologies scheduled job to populate the TPM lifecycle record identifiers of existing records created using previous versions \(before version 1.9.0\) of the TLM plugin. For details, [Run a scheduled job to populate Technology Lifecycle Management lifecycle record identifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/eaw-run-job-to-populate-tpm-lifecycle-identifier.md).
+-   **[Working with Portfolio list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/eaw-work-with-portfolio-list-view.md)[AI Portfolio section enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/eaw-exploring-the-ai-portfolio.md)**
 
     The following AI product models added to the AI Portfolio section:
 
@@ -91,30 +91,30 @@ The ServiceNow® Enterprise Architecture application unites strategic and operat
     -   sn\_apm\_tpm.discoveryModelProductTypesForTPM- Product types of discovery models to consider for TPM software suggestions.
     -   sn\_apm\_tpm.configurationItemsWithSoftwareInstalls- Non hardware configuration items which have software models for TPM discovery process.
 
--   **Data certification**
+-   **[Data certification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/eaw-work-with-data-cert.md)**
 
     Added the Data Certification section to the Enterprise Architecture Workspace. Also, added the Data Certification icon to the navigation menu of the Enterprise Architecture Workspace.
 
--   **Enterprise Modeling and Visualization enhancements**
+-   **[Enterprise Modeling and Visualization enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/eaw-work-with-ent-model-and-visual.md)**
     -   Added AWS, CSDM, and EA Extended shape libraries.
     -   Added the Toggle Shape Library icon to show or hide the shapes panel.
     -   Added the expand and collapse icons to the shapes categories within the shapes panel.
     -   Added a view modes icon to switch between list and grid views for shape libraries.
     -   Added a download icon to download the diagram as a PNG image.
     -   Added the Modify business process details icon on the business process diagram page.
--   **TRM catalog**
+-   **[TRM catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/eaw-export-trm-prod-cat-data.md)**
 
     Added an export icon to the TRM catalog page under Technology Portfolio.
 
--   **Business Portfolio**
+-   **[Business Portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/eaw-export-business-portfolio-data.md)**
 
     Added an export icon to the Business Portfolio page.
 
--   **TRM category**
+-   **[TRM category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/trm-category-form.md)**
 
     Added the Owner field in the TRM category form.
 
--   **TPM lifecycle identifier**
+-   **[TPM lifecycle identifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/eaw-tpm.md)**
 
     Added the TPM lifecycle record identifier on the **TPM lifecyles** tab on the Technology Portfolio page.
 
@@ -125,11 +125,11 @@ The ServiceNow® Enterprise Architecture application unites strategic and operat
 
 ### What's new
 
--   **Enterprise Architecture Workspace home page enhancements**
+-   **[Enterprise Architecture Workspace home page enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/eaw-work-with-ea-workspace-homepage.md)**
 
     Apply the Portfolio Overview and Health filters to filter and view specific business applications and business capabilities information. An indicator is displayed on top of the filter icon to show the number of filters currently applied.
 
--   **TRM product related list enhancements**
+-   **[TRM product related list enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/eaw-work-with-trm.md)**
     -   Added the **Product capability** tab as a related list. In the tab, you can:
         -   Select **New** to create a new product capability and associate it with the TRM product.
         -   Select **Add** to add an existing product capability to the TRM product.
@@ -141,7 +141,7 @@ The ServiceNow® Enterprise Architecture application unites strategic and operat
 
 ### What's changed
 
--   **Application Rationalization page enhancements**
+-   **[Application Rationalization page enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/eaw-rationalize-business-applications.md)**
     -   Changed the landing page for application rationalization from Bubble chart view to List view.
     -   Enhanced the Bubble chart view to group the business application bubbles whose X and Y-axis values are within the range of +/-0.25 of each other.
     -   Added zoom in, zoom out, and zoom reset buttons to the Bubble chart page.
@@ -157,13 +157,13 @@ The ServiceNow® Enterprise Architecture application unites strategic and operat
     -   Added the technical debt column on the list view page.
     -   Added the technical debt indicator in the bubble size list under the settings of the bubble chart page.
     -   Updated the color palette of the bubbles in the bubble chart view with bolder hues to enhance the usability and legibility of the bubbles.
--   **Business applications by TCO score widget**
+-   **[Business applications by TCO score widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/eaw-workspace-dashboard.md)**
     -   Added X and Y-axis details for the Business applications by TCO score widget in the **Portfolio TCO** tab of the Enterprise Architecture Workspace page. The X-axis denotes the TCO scores while the Y-axis denotes the number of business applications.
     -   Score calculations are denoted by integers.
--   **Portfolio page enhancements**
+-   **[Portfolio page enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/eaw-work-with-portfolio-list-view.md)**
     -   Added the AI Portfolio module.
     -   Added the Product Capabilities section to the Application Portfolio module.
--   **Portfolio Overview and Health section enhancements on Enterprise Architecture Workspace home page**
+-   **[Portfolio Overview and Health section enhancements on Enterprise Architecture Workspace home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/eaw-apply-filters-portfolio-overview-and-health.md)**
     -   Added a filter button to the Portfolio Overview and Health section.
     -   Removed the previously available filter drop-downs.
     -   Added an indicator on the filter button to show the number of applied filters.
@@ -174,12 +174,12 @@ The ServiceNow® Enterprise Architecture application unites strategic and operat
 
 ### What's new
 
--   **Application rationalization page enhancements**
-    -   View business application bubbles whose X and Y-axis values are within the value range of +/-0.25 of each other as a grouped bubble. The grouped bubble displays the total number of business application bubbles that it contains. This grouping helps in clearing the clutter on bubble chart when there are too many business applications with similar values. For details, see .
-    -   Zoom in, zoom out, or pan on the Bubble chart page using either on-screen buttons or by using a mouse device or trackpad interactions. For details, see .
-    -   View the calculation logic behind the total number of business applications displayed on the Bubble chart page. For details, see .
-    -   Select a single bubble on the Bubble chart page to view the associated business application details. Select a grouped bubble to view the list of business applications that are part of that grouped bubble. For details, see .
-    -   View actual scores of business applications and compare them with their normalized scores. For details, see .
+-   **[Application rationalization page enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/eaw-rationalize-business-applications.md)**
+    -   View business application bubbles whose X and Y-axis values are within the value range of +/-0.25 of each other as a grouped bubble. The grouped bubble displays the total number of business application bubbles that it contains. This grouping helps in clearing the clutter on bubble chart when there are too many business applications with similar values. For details, see [Bubble chart view of application rationalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/eaw-bubble-chart-view.md).
+    -   Zoom in, zoom out, or pan on the Bubble chart page using either on-screen buttons or by using a mouse device or trackpad interactions. For details, see [Bubble chart view of application rationalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/eaw-bubble-chart-view.md).
+    -   View the calculation logic behind the total number of business applications displayed on the Bubble chart page. For details, see [Bubble chart view of application rationalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/eaw-bubble-chart-view.md).
+    -   Select a single bubble on the Bubble chart page to view the associated business application details. Select a grouped bubble to view the list of business applications that are part of that grouped bubble. For details, see [Bubble chart view of application rationalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/eaw-bubble-chart-view.md).
+    -   View actual scores of business applications and compare them with their normalized scores. For details, see [List view of application rationalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/eaw-list-view.md).
     -   Increased maximum number of bubbles displayed on the Bubble chart to 500.
     -   Apply the fiscal period filter to filter and view business applications for a specific fiscal period.
     -   Apply the application rationalization filters to filter and view specific business applications on the bubble chart or list view page. An indicator is displayed on top of the filter icon to show the number of filters currently applied.
@@ -187,17 +187,17 @@ The ServiceNow® Enterprise Architecture application unites strategic and operat
     -   Export the list view of application rationalization data to Excel or CSV file format. You can use the data to obtain insights, share with stakeholders, and prepare for analysis.
     -   Business applications with Retired or End of Life lifecycle stage aren’t displayed on the Application Rationalization bubble chart page.
 
--   ****
-    -   Create a diagrams using CSDM shapes to ensure consistency in how services, applications, and infrastructure are represented. Aligning with CMDB 5 standards, helps you in accurate reporting, impact analysis, and compliance across the enterprise. For details, see .
-    -   Use the modified Enterprise Architecture shapes that are aligned with CSDM 5 standards for better modeling, accurate impact analysis, and reporting. For details, see .
-    -   Create diagrams using AWS shapes. The AWS shapes enable you to visualize AWS cloud components, model hybrid architectures, support cloud migration planning. For details, see  and .
-    -   Group or ungroup a general shape object. You can combine multiple related shapes into a single container for better organization and clarity in diagrams. For details, see .
-    -   Expand or collapse a group shape to simplify visualization, improve focus, and supports hierarchical modeling. For details, see .
-    -   View Business Process details for which the BPMN diagram is being created. Modify details such as name, parent, and description. For details, see .
-    -   Reorder shape categories within the Shapes panel to customize the panel for faster access to frequently used shapes. For details, see .
-    -   Show or hide the Shapes panel to optimize your workspace for different tasks. For details, see .
-    -   Switch between List view and Grid view in the shapes panel according to your modeling needs. For details, see .
-    -   Download a diagram as an image to share it with other stakeholders with offline access or use it in the presentations. For details, see .
+-   **[Manage Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/eaw-config-modeling.md)**
+    -   Create a diagrams using CSDM shapes to ensure consistency in how services, applications, and infrastructure are represented. Aligning with CMDB 5 standards, helps you in accurate reporting, impact analysis, and compliance across the enterprise. For details, see [Common Service Data Model \(CSDM\) shapes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/eaw-modeling-csdm-shapes.md).
+    -   Use the modified Enterprise Architecture shapes that are aligned with CSDM 5 standards for better modeling, accurate impact analysis, and reporting. For details, see [Create a diagram using CSDM shapes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/eaw-modeling-create-diagram-csdm.md).
+    -   Create diagrams using AWS shapes. The AWS shapes enable you to visualize AWS cloud components, model hybrid architectures, support cloud migration planning. For details, see [Amazon Web Services \(AWS\) shapes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/eaw-modeling-aws-shapes.md) and [Create a diagram using AWS shapes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/eaw-modeling-create-diagram-aws.md).
+    -   Group or ungroup a general shape object. You can combine multiple related shapes into a single container for better organization and clarity in diagrams. For details, see [Convert a shape to a group shape](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/eaw-modeling-group-ungroup-shape.md).
+    -   Expand or collapse a group shape to simplify visualization, improve focus, and supports hierarchical modeling. For details, see [Expand or collapse a group shape](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/eaw-modeling-expand-collapse-shape.md).
+    -   View Business Process details for which the BPMN diagram is being created. Modify details such as name, parent, and description. For details, see [Modify BPMN diagram details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/eaw-modeling-modify-bpmn.md).
+    -   Reorder shape categories within the Shapes panel to customize the panel for faster access to frequently used shapes. For details, see [Reorder shapes categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/eaw-modeling-reorder-shapes-cat.md).
+    -   Show or hide the Shapes panel to optimize your workspace for different tasks. For details, see [Show or hide shapes panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/eaw-modeling-show-hide-shapes-panel.md).
+    -   Switch between List view and Grid view in the shapes panel according to your modeling needs. For details, see [Switch to list or grid view of shapes panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/eaw-modeling-shapes-grid-list-view.md).
+    -   Download a diagram as an image to share it with other stakeholders with offline access or use it in the presentations. For details, see [Download a modeling diagram as an image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/eaw-modeling-download-diagram.md).
     -   Select and delete diagrams from the Diagrams page.
     -   Select upstream or downstream entities when adding related records for shapes. The upstream entities appear as a parent for the selected shape in the diagram while the downstream entities appear as a child for the selected shape in the diagram.
     -   Add version label, version description, and planned rollout date details for diagram versions.
@@ -223,13 +223,13 @@ The ServiceNow® Enterprise Architecture application unites strategic and operat
         -   From the Architectural Artifacts section of the Portfolio page.
     -   Added support for all ArchiMate shapes.
     -   Model Value stream diagrams.
--   **Business application related list enhancements**
+-   **[Business application related list enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/eaw-app-portfolio.md)**
 
     Added the AI Product Models as a related list. In the tab, you can:
 
     -   Select **Add** to associate an existing AI system product model to the business application.
     -   Select **Remove** to remove a AI system product model from a business application.
-    For details, see .
+    For details, see [Add AI systems to business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/eaw-add-ai-systems.md).
 
     -   Added the **Product capability** tab as a related list. In the tab, you can:
         -   Select **New** to create a new product capability and associate it with the business application.
@@ -240,7 +240,7 @@ The ServiceNow® Enterprise Architecture application unites strategic and operat
         -   Select **Add** to add an existing TRM product to the business application.
         -   Select **Remove** to remove a TRM product from a business application.
     -   In the **Architectural Artifacts** tab of the business application related list, selecting the **New** button displays a modal to create an architectural artifact.
--   **Architectural Decision Records \(ADR\) enhancements**
+-   **[Architectural Decision Records \(ADR\) enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/eaw-managing-arch-decision-records.md)**
     -   Create artifact type Architectural Decision Records \(ADR\) in one step.
     -   Create and add multiple pages to the Architectural Decision Records \(ADR\) from the **Artifact content** tab.
     -   In the Architectural Decision Records \(ADR\) page, you can tag the following:
@@ -257,7 +257,7 @@ The ServiceNow® Enterprise Architecture application unites strategic and operat
             -   Value stream \(requires the value stream plugin\)
     -   Request approval workflow for Architectural Decision Records \(ADR\).
     -   The version drop-down list is added to the Architectural Decision Records \(ADR\) page header. Select a version from the drop-down list to open the specific ADR version.
--   **Data Certification changes**
+-   **[Data Certification changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/eaw-config-cert-schedules.md)**
 
     In the Enterprise Architecture Workspace, the certifications data is saved to and fetched from the CMDB Data Management Task Control \[cmdb\_data\_management\_task\] table.If your certification data is still fetched from the Certification Schedules \[cert\_schedule\] table, you might consider migrating your certification policies to the CMDB Data Management Task Control \[cmdb\_data\_management\_task\] table. For more information, see [Convert legacy certification schedules into Data Manager Certification policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/convert-data-cert-definitions.md)and[Publish a draft Data Manager policy in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/data-manager-publish-draft-policy.md).
 
@@ -268,11 +268,11 @@ The ServiceNow® Enterprise Architecture application unites strategic and operat
 
     Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
 
--   ****
+-   **[View business capabilities for a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/eaw-view-business-capabilities-assoc-with-ba.md)**
 
     Added the **Business Capabilities** tab in the business application related list. **Add** and **Remove** buttons are added to associate or dissociate a business capability with a business application.
 
--   **Business application related list enhancements**
+-   **[Business application related list enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/eaw-app-portfolio.md)**
 
     The business application related list is reorganized, and includes the following available tabs:
 
@@ -290,13 +290,13 @@ The ServiceNow® Enterprise Architecture application unites strategic and operat
     -   CI Scores
     -   Architecture Reviews
     -   Lifecycle Timelines
--   **Insights section enhancements on Enterprise Architecture Workspace home page**
+-   **[Insights section enhancements on Enterprise Architecture Workspace home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/eaw-insights.md)**
 
     A new card "Past due certification tasks for business applications" is added in the **Application Portfolio** tab of the Insights section. The following cards are removed from the **Application Portfolio** tab of the Insights section:
 
     -   Open quarterly certifications for business applications
     -   Open on demand certifications for business applications
--   **Enterprise Modeling and Visualization enhancements**
+-   **[Enterprise Modeling and Visualization enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-portfolio-management/eaw-modeling.md)**
     -   Added an option to select upstream related records in the Add related records pop-up window.
     -   Added new fields to the Duplicate pop-up window, when trying to duplicate a business process map. The fields are to associate the duplicated business process map with a new business process or an existing business process.
     -   Added an adornment to add text to the connector line between shapes in a diagram.

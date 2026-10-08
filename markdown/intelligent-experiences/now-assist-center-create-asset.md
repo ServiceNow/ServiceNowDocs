@@ -221,3 +221,5 @@ An asset is created and can be seen in the related asset inventory list.
 
 [View and manage your AI assets in the asset inventory]()
 
+[Manage system properties for AI applications in AI Admin Center]()
+

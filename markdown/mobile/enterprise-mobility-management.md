@@ -16,7 +16,7 @@ Use an EMM suite to distribute ServiceNow mobile apps or the ServiceNow Classic 
 
 ## Enterprise mobility management \(EMM\)
 
-Apply your corporate app protection policies to ServiceNow mobile apps by either using your EMM suite, or, with an embedded mobile application management \(MAM\) SDK for personal devices. ServiceNow only supports Intune and BlackBerry SDKs.
+Apply your corporate app protection policies to ServiceNow mobile apps by either using your EMM suite, or, with an embedded mobile application management \(MAM\) SDK for personal devices. ServiceNow only supports Intune SDKs.
 
 ## AppConfig
 

@@ -50,11 +50,7 @@ Requester type
 
 </td><td>
 
-Type of personal data stored. The choices are:-   **Customer**
--   **Employee**
--   **Ex-Employee**
--   **Prospect**
-
+Type of personal data stored. Select one or more from the active data subject types configured for the application.
 
 </td></tr><tr><td>
 

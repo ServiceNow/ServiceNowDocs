@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-platformanalyticsexperience-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
-reading_time_minutes: 9
+last_updated: "2026-10-08"
+reading_time_minutes: 10
 breadcrumb: [Products combined by family]
 ---
 
@@ -38,7 +38,10 @@ Yokohama
 
 </td><td>
 
+-   **Upgrade information**
+
 If you had previously migrated your analytics assets to Platform Analytics, assets that were in compatibility mode but are newly supported in Yokohama are migrated automatically.
+
 
 </td></tr><tr><td>
 
@@ -46,9 +49,12 @@ Zurich
 
 </td><td>
 
+-   **Upgrade information**
+
 On upgrade, any homepages on your instance that have been opened are migrated to Core UI dashboards, which are visible in the dashboard library. For more information, see [Homepage deprecation](https://www.servicenow.com/docs/access?context=homepage-deprecation-help-tool&family=zurich&ft:locale=en-US).
 
- Simple lists are all converted to the new List element on upgrade.
+Simple lists are all converted to the new List element on upgrade.
+
 
 </td></tr></tbody>
 </table>## New features
@@ -133,7 +139,16 @@ Yokohama
 
 </td><td>
 
--   **[Migrate more features to Platform Analytics from the Core UI](https://www.servicenow.com/docs/access?context=data-migration&family=yokohama&ft:locale=en-US)**
+-   **[Migration center flow UX improved](https://www.servicenow.com/docs/access?context=data-migration-perform&family=yokohama&ft:locale=en-US)**
+    -   A confirmation modal is displayed when **Start moving** or **Activate** is selected.
+    -   Bulk migration can be retriggered after source artifacts are changed.
+    -   The creation of new analytics artifacts can be blocked when bulk migration starts.
+-   **Percent information added to tooltips**
+
+Tooltips in geomap, vertical and horizontal bar, heatmap, and bubble visualizations now include percentages when applicable.
+
+
+ -   **[Migrate more features to Platform Analytics from the Core UI](https://www.servicenow.com/docs/access?context=data-migration&family=yokohama&ft:locale=en-US)**
 
 Migration scripts are improved to support more features. All migration script improvements are applied automatically on upgrade to content that was previously migrated in compatibility mode.
 
@@ -212,7 +227,18 @@ Zurich
 
 </td><td>
 
--   **[Select whether to drill down to Platform Analytics or Core UI lists](https://www.servicenow.com/docs/access?context=visualization-drilldown-in-config-ws&family=zurich&ft:locale=en-US)**
+-   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+-   **[Consistent header and border configuration](https://www.servicenow.com/docs/access?context=add-elements-to-a-dashboard&family=zurich&ft:locale=en-US)**
+
+Dashboard components now have header and border configuration options that are consistent with data visualizations and each other.
+
+Component icons have consistent coloring for improved contrast and accessibility and are consolidated in the same corner.
+
+
+ -   **[Select whether to drill down to Platform Analytics or Core UI lists](https://www.servicenow.com/docs/access?context=visualization-drilldown-in-config-ws&family=zurich&ft:locale=en-US)**
 
 Decide whether data view chart interactions for data visualizations on an instance drill down to Platform Analytics or Core UI record lists. This choice applies only on the Platform Analytics experience.
 
@@ -315,10 +341,12 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 The Platform Analytics experience is active by default. However, some additional steps might be required.
 
--   To use indicator data sources, you might need to activate Performance Analytics.
--   To use Process Mining with the Platform Analytics experience, you might need to activate Process Mining.
+    -   To use indicator data sources, you might need to activate Performance Analytics.
+    -   To use Process Mining with the Platform Analytics experience, you might need to activate Process Mining.
 
 </td></tr><tr><td>
 
@@ -326,7 +354,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Platform Analytics experience is a ServiceNow AI Platform feature that is active by default.
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -405,7 +436,10 @@ Yokohama
 
 </td><td>
 
+-   **Accessibility information**
+
 Dashboard overview and Filter components now support Reflow at 400% zoom.
+
 
 </td></tr><tr><td>
 

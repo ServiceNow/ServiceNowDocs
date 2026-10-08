@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-nowassistinvirtualagent-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
-reading_time_minutes: 64
+last_updated: "2026-10-08"
+reading_time_minutes: 77
 breadcrumb: [Products combined by family]
 ---
 
@@ -242,9 +242,7 @@ Yokohama
 
 -   **[Assistant Designer](https://www.servicenow.com/docs/access?context=assistant-designer&family=yokohama&ft:locale=en-US)**
 
-Create and manage LLM-based chat and voice assistants within Assistant Designer, a centralized assistant administrator experience. Assistant Designer is comprised of three main areas: Assistants, Asset library, and Analytics.
-
-[Configuring assistants overview](https://www.servicenow.com/docs/access?context=configure-now-assist-va&family=yokohama&ft:locale=en-US)
+Create and manage LLM-based chat and voice assistants within Assistant Designer, a centralized assistant administrator experience. Assistant Designer is comprised of three main areas: Assistants, Asset library, and Analytics.[Configuring assistants overview](https://www.servicenow.com/docs/access?context=configure-now-assist-va&family=yokohama&ft:locale=en-US)
 
     -   Access the **Assistants** tab within [Assistant Designer](https://www.servicenow.com/docs/access?context=assistant-designer&family=yokohama&ft:locale=en-US) by navigating to **All** &gt; **Assistant Designer**. The **Assistants** tab is only available for customers who have the Now Assist license. NLU-only customers don't have access to [Assistant Designer](https://www.servicenow.com/docs/access?context=assistant-designer&family=yokohama&ft:locale=en-US).
 [View assistants](https://www.servicenow.com/docs/access?context=view-assistants&family=yokohama&ft:locale=en-US)
@@ -351,7 +349,7 @@ Use the copy message icon in the feedback panel to copy received Virtual Agent r
 Select **View org chart** from the people citation's popover in Now Assist panel's enhanced chat or Now Assist in Virtual Agent enhanced chat/enhanced chat's full-page experience. The person's organizational chart appears to the right of the chat conversation in an area known as the interactive view. You can switch between multiple organizational charts via a drop-down in the interactive view if you open multiple people citations' org charts in the same conversation.
 
 
--   **[Select continue or move to next task button](https://www.servicenow.com/docs/access?context=nava-standard-chat&family=yokohama&ft:locale=en-US)**
+ -   **[Select continue or move to next task button](https://www.servicenow.com/docs/access?context=nava-standard-chat&family=yokohama&ft:locale=en-US)**
 
 The **Continue to next task** button appears in the new **Ready to move on to your next task** card whenever multiple questions are found in a single standard chat user's message. The **Move on to the next task** citation appears at the end of an enhanced chat's synthesized response whenever multiple questions or requests are found along with an action in the user's single message. Whenever either **Continue to next task** \(standard chat\) or **Move on to the next task** \(enhanced chat\) is selected, the second question or request is reviewed and a synthesized response is sent back regarding the user's second question or request.
 
@@ -364,7 +362,7 @@ Virtual Agent can answer multiple questions that were submitted in a single mess
 Use **sn\_aia.use\_agents\_in\_planner** to configure AI agent discovery behavior. The default value is `true`, preferring AI agents over assets including catalogs, topics, Q&amp;A knowledge base articles, workflows, and sub-workflows. When set to `false`, there’s no preference for AI agents. AI agents and assets are treated the same.
 
 
--   **[Configure additional user interface and experience options for enhanced chat](https://www.servicenow.com/docs/access?context=ac-configure-chat-branding&family=yokohama&ft:locale=en-US)**
+ -   **[Configure additional user interface and experience options for enhanced chat](https://www.servicenow.com/docs/access?context=ac-configure-chat-branding&family=yokohama&ft:locale=en-US)**
 
 Customize and configure the Search Toggle Button Label for enhanced chat's full-page experience. Additionally, you can configure the Enable Unread Conversation Count Display and Left Panel Header Label for enhanced chat and enhanced chat's full-page experience.
 
@@ -445,12 +443,12 @@ Enhancements to Now Assist in Virtual Agent assistants and Now Assist panel Plat
 Use the enhanced Now Assist panel for a more intuitive and personalized experience. The updated Now Assist panel is re-sizable and can be moved anywhere on the ServiceNow AI platform.
 
 
--   **[Now Assist in Virtual Agent system properties](https://www.servicenow.com/docs/access?context=nava-sys-props&family=yokohama&ft:locale=en-US)**
+ -   **[Now Assist in Virtual Agent system properties](https://www.servicenow.com/docs/access?context=nava-sys-props&family=yokohama&ft:locale=en-US)**
 
 Enable pinning a chat window on a portal by using the **sn\_nowassist\_va.enhanced\_chat\_pin\_enabled.&lt;portal-url&gt;** system property.
 
 
--   **[Use enhanced chat](https://www.servicenow.com/docs/access?context=nava-enhanced-chat&family=yokohama&ft:locale=en-US)**
+ -   **[Use enhanced chat](https://www.servicenow.com/docs/access?context=nava-enhanced-chat&family=yokohama&ft:locale=en-US)**
 
 Enhanced chat is a conversational support experience within a resizable and moveable window that also includes the ability to have multiple active conversations and superior search capabilities. Using enhanced chat's full-page experience further intertwines chat and search capabilities by redirecting users into a full-page chat after entering a query into a portal's search bar.
 
@@ -531,7 +529,7 @@ Enable suggested actions in Now Assist in Virtual Agent so that users are offere
 Use the Web Search custom skill to query the internet for information using a third-party AI. The skill triggers when the LLM and AI Search cannot provide an answer. Both values are shown in the System Properties \[sys\_properties\] table item **sn\_nowassist\_va.websearch\_fallback\_enabled**. Set a chosen definition \(such as Perplexity\) to `true` in the AI Search answers OneExtend capability along with its matching API in the Credentials list. You can set one definition and credential to true at any one time.
 
 
--   **[Stream chat responses](https://www.servicenow.com/docs/access?context=streaming-responses-requestor&family=yokohama&ft:locale=en-US)**
+ -   **[Stream chat responses](https://www.servicenow.com/docs/access?context=streaming-responses-requestor&family=yokohama&ft:locale=en-US)**
 
 Stream LLM response messages as they’re generated instead of the response text appearing all at once to end users. Responses stream in either one letter or one word at a time.
 
@@ -635,21 +633,7 @@ Review:
     -   Shows whether stream responses is turned on or off.
 -   **[Using Now Assist in Virtual Agent](https://www.servicenow.com/docs/access?context=using-now-assist-in-va&family=yokohama&ft:locale=en-US)**
 
-Search through external content connections such as Microsoft SharePoint or Confluence if external search sources are added to information sources when [Configuring assistants overview](https://www.servicenow.com/docs/access?context=configure-now-assist-va&family=yokohama&ft:locale=en-US).
-
-Select an inline citation to show a popover containing a link to an article or source, or a description and action to start a request.
-
-Citations with an action are shown after a second clarifying question from Virtual Agent.
-
-Change the order of the fallback and revisit options in the **View more options** results list that appears in the synthesized response. Use the **sn\_nowassist\_va.synth\_response\_revisit\_position** system property with either the **BEFORE\_FALLBACK** or **AFTER\_FALLBACK** values.
-
-Show or hide the **Need more help** button in the synthesized response by using the **show\_view\_more\_for\_synthesized** system property.
-
-Turn on or off regular results in Virtual Agent from the following Now Assist Search Results Output Types table using the parameter **now\_assist\_va\_search\_results\_output\_type.list** parameter.
-
-Use prechat and postchat surveys with GPT4o and LLAMA. Users can select data pills or enter strings for responses.
-
-Use new prebuilt topics for prechat and postchat surveys in LLM conversations.
+Search through external content connections such as Microsoft SharePoint or Confluence if external search sources are added to information sources when [Configuring assistants overview](https://www.servicenow.com/docs/access?context=configure-now-assist-va&family=yokohama&ft:locale=en-US).Select an inline citation to show a popover containing a link to an article or source, or a description and action to start a request.Citations with an action are shown after a second clarifying question from Virtual Agent.Change the order of the fallback and revisit options in the **View more options** results list that appears in the synthesized response. Use the **sn\_nowassist\_va.synth\_response\_revisit\_position** system property with either the **BEFORE\_FALLBACK** or **AFTER\_FALLBACK** values.Show or hide the **Need more help** button in the synthesized response by using the **show\_view\_more\_for\_synthesized** system property.Turn on or off regular results in Virtual Agent from the following Now Assist Search Results Output Types table using the parameter **now\_assist\_va\_search\_results\_output\_type.list** parameter.Use prechat and postchat surveys with GPT4o and LLAMA. Users can select data pills or enter strings for responses.Use new prebuilt topics for prechat and postchat surveys in LLM conversations.
 
 
 </td></tr><tr><td>
@@ -661,10 +645,6 @@ Zurich
 -   **[View Live Agent status updates](https://www.servicenow.com/docs/access?context=nava-integrated-chat&family=zurich&ft:locale=en-US)**
 
 Routing messages and section headers indicate when the live agent has entered and left the chat in premium chat conversations.
-
--   **[Assign Model Context Protocol \(MCP\) servers to an assistant](https://www.servicenow.com/docs/access?context=assign-mcp-servers&family=zurich&ft:locale=en-US)**
-
-Admins can assign configured Model Context Protocol \(MCP\) servers to assistants. Role-based access can be configured for each assigned MCP server to control which users can access MCP-provided capabilities through the assistant.
 
 -   **[Brand and personalize an assistant](https://www.servicenow.com/docs/access?context=brand-assistant&family=zurich&ft:locale=en-US)**
 
@@ -683,13 +663,9 @@ The MCP servers section shows which users can access Model Context Protocol \(MC
 Personalization is now shown by default.
 
 
--   **[Assign search sources](https://www.servicenow.com/docs/access?context=add-info-sources-assistant&family=zurich&ft:locale=en-US)**
+ -   **[Assign search sources](https://www.servicenow.com/docs/access?context=add-info-sources-assistant&family=zurich&ft:locale=en-US)**
 
-Premium chat prefills messages with legacy messages that were previously configured in your standard or enhanced chat experiences.
-
-By default, portals and mobile apps that have enhanced chat with a dynamic, movable, and resizable window use the assistant search profile for both portal/mobile search and the assistant search. Admins can now turn off this behavior and continue to use the portal/mobile search profile independently.
-
-The **Include AI Responses** column shows whether the search source is included in the synthesized response. Within Assistant Designer, the setting is read-only. However, it can be modified in AI Search Admin console.
+Premium chat prefills messages with legacy messages that were previously configured in your standard or enhanced chat experiences.By default, portals and mobile apps that have enhanced chat with a dynamic, movable, and resizable window use the assistant search profile for both portal/mobile search and the assistant search. Admins can now turn off this behavior and continue to use the portal/mobile search profile independently.The **Include AI Responses** column shows whether the search source is included in the synthesized response. Within Assistant Designer, the setting is read-only. However, it can be modified in AI Search Admin console.
 
 -   **[Select a display experience](https://www.servicenow.com/docs/access?context=display-assistant-portal-channel&family=zurich&ft:locale=en-US)**
 
@@ -697,9 +673,7 @@ Mobile custom apps support configuration of enhanced chat and premium chat displ
 
 -   **[Manage chat experience](https://www.servicenow.com/docs/access?context=manage-assistant-chat-experience&family=zurich&ft:locale=en-US)**
 
-If you configured legacy messages and legacy fallbacks, your premium messages and premium fallbacks are prefilled with what you had in your legacy messages and legacy fallbacks. In this release, closing topics, closing messages, and survey topic are now prefilled.
-
-Closing topic, closing message, and survey topic are available for standard, enhanced, and premium chat for Now Assist in Virtual Agent.
+If you configured legacy messages and legacy fallbacks, your premium messages and premium fallbacks are prefilled with what you had in your legacy messages and legacy fallbacks. In this release, closing topics, closing messages, and survey topic are now prefilled.Closing topic, closing message, and survey topic are available for standard, enhanced, and premium chat for Now Assist in Virtual Agent.
 
 -   **[Edit a chat assistant](https://www.servicenow.com/docs/access?context=edit-assistant&family=zurich&ft:locale=en-US)**
 
@@ -714,7 +688,7 @@ Browse and select from promoted prompt templates or save your own custom prompts
 When in premium chat conversations, you can upload a document and view it in the interactive view.
 
 
--   **[Assign search sources](https://www.servicenow.com/docs/access?context=add-info-sources-assistant&family=zurich&ft:locale=en-US)**
+ -   **[Assign search sources](https://www.servicenow.com/docs/access?context=add-info-sources-assistant&family=zurich&ft:locale=en-US)**
 
 For premium chat, catalog items have improved fluidity; however, some of them are no longer conversational. They’ll open in a catalog form instead. This applies to Now Assist in Virtual Agent assistants and Now Assist panel – Platform assistant.
 
@@ -730,46 +704,30 @@ An alert is shown when the instance is eligible for premium chat or when there i
 
 -   **[Brand and personalize an assistant](https://www.servicenow.com/docs/access?context=brand-assistant&family=zurich&ft:locale=en-US)**
 
-Customize an assistant’s tone, response length, and persona in the **Personalization** section when branding your assistant. By default, personalization is hidden.
-
-To enable personalization, set the appropriate values in the **sn\_nowassist\_va.assistant\_personalization** system property. For more information, see [ServiceNow Otto for Virtual Agent system properties](https://www.servicenow.com/docs/access?context=nava-sys-props&family=zurich&ft:locale=en-US).
+Customize an assistant’s tone, response length, and persona in the **Personalization** section when branding your assistant. By default, personalization is hidden.To enable personalization, set the appropriate values in the **sn\_nowassist\_va.assistant\_personalization** system property. For more information, see [ServiceNow Otto for Virtual Agent system properties](https://www.servicenow.com/docs/access?context=nava-sys-props&family=zurich&ft:locale=en-US).
 
 -   **[Enable additional chat features](https://www.servicenow.com/docs/access?context=additional-chat-features&family=zurich&ft:locale=en-US)**
 
-For Now Assist in Virtual Agent assistants, voice input is available for premium chat.
-
-For Now Assist panel – Platform assistant, voice input is available for standard, enhanced, and premium chat.
+For Now Assist in Virtual Agent assistants, voice input is available for premium chat.For Now Assist panel – Platform assistant, voice input is available for standard, enhanced, and premium chat.
 
 -   **[Manage chat experience](https://www.servicenow.com/docs/access?context=manage-assistant-chat-experience&family=zurich&ft:locale=en-US)**
 
-For premium chat, you can select a topic for fallback options.
-
-For premium messages, select the default greeting message, static greeting message, or select a custom topic. The static greeting message allows you to customize message.
-
-For premium chat, your premium messages and premium fallbacks are pre-filled with your legacy messages and legacy fallbacks.
+For premium chat, you can select a topic for fallback options.For premium messages, select the default greeting message, static greeting message, or select a custom topic. The static greeting message allows you to customize message.For premium chat, your premium messages and premium fallbacks are pre-filled with your legacy messages and legacy fallbacks.
 
 -   **[Edit a chat assistant](https://www.servicenow.com/docs/access?context=edit-assistant&family=zurich&ft:locale=en-US)**
 
-View **All assets** to see the assets that are assigned to an assistant.
-
-There is no limit to the number of assets that can be promoted.
-
-If an active asset is promoted, and later is set to inactive, the asset is not shown in the **Discoverable**, **Visible**, and **Promoted** lists.
+View **All assets** to see the assets that are assigned to an assistant.There is no limit to the number of assets that can be promoted.If an active asset is promoted, and later is set to inactive, the asset is not shown in the **Discoverable**, **Visible**, and **Promoted** lists.
 
 -   **[ServiceNow Otto for Virtual Agent system properties](https://www.servicenow.com/docs/access?context=nava-sys-props&family=zurich&ft:locale=en-US)**
 
 Use the **sn\_nowassist\_va.assistant\_personalization** system property to show or hide chat personalization when branding an assistant. Personalization determines the tone of the assistant, response length, and persona.
-
--   **[\[Placeholder link text to key bundle-convint.deployment-config-attributes\]](https://www.servicenow.com/docs/access?context=deployment-config-attributes&family=zurich&ft:locale=en-US)**
-
-Manage the behavior of suggestions that users see when typing in the input box.
 
 -   **[Post-chat survey in premium chat](https://www.servicenow.com/docs/access?context=nava-integrated-chat&family=zurich&ft:locale=en-US)**
 
 Collect user feedback in premium chats through post-chat surveys that trigger on agent task completion instead of waiting for a chat-end event. When an agent completes a task in an agentic flow, the survey can surface based on a configured probability, enabling you to gather insights that were previously unavailable.
 
 
--   **[View assistants](https://www.servicenow.com/docs/access?context=view-assistants&family=zurich&ft:locale=en-US)**
+ -   **[View assistants](https://www.servicenow.com/docs/access?context=view-assistants&family=zurich&ft:locale=en-US)**
 
 If you have the **com.snc.ex\_ai\_portal** \(Employee Slate\) app installed, the default Employee Slate assistant is shown, and Employee Slate is mapped to it by default. The default Employee Slate assistant can be activated, deactivated, edited, and tested. It can’t be deleted.
 
@@ -779,9 +737,7 @@ The default Employee Slate assistant comes with premium chat. Premium chat is a 
 
 -   **[Brand and personalize an assistant](https://www.servicenow.com/docs/access?context=brand-assistant&family=zurich&ft:locale=en-US)**
 
-For the default Employee Slate assistant, configure premium chat branding. Select and configure the chat header, chat logo, and chat menu items such as a phone number, email, and link.
-
-A **Channels** section is shown for Now Assist in Virtual Agent assistants and the default Employee Slate assistant if a channel is configured in the display experience.
+For the default Employee Slate assistant, configure premium chat branding. Select and configure the chat header, chat logo, and chat menu items such as a phone number, email, and link.A **Channels** section is shown for Now Assist in Virtual Agent assistants and the default Employee Slate assistant if a channel is configured in the display experience.
 
 -   **[Manage chat experience](https://www.servicenow.com/docs/access?context=manage-assistant-chat-experience&family=zurich&ft:locale=en-US)**
 
@@ -796,7 +752,7 @@ Test your chat assistant \(standard, enhanced, or premium chat\) to simulate an 
 Use the modified version of Now Assist in Virtual Agent on your mobile device. This redesigned version adapts to smaller screens without losing functionality or clarity.
 
 
--   **[Clarifying questions for unclear requests](https://www.servicenow.com/docs/access?context=nava-integrated-chat&family=zurich&ft:locale=en-US)**
+ -   **[Clarifying questions for unclear requests](https://www.servicenow.com/docs/access?context=nava-integrated-chat&family=zurich&ft:locale=en-US)**
 
 Get precise, relevant answers from Now Assist in Virtual Agent premium chat even when your request is unclear, as the assistant asks you a targeted clarifying question before responding instead of returning an overwhelming list of results. When the assistant is confident that it understands your request, it responds immediately without interrupting the conversation.
 
@@ -835,7 +791,7 @@ Edit an assistant to turn response feedback on or off. For more information, see
 Turn premium chat on or off for the Now Assist panel – Platform assistant using the **sn\_nowassist\_va.enable\_nap\_aix\_experience** system property. The default value is set to `false`. When the system property is set to `false`, you can switch back to your previous state \(standard chat or enhanced chat\) from the Assistant Designer chat experience modal. When the system property is set to `true`, you won't have the option to make edits to the chat experience. Premium chat is only available if your instance meets all requirements.
 
 
--   **[Start NAVA conversations from anywhere](https://www.servicenow.com/docs/access?context=nava-integrated-chat&family=zurich&ft:locale=en-US)**
+ -   **[Start NAVA conversations from anywhere](https://www.servicenow.com/docs/access?context=nava-integrated-chat&family=zurich&ft:locale=en-US)**
 
 Start a Now Assist in Virtual Agent premium chat from any page in the Employee Hub with a single click, without interrupting existing workflows. You can upload files, toggle web search on or off, and receive a personalized greeting with promoted topics when opening a new conversation.
 
@@ -868,11 +824,9 @@ Dutch and Thai language support for voice assistants enables users to experience
 Collect user feedback in enhanced chats through post-chat surveys that trigger on agent task completion instead of waiting for a chat-end event. When an agent completes a task in an agentic flow, the survey can surface based on a configured probability, enabling you to gather insights that were previously unavailable.
 
 
--   **[Assistant Designer](https://www.servicenow.com/docs/access?context=assistant-designer&family=zurich&ft:locale=en-US)**
+ -   **[Assistant Designer](https://www.servicenow.com/docs/access?context=assistant-designer&family=zurich&ft:locale=en-US)**
 
-Create and manage LLM-based chat and voice assistants within Assistant Designer, a centralized assistant administrator experience. Assistant Designer is comprised of three main areas: Assistants, Asset library, and Analytics.
-
-[Configuring assistants overview](https://www.servicenow.com/docs/access?context=configure-now-assist-va&family=zurich&ft:locale=en-US)
+Create and manage LLM-based chat and voice assistants within Assistant Designer, a centralized assistant administrator experience. Assistant Designer is comprised of three main areas: Assistants, Asset library, and Analytics.[Configuring assistants overview](https://www.servicenow.com/docs/access?context=configure-now-assist-va&family=zurich&ft:locale=en-US)
 
     -   Access the **Assistants** tab within [Assistant Designer](https://www.servicenow.com/docs/access?context=assistant-designer&family=zurich&ft:locale=en-US) by navigating to **All** &gt; **Assistant Designer**. The **Assistants** tab is only available for customers who have the Now Assist license. NLU-only customers don't have access to [Assistant Designer](https://www.servicenow.com/docs/access?context=assistant-designer&family=zurich&ft:locale=en-US).
 [View assistants](https://www.servicenow.com/docs/access?context=view-assistants&family=zurich&ft:locale=en-US)
@@ -979,7 +933,7 @@ Use the copy message icon in the feedback panel to copy received Virtual Agent r
 Select **View org chart** from the people citation's popover in the Now Assist panel's enhanced chat or Now Assist in Virtual Agent enhanced chat/enhanced chat's full-page experience. The person's organizational chart appears next to the chat conversation in an area known as the interactive view. You can switch between multiple organizational charts via a drop-down in the interactive view if you open multiple people citations' org charts in the same conversation.
 
 
--   **[Select continue or move to next task button](https://www.servicenow.com/docs/access?context=nava-standard-chat&family=zurich&ft:locale=en-US)**
+ -   **[Select continue or move to next task button](https://www.servicenow.com/docs/access?context=nava-standard-chat&family=zurich&ft:locale=en-US)**
 
 The **Continue to next task** button appears in the new **Ready to move on to your next task** card whenever multiple questions are found in a single standard chat user's message. The **Move on to the next task** citation appears at the end of an enhanced chat's synthesized response whenever multiple questions or requests are found along with an action in the user's single message. Whenever either **Continue to next task** \(standard chat\) or **Move on to the next task** \(enhanced chat\) is selected, the second question or request is reviewed and a synthesized response is sent back regarding the user's second question or request.
 
@@ -996,7 +950,7 @@ Use **sn\_aia.use\_agents\_in\_planner** to configure AI agent discovery behavio
 Now Assist in Virtual Agent and Now Assist panel will use an upgraded Now LLM Service as the default. For more information, see the [Now LLM Service Upgrade FAQ: Everything You Need to Know About the v2.0 Model Transition \[KB2556891\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2556891) article in the Now Support Knowledge Base.
 
 
--   **[Configure additional user interface and experience options for enhanced chat](https://www.servicenow.com/docs/access?context=ac-configure-chat-branding&family=zurich&ft:locale=en-US)**
+ -   **[Configure additional user interface and experience options for enhanced chat](https://www.servicenow.com/docs/access?context=ac-configure-chat-branding&family=zurich&ft:locale=en-US)**
 
 Customize and configure the Search Toggle Button Label for enhanced chat's full-page experience. Additionally, you can configure the Enable Unread Conversation Count Display and Left Panel Header Label for enhanced chat and enhanced chat's full-page experience.
 
@@ -1040,6 +994,11 @@ Enhancements to Now Assist in Virtual Agent assistants and Now Assist panel Plat
 [Create a chat assistant](https://www.servicenow.com/docs/access?context=create-assistant&family=zurich&ft:locale=en-US)
 
     -   Configure assistants by domain.
+
+
+    -   Now Assist in Virtual Agent assistants: By default, all global skill types are turned on in Now Assist Admin console.
+    -   Now Assist panel Platform assistant: By default, all global skill types, except for Catalog skill, are turned on in Now Assist Admin console.
+    -   Now Assist panel Developer assistant: By default, Now Assist Topic skill is turned on in Now Assist Admin console. No other skills are available for the Now Assist panel Developer assistant.
 [Select a display experience](https://www.servicenow.com/docs/access?context=display-assistant-portal-channel&family=zurich&ft:locale=en-US)
 
     -   Now Assist in Virtual Agent: For mobile search widgets, enable the search bar to open into a full-page experience.
@@ -1070,6 +1029,21 @@ Enhancements to Now Assist in Virtual Agent assistants and Now Assist panel Plat
 -   **[Now Assist panel](https://www.servicenow.com/docs/access?context=now-assist-panel-overview&family=zurich&ft:locale=en-US)**
 
 Use the enhanced Now Assist panel for a more intuitive and personalized experience. The updated Now Assist panel is resizable and can be moved anywhere on the ServiceNow AI platform.
+
+
+ -   **[Add the portable chat widget to a 3rd-party website](https://www.servicenow.com/docs/access?context=add-portable-va-client-website&family=zurich&ft:locale=en-US)**
+
+Embed the chat widget for enhanced chat on third-party websites.
+
+-   **[Configure voice settings for a chat assistant](https://www.servicenow.com/docs/access?context=manage-chat-voice-exp&family=zurich&ft:locale=en-US)**
+
+Turn voice dictation on or off for an assistant on the **Voice experience** page. For ServiceNow Otto for Virtual Agent assistants, voice dictation is only available for premium chat. For ServiceNow Otto panel – Platform assistant, voice dictation is available for all chat experiences.
+
+**Note:** Voice dictation was previously known as voice input, which was enabled from within [Enable additional chat features](https://www.servicenow.com/docs/access?context=additional-chat-features&family=zurich&ft:locale=en-US).
+
+-   **[Display assistant on Platform or ServiceNow Studio](https://www.servicenow.com/docs/access?context=display-nap-assistant&family=zurich&ft:locale=en-US)**
+
+For eligible new customers, premium chat is the default and the only available chat experience. If the assistant uses the Now LLM provider, the premium chat option isn't available.
 
 
 </td></tr></tbody>
@@ -1117,7 +1091,60 @@ The following Platform Now Assist skills are active by default and no longer vis
     -   Custom skills
     -   AI agents
 
--   **[Additional fallback options](https://www.servicenow.com/docs/access?context=using-now-assist-in-va&family=yokohama&ft:locale=en-US)**
+ -   **[UI Virtual Agent Designer updates](https://www.servicenow.com/docs/access?context=vad-topics-page&family=yokohama&ft:locale=en-US)**
+    -   Use a new option in the Actions on row icon to remove an LLM assistant from a given asset.
+    -   View a tooltip if you try to promote more than six topics for a given LLM assistant.
+    -   View a list of available asset types and their descriptions when you select **Create asset** in the Asset library tab.
+-   **[UI chat assistant updates](https://www.servicenow.com/docs/access?context=assistant-designer&family=yokohama&ft:locale=en-US)**
+    -   Configuring a chat or voice assistant is done in **All** &gt; **Assistant Designer** &gt; **Assistants** tab. **All** &gt; **Conversational Interfaces** &gt; **Assistants** contains a **Manage assistants** button that directs you to Assistant Designer.
+    -   Chat and voice assistants are shown in both card and map views.
+    -   Pages within the chat assistant setup have been removed, added, or moved to a different spot within the create or edit flow.
+        -   The Overview page has been replaced by the Basic details page.
+        -   Assign Now Assist skills page has been removed. Admins no longer need to turn on/off Now Assist skill types at the assistant level in Now Assist Admin console and no longer need to assign Now Assist skill types at the assistant level.
+        -   When adding search sources, an **External Content Connectors** link directs you to create or configure external sources. \(This replaces the External Content Connectors card.\) The following sections have been removed from the search sources page: Now Assist topics, Custom skills, AI agents, and Conversational subflows and actions. They are now within the Assets page.
+        -   Knowledge Graph was moved from the Information sources page to its own page.
+        -   Assets such as topics, subflows and actions, custom skills, and AI agents are added on the Assets page. In the display experience for Now Assist panel assistants, a **ServiceNow platforms** header is shown.
+        -   Minor enhancements to the standard chat preview pane when branding an assistant.
+        -   Promoted assets tab within the Chat experience page has been moved to the **Information sources \(sub-tab\)** &gt; **Asset visibility** &gt; **Promoted** while in edit mode.
+        -   Web search mode, response streaming, document uploads, and closed chats have been moved to its own Chat features page.
+        -   Testing a chat assistant is no longer part of the Review page. Access it from the **Assistant Designer** &gt; **Assistants** tab, or on each page while in edit mode.
+        -   Editing a chat assistant is done from the **Assistant Designer** &gt; **Assistants** tab.
+-   **[UI enhanced chat updates](https://www.servicenow.com/docs/access?context=nava-enhanced-chat&family=yokohama&ft:locale=en-US)**
+    -   Dynamic processing messages for agentic conversations are now consolidated under one View AI Steps header rather than under several View AI Steps headers.
+    -   The **View all options** link shows below the suggested or promoted topics cards on the greeting topic in Now Assist in Virtual Agent and Now Assist panel's enhanced chat. At least one suggested or promoted asset has to be enabled for this link to show.
+    -   The auto-complete suggestion type in the Ask Now Assist header appears at the top of the portal search bar's drop-down list. The results in the Ask Now Assist header can now show more targeted search results from AI Search rather than the GlideRecord. The entered search term can appear highlighted in bold after you have configured AI Search as the source for Ask Now Assist suggestions. For more information about this configuration, see [Configure AI Search as the source for Ask Now Assist suggestions](https://www.servicenow.com/docs/access?context=configure-ai-search-source-ask-now-assist-suggestions&family=yokohama&ft:locale=en-US).
+    -   The static and dynamic choice nodes now appear differently in standard and enhanced chat depending on the number of choices for single-select options. For example:
+        -   2-5 choices appear as pills
+        -   6 or more choices appear as a choice list with a scroll bar
+    -   The input bar for enhanced chat has moved all icons below any inputted text. Uploaded documents appear above any inputted text.
+    -   The float, pinned, and 90% screen views of enhanced chat now have a gradient border around them.
+    -   The enhanced chat full-page experience was updated so that the Now Assist and Search button tabs that were originally center-aligned buttons are now left-aligned tabs that no longer look like buttons.
+
+ -   **[Agentic conversation processing messages for Now Assist panel and Now Assist in Virtual Agent](https://www.servicenow.com/docs/access?context=nava-enhanced-chat&family=yokohama&ft:locale=en-US)**
+
+Before receiving a response, you receive acknowledgment messages from the Virtual Agent and on-screen processing messages to let you know where the agent is at in the agentic processing flow. The on-screen processing messages appear in present tense until the processing flow is complete. After the processing flow is complete, then the on-screen messages change to past tense and a View AI Steps section header appears above the processed messages. You can expand the collapsed View AI Steps section header to view the processed messages.
+
+
+ -   **[UI chat updates](https://www.servicenow.com/docs/access?context=nava-enhanced-chat&family=yokohama&ft:locale=en-US)**
+    -   The enhanced chat navigation area was updated. The New Chat, Chats, Support, and Settings icons were reworked into a simplified subheader. Additionally, each chat title now appears in the simplified subheader.
+    -   The enhanced chat's subheader reflects conversational modes in a banner whenever you enter into a specific mode, such as web search, live agent, or document upload.
+    -   In the enhanced chat's **Chats** &gt; **Closed chats** section, hover over a chat to view the delete option and complete the delete confirmation prompts.
+    -   Minor animations occur in the following five enhanced chat transitions:
+
+        -   Hovering over the chat icon.
+        -   Minimizing and opening the chat icon.
+        -   Transitioning from a floating chat window to a pinned chat window and vice versa.
+        -   Transitioning from a floating chat window to a 90% modal and vice versa.
+        -   Transitioning from a pinned chat window to a 90% modal and vice versa.
+**Note:** Transition animation doesn’t apply to custom icons.
+
+-   **[UI admin guided setup updates](https://www.servicenow.com/docs/access?context=configure-now-assist-va&family=yokohama&ft:locale=en-US)**
+    -   **Manage search profile** button replaces the search profile text link.
+    -   **Add external search sources** drop-down list has been replaced with **Add search sources** drop-down list to include internal and external search sources.
+    -   The simple and advanced views within the Chat experience page are consolidated into a single view.
+    -   **Copy existing configuration** button is featured more prominently, and it's shown with information about its use.
+
+ -   **[Additional fallback options](https://www.servicenow.com/docs/access?context=using-now-assist-in-va&family=yokohama&ft:locale=en-US)**
 
 There are up to five fallback options that can be presented to end users:
 
@@ -1141,12 +1168,24 @@ Manually enter into web search mode via the input bar for standard and enhanced 
 If AI Guardian is enabled and the end user's request contains profane content, the Virtual Agent responds with a message prompt to re-enter an appropriate request without profanity or offensive content.
 
 
--   **[Standard chat](https://www.servicenow.com/docs/access?context=nava-standard-chat&family=yokohama&ft:locale=en-US)**
+ -   **[UI chat updates](https://www.servicenow.com/docs/access?context=using-now-assist-in-va&family=yokohama&ft:locale=en-US)**
+    -   The summary card in a Now Assist in Virtual Agent conversation was updated to a more modern look and feel.
+    -   The default chat widget button for enhanced chat and standard chat now differs on the portal.
+    -   An Ask Now Assist header now appears with suggested searches in a drop-down on the portal's search bar.
+    -   The Boolean choice, static choice, and dynamic choice controls were updated to a more modern look and feel for requesters.
+
+ -   **[Standard chat](https://www.servicenow.com/docs/access?context=nava-standard-chat&family=yokohama&ft:locale=en-US)**
 
 The existing Now Assist in Virtual Agent LLM conversational behavior received a terminology update and is now referred to as standard chat.
 
 
--   **[Dynamic Translation calls](https://www.servicenow.com/docs/access?context=translation-for-now-assist&family=yokohama&ft:locale=en-US)**
+ -   **[UI chat updates](https://www.servicenow.com/docs/access?context=using-now-assist-in-va&family=yokohama&ft:locale=en-US)**
+    -   The **New messages below** button in Virtual Agent was replaced with a simplified down-arrow indicator.
+    -   The **New messages above** button was deprecated because Virtual Agent now auto-scrolls to the top of the oldest new message.
+    -   The Input text bar was updated to a more modern look and feel.
+    -   The start a new conversation icon was updated.
+
+ -   **[Dynamic Translation calls](https://www.servicenow.com/docs/access?context=translation-for-now-assist&family=yokohama&ft:locale=en-US)**
 
 If native translation is enabled, a Dynamic Translation call is only made if an unsupported language for native translation is used.
 
@@ -1157,17 +1196,55 @@ Zurich
 
 </td><td>
 
--   **[Now Assist &gt; ServiceNow Otto® announcement](https://www.servicenow.com/docs/access?context=sn-ai-implementation-landing&family=zurich&ft:locale=en-US)**
+-   **[Refresh to the organization chart user interface](https://www.servicenow.com/docs/access?context=nava-integrated-chat&family=zurich&ft:locale=en-US)**
+
+The org chart's user interface was updated for premium chat in ServiceNow Otto for Virtual Agent and ServiceNow Otto panel.
+
+-   **[Brand and personalize an assistant](https://www.servicenow.com/docs/access?context=brand-assistant&family=zurich&ft:locale=en-US)**
+
+In **Assistant Designer** &gt; **Assistants** &gt; **Branding**, the standard chat and enhanced chat sections are condensed into one section.
 
 
+ -   **[Now Assist &gt; ServiceNow Otto® announcement](https://www.servicenow.com/docs/access?context=sn-ai-implementation-landing&family=zurich&ft:locale=en-US)**
+
+ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
 
 
--   **[Changes to Now Assist usage measurement](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=zurich&ft:locale=en-US)**
+ -   **[Changes to Now Assist usage measurement](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=zurich&ft:locale=en-US)**
+
+Starting with Australia Early Access, AI usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: AI Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
 
+ -   **[UI Virtual Agent Designer updates](https://www.servicenow.com/docs/access?context=vad-topics-page&family=zurich&ft:locale=en-US)**
+    -   Use a new option in the Actions on row icon to remove an LLM assistant from a given asset.
+    -   View a tooltip if you try to promote more than six topics for a given LLM assistant.
+    -   View a list of available asset types and their descriptions when you select **Create asset** in the Asset library tab.
+-   **[UI chat assistant updates](https://www.servicenow.com/docs/access?context=assistant-designer&family=zurich&ft:locale=en-US)**
+    -   Configuring a chat or voice assistant is done in **All** &gt; **Assistant Designer** &gt; **Assistants** tab. **All** &gt; **Conversational Interfaces** &gt; **Assistants** contains a **Manage assistants** button that directs you to Assistant Designer.
+    -   Chat and voice assistants are shown in both card and map views.
+    -   Pages within the chat assistant setup have been removed, added, or moved to a different spot within the create or edit flow.
+        -   The Overview page has been replaced by the Basic details page.
+        -   Assign Now Assist skills page has been removed. Admins no longer need to turn on/off Now Assist skill types at the assistant level in Now Assist Admin console and no longer need to assign Now Assist skill types at the assistant level.
+        -   When adding search sources, an **External Content Connectors** link directs you to create or configure external sources. \(This replaces the External Content Connectors card.\) The following sections have been removed from the search sources page: Now Assist topics, Custom skills, AI agents, and Conversational subflows and actions. They are now within the Assets page.
+        -   Knowledge Graph was moved from the Information sources page to its own page.
+        -   Assets such as topics, subflows and actions, custom skills, and AI agents are added on the Assets page. In the display experience for Now Assist panel assistants, a **ServiceNow platforms** header is shown.
+        -   Minor enhancements to the standard chat preview pane when branding an assistant.
+        -   Promoted assets tab within the Chat experience page has been moved to the **Information sources \(sub-tab\)** &gt; **Asset visibility** &gt; **Promoted** while in edit mode.
+        -   Web search mode, response streaming, document uploads, and closed chats have been moved to its own Chat features page.
+        -   Testing a chat assistant is no longer part of the Review page. Access it from the **Assistant Designer** &gt; **Assistants** tab, or on each page while in edit mode.
+        -   Editing a chat assistant is done from the **Assistant Designer** &gt; **Assistants** tab.
+-   **[UI enhanced chat updates](https://www.servicenow.com/docs/access?context=nava-enhanced-chat&family=zurich&ft:locale=en-US)**
+    -   Dynamic processing messages for agentic conversations are now consolidated under one View AI Steps header rather than under several View AI Steps headers.
+    -   The **View all options** link appears below the suggested or promoted topics cards on the greeting topic in Now Assist in Virtual Agent and Now Assist panel's enhanced chat. At least one suggested or promoted asset must be enabled for this link to appear.
+    -   The auto-complete suggestion type in the Ask Now Assist header appears at the top of the portal search bar's drop-down list. The results in the Ask Now Assist header can now show more targeted search results from AI Search rather than the GlideRecord. The entered search term can appear highlighted in bold after you have configured AI Search as the source for Ask Now Assist suggestions. For more information about this configuration, see [Configure AI Search as the source for Ask ServiceNow Otto suggestions](https://www.servicenow.com/docs/access?context=configure-ai-search-source-ask-now-assist-suggestions&family=zurich&ft:locale=en-US).
+    -   The static and dynamic choice nodes now appear differently in standard and enhanced chat depending on the number of choices for single-select options. For example:
+        -   2-5 choices appear as pills
+        -   6 or more choices appear as a choice list with a scroll bar
+    -   The input bar for enhanced chat has moved all icons below any inputted text. Uploaded documents appear above any inputted text.
+    -   The float, pinned, and 90% screen views of enhanced chat now have a gradient border around them.
+    -   The enhanced chat full-page experience was updated so that the Now Assist and Search button tabs that were originally center-aligned buttons are now left-aligned tabs that no longer look like buttons.
 
-
--   **[Conversational Platform Now Assist skills are active by default](https://www.servicenow.com/docs/access?context=now-assist-skills&family=zurich&ft:locale=en-US)**
+ -   **[Conversational Platform Now Assist skills are active by default](https://www.servicenow.com/docs/access?context=now-assist-skills&family=zurich&ft:locale=en-US)**
 
 The following Platform Now Assist skills are active by default and no longer visible in the AI Admin Hub console:
 
@@ -1178,7 +1255,35 @@ The following Platform Now Assist skills are active by default and no longer vis
     -   Custom skills
     -   AI agents
 
--   **[Additional fallback options](https://www.servicenow.com/docs/access?context=using-now-assist-in-va&family=zurich&ft:locale=en-US)**
+ -   **[Agentic conversation processing messages for Now Assist panel and Now Assist in Virtual Agent](https://www.servicenow.com/docs/access?context=nava-enhanced-chat&family=zurich&ft:locale=en-US)**
+
+Before receiving a response, you receive acknowledgment messages from the Virtual Agent and on-screen processing messages to let you know where the agent is at in the agentic processing flow. The on-screen processing messages appear in present tense until the processing flow is complete. After the processing flow is complete, the on-screen messages change to past tense and a View AI Steps section header appears above the processed messages. You can expand the collapsed View AI Steps section header to view the processed messages.
+
+
+ -   **[UI chat updates](https://www.servicenow.com/docs/access?context=nava-enhanced-chat&family=zurich&ft:locale=en-US)**
+    -   The enhanced chat navigation area was updated. The New Chat, Chats, Support, and Settings icons were reworked into a simplified subheader. Additionally, each chat title now appears in the simplified subheader.
+    -   The enhanced chat's subheader reflects conversational modes in a banner whenever you enter into a specific mode, such as web search, live agent, or document upload.
+    -   In the enhanced chat's **Chats** &gt; **Closed chats** section, hover over a chat to view the delete option and complete the delete confirmation prompts.
+    -   Minor animations occur in the following five enhanced chat transitions:
+        -   Hovering over the chat icon.
+        -   Minimizing and opening the chat icon.
+        -   Transitioning from a floating chat window to a pinned chat window and vice versa.
+        -   Transitioning from a floating chat window to a 90% modal and vice versa.
+        -   Transitioning from a pinned chat window to a 90% modal and vice versa.
+
+**Note:** Transition animation doesn't apply to custom icons.
+
+-   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+-   **[UI admin guided setup updates](https://www.servicenow.com/docs/access?context=configure-now-assist-va&family=zurich&ft:locale=en-US)**
+    -   The **Manage search profile** button replaces the search profile text link.
+    -   The Add external search sources drop-down list has been replaced with the Add search sources drop-down list to include internal and external search sources.
+    -   The simple and advanced views within the Chat experience page are consolidated into a single view.
+    -   The **Copy existing configuration** button is featured more prominently, and it's shown with information about its use.
+
+ -   **[Additional fallback options](https://www.servicenow.com/docs/access?context=using-now-assist-in-va&family=zurich&ft:locale=en-US)**
 
 There are up to five fallback options that can be presented to end users:
 
@@ -1200,6 +1305,15 @@ Manually enter into web search mode via the input bar for standard and enhanced 
 -   **[Profanity recognition response](https://www.servicenow.com/docs/access?context=nava-enhanced-chat&family=zurich&ft:locale=en-US)**
 
 If AI Guardian is enabled and the end user's request contains profane content, the Virtual Agent responds with a message prompt to re-enter an appropriate request without profanity or offensive content.
+
+
+ -   **[Enable additional chat features](https://www.servicenow.com/docs/access?context=additional-chat-features&family=zurich&ft:locale=en-US)**
+
+The **Prioritize AI agents during skills discovery** option is available when configuring additional chat features. Because all assistants now use agentic orchestration by default, AI agent skills are available during skills discovery. Turning on this option gives AI agents priority over other assets \(such as knowledge bases and Q&amp;A modules\) when the assistant discovers skills. If your assistant has overlapping skills, for example, a knowledge base article and an AI agent that both answer the same question, this setting enables you to decide which one is prioritized, so you can steer users toward the AI agent experience instead of a static article.
+
+-   **[Upload files improvements](https://www.servicenow.com/docs/access?context=upload-documents-na-va&family=zurich&ft:locale=en-US)**
+
+Upload up to 10 files or 50 MB for the following file types: PDF native, PDF OCR, Word, PPTX, Excel, CSV, TXT, JPEG, and PNG for premium chat in ServiceNow Otto for Virtual Agent and the Otto panel.
 
 
 </td></tr></tbody>
@@ -1268,7 +1382,8 @@ Yokohama
 
 -   In Patch 11, **sn\_aia.use\_agents\_in\_planner** system property has been removed. The system property was used for configuring AI agent discovery behavior.
 -   In Patch 11, Now Assist skills page in the assistant admin guided setup has been removed due to the skills being turned on by default.
--   In Patch 6, Bing support for the searching and scraping search result type is no longer supported when adding a web search tool in Now Assist Skill Kit.
+
+ -   In Patch 6, Bing support for the searching and scraping search result type is no longer supported when adding a web search tool in Now Assist Skill Kit.
 -   In Patch 4, support for Now Assist in Conversational IVR was removed.
 
 </td></tr><tr><td>
@@ -1279,7 +1394,17 @@ Zurich
 
 -   In Patch 4, the **sn\_aia.use\_agents\_in\_planner** system property has been removed. The system property was used for configuring AI agent discovery behavior.
 -   In Patch 4, the Now Assist skills page in the assistant admin guided setup has been removed due to the skills being turned on by default.
--   In Patch 1, Bing support for the searching and scraping search result type is no longer supported when adding a web search tool in AI Skill Kit.
+
+ -   In Patch 1, Bing support for the searching and scraping search result type is no longer supported when adding a web search tool in AI Skill Kit.
+
+ -   **Agentic support**
+
+The **Agentic support** page has been deprecated for ServiceNow Otto for Virtual Agent and ServiceNow Otto panel - Platform. There is no loss in functionality previously provided by the **Agentic support** page. By default, all existing assistants operate in agentic mode. The **Prioritize AI agents during skills discovery** option is available when configuring additional chat features in [\[Placeholder link text to key additional-chat-features\]](https://www.servicenow.com/docs/access?context=additional-chat-features&family=zurich&ft:locale=en-US).
+
+-   **[ServiceNow Otto for Virtual Agent system properties](https://www.servicenow.com/docs/access?context=nava-sys-props&family=zurich&ft:locale=en-US)**
+
+The **sn\_nowassist\_va.assistant\_personalization** system property is removed from the admin experience. This property previously enabled administrators to show or hide chat personalization options \(agent persona, tone, and response length\) when branding an assistant. By default, all settings are shown in [Brand and personalize an assistant](https://www.servicenow.com/docs/access?context=brand-assistant&family=zurich&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Activation information
@@ -1302,23 +1427,23 @@ Xanadu
 
 Now Assist features are available with activation of any Now Assist plugin from the ServiceNow Store. The following plugins are available:
 
--   [Now Assist for Accounts Payable Operations \(APO\)](https://www.servicenow.com/docs/access?context=now-assist-apo&family=xanadu&ft:locale=en-US)
--   [Now Assist for Configuration Management Database \(CMDB\)](https://www.servicenow.com/docs/access?context=now-assist-landing-cmdb&family=xanadu&ft:locale=en-US)
+-   [ServiceNow Otto for Accounts Payable Operations \(APO\)](https://www.servicenow.com/docs/access?context=now-assist-apo&family=xanadu&ft:locale=en-US)
+-   [ServiceNow Otto for Configuration Management Database \(CMDB\)](https://www.servicenow.com/docs/access?context=now-assist-landing-cmdb&family=xanadu&ft:locale=en-US)
 -   [Now Assist for Creator](https://www.servicenow.com/docs/access?context=now-assist-for-creator-landing&family=xanadu&ft:locale=en-US)
--   [Now Assist for Customer Service Management \(CSM\)](https://www.servicenow.com/docs/access?context=now-assist-csm&family=xanadu&ft:locale=en-US)
--   [Now Assist for Field Service Management \(FSM\)](https://www.servicenow.com/docs/access?context=now-assist-fsm&family=xanadu&ft:locale=en-US)
--   [Now Assist for Financial Services Operations \(FSO\)](https://www.servicenow.com/docs/access?context=now-assist-for-financial-services-operations&family=xanadu&ft:locale=en-US)
--   [Now Assist for Health and Safety](https://www.servicenow.com/docs/access?context=now-assist-hs-landing&family=xanadu&ft:locale=en-US)
--   [Now Assist for HR Service Delivery \(HRSD\)](https://www.servicenow.com/docs/access?context=now-assist-hrsd&family=xanadu&ft:locale=en-US)
--   [Now Assist for IT Operations Management \(ITOM\)](https://www.servicenow.com/docs/access?context=now-assist-itom&family=xanadu&ft:locale=en-US)
--   [Now Assist for IT Service Management \(ITSM\)](https://www.servicenow.com/docs/access?context=now-assist-itsm&family=xanadu&ft:locale=en-US)
--   [Now Assist for Legal Service Delivery \(LSD\)](https://www.servicenow.com/docs/access?context=now-assist-lsd-landing&family=xanadu&ft:locale=en-US)
--   [Now Assist for PSDS](https://www.servicenow.com/docs/access?context=now-assist-for-psds&family=xanadu&ft:locale=en-US)
--   [Now Assist for Security Incident Response](https://www.servicenow.com/docs/access?context=now-assist-security-incident-landing&family=xanadu&ft:locale=en-US)
--   [Now Assist for Supplier Lifecycle Operations \(SLO\)](https://www.servicenow.com/docs/access?context=now-assist-slo&family=xanadu&ft:locale=en-US)
--   [Now Assist for Sourcing and Procurement Operations \(SPO\)](https://www.servicenow.com/docs/access?context=now-assist-spo&family=xanadu&ft:locale=en-US)
--   [Now Assist for Strategic Portfolio Management \(SPM\)](https://www.servicenow.com/docs/access?context=now-assist-spm&family=xanadu&ft:locale=en-US)
--   [Now Assist for Telecommunications, Media and Technology \(TMT\)](https://www.servicenow.com/docs/access?context=now-assist-spmc&family=xanadu&ft:locale=en-US)
+-   [ServiceNow Otto for Customer Service Management \(CSM\)](https://www.servicenow.com/docs/access?context=now-assist-csm&family=xanadu&ft:locale=en-US)
+-   [ServiceNow Otto for Field Service Management \(FSM\)](https://www.servicenow.com/docs/access?context=now-assist-fsm&family=xanadu&ft:locale=en-US)
+-   [ServiceNow Otto for Financial Services Operations \(FSO\)](https://www.servicenow.com/docs/access?context=now-assist-for-financial-services-operations&family=xanadu&ft:locale=en-US)
+-   [ServiceNow Otto for Health and Safety](https://www.servicenow.com/docs/access?context=now-assist-hs-landing&family=xanadu&ft:locale=en-US)
+-   [ServiceNow Otto for HR Service Delivery \(HRSD\)](https://www.servicenow.com/docs/access?context=now-assist-hrsd&family=xanadu&ft:locale=en-US)
+-   [ServiceNow Otto for IT Operations Management \(ITOM\)](https://www.servicenow.com/docs/access?context=now-assist-itom&family=xanadu&ft:locale=en-US)
+-   [ServiceNow Otto for IT Service Management \(ITSM\)](https://www.servicenow.com/docs/access?context=now-assist-itsm&family=xanadu&ft:locale=en-US)
+-   [ServiceNow Otto for Legal Service Delivery \(LSD\)](https://www.servicenow.com/docs/access?context=now-assist-lsd-landing&family=xanadu&ft:locale=en-US)
+-   [ServiceNow Otto for PSDS](https://www.servicenow.com/docs/access?context=now-assist-for-psds&family=xanadu&ft:locale=en-US)
+-   [ServiceNow Otto for Security Incident Response \(SIR\)](https://www.servicenow.com/docs/access?context=now-assist-security-incident-landing&family=xanadu&ft:locale=en-US)
+-   [ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)](https://www.servicenow.com/docs/access?context=now-assist-slo&family=xanadu&ft:locale=en-US)
+-   [ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://www.servicenow.com/docs/access?context=now-assist-spo&family=xanadu&ft:locale=en-US)
+-   [ServiceNow Otto for Strategic Portfolio Management](https://www.servicenow.com/docs/access?context=now-assist-spm&family=xanadu&ft:locale=en-US)
+-   [ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://www.servicenow.com/docs/access?context=now-assist-spmc&family=xanadu&ft:locale=en-US)
 
 For more information, see [Configuring Now Assist in Virtual Agent](https://www.servicenow.com/docs/access?context=configure-now-assist-va&family=xanadu&ft:locale=en-US).
 
@@ -1328,42 +1453,44 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 **Note:** When you upgrade to Yokohama Patch 8 or later, agentic AI is the primary orchestration in Virtual Agent. For more information about agentic AI, see [Agentic conversations in Virtual Agent](https://www.servicenow.com/docs/access?context=agentic-conversations-vad&family=yokohama&ft:locale=en-US).
 
 Now Assist features are available with activation of any Now Assist plugin from the ServiceNow Store. The following products are available:
 
--   [ServiceNow Otto for Accounts Payable Operations \(APO\)](https://www.servicenow.com/docs/access?context=now-assist-apo&family=yokohama&ft:locale=en-US)
--   [Now Assist for App Engine](https://www.servicenow.com/docs/access?context=add-ai-to-custom-apps-with-now-assist-for-app-engine-enterprise&family=yokohama&ft:locale=en-US)
--   [ServiceNow Otto for Configuration Management Database \(CMDB\)](https://www.servicenow.com/docs/access?context=now-assist-landing-cmdb&family=yokohama&ft:locale=en-US)
--   [Now Assist for CWM](https://www.servicenow.com/docs/access?context=now-assist-for-cwm-landing&family=yokohama&ft:locale=en-US)
--   [Now Assist for Creator](https://www.servicenow.com/docs/access?context=now-assist-for-creator-landing&family=yokohama&ft:locale=en-US)
--   [ServiceNow Otto for Customer Service Management \(CSM\)](https://www.servicenow.com/docs/access?context=now-assist-csm&family=yokohama&ft:locale=en-US)
--   [ServiceNow Otto for Employee Experience](https://www.servicenow.com/docs/access?context=now-assisit-employee-exp&family=yokohama&ft:locale=en-US)
--   [ServiceNow Otto for Enterprise Architecture \(EA\)](https://www.servicenow.com/docs/access?context=now-assist-ea&family=yokohama&ft:locale=en-US)
--   [Now Assist](https://www.servicenow.com/docs/access?context=now-assist-for-esg&family=yokohama&ft:locale=en-US)
--   [ServiceNow Otto for Field Service Management \(FSM\)](https://www.servicenow.com/docs/access?context=now-assist-fsm&family=yokohama&ft:locale=en-US)
--   [ServiceNow Otto for Financial Services Operations \(FSO\)](https://www.servicenow.com/docs/access?context=now-assist-for-financial-services-operations&family=yokohama&ft:locale=en-US)
--   [ServiceNow Otto for Hardware Asset Management \(HAM\)](https://www.servicenow.com/docs/access?context=now-assist-ham&family=yokohama&ft:locale=en-US)
--   [ServiceNow Otto for Health and Safety](https://www.servicenow.com/docs/access?context=now-assist-hs-landing&family=yokohama&ft:locale=en-US)
--   [ServiceNow Otto for HR Service Delivery \(HRSD\)](https://www.servicenow.com/docs/access?context=now-assist-hrsd&family=yokohama&ft:locale=en-US)
--   [Now Assist](https://www.servicenow.com/docs/access?context=now-assist-for-irm&family=yokohama&ft:locale=en-US)
--   [ServiceNow Otto for ITOM](https://www.servicenow.com/docs/access?context=now-assist-itom&family=yokohama&ft:locale=en-US)
--   [ServiceNow Otto for IT Service Management \(ITSM\)](https://www.servicenow.com/docs/access?context=now-assist-itsm&family=yokohama&ft:locale=en-US)
--   [ServiceNow Otto for Legal Service Delivery \(LSD\)](https://www.servicenow.com/docs/access?context=now-assist-lsd-landing&family=yokohama&ft:locale=en-US)
--   [Operational Technology \(OT\) Manager Foundation](https://www.servicenow.com/docs/access?context=now-assist-for-otm-landing&family=yokohama&ft:locale=en-US)
--   [ServiceNow Otto for Order Management](https://www.servicenow.com/docs/access?context=now-assist-order-management&family=yokohama&ft:locale=en-US)
--   [ServiceNow Otto for PSDS](https://www.servicenow.com/docs/access?context=now-assist-for-psds&family=yokohama&ft:locale=en-US)
--   [ServiceNow Otto for Security Incident Response \(SIR\)](https://www.servicenow.com/docs/access?context=now-assist-security-incident-landing&family=yokohama&ft:locale=en-US)
--   [ServiceNow Otto for Software Asset Management \(SAM\)](https://www.servicenow.com/docs/access?context=now-assist-sam&family=yokohama&ft:locale=en-US)
--   [ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)](https://www.servicenow.com/docs/access?context=now-assist-slo&family=yokohama&ft:locale=en-US)
--   [ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://www.servicenow.com/docs/access?context=now-assist-spo&family=yokohama&ft:locale=en-US)
--   [ServiceNow Otto for Strategic Portfolio Management](https://www.servicenow.com/docs/access?context=now-assist-spm&family=yokohama&ft:locale=en-US)
--   [ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://www.servicenow.com/docs/access?context=now-assist-spmc&family=yokohama&ft:locale=en-US)
--   [Now Assist](https://www.servicenow.com/docs/access?context=now-assist-tprm&family=yokohama&ft:locale=en-US)
--   [Now Assist for WSD](https://www.servicenow.com/docs/access?context=now-assist-wsd-landing&family=yokohama&ft:locale=en-US)
--   [ServiceNow Otto for Unified Security Exposure Management](https://www.servicenow.com/docs/access?context=now-assist-for-vulnerability-response-landing&family=yokohama&ft:locale=en-US)
+    -   [ServiceNow Otto for Accounts Payable Operations \(APO\)](https://www.servicenow.com/docs/access?context=now-assist-apo&family=yokohama&ft:locale=en-US)
+    -   [Now Assist for App Engine](https://www.servicenow.com/docs/access?context=add-ai-to-custom-apps-with-now-assist-for-app-engine-enterprise&family=yokohama&ft:locale=en-US)
+    -   [ServiceNow Otto for Configuration Management Database \(CMDB\)](https://www.servicenow.com/docs/access?context=now-assist-landing-cmdb&family=yokohama&ft:locale=en-US)
+    -   [Now Assist for CWM](https://www.servicenow.com/docs/access?context=now-assist-for-cwm-landing&family=yokohama&ft:locale=en-US)
+    -   [Now Assist for Creator](https://www.servicenow.com/docs/access?context=now-assist-for-creator-landing&family=yokohama&ft:locale=en-US)
+    -   [ServiceNow Otto for Customer Service Management \(CSM\)](https://www.servicenow.com/docs/access?context=now-assist-csm&family=yokohama&ft:locale=en-US)
+    -   [ServiceNow Otto for Employee Experience](https://www.servicenow.com/docs/access?context=now-assisit-employee-exp&family=yokohama&ft:locale=en-US)
+    -   [ServiceNow Otto for Enterprise Architecture \(EA\)](https://www.servicenow.com/docs/access?context=now-assist-ea&family=yokohama&ft:locale=en-US)
+    -   [Now Assist](https://www.servicenow.com/docs/access?context=now-assist-for-esg&family=yokohama&ft:locale=en-US)
+    -   [ServiceNow Otto for Field Service Management \(FSM\)](https://www.servicenow.com/docs/access?context=now-assist-fsm&family=yokohama&ft:locale=en-US)
+    -   [ServiceNow Otto for Financial Services Operations \(FSO\)](https://www.servicenow.com/docs/access?context=now-assist-for-financial-services-operations&family=yokohama&ft:locale=en-US)
+    -   [ServiceNow Otto for Hardware Asset Management \(HAM\)](https://www.servicenow.com/docs/access?context=now-assist-ham&family=yokohama&ft:locale=en-US)
+    -   [ServiceNow Otto for Health and Safety](https://www.servicenow.com/docs/access?context=now-assist-hs-landing&family=yokohama&ft:locale=en-US)
+    -   [ServiceNow Otto for HR Service Delivery \(HRSD\)](https://www.servicenow.com/docs/access?context=now-assist-hrsd&family=yokohama&ft:locale=en-US)
+    -   [Now Assist](https://www.servicenow.com/docs/access?context=now-assist-for-irm&family=yokohama&ft:locale=en-US)
+    -   [ServiceNow Otto for ITOM](https://www.servicenow.com/docs/access?context=now-assist-itom&family=yokohama&ft:locale=en-US)
+    -   [ServiceNow Otto for IT Service Management \(ITSM\)](https://www.servicenow.com/docs/access?context=now-assist-itsm&family=yokohama&ft:locale=en-US)
+    -   [ServiceNow Otto for Legal Service Delivery \(LSD\)](https://www.servicenow.com/docs/access?context=now-assist-lsd-landing&family=yokohama&ft:locale=en-US)
+    -   [Operational Technology \(OT\) Manager Foundation](https://www.servicenow.com/docs/access?context=now-assist-for-otm-landing&family=yokohama&ft:locale=en-US)
+    -   [ServiceNow Otto for Order Management](https://www.servicenow.com/docs/access?context=now-assist-order-management&family=yokohama&ft:locale=en-US)
+    -   [ServiceNow Otto for PSDS](https://www.servicenow.com/docs/access?context=now-assist-for-psds&family=yokohama&ft:locale=en-US)
+    -   [ServiceNow Otto for Security Incident Response \(SIR\)](https://www.servicenow.com/docs/access?context=now-assist-security-incident-landing&family=yokohama&ft:locale=en-US)
+    -   [ServiceNow Otto for Software Asset Management \(SAM\)](https://www.servicenow.com/docs/access?context=now-assist-sam&family=yokohama&ft:locale=en-US)
+    -   [ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)](https://www.servicenow.com/docs/access?context=now-assist-slo&family=yokohama&ft:locale=en-US)
+    -   [ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://www.servicenow.com/docs/access?context=now-assist-spo&family=yokohama&ft:locale=en-US)
+    -   [ServiceNow Otto for Strategic Portfolio Management](https://www.servicenow.com/docs/access?context=now-assist-spm&family=yokohama&ft:locale=en-US)
+    -   [ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://www.servicenow.com/docs/access?context=now-assist-spmc&family=yokohama&ft:locale=en-US)
+    -   [Now Assist](https://www.servicenow.com/docs/access?context=now-assist-tprm&family=yokohama&ft:locale=en-US)
+    -   [Now Assist for WSD](https://www.servicenow.com/docs/access?context=now-assist-wsd-landing&family=yokohama&ft:locale=en-US)
+    -   [ServiceNow Otto for Unified Security Exposure Management](https://www.servicenow.com/docs/access?context=now-assist-for-vulnerability-response-landing&family=yokohama&ft:locale=en-US)
+For more information, see [Configuring assistants overview](https://www.servicenow.com/docs/access?context=configure-now-assist-va&family=yokohama&ft:locale=en-US).
 
- For more information, see [Configuring assistants overview](https://www.servicenow.com/docs/access?context=configure-now-assist-va&family=yokohama&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -1371,12 +1498,14 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 **Note:** When you upgrade to Zurich Patch 2 or later, agentic AI is the primary orchestration in Virtual Agent. For more information about agentic AI, see [Agentic conversations in Virtual Agent](https://www.servicenow.com/docs/access?context=agentic-conversations-vad&family=zurich&ft:locale=en-US).
 
 Now Assist features are available with activation of any Now Assist plugin from the ServiceNow Store. The following products are available:
 
--   
- For more information, see [Configuring assistants overview](https://www.servicenow.com/docs/access?context=configure-now-assist-va&family=zurich&ft:locale=en-US).
+    -   For more information, see [Configuring assistants overview](https://www.servicenow.com/docs/access?context=configure-now-assist-va&family=zurich&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -1405,7 +1534,10 @@ Yokohama
 
 </td><td>
 
+-   **Additional requirements**
+
 [Now Assist in Virtual Agent](https://www.servicenow.com/docs/access?context=now-assist-in-va-landing&family=yokohama&ft:locale=en-US) requires a license for Virtual Agent and at least one Now Assist product.
+
 
 </td></tr><tr><td>
 
@@ -1413,7 +1545,10 @@ Zurich
 
 </td><td>
 
+-   **Additional requirements**
+
 [ServiceNow Otto for Virtual Agent](https://www.servicenow.com/docs/access?context=now-assist-in-va-landing&family=zurich&ft:locale=en-US) requires a license for Virtual Agent and at least one Now Assist product.
+
 
 </td></tr></tbody>
 </table>## Browser requirements
@@ -1442,7 +1577,10 @@ Yokohama
 
 </td><td>
 
+-   **Browser requirements**
+
 Now Assist in Virtual Agent supports various browsers, including Google Chrome and Microsoft Edge. For more information, see [Browser support](https://www.servicenow.com/docs/access?context=browser-support&family=yokohama&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -1450,7 +1588,10 @@ Zurich
 
 </td><td>
 
+-   **Browser requirements**
+
 Now Assist in Virtual Agent supports various browsers, including Google Chrome and Microsoft Edge. For more information, see [Browser support](https://www.servicenow.com/docs/access?context=browser-support&family=zurich&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Accessibility information
@@ -1487,7 +1628,11 @@ Zurich
 
 </td><td>
 
--   ****
+-   **Accessibility information**
+    -   **Dark theme**
+
+The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
 
 </td></tr></tbody>
 </table>## Localization information
@@ -1516,7 +1661,10 @@ Yokohama
 
 </td><td>
 
+-   **Localization information**
+
 [Dynamic Translation](https://www.servicenow.com/docs/access?context=dynamic-translation-overview&family=yokohama&ft:locale=en-US) is supported for non-streaming Now Assist Virtual Agent conversations. For details, see [Configure multilingual service for Now Assist applications](https://www.servicenow.com/docs/access?context=enable-dynamic-translation-for-now-assist-applications&family=yokohama&ft:locale=en-US) and [Using language detection and dynamic machine translation in Virtual Agent](https://www.servicenow.com/docs/access?context=dynamic-lang-detection-translation&family=yokohama&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -1524,7 +1672,10 @@ Zurich
 
 </td><td>
 
+-   **Localization information**
+
 [Dynamic Translation](https://www.servicenow.com/docs/access?context=dynamic-translation-overview&family=zurich&ft:locale=en-US) is supported for non-streaming Now Assist Virtual Agent conversations. For details, see [Configure multilingual service for Now Assist applications](https://www.servicenow.com/docs/access?context=enable-dynamic-translation-for-now-assist-applications&family=zurich&ft:locale=en-US), [Language detection and dynamic translation in enhanced chat](https://www.servicenow.com/docs/access?context=dynamic-lang-detection-translation-enhanced-chat&family=zurich&ft:locale=en-US), and [Language detection and dynamic translation in standard chat](https://www.servicenow.com/docs/access?context=dynamic-lang-detection-translation-standard-chat-nlu&family=zurich&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Highlight information

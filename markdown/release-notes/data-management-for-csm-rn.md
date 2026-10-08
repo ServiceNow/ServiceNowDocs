@@ -23,7 +23,7 @@ The ServiceNow® Data Management for Customer Service Management \(CSM\) applica
 -   Improve traceability with serial numbers on Install Base items and direct links to model categories for industry-specific configurations.
 -   Enable partial sync using `allowedContextTypes` to sync specific sections with preserved structure and recursive filtering, and deliver clear, actionable error messages with consistent API responses.
 
-See  feature for more information.
+See [Data management for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/csm-data-management.md) feature for more information.
 
 ## Activation and other requirements
 
@@ -33,7 +33,7 @@ See  feature for more information.
 
     CSM is a ServiceNow AI Platform application that is available with activation of the Customer Service Management plugin \(com.sn\_customerservice\). For details, see [Activate Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/t_ActivateCustomerService.md).
 
-    Additional CSM features are available with the activation of other plugins. For details, see .
+    Additional CSM features are available with the activation of other plugins. For details, see [Additional plugins for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/r_CustServMgmtAddtlPluginsTable.md).
 
     Sales Customer Relationship Management is a ServiceNow AI Platform feature that is available with the activation of the Lead to Cash Core plugin \(com.snd.l2c.core\). For details, see [Exploring Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/order-management/som-exploring.md).
 
@@ -42,9 +42,9 @@ See  feature for more information.
     -   Install Base Management \(com.snc.install\_base\)
     -   Install base characteristics \(com.snc.install\_base\_characteristics\)
     -   Customer Service with Service Portfolio management \(com.snc.csm\_spm\)
-    For details, see .
+    For details, see [Configure Install base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/configure-install-base.md).
 
-    Starting from the Yokohama release, the Business Location plugin \(com.snc.business\_location\) is available on the ServiceNow Store. For details, see .
+    Starting from the Yokohama release, the Business Location plugin \(com.snc.business\_location\) is available on the ServiceNow Store. For details, see [Activate business locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/activate-business-location.md).
 
 -   **Browser requirements**
 
@@ -75,7 +75,7 @@ The ServiceNow® Data Management for Customer Service Management \(CSM\) applica
 
     Configure a model category as a product instance to enable the system to synchronize the life cycle values between asset and install base item using the life cycle stage and life cycle state status values.
 
--   **Proactive Customer Service Operations**
+-   **[Proactive Customer Service Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/proactive-service-operations.md)**
 
     Event management operators now have a dedicated customer service management role for access control when setting up new installations. The access to customer data for event management operators is granted through a limited scoped role \( sn\_pro\_cs\_ops.csm\_evt\_mgmt\_stakeholder\) instead of the global platform role \(evt\_mgmt\_operator role\).
 
@@ -90,7 +90,7 @@ The ServiceNow® Data Management for Customer Service Management \(CSM\) applica
 
     Install the new CSM Billing Account Core store application, which introduces a foundational data model and hierarchy for managing billing accounts. It enables you to define billing relationships, establish account hierarchies, and track financial responsibility across your organization.
 
--   ****
+-   **[Sold product form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/sold-product-form.md)**
 
     The following enhancements are added for the Sold Product in this release:
 
@@ -124,7 +124,7 @@ The ServiceNow® Data Management for Customer Service Management \(CSM\) applica
 
 ### What's new
 
--   **Support indirect sales through Business Locations with .**
+-   **Support indirect sales through Business Locations with [Opportunity Management for business location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/opportunity-management-for-business-location.md).**
 
     Use the Sales Customer Relationship Management capabilities with both internal and external business organizations using Opportunity Management for business locations. Support channel sales by enabling business location staff to create and modify business opportunities and to track end-to-end life cycle of opportunities.
 
@@ -132,7 +132,7 @@ The ServiceNow® Data Management for Customer Service Management \(CSM\) applica
 
     Granular admin roles introduced in Lead to Cash Core and Sales and Service API core.
 
--   **Granular roles in Install Base Management**
+-   **[Granular roles in Install Base Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/r_rolesinstalledwithcustaccessmgmt.md)**
 
     Added new granular roles with the sn\_install\_base.install\_base\_admin admin role, which is installed with Customer Service Install Base Management \[com.snc.install\_base\] plugin.
 
@@ -151,7 +151,7 @@ The ServiceNow® Data Management for Customer Service Management \(CSM\) applica
 
     Gain precision in sales entity setup with three new columns in the Lead to Cash Entity Definition table: Filter Conditions, Enable Post Processing, and Post Processing Script. These columns enable targeted data filtering and post-processing logic execution.
 
--   **Support for service-related capabilities in business locations**
+-   **[Setting up products and available services at a business location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/products-services-at-bus-loc.md)Support for service-related capabilities in business locations**
 
     Enable service-related capabilities for business locations by activating the optional Customer Service Case Types \(sn\_csm\_case\_types\) plugin.
 
@@ -173,11 +173,11 @@ The ServiceNow® Data Management for Customer Service Management \(CSM\) applica
 
 ### What's new
 
--   **Using CSM Data Classification application**
+-   **Using [CSM Data Classification application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/using-csm-data-classification.md)**
 
     Use the new CSM Data Classification \(com.snc.csm\_data\_privacy\) Store app that delivers base system classifications for CRM data, categorizing it as internal, personally identifiable information \(PII\), confidential, and more. The solution uses the ServiceNow AI Platform data privacy capabilities, such as data classification, to apply protection measures and enhance data security.
 
--   **Support indirect sales through Business Locations with , Quote Management for business location.**
+-   **Support indirect sales through Business Locations with [Order Management for business location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/order-managment-for-business-location.md), [Quote Management for business location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/quote-management-for-business-location.md).**
 
     Use the Sales Customer Relationship Management capabilities for both internal and external business organizations to enable Order Management, and Quote Management systems for business locations. Support channel sales and indirect sales by enabling business location staff to collaborate with an enterprise in managing customer orders, quotes, and performing the following actions:
 
@@ -188,19 +188,19 @@ The ServiceNow® Data Management for Customer Service Management \(CSM\) applica
 
 ### What's changed
 
--   **Delta price enhancements**
+-   **[Delta price enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/sold-product-form.md)**
 
     The following are enhancements added in Delta pricing:
 
     -   Added pricing fields that reference sales agreements and captures base prices on sold products to verify consistent pricing during modifications, such as quantity changes or attribute updates. New fields are added to enhance the traceability for subscription-based products.
     -   Added columns to the Sold Product base table. Use the Split from and Split from root to track lineage during upsells, downsells, and expiration date changes ensuring accurate order management, compliance, and analytics.
--   **Install base data model enhancements**
+-   **[Install base data model enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/create-install-base-item.md)**
 
     Improve traceability and product life cycle management with the **Install Base Identifier** field on the install base form. Base install base items are mapped directly to model categories to support industry-specific product configurations.
 
     Added **Provider Service Org** field on the install base form to support tracking, recall workflows, and post-sale engagement with dealers and partners.
 
--   **Access control improvements**
+-   **[Access control improvements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/sold-product-form.md)**
 
     Provide hierarchical access to Install Base items for location managers and staff to manage assets sold by or associated with their service organizations.
 
@@ -211,11 +211,11 @@ The ServiceNow® Data Management for Customer Service Management \(CSM\) applica
 
 ### What's new
 
--   **Naming customer relationship records for Consumer team member relationship tables and Household team member relationship tables**
+-   **Naming customer relationship records for [Consumer team member relationship tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/assign-team-member-to-consumer.md) and [Household team member relationship tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/assign-team-member-to-household.md)**
 
     Use the **Type** field through related party configurations to name records in the consumer team member and household team member relationship tables. This functionality enables you to label relationships based on the purpose of the association and relevant industry use cases.
 
--   **Migrating legacy workflow to low code**
+-   **[Migrating legacy workflow to low code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/create-escalation-template.md)**
 
     Added an **Escalation Approval Flow** field to the Escalation Template \[sn\_customerservice\_escalation\_template\] table where existing customers can continue using their current escalation workflows or migrate to the new flows, depending on their customizations.
 
@@ -223,7 +223,7 @@ The ServiceNow® Data Management for Customer Service Management \(CSM\) applica
 
     -   The legacy Escalation-Approval workflow has been migrated to the low-code flow designer.
     -   The Escalation Master–Approval workflow has been converted into a business rule.
--   **Account address enhancements**
+-   **[Account address enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/account-address-access-for-contacts.md)**
 
     Enable contacts to access the account addresses that permit contacts to view both account-address records and the associated location information for accounts they’re authorized to access.
 
@@ -235,22 +235,22 @@ The ServiceNow® Data Management for Customer Service Management \(CSM\) applica
     Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
 
 
--   **Enhancements to the declarative responsibility framework**
+-   **[Enhancements to the declarative responsibility framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/declarative-resposibility-framework.md)**
 
     Introduced several key improvements to enhance the flexibility and usability of the declarative responsibility framework:
 
     -   Enabled responsibility access configurations to support more granular access control.
     -   Updated the data model by adding new fields and renaming select field labels for improved clarity.
     -   Refreshed associated forms and lists to reflect the latest framework updates.
--   **Updated account manager responsibility access configuration**
+-   **[Updated account manager responsibility access configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/list-of-reponsibilities-provided-with-base-system.md)**
 
     Enhanced access configurations for account manager responsibilities by creating a unified entity that defines access based on record and role for more consistent and streamlined access control.
 
--   **Managing account addresses**
+-   **[Managing account addresses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/associate-address-account.md)**
 
     Manage account addresses by associating locations with accounts where the Update access is granted to confirm tracking of address information and support account management.
 
--   **Updating location records associated with account**
+-   **[Updating location records associated with account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/delete-address-location-form.md)**
 
     Restricts users from updating a shared location record unless they have the Update access to all associated accounts, confirming location details can only be modified with the necessary permissions across every linked account.
 

@@ -104,6 +104,6 @@ Role required: admin for download, installation, and activation of all applicati
 
 7.  Modify reconcilation and recompute CMDB data sources to set the source of truth for attribute values.
 
-    The CMDB 360 dashboard provides aggregations and analysis of CMDB 360 data. CMDB 360 collects data about all the discovery sources reporting attribute values for CIs. Use the CMDB 360 view in Configuration Management Database \(CMDB\) Workspace to track activities and identify potential issues of discovery sources. See [CMDB 360 view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/cmdb-workspace-cmdb360-view.md) for more information.
+    The CMDB 360 dashboard provides aggregations and analysis of CMDB 360 data. CMDB 360 collects data about all the discovery sources reporting attribute values for CIs. Use the CMDB 360 view in Configuration Management Database \(CMDB\) Workspace to track activities and identify potential issues of discovery sources. See  for more information.
 
 

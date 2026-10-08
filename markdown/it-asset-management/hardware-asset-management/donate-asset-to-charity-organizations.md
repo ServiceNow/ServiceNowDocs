@@ -62,6 +62,8 @@ Add a charity organization to the Charity Organization \[sn\_itam\_common\_chari
 
 [Create an internal lifecycle in the Hardware Asset Workspace]()
 
+[Calculate the active lifecycle phase for a model]()
+
 [Receive asset warranty details from Lenovo]()
 
 [Manage stockrooms]()

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-interviewmanagement-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
+last_updated: "2026-10-08"
 reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
@@ -75,8 +75,6 @@ Zurich
 
 </td><td>
 
-[Zurich Patch 10](https://www.servicenow.com/docs/access?context=zurich-patch-10&family=zurich&ft:locale=en-US)
-
 -   **[Substitute interviewer](https://www.servicenow.com/docs/access?context=substitute-interviewer-self&family=zurich&ft:locale=en-US)**
 
 Substitute yourself in interviews when you cannot attend it, to eliminate the time and effort of offline coordination. Initiate the substitution directly from the calendar invite or the application record page in Employee Center.
@@ -86,9 +84,7 @@ Substitute yourself in interviews when you cannot attend it, to eliminate the ti
 Proactively monitor interview health, identify issues, and prioritize resolutions. A configurable, extensible framework is used to define scenarios that help identify items that needs recruiters' attention on an interview record.
 
 
-[Zurich Patch 1](https://www.servicenow.com/docs/access?context=zurich-patch-1&family=zurich&ft:locale=en-US)
-
--   **[Define your interview setup](https://www.servicenow.com/docs/access?context=add-interview-phase&family=zurich&ft:locale=en-US)**
+ -   **[Define your interview setup](https://www.servicenow.com/docs/access?context=add-interview-phase&family=zurich&ft:locale=en-US)**
 
 Configure interview phases with custom names, durations, and other key parameters, and then use them to efficiently schedule interviews, enhancing transparency and saving time.
 
@@ -159,8 +155,6 @@ No updates for this release.
 Zurich
 
 </td><td>
-
-[Zurich Patch 10](https://www.servicenow.com/docs/access?context=zurich-patch-10&family=zurich&ft:locale=en-US)
 
 -   **[Schedule an interview](https://www.servicenow.com/docs/access?context=schedule-interview&family=zurich&ft:locale=en-US)**
 
@@ -256,7 +250,12 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Install Interview management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
+
+**Important:** Interview management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -285,7 +284,10 @@ Zurich
 
 </td><td>
 
+-   **Additional requirements**
+
 The Hiring Core application provides essential data models and shared components for Hiring Experiences. The Hiring Core application must be activated.
+
 
 </td></tr></tbody>
 </table>## Browser requirements

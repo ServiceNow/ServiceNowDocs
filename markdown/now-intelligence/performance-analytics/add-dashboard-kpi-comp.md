@@ -107,5 +107,5 @@ In this image, the Assignment Group, Impact, and Priority breakdown definitions 
 </table>**Related topics**  
 
 
-[Using breakdowns on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/c_SpecialDashboards.md)
+[Using breakdowns on responsive dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/c_SpecialDashboards.md)
 

@@ -24,5 +24,5 @@ When implementing datatype ACLs, its essential to validate all affected fields b
 
 To review existing datatype ACLs navigate to **All** &gt; **System Security** &gt; **Access Controls** and use the **Name** field to search for ACLs that start with `*.[`.
 
-**Note:** Scripting Governance uses datatype ACLs by default for scripting restrictions, see \_ for more details.
+**Note:** Scripting Governance uses datatype ACLs by default for scripting restrictions. For more information, see [Scripting Governance Tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/access-control/scripting-governance.md).
 

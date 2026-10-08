@@ -8,7 +8,7 @@ product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 6
+reading_time_minutes: 7
 breadcrumb: [Use, Hardware Asset Management, IT Asset Management]
 ---
 
@@ -24,15 +24,15 @@ Role required: asset
 
 1.  Navigate to a hardware asset for which you want to view the RFID information.
 
-<table id="choicetable_l5h_2mg_ywb"><thead><tr><th align="left" id="d189561e50">
+<table id="choicetable_l5h_2mg_ywb"><thead><tr><th align="left" id="d191381e50">
 
 Interface
 
-</th><th align="left" id="d189561e53">
+</th><th align="left" id="d191381e53">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d189561e59">
+</th></tr></thead><tbody><tr><td id="d191381e59">
 
 **Core UI**
 
@@ -44,7 +44,7 @@ Action
 4.  Select **Open Record** to view the RFID information of the asset.
 
 
-</td></tr><tr><td id="d189561e107">
+</td></tr><tr><td id="d191381e107">
 
 **Hardware Asset Workspace**
 
@@ -117,6 +117,8 @@ Action
 [Manage the lifecycle of hardware models with calculated lifecycle templates]()
 
 [Create an internal lifecycle in the Hardware Asset Workspace]()
+
+[Calculate the active lifecycle phase for a model]()
 
 [Receive asset warranty details from Lenovo]()
 

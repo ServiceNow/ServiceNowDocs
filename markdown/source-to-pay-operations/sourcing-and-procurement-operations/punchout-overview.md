@@ -1,29 +1,29 @@
 ---
 title: Understanding punchout
-description: Punchout is a technology that connects a buyer’s eProcurement application directly to a supplier’s eCommerce site, enabling the buyer to browse products, build a cart, and then have the cart redirected into the buyer's procurement system for checkout.
+description: Punchout is a technology that connects a buyer's eProcurement application to third-party supplier eCommerce sites. This connection enables direct catalog access while maintaining procurement controls.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/source-to-pay-operations/sourcing-and-procurement-operations/punchout-overview.html
 release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Explore, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
 # Understanding punchout
 
-Punchout is a technology that connects a buyer’s eProcurement application directly to a supplier’s eCommerce site, enabling the buyer to browse products, build a cart, and then have the cart redirected into the buyer's procurement system for checkout.
+Punchout is a technology that connects a buyer's eProcurement application to third-party supplier eCommerce sites. This connection enables direct catalog access while maintaining procurement controls.
 
-Punchout enables an organization’s employees to shop on a supplier’s third-party eCommerce site. Purchases are completed in the organization’s eProcurement application, where approval workflows and spending controls are applied.
+Punchout enables a buyer's employees to shop on third-party supplier eCommerce sites. They complete their purchase in their organization's eProcurement application, where approval workflows can be applied and spending can be tracked.
 
-In a Level 1 punchout, shoppers can browse the supplier’s catalog within Shopping Hub but with limited functionality, such as viewing products without real-time pricing or availability. When they select items, they are redirected to the supplier’s punchout site to add products to their cart. The cart is then redirected back to Shopping Hub, where the shopper completes the checkout.
+In level 1 punchout, only the search functionality of the punchout catalog is available. Upon redirection to the third-party punchout supplier's site, the shopper adds items to their cart. They are then redirected to ServiceNow to complete the order details.
 
-With a Level 2 punchout, shoppers search for products within Shopping Hub. When they select items, they are redirected to the supplier’s punchout site to view real-time product details and pricing. After finalizing selections, the cart is redirected back to Shopping Hub, where the shopper completes the checkout.
+With level 2 punchout catalogs, customers can search and order products directly in the procurement system. Redirection to the punchout system is not required.
 
 -   **[Punchout configuration in SPO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/punchout-configuration-spo.md)**  
-You must configure punchout for third-party suppliers.
+Punchout configuration enables third-party suppliers to integrate their catalogs with SPO.
 -   **[How L1 punchout works](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/level-one-punchout.md)**  
 In the Level 1 \(L1\) punchout, SPO and the punchout supplier communicate using the cXML protocol.
 -   **[Establishing connection between SPO and the supplier punchout system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/spo-punchout-connection.md)**  

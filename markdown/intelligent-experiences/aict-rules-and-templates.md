@@ -7,7 +7,7 @@ release: zurich
 topic_type: concept
 last_updated: "2026-04-28"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configure, AI Control Tower, Enable AI experiences]
 ---
 
@@ -29,7 +29,7 @@ Rules and templates settings bring together the configuration that drives automa
 
 -   **Templates**
 
-    Manage the value templates that define the productivity gain formula for AI assets. Configure default template rules that determine which template is applied to a new AI asset, and review the AI system mappings that show which template each asset is currently using. For more information, see .
+    Manage the value templates that define the productivity gain formula for AI assets. Configure default template rules that determine which template is applied to a new AI asset, and review the AI system mappings that show which template each asset is currently using. For more information, see [Value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/mv-value.md).
 
 -   **AI skills**
 
@@ -37,7 +37,7 @@ Rules and templates settings bring together the configuration that drives automa
 
 -   **Cost**
 
-    Configure the AI cost settings used to calculate net AI returns and the cost dimension of value templates. For more information, see .
+    Configure the AI cost settings used to calculate net AI returns and the cost dimension of value templates. For more information, see [Cost](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/mc-cost.md).
 
 -   **Security**
 

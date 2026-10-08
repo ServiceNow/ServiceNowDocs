@@ -50,6 +50,8 @@ View the Radio Frequency Identification \(RFID\) information of assets to manage
 Manage the complete lifecycle of hardware models by creating calculated lifecycle templates and associating these templates with the models.
 -   **[Create an internal lifecycle in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/create-internal-lifecycle-hardware-models.md)**  
 Create a custom \(internal\) lifecycle to explicitly specify lifecycle dates for a selected hardware or consumable model in the Hardware Asset Workspace.
+-   **[Calculate the active lifecycle phase for a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/calculate-active-lifecycle-phase-ham.md)**  
+Recalculate the active life cycle phase for a hardware or consumable model without waiting for the scheduled daily job.
 -   **[Receive asset warranty details from Lenovo](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/receive-warranty-details-lenovo.md)**  
 Connect to the Lenovo Warranty API and get the warranty details of your hardware assets.
 -   **[Manage stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/manage-your-stockrooms.md)**  

@@ -7,8 +7,8 @@ release: zurich
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2026-07-01"
-reading_time_minutes: 9
+last_updated: "2026-09-28"
+reading_time_minutes: 7
 breadcrumb: [Explore, AI Search, Search administration, Configure core features, Administer]
 ---
 
@@ -46,21 +46,7 @@ Arabic, Brazilian Portuguese, Czech, Dutch, English, French, French - Canada, He
 
 </td></tr><tr><td>
 
-Finnish
-
-</td><td>
-
--   [Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/genius-results-ais.md)
--   [Language identification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/international-language-support-ais.md)
--   [Lemma and Unicode normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/lemma-unicode-normalization-ais.md) \(using algorithmic stemming to identify lemmas\)
--   [Result improvement rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/result-improvement-rules-ais.md)
--   [Stop words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/stop-words-ais.md)
--   [Synonyms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/synonyms-ais.md)
--   [Typo handling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/typo-handling-ais.md)
-
-</td></tr><tr><td>
-
-German, Danish, Hungarian, Norwegian \(Bokmål\), and Swedish
+Danish, Finnish, German, Hungarian, Norwegian \(Bokmål\), and Swedish
 
 </td><td>
 
@@ -129,7 +115,7 @@ By default, AI Search only returns results for records with translated content, 
 
     Configure a global fallback locale to use for all translated content searches. AI Search returns translated content results from the global fallback locale's language as well as the user's session language.
 
-    **Note:** The global fallback locale works best if you want to make all English-language records globally searchable.
+    **Note:** The global fallback locale works best if you need to make all English-language records globally searchable.
 
 
 **Parent Topic:**[Exploring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/explore-ais.md)

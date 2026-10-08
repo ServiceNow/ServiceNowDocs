@@ -18,7 +18,7 @@ The ServiceNow® Advanced Work Assignment \(AWA\) application automatically assi
 
 Use AWA with an inbox card in Workspace without an existing interaction or work item.
 
-See  for more information.
+See [Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/awa-application-landing-page.md) for more information.
 
 ## Activation and other requirements
 
@@ -26,7 +26,7 @@ See  for more information.
 
 -   **Activation information**
 
-    AWA is a ServiceNow AI Platform feature that is available with activation of the Glide Advanced Work Assignment plugin \(com.glide.awa\). For details, see .
+    AWA is a ServiceNow AI Platform feature that is available with activation of the Glide Advanced Work Assignment plugin \(com.glide.awa\). For details, see [Activate Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/awa-activate.md).
 
     To use the External routing functionality on your instance, you must activate the External Routing Support plugin \(com.glide.awa-external\).
 
@@ -43,11 +43,11 @@ The ServiceNow® Advanced Work Assignment \(AWA\) application automatically assi
 
 ### What's new
 
--   **Use AWA without existing interaction or work item**
+-   **[Use AWA without existing interaction or work item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/using-awa.md)**
 
     Use AWA with an inbox card in Workspace without an existing interaction or work item.
 
--   **New interaction record field**
+-   **[New interaction record field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/reference-awa.md)**
 
     A new interaction record field was added to indicate whether this interaction is related to a third-party provider.
 

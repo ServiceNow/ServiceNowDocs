@@ -40,7 +40,7 @@ Document Categories and Document Types created in Document Processor before Docu
 **Related topics**  
 
 
-[Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/document-intelligence-landing.md)
+[bundle-platai.document-intelligence-landing]
 
 [Using Document Processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/using-document-processor.md)
 

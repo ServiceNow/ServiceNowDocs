@@ -42,6 +42,8 @@ The ServiceNow® Predictive Intelligence application enables you to create and t
 With ServiceNow AI Lens, which is a ServiceNow® Otto application, you can use generative AI to scan, extract, comprehend, and synthesize data to optimize your workflows. ServiceNow AI Lens was enhanced and updated in the Zurich release.
 -   **[AI Desktop Actions release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/agentic-desktop-rn.md)**  
 The ServiceNow® AI Desktop Actions application enables you to design, configure, and manage desktop actions to automate repetitive tasks. These desktop actions are executed by AI agents created in AI Agent Studio. AI Desktop Actions is a new application in the Zurich release.
+-   **[ServiceNow Cowork release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/servicenow-cowork-rn.md)**  
+The ServiceNow Cowork application is a desktop AI agent that plans and runs multistep tasks across your enterprise applications within the governance and security policies your administrators define. See the following sections for release notes by version.
 
 **Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/new-features-changes.md)
 

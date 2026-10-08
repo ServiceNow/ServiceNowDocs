@@ -1,6 +1,6 @@
 ---
-title: Showing multiple elements separately or aggregated
-description: When you select multiple elements on a dashboard, widgets that follow these elements can show their values either separately or as an aggregate.
+title: Showing multiple elements separately or aggregated in Core UI
+description: When you select multiple elements on a Core UI dashboard, widgets that follow these elements can show their values either separately or as an aggregate.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/performance-analytics/multi-element-select-indicator-views.html
 release: zurich
@@ -8,13 +8,15 @@ product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 5
-breadcrumb: [Using breakdowns on dashboards, Indicator breakdowns, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
+reading_time_minutes: 6
+breadcrumb: [Using breakdowns on responsive dashboards, Create and use dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
-# Showing multiple elements separately or aggregated
+# Showing multiple elements separately or aggregated in Core UI
 
-When you select multiple elements on a dashboard, widgets that follow these elements can show their values either separately or as an aggregate.
+When you select multiple elements on a Core UI dashboard, widgets that follow these elements can show their values either separately or as an aggregate.
+
+**Note:** For information about showing multiple elements separately or aggregated in Platform Analytics, see [Viewing multiple breakdown elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/view-multiple-breakdown-elements.md).
 
 On a widget form, use the **Show multiple elements as** field to set whether multiple elements are shown separately or as an aggregate. Widgets with the view type **Separate** show a different value for each [breakdown element](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/performance-analytics-glossary.md) selected. Widgets with the view type **Aggregate** show a single value that represents the aggregated value of all selected breakdown elements.
 
@@ -85,12 +87,12 @@ On the dashboard, a separate column is shown for each of the three selected elem
 
 With the **Show multiple elements as** field set to **Aggregate,** a single, aggregate score is shown for the three selected elements. \[Omitted image "aggregate-multiple-elements.png"\] Alt text: Column visualization with a single aggregate score shown for all selected elements
 
-**Parent Topic:**[Using breakdowns on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/c_SpecialDashboards.md)
+**Parent Topic:**[Using breakdowns on responsive dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/c_SpecialDashboards.md)
 
 **Related topics**  
 
 
-[Add breakdown sources to a dashboard]()
+[Add breakdown sources to a responsive dashboard]()
 
 [Configure widgets for breakdown dashboards]()
 

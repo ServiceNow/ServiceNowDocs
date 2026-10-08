@@ -8,7 +8,7 @@ product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: reference
 last_updated: "2025-07-31"
-reading_time_minutes: 4
+reading_time_minutes: 3
 breadcrumb: [References, Enterprise Asset Management, IT Asset Management]
 ---
 
@@ -36,7 +36,7 @@ Fields on the Asset put away task form help you create a put away task for the i
 
 [Domain separation and Enterprise Asset Management]()
 
-[Enterprise Asset Management roles]()
+[Components installed with Enterprise Asset Management]()
 
 [OT Asset Workspace roles]()
 

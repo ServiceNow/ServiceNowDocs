@@ -7,7 +7,7 @@ release: zurich
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto, generative AI]
 breadcrumb: [Generate TPRM issue recommendations, Assess third-party risk, Third-party Risk Management, Governance, Risk, and Compliance]
@@ -53,15 +53,15 @@ Role required: sn\_vdr\_risk\_asmt.vendor\_assessment\_reviewer
 
 5.  Create issues based on these recommendations or dismiss the recommendations.
 
-<table id="choicetable_mqj_mcr_23c"><thead><tr><th align="left" id="d44551e240">
+<table id="choicetable_mqj_mcr_23c"><thead><tr><th align="left" id="d45030e240">
 
 Option
 
-</th><th align="left" id="d44551e243">
+</th><th align="left" id="d45030e243">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d44551e249">
+</th></tr></thead><tbody><tr><td id="d45030e249">
 
 **Create issues or dismiss issues from the Predicted issues pane**
 
@@ -71,7 +71,7 @@ Description
 2.  Select **Create issue** or **Dismiss**.
 
 
-</td></tr><tr><td id="d44551e273">
+</td></tr><tr><td id="d45030e273">
 
 **Create issues or dismiss issues from the Predicted issues list**
 

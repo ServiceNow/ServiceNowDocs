@@ -35,9 +35,9 @@ Role required: ServiceNow AI Platform admin
     |Field|Value|
     |-----|-----|
     |Name|Name of the service principal to register with the instance. For example, `Azure service principal credentials`.|
-    |Tenant ID|Azure Directory ID value from the text file.|
-    |Client ID|Azure Application ID value from the text file.|
-    |Secret key|Azure Application key value from the text file.|
+    |Tenant ID|Directory ID value in the Azure configuration.|
+    |Client ID|Application ID value Azure configuration.|
+    |Secret key|Application key value Azure configuration.|
     |Credential Alias|The credential alias that you want to tie to the OAuth 2.0 credential. By default, use the predefined alias name as: sn\_itom\_cam.CAM\_Azure\_Connection|
 
 5.  In the **API Key** field, enter the key obtained from the admin.

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-securitycenter-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
+last_updated: "2026-10-08"
 reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
@@ -137,7 +137,12 @@ Zurich
 
 </td><td>
 
--   **[Auditor checks](https://www.servicenow.com/docs/access?context=auditor&family=zurich&ft:locale=en-US)**
+-   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+
+ -   **[Auditor checks](https://www.servicenow.com/docs/access?context=auditor&family=zurich&ft:locale=en-US)**
 
 The Review Public Knowledge Bases and Review Public Knowledge Base Articles checks use global API calls, so they've been added in the Global scope.
 
@@ -243,7 +248,12 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Security Center is a ServiceNow AI Platform application that is installed by default with the Zurich release. In addition, Security Center can be updated from the ServiceNow Store in between family releases for faster adoption of new features.
+
+
+**Important:** Security Center is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements

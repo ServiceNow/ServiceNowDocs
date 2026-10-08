@@ -58,15 +58,15 @@ If the **Summarize** option isn’t visible, an admin has to activate the skill 
 
 7.  Review the summary and complete any of the following options.
 
-<table id="choicetable_szp_rjg_d2c"><thead><tr><th align="left" id="d103807e225">
+<table id="choicetable_szp_rjg_d2c"><thead><tr><th align="left" id="d107348e225">
 
 Option
 
-</th><th align="left" id="d103807e228">
+</th><th align="left" id="d107348e228">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d103807e234">
+</th></tr></thead><tbody><tr><td id="d107348e234">
 
 **Edit or save the summary**
 
@@ -78,7 +78,7 @@ Description
 
 Once saved to the case record, the summary appears in the **Overview** tab and in the **Activity** stream of the **Details** tab.
 
-</td></tr><tr><td id="d103807e272">
+</td></tr><tr><td id="d107348e272">
 
 **View information about the summary**
 
@@ -88,7 +88,7 @@ Select the information icon \(\[Omitted image "icon-more-info.png"\] Alt text: I
 
  **"AI summarized this using the record details. Check it for accuracy."**
 
-</td></tr><tr><td id="d103807e294">
+</td></tr><tr><td id="d107348e294">
 
 **Expand or collapse the summary card**
 
@@ -96,27 +96,27 @@ Select the information icon \(\[Omitted image "icon-more-info.png"\] Alt text: I
 
 Select **View less** to partially collapse the summary, or **View more** to expand it.
 
- Alternatively, select the **Expand card** icon \(\[Omitted image "3514ebeb5281c378a441ab739e20167a2630a16b.png"\] Alt text: Expand icon.\) or **Collapse card** icon \(\[Omitted image "2ed2a915ca439e54301b2d87d922206f542ed51e.png"\] Alt text: Collapse icon.\) next to **Share to case summary** to fully expand or collapse the summary.
+ Alternatively, select the **Expand card** icon \(\[Omitted image "4c8d6af8f04ca00074f757d1124e0f66858f9bd4.png"\] Alt text: Expand icon.\) or **Collapse card** icon \(\[Omitted image "8cffa3bcc1d964159f63fea32116e02fa88b6445.png"\] Alt text: Collapse icon.\) next to **Share to case summary** to fully expand or collapse the summary.
 
-</td></tr><tr><td id="d103807e336">
+</td></tr><tr><td id="d107348e336">
 
 **Provide feedback**
 
 </td><td>
 
-Select the helpful icon \(\[Omitted image "6703440d198d8d4e598de0ee6ca6e4bb6e927811.png"\] Alt text: Helpful icon.\) for positive feedback. Select the not helpful icon \(\[Omitted image "a6fd159de17dc274016e8b4e51533176a8a3cb3c.png"\] Alt text: Not helpful icon.\) if the summary wasn't helpful.
+Select the helpful icon \(\[Omitted image "a3961a217c6c42794d87b70ca50a5c4e51637db4.png"\] Alt text: Helpful icon.\) for positive feedback. Select the not helpful icon \(\[Omitted image "a8538f6374f4f5e87b48dc63f04908d721aa1789.png"\] Alt text: Not helpful icon.\) if the summary wasn't helpful.
 
  **Note:** User feedback doesn't affect future LLM outputs. It’s collected by ServiceNow® for internal quality monitoring only.
 
-</td></tr><tr><td id="d103807e368">
+</td></tr><tr><td id="d107348e368">
 
 **Copy the summary**
 
 </td><td>
 
-Select the copy icon \(\[Omitted image "b80284abf38e005516cfbb6a89e209fea7668e29.png"\] Alt text: Copy icon.\) to copy the summary to the clipboard.
+Select the copy icon \(\[Omitted image "0e923b11ae593b3c5240d2fab57b32bca386c59d.png"\] Alt text: Copy icon.\) to copy the summary to the clipboard.
 
-</td></tr><tr><td id="d103807e386">
+</td></tr><tr><td id="d107348e386">
 
 **Regenerate the summary**
 

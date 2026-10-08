@@ -40,7 +40,7 @@ The response templates feature automatically activates when Case and Knowledge M
 
 To use response templates in a chat in Agent Workspace for HR Service Delivery, activate: Advanced Work Assignment for HRSD \(com.sn\_hr\_awa\) plugin.
 
-For more information on setting up chat in Virtual Agent, see Virtual Agent.
+For more information on setting up chat in Virtual Agent, see [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/virtual-agent-landing-page.md).
 
 ## How to use response templates with form \(HR case or task\)
 
@@ -234,7 +234,7 @@ Condition
 
 </td><td>
 
-Conditions that determine when the response template is available for use.When defining conditions like case sensitivity or null values, see API .
+Conditions that determine when the response template is available for use.When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/c_GlideFilterScopedAPI.md).
 
  **Note:** The conditions available depend on the table you select. For chat response templates, specify the condition: **\[Type\] \[is\] \[Chat\]**
 

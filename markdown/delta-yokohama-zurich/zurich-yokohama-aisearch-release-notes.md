@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-aisearch-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
+last_updated: "2026-10-08"
 reading_time_minutes: 12
 breadcrumb: [Products combined by family]
 ---
@@ -38,7 +38,7 @@ Yokohama
 
 </td><td>
 
-When you upgrade to Yokohama from an earlier release, make knowledge block content searchable by reindexing all your indexed sources that include knowledge articles. For details on reindexing, see [Index or reindex an indexed source](https://www.servicenow.com/docs/access?context=index-single-source-ais&family=yokohama&ft:locale=en-US) or [Index or reindex multiple indexed sources](https://www.servicenow.com/docs/access?context=index-multiple-sources-ais&family=yokohama&ft:locale=en-US).
+No updates for this release.
 
 </td></tr><tr><td>
 
@@ -46,7 +46,7 @@ Zurich
 
 </td><td>
 
-After you upgrade to Zurich from an earlier family release, run full document crawls in all your external content connectors to update their semantic vector indexing field mappings.
+No updates for this release.
 
 </td></tr></tbody>
 </table>## New features
@@ -72,12 +72,12 @@ Yokohama
 Beginning with Now Assist in AI Search 15.0, customers with Now Assist in AI Search installed can enable the new hybrid search mode. Hybrid search combines keyword-based search with semantic understanding to deliver more accurate and relevant search results, with fewer zero-result searches.
 
 
--   **[Improve semantic search with third-party embedding models](https://www.servicenow.com/docs/access?context=ais-rag&family=yokohama&ft:locale=en-US)**
+ -   **[Improve semantic search with third-party embedding models](https://www.servicenow.com/docs/access?context=ais-rag&family=yokohama&ft:locale=en-US)**
 
 Use custom and third-party embedding models supported by the AI Search RAG application to generate more accurate and relevant semantic search results.
 
 
--   **[Limit the number of Task and Alert records indexed with indexed source guardrails](https://www.servicenow.com/docs/access?context=indexed-source-guardrails-ais&family=yokohama&ft:locale=en-US)**
+ -   **[Limit the number of Task and Alert records indexed with indexed source guardrails](https://www.servicenow.com/docs/access?context=indexed-source-guardrails-ais&family=yokohama&ft:locale=en-US)**
 
 Index guardrail settings restrict index size and increase search performance by limiting the number of Task and Alert table records indexed for search.
 
@@ -108,22 +108,31 @@ Zurich
 
 </td><td>
 
--   **[\[Placeholder link text to key bundle-platadm.generate-multi-content-synthezised-sources\]](https://www.servicenow.com/docs/access?context=generate-multi-content-synthezised-sources&family=zurich&ft:locale=en-US)**
+-   **[ServiceNow Otto for AI Search](https://www.servicenow.com/docs/access?context=now-assist-ais&family=zurich&ft:locale=en-US)**
+
+ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows. Name changes include but aren't limited to:
+
+    -   Now Assist in AI Search is now ServiceNow Otto for AI Search.
+    -   Now Assist Actions is now Actions.
+    -   Now Assist Q &amp; A is now Knowledge base articles.
+    -   Now Assist Multi Content Response is now Summary.
+
+ -   **[Generate multi-content synthesized responses](https://www.servicenow.com/docs/access?context=generate-multi-content-synthesized-sources&family=zurich&ft:locale=en-US)**
 
 AI Search can now use multi-source synthesis to gather and combine information from any indexed source in your system.
 
 
--   **[Improve search precision and contextual relevance with hybrid search](https://www.servicenow.com/docs/access?context=hybrid-search-ais&family=zurich&ft:locale=en-US)**
+ -   **[Improve search precision and contextual relevance with hybrid search](https://www.servicenow.com/docs/access?context=hybrid-search-ais&family=zurich&ft:locale=en-US)**
 
 Beginning with Now Assist in AI Search 15.0, customers with Now Assist in AI Search installed can enable the new hybrid search mode. Hybrid search combines keyword-based search with semantic understanding to deliver more accurate and relevant search results, with fewer zero-result searches.
 
 
--   **[Improve semantic search with third-party embedding models](https://www.servicenow.com/docs/access?context=ais-rag&family=zurich&ft:locale=en-US)**
+ -   **[Improve semantic search with third-party embedding models](https://www.servicenow.com/docs/access?context=ais-rag&family=zurich&ft:locale=en-US)**
 
 Use custom and third-party embedding models supported by the AI Search RAG application to generate more accurate and relevant semantic search results.
 
 
--   **[Filter external content search results by language](https://www.servicenow.com/docs/access?context=language-filtering-external-content&family=zurich&ft:locale=en-US)**
+ -   **[Filter external content search results by language](https://www.servicenow.com/docs/access?context=language-filtering-external-content&family=zurich&ft:locale=en-US)**
 
 AI Search filters external content search results, displaying only results that contain content in languages relevant for the user's search. These languages include:
 
@@ -171,7 +180,7 @@ Search administrators with the ais\_admin granular admin role can access all Sea
 Preview search query results using settings from a search application configuration or a search profile. Choose between keyword and hybrid search modes. Display search results as individual EVAM cards or as a JSON-format search query response object, with search and syntax highlighting. Review search query behavior and results and specify search query settings with the new Summary, Genius Results, Details, and Profile admin tools.
 
 
--   **[Consumer-grade search experience for search portals](https://www.servicenow.com/docs/access?context=viewing-search-results-ais&family=yokohama&ft:locale=en-US)**
+ -   **[Consumer-grade search experience for search portals](https://www.servicenow.com/docs/access?context=viewing-search-results-ais&family=yokohama&ft:locale=en-US)**
 
 The search results page for search portals has been revised to offer a more intuitive and consistent experience. Navigation tabs have been replaced with source facet buckets. All search results now open in a new browser tab, preserving your search in the existing browser tab. Facet buckets now show minimum search result counts, reflecting results removed by late binding content security. Search terms are no longer highlighted in search results.
 
@@ -207,7 +216,12 @@ Search administrators with the ais\_admin granular admin role can access all Sea
 Preview search query results using settings from a search application configuration or a search profile. Choose between keyword and hybrid search modes. Display search results as individual EVAM cards or as a JSON-format search query response object, with search and syntax highlighting. Review search query behavior and results and specify search query settings with the new Summary, Genius Results, Details, and Profile admin tools.
 
 
--   **[Consumer-grade search experience for search portals](https://www.servicenow.com/docs/access?context=viewing-search-results-ais&family=zurich&ft:locale=en-US)**
+ -   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+
+ -   **[Consumer-grade search experience for search portals](https://www.servicenow.com/docs/access?context=viewing-search-results-ais&family=zurich&ft:locale=en-US)**
 
 The search results page for search portals has been revised to offer a more intuitive and consistent experience. Navigation tabs have been replaced with source facet buckets. All search results now open in a new browser tab, preserving your search in the existing browser tab. Facet buckets now show minimum search result counts, reflecting results removed by late binding content security. Search terms are no longer highlighted in search results.
 
@@ -301,7 +315,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 AI Search is a ServiceNow AI Platform feature that is active by default.
+
 
 </td></tr><tr><td>
 
@@ -309,7 +326,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 AI Search is a ServiceNow AI Platform feature that is active by default.
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -359,7 +379,10 @@ Yokohama
 
 </td><td>
 
-AI Search doesn’t support Internet Explorer.
+-   **Browser requirements**
+
+For optimal performance, use AI Search in the latest release of Google Chrome or Mozilla Firefox. AI Search doesn’t support Internet Explorer.
+
 
 </td></tr><tr><td>
 
@@ -367,7 +390,10 @@ Zurich
 
 </td><td>
 
-AI Search doesn’t support Internet Explorer.
+-   **Browser requirements**
+
+For optimal performance, use AI Search in the latest release of Google Chrome or Mozilla Firefox. AI Search doesn’t support Internet Explorer.
+
 
 </td></tr></tbody>
 </table>## Accessibility information
@@ -396,7 +422,7 @@ Zurich
 
 </td><td>
 
--   ****
+No updates for this release.
 
 </td></tr></tbody>
 </table>## Localization information
@@ -417,7 +443,10 @@ Yokohama
 
 </td><td>
 
-AI Search supports international languages. For details of language support by feature, see [Internationalization support](https://www.servicenow.com/docs/access?context=international-language-support-ais&family=yokohama&ft:locale=en-US).
+-   **Localization information**
+
+AI Search supports indexing and search in all languages offered by the ServiceNow AI Platform. Search features, such as stop words and synonyms, are available in many supported languages. For details of language support by feature, see [Internationalization support](https://www.servicenow.com/docs/access?context=international-language-support-ais&family=yokohama&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -425,7 +454,10 @@ Zurich
 
 </td><td>
 
-AI Search supports international languages. For details of language support by feature, see [Internationalization support](https://www.servicenow.com/docs/access?context=international-language-support-ais&family=zurich&ft:locale=en-US).
+-   **Localization information**
+
+AI Search supports indexing and search in all languages offered by the ServiceNow AI Platform. Search features, such as stop words and synonyms, are available in many supported languages. For details of language support by feature, see [Internationalization support](https://www.servicenow.com/docs/access?context=international-language-support-ais&family=zurich&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Highlight information
@@ -446,22 +478,11 @@ Yokohama
 
 </td><td>
 
-[Yokohama Patch 11](https://www.servicenow.com/docs/access?context=yokohama-patch-11&family=yokohama&ft:locale=en-US)
-
--   Improve search precision and contextual relevance with hybrid search, available for customers with Now Assist in AI Search installed.
--   Gain insights into search behavior with a refreshed and updated Search Preview UI.
-
- [Yokohama Patch 6](https://www.servicenow.com/docs/access?context=yokohama-patch-6&family=yokohama&ft:locale=en-US)
-
--   Search more intuitively with an updated, consumer-grade user experience in search portals, global search, and workspace search.
-
- [Yokohama Early Availability](https://www.servicenow.com/docs/access?context=yokohama-security-notables&family=yokohama&ft:locale=en-US)
-
--   Restrict index size and increase search performance with guardrails that limit the number of Task and Alert table records indexed for search
--   Customize the semantic vector search experience by configuring semantic indexing settings for your indexed sources
--   Improve the focus of search results by excluding search sources in a search profile from being used to generate search results or Genius Result answers
--   Expand search recall by indexing content from knowledge blocks
--   Highlight important search results by boosting relevancy for results that match synonyms in a synonym dictionary
+-   Index and search text and attachments from ServiceNow AI Platform tables and external document repositories.
+-   Machine learning relevancy intelligently tunes search result relevancy scores based on previous search users' selections.
+-   Semantic vector search and hybrid search modes find results that match the intent and context of your search.
+-   Genius Results highlight the best answers for a search query and provide immediate access to relevant actions.
+-   Content security preserves user access permissions for your searchable content.
 
  See [AI Search](https://www.servicenow.com/docs/access?context=overview-ais&family=yokohama&ft:locale=en-US) for more information.
 
@@ -471,21 +492,11 @@ Zurich
 
 </td><td>
 
-[Zurich Patch 12](https://www.servicenow.com/docs/access?context=zurich-patch-12&family=zurich&ft:locale=en-US)Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
-
- [Zurich Patch 4](https://www.servicenow.com/docs/access?context=zurich-patch-4&family=zurich&ft:locale=en-US)
-
--   Improve search precision and contextual relevance with hybrid search, available for customers with Now Assist in AI Search installed.
--   Gain insights into search behavior with a refreshed and updated Search Preview UI.
-
- [Zurich Patch 1](https://www.servicenow.com/docs/access?context=zurich-patch-1&family=zurich&ft:locale=en-US)
-
--   Search more intuitively with an updated, consumer-grade user experience in search portals, global search, and workspace search.
-
- [Zurich Early Availability](https://www.servicenow.com/docs/access?context=zurich-security-notables&family=zurich&ft:locale=en-US)
-
--   Improve search precision by displaying external content search results in languages configured for the user's search session.
--   Increase search recall by indexing searchable content and metadata from Multiple Choice and Select Box variables in records on the Catalog Item table and its child tables.
+-   Index and search text and attachments from ServiceNow AI Platform tables and external document repositories.
+-   Machine learning relevancy intelligently tunes search result relevancy scores based on previous search users' selections.
+-   Semantic vector search and hybrid search modes find results that match the intent and context of your search.
+-   Genius Results highlight the best answers for a search query and provide immediate access to relevant actions.
+-   Content security preserves user access permissions for your searchable content.
 
  See [AI Search](https://www.servicenow.com/docs/access?context=overview-ais&family=zurich&ft:locale=en-US) for more information.
 

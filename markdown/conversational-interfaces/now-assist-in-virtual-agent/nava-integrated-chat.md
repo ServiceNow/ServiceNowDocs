@@ -46,13 +46,16 @@ The chat input box has these features:
 
 -   **File upload**
 
-    You can upload files by selecting the file upload icon or by dragging and dropping files directly into the chat input box. You can upload a maximum of 5 files per conversation and a total upload limit of 30 MB. Supported file formats are:
+    You can upload files by selecting the file upload icon or by dragging and dropping files directly into the chat input box. You can upload a maximum of 10 files per conversation and a total upload limit of 50 MB. Supported file formats are:
 
     -   PDF
     -   JPEG
-    -   TXT
-    -   CSV
     -   PNG
+    -   TXT
+    -   PPTX
+    -   Word
+    -   Excel
+    -   CSV
 
 ## Navigating the chat window resizing options and controls toolbar
 

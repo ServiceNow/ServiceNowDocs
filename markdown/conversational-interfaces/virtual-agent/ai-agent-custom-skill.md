@@ -1,37 +1,37 @@
 ---
-title: Using AI agents in Virtual Agent topics
-description: Use an AI agent custom skill to have it perform a task passed to it, such as compiling info on a KB article.
+title: AI agents in Virtual Agent topics
+description: An AI agent custom skill performs a task that you pass to it from a Virtual Agent topic, such as consolidating the content of a knowledge base article.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/conversational-interfaces/virtual-agent/ai-agent-custom-skill.html
 release: zurich
 product: Virtual Agent
 classification: virtual-agent
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Virtual, Agent, designer, AI, agent, connector, utility]
 breadcrumb: [Getting started with Assistant Designer Asset library, Build and deploy, Virtual Agent, Conversational Interfaces]
 ---
 
-# Using AI agents in Virtual Agent topics
+# AI agents in Virtual Agent topics
 
-Use an AI agent custom skill to have it perform a task passed to it, such as compiling info on a KB article.
+An AI agent custom skill performs a task that you pass to it from a Virtual Agent topic, such as consolidating the content of a knowledge base article.
 
 There may be AI agents installed with the Now Assist application that are not used in use cases. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/find-ai-agents.md).
 
-An AI agent performs a task that you pass to it inside the AI Connector utility in Virtual Agent Designer. For more information on the AI Connector utility, see [AI Connector utility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/vad-ai-connector-utility.md).
+An AI agent performs a task that you pass to it inside the AI Connector utility in Assistant Designer. For more information on the AI Connector utility, see [AI Connector utility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/vad-ai-connector-utility.md).
 
-For example, you can use the AI Agent in the AI Connector utility to get all data on a Knowledge Base article. The AI Agent provides the article if it is available or notifies you if it can't find it. The agent also provides data on the consolidation itself by way of its output mappings.
+For example, you can use the AI agent in the AI Connector utility to get all data on a knowledge base article. The AI agent provides the article if it is available or notifies you if it can't find it. The agent also provides data on the consolidation itself by way of its output mappings.
 
 To see which AI agents are installed on your instance, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/find-ai-agents.md).
 
-To use the AI agent, select it from the **Skill type** drop-down list in the AI Connector utility, then select the AI agent's type from the **Select AI agent** drop-down. For example, to have the AI agent consolidate a knowledge base article, select **KB content consolidation AI agent**.
+To use the AI agent, select it from the **Skill type** drop-down list in the AI Connector utility, then select the AI agent's type from the **Select AI agent** drop-down list. For example, to have the AI agent consolidate a knowledge base article, select **KB content consolidation AI agent**.
 
 Define the task for the AI agent by placing a value in the **Task** input mapping variable. You can define a condition, or enter a script or command. For example, enter `return KB00090;` to have the AI agent retrieve that knowledge base article and consolidate its information into a reply in the Virtual Agent chat.
 
 The AI agent's output mapping properties are automatically defined when you select the AI agent type. All output mappings are returned in the chat when the AI agent completes the task.
 
-\[Omitted image "ai-agent-in-connector-utility.png"\] Alt text: Select the AI agent and its task type inside the AI Connector utility.
+\[Omitted image "ai-agent-in-connector-utility.png"\] Alt text: AI Connector utility with the Skill type and Select AI agent fields.
 
 |Variable|Description|
 |--------|-----------|

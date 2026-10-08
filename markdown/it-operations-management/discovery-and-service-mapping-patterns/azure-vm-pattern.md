@@ -25,7 +25,7 @@ Discovery and Service Mapping Patterns finds Azure virtual machines \(VMs\) on y
 
 -   **\(Optional\) Exclude temporary Azure Databricks VMs**
 
-    Starting with Discovery and Service Mapping Patterns version 1.30.2, you can reduce short-lived configuration item \(CI\) records by excluding temporary Azure Databricks VMs. For more information, see [Exclude temporary Azure Databricks virtual machines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/exclude-temp-azure-databricks-vms.md).
+    Starting with Discovery and Service Mapping Patterns version 1.30.2, you can reduce short-lived configuration item \(CI\) records by excluding temporary Azure Databricks VMs. For more information, see [Exclude temporary Azure Databricks virtual machines]().
 
 -   **Create Server CIs during cloud discovery without running IP-based discovery**
 

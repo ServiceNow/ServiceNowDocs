@@ -35,7 +35,7 @@ Inherent risk: Risk level of an AI system before controls, mitigations, or safeg
 
 Residual risk: Risk level after controls, mitigations, and safeguards are implemented. This view demonstrates the effectiveness of the risk management program by showing how control measures reduce overall exposure. By comparing inherent and residual risk charts, you can measure the impact of governance controls.
 
-\[Omitted image "image.aict-aggregated-risk-score"\] Alt text: Donut charts showing AI systems distributed across Low, Medium, High, and Critical risk levels for inherent and residual risk.
+\[Omitted image "aict-aggregated-risk-score.png"\] Alt text: Donut charts showing AI systems distributed across Low, Medium, High, and Critical risk levels for inherent and residual risk.
 
 ## Risk heat map
 

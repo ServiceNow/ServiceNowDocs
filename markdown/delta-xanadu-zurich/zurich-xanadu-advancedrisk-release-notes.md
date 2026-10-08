@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-advancedrisk-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
-reading_time_minutes: 15
+last_updated: "2026-10-08"
+reading_time_minutes: 17
 breadcrumb: [Products combined by family]
 ---
 
@@ -163,7 +163,8 @@ Yokohama
 
 Generate a risk assessment summary from your inherent, residual, target risks, and control effectiveness data using the ServiceNow Otto for IRM application. The summary highlights key insights to help your approvers quickly understand the context before approving the risk assessments. You can also analyze details such as open issues, risk response tasks, action items, and calculated risk scores to support your approval decision. Check your entitlements to confirm whether you have access to risk assessment summarization.
 
--   **[Reassess a risk assessment project](https://www.servicenow.com/docs/access?context=reassess-risk-assessment-project&family=yokohama&ft:locale=en-US)**
+
+ -   **[Reassess a risk assessment project](https://www.servicenow.com/docs/access?context=reassess-risk-assessment-project&family=yokohama&ft:locale=en-US)**
 
 Review completed risk assessment projects to reflect new insights or changing conditions. All previously assessed risks in this project are automatically carried over and reassigned to the designated assessor. Confirm continuity, minimize manual effort, and enhance efficiency in your risk management process.
 
@@ -206,11 +207,13 @@ The reporting view provides an overview of all assessments under a specific Risk
 
 **Note:** Automatic creation of Reporting views is not supported on Xanadu. For instructions on creating them manually, refer to [KB2547071](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2547071)
 
--   **[Risk event summarization](https://www.servicenow.com/docs/access?context=generate-risk-event-summary-in-the-risk-workspace&family=zurich&ft:locale=en-US)**
+
+ -   **[Risk event summarization](https://www.servicenow.com/docs/access?context=generate-risk-event-summary-in-the-risk-workspace&family=zurich&ft:locale=en-US)**
 
 Generate risk event summary using the ServiceNow Otto for IRM application. Risk event summarisation is a Generative AI driven capability that generates clear and consistent summaries automatically. It reduces the need for manual effort, helps risk managers save time, and enables approvers to quickly understand the key details for faster decisions. Check your entitlements to confirm whether you have access to risk event summarization.
 
--   **[Grid based risk and control assessment](https://www.servicenow.com/docs/access?context=perform-assessment-risk-assessment-project-grid-view&family=zurich&ft:locale=en-US)**
+
+ -   **[Grid based risk and control assessment](https://www.servicenow.com/docs/access?context=perform-assessment-risk-assessment-project-grid-view&family=zurich&ft:locale=en-US)**
 
 Gain efficient control over risk assessments with the new grid-based Risk and Control Self Assessment \(RCSA\). Quickly compare, edit, and prioritize risks and controls using the flexible, spreadsheet-style interface. Use side-by-side views and bulk editing to complete assessments faster.
 
@@ -250,10 +253,15 @@ Yokohama
 
 </td><td>
 
--   ****
+-   **[Some Now Assist skills are turned on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&family=yokohama&ft:locale=en-US)**
+
+The new default behavior works as follows:
+
+    -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
+    -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
 -   **[Changes to Now Assist usage measurement](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=yokohama&ft:locale=en-US)**
 
-
+Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
 
 </td></tr><tr><td>
@@ -262,7 +270,22 @@ Zurich
 
 </td><td>
 
--   ****
+-   **[Downstream risks related list](https://www.servicenow.com/docs/access?context=entities-in-risk-ws&family=zurich&ft:locale=en-US)**
+
+The Downstream risks related list on the entity record page has been renamed Risks.
+
+
+ -   **Summary section**
+
+In the classic UI, the Summary section on the risk event record has been renamed Impacts.In the Risk Workspace, the Summary section on the risk event overview page has been renamed Impacts and approvals.
+
+
+ -   **[Some generative AI skills, AI agents, and agentic workflows are turned on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&family=zurich&ft:locale=en-US)**
+
+The skills are automatically available to appropriate role users for the application, such as ITIL roles on incident forms or change forms. This change simply activates the skill and does not touch the roles that may be needed to use the skill. The new default behavior works as follows:
+
+    -   New customers: When you install an AI product, designated skills and agentic workflows are turned on automatically.
+    -   Existing customers who are upgrading \(starting with Australia Early Access\): Any previously unconfigured skill, agent, or agentic workflow is turned on automatically \(the AI asset was never configured and turned on, then turned off again\). Previously configured skills and agentic workflows that were turned on, then off, remain inactive.
 
 </td></tr></tbody>
 </table>## Removed
@@ -299,7 +322,7 @@ Zurich
 
 </td><td>
 
-To enhance the Risk Workspace home page load performance and reduce latency, the **Tasks** widget has been removed from the home page.
+No updates for this release.
 
 </td></tr></tbody>
 </table>## Deprecations
@@ -336,7 +359,7 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+To enhance the Risk Workspace home page load performance and reduce latency, the **Tasks** widget has been removed from the home page.
 
 </td></tr></tbody>
 </table>## Activation information
@@ -365,7 +388,12 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Install Advanced Risk by requesting it from the ServiceNow Store. 
+
+
+**Important:** Advanced Risk is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 
@@ -373,7 +401,12 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Install Advanced Risk by requesting it from the ServiceNow Store. 
+
+
+**Important:** Advanced Risk is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -484,7 +517,8 @@ Zurich
 
 </td><td>
 
--   **Reflow for Risk heatmap**
+-   **Accessibility information**
+    -   **Reflow for Risk heatmap**
 
 The Risk Heatmap component was updated to support reﬂow, which enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality. Additionally, content can be enlarged without scrolling in two dimensions at a width equivalent to 320 CSS pixels or a height equivalent to 256 CSS pixels. Page layouts are transformed into a vertical, stacked view automatically when users increase browser zoom to 400%.
 

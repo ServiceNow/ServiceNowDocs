@@ -8,7 +8,7 @@ product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Configure, Manager Hub, HR Service Delivery, Employee Service Management]
 ---
 
@@ -106,6 +106,8 @@ Order in which you want to display the column display fields on the Team members
 [Activate a scheduled job in Manager Hub]()
 
 [Configure important dates in Manager Hub]()
+
+[Configure manager insights for ServiceNow Otto for HRSD]()
 
 [Configure team requests in Manager Hub]()
 

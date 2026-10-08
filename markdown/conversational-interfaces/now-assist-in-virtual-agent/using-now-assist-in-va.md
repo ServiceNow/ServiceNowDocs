@@ -8,7 +8,7 @@ product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
 topic_type: concept
 last_updated: "2025-01-30"
-reading_time_minutes: 13
+reading_time_minutes: 14
 keywords: [Using, Now Assist, Virtual Agent, AI Search, enhanced chat, dynamic window, full-page experience, full page experience, standard chat, genius results, generative AI]
 breadcrumb: [ServiceNow Otto for Virtual Agent, Conversational Interfaces]
 ---
@@ -49,6 +49,8 @@ The appearance of the default chat widget button varies depending on whether you
 \[Omitted image "NAVA-FAB.png"\] Alt text: Chat bubble button.
 
 \[Omitted image "NASS-dynamic-window-FAB.png"\] Alt text: Otto button.
+
+**Warning:** Do not modify or remove the default AI disclaimer. If you modify or remove the default AI disclaimer, you're responsible for communicating to end users that they are interacting with an AI system and any associated risks. ServiceNow is not responsible for the effects of any changes made.
 
 ## Enhanced or premium chat's full-page experience
 

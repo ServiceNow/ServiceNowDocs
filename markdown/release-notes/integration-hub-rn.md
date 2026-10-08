@@ -20,7 +20,7 @@ The ServiceNow® Integration Hub application extends the ServiceNow® Workflow S
 -   Use load-balancing MID Server clusters in Stream Connect message replication.
 -   Enable testing of connection aliases directly from configuration templates.
 
-See  for more information.
+See [Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integrationhub.md) for more information.
 
 ## Activation and other requirements
 
@@ -37,7 +37,7 @@ The ServiceNow® Integration Hub application extends the ServiceNow® Workflow S
 
 ### What's new
 
--   **View alerts in the Stream Connect dashboard**
+-   **[View alerts in the Stream Connect dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/stream-connect-dashboard.md)**
 
     Get detailed information about alerts, including their severity level, state, type, and the affected entity in the Stream Connect dashboard.
 
@@ -48,27 +48,27 @@ The ServiceNow® Integration Hub application extends the ServiceNow® Workflow S
 
 ### What's new
 
--   **Generate the parsing phase for REST-based Data Stream actions**
+-   **[Generate the parsing phase for REST-based Data Stream actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/data-stream-actions.md)**
 
     Automatically configure the splitter step, script parser step, and outputs for REST-based Data Stream actions. The **Test REST step** functionality in REST-based Data Stream actions executes a request to the configured REST endpoint, analyzes the response payload, and automatically sets up the parsing and output components.
 
--   **Stream Connect enhancements**
-    -   Use a MID Server cluster, instead of a single MID Server for message replication. With a MID Server cluster, if one of the MID Servers fails, the other MID Servers can share the load of the failed MID Server.
-    -   In the Kafka subscription record, view the estimated time required for a consumer to process the current queue. The subscription record also links to the consumer record, so that you can see which consumer is processing the queue.
+-   **[Stream Connect enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/stream-connect-apache-kafka.md)**
+    -   Use a MID Server cluster, instead of a single MID Server for [message replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/stream-connect-message-replication.md). With a MID Server cluster, if one of the MID Servers fails, the other MID Servers can share the load of the failed MID Server.
+    -   In the [Kafka subscription record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/kafka-subscriptions-statistics.md), view the estimated time required for a consumer to process the current queue. The subscription record also links to the consumer record, so that you can see which consumer is processing the queue.
     -   Specify a compression format for Stream Connect producers with the **com.glide.kafka\_producer.compression\_type** system property. Stream Connect supports the GZIP and LZ4 compression formats.
--   **Test connection aliases directly from configuration templates**
+-   **[Test connection aliases directly from configuration templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/test-alias-configuration-template.md)**
 
     For aliases using a configuration template, you can configure a Test Action field. This field enables you to test a connection from within the Action Properties section of actions in Workflow Studio.
 
--   **Support for PowerShell version 6.0 or later in the PowerShell step**
+-   **[Support for PowerShell version 6.0 or later in the PowerShell step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/powershell-step-action-designer.md)**
 
     Enable the PowerShell step to use a newer version of PowerShell by adding the MID Server property **mid.property.ihub.prefer\_powershell6Plus** and setting it to `true`.
 
--   **Use WS-Security in a SOAP step on a MID Server**
+-   **[Use WS-Security in a SOAP step on a MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/soap-step-action-designer.md)**
 
     Enable a WS-Security policy in a SOAP step running on a MID Server.
 
--   **Delay parallel loading in custom \(load by script\) data sources**
+-   **[Delay parallel loading in custom \(load by script\) data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/custom-type-data-source.md)**
 
     Configure a delay for parallel loading in custom data sources. When the data source is called, the parallel loading is scheduled to run after the configured amount of time.
 
@@ -76,11 +76,11 @@ The ServiceNow® Integration Hub application extends the ServiceNow® Workflow S
 
     AI agents that implement different agentic workflows are available for various spokes. Use these spoke-specific AI agents to execute agentic workflows.
 
--   **Save draft, publish, update external trigger definition, and support domain separation**
+-   **[Save draft, publish, update external trigger definition, and support domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/create-saved-external-trigger.md)**
 
     The external trigger definition is updated to match the trigger builder so that the external trigger definition supports the saving of draft, publishing, updating external trigger definition, and supporting domain separation.
 
--   **Create and manage external event sources**
+-   **[Create and manage external event sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/manage-external-event-sources.md)**
 
     Define and manage custom trigger definitions after creating external event sources.
 
@@ -95,11 +95,11 @@ The ServiceNow® Integration Hub application extends the ServiceNow® Workflow S
     -   The Rescan Topics and Topic Inspector menu items are no longer listed under Stream Connect. You can view them on the [Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/hermes-messaging-service.md) menu.
     -   The Stream Connect Alerts sub menu has been removed. Its menu items, Alerts and Alerting Properties, are now listed directly under Stream Connect.
 
--   **New debugging property for Stream Connect**
+-   **[New debugging property for Stream Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/kafka-subscriptions-statistics.md)**
 
     Enable more detailed logging in the Stream Connect logs with the **glide.ih.kafka.stream\_connect.debug** property. This property replaces the **glide.ih.kafka.debug.consume** property.
 
--   **Spoke Generator license changes**
+-   **[Spoke Generator license changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/spoke-builder.md)**
 
     Starting with Zurich, the Spokes list page and Spoke details pages are a part of the ServiceNow Integration Hub Starter Pack. To create a spoke using OpenAPI or Postman collection specification or Now Assist, you need a ServiceNow Integration Hub Professional license in your prod and sub-prod environments.
 

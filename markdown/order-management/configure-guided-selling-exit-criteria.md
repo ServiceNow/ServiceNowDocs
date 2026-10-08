@@ -37,9 +37,9 @@ The system records activity completion state in the Sales CRM Progression Checkp
 
     The default playbook is triggered when an opportunity is created or updated with a sales cycle type of **New Business**. Configure the trigger condition to match the sales cycle type you want to support.
 
-3.  Add and configure a stage in your playbook, for more information, see .
+3.  Add and configure a stage in your playbook, for more information, see [Add and configure a stage in a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/add-configure-stage.md).
 
-4.  Select the stage for which you want to configure activities, for more information see .
+4.  Select the stage for which you want to configure activities, for more information see [Add and configure an activity in a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/add-configure-activity.md).
 
     The playbook displays each opportunity stage as a lane. Each lane must contain a stage entry automation activity as the first activity in the stage lane and a stage exit automation activity as the last activity in the stage lane.
 

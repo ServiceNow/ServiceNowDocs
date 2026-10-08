@@ -61,6 +61,8 @@ Role required: sn\_mh.admin, sp\_admin
 
 [Configure important dates in Manager Hub]()
 
+[Configure manager insights for ServiceNow Otto for HRSD]()
+
 [Configure team requests in Manager Hub]()
 
 [Configure team data in Manager Hub]()

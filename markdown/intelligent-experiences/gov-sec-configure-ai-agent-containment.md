@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2026-07-21"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configure, Managing AI asset security, Govern AI assets, AI Control Tower, Enable AI experiences]
 ---
 
@@ -17,7 +17,7 @@ Connect identity providers and hyperscalers to ServiceNow to let you contain and
 
 ## Before you begin
 
-Role required: AI steward \[sn\_ai\_governance\_ai\_steward\]
+Role required: AI steward \[sn\_ai\_governance.ai\_steward\]
 
 ## About this task
 

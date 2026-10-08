@@ -194,7 +194,7 @@ Oracle **Note:** Oracle license metrics are visible only if the Oracle publisher
 
 -   Named User Plus: Licenses the physical host.
 
-If you are reconciling Oracle server software, such as Oracle Database Server or Oracle WebLogic Server, through a client access record, this license metric licenses the users that are accessing the server.
+If you are reconciling Oracle server software, such as Oracle Database or Oracle WebLogic Server, through a client access record, this license metric licenses the users that are accessing the server.
 
 -   Per Processor: Licenses the number of cores on a processor.
 

@@ -58,7 +58,7 @@ The ServiceNow® RMA Case Management application enables customers to create cas
     Enable customers to create cases for defective products within a specified warranty period, which helps streamline the process.
 
 
--   **Granular roles in Install Base Management**
+-   **[Granular roles in Install Base Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/r_rolesinstalledwithcustaccessmgmt.md)**
 
     Use the following new granular roles with the sn\_install\_base.install\_base\_admin role, which is installed with Customer Service Install Base Management plugin \(com.snc.install\_base\):
 

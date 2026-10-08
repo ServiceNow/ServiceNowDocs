@@ -23,7 +23,7 @@ By default, the Azure change processing scheduled jobs run in every 5 minutes. I
 
 When you execute the Azure change processing for the first time, it may run a few hours. This is due to processing resource changes that occurred in the last four hours. If you want to increase the default schedule execution period, ensure that enough worker nodes are available to execute the schedule.
 
-During event processing, the Cloud Event Scheduler identifies the domain of the service account and assigns to the event. If an error occurs in identifying the domain before processing, the event can sometimes stay unassigned and become visible to all domains. To restrict failed event visibility, set the **sn\_cmp.error\_events.default\_domain** property to the sys\_id of the service-provider domain. Failed events then appear only to the service-provider domain administrator.
+During event processing, the Cloud Event Scheduler identifies the domain of the associated service account and assigns it to the event. If domain identification fails before processing, the event can remain unassigned and be visible across all domains. To limit the visibility of failed events to the service-provider administrator, set the **sn\_cmp.error\_events.default\_domain** property to the sys\_id of the service-provider domain.
 
 **Note:**
 
@@ -85,7 +85,7 @@ Starting with Discovery and Service Mapping Patterns 1.21.0 version, Azure chang
 
 ## Supported Azure resource types and changes
 
-Azure Change Processing tracks a set of resource properties for each supported resource type. When a change is detected in one of these properties, Azure Change Processing retrieves an updated snapshot of the resource from Azure, and processes it in the CMDB to reflect the change.
+Azure Change Processing tracks a set of resource properties for each supported resource type. When a change is detected in one of these properties, Azure Change Processing retrieves an updated snapshot of the resource from Azure. It then processes the snapshot in the CMDB to reflect the change.
 
 <table id="table_w3g_w23_5wb"><thead><tr><th>
 

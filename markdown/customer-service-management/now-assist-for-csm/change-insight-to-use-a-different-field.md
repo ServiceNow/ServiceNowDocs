@@ -7,7 +7,7 @@ release: zurich
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2025-12-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Generative AI, Generative AI for Customer Service Management, Generative AI for customer service agents]
 breadcrumb: [Trending topics dashboard, Activate ServiceNow Otto Skills, Configure, ServiceNow Otto for CSM, Customer Service Management]
@@ -19,13 +19,13 @@ Change the field used in a trending topics insight to display data from a differ
 
 ## Before you begin
 
-Role required: admin or maint
+Role required: admin
 
 ## About this task
 
 For trending topics insights, it is simple to change the field being analyzed. This procedure allows you to duplicate an existing insight and modify it to use a different field while preserving optimization and formatting.
 
-The Trending topics dashboard uses different UI Builder Component names. These include default Trending Topics Dashboard, Top Trends, and Trending topics by Field Insight \(accounts, products, assignment group, channels\). Additional components include default Topic Details Dashboard, Topic Over Time Visualization, Topic Breakdown Visualization, and Topic Affected Regions Visualization.
+The Trending topics dashboard uses different UI Builder Component names. These include OOB Trending Topics Dashboard, Top Trends, and Trending topics by Field Insight \(accounts, products, assignment group, channels\). Additional components include Topic Details Dashboard, Topic Over Time Visualization, Topic Breakdown Visualization, and Topic Affected Regions Visualization.
 
 ## Procedure
 
@@ -49,9 +49,9 @@ The Trending topics dashboard uses different UI Builder Component names. These i
 **Related topics**  
 
 
-[Configure trending topics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/now-assist-for-csm/configure-trending-topics-dashboard.md)
+[Add a filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/now-assist-for-csm/add-a-new-filter.md)
 
 [Change graph visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/now-assist-for-csm/change-graph-visualization.md)
 
-[Add a filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/now-assist-for-csm/add-a-new-filter.md)
+[Configure trending topics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/customer-service-management/now-assist-for-csm/configure-trending-topics-dashboard.md)
 

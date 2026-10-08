@@ -26,7 +26,7 @@ With the **Govern** tab, you can:
 -   Track compliance posture
 -   Monitor cases, issues, and governance actions
 
-\[Omitted image "image.aict-govern-risk-compliance-tab"\] Alt text: Govern tab showing compliance posture and risk posture sections with analytics widgets for regulatory classification, compliance scores, and risk metrics.
+\[Omitted image "aict-govern-risk-compliance-tab.png"\] Alt text: Govern tab showing compliance posture and risk posture sections with analytics widgets for regulatory classification, compliance scores, and risk metrics.
 
 The page is divided into the following components:
 

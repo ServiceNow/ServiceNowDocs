@@ -7,7 +7,7 @@ release: zurich
 product: Change Management
 classification: change-management
 topic_type: concept
-last_updated: "2026-04-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Explore, Change Management, IT Service Management]
 ---
@@ -30,6 +30,8 @@ Change models have been categorized based on IT Infrastructure Library \(ITIL\) 
 -   Normal: Used for ITIL mode 1 Normal changes.
 -   Standard: Used for ITIL mode 1 Standard changes where some of the change states and approvals are pre-approved by default.
 -   Emergency: Used for ITIL mode 1 Emergency changes that need quicker resolution.
+
+**Important:** The default change model configured for an instance can override the **Type** value copied by the **Copy Change** action. Even when the `type` is listed in the **com.snc.change\_request.copy.attributes** property, the **Change Model: Reusables** client script can reset the new change to the default model. For example, copying an emergency change can open the new change as Normal.
 
 The following change models are based on the federated change types that combines multiple states tailored to the purpose and management of specific change use cases:
 

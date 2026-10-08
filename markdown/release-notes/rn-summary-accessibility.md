@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/rn-summary-accessibility.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 23
 breadcrumb: [Release notes summaries for Zurich features, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
 ---
@@ -270,7 +270,7 @@ Creator Studio
 The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
 
 
-For more information, see .
+For more information, see [Dark mode in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/crs-enabling-dark-mode.md).
 
 </td></tr><tr><td>
 
@@ -845,8 +845,8 @@ Playbooks in Workflow Studio
 
 </td><td>
 
--   In Diagram view, navigate between and configure stages and activities via keyboard.
--   Set the action bar to always show in Diagram view. To learn more, see .
+-   In Diagram view, navigate between and configure stages and activities [via keyboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/keyboard-navigation-in-playbook-diagram-view.md).
+-   Set the action bar to always show in Diagram view. To learn more, see [View all buttons without hover](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/view-all-buttons-without-hover.md).
 -   In Diagram view, use a screen reader to help navigate the designer.
 -   Updated color contrast for activities to meet WCAG standards.
 

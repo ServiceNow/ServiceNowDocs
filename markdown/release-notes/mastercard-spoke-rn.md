@@ -21,7 +21,7 @@ The ServiceNow® Mastercard Spoke application enables seamless integration with 
 -   Enable dispute agents with real-time data exchange and embedded Mastercard dispute life cycle workflows.
 -   Accelerate time to value with a predefined Mastercom Extended spoke that reduces development effort and speeds up deployment.
 
-See  for more information.
+See [Mastercard Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/mastercard-spoke.md) for more information.
 
 ## Activation and other requirements
 
@@ -43,7 +43,7 @@ The ServiceNow® Mastercard Spoke application enables seamless integration with 
 
 ### What's new
 
--   **Pre-arbitration and arbitration case filing**
+-   **[Pre-arbitration and arbitration case filing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/mastercard-spoke.md)**
 
     Dispute agents \(issuers\) can create pre-arbitration cases and escalate them to arbitration, or directly create arbitration cases by skipping pre-arbitration, using the new Mastercard spoke actions.
 

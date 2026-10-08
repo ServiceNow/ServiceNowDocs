@@ -1,5 +1,5 @@
 ---
-title: Build Agent checkpoints and conversation change log
+title: Checkpoints and conversation change log
 description: The conversation change log tracks every change Build Agent makes to your application. It appears automatically in an integrated tab in ServiceNow Studio and lets you view updates, roll back to a previous checkpoint, and deploy changes to an update set.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-development/ba-conversational-change-log.html
@@ -7,11 +7,11 @@ release: zurich
 topic_type: concept
 last_updated: "2026-07-01"
 reading_time_minutes: 3
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Use, Build Agent, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
 ---
 
-# Build Agent checkpoints and conversation change log
+# Checkpoints and conversation change log
 
 The conversation change log tracks every change Build Agent makes to your application. It appears automatically in an integrated tab in ServiceNow Studio and lets you view updates, roll back to a previous checkpoint, and deploy changes to an update set.
 

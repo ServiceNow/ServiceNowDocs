@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2026-06-30"
 reading_time_minutes: 4
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configuring trace connections, Configuring integrations, Configure, AI Control Tower, Enable AI experiences]
 ---
 
@@ -41,15 +41,15 @@ Role required: sn\_ai\_governance.ai\_steward
     -   **Application Insights** — collects traces from Azure Monitor Application Insights.
 4.  Fill in the credentials for the source system you selected.
 
-<table id="choicetable-azure-credentials"><thead><tr><th align="left" id="d226184e175">
+<table id="choicetable-azure-credentials"><thead><tr><th align="left" id="d234097e175">
 
 Source system
 
-</th><th align="left" id="d226184e178">
+</th><th align="left" id="d234097e178">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d226184e184">
+</th></tr></thead><tbody><tr><td id="d234097e184">
 
 **Classic Foundry**
 
@@ -72,7 +72,7 @@ The MID Server must be active and validated. Select **Go to Mid server installat
 6.  Select **Active** to begin collecting traces when you save. Clear this option to save the connection without starting collection. You can activate the connection later from its record.
 
 
-</td></tr><tr><td id="d226184e236">
+</td></tr><tr><td id="d234097e236">
 
 **New Foundry**
 
@@ -99,7 +99,7 @@ The default is 30. Set a lower value to return results sooner or set a higher va
 7.  Select **Active** to begin collecting traces when you save. Clear it to save the connection without starting collection. You can activate the connection later from its record.
 
 
-</td></tr><tr><td id="d226184e296">
+</td></tr><tr><td id="d234097e296">
 
 **Application Insights**
 

@@ -28,14 +28,14 @@ Breakdown sources specify which unique values, called breakdown elements, a brea
 An automated breakdown uses a breakdown source to determine selectable elements.
 -   **[Manual breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/manual-breakdowns.md)**  
 In a manual breakdown, you define the breakdown elements and the indicator scores for each element manually instead of using records from a breakdown source.
+-   **[Viewing multiple breakdown elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/view-multiple-breakdown-elements.md)**  
+You can view multiple elements of a breakdown either separately or as an aggregate. It depends on the indicator configuration and how the indicator is visualized.
 -   **[Element filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/c_BreakdownElementFilters.md)**  
 Element filters enable you to specify or limit the displayed breakdown elements on visualizations.
 -   **[Navigating breakdown elements with breakdown relations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/breakdown-relations.md)**  
 Breakdown relations open a new navigation path for viewing breakdown scores, by moving from one breakdown element to another element of the same breakdown. The elements should be in an hierarchical relationship.
 -   **[Control ability to view breakdown elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/t_ControlAccessToABreakdown.md)**  
 To limit which breakdown elements a subset of users can view on indicators, implement element security. Element security applies to widgets, workspaces, and the Analytics Hub.
--   **[Using breakdowns on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/c_SpecialDashboards.md)**  
-You can add breakdown sources to a dashboard. Dashboard users then can select a breakdown source and one or more breakdown elements to filter scores in the visualizations on the dashboard.
 
 **Parent Topic:**[Configure Performance Analytics fundamentals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/c_PAWidgetsAndDashboards.md)
 

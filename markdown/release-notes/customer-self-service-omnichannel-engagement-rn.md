@@ -22,7 +22,7 @@ With self-service and omnichannel applications in the ServiceNow® Customer Serv
 -   Enable external routing of email interactions to reduce administrative effort.
 -   Improve agent callback transfers for smoother handovers and support customers to request scheduled callbacks.
 
-See  and  for more information.
+See [Omnichannels for communicating with customers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/omnichannels-communicating-customers.md) and [Interaction Controls Component \(ICC\) for voice calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/contact-center-integration-with-icc.md) for more information.
 
 ## Activation and other requirements
 
@@ -53,7 +53,7 @@ With self-service and omnichannel applications in the ServiceNow® Customer Serv
 
 ### What's new
 
--   ****
+-   **[Using Interaction Controls Component \(ICC\) call controls with Amazon Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/amazon-connect-for-voice-calls.md)**
 
     Manage Amazon Connect calls directly in the CRM Workspace voice Interaction record page. This integration supports inbound and outbound call flows, presence management, and call transfers without switching applications.
 
@@ -75,11 +75,11 @@ With self-service and omnichannel applications in the ServiceNow® Customer Serv
 
 ### What's new
 
--   ****
+-   **[Selecting queues for outbound calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/select-queues-for-outbound-calls.md)**
 
     Enable agents to designate a specific queue for their outbound calls directly from the keypad or the phone directory in the Global Call window to improve routing and reporting. This provides a streamlined search interface that enables agents to find and select a single queue that can be applied across all outbound dialing methods.
 
--   ****
+-   **[Integrating WhatsApp with Customer Service Management using the WhatsApp Cloud API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/messg-integrating-whatsapp-with-csm-whatsapp-cloud.md)**
 
     Connect directly to WhatsApp Cloud API for more reliable, feature-rich customer support without third-party dependencies. The key capabilities include the following:
 
@@ -91,7 +91,7 @@ With self-service and omnichannel applications in the ServiceNow® Customer Serv
 
 ### What's changed
 
--   ****
+-   **[Selecting queues for outbound calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/select-queues-for-outbound-calls.md)**
 
     The following UI components have been added to the Global Call window when making outbound calls from a keypad or phone directory:
 
@@ -104,18 +104,18 @@ With self-service and omnichannel applications in the ServiceNow® Customer Serv
 
 ### What's new
 
--   ****
+-   **[Voice Controls Simulator tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/voice-control-simulator-tool.md)**
 
     Test and validate voice call UI flows in the CRM Workspace to ensure CCaaS partners have clear insights into their supported voice control capabilities.
 
--   ****
+-   **[Monitoring calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/call-monitoring.md)**
 
     Enable supervisors to monitor, coach, and barge-in on calls in real time by integrating ServiceNow's native voice call feature within an active call interface.
 
 
 ### What's changed
 
--   **CCaaS callback features**
+-   **[CCaaS callback features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/contact-center-intergration-with-icc-callback.md)**
 
     Callback management has been improved to make handling requests easier for agents. The key changes include:
 
@@ -123,7 +123,7 @@ With self-service and omnichannel applications in the ServiceNow® Customer Serv
     -   Enable scheduled callbacks, which help customers to choose a preferred callback time in addition to the existing ASAP option.
     -   Facilitate agents to view the list of queues and other agents for easier callback transfers and efficient customer management.
     -   Capture callback reasons more effectively with the expanded Reason for Call field, which includes additional choice values.
--   **Unified routing of email interactions via CCaaS**
+-   **[Unified routing of email interactions via CCaaS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/using-email-interaction-customer-service-management.md)**
 
     Email interaction handling has been enhanced to improve efficiency and responsiveness in managing customer communications. The key changes include:
 
@@ -133,7 +133,7 @@ With self-service and omnichannel applications in the ServiceNow® Customer Serv
     -   Send automatic email reminders to customers for interactions that are on hold for a configurable period.
     -   Reroute email interactions to available agents when the originally assigned agent is unavailable.
     -   Prevent creating outbound email interactions when emails are sent on top of cases.
--   ****
+-   **[Import queues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/import-queues.md)**
 
     Use bulk action to assign service channels to multiple queues simultaneously during queue-import, simplifying queue management for CCaaS integrations.
 
@@ -144,10 +144,10 @@ With self-service and omnichannel applications in the ServiceNow® Customer Serv
 
 ### What's new
 
--   **Defining CCaaS callbacks**
+-   **[Defining CCaaS callbacks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/interaction-controls-component-icc-callback-integration-features.md)**
     -   Offer callers a callback option that lets them retain their position in the queue and receive a call when an agent is available. Alternatively, callers can choose a specific date and time for the callback, also known as scheduled callback.
     -   As an agent, view callback requests in the order that they're received.
--   **CCaaS callback features**
+-   **[CCaaS callback features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/contact-center-intergration-with-icc-callback.md)**
 
     As an agent, address callback requests from the CRM Workspace. Initiate callbacks and manage active calls with the Callback context card and Callback Actions component on the voice interaction page.
 
@@ -155,22 +155,22 @@ With self-service and omnichannel applications in the ServiceNow® Customer Serv
 
     Monitor the callback life cycle and capture the preview time that measures the time between when an agent accepts the callback request and the agent dials out the customer.
 
--   ****
+-   **[Global call list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/ccaas-global-call-list.md)**
 
     Switch between workspaces using the global call list. As a CSM agent, you can accept calls and open interaction records in supported, unsupported, or default workspaces.
 
--   ****
+-   **[Phone directory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/ccaas-phone-directory.md)**
 
     Access the embedded phone directory in your CRM Workspace via Interaction Controls Component \(ICC\) to make outbound calls to external and internal contacts.
 
--   ****
+-   **[Call resiliency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/ccaas-call-resiliency.md)**
 
     Route phone calls to the CRM Workspace without creating an interaction record, helping agents handle calls even during connectivity issues.
 
 
 ### What's changed
 
--   **Using the voice interaction page for callback requests**
+-   **[Using the voice interaction page for callback requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/csm-native-voice-record-page.md)**
 
     The following UI components have been added on the voice interaction page to manage callback requests:
 
@@ -184,7 +184,7 @@ With self-service and omnichannel applications in the ServiceNow® Customer Serv
         -   Sales Discovery
         -   Product Feedback
         -   Customer Relationship Building
--   ****
+-   **[Using the email interaction page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/using-email-interaction-page.md)**
 
     The following changes have been made to the Email Interaction page:
 
@@ -192,7 +192,7 @@ With self-service and omnichannel applications in the ServiceNow® Customer Serv
     -   A modeless dialog has been added to respond to emails without interrupting your workflow, enabling you to multitask and easily refer to record details.
     -   A compact email header has been added to help you focus on key message details.
     -   The activity stream shows only the latest reply in the email conversation for each response.
--   ****
+-   **[Using Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/ci-agent-chat-using.md)**
 
     A **Leave Chat** button has been added to the record page so you can leave the chat without ending the session for other participating agents.
 
@@ -202,13 +202,13 @@ With self-service and omnichannel applications in the ServiceNow® Customer Serv
     Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
 
 
--   ****
+-   **[Using the email interaction page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/using-email-interaction-page.md)**
 
     View annotations for the most recent activity along with a compact email header that includes the subject, sender, and receiver details in the activity stream. Focus on new or unread email messages rather than the entire email conversation.
 
     View or edit the interaction record while drafting an email in a modeless dialog, keeping all relevant information accessible.
 
--   ****
+-   **[Using Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/ci-agent-chat-using.md)**
 
     Leave a chat without ending it for other agents, enabling you to complete your task and exit the chat.
 
@@ -216,16 +216,16 @@ With self-service and omnichannel applications in the ServiceNow® Customer Serv
 
     Enable multiple agents to add wrap-up codes and comments for a single chat.
 
--   ****
+-   **[Import queues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/import-queues.md)**
 
     Review and update queues imported from a contact center in a post-import page. The post-import page for a queue mirrors the existing post-import pages for skills and wrap-up codes, providing a consistent user experience.
 
--   ****
+-   **[Interaction Controls Component \(ICC\) call features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/interaction-controls-component-icc-call-interaction-features.md)**
 
     Notify agents when a supervisor is coaching or has joined an active call while monitoring agents directly through the CCaaS system.
 
 
 ### What's deprecated or removed
 
-Starting with the Zurich release, Customer Service CTI Demo Data Plugin and CTI Softphone Plugin are no longer deployed, enhanced, or supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base, , and .
+Starting with the Zurich release, Customer Service CTI Demo Data Plugin and CTI Softphone Plugin are no longer deployed, enhanced, or supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base, [Components installed with Customer Service CTI Demo Data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/r_InstalledWithCustServCTIDemoData.md), and [Components installed with CTI Softphone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/r_InstalledWithCCTISoftphone.md).
 

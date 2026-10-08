@@ -26,7 +26,7 @@ AWS: There must be an internal network connection between the MID Servers and th
 
 ## Detailed instructions
 
-See [Setting up AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/setup-aws-service-accounts.md).
+See [Setup AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/setup-aws-service-accounts.md).
 
 ## MID Server settings for Cloud Cost Management
 

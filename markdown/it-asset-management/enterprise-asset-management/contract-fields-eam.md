@@ -122,7 +122,7 @@ Option that indicates if the lease contract has an associated contract rate card
 
 [Domain separation and Enterprise Asset Management]()
 
-[Enterprise Asset Management roles]()
+[Components installed with Enterprise Asset Management]()
 
 [OT Asset Workspace roles]()
 

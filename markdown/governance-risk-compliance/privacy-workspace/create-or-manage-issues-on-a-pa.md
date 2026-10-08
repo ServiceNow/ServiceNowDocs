@@ -47,8 +47,3 @@ Issues get created when there are control attestation failures. You can also man
 
 **Parent Topic:**[Using Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/using-privacy-mgmt.md)
 
-**Related topics**  
-
-
-[issue-workflows]
-

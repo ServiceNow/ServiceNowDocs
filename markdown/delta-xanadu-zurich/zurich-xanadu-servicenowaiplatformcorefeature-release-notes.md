@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-servicenowaiplatformcorefeature-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
-reading_time_minutes: 10
+last_updated: "2026-10-08"
+reading_time_minutes: 11
 breadcrumb: [Products combined by family]
 ---
 
@@ -54,7 +54,10 @@ Zurich
 
 </td><td>
 
+-   **Upgrade information**
+
 The dynamic schema application framework has been revised in the Zurich release. If you implemented dynamic schema in Xanadu or Yokohama, the application is automatically migrated to a new framework as part of the upgrade to the Zurich release. For details on the migration, see the [Dynamic Schema Zurich Migration Guide \[KB2146133\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2146133) article in the Now Support Knowledge Base.
+
 
 </td></tr></tbody>
 </table>## New features
@@ -87,7 +90,8 @@ Yokohama
 
 The guarded script evaluator restricts the JavaScript features and APIs available to untrusted, client-generated scripts running in the script sandbox environment. Beginning with the Yokohama Patch 13 release, incompatible scripts sent to the server by guest users are rejected on all instances by default. Scripts sent by authenticated users are evaluated using a phased approach to enforcement that varies by the type of instance to provide time to detect and review incompatible scripts before rejecting them. Scripts that use unsupported features are recorded in the Incompatible Guarded Scripts list, where you can rewrite them or create exemptions for scripts that can't be rewritten.
 
--   **[Add dynamic attributes to a dynamic category](https://www.servicenow.com/docs/access?context=add-dynamic-attributes-dynamic-category&family=yokohama&ft:locale=en-US)**
+
+ -   **[Add dynamic attributes to a dynamic category](https://www.servicenow.com/docs/access?context=add-dynamic-attributes-dynamic-category&family=yokohama&ft:locale=en-US)**
 
 Add individual attributes or a group of attributes to a dynamic category.
 
@@ -110,11 +114,32 @@ Zurich
 
 The Feature Preview Program provides a centralized location to discover, activate, and test pre-release capabilities on your instance. When a pre-release feature is added to your instance, you receive a notification and can access the Feature Preview Program to review feature details, activate features for testing, and provide feedback.
 
--   **[Enhance instance security for sandbox scripts with guarded script](https://www.servicenow.com/docs/access?context=guarded-script&family=zurich&ft:locale=en-US)**
+
+ -   **[Enhance instance security for sandbox scripts with guarded script](https://www.servicenow.com/docs/access?context=guarded-script&family=zurich&ft:locale=en-US)**
 
 The guarded script evaluator restricts the JavaScript features and APIs available to untrusted, client-generated scripts running in the script sandbox environment. Beginning with the Zurich Patch 9 release, incompatible scripts sent to the server by guest users are rejected on all instances by default. Scripts sent by authenticated users are evaluated using a phased approach to enforcement that varies by the type of instance to provide time to detect and review incompatible scripts before rejecting them. Scripts that use unsupported features are recorded in the Incompatible Guarded Scripts list, where you can rewrite them or create exemptions for scripts that can't be rewritten.
 
--   **[Hierarchical queries in condition builders](https://www.servicenow.com/docs/access?context=data-hierarchies&family=zurich&ft:locale=en-US)**
+
+ -   **[Automatically generate request definitions for scripted REST API resources](https://www.servicenow.com/docs/access?context=autogenerate-api-request-definitions&family=zurich&ft:locale=en-US)**
+
+Use sample requests made to an API resource to generate request header associations, query parameter associations, and a request schema for that resource and the related scripted REST API service.
+
+
+ -   **[Use schemas to define the structure and format of REST API responses and requests](https://www.servicenow.com/docs/access?context=define-scripted-rest-api-schema&family=zurich&ft:locale=en-US)**
+
+When you define a schema in the ServiceNow AI Platform, the schema can be used to define the structure of requests and responses within the associated REST API. The schema data for the requests and responses is then available in the exportable OpenAPI specification for the API.
+
+
+ -   **[Experimentation framework](https://www.servicenow.com/docs/access?context=experimentation-framework&family=zurich&ft:locale=en-US)**
+
+Help enable innovation by trying new ServiceNow® feature variants in your instance. Only single customer instances or Gen AI Innovation Program participants have early access to new innovations via experimentation framework. You can opt out of specific experiments or turn off the framework entirely.
+
+-   **[Monitor requestors' API usage rates through the Inbound API Integration Usage dashboard](https://www.servicenow.com/docs/access?context=inbound-api-integration-usage-dashboard&family=zurich&ft:locale=en-US)**
+
+Inbound integrations track web service requests for OAuth registered applications and user accounts making those requests.
+
+
+ -   **[Hierarchical queries in condition builders](https://www.servicenow.com/docs/access?context=data-hierarchies&family=zurich&ft:locale=en-US)**
 
 Simplify and build queries with fewer conditions using existing hierarchical data in a table. You can also define new hierarchical relationships between records that are in the same table.
 
@@ -122,25 +147,9 @@ Simplify and build queries with fewer conditions using existing hierarchical dat
 
 Define categories and attributes once and reuse them using dynamic namespaces across multiple tables and dynamic attribute store fields. A dynamic namespace is automatically created when you add a dynamic attribute store field.
 
--   **[Experimentation framework](https://www.servicenow.com/docs/access?context=experimentation-framework&family=zurich&ft:locale=en-US)**
-
-Help enable innovation by trying new ServiceNow® feature variants in your instance. Only single customer instances or Gen AI Innovation Program participants have early access to new innovations via experimentation framework. You can opt out of specific experiments or turn off the framework entirely.
-
 -   **[Audit Management Console and audit retention](https://www.servicenow.com/docs/access?context=audit-mgmt-console&family=zurich&ft:locale=en-US)**
 
 Simplify your audit data management and configuration by using the Audit Management Console module. It includes a new Retention option, which automates and simplifies the deletion of audit data based on your requirements.
-
--   **[Monitor requestors' API usage rates through the Inbound API Integration Usage dashboard](https://www.servicenow.com/docs/access?context=inbound-api-integration-usage-dashboard&family=zurich&ft:locale=en-US)**
-
-Inbound integrations track web service requests for OAuth registered applications and user accounts making those requests.
-
--   **[Use schemas to define the structure and format of REST API responses and requests](https://www.servicenow.com/docs/access?context=define-scripted-rest-api-schema&family=zurich&ft:locale=en-US)**
-
-When you define a schema in the ServiceNow AI Platform, the schema can be used to define the structure of requests and responses within the associated REST API. The schema data for the requests and responses is then available in the exportable OpenAPI specification for the API.
-
--   **[Automatically generate request definitions for scripted REST API resources](https://www.servicenow.com/docs/access?context=autogenerate-api-request-definitions&family=zurich&ft:locale=en-US)**
-
-Use sample requests made to an API resource to generate request header associations, query parameter associations, and a request schema for that resource and the related scripted REST API service.
 
 
 </td></tr></tbody>
@@ -228,7 +237,17 @@ Zurich
 
 </td><td>
 
--   **[ECMAScript 2021 \(ES12\) JavaScript mode supports additional scripting features](https://www.servicenow.com/docs/access?context=javascript-engine-feature-support&family=zurich&ft:locale=en-US)**
+-   **[AI indicator in forms](https://www.servicenow.com/docs/access?context=ai-indicator-in-configurable-workspace-and-core-ui&family=zurich&ft:locale=en-US)**
+
+The AI indicator is a visual cue that identifies form fields in configurable workspace and Core UI that have been updated with AI-generated content. This feature enhances user experience by providing a consistent and clear indication of AI involvement across the platform.
+
+
+ -   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+
+ -   **[ECMAScript 2021 \(ES12\) JavaScript mode supports additional scripting features](https://www.servicenow.com/docs/access?context=javascript-engine-feature-support&family=zurich&ft:locale=en-US)**
 
 Use additional scripting features, including Promises and Async await, in applications or scripts that use the ECMAScript 2021 \(ES12\) JavaScript mode.
 
@@ -333,8 +352,7 @@ Zurich
 
 </td><td>
 
--   The **glide.script.use.sandbox** system property has been removed. The script sandbox is enabled by default.
--   Dynamic groups have been removed. Instead, use dynamic attributes in dynamic categories to simplify administration and improve the dynamic schema user experience.
+No updates for this release.
 
 </td></tr></tbody>
 </table>## Deprecations
@@ -373,6 +391,9 @@ Zurich
 
 Starting with the Zurich release, Application Insights is no longer deployed, enhanced, or supported. Instead, [Overview of Instance Observer](https://www.servicenow.com/docs/access?context=io-overview&family=zurich&ft:locale=en-US) offers a powerful solution for enhancing system performance. Contact your account manager to discover more. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
+ -   The **glide.script.use.sandbox** system property has been removed. The script sandbox is enabled by default.
+-   Dynamic groups have been removed. Instead, use dynamic attributes in dynamic categories to simplify administration and improve the dynamic schema user experience.
+
 </td></tr></tbody>
 </table>## Activation information
 
@@ -400,7 +421,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 The ServiceNow AI Platform core features are active by default.
+
 
 </td></tr><tr><td>
 
@@ -408,7 +432,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 The ServiceNow AI Platform core features are active by default.
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -519,7 +546,11 @@ Zurich
 
 </td><td>
 
--   ****
+-   **Accessibility information**
+    -   **Dark theme**
+
+The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
 
 </td></tr></tbody>
 </table>## Localization information

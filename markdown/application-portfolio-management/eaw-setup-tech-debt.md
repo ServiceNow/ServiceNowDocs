@@ -19,7 +19,7 @@ Control which server and reason criteria the scheduled job uses to create TRM te
 
 The Technical debt settings page requires Technology Portfolio Management plugin \(sn\_apm\_tpm\) version 1.11.1 or later. If this version isn't installed, contact your system administrator to update the plugin.
 
-\[Omitted image "trm-tech-debt-settings.png"\] Alt text: Technical debt settings page in the EA Workspace Setup page.
+\[Omitted image "trm-tech-debt-settings.png"\] Alt text: Technical debt settings page in the Enterprise Architecture Workspace Setup page.
 
 By default, the scheduled job **Populate TRM technical debts in the EA Workspace** creates a separate technical debt record for each server on which unapproved software runs. You can change this so that the job creates one technical debt record for a software product regardless of how many servers it runs on.
 

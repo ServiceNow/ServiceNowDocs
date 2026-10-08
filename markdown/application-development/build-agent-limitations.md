@@ -7,7 +7,7 @@ release: zurich
 topic_type: concept
 last_updated: "2026-06-15"
 reading_time_minutes: 2
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Explore, Build Agent, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
 ---
 
@@ -47,6 +47,8 @@ If ServiceNow Fluent does not support a metadata type, Build Agent cannot update
 ## Regulated environments
 
 Build Agent and Test Agent depend on off-instance services that have not completed the security compliance review required for regulated hosting environments. As a result, Build Agent v2 \(Australia Patch 0 and Zurich 8 and higher\) is not available in GCC, NSC, or FedRAMP environments.
+
+**Note:** As of Zurich Patch 13, Build Agent, Autonomous Engineer, and Test Agent support ServiceNow Protected Platform \(SPP\) for Australia, the EU, and Singapore.
 
 Customers in regulated environments must remain on Build Agent v1, which runs on-platform and is certified for regulated use.
 

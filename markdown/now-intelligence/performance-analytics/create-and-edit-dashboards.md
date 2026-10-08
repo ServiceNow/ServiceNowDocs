@@ -8,7 +8,7 @@ product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
@@ -16,7 +16,7 @@ breadcrumb: [Responsive dashboards in the Core UI, Reporting, dashboards, and Pe
 
 Learn about different types of dashboards and how to use them.
 
-**Note:** This topic refers to Dashboards in the Core UI. If your instance is migrated to Platform Analytics experience, see [Common dashboard tasks in the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/common-dashboard-tasks.md).
+**Note:** This topic refers to Dashboards in the Core UI. If your instance is migrated to Platform Analytics, you cannot create Core UI dashboards. You can create only Platform Analytics dashboards. For more information, see [Create a dashboard with the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/create-db-in-ac.md).
 
 Use dashboards to share reports and other data visualizations, filters, and other content with people across your organization. See [Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/reporting-landing-page.md), [Interactive Filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/core-ui-interactive-filters/c_HomepagePublishers.md), and [Performance Analytics widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/c_Widgets.md) for more information.
 
@@ -28,6 +28,8 @@ To create a responsive dashboard, see [Create or configure a responsive dashboar
 You can edit the contents of a dashboard, including Performance Analytics widgets, reports, and tabs. Because dashboards are shared, any modifications you make are applied globally.
 -   **[Working with responsive dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/c_ResponsiveDashboards.md)**  
 Responsive dashboards enable you to share widgets such as reports and Performance Analytics visualizations in the classic environment. An easy-to-use drag and drop canvas helps you create, edit, and arrange content, and then share it with colleagues.
+-   **[Using breakdowns on responsive dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/c_SpecialDashboards.md)**  
+You can add breakdown sources to a responsive Core UI dashboard. Dashboard users then can select a breakdown source and one or more breakdown elements to filter scores in the visualizations on the dashboard.
 -   **[Set responsive dashboards as your home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/t_SetDashboardsAsHome.md)**  
 You can set dashboards as your **Home**. With this setting, the last dashboard you selected appears when you select the logo on the upper left corner of the platform.
 -   **[Request an analytics service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/request-bi-service.md)**  

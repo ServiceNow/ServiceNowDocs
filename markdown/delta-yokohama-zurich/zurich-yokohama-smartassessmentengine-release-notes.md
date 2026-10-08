@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-smartassessmentengine-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
+last_updated: "2026-10-08"
 reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
@@ -106,7 +106,12 @@ Zurich
 
 </td><td>
 
--   **[Collaboration in assessments](https://www.servicenow.com/docs/access?context=collaboration-in-assessments&family=zurich&ft:locale=en-US)**
+-   **[Combining assessments and copying responses](https://www.servicenow.com/docs/access?context=combine-assessments&family=zurich&ft:locale=en-US)**
+
+Combine assessments from different templates into a single, streamlined view. Eliminating the need to open each assessment separately, preserving context, and improving efficiency.
+
+
+ -   **[Collaboration in assessments](https://www.servicenow.com/docs/access?context=collaboration-in-assessments&family=zurich&ft:locale=en-US)**
 
 Enhance assessments with the new collaboration feature, enabling owners to add multiple contributors to work together in real time. This update enables assessors to collaborate efficiently by adding several contributors to an assessment. Real-time updates reflect each contributor's changes, and presence indicators show who is present on the assessment.
 
@@ -121,10 +126,6 @@ Capture data quickly and accurately from physical documents using a new barcode 
 -   **[Creating an assessment template from legacy metric types](https://www.servicenow.com/docs/access?context=sae-asmnt-template-migrating&family=zurich&ft:locale=en-US)**
 
 Migrate question dependencies with an improved migration utility, which now supports the check box question type and conditional visibility criteria defined on templates.
-
--   **[Combining assessments and copying responses](https://www.servicenow.com/docs/access?context=combine-assessments&family=zurich&ft:locale=en-US)**
-
-Combine assessments from different templates into a single, streamlined view. Eliminating the need to open each assessment separately, preserving context, and improving efficiency.
 
 
 </td></tr></tbody>
@@ -154,7 +155,10 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **[Template category field](https://www.servicenow.com/docs/access?context=create-assessment-template-form&family=zurich&ft:locale=en-US)**
+
+The **Purpose** field has replaced the **Template category** field. This single select option streamlines the user experience and improves the accuracy of template categorization.
+
 
 </td></tr></tbody>
 </table>## Removed
@@ -233,7 +237,12 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Install Smart Assessment Engine by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
+
+**Important:** Smart Assessment Engine is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 
@@ -241,7 +250,12 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Install Smart Assessment Engine by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
+
+**Important:** Smart Assessment Engine is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -262,7 +276,10 @@ Yokohama
 
 </td><td>
 
+-   **Additional requirements**
+
 Check your entitlements to determine whether you have access to the post-assessment automations and response automation for the SAE application.
+
 
 </td></tr><tr><td>
 
@@ -270,7 +287,10 @@ Zurich
 
 </td><td>
 
+-   **Additional requirements**
+
 Check your entitlements to determine whether you have access to the collaboration features in the SAE application.
+
 
 </td></tr></tbody>
 </table>## Browser requirements
@@ -320,7 +340,8 @@ Yokohama
 
 </td><td>
 
--   **Accessibility improvements**
+-   **Accessibility information**
+    -   **Accessibility improvements**
 
 Accessibility improvements were done to create a configurable workspace that supports WCAG 2.1 Level AA conformance.
 

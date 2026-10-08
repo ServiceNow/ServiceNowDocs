@@ -7,7 +7,7 @@ release: zurich
 product: Legal Investigations
 classification: legal-investigations
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Configure, Legal Investigations, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
@@ -37,7 +37,7 @@ Role required: admin
 
     For more information, see [Record producers for legal investigations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/legal-investigations/record-producers-legal-investigation.md).
 
-    1.  Navigate to **All** &gt; **Service Catalog** &gt; **Record Producers**.
+    1.  Navigate to **All** &gt; **Service Catalog** &gt; **Catalog Definitions** &gt; **Record Producers**.
 
     2.  Search and open record producers with the name **Ethics Complaints**.
 

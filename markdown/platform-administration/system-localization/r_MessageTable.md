@@ -8,7 +8,7 @@ product: System Localization
 classification: system-localization
 topic_type: reference
 last_updated: "2025-07-31"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Translation tables, System Localization reference, System Localization, Translation and localization, Configure core features, Administer]
 ---
 
@@ -37,11 +37,11 @@ ServiceNow checks this table for translated text when a client script contains a
 
 For more information about translatable custom content in the Message table, see [Translating custom content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/system-localization/translating-applications.md).
 
-
-
 \[Omitted image "MessageList.png"\] Alt text: The Messages list showing messages translated into Spanish.
 
 \[Omitted image "TranslatedMessage.png"\] Alt text: The message that "The following mandatory fields are not filled: Name", translated into Spanish.
+
+**Warning:** Do not modify or remove the default AI disclaimer. If you modify or remove the default AI disclaimer, you're responsible for communicating to end users that they are interacting with an AI system and any associated risks. ServiceNow is not responsible for the effects of any changes made.
 
 **Parent Topic:**[Translation tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/system-localization/r_TranslationTables.md)
 

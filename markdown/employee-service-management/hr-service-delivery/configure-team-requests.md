@@ -151,6 +151,8 @@ Text that must appear when multiple requests are displayed on Manager Hub in Emp
 
 [Configure important dates in Manager Hub]()
 
+[Configure manager insights for ServiceNow Otto for HRSD]()
+
 [Configure team data in Manager Hub]()
 
 [Configure team column data in Manager Hub]()

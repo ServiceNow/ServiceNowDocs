@@ -49,7 +49,7 @@ Role required: sn\_agent.token\_admin
     **Note:** Alternatively, you can enable requiring a maintenance token by using the following single line command:
 
     ```
-    msiexec /i <msi_file_path> /quiet /qn /norestart ACC_API_KEY=<key_value> ACC_MID=wss://<mid_ip>:<websocket_port>/ws/events ACC_ALLOW_LIST=False UNINSTALLVALIDATION=1
+    msiexec /quiet /x <path_to_acc_msi_file> UNINSTALL_TOKEN=<valid_token_value>
     ```
 
     The agent is uninstalled from your Windows machine.

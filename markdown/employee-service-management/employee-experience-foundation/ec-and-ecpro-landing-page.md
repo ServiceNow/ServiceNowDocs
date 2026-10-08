@@ -1,6 +1,6 @@
 ---
 title: Unified Employee Experience
-description: The Unified Employee Experience suite of products consist of Employee Center, the unified portal available in two tiers: the standard version of the product and the subscription-based application, Employee Center Pro, offering advanced features along with other omnichannel experiences and integrations, and Employee Slate, an AI-first experience that unifies search, requests, tasks, knowledge, and communications.
+description: The Unified Employee Experience suite of products consist of Employee Center, the unified portal available in two tiers: the standard version of the product and the subscription-based application, Employee Center Pro, offering advanced features along with other cross-channel experiences and integrations, and EmployeeWorks Web App, an AI-first experience that unifies search, requests, tasks, knowledge, and communications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/employee-service-management/employee-experience-foundation/ec-and-ecpro-landing-page.html
 release: zurich
@@ -8,13 +8,13 @@ product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 6
+reading_time_minutes: 2
 breadcrumb: [Employee Service Management]
 ---
 
 # Unified Employee Experience
 
-The Unified Employee Experience suite of products consist of Employee Center, the unified portal available in two tiers: the standard version of the product and the subscription-based application, Employee Center Pro, offering advanced features along with other omnichannel experiences and integrations, and Employee Slate, an AI-first experience that unifies search, requests, tasks, knowledge, and communications.
+The Unified Employee Experience suite of products consist of Employee Center, the unified portal available in two tiers: the standard version of the product and the subscription-based application, Employee Center Pro, offering advanced features along with other cross-channel experiences and integrations, and EmployeeWorks Web App, an AI-first experience that unifies search, requests, tasks, knowledge, and communications.
 
 <table id="table_mtz_sfy_sdc" class="nav-card presentation"><tbody><tr><td>
 
@@ -26,7 +26,7 @@ The Unified Employee Experience suite of products consist of Employee Center, th
 
 </td></tr><tr><td colspan="2">
 
-[Employee Slate\[Omitted image "bus-service-aware.svg"\] Alt text:Employee Slate delivers an AI-first experience that unifies search, requests, tasks, knowledge, and communications for employees.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/employee-slate-landing-page.md)
+[EmployeeWorks Web App\[Omitted image "bus-service-aware.svg"\] Alt text:Employee Slate delivers an AI-first experience that unifies search, requests, tasks, knowledge, and communications for employees.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/employee-slate-landing-page.md)
 
 </td></tr></tbody>
 </table>## Employee Center versus Employee Center Pro
@@ -35,245 +35,11 @@ Employee Center is one portal that is packaged as two separate store application
 
 -   Employee Center: Multi-department service delivery that enables employees to report issues, request items or services, find service-related answers, and complete to-dos. This application and its capabilities are available to all customers by default.
 -   Employee Center Pro: Subscription-based application that extends the standard Employee Center capabilities including content creation capabilities, multi-stage and multi-channel content delivery, and portal analytics. This application requires additional licensing.
--   Employee Slate: AI-first employee experience application that unifies search, requests, tasks, knowledge, and communications in one destination. This application requires additional licensing.
+-   EmployeeWorks Web App: AI-first employee experience application that unifies search, requests, tasks, knowledge, and communications in one destination. This application requires additional licensing.
 
-<table id="table-ec-comparision"><thead><tr><th>
 
-Functionality
 
-</th><th>
-
-Employee Center
-
-</th><th>
-
-Employee Center Pro
-
-</th></tr></thead><tbody><tr><td>
-
-Service catalog and Knowledge Base articles
-
-</td><td>
-
-\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
-
-</td><td>
-
-\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
-
-</td></tr><tr><td>
-
-AI Search
-
-</td><td>
-
-\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
-
-</td><td>
-
-\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
-
-</td></tr><tr><td>
-
-Chat \([live agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/employee-center-chat-configuration.md), virtual agent\)
-
-</td><td>
-
-\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
-
-</td><td>
-
-\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
-
-</td></tr><tr><td>
-
-Curated Experiences \([Unified Taxonomy for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/config-taxonomy.md), [Dynamic topic pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/dynamic-topic-page.md), [Mega Menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/config-mega-menu.md)\)
-
-</td><td>
-
-\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
-
-</td><td>
-
-\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
-
-</td></tr><tr><td>
-
-[Complete tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/employee-center-to-dos-page-configuration.md) and [Manage requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/employee-center-requests-page-configuration.md)
-
-</td><td>
-
-\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
-
-</td><td>
-
-\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
-
-</td></tr><tr><td>
-
-[Content recommendations \(via "recommended for you"\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/rfy-ec.md)
-
-</td><td>
-
-\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
-
-</td><td>
-
-\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
-
-</td></tr><tr><td>
-
-Cross-channel Favorites
-
-</td><td>
-
-\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
-
-</td><td>
-
-\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
-
-</td></tr><tr><td>
-
-[Unified employee profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/employee-profile-portal.md)
-
-</td><td>
-
-\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
-
-</td><td>
-
-\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
-
-</td></tr><tr><td>
-
-[Guided Self-Service in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/gss-guided-self-service-overview.md)
-
-</td><td>
-
-\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
-
-</td><td>
-
-\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
-
-</td></tr><tr><td>
-
-Employee communications-   [Portal content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-streamline-content.md)
--   [Microsites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-rich-content.md)
--   [Employee News](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-news-articles.md)
--   [Content engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-content-engagement.md)
--   [Campaigns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ecpro-campaigns.md)
--   [Content Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ecpro-content-automation-analytics.md)
--   [Content Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ec-content-governance.md)
-
-</td><td>
-
-\[Omitted image "icon-error-red-x.png"\] Alt text: No
-
-</td><td>
-
-\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
-
-</td></tr><tr><td>
-
-Enterprise Search \(with [SharePoint Online Search Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/sharepoint-search-overview.md)\)
-
-</td><td>
-
-\[Omitted image "icon-error-red-x.png"\] Alt text: No
-
-</td><td>
-
-\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
-
-</td></tr><tr><td>
-
-Integration-powered capabilities-   [App Launcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/web-application-employee-about.md)
--   [Approval Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/approval-hub-intro.md)
-
-</td><td>
-
-\[Omitted image "icon-error-red-x.png"\] Alt text: No
-
-</td><td>
-
-\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
-
-</td></tr><tr><td>
-
-[Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/hr-service-delivery/manager-hub-overview.md)
-
-</td><td>
-
-\[Omitted image "icon-error-red-x.png"\] Alt text: No
-
-</td><td>
-
-\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
-
-</td></tr><tr><td>
-
-[Org chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/employee-profile-org-chart.md) and [Dotted-line relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/add-other-manager-relationship.md)
-
-</td><td>
-
-\[Omitted image "icon-error-red-x.png"\] Alt text: No
-
-</td><td>
-
-\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
-
-</td></tr><tr><td>
-
-[Employee Forums](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ecpro-employee-forum.md)
-
-</td><td>
-
-\[Omitted image "icon-error-red-x.png"\] Alt text: No
-
-</td><td>
-
-\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
-
-</td></tr><tr><td>
-
-[Employee Center Pro Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/deskless-kiosk-overview.md)
-
-</td><td>
-
-\[Omitted image "icon-error-red-x.png"\] Alt text: No
-
-</td><td>
-
-\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
-
-</td></tr><tr><td>
-
-[Integrated experience and service feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/ex-fdback-ovrvw.md)
-
-</td><td>
-
-\[Omitted image "icon-error-red-x.png"\] Alt text: No
-
-</td><td>
-
-\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
-
-</td></tr><tr><td>
-
-[ServiceNow Otto Chat Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/moveworks-for-employeecenter.md)
-
-</td><td>
-
-\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
-
-</td><td>
-
-\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
-
-</td></tr></tbody>
-</table>## Omnichannel experiences
+## Omnichannel experiences
 
 The omnichannel experiences provide different information and communication channels with a unified experience.
 

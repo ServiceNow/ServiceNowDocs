@@ -18,14 +18,14 @@ Configure the Amazon Web Services \(AWS\) Config service to send event notificat
 
 ## Before you begin
 
--   Ensure that the Discovery \(com.snc.discovery\) plugin is installed and activated in the instance.
--   Ensure that you have valid AWS subscriptions \(service accounts\) and its associated logical datacenters are discovered.
--   Ensure that the user account password used to subscribe the instance to the Simple Notification Service \(SNS\) does not contain the @ or \# characters.
--   Ensure that the AWS Config recorder is properly configured with continuous recording enabled to prevent events from being nested with a "detail" JSON node.
+-   Verify that the Discovery \(com.snc.discovery\) plugin is activated in the instance.
+-   Verify that you have valid AWS subscriptions \(service accounts\) and its associated logical datacenters are discovered.
+-   Verify that the user account password used to subscribe the instance to the Simple Notification Service \(SNS\) does not contain the @ or \# characters.
+-   Verify that the AWS Config recorder is properly configured with continuous recording enabled to prevent events from being nested with a "detail" JSON node.
 
 Roles required:
 
--   Ensure that an AWS role is available that can access the following services and resources:
+-   Verify that an AWS role is available that can access the following services and resources:
     -   SNS
     -   AWS Config service
     -   Resource types for which you want to track the configuration change
@@ -46,7 +46,7 @@ Many of the steps in the topic are performed in the AWS portal. For more informa
 
 If you're using domain separation for Cloud Discovery, the events are also domain-separated. Therefore, you can view the details of a processed event only if it belongs to your domain. If an event isn’t associated with any service account, then it’s associated with the global domain.
 
-During event processing, the Cloud Event Scheduler identifies the domain of the service account and assigns to the event. If an error occurs in identifying the domain before processing, the event can sometimes stay unassigned and become visible to all domains. To restrict failed event visibility, set the **sn\_cmp.error\_events.default\_domain** property to the sys\_id of the service-provider domain. Failed events then appear only to the service-provider domain administrator.
+During event processing, the Cloud Event Scheduler identifies the domain of the associated service account and assigns it to the event. If domain identification fails before processing, the event can remain unassigned and be visible across all domains. To limit the visibility of failed events to the service-provider administrator, set the **sn\_cmp.error\_events.default\_domain** property to the sys\_id of the service-provider domain.
 
 ## Procedure
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/l1-service-desk-ai-specialist.html
 release: zurich
 topic_type: reference
-last_updated: "2026-08-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [IT Service Management]
 ---
@@ -64,9 +64,9 @@ For more information, see the [Now Assist documentation](https://raw.githubuserc
 
 Some ServiceNow resources that can provide you with helpful information are:
 
--   **\[Omitted image "dcx-icon-community.svg"\]ServiceNow Community**
+-   **Zurich release notes**
 
-    [ServiceNow Community](https://community.servicenow.com/community)
+    [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/l1-it-service-desk-ai-specialist-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/l1-it-service-desk-ai-specialist-rn.md)
 
 -   **\[Omitted image "dcx-icon-dev-portal.svg"\] Developer**
 

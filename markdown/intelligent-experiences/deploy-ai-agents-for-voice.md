@@ -32,7 +32,7 @@ When you create or edit a voice assistant, you configure communication channels 
 -   **LLMs \(large language model\):** Azure OpenAI, Google Gemini, and AWS Claude. Now LLM Service is also supported but limited to English language only.
 -   **Telephony providers:** Twilio \(WebSocket\), Genesys \(WebSocket and SIP\), Amazon Connect \(PSTN\), 3CLogic \(WebSocket\), Five9 \(SIP\), and NICE CXone \(SIP\). Mobile and web applications are supported through the Web Real-Time Communication \(WebRTC\) channel.
 
-**Note:** Depending on your license, you have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-native-sku-overview.md).
 
 ## Deploying AI voice agents
 

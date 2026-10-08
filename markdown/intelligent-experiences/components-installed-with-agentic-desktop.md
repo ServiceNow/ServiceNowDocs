@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/
 release: zurich
 topic_type: reference
 last_updated: "2025-11-13"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Reference, AI Desktop Actions, Enable AI experiences]
 ---
 
@@ -167,7 +167,7 @@ ServiceNow Otto AI web agents\[sn\_naa\]
 
 </td><td>
 
-Contains system property, default AI agent and agentic workflow named Web Automation Agent and Web Automation respectively, and functionality to perform adaptive automation on web.
+Contains system properties, default AI agent and agentic workflow named Web Automation Agent and Web Automation respectively, and functionality to perform adaptive automation on web.
 
 </td></tr></tbody>
 </table>## System properties installed
@@ -245,6 +245,25 @@ sn\_naa.web\_agent.summarization\_batch\_size
 
 Sets the number of steps combined into a single summary. Larger batches reduce how often summarization runs, but produce less granular summaries.-   Type: Integer
 -   Default: 10
+
+Roles and permissions
+
+-   admin: Read and Write
+-   sn\_naa\_admin: Read and Write
+
+</td></tr><tr><td>
+
+sn\_desktop\_core.enable\_reusable\_assets
+
+</td><td>
+
+Allows turning on or off the Reusable Skills feature enables reuse of recorded desktop actions as deterministic assets that execute from user prompts in the AI Desktop Actions application \(macOS\).-   Type: true \| false
+-   Default: false
+
+Roles and permissions
+
+-   admin: Read and Write
+-   sn\_aia.admin and now\_assist\_panel\_user: Read
 
 </td></tr></tbody>
 </table>**Parent Topic:**[AI Desktop Actions reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/agentic-desktop-reference.md)

@@ -20,7 +20,7 @@ The ServiceNow® ERP Semantic Mining product enables you to identify customizati
 
 The name of the ERP Customization Mining application has been changed to ERP Semantic Mining.
 
-See  for more information.
+See [ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/erp-customization-mining-overview.md) for more information.
 
 ## Activation and other requirements
 
@@ -44,7 +44,7 @@ The ServiceNow® ERP Semantic Mining product enables you to identify customizati
     Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
 
 
--   **ERP Customization Mining application name change**
+-   **[ERP Customization Mining application name change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/erp-customization-mining-overview.md)**
 
     The name of the ERP Customization Mining application has been changed to ERP Semantic Mining.
 

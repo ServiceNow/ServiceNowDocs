@@ -7,7 +7,7 @@ release: zurich
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Classic assessments, Configure, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -129,6 +129,8 @@ Questions that generate issues based on their responses.
 After the TPR assessor moves the state of the assessment to the Generating Observations state, issues will generate based on these rules.
 
 The TPR assessor can navigate to the Issues tab of the External assessment in the Vendor Management Workspace to view generated issues.
+
+**Note:** Starting with version 23.0.x, an issue generation rule doesn't create an issue for a question that has a visibility condition and wasn't visible to the respondent.
 
 **Related topics**  
 

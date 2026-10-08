@@ -1,20 +1,20 @@
 ---
 title: Certificate Inventory and Management patterns
-description: Efficiently manage your Certificate Inventory with patterns to streamline the management of digital certificates. Patterns reduce the risk of vulnerabilities by bolstering security, compliance, and efficient lifecycle control.
+description: Efficiently manage your Certificate Inventory with patterns to streamline the management of digital certificates. Patterns reduce the risk of vulnerabilities by bolstering security, compliance, and efficient life cycle control.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/cert-invt-mgmt-patterns.html
 release: zurich
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2025-09-15"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Reference, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
 
 # Certificate Inventory and Management patterns
 
-Efficiently manage your Certificate Inventory with patterns to streamline the management of digital certificates. Patterns reduce the risk of vulnerabilities by bolstering security, compliance, and efficient lifecycle control.
+Efficiently manage your Certificate Inventory with patterns to streamline the management of digital certificates. Patterns reduce the risk of vulnerabilities by bolstering security, compliance, and efficient life cycle control.
 
 <table id="table_vph_p4w_31c"><thead><tr><th>
 
@@ -30,7 +30,7 @@ GoDaddy – Certificate Management pattern
 
 </td><td>
 
-Part of the Certificate Inventory and Management application. Allows you to import and scan for certificates from your certificate authority \(CA\) GoDaddy.
+Part of the Certificate Inventory and Management application. Allows you to import and scan for certificates from your GoDaddy certificate authority \(CA\).
 
 </td></tr><tr><td>
 
@@ -38,7 +38,7 @@ DigiCert – Certificate Management pattern
 
 </td><td>
 
-Part of the Certificate Inventory and Management application. Allows you to import and scan for certificates from your certificate authority \(CA\) DigiCert.
+Part of the Certificate Inventory and Management application. Allows you to import and scan for certificates from your DigiCert CA.
 
 </td></tr><tr><td>
 
@@ -46,7 +46,7 @@ Entrust - Certificate Management pattern
 
 </td><td>
 
-Part of the Certificate Inventory and Management application. Allows you to import and scan for certificates from your certificate authority \(CA\) Entrust.
+Part of the Certificate Inventory and Management application. Allows you to import and scan for certificates from your Entrust CA.
 
 </td></tr><tr><td>
 
@@ -54,7 +54,7 @@ Sectigo - Certificate Management pattern
 
 </td><td>
 
-Part of the Certificate Inventory and Management application. Allows you to import and scan for certificates from your certificate authority \(CA\) Sectigo.
+Part of the Certificate Inventory and Management application. Allows you to import and scan for certificates from your Sectigo CA.
 
 </td></tr><tr><td>
 
@@ -63,6 +63,14 @@ Import SSL Certificate pattern
 </td><td>
 
 Allows you to discover certificates by importing certificates from files. [Run certificate discovery via certificate file import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/run-cert-inventory-mgmt-import.md).
+
+</td></tr><tr><td>
+
+Microsoft CA - Certificate Management pattern
+
+</td><td>
+
+Discovers certificates issued by your Microsoft CA server. For more information, see [Microsoft Certificate Authority \(CA\) certificates discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/microsoft-ca-discovery.md).
 
 </td></tr><tr><td>
 

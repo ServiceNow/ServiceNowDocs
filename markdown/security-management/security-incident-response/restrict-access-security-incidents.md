@@ -7,7 +7,7 @@ release: zurich
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-29"
 reading_time_minutes: 2
 breadcrumb: [Managing security incidents and inbound requests, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -40,11 +40,15 @@ After you enforce the restriction on specific security incidents and limit the a
 
     3.  In the Allowed members field, click the \[Omitted image "lock-icon.png"\] Alt text: Lock icon icon to select the users who can access the security incident.
 
+        **Note:** Only users who already have an `sn_si` role, such as `sn_si.analyst` or `sn_si.manager`, can be selected as allowed members.
+
     4.  Select the \[Omitted image "add-me-icon.png"\] Alt text: Add me icon icon to add yourself as the allowed user.
 
     5.  Select the \[Omitted image "add-remove-users.png"\] Alt text: Add and Remove multiple users icon to add or remove users.
 
     6.  In the Allowed groups field, click the \[Omitted image "lock-icon.png"\] Alt text: Lock icon icon to select the groups who can access the security incident.
+
+        **Note:** Only groups with a Type of security incident are available for selection.
 
     7.  Select the \[Omitted image "add-remove-users.png"\] Alt text: Add and Remove multiple groups icon to add or remove groups.
 
@@ -64,10 +68,14 @@ After you enforce the restriction on specific security incidents and limit the a
 
     4.  In the Allowed members field, select the users who can access the security incident using the Search option.
 
+        **Note:** Only users who already have an `sn_si` role, such as `sn_si.analyst` or `sn_si.manager`, can be selected as allowed members.
+
     5.  In the Allowed groups field, select the groups who can access the security incident using the Search option.
 
-        **Note:** After the **Enforce restriction** check box is enabled for the security incident, only the sn\_si.admin and allowed members or groups will have access to the security incident.
+        **Note:**
 
+        -   Only groups with a Type of security incident are available for selection.
+        -   After the **Enforce restriction** check box is enabled for the security incident, only the sn\_si.admin and allowed members or groups will have access to the security incident.
     6.  Click **Save**.
 
 

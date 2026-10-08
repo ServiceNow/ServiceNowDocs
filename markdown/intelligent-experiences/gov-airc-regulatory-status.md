@@ -38,7 +38,7 @@ How this is calculated:
 -   Managed assets: The risk level shown for an asset comes from the `risk_score` field on the asset's governance details record. This field is populated when the asset's regulatory risk classification assessment completes, and the widget reflects that value in real time on every page load.
 -   Unmanaged assets: The risk level shown for an unmanaged asset comes from the **Use &amp; purpose** field on the asset's governance details record.
 
-\[Omitted image "image.aict-govern-regulatory-risk-classification"\] Alt text:
+\[Omitted image "aict-govern-regulatory-risk-classification.png"\] Alt text:
 
 ## Compliance score
 
@@ -62,7 +62,7 @@ Compliance score calculation:
 
 The authority documents are provided solely for informational and guidance purposes to assist with the initial setup of AI Risk and Compliance frameworks. It doesn't constitute legal advice or assurance of regulatory compliance. You're solely responsible for ensuring that all use of the content complies with applicable laws, regulations, directives, and industry standards in their jurisdictions.
 
-\[Omitted image "image.aict-govern-compliance-score"\] Alt text:
+\[Omitted image "aict-govern-compliance-score.png"\] Alt text:
 
 ## How data is determined
 

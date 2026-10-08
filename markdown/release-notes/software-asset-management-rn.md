@@ -1,12 +1,12 @@
 ---
 title: Software Asset Management release notes
-description: The ServiceNow Software Asset Management application systematically tracks, evaluates, and manages the cost, utilization, compliance, and optimization for software and SaaS applications. Software Asset Management was enhanced and updated in the Zurich release.The September 2026 introduces AI-powered spend detection, enhanced publisher integrations for Smartsheet, and Microsoft Entra ID, and additional predefined license metrics.The ServiceNow Software Asset Management application systematically tracks, evaluates, and manages the cost, utilization, compliance, and optimization for software and SaaS applications. Software Asset Management was enhanced and updated in the Zurich release.The ServiceNow Software Asset Management application systematically tracks, evaluates, and manages the cost, utilization, compliance, and optimization for software and SaaS applications. Software Asset Management was enhanced and updated in the Zurich release.The ServiceNow Software Asset Management application systematically tracks, evaluates, and manages the cost, utilization, compliance, and optimization for software and SaaS applications. Software Asset Management was enhanced and updated in the Zurich release.
+description: The ServiceNow Software Asset Management application systematically tracks, evaluates, and manages the cost, utilization, compliance, and optimization for software and SaaS applications. Software Asset Management was enhanced and updated in the Zurich release.The October 2026 release introduces a consolidated view of reclamation candidates in the Software Asset Workspace and support for enhanced Zoom Workplace offerings.The September 2026 introduces AI-powered spend detection, enhanced publisher integrations for Smartsheet, and Microsoft Entra ID, and additional predefined license metrics.The ServiceNow Software Asset Management application systematically tracks, evaluates, and manages the cost, utilization, compliance, and optimization for software and SaaS applications. Software Asset Management was enhanced and updated in the Zurich release.The ServiceNow Software Asset Management application systematically tracks, evaluates, and manages the cost, utilization, compliance, and optimization for software and SaaS applications. Software Asset Management was enhanced and updated in the Zurich release.The ServiceNow Software Asset Management application systematically tracks, evaluates, and manages the cost, utilization, compliance, and optimization for software and SaaS applications. Software Asset Management was enhanced and updated in the Zurich release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/software-asset-management-rn.html
 release: zurich
 topic_type: topic
 last_updated: "2025-07-31"
-reading_time_minutes: 12
+reading_time_minutes: 13
 breadcrumb: [IT Asset Management release notes, Features and changes by product, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
 ---
 
@@ -40,9 +40,9 @@ See [Software Asset Management](https://raw.githubusercontent.com/ServiceNow/Ser
         -   Software Asset Workspace store application \(sn\_sam\_workspace\)
         After you activate the Activate all Software Asset Management Professional plugin including the Software Asset Workspace plugin \(com.sn\_samp\_master\_ws\), you can't access the Software Asset Management Core UI.
 
-    -   **Software Asset Management Foundation plugin \(com.snc.sams\)**
+    -   **Basic Software Asset Management \(com.snc.sams\)**
 
-        To access the foundation capabilities of Software Asset Management, activate this plugin. After you activate the Software Asset Management Foundation plugin, activate the Software Asset Workspace store application \(sn\_sam\_workspace\) to complete the setup.
+        To access the foundation capabilities of Software Asset Management, activate this plugin. After you activate the Basic Software Asset Management, activate the Software Asset Workspace store application \(sn\_sam\_workspace\) to complete the setup.
 
     In the ServiceNow AI Platform® Zurich release, there's limited support for the Software Asset Management classic user interface. While it remains active in your instance, including when you upgrade to a new ServiceNow AI Platform® release, you can move to the new workspace for an intuitive and personalized experience.
 
@@ -76,6 +76,30 @@ See [Software Asset Management](https://raw.githubusercontent.com/ServiceNow/Ser
 
 
 **Parent Topic:**[IT Asset Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/it-asset-management-rn-landing.md)
+
+## October 2026
+
+The October 2026 release introduces a consolidated view of reclamation candidates in the Software Asset Workspace and support for enhanced Zoom Workplace offerings.
+
+### What's new
+
+-   **[Manage all reclamation candidates from a consolidated Reclamation tab on the License usage view in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/sam-workspace-workbench.md)**
+
+    Gain insights with a consolidated view of reclamation candidates across all publishers, SaaS integrations, installed software, and reconciliation flows. Drill down from the **Reclamation** tab into individual removal candidates for each publisher or integration, without switching between separate reclamation views. This enhancement gives your asset team a complete picture of reclamation opportunities across your software estate.
+
+-   **[Manage licenses for Zoom Workplace offerings with the expanded Zoom SaaS integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/integrate-with-zoom.md)**
+
+    Use the enhanced Zoom integration to recognize Zoom Workplace offerings, suite structures, and sub-products such as Meetings, Webinars, Phone, and Chat for accurate entitlement reconciliation. Identify stale users based on last login activity rather than meeting hosting history to reduce false positives during reclamation.
+
+    **Note:** The enhanced Zoom Workplace offering is available starting from the Software Asset Management - SaaS License Management application version 16.10.0.
+
+
+### What's changed
+
+-   **[Removal candidates tab replaced with the Reclamation tab in the License usage view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/sam-workspace-workbench.md)**
+
+    The **Reclamation** tab in the License usage view on the Software Asset Workspace presents a consolidated view of reclamation candidates across all publishers, SaaS integrations, installed software, and reconciliation flows.
+
 
 ## September 2026
 

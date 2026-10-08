@@ -20,7 +20,7 @@ The ServiceNow® Creator Studio product is a guided application development expe
 -   Add playbooks with a new activity that automatically updates some fields on the app's generated record.
 -   Augment forms with the new Duration and Attachment question types.
 
-See  for more information.
+See [Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/creator-studio-landing.md) for more information.
 
 ## Activation and other requirements
 
@@ -43,7 +43,7 @@ See  for more information.
 
         The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
 
-    For more information, see .
+    For more information, see [Dark mode in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/crs-enabling-dark-mode.md).
 
 
 **Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/build-automate-rn-landing.md)
@@ -54,32 +54,32 @@ The ServiceNow® Creator Studio product is a guided application development expe
 
 ### What's new
 
--   **Customizable email notifications**
+-   **[Customizable email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/crs-admining-notifications.md)**
 
     Promote consistent branding by having admins create custom email notifications and templates, which are sent when users request something from an app or the request was changed or closed. In support, several of the standard email notification activities are now in the public scope, and a new Configure email notifications item is available in Guided Setup.
 
--   **New playbook activity to update record fields**
+-   **[New playbook activity to update record fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/creator-studio-add-activities-automation.md)**
 
     Enable apps to change several fields automatically on the submitted record using the new Update submission playbook activity. In support, a new Configure playbook activities item is available in Guided Setup.
 
--   **New question types for forms**
+-   **[New question types for forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/creator-studio-form-elements-ref.md)**
 
     Two new question types are available for forms: Duration and Attachment.
 
     -   Duration enables users to specify a length of time.
     -   Attachment enables users to upload an attachment as a question. The **Attachment** field differs from the **Add attachment** option for the form, because the Attachment question type can be used in dynamic behavior questions.
--   **Granular configuration admin roles**
+-   **[Granular configuration admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/roles-creator-studio.md)**
 
     Several new granular admin roles enable developers to complete administrative configuration tasks without requiring the full admin role.
 
--   **Delete unpublished forms**
+-   **[Delete unpublished forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/crs-delete-form.md)**
 
     You can now delete unpublished forms from Creator Studio, which completely removes the record for the form from the ServiceNow AI Platform.
 
 
 ### What's changed
 
--   **Deleting questions from unpublished forms removes the record**
+-   **[Deleting questions from unpublished forms removes the record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/creator-studio-delete-forms-questions.md)**
 
     When you delete a question from an unpublished form, the record for the question is now also removed from the ServiceNow AI Platform.
 

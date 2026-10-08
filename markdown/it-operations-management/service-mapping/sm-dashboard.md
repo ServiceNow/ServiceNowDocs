@@ -8,7 +8,7 @@ product: Service Mapping
 classification: service-mapping
 topic_type: concept
 last_updated: "2026-06-08"
-reading_time_minutes: 5
+reading_time_minutes: 6
 breadcrumb: [Service Mapping reference, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
 
@@ -19,6 +19,12 @@ The Service Mapping workspace provides a central location to streamline the proc
 ## Access
 
 Navigate to **Workspaces** &gt; **Service Mapping**.
+
+## Required roles
+
+|Role|Description|
+|----|-----------|
+|service\_mapping\_admin|Required to access the Service Mapping Workspace.|
 
 ## Key features and capabilities
 
@@ -69,16 +75,16 @@ Access to tag-based service mapping in the Service Mapping workspace requires th
 
 -   **Maps created by Now Assist**
 
-    The number of service maps created by Now Assist Select to view the [Service Mapping AI Agent activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/sm-ai-specialist-activity-columns.md). This tile is available only when Now Assist is installed.
+    The number of service maps created by Now Assist Select to view the [Service Mapping AI Agent activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/sm-ai-agent-activity-columns.md). This tile is available only when Now Assist is installed.
 
 -   **Business app linked to service instance**
 
-    The number of business applications with a CSDM relationship linked to a service instance. Select to view the [Business App Map Agent activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/sm-ai-specialist-activity-columns.md)This tile is available only when Now Assist is installed.
+    The number of business applications with a CSDM relationship linked to a service instance. Select to view the [Business App Map Agent activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/sm-ai-agent-activity-columns.md)This tile is available only when Now Assist is installed.
 
 
 ## Service Mapping AI Agents
 
-When Now Assist is installed, the **Service Mapping home** page displays the AI Agent activation panel. Use this panel to activate or deactivate AI agents that automate service mapping tasks. For more information, see [AI Agents for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/service-mapping-ai-specialists.md).
+When Now Assist is installed, the **Service Mapping home** page displays the AI Agent activation panel. Use this panel to activate or deactivate AI agents that automate service mapping tasks. For more information, see [AI Agents for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/service-mapping-ai-agents.md).
 
 ## Reports
 

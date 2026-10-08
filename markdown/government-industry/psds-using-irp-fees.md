@@ -1,5 +1,5 @@
 ---
-title: Estimate, review, and collect fees for an information request case using Information Request Playbook
+title: Estimate, review, and collect fees for an information request case using Information Request Administration
 description: In this step, you will estimate and collect fees.Use the fee estimator to estimate the fees associated with this request.Verify and document that payment has been sent by the requester in the Process payment activity of the playbook.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/psds-using-irp-fees.html
@@ -7,10 +7,10 @@ release: zurich
 topic_type: concept
 last_updated: "2026-03-29"
 reading_time_minutes: 1
-breadcrumb: [Review request details, Information Request Playbook, Playbooks and solutions, Use, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Review request details, Information Request Administration, Playbooks and solutions, Use, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Estimate, review, and collect fees for an information request case using Information Request Playbook
+# Estimate, review, and collect fees for an information request case using Information Request Administration
 
 In this step, you will estimate and collect fees.
 
@@ -52,7 +52,7 @@ Role required: admin
     This activity will automatically be marked complete once the requester has approved the fee, and the case will be moved to the **Process Payment** activity.
 
 
-## Document a completed payment for an information request case in Information Request Playbook
+## Document a completed payment for an information request case in Information Request Administration
 
 Verify and document that payment has been sent by the requester in the Process payment activity of the playbook.
 

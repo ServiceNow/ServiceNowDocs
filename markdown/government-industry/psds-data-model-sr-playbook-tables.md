@@ -16,114 +16,16 @@ This section describes the tables installed with the Service Request Playbook ap
 
 ## Service Request tables installed
 
-<table id="table_fbz_45z_vdb"><thead><tr><th>
+|Table|Description|Extends Table|
+|-----|-----------|-------------|
+|Service Request|Contains records of individual cases related to government services, tracking requests, interactions, and resolutions for constituents seeking assistance from government agencies.|Government Service Case|
+|Government Service Case|Contains records of individual cases related to government services, tracking requests, interactions, and resolutions for constituents seeking assistance from government agencies.|Customer Service Case|
+|Government Service Task|Contains tasks associated with government service cases, outlining specific actions to be performed, their status, and assigned personnel.|Customer Service Task|
+|Constituent Profile|Contains detailed profiles of constituents, including personal information, contact details, and engagement history with government services.|Consumer Profile|
+|Business Profile|Contains profiles of businesses interacting with government agencies, documenting registration information, contact details, and service engagements.|N/A|
+|Business Registration Request|Contains information about new business registration requests.|N/A|
+|Government Service Document|Contains information about service documents.|Documents|
+|Government Service Evaluation Task|Contains information about service evaluation tasks.|Government Service Task|
 
-Table
-
-</th><th>
-
-Description
-
-</th><th>
-
-Extends Table
-
-</th></tr></thead><tbody><tr><td>
-
-Service Request\[sn\_gsm\_service\_request\_case\]
-
-</td><td>
-
-Contains records of individual cases related to government services, tracking requests, interactions, and resolutions for constituents seeking assistance from government agencies.
-
-</td><td>
-
-Government Service Case \[sn\_gsm\_government\_service\_case\]
-
-</td></tr><tr><td>
-
-Government Service Case\[sn\_gsm\_government\_service\_case\]
-
-</td><td>
-
-Contains records of individual cases related to government services, tracking requests, interactions, and resolutions for constituents seeking assistance from government agencies.
-
-</td><td>
-
-Customer Service Case \(sn\_customerservice\_case\)
-
-</td></tr><tr><td>
-
-Government Service Task \[sn\_gsm\_government\_service\_task\]
-
-</td><td>
-
-Contains tasks associated with government service cases, outlining specific actions to be performed, their status, and assigned personnel.
-
-</td><td>
-
-Customer Service Task \(sn\_customerservice\_task\)
-
-</td></tr><tr><td>
-
-Constituent Profile\[sn\_gsm\_constituent\_profile\]
-
-</td><td>
-
-Contains detailed profiles of constituents, including personal information, contact details, and engagement history with government services.
-
-</td><td>
-
-Consumer Profile \(sn\_csm\_consumer\_profile\)
-
-</td></tr><tr><td>
-
-Business Profile\[sn\_gsm\_business\_profile\]
-
-</td><td>
-
-Contains profiles of businesses interacting with government agencies, documenting registration information, contact details, and service engagements.
-
-</td><td>
-
-N/A
-
-</td></tr><tr><td>
-
-Business Registration Request \[sn\_gsm\_business\_registration\]
-
-</td><td>
-
-Contains information about new business registration requests.
-
-</td><td>
-
-N/A
-
-</td></tr><tr><td>
-
-Government Service Document\[sn\_gsm\_document\]
-
-</td><td>
-
-Contains information about service documents.
-
-</td><td>
-
-Documents \(ds\_document\)
-
-</td></tr><tr><td>
-
-Government Service Evaluation Task\[sn\_gsm\_government\_service\_evaluation\_task\]
-
-</td><td>
-
-Contains information about service evaluation tasks.
-
-</td><td>
-
-Government Service Task \(sn\_gsm\_government\_service\_task\)
-
-</td></tr></tbody>
-</table>**Parent Topic:**[Public Sector Digital Services Service Request Playbook Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-data-model-sr-playbook.md)
+**Parent Topic:**[Public Sector Digital Services Service Request Playbook Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-data-model-sr-playbook.md)
 

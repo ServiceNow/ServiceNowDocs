@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/install-and-configure-lead-to-cash.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-16"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---

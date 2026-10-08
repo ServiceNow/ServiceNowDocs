@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-processmining-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
+last_updated: "2026-10-08"
 reading_time_minutes: 8
 breadcrumb: [Products combined by family]
 ---
@@ -234,7 +234,12 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+-   **[Usability improvements introduced](https://www.servicenow.com/docs/access?context=explore-process-mining&family=yokohama&ft:locale=en-US)**
+
+A few improvements are introduced for ease of usability.
+
+    -   View the improvement opportunities on the Summary and Insights page as a card view or list view.
+    -   Rename the scheduled tasks that help to identify and view a specific result.
 
 </td></tr><tr><td>
 
@@ -345,7 +350,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Process Mining is available with activation of the sn\_po plugin. For details, see [Activating Process Optimization](https://www.servicenow.com/docs/access?context=activating-process-mining&family=yokohama&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -353,7 +361,12 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Process Mining is available by default. For details, see [Activating Process Optimization](https://www.servicenow.com/docs/access?context=activating-process-mining&family=zurich&ft:locale=en-US).
+
+
+**Important:** Process Mining is available by default. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -543,6 +556,8 @@ Yokohama
 -   Access control \(ACL\) rules updated
 
  See [Process Optimization](https://www.servicenow.com/docs/access?context=process-mining&family=yokohama&ft:locale=en-US) for more information.
+
+ **Important:** Process Mining is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 

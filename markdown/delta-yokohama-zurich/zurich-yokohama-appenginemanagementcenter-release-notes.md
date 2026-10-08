@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-appenginemanagementcenter-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
+last_updated: "2026-10-08"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -75,10 +75,6 @@ Zurich
 
 </td><td>
 
--   **[Use AEMC to manage app delegation, development, and deployment](https://www.servicenow.com/docs/access?context=app-engine-management-center&family=zurich&ft:locale=en-US)**
-
-AEMC is a centralized tool for IT admins and developers to manage the entire app development life cycle, from idea submission to deployment and monitoring. AEMC enhances efficiency and governance, and provides clear insights into custom app usage and developer productivity.
-
 -   **[ReleaseOps integration](https://www.servicenow.com/docs/access?context=exploring-aemc&family=zurich&ft:locale=en-US)**
 
 Starting with version 28.2.1 of AEMC, you can deploy using ReleaseOps. ReleaseOps enables the deployment of update sets via a pipeline and leverages the automation capabilities of ServiceNow Playbooks.
@@ -86,6 +82,11 @@ Starting with version 28.2.1 of AEMC, you can deploy using ReleaseOps. ReleaseOp
 -   **[Migrate App Engine pipelines to ReleaseOps](https://www.servicenow.com/docs/access?context=migrating-ae-pipelines-to-releaseops-aemc&family=zurich&ft:locale=en-US)**
 
 Starting with version 28.2.1 of AEMC, migrate your existing App Engine pipelines to ReleaseOps to take advantage of ReleaseOps features without disrupting your existing pipeline and deployment process.
+
+
+ -   **[Use AEMC to manage app delegation, development, and deployment](https://www.servicenow.com/docs/access?context=app-engine-management-center&family=zurich&ft:locale=en-US)**
+
+AEMC is a centralized tool for IT admins and developers to manage the entire app development life cycle, from idea submission to deployment and monitoring. AEMC enhances efficiency and governance, and provides clear insights into custom app usage and developer productivity.
 
 
 </td></tr></tbody>
@@ -115,7 +116,10 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **[Release management tab](https://www.servicenow.com/docs/access?context=aemc-user-interface&family=zurich&ft:locale=en-US)**
+
+Starting with version 28.2.1 of AEMC, you can manage your ReleaseOps deployments in the **Release management** tab of AEMC.
+
 
 </td></tr></tbody>
 </table>## Removed
@@ -202,9 +206,14 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Install AEMC by requesting it from the ServiceNow Store.
 
- Starting with version 28.2.1 of AEMC, you can use ReleaseOps pipelines or migrate your existing App Engine pipelines to ReleaseOps. To use ReleaseOps, you must install ReleaseOps by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+Starting with version 28.2.1 of AEMC, you can use ReleaseOps pipelines or migrate your existing App Engine pipelines to ReleaseOps. To use ReleaseOps, you must install ReleaseOps by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
+
+**Important:** App Engine Management Center is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements

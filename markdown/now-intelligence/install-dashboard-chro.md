@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/install-dashboard-chro.html
 release: zurich
 topic_type: task
-last_updated: "2026-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Chief Human Resources Officer \(CHRO\) Dashboard, Executive dashboard overview, Dashboards, Platform Analytics experience, Platform Analytics]
 ---
@@ -60,4 +60,9 @@ Plugins:
 
     Users must log out and log back in to enable their new roles after the admin assigns them. For more information on user roles, see [Exploring user administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/exploring-user-administration.md).
 
+
+## What to do next
+
+-   Navigate to **CHRO Dashboard** &gt; **Dashboard** to view the installed dashboard.
+-   Use the information in the Tabs, Data Visualizations, and Indicators topics to configure the dashboard.
 

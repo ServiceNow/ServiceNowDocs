@@ -7,7 +7,7 @@ release: zurich
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 12
 breadcrumb: [Explore, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -38,7 +38,7 @@ Each task in a process must be completed before the next task can be started. Th
         3.  At any time, an external risk intelligence provider might update the risk data for the third party because a Third-party risk \(TPR\) manager might have integrated the services of a risk intelligence provider while configuring the application.
         4.  The employee submits the form.
         5.  The system sends out an email notification to the employee who made the request.
-        6.  The system sends an email notification to the Due diligence request assignment group. A member of the group can assign a TPR manager or TPR assessor to act as the owner of the request. This action triggers a task for the TPR manager.
+        6.  The system sends an email notification to the Due diligence request assignment group. A member of the group can assign a Third Party Risk \(TPR\) manager or TPR assessor to act as the owner of the request. This action triggers a task for the TPR manager.
     2.  The TPR manager scopes the request, updates it as needed, and then approves or rejects it.
         1.  The TPR manager logs in to the Vendor Management Workspace and navigates to the due diligence management page, where they review and update the request:
             -   The TPR manager reviews the person who was suggested as the IRQ assessor. If needed, they can specify a different person as the IRQ assessor.

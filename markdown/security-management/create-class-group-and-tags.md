@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/crea
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Security Operations common functionality, Security Operations]
 ---
 
@@ -17,6 +17,8 @@ You can assign tags to security incidents, response tasks, vulnerable items, obs
 ## Before you begin
 
 -   Manual security tags are preserved when automatic tags are applied to security incidents to avoid any analyst-curated information loss. The Source column in the Applied Security Tags table tracks whether tags are added manually or automatically by rules.
+-   Automatic tag application is available only for security incidents and observables/IoCs. For response tasks, vulnerable items, and security cases, you can create a security tag rule. However, tags aren't applied automatically unless the owning application adds a business rule or scheduler job to invoke the rule.
+-   Security tag rules apply only to records created or updated after the rule is activated. Records that already exist and match the rule's conditions aren't tagged retroactively.
 -   Role required: sn\_si.admin
 
 ## Procedure

@@ -1,5 +1,5 @@
 ---
-title: Create application service maps
+title: Create service maps
 description: Create a service map that maps application services based on traffic between the workloads in Kubernetes using Istio or Linkerd service meshes or a ServiceNow DaemonSet.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/create-an-app-service-map-kva.html
@@ -7,34 +7,47 @@ release: zurich
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Enabling application service maps, Configure, Kubernetes discovery using Kubernetes Visibility Agent, Discovery for containerized resources, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
-# Create application service maps
+# Create service maps
 
 Create a service map that maps application services based on traffic between the workloads in Kubernetes using Istio or Linkerd service meshes or a ServiceNow DaemonSet.
 
 ## Before you begin
 
+You should first enable the Service Maps, by using Istio or Linkerd service meshes or a ServiceNow DaemonSet as part of the Kubernetes Visibility Agent \(KVA\) installation. For more information, see [Enabling application service maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/enabling-application-service-maps.md).
+
 Role required: discovery\_admin
 
-You should first enable the application service maps, by using Istio or Linkerd service meshes or a ServiceNow DaemonSet as part of the Kubernetes Visibility Agent \(KVA\) installation. For more information, see [Enabling application service maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/enabling-application-service-maps.md).
+## About this task
+
+Service maps created using this procedure map application services within a single Kubernetes cluster.
 
 ## Procedure
 
-1.  Navigate to **All** and enter `kubernetes service maps` in the navigation filter.
+1.  Navigate to **All** &gt; **Configuration** &gt; **Kubernetes** &gt; **Services** in the navigation filter.
 
-2.  Select the Kubernetes service to use as your entry point for this map.
+2.  Select **New** and fill in the fields on the form.
 
-3.  Select **Create Service Maps**.
+    |Field|Description|
+    |-----|-----------|
+    |**Name**|Name of the Kubernetes service. If the service does not exist, the service map is created with the default name in the following format: `Name@Namespace@Cluster Name`. You can modify this name.|
+    |**Namespace**|Kubernetes namespace that the service belongs to.|
+    |**Selector**|Label selector used to identify the pods that the service routes traffic to.|
+    |**Kubernetes UID**|Unique identifier assigned to the Kubernetes service by the cluster.|
 
-    -   If the service does not exist, the service map is created with the default name in the following format: `Name@Namespace@Cluster Name`. You can modify this name.
-    -   If the service for this CI root already exists, the message `Service <service-name> already exists and has the same root CI.` is displayed.
-    The Service form is opened.
+    If the service for this CI root already exists, the message `Service <service-name> already exists and has the same root CI.` is displayed.
 
-4.  View the map.
+3.  Select **Submit**.
+
+4.  Open the newly created Kubernetes service record.
+
+5.  Select **Create Service Map**.
+
+6.  View the map.
 
     1.  Select **Open in CMDB Workspace**.
 
@@ -43,7 +56,7 @@ You should first enable the application service maps, by using Istio or Linkerd 
 
 ## Result
 
-The application service map is created and is visible in the CMDB workspace.
+The Service Map is created and is visible in the CMDB workspace.
 
 **Parent Topic:**[Enabling application service maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/enabling-application-service-maps.md)
 

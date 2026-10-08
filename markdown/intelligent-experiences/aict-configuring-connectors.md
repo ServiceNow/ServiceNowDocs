@@ -6,8 +6,8 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/
 release: zurich
 topic_type: concept
 last_updated: "2026-08-05"
-reading_time_minutes: 3
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+reading_time_minutes: 2
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configuring integrations, Configure, AI Control Tower, Enable AI experiences]
 ---
 
@@ -24,8 +24,6 @@ Discover AI assets running on external platforms and hyperscaler environments to
 ## Available connectors
 
 For the complete list of supported service graph connectors, their prerequisites, and connector-specific configuration fields, see the [AI Control Tower- AI Discovery Connectors \[KB2986990\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2986990) article in the Now Support Knowledge Base.
-
-AI Control Tower also provides Shadow AI connectors, such as Armis and Agent Client Collector \(ACC\), which detect unsanctioned AI use across your network and endpoints rather than importing known assets directly. For more information, see [Configuring Shadow AI in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/sh-ai-configuring.md).
 
 ## How connectors discover AI assets
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-authentication-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
+last_updated: "2026-10-08"
 reading_time_minutes: 9
 breadcrumb: [Products combined by family]
 ---
@@ -95,7 +95,7 @@ Use the new MFA Dashboard to understand insights such as MFA user enrollment, pr
 Use the new MFA Guided setup to configure multi-factor Authentication \(MFA\) for users who currently log in to ServiceNow with only a user name and password. This update enhances security by guiding administrators through the MFA setup process and verifying that all users are protected with an additional layer of authentication.
 
 
--   **[Attributes for OIDC](https://www.servicenow.com/docs/access?context=idp-attributes-oidc&family=zurich&ft:locale=en-US)**
+ -   **[Attributes for OIDC](https://www.servicenow.com/docs/access?context=idp-attributes-oidc&family=zurich&ft:locale=en-US)**
 
 Use the Identity Provider \(IDP\) Attributes received from the OIDC response from the Identity Provider as a filter criteria for authentication.
 
@@ -130,7 +130,12 @@ Zurich
 
 </td><td>
 
--   **[Enhanced SSO login and logout experience](https://www.servicenow.com/docs/access?context=c_MultipleProviderSingleSignOn&family=zurich&ft:locale=en-US)**
+-   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+
+ -   **[Enhanced SSO login and logout experience](https://www.servicenow.com/docs/access?context=c_MultipleProviderSingleSignOn&family=zurich&ft:locale=en-US)**
 
 Use the enhanced SSO login and logout experience. Enhancement includes:
 
@@ -209,8 +214,6 @@ Zurich
 
 </td><td>
 
-Due to the launch of new simplified inbound integration configuration in Machine Identity Console, the following inbound integrations configurations in the Application registry page are deprecated:
-
 -   OAuth API endpoint for external clients
 -   OAuth JWT API endpoint for external clients
 -   OIDC provider to verify ID tokens
@@ -234,7 +237,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Authentication is a ServiceNow AI Platform product that is active by default.
+
 
 </td></tr><tr><td>
 
@@ -242,7 +248,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Authentication is a ServiceNow AI Platform product that is active by default.
+
 
 </td></tr></tbody>
 </table>## Additional requirements

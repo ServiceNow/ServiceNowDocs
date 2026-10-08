@@ -46,8 +46,8 @@ By default, all ServiceNow Otto traffic is managed within ServiceNow datacenters
     You can configure these settings:
 
     -   **Categories** – Security and content moderation policies grouped into categories that reflect industry practices that align with [OWASP Top 10 Risk &amp; Mitigations for LLMs and Gen AI Apps](https://genai.owasp.org/llm-top-10/) and the [OpenAI model specification](https://model-spec.openai.com/2025-12-18.html).
-    -   **Sampling rate** – The percentage of transactions that are evaluated. Selecting a rate lower than 100% results in fewer AI calls, but potentially less accurate data.
-    -   **Max skill calls per execution** – The amount of AI usage per call. The minimum is 10 calls; the default is 1,000 calls. Entering a lower number results in fewer AI calls, but potentially less accurate data.
+    -   **Sampling rate** – The percentage of transactions that are evaluated. A lower sample rate will result in fewer LLM calls but may also result in fewer detected security events.
+    -   **Max skill calls per execution** – The amount of AI usage per call, with a minimum of 10 calls and a maximum of 100 calls. The default is 10 calls. Entering a lower number results in fewer AI calls, but potentially less accurate data.
     -   **Single or multiple analysis** – Single analysis uses the default LLM to determine whether the model's output or behavior violates predefined security policies. Multiple analysis uses the results from three or more LLMs that ServiceNow supports to make a determination, using the majority result from the LLMs. Multiple analysis requires an odd number of LLMs.
 -   **Agent goal deviation**
 
@@ -57,8 +57,8 @@ By default, all ServiceNow Otto traffic is managed within ServiceNow datacenters
 
     You can configure these settings:
 
-    -   **Sampling rate** – The percentage of transactions that are evaluated. Selecting a rate lower than 100% results in fewer AI calls, but potentially less accurate data.
-    -   **Max skill calls per execution** – The amount of AI usage per call. The minimum is 10 calls; the default is 1,000 calls. Entering a lower number results in fewer AI calls, but potentially less accurate data.
+    -   **Sampling rate** – The percentage of transactions that are evaluated. A lower sample rate will result in fewer LLM calls but may also result in fewer detected security events.
+    -   **Max skill calls per execution** – The amount of AI usage per call, with a minimum of 10 calls and a maximum of 100 calls. The default is 10 calls. Entering a lower number results in fewer AI calls, but potentially less accurate data.
     -   **Single or multiple analysis** – Single analysis uses the default LLM to determine whether the AI agent's or skill's response diverges from the expected output. Multiple analysis uses the results from 3 or more LLMs to make a determination, using the majority result from the LLMs. Multiple analysis requires an odd number of LLMs.
 -   **Output screening**
 

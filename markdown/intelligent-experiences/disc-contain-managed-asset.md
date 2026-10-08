@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2026-09-01"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI, use]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, use]
 breadcrumb: [Managing your AI asset inventory, Discover and manage AI assets, AI Control Tower, Enable AI experiences]
 ---
 
@@ -17,7 +17,7 @@ Deactivate a managed AI agent directly from its asset record using kill switch p
 
 ## Before you begin
 
-Role required: sn\_ai\_governance\_ai\_steward
+Role required: sn\_ai\_governance.ai\_steward
 
 This action is available only for managed AI agents in the Agentic AI category. It isn't available for unmanaged agents.
 

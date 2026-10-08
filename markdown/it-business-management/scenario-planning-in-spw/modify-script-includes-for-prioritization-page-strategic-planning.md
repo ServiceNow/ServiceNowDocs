@@ -50,15 +50,15 @@ Portfolio Planning uses a dual-file script architecture to enable safe customiza
 
 2.  Update the column name in the **Script** field of the Script Include.
 
-<table id="choicetable_fs4_s21_hkc"><thead><tr><th align="left" id="d96238e195">
+<table id="choicetable_fs4_s21_hkc"><thead><tr><th align="left" id="d96469e195">
 
 For this view
 
-</th><th align="left" id="d96238e198">
+</th><th align="left" id="d96469e198">
 
 Follow these steps
 
-</th></tr></thead><tbody><tr><td id="d96238e204">
+</th></tr></thead><tbody><tr><td id="d96469e204">
 
 **Prioritization view**
 
@@ -107,7 +107,7 @@ The required function is updated.
 
 The Priority column is now highlighted in the Prioritization List view. During the next product upgrade, the ServiceNow Controlled file \(`APWBacklogConfigImpl`\) will be updated, but your customization in the Config file will remain intact and will not conflict.
 
-</td></tr><tr><td id="d96238e283">
+</td></tr><tr><td id="d96469e283">
 
 **Hierarchy view**
 

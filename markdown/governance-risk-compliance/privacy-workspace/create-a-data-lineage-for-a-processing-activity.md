@@ -28,7 +28,7 @@ Each processing activity involves multiple information objects classified as per
 
 Adding hierarchy relationships is a two-step flow. In the first step you define the relationship, and in the second step you provide the relationship details.
 
-A business user can also define such relationships as part of a privacy assessment. For details, see [Respond to a privacy smart assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/respond-to-a-privacy-smart-assessment.md).
+A business user can also define such relationships as part of a privacy assessment. For details, see [Respond to privacy impact assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/respond-to-a-privacy-smart-assessment.md).
 
 ## Procedure
 
@@ -42,15 +42,15 @@ A business user can also define such relationships as part of a privacy assessme
 
 5.  Create new relationships in one the following ways.
 
-<table id="choicetable_y5d_d1q_hkc"><thead><tr><th align="left" id="d141281e138">
+<table id="choicetable_y5d_d1q_hkc"><thead><tr><th align="left" id="d145392e141">
 
 Choice
 
-</th><th align="left" id="d141281e141">
+</th><th align="left" id="d145392e144">
 
 Path
 
-</th></tr></thead><tbody><tr><td id="d141281e147">
+</th></tr></thead><tbody><tr><td id="d145392e150">
 
 **From Hierarchy tab**
 
@@ -60,7 +60,7 @@ Path
 2.  Select **Add**.
 
 
-</td></tr><tr><td id="d141281e177">
+</td></tr><tr><td id="d145392e180">
 
 **From Data lineage map**
 
@@ -91,19 +91,21 @@ Path
 
 ## Result
 
-The new relationship appears in the **Hierarchy** tab list. Select **View lineage map** for a graphical view of the new relationships added to the hierarchy. If a related node is itself a processing activity with existing relationships, those connections also appear in the map.
+The new relationship appears in the **Hierarchy** tab.
 
-If the hierarchy relationship involves sending or receiving personal data from one node to another, data transfer records are generated to capture each movement. For more information, see [Manage data transfers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/data-transfers.md).
+To view a graphical representation of the relationships, select **View lineage map**. If a related node is a processing activity with existing relationships, those connections also appear in the map.
+
+When the hierarchy relationship involves sending or receiving personal data from one node to another, data transfer records are automatically generated to capture each movement. For more information, see [Manage data transfers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/data-transfers.md).
 
 ## What to do next
 
-Manage the relationships from the **Processing data inventory** &gt; **Hierarchy** tab of the processing activity.
+Manage relationships from the **Processing data inventory** &gt; **Hierarchy** tab of the processing activity.
 
 -   To edit a relationship, select the record, and select **Edit**.
 -   To delete a relationship, select the record, and select **Remove**.
 
--   **[New hierarchy relationship forms in Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/new-relationship-forms.md)**  
-When creating a new hierarchy relationship in Privacy Management, you first define how a node is related to another. Then, you provide details for each related node.
+-   **[Hierarchy relationship forms in Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/new-relationship-forms.md)**  
+When you create a new hierarchy relationship in Privacy Management, you first define how a node is related to another, and then provide details for each related node.
 
 **Parent Topic:**[Using Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/using-privacy-mgmt.md)
 

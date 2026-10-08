@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-continuousauthorizationandmonitoring-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
+last_updated: "2026-10-08"
 reading_time_minutes: 8
 breadcrumb: [Products combined by family]
 ---
@@ -133,7 +133,8 @@ Enhancing the OSCAL import experience, the OSCAL import playbook now allows you 
     -   **User Mapping**: Automatically map users to existing ServiceNow users based on exact name matches, with the option to manually adjust mappings.
     -   **Group Mapping**: Automatically map groups to existing ServiceNow groups based on exact name matches, with the option to manually adjust mappings.
     -   **Roles and Responsibilities**: Populate relevant package fields with roles and responsibilities.
--   **[Overlay enhancement](https://www.servicenow.com/docs/access?context=prepare-auth-pkg&family=zurich&ft:locale=en-US)**
+
+ -   **[Overlay enhancement](https://www.servicenow.com/docs/access?context=prepare-auth-pkg&family=zurich&ft:locale=en-US)**
 
 Apply policies as an overlay in an authorization package to determine how the control objectives in the policy impact the baseline. This can be done in the following ways:
 
@@ -193,12 +194,17 @@ Zurich
 
 </td><td>
 
--   **[New Authorization Documents tab for ATO reports](https://www.servicenow.com/docs/access?context=prepare-auth-pkg&family=zurich&ft:locale=en-US)**
+-   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+
+ -   **[New Authorization Documents tab for ATO reports](https://www.servicenow.com/docs/access?context=prepare-auth-pkg&family=zurich&ft:locale=en-US)**
 
 Access all Authority to Operate \(ATO\) artifacts reports from the new **Authorization Documents** tab available in the Authorization Package.
 
 
--   **[New CAM System Properties page for administrators](https://www.servicenow.com/docs/access?context=cam-components-installed&family=zurich&ft:locale=en-US)**
+ -   **[New CAM System Properties page for administrators](https://www.servicenow.com/docs/access?context=cam-components-installed&family=zurich&ft:locale=en-US)**
 
 Access the new CAM **System Properties** page to enable administrators to configure various system properties.
 
@@ -288,7 +294,12 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Install CAM by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
+
+**Important:** Continuous Authorization and Monitoring is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 
@@ -296,7 +307,12 @@ Zurich
 
 </td><td>
 
-Install CAM by requesting it from the ServiceNow Store. 
+-   **Activation information**
+
+Install CAM by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
+
+**Important:** CAM is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements

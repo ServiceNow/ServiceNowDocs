@@ -20,7 +20,7 @@ Administrators can enable conversational features by setting up the ServiceNow O
 
 Workplace users can use the ServiceNow Otto Panel-Platform by configuring the ServiceNow Otto for WSD. ServiceNow Otto for Workplace Service Delivery \(WSD\) can be configured to handle queries about reservations, connectors, and utilization. The ServiceNow Otto Panel Platform application provides conversational experiences for Workplace Service Delivery flows.
 
-For more information about, see .
+For more information about, see [ServiceNow Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/now-assist-in-va-landing.md).
 
 ## Before you begin
 

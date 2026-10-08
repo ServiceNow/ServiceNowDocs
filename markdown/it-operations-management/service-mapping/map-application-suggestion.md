@@ -8,7 +8,7 @@ product: Service Mapping
 classification: service-mapping
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [Using Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
 
@@ -25,7 +25,7 @@ Role required: service\_mapping\_admin
 
 ## About this task
 
-In addition to being provided with automatically generated suggestions, you can also identify and choose an application service by using Service Fingerprints suggestions that include information about the components in the application service candidates. For more information, see [Automated Service Suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/auto-serv-suggest.md).
+In addition to being provided with automatically generated suggestions, you can also identify and choose an application service by using Service Fingerprints suggestions. The suggestions include information about the components in the application service candidates. For more information, see [Automated Service Suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/auto-serv-suggest.md).
 
 ## Procedure
 
@@ -37,15 +37,15 @@ In addition to being provided with automatically generated suggestions, you can 
 
 3.  Select an application service either based on candidate suggestions or identify services with desired component.
 
-<table id="sm-auto-sug"><thead><tr><th align="left" id="d488287e158">
+<table id="sm-auto-sug"><thead><tr><th align="left" id="d496544e158">
 
 Search method
 
-</th><th align="left" id="d488287e161">
+</th><th align="left" id="d496544e161">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d488287e167">
+</th></tr></thead><tbody><tr><td id="d496544e167">
 
 **Select from candidates based on a desired component**
 
@@ -56,7 +56,7 @@ Actions
 3.  Select your preferred application service candidate.
 
 
-</td></tr><tr><td id="d488287e194">
+</td></tr><tr><td id="d496544e194">
 
 **Select the candidate using basic details**
 
@@ -82,77 +82,25 @@ Actions
 
 6.  Either create a new application service with the suggested candidate or add the suggested candidate to an existing application service.
 
-<table id="choicetable_mwr_xjr_ycc"><thead><tr><th align="left" id="d488287e283">
+<table id="choicetable_mwr_xjr_ycc"><thead><tr><th align="left" id="d496544e283">
 
 Action
 
-</th><th align="left" id="d488287e286">
+</th><th align="left" id="d496544e286">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d488287e292">
+</th></tr></thead><tbody><tr><td id="d496544e292">
 
 **Create a new application service**
 
 </td><td>
 
 1.  Select **Create new service**.
-2.  On the form, fill in the fields.
+2.  On the form, fill in the fields. For more information, see [Map application service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/map-application-service-form.md).
 
-<table id="table_iyx_5kr_ycc"><thead><tr><th>
 
-Field
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Name
-
-</td><td>
-
-Pre-populated, unique name suggested for the new application service.
-
- Use this name. enter a unique name, or select **Other name suggestions** for additional options. For more information, see [Name suggestions for application service candidates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/app-services-name-suggestions.md).
-
-</td></tr><tr><td>
-
-Number
-
-</td><td>
-
-Pre-populated unique ID for the application service.
-
-</td></tr><tr><td>
-
-Description
-
-</td><td>
-
-Description of the new application service.
-
-</td></tr><tr><td>
-
-Service owner
-
-</td><td>
-
-The user who approves of or rejects any change to the mapped application service.
-
-</td></tr><tr><td>
-
-Service group
-
-</td><td>
-
-A specific application services group to which you want to add this service. The default All setting means the application service is available to all groups.
-
-</td></tr></tbody>
-</table>
-
-</td></tr><tr><td id="d488287e409">
+</td></tr><tr><td id="d496544e320">
 
 **Add a candidate to an existing service**
 

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-servicereliabilitymanagement-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
-reading_time_minutes: 7
+last_updated: "2026-10-08"
+reading_time_minutes: 9
 breadcrumb: [Products combined by family]
 ---
 
@@ -67,7 +67,29 @@ Yokohama
 
 </td><td>
 
--   **[Enhance monitoring for distributed teams with Express List](https://www.servicenow.com/docs/access?context=express-list&family=yokohama&ft:locale=en-US)**
+-   **[Keep teams informed with notification destinations](https://www.servicenow.com/docs/access?context=create-notification-destination&family=yokohama&ft:locale=en-US)**
+
+Starting in version 6.4, send notifications about error budget policy violations to notification destinations. The first supported destination is Microsoft Teams, which lets you post details in specific channels and link back to SRM for further investigation.
+
+-   **[Monitor service reliability in a dashboard](https://www.servicenow.com/docs/access?context=sr-service-dashboard-visualizations&family=yokohama&ft:locale=en-US)**
+
+Starting in version 6.4, use the Service reliability dashboard to monitor and manage service performance. The dashboard offers multiple visualizations to help you track error budgets, monitor SLOs, and identify issues across your services. Starting in version 6.4.1, you can select charts to access further details and use the new SLO table to monitor reliability.
+
+-   **[Customize team approval settings with more flexibility](https://www.servicenow.com/docs/access?context=sr-add-approval-teams&family=yokohama&ft:locale=en-US)**
+
+Starting in version 6.4, customize team governance with more flexibility and less manual effort. You can assign different approval teams for new and existing team requests. The customization options are also fully available in the Service Operations Workspace Admin Center and no longer require manual setup in the Catalog Builder.
+
+
+ -   **[Stay connected and keep services reliable with ITOM Mobile Agent](https://www.servicenow.com/docs/access?context=itom-mobile-landing&family=yokohama&ft:locale=en-US)**
+
+Starting in version 6.3, use ITOM Mobile Agent to access SRM features on iOS and Android devices. With ITOM Mobile Agent, you can track alerts, manage incidents, and work on tasks on the go. You can also manage on-call schedules by checking shifts, requesting time off, and filling gaps.
+
+-   **[Create SLIs on configuration items](https://www.servicenow.com/docs/access?context=sr-create-slo-sli&family=yokohama&ft:locale=en-US)**
+
+Starting in version 6.3, filter an SLI to a specific configuration item within the parent service hierarchy. This feature lets you monitor the individual components of a service, helping you accurately track service health and identify root causes faster.
+
+
+ -   **[Enhance monitoring for distributed teams with Express List](https://www.servicenow.com/docs/access?context=express-list&family=yokohama&ft:locale=en-US)**
 
 Improve monitoring with Express List. Express List replaces the **Alerts** tab and helps distributed SRM teams focus on the services, priorities, or alerts that matter to them.
 
@@ -85,26 +107,6 @@ Define change approval policies to approve updates or modifications in your syst
 
 Manage your services effectively by assigning teams to TSOs. TSOs, which are specific components within a parent technical service, can now be used in the SRM service list. Assigning SRM teams to TSOs helps decentralized teams focus on the services they’re responsible for.
 
--   **[Stay connected and keep services reliable with ITOM Mobile Agent](https://www.servicenow.com/docs/access?context=itom-mobile-landing&family=yokohama&ft:locale=en-US)**
-
-Starting in version 6.3, use ITOM Mobile Agent to access SRM features on iOS and Android devices. With ITOM Mobile Agent, you can track alerts, manage incidents, and work on tasks on the go. You can also manage on-call schedules by checking shifts, requesting time off, and filling gaps.
-
--   **[Create SLIs on configuration items](https://www.servicenow.com/docs/access?context=sr-create-slo-sli&family=yokohama&ft:locale=en-US)**
-
-Starting in version 6.3, filter an SLI to a specific configuration item within the parent service hierarchy. This feature lets you monitor the individual components of a service, helping you accurately track service health and identify root causes faster.
-
--   **[Keep teams informed with notification destinations](https://www.servicenow.com/docs/access?context=create-notification-destination&family=yokohama&ft:locale=en-US)**
-
-Starting in version 6.4, send notifications about error budget policy violations to notification destinations. The first supported destination is Microsoft Teams, which lets you post details in specific channels and link back to SRM for further investigation.
-
--   **[Monitor service reliability in a dashboard](https://www.servicenow.com/docs/access?context=sr-service-dashboard-visualizations&family=yokohama&ft:locale=en-US)**
-
-Starting in version 6.4, use the Service reliability dashboard to monitor and manage service performance. The dashboard offers multiple visualizations to help you track error budgets, monitor SLOs, and identify issues across your services. Starting in version 6.4.1, you can select charts to access further details and use the new SLO table to monitor reliability.
-
--   **[Customize team approval settings with more flexibility](https://www.servicenow.com/docs/access?context=sr-add-approval-teams&family=yokohama&ft:locale=en-US)**
-
-Starting in version 6.4, customize team governance with more flexibility and less manual effort. You can assign different approval teams for new and existing team requests. The customization options are also fully available in the Service Operations Workspace Admin Center and no longer require manual setup in the Catalog Builder.
-
 
 </td></tr><tr><td>
 
@@ -116,7 +118,8 @@ Zurich
 
 Use the SLO creator agent to generate SLOs for your SRM services. This capability is available with the ServiceNow Otto for ITOM plugin. The agent analyzes incidents, alerts, and outage events to automatically create SLOs, helping teams adopt SLOs faster and track service reliability.
 
--   **[Remove a service](https://www.servicenow.com/docs/access?context=sr-remove-service&family=zurich&ft:locale=en-US)**
+
+ -   **[Remove a service](https://www.servicenow.com/docs/access?context=sr-remove-service&family=zurich&ft:locale=en-US)**
 
 Starting in version 6.5.0, remove a service from SRM when you no longer need to track or monitor its reliability. Removing a service clears it from SRM views, including the Service page and Service reliability dashboard. The service remains in the Configuration Management Database \(CMDB\), and you can add it back to SRM at any time.
 
@@ -124,7 +127,8 @@ Starting in version 6.5.0, remove a service from SRM when you no longer need to 
 
 Starting in version 6.5.0, add outage-based SLIs to track real downtime and customer impact. Use them with existing alert-based SLIs for a broader view of reliability. The flow for creating service level objectives \(SLOs\), SLIs, and error budget policies is also improved to simplify setup.
 
--   **[Keep teams informed with notification destinations](https://www.servicenow.com/docs/access?context=create-notification-destination&family=zurich&ft:locale=en-US)**
+
+ -   **[Keep teams informed with notification destinations](https://www.servicenow.com/docs/access?context=create-notification-destination&family=zurich&ft:locale=en-US)**
 
 Send notifications about error budget policy violations to notification destinations. The first supported destination is Microsoft Teams, which lets you post details in specific channels and link back to SRM for further investigation.
 
@@ -156,7 +160,27 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+-   **[New banner for configuring SLIs](https://www.servicenow.com/docs/access?context=sr-create-slo-sli&family=yokohama&ft:locale=en-US)**
+
+Starting in version 6.3, when you set up an SLI, a new information banner shows how many configuration items are associated with your service. To set up an effective SLI for your system, select **View CIs in service map** to see how the service and configuration items relate.
+
+-   **[Service import improvements](https://www.servicenow.com/docs/access?context=sr-add-service&family=yokohama&ft:locale=en-US)**
+
+Starting in version 6.3, the service import flow includes the following updates:
+
+    -   Services owned by others are selectable options in the UI.
+    -   Service suggestions appear in the search box, reducing the need to remember exact service names.
+
+ -   **[Express List](https://www.servicenow.com/docs/access?context=express-list&family=yokohama&ft:locale=en-US)**
+
+The Express List icon \(\[Omitted image "image.express-list1"\] Alt text: Express List icon\) is now in the navigation pane.
+
+-   **[Integrations Launchpad](https://www.servicenow.com/docs/access?context=integrations-launchpad&family=yokohama&ft:locale=en-US)**
+
+The Integrations Launchpad icon \(\[Omitted image "image.integrations-launchpad"\] Alt text: Integrations Launchpad icon\) is now in the navigation pane.
+
+**Note:** Starting in version 6.3, the custom Integrations Launchpad in SRM was replaced with the official Service Operations Workspace version. This change promotes consistency across applications and gives you immediate access to the latest SOW updates.
+
 
 </td></tr><tr><td>
 
@@ -164,7 +188,36 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **[Work notes for SLOs](https://www.servicenow.com/docs/access?context=sr-view-slo&family=zurich&ft:locale=en-US)**
+
+In version 6.6.1, SLOs include work notes on the Details tab. Posted work notes are visible in the Activity panel, providing a unified view of both manual and automated SLO changes.
+
+
+ -   **[Microsoft Teams notification update](https://www.servicenow.com/docs/access?context=srm-notifications-messages&family=zurich&ft:locale=en-US)**
+
+In version 6.5.0, the error budget policy violation notification in Microsoft Teams now includes a button instead of a text link. The new button makes it easier to open the relevant SLO directly in SRM.
+
+-   **[New service class names](https://www.servicenow.com/docs/access?context=sr-work-services&family=zurich&ft:locale=en-US)**
+
+In version 6.5.0, application service and technical service are now called service instance and technology management service. The terminology update aligns with current naming standards.
+
+-   **[Enhanced SLO table view](https://www.servicenow.com/docs/access?context=sr-work-SLI-SLO&family=zurich&ft:locale=en-US)**
+
+In version 6.5.0, the Service level objectives table on the SRM Reliability metrics tab has a new layout, which improves readability and navigation.
+
+-   **[New navigation for Integrations Launchpad and Alert Automation](https://www.servicenow.com/docs/access?context=sr-work-integrations&family=zurich&ft:locale=en-US)**
+
+In version 6.5.0, the icons for Integrations Launchpad and Alert Automation have been removed from the primary navigation. You can now access them under the ITOM Admin Experience icon in the Service Operations Workspace.
+
+-   **[Updated Service reliability dashboard](https://www.servicenow.com/docs/access?context=sr-service-dashboard-visualizations&family=zurich&ft:locale=en-US)**
+
+In version 6.5.0, the High burn rate chart now links to a chart view instead of a list view. The new link helps you better visualize and explore SLO performance.
+
+
+ -   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
 
 </td></tr></tbody>
 </table>## Removed
@@ -185,7 +238,7 @@ Yokohama
 
 </td><td>
 
-The **Alerts** tab has been removed from the Reliability tasks page.
+No updates for this release.
 
 </td></tr><tr><td>
 
@@ -214,7 +267,7 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+The **Alerts** tab has been removed from the Reliability tasks page.
 
 </td></tr><tr><td>
 
@@ -243,7 +296,12 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Install SRM or ITOM Mobile Agent by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
+
+**Important:** SRM is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 
@@ -251,7 +309,12 @@ Zurich
 
 </td><td>
 
-Install SRM or ITOM Mobile Agent by requesting it from the ServiceNow Store. 
+-   **Activation information**
+
+Install SRM or ITOM Mobile Agent by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
+
+**Important:** SRM is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -338,7 +401,11 @@ Zurich
 
 </td><td>
 
--   ****
+-   **Accessibility information**
+    -   **Dark theme**
+
+The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
 
 </td></tr></tbody>
 </table>## Localization information

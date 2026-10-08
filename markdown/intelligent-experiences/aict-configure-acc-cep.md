@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2026-08-27"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI, Agent Client Collector, ACC, control enforcement point, Policies]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, Agent Client Collector, ACC, control enforcement point, Policies]
 breadcrumb: [Configuring security connections, Configuring integrations, Configure, AI Control Tower, Enable AI experiences]
 ---
 

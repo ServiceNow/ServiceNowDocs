@@ -1,5 +1,5 @@
 ---
-title: Release documents to the requester in Information Request Playbook
+title: Release documents to the requester in Information Request Administration
 description: Complete the Decision stage as your last step to release documents to the requester.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/psds-irplaybook-complete-decision-stage.html
@@ -7,10 +7,10 @@ release: zurich
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Information Request Playbook, Playbooks and solutions, Use, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Information Request Administration, Playbooks and solutions, Use, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Release documents to the requester in Information Request Playbook
+# Release documents to the requester in Information Request Administration
 
 Complete the Decision stage as your last step to release documents to the requester.
 

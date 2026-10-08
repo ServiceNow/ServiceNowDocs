@@ -7,7 +7,7 @@ release: zurich
 topic_type: concept
 last_updated: "2026-07-01"
 reading_time_minutes: 4
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Use, Build Agent, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
 ---
 
@@ -15,15 +15,13 @@ breadcrumb: [Use, Build Agent, Agentic development on the ServiceNow AI Platform
 
 When you work with Build Agent, your changes are automatically tracked in update sets so you can review, revert, and deploy them without leaving ServiceNow Studio.
 
-Build Agent tracks every change it makes to your application in update sets. Changes from each checkpoint in a conversation are captured together in a single update set. You can access, review, and open those update sets directly from the Build Agent chat panel and the Current Changes List \(CCL\) page in ServiceNow Studio, without navigating to the platform.
+Build Agent tracks every change it makes to your application in update sets. Changes from each checkpoint in a conversation are captured together in a single update set. You can access, review, and open the update sets directly from the Build Agent chat panel. You can also open the update sets from the Current Changes List \(CCL\) page in ServiceNow Studio, without navigating to the platform.
 
 **Note:** Your instance must be on Zurich Patch 10 or later to work with update sets in Build Agent.
 
 Update sets use descriptive names to help identify what each update set contains. Names follow this pattern: *application-name* `build agent install 1`, `build agent install 2`, and so on.
 
-After Build Agent creates a checkpoint, it automatically opens a manual edit checkpoint that captures any changes you make directly to your application outside of Build Agent. These manual edits are tracked in a separate update set named `manual edit 1`, `manual edit 2`, and so on.
-
-For general information about update sets on the ServiceNow AI Platform, see [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/system-update-sets/system-update-sets.md).
+For general information about update sets on the ServiceNow AI Platform, see [System update sets]().
 
 ## How Build Agent tracks changes
 
@@ -31,7 +29,7 @@ Starting with Zurich Patch 11, Build Agent automatically captures changes in a u
 
 Build Agent automatically captures changes to the app and metadata that you're working on.
 
-A checkpoint is created automatically after you approve each task plan. When Build Agent reaches a checkpoint, the changes associated with that checkpoint are captured in the update set. You can view and open the relevant update set directly from each checkpoint in the chat panel. For more information on checkpoints, see [Build Agent checkpoints and conversation change log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ba-conversational-change-log.md).
+A checkpoint is created automatically after you approve each task plan. When Build Agent reaches a checkpoint, the changes associated with that checkpoint are captured in the update set. You can view and open the relevant update set directly from each checkpoint in the chat panel. For more information on checkpoints, see [Checkpoints and conversation change log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ba-conversational-change-log.md).
 
 When Build Agent prepares to create the next checkpoint, it checks whether any changes exist in the manual edit update set. If no changes are present, Build Agent removes the update set. If changes exist, Build Agent completes the update set and renders it with the other update sets from your conversation. You can access manual edit update sets directly from the checkpoints panel in your Build Agent conversation.
 
@@ -52,7 +50,7 @@ You can access update sets created during a Build Agent session from two locatio
 
 ## Revert changes using checkpoints
 
-You can revert your application to any previous checkpoint during a Build Agent session. For more information about checkpoints and how to restore a previous state, see [Build Agent checkpoints and conversation change log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ba-conversational-change-log.md).
+You can revert your application to any previous checkpoint during a Build Agent session. For more information about checkpoints and how to restore a previous state, see [Checkpoints and conversation change log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ba-conversational-change-log.md).
 
 ## Deploy update sets
 

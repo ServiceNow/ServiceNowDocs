@@ -171,7 +171,7 @@ Depending on the selected scan method for the audit record, you can scan the ass
 
 [Domain separation and Enterprise Asset Management]()
 
-[Enterprise Asset Management roles]()
+[Components installed with Enterprise Asset Management]()
 
 [OT Asset Workspace roles]()
 

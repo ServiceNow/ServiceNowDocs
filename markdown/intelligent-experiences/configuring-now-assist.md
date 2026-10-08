@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/configuring-now-assist.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [Configuring, Now Assist Admin, console, ServiceNow AI Platform, GenAI, Generative AI]
 breadcrumb: [Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
@@ -15,7 +15,7 @@ breadcrumb: [Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
 
 The AI Admin Hub console provides quick and effortless access to the important information that you need to set up, configure, and monitor ServiceNow Otto applications and features.
 
-x\[Omitted video\] Description: Now Assist Admin overview
+x\[Omitted video\] Description: ServiceNow Otto Admin overview
 
 ## AI Admin Hub overview tab
 

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-nextexperience-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
-reading_time_minutes: 6
+last_updated: "2026-10-08"
+reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
 
@@ -130,7 +130,19 @@ Yokohama
 
 </td><td>
 
--   **[Next Experience preferences](https://www.servicenow.com/docs/access?context=set-up-preferences-next-experience&family=yokohama&ft:locale=en-US)**
+-   **[Enable keyboard focus on truncated text user preference](https://www.servicenow.com/docs/access?context=next-experience-accessibility-preferences&family=yokohama&ft:locale=en-US)**
+
+The "Enable keyboard focus on truncated text" user preference has been updated to "Enable keyboard focus on text that displays a tooltip."
+
+-   **[Improved keyboard shortcut modal](https://www.servicenow.com/docs/access?context=using-the-next-experience-global-header&family=yokohama&ft:locale=en-US)**
+
+The keyboard shortcut menu has improved usability in the following ways:
+
+    -   The modal now includes two columns that include the keyboard shortcut and a description with a scrollable list of available shortcuts on the viewed page.
+    -   A search field enables you to search for shortcuts that are relevant to the page you’re viewing.
+    -   A **Close** button enables you to easily close the modal.
+
+ -   **[Next Experience preferences](https://www.servicenow.com/docs/access?context=set-up-preferences-next-experience&family=yokohama&ft:locale=en-US)**
 
 The new user preference panel provides a more efficient, streamlined way for you to work. Use the new search bar to locate your preferences. A wider modal displays all preference groups and when you select a group, all the individual preferences that are related to it appear in the same window.
 
@@ -143,7 +155,14 @@ Zurich
 
 -   **[Now Assist &gt; ServiceNow Otto® announcement](https://www.servicenow.com/docs/access?context=sn-ai-implementation-landing&family=zurich&ft:locale=en-US)**
 
-Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+
+
+ -   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+For existing customers who upgrade to Zurich, use [Theme Builder to publish Coral theme to your instance](https://www.servicenow.com/docs/access?context=tb-apply-theme&family=zurich&ft:locale=en-US) or [add Coral theme to the Next Experience UX Parent App Theme table](https://www.servicenow.com/docs/access?context=configure-presentation-order-of-themes&family=zurich&ft:locale=en-US). Once enabled by a system administrator, Coral is available for [selection in the user's Theme preference](https://www.servicenow.com/docs/access?context=select-a-theme-in-next-experience&family=zurich&ft:locale=en-US).
 
 
 </td></tr></tbody>
@@ -223,9 +242,12 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Next Experience is a ServiceNow AI Platform feature that is active by default when the user loads or upgrades to the Yokohama release. If there are known problems with turning on Next Experience on an instance, an opt-out system property can be created prior to upgrade.
 
- Theme Builder comes with the Next Experience and is active by default.
+Theme Builder comes with the Next Experience and is active by default.
+
 
 </td></tr><tr><td>
 
@@ -233,9 +255,12 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Next Experience is a ServiceNow AI Platform feature that is active by default when the user loads or upgrades to the Zurich release. If there are known problems with turning on Next Experience on an instance, an opt-out system property can be created before upgrade.
 
- Theme Builder comes with the Next Experience and is active by default.
+Theme Builder comes with the Next Experience and is active by default.
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -285,7 +310,10 @@ Yokohama
 
 </td><td>
 
+-   **Browser requirements**
+
 The Yokohama release doesn't support Internet Explorer 11. The iOS version of Firefox is also not supported.
+
 
 </td></tr><tr><td>
 
@@ -293,7 +321,10 @@ Zurich
 
 </td><td>
 
+-   **Browser requirements**
+
 The Zurich release doesn't support Internet Explorer 11. The iOS version of Firefox is also not supported.
+
 
 </td></tr></tbody>
 </table>## Accessibility information
@@ -314,11 +345,12 @@ Yokohama
 
 </td><td>
 
--   **[Customize Next Experience keyboard shortcuts](https://www.servicenow.com/docs/access?context=customize-keyboard-shortcuts&family=yokohama&ft:locale=en-US)**
+-   **Accessibility information**
+    -   **[Customize Next Experience keyboard shortcuts](https://www.servicenow.com/docs/access?context=customize-keyboard-shortcuts&family=yokohama&ft:locale=en-US)**
 
 Create your own keyboard shortcuts for frequently used actions.
 
--   **[Next Experience keyboard shortcuts](https://www.servicenow.com/docs/access?context=next-experience-keyboard-shortcuts&family=yokohama&ft:locale=en-US)**
+    -   **[Next Experience keyboard shortcuts](https://www.servicenow.com/docs/access?context=next-experience-keyboard-shortcuts&family=yokohama&ft:locale=en-US)**
 
 **Keyboard shortcuts categorized**: Keyboard shortcuts for each page are now organized into categories: Page Action, Page Navigation, Global Navigation, and General.
 
@@ -326,7 +358,7 @@ Create your own keyboard shortcuts for frequently used actions.
 
 **Accessibility improvements for keyboard interactions**: Use the right and left arrow keys to expand and collapse rows.
 
--   **[Configure Next Experience accessibility preferences](https://www.servicenow.com/docs/access?context=next-experience-accessibility-preferences&family=yokohama&ft:locale=en-US)**
+    -   **[Configure Next Experience accessibility preferences](https://www.servicenow.com/docs/access?context=next-experience-accessibility-preferences&family=yokohama&ft:locale=en-US)**
 
 **Voice input for Now Assist**
 
@@ -343,15 +375,16 @@ Zurich
 
 </td><td>
 
--   **Dark theme**
+-   **Accessibility information**
+    -   **Dark theme**
 
 The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
 
--   **[New Accessibility preference added for page alerts](https://www.servicenow.com/docs/access?context=next-experience-accessibility-preferences&family=zurich&ft:locale=en-US)**
+    -   **[New Accessibility preference added for page alerts](https://www.servicenow.com/docs/access?context=next-experience-accessibility-preferences&family=zurich&ft:locale=en-US)**
 
 Turn on the **Do not auto-dismiss page alerts** preference to keep page alerts visible until you manually close them.
 
--   **[New Workspace preference added to enhance screen reader output for your Workspace pages](https://www.servicenow.com/docs/access?context=next-experience-workspace-preferences&family=zurich&ft:locale=en-US)**
+    -   **[New Workspace preference added to enhance screen reader output for your Workspace pages](https://www.servicenow.com/docs/access?context=next-experience-workspace-preferences&family=zurich&ft:locale=en-US)**
 
 A new Workspace preference lets you turn off lazy loading for workspace pages. When you turn off lazy loading, the entire page loads at once. This action improves compatibility with screen readers and provides a more consistent and reliable reading experience.
 

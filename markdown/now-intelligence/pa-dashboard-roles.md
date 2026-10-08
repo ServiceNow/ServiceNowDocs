@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/pa-dash
 release: zurich
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 3
+reading_time_minutes: 5
 breadcrumb: [Reference, Dashboards, Platform Analytics experience, Platform Analytics]
 ---
 
@@ -24,7 +24,65 @@ Users with the analytics\_categories\_admin role can create, edit, or delete das
 
 For a full guide to roles connected to Platform Analytics dashboards, see [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/platform-analytics-roles.md).
 
-<table id="table_d1r_2vc_k2c"><thead><tr><th>
+<table id="table_u4x_4xv_5kc"><thead><tr><th>
+
+Role
+
+</th><th>
+
+Use case
+
+</th></tr></thead><tbody><tr><td>
+
+Any role
+
+</td><td>
+
+-   Create a dashboard
+-   Edit a dashboard that you own or that was shared with you with editing rights. Technical dashboards also require ui\_builder\_admin.
+-   Share a dashboard that you own or that was shared with you with sharing rights
+-   Duplicate a dashboard, if you have viewing rights
+-   Create a printer-friendly copy of a dashboard, if you have viewing rights
+-   Export a dashboard, if you have viewing rights
+-   Bookmark a dashboard, if you have viewing rights
+-   Delete a dashboard, if you own it
+-   [Configure dashboard details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/config-db-in-ac.md), if you own the dashboard or had it shared with you with editing rights
+-   [Configure dashboard settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/configure-ac-db-settings.md) except scheduled refreshes, if you own the dashboard or had it shared with you with editing rights
+-   [Assign categories to a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/db-categories.md) if you have editing rights to the dashboard
+
+</td></tr><tr><td>
+
+dashboard\_admin
+
+</td><td>
+
+-   Share any dashboard
+-   Edit any dashboard. Technical dashboards also require ui\_builder\_admin.
+-   Delete any dashboard
+-   [Configure dashboard details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/config-db-in-ac.md) for any dashboard
+-   [Configure dashboard settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/configure-ac-db-settings.md) for any dashboard
+-   [Schedule dashboard refreshes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/configure-ac-db-settings.md)
+
+</td></tr><tr><td>
+
+sn\_par\_sche\_export.par\_scheduler\_admin \(contained in dashboard\_admin\)
+
+</td><td>
+
+-   Schedule the export of a dashboard
+-   Delete a schedule to export a dashboard
+
+</td></tr><tr><td>
+
+analytics\_category\_admin
+
+</td><td>
+
+-   [Create dashboard categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/db-categories.md)
+-   [Assign categories to any dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/db-categories.md)
+
+</td></tr></tbody>
+</table><table id="table_d1r_2vc_k2c"><thead><tr><th>
 
 Use case
 
@@ -46,7 +104,7 @@ Share a dashboard
 
 </td><td>
 
-Any role to share a data visualization that you created or that was shared with you with sharing rights. With the viz\_admin role or higher, you can share any data visualization on the instance. When you share a data visualization, you can pass along the rights to share that visualization further. You also decide whether to share with editing rights or only viewing rights. If a data visualization has been shared with you with sharing and editing rights, you can also pass along editing rights.dashboard\_admin to share any dashboard
+Any role to share a dashboard that you own or that was shared with you with sharing rights. With the viz\_admin role or higher, you can share any dashboard on the instance. When you share a dashboard, you can pass along the rights to share that dashboard further. You also decide whether to share with editing rights or only viewing rights. If a dashboard has been shared with you with sharing and editing rights, you can also pass along editing rights.dashboard\_admin to share any dashboard
 
 A role with read access to the Roles \[sys\_user\_role\] table to share with roles
 
@@ -56,7 +114,7 @@ Edit a dashboard
 
 </td><td>
 
-Any role, if you created the dashboard or have had it shared with you with editing rights.dashboard\_admin or higher for any dashboard
+Any role, if you own the dashboard or have had it shared with you with editing rights.dashboard\_admin or higher for any dashboard
 
 Technical dashboards also require ui\_builder\_admin
 
@@ -90,7 +148,7 @@ Schedule the export of a dashboard
 
 </td><td>
 
-par\_scheduler for dashboards that you own or that have been shared with you.dashboard\_admin or higher for any dashboard
+par\_scheduler for dashboards that you own or that have been shared with you.sn\_par\_sche\_export.par\_scheduler\_admin \(contained in dashboard\_admin\) or higher for any dashboard
 
 </td></tr><tr><td>
 
@@ -114,7 +172,7 @@ Delete a dashboard
 
 </td><td>
 
-Any role, if you created the dashboard.dashboard\_admin or higher for any dashboard
+Any role, if you own the dashboard.dashboard\_admin or higher for any dashboard
 
 </td></tr><tr><td>
 
@@ -122,7 +180,7 @@ Any role, if you created the dashboard.dashboard\_admin or higher for any dashbo
 
 </td><td>
 
-Any role, if you created the dashboard or have had it shared with you with editing rights.dashboard\_admin or higher for any dashboard
+Any role, if you own the dashboard or have had it shared with you with editing rights.dashboard\_admin or higher for any dashboard
 
 </td></tr><tr><td>
 
@@ -130,7 +188,7 @@ Any role, if you created the dashboard or have had it shared with you with editi
 
 </td><td>
 
-Any role, if you created the dashboard or have had it shared with you with editing rights.dashboard\_admin or higher for any dashboard
+Any role, if you own the dashboard or have had it shared with you with editing rights.dashboard\_admin or higher for any dashboard
 
 </td></tr><tr><td>
 

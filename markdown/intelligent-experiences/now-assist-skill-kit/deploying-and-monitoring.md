@@ -7,7 +7,7 @@ release: zurich
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [General guidelines for AI Skill Kit, Exploring AI Skill Kit, AI Skill Kit, Enable AI experiences]
 ---
@@ -16,12 +16,12 @@ breadcrumb: [General guidelines for AI Skill Kit, Exploring AI Skill Kit, AI Ski
 
 After you evaluate the prompt, you can deploy the custom skill and monitor its effectiveness.
 
-## AI Skill Kit deployment and monitoring overview
+## AI Skill Kit deployment and monitoring
 
-You should build and evaluate the skill in a subproduction instance. After you’re satisfied with the final performance evaluation on a batch of test data in subproduction, you can begin to move a skill toward deployment.
+Build and evaluate the skill in a non-production instance. After you’re satisfied with the final performance evaluation on a batch of test data in the non-production instance, you can begin to move a skill toward deployment.
 
-1.  Identify the touch points where the skills can be surfaced to be available for the end user. Configure the deployment settings accordingly.
-2.  Perform end-to-end user testing in subproduction for a while and with different users and inputs.
+1.  Identify where the skill should be available to end users. Configure the deployment settings accordingly.
+2.  Perform end-to-end user testing in the non-production instance with different users and inputs.
 3.  After the results are acceptable, deploy the skill to the production instance.
 4.  Monitor the skill.
 

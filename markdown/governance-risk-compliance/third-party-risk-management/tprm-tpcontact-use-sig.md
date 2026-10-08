@@ -7,7 +7,7 @@ release: zurich
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using the SIG questionnaire for a risk assessment, Manage the third-party portal, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -40,15 +40,15 @@ If you upload a version prior to the earliest supported SIG, all responses for m
 
 2.  Upload a completed questionnaire or complete the questionnaire.
 
-<table id="choicetable_fqs_r3c_jfb"><thead><tr><th align="left" id="d108707e92">
+<table id="choicetable_fqs_r3c_jfb"><thead><tr><th align="left" id="d112251e92">
 
 Action
 
-</th><th align="left" id="d108707e95">
+</th><th align="left" id="d112251e95">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d108707e101">
+</th></tr></thead><tbody><tr><td id="d112251e101">
 
 **Upload a completed SIG questionnaire**
 
@@ -58,7 +58,7 @@ Select **Import**, navigate to the file, and then select **Open**.
 
  \[Omitted image "import-sig.png"\] Alt text: Import SIG questionnaire widget.
 
-</td></tr><tr><td id="d108707e135">
+</td></tr><tr><td id="d112251e135">
 
 **Complete the questionnaire**
 
@@ -78,4 +78,6 @@ Select the questionnaire and fill it out.
 [Managing the Third-party portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/vendor-portal.md)
 
 [Using the SIG questionnaire for a risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-sig-use-and-support.md)
+
+[Respond to a questionnaire in the third-party portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-portal-respond-questionnaire.md)
 

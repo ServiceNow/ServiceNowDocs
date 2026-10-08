@@ -1,6 +1,6 @@
 ---
 title: Configure a service account
-description: Create a service account to bind the API token that is used by the Service Graph Connector for Tanium Endpoints. If a service account for the integration already exists, edit it to assign the required roles.
+description: Create a service account to bind the API token that is used by the Service Graph Connector for Tanium Atlas Endpoints. If a service account for the integration already exists, edit it to assign the required roles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-graph-connectors/sgc-tanium-endpoints-configure-service-account.html
 release: zurich
@@ -9,12 +9,12 @@ classification: service-graph-connectors
 topic_type: task
 last_updated: "2026-06-08"
 reading_time_minutes: 1
-breadcrumb: [Configure the Tanium environment, Tanium Endpoints, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Configure the Tanium environment, Tanium Atlas Endpoints, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Configure a service account
 
-Create a service account to bind the API token that is used by the Service Graph Connector for Tanium Endpoints. If a service account for the integration already exists, edit it to assign the required roles.
+Create a service account to bind the API token that is used by the Service Graph Connector for Tanium Atlas Endpoints. If a service account for the integration already exists, edit it to assign the required roles.
 
 ## Before you begin
 

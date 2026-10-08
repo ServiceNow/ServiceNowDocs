@@ -54,8 +54,6 @@ The following diagram shows how the REST API processes user input from a third-p
 
 \[Omitted image "va-api-steps.png"\] Alt text: Diagram that shows how the REST endpoints in the Virtual Agent API handle user input and authentication and bot response and authentication.
 
-To see a demonstration of the Virtual Agent API, see [Getting Started with Virtual Agent APIs](https://community.servicenow.com/community?id=community_article&sys_id=080e3903dbc4e4107d3e02d5ca96198c) on the Community site.
-
 ## Limitations
 
 The Virtual Agent API does not support the following features:

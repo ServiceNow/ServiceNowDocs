@@ -24,7 +24,7 @@ Task configurations define how to-do items display and function across employee 
 You can customize task configurations in two ways:
 
 -   **Scope configurations by experience**: Use the **Applies to** field to control which experience uses a task configuration. You can scope configurations to Employee Center, EmployeeWorks Web App, or both. When set to **All**, you configure both Angular and AIX widgets for each platform. When scoped to a single platform, only the relevant widget fields appear.
--   **Build custom action widgets**: Use the **Action** tab to configure custom LIT-based action widgets for task types. Custom action widget provides an alternative to the out-of-the-box action group. The **AIX action widget** field accepts LIT-based widgets that embed custom Angular widgets for task-specific actions.
+-   **Build custom action widgets**: Use the **Action** tab to configure custom LIT-based action widgets for task types. Custom action widget provides an alternative to the default action group. The **AIX action widget** field accepts LIT-based widgets that embed custom Angular widgets for task-specific actions.
 
 For more information, see [Configure task scope and action widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/empworks-configure-action-widget.md).
 
@@ -32,7 +32,7 @@ For more information, see [Configure task scope and action widget](https://raw.g
 
 Use custom Now Assist skills to provide task-specific AI insights in the Ticket Details widget. You can configure skills in two ways:
 
--   **Select a preconfigured skill**: Configure different skills for each task type to deliver contextual insights such as policy compliance checks, field-level analysis, or balance summaries.
+-   **Select a preconfigured skill**: Configure different skills for each task type to deliver contextual insights such as policy conformance checks, field-level analysis, or balance summaries.
 -   **Use custom scripts**: Add custom scripts to preprocess data before skill invocation. You can fetch additional context, enrich records, and format output before AI insights generate. Custom scripts enable integration with external systems such as Workday or Concur to retrieve relevant data for approval tasks.
 
 For more information, see [Configure a custom AI insights skill for a task type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/empworks-configure-ai-insights-skill.md).

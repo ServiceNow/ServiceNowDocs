@@ -9,7 +9,7 @@ classification: change-management
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Analyze change request risk and impact rating, Reference, Change Management, IT Service Management]
+breadcrumb: [Analyze change request risk and impact, Reference, Change Management, IT Service Management]
 ---
 
 # Risk conditions and calculation
@@ -23,5 +23,5 @@ The Change Management - Change Risk Calculator plugin enables dynamic calculatio
 -   **[Add or modify risk and impact conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/define-risk-and-impact-conditions.md)**  
 You can define risk calculation rules on which the risk and impact of a change are calculated. Change Management - Change Risk Calculator is activated by default in the base system.
 
-**Parent Topic:**[Analyze change request risk and impact rating](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/change-risk-conflict-analysis.md)
+**Parent Topic:**[Analyze change request risk and impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/change-risk-conflict-analysis.md)
 

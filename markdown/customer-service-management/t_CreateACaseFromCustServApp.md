@@ -24,15 +24,15 @@ Role required: sn\_customerservice\_agent, sn\_customerservice\_manager, or admi
 
 1.  Create a case.
 
-<table id="choicetable_dw2_1w3_3kb"><thead><tr><th align="left" id="d219310e74">
+<table id="choicetable_dw2_1w3_3kb"><thead><tr><th align="left" id="d221586e74">
 
 Option
 
-</th><th align="left" id="d219310e77">
+</th><th align="left" id="d221586e77">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d219310e83">
+</th></tr></thead><tbody><tr><td id="d221586e83">
 
 **CRM Workspace**
 
@@ -40,7 +40,7 @@ Description
 
 From the Interaction form, select **Create Case**.
 
-</td></tr><tr><td id="d219310e96">
+</td></tr><tr><td id="d221586e96">
 
 **Platform interface**
 

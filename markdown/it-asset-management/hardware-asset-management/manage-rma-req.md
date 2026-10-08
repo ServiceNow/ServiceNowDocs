@@ -8,7 +8,7 @@ product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 5
+reading_time_minutes: 6
 breadcrumb: [Use, Hardware Asset Management, IT Asset Management]
 ---
 
@@ -61,6 +61,8 @@ After you submit an RMA request for a defective asset, you must go through vario
 [Manage the lifecycle of hardware models with calculated lifecycle templates]()
 
 [Create an internal lifecycle in the Hardware Asset Workspace]()
+
+[Calculate the active lifecycle phase for a model]()
 
 [Receive asset warranty details from Lenovo]()
 

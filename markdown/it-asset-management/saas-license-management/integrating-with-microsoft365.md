@@ -1,6 +1,6 @@
 ---
 title: Integrating with Microsoft Dynamics 365 and Power Apps
-description: Integrating your ServiceNow instance with the Microsoft Dynamics 365 and Power Apps service enables you to track your software subscriptions and to reclaim unused licenses.Set up Microsoft Azure Active Directory \(AD\).Set the system-level settings for Microsoft Dynamics 365 and Power Apps.Set up ServiceNow instance for Microsoft Dynamics 365 and Power Apps to track your software subscriptions and to reclaim unused licenses.Evaluating the software usage activity of Microsoft Dynamics 365 subscriptions helps you monitor license usage, optimize license allocation, and potentially reduce costs for the assigned licenses. Software usage activity refers to how software products are being used.
+description: Integrating your ServiceNow instance with the Microsoft Dynamics 365 and Power Apps service enables you to track your software subscriptions and to reclaim unused licenses.Set up Microsoft Azure Active Directory \(AD\).Set the system-level settings for Microsoft Dynamics 365 and Power Apps.Create a custom role in the Power Platform admin center that grants only the privileges required by the Microsoft Dynamics 365 and Power Apps integration. You can use this custom role for the minimum permissions instead of using the Dynamics 365 administrator role.Set up ServiceNow instance for Microsoft Dynamics 365 and Power Apps to track your software subscriptions and to reclaim unused licenses.Evaluating the software usage activity of Microsoft Dynamics 365 subscriptions helps you monitor license usage, optimize license allocation, and potentially reduce costs for the assigned licenses. Software usage activity refers to how software products are being used.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/saas-license-management/integrating-with-microsoft365.html
 release: zurich
@@ -8,7 +8,7 @@ product: SaaS License Management
 classification: saas-license-management
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 10
+reading_time_minutes: 12
 breadcrumb: [Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management]
 ---
 
@@ -37,11 +37,19 @@ Process
 
 </th><th>
 
-Required user role in the Microsoft Dynamics 365 and Power Apps application
+Required user role in Microsoft Dynamics 365 and Power Apps for Delegated permissions
 
 </th><th>
 
-Authentication scopes
+Authentication scopes for Delegated permissions
+
+</th><th>
+
+Required user role in Microsoft Dynamics 365 and Power Apps for Application permissions
+
+</th><th>
+
+Authentication scopes for Application permissions
 
 </th></tr></thead><tbody><tr><td>
 
@@ -56,17 +64,34 @@ Global Reader
 -   LicenseAssignment.Read.All
 -   User.Read.All
 
+</td><td>
+
+Application developer
+
+</td><td>
+
+-   LicenseAssignment.Read.All
+-   User.Read.All
+
 </td></tr><tr><td>
 
 Pull user activity
 
 </td><td>
 
-Dynamics 365 administrator
+Dynamics 365 administrator, or a custom security roleFor details, see [Create a custom security role for the Microsoft Dynamics 365 integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/saas-license-management/integrating-with-microsoft365.md).
 
 </td><td>
 
 user\_impersonation
+
+</td><td>
+
+Not supported by Microsoft
+
+</td><td>
+
+Not supported by Microsoft
 
 </td></tr></tbody>
 </table>## Set up Microsoft Azure Active Directory
@@ -188,6 +213,54 @@ Role required: admin
 10. Select **OK**.
 
 
+## Create a custom security role for the Microsoft Dynamics 365 integration
+
+Create a custom role in the Power Platform admin center that grants only the privileges required by the Microsoft Dynamics 365 and Power Apps integration. You can use this custom role for the minimum permissions instead of using the Dynamics 365 administrator role.
+
+### Before you begin
+
+Role required: Global administrator
+
+### About this task
+
+The Microsoft Dynamics 365 and Power Apps integration requires read access to user, activity, and metadata tables to pull user activity data. Rather than assigning the Dynamics 365 administrator role, you can create a custom security role with only these privileges.
+
+### Procedure
+
+1.  Log in to the Power Platform admin center.
+
+2.  Under **Environments**, select the environment that you want to integrate with your ServiceNow instance.
+
+3.  Select **Settings**.
+
+4.  Under **Users + permissions**, select **Security roles**.
+
+5.  Select **New role**.
+
+6.  Enter a name for the security role.
+
+    For example, SaaSIntegrationDynamics.
+
+7.  On the Tables tab, assign the following table privileges.
+
+    |Table|Name|Record ownership|Read|
+    |-----|----|----------------|----|
+    |User|systemuser|Business Unit|Organization|
+    |Activity|activitypointer|User or Team|Organization|
+    |SharePoint Document|sharepointdocument|User or Team|Organization|
+    |Attribute|attribute|None|Organization|
+    |Entity|entity|None|Organization|
+    |Relationship Entity|relationship|None|Organization|
+
+    **Note:** The integration requires read access only, so you set the Create, Write, and Delete privileges to None for all tables.
+
+8.  On the Miscellaneous privileges tab, assign the View Audit Summary privilege \(prvReadAuditSummary\) at the Organization level.
+
+
+### What to do next
+
+Assign the custom security role to the user account with which the Microsoft Dynamics 365 and Power Apps integration authenticates.
+
 ## Set up ServiceNow instance for Microsoft Dynamics 365 and Power Apps
 
 Set up ServiceNow instance for Microsoft Dynamics 365 and Power Apps to track your software subscriptions and to reclaim unused licenses.
@@ -206,15 +279,15 @@ If you’re using Software Asset Workspace, the option to create the Microsoft D
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d134124e712">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d134896e1037">
 
 Interface
 
-</th><th align="left" id="d134124e715">
+</th><th align="left" id="d134896e1040">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d134124e721">
+</th></tr></thead><tbody><tr><td id="d134896e1046">
 
 **Core UI**
 
@@ -225,7 +298,7 @@ Action
 3.  Select **Microsoft Dynamics 365 and Power Apps Integration Profile**.
 
 
-</td></tr><tr><td id="d134124e763">
+</td></tr><tr><td id="d134896e1088">
 
 **Software Asset Workspace**
 

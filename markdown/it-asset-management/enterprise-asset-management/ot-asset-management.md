@@ -16,7 +16,7 @@ breadcrumb: [Explore, Enterprise Asset Management, IT Asset Management]
 
 Operational Technology \(OT\) Asset Management is a specialized offering within the suite of Enterprise Asset Management solutions for managing Operational Technology \(OT\) and Operational Equipment \(OE\) assets. With OT Asset Management, you can effectively manage the lifecycle of OT and OE assets.
 
-OT Asset Management is a licensable application that helps you to manage assets of the Industrial model category for Operational Technology. The OT Asset Management \(com.sn\_otam\) application is available on the ServiceNow Store. When this application is installed on your ServiceNow instance, the Enterprise Asset Management application also gets installed. For more information, see [Install OT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/install-otam.md).
+OT Asset Management is a licensable application that helps you to manage assets of the Industrial model category for Operational Technology. The OT Asset Management \(com.sn\_otam\) application is available on the ServiceNow Store. When this application is installed on your ServiceNow instance, the Enterprise Asset Management application also gets installed. For more information, see [Install OT Asset Management from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/install-otam.md).
 
 The OT Asset Management application provides the functionalities, features, and workflows of Enterprise Asset Management that support roles related to Operational Technology.
 

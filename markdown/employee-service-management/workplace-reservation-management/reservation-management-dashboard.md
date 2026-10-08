@@ -7,7 +7,7 @@ release: zurich
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-09"
 reading_time_minutes: 1
 breadcrumb: [Analytics and reporting, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -16,11 +16,9 @@ breadcrumb: [Analytics and reporting, Workplace Reservation Management, Workplac
 
 Use the Reservation Management dashboard to monitor the reservations and meeting frequency in your organization. On any day, you can view details such as number of reservations, peak meeting times, and number of meetings for different locations.
 
-**Note:** The Workplace Reservation Management dashboard is migrated to Workplace Central. You can start using the migrated dashboards from Workplace Central. The out-of-the-box dashboards are also migrated to Workplace Central.
+**Note:** The Workplace Reservation Management dashboard is migrated to Workplace Central. You can start using the migrated dashboards from Workplace Central. The dashboards are also migrated to Workplace Central.
 
-Old dashboards are not supported for new Workplace Service Delivery customers. For existing customers, old dashboards are currently available but will be deprecated soon.
-
-For more information about the migrated dashboard, see [Reservation Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-reservation-management/reservation-management-dashboard.md).
+Old dashboards aren't supported for new Workplace Service Delivery users. For existing users, old dashboards are currently available but these are going to be deprecated soon.
 
 \[Omitted image "reservation-management-dashboard.png"\] Alt text: Reservation Management dashboard
 

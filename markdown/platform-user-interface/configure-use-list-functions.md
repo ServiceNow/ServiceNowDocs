@@ -68,7 +68,7 @@ To sort a list, use one of the following methods:
 
 [Choice lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/c_ChoiceLists.md)
 
-[bundle-platadm.c_IntValsForDfltChoiceList]
+[Integer values for default choice lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/c_IntValsForDfltChoiceList.md)
 
 ## Configure field status indicators
 

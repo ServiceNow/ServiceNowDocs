@@ -7,8 +7,8 @@ release: zurich
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Use digital resilience third-party registers, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
 
@@ -25,6 +25,8 @@ Role required: sn\_vdr\_risk\_asmt.vendor\_risk\_admin
 Only DORA administrators can view the **Upload** option and perform this task.
 
 **Note:** Annual expense data is used during report generation for conversion and aggregation. Confirm that currencies and annual expense fields are accurate to avoid conversion failures or skipped aggregation.
+
+**Note:** When uploading Legal entity, Branch, Third party, or Third-party engagement records that include LEI codes, LEI codes are batch-validated against the GLEIF database before rows are processed. The **Save rows with LEI GLEIF errors during Excel upload** system property controls whether rows with GLEIF data failures are saved or blocked. Format and checksum failures always block rows regardless of this setting. For more information, see [Validate Legal Entity Identifier codes for DORA reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-valid-lei.md).
 
 ## Procedure
 

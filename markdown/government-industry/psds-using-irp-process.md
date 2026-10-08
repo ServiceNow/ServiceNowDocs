@@ -1,18 +1,18 @@
 ---
-title: Process requested documents using the Information Request Playbook
-description: Complete the Process stage as your third step in resolving a case using the Information Request Playbook.Upload the documents.Request approval.As a legal reviewer, you can redact sensitive data from PDF documents by either searching keywords or selecting text in Information Request Playbook.
+title: Process requested documents using the Information Request Administration
+description: Complete the Process stage as your third step in resolving a case using the Information Request Administration.Upload the documents.Request approval.As a legal reviewer, you can redact sensitive data from PDF documents by either searching keywords or selecting text in Information Request Administration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/psds-using-irp-process.html
 release: zurich
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 3
-breadcrumb: [Information Request Playbook, Playbooks and solutions, Use, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Information Request Administration, Playbooks and solutions, Use, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Process requested documents using the Information Request Playbook
+# Process requested documents using the Information Request Administration
 
-Complete the Process stage as your third step in resolving a case using the Information Request Playbook.
+Complete the Process stage as your third step in resolving a case using the Information Request Administration.
 
 In this stage, you will uploaded and send for review the documents requested by the requester.
 
@@ -45,13 +45,13 @@ Role required: sn\_gsm.constituent\_agent, sn\_gsm.relationship\_agent, sn\_gsm.
 
     A case task is now created and assigned to the Legal Review assignment group for approval. If the uploaded documents are rejected during the legal review, you may need to make changes and request a review again or move the case directly to the Decision stage.
 
-    **Note:** A legal review group must already have been created. For more information on how to configure legal assignment groups for use with Information Request Playbook, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/create-or-edit-assignment-group-psds.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/create-or-edit-assignment-group-psds.md).
+    **Note:** A legal review group must already have been created. For more information on how to configure legal assignment groups for use with Information Request Administration, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/create-or-edit-assignment-group-psds.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/create-or-edit-assignment-group-psds.md).
 
 2.  After the documents have been approved by the legal review group, document the work done in the work notes, then select **Send for Final Review**.
 
     The case is moved to the Final Review activity, where the documents and details of the request are reviewed by the Final Review Team assignment group.
 
-    **Note:** A final review group must already have been created. For more information on how to configure review assignment groups for use with Information Request Playbook, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/create-or-edit-assignment-group-psds.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/create-or-edit-assignment-group-psds.md).
+    **Note:** A final review group must already have been created. For more information on how to configure review assignment groups for use with Information Request Administration, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/create-or-edit-assignment-group-psds.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/create-or-edit-assignment-group-psds.md).
 
 3.  After the documents have been approved by the Final Review Team, document the work done in the work notes and select **Move to Decision**.
 
@@ -62,9 +62,9 @@ Role required: sn\_gsm.constituent\_agent, sn\_gsm.relationship\_agent, sn\_gsm.
 
 Complete the Decision stage, where the documents will be released to the requester.
 
-## Redact sensitive data from a requested document in Information Request Playbook
+## Redact sensitive data from a requested document in Information Request Administration
 
-As a legal reviewer, you can redact sensitive data from PDF documents by either searching keywords or selecting text in Information Request Playbook.
+As a legal reviewer, you can redact sensitive data from PDF documents by either searching keywords or selecting text in Information Request Administration.
 
 ### About this task
 
@@ -79,7 +79,7 @@ Role required: sn\_gsm.constituent\_agent, sn\_gsm.business\_agent, sn\_gsm.agen
 
 ### Procedure
 
-1.  Open the Information Request Playbook by navigating to Lists in the CRM Workspace.
+1.  Open the Information Request Administration by navigating to Lists in the CRM Workspace.
 
 2.  Navigate to the **Information Requests** list and select **All**.
 

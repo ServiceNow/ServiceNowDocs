@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-threatintelligencesecuritycenter-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
-reading_time_minutes: 5
+last_updated: "2026-10-08"
+reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
 
@@ -67,7 +67,7 @@ Yokohama
 
 </td><td>
 
--   **[Microsoft Defender for EDR Integration](https://www.servicenow.com/docs/access?context=tisc-ms-defender-integration&family=yokohama&ft:locale=en-US)**
+-   **[Microsoft Defender for EDR integration](https://www.servicenow.com/docs/access?context=tisc-ms-defender-integration&family=yokohama&ft:locale=en-US)**
 
 Integration with the Microsoft Defender for EDR allows Cyber Threat Intelligence \(CTI\) analysts to automatically push malicious or suspicious IP addresses, domains, file hashes, and URLs to Microsoft Defender for continuous monitoring and real-time alerting.
 
@@ -86,31 +86,31 @@ Zurich
 
 </td><td>
 
--   **[Configure Threat Intelligence External Sharing](https://www.servicenow.com/docs/access?context=tisc-intel-sharing&family=zurich&ft:locale=en-US)**
+-   **[Configuring Threat Intelligence External Sharing](https://www.servicenow.com/docs/access?context=tisc-intel-sharing&family=zurich&ft:locale=en-US)**
 
 Take advantage of external sharing for secure, automated, and on-demand dissemination of threat intelligence using STIX 2.1 and MISP formats. Supports sharing across external agencies \(CISA, ISAC\), integrations \(SIEMs, EDRs\), TAXII-based TISC instances, and inbound intelligence from external entities.
 
 
--   **[Configure report templates](https://www.servicenow.com/docs/access?context=tisc-report-templates&family=zurich&ft:locale=en-US)**
+ -   **[Configure report templates](https://www.servicenow.com/docs/access?context=tisc-report-templates&family=zurich&ft:locale=en-US)**
 
 Generate reports outside case management using base templates through a new reporting section in the Threat Intelligence Library.
 
 
--   **[Configure custom MISP API feed](https://www.servicenow.com/docs/access?context=tisc-premium-misp&family=zurich&ft:locale=en-US)**
+ -   **[Configure custom MISP API feed](https://www.servicenow.com/docs/access?context=tisc-premium-misp&family=zurich&ft:locale=en-US)**
 
 Import events, attributes, and objects from the MISP server into the Threat Intelligence Library.
 
 
--   **[Configure Custom Event Types for Timeline](https://www.servicenow.com/docs/access?context=tisc-config-timeline&family=zurich&ft:locale=en-US) and [Using Timeline in Investigation Canvas](https://www.servicenow.com/docs/access?context=tisc-timeline-events&family=zurich&ft:locale=en-US)**
+ -   **[Configure Custom Event Types for Timeline](https://www.servicenow.com/docs/access?context=tisc-config-timeline&family=zurich&ft:locale=en-US) and [Using Timeline in Investigation Canvas](https://www.servicenow.com/docs/access?context=tisc-timeline-events&family=zurich&ft:locale=en-US)**
 
 Define, visualize, and manage timeline events associated with nodes through the Investigation Canvas.
 
 
--   **[Configure TISC add-on in Splunk](https://www.servicenow.com/docs/access?context=tisc-configure-splunk&family=zurich&ft:locale=en-US)**
+ -   **[Configure TISC add-on in Splunk](https://www.servicenow.com/docs/access?context=tisc-configure-splunk&family=zurich&ft:locale=en-US)**
 
 Include optional attributes during configuration that can be stored in the Splunk KV Store.
 
--   **[View Premium Threat Feed for CrowdStrike](https://www.servicenow.com/docs/access?context=premium-threat-feed-for-crowdstrike&family=zurich&ft:locale=en-US)**
+-   **[Configure Premium Threat Feed for CrowdStrike](https://www.servicenow.com/docs/access?context=premium-threat-feed-for-crowdstrike&family=zurich&ft:locale=en-US)**
 
 Map CrowdStrike Indicator Malicious confidence to TISC confidence.
 
@@ -155,10 +155,50 @@ Zurich
 
 -   **[\[Placeholder link text to key bundle-security.tisc-canvas-internal-intel\]](https://www.servicenow.com/docs/access?context=tisc-canvas-internal-intel&family=zurich&ft:locale=en-US)**
 
+Introduced **Add From Internal Intelligence** option to include the data from the internal systems.
+
+
+ -   **[Define an Observable](https://www.servicenow.com/docs/access?context=define-an-observable&family=zurich&ft:locale=en-US)**
+
+Introduced a notice when deleting an observable record to help prevent accidental removal of its associated source records.
+
+
+ -   **[Configure Custom Field Mapping](https://www.servicenow.com/docs/access?context=tisc-field-mapping&family=zurich&ft:locale=en-US)**
+
+The list view has been replaced with a code editor in the Sample data \(Input\) section of the field mapping, preserving the original structure and formatting of raw data.
+
+
+ -   **[Creating an investigation canvas](https://www.servicenow.com/docs/access?context=tisc-create-canvas&family=zurich&ft:locale=en-US) Clear canvas button**
+
+A **Clear canvas** button to clear the canvas permanently removes all nodes from the investigation canvas.
+
+
+ -   **[Manage Techniques](https://www.servicenow.com/docs/access?context=tisc-manage-techniques&family=zurich&ft:locale=en-US)**
+
+Introduced Priority levels and TISC Tags to categorize and tag MITRE Techniques more effectively.
+
+
+ -   **[Components installed with Threat Intelligence Security Center](https://www.servicenow.com/docs/access?context=tisc-components-installed&family=zurich&ft:locale=en-US)**
+
+Introduced a new system property to configure the default Traffic Light Protocol \(TLP\) level.
+
+
+ -   **[Import data using structured file](https://www.servicenow.com/docs/access?context=import-data-using-structured-file&family=zurich&ft:locale=en-US)**
+
+Introduced an **Add Observable\(s\) to Security Control List** drop-down list to enable the importing of Allow listed observables directly through Import Intelligence.
+
+
+ -   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+
+ -   **[\[Placeholder link text to key bundle-security.tisc-canvas-internal-intel\]](https://www.servicenow.com/docs/access?context=tisc-canvas-internal-intel&family=zurich&ft:locale=en-US)**
+
 Aggregate and analyze the data from internal systems through internal intelligence included in the Investigation Canvas module to help you identify potential threats more effectively.
 
 
--   **[Import Intelligence in TISC](https://www.servicenow.com/docs/access?context=importing-threat-intelligence&family=zurich&ft:locale=en-US)**
+ -   **[Import Intelligence in TISC](https://www.servicenow.com/docs/access?context=importing-threat-intelligence&family=zurich&ft:locale=en-US)**
 
 Enhanced the Import Intelligence functionality to support direct import of allow list observables.
 
@@ -248,7 +288,16 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Install Threat Intelligence Security Center by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
+    -   **[Security Operations common functionality](https://www.servicenow.com/docs/access?context=sec-ops-common-functionality&family=yokohama&ft:locale=en-US)**
+
+The Security Support Common plugin is activated when any of the plugins for the main Security Operations applications \(Security Incident Response, Vulnerability Response, Threat Intelligence, or Configuration Compliance\) are activated.
+
+
+**Important:** Threat Intelligence Security Center is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 
@@ -256,7 +305,12 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Install Threat Intelligence Security Center by requesting it from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home). Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
+
+**Important:** Threat Intelligence Security Center is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -343,7 +397,11 @@ Zurich
 
 </td><td>
 
--   ****
+-   **Accessibility information**
+    -   **Dark theme**
+
+The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
 
 </td></tr></tbody>
 </table>## Localization information

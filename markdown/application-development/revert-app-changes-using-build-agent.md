@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2026-08-19"
 reading_time_minutes: 1
-keywords: [revert app changes, build agent checkpoint, restore checkpoint, undo changes build agent, chat history revert, build agent ServiceNow Studio, app development rollback, checkpoint restore, Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [revert app changes, build agent checkpoint, restore checkpoint, undo changes build agent, chat history revert, build agent ServiceNow Studio, app development rollback, checkpoint restore, ServiceNow Otto, AI Agents, generative AI, agentic AI]
 audience: administrator
 breadcrumb: [Use, Build Agent, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
 ---

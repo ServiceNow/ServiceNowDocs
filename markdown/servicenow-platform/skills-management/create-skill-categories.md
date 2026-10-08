@@ -44,15 +44,15 @@ You can build your skill taxonomy from scratch or use the sample data provided w
 
 6.  Add sub-categories or skills.
 
-<table id="choicetable_fnj_ytd_hhb"><thead><tr><th align="left" id="d502757e135">
+<table id="choicetable_fnj_ytd_hhb"><thead><tr><th align="left" id="d508171e135">
 
 To add
 
-</th><th align="left" id="d502757e138">
+</th><th align="left" id="d508171e138">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d502757e144">
+</th></tr></thead><tbody><tr><td id="d508171e144">
 
 **Sub-categories**
 
@@ -62,7 +62,7 @@ Do this
 -   In the **Name** field, enter a unique name for the category.
 
 
-</td></tr><tr><td id="d502757e171">
+</td></tr><tr><td id="d508171e171">
 
 **Skills**
 

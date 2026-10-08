@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-For additional information about migrating to the Service Graph Connector for Dynatrace SaaS, see the [New Service Graph Connector for Observability – Dynatrace SaaS](https://www.servicenow.com/community/service-graph-connectors/new-service-graph-connector-for-observability-dynatrace-saas/ta-p/3572958) article on the ServiceNow Community site.
+For additional information about migrating to the Service Graph Connector for Observability - Dynatrace SaaS, see the [New Service Graph Connector for Observability – Dynatrace SaaS](https://www.servicenow.com/community/service-graph-connectors/new-service-graph-connector-for-observability-dynatrace-saas/ta-p/3572958) article on the ServiceNow Community site.
 
 ## Procedure
 
@@ -55,7 +55,7 @@ For additional information about migrating to the Service Graph Connector for Dy
 
 ## Result
 
-The SGO-Dynatrace Classic Migration Cleanup scheduled import job of the Service Graph Connector for Dynatrace SaaS runs with the next scheduled execution. Using the sys\_id of the classic Dynatrace connection alias, the Process CIs that are exclusively owned by the classic connector are identified and soft-retired automatically \(operational\_status is set to 2 or Non-Operational\).
+The SGO-Dynatrace Classic Migration Cleanup scheduled import job of the Service Graph Connector for Observability - Dynatrace SaaS runs with the next scheduled execution. Using the sys\_id of the classic Dynatrace connection alias, the Process CIs that are exclusively owned by the classic connector are identified and soft-retired automatically \(operational\_status is set to 2 or Non-Operational\).
 
 The SGO-Dynatrace Classic Migration Cleanup scheduled import runs only once. This scheduled import is automatically deactivated after the first successful run.
 

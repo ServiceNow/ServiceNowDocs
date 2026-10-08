@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/visa-spoke
 release: zurich
 topic_type: topic
 last_updated: "2025-09-14"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Financial Services Operations release notes, Features and changes by product, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
 ---
 
@@ -18,7 +18,7 @@ The ServiceNow® Visa Spoke application enables the ServiceNow AI Platform to co
 
 Apply Visa Resolve Online \(VROL\) release 25.2 revision changes to some Visa Spoke actions.
 
-See  for more information.
+See [Visa Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/visa-spoke.md) for more information.
 
 ## Activation and other requirements
 
@@ -50,7 +50,7 @@ The ServiceNow® Visa Spoke application enables the ServiceNow AI Platform to co
     Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
 
 
--   **Visa Resolve Online \(VROL\) version 25.2 updates**
+-   **[Visa Resolve Online \(VROL\) version 25.2 updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/visa-spoke.md#section_gsl_nw5_vyb)**
 
     Updated the following Visa Spoke actions to align with Visa Resolve Online \(VROL\) release 25.2 revision changes:
 
@@ -67,4 +67,6 @@ The ServiceNow® Visa Spoke application enables the ServiceNow AI Platform to co
     -   Look up Dispute Pre-Arbitration Details Response Parser
     -   Look up Dispute Details Request Builder
     -   Look up Dispute Details Response Parser
+    In addition, the Look up Dispute Details, Look up Dispute Response Details, Look up Dispute Pre-Arbitration Details, and Look up Dispute Pre-Arbitration Response Details actions now return a Dispute Intelligence object in their output. Dispute Intelligence includes an AI-generated Probability of Success score for the dispute, along with a ranked list of key factors influencing that score, so a consuming app can incorporate Visa's own win-likelihood assessment into its dispute-handling decisions.
+
 

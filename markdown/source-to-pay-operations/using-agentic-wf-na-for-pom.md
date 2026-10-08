@@ -14,7 +14,7 @@ breadcrumb: [ServiceNow Otto for POM, Purchase Order Management, Source-to-Pay O
 
 Use agentic workflows in ServiceNow Otto for Purchase Order Management \(POM\) to track and resolve anomalies or irregularities in the purchase order \(PO\) execution process.
 
-**Note:** Depending on your license, you have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 Use the following agentic workflows that are available with ServiceNow Otto for Purchase Order Management \(POM\)
 

@@ -7,8 +7,8 @@ release: zurich
 topic_type: concept
 last_updated: "2026-08-27"
 reading_time_minutes: 3
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [Explore, Build Agent, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
+breadcrumb: [Reference, Build Agent, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
 ---
 
 # Domain separation and Build Agent
@@ -70,7 +70,7 @@ Build Agent domain separation support includes the following conditions and exce
 -   Metadata created in global scope is visible across all domains by default. Scoped applications provide better domain isolation.
 -   When using the Fluent SDK, you can set `sys_domain` on records and APIs that support domain separation. The `sys_override` field is also supported, which lets you apply domain-specific field value overrides through the SDK without modifying the base record.
 
-**Parent Topic:**[Exploring Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/exploring-build-agent.md)
+**Parent Topic:**[Build Agent reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/build-agent-reference-landing.md)
 
 **Related topics**  
 

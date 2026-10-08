@@ -24,7 +24,7 @@ The ServiceNow® Table Builder application is a centralized way to build tables,
 -   Read-only behavior is now controlled by the **Read only option** \[`read_only_option`\] choice field, which provides options such as **Display Read Only** or **Strict Read Only**.
 -   The existing **Read only** field will no longer be editable in the UI.
 
-See  for more information.
+See [Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/tb-landing-page.md) for more information.
 
 ## Activation and other requirements
 
@@ -44,7 +44,7 @@ The ServiceNow® Table Builder application is a centralized way to build tables,
 
 ### What's changed
 
--   ****
+-   **[Accessing Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/accessing-form-builder.md#section_ulg_1wr_w2c)**
 
     In the search input, enter `tablename.builder`, `tablename.view`, `tablename.sheet`, or `tablename.flow` to access the table directly.
 

@@ -72,7 +72,7 @@ Application
 
 Application scope of the service. Select from the following options:-   Public Sector Digital Services Core
 -   License and Permit Playbook
--   Information Request Playbook
+-   Information Request Administration
 -   Service Request Playbook
 
 

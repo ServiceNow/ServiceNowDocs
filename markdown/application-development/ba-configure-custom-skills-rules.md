@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2026-08-03"
 reading_time_minutes: 4
-keywords: [custom skills, custom rules, build agent, configure, instructions, Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [custom skills, custom rules, build agent, configure, instructions, ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configure, Build Agent, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
 ---
 

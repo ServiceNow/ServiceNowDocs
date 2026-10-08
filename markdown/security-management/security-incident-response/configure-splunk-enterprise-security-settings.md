@@ -82,7 +82,7 @@ Number of notable types to batch in one search.
 
 </td><td>
 
-Option to define the total number of notable types that you want batch in a single search.By default, the value is set as 20.
+Option to define the total number of notable types that you want batch in a single search.By default, the value is set as 200.
 
 </td></tr><tr><td>
 

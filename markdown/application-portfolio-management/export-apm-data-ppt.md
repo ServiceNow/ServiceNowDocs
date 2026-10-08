@@ -16,7 +16,10 @@ Export the Application Portfolio Status data to Microsoft PowerPoint. Share the 
 
 ## Before you begin
 
-**Important:** Export to PowerPoint is currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. Please check for availability updates in future releases.
+**Important:** Availability of Export to PowerPoint:
+
+-   For general customers: Available for all customers
+-   For regulated customers: Supported on GCC, NSC, SPP-AU, SPP-SG, and Australia IRAP-Protected data centers
 
 Role required: sn\_apm.apm\_user
 

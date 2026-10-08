@@ -7,7 +7,7 @@ release: zurich
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-09-16"
+last_updated: "2026-10-08"
 reading_time_minutes: 5
 keywords: [Discovery, Admin, Workspace]
 breadcrumb: [Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
@@ -43,7 +43,7 @@ The following data counts display in the Quick overview section:
 
 -   **Active schedules**
 
-    Displays the number of active IP-based and Cloud Discovery schedules run to date. Selecting this number opens the [Schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/discovery-admin-workspace-schedules.md) page, where you can view all the Discovery schedules that are configured and enabled to run.
+    Displays the number of active IP-based and Cloud Discovery schedules run to date.
 
 -   **Error tasks**
 

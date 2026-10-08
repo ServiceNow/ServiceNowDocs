@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/service-management-for-t
 release: zurich
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [Request Management in a Service Management application, Service Management]
 ---
 
@@ -58,7 +58,7 @@ Existing tasks can be cloned to create tasks with the same populated fields.
 **Related topics**  
 
 
-[Change the location of a request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/service-management-for-the-enterprise/t_ChangeTheLocationOfARequest.md)
+[bundle-sm4e.t_ChangeTheLocationOfARequest]
 
 [Request approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/service-management-for-the-enterprise/c_RequestApprovals.md)
 

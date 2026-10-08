@@ -113,5 +113,5 @@ Short description to help find your page collection. Write a description that he
 15. Add more pages to your page collection.
 
 
-**Parent Topic:**[Page collections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ui-builder/page-collections.md)
+**Parent Topic:**[Page collections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/page-collections.md)
 

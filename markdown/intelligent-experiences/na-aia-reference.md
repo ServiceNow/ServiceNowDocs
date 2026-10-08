@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/
 release: zurich
 topic_type: reference
 last_updated: "2025-10-27"
-reading_time_minutes: 9
+reading_time_minutes: 10
 breadcrumb: [AI Agent Studio, Enable AI experiences]
 ---
 
@@ -18,14 +18,48 @@ Find more information about user roles, tables, and the different properties tha
 
 The following roles are installed with ServiceNow Otto AI agents with a compatible ServiceNow Otto application.
 
-|Role|Description|
-|----|-----------|
-|AI Agent admin \[sn\_aia.admin\]|Administrator of the application. A user with the sn\_aia\_admin role can create, read, update, and delete records.|
-|AI Agent Viewer \[sn\_aia.viewer\]|Read-only access to the application. A user with the sn\_aia\_viewer role has read and report access on all tables.|
-|agent\_role\_config\_admin|With this role, user can access and modify Agent role configurations with AI Agent admin \[sn\_aia\_admin\] being the parent role.|
-|agent\_role\_config\_viewer|Can view the Agent role configurations with AI Agent Viewer \[sn\_aia\_viewer\] being the parent role.|
+<table id="table_pxl_trr_k2c"><thead><tr><th>
 
-**Note:** The roles can be assigned manually through the user record directly. For the assigned roles to take effect, logout and login back to the application.
+Role
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+AI Agent admin \[sn\_aia.admin\]
+
+</td><td>
+
+Administrator of the application. A user with the sn\_aia\_admin role can create, read, update, and delete records.
+
+</td></tr><tr><td>
+
+AI Agent Viewer \[sn\_aia.viewer\]
+
+</td><td>
+
+Read-only access to the application. A user with the sn\_aia\_viewer role has read and report access on all tables. **Note:** The sn\_aia.admin and the sn\_aia.viewer roles should not be given to the same user. If a user has both roles, then AI Agent Studio will only be accessible in read-only mode for that user.
+
+</td></tr><tr><td>
+
+agent\_role\_config\_admin
+
+</td><td>
+
+With this role, user can access and modify Agent role configurations with AI Agent admin \[sn\_aia\_admin\] being the parent role.
+
+</td></tr><tr><td>
+
+agent\_role\_config\_viewer
+
+</td><td>
+
+Can view the Agent role configurations with AI Agent Viewer \[sn\_aia\_viewer\] being the parent role.
+
+</td></tr></tbody>
+</table>**Note:** The roles can be assigned manually through the user record directly. For the assigned roles to take effect, logout and login back to the application.
 
 ## AI agents system properties
 
@@ -290,16 +324,6 @@ Specifies the maximum number of cursor-based pagination iterations to perform wh
 
 </td></tr><tr><td>
 
-mcp\_guardian\_check
-
-</td><td>
-
-Determines whether AI Guardian runs on MCP tool executions.You can enable guardian check for MCP Client when the value is set to **true**. The default value is **false**.
-
-**Note:** To enable guardian check for MCP Client, ensure that you enable AI Guardian on **AI Agent Studio** &gt; **Settings** page.
-
-</td></tr><tr><td>
-
 com.glide.agentic\_processes\_view.enabled
 
 </td><td>
@@ -502,6 +526,18 @@ Determines whether agentic AI-generated responses in ServiceNow Otto panel or Se
 </td><td>
 
 false
+
+</td></tr><tr><td>
+
+mcp\_guardian\_check
+
+</td><td>
+
+Determines whether AI Guardian runs on MCP tool executions.**Note:** To enable guardian check for MCP Client, ensure that you enable AI Guardian on **AI Agent Studio** &gt; **Settings** page.
+
+</td><td>
+
+You can enable guardian check for MCP Client when the value is set to **true**. The default value is **false**.
 
 </td></tr><tr><td>
 

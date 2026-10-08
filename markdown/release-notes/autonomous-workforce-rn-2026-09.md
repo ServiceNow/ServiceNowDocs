@@ -16,7 +16,7 @@ New enhancements to routing criteria, document intelligence, advanced search, an
 
 ## What's new
 
--   **Updated routing criteria configuration**
+-   **[Updated routing criteria configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/modify-aiw-tasks-new.md)**
 
     Enable hand-offs between the AI specialist and human agents if work is better handled by a different group or requires additional human oversight.
 

@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2026-08-27"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI, Policies, Explicit Block, Threat Response, clone]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, Policies, Explicit Block, Threat Response, clone]
 breadcrumb: [Manage policies, Controlling AI asset usage, Govern AI assets, AI Control Tower, Enable AI experiences]
 ---
 
@@ -21,12 +21,12 @@ Role required: sn\_ai\_governance.ai\_steward
 
 ## About this task
 
-Clone a policy when you want to start a new version from an existing one, without changing what's already published. The clone is a separate, independent policy; the original keeps running until you deactivate it.
+Clone a policy when you want to start a new version from an existing one, without changing what's already published. The clone is a separate, independent policy; the original keeps running until you delete it.
 
 For example:
 
--   Clone an Explicit Block policy when you want to scope the same block to a different set of users or models. You can't edit an Explicit Block policy once it's published, so cloning is the only way to change one. Once your clone is confirmed working, deactivate the original if you no longer need it.
--   Clone a Threat Response policy when you want to test a variant of its threat type, scope, or sensitivity without changing the original. You can also edit a Threat Response policy directly; see [Edit a Threat Response policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-pol-edit-threat-response-policy.md). Once your clone is confirmed working, deactivate the original if you no longer need it.
+-   Clone an Explicit Block policy when you want to scope the same block to a different set of users or models without changing the original. You can also edit an Explicit Block policy directly; see [Edit an Explicit Block policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-pol-edit-explicit-block-policy.md). Once your clone is confirmed working, delete the original if you no longer need it.
+-   Clone a Threat Response policy when you want to test a variant of its threat type, scope, or sensitivity without changing the original. You can also edit a Threat Response policy directly; see [Edit a Threat Response policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-pol-edit-threat-response-policy.md). Once your clone is confirmed working, delete the original if you no longer need it.
 
 ## Procedure
 
@@ -47,5 +47,5 @@ The policy is cloned with any optional updates that you added. The original poli
 
 ## What to do next
 
-Once the clone is confirmed working as expected, you can deactivate the original if it's no longer needed. For details, see [Deactivate a policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-pol-deactivate-policy.md).
+Once the clone is confirmed working as expected, you can delete the original if it's no longer needed. For details, see [Delete a policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/gov-pol-delete-policy.md).
 

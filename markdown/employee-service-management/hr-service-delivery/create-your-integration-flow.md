@@ -18,7 +18,7 @@ Create the integration flow with your preferred ATS to send job requisition data
 
 ## Use Integration Hub
 
-Use the Integration Hub to integrate Hiring Experiences with your preferred ATS. For more information, see .
+Use the Integration Hub to integrate Hiring Experiences with your preferred ATS. For more information, see [Integration Hub spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/spokes-list.md).
 
 ## Supporting actions
 

@@ -41,7 +41,7 @@ A list of all the fields that are inherited from the parent asset group to a sub
 
 [Domain separation and Enterprise Asset Management]()
 
-[Enterprise Asset Management roles]()
+[Components installed with Enterprise Asset Management]()
 
 [OT Asset Workspace roles]()
 

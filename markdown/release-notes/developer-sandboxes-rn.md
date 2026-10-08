@@ -21,11 +21,11 @@ The ServiceNow® Developer Sandboxes application enables your administrators and
 -   Provide developer isolation and parallelism for customer development environments and instances.
 -   View the total, available, and allocated sandboxes in your instance by using the Sandbox Management home dashboard. The dashboard also displays information about each sandbox, including the status, data utilization, owner, when it was last accessed, and when the sandbox was allocated.
 
-See  for more information.
+See [Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/sandboxes-landing.md) for more information.
 
 ## Activation and other requirements
 
-**Important:**  is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+**Important:** [Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/sandboxes-landing.md) is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 -   **Activation information**
 
@@ -40,7 +40,7 @@ The ServiceNow® Developer Sandboxes application enables your administrators and
 
 ### What's changed
 
--   **Upgrade enhancements**
+-   **[Upgrade enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/dev-sbx-clone-upgrade-info.md)**
 
     Automatic backups for upgrades are now working correctly. This issue is related to PRB2017438.
 
@@ -51,29 +51,29 @@ The ServiceNow® Developer Sandboxes application enables your administrators and
 
 ### What's new
 
--   ****
+-   **[Exploring Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/exploring-sandboxes.md)**
 
     View the total, available, and allocated sandboxes in your instance by using the Sandbox Management home dashboard. The dashboard also displays information about each sandbox, including the status, data utilization, owner, when the sandbox was last accessed, and when the sandbox was allocated.
 
--   ****
+-   **[Using sandbox templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/create-sandbox-template.md)**
 
     Enable your delegated developers to reuse the data so that they can test their changes without manually inputting the data every time.
 
--   ****
+-   **[Create a Data Generation Profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/create-data-generation-profile.md)**
 
     Enable your customers to generate the data for testing within the context of developer sandboxes, but also independently of sandboxes.
 
     **Note:** Developer Sandboxes can't copy all the instance data. Data generation profiles enable a statistical sampling of data from selected tables with curated mappings to populate the sandbox with the data needed for building an application.
 
--   ****
+-   **[Allocate a sandbox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/allocating-sandboxes.md)**
 
     Allocate the sandboxes that were created to your development teams.
 
--   ****
+-   **[Retire Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/retire-sandboxes.md)**
 
     Retire outdated sandboxes to make room for the new sandboxes in your instance.
 
--   **Automatically backed up update sets**
+-   **[Automatically backed up update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/dev-sbx-clone-upgrade-info.md)**
 
     If you install Developer Sandboxes on an instance after Zurich Patch 5, update sets are automatically backed up when the instance is upgraded.
 

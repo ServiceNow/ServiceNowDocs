@@ -64,7 +64,7 @@ Roles required
 
 </td><td>
 
-Roles required in addition to responsibilities to get the access.
+Roles required and responsibilities to get the access.
 
 </td></tr><tr><td>
 
@@ -168,7 +168,7 @@ Field values script
 Script that returns the valid association values for advanced association logic.
 
 </td></tr></tbody>
-</table>    **Note:** To create new entries to the **Applies to Relationship**, **Access Levels**, or **Accessible Entities** fields in the Responsibility Access Configuration table, you must migrate all existing configurations for these fields in the global.CSMRelationshipConstantsSNC script include.
+</table>    **Note:** To create entries to the **Applies to Relationship**, **Access Levels**, or **Accessible Entities** fields in the Responsibility Access Configuration table, you must migrate all existing configurations for these fields in the global.CSMRelationshipConstantsSNC script include.
 
 5.  Select **Submit**.
 

@@ -20,6 +20,8 @@ Publish a custom application to the application repository so that it can be ins
 
 To enable a developer to publish an application to the application repository, delegate the Publish to App Repo permission to the developer. For more information, see [Delegating development permissions to personnel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/delegated-development-and-deployment/t_AddADeveloper.md).
 
+If you use an on-prem \(self-hosted\) instance, see additional details at [Application Repository for self-hosted, air-gapped customers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/application-repository-self-hosted/manage-store-app-air-gapped.md).
+
 Role required: admin or delegated\_developer with Publish To App Repo permission enabled
 
 ## Procedure

@@ -8,7 +8,7 @@ product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 5
+reading_time_minutes: 6
 keywords: [HAM licensing, Hardware Asset Management licensing]
 breadcrumb: [Use, Hardware Asset Management, IT Asset Management]
 ---
@@ -64,6 +64,8 @@ Exclude an asset for which you don't want to use Hardware Asset Management licen
 [Manage the lifecycle of hardware models with calculated lifecycle templates]()
 
 [Create an internal lifecycle in the Hardware Asset Workspace]()
+
+[Calculate the active lifecycle phase for a model]()
 
 [Receive asset warranty details from Lenovo]()
 

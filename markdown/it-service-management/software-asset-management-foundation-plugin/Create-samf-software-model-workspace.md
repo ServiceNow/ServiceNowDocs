@@ -9,7 +9,7 @@ classification: software-asset-management-foundation-plugin
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 5
-breadcrumb: [Configuring Software Asset Management Foundation plugin workspace, Software Asset Management Foundation plugin, ITSM Software Asset Management, Asset Management, IT Service Management]
+breadcrumb: [Configuring Basic Software Asset Management workspace, Basic Software Asset Management, ITSM Software Asset Management, Asset Management, IT Service Management]
 ---
 
 # Create a Software Asset Management Foundation software model in workspace
@@ -54,7 +54,7 @@ Publisher
 
 Publisher of the software. You can use the lookup list provided.**Note:** Publisher is a reference to the company \[core\_company\]. Only companies you’re using internally are shown.
 
- If the publisher and product don’t exist, you can [Add a Software Asset Management Foundation plugin custom license metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/software-asset-management-foundation-plugin/add-custom-license-metric-samf.md).
+ If the publisher and product don’t exist, you can [Add a Basic Software Asset Management custom license metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/software-asset-management-foundation-plugin/add-custom-license-metric-samf.md).
 
 </td></tr><tr><td>
 
@@ -346,7 +346,7 @@ Risk
 </td></tr></tbody>
 </table>    2.  [Create a SAM Foundation entitlement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/software-asset-management-foundation-plugin/t_AddASoftwareEntitlementSAMF.md).
 
-    3.  [View Software Asset Management Foundation plugin software model results in classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/software-asset-management-foundation-plugin/t_ViewSWModelResultsSAMF.md).
+    3.  [View Basic Software Asset Management software model results in classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/software-asset-management-foundation-plugin/t_ViewSWModelResultsSAMF.md).
 
         The latest software model results are shown in the Software Model Results related list.
 
@@ -429,5 +429,5 @@ Check box for setting the attribute as unlimited.
 </table>    5.  [Create a vendor catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/product-catalog/t_CreateAVendorCatalogItem.md).
 
 
-**Parent Topic:**[Configuring Software Asset Management Foundation plugin workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/software-asset-management-foundation-plugin/configuring-samf-plugin-workspace.md)
+**Parent Topic:**[Configuring Basic Software Asset Management workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/software-asset-management-foundation-plugin/configuring-samf-plugin-workspace.md)
 

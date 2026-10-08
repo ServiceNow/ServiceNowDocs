@@ -8,7 +8,7 @@ product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 10
+reading_time_minutes: 12
 breadcrumb: [Administration cards, DEX Application and Device Health reference, Reference, Digital End-User Experience, IT Service Management]
 ---
 
@@ -28,6 +28,14 @@ Supported OS
 
 Description
 
+</th><th>
+
+ 
+
+</th><th>
+
+ 
+
 </th></tr></thead><tbody><tr><td>
 
 Battery replacement catalog request
@@ -39,6 +47,14 @@ Windows/macOS
 </td><td>
 
 Catalog request for battery replacement to solve poor battery performance due to deteriorated battery. A catalog request would be raised for you based on your device and battery details.
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
 
 </td></tr><tr><td>
 
@@ -57,6 +73,14 @@ Performing this action removes the app cache for the selected application on thi
 -   Select the field auto-close, which closes the application before clearing the cache to confirm all the cache files are cleared.
 -   To clear application cache, you need to have the admin access to the device.
 
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
 </td></tr><tr><td>
 
 Clear browser cache
@@ -69,6 +93,14 @@ Windows/macOS
 
 Clearing your browser cache removes temporary data stored on your laptop, such as cookies and website files.**Note:** To clear browser cache, you need to have the admin access to the device.
 
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
 </td></tr><tr><td>
 
 End process
@@ -80,6 +112,14 @@ Windows/macOS
 </td><td>
 
 Performing this action on an end user's device forcefully stops a running process.
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
 
 </td></tr><tr><td>
 
@@ -96,6 +136,14 @@ Execute the Jamf policy either with a policy ID or with a predefined action. Pre
 -   As DEX Admin, you must know the Jamf pro features and have knowledge about the policies configured for applications at the customer Jamf server.
 -   Some policies when run, notify the user to update the application instead of automatically updating it. For example, Zoom doesn't automatically update. In cases like these, the policy is executed successfully only if the employee approves the update of the application. Otherwise, the remedial action execution fails.
 
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
 </td></tr><tr><td>
 
 Restart service
@@ -108,6 +156,14 @@ Windows/macOS
 
 Performing this action on a end-user's laptop involves restarting the service or application running on their device.**Note:** To restart service, you need to have the admin access to the device.
 
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
 </td></tr><tr><td>
 
 Windows disk cleanup for low disk space
@@ -119,6 +175,14 @@ Windows
 </td><td>
 
 Performing Windows disk clean up to solve slow system performance due to insufficient disk space. Files such as temporary internet files, recycle bin, thumbnails, temporary files, etc would be deleted to free up your disk space.
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
 
 </td></tr><tr><td>
 
@@ -137,6 +201,14 @@ Performing this action deletes temporary internet, memory, log, and cache files 
 -   `"C:\Windows\System32\LogFiles"="*.*"`
 -   `"C:\ProgramData\Microsoft\Windows\WER\ReportQueue"= "*.*"`
 
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
 </td></tr><tr><td>
 
 Clear DNS cache
@@ -148,6 +220,14 @@ Windows/macOS
 </td><td>
 
 Performing this action on an end-user's device will clear the DNS cache.
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
 
 </td></tr><tr><td>
 
@@ -163,6 +243,14 @@ Performing this action resets the Google Chrome browser settings to default on a
 
 -   Only the extensions that are synced with the user account are restored.
 -   Preferences and Secure preferences files will be removed.
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
 
 </td></tr><tr><td>
 
@@ -182,6 +270,14 @@ Deleting Google Chrome browsing data enhances its speed, resolves page loading i
     -   Write attributes
     -   Delete sub-folders and files
 
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
 </td></tr><tr><td>
 
 Configure device power scheme
@@ -193,6 +289,14 @@ macOS
 </td><td>
 
 Performing this action on the end-user's device configures the power scheme settings and optimizes the performance, energy efficiency and battery life of the device.
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
 
 </td></tr><tr><td>
 
@@ -209,6 +313,14 @@ Performing this action on an end-user's device will clear the recycle bin on the
 -   To clear recycle bin, you need to have the admin access to the device.
 -   For Windows devices, only C: drive recycle bin is targeted as part of the remedial action.
 
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
 </td></tr><tr><td>
 
 Elevate temporary admin access
@@ -223,6 +335,14 @@ Performing this action on the end-user's device provides temporary administrativ
 
 -   To elevate the temporary administrative privileges, you need to have the admin access to the device.
 -   The task scheduler must be enabled to get the admin rights.
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
 
 </td></tr><tr><td>
 
@@ -239,6 +359,14 @@ Performing this action on the end-user's device will fix any connectivity issues
 -   Enable the Zscaler Command Line interface feature on the device.
 -   It is applicable only if version 4.4 and later for Windows and Zscaler Client Connector version 4.3 and later for macOS is installed on the device.
 
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
 </td></tr><tr><td>
 
 Restart Microsoft OneDrive
@@ -253,6 +381,14 @@ Performing this action on the end-user's device will restart OneDrive to resolve
 
 -   For macOS users, you need to stay logged in on OneDrive in order to restart OneDrive.
 -   For Windows users, you need admin access to restart OneDrive if it is installed in the user's folder.
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
 
 </td></tr><tr><td>
 
@@ -274,6 +410,14 @@ Performing this action on an end-user's device detects and repairs both OST and 
     -   Write attributes
     -   modify or delete subfolders and files
 
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
 </td></tr><tr><td>
 
 Uninstall the application
@@ -288,6 +432,14 @@ Windows
 -   Only applications installed through .exe or .msi files will be uninstalled. Core OS and system applications do not get uninstalled, even if the action is executed successfully.
 
  **Note:** In order to uninstall an application, you need to have the admin access to the device.
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
 
 </td></tr><tr><td>
 
@@ -304,6 +456,14 @@ Performing this action maps a network drive using a specified drive letter and n
 -   The drive\_letter parameter specifies the drive letter to which the network location will be mapped, and the network\_path parameter specifies the path of the shared network location that is to be mapped.
 -   The network\_path should not require authentication, or it should be pre-authenticated, for this check to run successfully.
 
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
 </td></tr><tr><td>
 
 Delete Network Drive
@@ -316,6 +476,14 @@ Windows
 
 Performing this action removes a mapped network drive using the drive letter. This helps in cleaning up unused or outdated network connections.
 
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
 </td></tr><tr><td>
 
 Restart Audio Services
@@ -327,6 +495,14 @@ Windows
 </td><td>
 
 Performing this action restarts audio services **AudioEndpointBuilder** and **Audiosrv** to restore sound and microphone functionality. This fixes common playback and recording issues on your device.
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
 
 </td></tr><tr><td>
 
@@ -344,6 +520,14 @@ Performing this action adjusts the Execute permission, which controls whether pr
 -   In order to perform this action, you need to have the admin access to the device.
 -   After you perform this action, restart the device for the access changes to take effect.
 
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
 </td></tr><tr><td>
 
 Modify USB storage access: Read
@@ -359,6 +543,14 @@ Performing this action adjusts the Read permission, allowing or blocking the abi
 -   This action is effective only if removable USB storage access is not already controlled by other mechanisms, such as Group Policies, third-party endpoint protection tools, or device control software.
 -   In order to perform this action, you need to have the admin access to the device.
 -   After you perform this action, restart the device for the access changes to take effect.
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
 
 </td></tr><tr><td>
 
@@ -376,6 +568,14 @@ Performing this action adjusts the Write permission, allowing or blocking the ab
 -   In order to perform this action, you need to have the admin access to the device.
 -   After you perform this action, restart the device for the access changes to take effect.
 
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
 </td></tr><tr><td>
 
 Restart Microsoft Outlook
@@ -387,6 +587,14 @@ Windows
 </td><td>
 
 Performing this action restarts Microsoft Outlook on the user's device.
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
 
 </td></tr><tr><td>
 
@@ -411,6 +619,14 @@ Performing this action adds a registry key to this device using a fully qualifie
     -   MultiString – A sequence of null-terminated strings, terminated by an empty string \(\\0\). Example: String1\\0String2\\0String3\\0LastString\\0\\0. The final terminator must be included in the length.
 -   To add a registry key value, you need to have the admin access to the device.
 
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
 </td></tr><tr><td>
 
 Modify a registry key value
@@ -434,6 +650,14 @@ Performing this action updates the registry key value using a fully qualified pa
     -   MultiString – A sequence of null-terminated strings, terminated by an empty string \(\\0\). Example: String1\\0String2\\0String3\\0LastString\\0\\0. The final terminator must be included in the length.
 -   To modify a registry key value, you need to have the admin access to the device.
 
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
 </td></tr><tr><td>
 
 Delete a file
@@ -446,6 +670,14 @@ Windows
 
 Performing this action will permanently delete the entered file \(full file name or absolute file path\) from the user’s device. Proceed with caution when deleting critical system files.**Note:** Only one file can be entered at a time. The file name must include a valid extension \(for example, `.log`, `.txt`\).
 
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
 </td></tr><tr><td>
 
 Modify Device Battery Power Plan
@@ -457,6 +689,14 @@ Windows
 </td><td>
 
 Performing this action on the end-user’s device will adjust device power plan settings using PowerShell scripts to optimize performance, energy efficiency, and battery life.
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
 
 </td></tr><tr><td>
 
@@ -473,6 +713,99 @@ Performing this action on an end-user's device will sync the device on Intune.**
 -   The minimum Microsoft Intune Spoke version required to run this action is 1.4.0.
 -   For more information on sync device action, see [https://learn.microsoft.com/en-us/graph/api/intune-devices-manageddevice-syncdevice?view=graph-rest-1.0](https://learn.microsoft.com/en-us/graph/api/intune-devices-manageddevice-syncdevice?view=graph-rest-1.0).
 
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+Clear System Cache
+
+</td><td>
+
+None
+
+</td><td>
+
+Windows: Local System Account
+
+</td><td>
+
+Removes temporary files and cache data from multiple system locations. It targets the-   current logged-in user's profile temp directory- \(%USERPROFILE%\\AppData\\Local\\Temp\),
+-   Windows system temp directory - \(C:\\Windows\\Temp\)
+-   clears Windows Explorer thumbnail cache databases - \(%USERPROFILE%\\AppData\\Local\\Microsoft\\Windows\\Explorer\) to free up disk space and resolve performance degradation.
+
+</td><td>
+
+Reclaim disk space and resolve performance issues caused by accumulated temporary files and corrupted cache. Possible use cases may include the following:-   Recover disk space on devices where temporary files are accumulating.
+-   Fix broken file previews and thumbnail display errors by clearing Explorer cache databases.
+-   Address system performance alerts as part of automated remediation workflows.
+
+</td></tr><tr><td>
+
+Reset Printer Spooler
+
+</td><td>
+
+None
+
+</td><td>
+
+Windows: Local System Account
+
+</td><td>
+
+Reset's the print spooler service by stopping the service, clearing queued print jobs, and restarting the service. This resolves common printing issues such as stuck or failed print jobs.
+
+</td><td>
+
+-   Remediate printer connectivity issues.
+-   Resolve stuck print jobs, print queue corruption, or printer not responding without requiring device restart.
+
+</td></tr><tr><td>
+
+Start service
+
+</td><td>
+
+`service_name`
+
+</td><td>
+
+Windows: Local System Account
+
+</td><td>
+
+Starts a Windows service that is currently not running. If the service has dependent child services, those are started as well. If one of several dependent services fails to start, the action reports a partial result and includes the error for the failed child service.
+
+</td><td>
+
+Auto-remediate Windows services that stop unexpectedly.
+
+</td></tr><tr><td>
+
+Stop service
+
+</td><td>
+
+`service_name`
+
+</td><td>
+
+Windows: Local System Account
+
+</td><td>
+
+Stops a Windows service that is currently running, including dependent services \(multi-level dependencies\).
+
+</td><td>
+
+Give admins/agents an explicit way to stop a Windows service and its dependents, distinct from the existing Restart service action, which assumes the service is already running.
 
 </td></tr></tbody>
 </table><table id="table_f5n_gcl_cfc"><thead><tr><th>

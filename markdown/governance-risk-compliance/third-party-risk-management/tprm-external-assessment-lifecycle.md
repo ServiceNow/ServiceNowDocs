@@ -7,7 +7,7 @@ release: zurich
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: concept
-last_updated: "2026-06-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Third-party \(external\) risk assessment management, Reference, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -56,7 +56,7 @@ The process of collecting assessment data from a third party moves through sever
 
 In the Classic engine, questionnaire requests \(previously called assessment instances\) and questionnaires themselves have separate state systems. The SAE uses a simplified set of questionnaire states.
 
-**Note:** If you upgraded from Yokohama or earlier and enabled the Smart Assessment Engine \(SAE\) in Zurich, questionnaire states are simplified to the three states shown above. For information about assessment status changes, see [Third-party Risk Management upgrade information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/release-notes/grc-tprm-upgrade-info.md).
+**Note:** If you upgraded from Yokohama or earlier and enabled the Smart Assessment Engine \(SAE\) in Zurich, questionnaire states are simplified to the three states shown above.
 
 Questionnaire requests track the overall status of a questionnaire request sent to a third party.
 

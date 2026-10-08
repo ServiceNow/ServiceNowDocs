@@ -49,7 +49,7 @@ The Search retrieval tool is configured to use the \[CSM AIS\] Configurable Work
 
 7.  Navigate to **All** &gt; **AI Search** &gt; **Search Profile** &gt; **\[CSM AIS\] Configurable Workspace Search Config**.
 
-8.  In the Search Sources related list, select **Link Existing** and then link the previously created search source.
+8.  In the Search Sources related list, select **Link Existing** and then link the previously created search source \(Step 6\).
 
 9.  Activate the \[CSM AIS\] Configurable Workspace Search Config AI search profile by selecting **Publish**.
 

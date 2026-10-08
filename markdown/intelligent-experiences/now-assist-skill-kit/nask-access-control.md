@@ -1,24 +1,24 @@
 ---
 title: Configure security controls for a skill
-description: You must define an access control list \(ACL\) and role restrictions for all skills. An ACL enables you to restrict who is able to access and execute a skill to only users with the correct role. Role restrictions enable users to limit roles during skill execution.
+description: Define an access control list \(ACL\) and role restrictions for every skill. The ACL limits which user roles can access and run the skill, and role restrictions limit the roles that the skill runs with.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/now-assist-skill-kit/nask-access-control.html
 release: zurich
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring AI Skill Kit, AI Skill Kit, Enable AI experiences]
 ---
 
 # Configure security controls for a skill
 
-You must define an access control list \(ACL\) and role restrictions for all skills. An ACL enables you to restrict who is able to access and execute a skill to only users with the correct role. Role restrictions enable users to limit roles during skill execution.
+Define an access control list \(ACL\) and role restrictions for every skill. The ACL limits which user roles can access and run the skill, and role restrictions limit the roles that the skill runs with.
 
 ## About this task
 
-If you have an existing skill that does not have an ACL, the execution of the skill is not disrupted. However, if you edit the skill and republish it, you must add an ACL.
+Existing skills without an ACL continue to run. However, if you edit the skill and republish it, you must add an ACL.
 
 If you try to execute a skill when you don’t have permission, you see an error that you aren’t authorized.
 
@@ -30,7 +30,7 @@ Role required: sn\_skill\_builder.admin
 
 1.  Navigate to **All** &gt; **AI Skill Kit** &gt; **Home**.
 
-    A modal appears to explain ACLs. You can select **Got it** or **View skills without ACLs**.
+    A dialog box that explains ACLs appears. You can select **Got it** or **View skills without ACLs**.
 
 2.  Add an ACL and role restrictions to an existing skill.
 
@@ -41,8 +41,6 @@ Role required: sn\_skill\_builder.admin
     3.  Select **Add ACL**.
 
     4.  Select an option.
-
-        \[Omitted image "nask-acl.png"\] Alt text: User access dialog.
 
 <table id="table_h4k_kys_jgc"><thead><tr><th>
 
@@ -58,7 +56,7 @@ Any authenticated user
 
 </td><td>
 
-As long as a user is logged in, they can access and execute the skill.
+Any logged-in user can access and run the skill.
 
 </td></tr><tr><td>
 
@@ -66,7 +64,7 @@ Select roles
 
 </td><td>
 
-Select the roles that a user must have to execute the skill. **Note:** If you select multiple roles, a user must only have one of the roles to execute the skill.
+Select the roles that a user must have to execute the skill. **Note:** If you select multiple roles, a user needs only one of the roles to run the skill.
 
 </td></tr></tbody>
 </table>    5.  Add role restrictions.
@@ -91,5 +89,5 @@ Select the roles that a user must have to execute the skill. **Note:** If you se
 
 [Configure a skill prompt]()
 
-[Configure skill deployment settings]()
+[Configure deployment and skill settings]()
 

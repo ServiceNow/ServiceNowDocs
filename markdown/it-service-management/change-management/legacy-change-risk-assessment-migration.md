@@ -9,7 +9,7 @@ classification: change-management
 topic_type: task
 last_updated: "2026-07-17"
 reading_time_minutes: 3
-breadcrumb: [Analyze change request risk and impact rating, Reference, Change Management, IT Service Management]
+breadcrumb: [Analyze change request risk and impact, Reference, Change Management, IT Service Management]
 ---
 
 # Migrate from legacy change risk assessments
@@ -73,5 +73,5 @@ Capture the results in the update set created and later mark the update set as c
 -   **[Migrated risk assessment components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/migrated-risk-assessment-components.md)**  
 When you migrate a change risk assessment, the system maps records from legacy risk assessment to the new risk assessment tables.
 
-**Parent Topic:**[Analyze change request risk and impact rating](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/change-risk-conflict-analysis.md)
+**Parent Topic:**[Analyze change request risk and impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/change-risk-conflict-analysis.md)
 

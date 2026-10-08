@@ -1,6 +1,6 @@
 ---
 title: Set up routing policy for automated certificate management
-description: Set up a routing policy to automate your Certificate Inventory and Management. Creating a policy based on Certificate Authority \(CA\), environment, and other features ensures efficient TLS certificate management.
+description: Set up a routing policy to automate your Certificate Inventory and Management. Creating a policy based on Certificate Authority \(CA\), environment, and other features confirm efficient TLS certificate management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/discovery/setup-routing-policy.html
 release: zurich
@@ -14,7 +14,7 @@ breadcrumb: [Automated certificate management for TLS certificates, Configure, C
 
 # Set up routing policy for automated certificate management
 
-Set up a routing policy to automate your Certificate Inventory and Management. Creating a policy based on Certificate Authority \(CA\), environment, and other features ensures efficient TLS certificate management.
+Set up a routing policy to automate your Certificate Inventory and Management. Creating a policy based on Certificate Authority \(CA\), environment, and other features confirm efficient TLS certificate management.
 
 ## Before you begin
 
@@ -24,7 +24,12 @@ Role required: pki\_admin or admin
 
 The routing policy decides which CA must be contacted for certificate operations. It contains the CA, CA URL, Credential, Approval Group, Assignment Group, and CSR attributes. The routing policy triggers the flow for requesting certificates for specific CAs.
 
-**Note:** A certificate request is considered a duplicate if there is another certificate task with the same domain name that is still in progress. Duplicate certificate requests are not allowed. However, you can override this setting by checking the Allow duplicate requests check box. Approvals are only supported in the Fulfiller approval experience at this time. See a table of fields that go into the routing policies at, [Certificate routing policy form for EJBCA ACME](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/certificate-routing-policy-form-table.md).
+A certificate request is considered a duplicate if there is another certificate task with the same domain name that is still in progress. Duplicate certificate requests aren't allowed. However, you can override this setting by checking the Allow duplicate requests check box.
+
+**Note:**
+
+-   Approvals are only supported in the Fulfiller approval experience at this time. See a table of fields that go into the routing policies at, [Certificate routing policy form for EJBCA ACME](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/certificate-routing-policy-form-table.md).
+-   When the CA's certificates needs to be picked up by Discovery, the same credential alias must be set as the CredentialAlias argument on the corresponding CA discovery pattern. Both associations use the identical alias value, one enables authentication for discovery, the other for automated certificate requests.
 
 ## Procedure
 
@@ -57,7 +62,7 @@ The routing policy decides which CA must be contacted for certificate operations
 
 4.  The following options may occur.
 
-<table id="choicetable_ccx_lnc_nqb"><tbody><tr><td id="d76517e184">
+<table id="choicetable_ccx_lnc_nqb"><tbody><tr><td id="d77542e196">
 
 **If a single routing policy matches**
 
@@ -68,7 +73,7 @@ Verify the following conditions: -   Validate the subject common name using the 
 -   Check for duplicate Certificate Request is allowed flag in the Routing Policy table.
 
 
-</td></tr><tr><td id="d76517e205">
+</td></tr><tr><td id="d77542e217">
 
 **If multiple routing policies are eligible**
 
@@ -76,7 +81,7 @@ Verify the following conditions: -   Validate the subject common name using the 
 
 The task is assigned to the default approver group.
 
-</td></tr><tr><td id="d76517e214">
+</td></tr><tr><td id="d77542e226">
 
 **If there is no routing policy found**
 
@@ -84,7 +89,7 @@ The task is assigned to the default approver group.
 
 The task is assigned to the default approver group.
 
-</td></tr><tr><td id="d76517e223">
+</td></tr><tr><td id="d77542e235">
 
 **If single policy matches and approval needed flag is true**
 

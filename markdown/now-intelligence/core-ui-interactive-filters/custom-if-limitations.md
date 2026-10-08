@@ -52,7 +52,7 @@ Custom interactive filters are a fallback for use when standard interactive filt
 
 -   **Custom interactive filters cannot be used in a breakdown dashboard**
 
-    On breakdown dashboards, the breakdown itself is used to filter all Performance Analytics widget data. For more information, see [Using breakdowns on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/c_SpecialDashboards.md).
+    On breakdown dashboards, the breakdown itself is used to filter all Performance Analytics widget data. For more information, see [Using breakdowns on responsive dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/c_SpecialDashboards.md).
 
 
 **Parent Topic:**[Custom interactive filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/core-ui-interactive-filters/c_CustomPublishers.md)

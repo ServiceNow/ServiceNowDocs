@@ -8,7 +8,7 @@ product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Use, Employee Center, Unified Employee Experience, Employee Service Management]
 ---
 
@@ -21,7 +21,7 @@ Manage Concur expense approvals using Virtual Agent actionable notifications in 
 -   The Virtual Agent integration is supported only for users who have a user record in your ServiceNow instance. Users must link their accounts to Microsoft Teams and enable Virtual Agent notifications.
 -   Install the Approvals hub integration with the SAP Concur \(sn\_ex\_cnc\) plugin.
 
-For more information on receiving notifications, see  and . For more information on Virtual Agent, see .
+For more information on receiving notifications, see [Conversational Integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/teams-conv-integration.md) and [Enable Virtual Agent notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/enable-va-notifications.md). For more information on Virtual Agent, see [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/virtual-agent-landing-page.md).
 
 Role required: approver\_user
 
@@ -45,15 +45,15 @@ Role required: approver\_user
 
     **Note:** You cannot accept or reject a report if the assigned approver has been modified or the report has been updated or closed.
 
-<table id="choicetable_wnl_kjd_4xb"><thead><tr><th align="left" id="d239563e173">
+<table id="choicetable_wnl_kjd_4xb"><thead><tr><th align="left" id="d239810e176">
 
 Decision
 
-</th><th align="left" id="d239563e176">
+</th><th align="left" id="d239810e179">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d239563e182">
+</th></tr></thead><tbody><tr><td id="d239810e185">
 
 **Approve the report**
 
@@ -61,7 +61,7 @@ Action
 
 Select **Approve**.
 
-</td></tr><tr><td id="d239563e194">
+</td></tr><tr><td id="d239810e197">
 
 **Reject the report**
 

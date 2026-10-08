@@ -24,8 +24,8 @@ Create actions to fix issues that cause automations to fail.
 Reviews enable you to evaluate automations that have been created.
 -   **[Working with Connection manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/connection-manager.md)**  
 Connection Manager enables you to add data from a third-party tool into Automation Center tables by correctly mapping and testing the data import.
--   **[Migrating automations from UiPath and Blue Prism to ServiceNow RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/migrating-automations-from-uipath.md)**  
-Migrate UiPath and Blue Prism automations to ServiceNow RPA Hub using Automation Center.
+-   **[Migrating automations from third-party applications to RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/migrating-automations-from-uipath.md)**  
+Migrate UiPath, Blue Prism, Automation Anywhere automations to ServiceNow RPA Hub using Automation Center.
 -   **[Integration with Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/integrating-with-task-mining.md)**  
 Task Mining integration helps you use Task Mining to identify, design, and build automation agents that handle repetitive user workflows. Task Mining captures screen activity from user sessions and analyzes what users do, enabling you to automate those exact workflows.
 -   **[ServiceNow Otto for Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/automation-center/nowassist-ac.md)**  

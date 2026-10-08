@@ -86,13 +86,13 @@ ACL enforcement happens at the node level during every graph traversal. Two user
 
 </td></tr></tbody>
 </table>-   **[Create a tool from a Subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/create-subflow-tool.md)**  
-Create a tool from a Subflow to expose it to Model Context \(MCP\) clients from an MCP Server.
+Create a tool from a Subflow to expose it to Model Context Protocol \(MCP\) clients from an MCP Server Console.
 -   **[Create a tool from an Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/create-action-tool.md)**  
 Create a tool from an Action to expose it to Model Context Protocol \(MCP\) clients from an MCP Server.
 -   **[Create a tool from a Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/create-a-tool-from-knowledge-graphs.md)**  
 Create a tool from a Knowledge Graph to expose it to Model Context Protocol \(MCP\) clients from an MCP Server.
 -   **[Create a tool from a REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/create-a-tool-from-rest-api.md)**  
-Create a tool from a REST API to expose it to Model Context Protocol \(MCP\) clients from an MCP Server.
+Use a REST API to create a tool and expose it to Model Context Protocol \(MCP Server Console\) clients from an MCP Server Console.
 -   **[Create a tool from an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/create-a-tool-from-naskill.md)**  
 Create a tool from a generative AI skill to expose it to Model Context Protocol \(MCP\) clients from an MCP Server.
 

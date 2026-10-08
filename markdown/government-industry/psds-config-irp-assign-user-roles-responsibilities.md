@@ -1,6 +1,6 @@
 ---
-title: Assign user personas, roles, and groups in Information Request Playbook
-description: By default, the Information Request Playbook application comes with roles, personas, and responsibilities that can be assigned to existing users on the platform.
+title: Assign user personas, roles, and groups in Information Request Administration
+description: By default, the Information Request Administration application comes with roles, personas, and responsibilities that can be assigned to existing users on the platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/psds-config-irp-assign-user-roles-responsibilities.html
 release: zurich
@@ -10,9 +10,9 @@ reading_time_minutes: 2
 breadcrumb: [Information Request Playbook, Playbooks and Solutions, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Assign user personas, roles, and groups in Information Request Playbook
+# Assign user personas, roles, and groups in Information Request Administration
 
-By default, the Information Request Playbook application comes with roles, personas, and responsibilities that can be assigned to existing users on the platform.
+By default, the Information Request Administration application comes with roles, personas, and responsibilities that can be assigned to existing users on the platform.
 
 ## Assigning user roles
 

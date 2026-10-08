@@ -28,7 +28,7 @@ Before you begin, confirm you have:
 
 ## About this task
 
-The automated quality assurance dashboard provides managers with detailed insights into individual agent performance metrics. This view displays comprehensive QA scoring data at both the agent and case levels, enabling you to monitor, evaluate, and provide feedback on agent interactions.
+The automated quality assurance \(QA\) dashboard provides managers with detailed insights into individual agent performance metrics. This view displays comprehensive QA scoring data at both the agent and case levels, enabling you to monitor, evaluate, and provide feedback on agent interactions.
 
 The automated quality assurance widget serves as an entry point to access the quality assurance supervisor dashboard and is available on the CRM Workspace.
 
@@ -50,7 +50,7 @@ The automated quality assurance widget serves as an entry point to access the qu
 
 5.  Review the quality reports for your agents.
 
-    Review quality reports to monitor agent performance.
+    You can perform the following actions on the dashboard.
 
     -   View individual agent quality scores and evaluations.
     -   Filter reports by date range, agent, or quality parameters or by assignment groups. When the **Assignment** filter is applied the trends, breakdowns, list of agents, and cases are all impacted and the dashboard is refreshed to show values based on the assignment group that is selected along with the date range.

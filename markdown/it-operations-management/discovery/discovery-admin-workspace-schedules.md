@@ -7,7 +7,7 @@ release: zurich
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-07-25"
+last_updated: "2026-10-01"
 reading_time_minutes: 8
 keywords: [Discovery, Admin, Workspace]
 breadcrumb: [Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
@@ -65,7 +65,7 @@ Indicator
 
 </td><td>
 
-Displays the total number of IP-based and Cloud Discovery schedules that are configured and enabled to run on a recurring basis.Select the number to view all Discovery schedules.
+Displays the total number of IP-based and Cloud Discovery schedules that are configured aP-based and Cloud Discovery schedulesecurring basis.
 
 </td></tr><tr><td>
 

@@ -48,8 +48,3 @@ There are several properties that get installed with the Document designer plugi
 
 **Parent Topic:**[Microsoft Word based audit report templates using Document designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/grc-common-functions/document-designer-template.md)
 
-**Related topics**  
-
-
-[ai-reporting-assistant]
-

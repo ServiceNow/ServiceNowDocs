@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-adoptionservices-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
-reading_time_minutes: 5
+last_updated: "2026-10-08"
+reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
 
@@ -85,9 +85,7 @@ Yokohama
 
 -   **[Guided Setup](https://www.servicenow.com/docs/access?context=guided-setup&family=yokohama&ft:locale=en-US)**
 
-Create additional tasks under Guided Setup using page macroponent as an app owner. You can also access and execute these tasks with an admin role.
-
-Add new steps to guided setups in progress during Playbook Experience.
+Create additional tasks under Guided Setup using page macroponent as an app owner. You can also access and execute these tasks with an admin role.Add new steps to guided setups in progress during Playbook Experience.
 
 
 </td></tr><tr><td>
@@ -98,9 +96,7 @@ Zurich
 
 -   **[Help Center](https://www.servicenow.com/docs/access?context=help-center&family=zurich&ft:locale=en-US)**
 
-Find the available Guided Tours that are now prominently listed in the Help Center.
-
-View the state of the Guided Tours in progress, in the Help Center. Any other help content is hidden when the tour is running. These enhancements are applicable across workspaces.
+Find the available Guided Tours that are now prominently listed in the Help Center.View the state of the Guided Tours in progress, in the Help Center. Any other help content is hidden when the tour is running. These enhancements are applicable across workspaces.
 
 
 </td></tr></tbody>
@@ -139,28 +135,34 @@ Yokohama
 
 -   **[Guided Setup](https://www.servicenow.com/docs/access?context=guided-setup&family=yokohama&ft:locale=en-US)**
 
-Assign and transfer Guided Setup tasks to relevant users, for execution. This capability requires admin roles.
-
-Set Guided Setup steps as mandatory by disabling the skip action.
-
-You can now run the Guided Setup player or builder multiple times.
-
-Select the multi-run feature while you’re configuring and executing the tasks multiple times.
+Choose from the playbook player and Next Experience and explore improved navigation across Guided Setup activities.
 
 
--   **[Help Center](https://www.servicenow.com/docs/access?context=help-center&family=yokohama&ft:locale=en-US)**
+ -   **[Guided Setup](https://www.servicenow.com/docs/access?context=guided-setup&family=yokohama&ft:locale=en-US)**
 
-Navigate to What's New within the Help Center panel across all experiences, including Core UI. Starting in the Yokohama release, configuration support for this new feature is available in classic and custom pages.
-
-This feature isn’t supported for non-Polaris users.
+Assign and transfer Guided Setup tasks to relevant users, for execution. This capability requires admin roles.Set Guided Setup steps as mandatory by disabling the skip action.You can now run the Guided Setup player or builder multiple times.Select the multi-run feature while you’re configuring and executing the tasks multiple times.
 
 
--   **[Embedded Help](https://www.servicenow.com/docs/access?context=embedded-help&family=yokohama&ft:locale=en-US)**
+ -   **[Help Center](https://www.servicenow.com/docs/access?context=help-center&family=yokohama&ft:locale=en-US)**
+
+The Help Center panel is now attachable and detachable from the header. You can also drag and resize it after you detach it. This feature is available with a keyboard, for accessibility support.
+
+-   **[Guided Tours](https://www.servicenow.com/docs/access?context=guided-tours&family=yokohama&ft:locale=en-US)**
+
+Guided Tours is now accessible in dark and light themes. This capability now inherits any theme-based color and scheme that you select.
+
+
+ -   **[Help Center](https://www.servicenow.com/docs/access?context=help-center&family=yokohama&ft:locale=en-US)**
+
+Navigate to What's New within the Help Center panel across all experiences, including Core UI. Starting in the Yokohama release, configuration support for this new feature is available in classic and custom pages.This feature isn’t supported for non-Polaris users.
+
+
+ -   **[Embedded Help](https://www.servicenow.com/docs/access?context=embedded-help&family=yokohama&ft:locale=en-US)**
 
 Import non-English content without overriding the last uploaded language content.
 
 
--   **[Guided Tours](https://www.servicenow.com/docs/access?context=guided-tours&family=yokohama&ft:locale=en-US)**
+ -   **[Guided Tours](https://www.servicenow.com/docs/access?context=guided-tours&family=yokohama&ft:locale=en-US)**
 
 Create, edit, or delete Guided Tours from any scoped application including ServiceNow AI Platform.
 
@@ -174,6 +176,22 @@ Zurich
 -   **[genai\_admin role in Dynamic Guidance](https://www.servicenow.com/docs/access?context=configure&family=zurich&ft:locale=en-US)**
 
 The sn\_dyn\_guidance\_user role now includes the role. When you assign sn\_dyn\_guidance\_user to a user, the genai\_admin role is automatically granted.
+
+
+ -   **Easy discoverability of [Guided Tours](https://www.servicenow.com/docs/access?context=guided-tours&family=zurich&ft:locale=en-US)**
+
+Guided Tours are now prominently displayed on the Help Center, making them easier to find. Based on your role, you will have access to guided tours that provide an interactive experience, allowing you to engage directly with the application.
+
+
+ -   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+For existing customers who upgrade to Zurich, use [Theme Builder to publish Coral theme to your instance](https://www.servicenow.com/docs/access?context=tb-apply-theme&family=zurich&ft:locale=en-US) or [add Coral theme to the Next Experience UX Parent App Theme table](https://www.servicenow.com/docs/access?context=configure-presentation-order-of-themes&family=zurich&ft:locale=en-US).
+
+-   **[Onboarding modals](https://www.servicenow.com/docs/access?context=next-experience-onboarding&family=zurich&ft:locale=en-US)**
+
+The images in the Onboarding modals now match the theme of the instance that you choose, whether dark, light, or coral to provide a visually cohesive experience.
 
 
 </td></tr></tbody>
@@ -277,7 +295,12 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Adoption Services is a ServiceNow AI Platform feature that is provided with the plugins, by default. You don’t need to activate this feature.
+
+
+**Important:** Adoption Services is available in ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 
@@ -285,7 +308,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Adoption Services is active by default with the plugins. Do not activate this feature explicitly.
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -396,13 +422,14 @@ Zurich
 
 </td><td>
 
--   **[Guided Tours](https://www.servicenow.com/docs/access?context=guided-tours&family=zurich&ft:locale=en-US)**
+-   **Accessibility information**
+    -   **[Guided Tours](https://www.servicenow.com/docs/access?context=guided-tours&family=zurich&ft:locale=en-US)**
 
 Guided Tours is enhanced with more accessibility features including:
 
-    -   Descriptive page titles
-    -   Keyboard assistance for suggesting required fields through screen reader
-    -   Keyboard assistance for focussed user interface controls like, tool tip icons and check-boxes
+        -   Descriptive page titles
+        -   Keyboard assistance for suggesting required fields through screen reader
+        -   Keyboard assistance for focussed user interface controls like, tool tip icons and check-boxes
 
 </td></tr></tbody>
 </table>## Localization information

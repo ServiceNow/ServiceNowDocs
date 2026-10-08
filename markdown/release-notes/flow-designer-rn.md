@@ -22,7 +22,7 @@ The ServiceNow® Workflow Studio application enables process analysts to automat
 -   Create multiple skills for conversational subflows and actions from the conversational settings.
 -   Configure a default LLM for generating metadata for conversational subflows and actions.
 
-See , , and  for more information.
+See [Exploring flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/exploring-flows.md), [Exploring subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/exploring-subflows.md), and [Exploring actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/exploring-actions.md) for more information.
 
 ## Activation and other requirements
 
@@ -36,7 +36,7 @@ See , , and  for more information.
 
 -   **Upgrade information**
 
-    An earlier version of the save as you go feature was released and withdrawn from the Washington DC release. If you're upgrading from the Washington DC release, you might have manually turned off the save as you go features by setting a system property. To restore the save as you go features, see .
+    An earlier version of the save as you go feature was released and withdrawn from the Washington DC release. If you're upgrading from the Washington DC release, you might have manually turned off the save as you go features by setting a system property. To restore the save as you go features, see [Restore save as you go functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/restore-save-as-you-go-functionality.md).
 
 
 ## Accessibility and localization
@@ -59,15 +59,15 @@ The ServiceNow® Workflow Studio application enables process analysts to automat
 
 ### What's new
 
--   **Support Now LLM Long Term Stable models \(LTS\) with Flow generation**
+-   **[Support Now LLM Long Term Stable models \(LTS\) with Flow generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/exploring-flow-generation.md)**
 
     Support the Now LLM Long Term Stable models \(LTS\) for Flow generation.
 
--   **Support Now LLM Long Term Stable models \(LTS\) with Flow summarization**
+-   **[Support Now LLM Long Term Stable models \(LTS\) with Flow summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/flow-summarization.md)**
 
     Support the Now LLM Long Term Stable models \(LTS\) for Flow summarization.
 
--   ****
+-   **[Use an AI agent action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/use-an-ai-agent-action.md)**
 
     Use flow data to run an AI agent and configure the expected agent output for use later in the flow.
 
@@ -78,7 +78,7 @@ The ServiceNow® Workflow Studio application enables process analysts to automat
 
 ### What's new
 
--   **Use conversational subflows and actions by default**
+-   **[Use conversational subflows and actions by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/conversational-subflows.md)**
 
     Use conversational subflows and actions when you install any Now Assist product. This skill is active by default.
 
@@ -89,15 +89,15 @@ The ServiceNow® Workflow Studio application enables process analysts to automat
 
 ### What's new
 
--   **Create a skill for conversational subflows and actions**
+-   **[Create a skill for conversational subflows and actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/create-conversational-subflow-skill.md)**
 
     Create a skill for the conversational subflow and action and make the skill discoverable in conversations. You can have multiple skills for the same subflow or action.
 
--   **Enhancements in the subflow and action conversational settings**
+-   **[Enhancements in the subflow and action conversational settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/configure-subflow-conversation-settings.md)**
 
     To make the error messages more useful in a conversation, you can show specific error messages from the subflow or action rather than showing generic error messages. Additionally, if you override an input with reference, you can apply a filter to limit the number of records in the Reference field.
 
--   **Use your preferred LLM to generate descriptions for subflow or action skill, input, and output**
+-   **[Use your preferred LLM to generate descriptions for subflow or action skill, input, and output](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/configure-llm-for-conversational-subflow.md)**
 
     Leverage generative AI to generate descriptions for the subflow or action skill, inputs, and outputs. You can configure a default LLM to generate the descriptions.
 
@@ -108,35 +108,35 @@ The ServiceNow® Workflow Studio application enables process analysts to automat
 
 ### What's new
 
--   **Create and manage external event sources**
+-   **[Create and manage external event sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/manage-external-event-sources.md)**
 
     Create an external event source on your ServiceNow instance that listens to events occurring in an application or system outside of the ServiceNow AI Platform®. Based on the external event source, you can define one or more external trigger definitions in your instance and then associate the external trigger definitions with the external event source. When an event that you specified in the external trigger definition occurs, the external trigger definition executes one or more flows. You can update or remove external event sources that you create.
 
--   **Create a domain-separated saved external trigger**
+-   **[Create a domain-separated saved external trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/create-saved-external-trigger.md)**
 
     Create a domain-separated saved external trigger. Configurations that you make to the trigger are auto-saved. After the trigger is published, you can edit only the **Label** field values.
 
--   **Create a reusable scheduled trigger**
+-   **[Create a reusable scheduled trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/create-scheduled-trigger.md)**
 
     Create a scheduled trigger that starts your flow when you need. Use the trigger across your flows.
 
--   **Make a flow wait for an email reply**
+-   **[Make a flow wait for an email reply](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/wait-for-email-reply-action.md)**
 
     Pause a flow until an email reply is received to an outbound email record
 
--   ****
+-   **[Show subflow stages in a parent flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/show-subflow-stages-in-a-parent-flow.md)**
 
     Show subflow stages as part of the execution details of a parent flow.
 
--   **Save flows, subflows, and actions automatically**
+-   **[Save flows, subflows, and actions automatically](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/save-as-you-go-flows.md)**
 
     Save flows, subflows, and actions automatically as you work on them.
 
--   **View flow history**
+-   **[View flow history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/flow-history.md)**
 
     View and manage the history of a flow. See past configurations of a flow to copy, restore, or remove them.
 
--   **View subflow history**
+-   **[View subflow history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/subflow-history.md)**
 
     View and manage the history of a subflow. See past configurations of a subflow to copy, restore, or remove them.
 
@@ -147,23 +147,23 @@ The ServiceNow® Workflow Studio application enables process analysts to automat
 
     Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
 
--   **Display flow recommendations in flow diagramming view**
+-   **[Display flow recommendations in flow diagramming view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/exploring-flow-recommendations.md)**
 
     Get a list of recommendations for the next item in your flow while in a flow diagramming view.
 
--   **Launch the flow debugger from an updated button**
+-   **[Launch the flow debugger from an updated button](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/flow-debugger.md)**
 
     Start the flow debugger from an updated button.
 
--   **Open conversational subflow settings from an updated button**
+-   **[Open conversational subflow settings from an updated button](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/configure-subflow-conversation-settings.md)**
 
     The option to open subflow conversational settings has moved from the more action menu to the sidebar.
 
--   **Open conversational action settings from an updated button**
+-   **[Open conversational action settings from an updated button](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/configure-action-conversation-settings.md)**
 
     The option to open action conversational settings has moved from the more action menu to the sidebar.
 
--   **See event sources from a new menu**
+-   **[See event sources from a new menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/manage-external-event-sources.md)**
 
     Create, read, update, or delete external event sources with the Event sources menu. An Event sources menu has been added to a panel of the spokes page that appears after you select a spoke under the **Integrations** tab.
 

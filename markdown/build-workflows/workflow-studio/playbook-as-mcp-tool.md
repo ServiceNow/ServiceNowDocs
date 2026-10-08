@@ -9,7 +9,7 @@ classification: workflow-studio
 topic_type: concept
 last_updated: "2026-07-23"
 reading_time_minutes: 3
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Building playbooks, Use, Workflow Studio, Build workflows]
 ---
 
@@ -67,7 +67,7 @@ We take an example of enabling an employee onboarding playbook to new employees 
 
 -   **Step 3: Configure the MCP client**
 
-    Configure MCP clients to connect to the server and use the tool. For more information, see 
+    Configure MCP clients to connect to the server and use the tool. For more information, see [Connecting to an MCP server from an MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/connect-mcp-server-client.md)
 
 -   **Step 4: Use the playbook from the MCP client**
 
@@ -84,6 +84,8 @@ We take an example of enabling an employee onboarding playbook to new employees 
 
 -   **[Add a playbook as an MCP tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/add-playbook-as-mcp-tool.md)**  
 Create a tool in the MCP Server Console and expose it in an MCP server so that MCP clients can invoke the playbook through the MCP.
+-   **[Check the compatibility of playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/check-mcp-compatibility-playbooks.md)**  
+Verify that the playbook is compatible to be used as an MCP tool.
 
 **Parent Topic:**[Building playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/building-a-process.md)
 

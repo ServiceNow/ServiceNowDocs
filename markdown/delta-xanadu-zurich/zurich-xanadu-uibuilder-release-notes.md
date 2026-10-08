@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-uibuilder-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
-reading_time_minutes: 5
+last_updated: "2026-10-08"
+reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
 
@@ -110,18 +110,6 @@ Zurich
 
 </td><td>
 
--   **[Build and customize components](https://www.servicenow.com/docs/access?context=component-builder&family=zurich&ft:locale=en-US)**
-
-Build custom components and configure them to be used across pages and experiences.
-
--   **[Utilize AI on pages you are building](https://www.servicenow.com/docs/access?context=add-skill&family=zurich&ft:locale=en-US)**
-
-Easily add generative AI capabilities to any page, component, or controller
-
--   **[Get conversational help with the Now Assist panel](https://www.servicenow.com/docs/access?context=uib-now-assist-panel&family=zurich&ft:locale=en-US)**
-
-Ask questions directly in the Now Assist panel to receive immediate AI-driven guidance without leaving UI Builder.
-
 -   **[Build pages and gain page insights using the Now Assist panel in UI Builder.](https://www.servicenow.com/docs/access?context=using-ui-builder-agent&family=zurich&ft:locale=en-US)**
 
 As of UI Builder Version 28.2, use Now Assist to add components, bind data, adjust layouts, and get page insights such as number of components, data resource information, and access permissions.
@@ -129,6 +117,20 @@ As of UI Builder Version 28.2, use Now Assist to add components, bind data, adju
 -   **[Add test values in Component Builder](https://www.servicenow.com/docs/access?context=component-builder&family=zurich&ft:locale=en-US)**
 
 As of UI Builder Version 28.2, define simulated page parameters to preview and validate how customer components behave during development.
+
+
+ -   **[Utilize AI on pages you are building](https://www.servicenow.com/docs/access?context=add-skill&family=zurich&ft:locale=en-US)**
+
+Easily add generative AI capabilities to any page, component, or controller
+
+-   **[Get conversational help with the Now Assist panel](https://www.servicenow.com/docs/access?context=uib-now-assist-panel&family=zurich&ft:locale=en-US)**
+
+Ask questions directly in the Now Assist panel to receive immediate AI-driven guidance without leaving UI Builder.
+
+
+ -   **[Build and customize components](https://www.servicenow.com/docs/access?context=component-builder&family=zurich&ft:locale=en-US)**
+
+Build custom components and configure them to be used across pages and experiences.
 
 
 </td></tr></tbody>
@@ -166,18 +168,6 @@ Zurich
 
 </td><td>
 
--   **[Add events to track components with unsaved changes](https://www.servicenow.com/docs/access?context=dirty-state-event&family=zurich&ft:locale=en-US)**
-
-Use an event to quickly identify modified components.
-
--   **[Configure alerts to auto-dismiss](https://www.servicenow.com/docs/access?context=uib-configure-alerts&family=zurich&ft:locale=en-US)**
-
-Enable alerts to auto-dismiss across an experience by configuring all of them in the experience settings or individually through an event.
-
--   **[Use pages across experiences](https://www.servicenow.com/docs/access?context=use-across-pages&family=zurich&ft:locale=en-US)**
-
-Share and reuse pages across workspaces without switching contexts or rebuilding content to help save time and simplify maintenance.
-
 -   **[Use the floating Now Assist panel to streamline your workflow](https://www.servicenow.com/docs/access?context=uib-now-assist-panel&family=zurich&ft:locale=en-US)**
 
 As of UI Builder version 28.2, the fixed Now Assist panel has been replaced with a drag-enabled floating panel improving layout flexibility and workflow visibility.
@@ -194,6 +184,19 @@ As of UI Builder version 28.2, the Experience view has improved usability in the
     -   Locate pages and variants with ease utilizing the search field.
     -   Search by name, URL, URL type, or variant, and toggle between filters for a cleaner, more intuitive page list.
     -   Pagination is automatically enabled when 10 or more pages are present.
+
+ -   **[Add events to track components with unsaved changes](https://www.servicenow.com/docs/access?context=dirty-state-event&family=zurich&ft:locale=en-US)**
+
+Use an event to quickly identify modified components.
+
+-   **[Configure alerts to auto-dismiss](https://www.servicenow.com/docs/access?context=uib-configure-alerts&family=zurich&ft:locale=en-US)**
+
+Enable alerts to auto-dismiss across an experience by configuring all of them in the experience settings or individually through an event.
+
+-   **[Use pages across experiences](https://www.servicenow.com/docs/access?context=use-across-pages&family=zurich&ft:locale=en-US)**
+
+Share and reuse pages across workspaces without switching contexts or rebuilding content to help save time and simplify maintenance.
+
 
 </td></tr></tbody>
 </table>## Removed
@@ -304,7 +307,12 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 UI Builder is active by default. You can update to the latest version of UI Builder by downloading it from the ServiceNow Store.
+
+
+**Important:** UI Builder is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -378,7 +386,10 @@ Zurich
 
 </td><td>
 
+-   **Browser requirements**
+
 Internet Explorer isn't supported for UI Builder.
+
 
 </td></tr></tbody>
 </table>## Accessibility information
@@ -415,7 +426,10 @@ Zurich
 
 </td><td>
 
+-   **Accessibility information**
+
 The expanded drop-down menus for column properties can be read by screen readers.
+
 
 </td></tr></tbody>
 </table>## Localization information

@@ -7,7 +7,7 @@ release: zurich
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: reference
-last_updated: "2026-09-16"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [Regulatory Change Management, Governance, Risk, and Compliance]
 ---
@@ -23,7 +23,7 @@ Different users perform various actions on the alert records based on the type o
 -   **[Roles and tables installed with Regulatory Agency Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/regulatory-change-management-service-portal/installed-with-regulatory-body-library-management.md)**  
 Several types of components are installed with activation of the Regulatory Agency Library application, including tables and user roles.
 -   **[Email notifications in Regulatory Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/regulatory-change-management-service-portal/email-notifications-in-rcm.md)**  
-A number of email notifications are sent by the Regulatory Change Management application.
+Email notifications are sent by the Regulatory Change Management \(RCM\) application at different stages of the regulatory alert workflow.
 
 **Parent Topic:**[Regulatory Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/regulatory-change-management-service-portal/reg-change-mgmt-landing-page.md)
 

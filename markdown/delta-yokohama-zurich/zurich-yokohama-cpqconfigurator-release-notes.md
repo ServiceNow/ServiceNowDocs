@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-cpqconfigurator-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
+last_updated: "2026-10-08"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -46,9 +46,12 @@ Zurich
 
 </td><td>
 
+-   **Upgrade information**
+
 If you used the legacy product configurator previously and want to use the CPQ Configurator, after upgrading, you must set the **sn\_prd\_pm.enable\_advanced\_configuration** system property to true to be able to use the configurator in Sales Customer Relationship Management workflows.
 
 .
+
 
 </td></tr></tbody>
 </table>## New features
@@ -83,7 +86,7 @@ Create configurable products and generate the associated product offering bluepr
 
 -   **[CPQ Configurator interface](https://www.servicenow.com/docs/access?context=using-servicenowcpq&family=zurich&ft:locale=en-US)**
 
-Enable agents and customers to configure customizable products using the CPQ Configurator embedded in Sales Customer Relationship Management workflows. The configurator is used in both the CSM Configurable Workspace and the Business Portal.
+Enable agents and customers to configure customizable products using the CPQ Configurator embedded in Sales Customer Relationship Management workflows. The configurator is used in both the CRM Workspace and the Business Portal.
 
 
 </td></tr></tbody>
@@ -200,7 +203,12 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Install the CPQ Configurator by requesting the CPQ Integration application from the ServiceNow Store. Visit the ServiceNow Store website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
+
+**Important:** CPQ Integration is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -229,7 +237,10 @@ Zurich
 
 </td><td>
 
+-   **Additional requirements**
+
 Before implementing CPQ Configurator, you must prepare your environment to use it. For more information, see [Without guided setup](https://www.servicenow.com/docs/access?context=configuring-servicenow-cpq&family=zurich&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Browser requirements

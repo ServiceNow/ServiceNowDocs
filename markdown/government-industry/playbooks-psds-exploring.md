@@ -37,7 +37,7 @@ The following applications are available with Public Sector Digital Services tha
 
     Provides an end-to-end workflow for handling license and permit requests submitted by public sector end users.
 
--   **[Information Request Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-exploring-pbs-information-request.md)**
+-   **[Information Request Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-exploring-pbs-information-request.md)**
 
     Provides an end-to-end workflow for handling public record and information requests submitted by public sector end users.
 

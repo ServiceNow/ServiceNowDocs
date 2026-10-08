@@ -25,7 +25,7 @@ Roles required: itil, report\_user, report\_group, report\_global, report\_admin
 1.  Perform one of the following actions:
 
     -   On an upgraded instance that has not been fully migrated to Platform Analytics, navigate to **All** &gt; **Reports** &gt; **Create New**.
-    -   On a new instance or one that has been fully migrated to Platform Analytics, navigate to **All** &gt; **Platform Analytics Administration** &gt; **Usage and governance** &gt; **Reports** and select **New**.
+    -   On a new instance or one that has been fully migrated to Platform Analytics, navigate to **All** &gt; **Core UI artifacts** &gt; **Reports** and select **New**.
 2.  On the **Data** tab, give the report a name that reflects the information being grouped.
 
 3.  Select a report source that has variables associated with it.

@@ -7,7 +7,7 @@ release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: reference
-last_updated: "2025-10-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [References, Enterprise Asset Management, IT Asset Management]
 ---
@@ -124,7 +124,7 @@ Information about each asset that is associated with your inbound asset orders, 
 
 [Domain separation and Enterprise Asset Management]()
 
-[Enterprise Asset Management roles]()
+[Components installed with Enterprise Asset Management]()
 
 [OT Asset Workspace roles]()
 

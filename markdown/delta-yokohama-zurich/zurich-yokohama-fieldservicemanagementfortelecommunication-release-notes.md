@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-fieldservicemanagementfortelecommunication-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
-reading_time_minutes: 2
+last_updated: "2026-10-08"
+reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
 
@@ -194,7 +194,12 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 The Telecommunications appointment booking feature is available with activation of the Telecommunications Open API \(com.sn\_tmf\_api\) and Field Service Management for Telecommunications \(com.sn\_fsmt\) applications. Install these applications by requesting them from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home).
+
+
+**Important:** Field Service Management for Telecommunication is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements

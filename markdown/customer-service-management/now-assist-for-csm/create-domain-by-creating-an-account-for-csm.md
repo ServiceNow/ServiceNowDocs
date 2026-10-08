@@ -7,7 +7,7 @@ release: zurich
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
 breadcrumb: [Domain separation, Configure, ServiceNow Otto for CSM, Customer Service Management]
@@ -24,8 +24,6 @@ Role required: admin
 ## About this task
 
 Enable the **csm\_auto\_account\_domain\_generation** system property. This system property is installed with the CSM application and is available only after the domain separation plugin is active. When this property is enabled \(the value is set to True\), the CSM application automatically creates a domain of the same name when a new account is created.
-
-**Note:** Enabling this property doesn’t add domains for existing accounts. It only creates the domains for new accounts. Adding domains for existing accounts requires a migration script.
 
 When creating a domain, follow these general guidelines:
 
@@ -44,7 +42,7 @@ When creating a domain, follow these general guidelines:
 
 4.  Create a domain with the same name as the account by selecting **Save**.
 
-    For example, when you create an account named ParentDomain under the global scope, you also create a domain with the same name. All the domains that are created under the global scope will be under the TOP \(top level\) domain. If you create an account called ChildDomain within the ParentDomain domain, the domain with the same name is also created under the ParentDomain domain.
+    For example, when you create an account named ParentDomain under the global scope, you also create a domain with the same name. All the domains that are created under the global scope are under the TOP \(top level\) domain. If you create an account called ChildDomain within the ParentDomain domain, the domain with the same name is also created under the ParentDomain domain.
 
 5.  Navigate to **All** &gt; **Domain Admin** &gt; **Domains**.
 

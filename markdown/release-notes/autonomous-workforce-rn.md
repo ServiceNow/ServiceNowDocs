@@ -40,7 +40,7 @@ See [Autonomous Workforce](https://raw.githubusercontent.com/ServiceNow/ServiceN
 
 -   **Localization information**
 
-    AI specialist supports multiple languages for user interaction. Because language detection and generation are based on an underlying large language model, not all languages have the same level of fluency. See Multilingual support for AI specialists for more information.
+    AI specialist supports multiple languages for user interaction. Because language detection and generation are based on an underlying large language model, not all languages have the same level of fluency. See [Multilingual support for AI specialists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/lang-support-aiw.md) for more information.
 
 
 -   **[Version 3.2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/autonomous-workforce-rn-2026-09.md)**  

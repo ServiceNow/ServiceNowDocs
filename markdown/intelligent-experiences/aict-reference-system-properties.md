@@ -7,7 +7,7 @@ release: zurich
 topic_type: reference
 last_updated: "2026-06-10"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Reference, AI Control Tower, Enable AI experiences]
 ---
 
@@ -43,7 +43,7 @@ glide.oauth.tool.scan.guardian.enabled
 
 </td><td>
 
-Controls whether MCP server tool scanning is performed by AI Guardian. For more information, see .-   Type: Boolean
+Controls whether MCP server tool scanning is performed by AI Guardian. For more information, see [AI Guardian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-guardian.md).-   Type: Boolean
 -   Default value: false
 -   Location: The System Properties \[sys\_properties\] table
 

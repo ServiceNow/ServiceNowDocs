@@ -67,14 +67,6 @@ sn\_aia.enable\_mcp\_tool
 
 Enables access to the MCP Client tool on your ServiceNow instance.Default value: **false**
 
-</td></tr><tr><td>
-
-mcp\_guardian\_check
-
-</td><td>
-
-Detects offensive content on the page, when the display output of the tool is set to true and output transformation strategy is null.Default value: **false**
-
 </td></tr></tbody>
 </table>## MCP Client tables
 

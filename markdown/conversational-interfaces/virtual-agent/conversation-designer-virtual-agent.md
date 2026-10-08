@@ -195,8 +195,8 @@ View and manage conversational actions through Assistant Designer Asset library.
 View custom skills through Assistant Designer Asset library.
 -   **[Managing AI agents in Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/managing-use-cases-ai-agents.md)**  
 View AI agents created in AI Agent Studio through Assistant Designer Asset library.
--   **[Using AI agents in Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/ai-agent-custom-skill.md)**  
-Use an AI agent custom skill to have it perform a task passed to it, such as compiling info on a KB article.
+-   **[AI agents in Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/ai-agent-custom-skill.md)**  
+An AI agent custom skill performs a task that you pass to it from a Virtual Agent topic, such as consolidating the content of a knowledge base article.
 
 **Parent Topic:**[Building and deploying Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/virtual-agent/using-virtual-agent.md)
 

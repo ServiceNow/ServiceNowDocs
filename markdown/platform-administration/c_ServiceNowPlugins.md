@@ -18,7 +18,7 @@ Plugins are software components that provide features and functionalities within
 
 Plugins and applications are separate components on the ServiceNow AI Platform.
 
--   A plugin adds features to installed applications and extends functionality on the ServiceNow AI Platform. For additional details about plugins, see [KB0716626](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0716626).
+-   A plugin adds features to installed applications and extends functionality on the ServiceNow AI Platform. For additional details about plugins, see [Plugin frequently asked questions for ServiceNow instances \[KB0716626\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0716626).
 -   An application is a standalone piece of code that implements a collection of features on the ServiceNow AI Platform. You can install applications from the ServiceNow Store or create your own applications.
 
 ## Activating plugins

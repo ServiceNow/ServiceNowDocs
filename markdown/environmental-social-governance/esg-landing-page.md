@@ -30,7 +30,7 @@ By managing sustainability operationally, organizations can drive measurable imp
 
 The following image shows how different departments collaborate for operational sustainability reporting.
 
-\[Omitted image "image.osm-workflow"\] Alt text: Operational Sustainability Management application usage with metrics and integrations.
+\[Omitted image "osm-workflow.png"\] Alt text: Operational Sustainability Management application usage with metrics and integrations.
 
 ## Get started
 

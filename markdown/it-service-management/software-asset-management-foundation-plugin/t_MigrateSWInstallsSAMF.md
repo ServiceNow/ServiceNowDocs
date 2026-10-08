@@ -1,6 +1,6 @@
 ---
-title: Migrate Software Asset Management Foundation plugin software installations
-description: If you are using Discovery, run this script after installing Software Asset Management Foundation plugin to copy previously discovered software installation records from the \[cmdb\_software\_instance\] table to the \[cmdb\_sam\_sw\_install\] table, which is used by Software Asset Management Foundation plugin to store software installation records.
+title: Migrate Basic Software Asset Management software installations
+description: If you are using Discovery, run this script after installing Basic Software Asset Management to copy previously discovered software installation records from the \[cmdb\_software\_instance\] table to the \[cmdb\_sam\_sw\_install\] table, which is used by Basic Software Asset Management to store software installation records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/software-asset-management-foundation-plugin/t\_MigrateSWInstallsSAMF.html
 release: zurich
@@ -9,12 +9,12 @@ classification: software-asset-management-foundation-plugin
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Software Asset Management Foundation plugin Administration, Software Asset Management Foundation plugin, ITSM Software Asset Management, Asset Management, IT Service Management]
+breadcrumb: [Basic Software Asset Management Administration, Basic Software Asset Management, ITSM Software Asset Management, Asset Management, IT Service Management]
 ---
 
-# Migrate Software Asset Management Foundation plugin software installations
+# Migrate Basic Software Asset Management software installations
 
-If you are using Discovery, run this script after installing Software Asset Management Foundation plugin to copy previously discovered software installation records from the \[cmdb\_software\_instance\] table to the \[cmdb\_sam\_sw\_install\] table, which is used by Software Asset Management Foundation plugin to store software installation records.
+If you are using Discovery, run this script after installing Basic Software Asset Management to copy previously discovered software installation records from the \[cmdb\_software\_instance\] table to the \[cmdb\_sam\_sw\_install\] table, which is used by Basic Software Asset Management to store software installation records.
 
 ## Before you begin
 
@@ -33,5 +33,5 @@ When running the Migrate Software Installs script, allow enough time for the pro
     The Software Installations list is shown. If the data has already been migrated, a message is shown.
 
 
-**Parent Topic:**[Software Asset Management Foundation plugin Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/software-asset-management-foundation-plugin/c_SAMAdministrationSAMF.md)
+**Parent Topic:**[Basic Software Asset Management Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/software-asset-management-foundation-plugin/c_SAMAdministrationSAMF.md)
 

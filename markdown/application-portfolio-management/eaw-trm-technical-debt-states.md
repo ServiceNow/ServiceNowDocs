@@ -23,9 +23,9 @@ Each TRM technical debt record has a **State** field that shows one of the follo
 
 |State|Description|
 |-----|-----------|
-|**Active**|Technical debt that is active and needs attention. This is the default state when a technical debt record is first created.|
-|**Resolved**|Active technical debt that no longer applies because the underlying discovered technology is still in use but no longer violates a TRM standard.|
-|**Archived**|Technical debt for which the underlying discovered technology no longer exists in the TPM Discovered Technology \[sn\_apm\_tpm\_discovered\_technology\] table \(typically because the server association was removed\). Alternatively, the reason associated with the active debt is disabled in the technical debt configuration.|
+|Active|Technical debt that is active and needs attention. This is the default state when a technical debt record is first created.|
+|Resolved|Active technical debt that no longer applies because the underlying discovered technology is still in use but no longer violates a TRM standard.|
+|Archived|Technical debt for which the underlying discovered technology no longer exists in the TPM Discovered Technology \[sn\_apm\_tpm\_discovered\_technology\] table \(typically because the server association was removed\). Alternatively, the reason associated with the active debt is turned off in the technical debt configuration.|
 
 ## State transitions
 
@@ -33,10 +33,10 @@ The **Populate TRM technical debts in the EA Workspace** scheduled job evaluates
 
 |From state|To state|Trigger|
 |----------|--------|-------|
-|**Active**|**Resolved**|The debt is resolved: the discovered technology still exists, but it no longer violates a TRM standard.|
-|**Active**|**Archived**|The underlying discovered technology is removed, or the reason associated with the active debt is disabled in the technical debt configuration.|
-|**Archived**|**Active**|The discovered technology is created again, or the reason associated with the archived debt is re-enabled in the technical debt configuration.|
-|**Resolved**|No transition|A resolved technical debt record never moves to **Active** or **Archived**. If the same debt condition occurs again, the system creates a new technical debt record in the **Active** state instead of reopening the resolved one.|
+|Active|**Resolved**|The debt is resolved: the discovered technology still exists, but it no longer violates a TRM standard.|
+|Active|**Archived**|The underlying discovered technology is removed, or the reason associated with the active debt is turned off in the technical debt configuration.|
+|Archived|**Active**|The discovered technology is created again, or the reason associated with the archived debt is re-enabled in the technical debt configuration.|
+|Resolved|No transition|A resolved technical debt record never moves to **Active** or **Archived**. If the same debt condition occurs again, the system creates a new technical debt record in the **Active** state instead of reopening the resolved one.|
 
 **Note:**
 
@@ -55,5 +55,5 @@ A **Resolved** record is terminal. The **Created** timestamp on a new record ref
 
 [Update TRM technical debt data using scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-run-job-trm-tech-debts.md)
 
-[Exploring the Technology Reference Model in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-managing-the-technology-portfolio.md)
+[Technology Reference Model in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-managing-the-technology-portfolio.md)
 

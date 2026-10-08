@@ -44,7 +44,7 @@ Verifying this information allows the case to narrow the search for the correct 
     -   Add the HR case template to an HR service.
     -   Add HR criteria to the HR service.
         -   Using HR criteria provides flexibility in choosing or auto-populating a document for an HR service.
-        -   When defining conditions like case sensitivity or null values, see API GlideFilter - Scoped, Global.
+        -   When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/c_GlideFilterScopedAPI.md).
 -   **How it works**
 
     When an HR case is created from an HR service:\[Omitted image "doctype\_flow.png"\] Alt text: Flow chart of how HR case is created from HR service.

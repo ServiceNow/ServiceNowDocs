@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-opportunitymanagement-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
+last_updated: "2026-10-08"
 reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
@@ -102,11 +102,6 @@ Yokohama
 
 </td><td>
 
--   **[View the roll-up amount in the Opportunity Kanban View](https://www.servicenow.com/docs/access?context=opportunity-management-kanban-view&family=yokohama&ft:locale=en-US)**
-
-Enables customers to view the roll-up amount that is automatically calculated in the base currency for all opportunity stages in the Kanban View.
-
-
 -   **[\[Placeholder link text to key bundle-omgmt.opportunity-management-add-product-to-opportunity\]](https://www.servicenow.com/docs/access?context=opportunity-management-add-product-to-opportunity&family=yokohama&ft:locale=en-US)**
 
 Enables the sales representatives to customize the complex product offerings by using the product configurator. This ensures that the sales representatives identify and share the detailed requirements and price to the customer much earlier in the cycle.
@@ -114,6 +109,11 @@ Enables the sales representatives to customize the complex product offerings by 
 -   **[Revise existing opportunities after an upgrade](https://www.servicenow.com/docs/access?context=revise-existing-opportunities-post-upgrade&family=yokohama&ft:locale=en-US)**
 
 Enable the sales representatives to use the scheduled job to modify older opportunities to incorporate the functionality of supporting parent-child opportunity line items.
+
+
+ -   **[View the roll-up amount in the Opportunity Kanban View](https://www.servicenow.com/docs/access?context=opportunity-management-kanban-view&family=yokohama&ft:locale=en-US)**
+
+Enables customers to view the roll-up amount that is automatically calculated in the base currency for all opportunity stages in the Kanban View.
 
 
 </td></tr><tr><td>
@@ -288,7 +288,12 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Install Opportunity Management by requesting it from ServiceNow Store.
+
+
+**Important:** Opportunity Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 
@@ -296,7 +301,12 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Install Opportunity Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
+
+**Important:** Opportunity Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements

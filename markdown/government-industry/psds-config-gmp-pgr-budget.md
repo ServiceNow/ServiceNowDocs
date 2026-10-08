@@ -26,7 +26,7 @@ From Grants management version 1.41, this step is organized into three sections:
 
 ## Before you begin
 
-Role required: sn\_gsm\_grnt\_mgmt.program\_manager, sn\_gsm\_grnt\_mgmt.grant\_director
+Role required: sn\_svc\_appl\_pgm\_mg.grant\_program\_manager or sn\_svc\_appl\_pgm\_mg.grant\_program\_director
 
 ## Procedure
 

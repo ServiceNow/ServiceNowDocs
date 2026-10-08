@@ -20,6 +20,8 @@ Create and manage your custom remedial actions from Check Definitions.
 You can create a remedial action or modify an existing one once you configure the remedial action framework. Remedial action enables you to trigger an action on the impacted device.
 -   **[Create a remedial action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/create-remedial-action.md)**  
 Create your custom remedial actions from Check Definitions to resolve end-point related issues using Playbook.
+-   **[Trigger remedial actions from flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/Trigger-ra-flow.md)**  
+Trigger DEX remedial actions from a flow in Workflow Studio to remediate issues on a device.
 -   **[Creating and executing a PowerShell script-based remedial action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/remedial-actions-ps.md)**  
 A custom remedial action can be created using a PowerShell script packaged in an Agent Client Collector \(ACC\) plugin and executed on endpoint devices through a check definition.
 -   **[DEX system tables for remedial actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/dex-sys-table-ra.md)**  

@@ -31,15 +31,15 @@ The **Issues** related list appears on the exercise record when GRC: Profiles is
 
 2.  Complete the following steps to create or manage an issue from an exercise.
 
-<table id="choicetable_p55_b3s_jkc"><thead><tr><th align="left" id="d178960e109">
+<table id="choicetable_p55_b3s_jkc"><thead><tr><th align="left" id="d183632e109">
 
 Step
 
-</th><th align="left" id="d178960e112">
+</th><th align="left" id="d183632e112">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d178960e118">
+</th></tr></thead><tbody><tr><td id="d183632e118">
 
 **Create an issue from the exercise record**
 
@@ -72,7 +72,7 @@ Use this option when you want to associate an existing issue with the exercise a
 
 The issue association is removed from the exercise; the issue record isn't deleted from the instance.
 
-</td></tr><tr><td id="d178960e196">
+</td></tr><tr><td id="d183632e196">
 
 **Link an exercise from the issue record**
 
@@ -80,6 +80,8 @@ The issue association is removed from the exercise; the issue record isn't delet
 
 1.  Alternately, open the issues list in Business Continuity Workspace list view.
 2.  Open an issues record and select the **Exercises** tab.
+
+The **Exercises** tab appears as its own category under **Impacted items**, separate from the **Plans** and **Crisis events** tabs.
 
 \[Omitted image "link-exercise-from-issue-record.png"\] Alt text: Link exercise from issue.
 
@@ -101,7 +103,7 @@ The issue association is removed from the exercise; the issue record isn't delet
 
 [Managing issues from Business Continuity Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/managing-issues-in-bcm.md)
 
-[Dependencies for integrating the Issues module with BCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/issues-bcm-dependencies.md)
+[Issues module integration dependencies with BCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/issues-bcm-dependencies.md)
 
 [Add or create an issue from a plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/add-or-create-issue-from-plan-uib-ws.md)
 

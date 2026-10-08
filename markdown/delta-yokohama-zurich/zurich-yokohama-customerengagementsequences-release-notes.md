@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-customerengagementsequences-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
+last_updated: "2026-10-08"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -95,7 +95,8 @@ Assign role-based access for sequence admins, writers, executors, and readers. S
 
 Enable the sales operations teams to optimize and share the high-performing sequences across territories to promote best practices across the organization.
 
--   **[No-code interface for admins to configure sequences](https://www.servicenow.com/docs/access?context=configuring-customer-engagement-sequences&family=zurich&ft:locale=en-US)**
+
+ -   **[No-code interface for admins to configure sequences](https://www.servicenow.com/docs/access?context=configuring-customer-engagement-sequences&family=zurich&ft:locale=en-US)**
 
 Configuring multi-step sequences that define specific activities using a no-code playbook experience reduces dependency on developers.
 
@@ -135,7 +136,10 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
 
 </td></tr></tbody>
 </table>## Removed
@@ -222,7 +226,12 @@ Zurich
 
 </td><td>
 
-Install Customer Engagement Sequences by requesting it from the ServiceNow Store. 
+-   **Activation information**
+
+Install Customer Engagement Sequences by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
+
+**Important:** Customer Engagement Sequences is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -309,7 +318,11 @@ Zurich
 
 </td><td>
 
--   ****
+-   **Accessibility information**
+    -   **Dark theme**
+
+The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
 
 </td></tr></tbody>
 </table>## Localization information

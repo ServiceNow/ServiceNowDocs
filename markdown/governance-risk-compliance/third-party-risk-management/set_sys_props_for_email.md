@@ -7,7 +7,7 @@ release: zurich
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -36,4 +36,6 @@ Role required: admin
 ## What to do next
 
 You can now proceed with configuring email communication scenarios, including those that involve external or third-party contacts.
+
+Assessment-related email notifications are now sent as a single consolidated summary instead of individual per-event messages. Users can configure notification frequency, detail level, and delivery channel from their notification preferences. Multi-language email templates are available for supported languages.
 

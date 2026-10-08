@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-ordermanagement-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
+last_updated: "2026-10-08"
 reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
@@ -87,17 +87,18 @@ Create multiple instances of a child product offering in orders to generate a cu
 
 Add transient products, which are defined as one-time-use products or services, to new orders. Sold product and product inventory records are created but not maintained for transient products. Move, Add, Change and Disconnect \(MACD\) actions are not supported for transient products.
 
--   **[Business Portal for Order Management](https://www.servicenow.com/docs/access?context=order-mgt-create-an-order-using-customer-portal&family=yokohama&ft:locale=en-US)**
+-   **[Add subscription pricing to an order](https://www.servicenow.com/docs/access?context=add-subscription-pricing-to-an-order&family=yokohama&ft:locale=en-US)**
+
+Enable order agents and order managers to access and view key calculated metrics such as monthly recurring price and annual recurring price. The subscription pricing fields are automatically calculated based on contract start date and contract end date. These metrics enhance revenue reporting and help you to better understand recurring revenue dynamics.
+
+
+ -   **[Business Portal for Order Management](https://www.servicenow.com/docs/access?context=order-mgt-create-an-order-using-customer-portal&family=yokohama&ft:locale=en-US)**
 
 Use the Business Portal to view product catalogs, select product options, and place orders. Customers can also view their order status using the Business Portal.
 
 -   **[Cases for multiple invoices](https://www.servicenow.com/docs/access?context=csm-invoice-operations&family=yokohama&ft:locale=en-US)**
 
 Create cases for multiple invoices or for specific invoice lines. Agents can reference multiple invoices or invoice lines as case line items on an invoice case record. By using case line items, agents can track multiple issues for the same invoice case and resolve the issues in each case line item independently before resolving and closing the order case. This application is a feature of Customer Service Management and the Order to Cash Operations functionality for Order Management.
-
--   **[Add subscription pricing to an order](https://www.servicenow.com/docs/access?context=add-subscription-pricing-to-an-order&family=yokohama&ft:locale=en-US)**
-
-Enable order agents and order managers to access and view key calculated metrics such as monthly recurring price and annual recurring price. The subscription pricing fields are automatically calculated based on contract start date and contract end date. These metrics enhance revenue reporting and help you to better understand recurring revenue dynamics.
 
 
 </td></tr><tr><td>
@@ -111,7 +112,7 @@ Zurich
 The move order helps agents to perform move journey that requires location change, the location and change of attribute values, the location change and add or delete the product.
 
 
--   **[Pricing Adjustments for order line items](https://www.servicenow.com/docs/access?context=add-pricing-adjustment-to-an-order-line-item&family=zurich&ft:locale=en-US)**
+ -   **[Pricing Adjustments for order line items](https://www.servicenow.com/docs/access?context=add-pricing-adjustment-to-an-order-line-item&family=zurich&ft:locale=en-US)**
 
 Enables order agents to quickly view, add, and edit manual price adjustments for order line items directly from the list view, reducing clicks and streamlining the process. This new experience makes it easier for order agents to enter manual price adjustments and provides a holistic view of both automatic and manual adjustments.
 
@@ -120,7 +121,7 @@ Enables order agents to quickly view, add, and edit manual price adjustments for
 Summarizes complex orders across products, services, and fulfillment tasks. This helps agents quickly understand status, take the right actions, and avoid navigating fragmented views. This results in easier next steps and improved productivity. For more information, see the [ServiceNow Otto for Order Management release notes](https://www.servicenow.com/docs/access?context=now-assist-order-management-rn&family=zurich&ft:locale=en-US).
 
 
--   **[Support for complex characteristics for orders](https://www.servicenow.com/docs/access?context=som-using&family=zurich&ft:locale=en-US)**
+ -   **[Support for complex characteristics for orders](https://www.servicenow.com/docs/access?context=som-using&family=zurich&ft:locale=en-US)**
 
 Take advantage of the following complex characteristics for orders:
 
@@ -161,6 +162,11 @@ Zurich
 -   **[Changes to OM integration with SPM](https://www.servicenow.com/docs/access?context=configure-site-project-product-offering&family=zurich&ft:locale=en-US)**
 
 Use OM integration with SPM to create program, reuse program, create site project and reuse site project in the SPM.
+
+
+ -   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
 
 
 </td></tr></tbody>
@@ -212,7 +218,8 @@ Yokohama
 </td><td>
 
 -   The Subscription start and end dates have been deprecated starting with the Q2 2025 release. Use the Contract start date and Contract end date to calculate Terms for setting subscriptions for recurring products.
--   The fields listed for the following tables are no longer supported.
+
+ -   The fields listed for the following tables are no longer supported.
 
     |Table name|Fields|
     |----------|------|
@@ -248,9 +255,14 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Install Order Management by requesting it from the ServiceNow Store.
 
- Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
+
+**Important:** Order Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 
@@ -258,7 +270,12 @@ Zurich
 
 </td><td>
 
-Install Order Management by requesting it from the ServiceNow Store. 
+-   **Activation information**
+
+Install Order Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
+
+**Important:** Order Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -345,7 +362,11 @@ Zurich
 
 </td><td>
 
--   ****
+-   **Accessibility information**
+    -   **Dark theme**
+
+The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
 
 </td></tr></tbody>
 </table>## Localization information
