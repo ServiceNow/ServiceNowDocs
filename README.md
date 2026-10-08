@@ -21,6 +21,8 @@ normally at least monthly, sometimes more often.
   ```
 
 ## Change log
+- __08 October 2026__:
+  * October monthly refresh
 - __28 Sept 2026__:
   * Minor updates for Impact, others
 - __24 Sept 2026__:
