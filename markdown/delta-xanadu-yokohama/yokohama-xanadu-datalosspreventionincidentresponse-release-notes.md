@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-datalosspreventionincidentresponse-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 4
+last_updated: "2026-10-08"
+reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
 
@@ -87,7 +87,8 @@ Outline the conditions and duration for responding to data breaches by creating 
 
 Create an application in Proofpoint and configure the required settings to obtain client credentials. These credentials enable secure access to the Proofpoint API for seamless integration and automation.
 
--   **[Internet Content Adaption Protocol \(ICAP\) integration for DLP IR](https://www.servicenow.com/docs/access?context=icap-dlp-integration&family=yokohama&ft:locale=en-US)**
+
+ -   **[Internet Content Adaption Protocol \(ICAP\) integration for DLP IR](https://www.servicenow.com/docs/access?context=icap-dlp-integration&family=yokohama&ft:locale=en-US)**
 
 Integration supports the ingestion of Data Loss Prevention Incident Response alerts, allows the fetching of match content, and evidence files from Amazon S3 created on the ICAP supported Data Loss Prevention Incident Response deployment.
 
@@ -147,7 +148,12 @@ Yokohama
 
 </td><td>
 
--   **[Create Additional Incident Data Fields](https://www.servicenow.com/docs/access?context=create-custom-fields-dlp&family=yokohama&ft:locale=en-US)**
+-   **[Data Loss Prevention Incident Response Analyst Workspace](https://www.servicenow.com/docs/access?context=using-dlp-ops-portal&family=yokohama&ft:locale=en-US)**
+
+Introduced a new action in the DLP incident form view that requires users to specify a closure code prior to incident closure.
+
+
+ -   **[Create additional incident data fields](https://www.servicenow.com/docs/access?context=create-custom-fields-dlp&family=yokohama&ft:locale=en-US)**
 
 In the DLP incident table, the **Custom Fields** column has been renamed **Additional Incident Data Fields**.
 
@@ -237,7 +243,16 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Install Data Loss Prevention Incident Response by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
+    -   **[Security Operations common functionality](https://www.servicenow.com/docs/access?context=sec-ops-common-functionality&family=yokohama&ft:locale=en-US)**
+
+The Security Support Common plugin is activated when any of the plugins for the main Security Operations applications \(Security Incident Response, Vulnerability Response, Threat Intelligence, or Configuration Compliance\) are activated.
+
+
+**Important:** Data Loss Prevention Incident Response is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements

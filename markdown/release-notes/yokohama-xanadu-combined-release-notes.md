@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/yokohama
 release: yokohama
 topic_type: reference
 last_updated: "2020-06-26"
-reading_time_minutes: 9
+reading_time_minutes: 6
 breadcrumb: [Release notes for upgrading from Xanadu, Learn about the Yokohama release, Yokohama release notes]
 ---
 
@@ -44,14 +44,6 @@ Accounts Payable Operations
 
 </td></tr><tr><td>
 
-Activity Management
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-activitymanagement-release-notes.html)
-
-</td></tr><tr><td>
-
 Adoption Services
 
 </td><td>
@@ -68,14 +60,6 @@ Advanced AI Search Management Tools
 
 </td></tr><tr><td>
 
-Advanced Approval Management
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-advancedapprovalmanagement-release-notes.html)
-
-</td></tr><tr><td>
-
 Advanced Risk
 
 </td><td>
@@ -89,14 +73,6 @@ Advanced Work Assignment
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-advancedworkassignment-release-notes.html)
-
-</td></tr><tr><td>
-
-Advanced Work Assignment \(AWA\)
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-advancedworkassignmentawa-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -124,22 +100,6 @@ Agent experience for CSM
 
 </td></tr><tr><td>
 
-Agentic Contact Center for Banking
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-agenticcontactcenterforbanking-release-notes.html)
-
-</td></tr><tr><td>
-
-Agentic Contact Center for Insurance
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-agenticcontactcenterforinsurance-release-notes.html)
-
-</td></tr><tr><td>
-
 Agent Workspace for HR Case Management
 
 </td><td>
@@ -148,19 +108,11 @@ Agent Workspace for HR Case Management
 
 </td></tr><tr><td>
 
-Agile Development 2.0
+AI Analytics
 
 </td><td>
 
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-agiledevelopment20-release-notes.html)
-
-</td></tr><tr><td>
-
-AI Agent Advisor
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-aiagentadvisor-release-notes.html)
+[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-aianalytics-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -169,14 +121,6 @@ AI Control Tower
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-aicontroltower-release-notes.html)
-
-</td></tr><tr><td>
-
-AI Desktop Actions
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-aidesktopactions-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -204,11 +148,11 @@ AI Search
 
 </td></tr><tr><td>
 
-Alumni Center
+AI Skill Kit
 
 </td><td>
 
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-alumnicenter-release-notes.html)
+[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-aiskillkit-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -228,27 +172,11 @@ API
 
 </td></tr><tr><td>
 
-App Engine Management Center
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-appenginemanagementcenter-release-notes.html)
-
-</td></tr><tr><td>
-
 App Engine Studio
 
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-appenginestudio-release-notes.html)
-
-</td></tr><tr><td>
-
-Applicant Center
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-applicantcenter-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -276,14 +204,6 @@ Assessments and Surveys
 
 </td></tr><tr><td>
 
-Asset Audit Response
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-assetauditresponse-release-notes.html)
-
-</td></tr><tr><td>
-
 Audit Management
 
 </td><td>
@@ -308,27 +228,11 @@ Automated Test Framework
 
 </td></tr><tr><td>
 
-Automation Discovery
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-automationdiscovery-release-notes.html)
-
-</td></tr><tr><td>
-
 Benchmarks
 
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-benchmarks-release-notes.html)
-
-</td></tr><tr><td>
-
-Build Agent
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-buildagent-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -340,38 +244,6 @@ Business Continuity Management
 
 </td></tr><tr><td>
 
-Buying Group
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-buyinggroup-release-notes.html)
-
-</td></tr><tr><td>
-
-Card data security
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-carddatasecurity-release-notes.html)
-
-</td></tr><tr><td>
-
-Career Conversations
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-careerconversations-release-notes.html)
-
-</td></tr><tr><td>
-
-Care Team Mobile
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-careteammobile-release-notes.html)
-
-</td></tr><tr><td>
-
 Care Team Operations for Biomed
 
 </td><td>
@@ -380,35 +252,11 @@ Care Team Operations for Biomed
 
 </td></tr><tr><td>
 
-Care Team Operations for Environmental Services
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-careteamoperationsforenvironmentalservices-release-notes.html)
-
-</td></tr><tr><td>
-
-Care Team Operations for Facilities
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-careteamoperationsforfacilities-release-notes.html)
-
-</td></tr><tr><td>
-
 Care Team Operations for Healthcare IT
 
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-careteamoperationsforhealthcareit-release-notes.html)
-
-</td></tr><tr><td>
-
-Care Team Work Management
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-careteamworkmanagement-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -436,14 +284,6 @@ Change Management
 
 </td></tr><tr><td>
 
-Classic Workflow
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-classicworkflow-release-notes.html)
-
-</td></tr><tr><td>
-
 Clone Admin Console
 
 </td><td>
@@ -460,35 +300,11 @@ Cloud Account Management
 
 </td></tr><tr><td>
 
-Cloud Cost Management 10.0
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-cloudcostmanagement100-release-notes.html)
-
-</td></tr><tr><td>
-
 Cloud Cost Management 8.0.0
 
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-cloudcostmanagement800-release-notes.html)
-
-</td></tr><tr><td>
-
-Cloud Cost Management 9.0
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-cloudcostmanagement90-release-notes.html)
-
-</td></tr><tr><td>
-
-Cloud Exposure View
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-cloudexposureview-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -532,14 +348,6 @@ Compliance Case Management
 
 </td></tr><tr><td>
 
-Configurable Workspace
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-configurableworkspace-release-notes.html)
-
-</td></tr><tr><td>
-
 Configuration Compliance
 
 </td><td>
@@ -561,22 +369,6 @@ Container Vulnerability Response
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-containervulnerabilityresponse-release-notes.html)
-
-</td></tr><tr><td>
-
-Content Management System
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-contentmanagementsystem-release-notes.html)
-
-</td></tr><tr><td>
-
-Continual Improvement Management
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-continualimprovementmanagement-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -604,14 +396,6 @@ Contract Management Pro for Legal Service Delivery
 
 </td></tr><tr><td>
 
-Conversation Improvement Themes
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-conversationimprovementthemes-release-notes.html)
-
-</td></tr><tr><td>
-
 Conversation Insights
 
 </td><td>
@@ -620,35 +404,11 @@ Conversation Insights
 
 </td></tr><tr><td>
 
-Core Business Suite
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-corebusinesssuite-release-notes.html)
-
-</td></tr><tr><td>
-
 Core ServiceNow AI Platform
 
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-coreservicenowaiplatform-release-notes.html)
-
-</td></tr><tr><td>
-
-CPQ
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-cpq-release-notes.html)
-
-</td></tr><tr><td>
-
-CPQ Configurator
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-cpqconfigurator-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -668,43 +428,11 @@ Customer Contracts and Entitlements
 
 </td></tr><tr><td>
 
-Customer Engagement Sequences
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-customerengagementsequences-release-notes.html)
-
-</td></tr><tr><td>
-
-Customer self-service for Sales Customer Relationship Management
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-customerselfserviceforsalescustomerrelationshipmanagement-release-notes.html)
-
-</td></tr><tr><td>
-
-Customer Service Problem Management
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-customerserviceproblemmanagement-release-notes.html)
-
-</td></tr><tr><td>
-
 Customer Success Management
 
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-customersuccessmanagement-release-notes.html)
-
-</td></tr><tr><td>
-
-Data Catalog
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-datacatalog-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -740,14 +468,6 @@ Data Privacy
 
 </td></tr><tr><td>
 
-Data products
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-dataproducts-release-notes.html)
-
-</td></tr><tr><td>
-
 Data Separation
 
 </td><td>
@@ -769,14 +489,6 @@ Decision tables in Workflow Studio
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-decisiontablesinworkflowstudio-release-notes.html)
-
-</td></tr><tr><td>
-
-Developer Sandboxes
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-developersandboxes-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -804,14 +516,6 @@ Digital Portfolio Management
 
 </td></tr><tr><td>
 
-Digital Portfolio Management \(DPM\)
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-digitalportfoliomanagementdpm-release-notes.html)
-
-</td></tr><tr><td>
-
 Dispute Content Pack for US Regulations
 
 </td><td>
@@ -825,14 +529,6 @@ Dispute Rules Content Pack for Mastercard
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-disputerulescontentpackformastercard-release-notes.html)
-
-</td></tr><tr><td>
-
-Dispute Rules Content Pack for Nacha
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-disputerulescontentpackfornacha-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -892,14 +588,6 @@ Employee Center
 
 </td></tr><tr><td>
 
-Employee Center Pro
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-employeecenterpro-release-notes.html)
-
-</td></tr><tr><td>
-
 Employee Relations
 
 </td><td>
@@ -908,35 +596,11 @@ Employee Relations
 
 </td></tr><tr><td>
 
-Employee Slate
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-employeeslate-release-notes.html)
-
-</td></tr><tr><td>
-
-Encryption
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-encryption-release-notes.html)
-
-</td></tr><tr><td>
-
 Encryption Key Management
 
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-encryptionkeymanagement-release-notes.html)
-
-</td></tr><tr><td>
-
-Enterprise Architecture
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-enterprisearchitecture-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -953,14 +617,6 @@ Enterprise Asset Management
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-enterpriseassetmanagement-release-notes.html)
-
-</td></tr><tr><td>
-
-Enterprise Service Management Foundation
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-enterpriseservicemanagementfoundation-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -1020,35 +676,11 @@ Financial Services Operations Core
 
 </td></tr><tr><td>
 
-Financial Services Operations Integration with Mastercard
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-financialservicesoperationsintegrationwithmastercard-release-notes.html)
-
-</td></tr><tr><td>
-
-Financial Services Operations Integration with Verifi
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-financialservicesoperationsintegrationwithverifi-release-notes.html)
-
-</td></tr><tr><td>
-
 Financial Services Operations Integration with Visa
 
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-financialservicesoperationsintegrationwithvisa-release-notes.html)
-
-</td></tr><tr><td>
-
-Flows, Subflows, and Actions
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-flowssubflowsandactions-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -1140,51 +772,11 @@ Hermes Messaging Service
 
 </td></tr><tr><td>
 
-Hiring
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-hiring-release-notes.html)
-
-</td></tr><tr><td>
-
-HR Multi Instance Integration
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-hrmultiinstanceintegration-release-notes.html)
-
-</td></tr><tr><td>
-
 HR Service Delivery for Healthcare
 
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-hrservicedeliveryforhealthcare-release-notes.html)
-
-</td></tr><tr><td>
-
-HR Service Delivery integration with Accurate Background service
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-hrservicedeliveryintegrationwithaccuratebackgroundservice-release-notes.html)
-
-</td></tr><tr><td>
-
-HR Service Delivery integration with First Advantage service
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-hrservicedeliveryintegrationwithfirstadvantageservice-release-notes.html)
-
-</td></tr><tr><td>
-
-HR Service Delivery integration with Sterling Talent Solutions service
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-hrservicedeliveryintegrationwithsterlingtalentsolutionsservice-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -1204,14 +796,6 @@ Impact
 
 </td></tr><tr><td>
 
-Import and Export
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-importandexport-release-notes.html)
-
-</td></tr><tr><td>
-
 Incident Management
 
 </td><td>
@@ -1228,30 +812,6 @@ Individual Life Claims
 
 </td></tr><tr><td>
 
-Industrial Connected Workforce Core
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-industrialconnectedworkforcecore-release-notes.html)
-
-</td></tr><tr><td>
-
-Industrial Connected Workforce Mobile Experience
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-industrialconnectedworkforcemobileexperience-release-notes.html)
-
-</td></tr><tr><td>
-
-Industrial Guided Tasks
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-industrialguidedtasks-release-notes.html)
-
-</td></tr><tr><td>
-
 Industrial Process Manager
 
 </td><td>
@@ -1260,27 +820,11 @@ Industrial Process Manager
 
 </td></tr><tr><td>
 
-Industrial Standards
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-industrialstandards-release-notes.html)
-
-</td></tr><tr><td>
-
 Instance Data Replication
 
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-instancedatareplication-release-notes.html)
-
-</td></tr><tr><td>
-
-Instance Scan
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-instancescan-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -1316,14 +860,6 @@ Intelligence for CSM
 
 </td></tr><tr><td>
 
-Interview management
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-interviewmanagement-release-notes.html)
-
-</td></tr><tr><td>
-
 ITOM AIOps
 
 </td><td>
@@ -1356,14 +892,6 @@ ITOM Visibility
 
 </td></tr><tr><td>
 
-IT Service Management
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-itservicemanagement-release-notes.html)
-
-</td></tr><tr><td>
-
 ITSM Mobile Agent
 
 </td><td>
@@ -1393,14 +921,6 @@ Journey designer
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-journeydesigner-release-notes.html)
-
-</td></tr><tr><td>
-
-Key Management
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-keymanagement-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -1444,43 +964,11 @@ Lead Management
 
 </td></tr><tr><td>
 
-Lead-to-Cash Process Management
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-leadtocashprocessmanagement-release-notes.html)
-
-</td></tr><tr><td>
-
-Learning Posts
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-learningposts-release-notes.html)
-
-</td></tr><tr><td>
-
 Legacy Application Manager
 
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-legacyapplicationmanager-release-notes.html)
-
-</td></tr><tr><td>
-
-Legacy Studio
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-legacystudio-release-notes.html)
-
-</td></tr><tr><td>
-
-Legal Conflict of Interest
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-legalconflictofinterest-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -1492,59 +980,11 @@ Legal Hold Notification
 
 </td></tr><tr><td>
 
-Legal Matter Management
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-legalmattermanagement-release-notes.html)
-
-</td></tr><tr><td>
-
-Legal Request Management
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-legalrequestmanagement-release-notes.html)
-
-</td></tr><tr><td>
-
-Legal Virtual Agent Conversations
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-legalvirtualagentconversations-release-notes.html)
-
-</td></tr><tr><td>
-
-Lifecycle Events
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-lifecycleevents-release-notes.html)
-
-</td></tr><tr><td>
-
-Listening Posts
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-listeningposts-release-notes.html)
-
-</td></tr><tr><td>
-
 Localization Framework
 
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-localizationframework-release-notes.html)
-
-</td></tr><tr><td>
-
-Localization Workspace
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-localizationworkspace-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -1569,14 +1009,6 @@ Mastercard Spoke
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-mastercardspoke-release-notes.html)
-
-</td></tr><tr><td>
-
-MCP Server Console
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-mcpserverconsole-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -1609,14 +1041,6 @@ Mobile Platform
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-mobileplatform-release-notes.html)
-
-</td></tr><tr><td>
-
-Model Risk Management
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-modelriskmanagement-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -1676,70 +1100,6 @@ Now Assist AI agents
 
 </td></tr><tr><td>
 
-Now Assist Analytics
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-nowassistanalytics-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist Center
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-nowassistcenter-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for App Engine
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-nowassistforappengine-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for CMDB
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-nowassistforcmdb-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Collaborative Work Management
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-nowassistforcollaborativeworkmanagement-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Collaborative Work Management \(CWM\)
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-nowassistforcollaborativeworkmanagementcwm-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Configuration Management Database \(CMDB\)
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-nowassistforconfigurationmanagementdatabasecmdb-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Configure, Price, Quote \(CPQ\)
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-nowassistforconfigurepricequotecpq-release-notes.html)
-
-</td></tr><tr><td>
-
 Now Assist for Creator
 
 </td><td>
@@ -1753,14 +1113,6 @@ Now Assist for Customer Service Management \(CSM\)
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-nowassistforcustomerservicemanagementcsm-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Employee Center Pro
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-nowassistforemployeecenterpro-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -1788,27 +1140,11 @@ Now Assist for Financial Services Operations \(FSO\)
 
 </td></tr><tr><td>
 
-Now Assist for FSM
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-nowassistforfsm-release-notes.html)
-
-</td></tr><tr><td>
-
 Now Assist for Hardware Asset Management \(HAM\)
 
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-nowassistforhardwareassetmanagementham-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for HR Service Delivery \(HRSD\)
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-nowassistforhrservicedeliveryhrsd-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -1828,99 +1164,11 @@ Now Assist for IT Service Management \(ITSM\)
 
 </td></tr><tr><td>
 
-Now Assist for Legal Service Delivery \(LSD\)
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-nowassistforlegalservicedeliverylsd-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Manufacturing Commercial Operations \(MCO\)
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-nowassistformanufacturingcommercialoperationsmco-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Operational Sustainability Management Management
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-nowassistforoperationalsustainabilitymanagementmanagement-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Operational Technology Service Management \(OTSM\)
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-nowassistforoperationaltechnologyservicemanagementotsm-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Order Management
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-nowassistforordermanagement-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Retail Service Management \(RSM\)
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-nowassistforretailservicemanagementrsm-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Sales CRM for Telecommunications
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-nowassistforsalescrmfortelecommunications-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Sales Force Automation \(SFA\)
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-nowassistforsalesforceautomationsfa-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Security Incident Response
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-nowassistforsecurityincidentresponse-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Security Incident Response \(SIR\)
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-nowassistforsecurityincidentresponsesir-release-notes.html)
-
-</td></tr><tr><td>
-
 Now Assist for Security Operations
 
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-nowassistforsecurityoperations-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Software Asset Management \(SAM\)
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-nowassistforsoftwareassetmanagementsam-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -1945,46 +1193,6 @@ Now Assist for Telecommunications, Media and Technology \(TMT\)
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-nowassistfortelecommunicationsmediaandtechnologytmt-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Third-party Risk Management \(TPRM\)
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-nowassistforthirdpartyriskmanagementtprm-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Vault
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-nowassistforvault-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Vulnerability Response
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-nowassistforvulnerabilityresponse-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Workplace Service Delivery \(WSD\)
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-nowassistforworkplaceservicedeliverywsd-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Zero Copy Connector
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-nowassistforzerocopyconnector-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -2028,14 +1236,6 @@ Now Assist in Virtual Agent
 
 </td></tr><tr><td>
 
-Now Assist Skill Kit
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-nowassistskillkit-release-notes.html)
-
-</td></tr><tr><td>
-
 Now Mobile
 
 </td><td>
@@ -2068,27 +1268,11 @@ Operational Sustainability Management
 
 </td></tr><tr><td>
 
-Operational Sustainability Management \(formerly Environmental, Social, and Governance\)
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-operationalsustainabilitymanagementformerlyenvironmentalsocialandgovernance-release-notes.html)
-
-</td></tr><tr><td>
-
 Operational Technology Change Management
 
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-operationaltechnologychangemanagement-release-notes.html)
-
-</td></tr><tr><td>
-
-Operational Technology Discovery
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-operationaltechnologydiscovery-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -2196,27 +1380,11 @@ Performance AnalyticsITSM dashboards
 
 </td></tr><tr><td>
 
-Performance Analyzer
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-performanceanalyzer-release-notes.html)
-
-</td></tr><tr><td>
-
 Platform Analytics experience
 
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-platformanalyticsexperience-release-notes.html)
-
-</td></tr><tr><td>
-
-Playbook
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-playbook-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -2244,27 +1412,11 @@ Portfolio Planning
 
 </td></tr><tr><td>
 
-Predictive AI for CSM
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-predictiveaiforcsm-release-notes.html)
-
-</td></tr><tr><td>
-
 Predictive Intelligence
 
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-predictiveintelligence-release-notes.html)
-
-</td></tr><tr><td>
-
-Predictive intelligence for Legal Service Delivery
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-predictiveintelligenceforlegalservicedelivery-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -2324,14 +1476,6 @@ Product Catalog Management and Pricing Management
 
 </td></tr><tr><td>
 
-Product Support for Technology
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-productsupportfortechnology-release-notes.html)
-
-</td></tr><tr><td>
-
 Project Portfolio Management
 
 </td><td>
@@ -2356,14 +1500,6 @@ Public Sector Digital Services
 
 </td></tr><tr><td>
 
-Purchase Order Management
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-purchaseordermanagement-release-notes.html)
-
-</td></tr><tr><td>
-
 Quote Management
 
 </td><td>
@@ -2372,27 +1508,11 @@ Quote Management
 
 </td></tr><tr><td>
 
-Recommended Actions for HRSD
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-recommendedactionsforhrsd-release-notes.html)
-
-</td></tr><tr><td>
-
 Recommended Actions for Operational Technology Service Management \(OTSM\)
 
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-recommendedactionsforoperationaltechnologyservicemanagementotsm-release-notes.html)
-
-</td></tr><tr><td>
-
-Recruitment workspace
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-recruitmentworkspace-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -2420,14 +1540,6 @@ Release Management
 
 </td></tr><tr><td>
 
-ReleaseOps
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-releaseops-release-notes.html)
-
-</td></tr><tr><td>
-
 Request Management
 
 </td><td>
@@ -2441,22 +1553,6 @@ Resource Management Workspace
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-resourcemanagementworkspace-release-notes.html)
-
-</td></tr><tr><td>
-
-Retail
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-retail-release-notes.html)
-
-</td></tr><tr><td>
-
-Retail applications
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-retailapplications-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -2476,35 +1572,11 @@ Retail Operations
 
 </td></tr><tr><td>
 
-Retail Strategic Portfolio Management Suite
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-retailstrategicportfoliomanagementsuite-release-notes.html)
-
-</td></tr><tr><td>
-
 Retail Task Management Core
 
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-retailtaskmanagementcore-release-notes.html)
-
-</td></tr><tr><td>
-
-Return Merchandise Authorization
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-returnmerchandiseauthorization-release-notes.html)
-
-</td></tr><tr><td>
-
-Reverse Tunnel
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-reversetunnel-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -2524,27 +1596,11 @@ Sales Agreement Management
 
 </td></tr><tr><td>
 
-Sales CRM for Telecommunications
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-salescrmfortelecommunications-release-notes.html)
-
-</td></tr><tr><td>
-
 Sales Forecasting
 
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-salesforecasting-release-notes.html)
-
-</td></tr><tr><td>
-
-Sales Territory Management​
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-salesterritorymanagement-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -2596,27 +1652,11 @@ Service Catalog
 
 </td></tr><tr><td>
 
-Service Creator
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-servicecreator-release-notes.html)
-
-</td></tr><tr><td>
-
 Service Exchange
 
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-serviceexchange-release-notes.html)
-
-</td></tr><tr><td>
-
-Service Exchange \(formerly Service Bridge\)
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-serviceexchangeformerlyservicebridge-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -2668,19 +1708,171 @@ ServiceNow AI Platform core feature
 
 </td></tr><tr><td>
 
-ServiceNow CLI
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-servicenowcli-release-notes.html)
-
-</td></tr><tr><td>
-
 ServiceNow IDE
 
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-servicenowide-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for App Engine
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-servicenowottoforappengine-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Collaborative Work Management \(CWM\)
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-servicenowottoforcollaborativeworkmanagementcwm-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Configuration Management Database \(CMDB\)
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-servicenowottoforconfigurationmanagementdatabasecmdb-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Creator
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-servicenowottoforcreator-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Customer Service Management \(CSM\)
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-servicenowottoforcustomerservicemanagementcsm-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Enterprise Architecture \(EA\)
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-servicenowottoforenterprisearchitectureea-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Field Service Management \(FSM\)
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-servicenowottoforfieldservicemanagementfsm-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Financial Services Operations \(FSO\)
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-servicenowottoforfinancialservicesoperationsfso-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Hardware Asset Management \(HAM\)
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-servicenowottoforhardwareassetmanagementham-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for HR Service Delivery \(HRSD\)
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-servicenowottoforhrservicedeliveryhrsd-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for IT Service Management \(ITSM\)
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-servicenowottoforitservicemanagementitsm-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Legal Service Delivery \(LSD\)
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-servicenowottoforlegalservicedeliverylsd-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Order Management
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-servicenowottoforordermanagement-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Sales Automation
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-servicenowottoforsalesautomation-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Security Incident Response \(SIR\)
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-servicenowottoforsecurityincidentresponsesir-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Software Asset Management \(SAM\)
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-servicenowottoforsoftwareassetmanagementsam-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Strategic Portfolio Management
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-servicenowottoforstrategicportfoliomanagement-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-servicenowottofortelecommunicationsmediaandtechnologytmt-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Unified Security Exposure Management
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-servicenowottoforunifiedsecurityexposuremanagement-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Workplace Service Delivery \(WSD\)
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-servicenowottoforworkplaceservicedeliverywsd-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -2697,14 +1889,6 @@ ServiceNow Studio
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-servicenowstudio-release-notes.html)
-
-</td></tr><tr><td>
-
-ServiceNow Vault
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-servicenowvault-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -2745,14 +1929,6 @@ Service Reliability Management
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-servicereliabilitymanagement-release-notes.html)
-
-</td></tr><tr><td>
-
-Setup Hub
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-setuphub-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -2812,35 +1988,11 @@ Software Asset Management
 
 </td></tr><tr><td>
 
-Source-to-Pay Operations Integrations
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-sourcetopayoperationsintegrations-release-notes.html)
-
-</td></tr><tr><td>
-
 Sourcing and Procurement Operations
 
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-sourcingandprocurementoperations-release-notes.html)
-
-</td></tr><tr><td>
-
-SPM Enterprise-Wide Deployment
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-spmenterprisewidedeployment-release-notes.html)
-
-</td></tr><tr><td>
-
-SQL API
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-sqlapi-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -2924,14 +2076,6 @@ Talent Feedback
 
 </td></tr><tr><td>
 
-Talent profile
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-talentprofile-release-notes.html)
-
-</td></tr><tr><td>
-
 Task Intelligence for ITSM
 
 </td><td>
@@ -2940,19 +2084,19 @@ Task Intelligence for ITSM
 
 </td></tr><tr><td>
 
-Telecommunications Customer 360
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-telecommunicationscustomer360-release-notes.html)
-
-</td></tr><tr><td>
-
 Telecommunications Network Inventory
 
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-telecommunicationsnetworkinventory-release-notes.html)
+
+</td></tr><tr><td>
+
+Telecommunications Service Operations Management
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-telecommunicationsserviceoperationsmanagement-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -3004,35 +2148,11 @@ UI Component CLI Extension
 
 </td></tr><tr><td>
 
-Unified Security Exposure Management
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-unifiedsecurityexposuremanagement-release-notes.html)
-
-</td></tr><tr><td>
-
-Universal Request
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-universalrequest-release-notes.html)
-
-</td></tr><tr><td>
-
 Upgrade Center
 
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-upgradecenter-release-notes.html)
-
-</td></tr><tr><td>
-
-Upgrade Console
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-upgradeconsole-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -3108,14 +2228,6 @@ Vulnerability Response Integration with Microsoft Defender for IoT \(Azure\)
 
 </td></tr><tr><td>
 
-Walk-up Experience
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-walkupexperience-release-notes.html)
-
-</td></tr><tr><td>
-
 Workflow Studio
 
 </td><td>
@@ -3124,27 +2236,11 @@ Workflow Studio
 
 </td></tr><tr><td>
 
-Workforce Optimization for CSM
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-workforceoptimizationforcsm-release-notes.html)
-
-</td></tr><tr><td>
-
 Workforce Optimization for Customer Service CSM
 
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-workforceoptimizationforcustomerservicecsm-release-notes.html)
-
-</td></tr><tr><td>
-
-Workforce Optimization for HR
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-workforceoptimizationforhr-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -3177,14 +2273,6 @@ Zero Copy Connector Hub
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-zerocopyconnectorhub-release-notes.html)
-
-</td></tr><tr><td>
-
-Zero Copy Connectors
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-zerocopyconnectors-release-notes.html)
 
 </td></tr></tbody>
 </table>

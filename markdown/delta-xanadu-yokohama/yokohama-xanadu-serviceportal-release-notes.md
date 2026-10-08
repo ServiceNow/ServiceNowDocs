@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-serviceportal-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -227,7 +227,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Service Portal is a ServiceNow AI Platform feature that is active by default.
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -289,11 +292,14 @@ Yokohama
 
 </td><td>
 
+-   **Browser requirements**
+
 The Yokohama release doesn't support Internet Explorer 11.
 
- The iOS version of Firefox doesn’t support Service Portal pages.
+The iOS version of Firefox doesn’t support Service Portal pages.
 
- For more information about Service Portal browser support, see [Browser support](https://www.servicenow.com/docs/access?context=browser-support&family=yokohama&ft:locale=en-US).
+For more information about Service Portal browser support, see [Browser support](https://www.servicenow.com/docs/access?context=browser-support&family=yokohama&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Accessibility information

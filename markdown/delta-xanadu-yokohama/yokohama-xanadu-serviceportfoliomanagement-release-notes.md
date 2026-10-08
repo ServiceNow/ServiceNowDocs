@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-serviceportfoliomanagement-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
@@ -213,7 +213,10 @@ Yokohama
 
 </td><td>
 
-The Service Portfolio Management Core plugin \[com.snc.service\_portfolio\_core\] is available by default for IT Service Management licensed customers. For more information, see [Activate Service Portfolio Management](https://www.servicenow.com/docs/access?context=activate-SPM2-plugin&family=yokohama&ft:locale=en-US).
+-   **Activation information**
+
+The Service Portfolio Management Core plugin \[com.snc.service\_portfolio\_core\] is available by default for IT Service Management licensed customers. For more information, see [Activate](https://www.servicenow.com/docs/access?context=activate-SPM2-plugin&family=yokohama&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements

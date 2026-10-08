@@ -7,7 +7,7 @@ release: yokohama
 product: Scripts
 classification: scripts
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [Now Assist for code generation, Scripting, API implementation, API implementation and reference]
 ---

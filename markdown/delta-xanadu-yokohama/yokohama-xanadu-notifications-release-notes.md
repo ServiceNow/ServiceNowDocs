@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-notifications-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 3
+last_updated: "2026-10-08"
+reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
 
@@ -125,7 +125,24 @@ Yokohama
 
 </td><td>
 
--   **[Advanced filters in notification preferences](https://www.servicenow.com/docs/access?context=advanced-notification-prefrences&family=yokohama&ft:locale=en-US)**
+-   **[Advanced filters options for notification preferences](https://www.servicenow.com/docs/access?context=advanced-notification-prefrences&family=yokohama&ft:locale=en-US)**
+
+Added categories, delivery channels, active or inactive notifications, subscriptions, and digest-enabled filter options for notification preferences.
+
+-   **[Standard forms](https://www.servicenow.com/docs/access?context=advanced-notification-prefrences&family=yokohama&ft:locale=en-US)**
+
+Enabled standardized forms across custom notification preferences and delivery channels.
+
+-   **[Assignment group field](https://www.servicenow.com/docs/access?context=create-add-assignment-group&family=yokohama&ft:locale=en-US)**
+
+Extended the provider framework to add support for assignment groups.
+
+-   **[Advanced condition field](https://www.servicenow.com/docs/access?context=noti-new-update-notification&family=yokohama&ft:locale=en-US)**
+
+Extended the provider framework to add an advanced condition.
+
+
+ -   **[Advanced filters in notification preferences](https://www.servicenow.com/docs/access?context=advanced-notification-prefrences&family=yokohama&ft:locale=en-US)**
 
 Use notifications filters for categories, delivery channels, active or inactive notifications, subscriptions, and digest enabled notifications.
 
@@ -231,7 +248,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Notifications is a ServiceNow AI Platform feature that is active by default.
+
 
 </td></tr></tbody>
 </table>## Additional requirements

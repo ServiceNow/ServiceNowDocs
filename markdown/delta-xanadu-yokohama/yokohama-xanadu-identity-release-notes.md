@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-identity-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -123,8 +123,6 @@ Yokohama
 Assign the `access_analyzer_admin` role to the users to access and administer the Access Analyzer.
 
 
-**Important:** Access Analyzer V4 is available in the ServiceNow Store. For more information, visit ServiceNow Store.
-
 </td></tr></tbody>
 </table>## Removed
 
@@ -210,7 +208,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Identity is a ServiceNow AI Platform product that is active by default.
+
 
 </td></tr></tbody>
 </table>## Additional requirements

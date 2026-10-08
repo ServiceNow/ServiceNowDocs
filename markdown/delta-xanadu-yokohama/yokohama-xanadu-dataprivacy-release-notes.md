@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-dataprivacy-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 3
+last_updated: "2026-10-08"
+reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
 
@@ -46,7 +46,10 @@ Yokohama
 
 </td><td>
 
+-   **Upgrade information**
+
 Licensing changes enable you to install Data Discovery, Data Discovery APIs, Data Anonymization, and Data Privacy APIs without an entitlement, but you must have an entitlement to run a job.
+
 
 </td></tr></tbody>
 </table>## New features
@@ -90,7 +93,8 @@ Use AI/ML data discovery using Named Entity Recognition \(NER\) models to discov
 
 Sanitize sensitive data entered in Now Assist prompts to prevent data leakage without impacting the response.
 
--   **[Discover sensitive data from attachments.](https://www.servicenow.com/docs/access?context=configure-data-discovery-jobs&family=yokohama&ft:locale=en-US)**
+
+ -   **[Discover sensitive data from attachments.](https://www.servicenow.com/docs/access?context=configure-data-discovery-jobs&family=yokohama&ft:locale=en-US)**
 
 Discover and report on sensitive data from attachments.
 
@@ -224,7 +228,12 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Data Privacy is available with activation of the Data Privacy Plugin \(sn\_dp\_store\_app\). For details, see [Activate data privacy](https://www.servicenow.com/docs/access?context=dps-activate-data-privacy&family=yokohama&ft:locale=en-US).
+
+
+**Important:** Data Privacy is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements

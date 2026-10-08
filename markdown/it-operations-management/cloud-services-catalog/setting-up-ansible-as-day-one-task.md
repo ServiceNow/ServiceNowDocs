@@ -1,6 +1,6 @@
 ---
 title: Set up Ansible as a Day 1 task
-description: Set up the Ansible console as a Day 1 task before you run Discovery and deploy a job template via a ServiceNow catalog item by using the Cloud Services Catalog application.
+description: Set up the Ansible console as a Day 1 task before running Discovery and deploying job templates via catalog items.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/cloud-services-catalog/setting-up-ansible-as-day-one-task.html
 release: yokohama
@@ -14,13 +14,13 @@ breadcrumb: [Integrating Ansible with Cloud Services Catalog, Configuring Cloud 
 
 # Set up Ansible as a Day 1 task
 
-Set up the Ansible console as a Day 1 task before you run Discovery and deploy a job template via a ServiceNow catalog item by using the Cloud Services Catalog application.
+Set up the Ansible console as a Day 1 task before running Discovery and deploying job templates via catalog items.
 
 ## Before you begin
 
-Set the deploymentID on the extra variables for Ansible job templates.
+All extra variables must have a variable called deploymentID. The value of this deploymentID is sent from the catalog request.
 
-Select the **Prompt on launch** option next to the variables section in the template. If you don't do this action, you can't update or override the default extra\_vars that is defined with the values from the catalog order form, while you are launching the template.
+Select the **Prompt on launch** option next to the variables section in the template. This action enables you to update or override the default extra\_vars with values from the catalog order form when launching the template.
 
 Tag all resources with the deploymentID key to enable Discovery after provisioning.
 

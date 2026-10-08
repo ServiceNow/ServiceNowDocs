@@ -7,7 +7,7 @@ release: yokohama
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 2
 breadcrumb: [Storage discovery, Data collected by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---

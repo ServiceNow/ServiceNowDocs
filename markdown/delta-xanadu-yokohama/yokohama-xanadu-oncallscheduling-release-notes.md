@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-oncallscheduling-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -215,12 +215,14 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 On-Call Scheduling is available with activation of the ServiceNow AI Platform On-Call Scheduling plugin \(com.snc.on\_call\_rotation\). For details, see [Activate On-Call Scheduling](https://www.servicenow.com/docs/access?context=t_ActivateOnCallScheduling&family=yokohama&ft:locale=en-US). Activating this plugin activates the following third-party libraries:
 
--   FullCalendar library
--   DHTMLX scheduler
-
+    -   FullCalendar library
+    -   DHTMLX scheduler
 **Note:** The On-Call Scheduling \(com.snc.on\_call\_rotation\) plugin is active by default for zBoot customers.
+
 
 </td></tr></tbody>
 </table>## Additional requirements

@@ -264,7 +264,7 @@ Use the HR Service Delivery Agent Workspace to interact with employees, respond 
 
 </td><td>
 
-Install and configure the HRSD Configurable Agent Workspace for Case Management. For guidance, see  and this [Community Article](https://www.servicenow.com/community/hrsd-articles/hr-agent-workspace-migration-guidelines-from-classic-to/ta-p/2310606).
+Install and configure the HRSD Configurable Agent Workspace for Case Management. For guidance, see [Agent Workspace for HR Case Management \(Configurable\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/agent-ws-hr-case-mgmt-landing-page.md) and this [Community Article](https://www.servicenow.com/community/hrsd-articles/hr-agent-workspace-migration-guidelines-from-classic-to/ta-p/2310606).
 
 </td></tr><tr><td>
 
@@ -344,7 +344,7 @@ Monitors the compliance level of instance security controls, view security event
 
 </td><td>
 
-Install ServiceNow Security Center on the ServiceNow Store. For guidance, see .
+Install ServiceNow Security Center on the ServiceNow Store. For guidance, see [Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/sec-center-v2.md).
 
 </td></tr><tr><td>
 

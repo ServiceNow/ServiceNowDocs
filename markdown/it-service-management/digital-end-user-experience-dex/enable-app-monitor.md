@@ -7,7 +7,7 @@ release: yokohama
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [DEX administration, Configure, Digital End-User Experience, IT Service Management]
 ---

@@ -16,7 +16,7 @@ Publishing an application creates an update set containing the current version o
 
 ## Before you begin
 
-Role required: Role required: admin, or delegated\_developer with Publish To Update Set permission enabled
+Role required: admin, or delegated\_developer with Publish To Update Set permission enabled
 
 ## About this task
 
@@ -24,15 +24,15 @@ You can use this update set as a backup file for auditing purposes or to transfe
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **System Applications** &gt; **My Company's Applications**.
+1.  Navigate to **All** &gt; **System Applications** &gt; **My Company Applications**.
 
-2.  Click the **In Development** tab.
+2.  Select the **In Development** tab.
 
 3.  Open the application record you want to create an update set for.
 
-4.  Click the **Publish to Update Set** related link.
+4.  Select the **Publish to Update Set** related link.
 
-5.  Fill in the fields, as appropriate \(see table\).
+5.  On the form, fill in the fields.
 
     \[Omitted image "PublishToUpdateSet.png"\] Alt text: Publish to Update Set
 
@@ -89,7 +89,7 @@ See [Import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yo
 
 
 </td></tr></tbody>
-</table>6.  Click **Publish**.
+</table>6.  Select **Publish**.
 
     A new update set is created and the latest update of each application file in the application is copied into it. The update set is marked as complete.
 

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-regulatorychangemanagement-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 7
+last_updated: "2026-10-08"
+reading_time_minutes: 8
 breadcrumb: [Products combined by family]
 ---
 
@@ -76,6 +76,9 @@ Define the routing rules to automatically distribute regulatory alerts to intern
 Add AI-powered recommendations from the most relevant citations through incoming regulatory changes, authority documents, child citations, and related control objects. You can drill down into the recommendations to explore the details within the context of the alert.
 
 
+ -   No plans to enhance the Calendar reporting view in the Classic UI that is shipped with the application.
+-   No plans to enhance the Overview dashboard in the Classic UI that is shipped with the application.
+
 </td></tr><tr><td>
 
 Yokohama
@@ -141,7 +144,27 @@ Yokohama
 
 </td><td>
 
--   **[Overview page of regulatory alerts](https://www.servicenow.com/docs/access?context=list-view-of-reg-alerts&family=yokohama&ft:locale=en-US)**
+-   **[Some Now Assist skills are turned on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&family=yokohama&ft:locale=en-US)**
+
+The new default behavior works as follows:
+
+    -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
+    -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
+-   **[Changes to Now Assist usage measurement](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=yokohama&ft:locale=en-US)**
+
+Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
+
+
+ -   **[Changes on the action task form](https://www.servicenow.com/docs/access?context=create-action-task-using-ws&family=yokohama&ft:locale=en-US)**
+
+The Category: Compliance section and the Category: Risk section on an action task form have been removed. They're replaced by the **Impacted area table** field and the **Impacted area** field.
+
+-   **[Assess impact](https://www.servicenow.com/docs/access?context=assess-impact-of-reg-change-using-ws&family=yokohama&ft:locale=en-US)**
+
+The **Initiate Impact Assessment** button is now called the **Assess impact** button.
+
+
+ -   **[Overview page of regulatory alerts](https://www.servicenow.com/docs/access?context=list-view-of-reg-alerts&family=yokohama&ft:locale=en-US)**
 
 The Overview page for regulatory alerts includes a drop-down menu that enables you to track the progress of a regulatory assessment. Additionally, you can view the counts of completed, open, and overdue regulatory assessments.
 
@@ -152,17 +175,6 @@ On the Regulatory Change Management home page, within the Tracking section, a ne
 -   **[Regulatory assessments in the Tasks pane](https://www.servicenow.com/docs/access?context=regulatory-assessment-in-rcm&family=yokohama&ft:locale=en-US)**
 
 The Tasks pane in the Compliance Workspace now displays all the Regulatory assessments.
-
-
--   **[Some Now Assist skills are now turned on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&family=yokohama&ft:locale=en-US)**
-
-The new default behavior works as follows:
-
-    -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
-    -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
--   **[Changes to Now Assist usage measurement](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=yokohama&ft:locale=en-US)**
-
-
 
 
 </td></tr></tbody>
@@ -192,9 +204,7 @@ Yokohama
 
 </td><td>
 
--   Related documents related list will be hidden for both the workspace and classic view for a regulatory alert.
--   The entity class configuration has been removed and is no longer necessary for conducting an assessment. You can select the entities now when you send the risk assessment.
--   Starting with the Yokohama release, all open assessments for a regulatory alert, whether they’re risk assessments or regulatory assessments, aren’t marked as canceled and remain open even after an alert is marked as applicable.
+No updates for this release.
 
 </td></tr></tbody>
 </table>## Deprecations
@@ -223,7 +233,9 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+-   Related documents related list will be hidden for both the workspace and classic view for a regulatory alert.
+-   The entity class configuration has been removed and is no longer necessary for conducting an assessment. You can select the entities now when you send the risk assessment.
+-   Starting with the Yokohama release, all open assessments for a regulatory alert, whether they’re risk assessments or regulatory assessments, aren’t marked as canceled and remain open even after an alert is marked as applicable.
 
 </td></tr></tbody>
 </table>## Activation information
@@ -252,7 +264,12 @@ Yokohama
 
 </td><td>
 
-Install Regulatory Change Management and Now Assist for IRM by requesting them from ServiceNow Store. 
+-   **Activation information**
+
+Install Regulatory Change Management and ServiceNow Otto for IRM by requesting them from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
+
+**Important:** Regulatory Change Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements

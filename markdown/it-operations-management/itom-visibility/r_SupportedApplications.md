@@ -6406,7 +6406,7 @@ Fast Search
 
 </td></tr><tr><td>
 
-[Microsoft Foundry \(Classic\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/microsoft-foundry-classic-pattern.md)
+[Microsoft Foundry \(classic\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/microsoft-foundry-classic-pattern.md)
 
 </td><td>
 

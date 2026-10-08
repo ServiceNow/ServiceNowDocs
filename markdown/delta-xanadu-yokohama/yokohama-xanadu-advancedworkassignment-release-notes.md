@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-advancedworkassignment-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -93,7 +93,7 @@ Yokohama
 Run AWA assignments on different nodes or cadences for different service channels to improve performance and resilience.
 
 
--   **[Using Advanced Work Assignment](https://www.servicenow.com/docs/access?context=using-awa&family=yokohama&ft:locale=en-US)**
+ -   **[Use](https://www.servicenow.com/docs/access?context=using-awa&family=yokohama&ft:locale=en-US)**
 
 Enable agents with the ability to provide wrap-up codes or notes for interactions or segments that the agent was involved in.
 
@@ -214,9 +214,12 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Advanced Work Assignment is a ServiceNow AI Platform feature that is available with activation of the Glide Advanced Work Assignment plugin \(com.glide.awa\). For details, see [Activate Advanced Work Assignment](https://www.servicenow.com/docs/access?context=awa-activate&family=yokohama&ft:locale=en-US).
 
- To use the External routing functionality on your instance, you must activate the External Routing Support plugin \(com.glide.awa-external\).
+To use the External routing functionality on your instance, you must activate the External Routing Support plugin \(com.glide.awa-external\).
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -274,7 +277,10 @@ Yokohama
 
 </td><td>
 
+-   **Browser requirements**
+
 Advanced Work Assignment doesn’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge - Chromium or one of the other supported browsers that are listed in Browser support.
+
 
 </td></tr></tbody>
 </table>## Accessibility information

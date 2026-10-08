@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-servicenowsdk-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 7
+last_updated: "2026-10-08"
+reading_time_minutes: 8
 breadcrumb: [Products combined by family]
 ---
 
@@ -46,11 +46,14 @@ Yokohama
 
 </td><td>
 
+-   **Upgrade information**
+
 Upgrade to the latest version of the ServiceNow SDK with the `now-sdk upgrade` command. For more information, see [Upgrade the ServiceNow SDK](https://www.servicenow.com/docs/access?context=upgrade-servicenow-sdk&family=yokohama&ft:locale=en-US).
 
- ServiceNow SDK version 3.0 supports integrating with ServiceNow instances beginning with the Washington DC release.
+ServiceNow SDK version 3.0 supports integrating with ServiceNow instances beginning with the Washington DC release.
 
 **Note:** For more information about minor releases of the ServiceNow SDK, see the [ServiceNow IDE, SDK, and Fluent articles](https://www.servicenow.com/community/servicenow-ide-sdk-and-fluent/tkb-p/ide-sdk-fluent-articles) in the ServiceNow Community.
+
 
 </td></tr></tbody>
 </table>## New features
@@ -242,8 +245,7 @@ Yokohama
 
 </td><td>
 
--   The `now-sdk convert` command has been removed. Use the `now-sdk init` and `now-sdk transform` commands instead.
--   The `now-sdk fetch` command has been removed. Use the `now-sdk transform` command instead.
+No updates for this release.
 
 </td></tr></tbody>
 </table>## Deprecations
@@ -272,7 +274,8 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+-   The `now-sdk convert` command has been removed. Use the `now-sdk init` and `now-sdk transform` commands instead.
+-   The `now-sdk fetch` command has been removed. Use the `now-sdk transform` command instead.
 
 </td></tr></tbody>
 </table>## Activation information
@@ -301,7 +304,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 The ServiceNow SDK is available as a Node Package Manager \(npm\) package from the [public npm registry](https://www.npmjs.com/package/@servicenow/sdk) and installed locally. For information about installing the ServiceNow SDK, see [Install the ServiceNow SDK](https://www.servicenow.com/docs/access?context=install-servicenow-sdk&family=yokohama&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -330,7 +336,10 @@ Yokohama
 
 </td><td>
 
+-   **Additional requirements**
+
 You must have Node.js and Node Package Manager \(npm\) installed to install the ServiceNow SDK. For more information, see [Install the ServiceNow SDK](https://www.servicenow.com/docs/access?context=install-servicenow-sdk&family=yokohama&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Browser requirements

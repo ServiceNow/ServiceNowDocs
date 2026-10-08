@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-commoncore-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 5
+last_updated: "2026-10-08"
+reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
 
@@ -83,21 +83,23 @@ Implement data segregation and detailed access management so that users can acce
 
 Optimize the GRC issue resolution agentic AI workflow in the Integrated Risk Management application to help your issue managers and analysts resolve GRC issues with AI agents in the Now Assist panel. This workflow makes the issue resolution process more efficient by introducing targeted solutions for key steps in the issue management life cycle.
 
--   **[Gen AI issue summarization](https://www.servicenow.com/docs/access?context=now-assist-for-irm&family=yokohama&ft:locale=en-US)**
 
-Summarize an issue by using the Now Assist for IRM application to provide quicker context gathering and contextual awareness. You can quickly analyze the issue records, including the description, activity log, and remediation tasks, and then generate a concise summary that provides you with a concise context of the issue to help you resolve it. Check your entitlements to determine whether you have access to issue summarization.
+ -   **[Gen AI issue summarization](https://www.servicenow.com/docs/access?context=now-assist-for-irm&family=yokohama&ft:locale=en-US)**
+
+Summarize an issue by using the ServiceNow Otto for IRM application to provide quicker context gathering and contextual awareness. You can quickly analyze the issue records, including the description, activity log, and remediation tasks, and then generate a concise summary that provides you with a concise context of the issue to help you resolve it. Check your entitlements to determine whether you have access to issue summarization.
 
 -   **[Searching user groups to understand the licensing treatment](https://www.servicenow.com/docs/access?context=grc-licensing-summary-dashboard&family=yokohama&ft:locale=en-US)**
 
 Use the enhanced GRC licensing summary dashboard to understand the licensing treatment of users that are added to the group by roles that are mapped or assigned to the group.
 
--   **[Overview of an agency record](https://www.servicenow.com/docs/access?context=regulatory-agency-library-rcm&family=yokohama&ft:locale=en-US)**
-
-View the pie charts that depict the total number of emails that are sent to the various regulatory domains. On the overview page of a regulatory agency, you can view the domains where the maximum number of emails were sent and access the Emails Tracker page directly from an agency record. You can also filter and display only the relevant emails that were sent to a specific agency.
-
 -   **[Document designer integration](https://www.servicenow.com/docs/access?context=configuring-audit-word-based-templates&family=yokohama&ft:locale=en-US)**
 
 Update and add content by using Microsoft 365 for ServiceNow Reporting, which is now integrated with the Document designer application. You can insert data and reports into a Microsoft Word document.
+
+
+ -   **[Overview of an agency record](https://www.servicenow.com/docs/access?context=regulatory-agency-library-rcm&family=yokohama&ft:locale=en-US)**
+
+View the pie charts that depict the total number of emails that are sent to the various regulatory domains. On the overview page of a regulatory agency, you can view the domains where the maximum number of emails were sent and access the Emails Tracker page directly from an agency record. You can also filter and display only the relevant emails that were sent to a specific agency.
 
 
 </td></tr></tbody>
@@ -127,16 +129,7 @@ Yokohama
 
 </td><td>
 
--   **[Column Organization](https://www.servicenow.com/docs/access?context=create-an-audit-report-template&family=yokohama&ft:locale=en-US)**
-
-You can select and reorder columns when adding a table into your template by using the Document designer Microsoft Word add-in. You can now organize your content better to meet your reporting needs.
-
--   **[Create content configurations](https://www.servicenow.com/docs/access?context=create-content-configurations&family=yokohama&ft:locale=en-US)**
-
-You can add up to 20 columns in a table and content block by using the Document designer application. You now have more flexibility with customizing your table and content block to meet your reporting needs.
-
-
--   **[Some Now Assist skills are now turned on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&family=yokohama&ft:locale=en-US)**
+-   **[Some Now Assist skills are turned on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&family=yokohama&ft:locale=en-US)**
 
 The new default behavior works as follows:
 
@@ -144,7 +137,21 @@ The new default behavior works as follows:
     -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
 -   **[Changes to Now Assist usage measurement](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=yokohama&ft:locale=en-US)**
 
+Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
+
+ -   **[Create data relationships](https://www.servicenow.com/docs/access?context=create-data-relationships&family=yokohama&ft:locale=en-US)**
+
+The **Data Relationship** tab has been added to the template configuration record as part of the configuration process for the Document designer Microsoft Word add-in.
+
+
+ -   **[Column Organization](https://www.servicenow.com/docs/access?context=create-an-audit-report-template&family=yokohama&ft:locale=en-US)**
+
+You can select and reorder columns when adding a table into your template by using the Document designer Microsoft Word add-in. You can now organize your content better to meet your reporting needs.
+
+-   **[Create content configurations](https://www.servicenow.com/docs/access?context=create-content-configurations&family=yokohama&ft:locale=en-US)**
+
+You can add up to 20 columns in a table and content block by using the Document designer application. You now have more flexibility with customizing your table and content block to meet your reporting needs.
 
 
 </td></tr></tbody>
@@ -232,7 +239,12 @@ Yokohama
 
 </td><td>
 
-Install Integrated Risk Management and Now Assist for IRM by requesting them from ServiceNow Store. 
+-   **Activation information**
+
+Install Integrated Risk Management and ServiceNow Otto for IRM by requesting them from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
+
+**Important:** IRM is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements

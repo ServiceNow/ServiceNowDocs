@@ -1,6 +1,6 @@
 ---
 title: Specify rate discounts to enable accurate pricing for Rightsizing recommendations
-description: To generate an accurate Rightsizing recommendation, the system analyzes usage data for the last 14 days, obtains prices from the price sheet data tables, and then applies appropriate discounts. To enable the calculations, specify the provider's discount rate for each service account.
+description: Specify the provider's discount rate for each service account to enable Rightsizing calculations. To generate accurate recommendations, the system analyzes 14 days of usage data, applies price sheet rates, and appropriate discounts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/cloud-cost-management/discounts-specify-cloudin.html
 release: yokohama
@@ -14,11 +14,11 @@ breadcrumb: [Configure Rightsizing operations, Resize resources with Rightsizing
 
 # Specify rate discounts to enable accurate pricing for Rightsizing recommendations
 
-To generate an accurate Rightsizing recommendation, the system analyzes usage data for the last 14 days, obtains prices from the price sheet data tables, and then applies appropriate discounts. To enable the calculations, specify the provider's discount rate for each service account.
+Specify the provider's discount rate for each service account to enable Rightsizing calculations. To generate accurate recommendations, the system analyzes 14 days of usage data, applies price sheet rates, and appropriate discounts.
 
 ## Before you begin
 
-Role required: insights\_admin \[sn\_clin\_core.insights\_admin\]
+Role required: Insights admin \(sn\_clin\_core.insights\_admin\)
 
 ## Procedure
 

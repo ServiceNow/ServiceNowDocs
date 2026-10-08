@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-partnerrelationshipmanagement-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 2
+last_updated: "2026-10-08"
+reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
 
@@ -75,7 +75,18 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+-   **[Configure Partner Relationship Management](https://www.servicenow.com/docs/access?context=configure-partner-relationship-management&family=yokohama&ft:locale=en-US)**
+
+Support channel partners, enterprises, and their hierarchies with a centralized data model that specifies the roles and responsibilities of channel partners and enterprises.
+
+-   **[Using Partner Relationship Management](https://www.servicenow.com/docs/access?context=using-partner-relationship-management&family=yokohama&ft:locale=en-US)**
+
+Enable channel partners to submit service requests, access catalog items, and manage their profiles on the self-service partner portal.
+
+-   **[Using Partner Relationship Management](https://www.servicenow.com/docs/access?context=using-partner-relationship-management&family=yokohama&ft:locale=en-US)**
+
+Enable channel partners to create, track, and resolve service cases efficiently with the end-to-end case management workflow on the partner portal.
+
 
 </td></tr></tbody>
 </table>## Changes
@@ -191,7 +202,12 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Install Partner Relationship Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
+
+**Important:** Partner Relationship Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -336,7 +352,10 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+-   Enable enterprises to gain real-time visibility into partner's performance and engage with the channel partner ecosystem.
+-   Enable channel partners to use the self-service Partner portal to register members, raise inquiries, and foster communication between the enterprise and partners.
+
+ See [\[Placeholder link text to key bundle-omgmt.exploring-partner-relationship-management\]](https://www.servicenow.com/docs/access?context=exploring-partner-relationship-management&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/delta-xanadu-yokohama/rn-combined-intro.md)

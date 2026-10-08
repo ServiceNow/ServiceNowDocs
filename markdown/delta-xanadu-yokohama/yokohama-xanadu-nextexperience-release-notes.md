@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-nextexperience-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
@@ -141,7 +141,19 @@ Yokohama
 
 </td><td>
 
--   **[Next Experience preferences](https://www.servicenow.com/docs/access?context=set-up-preferences-next-experience&family=yokohama&ft:locale=en-US)**
+-   **[Enable keyboard focus on truncated text user preference](https://www.servicenow.com/docs/access?context=next-experience-accessibility-preferences&family=yokohama&ft:locale=en-US)**
+
+The "Enable keyboard focus on truncated text" user preference has been updated to "Enable keyboard focus on text that displays a tooltip."
+
+-   **[Improved keyboard shortcut modal](https://www.servicenow.com/docs/access?context=using-the-next-experience-global-header&family=yokohama&ft:locale=en-US)**
+
+The keyboard shortcut menu has improved usability in the following ways:
+
+    -   The modal now includes two columns that include the keyboard shortcut and a description with a scrollable list of available shortcuts on the viewed page.
+    -   A search field enables you to search for shortcuts that are relevant to the page you’re viewing.
+    -   A **Close** button enables you to easily close the modal.
+
+ -   **[Next Experience preferences](https://www.servicenow.com/docs/access?context=set-up-preferences-next-experience&family=yokohama&ft:locale=en-US)**
 
 The new user preference panel provides a more efficient, streamlined way for you to work. Use the new search bar to locate your preferences. A wider modal displays all preference groups and when you select a group, all the individual preferences that are related to it appear in the same window.
 
@@ -233,9 +245,12 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Next Experience is a ServiceNow AI Platform feature that is active by default when the user loads or upgrades to the Yokohama release. If there are known problems with turning on Next Experience on an instance, an opt-out system property can be created prior to upgrade.
 
- Theme Builder comes with the Next Experience and is active by default.
+Theme Builder comes with the Next Experience and is active by default.
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -293,7 +308,10 @@ Yokohama
 
 </td><td>
 
+-   **Browser requirements**
+
 The Yokohama release doesn't support Internet Explorer 11. The iOS version of Firefox is also not supported.
+
 
 </td></tr></tbody>
 </table>## Accessibility information
@@ -325,11 +343,12 @@ Yokohama
 
 </td><td>
 
--   **[Customize Next Experience keyboard shortcuts](https://www.servicenow.com/docs/access?context=customize-keyboard-shortcuts&family=yokohama&ft:locale=en-US)**
+-   **Accessibility information**
+    -   **[Customize Next Experience keyboard shortcuts](https://www.servicenow.com/docs/access?context=customize-keyboard-shortcuts&family=yokohama&ft:locale=en-US)**
 
 Create your own keyboard shortcuts for frequently used actions.
 
--   **[Next Experience keyboard shortcuts](https://www.servicenow.com/docs/access?context=next-experience-keyboard-shortcuts&family=yokohama&ft:locale=en-US)**
+    -   **[Next Experience keyboard shortcuts](https://www.servicenow.com/docs/access?context=next-experience-keyboard-shortcuts&family=yokohama&ft:locale=en-US)**
 
 **Keyboard shortcuts categorized**: Keyboard shortcuts for each page are now organized into categories: Page Action, Page Navigation, Global Navigation, and General.
 
@@ -337,7 +356,7 @@ Create your own keyboard shortcuts for frequently used actions.
 
 **Accessibility improvements for keyboard interactions**: Use the right and left arrow keys to expand and collapse rows.
 
--   **[Configure Next Experience accessibility preferences](https://www.servicenow.com/docs/access?context=next-experience-accessibility-preferences&family=yokohama&ft:locale=en-US)**
+    -   **[Configure Next Experience accessibility preferences](https://www.servicenow.com/docs/access?context=next-experience-accessibility-preferences&family=yokohama&ft:locale=en-US)**
 
 **Voice input for Now Assist**
 

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-nowassist-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 20
+last_updated: "2026-10-08"
+reading_time_minutes: 22
 breadcrumb: [Products combined by family]
 ---
 
@@ -48,9 +48,12 @@ Yokohama
 
 </td><td>
 
+-   **Upgrade information**
+
 If you customized UI actions or other items that are associated with Now Assist skills, ensure that your customized code is updated with the new skill releases. Otherwise, certain functions may not work as expected.
 
- If you run into issues when you're upgrading a Now Assist product, see [KB1637452: Issues and mitigation for Now Assist \(Generative AI\) Applications and Plugin updates](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1637452). You may need to log in to view the article.
+If you run into issues when you're upgrading a Now Assist product, see [KB1637452: Issues and mitigation for Now Assist \(Generative AI\) Applications and Plugin updates](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1637452). You may need to log in to view the article.
+
 
 </td></tr></tbody>
 </table>## New features
@@ -103,7 +106,7 @@ Run diagnostics on certain Now Assist skills to identify common configuration er
 
 -   **[Analyze Now Assist performance](https://www.servicenow.com/docs/access?context=now-assist-analytics&family=xanadu&ft:locale=en-US)**
 
-Use the Now Assist Analytics dashboard to monitor the usage and performance of generative AI features and capabilities offered under Now Assist.
+Use the AI Analytics dashboard to monitor the usage and performance of generative AI features and capabilities offered under Now Assist.
 
 -   **[Configure and use a retriever with Now Assist Skill Kit](https://www.servicenow.com/docs/access?context=add-retriever&family=xanadu&ft:locale=en-US)**
 
@@ -129,9 +132,9 @@ Generate a Knowledge article for an incident, case, or other supported task type
 
 Use generative AI capabilities of Now Assist to shorten or elaborate content within a Knowledge article.
 
--   **[Use Now Assist Data Kit to add a dataset to the data catalog](https://www.servicenow.com/docs/access?context=now-assist-data-kit-landing&family=xanadu&ft:locale=en-US)**
+-   **[Use AI Data Kit to add a dataset to the data catalog](https://www.servicenow.com/docs/access?context=now-assist-data-kit-landing&family=xanadu&ft:locale=en-US)**
 
-Create a data collection and select the sampling data for publication. Once published, the evaluation data is available in Now Assist Skill Kit.
+Create a data collection and select the sampling data for publication. Once published, the evaluation data is available in AI Skill Kit.
 
 -   **[Now Assist context menu](https://www.servicenow.com/docs/access?context=now-assist-write-overview&family=xanadu&ft:locale=en-US)**
     -   Write with Now Assist is now called the Now Assist context menu.
@@ -151,7 +154,7 @@ Enable your agents to use Write with Now Assist for generative AI-powered text g
 -   **Use Now Assist [Platform skills](https://www.servicenow.com/docs/access?context=na-platform-skills&family=xanadu&ft:locale=en-US)**
     -   Use generative AI Platform skills in the Platform workflow starting with the Xanadu release to enhance and streamline your user experience.
     -   Enter search commands in plain language to retrieve and filter records and tables by using the [Navigation](https://www.servicenow.com/docs/access?context=now-assist-global-navigation&family=xanadu&ft:locale=en-US) skill.
--   **Use [Now Assist Skill Kit](https://www.servicenow.com/docs/access?context=now-assist-skill-kit-landing&family=xanadu&ft:locale=en-US) for Generative AI app developers**
+-   **Use [AI Skill Kit](https://www.servicenow.com/docs/access?context=now-assist-skill-kit-landing&family=xanadu&ft:locale=en-US) for Generative AI app developers**
 
 Create and activate custom prompts and skills for your Now Assist agent use cases.
 
@@ -171,7 +174,7 @@ Yokohama
 Access the Gen AI Metrics \[sys\_generative\_ai\_metric\] table to review the logged invocations of sensitive topics and gain insights into how these topics are being triggered and monitored.
 
 
--   **[Now Assist Readiness Evaluation](https://www.servicenow.com/docs/access?context=now-assist-readiness-evaluation-landing-page&family=yokohama&ft:locale=en-US)**
+ -   **[Now Assist Readiness Evaluation](https://www.servicenow.com/docs/access?context=now-assist-readiness-evaluation-landing-page&family=yokohama&ft:locale=en-US)**
 
 Use the Now Assist Readiness Evaluation app to help you evaluate your organization's readiness to implement agentic and generative AI Now Assist capabilities.
 
@@ -189,13 +192,11 @@ Assessments for generative AI include:
 Results shown are estimates. You should evaluate results provided by Now Assist Readiness Evaluation for accuracy and appropriateness for your use case.
 
 
--   **[Manage large language models](https://www.servicenow.com/docs/access?context=manage-large-language-models&family=yokohama&ft:locale=en-US)**
+ -   **[Manage large language models](https://www.servicenow.com/docs/access?context=manage-large-language-models&family=yokohama&ft:locale=en-US)**
 
-Choose and update your preferred large language model \(LLM\) provider at the instance, skill or skill group level for Now Assist out-of-box skills with ServiceNow® third-party model strategy.
+Choose and update your preferred large language model \(LLM\) provider at the instance, skill or skill group level for Now Assist out-of-box skills with ServiceNow® third-party model strategy.Deactivate skills that are not compliant with any of the LLM providers and access the audit history to view updates by the AI steward.
 
-Deactivate skills that are not compliant with any of the LLM providers and access the audit history to view updates by the AI steward.
-
--   **[Multilingual service for Now Assist applications](https://www.servicenow.com/docs/access?context=enable-dynamic-translation-for-now-assist-applications&family=yokohama&ft:locale=en-US)**
+-   **[Configure multilingual service for Now Assist applications](https://www.servicenow.com/docs/access?context=enable-dynamic-translation-for-now-assist-applications&family=yokohama&ft:locale=en-US)**
 
 Manage the default and supported languages by the different LLM providers under Multilingual service for translation.
 
@@ -208,18 +209,14 @@ Access the citations to the articles referenced from the knowledge base. Explore
 Extend guardrail support to third-party LLMs, such as Amazon Bedrock, Google Cloud \(AI Studio and Vertex\), and OpenAI to ensure any inappropriate content is logged and blocked during content generation.
 
 
--   **[Increase the maximum response token limit for custom skills](https://www.servicenow.com/docs/access?context=configure-skill-prompt&family=yokohama&ft:locale=en-US)**
+ -   **[Increase the maximum response token limit for custom skills](https://www.servicenow.com/docs/access?context=configure-skill-prompt&family=yokohama&ft:locale=en-US)**
 
 Increase the maximum response token limit for Now Assist custom skill beyond default value 1000 to support dynamic pricing based on output tokens and calculate the price for each skill executed per assist.
 
 
--   **[Exploring Now Assist](https://www.servicenow.com/docs/access?context=exploring-now-assist-platform&family=yokohama&ft:locale=en-US)**
+ -   **[Exploring Now Assist](https://www.servicenow.com/docs/access?context=exploring-now-assist-platform&family=yokohama&ft:locale=en-US)**
 
-Access the Now Assist skills through an identifier tab on the Now Assist Admin console, and find the associated workflows.
-
-Navigate to your skills by using the intuitive list or grid view. The skill details are displayed, which means that you don't have to make additional selections.
-
-Access the Data privacy section under Now Assist Admin settings. View and edit the data privacy policies that apply to your Now Assist skills.
+Access the Now Assist skills through an identifier tab on the AI Admin Hub console, and find the associated workflows.Navigate to your skills by using the intuitive list or grid view. The skill details are displayed, which means that you don't have to make additional selections.Access the Data privacy section under AI Admin Hub settings. View and edit the data privacy policies that apply to your Now Assist skills.
 
 -   **[Accessing the external content in Now Assist panel Q&amp;A capability](https://www.servicenow.com/docs/access?context=now-assist-multi-turn-qna&family=yokohama&ft:locale=en-US)**
 
@@ -230,9 +227,7 @@ Get relevant answers to your questions from external content sources, such as Mi
     -   View the logs of masking that involve personal identifiable information \(PII\) in the Generative AI Metric table \[sys\_generative\_ai\_metric\]. You can identify which data is masked, the type of request, system response, processing time, errors, or error codes.
 -   **[\[Placeholder link text to key bundle-platai.now-assist-rn-summarization\]](https://www.servicenow.com/docs/access?context=now-assist-rn-summarization&family=yokohama&ft:locale=en-US)**
 
-Define the output field destination so that you can select any multi-line text field from the base table You can customize incident forms and improve the usability of the resolution notes generation skill.
-
-Enable requesters to extract information from emails and email attachments to generate tasks. This email-to-task agentic workflow effectively addresses the challenge of task creation from emails.
+Define the output field destination so that you can select any multi-line text field from the base table You can customize incident forms and improve the usability of the resolution notes generation skill.Enable requesters to extract information from emails and email attachments to generate tasks. This email-to-task agentic workflow effectively addresses the challenge of task creation from emails.
 
 -   **[Identify and review articles](https://www.servicenow.com/docs/access?context=Now-Assist-identify-and-review-duplicate-articles&family=yokohama&ft:locale=en-US)**
 
@@ -251,51 +246,50 @@ Create separate, independent Now Assist panels that work across Next Experience 
 Create a Now Assist context menu configuration for a streamlined custom skill deployment process with the help of a guided setup.
 
 
--   **[Now Assist Guardian analytics](https://www.servicenow.com/docs/access?context=now-assist-guardian-analytics&family=yokohama&ft:locale=en-US)**
+ -   **[Email recommendations using the Now Assist context menu](https://www.servicenow.com/docs/access?context=email-recommendations-nacm&family=yokohama&ft:locale=en-US)**
 
-Monitor the performance of offensive content and prompt injections guardrails with the help of the Now Assist Guardian analytics dashboard.
+Select and choose the tone of your content with the change tone feature. You can select from the elaborate, shorten, casual, formal, or sympathetic tone.
+
+
+ -   **[AI Guardian analytics](https://www.servicenow.com/docs/access?context=now-assist-guardian-analytics&family=yokohama&ft:locale=en-US)**
+
+Monitor the performance of offensive content and prompt injections guardrails with the help of the AI Guardian analytics dashboard.
 
 -   **[Configuring Now Assist settings and features](https://www.servicenow.com/docs/access?context=configuring-na-landing&family=yokohama&ft:locale=en-US)**
 
-For custom skills, explore an additional display option in the form of **Conversational experiences**. You can select Now Assist Virtual Agent to assist you with the display.
-
-Create and activate a Now Assist skill copy, and have both the original skill and its copy to remain active simultaneously.
+For custom skills, explore an additional display option in the form of **Conversational experiences**. You can select Now Assist Virtual Agent to assist you with the display.Create and activate a Now Assist skill copy, and have both the original skill and its copy to remain active simultaneously.
 
 
--   **[Now Assist Context Menu usage dashboard](https://www.servicenow.com/docs/access?context=now-assist-context-menu-dashboard&family=yokohama&ft:locale=en-US)**
+ -   **[Now Assist Context Menu usage dashboard](https://www.servicenow.com/docs/access?context=now-assist-context-menu-dashboard&family=yokohama&ft:locale=en-US)**
 
 View and monitor the use of the Now Assist context menu across the different applications. Gain insights into the usage patterns, frequency, and effectiveness of the context menu actions with the Now Assist context menu usage dashboard.
 
--   **[Customizing ServiceNow skills in the Now Assist Skill Kit to tailor skills to meet your specific business requirements.](https://www.servicenow.com/docs/access?context=clone-and-edit-servicenow-skill&family=yokohama&ft:locale=en-US)**
 
-Clone the skills provided by ServiceNow in Now Assist applications by using the Now Assist Skill Kit so that you can edit the prompt or change the AI service provider. By editing the prompt, you can choose the additional inputs to be considered by the large language model \(LLM\) and arrange the formatting and content of the LLM response. After the skill is edited, you can activate the edited skill in the Now Assist Admin console to enable it.
+ -   **[Customizing ServiceNow skills in the Now Assist Skill Kit to tailor skills to meet your specific business requirements.](https://www.servicenow.com/docs/access?context=clone-and-edit-servicenow-skill&family=yokohama&ft:locale=en-US)**
+
+Clone the skills provided by ServiceNow in Now Assist applications by using the Now Assist Skill Kit so that you can edit the prompt or change the AI service provider. By editing the prompt, you can choose the additional inputs to be considered by the large language model \(LLM\) and arrange the formatting and content of the LLM response. After the skill is edited, you can activate the edited skill in the AI Admin Hub console to enable it.
 
 -   **[Enabling the voice input for the Now Assist panel](https://www.servicenow.com/docs/access?context=now-assist-panel-overview&family=yokohama&ft:locale=en-US)**
 
-Enable the Voice Input setting for the Now Assist panel in the Now Assist Admin console. This setting gives users a voice-to-text input option to access the skills in the Now Assist panel in any supported language. After it’s enabled, the option is available in individual user accessibility preferences.
+Enable the Voice Input setting for the Now Assist panel in the AI Admin Hub console. This setting gives users a voice-to-text input option to access the skills in the Now Assist panel in any supported language. After it’s enabled, the option is available in individual user accessibility preferences.
 
 -   **[Setting your data overflow processing preferences to control your data](https://www.servicenow.com/docs/access?context=configure-na-data-overflow&family=yokohama&ft:locale=en-US)**
 
-Set your data overflow processing preferences to control your data. By default, all Now Assist network traffic is managed within ServiceNow datacenters, but during periods of high traffic, the traffic is burst to Microsoft Azure datacenters. You can choose whether you want to opt out of cloud bursting from the Now Assist Admin console data overflow processing settings.
+Set your data overflow processing preferences to control your data. By default, all Now Assist network traffic is managed within ServiceNow datacenters, but during periods of high traffic, the traffic is burst to Microsoft Azure datacenters. You can choose whether you want to opt out of cloud bursting from the AI Admin Hub console data overflow processing settings.
 
 -   **[Using multi-turn Q&amp;A in the Now Assist panel](https://www.servicenow.com/docs/access?context=now-assist-multi-turn-qna&family=yokohama&ft:locale=en-US)**
 
 Ask questions and get relevant answers directly in the Now Assist panel. The system remembers your previous questions for effortless follow-ups and pulls answers from multiple sources to give you the best results. You can select the source name in the response to access the full Knowledge article for more details.
 
 
--   **[Using dashboard and visualization export in the Now Assist panel](https://www.servicenow.com/docs/access?context=dashboard-viz-export&family=yokohama&ft:locale=en-US)**
+ -   **[Using dashboard and visualization export in the Now Assist panel](https://www.servicenow.com/docs/access?context=dashboard-viz-export&family=yokohama&ft:locale=en-US)**
 
 Export Platform Analytics dashboards and data visualizations through conversations. You can select from several output formats, and download or email the files.
 
 
--   **[Summarize records with the Now Assist context menu](https://www.servicenow.com/docs/access?context=summarize-with-now-assist-context-menu&family=yokohama&ft:locale=en-US)**
+ -   **[Summarize records with the Now Assist context menu](https://www.servicenow.com/docs/access?context=summarize-with-now-assist-context-menu&family=yokohama&ft:locale=en-US)**
 
 Generate summaries by using the Now Assist context menu for the Core UI and Workspace. You can also expand or collapse the summary card, regenerate the summary, copy and share the summary, or provide feedback.
-
-
--   **[Email recommendations using the Now Assist context menu](https://www.servicenow.com/docs/access?context=email-recommendations-nacm&family=yokohama&ft:locale=en-US)**
-
-Select and choose the tone of your content with the change tone feature. You can select from the elaborate, shorten, casual, formal, or sympathetic tone.
 
 
 </td></tr></tbody>
@@ -337,25 +331,48 @@ Yokohama
 
 Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
--   **[Some Now Assist skills are now turned on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&family=yokohama&ft:locale=en-US)**
+-   **[Some Now Assist skills are turned on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&family=yokohama&ft:locale=en-US)**
 
 The new default behavior works as follows:
 
     -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
     -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
--   ****
+-   **[Configure ACLs for AI agents and agentic workflows](https://www.servicenow.com/docs/access?context=aia-security-implementation&family=yokohama&ft:locale=en-US)**
 
--   **[Multilingual service for Now Assist applications](https://www.servicenow.com/docs/access?context=enable-dynamic-translation-for-now-assist-applications&family=yokohama&ft:locale=en-US)**
+Configure the access control lists for who can discover and trigger AI agents and agentic workflows in their guided setups in AI Agent Studio. You can determine whether an AI agent or agentic workflow behaves as a dynamic user or as an AI user. You can also specify if an AI agent or agentic workflow can be available to all authenticated users or publicly available.
 
-Enable translation settings is now Multilingual service in Now Assist admin console.
 
--   **[Default email client for email recommendation skill](https://www.servicenow.com/docs/access?context=now-assist-skills&family=yokohama&ft:locale=en-US)**
+ -   **[Edit a Now Assist skill](https://www.servicenow.com/docs/access?context=edit-a-now-assist-skill&family=yokohama&ft:locale=en-US)**
+
+You can now view the Helpful resources and Frequently asked questions \(FAQ\) tabs on the list view of the Now Assist skills page.
+
+
+ -   **[Email reply recommendation](https://www.servicenow.com/docs/access?context=now-assist-skills&family=yokohama&ft:locale=en-US)**
+
+The email response creation skill offers guidance in choosing the most appropriate template based on the user's specific context. Additionally, it identifies the potential errors when a response isn't generated as intended.
+
+
+ -   **[Default email client for email recommendation skill](https://www.servicenow.com/docs/access?context=now-assist-skills&family=yokohama&ft:locale=en-US)**
 
 The Seismic email client is enabled by default on Core UI with the activation of email recommendation. This client provides the Generative AI application features for creating email responses, draft management, and template management.
 
 -   **[Now Assist panel response](https://www.servicenow.com/docs/access?context=now-assist-panel-overview&family=yokohama&ft:locale=en-US)Now Assist panel response**
 
 With the carousel experience removed, the Now Assist panel now generates a synthesized response for any user inquiry. This response includes content from Knowledge articles, flows &amp; actions, skills, and links to those articles, instead of only the Now Assist panel skills.
+
+
+ -   **[Now Assist data sharing opt-out moved to Data sharing and processing tab.](https://www.servicenow.com/docs/access?context=opt-out-of-data-sharing-for-now-assist&family=yokohama&ft:locale=en-US)**
+
+The opt-out button in the data sharing card from the AI Admin Hub Account page has moved to the Settings page on the **Data sharing and processing** tab.
+
+-   **[Now Assist context menu](https://www.servicenow.com/docs/access?context=now-assist-write-overview&family=yokohama&ft:locale=en-US)**
+
+You can now open the Now Assist context menu by selecting the Now Assist context menu icon \(\[Omitted image "image.wwna-icon"\] Alt text: Now Assist Context menu icon.\) for effortless access.The Now Assist context menu enables users to automatically select a sentence, paragraph, or the entire content even if they initially make a partial selection. Administrators can configure the selection to be a sentence, paragraph, or the entire content.The dynamic header label next to the Now Assist context menu icon can be customized to display the query status.The new Now Assist context menu icon \(\[Omitted image "image.wwna-icon"\] Alt text: Context menu icon .\) was updated with an enhanced animation.
+
+
+ -   **[Configure multilingual service for Now Assist applications](https://www.servicenow.com/docs/access?context=enable-dynamic-translation-for-now-assist-applications&family=yokohama&ft:locale=en-US)**
+
+Enable translation settings is now Multilingual service in Now Assist admin console.
 
 
 </td></tr></tbody>
@@ -437,23 +454,23 @@ Xanadu
 
 Now Assist features are available with activation of any Now Assist plugin from the ServiceNow Store. The following plugins are available:
 
--   [Now Assist for Accounts Payable Operations \(APO\)](https://www.servicenow.com/docs/access?context=now-assist-apo&family=xanadu&ft:locale=en-US)
--   [Now Assist for Configuration Management Database \(CMDB\)](https://www.servicenow.com/docs/access?context=now-assist-landing-cmdb&family=xanadu&ft:locale=en-US)
+-   [ServiceNow Otto for Accounts Payable Operations \(APO\)](https://www.servicenow.com/docs/access?context=now-assist-apo&family=xanadu&ft:locale=en-US)
+-   [ServiceNow Otto for Configuration Management Database \(CMDB\)](https://www.servicenow.com/docs/access?context=now-assist-landing-cmdb&family=xanadu&ft:locale=en-US)
 -   [Now Assist for Creator](https://www.servicenow.com/docs/access?context=now-assist-for-creator-landing&family=xanadu&ft:locale=en-US)
--   [Now Assist for Customer Service Management \(CSM\)](https://www.servicenow.com/docs/access?context=now-assist-csm&family=xanadu&ft:locale=en-US)
--   [Now Assist for Field Service Management \(FSM\)](https://www.servicenow.com/docs/access?context=now-assist-fsm&family=xanadu&ft:locale=en-US)
--   [Now Assist for Financial Services Operations \(FSO\)](https://www.servicenow.com/docs/access?context=now-assist-for-financial-services-operations&family=xanadu&ft:locale=en-US)
--   [Now Assist for Health and Safety](https://www.servicenow.com/docs/access?context=now-assist-hs-landing&family=xanadu&ft:locale=en-US)
--   [Now Assist for HR Service Delivery \(HRSD\)](https://www.servicenow.com/docs/access?context=now-assist-hrsd&family=xanadu&ft:locale=en-US)
--   [Now Assist for IT Operations Management \(ITOM\)](https://www.servicenow.com/docs/access?context=now-assist-itom&family=xanadu&ft:locale=en-US)
--   [Now Assist for IT Service Management \(ITSM\)](https://www.servicenow.com/docs/access?context=now-assist-itsm&family=xanadu&ft:locale=en-US)
--   [Now Assist for Legal Service Delivery \(LSD\)](https://www.servicenow.com/docs/access?context=now-assist-lsd-landing&family=xanadu&ft:locale=en-US)
--   [Now Assist for PSDS](https://www.servicenow.com/docs/access?context=now-assist-for-psds&family=xanadu&ft:locale=en-US)
--   [Now Assist for Security Incident Response](https://www.servicenow.com/docs/access?context=now-assist-security-incident-landing&family=xanadu&ft:locale=en-US)
--   [Now Assist for Supplier Lifecycle Operations \(SLO\)](https://www.servicenow.com/docs/access?context=now-assist-slo&family=xanadu&ft:locale=en-US)
--   [Now Assist for Sourcing and Procurement Operations \(SPO\)](https://www.servicenow.com/docs/access?context=now-assist-spo&family=xanadu&ft:locale=en-US)
--   [Now Assist for Strategic Portfolio Management \(SPM\)](https://www.servicenow.com/docs/access?context=now-assist-spm&family=xanadu&ft:locale=en-US)
--   [Now Assist for Telecommunications, Media and Technology \(TMT\)](https://www.servicenow.com/docs/access?context=now-assist-spmc&family=xanadu&ft:locale=en-US)
+-   [ServiceNow Otto for Customer Service Management \(CSM\)](https://www.servicenow.com/docs/access?context=now-assist-csm&family=xanadu&ft:locale=en-US)
+-   [ServiceNow Otto for Field Service Management \(FSM\)](https://www.servicenow.com/docs/access?context=now-assist-fsm&family=xanadu&ft:locale=en-US)
+-   [ServiceNow Otto for Financial Services Operations \(FSO\)](https://www.servicenow.com/docs/access?context=now-assist-for-financial-services-operations&family=xanadu&ft:locale=en-US)
+-   [ServiceNow Otto for Health and Safety](https://www.servicenow.com/docs/access?context=now-assist-hs-landing&family=xanadu&ft:locale=en-US)
+-   [ServiceNow Otto for HR Service Delivery \(HRSD\)](https://www.servicenow.com/docs/access?context=now-assist-hrsd&family=xanadu&ft:locale=en-US)
+-   [ServiceNow Otto for IT Operations Management \(ITOM\)](https://www.servicenow.com/docs/access?context=now-assist-itom&family=xanadu&ft:locale=en-US)
+-   [ServiceNow Otto for IT Service Management \(ITSM\)](https://www.servicenow.com/docs/access?context=now-assist-itsm&family=xanadu&ft:locale=en-US)
+-   [ServiceNow Otto for Legal Service Delivery \(LSD\)](https://www.servicenow.com/docs/access?context=now-assist-lsd-landing&family=xanadu&ft:locale=en-US)
+-   [ServiceNow Otto for PSDS](https://www.servicenow.com/docs/access?context=now-assist-for-psds&family=xanadu&ft:locale=en-US)
+-   [ServiceNow Otto for Security Incident Response \(SIR\)](https://www.servicenow.com/docs/access?context=now-assist-security-incident-landing&family=xanadu&ft:locale=en-US)
+-   [ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)](https://www.servicenow.com/docs/access?context=now-assist-slo&family=xanadu&ft:locale=en-US)
+-   [ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://www.servicenow.com/docs/access?context=now-assist-spo&family=xanadu&ft:locale=en-US)
+-   [ServiceNow Otto for Strategic Portfolio Management](https://www.servicenow.com/docs/access?context=now-assist-spm&family=xanadu&ft:locale=en-US)
+-   [ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://www.servicenow.com/docs/access?context=now-assist-spmc&family=xanadu&ft:locale=en-US)
 
 For more information, see [Install Now Assist plugins](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&family=xanadu&ft:locale=en-US).
 
@@ -463,10 +480,42 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Now Assist features are available with activation of any Now Assist plugin from ServiceNow Store. The following plugins are available:
 
--   
+    -   [ServiceNow Otto for Accounts Payable Operations \(APO\)](https://www.servicenow.com/docs/access?context=now-assist-apo&family=yokohama&ft:locale=en-US)
+    -   [Now Assist for App Engine](https://www.servicenow.com/docs/access?context=add-ai-to-custom-apps-with-now-assist-for-app-engine-enterprise&family=yokohama&ft:locale=en-US)
+    -   [ServiceNow Otto for Configuration Management Database \(CMDB\)](https://www.servicenow.com/docs/access?context=now-assist-landing-cmdb&family=yokohama&ft:locale=en-US)
+    -   [Now Assist for CWM](https://www.servicenow.com/docs/access?context=now-assist-for-cwm-landing&family=yokohama&ft:locale=en-US)
+    -   [Now Assist for Creator](https://www.servicenow.com/docs/access?context=now-assist-for-creator-landing&family=yokohama&ft:locale=en-US)
+    -   [ServiceNow Otto for Customer Service Management \(CSM\)](https://www.servicenow.com/docs/access?context=now-assist-csm&family=yokohama&ft:locale=en-US)
+    -   [ServiceNow Otto for Employee Experience](https://www.servicenow.com/docs/access?context=now-assisit-employee-exp&family=yokohama&ft:locale=en-US)
+    -   [ServiceNow Otto for Enterprise Architecture \(EA\)](https://www.servicenow.com/docs/access?context=now-assist-ea&family=yokohama&ft:locale=en-US)
+    -   [Now Assist](https://www.servicenow.com/docs/access?context=now-assist-for-esg&family=yokohama&ft:locale=en-US)
+    -   [ServiceNow Otto for Field Service Management \(FSM\)](https://www.servicenow.com/docs/access?context=now-assist-fsm&family=yokohama&ft:locale=en-US)
+    -   [ServiceNow Otto for Financial Services Operations \(FSO\)](https://www.servicenow.com/docs/access?context=now-assist-for-financial-services-operations&family=yokohama&ft:locale=en-US)
+    -   [ServiceNow Otto for Hardware Asset Management \(HAM\)](https://www.servicenow.com/docs/access?context=now-assist-ham&family=yokohama&ft:locale=en-US)
+    -   [ServiceNow Otto for Health and Safety](https://www.servicenow.com/docs/access?context=now-assist-hs-landing&family=yokohama&ft:locale=en-US)
+    -   [ServiceNow Otto for HR Service Delivery \(HRSD\)](https://www.servicenow.com/docs/access?context=now-assist-hrsd&family=yokohama&ft:locale=en-US)
+    -   [Now Assist](https://www.servicenow.com/docs/access?context=now-assist-for-irm&family=yokohama&ft:locale=en-US)
+    -   [ServiceNow Otto for ITOM](https://www.servicenow.com/docs/access?context=now-assist-itom&family=yokohama&ft:locale=en-US)
+    -   [ServiceNow Otto for IT Service Management \(ITSM\)](https://www.servicenow.com/docs/access?context=now-assist-itsm&family=yokohama&ft:locale=en-US)
+    -   [ServiceNow Otto for Legal Service Delivery \(LSD\)](https://www.servicenow.com/docs/access?context=now-assist-lsd-landing&family=yokohama&ft:locale=en-US)
+    -   [Operational Technology \(OT\) Manager Foundation](https://www.servicenow.com/docs/access?context=now-assist-for-otm-landing&family=yokohama&ft:locale=en-US)
+    -   [ServiceNow Otto for Order Management](https://www.servicenow.com/docs/access?context=now-assist-order-management&family=yokohama&ft:locale=en-US)
+    -   [ServiceNow Otto for PSDS](https://www.servicenow.com/docs/access?context=now-assist-for-psds&family=yokohama&ft:locale=en-US)
+    -   [ServiceNow Otto for Security Incident Response \(SIR\)](https://www.servicenow.com/docs/access?context=now-assist-security-incident-landing&family=yokohama&ft:locale=en-US)
+    -   [ServiceNow Otto for Software Asset Management \(SAM\)](https://www.servicenow.com/docs/access?context=now-assist-sam&family=yokohama&ft:locale=en-US)
+    -   [ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)](https://www.servicenow.com/docs/access?context=now-assist-slo&family=yokohama&ft:locale=en-US)
+    -   [ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://www.servicenow.com/docs/access?context=now-assist-spo&family=yokohama&ft:locale=en-US)
+    -   [ServiceNow Otto for Strategic Portfolio Management](https://www.servicenow.com/docs/access?context=now-assist-spm&family=yokohama&ft:locale=en-US)
+    -   [ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://www.servicenow.com/docs/access?context=now-assist-spmc&family=yokohama&ft:locale=en-US)
+    -   [Now Assist](https://www.servicenow.com/docs/access?context=now-assist-tprm&family=yokohama&ft:locale=en-US)
+    -   [Now Assist for WSD](https://www.servicenow.com/docs/access?context=now-assist-wsd-landing&family=yokohama&ft:locale=en-US)
+    -   [ServiceNow Otto for Unified Security Exposure Management](https://www.servicenow.com/docs/access?context=now-assist-for-vulnerability-response-landing&family=yokohama&ft:locale=en-US)
 
+**Important:** After purchasing a generative AI product, you can install it from ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -495,7 +544,10 @@ Yokohama
 
 </td><td>
 
+-   **Additional requirements**
+
 The Next Experience UI Framework must be enabled before you can use the Now Assist panel.
+
 
 </td></tr></tbody>
 </table>## Browser requirements
@@ -524,7 +576,10 @@ Yokohama
 
 </td><td>
 
+-   **Browser requirements**
+
 Now Assist supports various browsers, including Google Chrome and Microsoft Edge. Now Assist isn’t supported in Microsoft Internet Explorer.
+
 
 </td></tr></tbody>
 </table>## Accessibility information
@@ -553,9 +608,10 @@ Yokohama
 
 </td><td>
 
--   **Voice Input for Now Assist**
+-   **Accessibility information**
+    -   **Voice Input for Now Assist**
 
-Administrators can enable an optional voice input setting for the Now Assist panel in the Now Assist Admin console. This feature gives users a voice-to-text input option to access the Now Assist skills in the panel in any supported language. For more information, see [Enable voice input for Now Assist panel](https://www.servicenow.com/docs/access?context=enable-voice-input-for-now-assist-panel&family=yokohama&ft:locale=en-US).
+Administrators can enable an optional voice input setting for the Now Assist panel in the AI Admin Hub console. This feature gives users a voice-to-text input option to access the Now Assist skills in the panel in any supported language. For more information, see [Enable voice input for Now Assist panel](https://www.servicenow.com/docs/access?context=enable-voice-input-for-now-assist-panel&family=yokohama&ft:locale=en-US).
 
 Once enabled, the Enable voice input for the Now Assist panel option are available in individual user accessibility preferences. See [Configure Next Experience accessibility preferences](https://www.servicenow.com/docs/access?context=next-experience-accessibility-preferences&family=yokohama&ft:locale=en-US) for more information.
 
@@ -589,7 +645,10 @@ Yokohama
 
 </td><td>
 
+-   **Localization information**
+
 Now Assist supports Dynamic Translation for Yokohama.
+
 
 </td></tr></tbody>
 </table>## Highlight information
@@ -616,10 +675,10 @@ Xanadu
 
  [Xanadu Patch 3](https://www.servicenow.com/docs/access?context=xanadu-patch-3&family=xanadu&ft:locale=en-US)
 
--   Protect your users from offensive content, prompt injection attacks, and filtered subjects in AI-generated content with Now Assist Guardian.
+-   Protect your users from offensive content, prompt injection attacks, and filtered subjects in AI-generated content with AI Guardian.
 -   Use the native translation capabilities of the Now LLM Service models to speak to users in their preferred languages.
--   Troubleshoot Now Assist skills from the Now Assist Admin console to locate the sources of configuration problems.
--   Monitor the usage and performance of generative AI features and capabilities offered under Now Assist from the Analytics tab in the Now Assist Admin console.
+-   Troubleshoot Now Assist skills from the AI Admin Hub console to locate the sources of configuration problems.
+-   Monitor the usage and performance of generative AI features and capabilities offered under Now Assist from the Analytics tab in the AI Admin Hub console.
 -   Use the multi-language capabilities of Now Assist to generate a Knowledge article for an incident, case, or other supported task type in a language other than English.
 -   Enable agents to utilize the generative AI capabilities of Now Assist to shorten or elaborate content in a Knowledge article using the context menu feature.
 -   Now Assist context menu enhancements.
@@ -629,7 +688,7 @@ Xanadu
 -   Support users who speak different languages with multi-language, dynamic translation.
 -   Make finding tables and lists easier and more efficient by using the navigation platform skill in the Now Assist panel.
 -   Write with Now Assist to provide chat and email suggestions for agents based on the content of a conversation.
--   Enable developers to create their own custom skills by using the Now Assist Skill Kit.
+-   Enable developers to create their own custom skills by using the AI Skill Kit.
 -   Generate a Knowledge Base article from a selection of similar cases or incidents to help address related concerns in a single article with Now Assist in Knowledge Management.
 
  See [Now Assist](https://www.servicenow.com/docs/access?context=platform-now-assist-landing&family=xanadu&ft:locale=en-US) for more information.
@@ -691,7 +750,7 @@ Yokohama
 
 -   [AI Search release notes](https://www.servicenow.com/docs/access?context=ai-search-rn&family=yokohama&ft:locale=en-US)
 -   [Document Intelligence release notes](https://www.servicenow.com/docs/access?context=document-intelligence-rn&family=yokohama&ft:locale=en-US)
--   [Now Assist Skill Kit release notes](https://www.servicenow.com/docs/access?context=na-skill-kit-rn&family=yokohama&ft:locale=en-US)
+-   [AI Skill Kit release notes](https://www.servicenow.com/docs/access?context=na-skill-kit-rn&family=yokohama&ft:locale=en-US)
 -   [Now Assist in Virtual Agent release notes](https://www.servicenow.com/docs/access?context=now-assist-va-rn&family=yokohama&ft:locale=en-US)
 
 </td></tr></tbody>

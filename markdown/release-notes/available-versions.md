@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/available-versions.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-03"
+last_updated: "2026-10-01"
 reading_time_minutes: 11
 breadcrumb: [Learn about the Yokohama release, Yokohama release notes]
 ---
@@ -20,15 +20,15 @@ For more information about the release cycle, see the [ServiceNow Release Cycle]
 
 **Note:** This ServiceNow AI Platform major family release is now available in ServiceNow's Regulated Market environments. For more information about services available in isolated environments, see [KB0743854](https://support.servicenow.com/kb_view.do?sysparm_article=KB0743854).
 
-## Q3 2026 Patching Program Targets
+## Q4 2026 Patching Program Targets
 
 Targets are subject to change prior to patching. Target versions change only if absolutely necessary.
 
 |Releases|Patch target option|Release notes|
 |--------|-------------------|-------------|
-|Australia|[Australia Patch 5 W35](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3152205)|[Australia](https://www.servicenow.com/docs/r/release-notes/available-versions.html)|
-|Zurich|[Zurich Patch 10 Hotfix 4b](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3152184)|[Zurich](https://www.servicenow.com/docs/r/zurich/release-notes/available-versions.html)|
-|Yokohama|[Yokohama Patch 13 Hotfix 5a W35](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3152505)|[Yokohama](https://www.servicenow.com/docs/r/yokohama/release-notes/available-versions.html)|
+|Australia|[Australia Patch 5a](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3156989)|[Australia](https://www.servicenow.com/docs/r/release-notes/available-versions.html)|
+|Zurich|[Zurich Patch 12](https://www.servicenow.com/docs/r/zurich/release-notes/zurich-patch-12.html)|[Zurich](https://www.servicenow.com/docs/r/zurich/release-notes/available-versions.html)|
+|Yokohama|[Yokohama Patch 13 Hotfix 5a W39](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3159478)|[Yokohama](https://www.servicenow.com/docs/r/yokohama/release-notes/available-versions.html)|
 
 ## Available versions
 
@@ -52,6 +52,70 @@ Availability
 
 </th></tr></thead><tbody><tr><td>
 
+[Yokohama Patch 13 Hotfix 5a W40](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3221489)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/10/01
+
+</td><td>
+
+Available
+
+</td></tr><tr><td>
+
+[Yokohama Patch 13 Hotfix 5a W39](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3159478)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/09/24
+
+</td><td>
+
+Unavailable
+
+</td></tr><tr><td>
+
+[Yokohama Patch 13 Hotfix 5a W38](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3157857)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/09/17
+
+</td><td>
+
+Unavailable
+
+</td></tr><tr><td>
+
+[Yokohama Patch 13 Hotfix 5a W37](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3156100)
+
+</td><td>
+
+Hotfix
+
+</td><td>
+
+2026/09/08
+
+</td><td>
+
+Unavailable
+
+</td></tr><tr><td>
+
 [Yokohama Patch 13 Hotfix 5a W35](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3152505)
 
 </td><td>
@@ -64,7 +128,7 @@ Hotfix
 
 </td><td>
 
-Available
+Unavailable
 
 </td></tr><tr><td>
 
@@ -144,7 +208,7 @@ Hotfix
 
 </td><td>
 
-Available
+Unavailable
 
 </td></tr><tr><td>
 
@@ -502,7 +566,7 @@ Hotfix
 
 </td><td>
 
-Available
+Unavailable
 
 </td></tr><tr><td>
 

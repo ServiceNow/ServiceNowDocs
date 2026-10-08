@@ -23,7 +23,7 @@ The CAB calendar provides an overview of your CAB meeting schedule to help with 
 -   **[Create a single CAB meeting occurrence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/create-a-cab-meeting.md)**  
 Depending on your requirements, you can create an individual Change Advisory Board \(CAB\) meeting occurrence.
 -   **[CAB meeting attendance using the CAB workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/attend-cab-meeting-using-cab-workbench.md)**  
-
+As an itil user, attend a Change Advisory Board \(CAB\) meeting from the CAB workbench. Follow the current agenda item, view the change schedule, and if you are an approver, approve or reject a change request.
 -   **[Add new CAB meeting agenda items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/add-new-agenda-items.md)**  
 You can add an agenda item to your CAB meeting to customize the agenda and make the meeting more effective.
 -   **[CAB meeting management using the CAB workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/manage-cab-meeting-using-cab-workbench.md)**  

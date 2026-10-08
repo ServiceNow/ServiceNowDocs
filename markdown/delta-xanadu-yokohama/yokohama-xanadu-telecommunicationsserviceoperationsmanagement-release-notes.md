@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-telecommunicationsserviceoperationsmanagement-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 2
+last_updated: "2026-10-08"
+reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
 
@@ -38,7 +38,7 @@ Xanadu
 
 </td><td>
 
-No updates for this release.
+TBD.
 
 </td></tr><tr><td>
 
@@ -67,7 +67,10 @@ Xanadu
 
 </td><td>
 
-No updates for this release.
+-   **[\[Placeholder link text to key bundle-telecom.trouble-ticket-notification\]](https://www.servicenow.com/docs/access?context=trouble-ticket-notification&family=xanadu&ft:locale=en-US)**
+
+Trouble ticket in the TMF ecosystem is an incident to track and resolve customer-reported issues, network outages, or other problems. Use the Telecommunications trouble ticket notification to inform the customers about the incidents that are created based on the events occurring in their external system. So that the customers can promptly track and resolve the events in their telecommunications network.
+
 
 </td></tr><tr><td>
 
@@ -183,7 +186,7 @@ Xanadu
 
 </td><td>
 
-No updates for this release.
+Telecommunications trouble ticket notification feature is available with activation of the Telecommunications Alarm Management Open API \(sn\_ind\_tmf642\) application. The Telecommunications Alarm Management Open API application is available in the ServiceNow Store.
 
 </td></tr><tr><td>
 
@@ -328,7 +331,9 @@ Xanadu
 
 </td><td>
 
-No updates for this release.
+Use the Telecommunications trouble ticket notification to inform the customers about the incidents that are created based on the events occurring in their external system.
+
+ See [\[Placeholder link text to key bundle-telecom.telecom-service-operations-mgt-overview\]](https://www.servicenow.com/docs/access?context=telecom-service-operations-mgt-overview&family=xanadu&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 

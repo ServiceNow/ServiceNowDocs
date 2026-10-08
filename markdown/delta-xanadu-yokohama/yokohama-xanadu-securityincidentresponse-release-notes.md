@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-securityincidentresponse-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 12
+last_updated: "2026-10-08"
+reading_time_minutes: 13
 breadcrumb: [Products combined by family]
 ---
 
@@ -136,26 +136,6 @@ Yokohama
 
 Identify factors contributing to delays in processing Security Incident Response \(SIR\) incidents that take a long time to close or resolve by scanning historical SIR records through Process Mining. Time-consuming factors can include multiple reassignments, prolonged hold times, and periods of inactivity.
 
--   **[CrowdStrike Next-Gen SIEM integration](https://www.servicenow.com/docs/access?context=crowdstrike-next-gen-integration-secops&family=yokohama&ft:locale=en-US)**
-
-As a Profile Admin:
-
-    -   Discover CrowdStrike Next-Gen SIEM detections that are candidates for security incidents and automate the creation of these security incidents.
-    -   Create detection profiles.
-    -   Map CrowdStrike Next-Gen SIEM Detection and Events Fields to SIR security incident fields.
-    -   Filter CrowdStrike Next-Gen SIEM defects.
-    -   Aggregate detections to existing open security incidents so that you don't have to create duplicate security incidents.
-    -   Schedule ongoing detection ingestion.
-    -   Automate CrowdStrike Next-Gen SIEM detection status updates for Security Incident Response.
-    -   Synchronize CrowdStrike Next-Gen SIEM detection comments with SIR Work notes.
--   **[Use](https://www.servicenow.com/docs/access?context=splunk-event-ingest-create-profile-security&family=yokohama&ft:locale=en-US)**
-    -   Enables bidirectional updates and closure synchronization between Splunk ES and Splunk integrations.
-    -   Enables retrieval of historical, and ongoing data including closed events, with an option to pull the closed events into the ServiceNow Splunk ES instance.
-    -   Receive updates for the mapped fields in SIR.
--   **[Components installed with Security Incident Response](https://www.servicenow.com/docs/access?context=installed-with-sir&family=yokohama&ft:locale=en-US)**
-
-A new Profile Admin role \(sn\_si.ingestion\_profile\_admin\) provides access to configure plugins, and create, edit, delete, and manage profiles for the Splunk, Splunk ES, and Azure Sentinel Integration for Security Operations application.
-
 -   **[Add indirectly linked VITs to CVEs](https://www.servicenow.com/docs/access?context=configure-mitre-att-ck-properties&family=yokohama&ft:locale=en-US)**
 
 Identify all the Third-Party Entities \(TPEs\) associated with a Common Vulnerabilities and Exposures \(CVE\) and then calculate and display the total number of vulnerable items \(VITs\) indirectly linked to those CVEs through the TPEs by setting the sn\_ti.include\_cve\_vit\_indirect\_relation property.
@@ -171,16 +151,6 @@ As an analyst:
 
     -   Specify your availability and preferred contact methods.
     -   View your on-call schedule and see other members of your shift.
--   **[Configure report templates in Security Incident Response](https://www.servicenow.com/docs/access?context=daily-status-sir&family=yokohama&ft:locale=en-US)**
-
-As an admin, create report templates that can be used to generate an incident summary or an executive summary for analysis and sharing.
-
-As an analyst, use the templates to generate analyst summary or executive summary reports for a SIR incident that can be shared over email.
-
--   **[Security Incident Response conference call integration](https://www.servicenow.com/docs/access?context=sir-conf-call-capability&family=yokohama&ft:locale=en-US)**
-
-Initiate conference calls using communication channels such as Microsoft Teams, Cisco Webex, or Zoom with customers and peer agents to resolve security incidents over a call by using the SIR conference call feature.
-
 -   **[Enhancements to relationship graphs](https://www.servicenow.com/docs/access?context=sir-relationship-graph&family=yokohama&ft:locale=en-US)**
 
 As an admin:
@@ -192,6 +162,37 @@ As an analyst:
     -   Add or remove child nodes at the parent node level.
     -   Save the state of the relationship graph.
     -   Retrieve updated data.
+
+ -   **[CrowdStrike Next-Gen SIEM integration](https://www.servicenow.com/docs/access?context=crowdstrike-next-gen-integration-secops&family=yokohama&ft:locale=en-US)**
+
+As a Profile Admin:
+
+    -   Discover CrowdStrike Next-Gen SIEM detections that are candidates for security incidents and automate the creation of these security incidents.
+    -   Create detection profiles.
+    -   Map CrowdStrike Next-Gen SIEM Detection and Events Fields to SIR security incident fields.
+    -   Filter CrowdStrike Next-Gen SIEM defects.
+    -   Aggregate detections to existing open security incidents so that you don't have to create duplicate security incidents.
+    -   Schedule ongoing detection ingestion.
+    -   Automate CrowdStrike Next-Gen SIEM detection status updates for Security Incident Response.
+    -   Synchronize CrowdStrike Next-Gen SIEM detection comments with SIR Work notes.
+-   **[Create an event profile](https://www.servicenow.com/docs/access?context=splunk-event-ingest-create-profile-security&family=yokohama&ft:locale=en-US)**
+    -   Enables bidirectional updates and closure synchronization between Splunk ES and Splunk integrations.
+    -   Enables retrieval of historical, and ongoing data including closed events, with an option to pull the closed events into the ServiceNow Splunk ES instance.
+    -   Receive updates for the mapped fields in SIR.
+-   **[Components installed with Security Incident Response](https://www.servicenow.com/docs/access?context=installed-with-sir&family=yokohama&ft:locale=en-US)**
+
+A new Profile Admin role \(sn\_si.ingestion\_profile\_admin\) provides access to configure plugins, and create, edit, delete, and manage profiles for the Splunk, Splunk ES, and Azure Sentinel Integration for Security Operations application.
+
+-   **[Configure report templates in Security Incident Response](https://www.servicenow.com/docs/access?context=daily-status-sir&family=yokohama&ft:locale=en-US)**
+
+As an admin, create report templates that can be used to generate an incident summary or an executive summary for analysis and sharing.
+
+As an analyst, use the templates to generate analyst summary or executive summary reports for a SIR incident that can be shared over email.
+
+-   **[Security Incident Response conference call integration](https://www.servicenow.com/docs/access?context=sir-conf-call-capability&family=yokohama&ft:locale=en-US)**
+
+Initiate conference calls using communication channels such as Microsoft Teams, Cisco Webex, or Zoom with customers and peer agents to resolve security incidents over a call by using the SIR conference call feature.
+
 -   **[Proofpoint integration for Security Operations](https://www.servicenow.com/docs/access?context=proofpoint-integration-secops-landing&family=yokohama&ft:locale=en-US)**
 
 Proofpoint integration for Security Operations supports integration between SOAR \(Security Orchestration, Automation, and Response\) and Proofpoint Targeted Attack Protection \(TAP\) software. This integration provides the following benefits:
@@ -369,7 +370,12 @@ Yokohama
 
 </td><td>
 
--   **[Security Operations](https://www.servicenow.com/docs/access?context=security-operations-landing-page&family=yokohama&ft:locale=en-US)**
+-   **[Start a Sidebar chat in Security Incident Response](https://www.servicenow.com/docs/access?context=initiate-chat-sidebar-sir&family=yokohama&ft:locale=en-US)**
+
+The **Discuss** option has been renamed **Start Chat** and moved under the **Collaborate** option.
+
+
+ -   **[Security Operations](https://www.servicenow.com/docs/access?context=security-operations-landing-page&family=yokohama&ft:locale=en-US)**
 
 <table><thead><tr><th>
 
@@ -527,7 +533,16 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Install Security Incident Response by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
+    -   **[Security Operations common functionality](https://www.servicenow.com/docs/access?context=sec-ops-common-functionality&family=yokohama&ft:locale=en-US)**
+
+The Security Support Common plugin is activated when any of the plugins for the main Security Operations applications \(Security Incident Response, Vulnerability Response, Threat Intelligence, or Configuration Compliance\) are activated.
+
+
+**Important:** Security Incident Response is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements

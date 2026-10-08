@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-agentexperienceforcsm-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 9
+last_updated: "2026-10-08"
+reading_time_minutes: 10
 breadcrumb: [Products combined by family]
 ---
 
@@ -78,18 +78,9 @@ Yokohama
 
 </td><td>
 
--   **[Chat interaction session tabs](https://www.servicenow.com/docs/access?context=csm-workspace-chat-session-tabs&family=yokohama&ft:locale=en-US)**
-
-Use the following features to provide your agents with information about their current chats:
-
-    -   Display informational messages in the session tabs that notify the agent of the current chat condition such as "Chat is in wrap-up" or "Chat has ended."
-    -   Use background colors to distinguish between the active and inactive tabs. For inactive tabs, configure different colors to alert agents to the chat threshold timers.
-    -   Use a counter to display the number of unread chat messages.
-    -   Use a separator in the chat window between the older messages and the newer unread messages.
-    -   Configure a minimum of one and up to a maximum of three chat SLA threshold timers that alert agents to unread messages in inactive chats. For each level, you can also select a time value and a unique color.
 -   **[Voice interaction record page](https://www.servicenow.com/docs/access?context=csm-native-voice-record-page&family=yokohama&ft:locale=en-US)**
 
-Enable Contact Center as a Service \(CCaaS\) providers to display native voice integrations in CSM Configurable Workspace that agents can use to handle phone calls.
+Enable Contact Center as a Service \(CCaaS\) providers to display native voice integrations in CRM Workspace that agents can use to handle phone calls.
 
 -   **[Interaction wrap-up for call and chat](https://www.servicenow.com/docs/access?context=interaction-wrapup-modeless-dialog&family=yokohama&ft:locale=en-US)**
 
@@ -99,6 +90,16 @@ Provide agents with enough dedicated time after each call or chat to finalize th
 
 Enable agents to view a customer's activities in the contextual side panel. Agents can search and filter the activities in the list and select a date range. For more information about the Customer history component, see [Next Experience Components documentation](https://developer.servicenow.com/dev.do#!/reference/next-experience/components?&query=&order_by=nameAsc&limit=120&offset=0&categories[]=uib_component&categories[]=uib_macroponent-component&categories[]=uib_facades).
 
+
+ -   **[Chat interaction session tabs](https://www.servicenow.com/docs/access?context=csm-workspace-chat-session-tabs&family=yokohama&ft:locale=en-US)**
+
+Use the following features to provide your agents with information about their current chats:
+
+    -   Display informational messages in the session tabs that notify the agent of the current chat condition such as "Chat is in wrap-up" or "Chat has ended."
+    -   Use background colors to distinguish between the active and inactive tabs. For inactive tabs, configure different colors to alert agents to the chat threshold timers.
+    -   Use a counter to display the number of unread chat messages.
+    -   Use a separator in the chat window between the older messages and the newer unread messages.
+    -   Configure a minimum of one and up to a maximum of three chat SLA threshold timers that alert agents to unread messages in inactive chats. For each level, you can also select a time value and a unique color.
 -   **[Quick start tests for Customer Service Management](https://www.servicenow.com/docs/access?context=quick-start-tests-csm&family=yokohama&ft:locale=en-US)**
 
 After upgrades and deployments of new applications or integrations, run quick start tests to verify that Customer Service Management works as expected. If you customized Customer Service Management, copy the quick start tests and configure them for your customizations.
@@ -137,25 +138,6 @@ Yokohama
 
 </td><td>
 
--   **[Form template enhancements](https://www.servicenow.com/docs/access?context=csm-workspace-form-templates&family=yokohama&ft:locale=en-US)**
-
-Use the following form template enhancements to create or edit templates as needed:
-
-    -   The **Templates** tab in the configurable side panel displays larger template cards with the template name and an expanded description. Users can view different lists of templates, mark their favorites, and sort templates either alphabetically or by last used.
-    -   The template form displays template fields in a clearly labeled form section and displays the line numbers and headings for each template line to improve readability
-    -   The template tab header displays "Edit template" when a user opens a template in edit mode.
--   **[Front-line case page integration with knowledge guidance](https://www.servicenow.com/docs/access?context=csm-front-line-case-page&family=yokohama&ft:locale=en-US)**
-
-Enable agents to attach and add links to knowledge articles in comments, work notes, or emails by using modeless dialogs.
-
--   **[Resurface special handling notes](https://www.servicenow.com/docs/access?context=c_OnScreenAlerts&family=yokohama&ft:locale=en-US)**
-
-Display the special handling notes for a case at any time by selecting **Special handling notes** from the More actions menu on the case record action bar.
-
--   **[Customer Central application moved from family to store release](https://www.servicenow.com/docs/access?context=customer-central&family=yokohama&ft:locale=en-US)**
-
-Starting with the Yokohama release, the Customer Central application \(com.sn\_csm\_customer\_central\) has moved to the ServiceNow Store. Any new enhancements to this application are delivered through the Customer Central store app.
-
 -   **[Customer Activity Guided Setup now accessible from a new location](https://www.servicenow.com/docs/access?context=configure-customer-activity&family=yokohama&ft:locale=en-US)**
 
 Use the following updates in Guided Setup to enhance navigation and access customer history configurations:
@@ -181,17 +163,6 @@ The following interaction record pages include an action bar with a single actio
 
 Create and use form templates that add content to the **Additional comments** and **Work notes** fields on a case record. Automatically display a modeless dialog that includes the content from the form template and then post that content to the activity stream.
 
--   **[Front-line case page contextual side panel](https://www.servicenow.com/docs/access?context=csm-front-line-case-page&family=yokohama&ft:locale=en-US)**
-
-The Record Information tab in the contextual side panel includes the Overview and Active SLA cards. The contact card and timeline card have been removed to improve the page load time.
-
--   **[Recommended Actions AI search replaces Agent Assist](https://www.servicenow.com/docs/access?context=csm-front-line-case-page&family=yokohama&ft:locale=en-US)**
-
-Recommended Actions AI search replaces Agent Assist in the contextual side panel for the following record pages included with the CSM Configurable Workspace:
-
-    -   CSM default record page
-    -   Front-line case page
-    -   CSM Interaction record page \(for type = Chat, Video, Walkup, Email\)
 -   **[Customer History component features](https://www.servicenow.com/docs/access?context=customer-history-component-features&family=yokohama&ft:locale=en-US)**
 
 Use the following features to provide agents real-time updates and customer history details:
@@ -200,6 +171,38 @@ Use the following features to provide agents real-time updates and customer hist
     -   Prompt agents to add missing account or contact details instead of leaving fields empty.
     -   Display an empty component until an agent links a contact using the lookup component, then show the contact's details.
     -   Enables agent to view updated customer information directly in Customer History on the Front-line Case page.
+
+ -   **[Front-line case page integration with knowledge guidance](https://www.servicenow.com/docs/access?context=csm-front-line-case-page&family=yokohama&ft:locale=en-US)**
+
+Enable agents to attach and add links to knowledge articles in comments, work notes, or emails by using modeless dialogs.
+
+-   **[Resurface special handling notes](https://www.servicenow.com/docs/access?context=c_OnScreenAlerts&family=yokohama&ft:locale=en-US)**
+
+Display the special handling notes for a case at any time by selecting **Special handling notes** from the More actions menu on the case record action bar.
+
+-   **[Customer Central application moved from family to store release](https://www.servicenow.com/docs/access?context=customer-central&family=yokohama&ft:locale=en-US)**
+
+Starting with the Yokohama release, the Customer Central application \(com.sn\_csm\_customer\_central\) has moved to the ServiceNow Store. Any new enhancements to this application are delivered through the Customer Central store app.
+
+-   **[Recommended Actions AI search replaces Agent Assist](https://www.servicenow.com/docs/access?context=csm-front-line-case-page&family=yokohama&ft:locale=en-US)**
+
+Recommended Actions AI search replaces Agent Assist in the contextual side panel for the following record pages included with the CSM Configurable Workspace:
+
+    -   CSM default record page
+    -   Front-line case page
+    -   CSM Interaction record page \(for type = Chat, Video, Walkup, Email\)
+
+ -   **[Form template enhancements](https://www.servicenow.com/docs/access?context=csm-workspace-form-templates&family=yokohama&ft:locale=en-US)**
+
+Use the following form template enhancements to create or edit templates as needed:
+
+    -   The **Templates** tab in the configurable side panel displays larger template cards with the template name and an expanded description. Users can view different lists of templates, mark their favorites, and sort templates either alphabetically or by last used.
+    -   The template form displays template fields in a clearly labeled form section and displays the line numbers and headings for each template line to improve readability
+    -   The template tab header displays "Edit template" when a user opens a template in edit mode.
+-   **[Front-line case page contextual side panel](https://www.servicenow.com/docs/access?context=csm-front-line-case-page&family=yokohama&ft:locale=en-US)**
+
+The Record Information tab in the contextual side panel includes the Overview and Active SLA cards. The contact card and timeline card have been removed to improve the page load time.
+
 
 </td></tr></tbody>
 </table>## Removed
@@ -249,7 +252,7 @@ Xanadu
 
 </td><td>
 
-Starting with the Xanadu release, CSM Agent Workspace is no longer deployed, enhanced, or supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base. [CSM Configurable Workspace](https://www.servicenow.com/docs/access?context=csm-workspaces-configure&family=xanadu&ft:locale=en-US) provides the latest experience for this functionality.
+Starting with the Xanadu release, CSM Agent Workspace is no longer deployed, enhanced, or supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base. [CRM Workspace](https://www.servicenow.com/docs/access?context=csm-workspaces-configure&family=xanadu&ft:locale=en-US) provides the latest experience for this functionality.
 
 </td></tr><tr><td>
 
@@ -278,7 +281,7 @@ Xanadu
 
 </td><td>
 
-Install CSM Configurable Workspace by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
+Install CRM Workspace by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -286,9 +289,19 @@ Yokohama
 
 </td><td>
 
-CSM Configurable Workspace is available with activation of the Customer Service plugin \(com.sn\_customerservice\). For details, see [Activate Customer Service Management](https://www.servicenow.com/docs/access?context=t_ActivateCustomerService&family=yokohama&ft:locale=en-US).
+-   **Activation information**
 
- Install CSM Configurable Workspace by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+CRM Workspace is available with activation of the Customer Service plugin \(com.sn\_customerservice\). For details, see [Activate Customer Service Management](https://www.servicenow.com/docs/access?context=t_ActivateCustomerService&family=yokohama&ft:locale=en-US).
+
+Install CRM Workspace by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
+
+**Important:** The following applications are available in the ServiceNow Store:
+
+-   CSM Configurable Workspace Bundle v5.0
+-   Customer Central Bundle v1.0
+
+For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -346,7 +359,10 @@ Yokohama
 
 </td><td>
 
+-   **Browser requirements**
+
 ServiceNow workspaces don’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge - Chromium or one of the other supported browsers listed in [Browser support](https://www.servicenow.com/docs/access?context=browser-support&family=yokohama&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Accessibility information
@@ -445,7 +461,7 @@ Yokohama
 -   Alert agents about the status of current chats by using color-coded session tabs to indicate service level agreement \(SLA\) threshold timers, chat duration, and unread message counts.
 -   Create form templates or modify existing templates with enhancements to the form template feature.
 -   Integrate enhanced knowledge guidance on the Front-line case page and enable agents to attach and add links to knowledge articles in comments, work notes, or emails by using modeless dialogs.
--   Display native voice configurations in CSM Configurable Workspace with the Voice interaction record page that agents can use to handle phone calls.
+-   Display native voice configurations in CRM Workspace with the Voice interaction record page that agents can use to handle phone calls.
 -   Dedicate time after each call or chat for agents to finalize interaction details.
 
  See [CSM Configurable Workspace](https://www.servicenow.com/docs/access?context=csm-workspaces-configure&family=yokohama&ft:locale=en-US) for more information.

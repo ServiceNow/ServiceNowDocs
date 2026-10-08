@@ -7,7 +7,7 @@ release: yokohama
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [Project Diagnostics, Use, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -28,15 +28,15 @@ Project Diagnostics can also detect whether date calculations in a project appea
 
 1.  Determine whether you want to run a diagnostic scan on a single project or multiple projects.
 
-<table id="choicetable_ez5_jcj_hkb"><thead><tr><th align="left" id="d104455e55">
+<table id="choicetable_ez5_jcj_hkb"><thead><tr><th align="left" id="d104469e55">
 
 Scope
 
-</th><th align="left" id="d104455e58">
+</th><th align="left" id="d104469e58">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d104455e64">
+</th></tr></thead><tbody><tr><td id="d104469e64">
 
 **All Projects**
 
@@ -44,7 +44,7 @@ Steps
 
 Navigate to **All** &gt; **Project Administration** &gt; **Project Diagnostics**.
 
-</td></tr><tr><td id="d104455e88">
+</td></tr><tr><td id="d104469e88">
 
 **Single Project**
 
@@ -62,15 +62,15 @@ Navigate to **All** &gt; **Project Administration** &gt; **Project Diagnostics**
 
 4.  From the **Diagnostics** section, run a single diagnostic scan or multiple scans on the projects matching the filter criteria.
 
-<table id="choicetable_hqd_pcj_hkb"><thead><tr><th align="left" id="d104455e154">
+<table id="choicetable_hqd_pcj_hkb"><thead><tr><th align="left" id="d104469e154">
 
 Task
 
-</th><th align="left" id="d104455e157">
+</th><th align="left" id="d104469e157">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d104455e163">
+</th></tr></thead><tbody><tr><td id="d104469e163">
 
 **Run multiple diagnostic scans**
 
@@ -80,7 +80,7 @@ Steps
 2.  Select **Run Diagnostics** at the top-right corner of the page.
 
 
-</td></tr><tr><td id="d104455e184">
+</td></tr><tr><td id="d104469e184">
 
 **Run a specific diagnostic scan**
 

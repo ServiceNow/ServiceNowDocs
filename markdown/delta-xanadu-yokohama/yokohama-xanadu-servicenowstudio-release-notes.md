@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-servicenowstudio-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
@@ -46,7 +46,10 @@ Yokohama
 
 </td><td>
 
+-   **Upgrade information**
+
 ServiceNow Studio no longer has to be downloaded from the ServiceNow Store. It’s available on the ServiceNow AI Platform by default.
+
 
 </td></tr></tbody>
 </table>## New features
@@ -90,7 +93,20 @@ Yokohama
 
 </td><td>
 
--   **[Change your development experience in ServiceNow Studio](https://www.servicenow.com/docs/access?context=change-your-development-experience&family=yokohama&ft:locale=en-US)**
+-   **[File Navigator performance has been improved for large applications](https://www.servicenow.com/docs/access?context=configuring-servicenow-studio&family=yokohama&ft:locale=en-US)**
+
+As of version 27.2.4, smaller apps load all files on open, while larger apps \(exceeding a configurable limit\) load a subset initially, with additional files available on demand. Search for files in larger apps will perform server-side calls to decrease load times. Contact your ServiceNow support team to change the app size limits.
+
+-   **[Create an app file in ServiceNow Studio](https://www.servicenow.com/docs/access?context=sn-studio-create-app-file&family=yokohama&ft:locale=en-US)**
+
+As of version 27.2.4, use the new full-page, guided file creation experience to create any type of file for which you have permission.
+
+-   **[Viewing app origination information in ServiceNow Studio](https://www.servicenow.com/docs/access?context=viewing-app-origination-information-in-sns&family=yokohama&ft:locale=en-US)**
+
+As of version 27.2.4, the app details page for each app shows which development environment your app was created in. Use this information to switch between environments as needed in the course of app development and deployment.
+
+
+ -   **[Change your development experience in ServiceNow Studio](https://www.servicenow.com/docs/access?context=change-your-development-experience&family=yokohama&ft:locale=en-US)**
 
 Use the best tool for your app development by switching between Creator Studio, ServiceNow Studio, and ServiceNow IDE.
 
@@ -105,18 +121,6 @@ Change settings or see related links for an app from the app details page. Refre
 -   **[Create an application in ServiceNow Studio](https://www.servicenow.com/docs/access?context=create-an-application-in-servicenow-studio&family=yokohama&ft:locale=en-US)**
 
 In the November 2024 release, only admins could create apps in ServiceNow Studio. Now, users with Guided Application Creator \(GAC\) roles can also create applications.
-
--   **[File Navigator performance has been improved for large applications](https://www.servicenow.com/docs/access?context=configuring-servicenow-studio&family=yokohama&ft:locale=en-US)**
-
-As of version 27.2.4, smaller apps load all files on open, while larger apps \(exceeding a configurable limit\) load a subset initially, with additional files available on demand. Search for files in larger apps will perform server-side calls to decrease load times. Contact your ServiceNow support team to change the app size limits.
-
--   **[Create an app file in ServiceNow Studio](https://www.servicenow.com/docs/access?context=sn-studio-create-app-file&family=yokohama&ft:locale=en-US)**
-
-As of version 27.2.4, use the new full-page, guided file creation experience to create any type of file for which you have permission.
-
--   **[Viewing app origination information in ServiceNow Studio](https://www.servicenow.com/docs/access?context=viewing-app-origination-information-in-sns&family=yokohama&ft:locale=en-US)**
-
-As of version 27.2.4, the app details page for each app shows which development environment your app was created in. Use this information to switch between environments as needed in the course of app development and deployment.
 
 
 </td></tr></tbody>
@@ -146,13 +150,14 @@ Yokohama
 
 </td><td>
 
--   **[Modify an app's settings in ServiceNow Studio](https://www.servicenow.com/docs/access?context=modify-an-apps-settings-in-servicenow-studio&family=yokohama&ft:locale=en-US)**
-
-The App settings icon in ServiceNow Studio used to open a small modal where only a few settings could be updated and the app could be deleted. In this release, the icon opens a Core UI view of all the app settings and related links for the app.
-
 -   **[Create an application in ServiceNow Studio](https://www.servicenow.com/docs/access?context=create-an-application-in-servicenow-studio&family=yokohama&ft:locale=en-US)**
 
 As of version 27.2.4, the available options at the success page for creating an application changed from **Go to app dashboard** to **View App Details** and **Create File**.
+
+
+ -   **[Modify an app's settings in ServiceNow Studio](https://www.servicenow.com/docs/access?context=modify-an-apps-settings-in-servicenow-studio&family=yokohama&ft:locale=en-US)**
+
+The App settings icon in ServiceNow Studio used to open a small modal where only a few settings could be updated and the app could be deleted. In this release, the icon opens a Core UI view of all the app settings and related links for the app.
 
 
 </td></tr></tbody>
@@ -240,7 +245,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 ServiceNow Studio is a ServiceNow AI Platform feature that is active by default.
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -356,7 +364,10 @@ Yokohama
 
 </td><td>
 
+-   **Localization information**
+
 As of version 27.2.4, there is Right-to-Left language support for ServiceNow Studio.
+
 
 </td></tr></tbody>
 </table>## Highlight information

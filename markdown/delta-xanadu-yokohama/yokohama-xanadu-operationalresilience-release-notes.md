@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-operationalresilience-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 6
+last_updated: "2026-10-08"
+reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
 
@@ -94,7 +94,8 @@ After generating the entities and setting up the main node configurations, you c
 
 Identify the primary origin of an operational vulnerability in its record. Once the primary origin is specified, its upstream dependencies are automatically included in the impacted areas, enabling you to view the operational vulnerability from all affected perspectives.
 
--   **[Using Digital resilience incident reporting](https://www.servicenow.com/docs/access?context=drir-module&family=yokohama&ft:locale=en-US)**
+
+ -   **[Using Digital resilience incident reporting](https://www.servicenow.com/docs/access?context=drir-module&family=yokohama&ft:locale=en-US)**
 
 Assess whether any critical services are affected and classify the reported incident as a major incident if necessary. Notify regulators of major incidents, categorized by their severity and security ratings.
 
@@ -137,7 +138,39 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+-   **[Business services dashboard](https://www.servicenow.com/docs/access?context=opres-ws-homepage-overview&family=yokohama&ft:locale=en-US)**
+
+The Business services dashboard has been added to display business services data.
+
+-   **[New modules for services and processes](https://www.servicenow.com/docs/access?context=using-csdm-v5&family=yokohama&ft:locale=en-US)**
+
+The Services, Business Services, Service Offerings, and Business Processes modules have been added to the Operational Resilience Workspace. Operational Resilience managers use these modules to manage the services, business services, service offerings, and business processes used in Operational Resilience reporting.
+
+-   **[Entity Types and Pillars modules](https://www.servicenow.com/docs/access?context=manage-entity-types-pillars-from-ws&family=yokohama&ft:locale=en-US)**
+
+The Entity Types and Pillars modules have been added to the Operational Resilience Workspace. These modules enable Operational Resilience managers to update the entity types and pillars directly from the Workspace.
+
+-   **[Primary origin tab](https://www.servicenow.com/docs/access?context=add-impacted-area-to-vul&family=yokohama&ft:locale=en-US)**
+
+The **Primary origin** tab has been added to the Operational vulnerability record to identify the main source and report the upstream entities of the vulnerability.
+
+
+ -   **[Addition of classes to the assessment form](https://www.servicenow.com/docs/access?context=submit-an-assessment-in-ws&family=yokohama&ft:locale=en-US)**
+
+The Business Service and Offering classes have been added to the **Scope** tab of the assessment form, enabling you to assess the business services and service offerings alongside services. Once the assessment is complete, the importance and impact tolerance of these items are displayed in the Importance and Impact Tolerance columns on the **Scope** tab.
+
+-   **[Addition of classes to the scenario analysis form](https://www.servicenow.com/docs/access?context=scenario-analysis-in-ws&family=yokohama&ft:locale=en-US)**
+
+The Business Service and Offering classes have been added to the **Scope** tab of the scenario analysis form, enabling you to analyze the business services and service offerings alongside services.
+
+-   **[Addition of classes to the self-attestation form](https://www.servicenow.com/docs/access?context=self-attestation-in-ws&family=yokohama&ft:locale=en-US)**
+
+The Business Service and Offering classes have been added to the **Scope** tab of the self-attestation form, enabling you to self-attest the business services and service offerings alongside services.
+
+-   **[Digital resilience incident reporting module](https://www.servicenow.com/docs/access?context=drir-module&family=yokohama&ft:locale=en-US)**
+
+The Digital resilience incident reporting module is used to report the Information and Communication Technology \(ICT\) related incidents to the regulators.
+
 
 </td></tr></tbody>
 </table>## Removed
@@ -224,7 +257,12 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Install Operational Resilience by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
+
+**Important:** Operational Resilience is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -287,12 +325,14 @@ Yokohama
 
 </td><td>
 
+-   **Browser requirements**
+
 Business Continuity Management requires the following browsers:
 
--   Google Chrome
--   Firefox and Firefox Extended Support Release \(ESR\)
--   Microsoft Edge Chromium
--   Safari 12.0 and later versions
+    -   Google Chrome
+    -   Firefox and Firefox Extended Support Release \(ESR\)
+    -   Microsoft Edge Chromium
+    -   Safari 12.0 and later versions
 
 </td></tr></tbody>
 </table>## Accessibility information

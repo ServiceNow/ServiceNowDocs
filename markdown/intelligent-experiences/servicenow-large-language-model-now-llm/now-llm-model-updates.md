@@ -66,6 +66,17 @@ These model cards are for skills that use the Now LLM Service. There are certain
     This model is designed to ingest a conversation and predict a CSAT score as well as factors that explain the predicted score.
 
 
+## October 2026
+
+The October release adds a ServiceNow hosted model. It also retires the Gemini 2.5 models and begins the deprecation of the Now LLM Service V2 models.
+
+-   New ServiceNow hosted model: Gemma 4 26B-A4B is available if you require a hosted or self-hosted model. Third-party models remain the default. You can select Gemma for your skills and agents instead of the default.
+
+-   Gemini 2.5 models retired: Gemini 2.5 Pro, Gemini 2.5 Flash, and Gemini 2.5 Flash Lite are retired in the October release. Review your model selections and choose a supported Gemini model.
+
+-   V2 models deprecated for new development: The ServiceNow large language model \(V2\) and small language model \(V2\) are deprecated for new development. Your existing skills and agents continue to work. Retirement is planned for the December release, when these models are replaced by Gemma.
+
+
 ## September 2026
 
 The September release adds restricted models from AWS Anthropic. Restricted models support specific features only. You can't select them for your skills and agents.

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-mentoring-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -111,7 +111,10 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+-   **[Share mentor names and key dates with my manager check box](https://www.servicenow.com/docs/access?context=edit-mentee-preferences&family=yokohama&ft:locale=en-US)**
+
+A new **Share mentor names and key dates with my manager** check box is introduced in the mentee preferences form. Selecting this check box shares information with your manager and helps them validate your skill levels.
+
 
 </td></tr></tbody>
 </table>## Removed
@@ -198,7 +201,12 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Mentoring can be installed with the activation of the Employee Connections plugin, which is part of Talent Development Core. For more information, see [Talent Development Core](https://www.servicenow.com/docs/access?context=egd-landing-page&family=yokohama&ft:locale=en-US).
+
+
+**Important:** Mentoring is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements

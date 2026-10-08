@@ -20,7 +20,7 @@ Workflow Studio offers a selection of preconfigured actions that are available t
 
 ## Activating the subflows and actions skill
 
-To activate the subflows and actions skill, see [Turn on the subflows and actions skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/turn-on-the-subflows-and-actions-skill.md).
+To activate the subflows and actions skill, see .
 
 ## User role access
 
@@ -30,7 +30,7 @@ Give personnel an appropriate role to access conversational subflows. See [User 
 
 To make an action conversation compatible, you must perform the following steps.
 
--   Turn on the subflows and actions skill. See [Turn on the subflows and actions skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/turn-on-the-subflows-and-actions-skill.md).
+-   Turn on the subflows and actions skill. See .
 -   Give personnel an appropriate role to access conversational actions. See [User roles for conversational subflows and actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/user-roles-for-conversational-subflows-and-actions.md).
 -   Choose action inputs that are compatible with Conversational Interfaces. See [Supported input data types for conversational subflows and actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/supported-input-data-types-for-conversational-subflows-and-actions.md).
 -   Add tooltip hint text to all action inputs.

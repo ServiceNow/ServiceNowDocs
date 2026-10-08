@@ -162,7 +162,7 @@ The Mobile Agent app demo displays a launcher screen divided into sections. Tap 
 
     Agents use the Mobile Agent app to engage and respond to major incidents. They can see proposed major incident candidates and quickly review and promote them. Collaborate by kicking off a conference call right from the app to serve as an in-person war room for the team.
 
-    For more information on incident management using mobile applications, see Mobile experience with ITSM Mobile agent [ITSM Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/itsm-mobile-agent.md).
+    For more information on incident management using mobile applications, see Mobile experience with ITSM Mobile agent .
 
 
 ## Learn more about the Mobile Agent app

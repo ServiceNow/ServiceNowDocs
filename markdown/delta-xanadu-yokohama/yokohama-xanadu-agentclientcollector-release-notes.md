@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-agentclientcollector-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 10
 breadcrumb: [Products combined by family]
 ---
@@ -150,14 +150,6 @@ Yokohama
 
 </td><td>
 
--   **[Scan your resource directories for file attributes](https://www.servicenow.com/docs/access?context=directory-scan-checks-policies&family=yokohama&ft:locale=en-US)**
-
-Starting in version 3.13.0, run a check to receive information on the directory file's integrity, size, space, response time, and age.
-
--   **[Conserve MID Server resources by using MID-less installation for Agent Client Collector](https://www.servicenow.com/docs/access?context=acc-itom-cloud-services&family=yokohama&ft:locale=en-US)**
-
-Starting in version 3.6.5, conserve MID Server resources for more persistent features by using the MID-less installation when installing Agent Client Collector. With this installation, you don't need a MID Server in your system architecture.
-
 -   **[Create tasks to address Agent Client Collector errors](https://www.servicenow.com/docs/access?context=create-error-task&family=yokohama&ft:locale=en-US)**
 
 Starting in version 4.3.0, create tasks to resolve errors relating to the Agent Client Collector. Tasks are assigned to personnel who investigate the underlying issues and work to resolve the errors.
@@ -172,11 +164,29 @@ Starting in version 1.3.0, enable discovery of MSSQL components by running Disco
 
 -   **[Java certification Discovery through file-based discovery](https://www.servicenow.com/docs/access?context=using-enhanced-discovery-and-sam-together&family=yokohama&ft:locale=en-US)**
 
-Starting in version 1.3.0, discover java file information using Agent Client Collector for Visibility - Content \(ACC-VC\) file based discovery. File based discovery locates java files that are installed on the system but not running, enabling retrieval of data used for licensing and auditing.
+Starting in version 1.3.0, discover java file information using Agent Client Collector for Visibility Content \(ACC-VC\) file based discovery. File based discovery locates java files that are installed on the system but not running, enabling retrieval of data used for licensing and auditing.
 
 -   **[Enable high volume upgrade of agents](https://www.servicenow.com/docs/access?context=acc-high-volume-upgrade&family=yokohama&ft:locale=en-US)**
 
 Starting in version 4.3.0, enhance efficiency by performing high-volume upgrade of large numbers of Agent Client Collector installations at once.
+
+
+ -   **[Store ServiceNow instance credentials in the Google Cloud Secret Manager when the Informer uses Google Kubernetes Engine \(GKE\)](https://www.servicenow.com/docs/access?context=cnov-deploy-prepare&family=yokohama&ft:locale=en-US)**
+
+If your organization uses Google Kubernetes Engine \(GKE\) you can store the secret in Google Cloud Secret Manager. The Kubernetes Visibility Agent Informer can then pull the ServiceNow credentials for accessing your instance from the Google Cloud Secret Manager.
+
+-   **[Use a custom CA to enable the Informer to communicate with the ServiceNow instance when using a custom root CA](https://www.servicenow.com/docs/access?context=cnov-deploy-prepare&family=yokohama&ft:locale=en-US)**
+
+Mount a custom certificate authority into the Kubernetes Visibility Agent Informer pod to enable the Informer to communicate with the instance when a custom root CA is used.
+
+
+ -   **[Scan your resource directories for file attributes](https://www.servicenow.com/docs/access?context=directory-scan-checks-policies&family=yokohama&ft:locale=en-US)**
+
+Starting in version 3.13.0, run a check to receive information on the directory file's integrity, size, space, response time, and age.
+
+-   **[Conserve MID Server resources by using MID-less installation for Agent Client Collector](https://www.servicenow.com/docs/access?context=acc-itom-cloud-services&family=yokohama&ft:locale=en-US)**
+
+Starting in version 3.6.5, conserve MID Server resources for more persistent features by using the MID-less installation when installing Agent Client Collector. With this installation, you don't need a MID Server in your system architecture.
 
 -   **[Block event creation for non-existent entities](https://www.servicenow.com/docs/access?context=prevent-events-nonexistent-entities&family=yokohama&ft:locale=en-US)**
 
@@ -197,14 +207,6 @@ Starting in version 4.1.0, use a new check to verify network host availability.
 -   **[Identify software running on Linux and Windows devices](https://www.servicenow.com/docs/access?context=acc-visibility-checks-policies&family=yokohama&ft:locale=en-US)**
 
 Starting in version 4.1.0, identify the software that is running on your Linux and Windows servers and devices by using file-based Discovery. File-based Discovery enables you to maintain the records of your software licenses and helps you to evaluate any threats from unwanted files.
-
--   **[Store ServiceNow instance credentials in the Google Cloud Secret Manager when the Informer uses Google Kubernetes Engine \(GKE\)](https://www.servicenow.com/docs/access?context=cnov-deploy-prepare&family=yokohama&ft:locale=en-US)**
-
-If your organization uses Google Kubernetes Engine \(GKE\) you can store the secret in Google Cloud Secret Manager. The Kubernetes Visibility Agent Informer can then pull the ServiceNow credentials for accessing your instance from the Google Cloud Secret Manager.
-
--   **[Use a custom CA to enable the Informer to communicate with the ServiceNow instance when using a custom root CA](https://www.servicenow.com/docs/access?context=cnov-deploy-prepare&family=yokohama&ft:locale=en-US)**
-
-Mount a custom certificate authority into the Kubernetes Visibility Agent Informer pod to enable the Informer to communicate with the instance when a custom root CA is used.
 
 
 </td></tr></tbody>
@@ -246,13 +248,14 @@ Yokohama
 
 </td><td>
 
--   **[Explore metrics with Metric Explorer independent of Agent Client Collector Monitoring](https://www.servicenow.com/docs/access?context=agent-workspace-ops-intelligence&family=yokohama&ft:locale=en-US)**
-
-Starting in version 4.1.0, view and monitor metric data with Metric Explorer, even if you have not installed Agent Client Collector Monitoring.
-
 -   **[\[Placeholder link text to key acc-visibility-landing-page\]](https://www.servicenow.com/docs/access?context=acc-visibility-landing-page&family=yokohama&ft:locale=en-US)**
 
-Starting in version 1.1.0, ACC for Visibility has been renamed as Kubernetes Visibility Agent and consists only of what is currently CNO for Visibility. The term CNO for Visibility has been deprecated and replaced with Kubernetes Visibility Agent. All other ACC for Visibility functions are now part of Agent Client Collector for Visibility - Content.
+Starting in version 1.1.0, ACC for Visibility has been renamed as Kubernetes Visibility Agent and consists only of what is currently CNO for Visibility. The term CNO for Visibility has been deprecated and replaced with Kubernetes Visibility Agent. All other ACC for Visibility functions are now part of Agent Client Collector for Visibility Content.
+
+
+ -   **[Explore metrics with Metric Explorer independent of Agent Client Collector Monitoring](https://www.servicenow.com/docs/access?context=agent-workspace-ops-intelligence&family=yokohama&ft:locale=en-US)**
+
+Starting in version 4.1.0, view and monitor metric data with Metric Explorer, even if you have not installed Agent Client Collector Monitoring.
 
 
 </td></tr></tbody>
@@ -340,7 +343,12 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Agent Client Collector is available with activation of the Agent Client Collector Framework plugin \(sn\_agent\) and the Agent Client Collector Monitoring plugin \(sn\_itmon\) in an instance on which Event Management is installed.
+
+
+**Important:** Agent Client Collector is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -491,7 +499,7 @@ Yokohama
 
 </td><td>
 
--   Agent Client Collector for Visibility: Starting in version 1.1.0, ACC for Visibility has been renamed Agent Client Collector for Visibility - Content. CNO for Visibility has been extracted from Agent Client Collector for Visibility - Content and is now a separate application.
+-   Agent Client Collector for Visibility: Starting in version 1.1.0, ACC for Visibility has been renamed Agent Client Collector for Visibility Content. CNO for Visibility has been extracted from Agent Client Collector for Visibility Content and is now a separate application.
 -   Store instance credentials in the Google Cloud Secret Manager when the Kubernetes Visibility Agent Informer uses Google Kubernetes Engine \(GKE\).
 -   Use a custom CA to enable Kubernetes Visibility Agent Informer to communicate with the instance when using a custom root Certificate Authority \(CA\).
 -   Configure Agent Client Collector without a MID Server by ßusing MID-less configuration.

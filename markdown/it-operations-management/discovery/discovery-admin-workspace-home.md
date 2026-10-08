@@ -7,8 +7,8 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 5
+last_updated: "2026-10-08"
+reading_time_minutes: 4
 breadcrumb: [Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
@@ -32,7 +32,7 @@ The following data counts display in the Quick overview section:
 
 -   **Active schedules**
 
-    Displays the number of active IP-based and Cloud Discovery schedules run to date. Selecting this number opens the [Schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/discovery-admin-workspace-schedules.md) page, where you can view all the Discovery schedules that are configured and enabled to run.
+    Displays the number of active IP-based and Cloud Discovery schedules run to date.
 
 -   **Error tasks**
 

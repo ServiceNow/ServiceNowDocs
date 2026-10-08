@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-workforceoptimizationforcustomerservicecsm-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 4
+last_updated: "2026-10-08"
+reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
 
@@ -90,8 +90,6 @@ Yokohama
 
 Empower managers with real-time insights and actionable metrics, organized in a unified view, to drive performance optimization and facilitate prompt action.
 
-
-**Note:** Existing customers on release versions prior to the Yokohama release can still view the old [Legacy Manager Workspace landing page](https://www.servicenow.com/docs/access?context=csm-configurable-manager-workspace-dashboards&family=yokohama&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Changes
@@ -210,7 +208,12 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Install Workforce Optimization for Customer Service by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
+
+**Important:** Workforce Optimization for Customer Service is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -306,7 +309,10 @@ Yokohama
 
 </td><td>
 
+-   **Accessibility information**
+
 Screen reader support has been extended to ARIA labels for buttons in CSM Workforce Optimization for Customer Service. The support provides users who rely on assistive technology with an explanation of button actions, such as the toggle button.
+
 
 </td></tr></tbody>
 </table>## Localization information

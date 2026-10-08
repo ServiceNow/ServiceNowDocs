@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-flowssubflowsandactionsinworkflowstudio-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 9
 breadcrumb: [Products combined by family]
 ---
@@ -161,12 +161,12 @@ Support conversational subflows that have Dynamic Choice and Array of Objects in
 Answer a few questions about your automation and Workflow Studio displays recommendations on whether you should create a playbook, flow, subflow, action, or a data stream.
 
 
--   **[Configure conversational settings](https://www.servicenow.com/docs/access?context=configure-subflow-conversation-settings&family=yokohama&ft:locale=en-US)**
+ -   **[Configure conversational settings](https://www.servicenow.com/docs/access?context=configure-subflow-conversation-settings&family=yokohama&ft:locale=en-US)**
 
 View the subflows and actions that are conversational compatible. Configure conversational settings to make a subflow or action available to conversational interfaces.
 
 
--   **[Debug flows and subflows](https://www.servicenow.com/docs/access?context=flow-debugger&family=yokohama&ft:locale=en-US)**
+ -   **[Debug flows and subflows](https://www.servicenow.com/docs/access?context=flow-debugger&family=yokohama&ft:locale=en-US)**
 
 Debug flows and subflows from a dedicated Workflow Studio tab. Set breakpoints and step through a paused flow to review configuration and runtime values.
 
@@ -204,7 +204,7 @@ Xanadu
 
 -   **[Flow generation configures action and flow logic inputs](https://www.servicenow.com/docs/access?context=create-flow-now-assist&family=xanadu&ft:locale=en-US)**
 
-Use the Now Assist for Creator flow generation skill to create and configure a flow from text directions. Flow generation uses data pills to set input values for actions and flow logic.
+Use the ServiceNow Otto for Creator flow generation skill to create and configure a flow from text directions. Flow generation uses data pills to set input values for actions and flow logic.
 
 
 </td></tr><tr><td>
@@ -213,7 +213,10 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+-   **[Display text descriptions of data changes](https://www.servicenow.com/docs/access?context=exploring-flows&family=yokohama&ft:locale=en-US)**
+
+See a natural language description of the data each component of a flow uses. Understand what data flow triggers, actions, and flow logic blocks use without having to open their configuration details.
+
 
 </td></tr></tbody>
 </table>## Removed
@@ -301,9 +304,14 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Workflow Studio is a ServiceNow AI Platform feature that is active by default.
 
- Get the latest Workflow Studio features by updating the app from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+Get the latest Workflow Studio features by updating the app from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
+
+**Important:** Workflow Studio is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -390,15 +398,16 @@ Yokohama
 
 </td><td>
 
--   **ARIA label improvements**
+-   **Accessibility information**
+    -   **ARIA label improvements**
 
 Added and updated ARIA labels to support screen readers.
 
--   **Keyboard navigation improvements**
+    -   **Keyboard navigation improvements**
 
 Improved keyboard navigation with working with actions, flows, and subflows in Workflow Studio.
 
--   **Reflow improvements of canvas headers and footers**
+    -   **Reflow improvements of canvas headers and footers**
 
 Added support for the reflow of canvas headers and footer content in Workflow Studio actions, flows, and subflows. These components can be zoomed up to 400% through your browser settings without loss of content or functionality.
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-codesigning-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -109,12 +109,12 @@ Yokohama
 The Code Signing Guardrails check has been improved to enhance signature verification, resulting in more secure workflows. In addition, multiple optimizations have been implemented to improve the performance benchmarks of the Guardrails scan, and log files now feature a more intuitive naming convention, which simplifies file identification within your system.
 
 
--   **[Generate update sets with a maximum size of 10,000 records](https://www.servicenow.com/docs/access?context=cse-turn-on-cse&family=yokohama&ft:locale=en-US)**
+ -   **[Generate update sets with a maximum size of 10,000 records](https://www.servicenow.com/docs/access?context=cse-turn-on-cse&family=yokohama&ft:locale=en-US)**
 
 Code Signing now enforces limits on large update sets to improve the user experience. The maximum size for an update set is 10,000 records.
 
 
--   **[Naming updates for trusted and production instances](https://www.servicenow.com/docs/access?context=code-signing-landing&family=yokohama&ft:locale=en-US)**
+ -   **[Naming updates for trusted and production instances](https://www.servicenow.com/docs/access?context=code-signing-landing&family=yokohama&ft:locale=en-US)**
 
 The trusted non-production instance has been renamed to trusted instance, and the protected production instance has been renamed to protected instance. These naming updates have been made to better align with customer usage.
 
@@ -204,7 +204,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Code Signing is a ServiceNow AI Platform feature that is available with activation of the Code Signing \(com.glide.code\_signing\_enterprise\) plugin. For details, see [Configuring Code Signing](https://www.servicenow.com/docs/access?context=config-code-signing&family=yokohama&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements

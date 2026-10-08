@@ -50,15 +50,15 @@ When you select the **Decline dispute transaction** option in the **Detect frien
 
     -   When the customer decision is accepted, provide **Customer feedback** and select **Mark complete**. The dispute is marked as **Closed Complete**.
     -   When the customer decision is denied, provide the **Customer feedback**. In the **Action** section, select one of the following.
-<table id="choicetable_mzh_qdg_w2c"><thead><tr><th align="left" id="d54329e210">
+<table id="choicetable_mzh_qdg_w2c"><thead><tr><th align="left" id="d54325e210">
 
 Final action
 
-</th><th align="left" id="d54329e213">
+</th><th align="left" id="d54325e213">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d54329e219">
+</th></tr></thead><tbody><tr><td id="d54325e219">
 
 **Decline dispute transaction**
 
@@ -69,7 +69,7 @@ Steps
 
 The transaction is marked as**Closed Rejected**.
 
-</td></tr><tr><td id="d54329e248">
+</td></tr><tr><td id="d54325e248">
 
 **Issue credit and write-off**
 
@@ -83,7 +83,7 @@ The **Issue credit** activity is displayed.
 3.  Provide the final credit and select **Close task**. The task is marked as **Closed Complete.**
 
 
-</td></tr><tr><td id="d54329e285">
+</td></tr><tr><td id="d54325e285">
 
 **Proceed with dispute**
 

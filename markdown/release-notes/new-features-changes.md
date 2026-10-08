@@ -19,7 +19,6 @@ Review the new features and changes in this release by product.
 The Yokohama release includes new products.
 
 -   **Employee Service Management**
-    -   
     -   [ServiceNow Add-in for Microsoft 365 release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/sn-addin-for-ms365-rn.md)
 -   **Enterprise Architecture**
 

@@ -23,5 +23,5 @@ To give feedback on the answers provided by Otto, you can select either the thum
 
 **Note:** To activate ServiceNow Otto for AI Search, the search card templates must be added by the administrator for your ServiceNow product. For example, Employee Service Management or Field Service Management.
 
-For more information on ServiceNow Otto for AI Search in AI Search on mobile, including installation, see [Now Assist in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/now-assist-ais.md) for more information. For information on guided setup to configure AI Search on your instance, see [Configuring AI Search for Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/configuring-ais-next-experience.md)
+For more information on ServiceNow Otto for AI Search in AI Search on mobile, including installation, see  for more information. For information on guided setup to configure AI Search on your instance, see 
 

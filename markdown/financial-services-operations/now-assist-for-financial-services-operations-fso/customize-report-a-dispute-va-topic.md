@@ -42,7 +42,7 @@ Review and modify the workflow for your business needs.
 **Related topics**  
 
 
-[bundle-convint.vad-reference]
+[Virtual Agent Designer interface reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/vad-reference.md)
 
 [Form Data Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/now-assist-for-financial-services-operations-fso/learn-about-the-form-data-collector.md)
 

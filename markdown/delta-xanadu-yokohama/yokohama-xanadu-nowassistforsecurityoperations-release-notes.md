@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-nowassistforsecurityoperations-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -38,7 +38,7 @@ Xanadu
 
 </td><td>
 
-For more information about required applications for Now Assist for Vulnerability Response, see [Supporting information for Now Assist for Vulnerability Response](https://www.servicenow.com/docs/access?context=supporting-information-now-assist-vr&family=xanadu&ft:locale=en-US). For more information about required applications for Now Assist for Security Incident Response, see [Supporting information for Now Assist for Security Incident Response](https://www.servicenow.com/docs/access?context=supporting-information-now-assist-security-incident&family=xanadu&ft:locale=en-US).
+For more information about required applications for ServiceNow Otto for Unified Security Exposure Management, see [Supporting information for ServiceNow Otto for Unified Security Exposure Management](https://www.servicenow.com/docs/access?context=supporting-information-now-assist-vr&family=xanadu&ft:locale=en-US). For more information about required applications for ServiceNow Otto for Security Incident Response \(SIR\), see [Supporting information for ServiceNow Otto for Security Incident Response \(SIR\)](https://www.servicenow.com/docs/access?context=supporting-information-now-assist-security-incident&family=xanadu&ft:locale=en-US).
 
  The AI Search application must be enabled so that the Recommended Actions skill works for security incidents. To verify AI Search is enabled on your instance, navigate to **All** &gt; **AI Search** &gt; **AI Search Status**. Contact support if the page indicates AI Search is not enabled.
 
@@ -345,7 +345,7 @@ Xanadu Patch 9
 -   Generate a post-incident analysis.
 -   Access summaries and closure notes from the Now Assist panel, security incident records, or from the Security Incident Response Workspace.
 
-See [Now Assist for Security Incident Response](https://www.servicenow.com/docs/access?context=now-assist-security-incident-landing&family=xanadu&ft:locale=en-US) for more information.
+See [ServiceNow Otto for Security Incident Response \(SIR\)](https://www.servicenow.com/docs/access?context=now-assist-security-incident-landing&family=xanadu&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 

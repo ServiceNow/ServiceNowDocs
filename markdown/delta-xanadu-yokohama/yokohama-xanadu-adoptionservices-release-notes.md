@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-adoptionservices-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -77,9 +77,7 @@ Yokohama
 
 -   **[Guided Setup](https://www.servicenow.com/docs/access?context=guided-setup&family=yokohama&ft:locale=en-US)**
 
-Create additional tasks under Guided Setup using page macroponent as an app owner. You can also access and execute these tasks with an admin role.
-
-Add new steps to guided setups in progress during Playbook Experience.
+Create additional tasks under Guided Setup using page macroponent as an app owner. You can also access and execute these tasks with an admin role.Add new steps to guided setups in progress during Playbook Experience.
 
 
 </td></tr></tbody>
@@ -118,28 +116,34 @@ Yokohama
 
 -   **[Guided Setup](https://www.servicenow.com/docs/access?context=guided-setup&family=yokohama&ft:locale=en-US)**
 
-Assign and transfer Guided Setup tasks to relevant users, for execution. This capability requires admin roles.
-
-Set Guided Setup steps as mandatory by disabling the skip action.
-
-You can now run the Guided Setup player or builder multiple times.
-
-Select the multi-run feature while you’re configuring and executing the tasks multiple times.
+Choose from the playbook player and Next Experience and explore improved navigation across Guided Setup activities.
 
 
--   **[Help Center](https://www.servicenow.com/docs/access?context=help-center&family=yokohama&ft:locale=en-US)**
+ -   **[Guided Setup](https://www.servicenow.com/docs/access?context=guided-setup&family=yokohama&ft:locale=en-US)**
 
-Navigate to What's New within the Help Center panel across all experiences, including Core UI. Starting in the Yokohama release, configuration support for this new feature is available in classic and custom pages.
-
-This feature isn’t supported for non-Polaris users.
+Assign and transfer Guided Setup tasks to relevant users, for execution. This capability requires admin roles.Set Guided Setup steps as mandatory by disabling the skip action.You can now run the Guided Setup player or builder multiple times.Select the multi-run feature while you’re configuring and executing the tasks multiple times.
 
 
--   **[Embedded Help](https://www.servicenow.com/docs/access?context=embedded-help&family=yokohama&ft:locale=en-US)**
+ -   **[Help Center](https://www.servicenow.com/docs/access?context=help-center&family=yokohama&ft:locale=en-US)**
+
+The Help Center panel is now attachable and detachable from the header. You can also drag and resize it after you detach it. This feature is available with a keyboard, for accessibility support.
+
+-   **[Guided Tours](https://www.servicenow.com/docs/access?context=guided-tours&family=yokohama&ft:locale=en-US)**
+
+Guided Tours is now accessible in dark and light themes. This capability now inherits any theme-based color and scheme that you select.
+
+
+ -   **[Help Center](https://www.servicenow.com/docs/access?context=help-center&family=yokohama&ft:locale=en-US)**
+
+Navigate to What's New within the Help Center panel across all experiences, including Core UI. Starting in the Yokohama release, configuration support for this new feature is available in classic and custom pages.This feature isn’t supported for non-Polaris users.
+
+
+ -   **[Embedded Help](https://www.servicenow.com/docs/access?context=embedded-help&family=yokohama&ft:locale=en-US)**
 
 Import non-English content without overriding the last uploaded language content.
 
 
--   **[Guided Tours](https://www.servicenow.com/docs/access?context=guided-tours&family=yokohama&ft:locale=en-US)**
+ -   **[Guided Tours](https://www.servicenow.com/docs/access?context=guided-tours&family=yokohama&ft:locale=en-US)**
 
 Create, edit, or delete Guided Tours from any scoped application including ServiceNow AI Platform.
 
@@ -229,7 +233,12 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Adoption Services is a ServiceNow AI Platform feature that is provided with the plugins, by default. You don’t need to activate this feature.
+
+
+**Important:** Adoption Services is available in ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements

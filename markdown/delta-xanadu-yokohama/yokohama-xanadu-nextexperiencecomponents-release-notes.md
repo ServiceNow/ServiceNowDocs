@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-nextexperiencecomponents-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 11
 breadcrumb: [Products combined by family]
 ---
@@ -684,7 +684,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Next Experience Components is a ServiceNow AI Platform feature that is active by default.
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -838,7 +841,10 @@ Yokohama
 
 </td><td>
 
+-   **Accessibility information**
+
 For Next Experience Components accessibility conformance, refer to the ServiceNow [Horizon site Components section](https://horizon.servicenow.com/workspace/components).
+
 
 </td></tr></tbody>
 </table>## Localization information

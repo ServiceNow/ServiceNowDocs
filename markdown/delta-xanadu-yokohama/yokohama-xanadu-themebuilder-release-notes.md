@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-themebuilder-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 7
+last_updated: "2026-10-08"
+reading_time_minutes: 8
 breadcrumb: [Products combined by family]
 ---
 
@@ -106,17 +106,6 @@ Yokohama
 
 </td><td>
 
--   **[Align with your brand by using the Unified Navigation component](https://www.servicenow.com/docs/access?context=edit-unified-navigation-component&family=yokohama&ft:locale=en-US)**
-
-Customize the Unified Navigation component from within Theme Builder by using the following new features:
-
-    -   Quickly view how the Unified Navigation component will look in your theme by using the Preview pane.
-    -   Use the Component Configuration menu to view any shared styling between subcomponents.
-    -   View the background color of your subcomponent and see how it renders in relation to the Unified Navigation component by using the updated canvas color feature.
--   **[Use the double-click feature to quickly access the Component Editor](https://www.servicenow.com/docs/access?context=tb-edit-components&family=yokohama&ft:locale=en-US)**
-
-Double-click a component tile to access the Component Editor where you can continue to make style adjustments to subcomponents, variants, or interactions.
-
 -   **[Adjust the Unified Navigation component to meet accessibility standards](https://www.servicenow.com/docs/access?context=tb-adjust-component-wcag&family=yokohama&ft:locale=en-US)**
 
 As of Theme Builder version 5.1, the Accessibility Inspector now displays the total number of accessibility errors with contrast issues for the Unified Navigation component and subcomponents. See the Accessibility section for details.
@@ -127,6 +116,18 @@ As of Theme Builder version 5.1, use the new Image styles feature to enhance you
 
     -   Edit the colors of the empty state illustrations from within Theme Builder. When a part of your Next Experience web page doesn't contain data, an empty state illustration appears. Empty state illustrations are theme-able and adapt to your theme colors.
     -   Override empty state illustrations with your own custom images to uniquely align with your branding style.
+
+ -   **[Align with your brand by using the Unified Navigation component](https://www.servicenow.com/docs/access?context=edit-unified-navigation-component&family=yokohama&ft:locale=en-US)**
+
+Customize the Unified Navigation component from within Theme Builder by using the following new features:
+
+    -   Quickly view how the Unified Navigation component will look in your theme by using the Preview pane.
+    -   Use the Component Configuration menu to view any shared styling between subcomponents.
+    -   View the background color of your subcomponent and see how it renders in relation to the Unified Navigation component by using the updated canvas color feature.
+-   **[Use the double-click feature to quickly access the Component Editor](https://www.servicenow.com/docs/access?context=tb-edit-components&family=yokohama&ft:locale=en-US)**
+
+Double-click a component tile to access the Component Editor where you can continue to make style adjustments to subcomponents, variants, or interactions.
+
 
 </td></tr></tbody>
 </table>## Changes
@@ -155,7 +156,25 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+-   **[New Image styles tab added to Editor page](https://www.servicenow.com/docs/access?context=working-with-image-styles&family=yokohama&ft:locale=en-US)**
+
+As of Theme Builder version 5.1, the Editor page has the following additional options:
+
+    -   The general styles panel, which includes Global and Component styles, now features Image styles. The Image styles tab displays all illustrations available for editing.
+    -   When you select an empty state illustration for editing from the Image styles tab, the property panel opens with two additional tabs: Images and Colors. The Images tab displays which image files are applied to an empty state illustration. The Colors tab displays which theme colors are applied to an illustration.
+
+ -   **[Navigation updated](https://www.servicenow.com/docs/access?context=tb-edit-components&family=yokohama&ft:locale=en-US)**
+
+The **Return to component overview** link within the Component Editor is replaced with breadcrumb-style navigation for a more contextual navigation experience.
+
+-   **[Component Editor button replaced](https://www.servicenow.com/docs/access?context=tb-edit-components&family=yokohama&ft:locale=en-US)**
+
+The **Go to Component Editor** button is now labeled either **Style variants**, **Style subcomponents**, or **Style interactions** depending on the selected component. The Component Editor behaves in the same way despite this UI change.
+
+-   **[Component Editor Interactions States panel updated](https://www.servicenow.com/docs/access?context=tb-edit-components&family=yokohama&ft:locale=en-US)**
+
+The Interaction States panel within the Component Editor now refers to either **Interactions** or **Subcomponents**.
+
 
 </td></tr></tbody>
 </table>## Removed
@@ -244,7 +263,12 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Starting with the Yokohama release, Theme Builder is included as a core plugin with the Next Experience application and is available by default. You can update to the latest version of Theme Builder from ServiceNow Store.
+
+
+**Important:** Theme Builder is available by default starting in the Yokohama release and upgrades are available in ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -336,7 +360,8 @@ Yokohama
 
 </td><td>
 
--   **[Adjust the Unified Navigation component to meet accessibility standards](https://www.servicenow.com/docs/access?context=tb-adjust-component-wcag&family=yokohama&ft:locale=en-US)**
+-   **Accessibility information**
+    -   **[Adjust the Unified Navigation component to meet accessibility standards](https://www.servicenow.com/docs/access?context=tb-adjust-component-wcag&family=yokohama&ft:locale=en-US)**
 
 The Accessibility Inspector, which detects and guides you through fixing contrast issues in your theme, now includes accessibility errors for the Unified Navigation component and subcomponents.
 

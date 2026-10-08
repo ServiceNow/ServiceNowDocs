@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-smartassessmentengine-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
@@ -254,7 +254,12 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Install Smart Assessment Engine by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
+
+**Important:** Smart Assessment Engine is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -283,7 +288,10 @@ Yokohama
 
 </td><td>
 
+-   **Additional requirements**
+
 Check your entitlements to determine whether you have access to the post-assessment automations and response automation for the SAE application.
+
 
 </td></tr></tbody>
 </table>## Browser requirements
@@ -341,7 +349,8 @@ Yokohama
 
 </td><td>
 
--   **Accessibility improvements**
+-   **Accessibility information**
+    -   **Accessibility improvements**
 
 Accessibility improvements were done to create a configurable workspace that supports WCAG 2.1 Level AA conformance.
 

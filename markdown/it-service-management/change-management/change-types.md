@@ -24,6 +24,8 @@ Change Management supports the three types of service changes ITIL describes —
 
     Approved standard change requests can be predefined in a catalog of templates to make accessing and requesting a standard change more efficient. This ability also enables the Change Management team to control the changes that are authorized as standard.
 
+    For example, a routine TLS certificate renewal or a documented password policy update is typically handled as a standard change.
+
 -   **Emergency change**
 
     A change that must be implemented as soon as possible, for example to resolve a major incident or implement a security patch. This change is of such a high priority that it bypasses group and peer review and approval and goes straight to the Authorization state for approval by the CAB approval group.
@@ -52,6 +54,14 @@ The following table summarizes about the three change types:
 |Standard|Yes|No|Low-risk, repeatable changes with a proven history of success.|
 |Normal|No|Yes|Any change that isn't standard or emergency and requires full assessment.|
 |Emergency|No|Yes|High-priority changes that resolve a major incident or apply a security patch.|
+
+## Choosing a change type
+
+Use the following scenarios as a guide:
+
+-   A scheduled upgrade of a production database server that needs peer reviews and CAB authorization is a normal change.
+-   Applying a documented, pre-approved patch from a tested standard change template is a standard change.
+-   Deploying an out-of-band security patch to stop an active exploit is an emergency change.
 
 **Parent Topic:**[Exploring Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/exploring-change-management.md)
 

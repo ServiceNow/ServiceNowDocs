@@ -40,15 +40,15 @@ Role required: wm\_agent or wm\_dispatcher
 
 5.  Do one of the following.
 
-<table id="choicetable_rb4_1gc_qfb"><thead><tr><th align="left" id="d68656e160">
+<table id="choicetable_rb4_1gc_qfb"><thead><tr><th align="left" id="d68658e160">
 
 To
 
-</th><th align="left" id="d68656e163">
+</th><th align="left" id="d68658e163">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d68656e169">
+</th></tr></thead><tbody><tr><td id="d68658e169">
 
 **Close a work order task after you complete the work on the task**
 
@@ -61,7 +61,7 @@ Do this
 5.  Automatically create and route a new work order task when the current task is closed as complete by turning on the **Has follow-on task** option.
  **Note:** Your **Work agent status** is automatically updated as **On Shift** to determine that you are available to work on a task.
 
-</td></tr><tr><td id="d68656e220">
+</td></tr><tr><td id="d68658e220">
 
 **Close a work order task if a follow-on task is pending completion**
 
@@ -206,15 +206,15 @@ Role required: admin
 
 5.  Do one of the following to enable the **Sign and Confirm** button.
 
-<table id="choicetable_jfb_1sy_cgb"><thead><tr><th align="left" id="d68656e854">
+<table id="choicetable_jfb_1sy_cgb"><thead><tr><th align="left" id="d68658e854">
 
 To
 
-</th><th align="left" id="d68656e857">
+</th><th align="left" id="d68658e857">
 
 Complete these steps
 
-</th></tr></thead><tbody><tr><td id="d68656e863">
+</th></tr></thead><tbody><tr><td id="d68658e863">
 
 **Enable the Sign and confirm option to display when you swipe a work order from a list**
 
@@ -225,7 +225,7 @@ Complete these steps
 3.  Select the **Button Instances belonging to Master Item** tab.
 
 
-</td></tr><tr><td id="d68656e893">
+</td></tr><tr><td id="d68658e893">
 
 **Enable the Sign and confirm option to display when you open a work order form**
 

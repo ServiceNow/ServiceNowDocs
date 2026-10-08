@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-servicenowaiplatformcorefeature-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 4
+last_updated: "2026-10-08"
+reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
 
@@ -75,7 +75,12 @@ Yokohama
 
 </td><td>
 
--   **[Add dynamic attributes to a dynamic category](https://www.servicenow.com/docs/access?context=add-dynamic-attributes-dynamic-category&family=yokohama&ft:locale=en-US)**
+-   **[Enhance instance security for sandbox scripts with guarded script](https://www.servicenow.com/docs/access?context=guarded-script&family=yokohama&ft:locale=en-US)**
+
+The guarded script evaluator restricts the JavaScript features and APIs available to untrusted, client-generated scripts running in the script sandbox environment. Beginning with the Yokohama Patch 13 release, incompatible scripts sent to the server by guest users are rejected on all instances by default. Scripts sent by authenticated users are evaluated using a phased approach to enforcement that varies by the type of instance to provide time to detect and review incompatible scripts before rejecting them. Scripts that use unsupported features are recorded in the Incompatible Guarded Scripts list, where you can rewrite them or create exemptions for scripts that can't be rewritten.
+
+
+ -   **[Add dynamic attributes to a dynamic category](https://www.servicenow.com/docs/access?context=add-dynamic-attributes-dynamic-category&family=yokohama&ft:locale=en-US)**
 
 Add individual attributes or a group of attributes to a dynamic category.
 
@@ -252,7 +257,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 The ServiceNow AI Platform core features are active by default.
+
 
 </td></tr></tbody>
 </table>## Additional requirements

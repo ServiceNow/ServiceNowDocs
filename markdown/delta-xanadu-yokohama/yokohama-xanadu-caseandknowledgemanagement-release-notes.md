@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-caseandknowledgemanagement-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
@@ -217,7 +217,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Case and Knowledge Management is a ServiceNow AI Platform feature that is available with activation of the Human Resources Scoped App: Core \[com.sn\_hr\_core\]. See [Activate Case and Knowledge Management](https://www.servicenow.com/docs/access?context=activate-case-and-knowledge-management-scoped&family=yokohama&ft:locale=en-US) for more information.
+
 
 </td></tr></tbody>
 </table>## Additional requirements

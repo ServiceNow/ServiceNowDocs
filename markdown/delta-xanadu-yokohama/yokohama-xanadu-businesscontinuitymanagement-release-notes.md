@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-businesscontinuitymanagement-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 7
+last_updated: "2026-10-08"
+reading_time_minutes: 8
 breadcrumb: [Products combined by family]
 ---
 
@@ -158,6 +158,25 @@ Yokohama
 </td><td>
 
 -   **[Using latest assessment for conducting BIAs](https://www.servicenow.com/docs/access?context=using-smart-asmt-template&family=yokohama&ft:locale=en-US)**
+    -   The BIA form displays the assessment questionnaire that is based on the latest assessment template. The **Assessments** tab in the BIA record page has been enhanced to eliminate repetitive UI actions and reduce large empty spaces. The latest assessment template includes additional question types such as drop-down, references, text, attachments, check boxes, date, time, and number value inputs.
+    -   The PDF template for the BIA has been updated to include the questions and answers that are based on the latest assessment template.
+-   **[Adopting UIB page for improved performance](https://www.servicenow.com/docs/access?context=crisis-map-migration&family=yokohama&ft:locale=en-US)**
+
+The enhancements to the Crisis map user interface are:
+
+    -   Alerts are displayed in the side panel of the Crisis map application.
+    -   The alert details page includes the **Open alert** and **Dismiss alert** UI actions, which enable you to either open or dismiss alerts.
+    -   The active alerts can be sorted by using the **Severity**, **Created**, **Updated** fields, and can also be toggled from top-to-bottom or bottom-to-top by using the Toggle option.
+    -   The alerts display can be updated with the Refresh icon \[Omitted image "image.refresh-icon"\] Alt text: Refresh icon..
+    -   The active and dismissed alerts are now displayed on the Alerts page.
+-   **[Using nested plans](https://www.servicenow.com/docs/access?context=creating-nested-plan-in-event&family=yokohama&ft:locale=en-US)**
+
+The enhancements to the nested plans user interface are:
+
+    -   The hierarchical view shows the nested event tasks.
+    -   The progress bar displays the progress of the creation of related plans, event assets, or event tasks.
+
+ -   **[Using latest assessment for conducting BIAs](https://www.servicenow.com/docs/access?context=using-smart-asmt-template&family=yokohama&ft:locale=en-US)**
 
 You can use the latest assessment template to conduct the Business Impact Analysis \(BIA\).
 
@@ -250,7 +269,12 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Install Business Continuity Management by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
+
+**Important:** Business Continuity Management is available in ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -313,12 +337,14 @@ Yokohama
 
 </td><td>
 
+-   **Browser requirements**
+
 Business Continuity Management requires the following browsers:
 
--   Google Chrome
--   Firefox and Firefox Extended Support Release \(ESR\)
--   Microsoft Edge Chromium
--   Safari 12.0 and later versions
+    -   Google Chrome
+    -   Firefox and Firefox Extended Support Release \(ESR\)
+    -   Microsoft Edge Chromium
+    -   Safari 12.0 and later versions
 
 </td></tr></tbody>
 </table>## Accessibility information
@@ -354,7 +380,10 @@ Yokohama
 
 </td><td>
 
+-   **Accessibility information**
+
 Various accessibility issues in the Crisis map application have been resolved with the implementation of the Geomap \[sn\_geo\_map\] component, which has replaced the FAM Map \[sn-fam-map\] component.
+
 
 </td></tr></tbody>
 </table>## Localization information

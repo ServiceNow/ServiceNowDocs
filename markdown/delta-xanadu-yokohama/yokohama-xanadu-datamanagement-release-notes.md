@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-datamanagement-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -46,9 +46,10 @@ Yokohama
 
 </td><td>
 
--   After upgrading a self-hosted instance to Yokohama, the sys\_physical\_table\_stats table doesn't display the latest data for table size, with the sample\_period\_start column showing dates prior to the upgrade. To see the correct table size, you can set the com.glide.stats.storage\_disk\_usage.information\_schema system property to true, which allows the statsGatherer job to use the information schema to generate the required database statistics.
+-   **Upgrade information**
+    -   After upgrading a self-hosted instance to Yokohama, the sys\_physical\_table\_stats table doesn't display the latest data for table size, with the sample\_period\_start column showing dates prior to the upgrade. To see the correct table size, you can set the com.glide.stats.storage\_disk\_usage.information\_schema system property to true, which allows the statsGatherer job to use the information schema to generate the required database statistics.
 
--   A data management policy record is automatically created for each table that is configured with an archive rule or a table cleaner rule prior to the upgrade.
+    -   A data management policy record is automatically created for each table that is configured with an archive rule or a table cleaner rule prior to the upgrade.
 
 </td></tr></tbody>
 </table>## New features
@@ -218,7 +219,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Data Management is a ServiceNow AI Platform feature that is active by default.
+
 
 </td></tr></tbody>
 </table>## Additional requirements

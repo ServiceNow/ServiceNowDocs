@@ -145,7 +145,7 @@ Include if customer is using a 3rd party development partner, and that partner i
 Install the following in advance:
 
 -   [AI Search](https://www.servicenow.com/docs/access?version=latest&topicname=administer/ai-search/concept/overview-ais.html), and ideally, [Now Assist in AI Search](https://www.servicenow.com/docs/access?version=latest&topicname=administer/ai-search/concept/overview-ais.html)
--   [Virtual Agent \(NLU\)](https://www.servicenow.com/docs/access?version=latest&topicname=administer/virtual-agent/concept/virtual-agent-landing-page.html) or [Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/now-assist-in-va-landing.md)
+-   [Virtual Agent \(NLU\)](https://www.servicenow.com/docs/access?version=latest&topicname=administer/virtual-agent/concept/virtual-agent-landing-page.html) or 
 -   [Conversational catalog overview dashboard](https://www.servicenow.com/docs/access?version=latest&topicname=product/service-catalog-management/concept/using-catalog-conversational-experience.html)
 
     **Note:** If you've installed Now Assist for conversation request submission plugin, you get the Catalog Conversational Experience plugin \(sn\_catalog\_con\_cov\) by default.

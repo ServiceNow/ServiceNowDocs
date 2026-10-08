@@ -34,15 +34,15 @@ Role required: None
 
     Some connectors expose the methods at the connector level while the others expose the methods at multiple levels. For the latter, you must first configure the connector. To find a connector that needs configuration first, right-click the connector and see if the context-menu displays the **Configure** option.
 
-<table id="choicetable_vy3_55j_tsb"><thead><tr><th align="left" id="d429159e91">
+<table id="choicetable_vy3_55j_tsb"><thead><tr><th align="left" id="d429013e91">
 
 Number of levels
 
-</th><th align="left" id="d429159e94">
+</th><th align="left" id="d429013e94">
 
 Step
 
-</th></tr></thead><tbody><tr><td id="d429159e100">
+</th></tr></thead><tbody><tr><td id="d429013e100">
 
 **Connector**
 
@@ -50,7 +50,7 @@ Step
 
 Double-click the connector.
 
-</td></tr><tr><td id="d429159e109">
+</td></tr><tr><td id="d429013e109">
 
 **Multiple**
 

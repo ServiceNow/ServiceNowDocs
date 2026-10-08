@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-benchmarks-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -78,10 +78,11 @@ Yokohama
 
 </td><td>
 
--   The new KPI **Knowledge Articles created using Now Assist** is added to Productivity moments. This primary indicator shows how many knowledge base articles are created using Now Assist in a given period of time.
--   Leverage benchmarking for HRSM indicators to evaluate your performance in comparison to your peers.
 -   New KPIs are added to the Call deflection - percentage. These new KPIs help you understand the number of Incidents that are created using Proactive Engagement and Digital End-User Experience self service.
 -   New KPI is added to the self-solved percentage. This new KPI shares the number of times the issue is resolved using the Digital End-User Experience self service channels like Desktop Assistant, Now Assist panel, and Employee portal.
+
+ -   The new KPI **Knowledge Articles created using Now Assist** is added to Productivity moments. This primary indicator shows how many knowledge base articles are created using Now Assist in a given period of time.
+-   Leverage benchmarking for HRSM indicators to evaluate your performance in comparison to your peers.
 
 </td></tr></tbody>
 </table>## Changes
@@ -197,7 +198,12 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Benchmarks is a ServiceNow AI Platform feature that is active by default. The new Benchmarks dashboard is automatically installed with Yokohama and is available from the ServiceNow Store.
+
+
+**Important:** Benchmarks is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -347,7 +353,7 @@ Yokohama
 1.  Experience the new Key Performance Indicator \(KPI\) for Now Assist under Productivity moments per user of ITSM Benchmarks to understand the benefits of Now Assist features like Knowledge Article generation.
 2.  Benchmark the all new HRSM indicator to help evaluate the performance in comparison to your peers.
 
- See [Benchmarks](https://www.servicenow.com/docs/access?context=r_Benchmarks&family=yokohama&ft:locale=en-US) for more information.
+ See [\[Placeholder link text to key bundle-itsm.r\_Benchmarks\]](https://www.servicenow.com/docs/access?context=r_Benchmarks&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/delta-xanadu-yokohama/rn-combined-intro.md)

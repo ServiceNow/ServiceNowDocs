@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-itomcloudaccelerate-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 4
+last_updated: "2026-10-08"
+reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
 
@@ -75,10 +75,7 @@ Yokohama
 
 </td><td>
 
--   **[Cloud Account Management](https://www.servicenow.com/docs/access?context=cam-landing&family=yokohama&ft:locale=en-US)**
-
-Cloud Account Management is the first feature from ITOM Cloud Accelerate in the Cloud Workspace application that brings together ServiceNow cloud solutions in a unified experience as part of the Cloud Governance Suite.
-
+No updates for this release.
 
 </td></tr></tbody>
 </table>## Changes
@@ -112,10 +109,7 @@ Yokohama
 
 </td><td>
 
--   **[Cloud Provisioning and Governance: Terraform Connector](https://www.servicenow.com/docs/access?context=cpg-terraform-connector-landing-page&family=yokohama&ft:locale=en-US)**
-
-Cloud Provisioning and Governance: Terraform Connector has been renamed
-
+No updates for this release.
 
 </td></tr></tbody>
 </table>## Removed
@@ -173,8 +167,7 @@ Yokohama
 
 </td><td>
 
--   Support for Cloud Provisioning and Governance: Google Cloud Connector has been removed. If you are on a legacy release, you cannot continue to use the Google Cloud Connector but you can use the Cloud Services Catalog Terraform Connector.
--   Support for Cloud Migration Assessment has been removed.
+No updates for this release.
 
 </td></tr></tbody>
 </table>## Activation information
@@ -197,9 +190,9 @@ Xanadu
 
 The ITOM Cloud Accelerate features are available as an application with the activation of the Cloud Accelerate plugin, which requires a Cloud Governance subscription. Contact your ServiceNow sales representative to procure the ITOM Cloud Accelerate entitlement.
 
- The [https://servicenow.com/docs/bundle/xanadu-it-operations-management/page/product/cloud-services-catalog/concept/csc-home.html](https://servicenow.com/docs/bundle/xanadu-it-operations-management/page/product/cloud-services-catalog/concept/csc-home.html) application is available with the [ITOM Cloud Accelerate](https://servicenow.com/docs/csh?topicname=cloud-governance&version=xanadu&pubname=xanadu-it-operations-management) entitlements. Alternatively, you can install it by requesting them from [https://store.servicenow.com/sn\_appstore\_store.do\#!/store/application/bc3429fc24e02910f877b722d6bbdcaf](https://store.servicenow.com/sn_appstore_store.do#!/store/application/bc3429fc24e02910f877b722d6bbdcaf).
+ The [Cloud Services Catalog](https://www.servicenow.com/docs/access?context=csc-home&family=xanadu&ft:locale=en-US) application is available with the [ITOM Cloud Accelerate](https://www.servicenow.com/docs/access?context=cloud-governance&version=xanadu) entitlements. Alternatively, you can install it by requesting them from [https://store.servicenow.com/sn\_appstore\_store.do\#!/store/application/bc3429fc24e02910f877b722d6bbdcaf](https://store.servicenow.com/sn_appstore_store.do#!/store/application/bc3429fc24e02910f877b722d6bbdcaf).
 
- You must have Employee Center as a prerequisite to launch and use the [Cloud Service Catalog](https://servicenow.com/docs/csh?topicname=csc-home&version=xanadu&pubname=xanadu-it-operations-management) application.
+ You must have Employee Center as a prerequisite to launch and use the [Cloud Service Catalog](https://www.servicenow.com/docs/access?context=csc-home&version=xanadu) application.
 
 </td></tr><tr><td>
 
@@ -207,7 +200,12 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 The ITOM Cloud Accelerate features are available as an application at [Cloud Accelerate](https://store.servicenow.com/sn_appstore_store.do#!/store/search?listingtype=allintegrations%253Bancillary_app%253Bcertified_apps%253Bcontent%253Bindustry_solution%253Boem%253Butility%253Btemplate%253Bgenerative_ai%253Bsnow_solution&q=cloud%20governance), which is available on the ServiceNow Store. Contact your ServiceNow sales representative to procure the ITOM Cloud Accelerate entitlement. For details, see [Request the Cloud Provisioning and Governance application](https://www.servicenow.com/docs/access?context=request-plugin-cloud-mgt&family=yokohama&ft:locale=en-US).
+
+
+**Important:** ITOM Cloud Accelerate is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -361,9 +359,11 @@ Cloud Workspace highlights:
 -   The new Cloud Workspace application has includes a new feature called Cloud Account Management, which automates account creation, improves transparency, and integrates policy-based governance and certification processes, enhancing efficiency and control across multiple cloud platforms.
 -   Support for AWS account and Azure subscription requests via direct API integrations or Terraform and GitHub integrations.
 
-Performance enhancements for the predefined catalog items in CSC Content Pack.
+ Cloud Services Catalog highlight:
 
-See [Cloud Governance](https://www.servicenow.com/docs/access?context=cloud-governance&family=yokohama&ft:locale=en-US) for more information.
+ Performance enhancements for the predefined catalog items in CSC Content Pack.
+
+ See [Cloud Governance](https://www.servicenow.com/docs/access?context=cloud-governance&family=yokohama&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/delta-xanadu-yokohama/rn-combined-intro.md)

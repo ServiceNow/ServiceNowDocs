@@ -27,9 +27,7 @@ Role required: sn\_ext\_conn.xcc\_admin
 
 1.  Navigate to **All** &gt; **External Content Connectors** &gt; **External Content Admin Home**.
 
-2.  If prompted, select **Switch scope** to switch to the External Content Connectors Admin scope.
-
-    You must be in this scope to create or edit external content connectors.
+2.  If prompted to switch scope, select **Switch scope** and select the application scope specified in the prompt.
 
 3.  In the Connectors section, select **New**.
 

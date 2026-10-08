@@ -79,7 +79,7 @@ Condition under which the mobile UI rule is used. If the **Condition** field is 
 
  For example, to trigger this UI rule when a particular input changes, use the **VALCHANGES** operator. Entering `urgencyVALCHANGES` in the **Condition** field causes the UI rule to be triggered only when the value of an input named **urgency** changes.
 
- For details on the operators available for your condition, see [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/r_OpAvailableFiltersQueries.md).
+ For details on the operators available for your condition, see .
 
 </td></tr><tr><td>
 
@@ -158,7 +158,7 @@ Condition under which the mobile UI rule is used. If the **Condition** field is 
 
  For example, to trigger this UI rule when a particular input changes, use the **VALCHANGES** operator. Entering `urgencyVALCHANGES` in the **Condition** field causes the UI rule to be triggered only when the value of an input named **urgency** changes.
 
- For details on the operators available for your condition, see [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/r_OpAvailableFiltersQueries.md).
+ For details on the operators available for your condition, see .
 
 </td></tr><tr><td>
 
@@ -192,7 +192,7 @@ Make sure that at least one of the **Triggers** is set to **onChange**.
 
 7.  Write the client script in the **Client script** field.
 
-    Client scripts use the m\_form object and the MobileScriptIncludeCaller class. For details on these JavaScript APIs, see [MobileScriptIncludeCaller - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/cllent-mobile-api-reference/MobileScriptInclCallerClientAPI.md) and [m\_form - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/cllent-mobile-api-reference/m_formClientAPI.md) in the API reference documentation.
+    Client scripts use the m\_form object and the MobileScriptIncludeCaller class. For details on these JavaScript APIs, see  and  in the API reference documentation.
 
     When writing the client script, be aware of the following points:
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/using-now-assist-analytics.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-30"
 reading_time_minutes: 1
 keywords: [Now Assist Analytics, dashboard, GenAI, GenerativeAI, sn\_na\_analytics\_admin, sn\_na\_analytics\_viewer]
 breadcrumb: [Analyzing Now Assist performance, Now Assist, Enable AI experiences]
@@ -15,7 +15,7 @@ breadcrumb: [Analyzing Now Assist performance, Now Assist, Enable AI experiences
 
 The AI Analytics dashboard provides indicators and breakdowns that help monitor the performance of generative AI features, capabilities, and skills active on your instance.
 
-Access the dashboard by navigating to **All** &gt; **Now Assist Admin** &gt; **Analytics**. You must have Now Assist Analytics Admin \[sn\_na\_analytics\_admin\] or Now Assist Analytics Viewer \[sn\_na\_analytics\_viewer\] role to view the dashboard. The following sections explain the dashboard pages in more detail.
+Access the dashboard by navigating to **All** &gt; **Now Assist Admin** &gt; **Analytics**. You must have Now Assist Analytics Admin \[sn\_na\_analytics.admin\] or Now Assist Analytics Viewer \[sn\_na\_analytics.viewer\] role to view the dashboard. The following pages explain the available boards in more detail.
 
 -   **[Usage and adoption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/usage-and-adoption.md)**  
 The Usage and adoption dashboard page contains key usage and performance indicators that help you evaluate the adoption of Now Assist in your organization.

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-sourcingandprocurementoperations-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 14
 breadcrumb: [Products combined by family]
 ---
@@ -67,18 +67,18 @@ Xanadu
 
 </td><td>
 
--   **[Now Assist for Sourcing and Procurement Operations \(SPO\)](https://www.servicenow.com/docs/access?context=now-assist-spo&family=xanadu&ft:locale=en-US)**
+-   **[ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://www.servicenow.com/docs/access?context=now-assist-spo&family=xanadu&ft:locale=en-US)**
 
-With Now Assist for Sourcing and Procurement Operations \(SPO\), fulfillers can easily summarize procurement-related records, providing real-time progress updates and action items. Available summarization skills include:
+With ServiceNow Otto for Sourcing and Procurement Operations \(SPO\), fulfillers can easily summarize procurement-related records, providing real-time progress updates and action items. Available summarization skills include:
 
     -   Sourcing request summarization
     -   Purchase requisition summarization
     -   Procurement case summarization
 If you're entitled to Source-to-Pay Operations Pro SKU and Sourcing and Procurement Operations Pro SKU, you can install this application.
 
--   **[Request the generative AI capabilities by using the Now Assist for SPO Virtual Agent](https://www.servicenow.com/docs/access?context=now-assist-spo-va-using&family=xanadu&ft:locale=en-US)**
+-   **[Request the generative AI capabilities by using the ServiceNow Otto for SPO Virtual Agent](https://www.servicenow.com/docs/access?context=now-assist-spo-va-using&family=xanadu&ft:locale=en-US)**
 
-Requesters can leverage contextual generative AI using the Now Assist for SPO Virtual Agent to complete self-service tasks, such as purchasing products or tracking the status of purchase requisitions, sourcing requests, or procurement cases.
+Requesters can leverage contextual generative AI using the ServiceNow Otto for SPO Virtual Agent to complete self-service tasks, such as purchasing products or tracking the status of purchase requisitions, sourcing requests, or procurement cases.
 
 -   **[Log in to Shopping Hub for the first time](https://www.servicenow.com/docs/access?context=login-shoppinghub-first-time&family=xanadu&ft:locale=en-US)**
 
@@ -151,31 +151,8 @@ Enter the spend and savings data for the sourcing event associated with the pipe
 
 Create a pipeline project directly from an expiring contract using a guided, decision-based workflow.
 
--   **[Search for punchout products in Employee Center](https://www.servicenow.com/docs/access?context=ec-search-punchout-products&family=yokohama&ft:locale=en-US)**
 
-In Employee Center, you can search for punchout products directly using the AI search bar. After you search for a product, matching items from the third-party supplier's catalog are displayed on the **Supplier Site Catalog** tab.
-
--   **[Unified request tracking in Shopping Hub](https://www.servicenow.com/docs/access?context=sh-unified-request-tracking&family=yokohama&ft:locale=en-US)**
-
-From My Purchases in Shopping Hub, you can search purchased products or services using the original or associated procurement record IDs, tracking details from order to fulfillment. Additionally, you can use keywords or the first three letters of a procurement record type to search for and view your purchases.
-
--   **[Browse punchout and native catalog items from the Categories and Suppliers lists in SH](https://www.servicenow.com/docs/access?context=sh-browse-products&family=yokohama&ft:locale=en-US)**
-
-In Shopping Hub, you can view both the punchout products and the natively available products from the Categories or the Suppliers list on the Shopping Hub home page.
-
--   **[Map Product Categories and Units of Measure for Seamless Checkout](https://www.servicenow.com/docs/access?context=product-category-mapping-shoppinghub&family=yokohama&ft:locale=en-US)**
-
-You can map the product categories and units of measure for third-party products to the corresponding model categories. This capability helps to ensure that during checkout, Shopping Hub accurately considers and displays the product category for the purchase order lines \(POL\) and purchase requisition lines \(PRL\) based on your predefined mappings.
-
--   **[Submit an edit receipt request from Shopping Hub](https://www.servicenow.com/docs/access?context=submit-edit-receipt-request&family=yokohama&ft:locale=en-US)**
-
-Shoppers can submit edit receipt requests from Shopping Hub to correct discrepancies in accepted receipts, ensuring accurate updates to purchase orders, purchase order lines, and received quantities.
-
--   **[Process an edit receipt request in playbook](https://www.servicenow.com/docs/access?context=playbook-process-edit-receipt&family=yokohama&ft:locale=en-US)**
-
-Fulfillers can review the edit receipt requests and either confirm or reject them. If the request is valid, they can process the request using the Edit a Receipt playbook in the Source-to-Pay Workspace.
-
--   **[Edit purchase requisitions with cost allocation adjustments](https://www.servicenow.com/docs/access?context=edit-purchase-cost-allocation&family=yokohama&ft:locale=en-US)**
+ -   **[Edit purchase requisitions with cost allocation adjustments](https://www.servicenow.com/docs/access?context=edit-purchase-cost-allocation&family=yokohama&ft:locale=en-US)**
 
 Shoppers can modify purchase requisitions \(PRs\) and purchase orders \(POs\) while maintaining cost allocation across multiple cost centers.
 
@@ -191,9 +168,9 @@ Shoppers can now initiate replacements for goods directly from the Shopping Hub/
 
 Extract metadata from a signed contract attached in a contract repository record and analyze a contract document with agentic AI to identify non-standard and missing clauses.
 
--   **[Now Assist for Sourcing and Procurement Operations \(SPO\)](https://www.servicenow.com/docs/access?context=now-assist-spo&family=yokohama&ft:locale=en-US)**
+-   **[ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://www.servicenow.com/docs/access?context=now-assist-spo&family=yokohama&ft:locale=en-US)**
 
-Activate the following new skills for Now Assist for SPO:
+Activate the following new skills for ServiceNow Otto for SPO:
 
     -   Negotiation summarization for fulfillers: Summarize negotiations to keep fulfillers informed on their current status, progress, and action items.
     -   Negotiation event summarization for fulfillers: Summarize negotiation events to keep fulfillers informed on their current status, progress, and action items.
@@ -228,6 +205,31 @@ Use Now Assist for Common Finance and Supply Chain features to summarize purchas
 -   **[Use agentic workflows](https://www.servicenow.com/docs/access?context=agentic-ai-now-assist-spo&family=yokohama&ft:locale=en-US)**
 
 Use agentic workflows for Sourcing and Procurement Operations to fulfill your procurement needs through intelligent product recommendations, guided checkout and off-catalog purchasing processes, and detailed product information. These workflows also help answer procurement-related questions and efficiently track associated records.
+
+
+ -   **[Search for punchout products in Employee Center](https://www.servicenow.com/docs/access?context=ec-search-punchout-products&family=yokohama&ft:locale=en-US)**
+
+In Employee Center, you can search for punchout products directly using the AI search bar. After you search for a product, matching items from the third-party supplier's catalog are displayed on the **Supplier Site Catalog** tab.
+
+-   **[Unified request tracking in Shopping Hub](https://www.servicenow.com/docs/access?context=sh-unified-request-tracking&family=yokohama&ft:locale=en-US)**
+
+From My Purchases in Shopping Hub, you can search purchased products or services using the original or associated procurement record IDs, tracking details from order to fulfillment. Additionally, you can use keywords or the first three letters of a procurement record type to search for and view your purchases.
+
+-   **[Browse punchout and native catalog items from the Categories and Suppliers lists in SH](https://www.servicenow.com/docs/access?context=sh-browse-products&family=yokohama&ft:locale=en-US)**
+
+In Shopping Hub, you can view both the punchout products and the natively available products from the Categories or the Suppliers list on the Shopping Hub home page.
+
+-   **[Map Product Categories and Units of Measure for Seamless Checkout](https://www.servicenow.com/docs/access?context=product-category-mapping-shoppinghub&family=yokohama&ft:locale=en-US)**
+
+You can map the product categories and units of measure for third-party products to the corresponding model categories. This capability helps to ensure that during checkout, Shopping Hub accurately considers and displays the product category for the purchase order lines \(POL\) and purchase requisition lines \(PRL\) based on your predefined mappings.
+
+-   **[Submit an edit receipt request from Shopping Hub](https://www.servicenow.com/docs/access?context=submit-edit-receipt-request&family=yokohama&ft:locale=en-US)**
+
+Shoppers can submit edit receipt requests from Shopping Hub to correct discrepancies in accepted receipts, ensuring accurate updates to purchase orders, purchase order lines, and received quantities.
+
+-   **[Process an edit receipt request in playbook](https://www.servicenow.com/docs/access?context=playbook-process-edit-receipt&family=yokohama&ft:locale=en-US)**
+
+Fulfillers can review the edit receipt requests and either confirm or reject them. If the request is valid, they can process the request using the Edit a Receipt playbook in the Source-to-Pay Workspace.
 
 
 </td></tr></tbody>
@@ -320,7 +322,7 @@ Yokohama
 
 </td><td>
 
-The **All categories** option has been removed from the **Categories** tab in Shopping Hub due to low usage and its impact on system performance.
+No updates for this release.
 
 </td></tr></tbody>
 </table>## Deprecations
@@ -355,7 +357,7 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+The **All categories** option has been removed from the **Categories** tab in Shopping Hub due to low usage and its impact on system performance.
 
 </td></tr></tbody>
 </table>## Activation information
@@ -384,7 +386,12 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Install Sourcing and Procurement Operations by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
+
+**Important:** Sourcing and Procurement Operations is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -521,7 +528,7 @@ Xanadu
 
 </td><td>
 
--   Summarize procurement records using Now Assist for SPO and use generative AI to perform common tasks via the Now Assist for SPOVirtual Agent.
+-   Summarize procurement records using ServiceNow Otto for SPO and use generative AI to perform common tasks via the ServiceNow Otto for SPOVirtual Agent.
 -   Use AI-powered search across internal and external supplier products, and streamlined checkout for third-party items.
 -   Configure conditions for automatic and manual PR merging.
 -   Use AI-powered search across internal and external supplier products, and streamlined checkout for third-party items in Shopping Hub.

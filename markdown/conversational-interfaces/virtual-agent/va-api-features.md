@@ -16,7 +16,7 @@ breadcrumb: [Using Virtual Agent API, Building and deploying Virtual Agent, Virt
 
 You can use the Virtual Agent API to integrate many of the same features that are available in Virtual Agent and Agent Chat into your chat environment. Feature support varies depending on your ServiceNow release and the Store app version number of the API.
 
-For information about the request and response templates for Virtual Agent API, as well as examples of common use cases, see [Virtual Agent Bot Integration API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/bot-api.md).
+For information about the request and response templates for Virtual Agent API, as well as examples of common use cases, see Virtual Agent Bot Integration API.
 
 ## Key features
 
@@ -45,7 +45,7 @@ The main features in Virtual Agent API starting with version 1.0.9 include the f
 
     -   **completed**: Sent when the conversation with Virtual Agent or a live agent is finished.
     -   **takeControl**: Sent when the primary bot must take control. This typically occurs when Virtual Agent can't determine the conversation intent after two consecutive attempts \(the default value\). You can add the **va.bot.to.bot.take.control\_times** system property to change the default number of attempts that Virtual Agent tries to determine the conversation intent.
-    For more information, see [Virtual Agent Bot Integration API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/bot-api.md).
+    For more information, see Virtual Agent Bot Integration API.
 
 -   **Changes with intents**
     -   Share the NLU confidence score for an intent match if NLU is enabled in Virtual Agent.

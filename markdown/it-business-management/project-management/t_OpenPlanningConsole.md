@@ -24,15 +24,15 @@ Role required: it\_project\_manager
 
 -   Open the planning console using any of the following methods.
 
-<table id="choicetable_tt5_jhn_sdb"><thead><tr><th align="left" id="d239165e68">
+<table id="choicetable_tt5_jhn_sdb"><thead><tr><th align="left" id="d239168e68">
 
 Option
 
-</th><th align="left" id="d239165e71">
+</th><th align="left" id="d239168e71">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d239165e77">
+</th></tr></thead><tbody><tr><td id="d239168e77">
 
 **From project workspace**
 
@@ -42,7 +42,7 @@ Steps
 2.  Select the **Planning** tab.
 
 
-</td></tr><tr><td id="d239165e105">
+</td></tr><tr><td id="d239168e105">
 
 **From a project record**
 
@@ -52,7 +52,7 @@ Steps
 2.  Select the **Planning Console** related link.
 
 
-</td></tr><tr><td id="d239165e129">
+</td></tr><tr><td id="d239168e129">
 
 **From Project Workbench**
 

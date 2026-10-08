@@ -54,7 +54,7 @@ You can also create a feedback record and link it with an idea or planning items
 
 ## Product idea
 
-A product idea is a solution or improvement that is developed based on one or multiple feedback records, ensuring it benefits all the customers. Assess and prioritize the product idea or link it to another planning item \(epic, demand, or project\).​ Manage your product ideas and create a custom lens using the product ideas in Strategic Planning. Get an overview of product ideas, number of product ideas linked to the feedback, latest ideas, and planning state of the ideas. Use the filters at the top of the page to view the product ideas.
+A product idea is a solution or improvement developed from one or more feedback records. Assess and prioritize the product idea, or link it to a planning item such as an epic, demand, or project. Manage product ideas and create a custom lens using the product ideas in Strategic Planning. Get an overview of product ideas, the number linked to feedback, the latest ideas, and their planning state. Use the filters to view the product ideas.
 
 ## Product ideas List view
 
@@ -201,7 +201,7 @@ Provides a centralized location for product managers to organize, store, and col
 -   Tag or mention specific users within the documentation component.
 -   Mention a record to create a direct link of the record within the documentation component.
 -   Insert table, images, links and so on.
--   Generate a summary of selected text in Docs using Planning item Gen AI Docs skill. For more information, see [Summarize content with doc summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/product-feedback/summarize-docs-genai-skill-pf.md).
+-   Generate a summary of selected text in Docs using Planning item Gen AI Docs skill. For more information, see [Summarize content with the doc summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/product-feedback/summarize-docs-genai-skill-pf.md).
 
 </td></tr></tbody>
 </table>**Related topics**  

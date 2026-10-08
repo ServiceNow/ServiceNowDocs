@@ -79,5 +79,5 @@ Select the date and time to activate the plugin.
 **Related topics**  
 
 
-[List of plugins \(Yokohama\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/list-of-plugins.md)
+[bundle-platadm.list-of-plugins]
 

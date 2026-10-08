@@ -7,7 +7,7 @@ release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -20,7 +20,10 @@ Export the status of goals, work items, roadmap, and key metrics of your portfol
 
 [Install Export to PowerPoint for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/export-to-powerpoint-for-application-portfolio-management/install-export-to-ppt.md).
 
-**Important:** Export to PowerPoint is currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. Please check for availability updates in future releases.
+**Important:** Availability of Export to PowerPoint:
+
+-   For general customers: Available for all customers
+-   For regulated customers: Supported on GCC, NSC, SPP-AU, SPP-SG, and Australia IRAP-Protected data centers
 
 Role required: admin
 
@@ -42,15 +45,15 @@ You can customize the type of the data to be shown in the generated report by up
 
 2.  Export the status of goals, work items, roadmap, and key metrics of your portfolio plan and free-form roadmap into a Microsoft PowerPoint file.
 
-<table id="choicetable_qzs_rly_zbc"><thead><tr><th align="left" id="d249562e152">
+<table id="choicetable_qzs_rly_zbc"><thead><tr><th align="left" id="d249062e164">
 
 For exporting this data
 
-</th><th align="left" id="d249562e155">
+</th><th align="left" id="d249062e167">
 
 Perform these steps
 
-</th></tr></thead><tbody><tr><td id="d249562e161">
+</th></tr></thead><tbody><tr><td id="d249062e173">
 
 **Portfolio plan, goals, or roadmap with default settings**
 
@@ -67,7 +70,7 @@ Perform these steps
 
 **Note:** The **Roadmap Template - default** option appears only when you select **Export to PowerPoint** from the Scoring or Planning page.
 
-</td></tr><tr><td id="d249562e226">
+</td></tr><tr><td id="d249062e238">
 
 **Roadmap or free-form roadmap with customized settings**
 

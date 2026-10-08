@@ -25,8 +25,9 @@ Role required: none
 
 Informer pod memory consumption depends mainly on the number of resources contained in the cluster. Memory limit defines the maximum memory the informer container is allowed to use, while memory request defines how much memory to reserve when scheduling the informer pod. Set the Informer pod's memory request and the Informer pod’s memory limit to at least \(number of pods\)/8MB, with a default minimum of 200MB. Memory request must not exceed the memory limit. For example:
 
+| | | | |
+|---|---|---|---|
 |Estimated pod count|1000|5000|30000|
-|-------------------|----|----|-----|
 |Minimum memory limit|200Mi|625Mi|3.75Gi|
 |Memory request|200Mi|625Mi|3.75Gi|
 
@@ -66,7 +67,7 @@ Informer pod memory consumption depends mainly on the number of resources contai
 
         **Note:**
 
-        Setting `memoryRequest` equal to `memoryLimit` reserves exactly the memory your ACC agent needs. It prevents the ACC agent from being shut down if the system runs low on memory. This guarantees stable, uninterrupted agent operation. But if you leave memoryRequest at the default 200Mi while setting a higher memoryLimit \(such as 625Mi\), the pod is burstable — it schedules against 200Mi but can grow to 625Mi.
+        Setting `memoryRequest` equal to `memoryLimit` reserves exactly the memory your ACC agent needs. It prevents the ACC agent from being shut down if the system runs low on memory. This guarantees stable, uninterrupted agent operation. If you leave memoryRequest at the default 200Mi while setting a higher memoryLimit \(such as 625Mi\), the pod is burstable. It schedules against 200Mi but can grow to 625Mi.
 
 
 **Parent Topic:**[Install Kubernetes Visibility Agent \(KVA\) Informer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/cnov-deploy-install.md)

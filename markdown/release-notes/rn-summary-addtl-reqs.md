@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/rn-summary-addtl-reqs.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 6
 breadcrumb: [Release notes summaries for Yokohama features, Release notes for upgrading from Xanadu, Learn about the Yokohama release, Yokohama release notes]
 ---
@@ -45,11 +45,33 @@ You should have the following dependencies installed:
 
 </td></tr><tr><td>
 
+Advanced AI Search Management Tools
+
+</td><td>
+
+-   ****
+
+You must have the User Experience Analytics API application installed from the ServiceNow Store to use Advanced AI Search Management Tools.
+
+
+</td></tr><tr><td>
+
 Creator Studio
 
 </td><td>
 
 You must have the App Engine Enterprise license to use Creator Studio.
+
+</td></tr><tr><td>
+
+External Content Connectors
+
+</td><td>
+
+-   ****
+
+Your instance needs inbound mTLS support to run external content connector crawls. If inbound mTLS support isn't already activated for your instance, it should be automatically activated after you install the External Content Connectors Application Suite plugin.
+
 
 </td></tr><tr><td>
 
@@ -263,7 +285,7 @@ ServiceNow SDK
 
 </td><td>
 
-You must have Node.js and Node Package Manager \(npm\) installed to install the ServiceNow SDK. For more information, see .
+You must have Node.js and Node Package Manager \(npm\) installed to install the ServiceNow SDK. For more information, see [Install the ServiceNow SDK in an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/install-servicenow-sdk.md).
 
 </td></tr><tr><td>
 

@@ -30,7 +30,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-SAP Ariba spoke v1.15.0 is the latest version.
+SAP Ariba spoke v1.15.1 is the latest version.
 
 ## Supported versions
 

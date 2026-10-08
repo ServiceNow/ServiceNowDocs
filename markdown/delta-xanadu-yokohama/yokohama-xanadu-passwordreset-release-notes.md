@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-passwordreset-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 2
 breadcrumb: [Products combined by family]
 ---
@@ -139,7 +139,7 @@ Yokohama
 
 </td><td>
 
-Password Reset workflows are deprecated and have been replaced by flows in the base system for most users. zBoot users must still use the Password Reset flows.
+No updates for this release.
 
 </td></tr></tbody>
 </table>## Deprecations
@@ -168,7 +168,7 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+Password Reset workflows are deprecated and have been replaced by flows in the base system for most users. zBoot users must still use the Password Reset flows.
 
 </td></tr></tbody>
 </table>## Activation information
@@ -197,7 +197,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Password Reset is a ServiceNow AI Platform feature that is active by default.
+
 
 </td></tr></tbody>
 </table>## Additional requirements

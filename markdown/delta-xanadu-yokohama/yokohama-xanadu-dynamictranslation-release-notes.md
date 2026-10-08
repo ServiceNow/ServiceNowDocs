@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-dynamictranslation-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -150,7 +150,7 @@ Yokohama
 
 </td><td>
 
-The spoke for IBM Watson Translator Service for IBM Cloud \(com.glide.ibm\_translation\_spoke\) is no longer available because IBM has withdrawn this translation service. For more information, see [IBM Watson Language Translator Service spoke](https://www.servicenow.com/docs/access?context=ibm-translation-spoke&family=yokohama&ft:locale=en-US).
+No updates for this release.
 
 </td></tr></tbody>
 </table>## Deprecations
@@ -179,7 +179,7 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+The spoke for IBM Watson Translator Service for IBM Cloud \(com.glide.ibm\_translation\_spoke\) is no longer available because IBM has withdrawn this translation service. For more information, see [IBM Watson Language Translator Service spoke](https://www.servicenow.com/docs/access?context=ibm-translation-spoke&family=yokohama&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Activation information

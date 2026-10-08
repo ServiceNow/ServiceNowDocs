@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-quotemanagement-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
@@ -100,17 +100,17 @@ Create a new sales agreement or apply an existing sales agreements to a quote. W
 Agents gain visibility into the price adjustments that were applied to the base and list price of the product ordered. This provides sales agent the visibility of how the net price is determined.
 
 
--   **[Quote PDF documents generation](https://www.servicenow.com/docs/access?context=quote-create-pdf-document&family=yokohama&ft:locale=en-US)**
+ -   **[Quote PDF documents generation](https://www.servicenow.com/docs/access?context=quote-create-pdf-document&family=yokohama&ft:locale=en-US)**
 
 Generate a quote PDF document. Quote PDF documents can have designated signers and be emailed to customers for signatures through Docusign. Customers can also create PDF templates that reflect customer branding and logos.
 
 
--   **[Hierarchical quote line list view](https://www.servicenow.com/docs/access?context=quote-management-view-hierarchical-line-items&family=yokohama&ft:locale=en-US)**
+ -   **[Hierarchical quote line list view](https://www.servicenow.com/docs/access?context=quote-management-view-hierarchical-line-items&family=yokohama&ft:locale=en-US)**
 
 View quote lines as a hierarchical list. Agents can then view parent and child relationships for quote line items.
 
 
--   **[Product offer recommendations for quotes](https://www.servicenow.com/docs/access?context=quote-get-product-offer&family=yokohama&ft:locale=en-US)**
+ -   **[Product offer recommendations for quotes](https://www.servicenow.com/docs/access?context=quote-get-product-offer&family=yokohama&ft:locale=en-US)**
 
 Enable your agents to get product offer recommendations that complement or supplement existing products within a quote.
 
@@ -234,11 +234,14 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Install Quote Management by requesting it from the ServiceNow Store.
 
- To add Docusign plugin to the Quote Management PDF document function, use the Docusign eSignature Spoke plugin \(sn\_docusign\_spoke\).
+To add Docusign plugin to the Quote Management PDF document function, use the Docusign eSignature Spoke plugin \(sn\_docusign\_spoke\).
 
- Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements
