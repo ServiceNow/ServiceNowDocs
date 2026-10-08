@@ -1,6 +1,6 @@
 ---
-title: Logik.ai 2026/07/31 release notes
-description: Logik.ai 2026/07/31 release notes include new enhancements and minor bug fixes.
+title: ServiceNow CPQ 2026/07/31 release notes
+description: ServiceNow CPQ 2026/07/31 release notes include new enhancements and minor bug fixes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/other-release-notes/oob-rn-logik-ai-2026-07-31-.html
 release: other
@@ -10,9 +10,9 @@ reading_time_minutes: 1
 breadcrumb: [Logik.io available versions, OOB Other release notes]
 ---
 
-# Logik.ai 2026/07/31 release notes
+# ServiceNow CPQ 2026/07/31 release notes
 
-Logik.ai 2026/07/31 release notes include new enhancements and minor bug fixes.
+ServiceNow CPQ 2026/07/31 release notes include new enhancements and minor bug fixes.
 
 ## Schedule
 
@@ -40,7 +40,7 @@ This release version includes the following fixes.
 ## Additional resources
 
 -   Request new features or enhancements through the [Idea portal](https://support.servicenow.com/ideas) on [Now Support](https://support.servicenow.com/now).
--   Connect with other Logik.io users at [Now Community](https://www.servicenow.com/community/)
+-   Connect with other ServiceNow CPQ users at [Now Community](https://www.servicenow.com/community/)
 
 **Parent Topic:**[Logik.io available versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/other/markdown/other-release-notes/oob-rn-logik-io.md)
 

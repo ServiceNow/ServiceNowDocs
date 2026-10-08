@@ -1,6 +1,6 @@
 ---
-title: Logik.ai 2026/08/21 release notes
-description: Logik.ai 2026/08/21 release notes include new enhancements and minor bug fixes.
+title: ServiceNow CPQ 2026/08/21 release notes
+description: ServiceNow CPQ 2026/08/21 release notes include new enhancements and minor bug fixes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/other-release-notes/oob-rn-logik-ai-2026-08-21-.html
 release: other
@@ -10,9 +10,9 @@ reading_time_minutes: 1
 breadcrumb: [Logik.io available versions, OOB Other release notes]
 ---
 
-# Logik.ai 2026/08/21 release notes
+# ServiceNow CPQ 2026/08/21 release notes
 
-Logik.ai 2026/08/21 release notes include new enhancements and minor bug fixes.
+ServiceNow CPQ 2026/08/21 release notes include new enhancements and minor bug fixes.
 
 ## Schedule
 
@@ -36,12 +36,12 @@ This release version includes the following fixes.
 |PRB2070703|Fixed issue where picklist options were not saved when they appeared on a page other than the first page of picklist options.|
 |PRB2073399|Addressed issue where a grey background was incorrectly applied to disabled fields in Transaction|
 |PRB2073721|Fixed issue where importing or exporting a layout containing a sidebar duplicated the tier definition each time.|
-|PRB2074054|Resolved UI inconsistencies in the Logik configurator.|
+|PRB2074054|Resolved UI inconsistencies in the ServiceNow CPQ configurator.|
 
 ## Additional resources
 
 -   Request new features or enhancements through the [Idea portal](https://support.servicenow.com/ideas) on [Now Support](https://support.servicenow.com/now).
--   Connect with other Logik.io users at [Now Community](https://www.servicenow.com/community/)
+-   Connect with other ServiceNow CPQ users at [Now Community](https://www.servicenow.com/community/)
 
 **Parent Topic:**[Logik.io available versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/other/markdown/other-release-notes/oob-rn-logik-io.md)
 
