@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itam-software-asset-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 9
 breadcrumb: [ServiceNow Store - IT Asset Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -17,6 +17,18 @@ Version history for the ITAM Software Asset Management application on the Servic
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 5.1.1 - October 2026 \(Brazil\)**
+
+    This release lays the groundwork for the AI reclamation specialist capability and resolves defects affecting domain separation and Microsoft Per-Server license calculations for retired or install-less cluster VMs—ensuring consistent, reliable system behavior across these areas.
+
+-   **Version 4.1.8 - October 2026 \(Australia\)**
+
+    This release lays the groundwork for the AI reclamation specialist capability and resolves defects affecting domain separation, software lifecycle reporting, SQL Server reconciliation, ESXi software installation status, and license metric result savings calculations—ensuring consistent, reliable system behavior across these areas.
+
+-   **Version 3.2.10 - October 2026 \(Zurich\)**
+
+    This release lays the groundwork for the AI reclamation specialist capability and resolves defects affecting domain separation, software lifecycle reporting, deduplication performance, ESXi software installation status, and license metric result savings calculations—ensuring consistent, reliable system behavior across these areas.
 
 -   **Version 5.1.0 - September 2026 \(Brazil\)**
     -   This release includes the following enhancements:

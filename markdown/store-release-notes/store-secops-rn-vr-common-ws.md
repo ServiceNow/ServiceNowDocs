@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-vr-common-ws.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 6
 breadcrumb: [ServiceNow Store - Vulnerability Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,9 @@ Version history for the Vulnerability Response Common Workspace application on t
 
 ## Version history
 
+-   **Version 30.9.2 - October 2026**
+    -   New: Added preview functionality for admin rules to display the number of applicable findings before applying them.
+    -   Fixed: Fixed incorrect risk score calculations in admin rule evaluation.
 -   **Version 30.8.8 - September 2026**
     -   Changed: Enhanced Exception Management to support dynamic configuration for new finding uptake.
     -   Fixed:

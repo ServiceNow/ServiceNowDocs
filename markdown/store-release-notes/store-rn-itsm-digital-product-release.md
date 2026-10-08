@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itsm-digital-product-release.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 8
 breadcrumb: [ServiceNow Store - IT Service Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,9 +18,17 @@ Version history for the Digital Product Release application on the ServiceNow St
 
 ## Version history
 
+-   **Version 2.7.0 - October 2026**
+    -   New:
+        -   New user experience for release policies with an enhanced user interface
+        -   Accessibility improvements across the Digital Product Release Workspace
+    -   Fixed:
+        -   The Add button isn't working for related tasks in the release scope when the release name is empty.
+        -   The release timeline is unstable across some phase configurations.
+        -   Task cards on the Digital Product Release Workspace Kanban board are misaligned with lane headers, and translations are missing.
+        -   The Calendar view of the Release Calendar is empty and doesn't display release targets.
 -   **Version 2.6.2 - September 2026**
     -   New:
-        -   Configurable dashboards in DPR Workspace: Release admins can add, remove, and set default layouts for widgets on the Release Overview and Release Quality dashboards without developer intervention.
         -   Record-level access control for releases: Product managers can enable restricted access to releases, limiting visibility to defined team members.
         -   Release Home Page personalization: The "My Releases" chart displays only releases where the user is a release owner or part of the release team, updating dynamically for each logged-in user.
         -   Change request page access enforcement: The view release option and release card on Change request pages are hidden from users who are not part of the release team when restricted access is enabled.

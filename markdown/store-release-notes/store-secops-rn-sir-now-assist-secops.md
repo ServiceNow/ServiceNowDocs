@@ -1,22 +1,26 @@
 ---
-title: ServiceNow Otto for Security Operations \(SecOps\) release notes
-description: Version history for the ServiceNow Otto for Security Operations \(SecOps\) application on the ServiceNow Store.
+title: Now Assist for Security Operations \(SecOps\) release notes
+description: Version history for the Now Assist for Security Operations \(SecOps\) application on the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-sir-now-assist-secops.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 3
 breadcrumb: [ServiceNow Store - Security Incident Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
-# ServiceNow Otto for Security Operations \(SecOps\) release notes
+# Now Assist for Security Operations \(SecOps\) release notes
 
-Version history for the ServiceNow Otto for Security Operations \(SecOps\) application on the ServiceNow Store.
+Version history for the Now Assist for Security Operations \(SecOps\) application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 6.6.1 - October 2026**
+
+    No functional change
 
 -   **Version 6.5.2 - September 2026**
     -   New:

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-som-sales-cart.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 2
 breadcrumb: [ServiceNow Store - Sales Customer Relationship Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,12 @@ Version history for the Sales Cart application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 2.9.1 - October 2026 \(Australia+\)**
+    -   New: The createCart API now checks product offering eligibility during cart creation. If any offering in the cart is not eligible, the cart isn't created.
+    -   Changed: The submitOrder API response now includes the order number.
+-   **Version 2.8.1 - October 2026 \(Zurich\)**
+    -   New: The createCart API now checks product offering eligibility during cart creation. If any offering in the cart is not eligible, the cart isn't created.
+    -   Changed: The submitOrder API response now includes the order number.
 -   **Version 2.9.0 - September 2026 \(Australia\)**
     -   New:
         -   REST API support for Sales Cart on the Business Portal. External ordering systems, partner portals, and headless applications can create, retrieve, and update carts and cart line items, delete carts or line items, query carts, and submit orders directly from a cart.

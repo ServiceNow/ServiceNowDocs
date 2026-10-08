@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-grc-rn-ai-risk-asset-mgmt-sn-ai.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 3
+last_updated: "2026-10-08"
+reading_time_minutes: 4
 breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,14 @@ Version history for the ServiceNow® AI Risk and Asset Management for ServiceNow
 
 ## Version history
 
+-   **Version 1.6.2 - October 2026 \(Brazil\)**
+    -   New:
+        -   Implemented EA integration with AI Asset intake process. Business application can be mapped to Asset record.
+        -   Implemented new AI Data Marketplace integration to enable business owners to publish asset to AI &amp; Data marketplace portal.
+    -   Fixed:
+        -   Bulk risk assessment creation issue.
+        -   Entity owner default user issue.
+        -   Implemented changes to enable improved security.
 -   **Version 1.5.3 - September 2026 \(Brazil\)**
     -   New:
         -   Enhanced AI Control Tower to automatically classify AI systems by risk at onboarding, helping identify managed and unmanaged assets and reducing manual review effort.

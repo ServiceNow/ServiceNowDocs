@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itbm-impact-value-mgmt-spm.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Strategic Portfolio Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,9 @@ Version history for the Impact Value Management - SPM application on the Service
 
 ## Version history
 
+-   **Version 4.0.3 - October 2026**
+    -   As part of this update, the SPM data collection apps are renamed toStrategic Portfolio Management aligned to Product Line. This change only affects how the apps are presented; the underlying data collection functionality itself remains unchanged.
+    -   Compatible: Zurich, Australia, Brazil
 -   **Version 3.1.0 - September 2026**
 
     Compatible: Zurich, Australia, Brazil

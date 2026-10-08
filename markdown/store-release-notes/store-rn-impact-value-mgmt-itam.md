@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-impact-value-mgmt-itam.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Impact version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,9 @@ Version history for the ServiceNow® Impact Value Management - ITAM application 
 
 ## Version history
 
+-   **Version 2.0.2 - October 2026**
+    -   As part of this update, the ITAM data collection apps are renamed toIT Asset Management aligned to Product Line. This change only affects how the apps are presented; the underlying data collection functionality itself remains unchanged.
+    -   Compatible: Zurich, Australia, Brazil
 -   **Version 1.0.1 - September 2026**
     -   The Impact Value Management Data Collection Dashboard for IT Asset Management  \(ITAM\) gives Impact customers an automated solution for gathering standard ServiceNow value metrics, enhancing their value journey.
     -   Sharing Metrics with ServiceNowServiceNow's integration gathers value metrics from customer instances on a monthly basis. Please note that integration with ServiceNow's centralized Impact instance is not available for Regulated customers \(Standalone and SSP\) and may necessitate granting user access for instances using the ServiceNow SNC security plugin. The Data Collection Apps will remain functional even if the integration with ServiceNow is unavailable; however, Metrics Data will need to be transferred manually in such cases.

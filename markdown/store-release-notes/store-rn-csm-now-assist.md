@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-now-assist.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 7
+last_updated: "2026-10-08"
+reading_time_minutes: 8
 breadcrumb: [ServiceNow Store - Customer Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -17,6 +17,14 @@ Version history for the ServiceNow Otto for CSM application on the ServiceNow St
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 16.0.7 - October 2026**
+
+    Changed: CSM skills and configurations have been migrated to newer, more efficient AI models \(Gemini 3.5 Flash and Gemma\), delivering faster responses and improved cost optimization.
+
+-   **Version 16.0.6 - October 2026 \(Zurich\)**
+
+    Changed: CSM skills and configurations have been migrated to newer, more efficient AI models \(Gemini 3.5 Flash and Gemma\), delivering faster responses and improved cost optimization.
 
 -   **Version 15.0.1 - September 2026**
     -   New: All CSM Gen AI application repositories now meet Level 3 Agent Readiness. Autonomous AI agents can contribute code across these repos, with branch protection, CI validation, and agent documentation enabling independent operation.

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-url-discovery.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 2
 breadcrumb: [ServiceNow Store - IT Operations Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -15,6 +15,10 @@ breadcrumb: [ServiceNow Store - IT Operations Management version history release
 Version history for the ServiceNow® ITOM URL Discovery application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
+
+-   **Version 1.6.1 - October 2026**
+
+    Fixed: Cross scope error whie enabling Full URL Monitoring property
 
 -   **Version 1.5.5 - September 2026**
     -   New: New system property \[sn\_acc\_vis\_content.full\_url\_discovery\_daily\_max\_rows\] introduced to limit the number of URL discovered through Broad URL Monitoring.

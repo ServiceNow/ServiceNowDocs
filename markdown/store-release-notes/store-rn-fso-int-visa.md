@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-fso-int-visa.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 4
 breadcrumb: [ServiceNow Store - Financial Services version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,11 @@ Version history for the Financial Services Operations Integration with Visa appl
 
 ## Version history
 
+-   **Version 5.2.2 - October 2026**
+    -   New: Added a "Process Incoming Acceptance Batch Queue" subflow that processes incoming batch queue acceptances, handling DISPREQ and PAR transaction types and skipping recalled dispute IDs.
+    -   Fixed
+        -   The "Look Up Transaction Details" flow now runs as a user with the required flow executor role, resolving an issue where the flow would fail for non-admin users.
+        -   KMF Password2 decryption is now restricted to a dedicated script map, preventing unauthorized scripts from invoking the credential utility directly.
 -   **Version 5.1.1 - September 2026**
     -   New: The Visa Integration subflow has been updated to support Visa revision 26.2, including a fix to the cardholder checkout date field formatting.
     -   Changed: Updated internal application components to support ongoing platform enhancements

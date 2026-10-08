@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-healthcare-ops-core.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 2
 breadcrumb: [ServiceNow Store - Healthcare and Life Sciences version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,11 @@ Version history for the Healthcare Operations Core application on the ServiceNow
 
 ## Version history
 
+-   **Version 2.10.0 - October 2026**
+    -   Fixed:
+        -   Work orders created from care team cases now start in Qualified state instead of Draft, so work can begin without an extra dispatch step.
+        -   Work orders created from care team cases now inherit the service organization from the parent case when the care team case has none.
+        -   Care Team Portal data access: Stronger access controls on data served to Care Team Portal widgets.
 -   **Version 2.9.0 - September 2026**
 
     Changed: Healthcare Operations Core has been converted to Fluent, ServiceNow's modern application development framework

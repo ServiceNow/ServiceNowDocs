@@ -1,22 +1,26 @@
 ---
-title: Service Request Playbook release notes
-description: Version history for the Service Request Playbook application on the ServiceNow Store.
+title: Service Request Administration release notes
+description: Version history for the Service Request Administration application on the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-ps-service-request-playbook.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Public Sector Industry version history release notes, ServiceNow Store version history release notes]
 ---
 
-# Service Request Playbook release notes
+# Service Request Administration release notes
 
-Version history for the Service Request Playbook application on the ServiceNow Store.
+Version history for the Service Request Administration application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 3.13.1 - October 2026**
+
+    Rename of Service Request Playbook to Service Request Administration
 
 -   **Version 3.12.0 - June 2026**
 

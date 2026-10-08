@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-telecom-proactive-service-exp-workflows.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 14
 breadcrumb: [ServiceNow Store - Technology Provider Service Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -17,6 +17,18 @@ Version history for the Proactive Service Experience Workflows application on th
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 8.8.0 - October 2026 \(Brazil\)**
+
+    No new features are released.
+
+-   **Version 8.7.6 - October 2026 \(Australia\)**
+
+    No new features are released.
+
+-   **Version 8.5.19 - October 2026 \(Zurich\)**
+
+    No new features are released.
 
 -   **Version 8.7.5 - September 2026 \(Australia\)**
 

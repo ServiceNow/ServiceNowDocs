@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-ai-agent-topology-mapping.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - IT Operations Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,24 @@ Version history for the ServiceNow® AI Agent Topology Mapping application on th
 
 ## Version history
 
+-   **Version 2.2.0 - October 2026**
+    -   New:
+        -   Microsoft Foundry \(new\) discovery
+            -   Discovers AI Agents, Models, Prompts, and Tags
+            -   Creates Product and Asset Models for each discovered item, with AICT populated
+            -   Establishes relationships between Agent and Model
+        -   Microsoft Foundry Hub discovery
+            -   Discovers AI Assistants, Prompts, Models, Hub Projects, and Tags
+            -   Creates Product and Asset Models for each discovered item, with AICT populated
+            -   Establishes relationships between Assistant and Model, and between Assistant and Hub Project
+    -   Changed:
+        -   Amazon Bedrock
+            -   Version is now populated in the object ID and product instance ID fields
+            -   Vendor is populated in AI System Digital Asset \[alm\_ai\_system\_digital\_asset\] and AI Prompt Digital Asset \[alm\_ai\_prompt\_digital\_asset\]
+            -   Manufacturer now populates from the glide.appcreator.company.friendly\_namesystem property instead of a hardcoded value in the AI System Component Product Model \[cmdb\_ai\_system\_component\_product\_model\] and AI Prompt Product Model \[cmdb\_ai\_prompt\_product\_model\] tables
+        -   Microsoft Foundry \(classic\)
+            -   Vendor is populated in AI System Digital Asset \[alm\_ai\_system\_digital\_asset\] and AI Prompt Digital Asset \[alm\_ai\_prompt\_digital\_asset\]
+            -   Manufacturer now populates from the glide.appcreator.company.friendly\_namesystem property instead of a hardcoded value in the AI System Component Product Model \[cmdb\_ai\_system\_component\_product\_model\] and AI Prompt Product Model \[cmdb\_ai\_prompt\_product\_model\] tables
 -   **Version 2.1.0 - June 2026**
     -   New:
         -   Discover the following AI models:

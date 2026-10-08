@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-sales-agreement-data-model.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Customer Service Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,10 @@ Version history for the CSM Sales Agreement Data Model application on the Servic
 
 ## Version history
 
+-   **Version 8.4.1 - October 2026**
+    -   New
+        -   Sales Agreements now support Service Organizations as buyers, alongside Account and Consumer.
+        -   Buyer Organization and Channel Partner fields added to the Sales Agreement.
 -   **Version 8.3.1 - September 2026**
 
     Fixed minor defects.

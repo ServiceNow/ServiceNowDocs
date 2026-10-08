@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-wsd-maintenance-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-10-08"
 reading_time_minutes: 3
 breadcrumb: [ServiceNow Store - Workplace Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,10 @@ Version history for the Workplace Maintenance Management application on the Serv
 
 ## Version history
 
+-   **Version 1.11.12 - October 2026**
+    -   Fixed:
+        -   Not all cases were deactivated when the "Optimize Cleaning Activities" agentic workflow was used.
+        -   Improved support for translations when submitting a maintenance request.
 -   **Version 1.11.5 - July 2026**
 
     Fixed: Date formats in Workplace Maintenance Management are now localized correctly, respecting regional formatting preferences instead of displaying a hardcoded format.

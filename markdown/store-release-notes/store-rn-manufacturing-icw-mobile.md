@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-manufacturing-icw-mobile.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Operational Technology version history release notes, ServiceNow Store version history release notes]
 ---
@@ -16,6 +16,11 @@ Version history for the ServiceNow® ICW Mobile application on the ServiceNow St
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
+-   **Version 3.0.1 - October 2026**
+    -   New: List and execute Centerline tasks on mobile
+    -   Changed:
+        -   Work Set Tasks now have a Child Task tab to better organize tasks for subactivities
+        -   Action Tasks now show the lock-out/tag-out \(LOTO\) level and required line status in their headers
 -   **Version 2.0.0 - June 2026**
 
     No updates or changes for this version.

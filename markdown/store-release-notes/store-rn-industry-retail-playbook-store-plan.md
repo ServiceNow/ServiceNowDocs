@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-industry-retail-playbook-store-plan.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 1
+last_updated: "2026-10-08"
+reading_time_minutes: 2
 breadcrumb: [ServiceNow Store - Retail version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,20 @@ Version history for the ServiceNow® Retail Playbook for Store Plan application 
 
 ## Version history
 
+-   **Version 4.1.0 - October 2026 \(Brazil\)**
+    -   New
+        -   New cases and HQ task created from the Store Plan will populate Template item and Template execution columns.
+        -   Changes done for populating the Schedule\_Occurrence column on Cases
+        -   Retail organization pickers in the store plan playbook are now filtered by the user's hierarchy and organization subtype, so users only see stores within their own branch.
+        -   Activity definitions within the app now support HTML-type fields.
+        -   Activity definitions within the app now support form section labels.
+    -   Changed: New cases created from the Store Plan will no longer populate the Origin field.
+    -   Fixed: Store Plan Playbook now correctly creates the Work Plan record on the PWM Activity Definition when "Save and Continue" is selected.
+-   **Version 3.6.1 - October 2026 \(Australia\)**
+    -   New
+        -   Retail organization pickers in the store plan playbook are now filtered by the user's hierarchy and organization subtype, so users only see stores within their own branch.
+        -   Activity definitions within the app now support HTML-type fields.
+        -   Activity definitions within the app now support form section labels.
 -   **Version 4.0.3 - September 2026 \(Brazil\)**
 
     New: Java 21 compatibility

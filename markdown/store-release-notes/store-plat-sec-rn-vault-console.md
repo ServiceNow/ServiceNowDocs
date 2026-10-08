@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-plat-sec-rn-vault-console.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 3
+last_updated: "2026-10-08"
+reading_time_minutes: 4
 breadcrumb: [ServiceNow Store - ServiceNow AI Platform Security version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,15 @@ Version history for the Vault Console application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 3.1.1 - October 2026**
+    -   New:
+        -   Insights, an AI-generated summary of your data security posture, at the top of the Vault Console home page, covering data discovery, classification, and data protection, with a recommended next step for each area
+        -   Code signing activity metrics in Vault Console, tracking create, update, and delete operations on code signing enabled records over the past week, and showing which tables hold the most such records
+        -   Log Export Service export monitoring widget, showing total data exported over the past six months, the topics that export the most data, and the data exported by each topic so far in the current month
+        -   ServiceNow Vault in Admin Home. Instances with a ServiceNow Vault entitlement show a ServiceNow Vault tile, where an administrator can install Vault Suite and then open Vault Console from the Configuration Console
+        -   Default step-up authentication policies for Zero Trust Access, applied automatically when you install Zero Trust Access with ServiceNow Vault, and reviewable at any time from Vault Console
+        -   Email notification when ServiceNow Vault onboarding completes on your instance
+    -   Changed: Default policies provisioned for field encryption, data privacy, Zero Trust Access, and Log Export Service are now prefixed with Vault by Default, so you can distinguish policies that ServiceNow provisioned from policies your organization created
 -   **Version 3.0.0 - September 2026**
     -   New:
         -   Insights, an AI-generated summary of your data security posture, at the top of the Vault Console home page, covering data discovery, classification, and data protection, with a recommended next step for each area

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-infra-services-ws.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-10-08"
 reading_time_minutes: 2
 breadcrumb: [ServiceNow Store - IT Operations Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -16,6 +16,9 @@ Version history for the ServiceNow® ITOM Infra Services Workspace application o
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
+-   **Version 2.1.0 - October 2026**
+    -   Agent Client Collector Errors
+    -   Added shared UI components within the ACC Admin Workspace to support the new Error Framework plugin.
 -   **Version 2.0.3 - July 2026**
     -   New MID Server Onboarding Experience: New onboarding page in the ITOM Infra Services Workspace provides guidance through initial MID Server setup. The previous downloads page can be accessed via "mid\_server\_download\_ui.do" if required.
     -   Command Line Installer for Windows and Linux \(for JWT Authentication\)

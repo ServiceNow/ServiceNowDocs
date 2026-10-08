@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-som-cpq-integration.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 2
+last_updated: "2026-10-08"
+reading_time_minutes: 3
 breadcrumb: [ServiceNow Store - Sales Customer Relationship Management version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,16 @@ Version history for the ServiceNow® CPQ Integration application on the ServiceN
 
 ## Version history
 
+-   **Version 5.0.1 - October 2026**
+    -   New: Admins can now configure ramped pricing with early contract termination options. This enables more flexible quoting and contract management workflows, allowing customers to set pricing schedules that accommodate contract changes.
+    -   Changed:
+        -   Field mappings and sources synchronize more accurately during blueprint sync. Quantity handling for picker-based products and characteristic identification have been improved, ensuring data consistency.
+        -   Product synchronization now tracks job status more reliably and reports status efficiently. Sync processes complete successfully with enhanced status reporting.
+        -   Role assignment during initial configuration is more accurate and consistent. Admins benefit from improved role setup, reducing errors.
+        -   Blueprint variable name generation now removes special characters. This prevents sync errors and ensures smoother blueprint creation.
+        -   Tenant URL entries are validated and sanitized during configuration. Admins experience a more secure and reliable setup process.
+        -   Internal cleanup and expanded automated testing have improved reliability and reduced future regressions.
+        -   Ability to override browser locale to support translations
 -   **Version 4.0.3 - September 2026**
     -   New: You can configure and manage ramped pricing that accommodates early contract termination, enabling more flexible quoting and contract management.
     -   Changed:

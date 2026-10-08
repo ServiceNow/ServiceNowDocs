@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-healthcare-mgmt-core.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 8
 breadcrumb: [ServiceNow Store - Healthcare and Life Sciences version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,12 @@ Version history for the Healthcare and Life Sciences Service Management Core app
 
 ## Version history
 
+-   **Version 11.9.0 - October 2026**
+    -   Changed:
+        -   Patient data access in virtual agent conversations: Stronger access controls for case status conversations.
+        -   Patient portal widgets: Stronger access controls.
+        -   Case record updates: Declarative actions now enforce the user's access rights when they update related case records.
+        -   Interaction records: Stronger access checks on workspace screen conditions.
 -   **Version 11.8.0 - September 2026**
 
     Changed: Healthcare and Life Sciences Service Management Core has been converted to Fluent, ServiceNow's modern application development framework.

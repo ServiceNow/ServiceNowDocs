@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-cmdb-class-models.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 52
+last_updated: "2026-10-08"
+reading_time_minutes: 53
 breadcrumb: [ServiceNow Store - ITOM Visibility version history release notes, ServiceNow Store - IT Operations Management version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,17 @@ Version history for the IT Operations Management CMDB CI Class Models on the Ser
 
 ## Version history
 
+-   **Version 1.95.2 - October 2026**
+    -   New:
+        -   Kong Data Plane Node Data Model update to Class Model: Updated the Kong Data Plane Node data model \(sn\_kong\_data\_plane\_node\) to extend the new common CMDB CI Class Models, replacing the previous custom project-specific class model.
+        -   Changes to the cmdb\_ot\_editor role on cmdb\_key\_value\_v2: Added ACL updates in the app-cmdb-content repository allowing the cmdb\_ot\_editor role to perform full CRUD operations on cmdb\_key\_value\_v2.
+        -   Identification rule for cmdb\_key\_value to support Kong Konnect Data Plane Node labels: Added a missing Identification rule for the cmdb\_key\_value class. Previously, labels sent by the Kong Konnect Data Plane Node connector were rejected by IRE so related label records were never created \(though the parent CI was\). This fix allows label key-value pairs to reconcile correctly as related CI records.
+    -   Modified:
+        -   Model categories for Retail CI classes: Fixed missing parent category and incorrect Product Model/Asset Class associations for two new CI classes \(cmdb\_ci\_industrial\_refrigeration, cmdb\_ci\_handheld\_barcode\_scanner\)  Both now roll up under the "Retail" parent category and use sn\_ent\_retail\_model / sn\_ent\_retail\_asset instead of the generic base entities.
+        -   DMN - Missing table/context definitions: Added missing Discovery/DMN table and context definitions for Application Servers, Web Servers, Messaging Queues, Directory Services, Email/Collaboration Applications, SAP Applications, and Monitoring &amp; Management.
+        -   'Clear HPE Blade Serial Numbers' scheduled script failure fix: The scheduled script was configured to run as a user requiring the pd\_admin role \(from the Pattern Designer package\), causing execution failures on instances where Pattern Designer isn't installed. Updated the Run As configuration so the script no longer depends on that role.
+        -   List view and form view enhancements for new CMDB CI tables: Added and refined list views and form layout sections for the newly introduced cmdb\_ci\_api\_gateway\_component and cmdb\_ci\_kong\_data\_plane\_node tables to align with their new dictionary/class model.
+        -   CI relationships in form layout for Kafka Topic and Kafka Cluster: Previously, opening a record on cmdb\_ci\_kafka\_cluster or cmdb\_ci\_appl\_kafka\_topic showed no CI relationships. Added the CI Relations related list to the form layout for both tables.
 -   **Version 1.94.3 - September 2026**
     -   New:
         -   FortiManager Discovery: Added the CI class model foundation for FortiManager/Fortinet discovery.

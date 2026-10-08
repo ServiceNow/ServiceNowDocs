@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-wsd-workplace-safety-management.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 15
 breadcrumb: [ServiceNow Store - Workplace Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,13 @@ Version history for the Workplace Service Delivery Workplace Core application on
 
 ## Version history
 
+-   **Version 2.29.9 - October 2026**
+    -   New: New API to support artificial intelligence platforms
+    -   Fixed:
+        -   The arrival time when registering guests was not updated correctly as the time format preference omitted seconds.
+        -   In some cases, the redirect actions on location directory cards were not working as expected.
+        -   Earlier, signs of life were not displayed on certain maps.
+        -   Security fixes
 -   **Version 2.29.2 - September 2026**
     -   New: New API to support artificial intelligence platforms
     -   Fixed:

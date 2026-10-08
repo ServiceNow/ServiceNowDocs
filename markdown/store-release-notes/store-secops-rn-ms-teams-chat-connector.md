@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-ms-teams-chat-connector.html
 release: store
 topic_type: reference
-last_updated: "2025-10-16"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Security Incident Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,10 @@ Version history for the Microsoft Teams Chat Connector for Security Incident Man
 
 ## Version history
 
+-   **Version 1.2.31 - October 2026**
+    -   Fixed:
+        -   Resolved the access issues for Security Analyst while querying tables.
+        -   Resolved the issue where a user's Azure AD object ID was not updated after they were offboarded and re-onboarded. This caused the "Add Bulk User to Team" step in the Microsoft Teams Chat Connector to fail because of a stale or invalid ID.
 -   **Version 1.2.30 - October 2025**
 
     Fixed failure in bulk user creation process in Teams to ensure all users are added successfully.

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-now-assist-itom.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 8
+last_updated: "2026-10-08"
+reading_time_minutes: 9
 breadcrumb: [ServiceNow Store - IT Operations Management version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,21 @@ Version history for the ServiceNow Otto for ITOM application on the ServiceNow S
 
 ## Version history
 
+-   **Version 2.9.7 - October 2026**
+    -   New
+        -   Updated AI model references to align with current ServiceNow naming standards and improve consistency across the Autonomous Operator workflow.
+        -   Migrated Alert Assist to Fluent. The em-gai scoped application now runs on the Fluent framework.
+        -   Switched the underlying model from Now LLM to Gemma.
+        -   Updated the Gemini model reference from gemini\_small to gemini-3.5 to reflect the current naming conventions.
+    -   Fixed
+        -   Improved authorization controls for the AMR-filter sync job.
+        -   Improved authorization controls for AI worker, alert rule, and agent configuration data.
+        -   Fixed an issue that caused the autonomous workflow availability check to fail when the Workforce module and ZTSD were not installed.
+        -   Updated AIOps AI specialist to use the Data Access &amp; Resilience Engine \(DARE\), improving data handling compliance.
+        -   Fixed a cross-scope access error in setWorkflow when the watchdog cleared stuck em\_gai or em\_alert records.
+        -   Fixed an issue where Alert Insights incorrectly reported alerts as closed when auto-close was disabled.
+        -   Corrected insignificant-flow calculations for critical and major percentage thresholds.
+        -   Updated the Run Service Analysis subflow to enforce caller-level permissions during downstream operations.
 -   **Version 2.9.4 - September 2026**
     -   New:
         -   Alert Verification AI Agent automates alert closure based on related incidents and knowledge articles.

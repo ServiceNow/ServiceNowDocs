@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-grc-rn-business-continuity-mgmt-foundation.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance version history release notes, ServiceNow Store version history release notes]
 ---
@@ -17,6 +17,10 @@ Version history for the ServiceNow® Business Continuity Management Foundation a
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 2.1.3 - October 2026 \(Brazil\)**
+
+    Updated BCM and AI Platform apps to Oct versions.
 
 -   **Version 2.0.3 - September 2026 \(Brazil\)**
     -   New: Report and summarizeGRC issues faster, Issue Summarization and Issue Validation are available forBCM Foundation.

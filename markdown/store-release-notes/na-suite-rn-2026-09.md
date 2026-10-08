@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/na-suite-rn-2026-09.html
 release: store
 topic_type: reference
-last_updated: "2026-05-05"
+last_updated: "2026-09-01"
 reading_time_minutes: 1
 breadcrumb: [Now Assist Suite release notes]
 ---

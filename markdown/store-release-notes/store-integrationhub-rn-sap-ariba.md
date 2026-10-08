@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-sap-ariba.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-10-08"
 reading_time_minutes: 3
 breadcrumb: [ServiceNow Store - Integration Hub version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,11 @@ Version history for the SAP Ariba spoke on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 1.15.1 - October 2026**
+    -   Fixed:
+        -   Create Job: Support an optional input 'Page Token'
+        -   Look up Job status: Include outputs related to paginated requests primarily the response parameter 'Page Token'
+        -   Create/Update Requisition: request message mapping
 -   **Version 1.15.0 - June 2026**
 
     Security patch on non-glide ACLs

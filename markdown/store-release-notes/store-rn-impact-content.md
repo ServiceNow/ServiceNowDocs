@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-impact-content.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 10
+last_updated: "2026-10-08"
+reading_time_minutes: 12
 breadcrumb: [ServiceNow Store - Impact version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,23 @@ Version history for the Impact Content application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 12.0.3 - October 2026**
+    -   Get more value from ServiceNow, right inside your instance. This release streamlines setup, sharpens your health score, and helps you turn insight into action.
+    -   What's New — Starting October 8
+        -   Onboarding - Impact Setup HubSetting up Impact is now faster and simpler. The new Setup Hub replaces the old linear, text-heavy Guided Setup with a modern experience where admins can:
+            1.  Register instances automatically or manually
+            2.  Verify the connection
+            3.  Start data migration
+            4.  Review your assigned squad and manage instance access
+        -   Platform Health - Instance Health ScoreYour Instance Health Score is now more reliable. It uses a risk-weighted model that evaluates five areas independently — Security, Performance, Manageability, Upgradeability, and User Experience — before combining them into one overall score. Each definition is measured against a fixed reference point, so a change to one finding won't affect unrelated checks or categories. Full and Delta scans now use the same instance-wide counting scope, giving you more stable, comparable score trends over time.
+        -   Value
+            1.  IVM Data Collection App Discovery: Find all Impact Value Management \(IVM\) data collection apps in one place, grouped by product line, on both the ServiceNow Store and the Impact Store App.
+            2.  Enhanced CSM &amp; HR Outcomes: Explore improved outcomes for CSM and HR, built on current ServiceNow platform capabilities with updated data instrumentation and calculation logic.
+            3.  Estimated Data Customization: Use the Impact Product Console to view and customize estimated data definitions — switch any estimated metric to real, verified data, connected directly to Manage Objectives and Outcomes.
+        -   Accelerators - Multi-Participant Maturity Assessment &amp; Prescriptive Action Planning
+            1.  Staff Multi-Participant Maturity Assessment: Invite your team to complete domain-specific surveys independently. Once collection closes, responses aggregate into comparative scores, a heat map, and question-level detail — giving you a fuller, more accurate picture than single-user input.
+            2.  Target Maturity Level Prioritization: Set a target maturity level per domain and compare it against your current scores. The system surfaces question-level gaps so you can prioritize which domains to improve first.
+            3.  Prescriptive Action Plan Generation &amp; Export: Generate recommended actions for each prioritized domain, assign owners, and add notes. When your plan's ready, export it as a styled Excel workbook with a summary tab and a tab for each domain.
 -   **Version 11.0.1 - September 2026**
     -   Exception governance improvementsScan Engine's exception-handling workflow has been hardened:
         -   Draft/Submit actions replace the old "Request Approval" checkbox, with clear status badges on exception findings

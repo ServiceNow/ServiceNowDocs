@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-wsd-workplace-services-kiosk.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Workplace Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,11 @@ Version history for the Workplace Services Kiosk application on the ServiceNow S
 
 ## Version history
 
+-   **Version 1.5.9 - October 2026**
+    -   Fixed
+        -   Kiosk devices could be timed out if the session expired prematurely.
+        -   The kiosk used the incorrect default language.
+        -   The picture consent page on the kiosk can be skipped based on the iOS versions \(&lt;16\), as certain required permissions are not supported.
 -   **Version 1.5.6 - July 2026**
     -   Fixed:
         -   Fixed an issue causing the Kiosk to continuously reload during setup.

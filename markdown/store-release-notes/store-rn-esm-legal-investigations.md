@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-esm-legal-investigations.html
 release: store
 topic_type: reference
-last_updated: "2026-08-06"
+last_updated: "2026-10-08"
 reading_time_minutes: 4
 breadcrumb: [ServiceNow Store - Legal Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,11 @@ Version history for the Legal Investigations application on the ServiceNow Store
 
 ## Version history
 
+-   **Version 3.11.11 - October 2026**
+    -   Fixed:
+        -   The Subject of Allegation in Ethics Complaints list now populates correctly.
+        -   The involved parties list now updates correctly in the form view after a party is deleted, even when a new party is added afterward.
+        -   Users can now submit an ethics request with an incident date and time that is earlier or equal to the current date.
 -   **Version 3.11.8 - August 2026**
 
     Security fixes.

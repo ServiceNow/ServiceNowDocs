@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-som-opportunity-mgmt-app.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 7
+last_updated: "2026-10-08"
+reading_time_minutes: 8
 breadcrumb: [ServiceNow Store - Sales Customer Relationship Management version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,22 @@ Version history for the Opportunity Management Application on the ServiceNow Sto
 
 ## Version history
 
+-   **Version 14.1.12 - October 2026 \(Australia\)**
+    -   Fixed:
+        -   Fixed Net New ACV not syncing correctly from Quote to Opportunity
+        -   Meeting occurrences now correctly populate the associated record and table
+        -   Corrected touchpoint state data for Opportunity summarization
+        -   Fixed source tag information being truncated on the Opportunity summary card
+        -   Resolved non-related team members and product offering families appearing on the Manage Allocations page
+        -   Fixed a security issue where unauthorized users could access Quote numbers and versions through the Primary Quote reference qualifier
+-   **Version 14.0.12 - October 2026 \(Zurich\)**
+    -   Fixed:
+        -   Fixed Net New ACV not syncing correctly from Quote to Opportunity
+        -   Meeting occurrences now correctly populate the associated record and table
+        -   Corrected touchpoint state data for Opportunity summarization
+        -   Fixed source tag information being truncated on the Opportunity summary card
+        -   Resolved non-related team members and product offering families appearing on the Manage Allocations page
+        -   Fixed a security issue where unauthorized users could access Quote numbers and versions through the Primary Quote reference qualifier
 -   **Version 14.1.0 - September 2026 \(Australia\)**
     -   New:
         -   Sales CRM Mobile experience for Opportunities :  includes opportunity list view, record view, opportunity line items, pipeline health, task management, meetings, quick access, and account record view

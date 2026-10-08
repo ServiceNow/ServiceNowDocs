@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-finance-erp-integration.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 9
+last_updated: "2026-10-08"
+reading_time_minutes: 10
 breadcrumb: [ServiceNow Store - Finance Close Automation version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,26 @@ Version history for the Finance Operations Management Finance - ERP Integration 
 
 ## Version history
 
+-   **Version 21.0.2 - October 2026 \(Australia and Brazil\)**
+    -   Fixed:
+    -   -   Fixed an issue where the confirmed\_unit\_price and confirmed\_amountfields were silently dropped on the PO Confirmation Line import when SupplyOn omitted currency in the API response. Currency is now derived from the parent Purchase Order Line's FX Currency field when currency is not passed in the transform process.
+    -   Changed:
+        -   Centralized the POC and POL lookup logic in an onBefore transform script for the PO Confirmation Line Stage map. This eliminates redundant database queries per imported row across the purchase\_order\_line, confirmed\_unit\_price, and confirmed\_amountfield mappings.
+-   **Version 20.1.0 - October 2026**
+    -   New:
+        -   Added the ERPFieldMappingEngine\(public\) and ERPFieldMappingEngineSNC\(package-private\) scripts that include, which read and apply mappings from the sn\_fcms\_mapping\_configtable. These scripts include support for constants, paths, and script mapping types.
+        -   Added the following columns to the existing sn\_fcms\_mapping\_configtable:
+            -   mapping\_integration\_type\(constant, path, script, or json\)
+            -   transform\_script
+            -   target\_system
+            -   erp\_integration\_sub\_type.
+        -   Added the erp\_integration\_sub\_typefield to sn\_fcms\_intg\_source, with choices of RFC, IDOC, OData, and Cloud.Available choices depend on the selected ERP.
+        -   Added the following ERP choices to sn\_fcms\_intg\_source.erp: Coupa, Oracle EBS, Oracle Financial Cloud, and SAP Ariba.
+    -   Changed:
+        -   The Run Job UI action on sn\_fcms\_intg\_sourceand on the sn\_fcms\_intg\_servicerelated list is now hidden when ERP is set to Salesforce.
+    -   Removed:
+        -   The legacy SAP and Oracle choice values on sn\_fcms\_intg\_source.erpare inactivated.
+        -   The out-of-the-box \(OOB\) example sn\_fcms\_intg\_sourcerecords for Oracle and SAP are removed.
 -   **Version 21.0.1 - September 2026 \(Australia and Brazil\)**
     -   New:
         -   Added support for receiving purchase order confirmations from SupplyOn suppliers, including validation of the confirmation data received.

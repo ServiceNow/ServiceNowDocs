@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-advanced.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 7
 breadcrumb: [ServiceNow Store - IT Operations Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,9 @@ Version history for the ServiceNow® ITOM - Advanced application on the ServiceN
 
 ## Version history
 
+-   **Version 1.1.7 - October 2026**
+    -   Changed
+        -   Cryptographic Asset Compliance: Models have been updated to support AI insights generation for cryptographic assets.
 -   **Version 1.1.5 - September 2026**
     -   New:
         -   LEAP

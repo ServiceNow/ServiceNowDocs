@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-itbm-rn-goal-framework-spm.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 4
+last_updated: "2026-10-08"
+reading_time_minutes: 5
 breadcrumb: [ServiceNow Store - Strategic Portfolio Management version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,15 @@ Version history for the Goal Framework for SPM on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 2.12.0 - October 2026**
+    -   New:
+        -   Progress and status are now calculated automatically for Maintain-type targets based on the number of breakdown periods achieved, reflecting partial attainment and tolerance bands.
+        -   Breakdown periods are generated automatically when you create or edit a Maintain-type target, with planned values set to the final target value. Adjust the planned values as needed.
+        -   Navigate to targets directly from the actual value automation list view using the new Number column, which displays each target's unique identifier as a link.
+    -   Changed:
+        -   Target breakdowns now regenerate when the start date, end date, or final target value changes. Breakdown periods are added or removed as needed, planned values are recalculated, and status and progress are updated based on the new breakdowns.
+        -   Edit theType field on a target even when actuals exist. A warning appears before the change is saved, and the update is recorded in the audit history.
+        -   TheNone status for target breakdowns is now labeled No Status for clarity.
 -   **Version 2.10.0 - September 2026**
     -   New:
         -   New targets default to quarterly check-in frequency, accelerating target creation with a standard quarterly breakdown.

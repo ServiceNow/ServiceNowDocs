@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-salesforce-v1.2.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 2
 breadcrumb: [ServiceNow Store - Integration Hub version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
@@ -23,6 +23,10 @@ Version history for the Integration Hub Salesforce Spoke on the ServiceNow Store
 For users who have installed Salesforce spoke V1, you can't upgrade from Salesforce spoke V1 to Salesforce spoke V1.2 directly. To upgrade, you must uninstall Salesforce spoke V1 and then install Salesforce spoke V1.2.
 
 Salesforce spoke V1 is certified on New York and Salesforce spoke V1.2 is certified on Orlando and Paris.
+
+-   **Version 2.6.2 - October 2026**
+
+    Added PCKE support for OAuth authorization code grant type
 
 -   **Version 2.6.1 - September 2026**
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itsm-shift-planning.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 3
 breadcrumb: [ServiceNow Store - IT Service Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,9 @@ Version history for the Shift Planning application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 7.7.0 - October 2026**
+    -   New: Added move agents feature from one schedule to other schedule in shift planning as part of the Manager workspace.
+    -   Fixed: Made minor defect fixes for this release.
 -   **Version 7.3.0 - September 2026 \(Australia\)**
     -   New: Added Rejected Time off requests list to Scheduling module
     -   Changed: Improved performance of fetching batch schedules.

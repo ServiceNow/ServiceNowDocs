@@ -192,8 +192,8 @@ Version history for the Security Operations Spoke on the ServiceNow Store.
 Version history for the Security Support Common on the ServiceNow Store.
 -   **[Security Support Common Orchestration release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-secops-rn-support-orchestration.md)**  
 Version history for the Security Operations Orchestration on the ServiceNow Store.
--   **[ServiceNow Otto for Security Operations \(SecOps\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-secops-rn-sir-now-assist-secops.md)**  
-Version history for the ServiceNow Otto for Security Operations \(SecOps\) application on the ServiceNow Store.
+-   **[Now Assist for Security Operations \(SecOps\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-secops-rn-sir-now-assist-secops.md)**  
+Version history for the Now Assist for Security Operations \(SecOps\) application on the ServiceNow Store.
 -   **[ServiceNow Otto for Security Incident Response \(SIR\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-secops-rn-sir-now-assist.md)**  
 Version history for the ServiceNow Otto for Security Incident Response \(SIR\) application on the ServiceNow Store.
 -   **[ServiceNow Otto for Security Incident Response \(SIR\) integrations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-secops-rn-sir-now-assist-sir-int.md)**  

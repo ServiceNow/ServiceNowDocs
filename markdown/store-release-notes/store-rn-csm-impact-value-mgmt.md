@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-impact-value-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 1
+last_updated: "2026-10-08"
+reading_time_minutes: 2
 breadcrumb: [ServiceNow Store - Customer Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,19 @@ Version history for the Impact Value Management - CSM application on the Service
 
 ## Version history
 
+-   **Version 3.0.4 - October 2026**
+    -   This release upgrades the Data Collection App for Customer Service Management \(CSM\) with an expanded set of value-measurement metrics.
+    -   All existing metrics remain unchanged. No modifications have been made to current functionality. This release only adds net-new metrics that extend value-measurement capabilities across the supported products.
+    -   For the complete list of new metrics, please refer to the Supporting Document.
+    -   Enhanced Metrics:
+        -   Any new metric introduced with this release is classified as an Enhanced Metric. Enhanced Metrics can be collected, and their data will be visible on the data dashboard included with the Data Collection App.
+        -   Important: Automatic data transfer of Enhanced Metrics to ServiceNow's centralized Impact Delivery Instance is not supported.
+        -   To make Enhanced Metric data available on the Impact Delivery Instance, customers must:
+            -   Install the Impact In-Platform App, and
+            -   Enable ServiceBridge.
+            -   Configure the Estimated data definition against the enhanced metrics
+        -   All the steps are mandatory for Enhanced Metric data to appear on the Impact Delivery Instance.
+        -   Compatible: Zurich, Australia, Brazil
 -   **Version 2.2.0 - September 2026**
 
     Compatible: Zurich, Australia, Brazil

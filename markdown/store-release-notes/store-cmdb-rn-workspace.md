@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-cmdb-rn-workspace.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 15
 breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\) version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,10 @@ Version history for the CMDB Workspace application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 9.7.0 - October 2026**
+    -   Fixed
+        -   Unified Map correctly renders upstream references for self-referencing tables when Show Reverse is enabled.
+        -   Attestation tasks now accurately mark percent complete, ensuring progress tracking is reliable.
 -   **Version 9.6.0 - September 2026**
     -   New:
         -   Welcome to ServiceNow Otto, the new name for Now Assist!

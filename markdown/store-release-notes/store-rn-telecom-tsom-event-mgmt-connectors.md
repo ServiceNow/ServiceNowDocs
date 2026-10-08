@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-telecom-tsom-event-mgmt-connectors.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 2
+last_updated: "2026-10-08"
+reading_time_minutes: 3
 breadcrumb: [ServiceNow Store - Telecommunications Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -16,6 +16,11 @@ Version history for the ServiceNow® TSOM Event Management Connectors applicatio
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
+-   **Version 4.1.1 - October 2026**
+    -   This is the most functionally significant release of the cycle for Nokia MPN deployments, focused on event accuracy, data quality, and configurability. Administrators can now configure which field is used as the collection counter for Nokia MPN event-stream collection queries. This improves collection reliability in high-volume environments that previously had to work around fixed counter behavior.
+    -   Nokia MPN metric and alarm events are now bound to configuration items by correlation identifier. This resolves cases where events were attached to the wrong network element, improving event accuracy on shared or similarly named devices.
+    -   Volatile data-source fields are no longer published on RAN and Core paths, preventing unnecessary configuration-item churn and reducing noisy change records in the CMDB.
+    -   Switch-side latency measurements now resolve to the correct IP address configuration items, so network performance views reflect the actual affected interfaces.
 -   **Version 4.0.8 - September 2026**
 
     This release adds a StackInfra pull connector, along with new launchpad tiles for the Equinix, OpsInsight, StackInfra, and DigitalRealty integrations to make them easier to find and set up. Fortinet devices can now push metrics directly to TSOM instead of only being polled, and Nokia MPN security logs now generate anomaly alerts automatically. Fixes include corrected metric alignment so Equinix data maps to the right CMDB records, resolved issues with Nokia MPN alarms not closing properly and short-lived alarms being missed, corrected incorrect and negative Nokia MPN latency values with improved device inclusion for end-to-end latency calculations, corrected health-status \(red/amber/green\) calculation for radio and core-server devices with fixed event severity labeling, and a fix for a timing issue that could cause incorrect data-recovery windows after a Fortinet/Meraki outage. Nokia MPN device and version resolution and performance-metric collection have also been made more reliable, with health-status logic moved into the connector itself for more consistent results across environments.

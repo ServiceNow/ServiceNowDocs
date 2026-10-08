@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-service-graph-connector-tanium.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 2
+last_updated: "2026-10-08"
+reading_time_minutes: 3
 breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\) version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,16 @@ Version history for the Service Graph Connector for Tanium integration on the Se
 
 ## Version history
 
+-   **Version 1.10.2 - October 2026**
+    -   New
+        -   Added an additional setup activity in SGC Central. You can now choose which Tanium view to use for discovery and data import directly from a new UI page in SGC Central.
+        -   The Fully Qualified Domain Name field is now populated on the Computer CIs.
+        -   The IP Address field is now populated on the Network Adapter CIs.
+    -   Fixed
+        -   Fixed an issue where server-to-VM relationships weren't created when the state field of a virtual machine instance was empty.
+        -   Corrected CPU Speed mapping values on the Computer CIs.
+        -   Fixed an issue in the File System CI class where file paths contained an extra backslash.
+        -   Fixed a broken navigation link in the Setup module.
 -   **Version 1.9.0 - July 2026**
     -   New:
         -   Query ACLs are now built into the application.

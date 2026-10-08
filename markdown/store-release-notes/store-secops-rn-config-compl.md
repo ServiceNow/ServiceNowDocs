@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-config-compl.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 24
 breadcrumb: [ServiceNow Store - Vulnerability Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
@@ -17,6 +17,15 @@ Version history for the Security Operations Configuration Compliance application
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 30.7.1 - October 2026 \(USEM\)**
+    -   New: Added tracking for long-running test result imports in Configuration Compliance integrations to prevent timeout errors and state corruption when processing exceeds one hour.
+    -   Fixed:
+        -   Fixed an issue where Configuration Compliance test results could reopen after being marked as closed with the "CI Decommissioned" status.
+        -   Improved date validation for the "Until" field in test results to reject past dates.
+-   **Version 15.10.1 - October 2026**
+
+    New: Added tracking for long-running test result imports in Configuration Compliance integrations to prevent timeout errors and state corruption when processing exceeds one hour.
 
 -   **Version 30.6.15 - September 2026 \(USEM\)**
 

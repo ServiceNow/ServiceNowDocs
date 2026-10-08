@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-manufacturing-manufacturing-quality-management.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 1
+last_updated: "2026-10-08"
+reading_time_minutes: 2
 breadcrumb: [ServiceNow Store - Operational Technology version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -16,6 +16,14 @@ Version history for the ServiceNow® Manufacturing Quality Management applicatio
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
+-   **Version 6.8.0 - October 2026 \(Brazil\)**
+    -   New: Added CAPA effectiveness as an extension of the goals framework.
+    -   Changed: Improved Product Non-conformance \(PNCC\)/Product Quality Issue \(PQI\) summary readability.
+-   **Version 6.7.0 - October 2026 \(Australia\)**
+    -   New: Zoom meeting integration for Product Non-Conformance \(PNCC\) and Product Quality Issues \(PQI\)
+-   **Version 6.6.0 - October 2026 \(Zurich\)**
+    -   New: Added CAPA effectiveness as an extension of the goals framework.
+    -   Changed: Improved Product Non-conformance \(PNCC\)/Product Quality Issue \(PQI\) summary readability.
 -   **Version 5.5.0 - September 2026 \(Brazil\)**
 
     No release notes.

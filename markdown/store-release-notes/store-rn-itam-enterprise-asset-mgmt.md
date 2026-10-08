@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itam-enterprise-asset-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 24
+last_updated: "2026-10-08"
+reading_time_minutes: 25
 breadcrumb: [ServiceNow Store - IT Asset Management version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -17,6 +17,15 @@ Version history for the ITAM Enterprise Asset Management application on the Serv
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 11.0.1 - October 2026**
+    -   Bulk model classification now applies AI Search narrowing consistently with large-context third-party models, preventing Data Privacy input-size failures in classification processes.
+    -   The New button has been removed from the Stock Orders related list on the Stock Rule form for clearer navigation.
+    -   Navigation paths have been updated for clarity: Admin center &gt; Product catalog &gt; Product catalogs is now Product catalog items, and Admin center &gt; Product catalog &gt; Product catalog categories now includes a New button.
+    -   Enterprise Models are now linked correctly to their corresponding lifecycle records, preventing duplicate associations.
+-   **Version 10.0.4 - October 2026**
+
+    Enterprise Models are now correctly linked to their corresponding lifecycle records, eliminating duplicate associations.
 
 -   **Version 11.0.0 - September 2026**
     -   New:

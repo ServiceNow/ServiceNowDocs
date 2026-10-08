@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itam-cloud-cost-mgmt-advanced.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - IT Asset Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -17,6 +17,10 @@ Version history for the ServiceNow® Cloud Cost Management Advanced application 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 1.1.0 - October 2026**
+
+    This release introduces support for the Gemma model and refreshes component versions, upgrading Now Assist Platform Advanced to version 3.1.0 and CCM Now Assist to version 1.1.0.
 
 -   **Version 1.0.0 - September 2026**
     -   TheServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:

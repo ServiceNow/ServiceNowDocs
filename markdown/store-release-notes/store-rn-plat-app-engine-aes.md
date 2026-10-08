@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-plat-app-engine-aes.html
 release: store
 topic_type: reference
-last_updated: "2026-08-06"
+last_updated: "2026-10-08"
 reading_time_minutes: 12
 breadcrumb: [ServiceNow Store - ServiceNow AI Platform App Engine version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,9 @@ Version history for the App Engine Studio on the ServiceNow Store .
 
 ## Version history
 
+-   **Version 30.1.2 - October 2026**
+    -   Deprecate 'Upload PDF' option from Table Builder wizard.
+    -   Reword "Open app in Dev Studio" link to "Open app in ServiceNow Studio" on app properties page and the link now leads to app details page in Servicenow Studio.
 -   **Version 29.2.6 - August 2026**
 
     Fixed: The 'Get Groups from Permission Type' action in App Intake no longer throws exceptions. The issue causing errors when retrieving groups based on permission type has been resolved.

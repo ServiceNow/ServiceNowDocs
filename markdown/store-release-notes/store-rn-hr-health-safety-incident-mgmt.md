@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-hr-health-safety-incident-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 9
 breadcrumb: [ServiceNow Store - Health and Safety version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,13 @@ Version history for the Health and Safety Core on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 13.5.0 - October 2026**
+    -   New: Health and Safety profiles include Environmental Management and Critical Event Management roles.
+    -   Fixed
+        -   Fixed readability of 'syschoice' values after the Health and Safety Core plugin installation. Field-level access controls are updated to grantpersonalizechoices role users unrestricted choice value visibility.
+        -   Addressed sn\_ohs\_im\_action create ACL ownership check in the UI layer.
+        -   Resolved accessibility issue for Delete current injury record icon in Employee Center Advanced Incident Report with Injury flow.
+        -   Resolved Injury detail form layout issue where long Severity choice labels compressed the Description field and overflowed the multi-injury dialog.
 -   **Version 13.4.1 - September 2026**
     -   Changed: Reports generated from field mapping templates now exclude empty related list reports when no related list mappings are configured. When attaching reports to records, empty related list reports are not generated or downloaded. This applies to both default and custom report generation actions.
     -   Fixed:

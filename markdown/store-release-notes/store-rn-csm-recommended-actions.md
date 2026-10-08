@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-recommended-actions.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 1
+last_updated: "2026-10-08"
+reading_time_minutes: 2
 breadcrumb: [ServiceNow Store - Customer Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,10 @@ Version history for the Recommended Actions for Customer Service application on 
 
 ## Version history
 
+-   **Version 33.0.1 - October 2026**
+    -   New:
+        -   Actionable guidance is now available for recommended actions in contextual search. Users interacting with the CRM AI Native Workspace can now view and use guidance inputs for emails, work notes, and comments directly within the knowledge base widget when reviewing search results. Action configurations are integrated to support these actions, enabling informed decisions and seamless workflows through Search result mappings.
+        -   The search result mapping record in 'Case Context for CRM AI Native Workspace' for the 'Attach Knowledge' widget has been updated with new guidance inputs related to action configurations.
 -   **Version 32.0.6 - September 2026**
 
     New: Recommended actions now support new guidances - "Attach Knowledge" and "Relevant Case" for AI Search results that will surface on CRM workspace.

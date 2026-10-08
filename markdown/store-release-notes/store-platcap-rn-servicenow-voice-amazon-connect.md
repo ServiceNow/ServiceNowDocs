@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-servicenow-voice-amazon-connect.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 7
 breadcrumb: [ServiceNow Voice version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,9 @@ Version history for the ServiceNow Voice with Amazon Connect application on the 
 
 ## Version history
 
+-   **Version 5.7.0 - October 2026**
+    -   Changed: Simplified the demo inbound contact flow for Voice AI-enabled Amazon Connect by removing unused blocks. The AI flow now connects to the existing flow at the live-agent transfer point.
+    -   Fixed: Improved security for OAuth access token storage in the Voice AI AWS Lambda function.
 -   **Version 5.6.2 - September 2026**
 
     New: Integrate ServiceNow Voice AI with Amazon Connect to manage inbound calls and route them to live agents.

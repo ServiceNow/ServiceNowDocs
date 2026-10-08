@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itam-now-assist-sam.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 4
 breadcrumb: [ServiceNow Store - IT Asset Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,9 @@ Version history for the ServiceNow Otto for Software Asset Management \(SAM\) ap
 
 ## Version history
 
+-   **Version 12.0.0 - October 2026**
+    -   The Evaluate Software Reclamation AI Agent now evaluates software subscription removal candidates at both the integration profile and software model levels using Reclamation Summary data, providing deeper visibility into optimization opportunities.
+    -   Gemma 4 26B A4B IT and Gemini 3.5 flash models are now available, expanding AI capabilities for Software Asset Management workflows.
 -   **Version 11.0.0 - September 2026**
 
     New feature: AI-powered Software spend detection -Reduce manual effort in classifying spend transactions with AI-powered software spend detection. The Software Asset Workspace now automatically identifies software purchases from imported transactions, extracts publisher and product details, and matches them to your Software Asset Management Content Library.

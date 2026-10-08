@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-wsd-workplace-calendar-synchronization.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 19
+last_updated: "2026-10-08"
+reading_time_minutes: 20
 breadcrumb: [ServiceNow Store - Workplace Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,20 @@ Version history for the Workplace Service Delivery Workplace Calendar Synchroniz
 
 ## Version history
 
+-   **Version 3.5.0 - October 2026**
+    -   New:
+        -   Administrators can use a new system property to choose whether outbound calendar updates to Microsoft Exchange \(create, update, and delete\) run immediately or in the background. Key steps now run immediately rather than waiting in a background queue, while background processing runs at a higher priority. The default is immediate.
+        -   Calendar subscriptions for a space are now deactivated automatically when certain details of that space change.
+        -   Synchronize recurring reservations containing multiple locations.
+    -   Fixed:
+        -   Not all occurrences are retrieved from Exchange Online when a series runs beyond the documented 5-year limit.
+        -   Instance Scan check "Calendar Provider Configurations Check" reported a permanent false-positive redirect URL finding on certain instances.
+        -   Clean-up blockers could get canceled for all-day reservations when created from Google.
+        -   The reservation and related blocker meetings could be cancelled after a callback from Google.
+        -   Multiple subscriptions could be created after clicking Activate multiple times.
+        -   In some cases, the blocker reservation could be stuck in a draft state after services were added to a confirmed reservation.
+        -   In some cases, the cleanup blocker could be rejected for all-day reservations with services.
+        -   The delete event was not triggered during auto-cancellation when synchronizing with Google.
 -   **Version 3.4.22 - September 2026**
     -   Fixed:
         -   An all-day Outlook meeting spanning multiple days created a reservation for the first day only for each occurrence, leaving the room shown as free on subsequent days.

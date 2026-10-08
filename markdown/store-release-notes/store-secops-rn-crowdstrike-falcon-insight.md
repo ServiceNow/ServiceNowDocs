@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-crowdstrike-falcon-insight.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-10-08"
 reading_time_minutes: 2
 breadcrumb: [ServiceNow Store - Security Incident Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
@@ -17,6 +17,10 @@ Version history for the CrowdStrike Falcon Insight Integration for Security Oper
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 1.5.7 - October 2026**
+
+    Fixed: The "Create Indicators" action in the CrowdStrike Create IOCs subflow that failed with the provided data does not match expected format when the instance's date\_format system property was set to a non-UTC format \(e.g. DD-MM-YYYY\). Date values are now normalized to the API-expected format regardless of the instance's date\_format setting.
 
 -   **Version 1.5.6 - July 2026**
 

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-fso-financial-services-operations-core.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 13
+last_updated: "2026-10-08"
+reading_time_minutes: 15
 breadcrumb: [ServiceNow Store - Financial Services version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,19 @@ Version history for the Financial Services Operations Financial Services Operati
 
 ## Version history
 
+-   **Version 12.6.0 - October 2026 \(Australia\)**
+    -   Changed
+        -   Updated the processing\_code choice values for Visa transactional data to reflect the correct set of options, with fixed sequence ordering for values 29, 30, and 39.
+        -   Updated the processing\_code and merchant\_advice\_code choice values for Mastercard transactional data, with corrected sentence-case labels for merchant advice codes.
+-   **Version 13.2.1 - October 2026**
+    -   Changed
+        -   Updated the processing\_code choice values for Visa transactional data to reflect the correct set of options.
+        -   Updated processing\_code and merchant\_advice\_code choice values for Mastercard transactional data, with corrected sentence-case labels for merchant advice codes.
+        -   The AI Summary component on the claim workspace and claim summary have been replaced with the ServiceNow AI context menu \(NACM\), providing a consistent AI-assisted summarization experience. The component is hidden on unsaved records and only appears when the Claim Summarization skill configuration is active.
+    -   Fixed
+        -   Fixed a security vulnerability in household member lookups where queries could be manipulated via encoded query injection; lookups now enforce ACL checks and guard against null customer inputs.
+        -   Fixed the service selection page to validate and sanitize the lookup table and record identifiers it receives, preventing crafted requests from redirecting writes to unintended tables.
+        -   Fixed the work-notes save modal on both Claim Summary and Claim Workspace so that user edits are correctly preserved, save failures are surfaced with an explanatory message \(keeping the modal open and text intact\), and Cancel reliably closes the dialog.
 -   **Version 13.1.3 - September 2026**
     -   New:
         -   34 generic transaction data fields added to the BOM transaction record, including issuer BIN country code, 3DS purchase order number, merchant order ID, device fingerprint, customer account login IDs, shipping address fields \(from 3DS, merchant, and agentic sources\), settlement and authorization amounts in USD, initiating party indicator, merchant-initiated transaction class, local cashback amount, and PAN reference ID.

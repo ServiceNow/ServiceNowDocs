@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-grc-rn-operational-sustainability-int-socialsuite.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance version history release notes, ServiceNow Store version history release notes]
 ---
@@ -17,6 +17,10 @@ Version history for the ServiceNow® Operational Sustainability Integration with
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 23.1.6 - October 2026 \(Brazil\)**
+
+    Fixed: List action buttons \(e.g., Upload Document, Sync Topics\) that failed to open their modal on click due to a missing event mapping now work correctly.
 
 -   **Version 22.3.1 - June 2026 \(Australia\)**
 

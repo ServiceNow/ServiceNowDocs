@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-fso-card-data-security-container.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Financial Services version history release notes, ServiceNow Store version history release notes]
 ---
@@ -16,6 +16,9 @@ Version history for the ServiceNow® Card data security container application on
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
+-   **Version 2.2.0 - October 2026**
+    -   New: The file reveal component now supports ZIP archives, enabling users to browse the contents and download the selected file from the viewer.
+    -   Changed: Updated the file reveal configuration to add ZIP-specific styling and a rendering mode for the Seismic container when displaying ZIP archives."
 -   **Version 2.1.0 - September 2026**
 
     Changed: Updated internal application components to support ongoing platform enhancements

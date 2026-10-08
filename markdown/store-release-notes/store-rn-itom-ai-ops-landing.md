@@ -20,14 +20,14 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 Version history for the ITOM AIOps Dashboards on the ServiceNow Store.
 -   **[AIOps Experience release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-aiops-experience.md)**  
 Version history for the ITOM AIOps Experience application on the ServiceNow Store.
+-   **[AIOps LEAP release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-aiops-leap.md)**  
+Version history for the AIOps LEAP application on the ServiceNow Store.
 -   **[Alert Rules Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-itbm-rn-alert-rules.md)**  
 Version history for the Alert Rules Management on the ServiceNow Store.
 -   **[Event Management Connectors release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-event-mgmt-connectors.md)**  
 Version history for the IT Operations Management Event Management Connectors on the ServiceNow Store.
 -   **[Event Management Core release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-event-management-core.md)**  
 Version history for the Event Management Core on the ServiceNow Store.
--   **[LEAP release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-aiops-leap.md)**  
-Version history for the LEAP application on the ServiceNow Store.
 -   **[Metric Intelligence release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-metric-intelligence.md)**  
 Version history for the Metric Intelligence application on the ServiceNow Store.
 -   **[Metric Rules release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-metric-rules.md)**  

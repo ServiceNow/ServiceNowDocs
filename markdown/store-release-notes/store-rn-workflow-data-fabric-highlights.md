@@ -36,6 +36,8 @@ Version history for the ERP Content Packs for Source to Settle application on th
 Version history for the ERP Data Product for Enterprise Data Foundation application on the ServiceNow Store.
 -   **[ERP Semantic Mining release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-wdf-rn-erp-semantic-mining.md)**  
 Version history for the ERP Semantic Mining application on the ServiceNow Store.
+-   **[Jira API Connector release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-wdf-rn-jira-api-connector.md)**  
+Version history for the ServiceNow® Jira API Connector application on the ServiceNow Store.
 -   **[MCP Client release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-wdf-rn-mcp-client.md)**  
 Version history for the ServiceNow® MCP Client application on the ServiceNow Store.
 -   **[Oracle HCM REST Connector release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-wdf-oracle-hcm-rest-connector.md)**  

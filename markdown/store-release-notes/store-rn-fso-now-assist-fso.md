@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-fso-now-assist-fso.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 4
 breadcrumb: [ServiceNow Store - Financial Services version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,11 @@ Version history for the ServiceNow Otto for Financial Services Operations \(FSO\
 
 ## Version history
 
+-   **Version 5.2.0 - October 2026**
+    -   Changed
+        -   Replaced the legacy AI Summary Card with a ServiceNow Otto context menu quick action for summarizing disputes and claims across Dispute Workspace, Claim Workspace, and Claim Summary.
+        -   Updated the sys\_gen\_ai\_asset\_subscription table by adding the product\_family\_3 field to support additional subscription tiers for the FSO Professional Plus and FSO Enterprise Plus product families.
+    -   Removed: Removed the legacy AI Summary Card and its underlying shareSummaryToWorkNotes / \_htmlToPlainText server-side methods, superseded by the ServiceNow Otto context menu quick action.
 -   **Version 4.1.1 - September 2026**
 
     Changed: Updated internal application components to support ongoing platform enhancements

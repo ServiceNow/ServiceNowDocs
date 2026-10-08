@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-experimentation-framework-core.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Other ServiceNow AI Platform Capabilities applications version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,9 @@ Version history for the ServiceNow® Experimentation Framework Core application 
 
 ## Version history
 
+-   **Version 1.1.20 - October 2026**
+    -   New: Centralized feature-flag-driven record gating is now available. Product teams can register records for gating using a shared mapping table and API, enabling consistent feature flag control across platforms without custom logic. Teams can hide or show records based on feature flags and implement gating in their own business rules.
+    -   Changed: Feature rollout to general availability is now managed with enhanced filtering and opt-in behavior. Features reaching GA are enabled by default, hidden from the Feature Preview Program, and instance patch and hotfix version details are now included in filtering. Boolean values are correctly handled in context APIs.
 -   **Version 1.1.14 - July 2026**
 
     Internal app, external customers only have an Opt Out of the Framework button available to use and a read only view of live experiments on the instance

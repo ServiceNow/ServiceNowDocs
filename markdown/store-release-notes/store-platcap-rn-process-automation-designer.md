@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-process-automation-designer.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 14
 breadcrumb: [ServiceNow Store - Other ServiceNow AI Platform Capabilities applications version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,12 @@ Version history for the Process Automation Designer application on the ServiceNo
 
 ## Version history
 
+-   **Version 30.2.10 - October 2026 \(Brazil\)**
+    -   New: See the ideal path at a glance — Playbook stage and activity pickers now show conditional steps, so playbook users know which steps will run next.
+    -   Fixed: Playbook diagramming issues related to decision activity and stage rendering.
+-   **Version 29.7.10 - October 2026 \(Australia\)**
+    -   New: See the ideal path at a glance — Playbook stage and activity pickers now show conditional steps, so playbook users know which steps will run next.
+    -   Fixed: Playbook diagramming issues related to decision activity and stage rendering.
 -   **Version 30.1.7 - September 2026 \(Brazil\)**
     -   Fixed:
         -   Defects associated with Playbook Generation and Summarization

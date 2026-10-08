@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-interaction-control-component.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 6
 breadcrumb: [ServiceNow Store - Customer Service Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -17,6 +17,10 @@ Version history for the Interaction Control Component application on the Service
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 5.3.0 - October 2026 \(Brazil\)**
+
+    New: This release is a technical modernization update. No user-facing features, configuration changers or behavioral changes are introduced as part of the Fluent migration. Existing functionality remains unchanged.
 
 -   **Version 5.2.5 - September 2026 \(Brazil\)**
     -   Fixed:

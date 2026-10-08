@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-cmdb-rn-success-advisor.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 4
+last_updated: "2026-10-08"
+reading_time_minutes: 5
 breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\) version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -15,6 +15,24 @@ breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\) versi
 Version history for the ServiceNow® CMDB success advisor application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
+
+-   **Version 3.2.0 - October 2026**
+    -   New:
+        -   Deduplication and Stale CI remediation agents are now available in Data Foundations advisor, enabling remediation directly from advisor-generated remediation plans.
+        -   CMDB ingestion optimizer agent is now available in SAM advisor, recommending the best-fit ingestion sources and configuration actions to improve CI coverage and attribute completeness.
+        -   Enhanced principal class recommendations using weighted scoring based on class category, operational criticality, and CI footprint, with improved exclusion-based recommendations.
+        -   Extended KPI trends from 3 to 6 months across Data Foundations, HAM, and SAM advisor, including trend charts on remediation cards.
+        -   Added managed-by-group sync status visibility in Data Foundations advisor and principal class scope change confirmations in HAM and Data Foundations advisor when ITSM CI filtering is enabled.
+    -   Changed:
+        -   Staleness KPI now uses the platform Staleness agent metric when available, with fallback to the legacy calculation.
+        -   Duplicate CI KPI now includes all duplicates with active remediation tasks.
+        -   Enhanced remediation action context and dashboard summaries.
+    -   Removed:
+        -   Legacy "CIs not updated in last N days" indicators when the new staleness metric is active.
+        -   Undo removals functionality, replaced by scope change confirmation.
+-   **Version 3.1.2 - October 2026**
+
+    Changed: Review ITSM CI filtering impact before saving scope changesHAM advisor and Data Foundations advisor require confirmation of principal-class scope changes before saving, when IT Service Management \(ITSM\) configuration item \(CI\) filtering is enabled. The confirmation includes a summary of the classes being added and removed.
 
 -   **Version 3.1.1 - September 2026**
     -   New:

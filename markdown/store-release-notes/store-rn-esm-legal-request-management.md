@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-esm-legal-request-management.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 17
 breadcrumb: [ServiceNow Store - Legal Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,11 @@ Version history for the Legal Request Management on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 10.3.7 - October 2026**
+    -   Fixed:
+        -   Uploading a file to external storage no longer produces an error message.
+        -   Approvals created from a legal request are now handled within the correct application scope.
+        -   Documents with file names containing ampersand \(&amp;\) now upload successfully through the legal record producer.
 -   **Version 10.3.4 - September 2026**
 
     Fixed: In Employee Slate, the document widget on a legal request now correctly displays details of documents stored in external storage.

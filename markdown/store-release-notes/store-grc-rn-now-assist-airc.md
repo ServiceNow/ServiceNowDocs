@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-grc-rn-now-assist-airc.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,10 @@ Version history for the ServiceNow® ServiceNow Otto® for AIRC application on t
 
 ## Version history
 
+-   **Version 23.1.1 - October 2026 \(Brazil\)**
+    -   New:
+        -   Implemented platform directive to support mixed AI native SKU support
+        -   Upgraded NowLLM to Gemma model for improved performance.
 -   **Version 23.0.1 - September 2026 \(Brazil\)**
     -   New:
         -   Enhanced AI Control Tower to automatically classify AI systems by risk at onboarding, helping identify managed and unmanaged assets and reducing manual review effort.

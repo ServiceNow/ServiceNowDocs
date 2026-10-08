@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itam-sam-ai-prime.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - IT Asset Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -17,6 +17,10 @@ Version history for the ServiceNow® Software Asset Management AI Prime applicat
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 2.7.0 - October 2026**
+
+    Starting from this version, the Evaluate Software Reclamation AI Agent evaluates removal candidates at the integration profile and software model levels using Reclamation Summary data, providing deeper visibility into optimization opportunities.
 
 -   **Version 2.5.0 - September 2026**
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itsm-advanced-recommended-actions.html
 release: store
 topic_type: reference
-last_updated: "2026-08-06"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - IT Service Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,10 @@ Version history for the ITSM Recommended Actions for ITSM - Advanced application
 
 ## Version history
 
+-   **Version 8.1.2 - October 2026**
+    -   Fixed
+        -   Activity stream relationship-change noise
+        -   API timeout in “Propose Major Incident” guidance action.
 -   **Version 8.1.1 - August 2026**
 
     Fixed: Defects
