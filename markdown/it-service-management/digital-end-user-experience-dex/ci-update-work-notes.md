@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [CI update work note, CI update, incident, device health, configuration item, business service, service offering]
-breadcrumb: [Incident diagnostics, suggested resolutions, and remedial actions, Manage, Digital End-User Experience, IT Service Management]
+breadcrumb: [Incident diagnostics, suggested resolutions, and remedial actions, Manage employee experience, Digital End-User Experience, IT Service Management]
 ---
 
 # Work notes for incident field updates with DEX

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-nowassistforsourcetopayoperations-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
@@ -91,27 +91,27 @@ Xanadu
 
 </td><td>
 
--   **[Now Assist for Sourcing and Procurement Operations \(SPO\)](https://www.servicenow.com/docs/access?context=now-assist-spo&family=xanadu&ft:locale=en-US)**
+-   **[ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://www.servicenow.com/docs/access?context=now-assist-spo&family=xanadu&ft:locale=en-US)**
 
-With ServiceNow® Now Assist for Sourcing and Procurement Operations \(SPO\), fulfillers can easily summarize procurement-related records, providing real-time progress updates and action items. Available summarization skills include
+With ServiceNow® ServiceNow Otto for Sourcing and Procurement Operations \(SPO\), fulfillers can easily summarize procurement-related records, providing real-time progress updates and action items. Available summarization skills include
 
     -   Sourcing request summarization
     -   Purchase requisition summarization
     -   Procurement case summarization
 If you're entitled to Source-to-Pay Operations Pro SKU and Sourcing and Procurement Operations Pro SKU, you can install this application.
 
--   **[Request the generative AI capabilities by using the Now Assist for SPO Virtual Agent](https://www.servicenow.com/docs/access?context=now-assist-spo-va-using&family=xanadu&ft:locale=en-US)**
+-   **[Request the generative AI capabilities by using the ServiceNow Otto for SPO Virtual Agent](https://www.servicenow.com/docs/access?context=now-assist-spo-va-using&family=xanadu&ft:locale=en-US)**
 
-Requesters can leverage contextual generative AI using the Now Assist for SPO Virtual Agent to complete self-service tasks, such as purchasing products or tracking the status of purchase requisitions, sourcing requests, or procurement cases.
+Requesters can leverage contextual generative AI using the ServiceNow Otto for SPO Virtual Agent to complete self-service tasks, such as purchasing products or tracking the status of purchase requisitions, sourcing requests, or procurement cases.
 
 
--   **[Now Assist for Supplier Lifecycle Operations \(SLO\)](https://www.servicenow.com/docs/access?context=now-assist-slo&family=xanadu&ft:locale=en-US)**
+-   **[ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)](https://www.servicenow.com/docs/access?context=now-assist-slo&family=xanadu&ft:locale=en-US)**
 
-With ServiceNow® Now Assist for SLO, supplier managers and fulfillers can summarize the details of supply-related records to keep them informed about their progress and action items.
+With ServiceNow® ServiceNow Otto for SLO, supplier managers and fulfillers can summarize the details of supply-related records to keep them informed about their progress and action items.
 
--   **[Now Assist for Accounts Payable Operations \(APO\)](https://www.servicenow.com/docs/access?context=now-assist-apo&family=xanadu&ft:locale=en-US)**
+-   **[ServiceNow Otto for Accounts Payable Operations \(APO\)](https://www.servicenow.com/docs/access?context=now-assist-apo&family=xanadu&ft:locale=en-US)**
 
-With ServiceNow® Now Assist for APO application, AP fulfillers can easily summarize invoice case and inquiry case-related records, providing real-time progress updates and action items.
+With ServiceNow® ServiceNow Otto for APO application, AP fulfillers can easily summarize invoice case and inquiry case-related records, providing real-time progress updates and action items.
 
 
 </td></tr><tr><td>
@@ -592,12 +592,12 @@ Xanadu
 
 </td><td>
 
--   Now Assist for Sourcing and Procurement Operations \(SPO\) supports summarization of procurement-related records, providing real-time progress updates and action items. Available summarization skills include:
+-   ServiceNow Otto for Sourcing and Procurement Operations \(SPO\) supports summarization of procurement-related records, providing real-time progress updates and action items. Available summarization skills include:
     -   Sourcing request summarization
     -   Purchase requisition summarization
     -   Procurement case summarization
--   Now Assist for Supplier Lifecycle Operations \(SLO\) supports summarization for the details of supply-related records to keep the supplier managers and fulfillers informed about their progress and action items.
--   Now Assist for APO supports record summarization for invoice and inquiry cases.
+-   ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) supports summarization for the details of supply-related records to keep the supplier managers and fulfillers informed about their progress and action items.
+-   ServiceNow Otto for APO supports record summarization for invoice and inquiry cases.
 
  See [Now Assist for Source-to-Pay Operations](https://www.servicenow.com/docs/access?context=now-assist-source-to-pay-operations&family=xanadu&ft:locale=en-US) for more information.
 

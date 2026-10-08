@@ -1,6 +1,6 @@
 ---
 title: ServiceNow Lux Lab for VS Code release notes
-description: The ServiceNow Lux Lab for VS Code extension transforms how you build on the ServiceNow AI Platform. Scaffold experiences, pages, and widgets with framework intelligence built in, cutting development time and ensuring consistency across your projects. See the following sections for release notes by version.
+description: The ServiceNow Lux Lab for VS Code extension transforms how you build on the ServiceNow AI Platform. Scaffold experiences, pages, and widgets with framework intelligence built in, cutting development time and ensuring consistency across your projects. See the following sections for release notes by version.Create a page collection for an existing route using the command palette or the file explorer, without leaving the editor.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/servicenow-ai-experience-lab-for-vs-code-rn.html
 release: brazil
@@ -24,7 +24,7 @@ The ServiceNow Lux Lab for VS Code extension transforms how you build on the Ser
 -   Access relevant experiences, pages, and widgets from your instance.
 -   Develop tailored experiences with AI tools.
 
-See [ServiceNow Lux Lab for VS Code extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-ai-experience-lab-for-vs-code-landing.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
@@ -92,7 +92,7 @@ ServiceNow SDK
 
 </td><td>
 
-4.10 or later
+4.12.1 or later
 
 </td><td>
 
@@ -115,4 +115,15 @@ ServiceNow instance
 </td></tr></tbody>
 </table>
 **Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/build-automate-rn-landing.md)
+
+## October 2026
+
+Create a page collection for an existing route using the command palette or the file explorer, without leaving the editor.
+
+### What's new
+
+-   ****
+
+    Support multiple page variations on the same route by creating collection pages directly from the command palette or the file explorer. Show different content to different users based on role without maintaining a separate page and URL for each audience.
+
 

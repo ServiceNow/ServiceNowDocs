@@ -1,6 +1,6 @@
 ---
 title: Header properties detection in Health Log Analytics
-description: In Health Log Analytics, automatic header properties detection separates the transport header from the inner log message and forwards only the inner log message to the source type structure. The inner message contains the actual log data without including shipping information.
+description: Automatic header properties detection in Health Log Analytics separates the transport header from the inner log message and forwards only the inner log message to the source type structure. The inner message contains the actual log data, not the shipping information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/health-log-analytics/hla-header-detection.html
 release: brazil
@@ -15,16 +15,16 @@ breadcrumb: [Log data auto-mapping and mapping, Set up HLA on your instance, Con
 
 # Header properties detection in Health Log Analytics
 
-In Health Log Analytics, automatic header properties detection separates the transport header from the inner log message and forwards only the inner log message to the source type structure. The inner message contains the actual log data without including shipping information.
+Automatic header properties detection in Health Log Analytics separates the transport header from the inner log message and forwards only the inner log message to the source type structure. The inner message contains the actual log data, not the shipping information.
 
 The Health Log Analytics application supports header properties detection for Fluentd, Beats, and Syslog \(RFC 3164, RFC 5424\).
 
 Starting with Version 33.0.27 - August 2024, the system also supports header properties detection for logs that follow the OpenTelemetry logs data model and semantic conventions. For more information, see the [OpenTelemetry Logs Data Model documentation](https://opentelemetry.io/docs/specs/otel/logs/data-model/).
 
-You can disable header properties detection for a data input. In this case, the Health Log Analytics AI Engine stops extracting properties from the header. Forwarding the complete raw message can be useful in the following situations:
+You can disable header properties detection for a data input. In this case, the Health Log Analytics AI Engine stops extracting properties from the header. Forwarding the complete raw message to the source type structure can be useful in the following situations:
 
 -   The inner log message lacks information for parsing, such as timestamp and severity.
--   The header contains information needed for structuring the log.
+-   The header contains information needed for structuring the log data.
 -   The data input forwards the logs fully parsed.
 
 For the procedure to disable header properties detection, see [Map raw log data manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/health-log-analytics/hla-data-input-mapping.md).

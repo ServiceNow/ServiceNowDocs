@@ -9,7 +9,7 @@ classification: grc-compliance-management-workspace
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [Manage policy exceptions and extensions using the Compliance Workspace, Use, GRC Compliance workspace, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Manage policy exceptions and extensions using the Compliance Workspace, Use, GRC Compliance workspace, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Request a policy exception using the Compliance Workspace

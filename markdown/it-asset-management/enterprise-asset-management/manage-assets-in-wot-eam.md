@@ -44,15 +44,15 @@ Role required: sn\_eam.asset\_manager
 
 5.  Perform the required asset action.
 
-<table id="choicetable_qfw_xxr_33c"><thead><tr><th align="left" id="d298985e141">
+<table id="choicetable_qfw_xxr_33c"><thead><tr><th align="left" id="d299855e141">
 
 Asset action
 
-</th><th align="left" id="d298985e144">
+</th><th align="left" id="d299855e144">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d298985e150">
+</th></tr></thead><tbody><tr><td id="d299855e150">
 
 **Add assets to the work order task**
 
@@ -68,7 +68,7 @@ Steps
 3.  Select **Add**.
 
 
-</td></tr><tr><td id="d298985e187">
+</td></tr><tr><td id="d299855e187">
 
 **Remove assets from the work order task**
 
@@ -79,7 +79,7 @@ Steps
 3.  In the Delete dialog box, select **Delete all** to confirm.
 
 
-</td></tr><tr><td id="d298985e214">
+</td></tr><tr><td id="d299855e214">
 
 **Move assets to another work order task**
 

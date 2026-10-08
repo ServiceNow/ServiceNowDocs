@@ -9,6 +9,7 @@ classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 4
+keywords: [TAXII collections, threat intel library, add to TAXII collections, exclusion rules, marking definitions]
 breadcrumb: [Administer, Threat Intelligence Security Center, Security Operations]
 ---
 

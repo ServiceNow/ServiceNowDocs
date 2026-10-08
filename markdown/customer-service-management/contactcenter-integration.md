@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/customer-service-management/con
 release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Integrate, Customer Service Management]
 ---
 
@@ -65,4 +65,11 @@ Agents using the integration can do the following:
 -   Transfer to another agent​
 -   Transfer to a queue​
 -   Cancel a transfer to another agent
+
+**Related topics**  
+
+
+[Implement the Interaction Controls Component \(ICC\) for contact center voice call and callback integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/enable-icc-for-ccaas.md)
+
+[Interaction Controls Component \(ICC\) call features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/interaction-controls-component-icc-call-interaction-features.md)
 

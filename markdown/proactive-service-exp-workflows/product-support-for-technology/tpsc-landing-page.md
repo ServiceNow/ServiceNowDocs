@@ -34,5 +34,13 @@ Use the Technology Product Support Case feature to manage and resolve customer i
 
 [Reference\[Omitted image "bus-learn.svg"\] Alt text:Get additional details.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/product-support-for-technology/tpsc-reference.md)
 
+</td></tr><tr><td>
+
+[Automate\[Omitted image "bus-artificial-intelligence.svg"\] Alt text:Use generative AI skills to automate technology product support case tasks.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-case-otto-about.md)
+
+</td><td>
+
+ 
+
 </td></tr></tbody>
 </table>

@@ -8,7 +8,8 @@ product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 1
+reading_time_minutes: 2
+keywords: [disseminate observables, IoC analysis, deny list, watch list, sighting search]
 breadcrumb: [Working with automated flows, Administer, Threat Intelligence Security Center, Security Operations]
 ---
 

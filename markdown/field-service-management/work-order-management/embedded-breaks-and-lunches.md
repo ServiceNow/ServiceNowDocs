@@ -26,11 +26,16 @@ The work order task form shows a **Break Embedded** checkbox that indicates whet
 
 ## Embedded break configurations
 
-Administrators have the option to further configure embedded breaks. They can turn off automatic breaks so technicians take breaks manually instead. They can also change how many minutes before a break's start time the reminder notification is sent, instead of the default 15 minutes.
+Administrators have the option to further configure embedded breaks. They can turn off automatic breaks so technicians take breaks manually instead. They can also change how many minutes before a break's start time the reminder notification is sent, instead of the default 15 minutes. They can also let technicians end a break early from the mobile agent app instead of waiting for it to end automatically. They can also configure a buffer around each break's window, giving a technician flexibility to start a break early or late without falling outside the allowed range.
 
 -   `sn_fsm_shift_schdl.enable_embed_break_in_wot` — Enables or disables break embedding within work order tasks globally.
 -   `sn_fsm_shift_schdl.wfo.break.auto_status` — When enabled, a break's status updates automatically once its scheduled end time passes, so technicians don't have to manually mark the break as taken.
 -   `sn_fsm_shift_schdl.wfo.break.reminder_minutes` — Sets how many minutes before a break's scheduled start time the system sends a reminder.
+-   `sn_fsm_shift_schdl.wfo.break.end_early_enabled` — When enabled \(and Auto-status breaks is off\), technicians can end a break early from the mobile agent app instead of waiting for it to end automatically. If Auto-status breaks is on, this property is ignored.
+-   `sn_fsm_shift_schdl.break_buffer_enabled` — Enables or disables a pre/post buffer around break windows, letting a break start outside the scheduled window within the buffered range.
+-   `sn_fsm_shift_schdl.break_buffer_minutes` — Sets the global fallback buffer, in minutes, applied on each side of a break window when a technician has no buffer value set on their own Resource Schedule Attribute record.
+
+You can also set the buffer for an individual technician using the Pre-break buffer and Post-break buffer fields on their Resource Schedule Attributes record. These values override the global buffer set in sn\_fsm\_shift\_schdl.break\_buffer\_minutes.
 
 For details, see [Properties installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/r_PropInstallWFieldServMgmnt.md).
 

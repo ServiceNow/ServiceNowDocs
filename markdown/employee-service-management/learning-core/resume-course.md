@@ -8,7 +8,7 @@ product: Learning Core
 classification: learning-core
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Using My Learning, Learning, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
@@ -33,24 +33,8 @@ Role required: admin
 
 **Parent Topic:**[Using My Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/learning-core/manage-your-learning.md)
 
-**Parent Topic:**[Using My Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/learning-core/manage-your-learning.md)
-
 **Related topics**  
 
-
-[Enroll in a course collection on My Learning]()
-
-[Create a personal course collection]()
-
-[Create a Learning challenge]()
-
-[View recent activity]()
-
-[Assign Learning to your team]()
-
-[Manage Learning]()
-
-[Skill sensing for learning content]()
 
 [Enroll in a course collection on My Learning]()
 

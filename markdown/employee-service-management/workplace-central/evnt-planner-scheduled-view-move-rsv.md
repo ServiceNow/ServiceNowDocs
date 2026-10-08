@@ -171,5 +171,3 @@ As a reservation or space planner, you can perform the following actions:
 
 **Parent Topic:**[Working with schedule view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-central/working-with-schedule-view.md)
 
-**Parent Topic:**[Working with schedule view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-central/working-with-schedule-view.md)
-

@@ -9,14 +9,14 @@ last_updated: "2026-09-09"
 reading_time_minutes: 3
 keywords: [Autonomous Engineer, Build Agent, plan dashboard, work items, milestones, pre-flight verification, Overview tab, Work items tab]
 audience: programmer
-breadcrumb: [Overview, Autonomous Engineer, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Overview, Autonomous Engineer, Build, AI Workflow Factory, Building applications]
 ---
 
 # Using the dashboard
 
 The Autonomous Engineer dashboard displays the status of every work item in your plan and provides navigation to individual work items, milestones, and pre-flight verification items.
 
-After you approve a plan, the dashboard opens in Autonomous Engineer. The dashboard updates as background agents complete work items, so you can track progress without leaving the editor. The dashboard has two tabs: **Overview** and **Work items**. To return to a previous plan or find plans created by other users, use the **Plans** view in the Build Agent navigator panel. For more information, see .
+After you approve a plan, the dashboard opens in Autonomous Engineer. The dashboard updates as background agents complete work items, so you can track progress without leaving the editor. The dashboard has two tabs: **Overview** and **Work items**. To return to a previous plan or find plans created by other users, use the **Plans** view in the Build Agent navigator panel. For more information, see [Plans in Autonomous Engineer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ae-plans.md).
 
 ## Overview tab
 

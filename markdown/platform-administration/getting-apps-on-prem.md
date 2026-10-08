@@ -39,6 +39,8 @@ Use the following steps to procure apps and products without connecting your ins
     After uploading the encrypted app file, use the Application Manager to install the application to your on-premise instance.
 
 
+For information about updating applications in unconnected on-premise instances, see the article [Upgrade guidance for self-hosted customers \[KB0598275\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0598275) on the Now Support Knowledge Base.
+
 ## Procuring apps and products by connecting to the ServiceNow Store
 
 Contact [Customer Service and Support](https://support.servicenow.com/now) to connect your instance to the ServiceNow Store.

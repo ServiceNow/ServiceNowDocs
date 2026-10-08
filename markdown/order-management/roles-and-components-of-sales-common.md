@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/roles-and-components-of-sales-common.html
 release: brazil
 topic_type: concept
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [Install Sales Common for Partner Relationship Management, Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---

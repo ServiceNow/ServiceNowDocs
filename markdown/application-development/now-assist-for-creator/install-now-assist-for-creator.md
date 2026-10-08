@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto for Creator, Install ServiceNow Otto for Creator, Now Assist, Now Assist for Creator, Install Now Assist for Creator]
-breadcrumb: [Configure, ServiceNow Otto for Creator, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Configure, ServiceNow Otto for Creator, Build, AI Workflow Factory, Building applications]
 ---
 
 # Install ServiceNow Otto for Creator
@@ -41,4 +41,6 @@ Install the ServiceNow Otto for Creator application.
 ## What to do next
 
 Turn on the ServiceNow Otto for Creator skills, AI agents, and agentic workflows that you want to use.
+
+**Parent Topic:**[Configuring ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/now-assist-for-creator/configuring-now-assist-for-creator.md)
 

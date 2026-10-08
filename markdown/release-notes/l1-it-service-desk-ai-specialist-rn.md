@@ -1,12 +1,12 @@
 ---
 title: L1 IT Service Desk AI Specialist release notes
-description: The ServiceNow L1 IT Service Desk AI Specialist application is an autonomous worker that investigates and resolves incidents end-to-end without human intervention. It's designed to support high-volume, repeatable L1 incidents enabling a live human agent to handle more complex issues. For incidents that come in as requests, it proposes the appropriate request item, such as a software access. See the following sections for release notes by version.The L1 IT Service Desk AI Specialist is a new application in ServiceNow Otto for IT Service Management \(ITSM\) in the Brazil release.
+description: The ServiceNow L1 IT Service Desk AI Specialist application is an autonomous worker that investigates and resolves incidents end-to-end without human intervention. It's designed to support high-volume, repeatable L1 incidents enabling a live human agent to handle more complex issues. For incidents that come in as requests, it proposes the appropriate request item, such as a software access. See the following sections for release notes by version.The L1 IT Service Desk AI Specialist has been updated.The L1 IT Service Desk AI Specialist is a new application in ServiceNow Otto for IT Service Management \(ITSM\) in the Brazil release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/l1-it-service-desk-ai-specialist-rn.html
 release: brazil
 topic_type: topic
 last_updated: "2026-09-10"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [IT Service Management release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
@@ -42,7 +42,30 @@ See [L1 IT Service Desk AI Specialist](https://raw.githubusercontent.com/Service
 
 **Parent Topic:**[IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/it-service-management-rn-landing.md)
 
-## Version 2.0
+## Brazil Patch 0 and Version 1.2
+
+The L1 IT Service Desk AI Specialist has been updated.
+
+### What's new
+
+-   **[Configure L1 IT Service Desk AI Specialist tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/config-tasks-l1-sd-ai-spec-sow.md) Response Templates**
+
+    AI Admins can switch response templates between a fixed template and dynamic mode, where the AI Specialist writes activity notes, customer comments, work notes, and close notes from free-form instructions the administrator provides.
+
+-   **[Catalog request submission and tracking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/catalog-variable-collection-slot-fill-l1-sd-ai-spec.md)**
+
+    The L1 IT Service Desk AI Specialist can resolve incidents by submitting service catalog requests on behalf of users. The L1 IT Service Desk AI Specialist collects the required details through guided questions, submits or drafts the request, and resolves the linked incident so users can track fulfillment through the request.
+
+-   **[Catalog performance analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/catalog-tab-l1-sd-ai-spec.md)**
+
+    A new Catalog tab on the AI Specialist performance dashboard shows drafted, submitted, abandoned, and canceled request volumes by catalog item. This gives administrators visibility into how well the AI Specialist is handling catalog-based resolutions.
+
+-   **[AI Quality assessment for L1 IT Service Desk AI Specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/qa-l1-sd-ai-spec.md)**
+
+    Evaluate L1 IT Service Desk AI Specialist's work, captured in a coaching assessment against the rubric defined on the coaching opportunity by using the AI Quality Assessment skill to get consistent, objective scoring.
+
+
+## Version 1.1
 
 The L1 IT Service Desk AI Specialist is a new application in ServiceNow Otto for IT Service Management \(ITSM\) in the Brazil release.
 

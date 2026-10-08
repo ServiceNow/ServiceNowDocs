@@ -27,6 +27,8 @@ Email OTP is a medium-assurance factor and is not suitable as the only authentic
 
 During an AI voice agent session, the platform generates a one-time numeric code and sends it to the caller's email address. The caller retrieves the code from their email and provides it to the agent. The platform validates the code and returns the result to the orchestrator. Email OTP supports both **Text** and **Voice** input.
 
+**Note:** Email OTP factor isn’t supported for step-up authentication.
+
 ## Email source configuration
 
 Email OTP determines which email address to send the code to by reading from a configuration record in the Email OTP Service Configurations table. Each record specifies a user record location: which table to look in, which column holds the email, and which column links that record back to the user's identity in sys\_user. The table is domain-separated.

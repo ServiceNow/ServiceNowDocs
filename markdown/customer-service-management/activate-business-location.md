@@ -1,16 +1,16 @@
 ---
-title: Activate business locations
+title: Activate the Business Location plugin
 description: Activate the Business Location plugin to manage customer service for business locations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/activate-business-location.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-10-04"
 reading_time_minutes: 1
 breadcrumb: [Activate plugins, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
 
-# Activate business locations
+# Activate the Business Location plugin
 
 Activate the Business Location plugin to manage customer service for business locations.
 

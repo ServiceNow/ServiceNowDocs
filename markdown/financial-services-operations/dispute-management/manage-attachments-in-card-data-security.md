@@ -40,3 +40,7 @@ The files in the **Merchant** tab aren't stored in the ServiceNow instance; they
 
 \[Omitted image "card-data-security-merchant-attachments.png"\] Alt text: Transaction review page showing the Merchant tab in Attachments.
 
+When a file in the **Merchant** tab is a ZIP archive, select it to open a viewer that lists the files inside the archive. Select a file from the list to preview it in the viewer, then select **Download** to save that file to your device.
+
+\[Omitted image "card-data-security-zip-contents.png"\] Alt text: Screenshot of ZIP file viewer showing three files listed, and a Download button to download the selected file.
+

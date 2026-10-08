@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-brazil/brazil-zurich-commoncore-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 8
 breadcrumb: [Products combined by family]
 ---
@@ -75,17 +75,17 @@ Zurich
 
 </td><td>
 
--   **[\[Placeholder link text to key report-a-grc-issue\]](https://www.servicenow.com/docs/access?context=report-a-grc-issue&family=zurich&ft:locale=en-US)**
+-   **[Report a GRC issue](https://www.servicenow.com/docs/access?context=report-a-grc-issue&family=zurich&ft:locale=en-US)**
 
 The report a GRC issue AI agent is now available in the Employee Center, enabling employee users to report issues through a guided conversational experience. As users respond to prompts, the agent structures the issue and recommends relevant controls, entities, and policies based on the input provided. The AI agent helps ensure that the issue is well-defined and enriched with contextual information before it's submitted.
 
--   **[\[Placeholder link text to key continuous-monitoring-of-entity-based-access\]](https://www.servicenow.com/docs/access?context=continuous-monitoring-of-entity-based-access&family=zurich&ft:locale=en-US)**
+-   **[Entity-based record access rules](https://www.servicenow.com/docs/access?context=continuous-monitoring-of-entity-based-access&family=zurich&ft:locale=en-US)**
 
 Maintain seamless access for users and groups referenced in record fields when entity-based access restrictions are applied. This feature enables users and groups referenced in a record’s user or group fields to access the records they are associated with. By configuring record-level user access at the table or record type level, it reduces administrative overhead and streamlines EBA adoption with minimal disruption.
 
--   **[\[Placeholder link text to key functional-domain-bulk-update\]](https://www.servicenow.com/docs/access?context=functional-domain-bulk-update&family=zurich&ft:locale=en-US)**
+-   **[Functional domain bulk update](https://www.servicenow.com/docs/access?context=functional-domain-bulk-update&family=zurich&ft:locale=en-US)**
 
-Apply or remove domain-specific tags across multiple records at once. This streamlines workspace management by letting you quickly filter and organize records, for example, you can exclude non-privacy-tagged items in the Privacy Workspace for a more focused, efficient view.
+Apply or remove domain-specific tags across multiple records at once. This streamlines workspace management by letting you quickly filter and organize records. For example, you can exclude non-privacy-tagged items in the Privacy Workspace for a more focused, efficient view.
 
 -   **[Entity record page enhancements](https://www.servicenow.com/docs/access?context=entities-in-risk-ws&family=zurich&ft:locale=en-US)**
 
@@ -93,12 +93,12 @@ The Entity type and Downstream Risks \(now renamed as Risks\) related lists on t
 
 **Note:** You may experience issues with custom actions that emit events on the Risks or Entity type related lists on the Entity record page. To ensure a smooth transition and adopt these changes, refer to [KB2593527](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2593527) for detailed guidance.
 
--   **[\[Placeholder link text to key configuration-of-tasks\]](https://www.servicenow.com/docs/access?context=configuration-of-tasks&family=zurich&ft:locale=en-US)**
+-   **[My tasks in the workspace](https://www.servicenow.com/docs/access?context=configuration-of-tasks&family=zurich&ft:locale=en-US)**
 
 Easily manage which configurations appear on the My Tasks page by marking them Active or Inactive. This gives you flexibility to enable or disable configurations without manual intervention, simplifying administration and improving control. An Active/Inactive flag has also been introduced in the My Choice table for enhanced configuration management.
 
 
- -   **[\[Placeholder link text to key what-is-an-entity\]](https://www.servicenow.com/docs/access?context=what-is-an-entity&family=zurich&ft:locale=en-US)**
+ -   **[Entities](https://www.servicenow.com/docs/access?context=what-is-an-entity&family=zurich&ft:locale=en-US)**
 
 Entity names in GRC now automatically update when the associated CI name changes. This enhancement improves data consistency, reduces manual effort, and ensures alignment between CI and Entity records without requiring custom automation.
 

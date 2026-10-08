@@ -27,7 +27,7 @@ Role required:
 
 ## About this task
 
-The **unified\_map\_exclude\_class\_service\_map** property in the **sn\_cmdb\_ws\_config\_property** table specifies the CMDB CI classes that display relationships on maps:
+The **unifiedmap.service\_map.exclude\_classes** property in the **sn\_cmdb\_ws\_config\_property** table specifies the CMDB CI classes that display relationships on maps:
 
 -   Dynamic CI Group \[cmdb\_ci\_query\_based\_service\]
 -   Connection Service Instance \[cmdb\_ci\_connection\_service\_instance\]

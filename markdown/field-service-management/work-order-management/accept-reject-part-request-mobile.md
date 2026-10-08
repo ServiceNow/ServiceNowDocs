@@ -38,15 +38,15 @@ Role required: wm\_agent
 
 3.  Check the part availability in your personal stockroom and determine whether you want to accept or reject the part request.
 
-<table id="choicetable_ar5_wkb_35b"><thead><tr><th align="left" id="d150897e147">
+<table id="choicetable_ar5_wkb_35b"><thead><tr><th align="left" id="d151507e147">
 
 Part availability
 
-</th><th align="left" id="d150897e150">
+</th><th align="left" id="d151507e150">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d150897e156">
+</th></tr></thead><tbody><tr><td id="d151507e156">
 
 **The part is not available**
 
@@ -54,7 +54,7 @@ Action
 
 Tap **Reject**.
 
-</td></tr><tr><td id="d150897e168">
+</td></tr><tr><td id="d151507e168">
 
 **You cannot transfer the part because you have an insufficient quantity or need the part yourself**
 
@@ -62,7 +62,7 @@ Tap **Reject**.
 
 Tap **Reject**.
 
-</td></tr><tr><td id="d150897e180">
+</td></tr><tr><td id="d151507e180">
 
 **The part is available to fulfill the request**
 

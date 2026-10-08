@@ -1,6 +1,6 @@
 ---
 title: Sales Customer Relationship Management release notes
-description: ServiceNow Sales Customer Relationship Management is a set of new and updated applications and features in the Brazil release. These applications enable you to manage the product sales life cycle in your organization, including leads, pre-sales opportunities, sales quote generation, order capture, order fulfillment, and post-sales order changes and renewals.
+description: ServiceNow Sales Customer Relationship Management is a set of new and updated applications and features in the Brazil release. These applications enable you to manage the product sales life cycle in your organization. Supported processes include leads, pre-sales opportunities, sales quote generation, order capture, order fulfillment, and post-sales order changes and renewals.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/sales-order-management-rn-landing.html
 release: brazil
@@ -12,13 +12,13 @@ breadcrumb: [Features and changes by product, Release notes for upgrading from A
 
 # Sales Customer Relationship Management release notes
 
-ServiceNow® Sales Customer Relationship Management is a set of new and updated applications and features in the Brazil release. These applications enable you to manage the product sales life cycle in your organization, including leads, pre-sales opportunities, sales quote generation, order capture, order fulfillment, and post-sales order changes and renewals.
+ServiceNow® Sales Customer Relationship Management is a set of new and updated applications and features in the Brazil release. These applications enable you to manage the product sales life cycle in your organization. Supported processes include leads, pre-sales opportunities, sales quote generation, order capture, order fulfillment, and post-sales order changes and renewals.
 
 **Note:**
 
 Sales Customer Relationship Management includes workflows for Customer Lifecycle Operations \(Customer Life Cycle Management\). For details on these features in the Brazil release, see the [Customer Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/customer-service-mgmt-rn-landing.md).
 
-Also, agents can use the Case Management for Order Operations and Case Management for Invoice Operations application to display order and invoice cases and case line items in CRM Workspace. The Case lines and workflows application provide the ability to reference multiple order line items on a case record.
+Agents can use the Case Management for Order Operations and Case Management for Invoice Operations application to display order and invoice cases in CRM Workspace. Case line items are also visible in this view. The Case lines and workflows application supports referencing multiple order line items on a case record.
 
 -   **[CRM API Core release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/crm-api-core-rn.md)**  
 The ServiceNow® CRM API Core application tracks and manages Sales CRM workflows with configurable request processing and Service Order Management integration. See the following sections for release notes by version.
@@ -26,14 +26,16 @@ The ServiceNow® CRM API Core application tracks and manages Sales CRM workflows
 The ServiceNow® CRM Core application manages the complete product life cycle from lead to cash. The application provides workflows, configurable entity mappings, and declarative actions such as suspend, resume, and disconnect on sold products. See the following sections for release notes by version.
 -   **[CRM Outlook Add-in release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/crm-outlook-add-in-rn.md)**  
 The ServiceNow® CRM Outlook Add-in application captures and logs email interactions into CRM directly from Microsoft Outlook. See the following sections for release notes by version.
+-   **[Customer self-service for Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/customer-self-service-sales-crm-rn.md)**  
+The ServiceNow® Business Portal application enables B2B customers to build sales carts, place orders, request quotes, and get support for orders and invoices through a self-service web portal. See the following sections for release notes by version.
 -   **[Customer Contracts and Entitlements release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/customer-contracts-entitlements-rn.md)**  
 The ServiceNow® Customer Contracts and Entitlements application enables users to manage contracts from the initial offer to contract finalization, directly within the CSM Configurable Workspace. See the following sections for release notes by version.
 -   **[Customer Engagement Sequences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/customer-engagement-sequences-rn.md)**  
 The ServiceNow® Customer Engagement Sequences application enables customer-focused teams to execute structured, personalized outreach and follow-up activities that engage customers throughout their relationship with your business. See the following sections for release notes by version.
--   **[Customer self-service for Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/customer-self-service-sales-crm-rn.md)**  
-The ServiceNow® Business Portal application enables B2B customers to build sales carts, place orders, request quotes, and get support for orders and invoices through a self-service web portal. See the following sections for release notes by version.
 -   **[Opportunity Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/opportunity-management-rn.md)**  
 The ServiceNow® Opportunity Management application enables your sales agents and account executives to create and manage opportunities. See the following sections for release notes by version.
+-   **[Order Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/order-management-rn.md)**  
+The ServiceNow® Order Management application enables you to capture, manage, and fulfill product and service orders from enterprise customers. See the following sections for release notes by version.
 -   **[Partner Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/partner-relationship-management-rn.md)**  
 The ServiceNow® Partner Relationship Management application provides a unified solution for sales, delivery, marketing, and operations to manage the entire partner life cycle. See the following sections for release notes by version.
 -   **[Pricing Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/price-management-rn.md)**  

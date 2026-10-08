@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-australia-brazil/brazil-australia-spmenterprisewidedeployment-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
@@ -105,7 +105,10 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **[Partition-specific dashboards](https://www.servicenow.com/docs/access?context=map-dashboard-to-partition-ewd&family=brazil&ft:locale=en-US)**
+
+Map dashboards to partitions so that each partition uses its own dashboard layout and settings. A partition-to-dashboard mapping table stores these associations, so you can create, update, and delete mappings as your partition structure changes.
+
 
 </td></tr></tbody>
 </table>## Changes
@@ -134,7 +137,12 @@ Brazil
 
 </td><td>
 
--   **[Restrict system administrator access to partitioned data](https://www.servicenow.com/docs/access?context=configure-admin-access-to-all-partitions&family=brazil&ft:locale=en-US)**
+-   **[Portfolio project partition coverage](https://www.servicenow.com/docs/access?context=supported-tables-for-partition-ewd&family=brazil&ft:locale=en-US)**
+
+Partition protection extends to the relationships between portfolios and projects, stored in the Portfolio Project \[`pm_m2m_portfolio_project`\] table. Users see portfolio-project relationships only for the partitions that they can access.
+
+
+ -   **[Restrict system administrator access to partitioned data](https://www.servicenow.com/docs/access?context=configure-admin-access-to-all-partitions&family=brazil&ft:locale=en-US)**
 
 Restrict system administrators from accessing partition-protected data through a new configurable system property. The system property **sn\_spm\_ewd.allow\_admin\_access\_to\_all\_partitions** controls whether system administrators can access all partitions by default. By default, this property is set to `false`, which means system administrators must have the appropriate partition role to access partition-protected data.
 

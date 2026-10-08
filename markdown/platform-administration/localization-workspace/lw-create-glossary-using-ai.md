@@ -50,7 +50,7 @@ Both stages may take some time, depending on the count of articles and words. Wh
 
 5.  In the **Use the optional filters to refine your search** step, you can adjust the following filters to limit the KB articles retrieved.
 
-<table id="choicetable_hjn_rxs_hkc"><tbody><tr><td id="d365761e162">
+<table id="choicetable_hjn_rxs_hkc"><tbody><tr><td id="d367441e162">
 
 **Updated from**
 
@@ -60,7 +60,7 @@ You can choose a date range using the calendar picker or by entering specific da
 -   If you don't apply a date filter, all published articles are candidates.
 
 
-</td></tr><tr><td id="d365761e179">
+</td></tr><tr><td id="d367441e179">
 
 **Search my articles only**
 
@@ -68,7 +68,7 @@ You can choose a date range using the calendar picker or by entering specific da
 
 When the check box is selected \(checked\), the search retrieves only articles authored by the current user.
 
-</td></tr><tr><td id="d365761e188">
+</td></tr><tr><td id="d367441e188">
 
 **Minimum number of views**
 

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-fieldservicemanagement-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 16
+last_updated: "2026-10-08"
+reading_time_minutes: 18
 breadcrumb: [Products combined by family]
 ---
 
@@ -209,7 +209,24 @@ Brazil
 
 </td><td>
 
--   **[Schedule Optimization v1.2 support for overlapping territories during prioritized optimization](https://www.servicenow.com/docs/r/store-release-notes/store-rn-fsm-schedule-optimization.html)**
+-   **[Field Service Questionnaires with Smart Assessments v4.0](https://www.servicenow.com/docs/access?context=create-a-smart-assessment-template&family=brazil&ft:locale=en-US)**
+
+Create Smart Assessment templates faster by adding standard questions from a question bank instead of authoring each question manually.
+
+-   **[Appointment Booking v1.1](https://www.servicenow.com/docs/access?context=appt-booking-create-service-config&family=brazil&ft:locale=en-US)**
+
+Enhanced arrive-by appointments to display only slots where technicians can complete work before the end of the day, helping prevent overbooking past technicians' availability.
+
+-   **[Field Service Mobile v3.1](https://www.servicenow.com/docs/access?context=embedded-breaks-and-lunches&family=brazil&ft:locale=en-US)**
+
+Take a break before its scheduled time, extend a break in progress up to your organization's configured limit, or end a break early when your organization allows it. The break updates on your schedule to reflect the actual time.
+
+-   **[FSM Configurable Dispatcher Workspace Bundle v11.1 avoid ferry routes](https://www.servicenow.com/docs/access?context=r_PropInstallWFieldServMgmnt&family=brazil&ft:locale=en-US)**
+
+Avoid ferries when dispatchers view agent routes on the Dispatcher Workspace map. When an administrator enables the [avoid ferry routes property](https://www.servicenow.com/docs/access?context=r_PropInstallWFieldServMgmnt&family=brazil&ft:locale=en-US) \(`sn_fsm_disp_wrkspc.dispatcher_workspace.avoid_ferry_routes`\), routes use land roads even if they take longer, and a ferry is used only when no land route is available.
+
+
+ -   **[Schedule Optimization v1.2 support for overlapping territories during prioritized optimization](https://www.servicenow.com/docs/r/store-release-notes/store-rn-fsm-schedule-optimization.html)**
 
 Expand prioritized event optimization to include overlapping territories when determining the technicians and tasks directly impacted by an event. Configure a search radius at the qualifier level to control which overlapping territories are considered.
 
@@ -521,7 +538,12 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **Activation information**
+
+Install Field Service Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=brazil&ft:locale=en-US).
+
+
+**Note:** Field Service Management is available in the ServiceNow Store. For details, see [\[Placeholder link text to key t\_ActivateFieldServiceManagement\]](https://www.servicenow.com/docs/access?context=t_ActivateFieldServiceManagement&family=brazil&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -821,7 +843,13 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   Create, dispatch, and track work orders across your field service operations.
+-   Manage technician and contractor capacity, skills, and availability to optimize resource allocation.
+-   Track inventory, assets, and planned work to confirm crews have what they need in the field.
+-   Monitor field service performance, quality metrics, territory planning, crew operations, and contractor work to meet customer commitments and service level agreements.
+-   Use ServiceNow Otto AI capabilities to help technicians, dispatchers, and managers work more efficiently and close tasks faster.
+
+ See [Field Service Management](https://www.servicenow.com/docs/access?context=fsm-application-landing-page&family=brazil&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-xanadu-brazil/rn-combined-intro.md)

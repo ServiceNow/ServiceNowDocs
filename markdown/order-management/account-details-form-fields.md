@@ -1,18 +1,18 @@
 ---
-title: Account Details form
-description: The Accounts Details form enables you to create or review account details for a customer or for a partner.
+title: Account details form
+description: Use the Account Details form to create or review account information for customers and partners.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/account-details-form-fields.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-09-27"
 reading_time_minutes: 1
 breadcrumb: [Order Management reference, Reference, Sales Customer Relationship Management]
 ---
 
-# Account Details form
+# Account details form
 
-The Accounts Details form enables you to create or review account details for a customer or for a partner.
+Use the Account Details form to create or review account information for customers and partners.
 
 <table id="table_qrh_qrq_4nb"><thead><tr><th>
 
@@ -52,7 +52,7 @@ Parent Account
 
 </td><td>
 
-Name of the parent account, if any, for this account. -   For example, if you are setting up an account that is a national branch of a multi-national corporation, the parent account is the one for the multi-national corporation.
+Name of the parent account, if any, for this account. -   For example, if the account is a national branch of a multinational corporation, the parent account is the multinational corporation account.
 -   If there isn't a parent account, leave this field empty.
 
 </td></tr><tr><td>
@@ -133,7 +133,7 @@ Country
 
 </td><td>
 
-Name of the city for the account.
+Name of the country for the account.
 
 </td></tr><tr><td>
 
@@ -141,7 +141,7 @@ Notes
 
 </td><td>
 
-Free form note text for the customer account.
+Free-form note text for the account.
 
 </td></tr><tr><td>
 
@@ -173,7 +173,7 @@ Assumed name
 
 </td><td>
 
-The trade name or DBA \(Doing Business As\) used publicly.
+Trade name or doing business as \(DBA\) name used publicly.
 
 </td></tr><tr><td>
 
@@ -197,7 +197,7 @@ Tax ID
 
 </td><td>
 
-Unique tax identification number for regulatory purpose.
+Unique tax identification number for regulatory purposes.
 
 </td></tr><tr><td>
 
@@ -216,5 +216,7 @@ Sales Owner
 The internal contact responsible for managing the account relationship.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Order Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-mgt-reference.md)
+</table>**Note:** When you create an account through the account creation API, the value you provide for **Legal entity name** is saved with the account record.
+
+**Parent Topic:**[Order Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-mgt-reference.md)
 

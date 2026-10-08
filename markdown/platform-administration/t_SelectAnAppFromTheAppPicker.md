@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Administer your apps, Administering applications, Get started, Administer the ServiceNow AI Platform]
+breadcrumb: [Basic system configuration, Get started, Administer the ServiceNow AI Platform]
 ---
 
 # Select an application from the application picker
@@ -45,5 +45,5 @@ For more information about application scoping, see [Application scope](https://
 
 For more information about selecting update sets, see [Select the current update set in Unified Navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/select-update-set-system-settings.md).
 
-**Parent Topic:**[Administer your apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/r_ManagingApplications.md)
+**Parent Topic:**[Basic system configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/p_CoreConfigurationOverview.md)
 

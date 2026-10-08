@@ -34,5 +34,13 @@ The Proactive Service Experience Workflows application enables service providers
 
 [Reference\[Omitted image "bus-learn.svg"\] Alt text:Get additional details including glossary.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/product-support-for-technology/assurance-workflows-reference.md)
 
+</td></tr><tr><td>
+
+[Automate\[Omitted image "bus-artificial-intelligence.svg"\] Alt text:Use generative AI skills to automate Proactive Service Experience Workflows tasks.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/product-support-for-technology/assurance-workflows-otto-about.md)
+
+</td><td>
+
+ 
+
 </td></tr></tbody>
 </table>

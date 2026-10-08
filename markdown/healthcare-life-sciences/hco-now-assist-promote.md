@@ -1,18 +1,18 @@
 ---
 title: Promote ServiceNow Otto for Virtual Agent for Care Team Portal
-description: The Request care team assistance agentic workflow can be promoted in Assistant Designer to show when using ServiceNow Otto for Virtual Agent.
+description: The Request care team assistance agentic workflow can be promoted in Assistant Designer to show when using the Care Team Operations AI Chat Assistant.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hco-now-assist-promote.html
 release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, ServiceNow Otto for Care Team Operations, Healthcare Operations, Healthcare and Life Sciences]
+breadcrumb: [Configure, Care Team Portal, Healthcare Operations, Healthcare and Life Sciences]
 ---
 
 # Promote ServiceNow Otto for Virtual Agent for Care Team Portal
 
-The Request care team assistance agentic workflow can be promoted in Assistant Designer to show when using ServiceNow Otto for Virtual Agent.
+The Request care team assistance agentic workflow can be promoted in Assistant Designer to show when using the Care Team Operations AI Chat Assistant.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: admin
 
 1.  Navigate to **Assistant Designer** &gt; **Asset library**.
 
-2.  In Select assistant, select **ServiceNow Otto for Virtual Agent**.
+2.  In Select assistant, select **Care Team Operations AI Chat Assistant**.
 
 3.  In **Request care team assistance**, navigate to the additional options icon.
 
@@ -33,5 +33,5 @@ Role required: admin
 
 ## Result
 
-The Request care team assistance agentic workflow is now promoted for users and is selectable when using ServiceNow Otto for Virtual Agent in Care Team Portal.
+The Request care team assistance agentic workflow is now promoted for users and is selectable when using the Care Team Operations AI Chat Assistant in Care Team Portal.
 

@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-l
 release: brazil
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Product adoption, Customer success, Use, Customer Success Management]
 ---
 
@@ -42,7 +42,7 @@ Use this task to create a visual roadmap that helps communicate product adoption
 
     -   From scratch: Manually configure all roadmap settings and add products or capabilities.
     -   Template: Use a pre-configured template that includes lanes, items, and phase field settings. Select a template from the **Template** drop down list and select **Finish**. The roadmap is created based on the pre-configured values defined in the template. See [Define a product adoption roadmap template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-create-par-roadmap-temp.md) for details.
-    -   ServiceNow Otto: Generate a roadmap using ServiceNow Otto. See [Generate a product adoption roadmap using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-tmt-generate-par-roadmap.md) for details.
+    -   ServiceNow Otto: Generate a roadmap using ServiceNow Otto. See [Generate a product adoption roadmap using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/now-assist-tmt-generate-par-roadmap.md) for details.
 
         **Note:** The ServiceNow Otto option is displayed only if:
 
@@ -68,6 +68,9 @@ Use this task to create a visual roadmap that helps communicate product adoption
     -   Sync: Select **Sync** to update the usage records with their roadmap lane values. This updates the Phase field in each product or capability usage record to match its current lane. For example, if the Phase field is **Customer priority** and an item is in the **Critical** lane, the corresponding field is updated to **Critical** in the usage record.
     -   Duplicate: Select **Duplicate map** to make a copy of the roadmap.
     -   Retire: Select **Retire** to archive the roadmap.
+
+-   **[Generate a product adoption roadmap using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/now-assist-tmt-generate-par-roadmap.md)**  
+Generate a product adoption roadmap with products or capabilities organized into lanes based on engagement data and insights from similar engagements.
 
 **Parent Topic:**[Product adoption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-use-product-adopt.md)
 

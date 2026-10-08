@@ -38,6 +38,8 @@ The ServiceNow® Synthetic monitoring application in the Service Operations Work
 The ServiceNow®Event Management application helps you detect and resolve IT issues before they disrupt services. It ingests events from monitoring tools, reduces noise through deduplication and filtering, and correlates related events into actionable alerts. When Event Management identifies a business-impacting condition, it surfaces a prioritized alert linked to affected services and CIs. See the following sections for release notes by version.
 -   **[Health Log Analytics release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/health-log-analytics-rn.md)**  
 The ServiceNow® Health Log Analytics application predicts IT issues before they affect users by ingesting, analyzing, and correlating machine-generated log data in real time. When Health Log Analytics detects a deviation from a normal pattern, it alerts you to a possible business-impacting issue. See the following sections for release notes by version.
+-   **[Service Reliability Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/service-reliability-management-rn.md)**  
+The ServiceNow® Service Reliability Management \(SRM\) application helps your organization respond, collaborate, and self-remediate when working on alerts and incidents. See the following sections for release notes by version.
 
 **Parent Topic:**[IT Operations Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/it-operations-management-rn-landing.md)
 

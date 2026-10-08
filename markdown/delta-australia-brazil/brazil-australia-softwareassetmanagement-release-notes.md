@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-australia-brazil/brazil-australia-softwareassetmanagement-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 18
+last_updated: "2026-10-08"
+reading_time_minutes: 21
 breadcrumb: [Products combined by family]
 ---
 
@@ -67,7 +67,30 @@ Australia
 
 </td><td>
 
--   **[Improved license compliance reporting for Smartsheet SaaS integration](https://www.servicenow.com/docs/access?context=integrate-with-smartsheet&family=australia&ft:locale=en-US)**
+-   **[Install the Software Asset Management application from the Product Hub](https://www.servicenow.com/docs/access?context=sam-product-hub&family=australia&ft:locale=en-US)**
+
+Streamline onboarding by installing Software Asset Management and its dependent applications from the Product Hub. The Product Hub is the central location to view and manage all applications included in your Software Asset Management subscription. Access product documentation, videos, release notes, and community links from the same place.
+
+**Important:** Product Hub is available starting from Australia Patch 7.
+
+-   **[Set up the Software Asset Management application using the Configuration Console](https://www.servicenow.com/docs/access?context=config-console-sam&family=australia&ft:locale=en-US)**
+
+Reduce the time it takes to set up Software Asset Management after installing it from the Product Hub by using the Configuration Console, a one-stop shop for setup. Use predefined settings to smoothen the onboarding journey and configure software foundations, properties, AI skills, governance, team management, and data management from a single location. You can also use the AI conversational interface to configure groups, users, and Content Service setup.
+
+**Important:** Configuration Console is available starting from Australia Patch 7.
+
+-   **[Manage all reclamation candidates from a consolidated Reclamation tab on the License usage view in the Software Asset Workspace](https://www.servicenow.com/docs/access?context=sam-workspace-workbench&family=australia&ft:locale=en-US)**
+
+Gain insights with a consolidated view of reclamation candidates across all publishers, SaaS integrations, installed software, and reconciliation flows. Drill down from the **Reclamation** tab into individual removal candidates for each publisher or integration, without switching between separate reclamation views. This enhancement gives your asset team a complete picture of reclamation opportunities across your software estate.
+
+-   **[Manage licenses for Zoom Workplace offerings with the expanded Zoom SaaS integration](https://www.servicenow.com/docs/access?context=integrate-with-zoom&family=australia&ft:locale=en-US)**
+
+Use the enhanced Zoom integration to recognize Zoom Workplace offerings, suite structures, and sub-products such as Meetings, Webinars, Phone, and Chat for accurate entitlement reconciliation. Identify stale users based on last login activity rather than meeting hosting history to reduce false positives during reclamation.
+
+**Note:** The enhanced Zoom Workplace offering is available starting from the Software Asset Management - SaaS License Management application version 17.7.0.
+
+
+ -   **[Improved license compliance reporting for Smartsheet SaaS integration](https://www.servicenow.com/docs/access?context=integrate-with-smartsheet&family=australia&ft:locale=en-US)**
 
 Improve visibility and compliance reporting of Smartsheet user licenses using the assigned seat type in the Smartsheet portal. The integration now retrieves users by seat type and creates subscription records for each category independently.
 
@@ -180,7 +203,14 @@ Brazil
 
 </td><td>
 
--   **[Install the Software Asset Management application from the Product Hub](https://www.servicenow.com/docs/access?context=sam-product-hub&family=brazil&ft:locale=en-US)**
+-   **[Manage licenses for Zoom Workplace offerings with the expanded Zoom SaaS integration](https://www.servicenow.com/docs/access?context=integrate-with-zoom&family=brazil&ft:locale=en-US)**
+
+Use the enhanced Zoom integration to recognize Zoom Workplace offerings, suite structures, and sub-products such as Meetings, Webinars, Phone, and Chat for accurate entitlement reconciliation. Identify stale users based on last login activity rather than meeting hosting history to reduce false positives during reclamation.
+
+**Note:** The enhanced Zoom Workplace offering is available starting from the Software Asset Management - SaaS License Management application version 18.1.1.
+
+
+ -   **[Install the Software Asset Management application from the Product Hub](https://www.servicenow.com/docs/access?context=sam-product-hub&family=brazil&ft:locale=en-US)**
 
 Streamline onboarding by installing Software Asset Management and its dependent applications from the Product Hub. The Product Hub is the central location to view and manage all applications included in your Software Asset Management subscription. Access product documentation, videos, release notes, and community links from the same place.
 
@@ -244,7 +274,12 @@ Australia
 
 </td><td>
 
--   **[Manage software models with clearer licensing terminology](https://www.servicenow.com/docs/access?context=software-model-fields&family=australia&ft:locale=en-US)**
+-   **[Removal candidates tab replaced with the Reclamation tab in the License usage view](https://www.servicenow.com/docs/access?context=sam-workspace-workbench&family=australia&ft:locale=en-US)**
+
+The **Reclamation** tab in the License usage view on the Software Asset Workspace presents a consolidated view of reclamation candidates across all publishers, SaaS integrations, installed software, and reconciliation flows.
+
+
+ -   **[Manage software models with clearer licensing terminology](https://www.servicenow.com/docs/access?context=software-model-fields&family=australia&ft:locale=en-US)**
 
 Understand licensing scope at a glance from the renamed column in the Software Model \[cmdb\_software\_product\_model\] table. The **License all installs accessed by clients** column is renamed to **License all installs**. The new name reflects that all installs meeting the software model's conditions are licensed, not only those tied to client access records.
 
@@ -402,9 +437,9 @@ Activating this plugin automatically activates the following:
         -   Software Asset Workspace store application \(sn\_sam\_workspace\)
 After you activate the Activate all Software Asset Management Professional plugin including the Software Asset Workspace plugin \(com.sn\_samp\_master\_ws\), you can't access the Software Asset Management Core UI.
 
-    -   **Software Asset Management Foundation plugin \(com.snc.sams\)**
+    -   **Basic Software Asset Management \(com.snc.sams\)**
 
-To access the foundation capabilities of Software Asset Management, activate this plugin. After you activate the Software Asset Management Foundation plugin, activate the Software Asset Workspace store application \(sn\_sam\_workspace\) to complete the setup.
+To access the foundation capabilities of Software Asset Management, activate this plugin. After you activate the Basic Software Asset Management, activate the Software Asset Workspace store application \(sn\_sam\_workspace\) to complete the setup.
 
 The ServiceNow AI Platform® in the Australia release has limited support for the Software Asset Management classic user interface. However, it remains active in your instance, including when you upgrade to a newer ServiceNow AI Platform® release.
 

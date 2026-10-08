@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-brazil/brazil-yokohama-goalframeworkforspm-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 6
+last_updated: "2026-10-08"
+reading_time_minutes: 9
 breadcrumb: [Products combined by family]
 ---
 
@@ -114,7 +114,30 @@ Brazil
 
 </td><td>
 
--   **[Automatic status calculation for targets](https://www.servicenow.com/docs/access?context=automatic-status-calculation-targets&family=brazil&ft:locale=en-US)**
+-   **[Maintain-type targets](https://www.servicenow.com/docs/access?context=target-types-overview&family=brazil&ft:locale=en-US)**
+
+Track targets that need to hold steady at a value over time, such as keeping server uptime above 98% for a year. In addition to **Maximize** and **Minimize**, the **Type** field on a target includes three options:
+
+    -   **Maintain above**: The actual value must stay at or above the final target.
+    -   **Maintain below**: The actual value must stay at or below the final target.
+    -   **Maintain constant**: The actual value must stay within a tolerance range of the final target.
+When you select a Maintain type, the **Target distribution** field is hidden on the target form.
+
+-   **[Progress calculation for Maintain-type targets](https://www.servicenow.com/docs/access?context=target-types-overview&family=brazil&ft:locale=en-US)**
+
+Measure progress on Maintain-type targets by how consistently the metric meets the target across check-in periods. The system automatically calculates status for each target breakdown period that has an actual value:
+
+    -   **Maintain above**: Green when the actual is at or above the final target, and Red when it's below.
+    -   **Maintain below**: Met when the actual is at or below the final target.
+    -   **Maintain constant**: Met when the actual falls within the tolerance range, bounds included.
+Target-level progress equals the number of periods that meet the target divided by the total periods up to the latest actual value, multiplied by 100. For example, a **Maintain above** target with a final target of 75 and quarterly actuals of 78, 72, 80, and 76 shows 75% progress. Three of 4 periods meet the target.
+
+-   **[Target breakdowns for Maintain-type targets](https://www.servicenow.com/docs/access?context=target-breakdowns&family=brazil&ft:locale=en-US)**
+
+Start every check-in period from the same value. When you save a Maintain-type target, each target breakdown gets a planned target equal to the final target value. You can edit the planned target of any breakdown. If the final target value is empty, breakdowns are created with a planned target of 0.
+
+
+ -   **[Automatic status calculation for targets](https://www.servicenow.com/docs/access?context=automatic-status-calculation-targets&family=brazil&ft:locale=en-US)**
 
 Automatically determine target status based on actual achievement percentages. When you enter actual values for a target period, the system compares the achievement percentage against predefined thresholds and automatically assigns a status \(Green, Yellow, or Red\). This eliminates manual status selection, reducing data entry errors and improving organizational governance.
 
@@ -179,7 +202,29 @@ Brazil
 
 </td><td>
 
--   **Default check-in frequency**
+-   **[Target breakdown regeneration](https://www.servicenow.com/docs/access?context=target-breakdowns&family=brazil&ft:locale=en-US)**
+
+Target breakdowns adjust to changes in a target's dates or final target value, and recorded actuals are kept:
+
+    -   Moving the start date later removes the breakdowns before the new start date. The remaining breakdowns keep their planned targets and actuals.
+    -   Moving the start date earlier adds breakdowns for the new periods, with the same planned target.
+    -   Shortening or extending the end date removes or adds the matching breakdowns.
+    -   Changing the final target value updates the planned target of every breakdown and recalculates status and progress.
+-   **[Type field editable after actuals are recorded](https://www.servicenow.com/docs/access?context=change-target-type-spw&family=brazil&ft:locale=en-US)**
+
+Change the **Type** of a target after actual values are recorded, without deleting and recreating the target. When you change the type from Maximize to Minimize, or from Maximize to a Maintain type:
+
+    -   The total actuals to date stay the same and are placed in the latest target breakdown period.
+    -   Planned values are recalculated for the new type.
+    -   Progress and attainment are recalculated using the new type's logic.
+A warning appears before you save the change. The change is recorded in the audit history.
+
+-   **[Number field in the target list view](https://www.servicenow.com/docs/access?context=target-form-egm&family=brazil&ft:locale=en-US)**
+
+The **Number** field appears as a link in the actual value automation list view. That list view opens when you view targets in Core UI.
+
+
+ -   **Default check-in frequency**
 
 New quantitative targets now default to **Quarterly** check-in frequency to create target breakdowns when you save the target. You can change the check-in frequency before creating the target.
 

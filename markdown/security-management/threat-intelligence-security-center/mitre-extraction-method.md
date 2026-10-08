@@ -9,6 +9,7 @@ classification: threat-intelligence-security-center
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 3
+keywords: [MITRE ATT&amp;CK extraction, MITRE techniques, RSS feed extraction, threat lookup enrichment]
 breadcrumb: [MITRE ATT&amp;CK Technique Extraction Rules, About Rules Engine in TISC, Administer, Threat Intelligence Security Center, Security Operations]
 ---
 

@@ -7,7 +7,7 @@ release: brazil
 product: Connections and Credentials
 classification: connections-and-credentials
 topic_type: task
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 3
 breadcrumb: [Get started with credentials, Connections and Credentials, Access Management]
 ---
@@ -77,8 +77,8 @@ Application
 
 Application scope against which the Connection &amp; Credentials alias is assigned. The current session scope you last selected in the application picker appears. -   For example, **Global** appears if it is the current scope for this session.
 -   You can change the scope in the application picker before creating an alias. To learn more application scopes and how to select them, see:
-    -   Application scope
-    -   
+    -   [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/c_ApplicationScope.md)
+    -   [Select an application from the application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_SelectAnAppFromTheAppPicker.md)
 
 
 </td></tr><tr><td>

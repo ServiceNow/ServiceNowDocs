@@ -8,7 +8,7 @@ product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Asset lifecycle and disposal, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
@@ -37,6 +37,8 @@ Process an Asset Donation Order to prepare and send assets to a charity organiza
 [Reclaim hardware assets]()
 
 [Create a disposal order]()
+
+[Calculate the active lifecycle phase for a model]()
 
 [Manage asset bundles from your inventory]()
 

@@ -16,9 +16,7 @@ On upgraded instances, including ones fully migrated to Platform Analytics, you 
 
 ## Before you begin
 
-A ServiceNow AI Platform administrator should create the **com.snc.par.coreui.report\_create.enabled** property and set it to `true`. Otherwise, only report\_admin users or higher can create Core UI reports, and only directly in the Reports \[sys\_report\] table.
-
-Role required: If the **com.snc.par.coreui.report\_create.enabled** system property is `true`, any user with an internal role can create reports.
+Role required: If the **com.snc.par.coreui.report\_create.enabled** system property is `true`, any user with an internal role can create Core UI reports. For more information, see [Platform Analytics experience properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/pae-properties.md).
 
 ## About this task
 

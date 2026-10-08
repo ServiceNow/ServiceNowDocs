@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Create app in source code, ServiceNow Studio]
-breadcrumb: [Building apps in source code in ServiceNow Studio, Use, ServiceNow Studio, Developing your application, Building applications]
+breadcrumb: [Building apps in source code in ServiceNow Studio, Use, ServiceNow Studio, Build, AI Workflow Factory, Building applications]
 ---
 
 # Create an app in source code

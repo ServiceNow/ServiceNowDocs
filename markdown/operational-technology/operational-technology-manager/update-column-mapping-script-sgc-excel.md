@@ -1,6 +1,6 @@
 ---
 title: Update the column mapping script
-description: Update the column mapping script with the custom column.
+description: To transfer the custom column data to the Configuration Management Database \(CMDB\), update the column mapping script to add the corresponding entry to the importSetColumnsVsStagingColumnsMap object.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-manager/update-column-mapping-script-sgc-excel.html
 release: brazil
@@ -14,11 +14,23 @@ breadcrumb: [Add a custom column to the staging table, Configuring the Service G
 
 # Update the column mapping script
 
-Update the column mapping script with the custom column.
+To transfer the custom column data to the Configuration Management Database \(CMDB\), update the column mapping script to add the corresponding entry to the **importSetColumnsVsStagingColumnsMap** object.
 
 ## Before you begin
 
 Role required: ot\_excel\_import\_user
+
+## About this task
+
+The **importSetColumnsVsStagingColumnsMap** object in the **SGOTAssetImportExcelConstants** script controls which columns from the SG OT Excel Stagings \(sg\_ot\_excel\_staging\) table are included when you trigger the CMDB import process. If you add a custom column to the staging table, you must add a corresponding entry to the **importSetColumnsVsStagingColumnsMap** object. Otherwise, the custom column is ignored during import. For more information about triggering the CMDB import process, see [Trigger a CMDB import for valid staging records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/trigger-cmdb-import.md).
+
+Each entry in **importSetColumnsVsStagingColumnsMap** object is a key-value pair with the following format:
+
+`"<import set column name>": "<staging table column name>"`
+
+The key is the field name that appears in the JSON payload sent to the CMDB import \(sn\_otsm\_sgc\_sg\_ot\_excel\_import\) set. The value is the name of the corresponding column on the SG OT Excel Stagings table.
+
+When you create a key and value, they're typically identical. For example, a custom staging column named **u\_my\_custom\_field** maps to itself. Only use a different name if you need the import set field name to differ from the staging table column name.
 
 ## Procedure
 
@@ -32,12 +44,14 @@ Role required: ot\_excel\_import\_user
 
     For example: `"u_my_custom_field": "u_my_custom_field"`
 
-4.  Above your new entry, add a comma at the end of the previous line.
+4.  Before your new entry, add a comma at the end of the line so that the object remains valid JavaScript.
+
+5.  Select **Update**.
 
 
 ## What to do next
 
-[Complete the custom column import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/complete-custom-column-import-sgc-excel.md)
+Configure the Robust Transform Engine \(RTE\) mapping for the Extract Transform Load \(ETL\). For more information, see [Configure the RTE mapping for ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/complete-rte-mapping-etl-sgc-excel.md).
 
 **Parent Topic:**[Add a custom column to the staging table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/add-custom-column-staging-table.md)
 

@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Test Agent, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Test Agent, Build, AI Workflow Factory, Building applications]
 ---
 
 # Test Agent access
@@ -26,4 +26,6 @@ Ensure that the following applications are installed:
 -   ATF Test Generator and Cloud Runner: Install the [ATF Test Generator and Cloud Runner](https://store.servicenow.com/store/app/e4292f6e1be06a50a85b16db234bcbc3) store application from ServiceNow store. You also need to set up the cloud user for seamless execution from the Build Agent interface. See [ATF Test Generator and Cloud Runner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/atf-tg-cr-intro.md) and [Set up cloud user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/atf-tg-cr-configure.md) for more information.
 
 These components provide the underlying capabilities required for Test Agent to function correctly.
+
+**Parent Topic:**[Test Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/test-agent-landing-page.md)
 

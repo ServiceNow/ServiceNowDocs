@@ -31,10 +31,13 @@ Role required: sn\_esg.program\_manager
     -   Select **New**.
 3.  On the form, fill in the fields.
 
-    For information on the fields of the form, see .
+    For information on the fields of the form, see [Metric definition setting record fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/metric-definition-setting-record-fields.md).
 
 4.  Select **Submit**.
 
+
+-   **[Metric definition setting record fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/metric-definition-setting-record-fields.md)**  
+The fields of the metric definition setting record form are explained in this topic.
 
 **Parent Topic:**[Reviewing calculation details with formula trees](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/reviewing-formula-tree.md)
 

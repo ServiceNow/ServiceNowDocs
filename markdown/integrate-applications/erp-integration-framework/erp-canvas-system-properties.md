@@ -320,5 +320,4 @@ true \| false
 Indicates whether a CSRF token is sent for OData calls in Zero Copy Connector for ERP operations.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Zero Copy Connector for ERP reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-integration-reference.md)
-
+</table>

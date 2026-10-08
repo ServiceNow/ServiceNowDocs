@@ -1,12 +1,13 @@
 ---
 title: Discovery store applications release notes
-description: The ServiceNow Discovery store applications provide a unified, connected view of your entire IT infrastructure. See the following sections for release notes by version.Discover new Oracle, Red Hat, IBM, and AWS resources, with updates to OCI, Kubernetes, and AWS active datacenter discovery.ACC-Visibility September 2026 adds package discovery, custom software filter rules, license key verification, and software categorization for improved inventory control.The September release introduces life cycle management for service accounts, IP addresses, and tags.The September release includes updates to the mapping of RDS allocated storage capacity information and operating system domain and the import of primary IP address for Server. This release also includes the discovery of Amazon FSx file system resources and introduces IMDS v2 support for the discovery of Kubernetes resources.The September release includes updates to patch job discovery, operating system domain mapping, import of MAC address for Network Adapter, and deep discovery jobs.
+description: The ServiceNow Discovery store applications provide a unified, connected view of your entire IT infrastructure. See the following sections for release notes by version.New patterns discover AI agents in Microsoft Foundry \(new\) and Microsoft Foundry Hub, with field updates for Amazon Bedrock and Microsoft Foundry \(classic\).Discover new Oracle, Red Hat, IBM, and AWS resources, with updates to OCI, Kubernetes, and AWS active datacenter discovery.ACC-Visibility September 2026 adds package discovery, custom software filter rules, license key verification, and software categorization for improved inventory control.The September release introduces life cycle management for service accounts, IP addresses, and tags.The September release includes updates to the mapping of RDS allocated storage capacity information and operating system domain and the import of primary IP address for Server. This release also includes the discovery of Amazon FSx file system resources and introduces IMDS v2 support for the discovery of Kubernetes resources.The September release includes updates to patch job discovery, operating system domain mapping, import of MAC address for Network Adapter, and deep discovery jobs.ITOM URL Discovery 1.6.0 fixes a cross-application scope error that prevented broad URL discovery from working when any scope other than ITOM URL Discovery was selected.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/discovery-store-apps-rn.html
 release: brazil
 topic_type: topic
 last_updated: "2026-09-10"
-reading_time_minutes: 10
+reading_time_minutes: 11
+keywords: [URL Discovery, application scope, Discover all URLs]
 breadcrumb: [ITOM Visibility release notes, IT Operations Management release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
@@ -16,6 +17,7 @@ The ServiceNow® Discovery store applications provide a unified, connected view 
 
 ## About Discovery store applications
 
+-   AI Agent Topology Mapping: Discover AI resources deployed on Microsoft Foundry \(new\) and Microsoft Foundry Hub.
 -   Discovery and Service Mapping Patterns: 12 Oracle and 7 Red Hat application patterns, AWS Marketplace and IBM Flash Storage patterns, Cisco Nexus Virtual Routing and Forwarding \(VRF\) discovery, and Oracle Wallet support on Windows.
 -   Cloud Service Graph Connectors:
     -   Service Graph Connector for AWS
@@ -31,6 +33,7 @@ See the following documentation for more information:
 -   [Service Graph Connector for Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/cmdb-integration-azure.md)
 -   [Service Graph Connector for GCP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/sgc-cmdb-integration-gcp.md)
 -   [ITOM Content Service candidates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-content-service-classifiers.md)
+-   [AI Agent Topology Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/ai-agent-topology-mapping-landing.md)
 
 ## Activation and other requirements
 
@@ -40,6 +43,31 @@ See the following documentation for more information:
 
 
 **Parent Topic:**[ITOM Visibility release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/itom-visibility-rn.md)
+
+## AI Agent Topology Mapping version 2.2.0
+
+New patterns discover AI agents in Microsoft Foundry \(new\) and Microsoft Foundry Hub, with field updates for Amazon Bedrock and Microsoft Foundry \(classic\).
+
+### What's new
+
+-   **[Discover AI agents in Microsoft Foundry \(new\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/microsoft-foundry-new-pattern.md)**
+    -   Discovers AI agents, models, prompts, and tags.
+    -   Creates Product and Asset Models for each discovered item, with AI Control Tower \(AICT\) populated.
+    -   Establishes relationships between Agent and Model.
+-   **[Discover AI assistants in Microsoft Foundry Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/microsoft-foundry-hub-pattern.md)**
+    -   Discovers AI assistants, prompts, models, hub projects, and tags.
+    -   Creates Product and Asset Models for each discovered item, with AICT populated.
+    -   Establishes relationships between Assistant and Model, and between Assistant and Hub Project.
+
+### What's changed
+
+-   **[Amazon Bedrock attribute updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/amazon-bedrock-pattern.md)**
+    -   Version is now populated in the object ID and product instance ID fields.
+    -   Vendor is populated in AI System Digital Asset \(alm\_ai\_system\_digital\_asset\) and AI Prompt Digital Asset \(alm\_ai\_prompt\_digital\_asset\).
+    -   Manufacturer now populates from the **glide.appcreator.company.friendly\_name** system property instead of a hardcoded value in the AI System Component Product Model \(cmdb\_ai\_system\_component\_product\_model\) and AI Prompt Product Model \(cmdb\_ai\_prompt\_product\_model\) tables.
+-   **[Microsoft Foundry \(classic\) attribute updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/microsoft-foundry-classic-pattern.md)**
+    -   Vendor is populated in AI System Digital Asset \(alm\_ai\_system\_digital\_asset\) and AI Prompt Digital Asset \(alm\_ai\_prompt\_digital\_asset\).
+    -   Manufacturer now populates from the **glide.appcreator.company.friendly\_name** system property instead of a hardcoded value in the AI System Component Product Model \(cmdb\_ai\_system\_component\_product\_model\) and AI Prompt Product Model \(cmdb\_ai\_prompt\_product\_model\) tables.
 
 ## Discovery and Service Mapping Patterns version 1.35.0
 
@@ -369,5 +397,16 @@ The September release includes updates to patch job discovery, operating system 
 -   **Relationship created between cloud database and region**
 
     A relationship is created between cloud database and region.
+
+
+## URL Discovery version 1.6.0
+
+ITOM URL Discovery 1.6.0 fixes a cross-application scope error that prevented broad URL discovery from working when any scope other than ITOM URL Discovery was selected.
+
+### What's changed
+
+-   **Discover all URLs toggle**
+
+    Fixed a cross-application scope error that prevented the **Discover all URLs** toggle from working when a scope other than ITOM URL Discovery was active. Set the application scope to ITOM URL Discovery to enable or disable the toggle.
 
 

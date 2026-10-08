@@ -35,15 +35,15 @@ You can optionally override which metrics are evaluated for specific ServiceNow 
 
     **Important:** Adding more metrics increases the visibility you gain into each session, but also increases assist usage to evaluate it. Select the metrics that give you the insight you need.
 
-<table id="choicetable_asset_metric_actions"><thead><tr><th align="left" id="d250096e147">
+<table id="choicetable_asset_metric_actions"><thead><tr><th align="left" id="d305680e147">
 
 Option
 
-</th><th align="left" id="d250096e150">
+</th><th align="left" id="d305680e150">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d250096e156">
+</th></tr></thead><tbody><tr><td id="d305680e156">
 
 **Add one or more AI systems and selected metrics**
 
@@ -56,7 +56,7 @@ Steps
 5.  Select **Add metrics**.
 
 
-</td></tr><tr><td id="d250096e192">
+</td></tr><tr><td id="d305680e192">
 
 **Remove one or more metrics**
 

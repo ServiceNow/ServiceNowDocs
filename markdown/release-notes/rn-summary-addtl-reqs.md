@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/rn-summary-addtl-reqs.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-25"
-reading_time_minutes: 5
+last_updated: "2026-10-08"
+reading_time_minutes: 6
 breadcrumb: [Release notes summaries for Brazil features, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
@@ -52,6 +52,15 @@ You must enable Next Experience UI Framework before you can use the ServiceNow O
 
 </td></tr><tr><td>
 
+Access Analyzer
+
+</td><td>
+
+-   ****
+    -   Access Analyzer is a ServiceNow Store product. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps and for information about submitting requests to the store.
+
+</td></tr><tr><td>
+
 Advanced AI Search Management Tools
 
 </td><td>
@@ -79,9 +88,8 @@ Build Agent and Autonomous Engineer
 </td><td>
 
 -   ****
-
-Build Agent is dependent on ServiceNow Otto for Creator.
-
+    -   Build Agent is dependent on ServiceNow Otto for Creator.
+    -   Autonomous Engineer is dependent on Build Agent.
 
 </td></tr><tr><td>
 
@@ -180,7 +188,18 @@ Enterprise Architecture
 
 -   ****
 
-ServiceNow Otto features are available with activation of the ServiceNow Otto for Enterprise Architecture \(EA\) plugin. For more information, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+ServiceNow Otto features are available with activation of the ServiceNow Otto for Enterprise Architecture \(EA\) plugin. For more information, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+
+
+</td></tr><tr><td>
+
+Export to PowerPoint
+
+</td><td>
+
+-   ****
+
+Export to PowerPoint is unavailable for customers in FedRAMP, NSC DOD IL5, or Australia IRAP-Protected datacenters, self-hosted customers, or other restricted environments. Check for availability updates in future releases.
 
 
 </td></tr><tr><td>
@@ -241,6 +260,82 @@ Live Connect
 
 </td></tr><tr><td>
 
+Lux Lab
+
+</td><td>
+
+-   ****
+
+Lux Lab requires the following:
+
+<table id="table_lux_lab_reqs"><thead><tr><th>
+
+Application
+
+</th><th>
+
+Version
+
+</th><th>
+
+Resources for more information
+
+</th></tr></thead><tbody><tr><td>
+
+Node.js
+
+</td><td>
+
+24 or later
+
+</td><td>
+
+[Node.js](https://nodejs.org/en/download)
+
+</td></tr><tr><td>
+
+pnpm
+
+</td><td>
+
+10 or later
+
+</td><td>
+
+[pnpm](https://pnpm.io/installation)
+
+</td></tr><tr><td>
+
+ServiceNow SDK
+
+</td><td>
+
+4.12.1 or later
+
+</td><td>
+
+[ServiceNow SDK](https://www.npmjs.com/package/@servicenow/sdk)
+
+</td></tr><tr><td>
+
+ServiceNow instance
+
+</td><td>
+
+-   Australia Patch 5 or later
+-   Zurich Patch 12 or later
+
+
+</td><td>
+
+[Prepare your upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/rn-prepare-landing-page.md)
+
+</td></tr></tbody>
+</table>
+
+
+</td></tr><tr><td>
+
 ReleaseOps
 
 </td><td>
@@ -249,6 +344,21 @@ ReleaseOps
 
 ReleaseOps is not supported in regulated environments or on-premise. Check your entitlements to determine whether you have access to ReleaseOps.
 
+
+</td></tr><tr><td>
+
+Retail Strategic Portfolio Management Suite
+
+</td><td>
+
+-   ****
+
+Before installing Retail Strategic Portfolio Management Suite, install the following applications from the ServiceNow® Store:
+
+    -   Enterprise-Wide Deployment \(sn\_spm\_ewd\)
+    -   Project Workspace \(sn\_pw\)
+    -   Business Location \(app-business-location\)
+    -   Customer Service \(app-csm-ppm\)
 
 </td></tr><tr><td>
 
@@ -336,7 +446,7 @@ ServiceNow SDK
 
 </td><td>
 
-4.10 or later
+4.12.1 or later
 
 </td><td>
 
@@ -403,6 +513,14 @@ Vulnerability Response
 
 The Security Support Common plugin is activated automatically when any of the plugins for the main Security Operations applications are activated. These applications include Vulnerability Response, Security Incident Response, Threat Intelligence, and Configuration Compliance.
 
+
+</td></tr><tr><td>
+
+Zero Copy Connector for ERP
+
+</td><td>
+
+SAP ECC, SAP S/4 HANA, and Oracle E-Business Suite \(12.2 and later\) are the available systems that integrate with Zero Copy Connector for ERP.
 
 </td></tr><tr><td>
 

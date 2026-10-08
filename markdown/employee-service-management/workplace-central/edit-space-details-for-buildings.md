@@ -173,12 +173,8 @@ Select **Remove allocation** from the drop-down list to remove the selected spac
 
 **Parent Topic:**[Map based space administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-central/map-based-space-administration.md)
 
-**Parent Topic:**[Map based space administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-central/map-based-space-administration.md)
-
 **Related topics**  
 
-
-[Move employees on a floor or to a different floor using the map]()
 
 [Move employees on a floor or to a different floor using the map]()
 

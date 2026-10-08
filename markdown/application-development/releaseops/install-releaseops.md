@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ReleaseOps, deploy changes, update sets, pipeline, ATF, schedule a release, deployment request, deployment analyzer]
-breadcrumb: [Configure, ReleaseOps, Deploying applications, Building applications]
+breadcrumb: [Configure, ReleaseOps, Run, AI Workflow Factory, Building applications]
 ---
 
 # Install ReleaseOps
@@ -43,4 +43,6 @@ Because ReleaseOps involves a multi-instance ecosystem, you must complete this p
 ## Result
 
 ReleaseOps is installed on your instance.
+
+**Parent Topic:**[Configuring ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/releaseops/configuring-releaseops.md)
 

@@ -9,7 +9,7 @@ classification: developer-sandboxes
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Explore, Developer Sandboxes, Developing your application, Building applications]
+breadcrumb: [Explore, Developer Sandboxes, Build, AI Workflow Factory, Building applications]
 ---
 
 # Source control and Developer Sandboxes
@@ -29,4 +29,6 @@ Using source control, developers can work on independent branches and merge them
 ## Git credentials
 
 Each sandbox inherits Git credentials from the base instance. However, developers can add or change Git credentials locally within the sandbox. A new branch should be created for each sandbox.
+
+**Parent Topic:**[Exploring Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/developer-sandboxes/exploring-sandboxes.md)
 

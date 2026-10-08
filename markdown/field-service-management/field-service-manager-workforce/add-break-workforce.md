@@ -35,6 +35,8 @@ Role required: wm\_manager.
 
 6.  On the form, fill in the fields.
 
+    The **Break window** field shows the range of times the break can start within, including any pre- and post-buffer configured for the technician on their Resource Schedule Attribute record. **Start** times must be within this range.
+
 7.  Select **Save**.
 
 

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-brazil/brazil-zurich-retailstrategicportfoliomanagementsuite-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 4
+last_updated: "2026-10-08"
+reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
 
@@ -98,7 +98,10 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **[My Retail Project Tasks widget](https://www.servicenow.com/docs/access?context=spmr-widgets-eslate&family=brazil&ft:locale=en-US)**
+
+View and manage customer project tasks directly from Employee Slate. The My Retail Project Tasks widget displays the count of tasks assigned to the logged-in user, along with each task's short description, current status, and associated project. For more details on how to edit task details, see [Manage a customer project task in Employee Slate](https://www.servicenow.com/docs/access?context=manage-spmr-tasks-from-widget-eslate&family=brazil&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Changes
@@ -258,7 +261,10 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **Activation information**
+
+The Retail Strategic Portfolio Management Suite application \(sn\_spm\_retail\) is available on the ServiceNow® Store. Install the application to activate it on your instance.
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -298,7 +304,14 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **Additional requirements**
+
+Before installing Retail Strategic Portfolio Management Suite, install the following applications from the ServiceNow® Store:
+
+    -   Enterprise-Wide Deployment \(sn\_spm\_ewd\)
+    -   Project Workspace \(sn\_pw\)
+    -   Business Location \(app-business-location\)
+    -   Customer Service \(app-csm-ppm\)
 
 </td></tr></tbody>
 </table>## Browser requirements
@@ -451,7 +464,13 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   Plan, execute, and track store life cycle projects including new store openings, closures, refurbishments, relocations, and technology refreshes using a single workspace.
+-   Apply predefined project templates and retail-specific project fields to standardize how every store project is structured and tracked across the portfolio.
+-   Guide project teams through each store scenario using stage-gate playbooks with embedded approvals, exit criteria, and activity sequences.
+-   Gain portfolio-level visibility across all store projects with consistent milestone tracking and automatic status rollups.
+-   Make project tasks visible to store teams so that headquarters and store personnel collaborate on the same platform.
+
+ See [Retail Strategic Portfolio Management Suite](https://www.servicenow.com/docs/access?context=spm-retail-suite-landing-page&family=brazil&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/rn-combined-intro.md)

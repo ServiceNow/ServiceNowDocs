@@ -29,9 +29,6 @@ Metric collection on any device is managed using agent policies. Agent policies 
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-    -   AMER \(Americas\): `itomcnc-prod-gateway-amer.sncapps.service-now.com:443`
-    -   EMEA \(Europe\): `itomcnc-prod-gateway-emea.sncapps.service-now.com:443`
-    -   APAC \(Asia Pacific\): `itomcnc-prod-gateway-apac.sncapps.service-now.com:443`
 2.  In the primary navigation pane, select the DEX Administration icon \(\[Omitted image "icon-administration.png"\] Alt text:\).
 
 3.  In the Device and application configuration section, select **Manage policies** on the Agent policies card.

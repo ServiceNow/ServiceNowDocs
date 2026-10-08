@@ -7,9 +7,9 @@ release: brazil
 product: Service Mapping
 classification: service-mapping
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 8
-keywords: [AI Agent, Service Mapping, agentic AI, service map, CMDB, Business App Mapping, ML candidate]
+last_updated: "2026-09-18"
+reading_time_minutes: 7
+keywords: [AI Agent, Service Mapping, agentic AI, service map, CMDB, Business App Mapping, ML candidate, Business App Identification skill]
 breadcrumb: [AI in Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
 
@@ -17,11 +17,11 @@ breadcrumb: [AI in Service Mapping, Service Mapping, ITOM Visibility, IT Operati
 
 The Service Mapping AI agents automate the creation and maintenance of service maps in the Configuration Management Database \(CMDB\), reducing manual effort for Service Mapping administrators.
 
-AI Agents for Service Mapping include three AI Agents that automate key parts of the Service Mapping workflow. After activation, all agents run autonomously in the background on a recurring schedule, processing all relevant records without requiring administrator input for each one.
+AI Agents for Service Mapping automate key parts of the Service Mapping workflow. After activation, all agents run autonomously in the background on a recurring schedule, processing all relevant records without requiring administrator input for each one.
 
 ## Available AI Agents
 
-The ITOM AI Agents for Service Mapping application \[sn\_sm\_gen\_ai\] provides three AI Agents:
+The ITOM AI Agents for Service Mapping application \[sn\_sm\_gen\_ai\] provides the following AI Agents:
 
 -   **Service Mapping AI Agent**
 
@@ -34,7 +34,7 @@ The ITOM AI Agents for Service Mapping application \[sn\_sm\_gen\_ai\] provides 
 
 -   **Business App Mapping AI Agent**
 
-    Automatically creates Common Service Data Model \(CSDM\) "Uses::Used by" relationships between Business Applications \[cmdb\_ci\_business\_app\] and discovered Application Services \[cmdb\_ci\_service\_discovered\]. This Agent uses AI semantic search to find the best-matching discovered services for each business application and writes the relationship to \[cmdb\_rel\_ci\]. High-confidence matches are connected automatically. Medium-confidence matches are saved to a staging table for administrator review.
+
 
 -   **Tag-Based Service Map Creation AI Agent**
 
@@ -56,7 +56,7 @@ Consider a bank that has a payment application defined as a business application
 -   Net banking.
 -   Mobile payment systems.
 
-Business stakeholders are only concerned with the payment application at the top level and need it connected to all the relevant discovered services so they can monitor health and impact. Manually maintaining these connections as new application services are created is impractical. The Business App Mapping AI Agent solves this by iterating over all business applications and automatically finding and connecting the matching discovered services, working top-down from the smaller set of business applications to the larger set of discovered application services.
+Business stakeholders are only concerned with the payment application at the top level. They need it connected to all the relevant discovered services so they can monitor health and impact. Manually maintaining these connections as new application services are created is impractical. The Business App Mapping AI Agent solves this by iterating over all business applications and automatically finding and connecting the matching discovered services. It works top-down, from the smaller set of business applications to the larger set of discovered application services.
 
 In a typical scenario, an organization runs hundreds of servers and generates a large number of ML-powered candidates daily. A Service Mapping administrator who previously had to manually evaluate each candidate and create a service map can instead activate the Service Mapping AI Agent. The agent processes all high-confidence candidates automatically, creates service maps, and sets them to non-operational for administrator review.
 
@@ -67,7 +67,7 @@ Organizations using cloud infrastructure often apply metadata tags to virtual ma
 
 ## How AI Agents work
 
-All agents use a ReAct \(Reasoning and Acting\) strategy. The agent reasons about each step before deciding which tool to invoke. After activation, a script runs every 15 minutes. On each run, the agent processes all relevant records in a single batch — for example, all business applications in the system — without any per-record input from an administrator.
+All agents use a ReAct \(Reasoning and Acting\) strategy. The agent reasons about each step before deciding which tool to invoke. After activation, a script runs every 15 minutes. On each run, the agent processes all relevant records in a single batch — for example, all business applications in the system. No per-record input from an administrator is required.
 
 Service Mapping AI Agent process:
 
@@ -77,20 +77,11 @@ Service Mapping AI Agent process:
 4.  The agent analyzes the data and reasons about what the actual service is, prioritizing candidates with a high-confidence name suggestion source such as Service Fingerprints \(SFPs\).
 5.  The agent creates the service topology in the CMDB and sets the service to non-operational. If a topology for the same candidate already exists, the agent skips creation.
 
-Business App Mapping AI Agent process:
-
-1.  The agent retrieves all Business Application records from \[cmdb\_ci\_business\_app\].
-2.  For each business application, the agent runs an AI semantic search against \[cmdb\_ci\_service\_discovered\] using the application name and description as the query. The search returns up to 30 candidates, ordered by relevance score \(0–1\).
-3.  Candidates with a score of 0.3 or higher are automatically connected. The agent creates a Uses::Used by relationship in \[cmdb\_rel\_ci\]. A business application can be linked to multiple services if multiple candidates qualify.
-4.  Candidates with a score of 0.1–0.29 are saved to the staging table \[sn\_sm\_gen\_ai\_ba\_candidate\_rel\] for administrator review. No relationship is created automatically for these.
-5.  Candidates below 0.1 are filtered out. The agent does not create a record or a relationship for these.
-
-**Note:** If the AI Search profile is unavailable, the Business App Mapping AI Agent falls back to a keyword search using the `CONTAINS` operator on the service name field.
 
 Tag-Based Service Map Creation AI Agent process:
 
 1.  The agent retrieves a tag-based candidate record from \[svc\_by\_tags\_candidates\], including the cloud tags \(such as Application and Environment\) and the set of member virtual machines.
-2.  The Agent validates the candidate through prerequisite checks: confirming it is not hidden, ensuring at least 2 configuration items \(CI\) exist to form a topology, and verifying no existing service already maps it.
+2.  The Agent validates the candidate through prerequisite checks. It confirms the candidate is not hidden, ensures at least 2 configuration items \(CI\) exist to form a topology, and verifies no existing service already maps it.
 3.  The agent performs a coherence evaluation by analyzing the running processes and process groups \(AFP groups\) across all member VMs. It determines whether all VMs running under this tag belong to the same application service or whether multiple unrelated systems are incorrectly grouped.
 4.  If the candidate is incoherent \(containing multiple distinct business systems\), the agent records the outcome and skips service creation, flagging the candidate for administrator review.
 5.  If the candidate is coherent or uncertain, the agent evaluates the signal strength. The agent does so by combining the cloud tag name \(for example, "order-management"\) with running process evidence to determine whether a real business service exists.
@@ -104,9 +95,11 @@ Tag-Based Service Map Creation AI Agent process:
 
 ## Activation and monitoring
 
-All agents are inactive by default. A user who has the Service Mapping admin role activates them from the Service Mapping home page. For procedural information, see [Activate AI Agents for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/activate-sm-ai-agents.md).
+All agents are inactive by default. A user who has the Service Mapping admin role activates them from the Service Mapping home page. For steps to activate the AI Agents, see [Activate AI Agents for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/activate-sm-ai-agents.md).
 
 The Service Mapping AI Agent and Tag-Based Service Map Creation AI Agent are activated together through a single workspace activation button. The Business App Mapping AI Agent is activated independently.
+
+The Business App Mapping AI Agent is available through the Feature Preview Program. For more information, see [Feature Preview Program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/feature-preview-program.md).
 
 **Note:** The Service Mapping AI Agent and Tag-Based Service Map Creation AI Agent operate independently despite sharing the same orchestrator and writing the results to a shared run record table \[sn\_sm\_gen\_ai\_svc\_create\_run\]. They process different input sources and have no data dependencies.
 
@@ -123,8 +116,7 @@ Each AI Agent can process up to 100 records by default. When an AI Agent reaches
 To raise the quota and reactivate the agents, first configure the following properties:
 
 1.  For the Service Mapping AI Agent: sn\_sm\_gen\_ai.agent\_invocation\_limit.ServiceMapCreationAISpecialist
-2.  For the Business App Mapping AI Agent: sn\_sm\_gen\_ai.agent\_invocation\_limit.CSDMBusinessApplicationtoInfrastructureAISpecialist
-3.  For the Tag-Based Service Map Creation AI Agent: sn\_sm\_gen\_ai.agent\_invocation\_limit.TagBasedServiceMapCreationAISpecialist
+2.  For the Tag-Based Service Map Creation AI Agent: sn\_sm\_gen\_ai.agent\_invocation\_limit.TagBasedServiceMapCreationAISpecialist
 
 You can change the value according to your needs, with consideration of your AI resources. After raising the quota, reactivate the Service Mapping AI Agents in the Service Mapping workspace.
 

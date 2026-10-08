@@ -7,7 +7,7 @@ release: brazil
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-09-28"
 reading_time_minutes: 6
 keywords: [Virtual Agent, Exploring, Now Assist, LLM, NLU, Natural Language Understanding, Large language model]
 breadcrumb: [Virtual Agent, Conversational Interfaces]

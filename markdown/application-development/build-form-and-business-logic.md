@@ -16,7 +16,7 @@ The next step in designing an application is to build logic. Logic includes form
 
 ## Agentic AI
 
-Create applications with help from agentic AI. For more information, see [Agentic development on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/use-ai-capabilities-in-custom-apps.md).
+Create applications with help from agentic AI. For more information, see [Build applications with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/build-ai-workflow-factory-prime.md).
 
 ## Scripting and modifications
 

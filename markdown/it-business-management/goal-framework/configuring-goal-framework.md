@@ -36,6 +36,10 @@ After upgrading to Goal Framework for SPM v2.3.0 or later, run the **Migrate Bre
 Defining a custom unit of measure helps the goal users to set the unit of measure for targets as per their choice. Unit of measures are two types, quantitative and qualitative.
 -   **[Configure automatic status calculation for targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/goal-framework/configure-automatic-status-calculation.md)**  
 Configure system-wide automatic status calculation settings to determine target and goal status automatically based on achievement percentages. Enable or disable automatic calculation and customize Green, Yellow, and Red threshold values to align with your organizational governance policies.
+-   **[Configure the tolerance for Maintain constant targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/goal-framework/configure-maintain-constant-tolerance.md)**  
+Set the tolerance percentage for Maintain constant targets to define the range of acceptable actual values and control how progress and status are calculated.
+-   **[Change the number prefix for goals and targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/goal-framework/change-number-prefix-goals-targets.md)**  
+Change the prefix of the Number field for goals and targets, for example, from GOAL and TRGT to OBJ and KR when your organization uses objectives and key results, and apply the new prefix to existing records.
 
 **Parent Topic:**[Goal Framework and Goal Framework for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/goal-framework/goal-framework.md)
 

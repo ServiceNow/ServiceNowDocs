@@ -1,19 +1,19 @@
 ---
-title: Troubleshoot a Now Assist skill
-description: Run diagnostics for a skill on the AI Admin Hub console to get information about the status of your skill configuration.
+title: Troubleshoot an AI skill
+description: Run diagnostics for a skill on the AI Admin Hub console to get information about the status of your skill configuration. The availability of diagnostics depends on the skill.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/troubleshoot-a-now-assist-skill.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-18"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 keywords: [Now Assist, skill, troubleshoot, diagnostic, nsa\_admin, Generative AI, GenAI]
-breadcrumb: [Now Assist reference, AI Admin Hub, Generative AI skills, Enable AI Experiences]
+breadcrumb: [AI Admin Hub reference, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
-# Troubleshoot a Now Assist skill
+# Troubleshoot an AI skill
 
-Run diagnostics for a skill on the AI Admin Hub console to get information about the status of your skill configuration.
+Run diagnostics for a skill on the AI Admin Hub console to get information about the status of your skill configuration. The availability of diagnostics depends on the skill.
 
 ## Before you begin
 
@@ -31,7 +31,7 @@ Certain skills have diagnostic scripts that you can run from the AI Admin Hub co
 
 2.  In the navigation pane, select the workflow of the skill that you want to troubleshoot, such as **Technology** or **Customer**.
 
-3.  In the All skills or Active skills section, locate the feature card for the skill you want to troubleshoot.
+3.  In the All skills or Active skills section, locate the card for the skill you want to troubleshoot.
 
 4.  Select the more options icon \[Omitted image "naa-more-options-icon.png"\] Alt text: More options icon. for the skill, then select **Run diagnostics**.
 
@@ -48,5 +48,5 @@ If you have identified any problems with your skill configuration, you can [edit
 
 If editing the skill does not solve the issue, you can [contact ServiceNow Support](http://www.servicenow.com/support/contact-support.html) for additional help.
 
-**Parent Topic:**[Now Assist reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-reference-landing.md)
+**Parent Topic:**[AI Admin Hub reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-reference-landing.md)
 

@@ -82,3 +82,14 @@ For more information on delegation, see [Configure granular delegation rules for
 
 **Parent Topic:**[Using Advanced Approval Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-advanced-approval-management.md)
 
+**Related topics**  
+
+
+[Configuring Advanced Approval Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configuring-advanced-approval-management.md)
+
+[Create an approval configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/create-approval-configuration.md)
+
+[Components installed with Advanced Approval Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/components-installed-advanced-approval-management-for-sales.md)
+
+[Notifications in Advanced Approval Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/setting-up-approval-notifications.md)
+

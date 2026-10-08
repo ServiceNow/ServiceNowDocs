@@ -34,15 +34,15 @@ The steps below describe the question bank feature for the classic assessment en
 
 4.  Add an assessment metric \(a question\) to the category using one of the following methods.
 
-<table id="choicetable_rkc_13z_hcc"><thead><tr><th align="left" id="d60626e114">
+<table id="choicetable_rkc_13z_hcc"><thead><tr><th align="left" id="d60887e114">
 
 Option
 
-</th><th align="left" id="d60626e117">
+</th><th align="left" id="d60887e117">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d60626e123">
+</th></tr></thead><tbody><tr><td id="d60887e123">
 
 **Create a question**
 
@@ -50,7 +50,7 @@ Description
 
 Select **New** and fill out the form. For more information, see [Define a question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-questions-create.md).
 
-</td></tr><tr><td id="d60626e146">
+</td></tr><tr><td id="d60887e146">
 
 **Add a question**
 

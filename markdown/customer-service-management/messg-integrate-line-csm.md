@@ -51,5 +51,7 @@ Users with the roles listed in the following table can use the Conversational In
 |-----|-----|
 |agent\_workspace\_user|Accept an ongoing LINE chat conversation with a customer through the LINE service channel in Advanced Work Assignment.|
 |sn\_customerservice\_manager|View details of a LINE chat conversation by using interaction records of type **Messaging** and subtype **Line**.|
-|sn\_customerservice.consumer, sn\_customerservice.customer|Initiate LINE chat conversations with a virtual agent or live agent so that you can search for articles in Communities and Knowledge Management, access service catalogs, and create a customer service case.|
+|sn\_customerservice.consumer, sn\_customerservice.customer|Initiate LINE chat conversations with a virtual agent or live agent. Search for articles in Communities and Knowledge Management, access service catalogs, and create a customer service case.|
+
+For configuration information, see [Configure LINE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/omnichannel-consumer-messaging-line.md).
 

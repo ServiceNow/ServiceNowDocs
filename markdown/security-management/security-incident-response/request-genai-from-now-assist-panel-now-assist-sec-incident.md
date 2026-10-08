@@ -33,15 +33,15 @@ Roles required: si\_analyst, si\_manager, or sn\_si.basic
 
 4.  Select the ServiceNow Otto icon \(\[Omitted image "icon-ai-sparkle.png"\] Alt text: AI Sparkle icon.\) icon.
 
-<table id="choicetable_wp5_pvr_1cc"><thead><tr><th align="left" id="d310442e133">
+<table id="choicetable_wp5_pvr_1cc"><thead><tr><th align="left" id="d311624e133">
 
 Option
 
-</th><th align="left" id="d310442e136">
+</th><th align="left" id="d311624e136">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d310442e142">
+</th></tr></thead><tbody><tr><td id="d311624e142">
 
 **Generate resolution notes**
 
@@ -57,7 +57,7 @@ In the panel, select **Generate resolution notes**.
 
  See [Generate closure notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/generate-closure-notes-si-now-assist-sec-incident.md) for more information.
 
-</td></tr><tr><td id="d310442e176">
+</td></tr><tr><td id="d311624e176">
 
 **Summarize a security incident**
 
@@ -71,7 +71,7 @@ In the panel, select **Summarize a record**.
 
  See [Summarize a security incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/security-incident-response/summarize-security-incident-now-assist-sec-incident.md) for more information.
 
-</td></tr><tr><td id="d310442e207">
+</td></tr><tr><td id="d311624e207">
 
 **Generate correlation insights**
 

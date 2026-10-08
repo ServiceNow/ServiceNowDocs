@@ -1,0 +1,56 @@
+---
+title: Automate transforms with ServiceNow Otto for TMT
+description: Use the ServiceNow Otto for TMT Transform Mapping Assist feature to automatically transform inbound and outbound data between provider and consumer tables.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/service-exchange/now-assist-tmt-generate-transform-maps.html
+release: brazil
+product: Service Exchange
+classification: service-exchange
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Configure for providers, Service Exchange for Providers, Service Exchange]
+---
+
+# Automate transforms with ServiceNow Otto for TMT
+
+Use the ServiceNow Otto for TMT Transform Mapping Assist feature to automatically transform inbound and outbound data between provider and consumer tables.
+
+## Before you begin
+
+Role required: admin
+
+## About this task
+
+The Transform Mapping Assist skill is designed to do the following:
+
+-   Automatically generate choice mappings between provider and consumer tables.
+-   Provide meaningful error messages if the inbound or outbound data cannot be transformed.
+-   Help save time and reduce manual effort by automating the transformation mapping process.
+-   Help reduce errors and enhance the quality of integrations through automatic mapping.
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Service Exchange Provider** &gt; **Administration** &gt; **Transforms**.
+
+2.  Click **New** and create a simple transform.
+
+    See [Create a transform in Service Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/service-bridge-v2-create-transform.md) for instructions. The ServiceNow Otto for TMT Transform Assist Mapping can be used only with simple transforms.
+
+3.  Select the provider and consumer tables and the related fields.
+
+4.  Click **Mapping Assist**.
+
+    Transform mappings are generated and inserted into the Transform lines related list.
+
+    **Note:**
+
+    -   The Transform Mapping Assist feature can be used only if you select choice list fields in the Provider and Consumer fields.
+    -   You can delete all the generated transform lines to rerun the mapping if needed.
+    -   If you try to create a transformation mapping between different types of fields, you will see the following warning message:
+
+        `The selected fields are different. Are you sure you want to map these fields? This action may lead to unintended results.`
+
+        Select **OK** to continue with the mapping. If no mappings are found, an error message is displayed. You can either review the configuration settings and modify as required or create the mappings manually.
+
+

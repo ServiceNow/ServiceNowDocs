@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/it-service-management/itsm-mcp-
 release: brazil
 topic_type: reference
 last_updated: "2026-09-10"
-reading_time_minutes: 4
+reading_time_minutes: 6
 keywords: [ITSM MCP Server, MCP tools, incident management, change management, on-call management, on-call schedule, knowledge graph, natural language prompts, AI workflow, change lifecycle, change.query, change.analyze, change.lifecycle, oncall.who\_is\_on\_call, oncall.my\_next\_shift, oncall.timeoff\_request, service catalog, catalog items, catalog discovery, lookup\_catalog\_items]
 breadcrumb: [ITSM MCP Server, IT Service Management]
 ---
@@ -15,27 +15,95 @@ breadcrumb: [ITSM MCP Server, IT Service Management]
 
 Reference for all tools available in the ITSM MCP Server, organized by functional area: incident management, change management, and employee experience.
 
-**Important:**
+**Warning:**
 
 -   Only the tools listed here are available. If any other tools display in the Tools definition, you must review and resolve the skipped records for those tools. For information on reviewing and resolving skipped records, see [Review skipped records using related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/uc-access-rl.md).
--   You need the sn\_mcp\_server.viewer role as the base role to access ITSM MCP server.
+-   You need the sn\_mcp\_server.viewer role as the base role to access ITSM MCP server tools. For more information, see [Configure an MCP client to connect to an MCP server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configure-client-connect-server.md).
 
 ## Incident management tools
 
 The following tools are available for incident management in the ITSM MCP Server.
 
-|Tool name|Description|
-|---------|-----------|
-|**sn\_itsm\_mcp\_server.incident.search\_similar**|Searches for incidents similar to a given incident or natural language description using semantic search and returns ranked results.|
-|**sn\_itsm\_mcp\_server.lookup\_assignment\_groups**|Looks up available assignment groups and individual assignees.|
-|**sn\_itsm\_mcp\_server.lookup\_users**|Looks up users in the system by name, role, or group membership.|
-|**sn\_itsm\_mcp\_server .incident.search\_similar\_kb**|Searches similar Knowledge Base \(KB\) articles based on the input query or details, to find existing content that has already documented the issue or its resolution.|
-|**sn\_itsm\_mcp\_server .incident.get\_kb\_details**|Retrieves details for a single published KB article using number or sys\_id, that includes title, knowledge base, state, publish date, and full body text.|
-|**sn\_itsm\_mcp\_server.incident.attach\_kb**|Links a knowledge base article to an incident as a related reference.|
+<table id="table-incident-management-tools"><thead><tr><th>
 
-## Change management tools
+Tool name
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+**sn\_itsm\_mcp\_server.incident.get\_details**
+
+</td><td>
+
+Returns incident fields for a given incident number. The response is role-aware: fulfillers \(itil or sn\_incident\_read\) receive the full record, including assignment, CI, and work notes. Requesters receive a reduced, customer-safe field set and comments-only activity for incidents they own, and a 404 response for incidents they don't own.
+
+</td></tr><tr><td>
+
+**sn\_itsm\_mcp\_server.incident.modify**
+
+</td><td>
+
+Updates fields on an incident, including work notes, comments, assignee, and assignment group. Updates run through platform-native APIs with full business rule execution.
+
+The tool is role-aware. Fulfillers \(itil or sn\_incident\_write\) can set any modifiable field with no ownership restriction. Requesters can perform only the following actions, and only on an incident they own: add a customer-visible comment, escalate the incident using the **escalate** and **escalation\_reason** inputs \(submitted as a standalone operation\), or mark an active incident Resolved. A requester attempting any other field update receives a 403; a non-owned incident returns 404.
+
+</td></tr><tr><td>
+
+**sn\_itsm\_mcp\_server.incident.search\_similar**
+
+</td><td>
+
+Searches for incidents similar to a given incident or natural language description using semantic search and returns ranked results.
+
+</td></tr><tr><td>
+
+**sn\_itsm\_mcp\_server.lookup\_assignment\_groups**
+
+</td><td>
+
+Looks up available assignment groups and individual assignees.
+
+</td></tr><tr><td>
+
+**sn\_itsm\_mcp\_server.lookup\_users**
+
+</td><td>
+
+Looks up users in the system by name, role, or group membership.
+
+</td></tr><tr><td>
+
+**sn\_itsm\_mcp\_server .incident.search\_similar\_kb**
+
+</td><td>
+
+Searches similar Knowledge Base \(KB\) articles based on the input query or details, to find existing content that has already documented the issue or its resolution.
+
+</td></tr><tr><td>
+
+**sn\_itsm\_mcp\_server .incident.get\_kb\_details**
+
+</td><td>
+
+Retrieves details for a single published KB article using number or sys\_id, that includes title, knowledge base, state, publish date, and full body text.
+
+</td></tr><tr><td>
+
+**sn\_itsm\_mcp\_server.incident.attach\_kb**
+
+</td><td>
+
+Links a knowledge base article to an incident as a related reference.
+
+</td></tr></tbody>
+</table>## Change management tools
 
 The following tools are available to query, analyze, and update change requests in the ITSM MCP Server. Each tool supports multiple operations specified by a required `operation` parameter.
+
+You can access these tools based on your assigned role. As a system administrator, you can update the role access as needed.
 
 <table id="table-change-management-tools-overview"><thead><tr><th>
 
@@ -135,7 +203,7 @@ Description
 
 </td><td>
 
-Guides a requester through a multi-step workflow to create a new incident or request a catalog item. The workflow includes knowledge base deflection \(searches for self-service articles\), catalog item redirection \(searches for matching service catalog items\), duplicate detection \(identifies similar open incidents by the requester\), and incident creation with field review. Returns an incident number with portal link or a request item number depending on the path taken.**Note:** This tool uses the [Create incident AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/itsm-create-incident-ai-agent.md).
+Guides a requester through a multi-step workflow to create a new incident or request a catalog item. The workflow includes knowledge base deflection \(searches for self-service articles\), catalog item redirection \(searches for matching service catalog items\), duplicate detection \(identifies similar open incidents by the requester\), and incident creation with field review. Returns an incident number with portal link or a request item number depending on the path taken.**Note:** This tool uses the [Create incident AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/itsm-create-incident-ai-agent.md) as an MCP tool. To configure, see [Configure an AI agent as an MCP tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/configure-ai-agent-as-mcp-tool.md).
 
 </td></tr><tr><td>
 
@@ -144,6 +212,14 @@ Guides a requester through a multi-step workflow to create a new incident or req
 </td><td>
 
 Returns the status and details of an incident or requested item \(RITM\) owned by the authenticated user. Accepts a ticket number or a natural language reference such as `my VPN ticket` or `my latest request`. For incidents, returns ticket number, short description, description, priority, urgency, impact, state, created by, and created on. For RITMs, returns the ticket number, approval status, state of the requested item, stage, estimated delivery, and whether the authenticated user is the requested-for user.
+
+</td></tr><tr><td>
+
+**sn\_itsm\_mcp\_server.request.modify**
+
+</td><td>
+
+Adds a customer-visible comment to a requested item \(RITM\) owned by the authenticated user. The comment is attributed to the authenticated requester. Incident numbers are rejected; use **sn\_itsm\_mcp\_server.incident.modify** to comment on an incident. Closed or canceled requested items cannot be commented on.
 
 </td></tr></tbody>
 </table>## On-call management tools

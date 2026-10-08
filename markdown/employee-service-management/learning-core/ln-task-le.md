@@ -35,20 +35,8 @@ Role required: sn\_lc.task\_creator
 
 **Parent Topic:**[Managing course and catalog content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/learning-core/manage-ln-content.md)
 
-**Parent Topic:**[Managing course and catalog content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/learning-core/manage-ln-content.md)
-
 **Related topics**  
 
-
-[Create a course catalog]()
-
-[Create a content collection]()
-
-[Create internal learning content]()
-
-[View external learning content]()
-
-[Create a learning library]()
 
 [Create a course catalog]()
 

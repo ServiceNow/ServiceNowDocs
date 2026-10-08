@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/understanding-threat-intel.html
 release: brazil
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-09-28"
 reading_time_minutes: 1
 breadcrumb: [Threat Intelligence, Enterprise security case management applications, Security Operations]
 ---

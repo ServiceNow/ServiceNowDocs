@@ -1,6 +1,6 @@
 ---
 title: Supplier data steward AI agent
-description: This Supplier Lifecycle Operations agent manages supplier onboarding by verifying supplier details, handling duplicate detection, allowing corrections to supplier name or email, and creating the supplier record.
+description: This Supplier Lifecycle Operations agent manages supplier onboarding by verifying details, detecting duplicates, presenting scorecards for review, creating records, and updating case status.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/slo-supplier-data-steward-ai-agent.html
 release: brazil
@@ -12,16 +12,18 @@ breadcrumb: [Supplier Lifecycle Operations AI agents, Supplier Lifecycle Operati
 
 # Supplier data steward AI agent
 
-This Supplier Lifecycle Operations agent manages supplier onboarding by verifying supplier details, handling duplicate detection, allowing corrections to supplier name or email, and creating the supplier record.
+This Supplier Lifecycle Operations agent manages supplier onboarding by verifying details, detecting duplicates, presenting scorecards for review, creating records, and updating case status.
 
 ## Workflow
 
 1.  Based on the case state, prompt the user for a case number \(if details are needed\), proceed directly to record creation, or handle duplicates.
-2.  Present the duplicate records to the user and ask whether to continue. If yes, offer the option to correct the supplier's legal name, email, or both before proceeding. If the correction resolves the duplicate, continue to onboarding. If the correction triggers a rejection, stop. If the user declines to continue, proceed with rejection.
-3.  Run the verification and record creation tool using the supplier details and the user's continuation decision.
-4.  Display one of four results: successful registration, halted by user decision, rejected due to validation failure, or rejected for other reasons.
+2.  Generate the supplier scorecard from web search results, highlighting key strengths, positive indicators, and potential risk signals. Wait for the user to select either **Reject onboarding** or **Continue onboarding**. The agent can't proceed until the user chooses.
+3.  If Craft is configured, use the Craft integration to generate a supplier scorecard that provides a comprehensive, normalized evaluation of the supplier's overall profile and associated risk factors. Wait for the user to select either **Reject onboarding** or **Continue onboarding**.
+4.  Present the duplicate records to the user and ask whether to continue. If yes, offer the option to correct the supplier's legal name, email, or both before proceeding. If the correction resolves the duplicate, continue to onboarding. If the correction triggers a rejection, stop. If the user declines to continue, proceed with rejection.
+5.  Run the verification and record creation tool using the supplier details.
+6.  Display one of six results: successful registration, halted by user decision, rejected due to validation failure, rejected for other reasons, rejected at the web search review, or rejected at the Craft review.
 
-<table><thead><tr><th>
+<table id="table_rj2_t2t_5kc"><thead><tr><th>
 
 Field
 
@@ -59,14 +61,10 @@ Tools
 
 </td><td>
 
--   **Script**
-
-Update supplier case details
-
--   **Subflow**
-
-Verify and create records
-
+-   Script: Update Supplier Case Details
+-   Flow action: Supplier craft analysis action
+-   Web search: Supplier websearch analysis
+-   Subflow: Verify and create records
 
 </td></tr><tr><td>
 

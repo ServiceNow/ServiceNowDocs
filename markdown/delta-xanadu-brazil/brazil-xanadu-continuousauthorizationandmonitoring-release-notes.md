@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-continuousauthorizationandmonitoring-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 16
+last_updated: "2026-10-08"
+reading_time_minutes: 18
 breadcrumb: [Products combined by family]
 ---
 
@@ -192,6 +192,32 @@ Enhancing the OSCAL import experience, the OSCAL import playbook now allows you 
     -   **User Mapping**: Automatically map users to existing ServiceNow users based on exact name matches, with the option to manually adjust mappings.
     -   **Group Mapping**: Automatically map groups to existing ServiceNow groups based on exact name matches, with the option to manually adjust mappings.
     -   **Roles and Responsibilities**: Populate relevant package fields with roles and responsibilities.
+
+ -   **[Overlay enhancement](https://www.servicenow.com/docs/access?context=prepare-auth-pkg&family=zurich&ft:locale=en-US)**
+
+Apply policies as an overlay in an authorization package to determine how the control objectives in the policy impact the baseline. This can be done in the following ways:
+
+    -   Addition: Create control objectives to address specific requirements not covered in the baseline.
+    -   Subtraction: Move existing control objectives to **Not Applicable**.
+    -   Customization: Create, move existing control objectives to not applicable, or skip control objectives.
+-   **[OSCAL enhancements](https://www.servicenow.com/docs/access?context=oscal-cam-ws&family=zurich&ft:locale=en-US)**
+
+Use the OSCAL import playbook to follow a user-friendly, step-by-step approach for importing OSCAL models. Using the playbook, you can:
+
+    -   Add multiple Catalog overlay files.
+    -   Preview OSCAL data before importing them to confirm accuracy. You can preview the following:
+        -   Authorization boundary
+        -   Authorization package
+        -   System elements
+        -   Information types
+        -   Baseline controls
+        -   Inherited controls
+        -   Hybrid controls
+        -   Not applicable controls
+        -   Policies
+        -   Control objectives
+        -   Control objectives requirements
+    -   Skipped objects in the preview, such as control objectives, policies, authorization boundaries and packages can be individually overridden.
 
 </td></tr><tr><td>
 
@@ -541,6 +567,8 @@ Yokohama
 Install CAM by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 
+**Important:** Continuous Authorization and Monitoring is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Zurich
@@ -551,6 +579,8 @@ Zurich
 
 Install CAM by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
+
+**Important:** CAM is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 
@@ -563,6 +593,8 @@ Australia
 Install Continuous Authorization and Monitoring by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
 
 
+**Important:** Continuous Authorization and Monitoring is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Brazil
@@ -573,6 +605,8 @@ Brazil
 
 Install Continuous Authorization and Monitoring by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=brazil&ft:locale=en-US).
 
+
+Continuous Authorization and Monitoring is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements

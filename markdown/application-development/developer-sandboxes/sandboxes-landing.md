@@ -8,9 +8,9 @@ product: Developer Sandboxes
 classification: developer-sandboxes
 topic_type: reference
 last_updated: "2026-09-10"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [developer sandbox, sandbox developer, servicenow sandbox enabled, development sandbox, dev sandbox, sandbox management, sandbox enabled servicenow, sandbox crm]
-breadcrumb: [Developing your application, Building applications]
+breadcrumb: [Build, AI Workflow Factory, Building applications]
 ---
 
 # Developer Sandboxes
@@ -58,4 +58,13 @@ Once allocated, developers can access their sandbox by one of two ways:
 -   [Read a blog about Developer Sandboxes](https://www.servicenow.com/community/app-engine-blog/zurich-release-brings-app-dev-to-the-beach/ba-p/3339173)
 -   [Watch a video demo of merging changes in Git](https://www.youtube.com/watch?v=FmzU7HYlV-g)
 -   [Contact Customer Service and Support](https://support.servicenow.com/now)
+
+-   **[Exploring Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/developer-sandboxes/exploring-sandboxes.md)**  
+Developer Sandboxes provide isolated development environments that enable parallel building and testing on top of a shared development instance. Use sandboxes to reduce code conflicts, accelerate delivery, and safely test configurations without affecting other team members' work.
+-   **[Installing Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/developer-sandboxes/dev-sbx-installing.md)**  
+Developer Sandboxes is a installed on your instance, with licenses from a pack assigned by your admin. Review prerequisites, plugin requirements, and SSO configuration before installation begins.
+-   **[Administering Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/developer-sandboxes/administering-sandboxes.md)**  
+If you have permission, you can allocate and retire the sandboxes you've created in your instance.
+
+**Parent Topic:**[Build](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/build-ai-workflow-factory-prime.md)
 

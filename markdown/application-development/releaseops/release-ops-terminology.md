@@ -9,7 +9,7 @@ classification: releaseops
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, ReleaseOps, Deploying applications, Building applications]
+breadcrumb: [Reference, ReleaseOps, Run, AI Workflow Factory, Building applications]
 ---
 
 # ReleaseOps terminology

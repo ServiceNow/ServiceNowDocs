@@ -8,7 +8,7 @@ product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 3
+reading_time_minutes: 4
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
 breadcrumb: [Use generative AI skills, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
@@ -37,6 +37,8 @@ Incident resolution notes are generated from the information that you enter in t
 -   State
 -   Work notes
 -   Additional comments
+
+The resolution notes generation skill requires a minimum of 50 words of relevant content across the incident's input fields \(short description, description, work notes, and additional comments\). If fewer than 50 relevant words are present, the skill returns an insufficient activity error and does not generate output.
 
 **Note:** To change resolution notes generation from automatic to manual \(requiring user input\), set the trigger for the skill in the AI Admin Hub console.
 
@@ -115,15 +117,15 @@ If you want to check some details about the resolution notes, select the more in
 
 5.  In Core UI or Service Operations Workspace for ITSM, resolve the incident by changing its state.
 
-<table id="choicetable_uh4_l1f_xyb"><thead><tr><th align="left" id="d199087e399">
+<table id="choicetable_uh4_l1f_xyb"><thead><tr><th align="left" id="d198865e403">
 
 Interface
 
-</th><th align="left" id="d199087e402">
+</th><th align="left" id="d198865e406">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d199087e408">
+</th></tr></thead><tbody><tr><td id="d198865e412">
 
 **Core UI**
 
@@ -133,7 +135,7 @@ Procedure
 2.  Update the resolution code and select **Resolve**. The resolution summary is displayed in the **Resolution Information** tab on the Incident form.
 
 
-</td></tr><tr><td id="d199087e433">
+</td></tr><tr><td id="d198865e437">
 
 **Service Operations Workspace for ITSM**
 

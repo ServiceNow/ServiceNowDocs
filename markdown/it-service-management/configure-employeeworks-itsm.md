@@ -1,19 +1,19 @@
 ---
 title: Configure Employee Slate for ITSM
-description: Use Employee Slate for ITSM to manage IT service requests through Moveworks. This task covers setting up Moveworks for Employee Slate and activating the Employee Slate for ITSM plugin.
+description: Use Employee Slate for ITSM to manage IT service requests using Employee Slate for Moveworks or with Employee Slate \(built for Now Assist\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/configure-employeeworks-itsm.html
 release: brazil
 topic_type: task
 last_updated: "2026-09-16"
 reading_time_minutes: 1
-keywords: [ITSM Employee Slate for Moveworks, Employee Slate for Moveworks]
+keywords: [Employee Slate for ITSM, Employee Slate \(built for Now Assist\), Employee Slate for Moveworks]
 breadcrumb: [Employee Slate for ITSM, IT Service Management]
 ---
 
 # Configure Employee Slate for ITSM
 
-Use Employee Slate for ITSM to manage IT service requests through Moveworks. This task covers setting up Moveworks for Employee Slate and activating the Employee Slate for ITSM plugin.
+Use Employee Slate for ITSM to manage IT service requests using Employee Slate for Moveworks or with Employee Slate \(built for Now Assist\).
 
 ## Before you begin
 
@@ -25,35 +25,35 @@ You can use Employee Slate for ITSM either with Employee Slate for Moveworks or 
 
 ## Procedure
 
-1.  [Set up Moveworks for Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/empworks-set-up-moveworks.md).
+1.  Install the Employee Slate for ITSM plugin to enable the Employee Slate for ITSM application.
 
-    This includes configuring Moveworks chatbot for Employee Slate and configuring Employee Slate for Moveworks.
+2.  Integrate Employee Slate for ITSM with either Employee Slate for Moveworks or Employee Slate \(built for Now Assist\).
 
-2.  Install the plugin to enable the application.
-
-3.  Configure Employee Slate for ITSM to use either Employee Slate for Moveworks or Employee Slate \(built for Now Assist\).
-
-<table id="choicetable_wsn_kmw_pkc"><thead><tr><th align="left" id="d166642e133">
+<table id="choicetable_wsn_kmw_pkc"><thead><tr><th align="left" id="d166308e141">
 
 To
 
-</th><th align="left" id="d166642e136">
+</th><th align="left" id="d166308e144">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d166642e142">
+</th></tr></thead><tbody><tr><td id="d166308e150">
 
-**Integrate with Moveworks**
+**Integrate with Employee Slate for Moveworks**
 
 </td><td>
 
-1.  [Configure Employee Slate for Moveworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/core-business-suite/config-es-cbs-moveworks.md)
-2.  Install the following plugins from the MoveWorks Marketplace and follow the on-screen instructions to complete the installation.
+1.  [Set up Moveworks for Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/empworks-set-up-moveworks.md).
+
+This includes configuring Moveworks chatbot for Employee Slate and configuring Employee Slate for Moveworks.
+
+2.  [Configure Employee Slate for Moveworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/core-business-suite/config-es-cbs-moveworks.md)
+3.  Install the following plugins from the MoveWorks Marketplace and follow the on-screen instructions to complete the installation.
     -   Outage Lookup plugin
     -   IT Walk-up Visits plugin
 
 
-</td></tr><tr><td id="d166642e172">
+</td></tr><tr><td id="d166308e191">
 
 **Integrate with Employee Slate \(built for Now Assist\)**
 
@@ -62,6 +62,6 @@ Do this
 [Configure Employee Slate for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/core-business-suite/config-es-cbs-na.md)
 
 </td></tr></tbody>
-</table>4.  To customize your walk-up experience, refer to [Configuring Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/walk-up-experience/walkup-experience-configuration.md).
+</table>3.  To customize your walk-up experience, refer to [Configuring Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/walk-up-experience/walkup-experience-configuration.md).
 
 

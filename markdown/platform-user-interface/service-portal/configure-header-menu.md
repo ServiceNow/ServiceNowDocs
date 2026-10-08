@@ -7,7 +7,7 @@ release: brazil
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 5
 breadcrumb: [Create a portal, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -207,7 +207,7 @@ Condition
 
 </td><td>
 
-Determines what conditions are required for menu items to show in the header. For example, the condition `gs.hasRole("sp_admin")` restricts access to menu items to users with the sp\_admin role. Hide a menu item by setting this value to **false**. For more information on what conditions to use in the **Condition** field, see [Create a UI Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/t_CreateNewUIAction.md) .
+Determines what conditions are required for menu items to show in the header. For example, the condition `gs.hasRole("sp_admin")` restricts access to menu items to users with the sp\_admin role. Hide a menu item by setting this value to **false**. For more information on what conditions to use in the **Condition** field, see Create a UI Action .
 
 </td></tr><tr><td>
 

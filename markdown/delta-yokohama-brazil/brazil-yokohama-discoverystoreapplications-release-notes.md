@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-brazil/brazil-yokohama-discoverystoreapplications-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 3
+last_updated: "2026-10-08"
+reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
 
@@ -515,6 +515,7 @@ Brazil
 
 </td><td>
 
+-   AI Agent Topology Mapping: Discover AI resources deployed on Microsoft Foundry \(new\) and Microsoft Foundry Hub.
 -   Discovery and Service Mapping Patterns: 12 Oracle and 7 Red Hat application patterns, AWS Marketplace and IBM Flash Storage patterns, Cisco Nexus Virtual Routing and Forwarding \(VRF\) discovery, and Oracle Wallet support on Windows.
 -   Cloud Service Graph Connectors:
     -   Service Graph Connector for AWS
@@ -530,6 +531,7 @@ Brazil
 -   [Microsoft Azure](https://www.servicenow.com/docs/access?context=cmdb-integration-azure&family=brazil&ft:locale=en-US)
 -   [GCP](https://www.servicenow.com/docs/access?context=sgc-cmdb-integration-gcp&family=brazil&ft:locale=en-US)
 -   [ITOM Content Service candidates](https://www.servicenow.com/docs/access?context=itom-content-service-classifiers&family=brazil&ft:locale=en-US)
+-   [AI Agent Topology Mapping](https://www.servicenow.com/docs/access?context=ai-agent-topology-mapping-landing&family=brazil&ft:locale=en-US)
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/rn-combined-intro.md)

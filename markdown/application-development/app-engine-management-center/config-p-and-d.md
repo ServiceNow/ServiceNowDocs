@@ -8,8 +8,8 @@ product: App Engine Management Center
 classification: app-engine-management-center
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 4
-breadcrumb: [Configure, App Engine Management Center, Governing app development, Building applications]
+reading_time_minutes: 5
+breadcrumb: [Configure, App Engine Management Center, Run, AI Workflow Factory, Building applications]
 ---
 
 # Configure Pipelines and Deployments
@@ -79,4 +79,11 @@ For general information about guided setup, see [Using guided setup](https://raw
 
     See [Migration tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/migration-tasks-aemc.md) for more information.
 
+
+-   **[Pipelines and Deployments configuration tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/p-and-d-config-tasks.md)**  
+As you work through the Pipelines and Deployments guided setup, you must perform different configuration tasks on each of your instances.
+-   **[Migration tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/migration-tasks-aemc.md)**  
+You must complete several tasks to migrate your App Engine pipelines to ReleaseOps.
+
+**Parent Topic:**[Configuring AEMC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/configuring-aemc.md)
 

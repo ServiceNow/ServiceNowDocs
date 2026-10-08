@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-australia-brazil/brazil-australia-servicenowstudio-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 7
+last_updated: "2026-10-08"
+reading_time_minutes: 8
 breadcrumb: [Products combined by family]
 ---
 
@@ -112,7 +112,12 @@ Brazil
 
 </td><td>
 
--   **[ServiceNow Studio quick start](https://www.servicenow.com/docs/access?context=servicenow-studio-quick-start&family=brazil&ft:locale=en-US)**
+-   **[Summarize the app content](https://www.servicenow.com/docs/access?context=summarize-an-app-in-servicenow-studio&family=brazil&ft:locale=en-US)**
+
+ServiceNow Studio supports the Delegated Admin role for ServiceNow Otto app summary generation.
+
+
+ -   **[ServiceNow Studio quick start](https://www.servicenow.com/docs/access?context=servicenow-studio-quick-start&family=brazil&ft:locale=en-US)**
 
 Learn ServiceNow Studio efficiently with an updated course of quick start topics.
 
@@ -183,7 +188,12 @@ Brazil
 
 </td><td>
 
--   **[ServiceNow Studio settings](https://www.servicenow.com/docs/access?context=servicenow-studio-settings&family=brazil&ft:locale=en-US)**
+-   **[Managing application and record changes](https://www.servicenow.com/docs/access?context=managing-application-and-record-changes&family=brazil&ft:locale=en-US)**
+
+Update sets and changes linked to source control both display in the Changes tab, with clear tracking paths for both options and support for simultaneous update set and source control use.
+
+
+ -   **[ServiceNow Studio settings](https://www.servicenow.com/docs/access?context=servicenow-studio-settings&family=brazil&ft:locale=en-US)**
 
 ServiceNow Studio user preferences and settings have moved from the top right corner to the bottom left corner of the interface. View what's new in ServiceNow Studio, access command palette and keyboard shortcut options, and update preferences.
 
@@ -258,7 +268,12 @@ Brazil
 
 </td><td>
 
--   **Experience switcher**
+-   **Pre-VS Code replatformed version of ServiceNow Studio**
+
+The newly redesigned ServiceNow Studio went through several iterations before the replatform onto VS Code that occurred in March 2026. All versions before the replatform have been deprecated. Previously, turning off Build Agent returned you to the pre-VS Code version of ServiceNow Studio. Now, it stays on the VS Code version and turns off Build Agent.
+
+
+ -   **Experience switcher**
 
 The Experience switcher has been removed from ServiceNow Studio. ServiceNow IDE capabilities were consolidated under the Explorer tab in ServiceNow Studio. There is no current replacement for the Experience switcher, but each individual application can still be accessed on the ServiceNow AI Platform.
 

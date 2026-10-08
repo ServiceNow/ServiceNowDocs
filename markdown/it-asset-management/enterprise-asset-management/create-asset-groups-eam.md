@@ -18,35 +18,28 @@ Create asset groups to create a logical group of entities that includes assets, 
 
 ## Before you begin
 
-Role required:
-
--   sn\_eam.enterprise\_admin
--   sn\_eam.enterprise\_asset\_manager
--   sn\_eamfam.facility\_asset\_manager
--   sn\_eamhc.medical\_asset\_manager
--   sn\_otam.ot\_asset\_manager
-
-## About this task
-
-Asset groups can be used and created in the Enterprise Asset Workspace, Facility Asset Workspace, Medical Asset Workspace, and the Operational Technology \(OT\) Asset Workspace. This task specifically describes how to create an asset group in the Enterprise Asset Workspace.
-
-After you create an asset group, you can create subgroups and add assets to the subgroups.
+Role required:sn\_eam.enterprise\_admin or sn\_eam.enterprise\_asset\_manager
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Enterprise Asset Workspace** &gt; **Enterprise asset estate** &gt; **Asset groups**.
+1.  Navigate to **Workspaces** &gt; **Enterprise Asset Workspace**.
 
-    The Asset groups tab contains two subtabs:
+2.  From the Enterprise Asset Workspace, open the Enterprise asset estate view.
 
-    -   Asset groups: all the asset groups in your organization.
-    -   Sites: equipment model entities that are picked up from the Equipment model \[cmdb\_ci\_ot\_isa\_entity\] table. The Equipment model table is a descendant of the Application Service CI \[cmdb\_ci\_service\_auto\] table.
-    The Asset groups subtab is further classified into the following sites:
+3.  Select the **Asset groups** tab.
 
-    -   Unassigned sites: sites not assigned to any asset group.
-    -   Assigned sites: sites assigned to an asset group.
-2.  Select **New** to open the Create New Asset group page.
+    This tab contains the following subtabs:
 
-3.  On the form, fill in the fields.
+    -   **Asset groups**: Create and manage asset groups across your organization. This subtab is further classified into the following sites:
+        -   Unassigned sites: sites not assigned to any asset group.
+        -   Assigned sites: sites assigned to an asset group.
+    -   **Sites**: View equipment model entities that are picked up from the Equipment model \[cmdb\_ci\_ot\_isa\_entity\] table. The Equipment model table is a descendant of the Application Service CI \[cmdb\_ci\_service\_auto\] table.
+
+        For more information about sites, see [Create a site in the Enterprise Asset Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/create-sites-eam.md).
+
+4.  On the **Asset groups** subtab, select **New**.
+
+5.  On the form, fill in the fields.
 
 <table id="table_ik3_wyx_jfc"><thead><tr><th>
 
@@ -209,11 +202,11 @@ Comments
 Any comments to add.
 
 </td></tr></tbody>
-</table>4.  Select **Save**.
+</table>6.  Select **Save**.
 
     The asset group record opens with related lists for adding subgroups and assets.
 
-5.  Select the View dependency map icon, \[Omitted image "dependency-map-icon.png"\] Alt text: View dependency map, next to an asset group, in the Asset groups page, to view the relationship between an asset group, subgroups, and assets.
+7.  Select the View dependency map icon, \[Omitted image "dependency-map-icon.png"\] Alt text: View dependency map, next to an asset group, in the Asset groups page, to view the relationship between an asset group, subgroups, and assets.
 
     \[Omitted image "dependency-map-graphic.png"\] Alt text: Dependency map
 
@@ -223,7 +216,7 @@ Any comments to add.
 -   **[Create an asset subgroup in Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/create-asset-subgroup-eam.md)**  
 Create a subgroup to add child asset groups to an asset group.
 -   **[Add assets to an asset group or subgroup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/add-assets-assetgroups.md)**  
-Add existing assets to an asset group or a subgroup.
+Add existing assets to an asset group or subgroup.
 
 **Parent Topic:**[Create and manage enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/create-manage-enterprise-assets.md)
 

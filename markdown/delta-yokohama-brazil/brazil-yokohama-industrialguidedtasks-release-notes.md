@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-brazil/brazil-yokohama-industrialguidedtasks-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
@@ -99,7 +99,16 @@ Australia
 
 </td><td>
 
--   **[Authoring Guided Tasks](https://www.servicenow.com/docs/access?context=task-authoring-configuration-settings&family=australia&ft:locale=en-US)**
+-   **[Reports on question results](https://www.servicenow.com/docs/access?context=create-report-igt-question-results&family=australia&ft:locale=en-US)**
+
+Analyze inspection results question by question. Create reports on the new Industrial Guided Task Result \[sn\_icw\_igt\_results\] database view, which combines the question responses of each task with its functional location, equipment, standard, and shift. Users with the sn\_icw.report\_user role can filter or group results by these fields, or filter on a single assessment question.
+
+-   **[Question bank](https://www.servicenow.com/docs/access?context=igt-question-bank&family=australia&ft:locale=en-US)**
+
+Keep assessment questions consistent across standards without recreating them. Users with the new Industrial Guided Task Manager \[sn\_icw\_igt.manager\] role can create question banks and publish questions in them from the Assessment Workspace. Standard authors can then add published questions to sections in any IGT standard from the Task authoring tab. Each added question is an independent copy.
+
+
+ -   **[Authoring Guided Tasks](https://www.servicenow.com/docs/access?context=task-authoring-configuration-settings&family=australia&ft:locale=en-US)**
 
 Design structured workflows with sections, steps, assessments, and conditional paths by using an authoring interface that enforces consistency and quality.Built‑in rules help to maintain consistency by following correct steps sequence, naming, and safety requirements. Authors can preview the guided tasks’ end‑user experience before publishing.
 

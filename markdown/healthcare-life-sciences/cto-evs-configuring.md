@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/cto-ev
 release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Care Team Operations for Environmental Services, Healthcare Operations, Healthcare and Life Sciences]
 ---
 
@@ -53,4 +53,6 @@ Set up the Care Team Operations for Environmental Services application.
 
     Add customer record producers to the service catalog for use with Care Team Operations for Environmental Services.
 
+
+**Note:** This application includes a knowledge base article that defines which details the ServiceNow Otto case intake AI agent asks for when it creates a case. To change the intake questions, see [Manage domain intelligence for AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/healthcare-operations-core/hco-now-assist-manage-domain-intelligence.md).
 

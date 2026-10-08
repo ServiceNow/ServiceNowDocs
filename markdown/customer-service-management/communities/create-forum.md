@@ -79,7 +79,7 @@ The forum title is visible to registered community users. Community users must r
         -   **Permission**: **Question &amp; Answer Read**.
     3.  In the **Approval Flow for Membership** field, perform one of the following options.
 
-<table id="choicetable_qcd_dlc_t1b"><tbody><tr><td id="d172112e271">
+<table id="choicetable_qcd_dlc_t1b"><tbody><tr><td id="d173385e271">
 
 **Leave the __Approval Flow for Membership__ field blank.**
 
@@ -87,7 +87,7 @@ The forum title is visible to registered community users. Community users must r
 
 Membership requests to the forum are automatically approved.
 
-</td></tr><tr><td id="d172112e283">
+</td></tr><tr><td id="d173385e283">
 
 **Select the preconfigured approval flow __Forum Membership Approval__.**
 
@@ -95,7 +95,7 @@ Membership requests to the forum are automatically approved.
 
 A task is created and sent to the community or forum administrator for approval.
 
-</td></tr><tr><td id="d172112e295">
+</td></tr><tr><td id="d173385e295">
 
 **Select a flow that you have created.**
 

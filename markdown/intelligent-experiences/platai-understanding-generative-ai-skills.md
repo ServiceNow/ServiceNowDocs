@@ -1,6 +1,6 @@
 ---
-title: About generative AI skills
-description: Generative AI skills use large language models to your enterprise data to complete a single, well-defined task within a workflow, such as summarizing a record, drafting a reply, or recommending a next action. Skills add productivity to work your users already do, without changing how they work.
+title: Understanding generative AI skills
+description: Generative AI skills use large language models to process your enterprise data to complete a single, well-defined task within a workflow, such as summarizing a record, drafting a reply, or recommending a next action. Skills reduce manual effort in work your users already do, without changing how they work.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/platai-understanding-generative-ai-skills.html
 release: brazil
@@ -11,9 +11,9 @@ keywords: [generative AI skills, Now Assist skills, generative AI, skills versus
 breadcrumb: [Generative AI skills, Enable AI Experiences]
 ---
 
-# About generative AI skills
+# Understanding generative AI skills
 
-Generative AI skills use large language models to your enterprise data to complete a single, well-defined task within a workflow, such as summarizing a record, drafting a reply, or recommending a next action. Skills add productivity to work your users already do, without changing how they work.
+Generative AI skills use large language models to process your enterprise data to complete a single, well-defined task within a workflow, such as summarizing a record, drafting a reply, or recommending a next action. Skills reduce manual effort in work your users already do, without changing how they work.
 
 A generative AI skill completes one task that is triggered in the moment that you need it. The skill sends a prompt and your data to a large language model, then returns a result you can use directly in the record or conversation you're working in, such as a summary, a drafted message, or a recommended action. Because each skill targets a specific task, you can adopt skills one at a time and see results without redesigning your processes.
 
@@ -27,7 +27,7 @@ Skills also give your organization a measured entry point into AI. You can start
 
 A skill and an AI agent solve different kinds of problems. A skill performs one bounded task on demand and returns control to the user, who decides what to do with the result. An AI agent, working within an agentic workflow, pursues a broader goal across multiple steps and can plan, act, and adapt with limited human intervention.
 
-Consider a service request. A skill can summarize the request or draft a reply when a user asks for it. An agentic workflow can take the request further on its own by interpreting it, gathering the information it needs, completing the required actions, and reporting the outcome. Skills are the building blocks for individual tasks, and agents coordinate those capabilities to carry a process from start to finish.
+Consider a service request. A skill can summarize the request or draft a reply when a user asks for it. An agentic workflow can take the request further on its own by interpreting it, gathering the information it requires, completing the required actions, and reporting the outcome. Skills are the building blocks for individual tasks, and agents coordinate those capabilities to carry a process from start to finish.
 
 ## When to use generative AI skills
 

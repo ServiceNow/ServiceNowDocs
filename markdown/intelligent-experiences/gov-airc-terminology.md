@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/gov-air
 release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [reference, terminology]
 breadcrumb: [Reference, Managing risk and compliance, Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
@@ -17,23 +17,23 @@ Key terms used across Risk and Compliance views in AI Control Tower, including c
 
 ## Regulatory risk classification
 
-Regulatory risk classification groups AI assets by acceptability or risk category, such as unacceptable, high, medium, and low. At the asset level, classification can remain undetermined until the relevant governance data is available.
+Regulatory risk classification groups AI assets by acceptability or risk category, such as unacceptable, high, medium, and low. At the asset level, classification can remain undetermined until the relevant governance data is available. For more information, see [Classifying AI assets by regulatory risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-airc-regulatory-classification.md).
 
 ## Compliance score and compliance posture
 
-Compliance score represents visible compliance posture for the selected scope. Framework-specific posture views show how governance information is presented for priority authority documents or policies and can surface issue indicators relevant to those frameworks.
+Compliance score represents visible compliance posture for the selected scope. Framework-specific posture views show how governance information is presented for priority authority documents or policies and can surface issue indicators relevant to those frameworks. For more information, see [Compliance score calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-airc-compliance-score-calculation.md).
 
 ## Inherent risk, residual risk, and control effectiveness
 
-Inherent risk describes the level of risk before control effectiveness is considered. Control effectiveness describes how well controls address the identified risk. Residual risk represents the level of risk that remains after control effectiveness is considered.
+Inherent risk describes the level of risk before control effectiveness is considered. Control effectiveness describes how well controls address the identified risk. Residual risk represents the level of risk that remains after control effectiveness is considered. For how these scores are calculated, see [Risk rating calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-airc-risk-score-calculation.md).
 
 ## Risk heat map
 
-Risk heat maps show how risk information is distributed across combinations of risk level and control effectiveness. These views help users understand where higher-risk conditions are associated with less effective controls.
+Risk heat maps show how risk information is distributed across combinations of risk level and control effectiveness. These views help you understand where higher-risk conditions are associated with less effective controls. For more information, see [Reviewing AI risk posture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-airc-risk-posture.md).
 
 ## Governance records
 
-Asset-level Risk and Compliance views can surface related governance records for an AI system, including assessments, risks, controls, issues, policy exceptions, attestations, and similar governance artifacts that contribute to the system's current posture.
+Asset-level Risk and Compliance views can surface related governance records for an AI system, including assessments, risks, controls, issues, policy exceptions, attestations, and similar governance artifacts that contribute to the system's current posture. For the full list of record types, see [Governance record types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-airc-governance-records.md).
 
 ## Incomplete states
 

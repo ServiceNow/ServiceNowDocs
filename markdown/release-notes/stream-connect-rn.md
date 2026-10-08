@@ -22,7 +22,7 @@ The ServiceNow® Stream Connect application links your Apache Kafka environment 
 -   Monitor consumer and producer performance with detailed reporting of statistics and performance metrics.
 -   Integrate your ServiceNow instance directly with your local Kafka environment with Direct Kafka.
 
-See [Using Stream Connect for Apache Kafka](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/stream-connect-apache-kafka.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
@@ -39,11 +39,11 @@ The Brazil release adds Stream Producer to automatically stream changes from Str
 
 ### What's new
 
--   **[Stream Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/stream-producer.md)**
+-   ****
 
     Automatically stream changes from ServiceNow tables to Kafka topics with Stream Producer. Stream Producer uses change data capture \(CDC\) technology to capture inserts, updates, and deletes on selected tables. The captured changes are formatted as messages and sent to a Kafka topic, enabling real-time data synchronization with external applications.
 
--   **[Stream Producer schemas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/schema-management.md)**
+-   **Stream Producer schemas**
 
     Stream Producer supports the Avro serialization format for message payloads. When using an Avro format, Stream Producer uses the selected table's auto-generated schema to convert CDC payloads to Avro before sending them to Kafka.
 
@@ -51,7 +51,7 @@ The Brazil release adds Stream Producer to automatically stream changes from Str
 
     Authenticate using OAUTHBEARER as part of the SASL credential framework for Stream Connect message replication. OAUTHBEARER authentication lets Stream Connect administrators meet customer requirements, improve security, and align with existing OAuth capabilities on the platform, enabling seamless integration with Kafka environments that require advanced authentication.
 
--   **[Stream Connect Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/stream-connect-dashboard.md)**
+-   **Stream Connect Dashboard**
 
     Use the Stream Connect Dashboard to view data for Stream Producers, including the number of messages and bytes produced, the rate of production, and the number of messages still pending. Monitor and analyze Stream Producer performance with the Stream Producer CDC Statistics section on each Stream Producer's page. The Stream Connect Dashboard is available from the ServiceNow Store.
 

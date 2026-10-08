@@ -19,7 +19,7 @@ Connection admins set up connections to MySQL in the Zero Copy Connector Hub and
 
 **Important:** The MySQL primary connector is in preview. A primary connector in preview is developed and supported by ServiceNow, but is still being enhanced to include all planned functionality. While in preview, a connector may have limitations in platform support or available features.
 
-A primary connector in preview is fully functional for its documented scope and receives the same ServiceNow support as other primary connectors. For details on specific functionality limitations, see [KBB0010487](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KBB0010487).
+A primary connector in preview is fully functional for its documented scope and receives the same ServiceNow support as other primary connectors. For details on specific functionality limitations, see [Primary Connectors Limitations \(KBB0010487\)](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KBB0010487).
 
 The connector supports pushdown for the following Glide queries and list view operations, allowing most queries to execute at the data source:
 
@@ -34,8 +34,6 @@ The connector supports pushdown for the following Glide queries and list view op
 -   min\(\)
 -   sum\(\)
 -   References
-
-The connector supports primary key and composite \(unique\) key detection on MySQL tables.
 
 ## Supported data types
 

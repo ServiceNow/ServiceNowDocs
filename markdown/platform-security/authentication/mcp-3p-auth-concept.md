@@ -7,7 +7,7 @@ release: brazil
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 2
 keywords: [MCP Server, Model Context Protocol, external authorization server, OIDC provider, JWT, Protected Resource Metadata, Entra ID, Okta]
 breadcrumb: [Authentication, Access Management]

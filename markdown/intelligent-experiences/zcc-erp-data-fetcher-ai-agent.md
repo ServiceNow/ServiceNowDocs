@@ -1,18 +1,18 @@
 ---
 title: ERP data fetcher AI agent
-description: This AI agent fetches details from Knowledge Graph and returns the requested data.
+description: This Zero Copy Connector for ERP AI agent retrieves information about relevant models and model operations. The AI agent currently supports Read operations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/zcc-erp-data-fetcher-ai-agent.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-09-22"
 reading_time_minutes: 1
 breadcrumb: [Zero Copy Connector for ERP AI agents, Zero Copy Connector AI agents, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # ERP data fetcher AI agent
 
-This AI agent fetches details from Knowledge Graph and returns the requested data.
+This Zero Copy Connector for ERP AI agent retrieves information about relevant models and model operations. The AI agent currently supports Read operations.
 
 ## Workflow
 
@@ -108,7 +108,11 @@ Used in agentic workflows
 [Explore ERP models agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/now-assist-erp-aiagents-data-explorer-workflow.md)
 
 </td></tr></tbody>
-</table>Learn more at [ServiceNow Otto for Zero Copy Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/now-assist-for-zero-copy-connector-for-erp.md) and [Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-overview.md).
+</table>For more information, see:
+
+-   [Explore ERP models agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/now-assist-erp-aiagents-data-explorer-workflow.md)
+-   [ServiceNow Otto for Zero Copy Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/now-assist-for-zero-copy-connector-for-erp.md)
+-   [Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-overview.md)
 
 **Parent Topic:**[Zero Copy Connector for ERP AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/zcc-ai-agents-overview.md)
 

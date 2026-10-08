@@ -7,7 +7,7 @@ release: brazil
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: concept
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [Explore, Regulatory Change Management, Governance, Risk, and Compliance]
 ---
@@ -28,7 +28,7 @@ On a regulatory change management case, select **Discuss** from other options. C
 
 [Regulatory Change Management application in the Compliance Workspace]()
 
-[Differences between regulatory event alert and source document alert]()
+[Regulatory event alerts vs. source document alerts]()
 
 [Regulatory process flow and tasks]()
 

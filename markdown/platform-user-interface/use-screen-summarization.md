@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/use-screen-summarization.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Use, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---

@@ -100,7 +100,7 @@ Errors after clone
 
 </td><td>
 
-Try repairing affected plugins. For details, see .
+Try repairing affected plugins. For details, see [Repair an application or plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/repair-application-app-mgr.md).
 
 </td></tr><tr><td>
 
@@ -129,7 +129,7 @@ Features/skills are missing or generally not working
 -   For skills, verify that they are active in the AI Admin Hub. For details, see [Activate an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configure-a-now-assist-skill.md).
 -   Verify that the user has the correct role for the skill.
 -   Try clearing the cookies and cache in the web browser.
--   Try repairing Generative AI Controller. For details, see .
+-   Try repairing Generative AI Controller. For details, see [Repair an application or plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/repair-application-app-mgr.md).
 
 </td></tr><tr><td>
 
@@ -143,7 +143,7 @@ Can't edit a skill
 
 Verify that you have the AI Admin Hub role: sn\_nowassist\_admin.nsa\_admin.
 
- You can edit a skill or make a copy of a skill to edit. For details, see [Edit a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/edit-a-now-assist-skill.md) and [Make a copy of a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/make-a-copy-of-a-now-assist-skill.md).
+ You can edit a skill or make a copy of a skill to edit. For details, see [Edit an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/edit-a-now-assist-skill.md) and [Make a copy of an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/make-a-copy-of-a-now-assist-skill.md).
 
 </td></tr><tr><td>
 
@@ -156,8 +156,8 @@ Missing entries, fields, and errors
 </td><td>
 
 -   Verify that all AI and ServiceNow Otto plugins are up to date. For details, see [Update an application or plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/update-application-app-mgr.md).
--   Try repairing the application. For details, see .
--   Try repairing Generative AI Controller. For details, see .
+-   Try repairing the application. For details, see [Repair an application or plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/repair-application-app-mgr.md).
+-   Try repairing Generative AI Controller. For details, see [Repair an application or plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/repair-application-app-mgr.md).
 
 </td></tr><tr><td>
 
@@ -195,7 +195,7 @@ AI Skill Kit is not visible on my instance
 
 </td><td>
 
--   Verify that you have at least one AI or ServiceNow Otto product installed. For details, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+-   Verify that you have at least one AI or ServiceNow Otto product installed. For details, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 -   Verify that the sn\_skill\_builder.admin role is assigned to the user.
 
 </td></tr><tr><td>
@@ -274,7 +274,7 @@ Can't access skills in the ServiceNow Otto panel
 
 </td><td>
 
--   Verify that the skill is configured to display in the ServiceNow Otto panel. For details, see [Edit a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/edit-a-now-assist-skill.md).
+-   Verify that the skill is configured to display in the ServiceNow Otto panel. For details, see [Edit an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/edit-a-now-assist-skill.md).
 -   If you're using ServiceNow Otto for Virtual Agent, verify that search sources were configured for the ServiceNow Otto panel. You can specify search sources for a ServiceNow Otto panel assistant when you set it up. Search sources are essential for the panel and Virtual Agent. Without them, they cannot discover or rank skills and agentic workflows. For details, see [Assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/configure-now-assist-va.md) and [Assign search sources to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/add-info-sources-assistant.md).
 
 If ServiceNow Otto for Virtual Agent is not installed, the ServiceNow Otto panel uses default search sources.
@@ -302,7 +302,7 @@ I don't want skills to be available in ServiceNow Otto panel
 
 </td><td>
 
-Disable the ServiceNow Otto panel when you configure the skill. For details, see [Edit a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/edit-a-now-assist-skill.md).
+Disable the ServiceNow Otto panel when you configure the skill. For details, see [Edit an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/edit-a-now-assist-skill.md).
 
 </td></tr><tr><td>
 

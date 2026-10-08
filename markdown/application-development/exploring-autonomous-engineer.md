@@ -6,10 +6,10 @@ canonical_url: https://www.servicenow.com/docs/r/application-development/explori
 release: brazil
 topic_type: concept
 last_updated: "2026-09-08"
-reading_time_minutes: 4
+reading_time_minutes: 5
 keywords: [Autonomous Engineer, Build Agent, planning phase, execution phase, work items, agent packs, background agents, implementation plan, ATF tests, ServiceNow Studio]
 audience: programmer
-breadcrumb: [Autonomous Engineer, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Autonomous Engineer, Build, AI Workflow Factory, Building applications]
 ---
 
 # Exploring Autonomous Engineer
@@ -46,6 +46,8 @@ Autonomous Engineer is available in ServiceNow Studio and supports custom applic
 
     When all work items are complete, Autonomous Engineer generates an update set for the plan. Export the update set and deploy it for user acceptance testing or to a production environment.
 
+    To view and manage all your plans across sessions, use the **Plans** view in the Build Agent navigator panel. For more information, see [Plans in Autonomous Engineer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ae-plans.md).
+
 
 ## Manual steps
 
@@ -70,6 +72,8 @@ For more information about configuring and using Autonomous Engineer, see:
 -   [Using Autonomous Engineer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ae-using-autonomous-engineer.md)
 -   [Autonomous Engineer reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/autonomous-engineer-reference-landing.md)
 
+-   **[Autonomous Engineer and Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ae-build-agent-relationship.md)**  
+Autonomous Engineer and Build Agent are separate products that work together. Autonomous Engineer uses Build Agent as its execution layer.
 -   **[Agent packs for Autonomous Engineer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown)**  
 Agent packs bundle the domain knowledge, tools, and skills that Autonomous Engineer uses to implement ServiceNow products.
 -   **[Autonomous Engineer chat panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ae-chat-panel.md)**  
@@ -82,10 +86,14 @@ Autonomous Engineer monitors background agents during execution and automaticall
 Learn which AI models and versions Autonomous Engineer supports and how to change them. Use this information to verify compatibility and select the right model for your task.
 -   **[Supported tools for Autonomous Engineer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ae-supported-tools.md)**  
 Autonomous Engineer tools support application development tasks such as semantic search, schema inspection, code search, planning, UI validation, database querying, app navigation, and script execution. Each tool extends what Autonomous Engineer can do during a build session.
+-   **[MCP connections and Autonomous Engineer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ae-mcp-connections.md)**  
+MCP connections enable Autonomous Engineer to access external tools and resources through standardized communication, extending the planning and implementation workflow with data and context from third-party systems.
 -   **[Playbooks in Autonomous Engineer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ae-playbooks.md)**  
 Use Autonomous Engineer to author and manage Playbook Designer artifacts through a conversation. You can generate playbook structures, configure activities, set runtime permissions, and define launcher configurations without manually navigating the Playbook Designer UI.
--   **[View changes in the change log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ae-ccl-preview-tab.md)**  
-When Autonomous Engineer completes a turn, it updates the change log.
+-   **[Autonomous Engineer governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ae-governance.md)**  
+Governance controls for Autonomous Engineer are managed through Build Agent.
+-   **[Autonomous Engineer limitations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ae-limitations.md)**  
+Limitations that apply to Build Agent also apply to Autonomous Engineer.
 
 **Parent Topic:**[Autonomous Engineer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/autonomous-engineer.md)
 

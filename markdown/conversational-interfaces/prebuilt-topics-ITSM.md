@@ -30,7 +30,7 @@ Activation
 
 </th></tr></thead><tbody><tr><td>
 
-Customer Service Virtual Agent conversations
+[Customer Service Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-virtual-agent-chatbot.md)
 
 </td><td>
 

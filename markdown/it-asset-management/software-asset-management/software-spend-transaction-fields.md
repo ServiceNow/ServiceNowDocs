@@ -45,7 +45,7 @@ State
 
 </td><td>
 
-Current state of the transaction. This field is automatically set to New.
+Current state of the transaction. This field is defaulted to New.
 
 </td></tr><tr><td>
 
@@ -101,7 +101,7 @@ Is managed
 
 </td><td>
 
-\[TBD — pending SME inputs\]
+Indicates whether a software model exists for the detected product. If no software model exists, the transaction is treated as unmanaged spend.
 
 </td></tr><tr><td>
 
@@ -204,7 +204,7 @@ External ID
 
 </td><td>
 
-\[TBD — pending SME inputs\]
+Identifier of the transaction in the source system.
 
 </td></tr><tr><td>
 

@@ -220,6 +220,15 @@ Assignment source
 -   Records which rule or fallback tier resolved the assignment for this finding, including the rule name and a timestamp.
 -   Use to audit why a finding was routed to a specific group. The value identifies the Decision Table rule that fired, or the fallback tier that resolved the assignment when no rule matched.
 
+</td></tr><tr><td>
+
+Remediation guidance
+
+</td><td>
+
+-   Embedded guidance delivered with the finding at the time of assignment, providing context-specific steps for the assigned team.
+-   Review before starting remediation. The guidance is generated at detection time based on the finding type and assigned group, and may include references to team-specific resolution patterns.
+
 </td></tr></tbody>
 </table>**Related topics**  
 

@@ -20,8 +20,6 @@ Reference topics provide additional information about mapping and fine-tuning ap
 The Service Mapping workspace provides a central location to streamline the process of mapping your application services. Use the visualizations and reports to analyze, monitor, and update your resources, create application services, and manage your service mapping tasks efficiently.
 -   **[Service Mapping AI Agent activity list tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/sm-ai-agent-activity-columns.md)**  
 Use this reference to interpret the tables in the Service Mapping AI Agent activity list.
--   **[Business App Mapping AI Agent confidence thresholds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/sm-ai-agent-confidence-thresholds.md)**  
-Learn how the Business App Mapping AI Agent handles matches based on their AI confidence score, and what action is taken for each score range.
 -   **[Predefined traversal rules for application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/default-traversal-rules.md)**  
 Service Mapping uses traversal rules to bring in related configuration items and expand the application service map. Several predefined rules are provided by default to help find and correctly map these relationships.
 -   **[Traversal Rules for Application Services form completion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/traversal_rules_form_completion.md)**  

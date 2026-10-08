@@ -38,6 +38,8 @@ Process a Zero Touch Refresh request to receive the assets from your provider an
 
 [Donate assets to charity organizations]()
 
+[Calculate the active lifecycle phase for a model]()
+
 [Manage asset bundles from your inventory]()
 
 [Manage obligations in the Hardware Asset Workspace]()

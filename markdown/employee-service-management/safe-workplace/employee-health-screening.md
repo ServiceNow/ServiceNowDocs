@@ -8,7 +8,7 @@ product: Safe Workplace
 classification: safe-workplace
 topic_type: concept
 last_updated: "2026-09-09"
-reading_time_minutes: 9
+reading_time_minutes: 7
 breadcrumb: [Safe Workplace, Health and Safety, Employee Service Management]
 ---
 
@@ -127,26 +127,6 @@ Verify the visitor's entry requirement status on your smartphone, tablet, or com
 View the dashboard to monitor the entry requests and assess how the return to the workplace is progressing. Evaluate the number of entry requests, how many requests were denied entry, and for what reason.
 -   **[View entry requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/safe-workplace/view-entry-requests.md)**  
 Filter the list of entry requests that were completed to evaluate different areas of your return to work progress. Entry requests are the records submitted by the health screener for each employee who is screened before entry.
--   **[Install Employee Health Screening](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/safe-workplace/install-emp-health-screening.md)**  
-You can install the Employee Health Screening application if you have the admin role. This application includes demo data and installs the related store applications and plugins if they are not already installed.
--   **[Configure Employee Health Screening](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/safe-workplace/configure-health-screening.md)**  
-Set properties to specify the global maximum temperature thresholds in Fahrenheit and Celsius. Temperatures taken during a health screening are compared to the global temperature threshold, established by the company, to allow or deny entry.
--   **[Add message for users during health screening](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/safe-workplace/add-screening-information-message.md)**  
-Add an optional custom message for people to read during their health screenings with additional information or guidelines.
--   **[Add an email notification for daily health verification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/safe-workplace/add-daily-health-verification-notif.md)**  
-Add an Employee Readiness Surveys email notification to use for sending the survey link.
--   **[Verify your health status and compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/safe-workplace/agree-compliance-return.md)**  
-Verify that you understand and will comply with your organization's safety requirements and policies before you can be allowed entry to the location.
--   **[Conduct a health screen for entry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/safe-workplace/screen-returning-employee.md)**  
-Use a health screen to verify a person's return requirement status to determine whether the person is able to enter the location.
--   **[Screen a visitor for entry to the workplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/safe-workplace/screen-visitor.md)**  
-Verify the visitor's entry requirement status on your smartphone, tablet, or computer. Then complete and submit the health screening form to determine whether the visitor is able to enter the workplace.
--   **[Monitor progress with the Employee Health Screen Overview dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/safe-workplace/view-health-screen-dashboard.md)**  
-View the dashboard to monitor the entry requests and assess how the return to the workplace is progressing. Evaluate the number of entry requests, how many requests were denied entry, and for what reason.
--   **[View entry requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/safe-workplace/view-entry-requests.md)**  
-Filter the list of entry requests that were completed to evaluate different areas of your return to work progress. Entry requests are the records submitted by the health screener for each employee who is screened before entry.
-
-**Parent Topic:**[Safe Workplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/safe-workplace/safe-workplace.md)
 
 **Parent Topic:**[Safe Workplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/safe-workplace/safe-workplace.md)
 

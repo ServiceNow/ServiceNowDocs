@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/create-
 release: brazil
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 9
+reading_time_minutes: 10
 breadcrumb: [Deploy AI voice agents, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
@@ -56,6 +56,8 @@ Navigate in AI Agent Studio
 
 </td></tr></tbody>
 </table>2.  On the Define the specialty page, describe your AI agent and provide instructions on how you want your AI agent to perform its tasks.
+
+    \[Omitted image "voice-agent-add-voice-agent.png"\] Alt text: Define the specialty page showing the Generate details button and the Give it a unique name and description form.
 
     Select **Generate details** to generate a description and instructions with AI. If you provide the description of what you want the agent to do, you can select **Generate** to write the name, description, AI agent role, and instructions fields for you. You can change those fields after the text has been generated or try again with new instructions.
 
@@ -215,11 +217,25 @@ Necessary steps to be followed by the AI agent while carrying out its role.
 
         **Note:** This option is available only for voice agents configured with **Public** access.
 
-    3.  Define the user identity of the AI agents to determine what data it has access to.
+        \[Omitted image "voice-agent-define-user-access.png"\] Alt text: Define user access page showing the User access field set to Public and the Require caller identification option selected and expanded.
+
+    3.  Select **Require step-up authentication of users** to require callers to complete a high-assurance authentication factor before the AI agent runs.
+
+        **Note:**
+
+        This option is available only for AI voice agents. For more information about step-up authentication, see [Step-up authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/step-up-authentication.md).
+
+        A step-up authentication factor must also be selected in **Caller Verification** for each voice assistant that uses this AI agent, from the following supported factors: Okta Verify push notification, SMS verification code, and authenticator app time-based one-time password \(TOTP\). See [Identify and authenticate the caller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-an-ai-voice-service.md). Without a selected factor, callers are routed to the fallback method configured on the Safeguards screen.
+
+    4.  Define the user identity of the AI agents to determine what data it has access to.
 
         The default selection is **Dynamic user**. The user passes their roles to the AI agent, and the AI agent runs as the user that invokes it. The user's ACLs determine the data accessible to the AI agent.
 
+        \[Omitted image "voice-agent-define-data-access.png"\] Alt text: Define data access page showing the User identity type field set to Dynamic user and the Approved role\(s\) field.
+
 5.  Select channels and activation status for your AI voice agent.
+
+    \[Omitted image "voice-agents-availability-status.png"\] Alt text: Select channels and status page showing the Allow toggle, the Choose voice assistants field, and the Activation status toggle.
 
     1.  Select **Allow** to enable users to use phone calls to invoke the AI agent.
 

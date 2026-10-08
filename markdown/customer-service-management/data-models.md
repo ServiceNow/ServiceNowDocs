@@ -25,7 +25,7 @@ Together these models give every case a consistent answer to three questions: wh
 **Related topics**  
 
 
-[customer-data-foundation]
+[Customer Data Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-data-foundation.md)
 
 [Configure Service Model Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/configure-industry-data-model.md)
 

@@ -17,10 +17,11 @@ This Software Asset Management agent assigns a Microsoft license to a user for a
 ## Workflow
 
 1.  Run the Microsoft License Assignment tool with the request item number. If it returns an error, stop immediately.
-2.  If integration profiles are available, prompt the user to select one and re-run the tool with the selection.
-3.  If licenses aren't currently available but entitlement details exist, offer to create a reservation order. Show the draft order for review, allow date adjustments \(validated against the entitlement date range\), and create the order.
+2.  If there are multiple integration profiles for Microsoft 365 available, prompt the user to select one and re-run the tool with the selection. If there is only one, the system automatically proceeds with that.
+3.  If licenses aren't currently available but entitlement details exist, offer to create a reservation order. Show the draft order for review and allow date adjustments \(validated against the entitlement date range\). Create the order in the ServiceNow instance, and inform the customer they must complete the order creation on the Microsoft portal.
 4.  Review existing Entra ID groups that carry the same license. If multiple groups are found, prompt the user to select one. If only one exists, use it automatically.
 5.  Assign the license to the user, including the selected group if applicable.
+6.  If there are no existing Entra ID groups, ServiceNow adds a license to the user at the user level. This applies if the customer is using user-level licensing rather than managing through Entra ID groups.
 
 <table><thead><tr><th>
 

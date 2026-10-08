@@ -170,7 +170,7 @@ Build the foundation
 
 </td><td>
 
-[Benchmarks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/r_Benchmarks.md)
+
 
 </td><td>
 
@@ -178,11 +178,11 @@ Use the Benchmarks application to compare the performance of your organization w
 
 </td><td>
 
-[Roles installed with Benchmarks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/c_BenchRoles.md)
+Roles installed with Benchmarks
 
 </td><td>
 
-[Benchmarks limitations and support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/c_BenchOverview.md)
+Benchmarks limitations and support
 
 </td></tr><tr><td>
 

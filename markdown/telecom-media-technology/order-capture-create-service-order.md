@@ -44,15 +44,15 @@ When you directly enter a service order, it creates a service order record in th
 
 3.  Depending on whether you're creating an order for an existing customer account, or first creating a customer account before you create the order, you can select one of the following actions.
 
-<table id="choicetable_hfw_sqp_wrb"><thead><tr><th align="left" id="d32940e148">
+<table id="choicetable_hfw_sqp_wrb"><thead><tr><th align="left" id="d30951e148">
 
  
 
-</th><th align="left" id="d32940e150">
+</th><th align="left" id="d30951e150">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d32940e156">
+</th></tr></thead><tbody><tr><td id="d30951e156">
 
 **Create an order for an existing customer account**
 
@@ -63,7 +63,7 @@ Description
 3.  To create order, select **New**.
 
 
-</td></tr><tr><td id="d32940e200">
+</td></tr><tr><td id="d30951e200">
 
 **Create a customer account before creating the order**
 

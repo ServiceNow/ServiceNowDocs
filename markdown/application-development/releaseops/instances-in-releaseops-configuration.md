@@ -8,8 +8,8 @@ product: ReleaseOps
 classification: releaseops
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 1
-breadcrumb: [Configure, ReleaseOps, Deploying applications, Building applications]
+reading_time_minutes: 2
+breadcrumb: [Configure, ReleaseOps, Run, AI Workflow Factory, Building applications]
 ---
 
 # Instances in ReleaseOps configuration
@@ -39,4 +39,6 @@ To view a list of pipeline instances for a given pipeline, navigate to **All** &
 ReleaseOps uses update sources to move update sets between instances. A remote instance is the source instance, or update source, where an update set originates. For more information about update sources, see [Set up the source instance for an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/system-update-sets/setting-source-for-update-set.md).
 
 If you previously worked with update sets and have remote instances already defined, ReleaseOps can use those instances when defining remote instances during guided setup. Otherwise, you can create remote instances during the guided setup process.
+
+**Parent Topic:**[Configuring ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/releaseops/configuring-releaseops.md)
 

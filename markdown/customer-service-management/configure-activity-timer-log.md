@@ -31,9 +31,9 @@ The activity timer log feature automatically tracks the time that agents spend w
 
 ## Procedure
 
-1.  Install the Activity Timer Reporting application \(sn\_activity\_timer\_reporting\).
+1.  Install the Activity Timer Reporting application \(sn\_at\_rpt\).
 
-    The Activity Timer Reporting application has a dependency on the Activity Timer application.
+    The Activity Timer Reporting application has a dependency on the Activity Timer application \(sn\_at\).
 
 2.  Assign the sn\_at.admin role to the appropriate users.
 

@@ -8,7 +8,7 @@ product: Health and Safety Incident Management
 classification: health-and-safety-incident-management
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 4
+reading_time_minutes: 3
 breadcrumb: [Work on a safety incident, Manage incidents and observations, Manage, Health and Safety Incident Management, Health and Safety, Employee Service Management]
 ---
 
@@ -106,8 +106,6 @@ Add an injury and illness record for each affected person during the incident.
 ## What to do next
 
 If an asset was involved in this injury, add it in the next playbook activity.
-
-**Parent Topic:**[Work on a safety incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/health-and-safety-incident-management/work-hs-incident-observation.md)
 
 **Parent Topic:**[Work on a safety incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/health-and-safety-incident-management/work-hs-incident-observation.md)
 

@@ -35,7 +35,7 @@ The following three PowerPoint templates are provided by default to generate a s
 
 -   Portfolio plan status: Contains individual detailed slides for the top five items prioritized by rank.
 -   Portfolio plan &amp; goals status: Contains slides for Goals and targets for this portfolio, achieved goals, goals at risk, and individual detailed slides for the top five items prioritized by rank.
--   Roadmap Template - default: Contains slides for Roadmap for this portfolio. You can export roadmap data for maximum period of a year at a time.
+-   Roadmap Template - default: Contains slides for Roadmap for this portfolio. You can export roadmap data for a maximum period of 3 years at a time. The timescale on the slides adjusts to the length of the exported range: a range of up to 1 year uses months, a range of more than 1 year and up to 2 years uses quarters, and a range of more than 2 years uses years. When you export with default settings from the More options menu, the export covers the plan dates, up to 3 years from the plan start date.
 
 You can customize the type of the data to be shown in the generated report by updating a predefined template or by creating your own branded template. See [Create a Microsoft PowerPoint template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/export-to-powerpoint-for-application-portfolio-management/create-ppt-template.md).
 
@@ -45,15 +45,15 @@ You can customize the type of the data to be shown in the generated report by up
 
 2.  Export the status of goals, work items, roadmap, and key metrics of your portfolio plan and free-form roadmap into a Microsoft PowerPoint file.
 
-<table id="choicetable_qzs_rly_zbc"><thead><tr><th align="left" id="d300015e164">
+<table id="choicetable_qzs_rly_zbc"><thead><tr><th align="left" id="d310253e170">
 
 For exporting this data
 
-</th><th align="left" id="d300015e167">
+</th><th align="left" id="d310253e173">
 
 Perform these steps
 
-</th></tr></thead><tbody><tr><td id="d300015e173">
+</th></tr></thead><tbody><tr><td id="d310253e179">
 
 **Portfolio plan, goals, or roadmap with default settings**
 
@@ -70,7 +70,7 @@ Perform these steps
 
 **Note:** The **Roadmap Template - default** option appears only when you select **Export to PowerPoint** from the Scoring or Planning page.
 
-</td></tr><tr><td id="d300015e238">
+</td></tr><tr><td id="d310253e244">
 
 **Roadmap or free-form roadmap with customized settings**
 
@@ -85,7 +85,7 @@ If you want to export the progress tracking details, select the Tracking mode op
 4.  On the Export to PowerPoint side panel, fill the details.
 
     1.  Template: Select a template to which you want to export the roadmap.
-    2.  Date range: Select a start and end date. You can select date range for a maximum period of a year.
+    2.  Date range: Select a start and end date. You can select a date range of up to 3 years within the start and end dates of the portfolio plan.
     3.  Compact mode: Select to export 25 horizontal lanes per slide. The default mode exports 15 horizontal lanes per slide.
     4.  Show on slides: Select the items you want to see on slides. The available items are Roadmap milestones, Item milestones, Vertical lines, and Horizontal lanes.
     5.  Select **Export**.

@@ -8,8 +8,8 @@ product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: reference
 last_updated: "2026-09-10"
-reading_time_minutes: 34
-breadcrumb: [Reference, ServiceNow Studio, Developing your application, Building applications]
+reading_time_minutes: 33
+breadcrumb: [Reference, ServiceNow Studio, Build, AI Workflow Factory, Building applications]
 ---
 
 # ServiceNow Studio Navigator panel taxonomy
@@ -2198,7 +2198,7 @@ Page collections
 
 </td><td>
 
-Page collections are groups of pages that can be reused in experiences within tabs or modals.For more information, see [Page collections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/page-collections.md).
+Page collections are groups of pages that can be reused in experiences within tabs or modals.For more information, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/page-collections.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/page-collections.md).
 
 </td><td>
 

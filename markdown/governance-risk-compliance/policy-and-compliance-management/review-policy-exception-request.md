@@ -9,7 +9,7 @@ classification: policy-and-compliance-management
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Manage policy exceptions and extensions, Classic UI, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Manage policy exceptions and extensions, Classic UI, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Review the policy exception and extension request
@@ -28,15 +28,15 @@ Role required: compliance manager
 
 3.  Perform one of the following actions.
 
-<table id="choicetable_qjq_2vw_x1b"><thead><tr><th align="left" id="d355246e83">
+<table id="choicetable_qjq_2vw_x1b"><thead><tr><th align="left" id="d357221e83">
 
 Option
 
-</th><th align="left" id="d355246e86">
+</th><th align="left" id="d357221e86">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d355246e92">
+</th></tr></thead><tbody><tr><td id="d357221e92">
 
 **To view or add impacted controls to the policy exception**
 
@@ -50,7 +50,7 @@ Action
 3.  Choose the controls to associate to the policy exception.
 
 
-</td></tr><tr><td id="d355246e143">
+</td></tr><tr><td id="d357221e143">
 
 **To view mitigating controls on the policy exception**
 
@@ -58,7 +58,7 @@ Action
 
 Click the Mitigating Controls tab.
 
-</td></tr><tr><td id="d355246e155">
+</td></tr><tr><td id="d357221e155">
 
 **To view or add risks to the policy exception**
 
@@ -68,7 +68,7 @@ Click the Risks tab.
 
  **Note:** This option is available when Risk Management plugin is also activated.
 
-</td></tr><tr><td id="d355246e170">
+</td></tr><tr><td id="d357221e170">
 
 **To view or add approvers to the policy exception**
 
@@ -76,7 +76,7 @@ Click the Risks tab.
 
 Click the Approvers tab.
 
-</td></tr><tr><td id="d355246e186">
+</td></tr><tr><td id="d357221e186">
 
 **To request extension**
 
@@ -92,15 +92,15 @@ Click the Approvers tab.
 </td></tr></tbody>
 </table>4.  Perform one of the following actions.
 
-<table><thead><tr><th align="left" id="d355246e246">
+<table><thead><tr><th align="left" id="d357221e246">
 
 Option
 
-</th><th align="left" id="d355246e249">
+</th><th align="left" id="d357221e249">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d355246e255">
+</th></tr></thead><tbody><tr><td id="d357221e255">
 
 **To approve the policy exception**
 
@@ -110,7 +110,7 @@ Click **Approve**.
 
  An email notification is sent to the requester that the PER was approved and goes into effect.
 
-</td></tr><tr><td id="d355246e273">
+</td></tr><tr><td id="d357221e273">
 
 **To reject the policy exception**
 
@@ -120,7 +120,7 @@ Click **Reject**.
 
  An email notification is sent to the requester that the PER was rejected and the request is closed.
 
-</td></tr><tr><td id="d355246e291">
+</td></tr><tr><td id="d357221e291">
 
 **To approve the policy extension**
 
@@ -130,7 +130,7 @@ Click **Approve Extension**.
 
  An email notification is sent to the requester that the extension request was approved and goes into effect.
 
-</td></tr><tr><td id="d355246e309">
+</td></tr><tr><td id="d357221e309">
 
 **To reject the policy extension**
 
@@ -140,7 +140,7 @@ Click **Reject Extension**.
 
  An email notification is sent to the requester that the extension request was rejected and the request is closed.
 
-</td></tr><tr><td id="d355246e328">
+</td></tr><tr><td id="d357221e328">
 
 **To request a risk assessment on the policy exception**
 
@@ -152,7 +152,7 @@ Click **Request Risk Assessment**.
 
  **Note:** This option is available when Risk Management is also activated.
 
-</td></tr><tr><td id="d355246e352">
+</td></tr><tr><td id="d357221e352">
 
 **To request business owner approval**
 

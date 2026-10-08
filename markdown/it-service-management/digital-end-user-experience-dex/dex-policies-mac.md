@@ -36,13 +36,16 @@ Cmnd_Alias SN_ALLOWED = /usr/bin/powermetrics, \
                         /usr/bin/find, \
                         /usr/bin/pmset, \
                         /usr/bin/open, \
+                        /usr/sbin/networksetup, \
                         /Library/Application\ Support/servicenow/agent-client-collector/cache/acc-dex-modules/bin/scripts/sudo/app_freeze.sh, \
                         /Library/Application\ Support/servicenow/agent-client-collector/cache/acc-dex-modules/bin/scripts/sudo/zscaler_zpa_reconnect.sh, \
                         /Library/Application\ Support/servicenow/agent-client-collector/cache/acc-dex-modules/bin/scripts/sudo/clear_google_chrome_browsing_data.sh, \
                         /Library/Application\ Support/servicenow/agent-client-collector/cache/acc-dex-modules/bin/scripts/sudo/services.sh, \
                         /Library/Application\ Support/servicenow/agent-client-collector/cache/acc-dex-modules/bin/scripts/sudo/restart_service.sh *, \
                         /Applications/Zscaler/Zscaler.app/Contents/PlugIns/zscli, \
-                        /Library/Application\ Support/servicenow/agent-client-collector/cache/acc-dex-modules/bin/scripts/sudo/elevate_temporary_admin.sh
+                        /Library/Application\ Support/servicenow/agent-client-collector/cache/acc-dex-modules/bin/scripts/sudo/elevate_temporary_admin.sh, \
+                        /Library/Application\ Support/servicenow/agent-client-collector/cache/acc-dex-modules/bin/scripts/sudo/flush_dns_mac.sh, \
+                        /Library/Application\ Support/servicenow/agent-client-collector/cache/acc-dex-modules/bin/scripts/sudo/disk_cleanup.sh *
 
 # ServiceNow user permissions
 # _servicenow user can run osqueryi and all SN_ALLOWED commands without password

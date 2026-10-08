@@ -48,6 +48,8 @@ The Executive Portfolio page provides account teams and leadership with a real-t
 Use the Service delivery overview to view the Analytics dashboards of the customer accounts. You can explore the details about the operational status of the accounts.
 -   **[Proactive Service Experience Workflows and Incident Management within the Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/product-support-for-technology/service-operations-workspace-proactive.md)**  
 You can use the Service Operations Workspace application to get an overview of how a network agent can prioritize tasks and resolve incidents.
+-   **[AI in Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/product-support-for-technology/assurance-workflows-otto-about.md)**  
+Use ServiceNow Otto to generate executive insight briefs and success play recommendations in Proactive Service Experience Workflows.
 
 **Parent Topic:**[Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/product-support-for-technology/psew-landing-page.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/configure-content-insights-ai-agent.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-07-20"
 reading_time_minutes: 1
 keywords: [Content Insights, AI agent, configure]
 breadcrumb: [Configure, Content Understanding, Generative AI skills, Enable AI Experiences]
@@ -73,6 +73,4 @@ The Content Insights AI agent requires configuration before users can interact w
 ## Result
 
 The Content Insights AI agent is deployed and available to users with the access roles you defined. The agent activates through the triggers and channels you configured.
-
-**Parent Topic:**[Configuring Content Understanding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configuring-content-understanding.md)
 

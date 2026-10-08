@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [AEMC user interface, App Engine Management Center UI, App Engine Management Center user interface]
-breadcrumb: [Explore, App Engine Management Center, Governing app development, Building applications]
+breadcrumb: [Explore, App Engine Management Center, Run, AI Workflow Factory, Building applications]
 ---
 
 # App Engine Management Center user interface
@@ -115,7 +115,7 @@ Enables the assignment of Developer Sandboxes licenses to different instances.
 
 </td><td>
 
-
+[Assign Developer Sandboxes packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/assign-dsb-packs-aemc.md)
 
 </td></tr></tbody>
 </table>## Active deployment requests
@@ -125,4 +125,6 @@ The Active deployment requests in the pipeline section of the AEMC Overview page
 \[Omitted image "active-deployment-requests-in-pipeline-bs1.png"\] Alt text: The Active deployment requests in pipeline section shows the number of deployment requests currently in your pipeline and which instance they're located in.
 
 For a full picture of all your pipeline deployment requests, access the Pipelines page in AEMC. View all of your pipelines, quickly access each deployment request record, and filter each pipeline section to see only the requests that match your criteria.
+
+**Parent Topic:**[Exploring the App Engine Management Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/exploring-aemc.md)
 

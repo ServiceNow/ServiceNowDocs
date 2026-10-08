@@ -321,7 +321,7 @@ Now Support Service Portal
 
 </td><td>
 
-Provides additional capabilities to reconcile Oracle software, such as Oracle DB Server.
+Provides additional capabilities to reconcile Oracle software, such as Oracle Database.
 
 </td></tr><tr><td>
 

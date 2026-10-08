@@ -27,7 +27,7 @@ Download Impact from the ServiceNow store to take advantage of the latest featur
 
 ## Sync to the Impact Store Application
 
-Use Guided Setup to connect your data from the Impact Delivery Instance. See [Impact Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/guided-setup-impact-in-app.md) for details on the configuration.
+Use Guided Setup to connect your data from the Impact Delivery Instance. See [Impact Guided Setup \(Legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/guided-setup-impact-in-app.md) for details on the configuration.
 
 If you choose not to connect to the Impact Delivery Instance, refer to the following features list.
 
@@ -45,7 +45,7 @@ Impact Store Application features that require a connection to the Impact Delive
 -   [Accelerators and Initiatives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/impact-initiatives.md)
 -   [Use the recommendations list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/using-recommendations-iip-ws.md)
 -   [Build implementation plans with product adoption roadmaps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/impact-product-adoption-roadmap/impact-par.md)
--   [Value management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/value-library/impact-in-platform-business-outcomes.md)
+-   [Value Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/value-library/impact-in-platform-business-outcomes.md)
 -   [Consumption Report in Impact Delivery Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/ide-consumption-report.md)
 
 **Parent Topic:**[Impact Delivery Instance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/idi-reference.md)

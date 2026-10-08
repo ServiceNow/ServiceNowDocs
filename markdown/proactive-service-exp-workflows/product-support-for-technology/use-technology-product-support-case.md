@@ -20,6 +20,8 @@ Learn how to use Technology Product Support Case feature.
 Customers can create a technology product case to report an issue about the service from the Customer Service Portal.
 -   **[Diagnose and resolve a technology product support case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/product-support-for-technology/diagnose-resolve-hitechcases.md)**  
 As a customer service agent, review, diagnose, resolve, and close a case for the service-related issue experienced by the customer.
+-   **[Summarize test for a technology product support case using ServiceNow Otto for TMT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/product-support-for-technology/now-assist-tmt-summarize-tech-support-case.md)**  
+Generate the test run summary for a technology product support case record to understand the context of test outcomes and the root cause of the problem.
 
 **Parent Topic:**[Technology Product Support Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/product-support-for-technology/tpsc-landing-page.md)
 

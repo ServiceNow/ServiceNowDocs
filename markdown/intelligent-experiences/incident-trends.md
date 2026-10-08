@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/incident-trends.html
 release: brazil
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 10
+last_updated: "2026-09-28"
+reading_time_minutes: 11
 breadcrumb: [Platform agentic workflows, Agentic workflows, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
@@ -26,6 +26,8 @@ After the analysis is generated, you can continue the conversation to do the fol
 -   Analyze the next ten groups. Each analysis is done for ten groups at a time. You can continue analyzing more groups with the same filters within the same conversation, but the other actions for the previous group are no longer available.
 
 The exact options for follow-up actions available can be configured.
+
+By default, the Analyze task trends agentic workflow only analyzes closed tasks, but you can configure it to also investigate open tasks. See the **Additional configuration** section for how to enable that option.
 
 The default input fields considered for analysis are the following:
 
@@ -54,7 +56,7 @@ GAF is set up for certain applications for you. If you want the agentic workflow
 
 **Note:** If you create a clone of an action strategy skill, ensure that **Optimized prediction** is enabled to use AI Search as your fallback. You can leave it unchecked if you don't use AI Search on your instance.
 
-## Role masking
+## Role filtering
 
 Required role: sn\_uxc\_gen\_ai.platform\_ai\_analyze\_trnds.
 
@@ -112,6 +114,23 @@ Range of time, in months, for the trends analyzer to look at records to identify
 </td><td>
 
 3
+
+</td></tr><tr><td>
+
+Active record analysis
+
+</td><td>
+
+Enable this setting for the agentic workflow to include open tasks in its analysis.
+
+ **Note:** If you select this option, you need to set the sn\_uxc\_gen\_ai.active\_records\_enabled\_tables system property and run a Group Action Framework script to ensure that the open tasks are grouped and accessible for analysis.
+
+1.  Go to the System Properties \[sys\_properties\] table, then open the record for **sn\_uxc\_gen\_ai.active\_records\_enabled\_tables**. The **Value** should be set to `Incident`. Other tables for active records are not supported at this time.
+2.  Go to the GAF scheduled script execution \[sn\_gaf\_sysauto\_script\] table, then open the record **GAF - Active Records Run Offline Flow**. Select **Execute now** to run the script. The job may take some time to complete.
+
+</td><td>
+
+False
 
 </td></tr><tr><td>
 

@@ -9,7 +9,7 @@ classification: developer-sandboxes
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Explore, Developer Sandboxes, Developing your application, Building applications]
+breadcrumb: [Explore, Developer Sandboxes, Build, AI Workflow Factory, Building applications]
 ---
 
 # Developer Sandboxes and metadata
@@ -64,4 +64,6 @@ To generate synthetic test data, use AI Data Kit. For more information, see [AI 
 Business rules are metadata inherited from the base instance. You can see business rules on a sandbox by navigating to **All** &gt; **Administration** &gt; **Business rules**.
 
 Business rules are copied, but isolated. For more information on Business rules, see [Classic Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/c_BusinessRules.md).
+
+**Parent Topic:**[Exploring Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/developer-sandboxes/exploring-sandboxes.md)
 

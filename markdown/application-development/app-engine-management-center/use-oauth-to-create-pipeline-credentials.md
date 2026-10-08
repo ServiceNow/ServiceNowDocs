@@ -9,7 +9,7 @@ classification: app-engine-management-center
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Configure OAuth credentials, Configure environment credentials, Configuration tasks, Configure Pipelines and Deployments, Configure, App Engine Management Center, Governing app development, Building applications]
+breadcrumb: [Configure OAuth credentials, Configure environment credentials, Configuration tasks, Configure Pipelines and Deployments, Configure, App Engine Management Center, Run, AI Workflow Factory, Building applications]
 ---
 
 # Use OAuth to create pipeline credentials
@@ -219,4 +219,6 @@ To configure credentials correctly, you must create records for each of your pro
 ## What to do next
 
 Now that you've created all of the credential records connecting your instances, you can use those records to configure your pipeline environments. For more information, see [Configure your pipeline environments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/config-pipeline-environments.md).
+
+**Parent Topic:**[Configure OAuth credentials for use in Pipelines and Deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/configure-oauth-credentials-pipelines-deployments.md)
 

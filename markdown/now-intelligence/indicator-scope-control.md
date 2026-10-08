@@ -94,7 +94,7 @@ Indicator Scope Control has no impact when it is not used:
 
 -   **Duplicate indicators aren't allowed**
 
-    The system prevents a second configuration row for an indicator that already has one. You can edit the existing row instead.
+    The system prevents the creation of a second configuration row for an indicator that already has one. You can edit the existing row instead.
 
 -   **Runtime control**
 

@@ -26,15 +26,15 @@ Create a one-time delete rule to delete records once. To delete records on a rec
 
 1.  Access the create rule wizard in the Data Management Console in one of the following ways.
 
-<table id="choicetable_snz_r2m_13c"><thead><tr><th align="left" id="d133678e71">
+<table id="choicetable_snz_r2m_13c"><thead><tr><th align="left" id="d134266e71">
 
 Option
 
-</th><th align="left" id="d133678e74">
+</th><th align="left" id="d134266e74">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d133678e80">
+</th></tr></thead><tbody><tr><td id="d134266e80">
 
 **Overview tab**
 
@@ -45,7 +45,7 @@ Steps
 3.  Select **Create rule**.
 
 
-</td></tr><tr><td id="d133678e118">
+</td></tr><tr><td id="d134266e118">
 
 **Rules tab**
 
@@ -151,15 +151,15 @@ Consider scheduling the one-time delete rule to run during non-business hours to
 
 1.  On the Set up schedule page, schedule the one-time delete rule to run now or at a later date.
 
-<table id="choicetable_orr_f3t_13c"><thead><tr><th align="left" id="d133678e497">
+<table id="choicetable_orr_f3t_13c"><thead><tr><th align="left" id="d134266e497">
 
 Option
 
-</th><th align="left" id="d133678e500">
+</th><th align="left" id="d134266e500">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d133678e506">
+</th></tr></thead><tbody><tr><td id="d134266e506">
 
 **Schedule later**
 
@@ -167,7 +167,7 @@ Description
 
 Set up a schedule at a later time.
 
-</td></tr><tr><td id="d133678e515">
+</td></tr><tr><td id="d134266e515">
 
 **Execute upon creation**
 
@@ -175,7 +175,7 @@ Set up a schedule at a later time.
 
 Run the one-time delete rule immediately after you finish creating it.
 
-</td></tr><tr><td id="d133678e524">
+</td></tr><tr><td id="d134266e524">
 
 **Run at**
 

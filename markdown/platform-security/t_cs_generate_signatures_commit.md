@@ -22,7 +22,7 @@ Before you begin:
 -   Install the Code Signing Enterprise plugin. For more information, see [Configuring Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/config-code-signing.md)
 -   Complete the Circle of Trust guided setup on the trusted instance, including uploading your signing certificate.
 -   Perform this task on a trusted instance. Signatures can't be generated on a protected instance.
--   Link the application to source control in ServiceNow Studio. For more information, see 
+-   Link the application to source control in ServiceNow Studio. For more information, see [Link an app to source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/link-app-to-source-control.md)
 
 Role required: codesigning\_admin \(to turn on the property only\)
 
@@ -70,5 +70,7 @@ If a signature can't be generated for a selected record, for example because of 
 **Related topics**  
 
 
-[bundle-cadev.servicenow-studio-landing]
+[ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-landing.md)
+
+[Applications in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/working-with-apps-in-servicenow-studio.md)
 

@@ -20,7 +20,7 @@ Role required: admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **CRM Workspace**.
+1.  Navigate to **All** &gt; **Public Sector Workspace**.
 
 2.  Navigate to **Lists** &gt; **Funding Programs** and choose **New**.
 

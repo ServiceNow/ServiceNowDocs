@@ -8,7 +8,7 @@ product: Indoor Mapping
 classification: indoor-mapping
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Manage map objects and data, Indoor Mapping, Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -54,12 +54,6 @@ Role required: map admin, map editor, map editor limited
 
     For more information, see [Manage Directions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/indoor-mapping/enable-interactive-locations.md).
 
-
-**Parent Topic:**[Manage map objects and data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/indoor-mapping/using-indoor-mapping.md)
-
-**Previous topic:**[Working with boundary editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/indoor-mapping/working-with-boundary-editor.md)
-
-**Next topic:**[Manage places](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/indoor-mapping/manage-buildings.md)
 
 **Parent Topic:**[Manage map objects and data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/indoor-mapping/using-indoor-mapping.md)
 

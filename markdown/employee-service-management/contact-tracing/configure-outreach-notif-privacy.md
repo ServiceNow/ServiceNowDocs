@@ -8,7 +8,7 @@ product: Contact Tracing
 classification: contact-tracing
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 4
+reading_time_minutes: 3
 breadcrumb: [Setting up data privacy consent settings for Contact Tracing, Setting up Contact Tracing, Contact Tracing, Safe Workplace, Health and Safety, Employee Service Management]
 ---
 
@@ -85,8 +85,6 @@ An outreach notification with a scheduled job is created. The job sends notifica
 A user with the sn\_imt\_checkin.checkin\_admin role can [send the Outreach notification on demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/contact-tracing/send-outreach-notif-privacy.md).
 
 A user with the admin or sn\_imt\_checkin.checkin\_admin role can stop the scheduled job to send the notifications automatically. To do so, click **Schedule** and in the dialog box, clear the **Active** check box, and then click **Update**.
-
-**Parent Topic:**[Setting up data privacy consent settings for Contact Tracing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/contact-tracing/set-up-privacy-consent-settings.md)
 
 **Parent Topic:**[Setting up data privacy consent settings for Contact Tracing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/contact-tracing/set-up-privacy-consent-settings.md)
 

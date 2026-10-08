@@ -1,18 +1,18 @@
 ---
-title: Track opportunities on the Business Location Service Portal
-description: Enable your location staff to track opportunities for their business locations using the Business Location Service Portal \(BLSP\). The portal enables them to view opportunities and any activity performed on them.
+title: Track opportunities on the Business Organization Support Portal
+description: Enable your location staff to track opportunities for their business locations using the Business Organization Support Portal \(BOSP\). The portal enables them to view opportunities and any activity performed on them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/track-customer-opportunities-on-the-blsp.html
 release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use Business Location Service Portal, Customer communication, Use, Customer Service Management]
+breadcrumb: [Use Business Organization Support Portal, Customer communication, Use, Customer Service Management]
 ---
 
-# Track opportunities on the Business Location Service Portal
+# Track opportunities on the Business Organization Support Portal
 
-Enable your location staff to track opportunities for their business locations using the Business Location Service Portal \(BLSP\). The portal enables them to view opportunities and any activity performed on them.
+Enable your location staff to track opportunities for their business locations using the Business Organization Support Portal \(BOSP\). The portal enables them to view opportunities and any activity performed on them.
 
 ## Before you begin
 
@@ -20,7 +20,7 @@ Role required: For details on roles, see [Roles](https://raw.githubusercontent.c
 
 ## Procedure
 
-1.  Navigate to the business location service portal.
+1.  Navigate to the Business Organization Support Portal.
 
 2.  Select **Your Information** &gt; **Opportunities**.
 

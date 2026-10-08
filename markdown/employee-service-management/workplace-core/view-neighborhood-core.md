@@ -195,5 +195,3 @@ Option to make users active in a neighborhood.
 
 **Parent Topic:**[Managing Neighborhoods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/neighborhoods.md)
 
-**Parent Topic:**[Managing Neighborhoods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/neighborhoods.md)
-

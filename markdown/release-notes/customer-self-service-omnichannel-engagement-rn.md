@@ -20,7 +20,7 @@ The ServiceNow® Customer Service Management \(CSM\) application enables custome
 -   Handle inbound calls intelligently by configuring AI Voice Agents with ServiceNow Voice and Amazon Connect.
 -   Initiate WebRTC voice calls from portal pages or engagement messenger with a widget that maintains call state and context across page navigation.
 
-See [Self-service for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/self-service-options-csm-customers.md), and [Omnichannel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/omnichannel.md) for more information.
+See , and  for more information.
 
 **Note:** Self-service and omnichannel applications are available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
@@ -51,11 +51,11 @@ The ServiceNow® Customer Self-Service and Omnichannel Engagement application he
 
 ### What's new
 
--   **[View work orders on the Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/workorders-consumerportal.md)**
+-   ****
 
     View and track work orders directly in the Consumer Portal \(B2C\) using the new Work Orders page.
 
--   **[Use Voice call widget for portal communication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/portal-phone-widget.md)**
+-   ****
 
     Customers can now make voice calls directly from portal pages or the Engagement Messenger. Call context stays intact as customers navigate between pages. These calls connect to AI Voice Agents to deliver conversational voice experiences without relying on contact center platforms.
 
@@ -66,7 +66,7 @@ The ServiceNow® Customer Self-Service and Omnichannel Engagement application he
 
 ### What's changed
 
--   **[Usage calculation of self-service experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-portal-user-sessions-timeouts_2.md)**
+-   ****
 
     Get more accurate portal usage data with an updated analytics definition that eliminates double-counting of guest user sessions.
 

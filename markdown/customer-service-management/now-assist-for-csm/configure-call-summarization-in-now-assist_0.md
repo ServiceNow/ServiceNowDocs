@@ -27,12 +27,12 @@ Call summarization is generated from the information that you enter in the follo
 -   Chat Summary \(automatically populated at the end of call\)
 -   Integration setup:
 
-    **Note:** Ensure that your telephony or call center system is integrated with ServiceNow if call data needs to be captured directly. For more information, see [Interaction Controls Component \(ICC\) for voice calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/contact-center-integration-with-icc.md) and [Integrating contact centers with Interaction Controls Component \(ICC\) for callbacks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/interaction-controls-component-icc-callback-integration-features.md).Additionally, set your status as **Available** in CRM Workspace to be able to receive call requests from customers.
+    **Note:** Ensure that your telephony or call center system is integrated with ServiceNow if call data needs to be captured directly. For more information, see [Interaction Controls Component \(ICC\) for voice calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/contact-center-integration-with-icc.md) and [Integrating contact centers with Interaction Controls Component \(ICC\) for callbacks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/interaction-controls-component-icc-callback-integration-features.md). Additionally, set your status as **Available** in CRM Workspace to be able to receive call requests from customers.
 
 
 Any modifications to the names or labels of these fields can result in issues with summarization generation.
 
-**Note:** You can't modify a skill's input data source in base system. However, you can [clone the skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/now-assist-for-csm/clone-the-now-assist-for-csm-skills.md) in AI Skill Kit
+**Note:** You can't modify a skill's input data source in base system. However, you can [clone the skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/now-assist-for-csm/clone-the-now-assist-for-csm-skills.md) in AI Skill Kit.
 
 ## Procedure
 
@@ -49,11 +49,11 @@ Any modifications to the names or labels of these fields can result in issues wi
     |Trigger|Description|
     |-------|-----------|
     |Live Agent to Live Agent handoff|Call summary that is generated when the call handoff is done from a live agent to a live agent.|
-    |Call wrap-up|Call summary that is generated when the live agent or the user ends the chat. The **Chat summary** field is updated for the interaction.|
+    |Call wrap-up|Call summary that is generated when the live agent or the user ends the call. The **Chat summary** field is updated for the interaction.|
     |Short description|**Short description** field that is updated for the interaction when the live agent or the user ends the call.|
     |Task creation|**Short description** and **Description** fields that are auto-populated on the task record when a task is created from an interaction.|
 
-    You can also select toggle a property that controls how a call summary is displayed.
+    You can also turn on a property that controls how a call summary is displayed.
 
     |Property|Description|
     |--------|-----------|
@@ -71,7 +71,7 @@ Any modifications to the names or labels of these fields can result in issues wi
 
         **Note:** In the **Select Display** step, you can only choose roles that were added in the **Define Access** step. If you add a role in **Define Access**, you must manually select it in **Select Display** to make it active.
 
-6.  Select **Display** to determine where the resolution notes appear.
+6.  Select **Display** to determine where the call summary appear.
 
     -   Select In-product desktop to display AI skills on forms and workspaces.
     -   Select ServiceNow Otto panel to display AI skills in the panel.

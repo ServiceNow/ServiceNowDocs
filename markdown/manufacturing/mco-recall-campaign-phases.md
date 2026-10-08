@@ -37,8 +37,6 @@ Assign an impacted asset to the recall campaign.
 Agents workspace enables the manufacturers to add the phase task details for the recall campaigns.
 -   **[Adding a sub-phase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco_recall_campaign_phases.md)**  
 Create a sub-phase for a parent phase.
--   **[Plan and execute recall campaign phases and sub-phases using ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-plan-and-execute-recall-campaign-phases-and-subphases.md)**  
-Plan and execute recall campaign phases and sub-phases AI agent enables product recall campaigns to generate and manage phase.
 -   **[Create a phase and sub-phase in a recall campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco_phases_sub-phases.md)**  
 Create a set of phases and sub-phase within a recall campaign to enable detailed segmentation, improving tracking, and management at each stage of the process.
 -   **[Create a phase part allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-phase-part-allocations.md)**  

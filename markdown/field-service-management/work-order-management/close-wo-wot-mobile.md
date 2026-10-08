@@ -39,15 +39,15 @@ Role required: wm\_agent
 
 5.  Either close the task after work is complete or close it with a follow-on task pending.
 
-<table id="choicetable_rb4_1gc_qfb"><thead><tr><th align="left" id="d75330e163">
+<table id="choicetable_rb4_1gc_qfb"><thead><tr><th align="left" id="d75567e163">
 
 To
 
-</th><th align="left" id="d75330e166">
+</th><th align="left" id="d75567e166">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d75330e172">
+</th></tr></thead><tbody><tr><td id="d75567e172">
 
 **Close a work order task after work has been completed**
 
@@ -55,7 +55,7 @@ Do this
 
 Select **Close Complete**.**Note:** Your **Work agent status** is automatically updated as On Shift to indicate that you are available to work on another task.
 
-</td></tr><tr><td id="d75330e190">
+</td></tr><tr><td id="d75567e190">
 
 **Close a work order task as incomplete**
 
@@ -205,15 +205,15 @@ Role required: admin
 
 5.  Do one of the following to enable the **Sign and Confirm** button.
 
-<table id="choicetable_jfb_1sy_cgb"><thead><tr><th align="left" id="d75330e871">
+<table id="choicetable_jfb_1sy_cgb"><thead><tr><th align="left" id="d75567e871">
 
 To
 
-</th><th align="left" id="d75330e874">
+</th><th align="left" id="d75567e874">
 
 Complete these steps
 
-</th></tr></thead><tbody><tr><td id="d75330e880">
+</th></tr></thead><tbody><tr><td id="d75567e880">
 
 **Enable the Sign and confirm option to display when you swipe a work order from a list**
 
@@ -224,7 +224,7 @@ Complete these steps
 3.  Select the **Button Instances belonging to Master Item** tab.
 
 
-</td></tr><tr><td id="d75330e910">
+</td></tr><tr><td id="d75567e910">
 
 **Enable the Sign and confirm option to display when you open a work order form**
 

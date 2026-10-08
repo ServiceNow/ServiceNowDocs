@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/industry-data-model-modules.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-09-28"
 reading_time_minutes: 2
 breadcrumb: [Overview, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
@@ -16,9 +16,9 @@ The Service Model Foundation plugins add several modules to the application navi
 
 **Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/renamed-entities.md).
 
-## Business Location modules
+## Business Organization modules
 
-**Service Organizations &gt; Internal/External Business Locations**: This module lists the internal and external business locations that have been created.
+**All &gt; Customer Service &gt; Business Organizations &gt;Internal/External Organizations**: This module lists the internal and external organizations \(formerly internal and external business locations\) that have been created.
 
 **Note:** This module is available in Agent Workspace and in the platform interface.
 
@@ -30,9 +30,9 @@ Users with the following roles have access to these modules.
 -   sn\_customerservice.svc\_location\_agent
 -   sn\_customerservice.svc\_location\_consumer\_agent
 
-## Service Organization External Staffs module
+## External Organization Staff \(formerly Service Organization External Staffs\) module
 
-**Service Organizations &gt; Service Organization External Staffs**: This module lists the external staff members created and added to the external business location.
+**All &gt; Customer Service &gt; Business Organizations&gt; External Organization Staff \(formerly Service Organization External Staffs\)**: This module lists the external staff members created and added to the external business location.
 
 **Note:** This module is available in Agent Workspace and in the platform interface.
 

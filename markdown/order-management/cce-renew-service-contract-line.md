@@ -58,7 +58,7 @@ Role required:
     -   For an expired contract line, enter a new date to renew the service contract line in the **Start from** field. A new renewal quote or order line is created with a new start date.
     -   For a ramped contract line, select a date before the contract expiry date in the **Renew from** field to perform an early renewal. The contract line splits into two contract lines. One contract line has the early renewal end date that you selected and the second contract line has the original end date with State as **Canceled** and Quantity as **Zero**. The remaining segments are canceled and their quantities are zero.
 
-        **Note:** If a customer contract line is terminated before its end date, the status of that contract line is updated to **Canceled** after its end date. That early terminated customer contract line is excluded from the renewal workflow and any renewal quote for that contract line is deleted.
+        **Note:** If a customer contract line is terminated before its end date, the status of that contract line is updated to **Canceled** after its end date. That early terminated customer contract line is excluded from the renewal workflow and any renewal quote line for that contract line is deleted.
 
 7.  After the order line items are fulfilled, set the status to **Completed**.
 

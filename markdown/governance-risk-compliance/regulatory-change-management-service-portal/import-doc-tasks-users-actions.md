@@ -1,5 +1,5 @@
 ---
-title: Users, associated actions, and states for the source document import tasks
+title: User actions and states for source document import tasks
 description: Managers with the sn\_grc\_reg\_change.manager role and the users with the sn\_grc\_reg\_change.user, or sn\_grc\_reg\_change.admin role can view and perform certain actions on the source document import tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/regulatory-change-management-service-portal/import-doc-tasks-users-actions.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Source document import tasks, Regulatory Change Management Core UI, Use, Regulatory Change Management, Governance, Risk, and Compliance]
 ---
 
-# Users, associated actions, and states for the source document import tasks
+# User actions and states for source document import tasks
 
 Managers with the sn\_grc\_reg\_change.manager role and the users with the sn\_grc\_reg\_change.user, or sn\_grc\_reg\_change.admin role can view and perform certain actions on the source document import tasks.
 
@@ -65,7 +65,7 @@ The states of the source document import task are the following:
 -   Deferred
 -   Closed
 
-If the alert is marked as applicable, and if the source document task created as part of the process moves to the Closed state, then the regulatory alert record is automatically moved to the Closed state.
+If the alert is marked as applicable and the source document task moves to the **Closed** state, the regulatory alert record is automatically moved to **Closed**.
 
 **Parent Topic:**[Source document import tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/source-doc-import-task.md)
 

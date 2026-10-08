@@ -958,5 +958,41 @@ None
 
 Fixes OST / PST data files using SCANPST.EXE in Classic outlook
 
+</td></tr><tr><td>
+
+os.win.action-clear-system-cache
+
+</td><td>
+
+None
+
+</td><td>
+
+Removes temporary files and cache data from the current logged in user profile.
+
+</td></tr><tr><td>
+
+os.win.action-stop-service
+
+</td><td>
+
+--service\_name=&lt;service name&gt;
+
+</td><td>
+
+Use a service name as input to stop a running service. If there are dependent services, it stops them first as part of the same process.
+
+</td></tr><tr><td>
+
+os.win.action-start-service
+
+</td><td>
+
+--service\_name=&lt;service name&gt;
+
+</td><td>
+
+Use a service name as input to start a service that is not running. If there are dependent services, it starts them as part of the same process.
+
 </td></tr></tbody>
 </table>

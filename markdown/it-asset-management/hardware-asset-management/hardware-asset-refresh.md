@@ -132,6 +132,8 @@ An Order status page appears and it displays the details of the order. A request
 
 [Donate assets to charity organizations]()
 
+[Calculate the active lifecycle phase for a model]()
+
 [Manage asset bundles from your inventory]()
 
 [Manage obligations in the Hardware Asset Workspace]()
@@ -164,15 +166,15 @@ After sourcing the new assets, the asset refresh is completed through the follow
 
 1.  Select the hardware asset refresh request.
 
-<table id="choicetable_upl_qst_ywb"><thead><tr><th align="left" id="d334222e550">
+<table id="choicetable_upl_qst_ywb"><thead><tr><th align="left" id="d335103e558">
 
 Interface
 
-</th><th align="left" id="d334222e553">
+</th><th align="left" id="d335103e561">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d334222e559">
+</th></tr></thead><tbody><tr><td id="d335103e567">
 
 **Core UI**
 
@@ -182,7 +184,7 @@ Action
 2.  Select the request number of the hardware asset refresh request that you want to fulfill.
 
 
-</td></tr><tr><td id="d334222e592">
+</td></tr><tr><td id="d335103e600">
 
 **Hardware Asset Workspace**
 

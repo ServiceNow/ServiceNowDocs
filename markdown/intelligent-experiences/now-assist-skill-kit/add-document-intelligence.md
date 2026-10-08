@@ -1,6 +1,6 @@
 ---
 title: Add Document Intelligence
-description: Add Document Intelligence as a tool in AI Skill Kit to extract structured data from documents as part of your skill's execution flowflow.
+description: Add Document Intelligence as a tool in AI Skill Kit to extract structured data from documents as part of your skill's execution flow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-skill-kit/add-document-intelligence.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Add a tool, Create a prompt, Using AI Skill Kit, AI Skill Kit, Gene
 
 # Add Document Intelligence
 
-Add Document Intelligence as a tool in AI Skill Kit to extract structured data from documents as part of your skill's execution flowflow.
+Add Document Intelligence as a tool in AI Skill Kit to extract structured data from documents as part of your skill's execution flow.
 
 ## Before you begin
 

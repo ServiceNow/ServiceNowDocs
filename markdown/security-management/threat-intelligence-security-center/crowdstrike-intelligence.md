@@ -8,7 +8,8 @@ product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 1
+reading_time_minutes: 2
+keywords: [CrowdStrike Falcon, configure CrowdStrike, premium threat feed]
 breadcrumb: [TISC CrowdStrike Falcon Intelligence integration, Threat Lookup, TISC Enrichment integrations, TISC Integrations, Integrate, Threat Intelligence Security Center, Security Operations]
 ---
 

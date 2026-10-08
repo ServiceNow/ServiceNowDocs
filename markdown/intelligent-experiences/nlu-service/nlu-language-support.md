@@ -7,7 +7,7 @@ release: brazil
 product: NLU Service
 classification: nlu-service
 topic_type: concept
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [\(Legacy\) Exploring Natural Language Understanding, \(Legacy\) Natural Language Understanding, Machine learning and natural language capabilities, Enable AI Experiences]
 ---

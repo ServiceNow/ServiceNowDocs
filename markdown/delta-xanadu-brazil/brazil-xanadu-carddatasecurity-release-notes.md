@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-carddatasecurity-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 4
+last_updated: "2026-10-08"
+reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
 
@@ -141,7 +141,10 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **[View files in ZIP attachments](https://www.servicenow.com/docs/access?context=manage-attachments-in-card-data-security&family=brazil&ft:locale=en-US)**
+
+Preview and download individual files within a ZIP attachment directly in the Merchant tab of the Disputes workspace. Select a file from the file list to preview it, then download it if you need a copy.
+
 
 </td></tr></tbody>
 </table>## Changes
@@ -363,6 +366,8 @@ Brazil
 
 Install Card data security by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=brazil&ft:locale=en-US).
 
+
+**Important:** Card data security is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements

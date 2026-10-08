@@ -6,8 +6,8 @@ canonical_url: https://www.servicenow.com/docs/r/application-development/test-ag
 release: brazil
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 1
-breadcrumb: [ATF test generation in Build Agent, Use, Test Agent, Agentic development on the ServiceNow AI Platform, Building applications]
+reading_time_minutes: 2
+breadcrumb: [ATF test generation in Build Agent, Use, Test Agent, Build, AI Workflow Factory, Building applications]
 ---
 
 # Enable ATF test generation in Build Agent
@@ -59,4 +59,6 @@ When ATF test generation is enabled or have auto-approve setting turned on, the 
 ## Result
 
 After you complete these steps, ATF test generation is enabled in Build Agent. The next time you build and install an application, you will receive a consent prompt asking whether to generate automated tests. The Build Agent creates tests based on your application structure and the configured feature flags.
+
+**Parent Topic:**[ATF test generation in Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/test-agent-atf-test-gen-ba.md)
 

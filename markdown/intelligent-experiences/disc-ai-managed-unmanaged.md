@@ -16,7 +16,7 @@ Control whether an AI asset participates in governance workflows by changing the
 
 You can set or change the management status of any asset directly from the inventory list. Use these guidelines to decide when to move assets between states:
 
--   Assets discovered automatically or imported through connectors enter the inventory as unmanaged by default. Move assets to managed when you're ready to bring them into your governance program. You can move one asset or multiple assets at the same time.
+-   Assets discovered automatically or imported through connectors enter the inventory as unmanaged by default. Move assets to managed when you're ready to bring them into your governance program. You can move one asset or multiple assets at the same time. When an asset's **Use and purpose** field is populated on creation, the system assigns it an initial risk rating automatically, whether the asset is managed or unmanaged. This lets you evaluate an asset's risk before deciding whether to bring it into your governance program.
 -   Move assets to unmanaged when they no longer need to participate in governance workflows. For example, you might move an asset to unmanaged when an asset has been superseded, is under evaluation for retirement, or was discovered but doesn't yet require governance oversight. Unmanaged assets remain in the inventory but are excluded from active workflows and lifecycle reviews.
 
 Initiating a steward review for an unmanaged asset transitions it to managed status automatically. Automation rules can also set or change management status based on conditions you define. See [Managing AI assets in bulk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/disc-ai-bulk-managing-assets.md).

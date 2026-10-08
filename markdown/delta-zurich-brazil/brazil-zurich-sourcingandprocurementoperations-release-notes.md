@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-brazil/brazil-zurich-sourcingandprocurementoperations-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 15
+last_updated: "2026-10-08"
+reading_time_minutes: 16
 breadcrumb: [Products combined by family]
 ---
 
@@ -413,7 +413,12 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **Activation information**
+
+Request Sourcing and Procurement Operations from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=brazil&ft:locale=en-US).
+
+
+**Note:** Sourcing and Procurement Operations is available in the ServiceNow Store.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -632,7 +637,13 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   Browse a managed product catalog and submit purchase requests through a streamlined, e-commerce-like shopping experience.
+-   Track purchase status, including approvals, tasks, and delivery milestones, from a single view.
+-   Manage sourcing requests, purchase requisitions, negotiations, and procurement cases from a centralized workspace.
+-   Automate end-to-end sourcing and purchasing workflows, including approvals, task generation, and purchase order creation.
+-   Assess spend, operational efficiency, and team performance using pre-configured dashboards and metrics.
+
+ For an overview of Sourcing and Procurement Operations capabilities, see [Sourcing and Procurement Operations](https://www.servicenow.com/docs/access?context=psm-overview&family=brazil&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/rn-combined-intro.md)

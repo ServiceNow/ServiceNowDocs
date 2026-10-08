@@ -1,6 +1,6 @@
 ---
 title: ServiceNow Otto for Platform Analytics Release Notes
-description: ServiceNow Otto for Platform Analytics consists of several skills and applications that let you generate and work with Platform Analytics objects through generative AI. These skills let you analyze your business data through conversational interactions, without a technical knowledge of Platform Analytics.
+description: ServiceNow Otto for Platform Analytics consists of several skills and applications that let you generate and work with Platform Analytics objects through generative AI. These skills let you analyze your business data through conversational interactions, without a technical knowledge of Platform Analytics.Query information that is available in formula indicators, not only in automated indicators and tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/otto-for-platform-analytics-rn-static.html
 release: brazil
@@ -33,13 +33,24 @@ See [ServiceNow Otto for Platform Analytics](https://raw.githubusercontent.com/S
 
     After installation, activate the relevant skills. For more information, see the relevant Configure topics under [ServiceNow Otto for Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/now-assist-platform-analytics.md).
 
--   **Upgrade information**
--   **Additional requirements**
-
-## Accessibility and localization
-
--   **Accessibility information**
-    -   -   **Localization information**
 
 **Parent Topic:**[Platform Analytics release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/analytics-intel-report-rn-landing.md)
+
+## October 2026 AI Data Explorer release notes
+
+Query information that is available in formula indicators, not only in automated indicators and tables.
+
+### What's changed
+
+-   **[Query formula indicator scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/indicator-vs-table-data-source-selection.md)**
+
+    In AI Data Explorer, your queries can now reference information from indicator formulas, such as "What percentage of open incidents are Priority 1?"
+
+-   **[Improved overview pages for skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/activate-aide-explorer.md)**
+
+    When you view details from the tile of an AI skill in AI Admin Hub, you now get more information:
+
+    -   A more detailed description of the skill
+    -   Key benefits of the skill
+    -   Required and recommended skills to go with the skill
 

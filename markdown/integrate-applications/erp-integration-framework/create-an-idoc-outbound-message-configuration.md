@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-08-07"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, idoc, outbound, message]
-breadcrumb: [IDoc, Adding an entity to a model, ERP models, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [IDoc, Connecting to SAP, Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Create an IDoc outbound message configuration in Zero Copy Connector for ERP
@@ -45,6 +45,4 @@ Role required: sn\_erp\_integration.erp\_admin
 
 9.  Select **Save**.
 
-
-**Parent Topic:**[Creating and changing SAP business entities with IDoc](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/create-and-change-sap-business-entities-with-idoc.md)
 

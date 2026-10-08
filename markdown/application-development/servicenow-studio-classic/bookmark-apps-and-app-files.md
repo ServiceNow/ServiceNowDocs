@@ -9,7 +9,7 @@ classification: servicenow-studio-classic
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Applications in ServiceNow Studio, Use, ServiceNow Studio, Developing your application, Building applications]
+breadcrumb: [Applications in ServiceNow Studio, Use, ServiceNow Studio, Build, AI Workflow Factory, Building applications]
 ---
 
 # Bookmark apps and app files in ServiceNow Studio
@@ -26,15 +26,15 @@ Role required: admin or delegated\_developer
 
 2.  Select the Add to bookmarks icon from one of the following locations in ServiceNow Studio.
 
-<table id="choicetable_i33_ry1_qcc"><thead><tr><th align="left" id="d42363e114">
+<table id="choicetable_i33_ry1_qcc"><thead><tr><th align="left" id="d44970e114">
 
 Location in ServiceNow Studio
 
-</th><th align="left" id="d42363e119">
+</th><th align="left" id="d44970e119">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d42363e125">
+</th></tr></thead><tbody><tr><td id="d44970e125">
 
 **Home page**
 
@@ -44,7 +44,7 @@ Steps
 2.  Select the Add to Collections icon \[Omitted image "sn-studio-collections-icon.png"\] Alt text: on the app or file card.
  \[Omitted image "sn-studio-recently-opened.png"\] Alt text: Bookmark apps and files from the Recently opened section on the home page.
 
-</td></tr><tr><td id="d42363e161">
+</td></tr><tr><td id="d44970e161">
 
 **Navigator panel**
 
@@ -55,7 +55,7 @@ Steps
 3.  Select the Add to Collections icon \[Omitted image "sn-studio-collections-icon.png"\] Alt text:.
 
 
-</td></tr><tr><td id="d42363e192">
+</td></tr><tr><td id="d44970e192">
 
 **Open tab**
 
@@ -68,7 +68,7 @@ Steps
 2.  Select the Add to Collections icon \[Omitted image "sn-studio-collections-icon.png"\] Alt text: next to the application name.
  \[Omitted image "sn-studio-bookmark-app-bs1.png"\] Alt text: Bookmark an app by opening it in the canvas and selecting Add to Collections, then selecting the bookmarks collection.
 
-</td></tr><tr><td id="d42363e224">
+</td></tr><tr><td id="d44970e224">
 
 **App details page**
 

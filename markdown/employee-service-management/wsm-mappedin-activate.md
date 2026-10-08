@@ -52,5 +52,3 @@ Mappedin is integrated with Workplace Service Delivery depending on the release 
 
 **Parent Topic:**[Configure Mappedin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/mappedin-integration-topics.md)
 
-**Parent Topic:**[Configure Mappedin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/mappedin-integration-topics.md)
-

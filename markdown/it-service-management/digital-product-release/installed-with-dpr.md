@@ -220,7 +220,6 @@ Accesses Digital Product Release Workspace to view release details and update an
 -   sn\_devops.viewer
 -   sn\_dpr\_model.product\_feature\_read
 -   sn\_dpr\_workspace.workspace\_user
--   sn\_gf.goal\_user\_read
 -   sn\_incident\_read
 -   sn\_pace.policy\_reader
 -   sn\_problem\_read

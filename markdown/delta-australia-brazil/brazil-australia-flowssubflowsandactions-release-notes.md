@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-australia-brazil/brazil-australia-flowssubflowsandactions-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 4
+last_updated: "2026-10-08"
+reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
 
@@ -51,7 +51,10 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **Upgrade information**
+
+The Brazil release introduces enhanced protections for read‑only fields across the ServiceNow AI Platform®. These changes include a new “read\_only\_option” field with granular control levels, including “strict\_read\_only” and “client\_script\_modifiable". The changes occur in the back end and maintain backward‑compatible behavior. This update helps strengthen your instance security while preserving the flexibility you need. Refer to [KB2718122](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2718122) for additional technical details on how to identify affected fields and adjust their settings. For more information about granular read-only security options, see [Configuring read-only security options](https://www.servicenow.com/docs/access?context=read-only-option&family=brazil&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## New features
@@ -103,7 +106,22 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **[Enhanced Workflow Studio flow designer](https://www.servicenow.com/docs/access?context=enhanced-workflow-studio-flow-designer&family=brazil&ft:locale=en-US)**
+
+Create and manage flows from the enhanced Workflow Studio flow designer.
+
+-   **[Flow troubleshooting agent](https://www.servicenow.com/docs/access?context=flow-troubleshooting-agent&family=brazil&ft:locale=en-US)**
+
+Diagnose and resolve flow errors from a conversation. Resume a flow the point of error, analyze flow steps, identify conflicts with business logic, and receive targeted recommendations to troubleshoot your flows.
+
+-   **[Flow input modification during debugging](https://www.servicenow.com/docs/access?context=flow-debugger&family=brazil&ft:locale=en-US)**
+
+Modify input configuration values while debugging a flow. Determine whether specific input values cause a flow to run to completion or cause errors.
+
+-   **[Publish a system event for an unexpected state](https://www.servicenow.com/docs/access?context=publish-a-system-event-when-a-flow-has-an-unexpected-state&family=brazil&ft:locale=en-US)**
+
+Publish a system event when a flow enters the error, cancelled, or presumed interrupted states. Use the default event name or specify a custom event name.
+
 
 </td></tr></tbody>
 </table>## Changes
@@ -226,7 +244,12 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **Activation information**
+
+Workflow Studio is a ServiceNow AI Platform feature that is active by default.
+
+Update Workflow Studio from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=brazil&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -376,7 +399,12 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   Automate a repeatable multiple-step process.
+-   Run a sequence of reusable actions and flow logic to complete an automated process.
+-   Pass data between the steps of a flow.
+-   Pass data between child subflows and their parent calling flows.
+
+ See [Flows, subflows, and actions](https://www.servicenow.com/docs/access?context=workflow-studio-flows-subflows-and-actions-landing&family=brazil&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/rn-combined-intro.md)

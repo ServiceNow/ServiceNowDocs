@@ -7,8 +7,8 @@ release: brazil
 product: Project Workspace
 classification: project-workspace
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 13
+last_updated: "2026-09-29"
+reading_time_minutes: 14
 breadcrumb: [Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
@@ -487,12 +487,26 @@ Date changes, state changes, effort and percent complete made to child project t
 
 Planned effort is calculated as the sum of the planned effort values of all child tasks. Actual efforts are fetched from approved time cards, therefore making them read-only. Actual effort is set to read only for all parent and child tasks.
 
+## Date restrictions for tasks with logged actuals
+
+On a project task that has logged actuals, you can't change the Planned start date or move the Planned end date earlier than the last logged actual. This applies whether you edit dates directly or a dependency recalculation changes them.
+
+When the Actual start date and Actual end date are present, the restriction applies to those dates instead.
+
+For example, consider a project task whose resource assignment has logged actuals, with the last actual recorded on 12 Dec 2026. If you set the Planned end date to 05 Dec 2026, the planning page rejects the change and keeps the existing date. Setting the Planned end date to 12 Dec 2026 or later succeeds.
+
+**Note:** Resource assignments or actuals created while the planning page is open aren't recognized until you refresh the planning page.
+
+This restriction is on by default. To turn it off, set the **com.snc.project.restrict\_task\_dates\_with\_assignment\_actuals** property to `false`.
+
 -   **[Access the Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/access-new-project-workspace.md)**  
 Learn how to navigate to the new Project Workspace and open a project in the planning page.
 -   **[Create a project from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/create-project-from-project-workspace.md)**  
 Use Project Workspace to create a project and start planning for your project tasks.
 -   **[Update the project details from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/update-project-details-from-project-workspace.md)**  
 Update the details of a project to reflect the updates or changed priorities using the details page from Project Workspace.
+-   **[Work with project tasks in Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/pws-widgets-eslate.md)**  
+The Project Tasks widget shows employees a quick view of the customer project tasks assigned to them on the Employee Slate.
 -   **[Ask project questions using the Project Answers agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/ask-question-answers-chatbot-pw.md)**  
 Use Ask Otto to open an AI panel and get real-time answers about your projects and sub-projects using the Project Answers agent.
 -   **[Generate and track project details from AI insights page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/generate-ai-project-insights-pw.md)**  

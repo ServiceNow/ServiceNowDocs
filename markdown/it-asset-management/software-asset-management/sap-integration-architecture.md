@@ -140,7 +140,7 @@ Two special scenarios exist where standard SAP tables do not hold the required d
 
 [Upload the license ruleset for SAP S/4HANA Private Cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/upload-license-ruleset-sap-private-cloud.md)
 
-[Export the Root CA certificate from SAP for Private Cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/export-root-ca-cert-sap-private-cloud.md)
+[Establish a trusted HTTPS connection for SAP S/4HANA Cloud, Private Edition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/export-root-ca-cert-sap-private-cloud.md)
 
 [Tables installed with the SAP publisher pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/component-installed-sap-plugin.md)
 

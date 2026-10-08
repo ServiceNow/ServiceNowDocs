@@ -6,13 +6,15 @@ canonical_url: https://www.servicenow.com/docs/r/delta-australia-brazil/rn-combi
 release: brazil
 topic_type: concept
 last_updated: "2025-06-02"
-reading_time_minutes: 38
+reading_time_minutes: 41
 ---
 
 # Products combined by family
 
 Find consoldiated release notes information by product.
 
+-   **[Combined Access Analyzer release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-accessanalyzer-release-notes.md)**  
+Consolidated page of all release notes for Access Analyzer from Australia to Brazil.
 -   **[Combined Access Management release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-accessmanagement-release-notes.md)**  
 Consolidated page of all release notes for Access Management from Australia to Brazil.
 -   **[Combined Accounts Payable Operations release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-accountspayableoperations-release-notes.md)**  
@@ -33,6 +35,8 @@ Consolidated page of all release notes for Advanced Risk from Australia to Brazi
 Consolidated page of all release notes for Advanced Work Assignment \(AWA\) from Australia to Brazil.
 -   **[Combined Agent Chat release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-agentchat-release-notes.md)**  
 Consolidated page of all release notes for Agent Chat from Australia to Brazil.
+-   **[Combined Agent Client Collector release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-agentclientcollector-release-notes.md)**  
+Consolidated page of all release notes for Agent Client Collector from Australia to Brazil.
 -   **[Combined Agent experience for CSM release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-agentexperienceforcsm-release-notes.md)**  
 Consolidated page of all release notes for Agent experience for CSM from Australia to Brazil.
 -   **[Combined Agentic Contact Center for Banking release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-agenticcontactcenterforbanking-release-notes.md)**  
@@ -59,14 +63,14 @@ Consolidated page of all release notes for AI Risk and Compliance from Australia
 Consolidated page of all release notes for AI Search from Australia to Brazil.
 -   **[Combined API release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-api-release-notes.md)**  
 Consolidated page of all release notes for API from Australia to Brazil.
--   **[Combined App Engine ERP Rapid Deployment Packs release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-appengineerprapiddeploymentpacks-release-notes.md)**  
-Consolidated page of all release notes for App Engine ERP Rapid Deployment Packs from Australia to Brazil.
 -   **[Combined App Engine Management Center release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-appenginemanagementcenter-release-notes.md)**  
 Consolidated page of all release notes for App Engine Management Center from Australia to Brazil.
 -   **[Combined App Engine Studio release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-appenginestudio-release-notes.md)**  
 Consolidated page of all release notes for App Engine Studio from Australia to Brazil.
 -   **[Combined Application Manager release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-applicationmanager-release-notes.md)**  
 Consolidated page of all release notes for Application Manager from Australia to Brazil.
+-   **[Combined Application Runtime Policy release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-applicationruntimepolicy-release-notes.md)**  
+Consolidated page of all release notes for Application Runtime Policy from Australia to Brazil.
 -   **[Combined Application Vulnerability Response release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-applicationvulnerabilityresponse-release-notes.md)**  
 Consolidated page of all release notes for Application Vulnerability Response from Australia to Brazil.
 -   **[Combined Asset Audit Response release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-assetauditresponse-release-notes.md)**  
@@ -75,10 +79,12 @@ Consolidated page of all release notes for Asset Audit Response from Australia t
 Consolidated page of all release notes for Audit Management from Australia to Brazil.
 -   **[Combined Authentication release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-authentication-release-notes.md)**  
 Consolidated page of all release notes for Authentication from Australia to Brazil.
+-   **[Combined Automated Test Framework release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-automatedtestframework-release-notes.md)**  
+Consolidated page of all release notes for Automated Test Framework from Australia to Brazil.
+-   **[Combined Automation Center release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-automationcenter-release-notes.md)**  
+Consolidated page of all release notes for Automation Center from Australia to Brazil.
 -   **[Combined Autonomous Workforce release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-autonomousworkforce-release-notes.md)**  
 Consolidated page of all release notes for Autonomous Workforce from Australia to Brazil.
--   **[Combined Build Agent release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-buildagent-release-notes.md)**  
-Consolidated page of all release notes for Build Agent from Australia to Brazil.
 -   **[Combined Build Agent and Autonomous Engineer release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-buildagentandautonomousengineer-release-notes.md)**  
 Consolidated page of all release notes for Build Agent and Autonomous Engineer from Australia to Brazil.
 -   **[Combined Business Continuity Management release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-businesscontinuitymanagement-release-notes.md)**  
@@ -169,6 +175,8 @@ Consolidated page of all release notes for Data Management from Australia to Bra
 Consolidated page of all release notes for Data Management for CSM from Australia to Brazil.
 -   **[Combined Data Privacy release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-dataprivacy-release-notes.md)**  
 Consolidated page of all release notes for Data Privacy from Australia to Brazil.
+-   **[Combined Data Privacy and Discovery release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-dataprivacyanddiscovery-release-notes.md)**  
+Consolidated page of all release notes for Data Privacy and Discovery from Australia to Brazil.
 -   **[Combined Data products release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-dataproducts-release-notes.md)**  
 Consolidated page of all release notes for Data products from Australia to Brazil.
 -   **[Combined Data Separation release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-dataseparation-release-notes.md)**  
@@ -179,6 +187,8 @@ Consolidated page of all release notes for Developer Sandboxes from Australia to
 Consolidated page of all release notes for DevOps Change Velocity from Australia to Brazil.
 -   **[Combined Digital End-User Experience release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-digitalenduserexperience-release-notes.md)**  
 Consolidated page of all release notes for Digital End-User Experience from Australia to Brazil.
+-   **[Combined Digital Product Release release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-digitalproductrelease-release-notes.md)**  
+Consolidated page of all release notes for Digital Product Release from Australia to Brazil.
 -   **[Combined Discovery release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-discovery-release-notes.md)**  
 Consolidated page of all release notes for Discovery from Australia to Brazil.
 -   **[Combined Discovery store applications release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-discoverystoreapplications-release-notes.md)**  
@@ -217,6 +227,8 @@ Consolidated page of all release notes for Enterprise Asset Management from Aust
 Consolidated page of all release notes for Enterprise Service Management Foundation from Australia to Brazil.
 -   **[Combined Event Management release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-eventmanagement-release-notes.md)**  
 Consolidated page of all release notes for Event Management from Australia to Brazil.
+-   **[Combined Export to PowerPoint release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-exporttopowerpoint-release-notes.md)**  
+Consolidated page of all release notes for Export to PowerPoint from Australia to Brazil.
 -   **[Combined Extended Security for Enterprise-Wide Deployment release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-extendedsecurityforenterprisewidedeployment-release-notes.md)**  
 Consolidated page of all release notes for Extended Security for Enterprise-Wide Deployment from Australia to Brazil.
 -   **[Combined External Content Connectors release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-externalcontentconnectors-release-notes.md)**  
@@ -247,6 +259,8 @@ Consolidated page of all release notes for Goal Framework for SPM from Australia
 Consolidated page of all release notes for Hardware Asset Management from Australia to Brazil.
 -   **[Combined Healthcare and Life Sciences Service Management Core release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-healthcareandlifesciencesservicemanagementcore-release-notes.md)**  
 Consolidated page of all release notes for Healthcare and Life Sciences Service Management Core from Australia to Brazil.
+-   **[Combined Healthcare Operations release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-healthcareoperations-release-notes.md)**  
+Consolidated page of all release notes for Healthcare Operations from Australia to Brazil.
 -   **[Combined Healthcare Operations Core release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-healthcareoperationscore-release-notes.md)**  
 Consolidated page of all release notes for Healthcare Operations Core from Australia to Brazil.
 -   **[Combined Health Log Analytics release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-healthloganalytics-release-notes.md)**  
@@ -265,6 +279,10 @@ Consolidated page of all release notes for Impact from Australia to Brazil.
 Consolidated page of all release notes for Import and Export from Australia to Brazil.
 -   **[Combined Incident Management release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-incidentmanagement-release-notes.md)**  
 Consolidated page of all release notes for Incident Management from Australia to Brazil.
+-   **[Combined Industrial Analytics and Reporting release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-industrialanalyticsandreporting-release-notes.md)**  
+Consolidated page of all release notes for Industrial Analytics and Reporting from Australia to Brazil.
+-   **[Combined Industrial Centerlines release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-industrialcenterlines-release-notes.md)**  
+Consolidated page of all release notes for Industrial Centerlines from Australia to Brazil.
 -   **[Combined Industrial Connected Workforce Core release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-industrialconnectedworkforcecore-release-notes.md)**  
 Consolidated page of all release notes for Industrial Connected Workforce Core from Australia to Brazil.
 -   **[Combined Industrial Connected Workforce Mobile Experience release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-industrialconnectedworkforcemobileexperience-release-notes.md)**  
@@ -293,8 +311,6 @@ Consolidated page of all release notes for ITOM Cloud Accelerate from Australia 
 Consolidated page of all release notes for ITOM MCP Server Console from Australia to Brazil.
 -   **[Combined ITOM Visibility release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-itomvisibility-release-notes.md)**  
 Consolidated page of all release notes for ITOM Visibility from Australia to Brazil.
--   **[Combined ITSM Employee Slate for Moveworks release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-itsmemployeeslateformoveworks-release-notes.md)**  
-Consolidated page of all release notes for ITSM Employee Slate for Moveworks from Australia to Brazil.
 -   **[Combined ITSM MCP Server release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-itsmmcpserver-release-notes.md)**  
 Consolidated page of all release notes for ITSM MCP Server from Australia to Brazil.
 -   **[Combined Key Management release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-keymanagement-release-notes.md)**  
@@ -323,6 +339,12 @@ Consolidated page of all release notes for Legal Request Management from Austral
 Consolidated page of all release notes for Live Connect from Australia to Brazil.
 -   **[Combined Localization Workspace release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-localizationworkspace-release-notes.md)**  
 Consolidated page of all release notes for Localization Workspace from Australia to Brazil.
+-   **[Combined Log Export Service release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-logexportservice-release-notes.md)**  
+Consolidated page of all release notes for Log Export Service from Australia to Brazil.
+-   **[Combined Lux release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-lux-release-notes.md)**  
+Consolidated page of all release notes for Lux from Australia to Brazil.
+-   **[Combined Lux Lab release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-luxlab-release-notes.md)**  
+Consolidated page of all release notes for Lux Lab from Australia to Brazil.
 -   **[Combined Manufacturing Commercial Operations release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-manufacturingcommercialoperations-release-notes.md)**  
 Consolidated page of all release notes for Manufacturing Commercial Operations from Australia to Brazil.
 -   **[Combined MCP for Strategic Portfolio Management release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-mcpforstrategicportfoliomanagement-release-notes.md)**  
@@ -349,6 +371,8 @@ Consolidated page of all release notes for Now Assist for Employee Center Pro fr
 Consolidated page of all release notes for Now Assist for Sales CRM for Telecommunications from Australia to Brazil.
 -   **[Combined Now Assist in Document Intelligence release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-nowassistindocumentintelligence-release-notes.md)**  
 Consolidated page of all release notes for Now Assist in Document Intelligence from Australia to Brazil.
+-   **[Combined On-Call Onboarding release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-oncallonboarding-release-notes.md)**  
+Consolidated page of all release notes for On-Call Onboarding from Australia to Brazil.
 -   **[Combined On-Call Scheduling release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-oncallscheduling-release-notes.md)**  
 Consolidated page of all release notes for On-Call Scheduling from Australia to Brazil.
 -   **[Combined Operational Resilience release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-operationalresilience-release-notes.md)**  
@@ -381,6 +405,8 @@ Consolidated page of all release notes for Performance Analyzer from Australia t
 Consolidated page of all release notes for Platform Analytics experience from Australia to Brazil.
 -   **[Combined Playbook release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-playbook-release-notes.md)**  
 Consolidated page of all release notes for Playbook from Australia to Brazil.
+-   **[Combined Playbooks release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-playbooks-release-notes.md)**  
+Consolidated page of all release notes for Playbooks from Australia to Brazil.
 -   **[Combined Policy and Compliance Management release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-policyandcompliancemanagement-release-notes.md)**  
 Consolidated page of all release notes for Policy and Compliance Management from Australia to Brazil.
 -   **[Combined Portfolio Planning release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-portfolioplanning-release-notes.md)**  
@@ -465,6 +491,8 @@ Consolidated page of all release notes for ServiceNow AI Lens from Australia to 
 Consolidated page of all release notes for ServiceNow AI Platform core feature from Australia to Brazil.
 -   **[Combined ServiceNow CLI release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-servicenowcli-release-notes.md)**  
 Consolidated page of all release notes for ServiceNow CLI from Australia to Brazil.
+-   **[Combined ServiceNow Cowork release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-servicenowcowork-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Cowork from Australia to Brazil.
 -   **[Combined ServiceNow IDE release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-servicenowide-release-notes.md)**  
 Consolidated page of all release notes for ServiceNow IDE from Australia to Brazil.
 -   **[Combined ServiceNow Lux Lab for VS Code release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-servicenowluxlabforvscode-release-notes.md)**  
@@ -487,6 +515,8 @@ Consolidated page of all release notes for ServiceNow Otto for Enterprise Archit
 Consolidated page of all release notes for ServiceNow Otto for Financial Services Operations \(FSO\) from Australia to Brazil.
 -   **[Combined ServiceNow Otto for FSM release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-servicenowottoforfsm-release-notes.md)**  
 Consolidated page of all release notes for ServiceNow Otto for FSM from Australia to Brazil.
+-   **[Combined ServiceNow Otto for Hardware Asset Management \(HAM\) release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-servicenowottoforhardwareassetmanagementham-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for Hardware Asset Management \(HAM\) from Australia to Brazil.
 -   **[Combined ServiceNow Otto for HR Service Delivery \(HRSD\) release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-servicenowottoforhrservicedeliveryhrsd-release-notes.md)**  
 Consolidated page of all release notes for ServiceNow Otto for HR Service Delivery \(HRSD\) from Australia to Brazil.
 -   **[Combined ServiceNow Otto for IT Service Management \(ITSM\) release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-servicenowottoforitservicemanagementitsm-release-notes.md)**  
@@ -495,6 +525,8 @@ Consolidated page of all release notes for ServiceNow Otto for IT Service Manage
 Consolidated page of all release notes for ServiceNow Otto for Legal Service Delivery \(LSD\) from Australia to Brazil.
 -   **[Combined ServiceNow Otto for Operational Technology \(OT\) Service Management release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-servicenowottoforoperationaltechnologyotservicemanagement-release-notes.md)**  
 Consolidated page of all release notes for ServiceNow Otto for Operational Technology \(OT\) Service Management from Australia to Brazil.
+-   **[Combined ServiceNow Otto for Platform Analytics release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-servicenowottoforplatformanalytics-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Otto for Platform Analytics from Australia to Brazil.
 -   **[Combined ServiceNow Otto for Setup release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-servicenowottoforsetup-release-notes.md)**  
 Consolidated page of all release notes for ServiceNow Otto for Setup from Australia to Brazil.
 -   **[Combined ServiceNow Otto for Software Asset Management \(SAM\) release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-servicenowottoforsoftwareassetmanagementsam-release-notes.md)**  
@@ -521,10 +553,16 @@ Consolidated page of all release notes for ServiceNow SDK from Australia to Braz
 Consolidated page of all release notes for ServiceNow Studio from Australia to Brazil.
 -   **[Combined ServiceNow Vault release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-servicenowvault-release-notes.md)**  
 Consolidated page of all release notes for ServiceNow Vault from Australia to Brazil.
+-   **[Combined Service Operations Workspace release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-serviceoperationsworkspace-release-notes.md)**  
+Consolidated page of all release notes for Service Operations Workspace from Australia to Brazil.
 -   **[Combined Service Operations Workspace for ITSM release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-serviceoperationsworkspaceforitsm-release-notes.md)**  
 Consolidated page of all release notes for Service Operations Workspace for ITSM from Australia to Brazil.
 -   **[Combined Service Portal release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-serviceportal-release-notes.md)**  
 Consolidated page of all release notes for Service Portal from Australia to Brazil.
+-   **[Combined Service Reliability Management release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-servicereliabilitymanagement-release-notes.md)**  
+Consolidated page of all release notes for Service Reliability Management from Australia to Brazil.
+-   **[Combined Service Test Management release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-servicetestmanagement-release-notes.md)**  
+Consolidated page of all release notes for Service Test Management from Australia to Brazil.
 -   **[Combined Sidebar release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-sidebar-release-notes.md)**  
 Consolidated page of all release notes for Sidebar from Australia to Brazil.
 -   **[Combined Simplified IT Service Management release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-simplifieditservicemanagement-release-notes.md)**  
@@ -549,6 +587,8 @@ Consolidated page of all release notes for Stream Connect from Australia to Braz
 Consolidated page of all release notes for Subscription Management from Australia to Brazil.
 -   **[Combined Supplier Lifecycle Operations release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-supplierlifecycleoperations-release-notes.md)**  
 Consolidated page of all release notes for Supplier Lifecycle Operations from Australia to Brazil.
+-   **[Combined Synthetic Monitoring release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-syntheticmonitoring-release-notes.md)**  
+Consolidated page of all release notes for Synthetic Monitoring from Australia to Brazil.
 -   **[Combined System Localization release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-systemlocalization-release-notes.md)**  
 Consolidated page of all release notes for System Localization from Australia to Brazil.
 -   **[Combined Table Builder release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/brazil-australia-tablebuilder-release-notes.md)**  

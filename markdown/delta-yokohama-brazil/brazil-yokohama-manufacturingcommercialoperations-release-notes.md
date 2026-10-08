@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-brazil/brazil-yokohama-manufacturingcommercialoperations-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 9
+last_updated: "2026-10-08"
+reading_time_minutes: 10
 breadcrumb: [Products combined by family]
 ---
 
@@ -166,6 +166,18 @@ QIM integrates with FSM to support quality actions that require on-site interven
 Brazil
 
 </td><td>
+
+-   **Repair pre-authorization case lines on claim cases**
+
+Claim cases list approved and partially approved pre-authorization cases created for the selected repair. Selecting a pre-authorization automatically populates the causal parts and miscellaneous details.
+
+-   **Automatic repair claim charge validation**
+
+Ensures repair claim charges conform with pre-authorization limits.
+
+-   **Schedule a quality review meeting**
+
+Schedule a quality review meeting to coordinate follow-up actions with stakeholders. The discussion, summary, and decision history remain attached to the issue for team reference.
 
 -   **Resolve a product non-conformance case playbook**
     -   Import impacted assets in bulk using an XLST file instead of adding them one at a time directly from the Product Quality Investigation \(PQI\) or Non-Conformance \(NC\) workspace. Reduce manual data entry when a single issue affects multiple assets.

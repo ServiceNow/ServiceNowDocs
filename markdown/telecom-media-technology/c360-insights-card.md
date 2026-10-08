@@ -25,5 +25,8 @@ The following insights are displayed on the card:
 
 You can configure variables such as tables, display fields, and query conditions. See [Configure the insights card variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/c360-configure-insights-card.md) for details.
 
+-   **[Generate Telecom customer 360 insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/c360-ai-insights.md)**  
+Generate customer health insights and recent customer issue insights for a customer or consumer account.
+
 **Parent Topic:**[Telecommunications Customer 360 home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/c360-home-page.md)
 

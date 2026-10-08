@@ -1,6 +1,6 @@
 ---
 title: Create a calculated field for a Data snapshots source
-description: Show the length of time that has passed between two date/time fields on a Data snapshots source table. For example, calculate Age as the difference between Created and Updated.
+description: Show the length of time that has passed between two date/time fields on a Data snapshots source table. For example, calculate Age as the difference between Created and Updated. Use this value as an aggregate field on an indicator or in a bucket group mapping.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/performance-analytics/create-a-calculated-field.html
 release: brazil
@@ -8,14 +8,14 @@ product: Performance Analytics
 classification: performance-analytics
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 2
+reading_time_minutes: 3
 keywords: [indicator, breakdown, performance analytics]
 breadcrumb: [Bucket group mappings and calculated fields, Data snapshots and multiple breakdowns, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
 
 # Create a calculated field for a Data snapshots source
 
-Show the length of time that has passed between two date/time fields on a Data snapshots source table. For example, calculate Age as the difference between Created and Updated.
+Show the length of time that has passed between two date/time fields on a Data snapshots source table. For example, calculate Age as the difference between Created and Updated. Use this value as an aggregate field on an indicator or in a bucket group mapping.
 
 ## Before you begin
 
@@ -39,9 +39,18 @@ Role required: pa\_data\_collector or higher
 
     The DATEDIFF function has three parameters, which you specify in a comma-separated list without spaces.
 
-    -   Time unit, in the singular. Supported units include 'day', 'week', and 'second'.
+    -   Time unit, in the singular. Supported units are:
+        -   Year
+        -   Month
+        -   Week
+        -   Day
+        -   Hour
+        -   Minute
+        -   Second
     -   Name of the field with the start time
     -   Name of the field with the end time
+    **Important:** Confirm that both the start time and end time fields are listed under **Fields** on the relevant Data snapshots source.
+
     The format follows:
 
     ```
@@ -75,6 +84,10 @@ The formula uses the technical names of the Created and Updated fields.
 Because the Created and Updated fields are both dimensions on the incident\_dataset data source, Age is listed there as an eligible calculated field.
 
 \[Omitted image "eligible-calculated-field.png"\] Alt text: The Age calculated field shown in the Eligible Calculated fields related list of the incident\_dataset data snapshots source record.
+
+The Age calculated field is available to be used as an aggregate field on an indicator based on the incident\_dataset source. For example, an incident indicator with the Average or Sum aggregation can use the Age field.
+
+\[Omitted image "ds-calc-field-as-aggregate.png"\] Alt text: A data snapshots indicator with the incident\_dataset Source using the Average aggregate on the calculated Age field.
 
 ## What to do next
 

@@ -30,7 +30,7 @@ The main elements of AI Search for product catalog include the following:
 
     Defines the table records to be indexed for product catalog search:
 
-    -   The Product Offering Indexed source uses the Product Offering \[sn\_prd\_pm\_product\_offering\] table as the source. The**Configuration JSON** field in the Product Offering table provides the characteristic options and attributes for products, which are used by AI Search to find catalog items by characteristics and options.
+    -   The Product Offering Indexed source uses the Product Offering \[sn\_prd\_pm\_product\_offering\] table as the source. The **Configuration JSON** field provides the characteristic options and attributes for products, which AI Search uses to find catalog items by characteristics and options. The **Display name** field is also indexed, which AI Search uses to find catalog items by the product offering name.
     -   The Service Specification indexed source uses the Service Specification \[sn\_prd\_pm\_service\_specification\] table as the source.
     -   Semantic Index Configuration settings define the embedding model, chunking configuration, and the semantic index fields used to control semantic indexing in AI Search. To learn more about semantic indexing, see [Semantic index configuration for indexed sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/semantic-index-cfg-ais.md).
     For more information on indexed sources, see [Indexed sources in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/indexed-sources-ais.md).
@@ -68,7 +68,7 @@ Users with the admin role perform the following steps to implement AI Search for
 
     Depending on your entitlements, the ServiceNow Otto for Sales Automation plugin might be automatically installed. If it is not automatically installed but you have the appropriate entitlements, install the ServiceNow Otto for Sales Automation plugin \(sn\_som\_gen\_ai\). This plugin installs the AI Search RAG plugin \(sn\_ais\_rag\) and the AI Search Semantic Controller plugin \(com.glide.ais.semantic\_search\) for the AI Search Retrieval Augmented Generation \(RAG\) application used by AI Search for product catalog.
 
-    **Note:** If you do not install ServiceNow Otto for Sales Automation plugin \(sn\_som\_gen\_ai\), the product catalog interface provides simple keyword search, also known as Zing search.
+    **Note:** If you don't install ServiceNow Otto for Sales Automation plugin \(sn\_som\_gen\_ai\), the product catalog interface provides simple keyword search, also known as Zing search.
 
 3.  [Run scheduled job to populate product offering categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/run-scheduled-job-prod-offer-categories.md) only if you upgraded to the Brazil.
 
@@ -81,6 +81,10 @@ Users with the admin role perform the following steps to implement AI Search for
 5.  [Enable AI Search in product catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/enable-ai-search-catalog.md).
 
     Set the **enable\_ai\_search\_in\_catalog** property to true, which enables AI Search for the product catalog interface and verifies that the necessary files are configured to run AI Search.
+
+6.  [Reindex the product offering search index](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/reindex-product-offering-search.md) only if you're using AI Search in the product catalog and upgraded to the Brazil release.
+
+    Skip this step if you're a new customer using the Brazil release or if your instance was zBooted in the Brazil release. The Product Offering Indexed Source is reindexed automatically.
 
 
 After AI Search has been implemented, product catalog admins can manage and customize various AI Search features if needed. Product catalog admins inherit the ais\_admin role, which allows them to create, read, update, and delete content indexing and search settings for AI Search\[var.ai-search\].

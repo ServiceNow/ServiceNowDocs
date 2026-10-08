@@ -32,7 +32,7 @@ The following skills are included in Otto for ZCC:
 
 1.  Install the ServiceNow Otto for Zero Copy Connector plugin \(sn\_erp\_ai\).
 
-    For information about the installation process, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+    For information about the installation process, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 
 2.  View the skills by navigating to **All** &gt; **Otto admin** &gt; **Skills** and selecting **Other**.
 

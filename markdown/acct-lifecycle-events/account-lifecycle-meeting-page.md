@@ -16,9 +16,8 @@ The meeting page is a structured workspace for preparing and following up on tou
 
 To view the meeting page, follow these steps:
 
-1.  Navigate to the **List** view in the **CRM Workspace** and select **All Touchpoints**.
-2.  Navigate to **All** &gt; **CRM Workspace** &gt; **List** &gt; **All Touchpoints**.
-3.  Open a Touchpoint record from the list, navigate to the **Meeting** tab and select \[Omitted image "open-link-right-outline-24.svg"\] Alt text: to the Meeting page.
+1.  Navigate to **All** &gt; **CRM Workspace** &gt; **List** &gt; **All Touchpoints**.
+2.  Open a Touchpoint record from the list, navigate to the **Meeting** tab and select \[Omitted image "open-link-right-outline-24.svg"\] Alt text: to the Meeting page.
 
     The content displayed on the meeting page depends on the meeting state. When the state is **Draft** or **Scheduled**, the [Meeting preparation brief](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-meeting-pre.md) page is displayed. When the state is **Completed**, the [Meeting recap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-meeting-post.md) page is displayed.
 
@@ -48,6 +47,8 @@ The Related Items panel displays related lists for the meeting record, including
 When a meeting is in **Draft** or **Scheduled** state, the meeting page displays the preparation brief to help customer success managers prepare for the conversation.
 -   **[Meeting recap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-meeting-post.md)**  
 When a meeting is completed, the meeting page displays a recap of the meeting, including an AI-generated summary, success tasks, and records associated with the meeting.
+-   **[Use touchpoint meeting skills in ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/now-assist-tmt-meeting-skills.md)**  
+Use ServiceNow Otto for TMT skills to generate a meeting preparation guide and AI-generated participant insights for touchpoint meetings in the CRM Workspace.
 
 **Parent Topic:**[Touchpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-use-touchpoints.md)
 
@@ -57,4 +58,6 @@ When a meeting is completed, the meeting page displays a recap of the meeting, i
 [Meeting preparation brief](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-meeting-pre.md)
 
 [Meeting recap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-meeting-post.md)
+
+[Meeting agenda items and next steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-meeting-scheduler-plus.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/inc-prediction-l1-sd-ai-spec.html
 release: brazil
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-09-29"
 reading_time_minutes: 1
 breadcrumb: [Reference, L1 IT Service Desk AI Specialist, IT Service Management]
 ---

@@ -9,6 +9,7 @@ classification: threat-intelligence-security-center
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
+keywords: [firewall integration, Palo Alto Networks, External Dynamic List, EDL, malicious IP blocking]
 breadcrumb: [TISC Security Tools integrations, TISC Integrations, Integrate, Threat Intelligence Security Center, Security Operations]
 ---
 

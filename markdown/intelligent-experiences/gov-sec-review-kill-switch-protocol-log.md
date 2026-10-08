@@ -17,7 +17,7 @@ The agent containment list shows agents that were deactivated and reinstated for
 
 ## Before you begin
 
-Role required: AI steward \[sn\_ai\_governance\_ai\_steward\]
+Role required: AI steward \[sn\_ai\_governance.ai\_steward\]
 
 ## Procedure
 

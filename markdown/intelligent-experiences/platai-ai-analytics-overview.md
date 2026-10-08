@@ -1,5 +1,5 @@
 ---
-title: AI analytics overview
+title: AI analytics
 description: AI Admin Center consolidates analytics for generative AI skills, AI agents, and assistants into a single monitoring experience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/platai-ai-analytics-overview.html
@@ -11,11 +11,11 @@ keywords: [AI analytics, Now Assist Center, Now Assist Analytics, AI Agent Studi
 breadcrumb: [Analyzing AI effectiveness, Enable AI Experiences]
 ---
 
-# AI analytics overview
+# AI analytics
 
 AI Admin Center consolidates analytics for generative AI skills, AI agents, and assistants into a single monitoring experience.
 
-The **Monitor** section in AI Admin Center groups dashboards by AI asset type, giving you a single destination for reviewing performance across your AI deployment. For enterprise-level governance and value tracking, AI Control Tower provides additional capabilities outside of AI Admin Center.
+The **Monitor** section in AI Admin Center groups dashboards by AI asset type into a single destination for reviewing performance across your AI deployment. For enterprise-level governance and value tracking, AI Control Tower provides additional capabilities outside of AI Admin Center.
 
 ## AI Admin Center
 
@@ -27,7 +27,7 @@ The **AI Agents** tab provides dashboards for monitoring the usage, performance,
 
 The **Assistants** tab provides dashboards for monitoring AI-powered assistant performance, including usage, adoption and engagement, self-solve rates, sentiment, and assist consumption. For more information, see [Analyzing assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/ai-engagement-analytics.md).
 
-To open the **Monitor** section, see [View AI assets usage and performance in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-center-view-ai-usage.md).
+To open the **Monitor** section, see [View AI assets usage and performance in AI Admin Center \(Next Experience UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-center-view-ai-usage.md).
 
 ## AI Control Tower
 

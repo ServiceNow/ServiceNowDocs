@@ -7,7 +7,7 @@ release: brazil
 product: Now Assist Skills
 classification: now-assist-skills
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-10-05"
 reading_time_minutes: 10
 keywords: [generative AI, Gen AI, default-on]
 breadcrumb: [Generative AI skills, Enable AI Experiences]
@@ -151,8 +151,7 @@ For a list of changes by release, see [Release notes](https://raw.githubusercont
 |[Legal request summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/now-assist-lsd-summarize-case.md)|December 11, 2025|
 |[Conversational intake for Conflict of Interest request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/lsd-config-converse-intake.md)|March 12, 2026|
 |Agentic workflow|[Triage legal requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/lsd-agentic-config-BR.md)|December 11, 2025|
-|[ServiceNow Otto for Manufacturing Commercial Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/now-assist-for-MCO.md)|Skill|Enhance non conformance description|March 12, 2026|
-|Agent|[Plan and execute recall campaign phases and sub-phases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-plan-and-execute-recall-campaign-phases-and-subphases.md)|March 12, 2026|
+|[AI in Manufacturing Commercial Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/ai-in-mco.md)|Agent|[Plan and execute recall campaign phases and sub-phases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-plan-and-execute-recall-campaign-phases-and-subphases.md)|March 12, 2026|
 |[Operational Technology \(OT\) Manager Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/now-assist-for-otm-landing.md)|Skill|[Search for a related record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/search-related-records-ot-cmdb-tables-now-assist-otm.md)|December 11, 2025|
 |Agentic workflow|[Import OT device spreadsheet into OT CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/now-assist-otm-aiagents-import-ot-device-workflow.md)|December 11, 2025|
 |[ServiceNow Otto for Operational Technology \(OT\) Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/now-assist-for-operational-technology-service-management.md)|Skill|[OT incident summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/summarize-ot-incident-now-assist.md)|March 12, 2026|
@@ -162,7 +161,7 @@ For a list of changes by release, see [Release notes](https://raw.githubusercont
 |[Control objective impact analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/identify-control-objectives-impacted-by-citation-updates.md)|December 11, 2025|
 |[Recommendation of similar control objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-generate-recommendation-for-a-new-control-objective.md)|December 11, 2025|
 |[Risk assessment summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-generate-risk-assessment-summary.md)|December 11, 2025|
-||Agent|[Investigative Case Management AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-explore-inv-case-management.md)|March 12, 2026|
+|[Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/bun-public-sector-landing-page.md)|Agent|[Investigative Case Management AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-explore-inv-case-management.md)|March 12, 2026|
 |[ServiceNow Otto for Purchase Order Management \(POM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/source-to-pay-operations/now-assist-for-purch-order-magmt.md)|Agentic workflow|[Define PO exception mitigation strategy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/source-to-pay-operations/mitigation-strategies-for-po-exceptions.md)|March 12, 2026|
 |[Intent to Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/source-to-pay-operations/convert-emails-to-exceptions.md)|March 12, 2026|
 |[ServiceNow Otto for Security Incident Response \(SIR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/now-assist-security-incident-landing.md)|Skill|[Correlation insights generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/generating-insights-for-now-assist-for-security.md)|December 11, 2025|
@@ -206,10 +205,10 @@ For a list of changes by release, see [Release notes](https://raw.githubusercont
 |[Supplier performance summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/source-to-pay-operations/summarize-supp-perf.md)|March 12, 2026|
 |[Email response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/source-to-pay-operations/generate-email-response-for-supplier-tasks.md)|March 12, 2026|
 |[Sentiment analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/source-to-pay-operations/slo-analyze-sentiments.md)|March 12, 2026|
-|[ServiceNow Otto for Sales Customer Relationship Management for Telecommunications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/somt-now-assist.md)|Agent|[Move order voice AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-move-order-somt.md)|March 12, 2026|
-|[ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-spmc.md)|Agentic workflow|[Squad resource identifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-squad-resource-identifier.md)|March 12, 2026|
-|[Product release email communication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-product-release-email-communication.md)|March 12, 2026|
-|Agent|[Service Exchange Knowledge Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-tmt-service-exchange-assistant-se.md)|July 9, 2026|
+|[ServiceNow Otto for Sales Customer Relationship Management for Telecommunications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/ai-in-sales-crm-for-telecommunications.md)|Agent|[Move order voice AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-move-order-somt.md)|March 12, 2026|
+|[ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-spmc.md)|Agentic workflow|[Squad resource identifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/now-assist-squad-resource-identifier.md)|March 12, 2026|
+|[Product release email communication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/now-assist-product-release-email-communication.md)|March 12, 2026|
+|Agent|[Service Exchange Knowledge Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/now-assist-tmt-service-exchange-assistant-se.md)|July 9, 2026|
 |[GRC: Third-party Risk Management \(TPRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-mgt-landing-page.md)|Skill|[TPRM issue summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/create-a-summary-of-issue.md)|December 11, 2025|
 |[TPRM issue recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/tprm-recommend-an-issue.md)|March 12, 2026|
 |[ServiceNow Otto for Threat Intelligence Security Center \(TISC\) \(TISC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/now-assist-tisc-landing.md)|Skill|[TISC case summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/now-assist-tisc-case-summarization.md)|June 11, 2026|
@@ -225,6 +224,7 @@ For a list of changes by release, see [Release notes](https://raw.githubusercont
 |[Field encryption with Vault module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/now-assist-vault-field-encryption-module.md)|April 9, 2026|
 |[Securing custom apps with Vault agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/now-assist-vault-securing-custom-apps-agents.md)|April 9, 2026|
 |[Summarize access observer logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/now-assist-vault-access-observer-logs.md)|April 9, 2026|
+| | |[Classify assets with ServiceNow Vault agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/now-assist-vault-classify-servicenow-assets.md)|October 10, 2026|
 |[ServiceNow Otto for Workplace Service Delivery \(WSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/now-assist-wsd-landing.md)|Skill|[Workplace case summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/summarize-workplace-case.md)|March 12, 2026|
 |Agentic workflow|[Workplace Concierge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-concierge-ai-agent.md)|April 9, 2026|
 |[ServiceNow Otto for Zero Copy Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/now-assist-for-zero-copy-connector-for-erp.md)|Skill|[ERP data discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/now-assist-erp-data-discovery-skill.md)|December 11, 2025|
@@ -238,7 +238,6 @@ For a list of changes by release, see [Release notes](https://raw.githubusercont
 |[Conversational Help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skills/conversational-help-skills.md)|December 11, 2025|
 |Custom skills|December 11, 2025|
 |[Extract information from documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skills/now-assist-extract-information-from-documents.md)|April 9, 2026|
-|Multimodal chat|April 9, 2026|
 |Now Assist Multi-Turn Catalog Ordering|December 11, 2025|
 |Now Assist Q&amp;A Genius Results|December 11, 2025|
 |Now Assist Topics|December 11, 2025|

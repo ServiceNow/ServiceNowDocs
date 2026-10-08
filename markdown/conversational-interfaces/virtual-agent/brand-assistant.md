@@ -94,8 +94,6 @@ If you haven’t selected a display experience, branding options aren’t shown.
 
 2.  In the **Personalization** section, customize the assistant's tone, response length, and personal details.
 
-    **Note:** The **Personalization** section is viewable by default. To hide personalization or its different settings, use the **sn\_nowassist\_va.assistant\_personalization** system property. For more information, see [ServiceNow Otto for Virtual Agent system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/nava-sys-props.md).
-
     \[Omitted image "sno-personalization-tone-0826.png"\] Alt text: Select your assistant's tone, response length, and persona.
 
     Each assistant can have its own tone, response length, and persona.

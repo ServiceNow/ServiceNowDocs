@@ -16,11 +16,11 @@ This AI agent fetches the incident insights report for a Kentik alert.
 
 ## Workflow
 
-1.  Determine what information the customer is asking about.
-2.  If available, get the Kentik source service and Kentik destination service. Otherwise, ask the user for this information.
-3.  Use the Get Kentik insights report tool to obtain a summary.
-4.  Display the output of the summary to the user.
-5.  After answering the user's question, ask two follow-up questions from the Kentik Suggested Follow-up Prompts list.
+1.  Determine what information to retrieve based on the provided information.
+2.  Use the Get Kentik insights report tool.
+3.  Return the findings using the Kentik insights report output.
+
+For more information about configuring this AI agent, see [Configure observability agents for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/configure-integration-agents-for-now-assist.md).
 
 <table><thead><tr><th>
 
@@ -64,6 +64,8 @@ Tools
 
 Get Kentik insights report
 
+Alert impact summary
+
 
 </td></tr><tr><td>
 
@@ -103,7 +105,7 @@ Used in agentic workflows
 
 </td><td>
 
-Analyze alert impact
+[Analyze alert impact agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/now-assist-itom-agentic-aia.md)
 
 </td></tr></tbody>
 </table>For more information, see [ITOM AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-health-landing-page.md).

@@ -68,5 +68,3 @@ The pre-defined risk matrixes can be used by safety team members to create and c
 
 **Parent Topic:**[Setting up Health and Safety Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/health-and-safety-risk-management/hs-setting-up-risk-mgmt.md)
 
-**Parent Topic:**[Setting up Health and Safety Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/health-and-safety-risk-management/hs-setting-up-risk-mgmt.md)
-

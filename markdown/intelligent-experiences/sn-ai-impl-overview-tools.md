@@ -1,6 +1,6 @@
 ---
 title: AI organization and tools on the ServiceNow AI Platform
-description: The ServiceNow AI experience includes generative AI skills, agentic AI, and conversational user engagement layer. A good AI experience depends on quality data and a coherent AI policy that functions as its guiding star. AI Search capabilities and other tools help connect the pieces.
+description: The ServiceNow AI experience includes generative AI skills, agentic AI, and a conversational user engagement layer. An effective AI experience depends on quality data and a coherent AI policy that guides your implementation. AI Search capabilities and other tools help connect the pieces.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/sn-ai-impl-overview-tools.html
 release: brazil
@@ -13,7 +13,7 @@ breadcrumb: [Implementing AI, Getting started with AI, Enable AI Experiences]
 
 # AI organization and tools on the ServiceNow AI Platform
 
-The ServiceNow AI experience includes generative AI skills, agentic AI, and conversational user engagement layer. A good AI experience depends on quality data and a coherent AI policy that functions as its guiding star. AI Search capabilities and other tools help connect the pieces.
+The ServiceNow AI experience includes generative AI skills, agentic AI, and a conversational user engagement layer. An effective AI experience depends on quality data and a coherent AI policy that guides your implementation. AI Search capabilities and other tools help connect the pieces.
 
 The following image illustrates the components of the ServiceNow AI experience. You can think of each area as a layer, with AI policy as the basis for your implementation. Data plays an important role, since poor data will lead to poor outcomes, and the search experience drives both generative and agentic AI capabilities. The conversational engagement layer allows your users to communicate with AI and perform tasks and self-serve more easily.
 
@@ -21,7 +21,7 @@ The following image illustrates the components of the ServiceNow AI experience. 
 
 ## AI policy
 
-AI governance is defined by your organization and then implemented on the platform using AI Control Tower. AI Control Tower is designed to scale with your organization’s AI maturity. It enables end-to-end life cycle management of AI agents and models, from intake and evaluation to deployment and optimization. It also acts as a bridge between governance committees and implementation teams, ensuring that policy decisions are translated into technical configurations and operational controls. The platform includes the AI Risk and Compliance application, which comes with prebuilt content aligned to the EU AI Act and NIST AI Risk Management Framework \(AI RMF\), helping organizations accelerate compliance and implement responsible AI practices from day one. For more information, see [AI governance on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/sn-ai-impl-governance.md).
+AI governance is defined by your organization and then implemented on the platform using AI Control Tower. AI Control Tower is designed to scale with your organization's AI maturity. It enables end-to-end life cycle management of AI agents and models, from intake and evaluation to deployment and optimization. It also connects governance committees and implementation teams, so that policy decisions are translated into technical configurations and operational controls. The platform includes the AI Risk and Compliance application, which comes with prebuilt content aligned to the EU AI Act and NIST AI Risk Management Framework \(AI RMF\), helping organizations address these requirements and implement responsible AI practices. For more information, see [AI governance on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/sn-ai-impl-governance.md).
 
 For real-time guardrail enforcement for AI interactions, you can use AI Guardian to monitor and mitigate risks related to offensive content, sensitive topics, and security threats in generative AI outputs. Admins can configure these guardrails directly in the AI Admin Hub console, and logs are available to track detection events and guide decisions about blocking or escalation.
 
@@ -33,11 +33,11 @@ For more information about these tools, see:
 
 ## Data management
 
-You know the old saying, "Garbage in, garbage out?" Poor, incomplete, or unstructured data can lead to poor AI outcomes. To prepare your data for AI implementation, see [Data readiness for implementing AI on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/sn-ai-impl-data-readiness.md).
+Poor, incomplete, or unstructured data leads to poor AI outcomes. To prepare your data for AI implementation, see [Data readiness for implementing AI on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/sn-ai-impl-data-readiness.md).
 
 ServiceNow provides several tools to help you manage data and provide user context on your instance. The AI Data Kit helps organizations manage AI training data on their ServiceNow instance. It provides a centralized workspace to curate, generate, cleanse, and evaluate datasets, including importing data from tables, adding ground truth, and creating derived datasets. It supports synthetic data generation—up to 1,000 records at a time—and includes tools to anonymize sensitive information for privacy compliance. Integrated with the AI Skill Kit, it enables teams to test custom AI skills and measure performance.
 
-Knowledge Graph makes AI more personal by using structured enterprise data to tailor responses to each user. It helps AI understand context, such as a user’s role, location, or assigned assets, making answers more relevant and accurate. It also supports intelligent slot-filling, automatically pulling in known information to streamline conversations and reduce repetitive questions. This results in faster, more personalized, and trustworthy AI interactions.
+Knowledge Graph makes AI more personal by using structured enterprise data to tailor responses to each user. It helps AI understand context, such as a user's role, location, or assigned assets, making answers more relevant and accurate. It also supports intelligent slot-filling, automatically pulling in known information to streamline conversations and reduce repetitive questions. This results in faster, more personalized, and trustworthy AI interactions.
 
 For more information about these tools, see:
 
@@ -63,7 +63,7 @@ For more information about these tools, see:
 
 AI product plugins provide workflow-specific, generative AI skills that are tailored to specific use cases. For example, a skill might summarize a customer chat, suggest next steps in a workflow, or generate resolution notes for a task. For a list of available skills by product, see [Generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skills/now-assist-skills.md).
 
-Use the AI Admin Hub console to install and configure AI plugins, as well as perform the following tasks:
+Use the AI Admin Hub console to install and configure AI plugins, and perform the following tasks:
 
 -   Set up and configure skills to align with your business processes.
 -   Monitor and analyze usage, including adoption rates and performance metrics across the platform.
@@ -72,7 +72,7 @@ Use the AI Admin Hub console to install and configure AI plugins, as well as per
 -   Manage large language models \(LLMs\).
 -   Configure translation for ServiceNow Otto.
 
-If you need to customize or adapt existing skills, you can use the AI Skill Kit to build, customize, and test generative AI skills that are tailored to your organization’s workflows. With features like a prompt editor, visual builder, and evaluation tools, it helps you fine-tune performance and ensure quality. It also integrates with the AI Data Kit and AI Guardian for testing and governance, making it a flexible and secure way to extend AI across the ServiceNow platform.
+If you need to customize or adapt existing skills, you can use the AI Skill Kit to build, customize, and test generative AI skills that are tailored to your organization's workflows. With features like a prompt editor, visual builder, and evaluation tools, it helps you fine-tune performance and ensure quality. It also integrates with the AI Data Kit and AI Guardian for testing and governance.
 
 For more information about these tools and features, see:
 
@@ -86,11 +86,11 @@ For more information about these tools and features, see:
 
 ## Agentic AI
 
-In an agentic AI system, autonomous agents perform complex tasks by reasoning, planning, and executing actions across multiple steps. These agents are not just reactive; they can break down goals, make decisions, and coordinate with other agents or systems to complete workflows. In AI Agent Studio, AI agents and agentic workflows are built to handle tasks such as resolving incidents, managing requests, or navigating service catalogs using generative AI and orchestration logic. For a list of available agentic workflows by product, see [Agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/sn-aia-use-cases-list.md).
+In an agentic AI system, autonomous agents perform complex tasks by reasoning, planning, and executing actions across multiple steps. These agents break down goals, coordinate with other agents or systems, and complete workflows across multiple steps. In AI Agent Studio, AI agents and agentic workflows are built to handle tasks such as resolving incidents, managing requests, or navigating service catalogs using generative AI and orchestration logic. For a list of available agentic workflows by product, see [Agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/sn-aia-use-cases-list.md).
 
 Use AI Agent Studio to perform the following tasks:
 
--   Build or modify AI agents and agentic workflows using intuitive list views and guided setup tools.
+-   Build or modify AI agents and agentic workflows using list views and guided setup tools.
 -   Simulate tasks and view execution logic to refine agent behavior.
 -   Access execution logs and version control to track performance and changes.
 -   Use the Settings page to enable AI Guardian for runtime safety, including detection of offensive content and prompt injection.
@@ -98,7 +98,7 @@ Use AI Agent Studio to perform the following tasks:
 
 The Model Context Protocol \(MCP\) client enables you to access the Model Context Protocol tools that are hosted externally and published using an MCP Server. MCP facilitates communication between an AI host application \(like AI Agent Studio\) and one or more MCP servers that expose specific capabilities such as tools.
 
-The MCP Server Console is a tool for administrators to set up and manage Model Context Protocol \(MCP\) servers. These servers provide AI applications with access to ServiceNow features like incident lookups, case summaries, and workflow actions. The console lets you choose which capabilities to make available, ensuring everything stays secure and compliant. Then, from an MCP client, users can request information from the server and automate functionality using the available tools and data that the server returns.
+The MCP Server Console is a tool for administrators to set up and manage Model Context Protocol \(MCP\) servers. These servers provide AI applications with access to ServiceNow features like incident lookups, case summaries, and workflow actions. The console lets you choose which capabilities to make available, so that everything stays secure and compliant. Then, from an MCP client, users can request information from the server and automate functionality using the available tools and data that the server returns.
 
 For more information about these tools, see:
 
@@ -112,9 +112,9 @@ For more information about these tools, see:
 
 ## Conversational AI engagement
 
-ServiceNow Otto for Virtual Agent acts as the conversational front door to your organization’s AI capabilities. It enables users to interact naturally with AI-powered assistants that understand intent, recommend actions, and deliver synthesized responses—all within familiar channels like the service portal, mobile app, and Microsoft Teams. This conversational layer connects users to a wide range of AI-powered resources, including AI agents, generative AI skills, catalog items, Virtual Agent topics, Q&amp;A Genius results from AI Search, and even custom subflows and actions.
+ServiceNow Otto for Virtual Agent is the primary conversational interface for your organization's AI capabilities. It enables users to interact naturally with AI-powered assistants that understand intent, recommend actions, and deliver synthesized responses—all within familiar channels like the service portal, mobile app, and Microsoft Teams. This conversational layer enables your users to communicate with AI and perform tasks and self-serve more easily. It connects users to a wide range of AI-powered resources, including AI agents, generative AI skills, catalog items, Virtual Agent topics, Q&amp;A Genius results from AI Search, and even custom subflows and actions.
 
-By integrating with the AI agent framework, Virtual Agent can discover and trigger agentic workflows that dynamically solve problems based on context. For example, a user might ask about ordering a device, and the system can invoke a multi-turn catalog ordering skill, refine the request, and complete the task, all in one conversation. Similarly, Q&amp;A Genius capabilities allow users to ask open-ended questions and receive actionable answers, links, or follow-up options, improving deflection rates and reducing the need for live agent intervention.
+By integrating with the AI agent framework, Virtual Agent can discover and trigger agentic workflows that dynamically solve problems based on context. For example, a user might ask about ordering a device, and the system can invoke a multi-turn catalog ordering skill, refine the request, and complete the task, within a single conversation. Similarly, Q&amp;A Genius capabilities allow users to ask open-ended questions and receive actionable answers, links, or follow-up options, to help reduce the need for live agent intervention.
 
 ServiceNow Otto for Virtual Agent also makes it easier to discover content without needing to know exact keywords. Users can search for and interact with catalog items, AI agents, and Virtual Agent topics using natural language. LLM topic discovery and Knowledge Graph slot-filling can return personalized responses and reduce repetitive questions.
 
@@ -134,7 +134,7 @@ You can also customize an assistant for the ServiceNow Otto panel. The panel is 
 
 For more information about these tools, see:
 
--   
+-   [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent-landing-page.md)
     -   [Assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/configure-now-assist-va.md)
     -   [Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/nava-enhanced-chat.md)
     -   [Premium chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/nava-integrated-chat.md)

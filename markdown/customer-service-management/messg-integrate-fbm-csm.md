@@ -22,7 +22,7 @@ As an administrator, if you have configured the Conversational Integration with 
 
 -   **Customer experience**
 
-    Initiate Facebook Messenger chat conversations with a virtual agent or live agent to search for articles in community posts and knowledge articles, access service catalogs, or create a customer service case.
+    Initiate Facebook Messenger chat conversations with a virtual agent or live agent. Search for articles in community posts and knowledge articles, access service catalogs, or create a customer service case.
 
 -   **Agent experience**
     -   View the Facebook Messenger chat conversation details from which the work item was initiated in Agent Workspace after accepting a work item associated with the Facebook Messenger service channel.
@@ -47,4 +47,6 @@ The following example workflow shows the use of the Conversational Integration w
 2.  The Customer Service Management application identifies the customer and starts an interaction of type **Messaging**.
 3.  The customer selects the router as a product and finds knowledge articles associated with it.
 4.  The customer ends the conversation because the issue was resolved with the help of a knowledge article.
+
+For configuration information, see [Configure Facebook Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/omnichannel-consumer-messaging-facebook-messenger.md).
 

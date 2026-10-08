@@ -40,7 +40,7 @@ The payment profile and billing schedule fields appear on the existing billing a
 **Related topics**  
 
 
-[billing-account-data-model]
+[Billing account data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/billing-account-data-model.md)
 
 [Billing accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/configuring-billing-accounts.md)
 

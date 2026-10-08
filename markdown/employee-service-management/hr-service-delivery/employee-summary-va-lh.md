@@ -54,5 +54,3 @@ Role required: admin
 
 **Parent Topic:**[Using Leader Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/hr-service-delivery/td-lh-using.md)
 
-**Parent Topic:**[Using Leader Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/hr-service-delivery/td-lh-using.md)
-

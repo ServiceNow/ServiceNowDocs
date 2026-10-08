@@ -7,7 +7,7 @@ release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use, Test Agent, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Use, Test Agent, Build, AI Workflow Factory, Building applications]
 ---
 
 # ATF test generation in Build Agent
@@ -44,4 +44,9 @@ The ATF test generation workflow follows this sequence:
     -   **No** — Skip test generation for this build
     -   **Remind me later** — Defer the decision until the next build
 5.  If you select **Yes** and after test generation completes, the Build Agent automatically executes the server-side tests. If the Run UI ATF tests setting is enabled, the client-side UI tests run automatically as well. You can also manually trigger UI tests at any time.
+
+-   **[Enable ATF test generation in Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/test-agent-enable-atf-test-gen-ba.md)**  
+Enable the Build Agent to generate Automated Test Framework \(ATF\) tests automatically when you build and install applications.
+
+**Parent Topic:**[Author, execute, and troubleshoot tests and test suites with Test Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/test-agent-use.md)
 

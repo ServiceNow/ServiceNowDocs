@@ -1,38 +1,39 @@
 ---
 title: Configure project type fields and layouts
-description: Define custom fields and a unique form layout to support configuration independence across different types of projects.
+description: Define custom fields, a unique form layout, and the visible modules to support configuration independence across different types of projects.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/project-workspace/configure-project-type-pw.html
 release: brazil
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 1
+last_updated: "2026-09-28"
+reading_time_minutes: 2
 keywords: [project type, dynamic category, custom form view, enterprise-wide deployment, EWD]
-breadcrumb: [Configuring Project Workspace, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Configuring project types in Project Workspace, Configuring Project Workspace, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Configure project type fields and layouts
 
-Define custom fields and a unique form layout to support configuration independence across different types of projects.
+Define custom fields, a unique form layout, and the visible modules to support configuration independence across different types of projects.
 
 ## Before you begin
 
+-   Install the SPM Enterprise-Wide Deployment application. For instructions, see [Install SPM Enterprise-Wide Deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/install-ewd.md).
 -   Identify the dynamic category that defines custom project records fields associated with project type.
 
     **Note:** If the dynamic category doesn't exist or to create a dedicated dynamic category for a project type, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configure-form-layout.md).
 
 -   Identify the form view that defines form layout for project records associated with project type.
 
-    **Note:** If the form view doesn't exist or you want to create a dedicated form view for a project type use the **Default SPM Dynamic Namespace** only when defining a dynamic category. For more details, see [Create a dynamic category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/create-dynamic-category.md).
+    **Note:** If the form view doesn't exist or you want to create a dedicated form view for a project type use the **Default SPM Dynamic Namespace** only when defining a dynamic category. For more details, see [Create a dynamic category for a project type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/create-dynamic-category-pw.md).
 
 
 Role required: pps\_admin
 
 ## About this task
 
-Each project type configuration consists of a dynamic category and a custom form view. The dynamic category defines the custom fields scoped to that project type. The custom form view defines the form layout rendered when that project type is assigned to a record. Custom fields don't appear on records of other project types and don't affect default fields.
+Each project type configuration consists of a dynamic category, a custom form view, and module visibility settings. The dynamic category defines the custom fields scoped to that project type. The custom form view defines the form layout rendered when that project type is assigned to a record. The module visibility settings define which modules appear in the Project Workspace menu for projects of that type. Custom fields don't appear on records of other project types and don't affect default fields.
 
 ## Procedure
 
@@ -44,12 +45,16 @@ Each project type configuration consists of a dynamic category and a custom form
 
     For a description of the field values, see [Project type form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/project-type-form-pw.md).
 
-4.  Select **Save** to create and save the project type configuration.
+4.  In the **Show modules** section, select the modules to show for projects of this type.
+
+    All modules are selected by default. Clear the check box for each module that you want to hide from the Project Workspace menu. Users still need the required role to access a shown module.
+
+5.  Select **Save** to create and save the project type configuration.
 
 
 ## Result
 
-The project type configuration is saved and activated. Project records assigned to a project type display the custom form view and associated fields. Records assigned to other project types aren't affected.
+The project type configuration is saved and activated. Project records assigned to a project type display the custom form view, associated fields, and selected modules. Records assigned to other project types aren't affected.
 
-**Parent Topic:**[Configuring Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/configure-pw.md)
+**Parent Topic:**[Configuring project types in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/configuring-project-types-pw.md)
 

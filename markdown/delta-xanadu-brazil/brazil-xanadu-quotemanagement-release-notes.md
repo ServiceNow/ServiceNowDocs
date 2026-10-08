@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-quotemanagement-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 10
+last_updated: "2026-10-08"
+reading_time_minutes: 13
 breadcrumb: [Products combined by family]
 ---
 
@@ -115,7 +115,16 @@ Yokohama
 
 </td><td>
 
--   **[Quote PDF documents generation](https://www.servicenow.com/docs/access?context=quote-create-pdf-document&family=yokohama&ft:locale=en-US)**
+-   **[Apply a sales agreement to a quote in Quote Management](https://www.servicenow.com/docs/access?context=quote-add-sales-agreement-quotes&family=yokohama&ft:locale=en-US)**
+
+Create a new sales agreement or apply an existing sales agreements to a quote. When a sales agreement is enabled in a quote, the products and services added to the quote are also added to a sales agreement. When an existing sales agreement is added to a new quote, the catalog is filtered to show the products and options from the sales agreement, the price list is set to the agreement price list, and the sales agreement line is referenced on quote line.
+
+-   **[View price adjustment details for a quote line item](https://www.servicenow.com/docs/access?context=view-price-adjustment-details-for-quote-lines&family=yokohama&ft:locale=en-US)**
+
+Agents gain visibility into the price adjustments that were applied to the base and list price of the product ordered. This provides sales agent the visibility of how the net price is determined.
+
+
+ -   **[Quote PDF documents generation](https://www.servicenow.com/docs/access?context=quote-create-pdf-document&family=yokohama&ft:locale=en-US)**
 
 Generate a quote PDF document. Quote PDF documents can have designated signers and be emailed to customers for signatures through Docusign. Customers can also create PDF templates that reflect customer branding and logos.
 
@@ -151,6 +160,20 @@ Create price and quantity ramps for product offerings in quotes to define increm
 Agents can also make manual price adjustments per segment. When a quote with ramps is converted to an order, ramps become read-only.
 
 
+ -   **[Quote header discount](https://www.servicenow.com/docs/access?context=add-header-discount-to-a-quote&family=zurich&ft:locale=en-US)**
+
+Added a quote header discount feature that enables sales agents to apply a discount across multiple quote lines at once. This simplifies the quoting process and ensures consistent discount application, thereby improving overall sales efficiency and customer satisfaction.
+
+
+ -   **[Subscription revenue metrics](https://www.servicenow.com/docs/access?context=som-subscription-pricing&family=zurich&ft:locale=en-US)**
+
+Provides sales agents better visibility of the entire quote cost and profit with the addition of Cost and Margin calculations to the following levels:
+
+    -   **Quote Header**: Total one-time cost, Total monthly cost, Total cost, Total one-time margin, Total monthly margin, Total margin amount, Total one-time margin %, Total monthly margin %, and Total margin %.
+    -   **Quote Line**: One-time cost, Monthly recurring cost, Cumulative one-time cost, Cumulative monthly cost, Cumulative margin %, and Cumulative Net Cost.
+The automated calculation rules introduced at Quote Header and Quote Line levels enable informed discounting decisions and help prevent unprofitable deals.
+
+
 </td></tr><tr><td>
 
 Australia
@@ -174,6 +197,40 @@ Improve pricing accuracy by letting the system automatically manage derived quot
     -   Updates existing derived lines when pricing conditions change.
     -   Removes derived lines that no longer apply.
     -   Restricts editing on system-generated lines to preserve pricing integrity.
+
+ -   **[Australia Patch 1](https://www.servicenow.com/docs/access?context=australia-patch-1&family=australia&ft:locale=en-US)[Summarize a quote using quote summarization with Now Assist](https://www.servicenow.com/docs/access?context=summarize-quote&family=australia&ft:locale=en-US)**
+
+Generate a summary of a quote to:
+
+    -   Summarize key quote components during early customer discussions or pre‑discovery.
+    -   Provide an updated view of the quote after revisions, without requiring review of multiple records.
+    -   Provide a single, consolidated snapshot of all actions, tasks, and notes derived from a quote in one place.
+    -   Highlight custom pricing, discounts, and negotiated changes made during the quoting process.
+    -   Review the quote prior to sending it to the customer to confirm accuracy and completeness.
+    -   Support internal handoffs by summarizing the quoted offer for internal teams.
+
+ -   **[Consolidate quotes](https://www.servicenow.com/docs/access?context=consolidate-quotes&family=australia&ft:locale=en-US)**
+
+Maintain traceability from orders to all originating contract lines when creating orders from consolidated quotes. Additional calculated fields on order lines provide visibility into uplift values derived from consolidation rules.
+
+-   **[Add price ramps on a quote line item](https://www.servicenow.com/docs/access?context=add-price-ramps-on-a-quote-line-item&family=australia&ft:locale=en-US)**
+
+Enable agents to create and manage custom ramp structures with flexible segment durations. Make ramp changes across the quote life cycle, including amendments and renewals, while maintaining pricing and quantity consistency across ramp segments.
+
+-   **[Quote approvals](https://www.servicenow.com/docs/access?context=explore-advanced-approval-for-sales&family=australia&ft:locale=en-US)**
+
+Use the Advanced Approval Management to create approval workflows for end-to-end visibility and control of quote approvals.
+
+    -   Track approval status, steps, sequencing, approvers, and comments in real time
+    -   Manage quote states and edit permissions automatically as quotes move through Draft, In Review, Approved, and Rejected states
+    -   Receive email notifications for approvers and requesters as approval actions are taken
+    -   Configure approval conditions and sequencing across quotes, quote lines, and related entities using serial, parallel, or hybrid flows driven by business and compliance rules
+    -   Preserve approval history across submissions and quote versions for a complete audit trail
+
+ -   **[Customer entities on Quote](https://www.servicenow.com/docs/access?context=quote-detail-form-fields&family=australia&ft:locale=en-US)**
+
+Capture the deal type \(Direct or Indirect deals\) and align it with different routes to market for consistency, compliance, and operational efficiency across systems and teams.
+
 
 </td></tr><tr><td>
 
@@ -415,6 +472,8 @@ To add Docusign plugin to the Quote Management PDF document function, use the Do
 Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
 
+**Important:** Quote Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Australia
@@ -425,6 +484,8 @@ Australia
 
 Install Quote Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
 
+
+**Important:** Quote Management is available in the ServiceNow Store. For details, see the Activation information section of these release notes.
 
 </td></tr><tr><td>
 

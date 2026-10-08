@@ -9,6 +9,7 @@ classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
+keywords: [approval rule, inbound intel, sharing profile, inbound intelligence]
 breadcrumb: [Exploring Inbound Intel Sharing, Configuring Threat Intelligence External Sharing, Administer, Threat Intelligence Security Center, Security Operations]
 ---
 

@@ -9,7 +9,7 @@ classification: policy-and-compliance-management
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Manually create issues, Manage issues, Classic UI, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Manually create issues, Manage issues, Classic UI, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Group similar issues under a new parent issue

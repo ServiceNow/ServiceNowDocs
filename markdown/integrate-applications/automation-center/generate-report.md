@@ -9,7 +9,7 @@ classification: automation-center
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Migrating automations from UiPath and Blue Prism to ServiceNow RPA Hub, Use, Automation Center, Workflow Data Fabric]
+breadcrumb: [Migrating automations from third-party applications, Use, Automation Center, Workflow Data Fabric]
 ---
 
 # Generate report
@@ -24,7 +24,7 @@ Role required: sn\_ac.automation\_business\_user, sn\_ac.automation\_technical\_
 
 1.  Navigate to **Workspaces** &gt; **Automation Center Workspace**.
 
-2.  Select the Migration accelerator icon \(\[Omitted image "mig-acc-icon.png"\] Alt text: Migration accelerator icon\) on the sidebar.
+2.  Select the Migration Accelerator icon \(\[Omitted image "mig-acc-icon.png"\] Alt text: Migration accelerator icon\) on the sidebar.
 
 3.  Select **Generate migration report**.
 
@@ -35,12 +35,12 @@ Role required: sn\_ac.automation\_business\_user, sn\_ac.automation\_technical\_
     -   Provide a report name.
     -   Select source details:
 
-        -   Select the source: UiPath or Blue Prism.
+        -   Select **UiPath**, **Blue Prism**, or **Automation Anywhere**.
 
-            **Note:** Repository URL us available only for UiPath. For Blue Prism you must upload a ZIP file.
+            **Note:** Repository URL is available only for UiPath. For Blue Prism and Automation Anywhere you must upload a ZIP file.
 
         -   **Repository URL** \(only if you select UiPath as the source\): This option enables you to get data from UiPath Orchestration. For information on using this option, see [Generate report using repository URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/automation-center/repo-url.md).
-        -   **Uplaod ZIP \(with XAML files\)**: This option enables you to upload a local ZIP with .xaml files and automations. For information on using this option, see [Generate a report using a ZIP file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/automation-center/zip-file.md).
+        -   **Upload ZIP \(with XAML files\)**: This option enables you to upload a local ZIP with .xaml files and automations. For information on using this option, see [Generate a report using a ZIP file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/automation-center/zip-file.md).
         **Note:** If the report generation takes longer than 300 seconds \(5 minutes\), it is marked as failed. This is controlled by a system property, `sn_ac.polling_timeout_migration_report`. A technical user \(with the role sn\_ac.automation\_technical\_user\) can make changes to the value of the system property.
 
 
@@ -49,5 +49,5 @@ Generate a migration report using the repository URL that has all the automation
 -   **[Generate a report using a ZIP file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/automation-center/zip-file.md)**  
 Generate a migration report using all the files that you have on your local system in a zip file.
 
-**Parent Topic:**[Migrating automations from UiPath and Blue Prism to ServiceNow RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/automation-center/migrating-automations-from-uipath.md)
+**Parent Topic:**[Migrating automations from third-party applications to RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/automation-center/migrating-automations-from-uipath.md)
 

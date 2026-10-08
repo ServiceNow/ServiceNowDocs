@@ -1,6 +1,6 @@
 ---
 title: Report an AI case from the Employee Center
-description: Report an AI case by providing a detailed description, such as system behavior, affected users, and relevant data. Include supporting attachments for prompt resolution.
+description: Report an AI case by describing the system behavior, affected users, and relevant data, and attach supporting files.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/ai-risk-management/report-ai-case.html
 release: brazil
@@ -15,7 +15,7 @@ breadcrumb: [Use, AI Risk and Compliance, Governance, Risk, and Compliance]
 
 # Report an AI case from the Employee Center
 
-Report an AI case by providing a detailed description, such as system behavior, affected users, and relevant data. Include supporting attachments for prompt resolution.
+Report an AI case by describing the system behavior, affected users, and relevant data, and attach supporting files.
 
 ## Before you begin
 
@@ -46,7 +46,11 @@ Role required: sn\_ai\_case\_mgmt.ai\_case\_business\_user
 
 The AI case is assigned to the AI Risk and Compliance team for review.
 
-An AI case passes through: New, Triage, Investigate, Resolve, Post case review, and Close states.
+An AI case passes through the New, Triage, Investigate, Resolve, Post case review, and Close states.
+
+**Tip:**
+
+Email notifications are automatically sent to case analysts and stakeholders when an AI case is created, updated, or reassigned. For more information on email notifications in AI Risk and Compliance, see [Email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/airc_email_notifications.md).
 
 ## What to do next
 

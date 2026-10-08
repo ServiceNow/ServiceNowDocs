@@ -171,15 +171,15 @@ If you’re using Software Asset Workspace, the option to create the Okta integr
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_fcx_4nx_qtb"><thead><tr><th align="left" id="d247756e572">
+<table id="choicetable_fcx_4nx_qtb"><thead><tr><th align="left" id="d248620e572">
 
 Interface
 
-</th><th align="left" id="d247756e575">
+</th><th align="left" id="d248620e575">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d247756e581">
+</th></tr></thead><tbody><tr><td id="d248620e581">
 
 **Core UI**
 
@@ -190,7 +190,7 @@ Action
 3.  Select **Okta Integration Profile**.
 
 
-</td></tr><tr><td id="d247756e623">
+</td></tr><tr><td id="d248620e623">
 
 **Software Asset Workspace**
 
@@ -294,15 +294,15 @@ Option for creating a direct integration profile to view Okta subscriptions afte
 
 5.  Open the Create Connection and Credential dialog box.
 
-<table id="choicetable_oww_kmj_lzb"><thead><tr><th align="left" id="d247756e1002">
+<table id="choicetable_oww_kmj_lzb"><thead><tr><th align="left" id="d248620e1002">
 
 Interface
 
-</th><th align="left" id="d247756e1005">
+</th><th align="left" id="d248620e1005">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d247756e1011">
+</th></tr></thead><tbody><tr><td id="d248620e1011">
 
 **Core UI**
 
@@ -310,7 +310,7 @@ Action
 
 Select the **Create New Connection &amp; Credential** related link on the SSO integration profile form.
 
-</td></tr><tr><td id="d247756e1023">
+</td></tr><tr><td id="d248620e1023">
 
 **Software Asset Workspace**
 

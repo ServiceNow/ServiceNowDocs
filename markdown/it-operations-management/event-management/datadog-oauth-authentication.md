@@ -7,8 +7,8 @@ release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-09-24"
-reading_time_minutes: 3
+last_updated: "2026-10-08"
+reading_time_minutes: 4
 breadcrumb: [Integrate Datadog platform events, Integrate with push connectors, Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
@@ -85,40 +85,76 @@ Datadog integration with OAuth authentication is available starting from the Was
         `https://<instance-name>.service-now.com/api/sn_em_connector/em/inbound_event?source=datadog`
 
     10. Select the OAuth Method created in the previous steps in AuthMethod dropdown.
-    11. Add in the following payload structure.
+    11. -   Add in the following payload structure for monitoring alerts.
 
-        ```
-        { 
-            "body": "$EVENT_MSG", 
-            "last_updated": "$LAST_UPDATED", 
-            "event_type": "$EVENT_TYPE", 
-            "title": "$EVENT_TITLE", 
-            "date": "$DATE", 
-            "org": { 
-                "id": "$ORG_ID", 
-                "name": "$ORG_NAME" 
-            }, 
-            "id": "$ID", 
-            "alert_id": "$ALERT_ID", 
-            "alert_metric": "$ALERT_METRIC", 
-            "metric_namespace": "$METRIC_NAMESPACE",
-            "alert_priority": "$ALERT_PRIORITY", 
-            "alert_transition": "$ALERT_TRANSITION", 
-            "alert_status": "$ALERT_STATUS", 
-            "alert_title": "$ALERT_TITLE", 
-            "alert_type": "$ALERT_TYPE", 
-            "host_name": "$HOSTNAME", 
-            "priority": "$PRIORITY", 
-            "tags": "$TAGS", 
-            "alert_scope": "$ALERT_SCOPE" 
-        }  
-        
-        ```
+    ```
+    { 
+        "body": "$EVENT_MSG", 
+        "last_updated": "$LAST_UPDATED", 
+        "event_type": "$EVENT_TYPE", 
+        "title": "$EVENT_TITLE", 
+        "date": "$DATE", 
+        "org": { 
+            "id": "$ORG_ID", 
+            "name": "$ORG_NAME" 
+        }, 
+        "id": "$ID", 
+        "alert_id": "$ALERT_ID", 
+        "alert_metric": "$ALERT_METRIC", 
+        "metric_namespace": "$METRIC_NAMESPACE",
+        "alert_priority": "$ALERT_PRIORITY", 
+        "alert_transition": "$ALERT_TRANSITION", 
+        "alert_status": "$ALERT_STATUS", 
+        "alert_title": "$ALERT_TITLE", 
+        "alert_type": "$ALERT_TYPE", 
+        "host_name": "$HOSTNAME", 
+        "priority": "$PRIORITY", 
+        "tags": "$TAGS", 
+        "alert_scope": "$ALERT_SCOPE" 
+    }  
+    
+    ```
+
+-   Add in the following payload structure for monitoring work items.
+
+    ```
+    {
+      "id": "$CASE_ID",
+      "type": "$CASE_TYPE",
+      "status": "$CASE_STATUS",
+      "priority": "$CASE_PRIORITY",
+      "title": "$EVENT_TITLE",
+      "body": "$EVENT_MSG",
+      "assignee": {
+        "id": "$CASE_ASSIGNEE_ID",
+        "name": "$CASE_ASSIGNEE_NAME",
+        "email": "$CASE_ASSIGNEE_EMAIL"
+      },
+      "attributes": $CASE_ATTRIBUTES,
+      "correlated_alerts": $CASE_CORRELATED_ALERTS,
+      "date_created": "$DATE",
+      "date_updated": "$LAST_UPDATED",
+      "tags": "$TAGS"
+    }
+    ```
+
+    ServiceNow auto-detects the case payload and represents it as a work Item alert \(message key `Datadog_Case_<case_id>`\).
 
 
 ## Result
 
 Alerts start flowing from Datadog agents into the Event Management plugin. The plugin extracts information from the original Datadog alert message to populate the required event fields and inserts the event into the database. In your ServiceNow AI Platform instance, navigate to All Events to see the events.
 
+For case or work items, while creating push connectors select the **Configure Work Item Alerts** button. You are redirected to the Datadog work Items pull connector instance form, where you configure related-alert fetch and bi-directional synchronization. For more information, see [Configure a Datadog work item connector instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/configure-a-datadog-work-item-connector.md).
+
 **Note:** By default, host binding is enabled for Datadog events for \(AWS/Azure/GCP\) providers. If all hosts in the environment are discovered using Cloud Discovery by providing credentials and discovered resources are in the cmdb\_ci\_vm\_object list, then the VM binding may not occur. To resolve this, you must enable the Datadog - General event rule. For further information about Event rules, see [Event rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/create-event-rules.md).
+
+Create a rule for case or work items that triggers on events such as created, priority changed, status changed, and closed. The rule then notifies your ServiceNow webhook.
+
+**Related topics**  
+
+
+[Configure a push connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/push-event-listener.md)
+
+[Configure a Datadog work item connector instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/configure-a-datadog-work-item-connector.md)
 

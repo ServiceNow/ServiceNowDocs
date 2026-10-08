@@ -8,7 +8,7 @@ product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
@@ -27,6 +27,8 @@ Perform these tasks as needed to manage hardware asset lifecycle and disposal op
 |[Create a disposal order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/create-disposal-order.md)|Create a disposal order to retire hardware assets that aren't functional or no longer in use.|
 |[Donate assets to charity organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/donate-asset-to-charity-organizations.md)|Donate retired hardware assets to registered charity organizations as part of your disposal process.|
 |[Manage asset bundles from your inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/create-bundled-assets.md)|Track, reserve, or deploy multiple assets together by creating asset bundles from your inventory.|
+|[Manage obligations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/manage-obligations-in-ham.md)|Create obligation records and tasks to define specific instructions required to fulfill a contract obligation.|
+|[Manage contract repository agentic workflow in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/manage-contract-repo-agent-flow-ham.md)|Extract metadata and obligations from signed contracts and set renewal or termination reminders automatically.|
 
 -   **[Request a Hardware Asset Refresh](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/hardware-asset-refresh.md)**  
 Use the Hardware Refresh request flow to track the aged hardware assets that are nearing the end of their life cycle. Replace them with new hardware assets.
@@ -40,6 +42,8 @@ Reclaim hardware assets efficiently and store them in the inventory, reassign, s
 Create a disposal order for hardware or consumable assets. You can create a disposal order for an asset reaching its end of life cycle or an asset that is no longer functional.
 -   **[Donate assets to charity organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/donate-asset-to-charity-organizations.md)**  
 Use the Asset Donation flow to donate hardware and consumable assets of your organization to charity organizations.
+-   **[Calculate the active lifecycle phase for a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/calculate-active-lifecycle-phase-ham.md)**  
+Recalculate the active life cycle phase for a hardware or consumable model without waiting for the scheduled daily job.
 -   **[Manage asset bundles from your inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/create-bundled-assets.md)**  
 Create asset bundles from existing assets in your inventory to track, reserve, or deploy a group of assets as a single entity.
 -   **[Manage obligations in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/manage-obligations-in-ham.md)**  

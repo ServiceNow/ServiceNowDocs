@@ -9,6 +9,7 @@ classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 6
+keywords: [Webhook Triggers, Webhooks Configurations, Create Update Delete events]
 breadcrumb: [Working with Webhooks, Administer, Threat Intelligence Security Center, Security Operations]
 ---
 
@@ -30,15 +31,15 @@ Role required: sn\_sec\_tisc.admin
 
 3.  Click **New**.
 
-<table id="choicetable_cfv_dkn_zbc"><thead><tr><th align="left" id="d45911e93">
+<table id="choicetable_cfv_dkn_zbc"><thead><tr><th align="left" id="d45763e101">
 
 Field
 
-</th><th align="left" id="d45911e96">
+</th><th align="left" id="d45763e104">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d45911e102">
+</th></tr></thead><tbody><tr><td id="d45763e110">
 
 **Name**
 
@@ -46,7 +47,7 @@ Description
 
 Enter a webhook trigger name.
 
-</td></tr><tr><td id="d45911e111">
+</td></tr><tr><td id="d45763e119">
 
 **Description**
 
@@ -54,7 +55,7 @@ Enter a webhook trigger name.
 
 Add the description of the webhook trigger.
 
-</td></tr><tr><td id="d45911e120">
+</td></tr><tr><td id="d45763e128">
 
 **Table**
 
@@ -62,7 +63,7 @@ Add the description of the webhook trigger.
 
 Select the table for the webhook trigger.
 
-</td></tr><tr><td id="d45911e129">
+</td></tr><tr><td id="d45763e137">
 
 **Trigger Type**
 
@@ -76,7 +77,7 @@ These are the list of fields on the record for which the update event needs to b
 
 **Delete**: If the **Trigger Type: Delete** then the Exclusion Fields is not visible.
 
-</td></tr><tr><td id="d45911e166">
+</td></tr><tr><td id="d45763e174">
 
 **Exclusion Fields**
 
@@ -84,7 +85,7 @@ These are the list of fields on the record for which the update event needs to b
 
 These are the set of fields which are excluded from the webhook trigger payload.
 
-</td></tr><tr><td id="d45911e175">
+</td></tr><tr><td id="d45763e183">
 
 **Filter Conditions**
 

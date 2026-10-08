@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-hermesmessagingservice-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 7
+last_updated: "2026-10-08"
+reading_time_minutes: 8
 breadcrumb: [Products combined by family]
 ---
 
@@ -143,6 +143,23 @@ Enable maintenance users and administrators to view and modify Hermes configurat
 -   **[Encryption at rest for Hermes topics](https://www.servicenow.com/docs/access?context=encryption-at-rest&family=australia&ft:locale=en-US)**
 
 Protect message data stored on broker disks by enabling encryption at rest on individual Hermes topics. Choose between ServiceNow-managed keys or customer-supplied keys using the Bring Your Own Key \(BYOK\) model.
+
+
+ -   **[Expanded topic limits in Hermes](https://www.servicenow.com/docs/access?context=exploring-hermes-messaging-service&family=australia&ft:locale=en-US)**
+
+Create more topics in Hermes with an increased topic limit. The total number of partitions across all topics can't exceed 960.
+
+-   **[Hermes Usage Dashboard improvements](https://www.servicenow.com/docs/access?context=monitoring-data-usage-hermes&family=australia&ft:locale=en-US)**
+
+View Hermes data usage by source, including the total number of bytes received and bytes sent over time, in the Hermes Usage Dashboard.
+
+-   **[Access restrictions by IP address](https://www.servicenow.com/docs/access?context=restricting-access-hermes-topics&family=australia&ft:locale=en-US)**
+
+Restrict access to Hermes by enabling IP address access control rules.
+
+-   **[View-only role](https://www.servicenow.com/docs/access?context=hermes-messaging-service-roles-4&family=australia&ft:locale=en-US)**
+
+Enable administrators to view topics and namespaces in Hermes by granting the hermes\_viewer role instead of the full admin role.
 
 
 </td></tr><tr><td>
@@ -414,7 +431,10 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **Activation information**
+
+Hermes is a ServiceNow AI Platform feature that is available with activation of the ServiceNow Stream Connect Installer \(com.glide.hub.stream\_connect.installer\) plugin or the installation of the Log Export Service application.
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -700,7 +720,12 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   Delivers asynchronous event streaming and messaging capabilities for enterprise workflows.
+-   Enables scalable message delivery across distributed systems with configurable retention policies.
+-   Provides comprehensive usage tracking and reporting for messaging operations.
+-   Supports integration with applications such as Instance Data Replication and Log Export Service.
+
+ See [Hermes Messaging Service](https://www.servicenow.com/docs/access?context=hermes-messaging-service&family=brazil&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-xanadu-brazil/rn-combined-intro.md)

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/access-limitations-for-ext-loc-agent.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-09-28"
 reading_time_minutes: 2
 breadcrumb: [External Organization as a fulfiller, Cases, Overview, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---

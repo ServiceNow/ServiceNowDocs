@@ -18,7 +18,7 @@ Enable the **sn\_itom\_pattern.discover\_aws\_app\_pool\_members** MID Server pr
 
 ## Before you begin
 
-Download the [Cloud Discovery patterns spreadsheet](https://downloads.docs.servicenow.com/resource/enus/api/servicenow-discovery-patterns-api-details.xlsx) so you can grant user permissions required for running the Amazon AWS - LB Pool Member\(LP\) pattern.
+Download the [Cloud Discovery patterns spreadsheet](https://downloads.docs.servicenow.com/resource/enus/api/servicenow-discovery-patterns-api-details.xlsx) so you can grant user permissions required for running the Discovery patterns.
 
 Role required: discovery\_admin
 

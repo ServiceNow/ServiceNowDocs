@@ -8,7 +8,7 @@ product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Portfolio plans in Strategic Planning, Explore, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
@@ -42,6 +42,16 @@ Each program plan includes four dedicated planning views:
 |Hierarchy|View hierarchical structure and relationships of planning items|Understand parent-child relationships, drill down into planning items, analyze program structure|
 |Capacity|Track team resource capacity and allocation|Monitor resource utilization, manage workload, identify constraints, plan allocation|
 |Financials|Track program budget, costs, and financial metrics|Monitor spend, forecast costs, manage program financial health|
+
+## Program plan features
+
+Program plans include the following features:
+
+-   Program details: Select the information icon in the program plan header to view the planning item types, the program start and end dates, and the program manager.
+-   Goals tab: The **Goals** tab is available on program plans. It shows the primary and non-primary goals linked to the planning items in the program plan, along with goals assigned directly to the program. Role required: sn\_apw\_advanced.spw\_goal\_user\_read.
+-   Program value on new items: When you create a planning item from a program plan, the **Program** field is set to that program automatically.
+-   Default Prioritization layout: Program plans use their own default column layout on the **Prioritization** tab. Changes to this layout do not affect other portfolio plans.
+-   Public views: You can create and update public views on a program plan without editor access to the plan.
 
 ## Program-scoped data
 

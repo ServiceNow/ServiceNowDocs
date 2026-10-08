@@ -21,7 +21,7 @@ Use the AI conversational experience in the Configuration Console to configure g
 
 -   The Software Asset Management application must be installed on your ServiceNow instance. For details, see [Install Software Asset Management from the Product Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/install-sam-product-hub.md).
 -   The ServiceNow Otto for Software Asset Management \(SAM\) application must be installed on your ServiceNow instance. For details, see [Install ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/install-now-assist-sam.md).
--   The ServiceNow Otto panel must be enabled on your ServiceNow instance. For details, see [Enable the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-center-enable-now-assist-panel.md).
+-   The ServiceNow Otto panel must be enabled on your ServiceNow instance. For details, see [Enable the ServiceNow Otto panel \(Next Experience UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-center-enable-now-assist-panel.md).
 -   AI Search must be activated on your ServiceNow instance. For details, see the AI Search activation steps in [Install ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/install-now-assist-sam.md).
 
 Role required: admin
@@ -53,15 +53,15 @@ Groups organize the users that are responsible for day-to-day Software Asset Man
     -   To view all available options, including groups, users, and roles, select **Choose something else**.
 6.  Follow the prompts in the panel based on your selection in the previous step.
 
-<table id="choicetable_follow_prompts"><thead><tr><th align="left" id="d268511e250">
+<table id="choicetable_follow_prompts"><thead><tr><th align="left" id="d269385e250">
 
 If you selected
 
-</th><th align="left" id="d268511e253">
+</th><th align="left" id="d269385e253">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d268511e259">
+</th></tr></thead><tbody><tr><td id="d269385e259">
 
 **__Start with Assignment groups \(Team management\)__**
 
@@ -74,7 +74,7 @@ Select one of the following options or enter a natural-language prompt: -   **As
 -   **Search by Org Chart**
 
 
-</td></tr><tr><td id="d268511e292">
+</td></tr><tr><td id="d269385e292">
 
 **__Choose something else__**
 

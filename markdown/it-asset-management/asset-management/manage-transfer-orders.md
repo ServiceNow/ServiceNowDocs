@@ -16,14 +16,14 @@ breadcrumb: [Use, Base Asset Management, Common applications, Asset Management]
 
 Manage the asset movement from one stockroom to the other using transfer order.
 
-The Asset Management application enables asset managers to create transfer orders for moving assets between company stockrooms.
+The Base Asset Management application enables asset managers to create transfer orders for moving assets between company stockrooms.
 
 Consumable assets and non-consumable assets can be transferred as follows:
 
 -   If an asset is consumable, it can be transferred and the quantity can be greater than one. Consumable parts are tracked by the system qualitatively.
 -   If an asset is non-consumable, it must be transferred as a single entity with a quantity of one. Non-consumable parts correspond to assets defined in the system.
 
-**Important:** In the Asset Management application, the Transfer Order Line workflow manages the processing of transfer order lines. If your ServiceNow instance has the following plugins activated, the transfer order lines are processed using a workflow, depending on the plugin installed.
+**Important:** In the Base Asset Management application, the Transfer Order Line workflow manages the processing of transfer order lines. If your ServiceNow instance has the following plugins activated, the transfer order lines are processed using a workflow, depending on the plugin installed.
 
 -   If the Service Management Core plugin is activated, the Transfer Order Line SM core workflow manages the processing of the transfer order lines.
 -   If the Field Service Management plugin \(com.snc.work\_management\) is activated, the Transfer Order Line SMCore workflow manages the processing of the transfer order lines.
@@ -40,7 +40,7 @@ Transfer Order Lines is a new module under Inventory with Template Tasks and Tem
 
 When you create a transfer order line, based on the model category specified in the asset, a transfer order line task is automatically created. Transfer order line tasks are created to move transfer order lines from one stage to the other. Transfer order line tasks also help you to track service levels and the time frame needed to complete a transfer order.
 
-Default template tasks are available with the Asset Management application. The template tasks are based on model categories. Default template tasks cannot be deleted or modified. If required, you can also create your own customized template tasks. For more information, see [Create a customized template task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-management/create-customized-template-task.md). When you create a transfer order line and select an asset, that asset corresponds to a model category. If a customized template task exists for that model category then that template task is added to the transfer order line as a transfer order line task. If no customized template task match is found for the asset you selected, then the default template task is added as a transfer order line task.
+Default template tasks are available with the Base Asset Management application. The template tasks are based on model categories. Default template tasks cannot be deleted or modified. If required, you can also create your own customized template tasks. For more information, see [Create a customized template task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-management/create-customized-template-task.md). When you create a transfer order line and select an asset, that asset corresponds to a model category. If a customized template task exists for that model category then that template task is added to the transfer order line as a transfer order line task. If no customized template task match is found for the asset you selected, then the default template task is added as a transfer order line task.
 
 Closing a transfer order line task completes the task and creates the next task in the process. For example, once you close the Ready for fulfillment task, the state for this task appears as **Closed Complete** and a new task is opened for the next stage, Ready for Shipment. This process continues till you close all the tasks required for completing the transfer order line. As you close a task and as a task moves from one stage to the next, the asset gets automatically updated too. For example, when the transfer order line moves from Ready to Fulfillment to Prepare for Shipment, the asset's status also moves from available to reserved.
 
@@ -65,7 +65,7 @@ Transfer assets from one location to the other by moving the assets through the 
 -   **[Transfer order line asset tracking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-management/r_TransferOrderLineAssetTracking.md)**  
 As transfer order line actions are triggered, the stock information and states of any affected assets are updated. Consumables and non-consumables are tracked differently.
 
-**Parent Topic:**[Using Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-management/using-asset-management.md)
+**Parent Topic:**[Using Base Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-management/using-asset-management.md)
 
 **Related topics**  
 

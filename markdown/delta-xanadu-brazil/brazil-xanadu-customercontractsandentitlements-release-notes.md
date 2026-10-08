@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-customercontractsandentitlements-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 10
+last_updated: "2026-10-08"
+reading_time_minutes: 11
 breadcrumb: [Products combined by family]
 ---
 
@@ -177,6 +177,26 @@ Renew customer contracts outside the standard renewal cycle. You can perform ear
 Swap an existing subscribed product or service with another product, either partially or fully.
 
 
+ -   **[Renew a service contract](https://www.servicenow.com/docs/access?context=cce-renew-service-contract&family=zurich&ft:locale=en-US)**
+
+Initiate renewals from contracts at either the line level or the contract level. The resulting renewal quotes and orders generate a new contract that is associated with the original contract in the renewal history.
+
+
+ -   **[Add contract lines to a service contract](https://www.servicenow.com/docs/access?context=cce-add-contract-lines&family=zurich&ft:locale=en-US)**
+
+Add new line items to an existing contract by initiating the flow from contract. You can also add new line items to an existing contract while modifying a quote or contract.
+
+
+ -   **[Modify a service contract](https://www.servicenow.com/docs/access?context=cce-modify-service-contract&family=zurich&ft:locale=en-US)**
+
+Initiate a modification from the contract header to generate a quote or order containing all contract lines. You can also select specific contract lines and initiate a modification, resulting in a quote or order that includes only the selected lines.
+
+
+ -   **[Upsell or Downsell a service contract line](https://www.servicenow.com/docs/access?context=cce-upsell-downsell-service-contract&family=zurich&ft:locale=en-US)**
+
+Select one or more root contract lines to adjust quantities. You can add or reduce quantities on a contract line by selecting the Upsell or Downsell feature. After updating the quantities of the contract lines, a single quote or order is generated with the updated quote lines.
+
+
 </td></tr><tr><td>
 
 Australia
@@ -210,7 +230,18 @@ Brazil
 
 </td><td>
 
--   **Support ServiceNow® Quote Experience for Contracts and Entitlements**
+-   **[Contracts and entitlements for buyer organizations](https://www.servicenow.com/docs/access?context=service-contract-form&family=brazil&ft:locale=en-US)**
+
+Enable users to create contracts and entitlements for buyer organizations, in addition to accounts and consumers. When an order fulfilled for a buyer organization is processed to a contract or entitlement, the buyer organization information is updated in contracts and entitlements automatically.
+
+-   **[Enhancements in Renewal workflows](https://www.servicenow.com/docs/access?context=cce-renew-service-contract-line&family=brazil&ft:locale=en-US)**
+
+Following enhancements have been made in the renewal workflow:
+
+    -   If a customer contract or customer contract line is terminated before its end date, it is excluded from the renewal workflow.
+    -   If a contract line is terminated before its end date, then the renewal quote line for that contract line is deleted.
+
+ -   **Support ServiceNow® Quote Experience for Contracts and Entitlements**
 
 Open quotes created from Customer Contracts and Entitlements lifecycle workflows in the ServiceNow® Quote Experience. Activating the Quote Experience plugin provides you a unified experience for creating, pricing, approving, and quote completion in a single interface. Quotes generated from contract renewal and amendment workflows in ServiceNow® Quote Experience maintains consistent workflows, pricing logic, and governance.
 
@@ -414,6 +445,8 @@ Customer Contracts and Entitlements is available with activation of the Customer
 **Note:** With the activation of Customer Contracts and Entitlements, new contracts and entitlements are created using the new data model only. The new entitlement verification APIs and change workflows are based on the new data model. Older contracts and entitlements can still be viewed but not modified.
 
 
+**Important:** Customer Contracts and Entitlements is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Zurich
@@ -429,6 +462,8 @@ Customer Contracts and Entitlements is available with activation of the Customer
 **Note:** With the activation of Customer Contracts and Entitlements, new contracts and entitlements are created using the new data model only. The new entitlement verification APIs and change workflows are based on the new data model. Older contracts and entitlements can still be viewed but not modified.
 
 
+**Important:** Customer Contracts and Entitlements is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Australia
@@ -439,6 +474,8 @@ Australia
 
 Customer Contracts and Entitlements is a ServiceNow AI Platform feature that is available with activation of the \(com.sn\_pss\_core\) plugin, which requires a separate subscription. For details, see [Post-Sales Support](https://www.servicenow.com/docs/access?context=configuring-post-sales-support&family=australia&ft:locale=en-US).
 
+
+**Important:** Customer Contracts and Entitlements is available in the ServiceNow Store. For details, see the Activation information section of these release notes.
 
 </td></tr><tr><td>
 

@@ -9,7 +9,7 @@ classification: servicenow-studio-classic
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Use, ServiceNow Studio, Developing your application, Building applications]
+breadcrumb: [Use, ServiceNow Studio, Build, AI Workflow Factory, Building applications]
 ---
 
 # Metadata record categories in the ServiceNow Studio Navigator

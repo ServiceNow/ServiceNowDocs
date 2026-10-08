@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-eventmanagement-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 12
+last_updated: "2026-10-08"
+reading_time_minutes: 19
 breadcrumb: [Products combined by family]
 ---
 
@@ -158,9 +158,27 @@ Yokohama
 
 </td><td>
 
--   **[View links between alerts in network traffic-based alert groups](https://www.servicenow.com/docs/access?context=el-network-traffic-based-link-view&family=yokohama&ft:locale=en-US)**
+-   **[\[Placeholder link text to key esc-notify-alert-sow-itom\]](https://www.servicenow.com/docs/access?context=esc-notify-alert-sow-itom&family=yokohama&ft:locale=en-US)**
+
+Starting in version 26.7.0, execute response subflows automatically, manually, or both for alerts that match specific conditions through the Run Other Response Actions option of Respond Automatic. This enhancement offers better control over automated responses with configurable execution limits and multiple response actions.
+
+-   **[\[Placeholder link text to key enrich-alert-sow-itom\]](https://www.servicenow.com/docs/access?context=enrich-alert-sow-itom&family=yokohama&ft:locale=en-US)**
+
+Starting in version 26.7.0, link a CI to an alert for more accurate IT component mapping though the Improve Configuration Item \(CI identification option of Enrich Automation. This enhancement improves alert visibility, speeds up issue resolution, and ensures better correlation between alerts and infrastructure components.
+
+
+ -   **[View links between alerts in network traffic-based alert groups](https://www.servicenow.com/docs/access?context=el-network-traffic-based-link-view&family=yokohama&ft:locale=en-US)**
 
 Once a network traffic correlation is enabled, investigate network traffic alert group details and visualize connections through Link View in Express List®.
+
+
+ -   **[Group alerts using network traffic-based grouping](https://www.servicenow.com/docs/access?context=network-traffic-correlation-grouping&family=yokohama&ft:locale=en-US)**
+
+Group alerts efficiently with network traffic-based alert grouping, which uses discovered TCP connections with ML Service Mapping to correlate alerts on host CIs that have network traffic connections between them.
+
+-   **[New role for team level operators](https://www.servicenow.com/docs/access?context=r_InstalledWithEventManagement&family=yokohama&ft:locale=en-US)**
+
+Enhance team-level control over alert management with the evt\_team\_operator role. This role enables operators to manage Event Management operations within their assigned team, including reading and writing alerts, making configuration changes,updating Alert Automation, and setting up new integrations in the Integrations Launchpad.
 
 
 </td></tr><tr><td>
@@ -169,7 +187,56 @@ Zurich
 
 </td><td>
 
--   **[View links between alerts in new alert groups in Express List®](https://www.servicenow.com/docs/access?context=el-link-view&family=zurich&ft:locale=en-US).**
+-   **[Centralized management with the ITOM AIOps configuration center](https://www.servicenow.com/docs/access?context=itom-aiops-conf-center&family=zurich&ft:locale=en-US)**
+
+Starting in version 26.11.0, the ITOM AIOps configuration center provides a centralized hub to manage AIOps settings, helping you integrate monitoring tools, optimize alerts, metrics, and logs, and manage services, dashboards, teams, and authorizations for improved visibility and operational efficiency.
+
+-   **[Added Recommended category for AIOps 360 Overview dashboards](https://www.servicenow.com/docs/access?context=aiops-360-overview-dashboard&family=zurich&ft:locale=en-US)**
+
+Starting in version 26.11.0, added a Recommended category to all officially released dashboards, such as the AIOps 360 Overview dashboard and the AIOps Value Realization dashboard. The category helps you easily identify and access ITOM-approved dashboards.
+
+-   **[Add a delay for incident creation from alerts](https://www.servicenow.com/docs/access?context=esc-notify-alert-sow-itom&family=zurich&ft:locale=en-US)**
+
+Starting in version 26.11.0, you can add a delay in Respond Automation before incidents are created from alerts. This enables alerts to auto-close if resolved, and it helps to reduce unnecessary incident creation.
+
+-   **[Added support for multiple subscriptions of AWS account](https://www.servicenow.com/docs/access?context=aws-events-transform-script&family=zurich&ft:locale=en-US)**
+
+Starting in version 2.17.1, added support to enable multiple member accounts to forward CloudWatch/EventBridge events to a centralized account, where a single SNS topic delivers them to the ServiceNow Event Ingestion endpoint. This reduces manual setup from multiple configurations to one and cuts onboarding effort by up to 90%.
+
+-   **[Configure Dynatrace metric connector from Integrations Launchpad](https://www.servicenow.com/docs/access?context=configure-dynatrace-metric-pull-connector&family=zurich&ft:locale=en-US)**
+
+Starting in version 2.17.1, you can use the Dynatrace metric connector from the Integrations Launchpad to bring metrics from Dynatrace into ServiceNow Metric Intelligence for visualization, enrichment, dynamic thresholds, and anomaly detection.
+
+-   **[\[Placeholder link text to key configure-datadog-connector\]](https://www.servicenow.com/docs/access?context=configure-datadog-connector&family=zurich&ft:locale=en-US)**
+
+Starting in version 2.17.1, you can use the out-of-the-box Datadog metric connector to integrate Datadog metrics with ServiceNow Metric Intelligence, enabling anomaly detection, metric visualization, enrichment, and correlation of metric anomalies with events and log alerts.
+
+-   **[\[Placeholder link text to key configure-kafka-metrics-connector\]](https://www.servicenow.com/docs/access?context=configure-kafka-metrics-connector&family=zurich&ft:locale=en-US)**
+
+Starting in version 2.17.1, you can use the new Kafka connector to stream time-series metric data from Kafka topics into ServiceNow Metric Intelligence for real-time monitoring, anomaly detection, and alerting.
+
+-   **ITOM [\[Placeholder link text to key c\_EM\]](https://www.servicenow.com/docs/access?context=c_EM&family=zurich&ft:locale=en-US) guided setup**
+
+Starting in 27.2.1, introduced ITOM Event Management guided setup, providing a sequence of tasks that help you install and get started with Event Management efficiently.
+
+-   **[Live updates functionality has been updated in the Service Operation Workspace Lists.](https://www.servicenow.com/docs/access?context=configure-alert-list-autofresh-settings&family=zurich&ft:locale=en-US)**
+
+Starting in version 26.11.0, a new toggle switch allows users to enable or disable live updates. When the toggle is set to on, alerts are updated automatically. When the toggle is set to off, a badge displays the number of available updates until the page is refreshed manually. The setting is saved for future logins by the same user.
+
+-   **[Explore the new Dependency view for an alert](https://www.servicenow.com/docs/access?context=dependency-maps&family=zurich&ft:locale=en-US)**
+
+Starting in version 26.11.0, explore the new Dependency view for an alert. Access maps from the following locations:
+
+    -   in the preview panel, in the Configuration item section for the CI topology
+    -   in the Utilities panel of the alert record
+    -   in the action drop-down menu
+    -   in the Core UI alert form
+-   **[Respond to multiple alerts in Express List](https://www.servicenow.com/docs/access?context=bulk-alert-response-express-list&family=zurich&ft:locale=en-US)**
+
+Starting in version 26.11.0, run response actions on multiple alerts at the same time in Express List.
+
+
+ -   **[View links between alerts in new alert groups in Express List®](https://www.servicenow.com/docs/access?context=el-link-view&family=zurich&ft:locale=en-US).**
 
 Starting in version 26.9.0, investigate alert group details and visualize connections through Link View in Express List®, now available for log analytics-based alert groups and mixed alert groups.
 
@@ -180,6 +247,27 @@ Starting in version 26.9.0, review visualizations for anomaly information in log
 -   **[Configure new property for automatic resume of the live list updates following a pause, and conﬁgure time ranges in Express List®](https://www.servicenow.com/docs/access?context=express-list&family=zurich&ft:locale=en-US)**
 
 Starting in version 26.9.0, admins gain the ability to conﬁgure the amount of time until the live list updates resume, after being paused in Express List®. Admins are also able to customize the time range options displayed in Express List®, such as the default time range.
+
+
+ -   **[Mixed alert grouping](https://www.servicenow.com/docs/access?context=alert-group-use-cases&family=zurich&ft:locale=en-US)**
+
+Combine CMDB-based and tag-based alert grouping strategies into cohesive groups that reduce noise, enabling faster and more effective response.
+
+-   **[AIOps 360 overview dashboard](https://www.servicenow.com/docs/access?context=aiops-360-overview-dashboard&family=zurich&ft:locale=en-US)**
+
+Gain actionable insights with a 360-degree dashboard that showcases product value, tracks operational efficiency, and highlights automation impact. Monitor alert handling, service health, and AIOps outcomes to drive smarter, faster decisions across IT operations.
+
+-   **[Mixed alert grouping in Service Operations Workspace](https://www.servicenow.com/docs/access?context=group-alert-sow-itom&family=zurich&ft:locale=en-US)**
+
+Choose how you want to group alerts from the **Criteria Type** field. Use the **Related CIs** option to combine CMDB-based and tag-based alert grouping.
+
+-   **[Application services for impact calculation](https://www.servicenow.com/docs/access?context=c_EMImpactCalculation&family=zurich&ft:locale=en-US)**
+
+Filter the application services to be considered in impact calculation for focused and accurate results.
+
+-   **[Metric connector in Integrations Launchpad](https://www.servicenow.com/docs/access?context=configure-metric-pull-connector&family=zurich&ft:locale=en-US)**
+
+Configure metric pull connectors to automate data retrieval and seamlessly integrate external metrics for efficient monitoring.
 
 
 </td></tr><tr><td>
@@ -258,7 +346,26 @@ Zurich
 
 </td><td>
 
--   **Coral theme**
+-   **[Support for OAuth authentication method in Kafka connector](https://www.servicenow.com/docs/access?context=configure-kafka-consumer-connector&family=zurich&ft:locale=en-US)**
+
+Starting in version 2.17.1, you can use OAuth authentication with the Kafka connector, enabling you to securely connect and manage access without storing or sharing static credentials.
+
+-   **[Support for SCOM 2025 version](https://www.servicenow.com/docs/access?context=t_EMConfigureSCOMConnector&family=zurich&ft:locale=en-US)**
+
+Starting in version 2.17.1, you can now check SCOM 2025 compatibility with the current code, ensuring that the connector setup, alert collection, and Metric Intelligence data ingestion work seamlessly with the latest SCOM release. This helps maintain integration reliability, reduces configuration errors, and ensures smooth upgrade readiness.
+
+-   **[Group automation enhancements](https://www.servicenow.com/docs/access?context=group-alert-sow-itom&family=zurich&ft:locale=en-US)**
+
+Starting in version 26.11.0, group automation now supports grouping by impacted service instances and related log properties, with enhanced test automation details for better visibility. These updates enable more effective analysis of alert correlations and more accurate validation of grouping logic.
+
+The updated Test Automation section provides detailed insights into alert groups, including total alerts, description, grouping category, node, and time, with support for sorting by grouping type.
+
+-   **[Validate CI identification in Enrich automation](https://www.servicenow.com/docs/access?context=enrich-alert-sow-itom&family=zurich&ft:locale=en-US)**
+
+Starting in version 26.11.0, you can ensure CI attributes are present in the **Additional info** field of the alert for accurate matching and test CI identification on sample events.
+
+
+ -   **Coral theme**
 
 Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
 
@@ -392,7 +499,9 @@ Zurich
 
 </td><td>
 
--   Event Management connector: Deprecate unused V1 connector definitions during Event Management connector upgrades.
+-   The "em\_alert\_lists\_auto\_refresh" table no longer controls live alert list updates in the Service Operation Workspace Lists. Use the new property, table sys\_ux\_list, to turn on and off live incoming alert updates.
+
+ -   Event Management connector: Deprecate unused V1 connector definitions during Event Management connector upgrades.
 -   vRealize connector: Enhance the vRealize event connector by replacing the deprecated XML API with a JSON-based API, ensuring compatibility with future versions.
 
 </td></tr><tr><td>
@@ -455,6 +564,8 @@ Zurich
 Event Management is available with activation of the Event Management plugin \(com.glideapp.itom.snac\). For details, see [Request Event Management](https://www.servicenow.com/docs/access?context=t_EMActivatePlugin&family=zurich&ft:locale=en-US).
 
 
+**Important:** Event Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Australia
@@ -466,13 +577,20 @@ Australia
 Event Management is available with activation of the Event Management plugin \(com.glideapp.itom.snac\). For details, see [Request Event Management](https://www.servicenow.com/docs/access?context=t_EMActivatePlugin&family=australia&ft:locale=en-US).
 
 
+**Important:** Event Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Brazil
 
 </td><td>
 
-No updates for this release.
+-   **Activation information**
+
+Install Event Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=brazil&ft:locale=en-US).
+
+
+**Note:** Event Management is available in the ServiceNow Store. For details, see the following activation information.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -684,7 +802,10 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **Localization information**
+
+The current available languages for Event Management are US English, UK English, French, German, Italian, Japanese, and Spanish. The default language is US English.
+
 
 </td></tr></tbody>
 </table>## Highlight information
@@ -782,7 +903,14 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   Cut through alert noise with automatic deduplication and filtering.
+-   Focus on what matters by prioritizing alerts based on business impact.
+-   Resolve issues faster by correlating related events into actionable alerts.
+-   See the full picture with CI and service context on every alert.
+-   Accelerate response with built-in playbooks and remediation actions.
+-   Reduce manual effort by automating alert handling with ServiceNow Otto for ITOM.
+
+ See [Event Management](https://www.servicenow.com/docs/access?context=c_EM&family=brazil&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-xanadu-brazil/rn-combined-intro.md)

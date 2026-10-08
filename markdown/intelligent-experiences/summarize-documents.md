@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/summarize-documents.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [Content insights AI agent, Use, Content Understanding, Generative AI skills, Enable AI Experiences]
 ---
@@ -65,6 +65,4 @@ With an attachment sys\_id:
 
 -   `"Write a summary of the attachment with sys_id ABC123."`
 -   `"Give me a summary of attachment sys_id 12234 from table incident."`
-
-**Parent Topic:**[Use Content insights AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/use-content-insights-ai-agent.md)
 

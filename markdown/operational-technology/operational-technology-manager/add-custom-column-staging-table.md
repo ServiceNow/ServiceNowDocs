@@ -1,6 +1,6 @@
 ---
 title: Add a custom column to the staging table
-description: Add a custom column to the SG OT Excel Stagings table to store an additional value imported from the Microsoft Excel spreadsheet.
+description: Add a custom column to the SG OT Excel Stagings \(sg\_ot\_excel\_staging\) table to store an additional value imported from the Microsoft Excel spreadsheet.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-manager/add-custom-column-staging-table.html
 release: brazil
@@ -15,7 +15,7 @@ breadcrumb: [Configuring the Service Graph Connector for Microsoft Excel, Servic
 
 # Add a custom column to the staging table
 
-Add a custom column to the SG OT Excel Stagings table to store an additional value imported from the Microsoft Excel spreadsheet.
+Add a custom column to the SG OT Excel Stagings \(sg\_ot\_excel\_staging\) table to store an additional value imported from the Microsoft Excel spreadsheet.
 
 ## Before you begin
 
@@ -29,7 +29,7 @@ Role required: ot\_excel\_import\_user
 
     2.  Find and select the **SG OT Excel Staging** table record.
 
-        **Tip:** Use the filter conditions to help you locate the SG OT Excel Staging table record. For example, you can set a filter of **\[Label\] \[contains\] \[SG OT Excel\]**.
+        **Note:** Use the filter conditions to help you locate the SG OT Excel Staging table record. For example, you can set a filter of **\[Label\] \[contains\] \[SG OT Excel\]**.
 
     3.  On the **Columns** tab, select **New**.
 
@@ -47,7 +47,7 @@ Role required: ot\_excel\_import\_user
 
     After refreshing the SG OT Excel Staging table record, the new column appears under the **Columns** tab.
 
-2.  Add the column to the SG OT Excel Stagings table.
+2.  Add the column to the SG OT Excel Stagings list view.
 
     1.  Open the **SG OT Excel Stagings** table by navigating to **All**.
 
@@ -74,12 +74,12 @@ Add a matching column to the SG-OT Excel Staging Import \[sn\_otsm\_sgc\_sg\_ot\
 Add a column to the SG-OT Excel Pre Import table that matches the custom column on the staging table, giving the imported value a source field for mapping.
 -   **[Map the custom field in the transform map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/map-custom-field-transform.md)**  
 Map the custom source field on the pre-import table to the target field on the staging table so the imported value transforms into the correct staging column.
--   **[Update the column mapping script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/update-column-mapping-script-sgc-excel.md)**  
-Update the column mapping script with the custom column.
 -   **[Complete the custom column import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/complete-custom-column-import-sgc-excel.md)**  
 Upload an updated Microsoft Excel spreadsheet to populate the custom column and complete the import.
--   **[Complete the RTE mapping for ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/complete-rte-mapping-etl-sgc-excel.md)**  
-Complete the Robust Transform Engine \(RTE\) mapping for the Extract Transform Load \(ETL\) so that the ETL process knows how to transform the custom column records.
+-   **[Update the column mapping script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/update-column-mapping-script-sgc-excel.md)**  
+To transfer the custom column data to the Configuration Management Database \(CMDB\), update the column mapping script to add the corresponding entry to the **importSetColumnsVsStagingColumnsMap** object.
+-   **[Configure the RTE mapping for ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/complete-rte-mapping-etl-sgc-excel.md)**  
+Configure the Robust Transform Engine \(RTE\) mapping for the Extract Transform Load \(ETL\). The ETL process transfers custom column data from the import set to the target Configuration Management Database \(CMDB\) class.
 
 **Parent Topic:**[Configuring the Service Graph Connector for Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/configuring-service-graph-connector-for-excel.md)
 

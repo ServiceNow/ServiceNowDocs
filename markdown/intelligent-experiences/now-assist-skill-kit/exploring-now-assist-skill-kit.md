@@ -18,7 +18,7 @@ Use the AI Skill Kit plugin for ServiceNow Otto to create and activate custom pr
 
 ## AI Skill Kit overview
 
-Use AI Skill Kit to create custom skills when base system Otto skills don't fit your needs. Custom skills enable you to have greater flexibility with Otto's generative AI capabilities.
+Use AI Skill Kit to create custom skills when base system Otto skills don't fit your needs. Custom skills give you greater flexibility with Otto's generative AI capabilities.
 
 ## Before you build a custom skill
 
@@ -30,7 +30,7 @@ Before you begin, you should understand:
 -   How to write, test, and refine a prompt based on the output it produces, rather than on how you expect the model to interpret your wording.
 -   The use case you want to solve and the persona you're building the skill for.
 
-Effective skill development depends on testing the prompt against representative data from your instance and refining it based on the results, not on a single example. For the full set of guidelines and the phases of building a skill, see [General guidelines for AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skill-kit/na-skill-kit-guidelines.md). For help defining requirements and outcomes before you build, see [Scoping the skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skill-kit/scoping-the-skill.md).
+Effective skill development depends on testing the prompt against representative data from your instance and refining it based on the results, not on a single example. For the full set of guidelines and the phases of building a skill, see [General guidelines for AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skill-kit/na-skill-kit-guidelines.md). For help defining requirements and outcomes before you build, see [Skill scoping guidelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skill-kit/scoping-the-skill.md).
 
 ## Get AI Skill Kit
 
@@ -65,12 +65,12 @@ The following diagram shows the user journey for AI Skill Kit.
 
 -   **Deploy the skill**
 
-    AI Skill Kit enables you to deploy your skill to ServiceNow Otto panel, ServiceNow Otto Context Menu, Virtual Agent, Flow Action, or a UI Action.
+    AI Skill Kit enables you to deploy your skill to the ServiceNow Otto panel, ServiceNow Otto Context Menu, Virtual Agent, Flow Action, or a UI Action.
 
 
 ## AI Skill Kit benefits
 
-AI Skill Kit enables you to design your own custom generative AI functionality that is then easily deployed into the ServiceNow platform. Custom skills can augment workflows with generative AI to increase effectiveness and efficiency.
+AI Skill Kit enables you to design your own custom generative AI functionality that you can then deploy to the ServiceNow platform. Custom skills can augment workflows with generative AI to increase effectiveness and efficiency.
 
 |Benefit|Feature|Users|
 |-------|-------|-----|

@@ -8,7 +8,7 @@ product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 11
+reading_time_minutes: 12
 breadcrumb: [Duplicate CIs remediation, CMDB data management, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -27,6 +27,7 @@ Remediate a single de-duplication task by using the Duplicate CI Remediator wiza
 
     -   Setting up ServiceNow Otto for CMDB, see [ServiceNow Otto for Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-landing-cmdb.md).
     -   The De-duplication task resolution assistant skill, see [Resolving re-duplication tasks with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-skill-dupe-task-resolution.md).
+    -   Automatically resolve de-duplication tasks using ServiceNow Otto, see [Auto Resolve De-Duplication tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-agent-dedup-task.md).
 
 Role required: sn\_cmdb\_editor or itil to read. sn\_cmdb\_admin, cmdb\_dedup\_admin, or itil\_admin to write
 

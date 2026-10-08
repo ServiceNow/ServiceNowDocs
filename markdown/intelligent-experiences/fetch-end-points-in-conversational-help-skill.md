@@ -7,7 +7,7 @@ release: brazil
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Now Assist reference, AI Admin Hub, Generative AI skills, Enable AI Experiences]
+breadcrumb: [AI Admin Hub reference, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
 # Fetch end points in Now Assist Conversational Help skills
@@ -24,5 +24,5 @@ The DISH service communicates with the Mimir lookup table to determine the end p
 
 **Note:** The Now Assist Conversational Help skill version is stored in sn\_ads\_now\_help.com.snc\_now\_help\_skill.version, ensuring backward compatibility within the conversational shared services.
 
-**Parent Topic:**[Now Assist reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-reference-landing.md)
+**Parent Topic:**[AI Admin Hub reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-reference-landing.md)
 

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-servicenowaiplatformcorefeature-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 15
+last_updated: "2026-10-08"
+reading_time_minutes: 21
 breadcrumb: [Products combined by family]
 ---
 
@@ -107,7 +107,12 @@ Yokohama
 
 </td><td>
 
--   **[Add dynamic attributes to a dynamic category](https://www.servicenow.com/docs/access?context=add-dynamic-attributes-dynamic-category&family=yokohama&ft:locale=en-US)**
+-   **[Enhance instance security for sandbox scripts with guarded script](https://www.servicenow.com/docs/access?context=guarded-script&family=yokohama&ft:locale=en-US)**
+
+The guarded script evaluator restricts the JavaScript features and APIs available to untrusted, client-generated scripts running in the script sandbox environment. Beginning with the Yokohama Patch 13 release, incompatible scripts sent to the server by guest users are rejected on all instances by default. Scripts sent by authenticated users are evaluated using a phased approach to enforcement that varies by the type of instance to provide time to detect and review incompatible scripts before rejecting them. Scripts that use unsupported features are recorded in the Incompatible Guarded Scripts list, where you can rewrite them or create exemptions for scripts that can't be rewritten.
+
+
+ -   **[Add dynamic attributes to a dynamic category](https://www.servicenow.com/docs/access?context=add-dynamic-attributes-dynamic-category&family=yokohama&ft:locale=en-US)**
 
 Add individual attributes or a group of attributes to a dynamic category.
 
@@ -126,7 +131,36 @@ Zurich
 
 </td><td>
 
--   **[Hierarchical queries in condition builders](https://www.servicenow.com/docs/access?context=data-hierarchies&family=zurich&ft:locale=en-US)**
+-   **[Access and test pre-release features](https://www.servicenow.com/docs/access?context=feature-preview-program&family=zurich&ft:locale=en-US)**
+
+The Feature Preview Program provides a centralized location to discover, activate, and test pre-release capabilities on your instance. When a pre-release feature is added to your instance, you receive a notification and can access the Feature Preview Program to review feature details, activate features for testing, and provide feedback.
+
+
+ -   **[Enhance instance security for sandbox scripts with guarded script](https://www.servicenow.com/docs/access?context=guarded-script&family=zurich&ft:locale=en-US)**
+
+The guarded script evaluator restricts the JavaScript features and APIs available to untrusted, client-generated scripts running in the script sandbox environment. Beginning with the Zurich Patch 9 release, incompatible scripts sent to the server by guest users are rejected on all instances by default. Scripts sent by authenticated users are evaluated using a phased approach to enforcement that varies by the type of instance to provide time to detect and review incompatible scripts before rejecting them. Scripts that use unsupported features are recorded in the Incompatible Guarded Scripts list, where you can rewrite them or create exemptions for scripts that can't be rewritten.
+
+
+ -   **[Automatically generate request definitions for scripted REST API resources](https://www.servicenow.com/docs/access?context=autogenerate-api-request-definitions&family=zurich&ft:locale=en-US)**
+
+Use sample requests made to an API resource to generate request header associations, query parameter associations, and a request schema for that resource and the related scripted REST API service.
+
+
+ -   **[Use schemas to define the structure and format of REST API responses and requests](https://www.servicenow.com/docs/access?context=define-scripted-rest-api-schema&family=zurich&ft:locale=en-US)**
+
+When you define a schema in the ServiceNow AI Platform, the schema can be used to define the structure of requests and responses within the associated REST API. The schema data for the requests and responses is then available in the exportable OpenAPI specification for the API.
+
+
+ -   **[Experimentation framework](https://www.servicenow.com/docs/access?context=experimentation-framework&family=zurich&ft:locale=en-US)**
+
+Help enable innovation by trying new ServiceNow® feature variants in your instance. Only single customer instances or Gen AI Innovation Program participants have early access to new innovations via experimentation framework. You can opt out of specific experiments or turn off the framework entirely.
+
+-   **[Monitor requestors' API usage rates through the Inbound API Integration Usage dashboard](https://www.servicenow.com/docs/access?context=inbound-api-integration-usage-dashboard&family=zurich&ft:locale=en-US)**
+
+Inbound integrations track web service requests for OAuth registered applications and user accounts making those requests.
+
+
+ -   **[Hierarchical queries in condition builders](https://www.servicenow.com/docs/access?context=data-hierarchies&family=zurich&ft:locale=en-US)**
 
 Simplify and build queries with fewer conditions using existing hierarchical data in a table. You can also define new hierarchical relationships between records that are in the same table.
 
@@ -150,11 +184,74 @@ Australia
 The Feature Preview Program provides a centralized location to discover, activate, and test pre-release capabilities on your instance. When a pre-release feature is added to your instance, you receive a notification and can access the Feature Preview Program to review feature details, activate features for testing, and provide feedback.
 
 
+ -   **[Enhance instance security for sandbox scripts with guarded script](https://www.servicenow.com/docs/access?context=guarded-script&family=australia&ft:locale=en-US)**
+
+The guarded script evaluator restricts the JavaScript features and APIs available to untrusted, client-generated scripts running in the script sandbox environment. Beginning with the Australia Patch 2 release, incompatible scripts sent to the server by guest users are rejected on all instances by default. Scripts sent by authenticated users are evaluated using a phased approach to enforcement that varies by the type of instance to provide time to detect and review incompatible scripts before rejecting them. Scripts that use unsupported features are recorded in the Incompatible Guarded Scripts list, where you can rewrite them or create exemptions for scripts that can't be rewritten.
+
+
+ -   **[Automatically generate request definitions for scripted REST API resources](https://www.servicenow.com/docs/access?context=autogenerate-api-request-definitions&family=australia&ft:locale=en-US)**
+
+Use sample requests made to an API resource to generate request header associations, query parameter associations, and a request schema for that resource and the related scripted REST API service.
+
+
+ -   **[Granular read-only security options](https://www.servicenow.com/docs/access?context=read-only-option&family=australia&ft:locale=en-US)**
+
+Control the editability of read-only fields by configuring read-only options, allowing for customized behavior that balances usability and security. Read-only options provide granular control over whether read-only fields can be updated through client scripts and server-side operations. You can also test stricter read-only controls in non-production instances before implementing them in production.
+
+-   **[Support for reference data types in Dynamic Schema](https://www.servicenow.com/docs/access?context=add-dynamic-attributes&family=australia&ft:locale=en-US)**
+
+Create dynamic attributes using reference data types.
+
+-   **[Work with Dynamic Schema elements in the Workspace condition builder](https://www.servicenow.com/docs/access?context=dynamic-schema&family=australia&ft:locale=en-US)**
+
+Filter Workspace lists using dynamic schema elements in the condition builder.
+
+-   **[Toggle the mail icon display](https://www.servicenow.com/docs/access?context=c_DictionaryAttributes&family=australia&ft:locale=en-US)**
+
+Show or hide the mail icon in email fields by configuring the hide\_email\_icon dictionary attribute.
+
+-   **[AI indicator in forms](https://www.servicenow.com/docs/access?context=c_FormFields&family=australia&ft:locale=en-US)**
+
+Easily identify AI involvement across the ServiceNow AI Platform® through a visual cue that identifies form fields in configurable workspace and Core UI that have been updated with AI-generated content.
+
+-   **[Guest API access control](https://www.servicenow.com/docs/access?context=c_RESTAPI&family=australia&ft:locale=en-US)**
+
+Manage guest access to REST and GraphQL API endpoints using path-based ACLs while maintaining separate authenticated user controls.
+
+-   **[Granular admin roles](https://www.servicenow.com/docs/access?context=granular-admin-roles&family=australia&ft:locale=en-US)**
+
+Grant specific permissions to developers or users who perform minor administrative tasks without granting them unrestricted access to the full admin role by reviewing and assigning available granular admin roles.
+
+-   **[Optional trailing slash configuration](https://www.servicenow.com/docs/access?context=api-rest&family=australia&ft:locale=en-US)**
+
+Align with external specifications and industry standards by configuring REST APIs with optional trailing slash support.
+
+-   **[Path-based REST ACL control](https://www.servicenow.com/docs/access?context=api-rest&family=australia&ft:locale=en-US)**
+
+Control access to REST services by creating path-based ACLs using specific HTTP method and path combinations.
+
+-   **[Resource-level security configuration](https://www.servicenow.com/docs/access?context=api-rest&family=australia&ft:locale=en-US)**
+
+Enable public access or custom ACL authorization by configuring resource-level security settings.
+
+-   **[Address field type with auto-suggestions](https://www.servicenow.com/docs/access?context=address-field-type&family=australia&ft:locale=en-US)**
+
+Reduce manual entry errors through a new Address field type for Core UI and Workspace forms, which provides real-time address suggestions displayed as you type.
+
+-   **[New dot-walk scoping security properties and table attribute](https://www.servicenow.com/docs/access?context=r_AvailableSystemProperties&family=australia&ft:locale=en-US)**
+
+Strengthen scope boundary enforcement when dot-walking across application scopes using Reference Fields through additional properties and a table attribute. For more information, see the [Dot-Walk Scoping Security Enhancement \[KB2793170\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2793170) article in the Now Support Knowledge Base.
+
+
 </td></tr><tr><td>
 
 Brazil
 
 </td><td>
+
+-   **[Set up cross-instance communication](https://www.servicenow.com/docs/access?context=multi-instance-setup-overview&family=brazil&ft:locale=en-US)**
+
+Run a scan to discover non-production instances related to a production instance and connect instances using the Multi-Instance Setup application \(sn-app-amf\). Multi-Instance Setup supports cross-instance communication with other ServiceNow applications and provides a single interface to view and monitor connections.
 
 -   **AI indicators now visible in Core UI lists**
 
@@ -254,7 +351,12 @@ Zurich
 
 </td><td>
 
--   **Coral theme**
+-   **[AI indicator in forms](https://www.servicenow.com/docs/access?context=ai-indicator-in-configurable-workspace-and-core-ui&family=zurich&ft:locale=en-US)**
+
+The AI indicator is a visual cue that identifies form fields in configurable workspace and Core UI that have been updated with AI-generated content. This feature enhances user experience by providing a consistent and clear indication of AI involvement across the platform.
+
+
+ -   **Coral theme**
 
 Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
 
@@ -335,7 +437,12 @@ Australia
 
 </td><td>
 
--   **[Country setting added to Language and Region preferences](https://www.servicenow.com/docs/access?context=next-experience-language-preferences&family=australia&ft:locale=en-US)**
+-   **[Data Egress and Usage by Domain tabs added to the Inbound API Integration Usage dashboard](https://www.servicenow.com/docs/access?context=inbound-api-integration-usage-dashboard&family=australia&ft:locale=en-US)**
+
+View data volumes returned in integration responses and monitor domain-level usage.
+
+
+ -   **[Country setting added to Language and Region preferences](https://www.servicenow.com/docs/access?context=next-experience-language-preferences&family=australia&ft:locale=en-US)**
 
 Users can select their country from the Next Experience language and region preferences.
 
@@ -600,6 +707,8 @@ Brazil
 -   **Activation information**
 
 The ServiceNow AI Platform core features are active by default.
+
+To use Multi-Instance Setup, you must install it from the ServiceNow Store and activate the AMF Core plugin. For more information, see [Install Multi-Instance Setup and AMF Core](https://www.servicenow.com/docs/access?context=install-multi-instance-setup&family=brazil&ft:locale=en-US).
 
 
 </td></tr></tbody>

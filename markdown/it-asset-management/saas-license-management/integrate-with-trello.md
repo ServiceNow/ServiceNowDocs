@@ -79,15 +79,15 @@ If you’re using Software Asset Workspace, the option to create the Trello inte
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d69969e380">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d70048e380">
 
 Interface
 
-</th><th align="left" id="d69969e383">
+</th><th align="left" id="d70048e383">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d69969e389">
+</th></tr></thead><tbody><tr><td id="d70048e389">
 
 **Core UI**
 
@@ -98,7 +98,7 @@ Action
 3.  Select **Trello Enterprise Integration Profile**.
 
 
-</td></tr><tr><td id="d69969e431">
+</td></tr><tr><td id="d70048e431">
 
 **Software Asset Workspace**
 

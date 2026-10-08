@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-brazil/brazil-zurich-integrationhub-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 9
+last_updated: "2026-10-08"
+reading_time_minutes: 10
 breadcrumb: [Products combined by family]
 ---
 
@@ -123,7 +123,16 @@ Australia
 
 </td><td>
 
--   **[OAUTHBEARER authentication for Stream Connect message replication](https://www.servicenow.com/docs/access?context=hla-data-input-kafka-credentials&family=australia&ft:locale=en-US)**
+-   **[Stream Producer](https://www.servicenow.com/docs/access?context=stream-producer&family=australia&ft:locale=en-US)**
+
+Automatically stream changes from ServiceNow tables to Kafka topics with Stream Producer. Stream Producer uses change data capture \(CDC\) technology to capture inserts, updates, and deletes on selected tables. The captured changes are formatted as messages and sent to a Kafka topic, enabling real-time data synchronization with external applications.
+
+-   **[Stream Producer schemas](https://www.servicenow.com/docs/access?context=schema-management&family=australia&ft:locale=en-US)**
+
+Stream Producer supports the Avro serialization format for message payloads. When using an Avro format, Stream Producer uses the selected table's auto-generated schema to convert CDC payloads to Avro before sending them to Kafka.
+
+
+ -   **[OAUTHBEARER authentication for Stream Connect message replication](https://www.servicenow.com/docs/access?context=hla-data-input-kafka-credentials&family=australia&ft:locale=en-US)**
 
 Authenticate using OAUTHBEARER as part of the SASL credential framework for Stream Connect message replication. OAUTHBEARER authentication lets Stream Connect administrators meet customer requirements, improve security, and align with existing OAuth capabilities on the platform, enabling seamless integration with Kafka environments that require advanced authentication.
 

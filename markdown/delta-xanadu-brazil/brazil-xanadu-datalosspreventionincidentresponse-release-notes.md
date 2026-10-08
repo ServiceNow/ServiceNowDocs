@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-datalosspreventionincidentresponse-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 6
+last_updated: "2026-10-08"
+reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
 
@@ -99,7 +99,20 @@ Yokohama
 
 </td><td>
 
--   **[Internet Content Adaption Protocol \(ICAP\) integration for DLP IR](https://www.servicenow.com/docs/access?context=icap-dlp-integration&family=yokohama&ft:locale=en-US)**
+-   **[Create a Data Loss Prevention Incident Response SLA trigger](https://www.servicenow.com/docs/access?context=sla-records&family=yokohama&ft:locale=en-US)**
+
+Enable prompt and efficient responses to incidents by creating SLA triggers.
+
+-   **[Create a Data Loss Prevention Incident Response SLA definition](https://www.servicenow.com/docs/access?context=dlp-sla-definitions&family=yokohama&ft:locale=en-US)**
+
+Outline the conditions and duration for responding to data breaches by creating Data Loss Prevention Incident Response SLA definitions.
+
+-   **[Create an Application in Proofpoint and Obtain Client Credentials](https://www.servicenow.com/docs/access?context=create-application-proofpoint-dlp&family=yokohama&ft:locale=en-US)**
+
+Create an application in Proofpoint and configure the required settings to obtain client credentials. These credentials enable secure access to the Proofpoint API for seamless integration and automation.
+
+
+ -   **[Internet Content Adaption Protocol \(ICAP\) integration for DLP IR](https://www.servicenow.com/docs/access?context=icap-dlp-integration&family=yokohama&ft:locale=en-US)**
 
 Integration supports the ingestion of Data Loss Prevention Incident Response alerts, allows the fetching of match content, and evidence files from Amazon S3 created on the ICAP supported Data Loss Prevention Incident Response deployment.
 
@@ -138,7 +151,16 @@ Zurich
 
 </td><td>
 
--   **[Install and configure the Proofpoint integration for Data Loss Prevention](https://www.servicenow.com/docs/access?context=install-configure-proofpoint-integration-dlp&family=zurich&ft:locale=en-US)**
+-   **[Create a Data Loss Prevention Incident Response SLA trigger](https://www.servicenow.com/docs/access?context=sla-records&family=zurich&ft:locale=en-US)**
+
+Enable prompt and efficient responses to incidents by creating SLA triggers.
+
+-   **[Create a Data Loss Prevention Incident Response SLA definition](https://www.servicenow.com/docs/access?context=dlp-sla-definitions&family=zurich&ft:locale=en-US)**
+
+Outline the conditions and duration for responding to data breaches by creating Data Loss Prevention Incident Response SLA definitions.
+
+
+ -   **[Install and configure the Proofpoint integration for Data Loss Prevention](https://www.servicenow.com/docs/access?context=install-configure-proofpoint-integration-dlp&family=zurich&ft:locale=en-US)**
 
 Install and configure the Proofpoint integration to use the  Proofpoint DLP incident data to investigate DLP incidents.
 
@@ -362,6 +384,8 @@ Install Data Loss Prevention Incident Response by requesting it from the Service
 The Security Support Common plugin is activated when any of the plugins for the main Security Operations applications \(Security Incident Response, Vulnerability Response, Threat Intelligence, or Configuration Compliance\) are activated.
 
 
+**Important:** Data Loss Prevention Incident Response is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Zurich
@@ -376,6 +400,8 @@ Install Data Loss Prevention Incident Response by requesting it from the Service
 
 The Security Support Common plugin is activated when any of the plugins for the main Security Operations applications \(Security Incident Response, Vulnerability Response, Threat Intelligence, or Configuration Compliance\) are activated.
 
+
+**Important:** Data Loss Prevention Incident Response is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 

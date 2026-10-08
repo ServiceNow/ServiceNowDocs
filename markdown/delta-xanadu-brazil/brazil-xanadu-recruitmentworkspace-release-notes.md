@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-recruitmentworkspace-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 5
+last_updated: "2026-10-08"
+reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
 
@@ -114,6 +114,47 @@ Substitute an interviewer for any interview on a job where you're part of the hi
 -   **[List view in Recruitment workspace](https://www.servicenow.com/docs/access?context=list-view-recruit-workspace&family=zurich&ft:locale=en-US)**
 
 Monitor interview health from the Needs attention list view in Recruitment workspace.
+
+
+ -   **[Create job requisitions](https://www.servicenow.com/docs/access?context=request-job-hiring&family=zurich&ft:locale=en-US)**
+
+Create a job requisition for a vacancy that you want to fill in your organization.
+
+-   **[Track job requisition](https://www.servicenow.com/docs/access?context=job-req-details-re-workspace&family=zurich&ft:locale=en-US)**
+
+Track a job requisition and view the job details, associated applications, hiring team, interview phases, approvers, and prospects.
+
+-   **[Manage hiring team](https://www.servicenow.com/docs/access?context=manage-hiring-team&family=zurich&ft:locale=en-US)**
+
+Add, edit, or remove hiring team members from a job requisition.
+
+-   **[Add job description](https://www.servicenow.com/docs/access?context=add-job-description&family=zurich&ft:locale=en-US)**
+
+Manually add a description to a job requisition or use predesigned templates to fill it out faster.
+
+-   **[Manage the job requisitions as a recruiter](https://www.servicenow.com/docs/access?context=manage-job-reqs&family=zurich&ft:locale=en-US)**
+
+Update or duplicate a job requisition, put it on hold, send it for approval, or close it from the Recruitment workspace.
+
+-   **[Tracking an application](https://www.servicenow.com/docs/access?context=application-record-details-re-workspace&family=zurich&ft:locale=en-US)**
+
+Track an application for a job requisition and its corresponding applicant and interview details as a recruiter or recruitment coordinator.
+
+-   **[Hiring tasks](https://www.servicenow.com/docs/access?context=applicant-tasks-recruitr&family=zurich&ft:locale=en-US)**
+
+Create and assign tasks to your job applicants or internal stakeholders, and manage them within the Recruitment workspace.
+
+-   **[Collaborate with the hiring manager](https://www.servicenow.com/docs/access?context=collab-hiring-manager&family=zurich&ft:locale=en-US)**
+
+Collaborate with the hiring manager on the job requisition in the activity stream.
+
+-   **[\[Placeholder link text to key bundle-emplsm.send-targeted-emails\]](https://www.servicenow.com/docs/access?context=send-targeted-emails&family=zurich&ft:locale=en-US)**
+
+Send targeted emails to the internal and external talent types from different access points in the Recruitment workspace for effective communication.
+
+-   **[View the Talent Acquisition Dashboard](https://www.servicenow.com/docs/access?context=access-kpi-ta&family=zurich&ft:locale=en-US)**
+
+Understand the hiring trend in your organization with the Talent Acquisition dashboard.
 
 
 </td></tr><tr><td>
@@ -344,6 +385,8 @@ Zurich
 Install Recruiter Workspace by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
 
+**Important:** Recruitment workspace is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Australia
@@ -354,6 +397,8 @@ Australia
 
 Install Recruitment workspace by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
 
+
+**Important:** Recruitment workspace is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 

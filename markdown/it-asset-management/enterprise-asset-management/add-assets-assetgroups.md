@@ -1,6 +1,6 @@
 ---
 title: Add assets to an asset group or subgroup
-description: Add existing assets to an asset group or a subgroup.
+description: Add existing assets to an asset group or subgroup.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/enterprise-asset-management/add-assets-assetgroups.html
 release: brazil
@@ -14,37 +14,33 @@ breadcrumb: [Create an asset group in Enterprise Asset Management, Create and ma
 
 # Add assets to an asset group or subgroup
 
-Add existing assets to an asset group or a subgroup.
+Add existing assets to an asset group or subgroup.
 
 ## Before you begin
 
-Role required:
-
--   sn\_eam.enterprise\_admin
--   sn\_eam.enterprise\_asset\_manager
--   sn\_eamfam.facility\_asset\_manager
--   sn\_eamhc.medical\_asset\_manager
--   sn\_otam.ot\_asset\_manager
-
-Assets can be added to an asset group or subgroups in the Enterprise Asset Workspace, Facility Asset Workspace, Medical Asset Workspace, and the Operational Technology \(OT\) Asset Workspace. This task specifically describes how to add assets to an asset group in the Enterprise Asset Workspace.
+Role required: sn\_eam.enterprise\_admin or sn\_eam.enterprise\_asset\_manager
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Enterprise Asset Workspace** &gt; **Enterprise asset estate** &gt; **Asset groups**.
+1.  Navigate to **Workspaces** &gt; **Enterprise Asset Workspace**.
 
-2.  Open the asset group record to which you want to add assets.
+2.  From the Enterprise Asset Workspace, open the Enterprise asset estate view.
 
-3.  Select the Assets related list.
+3.  On the **Asset groups** tab, select the **Asset groups** subtab.
 
-4.  Select **Add** to open the Add asset dialog box.
+4.  Open the asset group record to which you want to add assets.
+
+5.  Select the Assets related list.
+
+6.  Select **Add** to open the Add asset dialog box.
 
     For details on the type of assets that appear, see the section titled [Considerations for adding assets to asset groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/asset-groups-eam.md).
 
-5.  Select the assets that you want to add.
+7.  Select the assets that you want to add.
 
     You can also use the condition builder to search for specific assets.
 
-6.  Select **Add**.
+8.  Select **Add**.
 
     The selected assets are added to the asset group and are listed in the Assets related list.
 

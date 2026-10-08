@@ -18,7 +18,7 @@ Create a custom trigger to capture a business signal that is specific to your or
 ## Before you begin
 
 -   Role required: admin
--   The Executive Insight Generator skill must be activated. See [Activate the Executive Insight Generator skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-tmt-exec-insight-gen.md) for details.
+-   The Executive Insight Generator skill must be activated. See [Activate the Executive Insight Generator skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/now-assist-tmt-exec-insight-gen.md) for details.
 
 ## About this task
 
@@ -46,7 +46,7 @@ To configure a custom trigger, complete two tasks: define the signal and create 
 
 ## Result
 
-When the condition is detected, an activity record is created. The [Executive Insight Generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-tmt-exec-insight-gen.md) skill includes this signal in the engagement brief the next time the brief is generated or refreshed.
+When the condition is detected, an activity record is created. The [Executive Insight Generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/now-assist-tmt-exec-insight-gen.md) skill includes this signal in the engagement brief the next time the brief is generated or refreshed.
 
 **Parent Topic:**[Engagement brief](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-exec-insight-gen.md)
 
@@ -55,5 +55,5 @@ When the condition is detected, an activity record is created. The [Executive In
 
 [Engagement brief](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-exec-insight-gen.md)
 
-[Activate the Executive Insight Generator skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-tmt-exec-insight-gen.md)
+[Activate the Executive Insight Generator skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/now-assist-tmt-exec-insight-gen.md)
 

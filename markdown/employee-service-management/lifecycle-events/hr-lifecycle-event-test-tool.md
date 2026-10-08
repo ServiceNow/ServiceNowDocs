@@ -40,14 +40,6 @@ The lifecycle event test tool provides different views of a lifecycle event. The
 
 -   **[Preview and test a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/lifecycle-events/test-lifecycle-event.md)**  
 Preview and test a lifecycle event for different audience types. You can preview a lifecycle event to validate which activities will trigger or not for a particular audience. You can then create a test lifecycle event case for different users and select which activities to include or exclude in your test.
--   **[Preview and test a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/lifecycle-events/test-lifecycle-event.md)**  
-Preview and test a lifecycle event for different audience types. You can preview a lifecycle event to validate which activities will trigger or not for a particular audience. You can then create a test lifecycle event case for different users and select which activities to include or exclude in your test.
-
-**Parent Topic:**[Building a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/lifecycle-events/hr-lifecycle-event-configuration.md)
-
-**Previous topic:**[Configure an HR service for a journey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/lifecycle-events/configure-hr-service-for-journey.md)
-
-**Next topic:**[Preview and test a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/lifecycle-events/test-lifecycle-event.md)
 
 **Parent Topic:**[Building a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/lifecycle-events/hr-lifecycle-event-configuration.md)
 

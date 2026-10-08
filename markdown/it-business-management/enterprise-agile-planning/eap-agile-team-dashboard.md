@@ -18,6 +18,8 @@ The Agile Team dashboard provides you with sprint progress and team performance 
 
 \[Omitted image "eap-agile-team-dashboard.png"\] Alt text: Agile Team dashboard showing various data visualizations and team performance reports.
 
+Agile Teams whose planning methodology is Kanban see the Kanban Team dashboard on the **Home** tab instead of this dashboard. For more information, see [Kanban Team dashboard in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/enterprise-agile-planning/kanban-team-dashboard-in-eap.md).
+
 You can use a default dashboard or you can configure a custom dashboard and associate it with your Agile configuration. For more information, see [Configuring custom dashboards in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/enterprise-agile-planning/configuring-eap-dashboard.md).
 
 ## Required EAP roles

@@ -53,14 +53,8 @@ If the presence status is changed from **In-office** to **Remote**, a record is 
 </td></tr></tbody>
 </table>**Parent Topic:**[Workplace Concierge - Components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-concierge/workplace-concierge-references.md)
 
-**Parent Topic:**[Workplace Concierge - Components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-concierge/workplace-concierge-references.md)
-
 **Related topics**  
 
-
-[Properties installed with Workplace Concierge]()
-
-[Insights installed with Workplace Concierge]()
 
 [Properties installed with Workplace Concierge]()
 

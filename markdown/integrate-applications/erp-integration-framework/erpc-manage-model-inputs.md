@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-08-14"
 reading_time_minutes: 5
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, model, input, parameter, operation, read, create, update, crud]
-breadcrumb: [ERP models, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Model management, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Manage input parameters for a model operation
@@ -50,7 +50,7 @@ If you're already in the process of managing a model and ready to specify inputs
     -   The Operation parameters section.
     -   The Table/Functioncall section, where you define the parameters the operation uses. The Table section appears for read operations, and the Functioncall section appears for BAPI \(Business Application Programming Interface\) operations.
 
-        Zero Copy Connector for ERP automatically suggests mappings between table fields in source systems and target models. For example, map the fields of source table "purchase order - v2" with the fields of a relevant target table such as "platform table purchase order." This reduces the amount of manual work to do, while still giving you control to edit the mappings as needed. For more information, see .
+        Zero Copy Connector for ERP automatically suggests mappings between table fields in source systems and target models. For example, map the fields of source table "purchase order - v2" with the fields of a relevant target table such as "platform table purchase order." This reduces the amount of manual work to do, while still giving you control to edit the mappings as needed. For more information, see [Zero Copy Connector for ERP AI semantic field mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-semantic-mapping.md).
 
         Mapped value names in inputs and outputs are generated automatically, but you can edit the names manually. For more information, see [Edit input and output mapped value name in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-edit-mapped-value-name-in-model-manager.md).
 
@@ -143,6 +143,4 @@ Specific value of the parameter.-   For **Input** parameters, accept the system-
 ## What to do next
 
 Next, check the output parameters for the operation and update as needed. For more information, see [Choose output parameters for a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-manage-outputs.md).
-
-**Parent Topic:**[Building and managing models to work with ERP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/work-with-erp-data-models.md)
 

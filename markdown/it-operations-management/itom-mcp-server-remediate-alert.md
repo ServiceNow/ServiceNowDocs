@@ -21,12 +21,12 @@ Verify that:
 
 -   The ITOM MCP Server Console is active on your ServiceNow instance.
 -   Your MCP Client application is connected to the ITOM MCP Server Console with valid OAuth credentials.
--   The AI Specialist worker has already investigated the alert you want to remediate.
+-   The alert you want to remediate has been investigated, either by the AI Specialist or through the Alert Investigation tool.
 
-    The Alert remediation tool returns a remediation recommendation only for alerts that the AI Specialist worker has investigated. If the worker isn't active for the alert, the tool reports that no remediation is available yet. For more information about the AI Specialist, see .
+    If the alert has not yet been investigated, initiate an investigation using the Alert Investigation tool. For more information, see [Investigate alerts using an MCP Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/review-alerts-using-itom-mcp-server.md).
 
 
-**Important:** The Alert remediation tool provides suggestions through an AI agent or MCP Client. You're interacting with AI. AI-generated responses may be inaccurate or incomplete.
+**Warning:** The Alert remediation tool provides suggestions through an AI agent or MCP Client. You're interacting with AI. AI-generated responses may be inaccurate or incomplete.
 
 For more information about the Alert remediation tool, see [Alert remediation with an MCP Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-mcp-server-alert-remediation.md).
 

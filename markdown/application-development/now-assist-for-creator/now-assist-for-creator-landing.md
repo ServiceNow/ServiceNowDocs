@@ -8,9 +8,9 @@ product: Now Assist for Creator
 classification: now-assist-for-creator
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 4
+reading_time_minutes: 5
 keywords: [Now Assist, Now Assist for Creator, create with Now Assist, Install Now Assist for Creator, Creator Workflow, Creator Pro Plus, Build Agent, Flow generation, ServiceNow Otto, ServiceNow Otto for Creator]
-breadcrumb: [Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Build, AI Workflow Factory, Building applications]
 ---
 
 # ServiceNow Otto for Creator
@@ -132,4 +132,15 @@ This application requires data to be transferred from ServiceNow customers' indi
 ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect skill usage metrics. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
 For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/platform-now-assist-landing.md).
+
+-   **[Exploring ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/now-assist-for-creator/exploring-now-assist-for-creator.md)**  
+Explore the AI capabilities, users, benefits, and workflow for using ServiceNow Otto for Creator.
+-   **[Configuring ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/now-assist-for-creator/configuring-now-assist-for-creator.md)**  
+To get started using ServiceNow Otto for Creator, install ServiceNow Otto for Creator. Then turn on the skills, AI agents, or agentic workflows that you want to use.
+-   **[Using generative AI with ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/now-assist-for-creator/using-gen-ai-now-assist-for-creator.md)**  
+Use the generative AI skills available with ServiceNow Otto for Creator to help you build faster and smarter on the ServiceNow AI Platform.
+-   **[Using agentic AI with ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/now-assist-for-creator/using-agentic-ai-now-assist-for-creator.md)**  
+Use the AI agents and agentic workflows available with ServiceNow Otto for Creator to help you build on the ServiceNow AI Platform more efficiently.
+
+**Parent Topic:**[Build](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/build-ai-workflow-factory-prime.md)
 

@@ -51,6 +51,9 @@ You can view coaching opportunity details, analytics, and related records by sel
     -   Metric score trend
     -   Tier distribution
     -   Metric performance
+    -   Category performance
+    **Note:** The dashboard shows only scored metrics \(*Resolution Step Quality* and *Executable Resolution*\). Diagnostic-only metrics \(display names ending in "\(Diagnostic\)"\) don't appear in the visualizations—they're visible only on the assessment form itself.
+
 -   **Related records**
     -   Skills Awarded on Assessment Completion
     -   Assessments Created by Opportunity

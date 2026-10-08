@@ -26,6 +26,8 @@ Use scripted extension points to configure the display of the cards on the Telec
 Add the Customer 360 tab to any record page using either the page collection approach or the manual component approach, depending on your page type and required features.
 -   **[Configure the Party Relationship Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/c360-configure-prc.md)**  
 Configure node settings to control which fields appear on the entity node cards in the Party Relationship Center.
+-   **[Configure ServiceNow Otto for TMT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/configure-servicenow-otto-c360.md)**  
+Configure the ServiceNow Otto for TMT application so that your agents can use the generative AI skills in CRM Workspace and in Core UI for Telecom Customer 360.
 
 **Parent Topic:**[Telecommunications Customer 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/c360-land-page.md)
 

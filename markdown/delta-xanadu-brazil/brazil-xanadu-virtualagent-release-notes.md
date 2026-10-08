@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-virtualagent-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 12
+last_updated: "2026-10-08"
+reading_time_minutes: 13
 breadcrumb: [Products combined by family]
 ---
 
@@ -756,7 +756,11 @@ Zurich
 
 </td><td>
 
-[Zurich Patch 12](https://www.servicenow.com/docs/access?context=zurich-patch-12&family=zurich&ft:locale=en-US)
+[Zurich Patch 13](https://www.servicenow.com/docs/access?context=zurich-patch-13&family=zurich&ft:locale=en-US)
+
+-   Use automated evaluations to test your conversational assistant.
+
+ [Zurich Patch 12](https://www.servicenow.com/docs/access?context=zurich-patch-12&family=zurich&ft:locale=en-US)
 
 -   ServiceNow Otto is the new AI experience brand. This change is reflected in the name of ServiceNow products, including ServiceNow Otto for Virtual Agent and ServiceNow Otto panel. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
 
@@ -783,7 +787,11 @@ Australia
 
 </td><td>
 
-[Australia Patch 6](https://www.servicenow.com/docs/access?context=australia-patch-6&family=australia&ft:locale=en-US)
+[Australia Patch 7](https://www.servicenow.com/docs/access?context=australia-patch-7&family=australia&ft:locale=en-US)
+
+-   Use automated evaluations to test your conversational assistant.
+
+ [Australia Patch 6](https://www.servicenow.com/docs/access?context=australia-patch-6&family=australia&ft:locale=en-US)
 
 -   Embed the enhanced chat widget on third-party websites.
 

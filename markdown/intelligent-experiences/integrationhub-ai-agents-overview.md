@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/integra
 release: brazil
 topic_type: concept
 last_updated: "2026-08-04"
-reading_time_minutes: 1
+reading_time_minutes: 3
 breadcrumb: [Integration Hub, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
@@ -14,20 +14,86 @@ breadcrumb: [Integration Hub, AI agents library, AI agents and agentic workflows
 
 The following AI agents are available for Integration Hub.
 
--   **[Microsoft Teams application management AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/spoke-msteams-microsoft-teams-application-management-ai-agent.md)**  
-This Microsoft Teams integration agent automates tasks related to Microsoft Teams and ServiceNow Integration Hub. The agent manages user application installations by performing actions such as looking up app installations and installing applications for users.
--   **[Microsoft Teams calendar management AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/spoke-msteams-microsoft-teams-calendar-management-ai-agent.md)**  
-This Microsoft Teams integration agent helps process analysts automate workflows between ServiceNow and Microsoft Teams. It provides calendar management capabilities and can delete and retrieve meeting details.
--   **[Microsoft Teams channel management AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/spoke-msteams-microsoft-teams-channel-management-ai-agent.md)**  
-This Microsoft Teams integration agent manages Microsoft Teams channels through ServiceNow Integration Hub. This agent can create channels, manage members, and retrieve channel information.
--   **[Microsoft Teams chat management AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/spoke-msteams-microsoft-teams-chat-management-ai-agent.md)**  
-This Microsoft Teams integration agent automates workflows between ServiceNow and Microsoft Teams. It provides capabilities such as looking up chats and messages.
--   **[Meeting scheduler AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/inth-meeting-scheduler-ai-agent.md)**  
-This AI agent specializes in organizing Zoom or Microsoft Teams meetings and creating regular calendar events with ease. It helps users find available time slots and set up meetings effortlessly.
--   **[Microsoft Teams notification management AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/spoke-msteams-microsoft-teams-notification-management-ai-agent.md)**  
-This Microsoft Teams integration agent automates communication between ServiceNow and Microsoft Teams. The agent helps process analysts design flows to send messages, updates, and replies to Microsoft Teams channels.
--   **[Microsoft Teams team management AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/spoke-msteams-microsoft-teams-team-management-ai-agent.md)**  
-This Microsoft Teams integration agent simplifies the integration between ServiceNow and Microsoft Teams. The agent automates tasks such as creating and managing Teams, adding or removing members, and retrieving team-related information.
+-   **[Box Spoke AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/inth-box-ai-agents-overview.md)**  
+The following AI agents are available for Box Spoke.
+-   **[Client Software Distribution 2.0 AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/inth-csdv2-ai-agents-overview.md)**  
+The following AI agents are available for Client Software Distribution 2.0.
+-   **[Coupa Spoke AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/inth-coupa-ai-agents-overview.md)**  
+The following AI agents are available for Coupa Spoke.
+-   **[Docusign eSignature Spoke AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/inth-docusign-ai-agents-overview.md)**  
+The following AI agents are available for Docusign eSignature Spoke.
+-   **[F5 BIG-IP Spoke AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/inth-f5-ai-agents-overview.md)**  
+The following AI agents are available for F5 BIG-IP Spoke.
+-   **[GitHub Spoke AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/inth-github-ai-agents-overview.md)**  
+The following AI agents are available for GitHub Spoke.
+-   **[GitLab Spoke AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/inth-gitlab-ai-agents-overview.md)**  
+The following AI agents are available for GitLab Spoke.
+-   **[Google Calendar Spoke AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/inth-google-cal-ai-agents-overview.md)**  
+The following AI agents are available for Google Calendar Spoke.
+-   **[Google Chat Spoke AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/inth-google-chat-ai-agents-overview.md)**  
+The following AI agents are available for Google Chat Spoke.
+-   **[Google Cloud Storage Spoke AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/inth-google-cloud-ai-agents-overview.md)**  
+The following AI agents are available for Google Cloud Storage Spoke.
+-   **[Google Docs Spoke AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/inth-google-docs-ai-agents-overview.md)**  
+The following AI agents are available for Google Docs Spoke.
+-   **[Google Drive Spoke AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/inth-google-drive-ai-agents-overview.md)**  
+The following AI agents are available for Google Drive Spoke.
+-   **[Google Meet Spoke AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/inth-google-meet-ai-agents-overview.md)**  
+The following AI agents are available for Google Meet Spoke.
+-   **[Google Tasks Spoke AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/inth-google-tasks-ai-agents-overview.md)**  
+The following AI agents are available for Google Tasks Spoke.
+-   **[GovNotify Spoke AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/inth-govnotify-ai-agents-overview.md)**  
+The following AI agents are available for GovNotify Spoke.
+-   **[Jenkins Spoke AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/inth-jenkins1-ai-agents-overview.md)**  
+The following AI agents are available for Jenkins Spoke.
+-   **[Jira Spoke AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/inth-jira-ai-agents-overview.md)**  
+The following AI agents are available for Jira Spoke.
+-   **[Jira Service Management Spoke AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/inth-jira-sm-ai-agents-overview.md)**  
+The following AI agents are available for Jira Service Management Spoke.
+-   **[Kubernetes Spoke AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/inth-kubernetes-ai-agents-overview.md)**  
+The following AI agents are available for Kubernetes Spoke.
+-   **[Microsoft Active Directory v2 Spoke AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/inth-ms-ad2-ai-agents-overview.md)**  
+The following AI agents are available for Microsoft Active Directory v2 Spoke.
+-   **[Microsoft Dynamics CRM Spoke AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/inth-ms-dyncrm-ai-agents-overview.md)**  
+The following AI agents are available for Microsoft Dynamics CRM Spoke.
+-   **[Microsoft Entra ID Spoke AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/inth-ms-entraid-ai-agents-overview.md)**  
+The following AI agents are available for Microsoft Entra ID Spoke.
+-   **[Microsoft Exchange Online Spoke AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/inth-ms-exchange-ai-agents-overview.md)**  
+The following AI agents are available for Microsoft Exchange Online Spoke.
+-   **[Microsoft OneDrive Spoke AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/inth-ms-onedrive-ai-agents-overview.md)**  
+The following AI agents are available for Microsoft OneDrive Spoke.
+-   **[Microsoft Security Response Spoke AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/inth-ms-secresp-ai-agents-overview.md)**  
+The following AI agents are available for Microsoft Security Response Spoke.
+-   **[Microsoft SharePoint Online Spoke AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/inth-ms-sharepoint-ai-agents-overview.md)**  
+The following AI agents are available for Microsoft SharePoint Online Spoke.
+-   **[Microsoft Teams Graph Spoke AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/inth-ms-teamsg-ai-agents-overview.md)**  
+The following AI agents are available for Microsoft Teams Graph Spoke.
+-   **[Miro Spoke AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/inth-miro-ai-agents-overview.md)**  
+The following AI agents are available for Miro Spoke.
+-   **[Okta Spoke AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/inth-okta-ai-agents-overview.md)**  
+The following AI agents are available for Okta Spoke.
+-   **[Oracle HCM Cloud Spoke AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/inth-oraclehcm-ai-agents-overview.md)**  
+The following AI agents are available for Oracle HCM Cloud Spoke.
+-   **[PagerDuty Spoke AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/inth-pagerduty-ai-agents-overview.md)**  
+The following AI agents are available for PagerDuty Spoke.
+-   **[SAP Ariba Spoke AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/inth-sapariba-ai-agents-overview.md)**  
+The following AI agents are available for SAP Ariba Spoke.
+-   **[SAP Concur Spoke AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/inth-sapconcur-ai-agents-overview.md)**  
+The following AI agents are available for SAP Concur Spoke.
+-   **[Slack Spoke AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/inth-slack-ai-agents-overview.md)**  
+The following AI agents are available for Slack Spoke.
+-   **[Smartsheet Spoke AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/inth-smartsheet-ai-agents-overview.md)**  
+The following AI agents are available for Smartsheet Spoke.
+-   **[SuccessFactors Spoke AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/inth-successfactors-ai-agents-overview.md)**  
+The following AI agents are available for SuccessFactors Spoke.
+-   **[Workday HR Spoke AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/inth-workdayhr-ai-agents-overview.md)**  
+The following AI agents are available for Workday HR Spoke.
+-   **[Wrike Spoke AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/inth-wrike-ai-agents-overview.md)**  
+The following AI agents are available for Wrike Spoke.
+-   **[X Spoke AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/inth-x-ai-agents-overview.md)**  
+The following AI agents are available for X Spoke.
+-   **[Zoom Spoke AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/inth-zoom-ai-agents-overview.md)**  
+The following AI agents are available for Zoom Spoke.
 
 **Parent Topic:**[ServiceNow AI agents library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-agent-landing-page.md)
 

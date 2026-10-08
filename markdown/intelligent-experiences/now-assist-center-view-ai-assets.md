@@ -1,19 +1,25 @@
 ---
-title: View and manage your AI assets in the asset inventory
+title: View your AI assets in the asset inventory \(Next Experience UI\)
 description: Use the asset library to view and manage the AI assets in your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-center-view-ai-assets.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 4
+last_updated: "2026-10-02"
+reading_time_minutes: 5
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
 breadcrumb: [Managing AI assets, Setting up AI capabilities and configurations, AI Admin Center, Getting started with AI, Enable AI Experiences]
 ---
 
-# View and manage your AI assets in the asset inventory
+# View your AI assets in the asset inventory\(Next Experience UI\)
 
 Use the asset library to view and manage the AI assets in your instance.
+
+**Important:** Lux is the new user experience for AI Admin Center. For more information on the Lux experience, see [AI Admin Center user experience \(Lux UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-admin-center-lux-user-experience.md).
+
+The Next Experience AI Admin Center workspace is being prepared for deprecation in the November store release and will no longer be supported. For more information on the Next Experience UI, see [AI Admin Center workspace \(Next Experience UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-center-workspace.md).
+
+In AI Admin Center version 6.1, the Next Experience and Lux user interfaces are both available.
 
 ## Before you begin
 
@@ -21,13 +27,13 @@ Role required: sn\_na\_center.nac\_admin
 
 ## About this task
 
-Follow these steps to view the AI assets on your instance. AI assets include agents, agentic workflows, skills, subflows, actions, virtual assistants, and topics.They also include datasets, knowledge graphs, and catalog items.
+Follow these steps to view and managethe AI assets on your instance. AI assets include agents, agentic workflows, skills, subflows, actions, virtual assistants, and topics.They also include datasets, knowledge graphs, and catalog items.
 
-For more information, see .
+**Note:** This topic describes the AI Admin Center feature based on the Next Experience UI. If you're using the Lux user experience for AI Admin Center, see the Lux UI version of this topic.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Admin Center** or **Workspaces** &gt; **AI Admin Center**.
+1.  Navigate to **All** &gt; **AI Admin Center** &gt; **AI Admin Center \(Legacy\)**.
 
 2.  Select **Asset inventory** \(\[Omitted image "icon-now-assist-center-nav-assets.png"\] Alt text: Asset inventory icon.\) in the side navigation bar.
 
@@ -107,7 +113,7 @@ Actions
 
 Displays a list of all actions.
 
- An action is a single step or task performed by a an AI agent, a workflow, or a subflow.
+ An action is a single step or task performed by an AI agent, a workflow, or a subflow.
 
 </td></tr><tr><td>
 
@@ -157,7 +163,7 @@ Knowledge graphs
 
 Displays a list of all knowledge graphs.
 
- A knowledge graph is a graphical representation of real-world entities \(tables\) and their relationships. It is used add context and meaning to information to enable intelligent search, insights, and AI-driven experiences.
+ A knowledge graph is a graphical representation of real-world entities \(tables\) and their relationships. It is used to add context and meaning to information to enable intelligent search, insights, and AI-driven experiences.
 
 </td></tr></tbody>
 </table>4.  Select a combination of sort and filter options to refine the list.
@@ -203,5 +209,15 @@ Displays a list of all knowledge graphs.
 **Related topics**  
 
 
-[Create an AI asset in the asset inventory]()
+[View your AI assets in the asset library \(Lux UI\)]()
+
+[Create an asset in the AI asset inventory \(Next Experience UI\)]()
+
+[Create an asset in AI Admin Center \(Lux UI\)]()
+
+[Create an intent in AI Admin Center \(Lux UI\)]()
+
+[Edit an intent in AI Admin Center \(Lux UI\)]()
+
+[Create a data asset in AI Admin Center \(Lux UI\)]()
 

@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/order-management/quote-tm-creat
 release: brazil
 topic_type: task
 last_updated: "2026-05-07"
-reading_time_minutes: 5
+reading_time_minutes: 6
 breadcrumb: [Fields, ServiceNow Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
@@ -94,18 +94,22 @@ Fields created through the ServiceNow Quote Experience administration interface 
 
 26. In the **False Label** field, enter the text to display when the field value is false.
 
-27. Configure picklist field options
-28. In the **Selection Type** field, select how users choose values from this picklist.
+27. Map fields.
+
+    For more information, see [Configure transaction-to-quote field mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configure-opportunity-quote-mapping.md).
+
+28. Configure picklist field options
+29. In the **Selection Type** field, select how users choose values from this picklist.
 
     -   Select **Single-select** so users can choose one option at a time.
     -   Select **Multi-select** so users can choose more than one option.
-29. In the **Comparison Type** field, select how the selected option's value is treated when used in a rule condition.
+30. In the **Comparison Type** field, select how the selected option's value is treated when used in a rule condition.
 
     -   Select **Text** to treat the option value as a string in comparisons.
     -   Select **Number** to treat the option value as a numeric value in comparisons.
-30. Select **+ Add Picklist Options** to add the first option to the picklist.
+31. Select **+ Add Picklist Options** to add the first option to the picklist.
 
-31. Configure the option properties using the following fields.
+32. Configure the option properties using the following fields.
 
     |Property|Description|
     |--------|-----------|
@@ -116,20 +120,20 @@ Fields created through the ServiceNow Quote Experience administration interface 
     |**Description**|An optional description of the option, visible in the administration interface.|
     |**Image URL**|The URL of a image to display in place of the option label text on the quote layout.|
 
-32. Select **Save Option** to add the option to the picklist.
+33. Select **Save Option** to add the option to the picklist.
 
-33. Select **+ Add Option** to add another option and repeat the previous two steps until all options are added.
+34. Select **+ Add Option** to add another option and repeat the previous two steps until all options are added.
 
-34. Configure date/time field options
-35. In the **Default Value** field, enter the default date and time for the field.
+35. Configure date/time field options
+36. In the **Default Value** field, enter the default date and time for the field.
 
     The value is stored and displayed in UTC format: `YYYY-MM-DDTHH:MM:SSZ`. For more information about date and time field behavior, see [Date and time field fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-tm-date-time-field-behavior.md).
 
-36. In the **Not Before** field, enter the earliest date and time a user can select for this field.
+37. In the **Not Before** field, enter the earliest date and time a user can select for this field.
 
-37. In the **Not After** field, enter the latest date and time a user can select for this field.
+38. In the **Not After** field, enter the latest date and time a user can select for this field.
 
-38. Select **Save** to save the field configuration.
+39. Select **Save** to save the field configuration.
 
     The field is saved and associated with the blueprint. It appears in the Associated Fields list and is available to add to a quote layout.
 

@@ -1,5 +1,5 @@
 ---
-title: Review ITOM artifacts
+title: Review IT Operations Management artifacts
 description: The Data Collection app contains a pre-build data metric structure for the ServiceNow Performance Analytics application and includes artifact types.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/dc-itom-install-artifacts.html
@@ -7,10 +7,10 @@ release: brazil
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Impact Value Management Data Collection Content Pack for ITOM, Enable data collection for Value Management, Configuring Impact, Impact]
+breadcrumb: [Impact Value Management Data Collection Content Pack for IT Operations Management, Enable data collection for Value Management, Guided Setup, Configuring Impact, Impact]
 ---
 
-# Review ITOM artifacts
+# Review IT Operations Management artifacts
 
 The Data Collection app contains a pre-build data metric structure for the ServiceNow Performance Analytics application and includes artifact types.
 
@@ -32,15 +32,15 @@ The content pack comes with the following artifact types. For configuring the pr
 
 **Note:** The frequencies of all applicable indicators and indicator sources have been changed to monthly from quarterly. If this is not the first time using this content pack, you should run a baseline historical job \(data collection job\) to capture applicable historical data. The historical data will be visualized in a future enhancement of the dashboard.
 
-Also, this version of the ITOM Data Collection app relies on IT Service Management product licensing for the metrics highlighted below. Currently, the workaround involves manually updating these metrics in Impact.
+Also, this version of the IT Operations Management Data Collection app relies on IT Service Management product licensing for the metrics highlighted below. Currently, the workaround involves manually updating these metrics in Impact.
 
 The app contains the following artifacts for each of the above-specified artifact types.
 
 |Artifact type|Name|
 |-------------|----|
 |Automated|Impact VM - ITOM - \# of Incidents Closed This Month|
-|Automated|Impact VM - ITOM - \# of L1 Incidents Closed This Month|
-|Automated|Impact VM - ITOM - \# of L2+ Incidents Closed This Month|
+|Automated|Impact VM - Impact - \# of L1 Incidents Closed This Month|
+|Automated|Impact VM - Impact - \# of L2+ Incidents Closed This Month|
 |Automated|Impact VM - ITOM - Average Time to Close an Incident \(hrs\)|
 |Automated|Impact VM - Auto-Created Incidents in This Month|
 |Automated|Impact VM - Number Alerts Triggered in This Month|
@@ -73,5 +73,5 @@ The app contains the following artifacts for each of the above-specified artifac
 |Group Type|Tier 1|
 |Group Type|Tier 2+|
 
-**Parent Topic:**[Impact Value Management Data Collection Content Pack for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/data-collection-itom.md)
+**Parent Topic:**[Impact Value Management Data Collection Content Pack for IT Operations Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/data-collection-itom.md)
 

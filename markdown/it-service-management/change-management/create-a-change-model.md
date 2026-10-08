@@ -8,7 +8,7 @@ product: Change Management
 classification: change-management
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Configure, Change Management, IT Service Management]
 ---
 
@@ -217,6 +217,10 @@ Configure categories that helps to classify available templates in the Create a 
 
 -   **[Configure change model states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/configure-change-model-states.md)**  
 Configure states for change models and define transition between multiple states.
+-   **[State field policies for change models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/state-field-policies-change-models.md)**  
+Use state field policies to make change request fields mandatory or read-only at each state in a change model. Policies are enforced on the form when a change request is created or updated.
+-   **[Change model attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/change-model-attributes.md)**  
+Change model attributes are tags that you assign to states in a change model. Scripts can check which attributes are present in the current state of a change and turn functionality on or off for that state.
 -   **[Create predefined transition condition types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/create-predefined-transition-condition-type.md)**  
 Create predefined transition conditions to reuse the conditions for your Change models.
 -   **[Model script editor role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/model-script-editor-roles.md)**  

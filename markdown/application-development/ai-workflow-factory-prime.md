@@ -1,21 +1,21 @@
 ---
-title: AI Workflow Factory Prime
-description: AI Workflow Factory Prime enables you to discover, build, run, and extend on the ServiceNow AI Platform. From process and task mining, to agentic and sandbox development, use the AI Workflow Factory Prime tools to help your team move from idea to production faster.
+title: AI Workflow Factory
+description: AI Workflow Factory enables you to discover, build, run, and extend on the ServiceNow AI Platform. From process and task mining, to agentic and sandbox development, use the AI Workflow Factory capabilities to help your team move from idea to production faster.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/ai-workflow-factory-prime.html
 release: brazil
 topic_type: concept
 last_updated: "2026-09-09"
-reading_time_minutes: 4
+reading_time_minutes: 5
 keywords: [AI workflow factory prime, AI workflow factory]
 breadcrumb: [Building applications]
 ---
 
-# AI Workflow Factory Prime
+# AI Workflow Factory
 
-AI Workflow Factory Prime enables you to discover, build, run, and extend on the ServiceNow AI Platform®. From process and task mining, to agentic and sandbox development, use the AI Workflow Factory Prime tools to help your team move from idea to production faster.
+AI Workflow Factory enables you to discover, build, run, and extend on the ServiceNow AI Platform®. From process and task mining, to agentic and sandbox development, use the AI Workflow Factory capabilities to help your team move from idea to production faster.
 
-**Important:** Check your entitlements to determine whether you have access to AI Workflow Factory Prime tools and features.
+**Important:** Check your entitlements to determine whether you have access to AI Workflow Factory tools and capabilities.
 
 ## Get started
 
@@ -45,17 +45,21 @@ AI Workflow Factory Prime enables you to discover, build, run, and extend on the
 
 </td></tr><tr><td>
 
+[Process Mining\[Omitted image "bus-optimize-manage.svg"\] Alt text:Analyze and optimize your business processes.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining.md)
+
+</td><td>
+
 [ServiceNow Otto for App Engine\[Omitted image "bus-elevate.svg"\] Alt text:Add AI capabilities to custom applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/now-assist-for-app-engine/add-ai-to-custom-apps-with-now-assist-for-app-engine-enterprise.md)
 
 </td><td>
 
 [ServiceNow Otto for Creator\[Omitted image "bus-app-creator.svg"\] Alt text:Use AI capabilities such as Build Agent to make development on the ServiceNow AI Platform more efficient.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/now-assist-for-creator/now-assist-for-creator-landing.md)
 
-</td><td>
+</td></tr><tr><td>
 
 [ServiceNow Studio for App Engine \[Omitted image "bus-explore.svg"\] Alt text:ServiceNow Studio for App Engine includes premium plugins and capabilities for ServiceNow Studio.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/servicenow-studio-landing.md)
 
-</td></tr><tr><td>
+</td><td>
 
 [Table Builder for App Engine\[Omitted image "bus-learn.svg"\] Alt text:Create, design, and administer tables and forms visually from a single user interface.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/form-builder-glide-family-release/tb-landing-page.md)
 
@@ -63,9 +67,17 @@ AI Workflow Factory Prime enables you to discover, build, run, and extend on the
 
 [Task Mining\[Omitted image "bus-learn.svg"\] Alt text:Collect and analyze workstation activities to understand how tasks are performed, identify inefficiencies, and make data-driven decisions.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/task-mining.md)
 
-</td><td>
+</td></tr><tr><td>
 
 [Workspace Builder \[Omitted image "bus-explore.svg"\] Alt text:Create and tailor custom workspaces where agents work on open records.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/workspace-builder/workspace-builder-landing.md)
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
 
 </td></tr></tbody>
 </table>## App Engine Management Center
@@ -91,6 +103,10 @@ Creator Studio is a tool that enables citizen developers to build request and fu
 ## Developer Sandboxes
 
 Developer Sandboxes provide isolated development environments that enable parallel building and testing on top of a shared development instance. Use sandboxes to reduce code conflicts, accelerate delivery, and safely test configurations without affecting other team members' work.
+
+## Process Mining
+
+Process Mining enables you to create automated business process flows from your data that enable you to monitor and more quickly discover inefficiencies in your processes.
 
 ## ServiceNow Otto for App Engine
 

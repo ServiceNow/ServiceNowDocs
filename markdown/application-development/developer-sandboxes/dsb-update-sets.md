@@ -9,7 +9,7 @@ classification: developer-sandboxes
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Explore, Developer Sandboxes, Developing your application, Building applications]
+breadcrumb: [Explore, Developer Sandboxes, Build, AI Workflow Factory, Building applications]
 ---
 
 # Update sets transfer between sandboxes and base instance
@@ -26,4 +26,6 @@ Use these sources with the standard update set process to retrieve, preview, and
 When a sandbox is retired, both sources are removed automatically. The base instance source is deleted, and the sandbox source is dropped along with the rest of the sandbox data. No manual cleanup is needed.
 
 **Note:** Source control is the preferred approach for transferring changes between sandbox and base. Update set sources are available as an alternative for teams that use update-set-based workflows.
+
+**Parent Topic:**[Exploring Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/developer-sandboxes/exploring-sandboxes.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/appointment-booking-components.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-09-22"
 reading_time_minutes: 3
 breadcrumb: [Components installed with additional plugins, Reference, Field Service Management]
 ---
@@ -168,6 +168,18 @@ sn\_apptmnt\_booking.use\_task\_activity\_catalog
 
 Enables the use of the column activity\_catalog created on task\_activity for querying \(filters the task activities for a work order task based on appointments\). ServiceNow recommends not to modify the value of the property as it affects performance of Appointment Booking.-   **Type**: True/False
 -   **Default value**: true
+-   **Location**: System Properties list
+
+</td></tr><tr><td>
+
+sn\_apptmnt\_booking.enforce\_arrive\_by\_day\_end\_check
+
+</td><td>
+
+When enabled, system evaluates whether work can be completed before end of day. Appointment slots where the work duration exceeds the available time of the technician are excluded from the available slots. This ensures customers only see the slots where technicians can finish work within their shift. **Note:** Applicable when **Use slot end time as** is set to **Arrive by** with scripted or capacity-based availability methods.
+
+-   **Type**: True/False
+-   **Default value**: false
 -   **Location**: System Properties list
 
 </td></tr></tbody>

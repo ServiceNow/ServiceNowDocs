@@ -7,7 +7,7 @@ release: brazil
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: concept
-last_updated: "2026-08-05"
+last_updated: "2026-10-05"
 reading_time_minutes: 3
 keywords: [erp, canvas, erp canvas, model, integration, data hub, zero, copy, connector, sap, erp data, connect]
 breadcrumb: [Workflow Data Fabric]
@@ -23,8 +23,6 @@ Legacy systems of record, such as SAP, can have old, complex custom code and dat
 
 The replatforming of legacy code enables innovation on top of the system of record without knowledge of the legacy system. Administrators and developers are then relieved of time-consuming efforts to create database views or endpoints in the system of record and can work on other projects, such as migration.
 
-\[Omitted image "image.erpc-landing-page-infographic"\] Alt text: Querying SAP and identifying data models to simplify ERP.
-
 Use models as the foundation for ERP apps. These models include ERP system data in remote tables and extraction tables. The models enable you to perform read, update, and create operations on the ERP system. After you create models, you can use the extracted and transformed data to build apps that access the models. For example, use ServiceNow Studio or Creator Studio to build apps, or use the ERP data in flows within Workflow Studio.
 
 Zero Copy Connector for ERP content packs are sets of predefined models and process extensions that are useful examples for developers with little or no SAP domain knowledge. Content packs accelerate the work so that building use cases involving SAP data becomes a faster process that more developers can accomplish. For more information, see [Zero Copy Connector for ERP content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-content-packs.md).
@@ -38,7 +36,7 @@ Zero Copy Connector for ERP supports the following ERP systems:
 -   Workday
 -   Oracle E-Business Suite \(EBS\)
 
-**Note:** For information about new and updated features in the Brazil release, see .
+**Note:** For information about new and updated features in the Brazil release, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/zero-copy-connector-for-erp-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/zero-copy-connector-for-erp-rn.md).
 
 <table id="table_iwv_lpv_klb1" class="nav-card"><tbody><tr><td>
 
@@ -89,7 +87,7 @@ Zero Copy Connector for ERP has several training and learning resources for you 
 
 </td></tr><tr><td>
 
-\[Omitted image "bus-whitepaper.svg"\] Alt text:[ERP modernization: Working toward a clean core](https://www.servicenow.com/blogs/2022/erp-modernization-toward-clean-core.html)
+\[Omitted image "bus-whitepaper.svg"\] Alt text:[ERP moion: Working toward a clean core](https://www.servicenow.com/blogs/2022/erp-modernization-toward-clean-core.html)
 
 </td></tr></tbody>
 </table>## Requesting Zero Copy Connector for ERP on the store

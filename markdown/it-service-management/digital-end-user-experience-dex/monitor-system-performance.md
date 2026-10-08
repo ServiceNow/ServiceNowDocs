@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [system performance, performance monitoring, cpu memory disk metrics, resource availability]
-breadcrumb: [Monitor application performance, Manage, Digital End-User Experience, IT Service Management]
+breadcrumb: [Monitor application performance, Manage employee experience, Digital End-User Experience, IT Service Management]
 ---
 
 # Monitor system performance

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-brazil/brazil-zurich-mcpserverconsole-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 8
 breadcrumb: [Products combined by family]
 ---
@@ -85,7 +85,7 @@ With this release, you can now create tools from additional categories like, Kno
 With this release, Moveworks is shipping a Moveworks Quickstart Server. This server allows users to pilot access to upcoming capabilities like Knowledge graph, Subflow, Action, and scripted REST APIs for use with Moveworks MCP client, and ServiceNow Model Context Protocol Client application. These tools can only be added to Moveworks Quickstart Server.
 
 
- -   **[\[Placeholder link text to key bundle-platai.ai-native-sku-overview\]](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&family=zurich&ft:locale=en-US)**
+ -   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&family=zurich&ft:locale=en-US)**
 
 The ServiceNow AI Platform now brings you an AI native experience with three licensing tiers available:
 
@@ -116,18 +116,17 @@ Australia
 
 </td><td>
 
--   **[Create tools from additional capabilities for use with ServiceNow MCP clients](https://www.servicenow.com/docs/access?context=creating-tools-mcp-server&family=australia&ft:locale=en-US)**
-
-With this release, you can now create tools from additional categories like, Subflow, Action, REST APIs, Knowledge graphs and Now Assist skills.
-
-
- -   **[Monitoring dashboard](https://www.servicenow.com/docs/access?context=monitoring-dashboard&family=australia&ft:locale=en-US)**
+-   **[Monitoring dashboard](https://www.servicenow.com/docs/access?context=monitoring-dashboard&family=australia&ft:locale=en-US)**
 
 Explore MCP Server monitoring dashboard to review the performance and usage of the MCP servers and tools in a specific time frame.
 
 -   **[Create client authorizations](https://www.servicenow.com/docs/access?context=create-client-authorizations&family=australia&ft:locale=en-US)**
 
 Explore an alternate way of OAth creation with Client Authorization option by integrating OAuth Client registration directly within the MCP Server Console. This feature eliminates the need to switch between different consoles.
+
+-   **[View record access and flow execution from MCP clients](https://www.servicenow.com/docs/access?context=agentic-usage-overview-dashboard&family=australia&ft:locale=en-US)**
+
+Monitor record access and flow executions from inbound agentic connections to MCP servers from the Agentic Usage Overview Dashboard.
 
 -   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&family=australia&ft:locale=en-US)**
 
@@ -136,6 +135,11 @@ The ServiceNow AI Platform now brings you an AI native experience with three lic
     -   Foundation: AI agents and skills to deliver insights
     -   Advanced: AI agents and skills to boost productivity across relevant use cases
     -   Prime: Act autonomously with all AI agents and skills, and create your own
+
+ -   **[Create tools from additional capabilities for use with ServiceNow MCP clients](https://www.servicenow.com/docs/access?context=creating-tools-mcp-server&family=australia&ft:locale=en-US)**
+
+With this release, you can now create tools from additional categories like, Subflow, Action, REST APIs, Knowledge graphs and Now Assist skills.
+
 
 </td></tr><tr><td>
 
@@ -314,7 +318,7 @@ Brazil
 
 -   **Activation information**
 
-MCP Server Console is available with activation of a Now Assist application. For more information, see [Installing Generative AI Controller](https://www.servicenow.com/docs/access?context=installing-generative-ai-controller&family=brazil&ft:locale=en-US) and [Install Now Assist plugins](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&family=brazil&ft:locale=en-US).
+MCP Server Console is available with activation of a Now Assist application. For more information, see [Installing Generative AI Controller](https://www.servicenow.com/docs/access?context=installing-generative-ai-controller&family=brazil&ft:locale=en-US) and [Install plugins for ServiceNow Otto](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&family=brazil&ft:locale=en-US).
 
 **Note:** For patch compatibility, see the [Model Context Protocol Server listing](https://store.servicenow.com/store/app/6e521bf447713e9482f632c4f16d434e#versionSummary) in the ServiceNow Store.
 

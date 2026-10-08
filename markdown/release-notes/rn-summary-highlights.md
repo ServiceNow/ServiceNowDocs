@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/rn-summary-highlights.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-25"
-reading_time_minutes: 67
+last_updated: "2026-10-08"
+reading_time_minutes: 76
 breadcrumb: [Release notes summaries for Brazil features, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
@@ -30,11 +30,13 @@ AI Admin Center
 
 </td><td>
 
--   Accelerate and simplify setup of your AI solutions in a unified experience. The workspace enables you to work with multiple AI applications without leaving AI Admin Center.
+-   Accelerate and simplify setup of your AI solutions in a unified experience. AI Admin Center enables you to work with multiple AI applications from a single experience.
 -   Easy-to-use conversational interface to perform common admin tasks, from basic setup to proposed AI implementations to guided help.
 -   Get started right away with guided quick-start use cases that appear as actionable cards on the home page. This gives both new and experienced administrators a clear starting point for enabling AI.
 -   Automated assessment of your instance readiness helps you prepare for AI adoption. The readiness assessment enables you to assess whether updates, installations, or customizations on your instance could affect AI implementation. It helps you to identify configuration gaps, view actionable insights, measure readiness over time.
 -   Analyze your instance data to identify automation opportunities that provide the greatest efficiency gains. View and activate prebuilt AI agents that match the opportunities, or create and deploy new AI agents for them.
+-   Use the ServiceNow Otto conversational experience to perform admin tasks, set up AI solutions, troubleshoot common issues, and get guided help.
+-   Review and evaluate the readiness of your instance for AI adoption and instance upgrades.
 
 See [AI Admin Center \(formerly Now Assist Center\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-center-landing-page.md) for more information.
 
@@ -135,7 +137,7 @@ AI Risk and Compliance
 -   Manage conformity of AI assets with global regulations and frameworks.
 -   Identify and address potential impacts on privacy, non- discrimination, and other human rights.
 
-See [Version 23.0.3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/grc-airc-rn.md) for more information.
+See [September 2026](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/grc-airc-rn.md) for more information.
 
 </td></tr><tr><td>
 
@@ -148,7 +150,27 @@ API
 -   Use inbound REST APIs to interact with various ServiceNow functionalities within your application.
 -   Client Next Experience APIs include client APIs compatible with the Next Experience UI.
 
-See [API implementation and reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/api-implementation-reference.md) for more information.
+See  for more information.
+
+</td></tr><tr><td>
+
+Access Analyzer
+
+</td><td>
+
+-   Analyze access to resources \(tables\).
+-   Compare the access of two users.
+-   Compare the roles and groups of two users.
+-   Generate a report showing whether an identity has access to a resource \(table\).
+-   Understand who has access for critical security hygiene.
+-   Avoid over-provisioning permissions.
+-   Achieve the least privilege principals when implementing access controls.
+-   Limit access to certain data, which includes applications, tables, rows or columns, and other resources.
+-   Provide reporting capabilities for the analyzer results.
+-   Compare access between user records and access controls.
+-   Determine the right level of access for users on your ServiceNow AI Platform instance.
+
+See [Access Analyzer documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/explore-access-analyzer.md) for more information.
 
 </td></tr><tr><td>
 
@@ -200,7 +222,7 @@ Agent Chat
 -   Agent Chat connects directly to ServiceNow workflows, enabling agents to access customer context, update records, and resolve issues without switching between systems.
 -   AI-powered responses and automation handle routine inquiries, freeing agents to focus on complex, high-value interactions and improving overall productivity and job satisfaction.
 
-See [Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/ci-use-agent-chat.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -228,6 +250,20 @@ See [Customer Service Workspace](https://raw.githubusercontent.com/ServiceNow/Se
 
 </td></tr><tr><td>
 
+App Engine Management Center
+
+</td><td>
+
+-   Oversee requests for new custom applications from Creator Studio, App Engine Studio, and ServiceNow Studio.
+-   Manage and approve deployment requests for App Engine, ReleaseOps, and standalone pipelines.
+-   Assign Developer Sandboxes licenses to selected instances.
+-   View insights into custom app production and usage across your organization.
+-   Analyze individual developer trends and contributions.
+
+See  for more information.
+
+</td></tr><tr><td>
+
 App Engine Studio
 
 </td><td>
@@ -237,7 +273,20 @@ App Engine Studio
 -   Use app templates, such as the Time Off template, to build applications, or create your own templates.
 -   Publish apps using the App Engine Management Center.
 
-See [App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/aes-overview.md) for more information.
+See App Engine Studio for more information.
+
+</td></tr><tr><td>
+
+Application Runtime Policy
+
+</td><td>
+
+-   Enforce detailed controls over what resources an application in development can access at runtime.
+-   Automatically generate resource access policies while exercising application functionality.
+-   Review, approve, and modify generated access policies to verify intended resource access.
+-   For ServiceNow Store partner developers, reduce ServiceNow Store certification time through structured declarations of an application's runtime resource access.
+
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -268,6 +317,7 @@ Authentication
 
 </td><td>
 
+-   Require a caller who is already authenticated to complete an additional challenge before reaching an AI voice agent that handles a sensitive request, such as a password reset or access to bank account details.
 -   Simplify the login experience by crafting login policies that present relevant methods based on user context with the Policy-based experience - Identifier-first login experience.
 -   Act before SSO is disrupted with home page banner alerts when SAML SP signing or encryption keystores are nearing or past expiry.
 -   Authenticate callers in AI voice agent sessions using a one-time passcode delivered to a registered email address, as a standalone, primary, or secondary factor.
@@ -278,6 +328,18 @@ Authentication
 -   Register an external authorization server — such as Microsoft Entra ID or Okta — as a trusted token issuer for the MCP Server, so MCP clients can authenticate using tokens from your enterprise identity provider.
 
 See [Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_Authentication.md) for more information.
+
+</td></tr><tr><td>
+
+Automation Center
+
+</td><td>
+
+-   Manage your entire automation life cycle from a single workspace, from capturing ideas to tracking deployed automations.
+-   Measure the value of your automations with dashboards that track time saved, cost savings, and return on investment.
+-   Speed up delivery by standardizing how teams submit, review, and approve automation requests.
+
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -304,7 +366,7 @@ Build Agent and Autonomous Engineer
 -   Decrease development costs because Build Agent handles code compilation, quality checks, and documentation of existing applications automatically.
 -   Enable agentic development by letting you create agentic workflows, custom AI agents, and skills tailored to your organization directly from within ServiceNow Studio.
 
-See [Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/build-agent.md) for more information.
+See  and  for more information.
 
 </td></tr><tr><td>
 
@@ -357,19 +419,6 @@ Card Data Security
 -   View external documents from card networks, acquirers, and merchants at the transaction level of a dispute in an updated Attachments view.
 
 See [Card Data Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/card-data-security.md) for more information.
-
-</td></tr><tr><td>
-
-Care Team Work Management
-
-</td><td>
-
--   Create ad-hoc or recurring scheduled task plans for care teams across one or more units.
--   Use the unified workspace landing page for managing cases and tasks.
--   Streamline rounding workflows and reduce administrative burden by leveraging the Operational Rounding playbook.
--   Standardize recurring unit-level work, such as daily safety checks or shift readiness reviews, with the Care team activities playbook.
-
-See  for more information.
 
 </td></tr><tr><td>
 
@@ -567,14 +616,24 @@ See [Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow
 
 </td></tr><tr><td>
 
+Customer Service Problem Management
+
+</td><td>
+
+-   Identify and resolve service problems that customers experience, using a structured approach to customer-reported issues.
+-   Define tests that diagnose service problems, then apply targeted solutions based on the results.
+-   Resolve broadband and internet issues with AI-driven workflows that track network tickets and create actionable tasks for customer agents.
+
+See [Customer Service Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/cspm-landing-page.md) for more information.
+
+</td></tr><tr><td>
+
 Customer Success Management
 
 </td><td>
 
--   Automatically generate, update, and enrich conversation briefs for touchpoint meetings by integrating transcripts, emails, and notes.
--   Guide customer success managers by recommending AI-generated success plays for customers in neutral or positive states.
--   Monitor individual engagement health from the Engagement Record Page with a daily AI-generated summary.
--   Use the Technology Account 360 to get a unified view of customer or partner account details combining account health, financial, product usage, and open tasks.
+-   Capture meeting agenda items and follow-up next steps as structured records instead of freeform text.
+-   Associate a single engagement with multiple onboarding cases.
 
 See [Customer Success Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-events-landing.md) for more information.
 
@@ -629,7 +688,7 @@ Data Management for CSM
 -   Manage related parties and deal context on sold products, and enable customers to create and track Return Merchandise Authorization \(RMA\) cases directly from the portal.
 -   Track business organization outages efficiently. As a major case manager, get auto-proposed major cases and child cases for every affected organization, ensuring consistent updates across all impacted accounts.
 
-See [Data management for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-data-management.md) feature for more information.
+See  feature for more information.
 
 </td></tr><tr><td>
 
@@ -668,7 +727,33 @@ Developer Sandboxes
 -   Integrate with source control \(Git\), reducing merge conflicts and making co-development smoother compared to shared development instances.
 -   Safely test configurations, workflows, and integrations within your own sandbox before promoting changes, reducing rework and protecting system stability.
 
-See [Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/sandboxes-landing.md) for more information.
+See  for more information.
+
+</td></tr><tr><td>
+
+Digital End-User Experience
+
+</td><td>
+
+-   Digital End-User Experience \(DEX\) detects and fixes potential technology issues before they affect you. Your IT team deploys DEX to monitor computers and applications.
+-   DEX collects usage and performance data from endpoints. It uses metric rules to detect issues, remediate them automatically, and engage you proactively.
+-   With the DEX Desktop Assistant, you can troubleshoot local applications, use Virtual Agent, run network tests, and contact IT support. Admins can send alerts to your Desktop Assistant.
+-   DEX includes DEX Application and Device Health, DEX Content Playbook, and DEX Desktop Assistant. Application and Device Health provides end-to-end visibility into applications, networks, and devices, regardless of location.
+
+See [Digital End-User Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/dex-landing-cf.md) for more information.
+
+</td></tr><tr><td>
+
+Digital Product Release
+
+</td><td>
+
+-   Plan, validate, and track product releases in one workspace, so product teams share a single view of release readiness.
+-   Gate release progression with policies that evaluate data from the AI Platform and from connected planning and CI/CD tools.
+-   Restrict release visibility to the teams that own a release, and inherit that access down to release phases, phase tasks, and linked records.
+-   Hand a validated release to Change Management, so change approval focuses on deployment scheduling and service impact.
+
+For more information, see [Digital Product Release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/dpr-landing-page.md).
 
 </td></tr><tr><td>
 
@@ -684,6 +769,7 @@ Discovery store applications
 
 </td><td>
 
+-   AI Agent Topology Mapping: Discover AI resources deployed on Microsoft Foundry \(new\) and Microsoft Foundry Hub.
 -   Discovery and Service Mapping Patterns: 12 Oracle and 7 Red Hat application patterns, AWS Marketplace and IBM Flash Storage patterns, Cisco Nexus Virtual Routing and Forwarding \(VRF\) discovery, and Oracle Wallet support on Windows.
 -   Cloud Service Graph Connectors:
     -   Service Graph Connector for AWS
@@ -699,6 +785,7 @@ See the following documentation for more information:
 -   [Service Graph Connector for Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/cmdb-integration-azure.md)
 -   [Service Graph Connector for GCP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/sgc-cmdb-integration-gcp.md)
 -   [ITOM Content Service candidates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-content-service-classifiers.md)
+-   [AI Agent Topology Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/ai-agent-topology-mapping-landing.md)
 
 </td></tr><tr><td>
 
@@ -830,7 +917,7 @@ Enterprise Architecture
 -   Work from a single Enterprise Architecture Workspace home page with role-based views for enterprise architects, administrators, and analysts, including portfolio insights, tasks that need your attention, and portfolio health.
 -   Ensure the accuracy, completeness, and reliability of enterprise architecture data with configurable Data Certification policies.
 
-See [Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/ea-workspace.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -859,6 +946,19 @@ Event Management
 -   Reduce manual effort by automating alert handling with ServiceNow Otto for ITOM.
 
 See [Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/c_EM.md) for more information.
+
+</td></tr><tr><td>
+
+Export to PowerPoint
+
+</td><td>
+
+-   Generate and download project status reports as Microsoft PowerPoint files directly from your instance.
+-   Create custom report templates using text, table, line chart, bar chart, and repeater data types.
+-   Share status reports with stakeholders and teams to support collaboration and planning.
+-   Use default templates for detailed project reviews or high-level executive summaries.
+
+See [Export to PowerPoint for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/export-ppt-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -911,6 +1011,16 @@ See [Financial Services Card Operations](https://raw.githubusercontent.com/Servi
 
 </td></tr><tr><td>
 
+Financial Services Operations Core
+
+</td><td>
+
+The case type selector in Financial Services Operations now uses the predefined Customer Service Management \(CSM\) implementation, replacing the previous FSO-specific override.
+
+See  for more information.
+
+</td></tr><tr><td>
+
 Financial Services Operations Integration with Visa
 
 </td><td>
@@ -943,7 +1053,19 @@ Flows, subflows, and actions
 -   Pass data between the steps of a flow.
 -   Pass data between child subflows and their parent calling flows.
 
-See [Workflow Studio flows, subflows, and actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio-flows-subflows-and-actions-landing.md) for more information.
+See  for more information.
+
+</td></tr><tr><td>
+
+Goal Framework
+
+</td><td>
+
+-   Create strategic plans, define organizational goals with quantitative or qualitative targets, and establish real-time checkpoints across daily, weekly, monthly, quarterly, and yearly frequencies to track execution.
+-   Associate work and planning items—including demand, projects, and portfolios—with strategic goals and targets to provide end-to-end performance visibility across the organization.
+-   Support Enterprise PMO \(EPMO\) and portfolio managers with customizable goal preferences, weighted progress calculations, and centralized governance to drive business outcomes aligned to strategic priorities.
+
+See [Goal Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/goal-framework.md) for more information.
 
 </td></tr><tr><td>
 
@@ -983,6 +1105,20 @@ Health Log Analytics
 -   Uncover patterns in log data using built-in AI and ML.
 
 See [Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/hla-landing-page.md) for more information.
+
+</td></tr><tr><td>
+
+Healthcare Operations
+
+</td><td>
+
+-   Create ad-hoc or recurring scheduled task plans for care teams across one or more units with Care Team Work Management. See  for more information.
+-   Submit and track operational requests from a self-service Care Team Portal.
+-   Create, assign, and edit care team cases and tasks from Care Team Mobile. See  for more information.
+-   Route and fulfill department-specific requests through the Care Team Operations for Biomed, Care Team Operations for Environmental Services, Care Team Operations for Facilities, and Care Team Operations for Healthcare IT apps.
+-   Use a dedicated ServiceNow Otto assistant, the Care Team Operations AI Chat Assistant, for conversational case intake and creation by chat or voice. See  for more information.
+
+All of these apps build on the Healthcare Operations Core data model for locations, organizations, and departments.
 
 </td></tr><tr><td>
 
@@ -1071,7 +1207,7 @@ Using ITSM MCP Server, manage incidents, change requests, and on-call schedule. 
 -   **On-call scheduling:** Retrieve rosters and shifts, request time off, and query availability through natural-language questions.
 
 
-See  for more information.
+See [ITSM MCP Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itsm-mcp-server-overview.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1092,7 +1228,7 @@ Impact
 </td><td>
 
 -   Achieve success your way with tailored resources, driving outcomes aligned to your business priorities.
--   Accelerate business outcomes faster with the AI Control Tower, reducing time to measurable impact.
+-   Accelerate business outcomes faster with AI Control Tower, reducing time to measurable impact.
 -   Adopt ServiceNow products and AI innovations rapidly, ensuring your team moves at the speed of transformation.
 -   Maximize your ServiceNow investment, proving its value to stakeholders through measurable adoption and outcomes.
 -   Improve platform health with proactive guidance, keeping your instance optimized and future-ready.
@@ -1124,7 +1260,7 @@ Intelligent approvals
 -   Translate an approval policy document into AI-generated approval rules.
 -   Use a approval policy document as the source of truth.
 
-See [Intelligent approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/intelligent-approvals.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -1145,6 +1281,7 @@ Knowledge Graph
 
 </td><td>
 
+-   External users with the snc\_external role can now access Knowledge Graph when the sn\_kg.enable\_external\_user\_check property is set to true.
 -   Improved search results accuracy with enhanced Knowledge Graph integration in ServiceNow® Otto for Virtual Agent Virtual Agent, ServiceNow Otto panel and AI Agent applications.
 
 
@@ -1199,7 +1336,7 @@ Live Connect
 -   Supports OAuth authentication for secure, FedRamp-compliant connections.
 -   Integrates with enterprise analytics platforms such as Pyramid Analytics, Power BI, and Tableau.
 
-See [Access your ServiceNow data using Live Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/web-services/accessing-your-servicenow-data-using-sql-api.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -1226,6 +1363,39 @@ Log Export Service
 -   Connect to your analytics tools using a dedicated MID Server, a Kafka connector from your analytics solution, or a direct Kafka connection.
 
 See [Log Export Service \(LES\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/les-intro.md) for more information.
+
+</td></tr><tr><td>
+
+Lux
+
+</td><td>
+
+-   Build widget-based UI experiences that run on your instance, using Lit components for pages and widgets.
+-   Render pages on the server and stream the HTML to the browser, which hydrates it into an interactive single-page app.
+-   Show fully rendered content on first load, with markup that assistive technology and search engines can read.
+-   Fetch data on the server with loaders that run near your instance.
+-   Map your pages directory to URLs with file-based routing.
+-   Inherit the design system automatically through Tailwind and DaisyUI styling.
+-   Share data across widgets with the Context API, and across pages with layout data.
+-   Deploy your scoped application to an instance on its own schedule with the ServiceNow SDK.
+
+See the Lux documentation for more information, .
+
+</td></tr><tr><td>
+
+Lux Lab
+
+</td><td>
+
+-   Start a project from a base experience, an extension of an existing application, or a collection, and let Lux Lab scaffold it for you.
+-   Extend existing applications by adding extension targets from the file explorer's right-click menu.
+-   Create collection pages and control which page each user sees by adding access rules in a guided, two-step flow.
+-   Preview your application locally and deploy it to your instance without leaving the app.
+-   Edit code with the built-in editor and source control, including inline Git blame that shows who last changed each line.
+-   Get started quickly with a first-launch setup that checks your environment and signs you in to your instance.
+-   Create store applications with a custom scope that doesn't require your instance's company code.
+
+For more information, see .
 
 </td></tr><tr><td>
 
@@ -1276,7 +1446,7 @@ Next Experience Components
 -   Build rich UI experiences with prebuilt system or custom components. To view the Next Experience Components API reference and usage guidance documentation, visit the [Horizon site Components section](https://horizon.servicenow.com/workspace/components).
 -   Use common web component patterns and principles, such as a JavaScript framework, immutable data, and simple action handlers.
 -   Reuse components across multiple user interfaces to create a cohesive experience for your end users.
--   Use preset property values to configure properties and event handlers automatically for a component. As a result, the component is ready to work when you add it to a page. Presets can connect to a controller that acts as a data resource for the component. For more information, see [Automatically configure components using presets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/presets.md) and [Bind data to UI Builder pages using controllers \(advanced feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/controllers.md).
+-   Use preset property values to configure properties and event handlers automatically for a component. As a result, the component is ready to work when you add it to a page. Presets can connect to a controller that acts as a data resource for the component. For more information, see  and .
 
 </td></tr><tr><td>
 
@@ -1378,6 +1548,21 @@ See [Opportunity Management](https://raw.githubusercontent.com/ServiceNow/Servic
 
 </td></tr><tr><td>
 
+Order Management
+
+</td><td>
+
+-   Create and implement enrichment flows that the system applies during order orchestration.
+-   Configure jeopardy management rules to monitor fulfillment tasks and alert managers when tasks are at risk.
+-   Detect errors or exceptions during order processing and take corrective actions to improve SLA compliance and expedite order processing.
+-   Create and track orders via the workspace, or import orders from third-party systems.
+-   Speed up fulfillment with orchestration workflows driven by an advanced product catalog using the order orchestration UI.
+-   Enable post-sale support and drive customer satisfaction by effectively managing customer requests for disconnecting, suspending, or resuming products or services.
+
+See [Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/explore-order-management.md) for more information.
+
+</td></tr><tr><td>
+
 Partner Relationship Management
 
 </td><td>
@@ -1414,6 +1599,32 @@ Performance Analytics
 -   Continually visualize historical and real-time process statistics in role-based dashboards. The dashboards enable individual stakeholders to make informed decisions.
 
 See [Performance Analytics \(Indicator data sources\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/pa-overview.md) for more information.
+
+</td></tr><tr><td>
+
+Platform Analytics experience
+
+</td><td>
+
+-   Create dashboards to visually share your data with stakeholders in your organization.
+-   Create, update, and share visualizations based on indicators, tables or other data to share with others.
+-   Filter lists and visualizations on dashboards based on values, date, or true/false.
+-   Delve into the information behind your Key Performance Indicators \(KPIs\) and learn when processes behave in unexpected ways.
+
+See [Platform Analytics experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/par-workspace.md) for more information.
+
+</td></tr><tr><td>
+
+Playbooks
+
+</td><td>
+
+-   Playbooks are structured, guided workflows that lead users, agents, or technicians through the steps required to complete a business process, such as case resolution or work order fulfillment.
+-   Playbooks consist of sequential stages, each containing activities that can be manual tasks, automated actions, or guided decisions, ensuring consistency and conformance across records.
+-   Benefits include eliminating the need to memorize processes, providing real‑time guidance, automating routine steps, and enabling administrators to update processes centrally, which applies to all users.
+-   Playbooks support use cases across multiple domains.
+
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -1614,7 +1825,7 @@ ReleaseOps
 -   Schedule releases for routine updates or trigger on-demand releases to fast-track patches and hotfixes.
 -   Resolve deployment issues efficiently with auto-generated deployment tasks that are assigned to the right stakeholders.
 
-See [ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/releaseops-landing.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -1649,10 +1860,11 @@ Retail
 -   Schedule and manage recurring tasks such as daily store opening procedures with parent cases for store-level tracking.
 -   Fulfillment of store case and task for regional managers and store teams through Retail mobile app.
 -   Let store associates and managers view and act on the Strategic Portfolio Management project work behind a store opening, closing, renovation, or relocation, without leaving the Retail application.
+-   Let store staff raise, track, and update break-fix and store inquiry cases from their AI assistant using the Retail MCP Server.
 
 See [Retail](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-operations-overview.md) for more information.
 
--   **[Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/c_CustomerServiceManagement.md)**
+-   ****
 
 The ServiceNow ® Customer Service Management \(CSM\) application provides the foundation for the Retail Core application. Leverage the functionality of CSM applications to provide support to customers as well as retail sites.
 
@@ -1660,6 +1872,20 @@ The ServiceNow ® Customer Service Management \(CSM\) application provides the f
 
 The ServiceNow ® Field Service Management application aligns with Retail Core by providing capabilities such as work orders for use by each retail location that uses the Retail Core application.
 
+
+</td></tr><tr><td>
+
+Retail Strategic Portfolio Management Suite
+
+</td><td>
+
+-   Plan, execute, and track store life cycle projects including new store openings, closures, refurbishments, relocations, and technology refreshes using a single workspace.
+-   Apply predefined project templates and retail-specific project fields to standardize how every store project is structured and tracked across the portfolio.
+-   Guide project teams through each store scenario using stage-gate playbooks with embedded approvals, exit criteria, and activity sequences.
+-   Gain portfolio-level visibility across all store projects with consistent milestone tracking and automatic status rollups.
+-   Make project tasks visible to store teams so that headquarters and store personnel collaborate on the same platform.
+
+See [Retail Strategic Portfolio Management Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/spm-retail-suite-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1702,6 +1928,18 @@ See [Mobile experience for Sales CRM](https://raw.githubusercontent.com/ServiceN
 
 </td></tr><tr><td>
 
+Sales CRM for Telecommunications
+
+</td><td>
+
+-   Manage the full sales and order lifecycle, from product catalog and specification management to order capture, fulfillment orchestration, and fallout handling.
+-   Generate and reuse catalog-driven task plan templates to orchestrate order fulfillment automatically, without manual task setup on repeat orders.
+-   Use AI Agents to convert a fulfilment-journey image or similar past orders into a ready-to-publish orchestration template.
+
+See [Sales Customer Relationship Management for Telecommunications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/sales-crm.md) for more information.
+
+</td></tr><tr><td>
+
 Security Incident Response
 
 </td><td>
@@ -1723,7 +1961,7 @@ Self-service and omnichannel engagement for CSM
 -   Handle inbound calls intelligently by configuring AI Voice Agents with ServiceNow Voice and Amazon Connect.
 -   Initiate WebRTC voice calls from portal pages or engagement messenger with a widget that maintains call state and context across page navigation.
 
-See [Self-service for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/self-service-options-csm-customers.md), and [Omnichannel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/omnichannel.md) for more information.
+See , and  for more information.
 
 **Note:** Self-service and omnichannel applications are available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
@@ -1748,6 +1986,7 @@ Service Exchange \(formerly Service Bridge\)
 -   Run provider and consumer instances on different platform releases and application versions without disrupting the active entitlements or processes.
 -   Keep the development of shared catalogs and the workflows/integrations in the provider instance while sharing them with consumers as simple record producers that generate integrated requests in the provider instance.
 -   Share selected foundational data types with your consumers on a scheduled cadence to reduce manual effort, and eliminate the need to share data externally.
+-   Upgrade consumer connections from Resource Owner Password Credentials \(ROPC\) to Client Credentials OAuth by using the Upgrade Auth action on the Connection record, to improve security and compliance without off-boarding or re-onboarding.
 
 See [Service Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/tmt-service-bridge-both-landing-page.md) for more information.
 
@@ -1801,6 +2040,31 @@ See [Service Operations Workspace for ITSM](https://raw.githubusercontent.com/Se
 
 </td></tr><tr><td>
 
+Service Reliability Management
+
+</td><td>
+
+-   Give teams a self-service experience to manage the health and reliability of their services.
+-   Organize teams and service ownership so responsibilities for maintaining services are clearly defined.
+-   Support service operations with team ownership and on-call workflows that help coordinate response when issues occur.
+-   Access SRM features on the go with ITOM Mobile Agent on iOS and Android devices.
+
+See [Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/sr-landing-page.md) for more information.
+
+</td></tr><tr><td>
+
+Service Test Management
+
+</td><td>
+
+-   Create test definitions with configurable parameters, such as test type, frequency, duration, and target entities, and reuse pre-defined templates.
+-   Map test groups to a specification or product model, and run each group either automated or manual.
+-   Establish test measures and threshold rules so agents can run instant tests and diagnostics, with decision tables controlling which diagnostics pages appear on task records.
+
+See [Service Test Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/stm-landing-page.md) for more information.
+
+</td></tr><tr><td>
+
 ServiceNow AI Platform core feature
 
 </td><td>
@@ -1815,6 +2079,14 @@ See [Administer the ServiceNow AI Platform](https://raw.githubusercontent.com/Se
 
 </td></tr><tr><td>
 
+ServiceNow Cowork
+
+</td><td>
+
+See [ServiceNow Cowork](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/servicenow-cowork-landing.md) for more information.
+
+</td></tr><tr><td>
+
 ServiceNow Lux Lab for VS Code
 
 </td><td>
@@ -1826,7 +2098,7 @@ ServiceNow Lux Lab for VS Code
 -   Access relevant experiences, pages, and widgets from your instance.
 -   Develop tailored experiences with AI tools.
 
-See [ServiceNow Lux Lab for VS Code extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-ai-experience-lab-for-vs-code-landing.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -1841,6 +2113,18 @@ ServiceNow Otto for Contract Management Pro
 -   Review contract documents in external AI tools using organizational playbook guidance from . AI-proposed redlines follow approved playbooks rather than general guidance.
 
 See [AI capabilities in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/cncore-exp-now-assist-land.md) for more information.
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Hardware Asset Management \(HAM\)
+
+</td><td>
+
+-   Automate repetitive sourcing tasks and reduce workload on asset managers.
+-   Reduce response and resolution time for hardware and repair requests.
+-   Consolidate asset data across related records and identify action items with AI-generated analysis.
+
+See [ServiceNow Otto for Hardware Asset Management \(HAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/now-assist-ham.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1875,7 +2159,7 @@ ServiceNow Otto for Virtual Agent
 -   Empower users to self-serve with AI agents, enhanced or premium chat with AI Search, conversational catalog skills, and more.
 -   Seamlessly transfer the entire conversation history and context to the right human agent so they can quickly address any escalations and resolve user issues.
 
-See [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent-landing-page.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -1890,7 +2174,7 @@ The ServiceNow Quote Experience is enhanced to integrate with Subscription Manag
 -   Create an auto-renewal automatically, enabling a renewal pipeline before expiration.
 -   Initiate an early or late renewal and add or remove products during the renewal process, providing greater flexibility to accommodate changing needs.
 
-See [ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quoting-experiences-overview.md) for more information.
+See [Subscription Management in Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/sm-quote-integration.md).
 
 </td></tr><tr><td>
 
@@ -1902,7 +2186,7 @@ ServiceNow Studio
 -   Access low-code builders available in the ServiceNow AI Platform, including Table Builder and flows in Workflow Studio, alongside other development tools.
 -   Package changes for deployment using update sets, pipelines, or the Application Repository without leaving ServiceNow Studio.
 
-See [ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-landing.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -1986,7 +2270,7 @@ Stream Connect
 -   Monitor consumer and producer performance with detailed reporting of statistics and performance metrics.
 -   Integrate your ServiceNow instance directly with your local Kafka environment with Direct Kafka.
 
-See [Using Stream Connect for Apache Kafka](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/stream-connect-apache-kafka.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -2122,7 +2406,7 @@ Visa Spoke
 -   Connect with Visa's REST APIs to manage card disputes with VROL.
 -   Perform transaction inquiries, order digital insights, collaborate with merchants, and handle other dispute events with enhanced security through Visa spoke actions.
 
-See [Visa Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/visa-spoke.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -2151,6 +2435,31 @@ See [Vulnerability Response Integration with Claroty CTD](https://raw.githubuser
 
 </td></tr><tr><td>
 
+Workforce Optimization for CSM
+
+</td><td>
+
+-   Manage location‑based holiday calendars to improve workforce scheduling by mapping holidays to specific regions, enabling managers to plan shifts with accuracy, and reduce manual adjustments.
+-   Enhance the Manager Dashboard with standalone installation support and new AI-powered widgets \(Sentiment Analysis, Trending Topics, and Auto QA\) to provide actionable insights.
+-   Support real-time supervisor assistance during customer calls in Manager Workspace, enabling monitoring, whisper coaching, and direct participation.
+-   Analyze the help requested interactions segmented by different channels, such as Chat, Email, Messaging, Phone and Video.
+-   Enable Schedule Management as a standalone capability, with backward compatibility for existing deployments and no additional configuration required after activation.
+
+See  for more information.
+
+</td></tr><tr><td>
+
+Zero Copy Connector for ERP
+
+</td><td>
+
+-   Add Workday RaaS reports to read operations by pasting a sample report response.
+-   Connect to Oracle E-Business Suite \(12.2 and later\).
+
+See  for more information.
+
+</td></tr><tr><td>
+
 Zero Copy Connectors
 
 </td><td>
@@ -2160,7 +2469,7 @@ Zero Copy Connectors
 -   Connect to MySQL and PostgreSQL databases using primary connectors.
 -   Authenticate to Databricks and Snowflake using your own credentials with personal authentication support.
 
-See [Zero Copy Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/zero-copy-connectors.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 

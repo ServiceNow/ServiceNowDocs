@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-l
 release: brazil
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Manage engagements, Customer success, Use, Customer Success Management]
 ---
 
@@ -138,7 +138,7 @@ Initial onboarding
 
 </td><td>
 
-Select the initial account onboarding case associated with this account. This is a required field.
+Select the initial account onboarding case associated with this account. This is a required field. To associate more onboarding cases with the engagement, see [Link an engagement to an onboarding case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-link-engage-onb-case.md).
 
 </td></tr><tr><td>
 

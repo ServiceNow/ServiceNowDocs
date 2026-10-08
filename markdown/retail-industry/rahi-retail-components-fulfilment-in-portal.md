@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-retail-components-fulfilment-in-portal.html
 release: brazil
 topic_type: reference
-last_updated: "2026-07-14"
+last_updated: "2026-10-05"
 reading_time_minutes: 3
 breadcrumb: [Components installed with plugins, Reference, Retail]
 ---
@@ -34,7 +34,7 @@ Plugin Dependencies
 
 Retail In-store Operations
 
- \[com.sn\_rtl\_in\_store\_ops\]
+ \[com.sn\_rtl\_instore\_ops\]
 
 </td><td>
 
@@ -43,11 +43,29 @@ Reused plugin. Enables the portal record pages, the Tasks tab on a Store Case, a
 </td><td>
 
 -   com.sn\_retail\_core
--   
 
+</td></tr><tr><td>
+
+Smart Assessment for CSM
+
+ \[com.sn\_smart\_ast\_csm\]
+
+</td><td>
+
+Optional. Provides the **Questionnaires** tab and the page where store users take or view a questionnaire. Without it, the portal shows no **Questionnaires** tab and no **Take questionnaire** or **View questionnaire** action.
+
+</td><td>
+
+-   com.snc.fsm\_smart\_asmt\_questionnaire
+-   com.sn\_smart\_assessment\_connected
+-   com.glide.ux.embeddables
 
 </td></tr></tbody>
-</table>## Roles used by Fulfilment in Portal
+</table>The questionnaire on the portal relies on Web Embeddables. Retail Core enables Web Embeddables on the Retail Portal automatically when it's installed or upgraded.
+
+## Roles used by Fulfilment in Portal
+
+Portal fulfilment uses the Retail In-store Operations roles. Area and regional managers with the contributor role \(sn\_rtl\_instore\_ops.manager\_contributor\) can't claim or reassign store plan tasks on the portal.
 
 <table id="table_roles-fulfilment-in-portal"><thead><tr><th>
 
@@ -81,7 +99,7 @@ sn\_rtl\_instore\_ops.manager
 
 </td><td>
 
-All associate capabilities, plus: can close a case or task on behalf of the assigned associate, can close a case with open tasks \(warning, not blocked\), and can reopen a closed case.
+All associate capabilities, plus: can close a case or task on behalf of the assigned associate. Sees cases and tasks for their store and the stores below it in the organization hierarchy. Store plan cases are assigned to the store manager automatically.
 
 </td><td>
 
@@ -99,9 +117,9 @@ All associate capabilities, plus: can close a case or task on behalf of the assi
 |Status|Read-only \(badge\)|Open|
 |Description|Read-only|Plan-authored. Collapsed by default on the standard header.|
 |Assigned to|Editable via Edit modal|Store Manager or Associate|
+|Assignment group|Editable via Edit modal|Retail store members|
 |Priority|Read-only|3 - Moderate|
 |Due date|Read-only|2026-08-02 00:00:00|
-|Parent|Read-only, plain text \(not hyperlinked\)|RHC00163|
 |Supporting retail org|Read-only|Solana San Diego|
 |Requesting retail org|Read-only|Solana California|
 

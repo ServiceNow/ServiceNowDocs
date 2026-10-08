@@ -9,7 +9,7 @@ classification: app-engine-management-center
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Explore, App Engine Management Center, Governing app development, Building applications]
+breadcrumb: [Explore, App Engine Management Center, Run, AI Workflow Factory, Building applications]
 ---
 
 # Get help with App Engine Management Center
@@ -34,4 +34,6 @@ Some ServiceNow resources that can provide you with helpful information are:
 
 
 
+
+**Parent Topic:**[Exploring the App Engine Management Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/exploring-aemc.md)
 

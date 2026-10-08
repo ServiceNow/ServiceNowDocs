@@ -72,15 +72,15 @@ Azure**Note:** Azure doesn’t currently support web search.
 
 6.  Complete one of the following actions based on the following scenarios.
 
-<table id="choicetable_qlm_kmw_xfc"><thead><tr><th align="left" id="d46251e206">
+<table id="choicetable_qlm_kmw_xfc"><thead><tr><th align="left" id="d53938e206">
 
 Scenario
 
-</th><th align="left" id="d46251e209">
+</th><th align="left" id="d53938e209">
 
 Action required
 
-</th></tr></thead><tbody><tr><td id="d46251e215">
+</th></tr></thead><tbody><tr><td id="d53938e215">
 
 **Connection is available**
 
@@ -88,7 +88,7 @@ Action required
 
 If a connection is already available within the Connections related list, continue to the next step.
 
-</td></tr><tr><td id="d46251e224">
+</td></tr><tr><td id="d53938e224">
 
 **Connection isn’t available and must be created**
 

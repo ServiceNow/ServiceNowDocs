@@ -8,8 +8,8 @@ product: App Engine Management Center
 classification: app-engine-management-center
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 1
-breadcrumb: [App Engine Management Center, Governing app development, Building applications]
+reading_time_minutes: 3
+breadcrumb: [App Engine Management Center, Run, AI Workflow Factory, Building applications]
 ---
 
 # Configuring AEMC
@@ -30,4 +30,17 @@ The following list outlines the process for configuring AEMC and related feature
     -   [Configure ReleaseOps in AEMC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/configure-releaseops-in-aemc.md)
     -   [Configure a standalone environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/configure-standalone.md)
 5.  [Test App Engine Management Center functionality on a non-production instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/test-aemc-non-production-instance.md) to verify that AEMC is working as expected, before you start deploying changes to production.
+
+-   **[Configure the App Engine Management Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/configure-aemc.md)**  
+Use the App Engine Management Center \(AEMC\) guided setup to step through the initial configuration of the Application Intake and Pipelines and Deployments applications. The Application Intake guided setup is optional, but if you want to use AEMC, the Pipelines and Deployments guided setup is required.
+-   **[Configure Application Intake](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/config-app-intake.md)**  
+Use the App Engine Studio \(AES\) Application Intake guided setup to step through the initial configuration of the Application Intake application. Detailed instructions for each step are provided in subsequent sections of the product documentation.
+-   **[Configure ReleaseOps in AEMC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/configure-releaseops-in-aemc.md)**  
+Complete ReleaseOps guided setup in AEMC to start using ReleaseOps for your deployments.
+-   **[Configure Pipelines and Deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/config-p-and-d.md)**  
+Use the Pipelines and Deployments guided setup to complete the initial configuration of Pipelines and Deployments. Detailed instructions for each step are provided in subsequent sections of the product documentation.
+-   **[Configure a standalone environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/configure-standalone.md)**  
+With App Engine Management Center \(AEMC\), you no longer need an active deployment pipeline to get started. Complete the standalone environment setup to start deploying changes quickly. You can add a pipeline later when you're ready to automate deployments.
+
+**Parent Topic:**[App Engine Management Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/app-engine-management-center.md)
 

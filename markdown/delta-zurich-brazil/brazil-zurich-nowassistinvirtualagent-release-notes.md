@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-brazil/brazil-zurich-nowassistinvirtualagent-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 36
+last_updated: "2026-10-08"
+reading_time_minutes: 37
 breadcrumb: [Products combined by family]
 ---
 
@@ -78,10 +78,6 @@ Zurich
 -   **[View Live Agent status updates](https://www.servicenow.com/docs/access?context=nava-integrated-chat&family=zurich&ft:locale=en-US)**
 
 Routing messages and section headers indicate when the live agent has entered and left the chat in premium chat conversations.
-
--   **[Assign Model Context Protocol \(MCP\) servers to an assistant](https://www.servicenow.com/docs/access?context=assign-mcp-servers&family=zurich&ft:locale=en-US)**
-
-Admins can assign configured Model Context Protocol \(MCP\) servers to assistants. Role-based access can be configured for each assigned MCP server to control which users can access MCP-provided capabilities through the assistant.
 
 -   **[Brand and personalize an assistant](https://www.servicenow.com/docs/access?context=brand-assistant&family=zurich&ft:locale=en-US)**
 
@@ -468,6 +464,21 @@ Enhancements to Now Assist in Virtual Agent assistants and Now Assist panel Plat
 Use the enhanced Now Assist panel for a more intuitive and personalized experience. The updated Now Assist panel is resizable and can be moved anywhere on the ServiceNow AI platform.
 
 
+ -   **[Add the portable chat widget to a 3rd-party website](https://www.servicenow.com/docs/access?context=add-portable-va-client-website&family=zurich&ft:locale=en-US)**
+
+Embed the chat widget for enhanced chat on third-party websites.
+
+-   **[Configure voice settings for a chat assistant](https://www.servicenow.com/docs/access?context=manage-chat-voice-exp&family=zurich&ft:locale=en-US)**
+
+Turn voice dictation on or off for an assistant on the **Voice experience** page. For ServiceNow Otto for Virtual Agent assistants, voice dictation is only available for premium chat. For ServiceNow Otto panel – Platform assistant, voice dictation is available for all chat experiences.
+
+**Note:** Voice dictation was previously known as voice input, which was enabled from within [Enable additional chat features](https://www.servicenow.com/docs/access?context=additional-chat-features&family=zurich&ft:locale=en-US).
+
+-   **[Display assistant on Platform or ServiceNow Studio](https://www.servicenow.com/docs/access?context=display-nap-assistant&family=zurich&ft:locale=en-US)**
+
+For eligible new customers, premium chat is the default and the only available chat experience. If the assistant uses the Now LLM provider, the premium chat option isn't available.
+
+
 </td></tr><tr><td>
 
 Australia
@@ -514,7 +525,7 @@ In **Assistant Designer** &gt; **Assistants** &gt; **Branding**, the standard ch
 
  -   **[Now Assist &gt; ServiceNow Otto® announcement](https://www.servicenow.com/docs/access?context=sn-ai-implementation-landing&family=zurich&ft:locale=en-US)**
 
-Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
 
 
  -   **[Changes to Now Assist usage measurement](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=zurich&ft:locale=en-US)**
@@ -614,6 +625,15 @@ Manually enter into web search mode via the input bar for standard and enhanced 
 If AI Guardian is enabled and the end user's request contains profane content, the Virtual Agent responds with a message prompt to re-enter an appropriate request without profanity or offensive content.
 
 
+ -   **[Enable additional chat features](https://www.servicenow.com/docs/access?context=additional-chat-features&family=zurich&ft:locale=en-US)**
+
+The **Prioritize AI agents during skills discovery** option is available when configuring additional chat features. Because all assistants now use agentic orchestration by default, AI agent skills are available during skills discovery. Turning on this option gives AI agents priority over other assets \(such as knowledge bases and Q&amp;A modules\) when the assistant discovers skills. If your assistant has overlapping skills, for example, a knowledge base article and an AI agent that both answer the same question, this setting enables you to decide which one is prioritized, so you can steer users toward the AI agent experience instead of a static article.
+
+-   **[Upload files improvements](https://www.servicenow.com/docs/access?context=upload-documents-na-va&family=zurich&ft:locale=en-US)**
+
+Upload up to 10 files or 50 MB for the following file types: PDF native, PDF OCR, Word, PPTX, Excel, CSV, TXT, JPEG, and PNG for premium chat in ServiceNow Otto for Virtual Agent and the Otto panel.
+
+
 </td></tr><tr><td>
 
 Australia
@@ -690,6 +710,15 @@ Zurich
 -   In Patch 4, the Now Assist skills page in the assistant admin guided setup has been removed due to the skills being turned on by default.
 
  -   In Patch 1, Bing support for the searching and scraping search result type is no longer supported when adding a web search tool in AI Skill Kit.
+
+ -   **Agentic support**
+
+The **Agentic support** page has been deprecated for ServiceNow Otto for Virtual Agent and ServiceNow Otto panel - Platform. There is no loss in functionality previously provided by the **Agentic support** page. By default, all existing assistants operate in agentic mode. The **Prioritize AI agents during skills discovery** option is available when configuring additional chat features in [\[Placeholder link text to key additional-chat-features\]](https://www.servicenow.com/docs/access?context=additional-chat-features&family=zurich&ft:locale=en-US).
+
+-   **[ServiceNow Otto for Virtual Agent system properties](https://www.servicenow.com/docs/access?context=nava-sys-props&family=zurich&ft:locale=en-US)**
+
+The **sn\_nowassist\_va.assistant\_personalization** system property is removed from the admin experience. This property previously enabled administrators to show or hide chat personalization options \(agent persona, tone, and response length\) when branding an assistant. By default, all settings are shown in [Brand and personalize an assistant](https://www.servicenow.com/docs/access?context=brand-assistant&family=zurich&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 

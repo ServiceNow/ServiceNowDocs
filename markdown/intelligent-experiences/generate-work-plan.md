@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/generate-work-plan.html
 release: brazil
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-09-28"
 reading_time_minutes: 9
 breadcrumb: [Platform agentic workflows, Agentic workflows, AI agents and agentic workflows, Enable AI Experiences]
 ---
@@ -42,7 +42,7 @@ To access this workflow, you must have ServiceNow Otto for Platform installed on
 
 Now LLM is not a supported LLM provider for the Generate my work plan agentic workflow.
 
-## Role masking
+## Role filtering
 
 Required role: sn\_uxc\_gen\_ai.platform\_ai\_work\_planner.
 

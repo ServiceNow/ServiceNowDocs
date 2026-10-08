@@ -84,9 +84,3 @@ Option to indicate the time \(in minutes\) beyond which occupancy data is consid
 
 **Next topic:**[Provider Connector Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-connectors/provider-connector-config-occupancy.md)
 
-**Parent Topic:**[Setup Workplace Connectors for occupancy data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-connectors/setup-occupancy-connectors.md)
-
-**Previous topic:**[Integrate Metrikus spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-connectors/integrate-metrikus-flowdesigner.md)
-
-**Next topic:**[Provider Connector Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-connectors/provider-connector-config-occupancy.md)
-

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-retail-complete-questionnaire-portal.html
 release: brazil
 topic_type: task
-last_updated: "2026-07-14"
+last_updated: "2026-09-30"
 reading_time_minutes: 1
 breadcrumb: [Fulfill In-store operations cases and tasks on the Retail Portal, Manage store plans, Retail]
 ---
@@ -18,6 +18,8 @@ Complete task-based questionnaires for HQ-to-store communication directly on the
 
 Role required: sn\_rtl\_instore\_ops.manager or sn\_rtl\_instore\_ops.associate
 
+The Smart Assessment for CSM plugin \(com.sn\_smart\_ast\_csm\) must be installed. Without it, the **Questionnaires** tab doesn't appear on the portal.
+
 ## About this task
 
 **Note:** Only the user assigned to the Store Task can fill in and submit its questionnaire. Other users can view the answers but can't edit or submit them.
@@ -27,6 +29,8 @@ Role required: sn\_rtl\_instore\_ops.manager or sn\_rtl\_instore\_ops.associate
 1.  From the Retail Portal, navigate to **Cases &amp; tasks**, and open the Store Task with the linked questionnaire.
 
 2.  Select the **Questionnaires** tab.
+
+    If the task isn't assigned yet, the tab reads "The questionnaire will be available once this task is assigned."
 
     The tab shows a card with the questionnaire name, description, current status, and last-updated timestamp.
 

@@ -73,7 +73,7 @@ Allowed user roles The specific user roles that can access this AI agent.
 
 </td><td>
 
-sn\_ap\_cm.agent
+sn\_ap\_cm.agent, now\_assist\_panel\_user
 
 </td></tr><tr><td>
 
@@ -81,7 +81,7 @@ Data access roles The specific user identity roles that determine which data the
 
 </td><td>
 
-sn\_ap\_cm.agent
+sn\_ap\_cm.agent, now\_assist\_panel\_user
 
 </td></tr><tr><td>
 

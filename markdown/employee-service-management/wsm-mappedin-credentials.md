@@ -41,5 +41,3 @@ Role required: sn\_wsd\_mappedin.admin
 
 **Parent Topic:**[Setting up Workplace Space Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/set-up-workplace-service-mapping.md)
 
-**Parent Topic:**[Setting up Workplace Space Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/set-up-workplace-service-mapping.md)
-

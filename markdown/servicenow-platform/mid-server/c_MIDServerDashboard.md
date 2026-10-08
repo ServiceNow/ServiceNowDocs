@@ -25,7 +25,7 @@ The MID Server dashboard is a central place for MID Server users to monitor ongo
 
 After upgrading to Discovery Admin Workspace version 1.3.1 \(August 2024 Store\), you can navigate to **Workspaces** &gt; **Discovery Admin Workspace** &gt; **Insights** and use the enhanced dashboard.
 
-**Note:** To access the MID Server Dashboard, the user must have the **mid\_server** or **admin** role. The Discovery Admin Workspace requires the **discovery\_admin** role. Group-based access follows standard ServiceNow role inheritance; ensure users in the group have the appropriate role assigned. For role setup, see [Create the MID Server user and grant the role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/t_SetupMIDServerRole.md)
+**Note:** To access the MID Server Dashboard, the user must have the **agent\_admin** or **admin** role. The Discovery Admin Workspace requires the **discovery\_admin** role. Group-based access follows standard ServiceNow role inheritance; ensure users in the group have the appropriate role assigned. For role setup, see [Create the MID Server user and grant the role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/t_SetupMIDServerRole.md)
 
 ## MID Server Overview tab
 

@@ -1,6 +1,6 @@
 ---
 title: Customize ServiceNow Otto context menu for skills
-description: If you have the admin role, you can customize a ServiceNow Otto for Customer Service Management \(CSM\) skill so that agents can use the generative AI skills in CRM Workspace and in Core UI.
+description: Customize the ServiceNow Otto context menu for CSM case fields to configure AI-powered actions like generating resolution notes, shortening, and elaborating on content.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/customize-now-assist-context-menu-for-skills.html
 release: brazil
@@ -15,7 +15,7 @@ breadcrumb: [Configure, ServiceNow Otto for CSM, Customer Service Management]
 
 # Customize ServiceNow Otto context menu for skills
 
-If you have the admin role, you can customize a ServiceNow Otto for Customer Service Management \(CSM\) skill so that agents can use the generative AI skills in CRM Workspace and in Core UI.
+Customize the ServiceNow Otto context menu for CSM case fields to configure AI-powered actions like generating resolution notes, shortening, and elaborating on content.
 
 ## Before you begin
 
@@ -23,13 +23,13 @@ Role required: admin
 
 **Note:**
 
-The context menu configuration is accessible through the AI Experiences in AI Admin Hub console. After activating the relevant skills, users are prompted to visit the Case NACM Config however, in the base system , configuration is already active. By default, it is configured to use extended tables for the resolution notes and activity response generation skill that is provided in the base system.
+The context menu configuration is accessible through the AI Experiences in AI Admin Hub console. After activating the relevant skills, users are prompted to visit the Case NACM Config. However, in the base system, configuration is already active. By default, it is configured to use extended tables for the resolution notes and activity response generation skill that is provided in the base system.
 
 Case NACM Config is currently only available for resolution notes and activity response generation skill.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Experiences**.
+1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **AI Experiences**.
 
 2.  Select ServiceNow Otto context menu.
 
@@ -58,7 +58,7 @@ Case NACM Config is currently only available for resolution notes and activity r
     3.  Configure the **Actions for generated content** to **Insert**.
     In the preview you can see how the context menu button will look like after configuration.
 
-    By default, the **Enable support for extended tables** toggle is turned on and this configuration is shipped as active in the base system. This is to support sparkle on extended table on same field. Once the skill is active, this experience is available.
+    By default, the **Enable support for extended tables** toggle is turned on and this configuration is shipped as active in the base system. When the skill is active, this experience is available.
 
 11. Select **Define access** to determine who can access this skill.
 
@@ -66,7 +66,7 @@ Case NACM Config is currently only available for resolution notes and activity r
 
     Default and Custom Roles:
 
-    -   If no changes are made, the default roles n\_customerservice\_agent and sn\_customerservice.consumer\_agent automatically appear in **Define Access** and **Select Display**.
+    -   If no changes are made, the default roles sn\_customerservice\_agent and sn\_customerservice.consumer\_agent automatically appear in **Define Access** and **Select Display**.
     -   If custom roles were added before the upgrade, they are updated automatically by a script.
     -   If new roles are created after the upgrade, you can manually add them in both the **Define Access** and **Select Display**.
 
@@ -76,7 +76,7 @@ Case NACM Config is currently only available for resolution notes and activity r
 
     -   Select In-product desktop to show Case NACM Config in all customer products on forms and workspaces.
     -   Select roles for whom NACM config will be displayed.
-13. In**Review and Activate** select **Activate** to activate the context menu for the skill.
+13. In **Review and Activate** select **Activate** to activate the context menu for the skill.
 
     A record with the specific usage conditions can be selected from the drop down to test the configuration.
 

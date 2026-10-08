@@ -30,7 +30,7 @@ Connect your Amazon Connect contact center to a ServiceNow voice assistant using
 
 1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Assistant Designer** &gt; **Assistants**.
 
-2.  Find the voice assistant that you want to connect to Amazon Connect and select **Edit**.
+2.  Find the voice assistant to connect to Amazon Connect and select **Edit**.
 
 3.  Select the **Settings** tab.
 
@@ -40,22 +40,22 @@ Connect your Amazon Connect contact center to a ServiceNow voice assistant using
 
 6.  Select the **Telephony provider** tab.
 
-7.  From the **Communication channels** dropdown, select **Public Switched Telephone Network \(PSTN\)**.
+7.  From the **Communication channels** drop-down list, select **Public Switched Telephone Network \(PSTN\)**.
 
-8.  From the **CCaaS provider** dropdown, select **Amazon Connect**.
+8.  From the **CCaaS provider** drop-down list, select **Amazon Connect**.
 
-    The following read-only fields are generated in the **Call context service** section. Copy and save these values — you will need them to configure the integration on the Amazon Connect side.
+    The following read-only fields are generated in the **Call context service** section. Copy and save these values — you need them to configure the integration on the Amazon Connect side.
 
     |Field|Description|
     |-----|-----------|
-    |Transfer method|Read-only. Set to **BYE** for Amazon Connect.|
-    |Call context API|Read-only. The URL that Amazon Connect uses to send call context data to the voice assistant. Copy this value for use as the `call_context_api_path` and `voice_service_host_name` Lambda environment variables.|
-    |Client ID|Read-only. Generated client ID for OAuth2 authentication. Copy this value for use in the AWS Parameter Store setup.|
-    |Client Secret|Read-only. Generated client secret for OAuth2 authentication. Copy this value for use in the AWS Parameter Store setup.|
+    |Transfer method|Value set to **BYE** for Amazon Connect.|
+    |Call context API|The URL that Amazon Connect uses to send call context data to the voice assistant. Copy this value for use as the `call_context_api_path` and `voice_service_host_name` Lambda environment variables.|
+    |Client ID|Generated client ID for OAuth2 authentication. Copy this value for use in the AWS Parameter Store setup.|
+    |Client Secret|Generated client secret for OAuth2 authentication. Copy this value for use in the AWS Parameter Store setup.|
 
     \[Omitted image "voice-agents-amazon-connect-integration.png"\] Alt text: Amazon Connect integration configuration showing the Transfer method, Call context API URL, Client ID, and Client Secret fields.
 
-    Also note the voice service `sys_id`, which you can find in the URL when viewing the voice service record. You will need this value in the Amazon Connect configuration steps.
+    Also note the voice service sys\_id, which you can find in the URL when viewing the voice service record. You need this value in the Amazon Connect configuration steps.
 
     **Note:** The Call Context API uses client credentials OAuth 2.0. For more details, see [Client Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/client-credentials.md).
 
@@ -69,17 +69,19 @@ Connect your Amazon Connect contact center to a ServiceNow voice assistant using
 
         \[Omitted image "voice-agents-persist-context-data.png"\] Alt text: The persist\_context\_data configuration attribute record for the voice service with its value set to true.
 
-    3.  If the attribute does not exist, navigate to `sys_now_assist_deployment_config.list`, open your voice assistant's deployment configuration record, and copy its `sys_id`.
+    3.  If the attribute does not exist, navigate to `sys_now_assist_deployment_config.list`, open your voice assistant's deployment configuration record, and copy its sys\_id.
 
-        To copy the `sys_id`, right-click the record header bar and select **Copy sys\_id**.
+        To copy the sys\_id, select and hold \(or right-click\) the record header bar and select **Copy sys\_id**.
 
-    4.  Navigate to `sys_now_assist_deployment_config_attributes.list`, click **New**, set **Deployment Configuration** to the `sys_id` you copied, **Name** to `persist_context_data`, and **Value** to `true`, then click **Submit**.
+    4.  Navigate to `sys_now_assist_deployment_config_attributes.list`, select **New**, set **Deployment Configuration** to the sys\_id you copied, **Name** to `persist_context_data`, and **Value** to `true`, then select **Submit**.
 
     When `persist_context_data` is enabled, the voice assistant saves the session context as an `interaction_context` record named `bot_context_data` after each call. For details about the stored fields, see [Bot context data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/voice-agent-reference.md).
 
 10. In your AWS account, create the Lambda function that connects Amazon Connect to the voice assistant.
 
     1.  From the AWS console, create a new Lambda function.
+
+        In the **Runtime** field, select a Node.js version that AWS currently supports. For a list of supported versions, see [https://docs.aws.amazon.com/lambda/latest/dg/lambda-nodejs.html](https://docs.aws.amazon.com/lambda/latest/dg/lambda-nodejs.html).
 
     2.  In the Lambda function code editor, replace the default handler code with the Lambda function code.
 
@@ -144,7 +146,7 @@ The hostname from the ServiceNow call context URL.
 
         In the Amazon Connect console, navigate to your instance, select **Flows**, and under **AWS Lambda**, add the Lambda function with the Invoke Lambda use case. Confirm the policy was added in the Lambda console under **Configuration** &gt; **Permissions**.
 
-        \[Omitted image "voice-agents-amazon-connect-lambda-permission.png"\] Alt text: The AWS Lambda section under Flows in the Amazon Connect instance, showing the Lambda functions dropdown and Invoke Lambda use case.
+        \[Omitted image "voice-agents-amazon-connect-lambda-permission.png"\] Alt text: The AWS Lambda section under Flows in the Amazon Connect instance, showing the Lambda functions drop-down list and Invoke Lambda use case.
 
     5.  Replace the Lambda execution role permissions policy with the Identity and Access Management \(IAM\) policy.
 
@@ -170,7 +172,7 @@ Value
 
 </th></tr></thead><tbody><tr><td>
 
-`/com.servicenow.cti/<sn-instance-id>/<voice-service-id>/client_id`Where `sn-instance-id` is the value of the `instance_id` system property \(to find this value, navigate to `sys_properties.list` and search for `instance_id`\), and `voice-service-id` is the voice service `sys_id`.
+`/com.servicenow.cti/<sn-instance-id>/<voice-service-id>/client_id`Where `sn-instance-id` is the value of the `instance_id` system property \(to find this value, navigate to `sys_properties.list` and search for `instance_id`\), and `voice-service-id` is the voice service sys\_id.
 
 </td><td>
 
@@ -178,7 +180,7 @@ Client ID from the ServiceNow voice service configuration.
 
 </td></tr><tr><td>
 
-`/com.servicenow.cti/<sn-instance-id>/<voice-service-id>/client_secret`Where `sn-instance-id` is the value of the `instance_id` system property \(to find this value, navigate to `sys_properties.list` and search for `instance_id`\), and `voice-service-id` is the voice service `sys_id`.
+`/com.servicenow.cti/<sn-instance-id>/<voice-service-id>/client_secret`Where `sn-instance-id` is the value of the `instance_id` system property \(to find this value, navigate to `sys_properties.list` and search for `instance_id`\), and `voice-service-id` is the voice service sys\_id.
 
 </td><td>
 
@@ -187,7 +189,7 @@ Client Secret from the ServiceNow voice service configuration.
 </td></tr></tbody>
 </table>        \[Omitted image "voice-agents-amazon-connect-param-store.png"\] Alt text: AWS Parameter Store filtered to the /com.servicenow.cti/ path, showing the client\_id and client\_secret parameters created as SecureString type.
 
-        **Note:** For example, if your `instance_id` property value is `a1b2c3d4a1b2c3d4a1b2c3d4a1b2c3d4` and your voice service `sys_id` is `b5c6d7e8b5c6d7e8b5c6d7e8b5c6d7e8`, create parameters named `/com.servicenow.cti/a1b2c3d4a1b2c3d4a1b2c3d4a1b2c3d4/b5c6d7e8b5c6d7e8b5c6d7e8b5c6d7e8/client_id` and `/com.servicenow.cti/a1b2c3d4a1b2c3d4a1b2c3d4a1b2c3d4/b5c6d7e8b5c6d7e8b5c6d7e8b5c6d7e8/client_secret`.
+        **Note:** For example, if your `instance_id` property value is `a1b2c3d4a1b2c3d4a1b2c3d4a1b2c3d4` and your voice service sys\_id is `b5c6d7e8b5c6d7e8b5c6d7e8b5c6d7e8`, create parameters named `/com.servicenow.cti/a1b2c3d4a1b2c3d4a1b2c3d4a1b2c3d4/b5c6d7e8b5c6d7e8b5c6d7e8b5c6d7e8/client_id` and `/com.servicenow.cti/a1b2c3d4a1b2c3d4a1b2c3d4a1b2c3d4/b5c6d7e8b5c6d7e8b5c6d7e8b5c6d7e8/client_secret`.
 
     8.  Add the AWS PowerTools layer to the Lambda function.
 
@@ -203,7 +205,7 @@ Client Secret from the ServiceNow voice service configuration.
 
         \[Omitted image "voice-agents-amazon-connect-contact-flow.png"\] Alt text: The imported Voice AI inbound contact flow showing two AWS Lambda function blocks and a Transfer to phone number block.
 
-    2.  In both AWS Lambda function blocks, set the function ARN to your Lambda and set the `voice_service_id` parameter to the voice service `sys_id`.
+    2.  In both AWS Lambda function blocks, set the function ARN to your Lambda and set the `voice_service_id` parameter to the voice service sys\_id.
 
         \[Omitted image "voice-agents-amazon-connect-lambda-block.png"\] Alt text: The Destination Key dialog in an AWS Lambda function block showing the voice\_service\_id key with its value set to the voice service sys\_id.
 

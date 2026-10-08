@@ -58,15 +58,15 @@ To learn about support for using JavaScript modules in scoped applications, incl
 
 5.  Use code from the exported module in other modules or server-side scripts.
 
-<table id="choicetable_kjx_xnm_pzb"><thead><tr><th align="left" id="d86411e162">
+<table id="choicetable_kjx_xnm_pzb"><thead><tr><th align="left" id="d99523e162">
 
 File
 
-</th><th align="left" id="d86411e165">
+</th><th align="left" id="d99523e165">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d86411e171">
+</th></tr></thead><tbody><tr><td id="d99523e171">
 
 **Module**
 
@@ -87,7 +87,7 @@ import { feature } from "path/to/module";
 3.  Call the module code from this module to reuse it.
 
 
-</td></tr><tr><td id="d86411e210">
+</td></tr><tr><td id="d99523e210">
 
 **Server-side script in source code**
 
@@ -114,7 +114,7 @@ script: `
 
 For more information about server-side scripts in source code, see [ServiceNow Fluent API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-sdk/servicenow-fluent-api-reference.md).
 
-</td></tr><tr><td id="d86411e270">
+</td></tr><tr><td id="d99523e270">
 
 **Server-side script record**
 

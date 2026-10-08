@@ -1,6 +1,6 @@
 ---
 title: ThousandEyes MCP server AI agent
-description: This AI agent investigates ThousandEyes tests. It retrieves test configuration, analyzes metrics and anomalies, correlates network events and outages, and performs path visualization to provide actionable root cause analysis. It receives a test ID and optional alert context from the orchestrator.
+description: This AI agent investigates ThousandEyes tests by analyzing metrics, anomalies, network events, and outages. It returns probable causes and recommended next steps.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/itom-obs-thousandeyes-mcp-server-agent-ai-agent.html
 release: brazil
@@ -12,19 +12,18 @@ breadcrumb: [IT Operations Management AI agents, IT Operations Management, AI ag
 
 # ThousandEyes MCP server AI agent
 
-This AI agent investigates ThousandEyes tests. It retrieves test configuration, analyzes metrics and anomalies, correlates network events and outages, and performs path visualization to provide actionable root cause analysis. It receives a test ID and optional alert context from the orchestrator.
+This AI agent investigates ThousandEyes tests by analyzing metrics, anomalies, network events, and outages. It returns probable causes and recommended next steps.
 
 ## Workflow
 
-The agent investigates a ThousandEyes test to determine the root cause of a triggered alert or a cross-referenced network issue.
+1.  Identify the test to investigate.
 
-1.  Identify the ThousandEyes test associated with the alert, either from a provided test ID or test name, or by matching a named host or service to its monitoring test.
-2.  Retrieve the test's configuration details, including its type, interval, and monitoring agent locations.
-3.  Collect the relevant performance metrics and detect anomalies for the test over an appropriate time window around the alert.
-4.  Check for related network events and internet service provider outages that could explain the issue.
-5.  Run network path visualization for test types where a network path is relevant, analyzing hop-by-hop packet loss and latency.
-6.  Review ownership tags and labels associated with the test to identify the responsible team or business unit.
-7.  Summarize the findings into a structured report, including probable root cause and recommended next steps.
+    The agent uses a provided test name or ID, along with optional alert context such as severity and trigger time.
+
+2.  Retrieve the test configuration, metrics, anomalies, and related network events and outages from ThousandEyes.
+3.  Return the findings, including information such as probable causes and recommended next steps.
+
+For more information about configuring this AI agent, see [Configure observability agents for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/configure-integration-agents-for-now-assist.md).
 
 <table><thead><tr><th>
 
@@ -123,7 +122,7 @@ Used in agentic workflows
 
 </td><td>
 
-Not applicable.
+[Analyze alert impact agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/now-assist-itom-agentic-aia.md)
 
 </td></tr></tbody>
 </table>For more information, see [ITOM AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-health-landing-page.md).

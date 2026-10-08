@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Navigate the Care Team Portal, Navigate, Care Team Portal, Healthcare Operations, Healthcare and Life Sciences]
+breadcrumb: [Navigate, Care Team Portal, Healthcare Operations, Healthcare and Life Sciences]
 ---
 
 # Create requests in the Care Team Portal
@@ -36,4 +36,13 @@ If you have the Care Team Operations for Healthcare IT or Care Team Operations f
 ## Result
 
 Your request is created and routed to the supporting department for fulfillment.
+
+## What to do next
+
+You can also create a request conversationally instead of using this form. See [Request care team assistance agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/healthcare-operations-core/hco-now-assist-request-assistance.md).
+
+**Related topics**  
+
+
+[Request care team assistance agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/healthcare-operations-core/hco-now-assist-request-assistance.md)
 

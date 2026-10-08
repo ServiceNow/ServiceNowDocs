@@ -1,6 +1,6 @@
 ---
 title: Request an AI use case
-description: Request the development or procurement of an AI system to initiate and document the need for an AI‑driven solution within an organization. This process helps ensure that AI implementations are aligned with business goals, compliant with regulations, and technically feasible.
+description: Request the development or procurement of an AI system to initiate and document the need for an AI-driven solution within an organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/ai-risk-management/request-ai-system.html
 release: brazil
@@ -15,46 +15,46 @@ breadcrumb: [Use, AI Risk and Compliance, Governance, Risk, and Compliance]
 
 # Request an AI use case
 
-Request the development or procurement of an AI system to initiate and document the need for an AI‑driven solution within an organization. This process helps ensure that AI implementations are aligned with business goals, compliant with regulations, and technically feasible.
+Request the development or procurement of an AI system to initiate and document the need for an AI-driven solution within an organization.
 
 ## Before you begin
 
-Role required: sn\_ai\_case\_mgmt.ai\_case\_business\_user \(Employee Center\), sn\_ai\_asset\_mgmt.ai\_asset\_owner \(AI Control Tower dashboard\)
+To classify AI systems using a risk-based approach at intake, a teammate with the AI Risk and Compliance Admin \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_admin\] role must complete the following.
 
-To classify AI systems using a risk‑based approach at intake, a teammate with the AI Risk and Compliance Admin \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_admin\] role must complete the following.
-
--   Set the Migrate to Advanced Risk Assessments property to publish Risk Assessment Methodologies \(RAMs\). For more information, see [Set up Advanced Risk assessments properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/advanced-risk-assessments-properties-airc.md).
+-   Set the **Migrate to Advanced Risk Assessments** property to publish risk assessment methodologies \(RAMs\). For more information, see [Set up Advanced Risk assessments properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/advanced-risk-assessments-properties-airc.md).
 -   Publish assessment templates. For more information, see [Assessment templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/airc-assessment-templates.md).
--   Configure the `sn_grc_ai_gov.ai_system_automated_risk_classification_asmt_ram` to specify a default Risk Assessment Methodology \(RAM\) used for automated regulatory risk classification of AI systems at intake. For more information, see [Set up AI Risk and Compliance properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/configure-airc-properties.md).
--   Configure the `sn_grc_ai_gov.aisystem_primary_ram` property to specify a default Risk Assessment Methodology \(RAM\) for AI systems. For more information, see [Set up AI Risk and Compliance properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/configure-airc-properties.md).
+-   Configure the `sn_grc_ai_gov.ai_system_automated_risk_classification_asmt_ram` property to specify a default RAM used for automated regulatory risk classification of AI systems at intake. For more information, see [Set up AI Risk and Compliance properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/configure-airc-properties.md).
+-   Configure the `sn_grc_ai_gov.aisystem_primary_ram` property to specify a default RAM for AI systems. For more information, see [Set up AI Risk and Compliance properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/configure-airc-properties.md).
 
 **Note:**
 
-If these prerequisites aren’t met, intake submissions are accepted but risk classification isn’t performed.
+If these prerequisites aren't met, intake submissions are accepted but risk classification isn't performed.
+
+Role required: sn\_ai\_case\_mgmt.ai\_case\_business\_user \(Employee Center\), sn\_ai\_asset\_mgmt.ai\_asset\_owner \(AI Control Tower dashboard\)
 
 ## About this task
 
-If you’re using the AI Risk and Compliance \(AIRC\) application, you submit requests through the Employee Center and related tasks such as impact assessments and review tasks \(for example, legal, security, and architecture\). If you’re using the AI Control Tower \(AICT\) application, you can submit requests from the AI Control Tower dashboard and manage AI assets through AICT’s inventory and life cycle experience.
+If you're using the AI Risk and Compliance \(AIRC\) application, you submit requests through the Employee Center and related tasks such as impact assessments and review tasks \(for example, legal, security, and architecture\). If you're using the AI Control Tower \(AICT\) application, you can submit requests from the AI Control Tower dashboard and manage AI assets through AICT's inventory and life cycle experience. After you submit through the Employee Center, you land on the confirmation page. The **here** link in the confirmation message and the **Open in AI Control Tower** link on the post-submission page open the corresponding record in AI Control Tower instead of the legacy AI Control Tower workspace. The AI system record header also displays the system name and identifier.
 
-For more information on the end‑to‑end life cycle, see [AI governance life cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/ai-gov-lifecycle.md).
+For more information about the end-to-end life cycle, see [AI governance life cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/ai-gov-lifecycle.md). For an overview of AI Risk and Compliance setup and configuration, see [Configuring AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/configuring-ai-risk-and-compliance.md).
 
-The Request an AI system feature enables you to initiate requests for the development or procurement of AI‑based solutions. Whether you need a custom AI model, an automation tool, or an advanced analytics system, the platform streamlines the process by capturing key requirements and facilitating approvals.
+The Request an AI system feature enables you to initiate requests for the development or procurement of AI-based solutions. Whether you need a custom AI model, an automation tool, or an advanced analytics system, the platform captures key requirements and facilitates approvals.
 
-For example, a financial institution wants to improve its loan approval process by implementing an AI‑based credit scoring system. The finance team submits an AI request detailing requirements such as risk assessment considerations, credit data analysis, and automated decision‑making. The request is reviewed for feasibility, budget, and compliance before development or procurement proceeds.
+For example, a financial institution wants to improve its loan approval process by implementing an AI-based credit scoring system. The finance team submits an AI request detailing requirements such as risk assessment considerations, credit data analysis, and automated decision-making. The request is reviewed for feasibility, budget, and compliance before development or procurement proceeds.
 
 ## Procedure
 
 1.  Request an AI system from the Employee Center or from the AI Control Tower dashboard.
 
-<table id="choicetable_afh_4hk_23c"><thead><tr><th align="left" id="d279857e190">
+<table id="choicetable_afh_4hk_23c"><thead><tr><th align="left" id="d281563e228">
 
 Option
 
-</th><th align="left" id="d279857e193">
+</th><th align="left" id="d281563e231">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d279857e199">
+</th></tr></thead><tbody><tr><td id="d281563e237">
 
 **Request an AI system using AI Risk and Compliance**
 
@@ -62,24 +62,26 @@ Description
 
 Navigate to **All** &gt; **Self-Service** &gt; **Employee Center**. 1.  Select **Help center** &gt; **Technology services** and then select **AI assets** from the Technology services topics section.
 2.  Select the **Request an AI use case** card.
-**Note:** AI Risk and Compliance Business User and AI Asset owner can complete this option.
+**Note:**
 
-</td></tr><tr><td id="d279857e249">
+AI Risk and Compliance Business User and AI Asset owner can complete this option.
+
+</td></tr><tr><td id="d281563e288">
 
 **Request an AI system using AI Control Tower**
 
 </td><td>
 
-Navigate to **All** &gt; **AI Control Tower**. 1.  On the AI Control Tower dashboard, select the list icon \[Omitted image "list-icon-airc-ws.png"\] Alt text:, and navigate to the **AI asset inventory - Managed** or **AI asset inventory - Unmanaged**
+Navigate to **All** &gt; **AI Control Tower**. 1.  On the AI Control Tower dashboard, select the list icon \[Omitted image "list-icon-airc-ws.png"\] Alt text:, and navigate to the **AI asset inventory - Managed** or **AI asset inventory - Unmanaged**.
 2.  Select **AI systems**, then select **Add AI system**.
-**Note:** An AI Asset owner can complete this option.
+**Note:**
+
+An AI Asset owner can complete this option.
 
 </td></tr></tbody>
 </table>2.  On the form, fill in the fields.
 
     For full descriptions of the fields, see [Request an AI use case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/request-ai-system-form.md). For more information about adding an AI system using AI Control Tower, see [Create AI system assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-ai-system-assets.md).
-
-    **Note:** The **Business application** field is only displayed on the service catalog page for the AI system use case if the Enterprise Architecture Workspace version meets the minimum requirement. The field requires Enterprise Architecture Workspace version 9.0.1 or later for Zurich, or version 8.0.3 or later for Australia. If your instance does not meet the minimum version, the **Business application** field will not appear on the form.
 
 3.  To add attachments, select **Add attachments**.
 
@@ -102,7 +104,7 @@ AI Product Owner or Requester \[`sn_grc_ai_gov.ai_risk_and_compliance_business_u
 
 For more information, see [Perform impact assessment on an AI use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/perform-impact-assessment-of-ai-use-case.md).
 
-AI Steward or AI Center of Excellence \(AI CoE\) \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_manager, sn\_ai\_asset\_mgmt.ai\_asset\_owner\]: Review submitted requests for business and strategy alignment, initiate required assessments, and coordinate cross‑functional reviews. Continue to oversee the AI system through its life cycle, including inventory tracking, governance activities, and collaboration across stakeholders.
+AI Steward or AI Center of Excellence \(AI CoE\) \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_manager, sn\_ai\_asset\_mgmt.ai\_asset\_owner\]: Review submitted requests for business and strategy alignment, initiate required assessments, and coordinate cross-functional reviews. Continue to oversee the AI system through its life cycle, including inventory tracking, governance activities, and collaboration across stakeholders.
 
 For more information, see [AI Control Tower dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-governance.md).
 
@@ -113,7 +115,7 @@ For more information, see [AI Risk and Compliance workspace](https://raw.githubu
 For an overview of how AI systems move from intake through assessment, deployment, monitoring, and value tracking, see [AI governance life cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/ai-gov-lifecycle.md).
 
 -   **[Request an AI use case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/request-ai-system-form.md)**  
-The Request an AI use case form is designed to streamline the request process for developing or procuring an AI-based solution. This intake form confirms that all necessary details, supporting documents, and compliance considerations are captured before moving forward with development and deployment of the AI-solution.
+The Request an AI use case form captures details, supporting documents, and compliance considerations for developing or procuring an AI-based solution.
 
 **Parent Topic:**[Using AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/using-ai-risk-and-compliance.md)
 

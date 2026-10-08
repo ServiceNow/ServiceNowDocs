@@ -22,7 +22,7 @@ Role required: sn\_oper\_res.manager
 
 Before saving an ICT service supply chain record, the system checks for duplicates. A duplicate is detected when an existing supply chain row at the same rank shares the same Identification code and Type of ICT services. If a duplicate is detected, the save is blocked and an error message identifies the conflicting record. Update either the recipient identification code, the type of ICT services, or the rank to resolve the conflict.
 
-Organize **Specific information** records on the contract by **Type of ICT services**, not by **Function identifier**. Each **Specific information** record creates one Rank 1 supply chain record with a matching type of ICT services, so multiple **Specific information** records that share the same **Type of ICT services** value generate duplicate Rank 1 supply chain records for the contract.
+Organize **Specific information** records on the contract by **Type of ICT services**, not by **Function identifier**. Each **Specific information** record creates one Rank 1 supply chain record with a matching type of ICT services. Multiple **Specific information** records that share the same **Type of ICT services** value generate duplicate Rank 1 supply chain records for the contract.
 
 ## Procedure
 

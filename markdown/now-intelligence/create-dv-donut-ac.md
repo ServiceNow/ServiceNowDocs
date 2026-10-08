@@ -35,6 +35,8 @@ For information about the use of a Pie, Donut, or Semi-donut visualization in a 
 
 4.  Configure the **Header and border**. Header and border options are the same for all data sources.
 
+    None of the **Header and border** fields is required.
+
 <table id="table_ly5_djk_c5b"><thead><tr><th>
 
 Header and border fields

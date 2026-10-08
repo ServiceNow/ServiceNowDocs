@@ -29,8 +29,6 @@ Raise an invoice request for any payment-related issues as a supplier on CBS.
 Notifications in CBS provide multi-faceted and timely communication when a request is raised or fulfilled.
 -   **[Enhanced Requests Experience in Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/core-business-suite/enhanced-my-request-cbs.md)**  
 The Enhanced Requests Experience in Core Business Suite gives employees a single place to view, track, and manage requests across departments, including Health and Safety and Finance.
--   **[Agent Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/core-business-suite/agent-experience-overview.md)**  
-Core Business Suite Agent Experience provides a unified dashboard for agents managing work across multiple business units, designed for organizations where one agent handles multiple areas.
 -   **[View Core Business Suite Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/core-business-suite/view-cbs-analytics.md)**  
 Access all Core Business Suite \(CBS\) analytics in one place to monitor and review request activity across departments.
 

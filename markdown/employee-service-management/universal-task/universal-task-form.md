@@ -302,5 +302,3 @@ Information about how to resolve the Universal Task or steps taken to resolve it
 </td></tr></tbody>
 </table>**Parent Topic:**[Universal Task reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/universal-task/universal-task-reference.md)
 
-**Parent Topic:**[Universal Task reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/universal-task/universal-task-reference.md)
-

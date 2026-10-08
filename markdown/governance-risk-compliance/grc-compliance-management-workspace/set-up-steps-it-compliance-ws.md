@@ -9,7 +9,7 @@ classification: grc-compliance-management-workspace
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configure, GRC Compliance workspace, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Configure, GRC Compliance workspace, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Configure IT Compliance Manager data filter

@@ -112,9 +112,9 @@ Table
 
 </td></tr></tbody>
 </table>-   **[Configure visualization interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/configure-go-data.md)**  
-Select what happens when a viewer interacts with a section of a data visualization that you are editing.
+Select what happens when a viewer interacts with a section of a data visualization that you're editing.
 -   **[Data views for different data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/visualization-drilldown-in-config-ws.md)**  
-When the chart interaction for a data visualization is set to Go to data, interacting with a data value on the visualization opens different pages depending on the data source.
+Set the chart interaction for a data visualization to **Go to data** to open a data view. The page that opens depends on the data source.
 
 **Parent Topic:**[Configure data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/configure-data-visualizations.md)
 

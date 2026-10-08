@@ -27,6 +27,10 @@ Create the connection and credential that allows Privacy Case Management to comm
     -   **RadarFirst configuration**, which will be used to import RadarFirst data, and then map it to the breach assessment data in your instance.
 -   Role required: System administrator
 
+## About this task
+
+\[Omitted video\] Description: How to establish a connection and validate credentials for RadarFirst integration with Privacy Case Management
+
 ## Procedure
 
 1.  Open the guided setup by navigating to **All** &gt; **Privacy Case Management** &gt; **RadarFirst Integration** &gt; **RadarFirst Integration Guided Setup**.

@@ -17,7 +17,7 @@ The Brazil release includes new features and improvements built on the ServiceNo
 ## Release dates
 
 -   Early availability: September 24, 2026
--   General availability: Q4 2026
+-   General availability: October 08, 2026
 
 ## Release notes for upgrades
 

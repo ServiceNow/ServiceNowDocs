@@ -31,7 +31,7 @@ To create your own security attribute, or expand an OOB security attributes capa
 |NetworkCriteria|Additional Network Criteria.|
 |Role|User has specific role.|
 |RoleExplicit|User has specific role explicitly defined.|
-|SessionIsEmbeddedGuest|Verifies whether a transaction originates from a Web Embeddables component guest session. This attribute is set as needed through the Web Embeddables capability. For more information about how Web Embeddables are configured and used, see .|
+|SessionIsEmbeddedGuest|Verifies whether a transaction originates from a Web Embeddables component guest session. This attribute is set as needed through the Web Embeddables capability. For more information about how Web Embeddables are configured and used, see [Configure Web Embeddables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/using-web-embeddables.md).|
 
 ## Security attributes for client session
 

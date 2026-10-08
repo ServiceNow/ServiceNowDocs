@@ -16,7 +16,7 @@ Complete a one-time OAuth setup to register a target instance for cloning. This 
 
 ## Before you begin
 
-The target instance must run an OAuth-capable version of the Clone Admin Console OAuth clone target authentication requires Australia Patch 5 or later on both the source and target instances.
+Both the source and target instances must be on Australia Patch 5 or later to use OAuth target authentication.
 
 Roles required:
 

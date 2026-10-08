@@ -9,6 +9,7 @@ classification: threat-intelligence-security-center
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 5
+keywords: [Threat Intelligence Library reports, Case Reports, Intelligence Reports, slash commands, report editor]
 breadcrumb: [TISC Library Repository, Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
 ---
 

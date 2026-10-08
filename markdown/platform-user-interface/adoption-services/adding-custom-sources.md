@@ -9,7 +9,7 @@ classification: adoption-services
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, Dynamic Guidance, Adoption services, Configure user experiences]
+breadcrumb: [Configure Dynamic Guidance, Dynamic Guidance, Adoption services, Configure user experiences]
 ---
 
 # Adding custom sources

@@ -1,5 +1,5 @@
 ---
-title: Order Management for business location
+title: Order Management for business organization
 description: Integrate Service Model Foundation with Order Management to support channel sales.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/order-managment-for-business-location.html
@@ -10,7 +10,7 @@ reading_time_minutes: 1
 breadcrumb: [Integration with Sales Customer Relationship Management, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
 
-# Order Management for business location
+# Order Management for business organization
 
 Integrate Service Model Foundation with Order Management to support channel sales.
 
@@ -20,8 +20,8 @@ Integrate Service Model Foundation with Order Management to support channel sale
 
 Use the Order Management Business Locations plugin \(com.snc.business\_organization\_orm\) to perform the following actions.
 
--   Create orders for business locations
--   Modify and manage orders for the business locations
+-   Create orders for business organizations \(formerly business locations\)
+-   Modify and manage orders for the business organizations \(formerly business locations\)
 -   Track seller and buyer details of the order
 
 ## Data model

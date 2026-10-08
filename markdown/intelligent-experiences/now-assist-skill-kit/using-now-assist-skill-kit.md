@@ -51,26 +51,24 @@ When your skill is ready, finalize the prompt and publish it. Publishing makes t
 
 ## Call a skill from a script
 
-After a skill is published, you can call it from a server-side script, allowing you to integrate the skill into automated workflows or business rules.
-
--   [Call a custom skill from a script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skill-kit/call-custom-skill-from-script.md)
+After a skill is published, you can call it from a server-side script, so that you can integrate the skill into automated workflows or business rules. For more information, see [Call a custom skill from a script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skill-kit/call-custom-skill-from-script.md).
 
 -   **[Create a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skill-kit/create-new-skill.md)**  
-Create a custom skill for Otto. Creating a custom skill enables you to have greater flexibility with Otto's generative AI capabilities.
+Create a custom skill for Otto. Custom skills extend the generative AI capabilities of Otto to fit your own use cases.
 -   **[Create a prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skill-kit/create-prompt-template.md)**  
-After you create a custom skill, create a prompt. Creating a prompt enables you to choose what skill inputs to use, as well as the type of tool.
+After you create a custom skill, create a prompt. The prompt defines the instructions that the skill sends to the LLM and the skill inputs that it uses.
 -   **[Use prompt assistance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skill-kit/use-prompt-assistance.md)**  
-Use prompt assistance to get a jump start with your prompt development by selecting an example from the prompt library or using ServiceNow Otto to generate one.
+Use prompt assistance to start your prompt from an example in the prompt library or from a prompt that ServiceNow Otto generates.
 -   **[Test a prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skill-kit/test-prompt-template.md)**  
-After you create a prompt for your custom skill, test the prompt template before you finalize it. Testing the prompt verifies that you’re seeing the expected prompt results before it’s activated.
+After you create a prompt for your custom skill, test it before you finalize it to verify that it returns the expected results.
 -   **[Evaluate a prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skill-kit/evaluate-prompt.md)**  
-Use the AI Skill Kit evaluation tools to evaluate the effectiveness of your skill prompts.
+Use the AI Skill Kit evaluation tools to measure how your skill prompts perform against a dataset, using automated metrics and human feedback.
 -   **[Finalize and publish a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skill-kit/publish-skill.md)**  
-When you’re satisfied with your prompt, you can publish your custom skill. Publishing the skill enables a Otto admin to activate it.
+Finalize at least one prompt and publish your custom skill so that a Otto admin can activate it.
 -   **[Activate a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skill-kit/activate-skill.md)**  
 After you create and publish a custom skill, you must activate it in AI Admin Hub. Activating the skill enables you to trigger the skill within the UI.
 -   **[Call a custom skill from a script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skill-kit/call-custom-skill-from-script.md)**  
-You can use a script to call a custom skill.
+Call a custom skill from a UI action script so that you can run the skill and use its output in your instance logic.
 
 **Parent Topic:**[AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skill-kit/now-assist-skill-kit-landing.md)
 

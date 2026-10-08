@@ -47,17 +47,19 @@ Using the chat recommendation skill, you have the options to:
 
     By default, many of the options in the setup are configured for the most common use cases. You select the step in the guided setup navigation to go back and change the configurations in previous steps. You can also use Back to navigate through the steps.
 
-6.  Using the toggles, select the actions trigger for the Chat Recommendation skill.
+6.  Using the toggles, select the triggers that determine when a chat recommendation is generated.
 
-7.  Select **Choose Input** and review the portal and channel selections that determines where data is pulled from.
+    User triggered: When the agent manually triggers the skill to recommend a response.
 
-    **Note:** You cannot modify or deselect default skill input data sources.
+7.  Select **Choose Input** and review the portal and channel selections that determine where data is pulled from.
+
+    **Note:** You can't modify or deselect default skill input data sources.
 
 8.  Select any additional data sources that you want the Large language model \(LLM\) to take into account when generating a recommendation.
 
 9.  Select a portal for the data source for chat recommendation to be generated for the conversation occurring on that portal.
 
-    This is a mandatory step. Specify a portal and enable a specific channel on the Choose Input page. This enables the skill for chats sent in the selected portal or channel. Otherwise, the agent will receive an error message: "Chat summaries won't appear until your IT administrator completes all the required steps involved in the setup".
+    This is a mandatory step. Specify a portal and enable a specific channel on the Choose Input page. This enables the skill for chats sent in the selected portal or channel.
 
 10. Select **Define Availability** to customize how and when the skill capability will exist and be available.
 
@@ -77,12 +79,10 @@ Using the chat recommendation skill, you have the options to:
 
 12. Go to **Select display**, the last step, and select where you would like to display the skill.
 
-    You can select both in-product, ServiceNow Otto panel, or both.
-
     **Note:** Chat recommendation is not available in the panel.
 
     -   **In-product desktop**: When selected, AI skills are displayed on forms and workspaces.
-    -   **ServiceNow Otto panel**: When selected, AI skills are available in the panel. Select the down arrow to identify the roles that can use the skill. Select the arrow next to toggle, to select roles who can access the skill. You can add roles by entering the name of the role in the **User roles** field. You can remove existing roles by selecting the X icon in the role bubble. You must have at least one role specified, but you can add as many roles as you like.
+    -   **ServiceNow Otto panel**: When selected, AI skills are available in the panel. Select the down arrow to identify the roles that can use the skill. You can add roles by entering the name of the role in the **User roles** field. You can remove existing roles by selecting the X icon in the role bubble. You must have at least one role specified, but you can add as many roles as you like.
 13. Review your choices and complete the configuration by selecting **Activate**.
 
 

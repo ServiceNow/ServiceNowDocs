@@ -26,6 +26,8 @@ Predictive AI for CSM includes Recommended Actions, Guided Decisions Experience,
 The ServiceNow® Customer Service Management \(CSM\) application enables customers to connect with your organization through chat on self-service portals, consumer messaging apps, email, phone calls, and WebRTC voice widgets. See the following sections for release notes by version.
 -   **[ServiceNow Otto for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/servicenow-otto-for-csm-rn.md)**  
 The ServiceNow Otto for Customer Service Management \(CSM\) application is an AI-powered suite that brings generative and agentic AI to customer service channels- voice, chat, email, and web. Agents resolve issues faster with intelligent recommendations. Managers optimize team performance. Admins configure and govern AI workflows. ServiceNow Otto for CSM was enhanced and updated in the Brazil release. See the following sections for release notes by version.
+-   **[Workforce Optimization for CSM release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/workforce-optimization-csm-rn.md)**  
+The ServiceNow® Workforce Optimization application enables you to efficiently route work to your team, manage your team's skills and schedules, and monitor their performance. See the following sections for release notes by version.
 
 **Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/new-features-changes.md)
 

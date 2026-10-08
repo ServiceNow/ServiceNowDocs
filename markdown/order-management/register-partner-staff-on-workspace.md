@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/register-partner-staff-on-workspace.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [Create Channel Partner record, Partner Workspace, Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
@@ -32,7 +32,7 @@ The Enterprise Partner Relationship Manager \[sn\_prm.enterprise\_partner\_rel\_
 
 4.  On the form, fill in the fields.
 
-    To learn more about the fields on the Register member form, see [Member registration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/member-registration-form.md).
+    To learn more about the fields on the Register member form, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/member-registration-form.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/member-registration-form.md).
 
 5.  Upload a file or document in the **Add attachments** section.
 

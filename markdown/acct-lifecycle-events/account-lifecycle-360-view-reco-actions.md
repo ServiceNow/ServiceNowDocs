@@ -21,7 +21,7 @@ Open the **Recommendations** panel from an engagement record to review AI-genera
 -   The following plugins must be installed:
     -   Technology Account Management Experiences \(sn\_tech\_exp\)
     -   ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) \(sn\_tmt\_gen\_ai\)
--   The Event-Context Candidate Recommender skill must be activated. See [Activate the Event-Context Candidate Recommender](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-tmt-reco-actions-skill.md) for details.
+-   The Event-Context Candidate Recommender skill must be activated. See [Activate the Event-Context Candidate Recommender](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/now-assist-tmt-reco-actions-skill.md) for details.
 
 ## About this task
 

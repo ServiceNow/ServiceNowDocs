@@ -16,9 +16,7 @@ Configure the otto\_webhook Connection &amp; Credential Alias so ServiceNow can 
 
 ## Before you begin
 
-Obtain from the ServiceNow Otto team: listener endpoint URL, credential type, and credential values.
-
-**Warning:** HMAC-SHA256 and HMAC-SHA512 are not yet implemented. Contact the support team before configuring if HMAC is required.
+Obtain the listener endpoint URL and the API key from the ServiceNow Otto team. The webhook connection supports API key authentication only.
 
 Role required: admin
 
@@ -30,11 +28,11 @@ Role required: admin
 
     Set **Connection URL** to the ServiceNow Otto listener endpoint and save.
 
-3.  In the **Credentials** related list, click **New** and select the credential type.
+3.  In the **Credentials** related list, select **New** and then select **API Key Credentials**.
 
-    Use Bearer token when ServiceNow Otto provides a static token.
+    Set **API Key** to the key from the ServiceNow Otto team, set **API Key Header Name** to `Authorization`, and set **API Key Prefix** to `Bearer`. Leave **MID Servers** blank.
 
-4.  Enter the credential values and save.
+4.  Save the credential.
 
 5.  Open the connection record, set its **Credential** field to the new credential, and save.
 

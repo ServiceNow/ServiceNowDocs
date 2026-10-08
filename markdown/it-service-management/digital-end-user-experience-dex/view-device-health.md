@@ -26,7 +26,7 @@ Role required: sn\_dex\_desktop.user or sn\_dex\_desktop.admin
 
 1.  On the Desktop Assistant home page, select the **Device Health** card.
 
-    \[Omitted image "view-device-health.png"\] Alt text: The Device Health page that provides information on battery health, storage space, top 5 applications by CPU and memory usage in the last hour, and the last computer restart.
+    \[Omitted image "view-device-health.png"\] Alt text: The Device Health page that provides battery health, storage space, top 5 applications by CPU and memory usage in the last hour, and the last computer restart.
 
     For more information on system activities, select **Open Activity Monitor**.
 

@@ -104,6 +104,8 @@ Role required: asset
 
 [Donate assets to charity organizations]()
 
+[Calculate the active lifecycle phase for a model]()
+
 [Manage obligations in the Hardware Asset Workspace]()
 
 [Manage contract repository agentic workflow in the Hardware Asset Workspace]()

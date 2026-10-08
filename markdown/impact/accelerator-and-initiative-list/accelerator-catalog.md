@@ -90,20 +90,20 @@ Accelerators that offer USPS specific versions are indicated as such in the sub-
 |[Foundations of AI Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/foundations-of-ai-governance1.md)| |✓|✓|✓|✓| |
 |[HRSD Maturity Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/hrsd-maturity-assessment.md)| |✓|✓|✓|✓| |
 |[IRM Maturity Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/IRM-maturity-assessment.md)| |✓|✓|✓|✓| |
-|[ITOM Maturity Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/ITOM-maturity-assessment.md)| |✓|✓|✓|✓|\[Omitted image "bus-strategic.svg"\] Alt text:|
+|[ITOM Maturity Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/ITOM-maturity-assessment.md)| |✓|✓|✓|✓| |
 |[ITSM Maturity Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/itsm-maturity-assessment.md)| |✓|✓|✓|✓| |
 |[Knowledge Management Maturity Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/knowledge-management-maturity-assessment.md)| |✓|✓|✓|✓| |
 |[LSD Maturity Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/lsd-maturity-assessment.md)| |✓|✓|✓|✓| |
 |[OCM: Preparing for Change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/ocm-preparing-for-change.md)| |✓|✓|✓|✓| |
 |[OCM: Managing Change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/ocm-managing-change.md)| |✓|✓|✓|✓| |
 |[OCM: Reinforcing and Sustaining Change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/ocm-reinforcing-sustaining-change.md)| |✓|✓|✓|✓| |
-|[Portfolio Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/portfolio-governance.md)​| |✓|✓|✓|✓|\[Omitted image "bus-strategic.svg"\] Alt text:|
+|[Portfolio Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/portfolio-governance.md)​| |✓|✓|✓|✓| |
 |[PPM Maturity Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/ppm-maturity-assessment.md)| |✓|✓|✓|✓| |
-|[ServiceNow Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/servicenow-governance.md)| |✓| |✓| |\[Omitted image "bus-strategic.svg"\] Alt text:|
+|[ServiceNow Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/servicenow-governance.md)| |✓| |✓| | |
 |[SAM Maturity Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/sw-asset-mgmt-maturity-assessment.md)| |✓|✓|✓|✓| |
 |[Staffing and Roles Review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/staffing-and-roles-review-brazil.md)| |✓|✓|✓|✓| |
 |[Stakeholder Path to Value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/stakeholder-path-to-value.md)| |✓|✓|✓|✓| |
-|[Strategy Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/strategy-governance.md)​| |✓|✓|✓|✓|\[Omitted image "bus-strategic.svg"\] Alt text:|
+|[Strategy Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/strategy-governance.md)​| |✓|✓|✓|✓| |
 |[Success Foundation Review \(SFR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/success-foundation-review.md)| |✓|✓|✓|✓| |
 |[Vision and Strategy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/vision-and-strategy.md)| |✓|✓|✓|✓| |
 
@@ -118,7 +118,7 @@ Accelerators that offer USPS or SPP-AU specific versions are indicated as such i
 |Accelerator|Guided package|Guided+Strategic Value|Guided+Platform Governance|Advanced package|Total package|Integrated Success|On-Demand|
 |:---------:|:------------:|:--------------------:|:------------------------:|:--------------:|:-----------:|:----------------:|:-------:|
 |[Access to Experts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/access-experts-acc.md)| |✓|✓|✓|✓|✓| |
-|[Artificial Intelligence Readiness Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/artificial-intelligence-readiness-assessment-brazil.md)|✓| |✓|✓|✓| | |
+|[Artificial Intelligence Readiness Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/artificial-intelligence-readiness-assessment-brazil.md)|✓|✓|✓|✓|✓| | |
 |[Extend Your AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/extend-your-ai-search.md)|✓|✓|✓|✓|✓|✓| |
 |[Extend Your Employee Center to Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/extend-employee-center-pro.md)|✓|✓|✓|✓|✓|✓| |
 |[Health Assessment – Guided](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/health-assessment-guided.md)|✓|✓|✓| | | | |
@@ -186,7 +186,6 @@ Accelerators that offer USPS or SPP-AU specific versions are indicated as such i
 |[Jumpstart Your Success Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/jumpstart-your-success-dashboard.md)|✓|✓|✓|✓|✓|✓| |
 |[Jumpstart Your Task Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/jumpstart-task-intelligence.md)|✓|✓|✓|✓|✓|✓| |
 |[Jumpstart Your Upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/jumpstart-your-upgrade.md)​|✓|✓|✓|✓|✓|✓| |
-|Jumpstart Your Virtual Agent​|✓|✓|✓|✓|✓|✓| |
 |[Jumpstart Your Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/jumpstart-your-walkup-experience.md)|✓|✓|✓|✓|✓|✓| |
 |[Jumpstart Your Workflow Automation: Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/jumpstart-your-workflow-automation-playbooks.md)|✓|✓|✓|✓|✓|✓| |
 |[Jumpstart Your Zero Copy Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/jumpstart-zero-copy-connectors.md)|✓|✓|✓|✓|✓|✓| |
@@ -214,7 +213,7 @@ Accelerators that offer USPS or SPP-AU specific versions are indicated as such i
 **Related topics**  
 
 
-[Latest Accelerators by Release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/new-accelerators-australia-release.md)
+[Latest Accelerators by release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/new-accelerators-australia-release.md)
 
 [Architecture Accelerators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/architecture-accelerators.md)
 

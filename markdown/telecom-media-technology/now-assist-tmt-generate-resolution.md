@@ -1,0 +1,63 @@
+---
+title: Generate resolution notes for a service problem case using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
+description: Generate the resolution notes for a service problem case by using the resolution notes generation skill in the ServiceNow Otto for TMT application.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/now-assist-tmt-generate-resolution.html
+release: brazil
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Diagnose and resolve a service problem case, Use, Customer Service Problem Management, Telecommunications, Media, and Technology \(TMT\)]
+---
+
+# Generate resolution notes for a service problem case using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
+
+Generate the resolution notes for a service problem case by using the resolution notes generation skill in the ServiceNow Otto for TMT application.
+
+## Before you begin
+
+Role required: sn\_customerservice\_agent and sn\_customerservice.consumer\_agent
+
+## About this task
+
+You can also propose the resolution to the customer, and then add the resolution information to the service problem case record. Generating resolution notes may help you wrap up cases faster and provide information about the service problem case resolution to other agents who might encounter similar issues.
+
+You can also generate resolution information on demand from the ServiceNow Otto panel.
+
+**Note:** The resolution notes generation skill requires a minimum of 50 words in the service problem case record to generate the resolution notes.
+
+## Procedure
+
+1.  Navigate to **Workspaces** &gt; **CRM Workspace** &gt; **Lists** &gt; **Service Problem Case**.
+
+2.  Open a service problem case.
+
+3.  Select **Test &amp; Resolve** &gt; **Resolve**.
+
+4.  Navigate to the Resolution notes field in the resolve activity.
+
+    \[Omitted image "resolution-notes-spmc.png"\] Alt text: Generate resolution notes.
+
+5.  Select the ServiceNow Otto icon \[Omitted image "icon-ai-sparkle.png"\].
+
+    ServiceNow Otto icon \[Omitted image "icon-ai-sparkle.png"\] generates a recommended text that is based on the context of the case.
+
+6.  Select **Insert** to add the generated content into the resolution notes field.
+
+7.  Review the generated content and select **Refine** to modify the content.
+
+    You get the option to either elaborate or shorten the content as needed.
+
+8.  If you want to add the resolution information to the service problem case activity stream, select the **Add resolution notes to comments** check box.
+
+    Selecting this check box makes the resolution notes available to anyone who can view the service problem case activity stream.
+
+9.  Select **Save**.
+
+
+## Result
+
+-   The system populates the fields in the Closure Information section of the case record with the information from the Generate Resolution Notes modal.
+-   The case moves to the Resolved state.
+-   The resolution is proposed to the customer.
+

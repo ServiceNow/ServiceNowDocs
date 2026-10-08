@@ -20,6 +20,8 @@ Setup Proactive Service Experience Workflows application to proactively resolve 
 Begin your customer journey by preparing your Proactive Service Experience Workflows environment with data models, customer data, product data, and user management tools to go live.
 -   **[Customize an indicator in the Technology Account 360 view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/product-support-for-technology/customize-indicator-technology-account-360-view.md)**  
 Modify the values of the indicators in the Technology Account 360 view.
+-   **[Install ServiceNow Otto for TMT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/product-support-for-technology/assurance-workflows-otto-install.md)**  
+Install the ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) `sn_tmt_gen_ai` plugin to configure and use AI skills in Proactive Service Experience Workflows.
 
 **Parent Topic:**[Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/product-support-for-technology/psew-landing-page.md)
 

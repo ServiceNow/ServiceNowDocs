@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [monitor application performance, dex workspace, device health, network monitoring, call quality monitoring, metric rules]
-breadcrumb: [Manage, Digital End-User Experience, IT Service Management]
+breadcrumb: [Manage employee experience, Digital End-User Experience, IT Service Management]
 ---
 
 # Monitoring application performance

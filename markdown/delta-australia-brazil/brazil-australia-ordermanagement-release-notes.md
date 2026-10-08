@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-australia-brazil/brazil-australia-ordermanagement-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 5
+last_updated: "2026-10-08"
+reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
 
@@ -67,7 +67,7 @@ Australia
 
 </td><td>
 
--   **[Order Fulfillment Milestones](https://www.servicenow.com/docs/access?context=reviewing-orchestration-plans-order-fulfillment&family=australia&ft:locale=en-US)**
+-   **[\[Placeholder link text to key order-line-milestones\]](https://www.servicenow.com/docs/access?context=order-line-milestones&family=australia&ft:locale=en-US)**
 
 Track order progress through configurable fulfillment milestones mapped to order specifications. Milestones are automatically generated when order lines are created and can be manually marked as reached. View milestone details, track milestone status on order lines, and associate milestones with tasks for integrated fulfillment tracking and visibility.
 
@@ -112,7 +112,14 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **[Order creation for buyer organizations](https://www.servicenow.com/docs/access?context=som-create-product-order&family=brazil&ft:locale=en-US)**
+
+Enable users to create and manage orders for a buyer organization. Two new fields have been added: Buyer Organization and Buyer Organization Member. Buyer Organization captures the name of the organization for which the order is created and Buyer Organization Member is the employee for whom the order is created.
+
+-   **[Order capture AI agent](https://www.servicenow.com/docs/access?context=om-order-capture-ai-agent&family=brazil&ft:locale=en-US)**
+
+Automate order creation from multiple sources including completed quotes, Excel attachments, and email documents. The Order Assist Agent intelligently matches products using Catalog AI Search, extracts details from Zoom transcripts, and automatically splits orders by delivery location. The Order capture AI agent can also perform order reprocessing, multi-source line creation via natural language, and quote data preservation.
+
 
 </td></tr></tbody>
 </table>## Changes
@@ -236,7 +243,10 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **Activation information**
+
+Install Order Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=brazil&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -388,7 +398,14 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   Create and implement enrichment flows that the system applies during order orchestration.
+-   Configure jeopardy management rules to monitor fulfillment tasks and alert managers when tasks are at risk.
+-   Detect errors or exceptions during order processing and take corrective actions to improve SLA compliance and expedite order processing.
+-   Create and track orders via the workspace, or import orders from third-party systems.
+-   Speed up fulfillment with orchestration workflows driven by an advanced product catalog using the order orchestration UI.
+-   Enable post-sale support and drive customer satisfaction by effectively managing customer requests for disconnecting, suspending, or resuming products or services.
+
+ See [Order management](https://www.servicenow.com/docs/access?context=explore-order-management&family=brazil&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/rn-combined-intro.md)

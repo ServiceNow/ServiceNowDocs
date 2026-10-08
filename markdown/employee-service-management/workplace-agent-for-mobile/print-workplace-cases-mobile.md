@@ -8,7 +8,7 @@ product: Workplace Agent for mobile
 classification: workplace-agent-for-mobile
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [Use, Workplace Agent for mobile, Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -51,26 +51,8 @@ Role required: sn\_wsd\_case.workplace\_agent
 
 **Parent Topic:**[Use Workplace Agent for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-agent-for-mobile/use-workplace-agent-mobile.md)
 
-**Parent Topic:**[Use Workplace Agent for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-agent-for-mobile/use-workplace-agent-mobile.md)
-
 **Related topics**  
 
-
-[Manage workplace cases and tasks]()
-
-[Assign an unassigned case or task]()
-
-[Edit or view case details on the Workplace Agent for mobile app]()
-
-[Print workplace tasks]()
-
-[Create a child task]()
-
-[Create a workplace case on behalf of an employee through Workplace Agent for mobile]()
-
-[Edit or view a child task]()
-
-[Offline mode]()
 
 [Manage workplace cases and tasks]()
 

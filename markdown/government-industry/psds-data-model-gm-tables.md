@@ -17,138 +17,18 @@ This section describes the tables installed with the Grants Management applicati
 
 ## Grants Management tables installed
 
-<table id="table_fbz_45z_vdb"><thead><tr><th>
-
-Table
-
-</th><th>
-
-Description
-
-</th><th>
-
-Extends Table
-
-</th></tr></thead><tbody><tr><td>
-
-Grants Management Case\[sn\_gsm\_grants\_mgmt\_case\]
-
-</td><td>
-
-Contains cases associated with grant management, including application details, review status, and decision outcomes.
-
-</td><td>
-
-Government Service Case \(sn\_gsm\_government\_service\_case\)
-
-</td></tr><tr><td>
-
-Funding Allocation Review Task\[sn\_gsm\_grnt\_mgmt\_funding\_allocation\_review\_task\]
-
-</td><td>
-
-Captures the recommendation reason and automatically computes the proposal and funding/decline counts along with the total allocated amount.
-
-</td><td>
-
-Government Service Task \(sn\_gsm\_government\_service\_task\)
-
-</td></tr><tr><td>
-
-Funding Allocation Proposal Mapping\[sn\_gsm\_grnt\_mgmt\_funding\_allocation\_case\_mapping\]
-
-</td><td>
-
-Links individual proposals to a Funding Allocation Review Task. A flag indicates whether the proposal is included in the batch or removed during the review.
-
-</td><td>
-
-None
-
-</td></tr><tr><td>
-
-Government Service Case\[sn\_gsm\_government\_service\_case\]
-
-</td><td>
-
-Contains records of individual cases related to government services, tracking requests, interactions, and resolutions for constituents seeking assistance from government agencies.
-
-</td><td>
-
-Customer Service Case \(sn\_customerservice\_case\)
-
-</td></tr><tr><td>
-
-Government Service Task\[sn\_gsm\_government\_service\_task\]
-
-</td><td>
-
-Contains tasks associated with government service cases, outlining specific actions to be performed, their status, and assigned personnel.
-
-</td><td>
-
-Customer Service Task \(sn\_customerservice\_task\)
-
-</td></tr><tr><td>
-
-Constituent Profile\[sn\_gsm\_constituent\_profile\]
-
-</td><td>
-
-Contains detailed profiles of constituents, including personal information, contact details, and engagement history with government services.
-
-</td><td>
-
-Consumer Profile \(sn\_csm\_consumer\_profile\)
-
-</td></tr><tr><td>
-
-Business Profile\[sn\_gsm\_business\_profile\]
-
-</td><td>
-
-Contains profiles of businesses interacting with government agencies, documenting registration information, contact details, and service engagements.
-
-</td><td>
-
-None
-
-</td></tr><tr><td>
-
-Business Registration Request\[sn\_gsm\_business\_registration\]
-
-</td><td>
-
-Contains information about new business registration requests.
-
-</td><td>
-
-None
-
-</td></tr><tr><td>
-
-Government Service Document\[sn\_gsm\_document\]
-
-</td><td>
-
-Contains information about service-related documents required for government service requests and case management.
-
-</td><td>
-
-Documents \(ds\_document\)
-
-</td></tr><tr><td>
-
-Government Service Evaluation Task\[sn\_gsm\_government\_service\_evaluation\_task\]
-
-</td><td>
-
-Contains information about evaluation tasks for assessing the quality and outcomes of government services provided to constituents.
-
-</td><td>
-
-Government Service Task \(sn\_gsm\_government\_service\_task\)
-
-</td></tr></tbody>
-</table>**Parent Topic:**[Public Sector Digital Services Grants Management Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-data-model-gm.md)
+|Table|Description|Extends Table|
+|-----|-----------|-------------|
+|Grants Management Case|Contains cases associated with grant management, including application details, review status, and decision outcomes.|Government Service Case|
+|Funding Allocation Review Task|Captures the recommendation reason and automatically computes the proposal and funding/decline counts along with the total allocated amount.|Government Service Task|
+|Funding Allocation Proposal Mapping|Links individual proposals to a Funding Allocation Review Task. A flag indicates whether the proposal is included in the batch or removed during the review.|None|
+|Government Service Case|Contains records of individual cases related to government services, tracking requests, interactions, and resolutions for constituents seeking assistance from government agencies.|Customer Service Case|
+|Government Service Task|Contains tasks associated with government service cases, outlining specific actions to be performed, their status, and assigned personnel.|Customer Service Task|
+|Constituent Profile|Contains detailed profiles of constituents, including personal information, contact details, and engagement history with government services.|Consumer Profile|
+|Business Profile|Contains profiles of businesses interacting with government agencies, documenting registration information, contact details, and service engagements.|None|
+|Business Registration Request|Contains information about new business registration requests.|None|
+|Government Service Document|Contains information about service-related documents required for government service requests and case management.|Documents|
+|Government Service Evaluation Task|Contains information about evaluation tasks for assessing the quality and outcomes of government services provided to constituents.|Government Service Task|
+
+**Parent Topic:**[Public Sector Digital Services Grants Management Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-data-model-gm.md)
 

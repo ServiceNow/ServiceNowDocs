@@ -50,7 +50,7 @@ You can use existing system currency rates or define a custom conversion rate ta
 -   **[Understanding FX Currency values in lists and reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/currency-administration/fx-currency-values-lists-reports.md)**  
 By default, the currency values that appear in the FX Currency fields in lists and reports are the values that you directly enter into the FX Currency fields. For reports, the aggregations of FX Currency fields are, by default, reference currency values.
 -   **[FX Currency values in import and export](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/currency-administration/fx-currency-values-import-export.md)**  
-In general, currency values crossing the boundaries of the platform represent whatever is returned by `getDisplayValue`. Usually this currency value is the default as entered by a user into an FX Currency field for a transaction.
+FX Currency values that you import must include a three-letter ISO currency code, a semicolon, and an amount formatted for the user's locale, such as `USD;1,234.56`. In general, imported and exported values represent the display value returned by `getDisplayValue`.
 
 **Parent Topic:**[Exploring currency administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/currency-administration/explore-currency-admin.md)
 

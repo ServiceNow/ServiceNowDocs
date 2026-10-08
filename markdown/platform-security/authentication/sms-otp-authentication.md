@@ -22,6 +22,8 @@ SMS one-time password \(OTP\) authentication is a method used to verify user ide
 -   Serves as a secondary authentication factor, particularly for users without authenticator apps.
 -   Recommended for medium-risk scenarios, such as verifying changes to profile information and approving login attempts.
 
+SMS OTP factor can also be used for step-up authentication. For more information, see [Step-up authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/step-up-authentication.md).
+
 ## Key strengths
 
 The SMS OTP method offers the following advantages:

@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/change-llm-use-case.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [Now Assist, Gen AI, Generative AI, Document Intelligence]
-breadcrumb: [Manage use case, Reference, Content Understanding, Generative AI skills, Enable AI Experiences]
+breadcrumb: [Manage use case, Information Extraction skill, Configure, Content Understanding, Generative AI skills, Enable AI Experiences]
 ---
 
 # Change the language models for a use case
@@ -71,5 +71,5 @@ For image files that need optical character recognition \(OCR\) to detect the te
 
 The selected LLM and file language are saved for the use case.
 
-**Parent Topic:**[Manage use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/cu-manage-use-case.md)
+**Parent Topic:**[Manage use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/manage-use-case.md)
 

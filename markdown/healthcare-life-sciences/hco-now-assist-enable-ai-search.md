@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, ServiceNow Otto for Care Team Operations, Healthcare Operations, Healthcare and Life Sciences]
+breadcrumb: [Configure, Care Team Portal, Healthcare Operations, Healthcare and Life Sciences]
 ---
 
 # Enable ServiceNow Otto for AI Search for case intake

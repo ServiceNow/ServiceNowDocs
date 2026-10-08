@@ -21,7 +21,7 @@ During authentication, users receive a push notification via the **Okta Verify**
 
 ## Use case
 
-**Okta Verify** push notification is recommended as a robust and convenient second factor for ServiceNow AI Platform authentication flows, providing enhanced security and a seamless user experience.
+**Okta Verify** push notification is recommended as a robust and convenient second factor for ServiceNow AI Platform authentication flows, providing enhanced security and a seamless user experience. Push notification - Okta verify factor can also be used for step-up authentication. For more information, see [Step-up authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/step-up-authentication.md).
 
 ## Key strengths
 

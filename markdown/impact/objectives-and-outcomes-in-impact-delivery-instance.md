@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/impact/objectives-and-outcomes-
 release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Impact Delivery Instance reference, Impact reference, Impact]
 ---
 
@@ -18,13 +18,13 @@ Understand and measure the value you receive from the ServiceNow products in the
 
 To access the objectives and outcomes in Impact Delivery Instance, navigate to **Impact** &gt; **Value Management** &gt; **Objectives and Outcomes**.
 
-Enhanced outcomes are available only for IT Service Management on the Impact Delivery Instance. They reflect updated outcome definitions aligned to current platform capabilities and are recommended for new setups on these products from Q2 2026 onward.
+Enhanced outcomes are available only for IT Service Management, Customer Service Management, and HR Service Delivery on the Impact Delivery Instance. They reflect updated outcome definitions aligned to current platform capabilities and are recommended for new setups on these products from Q3 2026 onward.
 
 ## Outcome Model
 
 Every outcome belongs to either a Standard outcome model or Enhanced outcome model. This model is indicated in an **Outcome model** column alongside each outcome's success metric, making clear which definition applies to each outcome. For details on what each model covers, where insights are available, and how to choose between them, see [Outcome versioning in Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/value-library/outcome-versioning-in-impact.md).
 
-**Note:** For existing IT Service Management users, the Aug 2026 release removes any Standard IT Service Management outcome that is not in a tracking state. Outcomes currently tracked remain fully available, alongside the Enhanced outcomes newly introduced for IT Service Management. Active tracking is unaffected and only outcomes that were not already being tracked are removed.
+**Note:** For existing IT Service Management users, the Aug 2026 release removes any Standard IT Service Management outcome that is not in a tracking state. Outcomes currently tracked remain fully available, alongside the Enhanced outcomes newly introduced for IT Service Management, Customer Service Management, and HR Service Delivery. Active tracking is unaffected and only outcomes that were not already being tracked are removed.
 
 ## What Objectives and Outcomes can do for you
 

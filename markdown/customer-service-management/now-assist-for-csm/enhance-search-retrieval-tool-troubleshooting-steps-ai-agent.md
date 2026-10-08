@@ -51,7 +51,7 @@ The Search retrieval tool is configured to use the \[CSM AIS\] Configurable Work
 
 8.  On the form, fill in the **Name** and **Description**.
 
-9.  In the Search Sources related list, select **Link Existing** and then link the previously created search source\(Step 6\).
+9.  In the Search Sources related list, select **Link Existing** and then link the previously created search source \(Step 6\).
 
 10. Activate the search profile created in Step 7 and Step 8 by selecting **Publish**.
 

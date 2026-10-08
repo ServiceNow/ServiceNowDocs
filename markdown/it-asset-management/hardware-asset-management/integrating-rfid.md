@@ -16,7 +16,7 @@ breadcrumb: [Explore, Hardware Asset Management, IT Asset Management, Asset Mana
 
 Integrating a Zebra technology Radio Frequency Identification \(RFID\) system with your ServiceNow instance enables you to identify , track, and manage your hardware asset locations automatically.
 
-After the asset integration with Zebra technology RFID system is successful, you can view the RFID Tag information such as zone group, zone, and locations mapped with your assets. The RFID information is mapped to the Asset \[alm\_asset\] table according to the serial number of the asset. For more information about the Asset management tables, see [Installed with Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-management/r_InstalledWithAssetManagement.md).
+After the asset integration with Zebra technology RFID system is successful, you can view the RFID Tag information such as zone group, zone, and locations mapped with your assets. The RFID information is mapped to the Asset \[alm\_asset\] table according to the serial number of the asset. For more information about the Asset management tables, see [Installed with Base Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-management/r_InstalledWithAssetManagement.md).
 
 **Note:** If the asset is excluded, the RFID information isn't mapped to the Asset \[alm\_asset\] table according to the serial number of the asset. For more information about asset exclusion, see [Hardware Asset Management license exclusion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/ham-license-exclusion.md).
 

@@ -9,7 +9,7 @@ classification: app-engine-management-center
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuration tasks, Configure Pipelines and Deployments, Configure, App Engine Management Center, Governing app development, Building applications]
+breadcrumb: [Configuration tasks, Configure Pipelines and Deployments, Configure, App Engine Management Center, Run, AI Workflow Factory, Building applications]
 ---
 
 # Enable Automated Test Framework \(ATF\) properties
@@ -36,4 +36,6 @@ The tests in the Application Deployment Test Suite can be run on production inst
     -   sn\_atf.schedule.enabled
 3.  If you want these tests to run automatically on non-production instances whenever an app is deployed to a Test instance, open each property record, change the **Value** field to true, and select **Update**.
 
+
+**Parent Topic:**[Pipelines and Deployments configuration tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/p-and-d-config-tasks.md)
 

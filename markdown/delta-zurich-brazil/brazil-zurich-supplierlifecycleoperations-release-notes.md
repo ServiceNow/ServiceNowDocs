@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-brazil/brazil-zurich-supplierlifecycleoperations-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 16
+last_updated: "2026-10-08"
+reading_time_minutes: 17
 breadcrumb: [Products combined by family]
 ---
 
@@ -440,7 +440,12 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **Activation information**
+
+Request Supplier Lifecycle Operations from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=brazil&ft:locale=en-US).
+
+
+**Note:** Supplier Lifecycle Operations is available in the ServiceNow Store.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -655,7 +660,19 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+Supplier Lifecycle Operations enables you to onboard suppliers quickly, effortlessly manage supplier data, add key supplier contacts, monitor supplier performance, and enhance the productivity of the teams that engage with suppliers.
+
+ Supplier Lifecycle Operations provides the following benefits:
+
+-   Faster supplier onboarding: View details about new suppliers and onboard suppliers quickly using onboarding workflows and start purchasing goods and services.
+-   Automatically import supplier information: Supplier Lifecycle Operations integrates with the supplier Intelligence platform, Craft, which enables you to import and view all the important supplier details.
+-   Supplier self-service: Enhance the supplier experience by enabling suppliers to complete onboarding tasks, get their questioned answered, and fulfill requests, such as viewing open purchase orders and submitting invoices.
+-   Supplier data management: Provide flexibility to suppliers to manage and update their own data, ensuring that the supplier data is current and up to date.
+-   Supplier case and contact management: Create and manage supplier cases, add, and manage supplier contacts.
+-   Minimize risk during supplier onboarding: Identify and assess potential supplier risks when onboarding new suppliers.
+-   Manage supplier relationship and performance: Monitor and assess supplier performance by setting up criteria for measuring supplier performance though KPIs and thresholds.
+
+ For an overview of Supplier Lifecycle Operations capabilities, see [Supplier Lifecycle Management](https://www.servicenow.com/docs/access?context=supp-mgmt-landing-page&family=brazil&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/rn-combined-intro.md)

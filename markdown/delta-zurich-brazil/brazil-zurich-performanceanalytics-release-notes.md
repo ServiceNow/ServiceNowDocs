@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-brazil/brazil-zurich-performanceanalytics-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 8
 breadcrumb: [Products combined by family]
 ---
@@ -101,7 +101,14 @@ Brazil
 
 </td><td>
 
-Starting with the Brazil release, KPI Composer is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+-   **[Use bucket groups to break down Data Snapshots indicators by continuous data](https://www.servicenow.com/docs/access?context=map-bucket-group-to-ds-source&family=brazil&ft:locale=en-US)**
+
+To filter Data snapshots scores by a numeric field on the source table, you can now map a bucket group to that field. The bucket group splits that field into value ranges.
+
+-   **[Use calculated fields to break down Data Snapshots indicators by date](https://www.servicenow.com/docs/access?context=create-a-calculated-field&family=brazil&ft:locale=en-US)**
+
+Create calculated fields to show the length of time that has passed between two date/time fields on a Data snapshots source table. For example, calculate Age as the difference between Created and Updated.
+
 
 </td></tr></tbody>
 </table>## Changes
@@ -166,21 +173,13 @@ Brazil
 
 </td><td>
 
--   **[Use bucket groups to breakdown Data Snapshots indicators by continuous data](https://www.servicenow.com/docs/access?context=map-bucket-group-to-ds-source&family=brazil&ft:locale=en-US)**
-
-To filter Data snapshots scores by a numeric field on the source table, map a bucket group to that field. The bucket group splits that field into value ranges.
-
--   **[Use calculated fields to break down Data Snapshots indicators by date](https://www.servicenow.com/docs/access?context=create-a-calculated-field&family=brazil&ft:locale=en-US)**
-
-Create calculated fields to show the length of time that has passed between two date/time fields on a Data snapshots source table. For example, calculate Age as the difference between Created and Updated.
-
 -   **[Create indicators on Workflow Data Fabric tables](https://www.servicenow.com/docs/access?context=data-fabric-tables-zcc&family=brazil&ft:locale=en-US)**
 
 Create classic automated indicators on external data via Workflow Data Fabric. Use Workflow Data Fabric tables in indicator sources just as you would any other facts tables.
 
 -   **[Intraday scores supported on indicators with Data snapshots enabled](https://www.servicenow.com/docs/access?context=ds-score-collection-enabled-indicators&family=brazil&ft:locale=en-US)**
 
-You can now collect intraday scores on classic indicators with Data snapshots enabled instead of only on natively created Data snapshots indicators.
+If you enable Data snapshots on an existing classic automated indicator, you can collect intraday scores on the data snapshots indicator.
 
 -   **[Manage and troubleshoot your Data snapshots jobs more easily](https://www.servicenow.com/docs/access?context=data-snapshots-logs&family=brazil&ft:locale=en-US)**
 
@@ -263,7 +262,10 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **[KPI Composer](https://www.servicenow.com/docs/access?context=designing-pa-solution&family=brazil&ft:locale=en-US)**
+
+KPI Composer is deprecated starting in the Brazil release. Removal is expected in the D release, and no replacement is planned. KPI Composer will be hidden and no longer activated on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 
 </td></tr></tbody>
 </table>## Activation information
@@ -310,9 +312,12 @@ Brazil
 
 </td><td>
 
+-   **Activation information**
+
 Complimentary Performance Analytics for Incident ManagementPerformance Analytics is active by default. You cannot create indicators or breakdowns with this complimentary application.
 
- The full features of Performance Analytics are available with a subscription. For details, see [Activating your subscription](https://www.servicenow.com/docs/access?context=c_PremiumPerformanceAnalytics&family=brazil&ft:locale=en-US).
+The full features of Performance Analytics are available with a subscription. For details, see [Activating your subscription](https://www.servicenow.com/docs/access?context=c_PremiumPerformanceAnalytics&family=brazil&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements

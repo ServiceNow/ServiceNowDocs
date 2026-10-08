@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/sales-
 release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
@@ -16,7 +16,7 @@ Learn how the ServiceNow® Sales CRM for Telecommunications application can help
 
 ## Sales CRM for Telecommunications overview
 
-With the Sales CRM for Telecommunications application, you can unify your sales, fulfillment, and service operations on one platform. You can streamline quoting and pricing, orchestrate orders from sale to activation, and provide your teams with visibility into customer systems and tools that they need to deliver services. You can unify your sales, fulfillment, and service operations on one AI-powered platform and streamline quoting and pricing, configure complex bundles with guided workflows, and orchestrate orders seamlessly from sale to activation. Your teams can track orders with real-time visibility, proactively monitor issues, identify expansion and renewal opportunities, and prevent revenue loss while driving customer loyalty.
+With the Sales CRM for Telecommunications application, you can unify your sales, fulfillment, and service operations on one AI-powered platform. Configure complex bundles with guided workflows, streamline quoting and pricing, and orchestrate orders from sale to activation. Your teams can track orders with real-time visibility, proactively monitor issues, identify expansion and renewal opportunities, and prevent revenue loss.
 
 ## Key benefits
 
@@ -41,4 +41,15 @@ The Sales CRM for Telecommunications application includes the following capabili
 |Order management|Automates order fulfillment from sale to service activation with intelligent workflows that coordinate across systems. Activates services faster while eliminating revenue loss from failed orders.|
 |Renewal workflows|Provides a complete view of services and subscriptions with automated renewal workflows for proactive outreach. Protects recurring revenue by identifying renewal risks early and surfacing expansion opportunities.|
 |Industry aligned \(TMF APIs\)|Get the details of ServiceNow® implementation of TM Forum \(TMF\) APIs for Telecommunications, Media, and Technology \(TMT\) products.|
+
+## What to explore next
+
+To learn more about configuring and using, see:
+
+-   [Configuring Sales CRM for Telecommunications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/configure-somt.md)
+-   [Configuring product offerings and catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/configuring-product-offerings-catalog.md)
+-   [Using Sales CRM for Telecommunications applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/using-somt.md)
+-   [Approving and fulfilling customer \(product\) orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/order-mgt-fulfillment-processing.md)
+-   [Creating, reviewing, approving, and fulfilling service orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/service-order-mgt-fulfilling-service-orders.md)
+-   [Sales CRM for Telecommunications workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/somt-workflow.md)
 

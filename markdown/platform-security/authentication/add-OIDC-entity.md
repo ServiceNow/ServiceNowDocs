@@ -24,7 +24,7 @@ Role required: oauth\_admin
 
 The ServiceNow AI Platform supports OpenID Connect \(OIDC\) through the external Single Sign-On \(SSO\) implementation in addition to inbound API calls.
 
-For an example of an OIDC provider configuration, see . For an SSO-specific example of an OIDC provider configuration, see [Create an OpenID Connect \(OIDC\) configuration for Single Sign-On \(SSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/create-OIDC-configuration-SSO.md).
+For an example of an OIDC provider configuration, see [Set up Microsoft Entra ID spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/set-up-azure.md). For an SSO-specific example of an OIDC provider configuration, see [Create an OpenID Connect \(OIDC\) configuration for Single Sign-On \(SSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/create-OIDC-configuration-SSO.md).
 
 ## Procedure
 
@@ -130,7 +130,7 @@ To learn more, see [Configure client type for OAuth and SSO records](https://raw
 
 6.  Go to the related list on the record User Provisioning to enable automatic user provisioning.
 
-<table id="choicetable_wzq_2cc_l2b"><tbody><tr><td id="d281125e307">
+<table id="choicetable_wzq_2cc_l2b"><tbody><tr><td id="d283487e308">
 
 **Automatically provision users**
 
@@ -138,7 +138,7 @@ To learn more, see [Configure client type for OAuth and SSO records](https://raw
 
 Option to enable force authentication for users.
 
-</td></tr><tr><td id="d281125e316">
+</td></tr><tr><td id="d283487e317">
 
 **Provision data source**
 
@@ -146,7 +146,7 @@ Option to enable force authentication for users.
 
 The data source to use to transform an OIDC token to a ServiceNow user. Use the **Lookup list** to select the predefined data source template, then open the record to configure the Transformed table mapping. When configuring the Transform mapping, the source fields are from the **JWT token**, the target fields are from the **sys\_user** table.
 
-</td></tr><tr><td id="d281125e337">
+</td></tr><tr><td id="d283487e338">
 
 **User roles applied to provisioned users**
 

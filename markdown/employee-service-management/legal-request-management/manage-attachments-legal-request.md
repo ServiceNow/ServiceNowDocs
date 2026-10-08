@@ -8,7 +8,7 @@ product: Legal Request Management
 classification: legal-request-management
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 4
+reading_time_minutes: 3
 breadcrumb: [Work on a legal request, Managing legal requests, Use, Legal Request Management, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
@@ -36,15 +36,15 @@ If the Privileged and Confidential status is enabled on a legal request, you can
 
 3.  In the **Lists** tab, open a legal request by selecting an option under **Legal Requests**.
 
-<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d79965e115">
+<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d79924e113">
 
 Option
 
-</th><th align="left" id="d79965e118">
+</th><th align="left" id="d79924e116">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d79965e124">
+</th></tr></thead><tbody><tr><td id="d79924e122">
 
 **As an assignee**
 
@@ -56,7 +56,7 @@ Steps
 
 The state of the legal request is Work in progress and the document is Legal review.
 
-</td></tr><tr><td id="d79965e153">
+</td></tr><tr><td id="d79924e151">
 
 **As a collaborator**
 
@@ -69,15 +69,15 @@ The state of the legal request is Work in progress and the document is Legal rev
 </td></tr></tbody>
 </table>4.  Manage documents in the legal request.
 
-<table id="choicetable_rpv_3f2_f5b"><thead><tr><th align="left" id="d79965e183">
+<table id="choicetable_rpv_3f2_f5b"><thead><tr><th align="left" id="d79924e181">
 
 Option
 
-</th><th align="left" id="d79965e186">
+</th><th align="left" id="d79924e184">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d79965e192">
+</th></tr></thead><tbody><tr><td id="d79924e190">
 
 **Using the attachment icon**
 
@@ -96,7 +96,7 @@ The attachment icon \[Omitted image "add-attachment-icon.png"\] Alt text: Attach
     -   To download an attached file, select the actions icon, select **Download**.
 
 
-</td></tr><tr><td id="d79965e274">
+</td></tr><tr><td id="d79924e272">
 
 **Using the Documents tab**
 
@@ -117,7 +117,7 @@ In the **Documents** tab, a link to the document is listed in the **External URL
     2.  Select **Delete**.
 Access to these documents to various users is controlled in multiple ways. For more information on managing document access, see [Document access in a legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/legal-request-management/document-access-legal-request.md).
 
-</td></tr><tr><td id="d79965e351">
+</td></tr><tr><td id="d79924e348">
 
 **Using Privileged Document Access tab**
 
@@ -138,10 +138,6 @@ Change permissions for documents.1.  In the **Privileged Document Access** tab, 
 </table>
 -   **[Document access in a legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/legal-request-management/document-access-legal-request.md)**  
 Documents attached to legal requests are uploaded to the configured external storage system when the external storage option is enabled on the legal request intake form. The access of these documents to various personas is controlled in real time, via a scheduled job, or on-demand.
--   **[Document access in a legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/legal-request-management/document-access-legal-request.md)**  
-Documents attached to legal requests are uploaded to the configured external storage system when the external storage option is enabled on the legal request intake form. The access of these documents to various personas is controlled in real time, via a scheduled job, or on-demand.
-
-**Parent Topic:**[Work on a legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/legal-request-management/work-on-legal-request.md)
 
 **Parent Topic:**[Work on a legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/legal-request-management/work-on-legal-request.md)
 

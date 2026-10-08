@@ -9,7 +9,7 @@ classification: servicenow-studio-classic
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Application Repository in ServiceNow Studio, App deployment in ServiceNow Studio, Use, ServiceNow Studio, Developing your application, Building applications]
+breadcrumb: [Application Repository in ServiceNow Studio, App deployment in ServiceNow Studio, Use, ServiceNow Studio, Build, AI Workflow Factory, Building applications]
 ---
 
 # Publish app changes to the Application Repository from ServiceNow Studio

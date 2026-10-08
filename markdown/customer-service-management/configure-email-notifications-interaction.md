@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Email Interaction for CSM]
-breadcrumb: [Email Interaction, Configure Email, Configure omnichannel, Configure, Customer Service Management]
+breadcrumb: [Configure notifications and reminders for email interactions, Email Interaction, Configure Email, Configure omnichannel, Configure, Customer Service Management]
 ---
 
 # Configure email notifications for an interaction

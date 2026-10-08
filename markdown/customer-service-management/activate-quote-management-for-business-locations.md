@@ -1,6 +1,6 @@
 ---
 title: Activate Quote Management for Business Locations
-description: Activate the Quote Management for Business Location plugin to create and track quotes by channel partners.
+description: Activate the Quote Management for Business Locations plugin to create and track quotes by channel partners.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/activate-quote-management-for-business-locations.html
 release: brazil
@@ -12,7 +12,7 @@ breadcrumb: [Business location plugin, Activate plugins, Configure Service Model
 
 # Activate Quote Management for Business Locations
 
-Activate the Quote Management for Business Location plugin to create and track quotes by channel partners.
+Activate the Quote Management for Business Locations plugin to create and track quotes by channel partners.
 
 ## Before you begin
 
@@ -20,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-The following items are installed with Quote Management for Business Locationspeer :
+The following items are installed with Quote Management for Business Locations speer:
 
 -   Plugins
 -   Store applications

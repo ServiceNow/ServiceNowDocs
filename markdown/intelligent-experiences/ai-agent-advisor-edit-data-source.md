@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-agent-advisor-edit-data-source.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 2
+last_updated: "2026-10-02"
+reading_time_minutes: 3
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup, AI Agent Advisor]
 breadcrumb: [Setting up automation opportunity discovery, Configure, AI Agent Advisor, AI Admin Center, Getting started with AI, Enable AI Experiences]
 ---
@@ -14,6 +14,12 @@ breadcrumb: [Setting up automation opportunity discovery, Configure, AI Agent Ad
 # Edit an analysis data source
 
 Edit a scheduled analysis of your instance records.
+
+**Important:** Lux is the new user experience for AI Admin Center. For more information on the Lux experience, see [AI Admin Center user experience \(Lux UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-admin-center-lux-user-experience.md).
+
+The Next Experience AI Admin Center workspace is being prepared for deprecation in the November store release and will no longer be supported. For more information on the Next Experience UI, see [AI Admin Center workspace \(Next Experience UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-center-workspace.md).
+
+In AI Admin Center version 6.1, the Next Experience and Lux user interfaces are both available.
 
 ## Before you begin
 
@@ -33,19 +39,19 @@ In the event an error occurs when performing these steps, see the troubleshootin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Admin Center** or **Workspaces** &gt; **AI Admin Center**.
+1.  Navigate to **All** &gt; **AI Admin Center** &gt; **AI Admin Center \(Legacy\)**for the legacy AI Admin Center workspace.
+
+    Navigate to **All** &gt; **AI Admin Center** &gt; **Home** or **Admin** &gt; **AI Admin Center** for the Lux UI experience.
 
     The home page opens.
 
-2.  Select **Admin** \(\[Omitted image "icon-now-assist-center-nav-admin.png"\] Alt text: Admin icon in the side navigation bar.\) in the side navigation bar.
+2.  Select **Admin** \(\[Omitted image "icon-now-assist-center-nav-admin.png"\] Alt text: Admin icon in the side navigation bar.\) in the side navigation barin the legacy AI Admin Center workspace.
 
-    The AI Admin Hub page opens.
+    Select **Settings** \(\[Omitted image "icon-aiac-lux-nav-settings.png"\] Alt text: Settings icon.\) in the side navigation panel in the Lux UI experience.
 
-3.  Select **AI Agent Advisor** under **Settings**.
+3.  Select **Automation opportunities** under **General** or**AI Agent Advisor** under **Settings**.
 
     The AI Agent Advisor setup page opens showing a separate card for each data source configuration.
-
-    \[Omitted image "ai-agent-advisor-data-sources.png"\] Alt text: Separate cards for each data source on the AI Agent Advisor setup page.
 
 4.  Select **More options** \(\[Omitted image "icon-now-assist-center-options.png"\] Alt text: More options icon.\) on the data source analysis you want to edit.
 
@@ -66,14 +72,16 @@ AI Agent Advisor runs the analysis according to the configured filters and sched
 
 ## What to do next
 
-View your automation opportunities on the home page. For more information, see [View your automation opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-center-view-automation-opportunities.md).
+View your automation opportunities on the home page. For more information, see [View your automation opportunities \(Next Experience UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-center-view-automation-opportunities.md).
 
 **Parent Topic:**[Setting up automation opportunity discovery in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-center-automation-discovery-setup.md)
 
 **Related topics**  
 
 
-[Set up a data source for analysis]()
+[Set up a data source for analysis \(Next Experience UI\)]()
+
+[Set up a data source for analysis \(Lux UI\)]()
 
 [Deactivate an analysis data source]()
 

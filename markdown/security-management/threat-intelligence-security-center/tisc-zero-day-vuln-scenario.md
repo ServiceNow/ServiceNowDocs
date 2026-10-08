@@ -9,6 +9,7 @@ classification: threat-intelligence-security-center
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
+keywords: [zero day vulnerability, vulnerability scenario, automated vulnerability creation]
 breadcrumb: [Configure Tagging Rules in TISC, About Rules Engine in TISC, Administer, Threat Intelligence Security Center, Security Operations]
 ---
 

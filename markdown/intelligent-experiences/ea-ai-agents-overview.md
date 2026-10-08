@@ -15,7 +15,9 @@ breadcrumb: [Enterprise Architecture, AI agents library, AI agents and agentic w
 The following AI agents are available for Enterprise Architecture.
 
 -   **[Enterprise Architecture explorer for analysis and queries AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ea-enterprise-architecture-explorer-for-analysis-and-queries-ai-agent.md)**  
-This AI agent explores and analyzes Enterprise Architecture data across all 7 CSDM 5.0 domains. It answers questions about business capabilities, applications, services, infrastructure, integrations, value streams, AI systems, technology standards, and compliance using Knowledge Graph.
+The agent answers questions about Enterprise Architecture data based on Common Service Data Model \(CSDM\) 5.0 entities and their relationships. It covers business capabilities, business applications, services, infrastructure, integrations, value streams, AI systems, technology standards, and conformance.
+-   **[Enterprise Architecture diagrams AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ea-enterprise-architecture-diagrams-ai-agent.md)**  
+The agent finds a business application by name or ID and generates a hierarchy diagram saved as a named architectural artifact. The agent also summarizes the generated diagram.
 
 **Parent Topic:**[ServiceNow AI agents library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-agent-landing-page.md)
 

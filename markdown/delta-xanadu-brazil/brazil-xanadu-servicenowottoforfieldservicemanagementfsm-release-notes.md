@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-servicenowottoforfieldservicemanagementfsm-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 4
+last_updated: "2026-10-08"
+reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
 
@@ -91,7 +91,23 @@ Xanadu
 
 </td><td>
 
-No updates for this release.
+-   **Now Assist context menu for KB creation**
+
+Use the enhanced Now Assist context menu to rewrite knowledge articles with generative AI. Opt to shorten or expand upon the existing content within articles.
+
+-   **[Multilingual support for Now Assist for FSM skills](https://www.servicenow.com/docs/access?context=na-fsm-supporting-info&family=xanadu&ft:locale=en-US)**
+
+Generate knowledge articles in multiple languages for work order tasks using the new multilingual support in ServiceNow Otto for FSM skills.
+
+
+-   **[KB Generation](https://www.servicenow.com/docs/access?context=na-fsm-generate-kb-article&family=xanadu&ft:locale=en-US)**
+
+Generate knowledge articles from work order tasks so agents can resolve known issues faster.
+
+-   **[Sidebar summarization](https://www.servicenow.com/docs/access?context=na-fsm-summarize-sidebar-platform&family=xanadu&ft:locale=en-US)**
+
+Summarize Sidebar discussions from the platform and the Mobile Agent application.
+
 
 </td></tr><tr><td>
 
@@ -303,7 +319,7 @@ Xanadu
 
 </td><td>
 
-No updates for this release.
+Now Assist features are available with activation of the ServiceNow Otto for FSM plugin. For more information, see [Install Now Assist plugins](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&family=xanadu&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -315,6 +331,8 @@ Yokohama
 
 Now Assist features are available with activation of the ServiceNow Otto for FSM plugin. For more information, see [Install Now Assist plugins](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&family=yokohama&ft:locale=en-US).
 
+
+**Important:** ServiceNow Otto for Field Service Management \(FSM\) is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 
@@ -359,7 +377,7 @@ Xanadu
 
 </td><td>
 
-No updates for this release.
+The ServiceNow Otto for FSM application requires Field Service Management.
 
 </td></tr><tr><td>
 
@@ -574,7 +592,10 @@ Xanadu
 
 </td><td>
 
-No updates for this release.
+-   Create knowledge articles from work order task information using generative AI.
+-   Summarize Sidebar discussions using generative AI.
+
+ See ServiceNow Otto for Field Service Management \(FSM\) for more information.
 
 </td></tr><tr><td>
 

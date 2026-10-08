@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/mv-create-and-run-manual-value-jobs.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [Value, Configure, Measure AI system, Measure AI systems, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
@@ -16,7 +16,7 @@ Set up manual value jobs for AI systems that you onboard manually, so that the A
 
 ## Before you begin
 
-Role required: sn\_ai\_governance\_ai\_steward.
+Role required: sn\_ai\_governance.ai\_steward.
 
 ## About this task
 

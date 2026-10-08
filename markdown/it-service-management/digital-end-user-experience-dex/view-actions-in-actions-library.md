@@ -9,7 +9,7 @@ classification: digital-end-user-experience-dex
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Monitor application performance, Manage, Digital End-User Experience, IT Service Management]
+breadcrumb: [Monitor application performance, Manage employee experience, Digital End-User Experience, IT Service Management]
 ---
 
 # View actions in the Digital End-User Experience Action Library

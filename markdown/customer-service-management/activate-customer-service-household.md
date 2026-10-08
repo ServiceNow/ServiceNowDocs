@@ -36,5 +36,5 @@ The CRM Household Entities plugin \(com.snc.household\) enables you to create ho
 **Related topics**  
 
 
-[Activate business locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/activate-business-location.md)
+[Activate the Business Location plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/activate-business-location.md)
 

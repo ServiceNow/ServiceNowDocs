@@ -1,12 +1,12 @@
 ---
 title: AI Desktop Actions release notes
-description: The ServiceNow AI Desktop Actions application enables you to automate repetitive tasks on your desktop and web. These desktop actions are executed by AI agents created in AI Agent Studio.Adaptive path AI Desktop Actions now gather stored credentials and dynamic parameters automatically, attach and track files during a task, and start faster with fewer stray browser tabs.
+description: The ServiceNow AI Desktop Actions application enables you to automate repetitive tasks on your desktop and web. These desktop actions are executed by AI agents created in AI Agent Studio.Adaptive desktop actions now automatically record your steps and convert them into reusable action blocks, powered by Claude Sonnet 4.6. AI-powered search instantly suggests matching actions for similar tasks, eliminating repetitive work and accelerating automation.Adaptive path AI Desktop Actions now gather stored credentials and dynamic parameters automatically, attach and track files during a task, and start faster with fewer stray browser tabs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/agentic-desktop-rn.html
 release: brazil
 topic_type: topic
 last_updated: "2026-09-10"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [AI Experiences release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
@@ -52,6 +52,27 @@ See [AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNow
 
 
 **Parent Topic:**[AI Experiences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/intelligent-experiences-rn-landing.md)
+
+## Brazil Patch 1
+
+Adaptive desktop actions now automatically record your steps and convert them into reusable action blocks, powered by Claude Sonnet 4.6. AI-powered search instantly suggests matching actions for similar tasks, eliminating repetitive work and accelerating automation.
+
+### What's new
+
+-   **[Execute recorded desktop actions on macOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/reusable-skills-adaptive-da.md)**
+    -   Enable the system property to automatically record adaptive desktop actions during execution and reuse them for similar tasks.
+    -   Automated recording captures your exact steps and converts them instantly into reusable skills.
+    -   AI-powered search automatically suggests matching skills based on your current task.
+-   **[New system property added](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/components-installed-with-agentic-desktop.md)**
+
+    The sn\_desktop\_core.enable\_reusable\_assets system property is added to manage the reusable skills feature. The system property creates reusable skills from adaptive desktop action recordings and enables deterministic replay. The default value is false.
+
+
+### What's changed
+
+-   **[Claude Sonnet 4.6 supported](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-llm-model-updates.md)**
+    -   Adaptive desktop actions now support version 4.6 of Claude Sonnet. It is now the default model for adaptive desktop actions.
+    -   Use function keys \(F1–F12\) and combo keys \(cmd+a, alt+F4, ctrl+c\) in desktop automation without manual intervention.
 
 ## Brazil Patch 0
 

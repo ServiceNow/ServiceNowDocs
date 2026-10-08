@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-brazil/brazil-yokohama-api-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 18
+last_updated: "2026-10-08"
+reading_time_minutes: 20
 breadcrumb: [Products combined by family]
 ---
 
@@ -863,6 +863,15 @@ setAggregateWorkflow\(\)
 
 [GlideElementDescriptor - isEncrypted\(\)](https://www.servicenow.com/docs/access?context=SGED-isEncrypted&family=australia&ft:locale=en-US)
 
+</td></tr><tr><td>
+
+[KafkaProducerAPI - Scoped](https://www.servicenow.com/docs/access?context=KafkaProducerAPIScoped&family=australia&ft:locale=en-US)
+
+</td><td>
+
+-   KafkaProducerAPI\(\)
+-   send\(\)
+
 </td></tr></tbody>
 </table><table><thead><tr><th>
 
@@ -1226,6 +1235,15 @@ Brazil
 
 -   ****
 
+    |Application|App Version|API type|API|Methods/Endpoints|
+    |-----------|-----------|--------|---|-----------------|
+    |Mobile SDK Libraries - Android|2.26.0|Mobile SDK|[NowChatConfiguration class - Android](https://www.servicenow.com/docs/access?context=NowChatOptionsAndroid&family=brazil&ft:locale=en-US)|VoiceInputButton\(\)|
+    |Mobile SDK Libraries - iOS|2.26.0|Mobile SDK|[NowChatConfiguration class - iOS](https://www.servicenow.com/docs/access?context=NowChatOptionsiOS&family=brazil&ft:locale=en-US)|VoiceInputButton\(\)|
+    |Zero Copy Connector for ERP \(com.snc.sn\_erp\_integration\)|10.6.0|Server|[sn\_erp\_integration API - Scoped, Global](https://www.servicenow.com/docs/access?context=sn_erp_integrationBothAPI&family=brazil&ft:locale=en-US)|getRowCount\(\)|
+
+
+ -   ****
+
 <table><thead><tr><th>
 
 Application
@@ -1517,7 +1535,159 @@ API
 
 </th><th>
 
-Methods/endpoints
+Methods/Endpoints
+
+</th></tr></thead><tbody><tr><td>
+
+Universal MCP Client
+
+</td><td>
+
+1.1.3
+
+</td><td>
+
+Server
+
+</td><td>
+
+[MCPClient - Scoped](https://www.servicenow.com/docs/access?context=MCPClientAPI&family=brazil&ft:locale=en-US)
+
+</td><td>
+
+A new parameter **caller\_product** is added to specify the scope name of the application making the API call. This parameter is required for the following methods.-   getServers\(\)
+-   getToolInfo\(\)
+-   invokeTool\(\)
+-   listTools\(\)
+
+
+</td></tr><tr><td>
+
+Mobile SDK Libraries - Android
+
+</td><td>
+
+2.26.0
+
+</td><td>
+
+Mobile SDK
+
+</td><td>
+
+[NowChatConfiguration class - Android](https://www.servicenow.com/docs/access?context=NowChatOptionsAndroid&family=brazil&ft:locale=en-US)
+
+</td><td>
+
+New optional parameters added to UIConfiguration\(\).-   **hideServiceNowInProductBranding**: Show or hide ServiceNow branding in Virtual Agent.
+-   **voiceInputButton**: Show or hide the speech-to-text microphone button in the text input bar.
+
+
+</td></tr><tr><td>
+
+Mobile SDK Libraries - iOS
+
+</td><td>
+
+2.26.0
+
+</td><td>
+
+Mobile SDK
+
+</td><td>
+
+[NowChatConfiguration class - iOS](https://www.servicenow.com/docs/access?context=NowChatOptionsiOS&family=brazil&ft:locale=en-US)
+
+</td><td>
+
+New optional parameters added to UIConfiguration\(\).-   **hideBranding**: Show or hide ServiceNow branding in Virtual Agent.
+-   **voiceInputButton**: Show or hide the speech-to-text microphone button in the text input bar.
+
+
+</td></tr><tr><td>
+
+Order Management for Telecommunications and Media
+
+</td><td>
+
+15.0.4
+
+</td><td>
+
+REST
+
+</td><td>
+
+[Product Order Open API](https://www.servicenow.com/docs/access?context=tmf622_product_ordering-api&family=brazil&ft:locale=en-US)
+
+</td><td>
+
+The PATCH `/sn_ind_tmt_orm/order/productOrder/{id}` endpoint now accepts the V3 `relatedParty` item shape \(`role`/`@type`/`partyOrPartyRole`\). PATCH supports only the reference pattern for both V2 and V3 versions of the API.
+
+</td></tr><tr><td>
+
+Telecommunications Service Management
+
+</td><td>
+
+8.0.3
+
+</td><td>
+
+REST
+
+</td><td>
+
+[Product Inventory Open API](https://www.servicenow.com/docs/access?context=product-inventory-open-api&family=brazil&ft:locale=en-US)
+
+</td><td>
+
+In the GET /product and GET /\{id\} endpoints, the `productCharacteristic.valueType` field now supports a new `sn_prd_invt.enableseamlessvaluetype` system property that, when enabled, returns the same backend value format the Product Order API already uses, allowing consistent characteristic value types across both APIs.
+
+</td></tr><tr><td>
+
+Omnichannel Callback for Customer Service Management \(sn\_callback\)
+
+</td><td>
+
+1.8.3
+
+</td><td>
+
+REST
+
+</td><td>
+
+[Voice Interaction Resource API](https://www.servicenow.com/docs/access?context=voice-interaction-resource-api&family=brazil&ft:locale=en-US)
+
+</td><td>
+
+The `POST /api/now/openframe/voice-interaction` endpoint now prevents duplicate interactions by reusing existing work-in-progress callbacks when an agent clicks to call from the workspace. The system checks for WIP interactions with matching `inbound_id` and parties before creating a new record, and accepts a new `relatedRecords` objecy to pass callback context via `context_document` and `context_table` fields.
+
+</td></tr></tbody>
+</table>
+ -   ****
+
+<table><thead><tr><th>
+
+Application
+
+</th><th>
+
+App Version
+
+</th><th>
+
+API type
+
+</th><th>
+
+API
+
+</th><th>
+
+Methods/Endpoints
 
 </th></tr></thead><tbody><tr><td>
 
@@ -1818,7 +1988,7 @@ Australia
 
 </td><td>
 
--   NowAnalyticsService and NowAnalyticsServiceDelegate have been removed from Mobile SDK - iOS.
+-   NowAnalyticsService, NowAnalyticsServiceDelegate, and SNMobileAnalytics have been removed from Mobile SDK - iOS.
 -   NowAnalyticsSDK has been removed from Mobile SDK - Android.
 
  -   GlideElementDynamicAttribute has been removed. Use other GlideElement instances corresponding to an attribute's type instead.
@@ -1968,7 +2138,10 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **Activation information**
+
+API activation is dependent on the specific product or application where the API is required. Consult your product documentation or contact your ServiceNow® administrator to determine activation steps for your use case.
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -2207,7 +2380,12 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   Use server-side JavaScript APIs in scripts to change the application functionality.
+-   Run client APIs whenever a client-based event occurs, such as when a form loads, a form is submitted, or a field value changes.
+-   Use inbound REST APIs to interact with various ServiceNow functionalities within your application.
+-   Client Next Experience APIs include client APIs compatible with the Next Experience UI.
+
+ See [API implementation and reference](https://www.servicenow.com/docs/access?context=api-implementation-reference&family=brazil&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/rn-combined-intro.md)

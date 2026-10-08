@@ -1,18 +1,18 @@
 ---
-title: Activate Data Collection for HR
-description: Activate the Data Collection Pack for HR after you enable and configure it.
+title: Activate Data Collection for HR Service Delivery
+description: Activate the Data Collection Pack for HR Service Delivery after you enable and configure it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/dc-hr-activate.html
 release: brazil
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 1
-breadcrumb: [Impact Value Management Data Collection Content Pack for HR, Enable data collection for Value Management, Configuring Impact, Impact]
+reading_time_minutes: 2
+breadcrumb: [Impact Value Management Data Collection Content Pack for HR Service Delivery, Enable data collection for Value Management, Guided Setup, Configuring Impact, Impact]
 ---
 
-# Activate Data Collection for HR
+# Activate Data Collection for HR Service Delivery
 
-Activate the Data Collection Pack for HR after you enable and configure it.
+Activate the Data Collection Pack for HR Service Delivery after you enable and configure it.
 
 ## Before you begin
 
@@ -24,7 +24,7 @@ Role required: admin, pa\_admin, or pa\_data\_collector
 
 ## Procedure
 
-1.  Navigate to **Performance/PlatformAnalytics** &gt; **Data Collector** &gt; **Jobs**, and then open **Impact VM – HR - Monthly Data Collection**.
+1.  Navigate to **Performance/PlatformAnalytics** &gt; **Data Collector** &gt; **Jobs**, and then open **Impact VM – HR Service Delivery - Monthly Data Collection**.
 
 2.  Select **Active**, and then update the record.
 
@@ -32,7 +32,7 @@ Role required: admin, pa\_admin, or pa\_data\_collector
 
 3.  To do a trial run of the monthly data collection, select **Execute Now**.
 
-4.  Navigate to **Platform Analytics** &gt; **Dashboard**, and then open **Impact VM – HR**.
+4.  Navigate to **Platform Analytics** &gt; **Dashboard**, and then open **Impact VM – HR Service Delivery**.
 
     There are two tabs: Monthly – HR and Quarterly – HR.
 
@@ -40,7 +40,7 @@ Role required: admin, pa\_admin, or pa\_data\_collector
 
 6.  To run historical jobs, do the following:
 
-    1.  Navigate to **Performance/Platform Analytics** &gt; **Data Collector** &gt; **Jobs**, and then open **Impact VM – HR – Historical Data Collection**.
+    1.  Navigate to **Performance/Platform Analytics** &gt; **Data Collector** &gt; **Jobs**, and then open **Impact VM – HR Service Delivery – Historical Data Collection**.
 
         **Important:** Do NOT select Active asHistorical Data collection within Performance/Platform Analytics runs on an on-demand basis.
 
@@ -50,12 +50,12 @@ Role required: admin, pa\_admin, or pa\_data\_collector
         -   If you have the full version of Performance/Platform Analytics, you can change the Relative start date to a longer timeframe than 6 months. For example, you could change Relative start from 6 months ago to 12 months ago.
     2.  Select **Execute Now** to run the historical data collection job.
 
-    3.  Navigate to **Performance/Platform Analytics** &gt; **Dashboard**, and then open **Impact VM – HR**.
+    3.  Navigate to **Performance/Platform Analytics** &gt; **Dashboard**, and then open **Impact VM – HR Service Delivery**.
 
-        There are two tabs: Monthly - HR and Quarterly - HR.
+        There are two tabs: Monthly - HR Service Delivery and Quarterly - HR Service Delivery.
 
     4.  To validate historical data for any specific indicator, select the widget on the dashboard.
 
 
-**Parent Topic:**[Impact Value Management Data Collection Content Pack for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/data-collection-hr.md)
+**Parent Topic:**[Impact Value Management Data Collection Content Pack for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/data-collection-hr.md)
 

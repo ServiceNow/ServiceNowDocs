@@ -9,7 +9,7 @@ classification: servicenow-studio-classic
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Metadata source control in ServiceNow Studio, Source control integration, Use, ServiceNow Studio, Developing your application, Building applications]
+breadcrumb: [Metadata source control in ServiceNow Studio, Source control integration, Use, ServiceNow Studio, Build, AI Workflow Factory, Building applications]
 ---
 
 # Create versions and branches in Git
@@ -73,15 +73,15 @@ Role required: admin
 
 5.  Choose whether to stash or discard local changes before switching.
 
-<table id="choicetable_evb_nr3_t5"><thead><tr><th align="left" id="d205565e393">
+<table id="choicetable_evb_nr3_t5"><thead><tr><th align="left" id="d233880e393">
 
 Option
 
-</th><th align="left" id="d205565e396">
+</th><th align="left" id="d233880e396">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d205565e402">
+</th></tr></thead><tbody><tr><td id="d233880e402">
 
 **Stash local changes**
 
@@ -89,7 +89,7 @@ Description
 
 Saves local changes before switching to an alternate branch. You can later merge or discard the saved changes.
 
-</td></tr><tr><td id="d205565e411">
+</td></tr><tr><td id="d233880e411">
 
 **Discard local changes**
 

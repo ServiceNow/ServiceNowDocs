@@ -9,7 +9,7 @@ classification: developer-sandboxes
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Administering, Developer Sandboxes, Developing your application, Building applications]
+breadcrumb: [Administering, Developer Sandboxes, Build, AI Workflow Factory, Building applications]
 ---
 
 # Allocate a sandbox
@@ -68,4 +68,6 @@ Once allocated, developers can access their sandbox by one of two ways:
 Sandbox users use the same login credentials for their sandbox as the base instance. If you use Single Sign-On \(SSO\), enabling it on the base instance also authenticates Developer Sandboxes \[var.developer-sandboxes-long\] using the same credentials. For information on enabling SSO, see [Installing Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/developer-sandboxes/dev-sbx-installing.md).
 
 Two automatically created update set sources enable you to retrieve, preview, and commit completed update sets between the sandbox and base instance using the standard update set process. For more information, see [Update sets transfer between sandboxes and base instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/developer-sandboxes/dsb-update-sets.md).
+
+**Parent Topic:**[Administering Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/developer-sandboxes/administering-sandboxes.md)
 

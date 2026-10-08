@@ -7,7 +7,7 @@ release: brazil
 product: Adoption Services
 classification: adoption-services
 topic_type: task
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 3
 breadcrumb: [Guided Tour Designer use case, Use Guided Tours, Guided Tours, Adoption services, Configure user experiences]
 ---

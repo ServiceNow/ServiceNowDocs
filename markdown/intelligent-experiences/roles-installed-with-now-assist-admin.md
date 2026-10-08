@@ -8,14 +8,14 @@ topic_type: reference
 last_updated: "2026-09-16"
 reading_time_minutes: 1
 keywords: [Now Assist Admin, roles, Generative AI, Gen AI, Now Assist Admin, edit, configure, skills, roles, groups, special considerations, ace\_user, sn\_nowassist\_admin.nsa\_admin, Now Assist, panel, user, access, roles, groups, special, considerations, Generative AI, Gen AI, sn\_nowassist\_admin.user, Now Assist, panel, user, access, roles, groups, special, considerations, Generative AI, Gen AI]
-breadcrumb: [Now Assist reference, AI Admin Hub, Generative AI skills, Enable AI Experiences]
+breadcrumb: [AI Admin Hub reference, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
 # AI Admin Hub roles
 
 Certain roles are required to use AI Admin Hub functionality. The base admin \(sys\_admin\) role does not automatically grant or include the following roles, so assign these directly to users who require them.
 
-**Parent Topic:**[Now Assist reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-reference-landing.md)
+**Parent Topic:**[AI Admin Hub reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-reference-landing.md)
 
 ## Now Assist Admin \[sn\_nowassist\_admin.nsa\_admin\]
 

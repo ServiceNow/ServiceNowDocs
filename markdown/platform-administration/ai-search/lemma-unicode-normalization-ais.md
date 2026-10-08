@@ -7,7 +7,7 @@ release: brazil
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-09-28"
 reading_time_minutes: 3
 breadcrumb: [Administer, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -26,11 +26,9 @@ For example, when a source record includes the conjugated verb `selling`, AI Sea
 
 AI Search supports language-specific lemma normalization for Arabic, Brazilian Portuguese, Czech, Danish, Dutch, English, Finnish, French, French - Canada, German, Hebrew, Hungarian, Italian, Japanese, Korean, Norwegian \(Bokmål\), Polish, Portuguese, Russian, Simplified Chinese, Spanish, Swedish, Traditional Chinese, and Turkish.
 
-**Note:** When parsing Finnish source record text and search terms, AI Search uses algorithmic stemming to identify lemmas.
-
 ## Decompounding
 
-In addition to normalizing lemmas for German, Danish, Hungarian, Korean, Norwegian \(Bokmål\), and Swedish, AI Search indexes compound words and their individual component words. For example, when indexing a German record that contains the compound word `Humanressourcen`, AI Search indexes the component terms `Human` and `ressourcen` in addition to the compound term.
+In addition to normalizing lemmas for Danish, Finnish, German, Hungarian, Korean, Norwegian \(Bokmål\), and Swedish, AI Search indexes compound words and their individual component words. For example, when indexing a German record that contains the compound word `Humanressourcen`, AI Search indexes the component terms `Human` and `ressourcen` in addition to the compound term.
 
 ## Unicode normalization
 

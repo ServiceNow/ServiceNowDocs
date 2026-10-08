@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Use, Build Agent, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Use, Build Agent, Build, AI Workflow Factory, Building applications]
 ---
 
 # Update sets and Build Agent
@@ -18,8 +18,6 @@ When you work with Build Agent, your changes are automatically tracked in update
 Build Agent tracks every change it makes to your application in update sets. Changes from each checkpoint in a conversation are captured together in a single update set. You can access, review, and open the update sets directly from the Build Agent chat panel. You can also open the update sets from the Current Changes List \(CCL\) page in ServiceNow Studio, without navigating to the platform.
 
 Update sets use descriptive names to help identify what each update set contains. Names follow this pattern: *application-name* `build agent install 1`, `build agent install 2`, and so on.
-
-After Build Agent creates a checkpoint, it automatically opens a manual edit checkpoint that captures any changes you make directly to your application outside of Build Agent. These manual edits are tracked in a separate update set named `manual edit 1`, `manual edit 2`, and so on.
 
 For general information about update sets on the ServiceNow AI Platform, see [System update sets]().
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/rn-summary-accessibility.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-25"
+last_updated: "2026-10-08"
 reading_time_minutes: 7
 breadcrumb: [Release notes summaries for Brazil features, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
@@ -98,16 +98,6 @@ Reflow support for the Create a change request page: Content can be zoomed up to
 
 </td></tr><tr><td>
 
-Clone Admin Console
-
-</td><td>
-
--   ****
-    -   The Clone Admin Console user interface follows ServiceNow platform accessibility standards.
-    -   Clone status indicators, tables, and forms in the Clone Admin Console are navigable using standard keyboard and screen reader support provided by the platform.
-
-</td></tr><tr><td>
-
 Cloud Cost Management
 
 </td><td>
@@ -128,6 +118,14 @@ Data Privacy and Discovery
     -   Screen reader support includes proper ARIA labels for all UI components including policy configuration, findings inspection, and job management interfaces.
     -   Color contrast ratios meet WCAG AA standards across all features and workflows.
     -   For accessibility questions or to report accessibility issues, contact ServiceNow Support.
+
+</td></tr><tr><td>
+
+Digital End-User Experience
+
+</td><td>
+
+Localization is applicable to DEX in all languages supported by the ServiceNow AI Platform.
 
 </td></tr><tr><td>
 
@@ -256,6 +254,17 @@ Request Management
 
 </td></tr><tr><td>
 
+Sales CRM for Telecommunications
+
+</td><td>
+
+-   ****
+
+Sales Customer Relationship Management follows standard ServiceNow platform accessibility support, including keyboard navigation and compatibility with screen readers.
+
+
+</td></tr><tr><td>
+
 Service Operations Workspace for ITSM
 
 </td><td>
@@ -271,16 +280,9 @@ ServiceNow Quote Experience
 </td><td>
 
 -   ****
-    -   ServiceNow Quote Experience is now fully accessible when using dark themes, so you can view and interact with all interface elements clearly in a dark-themed environment.
 
-</td></tr><tr><td>
+Color contrast in ServiceNow Quote Experience was updated to display all interface elements clearly in dark-themed environments. This update helps users view and interact with all interface elements clearly in a dark-themed environment.
 
-Telecommunications Service Operations Management \(TSOM\)
-
-</td><td>
-
--   ****
-    -   Telecommunications Service Operations Management follows standard ServiceNow AI Platform accessibility support, including keyboard navigation and compatibility with screen readers.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Release notes summaries for Brazil features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/release-notes-summaries.md)

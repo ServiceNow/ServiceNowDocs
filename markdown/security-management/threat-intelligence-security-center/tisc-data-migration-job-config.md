@@ -9,6 +9,7 @@ classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 3
+keywords: [data migration job, SIR TI migration, migration configuration]
 breadcrumb: [Data migration in TISC, Use, Threat Intelligence Security Center, Security Operations]
 ---
 

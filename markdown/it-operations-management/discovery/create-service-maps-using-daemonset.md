@@ -28,15 +28,15 @@ If you use a ServiceNow DaemonSet, a pod is running on each Kubernetes node and 
 
 -   Set parameters either during Helm chart archive installation or by modifying the Kubernetes YAML file provided by ServiceNow.
 
-<table id="choicetable_ucg_fpk_bgc"><thead><tr><th align="left" id="d168930e92">
+<table id="choicetable_ucg_fpk_bgc"><thead><tr><th align="left" id="d170772e92">
 
 Method
 
-</th><th align="left" id="d168930e95">
+</th><th align="left" id="d170772e95">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d168930e101">
+</th></tr></thead><tbody><tr><td id="d170772e101">
 
 **During Helm chart archive installation**
 
@@ -61,7 +61,7 @@ Docker tagservicenowdocker/informer_ds:X.X.X COMPANY_REPO:X.X.X
 
 `--set image.dsRepository=COMPANY_REPO –set image.dsTag=X.X.X`
 
-</td></tr><tr><td id="d168930e144">
+</td></tr><tr><td id="d170772e144">
 
 **Modifying the `k8s_informer.yaml` file**
 
@@ -80,7 +80,7 @@ kubectl apply -f k8s_informer.yaml
 </table>
 ## What to do next
 
-[Create application service maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/create-an-app-service-map-kva.md)
+[Create service maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/create-an-app-service-map-kva.md)
 
 **Parent Topic:**[Enabling application service maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/enabling-application-service-maps.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-salesagreement-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -133,7 +133,7 @@ Brazil
 
 -   **[Sales agreements for buyer organizations](https://www.servicenow.com/docs/access?context=sales-agreement-mgmt-using&family=brazil&ft:locale=en-US)**
 
-Users can create a sales agreement from a quote created for a service organization. The buyer organization and channel partner information from the quote is automatically carried over to the sales agreement.
+Users can create a sales agreement from a quote created for a buyer organization. The buyer organization and channel partner information from the quote is automatically updated to the sales agreement. Buyer Organization captures the name of the organization for which the quote is created.
 
 
 </td></tr></tbody>

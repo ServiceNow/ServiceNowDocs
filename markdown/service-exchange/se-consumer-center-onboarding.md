@@ -8,7 +8,7 @@ product: Service Exchange
 classification: service-exchange
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Configure for consumers, Service Exchange for Consumers, Service Exchange]
 ---
 
@@ -32,6 +32,8 @@ When you open the URL, the Service Exchange Connection Wizard opens and guides y
 
 The registration process runs system checks to verify that your instance is ready before starting the connection. The process may take a few minutes to complete.
 
+If your instance is running an older version of Service Exchange, clicking the link in the email redirects you to the older registration experience instead of this wizard.
+
 ## Procedure
 
 1.  Open the registration URL sent to you by the provider.
@@ -40,24 +42,27 @@ The registration process runs system checks to verify that your instance is read
 
 2.  In the **Select Provider** field, select the provider company and then select **Get Started**.
 
-    The system runs pre-onboarding checks and the page state is set to **Validated** when all checks pass.
+    The system automatically runs the pre-onboarding scan suite and displays the provider connection details. The page shows the message "Running pre-onboarding checks to ensure you are ready." When checks complete:
 
-    **Note:** If any check fails, the system displays a validation error and the **Start Registration** button does not appear. Resolve the issues indicated and select **Get Started** again.
-
+    -   If all checks pass, the message "System checks passed. Your system is healthy and ready for registration." appears and **Start Registration** becomes active.
+    -   If any check fails, the issues are listed with a **Resolution steps** link next to each one. Select **Resolution steps** to open the resolution details and a **Validate &amp; resolve** button. Resolved issues show a green check. **Start Registration** remains disabled until all issues are resolved.
+    -   If the scan itself fails, the message "Failed running the pre-onboarding checks. Please check again later." appears and **Start Registration** remains disabled.
 3.  Select **Start Registration**.
 
-    The registration process starts. The wizard displays the progress of each step as it completes. The process may take a few minutes.
+    The registration process starts. All phases are listed from the start. As each phase completes, it shows a green check. Expand a phase to see its detailed steps. If a step fails, a red error icon appears on that step.
 
-4.  Select **Configure settings**.
+    If a step takes longer than 5 minutes, a delay message is displayed. The process may take a few minutes overall.
 
-    Use the **Settings** tab to configure the connection settings, including **Remote record producer settings**, **Remote task definitions**, and **Auto-activation** options.
+4.  When registration completes successfully, select **Configure settings**.
+
+    The **Settings** page opens. Configure the settings for this connection. See the settings reference for the available options.
 
 5.  Save your settings by selecting **Done**.
 
 
 ## Result
 
-After the registration is successful, you see a success message and the state of the connection changes to Onboarded. ALONG with the state, you also see the provider details, connection status, and the date the connection was established.
+When registration completes, the success message `Congrats! You're now connected with <provider name>!` appears with a link to the **Health** tab to monitor connection health. The connection state is set to **Onboarded**. After saving your settings, the **View details** page opens showing the connection details.
 
 ## What to do next
 

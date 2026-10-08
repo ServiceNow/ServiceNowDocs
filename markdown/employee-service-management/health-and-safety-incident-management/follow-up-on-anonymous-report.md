@@ -55,14 +55,8 @@ After submitting the anonymous report, you’ll see a modal dialogue requesting 
 
 **Parent Topic:**[Managing an anonymous safety concern](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/health-and-safety-incident-management/managing_anonymous_safety_concern.md)
 
-**Parent Topic:**[Managing an anonymous safety concern](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/health-and-safety-incident-management/managing_anonymous_safety_concern.md)
-
 **Related topics**  
 
-
-[Submit an anonymous safety concern]()
-
-[Work on an anonymous safety concern]()
 
 [Submit an anonymous safety concern]()
 

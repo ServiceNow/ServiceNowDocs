@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Impact Guided Setup, Configuring Impact, Impact]
+breadcrumb: [Assign roles, Configuring Impact, Impact]
 ---
 
 # Assign users to Platform Health groups
@@ -16,38 +16,30 @@ In addition to assigning Impact users to groups, Platform Health users must also
 
 ## Before you begin
 
-Feature allocation and availability in the Platform Health Scan Engine is based on role and group assignment. See [Track Platform Health trends](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/scan-engine-diagnostic-dashboards.md) for additional information on role-based feature availability.
+**Important:** Navigation to reach this step differs depending on whether you're using the [Impact Setup Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/use-impact-setup-hub.md) or the legacy [Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/guided-setup-impact-in-app.md). See whichever one applies to you for the exact path.
 
-**Note:** You may return to the various steps in the configuration if you don't complete the entire setup at once. As you complete each step successfully, mark the step as complete. Subsequent tasks are locked until the previous step is completed.
+Feature allocation and availability in the Platform Health Scan Engine is based on role and group assignment. See [Track Platform Health trends](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/scan-engine-diagnostic-dashboards.md) for additional information on role-based feature availability.
 
 Role required: impact app admin or admin
 
 ## Procedure
 
-1.  [Onboard users to the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/onboard_users_impact_store_application.md).
+1.  [Assign roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/assign-roles.md).
 
-2.  Navigate to **All** &gt; **Impact** &gt; **Guided Setup** &gt; **Assign Platform Health users**.
+2.  Select the checkbox next to each role you want to assign.
 
-3.  Select a user group to assign users to a group.
+3.  Select **Assign users**.
 
-4.  Create Development Teams.
+4.  [Create a development team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/create-development-team.md).
 
-    Development teams are necessary so each persona can access the relevant Platform Health dashboard. Each record indicates a team and a development team lead that Scan Engine findings will be reported on the Analytics Dashboard.
-
-    1.  Navigate to **All** &gt; **Impact** &gt; **Configuration** &gt; **Scan Engine Properties**.
-
-    2.  In the Team Leads related list, select **New**.
-
-    3.  Create the relevant development teams assigned to the appropriate team lead.
-
-        See [Configure scanning properties per persona](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/teamdev-scanning-properties.md) for additional information on assigning team leads to development teams.
-
-5.  Select **Mark as Complete** to enable the next configuration step.
+    Development teams are necessary so each persona can access the relevant Platform Health dashboard.
 
 
 ## What to do next
 
+If a role assignment changed, affected users must log out and log back in to your instance for the permissions to apply.
+
 [Activate Scan Engine and review settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/configure-initial-scan-engine-settings.md)
 
-**Parent Topic:**[Impact Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/guided-setup-impact-in-app.md)
+**Parent Topic:**[Assign roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/assign-roles.md)
 

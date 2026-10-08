@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-careteamoperationsforhealthcareit-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 6
+last_updated: "2026-10-08"
+reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
 
@@ -148,6 +148,17 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
     -   Advanced: AI to boost productivity across relevant use cases
     -   Prime: Act autonomously with all AI assets, and create your own
 Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+
+
+ -   **[Create support requests using Now Assist in Virtual Agent](https://www.servicenow.com/docs/access?context=hcls-agentic-ai-use-cases&family=australia&ft:locale=en-US)**
+
+Create support requests for healthcare IT, biomed, facilities, or environmental services departments through Now Assist in Virtual Agent conversationally. This workflow resolves missing or unclear details through clarifying questions and validates the request using the Care team operations case Intake and Care team operations case Creation AI agents and is available in Care Team Portal and Care Team Mobile.
+
+-   **[Care Team Operations Case Creation AI voice agent](https://www.servicenow.com/docs/access?context=hco-now-assist-voice-agent&family=australia&ft:locale=en-US)**
+
+The Care Team Operations Case Creation AI voice agent enables care team members to create cases conversationally over the phone.
+
+**Note:** For the Care Team Operations Case Creation AI voice agent to create cases, the Care Team Operations plugin for cases of that request type must be installed.
 
 
 </td></tr><tr><td>
@@ -349,6 +360,8 @@ Yokohama
 Install Care Team Operations for Healthcare IT by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 
+**Important:** Care Team Operations for Healthcare IT is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Zurich
@@ -360,6 +373,8 @@ Zurich
 Install Care Team Operations for Healthcare IT by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
 
+**Important:** Care Team Operations for Healthcare IT is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Australia
@@ -370,6 +385,8 @@ Australia
 
 Install Care Team Operations for Healthcare IT by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
 
+
+**Important:** Care Team Operations for Healthcare IT is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 

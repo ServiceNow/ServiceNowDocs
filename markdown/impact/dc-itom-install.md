@@ -1,5 +1,5 @@
 ---
-title: Install the Data Collection Pack for ITOM
+title: Install the Data Collection Pack for IT Operations Management
 description: To enable the Data Collection Pack, you must install dependent plugins and activate Data Collection jobs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/dc-itom-install.html
@@ -7,16 +7,16 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Impact Value Management Data Collection Content Pack for ITOM, Enable data collection for Value Management, Configuring Impact, Impact]
+breadcrumb: [Impact Value Management Data Collection Content Pack for IT Operations Management, Enable data collection for Value Management, Guided Setup, Configuring Impact, Impact]
 ---
 
-# Install the Data Collection Pack for ITOM
+# Install the Data Collection Pack for IT Operations Management
 
 To enable the Data Collection Pack, you must install dependent plugins and activate Data Collection jobs.
 
 ## Before you begin
 
-The ITOM Success Metric Definitions in this application rely on another application. confirm that the required plugins are installed if they are not already installed. For more information, see [Install Impact Value Management Data Collection Content Pack Apps dependent plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/dc-install-plugins.md).
+The IT Operations Management Success Metric Definitions in this application rely on another application. confirm that the required plugins are installed if they are not already installed. For more information, see [Install Impact Value Management Data Collection Content Pack Apps dependent plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/dc-install-plugins.md).
 
 Role required: Impact users
 
@@ -30,10 +30,10 @@ Role required: Impact users
 
 4.  Search for and select the following:
 
-    -   **Impact VM - ITOM - Monthly Data Collection**
-    -   **Impact VM - ITOM - Historical Data Collection**
+    -   **Impact VM - IT Operations Management - Monthly Data Collection**
+    -   **Impact VM - IT Operations Management - Historical Data Collection**
     If you're having trouble finding the data collection jobs, check whether the required data collection-dependent plugins are installed correctly. See [Install Impact Value Management Data Collection Content Pack Apps dependent plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/dc-install-plugins.md).
 
 
-**Parent Topic:**[Impact Value Management Data Collection Content Pack for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/data-collection-itom.md)
+**Parent Topic:**[Impact Value Management Data Collection Content Pack for IT Operations Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/data-collection-itom.md)
 

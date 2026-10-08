@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/rn-summary-deprecated-info.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-25"
-reading_time_minutes: 20
+last_updated: "2026-10-08"
+reading_time_minutes: 22
 breadcrumb: [Release notes summaries for Brazil features, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
@@ -64,6 +64,15 @@ AI Control Tower
 
 Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
 
+-   **[Traceloop Warehouse HTTPS connection removed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-configure-pi-sensitive-metrics.md)**
+
+The base system Traceloop Warehouse HTTPS connection \(sn\_ai\_security.Traceloop\_API alias\) is removed. If you're upgrading and use Traceloop-based external AI metrics, create a new HTTPS connection under that alias and re-create your credential with connection URL `https://api.traceloop.com`.
+
+
+-   **[Now LLM Service deprecation notice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/exploring-large-language-models.md)**
+
+Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+
 -   **[Veza API key authentication deprecated](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-reference-system-properties.md)**
 
 The Veza connector now authenticates using OAuth 2.0 instead of an API key. The sn\_ai\_security.veza.api.key system property is deprecated.
@@ -71,11 +80,6 @@ The Veza connector now authenticates using OAuth 2.0 instead of an API key. The 
 -   **[Findings by severity metric removed from Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-sec-reference.md)**
 
 The **Findings by severity** metric is removed from the Security Design-time tab, AI security posture subtab.
-
-
--   **[Now LLM Service deprecation notice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/exploring-large-language-models.md)**
-
-Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
 
 
 </td></tr><tr><td>
@@ -102,13 +106,32 @@ The **Searchable Documents** and **Documents by Search Source** visualizations h
 
 </td></tr><tr><td>
 
+App Engine Studio
+
+</td><td>
+
+-   **PDF Extractor tool \(table creation from PDFs\)**
+
+The PDF Extractor tool that enables table creation from PDFs in App Engine Studio is deprecated starting in the Brazil release. To create tables from PDFs, you can migrate your application to Build Agent. For more information, see .
+
+
+</td></tr><tr><td>
+
 Case and Knowledge Management
 
 </td><td>
 
 -   **HRSD Process Mining Content Pack deprecation**
 
-The HRSD Process Mining Content Pack application \(com.sn\_hr\_process\_optimization\) is deprecated as of the AI Platform Brazil release and will receive no further support. The unified Process Mining Content Pack application replaces it and will auto-install when you upgrade to Brazil or later. The deprecated application will remain active in your instance after upgrade; migrate to the unified Process Mining Content Pack to access new functionality and continued support. No manual migration steps are required—existing configurations transfer automatically.
+The HRSD Process Mining Content Pack application \(com.sn\_hr\_process\_optimization\) is now deprecated and no longer supported or available for new activation. The unified Process Mining Content Pack application replaces it and will auto-install when you upgrade to Brazil or later. The deprecated application will remain active in your instance after upgrade; migrate to the unified Process Mining Content Pack to access new functionality and continued support. No manual migration steps are required—existing configurations transfer automatically.
+
+-   **HR Service Delivery Virtual Agent Conversations**
+
+Virtual Agent Conversations in HR Service Delivery is now deprecated and no longer supported or available for new activation. AI Native SKU's provides the latest experience for this functionality.
+
+-   **Issue Auto resolution for HR**
+
+Issue Auto resolution for HR is now deprecated and no longer supported or available for new activation. AI Native SKU's provides the latest experience for this functionality.
 
 
 </td></tr><tr><td>
@@ -175,6 +198,17 @@ Developer Sandboxes
 
 </td></tr><tr><td>
 
+Digital Product Release
+
+</td><td>
+
+-   **[Auto create enhancement from primary epic system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release-properties.md)**
+
+The `sn_dpr_workspace.auto_create_product_enhancement_for_primary_epic` property is removed. Use `sn_dpr_workspace.enhancement_work_item_types` instead.
+
+
+</td></tr><tr><td>
+
 Discovery
 
 </td><td>
@@ -201,17 +235,14 @@ The connector doesn’t depend on the deprecated WMIC utility when running comma
 
 </td></tr><tr><td>
 
-Employee Slate for ITSM
-
-</td><td>
-
--   ****
-
-</td></tr><tr><td>
-
 Enterprise Asset Management
 
 </td><td>
+
+-   **Now LLM Service**
+
+Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+
 
 -   **[Enterprise model and asset import templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/download-seeded-template-manual-bulk-imports.md)**
 
@@ -274,7 +305,7 @@ ITSM MCP Server
 
 -   **[Deprecated sn\_itsm\_mcp\_server.requester.escalate tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/manage-employee-experience-itsm-mcp-server.md)**
 
-The **sn\_itsm\_mcp\_server.requester.escalate** tool is disabled by default. Use **sn\_itsm\_mcp\_server.incident.modify** with the **escalate** and **escalation\_reason** inputs instead.
+The **sn\_itsm\_mcp\_server.requester.escalate** tool is turned off by default. Use **sn\_itsm\_mcp\_server.incident.modify** with the **escalate** and **escalation\_reason** inputs instead.
 
 
 </td></tr><tr><td>
@@ -294,7 +325,7 @@ Impact
 
 </td><td>
 
--   **Accelerators Retirement**
+-   **Accelerators retirement**
 
 Jumpstart Your Virtual Agent, Jumpstart Your Natural Language Understanding \(NLU\), Jumpstart Your Multi-Lingual Virtual Agent, Jumpstart Your Issue Auto Resolution, and Jumpstart Your CSDM - Crawl technical Accelerators are no longer available.
 
@@ -342,7 +373,10 @@ Performance Analytics
 
 </td><td>
 
-Starting with the Brazil release, KPI Composer is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+-   **[KPI Composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/designing-pa-solution.md)**
+
+KPI Composer is deprecated starting in the Brazil release. Removal is expected in the D release, and no replacement is planned. KPI Composer will be hidden and no longer activated on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 
 </td></tr><tr><td>
 
@@ -481,6 +515,14 @@ ACL records on request management tables and fields no longer grant access based
 
 </td></tr><tr><td>
 
+Service Exchange \(formerly Service Bridge\)
+
+</td><td>
+
+-   ****
+
+</td></tr><tr><td>
+
 Service Graph Connector Integration for Claroty CTD
 
 </td><td>
@@ -507,16 +549,15 @@ ServiceNow Otto for IT Service Management \(ITSM\)
 
 </td><td>
 
--   ****
-    -   **[ITSM Virtual Agent NLU topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/using-itsm-va.md)**
+-   **[ITSM Virtual Agent NLU topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/using-itsm-va.md)**
 
 Starting with the Brazil release, ITSM Virtual Agent pre-built topics is being prepared for future deprecation.
 
-    -   **[ITSM Virtual Agent Lite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itsm-virtual-agent-lite.md)**
+-   **[ITSM Virtual Agent Lite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itsm-virtual-agent-lite.md)**
 
 ITSM Virtual Agent Conversation Topics Lite \(com.snc.itsm.virtualagent.lite\) is being prepared for future deprecation.
 
-    -   **[Large language models on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/exploring-large-language-models.md)**
+-   **[Large language models on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/exploring-large-language-models.md)**
 
 Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
 
@@ -527,17 +568,22 @@ ServiceNow Otto for Virtual Agent
 
 </td><td>
 
--   **[Deprecation of Virtual Agent for NLU and keywords](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent-landing-page-nlu.md)**
+-   **Agentic support page**
+
+The **Agentic support** page has been deprecated for ServiceNow Otto for Virtual Agent and ServiceNow Otto panel - Platform. There is no loss of functionality previously provided by the **Agentic support** page. By default, all existing assistants operate in agentic mode. The **Prioritize AI agents during skills discovery** option is available when configuring additional chat features.
+
+
+-   **Deprecation of Virtual Agent for NLU and keywords**
 
 Starting with the Brazil release, Virtual Agent for NLU and Virtual Agent Lite are being prepared for future deprecation. They will eventually be hidden and no longer activated on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
--   **[Deprecation of Virtual Agent channel integrations applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/integrate-virtual-agent-nlu.md)**
+-   **Deprecation of Virtual Agent channel integrations applications**
 
 Starting with the Brazil release, the following Virtual Agent channel integration applications are being prepared for future deprecation:
 
-    -   [Conversational Integration with Alexa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/conv-integ-alexa.md)
-    -   [Conversational IVR with Amazon Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/va-ivr-voice.md)
-    -   [IBM Watson Assistant conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/va-ibm-watson-assistant-config.md)
+    -   Conversational Integration with Alexa
+    -   Conversational IVR with Amazon Connect
+    -   IBM Watson Assistant conversations
 They will eventually be hidden and no longer activated on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 -   **[Now LLM Service deprecation notice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-llm-model-updates.md)**
@@ -551,13 +597,18 @@ ServiceNow Studio
 
 </td><td>
 
+-   **Pre-VS Code replatformed version of ServiceNow Studio**
+
+The newly redesigned ServiceNow Studio went through several iterations before the replatform onto VS Code that occurred in March 2026. All versions before the replatform have been deprecated. Previously, turning off Build Agent returned you to the pre-VS Code version of ServiceNow Studio. Now, it stays on the VS Code version and turns off Build Agent.
+
+
 -   **Experience switcher**
 
 The Experience switcher has been removed from ServiceNow Studio. ServiceNow IDE capabilities were consolidated under the Explorer tab in ServiceNow Studio. There is no current replacement for the Experience switcher, but each individual application can still be accessed on the ServiceNow AI Platform.
 
 -   **Tools tab**
 
-The Tools tab has been removed from the ServiceNow Studio home page, with no replacement. For links to documentation for each development tool, see [Integrated development tools for ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/integrated-development-tools.md).
+The Tools tab has been removed from the ServiceNow Studio home page, with no replacement. For links to documentation for each development tool, see .
 
 -   **Create menu**
 
@@ -627,6 +678,11 @@ Third-party Risk Management
 Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
 
 
+-   **Now LLM Service**
+
+Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+
+
 </td></tr><tr><td>
 
 Threat Intelligence Security Center
@@ -648,6 +704,19 @@ Vulnerability Response Integration with Claroty CTD
 
 Starting with the Brazil release, the Vulnerability Response Integration with Claroty CTD application is being prepared for future deprecation. It will be hidden and no longer available for installation but will continue to be supported. For more information, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
+
+</td></tr><tr><td>
+
+Zero Copy Connector for ERP
+
+</td><td>
+
+-   **Ask AI button**
+
+The **Ask AI** button was removed from the Model Manager.
+
+
+-   ****
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Release notes summaries for Brazil features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/release-notes-summaries.md)

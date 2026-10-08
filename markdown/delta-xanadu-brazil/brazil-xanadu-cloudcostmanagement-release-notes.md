@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-cloudcostmanagement-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 11
+last_updated: "2026-10-08"
+reading_time_minutes: 15
 breadcrumb: [Products combined by family]
 ---
 
@@ -139,6 +139,31 @@ Navigate cloud cost data more efficiently with a reorganized structure within th
 This enhancement provides the Insights User \(insights\_user\) role read-only access to Optimization and Budget pages so they can review recommendations, unused resources, rightsizing suggestions, and budget data.
 
 
+ -   **[Gain insights from your billing data with the FOCUS standard for Microsoft Azure billing](https://www.servicenow.com/docs/access?context=schedule-azure-billing-job&family=zurich&ft:locale=en-US)**
+
+Enhance your ability to manage cloud costs using the FOCUS billing standard that enables better insights. This feature helps you make more informed decisions. Additionally, you experience seamless processing of billing data across multiple Azure billing models such as:
+
+    -   Enterprise Agreement \(EA\)
+    -   Microsoft Customer Agreement \(MCA\)
+    -   Microsoft Partner Agreement \(MPA\)
+-   **[View cloud cost data in your preferred currency for multiple cloud service providers](https://www.servicenow.com/docs/access?context=operation-view-ccm-ws&family=zurich&ft:locale=en-US)**
+
+View your cloud cost data in your preferred local currency for better clarity and reporting flexibility. This capability enables you to view cost and usage details from multiple cloud service providers, including AWS, Azure, and GCP, in your selected currency.
+
+-   **[Get support for your Azure MPA model when operating under an MSP](https://www.servicenow.com/docs/access?context=azure-pricesht-sched-dwnld-cloudin&family=zurich&ft:locale=en-US)**
+
+Gain full visibility into your cloud costs and actionable insights for your Azure cloud spend when operating under an MSP. Additionally, the feature provides a centralized view to monitor cloud spend and manage budgets.
+
+
+ -   **[Achieve better efficiency with faster retrieval of cost and usage data with the Azure Export method](https://www.servicenow.com/docs/access?context=schedule-azure-billing-job&family=zurich&ft:locale=en-US)**
+
+Manage cost and usage datasets in Azure billing downloads efficiently by using the Azure Export method. With this feature, you can retrieve larger cost datasets faster.
+
+-   **[Manage MCA contracts with the enhanced support for Microsoft Azure MCA](https://www.servicenow.com/docs/access?context=create-ms-azure-service-principal&family=zurich&ft:locale=en-US)**
+
+Gain access to the spend reporting and recommendations for Azure based MCA contracts. This feature helps you to visualize cost and usage data from Azure MCA accounts and optimize your cloud spend with recommendations for potential savings.
+
+
 </td></tr><tr><td>
 
 Australia
@@ -170,6 +195,22 @@ Eliminate repetitive setup using Spend analytics filters, time ranges, groupings
 Navigate cloud cost data more efficiently with a reorganized structure within the Cloud Cost Management Workspace. Drill down from any home page widget directly into detailed spend analytics.
 
 This enhancement provides the Insights User \(insights\_user\) role read-only access to Optimization and Budget pages so they can review recommendations, unused resources, rightsizing suggestions, and budget data.
+
+
+ -   **[Gain insights from your billing data with the FOCUS standard for Microsoft Azure billing](https://www.servicenow.com/docs/access?context=schedule-azure-billing-job&family=australia&ft:locale=en-US)**
+
+Enhance your ability to manage cloud costs using the FOCUS billing standard that enables better insights. This feature helps you make more informed decisions. Additionally, you experience seamless processing of billing data across multiple Azure billing models such as:
+
+    -   Enterprise Agreement \(EA\)
+    -   Microsoft Customer Agreement \(MCA\)
+    -   Microsoft Partner Agreement \(MPA\)
+-   **[View cloud cost data in your preferred currency for multiple cloud service providers](https://www.servicenow.com/docs/access?context=operation-view-ccm-ws&family=australia&ft:locale=en-US)**
+
+View your cloud cost data in your preferred local currency for better clarity and reporting flexibility. This capability enables you to view cost and usage details from multiple cloud service providers, including AWS, Azure, and GCP, in your selected currency.
+
+-   **[Get support for your Azure MPA model when operating under an MSP](https://www.servicenow.com/docs/access?context=azure-pricesht-sched-dwnld-cloudin&family=australia&ft:locale=en-US)**
+
+Gain full visibility into your cloud costs and actionable insights for your Azure cloud spend when operating under an MSP. Additionally, the feature provides a centralized view to monitor cloud spend and manage budgets.
 
 
 </td></tr><tr><td>
@@ -241,6 +282,24 @@ Zurich
 The Recommendations have been moved from the Operations view to the newly added Optimization view in the Cloud Cost Management Workspace. The Optimization view shows savings opportunities and recommendations for you across Unused resources, Rightsizing, Business hours, and Commitments.
 
 
+ -   **[Granular instance operator role](https://www.servicenow.com/docs/access?context=cloud-insights-roles&family=zurich&ft:locale=en-US)**
+
+Use the instance operator role to perform routine operational tasks without requiring the full admin role for basic operations. By using limited privileges in the instance operator role, you can help reduce security risks across your organization.
+
+
+ -   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+-   **[Use Exports option on the Azure Billing Download Job form](https://www.servicenow.com/docs/access?context=schedule-azure-billing-job&family=zurich&ft:locale=en-US)**
+
+The **Use Exports** option is selected by default. This option is used for the Azure Export method.
+
+-   **[New fields on the Azure Billing Download Job form when the Use Exports option is selected](https://www.servicenow.com/docs/access?context=schedule-azure-billing-job&family=zurich&ft:locale=en-US)**
+
+Three new fields, **Billing Account Id Type**, **Actual Cost Export Name**, and **Amortized Cost Export Name**, have been added to the Azure Billing Download Job form. These fields appear when the **Use Exports** option is selected.
+
+
 </td></tr><tr><td>
 
 Australia
@@ -250,6 +309,20 @@ Australia
 -   **[Optimization view on the Cloud Cost Management Workspace](https://www.servicenow.com/docs/access?context=optimization-view-ccm-ws&family=australia&ft:locale=en-US)**
 
 The Recommendations have been moved from the Operations view to the newly added Optimization view in the Cloud Cost Management Workspace. The Optimization view shows savings opportunities and recommendations for you across Unused resources, Rightsizing, Business hours, and Commitments.
+
+
+ -   **[Multi-currency setup on the Operations view](https://www.servicenow.com/docs/access?context=operation-view-ccm-ws&family=australia&ft:locale=en-US)**
+
+The **Multi-currency setup** operation is available on the Cloud Cost Management Workspace Operations view to enable setting up display currency options for cloud cost and usage data.
+
+-   **[Currency preference option on the Operations view](https://www.servicenow.com/docs/access?context=operation-view-ccm-ws&family=australia&ft:locale=en-US)**
+
+The **Currency preference** operation is available on the Cloud Cost Management Workspace Operations view to enable selecting preferred currency options for cloud cost and usage data.
+
+
+ -   **[Granular instance operator role](https://www.servicenow.com/docs/access?context=cloud-insights-roles&family=australia&ft:locale=en-US)**
+
+Use the instance operator role to perform routine operational tasks without requiring the full admin role for basic operations. By using limited privileges in the instance operator role, you can help reduce security risks across your organization.
 
 
 </td></tr><tr><td>

@@ -9,6 +9,7 @@ classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
+keywords: [Splunk integration, configure Splunk, enable Splunk]
 breadcrumb: [Get started with Sighting Search Configurations, Configure Sighting Search, TISC Enrichment integrations, TISC Integrations, Integrate, Threat Intelligence Security Center, Security Operations]
 ---
 

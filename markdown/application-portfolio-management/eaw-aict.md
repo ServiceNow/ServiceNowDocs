@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/application-portfolio-managemen
 release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 9
+reading_time_minutes: 10
 keywords: [AI governance, business applications, enterprise architecture, AI systems, portfolio management, AI steward, risk classification, lifecycle management, enterprise architecture workspace]
 breadcrumb: [Exploring the application portfolio, Exploring Portfolio list view, Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -104,6 +104,10 @@ Users associate an AI system with a business application in one of two ways:
 
 -   A user submits the **Request an AI Use Case** catalog item in the service portal and selects one or more business applications in the **Business Applications** field. Use this intake path because it creates the AI system record in AI Control Tower and establishes the business application association in a single step.
 
+    **Note:** The **Business application** field is only displayed on the service catalog page for the AI system use case if the Enterprise Architecture for AICT plugin \(`com.sn_ea_aict`\) is installed. This plugin installs automatically when you install the AI Control Tower Core plugin at the required version. If your instance does not meet the minimum version, or if the Enterprise Architecture for AICT plugin is not installed, the Business application field does not appear on the form. For version requirements and what to expect if your Enterprise Architecture Workspace, AI Risk and Compliance, and AI Control Tower Core plugins are upgraded out of sync, see [Enterprise Architecture for AICT plugin installation and upgrade considerations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-ea-common-upgrade-considerations.md).
+
+    For information on how to create an AI use case, see [Request an AI use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/request-ai-system.md) or [Create AI system assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-ai-system-assets-newexperience.md).
+
     For information on the Request an AI use case form fields, see [Request an AI use case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/request-ai-system-form.md).
 
 -   A user with the APM user \(sn\_apm.apm\_user\) role manually adds an AI system from the **AI systems** tab on a business application record in the Enterprise Architecture Workspace. Use this to associate AI systems that were not submitted through the service portal intake form. For information, see [Add an existing AI system to a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-add-ai-system-to-ba.md).
@@ -111,6 +115,8 @@ Users associate an AI system with a business application in one of two ways:
 Only active business applications are available for association. The system automatically excludes business applications with a status of Retired or a lifecycle stage of End of Life. The associations on an AI system record reflect only applications that are currently in scope for portfolio management.
 
 Removing an AI system association from a business application record does not delete the AI system record from AI Control Tower. The AI system continues through its governance lifecycle independently of its application associations.
+
+If you activated the AI Control Tower and Enterprise Architecture Workspace integration on a Enterprise Architecture Workspace version earlier than 10.1.3, upgrade to version 10.1.3 or later. Then run the Migrate BA Product Model Map from EA Workspace job. This job migrates existing AI system-to-business application associations to the Enterprise Architecture for AICT plugin's data model. The job does not run automatically. For steps, see [Run the Migrate BA Product Model Map job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-run-migrate-ba-product-model-map-job.md).
 
 ## Viewing associated business application in AI Control Tower
 
@@ -137,5 +143,9 @@ To view the **AI systems** tab on a business application record, you must have t
 
 [Exploring the AI Portfolio tab on the Enterprise Architecture Workspace dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-dashboard-exploring-ai-portfolio-tab.md)
 
-[bundle-platai.aict-ea-common-upgrade-considerations]
+[Run the Migrate BA Product Model Map job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-run-migrate-ba-product-model-map-job.md)
+
+[Enterprise Architecture for AICT plugin installation and upgrade considerations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-ea-common-upgrade-considerations.md)
+
+[Associate a business application with an AI system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/disc-asset-associate-business-application.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-brazil/brazil-zurich-servicenowottoforitservicemanagementitsm-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 39
 breadcrumb: [Products combined by family]
 ---
@@ -496,7 +496,7 @@ The new autonomous mode is introduced, where the AI agent automatically records 
 
  -   **Now Assist &gt; ServiceNow Otto announcement**
 
-Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
+ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
 
 
  -   **[Customize the change risk assessment answer generator skill](https://www.servicenow.com/docs/access?context=cust-now-assist-itsm-change-risk-assessment-skill&family=zurich&ft:locale=en-US)**
@@ -691,7 +691,12 @@ Brazil
 
 </td><td>
 
--   **[Generate change risk assessment answers](https://www.servicenow.com/docs/access?context=generate-change-risk-assessment-answers-now-assist&family=brazil&ft:locale=en-US)**
+-   **[Assess quality of a change request](https://www.servicenow.com/docs/access?context=now-assist-itsm-aiagents-assess-quality-change-request-workflow&family=brazil&ft:locale=en-US)**
+
+When the AI agent searches for similar change requests, it now returns only changes whose quality score meets a minimum threshold. The quality scores come from the AI Change Quality Scores table. If none of the similar changes meet the threshold, the results include changes that don't have a quality score yet.
+
+
+ -   **[Generate change risk assessment answers](https://www.servicenow.com/docs/access?context=generate-change-risk-assessment-answers-now-assist&family=brazil&ft:locale=en-US)**
 
 The skill now also reads all dynamic schema store type fields on the change request form. These fields are retrieved automatically, so they don't require an **AI Risk Data Sources** record or an entry in the change request fields property. The skill uses the retrieved values when it suggests answers.
 
@@ -782,16 +787,15 @@ Brazil
 
 </td><td>
 
--   ****
-    -   **[ITSM Virtual Agent NLU topics](https://www.servicenow.com/docs/access?context=using-itsm-va&family=brazil&ft:locale=en-US)**
+-   **[ITSM Virtual Agent NLU topics](https://www.servicenow.com/docs/access?context=using-itsm-va&family=brazil&ft:locale=en-US)**
 
 Starting with the Brazil release, ITSM Virtual Agent pre-built topics is being prepared for future deprecation.
 
-    -   **[ITSM Virtual Agent Lite](https://www.servicenow.com/docs/access?context=itsm-virtual-agent-lite&family=brazil&ft:locale=en-US)**
+-   **[ITSM Virtual Agent Lite](https://www.servicenow.com/docs/access?context=itsm-virtual-agent-lite&family=brazil&ft:locale=en-US)**
 
 ITSM Virtual Agent Conversation Topics Lite \(com.snc.itsm.virtualagent.lite\) is being prepared for future deprecation.
 
-    -   **[Large language models](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=brazil&ft:locale=en-US)**
+-   **[Large language models](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=brazil&ft:locale=en-US)**
 
 Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
 

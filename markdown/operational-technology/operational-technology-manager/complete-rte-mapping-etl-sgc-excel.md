@@ -1,6 +1,6 @@
 ---
-title: Complete the RTE mapping for ETL
-description: Complete the Robust Transform Engine \(RTE\) mapping for the Extract Transform Load \(ETL\) so that the ETL process knows how to transform the custom column records.
+title: Configure the RTE mapping for ETL
+description: Configure the Robust Transform Engine \(RTE\) mapping for the Extract Transform Load \(ETL\). The ETL process transfers custom column data from the import set to the target Configuration Management Database \(CMDB\) class.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/operational-technology/operational-technology-manager/complete-rte-mapping-etl-sgc-excel.html
 release: brazil
@@ -8,23 +8,41 @@ product: Operational Technology Manager
 classification: operational-technology-manager
 topic_type: task
 last_updated: "2026-09-09"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Add a custom column to the staging table, Configuring the Service Graph Connector for Microsoft Excel, Service Graph Connector for Microsoft Excel, Use, Operational Technology Manager, Operational Technology]
 ---
 
-# Complete the RTE mapping for ETL
+# Configure the RTE mapping for ETL
 
-Complete the Robust Transform Engine \(RTE\) mapping for the Extract Transform Load \(ETL\) so that the ETL process knows how to transform the custom column records.
+Configure the Robust Transform Engine \(RTE\) mapping for the Extract Transform Load \(ETL\). The ETL process transfers custom column data from the import set to the target Configuration Management Database \(CMDB\) class.
 
 ## Before you begin
 
-Role required: admin
+-   Complete the update for the column mapping script. The custom column must be included in the JSON file exported to the import set before the RTE can map it. For more information, see [Update the column mapping script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/update-column-mapping-script-sgc-excel.md).
+-   Role required: admin
 
 ## About this task
 
-To populate the custom column data in the Configuration Management Database \(CMDB\), the **Trigger CMDB Import** process is executred. In order for this to work correctly, you must set up the proper mappings so the ETL process can transform the custom column records.
+When you select the **Trigger CMDB Import** UI action, the exported staging records are loaded into the SG-OT Asset Excel Import set and processed through the following RTE entities:
 
-For more information about the **Trigger CMDB Import** process, see [Trigger a CMDB import for valid staging records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/trigger-cmdb-import.md)
+-   **Import**
+
+    The raw field on the import set record \(the JSON key produced by importSetColumnsVsStagingColumnsMap\).
+
+-   **temp**
+
+    An intermediate staging entity used to hold the value during transformation.
+
+-   **CI class stub**
+
+    The target field on the CMDB CI class that stores the value.
+
+
+The data is processed from the Import to the temp to the CI class stub. You must define a field for each entity the data passes through and map each pair of entities.
+
+**Warning:** Use the same column name in the RTE entity fields as the key you used in the **importSetColumnsVsStagingColumnsMap** object. Using different names results in the RTE not finding the data to transform.
+
+For more information about triggering the CMDB import process, see [Trigger a CMDB import for valid staging records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/trigger-cmdb-import.md).
 
 ## Procedure
 
@@ -38,7 +56,7 @@ For more information about the **Trigger CMDB Import** process, see [Trigger a C
 
     4.  Set the **Entity** field to **Import**.
 
-    5.  Set the **Definition** field to SG-OT Asset Excel Import.
+    5.  Set the **Definition** field to **SG-OT Asset Excel Import**.
 
     6.  Select **Submit**.
 
@@ -80,7 +98,7 @@ For more information about the **Trigger CMDB Import** process, see [Trigger a C
 
     3.  Set the **Source** to the custom column from the Import entity.
 
-    4.  Set the **Target Field** field to the to the custom column from the temp entity.
+    4.  Set the **Target Field** field to the custom column from the temp entity.
 
     5.  In the **Order** field, enter any value.
 
@@ -100,7 +118,7 @@ For more information about the **Trigger CMDB Import** process, see [Trigger a C
 
     3.  Set the **Source** to the custom column from the temp entity.
 
-    4.  Set the **Target Field** field to the to the matching column from the target CMDB class entity stub.
+    4.  Set the **Target Field** field to the matching column from the target CMDB class entity stub.
 
     5.  In the **Order** field, enter any value.
 
@@ -115,7 +133,7 @@ For more information about the **Trigger CMDB Import** process, see [Trigger a C
 
 ## Result
 
-Once you configure these mappings, the custom column data populates correctly in the CMDB when you select the **Trigger CMDB Import** UI action.
+After you configure these mappings, the custom column data populates correctly in the CMDB when you select the **Trigger CMDB Import** UI action.
 
 **Parent Topic:**[Add a custom column to the staging table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/add-custom-column-staging-table.md)
 

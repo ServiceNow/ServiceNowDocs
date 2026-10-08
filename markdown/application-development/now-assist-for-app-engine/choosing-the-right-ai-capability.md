@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, ServiceNow Otto for App engine, Now Assist, AI capability, AI feature, AI product, AI agent, skill, generative AI, genAI, Now Assist for App Engine, App Engine, custom app]
-breadcrumb: [Explore, ServiceNow Otto for App Engine, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Explore, ServiceNow Otto for App Engine, Run, AI Workflow Factory, Building applications]
 ---
 
 # Choosing the right AI capability
@@ -30,4 +30,6 @@ AI agents are suited for more complex, specific tasks that involve some degree o
 ## When to add agentic workflows
 
 Agentic workflows are suited for complex, knowledge-intensive tasks where the solution requires human oversight at several steps in the process. Because agentic workflows can complete processes from end-to-end, agentic workflows are useful for processes that are low risk, such as handling routine approvals or requests.
+
+**Parent Topic:**[Exploring ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/now-assist-for-app-engine/exploring-now-assist-for-app-generation-enterprise.md)
 

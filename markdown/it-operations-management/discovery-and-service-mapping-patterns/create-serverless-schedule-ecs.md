@@ -19,7 +19,7 @@ Create a serverless schedule to discover Amazon Elastic Container Service \(Amaz
 ## Before you begin
 
 -   Verify you have an AWS service account ID and have created AWS credentials. For more information, see the prerequisites section in [Amazon ECS resource discovery with Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery-and-service-mapping-patterns/aws-ecs-fargate-discovery.md).
--   Download the [Cloud Discovery patterns spreadsheet](https://downloads.docs.servicenow.com/resource/enus/api/servicenow-discovery-patterns-api-details.xlsx) so you can grant user permissions required for running the Amazon AWS - ECS pattern.
+-   Download the [Cloud Discovery patterns spreadsheet](https://downloads.docs.servicenow.com/resource/enus/api/servicenow-discovery-patterns-api-details.xlsx) so you can grant user permissions required for running the Discovery patterns.
 
 Role required: discovery\_admin
 

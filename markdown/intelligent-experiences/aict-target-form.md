@@ -207,7 +207,7 @@ Check-in frequency
 
 </td><td>
 
-Option to specify breakdown intervals for the target and how frequently the owner or contributor should update the actual value of the target. Breaking down the target into smaller periods helps you set a target for smaller periods and focus on the specific breakdown targets. The available options are **Daily**, **Weekly**, **Monthly**, **Quarterly**, and **Yearly**. Target breakdowns are automatically created when you set this field to any of the available options other than **None**. For more details on target breakdowns, see .**Note:** The target breakdowns feature isn’t supported for qualitative targets.
+Option to specify breakdown intervals for the target and how frequently the owner or contributor should update the actual value of the target. Breaking down the target into smaller periods helps you set a target for smaller periods and focus on the specific breakdown targets. The available options are **Daily**, **Weekly**, **Monthly**, **Quarterly**, and **Yearly**. Target breakdowns are automatically created when you set this field to any of the available options other than **None**. For more details on target breakdowns, see [Target breakdowns in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/target-breakdowns.md).**Note:** The target breakdowns feature isn’t supported for qualitative targets.
 
 </td></tr><tr><td>
 
@@ -297,7 +297,7 @@ Target source table that the data is fetched from to auto-update the actual valu
 
 This section appears based on the context variables available in the target source that is selected in the **Actual value source** field.
 
-When you select Actual value source as Benefit Plans \(predefined target automation script for benefit plans\), the **Benefit Plan** field appears in this section, from which you can select the required benefit plans for automating the actual value of the target.
+When you select Actual value source as Benefit Plans \([Target automation script for benefit plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/target-automation-script-benefit-plans-apw.md)\), the **Benefit Plan** field appears in this section, from which you can select the required benefit plans for automating the actual value of the target.
 
 **Note:** You can use the Benefit Plans custom script only when PPM Standard \(Project Portfolio Management\) is installed. If you can't find the benefit plan that you want to select, you can find and select the same from Heisenberg UI by navigate to **Enterprise Goal Management** &gt; **Targets** and opening the Target form.
 

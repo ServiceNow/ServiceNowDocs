@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [NIST AI RMF, content accelerator, activate framework, citations, control objectives, risk statements]
-breadcrumb: [Content pack, AI Risk and Compliance, Governance, Risk, and Compliance]
+breadcrumb: [Content pack, Configure, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
 
 # Activate or update NIST Risk Management Framework

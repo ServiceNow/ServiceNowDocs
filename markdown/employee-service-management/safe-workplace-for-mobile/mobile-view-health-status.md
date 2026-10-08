@@ -8,7 +8,7 @@ product: Safe Workplace for mobile
 classification: safe-workplace-for-mobile
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Safe Workplace for mobile, Safe Workplace, Health and Safety, Employee Service Management]
 ---
 
@@ -62,10 +62,6 @@ The employee record screen displays the following information:-   Use the contac
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Safe Workplace for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/safe-workplace-for-mobile/mobile-emergency-response.md)
-
-**Parent Topic:**[Safe Workplace for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/safe-workplace-for-mobile/mobile-emergency-response.md)
-
 **Parent Topic:**[Safe Workplace for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/safe-workplace-for-mobile/mobile-emergency-response.md)
 
 **Parent Topic:**[Safe Workplace for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/safe-workplace-for-mobile/mobile-emergency-response.md)

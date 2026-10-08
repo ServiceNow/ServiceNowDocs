@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-brazil/brazil-zurich-portfolioplanning-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 20
+last_updated: "2026-10-08"
+reading_time_minutes: 23
 breadcrumb: [Products combined by family]
 ---
 
@@ -191,7 +191,27 @@ Brazil
 
 </td><td>
 
--   **[RIDAC for portfolio plans](https://www.servicenow.com/docs/access?context=portfolio-plan-ridac-ppw&family=brazil&ft:locale=en-US)**
+-   **[EWD for demands](https://www.servicenow.com/docs/access?context=ewd-for-demands-ppw&family=brazil&ft:locale=en-US)**
+
+Partition demand data by any criteria, such as department or business unit, using Enterprise-Wide Deployment \(EWD\) partitioning on the Demand table and related entities. Demands are stamped with a matching partition, and users see only the demands, list views, search results, and dashboards for the partitions their role grants them.
+
+EWD for demands includes the following functionalities:
+
+    -   Demand experiences: Define the way a particular demand should work including its form view, modules, and dynamic attributes. For example, a particular view or certain functions available on a demand or menu items hidden or visible for different types of demands.
+    -   Demand partitions: Control the data visible to different users.
+    -   Demand partitions dashboard: Dedicated dashboard for different demand partitions.
+-   **[Assess demands with smart assessments](https://www.servicenow.com/docs/access?context=smart-assessments-overview-ppw&family=brazil&ft:locale=en-US)**
+
+Smart assessments are now available for demands, which are triggered on moving the demand to screening. These assessments are controlled by the **sn\_align\_ws.enable\_smart\_assessments** system property. After this property is enabled, smart assessments are triggered for the new demands and the ones that aren't yet in the screening state.
+
+The smart assessment form is more intuitive and supports text-based questions. The assessments are available at the individual demand record and in a consolidated Smart Assessments module in the main navigation menu. This module displays all assigned smart assessments across demands.
+
+-   **[Resource profiling for demands](https://www.servicenow.com/docs/access?context=resource-planning-for-demands-ppw&family=brazil&ft:locale=en-US)**
+
+Plan and manage resource assignments for a demand from the **Resources** tab in Next Experience for Demand Management. The resource board shows assignments alongside resource capacity so you can confirm availability before converting a demand to a project. Create, copy, move, split, end, or reassign resource assignments directly from the grid, group by primary group, role, or skill, and use the allocation heatmap to identify over-allocated and available resources. Use the Resource Finder to get fit-scored, ranked resource recommendations with rationale for unassigned work.
+
+
+ -   **[RIDAC for portfolio plans](https://www.servicenow.com/docs/access?context=portfolio-plan-ridac-ppw&family=brazil&ft:locale=en-US)**
 
 Access portfolio risks, issues, decisions, actions, and requested changes \(RIDAC\) directly from the portfolio plan using the dedicated RIDAC page within the portfolio plan. View all portfolio governance items in a single, integrated interface without navigating to the separate RIDAC menu. The RIDAC page reduces context-switching and improves portfolio visibility by consolidating governance data. The portfolio plan RIDAC displays the RIDAC items that match the portfolio plan's criteria or belong to the planning items of that portfolio plan.
 
@@ -303,7 +323,26 @@ Brazil
 
 </td><td>
 
--   **Financials**
+-   **[Roadmap export range](https://www.servicenow.com/docs/access?context=export-portfolio-plan-status-to-ppt-portfolio-planning-workspace&family=brazil&ft:locale=en-US)**
+
+The maximum date range for exporting a roadmap to PowerPoint increased from 1 year to 3 years, within the start and end dates of the portfolio. The exported timescale adjusts to the range you select: months for a range of 1 year or less, and quarters for a range longer than 1 year.
+
+-   **[Program portfolio plan enhancements](https://www.servicenow.com/docs/access?context=program-portfolio-plan-ppw&family=brazil&ft:locale=en-US)**
+    -   **Program details** — Select the information icon next to the program name to view the planning item types, program timeline, and program manager.
+    -   **Program value for new items** — When you create a demand or project from a program portfolio plan, the **Program** field is prefilled with that program.
+    -   **Prioritization default layout** — The default **Prioritization** view shows the Rank, Name, Planning state, Planning item type, Status, Cost status, Resource status, Schedule status, Scope status, Percent complete, Primary goal, and Owner columns.
+    -   **Goals tab** — Program portfolio plans include the **Goals** tab, which shows all primary and non-primary goals linked to the planning items in the plan, along with goals assigned directly to the program.
+    -   **Public views** — Any user who can access a program portfolio plan can create and update its public views. Previously, only plan editors could create or update public views.
+-   **[Resource assignment offsets when converting a demand to a project](https://www.servicenow.com/docs/access?context=data-migrated-from-demand-project-dw&family=brazil&ft:locale=en-US)**
+
+When a demand with resource assignments is converted to a project, assignment offsets are recalculated against the project's schedule, which counts only the working days defined in the project schedule, instead of the demand, which has no schedule and counts every calendar day.
+
+-   **[Execution URL on planning item demands](https://www.servicenow.com/docs/access?context=update-execution-urls-for-existing-demands&family=brazil&ft:locale=en-US)**
+
+Run the **Update Demand Planning Item Execution URL** scheduled job to update the execution URLs on your existing demands to the latest format.
+
+
+ -   **Financials**
 
 Added in-context help \(hover info icons\) on the Financials page widgets, explaining how the key fields like Budget, EAC, Planned Cost, Actuals, Return, ROI, and NPV are calculated.
 

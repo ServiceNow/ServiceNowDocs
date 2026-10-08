@@ -15,11 +15,11 @@ breadcrumb: [Enable AI Experiences]
 
 Build the data foundation and search infrastructure that AI capabilities depend on to deliver accurate, relevant results.
 
-The quality and accessibility of your enterprise data directly determines how effective your AI capabilities are. Generative AI outputs are grounded in the content your instance provides. If that content is outdated, incomplete, or poorly structured, AI-generated summaries, answers, and recommendations reflect those gaps.
+The quality and accessibility of your enterprise data directly affects how effective your AI capabilities are. Generative AI outputs are grounded in the content your instance provides. If that content is outdated, incomplete, or poorly structured, AI-generated summaries, answers, and recommendations reflect those gaps.
 
 ## Connecting enterprise data
 
-Workflow Data Fabric is the unified data foundation that connects enterprise data where it lives, governs it through stable contracts, and makes it ready for workflows, analytics, and AI. Data is often scattered across dozens of systems, and integrations are rebuilt team by team. Workflow Data Fabric addresses this challenge so that once data is connected and governed, any team can discover and reuse it without rebuilding pipelines or compromising data integrity. To learn about connecting enterprise data where it lives, governing it through stable contracts, and making it ready for AI, see [Connecting enterprise data for AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/platai-connecting-enterprise-data-ai.md).
+Workflow Data Fabric is the unified data foundation that connects enterprise data where it lives, governs it through stable contracts, and makes it ready for workflows, analytics, and AI. Data is often scattered across dozens of systems, and integrations are rebuilt team by team. Workflow Data Fabric addresses this challenge so that after data is connected and governed, any team can discover and reuse it without rebuilding pipelines or compromising data integrity. To learn about connecting enterprise data where it lives, governing it through stable contracts, and making it ready for AI, see [Connecting enterprise data for AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/platai-connecting-enterprise-data-ai.md).
 
 ## Knowledge Graph
 
@@ -31,7 +31,7 @@ AI Data Kit enables you to add datasets to a data catalog and create data collec
 
 ## AI Search
 
-AI Search is the retrieval layer that powers search experiences across the ServiceNow AI Platform®. AI Search indexes content from your instance and from connected external sources, then delivers relevant results through platform applications such as Global Search, Service Portal, Employee Center, and workspaces. Configuring AI Search effectively, including defining search sources, search profiles, and relevancy settings, is one of the highest-impact steps in your AI implementation. To learn about configuring the search sources, profiles, and relevancy settings that power retrieval across Global Search, portals, and workspaces, see [AI Search on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/platai-ai-search-ai-platform.md).
+AI Search is the retrieval layer that powers search experiences across the ServiceNow AI Platform®. AI Search indexes content from your instance and from connected external sources, then delivers relevant results through platform applications such as Global Search, Service Portal, Employee Center, and workspaces. Configuring AI Search effectively, including defining search sources, search profiles, and relevancy settings, is a high-impact step in your AI implementation. To learn about configuring the search sources, profiles, and relevancy settings that power retrieval across Global Search, portals, and workspaces, see [AI Search on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/platai-ai-search-ai-platform.md).
 
 ## External Content Connectors
 

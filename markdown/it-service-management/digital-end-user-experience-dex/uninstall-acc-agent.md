@@ -33,15 +33,15 @@ Uninstall the agent from your candidate test devices before you start a bulk dep
 
 1.  Uninstall the agent using the method for your operating system.
 
-<table id="choicetable-uninstall-acc"><thead><tr><th align="left" id="d223006e120">
+<table id="choicetable-uninstall-acc"><thead><tr><th align="left" id="d222870e120">
 
 Option
 
-</th><th align="left" id="d223006e123">
+</th><th align="left" id="d222870e123">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d223006e129">
+</th></tr></thead><tbody><tr><td id="d222870e129">
 
 **macOS**
 
@@ -55,7 +55,7 @@ Procedure
 bash -c "$(curl -L https://<instance_url>/api/sn_agent/agents/install_agent)" -s "--remove"
     ```
 
-</td></tr><tr><td id="d223006e156">
+</td></tr><tr><td id="d222870e156">
 
 **Windows**
 

@@ -1,6 +1,6 @@
 ---
 title: Brazil Early Availability
-description: The Brazil release introduces enhanced protections for read‑only fields across the ServiceNow AI Platform. These changes include a new “read\_only\_option” field with granular control levels, including “strict\_read\_only” and “client\_script\_modifiable". The changes occur in the back end and maintain backward‑compatible behavior. This update helps strengthen your instance security while preserving the flexibility you need. Refer to KB2718122 for additional technical details on how to identify affected fields and adjust their settings. For more information about granular read-only security options, see Configuring read-only security options.
+description: Case and Knowledge Management enhancements and new features in the Brazil release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/hr-service-delivery-rn-2026-09.html
 release: brazil
@@ -12,40 +12,57 @@ breadcrumb: [Case and Knowledge Management release notes, HR Service Delivery re
 
 # Brazil Early Availability
 
-The Brazil release introduces enhanced protections for read‑only fields across the ServiceNow AI Platform®. These changes include a new “read\_only\_option” field with granular control levels, including “strict\_read\_only” and “client\_script\_modifiable". The changes occur in the back end and maintain backward‑compatible behavior. This update helps strengthen your instance security while preserving the flexibility you need. Refer to [KB2718122](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2718122) for additional technical details on how to identify affected fields and adjust their settings. For more information about granular read-only security options, see [Configuring read-only security options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/read-only-option.md).
+Case and Knowledge Management enhancements and new features in the Brazil release.
 
 ## What's new
 
 -   ****
 
-## What's changed
+    Use AI-powered activity response generation to instantly create, review, and refine work notes and comments in HR cases.
+
 
 -   ****
+
+    The HR Service Delivery Implementation agent shortens the path from install to a working HR Service Delivery deployment using an AI-first, centralized, and intuitive admin experience.
+
+
+-   ****
+
+    The EmployeeWorks Web App now supports redesigned interface for few task types with integrated AI chat help. The supported task types are:
+
+    -   Approval
+    -   Checklist
+    -   E-signature
+    -   Schedule a meeting
+    -   Mark When Complete
+    -   Upload documents
+    -   URL
+    -   View video
+    **Note:** Some Restricted Caller Access \(RCA\) records require manual approval for the feature to work as expected.
+
+    E-signature support lets employees sign documents securely, with signed copies automatically saved to their records.
+
+    **Note:** E-Signature credentials feature will only be supported from Australia Patch 8 and Brazil Patch 2 releases.
+
+    The plugins required are:
+
+    -   EmployeeWorks Web App license \(obtained either by Employee Slate \(built for Now Assist\) or ServiceNow EmployeeWorks Web App\)
+    -   Case and Knowledge Management for EmployeeWorks plugin
+    -   E-signature for EmployeeWorks plugin
 
 ## What's deprecated or removed
 
 -   **HRSD Process Mining Content Pack deprecation**
 
-    The HRSD Process Mining Content Pack application \(com.sn\_hr\_process\_optimization\) is deprecated as of the AI Platform Brazil release and will receive no further support. The unified Process Mining Content Pack application replaces it and will auto-install when you upgrade to Brazil or later. The deprecated application will remain active in your instance after upgrade; migrate to the unified Process Mining Content Pack to access new functionality and continued support. No manual migration steps are required—existing configurations transfer automatically.
+    The HRSD Process Mining Content Pack application \(com.sn\_hr\_process\_optimization\) is now deprecated and no longer supported or available for new activation. The unified Process Mining Content Pack application replaces it and will auto-install when you upgrade to Brazil or later. The deprecated application will remain active in your instance after upgrade; migrate to the unified Process Mining Content Pack to access new functionality and continued support. No manual migration steps are required—existing configurations transfer automatically.
 
+-   **HR Service Delivery Virtual Agent Conversations**
 
-## Plugin information
+    Virtual Agent Conversations in HR Service Delivery is now deprecated and no longer supported or available for new activation. AI Native SKU's provides the latest experience for this functionality.
 
--   **New plugins**
+-   **Issue Auto resolution for HR**
 
-     \(\): 
-
--   **Deprecated plugins**
-
-     \(\): 
-
--   **Plugins planned for deprecation**
-
-     \(\): Planned for deprecation in . 
-
--   **Renamed or changed plugins**
-
-     \(\): 
+    Issue Auto resolution for HR is now deprecated and no longer supported or available for new activation. AI Native SKU's provides the latest experience for this functionality.
 
 
 **Parent Topic:**[Case and Knowledge Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/hr-service-delivery-landing-rn.md)

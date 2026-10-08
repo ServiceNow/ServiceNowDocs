@@ -9,7 +9,7 @@ classification: app-engine-management-center
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuration tasks, Configure Pipelines and Deployments, Configure, App Engine Management Center, Governing app development, Building applications]
+breadcrumb: [Configuration tasks, Configure Pipelines and Deployments, Configure, App Engine Management Center, Run, AI Workflow Factory, Building applications]
 ---
 
 # Configure your controller instance
@@ -36,4 +36,6 @@ Typically, your production instance should be identified as the controller insta
 
     When the workflow for the pipeline runs, the non-production instances communicate with the controller instance to determine to which instance the app should next be deployed.
 
+
+**Parent Topic:**[Pipelines and Deployments configuration tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/p-and-d-config-tasks.md)
 

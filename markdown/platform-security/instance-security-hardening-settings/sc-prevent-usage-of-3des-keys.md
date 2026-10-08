@@ -113,7 +113,7 @@ Dependencies and prerequisites
 The property **glide.security.3des.removal\_job\_status** acts as a readiness gate. The scheduled job walks through deactivating/rotating out old 3DES static keys, and that job reports its progress via this status property. Until that job reports it's done \(KEYS\_DEACTIVATED or RESUPPLIED\), it's not yet possible to flip **glide.security.3des.static\_keys\_usable** to **false**, because doing so prematurely could break decryption of data still encrypted with those static keys.
 
 </td></tr></tbody>
-</table>To learn more about adding or creating a system property, see .
+</table>To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 **Parent Topic:**[Stored cryptography](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-stored-cryptography.md)
 

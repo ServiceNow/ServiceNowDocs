@@ -96,8 +96,6 @@ If you want additional fields to appear on the **At a Glance** panel, see [Confi
 
 **Parent Topic:**[HR Profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/hr-service-delivery/c_HRProfileRecords.md)
 
-**Parent Topic:**[HR Profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/hr-service-delivery/c_HRProfileRecords.md)
-
 **Related topics**  
 
 

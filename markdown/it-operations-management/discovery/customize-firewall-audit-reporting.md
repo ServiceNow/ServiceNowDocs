@@ -22,7 +22,7 @@ Role required: discovery\_admin or admin
 
 ## About this task
 
-When users submit firewall rule change requests, each request requires assignment to a policy owner group and an approval group. Without default values, administrators must manually populate these fields for every request. Configuring default groups streamlines the request process by automatically populating these fields.
+When users submit firewall rule change requests, each request must be assigned to a policy owner group and an approval group. Without default values, administrators must manually populate these fields for every request. Configuring default groups streamlines the request process by automatically populating these fields.
 
 Set these defaults during initial Firewall Audits and Reporting setup or when your organization's security team structure changes. For more information on properties, see [Discovery properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/r_DiscoveryProperties.md).
 

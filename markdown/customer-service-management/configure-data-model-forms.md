@@ -39,7 +39,7 @@ Role required: One of the following:
     -   Sold Products
 5.  Add the **Service Organization** field to the Case form for these views: Case and Workspace.
 
-6.  Add the **Requesting Service Organization** field to the Case form for these views: Case and Workspace.
+6.  Add the **Requestor Organization \(formerly Requesting Service Organization\)** field to the Case form for these views: Case and Workspace.
 
 7.  Add the **Updated by** field to the Case form for these views: Case and Workspace.
 

@@ -132,6 +132,16 @@ Support contact information such as phone numbers and email addresses are listed
 -   A document was uploaded and you choose to preview the document.
 -   A source is available and you choose to select and view the source content.
 
+</td></tr><tr><td>
+
+7. Voice input
+
+</td><td>
+
+If voice input is enabled, select the microphone icon and speak your message. Your speech is transcribed and appears in the input bar in real time.When you speak in the default language selected in your profile, your speech is transcribed into text in that same language.
+
+ **Note:** Voice input must be enabled by an administrator before it is available. Administrators can enable or disable voice input at the instance level. Individual users can also turn voice input on or off.
+
 </td></tr></tbody>
 </table>## Chatting with Virtual Agent
 

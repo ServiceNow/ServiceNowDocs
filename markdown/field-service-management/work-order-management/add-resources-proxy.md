@@ -28,15 +28,15 @@ Role required: sn\_fsm\_proxy\_actn.proxy\_admin
 
 3.  Choose from the following.
 
-<table id="choicetable_add_resources_proxy"><thead><tr><th align="left" id="d44965e93">
+<table id="choicetable_add_resources_proxy"><thead><tr><th align="left" id="d45127e93">
 
 Option
 
-</th><th align="left" id="d44965e96">
+</th><th align="left" id="d45127e96">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d44965e102">
+</th></tr></thead><tbody><tr><td id="d45127e102">
 
 **Add roles to take proxy actions**
 
@@ -48,7 +48,7 @@ Steps
 4.  Select **Submit**.
 
 
-</td></tr><tr><td id="d44965e135">
+</td></tr><tr><td id="d45127e135">
 
 **Add users to take proxy actions**
 

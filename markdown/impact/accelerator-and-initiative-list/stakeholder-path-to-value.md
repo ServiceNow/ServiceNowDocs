@@ -8,7 +8,7 @@ product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
 last_updated: "2026-09-15"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [Strategy Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
@@ -73,10 +73,6 @@ Impact Foundations Activities along with documented Vision and Strategy.
 |-----------------|----------------|:------:|:---------:|
 |Platform Owner|The platform owner plays a pivotal role in communicating intent, outcomes, and level of effort to process owners and other key stakeholders who will participate in workshops. They manage calendar invites using messaging provided by Impact. They act as the bridge between business needs and the platform capabilities, ensuring that outcomes from these sessions translate into actionable improvements.|✓| |
 |Process Owner\(s\)|A senior leader within each business unit for each major process or service \(for example, customer service, incident, HR, legal, finance, security, etc.\) who is accountable for ensuring the process is fit for purpose.|✓| |
-|Customer Success Executive \(CSE\)|The CSE is the primary owner of all accelerator workflows. Responsible for collaborating with business and process stakeholders to define workshop purpose, outcomes, audience, and format. Co-leads workshops with CSM and PA. Helps process owners understand what’s possible with the Platform now and what may require additional development or investment. Captures and analyzes findings, develops tactical action plan, revises the strategic roadmap, leads platform owner debriefs, prepares and delivers executive level readouts, and communicates risks and opportunities to the core team.|✓| |
-|Customer Success Manager \(CSM\)|The CSM supports workshop scheduling, co-leads workshops with the CSE and PA, helps inform the tactical action plan, prioritizes and aligns Impact engagements with needs of the business, revises the strategic roadmap, and supports follow-on activities.|✓| |
-|Platform Architect \(PA\)|The Platform Architect co-leads workshops with the CSE and CSM, leading discussions that are more technical in nature. Responsible for mapping business needs and pain points shared by process owners to platform capabilities, enhancements, or configuration options. Supports follow-on activities.|✓| |
-|Support Account Manager \(SAM\)|The SAM may attend any workshop interviews where they may benefit from increased customer engagement, or if they would like to gain knowledge in a specific area of the business or platform to better support the customer.| |✓|
 |Developer\(s\)|Makes changes within the ServiceNow platform to meet process requirements.| |✓|
 |Trusted Service Partners|Attends ServiceNow Impact Accelerator coaching session\(s\) to understand leading practices and potentially support customers going forward.| |✓|
 |Other Customer Roles|Primary stakeholders responsible for agent experience and engagement, including Customer Service Agents, team leaders and User Experience champions.| |✓|

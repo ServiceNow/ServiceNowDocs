@@ -7,7 +7,7 @@ release: brazil
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 keywords: [policy evaluation order, IFL evaluation, first match, fallback]
 breadcrumb: [Policy-based login experience, Authentication Console, Authentication, Access Management]

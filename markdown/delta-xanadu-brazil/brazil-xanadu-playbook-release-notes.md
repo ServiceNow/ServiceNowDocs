@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-playbook-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 8
+last_updated: "2026-10-08"
+reading_time_minutes: 12
 breadcrumb: [Products combined by family]
 ---
 
@@ -102,7 +102,16 @@ Yokohama
 
 </td><td>
 
--   **[Translate playbooks content](https://www.servicenow.com/docs/access?context=add-translations-playbooks&family=yokohama&ft:locale=en-US)**
+-   **[Support for Retrieval Augmented Generation \(RAG\) with playbook generation](https://www.servicenow.com/docs/access?context=playbook-assist&family=yokohama&ft:locale=en-US)**
+
+Generate playbooks from inputs that refer to custom actions, flows, subflows, content from installed spokes, or activity definitions. Include the names of commonly used and recently published actions, subflows, flows, and activity definitions available on your instance in your playbook generation requests.
+
+-   **[Generate playbooks with the OpenAI GPT-4o LLM](https://www.servicenow.com/docs/access?context=change-default-llm-playbook-generation&family=yokohama&ft:locale=en-US)**
+
+Use the OpenAI GPT-4o LLM to generate a playbook from text.
+
+
+ -   **[Translate playbooks content](https://www.servicenow.com/docs/access?context=add-translations-playbooks&family=yokohama&ft:locale=en-US)**
 
 Add custom translations for labels, descriptions, and UI Layout properties in your playbooks.
 
@@ -134,13 +143,123 @@ Expose a playbook as a tool in an MCP server, enabling MCP clients to trigger an
 Configure in the activity definition how you want autonomous support from AI agents for that activity. The additional configurations help you gain more control on the activity in a playbook.
 
 
+ -   **[Playbook generation from a KB article](https://www.servicenow.com/docs/access?context=playbook-generation-from-kb&family=zurich&ft:locale=en-US)**
+
+Generate a playbook directly from an existing knowledge base article to reduce manual effort when creating playbooks for documented processes.
+
+
+ -   **[Playbook summarization](https://www.servicenow.com/docs/access?context=playbook-summarization&family=zurich&ft:locale=en-US)**
+
+Generate an AI-powered summary of a playbook from the Workflow Studio canvas. The summary covers the playbook's stages, activities, triggers, and inputs, helping you understand quickly about its purpose and flow without reading through each activity individually.
+
+-   **[Use AI skill as an activity](https://www.servicenow.com/docs/access?context=use-ai-skill-as-activity&family=zurich&ft:locale=en-US)**
+
+Add an existing AI skill as an activity in your playbook to run lightweight, focused AI tasks as part of the playbook flow. When the playbook reaches the activity, the skill executes, produces structured outputs, and passes those outputs to subsequent activities automatically.
+
+-   **[Use custom agent in Agentic Playbooks](https://www.servicenow.com/docs/access?context=configure-agentic-playbooks&family=zurich&ft:locale=en-US)**
+
+In addition to the default AI Agents, you can add your custom AI Agent for an activity. Choose how you want to use the AI Agents in the activity- Collaborative or Autonomous.
+
+
+ -   **[Set child variants to evaluate later in a playbook](https://www.servicenow.com/docs/access?context=set-evaluation-point&family=zurich&ft:locale=en-US)**
+
+Instead of evaluating immediately after the trigger, set a playbook's child variants to be evaluated after a specific activity in the playbook.
+
+-   **[Create decision branches for stages](https://www.servicenow.com/docs/access?context=create-decision-stage&family=zurich&ft:locale=en-US)**
+
+Add a decision node between stages to determine which stage to run next, based on runtime conditions.
+
+
+ -   **[Route users to stages based on decisions](https://www.servicenow.com/docs/access?context=add-configure-stage&family=zurich&ft:locale=en-US)**
+
+Send runtime users to a stage based off of the trigger record or input that users provide.
+
+
+ -   **[Agentic Playbooks](https://www.servicenow.com/docs/access?context=agentic-playbooks&family=zurich&ft:locale=en-US)**
+
+Enable AI agents to assist users with activities during runtime.
+
+-   **[Add permissions for playbook authors](https://www.servicenow.com/docs/access?context=user-access-playbooks&family=zurich&ft:locale=en-US)**
+
+Control which playbook authors can create, edit, and view playbooks in Workflow Studio
+
+-   **[Add permissions for runtime users](https://www.servicenow.com/docs/access?context=create-process-definition&family=zurich&ft:locale=en-US)**
+
+Control whether runtime users can [view a playbook](https://www.servicenow.com/docs/access?context=create-process-definition&family=zurich&ft:locale=en-US), [add optional activities](https://www.servicenow.com/docs/access?context=optional-activities&family=zurich&ft:locale=en-US), [restart a playbook](https://www.servicenow.com/docs/access?context=restart&family=zurich&ft:locale=en-US), and [complete work within specific stages](https://www.servicenow.com/docs/access?context=add-configure-stage&family=zurich&ft:locale=en-US).
+
+-   **[Set multiple triggers](https://www.servicenow.com/docs/access?context=process-automation-designer-triggers&family=zurich&ft:locale=en-US)**
+
+Configure a playbook to run based on any one of multiple triggers.
+
+-   **[Schedule when a playbook should trigger](https://www.servicenow.com/docs/access?context=create-scheduled-trigger-definition&family=zurich&ft:locale=en-US)**
+
+Configure a playbook to run based on a schedule.
+
+-   **[Choose your LLM for playbook generation and recommendations](https://www.servicenow.com/docs/access?context=change-default-llm-playbook-generation&family=zurich&ft:locale=en-US)**
+
+Choose between NowLLM, OpenAI ChatGPT4-o, Gemini, Claude for playbook generation and recommendations.
+
+-   **[Generate a playbook with a trigger](https://www.servicenow.com/docs/access?context=playbook-assist&family=zurich&ft:locale=en-US)**
+
+Generate a playbook with both a trigger and activities.
+
+
 </td></tr><tr><td>
 
 Australia
 
 </td><td>
 
--   **[Nested playbooks](https://www.servicenow.com/docs/access?context=nested-playbooks&family=australia&ft:locale=en-US)**
+-   **[Ideal path for a playbook](https://www.servicenow.com/docs/access?context=ideal-path-for-playbook&family=australia&ft:locale=en-US)**
+
+Use ideal path to identify the intended execution path or view upcoming work hidden behind conditions. Ideal Path enables playbook authors to define and visualize the preferred process route. The end users of a playbook gets runtime visibility into the expected workflow path, improving process clarity, usability, and observability.
+
+
+ -   **[Playbook as an MCP tool](https://www.servicenow.com/docs/access?context=playbook-as-mcp-tool&family=australia&ft:locale=en-US)**
+
+Expose a playbook as a tool in an MCP server, enabling MCP clients to trigger and execute the playbook through the Model Context Protocol \(MCP\).
+
+-   **[AI agents autonomous support configurations](https://www.servicenow.com/docs/access?context=create-activity-definition&family=australia&ft:locale=en-US)**
+
+Configure in the activity definition how you want autonomous support from AI agents for that activity. The additional configurations help you gain more control on the activity in a playbook.
+
+
+ -   **[Go back activity](https://www.servicenow.com/docs/access?context=go-back-activity&family=australia&ft:locale=en-US)**
+
+Use the Go Back activity to define a conditional return point in a playbook. When placed in a decision branch, the activity directs the playbook to loop back to a specified point. The playbook can look back to an earlier activity, stage, or the start of the playbook based on the branch outcome. This enables conditional retry and re-evaluation logic without duplicating flow structure.
+
+-   **[Playbook generation from a KB article](https://www.servicenow.com/docs/access?context=playbook-generation-from-kb&family=australia&ft:locale=en-US)**
+
+Generate a playbook directly from an existing knowledge base article to reduce manual effort when creating playbooks for documented processes.
+
+-   **[Preview an activity's runtime UI](https://www.servicenow.com/docs/access?context=preview-playbook-runtime-ui&family=australia&ft:locale=en-US)**
+
+Preview an activity's runtime UI directly from the diagram canvas, with a real-time side-by-side preview that updates as you edit.
+
+-   **[Fluent support for Playbooks](https://www.servicenow.com/docs/access?context=create-process-definition&family=australia&ft:locale=en-US)**
+
+Build, edit, and manage playbooks as code with the Fluent domain-specific language \(DSL\) in the ServiceNow IDE or a local SDK.
+
+
+ -   **[Playbook summarization](https://www.servicenow.com/docs/access?context=playbook-summarization&family=australia&ft:locale=en-US)**
+
+Generate an AI-powered summary of a playbook from the Workflow Studio canvas. The summary covers the playbook's stages, activities, triggers, and inputs, helping you understand quickly about its purpose and flow without reading through each activity individually.
+
+-   **[Use AI skill as an activity](https://www.servicenow.com/docs/access?context=use-ai-skill-as-activity&family=australia&ft:locale=en-US)**
+
+Add an existing AI skill as an activity in your playbook to run lightweight, focused AI tasks as part of the playbook flow. When the playbook reaches the activity, the skill executes, produces structured outputs, and passes those outputs to subsequent activities automatically.
+
+-   **[Use custom agent in Agentic Playbooks](https://www.servicenow.com/docs/access?context=configure-agentic-playbooks&family=australia&ft:locale=en-US)**
+
+In addition to the default AI Agents, you can add your custom AI Agent for an activity. Choose how you want to use the AI Agents in the activity- Collaborative or Autonomous.
+
+
+ -   **[Use AI agents as a playbook activity](https://www.servicenow.com/docs/access?context=ai-agent-as-activity&family=australia&ft:locale=en-US)**
+
+Use an existing AI agent as an activity in your playbook to automate tasks. The AI agent gathers the required context, performs the work, and produces outputs that subsequent activities can consume.
+
+
+ -   **[Nested playbooks](https://www.servicenow.com/docs/access?context=nested-playbooks&family=australia&ft:locale=en-US)**
 
 Nest playbooks as a step within other playbooks to enable the following scenarios:
 
@@ -348,7 +467,8 @@ Yokohama
 
 </td><td>
 
--   If you have the old Create Task activity in your existing playbooks, it will continue to function. You just can't add the extra fields that are available only in the new Create Task activity.
+-   -   
+ -   If you have the old Create Task activity in your existing playbooks, it will continue to function. You just can't add the extra fields that are available only in the new Create Task activity.
 -   If you have the old Checklist activity in your existing playbooks, it will continue to function. You just won't be able to update the checklist directly in Workflow Studio the way that you can with the new Checklist activity.
 
 </td></tr><tr><td>
@@ -428,6 +548,8 @@ To use playbook generation features in Workflow Studio, download the [ServiceNow
 
 Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
 
+
+**Important:** Playbooks is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 
@@ -692,11 +814,10 @@ Australia
 
 </td><td>
 
--   Nest playbooks within other playbooks.
--   Enable runtime users to launch a playbook on demand.
--   Test playbooks with the Automated Test Framework.
--   Preview the UI for an activity in when configuring a playbook activity in Workflow Studio.
--   Use AI agents as activities in your playbook to automate tasks.
+-   Playbooks are structured, guided workflows that lead users, agents, or technicians through the steps required to complete a business process, such as case resolution or work order fulfillment.
+-   Playbooks consist of sequential stages, each containing activities that can be manual tasks, automated actions, or guided decisions, ensuring consistency and conformance across records.
+-   Benefits include eliminating the need to memorize processes, providing real‑time guidance, automating routine steps, and enabling administrators to update processes centrally, which applies to all users.
+-   Playbooks support use cases across multiple domains.
 
  See [Explore](https://www.servicenow.com/docs/access?context=process-automation-designer&family=australia&ft:locale=en-US) for more information.
 

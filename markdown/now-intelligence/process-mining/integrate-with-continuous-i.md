@@ -53,15 +53,15 @@ Activate the Continual Improvement Management plugin \(com.sn\_cim\) and the Pro
 
 1.  Navigate to the **Process Mining** workbench in any one of the following ways.
 
-<table id="choicetable_ywf_lnh_nlb"><thead><tr><th align="left" id="d108411e231">
+<table id="choicetable_ywf_lnh_nlb"><thead><tr><th align="left" id="d108549e231">
 
 From where
 
-</th><th align="left" id="d108411e234">
+</th><th align="left" id="d108549e234">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d108411e240">
+</th></tr></thead><tbody><tr><td id="d108549e240">
 
 **Continual Improvement Workbench**
 
@@ -73,7 +73,7 @@ Steps
 
 **Note:** For more information, refer to [Create a project or template using Project Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/process-mining/define-workflow-model.md).
 
-</td></tr><tr><td id="d108411e291">
+</td></tr><tr><td id="d108549e291">
 
 **Improvement Initiative**
 

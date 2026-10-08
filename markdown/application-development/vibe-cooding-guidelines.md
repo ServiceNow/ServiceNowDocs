@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [agentic development, prompt writing, context management, compliance validation, development environment, build agent, developer sandboxes, iterative development, vault console]
-breadcrumb: [Explore, Agentic development, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Explore, Agentic development, Build, AI Workflow Factory, Building applications]
 ---
 
 # General guidelines for agentic development
@@ -25,4 +25,6 @@ General guidelines for agentic development on the ServiceNow AI Platform cover p
 -   Use the Build Agent chat panel for iterative development.
 -   Validate compliance using Vault Console to check audit trails and security settings before deployment.
 -   Develop in a sandbox using Developer Sandboxes for isolation and safety, or use a Personal Development Instance \(PDI\) or a non-production instance to avoid production deployment.
+
+**Parent Topic:**[Exploring agentic development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/exploring-vibe-coding.md)
 

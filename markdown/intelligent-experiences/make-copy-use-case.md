@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/make-copy-use-case.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Now Assist, Gen AI, Generative AI, Document Intelligence]
-breadcrumb: [Manage use case, Reference, Content Understanding, Generative AI skills, Enable AI Experiences]
+breadcrumb: [Manage use case, Information Extraction skill, Configure, Content Understanding, Generative AI skills, Enable AI Experiences]
 ---
 
 # Copy a use case
@@ -48,5 +48,5 @@ The copied use case appears in the use cases list.
 
 Edit the new use case to make any necessary changes, then test it to confirm it works as expected. For steps to edit a use case, see [Edit a use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/edit-use-case.md).
 
-**Parent Topic:**[Manage use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/cu-manage-use-case.md)
+**Parent Topic:**[Manage use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/manage-use-case.md)
 

@@ -1,26 +1,27 @@
 ---
 title: Release lifecycle documentation AI agent
-description: Generate business release notes in natural, human-friendly language for business stakeholders, within a maximum 4000 character limit.
+description: This ServiceNow Otto for Creator agent generates release notes and update set descriptions in natural, human-friendly language for business stakeholders, within a maximum 4000 character limit.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aemc-release-lifecycle-documentation-ai-agent.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 1
-breadcrumb: [App Engine Management Center AI agents, App Engine Management Center \(AEMC\), AI agents library, AI agents and agentic workflows, Enable AI Experiences]
+last_updated: "2026-09-30"
+reading_time_minutes: 2
+breadcrumb: [ServiceNow Otto for Creator AI agents, ServiceNow Otto for Creator, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Release lifecycle documentation AI agent
 
-Generate business release notes in natural, human-friendly language for business stakeholders, within a maximum 4000 character limit.
+This ServiceNow Otto for Creator agent generates release notes and update set descriptions in natural, human-friendly language for business stakeholders, within a maximum 4000 character limit.
 
 ## Workflow
 
-The agent helps users complete tasks related to release lifecycle documentation.
+The release lifecycle documentation AI agent helps users complete tasks related to deploying changes to production.
 
-1.  Receive the user's request and validate required inputs.
-2.  Execute the appropriate tools to perform the requested action.
-3.  Return the results or update the relevant record.
+1.  Based on the user's request, parse the requirements.
+2.  Propose text for the release notes or update set description.
+3.  Display the proposed text and pause for user approval.
+4.  Update the relevant release notes or update set record.
 
 <table><thead><tr><th>
 
@@ -108,5 +109,5 @@ Not applicable.
 </td></tr></tbody>
 </table>Learn more about at App Engine Management Center at [App Engine Management Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center.md).
 
-**Parent Topic:**[App Engine Management Center AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aemc-ai-agents-overview.md)
+**Parent Topic:**[ServiceNow Otto for Creator AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/platform-creator-ai-agents-overview.md)
 

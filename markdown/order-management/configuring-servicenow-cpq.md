@@ -1,6 +1,6 @@
 ---
 title: Set up ServiceNow CPQ Configurator without guided setup
-description: Plan and configure your implementation of the ServiceNow CPQ Configurator. Product catalog admins and agents use the Configurator in the CRM Workspace, while users using self-service features use it in the Business Portal.
+description: Plan and configure your implementation of the ServiceNow CPQ Configurator. Product catalog admins and agents use the Configurator in the CRM Workspace, while users using self-service features use it in the Business Portal. These steps also set up the integration that ServiceNow Quote Experience requires.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/configuring-servicenow-cpq.html
 release: brazil
@@ -8,12 +8,14 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [configure]
-breadcrumb: [Set up CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Set up CPQ, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Set up ServiceNow CPQ Configurator without guided setup
 
-Plan and configure your implementation of the ServiceNow CPQ Configurator. Product catalog admins and agents use the Configurator in the CRM Workspace, while users using self-service features use it in the Business Portal.
+Plan and configure your implementation of the ServiceNow CPQ Configurator. Product catalog admins and agents use the Configurator in the CRM Workspace, while users using self-service features use it in the Business Portal. These steps also set up the integration that ServiceNow Quote Experience requires.
+
+Use the steps mentioned in the configuration overview to set up the ServiceNow CPQ Configurator without guided setup. The same steps establish the connection between your ServiceNow instance and the CPQ microservice that ServiceNow Quote Experience uses. If you are implementing ServiceNow Quote Experience, complete this setup as part of the environment and instance setup. For more information, see [Set up the environment and instance for ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-exp-env-instance-setup-task.md).
 
 ## Configuration overview
 

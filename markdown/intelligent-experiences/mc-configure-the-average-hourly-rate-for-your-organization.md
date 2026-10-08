@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/mc-configure-the-average-hourly-rate-for-your-organization.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [Cost, Configure, Measure AI system, Measure AI systems, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
@@ -18,7 +18,7 @@ Set the average hourly rate that the Cost Framework uses to convert hours saved 
 
 Determine your organization's total annual labor cost and its annual working hours, or a pre-calculated average hourly rate.
 
-Role required: AI steward \(`sn_ai_governance_ai_steward`\).
+Role required: AI steward \(`sn_ai_governance.ai_steward`\).
 
 ## About this task
 

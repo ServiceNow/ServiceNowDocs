@@ -19,8 +19,6 @@ The following topics provide additional information about the features and prope
 Several components are installed with the AI Admin Center application.
 -   **[Domain separation and AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/domain-separation-now-assist-center.md)**  
 Domain separation is supported for AI Admin Center.
--   **[AI Admin Center glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-center-glossary.md)**  
-Before getting started with AI Admin Center, it is important to understand some key concepts used in the application.
 -   **[AI Admin Center roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-center-roles.md)**  
 AI Admin Center is installed with these roles.
 

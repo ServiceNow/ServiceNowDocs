@@ -9,7 +9,7 @@ classification: releaseops
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure the release lifecycle documentation AI agent, Configure, ReleaseOps, Deploying applications, Building applications]
+breadcrumb: [Configure the release lifecycle documentation AI agent, Configure, ReleaseOps, Run, AI Workflow Factory, Building applications]
 ---
 
 # Roles required for using the release lifecycle documentation AI agent
@@ -49,4 +49,5 @@ sn\_releaseops.release\_notes\_user
 Grants access to generate and view release notes within ReleaseOps.**Note:** The releaseops\_admin role also includes the release\_notes\_user role. Assigning the releaseops\_admin role is sufficient for using the release lifecycle documentation AI agent, if the user already needs full ReleaseOps admin access.
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[Configure release lifecycle documentation AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/releaseops/configure-release-lifecycle-documentation-ai-agent.md)
+

@@ -31,15 +31,15 @@ Role required: wm\_manager.
 
 4.  Select the **Edit** \[Omitted image "edit-schedule.png"\] Alt text: edit icon, then choose an option.
 
-<table><thead><tr><th align="left" id="d46531e106">
+<table><thead><tr><th align="left" id="d46693e106">
 
 Option
 
-</th><th align="left" id="d46531e109">
+</th><th align="left" id="d46693e109">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d46531e115">
+</th></tr></thead><tbody><tr><td id="d46693e115">
 
 **__Delete__**
 
@@ -49,13 +49,16 @@ Remove the break.1.  Select the **Delete break** \[Omitted image "delete-break.p
 2.  Select **Save**.
 
 
-</td></tr><tr><td id="d46531e145">
+</td></tr><tr><td id="d46693e145">
 
 **__Edit__**
 
 </td><td>
 
 Change the details of the break.1.  Make the necessary edits.
+
+The **Break window** field shown in Event details reflects the same buffered range. **Start** times must be within this range.
+
 2.  Select **Save**.
 
 

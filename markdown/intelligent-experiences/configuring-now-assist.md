@@ -19,7 +19,7 @@ x\[Omitted video\] Description: ServiceNow Otto Admin overview
 
 ## AI Admin Hub overview tab
 
-Begin your exploration of the ServiceNow Otto features and skills in the AI Admin Hub console. This console contains everything that you need to install, configure, and learn about the different generative AI features on the ServiceNow AI Platform.
+Begin your exploration of the ServiceNow Otto features and skills in the AI Admin Hub console. This console has everything you need to install the plugins, configure the skills, and learn about the different generative AI features on the ServiceNow AI Platform.
 
 The following example shows the AI Admin Hub Overview page.
 

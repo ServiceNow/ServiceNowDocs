@@ -26,7 +26,7 @@ Sample use case: When an SP uses chat to respond to a tenant-customer’s messag
 
 For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/domain-separated-apps.md).
 
-## Overview of domain separation inSubscription Management
+## Overview of domain separation in Subscription Management
 
 Subscription Management enables you to manage your subscriptions and monitor subscription usage on your instances. Domain separation is enabled for user-based subscriptionsand for monitoring Now Assist usage.
 

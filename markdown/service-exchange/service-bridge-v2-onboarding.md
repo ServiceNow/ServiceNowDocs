@@ -57,6 +57,8 @@ If the state is **Validation Failed**, you must resolve all issues identified du
     After all issues are resolved, the state automatically changes to Open and the registration process resumes.
 
 
+-   **[Upgrade authorization on a provider instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/se-upgrade-authorization-provider.md)**  
+Upgrade a consumer Service Exchange connection from the Resource Owner Password Credentials \(ROPC\) OAuth grant type to the client credentials grant type without offboarding or re-onboarding the connection.
 -   **[Off-board a Service Exchange consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/service-bridge-v2-offboard-consumer.md)**  
 Off-board an onboarded consumer and remove all related records.
 

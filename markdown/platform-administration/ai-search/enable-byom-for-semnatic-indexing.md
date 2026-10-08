@@ -9,7 +9,7 @@ classification: ai-search
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Semantic index configuration for indexed sources, Indexed sources, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Configuring bring your own model \(BYOM\), Configuring your embedding model, AI Search RAG \(Retrieval-Augmented Generation\), Semantic index configuration for indexed sources, Indexed sources, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Enable the custom embedding model for semantic indexing
@@ -42,7 +42,7 @@ Role required: admin
 
 10. In the **Error Handler Extension Instance** field, select an error handler instance.
 
-    For more information, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/create-error-handler-extention-point.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/create-error-handler-extention-point.md).
+    For more information, see [Create error handler extension point](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/create-error-handler-extention-point.md).
 
 11. Select **Submit**.
 

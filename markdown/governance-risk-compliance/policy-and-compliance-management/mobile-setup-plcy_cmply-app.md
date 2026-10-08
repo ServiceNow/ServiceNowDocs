@@ -9,7 +9,7 @@ classification: policy-and-compliance-management
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Managing mobile experience for GRC Policy and Compliance, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Managing mobile experience for GRC Policy and Compliance, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Setup checklist for the GRC Mobile application

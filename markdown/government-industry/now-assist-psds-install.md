@@ -64,7 +64,7 @@ To install the ServiceNow Otto for PSDS plugin \(sn\_psds\_gen\_ai\), follow the
 
 8.  In the dialog box, select **Refresh**.
 
-    For more detailed information about the installation process, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+    For more detailed information about the installation process, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 
 
 ## Result

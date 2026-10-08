@@ -40,6 +40,8 @@ The feature-set is different between Field Encryption Starter and Field Encrypti
 |Supported data types|All supported data types|All supported data types|
 |Number of Field Encryption Modules|No restriction|No restriction|
 |Number of Module Access Policies|No restriction|No restriction|
+|Customer-Supplied Key \(BYOK\)|No|Yes|
+|External Key Management Service \(HYOK\)|No|Yes|
 
 ## Field Encryption users
 
@@ -77,11 +79,11 @@ Configures properties for customer supplied keys
 </td></tr></tbody>
 </table>## Field Encryption and record history
 
-Changes to fields encrypted with Field Encryption are not tracked in the activity stream for the record or in the record history \[sys\_history\_set\] table.
+Changes to fields encrypted with Field Encryption are not tracked in the activity stream for the record or in the record history `sys_history_set` table.
 
 ## Encryption on system tables
 
-Field Encryption currently doesn't support the encryption of fields and attachments of system tables \(tables that begin with sys\_\).
+Field Encryption currently doesn't support the encryption of fields and attachments of system tables \(system tables whose names begin with `sys_`\).
 
 ## Field Encryption and archive tables
 
@@ -89,7 +91,7 @@ Archive tables store historical data from base tables. When you create Encrypted
 
 ## Cloning considerations
 
-When you clone an instance that uses Field Encryption, the encrypted field data and encryption modules are copied to the target instance. Because encryption keys are re-encrypted with a secondary key that is unique to the source instance, the target instance can't decrypt the field data after cloning.
+During cloning, encrypted field data and encryption modules are copied to the target instance. Encryption keys are re-encrypted with a secondary key unique to the source instance, so the target instance cannot decrypt the copied field data until key exchange completes.
 
 Until a key exchange is performed, encrypted fields on the cloned instance appear empty or unreadable. This is expected behavior and does not indicate data corruption or loss.
 

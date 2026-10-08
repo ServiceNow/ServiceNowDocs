@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-knowledgegraph-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 11
+last_updated: "2026-10-08"
+reading_time_minutes: 13
 breadcrumb: [Products combined by family]
 ---
 
@@ -99,7 +99,23 @@ Yokohama
 
 </td><td>
 
--   **[Exploring Knowledge Graph](https://www.servicenow.com/docs/access?context=exploring-knowledge-graph&family=yokohama&ft:locale=en-US)**
+-   **[Test a Knowledge Graph schema](https://www.servicenow.com/docs/access?context=test-a-knowledge-graph-schema&family=yokohama&ft:locale=en-US)**
+
+Enter a query and test the Knowledge Graph schema using different LLM options. You can also add previous conversations before you run the query.
+
+
+ -   **[Access Knowledge Graph Schema](https://www.servicenow.com/docs/access?context=access-knowledge-graph-designer&family=yokohama&ft:locale=en-US)**
+
+Knowledge Graph now has a new NLQ graph schema available prebuilt along with user profile schema. See [KB article](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2069778) for schema attributes.
+
+
+ -   **[Leverage Knowledge Graph prebuilt integration with Virtual Agent](https://www.servicenow.com/docs/access?context=example-use-case-for-knowledge-graph&family=yokohama&ft:locale=en-US)**
+
+Knowledge Graph provides the following new prebuilt integrations:
+
+    -   Integration with Now Assist Virtual Agent: Helps requesters with personalized responses on people queries and Natural Language queries. Also supports people citation card.
+
+ -   **[Exploring Knowledge Graph](https://www.servicenow.com/docs/access?context=exploring-knowledge-graph&family=yokohama&ft:locale=en-US)**
 
 Knowledge Graph helps requesters with personalized responses using its Integration with Now Assist Virtual Agent for User Context.
 
@@ -114,13 +130,30 @@ Use the Knowledge Graph integrations with Now Assist Virtual Agent to utilize Kn
 Use Knowledge Graph designer to manage Knowledge Graph schemas, their nodes, node properties and edges. You can also use the interface to create, edit, duplicate, or delete a Knowledge Graph schema.
 
 
+ -   **[Leverage Knowledge Graph prebuild integration with AI agents](https://www.servicenow.com/docs/access?context=leverage-knowledge-graph-prebuild-integration-with-agentic-ai&family=yokohama&ft:locale=en-US)**
+
+Knowledge Graph provides the following prebuilt integrations:
+
+    -   Integration with Now Assist AI agents for User Context: Helps users with personalized responses.
+    -   Integration with AI agents as a tool: Used to perform specific tasks that are assigned to the AI agents.
+
 </td></tr><tr><td>
 
 Zurich
 
 </td><td>
 
--   **[Using Enterprise graph schema](https://www.servicenow.com/docs/access?context=global-graph-schema&family=zurich&ft:locale=en-US)**
+-   **[\[Placeholder link text to key using-graph-query-builder\]](https://www.servicenow.com/docs/access?context=using-graph-query-builder&family=zurich&ft:locale=en-US)**
+
+A visual interface to build and run Knowledge Graph queries without coding, enabling users to explore entities, relationships, and apply filters easily. It also supports natural language queries converted by LLMs for intuitive querying and offers options to save and reuse the queries later.
+
+
+ -   **[Tagging in Knowledge Graph Designer](https://www.servicenow.com/docs/access?context=tagging-in-knowledge-graph&family=zurich&ft:locale=en-US)**
+
+The Knowledge Graph landing page now includes a dedicated tagging section that allows users to create, edit, and manage tags.
+
+
+ -   **[Using Enterprise graph schema](https://www.servicenow.com/docs/access?context=global-graph-schema&family=zurich&ft:locale=en-US)**
 
 Enterprise Graph is a pre-configured Knowledge Graph schema that eliminates the need for custom schema creation in KG designer. By mapping all tables, the Enterprise Graph schema enhances the breadth of query capabilities, enabling database queries across all instance tables.
 
@@ -128,6 +161,16 @@ Enterprise Graph is a pre-configured Knowledge Graph schema that eliminates the 
  -   **[Tagging in Knowledge Graph Designer](https://www.servicenow.com/docs/access?context=tagging-in-knowledge-graph&family=zurich&ft:locale=en-US)**
 
 Tags are lists of key tables that are important for answering natural language questions. They provide hints to Enterprise Graph on which tables to prioritize when retrieving information, thereby improving the accuracy of results.
+
+
+ -   **[Test a Knowledge Graph schema](https://www.servicenow.com/docs/access?context=test-a-knowledge-graph-schema&family=zurich&ft:locale=en-US)**
+
+Enter a query and test the Knowledge Graph schema using different LLM options. You can also add previous conversations before you run the query.
+
+
+ -   **[Configure LLM for Knowledge Graph](https://www.servicenow.com/docs/access?context=configure-gpt-4-0-for-knowledge-graph&family=zurich&ft:locale=en-US)**
+
+Select and configure between Now LLM Service, Azure OpenAI GPT-4.1 and GPT-4.1 mini, Google Gemini 2.0 Flash and 2.5 Pro, and AWS Anthropic Claude 3.7 Sonnet LLM providers with ServiceNow third-party model strategy.
 
 
 </td></tr><tr><td>
@@ -139,6 +182,16 @@ Australia
 -   **[\[Placeholder link text to key using-graph-query-builder\]](https://www.servicenow.com/docs/access?context=using-graph-query-builder&family=australia&ft:locale=en-US)**
 
 A visual interface to build and run Knowledge Graph queries without coding, enabling users to explore entities, relationships, and apply filters easily. It also supports natural language queries converted by LLMs for intuitive querying and offers options to save and reuse the queries later.
+
+
+ -   **[Configuration item relationships and Knowledge Graph](https://www.servicenow.com/docs/access?context=ci-relationships-knowledge-graph&family=australia&ft:locale=en-US)**
+
+Enables users to ask natural language questions about how services, servers, databases, and other CIs relate to one another without writing queries or navigating CMDB tables directly.
+
+
+ -   **[Tagging in Knowledge Graph Designer](https://www.servicenow.com/docs/access?context=tagging-in-knowledge-graph&family=australia&ft:locale=en-US)**
+
+The Knowledge Graph landing page now includes a dedicated tagging section that allows users to create, edit, and manage tags.
 
 
 </td></tr><tr><td>
@@ -197,7 +250,12 @@ Zurich
 
 </td><td>
 
--   **[Using Knowledge Graph Designer](https://www.servicenow.com/docs/access?context=using-knowledge-graph-designer&family=zurich&ft:locale=en-US)**
+-   **[Changes to Now Assist usage measurement](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=zurich&ft:locale=en-US)**
+
+Starting with Australia Early Access, AI usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: AI Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
+
+
+ -   **[Using Knowledge Graph Designer](https://www.servicenow.com/docs/access?context=using-knowledge-graph-designer&family=zurich&ft:locale=en-US)**
 
 Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
 
@@ -211,6 +269,11 @@ Australia
 -   **[\[Placeholder link text to key access-graph-query-builder\]](https://www.servicenow.com/docs/access?context=access-graph-query-builder&family=australia&ft:locale=en-US)**
 
 New Query Builder section on Knowledge Graph Designer landing page. You can also directly access it from the main menu.
+
+
+ -   **[Create Knowledge Graph tag](https://www.servicenow.com/docs/access?context=create-knowledge-graph-tags&family=australia&ft:locale=en-US)**
+
+The new option to add AI instructions at node, property, and edge level when creating a tag, gives more business context to natural language queries.
 
 
 </td></tr><tr><td>
@@ -362,6 +425,8 @@ Yokohama
 Knowledge Graph is a ServiceNow AI Platform feature that is active by default if you have downloaded the Generative AI for BU.
 
 
+**Important:** Knowledge Graph is enabled automatically in your BU Generative AI Application. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Zurich
@@ -373,6 +438,8 @@ Zurich
 Knowledge Graph is a ServiceNow AI Platform feature that is active on installation, by default.
 
 
+**Important:** Knowledge Graph is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Australia
@@ -383,6 +450,8 @@ Australia
 
 Knowledge Graph is a ServiceNow AI Platform feature that is active on installation, by default.
 
+
+**Important:** Knowledge Graph is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 
@@ -680,7 +749,9 @@ Zurich
 
 </td><td>
 
-Zurich patch 13:
+Knowledge Graph can now be accessed by External users, with user role snc\_external, by setting the sn\_kg.enable\_external\_user\_check property to true.
+
+ Zurich patch 13:
 
 -   Improved search results accuracy with enhanced Knowledge Graph integration in ServiceNow Otto panel, ServiceNow® Otto for Virtual Agent, and AI Agents.
 
@@ -733,7 +804,9 @@ Australia
 
 </td><td>
 
-[\[Placeholder link text to key australia-patch-6\]](https://www.servicenow.com/docs/access?context=australia-patch-6&family=australia&ft:locale=en-US)
+-   Knowledge Graph can now be accessed by External users, with user role snc\_external, by setting the sn\_kg.enable\_external\_user\_check property to true.
+
+ [Australia Patch 6](https://www.servicenow.com/docs/access?context=australia-patch-6&family=australia&ft:locale=en-US)
 
 -   Improved search results accuracy with enhanced Knowledge Graph integration in ServiceNow Otto® panel, ServiceNow® Otto for Virtual Agent, and AI Agents.
 
@@ -761,6 +834,7 @@ Brazil
 
 </td><td>
 
+-   External users with the snc\_external role can now access Knowledge Graph when the sn\_kg.enable\_external\_user\_check property is set to true.
 -   Improved search results accuracy with enhanced Knowledge Graph integration in ServiceNow® Otto for Virtual Agent Virtual Agent, ServiceNow Otto panel and AI Agent applications.
 
 

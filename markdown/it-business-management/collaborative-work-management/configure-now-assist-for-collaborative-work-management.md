@@ -19,7 +19,7 @@ If you have the admin role, you can configure the implementation for the Service
 ## Before you begin
 
 -   The minimum version of CWM application that is required to support ServiceNow Otto for CWM features is v6.0.0 and later. If you're on earlier versions, upgrade your app through Application Manager. See [Update an application or plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/update-application-app-mgr.md).
--   Install the ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\) plugin \(sn\_cwm\_ai\). See [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+-   Install the ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\) plugin \(sn\_cwm\_ai\). See [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 -   [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
 Role required: admin
@@ -36,7 +36,7 @@ Use the AI Admin Hub console to activate the following skills of ServiceNow Otto
 -   Tasks generation
 -   CWM Scrum tasks generation
 
-**Note:** Now LLM Service is the default provider for this Now Assist application's skills.
+**Note:** Now LLM Service is the default provider for ServiceNow Otto for Collaborative Work Management \(CWM\) application's skills, and Gemma 4 is the default model.
 
 ## Procedure
 

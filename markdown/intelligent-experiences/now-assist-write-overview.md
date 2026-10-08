@@ -119,7 +119,7 @@ You can configure the Advanced filter to hide or show the ServiceNow Otto Contex
 
 -   **[Email recommendations using the ServiceNow Otto context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/email-recommendations-nacm.md)**  
 Use the ServiceNow Otto context menu to compose or respond to emails with recommendations from ServiceNow Otto with generative AI template suggestions. The ServiceNow Otto context menu enables users to generate email response recommendations in new, forward, reply, or reply all scenarios.
--   **[Summarize records with the Now Assist context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown)**  
+-   **[Summarize records with the Now Assist context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/summarisation-with-now-assist-context-menu.md)**  
 Use the ServiceNow Otto context menu to generate a record summary for the page, using Generative AI application assisted summarization capabilities in workspaces and UI16. The Now Assist context menu can generate a new summary, expand or collapse the summary card, share the summary to work notes, regenerate, or copy the summary.
 -   **[Improve Docs content in Strategic Portfolio Management with ServiceNow Otto context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/answer-queries-with-now-assist-context-menu.md)**  
 Use the ServiceNow Otto context menu to start conversations and raise queries, using generative AI capabilities and custom built in skills in Strategic Portfolio Management.

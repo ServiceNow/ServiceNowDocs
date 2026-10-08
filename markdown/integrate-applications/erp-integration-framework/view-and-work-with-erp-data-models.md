@@ -120,5 +120,3 @@ Number of times the model entity was updated.
 
 After you have noted the available fields and tables, you can add new table entities to a model by managing the model. When you manage the model, you can also create read, update, and create operations using table reads and BAPIs \(Business Application Programming Interface\). For more information, see [Exploring Zero Copy Connector for ERP models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/exploring-erp-models.md).
 
-**Parent Topic:**[Building and managing models to work with ERP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/work-with-erp-data-models.md)
-

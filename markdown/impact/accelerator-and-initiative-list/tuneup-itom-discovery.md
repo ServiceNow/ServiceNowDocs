@@ -16,9 +16,9 @@ breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initi
 
 Provides insight and guidance to improve the health of your Configuration Management Database \(CMDB\) through IT Operations Management \(ITOM\) Discovery.
 
-## Accelerator Overview
+## Accelerator overview
 
-TuneUp Your ITOM Discovery provides Impact Customers with an analysis of common ITOM discovery areas through HealthScan along with recommendations on addressing those findings. Obtain assistance to gain better insight into your CMDB implementation, including a review of the top challenging areas and leading practices on how to best remediate gaps.
+TuneUp Your ITOM Discovery provides Impact customers with an analysis of common ITOM discovery areas, along with recommendations on addressing those findings. It also includes a guided walkthrough of AI capabilities that help customers support and improve their Discovery implementation. Customers gain insight into their CMDB implementation, including a review of the most challenging areas, leading practices for remediating gaps, and AI-assisted support for ongoing management.
 
 ## Package Availability
 
@@ -26,14 +26,14 @@ TuneUp Your ITOM Discovery provides Impact Customers with an analysis of common 
 
 ## What you get
 
--   **ITOM Discovery Assessment**
+-   **ITOM Discovery assessment**
 
     The Technical Accelerator Consultant:
 
     -   Provisions a temporary instance
     -   Runs ITOM Discovery HealthScan portfolio
     -   Analyzes ITOM Discovery health findings
--   **Customer Coaching Session \#1 \(up to 1.5 hrs\)**
+-   **Customer coaching session \#1 \(up to 1.5 hours\)**
 
     Review of the following:
 
@@ -41,22 +41,22 @@ TuneUp Your ITOM Discovery provides Impact Customers with an analysis of common 
     -   ITOM Discovery health analysis
     -   Prioritized problem or deficient areas \(up to 3\)
     -   Leading practices and recommended actions to remediate gaps
--   **Customer Coaching Session \#2 \(Optional upon Customer request – up to 1 hr\)**
+-   **Customer coaching session \#2 \(optional on customer request, up to 1 hour\)**
 
     Opportunity for Q&amp;A related to CMDB Discovery
 
 -   **Output**
     -   30-day access to the temporary instance and Technical Accelerator Consultant with whom you met for any further questions or in-depth explorations
-    -   Copy of the Coaching Session Deck
+    -   Copy of the coaching session deck
 
 ## Requested customer resources
 
-|Customer Resource |Responsibilities |
-|------------------|-----------------|
-|Platform Owner \(Required\)|Responsible for the overall accountability of the ServiceNow platform. Provides leadership and oversight to the System Administrators, ensures team alignment to business strategy and the ServiceNow roadmap, and is actively involved in the overarching governance of the platform.|
-|System Administrator\(s\) \(Required\)|Maintains the stability and usability of the ServiceNow platform by performing application maintenance, managing support for cases related to ServiceNow applications, and contributing to ServiceNow software releases by delivering configuration tasks and features.|
-|Discovery Admin \(Required\)|Primary stakeholder for Discovery.|
-|Trusted Service Partners \(Recommended\)|Attends ServiceNow Impact Accelerator coaching session\(s\) to understand leading practices and potentially support customer going forward.|
+|Customer resource|Responsibilities|
+|-----------------|----------------|
+|Platform Owner \(Required\)|Holds overall accountability for the ServiceNow platform. Provides leadership and oversight to the System Administrators and ensures team alignment to business strategy and the ServiceNow roadmap. Actively involved in the overarching governance of the platform.|
+|System Administrator\(s\) \(Required\)|Maintains the stability and usability of the ServiceNow platform by performing application maintenance and managing support for cases. Contributes to ServiceNow software releases by delivering configuration tasks and features.|
+|Discovery Admin \(Required\)|Serves as the primary stakeholder for Discovery.|
+|Trusted Service Partners \(Recommended\)|Attends ServiceNow Impact Accelerator coaching session\(s\) to understand leading practices and potentially support the customer in the future.|
 
 ## Requested Information/Access
 
@@ -64,7 +64,7 @@ TuneUp Your ITOM Discovery provides Impact Customers with an analysis of common 
 
 ## Exceptions
 
-This Impact Accelerator in its entirety or portions of the Impact Accelerator Activities may not be available to customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, to self-hosted customers, or in other restricted environments, or to managed service providers \(except for their internal  use\).
+This Impact Accelerator in its entirety or portions of the Impact Accelerator Activities may not be available in the following environments: FedRAMP, NSC DOD IL5, or Australia IRAP-Protected datacenters. It is also not available to self-hosted customers, in other restricted environments, or to managed service providers \(except for their internal use\).
 
-ServiceNow is not responsible for implementing ITOM Discovery recommendations on Customer’s sub-production or production instances.
+ServiceNow is not responsible for implementing ITOM Discovery recommendations on the customer’s non-production or production instances.
 

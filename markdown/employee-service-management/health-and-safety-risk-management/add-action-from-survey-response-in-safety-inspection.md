@@ -58,5 +58,3 @@ The safety agent assigned to the survey can create actions on the survey. The ac
 
 **Parent Topic:**[Safety inspections and audits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/health-and-safety-risk-management/hs-safety-inspections.md)
 
-**Parent Topic:**[Safety inspections and audits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/health-and-safety-risk-management/hs-safety-inspections.md)
-

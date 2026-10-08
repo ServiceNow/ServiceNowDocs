@@ -225,15 +225,15 @@ No
 </td></tr></tbody>
 </table>4.  Perform one of the following actions.
 
-<table id="choicetable_zfq_bvh_x1b"><thead><tr><th align="left" id="d283634e385">
+<table id="choicetable_zfq_bvh_x1b"><thead><tr><th align="left" id="d286191e385">
 
 To
 
-</th><th align="left" id="d283634e388">
+</th><th align="left" id="d286191e388">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d283634e394">
+</th></tr></thead><tbody><tr><td id="d286191e394">
 
 **Save**
 
@@ -241,7 +241,7 @@ Do this
 
 To save the details, click **Save**.
 
-</td></tr><tr><td id="d283634e406">
+</td></tr><tr><td id="d286191e406">
 
 **Schedule**
 
@@ -249,7 +249,7 @@ To save the details, click **Save**.
 
 To publish an event on the specified date, click **Schedule**. **Note:** This option appears for a draft event that the**Schedule Publish** check box is selected for.
 
-</td></tr><tr><td id="d283634e424">
+</td></tr><tr><td id="d286191e424">
 
 **Publish**
 

@@ -48,12 +48,6 @@ The Legal Service Delivery applications use spokes from Integration Hub to integ
 Configure an external storage system to store signed contract documents.
 -   **[Configure an e-signature provider for legal contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/legal-service-delivery/snlc-integrate-esign.md)**  
 Configure an electronic signature provider to enable users to sign contract documents electronically.
--   **[Configure an external storage system for legal contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/legal-service-delivery/snlc-integrate-ext-storage.md)**  
-Configure an external storage system to store signed contract documents.
--   **[Configure an e-signature provider for legal contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/legal-service-delivery/snlc-integrate-esign.md)**  
-Configure an electronic signature provider to enable users to sign contract documents electronically.
-
-**Parent Topic:**[Configure Contract Management Pro for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/legal-service-delivery/snlc-config-sn-legal-contracts.md)
 
 **Parent Topic:**[Configure Contract Management Pro for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/legal-service-delivery/snlc-config-sn-legal-contracts.md)
 

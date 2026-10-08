@@ -39,5 +39,3 @@ Set up trigger conditions to enable the messaging functionality for an applicant
 
 **Parent Topic:**[Configuring Applicant Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/applicant-center/config-applicant-center.md)
 
-**Parent Topic:**[Configuring Applicant Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/applicant-center/config-applicant-center.md)
-

@@ -1,18 +1,18 @@
 ---
-title: Activate Data Collection for SPM
-description: Activate the Data Collection Pack for SPM after you enable and configure it.
+title: Activate Data Collection for Strategic Portfolio Management
+description: Activate the Data Collection Pack for Strategic Portfolio Management after you enable and configure it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/dc-spm-activate.html
 release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Impact Value Management Data Collection Content Pack for SPM, Enable data collection for Value Management, Configuring Impact, Impact]
+breadcrumb: [Impact Value Management Data Collection Content Pack for Strategic Portfolio Management, Enable data collection for Value Management, Guided Setup, Configuring Impact, Impact]
 ---
 
-# Activate Data Collection for SPM
+# Activate Data Collection for Strategic Portfolio Management
 
-Activate the Data Collection Pack for SPM after you enable and configure it.
+Activate the Data Collection Pack for Strategic Portfolio Management after you enable and configure it.
 
 ## Before you begin
 
@@ -57,5 +57,5 @@ Role required: admin, pa\_admin, or pa\_data\_collector
         To validate historical data for any specific indicator, select the widget on the dashboard.
 
 
-**Parent Topic:**[Impact Value Management Data Collection Content Pack for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/data-collection-spm.md)
+**Parent Topic:**[Impact Value Management Data Collection Content Pack for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/data-collection-spm.md)
 

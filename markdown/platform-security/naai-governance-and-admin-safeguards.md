@@ -20,31 +20,31 @@ Responsible AI deployment requires more than configuring individual features. Yo
 
 The following topics describe how to use the Now Assist Readiness Evaluation app to evaluate whether your instance is prepared for generative AI and agentic AI deployment, and to identify and resolve any gaps before going live.
 
--   ****
+-   **[AI Readiness Evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-readiness-evaluation-landing-page.md)**
 
     The Now Assist Readiness Evaluation app helps prepare your organization for implementing agentic AI for ITSM and CSM, Now Assist for five products, or both.
 
--   ****
+-   **[Exploring AI Readiness Evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/exploring-now-assist-readiness-evaluation.md)**
 
     Learn how the Now Assist Readiness Evaluation app automates assessment processes, evaluates data readiness, and provides actionable insights to help you adopt Now Assist quickly.
 
--   ****
+-   **[Configuring AI Readiness Evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configuring-now-assist-readiness-evaluation.md)**
 
     Run the scheduled jobs and complete the guided setup configuration steps before viewing generative AI and agentic AI assessment results.
 
--   ****
+-   **[Using AI Readiness Evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/using-now-assist-readiness-evaluation.md)**
 
     Find actionable items in your implementation preparation and use direct hyperlinks to address identified gaps.
 
--   ****
+-   **[Agentic AI - Assessment dashboard tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/agentic-ai-assessment-dashboard.md)**
 
     Determine agentic AI readiness for IT Service Management \(ITSM\) and Customer Service Management \(CSM\) through automated, data-driven insights in the Agentic AI Assessment tab.
 
--   ****
+-   **[Reviewing your Agentic AI assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/reviewing-agentic-ai-assesment.md)**
 
     Evaluate potential implementation impacts and get actionable insights for agentic AI in ServiceNow Otto for IT Service Management \(ITSM\) and ServiceNow Otto for Customer Service Management \(CSM\).
 
--   ****
+-   **[Reviewing your AI assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/reviewing-now-assist-assessment.md)**
 
     Evaluate potential implementation impacts and get actionable insights for Now Assist products.
 
@@ -61,11 +61,11 @@ Domain separation lets you isolate data and processes across multiple business u
 
     Domain separation is supported for the AI Admin Hub console. Learn how domain separation affects configuration and data visibility in the admin console.
 
--   ****
+-   **[Domain separation in AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aia-studio-domain-separation.md)**
 
     Domain separation is supported for Now AssistAI Agent Studio. Learn how domain separation affects AI agent and agentic workflow configuration and data visibility.
 
--   ****
+-   **[Domain separation and AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/domain-separation-now-assist-center.md)**
 
     Domain separation is supported for AI Admin Center. Learn how domain separation affects AI configuration and data visibility in AI Admin Center.
 

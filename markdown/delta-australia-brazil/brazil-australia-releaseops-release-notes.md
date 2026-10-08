@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-australia-brazil/brazil-australia-releaseops-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -102,7 +102,10 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **[Create a deployment request](https://www.servicenow.com/docs/access?context=create-a-new-deployment-request&family=brazil&ft:locale=en-US)**
+
+Begin assessing deployment requests before having to create or select a release. As some assessments can take much longer than the time needed for a release, this feature enables you to start assessments early and speed up your time to deployment.
+
 
 </td></tr></tbody>
 </table>## Changes

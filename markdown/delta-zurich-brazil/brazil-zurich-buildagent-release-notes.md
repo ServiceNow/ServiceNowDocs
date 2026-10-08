@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-brazil/brazil-zurich-buildagent-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -236,12 +236,7 @@ Australia
 
 </td><td>
 
--   **Activation information**
-
-Build Agent is a ServiceNow AI Platform feature that is active by default.
-
-**Note:** Build Agent is dependent on ServiceNow Otto for Creator. For more information, see [ServiceNow Otto for Creator release notes](https://www.servicenow.com/docs/access?context=now-assist-for-creator-rn&family=australia&ft:locale=en-US).
-
+No updates for this release.
 
 </td></tr><tr><td>
 
@@ -432,13 +427,7 @@ Australia
 
 </td><td>
 
--   Use Build Agent in ServiceNow Studio.
--   Work with additional Model Context Protocol \(MCP\) support.
--   Create apps and newly supported metadata in the global scope.
--   Choose from newly supported models.
--   Search external content without leaving Build Agent.
-
- See [Build Agent](https://www.servicenow.com/docs/access?context=build-agent&family=australia&ft:locale=en-US) for more information.
+No updates for this release.
 
 </td></tr><tr><td>
 

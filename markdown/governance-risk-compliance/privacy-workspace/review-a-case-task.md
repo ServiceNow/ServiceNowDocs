@@ -28,15 +28,15 @@ Role required: sn\_privacy\_case.privacy\_case\_analyst
 
 3.  Review the case task and then do one of the following.
 
-<table id="choicetable_l5k_yst_1wb"><thead><tr><th align="left" id="d219291e77">
+<table id="choicetable_l5k_yst_1wb"><thead><tr><th align="left" id="d220857e77">
 
 Choice
 
-</th><th align="left" id="d219291e80">
+</th><th align="left" id="d220857e80">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d219291e86">
+</th></tr></thead><tbody><tr><td id="d220857e86">
 
 **To request revision of the details provided by the case task owner**
 
@@ -47,7 +47,7 @@ Steps
 3.  Select **Request revision**.
 
 
-</td></tr><tr><td id="d219291e113">
+</td></tr><tr><td id="d220857e113">
 
 **To close the task as complete**
 
@@ -58,7 +58,7 @@ Steps
 3.  Select **Close as complete**.
 
 
-</td></tr><tr><td id="d219291e140">
+</td></tr><tr><td id="d220857e140">
 
 **To close the task as incomplete**
 
@@ -69,7 +69,7 @@ Steps
 3.  Select **Close as incomplete**.
 
 
-</td></tr><tr><td id="d219291e167">
+</td></tr><tr><td id="d220857e167">
 
 **To cancel the case task**
 

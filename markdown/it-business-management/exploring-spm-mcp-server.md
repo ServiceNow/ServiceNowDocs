@@ -34,16 +34,16 @@ Access Strategic Portfolio Management data and ServiceNow Otto skills as MCP too
 
 The following tools are available:
 
-|Tool name \[ID\]|Description|
-|----------------|-----------|
-|Get Goals \(sn\_spm\_mcp.get\_goals\)|Retrieves goals and objectives, providing foundational data for analysis and planning.|
-|Generate Goal Insights \(sn\_spm\_mcp.generate\_goal\_insights\)|Generates AI-powered insights for goals and targets by cross-referencing historical data and identifying trends.|
-|Get Portfolio Plans \(sn\_spm\_mcp.get\_portfolio\_plans\)|Retrieves portfolio plans, including resource allocation and timeline details, to support strategic decision-making.|
-|Generate Portfolio Insights \(sn\_spm\_mcp.generate\_portfolio\_insights\)|Generates portfolio insights, including at-risk projects, delayed starts and ends, and dependencies, to highlight potential bottlenecks.|
-|Generate Project Insights \(sn\_spm\_mcp.generate\_project\_insights\)|Detects project risks, analyzes status trajectory using predictive modeling, and provides recommendations to mitigate delays.|
-|Get Projects \(sn\_spm\_mcp.get\_projects\)|Retrieves projects with associated metadata such as ownership, deadlines, and budget constraints.|
-|Get AI Status Report \(sn\_spm\_mcp.get\_ai\_status\_report\)|Generates a Red, Amber, Green \(RAG\) status report across resources, cost, schedule, and scope, using color-coded indicators to prioritize critical issues.|
-|Identify Project Risks \(sn\_spm\_mcp.identify\_project\_risks\)|Detects AI-identified RIDAC risks and saves them to the risk table as AI drafts.|
+|Tool name \[ID\]|Description|Role required|
+|----------------|-----------|-------------|
+|Get Goals \(sn\_spm\_mcp.get\_goals\)|Retrieves goals and objectives, providing foundational data for analysis and planning.|sn\_gf.goal\_user\_read|
+|Generate Goal Insights \(sn\_spm\_mcp.generate\_goal\_insights\)|Generates AI-powered insights for goals and targets by cross-referencing historical data and identifying trends.|sn\_apw\_advanced.spw\_goal\_user\_read|
+|Get Portfolio Plans \(sn\_spm\_mcp.get\_portfolio\_plans\)|Retrieves portfolio plans, including resource allocation and timeline details, to support strategic decision-making.|sn\_align\_core.ap\_read\_only|
+|Generate Portfolio Insights \(sn\_spm\_mcp.generate\_portfolio\_insights\)|Generates portfolio insights, including at-risk projects, delayed starts and ends, and dependencies, to highlight potential bottlenecks.|sn\_align\_core.ap\_read\_only|
+|Generate Project Insights \(sn\_spm\_mcp.generate\_project\_insights\)|Detects project risks, analyzes status trajectory using predictive modeling, and provides recommendations to mitigate delays.|project\_manager|
+|Get Projects \(sn\_spm\_mcp.get\_projects\)|Retrieves projects with associated metadata such as ownership, deadlines, and budget constraints.|project\_manager|
+|Get AI Status Report \(sn\_spm\_mcp.get\_ai\_status\_report\)|Generates a Red, Amber, Green \(RAG\) status report across resources, cost, schedule, and scope, using color-coded indicators to prioritize critical issues.|project\_manager|
+|Identify Project Risks \(sn\_spm\_mcp.identify\_project\_risks\)|Detects AI-identified RIDAC risks and saves them to the risk table as AI drafts.|project\_manager|
 
 ## What to explore next
 

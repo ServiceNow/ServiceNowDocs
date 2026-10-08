@@ -121,7 +121,7 @@ To synchronize your IP data immediately instead of waiting for the next refresh 
 
 Discovery notifications enable administrators to receive real-time alerts or daily summaries of critical Discovery errors and schedule failures through Microsoft Teams and email, directly from the Discovery Admin Workspace.
 
-**Important:** This feature requires the ServiceNow AI Platform to be running on the Brazil, Australia, Zurich, or the Yokohama release starting with Patch 6. Before you can set up notifications, you must configure the Microsoft Teams Graph spoke. For more information, see [Set up the](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/set-up-msteams.md).
+**Important:** This feature requires the ServiceNow AI Platform to be running on the Brazil, Australia, Zurich, or the Yokohama release starting with Patch 6. Before you can set up notifications, you must configure the Microsoft Teams Graph spoke. For more information, see .
 
 -   **Notification destinations**
 
@@ -169,7 +169,11 @@ The browser extension must be enabled on the host.
 
 -   **Broad URL Discovery**
 
-    Enables full monitoring of web usage data from managed devices. Use the **Discover all URLs** toggle to enable data to be captured for all URLs that are visited. This feature is inactive by default. Data is captured only for your targeted URLs. When enabled, data is captured for all URLs accessed on Chrome-based browsers across managed devices and any targeted URLs. Data is kept for a maximum of 30 days. Data is deleted if a URL is removed or if the discovery type is changed.
+    Enables full monitoring of web usage data from managed devices. Use the **Discover all URLs** toggle to enable data to be captured for all URLs that are visited.
+
+    **Important:** To enable or disable the **Discover all URLs** toggle, the application scope must be set to **ITOM URL Discovery**. If another scope is selected, the toggle doesn't work.
+
+    This feature is inactive by default. Data is captured only for your targeted URLs. When enabled, data is captured for all URLs accessed on Chrome-based browsers across managed devices and any targeted URLs. Data is kept for a maximum of 30 days. Data is deleted if a URL is removed or if the discovery type is changed.
 
     **Warning:** Enabling this feature captures data for all URLs accessed on managed devices. This method may not be compliant with EU General Data Protection Regulation \(GDPR\) and other privacy regulations. Review your company policies before enabling.
 

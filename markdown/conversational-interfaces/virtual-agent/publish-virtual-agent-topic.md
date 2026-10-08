@@ -44,7 +44,7 @@ You can also publish topic blocks and custom controls to make them available for
 
 5.  Verify that your topics work as expected by opening them in a test conversation window in one of the following ways.
 
-<table id="choicetable_uyk_3w1_scc"><tbody><tr><td id="d94034e151">
+<table id="choicetable_uyk_3w1_scc"><tbody><tr><td id="d94223e151">
 
 **Topic Flow or Properties tab**
 
@@ -52,7 +52,7 @@ You can also publish topic blocks and custom controls to make them available for
 
 Select **Test**.
 
-</td></tr><tr><td id="d94034e163">
+</td></tr><tr><td id="d94223e163">
 
 **Asset library page**
 

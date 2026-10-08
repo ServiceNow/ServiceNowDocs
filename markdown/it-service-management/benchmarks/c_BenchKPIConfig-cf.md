@@ -8,7 +8,7 @@ product: Benchmarks
 classification: benchmarks
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 13
+reading_time_minutes: 12
 breadcrumb: [Reference, Benchmarks, IT Service Management]
 ---
 
@@ -26,7 +26,7 @@ The participating customer count for each cohort bucket in Industry Category, Us
 
 ## Benchmarks KPI categories
 
-Benchmarks supports KPIs from other ServiceNow applications such as ITSM, ITOM, Security Operations, Conversational Interfaces, Success Dashboard, and Strategic Portfolio Management. For more information, see [Benchmark KPIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/benchmarks/c_BenchKPIConfig.md).
+Benchmarks supports KPIs from other ServiceNow applications such as ITSM, ITOM, Security Operations, Conversational Interfaces, Success Dashboard, and Strategic Portfolio Management. For more information, see Benchmark KPIs.
 
 ## ITSM KPIs
 
@@ -40,7 +40,7 @@ Description
 
 </th></tr></thead><tbody><tr><td colspan="2">
 
-**Note:** In some environments, KPIs involving resolved incidents may require further [configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/benchmarks/t_ConfigResIncBenchKPIs.md) to retrieve resolved incident data.
+**Note:** In some environments, KPIs involving resolved incidents may require further configuration to retrieve resolved incident data.
 
 </td></tr><tr><td>
 
@@ -310,7 +310,7 @@ Average customer satisfaction
 
 **Note:** This KPI uses the base system Customer Satisfaction Survey.
 
-If you're using a different survey to collect user feedback, you can [customize the KPI definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/benchmarks/t_CustomBenchKPIConditions.md).
+If you're using a different survey to collect user feedback, you can customize the KPI definition.
 
 </td></tr><tr><td>
 

@@ -40,6 +40,8 @@ After you clone your Service Exchange, the inbound and outbound connections move
 
 5.  Activate inactive Capture Definitions.
 
+    **Note:** When the connection goes down after the clone, automatic mitigation can activate inactive capture definitions. Check the state of each capture definition before you change it.
+
     1.  Navigate to **All** &gt; **IntegrationHub** &gt; **Remote Process Sync** &gt; **Process Sync Definitions**.
 
     2.  Select the Service Exchange Customer Definition.

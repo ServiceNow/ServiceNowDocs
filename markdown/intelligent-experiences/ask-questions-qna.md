@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ask-questions-qna.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-24"
-reading_time_minutes: 2
+last_updated: "2026-10-08"
+reading_time_minutes: 1
 keywords: [QnA, question and answer, Content Insights, document analysis]
 breadcrumb: [Content insights AI agent, Use, Content Understanding, Generative AI skills, Enable AI Experiences]
 ---
@@ -79,6 +79,4 @@ With an attachment sys\_id:
 
 -   `What is the governing law in attachment sys_id abc123?`
 -   `Who wrote the document with sys_id 123 from table abc?`
-
-**Parent Topic:**[Use Content insights AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/use-content-insights-ai-agent.md)
 

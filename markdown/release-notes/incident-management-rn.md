@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/release-notes/incident-manageme
 release: brazil
 topic_type: topic
 last_updated: "2026-09-10"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [IT Service Management release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
@@ -29,6 +29,12 @@ See [Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNo
 -   **Activation information**
 
     Incident Management is a ServiceNow AI Platform feature that is active by default.
+
+-   **Upgrade information**
+
+    The ITSM Enhanced Security Features plugin \(com.snc.itsm.enhanced\_security\) is now activated automatically when you upgrade to the Brazil release. Previously, the plugin was activated only on new instances. Activating the plugin adds "deny unless authenticated" access control list \(ACL\) rules to several IT Service Management tables.
+
+    To revert to the pre-upgrade behavior, contact ServiceNow Support for a list of ACLs to deactivate on specific tables. As a last resort, Support can run a script that deactivates all the new ACLs.
 
 
 ## Accessibility and localization

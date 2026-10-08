@@ -7,7 +7,7 @@ release: brazil
 product: Connections and Credentials
 classification: connections-and-credentials
 topic_type: concept
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 4
 breadcrumb: [Connections and Credentials, Access Management]
 ---
@@ -65,9 +65,9 @@ The following features use connections, credentials, and aliases:
 You can set up aliases on the ServiceNow AI Platform in one of two ways:
 
 -   Using the Connections and Credentials module. See [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/connections-and-credentials/connection-alias.md).
--   In the Connections dashboard of Integration Hub. See Add a connection.
+-   In the Connections dashboard of Integration Hub. See [Add a connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/dashboard-add-connection.md).
 
-    **Note:** Integration Hub requires a separate subscription. For more information, see Request Integration Hub.
+    **Note:** Integration Hub requires a separate subscription. For more information, see [Request Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/request-ih-overview.md).
 
 
 ## Credential synchronization on MID Servers

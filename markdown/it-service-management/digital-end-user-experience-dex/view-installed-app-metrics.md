@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [installed application metrics, cpu usage, memory usage, application performance, view installed app metrics]
-breadcrumb: [Monitor application performance, Manage, Digital End-User Experience, IT Service Management]
+breadcrumb: [Monitor application performance, Manage employee experience, Digital End-User Experience, IT Service Management]
 ---
 
 # View metrics of an installed application
@@ -27,9 +27,6 @@ Role required: sn\_dex.user
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-    -   AMER \(Americas\): `itomcnc-prod-gateway-amer.sncapps.service-now.com:443`
-    -   EMEA \(Europe\): `itomcnc-prod-gateway-emea.sncapps.service-now.com:443`
-    -   APAC \(Asia Pacific\): `itomcnc-prod-gateway-apac.sncapps.service-now.com:443`
 2.  In the primary navigation pane, select the Applications icon \(\[Omitted image "icon-applications.png"\] Alt text: The Applications icon.\).
 
 3.  Select an installed application name.

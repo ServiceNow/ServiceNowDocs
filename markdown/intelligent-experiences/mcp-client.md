@@ -8,7 +8,7 @@ topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Model Context Protocol Client, MCP Client, AI Agents]
-breadcrumb: [Extending AI with external systems and providers, Enable AI Experiences]
+breadcrumb: [AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Model Context Protocol Client

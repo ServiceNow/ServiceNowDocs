@@ -35,40 +35,13 @@ The closure stage runs after the resolution and dispute analysis stage. Use this
 
 5.  On the Closure stage, enter the dispute resolution details.
 
-<table id="table_ad2_2qp_h3c"><thead><tr><th>
+    |Field|Description|
+    |-----|-----------|
+    |Resolution code|Type of proposed resolution to identify the dispute.|
+    |Add resolution notes to comments|Option to add the resolution notes to the CDM case activity stream, making them available to anyone who can view the CDM activity stream.|
+    |Resolution notes|Detailed summary to resolve the dispute. Generate the resolution notes using the ServiceNow Otto component. To learn more, see [Generate resolution notes for ADR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-tmt-generate-resolution-notes-ad.md).|
 
-Field
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Resolution code
-
-</td><td>
-
-Type of proposed resolution to identify the dispute.
-
-</td></tr><tr><td>
-
-Add resolution notes to comments
-
-</td><td>
-
-Option to add the resolution notes to the CDM case activity stream, making them available to anyone who can view the CDM activity stream.
-
-</td></tr><tr><td>
-
-Resolution notes
-
-</td><td>
-
-Detailed summary to resolve the dispute.**Note:** If you’re using the ServiceNow Otto for TMT application, you can generate the resolution notes using the ServiceNow Otto component. To learn more, see [Generate resolution notes for ADR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-generate-resolution-notes-ad.md).
-
-</td></tr></tbody>
-</table>6.  Select **Continue**.
+6.  Select **Continue**.
 
     The system sends the customer an email that summarizes the dispute, investigation findings, and proposed resolution.
 
@@ -78,9 +51,9 @@ Detailed summary to resolve the dispute.**Note:** If you’re using the ServiceN
 
     If the customer accepted the resolution, select **Customer accepted** and the dispute moves to the closure step. If the customer rejected the resolution, select **Customer rejected**. You are prompted to generate a deadlock letter before the dispute moves to closure.
 
-9.  To generate a deadlock letter, draft the letter content and select **Generate and send**.
+9.  Generate a deadlock letter, draft the letter content and select **Generate and send**.
 
-    **Note:** If you are using the ServiceNow Otto for TMT application, you can generate the deadlock letter details using the ServiceNow Otto component. To learn more, see [Generate a deadlock letter using ServiceNow Otto for TMT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-generate-deadlock-letter.md).
+    To learn more, see [Generate a deadlock letter using ServiceNow Otto for TMT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-tmt-generate-deadlock-letter.md).
 
     The system creates a PDF of the letter, sends it to the customer by email, and adds the PDF to the dispute's attachments. The sent email is displayed at the Notify regulator step.
 
@@ -100,6 +73,11 @@ Detailed summary to resolve the dispute.**Note:** If you’re using the ServiceN
 ## Result
 
 The dispute is marked closed. The closing information is saved with the dispute record and is available for future reference or auditing.
+
+-   **[Generate resolution notes for ADR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-tmt-generate-resolution-notes-ad.md)**  
+Generate the resolution notes for an Alternative Dispute Resolution \(ADR\) case by using the resolution notes generation for ADR skill in the ServiceNow Otto for TMT application.
+-   **[Generate a deadlock letter using ServiceNow Otto for TMT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-tmt-generate-deadlock-letter.md)**  
+Generate a deadlock letter for Alternative Dispute Resolution \(ADR\) case. Quickly create the details of the deadlock letter by using the deadlock letter draft generation skill in the ServiceNow Otto for TMT application.
 
 **Parent Topic:**[Using Customer Dispute Management case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/use-alternative-dispute-resolution-case.md)
 

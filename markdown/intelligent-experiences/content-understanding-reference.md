@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/content-understanding-reference.html
 release: brazil
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-07-13"
 reading_time_minutes: 2
 keywords: [reference]
 breadcrumb: [Content Understanding, Generative AI skills, Enable AI Experiences]
@@ -18,7 +18,7 @@ Reference topics provide additional information about the lists and forms that y
 -   [Content Understanding personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/personas.md)
 -   [Languages supported by Content Understanding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/languages-supported.md)
 -   [Large language models used by Content Understanding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/cu-llms.md)
--   
+-   [Manage use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/manage-use-case.md)
 -   [Content Understanding forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/cu-forms.md)
 -   [Field types in Content Understanding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/field-types.md)
 -   [Content Understanding integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/content-understanding-integrations.md)
@@ -31,8 +31,6 @@ Personas define the roles that interact with Content Understanding and the actio
 Use this reference to identify which languages the Content Understanding application supports for text-based and image-based files, and which optical character recognition \(OCR\) model applies to each language group.
 -   **[Large language models used by Content Understanding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/cu-llms.md)**  
 The Content Understanding application uses large language models \(LLMs\) to support generative AI and agentic AI capabilities.
--   **[Manage use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/cu-manage-use-case.md)**  
-Use cases can be modified, duplicated, deactivated, or deleted after initial setup.
 -   **[Content Understanding forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/cu-forms.md)**  
 Reference forms provide fields for viewing and updating Content Understanding records, including fields, questions, and tables.
 -   **[Field types in Content Understanding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/field-types.md)**  

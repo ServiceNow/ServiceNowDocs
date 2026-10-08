@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/order-management/renewal-pricin
 release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 5
+reading_time_minutes: 6
 breadcrumb: [Product pricing, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
@@ -75,6 +75,16 @@ The pricing engine calculates the delta price amount on the consolidated renewal
 -   The new renewal price, which includes the renewal uplift.
 
 Because the prior contract value accounts for the upsells and downsells, the delta price reflects the change against what the customer was paying at the end of the term, not against the value of the original contract line.
+
+For example, Boxeo has one contract line for Product A, originally 200 units at a $15 unit net price on a 3-year term. Partway through the term, Boxeo downsells to 150 units, then later upsells to 220 units. At renewal, the pricing engine consolidates the original line and both changes into a single renewal quote line and calculates the delta price as follows:
+
+|Value|Amount|
+|-----|------|
+|Prior contract value \(blended unit net price across the original line, the downsell, and the upsell, applied over the full 3-year term\)|$9,900|
+|New renewal price \(220 units at the renewed unit net price, including the renewal uplift\)|$11,352|
+|Delta price \(new renewal price minus prior contract value\)|$1,452|
+
+The consolidated renewal quote line carries the delta price, not the full new renewal price, because the prior contract value already reflects the downsell and the upsell. Charging the full new renewal price on top of what Boxeo already paid for those changes would double-count them.
 
 ## Controlling renewal uplift pricing for ramped products
 

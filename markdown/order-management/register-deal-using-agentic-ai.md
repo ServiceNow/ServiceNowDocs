@@ -36,8 +36,10 @@ For information about how to create and register a deal, see [Deal Registration]
 
 Before using the Deal Registration AI agent, complete the following prerequisites:
 
--   Confirm that the ServiceNow Otto panel is turned on.
+-   Confirm that the ServiceNow Otto panel is turned on. For more information, see ServiceNow Otto panel is turned on. For more information, see [AI capabilities in Sales CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/ai-capabilities-sales-crm.md).
 -   Duplicate the AI agent and activate the triggers.
+
+For information on installing AI plugins, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 
 **Note:** By default, all agent workflow and AI agent records are read-only.
 

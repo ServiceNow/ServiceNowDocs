@@ -1,6 +1,6 @@
 ---
 title: Security incident retrieval AI agent
-description: This Operational Technology Security Incident Response agent searches for security incidents using filters and optionally summarizes individual incidents.
+description: This Security Incident Response agent searches for security incidents using filters and optionally summarizes individual incidents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/sir-security-incident-retrieval-ai-agent.html
 release: brazil
@@ -12,7 +12,7 @@ breadcrumb: [Security Incident Response AI agents, Security Incident Response, A
 
 # Security incident retrieval AI agent
 
-This Operational Technology Security Incident Response agent searches for security incidents using filters and optionally summarizes individual incidents.
+This Security Incident Response agent searches for security incidents using filters and optionally summarizes individual incidents.
 
 ## Workflow
 
@@ -107,7 +107,7 @@ Used in agentic workflows
 Analyze security operations metrics
 
 </td></tr></tbody>
-</table>Learn more about Operational Technology Security Incident Response at .
+</table>Learn more about Security Incident Response at .
 
 **Parent Topic:**[Security Incident Response AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/sir-ai-agents-overview.md)
 

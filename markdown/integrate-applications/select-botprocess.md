@@ -45,15 +45,15 @@ For more information about migrating your metadata from a lower environment to a
 
 1.  You can associate a bot process to a bot process configuration record by choosing one of these options.
 
-<table id="choicetable_nkf_c3k_xvb"><thead><tr><th align="left" id="d613065e162">
+<table id="choicetable_nkf_c3k_xvb"><thead><tr><th align="left" id="d620264e162">
 
 Option
 
-</th><th align="left" id="d613065e165">
+</th><th align="left" id="d620264e165">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d613065e171">
+</th></tr></thead><tbody><tr><td id="d620264e171">
 
 **Perform this task in workspace**
 
@@ -77,7 +77,7 @@ For a description of the field values, see [Bot Process form in RPA Hub](https:/
 10. On the **Details** tab, in **Activity** and **Compose** fields, view the activity of the form, work notes, and additional comments.
 
 
-</td></tr><tr><td id="d613065e282">
+</td></tr><tr><td id="d620264e282">
 
 **Perform this task in the classic environment**
 

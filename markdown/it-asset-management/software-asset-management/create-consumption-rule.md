@@ -44,7 +44,7 @@ Role required: sam\_user
 
 4.  Select **Save**.
 
-    The new consumption rule appears in the Consumption rules list view. You must [link this rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/link-consumption-rules.md) to one or many entitlements.
+    The new consumption rule appears in the Consumption rules list view. You must [link this rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/link-consumption-rules.md) to one or many entitlements. For details on how the system evaluates a linked consumption rule, see [Consumption rule evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/consumption-rule-evaluation.md).
 
 
 **Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/using-sam-workspace.md)

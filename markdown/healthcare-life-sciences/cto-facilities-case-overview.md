@@ -42,3 +42,5 @@ The state of both the work order and the healthcare case remains in synchronizat
 
 **Note:** In Care Team Operations for Facilities, case data only synchronizes with work orders and doesn’t synchronize with work order tasks. Only updates made to the work order affect the associated case data.
 
+**Note:** Care team members can also create these cases conversationally, by chat in Care Team Portal or Care Team Mobile, or by phone, using ServiceNow Otto. For more information, see [AI in Care Team Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/healthcare-operations-core/hco-otto-landing.md).
+

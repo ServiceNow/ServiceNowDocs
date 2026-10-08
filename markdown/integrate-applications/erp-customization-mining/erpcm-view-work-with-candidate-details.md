@@ -9,7 +9,7 @@ classification: erp-customization-mining
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Use, ERP Semantic Mining overview, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Use, ERP Semantic Mining overview, Workflow Data Fabric]
 ---
 
 # View and work with candidate details in ERP Semantic Mining

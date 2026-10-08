@@ -31,7 +31,7 @@ The following table describes the key user interface components that support in-
 |------------|-----------|
 |**Triage Cases** button|Trigger agentic workflows directly from case records using the Triage Cases button, eliminating the need to navigate to ServiceNow Otto panel. When you select the Triage Cases button on a case record, the system automatically initiates an agentic workflow for the case and email interaction record. You can monitor workflow progress by accessing the **AI Workflow** tab, where the same workflow appears with complete visibility. From this tab, you can drill into the workflow details to review individual steps or provide any required input to advance the workflow.|
 |AI presence indicator|View the visual indicator showing that AI is actively running an agentic workflow on the current record. Selecting the indicator displays AI activity status and shows up when **Triage Cases** button is selected.|
-|**AI Workflow** tab|A dedicated tab that displays in‑progress, completed, input‑required, ready for review, failed, and cancelled workflows. You can view workflow details, AI‑generated findings, and workflow history.|
+|**AI Workflow** tab|A dedicated tab that displays in‑progress, completed, input‑required, ready for review, failed, and canceled workflows. You can view workflow details, AI‑generated findings, and workflow history.|
 |Workflow detail experience|Provides a step‑by‑step view of workflow execution. You can see each step in the workflow as it happens. You can check the workflow's status at any time. You can easily tell when the system needs information from you. You can also read the main findings and insights the AI has prepared. When you're ready, you can choose to continue to the next step, skip extra details, or let the workflow finish on its own. For example, if a workflow requires input like "Do you want deeper insights?", responding with No moves the workflow directly to complete state.|
 |AI record indicators|Alerts and system‑generated indicators showing AI‑assisted record creation, findings, and transparency details directly on the case record.|
 |Input request panel|Displays workflow ‑requested inputs such as text, Boolean, single‑select, multi‑select, or drop down values that enable you to influence workflow progression.|
@@ -49,7 +49,7 @@ By default, this feature is turned off in the base system. To enable it, admin m
 4.  Scroll down to the **UI Actions** section.
 5.  Toggle the **Display** option to turn the button on or off.
 
-This allows admin to control whether the **Triage Cases** button appears in the agent interface. All workflows must be initiated by a human agent.
+This allows admin to control whether the **Triage Cases** button appears in the agent interface.
 
 **Note:** The sn\_now\_canvas\_ai.interactive\_view\_user role must be manually added to the sn\_esm\_agent role to enable agents to view the **AI Workflows** tab in the side panel.
 

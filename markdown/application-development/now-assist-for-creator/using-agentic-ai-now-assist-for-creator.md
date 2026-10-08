@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist, Now Assist for Creator, Install Now Assist for Creator, Use agentic AI, agentic AI, AI agents in Now Assist for Creator, agentic workflow Now Assist for Creator, Activate Creator AI agents, Build Agent]
-breadcrumb: [ServiceNow Otto for Creator, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [ServiceNow Otto for Creator, Build, AI Workflow Factory, Building applications]
 ---
 
 # Using agentic AI with ServiceNow Otto for Creator

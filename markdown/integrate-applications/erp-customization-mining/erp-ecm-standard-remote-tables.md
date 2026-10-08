@@ -9,7 +9,7 @@ classification: erp-customization-mining
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Standard tables and fields, Reference, ERP Semantic Mining overview, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Standard tables and fields, Reference, ERP Semantic Mining overview, Workflow Data Fabric]
 ---
 
 # Standard remote tables for ERP Semantic Mining

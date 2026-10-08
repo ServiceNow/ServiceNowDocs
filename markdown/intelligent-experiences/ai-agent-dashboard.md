@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-agen
 release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 19
+reading_time_minutes: 18
 breadcrumb: [Reference, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 

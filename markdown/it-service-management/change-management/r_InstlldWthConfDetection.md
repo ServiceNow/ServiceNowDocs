@@ -30,3 +30,9 @@ Change Management - Collision Detector adds or modifies the following tables.
 |Conflict \[conflict\]|Represents conflicts found during the detection process.|
 |Maintenance Schedule \[cmn\_schedule\_maintenance\]|Represents a maintenance schedule|
 
+Change Management - Collision Detector installs the following types of components:
+
+-   Tables that store schedules, conflicts, and detection results.
+-   Business rules that run the collision detection process.
+-   Schedules, including blackout, maintenance, and condition schedules, used to evaluate conflicts.
+

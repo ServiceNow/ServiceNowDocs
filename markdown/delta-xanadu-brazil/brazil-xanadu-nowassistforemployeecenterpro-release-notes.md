@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-nowassistforemployeecenterpro-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -341,6 +341,8 @@ Australia
 
 Now Assist for Employee Center Pro is a ServiceNow AI Platform feature that is available with activation of the now-activation-platform-default plugin. For details, see [\[Placeholder link text to key ecpro-plugins\]](https://www.servicenow.com/docs/access?context=ecpro-plugins&family=australia&ft:locale=en-US).
 
+
+**Important:** Now Assist for Employee Center Pro is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 

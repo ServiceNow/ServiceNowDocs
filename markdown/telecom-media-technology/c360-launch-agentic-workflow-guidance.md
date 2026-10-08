@@ -29,6 +29,9 @@ You can map guidance input in two ways, depending on how the workflow is trigger
 
 For more information about mapping guidance inputs, see [Map AI search results with guidance inputs in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/ra-create-search-result-mapping-for-ai-search.md).
 
+-   **[ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) Smart Actions for Telecom agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-tmt-smart-actions-agentic-workflow.md)**  
+Use the Smart Actions for Telecom agentic workflow to retrieve customer data and get a summary with a recommended next action for a customer account or consumer.
+
 **Parent Topic:**[Recommendations panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/c360-recommendations.md)
 
 **Related topics**  

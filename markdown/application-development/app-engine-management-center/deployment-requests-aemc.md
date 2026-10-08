@@ -8,8 +8,8 @@ product: App Engine Management Center
 classification: app-engine-management-center
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 2
-breadcrumb: [Explore, App Engine Management Center, Governing app development, Building applications]
+reading_time_minutes: 3
+breadcrumb: [Explore, App Engine Management Center, Run, AI Workflow Factory, Building applications]
 ---
 
 # Deployment requests in AEMC
@@ -52,4 +52,6 @@ ReleaseOps deployment requests also contain the following information:
 -   The Automated Test Framework \(ATF\) test suites that run during the deployment request assessment
 -   The results of the Automated Test Framework \(ATF\) test suites
 -   The Instance Scan suites that are run during the deployment request assessment
+
+**Parent Topic:**[Exploring the App Engine Management Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/exploring-aemc.md)
 

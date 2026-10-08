@@ -10,7 +10,7 @@ topic_type: reference
 last_updated: "2026-08-06"
 reading_time_minutes: 3
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, flow, reference]
-breadcrumb: [Reference, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Troubleshooting, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Use ERP Data action details for flows
@@ -91,6 +91,4 @@ You can use these outputs as inputs for other items.
 
     Requested data that's returned from the ERP system. For more information, see [Choose output parameters for a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-manage-outputs.md).
 
-
-**Parent Topic:**[Zero Copy Connector for ERP reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-integration-reference.md)
 

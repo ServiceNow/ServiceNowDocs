@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-nextexperience-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 11
+last_updated: "2026-10-08"
+reading_time_minutes: 12
 breadcrumb: [Products combined by family]
 ---
 
@@ -173,6 +173,15 @@ Australia
 Collect feedback from users as they work in Next Experience. Admins can turn off surveys at the instance level.
 
 
+ -   **[Enable auto-focus on page alerts new accessibility preference](https://www.servicenow.com/docs/access?context=enable-auto-focus-on-page-alerts&family=australia&ft:locale=en-US)**
+
+Turn on the Enable auto-focus on page alerts preference to automatically move focus to the page alert. See the Accessibility section for details.
+
+-   **[Next experience all menu editing](https://www.servicenow.com/docs/access?context=next-experience-all-menu-editing&family=australia&ft:locale=en-US)**
+
+Create and edit application menus and modules directly from the Next Experience UI. Admins can configure Record, List, Dashboard, and Custom page modules from a centralized, platform-native interface.
+
+
 </td></tr><tr><td>
 
 Brazil
@@ -236,7 +245,14 @@ Zurich
 
 -   **[Now Assist &gt; ServiceNow Otto® announcement](https://www.servicenow.com/docs/access?context=sn-ai-implementation-landing&family=zurich&ft:locale=en-US)**
 
-Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+
+
+ -   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+For existing customers who upgrade to Zurich, use [Theme Builder to publish Coral theme to your instance](https://www.servicenow.com/docs/access?context=tb-apply-theme&family=zurich&ft:locale=en-US) or [add Coral theme to the Next Experience UX Parent App Theme table](https://www.servicenow.com/docs/access?context=configure-presentation-order-of-themes&family=zurich&ft:locale=en-US). Once enabled by a system administrator, Coral is available for [selection in the user's Theme preference](https://www.servicenow.com/docs/access?context=select-a-theme-in-next-experience&family=zurich&ft:locale=en-US).
 
 
 </td></tr><tr><td>
@@ -248,6 +264,20 @@ Australia
 -   **[Now Assist &gt; ServiceNow Otto® announcement](https://www.servicenow.com/docs/access?context=sn-ai-implementation-landing&family=australia&ft:locale=en-US)**
 
 ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+
+
+ -   **[Updated Coral theme](https://www.servicenow.com/docs/access?context=next-experience-theming&family=australia&ft:locale=en-US)**
+
+The Coral theme has been improved to enhance usability across web, mobile, and portal experiences that use Next Experience and Core UI:
+
+    -   A fully overhauled color system for smoother gradients and better contrast.
+    -   Softer outlines and more rounded components for a modern, accessible look.
+    -   A significantly improved dark mode with deeper blue tones for reduced eye strain.
+    -   New AI gradient styles and subtle animations to highlight intelligent features.
+    -   Smarter focus behavior that reduces visual clutter for mouse users.
+-   **New Works with ServiceNow badge added to user menu**
+
+The Works with ServiceNow badge now appears in the user menu for custom-branded accounts. This applies to web and mobile experiences with Next Experience or Core UI enabled. All other branding and theme settings remain unchanged. This update applies automatically.
 
 
 </td></tr><tr><td>

@@ -7,12 +7,28 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Customize Scan Engine definitions, Activate Scan Engine and review settings, Impact Guided Setup, Configuring Impact, Impact]
+breadcrumb: [Customize Scan Engine definitions, Activate Scan Engine and review settings, Configuring Impact, Impact]
 ---
 
 # Customize Scan Engine definition suites
 
 Follow these steps to create or modify Scan Engine definition suites.
+
+## About this task
+
+Definition suites are useful as they allow scanning of the entire instance or all definitions. Admins can focus on a suite that represents a logical category and improve efficiency and precision in code quality checks.
+
+By default, the following suites are available:
+
+-   Scan Engine
+-   JavaScript Naming Conventions
+-   Scoped Application
+-   ITOM
+-   Workflow Engine
+-   Security and Instance Hardening
+-   IL4 \(Impact Level 4\)
+-   HR Scoped Applications
+-   Artificial Intelligence Readiness
 
 ## Before you begin
 

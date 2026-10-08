@@ -8,7 +8,7 @@ product: Workflow Activities
 classification: workflow-activities
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Workflow activities, Classic Workflow, Build workflows]
 ---
 
@@ -69,7 +69,7 @@ To correct a missed approval activity:
 
 4.  Review the portion of the workflow that executed, and then do one or more of the following:
 
-    -   Verify that after approval, the workflow progressed to the next activity. If a workflow failed to progress, check the business rules. For more information, see Debugging business rules.
+    -   Verify that after approval, the workflow progressed to the next activity. If a workflow failed to progress, check the business rules. For more information, see [Debugging business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/scripts/r_DebuggingBusinessRules.md).
     -   Point to each processed approval activity to find activities where the **State** is **Finished** and **Result** is **Skipped**.
 5.  Navigate to **Workflow** &gt; **Workflow Editor** and open the workflow.
 

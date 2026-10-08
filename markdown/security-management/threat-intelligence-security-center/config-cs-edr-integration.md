@@ -9,6 +9,7 @@ classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
+keywords: [CrowdStrike EDR integration, Falcon EDR configuration, EDR endpoint detection, Security tool integration, API configuration, TISC EDR setup, Endpoint response]
 breadcrumb: [CrowdStrike Falcon EDR integration, TISC Security Tools integrations, TISC Integrations, Integrate, Threat Intelligence Security Center, Security Operations]
 ---
 

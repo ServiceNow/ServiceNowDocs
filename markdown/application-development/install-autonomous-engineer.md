@@ -9,7 +9,7 @@ last_updated: "2026-09-14"
 reading_time_minutes: 1
 keywords: [Autonomous Engineer, install, setup, ServiceNow Studio, Build Agent, agent packs]
 audience: programmer
-breadcrumb: [Configure, Autonomous Engineer, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Configure, Autonomous Engineer, Build, AI Workflow Factory, Building applications]
 ---
 
 # Install Autonomous Engineer
@@ -42,15 +42,15 @@ For instructions on installing ServiceNow products from the ServiceNow Store, se
 
     Autonomous Engineer and Build Agent are installed on your instance.
 
-5.  Enable the Autonomous Engineer skill:
+5.  Enable the Autonomous Engineer skills:
 
     1.  Navigate to **All** &gt; **AI Admin Hub****Skills**.
 
     2.  Select the **Creator** tab.
 
-    3.  Locate Autonomous Engineer in the skills list and select **Turn on**.
+    3.  Locate Autonomous Engineer prompt, Autonomous Engineer work item creation, and Autonomous Engineer work item execution in the skills list and select **Turn on** for each of them.
 
-    The skill is enabled for all users.
+    The skills are enabled for all admin users.
 
 
 ## What to do next

@@ -45,7 +45,7 @@ Role required: viz\_creator or higher, including itil. To see the data, you need
 
 3.  Select one of the following options.
 
-<table id="choicetable_p2g_2qf_v5"><tbody><tr><td id="d219240e163">
+<table id="choicetable_p2g_2qf_v5"><tbody><tr><td id="d219675e163">
 
 **Use the variable as a filter**
 
@@ -53,7 +53,7 @@ Role required: viz\_creator or higher, including itil. To see the data, you need
 
 Add or edit a data source and select **Add custom conditions**. If any custom conditions have already been defined, select **+ Add**. Then select **Variables** at the bottom of the field list.
 
-</td></tr><tr><td id="d219240e181">
+</td></tr><tr><td id="d219675e181">
 
 **Add the variable as a __group by__**
 
@@ -61,7 +61,7 @@ Add or edit a data source and select **Add custom conditions**. If any custom co
 
 Under **Group by**, select **+ Add**. Then select **Variables** at the bottom of the field list.
 
-</td></tr><tr><td id="d219240e202">
+</td></tr><tr><td id="d219675e202">
 
 **Add the variable as an alternative group by**
 
@@ -69,7 +69,7 @@ Under **Group by**, select **+ Add**. Then select **Variables** at the bottom of
 
 Under **Group by**, select **Add alternative group by**. Then select **Variables** at the bottom of the field list. A viewer can select one of these variables at runtime, as described in [Select a group-by value in a data visualization as a viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/select-group-runtime.md).
 
-</td></tr><tr><td id="d219240e227">
+</td></tr><tr><td id="d219675e227">
 
 **Add the variable as a column or row in a pivot table**
 

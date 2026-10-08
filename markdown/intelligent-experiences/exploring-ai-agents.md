@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/exploring-ai-agents.html
 release: brazil
 topic_type: concept
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 4
 keywords: [AI Agents, agentic AI]
 breadcrumb: [AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
@@ -39,7 +39,7 @@ Example: Imagine you need to reset your password. Multiple AI agents might be 
 
     The AI Agent Studio enables you to create, manage, and test AI agents and agentic workflows in a unified environment.
 
--   **[agentic system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-center-glossary.md)**
+-   **[agentic system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-glossary.md)**
 
     The ServiceNow AI Platform's agentic system uses AI agents, orchestrated by an Orchestrator, to execute Agentic workflows.
 
@@ -47,7 +47,7 @@ Example: Imagine you need to reset your password. Multiple AI agents might be 
 
     On the ServiceNow AI Platform agentic system, an AI agent contains a set of large language model \(LLM\) instructions with the tools to accomplish tasks.
 
--   **[agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-center-glossary.md)**
+-   **[agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-glossary.md)**
 
     Agentic workflows are smart, context-aware, automated processes designed and executed by AI agents. They represent dynamic, human-like processes where specialized AI agents collaborate to accomplish complex goals. Here are a few key characteristics of Agentic workflows:
 
@@ -55,7 +55,7 @@ Example: Imagine you need to reset your password. Multiple AI agents might be 
     -   **Adaptive**: Adjust to changing situations and business needs.
     -   **Collaborative**: Work together to complete complex tasks.
     -   **Intelligent**: Use large language models and business data to make informed decisions.
--   **[orchestrator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-center-glossary.md)**
+-   **[orchestrator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-glossary.md)**
 
     The AI agent Orchestrator is a central management system that coordinates AI agents to verify they collaborate effectively to complete complex workflows.
 

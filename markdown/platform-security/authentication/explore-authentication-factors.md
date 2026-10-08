@@ -34,6 +34,10 @@ Multi-factor authentication \(MFA\) requires callers to pass two verification me
     **Note:** MFA is enabled by default. To make single-factor authentication the default behavior, set the `glide.voice.authenticate.mfa_mandatory` system property to false.
 
 
+## Step-up authentication
+
+You can also combine the factors with step-up authentication. Step-up authentication requires a caller who is already authenticated to complete an additional challenge before reaching an AI voice agent that handles a sensitive request. For more information, see [Step-up authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/step-up-authentication.md).
+
 ## Overview of the supported authentication factors
 
 -   **[Time-based one-time password \(TOTP\) authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/totp-authenticator-apps.md)**
@@ -60,10 +64,14 @@ Multi-factor authentication \(MFA\) requires callers to pass two verification me
 
     KBA presents the caller with pre-configured questions, such as `"What are the last four digits of your employee ID?"`. The answers can be validated against ServiceNow AI Platform tables or external systems via custom scripts. KBA is used primarily for caller identification and low-risk authentication scenarios. Because answers can be social-engineered, KBA should not be used as a standalone factor for sensitive actions. Callers can respond via keypad or by speaking their answer.
 
+-   **[Step-up authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/step-up-authentication.md)**
+
+    Step-up authentication requires a caller who is already authenticated to complete an additional challenge before reaching an AI voice agent that handles a sensitive request.
+
 
 For details on configuring voice input for authentication factors, see [Configure voice input for authentication factors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/configure-voice-authentication-factors.md).
 
-To learn more about voice service and how to create them, see .
+To learn more about voice service and how to create them, see [Create an AI voice assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-an-ai-voice-service.md).
 
 **Related topics**  
 

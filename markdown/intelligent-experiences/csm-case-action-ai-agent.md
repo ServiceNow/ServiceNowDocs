@@ -107,7 +107,7 @@ Used in agentic workflows
 
 </td><td>
 
-Provide customer 360 insights
+[Provide customer 360 insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-service-management-ai-agent-collection-customer-360.md)
 
 </td></tr></tbody>
 </table>Learn more about Customer Service Management at [Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/c_CustomerServiceManagement.md).

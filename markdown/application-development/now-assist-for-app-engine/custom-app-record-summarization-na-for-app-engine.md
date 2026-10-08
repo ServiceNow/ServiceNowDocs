@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [ServiceNow Otto for App Engine, Generate summary, custom table record summarization, Now Assist for App Engine, AI skill, AI in custom apps, table summary generation]
-breadcrumb: [Explore, ServiceNow Otto for App Engine, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Explore, ServiceNow Otto for App Engine, Run, AI Workflow Factory, Building applications]
 ---
 
 # Custom app record summarization skill
@@ -73,4 +73,6 @@ You can choose where you want record summarization to be available to your appli
 ## Access
 
 You can define which users and groups have access to generate AI summaries. During configuration, you can add roles and conditions that restrict when and for whom the skill is available. You can also customize whether certain roles have access to a particular display option.
+
+**Parent Topic:**[Exploring ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/now-assist-for-app-engine/exploring-now-assist-for-app-generation-enterprise.md)
 

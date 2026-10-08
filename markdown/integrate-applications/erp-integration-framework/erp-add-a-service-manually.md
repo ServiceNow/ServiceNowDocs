@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, odata, service, manually, metadata, url, file, xml]
-breadcrumb: [OData, Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [OData, Connecting to SAP, Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Add an OData service manually in Zero Copy Connector for ERP
@@ -102,6 +102,4 @@ Before you can add a service manually, you must do the following:
 
 14. When you're finished, select **Add entity**.
 
-
-**Parent Topic:**[Connecting Zero Copy Connector for ERP to SAP using OData](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-use-odata-and-http-connection.md)
 

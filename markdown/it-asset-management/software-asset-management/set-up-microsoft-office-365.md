@@ -36,15 +36,15 @@ If you’re using Software Asset Workspace, the option to create the direct inte
 
 1.  From a web browser, open your ServiceNow instance.
 
-<table id="choicetable_w41_4c4_2cc"><thead><tr><th align="left" id="d195862e127">
+<table id="choicetable_w41_4c4_2cc"><thead><tr><th align="left" id="d196420e127">
 
 Interface
 
-</th><th align="left" id="d195862e130">
+</th><th align="left" id="d196420e130">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d195862e136">
+</th></tr></thead><tbody><tr><td id="d196420e136">
 
 **Core UI**
 
@@ -52,7 +52,7 @@ Action
 
 Navigate to **All** &gt; **Software Asset** &gt; **SaaS License** &gt; **Direct Integration Profiles**
 
-</td></tr><tr><td id="d195862e159">
+</td></tr><tr><td id="d196420e159">
 
 **Software Asset Workspace**
 

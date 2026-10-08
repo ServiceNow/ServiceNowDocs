@@ -27,7 +27,7 @@ Each summary uses a set structure for consistency, making information easy to un
 **Related topics**  
 
 
-[Now Assist in Standard Ticket Page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-in-standard-ticket-page.md)
+[ServiceNow Otto in Standard Ticket Page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-in-standard-ticket-page.md)
 
 [Configure the standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/configure-st-page.md)
 

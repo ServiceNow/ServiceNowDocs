@@ -43,15 +43,15 @@ You can also use the multi-currency feature to create a project in a local curre
 
 1.  Create a project in any of the following ways.
 
-<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d266130e150">
+<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d274996e150">
 
 Location
 
-</th><th align="left" id="d266130e153">
+</th><th align="left" id="d274996e153">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d266130e159">
+</th></tr></thead><tbody><tr><td id="d274996e159">
 
 **From the Projects list**
 
@@ -61,7 +61,7 @@ Steps
 2.  In the Project list, select **New**.
 **New**.
 
-</td></tr><tr><td id="d266130e198">
+</td></tr><tr><td id="d274996e198">
 
 **From the project workspace**
 
@@ -78,7 +78,7 @@ Steps
 </td></tr></tbody>
 </table>2.  On the form, fill in the fields.
 
-    For field information, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/create-a-project-form.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/create-a-project-form.md).
+    For field information, see [Project form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/create-a-project-form.md).
 
 3.  Select **Submit**.
 
@@ -139,7 +139,7 @@ Migrate the financial baselines of your project to Next Experience to manage the
 **Related topics**  
 
 
-[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/create-a-project-form.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/create-a-project-form.md)
+[Project form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/create-a-project-form.md)
 
 [Schedule a project from a start date](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/schedule-a-project-pm.md)
 

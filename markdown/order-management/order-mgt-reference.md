@@ -16,8 +16,8 @@ Reference topics provide additional information about Order Management.
 
 -   **[Components installed with Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/components-installed-with-order-management.md)**  
 Several types of components are installed with activation of the Order Management plugin, including tables and user roles.
--   **[Account Details form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/account-details-form-fields.md)**  
-The Accounts Details form enables you to create or review account details for a customer or for a partner.
+-   **[Account details form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/account-details-form-fields.md)**  
+Use the Account Details form to create or review account information for customers and partners.
 -   **[Customer and Service order details forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/field-descriptions-customer-orders.md)**  
 The Order details forms enable you to select, review, and modify captured customer or service orders.
 -   **[Customer and service order line items forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/field-descriptions-customer-order-line-items.md)**  

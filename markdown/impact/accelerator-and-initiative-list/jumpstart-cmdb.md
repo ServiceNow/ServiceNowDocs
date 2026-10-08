@@ -1,6 +1,6 @@
 ---
 title: Jumpstart Your CMDB
-description: The Jumpstart Your Configuration Management Database \(CMDB\) Accelerator provides a demonstration of the possibilities and capabilities of CMDB.
+description: Learn how to get started with your Configuration Management Database \(CMDB\) through hands-on coaching and access to platform capabilities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-cmdb.html
 release: brazil
@@ -8,17 +8,17 @@ product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
 last_updated: "2026-09-10"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Jumpstart Your CMDB
 
-The Jumpstart Your Configuration Management Database \(CMDB\) Accelerator provides a demonstration of the possibilities and capabilities of CMDB.
+Learn how to get started with your Configuration Management Database \(CMDB\) through hands-on coaching and access to platform capabilities.
 
 ## Accelerator Overview
 
-Jumpstart Your CMDB provides Impact customers with a comprehensive overview of platform CMDB capabilities to ensure customers have a sound understanding of CMDB fundamentals and a strategic plan for success. Our goal is to place customers in a position for success from the very start, enabling you to create a strategy for leveraging ServiceNow resources. Resources include the CMDB Workspace, CI Class Manager, and Reconciliation rules to streamline working in your CMDB. See [Configuration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/manage-cmdb.md) for information on CMDB.
+Jumpstart Your CMDB provides Impact customers with a comprehensive overview of platform CMDB capabilities. This helps customers understand CMDB fundamentals and develop a strategic plan for adoption success. ServiceNow resources—including the CMDB Workspace, Data Manager, and AI-powered capabilities—help with CMDB management and optimization.
 
 ## Package Availability
 
@@ -31,7 +31,7 @@ Jumpstart Your CMDB provides Impact customers with a comprehensive overview of p
     The Technical Accelerator Consultant:
 
     -   Provisions a temporary instance
-    -   Installs or updates necessary CMDB related plugins
+    -   Installs or updates necessary CMDB-related plugins
 -   **Customer Coaching Session \#1 \(up to 1.5 hrs\)**
 
     Includes the following:
@@ -39,7 +39,7 @@ Jumpstart Your CMDB provides Impact customers with a comprehensive overview of p
     -   Overview and demonstrate CMDB
     -   Review of the functionality of CMDB tools:
         -   CMDB workspace
-        -   Identification Reconciliation Engine
+        -   Identification and Reconciliation Engine
         -   CMDB Data Manager
         -   CMDB health dashboards
 -   **Customer Coaching Session \#2 \(Optional upon Customer request – up to 1 hr\)**
@@ -54,11 +54,11 @@ Jumpstart Your CMDB provides Impact customers with a comprehensive overview of p
 
 <table id="table_gg4_g12_fsb"><thead><tr><th>
 
-Customer Resource 
+Customer Resource
 
 </th><th>
 
-Responsibilities 
+Responsibilities
 
 </th></tr></thead><tbody><tr><td>
 
@@ -66,7 +66,7 @@ Platform Owner \(Required\)
 
 </td><td>
 
-Responsible for the overall accountability of the ServiceNow platform. Provides leadership and oversight to the System Administrators, ensures team alignment to business strategy and the ServiceNow roadmap, and is actively involved in the overarching governance of the platform.
+Responsible for the overall accountability of the ServiceNow platform. Provides leadership and oversight to the System Administrators and ensures team alignment to business strategy and the ServiceNow roadmap. Actively involved in the overarching governance of the platform.
 
 </td></tr><tr><td>
 
@@ -74,7 +74,7 @@ System Administrator\(s\) \(Required\)
 
 </td><td>
 
-Maintains the stability and usability of the ServiceNow platform by performing application maintenance, managing support for cases related to ServiceNow applications, and contributing to ServiceNow software releases by delivering configuration tasks and features.
+Maintains the stability and usability of the ServiceNow platform by performing application maintenance and managing support for cases related to ServiceNow applications. Contributes to ServiceNow software releases by delivering configuration tasks and features.
 
 </td></tr><tr><td>
 
@@ -82,7 +82,7 @@ Process Owner\(s\) \(Required\)
 
 </td><td>
 
-A senior leader within each business unit for each major process or service \(e.g., incident, change, employee onboarding\) who is accountable for ensuring the process is fit for purpose.
+A senior leader within each business unit for each major process or service \(for example, incident, change, employee onboarding\). This person is accountable for ensuring the process is fit for purpose.
 
 </td></tr><tr><td>
 
@@ -107,5 +107,5 @@ Attends ServiceNow Impact Accelerator coaching session\(s\) to understand leadin
 
 ## Exceptions
 
-ServiceNow is not responsible for implementing any of the recommended CMDB configuration changes in Customer’s sub-production or production instances.
+ServiceNow is not responsible for implementing any of the recommended CMDB configuration changes in Customer's sub-production or production instances.
 

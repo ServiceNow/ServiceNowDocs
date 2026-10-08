@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/related-assets-related-plans.html
 release: brazil
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 1
+last_updated: "2026-10-02"
+reading_time_minutes: 2
 breadcrumb: [Business continuity planning, Explore, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
@@ -25,6 +25,8 @@ When you create a plan, you also select a primary element that the plan covers. 
 The example shows the primary scope and related assets for a business continuity plan.
 
 \[Omitted image "primary-scope-related-assets.png"\] Alt text: Primary scope and related assets.
+
+Along with each related asset, the **Related assets** panel also displays the **Impact analysis**, **Recovery tier**, **Recovery time objective** \(RTO\), and **Recovery point objective** \(RPO\) of the asset. The **Primary scope** panel shows the same information for the primary element. These values are copied from the Results section of the **Details** tab of the business impact analysis that is linked to the asset, so the plan reflects the same recovery requirements that were established during the business impact analysis. If a finalized or adjusted RTO or RPO value exists on the business impact analysis, that value is shown instead of the system-calculated value. These fields are read-only on the plan and are updated whenever the business impact analysis changes or the plan dependencies are refreshed. For information about these fields, see [View business impact analysis details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/view-bia-details.md).
 
 ## Related plans
 

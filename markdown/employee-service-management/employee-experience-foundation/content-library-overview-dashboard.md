@@ -8,7 +8,7 @@ product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 6
+reading_time_minutes: 4
 breadcrumb: [Employee Center Pro reference, Employee Center Pro, Unified Employee Experience, Employee Service Management]
 ---
 
@@ -65,50 +65,8 @@ Content Analytics tracks the following user interactions \(depending on content 
 
 **Parent Topic:**[Employee Center Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/employee-experience-foundation/emp-center-pro-reference.md)
 
-**Parent Topic:**[Employee Center Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/employee-experience-foundation/emp-center-pro-reference.md)
-
 **Related topics**  
 
-
-[Block content form]()
-
-[Campaign overview and Campaign analytics dashboards]()
-
-[Components installed with Employee Center Pro]()
-
-[Components installed with Content engagement]()
-
-[Components installed with Content Experiences]()
-
-[Components installed with Content Publishing]()
-
-[Components installed with Content Governance]()
-
-[Components installed with Content Analytics]()
-
-[Content Analytics dashboards]()
-
-[Content engagement dashboard]()
-
-[Employee Center Pro widgets]()
-
-[Feedback configuration form]()
-
-[Feedback definition form]()
-
-[Link content form]()
-
-[Notification content form]()
-
-[Properties installed with Content Experiences]()
-
-[Properties installed with Content Governance]()
-
-[Properties installed with Content Publishing]()
-
-[Standard banner and icon sizes]()
-
-[To-do content form]()
 
 [Block content form]()
 

@@ -7,7 +7,7 @@ release: brazil
 product: Insurance Claims
 classification: insurance-claims
 topic_type: reference
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [Create an ad-hoc task on a claim, Use, Individual Life Claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---

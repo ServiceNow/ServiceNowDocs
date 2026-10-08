@@ -8,7 +8,7 @@ product: Health and Safety
 classification: health-and-safety
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Health and Safety Environmental Management, Health and Safety, Employee Service Management]
 ---
 
@@ -28,20 +28,6 @@ The field description for the chemical ingredient form is as follows.
 The chemical manager uses the chemical item form to add a new chemical item record. The field and its descriptions are as follows.
 -   **[Regulatory list regulation form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/health-and-safety/hs-regulatory-list-regulation-form.md)**  
 Chemical managers can use the regulatory list regulation form to create a regulation for the chemical substance manually.
--   **[Components installed with Health and Safety Environmental Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/health-and-safety/hs-components-installed-environmental-management.md)**  
-Several types of components are installed with activation of the Health and Safety Environmental Management plugin, including tables, user roles, and scheduled jobs.
--   **[Chemical request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/health-and-safety/hs-chemical-request-form.md)**  
-Field and description for a chemical request form. The chemical request form is used by an employee to request for an existing or a new chemical.
--   **[Chemical form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/health-and-safety/hs-chemical-form.md)**  
-Field description for a chemical form that the chemical manager uses to create a chemical by manually completing the form.
--   **[Chemical ingredient form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/health-and-safety/hs-chemical-ingredient-form.md)**  
-The field description for the chemical ingredient form is as follows.
--   **[Chemical item form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/health-and-safety/hs-chemical-item-form.md)**  
-The chemical manager uses the chemical item form to add a new chemical item record. The field and its descriptions are as follows.
--   **[Regulatory list regulation form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/health-and-safety/hs-regulatory-list-regulation-form.md)**  
-Chemical managers can use the regulatory list regulation form to create a regulation for the chemical substance manually.
-
-**Parent Topic:**[Health and Safety Environmental Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/health-and-safety/hs-environmental-management-landing-page.md)
 
 **Parent Topic:**[Health and Safety Environmental Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/health-and-safety/hs-environmental-management-landing-page.md)
 

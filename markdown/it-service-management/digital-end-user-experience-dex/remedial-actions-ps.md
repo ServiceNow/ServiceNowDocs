@@ -1,5 +1,5 @@
 ---
-title: Creating and executing a PowerShell script-based remedial action
+title: Creating and running PowerShell script-based remedial action
 description: A custom remedial action can be created using a PowerShell script packaged in an Agent Client Collector \(ACC\) plugin and executed on endpoint devices through a check definition.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/remedial-actions-ps.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Creating DEX remedial actions, Configure, Digital End-User Experience, IT Service Management]
 ---
 
-# Creating and executing a PowerShell script-based remedial action
+# Creating and running PowerShell script-based remedial action
 
 A custom remedial action can be created using a PowerShell script packaged in an Agent Client Collector \(ACC\) plugin and executed on endpoint devices through a check definition.
 

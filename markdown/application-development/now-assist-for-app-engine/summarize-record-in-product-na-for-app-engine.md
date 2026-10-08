@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto for App Engine, Summarize record, summarize a record in a custom table, summarize a table in a custom app, generate summary for table]
-breadcrumb: [Use, ServiceNow Otto for App Engine, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Use, ServiceNow Otto for App Engine, Run, AI Workflow Factory, Building applications]
 ---
 
 # Summarize a record in-product using ServiceNow Otto for App Engine
@@ -41,15 +41,15 @@ You can also summarize the contents of a record through chat in the ServiceNow O
 
 3.  When you're finished summarizing a record, you can copy the summary, expand or collapse the summary, or provide feedback about the summary.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d42207e163">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d44814e163">
 
 Option
 
-</th><th align="left" id="d42207e166">
+</th><th align="left" id="d44814e166">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d42207e172">
+</th></tr></thead><tbody><tr><td id="d44814e172">
 
 **Expand or collapse the summary**
 
@@ -57,7 +57,7 @@ Procedure
 
 Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: expand card icon.\) to view the complete summary or the collapse card icon \(\[Omitted image "icon-collapse.png"\] Alt text: collapse card icon.\) to view a collapsed summary.
 
-</td></tr><tr><td id="d42207e193">
+</td></tr><tr><td id="d44814e193">
 
 **Provide feedback about the summary**
 
@@ -65,7 +65,7 @@ Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: expa
 
 If you think that the summary was helpful, select the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text: Helpful icon.\). If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).**Note:** This feedback improves the generative AI model and can help to improve future versions of this skill.
 
-</td></tr><tr><td id="d42207e216">
+</td></tr><tr><td id="d44814e216">
 
 **Copy the record summary**
 

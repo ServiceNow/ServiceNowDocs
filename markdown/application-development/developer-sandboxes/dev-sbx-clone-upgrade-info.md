@@ -9,7 +9,7 @@ classification: developer-sandboxes
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Installing, Developer Sandboxes, Developing your application, Building applications]
+breadcrumb: [Installing, Developer Sandboxes, Build, AI Workflow Factory, Building applications]
 ---
 
 # Cloning and upgrading considerations for Developer Sandboxes
@@ -52,4 +52,6 @@ If you have a custom clone profile, these records should be linked so that cloni
 -   clone\_cleanup\_script: `/clone_cleanup_script.do?sys_id=2b5e8051ff03221016abffffffffff58`
 -   clone\_data\_exclude: `/clone_data_exclude_list.do?sysparm_query=nameSTARTSWITHsys_dsb`
 -   clone\_data\_preserver: `/clone_data_preserver_list.do?sysparm_query=tableSTARTSWITHsys_dsb%5ENQname%3DDSB%20Properties`
+
+**Parent Topic:**[Installing Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/developer-sandboxes/dev-sbx-installing.md)
 

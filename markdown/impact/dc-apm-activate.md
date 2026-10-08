@@ -1,18 +1,18 @@
 ---
-title: Activate Data Collection for APM
-description: Activate the Data Collection Pack for APM after you enable and configure it.
+title: Activate Data Collection for Enterprise Architecture
+description: Activate the Data Collection Pack for Enterprise Architecture after you enable and configure it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/dc-apm-activate.html
 release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Impact Value Management Data Collection for APM, Enable data collection for Value Management, Configuring Impact, Impact]
+breadcrumb: [Impact Value Management Data Collection for Enterprise Architecture, Enable data collection for Value Management, Guided Setup, Configuring Impact, Impact]
 ---
 
-# Activate Data Collection for APM
+# Activate Data Collection for Enterprise Architecture
 
-Activate the Data Collection Pack for APM after you enable and configure it.
+Activate the Data Collection Pack for Enterprise Architecture after you enable and configure it.
 
 ## Before you begin
 
@@ -24,7 +24,7 @@ Role required: admin, pa\_admin, or pa\_data\_collector
 
 ## Procedure
 
-1.  Navigate to **Performance/Platform Analytics &gt; Data Collector&gt; Jobs**, and then open **Impact VM – APM - Monthly Data Collection**.
+1.  Navigate to **Performance/Platform Analytics &gt; Data Collector&gt; Jobs**, and then open **Impact VM – Enterprise Architecture - Monthly Data Collection**.
 
 2.  Select **Active**, and then update the record.
 
@@ -32,9 +32,9 @@ Role required: admin, pa\_admin, or pa\_data\_collector
 
 3.  To do a trial run of the monthly data collection, select **Execute Now**.
 
-4.  Navigate to **Performance/Platform Analytics &gt; Dashboard**, and then open **Impact VM – APM**.
+4.  Navigate to **Performance/Platform Analytics &gt; Dashboard**, and then open **Impact VM – Enterprise Architecture**.
 
-    There are two tabs: Monthly - APM and Quarterly - APM.
+    There are two tabs: Monthly - Enterprise Architecture and Quarterly - Enterprise Architecture.
 
 5.  To validate the scores on the dashboard, do either of the following:
 
@@ -42,7 +42,7 @@ Role required: admin, pa\_admin, or pa\_data\_collector
     -   Refer to data collection guide to build the appropriate metric using a ServiceNow report.
 6.  To run historical jobs, do the following:
 
-    1.  Navigate to **Performance/Platform Analytics &gt; Data Collector&gt; Jobs**, and then open **Impact VM – APM – Historical Data Collection**.
+    1.  Navigate to **Performance/Platform Analytics &gt; Data Collector&gt; Jobs**, and then open **Impact VM – Enterprise Architecture – Historical Data Collection**.
 
         **Important:** Do NOT select Active as Historical Data collection within Performance/Platform Analytics runs on an on-demand basis.
 
@@ -52,8 +52,8 @@ Role required: admin, pa\_admin, or pa\_data\_collector
         -   If you have the full version of Performance Analytics, you can change the Relative start date to a longer time frame than 6 months. For example, you could change Relative start from 6 months ago to 12 months ago.
     2.  Select **Execute Now** to run the historical data collection job.
 
-    3.  Navigate to **Platform Analytics &gt; Dashboard**, and then open **Impact VM – APM**.
+    3.  Navigate to **Platform Analytics &gt; Dashboard**, and then open **Impact VM – Enterprise Architecture**.
 
 
-**Parent Topic:**[Impact Value Management Data Collection for APM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/data-collection-apm.md)
+**Parent Topic:**[Impact Value Management Data Collection for Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/data-collection-apm.md)
 

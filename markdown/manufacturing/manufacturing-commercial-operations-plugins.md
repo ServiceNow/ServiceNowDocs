@@ -219,9 +219,9 @@ Customer Service Management
 
 </td><td>
 
--   
--   
--   
+-   [Create an internal organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-internal-business-location.md)
+-   [Add staff members to an internal organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/add-user-internal-bus-location.md)
+-   [Assign responsibilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-assign-responsibilities.md)
 
 </td><td>
 

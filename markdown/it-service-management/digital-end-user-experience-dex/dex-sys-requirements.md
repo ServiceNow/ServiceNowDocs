@@ -16,11 +16,7 @@ breadcrumb: [Before you begin, Configure, Digital End-User Experience, IT Servic
 
 System requirements are the fundamental specifications and configuration needed to install and run DEX effectively.
 
-Vancouver Patch 6 is the minimum version required for DEX.
-
-## Supported ACC versions
-
-DEX supports Agent Client Collector Framework \(ACC-F\) versions 3.4.1 and 3.5.1.
+Zurich Patch 1 is the minimum version required for DEX.
 
 ## DEX browser extension requirements
 

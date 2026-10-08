@@ -33,6 +33,8 @@ For information about the use of a Heatmap visualization in a dashboard, see [th
 
 4.  Configure the **Header and border**. Header and border options are the same for all data sources.
 
+    None of the **Header and border** fields is required.
+
 <table id="table_ly5_djk_c5b"><thead><tr><th>
 
 Header and border fields

@@ -67,6 +67,22 @@ The name of the consumer associated with the contract.**Note:** If no consumer r
 
 </td></tr><tr><td>
 
+Buyer Organization
+
+</td><td>
+
+The name of the organization for which the order is created.
+
+</td></tr><tr><td>
+
+Buyer Organization Member
+
+</td><td>
+
+The individual who created the order on behalf of the Buyer Organization.
+
+</td></tr><tr><td>
+
 State
 
 </td><td>

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-incidentmanagement-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 15
+last_updated: "2026-10-08"
+reading_time_minutes: 16
 breadcrumb: [Products combined by family]
 ---
 
@@ -70,7 +70,12 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **Upgrade information**
+
+The ITSM Enhanced Security Features plugin \(com.snc.itsm.enhanced\_security\) is now activated automatically when you upgrade to the Brazil release. Previously, the plugin was activated only on new instances. Activating the plugin adds "deny unless authenticated" access control list \(ACL\) rules to several IT Service Management tables.
+
+To revert to the pre-upgrade behavior, contact ServiceNow Support for a list of ACLs to deactivate on specific tables. As a last resort, Support can run a script that deactivates all the new ACLs.
+
 
 </td></tr></tbody>
 </table>## New features

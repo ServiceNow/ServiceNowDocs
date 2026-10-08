@@ -26,7 +26,7 @@ You must install at least one ServiceNow Otto application before you can configu
 -   ServiceNow Otto for CPQ \(sn\_som\_gen\_ai\_cpq\)
 -   ServiceNow Otto for Order Management \(sn\_som\_gen\_ai\_om\)
 
-For more information on installing AI plugins, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+For more information on installing AI plugins, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 
 **Note:** In Sales CRM, AI skills aren't automatically enabled after plugin activation. You must enable them from the AI Admin Hub console.
 

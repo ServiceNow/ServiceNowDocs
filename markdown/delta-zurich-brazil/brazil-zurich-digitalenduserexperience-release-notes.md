@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-brazil/brazil-zurich-digitalenduserexperience-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 16
+last_updated: "2026-10-08"
+reading_time_minutes: 17
 breadcrumb: [Products combined by family]
 ---
 
@@ -245,7 +245,23 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **[DEX remedial actions](https://www.servicenow.com/docs/access?context=dex-diff-ra&family=brazil&ft:locale=en-US)**
+
+You can now use remedial actions to start or stop a Windows service, clear the system cache, and reset the print spooler.
+
+-   **[\[Placeholder link text to key execute-remedial-action-subflow\]](https://www.servicenow.com/docs/access?context=execute-remedial-action-subflow&family=brazil&ft:locale=en-US)**
+
+You can now execute remedial actions from Flow designer. Each action runs only when the device is online and the action applies to it.
+
+-   **[Metric rule rate limiting](https://www.servicenow.com/docs/access?context=metric-rule-rate-limiting&family=brazil&ft:locale=en-US)**
+
+Metric rules and event rules are now rate limited per rule on the device. This helps prevent a single noisy rule from flooding the instance with alerts or events.
+
+
+ -   **[Customize DEX alert events](https://www.servicenow.com/docs/access?context=customize-dex-alert-events&family=brazil&ft:locale=en-US)**
+
+A new extension point for metric rule events gives you more control over how events are evaluated before alerts are triggered.
+
 
 </td></tr></tbody>
 </table>## Changes
@@ -324,7 +340,14 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **[Devices](https://www.servicenow.com/docs/access?context=dex-workspace-devices-tab&family=brazil&ft:locale=en-US)**
+
+The Devices page now includes a link to DEX dashboard, so users with multiple roles can reach the DEX homepage faster.
+
+-   **[Check device health from Employee Center](https://www.servicenow.com/docs/access?context=check-your-device-s-using-employee-center&family=brazil&ft:locale=en-US)**
+
+The Diagnose view in Device Health Check now explains why a category shows a **Poor** or **Average** status with no pending actions. It tells users that their IT team is reviewing additional metrics.
+
 
 </td></tr></tbody>
 </table>## Removed
@@ -448,7 +471,10 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **Activation information**
+
+Install Digital End-User Experience by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=brazil&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -528,7 +554,10 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **Browser requirements**
+
+Enable the DEX browser extension to monitor web applications for various operational or performance-based metrics on your system. For more information, see [Enable browser extension](https://www.servicenow.com/docs/access?context=enable-dex-browser-extension&family=brazil&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Accessibility information
@@ -565,7 +594,10 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **Accessibility information**
+
+Localization is applicable to DEX in all languages supported by the ServiceNow AI Platform.
+
 
 </td></tr></tbody>
 </table>## Localization information
@@ -668,7 +700,12 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   Digital End-User Experience \(DEX\) detects and fixes potential technology issues before they affect you. Your IT team deploys DEX to monitor computers and applications.
+-   DEX collects usage and performance data from endpoints. It uses metric rules to detect issues, remediate them automatically, and engage you proactively.
+-   With the DEX Desktop Assistant, you can troubleshoot local applications, use Virtual Agent, run network tests, and contact IT support. Admins can send alerts to your Desktop Assistant.
+-   DEX includes DEX Application and Device Health, DEX Content Playbook, and DEX Desktop Assistant. Application and Device Health provides end-to-end visibility into applications, networks, and devices, regardless of location.
+
+ See [Digital End-User Experience](https://www.servicenow.com/docs/access?context=dex-landing-cf&family=brazil&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/rn-combined-intro.md)

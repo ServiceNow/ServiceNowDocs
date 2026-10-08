@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-api-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 23
+last_updated: "2026-10-08"
+reading_time_minutes: 25
 breadcrumb: [Products combined by family]
 ---
 
@@ -326,13 +326,184 @@ Yokohama
 
 <table><thead><tr><th>
 
-Application
+Class
 
 </th><th>
 
-App Version
+Methods
 
-</th><th>
+</th></tr></thead><tbody><tr><td>
+
+[Console - Scoped, Global](https://www.servicenow.com/docs/access?context=ConsoleAPI&family=yokohama&ft:locale=en-US)
+
+</td><td>
+
+-   error\(\)
+-   group\(\)
+-   groupCollapsedString\(\)
+-   groupEnd\(\)
+-   info\(\)
+-   log\(\)
+-   table\(\)
+-   time\(\)
+-   timeEnd\(\)
+-   timeLog\(\)
+-   trace\(\)
+-   warn\(\)
+
+</td></tr><tr><td>
+
+[Fetch - Scoped, Global](https://www.servicenow.com/docs/access?context=FetchAPI&family=yokohama&ft:locale=en-US)
+
+</td><td>
+
+fetch\(\)
+
+</td></tr><tr><td>
+
+[Fetch Headers - Scoped, Global](https://www.servicenow.com/docs/access?context=Fetch.HeadersAPI&family=yokohama&ft:locale=en-US)
+
+</td><td>
+
+-   Headers\(\)
+-   append\(\)
+-   delete\(\)
+-   entries\(\)
+-   forEach\(\)
+-   get\(\)
+-   getSetCookie\(\)
+-   has\(\)
+-   keys\(\)
+-   set\(\)
+-   values\(\)
+
+</td></tr><tr><td>
+
+[Fetch Request - Scoped, Global](https://www.servicenow.com/docs/access?context=Fetch.RequestAPI&family=yokohama&ft:locale=en-US)
+
+</td><td>
+
+-   Request\(\)
+-   arrayBuffer\(\)
+-   blob\(\)
+-   bytes\(\)
+-   clone\(\)
+-   formData\(\)
+-   json\(\)
+-   text\(\)
+
+</td></tr><tr><td>
+
+[Fetch RequestInit - Scoped, Global](https://www.servicenow.com/docs/access?context=Fetch.RequestInitAPI&family=yokohama&ft:locale=en-US)
+
+</td><td>
+
+requestInit\(\)
+
+</td></tr><tr><td>
+
+[Fetch Response - Scoped,Global](https://www.servicenow.com/docs/access?context=Fetch.ResponseAPI&family=yokohama&ft:locale=en-US)
+
+</td><td>
+
+-   arrayBuffer\(\)
+-   blob\(\)
+-   bytes\(\)
+-   formData\(\)
+-   json\(\)
+-   text\(\)
+
+</td></tr><tr><td>
+
+[GlideUser - Scoped](https://www.servicenow.com/docs/access?context=c_GlideUserScopedAPI&family=yokohama&ft:locale=en-US)
+
+</td><td>
+
+-   getTimeZoneLabel\(\)
+-   getTimeZoneLabelLang\(\)
+
+</td></tr><tr><td>
+
+[OrderUtil - Scoped](https://www.servicenow.com/docs/access?context=OrderUtilScopedAPI&family=yokohama&ft:locale=en-US)
+
+</td><td>
+
+-   getStateFromOrder\(\)
+-   isOrderInDraftState\(\)
+
+</td></tr><tr><td>
+
+[PDFGenerationAPI - Scoped, Global](https://www.servicenow.com/docs/access?context=PDFGenerationAPIBothAPI&family=yokohama&ft:locale=en-US)
+
+</td><td>
+
+-   convertToPDFAsync\(\)
+-   convertToPDFWithHeaderFooterAsync\(\)
+
+</td></tr><tr><td>
+
+[ProcessMiningIntegrationAPI - Scoped](https://www.servicenow.com/docs/access?context=ProcessMiningIntAPIScoped&family=yokohama&ft:locale=en-US)
+
+</td><td>
+
+-   createProject\(\)
+-   deleteProject\(\)
+-   getBreakDownStats\(\)
+-   getFindings\(\)
+-   getMiningStatus\(\)
+-   getProject\(\)
+-   scheduleMining\(\)
+
+</td></tr><tr><td>
+
+[RESTMessageV2 - Scoped, Global](https://www.servicenow.com/docs/access?context=c_RESTMessageV2API&family=yokohama&ft:locale=en-US)
+
+</td><td>
+
+setAllowedRedirectURIs\(\)
+
+</td></tr><tr><td>
+
+[SOAPMessageV2 - Scoped, Global](https://www.servicenow.com/docs/access?context=c_SOAPMessageV2API&family=yokohama&ft:locale=en-US)
+
+</td><td>
+
+-   setAllowedRedirectURIs\(\)
+-   setFollowRedirect\(\)
+
+</td></tr><tr><td>
+
+[UriMatcher - Scoped](https://www.servicenow.com/docs/access?context=UriMatcherScopedAPI&family=yokohama&ft:locale=en-US)
+
+</td><td>
+
+-   UriMatcher\(\)
+-   match\(\)
+
+</td></tr><tr><td>
+
+[UriMatcherResponse - Scoped](https://www.servicenow.com/docs/access?context=UriMatcherResponseScopedAPI&family=yokohama&ft:locale=en-US)
+
+</td><td>
+
+-   getErrorMessages\(\)
+-   isError\(\)
+-   isFragmentMatches\(\)
+-   isHostMatches\(\)
+-   isMatch\(\)
+-   isPathMatches\(\)
+-   isSchemeMatches\(\)
+
+</td></tr><tr><td>
+
+[v\_record - Scoped, Global](https://www.servicenow.com/docs/access?context=v_recordAPI&family=yokohama&ft:locale=en-US)
+
+</td><td>
+
+setLastErrorMessage\(\)
+
+</td></tr></tbody>
+</table><table><thead><tr><th>
 
 Class
 
@@ -342,112 +513,165 @@ Methods
 
 </th></tr></thead><tbody><tr><td>
 
-Lead Management
+[Console - Scoped, Global](https://www.servicenow.com/docs/access?context=ConsoleAPI&family=yokohama&ft:locale=en-US)
 
 </td><td>
 
-v3.0
-
-</td><td>
-
-[LeadAPIHelperOOB - Scoped](https://www.servicenow.com/docs/access?context=LeadAPIHelperOOBAPI&family=yokohama&ft:locale=en-US)
-
-</td><td>
-
--   getJSONFromGR\(\)
--   getLeadsJSON\(\)
--   getTransformedLead\(\)
+-   error\(\)
+-   group\(\)
+-   groupCollapsedString\(\)
+-   groupEnd\(\)
+-   info\(\)
+-   log\(\)
+-   table\(\)
+-   time\(\)
+-   timeEnd\(\)
+-   timeLog\(\)
+-   trace\(\)
+-   warn\(\)
 
 </td></tr><tr><td>
 
-Lead Management
+[Fetch - Scoped, Global](https://www.servicenow.com/docs/access?context=FetchAPI&family=yokohama&ft:locale=en-US)
 
 </td><td>
 
-v3.0
-
-</td><td>
-
-[LeadAPIProcessUtilOOB - Scoped](https://www.servicenow.com/docs/access?context=LeadAPIProcessUtilOOBAPI&family=yokohama&ft:locale=en-US)
-
-</td><td>
-
--   processCreateLead\(\)
--   processGetAllLeads\(\)
--   processGrtLeadById\(\)
--   processUpdateLead\(\)
+fetch\(\)
 
 </td></tr><tr><td>
 
-Lead Management
+[Fetch Headers - Scoped, Global](https://www.servicenow.com/docs/access?context=Fetch.HeadersAPI&family=yokohama&ft:locale=en-US)
 
 </td><td>
 
-v3.0
-
-</td><td>
-
-[LeadAPIValidationUtilOOB - Scoped](https://www.servicenow.com/docs/access?context=LeadAPIValidationUtilOOBAPI&family=yokohama&ft:locale=en-US)
-
-</td><td>
-
--   validateLeadObjectForPatchCall\(\)
--   validateLeadObjectForPostCall\(\)
+-   Headers\(\)
+-   append\(\)
+-   delete\(\)
+-   entries\(\)
+-   forEach\(\)
+-   get\(\)
+-   getSetCookie\(\)
+-   has\(\)
+-   keys\(\)
+-   set\(\)
+-   values\(\)
 
 </td></tr><tr><td>
 
-Sales and Service API Core
+[Fetch Request - Scoped, Global](https://www.servicenow.com/docs/access?context=Fetch.RequestAPI&family=yokohama&ft:locale=en-US)
 
 </td><td>
 
-7.0.0
-
-</td><td>
-
-[IBQConfigBase API - Scoped](https://www.servicenow.com/docs/access?context=IBQConfigBaseAPIBoth&family=yokohama&ft:locale=en-US)
-
-</td><td>
-
--   generateParentRecord\(\)
--   getRunMode\(\)
--   processInboundQueueRequest\(\)
+-   Request\(\)
+-   arrayBuffer\(\)
+-   blob\(\)
+-   bytes\(\)
+-   clone\(\)
+-   formData\(\)
+-   json\(\)
+-   text\(\)
 
 </td></tr><tr><td>
 
-Order Management
+[Fetch RequestInit - Scoped, Global](https://www.servicenow.com/docs/access?context=Fetch.RequestInitAPI&family=yokohama&ft:locale=en-US)
 
 </td><td>
 
-v12.5.0
+requestInit\(\)
+
+</td></tr><tr><td>
+
+[Fetch Response - Scoped,Global](https://www.servicenow.com/docs/access?context=Fetch.ResponseAPI&family=yokohama&ft:locale=en-US)
 
 </td><td>
 
-[OrderGuide - Scoped](https://www.servicenow.com/docs/access?context=OrderGuideScopedAPI&family=yokohama&ft:locale=en-US)
+-   arrayBuffer\(\)
+-   blob\(\)
+-   bytes\(\)
+-   formData\(\)
+-   json\(\)
+-   text\(\)
+
+</td></tr><tr><td>
+
+[GlideDynamicAttribute - Global](https://www.servicenow.com/docs/access?context=GlideDynamicAttributeAPI&family=yokohama&ft:locale=en-US)
 
 </td><td>
 
-isOrderInDraftState\(\)
+-   getSysId\(\)
+-   getName\(\)
+-   getType\(\)
+-   getGroupName\(\)
+-   getPath\(\)
+-   isTransient\(\)
+
+</td></tr><tr><td>
+
+[GlideDynamicAttributeStore - Global](https://www.servicenow.com/docs/access?context=GlideDynamicAttStoreAPI&family=yokohama&ft:locale=en-US)
+
+</td><td>
+
+getDynamicAttributes\(\)
+
+</td></tr><tr><td>
+
+[GlideElementDynamicAttributeStore - Global](https://www.servicenow.com/docs/access?context=GlideElementDynamicAttStoreAPI&family=yokohama&ft:locale=en-US)
+
+</td><td>
+
+-   getDynamicAttributesInSchema\(\)
+-   getDynamicAttributesInStore\(\)
+
+</td></tr><tr><td>
+
+[GlideTransientDynamicAttribute - Global](https://www.servicenow.com/docs/access?context=GlideTransientDynamicAttributeAPI&family=yokohama&ft:locale=en-US)
+
+</td><td>
+
+-   getSysId\(\)
+-   getName\(\)
+-   getType\(\)
+-   getGroupName\(\)
+-   getPath\(\)
+-   isTransient\(\)
+
+</td></tr><tr><td>
+
+[GlideUser - Global](https://www.servicenow.com/docs/access?context=GUserAPI&family=yokohama&ft:locale=en-US)
+
+</td><td>
+
+-   getTimeZoneLabel\(\)
+-   getTimeZoneLabelLang\(\)
+
+</td></tr><tr><td>
+
+[PDFGenerationAPI - Scoped, Global](https://www.servicenow.com/docs/access?context=PDFGenerationAPIBothAPI&family=yokohama&ft:locale=en-US)
+
+</td><td>
+
+-   convertToPDFAsync\(\)
+-   convertToPDFWithHeaderFooterAsync\(\)
+
+</td></tr><tr><td>
+
+[RESTMessageV2 - Scoped, Global](https://www.servicenow.com/docs/access?context=c_RESTMessageV2API&family=yokohama&ft:locale=en-US)
+
+</td><td>
+
+setAllowedRedirectURIs\(\)
+
+</td></tr><tr><td>
+
+[SOAPMessageV2 - Scoped, Global](https://www.servicenow.com/docs/access?context=c_SOAPMessageV2API&family=yokohama&ft:locale=en-US)
+
+</td><td>
+
+-   setAllowedRedirectURIs\(\)
+-   setFollowRedirect\(\)
 
 </td></tr></tbody>
-</table> |Application|App Version|Class|Methods|
-|-----------|-----------|-----|-------|
-|Customer Service Management|v1.2|[openFrameAPI - Client](https://www.servicenow.com/docs/access?context=c_openFrameAPI&family=yokohama&ft:locale=en-US)|setICContext\(\)|
-|Mobile SDK|v2.9.0|[NowChatService class - Android](https://www.servicenow.com/docs/access?context=NowChatServiceAndroidAPI&family=yokohama&ft:locale=en-US)|updateTheme\(\)|
-|Mobile SDK|v2.9.0|[NowWebService class - Android](https://www.servicenow.com/docs/access?context=NowWebServiceAndroidAPI&family=yokohama&ft:locale=en-US)|updateTheme\(\)|
-|Mobile SDK|v2.9.0|[NowChatService class - iOS](https://www.servicenow.com/docs/access?context=NowChatServiceiOSAPI&family=yokohama&ft:locale=en-US)|updateTheme\(\)|
-|Mobile SDK|v2.9.0|[NowChatServiceDelegate protocol - iOS](https://www.servicenow.com/docs/access?context=NowChatServiceDelegateiOSProtocol&family=yokohama&ft:locale=en-US)|chatService\(\_chatService: NowChatService, systemThemeDidChange traitCollection: UITraitCollection\)|
-|Mobile SDK|v2.9.0|[NowWebViewController class - iOS](https://www.servicenow.com/docs/access?context=NWebViewControlleriOSAPI&family=yokohama&ft:locale=en-US)|updateTheme\(\)|
-|Mobile SDK|v2.9.0|[NowWebViewControllerDelegate protocol - iOS](https://www.servicenow.com/docs/access?context=NWViewControllerDelegateiOSProtocol&family=yokohama&ft:locale=en-US)|nowWebViewController\(\_ nowWebViewController: NowWebViewController, systemThemeDidChange traitCollection: UITraitCollection\)|
-
- <table><thead><tr><th>
-
-Application
-
-</th><th>
-
-App Version
-
-</th><th>
+</table><table><thead><tr><th>
 
 API
 
@@ -457,117 +681,24 @@ Endpoints
 
 </th></tr></thead><tbody><tr><td>
 
-Accounts Payable Operations
+[AWA Offer Work API](https://www.servicenow.com/docs/access?context=awa-offer-work-api&family=yokohama&ft:locale=en-US)
 
 </td><td>
 
-v2.0.0
-
-</td><td>
-
-[AP Invoice API](https://www.servicenow.com/docs/access?context=ap-invoice-api&family=yokohama&ft:locale=en-US)
-
-</td><td>
-
--   POST /sn\_spend\_intg/ap\_invoice/xml
+POST /now/awa/documents/\{document\_table\}/\{document\_sys\_id\}/offer
 
 </td></tr><tr><td>
 
-Expanded Product Model and Asset Classes
+[Continuous Integration and Continuous Delivery \(CICD\) Update Set API](https://www.servicenow.com/docs/access?context=cicd-update-set-api&family=yokohama&ft:locale=en-US)
 
 </td><td>
 
-v1.0
-
-</td><td>
-
-[AI Assets API](https://www.servicenow.com/docs/access?context=ai-assets-api&family=yokohama&ft:locale=en-US)
-
-</td><td>
-
--   GET /sn\_ent/asset/ai\_dataset/\{sys\_id\}
--   GET /sn\_ent/asset/ai\_model/\{sys\_id\}
--   GET /sn\_ent/asset/ai\_prompt/\{sys\_id\}
--   GET /sn\_ent/asset/ai\_system/\{sys\_id\}
--   POST /sn\_ent/asset/ai\_dataset
--   POST sn\_ent/asset/ai\_model
--   POST /sn\_ent/asset/ai\_prompt
--   POST /sn\_ent/asset/ai\_system
--   PUT /sn\_ent/asset/ai\_dataset/\{sys\_id\}
--   PUT /sn\_ent/asset/ai\_model/\{sys\_id\}
--   PUT /sn\_ent/asset/ai\_prompt/\{sys\_id\}
--   PUT /sn\_ent/asset/ai\_system/\{sys\_id\}
-
-</td></tr><tr><td>
-
-Customer Contracts and Entitlements
-
-</td><td>
-
-v6.0
-
-</td><td>
-
-[Service Contract API](https://www.servicenow.com/docs/access?context=servicecontract-api&family=yokohama&ft:locale=en-US)
-
-</td><td>
-
--   POST /sn\_pss\_core/servicecontract
--   GET /sn\_pss\_core/servicecontract/\{id\}
--   POST /sn\_pss\_core/servicecontract/contractline
--   GET /sn\_pss\_core/servicecontract/contractline/\{id\}
-
-</td></tr><tr><td>
-
-Customer Contracts and Entitlements
-
-</td><td>
-
-v6.0
-
-</td><td>
-
-[Verify Entitlements API](https://www.servicenow.com/docs/access?context=verifyentitlements-api&family=yokohama&ft:locale=en-US)
-
-</td><td>
-
-GET /sn\_ent\_verify/verifyentitlements
-
-</td></tr><tr><td>
-
-Lead Management
-
-</td><td>
-
-v3.0
-
-</td><td>
-
-[lead API](https://www.servicenow.com/docs/access?context=lead-api&family=yokohama&ft:locale=en-US)
-
-</td><td>
-
--   GET /sn\_lead\_mgmt\_core/lead
--   GET /sn\_lead\_mgmt\_core/lead/\{sys\_id\}
--   PATCH /sn\_lead\_mgmt\_core/lead/\{sys\_id\}
--   POST /sn\_lead\_mgmt\_core/lead
-
-</td></tr><tr><td>
-
-Sales Customer Relationship Management
-
-</td><td>
-
-v4.0
-
-</td><td>
-
-[Sales Agreement API](https://www.servicenow.com/docs/access?context=sales_agreement-api&family=yokohama&ft:locale=en-US)
-
-</td><td>
-
--   GET /sn\_sales\_agmt\_core/salesagreement /\{id\}
--   POST /sn\_sales\_agmt\_core/salesagreement 
+-   POST /sn\_cicd/update\_set/retrieve
+-   POST /sn\_cicd/update\_set/commitMultiple
+-   POST /sn\_cicd/update\_set/preview/\{remote\_update\_set\_id\}
+-   POST /sn\_cicd/update\_set/back\_out
+-   POST /sn\_cicd/update\_set/commit/\{remote\_update\_set\_id\}
+-   POST /sn\_cicd/update\_set/create
 
 </td></tr></tbody>
 </table>
@@ -910,6 +1041,81 @@ Australia
 
 <table><thead><tr><th>
 
+Class
+
+</th><th>
+
+Methods
+
+</th></tr></thead><tbody><tr><td>
+
+[CopyDynamicSchemaAPI - Scoped, Global](https://www.servicenow.com/docs/access?context=CopyDynamicSchemaAPI&family=australia&ft:locale=en-US)
+
+</td><td>
+
+Methods:
+
+-   getCopyApi\(\)
+-   skipAttributes\(\)
+-   skipChoiceOverrides\(\)
+-   skipChoiceSets\(\)
+-   getTransactionId\(\)
+-   runAsync\(\)
+
+ Extension points:
+
+-   getCopyName\(\)
+-   shouldCopy\(\)
+-   verifyCopyOperation\(\)
+
+</td></tr><tr><td>
+
+[GlideAggregate - Scoped](https://www.servicenow.com/docs/access?context=c_GlideAggregateScopedAPI&family=australia&ft:locale=en-US)
+
+</td><td>
+
+setAggregateWorkflow\(\)
+
+</td></tr><tr><td>
+
+[GlideDate - Scoped](https://www.servicenow.com/docs/access?context=c_GlideDateScopedAPI&family=australia&ft:locale=en-US)
+
+</td><td>
+
+-   getDisplayValueEx\(\)
+-   setDisplayValueEx\(\)
+
+</td></tr><tr><td>
+
+[GlideTime - Scoped](https://www.servicenow.com/docs/access?context=c_GlideTimeScopedAPI&family=australia&ft:locale=en-US)
+
+</td><td>
+
+-   getDisplayValueEx\(\)
+-   getDisplayValueLang\(\)
+-   setDisplayValueEx\(\)
+-   setDisplayValueLang\(\)
+
+</td></tr><tr><td>
+
+[GlideElementDescriptor - Scoped, Global](https://www.servicenow.com/docs/access?context=c_GlideElementDescriptorScopedAPI&family=australia&ft:locale=en-US)
+
+</td><td>
+
+[GlideElementDescriptor - isEncrypted\(\)](https://www.servicenow.com/docs/access?context=SGED-isEncrypted&family=australia&ft:locale=en-US)
+
+</td></tr><tr><td>
+
+[KafkaProducerAPI - Scoped](https://www.servicenow.com/docs/access?context=KafkaProducerAPIScoped&family=australia&ft:locale=en-US)
+
+</td><td>
+
+-   KafkaProducerAPI\(\)
+-   send\(\)
+
+</td></tr></tbody>
+</table><table><thead><tr><th>
+
 Application
 
 </th><th>
@@ -922,11 +1128,11 @@ Release month
 
 </th><th>
 
-API
+Class
 
 </th><th>
 
-Endpoints
+Methods
 
 </th></tr></thead><tbody><tr><td>
 
@@ -942,72 +1148,11 @@ v19.2.0
 
 </td><td>
 
-[Product Catalog Search API](https://www.servicenow.com/docs/access?context=product-catalog-search-api&family=australia&ft:locale=en-US)
+[CatalogSearchAPI - Scoped, Global](https://www.servicenow.com/docs/access?context=CatalogSearchAPI-scoped_global&family=australia&ft:locale=en-US)
 
 </td><td>
 
-POST /eligible-catalog-category-hierarchy is a new endpoint that retrieves the complete product catalog-category hierarchy for a given context \(customer, currency, pricing rules, etc.\). The endpoint automatically applies eligibility rules to filter out ineligible catalogs and categories, ensuring that only offerings qualified for the requesting customer are returned.**Note:** This REST API wraps the [CatalogSearchAPI – getEligibleCatalogCategoryHierarchy\(Object input\)](https://www.servicenow.com/docs/access?context=CatalogSearchAPI-getCatHierarchy&family=australia&ft:locale=en-US) JavaScript API.
-
-</td></tr><tr><td>
-
-Smart Assessment Engine
-
-</td><td>
-
- 
-
-</td><td>
-
-2026-08
-
-</td><td>
-
-[Reassign Assessment API](https://www.servicenow.com/docs/access?context=reassign-assessment-api&family=australia&ft:locale=en-US)
-
-</td><td>
-
-The new Reassign Assessment API provides a streamlined way to transfer assessment ownership within Smart Assessment workflows. This endpoint enables dynamic reassignment of in-progress assessments when team members change roles, leave the organization, or when assessments need to be delegated to more appropriate team members.
-
-</td></tr><tr><td>
-
-AI Control Tower
-
-</td><td>
-
-v6.0.0
-
-</td><td>
-
-2026-07
-
-</td><td>
-
-[AI Assets Inventory API](https://www.servicenow.com/docs/access?context=ai-assets-inventory-api&family=australia&ft:locale=en-US)
-
-</td><td>
-
--   GET /asset-class
--   GET /details
-
-</td></tr><tr><td>
-
-Healthcare and Life Sciences Service Management Core
-
-</td><td>
-
-v1.0
-
-</td><td>
-
-2026-07
-
-</td><td>
-
-[HL7 Inbound API](https://www.servicenow.com/docs/access?context=hl7-inbound-api&family=australia&ft:locale=en-US)
-
-</td><td>
-
-POST /message
+The new getEligibleCatalogCategoryHierarchy\(\) method lets you retrieve the complete product catalog-category hierarchy for a given context \(customer, currency, pricing rules, etc.\). The API automatically applies eligibility rules to filter out ineligible catalogs and categories, ensuring that customers see only the offerings they qualify for.**Note:** The REST version of this endpoint is [Product Catalog Search - POST /api/sn\_prd\_pm/v1/catalog/eligible-catalog-category-hierarchy](https://www.servicenow.com/docs/access?context=prod_catalog_search-POST-hierarchy&family=australia&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -1023,19 +1168,204 @@ v20.0
 
 </td><td>
 
-[Product Catalog Search API](https://www.servicenow.com/docs/access?context=product-catalog-search-api&family=australia&ft:locale=en-US)
+[CatalogSearchAPI - Scoped, Global](https://www.servicenow.com/docs/access?context=CatalogSearchAPI-scoped_global&family=australia&ft:locale=en-US)
 
 </td><td>
 
-POST /api/sn\_prd\_pm/catalog/search**Note:** This REST API wraps the [CatalogSearchAPI – getEligibleCatalogCategoryHierarchy\(Object input\)](https://www.servicenow.com/docs/access?context=CatalogSearchAPI-getCatHierarchy&family=australia&ft:locale=en-US) JavaScript API.
+-   CatalogSearch\(\) constructor
+-   getCatalogData\(\)
+
+ Though identically named to `CatalogSearch` Server API, the new `CatalogSearchAPI` is a higher-level wrapper specifically for the product catalog use case, with additional capabilities relevant to TMF-aligned product and service offerings.
+
+ **Note:** The [Product Catalog Search API](https://www.servicenow.com/docs/access?context=product-catalog-search-api&family=australia&ft:locale=en-US) REST API wraps this Server API.
 
 </td></tr><tr><td>
 
-Usage Insight Data Export
+Lead to Cash Core
 
 </td><td>
 
-1.0.1
+v0.1
+
+</td><td>
+
+2026-05
+
+</td><td>
+
+[ConsolidationService - Scoped, Global](https://www.servicenow.com/docs/access?context=ConsolidationServiceAPI&family=australia&ft:locale=en-US)
+
+</td><td>
+
+-   canConsolidateEntity\(\)
+-   canConsolidateJSONs\(\)
+-   canMergeEntity\(\)
+-   consolidate\(\)
+-   enableConsolidation\(\)
+-   getHashConfig\(\)
+-   getPrimary\(\)
+-   overrideAttributeValues\(\)
+-   postHierarchyConsolidation\(\)
+-   preProcess\(\)
+
+</td></tr><tr><td>
+
+MCP Client
+
+</td><td>
+
+v1.0.1
+
+</td><td>
+
+2026-05
+
+</td><td>
+
+[MCPClient - Scoped](https://www.servicenow.com/docs/access?context=MCPClientAPI&family=australia&ft:locale=en-US)
+
+</td><td>
+
+-   MCPClient\(\)
+-   getServers\(\)
+-   getToolInfo\(\)
+-   invokeTool\(\)
+-   listTools\(\)
+
+</td></tr></tbody>
+</table><table><thead><tr><th>
+
+Class
+
+</th><th>
+
+Methods
+
+</th></tr></thead><tbody><tr><td>
+
+[CopyDynamicSchemaAPI - Scoped, Global](https://www.servicenow.com/docs/access?context=CopyDynamicSchemaAPI&family=australia&ft:locale=en-US)
+
+</td><td>
+
+Methods:
+
+-   getCopyApi\(\)
+-   skipAttributes\(\)
+-   skipChoiceOverrides\(\)
+-   skipChoiceSets\(\)
+-   getTransactionId\(\)
+-   runAsync\(\)
+
+ Extension points:
+
+-   getCopyName\(\)
+-   shouldCopy\(\)
+-   verifyCopyOperation\(\)
+
+</td></tr><tr><td>
+
+[GlideAggregate - Global](https://www.servicenow.com/docs/access?context=c_GlideAggregateAPI&family=australia&ft:locale=en-US)
+
+</td><td>
+
+setAggregateWorkflow\(\)
+
+</td></tr><tr><td>
+
+[GlideDate - Global](https://www.servicenow.com/docs/access?context=GlideDateAPI&family=australia&ft:locale=en-US)
+
+</td><td>
+
+-   getDisplayValueEx\(\)
+-   setDisplayValueEx\(\)
+
+</td></tr><tr><td>
+
+[GlideElement - Global](https://www.servicenow.com/docs/access?context=c_GlideElementAPI&family=australia&ft:locale=en-US)
+
+</td><td>
+
+getDynamicNamespace\(\)
+
+</td></tr><tr><td>
+
+[GlideElementDynamicAttributeStore - Global](https://www.servicenow.com/docs/access?context=GlideElementDynamicAttStoreAPI&family=australia&ft:locale=en-US)
+
+</td><td>
+
+-   getDynamicAttributePathsInSchema\(\)
+-   getDynamicAttributePathsInStore\(\)
+-   getDynamicNamespaceName\(\)
+
+</td></tr><tr><td>
+
+[MIDHermesProducer - Global](https://www.servicenow.com/docs/access?context=MIDHermesProducerAPI&family=australia&ft:locale=en-US)
+
+</td><td>
+
+-   MIDHermesProducer\(\)
+-   send\(\)
+
+</td></tr><tr><td>
+
+[GlideElementDescriptor - Scoped, Global](https://www.servicenow.com/docs/access?context=c_GlideElementDescriptorScopedAPI&family=australia&ft:locale=en-US)
+
+</td><td>
+
+[GlideElementDescriptor - isEncrypted\(\)](https://www.servicenow.com/docs/access?context=SGED-isEncrypted&family=australia&ft:locale=en-US)
+
+</td></tr></tbody>
+</table><table><thead><tr><th>
+
+Application
+
+</th><th>
+
+App Version
+
+</th><th>
+
+Release month
+
+</th><th>
+
+Class
+
+</th><th>
+
+Methods
+
+</th></tr></thead><tbody><tr><td>
+
+Automated Test Framework
+
+</td><td>
+
+v3.1
+
+</td><td>
+
+2026-08
+
+</td><td>
+
+[Cloud Runner TestRunnerApi – Scoped, Global](https://www.servicenow.com/docs/access?context=cloudrnr-TestRunnerAPI-scoped&family=australia&ft:locale=en-US)
+
+</td><td>
+
+Three new methods enable asynchronous test job management without requiring `sn_boq` record creation:-   cancelJobByTracker
+-   progressFromTracker
+-   startJob
+
+Use these methods when you start a test run with `startJobAsync` and only have the `rootTrackerId`; no need to poll for a `sn_boq` record.
+
+</td></tr><tr><td>
+
+Product Catalog Management
+
+</td><td>
+
+v20.0
 
 </td><td>
 
@@ -1043,19 +1373,24 @@ Usage Insight Data Export
 
 </td><td>
 
-[UXA Data Export Service API](https://www.servicenow.com/docs/access?context=usage-insight-data-exp-api&family=australia&ft:locale=en-US)
+[CatalogSearchAPI - Scoped, Global](https://www.servicenow.com/docs/access?context=CatalogSearchAPI-scoped_global&family=australia&ft:locale=en-US)
 
 </td><td>
 
-POST /sn\_uxa\_data\_export/data\_export
+-   CatalogSearch\(\) constructor
+-   getCatalogData\(\)
+
+ Though identically named, to `CatalogSearch`, the new `CatalogSearchAPI` is used within the product catalog use case, with additional capabilities relevant to TMF-aligned product and service offerings.
+
+ **Note:** The [Product Catalog Search API](https://www.servicenow.com/docs/access?context=product-catalog-search-api&family=australia&ft:locale=en-US) REST API wraps this Server API.
 
 </td></tr><tr><td>
 
-Workplace Service Delivery
+Lead to Cash Core
 
 </td><td>
 
-3.3.1
+v0.1
 
 </td><td>
 
@@ -1063,86 +1398,75 @@ Workplace Service Delivery
 
 </td><td>
 
-[WSD Presence API](https://www.servicenow.com/docs/access?context=wsd_presence-api&family=australia&ft:locale=en-US)
+[ConsolidationService - Scoped, Global](https://www.servicenow.com/docs/access?context=ConsolidationServiceAPI&family=australia&ft:locale=en-US)
 
 </td><td>
 
--   DELETE /\{collaborator\_id\}
--   DELETE /exception
--   GET /collaborator
--   GET /exception
--   GET /presence
--   GET /routine
--   PATCH /routine
--   POST /collaborator
--   POST /exception
--   POST /routine
--   PUT /exception
-
-</td></tr><tr><td>
-
-Workplace Service Delivery
-
-</td><td>
-
-3.3.1
-
-</td><td>
-
-2026-05
-
-</td><td>
-
-[WSD User API](https://www.servicenow.com/docs/access?context=wsd_user-api&family=australia&ft:locale=en-US)
-
-</td><td>
-
-GET /context
-
-</td></tr><tr><td>
-
-Workplace Service Delivery
-
-</td><td>
-
-3.3.1
-
-</td><td>
-
-2026-05
-
-</td><td>
-
-[WSD Unified Search API](https://www.servicenow.com/docs/access?context=wsd_unified-search-api&family=australia&ft:locale=en-US)
-
-</td><td>
-
--   POST /users\_and\_locations
--   GET /current\_location
-
-</td></tr><tr><td>
-
-Synthetic monitoring
-
-</td><td>
-
-1.5.1
-
-</td><td>
-
-2026-03
-
-</td><td>
-
-[SyntheticsAsyncBulkCreate API](https://www.servicenow.com/docs/access?context=synth-async-api&family=australia&ft:locale=en-US)
-
-</td><td>
-
--   GET /synthetics\_async\_bulk\_create/\{job\_id\}
--   POST /synthetics\_async\_bulk\_create
+-   canConsolidateEntity\(\)
+-   canConsolidateJSONs\(\)
+-   canMergeEntity\(\)
+-   consolidate\(\)
+-   enableConsolidation\(\)
+-   getHashConfig\(\)
+-   getPrimary\(\)
+-   overrideAttributeValues\(\)
+-   postHierarchyConsolidation\(\)
+-   preProcess\(\)
 
 </td></tr></tbody>
-</table>
+</table><table><thead><tr><th>
+
+API
+
+</th><th>
+
+Endpoints
+
+</th></tr></thead><tbody><tr><td>
+
+[Attachment API](https://www.servicenow.com/docs/access?context=c_AttachmentAPI&family=australia&ft:locale=en-US)
+
+</td><td>
+
+-   DELETE /now/attachment/\{attachment\_sys\_id\}/attributes
+-   DELETE /now/attachment/\{attachment\_sys\_id\}/attributes/\{attribute\_key\}
+-   GET /now/attachment/\{attachment\_sys\_id\}/attributes/\{attribute\_key\}
+-   GET /now/attachments/\{attachment\_sys\_id\}/attributes
+-   PATCH /now/attachment/\{sys\_id\}
+-   POST /now/attachment/\{attachment\_sys\_id\}/attributes
+-   PUT /now/attachment/\{attachment\_sys\_id\}/attributes/\{attribute\_key\}
+
+</td></tr><tr><td>
+
+[Help Request API](https://www.servicenow.com/docs/access?context=help-request-api&family=australia&ft:locale=en-US)
+
+</td><td>
+
+POST /now/helprequest/action/create\_or\_update
+
+</td></tr><tr><td>
+
+[ATF Code Coverage API](https://www.servicenow.com/docs/access?context=atf-code-coverage-api&family=australia&ft:locale=en-US)
+
+</td><td>
+
+-   POST /now/atf/code\_coverage/all
+-   POST /now/atf/code\_coverage/by\_line\_number
+-   POST /now/atf/code\_coverage/by\_script\_id
+
+</td></tr><tr><td>
+
+[Sales CRM Pricing API](https://www.servicenow.com/docs/access?context=sales-crm-pricing-api&family=australia&ft:locale=en-US)
+
+</td><td>
+
+-   POST /api/sn\_csm\_pricing/\{api\_version\}/pricingengine/computePrice
+-   DELETE /api/sn\_csm\_pricing/pricingengine/pricing\_context/\{pricing\_context\_id\}
+
+</td></tr></tbody>
+</table>|API|Operations|
+|---|----------|
+|[Warranty Claims SOAP API](https://www.servicenow.com/docs/access?context=warranty-claims-SOAP-API&family=australia&ft:locale=en-US)|ProcessRepairOrder: A STAR SOAP operation used to process and exchange repair operation–level information between systems in a standardized STAR XML format.|
 
 </td></tr><tr><td>
 
@@ -1151,6 +1475,15 @@ Brazil
 </td><td>
 
 -   ****
+
+    |Application|App Version|API type|API|Methods/Endpoints|
+    |-----------|-----------|--------|---|-----------------|
+    |Mobile SDK Libraries - Android|2.26.0|Mobile SDK|[NowChatConfiguration class - Android](https://www.servicenow.com/docs/access?context=NowChatOptionsAndroid&family=brazil&ft:locale=en-US)|VoiceInputButton\(\)|
+    |Mobile SDK Libraries - iOS|2.26.0|Mobile SDK|[NowChatConfiguration class - iOS](https://www.servicenow.com/docs/access?context=NowChatOptionsiOS&family=brazil&ft:locale=en-US)|VoiceInputButton\(\)|
+    |Zero Copy Connector for ERP \(com.snc.sn\_erp\_integration\)|10.6.0|Server|[sn\_erp\_integration API - Scoped, Global](https://www.servicenow.com/docs/access?context=sn_erp_integrationBothAPI&family=brazil&ft:locale=en-US)|getRowCount\(\)|
+
+
+ -   ****
 
 <table><thead><tr><th>
 
@@ -1577,13 +1910,27 @@ Yokohama
 
 <table><thead><tr><th>
 
-Application
+Class
 
 </th><th>
 
-App Version
+Methods
 
-</th><th>
+</th></tr></thead><tbody><tr><td>
+
+[PDFGenerationAPI - Scoped, Global](https://www.servicenow.com/docs/access?context=PDFGenerationAPIBothAPI&family=yokohama&ft:locale=en-US)
+
+</td><td>
+
+-   convertToPDF\(\)
+-   convertToPDFWithHeaderFooter\(\)
+
+ New properties, glide.pdf.url.whitelisting.enabled and com.snc.pdf.whitelisted\_urls, have been added to ensure whether external URLs provided should be rendered in the PDF output.
+
+ A new property, accessibilityEnabled, has been added for PDF accessibility support.
+
+</td></tr></tbody>
+</table><table><thead><tr><th>
 
 Class
 
@@ -1593,249 +1940,21 @@ Methods
 
 </th></tr></thead><tbody><tr><td>
 
-Lead to Cash Core
+[PDFGenerationAPI - Scoped, Global](https://www.servicenow.com/docs/access?context=PDFGenerationAPIBothAPI&family=yokohama&ft:locale=en-US)
 
 </td><td>
 
-V1.4
+-   convertToPDF\(\)
+-   convertToPDFWithHeaderFooter\(\)
 
-</td><td>
+ New properties, glide.pdf.url.whitelisting.enabled and com.snc.pdf.whitelisted\_urls, have been added to ensure whether external URLs provided should be rendered in the PDF output.
 
-[LeadtoCashCore - Scoped](https://www.servicenow.com/docs/access?context=LeadToCashCoreAPI&family=yokohama&ft:locale=en-US)
-
-</td><td>
-
-Enhanced the performance of the Commit Instance API to improve number generation for the number field:-   effect\(\): The **\_records\_count** return object is added to provide details about newly inserted records for a particular table, such as the table name and number of inserted records.
--   commitInstance\(\): A new additional parameter, useNumberGenerator, is added to optionally generate and apply sys\_ids to new table records in bulk.
-
-</td></tr><tr><td>
-
-ATF Test Generator and Cloud Runner
-
-</td><td>
-
-2.7.2
-
-</td><td>
-
-[TestGenerationApi – startJob\(String tableEncodedQuery, String userEncodedQuery, String catalogEncodedQuery, Number maxTestCount, Number maxTestCountPerTable, Number maxTestCountPerItem, String email, Boolean separateUpdateSetPerScope, String scopeForGeneratingTests, String suiteName\)](https://www.servicenow.com/docs/access?context=cr-TestGen-startJob_S_S_S_N_N_N_S&family=yokohama&ft:locale=en-US)
-
-</td><td>
-
-Added the **testSuite** parameter allowing you to set the name of the new test suite that is created during test generation.
+ A new property, accessibilityEnabled, has been added for PDF accessibility support.
 
 </td></tr></tbody>
-</table> <table><thead><tr><th>
-
-Application
-
-</th><th>
-
-App Version
-
-</th><th>
-
-Class
-
-</th><th>
-
-Methods
-
-</th></tr></thead><tbody><tr><td>
-
-Customer Service Management
-
-</td><td>
-
-v1.2
-
-</td><td>
-
-[openFrameAPI - Client](https://www.servicenow.com/docs/access?context=c_openFrameAPI&family=yokohama&ft:locale=en-US)
-
-</td><td>
-
-subscribe\(\): Added new events-   openframe\_wrap\_up\_submitted
--   openframe\_heart\_beat
-
-</td></tr><tr><td>
-
-Mobile SDK
-
-</td><td>
-
-v2.9.0
-
-</td><td>
-
-[NowChatTheme interface - Android](https://www.servicenow.com/docs/access?context=NowChatThemeColorsAndroidInterface&family=yokohama&ft:locale=en-US)
-
-</td><td>
-
-Updated available chat UI color defaults.
-
-</td></tr><tr><td>
-
-Mobile SDK
-
-</td><td>
-
-v2.9.0
-
-</td><td>
-
-[NowWebTheme interface - Android](https://www.servicenow.com/docs/access?context=NowWebThemeAndroidInterface&family=yokohama&ft:locale=en-US)
-
-</td><td>
-
-Updated available web view UI color defaults.
-
-</td></tr><tr><td>
-
-Mobile SDK
-
-</td><td>
-
-v2.9.0
-
-</td><td>
-
-[NowChatThemeable protocol - iOS](https://www.servicenow.com/docs/access?context=NowChatThemeableiOSProtocol&family=yokohama&ft:locale=en-US)
-
-</td><td>
-
-Updated available chat UI color defaults.
-
-</td></tr><tr><td>
-
-Mobile SDK
-
-</td><td>
-
-v2.9.0
-
-</td><td>
-
-[NowWebThemeable protocol - iOS](https://www.servicenow.com/docs/access?context=NowWebThemeableiOSProtocol&family=yokohama&ft:locale=en-US)
-
-</td><td>
-
-Updated available web view UI color defaults.
-
-</td></tr></tbody>
-</table> <table><thead><tr><th>
-
-Application
-
-</th><th>
-
-App Version
-
-</th><th>
-
-API
-
-</th><th>
-
-Endpoints
-
-</th></tr></thead><tbody><tr><td>
-
-Accounts Payable Operations
-
-</td><td>
-
-v2.0.0
-
-</td><td>
-
-[AP Invoice API](https://www.servicenow.com/docs/access?context=ap-invoice-api&family=yokohama&ft:locale=en-US)
-
-</td><td>
-
-Add properties supporting bill-to address information.-   POST /sn\_spend\_intg/ap\_invoice/cxml
--   POST /sn\_spend\_intg/ap\_invoice/json
-
-</td></tr><tr><td>
-
-ATF Test Generator and Cloud Runner
-
-</td><td>
-
-2.7.2
-
-</td><td>
-
-[Cloud Runner Test Generation - POST /now/sn\_atf\_tg/test\_generation](https://www.servicenow.com/docs/access?context=cr-TestGenAPI-POST-test-generation&family=yokohama&ft:locale=en-US)
-
-</td><td>
-
-Added the **testSuite** parameter allowing you to set the name of the new test suite that is created during test generation.
-
-</td></tr><tr><td>
-
-Order Management
-
-</td><td>
-
-v11.3.0
-
-</td><td>
-
-[Product Order Open API](https://www.servicenow.com/docs/access?context=tmf622_product_ordering-api&family=yokohama&ft:locale=en-US)
-
-</td><td>
-
-The **productSpecification** request parameter has changed from required to optional.-   PATCH /sn\_ind\_tmt\_orm/order/productOrder/\{id\}
--   PATCH /sn\_ind\_tmt\_orm/productorder/\{id\}
--   POST /sn\_ind\_tmt\_orm/order/productOrder
--   POST /sn\_ind\_tmt\_orm/productorder
-
-</td></tr><tr><td>
-
-Order Management
-
-</td><td>
-
-v12.5.0
-
-</td><td>
-
-[Product Inventory Open API](https://www.servicenow.com/docs/access?context=product-inventory-open-api&family=yokohama&ft:locale=en-US)
-
-</td><td>
-
-The **productSpecification** request parameter has changed from required to optional. These endpoints now retrieve all product inventory records. In prior releases, product inventory records without a specified product specification weren't returned.-   POST /api/sn\_prd\_invt\_/product
--   GET /api/sn\_prd\_invt\_/product
--   GET /api/sn\_prd\_invt\_/product/\{id\}
-
-</td></tr><tr><td>
-
-Product Catalog
-
-</td><td>
-
-v14.1.0
-
-</td><td>
-
-[Product Catalog Open API](https://www.servicenow.com/docs/access?context=product-catalog-open-api&family=yokohama&ft:locale=en-US)
-
-</td><td>
-
-The ability to specify product bundles has been added to the following endpoints:-   GET /sn\_tmf\_api/ catalogmanagement/catalog
--   GET /sn\_tmf\_api/ catalogmanagement/catalog/\{id\}
--   GET /sn\_tmf\_api/ catalogmanagement/productOffering
--   GET /sn\_tmf\_api/ catalogmanagement/productOffering/\{id\}
--   PATCH /sn\_tmf\_api/ catalogmanagement/productOffering/\{id\}
--   POST /sn\_tmf\_api/ catalogmanagement/productOffering
--   GET /sn\_tmf\_api/ catalogmanagement/productSpecification
--   GET/sn\_tmf\_api/ catalogmanagement/productSpecification/\{id\}
--   PATCH /sn\_tmf\_api/ catalogmanagement/productSpecification/\{id\}
--   POST /sn\_tmf\_api/ catalogmanagement/productSpecification
-
-</td></tr></tbody>
-</table>
+</table>|API|Endpoints|
+|---|---------|
+|[Attachment API](https://www.servicenow.com/docs/access?context=c_AttachmentAPI&family=yokohama&ft:locale=en-US)|POST /now/attachment/file: A new parameter, creation\_time, can be used to capture attachment creation times when the Now Mobile app is offline and the attachment is uploaded to a record at a later time.|
 
 </td></tr><tr><td>
 
@@ -1987,91 +2106,7 @@ Australia
 
 </td><td>
 
-<table><thead><tr><th>
-
-Application
-
-</th><th>
-
-App Version
-
-</th><th>
-
-Release month
-
-</th><th>
-
-Module
-
-</th><th>
-
-Types
-
-</th></tr></thead><tbody><tr><td>
-
-Mobile SDK Libraries - Android
-
-</td><td>
-
-2.24.0
-
-</td><td>
-
-2026-08
-
-</td><td>
-
--   NowChat
--   NowWeb
-
-</td><td>
-
-Default colors for [NowChatTheme interface - Android](https://www.servicenow.com/docs/access?context=NowChatThemeColorsAndroidInterface&family=australia&ft:locale=en-US) and [NowWebTheme interface - Android](https://www.servicenow.com/docs/access?context=NowWebThemeAndroidInterface&family=australia&ft:locale=en-US) now use the Coral theme.
-
-</td></tr><tr><td>
-
-Mobile SDK Libraries - iOS
-
-</td><td>
-
-2.24.0
-
-</td><td>
-
-2026-08
-
-</td><td>
-
-NowUIColoring
-
-</td><td>
-
-Default colors for [NowUIColoring](https://www.servicenow.com/docs/access?context=mobsdk-ios-use_nowUIcoloring&family=australia&ft:locale=en-US) now use the Coral theme.
-
-</td></tr><tr><td>
-
-Mobile SDK Libraries - iOS
-
-</td><td>
-
-2.22.0
-
-</td><td>
-
-2026-06
-
-</td><td>
-
-NowChat
-
-</td><td>
-
-New properties on [NowChatConfiguration class - iOS](https://www.servicenow.com/docs/access?context=NowChatOptionsiOS&family=australia&ft:locale=en-US) enable NowChat to integrate with NowVoice:-   **voiceConfiguration**
--   **voiceUIConfiguration**
--   **voiceCallbacks**
-
-</td></tr></tbody>
-</table>
+The following tables lists changed API classes and methods in Australia and ServiceNow Store.
 
 </td></tr><tr><td>
 
@@ -2099,7 +2134,159 @@ API
 
 </th><th>
 
-Methods/endpoints
+Methods/Endpoints
+
+</th></tr></thead><tbody><tr><td>
+
+Universal MCP Client
+
+</td><td>
+
+1.1.3
+
+</td><td>
+
+Server
+
+</td><td>
+
+[MCPClient - Scoped](https://www.servicenow.com/docs/access?context=MCPClientAPI&family=brazil&ft:locale=en-US)
+
+</td><td>
+
+A new parameter **caller\_product** is added to specify the scope name of the application making the API call. This parameter is required for the following methods.-   getServers\(\)
+-   getToolInfo\(\)
+-   invokeTool\(\)
+-   listTools\(\)
+
+
+</td></tr><tr><td>
+
+Mobile SDK Libraries - Android
+
+</td><td>
+
+2.26.0
+
+</td><td>
+
+Mobile SDK
+
+</td><td>
+
+[NowChatConfiguration class - Android](https://www.servicenow.com/docs/access?context=NowChatOptionsAndroid&family=brazil&ft:locale=en-US)
+
+</td><td>
+
+New optional parameters added to UIConfiguration\(\).-   **hideServiceNowInProductBranding**: Show or hide ServiceNow branding in Virtual Agent.
+-   **voiceInputButton**: Show or hide the speech-to-text microphone button in the text input bar.
+
+
+</td></tr><tr><td>
+
+Mobile SDK Libraries - iOS
+
+</td><td>
+
+2.26.0
+
+</td><td>
+
+Mobile SDK
+
+</td><td>
+
+[NowChatConfiguration class - iOS](https://www.servicenow.com/docs/access?context=NowChatOptionsiOS&family=brazil&ft:locale=en-US)
+
+</td><td>
+
+New optional parameters added to UIConfiguration\(\).-   **hideBranding**: Show or hide ServiceNow branding in Virtual Agent.
+-   **voiceInputButton**: Show or hide the speech-to-text microphone button in the text input bar.
+
+
+</td></tr><tr><td>
+
+Order Management for Telecommunications and Media
+
+</td><td>
+
+15.0.4
+
+</td><td>
+
+REST
+
+</td><td>
+
+[Product Order Open API](https://www.servicenow.com/docs/access?context=tmf622_product_ordering-api&family=brazil&ft:locale=en-US)
+
+</td><td>
+
+The PATCH `/sn_ind_tmt_orm/order/productOrder/{id}` endpoint now accepts the V3 `relatedParty` item shape \(`role`/`@type`/`partyOrPartyRole`\). PATCH supports only the reference pattern for both V2 and V3 versions of the API.
+
+</td></tr><tr><td>
+
+Telecommunications Service Management
+
+</td><td>
+
+8.0.3
+
+</td><td>
+
+REST
+
+</td><td>
+
+[Product Inventory Open API](https://www.servicenow.com/docs/access?context=product-inventory-open-api&family=brazil&ft:locale=en-US)
+
+</td><td>
+
+In the GET /product and GET /\{id\} endpoints, the `productCharacteristic.valueType` field now supports a new `sn_prd_invt.enableseamlessvaluetype` system property that, when enabled, returns the same backend value format the Product Order API already uses, allowing consistent characteristic value types across both APIs.
+
+</td></tr><tr><td>
+
+Omnichannel Callback for Customer Service Management \(sn\_callback\)
+
+</td><td>
+
+1.8.3
+
+</td><td>
+
+REST
+
+</td><td>
+
+[Voice Interaction Resource API](https://www.servicenow.com/docs/access?context=voice-interaction-resource-api&family=brazil&ft:locale=en-US)
+
+</td><td>
+
+The `POST /api/now/openframe/voice-interaction` endpoint now prevents duplicate interactions by reusing existing work-in-progress callbacks when an agent clicks to call from the workspace. The system checks for WIP interactions with matching `inbound_id` and parties before creating a new record, and accepts a new `relatedRecords` objecy to pass callback context via `context_document` and `context_table` fields.
+
+</td></tr></tbody>
+</table>
+ -   ****
+
+<table><thead><tr><th>
+
+Application
+
+</th><th>
+
+App Version
+
+</th><th>
+
+API type
+
+</th><th>
+
+API
+
+</th><th>
+
+Methods/Endpoints
 
 </th></tr></thead><tbody><tr><td>
 
@@ -2416,8 +2603,10 @@ Australia
 
 </td><td>
 
--   NowAnalyticsService and NowAnalyticsServiceDelegate have been removed from Mobile SDK - iOS.
+-   NowAnalyticsService, NowAnalyticsServiceDelegate, and SNMobileAnalytics have been removed from Mobile SDK - iOS.
 -   NowAnalyticsSDK has been removed from Mobile SDK - Android.
+
+ -   GlideElementDynamicAttribute has been removed. Use other GlideElement instances corresponding to an attribute's type instead.
 
 </td></tr><tr><td>
 
@@ -2611,7 +2800,10 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **Activation information**
+
+API activation is dependent on the specific product or application where the API is required. Consult your product documentation or contact your ServiceNow® administrator to determine activation steps for your use case.
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -2894,7 +3086,12 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   Use server-side JavaScript APIs in scripts to change the application functionality.
+-   Run client APIs whenever a client-based event occurs, such as when a form loads, a form is submitted, or a field value changes.
+-   Use inbound REST APIs to interact with various ServiceNow functionalities within your application.
+-   Client Next Experience APIs include client APIs compatible with the Next Experience UI.
+
+ See [API implementation and reference](https://www.servicenow.com/docs/access?context=api-implementation-reference&family=brazil&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-xanadu-brazil/rn-combined-intro.md)

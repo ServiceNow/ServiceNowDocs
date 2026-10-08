@@ -18,6 +18,8 @@ Multi-Instance View enables you to monitor and manage clone operations across mu
 
 Use Instance Clone Multi-Instance View to manage clones centrally across multiple linked instances. Instead of logging into each instance individually, administrators submit clone requests, monitor status, and manage configurations from a primary instance.
 
+**Note:** Connected instances require Australia Patch 2 or later on both the source and target instances.
+
 Some of the key benefits of using Multi-Instance View are:
 
 -   View all clone requests across instances on the Clone Admin Console
@@ -27,7 +29,7 @@ Consider enabling Multi-Instance View if you need:
 
 -   Centralized visibility into clone status and history across all instances
 -   Quick identification of stale instances needing data refresh
--   View cleanup script status without logging into each instance separately
+-   View cleanup script status without logging into each instance separately, starting with the Australia Patch 5 release, when Multi-Instance View is enabled on both instances.
 
 \[Omitted image "instance-clone-dashboard.png"\] Alt text: The Clone Admin Console dashboard with Multi-View Instance feature enabled.
 

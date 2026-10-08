@@ -41,3 +41,5 @@ Set up and customize self-service portals to provide customers with access to kn
 
 [Set up Configurable Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-configurable-portal-widget.md)
 
+[Evaluate the performance of a portal page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/analyze-page-performance.md)
+

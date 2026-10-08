@@ -16,7 +16,7 @@ Use an EMM suite to distribute ServiceNow mobile apps or the ServiceNow Classic 
 
 ## Enterprise mobility management \(EMM\)
 
-Apply your corporate app protection policies to ServiceNow mobile apps by either using your EMM suite, or, with an embedded mobile application management \(MAM\) SDK for personal devices. ServiceNow only supports Intune and BlackBerry SDKs.
+Apply your corporate app protection policies to ServiceNow mobile apps by either using your EMM suite, or, with an embedded mobile application management \(MAM\) SDK for personal devices. ServiceNow only supports Intune SDKs.
 
 ## AppConfig
 
@@ -29,7 +29,7 @@ For details on these configurations, see [AppConfig for Mobile Apps](https://raw
 
 ## Mobile application management \(MAM\) integration
 
-Use Microsoft Intune or BlackBerry Dynamics to secure and protect sensitive information in mobile applications, even in cases where customers use their own mobile devices. For more detail on MAM integration, see [Mobile application management \(MAM\) integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-mam.md).
+Use Microsoft Intune to secure and protect sensitive information in mobile applications, even in cases where customers use their own mobile devices. For more detail on MAM integration, see [Mobile application management \(MAM\) integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/sg-mam.md).
 
 ## Unsupported MDM/MAM features
 

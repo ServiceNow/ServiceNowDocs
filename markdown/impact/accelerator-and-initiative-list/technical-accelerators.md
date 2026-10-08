@@ -27,7 +27,7 @@ Accelerator outputs and formats have common standardized features, but may diffe
 |Accelerator|Guided package|Guided+Strategic Value|Guided+Platform Governance|Advanced package|Total package|Integrated Success|On-Demand|
 |:---------:|:------------:|:--------------------:|:------------------------:|:--------------:|:-----------:|:----------------:|:-------:|
 |[Access to Experts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/access-experts-acc.md)| |✓|✓|✓|✓|✓| |
-|[Artificial Intelligence Readiness Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/artificial-intelligence-readiness-assessment-brazil.md)|✓| |✓|✓|✓| | |
+|[Artificial Intelligence Readiness Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/artificial-intelligence-readiness-assessment-brazil.md)|✓|✓|✓|✓|✓| | |
 |[Extend Your AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/extend-your-ai-search.md)|✓|✓|✓|✓|✓|✓| |
 |[Extend Your Employee Center to Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/extend-employee-center-pro.md)|✓|✓|✓|✓|✓|✓| |
 |[Health Assessment – Guided](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/health-assessment-guided.md)|✓|✓|✓| | | | |
@@ -95,7 +95,6 @@ Accelerator outputs and formats have common standardized features, but may diffe
 |[Jumpstart Your Success Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/jumpstart-your-success-dashboard.md)|✓|✓|✓|✓|✓|✓| |
 |[Jumpstart Your Task Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/jumpstart-task-intelligence.md)|✓|✓|✓|✓|✓|✓| |
 |[Jumpstart Your Upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/jumpstart-your-upgrade.md)​|✓|✓|✓|✓|✓|✓| |
-|Jumpstart Your Virtual Agent​|✓|✓|✓|✓|✓|✓| |
 |[Jumpstart Your Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/jumpstart-your-walkup-experience.md)|✓|✓|✓|✓|✓|✓| |
 |[Jumpstart Your Workflow Automation: Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/jumpstart-your-workflow-automation-playbooks.md)|✓|✓|✓|✓|✓|✓| |
 |[Jumpstart Your Zero Copy Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/jumpstart-zero-copy-connectors.md)|✓|✓|✓|✓|✓|✓| |

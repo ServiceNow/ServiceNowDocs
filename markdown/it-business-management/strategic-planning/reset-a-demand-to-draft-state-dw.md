@@ -22,10 +22,10 @@ Role required: it\_demand\_manager
 
 ## About this task
 
-Once a demand is set back to the Draft state:
+When a demand is set back to the Draft state:
 
 -   All score values in the **Assessment Results** tab are reset to default values.
--   All active assessments for the demand are canceled. The system triggers new assessments when the demand moves to the Screening state and if the **Assessment Required** field on the demand form is set to true.
+-   All active assessments for the demand are cancelled. The system triggers new assessments when the demand moves to the Screening state and if the Assessment Required field on the demand form is set to true. If smart assessments is enabled for the demand and it already has classic \(non-smart\) assessments on it, the reset is treated as a fresh assessment flow. Any open classic assessments are canceled, and a new smart assessment is triggered when the demand next reaches Screening. For more information, see [Assess demands with smart assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/smart-assessments-overview.md).
 -   All resource assignments are removed. Only the resource plans that don't have any reported active hours are available for allocation.
 
 ## Procedure

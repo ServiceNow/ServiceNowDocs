@@ -35,15 +35,15 @@ Role required: sn\_ohs\_im.manager, sn\_ohs\_im.agent, or sn\_ohs\_im.operations
 
 3.  Open an injury and illness record to add the HR case to.
 
-<table id="choicetable_HRcase"><thead><tr><th align="left" id="d77324e165">
+<table id="choicetable_HRcase"><thead><tr><th align="left" id="d77352e161">
 
 Option
 
-</th><th align="left" id="d77324e168">
+</th><th align="left" id="d77352e164">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d77324e174">
+</th></tr></thead><tbody><tr><td id="d77352e170">
 
 **From a safety incident**
 
@@ -55,7 +55,7 @@ Steps
 4.  In the **Add injury and illness** activity, select the injury and illness report to add the case to.
 
 
-</td></tr><tr><td id="d77324e210">
+</td></tr><tr><td id="d77352e206">
 
 **From an injury and illness list**
 
@@ -72,8 +72,6 @@ Steps
 ## Result
 
 The HR case is created and added to the **HRSD case record** field on the injury form. For more information, see [Injury and illness fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/health-and-safety-incident-management/hs-injury-illness-form.md).
-
-**Parent Topic:**[Managing Health and Safety incidents and observations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/health-and-safety-incident-management/managing-hs-incidents-obs.md)
 
 **Parent Topic:**[Managing Health and Safety incidents and observations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/health-and-safety-incident-management/managing-hs-incidents-obs.md)
 

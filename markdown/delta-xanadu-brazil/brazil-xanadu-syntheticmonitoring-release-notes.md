@@ -1,26 +1,26 @@
 ---
-title: Combined Synthetic monitoring release notes for upgrades from Xanadu to Brazil
-description: Consolidated page of all release notes for Synthetic monitoring from Xanadu to Brazil.
+title: Combined Synthetic Monitoring release notes for upgrades from Xanadu to Brazil
+description: Consolidated page of all release notes for Synthetic Monitoring from Xanadu to Brazil.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-syntheticmonitoring-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 7
+last_updated: "2026-10-08"
+reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
 
-# Combined Synthetic monitoring release notes for upgrades from Xanadu to Brazil
+# Combined Synthetic Monitoring release notes for upgrades from Xanadu to Brazil
 
-Consolidated page of all release notes for Synthetic monitoring from Xanadu to Brazil.
+Consolidated page of all release notes for Synthetic Monitoring from Xanadu to Brazil.
 
 ## How to use this page
 
-To help you prepare for your upgrade, we have combined the cross-family Synthetic monitoring release notes onto one page. Read this summary of the new features, changes, and updated information for your product from Xanadu to Brazil.
+To help you prepare for your upgrade, we have combined the cross-family Synthetic Monitoring release notes onto one page. Read this summary of the new features, changes, and updated information for your product from Xanadu to Brazil.
 
 **Tip:** If there were no updates for a release notes section in a certain family release, we included a short note for your reference. For example, if a product did not have any updates in Tokyo, the row says "No updates for this release."
 
-## Important information for upgrading Synthetic monitoring to Brazil
+## Important information for upgrading Synthetic Monitoring to Brazil
 
 Before you upgrade to Brazil, review these pre- and post-upgrade tasks and complete the tasks as needed.
 
@@ -54,10 +54,7 @@ Zurich
 
 </td><td>
 
--   **Upgrade information**
-
-If you want to run monitors using a MID Server as a location, you must restart the MID Server after upgrading.
-
+No updates for this release.
 
 </td></tr><tr><td>
 
@@ -78,7 +75,7 @@ No updates for this release.
 </td></tr></tbody>
 </table>## New features
 
-Between your current release family and Brazil, new features were introduced for Synthetic monitoring.
+Between your current release family and Brazil, new features were introduced for Synthetic Monitoring.
 
 <table class="custom-rows"><thead><tr><th class="filter">
 
@@ -146,6 +143,19 @@ As of 1.4, use tag-based clustering to group monitor alerts.
 As of 1.4, OAuth credentials on endpoints are supported.
 
 
+ -   **[MID Server support for running synthetic monitors](https://www.servicenow.com/docs/access?context=create-synthetic-monitoring-locations&family=zurich&ft:locale=en-US)**
+
+Run synthetic monitors from your MID Server.
+
+-   **[HTTP endpoint creation directly in synthetic monitoring](https://www.servicenow.com/docs/access?context=create-synthetic-monitor&family=zurich&ft:locale=en-US)**
+
+Create HTTP endpoints for your monitors without leaving the SOW.
+
+-   **[Support groups for synthetic monitor-based alerts](https://www.servicenow.com/docs/access?context=create-synthetic-monitor&family=zurich&ft:locale=en-US)**
+
+Assign a support group to a monitor, and then any raised alerts follow the associated alert automation rules.
+
+
 </td></tr><tr><td>
 
 Australia
@@ -165,7 +175,7 @@ No updates for this release.
 </td></tr></tbody>
 </table>## Changes
 
-Between your current release family and Brazil, some changes were made to existing Synthetic monitoring features.
+Between your current release family and Brazil, some changes were made to existing Synthetic Monitoring features.
 
 <table class="custom-rows"><thead><tr><th class="filter">
 
@@ -228,6 +238,14 @@ In version 1.4, you can see open alerts for any tests the monitor has run.
 In version 1.4, you can add tags when configuring alerts for monitors.
 
 
+ -   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+-   **[New columns in the Synthetic Location table](https://www.servicenow.com/docs/access?context=create-synthetic-monitoring-locations&family=zurich&ft:locale=en-US)**
+    -   **Type**: Shows whether the location is a MID Server, ACC Collector, or hosted on the platform.
+    -   **Number of monitors**: Displays the number of monitors running on the location.
+
 </td></tr><tr><td>
 
 Australia
@@ -247,7 +265,7 @@ No updates for this release.
 </td></tr></tbody>
 </table>## Removed
 
-Between your current release family and Brazil, some Synthetic monitoring features or functionality were removed.
+Between your current release family and Brazil, some Synthetic Monitoring features or functionality were removed.
 
 <table class="custom-rows"><thead><tr><th class="filter">
 
@@ -300,7 +318,7 @@ No updates for this release.
 </td></tr></tbody>
 </table>## Deprecations
 
-Between your current release family and Brazil, some Synthetic monitoring features or functionality were deprecated.
+Between your current release family and Brazil, some Synthetic Monitoring features or functionality were deprecated.
 
 <table class="custom-rows"><thead><tr><th class="filter">
 
@@ -353,7 +371,7 @@ No updates for this release.
 </td></tr></tbody>
 </table>## Activation information
 
-Review information on how to activate Synthetic monitoring.
+Review information on how to activate Synthetic Monitoring.
 
 <table class="custom-rows"><thead><tr><th class="filter">
 
@@ -377,10 +395,7 @@ Yokohama
 
 </td><td>
 
--   **Activation information**
-
-Install synthetic monitoring by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
-
+No updates for this release.
 
 </td></tr><tr><td>
 
@@ -388,10 +403,7 @@ Zurich
 
 </td><td>
 
--   **Activation information**
-
-Install synthetic monitoring by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
-
+No updates for this release.
 
 </td></tr><tr><td>
 
@@ -407,12 +419,12 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+**Note:** Synthetic monitoring is available in the ServiceNow Store.
 
 </td></tr></tbody>
 </table>## Additional requirements
 
-If any additional requirements were introduced or changed for Synthetic monitoring we have noted them here.
+If any additional requirements were introduced or changed for Synthetic Monitoring we have noted them here.
 
 <table class="custom-rows"><thead><tr><th class="filter">
 
@@ -436,16 +448,7 @@ Yokohama
 
 </td><td>
 
--   **Additional requirements**
-
-You must do the following before you can use synthetic monitoring:
-
-    -   If you have version 1.0, configure at least one proxy agent on the Agent Client Collector. These agents should be the ones you use to monitor the health and performance of the services to be monitored. For more information about proxy agents, see [Using proxy agents in Agent Client Collector](https://www.servicenow.com/docs/access?context=proxy-agent&family=yokohama&ft:locale=en-US).
-
-Starting with version 1.2, you can run tests from your local Glide instance instead of a proxy agent.
-
-    -   Add CIs in the CMDB for the endpoints that you want to monitor.
-    -   If your endpoints require authentication, configure credentials in the Credentials \[discovery\_credentials\] table.
+No updates for this release.
 
 </td></tr><tr><td>
 
@@ -474,7 +477,7 @@ No updates for this release.
 </td></tr></tbody>
 </table>## Browser requirements
 
-If any specific browser requirements were introduced or changed for Synthetic monitoring we have noted them here.
+If any specific browser requirements were introduced or changed for Synthetic Monitoring we have noted them here.
 
 <table class="custom-rows"><thead><tr><th class="filter">
 
@@ -527,7 +530,7 @@ No updates for this release.
 </td></tr></tbody>
 </table>## Accessibility information
 
-Review details on accessibility information for Synthetic monitoring, such as specific requirements or compliance levels.
+Review details on accessibility information for Synthetic Monitoring, such as specific requirements or compliance levels.
 
 <table class="custom-rows"><thead><tr><th class="filter">
 
@@ -559,11 +562,7 @@ Zurich
 
 </td><td>
 
--   **Accessibility information**
-    -   **Dark theme**
-
-The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
-
+No updates for this release.
 
 </td></tr><tr><td>
 
@@ -584,7 +583,7 @@ No updates for this release.
 </td></tr></tbody>
 </table>## Localization information
 
-If there are specific localization considerations for Synthetic monitoring we have noted them here.
+If there are specific localization considerations for Synthetic Monitoring we have noted them here.
 
 <table class="custom-rows"><thead><tr><th class="filter">
 
@@ -637,7 +636,7 @@ No updates for this release.
 </td></tr></tbody>
 </table>## Highlight information
 
-If there are specific highlight considerations for Synthetic monitoring we have noted them here.
+If there are specific highlight considerations for Synthetic Monitoring we have noted them here.
 
 <table class="custom-rows"><thead><tr><th class="filter">
 
@@ -661,11 +660,7 @@ Yokohama
 
 </td><td>
 
--   View real-world performance data from your services without needing actual users, catching issues before they're released to production.
--   Get real-time notifications for performance degradations or outages before they impact users.
--   Visualize synthetic test results and share insights with stakeholders.
-
- See [Synthetic monitoring](https://www.servicenow.com/docs/access?context=synthetic-monitoring-landing-page&family=yokohama&ft:locale=en-US) for more information.
+No updates for this release.
 
 </td></tr><tr><td>
 
@@ -673,14 +668,7 @@ Zurich
 
 </td><td>
 
--   Run synthetic monitors from the MID Server.
--   Create monitors without needing to leave SOW to create an HTTP endpoint.
--   Assign a support group to synthetic monitoring alerts for easy investigation.
--   As of 1.4, view alerts associated with monitors and navigate to those alerts.
--   As of 1.4, use tags on a monitor's alerts.
--   As of 1.4, use synthetic monitoring with endpoints that support OAuth credentials.
-
- See [Landing page](https://www.servicenow.com/docs/access?context=synthetic-monitoring-landing-page&family=zurich&ft:locale=en-US) for more information.
+No updates for this release.
 
 </td></tr><tr><td>
 
@@ -696,7 +684,11 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   Get real-time notifications for outages before they impact users.
+-   Visualize synthetic test results.
+-   Update monitors to match your business needs.
+
+ See [Explore](https://www.servicenow.com/docs/access?context=exploring-synthetic-monitoring&family=brazil&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-xanadu-brazil/rn-combined-intro.md)

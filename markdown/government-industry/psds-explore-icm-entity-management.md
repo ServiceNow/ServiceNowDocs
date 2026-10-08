@@ -26,6 +26,9 @@ With the Entity Management feature, investigators can:
 -   Create incident and investigation event records to help capture the timeline for important events that happen during the investigation, and the timeline of the investigation itself
 -   View audit logs for all firearm record changes and relationship updates
 -   Associate multiple entities to each other and to the case, and manage all entities and their relationships to the case
+-   Render all entities, evidence, tasks, and related cases as an interactive knowledge graph; set any node as the home node to re-map relationships, then export to PDF/PPT.
+-   Auto-create an immutable, time-stamped snapshot of a shared entity at case association, and provide insights into how many active cases an edit will affect — with a full who/when/what audit trail.
+-   Quickly configure case access by office and/or assignment group.
 
 ## Entities in Investigative Case Management
 

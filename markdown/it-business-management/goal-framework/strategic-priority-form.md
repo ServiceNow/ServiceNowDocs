@@ -88,7 +88,7 @@ Status
 
 </td><td>
 
-Status of the strategic priority. Status can be **Red**, **Yellow**, **Green**, or **None**.
+Status of the strategic priority. Status can be **Red**, **Yellow**, **Green**, or **No status**.
 
 </td></tr><tr><td>
 

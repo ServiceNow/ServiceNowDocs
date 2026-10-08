@@ -14,7 +14,7 @@ breadcrumb: [Define and build the data model, Build your application, Exploring 
 
 Create tables and fields on the tables to support the application’s data model.
 
-**Note:** Consider creating applications with help from agentic AI. For more information, see [Agentic development on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/use-ai-capabilities-in-custom-apps.md).
+**Note:** Consider creating applications with help from agentic AI. For more information, see [Build applications with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/build-ai-workflow-factory-prime.md).
 
 ServiceNow automatically adds five fields to each new table. The new fields contain auto-populated information about the table.
 

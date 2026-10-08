@@ -7,8 +7,8 @@ release: brazil
 product: Now Assist Skills
 classification: now-assist-skills
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 8
+last_updated: "2026-10-05"
+reading_time_minutes: 9
 keywords: [Skills, Generative AI, Gen AI]
 breadcrumb: [Generative AI skills, Enable AI Experiences]
 ---
@@ -23,11 +23,9 @@ By default, all skills exist in the global domain. When you use AI in a domain-s
 
 **Note:** Some workflow skills support ServiceNow Otto functionality. Deactivating these skills can negatively affect some features.
 
-<table id="table_yz3_mqd_dbc"><thead><tr><th class="filter">
+## IT and digital operations
 
-Workflow
-
-</th><th class="filter">
+<table id="table_technology-workflow"><thead><tr><th class="filter">
 
 Product
 
@@ -37,38 +35,18 @@ Available skills
 
 </th></tr></thead><tbody><tr><td>
 
-Technology
-
-</td><td>
-
-[ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/now-assist-for-cwm-landing.md)
+[ServiceNow Otto for Collaborative Work Management \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/now-assist-for-cwm-landing.md)
 
 </td><td>
 
 -   [Acceptance criteria generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/generate-acceptance-criteria-for-stories-in-cwm.md)
+-   [CWM subtask generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/generate-subtasks-for-cwm-tasks.md)
+-   [CWM contextual task generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/generate-tasks-cwm-boards.md)
 -   [Docs summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/summarize-doc-now-assist-cwm.md)
 -   [Doc generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/generate-summarize-and-refine-content-of-docs-with-now-assist.md)
 -   [Task generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/generate-tasks-cwm-docs-now-assist.md)
 
 </td></tr><tr><td>
-
-Technology
-
-</td><td>
-
-[ServiceNow Otto for Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/now-assist-landing-cmdb.md)
-
-</td><td>
-
--   [Configuration item \(CI\) summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/na-cmdb-agent-ci-summarizer.md)
--   [Manage duplicate CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/now-assist-cmdb-mng-dupe-cis-skill.md)
--   [Service Graph Connector diagnosis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/now-assist-sgc-diagnose.md)
-
-</td></tr><tr><td>
-
-Technology
-
-</td><td>
 
 [ServiceNow Otto for Cloud Cost Management \(CCM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/ai-ccm.md)
 
@@ -78,38 +56,19 @@ Technology
 
 </td></tr><tr><td>
 
-Technology
-
-</td><td>
-
 [ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/now-assist-ea.md)
 
 </td><td>
 
 -   [ADR DOC summarization and actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/summarize-docs-genai-skill-ea.md)
 -   [Business application insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/generate-insights-into-ba.md)
+-   [Review AI-generated business process map diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-review-ai-generated-bpm-diag.md)
 -   [Diagram change analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/compare-modeling-diagrams.md)
 -   [Refine text](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/elaborate-or-shorten-content-form-fields.md)
 -   [Register a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/register-business-application-using-conversational-experience.md)
 -   [Register a digital integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/register-digital-integration-using-conv-exp.md)
 
 </td></tr><tr><td>
-
-Technology
-
-</td><td>
-
-[ServiceNow Otto for Operational Sustainability \(formerly ESG\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/now-assist-for-esg.md)
-
-</td><td>
-
-[Extract data from utility invoices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/extract-data-from-utility-invoices.md)
-
-</td></tr><tr><td>
-
-Technology
-
-</td><td>
 
 [ServiceNow Otto for Hardware Asset Management \(HAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/now-assist-ham.md)
 
@@ -119,9 +78,133 @@ Technology
 
 </td></tr><tr><td>
 
-Technology
+[IT Operations Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/r_ITOMApplications.md)
 
 </td><td>
+
+[ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-visibility-landing-page.md)
+
+-   [Service mapping candidate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/activate-sm-candidate-skill.md)
+-   [Service mapping candidates impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/activate-sm-candidates-impact-skill.md)
+
+ [ITOM AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-health-landing-page.md)
+
+-   [Alert analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/alert-summarization-now-assist.md)
+-   [Alert group analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/alert-group-analysis-el.md)
+-   [Alert group description generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/alert-group-descr-generate-el.md)
+-   [Past incident analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/nai-past-incidents.md)
+-   [AI-generated incident creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/create-incident-now-assist-el.md)
+-   [Analyze service observability dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/analyze-a-dashboard-in-service-observability.md)
+-   [Analyze service health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/analyze-service-health-in-service-observability.md)
+-   [Error analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-errors-now-assist.md)
+
+</td></tr><tr><td>
+
+[IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/r_ITServiceManagement.md)
+
+</td><td>
+
+-   [Change request risk explanation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-risk-exp-now-assist.md)
+-   [Change request summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/summarize-change-now-assist.md)
+-   [Chat reply recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/now-assist-itsm-chat-recommendation.md)
+-   [Chat summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/generate-chat-summary-interaction-now-assist-itsm.md)
+-   [Email recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/now-assist-itsm-email-recommendation.md)
+-   [Generate change risk assessments answers and reasoning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/generate-change-risk-assessment-answers-now-assist.md)
+-   [Incident activity response generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/now-assist-itsm-activities-response-generation.md)
+-   [Incident assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/now-assist-itsm-incident-assist.md)
+-   [Incident sentiment analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/sentiment-analysis-now-assist-itsm.md)
+-   [Incident summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/summarize-incident-now-assist.md)
+-   [Investigate boot time issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/investigate-and-resolve-boot-time-issues.md)
+-   [Investigate Zoom call quality issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/investigate-and-resolve-zoom-call-issues.md)
+-   [KB generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/Now-Assist-generate-article-SOW-itsm.md)
+-   [Major incident management email content recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/now-assist-itsm-mim-email-recommendation.md)
+-   [Release notes generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/now-assist-itsm-dpr-generate-release-notes.md)
+-   [Request activity response generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/cust-now-assist-request-summarization-skill.md)
+-   [Requested item activity response generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/cust-now-assist-request-summarization-skill.md)
+-   [Resolution notes generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/resolve-incident-now-assist.md)
+-   [Sidebar discussion summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/now-assist-itsm-sidebar-discussion.md)
+-   [Suggested steps generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/resolution-steps-generation-now-assist-itsm.md)
+
+</td></tr><tr><td>
+
+[Operational Technology \(OT\) Manager Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/now-assist-for-otm-landing.md)
+
+</td><td>
+
+[Search for a related record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/search-related-records-ot-cmdb-tables-now-assist-otm.md)
+
+</td></tr><tr><td>
+
+[ServiceNow Otto for Operational Technology \(OT\) Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/now-assist-for-operational-technology-service-management.md)
+
+</td><td>
+
+-   [OT incident summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/summarize-ot-incident-now-assist.md)
+-   [OT resolution notes generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/generate-resolution-notes-ot-incident.md)
+
+</td></tr><tr><td>
+
+[ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/now-assist-sam.md)
+
+</td><td>
+
+-   [Extract entitlements from contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/extract-entitlements-from-contracts-now-assist-sam.md)
+-   [Error log summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/troubleshooting-saas-now-assist-sam.md)
+-   [Error resolution recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/troubleshooting-saas-now-assist-sam.md)
+-   [Publisher compliance summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/summarize-publisher-compliance-now-assist-sam.md)
+-   [Product compliance summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/summarize-product-compliance-now-assist-sam.md)
+-   [Recommended actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/recommended-actions-now-assist-sam.md)
+-   [SaaS user resolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/automate-userresolution-saas-now-assist-sam.md)
+-   [Contract entitlement data extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/extract-entitlements-from-contracts-now-assist-sam.md)
+-   [Product match reviewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/resolve-entitlement-import-error.md)
+-   [Software normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/resolve-entitlement-import-error.md)
+-   [Spend transaction software classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/classify-normalize-software-spend-transactions.md)
+-   [Spend transaction software normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/classify-normalize-software-spend-transactions.md)
+
+</td></tr><tr><td>
+
+[ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/now-assist-spm.md)
+
+</td><td>
+
+-   [Acceptance criteria generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/eap-generate-acceptance-criteria-for-stories.md)
+-   [Create a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-creation-using-now-assist.md)
+-   [EAP doc summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/summarize-and-refine-docs-content-in-eap.md)
+-   [Epic status assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/assess-epic-status-now-assist-eap.md)
+-   [Goal insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/generate-insights-for-goal-spw.md)
+-   [Identify similar records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/identify-similar-demand-records.md)
+-   [Multi feedback summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/feedback-summary-sentiment-topics-pf.md)
+-   [Planning item doc summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/summarize-docs-genai-skill-pf.md)
+-   [Portfolio insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/view-portfolio-insights.md)
+-   [Project doc summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/summarize-docs-genai-skill-pw.md)
+-   [Project insights generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/email-project-summary-pw.md)
+-   [Project plan generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/generate-project-using-ai-pw.md)
+-   [Refine records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/refine-text-with-write-planning-item-skill.md)
+-   [Risk generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/generate-risks-using-ai-pw.md)
+-   [Story generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/generate-stories-from-epics-now-assist-eap.md)
+-   [Target generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/generate-targets-for-goal.md)
+-   [Write planning item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/refine-text-with-write-planning-item-skill.md)
+
+</td></tr></tbody>
+</table>## Security and Risk
+
+<table id="table_vault-workflow"><thead><tr><th class="filter">
+
+Product
+
+</th><th>
+
+Available skills
+
+</th></tr></thead><tbody><tr><td>
+
+[ServiceNow Otto for Operational Sustainability \(formerly ESG\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/now-assist-for-esg.md)
+
+</td><td>
+
+[Extract data from utility invoices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/extract-data-from-utility-invoices.md)
+
+</td></tr><tr><td>
 
 [ServiceNow Otto for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/now-assist-for-irm.md)
 
@@ -146,82 +229,6 @@ Technology
 
 </td></tr><tr><td>
 
-Technology
-
-</td><td>
-
-[IT Operations Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/r_ITOMApplications.md)
-
-</td><td>
-
--   [Alert analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/alert-summarization-now-assist.md)
--   [Alert investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/nai-analyze-past-incidents.md)
--   [Analyze service health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/analyze-service-health-in-service-observability.md)
--   [Analyze service observability dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/analyze-a-dashboard-in-service-observability.md)
--   [LEAP installer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/aiops-leap.md)
--   Service Mapping Candidate
--   Service mapping candidates Impact
-
-</td></tr><tr><td>
-
-Technology
-
-</td><td>
-
-[ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/now-assist-itsm.md)
-
-</td><td>
-
--   [Change request risk explanation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-risk-exp-now-assist.md)
--   [Change request summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/summarize-change-now-assist.md)
--   [Chat reply recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/now-assist-itsm-chat-recommendation.md)
--   [Chat summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/generate-chat-summary-interaction-now-assist-itsm.md)
--   [Email recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/now-assist-itsm-email-recommendation.md)
--   [Generate change risk assessments answers and reasoning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/generate-change-risk-assessment-answers-now-assist.md)
--   [Incident assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/now-assist-itsm-incident-assist.md)
--   [Incident sentiment analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/sentiment-analysis-now-assist-itsm.md)
--   [Incident summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/summarize-incident-now-assist.md)
--   [Investigate boot time issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/investigate-and-resolve-boot-time-issues.md)
--   [Investigate Zoom call quality issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/investigate-and-resolve-zoom-call-issues.md)
--   [KB generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/Now-Assist-generate-article-SOW-itsm.md)
--   [Release notes generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/now-assist-itsm-dpr-generate-release-notes.md)
--   [Request activity response generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/cust-now-assist-request-summarization-skill.md)
--   [Requested item activity response generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/cust-now-assist-request-summarization-skill.md)
--   [Resolution notes generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/resolve-incident-now-assist.md)
--   [Sidebar discussion summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/now-assist-itsm-sidebar-discussion.md)
--   [Suggested steps generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/resolution-steps-generation-now-assist-itsm.md)
-
-</td></tr><tr><td>
-
-Technology
-
-</td><td>
-
-[Operational Technology \(OT\) Manager Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/now-assist-for-otm-landing.md)
-
-</td><td>
-
-[Search for a related record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/search-related-records-ot-cmdb-tables-now-assist-otm.md)
-
-</td></tr><tr><td>
-
-Technology
-
-</td><td>
-
-[ServiceNow Otto for Operational Technology \(OT\) Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/now-assist-for-operational-technology-service-management.md)
-
-</td><td>
-
--   [OT incident summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/summarize-ot-incident-now-assist.md)
--   [OT resolution notes generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/generate-resolution-notes-ot-incident.md)
-
-</td></tr><tr><td>
-
-Technology
-
-</td><td>
-
 [ServiceNow Otto for Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/now-assist-for-privacy-management.md)
 
 </td><td>
@@ -230,12 +237,33 @@ Technology
 -   [Common control objective creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-take-actions-on-the-recommendations-for-similar-control-objectives.md)
 -   [Recommendation of similar control objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-generate-recommendation-for-a-new-control-objective.md)
 -   [Risk assessment summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/privacy-generate-risk-assessment-summary.md)
+-   [GRC case summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/summarize-privacy-case.md)
 
 </td></tr><tr><td>
 
-Technology
+[GRC: Compliance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/compliance-case-management.md)
 
 </td><td>
+
+[GRC case summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/summarize-compliance-case.md)
+
+</td></tr><tr><td>
+
+[GRC: Third-party Risk Management \(TPRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-mgt-landing-page.md)
+
+</td><td>
+
+[TPRM issue summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/create-a-summary-of-issue.md)
+
+</td></tr><tr><td>
+
+[ServiceNow Otto for Smart Assessment Engine \(SAE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/exploring-servicenow-otto-for-sae.md)
+
+</td><td>
+
+[Draft response generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/generate-ai-driven-draft-responses-for-smart-assessment.md)
+
+</td></tr><tr><td>
 
 [ServiceNow Otto for Security Incident Response \(SIR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/now-assist-security-incident-landing.md)
 
@@ -252,64 +280,13 @@ Technology
 
 </td></tr><tr><td>
 
-Technology
+[Threat Intelligence Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/tisc-landing-page.md)
 
 </td><td>
 
-[ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/now-assist-sam.md)
-
-</td><td>
-
--   [Extract entitlements from contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/extract-entitlements-from-contracts-now-assist-sam.md)
--   [Error log summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/troubleshooting-saas-now-assist-sam.md)
--   [Error resolution recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/troubleshooting-saas-now-assist-sam.md)
--   [Publisher compliance summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/summarize-publisher-compliance-now-assist-sam.md)
--   [Product compliance summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/summarize-product-compliance-now-assist-sam.md)
--   [Recommended actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/recommended-actions-now-assist-sam.md)
--   [SaaS user resolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/automate-userresolution-saas-now-assist-sam.md)
--   [Contract entitlement data extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/extract-entitlements-from-contracts-now-assist-sam.md)
--   [Product match reviewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/resolve-entitlement-import-error.md)
--   [Software normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/resolve-entitlement-import-error.md)
+[TISC case summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/now-assist-tisc-case-summarization.md)
 
 </td></tr><tr><td>
-
-Technology
-
-</td><td>
-
-[ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/now-assist-spm.md)
-
-</td><td>
-
--   [Create a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/demand-creation-using-now-assist.md)
--   [EAP doc summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/summarize-and-refine-docs-content-in-eap.md)
--   [Identify similar records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/identify-similar-demand-records.md)
--   [Multi feedback summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/feedback-summary-sentiment-topics-pf.md)
--   [Planning item doc summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/summarize-docs-genai-skill-pf.md)
--   [Project doc summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/summarize-docs-genai-skill-pw.md)
--   [Project insights generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/email-project-summary-pw.md)
--   [Refine records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/refine-text-with-write-planning-item-skill.md)
--   [Story generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/generate-stories-from-epics-now-assist-eap.md)
--   [Target generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/generate-targets-for-goal.md)
--   [Write planning item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/refine-text-with-write-planning-item-skill.md)
-
-</td></tr><tr><td>
-
-Technology
-
-</td><td>
-
-[GRC: Third-party Risk Management \(TPRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-mgt-landing-page.md)
-
-</td><td>
-
-[TPRM issue summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/create-a-summary-of-issue.md)
-
-</td></tr><tr><td>
-
-Technology
-
-</td><td>
 
 [Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/vuln-landing-page.md)
 
@@ -322,11 +299,18 @@ Technology
 -   [Suggest vulnerability solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/solutions-now-assist-vulnerability-response.md)
 -   [Vulnerable item deduplication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/dedupe-host-vi-now-assist-vulnerability-response.md)
 
-</td></tr><tr><td>
+</td></tr></tbody>
+</table>## Customer experiences \(CRM\)
 
-Customer
+<table id="table_customer-workflow"><thead><tr><th class="filter">
 
-</td><td>
+Product
+
+</th><th>
+
+Available skills
+
+</th></tr></thead><tbody><tr><td>
 
 [ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/now-assist-csm.md)
 
@@ -334,9 +318,11 @@ Customer
 
 -   [Activity response generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/generate-a-recommendation-to-respond-to-an-activity.md)
 -   [Automated quality assurance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/quality-assurance-management.md)
+-   [Call summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/summarize-a-call-by-using-now-assist-for-customer-service-management-csm.md)
 -   [Case summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/now-assist-csm-summarize-case.md)
 -   [Chat recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/generate-chat-reply-recommendations.md)
 -   [Chat summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/now-assist-csm-summarize-chat.md)
+-   [Create case based on service definition recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/use-service-definition-rec.md)
 -   [Customer summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/configure-customer-summarization-in-now-assist-for-csm.md)
 -   [Email recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/generate-email-reply-recommendations.md)
 -   [KB generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/Now-Assist-generate-article-csm-workspace.md)
@@ -351,10 +337,6 @@ Customer
 
 </td></tr><tr><td>
 
-Customer
-
-</td><td>
-
 [Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/fsm-application-landing-page.md)
 
 </td><td>
@@ -365,22 +347,16 @@ Customer
 
 </td></tr><tr><td>
 
-Customer
-
-</td><td>
-
 [Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/fso-overview.md)
 
 </td><td>
 
--   [Case summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/summarize-case-using-now-assist-fso.md)
+-   [Case summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/case-summarization-fso.md)
 -   [Disputes intake via Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/submit-dispute-case-disputes-intake-via-virtual-agent.md)
+-   [Customer profile summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/summarize-customer-profile-fso.md)
+-   [Customer interaction context summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/summarize-customer-context-fso.md)
 
 </td></tr><tr><td>
-
-Customer
-
-</td><td>
 
 [Sales Customer Relationship Management \(Sales CRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/ai-capabilities-sales-crm.md)
 
@@ -390,46 +366,79 @@ Customer
 
 </td></tr><tr><td>
 
-Customer
-
-</td><td>
-
-
+[Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/bun-public-sector-landing-page.md)
 
 </td><td>
 
 -   [Government case summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/now-assist-psds-summarize-case.md)
 -   [Chat summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/now-assist-psds-summarize-chat.md)
+-   [Document screening](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-ai-skill-using-doc-screening.md)
+-   [Investigative case narrative refinement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-using-na-refine-icm-case-narrative.md)
+-   [Investigative case summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-using-na-summarize-icm-case.md)
 
 </td></tr><tr><td>
 
-Customer
+[Customer Success Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-events-landing.md)
 
 </td><td>
 
-[ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-spmc.md)
+-   [Account onboarding case summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/now-assist-tmt-summarize-onboard-case.md)
+-   [Analyze metric trend](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/now-assist-tmt-analyze-metric-trend.md)
+-   [Customer play summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/now-assist-tmt-summarize-success-play.md)
+-   [Engagement summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/now-assist-tmt-summarize-engagement.md)
+-   [Internal play summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/now-assist-tmt-summarize-plays.md)
+-   [Renewal insight engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/renewal-insight.md)
+-   [Risk signal and issues summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/now-assist-tmt-summarize-risk-signals-issues.md)
+-   [Success initiative summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/now-assist-tmt-summarize-success-init.md)
+-   [Touchpoint summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/now-assist-tmt-summarize-touchpoint.md)
+
+</td></tr><tr><td>
+
+[Product Support for Technology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/assurance-workflows.md)
 
 </td><td>
 
--   [Account onboarding case summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-tmt-summarize-onboard-case.md)
--   [Customer play summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-tmt-summarize-success-play.md)
+-   [Event-context candidate recommender](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/now-assist-tmt-reco-actions-skill.md)
+-   [Executive insight generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/now-assist-tmt-exec-insight-gen.md)
+
+</td></tr><tr><td>
+
+[Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/telecom-media-tech-landing.md)
+
+</td><td>
+
+-   [Comprehensive summary of linked records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-tmt-summarize-linked-record.md)
 -   [Customer service summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-tmt-summarize-knowledge-graph.md)
--   [Engagement summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-tmt-summarize-engagement.md)
--   [Internal play summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-tmt-summarize-plays.md)
--   [KB generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-tmt-generate-knowledge-article.md)
+-   [Deadlock letter draft generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-tmt-generate-deadlock-letter.md)
+-   [Generate Telecom Customer 360 insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/c360-ai-insights.md)
+-   Remote hands request summarization
 -   [Resolution notes generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-tmt-generate-resolution.md)
--   [Risk signal and issues summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-tmt-summarize-risk-signals-issues.md)
+-   [Resolution notes generation for ADR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-tmt-generate-resolution-notes-ad.md)
 -   [Service problem case summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-tmt-summarize-case.md)
--   [Success initiative summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-tmt-summarize-success-init.md)
 -   [Test summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-tmt-summarize-test.md)
--   [Touchpoint summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-tmt-summarize-touchpoint.md)
--   [Transform mapping assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-tmt-generate-transform-maps.md)
+-   
+
 
 </td></tr><tr><td>
 
-Employee
+[Service Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/tmt-service-bridge-both-landing-page.md)
 
 </td><td>
+
+[Transform mapping assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/now-assist-tmt-generate-transform-maps.md)
+
+</td></tr></tbody>
+</table>## Employee experiences
+
+<table id="table_employee-workflow"><thead><tr><th class="filter">
+
+Product
+
+</th><th>
+
+Available skills
+
+</th></tr></thead><tbody><tr><td>
 
 [ServiceNow Otto for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/now-assisit-employee-exp.md)
 
@@ -441,10 +450,6 @@ Employee
 
 </td></tr><tr><td>
 
-Employee
-
-</td><td>
-
 [ServiceNow Otto for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/now-assist-hs-landing.md)
 
 </td><td>
@@ -452,10 +457,6 @@ Employee
 [Incident summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/now-assist-hs-summarize-safety-incident.md)
 
 </td></tr><tr><td>
-
-Employee
-
-</td><td>
 
 [ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/now-assist-hrsd.md)
 
@@ -474,10 +475,6 @@ Employee
 
 </td></tr><tr><td>
 
-Employee
-
-</td><td>
-
 [Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/legal-management-overview.md)
 
 </td><td>
@@ -489,10 +486,6 @@ Employee
 -   [Triage legal request capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/trans-legal-request-agent.md)
 
 </td></tr><tr><td>
-
-Employee
-
-</td><td>
 
 [Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/cncore-cmpro-landing-page.md)
 
@@ -506,10 +499,6 @@ Employee
 
 </td></tr><tr><td>
 
-Employee
-
-</td><td>
-
 [ServiceNow Otto for Workplace Service Delivery \(WSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/now-assist-wsd-landing.md)
 
 </td><td>
@@ -519,9 +508,160 @@ Employee
 
 </td></tr><tr><td>
 
-Creator
+[ServiceNow Otto for Accounts Payable Operations \(APO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/source-to-pay-operations/now-assist-apo.md)
 
 </td><td>
+
+-   [Email response for invoice case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/source-to-pay-operations/generate-email-invoice-case-apo.md)
+-   [Email response for invoice task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/source-to-pay-operations/generate-email-invoice-task-apo.md)
+-   [Invoice case summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/source-to-pay-operations/now-assist-summarize-apo.md)
+-   [Invoice inquiry solution generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/source-to-pay-operations/use-invoice-inquiry-solution-generator-skill.md)
+-   [Knowledge article generation for invoice case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/source-to-pay-operations/create-knowledge-article-single-case.md)
+-   [Purchase order line mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/source-to-pay-operations/use-purchase-order-line-mapping.md)
+-   [Purchase order summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/source-to-pay-operations/now-assist-fsc-summarize-po.md)
+-   [Sentiment analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/source-to-pay-operations/analyze-sentiments-in-invoice-case.md)
+
+</td></tr><tr><td>
+
+[ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/source-to-pay-operations/now-assist-slo.md)
+
+</td><td>
+
+-   [Email response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/source-to-pay-operations/generate-email-response-for-supplier-tasks.md)
+-   [Sentiment analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/source-to-pay-operations/slo-analyze-sentiments.md)
+-   [Supplier case summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/source-to-pay-operations/now-assist-slo-summarize-case.md)
+-   [Supplier summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/source-to-pay-operations/cust-na-fsc-supplier-skill.md)
+-   [Supplier performance summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/source-to-pay-operations/summarize-supp-perf.md)
+
+</td></tr><tr><td>
+
+[ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/source-to-pay-operations/now-assist-spo.md)
+
+</td><td>
+
+-   [Negotiation summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/source-to-pay-operations/now-assist-spo-summarize-record.md)
+-   [Procurement case summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/source-to-pay-operations/now-assist-spo-summarize-record.md)
+-   [Purchase requisition summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/source-to-pay-operations/now-assist-spo-summarize-record.md)
+-   [Sourcing event summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/source-to-pay-operations/now-assist-spo-summarize-record.md)
+-   [Sourcing request summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/source-to-pay-operations/now-assist-spo-summarize-record.md)
+
+</td></tr></tbody>
+</table>## AI Platform
+
+<table id="table_platform-workflow"><thead><tr><th class="filter">
+
+Product
+
+</th><th>
+
+Available skills
+
+</th></tr></thead><tbody><tr><td>
+
+[Now Assist skills in the Platform workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skills/now-assist-on-now-platform.md)
+
+</td><td>
+
+-   [Article optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skills/now-assist-article-optimization.md)
+-   [Catalog item form slot-fill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skills/catalog-item-form-slot-fill.md)
+-   [Complete record generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-data-kit/now-assist-data-kit-landing.md)
+-   [Conversational Help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skills/conversational-help-skills.md)
+-   [Document summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/generate-document-summary-now-assist.md)
+-   [Dynamic Guidance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/dynamic-guidance.md)
+-   [Extract information from documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skills/now-assist-extract-information-from-documents.md)
+-   [GAF skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configure-gaf.md)
+-   [Identify duplicate articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/Now-Assist-identify-and-review-duplicate-articles.md)
+-   [Knowledge content recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skills/now-assist-platform-knowledge.md)
+-   [Navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skills/now-assist-global-navigation.md)
+-   [New column data generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-data-kit/now-assist-data-kit-landing.md)
+-   [Potential knowledge gaps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skills/potential-knowledge-gaps.md)
+-   [Requester approval checklist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skills/service-portal-approval-checklist-skill.md)
+-   [ServiceNow Lens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/servicenow-lens/servicenow-lens-landing-page.md)
+-   [Smart documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configure-skill-smart-documents.md)
+-   [Standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skills/now-assist-in-standard-ticket-page.md)
+-   [TextToResult](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/knowledge-graph/knowledge-graph-landing.md)
+-   [Voice Assist for Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/generate-audio-summary-voice-questions-now-assist.md)
+
+</td></tr><tr><td>
+
+[ServiceNow Otto for Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/now-assist-landing-cmdb.md)
+
+</td><td>
+
+-   [Analyze the CMDB search request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/na-cmdb-skill-search-result-classfy.md)
+-   CI form contextual help
+-   [Configuration item \(CI\) summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/na-cmdb-agent-ci-summarizer.md)
+-   [Manage duplicate CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/now-assist-cmdb-mng-dupe-cis-skill.md)
+-   [Service Graph Connector diagnosis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/now-assist-sgc-diagnose.md)
+-   [Summarize CMDB readiness](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/na-cmdb-skill-summ-rdy.md)
+
+</td></tr><tr><td>
+
+[ServiceNow Otto for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/now-assist-vault-landing.md)
+
+</td><td>
+
+-   [Check role access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/check-role-access-now-assist-vault.md)
+-   [Generate custom data pattern](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/generate-custom-data-pattern-now-assist-vault.md)
+-   [Schedule Data Discovery job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/schedule-data-discovery-job-now-assist-vault.md)
+
+</td></tr><tr><td>
+
+[ServiceNow Otto for Zero Copy Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/now-assist-for-zero-copy-connector-for-erp.md)
+
+</td><td>
+
+-   [ERP data discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/now-assist-erp-data-discovery-skill.md)
+-   [ERP data query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/now-assist-erp-data-query.md)
+
+</td></tr><tr><td>
+
+[Now Assist skills for Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/now-assist-platform-analytics.md)
+
+</td><td>
+
+[AI Data Explorer skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/activate-aide-explorer.md) -   [Analytics exploration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/launch-ai-data-explorer.md)
+-   [Exploration summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/summarize-exploration.md)
+-   [Refine text in exploration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/write-text-exploration.md)
+
+ [Query Generation skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/enable-query-generation.md) -   Analytics query generation
+-   Analytics insight generation
+-   Analytics follow up generation
+-   Analytics hidden insight generation
+
+ Skills installed by default with Platform:
+
+ -   [Dashboard and visualization export](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/export-db-dv-now-assist-panel.md)
+-   [Data visualization generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/use-dv-generation.md)
+
+</td></tr><tr><td>
+
+[Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/localization-workspace.md)
+
+</td><td>
+
+[Generate Glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/lw-create-glossary-using-ai.md)
+
+</td></tr></tbody>
+</table>## App development
+
+<table id="table_app-engine-workflow"><thead><tr><th class="filter">
+
+Product
+
+</th><th>
+
+Available skills
+
+</th></tr></thead><tbody><tr><td>
+
+[ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/add-ai-to-custom-apps-with-now-assist-for-app-engine-enterprise.md)
+
+</td><td>
+
+[Custom app record summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/custom-app-record-summarization-na-for-app-engine.md)
+
+</td></tr><tr><td>
 
 Creator
 
@@ -537,6 +677,7 @@ Creator
 -   [Code Assist generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/scripts/generate-scripts-from-text.md)
 -   [Event handler generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/configure-an-event-handler-with-now-assist.md)
 -   [Create an AI-generated experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/generate-ui.md)
+-   [Turn on the Flow execution analysis skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/turn-on-the-flow-execution-analysis-skill.md)
 -   [Flow generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/flow-generation-landing.md)
 -   [Flow generation with images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/flow-generation-with-images-landing.md)
 -   [Flow recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/flow-recommendations-landing.md)
@@ -552,135 +693,20 @@ Creator
 -   [Spoke generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/create-spk-now-spk-gen.md)
 -   [Work notes analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/run-worknotes-analysis.md)
 
-</td></tr><tr><td>
+</td></tr></tbody>
+</table>## Impact
 
-Platform
+<table id="table_impact-workflow"><thead><tr><th class="filter">
 
-</td><td>
+Product
 
-[Now Assist skills in the Platform workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skills/now-assist-on-now-platform.md)
+</th><th>
 
-</td><td>
+Available skills
 
--   [Article optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skills/now-assist-article-optimization.md)
--   [Complete record generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-data-kit/now-assist-data-kit-landing.md)
--   [Conversational Help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skills/conversational-help-skills.md)
--   [Document summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/generate-document-summary-now-assist.md)
--   [Dynamic Guidance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/dynamic-guidance.md)
--   [Extract information from documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skills/now-assist-extract-information-from-documents.md)
--   [GAF skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configure-gaf.md)
--   [Identify duplicate articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/Now-Assist-identify-and-review-duplicate-articles.md)
--   [Knowledge content recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skills/now-assist-platform-knowledge.md)
--   [Navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skills/now-assist-global-navigation.md)
--   [New column data generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-data-kit/now-assist-data-kit-landing.md)
--   [Potential knowledge gaps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skills/potential-knowledge-gaps.md)
--   [Requester approval checklist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skills/service-portal-approval-checklist-skill.md)
--   [ServiceNow Lens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/servicenow-lens/servicenow-lens-landing-page.md)
--   [Smart documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configure-skill-smart-documents.md)
--   [TextToResult](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/knowledge-graph/knowledge-graph-landing.md)
+</th></tr></thead><tbody><tr><td>
 
-</td></tr><tr><td>
-
-Platform
-
-</td><td>
-
-[Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/localization-workspace.md)
-
-</td><td>
-
-[Generate Glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/lw-create-glossary-using-ai.md)
-
-</td></tr><tr><td>
-
-Data and Analytics
-
-</td><td>
-
-[Now Assist skills for Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/now-assist-platform-analytics.md)
-
-</td><td>
-
-[AI Data Explorer skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/activate-aide-explorer.md)-   [Analytics exploration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/launch-ai-data-explorer.md)
--   [Exploration summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/summarize-exploration.md)
--   [Refine text in exploration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/write-text-exploration.md)
-
-[Query Generation skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/enable-query-generation.md)-   Analytics query generation
--   Analytics insight generation
--   Analytics follow up generation
--   Analytics hidden insight generation
-
-Skills installed by default with Platform:
-
--   [Dashboard and visualization export](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/export-db-dv-now-assist-panel.md)
--   [Data visualization generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/use-dv-generation.md)
-
-</td></tr><tr><td>
-
-Finance &amp; Supply Chain
-
-</td><td>
-
-[ServiceNow Otto for Accounts Payable Operations \(APO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/source-to-pay-operations/now-assist-apo.md)
-
-</td><td>
-
--   [Invoice case summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/source-to-pay-operations/now-assist-summarize-apo.md)
--   [Invoice inquiry solution generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/source-to-pay-operations/use-invoice-inquiry-solution-generator-skill.md)
--   [Purchase order line mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/source-to-pay-operations/use-purchase-order-line-mapping.md)
--   [Purchase order summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/source-to-pay-operations/now-assist-fsc-summarize-po.md)
-
-</td></tr><tr><td>
-
-Finance &amp; Supply Chain
-
-</td><td>
-
-[ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/source-to-pay-operations/now-assist-slo.md)
-
-</td><td>
-
--   [Email response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/source-to-pay-operations/generate-email-response-for-supplier-tasks.md)
--   [Sentiment analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/source-to-pay-operations/slo-analyze-sentiments.md)
--   [Supplier case summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/source-to-pay-operations/now-assist-slo-summarize-case.md)
--   [Supplier summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/source-to-pay-operations/cust-na-fsc-supplier-skill.md)
--   [Supplier performance summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/source-to-pay-operations/summarize-supp-perf.md)
-
-</td></tr><tr><td>
-
-Finance &amp; Supply Chain
-
-</td><td>
-
-[ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/source-to-pay-operations/now-assist-spo.md)
-
-</td><td>
-
--   [Negotiation summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/source-to-pay-operations/now-assist-spo-summarize-record.md)
--   [Procurement case summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/source-to-pay-operations/now-assist-spo-summarize-record.md)
--   [Purchase requisition summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/source-to-pay-operations/now-assist-spo-summarize-record.md)
--   [Sourcing event summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/source-to-pay-operations/now-assist-spo-summarize-record.md)
--   [Sourcing request summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/source-to-pay-operations/now-assist-spo-summarize-record.md)
-
-</td></tr><tr><td>
-
-App Engine
-
-</td><td>
-
-[ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/add-ai-to-custom-apps-with-now-assist-for-app-engine-enterprise.md)
-
-</td><td>
-
-[Custom app record summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/custom-app-record-summarization-na-for-app-engine.md)
-
-</td></tr><tr><td>
-
-Impact
-
-</td><td>
-
-[Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/impact-landing-page.md)The Impact workflow contains technical accelerators that can help you get started more quickly with some Now Assist features.
+[Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/impact-landing-page.md) The Impact workflow contains technical accelerators that can help you get started more quickly with some Now Assist features.
 
 </td><td>
 
@@ -688,33 +714,6 @@ Impact
 -   [Jumpstart Your ServiceNow Otto for Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/jumpstart-your-now-assist-document-intelligence.md)
 -   [Jumpstart Your ServiceNow Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/jumpstart-now-assist-virtual-agent.md)
 -   [Jumpstart Your ServiceNow Otto Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/jumpstart-now-assist-skill-kit.md)
-
-</td></tr><tr><td>
-
-Vault
-
-</td><td>
-
-[ServiceNow Otto for Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/now-assist-vault-landing.md)
-
-</td><td>
-
--   [Check role access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/check-role-access-now-assist-vault.md)
--   [Generate custom data pattern](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/generate-custom-data-pattern-now-assist-vault.md)
--   [Schedule Data Discovery job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/schedule-data-discovery-job-now-assist-vault.md)
-
-</td></tr><tr><td>
-
-Other
-
-</td><td>
-
-[ServiceNow Otto for Zero Copy Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/now-assist-for-zero-copy-connector-for-erp.md)
-
-</td><td>
-
--   [ERP data discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/now-assist-erp-data-discovery-skill.md)
--   [ERP data query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/now-assist-erp-data-query.md)
 
 </td></tr></tbody>
 </table>

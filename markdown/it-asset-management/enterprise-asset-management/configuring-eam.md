@@ -56,13 +56,11 @@ Optional. This application provides functionalities, features, and workflows of 
 
 </td><td>
 
-[Install Enterprise Asset Management for Healthcare from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/install-eam-for-healthcare.md)
-
- [Enterprise Asset Management for Healthcare](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/eam-for-healthcare.md)
+[Installing Enterprise Asset Management for Healthcare](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/installing-eam-healthcare.md)
 
 </td></tr><tr><td>
 
-Install OT Asset Management application
+Install the OT Asset Management application
 
 </td><td>
 
@@ -70,9 +68,7 @@ Optional. This application helps you to manage assets of the Industrial model ca
 
 </td><td>
 
-[Install OT Asset Management from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/install-otam.md)
-
- [Install OT Asset Management from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/install-otam.md)
+[Installing OT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/installing-otam.md)
 
 </td></tr><tr><td>
 
@@ -84,7 +80,7 @@ Optional. This application provides the functionalities, features, and workflows
 
 </td><td>
 
-[Install Enterprise Asset Management for Data Center and Network Asset Management \(DCNAM\) from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/install-eam-dcnam.md)
+[Installing Enterprise Asset Management for Data Center and Network Asset Management \(DCNAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/installing-eam-dcnam.md)
 
 </td></tr><tr><td>
 
@@ -96,7 +92,7 @@ Optional. This application adds DaaS provider-based functionalities and workflow
 
 </td><td>
 
-[Install Enterprise Asset Management for Providers from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/install-eam-providers.md)
+[Installing Enterprise Asset Management for Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/installing-eam-providers.md)
 
 </td></tr><tr><td>
 

@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/understanding-scan-blocking-override-behavior.html
 release: brazil
 topic_type: concept
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 keywords: [Scan Engine, scan blocking, override]
-breadcrumb: [Scan your instance, Impact Guided Setup, Configuring Impact, Impact]
+breadcrumb: [Scan your instance, Configuring Impact, Impact]
 ---
 
 # Scan blocking and override behavior scenarios

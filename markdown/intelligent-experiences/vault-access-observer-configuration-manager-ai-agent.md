@@ -1,6 +1,6 @@
 ---
 title: Access Observer configuration manager AI agent
-description: This ServiceNow Vault agent helps users complete tasks related to Access Observer configuration manager.
+description: This ServiceNow Vault agent helps users to manage Access Observer configurations for specific fields
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/vault-access-observer-configuration-manager-ai-agent.html
 release: brazil
@@ -12,7 +12,7 @@ breadcrumb: [ServiceNow Vault AI agents, ServiceNow Vault AI agents, AI agents l
 
 # Access Observer configuration manager AI agent
 
-This ServiceNow Vault agent helps users complete tasks related to Access Observer configuration manager.
+This ServiceNow Vault agent helps users to manage Access Observer configurations for specific fields
 
 ## Workflow
 
@@ -28,7 +28,7 @@ This ServiceNow Vault agent helps users complete tasks related to Access Observe
 
     -   **Deactivate**
 
-        Collect table and column and show matching configurations. Prompt the user select one, and deactivate it.
+        Show all active configurations and have the user pick one from the list, then deactivate it.
 
     -   **Get/Fetch**
 
@@ -99,6 +99,14 @@ Get child tables recursively
 
 Get parent tables recursively
 
+Validate end date and time
+
+Validate time overlap
+
+Validate start date and time
+
+Get active AO configuration count and limit
+
 
 </td></tr><tr><td>
 
@@ -106,7 +114,7 @@ Allowed user roles The specific user roles that can access this AI agent.
 
 </td><td>
 
-snc\_internal
+Not defined.
 
 </td></tr><tr><td>
 

@@ -15,7 +15,7 @@ breadcrumb: [Managing tasks and approvals, Address action items, AI Control Towe
 
 Track a problem identified with an AI asset, such as a performance or compliance gap, through to resolution with a documented action plan.
 
-An issue tracks a problem identified with an AI asset that needs a resolution or an action plan, such as a gap surfaced during a governance review. Related issues can be grouped under a parent issue so they can be tracked and managed together. For more information about governance records associated with AI systems, see .
+An issue tracks a problem identified with an AI asset that needs a resolution or an action plan, such as a gap surfaced during a governance review. Related issues can be grouped under a parent issue so they can be tracked and managed together. For more information about governance records associated with AI systems, see [Governing AI asset risk and compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-airc-ai-asset.md).
 
 ## Issue lifecycle
 

@@ -1,18 +1,18 @@
 ---
 title: OData service recommender AI agent
-description: This AI agent is used to recommend SAP OData services and create models from them.
+description: The OData service recommender AI agent identifies relevant OData services and endpoints. The AI agent can create a model for the identified service if a model does not already exist.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/zcc-odata-service-recommender-ai-agent.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-09-22"
 reading_time_minutes: 2
 breadcrumb: [Zero Copy Connector for ERP AI agents, Zero Copy Connector AI agents, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # OData service recommender AI agent
 
-This AI agent is used to recommend SAP OData services and create models from them.
+The OData service recommender AI agent identifies relevant OData services and endpoints. The AI agent can create a model for the identified service if a model does not already exist.
 
 ## Workflow
 
@@ -20,11 +20,11 @@ This AI agent is used to recommend SAP OData services and create models from the
 2.  Verify that the request maps to exactly one SAP OData V2 service.
 3.  Check the internal SAP OData service catalog and attempt to match the user request against catalog entries using intent keywords and domain.
 4.  Resolve the request, if possible.
-5.  If the request is broad or ambiguous, suggest refinement.
+5.  If the request is broad or ambiguous, display refinement suggestions.
 6.  Validate the SAP OData V2 technical service name and begin discovery.
-7.  Final response and execution.
+7.  Generate the final response and execute.
 
-<table><thead><tr><th>
+<table id="table_jrc_mry_qkc"><thead><tr><th>
 
 Field
 
@@ -122,7 +122,13 @@ Used in agentic workflows
 Not applicable.
 
 </td></tr></tbody>
-</table>Learn more at [ServiceNow Otto for Zero Copy Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/now-assist-for-zero-copy-connector-for-erp.md) and [Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-overview.md).
+</table>For more information, see:
+
+-   
+-   [ServiceNow Otto for Zero Copy Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/now-assist-for-zero-copy-connector-for-erp.md)
+-   [Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-overview.md)
+
+[ServiceNow Otto for Zero Copy Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/now-assist-for-zero-copy-connector-for-erp.md) and [Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-overview.md).
 
 **Parent Topic:**[Zero Copy Connector for ERP AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/zcc-ai-agents-overview.md)
 

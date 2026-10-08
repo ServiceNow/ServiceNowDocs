@@ -45,7 +45,7 @@ The list collector variable creates an interface that lets you select and add mu
 -   **[Lookup multiple choice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/lookup-multiple-choice.md)**  
 The lookup multiple choice variable creates radio buttons using data from a table. Its functionality is similar to the lookup select box variable, which creates a choice list from queried data.
 -   **[Lookup select box](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/lookup-select-box.md)**  
-The lookup select box variable creates a choice list using data queried from a table. Its functionality is similar to the lookup multiple choice variable, which creates radio buttons from queried data.
+The lookup select box variable creates a choice list using data queried from a table or from a choice list. Its functionality is similar to the lookup multiple choice variable, which creates radio buttons from the same sources.
 -   **[Custom and Custom with label](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/custom.md)**  
 The custom variable inserts a UI macro into the catalog item. Custom with label variable inserts a UI macro with a label.
 -   **[Masked](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-catalog/masked.md)**  

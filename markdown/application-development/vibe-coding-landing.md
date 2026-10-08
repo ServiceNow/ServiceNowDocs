@@ -6,9 +6,9 @@ canonical_url: https://www.servicenow.com/docs/r/application-development/vibe-co
 release: brazil
 topic_type: reference
 last_updated: "2026-09-10"
-reading_time_minutes: 4
+reading_time_minutes: 5
 keywords: [vibe coding, AI-assisted development, agentic development, application development, natural language, full-stack applications, workflows, integrations, governance, security, autonomous development]
-breadcrumb: [Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Build, AI Workflow Factory, Building applications]
 ---
 
 # Agentic development on the ServiceNow AI Platform
@@ -76,7 +76,7 @@ Some ServiceNow resources that can provide you with helpful information are:
 
 -   **Getting started guide**
 
-
+    [Getting Started guide for developers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/getting-started-landing-page.md)
 
 -   **Build Agent docs**
 
@@ -98,4 +98,15 @@ Some ServiceNow resources that can provide you with helpful information are:
 
     [Contact Customer Service and Support](https://support.servicenow.com/now)
 
+
+-   **[Exploring agentic development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/exploring-vibe-coding.md)**  
+To build apps agentically on the ServiceNow AI Platform, you interact with tools through a multi-turn conversation interface to build apps, write documentation, or brainstorm ideas. Describe what you want in plain language, and the ServiceNow AI Platform generates complete applications including logic, UI, configuration, and tests.
+-   **[Onboarding for agentic development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/vibe-coding-onboarding.md)**  
+The following checklist helps to ensure your environment is properly configured, that you understand the core tools and general guidelines, and that you adopt secure, compliant workflows. Whether you're new to ServiceNow or transitioning to agentic development, this resource will set you up for success.
+-   **[Agentic development on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/vibe-coding-using.md)**  
+Use ServiceNow AI Platform environments, products, tools, and skills to develop, expand, test, and deploy apps using a conversational interface. Autonomous app development on the ServiceNow AI Platform is agentic development.
+-   **[Agentic development reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/vibe-coding-reference-landing.md)**  
+Find reference material for agentic development on the ServiceNow AI Platform, including a list of tools and prompt examples.
+
+**Parent Topic:**[Build](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/build-ai-workflow-factory-prime.md)
 

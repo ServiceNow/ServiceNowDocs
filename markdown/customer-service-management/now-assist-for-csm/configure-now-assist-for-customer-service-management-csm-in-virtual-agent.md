@@ -23,6 +23,10 @@ Role required: admin
 
 To confirm LLM-based appointment booking works in Customer Service Management, the following apps are required:
 
+-   ServiceNow Otto for Customer Service Management \(CSM\)
+-   Walk-Up for CSM \(com.snc.walkup\_for\_csm\)
+-   Conversational Appointment Booking \(sn\_va\_appt\_schedul\)
+
 ## About this task
 
 There are 6 main steps to configure ServiceNow Otto for CSM in Virtual Agent:
@@ -31,7 +35,7 @@ There are 6 main steps to configure ServiceNow Otto for CSM in Virtual Agent:
 2.  [Configure AI in Virtual Agent.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/configure-now-assist-va.md)
 3.  [Install Conversational Appointment Booking.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/conv_appt_booking_install.md)
 4.  [Enable Walk-up Experience Appointment Booking.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-walkup-appt-booking.md)
-5.  [Configure API credentials for OpenAI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configure-api-credentials-for-openai.md).
+5.  [Configure API credentials for generative AI capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configuring-api-credentials-for-generative-ai-capabilities.md).
 6.  Enable Schedule a Walk-up Appointment topic in the Virtual Agent.
 
 ## Procedure

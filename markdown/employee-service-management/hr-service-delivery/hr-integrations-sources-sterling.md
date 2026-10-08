@@ -8,7 +8,7 @@ product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Integrating with the Sterling Talent Solutions service, HR Integrations, Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
 ---
 
@@ -73,12 +73,6 @@ Enables the debug log to display responses from the third-party system. Turn on 
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Integrating with the Sterling Talent Solutions service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/hr-service-delivery/integrate-with-sterling-service.md)
-
-**Previous topic:**[Integrating with the Sterling Talent Solutions service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/hr-service-delivery/integrate-with-sterling-service.md)
-
-**Next topic:**[Verify integration for the Sterling service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/hr-service-delivery/verify-base-integration-for-sterling.md)
-
 **Parent Topic:**[Integrating with the Sterling Talent Solutions service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/hr-service-delivery/integrate-with-sterling-service.md)
 
 **Previous topic:**[Integrating with the Sterling Talent Solutions service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/hr-service-delivery/integrate-with-sterling-service.md)

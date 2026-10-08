@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-processmining-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 14
+last_updated: "2026-10-08"
+reading_time_minutes: 15
 breadcrumb: [Products combined by family]
 ---
 
@@ -560,6 +560,8 @@ Zurich
 
 Process Mining is available by default. For details, see [Activating Process Optimization](https://www.servicenow.com/docs/access?context=activating-process-mining&family=zurich&ft:locale=en-US).
 
+
+**Important:** Process Mining is available by default. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 

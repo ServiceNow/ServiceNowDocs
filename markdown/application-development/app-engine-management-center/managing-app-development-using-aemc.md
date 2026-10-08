@@ -9,7 +9,7 @@ classification: app-engine-management-center
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use, App Engine Management Center, Governing app development, Building applications]
+breadcrumb: [Use, App Engine Management Center, Run, AI Workflow Factory, Building applications]
 ---
 
 # Managing app development using the App Engine Management Center
@@ -31,6 +31,8 @@ You can track and approve or reject app intake and collaboration using the App E
 Review custom app metrics and manage apps through the development life cycle using the App Engine Management Center \(AEMC\).
 -   **[Managing developers using AEMC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/manage-developers-using-aemc.md)**  
 View details about developers working on apps in App Engine Studio and Creator Studio using App Engine Management Center \(AEMC\).
+-   **[Assign Developer Sandboxes packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/assign-dsb-packs-aemc.md)**  
+Assign Developer Sandboxes packs to managed instances from the App Engine Management Center \(AEMC\).
 
 **Parent Topic:**[Using AEMC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/using-aemc.md)
 

@@ -18,7 +18,7 @@ You can view all plugins available to you in the Application Manager if you have
 
 If a plugin does not appear within the Application Manager, it may require activation by ServiceNow personnel. Request these plugins through the Now Support Customer Service System instead of activating them yourself.
 
--   For a list of all new and changed plugins for the Brazil release, see .
+-   For a list of all new and changed plugins for the Brazil release, see [Plugin information for all Brazil features and products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/rn-summary-plugin-info.md).
 -   For steps on activating a plugin yourself, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_ActivateAPlugin.md).
 -   For steps on requesting a plugin that you cannot activate yourself, see [Request a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_RequestAPlugin.md).
 -   For steps on installing a ServiceNow Store application, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/application-manager/installing-applications-in-application-manager.md).

@@ -1,6 +1,6 @@
 ---
 title: Score normalization
-description: In Smart Assessment Engine normalization maps the actual scores to a standardized scale, typically from 0 through 100, enabling for a unified evaluation framework.
+description: In Smart Assessment Engine normalization maps the actual scores to a standardized scale, typically from 0 through 100, enabling a unified evaluation framework.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/score-normalization.html
 release: brazil
@@ -14,11 +14,11 @@ breadcrumb: [Normalization in assessment, Scoring assessments, Use template desi
 
 # Score normalization
 
-In Smart Assessment Engine normalization maps the actual scores to a standardized scale, typically from 0 through 100, enabling for a unified evaluation framework.
+In Smart Assessment Engine normalization maps the actual scores to a standardized scale, typically from 0 through 100, enabling a unified evaluation framework.
 
 ## Normalization approach overview
 
-In Smart Assessment Engine normalization adjusts individual assessment scores to a common scale, enabling comparison across different assessments. Normalization of assessment scores can be achieved through two approaches: Maximizing values, where higher scores are desirable, and minimizing values, where lower scores are preferred.
+In Smart Assessment Engine normalization adjusts individual assessment scores to a common scale, enabling comparison across different assessments. Normalization of assessment scores can be achieved through two approaches: maximizing values, where higher scores are desirable, and minimizing values, where lower scores are preferred.
 
 <table id="table_b3d_yg3_1gc"><tbody><tr><td>
 

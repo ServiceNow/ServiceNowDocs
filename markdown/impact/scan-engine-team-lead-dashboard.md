@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/scan-engine-team-lead-dashboard.html
 release: brazil
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 3
+last_updated: "2026-09-29"
+reading_time_minutes: 2
 breadcrumb: [Track Platform Health trends, Platform Health, Using Impact, Impact]
 ---
 
@@ -44,13 +44,13 @@ Health score
 
 </td><td>
 
-The health score represents the percentage of definition occurrences used across the platform that did not return any findings. It is calculated as:
+-   The health score is a 0–100 metric reflecting your team's instance platform risk. It combines five independent category scores using fixed category weights so that higher severity findings influence the score more heavily than cosmetic issues.
+-   Each category's score is computed independently and never affected by changes in other categories.
+-   Each check compares its findings to a fixed reference point established when the definition was authored, not to the largest finding count in the scan. This ensures that fixing one issue never distorts the weight of an unrelated finding or shifts a category's score.
+-   For a complete explanation of the four-step calculation model, category weights, and formulas, see [Platform Health score calculation model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/instance-health-score-calculation.md).
+-   The health score represents the percentage of definition occurrences used across the platform that did not return any findings.
 
- `(1 - (F / D)) * 100`
-
- Where F is the number of findings, and D is the number of definition occurrences.
-
- "Definition occurrences" refers to the total number of times a definition has been executed by the Scan Engine to generate findings.
+ Definition occurrences refers to the total number of times a definition has been executed by the Scan Engine to generate findings.
 
 </td></tr><tr><td>
 
@@ -83,192 +83,26 @@ Open findings by developer
 
 The Team Lead dashboard includes the following trend charts.
 
-<table id="table_t33_wll_fhc"><thead><tr><th>
+|Chart|Description|
+|-----|-----------|
+|Health Score trend|A trend line showing how your team's Platform Health score changes over time. The chart also displays the current individual category scores, so you can track which areas are improving or degrading.|
+|Team technical debt trend|A trend line showing the total development time required to resolve all open findings for your team over time.|
+|Technical debt by category trend|A stacked trend line showing technical debt broken down by category, so you can see which categories are driving the most effort.|
 
-Chart
+## Team Lead module data sources
 
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Technical debt
-
-</td><td>
-
--   The amount of development time required to resolve all findings for the team.
--   You can customize the time period using the date selector.
-
-</td></tr><tr><td>
-
-Technical debt by developer
-
-</td><td>
-
--   A developer's total technical debt, represented as the estimated amount of development time required to resolve all their findings.
--   You can configure the developers displayed in this chart in the Scan Engine properties.
-
-</td></tr><tr><td>
-
-Policy prioritized findings
-
-</td><td>
-
--   Findings that have a Priority status within a policy. To view the policy, select the name in the policy column.
--   Select **View all findings** to view the list in a separate tab.
-
-</td></tr><tr><td>
-
-Findings by impact to instance
-
-</td><td>
-
--   Findings listed in order of highest impact to your instance with the lowest time to resolve. Address these findings first to get the highest impact with the lowest effort.
--   Select a finding number to view it in a new browser window.
-
-</td></tr><tr><td>
-
-Findings by developer
-
-</td><td>
-
--   The number of findings by developer, classified by category.
--   Select a table entry to view the list of findings for a given developer in a new tab.
-
-</td></tr><tr><td>
-
-Real time preventions
-
-</td><td>
-
--   All real-time preventions by the team, for the selected time period. A real-time prevention is when the Scan Engine prevents a finding from being saved.
--   You can customize the time period using the date selector.
-
-</td></tr><tr><td>
-
-Unapproved exceptions
-
-</td><td>
-
--   All requested exceptions, by developer, requiring the team lead's approval or rejection.
--   Select the box to the left of an exception to approve or reject it
--   Select a Source record entry to view it for an exception.
-
-</td></tr><tr><td>
-
-Real time preventions trend
-
-</td><td>
-
--   All real-time preventions by each team developer, for the selected time period. A real-time prevention is when the Scan Engine prevents a finding from being saved.
--   You can customize the time period using the date selector.
-
-</td></tr><tr><td>
-
-Update sets
-
-</td><td>
-
--   All current update sets for the configured instance over the selected time period.
--   You can customize the time period using the date selector.
--   To filter the list, select the filter in the column heading.
--   You can add and configure instances from the **My SN Instances** related list in the Scan Engine properties.
-
-</td></tr></tbody>
-</table>## Team Lead dashboard data sources
-
-The following tables show the data source for each overview module and trend chart in the Team Lead dashboard.
-
-| | |
-|---|---|
+|Module|Source table|
+|------|------------|
 |Total team technical debt|sn\_se\_summary\_scan\_detail|
-|Unapproved exceptions|sn\_se\_exception\_reason|
+|Unapproved exceptions|sn\_se\_exception|
 |Health score|sn\_se\_scan\_result|
 |Active definitions|sn\_se\_definition|
 |Tech debt by category|sn\_se\_summary\_scan\_detail|
 |Open findings by developer|sn\_se\_summary\_scan\_detail|
 
-<table id="table_gf1_jr4_nhc"><thead><tr><th>
+|Trend chart|Source table|
+|-----------|------------|
+|Health Score trend|sn\_se\_scan\_result|
+|Team technical debt trend|sn\_se\_summary\_scan\_detail|
+|Technical debt by category trend|sn\_se\_summary\_scan\_detail|
 
- 
-
-</th><th>
-
- 
-
-</th></tr></thead><tbody><tr><td>
-
-Technical debt
-
-</td><td>
-
-sn\_se\_summary\_scan\_detail
-
-</td></tr><tr><td>
-
-Technical debt by developer
-
-</td><td>
-
-sn\_se\_summary\_scan\_detail
-
-</td></tr><tr><td>
-
-Policy prioritized findings
-
-</td><td>
-
-sn\_se\_finding
-
-</td></tr><tr><td>
-
-Findings by impact to instance
-
-</td><td>
-
-sn\_se\_summary\_scan\_detail
-
-</td></tr><tr><td>
-
-Findings by developer
-
-</td><td>
-
--   sn\_se\_summary\_scan\_detail
--   sn\_se\_finding
-
-</td></tr><tr><td>
-
-Real time preventions
-
-</td><td>
-
-sn\_se\_onsubmit\_prevention
-
-</td></tr><tr><td>
-
-Unapproved exceptions
-
-</td><td>
-
-sn\_se\_exception\_reason
-
-</td></tr><tr><td>
-
-Update sets
-
-</td><td>
-
-sn\_se\_scan\_result
-
-</td></tr><tr><td>
-
-Real time preventions trend
-
-</td><td>
-
-sn\_se\_summary\_scan\_detail
-
-</td></tr></tbody>
-</table>

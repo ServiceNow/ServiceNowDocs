@@ -27,7 +27,7 @@ For detailed information on each tool, supported operations, and operation-speci
 
 ## Procedure
 
-1.  Open your MCP client application such as Moveworks or Claude, that is connected to your ServiceNow instance using the ITSM MCP Server.
+1.  Open your MCP client application like Moveworks or Claude, that is connected to your ServiceNow instance using the ITSM MCP Server.
 
     Your system administrator configures this integration during setup.
 
@@ -62,5 +62,5 @@ For detailed information on each tool, supported operations, and operation-speci
 
 ## What to do next
 
-After using the ITSM MCP Server to request time off, verify that request and coverage assignments in your ServiceNow instance.
+After using the ITSM MCP Server to request time off, verify the request and coverage assignments in your ServiceNow instance.
 

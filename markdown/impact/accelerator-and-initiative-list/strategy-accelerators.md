@@ -37,20 +37,20 @@ Accelerator outputs and formats have common standardized features, but may diffe
 |[Foundations of AI Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/foundations-of-ai-governance1.md)| |✓|✓|✓|✓| |
 |[HRSD Maturity Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/hrsd-maturity-assessment.md)| |✓|✓|✓|✓| |
 |[IRM Maturity Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/IRM-maturity-assessment.md)| |✓|✓|✓|✓| |
-|[ITOM Maturity Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/ITOM-maturity-assessment.md)| |✓|✓|✓|✓|\[Omitted image "bus-strategic.svg"\] Alt text:|
+|[ITOM Maturity Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/ITOM-maturity-assessment.md)| |✓|✓|✓|✓| |
 |[ITSM Maturity Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/itsm-maturity-assessment.md)| |✓|✓|✓|✓| |
 |[Knowledge Management Maturity Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/knowledge-management-maturity-assessment.md)| |✓|✓|✓|✓| |
 |[LSD Maturity Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/lsd-maturity-assessment.md)| |✓|✓|✓|✓| |
 |[OCM: Preparing for Change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/ocm-preparing-for-change.md)| |✓|✓|✓|✓| |
 |[OCM: Managing Change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/ocm-managing-change.md)| |✓|✓|✓|✓| |
 |[OCM: Reinforcing and Sustaining Change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/ocm-reinforcing-sustaining-change.md)| |✓|✓|✓|✓| |
-|[Portfolio Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/portfolio-governance.md)​| |✓|✓|✓|✓|\[Omitted image "bus-strategic.svg"\] Alt text:|
+|[Portfolio Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/portfolio-governance.md)​| |✓|✓|✓|✓| |
 |[PPM Maturity Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/ppm-maturity-assessment.md)| |✓|✓|✓|✓| |
-|[ServiceNow Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/servicenow-governance.md)| |✓| |✓| |\[Omitted image "bus-strategic.svg"\] Alt text:|
+|[ServiceNow Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/servicenow-governance.md)| |✓| |✓| | |
 |[SAM Maturity Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/sw-asset-mgmt-maturity-assessment.md)| |✓|✓|✓|✓| |
 |[Staffing and Roles Review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/staffing-and-roles-review-brazil.md)| |✓|✓|✓|✓| |
 |[Stakeholder Path to Value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/stakeholder-path-to-value.md)| |✓|✓|✓|✓| |
-|[Strategy Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/strategy-governance.md)​| |✓|✓|✓|✓|\[Omitted image "bus-strategic.svg"\] Alt text:|
+|[Strategy Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/strategy-governance.md)​| |✓|✓|✓|✓| |
 |[Success Foundation Review \(SFR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/success-foundation-review.md)| |✓|✓|✓|✓| |
 |[Vision and Strategy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/vision-and-strategy.md)| |✓|✓|✓|✓| |
 

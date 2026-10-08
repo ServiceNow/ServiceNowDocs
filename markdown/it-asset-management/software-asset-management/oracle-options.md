@@ -16,9 +16,9 @@ breadcrumb: [Software Asset Management publisher pack for Oracle, Supported soft
 
 You can use the Software Asset Management publisher pack for Oracle to track licensing positions for your Oracle Database options and management packs. The Licensable Oracle Options \[samp\_oracle\_option\_set\] table provides the complete list of database options and management packs that you can create software models for.
 
-You must manage licensing for your Oracle Database options and management packs separately from your Oracle Database servers. Separate software models and entitlements are required for each of your database servers, database options, and management packs, thereby providing a more comprehensive view of your Oracle license compliance position.
+You must manage licensing for your Oracle Database options and management packs separately from your Oracle Database. Separate software models and entitlements are required for each of your database servers, database options, and management packs, thereby providing a more comprehensive view of your Oracle license compliance position.
 
-For example, Oracle DB Server 12c R1 Enterprise with the Partitioning option requires two separate software models and entitlements.
+For example, Oracle Database 12c R1 Enterprise with the Partitioning option requires two separate software models and entitlements.
 
 <table id="table_bpl_1qn_4lb"><thead><tr><th>
 
@@ -34,17 +34,17 @@ Software entitlement
 
 </th></tr></thead><tbody><tr><td>
 
-Track licensing for Oracle DB Server 12c R1 Enterprise.
+Track licensing for Oracle Database 12c R1 Enterprise.
 
 </td><td>
 
-Oracle DB Server 12c R1 Enterprise
+Oracle Database 12c R1 Enterprise
 
  No value selected for the **Database option** field.
 
 </td><td>
 
-Record your purchased rights for Oracle DB Server 12c R1 Enterprise.
+Record your purchased rights for Oracle Database 12c R1 Enterprise.
 
 </td></tr><tr><td>
 
@@ -52,7 +52,7 @@ Track licensing for the Partitioning option.
 
 </td><td>
 
-Oracle DB Server 12c R1 Enterprise Partitioning
+Oracle Database 12c R1 Enterprise Partitioning
 
  **Partitioning** selected for the **Database option** field.
 
@@ -67,11 +67,11 @@ Record your purchased rights for the Partitioning option.
 
 If you are activating the Software Asset Management application for the first time in the Rome and earlier releases or you are upgrading an existing instance of the Software Asset Management application from the Rome and earlier releases to the San Diego and later releases, you can continue using the existing patterns for discovering and measuring the usage of your database options and management packs. However, ServiceNow recommends that you use the Data Collection for Oracle Global Licensing and Advisory Services application instead, as the application provides enhanced capabilities that address additional use cases.
 
-After you install the application, the SAM - Evaluate database option usage from Oracle GLAS data scheduled job runs weekly or on-demand to retrieve usage data for both the Oracle database options and management packs that are installed in your Oracle environment and the Oracle features that are associated with them. The Software Asset Management application can then include this data in the Oracle reconciliation process to help you determine the license compliance positions of your database options and management packs, which are reported separately from the license compliance positions of your Oracle Database servers.
+After you install the application, the SAM - Evaluate database option usage from Oracle GLAS data scheduled job runs weekly or on-demand to retrieve usage data for both the Oracle database options and management packs that are installed in your Oracle environment and the Oracle features that are associated with them. The Software Asset Management application can then include this data in the Oracle reconciliation process to help you determine the license compliance positions of your database options and management packs, which are reported separately from the license compliance positions of your Oracle Database.
 
 **Note:** For more information on how usage data for your Oracle features can help you determine the license compliance of your database options and management packs, see [Feature mapping for Oracle Database options and management packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/oracle-feature-option-mapping.md).
 
-Oracle Database options and management packs follow the Oracle Database server lifecycle and are displayed in the License usage view \(Software Asset Workspace\) or License Workbench \(Software Asset Management classic application\). However, the following remediation options are not available for database options and management packs:
+Oracle Database options and management packs follow the Oracle Database lifecycle and are displayed in the License usage view \(Software Asset Workspace\) or License Workbench \(Software Asset Management classic application\). However, the following remediation options are not available for database options and management packs:
 
 -   Remove Unallocated Installs
 -   Remove Unlicensed Installs

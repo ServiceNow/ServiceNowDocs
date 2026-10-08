@@ -7,7 +7,7 @@ release: brazil
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [AIOps and AIOps Leap AI agents, AIOps and AIOps Leap, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [AIOps and Leap AI agents, AIOps and AIOps Leap, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Alert automation AI agent
@@ -68,9 +68,9 @@ Alert Group Automation Canonicalizer
 
 Create Alerts Grouping Automation
 
-Delete Alerts Grouping Automation
-
 Get Alert Automation Link
+
+Legacy: Delete Alerts Grouping Automation
 
 
 </td></tr><tr><td>
@@ -114,7 +114,7 @@ Used in agentic workflows
 Create alert automation
 
 </td></tr></tbody>
-</table>Learn more about Learning Enhanced Automation Platform \(LEAP\) at [Learning Enhanced Automation Platform \(LEAP\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/aiops-leap.md).
+</table>Learn more about Alert Automation at [Alert automation in Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/sow-itom-alert-automation.md)
 
-**Parent Topic:**[AIOps and AIOps Leap AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aiops-ai-agents-overview.md)
+**Parent Topic:**[AIOps and Leap AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aiops-ai-agents-overview.md)
 

@@ -24,7 +24,7 @@ Role required: pki\_admin or admin
 
 Configure your MID Server to renew certificates automatically by setting the configuration parameters in your MID Server.
 
-For information about version compatibility and troubleshooting, see the [Renewal of TLS certificates using AI Agents for Discovery](https://support.servicenow.com/nav_to.do?uri=%2Fkb%3Fid%3Dkb_article_view%26sysparm_article%3DKB2470998) knowledge article \[KB2470998\] in the Now Support Knowledge Base. The Certificate Inventory and Management on Yokohama Patch 8 or later supports the certificate renewal agent.
+For information about version compatibility and troubleshooting, see the [Renewal of TLS certificates using AI Agents for Discovery](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2470998) knowledge article \[KB2470998\] in the Now Support Knowledge Base. The Certificate Inventory and Management on Yokohama Patch 8 or later supports the certificate renewal agent.
 
 ## Procedure
 

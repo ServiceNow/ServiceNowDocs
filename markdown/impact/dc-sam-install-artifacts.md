@@ -7,7 +7,7 @@ release: brazil
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Impact Value Management Data Collection Content Pack for IT Asset Management, Enable data collection for Value Management, Configuring Impact, Impact]
+breadcrumb: [Impact Value Management Data Collection Content Pack for IT Asset Management, Enable data collection for Value Management, Guided Setup, Configuring Impact, Impact]
 ---
 
 # Review IT Asset Management artifacts

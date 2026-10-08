@@ -36,7 +36,6 @@ Sentiment is calculated using several factors:
 -   Previous comments for context
 -   Sentiment history \(trend\)
 -   Issue complexity and priority
--   SLA breach status
 -   Feedback in comments
 -   Frequency of updates and response time
 -   Language tone
@@ -46,7 +45,6 @@ The Sentiment Reasoning field in the record provides details on which factors we
 -   Exact tone in the given inputs.
 -   Feedback in recent comment.
 -   Task priority.
--   SLA consideration.
 
 ## Procedure
 
@@ -62,7 +60,7 @@ The Sentiment Reasoning field in the record provides details on which factors we
 
     Additional information regarding details of the skill are displayed, but can't be edited.
 
-5.  Select **Choose Input** and review the tables and fields to create prompts that determines where data is pulled from.
+5.  Select **Choose Input** and review the tables and fields to create prompts that determine where data is pulled from.
 
     **Note:** You can't modify the input data source.
 
@@ -118,7 +116,7 @@ Case \[sn\_customerservice\_case\]
 
 </td></tr><tr><td>
 
-Requestor fields
+requester fields
 
 </td><td>
 
@@ -133,7 +131,7 @@ Requestor fields
 
     -   Select **Skill is always available** so no restrictions are placed on when a skill is available.
     -   Select **Customize skill availability** to define conditions and use the condition builder to configure fields and values.
-8.  Select **Define Trigger** and edit the job schedule period to configure how often the skill will be implemented.
+8.  Select **Define Trigger** and edit the job schedule period to configure how often the skill runs.
 
     To enable a scheduled job for a custom table, follow these steps:
 
@@ -150,12 +148,12 @@ Requestor fields
     Default and Custom Roles:
 
     -   If no changes are made, the default role sn\_customerservice\_agent or sn\_customerservice.consumer\_agent will automatically appear in **Define Access** and **Select Display**.
-    -   If custom roles were added before the upgrade, they'll be updated automatically by a script.
+    -   If custom roles were added before the upgrade, they are updated automatically by a script.
     -   If new roles are created after the upgrade, you must manually add them in both the **Define Access** and **Select Display**.
 
         **Note:** In the **Select Display** step, you can only choose roles that were added in the **Define Access** step. If you add a role in **Define Access**, you still must manually select it in **Select Display** to make it active.
 
-11. In **Select Display** toggle to determine if chat recommendation appears in In-product desktop, displaying AI skills on forms and workspaces.
+11. In **Select Display** toggle to determine if sentiment analysis appears in In-product desktop, displaying AI skills on forms and workspaces.
 
 12. After selecting **Review and Activate** to examine changes, select **Done** to close the Sentiment Analysis generation settings.
 

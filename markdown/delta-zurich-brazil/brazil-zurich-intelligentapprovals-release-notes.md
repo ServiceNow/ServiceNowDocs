@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-brazil/brazil-zurich-intelligentapprovals-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -91,7 +91,7 @@ Brazil
 
 </td><td>
 
--   **[Create an intelligent approval from a KB article](https://www.servicenow.com/docs/access?context=create-an-intelligent-approval&family=brazil&ft:locale=en-US)**
+-   **[Create an intelligent approval from a KB article](https://www.servicenow.com/docs/access?context=create-an-intelligent-approval-from-a-kb-article&family=brazil&ft:locale=en-US)**
 
 Use a KB article to create an intelligent approval. Have the system monitor the current state of the KB article and deactivate the intelligent approval when it is out of date or retired.
 

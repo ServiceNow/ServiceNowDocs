@@ -7,7 +7,7 @@ release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Model Context Protocol Client, MCP Client, AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [MCP Client, AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Model Context Protocol Client reference
@@ -65,7 +65,7 @@ sn\_aia.enable\_mcp\_tool
 
 </td><td>
 
-Enables access to the MCP Client tool on your ServiceNow instance.Default value: **false**
+Enables access to the MCP Client tool on your ServiceNow instance.Default value: **true**
 
 </td></tr></tbody>
 </table>## MCP Client tables

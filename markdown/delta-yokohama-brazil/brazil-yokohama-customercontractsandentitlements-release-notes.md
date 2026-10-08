@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-brazil/brazil-yokohama-customercontractsandentitlements-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 10
 breadcrumb: [Products combined by family]
 ---
@@ -203,19 +203,14 @@ Brazil
 
 -   **[Contracts and entitlements for buyer organizations](https://www.servicenow.com/docs/access?context=service-contract-form&family=brazil&ft:locale=en-US)**
 
-Enable users to create contracts and entitlements for service organizations, in addition to accounts and consumers. When an order fulfilled for a buyer organization is processed to a contract or entitlement, the buyer organization information is populated in contracts and entitlements automatically.
-
--   **[Enhancements in Modify workflows](https://www.servicenow.com/docs/access?context=cce-modify-service-contract-line&family=brazil&ft:locale=en-US)**
-
-Enhanced Modify workflows by enabling users to modify an entire line, quantity, or end date through a single Modify action. The Modify workflow shows only the changes allowed for the selected lines, based on whether the line is configurable or a simple product.
+Enable users to create contracts and entitlements for buyer organizations, in addition to accounts and consumers. When an order fulfilled for a buyer organization is processed to a contract or entitlement, the buyer organization information is updated in contracts and entitlements automatically.
 
 -   **[Enhancements in Renewal workflows](https://www.servicenow.com/docs/access?context=cce-renew-service-contract-line&family=brazil&ft:locale=en-US)**
 
 Following enhancements have been made in the renewal workflow:
 
-    -   If a customer contract or customer contract line that is terminated before its end date, it is excluded from the renewal workflow.
-    -   If a contract line is terminated before its end date, then the renewal quote for that contract line is deleted.
-    -   If a contract line is terminated before its end date, then the status of that contract line is updated to **Canceled** when the contract reaches its end date.
+    -   If a customer contract or customer contract line is terminated before its end date, it is excluded from the renewal workflow.
+    -   If a contract line is terminated before its end date, then the renewal quote line for that contract line is deleted.
 
  -   **Support ServiceNow® Quote Experience for Contracts and Entitlements**
 

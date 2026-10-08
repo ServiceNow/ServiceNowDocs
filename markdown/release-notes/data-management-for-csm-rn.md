@@ -1,12 +1,13 @@
 ---
 title: Data Management for CSM release notes
-description: The ServiceNow Data Management for Customer Service Management \(CSM\) application enables you to organize and manage the data for both your internal users and external customers. Data Management for CSM was enhanced and updated in the Brazil release. See the following sections for release notes by version.CSM Data Management unifies billing schedules and payment profiles for clearer visibility into billing accounts. It adds related-party and return merchandise authorization \(RMA\) tracking on sold products directly from the portal. It also auto-proposes major and child cases for business organization outages in the Brazil release.
+description: The ServiceNow Data Management for Customer Service Management \(CSM\) application enables you to organize and manage the data for both your internal users and external customers. Data Management for CSM was enhanced and updated in the Brazil release. See the following sections for release notes by version.Location Support Agents have read-only access to contracts, and entitlements, and write-access to entitlement usage for the organizations their business organization serves. Service organizations can now be added as buyers on install base records to control product inventory access by user role.CSM Data Management unifies billing schedules and payment profiles for clearer visibility into billing accounts. It adds related-party and return merchandise authorization \(RMA\) tracking on sold products directly from the portal. It also auto-proposes major and child cases for business organization outages in the Brazil release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/data-management-for-csm-rn.html
 release: brazil
 topic_type: topic
 last_updated: "2026-09-10"
-reading_time_minutes: 5
+reading_time_minutes: 6
+keywords: [Data Management for CSM]
 breadcrumb: [Customer Service Management release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
@@ -20,7 +21,7 @@ The ServiceNow® Data Management for Customer Service Management \(CSM\) applica
 -   Manage related parties and deal context on sold products, and enable customers to create and track Return Merchandise Authorization \(RMA\) cases directly from the portal.
 -   Track business organization outages efficiently. As a major case manager, get auto-proposed major cases and child cases for every affected organization, ensuring consistent updates across all impacted accounts.
 
-See [Data management for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-data-management.md) feature for more information.
+See  feature for more information.
 
 ## Activation and other requirements
 
@@ -39,17 +40,37 @@ See [Data management for Customer Service Management](https://raw.githubusercont
 
 **Parent Topic:**[Customer Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/customer-service-mgmt-rn-landing.md)
 
+## Version 2.0
+
+Location Support Agents have read-only access to contracts, and entitlements, and write-access to entitlement usage for the organizations their business organization serves. Service organizations can now be added as buyers on install base records to control product inventory access by user role.
+
+### What's new
+
+-   **View Customer contracts and entitlements for business organizations and edit entitlement usage**
+
+    Location support agents \[sn\_bus\_loc.svc\_location\_support\_agent\] can view customer contract records \(Business Organization as a customer\) and their associated entitlements, and edit entitlement usage when either of the following is true:
+
+    -   The channel partner is one of their organizations, and a buyer organization is specified.
+    -   The buyer organization is one of the organizations that they manage.
+
+### What's changed
+
+-   **Service organizations as buyers on install base records**
+
+    Add service organizations as buyers on install base records to control access to their product inventory by user role. Use the Modify or Disconnect actions from the service organization record to enable service organizations to create orders or quotes.
+
+
 ## Version 1.0
 
 CSM Data Management unifies billing schedules and payment profiles for clearer visibility into billing accounts. It adds related-party and return merchandise authorization \(RMA\) tracking on sold products directly from the portal. It also auto-proposes major and child cases for business organization outages in the Brazil release.
 
 ### What's new
 
--   **[Restricted Customer Access now controls visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/associate-customers-or-bus-loc-to-so.md)**
+-   **Restricted Customer Access now controls visibility**
 
     Extended the organization customer criteria for a business organization with a new **Restricted Customer Access** check box that controls visibility of customer records. When enabled, business organization staff can view only the customer and consumer records that satisfy the configured criteria at their business organization. This applies to both service and sales personas. Upgrade customers must run the one-time scheduled job, **Remove Legacy roles from Loc Mgr Contrib** to enable restricted customer access configuration.
 
--   **[New business organization-scoped contributor personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-contributor-user-roles.md)**
+-   **New business organization-scoped contributor personas**
 
     Added two new roles, Business Org Account Contributor \[sn\_bus\_loc.business\_org\_account\_contributor\] and Business Org Consumer Contributor \[sn\_bus\_loc.business\_org\_account\_contributor\] that grant location-scoped equivalents of the existing Account Contributor and Consumer Contributor roles. With Business Org Account Contributor role, you can create cases for accounts supported by your business organization. You can also track and manage cases created by you for the accounts associated with your organization. With Business Org Consumer Contributor role, you can create cases for consumers or households supported by your business organization. You can also track and manage cases created by you for the consumers or households associated with your organization.
 
@@ -57,19 +78,19 @@ CSM Data Management unifies billing schedules and payment profiles for clearer v
 
     Extended proactive customer service and major case management to business organizations, alongside the existing support for accounts and consumers. When a network alert affects install base items belonging to a business organization, the system can propose a major case and build a recipient list of the affected business organizations. If the major case manager accepts the proposal, they can create a child case for each affected business organization, so all affected business organizations are tracked and updated under a single major case. Business Organization staff can track cases from Business Organization Support Portal.
 
--   **[Billing account address](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/associate-location-with-billing-account.md)**
+-   **Billing account address**
 
     Associate one or more locations with a billing account using the new Billing Account Address \[sn\_billing\_account\_address\] table. Each address record captures the address type, identifies the primary address, and tracks whether the address is active or inactive.
 
--   **[Billing account payment profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/add-payment-profile-to-billing-account.md)**
+-   **Billing account payment profile**
 
     Define payment information for a billing account using the new Billing Account Payment Profile \[sn\_billing\_account\_payment\_profile\] table, which captures the payment method and related payment details for the account.
 
--   **[Payment responsibility on billing accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/add-payment-profile-to-billing-account.md)**
+-   **Payment responsibility on billing accounts**
 
     Specify who pays for a billing account with the new Paying party and Paying billing account fields, supporting self, parent, and designated-account payment relationships.
 
--   **[Billing schedules on billing accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/set-up-billing-schedule-for-billing-account.md)**
+-   **Billing schedules on billing accounts**
 
     Define when billing occurs for a billing account with the new Billing Schedule field, which links the account to a platform schedule and its schedule entry records. The new billing account schedule viewer \[sn\_billing\_account.schedule\_viewer\] and writer \[sn\_billing\_account.schedule\_writer\] roles control read and write access to these schedules.
 
@@ -88,13 +109,13 @@ CSM Data Management unifies billing schedules and payment profiles for clearer v
 
     Gain write access to the Assignment group and Assigned to field, and read access to the Priority field, on business organization project tasks with the Location Project Member \[sn\_bus\_loc.location\_project\_stakeholder\] or Location Project Manager Contributor \[sn\_bus\_loc.location\_manager\_project\_stakeholder\] role.
 
--   **[Billing account roles and responsibility access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/granular-roles-and-supported-entities-CAM.md)**
+-   **Billing account roles and responsibility access**
 
     Updated billing account roles and responsibility access to align with the expanded billing account capabilities. Extended access to Billing Account Address, Billing Account Payment Profile, and Billing Schedule \(schedule and schedule entry\) through:
 
     -   Billing Account platform granular and CRM granular roles
     -   Billing Account responsibilities through the customer access management \(CAM\) framework
--   **[Create a sold product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-sold-item.md)**
+-   ****
 
     Edit and view multiple related parties in the sold product enable users to review the details of a deal and review deal context without leaving the record. **Deal type** and **Route to Market** aren't captured on the sold product, with route to market options filtered automatically based on the selected deal type.
 

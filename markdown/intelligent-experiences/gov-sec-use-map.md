@@ -19,9 +19,9 @@ Use the agent map to visualize your entire agentic ecosystem, including ServiceN
 
 The agent map shows a holistic view of the relationships between your AI providers, AI models, MCP servers, AI agents, agentic workflows, and tools. You can use the map to review these relationships and get details about the AI assets in your enterprise.
 
-Below the map, all of your managed agentic AI assets are listed.
+All of your managed agentic AI assets are listed after the map.
 
-\[Omitted image "gov-sec-access-map.png"\] Alt text: Agent map with managed agentic assets list below it.
+\[Omitted image "gov-sec-access-map.png"\] Alt text: Agent map with managed agentic assets list.
 
 ## Before you begin
 

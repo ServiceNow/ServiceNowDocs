@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/create-action-tool.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-07-29"
 reading_time_minutes: 2
 keywords: [Create subflow tool type for MCP server]
 breadcrumb: [Creating tools, Configure, MCP Server Console, Extending AI with external systems and providers, Enable AI Experiences]
@@ -91,6 +91,14 @@ Annotations
 Indication of the tool's behavior with MCP clients, including whether it only reads data, is idempotent, makes destructive changes or updates, or can call external links. You can also specifically combine these annotations as needed.
 
  The MCP client will use the selected annotations to categorise tools according to their behavior.
+
+</td></tr><tr><td>
+
+Required roles
+
+</td><td>
+
+The MCP Tools admin selects one or more roles from the User Role \[sys\_user\_role\] table to specify which roles can access and use the tool.
 
 </td></tr><tr><td>
 

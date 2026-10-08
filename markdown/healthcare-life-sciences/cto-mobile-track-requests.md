@@ -33,6 +33,11 @@ Role required: Team member, Team manager
     -   **All active** - Displays all open requests created by either yourself or your team.
     -   **By me** - Displays all open requests created by you.
     -   **All inactive** - Displays all completed or canceled requests.
+    Care team cases use different tabs, displayed in the following order:
+
+    -   **Assigned to me** - Displays care team cases assigned to you.
+    -   **All active** - Displays all open care team cases.
+    -   **All inactive** - Displays all completed or canceled care team cases.
 4.  Select **Filters** to filter or sort all requests based on conditions you specify.
 
 5.  Select a request to view its details.

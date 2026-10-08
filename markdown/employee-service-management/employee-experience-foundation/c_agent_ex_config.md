@@ -18,10 +18,6 @@ Allow the agents to work and manage the major incidents from Major Incident Mana
 
 -   **[Configure Notify connector for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/employee-experience-foundation/config-notify-ms-teams.md)**  
 Configure your ServiceNow instance with Notify connector for Microsoft Teams application to enable making calls using Microsoft Teams.
--   **[Configure Notify connector for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/employee-experience-foundation/config-notify-ms-teams.md)**  
-Configure your ServiceNow instance with Notify connector for Microsoft Teams application to enable making calls using Microsoft Teams.
-
-**Parent Topic:**[Configuring ServiceNow for Microsoft Teams and Microsoft 365 integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/employee-experience-foundation/integrate-sn-teams.md)
 
 **Parent Topic:**[Configuring ServiceNow for Microsoft Teams and Microsoft 365 integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/employee-experience-foundation/integrate-sn-teams.md)
 

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-australia-brazil/brazil-australia-liveconnect-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 5
+last_updated: "2026-10-08"
+reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
 
@@ -235,7 +235,10 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **Activation information**
+
+Live Connect is a ServiceNow AI Platform capability that requires RaptorDB Professional and activation of the Live Connect plugin. Access is configured per user account \(service or personal\). To make tables available for querying, you must add the `egress_sql` access control to each table.
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -267,7 +270,9 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **Additional requirements**
+    -   ODBC or JDBC drivers must be installed on client systems.
+    -   User accounts must be configured with appropriate table access controls.
 
 </td></tr></tbody>
 </table>## Browser requirements
@@ -330,7 +335,9 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **Accessibility information**
+    -   Live Connect is a backend connectivity layer with no direct user interface.
+    -   Accessibility of query results depends on the third-party client tools used to connect to Live Connect.
 
 </td></tr></tbody>
 </table>## Localization information
@@ -362,7 +369,10 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **Localization information**
+
+Live Connect is operates independently of language settings. Data returned through Live Connect reflects the language settings of the queried tables.
+
 
 </td></tr></tbody>
 </table>## Highlight information
@@ -399,7 +409,12 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   Provides read-only SQL access to authorized tables through ODBC and JDBC drivers.
+-   Enables direct queries from external analytics and business intelligence tools without data synchronization.
+-   Supports OAuth authentication for secure, FedRamp-compliant connections.
+-   Integrates with enterprise analytics platforms such as Pyramid Analytics, Power BI, and Tableau.
+
+ See [Access your ServiceNow data using Live Connect](https://www.servicenow.com/docs/access?context=accessing-your-servicenow-data-using-sql-api&family=brazil&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/rn-combined-intro.md)

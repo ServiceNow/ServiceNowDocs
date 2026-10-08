@@ -104,8 +104,8 @@ Create templates that you can assign to the equipment model entities that you cr
 The scheduled import function enables you to import your existing equipment model data from a populated Microsoft Excel flat-file spreadsheet. You can use it to import your ISA-95 Equipment Model data to the Configuration Management Database \(CMDB\).
 -   **[Manage equipment model site access for non-administrators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-process-manager/create-user-criteria-for-equipment-model-entity-site-users.md)**  
 Assign or remove non-administrator access to equipment model sites. You can create the user criteria to determine whether certain users can access the equipment model entities for specific sites.
--   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-process-manager/tables-equipment-model-access-control-tables.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-process-manager/tables-equipment-model-access-control-tables.md)**  
-
+-   **[Equipment Model entity access control tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-process-manager/tables-equipment-model-access-control-tables.md)**  
+Equipment Model entity access control tables store permissions that determine which users or groups can view or modify equipment model entities. By default, users and groups can view \(read\) equipment model entities.
 -   **[Managing an equipment model entity schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/industrial-process-manager/managing-equipment-entity-schedules.md)**  
 You can manage an equipment model entity schedule with the Industrial Process Manager application. By using a schedule, you can track several maintenance tasks for one equipment model entity.
 

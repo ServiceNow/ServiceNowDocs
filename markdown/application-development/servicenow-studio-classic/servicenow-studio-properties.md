@@ -9,7 +9,7 @@ classification: servicenow-studio-classic
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Reference, ServiceNow Studio, Developing your application, Building applications]
+breadcrumb: [Reference, ServiceNow Studio, Build, AI Workflow Factory, Building applications]
 ---
 
 # ServiceNow Studio properties

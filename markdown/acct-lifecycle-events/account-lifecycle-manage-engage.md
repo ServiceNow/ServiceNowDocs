@@ -5,8 +5,8 @@ locale: en-us
 canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-manage-engage.html
 release: brazil
 topic_type: concept
-last_updated: "2026-09-24"
-reading_time_minutes: 1
+last_updated: "2026-10-08"
+reading_time_minutes: 2
 breadcrumb: [Customer success, Use, Customer Success Management]
 ---
 
@@ -20,6 +20,8 @@ An engagement centralizes the activities involved in a customer's success journe
 This page provides detailed information of an engagement including internal and external stakeholders, upcoming touchpoints, initiatives, and blueprints.
 -   **[Create an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-create-engage.md)**  
 Create an engagement record that centralizes all internal and external activities that are involved in the customer success journey.
+-   **[Engagement onboarding links](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-engage-onb-links.md)**  
+Link an engagement to more than one onboarding case to see all of the onboarding work for that engagement in one place.
 -   **[Create a touchpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-create-touchpoint.md)**  
 Create a touchpoint to capture and support conversations between providers and customers during the engagement lifecycle.
 -   **[Create a risk signal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-create-risk-signal.md)**  
@@ -42,6 +44,12 @@ Measure and track the effectiveness and completion of success objectives and out
 The success initiative roadmap displays success initiatives and their outcomes over time in a visual timeline. Use it to track initiative progress, filter by status, and adjust the view by timescale or grouping.
 -   **[Create an implementation record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-create-imp-record.md)**  
 Track the progress of a partner or customer implementing a product or a service.
+-   **[ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) Support renewals and expansion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/now-assist-tmt-renewal-analyzer.md)**  
+Assess engagements and contracts due for renewal, analyze trends, and recommend renewal strategies.
+-   **[Renewal insight engine skill in ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/renewal-insight.md)**  
+Analyzes the renewal likelihood and expansion potential of an engagement or contract and generates recommended actions.
+-   **[Squad resource identifier agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/now-assist-squad-resource-identifier.md)**  
+Use a squad resource identifier agentic workflow to identify and recommend internal experts based on record under consideration, skill set, region, and real-time availability.
 
 **Parent Topic:**[Customer success](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-use-cust-success.md)
 

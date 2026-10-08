@@ -20,7 +20,7 @@ A workspace is a suite of tools that provides agents, case managers, help desk p
 
     Workspace acts as the default workspace available on the ServiceNow AI Platform and provides the foundation for the targeted workspaces ServiceNow offers.
 
--   **[Audit Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/audit-management-overview-ws.md)**
+-   **Audit Workspace**
 
     Audit workspace is a single-pane view for audit supervisors and auditors. View the overall audit timeline and status, track budget and resources for engagements, and trace high priority observations and issues. Monitor ongoing control testing and audit task progress.
 
@@ -32,7 +32,7 @@ A workspace is a suite of tools that provides agents, case managers, help desk p
 
     CMDB Workspace is an efficient, central, and modernized way for you to work. Use CMDB Workspace to search and explore the CMDB, examine health and recent activity, and access various CMDB dashboards and tools to support tasks in your organization.
 
--   **[Compliance Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-unified-compliance-workspace.md)**
+-   **Compliance Workspace**
 
     Compliance Workspace is a unified interface where you can manage all your tasks related to policies, control objectives, controls, issues, and policy exceptions.
 
@@ -44,7 +44,7 @@ A workspace is a suite of tools that provides agents, case managers, help desk p
 
     CSM Configurable Workspace is a user interface that provides agents with the tools they need to answer customer questions and resolve customer issues.
 
--   **[Digital Portfolio Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/dpm-landing.md)**
+-   **Digital Portfolio Management Workspace**
 
     Manage and maintain all your solutions \(services, service offerings, business applications, and application services\) from a single location using the ServiceNow Digital Portfolio Management \(DPM\) Workspace. DPM pulls in data from across the ServiceNow platform so you see impacts in the context of solutions that you own or care about.
 
@@ -56,7 +56,7 @@ A workspace is a suite of tools that provides agents, case managers, help desk p
 
     Platform Analytics Workspace provides an Analytics Center for managing all Next Experience analytics.
 
--   **[Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/rsrc-mgmt-wrkspc.md)**
+-   **Resource Management Workspace**
 
     Resource Management Workspace helps Resource Managers have a centralized view of all work across all resources.
 
@@ -68,7 +68,7 @@ A workspace is a suite of tools that provides agents, case managers, help desk p
 
     Service Operations Workspace is a configurable workspace that provides a unified experience for multiple IT Operations Management workflows. Configure your experience using the easy-to-navigate interface of Service Operations Workspace.
 
--   **[Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-itsm-landing-page.md)**
+-   **Workforce Optimization for ITSM**
 
     Manage and maintain the productivity of your workforce from a single location using Workforce Optimization for ITSM. Using this application, you can efficiently manage your team's skills and schedules, route work assignments to your team, and monitor their performance.
 

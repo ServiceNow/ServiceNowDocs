@@ -20,8 +20,6 @@ The Automated Test Framework \(ATF\) enables you to create and run automated tes
 
 For developer training, see [Using the Automated Test Framework](https://developer.servicenow.com/app.do#!/trainlist/app_store_learnv2_atf_paris_automated_test_framework?v=paris) on the ServiceNow Developer Site.
 
-**Note:** Use ServiceNow Creator Pro Plus's Test generation skill to easily create automated tests. Refer  documentation for further details.
-
 ## Get started
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>

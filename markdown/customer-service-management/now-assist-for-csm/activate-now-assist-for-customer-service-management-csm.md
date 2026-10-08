@@ -1,20 +1,20 @@
 ---
 title: Install ServiceNow Otto for Customer Service Management \(CSM\)
-description: Install required plugins and enable ServiceNow Otto for Customer Service Management \(CSM\) to configure and use generative AI skills in Configurable Workspace and Core UI.
+description: Install required plugins and enable ServiceNow Otto for Customer Service Management \(CSM\) to configure and use generative AI skills in CRM Workspace and Core UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/activate-now-assist-for-customer-service-management-csm.html
 release: brazil
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [Configure, ServiceNow Otto for CSM, Customer Service Management]
 ---
 
 # Install ServiceNow Otto for Customer Service Management \(CSM\)
 
-Install required plugins and enable ServiceNow Otto for Customer Service Management \(CSM\) to configure and use generative AI skills in Configurable Workspace and Core UI.
+Install required plugins and enable ServiceNow Otto for Customer Service Management \(CSM\) to configure and use generative AI skills in CRM Workspace and Core UI.
 
 ## Before you begin
 
@@ -36,11 +36,11 @@ To install the ServiceNow Otto for CSM plugin \(sn\_csm\_gen\_ai\), follow the p
 
 1.  Navigate to **Admin &gt; AI Admin Hub &gt; Settings**.
 
-2.  On the **Settings** page, select**Plugins**.
+2.  On the **Settings** page, select **Plugins**.
 
 3.  Select **Get plugins** on the card for the plugin that you want to install.
 
-4.  In the confirmation window, select Install Plugin to open the ServiceNow Store page for the plugin in a new browser tab.
+4.  In the confirmation window, select **Install Plugin** to open the ServiceNow Store page for the plugin in a new browser tab.
 
 5.  Install the plugin from the ServiceNow Store page.
 
@@ -48,8 +48,8 @@ To install the ServiceNow Otto for CSM plugin \(sn\_csm\_gen\_ai\), follow the p
 
 7.  In the dialog box, select **Refresh**.
 
-8.  Either close the dialog box to review all of your plugins or select **View all &lt;Plugin&gt; Assists and Skills** to review the features of your new plugin.
+8.  Either close the dialog box to review all of your plugins or select **View all \(Plugin\) Assists and Skills** to review the features of your new plugin.
 
-    For more detailed information about the installation process, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+    For more detailed information about the installation process, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 
 

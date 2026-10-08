@@ -84,6 +84,7 @@ Connector definition **Note:** Metric Intelligence connectors \(such as the AWS 
 
 The vendor and protocol used to gather events from the external event source. Select the connector definition that matches the source of external events. The options available in the base system are, for example: -   AWS CloudWatch
 -   AzureConnector
+-   Datadog
 -   HPOM
 -   IBM Netcool
 -   NagiosXI
@@ -345,6 +346,8 @@ Configure the VMware vCenter Server \(vCenter or vCenter\_V2\) connector instanc
 Configure the VMware vRealize Operations \(vRealize or vRealize\_V2\) connector instance to receive events from the vRealize Operations Log and Event Management servers. vRealize uses basic authentication. vRealize\_V2 uses token-based authentication.
 -   **[Configure event collection from Zabbix server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/t_EMConfigureZabbixConnector.md)**  
 Configure the Zabbix server connector instance to receiving alerts from the Zabbix server.
+-   **[Configure a Datadog work item connector instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/configure-a-datadog-work-item-connector.md)**  
+Configure a Datadog work item to aggregate related alerts and signals from Datadog into a trackable operational problem.
 
 **Parent Topic:**[Configure Event Management connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/connectors-and-listeners.md)
 

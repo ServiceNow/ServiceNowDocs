@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/environmental-social-governance/update-a-metric.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 3
+last_updated: "2026-09-25"
+reading_time_minutes: 4
 breadcrumb: [Using GRC: Metrics to provide data, GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
@@ -218,6 +218,22 @@ Next run date
 
 Date for the next run time.
 
+</td></tr><tr><td>
+
+Create historical data
+
+</td><td>
+
+Option to generate metric definition data, metric data, and metric data tasks for past periods, starting from the **Historical start date**. After the records are created, this option is automatically cleared.
+
+</td></tr><tr><td>
+
+Historical start date
+
+</td><td>
+
+Date from which to generate historical metric definition data, metric data and metric data tasks. This field appears and is required when **Create historical data** is selected. The date must be in the past.
+
 </td></tr><tr><td class="sub-head" colspan="2">
 
 Data Collection Details
@@ -268,7 +284,7 @@ Goals
 
 </td><td>
 
-Details of the goals associated with the metric, such as name, state, category, start date, end date, owner, and status. To add a new goal, click **Add**.
+Details of the goals associated with the metric, such as name, state, category, start date, end date, owner, and status. To add a new goal, select **Add**.
 
 </td></tr><tr><td>
 
@@ -298,7 +314,7 @@ Targets
 
 </td><td>
 
-Details of the targets associated with the metric, such as name, state, owner, start date, end date, type, and measure. To add a new target, click **Add**.
+Details of the targets associated with the metric, such as name, state, owner, start date, end date, type, and measure. To add a new target, select **Add**.
 
 </td></tr><tr><td>
 
@@ -306,19 +322,24 @@ Citations
 
 </td><td>
 
-Details of the citations, such as reference, name, authority document, description, and compliance score percentage \(%\). To add a new citation, click **Add**.
+Details of the citations, such as reference, name, authority document, description, and compliance score percentage \(%\). To add a new citation, select **Add**.
 
 </td></tr></tbody>
-</table>4.  To save the metric, click **Save**.
+</table>4.  To save the metric, select **Save**.
 
-5.  To delete the metric definition, click **Delete**.
+5.  To delete the metric definition, select **Delete**.
 
-6.  To execute the metric, click **Execute**.
+6.  To execute the metric, select **Execute**.
 
     A metric data score is created if it doesn’t exist for the current interval. Re-executing a metric or a metric definition for the current interval only updates the score.
 
-7.  To visually explore the 360° relationship view of the metric definition, click **360° view**.
+7.  To visually explore the 360° relationship view of the metric definition, select **360° view**.
 
 
 **Parent Topic:**[Using GRC: Metrics to provide data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/using-grc-metrics.md)
+
+**Related topics**  
+
+
+[Historical data generation for metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/historical-data-generation-for-metrics.md)
 

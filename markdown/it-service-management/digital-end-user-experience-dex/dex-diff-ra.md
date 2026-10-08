@@ -8,7 +8,7 @@ product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: reference
 last_updated: "2026-09-10"
-reading_time_minutes: 13
+reading_time_minutes: 15
 breadcrumb: [DEX Application and Device Health reference, Reference, Digital End-User Experience, IT Service Management]
 ---
 
@@ -672,6 +672,91 @@ Uninstalls a selected application from the action library on the device.
 Enforce software compliance remotely at scale by removing unauthorized or redundant applications. Possible use cases may include the following:-   Remove unauthorized or prohibited software from managed devices without user action.
 -   Enforce software compliance policies during audits or security reviews.
 -   Support license reclamation by removing software from specific devices.
+
+</td></tr><tr><td>
+
+Clear System Cache
+
+</td><td>
+
+None
+
+</td><td>
+
+Windows: Local System Account
+
+</td><td>
+
+Removes temporary files and cache data from multiple system locations. It targets the-   current logged-in user's profile temp directory- \(%USERPROFILE%\\AppData\\Local\\Temp\),
+-   Windows system temp directory - \(C:\\Windows\\Temp\)
+-   clears Windows Explorer thumbnail cache databases - \(%USERPROFILE%\\AppData\\Local\\Microsoft\\Windows\\Explorer\) to free up disk space and resolve performance degradation.
+
+</td><td>
+
+Reclaim disk space and resolve performance issues caused by accumulated temporary files and corrupted cache. Possible use cases may include the following:-   Recover disk space on devices where temporary files are accumulating.
+-   Fix broken file previews and thumbnail display errors by clearing Explorer cache databases.
+-   Address system performance alerts as part of automated remediation workflows.
+
+</td></tr><tr><td>
+
+Reset Printer Spooler
+
+</td><td>
+
+None
+
+</td><td>
+
+Windows: Local System Account
+
+</td><td>
+
+Reset's the print spooler service by stopping the service, clearing queued print jobs, and restarting the service. This resolves common printing issues such as stuck or failed print jobs.
+
+</td><td>
+
+-   Remediate printer connectivity issues.
+-   Resolve stuck print jobs, print queue corruption, or printer not responding without requiring device restart.
+
+</td></tr><tr><td>
+
+Start service
+
+</td><td>
+
+`service_name`
+
+</td><td>
+
+Windows: Local System Account
+
+</td><td>
+
+Starts a Windows service that is currently not running. If the service has dependent child services, those are started as well. If one of several dependent services fails to start, the action reports a partial result and includes the error for the failed child service.
+
+</td><td>
+
+Auto-remediate Windows services that stop unexpectedly.
+
+</td></tr><tr><td>
+
+Stop service
+
+</td><td>
+
+`service_name`
+
+</td><td>
+
+Windows: Local System Account
+
+</td><td>
+
+Stops a Windows service that is currently running, including dependent services \(multi-level dependencies\).
+
+</td><td>
+
+Give admins/agents an explicit way to stop a Windows service and its dependents, distinct from the existing Restart service action, which assumes the service is already running.
 
 </td></tr></tbody>
 </table>**Note:** \* For the Disk cleanup for low disk space action, temporary files are deleted from the following device locations.

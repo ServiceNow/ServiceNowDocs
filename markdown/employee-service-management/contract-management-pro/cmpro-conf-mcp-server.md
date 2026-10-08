@@ -50,15 +50,15 @@ Role required: sn\_mcp\_server.admin or admin
 
     **Note:** Change the application scope to **Global**.
 
-<table id="choicetable_tss_d1b_dkc"><thead><tr><th align="left" id="d88394e229">
+<table id="choicetable_tss_d1b_dkc"><thead><tr><th align="left" id="d149125e227">
 
 Authentication option
 
-</th><th align="left" id="d88394e232">
+</th><th align="left" id="d149125e230">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d88394e238">
+</th></tr></thead><tbody><tr><td id="d149125e236">
 
 **Use the Contract Management Pro MCP Server OAuth client entry**
 
@@ -73,7 +73,7 @@ The fields on the Authorization code grant page are automatically populated.
 4.  Select **Save**.
 
 
-</td></tr><tr><td id="d88394e276">
+</td></tr><tr><td id="d149125e274">
 
 **Set up your own OAuth connection**
 
@@ -90,8 +90,6 @@ The Contract Management Pro MCP Server is enabled and enforces OAuth 2.0 authent
 ## What to do next
 
 Create at least one active playbook for each contract type. For more information, see [Create a contract analysis playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/contract-management-pro/cmpro-create-negotiation-playbook.md).
-
-**Parent Topic:**[Configure Contract Management Pro MCP Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/contract-management-pro/cmpro-install-mcp-app.md)
 
 **Parent Topic:**[Configure Contract Management Pro MCP Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/contract-management-pro/cmpro-install-mcp-app.md)
 

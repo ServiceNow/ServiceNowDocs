@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/deactivate-use-case.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Now Assist, Generative AI, Document Intelligence]
-breadcrumb: [Manage use case, Reference, Content Understanding, Generative AI skills, Enable AI Experiences]
+breadcrumb: [Manage use case, Information Extraction skill, Configure, Content Understanding, Generative AI skills, Enable AI Experiences]
 ---
 
 # Deactivate a use case
@@ -38,5 +38,5 @@ Role required: DocIntel Admin role \[sn\_docintel.admin\] or DocIntel Manager ro
 
 The use case is deactivated and isn’t applied during document processing.
 
-**Parent Topic:**[Manage use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/cu-manage-use-case.md)
+**Parent Topic:**[Manage use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/manage-use-case.md)
 

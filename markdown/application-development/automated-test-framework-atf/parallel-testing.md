@@ -59,3 +59,5 @@ Prevent resource conflicts by running tests that create their own data. Tests th
 
 [Performance profiling]()
 
+[ATF Health Check]()
+

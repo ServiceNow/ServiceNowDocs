@@ -39,15 +39,15 @@ Role required: sn\_align\_core.apw\_user or business\_stakeholder
 
 4.  Update the details of the portfolio plan or delete it.
 
-<table id="choicetable_hjj_wbj_gvb"><thead><tr><th align="left" id="d183691e144">
+<table id="choicetable_hjj_wbj_gvb"><thead><tr><th align="left" id="d189035e144">
 
 Choice
 
-</th><th align="left" id="d183691e147">
+</th><th align="left" id="d189035e147">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d183691e153">
+</th></tr></thead><tbody><tr><td id="d189035e153">
 
 **Update portfolio plan**
 
@@ -58,7 +58,7 @@ Action
 3.  Select **Update**.
 
 
-</td></tr><tr><td id="d183691e181">
+</td></tr><tr><td id="d189035e181">
 
 **Delete portfolio plan**
 

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-brazil/brazil-yokohama-changemanagement-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 11
+last_updated: "2026-10-08"
+reading_time_minutes: 13
 breadcrumb: [Products combined by family]
 ---
 
@@ -50,6 +50,10 @@ Zurich
 
 As part of the update to use Flow instead of Progress Workers for conflict detection, the Conflict Checker Progress UI Formatter record references a new UI macro, change\_conflict\_worker\_progress\_gate. This macro checks the **change.conflict.useprogressworker** system property to determine the conflict detection mechanism and then displays the corresponding UI macro to work with either Progress Workers or the Change Management Worker table. For more information, see [Conflict detection](https://www.servicenow.com/docs/access?context=c_ConflictDetection&family=zurich&ft:locale=en-US).
 
+The ITSM Enhanced Security Features plugin \(com.snc.itsm.enhanced\_security\) is now activated automatically when you upgrade to the Zurich release. Previously, the plugin was activated only on new instances. Activating the plugin adds "deny unless authenticated" access control list \(ACL\) rules to several IT Service Management tables.
+
+To revert to the pre-upgrade behavior, contact ServiceNow Support for a list of ACLs to deactivate on specific tables. As a last resort, Support can run a script that deactivates all the new ACLs.
+
 
 </td></tr><tr><td>
 
@@ -57,7 +61,12 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   **Upgrade information**
+
+The ITSM Enhanced Security Features plugin \(com.snc.itsm.enhanced\_security\) is now activated automatically when you upgrade to the Australia release. Previously, the plugin was activated only on new instances. Activating the plugin adds "deny unless authenticated" access control list \(ACL\) rules to several IT Service Management tables.
+
+To revert to the pre-upgrade behavior, contact ServiceNow Support for a list of ACLs to deactivate on specific tables. As a last resort, Support can run a script that deactivates all the new ACLs.
+
 
 </td></tr><tr><td>
 
@@ -65,7 +74,12 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **Upgrade information**
+
+The ITSM Enhanced Security Features plugin \(com.snc.itsm.enhanced\_security\) is now activated automatically when you upgrade to the Brazil release. Previously, the plugin was activated only on new instances. Activating the plugin adds "deny unless authenticated" access control list \(ACL\) rules to several IT Service Management tables.
+
+To revert to the pre-upgrade behavior, contact ServiceNow Support for a list of ACLs to deactivate on specific tables. As a last resort, Support can run a script that deactivates all the new ACLs.
+
 
 </td></tr></tbody>
 </table>## New features
@@ -189,6 +203,10 @@ Scaled Change extends change management to complex environments with many config
 -   **[ITIL change process assignment for change models](https://www.servicenow.com/docs/access?context=itil_change_process_models&family=brazil&ft:locale=en-US)**
 
 Assign an ITIL change process to a change model so the ChangeRequest API uses that model when it creates a matching change request.
+
+-   **[State field policies for change models](https://www.servicenow.com/docs/access?context=state-field-policies-change-models&family=brazil&ft:locale=en-US)**
+
+Use state field policies to make change request fields mandatory or read-only at each state in a change model. Policies are enforced on the form when a change request is created or updated.
 
 
 </td></tr></tbody>

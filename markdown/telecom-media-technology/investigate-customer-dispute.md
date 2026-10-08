@@ -37,7 +37,7 @@ During the investigation stage, determine whether the customer has other reporte
 
     The system displays up to five of the most relevant case and service problem case records for the account, filtered by a similar category to the dispute, a matching short description, and an issue date within the past six months. Each record shows the record number, status, short description, date the issue was opened, and category. You can also select the search \(\[Omitted image "icon-search-cdm.png"\] Alt text: Search Icon\) icon to find more records that are relevant to the dispute.
 
-    **Note:** If you are using ServiceNow Otto for TMT, you can see the requester's sentiments on a case record. To learn more, see [Analyze the sentiment of a service problem case using ServiceNow Otto for TMT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-analyze-sentiment-spc-adr.md).
+    **Note:** If you are using ServiceNow Otto for TMT, you can see the requester's sentiments on a case record. To learn more, see [Analyze the sentiment of a service problem case using ServiceNow Otto for TMT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-tmt-analyze-sentiment-spc-adr.md).
 
 6.  For each record shown, select **Link the record** to associate it with the dispute, or **Dismiss** to remove it from the list without linking it.
 
@@ -47,9 +47,9 @@ During the investigation stage, determine whether the customer has other reporte
 
 8.  Select **Continue**.
 
-9.  In the **Key findings** field on the Analyze linked facts form, enter the findings from your investigation.
+9.  In the **Key findings** field on the Analyze linked facts form, generate a comprehensive summary of the linked records.
 
-    **Note:** If you are using ServiceNow Otto for TMT, you can generate a comprehensive summary of the linked records. To learn more, see [Summarize the linked records using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-summarize-linked-record.md).
+    To learn more, see [Summarize the linked records using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-tmt-summarize-linked-record.md).
 
 10. Select **Mark complete**.
 
@@ -57,6 +57,11 @@ During the investigation stage, determine whether the customer has other reporte
 ## Result
 
 The dispute moves to the resolution and dispute analysis stage. To learn more, see [Resolve a customer dispute and record the dispute analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/resolve-customer-dispute.md).
+
+-   **[Summarize the linked records using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-tmt-summarize-linked-record.md)**  
+Generate a comprehensive summary of the service problem case records that you have linked on the Alternative Dispute Resolution \(ADR\) case. Quickly understand case details linked to a customer complaint using the comprehensive summary of linked records skill in the ServiceNow Otto for TMT application.
+-   **[Analyze the sentiment of a service problem case using ServiceNow Otto for TMT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-tmt-analyze-sentiment-spc-adr.md)**  
+Generates the requester's sentiment and the reasoning behind it on the complaint cases in the ServiceNow Otto for TMT application. Make informed decisions on complaint cases based on sentiment to link the cases on the Alternative Dispute Resolution \(ADR\) case record.
 
 **Parent Topic:**[Using Customer Dispute Management case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/use-alternative-dispute-resolution-case.md)
 

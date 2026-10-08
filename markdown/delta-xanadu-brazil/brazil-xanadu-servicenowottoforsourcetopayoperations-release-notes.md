@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-servicenowottoforsourcetopayoperations-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 15
+last_updated: "2026-10-08"
+reading_time_minutes: 17
 breadcrumb: [Products combined by family]
 ---
 
@@ -99,7 +99,12 @@ Yokohama
 
 </td><td>
 
--   **[ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://www.servicenow.com/docs/access?context=now-assist-spo&family=yokohama&ft:locale=en-US)**
+-   **[New third-party AI model provider options available for all Now Assist applications](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=yokohama&ft:locale=en-US)**
+
+Google Gemini and AWS Claude are available for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
+
+
+ -   **[ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://www.servicenow.com/docs/access?context=now-assist-spo&family=yokohama&ft:locale=en-US)**
 
 ServiceNow Otto for SPO includes an agentic workflow that enhances conversational intake capabilities. This AI-powered agent team streamlines user inquiries to sourcing and procurement teams by gathering knowledge, clarifying requests, deflecting common questions, providing product information, and recommending the appropriate purchase plan. For more information, see [Use agentic workflows](https://www.servicenow.com/docs/access?context=agentic-ai-now-assist-spo&family=yokohama&ft:locale=en-US).
 
@@ -130,7 +135,12 @@ Zurich
 
 </td><td>
 
--   **[ServiceNow Otto for Finance and Procurement](https://www.servicenow.com/docs/access?context=now-assist-fsc-common&family=zurich&ft:locale=en-US)**
+-   **[New third-party AI model provider options available for all AI applications](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=zurich&ft:locale=en-US)**
+
+Google Gemini and AWS Claude are available for generative AI skills and AI agents, in addition to Now LLM Service and Azure OpenAI.
+
+
+ -   **[ServiceNow Otto for Finance and Procurement](https://www.servicenow.com/docs/access?context=now-assist-fsc-common&family=zurich&ft:locale=en-US)**
 
 The Field Extractor skill extracts the invoice number and supplier invoice number from the inquiry case. The inquiry case is generated through different channels \(emails, virtual agent chats, or web content\). The access control lists \(ACLs\) confirm that only authorized agents can activate or configure the skill.The Supplier summarization skill in Source-to-Pay Operations workspace provides unified view of supplier-related inquiries and pending actions. This feature helps specialists and supplier managers to quickly view a concise summary of supplier-related cases, tasks, and exceptions.The Inquiry classifier skill auto-populates the subcategory of an invoice inquiry case by analyzing its description and short description in the Accounts Payable Operations.
 
@@ -238,7 +248,22 @@ Yokohama
 
 </td><td>
 
--   **[Use the ServiceNow Otto for Sourcing and Procurement Operations \(SPO\) skills in a Virtual Agent chat](https://www.servicenow.com/docs/access?context=now-assist-spo-va-using&family=yokohama&ft:locale=en-US)**
+-   **[Changes to Now Assist usage measurement](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=yokohama&ft:locale=en-US)**
+
+Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
+
+-   **[Some Now Assist skills are turned on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&family=yokohama&ft:locale=en-US)**
+
+The new default behavior works as follows:
+
+    -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
+    -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
+-   **[Configure ACLs for AI agents and agentic workflows](https://www.servicenow.com/docs/access?context=aia-security-implementation&family=yokohama&ft:locale=en-US)**
+
+Configure the access control lists for who can discover and trigger AI agents and agentic workflows in their guided setups in AI Agent Studio. You can determine whether an AI agent or agentic workflow behaves as a dynamic user or as an AI user. You can also specify if an AI agent or agentic workflow can be available to all authenticated users or publicly available.
+
+
+ -   **[Use the ServiceNow Otto for Sourcing and Procurement Operations \(SPO\) skills in a Virtual Agent chat](https://www.servicenow.com/docs/access?context=now-assist-spo-va-using&family=yokohama&ft:locale=en-US)**
 
 Requesters can leverage contextual generative AI by using ServiceNow Otto for SPO in a Virtual Agent chat to complete self-service tasks, such as purchasing products.
 
@@ -249,7 +274,19 @@ Zurich
 
 </td><td>
 
--   **Coral theme**
+-   **[Changes to Now Assist usage measurement](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=zurich&ft:locale=en-US)**
+
+Starting with Australia Early Access, AI usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: AI Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
+
+
+ -   **[Some generative AI skills are turned on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&family=zurich&ft:locale=en-US)**
+
+The new default behavior works as follows:
+
+    -   New customers: When you install an AI product, designated skills are turned on automatically.
+    -   Existing customers who are upgrading \(starting with Australia Early Access\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
+
+ -   **Coral theme**
 
 Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
 

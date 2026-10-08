@@ -16,7 +16,7 @@ The billing card displays a list of the customer's billing accounts and invoices
 
 The billing card displays billing accounts and invoices associated with the current account, consumer, or contact record. For each billing account, the following details are displayed:
 
--   Billing account name: Displays the list of billing accounts associated with the record. If multiple billing accounts exist, use the drop-down list to switch between them. To view invoices for a specific account in the hierarchy, select a child account from the drop-down list to filter the invoice list.
+-   Billing account name: Displays the list of billing accounts associated with the record, including accounts of type Company, Customer Account, User, or Consumer. If multiple billing accounts exist, use the drop-down list to switch between them. To view invoices for a specific account in the hierarchy, select a child account from the drop-down list to filter the invoice list.
 -   Invoices: Displays the list of invoices for the selected billing account, including invoice number, invoice date, due date, and payment date.
 
 You can do the following:

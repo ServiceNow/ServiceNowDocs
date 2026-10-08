@@ -1,12 +1,13 @@
 ---
 title: MCP for Strategic Portfolio Management release notes
-description: The ServiceNow MCP for Strategic Portfolio Management application connects any MCP-compatible AI assistant to your ServiceNow instance. Strategy and PMO leaders, portfolio managers, and project managers can access live SPM data through natural language. See the following sections for release notes by version.Version 1.0.0 introduces MCP for Strategic Portfolio Management, enabling users to query live SPM data through natural language from any MCP-compatible AI assistant.
+description: The ServiceNow MCP for Strategic Portfolio Management application connects any MCP-compatible AI assistant to your ServiceNow instance. Strategy and PMO leaders, portfolio managers, and project managers can access live SPM data through natural language. See the following sections for release notes by version.Version 1.5.0 of MCP for Strategic Portfolio Management includes tool annotation hints and role-based access to tools. AI assistants apply the correct permission policies, and only authorized users can run each tool.Version 1.4.0 introduces MCP for Strategic Portfolio Management, enabling users to query live SPM data through natural language from any MCP-compatible AI assistant.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/mcp-for-spm-rn.html
 release: brazil
 topic_type: topic
 last_updated: "2026-09-10"
 reading_time_minutes: 2
+keywords: [MCP tool annotations, readOnlyHint, MCP role-based access control]
 breadcrumb: [Strategic Portfolio Management release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
@@ -31,15 +32,30 @@ See [MCP for Strategic Portfolio Management](https://raw.githubusercontent.com/S
 
 **Parent Topic:**[Strategic Portfolio Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/it-business-management-rn-landing.md)
 
+## Version 1.5.0
+
+Version 1.5.0 of MCP for Strategic Portfolio Management includes tool annotation hints and role-based access to tools. AI assistants apply the correct permission policies, and only authorized users can run each tool.
+
+### What's changed
+
+-   **[Role-based tool access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/exploring-spm-mcp-server.md)**
+
+    Control which SPM MCP server tools each user can run based on their assigned roles. Each tool is mapped to the SPM roles required to use it, and the MCP Server Console enforces that mapping through role-based access control.
+
+-   **[Tool annotations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/exploring-spm-mcp-server.md)**
+
+    The SPM MCP server tools include annotation hints, such as title, readOnlyHint, and destructiveHint, in the tools/list response as defined by the MCP specification. AI assistants use these hints to apply the correct permission policies, so read-only tools are no longer treated as potentially destructive by default. Administrators can review and configure the annotations for each tool in the MCP Server Console.
+
+
 ## Version 1.4.0
 
-Version 1.0.0 introduces MCP for Strategic Portfolio Management, enabling users to query live SPM data through natural language from any MCP-compatible AI assistant.
+Version 1.4.0 introduces MCP for Strategic Portfolio Management, enabling users to query live SPM data through natural language from any MCP-compatible AI assistant.
 
 ### What's new
 
 -   **[SPM MCP server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/spm-mcp-server-landing-page.md)**
 
-    Connect any MCP-compatible AI assistant to your ServiceNow instance to query Strategic Portfolio Management data through natural language, without opening the ServiceNow application. The SPM MCP server ships as a standalone application \(com.sn.spm.mcp\) and is managed through the MCP Server Console console.
+    Connect any MCP-compatible AI assistant to your ServiceNow instance to query Strategic Portfolio Management data through natural language, without opening the ServiceNow application. The SPM MCP server ships as a standalone application \(com.sn.spm.mcp\) and is managed through the MCP Server Console.
 
 -   **[Goal tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/exploring-spm-mcp-server.md)**
 

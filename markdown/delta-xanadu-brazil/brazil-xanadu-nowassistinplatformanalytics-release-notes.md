@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-nowassistinplatformanalytics-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -321,6 +321,8 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 After installation, activate the relevant skills. For more information, see the relevant Configure topics under [Now Assist in Platform Analytics](https://www.servicenow.com/docs/access?context=now-assist-in-platform-analytics&family=yokohama&ft:locale=en-US).
 
+
+**Important:** Now Assist for Platform Analytics applications are available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 

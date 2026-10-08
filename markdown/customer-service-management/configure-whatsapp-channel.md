@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/configure-whatsapp-channel.html
 release: brazil
 topic_type: concept
-last_updated: "2026-09-24"
-reading_time_minutes: 5
+last_updated: "2026-10-08"
+reading_time_minutes: 6
 keywords: [WhatsApp, omnichannel, configure]
 breadcrumb: [Configure consumer messaging apps, Configure omnichannel, Configure, Customer Service Management]
 ---
@@ -48,6 +48,8 @@ WhatsApp configuration follows two separate paths: WhatsApp Cloud API or Twilio.
 
 Use this path for direct integration with WhatsApp's native Cloud API. This approach skips the Twilio go-between and relies less on outside infrastructure. Customers must maintain two separate accounts: a Meta account and a ServiceNow instance.
 
+See [Integrating WhatsApp with Customer Service Management using the WhatsApp Cloud API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/messg-integrating-whatsapp-with-csm-whatsapp-cloud.md).
+
 | |Configuration step|Description|Role|
 |---|------------------|-----------|----|
 |1|[Setup WhatsApp business account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/messg-direct-whatsapp-setup.md)|Create and verify your WhatsApp Business Account and phone number with WhatsApp directly.Yuo must complete this before configuring ServiceNow.|External \(WhatsApp\)|
@@ -58,6 +60,8 @@ Use this path for direct integration with WhatsApp's native Cloud API. This appr
 **WhatsApp via Twilio**
 
 Use this path if your organization already works with Twilio or prefers their integration model. Twilio sits between WhatsApp and ServiceNow, handling message delivery, failover, and policy compliance. This approach doesn't support the full control features \(for example, list pickers, typing indicators, or geo-location specific features\) available through the Cloud API. Customers must maintain three separate accounts: Twilio, Meta, and ServiceNow.
+
+See [Integrating WhatsApp with Customer Service Management through Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/messg-integrate-whatsapp-csm.md).
 
 | |Configuration step|Description|Role|
 |---|------------------|-----------|----|

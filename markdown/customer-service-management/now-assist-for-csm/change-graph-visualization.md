@@ -19,7 +19,7 @@ Change a graph visualization to a different type within the same graph group, su
 
 ## Before you begin
 
-Role required: admin or maint
+Role required: admin
 
 ## About this task
 

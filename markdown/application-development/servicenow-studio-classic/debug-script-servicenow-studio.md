@@ -9,7 +9,7 @@ classification: servicenow-studio-classic
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use, ServiceNow Studio, Developing your application, Building applications]
+breadcrumb: [Use, ServiceNow Studio, Build, AI Workflow Factory, Building applications]
 ---
 
 # Debug a script in ServiceNow Studio

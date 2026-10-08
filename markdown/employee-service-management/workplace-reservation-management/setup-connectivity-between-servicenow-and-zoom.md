@@ -68,9 +68,3 @@ The OAuth registration is added for Zoom.
 
 **Next topic:**[Create connection and credential for Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-reservation-management/create-connection-and-credentials-for-zoom.md)
 
-**Parent Topic:**[Connect Workplace Reservation Management with Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-reservation-management/connect-rsv-mtm-with-zoom.md)
-
-**Previous topic:**[Connect Workplace Reservation Management with Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-reservation-management/connect-rsv-mtm-with-zoom.md)
-
-**Next topic:**[Create connection and credential for Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-reservation-management/create-connection-and-credentials-for-zoom.md)
-

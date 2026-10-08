@@ -32,5 +32,7 @@ Work orders aren’t created from healthcare biomed cases. Instead, agents work 
 
 Cases created are assigned to assignment groups based on the requesting location associations and are configured normally.
 
-For information on fulfilling cases, see  in Customer Service Management.
+For information on fulfilling cases, see [Manage cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/manage-cases.md) in Customer Service Management.
+
+**Note:** Some cases are created by the ServiceNow Otto case creation AI agent instead of being submitted through a form. Fulfill these cases the same way. When a case comes from a chat conversation, an interaction record of the conversation is also created.
 

@@ -53,15 +53,15 @@ If the **Summarize** option isn’t visible, the skill has to be activated by an
 
 7.  Review the summary and complete any of the following options.
 
-<table id="choicetable_szp_rjg_d2c"><thead><tr><th align="left" id="d371792e192">
+<table id="choicetable_szp_rjg_d2c"><thead><tr><th align="left" id="d374080e192">
 
 Option
 
-</th><th align="left" id="d371792e195">
+</th><th align="left" id="d374080e195">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d371792e201">
+</th></tr></thead><tbody><tr><td id="d374080e201">
 
 **Edit or save the summary**
 
@@ -73,7 +73,7 @@ Description
 
 Once saved to the case record, the summary appears in the **Overview** tab and in the **Activity** stream of the **Details** tab.
 
-</td></tr><tr><td id="d371792e239">
+</td></tr><tr><td id="d374080e239">
 
 **View information about the summary**
 
@@ -83,7 +83,7 @@ Select the information icon \(\[Omitted image "icon-more-info.png"\] Alt text: I
 
  **"AI summarized this using the record details. Check it for accuracy."**
 
-</td></tr><tr><td id="d371792e261">
+</td></tr><tr><td id="d374080e261">
 
 **Expand or collapse the summary card**
 
@@ -93,7 +93,7 @@ Select **View less** to collapse the summary partially, or **View more** to expa
 
  Alternatively, select the **Expand card** icon \(\[Omitted image "1359f0820edb015bf9a07a974954c3a7e4bba5ea.png"\] Alt text: Expand icon.\) or **Collapse card** icon \(\[Omitted image "94e89fa3fcd2fd8b5bf89b6b1ba9b007c36cadfd.png"\] Alt text: Collapse icon.\) next to **Share to case summary** to fully expand or collapse the summary.
 
-</td></tr><tr><td id="d371792e303">
+</td></tr><tr><td id="d374080e303">
 
 **Provide feedback**
 
@@ -103,7 +103,7 @@ Select the helpful icon \(\[Omitted image "0770bcf2ec3103e8b027eeab0eddd1ec0270f
 
 **Note:** User feedback doesn't affect future LLM outputs. It’s collected by ServiceNow® for internal quality monitoring only.
 
-</td></tr><tr><td id="d371792e334">
+</td></tr><tr><td id="d374080e334">
 
 **Copy the summary**
 
@@ -111,7 +111,7 @@ Select the helpful icon \(\[Omitted image "0770bcf2ec3103e8b027eeab0eddd1ec0270f
 
 Select the copy icon \(\[Omitted image "b4c3211d08fa1fec983aab14a5a10fc78925e5a9.png"\] Alt text: Copy icon.\) to copy the summary to the clipboard.
 
-</td></tr><tr><td id="d371792e352">
+</td></tr><tr><td id="d374080e352">
 
 **Regenerate the summary**
 

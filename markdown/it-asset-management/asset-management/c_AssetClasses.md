@@ -7,7 +7,7 @@ release: brazil
 product: Asset Management
 classification: asset-management
 topic_type: concept
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [Use, Base Asset Management, Common applications, Asset Management]
 ---
@@ -29,7 +29,7 @@ Use asset states and substates to track assets accurately and at a detailed leve
 -   **[Add depreciation to an asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-management/t_AddingDepreciationToAnAsset.md)**  
 Depreciation is the reduction in the value of an asset over time.
 
-**Parent Topic:**[Using Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-management/using-asset-management.md)
+**Parent Topic:**[Using Base Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-management/using-asset-management.md)
 
 **Related topics**  
 

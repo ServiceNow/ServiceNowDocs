@@ -9,6 +9,7 @@ classification: threat-intelligence-security-center
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 6
+keywords: [Investigation Canvas, canvas actions, investigation actions]
 breadcrumb: [Working with Investigation Canvas, Threat Analyst Workbench, Use, Threat Intelligence Security Center, Security Operations]
 ---
 

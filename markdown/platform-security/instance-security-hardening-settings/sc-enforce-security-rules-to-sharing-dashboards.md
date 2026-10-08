@@ -110,7 +110,7 @@ References
 
 </td><td>
 
-
+[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/access-control.md)
 
 </td></tr><tr><td>
 

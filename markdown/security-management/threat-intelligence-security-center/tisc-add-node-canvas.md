@@ -9,6 +9,7 @@ classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
+keywords: [investigation canvas, add node, observables, entities]
 breadcrumb: [Working with Investigation Canvas, Threat Analyst Workbench, Use, Threat Intelligence Security Center, Security Operations]
 ---
 
@@ -40,15 +41,15 @@ Role required: sn\_sec\_tisc.analyst
     -   Another option to view the **New Node** functionality is to view from the investigation canvas page directly.
 6.  To create a node, select the appropriate **Entity Category** and **Entity Type**.
 
-<table id="choicetable_y4f_vd5_zfc"><thead><tr><th align="left" id="d133550e151">
+<table id="choicetable_y4f_vd5_zfc"><thead><tr><th align="left" id="d134050e162">
 
 Field
 
-</th><th align="left" id="d133550e154">
+</th><th align="left" id="d134050e165">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d133550e160">
+</th></tr></thead><tbody><tr><td id="d134050e171">
 
 **Entity Category**
 
@@ -56,7 +57,7 @@ Description
 
 Select the entity category such as Observable, or Object.
 
-</td></tr><tr><td id="d133550e169">
+</td></tr><tr><td id="d134050e180">
 
 **Entity Type**
 

@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/impact/manage-objectives-and-ou
 release: brazil
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Objectives and Outcomes in Impact Delivery Instance, Impact Delivery Instance reference, Impact reference, Impact]
 ---
 
@@ -36,7 +36,7 @@ Role required: Impact admin, Platform Owner, Impact Portfolio Owner, and Impact 
 
     **Note:**
 
-    For IT Service Management, **Enhanced** outcomes are now available for tracking alongside Standard outcomes. Performance insights and trend analysis for Enhanced outcomes are only available in the Impact Store Application. Download Impact from the ServiceNow store to take advantage of the latest features directly in your instance. See [Install Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/install-impact-innovation-lab.md) for more information.
+    For IT Service Management, Customer Service Management, and HR Service Delivery. **Enhanced** outcomes are now available for tracking alongside Standard outcomes. Performance insights and trend analysis for Enhanced outcomes are only available in the Impact Store Application. Download Impact from the ServiceNow store to take advantage of the latest features directly in your instance. See [Install Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/install-impact-innovation-lab.md) for more information.
 
 5.  Select **Save and Continue**.
 

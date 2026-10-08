@@ -8,15 +8,13 @@ product: Employee Travel Safety
 classification: employee-travel-safety
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 10
+reading_time_minutes: 9
 breadcrumb: [Employee Travel Safety, Safe Workplace, Health and Safety, Employee Service Management]
 ---
 
 # Configure Employee Travel Safety
 
 Complete all configuration tasks to ensure that travel notifications and approvals are set up correctly for your company.
-
-**Parent Topic:**[Employee Travel Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/employee-travel-safety/employee-travel-safety.md)
 
 **Parent Topic:**[Employee Travel Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/employee-travel-safety/employee-travel-safety.md)
 

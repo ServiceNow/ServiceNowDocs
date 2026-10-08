@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/upgrading\_your\_pdi.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-10-02"
 reading_time_minutes: 1
 breadcrumb: [Personal developer instance guide, Learning about developing on the ServiceNow AI Platform, Building applications]
 ---
@@ -26,18 +26,24 @@ When ServiceNow® releases patches and new releases, you can apply the patch or 
 
 ## Procedure
 
-1.  Open the **Account** menu to access the **My Instance** section.
+1.  Log in to the [Developer Site](https://developer.servicenow.com/).
 
-2.  Click the **Upgrade instance** instance action.
+2.  Select **Manage my instance**.
 
-3.  In the **Your instance actions** dialog, select the patch or release to apply to your PDI and click the **Upgrade instance** button.
+3.  In the first panel, select **Upgrade release**.
+
+    The upgrade release button is only displayed if a later release version is available. A label is displayed if your current version is the latest release.
+
+    \[Omitted image "upgrade-latest-release.png"\] Alt text: Manage instance page with latest release highlighted.
+
+4.  Select the patch or release to apply to your PDI.
+
+5.  Select **Upgrade**.
 
 
 ## Result
 
-Upgrading your instance may take a couple of hours to complete. Do not run the upgrade until you have time to let the upgrade run.
-
-You will receive an email when the upgrade is complete.
+You receive an email when the upgrade is complete.
 
 **Parent Topic:**[Personal developer instance guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/personal_developer_instance_guide.md)
 

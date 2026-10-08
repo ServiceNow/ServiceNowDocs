@@ -8,9 +8,9 @@ product: Developer Sandboxes
 classification: developer-sandboxes
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 5
+reading_time_minutes: 7
 keywords: [developer sandbox, sandbox developer, servicenow sandbox enabled, development sandbox, dev sandbox, sandbox management, sandbox enabled servicenow, sandbox crm]
-breadcrumb: [Developer Sandboxes, Developing your application, Building applications]
+breadcrumb: [Developer Sandboxes, Build, AI Workflow Factory, Building applications]
 ---
 
 # Exploring Developer Sandboxes
@@ -61,6 +61,7 @@ Developer Sandboxes provide an isolated environment that integrates with source 
 
 |User|Description|
 |----|-----------|
+|Sandbox license admins|Sandbox license admins can assign purchased sandbox packs to non-production instances from App Engine Management Center \(AEMC\).|
 |Delegated developers|Delegated developers can request sandboxes from an admin or sandbox manager.|
 |Admins|Admins can allocate or retire sandboxes.|
 |Sandbox managers|Sandbox managers can administer the lifecycle of all sandboxes without full admin privileges.|
@@ -127,6 +128,18 @@ Delegated developers, sandbox managers
 
 </td></tr><tr><td>
 
+Self-serve license assignment
+
+</td><td>
+
+Assign purchased sandbox packs to non-production instances directly from App Engine Management Center \(AEMC\), without opening a support case. For more information, see [License assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/developer-sandboxes/dsb-license-allocation-about.md).
+
+</td><td>
+
+Sandbox license admins
+
+</td></tr><tr><td>
+
 Pooling for faster allocation
 
 </td><td>
@@ -171,4 +184,19 @@ Enables you to allocate a sandbox to yourself, or for an admin to allocate a san
 </table>## What to explore next
 
 To learn more about installing and configuring Developer Sandboxes, refer to [Installing Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/developer-sandboxes/dev-sbx-installing.md).
+
+-   **[Supported ServiceNow AI Platform features in Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/developer-sandboxes/dev-sbx-supported-features.md)**  
+Developer Sandboxes supports almost all development-related ServiceNow AI Platform features.
+-   **[Source control and Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/developer-sandboxes/dev-sandboxes-source-control.md)**  
+Use source control with Developer Sandboxes to enable parallel development and prevent merge conflicts.
+-   **[Update sets transfer between sandboxes and base instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/developer-sandboxes/dsb-update-sets.md)**  
+When a sandbox is ready, update set sources are automatically created on both the sandbox and the base instance, enabling transfers in either direction without manual configuration.
+-   **[Developer Sandboxes and metadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/developer-sandboxes/dev-sbx-metadata.md)**  
+Each sandbox provisioned with Developer Sandboxes is an isolated environment within an instance. Developers can build and test in parallel without affecting other work.
+-   **[General guidelines and use cases for Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/developer-sandboxes/dev-sbx-general-guidelines.md)**  
+Follow some general guidelines to ensure you're optimizing your use of sandboxes.
+-   **[Get help with Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/developer-sandboxes/dev-sbx-get-help.md)**  
+To get help with Developer Sandboxes, your ServiceNow instance, plugins, permissions, and more, watch a short video to contact the ServiceNow admin who works in your company. You can also check some helpful resources.
+
+**Parent Topic:**[Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/developer-sandboxes/sandboxes-landing.md)
 

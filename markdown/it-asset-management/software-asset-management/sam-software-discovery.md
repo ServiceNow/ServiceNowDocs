@@ -35,7 +35,7 @@ Discovery uses patterns in the discovery process that can be created or customiz
 -   VMware vCenter
 -   Microsoft SQL Server
 -   Microsoft Exchange Server
--   Oracle Database Server
+-   Oracle Database
 
 You can also customize other patterns for Software Asset Management. For more information, see [Create or modify patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/t_CreatePatternPatDef.md).
 

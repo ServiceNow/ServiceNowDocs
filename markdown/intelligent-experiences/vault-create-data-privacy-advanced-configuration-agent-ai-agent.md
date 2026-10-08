@@ -1,6 +1,6 @@
 ---
 title: Create Data Privacy advanced configuration AI agent
-description: This ServiceNow Vault agent helps users complete tasks related to creating data privacy advanced configuration agents.
+description: This ServiceNow Vault agent helps users fetch, create, activate, and link data privacy policy configurations across data channels.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/vault-create-data-privacy-advanced-configuration-agent-ai-agent.html
 release: brazil
@@ -12,7 +12,7 @@ breadcrumb: [ServiceNow Vault AI agents, ServiceNow Vault AI agents, AI agents l
 
 # Create Data Privacy advanced configuration AI agent
 
-This ServiceNow Vault agent helps users complete tasks related to creating data privacy advanced configuration agents.
+This ServiceNow Vault agent helps users fetch, create, activate, and link data privacy policy configurations across data channels.
 
 ## Workflow
 
@@ -93,8 +93,6 @@ Get all data channels
 
 Update privacy advanced configuration tool
 
--   **Record Operation**
-
 Fetch active data privacy policy configuration for data channel
 
 
@@ -112,7 +110,7 @@ Data access roles The specific user identity roles that determine which data the
 
 </td><td>
 
-now\_assist\_data\_privacy\_admin, data\_kit\_data\_privacy\_admin, data\_privacy\_admin, virtual\_agent\_data\_privacy\_admin
+Not defined.
 
 </td></tr><tr><td>
 

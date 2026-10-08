@@ -39,8 +39,6 @@ Describe the fields on the Create New Knowledge Base form to configure knowledge
 Field descriptions for the CBS Knowledge Authors form.
 -   **[CBS Knowledge Readers form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/core-business-suite/cbs-reader-ref.md)**  
 Field descriptions for the CBS Knowledge Readers form.
--   **[Agent Experience widget reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/core-business-suite/agent-experience-widget-reference.md)**  
-Quick reference for the three Core Business Suite widgets available in Agent Experience, including content types, available actions, and display limits.
 
 **Parent Topic:**[Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/core-business-suite/cbs-landing.md)
 

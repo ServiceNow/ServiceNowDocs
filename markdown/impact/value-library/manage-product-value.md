@@ -9,7 +9,7 @@ classification: value-library
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Product value, Value management, Using Impact, Impact]
+breadcrumb: [Product value, Value Management, Using Impact, Impact]
 ---
 
 # View outcome performance on the product value dashboard

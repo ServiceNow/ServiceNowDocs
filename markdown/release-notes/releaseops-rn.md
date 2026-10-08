@@ -1,6 +1,6 @@
 ---
 title: ReleaseOps release notes
-description: The ServiceNow ReleaseOps application enables you to deploy and validate code from development to production in your ServiceNow environments. See the following sections for release notes by version.
+description: The ServiceNow ReleaseOps application enables you to deploy and validate code from development to production in your ServiceNow environments. See the following sections for release notes by version.ReleaseOps was enhanced and updated in the October 2026 release to enable the assessment of deployment requests independently of a release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/releaseops-rn.html
 release: brazil
@@ -23,7 +23,7 @@ The ServiceNow® ReleaseOps application enables you to deploy and validate code 
 -   Schedule releases for routine updates or trigger on-demand releases to fast-track patches and hotfixes.
 -   Resolve deployment issues efficiently with auto-generated deployment tasks that are assigned to the right stakeholders.
 
-See [ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/releaseops-landing.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
@@ -37,4 +37,15 @@ See [ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/bra
 
 
 **Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/build-automate-rn-landing.md)
+
+## Version 3.0.2
+
+ReleaseOps was enhanced and updated in the October 2026 release to enable the assessment of deployment requests independently of a release.
+
+### What's new
+
+-   **Create a deployment request**
+
+    Begin assessing deployment requests before having to create or select a release. As some assessments can take much longer than the time needed for a release, this feature enables you to start assessments early and speed up your time to deployment.
+
 

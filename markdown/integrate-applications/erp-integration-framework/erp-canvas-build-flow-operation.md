@@ -8,7 +8,7 @@ product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: concept
 last_updated: "2026-08-05"
-reading_time_minutes: 4
+reading_time_minutes: 3
 keywords: [erp, integration, canvas, data hub, zero, copy, connector, sap, build, flow]
 breadcrumb: [Building with ERP data, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
@@ -58,6 +58,4 @@ To use ERP data for processes or tasks outside of Zero Copy Connector for ERP, u
 
 
 **Note:** Zero Copy Connector for ERP appears as **ERP Integration** when you work with it in Workflow Studio.
-
-**Parent Topic:**[Building with ERP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-building-with-erp-data.md)
 

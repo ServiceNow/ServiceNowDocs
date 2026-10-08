@@ -34,7 +34,7 @@ Domain separation is supported in ServiceNow Otto for IT Service Management \(IT
 1.  Install the ServiceNow Otto for IT Service Management \(ITSM\) \(sn\_itsm\_gen\_ai\).
 
     -   For information about the application dependencies, see [Supporting information for ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/now-assist-for-it-service-management-itsm/supporting-information-now-assist-itsm.md).
-    -   For information about the installation process, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+    -   For information about the installation process, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 2.  Navigate to **Admin** &gt; **AI Admin Hub**.
 
 3.  Select the **AI Skills** tab.

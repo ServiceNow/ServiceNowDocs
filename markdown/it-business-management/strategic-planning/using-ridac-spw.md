@@ -38,8 +38,8 @@ The four RIDAC filtering tabs are:
 
 -   **All RIDAC** — Displays every risk, issue, decision, action, and change that you have access to across your entire planning portfolio. This view includes RIDAC items created on all planning item types—projects, demands, features, product areas, and more. Use this tab for a comprehensive overview of all planning uncertainties and dependencies you're responsible for, regardless of their planning scope or parent type.
 -   **Project RIDAC** — Shows only RIDAC items created on project planning items. Use this tab when you want to focus on risks, issues, decisions, actions, and changes specific to projects without viewing items from other planning item types.
--   **Portfolio RIDAC** — Displays risks and issues at the portfolio level. These are created for execution items within the portfolio or roll up from them. All items shown have a portfolio as the top-level parent. Use this tab to review portfolio-level risks and cross-project impacts.
--   **Program RIDAC** — Displays risks and issues at the program level. These are created directly on the program or roll up from execution items within the program. All items shown have a program as the top-level parent. Use this tab to review program-level risks and interdependencies.
+-   **RIDAC by Portfolio** — Displays risks, issues, and decisions at the portfolio level. These are created for execution items within the portfolio or roll up from them. All items shown have a portfolio as the top-level parent. Use this tab to review portfolio-level risks, decisions, and cross-project impacts.
+-   **RIDAC by Program** — Displays risks, issues, and decisions at the program level. These are created directly on the program or roll up from execution items within the program. All items shown have a program as the top-level parent. Use this tab to review program-level risks, decisions, and interdependencies.
 
 ## Using RIDAC
 
@@ -47,7 +47,7 @@ Using RIDAC in Strategic Planning Workspace allows you to manage planning risks,
 
 -   [View RIDAC records for planning items, goals, or EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/view-ridac-records-spw.md)
 
-    View different RIDAC records by planning scope \(All RIDAC, Project RIDAC, Portfolio RIDAC, or Program RIDAC\) from a single centralized view.
+    View different RIDAC records by planning scope \(All RIDAC, Project RIDAC, RIDAC by Portfolio, or RIDAC by Program\) from a single centralized view.
 
 -   [Create RIDAC for a planning item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/create-ridac-planning-item-spw.md)
 

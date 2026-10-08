@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/government-industry/psds-explor
 release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Playbooks and Solutions, Explore, Public Sector Digital Services \(PSDS\)]
 ---
 
@@ -44,6 +44,8 @@ Key features of Investigative Case Management include:
     -   Create incident and investigation event records to help capture the timeline for important events that happen during the investigation, and the timeline of the investigation itself.
     -   View audit logs for all firearm record changes and relationship updates.
     -   Associate multiple entities to each other and to the case, as well as manage all entities and their relationships to the case.
+    -   Visualizes entities, evidence, tasks, and related cases as an interactive knowledge graph, surfacing hidden connections and blind spots with Case Link Analysis.
+    -   Create a work order directly from an investigative task, so field dispatch happens inside the ICM workspace.
     For more information on Entity Management, see [Using Entity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-explore-icm-entity-management.md).
 
 -   **Evidence Management**
@@ -59,6 +61,10 @@ Key features of Investigative Case Management include:
     -   Introduce a digital chain of custody feature that tracks the movement, transfer, and status changes of evidence records with timestamps and responsible personnel for each action.
     -   Enable relationship mapping between pieces of evidence and all relevant case entities \(People, Locations, Vehicles, Events, Property, and Organizations\).
     For more information on Evidence Management, see [Using Evidence Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-explore-icm-evidence-management.md).
+
+-   **Master Index Versioning**
+
+    Adds immutable, time-stamped entity snapshots and cross-case impact warnings so investigators can update shared entities without contaminating parallel cases. When an entity is linked to a case, the system locks an immutable, time-stamped snapshot of exactly what that entity looked like — defensible proof of “what we knew when” for prosecution and appeals. Before an update, investigators are told upfront how many active cases will be affected and can proceed globally or create a case-specific version. Every change is captured in a complete who/when/what audit trail, delivering OIG audit-readiness and chain-of-custody protection.
 
 -   **Case summarization and Narrative refinement gen-AI skills**
 

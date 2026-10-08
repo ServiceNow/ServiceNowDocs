@@ -1,28 +1,28 @@
 ---
 title: ERP output formatter AI agent
-description: This AI agent formats and refines the output from the ERP action invoker AI agent.
+description: The Zero Copy Connector for ERP AI agent formats and refines the output from the ERP action invoker AI agent.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/zcc-erp-output-formatter-ai-agent.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-09-22"
 reading_time_minutes: 2
 breadcrumb: [Zero Copy Connector for ERP AI agents, Zero Copy Connector AI agents, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # ERP output formatter AI agent
 
-This AI agent formats and refines the output from the ERP action invoker AI agent.
+The Zero Copy Connector for ERP AI agent formats and refines the output from the ERP action invoker AI agent.
 
 ## Workflow
 
-The AI agent leverages the Knowledge Graph to ensure the data is presented in a structured and meaningful way, catering to users who need actionable and well-organized ERP data.
+The AI agent uses the Knowledge Graph to present data in a structured, organized format for users who need ERP data.
 
 1.  Evaluate the output from the ERP action invoker AI agent.
-2.  If the output is not blank, send it to the Response Formatter tool.
+2.  If the output is not empty, send it to the `Response Formatter` tool.
 3.  Show the results to the user.
 
-<table><thead><tr><th>
+<table id="table_wfm_csy_qkc"><thead><tr><th>
 
 Field
 
@@ -106,7 +106,11 @@ Used in agentic workflows
 [Explore ERP models agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/now-assist-erp-aiagents-data-explorer-workflow.md)
 
 </td></tr></tbody>
-</table>Learn more at [ServiceNow Otto for Zero Copy Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/now-assist-for-zero-copy-connector-for-erp.md) and [Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-overview.md).
+</table>For more information, see:
+
+-   [Explore ERP models agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/now-assist-erp-aiagents-data-explorer-workflow.md)
+-   [ServiceNow Otto for Zero Copy Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/now-assist-for-zero-copy-connector-for-erp.md)
+-   [Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-overview.md)
 
 **Parent Topic:**[Zero Copy Connector for ERP AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/zcc-ai-agents-overview.md)
 

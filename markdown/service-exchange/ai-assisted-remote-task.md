@@ -44,7 +44,7 @@ The following describes the general flow when a provider administrator starts an
 
 Transform maps for choice fields might not generate automatically. If the completion message reports failed transforms, manually review and complete the affected transform maps.
 
-For more information on the detailed steps about generating RTD, see [Create a remote task definition with AI assistance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/create-remote-task-definition-ai-assistance.md).
+For more information on the detailed steps about generating RTD, see .
 
 **Related topics**  
 

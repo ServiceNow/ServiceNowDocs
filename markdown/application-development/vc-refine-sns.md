@@ -9,7 +9,7 @@ last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [ServiceNow Studio, vibe coding, Build Agent, AI-assisted development, application development, developer tools, code refinement, metadata editing, Automated Test Framework, ATF, application files, access control lists, ACL, record producers, update sets]
 audience: developer
-breadcrumb: [Build Agent overview, Develop, Agentic development, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Build Agent overview, Develop, Agentic development, Build, AI Workflow Factory, Building applications]
 ---
 
 # Agentic development app refinement in ServiceNow Studio

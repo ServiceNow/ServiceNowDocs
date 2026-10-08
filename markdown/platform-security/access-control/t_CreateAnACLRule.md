@@ -60,7 +60,7 @@ Operation
 
 </td><td>
 
-Select the operation that this ACL secures. Each object type has its own list of operations. An ACL can only secure one operation. To secure multiple operations, create a separate ACL for each.If you’re creating an ACL for a report\_view operation, see also .
+Select the operation that this ACL secures. Each object type has its own list of operations. An ACL can only secure one operation. To secure multiple operations, create a separate ACL for each.If you’re creating an ACL for a report\_view operation, see also [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/report-view-access-control.md).
 
 </td></tr><tr><td>
 
@@ -76,7 +76,7 @@ Admin overrides
 
 </td><td>
 
-Select this check box to have users with the admin role automatically pass the permissions check for this ACL. Admin users pass regardless of what script or role restrictions apply. However, the **nobody** role, which only ServiceNow personnel can assign, takes precedence over the admin override option. If an ACL is assigned the **nobody** role, admin users can’t access the resource even when **Admin overrides** is selected. See Base system roles.
+Select this check box to have users with the admin role automatically pass the permissions check for this ACL. Admin users pass regardless of what script or role restrictions apply. However, the **nobody** role, which only ServiceNow personnel can assign, takes precedence over the admin override option. If an ACL is assigned the **nobody** role, admin users can’t access the resource even when **Admin overrides** is selected. See [Base system roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/r_BaseSystemRoles.md).
 
  Clear this check box if administrators must meet the permissions defined in this ACL to gain access to the secured object. Since administrators always pass role checks \(see the description of the **Requires role** field\), use the condition builder or **Script** field to create a permissions check that administrators must pass.
 

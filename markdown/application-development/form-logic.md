@@ -16,7 +16,7 @@ Controlling what users see when they visit a form can increase productivity and 
 
 ## Agentic AI
 
-Create applications with help from agentic AI. For more information, see [Agentic development on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/use-ai-capabilities-in-custom-apps.md).
+Create applications with help from agentic AI. For more information, see [Build applications with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/build-ai-workflow-factory-prime.md).
 
 ## Determine when to control user access
 

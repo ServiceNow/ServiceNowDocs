@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/somt-flow-action-catalog-task.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-09-27"
 reading_time_minutes: 2
 breadcrumb: [Configure, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -19,6 +19,8 @@ A no-code approach in ServiceNow® that allows you to create task orchestration 
 For more information about Flow actions for fulfillment subflow definition, see [Flow actions for fulfillment subflow definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/order-mgt-flow-actions-fulfillment-subflows.md).
 
 When the template is configured for a specification, the domain order creation automatically searches for a matching template, based on the task's specification and action of domain order. When a template match is found, the template is applied to generate the order tasks under the domain order. To learn more about task plan template, see [Task plan templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/task-plan-templates.md).
+
+**Note:** This task orchestration integration for domain orders is available in Sales and Order Management deployments, whether or not Sales Customer Relationship Management for Telecommunications \(SOMT\) is installed.
 
 **Important:** Automatic closure of domain orders is currently inactive and will require a custom implementation.
 

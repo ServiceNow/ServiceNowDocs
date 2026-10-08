@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
-breadcrumb: [Use agentic AI, Now Assist, Common GRC features, Governance, Risk, and Compliance]
+breadcrumb: [Use agentic AI, ServiceNow Otto for Integrated Risk Management \(IRM\), Common GRC features, Governance, Risk, and Compliance]
 ---
 
 # Standalone AI Agents in ServiceNow Otto for Integrated Risk Management \(IRM\)

@@ -8,7 +8,7 @@ product: Workflow Studio
 classification: workflow-studio
 topic_type: task
 last_updated: "2026-07-23"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Playbooks as an MCP tool, Playbooks, Workflow Studio, Build workflows]
 ---
@@ -19,11 +19,10 @@ Create a tool in the MCP Server Console and expose it in an MCP server so that M
 
 ## Before you begin
 
-Make sure you have an existing MCP server to which you want to add the playbook as a tool. For more information, see [Create an MCP server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-mcp-server.md)
-
-Create or update existing playbooks to make sure that they are compatible for exposing as an MCP tool. For more information, see [Playbooks as an MCP tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/playbook-as-mcp-tool.md).
-
-Role required: sn\_mcp\_server.tools\_admin, sn\_mcp\_server.admin, or admin
+-   Make sure that you have Process Automation Designer 29.5.1 or later, and an active subscription of ServiceNow Otto®.
+-   Create an MCP server where you want to add the playbook as a tool. For more information, see [Create an MCP server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-mcp-server.md).
+-   Create or update existing playbooks to make sure that they are compatible for exposing as an MCP tool. For more information, see [Playbooks as an MCP tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/playbook-as-mcp-tool.md) and [Check the compatibility of playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/check-mcp-compatibility-playbooks.md).
+-   Role required: sn\_mcp\_server.tools\_admin, sn\_mcp\_server.admin, or admin
 
 ## Procedure
 
@@ -52,9 +51,17 @@ Role required: sn\_mcp\_server.tools\_admin, sn\_mcp\_server.admin, or admin
 
     -   **Active**: Select to make the tool active and ready for execution.
     -   From the **MCP Servers** list, select a sever to which you want to add the tool. The AI clients will use the selected server to access the tool.
-6.  Review the tool inputs and modify if necessary.
+6.  Add the following two Actions as tools to the MCP server:
 
-7.  Select **Create**.
+    -   **Check Playbook Status**
+    -   **Continue Playbook Execution**
+    These Actions are available by default in the **Action** category. You must add these Actions and enable them in the Tools list.
+
+    \[Omitted image "playbook-mcp-extratools.png"\] Alt text: Add two additional actions as tools for the Playbooks MCP server.
+
+7.  Review the tool inputs and modify if necessary.
+
+8.  Select **Create**.
 
     The playbook is available as a tool in the MCP server. MCP clients connected to the server can invoke the playbook as part of an agentic workflow.
 

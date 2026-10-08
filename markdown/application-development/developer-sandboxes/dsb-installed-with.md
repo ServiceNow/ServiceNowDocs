@@ -8,8 +8,8 @@ product: Developer Sandboxes
 classification: developer-sandboxes
 topic_type: reference
 last_updated: "2026-09-10"
-reading_time_minutes: 1
-breadcrumb: [Installing, Developer Sandboxes, Developing your application, Building applications]
+reading_time_minutes: 2
+breadcrumb: [Installing, Developer Sandboxes, Build, AI Workflow Factory, Building applications]
 ---
 
 # Components installed with Developer Sandboxes
@@ -27,6 +27,14 @@ Role title \[name\]
 Description
 
 </th></tr></thead><tbody><tr><td>
+
+Sandbox license admin \[sn\_dsb\_commons.sandbox\_license\_admin\]
+
+</td><td>
+
+Assign sandbox licenses to non-production instances in App Engine Management Center \(AEMC\).**Note:** You must have the com.glide.dsb.licensing plugin installed for this role.
+
+</td></tr><tr><td>
 
 Sandbox manager
 
@@ -49,11 +57,40 @@ Request and view sandboxes.
 </td></tr></tbody>
 </table>## Plugins for Developer Sandboxes
 
-|Plugin|Description|
-|------|-----------|
-|com.glide.dsb|Developer Sandboxes application plugin|
+<table><thead><tr><th>
 
-## Tables installed with Developer Sandboxes
+Plugin
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+com.glide.dsb
+
+</td><td>
+
+Developer Sandboxes application plugin
+
+</td></tr><tr><td>
+
+com.glide.dsb.licensing
+
+</td><td>
+
+Enables self-serve sandbox license assignment from \(AEMC\). Install on your base or controller instance to distribute sandbox packs to non-production instances.**Note:** The com.glide.dsb.licensing plugin should be used from only one instance, the license management instance.
+
+</td></tr><tr><td>
+
+App Management Framework \(sn-app-amf\)
+
+</td><td>
+
+Required for sandbox pack license assignment. This app is available in the ServiceNow Store and must be installed separately. It is not a dependency of the `com.glide.dsb.licensing` plugin and is not installed automatically.**Important:** Install the App Management Framework app from the ServiceNow Store before using sandbox pack license assignment.
+
+</td></tr></tbody>
+</table>## Tables installed with Developer Sandboxes
 
 **Note:**
 
@@ -79,6 +116,14 @@ Main Developer Sandboxes table
 Ensures controlled access to critical sandbox data and prevents unauthorized modifications.
 
  Only the admin or sandbox\_manager role can read or report\_view.
+
+</td></tr><tr><td>
+
+Developer Sandboxes instance allocation table \[sys\_dsb\_instance\_allocation\]
+
+</td><td>
+
+Stores the sandbox pack allocation state for each non-production instance, including the number of packs assigned and the current allocation status.**Note:** This table is available only if the com.glide.dsb.licensing plugin is installed.
 
 </td></tr><tr><td>
 
@@ -159,4 +204,5 @@ Stores lifecycle events describing the deletion of a sandbox.
 Stores rules for partial copy tables.
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[Installing Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/developer-sandboxes/dev-sbx-installing.md)
+

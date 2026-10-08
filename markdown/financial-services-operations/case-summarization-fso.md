@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/case-summarization-fso.html
 release: brazil
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-09-25"
 reading_time_minutes: 1
 breadcrumb: [AI capabilities, AI in FSO, Explore, Financial Services Operations \(FSO\)]
 ---
@@ -16,8 +16,10 @@ Case summarization generates AI-powered summaries of insurance claims and card d
 
 The generated case summary displays in the following areas:
 
--   Insurance: Next to the claim details panel in the claim summary page, claim workspace, and claim details page
--   Banking: Between the activities and case information panel
+-   Insurance: Next to the claim details panel.
+    -   Claims processor: On the Claim Summary tab
+    -   Claims adjuster: On the Claim Workspace and Claim Summary tabs
+-   Banking: Next to the case information panel.
 
 The summary includes the information that the agent enters in the case record fields that are listed in the following table.
 

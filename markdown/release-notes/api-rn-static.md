@@ -1,12 +1,12 @@
 ---
 title: API release notes
-description: The ServiceNow APIs enable organizations to programmatically integrate ServiceNow with other systems, automate business processes, and extend platform capabilities to create seamless, end-to-end workflows across their entire IT and business ecosystem. See the following sections for release notes by family and store release.ServiceNow APIs enable you to build custom applications and experiences. APIs were enhanced and updated in the Brazil release.ServiceNow APIs enable you to build custom applications and experiences. APIs were enhanced and updated in the ServiceNow Store release.
+description: The ServiceNow APIs enable organizations to programmatically integrate ServiceNow with other systems, automate business processes, and extend platform capabilities to create seamless, end-to-end workflows across their entire IT and business ecosystem. See the following sections for release notes by family and store release.ServiceNow APIs enable you to build custom applications and experiences. APIs were enhanced and updated in the ServiceNow Store release.ServiceNow APIs enable you to build custom applications and experiences. APIs were enhanced and updated in the Brazil release.ServiceNow APIs enable you to build custom applications and experiences. APIs were enhanced and updated in the ServiceNow Store release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/api-rn-static.html
 release: brazil
 topic_type: topic
 last_updated: "2026-09-10"
-reading_time_minutes: 5
+reading_time_minutes: 7
 breadcrumb: [Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
@@ -21,7 +21,7 @@ The ServiceNow® APIs enable organizations to programmatically integrate Service
 -   Use inbound REST APIs to interact with various ServiceNow functionalities within your application.
 -   Client Next Experience APIs include client APIs compatible with the Next Experience UI.
 
-See [API implementation and reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/api-implementation-reference.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
@@ -32,6 +32,175 @@ See [API implementation and reference](https://raw.githubusercontent.com/Service
 
 **Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/new-features-changes.md)
 
+## October 2026
+
+ServiceNow® APIs enable you to build custom applications and experiences. APIs were enhanced and updated in the ServiceNow Store release.
+
+### What's new
+
+-   ****
+
+    |Application|App Version|API type|API|Methods/Endpoints|
+    |-----------|-----------|--------|---|-----------------|
+    |Mobile SDK Libraries - Android|2.26.0|Mobile SDK||VoiceInputButton\(\)|
+    |Mobile SDK Libraries - iOS|2.26.0|Mobile SDK||VoiceInputButton\(\)|
+    |Zero Copy Connector for ERP \(com.snc.sn\_erp\_integration\)|10.6.0|Server||getRowCount\(\)|
+
+
+### What's changed
+
+-   ****
+
+<table id="table_rgg_kz3_sjc"><thead><tr><th>
+
+Application
+
+</th><th>
+
+App Version
+
+</th><th>
+
+API type
+
+</th><th>
+
+API
+
+</th><th>
+
+Methods/Endpoints
+
+</th></tr></thead><tbody><tr><td>
+
+Universal MCP Client
+
+</td><td>
+
+1.1.3
+
+</td><td>
+
+Server
+
+</td><td>
+
+
+
+</td><td>
+
+A new parameter **caller\_product** is added to specify the scope name of the application making the API call. This parameter is required for the following methods.-   getServers\(\)
+-   getToolInfo\(\)
+-   invokeTool\(\)
+-   listTools\(\)
+
+
+</td></tr><tr><td>
+
+Mobile SDK Libraries - Android
+
+</td><td>
+
+2.26.0
+
+</td><td>
+
+Mobile SDK
+
+</td><td>
+
+
+
+</td><td>
+
+New optional parameters added to UIConfiguration\(\).-   **hideServiceNowInProductBranding**: Show or hide ServiceNow branding in Virtual Agent.
+-   **voiceInputButton**: Show or hide the speech-to-text microphone button in the text input bar.
+
+
+</td></tr><tr><td>
+
+Mobile SDK Libraries - iOS
+
+</td><td>
+
+2.26.0
+
+</td><td>
+
+Mobile SDK
+
+</td><td>
+
+
+
+</td><td>
+
+New optional parameters added to UIConfiguration\(\).-   **hideBranding**: Show or hide ServiceNow branding in Virtual Agent.
+-   **voiceInputButton**: Show or hide the speech-to-text microphone button in the text input bar.
+
+
+</td></tr><tr><td>
+
+Order Management for Telecommunications and Media
+
+</td><td>
+
+15.0.4
+
+</td><td>
+
+REST
+
+</td><td>
+
+
+
+</td><td>
+
+The PATCH `/sn_ind_tmt_orm/order/productOrder/{id}` endpoint now accepts the V3 `relatedParty` item shape \(`role`/`@type`/`partyOrPartyRole`\). PATCH supports only the reference pattern for both V2 and V3 versions of the API.
+
+</td></tr><tr><td>
+
+Telecommunications Service Management
+
+</td><td>
+
+8.0.3
+
+</td><td>
+
+REST
+
+</td><td>
+
+
+
+</td><td>
+
+In the GET /product and GET /\{id\} endpoints, the `productCharacteristic.valueType` field now supports a new `sn_prd_invt.enableseamlessvaluetype` system property that, when enabled, returns the same backend value format the Product Order API already uses, allowing consistent characteristic value types across both APIs.
+
+</td></tr><tr><td>
+
+Omnichannel Callback for Customer Service Management \(sn\_callback\)
+
+</td><td>
+
+1.8.3
+
+</td><td>
+
+REST
+
+</td><td>
+
+
+
+</td><td>
+
+The `POST /api/now/openframe/voice-interaction` endpoint now prevents duplicate interactions by reusing existing work-in-progress callbacks when an agent clicks to call from the workspace. The system checks for WIP interactions with matching `inbound_id` and parties before creating a new record, and accepts a new `relatedRecords` objecy to pass callback context via `context_document` and `context_table` fields.
+
+</td></tr></tbody>
+</table>
 ## Brazil Early Availability
 
 ServiceNow® APIs enable you to build custom applications and experiences. APIs were enhanced and updated in the Brazil release.
@@ -54,7 +223,7 @@ API
 
 </th><th>
 
-Endpoints
+Methods/Endpoints
 
 </th></tr></thead><tbody><tr><td>
 
@@ -66,7 +235,7 @@ REST
 
 </td><td>
 
-[Developer Sandbox Management API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/developer-sandbox-management-api.md)
+
 
 </td><td>
 
@@ -87,7 +256,7 @@ REST
 
 </td><td>
 
-[Schema Registry API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/schema_registry-api.md)
+
 
 </td><td>
 
@@ -112,7 +281,7 @@ REST
 
 </td><td>
 
-[Sales Cart REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/sales-cart-api.md)
+
 
 </td><td>
 
@@ -136,19 +305,55 @@ Mobile Scripting
 
 </td><td>
 
--   [MobileGlideDate - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/MobileGlideDateScopedAPI.md)
--   [MobileGlideDateTime - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/MobileGlideDateTimeScopedAPI.md)
--   [MobileGlideElement - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/MobileGlideElementScopedAPI.md)
--   [MobileGlideRecord - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/MobileGlideRecordScopedAPI.md)
--   [MobileGlideSystem - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/MobileGlideSystemScopedAPI.md)
--   [MobileGlideTime - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/MobileGlideTimeScopedAPI.md)
--   [MobileGlideUser - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/MobileGlideUserScopedAPI.md)
--   [MobileScripts - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/MobileScriptsScopedAPI.md)
+-   
+-   
+-   
+-   
+-   
+-   
+-   
+-   
 
 
 </td><td>
 
 The Mobile Offline Scripting APIs introduce a set of scripting classes in the `sn_mobile_scripting` namespace that can run against data stored on a user's device. These classes query and modify records, read and write field values, and evaluate dates and times, so button conditions and write-back actions continue to work while the mobile app is offline. Because mobile scripts are a subset of the scripting capabilities available in the browser, the same script runs on the instance without modification when connectivity is available.
+
+</td></tr><tr><td>
+
+Process Mining
+
+</td><td>
+
+Server
+
+</td><td>
+
+
+
+</td><td>
+
+createProjectFromApi\(\): Create a process mining project and retrieve project data.
+
+</td></tr><tr><td>
+
+Unified Secrets Gateway
+
+</td><td>
+
+Server
+
+</td><td>
+
+
+
+</td><td>
+
+Provides an entry point for delivering credentials to a MID Server without requiring the caller to know the underlying storage mechanism.Available methods:
+
+-   getSecret\(\)
+-   getSecrets\(\)
+
 
 </td></tr></tbody>
 </table>
@@ -158,7 +363,14 @@ The Mobile Offline Scripting APIs introduce a set of scripting classes in the `s
 
     |Application|API type|API|Endpoints|
     |-----------|--------|---|---------|
-    |Virtual Agent and Live Agent|REST|[Virtual Agent Bot Integration API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/bot-api.md)|POST /bot/integration: The `history` parameter of the Virtual Agent Bot Integration API now supports an `attachment` type, letting the primary bot include files that were shared earlier in the conversation when it passes chat history to Virtual Agent or Live Agent.|
+    |Virtual Agent and Live Agent|REST||POST /bot/integration: The `history` parameter of the Virtual Agent Bot Integration API now supports an `attachment` type, letting the primary bot include files that were shared earlier in the conversation when it passes chat history to Virtual Agent or Live Agent.|
+
+
+### What's deprecated or removed
+
+-   ****
+
+    The createProject\(\) method is deprecated. Use createProjectFromApi\(\) instead. The properties **promin.api.allow\_no\_role\_mining** and **promin.api.auto\_share\_project\_with\_creator** are also deprecated.
 
 
 ## September 2026
@@ -203,7 +415,7 @@ REST
 
 </td><td>
 
-[Product Offering Qualification API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/product-offering-qualification-api.md)
+
 
 </td><td>
 
@@ -235,7 +447,7 @@ API
 
 </th><th>
 
-Methods/endpoints
+Methods/Endpoints
 
 </th></tr></thead><tbody><tr><td>
 
@@ -251,7 +463,7 @@ REST
 
 </td><td>
 
-[WSD Recurring Reservation API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/wsd_recur_reserv-api.md)
+
 
 </td><td>
 
@@ -271,7 +483,7 @@ Client
 
 </td><td>
 
-[openFrameAPI - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/c_openFrameAPI.md)
+
 
 </td><td>
 
@@ -292,7 +504,7 @@ REST
 
 </td><td>
 
-[Product Catalog Search API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/product-catalog-search-api.md)
+
 
 </td><td>
 
@@ -312,7 +524,7 @@ Server
 
 </td><td>
 
-[CatalogSearchAPI - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/server-api-reference/CatalogSearchAPI-scoped_global.md)
+
 
 </td><td>
 
@@ -332,7 +544,7 @@ REST
 
 </td><td>
 
-[Product Order Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/tmf622_product_ordering-api.md)
+
 
 </td><td>
 
@@ -355,7 +567,7 @@ REST
 
 </td><td>
 
-[Service Order Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/service-order-open-api.md)
+
 
 </td><td>
 
@@ -375,7 +587,7 @@ REST
 
 </td><td>
 
-[Product Inventory Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/product-inventory-open-api.md)
+
 
 </td><td>
 
@@ -395,7 +607,7 @@ REST
 
 </td><td>
 
-[Product Catalog Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/product-catalog-open-api.md)
+
 
 </td><td>
 
@@ -415,7 +627,7 @@ REST
 
 </td><td>
 
-[Service Test Management Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/service-test-management-api.md)
+
 
 </td><td>
 
@@ -435,7 +647,7 @@ REST
 
 </td><td>
 
-[Product Catalog Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/product-catalog-open-api.md)
+
 
 </td><td>
 

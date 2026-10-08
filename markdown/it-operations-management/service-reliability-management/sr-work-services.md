@@ -64,6 +64,9 @@ The columns include the following details:
 -   **Class**: Service instance or technology management service.
 -   **Business criticality**: Importance of the service to the business.
 -   **Open alerts**: Number of open alerts assigned to the service.
+
+    **Note:** For technology management services, the counts for **Open alerts** and **Open critical alerts** include alerts for related configuration items \(CIs\). To view the individual alerts and their associated CIs, open the service and select the **Related alerts** tab. The alert counts include related CIs up to 3 levels deep, with a maximum of 2,000 CIs.
+
 -   **Open incidents**: Number of open incidents assigned to the service.
 -   **Error budget remaining**: Percentage of error budget remaining for the service.
 

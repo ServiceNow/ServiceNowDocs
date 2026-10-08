@@ -57,5 +57,3 @@ The Employee readiness approvals page provides employee vaccine and health recor
 
 **Parent Topic:**[Employee Readiness Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/employee-readiness-core/employee-readiness-core.md)
 
-**Parent Topic:**[Employee Readiness Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/employee-readiness-core/employee-readiness-core.md)
-

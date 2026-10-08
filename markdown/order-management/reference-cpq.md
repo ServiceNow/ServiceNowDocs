@@ -24,8 +24,6 @@ Several types of components are installed with activation of the Pricing Managem
 System properties available with Pricing Management that enable you to control the precision applied to non-currency pricing values, tune how multiline pricing requests are processed, and set the level of detail captured for pricing engine troubleshooting.
 -   **[Quote Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-management-reference.md)**  
 Reference topics provide additional information about the Quote Management application.
--   **[]()**  
-
 -   **[Quote creation via Self-Service fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-creation-fields-self-service.md)**  
 Store the main details related to a quote submitted and track the life cycle of the quote through its stages on the self-service quote \(sn\_quote\_mgmt\_core\_quote\) table. Use the fields to manage and store information related to quote creation.
 -   **[Customer Contracts and Entitlements reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/pss-reference.md)**  

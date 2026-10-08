@@ -9,7 +9,7 @@ classification: grc-compliance-management-workspace
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Compliance Workspace, GRC Compliance workspace, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Compliance Workspace, GRC Compliance workspace, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Compliance Home page for the Compliance Analyst

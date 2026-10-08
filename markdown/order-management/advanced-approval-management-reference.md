@@ -24,3 +24,12 @@ Field descriptions for the Create Approval Rule form in Advanced Approval Manage
 
 **Parent Topic:**[Configure, price, quote reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/reference-cpq.md)
 
+**Related topics**  
+
+
+[Using Advanced Approval Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-advanced-approval-management.md)
+
+[Configuring Advanced Approval Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configuring-advanced-approval-management.md)
+
+[Notifications in Advanced Approval Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/setting-up-approval-notifications.md)
+

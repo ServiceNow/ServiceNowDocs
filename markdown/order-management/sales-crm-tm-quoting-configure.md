@@ -35,8 +35,21 @@ Complete the following tasks to configure the quoting experience for your users 
 -   [Quote transaction views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-tm-views.md) — Views control field and event access permissions for each persona at each stage. A view defines which fields are editable, read-only, or hidden, and which events are active or unavailable.
 -   [Quote transaction personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-tm-personas.md) — Personas represent distinct user types in the quoting experience. Each persona is assigned to a view that defines its permissions at each stage of the quote lifecycle.
 -   [Quote transaction integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-tm-integrations.md) — Integrations connect Quote Experience to external data sources, enabling bidirectional data exchange between quotes and third-party systems using HTTP methods, connections, and transformation templates.
--   [Pricing setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/set-up-external-connection-logik.md) — Enable pricing for the deployment by setting up an external connection to the pricing service. For more information, see [Set up an external connection in CPQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/set-up-external-connection-logik.md). When pricing is set up, quote and line pricing fields are populated automatically and the quote can be repriced manually or automatically. For more information about repricing behavior, see [Transaction events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-tm-events.md).
+-   [Enable pricing in the ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/enable-pricing-quote-experience.md) — Pricing calculates quote and line prices through an integrated pricing service, supporting manual and automatic repricing, manual and automatic price adjustments, and derived pricing. For setup steps, see [Enable pricing in the ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/enable-pricing-quote-experience.md).
 -   [Advanced product filtering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-tm-advanced-product-filtering.md) — Advanced product filtering dynamically controls which products appear in the quote catalog based on admin-defined rules and transaction context. Requires the `enableCatalogFilter` tenant setting.
 -   [Quote Experience runtime API calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-tm-runtime-api-calls.md) — Runtime APIs support headless quoting operations including initializing sessions, creating transactions, running events, and adding products via upsert.
 -   [Quote Experience metrics API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-tm-metrics-api.md) — The metrics API retrieves usage analytics including views by user, session time, and time spent in each stage, with configurable date ranges defaulting to the last 30 days.
+
+**Related topics**  
+
+
+[ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quoting-experiences-overview.md)
+
+[Configuring Advanced Approval Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/configuring-advanced-approval-management.md)
+
+[Components installed with Advanced Approval Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/components-installed-advanced-approval-management-for-sales.md)
+
+[Quote Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-management-reference.md)
+
+[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-mgmt-using.md)
 

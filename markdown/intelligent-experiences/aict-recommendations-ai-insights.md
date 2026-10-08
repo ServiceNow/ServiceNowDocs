@@ -59,7 +59,7 @@ For details on AI Agent Advisor, see [AI Agent Advisor](https://raw.githubuserco
 
 ## AI insights
 
-An AI insight is a contextual fact that AI Control Tower adds to a dashboard to give you a richer reading of the data. Unlike a recommendation, an AI insight does not ask you to take action. It appears as a short line of text near the data it explains, such as "Total productivity gains in last 30 days" or "Three AI systems delivered 82% of total value." AI insights appear inside widgets on the Home page, the Value page, the Govern page, and other AI Control Tower dashboards.
+An AI insight is a contextual fact that AI Control Tower adds to a dashboard to give you a richer reading of the data. Unlike a recommendation, an AI insight does not ask you to take action. It appears as a short line of text near the data it explains, such as "Total productivity gains in last 30 days" or "Three AI systems delivered 82% of total value." AI insights appear inside widgets on the Home page, the Value page, the Risk and Compliance page, Security page, and other AI Control Tower dashboards.
 
 When an AI insight is associated with a supervised agent, you can select **Manage with AI** to start a conversation that expands on the insight with deeper analysis.
 

@@ -42,5 +42,3 @@ The following extraction tables are available through Zero Copy Connector for ER
 
 For more information about working with extraction tables, see [ERP data extraction and transformation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-extraction-tables.md).
 
-**Parent Topic:**[Zero Copy Connector for ERP standard remote and extraction tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-standard-tables-and-fields-landing.md)
-

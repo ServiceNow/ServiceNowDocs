@@ -32,15 +32,15 @@ Role required: sn\_api\_insights\_ws.api\_mgmt\_architect
 
 5.  Manage the sent requests.
 
-<table id="choicetable_jwj_2my_mcc"><thead><tr><th align="left" id="d145279e101">
+<table id="choicetable_jwj_2my_mcc"><thead><tr><th align="left" id="d146386e101">
 
 Decision
 
-</th><th align="left" id="d145279e104">
+</th><th align="left" id="d146386e104">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d145279e110">
+</th></tr></thead><tbody><tr><td id="d146386e110">
 
 **Send a reminder.**
 
@@ -48,7 +48,7 @@ Action
 
 Select **Send reminder**.A confirmation message appears indicating that the reminder has been sent.
 
-</td></tr><tr><td id="d145279e124">
+</td></tr><tr><td id="d146386e124">
 
 **Withdraw a request.**
 

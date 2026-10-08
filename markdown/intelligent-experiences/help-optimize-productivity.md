@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/help-optimize-productivity.html
 release: brazil
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-09-28"
 reading_time_minutes: 6
 breadcrumb: [Platform agentic workflows, Agentic workflows, AI agents and agentic workflows, Enable AI Experiences]
 ---
@@ -32,7 +32,7 @@ The agents, tools, and triggers that are associated with the Help optimize team 
 
 To access this workflow, you must have ServiceNow Otto for Platform installed on your instance, which you can get if you install any other AI application.
 
-## Role masking
+## Role filtering
 
 Required role: sn\_uxc\_gen\_ai.platform\_ai\_help\_allocate\_work.
 

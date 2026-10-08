@@ -16,7 +16,7 @@ The Sales CRM for Telecommunications Product, Service, and Resource \(PSR\) cata
 
 The Sales CRM for Telecommunications PSR catalog consolidates product, service, and resource definitions into a single catalog structure, eliminating the need for product data synchronization between separate sales and fulfillment catalogs. It provides a consistent framework for managing telecom product offerings across multiple domains like B2C Retail Mobile, B2C Retail Wireline, B2B Enterprise Connectivity, and Beyond Connectivity. The following table contains examples of Mobile, Broadband and Dedicated leased lines.
 
-The catalog defines and maps all necessary entities in a single location. This eliminates the need for explicit entity-to-entity API mapping or separate product data harmonization across sales and service catalogs.
+The catalog maps all necessary entities in a single structure. This eliminates the need for explicit entity-to-entity API mapping or separate product data harmonization across sales and service catalogs.
 
 \[Omitted image "psr\_catalog.png"\] Alt text: PSR catalog hierarchy showing product offerings, specifications, and service-resource relationships
 
@@ -25,10 +25,10 @@ The catalog defines and maps all necessary entities in a single location. This e
 Each level in the catalog maps to a specific layer of the product-service-resource model:
 
 -   Product offering: Defines the item to be sold to a customer. Pricing attributes include recurring charges \(RC\), one-time charges \(OTC\), ramp-up pricing, mark-up and mark-down percentages, and discounts. A product offering references a product specification which in turn can have child product specifications.
--   Product specification: The structured definition of a product. One product specification maps to Zero to many Service specifications and Resource Specifications.
+-   Product specification: The structured definition of a product. One product specification maps to zero to many service specifications and resource specifications.
 -   Service specification: Defines the service layer. Service specifications are of two types:
-    -   CFSS: Represents the service provided to the customer, for example, Voice and Text CFSS or home fiber FTTH Access CFSS.
-    -   RFSS: Represents the underlying network resource services that are used to deliver service to the customer, for example, Home Subscriber Server \(HSS\), RFSS or Optical Line Terminal \(OLT\) RFSS.
+    -   Customer-Facing Service Specification \(CFSS\): Represents the service provided to the customer, for example, Voice and Text CFSS or home fiber FTTH Access CFSS.
+    -   Resource-Facing Service Specification \(RFSS\): Represents the underlying network resource services that are used to deliver service to the customer, for example, Home Subscriber Server \(HSS\), RFSS or Optical Line Terminal \(OLT\) RFSS.
 -   Resource specification: Defines the physical or logical network resources that fulfill the service, for example, IMSI or Modem RS.
 
 ## Commercial features
@@ -49,17 +49,17 @@ The PSR catalog supports the following order fulfillment capabilities:
 
 ## Explanation of specifications
 
-**Product Specification**: The structured definition of a product. One product specification maps to one or more service specification\(s\) and can reference one or more resource specifications. A product specification is a detailed description of a tangible or intangible object that serves as the template from which customer products and subscriptions are instantiated. Represents the product as perceived by business users, not as technical network components i.e. Product Specification is the blueprint of a product that defines its characteristics, pricing model, eligibility, life-cycle rules, and the mapping to one or more underlying Resource and Service Specifications required to realize it.
+**Product Specification**: The structured definition of a product. One product specification maps to one or more service specifications and can reference one or more resource specifications. A product specification is a detailed description of a tangible or intangible object that serves as the template from which customer products and subscriptions are instantiated. It represents the product as perceived by business users, not as technical network components. A product specification is the blueprint of a product that defines its characteristics, pricing model, eligibility, and life-cycle rules. It also maps to one or more underlying resource and service specifications required to realize it.
 
 -   Structure: Can be simple \(atomic\) or a composition of other product specifications.
--   Attributes: Includes characteristics such as Bandwidth, Routing, SLA, Modem make and model, and Router type, etc.
+-   Attributes: Includes characteristics such as Bandwidth, Routing, SLA, Modem make and model, and Router type, and similar characteristics.
 -   Relationships: Has relationships with other specifications, and characteristic value to characteristic value relationships. For example, if attribute Value A is selected on the PS, then Attribute value C is defaulted on the RS that is related to the PS.
 -   Realization: Realized through customer-facing service specifications \(CFSS\) and Resource specifications \(RS\).
 
-**Resource Specification**: Resource Specification defines the technical characteristics of a physical or logical resource \(HW device, Software, port, circuit, IP block, VNF, cloud endpoint\) and provides the template used to instantiate actual resource inventory objects during fulfillment.
+**Resource Specification**: Resource Specification defines the technical characteristics of a physical or logical resource \(HW device, Software, port, circuit, IP block, VNF, cloud endpoint\). It provides the template used to instantiate resource inventory objects during fulfillment.
 
--   It is related to a PS via a REQUIRED relationship.
--   ServiceNow has extended TMF SID by adding a relationship between Resource Specification and CFSS.
+-   It is related to a PS via a required relationship.
+-   The Sales CRM for Telecommunications extends TMF SID with a relationship between Resource Specification and CFSS.
 -   A detailed example or a Resource Specification is:
     -   Resource Specification: "ONT Model XYZ‑GPON‑1GE"
     -   Type: Optical Network Terminal
@@ -76,7 +76,7 @@ The PSR catalog supports the following order fulfillment capabilities:
 
 This ResourceSpec defines what the ONT is, its capabilities, and how orchestration can allocate and configure it.
 
-**Customer-facing service specification**: Customer‑Facing Service Specification \(CFSS\) is the service definition exposed to the customer, describing what the service delivers and its functional behavior.It sits between the commercial Product Specification and the technical Resource‑Facing Service Specification.
+**Customer-facing service specification**: Customer‑Facing Service Specification \(CFSS\) is the service definition exposed to the customer, describing what the service delivers and its functional behavior. It sits between the commercial Product Specification and the technical Resource‑Facing Service Specification.
 
 -   A customer-facing service specification \(CFSS\) defines technology-agnostic service characteristics that a customer directly purchases.
 -   It connects product specifications to resource-facing service specifications, focusing on service parameters, service level agreements \(SLAs\), and features.

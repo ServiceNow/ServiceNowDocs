@@ -132,5 +132,3 @@ The property allows the closure of a legal request even if it has open matters a
 </td></tr></tbody>
 </table>**Parent Topic:**[Legal Request Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/legal-request-management/legal-request-management-reference.md)
 
-**Parent Topic:**[Legal Request Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/legal-request-management/legal-request-management-reference.md)
-

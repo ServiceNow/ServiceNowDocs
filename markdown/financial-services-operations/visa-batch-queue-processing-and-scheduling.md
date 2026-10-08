@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/v
 release: brazil
 topic_type: concept
 last_updated: "2026-09-18"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Integration with Visa subflows, Components installed, Reference, Visa, Integrate, Financial Services Operations \(FSO\)]
 ---
 
@@ -32,7 +32,7 @@ Implementation partners and developers must understand the end-to-end flow of Vi
         -   Single action: The flow contains one action — it calls the Batch Queues Flows Adapter subflow and waits for completion. If the adapter fails, the flow logs an error.
 2.  Subflow for the batch queue flows executes:
     -   Location: **All** &gt; **Workflow Studio** &gt; **Flows** &gt; **Batch Queues Flows Adapter**
-    -   The Batch Queues Flows Adapter is an orchestration subflow that manages the parallel execution of all individual batch queue subflows. The following actions are invoked by the Visa Queue Scheduler Flow:
+    -   The Batch Queues Flows Adapter is an orchestration subflow that manages the parallel execution of the individual batch queue subflows it orchestrates. The following actions are invoked by the Visa Queue Scheduler Flow:
         -   Sequentially processes queues that must run in order \(for example, Arbitrations and Recalls are processed first\).
         -   Executes the remaining queue subflows in parallel using a parallel branch, so that multiple VROL queues are polled simultaneously within the same run cycle.
         -   Collects error outputs from each subflow and consolidates them.
@@ -51,8 +51,11 @@ Implementation partners and developers must understand the end-to-end flow of Vi
 4.  Executes Mark Batch Queue Items as Read Adapter subflow: Once all items from a queue are retrieved and processed, the subflow calls the Mark Batch Queue Items as Read Adapter subflow, which in turn calls the Mark Batch Queue Item as Read subflow to invoke the RTSI API SIMarkBatchQueueItemAsReadRequest \(/rsrv\_rolsi/api/SIMarkBatchQueueItemAsRead\). See the following four actions executed by this subflow:
     -   Prevents reprocessing: Once marked as read, an item is removed from the RTSI Batch Queue and will not be returned in the next polling cycle.
     -   Executes automated purge: If an item is not marked as read, VROL will automatically purge it from the batch queue after 10 days. After purging, the item can only be recovered using VROL RTSI Queues or Hypersearch — it will no longer appear in batch queue responses.
+    -   Recovers from marking failures: If the Mark Batch Queue Item as Read call fails for an item \(for example, due to a transient error\), the item is not removed from the RTSI Batch Queue. The same item is returned again on the next scheduled polling cycle, where it is reprocessed and marked as read at that time.
     -   Marks items in bulk: Items can be marked by individual BatchQueueItemSID or by entire BatchQueueType. A maximum of 400 items can be marked in a single SIMarkBatchQueueItemAsReadRequest \(configurable in VROL\).
     -   Resolves duplication of items in multiple batch queues: An item may appear in multiple batch queues. Marking it as read in one queue removes it from all batch queues for that VROL organization.
+
+**Note:** Four of the batch queue subflows — Process Awaiting Action Disputes Batch Queue, Process Incoming Pre-Arbitration Batch Queue, Process Incoming Arbitration Batch Queue, and Process Incoming Recall Batch Queue — are dispatched by the Batch Queues Flows Adapter described in Step 2. The fifth, Process Incoming Acceptance Batch Queue, is not orchestrated by the Adapter; it is polled as a separate subflow. All five call the same RTSI operation \(SIGetBatchQueueRequest\). The BatchQueueType parameter in the request body determines which queue is polled, and SIMarkBatchQueueItemAsReadRequest \(/rsrv\_rolsi/api/SIMarkBatchQueueItemAsRead\) is called afterward to remove items from the queue.
 
 **Parent Topic:**[Financial Services Operations Integration with Visa subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/components-installed-with-the-financial-services-operations-integration-with-visa.md)
 

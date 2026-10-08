@@ -28,9 +28,3 @@ Metrikus Spoke provides the occupancy sensor data by mapping the workplace locat
 
 **Next topic:**[Connector Configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-connectors/connector-configuration-occupancy.md)
 
-**Parent Topic:**[Setup Workplace Connectors for occupancy data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-connectors/setup-occupancy-connectors.md)
-
-**Previous topic:**[Activate Metrikus Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-connectors/install-metrikus-plugin.md)
-
-**Next topic:**[Connector Configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-connectors/connector-configuration-occupancy.md)
-

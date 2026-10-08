@@ -111,7 +111,7 @@ Security risk
 -   Security risk details: If this property is not set to `true`, the platform can't distinguish a forged request from one the user actually intended. An attacker can craft a malicious page that causes an authenticated victim's browser to submit a request to the instance without their knowledge. That request executes with the victim's session and privileges.
 
 </td></tr></tbody>
-</table>To learn more about adding or creating a system property, see .
+</table>To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 **Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/instance-security-hardening-settings/sc-access-control.md)
 

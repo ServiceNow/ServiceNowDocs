@@ -1,6 +1,6 @@
 ---
 title: Setting up CPQ Configurator
-description: Set up CPQ Configurator to define product pricing, create pricing rules, create complex product bundles, and enable other capabilities.
+description: Set up CPQ Configurator and ServiceNow Quote Experience to define products, quotes, pricing rules, complex product bundles, and enable other capabilities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/setup-cpq-integrator.html
 release: brazil
@@ -12,7 +12,7 @@ breadcrumb: [Configure, price, quote apps, Configure, Sales Customer Relationshi
 
 # Setting up CPQ Configurator
 
-Set up CPQ Configurator to define product pricing, create pricing rules, create complex product bundles, and enable other capabilities.
+Set up CPQ Configurator and ServiceNow Quote Experience to define products, quotes, pricing rules, complex product bundles, and enable other capabilities.
 
 The Configurator streamlines the quoting process by automating configuration logic, reducing manual quote creation errors, and ensuring consistent application of business rules across all quotes.
 

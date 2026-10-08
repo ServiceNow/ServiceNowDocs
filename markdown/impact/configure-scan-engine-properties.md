@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [impact scan engine, scan properties, scheduled scans]
-breadcrumb: [Activate Scan Engine and review settings, Impact Guided Setup, Configuring Impact, Impact]
+breadcrumb: [Activate Scan Engine and review settings, Configuring Impact, Impact]
 ---
 
 # Configure Scan Engine parameters

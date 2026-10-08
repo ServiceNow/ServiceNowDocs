@@ -1,6 +1,6 @@
 ---
 title: Card Data Security release notes
-description: The ServiceNow Card data security application helps you tokenize sensitive data in card disputes, such as primary account numbers \(PANs\) and documents, in Financial Services Operations dispute workflows. Card data security was enhanced and updated in the Brazil release.
+description: The ServiceNow Card data security application helps you tokenize sensitive data in card disputes, such as primary account numbers \(PANs\) and documents, in Financial Services Operations dispute workflows. Card data security was enhanced and updated in the Brazil release.View, select, and download individual files within a ZIP attachment directly in the Disputes workspace, without leaving the platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/card-data-security-rn.html
 release: brazil
@@ -31,4 +31,15 @@ See [Card Data Security](https://raw.githubusercontent.com/ServiceNow/ServiceNow
 
 
 **Parent Topic:**[Financial Services Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/financial-services-operations-rn-landing.md)
+
+## Version 2.2.1
+
+View, select, and download individual files within a ZIP attachment directly in the Disputes workspace, without leaving the platform.
+
+### What's new
+
+-   **[View files in ZIP attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/manage-attachments-in-card-data-security.md)**
+
+    Preview and download individual files within a ZIP attachment directly in the Merchant tab of the Disputes workspace. Select a file from the file list to preview it, then download it if you need a copy.
+
 

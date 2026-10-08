@@ -172,5 +172,3 @@ You must upload the manifest file in Microsoft Teams. For more information, refe
 
 **Parent Topic:**[Setup for integrating self-configured apps with Microsoft Teams for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/employee-experience-foundation/c_employee_ex_s_tnt.md)
 
-**Parent Topic:**[Setup for integrating self-configured apps with Microsoft Teams for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/employee-experience-foundation/c_employee_ex_s_tnt.md)
-

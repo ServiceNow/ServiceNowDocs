@@ -113,7 +113,7 @@ Maximum number of recipients per notification per channel
 
 </td></tr><tr><td>
 
-Maximum number of notifications per day, per channel
+Maximum number of notifications per day
 
 </td><td>
 

@@ -26,11 +26,11 @@ Installing ServiceNow Otto for Setup is the first step to experience automatic p
 
 **Note:** You can install the ServiceNow Otto for Setup application either directly from the [ServiceNow store](https://store.servicenow.com/store/app/9d063fc34704cf10f43984f8736d43b5) or from the prompt on the Admin Home page.
 
-\[Omitted image "image.ia-pre-install"\] Alt text: Image showing the button for installation of ServiceNow Otto for Setup store app
+\[Omitted image "ia-pre-install.png"\] Alt text: Image showing the button for installation of ServiceNow Otto for Setup store app
 
 Zero touch install automatically installs ServiceNow Otto for Setup along with selected applications and plugins for net new ServiceNow customers in supported non‑production instances, displays installation status, and enables users to begin configuration without manual setup. A contextual banner appears during initial onboarding to help you get started and you can dismiss it when you no longer need it.
 
-\[Omitted image "image.ia-pre-install-netnew-cust"\] Alt text: Screenshot showing the banner and pre-install of ServiceNow Otto for Setup
+\[Omitted image "ia-pre-install-netnew-cust.png"\] Alt text: Screenshot showing the banner and pre-install of ServiceNow Otto for Setup
 
 Admin Home displays the installation status for each product to clearly indicate readiness and required action. Each product shows one of three states to help you understand the current state and determine the next step at a glance.
 

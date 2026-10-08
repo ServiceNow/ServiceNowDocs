@@ -9,7 +9,7 @@ classification: app-engine-management-center
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Configuration tasks, Configure Application Intake, Configure, App Engine Management Center, Governing app development, Building applications]
+breadcrumb: [Configuration tasks, Configure Application Intake, Configure, App Engine Management Center, Run, AI Workflow Factory, Building applications]
 ---
 
 # Customize the App Intake form in Catalog Builder
@@ -50,6 +50,8 @@ The Out of the Box variables associated with this catalog item are set to read-o
 
     -   To save your changes without submitting the form, select **Save**.
     -   To submit the form, select **Submit**.
+
+**Parent Topic:**[Application Intake configuration tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/app-intake-config-tasks.md)
 
 ## Change the order of the questions in the App Intake form
 

@@ -58,5 +58,5 @@ To set up, manage, and optimize your generative AI solutions from one workspace 
     -   AI Search readiness: Verify that AI Search is active, configure search sources and search profiles, and install ServiceNow Otto for AI Search to power Q&amp;A Genius Results across your portals.
     -   ServiceNow Otto for Virtual Agent readiness: Install and configure an LLM assistant, review your Virtual Agent topic inventory, and migrate NLU topics to LLM to enable AI-driven conversational experiences.
 
-To prepare your knowledge base, Service Catalog, AI Search, and Virtual Agent for AI, see [Application readiness for Now Assist on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/sn-ai-impl-app-readiness.md).
+To prepare your knowledge base, Service Catalog, AI Search, and Virtual Agent for AI, see [Application readiness for AI on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/sn-ai-impl-app-readiness.md).
 

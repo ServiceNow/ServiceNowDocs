@@ -1,18 +1,18 @@
 ---
 title: Manage alerts AI agent
-description: Responsible for generating reports for a given alert, applying summarization tools, and storing a structured summary with key insights and recommended next steps in the AI Agent Insight table.
+description: Responsible for generating reports for a given alert and storing a structured summary with key insights and recommended next steps in the alert record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aiops-manage-alerts-ai-agent.html
 release: brazil
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [AIOps and AIOps Leap AI agents, AIOps and AIOps Leap, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [AIOps and Leap AI agents, AIOps and AIOps Leap, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Manage alerts AI agent
 
-Responsible for generating reports for a given alert, applying summarization tools, and storing a structured summary with key insights and recommended next steps in the AI Agent Insight table.
+Responsible for generating reports for a given alert and storing a structured summary with key insights and recommended next steps in the alert record.
 
 ## Workflow
 
@@ -107,10 +107,10 @@ Used in agentic workflows
 
 </td><td>
 
-None
+Manage alerts autonomously
 
 </td></tr></tbody>
-</table>Learn more about Learning Enhanced Automation Platform \(LEAP\) at [Learning Enhanced Automation Platform \(LEAP\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/aiops-leap.md).
+</table>Learn more about Event Management at Event Management.
 
-**Parent Topic:**[AIOps and AIOps Leap AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aiops-ai-agents-overview.md)
+**Parent Topic:**[AIOps and Leap AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aiops-ai-agents-overview.md)
 

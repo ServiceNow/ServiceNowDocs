@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-regulatorychangemanagement-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 14
+last_updated: "2026-10-08"
+reading_time_minutes: 17
 breadcrumb: [Products combined by family]
 ---
 
@@ -100,6 +100,9 @@ Define the routing rules to automatically distribute regulatory alerts to intern
 Add AI-powered recommendations from the most relevant citations through incoming regulatory changes, authority documents, child citations, and related control objects. You can drill down into the recommendations to explore the details within the context of the alert.
 
 
+ -   No plans to enhance the Calendar reporting view in the Classic UI that is shipped with the application.
+-   No plans to enhance the Overview dashboard in the Classic UI that is shipped with the application.
+
 </td></tr><tr><td>
 
 Yokohama
@@ -133,7 +136,12 @@ Zurich
 
 </td><td>
 
--   **[Add multiple regulatory tasks](https://www.servicenow.com/docs/access?context=regulatory-change-tasks&family=zurich&ft:locale=en-US)**
+-   **[ServiceNow Otto for Integrated Risk Management \(IRM\)](https://www.servicenow.com/docs/access?context=now-assist-for-irm-rn&family=zurich&ft:locale=en-US)**
+
+You can review the ServiceNow Otto for Integrated Risk Management \(IRM\) release notes for full descriptions of the Now Assist in Regulatory Change Management \(RCM\) features.
+
+
+ -   **[Add multiple regulatory tasks](https://www.servicenow.com/docs/access?context=regulatory-change-tasks&family=zurich&ft:locale=en-US)**
 
 Add multiple regulatory tasks to an alert. Each task can represent a distinct area of impact or required action. By organizing work into separate change tasks, your teams can assign responsibilities, track progress, and manage dependencies more effectively.
 
@@ -226,13 +234,50 @@ The new default behavior works as follows:
 Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
 
+ -   **[Changes on the action task form](https://www.servicenow.com/docs/access?context=create-action-task-using-ws&family=yokohama&ft:locale=en-US)**
+
+The Category: Compliance section and the Category: Risk section on an action task form have been removed. They're replaced by the **Impacted area table** field and the **Impacted area** field.
+
+-   **[Assess impact](https://www.servicenow.com/docs/access?context=assess-impact-of-reg-change-using-ws&family=yokohama&ft:locale=en-US)**
+
+The **Initiate Impact Assessment** button is now called the **Assess impact** button.
+
+
+ -   **[Overview page of regulatory alerts](https://www.servicenow.com/docs/access?context=list-view-of-reg-alerts&family=yokohama&ft:locale=en-US)**
+
+The Overview page for regulatory alerts includes a drop-down menu that enables you to track the progress of a regulatory assessment. Additionally, you can view the counts of completed, open, and overdue regulatory assessments.
+
+-   **[Home page updates for Regulatory Change Management](https://www.servicenow.com/docs/access?context=rcm-workspace-for-managers&family=yokohama&ft:locale=en-US)**
+
+On the Regulatory Change Management home page, within the Tracking section, a new drop-down menu has the Regulatory Assessments or Risk Assessments options. With these options, regulatory change managers can see the number of open and overdue assessments to help them efficiently monitor the status of their assessments.
+
+-   **[Regulatory assessments in the Tasks pane](https://www.servicenow.com/docs/access?context=regulatory-assessment-in-rcm&family=yokohama&ft:locale=en-US)**
+
+The Tasks pane in the Compliance Workspace now displays all the Regulatory assessments.
+
+
 </td></tr><tr><td>
 
 Zurich
 
 </td><td>
 
--   **Coral theme**
+-   **Administrator role enhancements**
+
+After upgrading to version 21.1.x, if you have a feature admin role you can now complete tasks that were initially reserved for users with the broader administrator role.
+
+-   **Read-only field enhancements**
+
+Starting with version 21.1.x, the following Regulatory Change Management plugins have security enhancements for read-only fields in this release:
+
+    -   GRC: Taxonomy management \[com.sn\_grc\_taxonomy\]
+    -   GRC: Regulatory Change Management integration with RSS Feeds \[com.sn\_grc\_rcm\_rssfeed\]
+    -   GRC: Regulatory Change Management \[com.sn\_grc\_reg\_change\]
+    -   GRC Case Management Core \[com.sn\_grc\_case\_mgmt\]
+    -   GRC integration with Thomson Reuters Regulatory Intelligence \[com.sn\_grc\_int\_tr\]
+    -   Regulatory Agency Library \[com.sn\_reg\_body\_mgmt\]
+
+ -   **Coral theme**
 
 Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
 
@@ -284,6 +329,34 @@ Australia
 -   **[ServiceNow Otto® name announcement](https://www.servicenow.com/docs/access?context=sn-ai-implementation-landing&family=australia&ft:locale=en-US)**
 
 ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.The Now Assist for IRM \(sn\_irm\_gen\_ai\) plugin, which provides generative AI capabilities for RCM, has been renamed to ServiceNow Otto for IRM.
+
+
+ -   **[Large language models on the ServiceNow AI Platform](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=australia&ft:locale=en-US)**
+
+The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
+
+-   **[Default AI model provider for regulatory alert recommendation skills](https://www.servicenow.com/docs/access?context=configure-recommendation-skill-for-a-regulatory-alert&family=australia&ft:locale=en-US)**
+
+After upgrading to version 22.4.0, the regulatory alert recommendation skills in ServiceNow Otto for Integrated Risk Management \(IRM\) use AWS Claude as the default model provider.
+
+-   **[Default AI model provider for agentic workflows](https://www.servicenow.com/docs/access?context=using-agentic-ai-workflows&family=australia&ft:locale=en-US)**
+
+After upgrading to version 22.4.0, the Get regulatory analysis and Generate regulatory action plans agentic workflows use AWS Claude as the default model provider.
+
+
+ -   **Now Assist skills for Risk &amp; Sustainability**
+
+The skill family name Regulatory change management has been updated to Regulatory change to improve naming clarity and consistency within Now Assist skills for Risk &amp; Sustainability under the Technology workflow module in the AI Admin Hub Center.
+
+
+ -   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&family=australia&ft:locale=en-US)**
+
+The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
+
+    -   Foundation: AI basics to deliver insights
+    -   Advanced: AI to boost productivity across relevant use cases
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
 </td></tr><tr><td>
@@ -434,6 +507,8 @@ Yokohama
 Install Regulatory Change Management and ServiceNow Otto for IRM by requesting them from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 
+**Important:** Regulatory Change Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Zurich
@@ -444,6 +519,8 @@ Zurich
 
 Install Regulatory Change Management and ServiceNow Otto for IRM by requesting them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
+
+**Important:** Regulatory Change Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 
@@ -456,6 +533,8 @@ Australia
 Install Regulatory Change Management and ServiceNow Otto for IRM by requesting them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
 
 
+**Important:** Regulatory Change Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Brazil
@@ -466,6 +545,8 @@ Brazil
 
 Install Regulatory Change Management and ServiceNow Otto for IRM by requesting them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=brazil&ft:locale=en-US).
 
+
+**Note:** Regulatory Change Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements

@@ -23,7 +23,7 @@ A customer contacts the router manufacturer through Facebook Messenger because a
 
 ## Facebook Messenger implementation workflow
 
-The following workflow shows how to [Configure Conversational Integration with Facebook Messenger](https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/messg-fbm-configure.html)
+The following workflow shows how to [Configure Conversational Integration with Facebook Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/messg-fbm-configure.md)
 
 <table id="table_n5b_syf_yjc"><thead><tr><th>
 
@@ -47,7 +47,7 @@ Role
 
 </td><td>
 
-[Install Conversational Integration with Facebook Messenger](https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/messg-fbm-install.html)
+[Install Conversational Integration with Facebook Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/messg-fbm-install.md)
 
 </td><td>
 
@@ -63,7 +63,7 @@ Admin
 
 </td><td>
 
-[Set up Conversational Integration with Facebook Messenger](https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/messg-fbm-setup.html)
+[Set up Conversational Integration with Facebook Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/messg-fbm-setup.md)
 
 </td><td>
 
@@ -71,7 +71,7 @@ Integrate  Facebook Messenger with your  ServiceNow  instance using the 
 
  Facebook Messenger settings:
 
-1.  [Set up a Facebook developer account](https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/messg-fbm-setup.html#:~:text=Set%20up%20a%20Facebook%20developer%20account.)
+1.  [Set up a Facebook developer account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/messg-fbm-setup.md)
 
 2.  [Create a Facebook app](https://developers.facebook.com/docs/messenger-platform/getting-started/app-setup)
 
@@ -81,7 +81,7 @@ Integrate  Facebook Messenger with your  ServiceNow  instance using the 
 
 5.  [Create a Facebook page within the Facebook app created earlier](https://www.facebook.com/pages/creation/)
 
-6.  [Enable Facebook Messenger](https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/messg-fbm-setup.html#:~:text=Enable%20Facebook%20Messenger)
+6.  [Enable Facebook Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/messg-fbm-setup.md)
 
 
 </td><td>
@@ -94,7 +94,7 @@ Admin
 
 </td><td>
 
-[Configure and integrate Virtual Agent](https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/va-integration-messaging-apps.html)
+[Integrating Virtual Agent with messaging apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/va-integration-messaging-apps.md)
 
 </td><td>
 
@@ -110,7 +110,7 @@ Admin
 
 </td><td>
 
-[Transfer Facebook Messenger chat conversations to live agents](https://www.servicenow.com/docs/r/conversational-interfaces/virtual-agent/messg-fbm-live-agent-conv.html)
+[Transfer Facebook Messenger chat conversations to live agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/messg-fbm-live-agent-conv.md)
 
 </td><td>
 
@@ -126,7 +126,7 @@ Admin
 
 </td><td>
 
-[Activate Advanced Work Assignment \(AWA\)](https://www.servicenow.com/docs/r/conversational-interfaces/advanced-work-assignment/implement-awa.html)
+[Get started with Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/implement-awa.md)
 
 </td><td>
 
@@ -142,7 +142,7 @@ Admin
 
 </td><td>
 
-[Set up CSM Configurable Workspace](https://www.servicenow.com/docs/r/customer-service-management/csm-config-workspace-set-up.html)
+[Set up CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-config-workspace-set-up.md)
 
 </td><td>
 
@@ -155,4 +155,5 @@ CSM Configurable Workspace is a user interface that provides customer service ag
 Admin
 
 </td></tr></tbody>
-</table>
+</table>See [Integrating Facebook Messenger with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/messg-integrate-fbm-csm.md).
+

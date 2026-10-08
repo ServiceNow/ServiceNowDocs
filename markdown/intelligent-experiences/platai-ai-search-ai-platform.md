@@ -21,15 +21,15 @@ The ServiceNow AI Platform brings together the services, models, and infrastruct
 
 AI Search retrieves information from the sources you configure and connects AI features such as Now Assist, AI agents, and virtual assistants to your organization's data. These sources include:
 
--   Native platform data: Tables, records, knowledge articles, catalog items, and other structured data within your ServiceNow instance.
--   External enterprise content: Documents and data from external repositories that are connected through External Content Connectors.
--   Custom indexed sources: Table and data sources you configure in AI Search to make content available for search applications, AI agents, and Now Assist.
+-   Native platform data: tables, records, knowledge articles, catalog items, and other structured data within your ServiceNow instance.
+-   External enterprise content: documents and data from external repositories that are connected through External Content Connectors.
+-   Custom indexed sources: table and data sources you configure in AI Search to make content available for search applications, AI agents, and Now Assist.
 
 The content AI Search can access is determined entirely by configuration. Sources must be indexed to be visible to AI Search and to be used by AI features.
 
 ## How AI Search works on the ServiceNow AI Platform
 
-AI features on the ServiceNow AI Platform follow a Retriveal-Augmented Generation \(RAG\) request pattern. AI Search is the retrieval half of that pattern. Without it, AI features on the ServiceNow AI Platform lose their connection to your data and can't return responses that are accurate or relevant to your environment.
+AI features on the ServiceNow AI Platform follow a Retrieval-Augmented Generation \(RAG\) request pattern. AI Search is the retrieval half of that pattern. Without it, AI features on the ServiceNow AI Platform lose their connection to your data and can't return responses that are accurate or relevant to your environment.
 
 RAG request pattern:
 
@@ -40,13 +40,13 @@ RAG request pattern:
 
 ## AI Search Admin
 
-The AI Search Admin console makes it easy to integrate advanced AI Search features. It is a central hub for managing and monitoring AI Search capabilities across search applications. System administrators can use the AI Search Admin console to set up and manage AI Search in search applications, track AI Search activity, add features to AI Search, or access AI Search resources.
+The AI Search Admin console integrates advanced AI Search features. It is a central hub for managing and monitoring AI Search capabilities across search applications. System administrators can use the AI Search Admin console to set up and manage AI Search in search applications, track AI Search activity, add features to AI Search, or access AI Search resources.
 
 For more details, see [AI Search Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ais-admin-console.md).
 
 ## ServiceNow Otto for AI Search
 
-ServiceNow Otto for AI Search combines AI Search retrieval with generative AI to deliver answers alongside search results. When a user submits a question, AI Search retrieves the most relevant content from your configured sources and provides it to the LLM, which generates a contextual response grounded in that content. These AI-generated answers appear as Genius Results in Global Search, Service Portal, Employee Center, and the Virtual Agent, helping users resolve issues through self-service without contacting support.
+ServiceNow Otto for AI Search combines AI Search retrieval with generative AI to deliver answers alongside search results. When a user submits a question, AI Search retrieves the most relevant content from your configured sources and provides it to the LLM \(large language model\), which generates a contextual response grounded in that content. These AI-generated answers appear as Genius Results in Global Search, Service Portal, Employee Center, and the Virtual Agent, helping users resolve issues through self-service without contacting support.
 
 For more details, see [ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/now-assist-ais.md).
 
@@ -59,7 +59,7 @@ AI Search is not an optional add-on to the ServiceNow AI Platform. It is the com
 -   Virtual assistants can't surface relevant self-service content or route users to the right resources.
 -   Search experiences fall back to basic keyword matching, losing the semantic understanding, intent recognition, and relevance ranking that AI Search provides.
 
-When AI Search is configured and maintained, the entire ServiceNow AI Platform benefits. AI Search continuously improves its relevance ranking based on user activity and engagement, which means AI features become more accurate and useful over time.
+When AI Search is configured and maintained, the entire ServiceNow AI Platform benefits. AI Search continuously improves its relevance ranking based on user activity and engagement, which means AI features can return more relevant results as user activity increases.
 
 ## Instance requirements
 
@@ -68,7 +68,7 @@ To set up AI Search as part of the ServiceNow AI Platform:
 -   Activate and configure AI Search on your instance.
 -   Define data sources for AI Search indexing.
 -   Create search profiles for your applications, virtual assistants, and AI agents.
--   Connect Now Assist to your search profile to activate generative AI features.
+-   Connect ServiceNow Otto to your search profile to activate generative AI features.
 
 For configuration steps, administration guidance, and integration details, see [Using AI Search Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/using-ais-admin-console.md).
 

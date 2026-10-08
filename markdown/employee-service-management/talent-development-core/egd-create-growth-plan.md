@@ -63,5 +63,3 @@ The draft growth plan is created and shared with your manager once the plan is l
 
 **Parent Topic:**[Using the Talent Development Core application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/talent-development-core/egd-use.md)
 
-**Parent Topic:**[Using the Talent Development Core application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/talent-development-core/egd-use.md)
-

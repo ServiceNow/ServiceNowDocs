@@ -1,6 +1,6 @@
 ---
 title: Create an API token
-description: Create an API token to be used by the Service Graph Connector for Tanium Endpoints.
+description: Create an API token to be used by the Service Graph Connector for Tanium Atlas Endpoints.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgc-tanium-endpoints-create-api-token.html
 release: brazil
@@ -9,12 +9,12 @@ classification: service-graph-connectors
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure the Tanium environment, Tanium Endpoints, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Configure the Tanium environment, Tanium Atlas Endpoints, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Create an API token
 
-Create an API token to be used by the Service Graph Connector for Tanium Endpoints.
+Create an API token to be used by the Service Graph Connector for Tanium Atlas Endpoints.
 
 ## Before you begin
 
@@ -42,5 +42,5 @@ For more information, see [Creating API tokens for ServiceNow](https://help.tani
 
 ## What to do next
 
-Provide the API token to the ServiceNow administrator who configures the data source for the Service Graph Connector for Tanium Endpoints.
+Provide the API token to the ServiceNow administrator who configures the data source for the Service Graph Connector for Tanium Atlas Endpoints.
 

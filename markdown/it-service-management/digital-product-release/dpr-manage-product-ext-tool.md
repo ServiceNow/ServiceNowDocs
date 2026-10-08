@@ -24,7 +24,7 @@ Role required: sn\_dpr\_model.product\_manager
 
 This data coming from the external tools provide you with insights into the breakdown of product features into epics and their stories. This data also enables you to create and automate policies and determine whether the release meets the release exit criteria.
 
-**Note:** The work item types that can be mapped to a product enhancement are controlled by the **sn\_dpr\_workspace.enhancement\_work\_item\_types** system property. By default only epics are mapped; admins can extend this list to include other work item types. For more information, see [Digital Product Release properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/digital-product-release-properties.md).
+**Note:** The work item types that can be mapped to a product enhancement are controlled by the **sn\_dpr\_workspace.enhancement\_work\_item\_types** system property. By default only epics are mapped; admins can extend this list to include other work item types. For more information, see [Digital Product Release system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/digital-product-release-properties.md).
 
 The data also provides an overview of the software quality of your releases in the Release Quality dashboard. For more information, see [Release Quality dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/dpr-release-quality-dashboard.md).
 

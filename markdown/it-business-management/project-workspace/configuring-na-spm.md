@@ -36,6 +36,8 @@ Learn about the inputs of each skill for the ServiceNow Otto for Strategic Portf
 Use the script include to modifying the email template for project summary.
 -   **[Configure the Monitor project tasks AI agent in AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/configure-agents-project-task-monitoring.md)**  
 Monitor project tasks autonomously by configuring the AI agent in the AI Agent Studio.
+-   **[Configure the Project Data Quality Analysis skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/configure-data-quality-index-skill.md)**  
+Configure the Project Data Quality Analysis AI skill to enable it for your projects.
 
 **Parent Topic:**[Configuring Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/configure-pw.md)
 

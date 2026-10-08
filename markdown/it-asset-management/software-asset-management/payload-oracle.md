@@ -22,7 +22,7 @@ After you discover Oracle software installs via your discovery source, send a pa
 
 When the schedule job, SAM- Software Asset Connections, runs, it looks for records with null software installs, populates the software install field in the Oracle Instance table and creates the software install record associated to the instance.
 
-The following is a sample payload to create software install records for Oracle in the Oracle Instance \[cmdb\_ci\_db\_ora\_instance\] table. The sample input contains a list of CIs and relationships that exist between these CIs. The payload states that there is an Oracle database server, Dev development 1969 with a standard edition. The Oracle database server has many Oracle options enabled such as Armstrong, Aldrin, Collins and runs on a Linux server.
+The following is a sample payload to create software install records for Oracle in the Oracle Instance \[cmdb\_ci\_db\_ora\_instance\] table. The sample input contains a list of CIs and relationships that exist between these CIs. The payload states that there is an Oracle database, Dev development 1969 with a standard edition. The Oracle database has many Oracle options enabled such as Armstrong, Aldrin, Collins and runs on a Linux server.
 
 ```
 {
@@ -93,12 +93,12 @@ The following is a sample payload to create software install records for Oracle 
 |option|Armstrong|Name of the Oracle database option.|
 |currently\_used|true|Indicates the Armstrong option is currently enabled.|
 |className|samp\_oracle\_options|Name of the Oracle database option table.|
-|option|Aldrin|Name of the Oracle database option|
+|option|Aldrin|Name of the Oracle database option.|
 |currently\_used|true|Indicates the Aldrin option is currently enabled.|
-|name|Dev Development 69|Name of the Oracle database server|
-|edition|standard|edition of the Oracle database server|
-|sid|1-2-569|Oracle system ID|
-|version|11.2|Version of the Oracle database server|
+|name|Dev Development 69|Name of the Oracle database.|
+|edition|standard|Edition of the Oracle database.|
+|sid|1-2-569|Oracle system ID.|
+|version|11.2|Version of the Oracle database.|
 |className|cmdb\_ci\_linux\_server|Name of the related Linux Server table.|
 |mac address|4653XYZAA|MAC address of the interface in the Linux server.|
 

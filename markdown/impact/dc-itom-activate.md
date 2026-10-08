@@ -1,18 +1,18 @@
 ---
-title: Activate Data Collection for ITOM
-description: Activate the Data Collection Pack for ITOM after you enable and configure it.
+title: Activate Data Collection for IT Operations Management
+description: Activate the Data Collection Pack for IT Operations Management after you enable and configure it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/dc-itom-activate.html
 release: brazil
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 1
-breadcrumb: [Impact Value Management Data Collection Content Pack for ITOM, Enable data collection for Value Management, Configuring Impact, Impact]
+reading_time_minutes: 2
+breadcrumb: [Impact Value Management Data Collection Content Pack for IT Operations Management, Enable data collection for Value Management, Guided Setup, Configuring Impact, Impact]
 ---
 
-# Activate Data Collection for ITOM
+# Activate Data Collection for IT Operations Management
 
-Activate the Data Collection Pack for ITOM after you enable and configure it.
+Activate the Data Collection Pack for IT Operations Management after you enable and configure it.
 
 ## Before you begin
 
@@ -24,7 +24,7 @@ Role required: admin, pa\_admin, or pa\_data\_collector
 
 ## Procedure
 
-1.  Navigate to **Performance/PlatformAnalytics** &gt; **Data Collector** &gt; **Jobs**, and then open **Impact VM – ITOM - Monthly Data Collection**.
+1.  Navigate to **Performance/PlatformAnalytics** &gt; **Data Collector** &gt; **Jobs**, and then open **Impact VM – IT Operations Management - Monthly Data Collection**.
 
 2.  Select **Active**, and then update the record.
 
@@ -32,15 +32,15 @@ Role required: admin, pa\_admin, or pa\_data\_collector
 
 3.  To do a trial run of the monthly data collection, select **Execute Now**.
 
-4.  Navigate to **Performance/Platform Analytics** &gt; **Dashboard**, and then open **Impact VM – ITOM**.
+4.  Navigate to **Performance/Platform Analytics** &gt; **Dashboard**, and then open **Impact VM – IT Operations Management**.
 
-    There are two tabs: Monthly – ITOM and Quarterly – ITOM.
+    There are two tabs: Monthly – IT Operations Management and Quarterly – IT Operations Management.
 
 5.  To validate the scores on the dashboard, compare them with the numbers you get from applying the same filters conditions on the fact table.
 
 6.  To run historical jobs, do the following:
 
-    1.  Navigate to **Performance/Platform Analytics** &gt; **Data Collector** &gt; **&gt;Jobs**, and then open **Impact VM – ITOM – Historical Data Collection**.
+    1.  Navigate to **Performance/Platform Analytics** &gt; **Data Collector** &gt; **&gt;Jobs**, and then open **Impact VM – IT Operations Management – Historical Data Collection**.
 
         **Important:** Do NOT select Active as Historical Data collection within Performance/Platform Analytics runs on an on-demand basis.
 
@@ -50,10 +50,10 @@ Role required: admin, pa\_admin, or pa\_data\_collector
         -   If you have the full version of Performance/Platform Analytics, you can change the Relative start date to a longer timeframe than 6 months. For example, you could change Relative start from 6 months ago to 12 months ago.
     2.  Select **Execute Now** to run the historical data collection job.
 
-    3.  Navigate to **Performance/Platform Analytics** &gt; **Dashboard**, and then open **Impact VM – ITOM**.
+    3.  Navigate to **Performance/Platform Analytics** &gt; **Dashboard**, and then open **Impact VM – IT Operations Management**.
 
-        There are two tabs: Monthly - ITOM and Quarterly - ITOM. To validate historical data for any specific indicator, select the widget on the dashboard.
+        There are two tabs: Monthly - IT Operations Management and Quarterly - IT Operations Management. To validate historical data for any specific indicator, select the widget on the dashboard.
 
 
-**Parent Topic:**[Impact Value Management Data Collection Content Pack for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/data-collection-itom.md)
+**Parent Topic:**[Impact Value Management Data Collection Content Pack for IT Operations Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/data-collection-itom.md)
 

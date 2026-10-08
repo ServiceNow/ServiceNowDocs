@@ -22,7 +22,7 @@ Stakeholders in the Regulatory Change Management \(RCM\) application have differ
 -   **[Types of alerts, user roles, and states of regulatory alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/user_roles_and_actions.md)**  
 Different users perform various actions on the alert records based on the type of the alert.
 -   **[Email notifications in Regulatory Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/email-notifications-in-rcm.md)**  
-A number of email notifications are sent by the Regulatory Change Management application.
+Email notifications are sent by the Regulatory Change Management \(RCM\) application at different stages of the regulatory alert workflow.
 -   **[Roles and tables installed with Regulatory Agency Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/installed-with-regulatory-body-library-management.md)**  
 Several types of components are installed with activation of the Regulatory Agency Library application, including tables and user roles.
 

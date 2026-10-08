@@ -60,7 +60,7 @@ AI asset owners authorize deployment and retirement decisions. These decisions a
 
 AI Risk and Compliance managers \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_manager\] provide independent risk and regulatory oversight. They initiate and oversee impact and risk assessments, determine risk classification, validate control implementation, and approve or block life cycle progression.
 
-AI Risk and Compliance business users \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_business\_user\] and AI stewards \[sn\_ai\_governance\_ai\_steward\] execute governance activities. These roles contribute assessment inputs, perform assigned tasks such as control attestations, and support remediation and issue management. They also help keep inventory records accurate throughout the life cycle.
+AI Risk and Compliance business users \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_business\_user\] and AI stewards \[sn\_ai\_governance.ai\_steward\] execute governance activities. These roles contribute assessment inputs, perform assigned tasks such as control attestations, and support remediation and issue management. They also help keep inventory records accurate throughout the life cycle.
 
 Other governance stakeholders, such as security, legal, privacy, or data governance teams, participate as needed. They contribute expertise during assessment, review, and investigation activities. These stakeholders don't own life cycle decisions.
 

@@ -29,7 +29,7 @@ Role required: ot\_excel\_import\_user
 
 2.  Find and select the **SG-OT Excel Pre Import** table record.
 
-    **Tip:** Use the filter conditions to help you locate the SG-OT Excel Pre Import table record. For example, you can set a filter of **\[Label\] \[contains\] \[SG-OT Excel\]**.
+    **Note:** Use the filter conditions to help you locate the SG-OT Excel Pre Import table record. For example, you can set a filter of **\[Label\] \[contains\] \[SG-OT Excel\]**.
 
 3.  On the **Columns** tab, select **New**.
 

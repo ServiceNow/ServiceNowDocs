@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/retail-industry/rahi-retail-explore-store-plans-tracking.html
 release: brazil
 topic_type: concept
-last_updated: "2026-04-15"
+last_updated: "2026-10-05"
 reading_time_minutes: 1
 breadcrumb: [Retail store plans, Explore, Retail]
 ---
@@ -14,9 +14,9 @@ breadcrumb: [Retail store plans, Explore, Retail]
 
 Store plan Tracking gives headquarters and regional operations managers real-time visibility into published store plan progress, from overall completion summaries down to individual store tasks, so teams can identify and address delays before they become failures.
 
-Once a plan is published and cases are generated, tracking gives plan authors a structured view of how each store is progressing.
+Once a plan is published and cases are generated, the **Track Plan** tab gives plan authors a structured view of how each store is progressing for a selected schedule occurrence.
 
--   **Plan-level rollup** - A consolidated view of execution progress across all stores assigned to a published plan.
+-   **Plan-level rollup** - A consolidated view of execution progress across all stores assigned to a published plan, reported for one schedule occurrence at a time.
 -   **Drill-down navigation** - A structured path from a published plan through to parent HQ cases, store cases, and individual store tasks to enable managers to investigate specific delays without losing context.
 -   **Consistent case access** - Parent and child cases are accessible from the plan record, plan type list, and retail case views to eliminate the navigation friction that forces teams into ad-hoc case searches today.
 

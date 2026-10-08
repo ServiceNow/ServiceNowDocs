@@ -45,7 +45,7 @@ The following applications or plugins are installed with Conversational Integrat
 
 1.  Navigate to **All** &gt; **System Applications** &gt; **All Available Applications** &gt; **All**.
 
-2.  Find the Conversational Integration with WhatsApp \(WhatsApp Cloud API\) application \(sn\_va\_whatsapp\_twi\) using the filter criteria and search bar.
+2.  Find the Conversational Integration with WhatsApp \(WhatsApp Cloud API\) application \(sn\_va\_whatsapp\) using the filter criteria and search bar.
 
     You can search for the application by its name or ID. If you cannot find the application, you might have to request it from the ServiceNow Store.
 

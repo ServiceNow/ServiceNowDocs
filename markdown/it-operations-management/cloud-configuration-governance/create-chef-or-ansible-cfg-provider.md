@@ -20,6 +20,7 @@ Create an Ansible configuration management provider, and then run Discovery on t
 
 -   Ensure to have an Ansible server and [Ansible credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/cloud-configuration-governance/configure-ansible-creds.md).
 -   If you want to use Ansible version 3.6.x or higher, ensure to set the mid.cmp.ansible.api\_version property to V2. You can access this property under the Properties section of the Mid Server module.
+-   For information on Ansible naming conventions, refer to [KB3136715](https://support.servicenow.com/kb?sys_kb_id=7b5db29697bd8f5c0ed83bbe2153afc5&id=kb_article_view)
 -   Role required: cloud\_admin
 
 ## About this task
@@ -34,7 +35,7 @@ Create an Ansible configuration management provider, and then run Discovery on t
 
 3.  On the form fill in the fields.
 
-    **Note:** Most information required to create an Ansible configuration management provider comes from the Ansible Tower server settings.
+    **Note:** Most information required to create an Ansible configuration management provider comes from the Ansible server settings.
 
 <table id="table_gy2_2wg_sz"><thead><tr><th>
 
@@ -85,7 +86,7 @@ Server Type
 Ansible server type used by the provider. The available options are:
 
 -   Ansible Community
--   Ansible Tower \(Legacy\)
+-   Ansible \(Legacy\)
 -   AWX
 -   Ansible Automation Platform
 
@@ -109,7 +110,7 @@ Version of the configuration provider you're creating. **Note:** For Ansible ver
 </td></tr></tbody>
 </table>4.  Select **Submit**.
 
-5.  Select the Ansible Tower configuration provider card.
+5.  Select the Ansible configuration provider card.
 
     \[Omitted image "config-providers.png"\] Alt text: Config providers
 
@@ -119,7 +120,7 @@ Version of the configuration provider you're creating. **Note:** For Ansible ver
 
     The discovered resources appear under **Entities**.
 
-    The following Ansible Tower resources are discovered:
+    The following Ansible resources are discovered:
 
     -   **Ansible Inventory**: Displays the discovered applications and virtual resources.
     -   **Cfg Installable**: Displays theactual components that run when the applications install. For Ansible, the items in this list are job templates, which are also referred to as runlists in this form.
@@ -131,7 +132,7 @@ Version of the configuration provider you're creating. **Note:** For Ansible ver
 
     **Note:** Communicate the supported applications to users so they can select the correct application from the **Hostgroup** field in the Cloud User Portal. The **Hostgroup** field shows all possible applications \(called Groups in Ansible\), not just the ones that the configuration management provider supports. Therefore, the provisioning fails when the user selects an unsupported application.
 
-    \[Omitted image "ansible-tower-groups.png"\] Alt text: Ansible Tower groups within an inventory
+    \[Omitted image "ansible-tower-groups.png"\] Alt text: Ansible groups within an inventory
 
 
 ## What to do next

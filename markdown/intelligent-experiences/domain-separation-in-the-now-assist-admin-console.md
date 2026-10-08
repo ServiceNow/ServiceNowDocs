@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [Domain Separation, Now Assist Admin, console, Generative AI, Gen AI]
-breadcrumb: [Now Assist reference, AI Admin Hub, Generative AI skills, Enable AI Experiences]
+breadcrumb: [AI Admin Hub reference, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
 # Domain separation in the AI Admin Hub console
@@ -66,7 +66,7 @@ Domain separation is possible at the skill level and at the individual configura
 10. Compare the global skill record to the one created within your domain. Records on the related list may not be present in the domain-specific skill. If they are not there, you must recreate those records in your domain and attach them to the related list in your domain-specific skill.
 11. Repeat the process for each skill and each domain where you want to have the skill available.
 
-**Parent Topic:**[Now Assist reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-reference-landing.md)
+**Parent Topic:**[AI Admin Hub reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-reference-landing.md)
 
 **Related topics**  
 

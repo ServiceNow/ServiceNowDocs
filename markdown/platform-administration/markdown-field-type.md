@@ -1,6 +1,6 @@
 ---
 title: Markdown field type
-description: The Markdown field type allows users to write, edit, and store Markdown content in the ServiceNow AI Platform.
+description: The Markdown field type enables users to write, edit, and store Markdown content in the ServiceNow AI Platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-administration/markdown-field-type.html
 release: brazil
@@ -12,7 +12,7 @@ breadcrumb: [Reference, Field administration, Forms, fields, and lists, Configur
 
 # Markdown field type
 
-The Markdown field type allows users to write, edit, and store Markdown content in the ServiceNow AI Platform.
+The Markdown field type enables users to write, edit, and store Markdown content in the ServiceNow AI Platform.
 
 The Markdown field type is supported in Core UI and configurable workspaces. Admins can add Markdown fields to forms using the form layout, similar to other field types.
 
@@ -30,15 +30,15 @@ The Markdown field type provides the following capabilities:
 
 -   **View a clean preview**
 
-    The Markdown editor shows the rendered HTML in the preview tab.
+    The Markdown editor shows the rendered HTML in the **Preview** tab.
 
 -   **View the source anytime**
 
     Users can switch to the raw Markdown to see what is stored and the rendered HTML.
 
--   **Toolbar support**
+-   **Use the toolbar**
 
-    The editor includes a toolbar for ease of editing.
+    The editor includes a toolbar for formatting Markdown content.
 
 
 ## Standard field features

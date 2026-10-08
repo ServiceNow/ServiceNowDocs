@@ -10,7 +10,7 @@ topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [Now Assist, generative AI]
-breadcrumb: [AI tools and files, Use, ServiceNow Studio, Developing your application, Building applications]
+breadcrumb: [AI tools and files, Use, ServiceNow Studio, Build, AI Workflow Factory, Building applications]
 ---
 
 # App summary generation

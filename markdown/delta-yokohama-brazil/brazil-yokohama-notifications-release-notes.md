@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-brazil/brazil-yokohama-notifications-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 8
+last_updated: "2026-10-08"
+reading_time_minutes: 9
 breadcrumb: [Products combined by family]
 ---
 
@@ -442,7 +442,14 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **Activation information**
+
+Notifications is a ServiceNow AI Platform® feature that is active by default.
+
+Install Notifications Email Agents by requesting it from the ServiceNow® Store. Visit the [ServiceNow Store](https://store.servicenow.com/store) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+The Notification Agent requires the Implementation Agent \(IA\) Orchestration framework and is not supported as a standalone feature.
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -688,7 +695,11 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   Keep users informed by sending email or SMS notifications about specific activities in the system, such as updates to incidents or change requests.
+-   Control when notifications are sent, who receives them, and what content they contain.
+-   Improve communication efficiency with email digests that consolidate multiple notifications into a single message.
+
+See [Notifications](https://www.servicenow.com/docs/access?context=notifications&family=brazil&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/rn-combined-intro.md)

@@ -187,16 +187,8 @@ Final date the content is valid.
 
 **Parent Topic:**[UI Builder for Agent Workspace for HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/agent-workspace-for-hr-case-management/uib-aws.md)
 
-**Parent Topic:**[UI Builder for Agent Workspace for HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/agent-workspace-for-hr-case-management/uib-aws.md)
-
 **Related topics**  
 
-
-[Create a landing page variant]()
-
-[Enable a detailed data display within a report]()
-
-[Reorder the navigation pane modules in HR Agent Workspace]()
 
 [Create a landing page variant]()
 

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-leadmanagement-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 5
+last_updated: "2026-10-08"
+reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
 
@@ -144,6 +144,13 @@ Australia
 
 Create touchpoints, log interaction activities, and schedule meetings directly from a lead record to track all client interactions in one place throughout the lead lifecycle. You can choose between the new meetings construct and existing appointment records for priority meeting scheduling.
 
+
+ -   **[View touchpoint records for a task](https://www.servicenow.com/docs/access?context=lead-management-use-tasks-tab&family=australia&ft:locale=en-US)**
+
+Record early customer interactions and associate tasks with ongoing engagement throughout the pre‑deal sales lifecycle by:
+
+    -   Creating a touchpoint from a lead to capture interactions such as discovery calls, follow‑up emails, or qualification meetings.
+    -   Linking a task to a lead touchpoint to track follow‑up work related to an ongoing engagement until the lead is converted.
 
 </td></tr><tr><td>
 
@@ -344,6 +351,8 @@ Yokohama
 Install Lead Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 
+**Important:** Lead Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Zurich
@@ -362,6 +371,8 @@ Australia
 
 Install Lead Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
 
+
+**Important:** Lead Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 

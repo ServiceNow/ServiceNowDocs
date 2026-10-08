@@ -35,26 +35,8 @@ Role required: sn\_ta\_hiring\_core.recruiter
 
 **Parent Topic:**[Manage the job requisitions as a recruiter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/recruitment-workspace/manage-job-reqs.md)
 
-**Parent Topic:**[Manage the job requisitions as a recruiter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/recruitment-workspace/manage-job-reqs.md)
-
 **Related topics**  
 
-
-[Put a job requisition on hold]()
-
-[Withdraw hold on a job requisition]()
-
-[Duplicate a job requisition]()
-
-[Reopen a job requisition]()
-
-[Submit a job requisition for approval]()
-
-[Cancel a submitted approval request]()
-
-[Resend a job requisition for approval]()
-
-[Open a job requisition in your ATS]()
 
 [Put a job requisition on hold]()
 

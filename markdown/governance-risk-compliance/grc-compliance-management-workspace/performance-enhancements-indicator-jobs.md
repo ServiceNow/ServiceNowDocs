@@ -1,6 +1,6 @@
 ---
 title: Performance enhancements for Indicator nightly job
-description: To support parallel processing capabilities, two additional custom queues such as the Indicator Data Queue for processing indicators, and the Supporting Data Queue for handling events related to control, risk, and issue updates and to collect the supporting data, have been introduced.
+description: Two additional custom queues have been introduced to support parallel processing capabilities. The Indicator Data Queue processes indicators. The Supporting Data Queue handles events related to control, risk, and issue updates. It also collects the supporting data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-compliance-management-workspace/performance-enhancements-indicator-jobs.html
 release: brazil
@@ -9,12 +9,12 @@ classification: grc-compliance-management-workspace
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Manage control indicators using the Compliance Workspace, Use, GRC Compliance workspace, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Manage control indicators using the Compliance Workspace, Use, GRC Compliance workspace, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Performance enhancements for Indicator nightly job
 
-To support parallel processing capabilities, two additional custom queues such as the Indicator Data Queue for processing indicators, and the Supporting Data Queue for handling events related to control, risk, and issue updates and to collect the supporting data, have been introduced.
+Two additional custom queues have been introduced to support parallel processing capabilities. The Indicator Data Queue processes indicators. The Supporting Data Queue handles events related to control, risk, and issue updates. It also collects the supporting data.
 
 ## Architecture for effective processing of indicators
 
@@ -22,11 +22,11 @@ The execution of indicators has been optimized by implementing a three-step proc
 
 In the initial step, a set of indicators requiring processing is queued up in the Batch Indicator Data Queue. The Batch Indicator Data Processor then runs the indicators, sets the status, and creates the indicator results or tasks. The indicators are then moved to another custom queue for supporting data collection and updating dependent objects like controls, risks, and issues.
 
-In the second step, the Indicator Supporting Data Processor picks up the indicator records from the Indicator Supporting Data Queue and updates the control or risk status, also creating or updating issues based on the configuration. Then the indicator is pushed to the Indicator Statistics Table for support data collection.
+In the second step, the Indicator Supporting Data Processor picks up the indicator records from the Indicator Supporting Data Queue. It updates the control or risk status, also creating or updating issues based on the configuration. Then the indicator is pushed to the Indicator Statistics Table for support data collection.
 
-Finally, the Supporting Data Collection Job picks up the indicator records from the Supporting Data Statistics Table, starts collecting supporting data for the indicators, and leverages both the default queue and additional custom queues for efficient processing.
+Finally, the Supporting Data Collection Job picks up the indicator records from the Supporting Data Statistics Table. It starts collecting supporting data for the indicators. It also leverages both the default queue and additional custom queues for efficient processing.
 
-**Note:** Indicator result business rules are not executed during the indicator job run. However, the same business rules are used while completing the indicator task. The indicator business rules are moved to the indicator job for achieving better performance during the execution.
+**Note:** Indicator result business rules aren't executed during the indicator job run. However, the same business rules are used while completing the indicator task. The indicator business rules are moved to the indicator job for achieving better performance during the execution.
 
 This architecture supports execution of a large number of indicators in significant time. The Supporting Data Collection Job introduced to collect supporting data improves the data handling process considerably. Moreover, the time taken to execute the data is considerably less.
 
@@ -43,6 +43,6 @@ A new field introduced in the indicator supporting data table, which is of type 
 -   For more information related to the table changes, see [Tables installed with Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/tables-installed-with-grc.md).
 -   For more information on the additional system properties, see [Governance, Risk, and Compliance properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/grc-properties.md).
 -   For Indicator form changes, see [Create a GRC indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/audit-management/t_CreateAnIndicator.md).
--   For the Indicator template form changes in Compliance Workspace, see [Create a GRC indicator template using the Compliance Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-compliance-management-workspace/create-grc-indicator-template-ws.md).
+-   For the Indicator template form changes in Compliance Workspace, see [Create a GRC indicator template using the Compliance Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-compliance-management-workspace/create-grc-indicator-template-ws.md)
 -   For the Indicator template form changes in the classic UI, see [Create a GRC indicator template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/audit-management/t_CreateIndicatorTemplate.md).
 

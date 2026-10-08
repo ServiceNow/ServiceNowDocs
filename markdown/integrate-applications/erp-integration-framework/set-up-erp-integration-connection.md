@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, connect, configure, system, load, balancer, connect, credential]
-breadcrumb: [Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Connecting to SAP, Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Connect to SAP with RFC or BAPI
@@ -54,6 +54,4 @@ The following SAP systems are supported:
 
     For more information, see [Zero Copy Connector for ERP system details field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-create-new-system-descriptions.md).
 
-
-**Parent Topic:**[Configuring Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-integration-configuration-overview.md)
 

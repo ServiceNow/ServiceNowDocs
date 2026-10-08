@@ -1,5 +1,5 @@
 ---
-title: Install the Data Collection Pack for HR
+title: Install the Data Collection Pack for HR Service Delivery
 description: To enable the Data Collection Pack, you must install dependent plugins and activate Data Collection jobs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/dc-hr-install.html
@@ -7,16 +7,16 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Impact Value Management Data Collection Content Pack for HR, Enable data collection for Value Management, Configuring Impact, Impact]
+breadcrumb: [Impact Value Management Data Collection Content Pack for HR Service Delivery, Enable data collection for Value Management, Guided Setup, Configuring Impact, Impact]
 ---
 
-# Install the Data Collection Pack for HR
+# Install the Data Collection Pack for HR Service Delivery
 
 To enable the Data Collection Pack, you must install dependent plugins and activate Data Collection jobs.
 
 ## Before you begin
 
-The HR Success Metric Definitions in this application rely on another application. confirm that the required plugins are installed if they are not already installed. For more information, see [Install Impact Value Management Data Collection Content Pack Apps dependent plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/dc-install-plugins.md).
+The HR Service Delivery Success Metric Definitions in this application rely on another application. confirm that the required plugins are installed if they are not already installed. For more information, see [Install Impact Value Management Data Collection Content Pack Apps dependent plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/dc-install-plugins.md).
 
 The HR Success Metric Definitions in this application are also dependent on the following Content Packs from the store for the pre-build HR Service Definitions:
 
@@ -37,10 +37,10 @@ Role required: Impact users
 
 4.  Search for and select the following:
 
-    -   **Impact VM - HR - Monthly Data Collection**
-    -   **Impact VM - HR - Historical Data Collection**
+    -   **Impact VM - HR Service Delivery - Monthly Data Collection**
+    -   **Impact VM - HR Service Delivery - Historical Data Collection**
     If you're having trouble finding the data collection jobs, check whether the required data collection-dependent plugins are installed correctly. See [Install Impact Value Management Data Collection Content Pack Apps dependent plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/dc-install-plugins.md).
 
 
-**Parent Topic:**[Impact Value Management Data Collection Content Pack for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/data-collection-hr.md)
+**Parent Topic:**[Impact Value Management Data Collection Content Pack for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/data-collection-hr.md)
 

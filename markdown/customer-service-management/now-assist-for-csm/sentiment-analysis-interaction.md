@@ -21,7 +21,7 @@ Configure Sentiment analysis for email interactions to evaluate sentiment, trend
 
 Role required: admin
 
-Install the plugin for email interactions.
+Install the plugin \(sn\_eaai\_csm\) for Email Interaction for CSM.
 
 ## About this task
 
@@ -62,7 +62,7 @@ The Sentiment Reasoning field in the record provides details on which factors we
 
     Additional information regarding details of the skill are displayed, but can't be edited.
 
-5.  Select **Choose Input** and review the tables and fields to create prompts that determines where data is pulled from.
+5.  Select **Choose Input** and review the tables and fields to create prompts that determine where data is pulled from.
 
     **Note:** You cannot modify the input data source.
 

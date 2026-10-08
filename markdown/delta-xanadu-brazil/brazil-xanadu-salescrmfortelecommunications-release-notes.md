@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-salescrmfortelecommunications-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 5
+last_updated: "2026-10-08"
+reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
 
@@ -115,7 +115,12 @@ Australia
 
 </td><td>
 
--   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&family=australia&ft:locale=en-US)**
+-   **[Image to task plan template AI agent](https://www.servicenow.com/docs/access?context=now-assist-task-template-generation-somt&family=australia&ft:locale=en-US)**
+
+Use this agent to process an uploaded image file, extract task dependencies and store them as a task plan template for the given specification.
+
+
+ -   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&family=australia&ft:locale=en-US)**
 
 The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
 
@@ -129,13 +134,29 @@ Depending on your license, you will have access to certain application features,
 Automatically create fallout records mapped to existing fallout types for streamlined error tracking and follow-up.
 
 
+ -   **[Task plan template](https://www.servicenow.com/docs/access?context=somt-flow-action-catalog-task&family=australia&ft:locale=en-US)**
+
+Define tasks and their dependencies using the task plan template to orchestrate the fulfillment journey for a product to standardize fulfillment processes across products.
+
+-   **[Move order voice AI agent](https://www.servicenow.com/docs/access?context=now-assist-move-order-somt&family=australia&ft:locale=en-US)**
+
+Use this agent to create a move order capture journey. The agent collects details such as the customer’s name, current service location, product offering, and new service address.
+
+
 </td></tr><tr><td>
 
 Brazil
 
 </td><td>
 
-No updates for this release.
+-   **Task plan templates for Sales Customer Relationship Management \(Sales CRM\)**
+
+Define and use task plan templates without a Sales Customer Relationship Management for Telecommunications \(SOMT\) license. Define task plan templates, task plan items, and dependencies, and trigger them based on order action \(add, change\) and product type.
+
+-   **AI Agent for template-driven order orchestration**
+
+Generate reusable orchestration templates with an enhanced conversational AI Agent instead of a flat task list. When no template exists for a product specification, the agent converts an uploaded fulfilment-journey image into a draft template, or proposes one from the closest matching specification's past orders. Product Catalog Managers define dependencies and publish the template, which then automatically orchestrates the current and all future orders for that specification and action.
+
 
 </td></tr></tbody>
 </table>## Changes
@@ -191,7 +212,14 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **Legal name persistence during account creation**
+
+Legal name entered during account creation is now correctly persisted. Previously, the value was mapped to a database field that did not exist.
+
+-   **Order integrator role no longer blocks other roles from creating consumers and locations**
+
+Fixed an access control issue where the order integrator role's create permissions on Consumer and Location records inadvertently blocked other roles, such as CSM Agent, from creating those records.
+
 
 </td></tr></tbody>
 </table>## Removed
@@ -347,13 +375,18 @@ Australia
 Install Order Management for telecom, media, and tech by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
 
 
+**Important:** Sales CRM for Telecommunications is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Brazil
 
 </td><td>
 
-No updates for this release.
+-   **Activation information**
+
+Install Sales CRM for Telecommunications by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=brazil&ft:locale=en-US). For activation details, see [Activate](https://www.servicenow.com/docs/access?context=activate-somt&family=brazil&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -512,7 +545,10 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **Accessibility information**
+
+Sales Customer Relationship Management follows standard ServiceNow platform accessibility support, including keyboard navigation and compatibility with screen readers.
+
 
 </td></tr></tbody>
 </table>## Localization information
@@ -565,7 +601,10 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **Localization information**
+
+Sales Customer Relationship Management does not include dedicated language packs. Language support relies on the base system language plugins active on your instance.
+
 
 </td></tr></tbody>
 </table>## Highlight information
@@ -639,7 +678,11 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   Manage the full sales and order lifecycle, from product catalog and specification management to order capture, fulfillment orchestration, and fallout handling.
+-   Generate and reuse catalog-driven task plan templates to orchestrate order fulfillment automatically, without manual task setup on repeat orders.
+-   Use AI Agents to convert a fulfilment-journey image or similar past orders into a ready-to-publish orchestration template.
+
+ See [Sales Customer Relationship Management for Telecommunications](https://www.servicenow.com/docs/access?context=sales-crm&family=brazil&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-xanadu-brazil/rn-combined-intro.md)

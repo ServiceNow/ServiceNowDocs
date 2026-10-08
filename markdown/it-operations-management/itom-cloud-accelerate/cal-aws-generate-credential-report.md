@@ -20,7 +20,7 @@ Subflow that lists all users in your account and the status of their various cre
 
 -   **Subscription requirements**
 
-    To use this subflow in custom flows, you must obtain an Integration Hub Enterprise subscription or an App Engine subscription. For more information, see [Request Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/request-ih-overview.md).
+    To use this subflow in custom flows, you must obtain an Integration Hub Enterprise subscription or an App Engine subscription. For more information, see Request Integration Hub.
 
 -   **Role requirements**
 

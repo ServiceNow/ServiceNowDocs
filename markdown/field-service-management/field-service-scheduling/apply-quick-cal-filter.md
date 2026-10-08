@@ -23,7 +23,7 @@ Role required: wm\_dispatcher
 
 ## About this task
 
-A quick calendar filter grays out the tasks on the calendar that don't match your criteria. Matching tasks are unaffected. The quick calendar filter is only active in day and workday calendar views.
+A quick calendar filter dims out the tasks and events on the calendar that don't match your criteria. Matching tasks and events are unaffected. The quick calendar filter is only active in day and workday calendar views.
 
 ## Procedure
 
@@ -47,10 +47,14 @@ A quick calendar filter grays out the tasks on the calendar that don't match you
 
 ## Result
 
-Tasks on the calendar that don't match the filter are grayed out.
+Tasks and events on the calendar that don't match the filter are dimmed out.
 
 **Related topics**  
 
 
 [Apply a quick task filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/apply-quick-task-filter.md)
+
+[Quick task and calendar filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/quick-filters-dw.md)
+
+[Create a custom quick task filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/create-custom-quick-filter.md)
 

@@ -74,5 +74,5 @@ Status to indicate whether the push notification has been sent. The Type column 
 </table>**Related topics**  
 
 
-[bundle-platadm.c_ScheduledJobs]
+[Scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_ScheduledJobs.md)
 

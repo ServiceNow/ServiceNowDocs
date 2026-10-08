@@ -48,15 +48,15 @@ ServiceNow Otto for SAM generates the publisher summaries by using reconciliatio
 
 5.  You can perform the following actions on the generated summary.
 
-<table id="choicetable_swv_41f_f2c"><thead><tr><th align="left" id="d299162e185">
+<table id="choicetable_swv_41f_f2c"><thead><tr><th align="left" id="d300032e185">
 
 Action
 
-</th><th align="left" id="d299162e188">
+</th><th align="left" id="d300032e188">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d299162e194">
+</th></tr></thead><tbody><tr><td id="d300032e194">
 
 **Copy to clipboard icon**
 
@@ -64,7 +64,7 @@ Description
 
 Copies the summary to a clipboard.
 
-</td></tr><tr><td id="d299162e203">
+</td></tr><tr><td id="d300032e203">
 
 **Refresh icon**
 
@@ -72,7 +72,7 @@ Copies the summary to a clipboard.
 
 Regenerates the publisher summary.
 
-</td></tr><tr><td id="d299162e212">
+</td></tr><tr><td id="d300032e212">
 
 **Feedback**
 

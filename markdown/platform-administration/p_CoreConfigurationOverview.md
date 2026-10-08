@@ -30,6 +30,8 @@ The Feature Preview Program provides access to pre-release capabilities on your 
 Plugins are software components that provide features and functionalities within a ServiceNow instance.
 -   **[Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/find-components.md)**  
 Activating a plugin installs an application on your instance. Each application consists of components such as tables, user roles, and scheduled jobs. To view all components that are installed with an application, see the Application Files table.
+-   **[Select an application from the application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_SelectAnAppFromTheAppPicker.md)**  
+Use the application picker to select the application scope to which any new records and updates apply.
 -   **[Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/r_AvailableSystemProperties.md)**  
 Some properties are available on a system properties form, but some lesser-used properties are available only from the System Property \[sys\_properties\] table. Sometimes, the property does not exist in a base instance, but can be added if you change the value.
 -   **[Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md)**  

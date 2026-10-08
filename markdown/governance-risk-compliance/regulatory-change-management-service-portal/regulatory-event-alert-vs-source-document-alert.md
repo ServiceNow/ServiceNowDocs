@@ -1,5 +1,5 @@
 ---
-title: Differences between regulatory event alert and source document alert
+title: Regulatory event alerts vs. source document alerts
 description: A regulatory event alert informs you of a regulatory change, while a source document alert signals the release or update of the related official document.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/regulatory-change-management-service-portal/regulatory-event-alert-vs-source-document-alert.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Explore, Regulatory Change Management, Governance, Risk, and Compliance]
 ---
 
-# Differences between regulatory event alert and source document alert
+# Regulatory event alerts vs. source document alerts
 
 A regulatory event alert informs you of a regulatory change, while a source document alert signals the release or update of the related official document.
 

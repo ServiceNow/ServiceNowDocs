@@ -1,6 +1,6 @@
 ---
 title: Customer Contracts and Entitlements release notes
-description: The ServiceNow Customer Contracts and Entitlements application enables users to manage contracts from the initial offer to contract finalization, directly within the CSM Configurable Workspace. See the following sections for release notes by version.You can now create contracts and entitlements for a buyer organization, as well as an account or consumer.The September 2026 release includes user experience improvements in quote related workflows.
+description: The ServiceNow Customer Contracts and Entitlements application enables users to manage contracts from the initial offer to contract finalization, directly within the CSM Configurable Workspace. See the following sections for release notes by version.The October 2026 release enables you to create contracts and entitlements for a buyer organization.The September 2026 release includes user experience improvements in quote related workflows.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/customer-contracts-entitlements-rn.html
 release: brazil
@@ -32,29 +32,24 @@ See [Customer Contracts and Entitlements](https://raw.githubusercontent.com/Serv
 
 **Parent Topic:**[Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/sales-order-management-rn-landing.md)
 
-## Version
+## Version 15.1.0
 
-You can now create contracts and entitlements for a buyer organization, as well as an account or consumer.
+The October 2026 release enables you to create contracts and entitlements for a buyer organization.
 
 ### What's new
 
 -   **[Contracts and entitlements for buyer organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/service-contract-form.md)**
 
-    Enable users to create contracts and entitlements for service organizations, in addition to accounts and consumers. When an order fulfilled for a buyer organization is processed to a contract or entitlement, the buyer organization information is populated in contracts and entitlements automatically.
-
--   **[Enhancements in Modify workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/cce-modify-service-contract-line.md)**
-
-    Enhanced Modify workflows by enabling users to modify an entire line, quantity, or end date through a single Modify action. The Modify workflow shows only the changes allowed for the selected lines, based on whether the line is configurable or a simple product.
+    Enable users to create contracts and entitlements for buyer organizations, in addition to accounts and consumers. When an order fulfilled for a buyer organization is processed to a contract or entitlement, the buyer organization information is updated in contracts and entitlements automatically.
 
 -   **[Enhancements in Renewal workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/cce-renew-service-contract-line.md)**
 
     Following enhancements have been made in the renewal workflow:
 
-    -   If a customer contract or customer contract line that is terminated before its end date, it is excluded from the renewal workflow.
-    -   If a contract line is terminated before its end date, then the renewal quote for that contract line is deleted.
-    -   If a contract line is terminated before its end date, then the status of that contract line is updated to **Canceled** when the contract reaches its end date.
+    -   If a customer contract or customer contract line is terminated before its end date, it is excluded from the renewal workflow.
+    -   If a contract line is terminated before its end date, then the renewal quote line for that contract line is deleted.
 
-## Version 20.0.0
+## Version 15.0.1
 
 The September 2026 release includes user experience improvements in quote related workflows.
 

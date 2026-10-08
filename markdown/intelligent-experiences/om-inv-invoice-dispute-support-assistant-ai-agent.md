@@ -7,7 +7,7 @@ release: brazil
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Order Management AI agents, Order Management, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Order Management AI agents, Sales CRM AI agents, Sales CRM, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Invoice dispute support assistant AI agent
@@ -20,7 +20,7 @@ The agent can offer assistance to the user for resolving or closing invoice disp
 
 1.  Identify and confirm the invoice number with the customer.
 2.  Use the Validate invoice case and fetch invoice tool to validate the invoice case number.
-3.  Provide the user with a list of options, such as viewing invoice details, find similar invoice cases, and closing the case.
+3.  Provide the user with a list of options. These include finding similar cases, viewing invoice details, validating the invoice dispute, or closing the case. When closing the case, the user can issue a credit note for the missing quantity, place an order for the remaining quantity, or close the case as an invalid dispute.
 
 <table><thead><tr><th>
 
@@ -70,7 +70,7 @@ Validate invoice case and fetch invoice
 
 Validate invoice dispute
 
--   **Conversational topic**
+-   **Conversational topics**
 
 Fetch invoice case number and interaction id
 
@@ -116,7 +116,7 @@ Used in agentic workflows
 Invoice Dispute Assist
 
 </td></tr></tbody>
-</table>Learn more about Order Management at [Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/explore-order-management.md).
+</table>Learn more about customer self-service via Business Portal at [Customer self-service for Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/som-self-service-business-portal.md).
 
 **Parent Topic:**[Order Management AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/om-ai-agents-overview.md)
 

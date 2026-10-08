@@ -1,0 +1,51 @@
+---
+title: View and track contract request details
+description: View the details and track the activities of the contract request.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/employee-service-management/contract-management-pro/cncore-view-creq-details.html
+release: brazil
+product: Contract Management Pro
+classification: contract-management-pro
+topic_type: task
+last_updated: "2026-10-04"
+reading_time_minutes: 1
+breadcrumb: [Parent-linked contract requests, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+---
+
+# View and track contract request details
+
+View the details and track the activities of the contract request.
+
+## Before you begin
+
+Role required: sn\_cm\_core.contract\_user, sn\_cm\_core.contract\_admin
+
+## Procedure
+
+1.  Navigate to your workspace.
+
+2.  Open the contract request.
+
+    \[Omitted image "cmpro-cmr-details.png"\] Alt text: Various tabs in a contract request to review the details.
+
+3.  View the details of the contract request.
+
+    -   Review the request details by accessing the **Details** tab.
+    -   State displays the state of the contract request.
+    -   Contract status displays the status of the contract document.
+    -   View the list of approvals and their approval status by accessing the **Approvers** tab.
+    -   View the list of document reviews and their review status by accessing the **Reviews** tab.
+    -   Review the contract document by accessing the **Contract Documents** tab.
+        -   If the request uses internal storage for attachments, access the document by selecting it.
+        -   If the request uses external storage, access the document by selecting the link.
+    -   View the list of supporting documents by accessing the **Supporting Documents** tab. This related list is available only for non-self-served contract request.
+    -   View a list of signatories and their details by accessing the **Signatories** tab.
+    -   View the final contract document by accessing the **Contract Repository** tab. When multiple contract documents are attached in non-self-served contract request, a separate record is created for each contract type.
+    -   View the access levels to documents for various personas by accessing the **Document Access** tab.
+    -   View the history of changes made to the contract request by accessing the **Record History** tab.
+    -   View contract requests linked to the current request by accessing the **Related contract requests** tab.
+4.  Track the request's activities and post messages for the fulfiller working on it by accessing the **Activity** tab.
+
+
+**Parent Topic:**[Parent-linked contract requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/contract-management-pro/cncore-initiate-contract.md)
+

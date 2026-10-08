@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-brazil/brazil-yokohama-telecommunicationscustomer360-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 7
+last_updated: "2026-10-08"
+reading_time_minutes: 8
 breadcrumb: [Products combined by family]
 ---
 
@@ -169,7 +169,12 @@ Brazil
 
 </td><td>
 
--   **[Party Relationship Center](https://www.servicenow.com/docs/access?context=c360-prc-overview&family=brazil&ft:locale=en-US)**
+-   **[Products card](https://www.servicenow.com/docs/access?context=c360-products-card&family=brazil&ft:locale=en-US)**
+
+Perform Suspend, Resume, Disconnect, and Modify actions on a child product inventory record from Customer 360. The action also updates the parent product inventory. The actions require the sn\_contract\_ent\_wf plugin to be active.
+
+
+ -   **[Party Relationship Center](https://www.servicenow.com/docs/access?context=c360-prc-overview&family=brazil&ft:locale=en-US)**
 
 View the network of entities connected to a consumer or account, including billing accounts, sold products, related parties, and active cases as an interactive node map from any Telecommunications Customer 360 record page.
 
@@ -228,7 +233,14 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **[Billing card](https://www.servicenow.com/docs/access?context=c360-billing-card&family=brazil&ft:locale=en-US)**
+
+The Billing card in Customer 360 displays billing accounts of any Billing Account Type, including Customer Account, instead of only Company.
+
+-   **[Party Relationship Center](https://www.servicenow.com/docs/access?context=c360-prc-overview&family=brazil&ft:locale=en-US)**
+
+Each node in the Relationship viewer shows its table label as a tagline, so you can identify the record type at a glance.
+
 
 </td></tr></tbody>
 </table>## Removed

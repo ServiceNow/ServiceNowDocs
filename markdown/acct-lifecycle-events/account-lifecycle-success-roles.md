@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-l
 release: brazil
 topic_type: reference
 last_updated: "2026-09-10"
-reading_time_minutes: 6
+reading_time_minutes: 7
 breadcrumb: [Reference, Customer Success Management]
 ---
 
@@ -1150,6 +1150,70 @@ Provides delete access to risk\_signal\_solution\_relationship\_delete role
 
 </td></tr><tr><td>
 
+sn\_acct\_lc\_eng\_m2m\_onb
+
+</td><td>
+
+Read
+
+</td><td>
+
+Provides read access to sn\_acct\_lc.customer\_success\_viewer role
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+sn\_acct\_lc\_eng\_m2m\_onb
+
+</td><td>
+
+Create/Write
+
+</td><td>
+
+Provides create and write access to sn\_acct\_lc.agent role
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+sn\_acct\_lc\_eng\_m2m\_onb
+
+</td><td>
+
+Delete
+
+</td><td>
+
+Provides delete access to sn\_acct\_lc.agent role
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+sn\_acct\_lc\_eng\_m2m\_onb
+
+</td><td>
+
+Report View
+
+</td><td>
+
+Provides report view access to sn\_acct\_lc.agent role
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
 sn\_acct\_lc\_data\_validation\_assist
 
 </td><td>
@@ -1530,6 +1594,136 @@ Granular role used to create and manage touchpoint meetings.
 </td><td>
 
  
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+sn\_sch\_plus.agenda\_item\_read
+
+</td><td>
+
+Read access to the Meeting Agenda Item \(sn\_sch\_plus\_agenda\_item\) table.
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+sn\_sch\_plus.agenda\_item\_write
+
+</td><td>
+
+Create and write access to the Meeting Agenda Item \(sn\_sch\_plus\_agenda\_item\) table. Includes read privileges.
+
+</td><td>
+
+sn\_sch\_plus.agenda\_item\_read
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+sn\_sch\_plus.agenda\_item\_delete
+
+</td><td>
+
+Delete access to the Meeting Agenda Item \(sn\_sch\_plus\_agenda\_item\) table.
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+sn\_sch\_plus.agenda\_item\_admin
+
+</td><td>
+
+Admin access to the Meeting Agenda Item \(sn\_sch\_plus\_agenda\_item\) table. Includes write and delete privileges.
+
+</td><td>
+
+-   sn\_sch\_plus.agenda\_item\_write
+-   sn\_sch\_plus.agenda\_item\_delete
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+sn\_sch\_plus.next\_step\_read
+
+</td><td>
+
+Read access to the Meeting Next Step \(sn\_sch\_plus\_next\_step\) table.
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+sn\_sch\_plus.next\_step\_write
+
+</td><td>
+
+Create and write access to the Meeting Next Step \(sn\_sch\_plus\_next\_step\) table. Includes read privileges.
+
+</td><td>
+
+sn\_sch\_plus.next\_step\_read
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+sn\_sch\_plus.next\_step\_delete
+
+</td><td>
+
+Delete access to the Meeting Next Step \(sn\_sch\_plus\_next\_step\) table.
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+sn\_sch\_plus.next\_step\_admin
+
+</td><td>
+
+Admin access to the Meeting Next Step \(sn\_sch\_plus\_next\_step\) table. Includes write and delete privileges.
+
+</td><td>
+
+-   sn\_sch\_plus.next\_step\_write
+-   sn\_sch\_plus.next\_step\_delete
 
 </td><td>
 

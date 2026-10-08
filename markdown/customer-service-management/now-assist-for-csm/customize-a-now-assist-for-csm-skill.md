@@ -1,6 +1,6 @@
 ---
 title: Customize a case summarization skill in ServiceNow Otto for Customer Service Management \(CSM\)
-description: If you have the admin role, you can customize a ServiceNow Otto for Customer Service Management \(CSM\) skill so that agents can use the generative AI skills in CRM Workspace and in Core UI.
+description: Customize case summarization skill by selecting input data sources, setting case state conditions, and defining access controls to generate AI-powered case summaries that fit your organization's needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/now-assist-for-csm/customize-a-now-assist-for-csm-skill.html
 release: brazil
@@ -8,13 +8,13 @@ product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 7
+reading_time_minutes: 6
 breadcrumb: [Configure, ServiceNow Otto for CSM, Customer Service Management]
 ---
 
 # Customize a case summarization skill in ServiceNow Otto for Customer Service Management \(CSM\)
 
-If you have the admin role, you can customize a ServiceNow Otto for Customer Service Management \(CSM\) skill so that agents can use the generative AI skills in CRM Workspace and in Core UI.
+Customize case summarization skill by selecting input data sources, setting case state conditions, and defining access controls to generate AI-powered case summaries that fit your organization's needs.
 
 ## Before you begin
 
@@ -26,7 +26,7 @@ From the AI Admin Hub, you can select the input table, related records, and fiel
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Features** to access the **AI Features** tab of the AI Admin Hub.
+1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **AI Skills** to access the **AI Features** tab of the AI Admin Hub.
 
 2.  In the **Customer** workflow group, view the skills for the ServiceNow Otto for CSM features.
 
@@ -36,7 +36,7 @@ From the AI Admin Hub, you can select the input table, related records, and fiel
 
     2.  In the All available skills section, locate the skill that you would like to activate and select **Activate skill**.
 
-        **Note:** Only one version of a skill can be active at a time for each table. If you create and activate a copy of the skill, any previously activated version of the skill is deactivated. The copied skill can be activated with the parent skill.
+        **Note:** Only one version of a skill can be active at a time for each table. If you create and activate a copy of the skill, any previously activated version of the skill is deactivated.
 
         You can choose to make a copy of the skill before activating it.
 
@@ -129,7 +129,7 @@ Description of the base input field value.
 
     Review and test the default prompt provided. The prompt is fixed and can't be customized directly within this step or from the AI Admin Hub screen.
 
-    To customize or create prompts, select **Edit prompt in AI Skill Kit**. This will redirect you to the AI Skill Kit, where you can manage prompt configurations for the skill. For more info, see [AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skill-kit-landing.md)
+    To customize or create prompts, select **Edit prompt in AI Skill Kit**. This will redirect you to the AI Skill Kit, where you can manage prompt configurations for the skill. For more info, see [AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skill-kit-landing.md).
 
     1.  For each input template state \(New, Work in progress, or Resolved\), select the prompt to include in the generated summary.
 

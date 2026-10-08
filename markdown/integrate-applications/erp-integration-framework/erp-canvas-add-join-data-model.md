@@ -8,9 +8,9 @@ product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 3
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, join, table, read, operation]
-breadcrumb: [ERP models, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [ERP model operations, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Add joins between ERP tables
@@ -99,6 +99,4 @@ After you're done creating table joins, you can specify where the returned ERP d
 
 -   [Specifying where ERP system data is saved](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erpc-call-response-data.md)
 -   [Building flows to read or update the ERP system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-build-flow-operation.md)
-
-**Parent Topic:**[Building and managing models to work with ERP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/work-with-erp-data-models.md)
 

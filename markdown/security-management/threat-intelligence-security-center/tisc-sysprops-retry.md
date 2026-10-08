@@ -9,6 +9,7 @@ classification: threat-intelligence-security-center
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
+keywords: [webhook system properties, webhook retry count, webhook retry interval, event batch size]
 breadcrumb: [Working with Webhooks, Administer, Threat Intelligence Security Center, Security Operations]
 ---
 

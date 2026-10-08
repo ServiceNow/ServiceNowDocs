@@ -8,8 +8,8 @@ product: AI Risk Management
 classification: ai-risk-management
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 1
-breadcrumb: [AI Risk and Compliance, Governance, Risk, and Compliance]
+reading_time_minutes: 2
+breadcrumb: [Configure, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
 
 # Configure AI Risk and Compliance Workspace
@@ -63,5 +63,5 @@ To create new workspace experiences or pages from scratch, see [Create a Configu
 
 [Set up AI Risk and Compliance properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/configure-airc-properties.md)
 
-[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/configuring-ai-risk-and-compliance.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/configuring-ai-risk-and-compliance.md)
+[Configuring AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/configuring-ai-risk-and-compliance.md)
 

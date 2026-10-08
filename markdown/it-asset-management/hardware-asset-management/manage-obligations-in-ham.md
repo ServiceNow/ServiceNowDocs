@@ -79,6 +79,8 @@ Create an obligation record for signed contracts in the Hardware Asset Workspace
 
 [Donate assets to charity organizations]()
 
+[Calculate the active lifecycle phase for a model]()
+
 [Manage asset bundles from your inventory]()
 
 [Manage contract repository agentic workflow in the Hardware Asset Workspace]()

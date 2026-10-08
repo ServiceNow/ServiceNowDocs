@@ -9,6 +9,7 @@ classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 5
+keywords: [define threat actor, malicious intent, STIX threat actor]
 breadcrumb: [Threat Actor, Threat Entities, TISC Library Repository, Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
 ---
 

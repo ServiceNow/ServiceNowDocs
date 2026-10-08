@@ -30,15 +30,13 @@ Role required: service\_mapping\_admin
 
 The AI Agents are inactive by default. You can activate one or both AI Agents. After activation, the agents run automatically in the background without further input. You can deactivate an agent at any time.
 
-**Note:** If the ITOM AI Agents for Service Mapping application is not installed, the **Support your team with an AI Agent** section does not appear on the home page.
+**Note:** If the ITOM AI Agents for Service Mapping application is not installed, the **Support your team with an AI Agent** section does not appear on the home page. The Business App Mapping AI Agent is available through the Feature Preview Program. For more information, see [Feature Preview Program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/feature-preview-program.md).
 
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Service Mapping**.
 
 2.  On the Service Mapping home page, locate the **Support your team with an AI Agent** section and expand the section.
-
-    The section displays two cards: **Service Mapping AI Agent** and **Business App Mapping AI Agent**. Each card shows a description and an **Activate** button.
 
 3.  On the card for the AI Agent you want to activate, select **Activate**.
 

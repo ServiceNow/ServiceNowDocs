@@ -40,15 +40,15 @@ You can view skills for all users grouped by assignment group and the overall sk
 
 4.  Add a skill or skill level.
 
-<table id="choicetable_ufk_1hx_nlb"><thead><tr><th align="left" id="d44237e123">
+<table id="choicetable_ufk_1hx_nlb"><thead><tr><th align="left" id="d44399e123">
 
 To
 
-</th><th align="left" id="d44237e126">
+</th><th align="left" id="d44399e126">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d44237e132">
+</th></tr></thead><tbody><tr><td id="d44399e132">
 
 **Add a skill**
 
@@ -59,7 +59,7 @@ Do this
 3.  Click **OK**.
 The skill gets automatically added to the agent.
 
-</td></tr><tr><td id="d44237e162">
+</td></tr><tr><td id="d44399e162">
 
 **Update a skill level**
 

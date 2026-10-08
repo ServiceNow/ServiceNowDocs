@@ -34,7 +34,7 @@ Chat summarizations are generated when:
 
 ## Procedure
 
-1.  Navigate to **Admin &gt; AI Admin Hub &gt; AI Skills**.
+1.  Navigate to **All &gt; AI Admin Hub &gt; AI Skills**.
 
 2.  Select the **Customer** workflow, and **CSM** as the product.
 
@@ -55,9 +55,9 @@ Chat summarizations are generated when:
 
     You can also toggle the bulleted list property to display the chat summary as an unordered list.
 
-5.  Select **Choose Input** and review the portal and channel selections that determines where data is pulled from.
+5.  Select **Choose Input** and review the portal and channel selections that determine where data is pulled from.
 
-    **Note:** You cannot modify or deselect the default product portal data source. Additionally, portals that are already in use by other products cannot be selected.
+    **Note:** You can't modify or deselect the default product portal data source. Additionally, portals that are already in use by other products can't be selected.
 
 <table id="id_xlz_fhc_4fc"><thead><tr><th>
 
@@ -74,7 +74,7 @@ Input fields
 </td><td>
 
 -   CSM \(Default portal for CSM\)
--   CSP \(Default portal for CSM\)
+-   CSP \(Default portal for CSP\)
 -   AIS\_ADMIN\_TOOLS
 -   APM
 -   APM\_PLANNER
@@ -166,7 +166,7 @@ Input fields
 
         **Note:** In the **Select Display** step, you can only choose roles that were added in the **Define Access** step. If you add a role in **Define Access**, you still must manually select it in **Select Display** to make it active.
 
-8.  Select **Display** to determine where the resolution notes appear.
+8.  Select **Display** to determine where the chat summary appears.
 
     -   Select **In-product desktop** to display AI skills on forms and workspaces.
     -   Select **panel** to display AI skills in the ServiceNow Otto panel.

@@ -9,7 +9,7 @@ classification: grc-common-functions
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Explore, Now Assist, Common GRC features, Governance, Risk, and Compliance]
+breadcrumb: [Explore, ServiceNow Otto for Integrated Risk Management \(IRM\), Common GRC features, Governance, Risk, and Compliance]
 ---
 
 # Issue Summarization skill

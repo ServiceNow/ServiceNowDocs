@@ -9,7 +9,7 @@ classification: grc-compliance-management-workspace
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Manage control indicators using the Compliance Workspace, Use, GRC Compliance workspace, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Manage control indicators using the Compliance Workspace, Use, GRC Compliance workspace, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Create a GRC indicator template using the Compliance Workspace
@@ -32,11 +32,15 @@ Role required:
     -   **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace** &gt; **Indicators** &gt; **Indicator Templates**.
     -   **Risk** &gt; **Indicators** &gt; **Indicator Templates**.
     -   **Audit** &gt; **Indicators** &gt; **Indicator Templates**.
-2.  Select the **Create** list and click **Indicator**.
+2.  Navigate to **Workspaces** &gt; **Compliance Workspace**
 
-3.  Select **New**.
+3.  Select the List icon on the sidebar.
 
-4.  On the form, fill in the fields.
+4.  From **Control monitoring** list, navigate to **Indicator templates**.
+
+5.  Select **New**.
+
+6.  On the form, fill in the fields.
 
 <table id="table_ynl_yjz_dv"><thead><tr><th>
 
@@ -68,7 +72,7 @@ Category
 
 </td><td>
 
-Category for which you’re creating an indicator template. For example, select **Risk Indicator Template** to create a risk indicator template.
+Category for which you’re creating an indicator template. For example, select **Control Indicator Template** to create a control indicator template.
 
 </td></tr><tr><td>
 
@@ -88,7 +92,7 @@ Type
 
 </td><td>
 
-Method used to determine the type of indicator template. The choices are as follows:-   **Manual**: Manual indicators are used for data that can’t be retrieved from a ServiceNow instance because it comes from an external system, such as customer data from a third-party sales system.
+Method used to determine the type of indicator template. The choices are as follows:-   **Manual**: Manual indicators are used for data that can’t be retrieved from a ServiceNow instance. The data comes from an external system, such as customer data from a third-party sales system.
 -   **Basic**: Basic indicators are automated indicators based on an indicator source. The indicator source specifies a table and a frequency at which the scores from this table are saved.
 -   **Script**: Scripted indicators use a custom script to collect the data.
 
@@ -148,11 +152,11 @@ Supporting Data
 
 </td></tr><tr><td>
 
-Collect supporting data
+Specify supporting data
 
 </td><td>
 
-Option to enable collecting supporting data or evidence every time the indicator runs.
+Option to enable collecting supporting data or evidence every time the indicator runs.This option appears after the indicator is saved.
 
 </td></tr><tr><td>
 
@@ -188,7 +192,7 @@ Criteria
 
 </td><td>
 
-Criteria to filter the data from the source table.
+Use **Set Conditions** to create criteria to filter the data from the source table.
 
 </td></tr><tr><td>
 
@@ -220,7 +224,7 @@ Additional criteria
 
 </td><td>
 
-More criteria to filter the data to calculate the target value. This section only appears when **Percentage** is selected from the **Target type** field.
+Use **Set Conditions** to add additional criteria.This section only appears when **Percentage** is selected from the **Target type** field.
 
 </td></tr><tr class="sub-head"><td class="sub-head" colspan="2">
 
@@ -263,12 +267,12 @@ Next run date
 Next run time to collect indicator results of all downstream indicators for this indicator template.
 
 </td></tr></tbody>
-</table>5.  When you have completed these entries, you can also view information on the following related lists:
+</table>7.  When you have completed these entries, you can also view information on the following related lists:
 
     -   Control Objectives/Risk Statements
     -   Content References
-    **Note:** The **Control Objectives/Risk Statements** tab enables you to reuse the same template for multiple control objectives or risk statements, or both of them.
+    **Note:** The Control Objectives/Risk Statements tab enables you to reuse the same template for multiple control objectives or risk statements, or both of them.
 
-6.  Select **Submit**.
+8.  Select **Submit**.
 
 

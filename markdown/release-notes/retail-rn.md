@@ -1,13 +1,13 @@
 ---
 title: Retail release notes
-description: The ServiceNow retail applications streamline frontline operations and customer experiences. See the following sections for release notes by version.Store associates and managers can view and act on the Strategic Portfolio Management project work behind a store opening, closing, renovation, or relocation without leaving Retail.
+description: The ServiceNow retail applications streamline frontline operations and customer experiences. See the following sections for release notes by version.Store associates and managers can view and act on the Strategic Portfolio Management project work behind a store opening, closing, renovation, or relocation without leaving Retail.Store staff can find their store and devices and raise, track, and update break-fix and store inquiry cases directly from their AI assistant with the new Retail MCP Server.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/retail-rn.html
 release: brazil
 topic_type: topic
-last_updated: "2026-09-15"
-reading_time_minutes: 3
-keywords: [SPM-RO Better Together, OCRR, App SPM Retail]
+last_updated: "2026-10-05"
+reading_time_minutes: 4
+keywords: [SPM-RO Better Together, OCRR, App SPM Retail, Retail MCP Server, MCP, Model Context Protocol, AI assistant, break-fix, store inquiry]
 breadcrumb: [Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
@@ -21,10 +21,11 @@ The ServiceNow® retail applications streamline frontline operations and custome
 -   Schedule and manage recurring tasks such as daily store opening procedures with parent cases for store-level tracking.
 -   Fulfillment of store case and task for regional managers and store teams through Retail mobile app.
 -   Let store associates and managers view and act on the Strategic Portfolio Management project work behind a store opening, closing, renovation, or relocation, without leaving the Retail application.
+-   Let store staff raise, track, and update break-fix and store inquiry cases from their AI assistant using the Retail MCP Server.
 
 See [Retail](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-operations-overview.md) for more information.
 
--   **[Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/c_CustomerServiceManagement.md)**
+-   ****
 
     The ServiceNow ® Customer Service Management \(CSM\) application provides the foundation for the Retail Core application. Leverage the functionality of CSM applications to provide support to customers as well as retail sites.
 
@@ -77,5 +78,18 @@ Store associates and managers can view and act on the Strategic Portfolio Manage
 -   **New plugins**
 
     App SPM Retail \(com.snc.spm\_retail\): Enables the SPM-RO Better Together experience. When this plugin is not active, the OCRR project and task surfaces do not appear in the Retail Service Portal or Retail Mobile, and there is no separate setting to turn the feature on or off.
+
+
+## October 2026 store release
+
+Store staff can find their store and devices and raise, track, and update break-fix and store inquiry cases directly from their AI assistant with the new Retail MCP Server.
+
+### What's new
+
+-   **[Retail MCP Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-mcp-server-overview.md)**
+
+    The Retail MCP Server exposes Retail Service Management capabilities as Model Context Protocol \(MCP\) tools, so store staff can work with their AI assistant instead of switching to the portal. The assistant finds the user's store and its devices, then raises, tracks, and updates break-fix and store inquiry cases on the user's behalf.
+
+    Each tool runs as the calling user and returns only records that the user can already read in the platform. MCP-compatible clients such as ServiceNow Otto, Now Assist, and Claude discover and connect to a single registered server, so future retail tools become available to the assistant without any new server setup. For setup steps, see [Set up the Retail MCP Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-mcp-server-set-up.md).
 
 

@@ -62,7 +62,7 @@ Access layout settings by selecting the gear icon in the layout subheader. The f
 
 -   **Highlight field changes**
 
-    Briefly highlights fields when their values are updated by rules or integrations. Enable this setting when concurrent users are expected or when fields update frequently. This setting also highlights pricing fields when their values change after a reprice.
+    Briefly highlights fields when their values are updated by rules or integrations. Enable this setting when concurrent users are expected or when fields update frequently.
 
 -   **Hide Header**
 
@@ -79,9 +79,11 @@ Layouts are organized using tiers, columnsets, and a line item grid.
 
 -   **Columnsets**
 
-    Columnsets organize fields and events horizontally within a tier. Multiple columnsets in the same tier arrange content vertically. Fields, images, text, and buttons can be added within a columnset.
+    Columnsets organize fields and events horizontally within a tier. Multiple columnsets in the same tier arrange content vertically. Fields, images, text, and buttons can be added within a columnset. Columnsets support two configuration modes:
 
-    Fields are added to the elements array of a columnset. After adding a field, additional field properties can be set on the Edit Field Info tab. Changing a field display type to "text area" enables users to resize the field .
+    -   Responsive — The default mode. Fields automatically reflow to fit available screen space. When the window is resized or space is limited, fields wrap to a new line rather than being cut off or squeezed. No column structure is defined; you simply add fields to the columnset.
+    -   Defined Columns — You specify a fixed number of columns \(1–5\), creating a structured, table-based layout. Content remains in its assigned columns and does not wrap on resize. This mode is recommended for structured layouts such as product pickers and e-commerce product grids. For detailed configuration instructions, see [Configure defined column sets in layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-tm-defined-column-sets.md).
+    Fields are added to the elements array of a columnset. After adding a field, additional field properties can be set on the Edit Field Info tab. Changing a field display type to "text area" enables users to resize the field.
 
     Events are represented as buttons in a columnset. To add an event, add a button to a columnset and enable the **Event Button** setting, then select the event from the Event picklist.
 
@@ -92,13 +94,11 @@ Layouts are organized using tiers, columnsets, and a line item grid.
     -   **Line item grid header** — buttons that appear above the grid at runtime.
     -   **Line item grid column** — fields that appear as columns in the grid.
     -   **Line level buttons** — buttons that appear on each individual line in the grid.
-    When pricing is enabled, you can surface pricing in the line item grid: add the **Reprice** event button to the line item grid header or line-level buttons so users can recalculate pricing, and add the line pricing-state field \(`txn.line.pricing.state`\) as a grid column to show which lines need repricing. For more information about the Reprice event, see [Transaction events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-tm-events.md).
-
     The following layout properties apply to the line item grid and must be defined in the main YAML editor. Each property is enabled when its value is `true`.
 
     -   `showLineNumbers` — enables user-friendly sequential line numbers for visible lines. Numbering resets when a filter or search is applied.
     -   `supportLongText` — enables a popover on a field when the user selects it.
-    -   `autoScrollIntoView` — automatically scrolls the view to keep the transaction body and line item grid in sync .
+    -   `autoScrollIntoView` — automatically scrolls the view to keep the transaction body and line item grid in sync.
 
 ## Line numbering options
 

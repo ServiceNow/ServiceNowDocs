@@ -22,7 +22,7 @@ For more information, see [Collect software data with either SCCM or Discovery](
 
 **Note:** To use Discovery, the [Request Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/t_ActivateTheDiscoveryPlugin.md) must be activated.
 
-Discovery uses patterns in the discovery process that can be created or customized. The base system contains a wide range of patterns that cover most industry standard network devices and applications. Basic Software Asset Management automatically leverages SQL Server, Exchange Server, and Oracle Database Server specifically, but other patterns can be customized for use by Basic Software Asset Management, if needed.
+Discovery uses patterns in the discovery process that can be created or customized. The base system contains a wide range of patterns that cover most industry standard network devices and applications. Basic Software Asset Management automatically leverages SQL Server, Exchange Server, and Oracle Database specifically, but other patterns can be customized for use by Basic Software Asset Management, if needed.
 
 Discovered software is stored in the Software Installations \[cmdb\_sam\_sw\_install\] table.
 

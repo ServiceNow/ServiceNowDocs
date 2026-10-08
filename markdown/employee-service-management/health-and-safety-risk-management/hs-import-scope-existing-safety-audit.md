@@ -55,5 +55,3 @@ After importing, review all copied fields before saving. In particular, update t
 
 **Parent Topic:**[Create and manage a safety audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/health-and-safety-risk-management/hs-create-manage-safety-audit-workspace.md)
 
-**Parent Topic:**[Create and manage a safety audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/health-and-safety-risk-management/hs-create-manage-safety-audit-workspace.md)
-

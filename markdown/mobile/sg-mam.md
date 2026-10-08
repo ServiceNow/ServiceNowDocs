@@ -1,22 +1,22 @@
 ---
 title: Mobile application management \(MAM\) integration
-description: Use Microsoft Intune or BlackBerry Dynamics to secure and protect sensitive information in mobile applications, even in cases where customers use their own mobile devices.
+description: Use Microsoft Intune to secure and protect sensitive information in mobile applications, even in cases where customers use their own mobile devices.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/sg-mam.html
 release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [Configuring the Mobile Platform, Mobile Platform]
 ---
 
 # Mobile application management \(MAM\) integration
 
-Use Microsoft Intune or BlackBerry Dynamics to secure and protect sensitive information in mobile applications, even in cases where customers use their own mobile devices.
+Use Microsoft Intune to secure and protect sensitive information in mobile applications, even in cases where customers use their own mobile devices.
 
-Use Microsoft Intune or BlackBerry Dynamics mobile management tools to control, secure, and enforce policies for ServiceNow mobile apps. These tools provide a central point of control for securing your data on mobile apps, even in scenarios where you are not the owner of the mobile device.
+Use Microsoft Intune to control, secure, and enforce policies for ServiceNow mobile apps. These tools provide a central point of control for securing your data on mobile apps, even in scenarios where you are not the owner of the mobile device.
 
-These apps are available in the Apple App store, Google Play, and BlackBerry marketplace stores. Get started right away using these publicly available apps, or request custom branded versions of these apps with your unique company identity.
+These apps are available in the Apple App store, and Google Play marketplace stores. Get started right away using these publicly available apps, or request custom branded versions of these apps with your unique company identity.
 
 <table id="table_ezv_ksx_qlb"><thead><tr><th>
 
@@ -37,18 +37,6 @@ Now Mobile
 </th></tr></thead><tbody><tr><td>
 
 Microsoft Intune
-
-</td><td>
-
-Available in Madrid and later releases.
-
-</td><td>
-
-Available in New York and later releases.
-
-</td></tr><tr><td>
-
-BlackBerry Dynamics
 
 </td><td>
 
@@ -88,24 +76,6 @@ Using these apps, you can set and manage policies for each app using your organi
 -   Attachment Control
 -   Remote wipe
 -   MSFT conditional access
-
-## BlackBerry Dynamics
-
-Manage your ServiceNow mobile apps using your organization's BlackBerry Dynamics mobility management tools.
-
-ServiceNow provides versions of the Mobile Agent and Now Mobile apps designed to integrate with your BlackBerry Dynamics mobility management tools. BlackBerry versions of ServiceNow are available in the BlackBerry marketplace store.
-
-\[Omitted image "bb-dynm-app-logos.png"\] Alt text: App logos for ServiceNow mobile apps for BlackBerry Dynamics.
-
-Using these apps, you can set and manage policies for each app using the BlackBerry Dynamics SDK. The following mobile application management features are supported:
-
-Your branded apps are integrated with the BlackBerry Dynamics SDK to help manage policy enforcement and employee access to your data. The following mobile application management features are supported:
-
--   App protection without device enrollment
--   Restrict copy/paste
--   Attachment Control
--   Remote wipe
--   Dynamic VPN
 
 ## Package and Bundle IDs
 

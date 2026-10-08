@@ -8,7 +8,7 @@ product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 5
+reading_time_minutes: 4
 breadcrumb: [Explore, Regulatory Change Management, Governance, Risk, and Compliance]
 ---
 
@@ -57,7 +57,7 @@ Utilize the Smart Assessment Engine to perform smart assessments on regulatory a
 
 [Regulatory Change Management application in the Compliance Workspace]()
 
-[Differences between regulatory event alert and source document alert]()
+[Regulatory event alerts vs. source document alerts]()
 
 [Next Experience Discuss and Chat Collaboration]()
 

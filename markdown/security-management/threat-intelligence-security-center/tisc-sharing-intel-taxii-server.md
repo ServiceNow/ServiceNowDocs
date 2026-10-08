@@ -9,6 +9,7 @@ classification: threat-intelligence-security-center
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 2
+keywords: [TAXII Server sharing, TAXII collections, TAXII feed, source and target instance]
 breadcrumb: [Share Threat Intelligence data between TISC instances, Administer, Threat Intelligence Security Center, Security Operations]
 ---
 

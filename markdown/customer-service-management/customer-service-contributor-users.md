@@ -1,18 +1,18 @@
 ---
 title: Contributor users
-description: With contributor user roles, you can engage both internal and external users to assist in resolving customer issues and requests.
+description: With contributor user roles, you can engage both internal and external users to report customer issues and requests.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/customer-service-contributor-users.html
 release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 10
-breadcrumb: [Configure Contributor Users, User management, Set up your environment, Configure, Customer Service Management]
+breadcrumb: [Configure contributor users, User management, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Contributor users
 
-With contributor user roles, you can engage both internal and external users to assist in resolving customer issues and requests.
+With contributor user roles, you can engage both internal and external users to report customer issues and requests.
 
 The contributor users feature provides unified customer support for internal and external customers. With this feature, you can serve internal and external customers through shared service teams and service organizations:
 
@@ -199,7 +199,7 @@ This user can:
     -   Read work notes
 
 </td></tr></tbody>
-</table>The contributor roles in the preceding table also have the capability to work on the case tasks. For more details on these capabilities, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-cases-case-tasks-overview.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-cases-case-tasks-overview.md).
+</table>The contributor roles in the preceding table also have the capability to access customer-visible case tasks. For more details on these capabilities, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-cases-case-tasks-overview.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-cases-case-tasks-overview.md).
 
 The contributor user roles are available with different CSM plugins. For a more detailed description of these user roles, see [Contributor user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-contributor-user-roles.md).
 
@@ -379,9 +379,9 @@ Displays filters depending on the relationships established for this user. -   *
 </td></tr></tbody>
 </table>## Access to case tasks
 
-Users with the case task agent role can view and access case tasks in lists, on dashboards, and on landing pages.
+Users with the case task agent role can view and access case tasks in lists, on dashboards, and on landing pages in the CRM workspace.
 
-Use widgets to display case tasks on dashboards and landing pages.
+Use widgets to display case tasks on dashboards and landing pages in the CRM workspace.
 
 <table id="table_rdw_j4j_3nb"><thead><tr><th>
 
@@ -450,6 +450,8 @@ Users with the case task agent role have access to these modules:-   **Case Task
     -   Households
     -   Household members
 
+**Note:** The case task agent role is a fulfiller role.
+
 </td></tr><tr><td>
 
 Case task viewer\[sn\_customerservice.case\_task\_viewer\]
@@ -488,7 +490,7 @@ Users with the case task agent role have read-only access to some of the custome
 
 [Contributor user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-contributor-user-roles.md)
 
-[Configure Contributor Users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/config-contributor-user.md)
+[Configure contributor users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/config-contributor-user.md)
 
 [Business Stakeholder for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/business-stakeholder-for-csm.md)
 

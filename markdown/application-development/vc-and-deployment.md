@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [vibe coding, AI-assisted development, deployment, workflow, collaborative design, AI-driven app development, review and testing, deployment approval, autonomous checks, Git-based source control, update sets, application packaging, scoped applications, CI/CD]
-breadcrumb: [Develop, Agentic development, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Develop, Agentic development, Build, AI Workflow Factory, Building applications]
 ---
 
 # Agentic development and deployment
@@ -33,6 +33,7 @@ Build Agent and Autonomous Engineer support the following deployment methods for
 
 -   Git-based source control integration: ServiceNow supports Git-based workflows for version control and CI/CD.
     -   You can push scoped apps to Git repositories, enabling branching, merging, and automated deployments. ServiceNow supports bring-your-own Git integration, such as GitHub or Bitbucket.
+    -   You must be on Brazil Patch 1 to use source control in ServiceNow Studio.
     -   For more information, see [Integrating source control with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-ide-family-release/integrating-source-control-servicenow-ide.md) and [Fluent source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-classic/fluent-source-control-sn-studio.md).
 -   Update sets and application packaging: Standard ServiceNow deployment uses System Update Sets to track changes.
     -   Advanced guidance includes packing update sets into scoped applications for easier transport and installation across instances, for example using Application Repository \(AppRepo\).

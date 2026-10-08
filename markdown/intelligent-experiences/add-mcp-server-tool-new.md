@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configuring Model Context Protocol Client, MCP Client, AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [MCP Client, AI Agent Studio, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Add an MCP server tool to an AI agent

@@ -1,13 +1,13 @@
 ---
 title: Unified Security Exposure Management \(USEM\) release notes
-description: The ServiceNow Unified Security Exposure Management \(USEM\) \(USEM\) application enhances exposure management with role-based views, enabling faster decision-making, efficient task handling, and streamlined approvals. See the following sections for release notes by release.This release rolls up SSVC decision values from CVEs to third-party entries, automatically re-evaluates remediation tasks when a finding's preferred solution changes, and adds support for deploying multiple patches in a single Microsoft SCCM or HCL BigFix deployment.
+description: The ServiceNow Unified Security Exposure Management \(USEM\) \(USEM\) application enhances exposure management with role-based views, enabling faster decision-making, efficient task handling, and streamlined approvals. See the following sections for release notes by release.This release adds a Change Request approval path to scheduled patch deployments, and separates risk modification from exception requests.This release rolls up SSVC decision values from CVEs to third-party entries, automatically re-evaluates remediation tasks when a finding's preferred solution changes, and adds support for deploying multiple patches in a single Microsoft SCCM or HCL BigFix deployment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/secops-sem-rn.html
 release: brazil
 topic_type: topic
 last_updated: "2026-09-10"
-reading_time_minutes: 4
-keywords: [usem release notes, Unified Security Exposure Management, USEM, SSVC, Patch Orchestration]
+reading_time_minutes: 6
+keywords: [usem release notes, Unified Security Exposure Management, USEM, Patch Orchestration, Risk modification, Exception Management, Unified Security Exposure Management, USEM, SSVC, Patch Orchestration]
 breadcrumb: [Security Operations release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
@@ -42,10 +42,38 @@ See [Unified Security Exposure Management \(USEM\)](https://raw.githubuserconten
 
 ## Brazil Early Availability
 
+This release adds a Change Request approval path to scheduled patch deployments, and separates risk modification from exception requests.
+
+### What's new
+
+-   **[Schedule patch deployments through Change Request approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/vr-ws-patch-schedule-change-request.md)**
+
+    Route patch deployments scheduled from remediation tasks through Change Request approval for Microsoft SCCM and HCL BigFix integrations. This lets you align patch deployment for critical vulnerabilities with your organization's change management approval process, and optionally deploy the patch automatically once the change is approved.
+
+-   **[Modify risk rating in bulk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/sem-modify-risk.md)**
+
+    Vulnerability Admins can now modify risk rating directly on individual or bulk findings across host, application, or container vulnerable item, or on a remediation task without an approval workflow. Remediation Owners can also modify risk ratings, with changes routed through a change approval process. Associating a compensating control with the change is optional for all roles.
+
+
+### What's changed
+
+-   **Risk rating options are no longer part of exception or deferral requests**
+
+    Changing a risk rating is no longer available from the Request Exception dialog, or from the Bulk Edit dialog by selecting **Mitigating Control in Place** as a deferral reason. Risk rating and compensating control fields have been removed from both. Use **Modify risk** or **Request risk modification**, according to your role, to change a risk rating instead for individual records or in bulk.
+
+
+## Brazil Early Availability
+
 This release rolls up SSVC decision values from CVEs to third-party entries, automatically re-evaluates remediation tasks when a finding's preferred solution changes, and adds support for deploying multiple patches in a single Microsoft SCCM or HCL BigFix deployment.
 
 ### What's new
 
+-   **[Enhancements to AI Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/ai-security-exposure-home.md)**
+    -   Expanded AI posture findings for cloud assets. The system now stores and displays cloud account ID, region, and resource tags for AI assets hosted in cloud environments, including managed assets and agents. Cloud asset references are maintained for each discovered AI asset, enabling visibility into hosting relationships.
+    -   Added remediation guidance and evidence for AI posture findings. Remediation steps for cloud configuration findings are now retrieved from Wiz and shown in a dedicated section within AI posture findings. Evidence provided by Wiz is also displayed in a scrollable section for review.
+    -   Delta time supported for AI security findings integration. The integration now supports delta start time for importing findings, aligning with other Wiz integrations and improving data synchronization.
+    -   Updated UI for AI posture findings. The posture rule description field is now split into a short description and a detailed description. The remediation section title is updated to "Remediation guidance," and an evidence section is added for findings. Metadata fields for managed AI assets are now displayed, including fallback to hosting asset or configuration item if direct values are unavailable.
+    -   Added evidence mapping for the Wiz AI Security Findings integration. Updated the import set dictionary, REST message function, and "WizAISecurityFindingsProcessor" script include to capture and map finding evidence data from Wiz.
 -   **[SSVC decision values roll up from CVEs to third-party entries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/nvd-ssvc-enrichment.md)**
 
     USEM rolls up the Exploitation, Automatable, and Technical Impact SSVC \(Stakeholder-Specific Vulnerability Categorization\) values from CVE entries to the corresponding third-party entry \(TPE\) records. Changes to these values automatically trigger a risk score recalculation when the TPE risk calculator uses one or more of them.
@@ -66,7 +94,11 @@ This release rolls up SSVC decision values from CVEs to third-party entries, aut
 
     AI Security Exposure Management integrates with Employee Center and third-party security tools to enable AI asset owners to remediate AI posture findings \(configuration issues\) directly through lightweight tasks.
 
--   **AI Service Graph Connector for Prisma AIRS**
+-   **[Cisco AI Defense integration for AI security exposure management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/exploring-cisco-ai-defense-integration.md)**
+
+    The Vulnerability Response Integration with Cisco AI Defense imports AI model vulnerabilities and AI model validation data \(results from automated red teaming or pentests\) into your ServiceNow AI Platform instance. You can use this data to detect security risks, drive remediation workflows, and verify compliance with AI security requirements.
+
+-   **[Palo Alto Prisma AIRS AI Service Graph Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/palo-alto-prisma-airs-ai-sgc.md)**
 
     This integration imports AI inventory data from Palo Alto Prisma AIRS and populates the CMDB in your ServiceNow AI Platform instance. In addition to inventory data, this integration imports key metrics related to AI model vulnerabilities, validation findings \(automated red teaming results\) that can be viewed in AI control tower.
 

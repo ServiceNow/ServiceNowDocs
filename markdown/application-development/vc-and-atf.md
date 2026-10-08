@@ -9,7 +9,7 @@ last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [vibe coding, AI-assisted development, automated testing, test generation, application development, quality assurance]
 audience: developer
-breadcrumb: [Develop, Agentic development, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Develop, Agentic development, Build, AI Workflow Factory, Building applications]
 ---
 
 # Testing agentically developed apps

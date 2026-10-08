@@ -1,6 +1,6 @@
 ---
 title: Scoring forms
-description: Learn about the fields of the scoring forms. Use this form while configuring scoring for an assessment.
+description: Field descriptions for the assessment, question, subsection, and section scoring forms. Use these forms when configuring scoring for an assessment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/smart-assessment-engine/scoring-forms.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Configure scoring for an assessment, Scoring assessments, Use templ
 
 # Scoring forms
 
-Learn about the fields of the scoring forms. Use this form while configuring scoring for an assessment.
+Field descriptions for the assessment, question, subsection, and section scoring forms. Use these forms when configuring scoring for an assessment.
 
 ## Assessment scoring form
 
@@ -103,7 +103,7 @@ Scoring when unanswered
 
 </td><td>
 
-If questions are unanswered, this setting determines how they’re scored.**Note:** By default, the option **Skip scoring if question is unanswered** is checked. If you cleared this option, the **Default score** field is displayed.
+Setting that determines how unanswered questions are scored.**Note:** By default, the option **Skip scoring if question is unanswered** is selected. If you cleared this option, the **Default score** field is displayed.
 
 </td></tr><tr><td>
 
@@ -167,7 +167,7 @@ Scoring when subsection is unanswered
 
 </td><td>
 
-If all questions within a subsection remain unanswered, this setting determines how they’re scored. **Note:** By default, the option **Skip scoring if all scored questions are unanswered and default values have not been set** is checked. If you cleared this option, the **Set default score for subsection** field is displayed.
+Setting that determines how a subsection is scored when all questions remain unanswered. **Note:** By default, the option **Skip scoring if all scored questions are unanswered and default values have not been set** is selected. If you cleared this option, the **Set default score for subsection** field is displayed.
 
 </td></tr><tr><td>
 
@@ -175,7 +175,7 @@ Set default score for subsection
 
 </td><td>
 
-Default score for the subsection, which is used in case the all questions within the subsection are unanswered.
+Default score for the subsection, which is used in case all questions within the subsection are unanswered.
 
 </td></tr></tbody>
 </table>## Section scoring form
@@ -209,7 +209,7 @@ Apply function
 
 </td><td>
 
-Function used to calculate the Section score. For example if you select sum, scores for questions are added and that is the final score.The following function can be used:
+Function used to calculate the section score. For example if you select sum, scores for questions are added and that is the final score.The following function can be used:
 
 -   **Average**
 
@@ -246,7 +246,7 @@ Scoring when section is unanswered
 
 </td><td>
 
-If all questions within a section remain unanswered, this setting determines how they’re scored.**Note:** By default, the option **Skip scoring if all scored questions are unanswered and default values have not been set** is checked. If you cleared this option, the **Set default score for section** field is displayed.
+Setting that determines how a section is scored when all questions remain unanswered.**Note:** By default, the option **Skip scoring if all scored questions are unanswered and default values have not been set** is checked. If you cleared this option, the **Set default score for section** field is displayed.
 
 </td></tr><tr><td>
 

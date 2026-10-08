@@ -1,6 +1,6 @@
 ---
 title: Extending AI with external systems and providers
-description: Connect to external LLM providers through the Generative AI Controller and integrate AI agents with external tools and services using the Model Context Protocol \(MCP\).
+description: Connect to large language model \(LLM\) providers through the Generative AI Controller and integrate AI agents with external tools and services using the Model Context Protocol \(MCP\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/platai-extending-ai-external-systems-providers.html
 release: brazil
@@ -13,9 +13,9 @@ breadcrumb: [Enable AI Experiences]
 
 # Extending AI with external systems and providers
 
-Connect to external LLM providers through the Generative AI Controller and integrate AI agents with external tools and services using the Model Context Protocol \(MCP\).
+Connect to large language model \(LLM\) providers through the Generative AI Controller and integrate AI agents with external tools and services using the Model Context Protocol \(MCP\).
 
-The ServiceNow AI Platform is designed to work with external systems and model providers, giving you flexibility to choose the LLM providers that meet your requirements and connect AI agents to tools and services beyond the platform.
+The ServiceNow AI Platform works with external systems and model providers, giving you flexibility to choose the LLM providers that meet your requirements and connect AI agents to tools and services beyond the platform.
 
 ## Generative AI Controller
 
@@ -25,7 +25,7 @@ To bring third-party LLM providers such as OpenAI, Google, and Amazon Bedrock in
 
 ## MCP Client
 
-The Model Context Protocol \(MCP\) is a standardized client-server protocol that enables AI applications to discover and interact seamlessly with external tools, data sources, and services. MCP Client manages communication between a host application, such as AI Agent Studio, and one or more MCP servers that expose specific capabilities. MCP tools enable you to connect your AI agent with a wide variety of external tools with minimal setup and add multiple MCP tools to an AI agent to perform a broader range of tasks.
+The Model Context Protocol \(MCP\) is a standardized client-server protocol that enables AI applications to discover and interact seamlessly with external tools, data sources, and services. MCP Client manages communication between a host application, such as AI Agent Studio, and one or more MCP servers that expose specific capabilities. MCP tools enable you to connect your AI agent with a wide variety of external tools and add multiple MCP tools to an AI agent to perform a broader range of tasks.
 
 To connect your AI agents to external tools, data sources, and services through the Model Context Protocol, see [Model Context Protocol Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mcp-client.md).
 

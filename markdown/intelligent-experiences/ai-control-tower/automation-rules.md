@@ -31,7 +31,5 @@ Once activated, rules are enforced according to the schedule defined in the Run 
 
 ## Reference
 
-For information on managed and unmanaged assets, see [Assets list- managed and unmanaged assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/assets-list-managing-and-unmanaging-assets.md)
-
-For information on creating rules, see 
+For information on managed and unmanaged assets, see [Assets list- managed and unmanaged assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/assets-list-managing-and-unmanaging-assets.md).
 

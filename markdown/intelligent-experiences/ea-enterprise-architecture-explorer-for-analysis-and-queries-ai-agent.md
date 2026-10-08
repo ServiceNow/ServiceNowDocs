@@ -1,29 +1,30 @@
 ---
 title: Enterprise Architecture explorer for analysis and queries AI agent
-description: This AI agent explores and analyzes Enterprise Architecture data across all 7 CSDM 5.0 domains. It answers questions about business capabilities, applications, services, infrastructure, integrations, value streams, AI systems, technology standards, and compliance using Knowledge Graph.
+description: The agent answers questions about Enterprise Architecture data based on Common Service Data Model \(CSDM\) 5.0 entities and their relationships. It covers business capabilities, business applications, services, infrastructure, integrations, value streams, AI systems, technology standards, and conformance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ea-enterprise-architecture-explorer-for-analysis-and-queries-ai-agent.html
 release: brazil
 topic_type: reference
-last_updated: "2026-06-01"
+last_updated: "2026-10-06"
 reading_time_minutes: 2
 breadcrumb: [Enterprise Architecture AI agents, Enterprise Architecture, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Enterprise Architecture explorer for analysis and queries AI agent
 
-This AI agent explores and analyzes Enterprise Architecture data across all 7 CSDM 5.0 domains. It answers questions about business capabilities, applications, services, infrastructure, integrations, value streams, AI systems, technology standards, and compliance using Knowledge Graph.
+The agent answers questions about Enterprise Architecture data based on Common Service Data Model \(CSDM\) 5.0 entities and their relationships. It covers business capabilities, business applications, services, infrastructure, integrations, value streams, AI systems, technology standards, and conformance.
 
 ## Workflow
 
-The agent answers questions about enterprise architecture data captured in the ServiceNow CSDM 5.0 model.
+The agent helps the user explore, analyze, and get answers about their Enterprise Architecture data.
 
-1.  Determine whether the question is about a single entity, a list, a count, or a relationship between entities, such as which applications support a capability.
-2.  Ask the user to clarify which specific field they mean if a question refers to an ambiguous field, such as "owner."
-3.  Query the appropriate underlying data source for the type of question, such as portfolio scores and ratings, relationships between entities, capability health, technology risk, or architecture artifacts.
+1.  Interpret the user's question and identify the architecture entities it refers to. Ask for clarification only when required information is missing, such as which owner field the user means.
+2.  Retrieve the requested data, such as application rationalization scores, capability health, technology risk, architectural artifacts, relationships between entities, and field-level details.
+3.  Trace upstream or downstream dependencies from a named item when the user asks about impact or dependencies.
 4.  For questions about missing relationships, such as applications with no assigned service, combine results from multiple queries to answer the question completely.
-5.  Present the answer directly, with entity names linked to their records, and suggest a few relevant follow-up questions based on the results.
-6.  Continue the conversation for follow-up questions, and only finish when the user explicitly confirms they are done.
+5.  Try alternative approaches when a query returns no results before reporting that no data was found.
+6.  Present the answer in plain text with links to the relevant records, summarizing large result sets and offering to show more.
+7.  Highlight notable patterns in the data, such as low scores or coverage gaps, and suggest two or three follow-up questions based on the results.
 
 <table><thead><tr><th>
 
@@ -116,9 +117,19 @@ Used in agentic workflows
 
 </td><td>
 
--   Enterprise Architecture Explorer Query Agent
--   Default VA Workflow
+Enterprise Architecture Explorer Query Agent
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Enterprise Architecture AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ea-ai-agents-overview.md)
+
+**Related topics**  
+
+
+[Exploring Enterprise Architecture query agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/ea-qna-overview.md)
+
+[Working with Enterprise Architecture query agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/ea-qna-use.md)
+
+[Enable Knowledge Graph system properties for the Enterprise Architecture query agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/set-kg-system-properties-ea-qna.md)
+
+[Exploring ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/exploring-now-assist-for-ea.md)
 

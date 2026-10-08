@@ -84,10 +84,12 @@ Using the Goals view in the Strategic Planning Workspace, you can do the followi
 
 For more information on how to define and manage your goals in Strategic Planning see [Managing portfolio plan goals in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/managing-goals-in-alignment-planner-workspace.md).
 
+-   **[Target types and achievement strategies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/target-types-overview.md)**  
+Target types in Strategic Planning Workspace define how goal achievement is measured: growth, reduction, staying within limits, or a yes/no milestone.
 -   **[Automatic status calculation for targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/automatic-status-calculation-targets-spw.md)**  
-Automatically determine status for targets consequently rolling up to goals based on achievement percentages. Status is calculated when you enter actual values and achievement of actuals compared to the planned target against predefined thresholds \(Green, Yellow, Red\).
+Target status is calculated automatically from achievement percentages when you enter actual values, and it rolls up to goals using Green, Yellow, and Red thresholds.
 -   **[Status calculation specifications and examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/target-status-calculation-examples-spw.md)**  
-Detailed specifications for status calculation across different target types, calculation formulas for targets with and without breakdowns, and worked examples demonstrating status assignment and rollup mechanics.
+Formulas and worked examples show how target status is calculated for each target type and how status rolls up from breakdowns to goals.
 
 **Parent Topic:**[Exploring Portfolio Planning in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/alignment-planner-workspace.md)
 

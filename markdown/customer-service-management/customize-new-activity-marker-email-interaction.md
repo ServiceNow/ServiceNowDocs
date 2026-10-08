@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Email Interaction, Configure Email, Configure omnichannel, Configure, Customer Service Management]
+breadcrumb: [Customize the email interaction experience, Configure the agent experience for email interactions, Email Interaction, Configure Email, Configure omnichannel, Configure, Customer Service Management]
 ---
 
 # Customize the New Activity marker for an email interaction

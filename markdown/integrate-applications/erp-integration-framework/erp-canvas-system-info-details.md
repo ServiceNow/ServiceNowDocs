@@ -7,7 +7,7 @@ release: brazil
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: reference
-last_updated: "2026-08-06"
+last_updated: "2026-09-21"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, system, information, software]
 breadcrumb: [Field descriptions, Reference, Zero Copy Connector for ERP, Workflow Data Fabric]
@@ -26,6 +26,4 @@ For process details, see [View Zero Copy Connector for ERP software information]
 |Database type|Variety of database, for example, column store or row store.|
 |CPU architecture|CPU design and instruction set, for example, x86\_64.|
 |Unicode|Option that indicates whether the system supports the international standard character set.|
-
-**Parent Topic:**[Zero Copy Connector for ERP field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-field-descriptions.md)
 

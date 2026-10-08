@@ -46,3 +46,5 @@ Role required: sp\_admin
 
 [Business Portal user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/r_BusinessPortalUserRoles.md)
 
+[Evaluate the performance of a portal page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/analyze-page-performance.md)
+

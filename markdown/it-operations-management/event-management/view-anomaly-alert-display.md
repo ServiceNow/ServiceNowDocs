@@ -32,15 +32,15 @@ Role required: evt\_mgmt\_operator, evt\_mgmt\_admin
 
 4.  Choose where to view the anomaly chart.
 
-<table id="choicetable_kfx_rzl_33c"><thead><tr><th align="left" id="d401381e111">
+<table id="choicetable_kfx_rzl_33c"><thead><tr><th align="left" id="d406920e111">
 
 Option
 
-</th><th align="left" id="d401381e114">
+</th><th align="left" id="d406920e114">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d401381e120">
+</th></tr></thead><tbody><tr><td id="d406920e120">
 
 **View the chart in the preview panel**
 
@@ -51,7 +51,7 @@ Procedure
 
 A chart with a visual representation of the anomaly appears.
 
-</td></tr><tr><td id="d401381e146">
+</td></tr><tr><td id="d406920e146">
 
 **View the chart in the alert record**
 

@@ -22,7 +22,7 @@ The ServiceNow® Intelligent approvals application automatically evaluates incom
 -   Translate an approval policy document into AI-generated approval rules.
 -   Use a approval policy document as the source of truth.
 
-See [Intelligent approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/intelligent-approvals.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 

@@ -40,5 +40,3 @@ Rather than spending days researching, they install the Quote to Cash content pa
 
 The developer clones the model into their own application scope, copies the process extension into Workflow Studio, and wires it to their application. The developer can do this work without needing to know the underlying SAP field names. What might have taken weeks of research is reduced to configuration work.
 
-**Parent Topic:**[Exploring Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/exploring-erp-integration.md)
-

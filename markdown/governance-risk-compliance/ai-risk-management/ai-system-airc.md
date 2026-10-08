@@ -8,7 +8,7 @@ product: AI Risk Management
 classification: ai-risk-management
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 2
+reading_time_minutes: 3
 keywords: [AI system, AI governance, aggregated risk score]
 breadcrumb: [AI assets, Explore, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
@@ -46,4 +46,13 @@ The Related AI assets section lists the following for an AI system:
 -   AI models: The AI models within this AI system.
 -   Datasets: The datasets used within this AI system.
 -   Related entities: The AI assets associated as entities for this AI system. Only AI assets can be linked as related entities.
+
+**Related topics**  
+
+
+[Request an AI use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/request-ai-system.md)
+
+[Request an AI model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/request-ai-model.md)
+
+[Request a dataset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/request-dataset.md)
 

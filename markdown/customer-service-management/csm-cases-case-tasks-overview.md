@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm
 release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 9
+reading_time_minutes: 10
 breadcrumb: [Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
@@ -287,17 +287,35 @@ Account contributor\[sn\_customerservice.account\_contributor\]
 
 </td><td>
 
-This user can: -   View and update case tasks and the fields on the case task record that they have access to.
--   View the **Parent case**, **Account**, **Contact** and **Consumer** fields on the case task record
+This user can perform the following on the customer-visible case tasks for the cases of the accounts they have access to: -   View and update case tasks and the fields on the case task record that they have access to.
+-   Close case tasks in portal.
 
 </td></tr><tr><td>
 
-Consumer contributor\[sn\_customerservice.consumer\_contributor\]
+Business Org Account Contributor\[sn\_bus\_loc.business\_org\_account\_contributor\]
 
 </td><td>
 
-This user can: -   View and update case tasks and the fields on the case task record that they have access to.
--   View the **Parent case**, **Account**, **Contact** and **Consumer** fields on the case task record
+This user can perform the following on the customer-visible case tasks for the cases of the accounts that they have access to at their service organization \(business location\): -   View and update case tasks and the fields on the case task record that they have access to.
+-   Close case tasks in Business Organization Support portal.
+
+</td></tr><tr><td>
+
+Consumer contributor \[sn\_customerservice.consumer\_contributor\]
+
+</td><td>
+
+This user can perform the following on the customer-visible case tasks for the cases of consumers that they have access to: -   View and update case tasks and the fields on the case task record that they have access to.
+-   Close case tasks in portal.
+
+</td></tr><tr><td>
+
+Business Org Consumer Contributor\[sn\_bus\_loc.business\_org\_consumer\_contributor\]
+
+</td><td>
+
+This user can perform the following on the customer-visible case tasks for the cases of consumers and households that they have access to at their service organization \(business location\):-   View and update case tasks and the fields on the case task record that they have access to.
+-   Close case tasks in Business Organization Support portal.
 
 </td></tr><tr><td>
 
@@ -305,8 +323,8 @@ Service organization contributor\[sn\_customerservice.service\_organization\_con
 
 </td><td>
 
-This user can: -   View and update case tasks and the fields on the case task record that they have access to.
--   View the **Parent case**, **Account**, **Contact** and **Consumer** fields on the case task record.
+This user can perform the following on the customer-visible case tasks for the cases they have access to at their service organization \(business location\): -   View and update case tasks and the fields on the case task record that they have access to.
+-   Close case tasks in Business Organization Support portal.
 
 </td></tr><tr><td>
 
@@ -314,8 +332,8 @@ Self contributor\[sn\_customerservice.self\_contributor\]
 
 </td><td>
 
-This user can: -   View and update case tasks and the fields on the case task record that they have access to.
--   View the **Parent case**, **Account**, **Contact** and **Consumer** fields on the case task record
+This user can perform the following on the customer-visible case tasks for the cases they have access to:-   View and update case tasks and the fields on the case task record that they have access to.
+-   Close case tasks.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 

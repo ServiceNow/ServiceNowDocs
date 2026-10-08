@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Use, Build Agent, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Use, Build Agent, Build, AI Workflow Factory, Building applications]
 ---
 
 # Edit an existing application using Build Agent default mode

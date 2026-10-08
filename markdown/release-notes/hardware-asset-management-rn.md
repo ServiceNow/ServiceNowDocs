@@ -35,6 +35,7 @@ See [Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/Ser
 -   **Upgrade information**
     -   After upgrading to the Brazil release, review and reassess any ACL roles you have customized or deleted to confirm they reflect your expected access settings.
     -   A new system property, **sn\_itam\_restrict\_asset\_read**, controls read access to the Asset \[alm\_asset\] table and its child tables for users with only the snc\_internal role. For more information, see [Asset and CI management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/c_ManagingAssets.md).
+    -   A new system property, **sn\_itam\_enable\_manufacturer\_reference\_filter**, controls the Manufacturer field reference filter on model records for the Product Model \[cmdb\_model\] table. When this property is set to **true**, only active manufacturers appear as options. Set this property to **false** to also include inactive manufacturers.
 
 ## Accessibility and localization
 

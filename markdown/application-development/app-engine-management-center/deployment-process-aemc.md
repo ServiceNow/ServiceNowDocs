@@ -9,7 +9,7 @@ classification: app-engine-management-center
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Explore, App Engine Management Center, Governing app development, Building applications]
+breadcrumb: [Explore, App Engine Management Center, Run, AI Workflow Factory, Building applications]
 ---
 
 # Deployment process in AEMC
@@ -76,4 +76,9 @@ To learn more about migrating to ReleaseOps, see:
 
 -   [Migrating App Engine pipelines to ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/migrating-ae-pipelines-to-releaseops-aemc.md)
 -   [Migration tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/migration-tasks-aemc.md)
+
+-   **[Pipelines and Deployments workflow version 24.1.2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/pipelines-deployments-workflow-vs2.md)**  
+As you manage requests for app deployment in App Engine Management Center \(AEMC\), use this workflow to understand how app deployments move through your pipelines in version 24.1.2, released in November 2023.
+
+**Parent Topic:**[Exploring the App Engine Management Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/exploring-aemc.md)
 

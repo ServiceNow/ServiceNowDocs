@@ -1,6 +1,6 @@
 ---
 title: Software Asset Management release notes
-description: The ServiceNow Software Asset Management application enables you to systematically track, evaluate, and manage the cost, utilization, compliance, and optimization for software and SaaS applications. See the following sections for release notes by version.The Brazil Early Availability release introduces streamlined onboarding through the Product Hub and Configuration Console, along with license management for SAP S/4HANA Cloud, Private Edition. It also delivers enhanced publisher integrations for Smartsheet, and Microsoft Entra ID, additional predefined license metrics, enhanced deduplication feature, and automated suite inference.
+description: The ServiceNow Software Asset Management application enables you to systematically track, evaluate, and manage the cost, utilization, compliance, and optimization for software and SaaS applications. See the following sections for release notes by version.The October 2026 release introduces enhanced support for Zoom Workplace offerings through SaaS integration.The Brazil Early Availability release introduces streamlined onboarding through the Product Hub and Configuration Console, along with license management for SAP S/4HANA Cloud, Private Edition. It also delivers enhanced publisher integrations for Smartsheet, and Microsoft Entra ID, additional predefined license metrics, enhanced deduplication feature, and automated suite inference.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/software-asset-management-rn.html
 release: brazil
@@ -44,6 +44,19 @@ See [Software Asset Management](https://raw.githubusercontent.com/ServiceNow/Ser
 
 
 **Parent Topic:**[Asset Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/it-asset-management-rn-landing.md)
+
+## October 2026
+
+The October 2026 release introduces enhanced support for Zoom Workplace offerings through SaaS integration.
+
+### What's new
+
+-   **[Manage licenses for Zoom Workplace offerings with the expanded Zoom SaaS integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/integrate-with-zoom.md)**
+
+    Use the enhanced Zoom integration to recognize Zoom Workplace offerings, suite structures, and sub-products such as Meetings, Webinars, Phone, and Chat for accurate entitlement reconciliation. Identify stale users based on last login activity rather than meeting hosting history to reduce false positives during reclamation.
+
+    **Note:** The enhanced Zoom Workplace offering is available starting from the Software Asset Management - SaaS License Management application version 18.1.1.
+
 
 ## Brazil Early Availability
 

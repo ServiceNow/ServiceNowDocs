@@ -66,6 +66,7 @@ Telecommunications applications that enable you to automate operations and manag
 -   [Data Center and Network Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/exploring-dcnam.md)
 -   [Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/telecom-network-inventory.md)
 -   [Telecommunications Service Operations Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/telecommunications-service-operations-management.md)
+-   [Sales Customer Relationship Management for Telecommunications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/sales-crm.md)
 -   [Field Service Management for Telecommunications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/field-service-management-for-telecommunications/field-service-management-telecommunications.md)
 -   [Strategic Portfolio Management for Telecommunications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/strategic-portfolio-management-for-telecom/spmt-overview.md)
 
@@ -120,6 +121,6 @@ Open Digital Architecture-aligned REST APIs available across TMT solutions — a
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/now-learning-get-certified?id=amap_detail&achievement_id=3436f09887952e9024e0bb39dabb3504&s=1&ssa=3).
 -   Find useful resources related to your role and explore general guidelines at [ServiceNow Impact](https://www.servicenow.com/success.html).
 -   Connect with Telecommunications, Media, and Technology users at the ServiceNow Community:
-    -   [Telecommunications](https://www.servicenow.com/community/telecom/ct-p/telecommunication) users.
-    -   [Technology Providers](https://www.servicenow.com/community/technology-provider/ct-p/technology).
+    -   [Telecommunications](https://www.servicenow.com/community/telecom/ct-p/telecommunication)
+    -   [Technology Providers](https://www.servicenow.com/community/technology-provider/ct-p/technology)
 

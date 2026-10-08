@@ -8,7 +8,7 @@ product: Change Management
 classification: change-management
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Create a Change model, Configure, Change Management, IT Service Management]
 ---
 
@@ -29,15 +29,15 @@ You must have a role with the following access with regard to the change model t
 
 1.  Access the Create a new change template form.
 
-<table id="choicetable_vrd_rrt_tsb"><thead><tr><th align="left" id="d442074e65">
+<table id="choicetable_vrd_rrt_tsb"><thead><tr><th align="left" id="d441215e68">
 
 Source
 
-</th><th align="left" id="d442074e68">
+</th><th align="left" id="d441215e71">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d442074e74">
+</th></tr></thead><tbody><tr><td id="d441215e77">
 
 **Change Model**
 
@@ -49,7 +49,7 @@ Description
 
 **Note:** You can propose a new template only if you have access to the change model.
 
-</td></tr><tr><td id="d442074e111">
+</td></tr><tr><td id="d441215e114">
 
 **Create a change request page**
 
@@ -69,7 +69,7 @@ Description
 6.  Select **Create a new template**.
 
 
-</td></tr><tr><td id="d442074e168">
+</td></tr><tr><td id="d441215e171">
 
 **Templates tab**
 
@@ -96,6 +96,8 @@ Description
     2.  Provide the field values to be populated by default when a change request record is created using the template.
 
 6.  Configure the template field policies to set fields as mandatory, optional, or read-only.
+
+    **Note:** The change model combines template field policies with state field policies. A field on a change request is mandatory or read-only if the template, the current state, or both require it. For more information, see [State field policies for change models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/state-field-policies-change-models.md).
 
     1.  In the **Template Field Policies** tab, select **New**.
 

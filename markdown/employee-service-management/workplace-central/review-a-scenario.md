@@ -8,7 +8,7 @@ product: Workplace Central
 classification: workplace-central
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 5
+reading_time_minutes: 3
 breadcrumb: [Working with Space Optimization, Use, Workplace Central, Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -66,32 +66,8 @@ You can review a scenario created by your colleague from the Space Optimization 
 
 **Parent Topic:**[Working with Space Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-central/working-with-space-optimization.md)
 
-**Parent Topic:**[Working with Space Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-central/working-with-space-optimization.md)
-
 **Related topics**  
 
-
-[Create a scenario]()
-
-[Viewing or editing a scenario]()
-
-[Publish a scenario]()
-
-[Send a scenario for approval]()
-
-[Change owner of a scenario]()
-
-[Deploy a scenario]()
-
-[View scenario change details]()
-
-[Create a copy of an existing scenario]()
-
-[View or edit space allocations of a building]()
-
-[Work on a space assist request]()
-
-[Map based space administration]()
 
 [Create a scenario]()
 

@@ -1,5 +1,5 @@
 ---
-title: Train and use the similarity solution to recommend citations on regulatory alerts
+title: Recommend citations on regulatory alerts
 description: Train and use the machine learning solution by activating the Governance, Risk, and Compliance Predictive Intelligence plugin. The solution enables the system to automatically recommend correct citations on regulatory alerts to associate.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/regulatory-change-management-service-portal/retrain-ml-reg-compliance-mapping.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Regulatory alerts, Regulatory Change Management Core UI, Use, Regulatory Change Management, Governance, Risk, and Compliance]
 ---
 
-# Train and use the similarity solution to recommend citations on regulatory alerts
+# Recommend citations on regulatory alerts
 
 Train and use the machine learning solution by activating the Governance, Risk, and Compliance Predictive Intelligence plugin. The solution enables the system to automatically recommend correct citations on regulatory alerts to associate.
 

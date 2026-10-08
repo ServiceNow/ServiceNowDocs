@@ -34,7 +34,7 @@ Upgrading an existing installation doesn't change current hybrid search settings
 
 1.  Navigate to **All** &gt; **AI Search Admin** &gt; **AI Search Admin Home**.
 
-2.  From **Applications**, select the search application.
+2.  From , select the search application.
 
 3.  Manage the hybrid search mode.
 

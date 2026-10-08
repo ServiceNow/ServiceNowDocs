@@ -1,6 +1,6 @@
 ---
 title: Properties installed with Financial Services Card Operations
-description: Customize the properties that are available with the Financial Services Card Operations application.
+description: Properties that control the behavior of the Financial Services Card Operations application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/financial-services-card-operations/properties-installed-card-ops.html
 release: brazil
@@ -8,13 +8,13 @@ product: Financial Services Card Operations
 classification: financial-services-card-operations
 topic_type: reference
 last_updated: "2026-09-10"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Reference, Card Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Properties installed with Financial Services Card Operations
 
-Customize the properties that are available with the Financial Services Card Operations application.
+Properties that control the behavior of the Financial Services Card Operations application.
 
 **Note:** To open the System Properties \[sys\_properties\] table, enter `sys_properties.list` in the navigation filter.
 
@@ -30,14 +30,47 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Enable Mastercard integration
+Enable Mastercard integrationsn\_bom\_credit\_card.is\_mastercard\_integration\_enabled
 
 </td><td>
 
 Enables or disables the integration of Mastercard's Mastercom APIs into the Dispute Management workflow.-   **Type**: true \| false
--   **Default value**: True
+-   **Default value**: False
 -   **Location**: **All** &gt; **Card Operations** &gt; **Administration** &gt; **Properties**
 -   Learn more: [Managing disputes integrated with Mastercard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/work-on-disputes-integrated-with-mc.md)
+
+</td></tr><tr><td>
+
+Enable Visa integrationsn\_bom\_credit\_card.is\_visa\_integration\_enabled
+
+</td><td>
+
+Enables or disables the integration of Visa's VROL APIs into the Dispute Management workflow.-   **Type**: true \| false
+-   **Default value**: False
+-   **Location**: **All** &gt; **Card Operations** &gt; **Administration** &gt; **Properties**
+-   Learn more: [Managing disputes integrated with Visa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/work-on-a-dispute-case-integrated-with-visa.md)
+
+</td></tr><tr><td>
+
+Dispute categories enabled for multiple transaction selection\[TBD: property name\]
+
+</td><td>
+
+Specifies the dispute categories for which multiple transactions can be selected in a single dispute case during intake. Applies to the agent workspace and the customer portal.-   **Type**: \[TBD\]
+-   **Default value**: \[TBD\]
+-   **Location**: **All** &gt; **Card Operations** &gt; **Administration** &gt; **Properties**
+-   Learn more: [About dispute intake](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/dispute-intake-overview.md)
+
+</td></tr><tr><td>
+
+Apply common questionnaire answers to disputed transactions\[TBD: property name\]
+
+</td><td>
+
+Enables or disables the automatic application of common questionnaire answers to each transaction in a dispute case that has multiple transactions. When disabled, answers must be provided for each transaction separately.-   **Type**: \[TBD\]
+-   **Default value**: \[TBD\]
+-   **Location**: **All** &gt; **Card Operations** &gt; **Administration** &gt; **Properties**
+-   Learn more: [About dispute intake](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/dispute-intake-overview.md)
 
 </td></tr><tr><td>
 

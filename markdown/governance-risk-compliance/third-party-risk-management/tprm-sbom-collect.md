@@ -46,15 +46,15 @@ The engagement-level external assessment is the mechanism through which SBOM inf
 
 1.  Turn on SBOM collection for the engagement.
 
-<table><thead><tr><th align="left" id="d254409e203">
+<table><thead><tr><th align="left" id="d255983e203">
 
 Option
 
-</th><th align="left" id="d254409e206">
+</th><th align="left" id="d255983e206">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d254409e212">
+</th></tr></thead><tbody><tr><td id="d255983e212">
 
 **New due diligence request**
 
@@ -65,7 +65,7 @@ Steps
 3.  Complete the request.
  For details, see [Request due diligence for a third-party engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-ws-request-dd-for-engagement.md).
 
-</td></tr><tr><td id="d254409e247">
+</td></tr><tr><td id="d255983e247">
 
 **Existing due diligence request**
 

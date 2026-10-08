@@ -22,7 +22,7 @@ You can view the page by navigating to **All** &gt; **Operational Sustainability
 
 The Analytics dashboard landing page opens as a blank canvas, allowing users to create new dashboards. Once a dashboard is created, users can add various elements such as data visualizations, bar charts, trend analyzes, and score reports to create custom sections and data visualizations. ESG data owners and metric managers can create, edit, and share this dashboard.
 
-\[Omitted image "analytics-dashboard.png"\] Alt text:
+\[Omitted image "analytics-dashboard.png"\] Alt text: Analytics dashboard homepage
 
 To learn more about creating and using Operational Sustainability Management dashboards, see:
 

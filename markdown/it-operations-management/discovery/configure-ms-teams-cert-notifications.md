@@ -19,7 +19,7 @@ Configure certificate notifications to be delivered to a Microsoft Teams channel
 
 ## Before you begin
 
-Verify that the Microsoft Teams spoke is installed and configured. For more information, see [Set up the](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/set-up-msteams.md).
+Verify that the Microsoft Teams spoke is installed and configured. For more information, see .
 
 Role required: pki\_admin or admin.
 

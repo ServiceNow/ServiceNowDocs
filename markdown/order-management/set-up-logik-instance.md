@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Logik.ai]
-breadcrumb: [Without guided setup, Set up CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Without guided setup, Set up CPQ, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Request a CPQ tenant
@@ -47,4 +47,6 @@ Role required: admin
 ## What to do next
 
 Connect the CPQ instance to your ServiceNow instance. See [Connect your instance with CPQ instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/connect-sn-instance-logik.md).
+
+If you are implementing ServiceNow Quote Experience, configure the required tenant settings on this instance. See [ServiceNow Quote Experience tenant settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-exp-tenant-settings.md).
 

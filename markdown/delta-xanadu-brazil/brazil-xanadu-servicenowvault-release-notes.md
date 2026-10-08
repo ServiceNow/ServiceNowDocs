@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-servicenowvault-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 10
+last_updated: "2026-10-08"
+reading_time_minutes: 13
 breadcrumb: [Products combined by family]
 ---
 
@@ -130,6 +130,11 @@ Zurich
 </td><td>
 
 -   **[ServiceNow Vault console dashboard](https://www.servicenow.com/docs/access?context=vault-dashboard&family=zurich&ft:locale=en-US)**
+    -   Manage and monitor cloud encryption metrics.
+    -   Get AI guidance using the Ask Now Assist panel.
+    -   Explore more detail for each metric.
+
+ -   **[ServiceNow Vault console dashboard](https://www.servicenow.com/docs/access?context=vault-dashboard&family=zurich&ft:locale=en-US)**
 
 Monitor your sensitive data in ServiceNow Vault with a comprehensive dashboard. The dashboard view shows metrics from each of the ServiceNow Vault tools and provides easy access to them.
 
@@ -155,13 +160,52 @@ Deploy the complete ServiceNow Vault offering on your instance with Vault Suite,
 Begin exporting security and audit logs from your instance with a preconfigured Log Export Service topic and curated log sources, designed for instances with a ServiceNow Vault subscription. Activate the default configuration in a single step from the Vault Console, with no manual setup required. Log Export Service version 3.5.0 or later must be installed on the instance.
 
 
+ -   **[Guided setup for custom applications](https://www.servicenow.com/docs/access?context=use-vault-guided-setup&family=australia&ft:locale=en-US)**
+
+Use Ask Now Assist to enhance your security posture autonomously by identifying, classifying, and protecting sensitive data in your custom applications.
+
+-   **[Securing custom apps with Vault agents agentic workflow](https://www.servicenow.com/docs/access?context=now-assist-vault-securing-custom-apps-agents&family=australia&ft:locale=en-US)**
+
+Propose data classifications and available protections for a custom application. When you install ServiceNow Otto for Vault, this agentic workflow is turned on by default.
+
+-   **[Access Observer configuration agentic workflow](https://www.servicenow.com/docs/access?context=now-assist-vault-access-observer-config&family=australia&ft:locale=en-US)**
+
+View, create, deactivate, and delete Access Observer settings for a particular field. The access observer configuration agentic workflow helps you monitor the people and processes that access data on your instance. When you install ServiceNow Otto for Vault, this agentic workflow is turned on by default.
+
+-   **[Summarize Access Observer logs agentic workflow](https://www.servicenow.com/docs/access?context=now-assist-vault-access-observer-logs&family=australia&ft:locale=en-US)**
+
+Review and summarize access logs for a specific field, identifying access sources, users, and their roles. For example, you can ask Now Assist to summarize access logs to view users who accessed a field, along with their roles and how they accessed the data. When you install ServiceNow Otto for Vault, this agentic workflow is turned on by default.
+
+-   **[Field encryption with Vault module agentic workflow](https://www.servicenow.com/docs/access?context=now-assist-vault-field-encryption-module&family=australia&ft:locale=en-US)**
+
+Encrypt specific fields and configure secure access to users with designated roles using the field encryption with vault module agentic workflow. When you install ServiceNow Otto for Vault, this agentic workflow is turned on by default.
+
+
+ -   **[Sensitive data monitoring in AI Insights](https://www.servicenow.com/docs/access?context=vault-tools&family=australia&ft:locale=en-US)**
+
+Identify unprotected sensitive data across your configured tables using the AI Insights section in the Vault console dashboard. View users entering sensitive data in unprotected columns and channels, grouped by sensitive data patterns. This information can further be used to prioritize protection efforts.
+
+-   **[Guided setup for custom applications](https://www.servicenow.com/docs/access?context=use-vault-guided-setup&family=australia&ft:locale=en-US)**
+
+Autoclassify and protect the occurrences of sensitive data within your custom applications using guided setup for Vault. This flow helps you to quickly start using Vault capabilities in your own applications.
+
+
 </td></tr><tr><td>
 
 Brazil
 
 </td><td>
 
--   **[AI-generated security posture summary](https://www.servicenow.com/docs/access?context=vault-insights&family=brazil&ft:locale=en-US)**
+-   **[Agentic classification for ServiceNow assets](https://www.servicenow.com/docs/access?context=now-assist-vault-classify-servicenow-assets&family=brazil&ft:locale=en-US)**
+
+Classify sensitive data across a large table estate without labeling each column by hand. Select a category of ServiceNow assets in the Data Catalog, and the agent recommends a data class for each column in scope, with the reason for each recommendation. Recommendations are based on schema metadata, such as table and column names and any existing classifications. Review the recommendations and then confirm to apply them. The classifications appear on the data assets after the next ServiceNow metadata collector run.
+
+-   **Vault coverage report email**
+
+Stay informed about how much of your sensitive data is protected with a Vault coverage report email. Active administrators receive it on the last Monday of each month. The email is sent only when Vault finds sensitive columns on your instance.
+
+
+ -   **[AI-generated security posture summary](https://www.servicenow.com/docs/access?context=vault-insights&family=brazil&ft:locale=en-US)**
 
 Reduce the time you spend interpreting individual charts by reading an AI-generated summary of your data security, with a recommended next step for each area. Insights appears at the top of the Vault console home page and reports on data discovery, classification, and data protection.
 
@@ -242,13 +286,23 @@ The `security_admin` role has been removed from the roles required to elevate to
 ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
 
 
+ -   **[Default model provider for AI assets](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=australia&ft:locale=en-US)**
+
+The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection. Azure OpenAI is the default model for all AI assets in ServiceNow Otto for Vault.
+
+
 </td></tr><tr><td>
 
 Brazil
 
 </td><td>
 
--   **[ServiceNow Otto name change](https://www.servicenow.com/docs/access?context=now-assist-vault-landing&family=brazil&ft:locale=en-US)**
+-   **Vault onboarding email design**
+
+The Vault onboarding email uses an updated template design.
+
+
+ -   **[ServiceNow Otto name change](https://www.servicenow.com/docs/access?context=now-assist-vault-landing&family=brazil&ft:locale=en-US)**
 
 ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
 
@@ -410,6 +464,8 @@ Zurich
 Install ServiceNow Vault by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
 
+**Important:** ServiceNow Vault is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Australia
@@ -421,6 +477,8 @@ Australia
 Install Vault Console, ServiceNow Otto for Vault and Vault Suite by requesting them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
 
 
+**Important:** ServiceNow Vault is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Brazil
@@ -431,6 +489,8 @@ Brazil
 
 Install Vault Console, Vault Suite and ServiceNow Otto for Vault by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=brazil&ft:locale=en-US). Vault console is available for free installation, but a ServiceNow Vault subscription is required to access its full features.
 
+
+**Note:** ServiceNow Vault is available in the ServiceNow Store. For details, see the following activation information.
 
 </td></tr></tbody>
 </table>## Additional requirements

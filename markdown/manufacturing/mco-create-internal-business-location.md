@@ -50,5 +50,5 @@ The manager of an internal business location can access all the cases for accoun
 **Related topics**  
 
 
-[bundle-csm.add-staff-members-biz-loc]
+[Add staff members to a business organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/add-staff-members-biz-loc.md)
 

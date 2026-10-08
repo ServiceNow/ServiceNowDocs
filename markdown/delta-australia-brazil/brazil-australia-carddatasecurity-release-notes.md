@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-australia-brazil/brazil-australia-carddatasecurity-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -90,7 +90,10 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **[View files in ZIP attachments](https://www.servicenow.com/docs/access?context=manage-attachments-in-card-data-security&family=brazil&ft:locale=en-US)**
+
+Preview and download individual files within a ZIP attachment directly in the Merchant tab of the Disputes workspace. Select a file from the file list to preview it, then download it if you need a copy.
+
 
 </td></tr></tbody>
 </table>## Changes

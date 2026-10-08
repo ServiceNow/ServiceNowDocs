@@ -14,7 +14,7 @@ breadcrumb: [Explore, Virtual Agent API, Conversational Interfaces]
 
 You can use the Virtual Agent API to integrate many of the same features that are available in Virtual Agent and Agent Chat into your chat environment. Feature support varies depending on your ServiceNow release and the store app version number of the Virtual Agent API.
 
-For information about the request and response templates for Virtual Agent API, as well as examples of common use cases, see Virtual Agent Bot Integration API.
+For information about the request and response templates for Virtual Agent API, as well as examples of common use cases, see [Virtual Agent Bot Integration API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/bot-api.md).
 
 ## Version 4.1.1
 

@@ -9,7 +9,7 @@ classification: contract-management-pro
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Manual internal review, Review contract documents, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Manual internal review, Review contract documents, Common contract request tasks, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Work on internal review task
@@ -24,15 +24,15 @@ Role required: sn\_cm\_core.contract\_reviewer
 
 1.  Open the review task from workspace that you are using.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d77573e55">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d77598e55">
 
 Method
 
-</th><th align="left" id="d77573e58">
+</th><th align="left" id="d77598e58">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d77573e64">
+</th></tr></thead><tbody><tr><td id="d77598e64">
 
 **Contract Workspace Review tasks listing**
 
@@ -45,7 +45,7 @@ Steps
 5.  Open the review task from the list
 
 
-</td></tr><tr><td id="d77573e114">
+</td></tr><tr><td id="d77598e114">
 
 **Contract Workspace landing page**
 
@@ -56,7 +56,7 @@ Steps
 3.  Open the review task from the list
 
 
-</td></tr><tr><td id="d77573e147">
+</td></tr><tr><td id="d77598e147">
 
 **Workspace used by your application**
 
@@ -67,7 +67,7 @@ Steps
 3.  Open the review task from the list.
 
 
-</td></tr><tr><td id="d77573e168">
+</td></tr><tr><td id="d77598e168">
 
 **Contract Request Reviews tab**
 
@@ -104,15 +104,15 @@ Steps
 
     The reviewer edits the document, suggest changes through comments, and approve or reject any redlines.
 
-<table id="choicetable_qqw_xjr_5bc"><thead><tr><th align="left" id="d77573e294">
+<table id="choicetable_qqw_xjr_5bc"><thead><tr><th align="left" id="d77598e294">
 
 Type of storage
 
-</th><th align="left" id="d77573e297">
+</th><th align="left" id="d77598e297">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d77573e303">
+</th></tr></thead><tbody><tr><td id="d77598e303">
 
 **Internal storage**
 
@@ -128,7 +128,7 @@ Steps
 5.  Select **Submit**.
 
 
-</td></tr><tr><td id="d77573e347">
+</td></tr><tr><td id="d77598e347">
 
 **External storage**
 
@@ -151,8 +151,6 @@ The attach file option is not available as the contract document is directly edi
 ## What to do next
 
 After the completing the review task, the fulfiller will have to create a revision of the finalzed contract document.
-
-**Parent Topic:**[Manual internal review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/contract-management-pro/cncore-expert-review.md)
 
 **Parent Topic:**[Manual internal review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/contract-management-pro/cncore-expert-review.md)
 

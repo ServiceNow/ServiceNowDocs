@@ -7,7 +7,7 @@ release: brazil
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, Customer Success Management]
+breadcrumb: [Tables, Reference, Customer Success Management]
 ---
 
 # Customer Discovery Hub tables
@@ -30,7 +30,7 @@ The customer business expectation table \(`sn_cust_disc_hb_business_expectation`
 -   **[Customer use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-cust-dh-tables-uc.md)**  
 The customer use case table \(`sn_cust_disc_hb_cust_use_case`\) is a per-customer record that documents how a specific customer plans to use a product to address a business need. It captures the customer's current process flow and specifies how their implementation aligns to one or more supported use cases from the product catalog.
 
-**Parent Topic:**[Customer Success Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-reference.md)
+**Parent Topic:**[Customer success management tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-success-tables.md)
 
 **Related topics**  
 

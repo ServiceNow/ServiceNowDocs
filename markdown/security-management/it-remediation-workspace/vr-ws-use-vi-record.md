@@ -37,15 +37,15 @@ Role required:
 
 3.  Refer to the following table for the UI actions you can perform on the remediation task record.
 
-<table id="choicetable_rrb_qt4_1qb"><thead><tr><th align="left" id="d265642e106">
+<table id="choicetable_rrb_qt4_1qb"><thead><tr><th align="left" id="d266844e106">
 
 Task
 
-</th><th align="left" id="d265642e109">
+</th><th align="left" id="d266844e109">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d265642e115">
+</th></tr></thead><tbody><tr><td id="d266844e115">
 
 **Click a Related Items link**
 
@@ -58,7 +58,7 @@ Description
 -   Remediation tasks - View the other remediation tasks associated with this vulnerable item.
  Opened records from the VIT remain displayed as tabs under the record tabs until you close them.
 
-</td></tr><tr><td id="d265642e145">
+</td></tr><tr><td id="d266844e145">
 
 **Click a link to open a record**
 
@@ -66,7 +66,7 @@ Description
 
 From list displayed on opened records from the related items links, view more details about the remediation tasks, detections, and impacted services.
 
-</td></tr><tr><td id="d265642e154">
+</td></tr><tr><td id="d266844e154">
 
 **Click a UI action**
 
@@ -80,7 +80,7 @@ From list displayed on opened records from the related items links, view more de
 -   Save - Save any changes and uppdate the record.
 
 
-</td></tr><tr><td id="d265642e185">
+</td></tr><tr><td id="d266844e185">
 
 **Add a work note or attach a file**
 
@@ -88,7 +88,7 @@ From list displayed on opened records from the related items links, view more de
 
 In the far right of the screen, click the **Activity** icon \(lightening icon\) and enter a work note. Click the icon to toggle the panel.You can also upload a file.
 
-</td></tr><tr><td id="d265642e201">
+</td></tr><tr><td id="d266844e201">
 
 **Set filters for a column on a list**
 
@@ -96,7 +96,7 @@ In the far right of the screen, click the **Activity** icon \(lightening icon\) 
 
 Select a column and expand the vertical dots menu to view options that further filter the data in the column. For example, with the Detections related item selected, you might prefer to sort the column so that only detections last found from a certain date are displayed.
 
-</td></tr><tr><td id="d265642e213">
+</td></tr><tr><td id="d266844e213">
 
 **Filter out items or match items from a row in a column**
 

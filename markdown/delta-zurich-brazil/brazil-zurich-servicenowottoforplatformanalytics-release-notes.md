@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-brazil/brazil-zurich-servicenowottoforplatformanalytics-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 4
+last_updated: "2026-10-08"
+reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
 
@@ -250,7 +250,16 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **Activation information**
+
+AI Data Explorer is available from the ServiceNow Store.
+
+Query Generation, Analytics Generation, and the dashboard and data visualization export skill are installed with Generative AI Controller, which is included as a dependency of all ServiceNow Otto applications.
+
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=brazil&ft:locale=en-US).
+
+After installation, activate the relevant skills. For more information, see the relevant Configure topics under [ServiceNow Otto for Platform Analytics](https://www.servicenow.com/docs/access?context=now-assist-platform-analytics&family=brazil&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -451,7 +460,10 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   Generate and export Platform Analytics artifacts from conversational interactions in the ServiceNow Otto® panel.
+-   Benefit from a single, smooth experience in asking questions across all ServiceNow Otto® for Platform Analytics skills, and other applications that incorporate Platform Analytics and AI, through a shared backend.
+
+ See [ServiceNow Otto for Platform Analytics](https://www.servicenow.com/docs/access?context=now-assist-platform-analytics&family=brazil&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/rn-combined-intro.md)

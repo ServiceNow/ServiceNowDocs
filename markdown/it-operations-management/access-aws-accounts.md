@@ -7,7 +7,7 @@ release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Setting up AWS service accounts, Set up a cloud service account, Access to cloud environments for ITOM products, IT Operations Management]
+breadcrumb: [Setup AWS service accounts, Set up a cloud service account, Access to cloud environments for ITOM products, IT Operations Management]
 ---
 
 # Access setup for AWS service accounts
@@ -99,7 +99,7 @@ Typically, you set up access to the AWS accounts in your organization using the 
     1.  If permanent credentials are defined for the member or management account in the Cloud Service Account \[cmdb\_ci\_cloud\_service\_account\] table, Discovery uses those credentials. The Cloud Service Accounts \[cmdb\_ci\_cloud\_service\_account\] table contains the information on the service account types, like management or member, and their credentials.
     2.  If no permanent credentials are defined for the account, Discovery checks the Cloud Service Account AWS Cross Assume Role Params \[cloud\_service\_account\_aws\_cross\_assume\_role\_params\] table for any special parameters associated with the account. If parameters exist in that table, Discovery uses the temporary credentials acquired from specifying a role and its parameters in the AWS Security Token Service API AssumeRole action.
 
-**Parent Topic:**[Setting up AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/setup-aws-service-accounts.md)
+**Parent Topic:**[Setup AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/setup-aws-service-accounts.md)
 
 **Related topics**  
 

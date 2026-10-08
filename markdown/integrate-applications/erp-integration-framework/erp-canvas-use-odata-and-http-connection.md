@@ -1,5 +1,5 @@
 ---
-title: Connecting Zero Copy Connector for ERP to SAP using OData
+title: Connecting Zero Copy Connector for ERP to ERP using OData
 description: Extract data securely from ERP OData v2 APIs for use in remote tables and extraction tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/erp-integration-framework/erp-canvas-use-odata-and-http-connection.html
@@ -8,12 +8,12 @@ product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: concept
 last_updated: "2026-08-05"
-reading_time_minutes: 3
+reading_time_minutes: 2
 keywords: [erp, canvas, erp canvas, model, integration, data hub, zero, copy, connector, sap, odata, connection]
-breadcrumb: [Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Connecting to SAP, Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
-# Connecting Zero Copy Connector for ERP to SAP using OData
+# Connecting Zero Copy Connector for ERP to ERP using OData
 
 Extract data securely from ERP OData v2 APIs for use in remote tables and extraction tables.
 
@@ -23,7 +23,7 @@ OData v2 doesn't use snapshot isolation, so you might experience some data consi
 
 ## Providing OData access to users
 
-You must have an SAP system enabled for OData connections.
+You must have an ERP system enabled for OData connections.
 
 To give users OData access, see the following instructions on the SAP help site: [Back-End Server: Assign OData Service Authorization to Users](https://help.sap.com/doc/saphelp_ssb/1.0/en-US/6f/0e415370107d77e10000000a441470/content.htm?no_cache=true).
 
@@ -187,17 +187,4 @@ For an ERP system, there are separate heartbeat indicators for RFC and HTTP. Whe
 ## More information
 
 For more information about using OData in Zero Copy Connector for ERP, see [Create an OData connection in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/create-an-odata-connection.md) and [OData capabilities supported by Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-data-hub-odata-query-capabilities.md).
-
--   **[OData capabilities supported by Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-data-hub-odata-query-capabilities.md)**  
-Zero Copy Connector for ERP \(Enterprise Resource Planning\) supports the $select, $filter, and $orderby OData v2 query capabilities.
--   **[Create an OData connection in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/create-an-odata-connection.md)**  
-Create an OData v2 connection to link to SAP so data can be extracted for use in remote tables and extraction tables in Zero Copy Connector for ERP \(Enterprise Resource Planning\).
--   **[Add an OData service manually in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-add-a-service-manually.md)**  
-When adding an entity to a model using OData, if the service you need isn't listed, add the service manually in Zero Copy Connector for ERP \(Enterprise Resource Planning\).
--   **[Obtaining data from SAP SuccessFactors using OData V2 APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/obtain-data-from-successfactors-using-odata-v2-apis.md)**  
-Access talent management data from SAP SuccessFactors using OData V2 APIs.
--   **[Configure OAuth authorization code flow for Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/configure-oauth-authorization-code-flow-to-use-in-zero-copy-connector-for-erp.md)**  
-Configure OAuth authorization code flow for SAP and use OAuth to authenticate and authorize users for OData endpoints.
-
-**Parent Topic:**[Configuring Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-integration-configuration-overview.md)
 

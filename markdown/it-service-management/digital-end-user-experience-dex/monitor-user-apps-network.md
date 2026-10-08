@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [monitor user applications, network monitoring, app and network monitoring, network experience, connection details, network latency]
-breadcrumb: [Monitor application performance, Manage, Digital End-User Experience, IT Service Management]
+breadcrumb: [Monitor application performance, Manage employee experience, Digital End-User Experience, IT Service Management]
 ---
 
 # Monitor your user apps network

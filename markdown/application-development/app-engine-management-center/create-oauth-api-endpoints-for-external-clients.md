@@ -9,7 +9,7 @@ classification: app-engine-management-center
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure OAuth credentials, Configure environment credentials, Configuration tasks, Configure Pipelines and Deployments, Configure, App Engine Management Center, Governing app development, Building applications]
+breadcrumb: [Configure OAuth credentials, Configure environment credentials, Configuration tasks, Configure Pipelines and Deployments, Configure, App Engine Management Center, Run, AI Workflow Factory, Building applications]
 ---
 
 # Create OAuth API endpoints for external clients
@@ -154,4 +154,6 @@ Redirect URLs
 ## What to do next
 
 Follow the steps in [Create third-party OAuth provider records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/create-third-party-oauth-provider-records.md) on the specified instances.
+
+**Parent Topic:**[Configure OAuth credentials for use in Pipelines and Deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/configure-oauth-credentials-pipelines-deployments.md)
 

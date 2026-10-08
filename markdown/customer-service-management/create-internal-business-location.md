@@ -1,6 +1,6 @@
 ---
-title: Create an internal business location
-description: Create an internal business location to enable users and consumers to create accounts, contacts, consumers, and households.
+title: Create an internal organization
+description: Create an internal organization \(formerly internal business location\) to enable users and consumers to create accounts, contacts, consumers, and households.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-internal-business-location.html
 release: brazil
@@ -10,9 +10,9 @@ reading_time_minutes: 2
 breadcrumb: [Create a business organization, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
 
-# Create an internal business location
+# Create an internal organization
 
-Create an internal business location to enable users and consumers to create accounts, contacts, consumers, and households.
+Create an internal organization \(formerly internal business location\) to enable users and consumers to create accounts, contacts, consumers, and households.
 
 ## Before you begin
 
@@ -20,15 +20,15 @@ Role required: admin
 
 ## About this task
 
-A business location has a manager. When you create an internal business location, you add a user to the **Manager** field on the Internal Business Location form. Users then added as internal business location managers are automatically assigned the sn\_customerservice.svc\_location\_manager\_contributor role.
+A business organization \(formerly business location\) has a manager. When you create an internal organization , you add a user to the **Manager** field on the Internal Organization form. Users then added as internal organization managers are automatically assigned the sn\_customerservice.svc\_location\_manager\_contributor role.
 
-However, to assign the sn\_customerservice.svc\_location\_manager role to the internal business location managers, the **sn\_bus\_loc.int\_bus\_loc.onboard\_location\_manager\_as\_contributor** system property must be set to **false**.
+However, to assign the sn\_customerservice.svc\_location\_manager role to the internal organization managers, the **sn\_bus\_loc.int\_bus\_loc.onboard\_location\_manager\_as\_contributor** system property must be set to **false**.
 
 **Note:** Only internal users can be added as managers for internal business locations.
 
-The manager of an internal business location can access all the cases for account, household, or consumer in the location hierarchy, including cases for child business locations. The manager can also:
+The manager of an internal organization can access all the cases for account, household, or consumer in the location hierarchy, including cases for child business organizations. The manager can also:
 
--   Add staff members to business locations in the location hierarchy.
+-   Add staff members to business organizations in the location hierarchy.
 -   Create account team or consumer team relationships with staff members from the location hierarchy.
 -   View customer information.
 -   Update cases created in the location hierarchy.
@@ -40,15 +40,15 @@ The manager of an internal business location can access all the cases for accoun
 
 1.  Navigate to **All** &gt; **Customer Service** &gt; **Service Organizations** &gt; **Internal Business Locations**.
 
-2.  Select **New** on the Internal Business Locations list.
+2.  Select **New** on the Internal Organizations list.
 
 3.  Fill in the fields on the [Internal Business Location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/data-model-business-location-form.md) form.
 
 4.  Select **Submit**.
 
-    The location is added to the Internal Business Locations list.
+    The location is added to the Internal Organizations list.
 
-    After creating an internal business location, add staff members to it. You can then create relationships with accounts, households, and consumers, and track customers served by that location.
+    After creating an internal organization, add staff members to it. You can then create relationships with accounts, households, and consumers, and track customers served by that location.
 
 
 ## What to do next
@@ -153,5 +153,5 @@ View details of install base items, including the Buyer organization member and 
 </table>**Related topics**  
 
 
-[Create an external business location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-external-business-location.md)
+[Create an external organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-external-business-location.md)
 

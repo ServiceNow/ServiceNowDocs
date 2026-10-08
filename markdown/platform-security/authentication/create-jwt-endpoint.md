@@ -113,7 +113,7 @@ Accessible from
 
 </td><td>
 
-Cross-scope access policy. For more information, see Application access settings.
+Cross-scope access policy. For more information, see [Application access settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/c_ApplicationAccessSettings.md).
 
 </td></tr><tr><td>
 

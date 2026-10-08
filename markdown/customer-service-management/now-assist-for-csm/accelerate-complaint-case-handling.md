@@ -26,6 +26,8 @@ To install the AI agents and skills for the Accelerate complaint case handling c
 
 For more information on configuring the Accelerate complaint case handling agentic workflow, see [Configure the Accelerate Complaint Case Handling agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/now-assist-for-csm/acc-complaint-case-handling-agentic-wkfl.md).
 
+The complaint case research agent is also embedded directly in the [Case Playbook for Complaints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-playbook-complaint-overview.md) as the **Research AI agent** activity, which is the first activity in the Research stage. For more information, see [Use the Research AI agent activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/now-assist-for-csm/acc-complaint-case-handling-research-activity.md).
+
 <table id="table_bst_k4t_mhc"><thead><tr><th>
 
 Agent

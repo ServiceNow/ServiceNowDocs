@@ -28,5 +28,3 @@ Select **approval task** to navigate to the portal to complete the approval task
 
 **Parent Topic:**[Approve a job requisition in the Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/recruitment-workspace/approve-a-job-req.md)
 
-**Parent Topic:**[Approve a job requisition in the Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/recruitment-workspace/approve-a-job-req.md)
-

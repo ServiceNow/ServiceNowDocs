@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-recommendedactionsforoperationaltechnologyservicemanagementotsm-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 6
+last_updated: "2026-10-08"
+reading_time_minutes: 8
 breadcrumb: [Products combined by family]
 ---
 
@@ -110,7 +110,17 @@ Zurich
 
 </td><td>
 
--   **[Apply Recommended Actions to your Operational Technology incidents](https://www.servicenow.com/docs/access?context=use-recommended-actions-ot-incidents&family=zurich&ft:locale=en-US)**
+-   **[Now LLM service deprecation](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=zurich&ft:locale=en-US)**
+
+The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
+
+
+ -   **[Contextualize an external document](https://www.servicenow.com/docs/access?context=use-ai-enhanced-ra-otsm&family=zurich&ft:locale=en-US)**
+
+Contextualize an external document to get an explanation of why the document is relevant to the selected OT incident.
+
+
+ -   **[Apply Recommended Actions to your Operational Technology incidents](https://www.servicenow.com/docs/access?context=use-recommended-actions-ot-incidents&family=zurich&ft:locale=en-US)**
 
 Use Recommended Actions to see relevant actions that can help resolve your OT incidents.
 
@@ -121,7 +131,17 @@ Australia
 
 </td><td>
 
--   **[Contextualize an external document](https://www.servicenow.com/docs/access?context=use-ai-enhanced-ra-otsm&family=australia&ft:locale=en-US)**
+-   **[Now LLM Service](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=australia&ft:locale=en-US) deprecation**
+
+Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. We're committed to bringing you the latest industry advancements while maintaining sovereignty-focused options, all hosted and governed by ServiceNow with the infrastructure and data protections you rely on today. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+
+
+ -   **[Now LLM service deprecation](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=australia&ft:locale=en-US)**
+
+The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
+
+
+ -   **[Contextualize an external document](https://www.servicenow.com/docs/access?context=use-ai-enhanced-ra-otsm&family=australia&ft:locale=en-US)**
 
 Contextualize an external document to get an explanation of why the document is relevant to the selected OT incident.
 
@@ -172,7 +192,17 @@ Zurich
 
 </td><td>
 
--   **[Recommended actions button](https://www.servicenow.com/docs/access?context=use-recommended-actions-ot-incidents&family=zurich&ft:locale=en-US)**
+-   **[Contextualize UI action](https://www.servicenow.com/docs/access?context=use-ai-enhanced-ra-otsm&family=zurich&ft:locale=en-US)**
+
+The **Contextualize** UI action was added to the Recommendations panel in the Industrial Workspace for external documents related to the selected OT incident.
+
+
+ -   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+
+ -   **[Recommended actions button](https://www.servicenow.com/docs/access?context=use-recommended-actions-ot-incidents&family=zurich&ft:locale=en-US)**
 
 The **Recommended actions** \[Omitted image "image.recommendations-icon"\] Alt text: button was added to the Industrial Workspace to access the Recommended Actions panel for an OT incident.
 
@@ -334,6 +364,8 @@ Yokohama
 Install Recommended Actions for OTSM by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 
+**Important:** Recommended Actions for OTSM is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Zurich
@@ -345,6 +377,8 @@ Zurich
 Install Recommended Actions for OTSM and AI Enhanced Recommended Actions for OTSM by requesting them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
 
+**Important:** Recommended Actions for OTSM and AI Enhanced Recommended Actions for OTSM are available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Australia
@@ -355,6 +389,8 @@ Australia
 
 Install Recommended Actions for OTSM and AI Enhanced Recommended Actions for OTSM by requesting them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
 
+
+**Important:** Recommended Actions for OTSM and AI Enhanced Recommended Actions for OTSM are available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 
@@ -617,7 +653,7 @@ Zurich
 
 </td><td>
 
-Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
 
  [Zurich Patch 11](https://www.servicenow.com/docs/access?context=zurich-patch-11&family=zurich&ft:locale=en-US)
 
@@ -641,7 +677,7 @@ Australia
 
 ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
 
- [\[Placeholder link text to key australia-patch-6\]](https://www.servicenow.com/docs/access?context=australia-patch-6&family=australia&ft:locale=en-US)
+ [Australia Patch 6](https://www.servicenow.com/docs/access?context=australia-patch-6&family=australia&ft:locale=en-US)
 
 -   The Now LLM Service is being prepared for future deprecation.
 

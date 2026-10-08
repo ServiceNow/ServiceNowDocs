@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/creating-user-stories-tasks-scan-engine.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 1
+last_updated: "2026-09-30"
+reading_time_minutes: 2
 breadcrumb: [Prevent technical debt with real-time code fixes, Platform Health, Using Impact, Impact]
 ---
 
@@ -38,16 +38,27 @@ Role required: admin
 
     A work item is created in the configured destination, either Jira, Azure DevOps, or ServiceNow Agile Development \(stories/tasks tables\). A reference link is stored on the finding record.
 
-5.  To create stories or tasks from multiple findings, in the Open Findings or Resolved Findings window, select the findings that you want to create a story or task for, and then select **Create Task**.
+5.  Create from multiple findings, in the Open Findings or Resolved Findings window, select the findings that you want to create a story or task for, and then select **Create Task**.
 
     Ensure that all the findings you select are appropriate for the same project. The system processes bulk requests asynchronously for large selections.
 
 
-If user story or task creation fails, validate the following:
+-   **If user story or task creation fails, validate the following:**
+    -   Your integration credentials are valid
+    -   The target project exists and is accessible
+    -   All required fields are configured.
+-   **The create task button is missing:**
 
--   Your integration credentials are valid
--   The target project exists and is accessible
--   All required fields are configured.
+    -   Assign the `sn_se.scan_engine_admin` role to users who need to assign tasks or create user stories in Scan Engine. Alternatively, update the WRITE ACL on `sn_se_finding` to include `sn_se.scan_engine_user` if broader write access is acceptable.
+    -   As an admin, configure User Story Integration in **All** &gt; **Impact** &gt; **Configuration** &gt; **Scan Engine** &gt; **Properties** by setting the required fields for your integration type \(e.g., `user_story_table` for ServiceNow, or the relevant fields for Jira/Azure\).
+    -   For ServiceNow integration, ensure a `sn_se_my_sn_instances` record exists with `environment=Production` and valid credentials; otherwise, task creation will silently fail.
+    Once these steps are completed, the **Resolution** tab fields will be available and the **Create Task** button will function as expected.
+
 
 You can view your created tasks through the **External References** related list on the finding record.
+
+**Related topics**  
+
+
+[User story integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/user-story-integration-properties.md)
 

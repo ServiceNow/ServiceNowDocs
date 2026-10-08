@@ -39,5 +39,3 @@ Create a course catalog, for more information see, [Create a course catalog](htt
 
 **Parent Topic:**[Create a course catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/learning-core/create-course-catalog.md)
 
-**Parent Topic:**[Create a course catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/learning-core/create-course-catalog.md)
-

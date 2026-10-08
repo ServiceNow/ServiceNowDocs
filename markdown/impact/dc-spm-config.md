@@ -1,18 +1,18 @@
 ---
-title: Configure Data Collection for SPM
-description: Configure Data Collection for SPM.
+title: Configure Data Collection for Strategic Portfolio Management
+description: Configure Data Collection for Strategic Portfolio Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/dc-spm-config.html
 release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Impact Value Management Data Collection Content Pack for SPM, Enable data collection for Value Management, Configuring Impact, Impact]
+breadcrumb: [Impact Value Management Data Collection Content Pack for Strategic Portfolio Management, Enable data collection for Value Management, Guided Setup, Configuring Impact, Impact]
 ---
 
-# Configure Data Collection for SPM
+# Configure Data Collection for Strategic Portfolio Management
 
-Configure Data Collection for SPM.
+Configure Data Collection for Strategic Portfolio Management.
 
 ## Before you begin
 
@@ -33,5 +33,5 @@ Role required: admin, pa\_power\_user, pa\_admin, or pa\_data\_collector
     \[Omitted image "dct\_config\_spm.png"\] Alt text: Example with Jul 2024 cell selected with an Indicator score value of 5,000.
 
 
-**Parent Topic:**[Impact Value Management Data Collection Content Pack for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/data-collection-spm.md)
+**Parent Topic:**[Impact Value Management Data Collection Content Pack for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/data-collection-spm.md)
 

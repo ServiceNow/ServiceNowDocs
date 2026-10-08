@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/create-servicenow-metadata-collector.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 2
+last_updated: "2026-03-12"
+reading_time_minutes: 4
 breadcrumb: [ServiceNow metadata collector, Configuring metadata collectors, Data Catalog, Workflow Data Fabric]
 ---
 
@@ -71,7 +71,52 @@ Use MID server
 
 </td><td>
 
-Enable the **Use MID server** toggle to connect to the source system through a MID Server. The system automatically selects an available MID Server.
+Option to connect to the source system through a MID Server. When selected, the **MID selection** options appear.
+
+</td></tr><tr><td>
+
+MID selection
+
+</td><td>
+
+MID Server routing option for the collector job. This field appears only when **Use MID server** is selected.
+
+ -   **Auto-Select MID Server** — The system selects an available MID Server at job execution time. Default selection.
+-   **Specific MID Server** — The collector job runs on the selected MID Server. If the MID Server is offline at job execution time, the job fails with an error identifying the MID Server by name.
+-   **Specific MID Cluster** — The collector job runs on any available MID Server within the selected cluster.
+
+
+</td></tr><tr><td>
+
+MID Server
+
+</td><td>
+
+MID Server to use for the collector job. This field appears only when **Specific MID Server** is selected. The selected MID Server is saved on the collector record and used for all subsequent collection runs until changed.
+
+</td></tr><tr><td>
+
+MID Cluster
+
+</td><td>
+
+MID cluster to use for the collector job. This field appears only when **Specific MID Cluster** is selected. The selected cluster is saved on the collector record; any available MID Server within the cluster may serve the job.
+
+</td></tr><tr><td>
+
+Capabilities
+
+</td><td>
+
+One or more capability labels that restrict auto-selection to MID Servers advertising those capabilities. This field appears only when **Auto-Select MID Server** is selected.
+
+</td></tr><tr><td>
+
+MID application
+
+</td><td>
+
+MID Server application to use for the collector job. This field appears only when **Auto-Select MID Server** is selected.
 
 </td></tr></tbody>
 </table>8.  Configure the authentication options.
@@ -103,6 +148,7 @@ You can perform any of the following tasks:
 -   Automate metadata collection by scheduling regular collector runs. See [Schedule metadata collector runs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/schedule-metadata-collector-runs.md).
 -   Monitor execution status and troubleshoot issues by viewing the runtime logs. See [View runtime logs for collector runs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/view-runtime-logs-for-collector-runs.md).
 -   Discover and evaluate the harvested data assets in the Data Catalog. See [Governing the Data Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/manage-data-catalog.md).
+-   After the first collector run, serviceNow Vault data classifications can be generated automatically for ServiceNow assets using the [Classifying ServiceNow assets with Vault agents agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/now-assist-vault-classify-servicenow-assets.md). Classifications produced by the agent are written to Vault's classification tables and are picked up by the metadata collector on its next run. Avoid running the agent and the collector at the same time to prevent a mismatch between source data and the catalog.
 
 **Parent Topic:**[ServiceNow metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/servicenow-metadata-collector.md)
 

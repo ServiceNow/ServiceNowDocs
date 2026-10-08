@@ -1,0 +1,111 @@
+---
+title: Summarize test for a technology product support case using ServiceNow Otto for TMT
+description: Generate the test run summary for a technology product support case record to understand the context of test outcomes and the root cause of the problem.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/proactive-service-exp-workflows/product-support-for-technology/now-assist-tmt-summarize-tech-support-case.html
+release: brazil
+product: Product Support for Technology
+classification: product-support-for-technology
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Use, Technology Product Support Case, Product Support for Technology]
+---
+
+# Summarize test for a technology product support case using ServiceNow Otto for TMT
+
+Generate the test run summary for a technology product support case record to understand the context of test outcomes and the root cause of the problem.
+
+## Before you begin
+
+Role required: sn\_customerservice\_agent and sn\_customerservice.consumer\_agent
+
+## About this task
+
+The test summarization skill provides you with a concise summary of the test executed for a technology product support case. The summary includes the test outcome, test interpretation, and other parameters configured for the specific test definition. You can use this skill to analyze the root cause of the problem.
+
+The test summarization skill is available in CRM Workspace and in Core UI.
+
+-   In CRM Workspace, you use the Test Run summary by ServiceNow Otto component to generate a summary. This component appears in the test results record.
+-   In Core UI, you select the **Summarize** button on the test result record to generate a summary.
+
+The test summarization skill checks the test results record to determine if there’s enough information available to create a summary. If there’s enough data, the Test summary component displays the **Summarize** button. If there isn’t enough data to generate a summary, the system displays a message in the Test summary component field.
+
+## Procedure
+
+1.  Navigate to **Workspaces** &gt; **CRM Workspace** &gt; **Lists** &gt; **Technology Product Support Case**.
+
+2.  Open a technology product support case.
+
+    If there are no test results available, run the tests to get test results.
+
+3.  In the **Troubleshoot** tab, select **Test results**.
+
+    \[Omitted image "test-result-hi-tech-cases.png"\] Alt text: Hi-tech test.
+
+4.  Identify the test result that you want to open and select the **View Details** icon.
+
+5.  In the Test Run summary by ServiceNow Otto component, select **Summarize**.
+
+    \[Omitted image "test-result-summarize-hi-tech-cases.png"\] Alt text: Summarize the hi-tech test.
+
+    The Test Run summary by ServiceNow Otto component appears in the test result record. The component is collapsed by default and expands to display the summary. For longer summaries that don't fit in the window, select **View more** and use the scroll bar to view the rest of the content.
+
+    **Note:** Generating and displaying the summary may take several seconds.
+
+6.  After you're finished summarizing the test for the technology product support case, manage the results.
+
+<table id="choicetable_ebh_5tm_vdc"><thead><tr><th align="left" id="d23663e195">
+
+Option
+
+</th><th align="left" id="d23663e198">
+
+Procedure
+
+</th></tr></thead><tbody><tr><td id="d23663e204">
+
+**Expand or collapse the summary**
+
+</td><td>
+
+-   See more summary details by selecting the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: Expand card icon.\).
+-   See fewer summary details by selecting the collapse card icon \(\[Omitted image "icon-collapse.png"\] Alt text: Collapse card icon.\).
+
+
+</td></tr><tr><td id="d23663e234">
+
+**Provide feedback for the summary**
+
+</td><td>
+
+-   If you think that the summary was helpful, select the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text: Helpful icon.\).
+-   If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).
+ This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
+
+</td></tr><tr><td id="d23663e267">
+
+**Copy the test summary**
+
+</td><td>
+
+Select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: Copy to clipboard icon.\) to use the case summary information for another purpose, such as pasting into an email.
+
+</td></tr><tr><td id="d23663e282">
+
+**Refresh the test summary**
+
+</td><td>
+
+Fetch the latest test run summary by selecting the **Refresh** icon.
+
+</td></tr></tbody>
+</table>7.  Set the test result to either fail or pass by selecting the **Set result**.
+
+8.  Save or cancel the results.
+
+    -   To set the results, select **Save**.
+    -   To go back to the test results list, select **Cancel**.
+
+**Parent Topic:**[Using Technology Product Support Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/product-support-for-technology/use-technology-product-support-case.md)
+

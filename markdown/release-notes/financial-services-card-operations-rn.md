@@ -1,13 +1,13 @@
 ---
 title: Financial Services Card Operations release notes
-description: The ServiceNow Financial Services Card Operations application streamlines, digitizes, and automates card operations from the front to back office in your financial institution, and enables dispute agents to expedite dispute resolutions. See the following sections for release notes by version.Add new dispute intake questions for Visa hotel and facilities-withdrawal disputes, and provide read-back visibility into compelling-evidence transaction details.
+description: The ServiceNow Financial Services Card Operations application streamlines, digitizes, and automates card operations from the front to back office in your financial institution, and enables dispute agents to expedite dispute resolutions. See the following sections for release notes by version.Use Dispute Summarization from the Now Assist context menu \(NACM\) component on the dispute record page. The AI Summary Card component is deprecated.Add new dispute intake questions for Visa hotel and facilities-withdrawal disputes, and provide read-back visibility into compelling-evidence transaction details.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/financial-services-card-operations-rn.html
 release: brazil
 topic_type: topic
 last_updated: "2026-09-10"
-reading_time_minutes: 2
-keywords: [card operations, financial services, credit card management, dispute resolution, card blocking, credit limit, debit card, ACH dispute, dispute cases, card opening, card closing, financial institution, dispute agents, Visa, dispute intake, consumer disputes, cardholder, compelling evidence, hotel disputes, price discrepancy, card operations, financial services]
+reading_time_minutes: 3
+keywords: [card operations, financial services, credit card management, dispute resolution, card blocking, credit limit, debit card, ACH dispute, dispute cases, card opening, card closing, financial institution, dispute agents, dispute summarization, NACM, AI Summary Card, dispute record page, Now Assist, card operations, financial services, Visa, dispute intake, consumer disputes, cardholder, compelling evidence, hotel disputes, price discrepancy, card operations, financial services]
 audience: [administrator, user]
 breadcrumb: [Financial Services Operations release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
@@ -33,6 +33,21 @@ See [Financial Services Card Operations](https://raw.githubusercontent.com/Servi
 
 
 **Parent Topic:**[Financial Services Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/financial-services-operations-rn-landing.md)
+
+## Version 15.3.3
+
+Use Dispute Summarization from the Now Assist context menu \(NACM\) component on the dispute record page. The AI Summary Card component is deprecated.
+
+### What's changed
+
+-   **Dispute Summarization component update**
+
+    The Now Assist context menu \(NACM\) component replaces the AI Summary Card component that generated Dispute Summarization on the dispute record page. Dispute agents can generate an AI-generated summary of a dispute from the dispute record page.
+
+    Dispute agents can share a generated summary to the claim's work notes from the summary component. Selecting **Share** opens an editable work notes dialog, where agents can edit the summary text before selecting **Save to work notes**.
+
+    Activate the Dispute Summarization skill configuration for the summary component to appear. If the skill configuration isn't active, the component doesn't display on the dispute record page.
+
 
 ## Version 15.2.1
 

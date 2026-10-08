@@ -7,8 +7,8 @@ release: brazil
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 5
+last_updated: "2026-09-22"
+reading_time_minutes: 6
 breadcrumb: [Reference, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
 
@@ -16,7 +16,7 @@ breadcrumb: [Reference, AI Risk and Compliance, Governance, Risk, and Compliance
 
 Email notifications are sent automatically when specific events occur across AI governance workflows, including AI Control Tower, AI Risk and Compliance, and inherited Risk Management processes.
 
-Email notifications are sent automatically when specific events occur across AI governance workflows. These notifications help ensure timely awareness, review, and action across governance, risk, and compliance activities.
+Email notifications help ensure timely awareness, review, and action across governance, risk, and compliance activities.
 
 These notifications are part of the base system. Availability and behavior may vary depending on configuration and inherited Risk Management workflows. To customize notification content or recipients, see [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreateANotification.md).
 
@@ -35,15 +35,15 @@ The following notifications are sent for events related to AI asset approval req
 
 ## AI Assessment / Risk Assessment
 
-The following notification is sent when AI Assessments or Risk Assessments are cancelled using a bulk action.
+The following notification is sent when AI Assessments or Risk Assessments are canceled using a bulk action.
 
 |Notification|Trigger condition|Recipients|
 |------------|-----------------|----------|
-|Bulk assessment cancellation|One or more AI Assessments or Risk Assessments are cancelled in bulk from the related list.|AI Analyst and Assigned To \(AI Assessments\); AI Analyst \(Risk Assessments — Assigned To notification handled by Risk Management\)|
+|Bulk assessment cancellation|One or more AI Assessments or Risk Assessments are canceled in bulk from the related list.|AI Analyst and Assigned To \(AI Assessments\); AI Analyst \(Risk Assessments — Assigned To notification handled by Risk Management\)|
 
 ## AI Asset
 
-The following notification is sent when an AI asset is retired or cancelled.
+The following notification is sent when an AI asset is retired or canceled.
 
 |Notification|Trigger condition|Recipients|
 |------------|-----------------|----------|
@@ -96,7 +96,7 @@ The following notifications are sent as Risk Assessments progress through their 
 
 |Notification|Trigger condition|Recipients|
 |------------|-----------------|----------|
-|Reassessment requested|State changes from Awaiting Approval back to an assessment state. \(Inherent, Control, or Residual Assessment\)|Assessor|
+|Reassessment requested|State changes from Awaiting Approval back to an assessment state \(Inherent, Control, or Residual Assessment\).|Assessor|
 |Final notice – due date passed|A scheduled job detects that the Risk Assessment due date has elapsed with no completion.|Assessor, Entity Owner|
 |Approver changed \(risk-based\)|Approver field is updated on a risk-based assessment.|Approver, Entity Owner|
 |Reassessment completed|Substate changes from Reassessment Requested to none.|Approver|
@@ -136,6 +136,20 @@ The following notifications are sent when approvals are requested for individual
 |------------|-----------------|----------|
 |Approver notified – bulk risk approval|An Approval record is created requesting sign-off on a Bulk Risk Assessment.|Approver|
 |Approver notified – risk assessment approval|An Approval record is created requesting sign-off on an individual Risk Assessment.|Approver|
+
+## AI Governance life cycle
+
+The following notification is sent when life cycle tasks on AI assets become overdue or stall.
+
+|Notification|Trigger condition|Recipients|
+|------------|-----------------|----------|
+|Life cycle Task Reminder|One or more life cycle tasks on an AI asset are overdue or have seen no progress or updates \(a Stalled Lifecycle Tasks condition\).|Assigned To, grouped by AI asset. Each reminder links directly to the asset's governance details.|
+
+The Life cycle Task Reminder notification is distinct from other notifications in this table because it is agent-generated, not triggered by a standard platform event or state change. This means the notification timing and cadence may follow a different pattern than the instant-trigger behavior typical of other life cycle notifications.
+
+Opening the notification directs recipients to the AI asset's governance details page in the AI Control Tower. From there, they can view the stalled task and resume completion.
+
+For information about AI Control Tower plugin dependencies and upgrade considerations, see [Enterprise Architecture for AICT plugin installation and upgrade considerations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-ea-common-upgrade-considerations.md) and [Components installed with AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-installed-with.md).
 
 **Parent Topic:**[AI Risk and Compliance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/ai-risk-and-compliance-reference.md)
 

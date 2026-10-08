@@ -19,7 +19,7 @@ Use the ITSM MCP Server to create incidents, check the status of your own incide
 
 Role required: authenticated user
 
-**Note:** An authenticated user is either a caller on an incident record or a requested-for user on the requested item record. These tools are scoped to tickets where you are the caller or requester.
+**Note:** An authenticated user is either a caller on an incident record or a requested for user on the requested item record. You can access only tickets where you're the caller or requester.
 
 ## About this task
 
@@ -39,14 +39,16 @@ For information on tools, see [ITSM MCP Server tools reference](https://raw.gith
 
     **Note:** The tools enforce ownership. You can access only tickets where you are the caller or requester.
 
-    -   **1. __requester.create\_incident__: Create an incident through a guided workflow that searches for self-service solutions, redirects to matching catalog items, and detects duplicate incidents before creating a ticket.**
+    -   **1. requester.create\_incident: Create an incident through a guided workflow that searches for self-service solutions, redirects to matching catalog items, and detects duplicate incidents before creating a ticket.**
+
+        **Note:** This tool uses the [Create incident AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/itsm-create-incident-ai-agent.md) as an MCP tool. To configure, see [Configure an AI agent as an MCP tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/configure-ai-agent-as-mcp-tool.md).
 
         Example prompts:
 
         -   "Create an incident. My laptop won't start."
         -   "I need to log an issue. My VPN keeps disconnecting."
         -   "File a ticket. I can't access my email."
-    -   **2. __requester.check\_status__: Check the status and details of your own incidents and requested items.**
+    -   **2. requester.check\_status: Check the status and details of your own incidents and requested items.**
 
         Example prompts:
 
@@ -54,7 +56,15 @@ For information on tools, see [ITSM MCP Server tools reference](https://raw.gith
         -   "Show me details for RITM0123456."
         -   "What is the status of my VPN ticket?"
         -   "Show me all my open requests."
-    -   **5. __task\_approval\_decision__: Approve or reject the caller's oldest pending approval on a request item.**
+    -   **3. request.modify: Add a customer-visible comment to your requested item.**
+
+        Example prompts: "Add a comment to RITM0123456: The issue persists after the fix."
+
+        **Important:**
+
+        -   Incident numbers are rejected. To add a comment to an incident, use incident.modify instead -- see [Manage incidents using the ITSM MCP Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/manage-incidents-itsm-mcp-server.md).
+        -   Comments are customer-visible only. Work notes aren't accessible to requesters. You can't add comments to closed or canceled tickets.
+    -   **4. task\_approval\_decision: Approve or reject the caller's oldest pending approval on a request item.**
 
         Example prompts:
 

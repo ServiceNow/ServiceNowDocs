@@ -7,7 +7,7 @@ release: brazil
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-09-28"
 reading_time_minutes: 9
 breadcrumb: [Administer, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -32,6 +32,7 @@ Language settings determine how AI Search separates the text of indexed content 
 |August 2025|Finnish|
 |December 2025|Polish|
 |June 2026|Arabic, Czech, Danish, Hebrew, Hungarian, Norwegian \(Bokmål\), Russian, Turkish|
+|September 2026|Finnish|
 
 ## Indexing behavior in supported languages
 
@@ -118,11 +119,11 @@ During indexing, AI Search identifies supported languages in Task table records 
 
 AI Search performs language-specific lemma normalization for terms in indexed content and search queries. Supported languages: Arabic, Brazilian Portuguese, Czech, Danish, Dutch, English, Finnish, French, French - Canada, German, Hebrew, Hungarian, Italian, Japanese, Korean, Norwegian \(Bokmål\), Polish, Portuguese, Russian, Simplified Chinese, Spanish, Swedish, Traditional Chinese, and Turkish.
 
-**Note:** For German, Danish, Hungarian, Korean, Norwegian \(Bokmål\), and Swedish, AI Search performs term decompounding in addition to lemma normalization. For Finnish, AI Search uses algorithmic stemming to identify lemmas.
+**Note:** For Danish, Finnish, German, Hungarian, Korean, Norwegian \(Bokmål\), and Swedish, AI Search performs term decompounding in addition to lemma normalization.
 
- AI Search performs Unicode normalization for all terms in indexed content and search queries.
+AI Search performs Unicode normalization for all terms in indexed content and search queries.
 
- For more information on normalization of lemmas and Unicode forms in indexed content and search queries, see [Lemma and Unicode normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/lemma-unicode-normalization-ais.md).
+For more information on normalization of lemmas and Unicode forms in indexed content and search queries, see [Lemma and Unicode normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/lemma-unicode-normalization-ais.md).
 
 </td></tr><tr><td>
 

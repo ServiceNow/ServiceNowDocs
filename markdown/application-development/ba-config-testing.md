@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configure, Build Agent, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Configure, Build Agent, Build, AI Workflow Factory, Building applications]
 ---
 
 # Configure auto test prompting and UI tests
@@ -20,6 +20,8 @@ Configure test settings to enable automatic test prompting and execution of UI t
 Role required: admin
 
 ## About this task
+
+**Note:** As of Brazil Patch 1, the Test Agent setting for Autonomous Engineer are enabled by default.
 
 For more information on UI tests, see [UI Test Script in Automated Test Framework \(ATF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/test-agent-ui-test-script-atf.md).
 

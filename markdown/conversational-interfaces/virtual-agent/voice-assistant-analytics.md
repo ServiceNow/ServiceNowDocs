@@ -37,7 +37,7 @@ The **Overview** tab shows high-level conversation volume, resolution performanc
 
 -   **Total voice conversations**
 
-    This area of the dashboard shows the total number of voice conversations in the selected date range. Only sessions where at least one intent was detected are included in this count. Sessions where no intent was detected are excluded. Select the chart view to see how conversation volume has changed over the selected date range. Use this metric to track growth in voice interactions and set benchmarks for assistant performance. Select **Related records** to view the underlying records.
+    This area of the dashboard shows the total number of voice conversations in the selected date range. Select the chart view to see how conversation volume has changed over the selected date range. Use this metric to track growth in voice interactions and set benchmarks for assistant performance. Select **Related records** to view the underlying records.
 
     \[Omitted image "aiv-total-voice-conversations.png"\] Alt text: Scorecard showing the total number of voice conversations in the selected date range, with a chart toggle to view conversation volume over time.
 
@@ -69,7 +69,7 @@ The **Overview** tab shows high-level conversation volume, resolution performanc
     -   **Immediate disconnects**: conversations that disconnected within the first 30 seconds.
     -   **Session expiration**: conversations that ended due to session timeout.
     -   **Ticket created**: conversations that resulted in a ticket created for follow-up. Only incidents and service requests are included.
-    \[Omitted image "image.aiv-additional-conversation-outcomes"\] Alt text: Table showing four conversation outcomes beyond resolution and live agent transfer, with counts, changes, and percentage of total conversations for each outcome type.
+    \[Omitted image "aiv-additional-conversation-outcomes.png"\] Alt text: Table showing four conversation outcomes beyond resolution and live agent transfer, with counts, changes, and percentage of total conversations for each outcome type.
 
 
 The **Conversation mechanics** widgets show how voice conversations unfold during the selected date range.

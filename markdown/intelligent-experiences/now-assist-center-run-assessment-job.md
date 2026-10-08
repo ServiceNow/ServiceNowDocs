@@ -1,19 +1,25 @@
 ---
-title: Run the AI readiness assessment job in AI Admin Center
+title: Run the AI readiness assessment job in AI Admin Center \(Next Experience UI\)
 description: Run the AI readiness assessment to analyze your instance and evaluate its readiness for AI adoption.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-center-run-assessment-job.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 2
+last_updated: "2026-10-02"
+reading_time_minutes: 3
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
 breadcrumb: [Increasing AI readiness, AI Admin Center, Getting started with AI, Enable AI Experiences]
 ---
 
-# Run the AI readiness assessment job in AI Admin Center
+# Run the AI readiness assessment job in AI Admin Center\(Next Experience UI\)
 
 Run the AI readiness assessment to analyze your instance and evaluate its readiness for AI adoption.
+
+**Important:** Lux is the new user experience for AI Admin Center. For more information on the Lux experience, see [AI Admin Center user experience \(Lux UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-admin-center-lux-user-experience.md).
+
+The Next Experience AI Admin Center workspace is being prepared for deprecation in the November store release and will no longer be supported. For more information on the Next Experience UI, see [AI Admin Center workspace \(Next Experience UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-center-workspace.md).
+
+In AI Admin Center version 6.1, the Next Experience and Lux user interfaces are both available.
 
 ## Before you begin
 
@@ -23,11 +29,11 @@ Role required: sn\_na\_center.nac\_admin
 
 Follow these steps to run the AI readiness assessment job. The job performs an analysis of your instance data and produces readiness assessments. The assessments enable you to identify configuration gaps, measure readiness over time, and accelerate the path to AI implementation.
 
-The AI readiness assessment is performed with the Now Assist Readiness Evaluation application. For more information, see [AI readiness assessments in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-center-readiness-evaluation.md).
+**Note:** This topic describes the AI Admin Center feature based on the Next Experience UI. If you're using the Lux user experience for AI Admin Center, see the Lux UI version of this topic.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Admin Center** or **Workspaces** &gt; **AI Admin Center**.
+1.  Navigate to **All** &gt; **AI Admin Center** &gt; **AI Admin Center \(Legacy\)**.
 
     The AI Admin Center opens to the home page.
 
@@ -72,12 +78,18 @@ The AI readiness assessment is performed with the Now Assist Readiness Evaluatio
 
 ## What to do next
 
-Review the readiness assessments that the Now Assist Readiness Evaluation has identified for your instance. For more information, see [View your AI readiness assessment in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/view-ai-readiness-now-assist-center.md).
+Review the readiness assessments results. For more information, see [View an AI readiness assessment in AI Admin Center \(Next Experience UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/view-ai-readiness-now-assist-center.md).
 
 **Parent Topic:**[Increasing AI readiness in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-center-using-readiness-evaluation.md)
 
 **Related topics**  
 
 
-[View your AI readiness assessment in AI Admin Center]()
+[Run the AI readiness assessment job in AI Admin Center \(Lux UI\)]()
+
+[View an AI readiness assessment in AI Admin Center \(Next Experience UI\)]()
+
+[View your AI readiness in AI Admin Center \(Lux UI\)]()
+
+[Plan an instance upgrade \(Lux UI\)]()
 

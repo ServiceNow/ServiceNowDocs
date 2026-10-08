@@ -51,7 +51,7 @@ Role required: admin
 
 5.  Select **Submit**.
 
-    For more information on importing assets, see .
+    For more information on importing assets, see [Import assets with guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/import-csm-assets.md).
 
 
 ## Result

@@ -28,7 +28,7 @@ For more information on support levels, see [Application support for domain sepa
 
 ## Operational Technology domain separation overview
 
-Because each application can have its own domain separation relationship, no single support level applies to Operational Technology. For more information, see [Domain separation and Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/flow-designer-domain-separation.md).
+Because each application can have its own domain separation relationship, no single support level applies to Operational Technology. For more information, see .
 
 The following table describes the domain separation support levels and use cases for each Operational Technology application.
 

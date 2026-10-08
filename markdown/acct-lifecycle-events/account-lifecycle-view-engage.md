@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-l
 release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 9
+reading_time_minutes: 10
 breadcrumb: [Manage engagements, Customer success, Use, Customer Success Management]
 ---
 
@@ -230,6 +230,8 @@ The Customer timeline tab shows visual display of the Engagement records activit
 The engagement brief summarizes recent signals across risk, adoption, and market activity for a specific engagement.
 -   **[View and execute recommended actions for an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-360-view-reco-actions.md)**  
 Open the **Recommendations** panel from an engagement record to review AI-generated success play suggestions and execute or dismiss a recommended play without leaving the engagement context.
+-   **[Summarize an engagement using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/now-assist-tmt-summarize-engagement.md)**  
+Generate a summary from the fields you select on the engagement record. Get up to speed on success initiatives, outcomes, risks, and internal plays associated with an engagement.
 
 **Parent Topic:**[Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-manage-engage.md)
 

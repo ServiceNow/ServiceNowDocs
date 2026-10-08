@@ -1,6 +1,6 @@
 ---
-title: Service Graph Connector for Dynatrace SaaS
-description: Use the Service Graph Connector for Dynatrace SaaS to integrate the data discovered by Dynatrace into your ServiceNow instance to support various use cases.
+title: Service Graph Connector for Observability - Dynatrace SaaS
+description: Use the Service Graph Connector for Observability - Dynatrace SaaS to integrate the data discovered by Dynatrace into your ServiceNow instance to support various use cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgc-integration-dynatrace-saas.html
 release: brazil
@@ -12,11 +12,11 @@ reading_time_minutes: 2
 breadcrumb: [Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Service Graph Connector for Dynatrace SaaS
+# Service Graph Connector for Observability - Dynatrace SaaS
 
-Use the Service Graph Connector for Dynatrace SaaS to integrate the data discovered by Dynatrace into your ServiceNow instance to support various use cases.
+Use the Service Graph Connector for Observability - Dynatrace SaaS to integrate the data discovered by Dynatrace into your ServiceNow instance to support various use cases.
 
-**Important:** The Service Graph Connector for Dynatrace SaaS is designed for the Dynatrace SaaS \(3rd‑generation\) platform and leverages DQL-based APIs and the Grail architecture to import data from Dynatrace into the CMDB. If you're in a Dynatrace managed \(self‑hosted\) or legacy SaaS environment, you should use the Service Graph Connector for Observability - Dynatrace.
+**Important:** The Service Graph Connector for Observability - Dynatrace SaaS is designed for the Dynatrace SaaS \(3rd‑generation\) platform and leverages DQL-based APIs and the Grail architecture to import data from Dynatrace into the CMDB. If you're in a Dynatrace managed \(self‑hosted\) or legacy SaaS environment, you should use the Service Graph Connector for Observability - Dynatrace.
 
 ## Request apps on the Store
 
@@ -30,7 +30,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 ## Use cases
 
-The following examples describe how you can use the Service Graph Connector for Dynatrace SaaS:
+The following examples describe how you can use the Service Graph Connector for Observability - Dynatrace SaaS:
 
 -   Maintain an accurate and up-to-date inventory of Dynatrace configuration items \(CIs\) in the CMDB.
 -   Automatically build and maintain service topology maps showing dependencies between services, processes, and hosts.
@@ -39,7 +39,7 @@ The following examples describe how you can use the Service Graph Connector for 
 
 ## Configuring a connection for the connector
 
-Use the SGC Central view in the Service Graph Workspace or CMDB Workspace to install the connector and configure the connection. The view enables you to install and discover connectors and to manage the full life cycle of creating, editing, monitoring, and debugging connections. For instructions, see [Configure Service Graph Connector for Dynatrace SaaS using SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgcc-configure-dynatrace-saas.md).
+Use the SGC Central view in the Service Graph Workspace or CMDB Workspace to install the connector and configure the connection. The view enables you to install and discover connectors and to manage the full life cycle of creating, editing, monitoring, and debugging connections. For instructions, see [Configure Service Graph Connector for Observability - Dynatrace SaaS using SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgcc-configure-dynatrace-saas.md).
 
 ## CMDB integrations dashboard
 
@@ -50,9 +50,9 @@ The Integration Commons for CMDB store app provides a dashboard with a central v
 
 [Service Graph Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/cmdb-sgc-available.md)
 
-[Configure Service Graph Connector for Dynatrace SaaS using SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgcc-configure-dynatrace-saas.md)
+[Configure Service Graph Connector for Observability - Dynatrace SaaS using SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgcc-configure-dynatrace-saas.md)
 
-[CMDB classes targeted in Service Graph Connector for Dynatrace SaaS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-dynatrace-saas-classes.md)
+[CMDB classes targeted in Service Graph Connector for Observability - Dynatrace SaaS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-dynatrace-saas-classes.md)
 
-[Data mapping for Service Graph Connector for Dynatrace SaaS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-data-mapping-dynatrace-saas.md)
+[Data mapping for Service Graph Connector for Observability - Dynatrace SaaS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-data-mapping-dynatrace-saas.md)
 

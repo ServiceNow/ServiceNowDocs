@@ -9,6 +9,7 @@ classification: threat-intelligence-security-center
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 3
+keywords: [playbook templates, Microsoft Sentinel, Batch\_Indicator\_Uploader, Incident\_Enrichment, Logic App Designer]
 breadcrumb: [Microsoft Sentinel integration, TISC Security Tools integrations, TISC Integrations, Integrate, Threat Intelligence Security Center, Security Operations]
 ---
 

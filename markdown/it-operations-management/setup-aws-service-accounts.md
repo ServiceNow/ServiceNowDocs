@@ -1,20 +1,20 @@
 ---
-title: Setting up AWS service accounts
+title: Setup AWS service accounts
 description: Create and configure cloud service accounts at ServiceNow AI Platform for the corresponding Amazon Web Services \(AWS\) service accounts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/setup-aws-service-accounts.html
 release: brazil
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 breadcrumb: [Set up a cloud service account, Access to cloud environments for ITOM products, IT Operations Management]
 ---
 
-# Setting up AWS service accounts
+# Setup AWS service accounts
 
 Create and configure cloud service accounts at ServiceNow AI Platform for the corresponding Amazon Web Services \(AWS\) service accounts.
 
-## Verify the REST API Permissions
+## Verify the REST API permissions
 
 Download the [Cloud Discovery patterns spreadsheet](https://downloads.docs.servicenow.com/resource/enus/api/servicenow-discovery-patterns-api-details.xlsx) so you can grant user permissions required for running the Discovery patterns. In addition to permissions, the spreadsheet also includes useful information such as pattern names, types, CI Classes, and links to vendor documentation. New patterns are available quarterly, so check periodically to be sure you have the latest version of the spreadsheet.
 
@@ -23,9 +23,9 @@ Ensure that you are familiar with the hierarchy of AWS service accounts in your 
 -   **Discrete account**: Standalone account, with no management account.
 -   **Management account**: Management account that may or may not contain member accounts \(subaccounts\).
 
-    **Note:** Some ServiceNow UI screens may refer to management accounts as master accounts.
+    **Note:** Some ServiceNow UI screens refer to management accounts as **Master** accounts and to the management account field as **Parent account**.
 
--   **Member account**: Subaccount that belongs with the \(management\) account.
+-   **Member account**: Subaccount that belongs to the management account.
 
 -   **[Access setup for AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/access-aws-accounts.md)**  
 Cloud Discovery and Cloud Provisioning and Governance need access to resources in the Amazon Web Services \(AWS\) service accounts. Learn about different methods of configuring such access.

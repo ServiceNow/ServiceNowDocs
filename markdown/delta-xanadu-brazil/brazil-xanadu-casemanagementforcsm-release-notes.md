@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-casemanagementforcsm-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 12
+last_updated: "2026-10-08"
+reading_time_minutes: 16
 breadcrumb: [Products combined by family]
 ---
 
@@ -125,13 +125,32 @@ Use the following features to find process improvement opportunities:
     -   Use work notes analysis to learn the operational reasons behind activity transitions. This feature is Now LLM based.
     -   Mine the configured base system project to investigate the causes and get a clear view of the long resolution times and delays.
 
+ -   **[Quick start tests for Customer Service Management](https://www.servicenow.com/docs/access?context=quick-start-tests-csm&family=yokohama&ft:locale=en-US)**
+
+After upgrades and deployments of new applications or integrations, run quick start tests to verify that Customer Service Management works as expected. If you customized Customer Service Management, copy the quick start tests and configure them for your customizations.
+
+
 </td></tr><tr><td>
 
 Zurich
 
 </td><td>
 
--   **[Add multiple entitlements to a case](https://www.servicenow.com/docs/access?context=add-entitlement-to-case&family=zurich&ft:locale=en-US)**
+-   **[Recommend service definitions based on case context](https://www.servicenow.com/docs/access?context=csm-service-definitions&family=zurich&ft:locale=en-US)**
+
+Recommend the most relevant services to an agent based on the record context, such as the short description or description of the interaction.
+
+
+ -   **[Task plan templates](https://www.servicenow.com/docs/access?context=task-plan-templates&family=zurich&ft:locale=en-US)**
+
+Create templates that define the repeatable tasks and records that need to be created for business processes. Define the tasks, set the task order, and create conditions that determine when these tasks and records are created.
+
+-   **[Customer Service Case Types - Enable the service selector to launch record producers](https://www.servicenow.com/docs/access?context=csm-service-definition-catalog-items&family=zurich&ft:locale=en-US)**
+
+Use the Service Portal record producers when your agents are creating cases in CRM Workspace. Agents can select the service definitions from the case type selector and launch the record producers.
+
+
+ -   **[Add multiple entitlements to a case](https://www.servicenow.com/docs/access?context=add-entitlement-to-case&family=zurich&ft:locale=en-US)**
 
 View the available entitlements on a customer service case and associate the multiple entitlements to the case. Available entitlements are associated with the account or consumer, product, and contract selected on the case record.
 
@@ -146,7 +165,21 @@ Australia
 
 </td><td>
 
--   **[Task dependencies for task plan templates](https://www.servicenow.com/docs/access?context=task-dependencies-for-task-plan-templates&family=australia&ft:locale=en-US)**
+-   **[\[Placeholder link text to key add-dependencies-between-template-item\]](https://www.servicenow.com/docs/access?context=add-dependencies-between-template-item&family=australia&ft:locale=en-US)**
+
+Create and manage dependencies between template items using the supported dependency types. Users can apply a template at any time after the template is published. Validate dependencies using built‑in checks \(including circular dependency validation\) to help prevent invalid dependency definitions.
+
+The following dependency types are supported:
+
+    -   Finish to- start: the successor task starts when the predecessor task is completed.
+    -   Start after start: the successor task starts when the predecessor task is started.
+    -   Start together: both tasks start at the same time.
+-   **[\[Placeholder link text to key share-a-task-plan-template-from-the-workspace\]](https://www.servicenow.com/docs/access?context=share-a-task-plan-template-from-the-workspace&family=australia&ft:locale=en-US)**
+
+Provide a visual governance experience to define and manage user access enabling business process owners to configure relationships with clarity.
+
+
+ -   **[Task dependencies for task plan templates](https://www.servicenow.com/docs/access?context=task-dependencies-for-task-plan-templates&family=australia&ft:locale=en-US)**
 
 Define dependency relationships between template items in the \[sn\_task\_plan\_template\_dependency\] table, and upon applying the template, create and store the resulting task dependencies in the \[sn\_task\_dependency\_m2m\] table to ensure controlled task sequencing through predecessor–successor relationships.
 
@@ -208,13 +241,49 @@ Yokohama
 The Case Line table \(sn\_case\_line\) includes the **Install base** and **Asset** reference fields. These fields display information based on the selected account and product.
 
 
+ -   **[Process mining](https://www.servicenow.com/docs/access?context=process-config-builder&family=yokohama&ft:locale=en-US)**
+
+Use the process mining enhancements to improve processes as needed:
+
+    -   Removed the viewer role from all records in the Process Mining Content Pack for Customer Service Management \(CSM\).
+    -   Set process configurations as read-only templates, deletable only by a process mining administrator. You can enable customers to copy the template or import specific parts into their custom configuration.
+
 </td></tr><tr><td>
 
 Zurich
 
 </td><td>
 
--   **Coral theme**
+-   **[\[Placeholder link text to key sharing-task-plan-template\]](https://www.servicenow.com/docs/access?context=sharing-task-plan-template&family=zurich&ft:locale=en-US)**
+
+Sharing task plan templates ensures that only authorized users can access, edit, or share templates based on their role and location, preventing misuse and maintaining operational integrity. Sharing task plant template features include:
+
+    -   Access control: Users can now provide access to task plan templates at various levels, including user, group, and service organization.
+    -   Ownership Management: The Owner or an Admin can change the ownership of a Template by updating the Owner field.
+    -   Global template: Task plan templates can be marked as global, making them visible to all users with read access.
+    -   Form and List Layouts: Admins can view and edit form and list layouts for sharing, displaying all relevant fields.
+    -   Notifications: In-app notifications are sent when access is granted, Selecting the notification opens the shared template directly.
+-   **[Task plan template configurations](https://www.servicenow.com/docs/access?context=task_plan_template_configurations&family=zurich&ft:locale=en-US)**
+
+Admins can create configurations for task plan templates that pre-fill information when creating a new task plan template.
+
+
+ -   **[Filtering service definitions](https://www.servicenow.com/docs/access?context=csm-service-definitions&family=zurich&ft:locale=en-US)**
+
+Enable agents to filter the service definitions that are shown on the service selector in the following ways:
+
+    -   By user, role, group, or agent
+    -   By entity critera such as location, customer level, or related entities
+-   **[Case lines for Case Management - Add multiple entitlements to case lines](https://www.servicenow.com/docs/access?context=csm-case-mgmt-case-lines&family=zurich&ft:locale=en-US)**
+
+View the available entitlements on a case line and associate the multiple entitlements to that case line. Available entitlements are associated with the contracts and entitlements that are purchased by the customer.
+
+-   **[Customer Service Case Types moved from family to store release](https://www.servicenow.com/docs/access?context=customer-service-case-types&family=zurich&ft:locale=en-US)**
+
+Starting with the Zurich release, the Customer Service Case Types application \(sn\_csm\_case\_types\) has moved to the ServiceNow Store. Any new enhancements to this application are delivered through the Customer Service Case Types store app.
+
+
+ -   **Coral theme**
 
 Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
 
@@ -238,7 +307,14 @@ Australia
 
 </td><td>
 
--   **[Granular viewer roles for Case Management](https://www.servicenow.com/docs/access?context=customer-service-management-roles&family=australia&ft:locale=en-US)**
+-   **[Manager Workspace landing page](https://www.servicenow.com/docs/access?context=csm-configurable-manager-workspace-dashboards-new&family=australia&ft:locale=en-US)**
+
+The following UI components have been added in the Task Plan Template table:
+
+    -   The Template Dependencies tab displays a node‑map view of dependencies between template items in saved task plan template records. Each dependency appears as a labeled edge between nodes, indicating its type \(Finish to start, Start after start\) or Start together\). Select Edge to edit or delete the dependency, based on your role.
+    -   The Share Plan modal in the task plan template workspace includes three views; **Share Plan**, **Success**, and **Manage Access**, for configuring, confirming, and managing access to a task plan template, with a search bar, Select all option, and Currently shared with list in the Share Plan view.
+
+ -   **[Granular viewer roles for Case Management](https://www.servicenow.com/docs/access?context=customer-service-management-roles&family=australia&ft:locale=en-US)**
 
 Added new read-only roles within Case Management. These include the following:
 
@@ -361,7 +437,7 @@ Xanadu
 
 </td><td>
 
-Starting with the Xanadu release, CSM Agent Workspace is no longer deployed, enhanced, or supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base. [CSM Configurable Workspace](https://www.servicenow.com/docs/access?context=csm-workspaces-configure&family=xanadu&ft:locale=en-US) provides the latest experience for this functionality.
+Starting with the Xanadu release, CSM Agent Workspace is no longer deployed, enhanced, or supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base. [CRM Workspace](https://www.servicenow.com/docs/access?context=csm-workspaces-configure&family=xanadu&ft:locale=en-US) provides the latest experience for this functionality.
 
 </td></tr><tr><td>
 
@@ -698,7 +774,7 @@ Xanadu
 </td><td>
 
 -   Create pages and page variants that contain horizontal or vertical playbooks by using playbook templates.
--   Use playbook record pages in CSM Configurable Workspace to guide users through the stages and activities of a playbook and resolve cases.
+-   Use playbook record pages in CRM Workspace to guide users through the stages and activities of a playbook and resolve cases.
 -   Identify common inefficiencies in customer operations by using process mining definitions.
 
  See [Case management for Customer Service Management](https://www.servicenow.com/docs/access?context=csm-case-management&family=xanadu&ft:locale=en-US) for more information.

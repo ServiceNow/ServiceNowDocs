@@ -63,7 +63,5 @@ The following domain-separated fields are supported:
 
 [Components installed with AI Admin Center]()
 
-[AI Admin Center glossary]()
-
 [AI Admin Center roles]()
 

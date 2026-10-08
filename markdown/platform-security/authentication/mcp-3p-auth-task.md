@@ -7,7 +7,7 @@ release: brazil
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 keywords: [OIDC provider configuration, external authorization server, MCP Server, JWT]
 breadcrumb: [External authorization servers for the ServiceNow MCP Server, Authentication, Access Management]

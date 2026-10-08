@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-datacatalog-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 6
+last_updated: "2026-10-08"
+reading_time_minutes: 12
 breadcrumb: [Products combined by family]
 ---
 
@@ -115,7 +115,41 @@ Australia
 
 </td><td>
 
--   **[Bulk import and export glossary terms](https://www.servicenow.com/docs/access?context=managing-glossary-terms&family=australia&ft:locale=en-US)**
+-   **[Metadata enrichment with ServiceNow Otto](https://www.servicenow.com/docs/access?context=ai-metadata-enrichment-overview-dc&family=australia&ft:locale=en-US)**
+
+Accelerate catalog curation using AI-powered enrichment. Enrich asset names and descriptions across multiple assets in a single request, review AI-generated recommendations, and publish richer metadata to your catalog with less manual effort.
+
+-   **[Lineage search facet and CSV export](https://www.servicenow.com/docs/access?context=explore-data-assets-lineage-dc&family=australia&ft:locale=en-US)**
+
+A new "Has lineage" search facet shows how much of your catalog has lineage and which assets have a lineage view in Graph Explorer. Download your current lineage view to CSV to analyze and use the data in other tools.
+
+-   **[\[Placeholder link text to key microsoft-fabric-metadata-collector\]](https://www.servicenow.com/docs/access?context=microsoft-fabric-metadata-collector&family=australia&ft:locale=en-US)**
+
+Automatically collect and synchronize metadata from Microsoft Fabric using metadata collectors.
+
+-   **[MID Server routing for metadata collectors](https://www.servicenow.com/docs/access?context=metadata-collector-deployment-models&family=australia&ft:locale=en-US)**
+
+Choose whether a connection runs in the ServiceNow hosted cloud infrastructure \(the default\) or through a MID Server to reach your data sources. When a collector is configured to run on a MID Server, three routing models control how the system assigns a MID Server to the collection job.
+
+-   **[Email notifications for collector runs](https://www.servicenow.com/docs/access?context=subscribe-to-collector-run-notifications&family=australia&ft:locale=en-US)**
+
+When a collector run completes or fails, the platform sends an email notification to the collector owner and any subscribers. Notifications use the ServiceNow Notification framework.
+
+-   **[Data classification with Vault](https://www.servicenow.com/docs/access?context=enable-vault-classification&family=australia&ft:locale=en-US)**
+
+Enable a metadata collector to classify harvested columns using ServiceNow Vault. The following metadata collector types support Vault classification:
+
+    -   Snowflake
+    -   Amazon Redshift
+    -   Databricks
+    -   Oracle
+    -   PostgreSQL
+    -   Teradata
+    -   MySQL
+    -   Microsoft SQL Server
+    -   SAP HANA
+
+ -   **[Bulk import and export glossary terms](https://www.servicenow.com/docs/access?context=managing-glossary-terms&family=australia&ft:locale=en-US)**
 
 Quickly manage large volumes of glossary terms by importing and exporting them in bulk through XLSX files. Preview changes before committing, and get detailed feedback on any rows that fail so you can correct and re-upload. Skip manual entry and reduce glossary enrichment time significantly.
 
@@ -138,13 +172,101 @@ Automatically collect and synchronize metadata from SAP HANA using metadata coll
 Automatically collect and synchronize metadata from Salesforce using metadata collectors.
 
 
+ -   **[Search and discovery](https://www.servicenow.com/docs/access?context=explore-data-assets-in-data-catalog&family=australia&ft:locale=en-US)**
+
+Find data assets across your organization using keyword search, filters, and faceted browsing in a unified self-service interface. Browse assets by type, domain, tag, or owner, and preview schema and sample data directly from search results to evaluate assets without opening each record.
+
+-   **[Asset details and relationships](https://www.servicenow.com/docs/access?context=view-data-asset-details&family=australia&ft:locale=en-US)**
+
+View comprehensive details for each data asset including schema, field descriptions, ownership, data classifications, and data relationships, including lineage.
+
+-   **[Business glossary](https://www.servicenow.com/docs/access?context=create-glossary-term&family=australia&ft:locale=en-US)**
+
+Define and manage business terms and associate them with data assets to establish a shared vocabulary across teams. Link glossary terms to catalog assets so that business and technical users understand the meaning and context of data using consistent, organization-approved definitions.
+
+-   **[Metadata collectors](https://www.servicenow.com/docs/access?context=configure-metadata-collectors-dc&family=australia&ft:locale=en-US)**
+
+Automatically collect and synchronize metadata from external data platforms using metadata collectors. Collectors support 14+ platforms including Snowflake, BigQuery, Databricks, dbt Cloud, Tableau, Power BI, and Fivetran. Schedule collection runs or trigger them on demand to keep catalog content current as source systems evolve.
+
+-   **[Tags and domains](https://www.servicenow.com/docs/access?context=create-tags-dc&family=australia&ft:locale=en-US)**
+
+Organize and classify data assets using tags and domains to reflect your organization's structure and governance policies. Apply tags to individual assets or in bulk. Group assets into domains to control visibility and delegate stewardship to responsible teams.
+
+
+ -   **[\[Placeholder link text to key amazon-s3-metadata-collector\]](https://www.servicenow.com/docs/access?context=amazon-s3-metadata-collector&family=australia&ft:locale=en-US)**
+
+Automatically collect and synchronize metadata from Amazon S3 using metadata collectors.
+
+-   **[\[Placeholder link text to key teradata-metadata-collector\]](https://www.servicenow.com/docs/access?context=teradata-metadata-collector&family=australia&ft:locale=en-US)**
+
+Automatically collect and synchronize metadata from Teradata using metadata collectors.
+
+-   **[Data quality for data assets](https://www.servicenow.com/docs/access?context=view-data-asset-details&family=australia&ft:locale=en-US)**
+
+Review data quality information for table and column assets directly in the Data Catalog. The Overview tab surfaces a quality summary — overall status, rule count, passed rules, and last evaluation time — and the new Quality tab lists each rule with its source, asset type, category, status, and last run time. External data quality tools submit rule results through the Data Quality API.
+
+-   **[Classifier field for columns](https://www.servicenow.com/docs/access?context=view-data-asset-details&family=australia&ft:locale=en-US)**
+
+View column-level classification directly from a data asset's Columns tab. The new Classifier field shows the classification assigned to each column by the ServiceNow collector, or displays null if classification hasn't run on the table. Access to this feature depends on your entitlements.
+
+-   **[Email notifications for owner and steward assignments for data assets](https://www.servicenow.com/docs/access?context=update-data-asset&family=australia&ft:locale=en-US)**
+
+When you add or remove an owner or steward on a data asset, the system sends an email notification to that user.
+
+-   **[Clone metadata collector connections](https://www.servicenow.com/docs/access?context=configure-metadata-collectors-dc&family=australia&ft:locale=en-US)**
+
+Clone an existing metadata collector connection to create data source connection faster. When you clone a connection, the system copies the connection type, collection settings, filters, and advanced parameters to a new connection record with an auto-generated name. Sensitive information is not carried over. Update credentials and any other environment-specific details before activating the new connection.
+
+-   **[Data quality for data assets](https://www.servicenow.com/docs/access?context=view-data-asset-details&family=australia&ft:locale=en-US)**
+
+Review data quality information for table and column assets, including the overall data quality status, the total number of rules, the number of passed rules, and any quality badges awarded to the resource. View each rule with its source, asset type, asset name, category, status, and last run time, and filter or search to locate a specific rule. External data quality tools submit rule results through the Data Quality API.
+
+-   **[Azure Data Factory metadata collector](https://www.servicenow.com/docs/access?context=azure-data-factory-metadata-collector&family=australia&ft:locale=en-US)**
+
+Automatically collect and synchronize metadata from Azure Data Factory using metadata collectors.
+
+
 </td></tr><tr><td>
 
 Brazil
 
 </td><td>
 
--   **[Bulk import and export glossary terms](https://www.servicenow.com/docs/access?context=managing-glossary-terms&family=brazil&ft:locale=en-US)**
+-   **[Metadata enrichment with ServiceNow Otto](https://www.servicenow.com/docs/access?context=ai-metadata-enrichment-overview-dc&family=brazil&ft:locale=en-US)**
+
+Accelerate catalog curation using AI-powered enrichment. Enrich asset names and descriptions across multiple assets in a single request, review AI-generated recommendations, and publish richer metadata to your catalog with less manual effort.
+
+-   **[Lineage search facet and CSV export](https://www.servicenow.com/docs/access?context=explore-data-assets-lineage-dc&family=brazil&ft:locale=en-US)**
+
+A new "Has lineage" search facet shows how much of your catalog has lineage and which assets have a lineage view in Graph Explorer. Download your current lineage view to CSV to analyze and use the data in other tools.
+
+-   **[\[Placeholder link text to key microsoft-fabric-metadata-collector\]](https://www.servicenow.com/docs/access?context=microsoft-fabric-metadata-collector&family=brazil&ft:locale=en-US)**
+
+Automatically collect and synchronize metadata from Microsoft Fabric using metadata collectors.
+
+-   **[MID Server routing for metadata collectors](https://www.servicenow.com/docs/access?context=metadata-collector-deployment-models&family=brazil&ft:locale=en-US)**
+
+Choose whether a connection runs in the ServiceNow hosted cloud infrastructure \(the default\) or through a MID Server to reach your data sources. When a collector is configured to run on a MID Server, three routing models control how the system assigns a MID Server to the collection job.
+
+-   **[Email notifications for collector runs](https://www.servicenow.com/docs/access?context=subscribe-to-collector-run-notifications&family=brazil&ft:locale=en-US)**
+
+When a collector run completes or fails, the platform sends an email notification to the collector owner and any subscribers. Notifications use the ServiceNow Notification framework.
+
+-   **[Data classification with Vault](https://www.servicenow.com/docs/access?context=enable-vault-classification&family=brazil&ft:locale=en-US)**
+
+Enable a metadata collector to classify harvested columns using ServiceNow Vault. The following metadata collector types support Vault classification:
+
+    -   Snowflake
+    -   Amazon Redshift
+    -   Databricks
+    -   Oracle
+    -   PostgreSQL
+    -   Teradata
+    -   MySQL
+    -   Microsoft SQL Server
+    -   SAP HANA
+
+ -   **[Bulk import and export glossary terms](https://www.servicenow.com/docs/access?context=managing-glossary-terms&family=brazil&ft:locale=en-US)**
 
 Manage large volumes of glossary terms by importing and exporting them in bulk through XLSX files. Preview changes before committing, and get detailed feedback on any rows that fail so you can correct and re-upload. Reduce glossary enrichment time significantly.
 
@@ -208,9 +330,23 @@ Australia
 
 </td><td>
 
--   **[Data assets lineage improvements](https://www.servicenow.com/docs/access?context=explore-data-assets-lineage-dc&family=australia&ft:locale=en-US)**
+-   **[Graph Explorer performance improvements](https://www.servicenow.com/docs/access?context=explore-data-assets-lineage-dc&family=australia&ft:locale=en-US)**
+
+Lineage views open faster by showing the nearest upstream and downstream connections first instead of waiting for the full diagram to load.
+
+-   **[ServiceNow collector lineage from Import Set Transform Map](https://www.servicenow.com/docs/access?context=servicenow-metadata-collector&family=australia&ft:locale=en-US)**
+
+The ServiceNow collector harvests lineage edges based on the platform's native Import Set Transform Map framework.
+
+
+ -   **[Data assets lineage improvements](https://www.servicenow.com/docs/access?context=explore-data-assets-lineage-dc&family=australia&ft:locale=en-US)**
 
 Transform nodes now display transformations and processing steps in your lineage diagram with enhanced visualizations. Interact with transform nodes to view additional details about what data transformations occur at each step, helping you understand your data flow more clearly.Lineage graphs now load progressively by level, reducing the risk of timeouts when viewing large graphs. The system displays lineage in stages, allowing you to explore relationships without waiting for the entire graph to load, which improves overall responsiveness and performance.
+
+
+ -   **[ServiceNow metadata collector](https://www.servicenow.com/docs/access?context=servicenow-metadata-collector&family=australia&ft:locale=en-US)**
+
+Control how the collector harvests metadata. Enable an API size limit to cap the volume of data retrieved per request, exclude Glide artifacts from harvesting, and harvest Platform Analytics artifacts.
 
 
 </td></tr><tr><td>
@@ -219,7 +355,16 @@ Brazil
 
 </td><td>
 
--   **[Data assets lineage improvements](https://www.servicenow.com/docs/access?context=explore-data-assets-lineage-dc&family=brazil&ft:locale=en-US)**
+-   **[Graph Explorer performance improvements](https://www.servicenow.com/docs/access?context=explore-data-assets-lineage-dc&family=brazil&ft:locale=en-US)**
+
+Lineage views open faster by showing the nearest upstream and downstream connections first instead of waiting for the full diagram to load.
+
+-   **[ServiceNow collector lineage from Import Set Transform Maps](https://www.servicenow.com/docs/access?context=servicenow-metadata-collector&family=brazil&ft:locale=en-US)**
+
+The ServiceNow collector harvests lineage edges based on the platform's native Import Set Transform Map framework.
+
+
+ -   **[Data assets lineage improvements](https://www.servicenow.com/docs/access?context=explore-data-assets-lineage-dc&family=brazil&ft:locale=en-US)**
 
 Transform nodes now display transformations and processing steps in your lineage diagram with enhanced visualizations. Interact with transform nodes to view additional details about what data transformations occur at each step, to help you understand your data flow more clearly. Lineage graphs now load progressively by level, to reduce timeout risk when viewing large graphs. The system displays lineage in stages, allowing you to explore relationships without waiting for the entire graph to load, which improves overall responsiveness and performance.
 
@@ -377,6 +522,8 @@ Australia
 
 Install Data Catalog by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
 
+
+**Important:** Data Catalog is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 

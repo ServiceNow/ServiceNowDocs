@@ -45,7 +45,7 @@ Visual Studio Code
 
 </td><td>
 
-1.97 later
+1.97 or later
 
 </td><td>
 

@@ -44,15 +44,3 @@ To enforce app policies your mobile application management software may require 
 |Now® Mobile - Intune|com.servicenow.requestor.mam.intune|
 |ServiceNow® Onboarding - Intune|com.servicenow.onboarding.mam.intune|
 
-## Mobile app bundle and package IDs for BlackBerry Dynamics
-
-|App|Bundle ID|
-|---|---------|
-|ServiceNow® Agent - BlackBerry|com.servicenow.blackberry.fulfiller|
-|Now® Mobile - BlackBerry|com.servicenow.blackberry.requestor|
-
-|App|Package ID|
-|---|----------|
-|ServiceNow® Agent - BlackBerry|com.servicenow.fulfiller.mam.blackberry|
-|Now® Mobile - BlackBerry|com.servicenow.requestor.mam.blackberry|
-

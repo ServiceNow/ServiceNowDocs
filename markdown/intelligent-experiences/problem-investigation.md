@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/problem-investigation.html
 release: brazil
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-09-28"
 reading_time_minutes: 5
 breadcrumb: [Platform agentic workflows, Agentic workflows, AI agents and agentic workflows, Enable AI Experiences]
 ---
@@ -28,7 +28,7 @@ To access this workflow, you must have ServiceNow Otto for Platform installed on
 
 Because this agentic workflow analyzes problems and incidents related to those problems, you must have records on the Problem and Incident table.
 
-## Role masking
+## Role filtering
 
 Required role: sn\_uxc\_gen\_ai.platform\_ai\_problem\_investigator.
 

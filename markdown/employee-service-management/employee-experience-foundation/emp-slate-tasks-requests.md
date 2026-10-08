@@ -21,7 +21,9 @@ Set up AI preferences to control resource usage and generation modes for task in
 
 Check your entitlements to determine whether you have access to Now Assist or Moveworks licensing.
 
-Role required: admin
+Employee Slate Advanced licensing and the Case and Knowledge Management for EmployeeWorks plugin are required to access HR task types in EmployeeWorks Web App. EmployeeWorks will be installed by one of the following plugins: Employee Slate \(built for Now Assist\) or ServiceNow EmployeeWorks Web App.
+
+Role required: esc\_admin
 
 ## About this task
 
@@ -29,7 +31,6 @@ Configure the following AI preferences to manage smart prioritization for tasks 
 
 -   **AI assist** represents a single background execution of an AI feature that automatically generates insights, card summaries, or smart task sorting across your organization.
 -   **Task insight** analyzes the tasks against policy criteria to identify compliance and optimization opportunities.
--   **Request summary** generates a concise summary of request details with relevant information.
 
 ## Procedure
 
@@ -41,13 +42,7 @@ Configure the following AI preferences to manage smart prioritization for tasks 
 
     **Note:** For additional information, select **Configure tasks** to go to tasks full-list or go to a specific task configuration by selecting external link icon. For more information, see [Employee tasks page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/employee-experience-foundation/employee-center-to-dos-page-configuration.md).
 
-3.  Expand the **Tasks and requests** section and select **Requests** to view the read-only list with request types, table, conditions, search, and configure requests.
-
-    \[Omitted image "es-requests-admin.png"\] Alt text: Request details
-
-    **Note:** For additional information, select **Configure request** to go to requests full-list or go to a specific request configuration by selecting external link icon. For more information, see [Employee requests page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/employee-experience-foundation/employee-center-requests-page-configuration.md).
-
-4.  Expand the **Tasks and requests** section and select **AI preferences** to manage usage limits and insight and summaries.
+3.  Expand the **Tasks and requests** section and select **AI preferences** to manage usage limits and insight and summaries.
 
     \[Omitted image "es-ai-preferences-admin.png"\] Alt text: AI preferences for usage limit, insights, and summaries
 
@@ -68,15 +63,22 @@ Configure the following AI preferences to manage smart prioritization for tasks 
 
         Your preferences are applied to task and request processing.
 
+4.  Configure the E-signature for task workflows.
+
+    The E-signature enables employees to securely sign documents within HR task workflows.
+
+    1.  Ensure the E-signature plugin \(E-Signature for EmployeeWorks\) is installed and active in your instance.
+    2.  Navigate to **E-signature Configuration** and configure the following:
+        -   Document archival location \(typically linked to the HR case or employee record\)
+        -   Notification settings for signers and approvers
+        -   Audit trail preferences
+    3.  Test the E-signature workflow with a sample HR task to verify document capture and archival.
+    For more details, see [Task configuration enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/employee-experience-foundation/es-task-configuration.md).
+
 5.  Select **Mark as configured** for each completed configuration section in the Admin Console.
 
 
 ## What to do next
 
 Monitor AI assists usage and adjust limits as needed based on organizational requirements and performance considerations.
-
-**Related topics**  
-
-
-[Smart prioritization]()
 

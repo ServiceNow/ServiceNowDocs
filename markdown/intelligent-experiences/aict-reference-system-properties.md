@@ -43,7 +43,7 @@ glide.oauth.tool.scan.guardian.enabled
 
 </td><td>
 
-Controls whether MCP server tool scanning is performed by AI Guardian. For more information, see .-   Type: Boolean
+Controls whether MCP server tool scanning is performed by AI Guardian. For more information, see [AI Guardian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-guardian.md).-   Type: Boolean
 -   Default value: false
 -   Location: The System Properties \[sys\_properties\] table
 

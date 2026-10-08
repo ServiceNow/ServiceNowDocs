@@ -18,7 +18,7 @@ Assign search sources to a chat assistant. Search sources are used to determine 
 
 ## Before you begin
 
-See [Use agentic support for a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/use-agentic-support.md).
+See [Create a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/create-assistant.md).
 
 Role required: virtual\_agent\_admin or admin
 

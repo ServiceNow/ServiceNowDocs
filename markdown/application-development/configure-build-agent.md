@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Build Agent, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Build Agent, Build, AI Workflow Factory, Building applications]
 ---
 
 # Build Agent configuration
@@ -25,6 +25,8 @@ Configuring Build Agent involves several sequential steps:
 -   Enabling additional settings, such as for tests and custom instructions
 
 Complete these steps to verify that all dependencies and integrations are in place before using Build Agent.
+
+Because Autonomous Engineer runs through Build Agent as its execution layer, most settings you configure here also apply when Autonomous Engineer runs. For more information, see [Configuring Autonomous Engineer settings in Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ae-settings.md).
 
 -   **[Install Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/install-build-agent.md)**  
 For the Premium version of Build Agent, install the ServiceNow Otto for Creator application from the ServiceNow Store.

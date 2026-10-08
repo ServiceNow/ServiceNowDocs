@@ -1,28 +1,28 @@
 ---
 title: Network SME AI agent
-description: This AI agent investigates network issues using either alert-driven context or direct network identifiers. It identifies the exact bottleneck location and root cause and recommends remediation by delegating data retrieval to the appropriate vendor subject matter expert agents.
+description: This AI agent investigates network issues and recommends next steps.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/itom-obs-network-sme-agent-ai-agent.html
 release: brazil
 topic_type: reference
 last_updated: "2026-09-10"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [IT Operations Management AI agents, IT Operations Management, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Network SME AI agent
 
-This AI agent investigates network issues using either alert-driven context or direct network identifiers. It identifies the exact bottleneck location and root cause and recommends remediation by delegating data retrieval to the appropriate vendor subject matter expert agents.
+This AI agent investigates network issues and recommends next steps.
 
 ## Workflow
 
-The agent coordinates a layered network diagnostic investigation, either from an alert or a direct request, to pinpoint the source of a network problem.
+1.  Identify what to investigate.
 
-1.  Determine whether the investigation is driven by an alert number or by network identifiers provided directly by the user.
-2.  When starting from an alert, retrieve the alert's vendor-specific identifiers, such as ThousandEyes test IDs, SolarWinds node IDs, or LogicMonitor device details.
-3.  Delegate data retrieval to the appropriate vendor subject matter expert agent based on the diagnostic layer involved, using internal infrastructure vendors for lower network layers and external path vendors for higher layers.
-4.  Correlate the findings returned by each vendor agent to identify the exact bottleneck and its root cause.
-5.  Return a consolidated diagnosis with recommended remediation steps to the calling agent.
+    The agent uses a provided alert or network identifiers.
+
+2.  Request network data from the relevant vendor agents, such as SolarWinds or ThousandEyes.
+3.  Analyze the returned data to identify the likely cause of the network issue.
+4.  Return results, including the bottleneck, likely cause, and recommended next steps.
 
 <table><thead><tr><th>
 
@@ -105,7 +105,7 @@ Used in agentic workflows
 
 </td><td>
 
-Not applicable.
+[Analyze alert impact agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/now-assist-itom-agentic-aia.md)
 
 </td></tr></tbody>
 </table>For more information, see [ITOM AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-health-landing-page.md).

@@ -581,7 +581,177 @@ Enables business stakeholders to raise government service cases on behalf of cus
 
 **Note:** Service Request Playbook does not contain roles that are separate from Public Sector Digital Services Core.
 
-<table id="icm-Roles"><thead><tr><th>
+<table id="uppa-roles"><thead><tr><th>
+
+Role title \[name\]
+
+</th><th>
+
+Contains roles
+
+</th></tr></thead><tbody><tr><td>
+
+admin\[admin\]
+
+</td><td>
+
+-   sn\_up\_core.admin
+-   sn\_up\_core.urban\_planning\_agent
+-   sn\_up\_core.urban\_planning\_agent
+-   sn\_up\_core.urban\_planning\_writer
+-   sn\_up\_core.urban\_planning\_reader
+
+</td></tr><tr><td>
+
+core\_admin\[sn\_up\_core.admin\]
+
+</td><td>
+
+-   sn\_up\_core.urban\_planning\_agent
+-   sn\_up\_core.urban\_planning\_agent
+-   sn\_up\_core.urban\_planning\_writer
+-   sn\_up\_core.urban\_planning\_reader
+
+</td></tr><tr><td>
+
+agent\[sn\_up\_core.urban\_planning\_agent\]
+
+</td><td>
+
+sn\_up\_core.urban\_planning\_writer
+
+</td></tr><tr><td>
+
+writer\[sn\_up\_core.urban\_planning\_writer\]
+
+</td><td>
+
+sn\_up\_core.urban\_planning\_reader
+
+</td></tr><tr><td>
+
+reader\[sn\_up\_core.urban\_planning\_reader\]
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+interest\_holder\[sn\_up\_core.property\_interest\_holder\]
+
+</td><td>
+
+sn\_up\_core.urban\_planning\_reader
+
+</td></tr><tr><td>
+
+csm\_admin\[sn\_csm\_up.admin\]
+
+</td><td>
+
+-   sn\_csm\_up.agent
+-   sn\_up\_core.admin
+-   sn\_up\_core.urban\_planning\_agent
+-   sn\_up\_core.admin
+
+</td></tr><tr><td>
+
+csm\_agent\[sn\_csm\_up.agent\]
+
+</td><td>
+
+sn\_up\_core.urban\_planning\_agent
+
+</td></tr><tr><td>
+
+csm\_consumer\[sn\_csm\_up.consumer\]
+
+</td><td>
+
+sn\_up\_core.urban\_planning\_reader
+
+</td></tr><tr><td>
+
+csm\_customer\[sn\_csm\_up.customer\]
+
+</td><td>
+
+sn\_up\_core.urban\_planning\_reader
+
+</td></tr><tr><td>
+
+csm\_agency\_agent\[sn\_csm\_up.agency\_agent\]
+
+</td><td>
+
+sn\_up\_core.urban\_planning\_reader
+
+</td></tr><tr><td>
+
+lic\_prmt.admin\[sn\_gsm\_lic\_prmt.admin\]
+
+</td><td>
+
+-   sn\_csm\_up.admin
+-   sn\_up\_core.admin
+
+</td></tr><tr><td>
+
+constituent\_agent\[sn\_gsm\_lic\_prmt.constituent\_agent\]
+
+</td><td>
+
+-   sn\_csm\_up.agent
+-   sn\_up\_core.urban\_planning\_agent
+
+</td></tr><tr><td>
+
+business\_agent\[sn\_gsm\_lic\_prmt.business\_agent\]
+
+</td><td>
+
+-   sn\_csm\_up.agent
+-   sn\_up\_core.urban\_planning\_agent
+
+</td></tr><tr><td>
+
+agency\_agent\[sn\_gsm\_lic\_prmt.agency\_agent\]
+
+</td><td>
+
+-   sn\_csm\_up.agent
+-   sn\_up\_core.urban\_planning\_agent
+
+</td></tr><tr><td>
+
+constituent\[sn\_gsm.constituent\]
+
+</td><td>
+
+-   sn\_csm\_up.consumer
+-   sn\_up\_core.urban\_planning\_reader
+
+</td></tr><tr><td>
+
+business\_contact\[sn\_gsm.business\_contact\]
+
+</td><td>
+
+-   sn\_csm\_up.customer
+-   sn\_up\_core.urban\_planning\_reader
+
+</td></tr><tr><td>
+
+government\_agency\_contributor\[sn\_gsm.government\_agency\_contributor\]
+
+</td><td>
+
+-   sn\_csm\_up.agency\_agent
+-   sn\_up\_core.urban\_planning\_reader
+
+</td></tr></tbody>
+</table><table id="icm-Roles"><thead><tr><th>
 
 Role title \[name\]
 
@@ -798,12 +968,7 @@ Provides write access to all the events which the user has access to.
 sn\_gsm\_icm.event\_viewer
 
 </td></tr></tbody>
-</table>|Role title \[name\]|Description|Contains roles|
-|-------------------|-----------|--------------|
-| | | |
-| | | |
-| | | |
-| | | |
+</table>
 
 <table id="gm-roles"><thead><tr><th>
 

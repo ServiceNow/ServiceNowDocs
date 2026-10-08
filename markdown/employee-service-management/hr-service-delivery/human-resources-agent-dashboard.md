@@ -67,5 +67,3 @@ The Human Resources Agent dashboard contains the following visualizations:
 
 **Parent Topic:**[HR Performance Analytics Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/hr-service-delivery/human-resources-content-pack.md)
 
-**Parent Topic:**[HR Performance Analytics Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/hr-service-delivery/human-resources-content-pack.md)
-

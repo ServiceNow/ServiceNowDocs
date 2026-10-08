@@ -18,9 +18,7 @@ Create Core UI reports in the legacy Report Designer tool to visualize and analy
 
 ## Before you begin
 
-A ServiceNow AI Platform administrator should create the **com.snc.par.coreui.report\_create.enabled** property and set it to `true`. Otherwise, only report\_admin users or higher can create Core UI reports, and only directly in the Reports \[sys\_report\] table.
-
-Role required: If the **com.snc.par.coreui.report\_create.enabled** system property is `true`, any user with an internal role can create Core UI reports.
+Role required: If the **com.snc.par.coreui.report\_create.enabled** system property is `true`, any user with an internal role can create Core UI reports. For more information, see [Platform Analytics experience properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/pae-properties.md).
 
 ## About this task
 
@@ -32,7 +30,7 @@ Consider creating Platform Analytics data visualizations instead of Core UI dash
 
 1.  Follow one of these paths.
 
-<table id="choicetable_urt_hlc_5w"><tbody><tr><td id="d206103e135">
+<table id="choicetable_urt_hlc_5w"><tbody><tr><td id="d206539e133">
 
 **Create a report**
 
@@ -40,7 +38,7 @@ Consider creating Platform Analytics data visualizations instead of Core UI dash
 
 Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations** and select **Create data visualization**. In the modal, select **Core UI**. For more information, see [Create Core UI reports on an upgraded instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/create-core-ui-reports-on-migrated-instance.md).
 
-</td></tr><tr><td id="d206103e181">
+</td></tr><tr><td id="d206539e179">
 
 **Edit an existing report**
 
@@ -48,7 +46,7 @@ Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Vis
 
 **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations** and select a report with the UI version **Core**. Edit the report according to its type. For more information, see [Report types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/report-types-creation-details-rd.md).
 
-</td></tr><tr><td id="d206103e214">
+</td></tr><tr><td id="d206539e212">
 
 **Create a report on a Core UI dashboard**
 
@@ -56,7 +54,7 @@ Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Vis
 
 Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Dashboards**, select the Core UI dashboard where you want to add the report, and select the Add Widgets icon \(\[Omitted image "AddWidgetButton.png"\] Alt text: Plus sign button\).
 
-</td></tr><tr><td id="d206103e247">
+</td></tr><tr><td id="d206539e245">
 
 **Edit a report on a Core UI dashboard**
 

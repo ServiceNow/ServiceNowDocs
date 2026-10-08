@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-australia-brazil/brazil-australia-knowledgecenter-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 12
+last_updated: "2026-10-08"
+reading_time_minutes: 13
 breadcrumb: [Products combined by family]
 ---
 
@@ -334,7 +334,14 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **Activation information**
+
+Knowledge Center is available by default to all roles in Knowledge Management.
+
+To use auto-update, enable the Article Optimization skill and the `sn_km_center.ao_auto_update.enabled` system property. This property is enabled by default. Enable AO auto publish enabled on a Knowledge Base to automatically update articles in that Knowledge Base.
+
+To use auto-merge, enable the Identify duplicate articles and Merge Articles skills, and the `sn_km_gen_ai.auto_merge.enable` system property. If this property is inactive, users see the existing potential duplicate article experience. Enable Enable auto merge publish on a Knowledge Base to automatically merge and publish potential duplicate articles in that Knowledge Base. Use the `sn_km_gen_ai.auto_merge.confidence_threshold` property to set the confidence threshold for automatic merge and publish. Use the `sn_km_gen_ai.auto_merge.revert_ttl_days` property to set the number of days after which an automatically merged article can no longer be reverted.
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -471,7 +478,7 @@ Australia
 
 </td><td>
 
-[\[Placeholder link text to key australia-patch-6\]](https://www.servicenow.com/docs/access?context=australia-patch-6&family=australia&ft:locale=en-US)
+[Australia Patch 6](https://www.servicenow.com/docs/access?context=australia-patch-6&family=australia&ft:locale=en-US)
 
 -   Prioritize what matters most by assigning custom weights to individual scans at both the Article and Knowledge Base level in the Health Score configuration page.
 -   Catch outdated content with the new stale and expiring article detection in the Article Optimization scan, available at both the article and knowledge base level.
@@ -511,7 +518,12 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   Centralizes knowledge articles, giving your organization full visibility into documented processes and information.
+-   Enhances productivity by providing users immediate access to accurate, well-maintained knowledge content whenever they need it.
+-   Enables formatting and styling of knowledge articles using intuitive editing tools within the article editor to ensure consistent, professional presentation.
+-   Improves the quality and effectiveness of your knowledge base with article optimization scans that maintain article health and relevance.
+
+ See [Knowledge Center](https://www.servicenow.com/docs/access?context=knowledge-center&family=brazil&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/rn-combined-intro.md)

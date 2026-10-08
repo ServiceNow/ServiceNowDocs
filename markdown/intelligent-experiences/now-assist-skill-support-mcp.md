@@ -64,7 +64,7 @@ In addition, you can create tools from the following AI skills or from custom sk
 **Related topics**  
 
 
-[Create a tool from AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-a-tool-from-naskill.md)
+[Create a tool from an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-a-tool-from-naskill.md)
 
 [Generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skills/now-assist-skills.md)
 

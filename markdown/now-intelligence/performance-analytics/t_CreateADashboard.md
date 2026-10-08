@@ -19,9 +19,7 @@ Create a dashboard where you can add Performance Analytics widgets, data visuali
 
 ## Before you begin
 
-A ServiceNow AI Platform administrator should create the **com.snc.par.coreui.dashboard\_create.enabled** property and set it to `true`. Otherwise, only dashboard\_admin users or higher can create Core UI dashboards, and only directly in the Dashboards \[pa\_dashboards\] table.
-
-Role required: If the **com.snc.par.coreui.dashboard\_create.enabled** system property is `true`, any user with an internal role can create Core UI dashboards.
+Role required: If the **com.snc.par.coreui.dashboard\_create.enabled** system property is `true`, any user with an internal role can create Core UI dashboards. For more information, see [Platform Analytics experience properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/pae-properties.md).
 
 ## About this task
 
@@ -45,15 +43,15 @@ Consider creating Platform Analytics dashboards instead of Core UI dashboards. F
 
 4.  Fill in the following fields:
 
-<table id="choicetable_bfl_jhv_yw"><thead><tr><th align="left" id="d68984e218">
+<table id="choicetable_bfl_jhv_yw"><thead><tr><th align="left" id="d69030e216">
 
 Field
 
-</th><th align="left" id="d68984e221">
+</th><th align="left" id="d69030e219">
 
 Description
 
-</th></tr></thead><tbody><tr id="chrow_lxl_nrq_dz"><td id="d68984e227">
+</th></tr></thead><tbody><tr id="chrow_lxl_nrq_dz"><td id="d69030e225">
 
 **Name**
 
@@ -61,7 +59,7 @@ Description
 
 Name the dashboard.
 
-</td></tr><tr id="chrow_lkc_4rq_dz"><td id="d68984e236">
+</td></tr><tr id="chrow_lkc_4rq_dz"><td id="d69030e234">
 
 **Order**
 
@@ -69,7 +67,7 @@ Name the dashboard.
 
 Enter an **Order** number to indicate the order the dashboard appears on the dashboard picker. Dashboards with lower numbers are listed first.
 
-</td></tr><tr id="chrow_hd3_4rq_dz"><td id="d68984e248">
+</td></tr><tr id="chrow_hd3_4rq_dz"><td id="d69030e246">
 
 **Active**
 
@@ -79,7 +77,7 @@ Clear this field to mark the dashboard **inactive**. Inactive dashboards are acc
 
  **Note:** When you activate responsive dashboards, the permissions associated with both active and inactive non-responsive dashboard are carried over to the responsive version.
 
-</td></tr><tr id="chrow_gf4_4rq_dz"><td id="d68984e269">
+</td></tr><tr id="chrow_gf4_4rq_dz"><td id="d69030e267">
 
 **Owner**
 

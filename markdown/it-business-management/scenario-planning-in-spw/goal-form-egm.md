@@ -7,7 +7,7 @@ release: brazil
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-09-30"
 reading_time_minutes: 3
 breadcrumb: [Form field information for Strategic Planning, Reference, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -33,6 +33,14 @@ Name
 </td><td>
 
 Name of the goal.
+
+</td></tr><tr><td>
+
+Number
+
+</td><td>
+
+Unique identifier of the goal, for example GOAL0001001. The value is generated automatically and is read-only. To use a different prefix, such as OBJ, see [Customize label for Goal and Target tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/customize-labels-for-goal-and-target-tables.md).
 
 </td></tr><tr><td>
 

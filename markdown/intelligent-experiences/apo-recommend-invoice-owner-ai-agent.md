@@ -1,6 +1,6 @@
 ---
 title: Recommend invoice owner AI agent
-description: This AI agent intelligently analyzes exception work notes to predict the most likely business owner for an invoice. It collaborates with the Accounts Payable \(AP\) specialist — the person responsible for processing the invoice — by suggesting the predicted business owner or creating follow-up tasks to streamline ownership validation and resolution.
+description: This AI agent analyzes exception work notes to predict the most likely business owner for an invoice. It works with the Accounts Payable \(AP\) specialist by suggesting the predicted owner or creating follow-up tasks to validate and resolve ownership.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/apo-recommend-invoice-owner-ai-agent.html
 release: brazil
@@ -12,7 +12,7 @@ breadcrumb: [Accounts Payable Operations AI agents, Accounts Payable Operations 
 
 # Recommend invoice owner AI agent
 
-This AI agent intelligently analyzes exception work notes to predict the most likely business owner for an invoice. It collaborates with the Accounts Payable \(AP\) specialist — the person responsible for processing the invoice — by suggesting the predicted business owner or creating follow-up tasks to streamline ownership validation and resolution.
+This AI agent analyzes exception work notes to predict the most likely business owner for an invoice. It works with the Accounts Payable \(AP\) specialist by suggesting the predicted owner or creating follow-up tasks to validate and resolve ownership.
 
 ## Workflow
 
@@ -20,8 +20,8 @@ The agent helps users complete tasks related to recommend invoice owner.
 
 1.  Execute the "Retrieve recommendation from Exception Record" tool.
 2.  If there are no invoices present, ask the AP specialist if they want to reach out to a supplier contact with an exception task.
-3.  If the recommendation mentions that there are processed invoices present, but the match score is less than the threshold value, inform the AP specialist that a recommendation cannot be made, but the agent can suggest the business owner from the last processed invoice.
-4.  If the recommendation mentions that the business owner was identified but auto-approval is disabled, then ask the AP specialist whether the mentioned business owner can be assigned to the invoice.
+3.  If the recommendation mentions processed invoices present but the match score is below the threshold, inform the AP specialist that a recommendation can't be made. Suggest the business owner from the last processed invoice.
+4.  If the recommendation mentions that the business owner was identified but auto-approval is disabled, ask the AP specialist whether that business owner can be assigned to the invoice.
 
 <table><thead><tr><th>
 

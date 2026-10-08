@@ -35,6 +35,8 @@ In general, use horizontal bars to graph nominal data, such as the number of use
 
 4.  Configure the **Header and border**. Header and border options are the same for all data sources.
 
+    None of the **Header and border** fields is required.
+
 <table id="table_ly5_djk_c5b"><thead><tr><th>
 
 Header and border fields
@@ -192,6 +194,8 @@ Specify the text color of the title. The default title color is black, but you c
 
     -   Usage Insights \(available with the User Experience PAR Integration application, to users with a required role\). Choose one of up to three KPIs included with this application, depending on the visualization type. For more information, see [Usage Insights data sources for data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/uxa-data-sources.md).
     **Note:** You can choose multiple data sources for this visualization. However, all data sources must be of the same type: table, indicator, or Usage Insights. For more information, see [Multiple data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/multiple-data-sources.md).
+
+    Pivot table visualizations support a maximum of 15 data sources.
 
 6.  Duplicate the data source.
 

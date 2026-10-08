@@ -8,7 +8,7 @@ product: Service Exchange
 classification: service-exchange
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 9
+reading_time_minutes: 10
 breadcrumb: [Remote task definition, Configure for providers, Service Exchange for Providers, Service Exchange]
 ---
 
@@ -428,7 +428,16 @@ Field from the target table that is sent to another ServiceNow instance.**Note:*
 
     For more details on consumer criteria, see [Creating entitlements in Service Exchange for Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/service-bridge-v2-entitlements.md).
 
-14. Select **Publish**.
+14. On the **Transforms** related list, select **New** to add new transform inline.
+
+    Enables you to manage which transforms are linked to any specific RTD.
+
+    |Field|Description|
+    |-----|-----------|
+    |Transform|Transform record linked to this remote task definition.|
+    |Identity|Reference to the RTD's identity record, not its sys\_id. Keeps the link valid across RTD revisions, so a republished RTD doesn't need to be re-linked.|
+
+15. Select **Publish**.
 
     Remote task variables are automatically created when you publish a remote task definition. These variables are the data variables for the inbound fields displayed and can be accessed on the remote tasks.
 

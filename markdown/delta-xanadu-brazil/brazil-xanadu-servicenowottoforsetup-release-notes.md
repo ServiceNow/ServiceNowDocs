@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-servicenowottoforsetup-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 4
+last_updated: "2026-10-08"
+reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
 
@@ -138,6 +138,38 @@ Expanded zero‑touch installation to automatically install Setup Hub with selec
 -   **[Configuration Console page UI enhancements](https://www.servicenow.com/docs/access?context=ia-configure-il&family=australia&ft:locale=en-US)**
 
 Enhanced the Configuration Console with search support, task management actions, configuration status indicators, and integrated ServiceNow Otto agent guidance.
+
+
+ -   **[Mandatory and optional app selection modal](https://www.servicenow.com/docs/access?context=ia-mandatory-optional-select-modal&family=australia&ft:locale=en-US)**
+
+Enhanced the app selection experience for product bundle installations. Platform admins can review required and optional apps, validate licensing, and install bundles through a guided workflow.
+
+
+ -   **[Plugin installation support](https://www.servicenow.com/docs/access?context=ia-plugin-install&family=australia&ft:locale=en-US)**
+
+Introduced support for individual plugin installation from Product Hub. Platform admins can discover, review, and install standalone plugins without requiring a product bundle.
+
+
+ -   **[Jumbo apps and entitlement validation](https://www.servicenow.com/docs/access?context=ia-jumbo-apps-valid&family=australia&ft:locale=en-US)**
+
+Added entitlement validation for jumbo app installations, ensuring that required applications are appropriately licensed before installation begins.
+
+
+ -   **[Enhanced Admin Home experience](https://www.servicenow.com/docs/access?context=ia-explore&family=australia&ft:locale=en-US)**
+
+Leverage an enhanced Admin Home dashboard to centralize access to Now Assist for Setup and key applications, with context‑aware guidance and recommended next actions, available after installing the Now Assist for Setup store app.
+
+-   **[Centralized application setup](https://www.servicenow.com/docs/access?context=ia-administer&family=australia&ft:locale=en-US)**
+
+You can now set up Now Assist Admin and other entitled applications directly from Admin Home using a guided experience that installs required components and applies default configurations from a single starting point.
+
+-   **[Product module Product Hubs](https://www.servicenow.com/docs/access?context=ia-explore&family=australia&ft:locale=en-US)**
+
+You can now access product‑specific Product Hubs from Admin Home to discover, install, and configure entitled Now Assist products through guided setup flows that install required components and apply default configurations.
+
+-   **[Guided module configuration](https://www.servicenow.com/docs/access?context=ia-config-landing&family=australia&ft:locale=en-US)**
+
+Configure the Platform module and applicable product modules from a unified configuration experience that guides you through module‑specific setup, with the Platform module appearing only when the selected product includes platform‑level changes for the installation.
 
 
 </td></tr><tr><td>
@@ -354,6 +386,8 @@ Australia
 
 Install ServiceNow Otto for Setup by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
 
+
+**Important:** ServiceNow Otto for Setup is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 

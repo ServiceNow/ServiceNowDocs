@@ -46,6 +46,8 @@ When off-site work is required, create a work order to provide field service age
 Create one or more Service Level Agreement \(SLA\) definitions and use them to create an SLA record. This SLA record enables you to use an SLA system for your organization's task.
 -   **[Create a parent-child relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-relationships.md)**  
 Create the relationship between parent and child and assign the type of relationship.
+-   **[Schedule a meeting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-schedule-meeting.md)**  
+Schedule a meeting from PNCC to coordinate follow-up actions with relevant stakeholders.
 
 **Parent Topic:**[Product non-conformance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-product-non-conformances.md)
 

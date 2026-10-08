@@ -40,15 +40,15 @@ Role required: sn\_process\_mining\_power\_user, or sn\_process\_mining\_admin
 
 5.  Fill in the fields.
 
-<table><thead><tr><th align="left" id="d206850e131">
+<table><thead><tr><th align="left" id="d207279e131">
 
 Field
 
-</th><th align="left" id="d206850e134">
+</th><th align="left" id="d207279e134">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d206850e140">
+</th></tr></thead><tbody><tr><td id="d207279e140">
 
 **Type**
 
@@ -56,7 +56,7 @@ Description
 
 Update the template type.This field allows you to update a template from default to list or vice versa.
 
-</td></tr><tr><td id="d206850e151">
+</td></tr><tr><td id="d207279e151">
 
 **Table**
 
@@ -64,7 +64,7 @@ Update the template type.This field allows you to update a template from default
 
 Update the table mapped to the template.
 
-</td></tr><tr><td id="d206850e160">
+</td></tr><tr><td id="d207279e160">
 
 **Template**
 

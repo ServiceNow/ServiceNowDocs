@@ -9,6 +9,8 @@ classification: threat-intelligence-security-center
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 1
+keywords: [AI Report Styling Configuration, Report styling fields, Report theme configuration, Report appearance settings, TISC report formatting, Threat intelligence reports, Form field reference]
+audience: administrator
 breadcrumb: [Configure report styling, Administer, Threat Intelligence Security Center, Security Operations]
 ---
 
@@ -23,6 +25,6 @@ Field descriptions for the AI Report Styling Configuration form. Use these setti
 |Organization name|Name of your organization as it appears in the report header. If left empty, the organization name is not included in the report.|
 |Font family|Font applied across the generated report.|
 |Section header background color|Color that appears in the section header areas of the report. Enter a color value in HEX or RGBA format, or use the color picker.|
-|TLP|Traffic Light Protocol classification displayed in the report. If not selected, the TLP field is not included in the report.|
+|TLP|Traffic Light Protocol \(TLP\) classification displayed in the report. If not selected, the TLP field is not included in the report.|
 |Confidentiality statement|Statement text that appears at the bottom of the report. Maximum: 500 characters. If left empty, the confidentiality statement is not included in the report.|
 

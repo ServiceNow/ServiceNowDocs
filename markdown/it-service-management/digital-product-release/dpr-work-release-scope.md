@@ -30,7 +30,7 @@ Role required: sn\_dpr\_model.product\_manager or sn\_dpr\_model.release\_admin
 
 4.  Select **Release scope** to manage product enhancements, work items, planning items, and tasks in the release.
 
-    **Note:** The tabs for task types that you see depend on the permissions required to view those task type records and the system property **sn\_dpr.release\_related\_record\_types**. For more information, see [Digital Product Release properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/digital-product-release-properties.md).
+    **Note:** The tabs for task types that you see depend on the permissions required to view those task type records and the system property **sn\_dpr.release\_related\_record\_types**. For more information, see [Digital Product Release system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/digital-product-release-properties.md).
 
 5.  Select the **Product enhancements and Work items** tab to manage product enhancements and work items in the release.
 

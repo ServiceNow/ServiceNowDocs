@@ -1,26 +1,31 @@
 ---
 title: Order capture AI agent
-description: This AI agent helps order-management agents investigate, understand, and update customer orders in any form, whether direct \(“apply 10% discount to all lines”\), corrective \(“this address is wrong, fix it”\), bulk \(“set quantity to 50 for every item”\), diagnostic \(“why is this order delayed?”\), or follow-up \(“undo the last change”\).
+description: The Order capture AI agent helps you create orders from quote lines or uploaded files, and manage, investigate, and update existing orders. For example, you can apply discounts, change quantities, fix shipping addresses, remove lines, create cases, and undo changes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/om-order-capture-ai-agent.html
 release: brazil
 topic_type: reference
 last_updated: "2026-09-10"
-reading_time_minutes: 2
-breadcrumb: [Order Management AI agents, Order Management, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
+reading_time_minutes: 3
+breadcrumb: [Order Management AI agents, Sales CRM AI agents, Sales CRM, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Order capture AI agent
 
-This AI agent helps order-management agents investigate, understand, and update customer orders in any form, whether direct \(“apply 10% discount to all lines”\), corrective \(“this address is wrong, fix it”\), bulk \(“set quantity to 50 for every item”\), diagnostic \(“why is this order delayed?”\), or follow-up \(“undo the last change”\).
+The Order capture AI agent helps you create orders from quote lines or uploaded files, and manage, investigate, and update existing orders. For example, you can apply discounts, change quantities, fix shipping addresses, remove lines, create cases, and undo changes.
 
 ## Workflow
 
-The agent automatically uses the currently opened order as context, validates line-item data, recognizes product and variant references, and interprets both simple and complex change requests. It then determines the safest corrective action—such as updating fields in bulk, modifying specific line items, swapping products, adding new items, removing incorrect ones, or fixing fulfillment or shipping details.
+The agent runs in three modes: Quote Ingest, File Upload Ingest, and Manage Order. It creates orders from quote lines or uploaded files, and it helps you investigate and update existing orders.
 
-1.  Retrieve and confirm the order number.
-2.  AGENT IDENTITY AND RESPONSIBILITIES.
-3.  GLOBAL VARIABLES \(AGENT VARIABLE STORE\).
+1.  The agent detects the mode from your input: a quote starts Quote Ingest mode, an uploaded file starts File Upload Ingest mode, and an order number or open order starts Manage Order mode.
+2.  In Quote Ingest mode, the agent reads the quote lines, groups them into orders by account and any configured order-splitting rules, and creates the orders.
+3.  In File Upload Ingest mode, the agent extracts order data from the uploaded file, maps the file columns to order fields, and creates the orders in bulk.
+4.  During ingest, the agent records any line it can't resolve, such as an unknown product or account, as an item for you to resolve in Action Center.
+5.  After ingest, the agent gives you a summary of the created orders with a link to each order.
+6.  In Manage Order mode, the agent uses the currently opened order as context and shows you the actions available for the order's current state.
+7.  After you select an action, the agent validates the order and line-item data and applies the change, such as a bulk discount, a quantity update, a shipping address fix, a line removal, or a new case.
+8.  When an action is reversible, the agent offers to undo it.
 
 <table><thead><tr><th>
 
@@ -60,29 +65,125 @@ Tools
 
 </td><td>
 
--   **Script**
+-   **Scripts**
+
+Attach Order To Group
 
 bulk\_apply\_discount
+
+check\_product\_offering
+
+Compute Group Key
+
+Create All Orders From Run
+
+Create Header Followup
+
+Create Line Followup
+
+Create Order Header
+
+Create Order Line
+
+Create Orders From Run
+
+Create Single Order
 
 create\_order\_case
 
 create\_order\_line\_case
 
-undo\_last\_action
+Extract Splitting Fields
 
-Update quantity for all lines
-
-update\_shipping\_address
-
--   **Unknown**
+Fail Ingest Run
 
 Fetch actions available for the user from Order Assist- Action Selector
 
+Finalize Ingest Run
+
+find\_account\_by\_name
+
+find\_consumer\_by\_name
+
+find\_quote\_by\_number
+
 find\_similar\_location
+
+Get agent settings
+
+Get Followup Issues
+
+Get Open Action Items
+
+Get Order Schema Fields
+
+Get Quote Lines
+
+Get Unresolved Issues
+
+get\_order\_followups
+
+Group line data
+
+Initialize Run Followups
+
+Mark Header Successful
+
+Mark Line Successful
 
 Offer to undo previous order action
 
--   **Record Operation**
+Parse Attachment Headers
+
+Prepare Reprocess
+
+Read Attachment Content
+
+Read Ingest Run Lines
+
+Record Correction
+
+Record Followup Correction
+
+Record Line Failure
+
+Reprocess Followup
+
+resolve\_reference
+
+Save Column Mapping
+
+Start Ingest Run
+
+Suppress Followup
+
+undo\_last\_action
+
+Unsuppress Followup
+
+Update Action Item Error
+
+Update agent config
+
+Update Ingest Run
+
+Update Order Followup
+
+Update quantity for all lines
+
+Update Quote Work Note
+
+update\_shipping\_address
+
+Upload order splitting rules
+
+validate\_account\_sys\_id
+
+-   **Subflows**
+
+Order Assist DocIntel
+
+-   **Record operations**
 
 order\_number\_from\_order\_sys\_id
 
@@ -92,6 +193,10 @@ remove\_top\_order\_line\_item
 
 verify\_order\_line\_item
 
+-   **Capabilities**
+
+Extract information from documents
+
 
 </td></tr><tr><td>
 
@@ -99,7 +204,9 @@ Allowed user roles The specific user roles that can access this AI agent.
 
 </td><td>
 
-sn\_ind\_tmt\_orm.order\_agent
+-   admin
+-   sn\_ind\_tmt\_orm.order\_admin
+-   sn\_ind\_tmt\_orm.order\_agent
 
 </td></tr><tr><td>
 
@@ -107,7 +214,13 @@ Data access roles The specific user identity roles that determine which data the
 
 </td><td>
 
-sn\_ind\_tmt\_orm.order\_agent
+-   admin
+-   platform\_ml\_di.extraction\_agent
+-   sn\_ind\_tmt\_orm.order\_admin
+-   sn\_ind\_tmt\_orm.order\_agent
+-   sn\_order\_case.agent
+-   sn\_quote\_mgmt\_core.quote\_writer
+-   snc\_internal
 
 </td></tr><tr><td>
 
@@ -123,7 +236,7 @@ Channels
 
 </td><td>
 
-Not defined.
+Configure an assistant for Virtual Agent or ServiceNow Otto panel using [Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/configure-now-assist-va.md).
 
 </td></tr><tr><td>
 

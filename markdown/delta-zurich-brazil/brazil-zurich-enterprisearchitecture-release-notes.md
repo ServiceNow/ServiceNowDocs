@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-brazil/brazil-zurich-enterprisearchitecture-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 42
+last_updated: "2026-10-08"
+reading_time_minutes: 44
 breadcrumb: [Products combined by family]
 ---
 
@@ -428,7 +428,20 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **[MCP for Enterprise Architecture](https://www.servicenow.com/docs/access?context=exploring-ea-mcp-server&family=brazil&ft:locale=en-US)**
+
+Query business application insights, capability mappings, architectural relationships, and rationalization data from your AI assistant, without opening your ServiceNow instance.
+
+-   **[Enterprise Architecture for AICT plugin](https://www.servicenow.com/docs/access?context=eaw-aict&family=brazil&ft:locale=en-US)**
+
+    -   Associate AI systems with business applications whether you use Enterprise Architecture Workspace. The new Enterprise Architecture for AICT plugin stores these associations in its own data model and installs automatically as a dependency of AI Control Tower Core \(app-ai-governance\) application.
+    -   Select business applications while creating an AI system in AI Control Tower. View AI adoption across your business application portfolio on the new **Business portfolio** tab in the AI Control Tower workspace homepage.
+Before you upgrade, review [Enterprise Architecture for AICT plugin installation and upgrade considerations](https://www.servicenow.com/docs/access?context=aict-ea-common-upgrade-considerations&family=brazil&ft:locale=en-US).
+
+-   **[Migrate BA Product Model Map from EA Workspace job](https://www.servicenow.com/docs/access?context=eaw-run-migrate-ba-product-model-map-job&family=brazil&ft:locale=en-US)**
+
+Use the new **Migrate BA Product Model Map from EA Workspace** scheduled job to move existing AI system-to-business application associations to the Enterprise Architecture for AICT plugin's data model. If you activated the AI Control Tower integration on an Enterprise Architecture Workspace version earlier than 10.1.3, run this job after you upgrade.
+
 
 </td></tr></tbody>
 </table>## Changes
@@ -654,7 +667,24 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **[Business application insights trigger](https://www.servicenow.com/docs/access?context=generate-insights-into-ba&family=brazil&ft:locale=en-US)**
+
+Choose how the ServiceNow Otto Business application insights skill is triggered on the **Define trigger** tab in the AI Admin Hub. With the **Automatic** option selected, business application insights are generated when you open a business application record page, and the side panel in the application rationalization bubble chart opens on the **Insights** tab.
+
+With the **User trigger** option selected, business application insights are generated only when you select **Generate insights**, and the side panel opens on the **Details** tab.
+
+-   **[Enterprise Architecture query agent](https://www.servicenow.com/docs/access?context=ea-qna-overview&family=brazil&ft:locale=en-US)**
+
+Ask the Enterprise Architecture query agent about the impact of an infrastructure configuration item \(CI\), such as a database, database instance, server, or storage device. The agent follows CMDB relationships from the CI to the application services, business applications, and business capabilities that depend on it. You can also ask which infrastructure a business application or application service depends on.
+
+-   **[ServiceNow Otto for Enterprise Architecture skills](https://www.servicenow.com/docs/access?context=exploring-now-assist-for-ea&family=brazil&ft:locale=en-US)**
+
+Use the Gemma 4 model with ServiceNow Otto for Enterprise Architecture skills that run on the Now LLM Service.
+
+-   **[Technical debt list and form](https://www.servicenow.com/docs/access?context=view-trm-tech-debt&family=brazil&ft:locale=en-US)**
+
+View the new **Number** field in the technical debt list and form. Select a value in the **Number** column in the Technology Portfolio page to open the technical debt record.
+
 
 </td></tr></tbody>
 </table>## Removed
@@ -817,7 +847,7 @@ Brazil
 
 -   **Additional requirements**
 
-ServiceNow Otto features are available with activation of the ServiceNow Otto for Enterprise Architecture \(EA\) plugin. For more information, see [Install Now Assist plugins](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&family=brazil&ft:locale=en-US).
+ServiceNow Otto features are available with activation of the ServiceNow Otto for Enterprise Architecture \(EA\) plugin. For more information, see [Install plugins for ServiceNow Otto](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&family=brazil&ft:locale=en-US).
 
 
 </td></tr></tbody>

@@ -1,6 +1,6 @@
 ---
-title: Service Catalog readiness for Now Assist on the ServiceNow AI Platform
-description: A well-structured Service Catalog is essential to unlocking the full potential of Now Assist. As the backbone of many self-service workflows, the catalog enables Now Assist to interpret user requests accurately, present the right options, and minimize friction in the experience.
+title: Service Catalog readiness for AI on the ServiceNow AI Platform
+description: A well-structured Service Catalog is essential to supporting AI capabilities. As the backbone of many self-service workflows, the catalog enables ServiceNow Otto to interpret user requests accurately, present the right options, and reduce complexity for users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/sn-ai-impl-srvc-catalog.html
 release: brazil
@@ -11,17 +11,17 @@ keywords: [Now Assist, agentic AI, AI readiness]
 breadcrumb: [Application readiness, Assessing your AI readiness, Getting started with AI, Enable AI Experiences]
 ---
 
-# Service Catalog readiness for Now Assist on the ServiceNow AI Platform
+# Service Catalog readiness for AI on the ServiceNow AI Platform
 
-A well-structured Service Catalog is essential to unlocking the full potential of Now Assist. As the backbone of many self-service workflows, the catalog enables Now Assist to interpret user requests accurately, present the right options, and minimize friction in the experience.
+A well-structured Service Catalog is essential to supporting AI capabilities. As the backbone of many self-service workflows, the catalog enables ServiceNow Otto to interpret user requests accurately, present the right options, and reduce complexity for users.
 
-When catalog items are clearly defined and conversationally enabled, Now Assist in Virtual Agent can surface them more effectively, leading to higher self-service rates and better issue deflection.
+When catalog items are clearly defined and conversationally enabled, ServiceNow Otto for Virtual Agent can surface them more effectively, which can increase self-service rates and reduce escalations.
 
-However, catalogs that are cluttered, inconsistent, or overly complex make it difficult for AI to parse and respond appropriately. That’s why auditing your existing catalog is a critical first step. By identifying which items are AI-ready and optimizing those that aren’t, you ensure that Now Assist can deliver intelligent, context-aware responses.
+However, catalogs that are cluttered, inconsistent, or overly complex make it difficult for AI to parse and respond appropriately. That's why auditing your existing catalog is a critical first step. By identifying which items are AI-ready and optimizing those that aren't, you confirm that ServiceNow Otto can deliver intelligent, context-aware responses.
 
 ## High-level checklist
 
--   **1. Install the Catalog Conversational Coverage \(sn\_catalog\_con\_cov\) plugin**
+-   **1. Activate the Catalog Conversational Coverage \(sn\_catalog\_con\_cov\) plugin**
 
     This plugin gives you access to the conversational catalog overview dashboard.
 
@@ -41,9 +41,9 @@ However, catalogs that are cluttered, inconsistent, or overly complex make it di
 
     Identify catalog items with fewer than 15 variables. \(Items with more than 15 variables are better suited to be submitted as pop-up links to forms.\)
 
-    **Note:** Conversational catalog items require Now Assist in Virtual Agent. For details, see [Now Assist in Virtual Agent readiness on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/sn-ai-impl-nava.md).
+    **Note:** Conversational catalog items require ServiceNow Otto for Virtual Agent. For details, see [ServiceNow Otto for Virtual Agent readiness on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/sn-ai-impl-nava.md).
 
-    Why? These are easier to convert and provide quick AI wins.
+    Why? These are easier to convert and provide early AI improvements.
 
     See: [Service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_ServiceCatalogVariables.md)
 
@@ -51,7 +51,7 @@ However, catalogs that are cluttered, inconsistent, or overly complex make it di
 
     Ensure catalog items have clear, user-friendly names, tooltips, metadata, and categories. Using templates can help with this as well.
 
-    Why? This prevents LLM confusion and improves conversational flow.
+    Why? This prevents large language model \(LLM\) misinterpretation and improves conversational flow.
 
     See:
 
@@ -62,7 +62,7 @@ However, catalogs that are cluttered, inconsistent, or overly complex make it di
 
     Review UI policies, client scripts, and user criteria.
 
-    Why? User criteria determines who can request an item, but policies and scripts are ignored by Virtual Agent.
+    Why? User criteria determines who can request an item, but policies and scripts are not processed by Virtual Agent.
 
     See:
 
@@ -73,8 +73,8 @@ However, catalogs that are cluttered, inconsistent, or overly complex make it di
 
 ## Tips
 
--   [Use Now Assist in Catalog Builder to generate catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/now-assist-for-catalog-generation.md).
--   Limit the number of variables. Fewer is better.
+-   [Use ServiceNow Otto for Catalog Builder to generate catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/now-assist-for-catalog-generation.md).
+-   Limit the number of variables. Fewer variables improve conversational accuracy.
 -   [For form-based requests, select the Make item non-conversational in VA check box.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/using-catalog-conversational-experience.md)
 -   Provide clear context for the LLM with distinct names, labels, and tooltips.
 -   Minimize the use of custom variable types. [Use the service catalog variables included on the platform instead.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_VariableTypes.md)
@@ -85,5 +85,5 @@ However, catalogs that are cluttered, inconsistent, or overly complex make it di
 For more information about conversational catalogs in AI, see the following ServiceNow Community articles:
 
 -   [Guidance for making catalog items conversational](https://www.servicenow.com/community/intelligence-ml-articles/now-assist-in-conversational-catalog-request-guidance-for-making/ta-p/2987560)
--   [How to request catalog items in Now Assist in Virtual Agent](https://www.servicenow.com/community/virtual-agent-nlu-articles/how-to-request-catalog-items-in-now-assist-in-virtual-agent/ta-p/2747811)
+-   [How to request catalog items in ServiceNow Otto for Virtual Agent](https://www.servicenow.com/community/virtual-agent-nlu-articles/how-to-request-catalog-items-in-now-assist-in-virtual-agent/ta-p/2747811)
 

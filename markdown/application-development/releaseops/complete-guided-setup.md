@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [large scale deployment ServiceNow, ReleaseOps guided setup]
-breadcrumb: [Configure, ReleaseOps, Deploying applications, Building applications]
+breadcrumb: [Configure, ReleaseOps, Run, AI Workflow Factory, Building applications]
 ---
 
 # Complete ReleaseOps guided setup
@@ -127,4 +127,6 @@ Role required: admin or sn\_releaseops.releaseops\_pipeline\_admin
 ## Result
 
 You have completed guided setup for ReleaseOps. You can start using ReleaseOps to manage your deployments. For more information, see [Using ReleaseOps to manage deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/releaseops/using-releaseops-to-manage-deployments.md).
+
+**Parent Topic:**[Configuring ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/releaseops/configuring-releaseops.md)
 

@@ -32,15 +32,15 @@ Update your configuration to authenticate using an API key only \(that is, set *
 
     **Note:** You are required to use your own Google Maps JavaScript API Key from Google and not use any ServiceNow AI Platform® generated key.
 
-<table id="choicetable_okq_vnj_smb"><thead><tr><th align="left" id="d113196e112">
+<table id="choicetable_okq_vnj_smb"><thead><tr><th align="left" id="d113295e112">
 
 Existing Google Maps API for Business license available?
 
-</th><th align="left" id="d113196e118">
+</th><th align="left" id="d113295e118">
 
 Tasks
 
-</th></tr></thead><tbody><tr><td id="d113196e124">
+</th></tr></thead><tbody><tr><td id="d113295e124">
 
 **Existing license available**
 
@@ -55,7 +55,7 @@ Tasks
 
 The Google Maps Client ID–based configuration is being deprecated. Client ID authentication will not be supported starting May 2026, and configurations relying on it will no longer work.
 
-</td></tr><tr><td id="d113196e198">
+</td></tr><tr><td id="d113295e198">
 
 **No license available**
 

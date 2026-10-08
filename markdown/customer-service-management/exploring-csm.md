@@ -169,7 +169,7 @@ Embed a messenger-like pop up inside any website to interact with ServiceNow fea
 
 </td><td>
 
-[Engagement Messenger for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/engagement-center.md)
+[Engagement Messenger for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/engagement-center.md)
 
 </td><td>
 

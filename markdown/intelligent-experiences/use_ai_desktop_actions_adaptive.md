@@ -50,6 +50,8 @@ AI Desktop Actions maintains context of the task until it is completed or failed
 
     If you have already granted the permissions, the application displays the login page.
 
+    **Note:** If you want to create reusable skills from this task and reuse them for a new task, you must use the reusable skills feature. For more information, see [Reusable skills in adaptive desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/reusable-skills-adaptive-da.md).
+
 3.  On the login page, in the **Add ServiceNow URL** field, enter the ServiceNow instance URL.
 
     For example, `https://<instance name>.service-now.com`.
@@ -71,7 +73,7 @@ AI Desktop Actions maintains context of the task until it is completed or failed
     -   Where the data is located
     -   What the result should be
     -   Any specific values or settings to use
-    Example: Open /users/sales\_data.xlsx. Navigate to sheets "Q1", "Q2", "Q3". In each sheet, identify column C \(Revenue\) and sum all values. Create a new sheet named "Annual\_Summary". In this new sheet, create a table with: Row headers \(Q1, Q2, Q3\), Column A with quarterly totals calculated from each sheet, Column B with monthly averages. Add a row for Annual Total. Format cells with currency format. Save the file.
+    Example: Open /users/sales\_data.xlsx. Navigate to sheets "Q1", "Q2", "Q3". In each sheet, identify column C \(Revenue\) and sum all values. Create a sheet named "Annual\_Summary". In this new sheet, create a table with: Row headers \(Q1, Q2, Q3\), Column A with quarterly totals calculated from each sheet, Column B with monthly averages. Add a row for Annual Total. Format cells with currency format. Save the file.
 
     **Note:** Some actions, such as background processing or non-UI operations, displays an "Executing in background" tag in AI steps to indicate that the AI agent is working on a task that is not visible on your screen.
 
@@ -92,15 +94,15 @@ AI Desktop Actions maintains context of the task until it is completed or failed
     -   **Cancel**: Select this option if you want to modify the plan and resubmit with more specific instructions.
 10. Depending on the security policy evaluation result, do one of the following.
 
-<table id="choicetable_tlm_zjb_jkc"><thead><tr><th align="left" id="d183697e358">
+<table id="choicetable_tlm_zjb_jkc"><thead><tr><th align="left" id="d223599e367">
 
 Resource access
 
-</th><th align="left" id="d183697e361">
+</th><th align="left" id="d223599e370">
 
 Description and action
 
-</th></tr></thead><tbody><tr><td id="d183697e367">
+</th></tr></thead><tbody><tr><td id="d223599e376">
 
 **Denied**
 
@@ -110,7 +112,7 @@ Description and action
 -   Application: The AI agent tries an alternative approach to open the application.
 
 
-</td></tr><tr><td id="d183697e385">
+</td></tr><tr><td id="d223599e394">
 
 **Allowed**
 
@@ -118,7 +120,7 @@ Description and action
 
 The AI agent continues with the task automatically.
 
-</td></tr><tr><td id="d183697e394">
+</td></tr><tr><td id="d223599e403">
 
 **Neither allowed nor denied**
 

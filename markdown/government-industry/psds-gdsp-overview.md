@@ -31,6 +31,7 @@ UK constituents can do the following self-service tasks in the GDS Service Porta
 -   Get help using Virtual Agent.
 -   Request services such as street repair, trash removal, building inspections, and other public maintenance.
 -   Request information and public records from local, state, and federal public agencies.
+-   GOV.UK One Login Integration for Public Sector Digital Services
 
 For more information on how to set up and configure the pages and widgets offered by the GOV.UK Developer Toolkit, see [Configure the GOV.UK Design System \(GDS\) Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-gds-content-pack-gsp.md).
 

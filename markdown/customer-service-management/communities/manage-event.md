@@ -89,7 +89,7 @@ Shows the top five most popular past events and the number of community users th
 
 4.  You have the following options.
 
-<table id="choicetable_ixj_1fr_gbb"><tbody><tr><td id="d224674e220">
+<table id="choicetable_ixj_1fr_gbb"><tbody><tr><td id="d226695e220">
 
 **Edit**
 
@@ -97,7 +97,7 @@ Shows the top five most popular past events and the number of community users th
 
 Click **Edit**. The **Update Event** page opens. An email notification is sent to all community users who responded **Yes**, **Maybe**, or **Waitlist**.
 
-</td></tr><tr><td id="d224674e244">
+</td></tr><tr><td id="d226695e244">
 
 **Delete**
 
@@ -105,7 +105,7 @@ Click **Edit**. The **Update Event** page opens. An email notification is sent t
 
 Click **Delete**. A warning message appears asking if you are sure that to delete the event. An email notification is sent to all community users who responded **Yes**, **Maybe**, or **Waitlist**.
 
-</td></tr><tr><td id="d224674e265">
+</td></tr><tr><td id="d226695e265">
 
 **Add to calendar**
 
@@ -113,7 +113,7 @@ Click **Delete**. A warning message appears asking if you are sure that to delet
 
 An `.ics` file is downloaded that you can add to your calendar. The file includes the title and description of the event, the event location, start and end dates, the event time, and any attachments. If guests have chosen not to share their details, the information is not displayed in the file download.
 
-</td></tr><tr><td id="d224674e277">
+</td></tr><tr><td id="d226695e277">
 
 **Bookmark**
 
@@ -121,7 +121,7 @@ An `.ics` file is downloaded that you can add to your calendar. The file include
 
 The event appears in your bookmarks list on your profile page. If you have already bookmarked the event, you can click **Remove Bookmark**.
 
-</td></tr><tr><td id="d224674e289">
+</td></tr><tr><td id="d226695e289">
 
 **Report content**
 
@@ -129,7 +129,7 @@ The event appears in your bookmarks list on your profile page. If you have alrea
 
 As a community admin, click **Report content** to report inappropriate content in the event.
 
-</td></tr><tr><td id="d224674e302">
+</td></tr><tr><td id="d226695e302">
 
 **Download Guest List**
 

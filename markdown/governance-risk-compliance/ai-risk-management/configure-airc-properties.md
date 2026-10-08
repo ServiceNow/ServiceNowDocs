@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [AIRC properties, authority documents, RAM configuration]
-breadcrumb: [AI Risk and Compliance, Governance, Risk, and Compliance]
+breadcrumb: [Configure, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
 
 # Set up AI Risk and Compliance properties
@@ -73,5 +73,5 @@ After configuring properties, verify that the AI Risk and Compliance Workspace h
 
 [Risk assessment methodologies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/airc-rams.md)
 
-[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/configuring-ai-risk-and-compliance.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/configuring-ai-risk-and-compliance.md)
+[Configuring AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/configuring-ai-risk-and-compliance.md)
 

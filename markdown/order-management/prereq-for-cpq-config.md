@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-05-05"
 reading_time_minutes: 2
-breadcrumb: [With guided setup, Set up CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [With guided setup, Set up CPQ, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Prerequisites for setting up CPQ

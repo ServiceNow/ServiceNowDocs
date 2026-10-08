@@ -25,7 +25,7 @@ As a contract configurator, after adding the content controls to the Microsoft W
 -   **[Complete clause mapping to build a clause library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/contract-management-pro/cncore-clause-map-addin.md)**  
 As a contract configurator, complete clause mapping to build a clause library of clause variations containing the content marked in the Microsoft Word document using the Microsoft Word Add-in for ServiceNow Contracts.
 
-**Parent Topic:**[Configure templates for a contract and amendment request in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/contract-management-pro/cncore-document-templates.md)
+**Parent Topic:**[Configure templates for a contract requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/contract-management-pro/cncore-document-templates.md)
 
 **Related topics**  
 

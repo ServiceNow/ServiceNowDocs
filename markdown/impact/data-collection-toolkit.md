@@ -7,7 +7,7 @@ release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Configuring Impact, Impact]
+breadcrumb: [Guided Setup, Configuring Impact, Impact]
 ---
 
 # Enable data collection for Value Management
@@ -40,17 +40,17 @@ Impact Value Management data collection apps are delivered by the Impact squad w
 
 Get started with the Data Collection Content Pack for your respective product:
 
--   [Impact Value Management Data Collection for APM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/data-collection-apm.md)
+-   [Impact Value Management Data Collection for Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/data-collection-apm.md)
 -   [Impact Value Management Data Collection Content Pack for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/data-collection-app-engine.md)
--   [Impact Value Management Data Collection Content Pack for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/data-collection-csm.md)
+-   [Impact Value Management Data Collection Content Pack for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/data-collection-csm.md)
 -   [Impact Value Management Data Collection Content Pack for IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/data-collection-sam.md)
 -   
--   [Impact Value Management Data Collection Content Pack for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/data-collection-itsm.md)
--   [Impact Value Management Data Collection Content Pack for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/data-collection-itom.md)
--   [Impact Value Management Data Collection Content Pack for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/data-collection-hr.md)
--   [Impact Value Management Data Collection Content Pack for SecOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/data-collection-secops.md)
--   [Impact Value Management Data Collection Content Pack for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/data-collection-spm.md)
--   [Impact Value Management Data Collection Content Pack for IRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/data-collection-irm.md)
+-   [Impact Value Management Data Collection Content Pack for IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/data-collection-itsm.md)
+-   [Impact Value Management Data Collection Content Pack for IT Operations Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/data-collection-itom.md)
+-   [Impact Value Management Data Collection Content Pack for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/data-collection-hr.md)
+-   [Impact Value Management Data Collection Content Pack for Security Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/data-collection-secops.md)
+-   [Impact Value Management Data Collection Content Pack for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/data-collection-spm.md)
+-   [Impact Value Management Data Collection Content Pack for Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/data-collection-irm.md)
 
 -   **[Install Impact Value Management Data Collection Content Pack Apps dependent plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/dc-install-plugins.md)**  
 Install the dependent plugins for Impact Value Management Data Collection Content Pack apps
@@ -58,30 +58,26 @@ Install the dependent plugins for Impact Value Management Data Collection Conten
 You can make changes to the Data Collection configuration to align with your organization's needs.
 -   **[Upgrading the Data Collection Content Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/dc-all-upgrade.md)**  
 When you upgrade the Data Collection Content Pack, you must account for any customizations you've made.
--   **[Impact Value Management Data Collection for APM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/data-collection-apm.md)**  
+-   **[Impact Value Management Data Collection for Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/data-collection-apm.md)**  
 Install and configure the Data Collection Content Pack for APM.
 -   **[Impact Value Management Data Collection Content Pack for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/data-collection-app-engine.md)**  
 Install and configure the Data Collection Content Pack for App Engine.
--   **[Impact Value Management Data Collection Content Pack for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/data-collection-csm.md)**  
-Install and configure the Data Collection Content Pack for CSM.
+-   **[Impact Value Management Data Collection Content Pack for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/data-collection-csm.md)**  
+Install and configure the Data Collection Content Pack for Customer Service Management.
 -   **[Impact Value Management Data Collection Content Pack for IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/data-collection-sam.md)**  
 Install and configure the Data Collection Content Pack for SAM.
--   **[Impact Value Management Data Collection Content Pack for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/data-collection-itsm.md)**  
-Install and configure the Data Collection Content Pack for ITSM.
--   **[Impact Value Management Data Collection Content Pack for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/data-collection-itom.md)**  
-Install and configure the Data Collection Content Pack for ITOM.
--   **[Impact Value Management Data Collection Content Pack for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/data-collection-hr.md)**  
-Install and configure the HR Data Collection Content Pack.
--   **[Impact Value Management Data Collection Content Pack for SecOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/data-collection-secops.md)**  
-Install and configure the Data Collection Content Pack for SecOps.
--   **[Impact Value Management Data Collection Content Pack for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/data-collection-spm.md)**  
+-   **[Impact Value Management Data Collection Content Pack for IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/data-collection-itsm.md)**  
+Install and configure the Data Collection Content Pack for IT Service Management.
+-   **[Impact Value Management Data Collection Content Pack for IT Operations Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/data-collection-itom.md)**  
+Install and configure the Data Collection Content Pack for IT Operations Management.
+-   **[Impact Value Management Data Collection Content Pack for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/data-collection-hr.md)**  
+Install and configure the HR Service Delivery Data Collection Content Pack.
+-   **[Impact Value Management Data Collection Content Pack for Security Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/data-collection-secops.md)**  
+Install and configure the Data Collection Content Pack for Security Operations.
+-   **[Impact Value Management Data Collection Content Pack for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/data-collection-spm.md)**  
 Install and configure the Data Collection Content Pack for SPM.
--   **[Impact Value Management Data Collection Content Pack for IRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/data-collection-irm.md)**  
+-   **[Impact Value Management Data Collection Content Pack for Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/data-collection-irm.md)**  
 Install and configure the Data Collection Content Pack for IRM.
 
-**Parent Topic:**[Configuring Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/configuring-impact-platform.md)
-
-**Previous topic:**[Activate Now Assist Skills for Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/activate-now-assist-skills-in-now-assist-for-impact.md)
-
-**Next topic:**[Install Impact Value Management Data Collection Content Pack Apps dependent plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/dc-install-plugins.md)
+**Parent Topic:**[Impact Guided Setup \(Legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/guided-setup-impact-in-app.md)
 

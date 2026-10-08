@@ -9,7 +9,7 @@ classification: developer-sandboxes
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Explore, Developer Sandboxes, Developing your application, Building applications]
+breadcrumb: [Explore, Developer Sandboxes, Build, AI Workflow Factory, Building applications]
 ---
 
 # Supported ServiceNow AI Platform features in Developer Sandboxes
@@ -48,4 +48,6 @@ You can have up to 30 sandboxes per instance.
 Developer Sandboxes does not support self-hosted instances by default, though you can set up your own networking and routing changes to support sandboxes.
 
 **Note:** Developer Sandboxes are not supported on UI/Worker node instances.
+
+**Parent Topic:**[Exploring Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/developer-sandboxes/exploring-sandboxes.md)
 

@@ -9,6 +9,7 @@ classification: accelerator-and-initiative-list
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 2
+keywords: [Event Management]
 breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
@@ -16,9 +17,9 @@ breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initi
 
 The Jumpstart Your Event Management Accelerator provides a demonstration of the possibilities and capabilities of Event Management.
 
-## Accelerator overview
+## Accelerator Overview
 
-Jumpstart Your Event Management provides Impact customers with a comprehensive overview of Event Management. Through an applied demonstration, we highlight how you can leverage the power of the ServiceNow Configuration Management Database \(CMDB\) to receive and review near real-time alerts from your infrastructure directly within the ServiceNow platform. This offering equips our customers with essential ServiceNow resources and leading practice guides on  how to get started with Event Management. See [Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/c_EM.md) for additional information about the feature.
+Jumpstart Your Event Management provides Impact customers with a comprehensive overview of Event Management. Through an applied demonstration, we highlight how solid, service-aligned data enables you to receive and review near real-time alerts from your infrastructure directly within the ServiceNow platform. The demonstration also showcases generative AI alert summarization, which translates complex, technical alerts into clear, actionable explanations, helping teams cut through noise and get to resolution faster. This offering equips customers with essential ServiceNow resources and general guidelines on how to get started with Event Management and its AI capabilities.
 
 ## Package Availability
 
@@ -30,12 +31,10 @@ Jumpstart Your Event Management provides Impact customers with a comprehensive o
 
     The Technical Accelerator Consultant:
 
-    -   Provisions a temporary instance 
+    -   Provisions a temporary instance
     -   Installs Event Management
     -   Installs Event Generator application
-    ​
-
--   **Customer Coaching Session \#1 \(Up to 1.5 hrs\)**
+-   **Customer Coaching Session \#1 \( up to 1.5 hours\)**
 
     Includes the following:
 
@@ -48,8 +47,8 @@ Jumpstart Your Event Management provides Impact customers with a comprehensive o
         -   Generating events via the Event Generator app
         -   Alerts to configuration item \(CI\) Binding
         -   Existing alerts or services impacted
-    -   Leading practice guides and resources
--   **Customer Coaching Session \#2 \(Optional upon Customer request - up to 1 hr\)​**
+    -   General guidelines and resources
+-   **Customer Coaching Session \#2 \(optional, upon customer request — up to 1 hour\)**
 
     Opportunity for Q&amp;A related to Event Management
 
@@ -59,70 +58,22 @@ Jumpstart Your Event Management provides Impact customers with a comprehensive o
 
 ## Requested Customer Resources
 
-<table id="table_kh2_jrq_dsb"><thead><tr><th>
+|Customer Resource|Responsibilities|
+|-----------------|----------------|
+|Platform Owner \(Required\)|Responsible for the overall accountability of the ServiceNow platform. Provides leadership and oversight to the System Administrators. Ensures team alignment to business strategy and the ServiceNow roadmap. Actively involved in the overarching governance of the platform.|
+|System Administrator\(s\) \(Required\)|Maintains the stability and usability of the ServiceNow platform by performing application maintenance and managing support for cases related to ServiceNow applications. Contributes to ServiceNow software releases by delivering configuration tasks and features.|
+|Event/Service Operator \(Required\)|Subject matter expert responsible for operating the alert console.|
+|Service Manager\(s\) \(Recommended\)|Subject matter expert responsible for managing the applicable service.|
+|Trusted Service Partners \(Recommended\)|Participation in ServiceNow Impact Accelerator coaching session\(s\) to understand general guidelines and potentially support customers going forward.|
+|Application Service Owner\(s\) \(Required\)|Manages all applications across a given division \(e.g., HR application owner\).|
 
-Customer Resource 
-
-</th><th>
-
-Responsibilities 
-
-</th></tr></thead><tbody><tr><td>
-
-Platform Owner \(Required\)
-
-</td><td>
-
-Responsible for the overall accountability of the ServiceNow platform. Provides leadership and oversight to the System Administrators, ensures team alignment to business strategy and the ServiceNow roadmap, and is actively involved in the overarching governance of the platform.
-
-</td></tr><tr><td>
-
-System Administrator\(s\) \(Required\)
-
-</td><td>
-
-Maintains the stability and usability of the ServiceNow platform by performing application maintenance, managing support for cases related to ServiceNow applications, and contributing to ServiceNow software releases by delivering configuration tasks and features. 
-
-</td></tr><tr><td>
-
-Event/Service Operator \(Required\)
-
-</td><td>
-
-Subject matter expert responsible for operating the alert console.
-
-</td></tr><tr><td>
-
-Service Manager\(s\) \(Recommended\)
-
-</td><td>
-
-Subject matter expert responsible for managing the applicable service. 
-
-</td></tr><tr><td>
-
-Trusted Service Partners \(Recommended\)
-
-</td><td>
-
-Attends ServiceNow Impact Accelerator coaching session\(s\) to understand leading practices and potentially support customer going forward.
-
-</td></tr><tr><td>
-
-Application Service Owner\(s\) \(Required\)
-
-</td><td>
-
-Manages all applications across a given division \(e.g., HR application owner\).
-
-</td></tr></tbody>
-</table>## Requested Information/Access
+## Requested Information/Access
 
 **Note:** Additional details on supplemental legal terms, prerequisites, specifications, requirements, and exclusions can be found in the [Impact Accelerator Terms Matrix](https://www.servicenow.com/legal/servicenow-impact.html).
 
 ## Exclusions
 
-This Impact Accelerator in its entirety or portions of the Impact Accelerator Activities may not be available to customers in certain restricted environments, to self-hosted customers, or to managed service providers \(except for their internal use\).
+This Impact Accelerator in its entirety or portions of the Impact Accelerator Activities may not be available to customers in certain restricted environments, to self-hosted customers, or to managed service providers \(except for their internal use\).
 
-ServiceNow resources are not responsible for implementing recommendations on a customer’s non-production or production instances.
+ServiceNow resources are not responsible for implementing recommendations on a customer's non-production or production instances.
 

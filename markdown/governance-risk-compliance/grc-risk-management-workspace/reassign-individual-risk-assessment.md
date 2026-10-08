@@ -1,6 +1,6 @@
 ---
 title: Reassign an individual risk assessment
-description: Reassign one or more in-progress risk assessments to a different assessor from the In Progress Assessments list.
+description: Reassign one or more risk assessments that are new or already in progress to a different assessor from the In Progress Assessments list.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/grc-risk-management-workspace/reassign-individual-risk-assessment.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Perform Advanced Risk Assessment, Use, Risk Management, Governance,
 
 # Reassign an individual risk assessment
 
-Reassign one or more in-progress risk assessments to a different assessor from the In Progress Assessments list.
+Reassign one or more risk assessments that are new or already in progress to a different assessor from the In Progress Assessments list.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: sn\_risk\_advanced.ara\_planner or sn\_risk\_advanced.ara\_admin
 
 ## About this task
 
-Use this task to reassign a risk assessment that's already in progress, without going through the risk assessment project or record that it belongs to.
+Use this task to reassign any risk assessment that's new or already in progress, without going through the risk assessment project or record that it belongs to.
 
 ## Procedure
 

@@ -16,9 +16,7 @@ breadcrumb: [Getting started, Workforce Optimization for ITSM, IT Service Manage
 
 Use a guided approach to simplify the setup and configuration of groups within Workforce Optimization for ITSM from a central location.
 
-**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
-
-**Note:** Starting with the Australia release, Admin Console in Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. Starting with the Australia release, Admin Console in Workforce Optimization for ITSM was already being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 Configure access to each application within Workforce Optimization for ITSM tailored to your organizational needs. The foundation on which Workforce Optimization for ITSM operates is to organize all teams into assignment groups. For more information, see [Configuring groups in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/workforce-optimization-for-it-service-management/configuring-groups-wfo-itsm.md).
 

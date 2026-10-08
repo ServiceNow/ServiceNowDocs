@@ -9,7 +9,7 @@ classification: releaseops
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, ReleaseOps, Deploying applications, Building applications]
+breadcrumb: [Configure, ReleaseOps, Run, AI Workflow Factory, Building applications]
 ---
 
 # Set Automated Test Framework \(ATF\) code coverage
@@ -58,4 +58,6 @@ To learn more about ATF code coverage, see [Deployment analyzer in ReleaseOps](h
 
 9.  Select **Save and close**.
 
+
+**Parent Topic:**[Configuring ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/releaseops/configuring-releaseops.md)
 

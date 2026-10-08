@@ -9,7 +9,7 @@ classification: app-engine-management-center
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Explore, App Engine Management Center, Governing app development, Building applications]
+breadcrumb: [Explore, App Engine Management Center, Run, AI Workflow Factory, Building applications]
 ---
 
 # Testing applications in AEMC
@@ -77,4 +77,6 @@ Simply open the record of the instance. The results are split into three tabs:
     -   Scan URL
     -   Finding count for the scan
 -   **Results \(JSON\)** includes unformatted JSON code of the ATF and instance scan results, as well as any errors identified during the scans. This JSON can also be found in the **Notes** related list.
+
+**Parent Topic:**[Exploring the App Engine Management Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/exploring-aemc.md)
 

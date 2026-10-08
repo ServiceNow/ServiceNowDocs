@@ -1,18 +1,18 @@
 ---
 title: Create a consumer staff relationship
-description: Create a relationship between a staff member at a business location and a consumer.
+description: Create a relationship between a staff member at a business organization \(formerly business location\) and a consumer.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-staff-consumer-relationship.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-10-04"
 reading_time_minutes: 1
-breadcrumb: [Business locations, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
+breadcrumb: [Business Organizations, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Create a consumer staff relationship
 
-Create a relationship between a staff member at a business location and a consumer.
+Create a relationship between a staff member at a business organization \(formerly business location\) and a consumer.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: admin, sn\_crm\_consumer\_relationship\_data\_manager, sn\_custom
 
 ## About this task
 
-Users who have been added as staff members to a business location can be assigned a consumer relationship.
+Users who have been added as staff members to a business organization can be assigned a consumer relationship.
 
 -   Administrators and customer service managers can assign a staff member from any location.
 -   Location managers can assign staff members from the locations that they have access to.
@@ -31,9 +31,9 @@ Relationships are based on responsibilities. A responsibility definition describ
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Customer Service** &gt; **Service Organizations** &gt; **Internal/External Business Locations**.
+1.  Navigate to **All** &gt; **Customer Service** &gt; **Business Organizations** &gt; **Internal/External Organizations**.
 
-2.  Select either an internal or an external business location.
+2.  Select either an internal or external organization \(formerly internal or external business location\).
 
 3.  In the Consumer Staff Relationships related list, select **New**.
 

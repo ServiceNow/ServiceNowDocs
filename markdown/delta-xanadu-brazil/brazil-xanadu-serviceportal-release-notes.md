@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-serviceportal-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 9
+last_updated: "2026-10-08"
+reading_time_minutes: 10
 breadcrumb: [Products combined by family]
 ---
 
@@ -117,7 +117,16 @@ Zurich
 
 </td><td>
 
--   **[Configure Service Portal Approval Configuration record](https://www.servicenow.com/docs/access?context=configure-approval-assistance-ai-agent&family=zurich&ft:locale=en-US)**
+-   **[Approval Info Record widget](https://www.servicenow.com/docs/access?context=approval-info-record-widget&family=zurich&ft:locale=en-US)**
+
+The Service Portal Approval Info Record widget shows details about the approval request and a full record for an approval including the activity stream.
+
+The Approval Info Record widget and the new Now Assist Approval Assistance AI agent maintain parity. To use the new Approval Info Record widget, activate the Approval Details Page Route Map, and uptake the Approval Info Record widget in your custom page.
+
+The new Now Assist Approval Assistance AI agent allows you to see your pending approvals, as well as the details about your pending approvals. For more information, see [Approval assistance AI agent](https://www.servicenow.com/docs/access?context=platform-approval-aia&family=zurich&ft:locale=en-US).
+
+
+ -   **[Configure Service Portal Approval Configuration record](https://www.servicenow.com/docs/access?context=configure-approval-assistance-ai-agent&family=zurich&ft:locale=en-US)**
 
 Configure the Service Portal Approval Configuration record to make the Approval Assistance AI agent and Approval Info Record widget work better for your specific use case.
 
@@ -405,6 +414,8 @@ Australia
 
 Service Portal is a ServiceNow AI Platform feature that is active by default.
 
+
+**Important:** Service Portal is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 

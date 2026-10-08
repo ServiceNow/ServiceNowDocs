@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/using-partner-relationship-management.html
 release: brazil
 topic_type: concept
-last_updated: "2026-09-24"
-reading_time_minutes: 3
+last_updated: "2026-10-08"
+reading_time_minutes: 2
 breadcrumb: [Use, Sales Customer Relationship Management]
 ---
 
@@ -96,7 +96,7 @@ General Inquiry
 
 </td><td>
 
-Raise concerns or queries with the enterprise.To learn more about general inquiry, see [Raise an inquiry on Partner Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/raise-an-inquiry-on-partner-portal.md).
+Raise concerns or queries with the enterprise.To learn more about general inquiry, see .
 
 </td></tr><tr><td>
 
@@ -155,11 +155,7 @@ Search
 Search for support articles and other requests.Enter a search word or term and select **Search** to view the results.
 
 </td></tr></tbody>
-</table>-   **[Raise an inquiry on Partner Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/raise-an-inquiry-on-partner-portal.md)**  
-Raise a query or concern with the enterprise on the Partner Portal.
--   **[Register a member on Partner portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/register-a-member-on-partner-portal.md)**  
-Register a new partner member or transfer existing staff within a partner organization.
--   **[Register a deal on Partner portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/register-a-deal-partner-portal.md)**  
+</table>-   **[Register a deal on Partner portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/register-a-deal-partner-portal.md)**  
 Register a deal on the Partner portal to update its state and trigger the end-to-end life cycle of the deal.
 -   **[Register a deal using agentic AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/register-deal-using-agentic-ai.md)**  
 The **Deal Registration Agent** assists users in submitting deal registrations and perform specific actions, such as updating fields, managing products, and retrieving deal details.
@@ -175,7 +171,5 @@ View detailed analytics related to all the quotes associated to a channel partne
 **Related topics**  
 
 
-[Raise an inquiry on Partner Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/raise-an-inquiry-on-partner-portal.md)
-
-[Register a member on Partner portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/register-a-member-on-partner-portal.md)
+[raise-an-inquiry-on-partner-portal]
 

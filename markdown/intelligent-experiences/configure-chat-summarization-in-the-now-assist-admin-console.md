@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Configure, chat, summarization, Now Assist Admin, console, technology, trigger, skill, input]
-breadcrumb: [Activate an AI skill, Using Now Assist Admin, AI Admin Hub, Generative AI skills, Enable AI Experiences]
+breadcrumb: [Activate an AI skill, Using AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
 # Configure chat summarization and chat reply recommendation skills in the AI Admin Hub console

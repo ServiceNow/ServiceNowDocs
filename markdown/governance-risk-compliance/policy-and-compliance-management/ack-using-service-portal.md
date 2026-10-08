@@ -9,7 +9,7 @@ classification: policy-and-compliance-management
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Acknowledge policy, Manage, Classic UI, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Acknowledge policy, Manage, Classic UI, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Work with acknowledgements using the Service Portal
@@ -38,7 +38,7 @@ Role required: sn\_grc.business\_user, sn\_grc.business\_user\_lite, sn\_grc\_em
 
     **Note:** The actions you can perform on the policy acknowledgement depend on how the acknowledgement campaign was configured, as follows.
 
-<table id="choicetable_nql_zdn_mjb"><tbody><tr><td id="d116303e145">
+<table id="choicetable_nql_zdn_mjb"><tbody><tr><td id="d117092e145">
 
 **If the policy is in compliance**
 
@@ -46,7 +46,7 @@ Role required: sn\_grc.business\_user, sn\_grc.business\_user\_lite, sn\_grc\_em
 
 Click **Accept**.
 
-</td></tr><tr><td id="d116303e157">
+</td></tr><tr><td id="d117092e157">
 
 **If the policy is not in compliance and you are allowed to decline the request**
 
@@ -54,7 +54,7 @@ Click **Accept**.
 
 Click **Decline**.
 
-</td></tr><tr><td id="d116303e169">
+</td></tr><tr><td id="d117092e169">
 
 **If you do not want to respond, and you want to opt out**
 

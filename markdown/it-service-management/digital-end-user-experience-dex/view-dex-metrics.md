@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [metrics analyzer, view collected metrics, configuration item metrics, time series, aggregated metrics]
-breadcrumb: [Monitor application performance, Manage, Digital End-User Experience, IT Service Management]
+breadcrumb: [Monitor application performance, Manage employee experience, Digital End-User Experience, IT Service Management]
 ---
 
 # View collected metrics with Metrics analyzer
@@ -29,9 +29,6 @@ Use DEX Metrics analyzer to view key performance metrics collected for specific 
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-    -   AMER \(Americas\): `itomcnc-prod-gateway-amer.sncapps.service-now.com:443`
-    -   EMEA \(Europe\): `itomcnc-prod-gateway-emea.sncapps.service-now.com:443`
-    -   APAC \(Asia Pacific\): `itomcnc-prod-gateway-apac.sncapps.service-now.com:443`
 2.  In the primary navigation pane, select the Devices icon \(\[Omitted image "icon-devices.png"\]\) or the Applications icon \(\[Omitted image "icon-applications.png"\]\).
 
 3.  Select a device or an application from the list.

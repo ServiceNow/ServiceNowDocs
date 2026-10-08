@@ -1,6 +1,6 @@
 ---
-title: Service Graph Connector for Tanium Endpoints properties
-description: Service Graph Connector for Tanium Endpoints properties control the behavior of the connector.
+title: Service Graph Connector for Tanium Atlas Endpoints properties
+description: Service Graph Connector for Tanium Atlas Endpoints properties control the behavior of the connector.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgc-tanium-endpoints-properties.html
 release: brazil
@@ -9,16 +9,16 @@ classification: service-graph-connectors
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, Tanium Endpoints, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Reference, Tanium Atlas Endpoints, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Service Graph Connector for Tanium Endpoints properties
+# Service Graph Connector for Tanium Atlas Endpoints properties
 
-Service Graph Connector for Tanium Endpoints properties control the behavior of the connector.
+Service Graph Connector for Tanium Atlas Endpoints properties control the behavior of the connector.
 
 ## Connection properties
 
-These connection properties are available for the Service Graph Connector for Tanium Endpoints.
+These connection properties are available for the Service Graph Connector for Tanium Atlas Endpoints.
 
 **Note:** To open the Service Graph Connection Properties \[sn\_cmdb\_int\_util\_service\_graph\_connection\_property\] table for the connector, navigate to **All** &gt; **Service Graph Connectors** &gt; **Tanium Endpoints** &gt; **Connections** and select the connection name. The connection properties are displayed in the Service Graph Connection Properties related list.
 
@@ -49,7 +49,7 @@ Specifies the page size per API call for the REST action. Default value: `50`
 </td></tr></tbody>
 </table>## System properties
 
-These system properties are available for the Service Graph Connector for Tanium Endpoints.
+These system properties are available for the Service Graph Connector for Tanium Atlas Endpoints.
 
 **Note:** To open the System Properties \[sys\_properties\] table, enter `sys_properties.list` in the navigation filter.
 
@@ -82,5 +82,5 @@ Set this property to `true` to exclude the serial number from the CI record for 
 -   Location: System Property \[sys\_properties\] table
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Service Graph Connector for Tanium Endpoints reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-tanium-endpoints-reference.md)
+</table>**Parent Topic:**[Service Graph Connector for Tanium Atlas Endpoints reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/service-graph-connectors/sgc-cmdb-tanium-endpoints-reference.md)
 

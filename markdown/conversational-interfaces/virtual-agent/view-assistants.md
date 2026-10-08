@@ -8,7 +8,7 @@ product: Virtual Agent
 classification: virtual-agent
 topic_type: task
 last_updated: "2025-09-10"
-reading_time_minutes: 7
+reading_time_minutes: 6
 keywords: [Now Assist, Virtual Agent, LLM, Large language model]
 breadcrumb: [Assistants overview, Create assistants, Virtual Agent, Conversational Interfaces]
 ---
@@ -93,20 +93,19 @@ To change the LLM provider for all assistants on the instance, select **Customiz
 2.  To set up your chat assistant, see:
 
 3.  1.  [Create a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/create-assistant.md).
-2.  [Use agentic support for a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/use-agentic-support.md).
-3.  [Assign search sources to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/add-info-sources-assistant.md).
-4.  [Add a Knowledge Graph schema to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/add-kg-schema-assistant.md).
-5.  
-6.  [Add assets to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/add-assets.md).
-7.  [Display your assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/display-assistant-portal-channel.md).
-8.  For ServiceNow Otto panel assistants, see [Display your assistant on Platform or ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/display-nap-assistant.md).
-9.  [Brand and personalize an assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/brand-assistant.md).
-10. [Enable additional chat features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/additional-chat-features.md).
-11. [Manage an assistant chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/manage-assistant-chat-experience.md).
-12. [Review chat assistant settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/review-assistant-settings.md).
-13. [Test a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/test-assistant.md).
-14. [Edit a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/edit-assistant.md).
-15. [Manage response feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/manage-sentiment-survey.md).
+2.  [Assign search sources to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/add-info-sources-assistant.md).
+3.  [Add a Knowledge Graph schema to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/add-kg-schema-assistant.md).
+4.  
+5.  [Add assets to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/add-assets.md).
+6.  [Display your assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/display-assistant-portal-channel.md).
+7.  For ServiceNow Otto panel assistants, see [Display your assistant on Platform or ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/display-nap-assistant.md).
+8.  [Brand and personalize an assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/brand-assistant.md).
+9.  [Enable additional chat features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/additional-chat-features.md).
+10. [Manage an assistant chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/manage-assistant-chat-experience.md).
+11. [Review chat assistant settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/review-assistant-settings.md).
+12. [Test a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/test-assistant.md).
+13. [Edit a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/edit-assistant.md).
+14. [Manage response feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/manage-sentiment-survey.md).
 4.  To set up your voice assistant, see [Create a voice assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/configure-voice-assistants.md).
 
     To test your voice assistant, see [Test a voice assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/test-a-voice-assistant.md).

@@ -22,11 +22,8 @@ You can install, update, and remove applications without leaving your instance.
 
 </td><td>
 
-[Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/application-manager/application-manager.md)[\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Application Manager, new in the Vancouver release, simplifies the process of managing your licensed applications by consolidating them in one convenient location.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/application-manager/application-manager.md)
+[Application Manager\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Application Manager simplifies the process of managing your licensed applications by consolidating them in one convenient location.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/application-manager/application-manager.md)
 
 </td></tr></tbody>
-</table>-   **[Administer your apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/r_ManagingApplications.md)**  
-The system offers several ways to manage applications. You must have the admin role to perform these procedures.
-
-**Parent Topic:**[Getting started on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/get-started-now-platform.md)
+</table>**Parent Topic:**[Getting started on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/get-started-now-platform.md)
 

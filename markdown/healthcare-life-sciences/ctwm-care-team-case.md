@@ -40,7 +40,7 @@ Care team tasks represent the hands‑on work care team agents must complete, su
 -   Documenting safety concerns
 -   Completing Smart Assessments
 
-Tasks are fulfilled in the Healthcare Operations Workspace.
+Tasks are fulfilled in the Healthcare Operations Workspace. Care team tasks can also be assigned, edited, and completed from Care Team Mobile. For more information, see [Manage care team cases and tasks using Care Team Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/cto-mobile-manage-cases-tasks.md).
 
 Care team agent managers monitor progress and complete the case once all tasks are finished.
 

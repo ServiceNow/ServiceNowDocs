@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-brazil/brazil-yokohama-telecommunicationsserviceoperationsmanagementtsom-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 15
+last_updated: "2026-10-08"
+reading_time_minutes: 14
 breadcrumb: [Products combined by family]
 ---
 
@@ -625,8 +625,7 @@ Brazil
 
 </td><td>
 
--   **Accessibility information**
-    -   Telecommunications Service Operations Management follows standard ServiceNow AI Platform accessibility support, including keyboard navigation and compatibility with screen readers.
+No updates for this release.
 
 </td></tr></tbody>
 </table>## Localization information

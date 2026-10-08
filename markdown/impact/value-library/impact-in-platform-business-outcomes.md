@@ -1,5 +1,5 @@
 ---
-title: Value management
+title: Value Management
 description: The value management constitutes a continuous loop of the end-to-end process of managing the value lifecycle. It includes envisioning value, creating value, ongoing management, optimization, and validation of value realized with the Impact store app.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/value-library/impact-in-platform-business-outcomes.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Using Impact, Impact]
 ---
 
-# Value management
+# Value Management
 
 The value management constitutes a continuous loop of the end-to-end process of managing the value lifecycle. It includes envisioning value, creating value, ongoing management, optimization, and validation of value realized with the Impact store app.
 

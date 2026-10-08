@@ -34,6 +34,8 @@ Manage your team's schedule by creating a schedule plan that covers a span of ti
 Generate a preview of your schedule plan and publish it so that your agents can see their shifts and schedules ahead of time. You can unpublish a schedule to make changes and then publish it again.
 -   **[Track and manage your team schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/track-manage-teams-schedule-configurable-wfo.md)**  
 Create, update, or monitor the schedule for your team from one location. You can approve or reject requests for swapping shifts or time off for agents within your assignment group.
+-   **[Move agents to another shift or schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/move-agents-between-shifts-wfo-cs.md)**  
+Move one or more agents from their current shift to a shift in the same schedule or in a different schedule for a specified date range.
 -   **[Create recurring meetings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-recurring-meeting-wfo.md)**  
 Set recurring meetings or training sessions for your team from the Schedule tab. You can create daily, weekly, monthly, or yearly meetings.
 -   **[Monitor schedule adherence of your agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/view-schedule-adherence-configurable-wfo.md)**  

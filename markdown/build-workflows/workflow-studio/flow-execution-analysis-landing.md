@@ -32,7 +32,7 @@ Analyze flow execution details to identify errors and suggest potential fixes.
 
 </td><td>
 
-Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about ServiceNow Otto for Creator roles
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about ServiceNow Otto for Creator roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/creator-roles-1.md)
 
 </td></tr></tbody>
 </table>**Important:**

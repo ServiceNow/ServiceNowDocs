@@ -9,6 +9,7 @@ classification: threat-intelligence-security-center
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
+keywords: [CrowdStrike system properties, premium threat feed, system properties]
 breadcrumb: [Configure Premium Threat Feed for CrowdStrike, View Custom Feed, View Threat Intel Feeds, Threat Intelligence Feeds, Integrate, Threat Intelligence Security Center, Security Operations]
 ---
 

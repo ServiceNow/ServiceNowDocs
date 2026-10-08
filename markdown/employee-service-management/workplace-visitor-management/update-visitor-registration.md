@@ -55,22 +55,8 @@ The status of the visitor registration is updated.
 
 **Parent Topic:**[Managing visitor registrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-visitor-management/manage-visitor-registrations.md)
 
-**Parent Topic:**[Managing visitor registrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-visitor-management/manage-visitor-registrations.md)
-
 **Related topics**  
 
-
-[Use the receptionist portal]()
-
-[View visitor registrations]()
-
-[View visitor policy confirmations]()
-
-[Visitor registration states]()
-
-[Anonymize a visitor]()
-
-[Apply visitor management archive policy]()
 
 [Use the receptionist portal]()
 

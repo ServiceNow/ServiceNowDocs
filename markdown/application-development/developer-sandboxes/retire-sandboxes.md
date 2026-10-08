@@ -9,7 +9,7 @@ classification: developer-sandboxes
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Administering, Developer Sandboxes, Developing your application, Building applications]
+breadcrumb: [Administering, Developer Sandboxes, Build, AI Workflow Factory, Building applications]
 ---
 
 # Retire a sandbox
@@ -48,4 +48,6 @@ You should manually retire sandboxes when your work is complete to maintain a he
 After it's retired, the sandbox is no longer available for use. However, you can allocate new sandboxes as needed. For more information, see [Allocate a sandbox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/developer-sandboxes/allocating-sandboxes.md).
 
 The update set sources associated with the sandbox are automatically removed during retirement. The source on the base instance pointing to the sandbox is deleted, and the source on the sandbox is dropped along with the rest of the sandbox data. No manual cleanup is needed.
+
+**Parent Topic:**[Administering Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/developer-sandboxes/administering-sandboxes.md)
 

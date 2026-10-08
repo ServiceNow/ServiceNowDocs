@@ -7,8 +7,8 @@ release: brazil
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 8
+last_updated: "2026-09-28"
+reading_time_minutes: 7
 breadcrumb: [Explore, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -46,21 +46,7 @@ Arabic, Brazilian Portuguese, Czech, Dutch, English, French, French - Canada, He
 
 </td></tr><tr><td>
 
-Finnish
-
-</td><td>
-
--   [Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/genius-results-ais.md)
--   [Language identification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/international-language-support-ais.md)
--   [Lemma and Unicode normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/lemma-unicode-normalization-ais.md) \(using algorithmic stemming to identify lemmas\)
--   [Result improvement rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/result-improvement-rules-ais.md)
--   [Stop words](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/stop-words-ais.md)
--   [Synonyms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/synonyms-ais.md)
--   [Typo handling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/typo-handling-ais.md)
-
-</td></tr><tr><td>
-
-German, Danish, Hungarian, Norwegian \(Bokmål\), and Swedish
+Danish, Finnish, German, Hungarian, Norwegian \(Bokmål\), and Swedish
 
 </td><td>
 

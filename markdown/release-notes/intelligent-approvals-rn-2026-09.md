@@ -16,11 +16,11 @@ Create an intelligent approval from a chat interface and use a KB article as the
 
 ## What's new
 
--   **[Create an intelligent approval from a KB article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/create-an-intelligent-approval-from-a-kb-article.md)**
+-   **Create an intelligent approval from a KB article**
 
     Use a KB article to create an intelligent approval. Have the system monitor the current state of the KB article and deactivate the intelligent approval when it is out of date or retired.
 
--   **[Create an intelligent approval from a conversation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/create-an-intelligent-approval.md)**
+-   **Create an intelligent approval from a conversation**
 
     Create an intelligent approval from the ServiceNow Otto® chat interface.
 

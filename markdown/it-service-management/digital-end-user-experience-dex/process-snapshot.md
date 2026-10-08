@@ -1,5 +1,5 @@
 ---
-title: Reviewing top processes by resource usage for DEX incident investigation
+title: Top processes by resource usage in DEX incident investigation
 description: Reviewing the top processes by CPU and memory usage on Digital End-User Experience \(DEX\) monitored devices helps you identify processes causing device issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/process-snapshot.html
@@ -9,10 +9,10 @@ classification: digital-end-user-experience-dex
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Incident diagnostics, suggested resolutions, and remedial actions, Manage, Digital End-User Experience, IT Service Management]
+breadcrumb: [Incident diagnostics, suggested resolutions, and remedial actions, Manage employee experience, Digital End-User Experience, IT Service Management]
 ---
 
-# Reviewing top processes by resource usage for DEX incident investigation
+# Top processes by resource usage in DEX incident investigation
 
 Reviewing the top processes by CPU and memory usage on Digital End-User Experience \(DEX\) monitored devices helps you identify processes causing device issues.
 

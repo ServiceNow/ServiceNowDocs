@@ -1,12 +1,12 @@
 ---
 title: Field Service Management release notes
-description: Field Service Management has new and updated features in the Brazil releaseThe ServiceNow Field Service Management \(FSM\) application enables your organization to efficiently manage Field Service operations including work order dispatch, scheduling, and mobile workforce enablement. Field Service Management was enhanced and updated in the Brazil release.Field Service Management enhancements and new features in the Brazil release.
+description: Field Service Management has new and updated features in the Brazil releaseThe ServiceNow Field Service Management \(FSM\) application enables your organization to efficiently manage Field Service operations including work order dispatch, scheduling, and mobile workforce enablement. Field Service Management was enhanced and updated in the Brazil release.Field Service Management enhancements and new features in the Brazil release.Field Service Management enhancements and new features in the Brazil release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/field-service-management-rn-landing.html
 release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 5
+reading_time_minutes: 6
 breadcrumb: [Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
@@ -37,6 +37,29 @@ See [Field Service Management](https://raw.githubusercontent.com/ServiceNow/Serv
 -   **Activation information**
 
     Install Field Service Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+
+## 2026 October Monthly
+
+Field Service Management enhancements and new features in the Brazil release.
+
+### What's new
+
+-   **[Field Service Questionnaires with Smart Assessments v4.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/create-a-smart-assessment-template.md)**
+
+    Create Smart Assessment templates faster by adding standard questions from a question bank instead of authoring each question manually.
+
+-   **[Appointment Booking v1.1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/appt-booking-create-service-config.md)**
+
+    Enhanced arrive-by appointments to display only slots where technicians can complete work before the end of the day, helping prevent overbooking past technicians' availability.
+
+-   **[Field Service Mobile v3.1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/embedded-breaks-and-lunches.md)**
+
+    Take a break before its scheduled time, extend a break in progress up to your organization's configured limit, or end a break early when your organization allows it. The break updates on your schedule to reflect the actual time.
+
+-   **[FSM Configurable Dispatcher Workspace Bundle v11.1 avoid ferry routes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/r_PropInstallWFieldServMgmnt.md)**
+
+    Avoid ferries when dispatchers view agent routes on the Dispatcher Workspace map. When an administrator enables the [avoid ferry routes property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/r_PropInstallWFieldServMgmnt.md) \(`sn_fsm_disp_wrkspc.dispatcher_workspace.avoid_ferry_routes`\), routes use land roads even if they take longer, and a ferry is used only when no land route is available.
 
 
 ## 2026 September Monthly

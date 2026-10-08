@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/content-understanding-landing.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-07-12"
 reading_time_minutes: 3
 breadcrumb: [Generative AI skills, Enable AI Experiences]
 ---
@@ -18,7 +18,7 @@ Content Understanding uses AI to extract and summarize information from document
 
 **Important:**
 
-Now Assist in Document Intelligence has been renamed to Content Understanding.
+Now Assist in Document Intelligence has been renamed to Content Understanding. This renaming does not impact any functionality, and existing and new implementations continue to work without changes.
 
 <table id="table_kk3_qs5_wjc" class="nav-card presentation"><tbody><tr><td>
 

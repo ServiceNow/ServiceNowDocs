@@ -8,7 +8,7 @@ product: Change Management
 classification: change-management
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Configure, Change Management, IT Service Management]
 ---
 
@@ -20,6 +20,15 @@ Predictive Intelligence for Change Management delivers the following benefits:
 
 -   Enhanced change risk calculation using machine-learning algorithms to assess change risk.
 -   Uses Predictive Intelligence clustering capability to identify and suggest Standard Change templates to create a change.
+
+Confirm that you have the admin role to configure the intelligent solution definitions and system properties. Users with itil or sn\_change\_write role view the resulting risk predictions and standard change suggestions on the change request. For the full list of roles installed with Change Management, see [Components installed with ITSM Roles - Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/installed-with-cm-itsm-roles.md).
+
+## Roles and access for intelligent solutions
+
+Access to the Predictive Intelligence for Change Management capability depends on the action you perform:
+
+-   Configure solution definitions and system properties: you must have admin privileges. For the configurable properties, see [Intelligent solutions system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/change-mgmt-intelligentsoln-properties.md). To train the standard change proposal solution, see [Train the clustering solution for standard change proposal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/train-std-chg-proposal-soln.md).
+-   View risk predictions and standard change suggestions on a change request: you must have the itil or sn\_change\_write role.
 
 ## Solution definitions for Predictive Intelligence for Change Management
 

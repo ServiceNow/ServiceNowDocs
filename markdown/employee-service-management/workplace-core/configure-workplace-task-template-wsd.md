@@ -56,5 +56,3 @@ Templates simplify the process of creating tasks in Workplace Core by populating
 
 **Parent Topic:**[Managing workplace tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/managing-workplace-maintenance-tasks.md)
 
-**Parent Topic:**[Managing workplace tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/managing-workplace-maintenance-tasks.md)
-

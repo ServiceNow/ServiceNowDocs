@@ -7,7 +7,7 @@ release: brazil
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [Remote Hands Request, Use, Telecommunications Network Inventory]
 ---
@@ -49,7 +49,7 @@ The following procedure enables Remote Hands Agents to review the submitted case
 
 6.  Select **Summarize**
 
-    To learn more see [Generate summary for remote hands case record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/generate-summary-for-remote-hands-case-record.md)
+    To learn more see [ServiceNow Otto in Remote Hands Request Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/servicenow-otto-in-remote-hands-request-management-application.md)
 
     You can further modify case fields. Add Work Notes for customers to view, update the state and close the case.
 

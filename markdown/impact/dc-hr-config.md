@@ -1,18 +1,18 @@
 ---
-title: Configure Data Collection for HR
-description: Configure Data Collection for HR.
+title: Configure Data Collection for HR Service Delivery
+description: Configure Data Collection for HR Service Delivery.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/dc-hr-config.html
 release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Impact Value Management Data Collection Content Pack for HR, Enable data collection for Value Management, Configuring Impact, Impact]
+breadcrumb: [Impact Value Management Data Collection Content Pack for HR Service Delivery, Enable data collection for Value Management, Guided Setup, Configuring Impact, Impact]
 ---
 
-# Configure Data Collection for HR
+# Configure Data Collection for HR Service Delivery
 
-Configure Data Collection for HR.
+Configure Data Collection for HR Service Delivery.
 
 ## Before you begin
 
@@ -76,5 +76,5 @@ Role required: admin, pa\_power\_user, pa\_admin, or pa\_data\_collector
         \[Omitted image "dct\_man\_data\_points\_hr.png"\] Alt text: Example with Mar 2024 cell selected with no Indicator score entered.
 
 
-**Parent Topic:**[Impact Value Management Data Collection Content Pack for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/data-collection-hr.md)
+**Parent Topic:**[Impact Value Management Data Collection Content Pack for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/data-collection-hr.md)
 

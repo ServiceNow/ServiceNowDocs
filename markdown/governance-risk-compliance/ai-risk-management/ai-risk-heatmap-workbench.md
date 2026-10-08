@@ -106,3 +106,9 @@ Select **Filter overview** to view or modify advanced filter conditions.
 
 [AI Risk and Compliance workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/ai-risk-and-compliance-workspace.md)
 
+[Perform risk assessments on AI systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/perform-risk-assessments-on-ai-systems.md)
+
+[Initiate risk assessment on AI asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/initiate-risk-assessment-on-ai-systems.md)
+
+[Create bulk risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/create-bulk-risk-assessment-airc.md)
+

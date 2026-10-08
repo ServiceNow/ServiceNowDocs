@@ -68,7 +68,7 @@ Agents can filter and sort the information in this list to see different views. 
 
 ## Plugin
 
-The activity timer log feature is available with the Activity Timer Reporting application. This application has a dependency on the Activity Timer application.
+The activity timer log feature is available with the Activity Timer Reporting application \(sn\_at\_rpt\). This application has a dependency on the Activity Timer application \(sn\_at\).
 
 **Note:** Activate the activity timer log feature before use. It is not active by default.
 

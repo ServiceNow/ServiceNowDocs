@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/content-extraction-methods.html
 release: brazil
 topic_type: concept
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 2
 breadcrumb: [Information Extraction skill, Explore, Content Understanding, Generative AI skills, Enable AI Experiences]
 ---

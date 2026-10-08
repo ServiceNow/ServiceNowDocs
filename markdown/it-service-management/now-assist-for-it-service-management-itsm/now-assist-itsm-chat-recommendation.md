@@ -50,15 +50,15 @@ The Chat reply recommendation skill is turned on by default. The skill will be a
 
     \[Omitted image "now-assist-itsm-write-reply.png"\] Alt text: Chat message window with ServiceNow Otto option.
 
-<table id="choicetable_mlz_kxk_1cc"><thead><tr><th align="left" id="d297952e200">
+<table id="choicetable_mlz_kxk_1cc"><thead><tr><th align="left" id="d298728e200">
 
 Chat message window
 
-</th><th align="left" id="d297952e203">
+</th><th align="left" id="d298728e203">
 
 ServiceNow Otto icon
 
-</th></tr></thead><tbody><tr><td id="d297952e211">
+</th></tr></thead><tbody><tr><td id="d298728e211">
 
 **Typed response**
 
@@ -70,7 +70,7 @@ Provides the option to refine your response.
 -   Shorten
 
 
-</td></tr><tr><td id="d297952e231">
+</td></tr><tr><td id="d298728e231">
 
 **Left blank**
 

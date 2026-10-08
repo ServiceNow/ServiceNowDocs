@@ -1,6 +1,6 @@
 ---
-title: Using the Business Location Service Portal
-description: Use the Business Location Service Portal \(BLSP\) available with the Customer Service Management \(CSM\) application as a one-stop shop to manage the internal and external organizations \(formerly internal and external business locations\).
+title: Using the Business Organization Support Portal
+description: Use the Business Organization Support Portal \(formerly Business Location Service Portal\) available with the Customer Service Management \(CSM\) application as a one-stop shop to manage the internal and external organizations \(formerly internal and external business locations\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/using-blsp-portal.html
 release: brazil
@@ -10,22 +10,22 @@ reading_time_minutes: 4
 breadcrumb: [Customer communication, Use, Customer Service Management]
 ---
 
-# Using the Business Location Service Portal
+# Using the Business Organization Support Portal
 
-Use the Business Location Service Portal \(BLSP\) available with the Customer Service Management \(CSM\) application as a one-stop shop to manage the internal and external organizations \(formerly internal and external business locations\).
+Use the Business Organization Support Portal \(formerly Business Location Service Portal\) available with the Customer Service Management \(CSM\) application as a one-stop shop to manage the internal and external organizations \(formerly internal and external business locations\).
 
 **Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/renamed-entities.md).
 
-As a user with the sn\_customerservice.svc\_location\_manager, sn\_customerservice.svc\_location\_manager\_contributor, and admin role, you can use the Business Location Service Portal page to:
+As a user with the sn\_customerservice.svc\_location\_manager, sn\_customerservice.svc\_location\_manager\_contributor, and admin role, you can use the Business Organization Support Portal page to:
 
--   Get a 360º view of a business location.
+-   Get a 360º view of a business organization \(formerly business location\).
 -   Add and manage staff members.
--   Submit cases against business organizations \(formerly business locations\), sold products, or install base items deployed at a service organization.
+-   Submit cases against business organizations, sold products, or install base items deployed at a service organization.
 -   Access Knowledge Base articles and engage with the community.
 
 \[Omitted image "patient-portal.png"\] Alt text: Landing page for Business Location Service Portal. For more information, refer to information that follows.
 
-From the Business Location Service Portal, you can access and use the following features:
+From the Business Organization Support Portal, you can access and use the following features:
 
 <table id="table_fp4_mby_25b"><thead><tr><th>
 
@@ -172,10 +172,10 @@ My Business Organizations
 
 </td><td>
 
-Get the 360º view of the business location. Use the feature to:-   Add a member to an external organization.
+Get the 360º view of the business organization. Use the feature to:-   Add a member to an external organization.
 -   Report cases on behalf of a business location.
 -   Report cases against sold products deployed at a business location.
--   Report cases against install base items deployed at a business location.
+-   Report cases against install base items deployed at a business organization.
 
 </td></tr><tr><td>
 
@@ -194,7 +194,7 @@ Most Viewed articles
 View a list of the most viewed articles.
 
 </td></tr></tbody>
-</table>Depending on the configuration set by your administrator, you can perform the following tasks from the Business Location Service Portal:
+</table>Depending on the configuration set by your administrator, you can perform the following tasks from the Business Organization Support Portal:
 
 -   Register and assign staff members to a business organization
 -   Report cases on behalf of a business organization
@@ -205,9 +205,9 @@ View a list of the most viewed articles.
 **Related topics**  
 
 
-[Add staff members to a business organization in the Business Location Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/add-staff-memers-to-biz-location.md)
+[Add staff members to a business organization in the Business Organization Support Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/add-staff-memers-to-biz-location.md)
 
 [Create cases for a business organization in the Business Organization Support Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/report-cases-on-behalf-of-biz-location.md)
 
-[Track cases on the Business Location Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/track-cases-for-blsp-portal.md)
+[Track cases on the Business Organization Support Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/track-cases-for-blsp-portal.md)
 

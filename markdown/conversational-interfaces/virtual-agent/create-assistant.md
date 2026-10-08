@@ -59,5 +59,5 @@ Set up basic details for your assistant and set it as a primary assistant. Prima
 
 ## What to do next
 
-See [Use agentic support for a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/use-agentic-support.md).
+See [Assign search sources to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/add-info-sources-assistant.md).
 

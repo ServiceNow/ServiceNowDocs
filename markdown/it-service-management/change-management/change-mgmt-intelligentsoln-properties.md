@@ -49,15 +49,6 @@ If the risk have same count or confidence, then the higher risk is considered.
 
 </td></tr><tr><td>
 
-Predicted value usage \[chg\_ml\_prop\_risk.usage\]
-
-</td><td>
-
-Determines how the predictive value must be used.-   View risk value
--   Set risk value
-
-</td></tr><tr><td>
-
 Solution enabled \[chg\_ml\_prop\_risk.solution\_enabled\]
 
 </td><td>

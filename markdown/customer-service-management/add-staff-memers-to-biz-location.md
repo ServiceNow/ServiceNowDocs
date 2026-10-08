@@ -1,5 +1,5 @@
 ---
-title: Add staff members to a business organization in the Business Location Service Portal
+title: Add staff members to a business organization in the Business Organization Support Portal
 description: Add users as staff members to a business organization to support accounts, contacts, consumers, and households.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/add-staff-memers-to-biz-location.html
@@ -7,10 +7,10 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Use Business Location Service Portal, Customer communication, Use, Customer Service Management]
+breadcrumb: [Use Business Organization Support Portal, Customer communication, Use, Customer Service Management]
 ---
 
-# Add staff members to a business organization in the Business Location Service Portal
+# Add staff members to a business organization in the Business Organization Support Portal
 
 Add users as staff members to a business organization to support accounts, contacts, consumers, and households.
 
@@ -22,7 +22,7 @@ Role required: admin, sn\_customerservice\_manager, sn\_customerservice.svc\_loc
 
 ## About this task
 
-Add internal and external members to a business organization. You can add both internal users with the snc\_internal role and external users with the snc\_external role as staff members to an external organization \(formerly external business location\).
+Add internal and external members to a business organization \(formerly business location\). You can add both internal users with the snc\_internal role and external users with the snc\_external role as staff members to an external organization \(formerly external business location\).
 
 -   Administrators and customer service managers can add staff members to any business organization.
 -   Location managers can add staff members to the business locations that they have access to.
@@ -141,5 +141,5 @@ Once a staff member is added to a business organization, the following details c
 
 [Create cases for a business organization in the Business Organization Support Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/report-cases-on-behalf-of-biz-location.md)
 
-[Track cases on the Business Location Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/track-cases-for-blsp-portal.md)
+[Track cases on the Business Organization Support Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/track-cases-for-blsp-portal.md)
 

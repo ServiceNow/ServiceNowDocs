@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-brazil/brazil-yokohama-appenginestudio-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 5
+last_updated: "2026-10-08"
+reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
 
@@ -258,7 +258,10 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **PDF Extractor tool \(table creation from PDFs\)**
+
+The PDF Extractor tool that enables table creation from PDFs in App Engine Studio is deprecated starting in the Brazil release. To create tables from PDFs, you can migrate your application to Build Agent. For more information, see [Build Agent](https://www.servicenow.com/docs/access?context=build-agent&family=brazil&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Activation information

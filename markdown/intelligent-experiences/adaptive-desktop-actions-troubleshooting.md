@@ -52,14 +52,6 @@ To bring the cursor back to the main desktop manually, move the cursor diagonall
 
 </td></tr><tr><td>
 
-The green pointer may move outside the preview window when you move an application from the preview window to your main session while the AI agent is still executing.
-
-</td><td>
-
-Avoid moving applications during AI agent execution. If this occurs, the AI agent may pause and ask for manual intervention. Complete the required step manually and allow the AI agent to resume.
-
-</td></tr><tr><td>
-
 Unable to run automation tasks involving Microsoft Excel and Microsoft Word.
 
 </td><td>

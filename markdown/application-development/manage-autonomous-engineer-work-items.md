@@ -9,7 +9,7 @@ last_updated: "2026-09-09"
 reading_time_minutes: 3
 keywords: [Autonomous Engineer, work items, manage, review, retry, roll back, update set, plan dashboard, ATF tests, deploy]
 audience: programmer
-breadcrumb: [Use, Autonomous Engineer, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Use, Autonomous Engineer, Build, AI Workflow Factory, Building applications]
 ---
 
 # Manage work items during execution

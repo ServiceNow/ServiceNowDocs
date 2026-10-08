@@ -20,7 +20,7 @@ Access the following logs from the System Logs module:
 |---|-----------|
 |[Transactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_TransactionLogs.md)|All application activity for an instance.|
 |[Email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_EmailLogs.md) and [Push](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/push-log.md)|All email notifications and Push messages sent from all instances within the system.|
-|Event Logs|All system events that occur within the system.|
+|[Event Logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/event-logs-2.md)|All system events that occur within the system.|
 |[Import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_ImportLogs.md)|Data import activity within the platform.|
 |Table Changes|Changes made to all tables in the system.|
 |[Outbound web services logging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/web-services/outbound-request-logging.md)|All outbound web services requests such as REST and SOAP requests.|

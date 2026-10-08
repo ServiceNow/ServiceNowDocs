@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Now Assist, generative AI]
-breadcrumb: [Configure, Now Assist, Common GRC features, Governance, Risk, and Compliance]
+breadcrumb: [Configure, ServiceNow Otto for Integrated Risk Management \(IRM\), Common GRC features, Governance, Risk, and Compliance]
 ---
 
 # Customize the issue summarization skill in ServiceNow Otto for Integrated Risk Management \(IRM\)

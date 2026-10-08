@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-applicationmanager-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 6
+last_updated: "2026-10-08"
+reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
 
@@ -123,7 +123,12 @@ Zurich
 
 </td><td>
 
--   **[Now Assist suites for version compatibility](https://www.servicenow.com/docs/access?context=now-assist-app-mgr&family=zurich&ft:locale=en-US)**
+-   **[Application state indicators](https://www.servicenow.com/docs/access?context=app-mgr-state-indicators&family=zurich&ft:locale=en-US)**
+
+Review information about any applicable installation considerations, requirements, and blockers in the header of application details.
+
+
+ -   **[Now Assist suites for version compatibility](https://www.servicenow.com/docs/access?context=now-assist-app-mgr&family=zurich&ft:locale=en-US)**
 
 Use the Application Manager to install and update Now Assist applications with suites of compatible application versions. Now Assist suites help verify that new Now Assist applications and versions remain compatible with the ones already installed to your instance.
 
@@ -189,7 +194,12 @@ Zurich
 
 </td><td>
 
--   **Coral theme**
+-   **[Unlicensed application information](https://www.servicenow.com/docs/access?context=available-for-you-app-mgr&family=zurich&ft:locale=en-US)**
+
+In addition to details about applications that are already licensed, the "Available for you" tab of the Application Manager now includes information about applications that haven't been procured from the ServiceNow Store yet.
+
+
+ -   **Coral theme**
 
 Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
 

@@ -45,5 +45,3 @@ The matter task is cancelled and its state updates to Cancelled.
 
 **Parent Topic:**[Create a task for a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/legal-matter-management/add-tasks-to-legal-matter.md)
 
-**Parent Topic:**[Create a task for a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/legal-matter-management/add-tasks-to-legal-matter.md)
-

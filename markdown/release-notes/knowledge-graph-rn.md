@@ -16,6 +16,7 @@ The ServiceNow® Knowledge Graph application enables you to create and manage a 
 
 ## About Knowledge Graph
 
+-   External users with the snc\_external role can now access Knowledge Graph when the sn\_kg.enable\_external\_user\_check property is set to true.
 -   Improved search results accuracy with enhanced Knowledge Graph integration in ServiceNow® Otto for Virtual Agent Virtual Agent, ServiceNow Otto panel and AI Agent applications.
 
 

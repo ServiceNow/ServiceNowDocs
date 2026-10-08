@@ -1,6 +1,6 @@
 ---
-title: Using Asset Management
-description: Use the Asset Management application to manage your assets efficiently.
+title: Using Base Asset Management
+description: Use the Base Asset Management application to manage your assets efficiently.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/asset-management/using-asset-management.html
 release: brazil
@@ -12,9 +12,9 @@ reading_time_minutes: 1
 breadcrumb: [Base Asset Management, Common applications, Asset Management]
 ---
 
-# Using Asset Management
+# Using Base Asset Management
 
-Use the Asset Management application to manage your assets efficiently.
+Use the Base Asset Management application to manage your assets efficiently.
 
 -   **[Work with Asset and CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-management/work-with-asset-ci.md)**  
 Asset and configuration item \(CI\) management refers to creating assets, setting appropriate states and substates, synchronizing assets and CIs, managing consumables, and retiring assets.

@@ -6,10 +6,10 @@ canonical_url: https://www.servicenow.com/docs/r/application-development/ae-resi
 release: brazil
 topic_type: concept
 last_updated: "2026-09-08"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [Autonomous Engineer, resiliency, stuck agent, automatic retry, background agents, work items, execution]
 audience: programmer
-breadcrumb: [Overview, Autonomous Engineer, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Overview, Autonomous Engineer, Build, AI Workflow Factory, Building applications]
 ---
 
 # Resilience in Autonomous Engineer
@@ -25,6 +25,10 @@ A scheduled job monitors all active work items during execution. When a backgrou
 ## Retry behavior
 
 When a work item is retried, Autonomous Engineer generates a new background agent for it and attempts execution again. The plan dashboard reflects the updated state of the work item as the retry progresses.
+
+Autonomous Engineer attempts three retry cycles for each work item. Work items that can't be resolved after all of the retry attempts appear in the plan dashboard and the chat panel for your review. You can edit the work item content and ask Autonomous Engineer to retry manually, or you can roll back the work item.
+
+When a work item reaches the stopped state, Autonomous Engineer retries it automatically before surfacing it for manual intervention. If the work item can't be resolved within the automatic retry limit, it appears in the plan dashboard and the chat panel for your review.
 
 ## Interrupted and long-running jobs
 

@@ -24,15 +24,15 @@ Role required: none
 
 1.  Open Device health check from Employee Center using one of the following options.
 
-<table id="choicetable_lhy_ttn_z2c"><thead><tr><th align="left" id="d478404e75">
+<table id="choicetable_lhy_ttn_z2c"><thead><tr><th align="left" id="d476353e75">
 
 Option
 
-</th><th align="left" id="d478404e78">
+</th><th align="left" id="d476353e78">
 
 Steps to open Device heath check
 
-</th></tr></thead><tbody><tr><td id="d478404e84">
+</th></tr></thead><tbody><tr><td id="d476353e84">
 
 **Hardware or Software pages**
 
@@ -48,7 +48,7 @@ The Device heath check widget appears, displaying device health categories with 
 5.  Select a category to see more details in the Device health check page.
 
 
-</td></tr><tr><td id="d478404e161">
+</td></tr><tr><td id="d476353e161">
 
 **Quick links**
 
@@ -66,6 +66,8 @@ Navigate to **Technology Services** &gt; **Quick links** &gt; **Device health ch
 4.  Select a Poor or Average performance category to view the issues and suggested resolutions.
 
     The resolutions can be remedial action buttons, self-help instructions, or links to resources that provide resolutions.
+
+    **Note:** If the category is Poor or Average and no actions remain, an information message explains why the status is still shown. It confirms that your IT team is reviewing additional performance metrics and that no further action is required from you at this time.
 
 5.  Implement the suggested resolution to improve performance.
 

@@ -27,13 +27,13 @@ Understanding and managing these AI assets is crucial for ensuring that AI syste
 
 The Risk &amp; compliance dashboard has the following sections. You can drill down into the data on each widget in any section.
 
-**Note:** Dashboards in the AI Risk and Compliance Workspace \(Risk and Compliance, Operations, and AI Cases\) display data for **Managed** AI assets only. AI assets that are marked as **Unmanaged** are excluded from dashboard widgets, metrics, and summary counts, but remain visible in inventory and list views. If you have the AI steward \[sn\_ai\_governance\_ai\_steward\] role, you can mark assets as Managed or Unmanaged. For more information, see [Assets list- managed and unmanaged assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/assets-list-managing-and-unmanaging-assets.md).
+**Note:** Dashboards in the AI Risk and Compliance Workspace \(Risk and Compliance, Operations, and AI Cases\) display data for **Managed** AI assets only. AI assets that are marked as **Unmanaged** are excluded from dashboard widgets, metrics, and summary counts, but remain visible in inventory and list views. If you have the AI steward \[sn\_ai\_governance.ai\_steward\] role, you can mark assets as Managed or Unmanaged. For more information, see [Assets list- managed and unmanaged assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/assets-list-managing-and-unmanaging-assets.md).
 
 ## Compliance overview
 
 -   **Regulatory risk classification**
 
-    This section displays the risk classifications of AI systems, AI models, Datasets using donut charts. The risks are qualitatively classified as **High**, **Low**, **Medium**, and **Unacceptable**. These classifications are based on the risk assessments of the AI assets.
+    This section displays the risk classifications of AI systems, AI models, Datasets using donut charts. The risks are qualitatively classified as **Low**, **Medium**, **High**, **Unacceptable**, **Critical**, and **To be determined**. These classifications are based on the risk assessments of the AI assets.
 
 -   **Compliance by authority documents and policies**
 
@@ -54,7 +54,7 @@ This section monitors and tracks the risk posture of the AI assets in your organ
 
 -   **AI systems by aggregated risk score**
 
-    This section displays the classifications of AI systems by aggregated risk score using donut chart. The risk scores are qualitatively classified as **High** and **Low**.
+    This section displays the classifications of AI systems by aggregated risk score using donut chart. The risk scores are qualitatively classified as **Low**, **Medium**, and **High**.
 
 -   **Risk heatmap**
 

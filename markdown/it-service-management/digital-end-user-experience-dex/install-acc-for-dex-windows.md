@@ -41,7 +41,7 @@ Role required: agent\_client\_collector\_admin
     1.  Navigate to **All** &gt; **Agent Client Collector** &gt; **Deployment** &gt; **Agent Registration Key**.
     2.  Select the relevant agent registration key.
     3.  Copy the registration key value and store it in a place where you can easily retrieve it, when needed.
-2.  Retrieve the publicly accessible gateway URL, based on your location.
+2.  Retrieve the publicly accessible gateway URL, based on your location:
 
     -   AMER \(Americas\): `itomcnc-prod-gateway-amer.sncapps.service-now.com:443`
     -   EMEA \(Europe\): `itomcnc-prod-gateway-emea.sncapps.service-now.com:443`

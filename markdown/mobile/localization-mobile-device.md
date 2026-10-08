@@ -1,18 +1,20 @@
 ---
 title: Localization on mobile devices
-description: ServiceNow mobile apps are localized in many languages, including both left-to-right and right-to-left languages. Additionally, you can customize non-default languages on the client-side. These features ensure that your translations remain consistent across your mobile applications.
+description: ServiceNow mobile apps are localized in many languages, including both left-to-right and right-to-left languages. Additionally, you can customize non-default languages on the client-side. These features verify that your translations remain consistent across your mobile applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/mobile/localization-mobile-device.html
 release: brazil
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-10-04"
 reading_time_minutes: 2
 breadcrumb: [Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
 
 # Localization on mobile devices
 
-ServiceNow mobile apps are localized in many languages, including both left-to-right and right-to-left languages. Additionally, you can customize non-default languages on the client-side. These features ensure that your translations remain consistent across your mobile applications.
+ServiceNow mobile apps are localized in many languages, including both left-to-right and right-to-left languages. Additionally, you can customize non-default languages on the client-side. These features verify that your translations remain consistent across your mobile applications.
+
+**Note:** For new customers on client version 22.2, only one language option is displayed to the user in the Settings menu. After users select Language in the menu they are navigated to the language accounts page. The single language option is displayed if you configure the property glide.sg.unify\_language\_settings and mark it as `true`. For more information, see .
 
 \[Omitted image "mobile-language-selector.png"\] Alt text: Mobile language selector
 

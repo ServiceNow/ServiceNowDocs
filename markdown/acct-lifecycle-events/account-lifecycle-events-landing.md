@@ -25,13 +25,21 @@ By embedding workflow automation into customer success management, Customer Succ
 
 [Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Plan and customize Customer Success Management to meet your needs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-events-landing-page.md)
 
-</td></tr><tr><td>
+</td><td>
 
 [Use\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Use Customer Success Management to manage the entire customer lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-customer-success-landing-page.md)
 
-</td><td>
+</td></tr><tr><td>
 
 [Reference \[Omitted image "bus-learn.svg"\] Alt text:Get information about the data model and installed components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-reference.md)
+
+</td><td>
+
+[Automate\[Omitted image "bus-artificial-intelligence.svg"\] Alt text:Use generative AI skills and agentic workflows to automate customer success tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-otto-cs-landing.md)
+
+</td><td>
+
+ 
 
 </td></tr></tbody>
 </table>## Additional resources

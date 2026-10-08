@@ -7,8 +7,8 @@ release: brazil
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 7
+last_updated: "2026-09-30"
+reading_time_minutes: 10
 breadcrumb: [Form field information for Strategic Planning, Reference, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
@@ -33,6 +33,14 @@ Name
 </td><td>
 
 Name of the target.
+
+</td></tr><tr><td>
+
+Number
+
+</td><td>
+
+Unique identifier of the target, for example TRGT0001001. The value is generated automatically and is read-only. To use a different prefix, such as KR, see [Customize label for Goal and Target tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/customize-labels-for-goal-and-target-tables.md).
 
 </td></tr><tr><td>
 
@@ -83,6 +91,8 @@ Progress = (Actual value - Base value) / (Target value - Base value) x 100
  ```
 Progress = (Base value - Actual value) / (Base value - Target value) x 100
 ```
+
+ For Maintain-type targets \(Maintain above, Maintain below, Maintain constant\), progress is the percentage of breakdown periods that meet their planned target, counted up to the latest period with an actual value. See [Automatic status calculation for targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/automatic-status-calculation-targets-spw.md) for detailed examples.
 
  For more information on how the progress value is calculated when the weight scale is defined, see [Progress value calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/progress-value-calculation-egm.md).
 
@@ -163,11 +173,18 @@ Type
 
 </td><td>
 
-Target type that signifies the direction of achievement.-   **Maximize**: The direction of the progress is toward the target value from the base value where the base value must be less than the target value.
--   **Minimize**: The direction of the progress is toward the target value from the base value where the target value must be less than the base value.
+Target type that signifies the direction of achievement or maintenance strategy.-   **Maximize**: The direction of the progress is toward the target value from the base value where the base value must be less than the target value. Use this type for goals that measure growth or increase \(for example, revenue, customer satisfaction, productivity\).
+-   **Minimize**: The direction of the progress is toward the target value from the base value where the target value must be less than the base value. Use this type for goals that measure reduction or decrease \(for example, costs, defects, environmental impact\).
+-   **Maintain above**: The metric must stay at or above the planned target for success. Use this type for goals that require a minimum level to be maintained \(for example, service uptime above 98%, compliance rating above 95%\). Progress is the percentage of breakdown periods where the actual value is greater than or equal to the planned target.
+-   **Maintain below**: The metric must stay at or below the planned target for success. Use this type for goals that require a maximum level not to be exceeded \(for example, operating costs below $5M annually\). Progress is the percentage of breakdown periods where the actual value is less than or equal to the planned target.
+-   **Maintain constant**: The metric must stay within a tolerance band around the planned target. The band is ±5% by default and is set by the **sn\_gf.maintain\_constant\_tolerance\_percent** system property. Use this type for goals that require stability or consistency \(for example, employee headcount at 250 staff, quality score at 85%\). Progress is the percentage of breakdown periods where the actual value falls within the tolerance band.
 -   **Milestone**: Fixed type. Only the qualitative target values are allowed \(that are set in the **Unit of measure** field for the target\) to capture the achievement of the target. The **Milestone** option is applicable only for qualitative targets.
 
 The **Type** field becomes read-only with the value populated as **Milestone** for qualitative targets \(when the **Unit of measure** field is set to a qualitative target value\).
+
+For more information on how progress is calculated for each target type, see [Automatic status calculation for targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/automatic-status-calculation-targets-spw.md).
+
+You can change the type of a saved target even when actuals exist. The value in the **Unit of measure** field doesn't change when you change the type. For details, see [Change the type of a target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/change-target-type-spw.md).
 
 </td></tr><tr><td>
 
@@ -185,7 +202,7 @@ Final target value
 
 </td><td>
 
-Final target value of the target. The target value should be aspirational and should challenge the teams.This field is available when the **Type** field is set to **Maximize** or **Minimize**.
+Final target value of the target. The target value should be aspirational and should challenge the teams.This field is available when the **Type** field is set to **Maximize**, **Minimize**, or Maintain types.
 
 </td></tr><tr><td>
 
@@ -201,7 +218,9 @@ Actuals to date
 
 </td><td>
 
-Actual value of the target at a given time.This field is available when the **Type** field is set to **Maximize** or **Minimize**.
+Actual value of the target at a given time.For Maintain types, this value is the actual value entered for the latest target breakdown period, not a sum of all periods.
+
+This field is available when the **Type** field is set to **Maximize**, **Minimize**, or Maintain types.
 
 </td></tr><tr><td>
 
@@ -209,7 +228,7 @@ Check-in frequency
 
 </td><td>
 
-Option to specify breakdown intervals for the target and how frequently the owner or contributor should update the actual value of the target. Breaking down the target into smaller periods helps you set a target for smaller periods and focus on the specific breakdown targets. The available options are **Daily**, **Weekly**, **Monthly**, **Quarterly**, and **Yearly**. Target breakdowns are automatically created when you set this field to any of the available options other than **None**. For more details on target breakdowns, see [Target breakdowns in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/target-breakdowns.md).**Note:** The target breakdowns feature isn’t supported for qualitative targets.
+Option to specify breakdown intervals for the target and how frequently the owner or contributor should update the actual value of the target. Breaking down the target into smaller periods helps you set a target for smaller periods and focus on the specific breakdown targets. The available options are **Daily**, **Weekly**, **Monthly**, **Quarterly**, and **Yearly**. Target breakdowns are automatically created when you set this field to any of the available options other than **None**. For Maintain type targets, breakdowns allow you to measure target achievement across each time period. For more details on target breakdowns, see [Target breakdowns in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/target-breakdowns.md).**Note:** The target breakdowns feature isn't supported for qualitative targets.
 
 </td></tr><tr><td>
 
@@ -218,6 +237,8 @@ Target value distribution
 </td><td>
 
 Option to specify the target to be calculated cumulatively or non-cumulatively. The available options are **Split equally across the time period \(non-cumulative\)** and **Spread linearly across the time period \(cumulative\)**.This field is available only when the **Check-in frequency** field is set to any of the available options other than **None**.
+
+This field isn't available when the **Type** field is set to **Maintain above**, **Maintain below**, or **Maintain constant**, because each breakdown's planned target equals the final target value.
 
 </td></tr><tr><td>
 

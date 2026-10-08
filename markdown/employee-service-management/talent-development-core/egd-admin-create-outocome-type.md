@@ -39,5 +39,3 @@ An **Outcome Type** is used to categorize activities into logical outcomes.
 
 **Parent Topic:**[Administer and maintain the Talent Development Core app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/talent-development-core/egd-administration.md)
 
-**Parent Topic:**[Administer and maintain the Talent Development Core app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/talent-development-core/egd-administration.md)
-

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-talentdevelopmentcore-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 6
+last_updated: "2026-10-08"
+reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
 
@@ -102,7 +102,7 @@ As a manager using Talent Development, start a growth conversation with your rep
 
 As a manager using Career Conversations in Talent Development, generate talking points for a growth conversation with the help of Employee data summarization AI agent in Now Assist.
 
-**Note:** For the Growth Conversations AI agents to work, you need to be on 3.5.2 version Career Conversations and have the Now Assist for HR Service Delivery \(HRSD\) plugin which will install Now Assist for Talent and HR Talent AI Agent Collection.
+**Note:** For the Growth Conversations AI agents to work, you need to be on 3.5.2 version Career Conversations and have the ServiceNow Otto for HR Service Delivery \(HRSD\) plugin which will install Now Assist for Talent and HR Talent AI Agent Collection.
 
 
 -   **[Name update from Employee Growth and Development Core to Talent Development Core.](https://www.servicenow.com/docs/access?context=egd-landing-page&family=xanadu&ft:locale=en-US)**
@@ -116,7 +116,14 @@ Yokohama
 
 </td><td>
 
--   **[Credly integration](https://www.servicenow.com/docs/access?context=credly-spoke&family=yokohama&ft:locale=en-US)**
+-   **[Create a growth conversation with the help of an agent in Now Assist](https://www.servicenow.com/docs/access?context=agentic-wf-conversations-na-td&family=yokohama&ft:locale=en-US)**
+
+As a manager, use the growth conversations preparation AI agent to schedule and prepare for employee growth discussions. The agent provides a clear summary of employee activity and career journey, with data-driven talking points to make conversations more focused and impactful.
+
+**Note:** This feature is available when you have both ServiceNow Otto for HR Service Delivery \(HRSD\), which will install Now Assist for Talent and HR Talent AI Agent Collection
+
+
+ -   **[Credly integration](https://www.servicenow.com/docs/access?context=credly-spoke&family=yokohama&ft:locale=en-US)**
 
 As an employee, Credly integration now empowers you to display your digital credentials better demonstrating your skills in a tangible way.
 
@@ -364,6 +371,8 @@ Yokohama
 
 Install Talent Development Core by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
+
+**Important:** Talent Development Core is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 

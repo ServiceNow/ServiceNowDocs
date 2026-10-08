@@ -53,5 +53,19 @@ Create an effectiveness goal from a remediation action or remediation action pla
 **Related topics**  
 
 
+[Create a product quality investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-product-quality-investigation-task.md)
+
+[Create a stakeholder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-stakeholders.md)
+
+[Add impacted assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-pqi-impacted-assets.md)
+
+[Create a corrective action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-corrective-action.md)
+
+[Create a preventive action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-preventive-action.md)
+
+[Create an effectiveness goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-create-effectiveness-goal.md)
+
 [Notes form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-notes.md)
+
+[Schedule a meeting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-schedule-meeting.md)
 

@@ -7,7 +7,7 @@ release: brazil
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-09-30"
 reading_time_minutes: 1
 breadcrumb: [Working with Task table, Table admin, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -18,16 +18,16 @@ The Planned Task plugin provides a Planned Task `[planned_task]` table that exte
 
 The Planned Task plugin cannot be activated independently. It gets activated when activating the Project Management plugin \(through PPM Standard plugin\).
 
-Planned tasks provide additional fields for tasks pertaining to time and effort as part of a planned, multi-stage process.
+Planned tasks provide additional fields for tasks pertaining to time and effort as part of a planned, multi-stage process. You can create a planned task by entering `planned_task.list` in the navigator filter and selecting **New** from the planned task list.
 
 **Note:** If the Planned Task\_v2 \(`com.snc.planned_taskv2`\) plugin is active when you upgrade to the Geneva or later releases, the system adds the Task column to the Planned Task \[planned\_task\] table. The Task column is of type Composite Field, and stores the Short Description and Number of the task. During the upgrade, the system updates all records in the Planned Task table.
 
--   **[Create a planned task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/table-administration-and-data-management/t_CreateAPlannedTask.md)**  
-Planned Tasks are created on planned task child tables.
+-   **[Modify a Planned Task Interceptor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/table-administration-and-data-management/t_CreateAPlannedTask.md)**  
+Customize the Planned Task Interceptor to control what type of planned task record users can create and what choices they see when creating new planned tasks.
 -   **[Create a baseline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/table-administration-and-data-management/c_CreateABaseline.md)**  
 A Planned Task Baseline is a record of the start and end times of the planned task at a particular moment in time.
 -   **[Measure time and effort](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/table-administration-and-data-management/c_MeasureTimeAndEffort.md)**  
-The Planned Task \[planned\_task\] table provides standard fields for tracking duration and effort.
+The Planned Task \[planned\_task\] form provides standard fields for tracking duration and effort.
 -   **[Important planned task table fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/table-administration-and-data-management/r_ImportantPlannedTaskTableFields.md)**  
 The Planned Task table has these fields.
 -   **[Planned task scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/table-administration-and-data-management/r_PlannedTaskScripts.md)**  

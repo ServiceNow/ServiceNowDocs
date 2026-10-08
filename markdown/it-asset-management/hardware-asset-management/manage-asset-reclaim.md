@@ -8,7 +8,7 @@ product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Asset lifecycle and disposal, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
@@ -35,6 +35,8 @@ Efficiently reclaim hardware assets when an employee leaves an organization or m
 [Create a disposal order]()
 
 [Donate assets to charity organizations]()
+
+[Calculate the active lifecycle phase for a model]()
 
 [Manage asset bundles from your inventory]()
 

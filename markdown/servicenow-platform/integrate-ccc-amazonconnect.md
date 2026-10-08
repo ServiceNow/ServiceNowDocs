@@ -152,7 +152,7 @@ Set up a collection of the required Amazon Web Services \(AWS\) resources. For m
 
 -   Use AWS Cloud Formation template to describe AWS resources and properties
 -   Use AWS Cloud Formation stack to provision the resources described in the template
-**Note:** If you're upgrading from a previous release, point your existing deployment of Lambda function running on Node.js 10.x to point it to Node.js 14.x. For more information, see the Amazon [documentation](https://aws.amazon.com/blogs/compute/node-js-14-x-runtime-now-available-in-aws-lambda/).
+**Note:** If you're upgrading from a previous release, point your Lambda function to one of the AWS supported versions. For more information, see the Amazon [documentation](https://docs.aws.amazon.com/lambda/latest/dg/lambda-nodejs.html).
 
 </td></tr><tr><td>
 

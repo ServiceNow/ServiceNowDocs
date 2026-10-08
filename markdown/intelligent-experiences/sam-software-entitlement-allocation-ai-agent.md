@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/sam-sof
 release: brazil
 topic_type: reference
 last_updated: "2026-09-10"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Software Asset Management AI agents, Software Asset Management, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
@@ -17,7 +17,10 @@ This Software Asset Management agent allocates software licenses for a request i
 ## Workflow
 
 1.  Run the license allocation tool with the request item number. If it returns an error, stop immediately.
-2.  If the allocation requires a device but none was found, prompt the user to select a device and re-run the allocation with the selected device. If no device is available, end.
+2.  If the allocation requires a device but multiple devices are found, prompt the user to select a device and re-run the allocation with the selected device. If no device is available, the flow ends.
+3.  If the request item is assigned to a user who doesn't have the required roles \(ITIL, procurement\_user\), the flow ends.
+4.  If the request item is not approved, the flow ends.
+5.  If there are no available rights in the entitlement for license metrics Per User, Per Device, or User Subscription, the purchase order flow gets initiated.
 
 <table><thead><tr><th>
 

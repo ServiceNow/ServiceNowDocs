@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-australia-brazil/brazil-australia-appenginemanagementcenter-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 3
+last_updated: "2026-10-08"
+reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
 
@@ -91,7 +91,10 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **[Assign Developer Sandboxes packs](https://www.servicenow.com/docs/access?context=assign-dsb-packs-aemc&family=brazil&ft:locale=en-US)**
+
+Assign Developer Sandboxes packs inside AEMC. You can see how many free, purchased, and unassigned sandbox packs you have entitlements for. You can also see which instances already have sandbox packs assigned to them and whether the packs include free sandboxes.
+
 
 </td></tr></tbody>
 </table>## Changes
@@ -215,7 +218,10 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **Activation information**
+
+Install App Engine Management Center by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=brazil&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -372,7 +378,13 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   Oversee requests for new custom applications from Creator Studio, App Engine Studio, and ServiceNow Studio.
+-   Manage and approve deployment requests for App Engine, ReleaseOps, and standalone pipelines.
+-   Assign Developer Sandboxes licenses to selected instances.
+-   View insights into custom app production and usage across your organization.
+-   Analyze individual developer trends and contributions.
+
+ See [App Engine Management Center](https://www.servicenow.com/docs/access?context=app-engine-management-center&family=brazil&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/rn-combined-intro.md)

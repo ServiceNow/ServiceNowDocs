@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/set-up-itsm-mcp-server.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-07-07"
 reading_time_minutes: 1
 keywords: [MCP Server, ITSM, Integration, OAuth, Incident Management, change management, AI integration, Model Context Protocol]
 breadcrumb: [ITSM MCP Server, IT Service Management]

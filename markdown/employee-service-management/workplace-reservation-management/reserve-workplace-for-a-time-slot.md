@@ -8,7 +8,7 @@ product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 8
+reading_time_minutes: 5
 breadcrumb: [Reserve workplace items, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -79,44 +79,8 @@ To view the details of the reservation, click **View details**. To cancel the re
 
 **Parent Topic:**[Reserve workplace items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-reservation-management/reserve-workplace-items.md)
 
-**Parent Topic:**[Reserve workplace items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-reservation-management/reserve-workplace-items.md)
-
 **Related topics**  
 
-
-[Create a reservation]()
-
-[Auto-resolve recurring reservations]()
-
-[Add invitees as collaborators and create a reservation]()
-
-[Set a location as favorite using the Space details page]()
-
-[Reserve a space near your colleague]()
-
-[Create a multi-day reservation]()
-
-[Create multi-building reservations]()
-
-[Create neighborhood reservations]()
-
-[Create reservation for multiple workplace items]()
-
-[Enable shift-based reservation]()
-
-[Create a reservation along with a shared reservation]()
-
-[Create a reservation including a virtual meeting link]()
-
-[Create a shift reservation]()
-
-[Create a group reservation]()
-
-[Share, modify, or cancel a reservation]()
-
-[Download an iCalendar for a reservation]()
-
-[Manage and configure reservation waitlist]()
 
 [Create a reservation]()
 

@@ -37,6 +37,18 @@ The  ServiceNow® Manufacturing Commercial Operations \(MCO\) enables you to o
 
 [Data Model\[Omitted image "bus-database.svg"\] Alt text:Framework for workflow integration.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/data-model.md)
 
+</td></tr><tr><td>
+
+ 
+
+</td><td>
+
+[Automate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/ai-in-mco.md)\[Omitted image "bus-ai-otto.svg"\] Alt text:Use generative AI skills and agentic workflows to automate manufacturing tasks
+
+</td><td>
+
+ 
+
 </td></tr></tbody>
 </table>## Additional resources
 
