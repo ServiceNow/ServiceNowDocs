@@ -37,7 +37,7 @@ You can modify only templates in the Draft state. To modify templates that are i
 
 2.  Select the template you want to modify, copy, or retire.
 
-<table id="choicetable_zqg_rlx_5w"><tbody><tr><td id="d94063e104">
+<table id="choicetable_zqg_rlx_5w"><tbody><tr><td id="d93874e104">
 
 **Modify a change template**
 
@@ -47,7 +47,7 @@ Modify the information available in the template.**Note:** You can modify any fi
 
 You can modify only templates in the Draft state.
 
-</td></tr><tr><td id="d94063e121">
+</td></tr><tr><td id="d93874e121">
 
 **Create a copy of a published template for retirement or modification**
 

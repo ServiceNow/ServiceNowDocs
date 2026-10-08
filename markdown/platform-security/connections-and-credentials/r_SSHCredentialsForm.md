@@ -484,7 +484,7 @@ Lists running process. As an alternative to running with root access, add a proc
 -   **Used by**: Discovery
 
 </td></tr></tbody>
-</table>For a list of privileged commands that you need for Discovery and Service Mapping, see . This list includes commands that require elevated rights to discover and map Unix-based hosts in your organization.
+</table>For a list of privileged commands that you need for Discovery and Service Mapping, see [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/r_CommandsnCredentials.md). This list includes commands that require elevated rights to discover and map Unix-based hosts in your organization.
 
 ## Access Requirements for Non-Root Credentials
 

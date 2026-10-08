@@ -20,7 +20,7 @@ Create Windows Server or Linux Server configuration items \(CIs\) during AWS clo
 ## Before you begin
 
 -   Verify that you have at least version 1.35.0 of Discovery and Service Mapping Patterns.
--   Download the [Cloud Discovery patterns spreadsheet](https://downloads.docs.servicenow.com/resource/enus/api/servicenow-discovery-patterns-api-details.xlsx) so you can grant user permissions required for running the relevant patterns.
+-   Download the [Cloud Discovery patterns spreadsheet](https://downloads.docs.servicenow.com/resource/enus/api/servicenow-discovery-patterns-api-details.xlsx) so you can grant user permissions required for running the Discovery patterns.
 -   Verify that AWS Systems Manager \(AWS SSM\) is enabled on the Amazon Elastic Compute Cloud \(Amazon EC2\) instances.
 -   Verify SSM Agent execution context.
     -   For Linux: The SSM Agent must run as root to retrieve the serial number using `dmidecode`.

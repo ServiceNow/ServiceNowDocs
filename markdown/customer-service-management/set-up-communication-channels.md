@@ -26,7 +26,7 @@ You have the following options for setting up communication channels:
 
 -   Set up the [Customer Service email channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/c_CustomerServiceEmailCommunication.md).
 
-    Customers can send emails to create new cases and update current cases as well as receive email updates from agents as cases progress. Customer Service Management uses the ServiceNow [email accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_EmailAccounts.md) feature to create and maintain email accounts.
+    Customers can send emails to create cases, update current cases, and receive email updates from agents as cases progress. Customer Service Management uses the ServiceNow [email accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_EmailAccounts.md) feature to create and maintain email accounts.
 
     -   [Configure one or more email addresses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_ConfigureAnEmailAccount.md).
     -   [Configure an email address for a product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/t_ConfigureEmailCommunication.md).
@@ -37,7 +37,7 @@ You have the following options for setting up communication channels:
     -   [Create rules for incoming emails and create and assign cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-rules-incoming-emails-create-assign-cases.md).
 -   Set up the [Customer Service phone channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/c_PhoneCommunication.md).
 
-    External customers can reach out to customer service agents using the phone communication channel. Customer Service Management uses both Computer Telephony Integration \(CTI\) and OpenFrame to provide phone support for customers, as well as the Notify application and the Twilio Voice product.
+    External customers can reach out to customer service agents using the phone communication channel. Customer Service Management uses both Computer Telephony Integration \(CTI\) and OpenFrame to provide phone support for customers, and the Notify application and the Twilio Voice product.
 
     OpenFrame is included with Customer Service Management. The CTI Softphone plugin \(com.snc.cti\) and the Customer Service CTI Demo Data \(com.snc.customerservice\_cti\_demo\) plugin must be activated separately. The Notify plugin \(com.snc.notify\) is activated as part of the CTI Softphone plugin.
 
@@ -50,9 +50,9 @@ You have the following options for setting up communication channels:
 
     -   [Configure the customer service chat queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/t_ConfCustServChatQueue.md).
     -   [Add an agent to the chat support assignment group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/t_AddAgentToChatSupAssignGroup.md).
-    -   [Activate Virtual Agent for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/activate-virtual-agent-csm.md)
+    -   [Activate Virtual Agent for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/activate-virtual-agent-csm.md).
     -   [Activate Customer Service Virtual Agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-virtual-agent-chatbot.md).
-    -   [Integrate Customer Service Virtual Agent with Facebook Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/update-authentication-facebook-va-integration.md).
+    -   Integrate Customer Service Virtual Agent with Facebook Messenger.
 -   Set up the [social media integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/social-media-integration.md) feature to support case resolution through social media channels.
 
     -   [Create a social media profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-social-profile.md) for an account, contact, or consumer.

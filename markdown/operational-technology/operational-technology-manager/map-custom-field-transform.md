@@ -46,9 +46,7 @@ The field map is added to the SG-OT Excel Pre Import \[sn\_otsm\_sgc\_sg\_ot\_ex
 
 ## What to do next
 
-Update the column mapping script with the custom column. For more information, see [Update the column mapping script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/update-column-mapping-script-sgc-excel.md)
-
-.
+Complete the custom column import by uploading a Microsoft Excel spreadsheet with the custom column data. For more information, see [Complete the custom column import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/complete-custom-column-import-sgc-excel.md).
 
 **Parent Topic:**[Add a custom column to the staging table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/add-custom-column-staging-table.md)
 

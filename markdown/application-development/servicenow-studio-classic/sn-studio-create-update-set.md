@@ -9,7 +9,7 @@ classification: servicenow-studio-classic
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Update sets, App deployment in ServiceNow Studio, Use, ServiceNow Studio, Developing your application, Building applications]
+breadcrumb: [Update sets, App deployment in ServiceNow Studio, Use, ServiceNow Studio, Build, AI Workflow Factory, Building applications]
 ---
 
 # Create an update set in ServiceNow Studio

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-aiskillkit-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 9
+last_updated: "2026-10-08"
+reading_time_minutes: 10
 breadcrumb: [Products combined by family]
 ---
 
@@ -104,7 +104,28 @@ Yokohama
 
 </td><td>
 
--   **[Customize ServiceNow skills in Now Assist Skill Kit to tailor skills to meet your specific business requirements.](https://www.servicenow.com/docs/access?context=clone-and-edit-servicenow-skill&family=yokohama&ft:locale=en-US)**
+-   **[New skill deployment option](https://www.servicenow.com/docs/access?context=configure-skill-settings&family=yokohama&ft:locale=en-US)**
+
+Deploy skills using UI Builder.
+
+-   **[Choose a language for data generation](https://www.servicenow.com/docs/access?context=na-data-kit-generate-data&family=yokohama&ft:locale=en-US)**
+
+When you create synthetic data, you can select what language you want to receive the data in.
+
+-   **[AI-assisted ground truth](https://www.servicenow.com/docs/access?context=add-ground-truth&family=yokohama&ft:locale=en-US)**
+
+Use AI to assist creating ground truth for your data.
+
+-   **[Import data with a CSV file](https://www.servicenow.com/docs/access?context=add-dataset&family=yokohama&ft:locale=en-US)**
+
+Import data from a CSV file to create a dataset.
+
+-   **[Create a custom data generator](https://www.servicenow.com/docs/access?context=create-custom-data-generator&family=yokohama&ft:locale=en-US)**
+
+Create and use a custom data generator to create synthetic data.
+
+
+ -   **[Customize ServiceNow skills in Now Assist Skill Kit to tailor skills to meet your specific business requirements.](https://www.servicenow.com/docs/access?context=clone-and-edit-servicenow-skill&family=yokohama&ft:locale=en-US)**
 
 Eligible skills provided in ServiceNow Now Assist applications can be cloned in Now Assist Skill Kit so that you can edit the prompt or change the AI service provider. Editing the prompt enables you to arrange the formatting and content of the large language model \(LLM\) response. After the skill is edited, activate the edited skill in the AI Admin Hub console to enable it.
 
@@ -138,6 +159,36 @@ Improve oversight and compliance for AI deployments with formal approval flows f
 -   **[AI Skill Kit roles](https://www.servicenow.com/docs/access?context=na-skill-kit-roles&family=zurich&ft:locale=en-US)Update to the abilities of the admin role**
 
 The sn\_skill\_builder.admin role is now broken into smaller, task-specific roles, including a custom LLM-specific admin role.
+
+
+ -   **[Create a model](https://www.servicenow.com/docs/access?context=create-model&family=zurich&ft:locale=en-US)**
+
+When you bring your own model you can keep data in your own environment and fine-tune it to meet your specific needs.
+
+
+ -   **[New third-party AI model provider options available for all AI applications](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=zurich&ft:locale=en-US)**
+
+Google Gemini and AWS Claude are available for generative AI skills and AI agents, in addition to Now LLM Service and Azure OpenAI.
+
+-   **[New skill deployment option](https://www.servicenow.com/docs/access?context=configure-skill-settings&family=zurich&ft:locale=en-US)**
+
+Deploy skills using UI Builder.
+
+-   **[Choose a language for data generation](https://www.servicenow.com/docs/access?context=na-data-kit-generate-data&family=zurich&ft:locale=en-US)**
+
+When you create synthetic data, you can select what language you want to receive the data in.
+
+-   **[AI-assisted ground truth](https://www.servicenow.com/docs/access?context=add-ground-truth&family=zurich&ft:locale=en-US)**
+
+Use AI to assist creating ground truth for your data.
+
+-   **[Import data with a CSV file](https://www.servicenow.com/docs/access?context=add-dataset&family=zurich&ft:locale=en-US)**
+
+Import data from a CSV file to create a dataset.
+
+-   **[Create a custom data generator](https://www.servicenow.com/docs/access?context=create-custom-data-generator&family=zurich&ft:locale=en-US)**
+
+Create and use a custom data generator to create synthetic data.
 
 
 </td></tr><tr><td>
@@ -196,6 +247,11 @@ The new default behavior works as follows:
 -   **[Configure ACLs for AI agents and agentic workflows](https://www.servicenow.com/docs/access?context=aia-security-implementation&family=yokohama&ft:locale=en-US)**
 
 Configure the access control lists for who can discover and trigger AI agents and agentic workflows in their guided setups in AI Agent Studio. You can determine whether an AI agent or agentic workflow behaves as a dynamic user or as an AI user. You can also specify if an AI agent or agentic workflow can be available to all authenticated users or publicly available.
+
+
+ -   **[Now Assist Skill Kit add tools function moved to Tool editor tab.](https://www.servicenow.com/docs/access?context=add-a-tool&family=yokohama&ft:locale=en-US)**
+
+The ability to add and edit tools for Now Assist Skill Kit previously appeared on the **Prompt editor** tab. It now appears on the **Tool editor** tab.
 
 
 </td></tr><tr><td>
@@ -393,6 +449,8 @@ Now Assist features are available with activation of any Now Assist plugin from 
     -   [Now Assist for WSD](https://www.servicenow.com/docs/access?context=now-assist-wsd-landing&family=yokohama&ft:locale=en-US)
     -   [ServiceNow Otto for Unified Security Exposure Management](https://www.servicenow.com/docs/access?context=now-assist-for-vulnerability-response-landing&family=yokohama&ft:locale=en-US)
 
+**Important:** AI Skill Kit is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Zurich
@@ -404,7 +462,7 @@ Zurich
 Now Assist features are available with activation of any Now Assist plugins from ServiceNow Store. The following plugins are available:
 
     -   
-
+**Important:** AI Skill Kit is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 

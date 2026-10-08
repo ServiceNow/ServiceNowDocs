@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-brazil/brazil-yokohama-customerselfserviceforsalescustomerrelationshipmanagement-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 17
 breadcrumb: [Products combined by family]
 ---
@@ -313,7 +313,16 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **[Order number in the submit order response](https://www.servicenow.com/docs/access?context=sales_cart-POST-submitorder&family=brazil&ft:locale=en-US)**
+
+Reference a new order in downstream systems without a follow-up call to retrieve its number. Previously, the /sn\_sales\_cart/sales\_cart/\{cart\_id\}/submitOrder response returned only the order ID, so external ordering systems had to query the order record separately to obtain the order number. Now, the response returns the order number alongside the order ID.
+
+-   **[Product offering eligibility validation when creating a cart](https://www.servicenow.com/docs/access?context=sales_cart-POST-create&family=brazil&ft:locale=en-US)**
+
+Prevent ineligible product offerings from reaching order submission by validating them as the cart is created.
+
+    -   Previously, any product offering could be added to a cart regardless of eligibility, and the resulting issues surfaced only after the order was submitted. Now, the product offerings on a cart are validated against the configured eligibility rules, and the cart isn't created when any of them is ineligible.
+    -   Previously, the response gave no indication of which product offerings caused a failure. Now, the response identifies each ineligible product offering so that you can resolve it before retrying.
 
 </td></tr></tbody>
 </table>## Removed

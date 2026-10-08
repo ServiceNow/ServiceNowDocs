@@ -8,7 +8,7 @@ product: Service Exchange
 classification: service-exchange
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Use for providers, Service Exchange for Providers, Service Exchange]
 ---
 
@@ -44,15 +44,16 @@ If email notifications are enabled, the system sends the registration URL to the
 
         **Note:** The contact must be an admin user in the consumer instance. Registration cannot be completed by any other user.
 
-    -   **URL**: Enter the URL of the consumer instance.
+    -   **URL**: Enter the URL of the consumer instance. The system validates the format and displays a confirmation or error message below the field.
+    -   **Short description**: Optional. Enter a short description for the connection.
+    -   **Comments**: Optional. Stored as additional comments on the registration request.
+    -   **Work notes**: Optional. Stored as work notes on the registration request.
 5.  Select **Create connection**.
 
-    A connection card is created for the consumer and a registration URL is generated.
+    A connection card is created and a registration URL is generated. The confirmation message depends on whether email notifications are enabled:
 
-6.  If email notifications are turned off, copy the registration URL from the **Connection Card** and share the URL with the consumer admin.
-
-    The consumer admin must use this URL to complete the registration process.
-
+    -   If email is on: "Connection invite successfully sent to &lt;consumer name&gt;. You are now in their queue for registration. Monitor the connection status here."
+    -   If email is off: "Connection request successfully created. Email notifications are turned off on your instance hence the invite wasn't sent automatically. Please share the registration URL with your consumer contact. You can find it in the connection details." The message includes a link to the connection details page where you can copy the URL.
 
 ## Result
 

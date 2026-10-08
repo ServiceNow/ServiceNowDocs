@@ -9,7 +9,7 @@ last_updated: "2026-09-09"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, Autonomous Engineer, work item states, plan states, plan dashboard, plan execution, background agent, ATF tests, update set, draft, queued, in progress, needs validation, blocked, cancelled]
 audience: programmer
-breadcrumb: [Reference, Autonomous Engineer, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Reference, Autonomous Engineer, Build, AI Workflow Factory, Building applications]
 ---
 
 # Autonomous Engineer plan and work item states
@@ -80,6 +80,10 @@ Each work item moves through states during plan execution. The plan dashboard di
 -   **Blocked \(error\)**
 
     The background agent encountered an error it can't self-heal. Open the work item or ask Build Agent in the chat panel for details, then ask Build Agent to retry.
+
+-   **Stopped**
+
+    The background agent encountered an error and stopped execution. Autonomous Engineer retries the work item automatically before surfacing it for manual intervention. If the work item can't be resolved after the automatic retry limit is reached, it appears in the plan dashboard and the chat panel for your review.
 
 -   **Cancelled**
 

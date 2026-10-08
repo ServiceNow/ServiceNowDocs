@@ -6,8 +6,8 @@ canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm
 release: brazil
 topic_type: reference
 last_updated: "2026-09-10"
-reading_time_minutes: 3
-breadcrumb: [Contributor users, Configure Contributor Users, User management, Set up your environment, Configure, Customer Service Management]
+reading_time_minutes: 4
+breadcrumb: [Contributor users, Configure contributor users, User management, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Contributor user roles
@@ -163,8 +163,6 @@ Service organization contributor \[sn\_customerservice.service\_organization\_co
 
 This role enables you to create cases for your service organization \(business location\).**Note:** A service organization contributor must be a member of a service organization to create cases on its behalf.
 
-**Note:** Review your entitlements to determine licensing type of this role.
-
 </td><td>
 
 sn\_customerservice.case\_contributor\_creator
@@ -175,7 +173,7 @@ Business Org Account Contributor\[sn\_bus\_loc.business\_org\_account\_contribut
 
 </td><td>
 
-Creates cases for accounts associated with their business organization using criteria-based restricted customer access. Tracks and manages cases created by them for the accounts associated with their business organization.
+This role enables you to create cases for accounts associated with your business organization using criteria-based restricted customer access. Track and manage cases created by you for the accounts associated with your business organization.
 
 </td><td>
 
@@ -187,7 +185,7 @@ Business Org Consumer Contributor\[sn\_bus\_loc.business\_org\_consumer\_contrib
 
 </td><td>
 
-Creates cases for consumers and households associated with their business organization using criteria-based restricted customer access. Tracks and manages cases created by them for the consumers or households associated with their business organization.
+This role enables you to create cases for consumers and households associated with your business organization using criteria-based restricted customer access. Also, track and manage cases created by you for the consumers or households associated with your business organization.
 
 </td><td>
 
@@ -218,10 +216,7 @@ Relationship contributor \[sn\_customerservice.relationship\_contributor\]
 
 This role enables you to create cases for customers with which they have an established relationship. **Note:**
 
--   The CSM Contributor User \(com.snc.csm\_contributor\_user\) plugin must be activated.
-
-**Note:** The CSM Contributor User plugin is moved to the App Store beginning with Australia release.
-
+-   The CSM Contributor User \(com.snc.csm\_contributor\_user\) plugin must be activated. This plugin is moved to the App Store beginning with Australia release.
 -   A relationship contributor must be a member of an account, contact, or household team to create cases on their behalf.
 
 </td><td>
@@ -261,7 +256,7 @@ Workspace user\[sn\_customerservice.csm\_workspace\_user\]
 
 </td><td>
 
-This role provides access to case tasks from the following modules in the CSM workspaces:-   My Case Tasks
+This role provides access to case tasks from the following modules in the CSM workspaces for internal users only:-   My Case Tasks
 -   My Group's Case Tasks
 
  You can also:
@@ -269,6 +264,8 @@ This role provides access to case tasks from the following modules in the CSM wo
 -   Use Agent Assist to search for knowledge articles \(if the User Criteria are set to provide access to knowledge\).
 -   Create email \(if you have the written access to the record and the email\_composer role\).
 -   View response templates \(if response templates have been configured for the record\).
+
+**Note:** An external user who is given contributor roles can't access workspace even if they’re given this role.
 
 </td><td>
 
@@ -281,7 +278,7 @@ This role provides access to case tasks from the following modules in the CSM wo
 </table>**Related topics**  
 
 
-[Configure Contributor Users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/config-contributor-user.md)
+[Configure contributor users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/config-contributor-user.md)
 
 [Contributor users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-service-contributor-users.md)
 

@@ -34,10 +34,8 @@ See [Exploring Telecommunications Service Operations Management](https://raw.git
     Request and activate the Telecommunications Service Operations Management \(com.sn\_tsom\_core\) plugin. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
-## Accessibility and localization
+## Localization
 
--   **Accessibility information**
-    -   Telecommunications Service Operations Management follows standard ServiceNow AI Platform accessibility support, including keyboard navigation and compatibility with screen readers.
 -   **Localization information**
 
     Telecommunications Service Operations Management does not include dedicated language packs. Language support relies on the base system language plugins active on your instance.

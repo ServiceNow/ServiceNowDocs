@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-leap-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -123,7 +123,12 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   ****
+
+This release of LEAP supports Gemma 4 26B A4B IT as a new Now LLM model. This is the default model within Now LLM's model pool for all skills.
+
+Admins can enable and configure 3P model support and users can utilize expanded GenAI model catalog capabilities as required.
+
 
 </td></tr></tbody>
 </table>## Changes
@@ -176,7 +181,10 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **Now LLM models**
+
+Now LLM \(llmgenericlargev2, llmgenericlargev2-lts, llmgenericsmall\_v2-lts\) Gemini large, Gemini small, and Claude Sonnet 4.5 models have been retired and are no longer available in the model catalog. Gemini-3.5-flash and Claude Sonnet 4.6 remains as replacements.
+
 
 </td></tr></tbody>
 </table>## Removed
@@ -339,6 +347,8 @@ Brazil
 
 Install LEAP by requesting ServiceNow Otto for ITOM from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=brazil&ft:locale=en-US). After installation, activate the skill from Workspaces &gt; LEAP &gt; Admin &gt; AI Admin Hub &gt; AI Skills &gt; Platform &gt; LEAP. For details, see [Activate](https://www.servicenow.com/docs/access?context=activate-aiops-leap&family=brazil&ft:locale=en-US).
 
+
+**Note:** LEAP is available in the ServiceNow Store. For details, see the following activation information.
 
 </td></tr></tbody>
 </table>## Additional requirements

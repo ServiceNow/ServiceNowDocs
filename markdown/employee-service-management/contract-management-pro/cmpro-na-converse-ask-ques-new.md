@@ -94,5 +94,3 @@ For feature limitations, see [AI capabilities in Contract Management Pro](https:
 
 **Parent Topic:**[Use conversational contract search and insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/contract-management-pro/cmpro-agentic-use-conv-search.md)
 
-**Parent Topic:**[Use conversational contract search and insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/contract-management-pro/cmpro-agentic-use-conv-search.md)
-

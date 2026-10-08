@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [ReleaseOps, Release lifecycle documentation AI agent, ReleaseOps AI features, Configure AI in ReleaseOps]
-breadcrumb: [Configure, ReleaseOps, Deploying applications, Building applications]
+breadcrumb: [Configure, ReleaseOps, Run, AI Workflow Factory, Building applications]
 ---
 
 # Configure release lifecycle documentation AI agent
@@ -68,4 +68,9 @@ Start using the release lifecycle documentation AI agent to generate update set 
 
 -   [Generate release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/releaseops/generate-release-notes.md)
 -   [Generate an update set description](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/releaseops/generate-update-set-description.md)
+
+-   **[Roles required for using the release lifecycle documentation AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/releaseops/release-lifecycle-documentation-ai-agent-roles.md)**  
+Learn about which roles are required for using the release lifecycle documentation AI agent.
+
+**Parent Topic:**[Configuring ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/releaseops/configuring-releaseops.md)
 

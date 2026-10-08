@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [ReleaseOps, deploy changes, update sets, pipeline, ATF, schedule a release, deployment request, deployment analyzer]
-breadcrumb: [Use, ReleaseOps, Deploying applications, Building applications]
+breadcrumb: [Use, ReleaseOps, Run, AI Workflow Factory, Building applications]
 ---
 
 # Promote an update set for deployment

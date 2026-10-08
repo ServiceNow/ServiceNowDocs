@@ -16,6 +16,8 @@ breadcrumb: [Explore, Feedback in Strategic Planning, Strategic Planning, Strate
 
 Use AI skills and agents to transform Strategic Portfolio Management into a continuous value engine. Embed intelligence across every stage to optimize resources and investments.
 
+Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+
 ## Multi feedback or Feedback summarization
 
 Provides product managers with a concise and informative summary of the lengthy customer feedback comments. The product managers can generate a summary from the name and description of one or multiple feedback records so that they can quickly understand the feedback context. The generated summary can be directly converted to an execution item. This skill can generate a summary from the feedback only if the feedback has at least 60 words in the fields that are used for the input data. The 60-word minimum optimizes the experience by verifying that there’s enough information to make a summary.

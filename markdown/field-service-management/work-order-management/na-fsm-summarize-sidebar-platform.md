@@ -66,15 +66,15 @@ You can do these actions using Sidebar summarization:
     -   Select the quick action icon \(\[Omitted image "now-assist-sidebar-lightning-bolt-icon.png"\] Alt text: icon image\).
 10. After summarizing the Sidebar discussion, you can add it to the work notes, and provide feedback about it.
 
-<table id="choicetable_vzl_myv_bcc"><thead><tr><th align="left" id="d96408e289">
+<table id="choicetable_vzl_myv_bcc"><thead><tr><th align="left" id="d96750e289">
 
 Option
 
-</th><th align="left" id="d96408e292">
+</th><th align="left" id="d96750e292">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d96408e298">
+</th></tr></thead><tbody><tr><td id="d96750e298">
 
 **Save the summary information by adding it to the work notes**
 
@@ -85,7 +85,7 @@ Procedure
 3.  Select **Save to Work notes**.
 
 
-</td></tr><tr><td id="d96408e325">
+</td></tr><tr><td id="d96750e325">
 
 **Provide feedback for the summary**
 

@@ -40,5 +40,5 @@ When you view the citations and authority documents in an instance, all the cita
 **Related topics**  
 
 
-[bundle-grc.t_CreateCitations]
+[Create or deactivate a citation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/t_CreateCitations.md)
 

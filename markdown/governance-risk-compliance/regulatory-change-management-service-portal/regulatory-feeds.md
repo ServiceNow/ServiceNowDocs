@@ -78,7 +78,7 @@ Perform various actions on unassigned and other types of regulatory alerts. For 
 Add an AI-recommended citation to a regulatory alert by using the GRC: Predictive Intelligence application.
 -   **[Manage and assign regulatory event alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/manage-regulatory-feeds.md)**  
 Assign regulatory event alerts that are received from the regulatory intelligence provider to an appropriate user. You can review other properties of the regulatory event alert.
--   **[Train and use the similarity solution to recommend citations on regulatory alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/retrain-ml-reg-compliance-mapping.md)**  
+-   **[Recommend citations on regulatory alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/retrain-ml-reg-compliance-mapping.md)**  
 Train and use the machine learning solution by activating the Governance, Risk, and Compliance Predictive Intelligence plugin. The solution enables the system to automatically recommend correct citations on regulatory alerts to associate.
 -   **[Manage and assign source document alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/manage-source-document-feeds.md)**  
 Assign source document alerts that are received from the regulatory intelligence provider to an appropriate user. You can review other properties of the source document alert.

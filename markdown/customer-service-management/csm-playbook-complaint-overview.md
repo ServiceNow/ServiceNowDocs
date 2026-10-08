@@ -292,7 +292,25 @@ Activity that displays the details of the email that was automatically sent to t
 
 </td></tr><tr><td>
 
-**Research** Orchestrates sending the case to different back-office teams for follow-up.
+**Research** Uses the Research AI agent to help the agent research the case, and sends the case to different back-office teams for follow-up.
+
+</td><td>
+
+Research AI agent
+
+</td><td>
+
+Activity that embeds the Complaint Case Research AI agent directly in the Research stage. Select **Start Now Assist** to invoke the agent and view its recommended troubleshooting steps and case tasks.
+
+ Role required: sn\_now\_canvas\_ai.interactive\_view\_user. Only the user who invokes the agent can interact with the activity and view its output.
+
+ By default, this activity appears when the Complaint Case Research AI Agent trigger is inactive in the Accelerate Complaint Case Handling agentic workflow. You can edit the playbook if you don't want to include this activity.
+
+ For more information, see [Use the Research AI agent activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/now-assist-for-csm/acc-complaint-case-handling-research-activity.md).
+
+</td></tr><tr><td>
+
+ 
 
 </td><td>
 

@@ -9,7 +9,7 @@ last_updated: "2026-09-08"
 reading_time_minutes: 3
 keywords: [Autonomous Engineer, Build Agent, use, implementation plan, work items, plan dashboard, background agents, update set, ServiceNow Studio, requirements]
 audience: programmer
-breadcrumb: [Autonomous Engineer, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Autonomous Engineer, Build, AI Workflow Factory, Building applications]
 ---
 
 # Using Autonomous Engineer
@@ -43,12 +43,20 @@ For more information on using Test Agent, see [Test Agent](https://raw.githubuse
 
 While you navigate the plan and its work items, the chat panel remains in context of the plan. Use the chat panel to ask questions about the plan, check on the status of specific work items, and review any questions that background agents surfaced during execution.
 
+-   **[Accessing Autonomous Engineer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/access-autonomous-engineer.md)**  
+Autonomous Engineer is available in ServiceNow Studio. You access it through the Build Agent chat panel by switching the active mode to Autonomous Engineer.
 -   **[Use Autonomous Engineer to implement an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/use-autonomous-engineer.md)**  
 Use Autonomous Engineer \(powered by Build Agent\) to generate a plan from your requirements and build all work items in parallel, without creating each artifact individually. When implementing a ServiceNow product or application, Autonomous Engineer uses agent packs to give background agents product-specific domain knowledge.
+-   **[Plans in Autonomous Engineer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ae-plans.md)**  
+Access all Autonomous Engineer plans from the **Plans** view in the Build Agent panel. The **Plans** view shows the plans you created and all plans available on the instance.
 -   **[Manage work items during execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/manage-autonomous-engineer-work-items.md)**  
 Monitor Autonomous Engineer work items as they build. You can review generated artifacts and test results, resolve work items that require attention, and export the update set when all work items are complete.
+-   **[View changes in the change log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ae-ccl-preview-tab.md)**  
+When Autonomous Engineer completes a turn, it updates the change log.
 -   **[Update sets and Autonomous Engineer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ae-update-sets.md)**  
 When you work with Autonomous Engineer, your changes are automatically tracked in update sets so you can review, revert, and deploy them without leaving ServiceNow Studio.
+-   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ae-source-control.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ae-source-control.md)**  
+
 -   **[Test what you built with Autonomous Engineer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ae-test-what-you-built.md)**  
 Test Agent generates test coverage for each work item that Autonomous Engineer builds, executes the tests, and performs root cause analysis \(RCA\) on failures.
 -   **[Deploying what you built with Autonomous Engineer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ae-deployment.md)**  

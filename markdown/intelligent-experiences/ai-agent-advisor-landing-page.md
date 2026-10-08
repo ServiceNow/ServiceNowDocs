@@ -23,7 +23,7 @@ The AI Agent Advisor automatically discovers automation opportunities in your in
 
 </td><td>
 
-[Configure\[Omitted image "image.icon-configure-docintel"\] Alt text:Set up AI Agent Advisor to get started.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configuring-ai-agent-advisor.md)
+[Configure\[Omitted image "icon-aiac-landing-configure-aiac.png"\] Alt text:Set up AI Agent Advisor to get started.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configuring-ai-agent-advisor.md)
 
 </td></tr><tr><td>
 

@@ -77,5 +77,8 @@ Select the risk signal for which the solution is being associated.
     This enables you to track the risk and view the proposed solutions to address the risk.
 
 
+-   **[Draft close notes for a risk signal using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/draft-risk-close-notes.md)**  
+Automatically generate closure notes and close eligible risk signals at the end of each day based on the status of their associated risk solutions.
+
 **Parent Topic:**[Risk portfolio dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-risk-portfolio.md)
 

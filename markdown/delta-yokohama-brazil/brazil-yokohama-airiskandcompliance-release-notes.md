@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-brazil/brazil-yokohama-airiskandcompliance-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 22
 breadcrumb: [Products combined by family]
 ---
@@ -65,6 +65,8 @@ Brazil
 -   **Upgrade information**
 
 If you're upgrading from an earlier release, upgrade sequentially through each release rather than skipping versions. Upgrade scripts depend on running in order, and skipping releases can cause data inconsistencies or broken functionality.
+
+**Warning:** If AI Risk and Compliance, EA Workspace, and AI Control Tower Core are upgraded out of sync, business application associations may be lost or unavailable. For more information, see [Enterprise Architecture for AICT plugin installation and upgrade considerations](https://www.servicenow.com/docs/access?context=aict-ea-common-upgrade-considerations&family=brazil&ft:locale=en-US) and [Configure](https://www.servicenow.com/docs/access?context=configuring-ai-risk-and-compliance&family=brazil&ft:locale=en-US).
 
 
 </td></tr></tbody>
@@ -222,7 +224,7 @@ After upgrading to version 22.5.x, if you have the AI Asset Owner \[sn\_ai\_asse
 After upgrading to version 22.5.x, if you have the AI Steward \[sn\_ai\_governance.ai\_steward\] and AI Risk and Compliance Analyst \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_analyst\] roles, you can take and manage risk assessments directly from the playbook within the AI Control Tower workspace, without switching between workspaces.
 
 
- -   **[Exploring Now Assist in AI Risk and Compliance](https://www.servicenow.com/docs/access?context=airc-exploring-now-assist&family=australia&ft:locale=en-US)**
+ -   **[ServiceNow Otto for AI Risk and Compliance](https://www.servicenow.com/docs/access?context=airc-exploring-now-assist&family=australia&ft:locale=en-US)**
 
 Use Now Assist for AI Risk and Compliance to get AI-powered assistance throughout the AI asset lifecycle. After upgrading to version 22.4.x, users with the AI Risk and Compliance AI user \[sn\_airc\_gen\_ai.airc\_ai\_user\] and AI Risk and Compliance AI agent user \[sn\_airc\_gen\_ai.airc\_ai\_agent\] roles can access the following capabilities:
 
@@ -768,7 +770,7 @@ Brazil
 -   Manage conformity of AI assets with global regulations and frameworks.
 -   Identify and address potential impacts on privacy, non- discrimination, and other human rights.
 
- See [Version 23.0.3](https://www.servicenow.com/docs/access?context=airc-rn-2026-09&family=brazil&ft:locale=en-US) for more information.
+ See [September 2026](https://www.servicenow.com/docs/access?context=airc-rn-2026-09&family=brazil&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/rn-combined-intro.md)

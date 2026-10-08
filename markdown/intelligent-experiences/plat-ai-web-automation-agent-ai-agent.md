@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/plat-ai-web-automation-agent-ai-agent.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-08-14"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow AI Platform AI agents, ServiceNow AI Platform, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
@@ -79,7 +79,7 @@ Data access roles The specific user identity roles that determine which data the
 
 </td><td>
 
-snc\_internal
+sn\_aaa.web\_agent\_runtime
 
 </td></tr><tr><td>
 

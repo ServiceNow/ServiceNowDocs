@@ -51,15 +51,15 @@ A Threat Response policy watches for a specific threat type. Once conditions mat
 
     A follow-up fires only when the policy actually blocks an attempt, not just because it's published.
 
-<table id="choicetable_tqh_bxr_jkc"><thead><tr><th align="left" id="d151314e206">
+<table id="choicetable_tqh_bxr_jkc"><thead><tr><th align="left" id="d182403e206">
 
 Follow-up action
 
-</th><th align="left" id="d151314e209">
+</th><th align="left" id="d182403e209">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d151314e215">
+</th></tr></thead><tbody><tr><td id="d182403e215">
 
 **Create a ticket**
 
@@ -70,7 +70,7 @@ Description
 3.  Select the assignment group that will receive the ticket.
 
 
-</td></tr><tr><td id="d151314e242">
+</td></tr><tr><td id="d182403e242">
 
 **Notify**
 
@@ -93,5 +93,5 @@ The policy runs as soon as a matching threat is detected. The affected agent is 
 
 Confirm the policy is working as expected by reviewing policy enforcement activity. For details, see [Reviewing policy enforcement in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-pol-reviewing-enforcement-activity.md).
 
-You can edit a Threat Response policy directly to change its threat type, scope, sensitivity, or follow-up actions. For details, see [Edit a Threat Response policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-pol-edit-threat-response-policy.md). Alternatively, clone the policy to test a variant without changing the original, then deactivate the original once your clone is confirmed working, if you no longer need it. For details, see [Clone a policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-pol-clone-policy.md).
+You can edit a Threat Response policy directly to change its threat type, scope, sensitivity, or follow-up actions. For details, see [Edit a Threat Response policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-pol-edit-threat-response-policy.md). Alternatively, clone the policy to test a variant without changing the original, then delete the original once your clone is confirmed working, if you no longer need it. For details, see [Clone a policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-pol-clone-policy.md).
 

@@ -7,7 +7,7 @@ release: brazil
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: task
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [Regulatory alerts, Regulatory Change Management Core UI, Use, Regulatory Change Management, Governance, Risk, and Compliance]
 ---
@@ -22,7 +22,7 @@ Role required: sn\_compliance\_admin or sn\_compliance\_manager
 
 ## About this task
 
-Traditionally, citations were downloaded from a third-party provider but only the users with subscription licenses could download the citations from those third-party-providers or you could create citations from an authority document by using Compliance Workspace.
+Citations were downloaded from a third-party provider, but only users with subscription licenses could access them. You can also create citations from an authority document by using Compliance Workspace.
 
 ## Procedure
 
@@ -62,7 +62,7 @@ Traditionally, citations were downloaded from a third-party provider but only th
 
 [Manage and assign regulatory event alerts]()
 
-[Train and use the similarity solution to recommend citations on regulatory alerts]()
+[Recommend citations on regulatory alerts]()
 
 [Manage and assign source document alerts]()
 

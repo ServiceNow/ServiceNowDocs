@@ -9,7 +9,7 @@ classification: value-library
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Objectives and outcomes, Value management, Using Impact, Impact]
+breadcrumb: [Objectives and outcomes, Value Management, Using Impact, Impact]
 ---
 
 # Outcome versioning in Impact
@@ -21,9 +21,9 @@ Outcome versioning is not a separate stage in the value management lifecycle, bu
 |Parameters|Standard Outcomes|Enhanced Outcomes|
 |----------|-----------------|-----------------|
 |What is it|Product value measurement using the original outcomes and metrics.|Product value measurement using updated outcome definitions and more precise calculation methodology, aligned to current platform capabilities.|
-|Availability|All 15 supported products|IT Service Management only, at launch.|
+|Availability|All 15 supported products|IT Service Management, Customer Service Management, and HR Service Delivery.|
 |Where you view the Insights|Impact Store Application and Impact Delivery Instance \(IDI\).|Latest Impact Store Application only; and post service bridge connect on Impact Delivery Instance \(IDI\).|
-|Recommended for|Existing setups fully supported, no planned deprecation.|New IT Service Management setups from the August 2026 release onwards.|
+|Recommended for|Existing setups fully supported, no planned deprecation.|New IT Service Management,Customer Service Management andHR Service Delivery setups from the October 2026 release onwards.|
 
 **Note:** Adopting enhanced outcomes for IT Service Management is optional for existing customers. Your current setup, tracked outcomes, and historical data are not affected. Standard outcomes remain fully supported with no planned deprecation.
 

@@ -7,7 +7,7 @@ release: brazil
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-09-29"
 reading_time_minutes: 3
 keywords: [Discovery, Admin, Workspace]
 breadcrumb: [Insights, Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
@@ -27,13 +27,15 @@ To access the dashboard, navigate to **Workspaces** &gt; **Discovery Admin Works
     -   ServiceNow AI Platform: Brazil, Australia, Zurich, or the Yokohama release starting with Patch 6
     -   Software Asset Management Professional plugin \(com.snc.samp\)
     -   Agent Client Collector for Visibility - Content \(ACC-VC\), starting with v1.8.0
+    -   DEX Browser Extension 4.1.0 enabled on the host.
+    -   Google Chrome 114 or later, or Microsoft Edge 96 or later.
     -   ITOM URL Discovery, starting with v1.1.0
     -   Discovery Admin Workspace, starting with v1.14.0
 -   **Enable the data collection**
 
     Role required: discovery\_admin or admin
 
-    Set the **sn\_acc\_vis\_content.enable\_full\_monitoring** property to `True`.
+    Set the **sn\_itom\_url\_disc.enable\_full\_monitoring** property to `True`.
 
     For more information, see [Collect web usage data using Agent Client Collector for Visibility Content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/collect-web-data-usage-accvc.md).
 

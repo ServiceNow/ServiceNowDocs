@@ -83,3 +83,5 @@ The following list of tables are not supported by the ATF tests failure resoluti
 
 [Performance profiling]()
 
+[ATF Health Check]()
+

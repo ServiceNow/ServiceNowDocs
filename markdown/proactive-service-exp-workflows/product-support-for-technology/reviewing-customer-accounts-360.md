@@ -26,6 +26,10 @@ Create an escalation after analyzing the customer account data in the Technology
 Create a risk signal after analyzing the customer account data in the Technology Account 360 view.
 -   **[Ask ServiceNow Otto for account 360 details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/product-support-for-technology/ask-servicenow-otto-account-360-details.md)**  
 Generate summaries or ask questions about the account or engagement to retrieve specific information from the Technology Account 360 view.
+-   **[Activate the Executive Insight Generator skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/product-support-for-technology/now-assist-tmt-exec-insight-gen.md)**  
+Enable AI-generated engagement briefs that summarize recent signals across risk, adoption, and market activity on the engagement record page.
+-   **[Activate the Event-Context Candidate Recommender](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/product-support-for-technology/now-assist-tmt-reco-actions-skill.md)**  
+Enable AI-powered success play recommendations in Technology Account 360 and engagement records based on account context and lifecycle events.
 
 **Parent Topic:**[Using Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/product-support-for-technology/use-assurance-workflows.md)
 

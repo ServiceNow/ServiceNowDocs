@@ -57,7 +57,7 @@ Classifies AI systems by regulatory risk level based on factors captured during 
 
 </td><td>
 
-During intake screening or early assessment to determine initial regulatory risk classification. .
+During intake screening or early assessment to determine initial regulatory risk classification.
 
 </td></tr><tr><td>
 
@@ -121,8 +121,6 @@ When models or datasets require independent governance evaluation. Unlike AI sys
 Administrators can configure which risk assessment methodologies \(RAMs\) are applied during intake, assessment, and risk evaluation workflows.
 
 Configuration options include specifying default RAMs for AI systems, models, and datasets, and enabling automated or advanced risk calculation behavior.
-
-To configure the default RAM for AI system risk classification at intake, set the `sn_grc_ai_gov.ai_system_risk_classification_ram` property.
 
 To configure automated risk classification during intake, specify the `sn_grc_ai_gov.ai_system_automated_risk_classification_asmt_ram` property.
 

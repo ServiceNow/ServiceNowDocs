@@ -8,7 +8,7 @@ product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 4
+reading_time_minutes: 2
 keywords: [Contract repository record, Related list, Contract document related list, uptake steps for CM Pro, BU configuration]
 breadcrumb: [Configure CM Pro for your workspace, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
@@ -52,8 +52,6 @@ The Contract document tab is available your workspace to view the contract docum
 
 **Parent Topic:**[Add and configure contract request functionality into your workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/contract-management-pro/cncore-uptake-steps.md)
 
-**Parent Topic:**[Add and configure contract request functionality into your workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/contract-management-pro/cncore-uptake-steps.md)
-
 **Related topics**  
 
 
@@ -71,29 +69,7 @@ The Contract document tab is available your workspace to view the contract docum
 
 [Add access to obligation management from contract repository records]()
 
-[Configure the contract request form header for your workspace]()
-
-[Assign a role for configuring template mappings]()
-
-[Enable contract request fields in condition builders]()
-
-[Configuring the Playbook tab on contract repository records]()
-
-[Configure non-task tables for contract templates]()
-
-[Add a workspace action button for initiating a contract request]()
-
-[Add Contract requests tab to the contract request record]()
-
-[Add amendment tabs to contract repository record]()
-
-[Copy fields from parent request to contract request]()
-
-[Group contract documents by contract type in a contract request]()
-
-[Add access to obligation management from contract repository records]()
-
-[Configure the contract request form header for your workspace]()
+[Configure the contract request form header]()
 
 [Assign a role for configuring template mappings]()
 

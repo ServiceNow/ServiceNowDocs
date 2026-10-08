@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-australia-brazil/brazil-australia-subscriptionmanagement-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 4
+last_updated: "2026-10-08"
+reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
 
@@ -106,7 +106,12 @@ Australia
 
 </td><td>
 
--   **[Now Assist usage excludes demo data](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=australia&ft:locale=en-US)**
+-   **[Support for Moveworks consumption tracking](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=australia&ft:locale=en-US)**
+
+Starting in Australia patch 7, Moveworks consumption can now be measured as part of your Assist meter, following the same subscription rules as other assist-based products. For more information about the timeline and required steps for integration, see [Moveworks Assist in Subscription Management: Rollout Timeline, Customer Actions &amp; FAQ \[KB3147691\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3147691) on the Now Support Knowledge Base.
+
+
+ -   **[Now Assist usage excludes demo data](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=australia&ft:locale=en-US)**
 
 Demonstration instances are excluded from the total Now Assist usage count to improve tracking of Assist consumption. The accrual time field displays when Now Assist data was last accrued.
 
@@ -132,6 +137,11 @@ Brazil
 -   **[Account-level cloud capacity storage pool](https://www.servicenow.com/docs/access?context=monitoring-cloud-entitlements&family=brazil&ft:locale=en-US)**
 
 Cloud capacity storage is now pooled at the account level rather than capped at the instance level. This means your total storage entitlement can be used more flexibly, wherever it's needed across your environment.
+
+
+ -   **[Support for Moveworks consumption tracking](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=brazil&ft:locale=en-US)**
+
+Moveworks consumption can now be measured as part of your Assist meter, following the same subscription rules as other assist-based products. For more information about the timeline and required steps for integration, see [Moveworks Assist in Subscription Management: Rollout Timeline, Customer Actions &amp; FAQ \[KB3147691\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3147691) on the Now Support Knowledge Base.
 
 
 </td></tr></tbody>

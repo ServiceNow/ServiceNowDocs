@@ -164,5 +164,5 @@ Unsupported**Note:** All aspects of the workspace experience remain inaccessible
 </td></tr></tbody>
 </table>The Launch Interactive Analysis option in the Case list form context menu isn’t functional.
 
-With an external organization as a fulfiller, you can create and manage cases for the households, and consumers from the platform. For more information on how to create and manage cases, see [Create and manage cases for a business location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/manage-business-location-cases.md).
+With an external organization as a fulfiller, you can create and manage cases for the households, and consumers from the platform. For more information on how to create and manage cases, see [Create and manage cases for a business organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/manage-business-location-cases.md).
 

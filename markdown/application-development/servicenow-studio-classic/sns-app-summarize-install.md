@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist, generative AI]
-breadcrumb: [Configuring, App summary generation, AI tools and files, Use, ServiceNow Studio, Developing your application, Building applications]
+breadcrumb: [Configuring, App summary generation, AI tools and files, Use, ServiceNow Studio, Build, AI Workflow Factory, Building applications]
 ---
 
 # Install ServiceNow Otto for app summary generation

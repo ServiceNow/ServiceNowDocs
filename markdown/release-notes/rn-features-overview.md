@@ -35,7 +35,7 @@ Get a glimpse of release notes based on what products you have and what informat
 
 </td><td>
 
--   **[Personalized PRB release notes](https://www.servicenow.com/docs/r/release-notes/australia-summary-fixes.html)**
+-   **[Personalized PRB release notes](https://www.servicenow.com/docs/r/release-notes/brazil-summary-fixes.html)**
 
 With personalized PRB release notes, collect a list of fixes to fit your specific upgrade scenario. Choosing your current release version and your targeted release version generates a list of all the fixes included in your upgrade. View this list in a table, or download a spreadsheet to sort and review PRBs as needed.
 
@@ -48,7 +48,7 @@ With personalized PRB release notes, collect a list of fixes to fit your specifi
 
 </td><td>
 
--   **[Combined product release notes](https://www.servicenow.com/docs/r/delta-zurich-australia/rn-combined-intro.html)**
+-   **[Combined product release notes](https://www.servicenow.com/docs/r/release-notes/brazil-australia-combined-release-notes.html)**
 
 If your upgrade involves skipping one or more family releases, combined product release notes ensure you have all the information you need to prepare for your upgrade. From a list of available products, you can filter changes and features for your specific applications across the relevant releases, and view the information all on one page.
 

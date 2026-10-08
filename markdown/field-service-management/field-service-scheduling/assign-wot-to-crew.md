@@ -69,15 +69,15 @@ When scheduling tasks for multiple days:
 
 6.  Assign the crew task.
 
-<table id="choicetable_tv1_54y_xrb"><thead><tr><th align="left" id="d46211e254">
+<table id="choicetable_tv1_54y_xrb"><thead><tr><th align="left" id="d46373e254">
 
 Option
 
-</th><th align="left" id="d46211e257">
+</th><th align="left" id="d46373e257">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d46211e263">
+</th></tr></thead><tbody><tr><td id="d46373e263">
 
 **To assign a task manually**
 
@@ -88,7 +88,7 @@ Description
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d46211e287">
+</td></tr><tr><td id="d46373e287">
 
 **To manually assign a task from the task panel**
 
@@ -100,7 +100,7 @@ Description
 4.  Select **Save**.
 
 
-</td></tr><tr><td id="d46211e326">
+</td></tr><tr><td id="d46373e326">
 
 **To auto-assign the task to a crew from the task panel**
 
@@ -111,7 +111,7 @@ Description
 3.  Select **Confirm**.
 
 
-</td></tr><tr><td id="d46211e359">
+</td></tr><tr><td id="d46373e359">
 
 **To auto-assign the task to a crew from the task record**
 
@@ -122,7 +122,7 @@ Description
 3.  Select **Confirm**.
 
 
-</td></tr><tr><td id="d46211e387">
+</td></tr><tr><td id="d46373e387">
 
 **To auto-assign the task to a crew from a list**
 
@@ -134,7 +134,7 @@ Description
 4.  Select **Confirm**.
 
 
-</td></tr><tr><td id="d46211e426">
+</td></tr><tr><td id="d46373e426">
 
 **To manually assign a task from the contextual side panel**
 
@@ -147,7 +147,7 @@ Description
 5.  Select **Save**.
 
 
-</td></tr><tr><td id="d46211e468">
+</td></tr><tr><td id="d46373e468">
 
 **To auto-assign the task to a crew from the contextual side panel**
 

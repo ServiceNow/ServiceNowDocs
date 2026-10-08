@@ -45,5 +45,3 @@ Role required: sp\_admin or admin
 
 **Parent Topic:**[Employee Center browse experience widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/employee-experience-foundation/custom-widget-landing-ec.md)
 
-**Parent Topic:**[Employee Center browse experience widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/employee-experience-foundation/custom-widget-landing-ec.md)
-

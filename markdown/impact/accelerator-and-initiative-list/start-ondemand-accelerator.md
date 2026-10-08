@@ -7,7 +7,7 @@ release: brazil
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: task
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [Self-serve Accelerator fulfillment process, Request Accelerators and Initiatives, Accelerators and Initiatives, Using Impact, Impact]
 ---
@@ -64,4 +64,6 @@ The self-serve flow for on-demand Accelerators is structured across different ty
 [Staffing and Roles Review-On Demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/staffing-and-roles-review-on-demand.md)
 
 [ServiceNow Governance – On Demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/servicenow-governance-on-demand.md)
+
+[Maturity assessment questionnaires](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/maturity-assessment-questionnaire.md)
 

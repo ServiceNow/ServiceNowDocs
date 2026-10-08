@@ -17,7 +17,7 @@ Connect identity providers and AI agent platforms to ServiceNow to let you conta
 
 ## Before you begin
 
-Role required: AI steward \[sn\_ai\_governance\_ai\_steward\]
+Role required: AI steward \[sn\_ai\_governance.ai\_steward\]
 
 ## About this task
 

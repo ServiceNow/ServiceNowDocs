@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/configure-measure.html
 release: brazil
 topic_type: concept
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 3
 breadcrumb: [Measure AI system, Measure AI systems, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
@@ -50,7 +50,7 @@ The following topics describe how to configure value management:
 3.  Map an AI system to a value template.
 4.  \(Conditional\) Set up the Multi-Instance Framework for value calculations
 
-    For more information, see [Set up the Multi-Instance Framework for value calculations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mv-set-up-the-multi-instance-framework-for-value-calculations.md).
+    For more information, see [Set up Multi-Instance Framework for value calculations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mv-set-up-the-multi-instance-framework-for-value-calculations.md).
 
 5.  Configure the average hourly rate for your organization.
 

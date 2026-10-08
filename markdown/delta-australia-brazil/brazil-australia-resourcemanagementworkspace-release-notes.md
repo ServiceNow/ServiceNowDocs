@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-australia-brazil/brazil-australia-resourcemanagementworkspace-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 2
 breadcrumb: [Products combined by family]
 ---
@@ -75,7 +75,10 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **End assignment action in Resource Management Workspace**
+
+End resource assignments at a precise date without modifying the original task plan. Select **End Assignment** from the row context menu of a resource assignment.
+
 
 </td></tr></tbody>
 </table>## Changes
@@ -104,7 +107,10 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **[End assignment UI option](https://www.servicenow.com/docs/access?context=end-resource-assignment-rmw&family=brazil&ft:locale=en-US)**
+
+Added **End assignment** option in row context menu for assignments.
+
 
 </td></tr></tbody>
 </table>## Removed

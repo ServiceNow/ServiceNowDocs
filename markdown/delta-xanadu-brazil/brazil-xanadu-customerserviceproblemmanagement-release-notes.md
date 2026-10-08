@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-customerserviceproblemmanagement-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 7
+last_updated: "2026-10-08"
+reading_time_minutes: 8
 breadcrumb: [Products combined by family]
 ---
 
@@ -107,7 +107,12 @@ Zurich
 
 </td><td>
 
--   **[Setting up a test group](https://www.servicenow.com/docs/access?context=setting-test-group&family=zurich&ft:locale=en-US)**
+-   **[Components](https://www.servicenow.com/docs/access?context=spm-components&family=zurich&ft:locale=en-US)**
+
+The granular admin role enables developers and administrators to complete administrative configuration tasks for Customer Service Problem Management without requiring the full admin role.
+
+
+ -   **[Setting up a test group](https://www.servicenow.com/docs/access?context=setting-test-group&family=zurich&ft:locale=en-US)**
 
 Enables the system to trigger the required tests for service problem cases, incidents, and change request, helping to identify the root cause of the problem. Test group includes test definitions.
 
@@ -167,7 +172,10 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **Service Lifecycle Request**
+
+Create cases for customer-initiated changes to the ownership of an existing service. A new case type, Account change request, extends the Customer Service base case and includes child tables to support use cases such as transfer of responsibility.
+
 
 </td></tr></tbody>
 </table>## Changes
@@ -220,13 +228,26 @@ Australia
 The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
 
 
+ -   **[Diagnose and resolve a service problem case](https://www.servicenow.com/docs/access?context=work-on-service-problem-case&family=australia&ft:locale=en-US)**
+
+A refresh button is added to the Repair stage in the Service Problem Case.
+
+
+ -   **[Service Problem case record page](https://www.servicenow.com/docs/access?context=service-problem-case-record-page&family=australia&ft:locale=en-US)**
+
+New icons on the Service Problem case record for toggling between the playbook and record page views. Customer 360 tab is added to the Service Problem Case record page.
+
+
 </td></tr><tr><td>
 
 Brazil
 
 </td><td>
 
-No updates for this release.
+-   **[Test group characteristics](https://www.servicenow.com/docs/access?context=test-group-characteristics&family=brazil&ft:locale=en-US)**
+
+Add characteristics directly to Test Groups, map product specifications to the Test Group that should run. Propagate those values to Test Definitions through attribute mapping and decomposition rules. The right tests run with the correct inputs for each product, reducing manual configuration and errors.
+
 
 </td></tr></tbody>
 </table>## Removed
@@ -374,6 +395,8 @@ Zurich
 Install Customer Service Problem Management and Service Test Management by requesting it from the ServiceNow® Store.
 
 
+**Important:** Customer Service Problem Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Australia
@@ -385,13 +408,18 @@ Australia
 Install Customer Service Problem Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
 
 
+**Important:** Customer Service Problem Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Brazil
 
 </td><td>
 
-No updates for this release.
+-   **Activation information**
+
+Install Customer Service Problem Management by requesting it from the ServiceNow Store.
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -686,7 +714,11 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   Identify and resolve service problems that customers experience, using a structured approach to customer-reported issues.
+-   Define tests that diagnose service problems, then apply targeted solutions based on the results.
+-   Resolve broadband and internet issues with AI-driven workflows that track network tickets and create actionable tasks for customer agents.
+
+ See [Customer Service Problem Management](https://www.servicenow.com/docs/access?context=cspm-landing-page&family=brazil&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-xanadu-brazil/rn-combined-intro.md)

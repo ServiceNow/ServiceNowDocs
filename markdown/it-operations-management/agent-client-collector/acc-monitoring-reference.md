@@ -20,6 +20,8 @@ Reference topics provide additional information about Agent Client Collector Mon
 The following table describes Agent Client Collector resource consumption. We supply performance testing values to specific customers upon request.
 -   **[Agent Client Collector Monitoring default checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/agent-policies-checks.md)**  
 Agent Client Collector Monitoring provides various default checks and policies.
+-   **[Agent Client Collector checks – credential and permission requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/acc-monitoring-checks-credential-and-permission-requirements.md)**  
+Agent Client Collector checks require specific credentials and permissions to execute successfully. The following sections outline the application-level \(DB grants, API roles\) and OS-level access required for each check.
 -   **[Azure metrics script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/azure-metrics-script.md)**  
 When creating a new policy for Azure cloud metrics, create a .json script to determine the metrics to be monitored. The format for the script appears below, followed by a table explaining the script contents.
 -   **[Windows event log filter parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/windows-event-log-parameters-tab.md)**  

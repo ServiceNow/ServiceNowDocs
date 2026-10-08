@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [use, Vibe coding, AI-assisted development, conversational interface, autonomous app development, development tools, application development]
-breadcrumb: [Agentic development, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Agentic development, Build, AI Workflow Factory, Building applications]
 ---
 
 # Agentic development on the ServiceNow AI Platform

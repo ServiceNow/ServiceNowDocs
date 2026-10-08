@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/mobile/testpub-updat-and-app-pu
 release: brazil
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [Update a branded app, Request, test, &amp; publish, Custom branded apps, Configuring the Mobile Platform, Mobile Platform]
 ---
 
@@ -58,7 +58,6 @@ Role required: admin
     Deploy your AAB file to the Google Play console, or your enterprise mobility management \(EMM\) provider:
 
     -   Upload your app to the Google Play console: to upload your public branded Android app to the Google, see [Google documentation](https://developer.android.com/studio/publish/upload-bundle). Also see [KB1157062](https://support.servicenow.com/kb?id=kb_article_view&sys_kb_id=a2a066bedb5155d0d0dc3feb68961951) for ServiceNow guidance on creating your Google Play console listing metadata.
-    -   BlackBerry Portal: to publish your public branded Android app to the BlackBerry Portal if you're using BlackBerry mobile application management \(MAM\), see [KB0813295](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0813295).
     -   Microsoft Intune: to sync your public branded Android app from Google to Microsoft Intune, see [Microsoft documentation](https://learn.microsoft.com/en-us/mem/intune/apps/apps-add-android-for-work).
 7.  Update your app before you update your ServiceNow family version, or at least once per year to keep your push notifications working and to leverage the most up to date ServiceNow mobile features.
 

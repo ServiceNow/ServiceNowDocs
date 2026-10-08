@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/explore-data-assets-lineage-dc.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-05-29"
 reading_time_minutes: 3
 breadcrumb: [View data asset details, Finding and accessing data assets, Data Catalog, Workflow Data Fabric]
 ---
@@ -40,7 +40,7 @@ The lineage diagram has a sidebar that lists every asset, grouped by direction \
 
 1.  Navigate to **All** &gt; **Workflow Data Fabric** &gt; **Workflow Data Fabric Home**.
 
-2.  Select the Data Catalog icon in the sidebar.
+2.  In the sidebar, select the Data Catalog icon.
 
 3.  In Data Catalog, open the asset whose lineage you want to explore.
 
@@ -79,6 +79,20 @@ The lineage diagram has a sidebar that lists every asset, grouped by direction \
     Other assets are hidden and move to the **Ignored** group in the sidebar. To restore the hidden assets, select **Unignore**.
 
 12. Use the controls in the diagram toolbar to zoom in, zoom out, or recenter the visualization.
+
+13. Download the lineage data as a CSV file.
+
+    1.  Select **Download as CSV**.
+
+    2.  In the Download lineage of this resource window, configure the download options.
+
+        |Field|Description|
+        |-----|-----------|
+        |**Direction**|Select from **Upstream and downstream**, **Upstream only**, **Downstream only**.|
+        |**Upstream**|Number of upstream levels to include. Select **All levels** or specify a number.|
+        |**Downstream**|Number of downstream levels to include. Select **All levels** or specify a number.|
+
+    3.  Select **Download**.
 
 
 **Parent Topic:**[View data asset details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/view-data-asset-details.md)

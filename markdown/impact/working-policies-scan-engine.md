@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Customize Scan Engine definitions, Activate Scan Engine and review settings, Impact Guided Setup, Configuring Impact, Impact]
+breadcrumb: [Customize Scan Engine definitions, Activate Scan Engine and review settings, Configuring Impact, Impact]
 ---
 
 # Create policies for Scan Engine

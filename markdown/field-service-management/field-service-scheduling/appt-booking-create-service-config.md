@@ -7,7 +7,7 @@ release: brazil
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-09-22"
 reading_time_minutes: 10
 breadcrumb: [Configure Appointment Booking, Configuring Appointment Booking, Additional scheduling configuration options, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
@@ -278,7 +278,12 @@ Use slot end time as
 
 </td><td>
 
-Select whether the agent should arrive by or complete the job before the window end time.
+Defines how the appointment window end time applies for an appointment. The available options are:-   **Arrive by**: Technicians must arrive at the appointment location on or before the specified slot end time.
+
+When you set the value to Arrive by and enable the system property **sn\_apptmnt\_booking.enforce\_arrive\_by\_day\_end\_check**, the system evaluates whether work can be completed before end of day. Appointment slots where the work duration exceeds the available time of the technician are excluded from the available slots. This ensures customers only see slots where technicians can finish work within their shift. For more details, see [Appointment booking components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/appointment-booking-components.md).
+
+-   **Complete by**: Technicians must complete the assigned work by the specified slot end time. Appointment slots are displayed based on estimated work duration and travel time.
+
 
 </td></tr><tr><td>
 
@@ -294,7 +299,7 @@ Use duration from template or task
 
 </td><td>
 
-Ignore the work duration configured in the service configuration and use the duration from the template or task.-   FALSE \(default\): Use the duration as set in the Work duration field.The sum of work and travel durations must be less than or equal to the appointment window to show available slots.
+Ignore the work duration configured in the service configuration and use the duration from the template or task.-   FALSE \(default\): Use the duration as set in the Work duration field. The sum of work and travel durations must be less than or equal to the appointment window to show available slots.
 -   TRUE: Ignore manually configured work and travel durations. Instead, use values from templates or tasks.
 
 
@@ -371,7 +376,7 @@ Recommendation score
 Indicates the minimum score to recommend a slot. Enter a value between 0 and 1.This field is available only if the Advanced Appointment Booking \(com.snc.advanced\_appointment\_booking\) plugin is activated.
 
 </td></tr></tbody>
-</table>5.  Click **Submit**.
+</table>5.  Select **Submit**.
 
 
 ## Result

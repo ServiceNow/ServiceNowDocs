@@ -7,7 +7,7 @@ release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Install Now Assist plugins, Configuring Now Assist Admin features, AI Admin Hub, Generative AI skills, Enable AI Experiences]
+breadcrumb: [Install plugins for ServiceNow Otto, Configuring Now Assist Admin features, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
 # Now Assist suite versions

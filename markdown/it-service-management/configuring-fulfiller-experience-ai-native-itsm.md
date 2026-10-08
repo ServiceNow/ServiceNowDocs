@@ -304,7 +304,7 @@ AI skills such as KB generation, Incident summarization, Chat summarization, Res
 
 </td><td>
 
-Activate or deactivate these skills based on business requirements. For information about modifying Now Assist skills, see [Edit a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/edit-a-now-assist-skill.md).
+Activate or deactivate these skills based on business requirements. For information about modifying Now Assist skills, see [Edit an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/edit-a-now-assist-skill.md).
 
 </td></tr></tbody>
 </table>## Change Management

@@ -21,7 +21,7 @@ In addition to the prebuilt actions, you can create custom remedial actions from
 To create and manage custom remedial actions, see:
 
 -   [Create a remedial action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/create-remedial-action.md)
--   [Creating and executing a PowerShell script-based remedial action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/remedial-actions-ps.md)
+-   [Creating and running PowerShell script-based remedial action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/remedial-actions-ps.md)
 -   [Monitor or cancel remedial actions in DEX device page Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-end-user-experience-dex/manage-devices-remedial-actions-playbook.md)
 
 Many remedial actions require the Local System account on the end-user device to perform changes that the standard DEX agent account can't. Configure the Local System account requirement as part of agent policy setup before deploying remedial actions to managed devices.

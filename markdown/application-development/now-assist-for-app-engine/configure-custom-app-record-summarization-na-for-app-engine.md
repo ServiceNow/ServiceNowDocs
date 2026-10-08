@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [ServiceNow Otto for App Engine, configure ServiceNow Otto for App Engine, configure custom app record summarization, configure AI skill]
-breadcrumb: [Configure, ServiceNow Otto for App Engine, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Configure, ServiceNow Otto for App Engine, Run, AI Workflow Factory, Building applications]
 ---
 
 # Configure the custom app record summarization skill
@@ -111,4 +111,6 @@ The custom app record summarization skill is now ready for use in the custom app
 ## What to do next
 
 To use the custom app record summarization skill, see [Using ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/now-assist-for-app-engine/use-now-assist-for-app-engine-enterprise.md).
+
+**Parent Topic:**[Configuring ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/now-assist-for-app-engine/configuring-now-assist-for-app-engine.md)
 

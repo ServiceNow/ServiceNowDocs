@@ -108,12 +108,14 @@ After installing Card Data Security, the Attachments view in the contextual side
 -   **Issuer**, which shows files added by the dispute agent.
 -   **Merchant**, which shows files received from the card network, acquirer, or merchant, stored in the tokenizer service vault.
 
+Files in the **Merchant** tab that are ZIP archives can be opened in a viewer to select, preview, and download individual files within the archive. For more information, see [Manage attachments in Card Data Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/manage-attachments-in-card-data-security.md).
+
 **Related topics**  
 
 
 [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder-overview.md)
 
-[Page collections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/page-collections.md)
+[Lux Page collections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/page-collections.md)
 
 [Extend your UI experience with viewport components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/viewports-overview.md)
 

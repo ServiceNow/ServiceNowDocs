@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-center-install.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 1
+last_updated: "2026-10-01"
+reading_time_minutes: 2
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
 breadcrumb: [Configure, AI Admin Center, Getting started with AI, Enable AI Experiences]
 ---
@@ -14,6 +14,12 @@ breadcrumb: [Configure, AI Admin Center, Getting started with AI, Enable AI Expe
 # Confirm installation of AI Admin Center
 
 Confirm the installation of the AI Admin Center application.
+
+**Important:** Lux is the new user experience for AI Admin Center. For more information on the Lux experience, see [AI Admin Center user experience \(Lux UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-admin-center-lux-user-experience.md).
+
+The Next Experience AI Admin Center workspace is being prepared for deprecation in the November store release and will no longer be supported. For more information on the Next Experience UI, see [AI Admin Center workspace \(Next Experience UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-center-workspace.md).
+
+In AI Admin Center version 6.1, the Next Experience and Lux user interfaces are both available.
 
 ## Before you begin
 
@@ -51,7 +57,7 @@ Follow these steps to confirm the installation of the AI Admin Center plugin.
 
         The AI Admin Center application will install at the selected time.
 
-3.  Navigate to **All** &gt; **AI Admin Center** or **Workspaces** &gt; **AI Admin Center** to confirm the successful installation.
+3.  Navigate to **All** &gt; **AI Admin Center** &gt; **Home** or **Admin** &gt; **AI Admin Center** to confirm the successful installation.
 
 
 ## Result
@@ -63,5 +69,7 @@ The application is installed and available to the appropriate user roles.
 **Related topics**  
 
 
-[Enable the ServiceNow Otto panel]()
+[Enable the ServiceNow Otto panel \(Next Experience UI\)]()
+
+[Enable the ServiceNow Otto panel \(Lux UI\)]()
 

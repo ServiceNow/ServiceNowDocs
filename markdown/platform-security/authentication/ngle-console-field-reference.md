@@ -7,7 +7,7 @@ release: brazil
 product: Authentication
 classification: authentication
 topic_type: reference
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 keywords: [IFL policy fields, NGLE console field reference]
 breadcrumb: [Authentication Console, Authentication, Access Management]

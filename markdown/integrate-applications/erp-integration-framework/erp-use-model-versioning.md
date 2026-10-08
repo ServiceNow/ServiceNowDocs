@@ -44,5 +44,3 @@ As you work with model records on a development instance, at certain intervals y
     \[Omitted image "erp-model-versions2.png"\] Alt text: Model record with version number highlighted.
 
 
-**Parent Topic:**[Building and managing models to work with ERP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/work-with-erp-data-models.md)
-

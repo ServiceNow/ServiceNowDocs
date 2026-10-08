@@ -1,5 +1,5 @@
 ---
-title: User Form activity
+title: Record Form activity
 description: Use this activity to surface a record to the end user. This activity requires you to select a table and record, and the desired form view that should be surfaced to the end user in your playbook. The end user can then interact with this record accordingly. Display a form during runtime to collect input values for your playbook.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/build-workflows/workflow-studio/user-form-activity.html
@@ -12,7 +12,7 @@ reading_time_minutes: 6
 breadcrumb: [Playbooks reference, Playbooks, Workflow Studio, Build workflows]
 ---
 
-# User Form activity
+# Record Form activity
 
 Use this activity to surface a record to the end user. This activity requires you to select a table and record, and the desired form view that should be surfaced to the end user in your playbook. The end user can then interact with this record accordingly. Display a form during runtime to collect input values for your playbook.
 

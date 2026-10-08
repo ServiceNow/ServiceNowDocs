@@ -42,15 +42,15 @@ A business user can also define such relationships as part of a privacy assessme
 
 5.  Create new relationships in one the following ways.
 
-<table id="choicetable_y5d_d1q_hkc"><thead><tr><th align="left" id="d296689e141">
+<table id="choicetable_y5d_d1q_hkc"><thead><tr><th align="left" id="d298426e141">
 
 Choice
 
-</th><th align="left" id="d296689e144">
+</th><th align="left" id="d298426e144">
 
 Path
 
-</th></tr></thead><tbody><tr><td id="d296689e150">
+</th></tr></thead><tbody><tr><td id="d298426e150">
 
 **From Hierarchy tab**
 
@@ -60,7 +60,7 @@ Path
 2.  Select **Add**.
 
 
-</td></tr><tr><td id="d296689e180">
+</td></tr><tr><td id="d298426e180">
 
 **From Data lineage map**
 

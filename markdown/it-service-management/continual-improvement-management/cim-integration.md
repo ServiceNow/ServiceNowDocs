@@ -20,7 +20,7 @@ You can link multiple tasks from integrated applications to a single CIM task an
 
 ## Applications from which you can create Improvement Initiatives
 
--   [Benchmarks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/benchmarks/r_Benchmarks.md)
+-   
 -   [Coaching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/coaching/cf-coaching-landing.md)
 -   [Configuration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/manage-cmdb.md)
 -   [Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/c_CustomerServiceManagement.md)

@@ -28,6 +28,14 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
+Number
+
+</td><td>
+
+Unique identifier of the goal. The number is generated automatically, for example, GOAL0001234. An administrator can change the prefix. For more information, see [Change the number prefix for goals and targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/goal-framework/change-number-prefix-goals-targets.md).
+
+</td></tr><tr><td>
+
 Name
 
 </td><td>

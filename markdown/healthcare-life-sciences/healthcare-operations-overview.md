@@ -37,3 +37,5 @@ Healthcare Operations includes the following applications:
     Contains the case types to report and fulfill facilities issues.
 
 
+Care team members can create cases for any of these applications conversationally, by chat or by phone, with ServiceNow Otto. See [AI in Care Team Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/healthcare-operations-core/hco-otto-landing.md).
+

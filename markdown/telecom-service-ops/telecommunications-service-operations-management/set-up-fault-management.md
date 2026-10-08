@@ -36,8 +36,8 @@ Configure the out-of-box Health Log Analytics security log data input, an Elasti
 Configure a log anomaly alert for a Mobile Private Network \(MPN\) data input that generated its own source type.
 -   **[Configure elastic connectors for MPN health status collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-service-ops/telecommunications-service-operations-management/configure-mpn-rag-status-collection.md)**  
 Configure a connector instance to collect health status data from an MPN Elastic index, and optionally customize the rules used to calculate that status.
--   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-service-ops/telecommunications-service-operations-management/set-up-connector-instance-equinix.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-service-ops/telecommunications-service-operations-management/set-up-connector-instance-equinix.md)**  
-
+-   **[Configure the Equinix pull connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-service-ops/telecommunications-service-operations-management/set-up-connector-instance-equinix.md)**  
+Configure a connector instance to collect power and environmental metrics from Equinix IBX data center facilities and forward alerts to Event Management.
 -   **[Override default metric-to-CI binding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-service-ops/telecommunications-service-operations-management/override-metric-ci-binding-tsom-sgc.md)**  
 Replace the shipped logic that binds collected metrics to configuration items \(CIs\) for a Telecommunications Service Operations Management metric source. Create your own implementation of the `EventFieldMapping` extension point and wire it into an event field mapping rule.
 -   **[Configure a metric aggregation job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-service-ops/telecommunications-service-operations-management/configure-metric-aggregation-job.md)**  

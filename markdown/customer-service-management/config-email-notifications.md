@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Email to case, Configure Email, Configure omnichannel, Configure, Customer Service Management]
+breadcrumb: [Configure email replies and notifications for cases, Email to case, Configure Email, Configure omnichannel, Configure, Customer Service Management]
 ---
 
 # Configure email and comment notifications

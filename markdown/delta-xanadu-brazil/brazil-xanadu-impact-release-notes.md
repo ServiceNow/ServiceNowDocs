@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-impact-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 21
+last_updated: "2026-10-08"
+reading_time_minutes: 31
 breadcrumb: [Products combined by family]
 ---
 
@@ -81,7 +81,7 @@ Brazil
 
 -   **Upgrade information**
 
-The Impact Store Application configuration requires a sequence of tasks in a unified registration process. See [Configuring Impact](https://www.servicenow.com/docs/access?context=configuring-impact-platform&family=brazil&ft:locale=en-US).
+Impact configuration requires a sequence of tasks in a unified registration process. See [Configuring Impact](https://www.servicenow.com/docs/access?context=configuring-impact-platform&family=brazil&ft:locale=en-US).
 
 
 </td></tr></tbody>
@@ -176,13 +176,65 @@ Yokohama
     -   [Product Adoption](https://www.servicenow.com/docs/access?context=product-adoption&family=yokohama&ft:locale=en-US): Start an initiative from an individual capability to log and track your activities toward the implementation. The reference of the created initiative is available in the capability details and initiatives roadmap. The reference of the created initiative is available in the capability details and initiatives roadmap.
     -   [Healthscan definitions updates: May 2025 store](https://www.servicenow.com/docs/access?context=healthscan-definitions-may-store&family=yokohama&ft:locale=en-US): Some HealthScan definitions have been updated or deprecated for the May store release.
 
+ -   **[Accelerator catalog](https://www.servicenow.com/docs/access?context=accelerator-catalog&family=yokohama&ft:locale=en-US)**
+    -   [Jumpstart Your Employee Journey Management](https://www.servicenow.com/docs/access?context=jumpstart-employee-journey-management&family=yokohama&ft:locale=en-US): Provides a demonstration of the possibilities and capabilities of Employee Journey Management.
+    -   [Jumpstart Your Knowledge Management](https://www.servicenow.com/docs/access?context=jumpstart-knowledge-management&family=yokohama&ft:locale=en-US): Provides a demonstration of the possibilities and capabilities of Knowledge Management.
+    -   [Jumpstart Your Legacy Workflow Migration](https://www.servicenow.com/docs/access?context=jumpstart-legacy-workflow-migration&family=yokohama&ft:locale=en-US): Provides a demonstration of the possibilities and capabilities of Legacy Workflow Migration.
+    -   [Jumpstart Your Now Assist for CSM](https://www.servicenow.com/docs/access?context=jumpstart-now-assist-csm&family=yokohama&ft:locale=en-US): Provides a demonstration of the possibilities and capabilities of Now Assist for CSM.
+    -   [Jumpstart Your Now Assist Skill Kit](https://www.servicenow.com/docs/access?context=jumpstart-now-assist-skill-kit&family=yokohama&ft:locale=en-US): ​Provides a demonstration of the possibilities and capabilities of Now Assist Skill Kit.
+    -   [Jumpstart Your Now Assist in Virtual Agent](https://www.servicenow.com/docs/access?context=jumpstart-now-assist-virtual-agent&family=yokohama&ft:locale=en-US): Provides a demonstration of the possibilities and capabilities of Now Assist in Virtual Agent.
+    -   [Jumpstart Your Strategic Portfolio Management – Resource Management Workspace](https://www.servicenow.com/docs/access?context=jumpstart-strategic-portfolio-management-resource-management-workspace&family=yokohama&ft:locale=en-US): Provides a demonstration of the possibilities and capabilities of Resource Management Workspace within SPM.
+    -   [Jumpstart Your GenAI](https://www.servicenow.com/docs/access?context=jumpstart-gen-ai&family=yokohama&ft:locale=en-US): Provides a demonstration of the possibilities and capabilities of ServiceNow® Generative AI application \(Artificial Intelligence\)
+    -   [Release and Deployment Advisory for Pro-code Development](https://www.servicenow.com/docs/access?context=release-deployment-advisory-pro-code-development&family=yokohama&ft:locale=en-US): Provides guidance to assist pro-code developers in the tools and techniques to release and deploy ServiceNow application configurations and customizations.
+    -   UX: The basics to unlock your ServiceNow success
+    -   [UX: Why It Matters and How to Apply It](https://www.servicenow.com/docs/access?context=ux-why-it-matters-how-to-apply-it&family=yokohama&ft:locale=en-US): Takes examples directly from your instance to demonstrate how improving UX can directly influence the success of your ServiceNow investment.
+    -   [LSD Maturity Assessment](https://www.servicenow.com/docs/access?context=lsd-maturity-assessment&family=yokohama&ft:locale=en-US): Provides guidance on fine-tuning your Legal Service Delivery \(LSD\) on the ServiceNow platform.
+    -   [Introduction to CMDB: Ingestion](https://www.servicenow.com/docs/access?context=introduction-to-cmdb-ingestion&family=yokohama&ft:locale=en-US): Demonstrates the possibilities and capabilities of automating and standardizing the data entry from the input sources for their Configuration Management Database \(CMDB\).
+    -   [Extend Your AI Search](https://www.servicenow.com/docs/access?context=extend-your-ai-search&family=yokohama&ft:locale=en-US): Provides prescriptive guidance on extending your AI Search beyond foundational levels.
+    -   [Jumpstart Your Subscription Management](https://www.servicenow.com/docs/access?context=Jumpstart-your-subscription-management&family=yokohama&ft:locale=en-US): Provides a demonstration of the possibilities and capabilities available with the Subscription Management Application in your instance.
+    -   [Jumpstart Your AI Agent Studio](https://www.servicenow.com/docs/access?context=jumpstart-ai-agent-studio&family=yokohama&ft:locale=en-US): Provides Impact customers with an overview and applied demonstration of AI agents within the platform.
+-   **[Impact Instance Observer](https://www.servicenow.com/docs/access?context=io-overview&family=yokohama&ft:locale=en-US)**
+    -   Use [Root Cause Correlation](https://www.servicenow.com/docs/access?context=root-cause-correlation&family=yokohama&ft:locale=en-US) to resolve issues that are identified by configured alerts and drill directly into the records causing the issues.
+    -   [Instance Observer user configurable dashboard](https://www.servicenow.com/docs/access?context=user-configurable-dashboard&family=yokohama&ft:locale=en-US): Create your own dashboard according to your preferences of metrics to help analyze the health of your system in a snapshot or use the default home page to see a snapshot of instance overall health with key insights, such as performance, reliability, and availability at a glance with the available widgets.
+    -   Use the Instance Observer Seats Add-on to obtain additional seats to your eligible Impact package.
+
 </td></tr><tr><td>
 
 Zurich
 
 </td><td>
 
--   **[Generative AI-powered Root cause analysis](https://www.servicenow.com/docs/access?context=generative-ai-root-cause-anal&family=zurich&ft:locale=en-US)**
+-   **[\[Placeholder link text to key bundle-ipact.impact-healthscan-store-app\]](https://www.servicenow.com/docs/access?context=impact-healthscan-store-app&family=zurich&ft:locale=en-US)**
+    -   Implement Scan Engine to enable proactive management of instance quality, compliance, and performance.
+    -   Examine ServiceNow instances for violations of the active leading practice definitions and report violations that are stored in the Scan Findings table.
+    -   View existing or resolved findings that resulted from the instance scans or from summarized and detailed scan information.
+    -   Empower developers to receive real-time, AI-driven recommendations within their workspace to identify and resolve code quality issues, enabling adherence to ServiceNow leading practices and reducing technical debt proactively.
+-   **[GenAI-powered Root Cause Remediation](https://www.servicenow.com/docs/access?context=generative-ai-root-cause-anal&family=zurich&ft:locale=en-US)**
+
+Identify the cause of performance issues and receive suggestions for corrective actions by implementing root cause remediation \(RCR\) after generating the root cause summary \(RCS\).
+
+-   **[Performance insights in user-configurable dashboard](https://www.servicenow.com/docs/access?context=io-performance-insights&family=zurich&ft:locale=en-US)**
+
+Assess the performance status of your ServiceNow instances using the ML-based instance performance widget.
+
+-   **[Analyze user experience and monitor application performance in Instance Observer](https://www.servicenow.com/docs/access?context=io-app-mon-perf-analy&family=zurich&ft:locale=en-US)**
+
+Monitor response times using operational metrics.
+
+-   **[Outcomes based contextual learning recommendations](https://www.servicenow.com/docs/access?context=contextual-learning-recommendations&family=zurich&ft:locale=en-US)**
+    -   View the recommendations for the most relevant personalized course recommendations based on your performance context to help you strengthen specific skills.
+    -   View the recommendation for every capability. Multiple courses are available for some recommendations.
+
+ -   **[Triage a ServiceNow instance based on nodes](https://www.servicenow.com/docs/access?context=io-triage-sn-instance&family=zurich&ft:locale=en-US)**
+
+Triage your ServiceNow instances based on production nodes that are categorized as All, Generic, Worker, and UI nodes. This categorization removes unhelpful irrelevant standby nodes and helps triage useful production nodes.
+
+-   **[Custom Performance report](https://www.servicenow.com/docs/access?context=instance-observer-reporting&family=zurich&ft:locale=en-US)**
+
+Generate a custom report selecting a maximum of 20 metrics and a minimum of one metric from a wide range of 90 metrics available across the Instance Observer application. This report is almost the same as Performance Trend report, however it offers you the flexibility to choose more metrics from the performance categories in the Performance page and build a dynamic report, and also to customize how charts are displayed in the report.
+
+
+ -   **[Generative AI-powered Root cause analysis](https://www.servicenow.com/docs/access?context=generative-ai-root-cause-anal&family=zurich&ft:locale=en-US)**
 
 Generate a structured root cause summary using a large language model \(LLM\) anomaly detection system that can automate the process and analyze system logs, performance metrics, and alerts. This root cause summary simplifies the analysis process and helps to diagnose the problem before the issue occurs.
 
@@ -268,13 +320,71 @@ Australia
 
 </td><td>
 
--   **[Roles installed with Impact](https://www.servicenow.com/docs/access?context=impact-roles&family=australia&ft:locale=en-US)**
+-   **[Product value](https://www.servicenow.com/docs/access?context=product-value-overview&family=australia&ft:locale=en-US)**
+
+Version 9.0.0
+
+    -   Explore product-level outcome performance in the Product Value  page. You can use it to review operational metrics, monetized value, trend charts, calculation transparency, and assumptions. 
+    -   Explore Enhanced outcomes built on current ServiceNow platform capabilities, with updated data instrumentation and calculation logic. 
+    -   Enhanced outcomes are currently only available for IT Service Management
+
+ -   **[Alert card to capture long pending jobs](https://www.servicenow.com/docs/access?context=io-long-pending-job-alert-card&family=australia&ft:locale=en-US)**
+
+Get timely notifications of pending jobs based on their lateness duration and act on them to reduce the risk of downstream failures and SLA misses. The Long Pending Jobs alert card identifies jobs that breach predefined lateness thresholds.
+
+-   **[Configure alert notifications for an instance](https://www.servicenow.com/docs/access?context=io-receive-notification-customer-conf-webhook&family=australia&ft:locale=en-US)**
+
+Receive timely notifications on failures in customer-configured webhook integrations caused by invalid URLs or credentials that go unnoticed until runtime.
+
+    -   All URLs are now validated before integrations.
+    -   Daily system notifications are indicated by a bell icon and through email notifications.
+    -   Alert Console alerts provide real-time visibility.
+
+ -   **[Roles installed with Impact](https://www.servicenow.com/docs/access?context=impact-roles&family=australia&ft:locale=en-US)**
 
 Grant selected users with partner accounts access to the Impact Store Application through the new **Impact Partner** role. Users assigned with the partner role can efficiently manage Impact for their customers. You can view the users added as partners on the Impact homepage.
 
 -   **[Manage capabilities maps](https://www.servicenow.com/docs/access?context=manage-capability-maps&family=australia&ft:locale=en-US)**
 
 Version 7.0.0: The Capabilities Map homepage now shows true application capabilities organized by product line.
+
+
+ -   **[\[Placeholder link text to key prevent-resolve-technical-debt-ai\]](https://www.servicenow.com/docs/access?context=prevent-resolve-technical-debt-ai&family=australia&ft:locale=en-US)**
+
+Version 9.00
+
+    -   Directly deactivate base system definitions without requiring an override record or approval.
+    -   Use Full Scan or Suite Scan to validate update sets against all active definitions or a curated suite.
+Version 8.0.0
+
+    -   Access summarized findings in one line grouped by findings level. Use the statistical and sys property scan types to view scan results in a statistical section.
+    -   Create exceptions directly from Recommend-level findings and view approved exceptions which are required for every Recommend-level finding. Previously, the logic confirmed only that at least one approved exception existed, leaving a gap when multiple findings were present.
+Version 7.0.0
+
+    -   Proactively identify, prioritize, and resolve technical debt by using the collection of AI-native tools embedded within the Impact Platform Health experience.
+    -   Track and resolve issues in developer code throughout the end-to-end workflow by reviewing and applying AI-recommended fixes to [\[Placeholder link text to key prevent-resolve-technical-debt-ai\]](https://www.servicenow.com/docs/access?context=prevent-resolve-technical-debt-ai&family=australia&ft:locale=en-US) , which provides AI-generated code fixes for leading practice violations.
+-   **[New Accelerators in the Australia Release](https://www.servicenow.com/docs/access?context=new-accelerators-australia-release&family=australia&ft:locale=en-US)**
+
+Version 8.0.0
+
+    -   Explore AI data, learn AI governance, and improve Virtual Agent performance.
+    -   Configure ServiceNow Vault, optimize HR and service management, and build skills for the EA Workspace.
+    -   Explore AI data, learn AI governance, and improve Virtual Agent performance.
+    -   Configure ServiceNow Vault, optimize HR and service management, and build skills for the EA Workspace.
+    -   Evaluate and improve the performance of your platform teams and assess their AI governance with On-demand accelerators.
+    -   Sustain ServiceNow platform adoption and business value using OCM accelerators that offer structured coaching in alignment with the OCM Readiness framework.
+    -   Enhance platform capabilities and drive product adoption through focused engagements including Capability Design and Capability Configuration with Optimization Accelerators.
+Version 7.0.0
+
+    -   Accelerate Platform health, Data privacy, Walk-up experience, Digital product release, Modern change management, Major incident management, CSDM for service operations, and Integration hub with technical accelerators.
+    -   Improve your change readiness by using the OCM: Preparing for change and adopt AI governance impact strategy accelerators.
+    -   Assess CSDM maturity, improve CSDM Data modeling, and accelerate portal’s user experience with usage insights and virtual agent experience design from the architecture accelerators.
+-   **[Self-serve Accelerator fulfillment process](https://www.servicenow.com/docs/access?context=on-demand-accelerators&family=australia&ft:locale=en-US)**
+    -   Provide Self-service capabilities with improved session persistence, an entitlement-aware catalog, and a downloadable 90-day action plan.
+    -   Access engagement-type filtering, progress tracking, questionnaire persistence, and self-serve directly within the catalog.
+-   **[Impact Conversations](https://www.servicenow.com/docs/access?context=impact-conversations_store&family=australia&ft:locale=en-US)**
+
+Collaborate with your Impact squad through organized, category-based conversations where you can ask questions, get expert guidance, and share files without leaving your ServiceNow instance.
 
 
 </td></tr><tr><td>
@@ -334,7 +444,20 @@ Yokohama
 
 </td><td>
 
--   **New [Impact Store Application](https://www.servicenow.com/docs/access?context=impact-store-app&family=yokohama&ft:locale=en-US) experience**
+-   **[Impact Workspace name change](https://www.servicenow.com/docs/access?context=impact-in-platform-home&family=yokohama&ft:locale=en-US)**
+
+Impact Workspace has been renamed as Impact.
+
+-   **[Impact Store App user experience](https://www.servicenow.com/docs/access?context=impact-store-app&family=yokohama&ft:locale=en-US)**
+
+Impact users who have migrated from the Impact Delivery Instance may access Quicklinks to access features that haven’t been migrated to Impact Store Application yet.
+
+-   **[Custom payload in Instance Observer alerts integration](https://www.servicenow.com/docs/access?context=custom-payload-help-guide-impact&family=yokohama&ft:locale=en-US)**
+
+Define and manage a custom JSON request payload for ServiceNow and third-party integrations with the Instance Observer enhancements.
+
+
+ -   **New [Impact Store Application](https://www.servicenow.com/docs/access?context=impact-store-app&family=yokohama&ft:locale=en-US) experience**
 
 The new Impact Store Application provides a more efficient, streamlined way for you to work. For information about how to upgrade, see [Configuring the Impact Store Application](https://www.servicenow.com/docs/access?context=configuring-impact-platform&family=yokohama&ft:locale=en-US). Note that [Impact Delivery Instance \(formerly Impact Digital Experience\)](https://www.servicenow.com/docs/access?context=impact-digital-experience&family=yokohama&ft:locale=en-US) is still supported in this release.
 
@@ -359,13 +482,41 @@ The following Accelerators are renamed:
 With the Yokohama release, Impact Digital Experience \(IDE\) has been renamed as Impact Delivery Instance \(IDI\).
 
 
+ -   **[Impact Store Application](https://www.servicenow.com/docs/access?context=impact-store-app&family=yokohama&ft:locale=en-US)**
+
+Impact is accessible in both the Impact Delivery Instance, formerly the Impact Digital Experience, and as the ServiceNow Impact Store Application.
+
+
+ -   **[Value Management](https://www.servicenow.com/docs/access?context=impact-value-journey&family=yokohama&ft:locale=en-US) name changes:**
+    -   Impact Value Journey is renamed to Impact Value
+    -   Value Blueprint is renamed to Objectives and Outcomes.
+    -   Outcomes Performance is renamed to Outcomes Insights.
+    -   Business Objectives is renamed to Objectives.
+    -   Operational Outcomes is renamed to Outcomes.
+    -   Business Value Report is renamed to Value Report.
+-   **[Impact packages](https://www.servicenow.com/docs/access?context=impact-packages&family=yokohama&ft:locale=en-US)**
+    -   Add-on SKUs have been updated to provide additional flexibility for Impact customers and are available in all environments where Impact is available.
+    -   Updates to the Impact Advanced package, offered pursuant to the applicable Impact Accelerator Description available at  [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html).
+
 </td></tr><tr><td>
 
 Zurich
 
 </td><td>
 
--   **[Value management](https://www.servicenow.com/docs/access?context=impact-in-platform-business-outcomes&family=zurich&ft:locale=en-US)**
+-   **[GenAI-powered Root Cause Summary](https://www.servicenow.com/docs/access?context=generative-ai-root-cause-anal&family=zurich&ft:locale=en-US)**
+    -   Use the dynamically generated Root Cause Analysis \(RCA\), which is readily available in the RCA History page. RCA is available not only for alerts but also for the Critical or Warning scenarios of the performance category. This feature is a change to the existing functionality and is delivered dynamically.
+    -   The core Root Cause Correlation functionality is being offered under the revised name of Root Cause Analysis to ensure product consistency.
+-   **[Artificial Intelligence Readiness Assessment Accelerator](https://www.servicenow.com/docs/access?context=artificial-intelligence-readiness-assessment&family=zurich&ft:locale=en-US)**
+
+The content and flow of this Accelerator has been streamlined to provide a clearer assessment and more targeted guidance on your readiness to adopt ServiceNow Generative AI capabilities \(Now Assist\).
+
+-   **[Jumpstart Your ServiceNow AI Journey Accelerator](https://www.servicenow.com/docs/access?context=jumpstart-snow-ai-journey&family=zurich&ft:locale=en-US)**
+
+This offering is now available across all packages, and includes clearer guidance on how customers can leverage ServiceNow’s AI capabilities to achieve their organizational goals and objectives.
+
+
+ -   **[Value management](https://www.servicenow.com/docs/access?context=impact-in-platform-business-outcomes&family=zurich&ft:locale=en-US)**
 
     |Previous name|New name|
     |-------------|--------|
@@ -409,7 +560,25 @@ Australia
 
 </td><td>
 
--   **[Run Impact Guided Setup](https://www.servicenow.com/docs/access?context=guided-setup-impact-in-app&family=australia&ft:locale=en-US)**
+-   **[Now Assist&gt;ServiceNow Otto](https://www.servicenow.com/docs/access?context=prevent-resolve-technical-debt-ai&family=australia&ft:locale=en-US)**
+
+ServiceNow Otto is the new AI experience brand. This change is reflected in the name of ServiceNow products, including Impact. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
+
+
+ -   **[Optimization Accelerators](https://www.servicenow.com/docs/access?context=optimization-accelerators&family=australia&ft:locale=en-US)**
+
+Optimization accelerators catalog displays across dashboards, catalog filter and navigation, accelerator creation flows, and accelerator detail views inline with the other accelerator catalogs Flash cards now reflect the Optimization accelerator catalog category, and dashboards include platform optimization usage and consumption metrics.
+
+-   **[\[Placeholder link text to key bundle-ipact.scan-engine-diagnostic-dashboards\]](https://www.servicenow.com/docs/access?context=scan-engine-diagnostic-dashboards&family=australia&ft:locale=en-US)**
+
+Open the Real-time Messaging panel directly alongside the development workspace; a slide-in side panel that stays visible until dismissed. Findings are organized into tabs by severity level, each showing a total count, and ordered by impact to the instance.Hover over the Level of Finding field in the findings table and definition records now displays a tooltip explaining Act, Recommend, Suggest, and Review.Select and open a filtered back-end list view for donut chart segments.
+
+-   **[\[Placeholder link text to key prevent-resolve-technical-debt-ai\]](https://www.servicenow.com/docs/access?context=prevent-resolve-technical-debt-ai&family=australia&ft:locale=en-US)**
+
+Dashboard data refresh timing and status jobs trigger at the enhanced time frame and frequency for near real-time data. The dashboard also displays status messaging about job progress and any delays.
+
+
+ -   **[Run Impact Guided Setup](https://www.servicenow.com/docs/access?context=guided-setup-impact-in-app&family=australia&ft:locale=en-US)**
 
 The Impact Guided Setup provides a more efficient, streamlined way for you to configure the Impact Store Application. For information about how to upgrade, see [Configuring Impact](https://www.servicenow.com/docs/access?context=configuring-impact-platform&family=australia&ft:locale=en-US).
 
@@ -574,6 +743,8 @@ Impact is available for activation with a separate subscription. Your Customer S
     -   For the Impact Store Application, see [Install the Impact Store Application from the ServiceNow Store](https://www.servicenow.com/docs/access?context=install-impact-innovation-lab&family=yokohama&ft:locale=en-US) for activation details.
     -   Proactive Code Check can be activated in your production and non-production instances. See [Configuring Proactive Code Check](https://www.servicenow.com/docs/access?context=configuring-proactive-code-check&family=yokohama&ft:locale=en-US) for details.
 
+**Important:** Impact is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Zurich
@@ -588,6 +759,8 @@ See [Impact packages](https://www.servicenow.com/docs/access?context=impact-pack
 See [Configuring Impact](https://www.servicenow.com/docs/access?context=configuring-impact&family=zurich&ft:locale=en-US) for details on configuring Impact and its features.
 
 
+**Important:** Impact is also available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Australia
@@ -601,6 +774,8 @@ For information on package entitlement and features activation, see [\[Placehold
 
 For details on configuring Impact and its features, see [\[Placeholder link text to key configuring-impact-platform\]](https://www.servicenow.com/docs/access?context=configuring-impact-platform&family=australia&ft:locale=en-US).
 
+
+**Important:** Impact is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 
@@ -907,7 +1082,7 @@ Brazil
 </td><td>
 
 -   Achieve success your way with tailored resources, driving outcomes aligned to your business priorities.
--   Accelerate business outcomes faster with the AI control tower, reducing time to measurable impact.
+-   Accelerate business outcomes faster with AI Control Tower, reducing time to measurable impact.
 -   Adopt ServiceNow products and AI innovations rapidly, ensuring your team moves at the speed of transformation.
 -   Maximize your ServiceNow investment, proving its value to stakeholders through measurable adoption and outcomes.
 -   Improve platform health with proactive guidance, keeping your instance optimized and future-ready.

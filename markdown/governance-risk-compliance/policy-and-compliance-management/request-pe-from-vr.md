@@ -9,7 +9,7 @@ classification: policy-and-compliance-management
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Manage policy exceptions and extensions, Classic UI, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Manage policy exceptions and extensions, Classic UI, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Policy Exception Integration with Vulnerability Response

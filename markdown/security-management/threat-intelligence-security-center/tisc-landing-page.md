@@ -9,6 +9,7 @@ classification: threat-intelligence-security-center
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 2
+keywords: [Threat Intelligence Security Center, TISC overview, security operations, threat intelligence, landing page]
 breadcrumb: [Security Operations]
 ---
 

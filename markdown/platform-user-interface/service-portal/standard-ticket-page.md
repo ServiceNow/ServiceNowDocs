@@ -100,7 +100,7 @@ If you have upgraded your instance, redirect the ticket page to standard\_ticket
 
 [Standard ticket page for a requested item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/stpage-req-item.md)
 
-[Incident standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/incident-stnd-ticket-page.md)
+[bundle-itsm.incident-stnd-ticket-page]
 
 [Configure the standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/configure-st-page.md)
 

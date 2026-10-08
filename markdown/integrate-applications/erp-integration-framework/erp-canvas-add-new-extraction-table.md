@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, extraction, table, data, transform]
-breadcrumb: [Extracting and transforming data, Data retrieval, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Extracting and transforming data, Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Add an ERP extraction table in Zero Copy Connector for ERP
@@ -45,6 +45,4 @@ You can create multiple ERP extraction tables, and multiple extraction tables ca
 
 5.  Select **Save**.
 
-
-**Parent Topic:**[ERP data extraction and transformation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-extraction-tables.md)
 

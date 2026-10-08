@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [AEMC]
-breadcrumb: [Explore, App Engine Management Center, Governing app development, Building applications]
+breadcrumb: [Explore, App Engine Management Center, Run, AI Workflow Factory, Building applications]
 ---
 
 # App Readiness and Compliance Report
@@ -59,4 +59,6 @@ The readiness score evaluates the following categories of testing and validation
 ## Run a new app readiness report
 
 To run a new app readiness report, select the **Run new report** button in the dashboard. After generating a report, you can see the readiness status of the app.
+
+**Parent Topic:**[Exploring the App Engine Management Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/exploring-aemc.md)
 

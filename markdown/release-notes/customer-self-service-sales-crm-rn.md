@@ -1,12 +1,12 @@
 ---
 title: Customer self-service for Sales Customer Relationship Management release notes
-description: The ServiceNow Business Portal application enables B2B customers to build sales carts, place orders, request quotes, and get support for orders and invoices through a self-service web portal. See the following sections for release notes by version.REST APIs give an external ordering system programmatic control of a sales cart, from creating the cart through to submitting it as an order, and extend that control to consumers with a billing account and payment profile on each cart line item.
+description: The ServiceNow Business Portal application enables B2B customers to build sales carts, place orders, request quotes, and get support for orders and invoices through a self-service web portal. See the following sections for release notes by version.This release includes enhancements to the Sales Cart REST API for validating product offerings and tracking submitted orders.REST APIs give an external ordering system programmatic control of a sales cart, from creating the cart through to submitting it as an order, and extend that control to consumers with a billing account and payment profile on each cart line item.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/customer-self-service-sales-crm-rn.html
 release: brazil
 topic_type: topic
 last_updated: "2026-09-10"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Sales Customer Relationship Management release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
@@ -43,6 +43,23 @@ See [Customer self-service for Sales Customer Relationship Management](https://r
 
 
 **Parent Topic:**[Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/sales-order-management-rn-landing.md)
+
+## October 2026
+
+This release includes enhancements to the Sales Cart REST API for validating product offerings and tracking submitted orders.
+
+### What's changed
+
+-   **Order number in the submit order response**
+
+    Reference a new order in downstream systems without a follow-up call to retrieve its number. Previously, the /sn\_sales\_cart/sales\_cart/\{cart\_id\}/submitOrder response returned only the order ID, so external ordering systems had to query the order record separately to obtain the order number. Now, the response returns the order number alongside the order ID.
+
+-   **Product offering eligibility validation when creating a cart**
+
+    Prevent ineligible product offerings from reaching order submission by validating them as the cart is created.
+
+    -   Previously, any product offering could be added to a cart regardless of eligibility, and the resulting issues surfaced only after the order was submitted. Now, the product offerings on a cart are validated against the configured eligibility rules, and the cart isn't created when any of them is ineligible.
+    -   Previously, the response gave no indication of which product offerings caused a failure. Now, the response identifies each ineligible product offering so that you can resolve it before retrying.
 
 ## Brazil Early Availability
 

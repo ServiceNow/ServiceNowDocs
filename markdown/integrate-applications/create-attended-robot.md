@@ -34,15 +34,15 @@ An attended robot is mapped to only one user.
 
 2.  Create a robot by doing one of the following actions.
 
-<table id="choicetable_kgc_jxm_frb"><thead><tr><th align="left" id="d343052e109">
+<table id="choicetable_kgc_jxm_frb"><thead><tr><th align="left" id="d347704e109">
 
 Option
 
-</th><th align="left" id="d343052e112">
+</th><th align="left" id="d347704e112">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d343052e118">
+</th></tr></thead><tbody><tr><td id="d347704e118">
 
 **From the list icon**
 
@@ -53,7 +53,7 @@ Action
 3.  Select **New**.
 
 
-</td></tr><tr><td id="d343052e157">
+</td></tr><tr><td id="d347704e157">
 
 **From the plus icon**
 

@@ -17,7 +17,7 @@ Link your Virtual Agent requesters to a ServiceNow instance before they run the 
 ## Before you begin
 
 -   [Manage the Virtual Agent integration with Slack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/configure-va-slack.md), with the **Automatically Link ServiceNow user profiles** option enabled.
--   Set up Slack Spoke.
+-   [Set up Slack Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/set-up-slack.md).
 
 Roles required:
 

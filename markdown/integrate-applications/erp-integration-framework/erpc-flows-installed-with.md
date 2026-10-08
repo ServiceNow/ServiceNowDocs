@@ -31,5 +31,3 @@ The flows write data to the following tables:
 -   sn\_erp\_integration\_sap\_tables
 -   sn\_erp\_integration\_sap\_bapi\_list
 
-**Parent Topic:**[Zero Copy Connector for ERP reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-integration-reference.md)
-

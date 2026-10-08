@@ -31,7 +31,7 @@ The ServiceNow Otto for AI Search plugin is automatically installed as a depende
 
 1.  In ServiceNow Otto Admin, install one or more ServiceNow Otto plugins.
 
-    To review the instructions for ServiceNow Otto feature plugin installation, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/install-now-assist-feature-plugins.md). As part of the procedure, you may need to request a license for the plugin from the ServiceNow Store.
+    To review the instructions for ServiceNow Otto feature plugin installation, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/install-now-assist-feature-plugins.md). As part of the procedure, you may need to request a license for the plugin from the ServiceNow Store.
 
 2.  Verify that ServiceNow Otto for AI Search is installed:
 

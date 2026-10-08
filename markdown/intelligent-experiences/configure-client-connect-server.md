@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/configure-client-connect-server.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-07-29"
 reading_time_minutes: 7
 breadcrumb: [Connect, MCP Server Console, Extending AI with external systems and providers, Enable AI Experiences]
 ---
@@ -155,6 +155,8 @@ The client secret from the OAuth inbound integration on the server instance.If y
     **Note:** When calling a Scripted REST API tool from a client, you must provide inputs in your request. If a required parameter, such as a record number, a date range, or a filter value, is not present in the request, the tool will not be able to complete the task.
 
     The server runs the relevant tools and returns the result to the client as JSON data. The client presents the response as formatted text.
+
+    **Important:** The MCP service limits the size of tool call payloads. If a request payload from the MCP client exceeds 26 KB, the MCP service returns an error stating that the request payload is too big. If a response payload exceeds 64 KB, the MCP service returns an error stating that the response payload is too big. The minimum version for this restriction is Brail patch 1, Australia patch 7 and Zurich patch 13.
 
     **Note:** If you don't receive the expected data in the response, review the following troubleshooting tips:
 

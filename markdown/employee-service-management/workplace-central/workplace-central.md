@@ -8,7 +8,7 @@ product: Workplace Central
 classification: workplace-central
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 5
+reading_time_minutes: 3
 breadcrumb: [Workplace Central, Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -64,30 +64,6 @@ Monitor multiple workplace moves at a time seamlessly using the Move Management 
 As a workplace case manager, manage all your workplace cases from a single place using the Case management workspace in the Workplace Central workspace.
 -   **[Kiosk Indoor Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-central/kiosk-indoor-mapping.md)**  
 Enhance visitor and employee experiences by providing indoor maps in kiosks across your workplace.
--   **[Lists module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-central/wsd-lists-module.md)**  
-The Lists module is a common dashboard that contains lists for the application tables and custom lists.
--   **[Workplace Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-central/workplace-analytics.md)**  
-The ServiceNow Workplace Analytics dashboard displays key metrics that enable you to optimize the use of workplace resources and maximize your return on investment.
--   **[Space Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-central/space-planning.md)**  
-Create, understand, and manage core functions like space hierarchy, neighborhoods, and user assignments.
--   **[Space Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-space-management/space-optimization.md)**  
-As a space planner, you can use the Workplace Central to monitor all your scenarios and workplace-related information from a single page called Space Optimization.
--   **[Scenario Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-space-management/scenario-planning.md)**  
-Manage space allocations in your workplace in the most efficient way using the Space optimization scenario planning feature. Adjust your existing space allocations, floor arrangements, and employee seating plan by creating a scenario and deploying it.
--   **[Schedule Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-space-management/schedule-planning.md)**  
-Manage space assignments to help employees head back to the office.
--   **[Space assistance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-central/space-assistance.md)**  
-As a space planner, assist your organization with space planning and their deployment. Work on space requests raised within the organization and implement the changes using the Space Optimization workspace.
--   **[Event Planner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-central/event-planner.md)**  
-Manage reservations requested in your organization in a simple event planner. As a Reservation planner, check the current day's planned reservations and view the reservation details. The schedule view also enables you to reschedule a reservation to another date and time by easily dragging and dropping it to another time.
--   **[Move Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-central/move-mgmt.md)**  
-Monitor multiple workplace moves at a time seamlessly using the Move Management workspace in the Workplace Central. Create move projects to track the progress of move requests.
--   **[Case management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-central/case-management-workspace.md)**  
-As a workplace case manager, manage all your workplace cases from a single place using the Case management workspace in the Workplace Central workspace.
--   **[Kiosk Indoor Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-central/kiosk-indoor-mapping.md)**  
-Enhance visitor and employee experiences by providing indoor maps in kiosks across your workplace.
-
-**Parent Topic:**[Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-central/workplace-central-feat.md)
 
 **Parent Topic:**[Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-central/workplace-central-feat.md)
 

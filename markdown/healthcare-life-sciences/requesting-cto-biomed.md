@@ -14,6 +14,8 @@ breadcrumb: [Care Team Operations for Biomed, Healthcare Operations, Healthcare 
 
 Use the Care Team Portal to report medical device issues or request other biomed support.
 
+**Note:** You can also create a request conversationally instead of using a form. See [Request care team assistance agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/healthcare-operations-core/hco-now-assist-request-assistance.md) or [Care Team Operations Case Creation AI voice agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/healthcare-operations-core/hco-now-assist-voice-agent.md).
+
 -   [Report a medical device issue with Care Team Operations for Biomed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/hcls-cto-biomed-report-medical-device-issue.md)
 
     Report any issue with a medical device issue using the Report a medical device issue catalog item from the Care Team Operations portal.

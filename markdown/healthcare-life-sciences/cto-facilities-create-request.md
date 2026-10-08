@@ -14,3 +14,5 @@ breadcrumb: [Care Team Operations for Facilities, Healthcare Operations, Healthc
 
 Use Care Team Operations for Facilities to report Facilities issues using Care Team Portal.
 
+**Note:** You can also create a request conversationally instead of using a form. See [Request care team assistance agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/healthcare-operations-core/hco-now-assist-request-assistance.md) or [Care Team Operations Case Creation AI voice agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/healthcare-operations-core/hco-now-assist-voice-agent.md).
+

@@ -24,12 +24,12 @@ Role required: approver\_user
 
 1.  Navigate to **All** &gt; **Service Desk** &gt; **My Approvals**.
 
-2.  In the My Approvals list, click a record to open for approval.
+2.  In the My Approvals list, select a record to open for approval.
 
 3.  Review the record and either approve or reject:
 
-    -   To approve the record, click **Approve**.
-    -   To reject the record, enter comments for rejection in the **Comments** field and click **Reject**.
+    -   To approve the record, select **Approve**.
+    -   To reject the record, enter comments for rejection in the **Comments** field and select **Reject**.
 
 ## Result
 
@@ -47,7 +47,7 @@ Reject
 
 -   The approval record's state updates from Requested to Approved.
 
-If the requested item was assigned to a user group for approval, then the state of the approval records for the remaining users updates from Requested to No Longer Required.
+If the item is assigned to a group for approval, the remaining approval records update from Requested to No Longer Required.
 
 -   The **State** field on the release task updates from Open to Closed Complete.
 -   The **Approval** field on the release task updates from Requested to Approved.
@@ -56,7 +56,7 @@ If the requested item was assigned to a user group for approval, then the state 
 
 -   The approval record's state updates from Requested to Rejected.
 
-If the requested item was assigned to a user group for approval, then the state of the approval records for the remaining users updates from Requested to No Longer Required.
+If the item is assigned to a group for approval, the remaining approval records update from Requested to No Longer Required.
 
 -   The **State** field on the release task remains Open.
 -   The **Approval** field on the release task updates from Requested to Rejected.

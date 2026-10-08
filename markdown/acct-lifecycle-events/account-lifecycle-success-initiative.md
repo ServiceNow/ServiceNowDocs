@@ -206,5 +206,8 @@ You can perform the following actions:
     **Note:** You can send emails only to the team members associated with the account.
 
 
+-   **[Summarize a success initiative using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/now-assist-tmt-summarize-success-init.md)**  
+Generate a summary from a success initiative record and all associated success tasks.
+
 **Parent Topic:**[Create a success blueprint manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-create-blueprint-manual.md)
 

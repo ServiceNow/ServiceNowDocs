@@ -7,7 +7,7 @@ release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use, Manufacturing Commercial Operations]
+breadcrumb: [AI in Manufacturing Commercial Operations, Explore, Manufacturing Commercial Operations]
 ---
 
 # Using agentic workflows in ServiceNow Otto for Manufacturing Commercial Operations
@@ -50,13 +50,6 @@ To run the AI agents autonomously, you must first [duplicate the agentic workflo
 -   Activate the agentic workflow.
 -   Activate all agents within the agentic workflow.
 -   Activate the trigger to invoke the agentic workflow automatically. The triggers for each agentic workflow must be unique. If you prefer to invoke it manually, activating the trigger isn’t necessary.
-
--   **[Using generative AI in ServiceNow Otto for Manufacturing Commercial Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-use-generative-ai-skills.md)**  
-If you have an agent role, you can summarize the report details with the ServiceNow Otto for MCO application.
--   **[Execute recall campaigns faster agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-execute-recall-campaigns-faster-ai-wf.md)**  
-Use MCO AI agents agentic workflow to generate the corrective actions and charges for the required repair documents quickly and efficiently.
-
-**Parent Topic:**[Using Manufacturing Commercial Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/manufacturing-using.md)
 
 **Related topics**  
 

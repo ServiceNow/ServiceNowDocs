@@ -46,8 +46,8 @@ Reference for the latency KPIs collected by the MPN Pull Connector and the deriv
 
 -   **[MPN health status rule reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-service-ops/telecommunications-service-operations-management/mpn-rag-status-rule-reference.md)**  
 Default rule set \(version 0.0.11\) for calculating health status for MPN radio and core server components, including error codes.
--   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-service-ops/telecommunications-service-operations-management/equinix-connector-metrics.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-service-ops/telecommunications-service-operations-management/equinix-connector-metrics.md)**  
-
+-   **[Equinix connector metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-service-ops/telecommunications-service-operations-management/equinix-connector-metrics.md)**  
+Reference for the power metrics collected at the cabinet level and the environmental metrics collected at the zone level by the Equinix pull connector.
 -   **[Retrieve data from Nokia Altiplano via REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-service-ops/telecommunications-service-operations-management/retrieving-data-nokia-altiplano-API.md)**  
 Examples of Retrieving Data from Nokia Altiplano via REST API.
 -   **[Page limits for Meraki pull connector endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-service-ops/telecommunications-service-operations-management/meraki-pull-connector-page-limits.md)**  

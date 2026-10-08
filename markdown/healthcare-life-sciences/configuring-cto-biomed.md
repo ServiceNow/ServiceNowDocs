@@ -55,3 +55,5 @@ The following setup steps need to occur prior to using Care Team Operations for 
     Use Decision Builder to change the state mappings for cases and incidents work orders in Care Team Operations for Biomed .
 
 
+**Note:** This application includes a knowledge base article that defines which details the ServiceNow Otto case intake AI agent asks for when it creates a case. To change the intake questions, see [Manage domain intelligence for AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/healthcare-operations-core/hco-now-assist-manage-domain-intelligence.md).
+

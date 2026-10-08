@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-australia-brazil/brazil-australia-impact-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 9
+last_updated: "2026-10-08"
+reading_time_minutes: 8
 breadcrumb: [Products combined by family]
 ---
 
@@ -51,7 +51,7 @@ Brazil
 
 -   **Upgrade information**
 
-The Impact Store Application configuration requires a sequence of tasks in a unified registration process. See [Configuring Impact](https://www.servicenow.com/docs/access?context=configuring-impact-platform&family=brazil&ft:locale=en-US).
+Impact configuration requires a sequence of tasks in a unified registration process. See [Configuring Impact](https://www.servicenow.com/docs/access?context=configuring-impact-platform&family=brazil&ft:locale=en-US).
 
 
 </td></tr></tbody>
@@ -176,7 +176,7 @@ ServiceNow Otto is the new AI experience brand. This change is reflected in the 
 
 Optimization accelerators catalog displays across dashboards, catalog filter and navigation, accelerator creation flows, and accelerator detail views inline with the other accelerator catalogs Flash cards now reflect the Optimization accelerator catalog category, and dashboards include platform optimization usage and consumption metrics.
 
--   **[Track Platform Health trends](https://www.servicenow.com/docs/access?context=scan-engine-diagnostic-dashboards&family=australia&ft:locale=en-US)**
+-   **[\[Placeholder link text to key bundle-ipact.scan-engine-diagnostic-dashboards\]](https://www.servicenow.com/docs/access?context=scan-engine-diagnostic-dashboards&family=australia&ft:locale=en-US)**
 
 Open the Real-time Messaging panel directly alongside the development workspace; a slide-in side panel that stays visible until dismissed. Findings are organized into tabs by severity level, each showing a total count, and ordered by impact to the instance.Hover over the Level of Finding field in the findings table and definition records now displays a tooltip explaining Act, Recommend, Suggest, and Review.Select and open a filtered back-end list view for donut chart segments.
 
@@ -464,7 +464,7 @@ Brazil
 </td><td>
 
 -   Achieve success your way with tailored resources, driving outcomes aligned to your business priorities.
--   Accelerate business outcomes faster with the AI control tower, reducing time to measurable impact.
+-   Accelerate business outcomes faster with AI Control Tower, reducing time to measurable impact.
 -   Adopt ServiceNow products and AI innovations rapidly, ensuring your team moves at the speed of transformation.
 -   Maximize your ServiceNow investment, proving its value to stakeholders through measurable adoption and outcomes.
 -   Improve platform health with proactive guidance, keeping your instance optimized and future-ready.

@@ -32,7 +32,7 @@ When a Virtual Agent conversation is triggered, any updates or comments in the r
 
 ## Accessing an AI agent
 
-1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Create and manage**.
+1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Agentic Solutions**.
 2.  Go to the **AI Agents** tab.
 3.  Select the name of an agent.
 

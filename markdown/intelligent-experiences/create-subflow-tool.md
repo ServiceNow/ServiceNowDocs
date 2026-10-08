@@ -1,11 +1,11 @@
 ---
 title: Create a tool from a Subflow
-description: Create a tool from a Subflow to expose it to Model Context \(MCP\) clients from an MCP Server.
+description: Create a tool from a Subflow to expose it to Model Context Protocol \(MCP\) clients from an MCP Server Console.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/create-subflow-tool.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-07-29"
 reading_time_minutes: 2
 keywords: [Create subflow tool type for MCP server]
 breadcrumb: [Creating tools, Configure, MCP Server Console, Extending AI with external systems and providers, Enable AI Experiences]
@@ -13,18 +13,18 @@ breadcrumb: [Creating tools, Configure, MCP Server Console, Extending AI with ex
 
 # Create a tool from a Subflow
 
-Create a tool from a Subflow to expose it to Model Context \(MCP\) clients from an MCP Server.
+Create a tool from a Subflow to expose it to Model Context Protocol \(MCP\) clients from an MCP Server Console.
 
 ## Before you begin
 
 Perform these steps before creating a tool from a Subflow:
 
-1.  Create a Subflow in Workflow Studio using supported input and output data types. See [Create a subflow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/create-subflow.md) to learn more.
+-   Create a Subflow in Workflow Studio using supported input and output data types. See [Create a subflow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/create-subflow.md) to learn more.
 
     **Note:** Only synchronous Subflows are supported. Subflows with wait steps, asynchronous execution, or human intervention steps can't be used as tools.
 
-2.  Establish the requisite AI Access Control List \(ACL\) to facilitate external invocation of the component. See [Create an AI ACL for a Subflow or Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-ai-acl.md) to learn more.
-3.  Confirm the compatibility status in the staging table. See [Check the compatibility of a Subflow or Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/check-compatibility-of-subflow.md) to learn more.
+-   Establish the required AI ACL \(access control list\) to enable external calls to the subflow. See [Create an AI ACL for a Subflow or Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-ai-acl.md) to learn more.
+-   Confirm the compatibility status in the staging table. See [Check the compatibility of a Subflow or Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/check-compatibility-of-subflow.md) to learn more.
 
 Role required: sn\_mcp\_server.tools\_admin, sn\_mcp\_server.admin, or admin
 
@@ -32,13 +32,13 @@ Role required: sn\_mcp\_server.tools\_admin, sn\_mcp\_server.admin, or admin
 
 1.  Select Subflow from these categories.
 
-    \[Omitted image "mcp-create-tool-moveworks.png"\] Alt text: Tool creation
+    \[Omitted image "mcp-create-tool-moveworks.png"\] Alt text: Screenshot showing the tool type selection screen with Subflow highlighted
 
 2.  On the form, fill in the fields.
 
-    \[Omitted image "mcp-server-create-tool-subflow.png"\] Alt text: Create tool from Subflow
+    \[Omitted image "mcp-server-create-tool-subflow.png"\] Alt text: Create tool form with fields for Subflow, Label, MCP app, Description, Annotations, Required roles, and MCP Servers
 
-    **Note:** The **category** is auto-populated if selected in the last modal.
+    **Note:** The **category** is automatically populated if selected in the last modal.
 
 <table id="table_l2y_lhm_hgc"><thead><tr><th>
 
@@ -80,7 +80,7 @@ Description
 
 The description of what the tool intends to do. This input is exposed to AI clients and used to determine when to call this tool.
 
-**Note:** Admins must add specific and action-oriented description as the AI clients access it to decide when to invoke the tool.
+**Note:** Add a specific, action-oriented description so AI clients can determine when to invoke the tool.
 
 </td></tr><tr><td>
 
@@ -90,7 +90,15 @@ Annotations
 
 Indication of the tool's behavior with MCP clients, including whether it only reads data, is idempotent, makes destructive changes or updates, or can call external links. You can also specifically combine these annotations as needed.
 
- The MCP client will use the selected annotations to categorize tools according to their behavior.
+ The MCP client uses the selected annotations to categorize tools according to their behavior.
+
+</td></tr><tr><td>
+
+Required roles
+
+</td><td>
+
+The MCP Tools admin selects one or more roles from the User Role \[sys\_user\_role\] table to specify which roles can access and use the tool.
 
 </td></tr><tr><td>
 
@@ -98,7 +106,7 @@ MCP Servers
 
 </td><td>
 
-One or more servers you want to add your tool to.
+One or more servers to add the tool to.
 
 </td></tr></tbody>
 </table>    **Note:** A tool can be used by multiple servers so any changes that you make to a tool apply to all servers that use the tool. Before editing a tool, review which servers it's associated with to determine the impact for every server.
@@ -118,7 +126,7 @@ One or more servers you want to add your tool to.
 
 ## What to do next
 
-Invoke the tool via Claude or an alternative MCP client and verify that it functions as intended with the tool you registered. Launch MCP client to test end-to-end execution. For more information, see [Connecting to an MCP server from an MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/connect-mcp-server-client.md).
+Invoke the tool using an MCP client and verify that it works as expected. Launch MCP client to test end-to-end execution. For more information, see [Connecting to an MCP server from an MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/connect-mcp-server-client.md).
 
 **Parent Topic:**[Creating tools for a Model Context Protocol server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/creating-tools-mcp-server.md)
 

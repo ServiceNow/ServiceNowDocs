@@ -9,6 +9,7 @@ classification: threat-intelligence-security-center
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 1
+keywords: [domain separation, application components, reference topics, Threat Intelligence Security Center]
 breadcrumb: [Threat Intelligence Security Center, Security Operations]
 ---
 

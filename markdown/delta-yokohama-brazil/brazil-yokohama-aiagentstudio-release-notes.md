@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-brazil/brazil-yokohama-aiagentstudio-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 42
 breadcrumb: [Products combined by family]
 ---
@@ -263,7 +263,7 @@ Runaway agent detection automatically disables an AI agent when the same record 
 
 Auto-migrate all the AI Agent Studio skills from on-glide execution path to the off-glide execution path.
 
--   **[Deny-by-default ACL configuration](https://www.servicenow.com/docs/access?context=aia-acl-configuration&family=zurich&ft:locale=en-US)**
+-   **[\[Placeholder link text to key bundle-platai.aia-acl-configuration\]](https://www.servicenow.com/docs/access?context=aia-acl-configuration&family=zurich&ft:locale=en-US)**
 
 Enforce deny-by-default access control for AI agentic record types \(`gen_ai_agent`, `gen_ai_workflow`, `gen_ai_skill`, `Flow`, `flow_action`\) for newly activated ServiceNow instances. In previous releases, these types defaulted to allow access.
 
@@ -475,10 +475,6 @@ Runaway agent detection automatically disables an AI agent when the same record 
 -   **[AI Agent Studio skills migration](https://www.servicenow.com/docs/access?context=configuring-ai-agents&family=australia&ft:locale=en-US)**
 
 Auto-migrate all the AI Agent Studio skills from on-glide execution path to the off-glide execution path.
-
--   **[Deny-by-default ACL configuration](https://www.servicenow.com/docs/access?context=aia-acl-configuration&family=australia&ft:locale=en-US)**
-
-Enforce deny-by-default access control for AI agentic record types \(`gen_ai_agent`, `gen_ai_workflow`, `gen_ai_skill`, `Flow`, `flow_action`\) for newly activated ServiceNow instances. In previous releases, these types defaulted to allow access.
 
 -   **[Execute a run for an AI voice agentic asset](https://www.servicenow.com/docs/access?context=execute-voice-aia-eval&family=australia&ft:locale=en-US)**
 
@@ -1359,7 +1355,6 @@ Australia
 -   Add or remove AI agents or tools from the built-in AI agents.
 -   Detect and disable runaway AI agent triggers to prevent unintended consumption.
 -   Support conversation history for Knowledge Graph tool.
--   Enforce deny-by-default ACLs for new agentic ACL types.
 -   Enable AI Agent Studio skill migration to Mosaic.
 
  [Australia Patch 2](https://www.servicenow.com/docs/access?context=australia-patch-2&family=australia&ft:locale=en-US)

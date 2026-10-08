@@ -104,7 +104,7 @@ Business App Mapping AI Agent
 
 </td><td>
 
-Automatically creates CSDM "Uses::Used by" relationships between Business Applications and discovered Application Services using AI semantic search.
+Automatically creates CSDM Consumes::Consumed by relationships between Business Applications and discovered Application Services by invoking the Business App Identification skill.**Note:** The Business App Mapping AI Agent is available through the Feature Preview Program. For more information, see [Feature Preview Program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/feature-preview-program.md).
 
 </td><td>
 

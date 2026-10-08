@@ -9,6 +9,7 @@ classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
+keywords: [delete intelligence records, threat intel library, source records, library record, data archival]
 breadcrumb: [TISC Data archival and cleanup, Use, Threat Intelligence Security Center, Security Operations]
 ---
 

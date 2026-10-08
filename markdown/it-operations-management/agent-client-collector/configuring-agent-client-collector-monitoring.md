@@ -8,7 +8,7 @@ product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Agent Client Collector Monitoring, Agent Client Collector, IT Operations Management]
 ---
 
@@ -30,4 +30,9 @@ Depending on the checks and metrics you want to monitor, perform the following a
 2.  [Enable running of Varnish checks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/discover-varnish-ci.md).
 3.  [Select the Azure policies to activate for metric collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/select-policies-azure.md).
 4.  [Create Azure policies for metric collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/create-policies-azure.md).
+
+**Related topics**  
+
+
+[Agent Client Collector checks – credential and permission requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/acc-monitoring-checks-credential-and-permission-requirements.md)
 

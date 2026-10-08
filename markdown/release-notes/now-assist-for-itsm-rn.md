@@ -1,6 +1,6 @@
 ---
 title: ServiceNow Otto for IT Service Management \(ITSM\) release notes
-description: The ServiceNow Otto for IT Service Management \(ITSM\) application brings agentic AI to IT Service Management. ServiceNow Otto for IT Service Management \(ITSM\) was enhanced and updated in the Brazil release.Updates and enhancements to ServiceNow Otto for IT Service Management \(ITSM\).
+description: The ServiceNow Otto for IT Service Management \(ITSM\) application brings agentic AI to IT Service Management. ServiceNow Otto for IT Service Management \(ITSM\) was enhanced and updated in the Brazil release.Updates and enhancements to ServiceNow Otto for IT Service Management \(ITSM\).Updates and enhancements to ServiceNow Otto for IT Service Management \(ITSM\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/now-assist-for-itsm-rn.html
 release: brazil
@@ -32,6 +32,17 @@ See [ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubuserc
 
 
 **Parent Topic:**[IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/it-service-management-rn-landing.md)
+
+## Brazil Patch 1 and Version 19.0
+
+Updates and enhancements to ServiceNow Otto for IT Service Management \(ITSM\).
+
+### What's changed
+
+-   **[IT Service Management AI agent collection assess quality of a change request agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/now-assist-itsm-aiagents-assess-quality-change-request-workflow.md)**
+
+    When the AI agent searches for similar change requests, it now returns only changes whose quality score meets a minimum threshold. The quality scores come from the AI Change Quality Scores table. If none of the similar changes meet the threshold, the results include changes that don't have a quality score yet.
+
 
 ## Brazil Early Availability
 
@@ -69,17 +80,16 @@ Updates and enhancements to ServiceNow Otto for IT Service Management \(ITSM\).
 
 ### What's deprecated or removed
 
--   ****
-    -   **[ITSM Virtual Agent NLU topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/using-itsm-va.md)**
+-   **[ITSM Virtual Agent NLU topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/using-itsm-va.md)**
 
-        Starting with the Brazil release, ITSM Virtual Agent pre-built topics is being prepared for future deprecation.
+    Starting with the Brazil release, ITSM Virtual Agent pre-built topics is being prepared for future deprecation.
 
-    -   **[ITSM Virtual Agent Lite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itsm-virtual-agent-lite.md)**
+-   **[ITSM Virtual Agent Lite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itsm-virtual-agent-lite.md)**
 
-        ITSM Virtual Agent Conversation Topics Lite \(com.snc.itsm.virtualagent.lite\) is being prepared for future deprecation.
+    ITSM Virtual Agent Conversation Topics Lite \(com.snc.itsm.virtualagent.lite\) is being prepared for future deprecation.
 
-    -   **[Large language models on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/exploring-large-language-models.md)**
+-   **[Large language models on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/exploring-large-language-models.md)**
 
-        Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+    Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
 
 

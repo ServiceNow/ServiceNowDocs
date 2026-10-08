@@ -193,15 +193,15 @@ You can assign ownership of a business impact analysis to an individual owner, t
 
 12. To perform more actions on the BIA, select **More actions**.
 
-<table id="choicetable_ypb_yzx_xfc"><thead><tr><th align="left" id="d273385e767">
+<table id="choicetable_ypb_yzx_xfc"><thead><tr><th align="left" id="d275089e767">
 
 Step
 
-</th><th align="left" id="d273385e770">
+</th><th align="left" id="d275089e770">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d273385e776">
+</th></tr></thead><tbody><tr><td id="d275089e776">
 
 **Select __Discuss__.**
 
@@ -209,7 +209,7 @@ Description
 
 Add the subject for the discussion and add participants that have access to the record. Include a brief message for the participants and select **Start discussion**.
 
-</td></tr><tr><td id="d273385e791">
+</td></tr><tr><td id="d275089e791">
 
 **Select __Generate MS Word__.**
 
@@ -217,7 +217,7 @@ Add the subject for the discussion and add participants that have access to the 
 
 Generate a report of the BIA, BCP, exercise, or crisis record in Microsoft Word format. The Microsoft Word copy of the BIA record is successfully generated that you can download.
 
-</td></tr><tr><td id="d273385e809">
+</td></tr><tr><td id="d275089e809">
 
 **Select __Generate PDF__.**
 
@@ -235,7 +235,7 @@ The BIA group's pending tasks and BIA owner's assigned items are shown in the fo
 
 \[Omitted image "my-grp-pending-tasks.png"\] Alt text: BIA group's pending tasks and BIA owner's assigned items.
 
-</td></tr><tr><td id="d273385e843">
+</td></tr><tr><td id="d275089e843">
 
 **Select __Copy__.**
 
@@ -245,7 +245,7 @@ Create a copy of the BIA. BIA details, including its state, assessments, questio
 
 The copied BIA inherits the original **BIA owner group** only. You're automatically assigned as the individual **BIA owner** of the copy.
 
-</td></tr><tr><td id="d273385e865">
+</td></tr><tr><td id="d275089e865">
 
 **Select __360º view__.**
 
@@ -253,7 +253,7 @@ The copied BIA inherits the original **BIA owner group** only. You're automatica
 
 Generate 360º relationships for the BIA. A graphical presentation of the BIA and its relationships is displayed.
 
-</td></tr><tr><td id="d273385e877">
+</td></tr><tr><td id="d275089e877">
 
 **Select __Delete__.**
 
@@ -261,7 +261,7 @@ Generate 360º relationships for the BIA. A graphical presentation of the BIA an
 
 Delete the BIA record. A warning message confirms that deleting the record results in an automatic deletion of related records, which may also cause a cascade of additional records to be deleted.
 
-</td></tr><tr><td id="d273385e889">
+</td></tr><tr><td id="d275089e889">
 
 **Select __Save__.**
 

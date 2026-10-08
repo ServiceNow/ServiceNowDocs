@@ -8,9 +8,9 @@ product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: concept
 last_updated: "2026-08-05"
-reading_time_minutes: 3
+reading_time_minutes: 2
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, learn, practice, guide, tour, adoption]
-breadcrumb: [Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Reference, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Guided tours in Zero Copy Connector for ERP
@@ -138,5 +138,4 @@ Zero Copy Connector for ERP models list page
 Navigate to **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home** and select the models icon \[Omitted image "erpc-data-model-icon.png"\] Alt text:.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configuring Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-integration-configuration-overview.md)
-
+</table>

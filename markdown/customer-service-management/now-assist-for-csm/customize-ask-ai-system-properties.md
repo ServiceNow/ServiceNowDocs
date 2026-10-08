@@ -73,5 +73,5 @@ The Ask AI system property is updated. The new value takes effect for the Ask AI
 ## What to do next
 
 -   To configure the second Ask AI property, select its name from the list and repeat this procedure.
--   Test the Ask AI feature in the **CSM Configurable Workspace** to verify that the updated questions appear as expected.
+-   Test the Ask AI feature in the CRM Workspace to verify that the updated questions appear as expected.
 

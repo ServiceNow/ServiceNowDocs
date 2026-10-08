@@ -24,7 +24,7 @@ Sidebar summarization is generated from the information within selected tables c
 
 ## Procedure
 
-1.  Navigate to **Admin &gt; AI Admin Hub &gt; AI Skills**.
+1.  Navigate to **All &gt; AI Admin Hub &gt; AI Skills**.
 
 2.  Select the **Customer** workflow, and **CSM** as the product.
 
@@ -60,21 +60,8 @@ Sidebar summarization is generated from the information within selected tables c
 
     |Label|Name|
     |-----|----|
-    |Change Phase|change\_phase|
-    |Change Request|change\_request|
-    |IMAC|change\_request\_imac|
-    |Change Task|change\_task|
-    |Chat Queue Entry|chat\_queue\_entry|
-    |Incident|incident|
-    |Incident Task|incident\_task|
-    |Interaction|interaction|
-    |Knowledge Feedback Task|kb\_feedback\_task|
-    |Problem|problem|
-    |Problem Task|problem\_task|
-    |Request|sc\_request|
-    |Requested Item|sc\_req\_item|
-    |Catalog Task|sc\_task|
-    |Standard Change Proposal|std\_change\_proposal|
+    |Case|sn\_customerservice\_case|
+    |Task|sn\_customerservice\_task|
 
 6.  Select **Define access** to determine who can access this skill.
 
@@ -83,7 +70,7 @@ Sidebar summarization is generated from the information within selected tables c
     Default and Custom Roles:
 
     -   If no changes are made, the default role sn\_customerservice\_agent or sn\_customerservice.consumer\_agent will automatically appear in **Define Access** and **Select Display**.
-    -   If custom roles were added before the upgrade, they'll be updated automatically by a script.
+    -   If custom roles were added before the upgrade, they are updated automatically by a script.
     -   If new roles are created after the upgrade, you must manually add them in both the **Define Access** and **Select Display**.
 
         **Note:** In the **Select Display** step, you can only choose roles that were added in the **Define Access** step. If you add a role in **Define Access**, you still must manually select it in **Select Display** to make it active.

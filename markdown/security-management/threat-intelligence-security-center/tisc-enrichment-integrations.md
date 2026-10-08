@@ -9,6 +9,7 @@ classification: threat-intelligence-security-center
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 2
+keywords: [enrichment integrations, observable enrichment, TISC enrichment]
 breadcrumb: [TISC Integrations, Integrate, Threat Intelligence Security Center, Security Operations]
 ---
 

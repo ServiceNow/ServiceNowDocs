@@ -89,7 +89,7 @@ Security incident quality assessment
 SIR data analysis
 
 </td></tr></tbody>
-</table>1.  [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+</table>1.  [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 
     Install the ServiceNow Otto for Security Incident Response \(SIR\) application \(sn\_sec\_gen\_ai\) and Security Incident Response Core \[sn\_si\] applications.
 

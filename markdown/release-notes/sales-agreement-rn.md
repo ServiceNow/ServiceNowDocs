@@ -32,7 +32,7 @@ See [Sales Agreement Management](https://raw.githubusercontent.com/ServiceNow/Se
 
 **Parent Topic:**[Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/sales-order-management-rn-landing.md)
 
-## Version
+## Version 11.4.0
 
 The October 2026 release includes enhancements in creating sales agreement from a quote.
 
@@ -40,6 +40,6 @@ The October 2026 release includes enhancements in creating sales agreement from 
 
 -   **[Sales agreements for buyer organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/sales-agreement-mgmt-using.md)**
 
-    Users can create a sales agreement from a quote created for a service organization. The buyer organization and channel partner information from the quote is automatically carried over to the sales agreement.
+    Users can create a sales agreement from a quote created for a buyer organization. The buyer organization and channel partner information from the quote is automatically updated to the sales agreement. Buyer Organization captures the name of the organization for which the quote is created.
 
 

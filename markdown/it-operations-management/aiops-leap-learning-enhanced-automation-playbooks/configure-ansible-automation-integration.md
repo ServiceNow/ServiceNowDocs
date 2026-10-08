@@ -27,22 +27,23 @@ Confirm that you have the following components installed and configured:
     The MCP Server is the middle ware component that helps communication between LEAP and Ansible Automation Platform.
 
 -   Network connectivity between ServiceNow and Ansible Automation Platform
+-   API token for the MCP Server Console
 
 Role required: **sn\_itom\_leap.leap\_admin**
 
 ## About this task
 
-The Ansible Automation Integration requires configuration of the MCP Server Console connection and agent to enable communication between LEAP and Ansible Automation Platform.
+The Ansible Automation integration requires configuration of the MCP Server Console connection and agent to enable communication between LEAP and Ansible Automation Platform.
 
 For more details about the integration, select **Help** on the Connectors page, and then select **Learn more** to open the LEAP and Ansible MCP server guide.
 
 ## Procedure
 
-1.  Navigate to **LEAP Settings** &gt; **Connectors**, and select **Connect**.
+1.  On the LEAP homepage, navigate to **Settings****Connectors**, and select **Connect**.
 
     **Note:**
 
-    You can also start this configuration by selecting **Connect** in the Ansible connection banner on the LEAP homepage.
+    Another way to start this configuration is by selecting **Connect** in the Ansible connection banner on the LEAP homepage.
 
     \[Omitted image "ansible-connector-leap-settings.png"\] Alt text: Ansible connector in LEAP settings
 
@@ -64,7 +65,7 @@ For more details about the integration, select **Help** on the Connectors page, 
 
 ## Result
 
-After you configure the Ansible Automation Integration, the Ansible discovery agent analyzes automation opportunities and identifies relevant job templates, and the Ansible execution agent launches mapped automations during incident remediation.
+After you configure the Ansible Automation Integration, the Ansible discovery agent analyzes automation opportunities and identifies relevant job templates. When resolution steps are generated for a critical automation opportunity, the Ansible agent is triggered which launches mapped automation for incident remediation.
 
 The configured connection appears in the Connectors table on the LEAP settings page.
 

@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure Omnichannel Callback, Configure Voice, Configure omnichannel, Configure, Customer Service Management]
+breadcrumb: [Configure Omnichannel Callback, Configure voice, Configure omnichannel, Configure, Customer Service Management]
 ---
 
 # Publish the Virtual Agent topics for callback

@@ -58,8 +58,6 @@ Track the productivity, usage, and returns this asset has delivered over a selec
     The net returns this asset delivered after deducting the cost of running it during the selected period.
 
 
-For a more detailed, filterable view of this data, see .
-
 ## Viewing activity
 
 Review this asset's activity stream from the **Activity** list. Use the filter and settings controls to narrow the stream to the activity types you want to review.

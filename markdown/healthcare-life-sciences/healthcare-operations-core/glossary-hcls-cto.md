@@ -152,7 +152,7 @@ For example, a nurse navigates to https:// .service-now.com/careteam to submit a
 To learn more, see:
 
 -   [Care Team Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/hcls-cto-care-team-portal.md)
--   [Navigate the Care Team Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/hcls-cto-using-portal.md)
+-   [Using Care Team Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/care-team-portal-using.md)
 -   [Create requests in the Care Team Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/hcls-cto-create-requests-portal.md)
 -   [Track requests in the Care Team Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/hcls-cto-track-requests.md)
 -   [Manage your teams in the Care Team Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/hcls-cto-manage-teams.md)
@@ -424,8 +424,8 @@ For example, the Care Team Member responsibility in HCO maps to the "Service loc
 
 To learn more, see:
 
--   
--   
+-   [Service Model Foundation overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-industry-data-model.md)
+-   [Service Model Foundation data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/data-models-smf.md)
 -   [Setting up roles and responsibilities for Healthcare Operations users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/healthcare-operations-core/cto-setting-up-roles-responsibilities.md)
 -   [Assign responsibilities to Healthcare Operations Core users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/healthcare-operations-core/hco-assign-responsibilities.md)
 -   [Roles and responsibilities in Care Team Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/ctwm-understanding-roles-responsibilities.md)
@@ -486,8 +486,6 @@ For example, a nurse opens the chat icon in the Care Team Portal and asks Virtua
 To learn more, see:
 
 -   [Care Team Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/hcls-cto-care-team-portal.md)
--   [Create a chat launcher button in Care Team Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/hco-now-assist-create-launcher-button.md)
--   [Assign the chat launcher to a Care Team Mobile assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/hco-now-assist-assign-launcher-assistants.md)
 
 ## W
 

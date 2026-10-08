@@ -1,16 +1,16 @@
 ---
-title: Monitor and manage instance health
+title: Full and delta scans
 description: The full and delta instance scan feature with Impact Platform Health Scan Engine enables ServiceNow administrators and developers to initiate, monitor, and manage instance health.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/scan-engine-parallel-processing.html
 release: brazil
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-09-30"
 reading_time_minutes: 2
-breadcrumb: [Exploring Impact, Impact]
+breadcrumb: [Scan your instance, Configuring Impact, Impact]
 ---
 
-# Monitor and manage instance health
+# Full and delta scans
 
 The full and delta instance scan feature with Impact Platform Health Scan Engine enables ServiceNow administrators and developers to initiate, monitor, and manage instance health.
 
@@ -25,9 +25,18 @@ Users can see whether their scan was initiated, queued, or blocked, preventing d
 
 ## Key capabilities
 
--   **Real-time status visibility:** Clear indicators showing scan states \(in progress, queued, complete\)
--   **Scan cancellation:** Ability to cancel in-flight scans or queued requests
--   **Safe concurrency:** Update Set Scans and Application Scans can execute while full scans are running
+-   **Real-time status visibility**
+
+    Clear indicators showing scan states \(in progress, queued, complete\).
+
+-   **Scan cancellation**
+
+    Ability to cancel in-flight scans or queued requests.
+
+-   **Safe concurrency**
+
+    Update Set Scans and Application Scans can execute while full scans are running.
+
 
 ## Prevent and resolve technical debt
 
@@ -39,12 +48,14 @@ You can view findings, apply manual fixes, generate AI-suggested fixes, or submi
 
 This unified approach reduces manual remediation time and improves platform quality across your ServiceNow instances.
 
+**Parent Topic:**[Run Scan Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/run-scan-engine.md)
+
 **Related topics**  
 
 
 [Platform Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/platform-health-idi.md)
 
-[Manage and monitor scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/initiate-manage-scan-engine.md)
+[Initiate and monitor scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/initiate-manage-scan-engine.md)
 
 [Prevent and resolve technical debt with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/prevent-resolve-technical-debt-ai.md)
 

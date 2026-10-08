@@ -1,6 +1,6 @@
 ---
 title: Create a scope for Schedule Optimization
-description: A scope defines the scheduling attribute configuration, horizon offset, horizon range, and qualifiers for an optimization run. Scopes are required for batch optimization to run.
+description: Create a scope to define which technicians and tasks a Schedule Optimization batch includes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/field-service-scheduling/create-an-optimization-job-soe.html
 release: brazil
@@ -9,12 +9,12 @@ classification: field-service-scheduling
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Schedule Optimization, Setting up a Field Service scheduling method, Configure, Field Service Management]
+breadcrumb: [Batches and scopes, Schedule Optimization, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
 
 # Create a scope for Schedule Optimization
 
-A scope defines the scheduling attribute configuration, horizon offset, horizon range, and qualifiers for an optimization run. Scopes are required for batch optimization to run.
+Create a scope to define which technicians and tasks a Schedule Optimization batch includes.
 
 ## Before you begin
 
@@ -42,7 +42,7 @@ When the Territory Planning plugin is installed and the Territory Model is activ
 
 6.  Set the **Assignment horizon range** to determine the span of time during which the tasks are assigned to the agents.
 
-7.  Enter a priority in the **Rank** field to determine scope priority when tasks or tasks are shared between scopes.
+7.  Enter a priority in the **Rank** field to determine scope priority when technicians or tasks are shared between scopes.
 
     Lower numbers indicate a higher priority.
 
@@ -50,10 +50,15 @@ When the Territory Planning plugin is installed and the Territory Model is activ
 
 9.  In the **Qualifiers** related list, add assignment groups or territories to the scope.
 
-    **Note:** Each assignment group must have a unique set of technicians. A technician cannot belong to more than one assignment group. Territory-based optimization supports overlapping technicians; assignment group-based optimization does not.
+    **Note:** Each assignment group must have a unique set of technicians. A technician can't belong to more than one assignment group. Territory-based optimization supports overlapping technicians; assignment group-based optimization does not.
 
 10. Select **Submit**.
 
-    A Schedule Optimization scope is created.
 
+## Result
+
+A Schedule Optimization scope is created. To use it, add it to a batch:
+
+-   To create a batch, see [Create a batch for Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/create-an-optimization-batch.md).
+-   To add the scope to an existing batch, see [Add or remove scopes from an optimization batch](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/add-remove-scopes-batch.md).
 

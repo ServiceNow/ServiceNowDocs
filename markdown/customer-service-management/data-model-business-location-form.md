@@ -208,7 +208,7 @@ Members
 Internal users \(users with the snc\_internal role\) who have been added as staff members at this business location. -   Staff members can create cases for customers at their business locations.
 -   Staff members can access customer cases and information where the **Service Organization** field on the Case form matches their business locations.
 
-For more information, see [Add staff members to a business location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/add-staff-members-biz-loc.md).
+For more information, see [Add staff members to a business organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/add-staff-members-biz-loc.md).
 
 </td></tr><tr><td>
 
@@ -216,7 +216,7 @@ Child Internal Business Locations
 
 </td><td>
 
-List of internal business location of the current parent business location.For more information, see [Create an internal business location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-internal-business-location.md).
+List of internal business location of the current parent business location.For more information, see [Create an internal organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-internal-business-location.md).
 
 </td></tr><tr><td>
 
@@ -224,7 +224,7 @@ Child External Business Locations
 
 </td><td>
 
-List of external business location of the current parent business location.For more information, see [Create an external business location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-external-business-location.md).
+List of external business location of the current parent business location.For more information, see [Create an external organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-external-business-location.md).
 
 </td></tr><tr><td>
 
@@ -271,7 +271,7 @@ Cases Requested by Location
 
 </td><td>
 
-List of all cases requested by the internal business location to work.For more information, see [Create and manage cases for a business location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/manage-business-location-cases.md)
+List of all cases requested by the internal business location to work.For more information, see [Create and manage cases for a business organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/manage-business-location-cases.md)
 
 </td></tr><tr><td>
 
@@ -279,7 +279,7 @@ Cases Assigned to Location
 
 </td><td>
 
-Cases that have been created and assigned to this location. For more information, see [Create and manage cases for a business location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/manage-business-location-cases.md).
+Cases that have been created and assigned to this location. For more information, see [Create and manage cases for a business organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/manage-business-location-cases.md).
 
 **Note:** This tab appears only if the business function is set as Service.
 
@@ -319,7 +319,7 @@ Sold Products
 
 </td><td>
 
-Sold products that have been created for customers at this location.For more information, see [Create and manage sold products for a business location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-sp-for-business-location.md).
+Sold products that have been created for customers at this location.For more information, see [Create and manage sold products for a business organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-sp-for-business-location.md).
 
 </td></tr><tr><td>
 
@@ -327,13 +327,13 @@ Install Base Items
 
 </td><td>
 
-Install base items that have been created for customers at this location.For more information, see [Create and manage install base items for a business location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-ib-items-for-business-locations.md).
+Install base items that have been created for customers at this location.For more information, see [Create and manage install base items for a business organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-ib-items-for-business-locations.md).
 
 </td></tr></tbody>
 </table>**Related topics**  
 
 
-[Create an internal business location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-internal-business-location.md)
+[Create an internal organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-internal-business-location.md)
 
 [Service Model Foundation relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-data-model-relationships.md)
 

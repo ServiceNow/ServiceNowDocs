@@ -41,7 +41,9 @@ Technical debt records persist across job runs instead of being deleted and re-c
 
     **Note:** You can also open this list directly by selecting the **Business applications with TRM technical debt** card in the **Portfolio Overview and Health** section on the Enterprise Architecture Workspace home page.
 
-4.  In the **Reason** column, select a value to open the technical debt record.
+4.  In the **Number** column, select a value to open the technical debt record.
+
+    **Note:** Technical debt records created before an upgrade to Enterprise Architecture Workspace version 10.1.3 display **\(empty\)** in the **Number** column. Select **\(empty\)** to open these records.
 
     For field information, see [TRM technical debt form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-trm-technical-debt-form.md).
 

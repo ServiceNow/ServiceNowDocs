@@ -39,7 +39,7 @@ Provide a value for each input that your action needs. To add dynamic values, yo
     -   **Instance**: The action runs the script from the instance. Select this option when the script needs access to the ServiceNow API or instance data. This is the default value.
     -   **MID**: The action runs the script from a MID Server. Select this option when the script needs access to [MID Server script files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server-script-attach.md) and APIs. Selecting this option displays the **Select MID Server Using** input.
     -   **Vanilla \(Core JavaScript\)**: The action runs the script from either the instance or MID Server. Select this option when the script only needs the core JavaScript APIs and not the ServiceNow API or instance data.
-    The runtime you select determines the JavaScript objects and methods displayed in the Context-sensitive help.
+    The runtime you select determines the JavaScript objects and methods displayed in the [Context-sensitive help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/scripts/c_ScriptingAssistance.md).
 
 -   **Select MID Server Using**
 
@@ -125,7 +125,7 @@ Provide a value for each input that your action needs. To add dynamic values, yo
     outputs.number = 10;
     ```
 
-    For available classes and methods, see the JavaScript API context-sensitive help or the .
+    For available classes and methods, see the [JavaScript API context-sensitive help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/scripts/c_ScriptingAssistance.md) or the [API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/api-reference.md).
 
     Workflow Studio runs script from the domain from which it is triggered or initiated. See [Domain separation and Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/flow-designer-domain-separation.md).
 

@@ -32,7 +32,7 @@ The following table shows definitions of the entries in the **Column names** col
 |capability\_id|A unique identifier for each Workflow Data Fabric capability.|
 |exchange\_value|The number of tokens expended when the associated capability is used.|
 
-The **Column values** column has two comma-separated entries per row. The first entry corresponds to the capabilitiy\_id, while the second entry corresponds to the exchange\_value.
+The **Column values** column has two comma-separated entries per row. The first entry corresponds to the capability\_id, while the second entry corresponds to the exchange\_value.
 
 ## Workflow Data Fabric token ratio tab
 

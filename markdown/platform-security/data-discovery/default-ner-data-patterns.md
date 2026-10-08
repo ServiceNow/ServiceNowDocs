@@ -7,7 +7,7 @@ release: brazil
 product: Data Discovery
 classification: data-discovery
 topic_type: reference
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 3
 breadcrumb: [Configure patterns, Data Discovery jobs, Exploring Data Discovery \(Classic\), Data Discovery, Platform Privacy]
 ---
@@ -47,10 +47,6 @@ Named Entity Recognition
 
 </th><th>
 
-Keywords
-
-</th><th>
-
 Examples
 
 </th></tr></thead><tbody><tr><td>
@@ -64,10 +60,6 @@ A full or partial location identifier, including street names, unit / plot numbe
 </td><td>
 
 ADDRESS
-
-</td><td>
-
- 
 
 </td><td>
 
@@ -92,10 +84,6 @@ CITY
 
 </td><td>
 
- 
-
-</td><td>
-
 -   **Matching**
     -   Hayward
     -   Cleburne
@@ -117,16 +105,36 @@ COUNTRY
 
 </td><td>
 
- 
-
-</td><td>
-
 -   **Matching**
     -   USA
     -   India
 -   **Non matching**
     -   U-S-A
     -   U.S.A.
+
+</td></tr><tr><td>
+
+Crime
+
+</td><td>
+
+Criminal offenses and unlawful acts which can be committed, alleged, or charged.
+
+</td><td>
+
+CRIME
+
+</td><td>
+
+-   **Matching**
+    -   Burglary
+    -   Theft
+    -   Fraud
+    -   Kidnapping
+-   **Non matching**
+    -   Slap
+    -   Crash
+    -   Insult
 
 </td></tr><tr><td>
 
@@ -139,10 +147,6 @@ Absolute or relative dates or periods or times smaller than a day.
 </td><td>
 
 DATE\_TIME
-
-</td><td>
-
- 
 
 </td><td>
 
@@ -171,10 +175,6 @@ JOB\_POSITION
 
 </td><td>
 
- 
-
-</td><td>
-
 -   **Matching**
     -   senior software engineer
     -   Director
@@ -196,10 +196,6 @@ Name of politically or geographically defined location \(cities, provinces, coun
 </td><td>
 
 LOCATION
-
-</td><td>
-
- 
 
 </td><td>
 
@@ -225,10 +221,6 @@ NRP
 
 </td><td>
 
- 
-
-</td><td>
-
 -   **Matching**
     -   American
     -   Indian
@@ -251,10 +243,6 @@ ORGANIZATION
 
 </td><td>
 
- 
-
-</td><td>
-
 -   **Matching**
 
 Abraham &amp; Lincoln co.
@@ -263,6 +251,28 @@ Abraham &amp; Lincoln co.
 
 Now india co
 
+
+</td></tr><tr><td>
+
+Password
+
+</td><td>
+
+Passphrases and credentials typically alongside labels such as 'password,' 'pwd,' or 'passcode.'"
+
+</td><td>
+
+PASSWORD
+
+</td><td>
+
+-   **Matching**
+    -   Tr0ub4dor
+    -   JusT1nTme!
+    -   backOfEnvolp3
+-   **Non matching**
+    -   1234567
+    -   abcdefghi
 
 </td></tr><tr><td>
 
@@ -275,10 +285,6 @@ A full person name, which can include first names, middle names or initials, and
 </td><td>
 
 PERSON
-
-</td><td>
-
-Fred Luddy, Abel Tuter, Abraham Lincoln
 
 </td><td>
 
@@ -304,10 +310,6 @@ SALARY
 
 </td><td>
 
- 
-
-</td><td>
-
 -   **Matching**
 
 my salary is $500, my salary is ₹500, my pay is 1.234,56 €
@@ -328,10 +330,6 @@ States, Provinces, Prefectures and regions around the world.
 </td><td>
 
 STATE
-
-</td><td>
-
- 
 
 </td><td>
 

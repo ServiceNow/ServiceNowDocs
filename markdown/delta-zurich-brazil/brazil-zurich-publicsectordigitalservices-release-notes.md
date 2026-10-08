@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-brazil/brazil-zurich-publicsectordigitalservices-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 27
 breadcrumb: [Products combined by family]
 ---
@@ -96,7 +96,7 @@ Each grant program is associated with a single funding program via the funding p
 
  -   **[Agentic AI](https://www.servicenow.com/docs/access?context=agentic-ai-psds-explore&family=zurich&ft:locale=en-US)**
 
-Define the fees for information requests and autonomously assess waivers against an agency's criteria​. You can automate the process of synthesizing similar information requests and associated fees, and apply those fees to cases​. Your case fields are automatically filled in and integrated into the Information Request Playbook workflow and ServiceNow's AI framework.
+Define the fees for information requests and autonomously assess waivers against an agency's criteria​. You can automate the process of synthesizing similar information requests and associated fees, and apply those fees to cases​. Your case fields are automatically filled in and integrated into the Information Request Administration workflow and ServiceNow's AI framework.
 
 
  -   **[Grants Management Evaluation &amp; Decision​](https://www.servicenow.com/docs/access?context=psds-using-grants-management-playbook&family=zurich&ft:locale=en-US)**

@@ -542,9 +542,3 @@ A notification is sent to the administrator if changes were made to Indoor Mappi
 
 **Next topic:**[Indoor Mapping terminology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/indoor-mapping/indoor-mapping-common-terminology.md)
 
-**Parent Topic:**[Indoor Mapping references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/indoor-mapping/indoor-mapping-references.md)
-
-**Previous topic:**[Indoor Mapping references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/indoor-mapping/indoor-mapping-references.md)
-
-**Next topic:**[Indoor Mapping terminology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/indoor-mapping/indoor-mapping-common-terminology.md)
-

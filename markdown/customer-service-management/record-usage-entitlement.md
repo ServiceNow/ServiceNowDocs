@@ -16,7 +16,9 @@ Record the consumption or usages made out of the total characteristic quantities
 
 ## Before you begin
 
-Role required: sn\_customerservice\_manager, sn\_customerservice\_agent and sn\_customerservice.consumer\_agent
+Role required: sn\_customerservice\_manager, sn\_customerservice\_agent, sn\_customerservice.consumer\_agent, or sn\_bus\_loc.svc\_location\_support\_agent
+
+**Note:** For details on which entitlements, a user with sn\_bus\_loc.svc\_location\_support\_agent role can edit entitlement usage, see [Location Support Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/configure-data-model-roles.md).
 
 ## About this task
 
@@ -26,15 +28,15 @@ When an entitlement moves to the Active state, usage records are created. You ca
 
 1.  Navigate to the ServiceNow AI Platform interface or the CRM Workspace.
 
-<table id="choicetable_m1c_yvj_d1c"><thead><tr><th align="left" id="d328139e63">
+<table id="choicetable_m1c_yvj_d1c"><thead><tr><th align="left" id="d330746e72">
 
 Interface
 
-</th><th align="left" id="d328139e66">
+</th><th align="left" id="d330746e75">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d328139e72">
+</th></tr></thead><tbody><tr><td id="d330746e81">
 
 **Platform interface**
 
@@ -42,7 +44,7 @@ Action
 
 Navigate to **All** &gt; **Customer Service** &gt; **Contracts and Entitlements** &gt; **Customer Contracts**.
 
-</td></tr><tr><td id="d328139e96">
+</td></tr><tr><td id="d330746e105">
 
 **CRM Workspace**
 
@@ -55,15 +57,15 @@ Navigate to **All** &gt; **Customer Service** &gt; **Contracts and Entitlements*
 </td></tr></tbody>
 </table>2.  Record the usage on an entitlement.
 
-<table id="choicetable_zqd_tnc_pzb"><thead><tr><th align="left" id="d328139e149">
+<table id="choicetable_zqd_tnc_pzb"><thead><tr><th align="left" id="d330746e158">
 
 From
 
-</th><th align="left" id="d328139e152">
+</th><th align="left" id="d330746e161">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d328139e158">
+</th></tr></thead><tbody><tr><td id="d330746e167">
 
 **Customer Contracts**
 
@@ -75,7 +77,7 @@ Do this
 4.  From the Entitlement Usages related list, open the usage record.
 
 
-</td></tr><tr><td id="d328139e182">
+</td></tr><tr><td id="d330746e191">
 
 **Entitlements**
 

@@ -34,15 +34,15 @@ You must have the agentic AI plugin installed.
 
 3.  Provide details on the Set objectives tab.
 
-<table id="choicetable_j24_f5k_nzb"><thead><tr><th align="left" id="d67629e100">
+<table id="choicetable_j24_f5k_nzb"><thead><tr><th align="left" id="d67675e100">
 
 Field
 
-</th><th align="left" id="d67629e103">
+</th><th align="left" id="d67675e103">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d67629e109">
+</th></tr></thead><tbody><tr><td id="d67675e109">
 
 **Select type**
 
@@ -50,7 +50,7 @@ Description
 
 Select `Project`.
 
-</td></tr><tr><td id="d67629e121">
+</td></tr><tr><td id="d67675e121">
 
 **Name**
 
@@ -58,7 +58,7 @@ Select `Project`.
 
 Provide an intuitive name for the project that you’re creating.
 
-</td></tr><tr><td id="d67629e130">
+</td></tr><tr><td id="d67675e130">
 
 **Short description**
 
@@ -66,7 +66,7 @@ Provide an intuitive name for the project that you’re creating.
 
 Provide a short description for the project you’re creating.
 
-</td></tr><tr><td id="d67629e139">
+</td></tr><tr><td id="d67675e139">
 
 **Source Type**
 
@@ -74,7 +74,7 @@ Provide a short description for the project you’re creating.
 
 Select `Agentic AI data` from the list.
 
-</td></tr><tr><td id="d67629e152">
+</td></tr><tr><td id="d67675e152">
 
 **Table**
 
@@ -82,7 +82,7 @@ Select `Agentic AI data` from the list.
 
 This is auto-populated \(Execution Plan\).
 
-</td></tr><tr><td id="d67629e161">
+</td></tr><tr><td id="d67675e161">
 
 **Mark as restricted**
 
@@ -92,7 +92,7 @@ Select the check box if you want to limit project access to the owner and the us
 
 When you’re dealing with sensitive data and must restrict access, you can use this option.
 
-</td></tr><tr><td id="d67629e174">
+</td></tr><tr><td id="d67675e174">
 
 **Auto retire**
 
@@ -108,7 +108,7 @@ This field is available only if you choose the type as **Project**.
 
  **Note:** If a project has been automatically retired, you can remine it directly. Remining a retired project automatically sets its state to Draft if the project wasn't shared earlier, or to Published if it was shared. Previously, you had to open the project and manually change its state to Draft or Published before you could remine it.
 
-</td></tr><tr><td id="d67629e214">
+</td></tr><tr><td id="d67675e214">
 
 **Add a KPI dashboard**
 
@@ -116,7 +116,7 @@ This field is available only if you choose the type as **Project**.
 
 Select the check box if you want to add a KPI dashboard. You must then select a dashboard. If you want to create a dashboard, select the **New Dashboard** button. It automatically takes you to the Performance Analytics workspace.
 
-</td></tr><tr><td id="d67629e229">
+</td></tr><tr><td id="d67675e229">
 
 **Quick start**
 

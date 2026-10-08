@@ -7,7 +7,7 @@ release: brazil
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [Configure, Set up work orders and tasks, Configure, Field Service Management]
 ---

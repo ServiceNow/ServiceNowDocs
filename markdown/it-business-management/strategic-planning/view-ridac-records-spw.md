@@ -35,8 +35,8 @@ The RIDAC home page provides a centralized view of all risks, issues, decisions,
 
     -   **All RIDAC** — to view all risks, issues, decisions, actions, and changes across all planning item types, goals, and EAP iterations.
     -   **Project RIDAC** — to view only RIDAC items created on project planning items.
-    -   **Portfolio Risks** — to view only risks and issues associated with portfolio planning items.
-    -   **Program Risks** — to view only risks and issues where a program is the top-level parent.
+    -   **RIDAC by Portfolio** — to view only risks, issues, and decisions where a portfolio is the top-level parent.
+    -   **RIDAC by Program** — to view only risks, issues, and decisions where a program is the top-level parent.
     The RIDAC records are filtered based on your selection, and the list updates to show only the relevant items.
 
 3.  Select the RIDAC type you want to view from the left navigation panel.

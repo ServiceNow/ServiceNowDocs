@@ -40,15 +40,15 @@ An agent can do these actions by using the AI icon:
 
 2.  Choose how to compose an email.
 
-<table id="choicetable_tbz_hyv_bcc"><thead><tr><th align="left" id="d193176e124">
+<table id="choicetable_tbz_hyv_bcc"><thead><tr><th align="left" id="d194819e124">
 
 Method
 
-</th><th align="left" id="d193176e127">
+</th><th align="left" id="d194819e127">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d193176e133">
+</th></tr></thead><tbody><tr><td id="d194819e133">
 
 **Compose email from More actions**
 
@@ -61,7 +61,7 @@ Description
 5.  Get a recommendation that is based on the existing context.
 
 
-</td></tr><tr><td id="d193176e178">
+</td></tr><tr><td id="d194819e178">
 
 **Compose an email from Activity stream**
 
@@ -77,15 +77,15 @@ Description
 
     \[Omitted image "now-assist-email-reply-recommendation.png"\] Alt text: Generated email response.
 
-<table id="choicetable_e5x_3yv_bcc"><thead><tr><th align="left" id="d193176e241">
+<table id="choicetable_e5x_3yv_bcc"><thead><tr><th align="left" id="d194819e241">
 
 Email message window
 
-</th><th align="left" id="d193176e244">
+</th><th align="left" id="d194819e244">
 
 AI icon
 
-</th></tr></thead><tbody><tr><td id="d193176e250">
+</th></tr></thead><tbody><tr><td id="d194819e250">
 
 **Typed response**
 
@@ -100,7 +100,7 @@ Provides the option to change your tone:
 -   Sympathetic
 
 
-</td></tr><tr><td id="d193176e280">
+</td></tr><tr><td id="d194819e280">
 
 **Left blank**
 
@@ -108,7 +108,7 @@ Provides the option to change your tone:
 
 Generates a recommended email response that is based on the context of the email up to this point.
 
-</td></tr><tr><td id="d193176e289">
+</td></tr><tr><td id="d194819e289">
 
 **Use template**
 

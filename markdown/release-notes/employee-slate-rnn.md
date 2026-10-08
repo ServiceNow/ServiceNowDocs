@@ -43,6 +43,8 @@ See  for more information.
 -   **Accessibility information**
     -   The AI widget builder in EmployeeWorks includes built-in design components that support accessibility standards. When custom widgets are created through the prompt-driven interface, the design components are structured to help developers address accessibility requirements.
 
+-   **[Patch = Brazil 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/employeeworks-rn-2026-10.md)**  
+ServiceNow EmployeeWorks Web App provides enhancements in Browse experience, admin configurations, added themes, and added filter and sorting options for daily chores.
 -   **[September 2026](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/employeeslate-rn-2026-09.md)**  
 The Employee Slate product family has been re-branded to ServiceNow EmployeeWorks. Several new features and changes have been introduced.
 

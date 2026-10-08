@@ -16,3 +16,20 @@ Use the Care Team Portal to create and track service requests, manage your teams
 
 The following topics describe the day-to-day tasks care team members perform inside the Care Team Portal, including creating support requests, tracking in-flight work, managing team membership, and finding knowledge articles.
 
+-   [Track requests in the Care Team Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/hcls-cto-track-requests.md)
+
+    Track requests created by you or your team from directly within the Care Team Portal.
+
+-   [Manage your teams in the Care Team Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/hcls-cto-manage-teams.md)
+
+    Manage your teams from directly within the Care Team Portal.
+
+-   [View knowledge articles in the Care Team Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/hcls-cto-view-kb-portal.md)
+
+    Review knowledge articles posted by your organization from directly within the Care Team Portal.
+
+-   [Create requests in the Care Team Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/hcls-cto-create-requests-portal.md)
+
+    Use the Care Team Portal to create support requests for services from ancillary departments.
+
+

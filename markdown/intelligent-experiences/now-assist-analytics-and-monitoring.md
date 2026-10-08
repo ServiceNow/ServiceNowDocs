@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Analyzing, Now Assist, performance, Overview page, summary section, skills performance]
-breadcrumb: [Using Now Assist Admin, AI Admin Hub, Generative AI skills, Enable AI Experiences]
+breadcrumb: [Using AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
 # Analyzing Now Assist usage
@@ -77,5 +77,5 @@ The Needs Attention section displays a count of items that need your attention. 
 
 \[Omitted image "needs-attention-card.png"\] Alt text: Needs Attention card that displays the number of plugins that aren't installed and the number of inactive skills.
 
-**Parent Topic:**[Using Now Assist Admin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/using-now-assist-admin_0.md)
+**Parent Topic:**[Using AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/using-now-assist-admin_0.md)
 

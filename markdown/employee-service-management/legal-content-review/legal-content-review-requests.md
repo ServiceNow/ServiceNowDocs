@@ -8,7 +8,7 @@ product: Legal Content Review
 classification: legal-content-review
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Legal Content Review, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
@@ -30,16 +30,6 @@ Update request details, add comments, or upload documents in a Legal Content Rev
 Assign a Legal Content Review request to yourself or to someone in your assignment group.
 -   **[Cancel a Legal Content Review request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/legal-content-review/cancel-a-legal-cr-request.md)**  
 Cancel a Legal Content Review request irrespective of its state.
--   **[Submit a Legal Content Review request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/legal-content-review/submit-legal-cr-request.md)**  
-Submit a Legal Content Review request to seek services from the legal department.
--   **[Update a Legal Content Review request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/legal-content-review/update-existing-legal-cr-request.md)**  
-Update request details, add comments, or upload documents in a Legal Content Review request you submitted while it is still in the New or Assigned state.
--   **[Assign a Legal Content Review request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/legal-content-review/assign-legal-cr-request.md)**  
-Assign a Legal Content Review request to yourself or to someone in your assignment group.
--   **[Cancel a Legal Content Review request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/legal-content-review/cancel-a-legal-cr-request.md)**  
-Cancel a Legal Content Review request irrespective of its state.
-
-**Parent Topic:**[Legal Content Review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/legal-content-review/legal-content-review.md)
 
 **Parent Topic:**[Legal Content Review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/legal-content-review/legal-content-review.md)
 

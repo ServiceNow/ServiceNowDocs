@@ -7,7 +7,7 @@ release: brazil
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Responding to and working with alerts in Express List, Express List, Event Management, ITOM AIOps, IT Operations Management]
@@ -47,10 +47,9 @@ The Analyze alert impact page lets you manage the agentic workflow, including de
 
 The analyze alert impact agentic workflow uses observability AI agents to gather information from alerts and request insights. The observability AI agents require additional configuration. For configuration procedures and detailed information about the data returned by these agents, see [Configure observability agents for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/configure-integration-agents-for-now-assist.md).
 
-|AI agent|AI agent role|
-|--------|-------------|
-|Alert impact summary AI agent|Retrieves the alert impact summary for a specific alert.|
-|Alert information retrieval AI agent|Gathers key observability details for a specific alert.|
+|AI agent|What it does|
+|--------|------------|
+|SRE Investigate AI Agent|Coordinates observability and network agents to collect and correlate investigation findings.|
 |Observability agents|Retrieves data from the observability vendor associated with the alert. For details, see [Configure observability agents for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/configure-integration-agents-for-now-assist.md)|
 
 ## Generating the alert analysis

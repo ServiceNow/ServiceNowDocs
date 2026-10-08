@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/retail-industry/t\_configure-instore-ops-roles.html
 release: brazil
 topic_type: task
-last_updated: "2026-07-15"
+last_updated: "2026-10-05"
 reading_time_minutes: 1
 keywords: [configure roles, assign roles, access control, ACL, in-store operations]
 breadcrumb: [Configure, Retail]
@@ -21,7 +21,7 @@ Role required: Administrator or System Security Administrator
 
 ## About this task
 
-The quick case creation feature uses three primary roles that gate access to case and task operations. Area/Region Managers have restricted assignment capabilities.
+Quick case and task creation uses three roles, one for each persona: store associate, store manager, and area or region manager. Users also need to be mapped to the stores they work with.
 
 ## Procedure
 
@@ -33,13 +33,13 @@ The quick case creation feature uses three primary roles that gate access to cas
 
     |Role|Capabilities|
     |----|------------|
-    |**`sn_rtl_instore_ops.associate`**|Create cases, create tasks, and work on assigned tasks. Cannot reassign or close cases/tasks. Store field is auto-populated and read-only.|
-    |**`sn_rtl_instore_ops.manager`**|Create cases, create and close tasks, reassign cases and tasks, and view all cases in their store. Can close cases and tasks.|
-    |**`sn_rtl_instore_ops.plan_author`**|Create cases and tasks originating from task plan templates. Used for workflow automation.|
+    |**`sn_rtl_instore_ops.associate`**|Store associate. Create cases, add tasks, assign and reassign cases and tasks, use **Assign to me**, and edit and close cases and tasks for their store. The store is set automatically on new cases.|
+    |**`sn_rtl_instore_ops.manager`**|Store manager. Contains the `sn_rtl_instore_ops.associate` role, so store managers can do everything store associates can.|
+    |**`sn_rtl_instore_ops.manager_contributor`**|Area or region manager. Create cases for any store they're mapped to, add tasks, and edit and close cases and tasks across those stores. Can't assign cases or tasks or use **Assign to me**.|
 
-4.  For Area/Region Managers, add the `sn_rtl_instore_ops.associate` role.
+4.  For area and region managers, add the `sn_rtl_instore_ops.manager_contributor` role.
 
-    **Note:** Area/Region Managers can create cases and be assigned to tasks, but they cannot be assigned to tasks via the task form. They also have required-field visibility for the Store field when reporting issues for multiple stores.
+    Users who already have the `sn_retail.manager_contributor` role get `sn_rtl_instore_ops.manager_contributor` automatically, because the retail role contains it.
 
 5.  Save the user record.
 
@@ -50,6 +50,5 @@ The quick case creation feature uses three primary roles that gate access to cas
 
 -   **Store Associate:** Assign `sn_rtl_instore_ops.associate`
 -   **Store Manager:** Assign `sn_rtl_instore_ops.manager` \(manager role includes associate capabilities\)
--   **Area Manager:** Assign `sn_rtl_instore_ops.associate` \(can create cases across multiple stores\)
--   **Automation User:** Assign `sn_rtl_instore_ops.plan_author` \(for template-originated cases\)
+-   Area or region manager: Assign `sn_rtl_instore_ops.manager_contributor` \(can create and monitor cases across multiple stores\)
 

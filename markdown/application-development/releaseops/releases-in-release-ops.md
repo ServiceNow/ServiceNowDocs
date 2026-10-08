@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [ReleaseOps, deploy changes, update sets, pipeline, ATF, scheduled release, custom pipeline, large scale deployment ServiceNow, schedule a release, deployment request, deployment analyzer]
-breadcrumb: [Explore, ReleaseOps, Deploying applications, Building applications]
+breadcrumb: [Explore, ReleaseOps, Run, AI Workflow Factory, Building applications]
 ---
 
 # Releases in ReleaseOps
@@ -41,4 +41,6 @@ On-demand releases are created dynamically when the need arises, such as deployi
 **Important:** Changes in an on-demand release are intended to be deployed to their target as soon as possible. However, on-demand releases must still pass the checks in the organization's pipeline. Doing so helps to verify that the changes meet the requirements for the organization's compliance and governance policies, as well as quality assurance checks. Once the on-demand request has passed these checks, the deployment proceeds immediately.
 
 ReleaseOps includes deployment analyzer, a tool provided to introspect a deployment. The deployment analyzer enables release administrators to verify that on-demand releases meet certain criteria, such as only making specific types of code changes. For more information, see [Deployment analyzer in ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/releaseops/deployment-analyzer.md).
+
+**Parent Topic:**[Exploring ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/releaseops/exploring-release-ops.md)
 

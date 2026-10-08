@@ -62,3 +62,5 @@ You can mark tests as mutually exclusive using any of the following methods.
 
 [Performance profiling]()
 
+[ATF Health Check]()
+

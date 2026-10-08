@@ -1,6 +1,6 @@
 ---
 title: ServiceNow Otto for AI Risk and Compliance
-description: With ServiceNow Otto for AI Risk and Compliance, part of the ServiceNow Otto for Integrated Risk Management \(IRM\) application, use agentic workflows and generative AI skills to streamline issue summarization, control objective creation, and smart assessment responses.
+description: With ServiceNow Otto for AI Risk and Compliance, part of the ServiceNow Otto for Integrated Risk Management \(IRM\) application, provides agentic workflows and generative AI skills for issue summarization, control objective creation, and assessment responses.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/ai-risk-management/airc-exploring-now-assist.html
 release: brazil
@@ -15,11 +15,11 @@ breadcrumb: [Explore, AI Risk and Compliance, Governance, Risk, and Compliance]
 
 # ServiceNow Otto for AI Risk and Compliance
 
-With ServiceNow Otto for AI Risk and Compliance, part of the ServiceNow Otto for Integrated Risk Management \(IRM\) application, use agentic workflows and generative AI skills to streamline issue summarization, control objective creation, and smart assessment responses.
+With ServiceNow Otto for AI Risk and Compliance, part of the ServiceNow Otto for Integrated Risk Management \(IRM\) application, provides agentic workflows and generative AI skills for issue summarization, control objective creation, and assessment responses.
 
 ## ServiceNow Otto for AI Risk and Compliance overview
 
-Organizations deploying AI systems must continuously evaluate AI-related risks, monitor regulatory requirements, and ensure compliance with evolving AI governance standards. These activities are often performed manually, which can result in delays, inconsistent risk assessments, and difficulty tracking mitigation efforts across the enterprise.
+Organizations deploying AI systems must continuously evaluate AI-related risks, monitor regulatory requirements, and support compliance with evolving AI governance standards. These activities are often performed manually, which can result in delays, inconsistent risk assessments, and difficulty tracking mitigation efforts across the enterprise.
 
 ServiceNow Otto for AI Risk and Compliance provides a set of generative AI skills and agentic workflows designed to address these challenges.
 
@@ -31,7 +31,7 @@ The generative AI skills for ServiceNow Otto in AI Risk and Compliance offer the
 
 -   Automated assessment of AI systems, reducing manual effort in reporting issues, summarizing issues for context, responding to assessments, and rationalizing control objectives.
 -   Minimized human intervention in repetitive tasks, enabling risk and compliance analysts to focus on strategic planning, risk mitigation, and stakeholder engagement.
--   Scalable and configurable framework, supporting integration of new AI Risk and Compliance skills and workflows to adapt to evolving regulatory landscapes and organizational needs.
+-   A configurable framework that supports integration of new AI Risk and Compliance skills and workflows to adapt to evolving regulatory landscapes and organizational needs.
 
 The agentic workflows for ServiceNow Otto for AI Risk and Compliance offer the following benefits:
 

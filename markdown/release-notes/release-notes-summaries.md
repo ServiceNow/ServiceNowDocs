@@ -34,16 +34,16 @@ Cumulative release notes summary on changes to Brazil features and products.
 Cumulative release notes summary on deprecation information for Brazil features and products.
 -   **[Highlights for all Brazil features and products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/rn-summary-highlights.md)**  
 Cumulative release notes summary on highlights of Brazil features and products.
+-   **[Product localization information in Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/rn-summary-localization.md)**  
+Cumulative release notes summary on new Brazil features and products.
 -   **[New features and products in Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/rn-summary-new-features.md)**  
 Cumulative release notes summary on new Brazil features and products.
 -   **[Plugin information for all Brazil features and products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/rn-summary-plugin-info.md)**  
 Cumulative release notes summary on plugin information for Brazil features and products.
--   **[Product localization information in Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/rn-summary-localization.md)**  
-Cumulative release notes summary on new Brazil features and products.
--   **[Upgrade information for all Brazil features and products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/rn-summary-upgrade-info.md)**  
-Cumulative release notes summary on upgrade information for Brazil features and products.
 -   **[User interface \(UI\) information for all Brazil features and products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/rn-summary-ui.md)**  
 Cumulative release notes summary on user interface \(UI\) information for Brazil features and products.
+-   **[Upgrade information for all Brazil features and products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/rn-summary-upgrade-info.md)**  
+Cumulative release notes summary on upgrade information for Brazil features and products.
 
 **Parent Topic:**[Release notes for upgrading from Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/rn-n-1-landing-page.md)
 

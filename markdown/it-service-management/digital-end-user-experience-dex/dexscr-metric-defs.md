@@ -89,7 +89,7 @@ Percentage of first assignment resolution
 
 </td><td>
 
-This percentage is calculated by dividing the total number of first assignment resolution incidents \(incidents with **Reassignment count** of zero in incident records\) by the total number of incidents, and multiplying the result by 100.
+The percentage of incidents resolved on first assignment. Calculated as: \(incidents with **Reassignment count** of zero ÷ total incidents\) × 100.
 
 </td></tr><tr><td>
 

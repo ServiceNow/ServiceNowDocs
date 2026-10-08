@@ -444,7 +444,7 @@ Use the Backup Job Execution History \[cmdb\_backup\_job\_execution\_history\] c
 |Completion Status|The current completion status of the backup job.|
 |Mark for Archival|Select to archive backup job execution history after 90 days.|
 
-For more information, see [Operational Technology Backup Management data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/ot-backup-management-data-model.md).
+For more information, see .
 
 ## Key reference structures
 

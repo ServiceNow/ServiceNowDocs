@@ -82,7 +82,7 @@ Assets that are contained within a pallet can be consumed through various asset 
 
     The ServiceNow® Asset Management application enables you to track and manage your assets. If you use the application to swap an asset within a pallet, that asset is automatically removed from the corresponding pallet asset record after it’s swapped.
 
-    For more information on the Asset Management application, see [Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/c_AssetManagement.md).
+    For more information on the Asset Management application, see [Base Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/c_AssetManagement.md).
 
 
 **Parent Topic:**[Create pallet assets in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/create-pallet-asset-eam.md)

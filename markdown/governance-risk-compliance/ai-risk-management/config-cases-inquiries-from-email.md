@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [configure email intake, AI case email, inbound email AI case, email-based intake]
-breadcrumb: [AI Risk and Compliance, Governance, Risk, and Compliance]
+breadcrumb: [Configure, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
 
 # Configure email-based intake for AI Risk and Compliance

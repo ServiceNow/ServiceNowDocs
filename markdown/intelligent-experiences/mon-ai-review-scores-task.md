@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/mon-ai-
 release: brazil
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 2
+reading_time_minutes: 3
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Review scores, Monitoring and evaluating AI systems, Monitor AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
 ---
@@ -64,6 +64,15 @@ Role required: sn\_ai\_asset\_mgmt.ai\_asset\_owner or sn\_ai\_governance.ai\_st
     The Safety score card displays a composite weighted average as a percentage. For example, a Safety score of 70% labeled Fair \(orange\) indicates that one or more safety metrics need attention.
 
 8.  Check performance over time by reviewing the **Monitor agent activity** trend chart.
+
+    |Option|Description|
+    |------|-----------|
+    |**__Lowest performing metrics__**|View the top five metrics with the largest decline in quality and safety over time.|
+    |**Highest performing metrics**|View the top five metrics with the largest increase in quality and safety over time.|
+    |**Quality metrics**|View the performance of quality metrics over time.|
+    |**Safety metrics**|View the performance of safety metrics over time.|
+    |**All metrics**|View the performance of all metrics over time.|
+    |**Select a specific metric**|View the performance for a specific metric by selecting it from the list.|
 
     Solid lines represent metrics that contribute to this AI system's overall quality or safety score. Dotted lines represent metrics that are collected but don't contribute to those scores. You can point to a data point on the chart to see the exact score for that date.
 

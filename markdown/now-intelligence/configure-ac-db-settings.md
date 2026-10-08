@@ -65,7 +65,7 @@ Role required: dashboard\_admin for all dashboards, or any role for dashboards t
 
         Select a color from a list of preconfigured colors, or use the color palette to specify a color. If there are multiple tabs, you can choose to customize the backgrounds of each tab.
 
-        **Note:** You cannot set custom background colors on Core UI dashboards.
+        **Note:** You can set custom background colors only on Platform Analytics dashboards, not on Core UI dashboards.
 
     -   In the **Dashboard Summary** section, choose whether to enable AI summary generation.
 

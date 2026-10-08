@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [AI-assisted development, Build Agent, vibe coding, application development, artificial intelligence, code generation, natural language, development tools, enterprise development, automated testing, developer productivity]
-breadcrumb: [Develop, Agentic development, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Develop, Agentic development, Build, AI Workflow Factory, Building applications]
 ---
 
 # Agentic ServiceNow AI Platform development with Build Agent

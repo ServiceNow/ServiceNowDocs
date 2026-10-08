@@ -41,3 +41,8 @@ The following table is provided to understand the AI assessment and AI task fiel
 |State|state| |
 |Type|type|Choice|
 
+**Related topics**  
+
+
+[Enterprise Architecture for AICT plugin installation and upgrade considerations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-ea-common-upgrade-considerations.md)
+

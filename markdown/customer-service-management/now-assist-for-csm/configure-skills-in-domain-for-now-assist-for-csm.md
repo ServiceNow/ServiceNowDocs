@@ -31,11 +31,11 @@ By default, the skill configurations in the domains inherit the settings from th
 
     For example, if you want to configure the skill in ParentDomain, change the domain scope to ParentDomain.
 
-2.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Features** &gt; **Features**.
+2.  Navigate to **All** &gt; **AI Admin Hub** &gt; **AI Skills**.
 
 3.  In the AI Admin Hub console, select the global skill configuration to activate it within the current domain and to set up its own unique skill configuration.
 
-    As shown in the following example, a modal pop-up window confirms that the skill configuration is being edited in the current domain. This action creates a skill configuration that overrides the existing global configuration. The active skill configuration in use is derived from the global domain and shares the same name as the global skill configuration.
+    A modal pop-up window confirms that the skill configuration is being edited in the current domain. This action creates a skill configuration that overrides the existing global configuration. The active skill configuration in use is derived from the global domain and shares the same name as the global skill configuration.
 
 4.  Proceed to the guided setup by selecting **Yes, edit**.
 

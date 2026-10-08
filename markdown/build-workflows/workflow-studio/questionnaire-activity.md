@@ -8,7 +8,7 @@ product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
 last_updated: "2026-09-10"
-reading_time_minutes: 5
+reading_time_minutes: 2
 breadcrumb: [Stages and activities, Understanding the playbook components, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
 
@@ -22,108 +22,27 @@ The questionnaire activity replaces the Collect User Data activity, but does not
 -   You don't need to run reports on the collected data,
 -   And you don't need to use the data outside of the playbook.
 
-If you already have a table to store the collected data, use the [User Form activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/user-form-activity.md).
+If you already have a table to store the collected data, use the [Record Form activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/user-form-activity.md).
 
 ## Roles and availability
 
-This activity is available as a common activity. Users with the admin, playbook.admin, or pd\_author can add this activity to a playbook.
+This activity is available as a common activity. Users with pd\_author can add this activity to a playbook.
 
-During a playbook run, you can use data definitions to potentially:
-
--   Collect a shipping address, then reference the address when generating a shipping label.
--   Ask the user "yes" or "no" questions, and determine subsequent activities based on the user's responses.
-
-## Common properties
-
-These properties are common to all to activities in Playbooks.
-
-Open the activity properties panel and configure your activity to add values for the following inputs. If the input value varies, use the pill-picker to show where to get the value. To learn more about the pill-picker, see [Dot-walking examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/dot-walking-examples.md).
-
-<table id="table_ajt_sr3_plb"><thead><tr><th>
-
-Input
-
-</th><th>
-
-Type
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Label
-
-</td><td>
-
-String
-
-</td><td>
-
-Title to display as activity and playbook card.
-
-</td></tr><tr><td>
-
-Description
-
-</td><td>
-
-String
-
-</td><td>
-
-Information to display about activity usage or outcome.
-
-</td></tr><tr><td>
-
-Run condition
-
-</td><td>
-
-Condition Builder
-
-</td><td>
-
-Conditions that must be met to run an activity or stage. You can use data from prior activities to build conditions.**Note:** Select **Show additional options** to see this field.
-
-</td></tr><tr><td>
-
-Start Rule
-
-</td><td>
-
-Choice
-
-</td><td>
-
-Under **Schedule** &gt; **Start Rule**, select a start rule for when your stage should start running:-   **When process starts**: Your stage starts running as soon as the playbook starts.
--   **After specific stages**: Your stage starts running after specified stage\(s\) have finished running.
-
-Under Schedule &gt; Start Rule, select a start rule for when your activity should start running:-   **When stage starts**: Your activity starts running as soon as its stage starts running. Your stage starts running when your playbook is triggered.
--   **After specific activities**: Your activity starts running after specified activities have finished running.
-
-</td></tr><tr><td>
-
-Start with delay
-
-</td><td>
-
-True/False
-
-</td><td>
-
-Option to wait for a duration of time before running an activity or stage. When enabled, this input displays the [Start with delay input properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/start-with-delay-properties.md).**Note:** Select **Show additional options** to see this field.
-
-</td></tr></tbody>
-</table>## Questionnaire
+## Questionnaire
 
 In the **Questionnaire** tab, you can:
 
--   Add questions for agents to respond to,
--   Edit existing questionnaires.
+-   Add and edit questions for agents to respond to
+
+    **Note:**
+
+    Editing a questionnaire changes the activity definition. Playbook executions already in progress continue to use the questionnaire as it was when the execution started.
+
+-   Control which user or user group has access to submit the questionnaire
 
 To learn more about adding or configuring questions, see [Create a new questionnaire](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/create-questionnaire.md).
+
+## Editing
 
 ## Required questions and skipping
 
@@ -131,50 +50,7 @@ Runtime users can skip a questionnaire activity. Required questions are validate
 
 To require that users complete a questionnaire, remove the skip action from the activity. Marking questions as required doesn't achieve this on its own.A questionnaire displays as read-only if it has no submit action. An action counts as a submit action when **Form fields required** is selected on it.
 
-## Inputs
-
-Many of these inputs are common to activities in Playbooks.
-
-After configuring the required inputs for your activity, you can also choose to configure additional inputs. In the side panel, select **Show additional options** to display these advanced inputs. For more information, see [Activity experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/activity-definitions.md).
-
-<table><thead><tr><th>
-
-Input
-
-</th><th>
-
-Type
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Assignment Group for this Process Step
-
-</td><td>
-
-Reference.Group \[sys\_user\_group\]
-
-</td><td>
-
-Assignment group allowed to perform this playbook activity. If you don't set any values for **Assignment Group** or **Assigned To**, any user can read and edit the collected data. The Assignment group and Assigned to fields limit who has access to do so. To specify only individual users, use the **Assigned To** field. The same users do not need to be specified in both fields.**Note:** By default, these fields are mapped to the **Assignment Group** and **Assigned To** fields of the trigger record. This means that users assigned to work on the parent record have access to submit, view and edit the collected data by default.
-
-</td></tr><tr><td>
-
-Assigned to this Process Step
-
-</td><td>
-
-Reference.User \[sys\_user\]
-
-</td><td>
-
-User allowed to perform this playbook activity. If you don't set any values for **Assignment Group** or **Assigned To**, any user can read and edit the collected data. The Assignment group and Assigned to fields limit who has access to do so. To specify only individual users, use the **Assigned To** field. The same users do not need to be specified in both fields.**Note:** By default, these fields are mapped to the **Assignment Group** and **Assigned To** fields of the trigger record. This means that users assigned to work on the parent record have access to submit, view and edit the collected data by default.
-
-</td></tr></tbody>
-</table>## Outputs
+## Outputs
 
 These outputs can provide data to other activities in your playbook. You can access this data as activity inputs when you configure your activity:
 

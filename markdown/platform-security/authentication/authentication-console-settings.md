@@ -7,7 +7,7 @@ release: brazil
 product: Authentication
 classification: authentication
 topic_type: reference
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 2
 keywords: [Authentication Console settings, identifier-first login settings, policy-based login, recent identifiers, SSO source-based IdP routing, debug logs]
 breadcrumb: [Authentication Console, Authentication, Access Management]

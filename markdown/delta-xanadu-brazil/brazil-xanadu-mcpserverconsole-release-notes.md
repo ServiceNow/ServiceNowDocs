@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-mcpserverconsole-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 7
+last_updated: "2026-10-08"
+reading_time_minutes: 8
 breadcrumb: [Products combined by family]
 ---
 
@@ -112,6 +112,36 @@ Zurich
 With this release, you can now create tools from additional categories like, Knowledge graphs, Subflow, Action, and REST APIs and Now Assist skills.
 
 
+ -   **[Create tools from additional capabilities for use with ServiceNow MCP clients](https://www.servicenow.com/docs/access?context=creating-tools-mcp-server&family=zurich&ft:locale=en-US)**
+
+With this release, Moveworks is shipping a Moveworks Quickstart Server. This server allows users to pilot access to upcoming capabilities like Knowledge graph, Subflow, Action, and scripted REST APIs for use with Moveworks MCP client, and ServiceNow Model Context Protocol Client application. These tools can only be added to Moveworks Quickstart Server.
+
+
+ -   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&family=zurich&ft:locale=en-US)**
+
+The ServiceNow AI Platform now brings you an AI native experience with three licensing tiers available:
+
+    -   Foundation: AI agents and skills to deliver insights
+    -   Advanced: AI agents and skills to boost productivity across relevant use cases
+    -   Prime: Act autonomously with all AI agents and skills, and create your own
+
+ -   **[Get started with the preconfigured Quickstart Server](https://www.servicenow.com/docs/access?context=exploring-mcp-server-console&family=zurich&ft:locale=en-US)**
+
+Learn about MCP Server Console and connecting MCP Server Console clients to a ServiceNow instance with the preconfigured Quickstart Server. The Quickstart Server includes tools for looking up and summarizing incident and case records.
+
+-   **[Create MCP servers](https://www.servicenow.com/docs/access?context=create-mcp-server&family=zurich&ft:locale=en-US)**
+
+Create MCP Server Console servers that expose different tools for different use cases, such as for HR or IT workflows, or for different MCP Server Console clients.
+
+-   **[Create tools from Now Assist skills](https://www.servicenow.com/docs/access?context=create-tool-mcp-server&family=zurich&ft:locale=en-US)**
+
+Create tools for MCP Server Console servers from Now Assist skills and configure which fields are exposed as tool inputs.
+
+-   **[Connect to MCP clients using an OAuth inbound integration](https://www.servicenow.com/docs/access?context=connect-mcp-server-client&family=zurich&ft:locale=en-US)**
+
+Create an OAuth inbound integration to use when configuring MCP Server Console clients to connect to an MCP Server Console server.
+
+
 </td></tr><tr><td>
 
 Australia
@@ -126,6 +156,10 @@ Explore MCP Server monitoring dashboard to review the performance and usage of t
 
 Explore an alternate way of OAth creation with Client Authorization option by integrating OAuth Client registration directly within the MCP Server Console. This feature eliminates the need to switch between different consoles.
 
+-   **[View record access and flow execution from MCP clients](https://www.servicenow.com/docs/access?context=agentic-usage-overview-dashboard&family=australia&ft:locale=en-US)**
+
+Monitor record access and flow executions from inbound agentic connections to MCP servers from the Agentic Usage Overview Dashboard.
+
 -   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&family=australia&ft:locale=en-US)**
 
 The ServiceNow AI Platform now brings you an AI native experience with three licensing tiers available:
@@ -133,6 +167,11 @@ The ServiceNow AI Platform now brings you an AI native experience with three lic
     -   Foundation: AI agents and skills to deliver insights
     -   Advanced: AI agents and skills to boost productivity across relevant use cases
     -   Prime: Act autonomously with all AI agents and skills, and create your own
+
+ -   **[Create tools from additional capabilities for use with ServiceNow MCP clients](https://www.servicenow.com/docs/access?context=creating-tools-mcp-server&family=australia&ft:locale=en-US)**
+
+With this release, you can now create tools from additional categories like, Subflow, Action, REST APIs, Knowledge graphs and Now Assist skills.
+
 
 </td></tr><tr><td>
 
@@ -350,6 +389,8 @@ MCP Server Console is available with activation of a Now Assist application. For
 **Note:** For patch compatibility, see the [Model Context Protocol Server listing](https://store.servicenow.com/store/app/6e521bf447713e9482f632c4f16d434e#versionSummary) in the ServiceNow Store.
 
 
+**Important:** MCP Server Console is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Australia
@@ -363,6 +404,8 @@ MCP Server Console is available with activation of a Now Assist application. For
 **Note:** For patch compatibility, see the [Model Context Protocol Server listing](https://store.servicenow.com/store/app/6e521bf447713e9482f632c4f16d434e#versionSummary) in the ServiceNow Store.
 
 
+**Important:** MCP Server Console is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Brazil
@@ -371,10 +414,12 @@ Brazil
 
 -   **Activation information**
 
-MCP Server Console is available with activation of a Now Assist application. For more information, see [Installing Generative AI Controller](https://www.servicenow.com/docs/access?context=installing-generative-ai-controller&family=brazil&ft:locale=en-US) and [Install Now Assist plugins](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&family=brazil&ft:locale=en-US).
+MCP Server Console is available with activation of a Now Assist application. For more information, see [Installing Generative AI Controller](https://www.servicenow.com/docs/access?context=installing-generative-ai-controller&family=brazil&ft:locale=en-US) and [Install plugins for ServiceNow Otto](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&family=brazil&ft:locale=en-US).
 
 **Note:** For patch compatibility, see the [Model Context Protocol Server listing](https://store.servicenow.com/store/app/6e521bf447713e9482f632c4f16d434e#versionSummary) in the ServiceNow Store.
 
+
+**Important:** MCP Server Console is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements

@@ -1,50 +1,58 @@
 ---
-title: Install Now Assist plugins
-description: Install Now Assist plugins to enable generative AI on your instance.
+title: Install plugins for ServiceNow Otto
+description: Install plugins for ServiceNow Otto to enable generative AI on your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/install-now-assist-feature-plugins.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-09-22"
 reading_time_minutes: 4
-keywords: [Install, Now Assist, plugins, Admin, console, Journey Checklist]
+keywords: [Install, ServiceNow Otto, plugins, Admin, console, Journey Checklist]
 breadcrumb: [Configuring Now Assist Admin features, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
-# Install Now Assist plugins
+# Install plugins for ServiceNow Otto
 
-Install Now Assist plugins to enable generative AI on your instance.
+Install plugins for ServiceNow Otto to enable generative AI on your instance.
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_nowassist\_admin.nsa\_admin
 
 Follow these instructions to get started with AI Admin Hub:
 
-1.  To get started with Now Assist, you must install at least one Now Assist application on your instance.
-2.  License any Now Assist software from the ServiceNow Store and install it through the Application Manager to access AI Admin Hub.
+1.  To get started with ServiceNow Otto, you must install at least one generative AI application on your instance.
+2.  License any ServiceNow generative AI software from the ServiceNow Store and install it through the Application Manager to access AI Admin Hub.
 3.  The AI Admin Hub console guides your implementation, starting with installation.
-4.  Check out the [Now Assist Journey Checklist for more information.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configuring-now-assist.md)
+4.  Check out the [ServiceNow Otto Journey Checklist for more information.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configuring-now-assist.md)
 
 ## About this task
 
-Now Assist applications often function interdependently. Now Assist Suites help reduce runtime errors and update issues by bundling compatible versions of Now Assist applications together during installation and updates.
+Deactivate switch in AI Admin Hub
 
-For more information about how Now Assist Suites work, see [Now Assist suite versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-suites-app-mgr.md).
+Note, that certain out-of-box skills are automatically enabled by default with plugin activation. You can turn off the toggle switch before installing the plugin to disable the default 'on' setting. With this feature you can prevent skills configured for default activation from auto-activating when installed or updated.
 
-For details about available Now Assist Suites and their compatibility with ServiceNow AI Platform versions, see [Now Assist Suite release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-now-assist-suite-release-notes.html).
+Explore 'View default-active skills' to find the list of skills currently activated by default. You can review them, activate or deactivate them individually. Hidden skills are displayed and accessible within the Additional Details section.
+
+\[Omitted image "activate-plugin-toggle.png"\] Alt text: Deactivate auto activation of skills with product plugins installation
+
+Generative AI applications often function interdependently. ServiceNow Otto Suites help reduce runtime errors and update issues by bundling compatible versions of generative AI applications together during installation and updates.
+
+For more information about how ServiceNow Otto Suites work, see [Now Assist suite versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-suites-app-mgr.md).
+
+For details about available ServiceNow Otto Suites and their compatibility with ServiceNow AI Platform versions, see [Now Assist Suite release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-now-assist-suite-release-notes.html).
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Settings**.
+1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Settings**.
 
     If you’re already in AI Admin Hub, select the **Settings** tab.
 
 2.  On the **Settings** page, select **Plugins**.
 
-    Plugins appear as cards. Review all Now Assist plugins on the **Available for you** tab. Plugins that you have already installed appear on the **Installed** tab.
+    Plugins appear as cards. Review all ServiceNow Otto plugins on the **Available for you** tab. Plugins that you have already installed appear on the **Installed** tab.
 
-    \[Omitted image "config-now-assist-plugin-card.png"\] Alt text: Example plugin card reads "Now Assist for Creator: Helping creators build with the power of Generative AI." Select Get plugins on the card to install it.
+    \[Omitted image "config-now-assist-plugin-card.png"\] Alt text: Example plugin card reads "ServiceNow Otto for Creator: Helping creators build with the power of generative AI." Select Get plugins on the card to install it.
 
 3.  If you don't already have a license for the plugin, request a license from the ServiceNow® Store.
 
@@ -58,15 +66,15 @@ For details about available Now Assist Suites and their compatibility with Servi
 
 4.  Navigate to **Admin** &gt; **Application Manager** &gt; **Available for you**.
 
-5.  Find and select the Now Assist application you want to install.
+5.  Find and select the ServiceNow Otto application you want to install.
 
 6.  Select **Install**.
 
-7.  In the **Select suite version** drop-down menu, select a Now Assist Suite version.
+7.  In the **Select suite version** drop-down menu, select a ServiceNow Otto Suite version.
 
-    The available suite versions are compatible with your instance. If you have other Now Assist applications already installed on your instance, they might require update for suite compatibility. For more information about Now Assist Suite compatibility, see [Now Assist suite versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-suites-app-mgr.md).
+    The available suite versions are compatible with your instance. If you have other generative AI applications already installed on your instance, they might require update for suite compatibility. For more information about ServiceNow Otto Suite compatibility, see [Now Assist suite versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-suites-app-mgr.md).
 
-    If you haven't installed a Now Assist Suite version yet, you have the option to choose **none** in the version selector. This option enables you to begin using Now Assist Suites at a time that works best for your organization.
+    If you haven't installed a ServiceNow Otto Suite version yet, you have the option to choose **none** in the version selector. This option enables you to begin using ServiceNow Otto Suites at a time that works best for your organization.
 
 8.  If you have available application customizations, use the **Customized ver.** drop-down menu to select which customization to use.
 
@@ -74,7 +82,7 @@ For details about available Now Assist Suites and their compatibility with Servi
 
 9.  Include demo data if it's desired and available.
 
-    1.  Select the option to install demo data next to each Now Assist application you want demo data for.
+    1.  Select the option to install demo data next to each ServiceNow Otto application you want demo data for.
 
         The option to install demo data isn't available for all applications.
 
@@ -86,15 +94,15 @@ For details about available Now Assist Suites and their compatibility with Servi
 
 11. Install the application now or schedule installation for a later time.
 
-<table><thead><tr><th align="left" id="d116369e444">
+<table><thead><tr><th align="left" id="d140906e461">
 
 Installation option
 
-</th><th align="left" id="d116369e447">
+</th><th align="left" id="d140906e464">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d116369e453">
+</th></tr></thead><tbody><tr><td id="d140906e470">
 
 **Install now**
 
@@ -104,7 +112,7 @@ Procedure
 2.  Select **Install**.
 
 
-</td></tr><tr><td id="d116369e477">
+</td></tr><tr><td id="d140906e494">
 
 **Install later**
 

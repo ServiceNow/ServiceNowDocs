@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [UI Test Script in Automated Test Framework \(ATF\), Use, Test Agent, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [UI Test Script in Automated Test Framework \(ATF\), Use, Test Agent, Build, AI Workflow Factory, Building applications]
 ---
 
 # Create a UI Test Script in Build Agent
@@ -81,4 +81,6 @@ After you complete these steps, you have created a UI Test Script that:
 -   Can be refined further through conversational feedback with Build Agent
 
 If the test fails, review the UI Test Script logs and screenshots to understand what went wrong, then use conversational feedback to update the test script.
+
+**Parent Topic:**[UI Test Script in Automated Test Framework \(ATF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/test-agent-ui-test-script-atf.md)
 

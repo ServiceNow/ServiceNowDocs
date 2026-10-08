@@ -1,6 +1,6 @@
 ---
 title: TuneUp Your Software Asset Management
-description: The TuneUp Your Software Asset Management \(SAM\) Accelerator provides guidance on maintaining and governing Software Asset Management health to optimize value.
+description: This Accelerator assesses common problem areas in Software Asset Management \(SAM\) and provides guidance on improving SAM health.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/tuneup-sw-asset-mgmt.html
 release: brazil
@@ -14,13 +14,11 @@ breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initi
 
 # TuneUp Your Software Asset Management
 
-The TuneUp Your Software Asset Management \(SAM\) Accelerator provides guidance on maintaining and governing Software Asset Management health to optimize value.
+This Accelerator assesses common problem areas in Software Asset Management \(SAM\) and provides guidance on improving SAM health.
 
-## Accelerator Overview
+## Accelerator overview
 
-TuneUp Your Software Asset Management provides Impact customers with an assessment of their current SAM implementation. This Accelerator includes  an  applied demonstration of SAM capabilities to reduce IT costs and limit various risks  through managing and optimizing software assets across the customer's lifecycle.  Customers obtain assistance for better insight into their SAM investment and  are provided leading practices on how to best increase adoption and usage.
-
-See [Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/c_SoftwareAssetMgmt.md) for additional information about SAM.
+TuneUp Your Software Asset Management \(SAM\) provides Impact customers with an automated assessment of common SAM problem areas and recommendations for addressing identified findings. The Accelerator helps customers understand opportunities for improvement within their SAM environment, reviews the most significant challenges, and shares leading practices to support remediation and optimization efforts.
 
 ## Package Availability
 
@@ -35,31 +33,33 @@ See [Software Asset Management](https://raw.githubusercontent.com/ServiceNow/Ser
     -   Provisions a temporary instance
     -   Runs SAM HealthScan portfolio
     -   Activates all SAM Professional plugins, including Software Asset Workspace
-    -   Activates ITAM Health Check application
--   **Customer coaching session \#1 \(up to 1.5 hrs\)**
-    -   Includes the following:
-        -   Overview of advanced SAM capabilities and features
-        -   Review HealthScan and Health Check findings
-        -   Provide leading practices guide and resources
--   **Customer coaching session \#2 \(optional upon customer request – up to 1 hr\)**
+    -   Activates the ITAM Health Check application
+-   **Customer coaching session \#1 \(up to 1.5 hours\)**
+
+    Includes the following:
+
+    -   Overview of advanced SAM capabilities and features
+    -   Review of HealthScan and Health Check findings
+    -   Leading practices guide and resources
+-   **Customer coaching session \#2 \(optional on customer request, up to 1 hour\)**
 
     Opportunity for Q&amp;A related to Software Asset Management
 
 -   **Output**
     -   30-day access to the temporary instance and Technical Accelerator Consultant with whom you met for any further questions or in-depth explorations
-    -   Copy of the Coaching Session Deck
+    -   Copy of the coaching session deck
 
 ## Requested customer resources
 
-|Customer Resource |Responsibilities |
-|------------------|-----------------|
-|Platform Owner \(Required\)|Responsible for the overall accountability of the ServiceNow platform. Provides leadership and oversight to the System Administrators, ensures team alignment to business strategy and the ServiceNow roadmap, and is actively involved in the overarching governance of the platform.|
-|System Administrator\(s\) \(Required\)|Maintains the stability and usability of the ServiceNow platform by performing application maintenance, managing support for cases related to ServiceNow applications, and contributing to ServiceNow software releases by delivering configuration tasks and features.|
-|CMDB Administrator\(s\) \(Required\) |Subject matter expert responsible for maintaining the CMDB.|
-|SAM Administrator\(s\) \(Recommended\)|Subject matter expert responsible for managing SAM.|
-|Process Owner\(s\) \(Recommended\)|A senior leader within each business unit for each major process or service \(e.g., incident, change, employee onboarding\) who is accountable for ensuring the process is fit for purpose.|
-|Service Manager\(s\) \(Recommended\)|Subject matter expert responsible for managing the applicable service.|
-|Trusted Service Partners \(Recommended\)|Attends ServiceNow Impact Accelerator coaching session\(s\) to understand leading practices and potentially support customer going forward.|
+|Customer resource|Responsibilities|
+|-----------------|----------------|
+|Platform Owner \(Required\)|Holds overall accountability for the ServiceNow platform. Provides leadership and oversight to the System Administrators and ensures team alignment to business strategy and the ServiceNow roadmap. Actively involved in the overarching governance of the platform.|
+|System Administrator\(s\) \(Required\)|Maintains the stability and usability of the ServiceNow platform by performing application maintenance and managing support for cases related to ServiceNow applications. Contributes to ServiceNow software releases by delivering configuration tasks and features.|
+|CMDB Administrator\(s\) \(Required\)|Acts as the subject matter expert responsible for maintaining the CMDB.|
+|SAM Administrator\(s\) \(Recommended\)|Acts as the subject matter expert responsible for managing SAM.|
+|Process Owner\(s\) \(Recommended\)|Serves as a senior leader within each business unit for each major process or service \(for example, incident, change, employee onboarding\). Accountable for ensuring the process is fit for purpose.|
+|Service Manager\(s\) \(Recommended\)|Acts as the subject matter expert responsible for managing the applicable service.|
+|Trusted Service Partners \(Recommended\)|Attends ServiceNow Impact Accelerator coaching session\(s\) to understand leading practices and potentially support the customer in the future.|
 
 ## Requested Information/Access
 
@@ -67,7 +67,7 @@ See [Software Asset Management](https://raw.githubusercontent.com/ServiceNow/Ser
 
 ## Exclusions
 
-This Impact Accelerator in its entirety or portions of the Impact Accelerator Activities may not be available to customers in certain restricted environments, to self-hosted customers, or in other restricted environments, or to managed service providers, except for their internal  use.
+This Impact Accelerator in its entirety or portions of the Impact Accelerator Activities may not be available to customers in certain restricted environments or to self-hosted customers. Managed service providers can use this Impact Accelerator for their internal use only.
 
-ServiceNow resources are not responsible for implementing recommendations on a customer’s sub-production or production instances.
+ServiceNow resources are not responsible for implementing recommendations on a customer’s non-production or production instances.
 

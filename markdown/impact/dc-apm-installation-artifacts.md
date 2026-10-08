@@ -1,5 +1,5 @@
 ---
-title: Review APM artifacts
+title: Review Enterprise Architecture artifacts
 description: The data collection app contains a pre-build data metric structure for the ServiceNow Performance/Platform Analytics application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/dc-apm-installation-artifacts.html
@@ -7,10 +7,10 @@ release: brazil
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Impact Value Management Data Collection for APM, Enable data collection for Value Management, Configuring Impact, Impact]
+breadcrumb: [Impact Value Management Data Collection for Enterprise Architecture, Enable data collection for Value Management, Guided Setup, Configuring Impact, Impact]
 ---
 
-# Review APM artifacts
+# Review Enterprise Architecture artifacts
 
 The data collection app contains a pre-build data metric structure for the ServiceNow Performance/Platform Analytics application.
 
@@ -30,13 +30,13 @@ The app contains the following artifacts for each of the above-specified artifac
 
 |Artifact type|Name|
 |-------------|----|
-|Data Collection Job|Impact VM – APM - Monthly Data Collection|
-|Data Collection Job|Impact VM – APM - Historical Data Collection|
-|Dashboard|Impact VM - APM|
+|Data Collection Job|Impact VM – Enterprise Architecture - Monthly Data Collection|
+|Data Collection Job|Impact VM – Enterprise Architecture - Historical Data Collection|
+|Dashboard|Impact VM - Enterprise Architecture|
 |Widget|% of Business Capability Model with a Major Gap|
 |Widget|Avg. application data certification %|
 |Widget|\# of application retired|
-|Widget|Legacy APM systems annual run-rate|
+|Widget|Legacy Enterprise Architecture systems annual run-rate|
 |Widget|% of applications with indicator score|
 |Widget|\# of application migrated|
 |Formula|Impact VM - % of Business Capability Model with a Major Gap|
@@ -44,9 +44,9 @@ The app contains the following artifacts for each of the above-specified artifac
 |Automated|Impact VM - \# of Business Capabilities|
 |Manual|Impact VM - Avg. application data certification %|
 |Automated|Impact VM - \# of applications retired|
-|Manual|Impact VM - Legacy APM systems annual run-rate|
+|Manual|Impact VM - Legacy Enterprise Architecture systems annual run-rate|
 |Manual|Impact VM - % of applications with indicator score|
 |Automated|Impact VM - \# of applications migrated|
 
-**Parent Topic:**[Impact Value Management Data Collection for APM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/data-collection-apm.md)
+**Parent Topic:**[Impact Value Management Data Collection for Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/data-collection-apm.md)
 

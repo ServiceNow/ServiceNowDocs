@@ -25,7 +25,7 @@ Two separate chains of tables both hang off Business Organization, and it's easy
 
 Healthcare location and healthcare organization aren't part of the SMF extension hierarchy—they're a parallel layer that connects to it only through Business Organization and the org-location association. A case never references a healthcare organization or healthcare location directly.
 
-Both chains are healthcare's take on the same Service Model Foundation \(SMF\) framework used across other industries. For the platform-wide picture, see .
+Both chains are healthcare's take on the same Service Model Foundation \(SMF\) framework used across other industries. For the platform-wide picture, see [Service Model Foundation overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-industry-data-model.md).
 
 ## What to read next
 

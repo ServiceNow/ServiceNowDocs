@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/rn-summary-localization.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-25"
+last_updated: "2026-10-08"
 reading_time_minutes: 4
 breadcrumb: [Release notes summaries for Brazil features, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
@@ -107,17 +107,6 @@ CRM Outlook Add-in
 -   ****
 
 The CRM Outlook Add-in is available in Arabic, Brazilian Portuguese, Chinese \(Simplified and Traditional\), Czech, Dutch, English, Finnish, French \(France and Canada\), German, Hebrew, Hungarian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Russian, Spanish, Swedish, Thai, and Turkish. Language packs are installed automatically when the corresponding ServiceNow base system language plugin is active.
-
-
-</td></tr><tr><td>
-
-Clone Admin Console
-
-</td><td>
-
--   ****
-
-Clone Admin Console follows the language settings configured on your instance. Clone Admin Console labels, messages, and Help content reflect the language preferences set for each user.
 
 
 </td></tr><tr><td>
@@ -243,6 +232,17 @@ Certain Product Catalog Management fields, such as product offering name and des
 
 </td></tr><tr><td>
 
+Sales CRM for Telecommunications
+
+</td><td>
+
+-   ****
+
+Sales Customer Relationship Management does not include dedicated language packs. Language support relies on the base system language plugins active on your instance.
+
+
+</td></tr><tr><td>
+
 Service Operations Workspace
 
 </td><td>
@@ -260,7 +260,7 @@ ServiceNow Otto for Virtual Agent
 
 -   ****
 
-Dynamic Translation is supported for non-streaming ServiceNow Otto for Virtual Agent conversations. For more information, see [Dynamic Translation in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/dynamic-translation-va.md).
+Dynamic Translation is supported for non-streaming ServiceNow Otto for Virtual Agent conversations. For more information, see .
 
 
 </td></tr><tr><td>

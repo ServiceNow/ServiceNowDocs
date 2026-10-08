@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-industrialconnectedworkforcemobileexperience-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 5
+last_updated: "2026-10-08"
+reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
 
@@ -115,7 +115,46 @@ Australia
 
 </td><td>
 
--   **[Mobile Task Management](https://www.servicenow.com/docs/access?context=using-icw-mobile-experience&family=australia&ft:locale=en-US)**
+-   **[Centerline audit tasks on mobile](https://www.servicenow.com/docs/access?context=centerline-audit-task-mobile&family=australia&ft:locale=en-US)**
+
+Run centerline audits from the shop floor instead of on paper. Open a centerline audit task on your mobile device, move between setting groups in any order, and enter the measured value for each setting to see immediately whether it's within specification. Before you start a task, you can view and edit its details, including the active material.
+
+-   **[Setting definition details during an audit](https://www.servicenow.com/docs/access?context=open-setting-definition-details-mobile&family=australia&ft:locale=en-US)**
+
+Open the full specification for a setting definition while you run a centerline audit, without leaving the audit.
+
+-   **[Automatic deviations for out-of-specification settings](https://www.servicenow.com/docs/access?context=create-deviation-from-centerline-task-mobile&family=australia&ft:locale=en-US)**
+
+Track non-compliant settings as soon as an audit ends. When you submit a centerline audit task, a deviation is created automatically for each parameter that's outside its specification limits, with no manual deviation entry required.
+
+-   **[Sub-activity list for work set tasks](https://www.servicenow.com/docs/access?context=execute-work-set-task-mobile&family=australia&ft:locale=en-US)**
+
+Execute a work set task from a single screen. When you open a work set task, the Tasks tab lists its Industrial Guided Tasks, actions, centerline tasks, deviations, and root cause analyses in execution order, so you don't need to open a related list. Each card shows the short description, task type, state, assigned user, equipment or functional location, planned start, and line status and LOTO\(TO\) level when set. Cards for inactive sub-activities show fewer details. Select a card to open the sub-activity.
+
+-   **[Line status and LOTO\(TO\) level in the action header](https://www.servicenow.com/docs/access?context=action-form-mobile&family=australia&ft:locale=en-US)**
+
+See the safety context for an action before you perform it. When an action has a LOTO\(TO\) level or line status, those values appear in the header of the action record.
+
+
+ -   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&family=australia&ft:locale=en-US)**
+
+The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
+
+    -   Foundation: AI basics to deliver insights
+    -   Advanced: AI to boost productivity across relevant use cases
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+
+-   **[Contextualize an external document using AI Enhanced recommended actions for ICW Mobile](https://www.servicenow.com/docs/access?context=use-ai-enhanced-ra-icw-mobile&family=australia&ft:locale=en-US)**
+
+Contextualize an external document to get an explanation of why the document is relevant to the selected deviation.
+
+-   **[Generate an action plan using AI Enhanced recommended actions for ICW Mobile](https://www.servicenow.com/docs/access?context=generate-action-plan-ai-enhanced-ra-icw-mobile&family=australia&ft:locale=en-US)**
+
+Create an action plan to help resolve your ICW deviation using relevant documentation.
+
+
+ -   **[Mobile Task Management](https://www.servicenow.com/docs/access?context=using-icw-mobile-experience&family=australia&ft:locale=en-US)**
 
 Manage all task‑related activity from intuitive mobile views tailored for shop floor workers to improve visibility and responsiveness during operations.Clear status indicators and color cues help in identifying critical or overdue tasks, improving responsiveness during operations.
 
@@ -354,6 +393,8 @@ Australia
 
 Install Industrial Connected Workforce Mobile Experience as part of the ICW Foundational SKU. Install ICW Mobile by requesting it from the ServiceNow Store. The application is optimized for latest iOS and Android devices and may require a Mobile UI Framework dependency provided by the ICW suite. You can request ICW Mobile from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
 
+
+**Important:** ICW Mobile is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 

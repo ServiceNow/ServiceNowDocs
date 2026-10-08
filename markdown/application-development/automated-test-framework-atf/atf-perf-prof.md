@@ -41,6 +41,8 @@ You can execute performance profiling on any of your ATF tests or suites. For ea
 
 [Accelerate ATF tests failure resolution]()
 
+[ATF Health Check]()
+
 ## Execute performance profiling
 
 Execute performance profiling on a test or a suite for performance testing on your instance. You can also detect performance degradation when you upgrade your instance and then investigate and fix the issues.

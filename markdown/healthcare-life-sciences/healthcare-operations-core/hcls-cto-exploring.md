@@ -8,7 +8,7 @@ product: Healthcare Operations Core
 classification: healthcare-operations-core
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Healthcare Operations Core, Healthcare Operations, Healthcare and Life Sciences]
 ---
 
@@ -56,12 +56,14 @@ The following applications are available for use with Healthcare Operations Core
 |-------|-------|-----|
 |Provides a framework to expand operational cases to supporting services departments.|[Healthcare Operations Case overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/healthcare-operations-core/hcls-cto-hco-case.md)|Admin|
 |Gain visibility into operational cases that are related to your care team.|[Care Team Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/hcls-cto-care-team-portal.md)|Care Team members|
+|Create support requests conversationally, by chat or by phone, instead of filling out forms.|[AI in Care Team Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/healthcare-operations-core/hco-otto-landing.md)|Care Team members, Admin|
 
 ## What to explore next
 
 To learn more about configuring and using Healthcare Operations Core, see:
 
 -   [Configuring Healthcare Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/healthcare-operations-core/hcls-cto-configuring.md)
--   [Navigate the Care Team Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/hcls-cto-using-portal.md)
+-   [Using Care Team Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/care-team-portal-using.md)
+-   [Create support requests with ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/healthcare-operations-core/hco-otto-create-requests.md)
 -   [Healthcare Operations Core Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/healthcare-operations-core/hcls-cto-reference.md)
 

@@ -24,9 +24,6 @@ Role required: sn\_dex.engineer or sn\_dex.admin
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-    -   AMER \(Americas\): `itomcnc-prod-gateway-amer.sncapps.service-now.com:443`
-    -   EMEA \(Europe\): `itomcnc-prod-gateway-emea.sncapps.service-now.com:443`
-    -   APAC \(Asia Pacific\): `itomcnc-prod-gateway-apac.sncapps.service-now.com:443`
 2.  In the primary navigation pane, select the Devices icon \(\[Omitted image "icon-devices.png"\] Alt text: Devices icon\).
 
 3.  Select the device for which you want to terminate a process.

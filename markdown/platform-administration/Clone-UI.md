@@ -34,26 +34,11 @@ The **Request Clone** button in the upper right allows you to initiate a new clo
 
 ## Instance Overview
 
-The Instance Overview tab provides a high-level view of your clone environment and instance relationships. This page displays last-cloned timestamps for each instance, enabling you to quickly identify stale environments and prioritize update activities.
+The Instance Overview tab lists all your instances and the date each instance was last cloned. Unlike Clone Activity, which lists every clone request, Instance Overview shows each instance only once, with the last clone date in a column. Use this page to quickly identify stale environments and prioritize refreshes.
 
 ## Help
 
-The Help tab provides access to Now Assist for Clone and curated clone help articles.
-
-**Now Assist for Clone**
-
-Now Assist for Clone allows you to ask clone questions in natural language and receive answers based on clone documentation and knowledge base articles. This AI-powered agent is available within the Clone Admin Console if you have a Now Assist license.
-
-**Requirements**
-
--   Now Assist license activated on your instance
--   Australia Patch 5 or later
-
-**Access Now Assist for Clone**
-
-If you have an active Now Assist license, the Now Assist icon appears in the top navigation of the Clone Admin Console. Select the icon to open the Now Assist panel and ask clone-related questions.
-
-**Important:** If you purchase a Now Assist license after initially installing the Clone Admin Console, you must reinstall the Clone application from the store to enable the Clone FAQ Agent skill. This is a one-time step that loads the clone-specific skill into Now Assist.
+The Help tab provides access to Now Assist for Clone, links to clone-related knowledge base articles, and the installed version of the Clone Admin Console app. Now Assist for Clone is available starting with the Australia Patch 2 release. For more information, see [Clone help resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/clone-help-resources.md).
 
 ## Configuration
 

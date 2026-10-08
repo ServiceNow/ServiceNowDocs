@@ -24,5 +24,5 @@ By default, the system uses the following schedule to archive common logs:
 |Log \[syslog\]|Every week|8|Rotation|
 |Transaction Log \[syslog\_transaction\]|Every week|8|Rotation|
 
-**Note:** The Email \[sys\_email\] table is not managed using table rotation or extension. Instead, use the Email retention plugin to archive and destroy email records. By default, email records are archived after one year and destroyed after an additional year in the archive.
+**Note:** The Email \[sys\_email\] table is not managed using table rotation or extension. Instead, use the [Email retention](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/email-retention.md) plugin to archive and destroy email records. By default, email records are archived after one year and destroyed after an additional year in the archive.
 

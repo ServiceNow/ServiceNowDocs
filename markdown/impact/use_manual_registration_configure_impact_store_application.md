@@ -16,6 +16,8 @@ Manual registration is generally used by advanced users or to obtain configurati
 
 ## Before you begin
 
+**Important:** Navigation to reach this step differs depending on whether you're using the [Impact Setup Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/use-impact-setup-hub.md), where this is reached by toggling **Set up manually** on the Initiate registration page, or the legacy [Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/guided-setup-impact-in-app.md). See whichever one applies to you for the exact path.
+
 Refer to [Configuring Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/configuring-impact-platform.md) for prerequisite configuration steps.
 
 **Important:**
@@ -32,7 +34,7 @@ If the automated registration failed, contact your Impact Squad, as the manual c
 
     Use Impact Guided Setup to follow a sequence of tasks that help you configure the Impact Store Application on your ServiceNow instance.
 
-3.  [Use Guided Setup to onboard users to the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/onboard_users_impact_store_application.md)
+3.  [Assign roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/assign-roles.md)
 
     Onboard new and existing users to the Impact Store Application.
 
@@ -46,7 +48,7 @@ If the automated registration failed, contact your Impact Squad, as the manual c
 
 6.  [Run your first scan with the Scan Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/run-scan-engine.md)
 
-    An initial full Scan Engine completion is required to set a baseline from a series of tasks performed that tune the instance environment to complete future scans quickly and efficiently.
+    An initial full scan completion is required to set a baseline that tune the instance environment to complete future scans quickly and efficiently.
 
 
 Impact

@@ -31,7 +31,7 @@ The Asset operations view includes the following list:
 -   Contracts
 
     -   Obligations: View the details of obligation records to fulfill the responsibilities specified in the contract. For more information, see [Create an obligation record in the Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/create-obligation-records-ham.md).
-    -   Obligation tasks: View the details of obligation tasks associated with obligation records. For more information, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/create-obligation-task-ham.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/create-obligation-task-ham.md).
+    -   Obligation tasks: View the details of obligation tasks associated with obligation records. For more information, see [Create an ad hoc obligation task in Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/create-obligation-task-ham.md).
     **Note:** These options are available if you have HAM integration with the Contract Management Pro application. For more information, see [Hardware Asset Management integration with Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/ham-cm-pro-integration.md).
 
 -   Hardware asset normalization

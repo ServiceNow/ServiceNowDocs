@@ -20,8 +20,12 @@ The ServiceNow® Collaborative Work Management application centralizes tasks, do
 The ServiceNow® SPM Enterprise-Wide Deployment application provides data partitioning capabilities for Strategic Portfolio Management \(SPM\) tables that enable organizations to separate and control record visibility across functions such as departments and business units. See the following sections for release notes by version.
 -   **[Extended Security for Enterprise-Wide Deployment release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/extended-security-ewd-rn.md)**  
 The ServiceNow® Extended Security for Enterprise-Wide Deployment application provides additional security for Enterprise-Wide Deployment that extends partition access controls across APIs, agentic workflows, indirect references, and unpartitioned parent tables. See the following sections for release notes by version.
+-   **[Export to PowerPoint release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/export-to-ppt-rn.md)**  
+The ServiceNow® Export to PowerPoint for Strategic Portfolio Management add-in generates and downloads project status reports from your instance as a Microsoft PowerPoint file for sharing with stakeholders and teams. See the following sections for release notes by version.
 -   **[Goal Framework for SPM release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/goal-framework-for-spm-rn.md)**  
 The ServiceNow® Goal Framework for SPM application enables you to automate the actual value of your targets for the goals that are defined using the ServiceNow® Goal Framework application. See the following sections for release notes by version.
+-   **[Goal Framework release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/goal-framework-rn.md)**  
+The ServiceNow® Goal Framework application enables your business to create goals, set targets, and evaluate progress toward organizational plans and business outcomes.
 -   **[MCP for Strategic Portfolio Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/mcp-for-spm-rn.md)**  
 The ServiceNow® MCP for Strategic Portfolio Management application connects any MCP-compatible AI assistant to your ServiceNow instance. Strategy and PMO leaders, portfolio managers, and project managers can access live SPM data through natural language. See the following sections for release notes by version.
 -   **[Portfolio Planning release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/portfolio-planning-rn.md)**  
@@ -30,6 +34,8 @@ The ServiceNow® Portfolio Planning application helps you enhance traditional pr
 The ServiceNow® Project Portfolio Management application combines innovation, demand, project, program, resource, and portfolio management into a single suite. Teams can plan and execute work using a waterfall, Agile, or hybrid methodology.
 -   **[Project Workspace release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/spm-project-workspace-rn.md)**  
 The ServiceNow® Project Workspace application provides an interactive UI to enable project managers to define, plan, track, and monitor projects from a single location.
+-   **[Retail Strategic Portfolio Management Suite release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/spm-retail-rn.md)**  
+The ServiceNow® Retail Strategic Portfolio Management Suite application helps retail organizations plan, manage, and track store life cycle projects such as new store openings, closures, refurbishments, relocations, and technology refreshes.
 -   **[Resource Management Workspace release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/resource-management-workspace-rn.md)**  
 The ServiceNow® Resource Management Workspace application helps organizations optimize resource allocation, manage capacity, and align workforce planning with project demands.
 -   **[Strategic Planning release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/strategic-planning-rn.md)**  

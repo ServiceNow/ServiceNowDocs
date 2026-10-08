@@ -47,6 +47,8 @@ A customer order decomposes into the following hierarchy:
 
 This structure maps directly to TM Forum standards: Service Catalog Management \(TMF633\), Product Order \(TMF620\), and Service Order \(TMF641\).
 
+\[Omitted image "mmasset0022313-97.png"\] Alt text: Infographic showing the order decomposition structure from customer order through product, service, and resource orders. Details are described in the surrounding text.
+
 ## Benefits
 
 -   Non-catalog and variant products decompose automatically without new catalog entries.

@@ -9,7 +9,7 @@ classification: servicenow-studio-classic
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Developing your application, Building applications]
+breadcrumb: [Build, AI Workflow Factory, Building applications]
 ---
 
 # ServiceNow Studio

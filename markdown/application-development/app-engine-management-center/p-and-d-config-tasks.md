@@ -8,8 +8,8 @@ product: App Engine Management Center
 classification: app-engine-management-center
 topic_type: reference
 last_updated: "2026-09-10"
-reading_time_minutes: 5
-breadcrumb: [Configure Pipelines and Deployments, Configure, App Engine Management Center, Governing app development, Building applications]
+reading_time_minutes: 6
+breadcrumb: [Configure Pipelines and Deployments, Configure, App Engine Management Center, Run, AI Workflow Factory, Building applications]
 ---
 
 # Pipelines and Deployments configuration tasks
@@ -169,4 +169,22 @@ Configure the controller instance in your non-production instances
 For more information, see [Configure properties to integrate Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/configure-properties-integrate-cm.md).
 
 </td></tr></tbody>
-</table>
+</table>-   **[Configure environment credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/create-pipeline-credentials.md)**  
+Configure credentials in your production instance so that the flows used by the App Engine Management Center \(AEMC\) can access different instances.
+-   **[Configure your pipeline environments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/config-pipeline-environments.md)**  
+Set up your app development production and non-production environments \(for example, development, test, and/or staging\) by adding the URLs and credentials used to access each instance.
+-   **[Configure your pipeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/config-pipeline.md)**  
+Configure your app development pipeline so that your administrator can quickly move an application from one environment to another.
+-   **[Configure your controller instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/config-controller-instance.md)**  
+You must identify one of the instances in your app development pipeline as the controller instance. All communication between the instances in your pipeline, including the deployment order for applications in the pipeline, takes place in the controller instance.
+-   **[Add ATF and instance scan suites for testing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/add-atf-instance-scan-suite-testing.md)**  
+Add your customized test suites as part of an application deployment in addition to the instance scan and Automated Test Framework \(ATF\) testing suites that are standard in AEMC.
+-   **[Enable Automated Test Framework \(ATF\) properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/enable-atf-properties.md)**  
+Pipelines and Deployments includes an Application Test Framework \(ATF\) suite called the Application Deployment Test Suite. Two system properties control whether the test runs automatically whenever an app is deployed to a Test environment.
+-   **[Enable Change Management integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/enable-change-management-integration.md)**  
+Enable Change Management integration with AEMC so that deployments through the pipeline to the production environment are automatically scheduled based on the Change request state and planned change window.
+-   **[Configure properties to integrate Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/configure-properties-integrate-cm.md)**  
+Configure predefined properties through the Pipelines and Deployments Guided Setup to tailor your Change Management and AEMC integration to your company's needs. Configuring these properties is optional.
+
+**Parent Topic:**[Configure Pipelines and Deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/config-p-and-d.md)
+

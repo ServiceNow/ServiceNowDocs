@@ -16,7 +16,7 @@ Build a custom application to meet the business needs of your organization. Choo
 
 <table id="table_y5t_rg5_gbc" class="nav-card"><tbody><tr><td>
 
-[Agentic development and Build Agent \[Omitted image "bus-ai-sparkle.svg"\] Alt text: Expedite app development and enhance custom applications with the AI tools available on the ServiceNow AI Platform.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/use-ai-capabilities-in-custom-apps.md)
+[Agentic development and Build Agent \[Omitted image "bus-ai-sparkle.svg"\] Alt text: Expedite app development and enhance custom applications with the AI tools available on the ServiceNow AI Platform.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/build-ai-workflow-factory-prime.md)
 
 </td><td>
 

@@ -1,6 +1,6 @@
 ---
 title: Manage opportunity records using an AI interface
-description: Retrieve, update, create, and delete opportunity records and related CRM data from ServiceNow Otto and an MCP client using plain language.
+description: Retrieve, create, and update opportunity records and related CRM data from ServiceNow Otto and an MCP client using plain language.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/manage-opportunity-records.html
 release: brazil
@@ -12,7 +12,7 @@ breadcrumb: [Opportunity Management, Sales automation apps, Use, Sales Customer 
 
 # Manage opportunity records using an AI interface
 
-Retrieve, update, create, and delete opportunity records and related CRM data from ServiceNow Otto and an MCP client using plain language.
+Retrieve, create, and update opportunity records and related CRM data from ServiceNow Otto and an MCP client using plain language.
 
 ## Before you begin
 
@@ -20,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-All changes go through the same server-side business rules, validation scripts, and access controls that apply on the standard form. Every create, update, or delete action requires explicit confirmation before the agent commits.
+All changes go through the same server-side business rules, validation scripts, and access controls that apply on the standard form. Every create or update action requires explicit confirmation before the agent commits.
 
 ## Procedure
 
@@ -228,11 +228,11 @@ Examples by record type:
     -   For create operations, the agent asks for missing mandatory fields one at a time.
     -   For update operations, it resolves ambiguous record references by asking you to select from a list.
     -   Field-type validations run before any change is committed; if a value is invalid, the agent returns an error and suggests a correction.
-4.  For create, update, and delete operations: review the confirmation card and confirm to commit.
+4.  For create and update operations: review the confirmation card and confirm to commit.
 
-    **Note:** The confirmation card shows what will change before anything is saved or deleted. For update operations, it shows the old and new value for each field. Retrieve operations return results directly without a confirmation step.
+    **Note:** The confirmation card shows what will change before anything is saved. For update operations, it shows the old and new value for each field. Retrieve operations return results directly without a confirmation step.
 
-    The agent performs the operation and returns the result. For create operations, it returns the record name and a link. For delete operations, it confirms the record was removed. If you don't have the required access, the agent returns a permission denied message.
+    The agent performs the operation and returns the result. For create operations, it returns the record name and a link. If you don't have the required access, the agent returns a permission denied message.
 
 
 **Related topics**  

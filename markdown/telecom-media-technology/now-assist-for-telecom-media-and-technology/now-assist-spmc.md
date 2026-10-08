@@ -20,20 +20,20 @@ Use the ServiceNow® ServiceNow Otto for Telecommunications, Media, and Technolo
 
 ## Get started
 
-<table id="table_zzm_tc2_kbc" class="nav-card"><tbody><tr><td>
+ServiceNow Otto for TMT combines a common configuration and licensing layer with generative AI skills and agentic workflows purpose-built for each application.
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-exploring.md)
+|Application|Value|
+|-----------|-----|
+|[Customer Service Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/ai-cspm-landing.md)|Summarize service problem cases, generate resolution notes, and summarize test results with generative AI skills.|
+|[Customer Success Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-otto-cs-landing.md)|Automate customer success work with generative AI skills and agentic workflows.|
+|[Technology Product Support Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/tech-product-support-case-otto-about.md)|Summarize test results for technology product support cases with generative AI skills.|
+|[Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/assurance-workflows-otto-about.md)|Generate executive insight briefs and success play recommendations with generative AI skills.|
+|[Sales CRM for Telecommunications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/ai-in-sales-crm-for-telecommunications.md)|Automate order enrichment and fulfillment task suggestions with AI agents.|
+|[Service Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/now-assist-agenticworkflows-se.md)|Manage the initiation and early stages of the Service Exchange registration process with generative AI skills and agentic workflows.|
+|[Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/ai-in-telecommunication-network-inventory.md)|Summarize remote hands requests with generative AI skills.|
+|[Telecommunications Customer 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/ai-customer-360.md)|Generate AI-driven customer insights and recommendations.|
 
-</td><td>
-
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-configuring.md)
-
-</td><td>
-
-[Use\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Use generative AI capabilities offered by ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spm-using.md)
-
-</td></tr></tbody>
-</table>**Important:**
+**Important:**
 
 -   Not all model providers are available for customers with in-country SKUs, and some AI products/features are currently unavailable for in-country customers. For more information, see the [KB1584492](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1584492) article in the Now Support Knowledge Base. Be sure to check for model provider availability updates in future releases.
 -   Some AI products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Be sure to check for availability updates in future releases.

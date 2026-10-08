@@ -22,6 +22,7 @@ Ensure that the following plugins are installed on your instance:
 
 -   Discovery \(com.snc.discovery\)
 -   Pattern Designer Enhancements \(com.sn\_itom\_pde\)
+-   **Pattern Allowlist Generator** available as part of Agent Client Collector for Visibility Content 1.5.0 \(202512\)
 
 Role required: discovery\_admin or agent\_client\_collector\_admin
 

@@ -10,7 +10,7 @@ topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist, Now Assist for Creator, Install Now Assist for Creator]
-breadcrumb: [Configure, ServiceNow Otto for Creator, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Configure, ServiceNow Otto for Creator, Build, AI Workflow Factory, Building applications]
 ---
 
 # ServiceNow Otto for Creator \[now.assist.creator\] role
@@ -32,4 +32,6 @@ None.
 ## Special considerations
 
 None.
+
+**Parent Topic:**[Configuring ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/now-assist-for-creator/configuring-now-assist-for-creator.md)
 

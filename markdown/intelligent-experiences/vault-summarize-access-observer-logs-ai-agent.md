@@ -77,7 +77,7 @@ Allowed user roles The specific user roles that can access this AI agent.
 
 </td><td>
 
-snc\_internal, snc\_internal
+Not defined.
 
 </td></tr><tr><td>
 

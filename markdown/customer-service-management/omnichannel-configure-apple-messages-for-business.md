@@ -48,3 +48,5 @@ Complete these tasks to implement [Conversational Integration with Apple Message
 
 **Note:** An admin can configure Rich Controls for Apple Messages. This enables setting up interactive controls for images, appointment pickers, and Apple Pay integration.
 
+See [Integrating Apple Messages for Business with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/integrate-amb-with-csm.md).
+

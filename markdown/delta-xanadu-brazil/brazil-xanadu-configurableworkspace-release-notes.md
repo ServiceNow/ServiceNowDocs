@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-configurableworkspace-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 14
+last_updated: "2026-10-08"
+reading_time_minutes: 18
 breadcrumb: [Products combined by family]
 ---
 
@@ -169,7 +169,12 @@ Yokohama
 
 </td><td>
 
--   **Favorite form templates**
+-   **[AI filter assist](https://www.servicenow.com/docs/access?context=use-ai-filter-assist&family=yokohama&ft:locale=en-US)**
+
+Convert everyday language into an encoded query with AI filter assist.
+
+
+ -   **Favorite form templates**
 
 See your favorite form templates that you use most often in the Templates list.
 
@@ -277,7 +282,12 @@ Zurich
 
 </td><td>
 
--   **Coral theme**
+-   **[AI filter assist](https://www.servicenow.com/docs/access?context=use-ai-filter-assist&family=zurich&ft:locale=en-US)**
+
+Convert everyday language into an encoded query with AI filter assist.
+
+
+ -   **Coral theme**
 
 Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
 
@@ -396,6 +406,153 @@ Australia
 -   **[Track record list changes](https://www.servicenow.com/docs/access?context=use-ai-list-tracker&family=australia&ft:locale=en-US)**
 
 Get an AI-generated summary of recent changes made to a list without manually reviewing each record.
+
+
+ -   **[AI filter assist](https://www.servicenow.com/docs/access?context=use-ai-filter-assist&family=australia&ft:locale=en-US)**
+
+Convert everyday language into an encoded query with AI filter assist.
+
+
+ -   **Session tabs**
+
+The following UI changes have been made to session tabs:
+
+    -   The icon to close a tab displays on hover only.
+    -   Overflow text on a tab is blurred instead of displaying an ellipsis.
+    -   Overflow tabs are displayed as a **More** tab with a split button.
+-   **Lists for mobile devices**
+
+List design and behavior adapt to mobile devices to help improve usability.
+
+-   **Forms**
+
+The following UI changes have been made to forms:
+
+    -   Annotation fields provide rich text markup to enhance contextual form information.
+    -   The HTML editor toolbar displays a modern design.
+-   **Form templates**
+
+The following UI changes have been made to form templates:
+
+    -   The button to add a form template field has been updated to be more discoverable.
+    -   View selected conditions as a card below a field.
+-   **Activity stream**
+
+The following UI changes have been made to the Activity stream:
+
+    -   Filter Activity stream posts by user.
+    -   The Activity stream features a responsive design for stacking content, typography styles, and spacing.
+    -   System tokens for Activity stream components provide a consistent look and feel without needing to manually update style properties for every component.
+-   **Email composer**
+
+The following UI changes have been made to the email composer:
+
+    -   All email layouts display a minimized recipient field and borderless rich text editor.
+    -   A message displays in the header when an email is saved as a draft.
+    -   Copy and apply text formatting for emails using the format painter.
+
+ -   **Record List component bundle enhancements in UI Builder**
+
+Configure these enhancements to the Record List component bundle in UI Builder:
+
+    -   Pin columns to keep them visible while scrolling horizontally.
+    -   Change the medium default size for highlighted values.
+    -   View list data as a data visualization.
+    -   Show a filter overview in the list header for a summary of the filters currently applied to the list.
+    -   Catalog variables and questions are supported as list columns.
+    -   Open lists in multiple session tabs from the list menu.
+    -   Customize gallery list card layouts including images, icons, text placement, and sizing.
+-   **[Grouping for related lists](https://www.servicenow.com/docs/access?context=configure-related-list-grouping&family=australia&ft:locale=en-US)**
+
+Configure related lists to persist selections for the Group by filter.
+
+-   **[Predicate Builder component enhancements in UI Builder](https://developer.servicenow.com/dev.do#!/reference/next-experience/australia/now-components/now-predicate-builder/uib-setup):**
+
+Configure these enhancements to the Predicate Builder component in UI Builder:
+
+    -   Customize condition rows.
+    -   Configure a simple filtering mechanism.
+    -   Use a search term for filtering panel definitions.
+    -   Configure fixed queries.
+-   **[Hierarchical queries](https://www.servicenow.com/docs/access?context=data-hierarchies&family=australia&ft:locale=en-US)**
+
+Configure a record hierarchy to create filter queries that traverse levels of hierarchy.
+
+-   **[Dynamic queries](https://www.servicenow.com/docs/access?context=working-with-dynamic-schema&family=australia&ft:locale=en-US)**
+
+Configure dynamic attributes and dynamic categories to create filter queries that use the dynamic schema field type.
+
+-   **[Form component enhancements in UI Builder](https://developer.servicenow.com/dev.do#!/reference/next-experience/australia/now-components/form%20record%20page/uib-setup):**
+
+Configure these enhancements to the Form component in UI Builder:
+
+    -   Wrap field labels on mobile devices.
+    -   Display an indicator dot on unsaved fields.
+    -   Add a background color to unsaved fields to make them more noticeable.
+    -   Add an address field to forms that searches, validates, and automatically fills an address.
+-   **[AI indicator](https://www.servicenow.com/docs/access?context=ai-indicator&family=australia&ft:locale=en-US)**
+
+The AI indicator is a visual cue that identifies form fields in configurable workspace and Core UI that have been updated with AI-generated content, providing a consistent and clear indication of AI involvement across the platform.
+
+-   **[Unsaved field indicator](https://www.servicenow.com/docs/access?context=configure-unsaved-field-indicator&family=australia&ft:locale=en-US)**
+
+Configure the unsaved field indicator for your entire workspace experience instead of individual pages.
+
+-   **[Background color for unsaved fields](https://www.servicenow.com/docs/access?context=configure-background-color-unsaved-indicator&family=australia&ft:locale=en-US)**
+
+Configure a background color to display on unsaved fields for your entire workspace experience instead of individual pages.
+
+-   **[Background color for highlighted values](https://www.servicenow.com/docs/access?context=configure-background-color-highlighted-values&family=australia&ft:locale=en-US)**
+
+Configure a background color for fields with highlighted values.
+
+-   **[Text commands for journal fields](https://www.servicenow.com/docs/access?context=configure-journal-fields-keyboard-shortcuts&family=australia&ft:locale=en-US)**
+
+Configure text commands that can be applied by keyboard shortcuts within journal fields.
+
+-   **[HTML editor toolbar](https://www.servicenow.com/docs/access?context=configure-html-editor-toolbar&family=australia&ft:locale=en-US)**
+
+Configure toolbar options for the HTML editor within journal input fields.
+
+-   **[Inline validation for string fields](https://www.servicenow.com/docs/access?context=format-regex-pattern-string-fields&family=australia&ft:locale=en-US)**
+
+Configure inline validation for string fields that formats inputs automatically, persists guidance text as a placeholder, and restricts unsupported characters.
+
+-   **[Watch lists](https://www.servicenow.com/docs/access?context=configure-watch-list&family=australia&ft:locale=en-US)**
+
+Add and remove yourself and multiple records from a watch list.
+
+-   **[Form Templates component enhancements in UI Builder](https://developer.servicenow.com/dev.do#!/reference/next-experience/australia/now-components/now-record-common-templates-connected/uib-setup)**
+
+Configure these enhancements to the Form Templates component in UI Builder:
+
+    -   Preview form templates before applying them to the record page.
+    -   Display an alert message and confirm reuse when a selected form template is already applied to that record.
+-   **[Activity Stream component enhancements in UI Builder](https://developer.servicenow.com/dev.do#!/reference/next-experience/australia/now-components/now-activity-stream-connected/uib-setup)**
+
+Configure these enhancements to the Activity Stream component in UI Builder:
+
+    -   Edit and delete Activity stream posts after submitting.
+    -   Add knowledge base links from recommended actions to Activity stream posts.
+-   **[Keyboard shortcuts for emails](https://www.servicenow.com/docs/access?context=add-response-templates-shortcut&family=australia&ft:locale=en-US)**
+
+Use keyboard shortcuts to open drafts, email templates, and response templates.
+
+-   **[Attachments component enhancements in UI Builder](https://developer.servicenow.com/dev.do#!/reference/next-experience/australia/now-components/now-record-common-attachments-connected/uib-setup)**
+
+Configure these enhancements to the Attachments component in UI Builder:
+
+    -   Open the file viewer as a modeless dialog.
+    -   Customize the attachment header, upload instructions, and menu actions in both the full and compact modes.
+    -   Display the loading skeleton as a spinner or as three cards.
+    -   Enable a visible drop zone for file uploads in the compact mode.
+-   **[Form action layout groups for declarative actions](https://www.servicenow.com/docs/access?context=configure-da-layout-group&family=australia&ft:locale=en-US)**
+
+Upgrade form action layout groups to customize the order, label, and icons for declarative actions without altering the base action.
+
+-   **[Declarative actions and UI actions on public pages](https://www.servicenow.com/docs/access?context=using-web-embeddables&family=australia&ft:locale=en-US)**
+
+Non-logged in users may access specified declarative actions and UI actions on embedded web pages while maintaining integrity with security guidance and access control list permissions.
 
 
 </td></tr><tr><td>

@@ -53,7 +53,7 @@ Rights to the underlying data only matter when the visualizations contain raw da
 
 6.  Select one of the following options.
 
-<table id="choicetable_yxb_j15_q5b"><tbody><tr><td id="d39504e176">
+<table id="choicetable_yxb_j15_q5b"><tbody><tr><td id="d39540e176">
 
 **Add as viewer**
 
@@ -61,7 +61,7 @@ Rights to the underlying data only matter when the visualizations contain raw da
 
 Grant only viewing rights to the users, groups, or roles you're sharing the dashboard with. Users who only have viewing rights can make changes to the dashboard's content, but aren't able to save those changes.
 
-</td></tr><tr><td id="d39504e185">
+</td></tr><tr><td id="d39540e185">
 
 **Add as editor**
 

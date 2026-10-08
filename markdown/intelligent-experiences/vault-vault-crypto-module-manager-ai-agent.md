@@ -92,7 +92,7 @@ Allowed user roles The specific user roles that can access this AI agent.
 
 </td><td>
 
-snc\_internal
+Not defined.
 
 </td></tr><tr><td>
 
@@ -100,7 +100,7 @@ Data access roles The specific user identity roles that determine which data the
 
 </td><td>
 
-sn\_vault\_console.vault\_console\_admin, security\_admin, sn\_kmf.admin, sn\_kmf.cryptographic\_manager
+sn\_vault\_console.vault\_console\_admin, security\_admin, sn\_kmf.cryptographic\_manager
 
 </td></tr><tr><td>
 

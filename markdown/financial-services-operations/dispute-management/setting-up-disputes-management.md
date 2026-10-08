@@ -1,66 +1,94 @@
 ---
 title: Set up Dispute Management
-description: Set up your Dispute Management implementation by installing the required plugins.
+description: Configure Dispute Management to process card payment network and ACH disputes. Installation requirements vary by network provider.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/dispute-management/setting-up-disputes-management.html
 release: brazil
 product: Dispute Management
 classification: dispute-management
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 4
+last_updated: "2026-09-16"
+reading_time_minutes: 5
 breadcrumb: [Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Set up Dispute Management
 
-Set up your Dispute Management implementation by installing the required plugins.
+Configure Dispute Management to process card payment network and ACH disputes. Installation requirements vary by network provider.
 
-## Configuration overview
+First, set up your implementation for Financial Services Card Operations by [installing Financial Services Card Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/financial-services-card-operations/install-fso-card-ops.md), importing financial services data, and reviewing and configuring the application's components. This is a prerequisite for all card payment networks and ACH disputes covered in this topic.
 
--   [Install Financial Services Card Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/financial-services-card-operations/install-fso-card-ops.md)
+**Note:**
 
-    Set up your implementation for Financial Services Card Operations by installing the application, importing financial services data, and reviewing and configuring the application's components.
+Financial Services Operations Core is installed with Financial Services Card Operations.
 
--   [Set up Visa Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/set-up-visa-spoke.md)
+Next, complete the section for your card payment network \(Visa or Mastercard\) or for Nacha ACH disputes.
 
-    Install Visa Spoke if Visa is your card payment network provider. Use the spoke to manage card disputes with Visa Resolve Online \(VROL\). Leverage Visa Spoke actions to perform transaction inquiry, order insight digital, collaborate with merchants, and perform other functions with enhanced security.
+|Network|Required|Optional|
+|-------|--------|--------|
+|Visa|Visa Spoke, Financial Services Operations Integration with Visa, Dispute Rules Content Pack for Visa|Verifi Spoke, Ethoca spoke, Card Data Security|
+|Mastercard|Mastercard Spoke, Financial Services Operations Integration with Mastercard, Dispute Rules Content Pack for Mastercard|Verifi Spoke, Ethoca spoke, Card Data Security|
+|Nacha|Dispute Rules Content Pack for Nacha| |
 
--   [Install Financial Services Operations Integration with Visa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/install-financial-services-operations-integration-with-visa.md)
+## Visa
 
-    Install the Visa Integration plugin if Visa is your card payment network provider. This plugin installs Visa Spoke which is a dependent plugin if it is not already installed. Manage dispute lifecycle with events like case creation and submit questionnaires amongst others. Data model elements to capture the information used at sub-flows.
+Complete these steps if Visa is your card payment network provider.
 
--   [Install the Dispute Rules Content Pack for Visa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/install-dispute-rules-content-pack-for-visa.md)
+1.  [Install Financial Services Operations Integration with Visa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/install-financial-services-operations-integration-with-visa.md)
 
-    Dispute Rules Content Pack for Visa provides the questionnaire for intake of a dispute and dispute categorization rules as per Visa guidelines. Run chargeback eligibility rules based on Visa Core Rules and Visa Product and Service Rules.
+    Install the Visa Integration plugin to manage the dispute lifecycle with events like case creation and questionnaire submission, among others. This plugin also captures data model elements used at sub-flows.
+
+    Visa Spoke and Dispute Rules Content Pack for Visa will also be installed as dependent plugins if they aren't already installed.
+
+    -   Visa Spoke actions to perform transaction inquiry, order insight digital, collaborate with merchants, and perform other functions with enhanced security.
+    -   Dispute Rules Content Pack for Visa provides the dispute categorization rules according to Visa guidelines. Run chargeback eligibility rules based on Visa Core Rules and Visa Product and Service Rules.
+2.  [Set up Visa Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/set-up-visa-spoke.md)
+
+    Set up Visa Spoke to enable your organization to manage card disputes and card-on-file payments through Visa APIs. The spoke provides secure access to Visa Resolve Online \(VROL\) for dispute management and Visa Stop Payment Service \(VSPS\) for payment controls. This enables you to search transactions, collaborate with merchants, manage dispute cases, and control card-on-file payments.
+
+
+## Mastercard
+
+Complete these steps if Mastercard is your card payment network provider.
+
+1.  [Install Financial Services Operations Integration with Mastercard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/install-financial-services-operations-integration-with-mastercard.md)
+
+    Install the Mastercard Integration plugin to manage the dispute lifecycle with events like case creation and questionnaire submission, among others. This plugin also captures data model elements used at sub-flows.
+
+    Mastercard Spoke and Dispute Rules Content Pack for Mastercard will also be installed as dependent plugins if they aren't already installed.
+
+    -   Mastercard Spoke actions perform transaction inquiry, order insight digital, collaborate with merchants, and perform other functions with enhanced security.
+    -   Dispute Rules Content Pack for Mastercard provides dispute categorization rules according to Mastercard guidelines. You can run chargeback eligibility rules based on Mastercard Rules.
+2.  [Set up Mastercard spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/set-up-mastercard-spoke.md)
+
+    Set up Mastercard Spoke to enable your organization to manage card disputes and automate dispute lifecycle events through Mastercard APIs. This integration streamlines transaction searches, claim creation, chargeback processing, and merchant collaboration, reducing manual effort and improving dispute resolution accuracy.
+
+
+## NACHA
+
+[Install the Dispute Rules Content Pack for Nacha](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/dispute-rules-content-pack-nacha-install.md) if you need to support disputes involving automated clearing house \(ACH\) transactions.
+
+The Dispute Rules Content Pack for Nacha gives agents access to Nacha operating guidelines to check the eligibility of disputed ACH transactions. It provides a central reference for ACH return reason codes and the logic used to determine them based on the operating guidelines.
+
+## Card data tokenization
+
+If you require PCI DSS tokenization for Visa or Mastercard cardholder data, install Card data security \(see [Configuring Card Data Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/configuring-card-data-security.md)\) after you install the corresponding network integration plugin. Network-specific artifacts install only when that integration plugin is present. This step is optional and doesn't apply to Nacha ACH disputes.
+
+## Common configuration
+
+The following components apply regardless of which card payment network or ACH provider you use. Install them based on your organization's regulatory scope and desired capabilities; none are required for the base dispute management implementation.
 
 -   [Set up Verifi Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/set-up-verifi-spoke.md)
 
-    Use Verifi Spoke to integrate with the Verifi CDRN API suite and perform API calls to perform early dispute resolution.
-
--   [Set up Mastercard spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/set-up-mastercard-spoke.md)
-
-    Install Mastercard Spoke if Mastercard is your card payment network provider. Use the spoke to manage card disputes with Mastercard. Leverage Mastercard spoke actions, to perform transaction inquiry, order insight digital, collaborate with merchants, and perform other functions with enhanced security.
+    Use Verifi Spoke to integrate with the Verifi CDRN API suite and perform early dispute resolution.
 
 -   [Set up Ethoca spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/set-up-ethoca-spoke.md)
 
-    Use the Ethoca spoke to integrate with Ethoca Consumer Clarity APIs.
-
--   [Install the Dispute Rules Content Pack for Mastercard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/install-the-dispute-rules-content-pack-for-mastercard.md)
-
-    Dispute Rules Content Pack for Mastercard provides the questionnaire for intake of a dispute and dispute categorization rules as per Mastercard guidelines. Run chargeback eligibility rules based on Mastercard Rules.
+    Use the Ethoca spoke to integrate with Ethoca Consumer Clarity APIs for early dispute resolution and fraud prevention.
 
 -   [Install the Dispute Content Pack for US Regulations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/install-the-dispute-content-pack-for-us-regulations.md)
 
-    Dispute Content Pack for US Regulations supports monitoring dispute cases effectively and take necessary actions. This application provides SLA definitions pertaining to Regulation E \(Reg E\) and Regulation Z \(Reg Z\) and tracks the dispute cases during the life cycle. Provides SLA definitions for dispute management applications and landing page metrics to track dispute cases that are under risk or breached.
-
--   [Install the Dispute Rules Content Pack for Nacha](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/dispute-rules-content-pack-nacha-install.md)
-
-    The Dispute Rules Content Pack for Nacha gives agents access to Nacha operating guidelines to check the eligibility of disputed automated clearing house \(ACH\) transactions. It provides a central reference for ACH return reason codes and the logic used to determine them based on the operating guidelines.
-
--   [Install and configure Card data security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/dispute-management/configuring-card-data-security.md)
-
-    Card data security helps organizations adhere to Payment Card Industry Data Security Standard \(PCI DSS\) requirements by protecting cardholder data. It provides a tokenizer service that substitutes sensitive data in dispute workflows—such as Primary Account Numbers \(PANs\) and documents—with non-sensitive equivalent values called tokens.
+    If you're a US-based issuer subject to Regulation E or Regulation Z, install Dispute Content Pack for US Regulations to automatically track federal SLA deadlines instead of monitoring them manually. It supplies SLA definitions and landing page metrics so dispute agents and managers can identify cases that are at risk of, or have breached, a regulatory deadline. Requires Financial Services Card Operations to already be installed and active.
 
 -   [Configure ServiceNow Otto for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/configure-now-assist-for-fso.md)
 

@@ -78,5 +78,3 @@ If it is mandatory for the course item to be added to the collection.
 </table>
 **Parent Topic:**[Create a content collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/learning-core/create-course-collection.md)
 
-**Parent Topic:**[Create a content collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/learning-core/create-course-collection.md)
-

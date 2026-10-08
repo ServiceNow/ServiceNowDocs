@@ -8,9 +8,9 @@ product: ReleaseOps
 classification: releaseops
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 6
+reading_time_minutes: 7
 keywords: [ReleaseOps, deploy changes, update sets, pipeline, ATF, schedule a release, deployment request, deployment analyzer, ServiceNow large scale deployments]
-breadcrumb: [ReleaseOps, Deploying applications, Building applications]
+breadcrumb: [ReleaseOps, Run, AI Workflow Factory, Building applications]
 ---
 
 # Exploring ReleaseOps
@@ -131,4 +131,19 @@ To learn more about configuring and using ReleaseOps, see:
 -   [Create a deployment request for an on-demand release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/releaseops/create-a-deployment-request-for-on-demand-release.md)
 -   [Attach an update set to an existing deployment request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/releaseops/attach-an-update-set-to-existing-deployment-request.md)
 -   [Create a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/releaseops/create-a-release.md)
+
+-   **[Pipelines in ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/releaseops/releaseops-pipeline-environments.md)**  
+A pipeline is the flow of a deployment in ReleaseOps. A pipeline's flow is defined within playbooks, which enables you to customize as needed.
+-   **[Releases in ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/releaseops/releases-in-release-ops.md)**  
+Scheduled and on-demand releases are how changes are deployed to target instances with ReleaseOps. Releases can contain one or more deployment requests.
+-   **[Deployment requests in ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/releaseops/deployment-requests.md)**  
+Deployment requests contain one or more update sets. They are attached to a release, which runs through a pipeline to a destination environment.
+-   **[Deployment analyzer in ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/releaseops/deployment-analyzer.md)**  
+The deployment analyzer reviews the update set in your release against rules to verify compliance with customizable rules.
+-   **[Runbook tasks in ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/releaseops/runbook-tasks.md)**  
+Learn about how runbook tasks enable flexibility in ReleaseOps deployments, without needing to customize playbooks each time.
+-   **[Exploring release lifecycle documentation AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/releaseops/exploring-release-lifecycle-documentation-agent.md)**  
+Learn about how the release lifecycle documentation AI agent works to help you to manage application development at scale by generating useful, transparent documentation throughout the app lifecycle.
+
+**Parent Topic:**[ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/releaseops/releaseops-landing.md)
 

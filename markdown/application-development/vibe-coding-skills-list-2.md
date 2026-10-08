@@ -8,7 +8,7 @@ topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [Now Assist, skills, developer, AI, automation, code generation, flow generation, application development, workflow automation, artificial intelligence, machine learning, ServiceNow Platform]
-breadcrumb: [Reference, Agentic development, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Reference, Agentic development, Build, AI Workflow Factory, Building applications]
 ---
 
 # ServiceNow Otto skills: Developer-oriented list

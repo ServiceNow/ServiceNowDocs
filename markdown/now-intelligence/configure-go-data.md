@@ -1,11 +1,11 @@
 ---
 title: Configure visualization interactions
-description: Select what happens when a viewer interacts with a section of a data visualization that you are editing.
+description: Select what happens when a viewer interacts with a section of a data visualization that you're editing.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/configure-go-data.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-09-29"
 reading_time_minutes: 2
 keywords: [drilldown, drill down]
 breadcrumb: [Chart interactions in a data visualization, Configure, Data visualizations, Platform Analytics experience, Platform Analytics]
@@ -13,7 +13,7 @@ breadcrumb: [Chart interactions in a data visualization, Configure, Data visuali
 
 # Configure visualization interactions
 
-Select what happens when a viewer interacts with a section of a data visualization that you are editing.
+Select what happens when a viewer interacts with a section of a data visualization that you're editing.
 
 ## Before you begin
 
@@ -36,7 +36,13 @@ You can configure chart interactions only in the Visualization Designer or the i
     The possible interactions are:
 
     -   Go to data view
+
+        Applicable for visualizations based on table data. List views provide a subset of the table's columns that are applicable for different functions. Select a list view for the drilldown. If you don't choose a drilldown view, the last one used is applied.
+
     -   Go to URL
+
+        Specify the URL and the name of the page that the URL opens.
+
     -   Drill down to chart \(available from within the Visualization Designer\): Lets you add multiple layers of visualizations to drill down to from each metric in the visualization.
     -   Apply as filter \(available only when editing within a dashboard\)
     The interactions are described in [Chart interactions in a data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/dv-chart-interactions.md).

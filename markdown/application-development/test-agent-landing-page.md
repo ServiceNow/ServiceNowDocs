@@ -8,7 +8,7 @@ topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Build, AI Workflow Factory, Building applications]
 ---
 
 # Test Agent
@@ -34,4 +34,14 @@ Use Test Agent to streamline the process of authoring, running, and troubleshoot
 [Reference\[Omitted image "t2t-reference-icon.png"\] Alt text:Learn miscellaneous information about Test Agent.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/test-agent-references.md)
 
 </td></tr></tbody>
-</table>
+</table>-   **[Exploring Test Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/test-agent-explore.md)**  
+Test Agent autonomously manages end‑to‑end test authoring, execution, and troubleshooting from a single prompt.
+-   **[Test Agent access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/test-agent-access.md)**  
+Learn about the prerequisites required to access and use Test Agent.
+-   **[Author, execute, and troubleshoot tests and test suites with Test Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/test-agent-use.md)**  
+Use Test Agent to significantly reduce the skills and resources needed to troubleshoot test and test suite failures on covered metadata.
+-   **[Test Agent references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/test-agent-references.md)**  
+The reference topics provide additional information about Test Agent.
+
+**Parent Topic:**[Build](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/build-ai-workflow-factory-prime.md)
+

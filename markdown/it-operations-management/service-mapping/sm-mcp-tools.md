@@ -8,7 +8,7 @@ product: Service Mapping
 classification: service-mapping
 topic_type: reference
 last_updated: "2026-09-10"
-reading_time_minutes: 6
+reading_time_minutes: 7
 keywords: [MCP tools, Service Mapping, get\_all\_application\_service\_names, get\_all\_application\_service\_for\_server, get\_application\_service\_topology, get\_server\_impact\_graph, get\_unmapped\_topology, create\_top\_down\_service, reference, Now Assist, CMDB]
 breadcrumb: [Service Mapping MCP tools, AI in Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
@@ -29,7 +29,7 @@ Returns a list of all application service names in the instance.
 
 -   **Input**
 
-    An optional filter parameter to limit results by mapping type: pattern-based, tag-based, or calculated. If no filter is provided, all service types are returned.
+    An optional filter parameter to limit results by mapping type: pattern-based, tag-based, or calculated. If no filter is provided, all service types are returned. Optional **limit** and **offset** parameters control pagination. **limit** is capped at 800 entries per page.
 
 -   **Output**
 
@@ -38,7 +38,7 @@ Returns a list of all application service names in the instance.
     -   Service name
     -   System ID
     -   Service type
-    The response is paginated or bounded to prevent oversized payloads.
+    The response is paginated or bounded to prevent oversized payloads. The response includes a **has\_more** flag and a **next\_offset** value for retrieving subsequent pages.
 
 -   **Example queries**
     -   "Use the ServiceNow Service Mapping tool, get\_all\_application\_service\_names, to list all application services."
@@ -60,7 +60,7 @@ Returns all application services that include a specified server as a member CI.
     -   System ID
     -   Service type
     -   Mapping status
-    If no services are found for the specified server, an empty list is returned. This is not treated as an error.
+    If no services are found for the specified server, an empty list is returned. This is not treated as an error. The list is capped at 150 entries; if the cap is reached, the response includes a flag noting the result set was capped. If the server name matches more than one CI, the tool resolves to the first match and the response includes a warning recommending a system ID for a deterministic result.
 
 -   **Example queries**
     -   "Use the ServiceNow Service Mapping tool, get\_all\_application\_service\_for\_server, to find which services contain server emse-10152008.servicenow.com"
@@ -98,7 +98,7 @@ Given a server CI, returns all CIs related to it via CMDB relationships and all 
 
 -   **Input**
 
-    **server\_names**: Required. One or more server CI names or system IDs, comma-separated.
+    **server\_names**: Required. One or more server CI names or system IDs, comma-separated. **max\_depth**: Optional. Maximum relationship depth to traverse, from 1 to 4. Defaults to 2. **servers\_limit\_per\_start**: Optional. Maximum number of servers to traverse per starting point, from 1 to 25. **sources**: Optional. A comma-separated subset of traffic, cmdb\_rel to limit which connection types are returned. Defaults to both.
 
 -   **Output**
 
@@ -118,7 +118,7 @@ Starting from a single server or application CI, returns the CIs reachable from 
 
 -   **Input**
 
-    **ci**: Required. The name or system ID of the starting server or application CI.
+    **ci**: Required. The name or system ID of the starting server or application CI. **max\_depth**: Optional. Maximum traversal depth, from 1 to 4. Defaults to 2. **servers\_limit\_per\_start**: Optional. Maximum number of servers to traverse per starting point, from 1 to 25.
 
 -   **Output**
 

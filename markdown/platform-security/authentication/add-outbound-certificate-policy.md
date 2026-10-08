@@ -7,7 +7,7 @@ release: brazil
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 2
 keywords: [outbound certificate policy, certificate validation, SSL, TLS]
 breadcrumb: [Outbound certificate policies, Authentication, Access Management]

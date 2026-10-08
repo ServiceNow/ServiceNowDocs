@@ -7,8 +7,8 @@ release: brazil
 product: Search Administration
 classification: search-administration
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 1
+last_updated: "2026-09-29"
+reading_time_minutes: 2
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Reference, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -87,11 +87,54 @@ Discovered
 
 </td><td>
 
-Score shows the total number of items that were processed during the content crawl.Chart shows the number of items processed by the content crawl for each of these result statuses:
+Score shows the total number of items that were processed during the content crawl.Chart shows the number of items processed by the content crawl for each result status shown in the following Discovered item result statuses table.
 
--   Indexed: the number of items successfully added to or updated in the AI Search index.
--   Skipped: the number of items not added to or updated in the AI Search index because they don't satisfy indexing limits. This includes binary files that exceed the 25 MB file-size limit and binary files with unsupported file formats. For the list of supported binary file formats, see [Binary file extensions supported in External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/file-extensions-ext-cont-connector.md).
--   Not indexed: the number of items not added to or updated in the AI Search index because of processing errors.
+</td></tr></tbody>
+</table><table id="table_jkg_htx_skc"><thead><tr><th>
+
+Result status
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Indexed
+
+</td><td>
+
+The number of items successfully added to or updated in the AI Search index.
+
+</td></tr><tr><td>
+
+Not indexed
+
+</td><td>
+
+The number of items that weren't added to or updated in the AI Search index because of processing errors.
+
+</td></tr><tr><td>
+
+Skipped
+
+</td><td>
+
+The number of items that weren't added to or updated in the AI Search index for any of the following reasons:-   **The item doesn't satisfy indexing limits**
+
+The connector skips an item when any of these conditions is true.
+
+    -   The item is a binary file/attachment with an unsupported format. For the list of supported binary file formats, see [Binary file extensions supported in External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/search-administration/file-extensions-ext-cont-connector.md).
+    -   The item is a binary file/attachment that exceeds the maximum file-size limit \(25 MB\).
+    -   The connector has reached its content indexing limit.
+-   **The item is excluded by an inclusion or exclusion filter in the connector's crawl settings**
+
+The connector skips an item if it or its location is not included in your specified inclusion filter. It similarly skips an item if it or its location is explicitly included in your specified exclusion filter.
+
+-   **The item doesn't satisfy the connector's content validation rules**
+
+Individual external content connectors have their own validation rules that determine what content they accept for indexing. As an example, the Webcrawler external content connector rejects HTML pages that don't have a title element. The connector skips any item that doesn't satisfy its content validation rules.
+
 
 </td></tr></tbody>
 </table>|Performance statistics entry|Description|

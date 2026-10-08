@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-notifications-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 8
+last_updated: "2026-10-08"
+reading_time_minutes: 10
 breadcrumb: [Products combined by family]
 ---
 
@@ -117,7 +117,12 @@ Zurich
 
 </td><td>
 
--   **[Email diagnostics dashboard](https://www.servicenow.com/docs/access?context=email-diagnostics-dashboard&family=zurich&ft:locale=en-US)**
+-   **[Email agentic workflow](https://www.servicenow.com/docs/access?context=use-agentic-ai-notifications&family=zurich&ft:locale=en-US)**
+
+With email agentic workflow you can intelligently handle new email agentic workflows by identifying intent, executing actions, &amp; drafting appropriate email responses.
+
+
+ -   **[Email diagnostics dashboard](https://www.servicenow.com/docs/access?context=email-diagnostics-dashboard&family=zurich&ft:locale=en-US)**
 
 With email diagnostics you can track bounce management, email delivery metrics, email sender, and reader jobs health.
 
@@ -128,7 +133,12 @@ Australia
 
 </td><td>
 
--   **[User mailbox integration](https://www.servicenow.com/docs/access?context=personal-corporate-mailbox&family=australia&ft:locale=en-US)**
+-   **[Notification agent](https://www.servicenow.com/docs/access?context=notification-creation-agent&family=australia&ft:locale=en-US)**
+
+The Notification agent enables platform administrators to create and modify email notifications and templates using natural language prompts, reducing the need of navigating complex forms &amp; scripts.
+
+
+ -   **[User mailbox integration](https://www.servicenow.com/docs/access?context=personal-corporate-mailbox&family=australia&ft:locale=en-US)**
 
 Enable agents to integrate their personal corporate mail boxes to send and receive emails.
 
@@ -251,7 +261,29 @@ Australia
 
 </td><td>
 
--   **[Create email client template](https://www.servicenow.com/docs/access?context=t_CreateAnEmailClientTemplate&family=australia&ft:locale=en-US)**
+-   **[Create and associate actions for intent](https://www.servicenow.com/docs/access?context=create-actions-for-intent&family=australia&ft:locale=en-US)**
+
+Added the Email Template field to the Reply Email Notification Intent Action type.
+
+
+ -   **[Now LLM support and email template configuration in Notification Agent](https://www.servicenow.com/docs/access?context=notification-creation-agent&family=australia&ft:locale=en-US)**
+
+Now LLM and third-party LLM models are now supported, and email templates can be configured for notifications created using the Notification Agent.
+
+-   **[Email templates for the Email Generator Agent](https://www.servicenow.com/docs/access?context=create-actions-for-intent&family=australia&ft:locale=en-US)**
+
+Use branded email templates in the Email Generator Agent, allowing AI-generated responses with customer-specific layouts, logos, and styling.
+
+-   **[Multiple intent identification in inbound emails](https://www.servicenow.com/docs/access?context=email-agentic-workflow&family=australia&ft:locale=en-US)**
+
+Multiple intents can now be identified in inbound emails, allowing multiple reply email actions for a single email.
+
+-   **[Handle missing inputs for inbound email actions](https://www.servicenow.com/docs/access?context=email-agentic-workflow&family=australia&ft:locale=en-US)**
+
+Missing inputs for inbound email actions are now handled through configurable execution modes, allowing missing inputs to be requested, intents to be skipped, or processing to continue.
+
+
+ -   **[Create email client template](https://www.servicenow.com/docs/access?context=t_CreateAnEmailClientTemplate&family=australia&ft:locale=en-US)**
 
 Added a check box for the email client template.
 
@@ -476,7 +508,14 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **Activation information**
+
+Notifications is a ServiceNow AI Platform® feature that is active by default.
+
+Install Notifications Email Agents by requesting it from the ServiceNow® Store. Visit the [ServiceNow Store](https://store.servicenow.com/store) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+The Notification Agent requires the Implementation Agent \(IA\) Orchestration framework and is not supported as a standalone feature.
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -768,7 +807,11 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   Keep users informed by sending email or SMS notifications about specific activities in the system, such as updates to incidents or change requests.
+-   Control when notifications are sent, who receives them, and what content they contain.
+-   Improve communication efficiency with email digests that consolidate multiple notifications into a single message.
+
+See [Notifications](https://www.servicenow.com/docs/access?context=notifications&family=brazil&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-xanadu-brazil/rn-combined-intro.md)

@@ -8,7 +8,7 @@ product: Portfolio Planning
 classification: portfolio-planning
 topic_type: reference
 last_updated: "2026-09-10"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Data migrated from demands to created entities, Reference, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
 ---
 
@@ -69,7 +69,11 @@ Resource assignments
 
 </td><td>
 
-Resource assignments are migrated to a project by updating the task reference from the demand to project.
+Resource assignments are migrated to a project by updating the task reference from the demand to the project. Resource assignments are migrated to a project by updating the task and planning item, if applicable, reference from the demand to the project.
+
+ The start and end dates of the resource assignments are retained. The **Offset** of each assignment is the number of days between the start date of the task and the start date of the assignment. The offset is recalculated based on the project schedule. A demand does not have a schedule, so all days, including weekends, are counted in the offset. For a project, the offset for the associated resource assignments is calculated based on the working days defined in the project schedule. For more information about project schedules, see [Project scheduling in Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-management/project-scheduling.md).
+
+ If actual hours are captured on a resource assignment, its offset is not recalculated, and a warning is added to the resource plan logs.
 
 </td></tr><tr><td>
 

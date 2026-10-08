@@ -1,12 +1,12 @@
 ---
 title: SPM Enterprise-Wide Deployment release notes
-description: The ServiceNow SPM Enterprise-Wide Deployment application provides data partitioning capabilities for Strategic Portfolio Management \(SPM\) tables that enable organizations to separate and control record visibility across functions such as departments and business units. See the following sections for release notes by version.The version 1.0.5 release restricts system administrator access to partition data by default. Administrators can enable access across all partitions through the system property if required.
+description: The ServiceNow SPM Enterprise-Wide Deployment application provides data partitioning capabilities for Strategic Portfolio Management \(SPM\) tables that enable organizations to separate and control record visibility across functions such as departments and business units. See the following sections for release notes by version.The version 1.1.0 release supports partition-specific dashboards, limits the partition selection list to the partitions each user can access, and extends partition protection to portfolio-project relationships.The version 1.0.5 release restricts system administrator access to partition data by default. Administrators can enable access across all partitions through the system property if required.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/enterprise-wide-deployment-rn.html
 release: brazil
 topic_type: topic
 last_updated: "2026-09-10"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Strategic Portfolio Management release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
@@ -34,6 +34,24 @@ See [SPM Enterprise-Wide Deployment](https://raw.githubusercontent.com/ServiceNo
 
 
 **Parent Topic:**[Strategic Portfolio Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/it-business-management-rn-landing.md)
+
+## Version 1.1.0
+
+The version 1.1.0 release supports partition-specific dashboards, limits the partition selection list to the partitions each user can access, and extends partition protection to portfolio-project relationships.
+
+### What's new
+
+-   **[Partition-specific dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/map-dashboard-to-partition-ewd.md)**
+
+    Map dashboards to partitions so that each partition uses its own dashboard layout and settings. A partition-to-dashboard mapping table stores these associations, so you can create, update, and delete mappings as your partition structure changes.
+
+
+### What's changed
+
+-   **[Portfolio project partition coverage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/supported-tables-for-partition-ewd.md)**
+
+    Partition protection extends to the relationships between portfolios and projects, stored in the Portfolio Project \[`pm_m2m_portfolio_project`\] table. Users see portfolio-project relationships only for the partitions that they can access.
+
 
 ## Version 1.0.5
 

@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, content, pack, process, extension]
-breadcrumb: [Content packs, ERP models, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Content packs, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Using Zero Copy Connector for ERP process extensions
@@ -42,7 +42,7 @@ Before completing the procedure, it may be helpful to review the following pages
 
     The list is filtered and only displays ERP content pack subflows.
 
-    \[Omitted image "image.erpc-process-extensions-explore0"\] Alt text: Subflows list filtered and displaying only subflows with a name beginning with ERP CP.
+    \[Omitted image "erpc-process-extensions-explore0.png"\] Alt text: Subflows list filtered and displaying only subflows with a name beginning with ERP CP.
 
 3.  Select a process extension to copy, for example, **ERP CP: Read Blocked Sales Orders**.
 
@@ -64,6 +64,4 @@ Before completing the procedure, it may be helpful to review the following pages
 
     For more information, see [Use ERP Data action details for flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-flow-reference-2.md).
 
-
-**Parent Topic:**[Zero Copy Connector for ERP content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-content-packs.md)
 

@@ -72,6 +72,10 @@ ABC company also needs visibility into XYZ to understand the consumption pattern
 **Related topics**  
 
 
+[Activate Service Exchange FDS for provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/se-fds-plugin-act-prov.md)
+
+[Activate Service Exchange FDS for consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/se-fds-plugin-act-cons.md)
+
 [Configure outbound foundation data sync as providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/service-bridge-v2-using-foundation-data-sync.md)
 
 [Configuring inbound foundation data sync as providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/service-bridge-v2-configure-inboun-fds-providers.md)

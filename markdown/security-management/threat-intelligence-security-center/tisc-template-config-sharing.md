@@ -9,6 +9,7 @@ classification: threat-intelligence-security-center
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
+keywords: [outbound intelligence sharing template, sharing profile, global sharing rules, template configuration]
 breadcrumb: [Manual and Automated Sharing using flows, Share Threat Intelligence data between TISC instances, Administer, Threat Intelligence Security Center, Security Operations]
 ---
 

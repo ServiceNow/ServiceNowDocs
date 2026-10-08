@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-brazil/brazil-zurich-zerocopyconnectorforerp-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 13
+last_updated: "2026-10-08"
+reading_time_minutes: 15
 breadcrumb: [Products combined by family]
 ---
 
@@ -168,7 +168,12 @@ Australia
 
 </td><td>
 
--   **[Support for Oracle E-Business Suite](https://www.servicenow.com/docs/access?context=erp-canvas-oracle-rest-support&family=australia&ft:locale=en-US)**
+-   **[Workday RaaS reports in read operations](https://www.servicenow.com/docs/access?context=erp-add-a-raas-report-service&family=australia&ft:locale=en-US)**
+
+Add a Workday Report-as-a-Service \(RaaS\) report to a read operation by providing the report URL and pasting a sample response. The model entity and its fields are created from the sample. The host and tenant come from the model's system connection, so you can paste the report URL exactly as Workday provides it.
+
+
+ -   **[Support for Oracle E-Business Suite](https://www.servicenow.com/docs/access?context=erp-canvas-oracle-rest-support&family=australia&ft:locale=en-US)**
 
 Select Oracle E-Business Suite \(12.2 or later\) as the ERP software when you configure an ERP system record. Oracle E-Business Suite connects through REST.
 
@@ -222,7 +227,22 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **[Support for Oracle E-Business Suite](https://www.servicenow.com/docs/access?context=erp-canvas-oracle-rest-support&family=brazil&ft:locale=en-US)**
+
+Select Oracle E-Business Suite \(12.2 or later\) as the ERP software when you configure an ERP system record. Oracle E-Business Suite connects through REST.
+
+-   **[Use Oracle EBS ISG services](https://www.servicenow.com/docs/access?context=erp-canvas-create-an-oracle-ebs-connection&family=brazil&ft:locale=en-US)**
+
+Add Oracle E-Business Suite Integrated SOA Gateway \(ISG\) services to a model using their Web Application Description Language \(WADL\) definitions. When you create a model entity for a WADL operation, Zero Copy Connector for ERP generates its fields from the operation's WADL and XSD definitions.
+
+-   **[AI search for WADL service endpoints](https://www.servicenow.com/docs/access?context=erp-canvas-oracle-ebs-wadl-support&family=brazil&ft:locale=en-US)**
+
+Search for endpoints of discovered WADL services from the interface using AI Search.
+
+-   **[Row count for the scriptable API](https://www.servicenow.com/docs/access?context=erp-api-getrowcount&family=brazil&ft:locale=en-US)**
+
+Call the `getRowCount()` method on the `API` class to return the total number of rows that a query matches without retrieving the records. Configure the query as you would for `execute()`.
+
 
 </td></tr></tbody>
 </table>## Changes
@@ -306,7 +326,12 @@ Australia
 
 </td><td>
 
--   **[Simplified process for adding a REST entity to a model](https://www.servicenow.com/docs/access?context=add-a-rest-entity-to-a-model-operation&family=australia&ft:locale=en-US)**
+-   ****
+
+[Building flows](https://www.servicenow.com/docs/access?context=erp-canvas-build-flow-operation&family=australia&ft:locale=en-US)Required and optional fields now display correctly in the Use ERP Data action when nested structures share a name.
+
+
+ -   **[Simplified process for adding a REST entity to a model](https://www.servicenow.com/docs/access?context=add-a-rest-entity-to-a-model-operation&family=australia&ft:locale=en-US)**
 
 After you specify the REST service to use, the endpoint and return type are added automatically.
 
@@ -406,7 +431,10 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **Ask AI button**
+
+The **Ask AI** button was removed from the Model Manager.
+
 
 </td></tr></tbody>
 </table>## Activation information
@@ -453,7 +481,10 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **Activation information**
+
+Install Zero Copy Connector for ERP by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=brazil&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -496,7 +527,10 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **Additional requirements**
+
+SAP ECC, SAP S/4 HANA, and Oracle E-Business Suite \(12.2 and later\) are the available systems that integrate with Zero Copy Connector for ERP.
+
 
 </td></tr></tbody>
 </table>## Browser requirements
@@ -658,6 +692,7 @@ Australia
 </td><td>
 
 -   Connect to Oracle E-Business Suite \(12.2 and later\).
+-   Add Workday RaaS reports to read operations by pasting a sample report response.
 -   Use REST APIs to extend beyond SAP systems.
 -   Use the improved AI suggestions and interface to map fields in the Model Manager.
 -   As of version 29.2.11, ServiceNow Otto is the new AI experience brand. This change is reflected in the name of ServiceNow products, including ServiceNow Otto for Zero Copy Connector.
@@ -671,7 +706,10 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   Add Workday RaaS reports to read operations by pasting a sample report response.
+-   Connect to Oracle E-Business Suite \(12.2 and later\).
+
+ See [ERP Integration](https://www.servicenow.com/docs/access?context=erp-integration-overview&family=brazil&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/rn-combined-intro.md)

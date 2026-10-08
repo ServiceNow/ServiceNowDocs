@@ -1,5 +1,5 @@
 ---
-title: Installed with Asset Management
+title: Installed with Base Asset Management
 description: Several tables, user roles, UI policies, script includes, client scripts, and business rules are installed with Asset Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-asset-management/asset-management/r\_InstalledWithAssetManagement.html
@@ -12,7 +12,7 @@ reading_time_minutes: 14
 breadcrumb: [Reference, Base Asset Management, Common applications, Asset Management]
 ---
 
-# Installed with Asset Management
+# Installed with Base Asset Management
 
 Several tables, user roles, UI policies, script includes, client scripts, and business rules are installed with Asset Management.
 
@@ -20,7 +20,7 @@ Demo data is available with asset management. The demo data provides information
 
 ## Tables
 
-Asset Management includes the following tables.
+Base Asset Management includes the following tables.
 
 <table id="table_q2k_3xf_jq"><thead><tr><th>
 
@@ -161,7 +161,7 @@ Enables ServiceNow to categorize the User Entitlement table and enforce how enti
 </td></tr></tbody>
 </table>## User roles
 
-Asset Management includes the following user roles.
+Base Asset Management includes the following user roles.
 
 <table id="table_cck_nyf_jq"><thead><tr><th>
 
@@ -431,7 +431,7 @@ Provides access to create assets from model categories.
 </td></tr></tbody>
 </table>## UI policies
 
-Asset Management includes the following UI policies.
+Base Asset Management includes the following UI policies.
 
 <table id="table_l1r_4zf_jq"><thead><tr><th>
 
@@ -569,7 +569,7 @@ Shows the Stockroom field if either of the following conditions is true:-   The 
 </td></tr></tbody>
 </table>## Script includes
 
-Asset Management includes the following script includes.
+Base Asset Management includes the following script includes.
 
 |Name|Description|
 |----|-----------|
@@ -595,7 +595,7 @@ Asset Management includes the following script includes.
 
 ## Client scripts
 
-Asset Management includes the following client scripts.
+Base Asset Management includes the following client scripts.
 
 <table id="table_m1b_pcg_jq"><thead><tr><th>
 
@@ -818,7 +818,7 @@ Verifies that stock exists to fulfill the quantity requested when the From stock
 </td></tr></tbody>
 </table>## Business rules
 
-Asset Management includes the following business rules.
+Base Asset Management includes the following business rules.
 
 <table id="table_rjq_j2g_jq"><thead><tr><th>
 

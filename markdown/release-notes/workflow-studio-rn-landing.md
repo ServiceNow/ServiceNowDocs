@@ -16,6 +16,8 @@ The ServiceNow® Workflow Studio application consolidates playbooks, flows, acti
 
 -   **[Flows, subflows, and actions release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/flow-designer-rn.md)**  
 The ServiceNow® Workflow Studio flows, subflows, and actions application enables process analysts to automate work without having to code and to build multiple-step flows from reusable components. See the following sections for release notes by version.
+-   **[Playbooks release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/playbooks-rn.md)**  
+The ServiceNow® Playbook helps you automate complex business processes. See the following sections for release notes by version.
 
 **Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/build-automate-rn-landing.md)
 

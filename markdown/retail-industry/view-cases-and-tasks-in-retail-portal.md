@@ -28,6 +28,7 @@ Role required: Store associate, Store Manager, Regional Manager
     -   Cases: All cases that are assigned to your current assigned cases, unassigned cases, or cases requested by you.
     -   Escalated cases: Cases that are currently in an escalated state.
     -   Tasks: All tasks to be fulfilled by retail personas that are assigned to you, unassigned, or recently updated.
+    -   In-Store Ops Tasks: Store Tasks for your store, including the parent case and when each task was last updated. This category appears only when Retail In-store Operations is installed.
 3.  Select a case to see the details about it.
 
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/using-ai-agent-advisor-ai-control-tower.html
 release: brazil
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-10-02"
 reading_time_minutes: 1
 keywords: [AI Agent Advisor, AI Admin Center, Agent Miner, AI agents, AI opportunities, AI setup]
 breadcrumb: [Use, AI Agent Advisor, AI Admin Center, Getting started with AI, Enable AI Experiences]
@@ -17,7 +17,7 @@ View your top automation opportunities from AI Agent Advisor as actionable recom
 
 The integration with AI Control Tower activates automatically on installation of AI Agent Advisor and AI Admin Center. As AI Agent Advisor completes each recurring scheduled analysis of your instance records to discover automation opportunities, the highest-value recommendations display in AI Control Tower.
 
-Select the recommendation to open the Automation details page in AI Admin Center, where you can set up and deploy an AI agent to automate the solution.
+Select the recommendation to open the Automation details in AI Admin Center, where you can set up and deploy an AI agent to automate the solution.
 
 For more information, see [Recommendations and AI insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-recommendations-ai-insights.md).
 

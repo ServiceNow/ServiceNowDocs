@@ -30,6 +30,12 @@ See [Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowD
 
     Change Management is a ServiceNow AI Platform feature that is active by default. The Change Management plugins listed are activated by default.
 
+-   **Upgrade information**
+
+    The ITSM Enhanced Security Features plugin \(com.snc.itsm.enhanced\_security\) is now activated automatically when you upgrade to the Brazil release. Previously, the plugin was activated only on new instances. Activating the plugin adds "deny unless authenticated" access control list \(ACL\) rules to several IT Service Management tables.
+
+    To revert to the pre-upgrade behavior, contact ServiceNow Support for a list of ACLs to deactivate on specific tables. As a last resort, Support can run a script that deactivates all the new ACLs.
+
 
 ## Accessibility and localization
 
@@ -65,5 +71,9 @@ The Brazil Early Availability release introduces compliance dynamic schema, chan
 -   **[ITIL change process assignment for change models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/itil_change_process_models.md)**
 
     Assign an ITIL change process to a change model so the ChangeRequest API uses that model when it creates a matching change request.
+
+-   **[State field policies for change models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/state-field-policies-change-models.md)**
+
+    Use state field policies to make change request fields mandatory or read-only at each state in a change model. Policies are enforced on the form when a change request is created or updated.
 
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-brazil/brazil-zurich-systemlocalization-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -83,7 +83,10 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   **[Latin American Spanish](https://www.servicenow.com/docs/access?context=t_ActivateALanguage&family=australia&ft:locale=en-US)**
+
+Provide a more personalized experience to users in the Latin America region with a new language pack, I18N: Latin American Spanish Translations \(com.snc.i18n.latam\_spanish\).
+
 
 </td></tr><tr><td>
 
@@ -237,7 +240,10 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   **Activation information**
+
+System Localization is a ServiceNow AI Platform feature that is active by default.
+
 
 </td></tr><tr><td>
 
@@ -425,7 +431,11 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   Accommodate users in multiple countries, using different languages and currencies, within the same instance.
+-   Adapt your instance to a specific region or locale without impacting functionality.
+-   Localize your instance using one or more of the default language packs provided. If your target language is not provided by default, you can create your own translations of UI text.
+
+ See [System Localization](https://www.servicenow.com/docs/access?context=system-localization-landing&family=australia&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 

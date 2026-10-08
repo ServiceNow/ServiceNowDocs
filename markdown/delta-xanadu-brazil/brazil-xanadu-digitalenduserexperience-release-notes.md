@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-digitalenduserexperience-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 16
+last_updated: "2026-10-08"
+reading_time_minutes: 24
 breadcrumb: [Products combined by family]
 ---
 
@@ -122,7 +122,12 @@ Yokohama
 
 </td><td>
 
--   **[Manage your system compliance report](https://www.servicenow.com/docs/access?context=manage-compliance-report&family=yokohama&ft:locale=en-US)**
+-   **[Check your device's health](https://www.servicenow.com/docs/access?context=exploring-dex-self-service&family=yokohama&ft:locale=en-US)**
+
+Digital End-user Experience Self-service \(DEX Self-service\) enables you to check the performance of your device using a Device health check. You can check the device health on demand and resolve the issues detected by DEX by leveraging the recommended resolutions for the issues. The resolutions can either be remedial actions \(that you can trigger via a button\), self-help instructions, or URL. You can also use Device actions which can be triggered even when no issues are detected on the device.  These actions enable you to maintain good performance of the devices and applications
+
+
+ -   **[Manage your system compliance report](https://www.servicenow.com/docs/access?context=manage-compliance-report&family=yokohama&ft:locale=en-US)**
 
 Identify vulnerabilities and keep end-user devices secure and efficient by confirming that they meet security policies and regulatory standards. The Compliance report provides a comprehensive view of how well the end-user devices are adhering to the security measures of your organization.
 
@@ -170,7 +175,24 @@ Zurich
 
 </td><td>
 
--   **[View collected metrics with Metrics analyzer](https://www.servicenow.com/docs/access?context=view-dex-metrics&family=zurich&ft:locale=en-US)**
+-   **[Diagnose and resolve issues on DEX monitored devices](https://www.servicenow.com/docs/access?context=now-assist-itsm-dex-diagnosis-resolution-workflow&family=zurich&ft:locale=en-US)**
+
+Service desk agents can diagnose and resolve Zoom call quality issues using the DEX issue diagnosis and resolution agentic workflow, which integrates Zoom-specific diagnostics that correlate device, network, and application data.
+
+-   **[AI-powered root cause analysis for Zoom call quality issues](https://www.servicenow.com/docs/access?context=investigate-and-resolve-zoom-call-issues&family=zurich&ft:locale=en-US)**
+
+Use Now Assist for Zoom call issues to identify the root cause of call quality degradation and review the supporting metric evidence for deeper insight. The analysis highlights the contributing device and network factors directly in the Zoom call quality view. Get the real-time guidance, including device ready remedial actions, contextual self-help instructions, and relevant knowledge articles to help resolve the issue efficiently.
+
+-   **[Get AI driven insights for boot time performance](https://www.servicenow.com/docs/access?context=investigate-and-resolve-boot-time-issues&family=zurich&ft:locale=en-US)**
+
+Monitor device boot time to identify slow start-up issues and use Now Assist to investigate the root cause and get suggested resolutions, including remedial actions, self-help instructions, and knowledge articles to resolve boot performance problems quickly.
+
+-   **[View GPU device metric details](https://www.servicenow.com/docs/access?context=user-device-metrics&family=zurich&ft:locale=en-US)**
+
+Monitor GPU and VRAM \(Video Random Access Memory\) usage on the Device page to assess graphics performance and identify bottlenecks. GPU usage shows the percentage of graphics processing capacity in use, while VRAM usage highlights memory consumption for graphics intensive workloads. These metrics help detect rendering issues, memory intensive applications, and performance degradation enabling faster investigation and resolution of GPU related device problems.
+
+
+ -   **[View collected metrics with Metrics analyzer](https://www.servicenow.com/docs/access?context=view-dex-metrics&family=zurich&ft:locale=en-US)**
 
 Using the DEX Metrics analyzer, explore and analyze various metrics for Configuration Items \(CIs\) through selecting metrics by application, device, location, and OS.
 
@@ -230,13 +252,35 @@ The DEX base system includes the following new remedial actions:
 DEX administrators can now manage all types of proactive rules \(both metric and configuration-based\) within a unified interface, streamlining rule management across the DEX system.
 
 
+ -   **[Assign ITIL-related roles to DEX users](https://www.servicenow.com/docs/access?context=components-installed-with-dex&family=zurich&ft:locale=en-US)**
+
+Exercise tighter control over the role management system and role delegation. Control who has access to Express list, Alerts, and Incident records after the ITIL-related roles have been removed from the dex\_user or dex\_engineer roles.
+
+-   **[Microsoft Teams call quality](https://www.servicenow.com/docs/access?context=monitor-teams-call-quality&family=zurich&ft:locale=en-US)**
+
+View detailed metrics for the Microsoft Teams calls of a particular user, including call quality, network metrics, and session data, with DEX for Microsoft 365.
+
+-   **[Create a remedial action](https://www.servicenow.com/docs/access?context=create-remedial-action&family=zurich&ft:locale=en-US)**
+
+Access the Create Remedial Action page from the DEX Administration workspace. DEX admins can create a remedial action or link to an existing remedial action to a check definition. To enhance the end-user experience, you can also run the remedial action on multiple impacted devices at once.
+
+-   **[Device health page](https://www.servicenow.com/docs/access?context=user-health-card&family=zurich&ft:locale=en-US)**
+
+View real-time data from the past 24 hours for alerts, change requests, and incidents impacting a device in the Device events Timeline chart on the Device health page.
+
+
 </td></tr><tr><td>
 
 Australia
 
 </td><td>
 
--   **[Diagnose and resolve issues on DEX monitored devices](https://www.servicenow.com/docs/access?context=now-assist-itsm-dex-diagnosis-resolution-workflow&family=australia&ft:locale=en-US)**
+-   **[DEX remedial actions](https://www.servicenow.com/docs/access?context=dex-diff-ra&family=australia&ft:locale=en-US)**
+
+Resolve device performance and network connectivity issues with two new remedial actions. The Reset Network Adapter remedial action restores WiFi connectivity and resolves poor network performance despite strong signal strength. The Disable Startup Program remedial action reduces boot time and improves device performance after login by disabling non-essential startup programs.
+
+
+ -   **[Diagnose and resolve issues on DEX monitored devices](https://www.servicenow.com/docs/access?context=now-assist-itsm-dex-diagnosis-resolution-workflow&family=australia&ft:locale=en-US)**
 
 Service desk agents can diagnose and resolve Zoom call quality issues using the DEX issue diagnosis and resolution agentic workflow, which integrates Zoom-specific diagnostics that correlate device, network, and application data.
 
@@ -265,13 +309,56 @@ The ServiceNow AI Platform now brings you a new AI experience with three licensi
 Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
+ -   **[Reviewing top processes by resource usage](https://www.servicenow.com/docs/access?context=process-snapshot&family=australia&ft:locale=en-US)**
+
+Service desk agents can now view automated snapshots of the top 10 CPU and memory-consuming processes directly in the **Investigation** tab of incident records. The snapshots that are captured every 30 minutes are initially triggered when an incident is created and a configuration item is tagged. You can refresh and filter snapshots over different time ranges and monitor processes causing device issues.
+
+-   **[Event monitoring with DEX](https://www.servicenow.com/docs/access?context=event-monitoring-dex&family=australia&ft:locale=en-US)**
+
+Monitor system events on Windows and macOS devices to track critical system events available with your base system, configure additional events to monitor, and review collected event data stored in your ServiceNow instance.
+
+Monitor system-level events, such as application crashes, unexpected shutdowns, disk space warnings, failed login attempts, and service failures. The DEX agent captures event data directly from managed endpoints. Activate or deactivate events or add custom events to extend monitoring beyond the base system catalog.
+
+-   **[View GPU device metric details](https://www.servicenow.com/docs/access?context=user-device-metrics&family=australia&ft:locale=en-US)**
+
+Monitor GPU and VRAM \(Video Random Access Memory\) usage on the Device page to assess graphics performance and identify bottlenecks. GPU usage shows the percentage of graphics processing capacity in use, while VRAM usage highlights memory consumption for graphics intensive workloads. These metrics help detect rendering issues, memory intensive applications, and performance degradation enabling faster investigation and resolution of GPU related device problems.
+
+-   **[Applications](https://www.servicenow.com/docs/access?context=dex-workspace-application-tab&family=australia&ft:locale=en-US)**
+
+Monitor application performance by application version to accelerate incident resolution and improve deployment quality. This enables the Service desk agent in faster root cause analysis and data-driven deployment decisions improving the overall end-user experience.
+
+-   **[Bulk Remediation for Impacted Devices](https://www.servicenow.com/docs/access?context=dex-insights-and-lists&family=australia&ft:locale=en-US)**
+
+Select multiple impacted devices from the Insights page and apply remedial actions in bulk. Service desk agents can now resolve issues across multiple devices simultaneously, improving productivity and reducing manual effort.
+
+-   **[DEX remedial actions](https://www.servicenow.com/docs/access?context=dex-diff-ra&family=australia&ft:locale=en-US)**
+
+The DEX base system includes the new remedial action Sync device to Intune.
+
+
 </td></tr><tr><td>
 
 Brazil
 
 </td><td>
 
-No updates for this release.
+-   **[DEX remedial actions](https://www.servicenow.com/docs/access?context=dex-diff-ra&family=brazil&ft:locale=en-US)**
+
+You can now use remedial actions to start or stop a Windows service, clear the system cache, and reset the print spooler.
+
+-   **[\[Placeholder link text to key execute-remedial-action-subflow\]](https://www.servicenow.com/docs/access?context=execute-remedial-action-subflow&family=brazil&ft:locale=en-US)**
+
+You can now execute remedial actions from Flow designer. Each action runs only when the device is online and the action applies to it.
+
+-   **[Metric rule rate limiting](https://www.servicenow.com/docs/access?context=metric-rule-rate-limiting&family=brazil&ft:locale=en-US)**
+
+Metric rules and event rules are now rate limited per rule on the device. This helps prevent a single noisy rule from flooding the instance with alerts or events.
+
+
+ -   **[Customize DEX alert events](https://www.servicenow.com/docs/access?context=customize-dex-alert-events&family=brazil&ft:locale=en-US)**
+
+A new extension point for metric rule events gives you more control over how events are evaluated before alerts are triggered.
+
 
 </td></tr></tbody>
 </table>## Changes
@@ -316,6 +403,45 @@ Zurich
 By default, the Desktop Assistant home page now has two sections: My resources and Quick links. My resources includes Device health check and Network test cards, while Quick links includes Employee Center and Outages cards.
 
 
+ -   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+-   **[Enhancements to the web and installed apps monitoring setup](https://www.servicenow.com/docs/access?context=admin-new-app-form&family=zurich&ft:locale=en-US)**
+
+Map a DEX application to an existing service in the Service \[cmdb\_service\_offering\] or Service Instance \[cmdb\_service\_auto\] tables.
+
+-   **[Administration cards](https://www.servicenow.com/docs/access?context=administration-cards&family=zurich&ft:locale=en-US)**
+
+Manage the DEX device and application configurations efficiently with the new DEX Administration workspace.
+
+-   **[Track individual application experience scores](https://www.servicenow.com/docs/access?context=dexscr-track-application-experience&family=zurich&ft:locale=en-US) and [Track individual device group experience scores](https://www.servicenow.com/docs/access?context=dexscr-track-device-group-experience&family=zurich&ft:locale=en-US)**
+
+The Suboptimal devices column has been updated in the following pages:
+
+    -   Application health metrics section of the application experience overview page.
+    -   Device health metrics section of the device group page.
+The column now displays links to device lists that have average or poor metric scores, replacing the previous device count.
+
+
+ -   **[Modified Devices page](https://www.servicenow.com/docs/access?context=dex-workspace-devices-tab&family=zurich&ft:locale=en-US)**
+    -   The device view is now optimized and segregated into two tabs based on the user persona. The **All devices** tab is for DEX operators, and the **Devices by ACC status** tab is for DEX operators and DEX admins.
+    -   The application performance tab in the Device page has been enhanced. Filter performance for installed apps and web apps by date and time, and view the performance metrics for the last seven days.
+    -   Access the performance page to view the performance and details of both installed and web applications.
+    -   Filter the active devices to view only the devices that were active in the last five minutes.
+-   **[Updated landing page](https://www.servicenow.com/docs/access?context=dashboard-cards&family=zurich&ft:locale=en-US)**
+
+The world map in the **Devices** section on the DEX landing page now shows the devices list instead of users list. The Impacted Devices card now shows the count of impacted users based on the alerts of both the devices and the applications running on that device.
+
+-   **[Updated users link reference](https://www.servicenow.com/docs/access?context=devices-form&family=zurich&ft:locale=en-US)**
+
+The user link now redirects to Users page in Service Operations Workspace.
+
+-   **[Changed device alerts](https://www.servicenow.com/docs/access?context=user-health-card&family=zurich&ft:locale=en-US)**
+
+View alerts for both your device and its applications in the Alerts section of the Devices page.
+
+
 </td></tr><tr><td>
 
 Australia
@@ -330,7 +456,14 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **[Devices](https://www.servicenow.com/docs/access?context=dex-workspace-devices-tab&family=brazil&ft:locale=en-US)**
+
+The Devices page now includes a link to DEX dashboard, so users with multiple roles can reach the DEX homepage faster.
+
+-   **[Check device health from Employee Center](https://www.servicenow.com/docs/access?context=check-your-device-s-using-employee-center&family=brazil&ft:locale=en-US)**
+
+The Diagnose view in Device Health Check now explains why a category shows a **Poor** or **Average** status with no pending actions. It tells users that their IT team is reviewing additional metrics.
+
 
 </td></tr></tbody>
 </table>## Removed
@@ -473,6 +606,11 @@ Yokohama
 Install Digital End-User Experience by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 
+**Important:**
+
+-   Digital Experience Score​ is supported from the Yokohama release onward. If you see the Digital Experience Score dashboard in Xanadu, you must disable the DEX Score feature. For more information, see the [Disable DEX Score Feature in Xanadu](https://support.servicenow.com/kb?sys_kb_id=5165617f970aaa90f03d739c1253af67&id=kb_article_view) article \[KB2224330\] in the Now Support Knowledge Base.
+-   Digital End-User Experience is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Zurich
@@ -483,6 +621,8 @@ Zurich
 
 Install Digital End-User Experience by requesting it from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home). Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
+
+**Important:** Digital End-User Experience is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 
@@ -495,13 +635,18 @@ Australia
 Install Digital End-User Experience by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
 
 
+**Important:** Digital End-User Experience is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Brazil
 
 </td><td>
 
-No updates for this release.
+-   **Activation information**
+
+Install Digital End-User Experience by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=brazil&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -616,7 +761,10 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **Browser requirements**
+
+Enable the DEX browser extension to monitor web applications for various operational or performance-based metrics on your system. For more information, see [Enable browser extension](https://www.servicenow.com/docs/access?context=enable-dex-browser-extension&family=brazil&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Accessibility information
@@ -669,7 +817,10 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **Accessibility information**
+
+Localization is applicable to DEX in all languages supported by the ServiceNow AI Platform.
+
 
 </td></tr></tbody>
 </table>## Localization information
@@ -825,7 +976,12 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   Digital End-User Experience \(DEX\) detects and fixes potential technology issues before they affect you. Your IT team deploys DEX to monitor computers and applications.
+-   DEX collects usage and performance data from endpoints. It uses metric rules to detect issues, remediate them automatically, and engage you proactively.
+-   With the DEX Desktop Assistant, you can troubleshoot local applications, use Virtual Agent, run network tests, and contact IT support. Admins can send alerts to your Desktop Assistant.
+-   DEX includes DEX Application and Device Health, DEX Content Playbook, and DEX Desktop Assistant. Application and Device Health provides end-to-end visibility into applications, networks, and devices, regardless of location.
+
+ See [Digital End-User Experience](https://www.servicenow.com/docs/access?context=dex-landing-cf&family=brazil&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-xanadu-brazil/rn-combined-intro.md)

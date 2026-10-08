@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/hcls-c
 release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Explore, Care Team Portal, Healthcare Operations, Healthcare and Life Sciences]
 ---
 
@@ -33,7 +33,7 @@ The following plugins provide preconfigured record producers for use with Care T
 -   Care Team Operations for Facilities
 -   Care Team Operations for Environmental Services
 
-For information on the features available with the Care Team Portal, see [Navigate the Care Team Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/hcls-cto-using-portal.md).
+For information on the features available with the Care Team Portal, see [Using Care Team Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/care-team-portal-using.md).
 
 ## Accessing the Care Team Portal
 
@@ -53,5 +53,7 @@ Virtual Agent can be used to quickly obtain information, decide, and perform com
 
 To interact with Virtual Agent, simply select the chat window icon on the bottom right-hand corner of the screen.
 
-For more information on Virtual Agent, see .
+For more information on Virtual Agent, see [Virtual Agent as an application design element](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/virtual-agent.md).
+
+With ServiceNow Otto, care team members can use this chat to create support requests conversationally instead of filling out a form. They describe the issue, answer any follow-up questions, and confirm, and the case is created for the right service department. See [Request care team assistance agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/healthcare-operations-core/hco-now-assist-request-assistance.md).
 

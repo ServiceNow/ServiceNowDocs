@@ -9,7 +9,7 @@ classification: servicenow-studio-classic
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Applications in ServiceNow Studio, Use, ServiceNow Studio, Developing your application, Building applications]
+breadcrumb: [Applications in ServiceNow Studio, Use, ServiceNow Studio, Build, AI Workflow Factory, Building applications]
 ---
 
 # Delete an app from ServiceNow Studio

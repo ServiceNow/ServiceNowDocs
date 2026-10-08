@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/rn-summary-plugin-info.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-25"
-reading_time_minutes: 11
+last_updated: "2026-10-08"
+reading_time_minutes: 12
 breadcrumb: [Release notes summaries for Brazil features, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
@@ -34,15 +34,13 @@ AI Control Tower
 
 AI Policy Framework \(sn\_ai\_policy\_framework\): Mitigate AI exposure through policies.
 
- \(\): 
-
 </td></tr><tr><td>
 
-Case and Knowledge Management
+App Engine Management Center
 
 </td><td>
 
- \(\): 
+Developer Sandboxes License Management \(com.glide.dsb.licensing\): Use this plugin to assign sandbox packs from AEMC. Install on your controller \(production\) instance to distribute sandbox packs to non-production instances. Use the com.glide.dsb.licensing plugin from only one production instance, the instance you're using to assign packs.
 
 </td></tr><tr><td>
 
@@ -86,9 +84,19 @@ Quote Experience \(`sn_quote_mgmt_adv`\): Enables the ServiceNow® Quote Experie
 
 </td></tr><tr><td>
 
+Customer Service Problem Management
+
+</td><td>
+
+Service Lifecycle Request \(com.sn\_slc\): Provides Service Lifecycle Request management.
+
+</td></tr><tr><td>
+
 Customer Success Management
 
 </td><td>
+
+Meeting Scheduler Plus \(app-meeting-sch-plus\): Deploys structured meeting agenda item and next step tracking alongside the existing meeting management app.
 
 Technology Account Management Experiences \(sn\_tech\_exp\): View account 360 and executive portfolio page of the customer or partner account.
 
@@ -112,11 +120,19 @@ Data Center and Network Asset Management \(sn\_dcnam\): Data Center and Network 
 
 </td></tr><tr><td>
 
-Employee Slate for ITSM
+Developer Sandboxes
 
 </td><td>
 
- \(\): 
+Developer Sandbox License Management \(`com.glide.dsb.licensing` \): Use this plugin to assign sandbox licenses from AEMC. Install on your controller instance to distribute sandbox packs to non-production instances. Use the com.glide.dsb.licensing plugin from only one production instance, the instance you're using to assign licenses.
+
+</td></tr><tr><td>
+
+Enterprise Architecture
+
+</td><td>
+
+Enterprise Architecture for AICT \(com.sn\_ea\_aict\): Provides the shared data model that connects AI systems and business applications, independently of the Enterprise Architecture Workspace plugin. Installs automatically as a dependency of AI Control Tower Core \(app-ai-governance\) application.
 
 </td></tr><tr><td>
 
@@ -127,22 +143,6 @@ Enterprise Asset Management
 -   Enterprise Data Transform \(sn\_ent\_datamap\): Provides access to all enterprise data transform tables.
 -   Enterprise Data Transform Components \(sn\_ent\_datamap\_components\): Provides access to seismic workspace components.
 -   AI Agents for Enterprise \(sn\_ent\_aia\): Provides AI skills related to model categories and classifications.
-
-</td></tr><tr><td>
-
-ITSM MCP Server
-
-</td><td>
-
- \(\): 
-
-</td></tr><tr><td>
-
-MCP Server Console
-
-</td><td>
-
-Model Context Protocol Server \(sn\_mcp\_server\): MCP Server Console enables secure and governed access to functionality on a ServiceNow instance for AI applications with Model Context Protocol \(MCP\) servers.
 
 </td></tr><tr><td>
 
@@ -196,6 +196,22 @@ WebRTC Voice \(sn-webrtc\): The WebRTC voice feature for self-service enables us
 
 </td></tr><tr><td>
 
+Service Exchange \(formerly Service Bridge\)
+
+</td><td>
+
+ \(\): 
+
+</td></tr><tr><td>
+
+ServiceNow Cowork
+
+</td><td>
+
+ServiceNow Cowork \(sn\_app\_cowork\): Provides the Cowork policy, approval, and configuration records that govern the desktop agent.
+
+</td></tr><tr><td>
+
 Software Asset Management
 
 </td><td>
@@ -212,19 +228,21 @@ ServiceNow Stream Producer \(`com.glide.hub.stream_connect.stream_producer`\): A
 
 </td></tr><tr><td>
 
-Telecommunications Customer 360
-
-</td><td>
-
- \(\): 
-
-</td></tr><tr><td>
-
 Threat Intelligence Security Center
 
 </td><td>
 
 sn\_sec\_cs\_sighting: Integrates Threat Intelligence Security Center with CrowdStrike Falcon NextGen SIEM for sighting search.
+
+</td></tr><tr><td>
+
+Zero Copy Connector for ERP
+
+</td><td>
+
+ \(\): 
+
+ \(\): 
 
 </td></tr></tbody>
 </table>## Deprecated plugins in Brazil
@@ -241,11 +259,11 @@ Details
 
 </th></tr></thead><tbody><tr><td>
 
-AI Control Tower
+App Engine Studio
 
 </td><td>
 
- \(\): 
+PDF Extractor tool \(sn\_pdf\_table\_bldr\): To create tables from PDFs, migrate to Build Agent.
 
 </td></tr><tr><td>
 
@@ -254,14 +272,6 @@ Automation Discovery
 </td><td>
 
 Automation Discovery \(sn\_auto\_discovery\): Starting with the Brazil release, Automation Discovery is no longer deployed, enhanced, or supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base. Emerging Agentic solutions fully replace Automation Discovery and add new functionality. For more information see [AI Agent Studio \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/na-ai-agents.md).
-
-</td></tr><tr><td>
-
-Case and Knowledge Management
-
-</td><td>
-
- \(\): 
 
 </td></tr><tr><td>
 
@@ -276,22 +286,6 @@ Data Catalog Core \(sn\_dcg\_core\): Replaced by ServiceNow Data Catalog \(sn\_d
 Metadata Collectors \(sn\_meta\_collectors\): Replaced by ServiceNow Data Catalog \(sn\_dcg\_app\).
 
 Metadata Collectors Core \(sn\_dcg\_cc\): Replaced by ServiceNow Data Catalog \(sn\_dcg\_app\).
-
-</td></tr><tr><td>
-
-Employee Slate for ITSM
-
-</td><td>
-
- \(\): 
-
-</td></tr><tr><td>
-
-ITSM MCP Server
-
-</td><td>
-
- \(\): 
 
 </td></tr><tr><td>
 
@@ -331,6 +325,14 @@ Gamification Core Framework \(com.snc.gamification\): There is no replacement fo
 
 </td></tr><tr><td>
 
+Service Exchange \(formerly Service Bridge\)
+
+</td><td>
+
+ \(\): 
+
+</td></tr><tr><td>
+
 Service Operations Workspace for ITSM
 
 </td><td>
@@ -345,8 +347,18 @@ ServiceNow Studio
 
 -   ****
 
-Studio \(com.glide.dev-studio\): The new ServiceNow Studio \(sn\_sns\) is the replacement for this plugin. For more information, see [Exploring ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/exploring-servicenow-studio.md).
+Studio \(com.glide.dev-studio\): The new ServiceNow Studio \(sn\_sns\) is the replacement for this plugin. For more information, see .
 
+
+</td></tr><tr><td>
+
+Zero Copy Connector for ERP
+
+</td><td>
+
+ \(\): 
+
+ \(\): 
 
 </td></tr></tbody>
 </table>## Plugins planned for deprecation in Brazil
@@ -362,22 +374,6 @@ Application or feature
 Details
 
 </th></tr></thead><tbody><tr><td>
-
-AI Control Tower
-
-</td><td>
-
- \(\): Planned for deprecation in . 
-
-</td></tr><tr><td>
-
-Case and Knowledge Management
-
-</td><td>
-
- \(\): Planned for deprecation in . 
-
-</td></tr><tr><td>
 
 Cloud Cost Management
 
@@ -403,14 +399,6 @@ Starting with the September 2026 release, Gemma 4 joins our growing portfolio of
 
 </td></tr><tr><td>
 
-Employee Slate for ITSM
-
-</td><td>
-
- \(\): Planned for deprecation in . 
-
-</td></tr><tr><td>
-
 ITOM Cloud Accelerate
 
 </td><td>
@@ -430,14 +418,6 @@ Cloud Action Library \(com.sn.itom.cal\): Planned for deprecation in D release. 
 Cloud Config Management \(com.snc.config.mgmt\): Planned for deprecation in D release. There is no replacement for this plugin.
 
 Cloud Provisioning and Governance \(com.snc.cloud.mgmt\): Planned for deprecation in D release. There is no replacement for this plugin.
-
-</td></tr><tr><td>
-
-ITSM MCP Server
-
-</td><td>
-
- \(\): Planned for deprecation in . 
 
 </td></tr><tr><td>
 
@@ -470,11 +450,27 @@ Operational Technology Discovery includes the following features and application
 
 </td></tr><tr><td>
 
+Performance Analytics
+
+</td><td>
+
+KPI Composer \(sn\_kpi\_compose\): Planned for deprecation in D release. There is no replacement for this plugin.
+
+</td></tr><tr><td>
+
 Self-service and omnichannel engagement for CSM
 
 </td><td>
 
 No plugins are planned for deprecation beyond those listed above.
+
+</td></tr><tr><td>
+
+Service Exchange \(formerly Service Bridge\)
+
+</td><td>
+
+ \(\): Planned for deprecation in . 
 
 </td></tr><tr><td>
 
@@ -509,6 +505,16 @@ Vulnerability Response Integration with Claroty CTD
 
 Vulnerability Response Integration with Claroty CTD \(sn\_clarotyctdvr\): Planned for deprecation by the Canada release.
 
+</td></tr><tr><td>
+
+Zero Copy Connector for ERP
+
+</td><td>
+
+ \(\): Planned for deprecation in . 
+
+ \(\): Planned for deprecation in . 
+
 </td></tr></tbody>
 </table>## Renamed or changed plugins in Brazil
 
@@ -523,14 +529,6 @@ Application or feature
 Details
 
 </th></tr></thead><tbody><tr><td>
-
-AI Control Tower
-
-</td><td>
-
- \(\): 
-
-</td></tr><tr><td>
 
 Agent experience for CSM
 
@@ -550,14 +548,6 @@ CSM Account Hierarchy \(com.snc.sn\_csm\_account\_hierarchy\): Starting with Bra
 
 </td></tr><tr><td>
 
-Case and Knowledge Management
-
-</td><td>
-
- \(\): 
-
-</td></tr><tr><td>
-
 Data Management for CSM
 
 </td><td>
@@ -571,22 +561,6 @@ Customer Data Models for B2B2C \(com.sn\_csm\_b2b\_consumers\): Renamed to CRM B
 Customer Service Install Base Characteristics \(com.snc.install\_base\_characteristics\): Renamed to Customer Install Base Characteristics \(com.snc.install\_base\_characteristics\).
 
 Customer Service Install Base Management \(com.snc.install\_base\): Renamed to Customer Install Base Management \(com.snc.install\_base\).
-
-</td></tr><tr><td>
-
-Employee Slate for ITSM
-
-</td><td>
-
- \(\): 
-
-</td></tr><tr><td>
-
-ITSM MCP Server
-
-</td><td>
-
- \(\): 
 
 </td></tr><tr><td>
 
@@ -606,11 +580,29 @@ No plugins were renamed or changed in this release.
 
 </td></tr><tr><td>
 
+Service Exchange \(formerly Service Bridge\)
+
+</td><td>
+
+ \(\): 
+
+</td></tr><tr><td>
+
 ServiceNow Otto for Virtual Agent
 
 </td><td>
 
 Conversational Integration with Apple Messages for Business \(com.sn.va.abc.adapter\): Deprecation of NLU functionality and migration to LLM support.
+
+</td></tr><tr><td>
+
+Zero Copy Connector for ERP
+
+</td><td>
+
+ \(\): 
+
+ \(\): 
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Release notes summaries for Brazil features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/release-notes-summaries.md)

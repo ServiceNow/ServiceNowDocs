@@ -30,19 +30,12 @@ Role required: ot\_excel\_import\_user
 
 4.  Upload the updated Excel file to the OT Excel SGC Import Task record.
 
+    For more information about completing the custom column import with an import task and validating the imported staging records, see [Create an import task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/create-import-task-excel-sgc.md) and [Validate imported staging records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/run-validations.md).
+
 
 ## What to do next
 
-[Complete the RTE mapping for Extract Transform Load \(ETL\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/complete-rte-mapping-etl-sgc-excel.md)r
+Update the column mapping script with the custom column. For more information, see [Update the column mapping script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/update-column-mapping-script-sgc-excel.md).
 
 **Parent Topic:**[Add a custom column to the staging table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/add-custom-column-staging-table.md)
-
-**Related topics**  
-
-
-[Create an import task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/create-import-task-excel-sgc.md)
-
-[Validate imported staging records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/run-validations.md)
-
-[Trigger a CMDB import for valid staging records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/trigger-cmdb-import.md)
 

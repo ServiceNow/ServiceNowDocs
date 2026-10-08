@@ -103,7 +103,7 @@ References
 </td><td>
 
 -   
--   
+-   [Register target instance \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreateACloneTarget.md)
 
 </td></tr><tr><td>
 

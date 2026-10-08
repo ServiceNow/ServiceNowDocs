@@ -1,6 +1,6 @@
 ---
 title: Roles and responsibilities for AI administration
-description: Each AI capability on the ServiceNow AI Platform requires specific administrative roles for installation, configuration, and ongoing management. Identifying these roles before implementation helps you plan access and assign accountability for each capability.
+description: AI capabilities on the ServiceNow AI Platform require specific administrative roles. Identify these roles before implementation to plan access and assign accountability.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/platai-roles-responsibilities-ai-admin.html
 release: brazil
@@ -13,7 +13,7 @@ breadcrumb: [Implementing AI, Getting started with AI, Enable AI Experiences]
 
 # Roles and responsibilities for AI administration
 
-Each AI capability on the ServiceNow AI Platform requires specific administrative roles for installation, configuration, and ongoing management. Identifying these roles before implementation helps you plan access and assign accountability for each capability.
+AI capabilities on the ServiceNow AI Platform require specific administrative roles. Identify these roles before implementation to plan access and assign accountability.
 
 AI administration on the ServiceNow AI Platform is distributed across multiple specialized roles rather than a single platform-wide role. Each tool has its own dedicated administrative role. This separation supports least-privilege access and lets organizations assign responsibility to the people closest to each capability.
 

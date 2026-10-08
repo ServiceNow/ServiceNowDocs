@@ -20,12 +20,6 @@ Using the reference topics, learn about the components, such as the roles, table
 Several types of components are installed with installation of the Health and Safety Contractor Management application, including tables, user roles, and scheduled jobs. The application also installs related store applications if they aren’t already installed.
 -   **[Domain separation and Health and Safety Contractor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/health-and-safety-contractor-management/hs-contractor-management-domain-separation.md)**  
 Domain separation is supported for Health and Safety Contractor Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
--   **[Components installed with Health and Safety Contractor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/health-and-safety-contractor-management/components-installed-with-hs-contractor-mgmt.md)**  
-Several types of components are installed with installation of the Health and Safety Contractor Management application, including tables, user roles, and scheduled jobs. The application also installs related store applications if they aren’t already installed.
--   **[Domain separation and Health and Safety Contractor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/health-and-safety-contractor-management/hs-contractor-management-domain-separation.md)**  
-Domain separation is supported for Health and Safety Contractor Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
-
-**Parent Topic:**[Health and Safety Contractor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/health-and-safety-contractor-management/hs-contractor-mgmt-landing-page.md)
 
 **Parent Topic:**[Health and Safety Contractor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/health-and-safety-contractor-management/hs-contractor-mgmt-landing-page.md)
 

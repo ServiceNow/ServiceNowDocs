@@ -8,7 +8,7 @@ product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: concept
 last_updated: "2026-08-05"
-reading_time_minutes: 2
+reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, model, integration, data hub, zero, copy, connector, sap, system, erp system]
 breadcrumb: [Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
@@ -28,19 +28,4 @@ Zero Copy Connector for ERP provides a standard set of models, such as SAP Mater
 ServiceNow administrators configure Zero Copy Connector for ERP ERP systems. Zero Copy Connector for ERP supports connecting to multiple systems.
 
 Zero Copy Connector for ERP regularly scans all connected ERP systems for the latest heartbeat, which indicates whether a ping to the ERP system connection is successful.
-
--   **[View a list of Zero Copy Connector for ERP systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/view-and-monitor-erp-systems-health.md)**  
-Check the ERP \(Enterprise Resource Planning\) systems list in Zero Copy Connector for ERP to view the heartbeats and retrieval status of your ERP systems.
--   **[Create an ERP system in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/create-an-erp-system.md)**  
-Configure an ERP system in Zero Copy Connector for ERP to register your ERP connection so that models and tables can use it as a data source.
--   **[Edit and delete ERP systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/edit-and-delete-erp-systems.md)**  
-After creating an ERP \(Enterprise Resource Planning\) system, you can edit system details or delete the system at any time.
--   **[View Zero Copy Connector for ERP software information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/view-erp-system-information.md)**  
-In Zero Copy Connector for ERP \(Enterprise Resource Planning\) , view software information including ERP family, database type, and more.
--   **[View Zero Copy Connector for ERP system heartbeat information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/view-erp-system-heartbeat-information.md)**  
-In Zero Copy Connector for ERP \(Enterprise Resource Planning\), the heartbeat shows the status, date, and time of connections to the ERP system, along with error information.
--   **[View Zero Copy Connector for ERP partner profile information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/view-erp-system-partner-profile-information.md)**  
-In Zero Copy Connector for ERP \(Enterprise Resource Planning\), view partner profile information including number and type.
-
-**Parent Topic:**[Configuring Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-integration-configuration-overview.md)
 

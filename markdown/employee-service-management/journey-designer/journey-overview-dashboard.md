@@ -255,5 +255,3 @@ Displays tasks based on the start date of the employee.
 </td></tr></tbody>
 </table>**Parent Topic:**[Journey designer dashboards and reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/journey-designer/jny-report-dashboards.md)
 
-**Parent Topic:**[Journey designer dashboards and reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/journey-designer/jny-report-dashboards.md)
-

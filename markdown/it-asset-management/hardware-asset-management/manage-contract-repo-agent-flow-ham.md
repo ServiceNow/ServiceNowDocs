@@ -66,7 +66,7 @@ The following workflow explains the obligation extraction process:
 6.  Approved obligations are automatically added as obligation records in the **Obligations** tab of the contract record.
 7.  Obligation tasks are created.
     -   For a recurring schedule, the obligation tasks are automatically created for the obligation record based on the defined schedule.
-    -   For an ad hoc schedule, the user with the sn\_cm\_obligation.obligation\_fulfiller role creates an obligation task. For details, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/create-obligation-task-ham.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/create-obligation-task-ham.md).
+    -   For an ad hoc schedule, the user with the sn\_cm\_obligation.obligation\_fulfiller role creates an obligation task. For details, see [Create an ad hoc obligation task in Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/create-obligation-task-ham.md).
 8.  The assigned user with the sn\_cm\_obligation.obligation\_user role is notified when the obligation task is created.
 9.  The assigned user works on the obligation task and submits it for review.
 
@@ -133,6 +133,8 @@ Use the contract playbook to review, edit, approve, or reject obligations automa
 [Create a disposal order]()
 
 [Donate assets to charity organizations]()
+
+[Calculate the active lifecycle phase for a model]()
 
 [Manage asset bundles from your inventory]()
 

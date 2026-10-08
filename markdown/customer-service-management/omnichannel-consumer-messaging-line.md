@@ -202,4 +202,5 @@ Configure live agent handoff from Virtual Agent to CSM agents.
 Admin
 
 </td></tr></tbody>
-</table>
+</table>See [Integrating LINE with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/messg-integrate-line-csm.md).
+

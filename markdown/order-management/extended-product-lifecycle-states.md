@@ -103,5 +103,3 @@ Move a product offering or specification through the In Test and Staged statuses
 
 [Product Catalog Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/product-catalog-management-properties.md)
 
-[creating-publishing-new-versions-product-offerings]
-

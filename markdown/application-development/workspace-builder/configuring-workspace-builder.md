@@ -18,7 +18,6 @@ Install and configure Workspace Builder to enable users to build custom workspac
 
 ## Configuration overview
 
-## Workspace Builder plugin
-
-To use Workspace Builder, you must enable the com.devsnc\_sn\_workspace\_builder plugin in the sn\_ws\_builder scope. It is a dependency of com.snc.aes.starter\_workspace\_template.
+1.  [Install App Engine Studio from the ServiceNow Store.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-studio/download-aes-first-time.md)
+2.  [Install the Workspace Builder for App Engine app, if it's not already installed on your instance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/workspace-builder/installing-workspace-builder.md)
 

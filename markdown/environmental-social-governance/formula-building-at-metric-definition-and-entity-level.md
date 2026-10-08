@@ -24,7 +24,7 @@ You can set default values for operands in the Calculated Metric Definition Sett
 
 Each time you save an edited formula on a calculated metric definition that has been executed, a new formula version is created. Formula versions are listed in the **Versions** related list on the calculated metric definition. Each version has an Applicable from date and an Applicable to date. The Applicable to date is empty for the currently active version and is set to the day before the new version's Applicable from date when a newer version is saved.
 
-You can edit a formula at any time, including after the calculated metric definition has been executed. For more information, see .
+You can edit a formula at any time, including after the calculated metric definition has been executed. For more information, see [Edit a calculated metric definition formula](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/edit-a-calculated-metric-definition-formula.md).
 
 ## Formula calculation levels
 
@@ -45,6 +45,8 @@ Specify the formula context, the tables, and the identifiers before you can buil
 Directly import any formula that is stored in Microsoft Excel spreadsheets into a calculated metric definition. This import helps in quickly building your formula for performing calculations.
 -   **[Create a formula](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/create-a-formula.md)**  
 Build your own formula using either entities or metric definitions.
+-   **[Edit a calculated metric definition formula](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/edit-a-calculated-metric-definition-formula.md)**  
+Edit a formula in a calculated metric definition to update the calculation logic or apply changes to historical data.
 
 **Parent Topic:**[Configuring GRC: Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/environmental-social-governance/configuring-grc-metrics.md)
 

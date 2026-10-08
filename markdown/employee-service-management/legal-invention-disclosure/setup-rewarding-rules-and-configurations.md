@@ -166,5 +166,3 @@ The status of the application at which the inventor should be rewarded.The stage
 </table>
 **Parent Topic:**[Configure Legal Invention Disclosure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/legal-invention-disclosure/configure-legal-invention-disclosure.md)
 
-**Parent Topic:**[Configure Legal Invention Disclosure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/legal-invention-disclosure/configure-legal-invention-disclosure.md)
-

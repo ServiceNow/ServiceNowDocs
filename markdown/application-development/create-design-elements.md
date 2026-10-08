@@ -14,7 +14,7 @@ breadcrumb: [Build your application, Exploring professional development, Buildin
 
 After the application’s data model is created, secured, and populated with data, create the design elements to access that data.
 
-**Note:** Consider creating applications and experiences with help from agentic AI. For more information, see [Agentic development on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/use-ai-capabilities-in-custom-apps.md).
+**Note:** Consider creating applications and experiences with help from agentic AI. For more information, see [Build applications with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/build-ai-workflow-factory-prime.md).
 
 -   **[Primary interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/primary-interfaces.md)**  
 The primary way for users to interact with a data model is through forms and lists or through mobile.

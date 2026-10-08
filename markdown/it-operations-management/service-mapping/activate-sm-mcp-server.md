@@ -25,6 +25,8 @@ Before activating the CMDB MCP Server, confirm the following requirements are me
 -   You have the CMDB MCP Server \[sn\_cmdb\_mcp\_server\], version 1.1.1 or later, application installed.
 -   You have the roles required as described in [Configure roles for the Service Mapping MCP tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/service-mapping/sm-mcp-config-role-hierarchy.md).
 
+**Important:** The Service Mapping tools are added to the CMDB MCP Server only if com.sn.itom.sm.gen.ai was active when the CMDB MCP Server application was installed. If com.sn.itom.sm.gen.ai was activated after the application was installed, reinstall the CMDB MCP Server \[sn\_cmdb\_mcp\_server\] application to add the Service Mapping tool records.
+
 Role required: admin assigned with the sn\_mcp\_server.admin role, and the oauth\_admin \(or mi\_admin\) role
 
 \[Omitted image "sm-mcp-roles-sep26.png"\] Alt text: sn\_sm\_gen\_ai.sm\_mcp\_admin contains sn\_sm\_gen\_ai.sm\_mcp\_user and service\_mapping\_admin. sn\_sm\_gen\_ai.sm\_mcp\_user contains service\_mapping\_user and sn\_mcp\_server.viewer.

@@ -19,7 +19,7 @@ Change a sentiment analysis insight to display sentiment data from a different f
 
 ## Before you begin
 
-Role required: admin or maint
+Role required: admin
 
 General ServiceNow platform knowledge is required for this procedure.
 

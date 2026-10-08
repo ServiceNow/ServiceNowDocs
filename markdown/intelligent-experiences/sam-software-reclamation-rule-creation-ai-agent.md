@@ -16,8 +16,8 @@ This Software Asset Management agent analyzes software utilization and spend, th
 
 ## Workflow
 
-1.  Identify the target product. If a Product ID is provided, use it directly. Otherwise, present available products for the user to select.
-2.  Fetch reclamation rule suggestions for the product. If a rule already exists, show the user a link to it and end.
+1.  Identify the target product. If no product ID is available in the agent's context, present available products for the user to select.
+2.  Fetch reclamation reclamation rule suggestions for the product. If a rule already exists, show the user a link to it and end the conversation.
 3.  Analyze utilization and spend data, then present the analysis alongside a draft reclamation rule for user review.
 4.  Collect feedback. The user can approve the draft, request changes \(including reclamation type, thresholds, and other rule details\), or cancel. Iterate until approved or cancelled.
 5.  Create the reclamation rule using the approved details.

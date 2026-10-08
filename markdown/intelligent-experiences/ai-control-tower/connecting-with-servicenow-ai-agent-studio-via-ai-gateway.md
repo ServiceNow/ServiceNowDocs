@@ -9,7 +9,7 @@ classification: ai-control-tower
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Connect to MCP servers Via AI Gateway, AI Gateway, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
+breadcrumb: [AI Gateway, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # Connecting with AI Agent Studio Via AI Gateway
@@ -48,4 +48,6 @@ Role required: an\_aia.admin
 ## Result
 
 The agent is configured to use the MCP Server through AI Gateway. All requests from the agent to the MCP Server are routed through AI Gateway for governance, security, and observability.
+
+**Parent Topic:**[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/connect-to-mcp-servers.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/connect-to-mcp-servers.md)
 

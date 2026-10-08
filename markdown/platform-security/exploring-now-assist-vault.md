@@ -16,7 +16,7 @@ With the ServiceNow Otto for Vault application, you can automate many tasks in V
 
 ## ServiceNow Otto panel in ServiceNow Vault console
 
-The ServiceNow Otto panel in ServiceNow Vault console lists common security tasks. Selecting a task opens a conversational interface that lets you accomplish the task through prompts. For more information about the ServiceNow Otto conversational interface, see .
+The ServiceNow Otto panel in ServiceNow Vault console lists common security tasks. Selecting a task opens a conversational interface that lets you accomplish the task through prompts. For more information about the ServiceNow Otto conversational interface, see [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-panel-overview.md).
 
 \[Omitted image "ask-otto.png"\] Alt text: ServiceNow Otto panel with three skills shown.
 

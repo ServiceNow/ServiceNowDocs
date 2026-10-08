@@ -7,8 +7,8 @@ release: brazil
 product: Now Assist for Configuration Management Database \(CMDB\)
 classification: now-assist-for-configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 3
+last_updated: "2026-10-05"
+reading_time_minutes: 4
 keywords: [stale CI, CMDB staleness, CI rediscovery, CI retirement]
 breadcrumb: [Use generative AI skills, ServiceNow Otto for Configuration Management Database \(CMDB\), Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -21,7 +21,7 @@ A CI is set to stale when its record in the CMDB is no longer updated to reflect
 
 Staleness thresholds are defined in the CI Class Manager. Default thresholds are 60 or 90 days without an update or rediscovery. When a CI exceeds its threshold, the system can trigger remediation actions such as rediscovery or retirement through the Data Manager. The primary interface for managing staleness is CMDB success advisor.
 
-## Replacement CI Staleness Agent \(Tom Brotherton\)
+## Replacement CI Staleness Agent
 
 The Replacement CI Staleness Agent is a lightweight, semi-interactive version of Data Manager. It targets users who are not power users of the CMDB and aren't managing the CI life-cycle independently. The agent provides straightforward configurations per CI class to manage the flow from fresh CI to stale, attestation, retirement, archival, and deletion.
 
@@ -35,7 +35,7 @@ Key configuration options include:
 
 ## Causes of staleness
 
-Stale CMDB data undermines every downstream process — incident management, change management, compliance audits, and vulnerability tracking all suffer when your CMDB data is unreliable.
+Stale CMDB data undermines every downstream process. Incident management, change management, compliance audits, and vulnerability tracking all suffer when your CMDB data is unreliable.
 
 -   No Consistent Definition: There is no standard for what "stale" means. In addition, many CI classes are non-discoverable by nature, so they quickly appear stale.
 -   Discovery Failures: Network issues, expired credentials, and configuration errors prevent discovery methods from keeping CIs current.
@@ -53,7 +53,19 @@ The staleness agentic workflow provides end-to-end automation to define, redisco
 
 For each recommended action, the system displays all related CIs with a link to each CI record so you can review the list before applying the action. You can apply the action to all CIs in the group, select a subset, or ignore the recommendation.
 
-CIs determined to be non-discoverable are marked for retirement and handled by the Data Manager. For manually entered or non-discovered CIs, the system uses activity signals — such as events, incidents, or other actions performed on the CI — to determine whether the CI is still in use before recommending retirement.
+CIs determined to be non-discoverable are marked for retirement and handled by the Data Manager. For manually entered or non-discovered CIs, the system uses activity signals, such as events, incidents, or other actions performed on the CI. These signals determine whether the CI is still in use before recommending retirement.
+
+## AI-triggered remediation
+
+On the Data Foundations advisor dashboard, the Stale CIs card displays its own **Ask Otto** action. This action is separate from the Remediation actions panel reached from the KPI Details page.
+
+Selecting **Ask Otto** opens a ServiceNow Otto panel conversation with the CMDB Staleness Agent. Each selection starts a new conversation.
+
+The **Ask Otto** action appears only when the ServiceNow Otto panel is enabled on the instance and the agent is active. The agent requires a CMDB editor-level role and the panel user role. If you hold only the CMDB success advisor scope-user role, the panel shows **Learn more** instead.
+
+When the **Ask Otto** action isn't available for any reason, the panel falls back to **Review policies**.
+
+The Duplicate CIs card on the same dashboard has its own **Ask Otto** action for a separate agent, the CMDB Duplicate CIs Agent. The agent is part of the Feature Preview Program. For more information, see [Feature Preview Program](https://www.servicenow.com/docs/r/platform-administration/feature-preview-program.html).
 
 ## Supported discovery sources
 

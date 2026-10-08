@@ -39,15 +39,15 @@ Role required: sn\_ai\_governance.ai\_steward
 
 6.  Approve or reject the offboarding request.
 
-<table><thead><tr><th align="left" id="d44606e128">
+<table><thead><tr><th align="left" id="d52127e128">
 
 Option
 
-</th><th align="left" id="d44606e131">
+</th><th align="left" id="d52127e131">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d44606e137">
+</th></tr></thead><tbody><tr><td id="d52127e137">
 
 **Approve the request.**
 
@@ -58,7 +58,7 @@ Description
 3.  Confirm the approval. AI Control Tower moves the asset into the offboarding lifecycle stage and generates the offboarding tasks defined by the offboarding playbook.
 
 
-</td></tr><tr><td id="d44606e161">
+</td></tr><tr><td id="d52127e161">
 
 **Reject the request.**
 

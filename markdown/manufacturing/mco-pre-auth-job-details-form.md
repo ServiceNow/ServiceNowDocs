@@ -40,6 +40,14 @@ Part number of the product that is repaired.
 
 </td></tr><tr><td>
 
+Pre-auth case line
+
+</td><td>
+
+Select the required pre-auth case line.Only the approved charge lines are displayed.
+
+</td></tr><tr><td>
+
 Repair action
 
 </td><td>

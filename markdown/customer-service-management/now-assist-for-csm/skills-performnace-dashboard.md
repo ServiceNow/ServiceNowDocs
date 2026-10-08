@@ -21,12 +21,11 @@ Verify that:
 
 -   You have the required admin role.
 -   ServiceNow Otto for CSM skills are active in your instance.
--   Analytics data collection is enabled.
 -   You have at least one ServiceNow Otto for CSM product configured.
 
 ## View the Skills Performance dashboard
 
-1.  Navigate to **AI Admin Hub** &gt; **Analytics** &gt; **Skills Performance**.
+1.  Navigate to **AI Admin Hub** &gt; **Performance** &gt; **Skills Performance**.
 2.  Use the filters to refine your view:
 
     -   **Date**: Select the time period to analyze
@@ -50,7 +49,7 @@ Usage metrics across the following ServiceNow Otto for CSM skills are:
 
 ## Understand the performance indicators
 
-The GenAI skills dashboards within Platform Analytics provide comprehensive metrics for tracking skill usage across CSM record and interaction pages. The dashboards include several default widgets that deliver insight into skill performance and user adoption. The **Skills Performance** dashboard provides the following key visualizations:
+The GenAI skills dashboard provides comprehensive metrics for tracking skill usage across CSM record and interaction pages. The dashboards include several default widgets that deliver insight into skill performance and user adoption. The **Skills Performance** dashboard provides the following key visualizations:
 
 Default widgets:
 

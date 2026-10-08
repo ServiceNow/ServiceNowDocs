@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-australia-brazil/brazil-australia-customersuccessmanagement-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
@@ -123,18 +123,27 @@ Brazil
 
 </td><td>
 
--   **[Touchpoint meetings](https://www.servicenow.com/docs/access?context=account-lifecycle-meeting-page&family=brazil&ft:locale=en-US)**
+-   **[Meeting agenda items and next steps](https://www.servicenow.com/docs/access?context=account-lifecycle-meeting-scheduler-plus&family=brazil&ft:locale=en-US)**
+
+Capture structured meeting agendas and follow-ups instead of relying on a single freeform text field. Record each agenda topic as a Meeting Agenda Item with a state \(Planned, Discussed, or Deferred\), allotted time, presenter, and decision. Capture unresolved follow-ups from a meeting as Meeting Next Steps, and later triage each one by converting it to an action item or dropping it.
+
+-   **[Engagement onboarding links](https://www.servicenow.com/docs/access?context=account-lifecycle-engage-onb-links&family=brazil&ft:locale=en-US)**
+
+Associate a single engagement with multiple onboarding cases directly in the platform, without manual workarounds. A new many-to-many relationship connects engagements to onboarding cases. The **Applicable Onboarding Cases** related list appears on the Engagement record, and the **Applicable Engagements** related list appears on the Onboarding Case record.
+
+
+ -   **[Touchpoint meetings](https://www.servicenow.com/docs/access?context=account-lifecycle-meeting-page&family=brazil&ft:locale=en-US)**
 
 Automate the generation, updating, and enrichment of conversation briefs by integrating meeting transcripts, emails, and notes. Identify key discussion topics, risks, issues, and action items.
 
--   **[AI generated success plays](https://www.servicenow.com/docs/access?context=account-lifecycle-360-view-reco-actions&family=brazil&ft:locale=en-US)**
+-   **[AI recommended success plays](https://www.servicenow.com/docs/access?context=account-lifecycle-360-view-reco-actions&family=brazil&ft:locale=en-US)**
 
 Guide customer success managers by recommending AI-generated success plays for users in neutral or positive states. Examples include sustained adoption, high CSAT or NPS scores, or value realization milestones.
 
--   **[Engagement brief](https://www.servicenow.com/docs/access?context=account-lifecycle-exec-insight-gen&family=brazil&ft:locale=en-US)**
-
-Monitor individual engagement health from the Engagement Record Page with a daily AI-generated summary. The summary synthesizes risk, declining metrics, opportunities, team activity changes, and upcoming changes into a prioritized, digestible brief.
-
+-   **[AI powered executive briefings](https://www.servicenow.com/docs/access?context=account-lifecycle-exec-insight-gen&family=brazil&ft:locale=en-US)**
+    -   Monitor individual engagement health from the Engagement Record Page with a daily AI-generated summary. The summary synthesizes risk, declining metrics, opportunities, team activity changes, and upcoming changes into a prioritized, digestible brief.
+    -   Review recent account activity from the Account 360 Overview tab with a daily AI-generated account briefing.
+    -   Track prioritized activities across accounts from the Executive Portfolio dashboard with an AI-generated portfolio briefing.
 -   **[Technology Account 360](https://www.servicenow.com/docs/access?context=technology-account-360&family=brazil&ft:locale=en-US)**
 
 Use the Technology Account 360 to get a unified view of customer or partner account details combining account health, financial, product usage, and open tasks.
@@ -175,7 +184,10 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **[Meeting page](https://www.servicenow.com/docs/access?context=account-lifecycle-meeting-page&family=brazil&ft:locale=en-US)**
+
+The prep brief now uses real meeting data for its AI-generated summary, fixing issues that caused fabricated citations and inaccurate sentiment claims.
+
 
 </td></tr></tbody>
 </table>## Removed
@@ -435,10 +447,8 @@ Brazil
 
 </td><td>
 
--   Automatically generate, update, and enrich conversation briefs for touchpoint meetings by integrating transcripts, emails, and notes.
--   Guide customer success managers by recommending AI-generated success plays for customers in neutral or positive states.
--   Monitor individual engagement health from the Engagement Record Page with a daily AI-generated summary.
--   Use the Technology Account 360 to get a unified view of customer or partner account details combining account health, financial, product usage, and open tasks.
+-   Capture meeting agenda items and follow-up next steps as structured records instead of freeform text.
+-   Associate a single engagement with multiple onboarding cases.
 
  See [Account Lifecycle Events](https://www.servicenow.com/docs/access?context=account-lifecycle-events-landing&family=brazil&ft:locale=en-US) for more information.
 

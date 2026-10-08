@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Recall a campaign phase, Create a campaign, Recall management, MCO workspace, Use, Manufacturing Commercial Operations]
+breadcrumb: [ServiceNow Otto Agentic workflows, AI in Manufacturing Commercial Operations, Explore, Manufacturing Commercial Operations]
 ---
 
 # Plan and execute recall campaign phases and sub-phases using ServiceNow Otto
@@ -52,8 +52,6 @@ The Plan and Execute Recall Campaign Phases AI agent generates and manages recal
 
     The agent generates a phased roll-out list with phases and subphases. All phases and subphases are displayed.
 
-
-**Parent Topic:**[Recall a campaign phase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/mco-recall-campaign-phases.md)
 
 **Related topics**  
 

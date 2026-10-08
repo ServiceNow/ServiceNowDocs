@@ -16,7 +16,7 @@ Create and configure cloud service accounts at ServiceNow AI Platform for the co
 
 OCI service account is a type of identity used to authenticate and authorize access to OCI resources and services. It provides a way for applications, services, and users to securely interact with OCI resources. Service accounts are often used for automated processes, applications, or services running within OCI, allowing them to access resources according to the defined permissions and policies.
 
-## Verify the REST API Permissions
+## Verify the REST API permissions
 
 Download the [Cloud Discovery patterns spreadsheet](https://downloads.docs.servicenow.com/resource/enus/api/servicenow-discovery-patterns-api-details.xlsx) so you can grant user permissions required for running the Discovery patterns. In addition to permissions, the spreadsheet also includes useful information such as pattern names, types, CI Classes, and links to vendor documentation. New patterns are available quarterly, so check periodically to be sure you have the latest version of the spreadsheet.
 

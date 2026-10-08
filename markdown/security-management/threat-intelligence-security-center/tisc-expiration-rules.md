@@ -9,6 +9,7 @@ classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
+keywords: [expiration rules, data sources, observable expiration, indicator expiration]
 breadcrumb: [About Rules Engine in TISC, Administer, Threat Intelligence Security Center, Security Operations]
 ---
 
@@ -32,15 +33,15 @@ Role required: sn\_sec\_tisc.admin
 
 3.  Click **New**.
 
-<table id="choicetable_vcd_cj4_zbc"><thead><tr><th align="left" id="d410853e93">
+<table id="choicetable_vcd_cj4_zbc"><thead><tr><th align="left" id="d412724e104">
 
 Field
 
-</th><th align="left" id="d410853e96">
+</th><th align="left" id="d412724e107">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d410853e102">
+</th></tr></thead><tbody><tr><td id="d412724e113">
 
 **Name**
 
@@ -48,7 +49,7 @@ Description
 
 Enter a name for the expiration rule.
 
-</td></tr><tr><td id="d410853e111">
+</td></tr><tr><td id="d412724e122">
 
 **Description**
 
@@ -56,7 +57,7 @@ Enter a name for the expiration rule.
 
 Enter a description for the expiration rule.
 
-</td></tr><tr><td id="d410853e120">
+</td></tr><tr><td id="d412724e131">
 
 **Expiry period \(days\)**
 
@@ -66,7 +67,7 @@ Specify the time duration after which the data ingested should expire or conside
 
 **Note:** Whatever the data that is ingested from the source will be expired 100 days after the ingestion.
 
-</td></tr><tr><td id="d410853e133">
+</td></tr><tr><td id="d412724e144">
 
 **Data Sources**
 
@@ -78,7 +79,7 @@ If you want to select indicator as an object you must select the object and then
 
 **Note:** By default, a sample expiration rule sn\_sec\_tisc\_m2m\_entity\_rules is provisioned for the users within the base system. For Observables, this sample expiration rule will be in disabled state. You must enable and activate the rule. To apply the rule on the source records, you must enable the rule.
 
-</td></tr><tr><td id="d410853e155">
+</td></tr><tr><td id="d412724e166">
 
 **Category**
 
@@ -86,7 +87,7 @@ If you want to select indicator as an object you must select the object and then
 
 Indicates the expiration rule category type for the current data source. Select the category type from the drop-down list such as observable or object.
 
-</td></tr><tr><td id="d410853e164">
+</td></tr><tr><td id="d412724e175">
 
 **Type of Records**
 

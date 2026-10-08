@@ -37,15 +37,15 @@ In addition to being provided with automatically generated suggestions, you can 
 
 3.  Select an application service either based on candidate suggestions or identify services with desired component.
 
-<table id="sm-auto-sug"><thead><tr><th align="left" id="d498960e160">
+<table id="sm-auto-sug"><thead><tr><th align="left" id="d504197e160">
 
 Search method
 
-</th><th align="left" id="d498960e163">
+</th><th align="left" id="d504197e163">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d498960e169">
+</th></tr></thead><tbody><tr><td id="d504197e169">
 
 **Select from candidates based on a desired component**
 
@@ -56,7 +56,7 @@ Actions
 3.  Select your preferred application service candidate.
 
 
-</td></tr><tr><td id="d498960e196">
+</td></tr><tr><td id="d504197e196">
 
 **Select the candidate using basic details**
 
@@ -82,15 +82,15 @@ Actions
 
 6.  Either create a new application service with the suggested candidate or add the suggested candidate to an existing application service.
 
-<table id="choicetable_mwr_xjr_ycc"><thead><tr><th align="left" id="d498960e285">
+<table id="choicetable_mwr_xjr_ycc"><thead><tr><th align="left" id="d504197e285">
 
 Action
 
-</th><th align="left" id="d498960e288">
+</th><th align="left" id="d504197e288">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d498960e294">
+</th></tr></thead><tbody><tr><td id="d504197e294">
 
 **Create a new application service**
 
@@ -152,7 +152,7 @@ A specific application services group to which you want to add this service. The
 </td></tr></tbody>
 </table>
 
-</td></tr><tr><td id="d498960e411">
+</td></tr><tr><td id="d504197e411">
 
 **Add a candidate to an existing service**
 

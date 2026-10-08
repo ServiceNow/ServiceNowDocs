@@ -9,6 +9,7 @@ classification: threat-intelligence-security-center
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 8
+keywords: [components installed, TISC components, activate TISC]
 breadcrumb: [Reference, Threat Intelligence Security Center, Security Operations]
 ---
 

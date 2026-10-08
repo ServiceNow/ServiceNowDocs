@@ -1,13 +1,13 @@
 ---
 title: Add a web search
-description: Add a web search as a tool in AI Skill Kit. Adding a web search as a tool enables you to add search results to your prompt.
+description: Add a web search as a tool in AI Skill Kit to include web search results in your skill prompts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-skill-kit/add-web-search.html
 release: brazil
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-09-23"
 reading_time_minutes: 2
 keywords: [web search, Websearch, web search skill, web search tool]
 breadcrumb: [Add a tool, Create a prompt, Using AI Skill Kit, AI Skill Kit, Generative AI skills, Enable AI Experiences]
@@ -15,13 +15,13 @@ breadcrumb: [Add a tool, Create a prompt, Using AI Skill Kit, AI Skill Kit, Gene
 
 # Add a web search
 
-Add a web search as a tool in AI Skill Kit. Adding a web search as a tool enables you to add search results to your prompt.
+Add a web search as a tool in AI Skill Kit to include web search results in your skill prompts.
 
 ## Before you begin
 
 Role required: sn\_skill\_builder.adminor admin.
 
-To use web search as a tool, you must bring your own search engine API key and configure it on the ServiceNow AI Platform.
+A search engine API key from your provider must be configured on the ServiceNow AI Platform.
 
 ## Procedure
 
@@ -39,7 +39,7 @@ To use web search as a tool, you must bring your own search engine API key and c
 
 7.  Select **Configure tool**.
 
-8.  On the General info form, enter a **Name** and select **Web Search** for the **Resource** field.
+8.  On the General info form, enter a name in the **Name** field and select **Web Search** in the **Resource** field.
 
 9.  Select **Continue**.
 
@@ -61,7 +61,7 @@ Search result type
 
 </td><td>
 
-**AI answers** is the type of result that you want from the search. **AI answers** generates a single response to the search using either Perplexity, OpenAI, or Gemini.
+**AI answers** is the type of result that you want from the search. **AI answers** generates a single response to the search using Perplexity, OpenAI, or Gemini.
 
 </td></tr><tr><td>
 
@@ -71,9 +71,9 @@ AI search providers
 
 The AI search provider used to perform the search.**Note:**
 
-If you select Perplexity or OpenAI, you must complete the API key setup in the AI Search answers OneExtend capability table. For more information on that process, see [Configure AI search answers capability for web search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/generative-ai-controller/configure-ai-search-answers-capability-for-web-search.md). Although Azure Open AI is an option to select, Azure Open AI doesn't support web search.
+If you select Perplexity or OpenAI, you must complete the API key setup in the AI Search answers OneExtend capability table. For more information on that process, see [Configure AI search answers capability for web search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/generative-ai-controller/configure-ai-search-answers-capability-for-web-search.md). Azure OpenAI appears as an option, but it doesn't support web search.
 
-If you select Google as your web search tool provider, the web search tool leverages [Grounding with Google Search](https://cloud.google.com/vertex-ai/generative-ai/docs/grounding/grounding-with-google-search), offered under a Global Standard deployment. Because grounding is not [data resident](https://cloud.google.com/vertex-ai/generative-ai/docs/security-controls), Google's global infrastructure routes traffic to a global data center for each web search request. This processing may be different than your data processing location chosen for your ServiceNow instance. Please consider your organization's data policies before adding a web search tool with Google as the provider.
+If you select Google as your web search tool provider, the web search tool uses [Grounding with Google Search](https://cloud.google.com/vertex-ai/generative-ai/docs/grounding/grounding-with-google-search), offered under a Global Standard deployment. Because grounding is not [data resident](https://cloud.google.com/vertex-ai/generative-ai/docs/security-controls), Google's global infrastructure routes traffic to a global data center for each web search request. This processing might differ from the data processing location chosen for your ServiceNow instance. Consider your organization's data policies before adding a web search tool with Google as the provider.
 
 </td></tr><tr><td>
 
@@ -81,7 +81,7 @@ Search query
 
 </td><td>
 
-The word, words, or phrase you’re searching for.
+Word, words, or phrase to search for.
 
 </td></tr><tr><td>
 

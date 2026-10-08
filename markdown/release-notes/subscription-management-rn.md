@@ -1,6 +1,6 @@
 ---
 title: Subscription Management release notes
-description: The ServiceNow Subscription Management application enables you to manage your subscriptions proactively and monitor subscription usage on your instances. See the following sections for release notes by version.Version 6.5 improves cloud capacity storage flexibility by pooling storage entitlements at the account level, enabling any instance to draw from your total available storage as needed.
+description: The ServiceNow Subscription Management application enables you to manage your subscriptions proactively and monitor subscription usage on your instances. See the following sections for release notes by version.Version 6.5 improves cloud capacity storage flexibility by pooling storage entitlements at the account level, enabling any instance to draw from your total available storage as needed.Starting in version 6.1, Moveworks consumption can be reported as part of your Assist meter.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/subscription-management-rn.html
 release: brazil
@@ -41,5 +41,16 @@ Version 6.5 improves cloud capacity storage flexibility by pooling storage entit
 -   **[Account-level cloud capacity storage pool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/monitoring-cloud-entitlements.md)**
 
     Cloud capacity storage is now pooled at the account level rather than capped at the instance level. This means your total storage entitlement can be used more flexibly, wherever it's needed across your environment.
+
+
+## Version 6.1
+
+Starting in version 6.1, Moveworks consumption can be reported as part of your Assist meter.
+
+### What's changed
+
+-   **[Support for Moveworks consumption tracking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/monitoring-now-assist-usage.md)**
+
+    Moveworks consumption can now be measured as part of your Assist meter, following the same subscription rules as other assist-based products. For more information about the timeline and required steps for integration, see [Moveworks Assist in Subscription Management: Rollout Timeline, Customer Actions &amp; FAQ \[KB3147691\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3147691) on the Now Support Knowledge Base.
 
 

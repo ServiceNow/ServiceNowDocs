@@ -1,0 +1,58 @@
+---
+title: Care Team Operations Case Creation AI voice agent
+description: Use the Care Team Operations Case Creation AI voice agent to create support request cases through conversational voice calls.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/healthcare-operations-core/hco-now-assist-voice-agent.html
+release: brazil
+product: Healthcare Operations Core
+classification: healthcare-operations-core
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Create requests with ServiceNow Otto, Healthcare Operations Core, Healthcare Operations, Healthcare and Life Sciences]
+---
+
+# Care Team Operations Case Creation AI voice agent
+
+Use the Care Team Operations Case Creation AI voice agent to create support request cases through conversational voice calls.
+
+## Before you begin
+
+Role required: sn\_hco.care\_team\_member or sn\_hco.care\_team\_manager
+
+## About this task
+
+The Care Team Operations Case Creation AI voice agent lets users create support request cases entirely through voice commands. The agent asks clarifying questions to gather the context needed for case creation, then confirms case details before ending the call.
+
+**Note:** The Care Team Operations plugin for the relevant request type must be installed before the agent can create cases.
+
+The following Care Team Operations plugins are supported:
+
+-   Care Team Operations for Biomed
+-   Care Team Operations for Environmental Services
+-   Care Team Operations for Facilities
+-   Care Team Operations for Healthcare IT
+
+To integrate this agent with supported third-party CCaaS \(Contact Center as a Service\) providers, see [Integrating voice assistant with CCaaS provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/integrating-voice-service-with-ccaas-providers.md).
+
+For more information on setting up AI voice agents, see [Deploy AI voice agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/deploy-ai-agents-for-voice.md).
+
+## Procedure
+
+1.  Once CCaaS has been configured, call your configured telephone number to reach the agent.
+
+2.  When prompted, say how the agent can help you — for example, "I need to submit a Care Team Operations request", "I need help with CTO", or simply “CTO”.
+
+    **Note:**
+
+    These trigger phrases can be configured to your use case. For information on updating these, see [Configure Care Team Operations Case Creation AI voice agent triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/healthcare-operations-core/hco-now-assist-cto-voice-triggers.md).
+
+3.  Enter your PIN when the agent requests it.
+
+4.  Answer any follow-up questions, providing relevant context about the issue.
+
+5.  Review the case details the agent reads back, then confirm to create the case or say no to have the agent make corrections.
+
+6.  Once the case is created and the agent confirms the details, end the call when prompted.
+
+

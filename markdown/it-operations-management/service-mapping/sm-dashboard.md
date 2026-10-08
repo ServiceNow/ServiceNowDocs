@@ -20,6 +20,12 @@ The Service Mapping workspace provides a central location to streamline the proc
 
 Navigate to **Workspaces** &gt; **Service Mapping**.
 
+## Required roles
+
+|Role|Description|
+|----|-----------|
+|service\_mapping\_admin|Required to access the Service Mapping Workspace.|
+
 ## Key features and capabilities
 
 -   **Machine Learning \(ML\) readiness**

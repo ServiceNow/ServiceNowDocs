@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/verify-impact-data-connection.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-24"
-reading_time_minutes: 1
-breadcrumb: [Sync your Impact data, Impact Guided Setup, Configuring Impact, Impact]
+last_updated: "2026-10-08"
+reading_time_minutes: 2
+breadcrumb: [Configuring Impact, Impact]
 ---
 
 # Verify Impact data connection
@@ -16,13 +16,15 @@ During Impact Guided Setup automated registration, a status is provided to indic
 
 ## Before you begin
 
-[Use automated registration to IDI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/start-automated-registration-IDI.md) before this procedure.
+**Important:** Navigation to reach this step differs depending on whether you're using the [Impact Setup Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/use-impact-setup-hub.md) or the legacy [Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/guided-setup-impact-in-app.md). See whichever one applies to you for the exact path.
+
+Complete registration before this procedure.
 
 Role required: impact app admin, impact admin \(IDI\)
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Impact** &gt; **Configuration** &gt; **Guided Setup** &gt; **Verify the Connection**.
+1.  Check the connection status.
 
     The Verify connection table loads. Once the connection has been initiated, the status updates in the Provider connections record.
 
@@ -68,5 +70,9 @@ Inbound status
 
 [Initiate data migration from IDI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/initiate-migration-idi.md)
 
-**Parent Topic:**[Use automated registration to IDI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/start-automated-registration-IDI.md)
+**Parent Topic:**[Configuring Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/configuring-impact-platform.md)
+
+**Previous topic:**[Initiate registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/initiate-registration.md)
+
+**Next topic:**[Initiate data migration from IDI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/initiate-migration-idi.md)
 

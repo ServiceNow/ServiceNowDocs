@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-employeeslateforitsm-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 4
+last_updated: "2026-10-08"
+reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
 
@@ -115,13 +115,30 @@ Australia
 
 </td><td>
 
--   **[Tech Lounge services](https://www.servicenow.com/docs/access?context=use-employee-works-itsm&family=australia&ft:locale=en-US)**
+-   **[Use](https://www.servicenow.com/docs/access?context=use-employee-works-itsm&family=australia&ft:locale=en-US)**
+    -   Send email notifications to keep you updated on your walk-in visit.
+    -   Send email notifications when a user subscribes to a service to keep them informed of the subscription status.
+
+ -   **[Tech Lounge services](https://www.servicenow.com/docs/access?context=use-employee-works-itsm&family=australia&ft:locale=en-US)**
 
 Join a walk-in queue or book an appointment using the Tech Lounge page.
 
 -   **[Conversational assisted booking](https://www.servicenow.com/docs/access?context=use-employee-works-itsm&family=australia&ft:locale=en-US)**
 
 Complete a tech lounge appointment booking or reach the walk-up experience by making a request to Otto in natural language.
+
+
+ -   **[Viewing outages and maintenance](https://www.servicenow.com/docs/access?context=use-employee-works-itsm&family=australia&ft:locale=en-US)**
+
+View active outages and upcoming scheduled maintenance directly on the Employee Slate for ITSM home page. Active outages appear first with a red accent, followed by scheduled maintenance with an amber accent. When no issues are active, the card displays an "All systems operational" state.
+
+-   **[Service status page](https://www.servicenow.com/docs/access?context=use-employee-works-itsm&family=australia&ft:locale=en-US)**
+
+Open a dedicated Service Status page from the home page card to see an expanded view of all services and a detail page for each affected service.
+
+-   **[Ask Otto outage summary](https://www.servicenow.com/docs/access?context=use-employee-works-itsm&family=australia&ft:locale=en-US)**
+
+Select the new Ask Otto action on the Service Health banner to open an AI chat that automatically summarizes current active outages, without typing a question.
 
 
 </td></tr><tr><td>
@@ -131,9 +148,17 @@ Brazil
 </td><td>
 
 -   **[Use](https://www.servicenow.com/docs/access?context=use-employee-works-itsm&family=brazil&ft:locale=en-US)**
-    -   Answer the questions in a survey assigned to you, save your progress, and submit your responses.
     -   Send email notifications to keep you updated on your walk-in visit.
-    -   Send email notifications when a user subscribes or unsubscribes to a service to keep them informed of the subscription status.
+    -   Send email notifications when a user subscribes to a service to keep them informed of the subscription status.
+
+ -   **[Tech Lounge services](https://www.servicenow.com/docs/access?context=use-employee-works-itsm&family=brazil&ft:locale=en-US)**
+
+Check tech lounge status, join a walk-in queue, or book an appointment using the Tech Lounge page.
+
+-   **[Conversational assisted booking](https://www.servicenow.com/docs/access?context=use-employee-works-itsm&family=brazil&ft:locale=en-US)**
+
+Complete a tech lounge appointment booking or reach the walk-up experience by making a request to Otto in natural language.
+
 
 </td></tr></tbody>
 </table>## Changes
@@ -337,7 +362,12 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   **Activation information**
+
+Enable Employee Slate for ITSM by setting up Moveworks for Employee Slate and enabling the Employee Slate for ITSM plugin. For more information, see [Configure](https://www.servicenow.com/docs/access?context=configure-employeeworks-itsm&family=australia&ft:locale=en-US).
+
+
+**Important:** Employee Slate for ITSM is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 
@@ -347,7 +377,7 @@ Brazil
 
 -   **Activation information**
 
-ITSM Employee Slate for Moveworks is available with activation of the ITSM Employee Slate for Moveworks plugin. For details, see [Configure](https://www.servicenow.com/docs/access?context=configure-employeeworks-itsm&family=brazil&ft:locale=en-US).
+Employee Slate for ITSM is available with activation of the ITSM Employee Slate for Moveworks plugin. For details, see [Configure](https://www.servicenow.com/docs/access?context=configure-employeeworks-itsm&family=brazil&ft:locale=en-US).
 
 
 </td></tr></tbody>
@@ -605,7 +635,14 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   See active outages and scheduled maintenance directly on the Employee Slate for ITSM home page, without navigating to a separate page.
+-   Investigate service status in more depth from a dedicated Service Status page.
+-   Ask Otto to summarize current active outages in one select, directly from the home page banner.
+-   Ask natural-language questions about outages -- by service, by outage number, or by date range -- and get a summarized answer with suggested follow-ups.
+-   Check in for a walk-up visit to the tech lounge or schedule an in-person appointment directly from the home page with available time slots.
+-   Ask Otto to request a tech lounge visit in natural language, and get routed to walk-in visit or a booking.
+
+ See [Employee Slate for ITSM](https://www.servicenow.com/docs/access?context=employee-works-itsm&family=australia&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 

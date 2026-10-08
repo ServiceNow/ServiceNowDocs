@@ -9,7 +9,7 @@ classification: app-engine-management-center
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure, App Engine Management Center, Governing app development, Building applications]
+breadcrumb: [Configure, App Engine Management Center, Run, AI Workflow Factory, Building applications]
 ---
 
 # Configure Application Intake
@@ -60,4 +60,9 @@ For general information about guided setup, see [Guided Setup](https://raw.githu
 
     Congratulations! You have completed guided setup for Application Intake.
 
+
+-   **[Application Intake configuration tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/app-intake-config-tasks.md)**  
+As you work through the App Engine Studio \(AES\) Application Intake guided setup, you must perform different configuration tasks.
+
+**Parent Topic:**[Configuring AEMC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/configuring-aemc.md)
 

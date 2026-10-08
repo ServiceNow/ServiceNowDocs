@@ -7,7 +7,7 @@ release: brazil
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2025-09-10"
+last_updated: "2026-10-04"
 reading_time_minutes: 2
 keywords: [Exploring, Now Assist, Virtual Agent, LLM, NLU, Natural Language Understanding, Large language model]
 breadcrumb: [Explore, Virtual Agent, Conversational Interfaces]
@@ -23,8 +23,9 @@ Assistant Designer is comprised of four main areas:
 
 1.  Assistants: From the **Assistants** tab, an admin creates, manages, and tests assistants. Voice assistants can't be tested within Assistant Designer at this time. Assistant Designer is only available if you have installed a ServiceNow Otto product. Customers who are only using Natural Language Understanding \(NLU\) can't access Assistant Designer. For more information about configuring chat or voice assistants, see [Assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/configure-now-assist-va.md).
 2.  Asset library: The **Asset library** tab opens the Virtual Agent Designer home page where you can create NLU/Keyword topics and LLM assets. For more information, see [Build conversations in the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md).
-3.  Analytics: Monitor, evaluate, and optimize the performance of your chat and voice assistants from the **Analytics** tab. For more information, see [Analyzing assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/ai-engagement-analytics.md).
-4.  Conversations: Review a log of completed voice interactions and investigate individual call details from the **Conversations** tab. For more information, see [Reviewing voice conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/assistant-designer-activity-tab.md).
+3.  Testing: The **Testing** tab helps you assess the quality and performance of your conversational assistant. For more information, see [Testing assistant conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/evaluations-ad.md).
+4.  Analytics: Monitor, evaluate, and optimize the performance of your chat and voice assistants from the **Analytics** tab. For more information, see [Analyzing assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/ai-engagement-analytics.md).
+5.  Conversations: Review a log of completed voice interactions and investigate individual call details from the **Conversations** tab. For more information, see [Reviewing voice conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/assistant-designer-activity-tab.md).
 
 \[Omitted image "NAinVA-assistant-designer-home-122025.png"\] Alt text: Assistant Designer home page showing the Assistants, Asset library, and Analytics tabs.
 

@@ -48,15 +48,15 @@ The key benefits of the feature are as follows:
 
 3.  Provide details on the **Set objectives** tab.
 
-<table id="choicetable_akh_rrs_33c"><thead><tr><th align="left" id="d61009e154">
+<table id="choicetable_akh_rrs_33c"><thead><tr><th align="left" id="d61053e154">
 
 Field
 
-</th><th align="left" id="d61009e157">
+</th><th align="left" id="d61053e157">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d61009e163">
+</th></tr></thead><tbody><tr><td id="d61053e163">
 
 **Select type**
 
@@ -64,7 +64,7 @@ Description
 
 Select `Project`.
 
-</td></tr><tr><td id="d61009e175">
+</td></tr><tr><td id="d61053e175">
 
 **Name**
 
@@ -72,7 +72,7 @@ Select `Project`.
 
 Provide an intuitive name for the project that you’re creating.
 
-</td></tr><tr><td id="d61009e184">
+</td></tr><tr><td id="d61053e184">
 
 **Short description**
 
@@ -80,7 +80,7 @@ Provide an intuitive name for the project that you’re creating.
 
 Provide a short description for the project you’re creating.
 
-</td></tr><tr><td id="d61009e193">
+</td></tr><tr><td id="d61053e193">
 
 **Source Type**
 
@@ -88,7 +88,7 @@ Provide a short description for the project you’re creating.
 
 Select `Playbook` from the list.
 
-</td></tr><tr><td id="d61009e206">
+</td></tr><tr><td id="d61053e206">
 
 **Playbook**
 
@@ -96,7 +96,7 @@ Select `Playbook` from the list.
 
 Select a table with playbook data from the list.
 
-</td></tr><tr><td id="d61009e215">
+</td></tr><tr><td id="d61053e215">
 
 **Mark as restricted**
 
@@ -106,7 +106,7 @@ Select the check box if you want to limit project access to the owner and the us
 
 When you’re dealing with sensitive data and must restrict access, you can use this option.
 
-</td></tr><tr><td id="d61009e228">
+</td></tr><tr><td id="d61053e228">
 
 **Auto retire**
 

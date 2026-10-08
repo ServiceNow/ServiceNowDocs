@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-brazil/brazil-yokohama-servicereliabilitymanagement-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 10
+last_updated: "2026-10-08"
+reading_time_minutes: 11
 breadcrumb: [Products combined by family]
 ---
 
@@ -265,7 +265,10 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **Open alerts count for technology management services**
+
+For technology management services on the **Services** page, the counts for **Open alerts** and **Open critical alerts** now include alerts from related CIs, up to three levels deep. To view the individual alerts and their associated CIs, select the service and then select the **Related alerts** tab.
+
 
 </td></tr></tbody>
 </table>## Removed
@@ -410,7 +413,10 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **Activation information**
+
+Install SRM or ITOM Mobile Agent by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=brazil&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -651,7 +657,12 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   Give teams a self-service experience to manage the health and reliability of their services.
+-   Organize teams and service ownership so responsibilities for maintaining services are clearly defined.
+-   Support service operations with team ownership and on-call workflows that help coordinate response when issues occur.
+-   Access SRM features on the go with ITOM Mobile Agent on iOS and Android devices.
+
+ See [Service Reliability Management](https://www.servicenow.com/docs/access?context=sr-landing-page&family=brazil&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/rn-combined-intro.md)

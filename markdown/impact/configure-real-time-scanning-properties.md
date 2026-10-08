@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure Scan Engine parameters, Activate Scan Engine and review settings, Impact Guided Setup, Configuring Impact, Impact]
+breadcrumb: [Configure Scan Engine parameters, Activate Scan Engine and review settings, Configuring Impact, Impact]
 ---
 
 # Configure real-time scanning properties
@@ -22,7 +22,7 @@ Role required: Scan Engine Admin \(`sn_se.scan_engine_admin`\).
 
 1.  Navigate to **ALL &gt; Impact &gt; Configuration &gt; Scan Engine Properties**.
 
-2.  Select who will see real time scanning results:
+2.  Select who will see real-time scanning results:
 
     -   All users
     -   Only users with the role.

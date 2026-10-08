@@ -6,13 +6,15 @@ canonical_url: https://www.servicenow.com/docs/r/delta-zurich-brazil/rn-combined
 release: brazil
 topic_type: concept
 last_updated: "2025-06-02"
-reading_time_minutes: 50
+reading_time_minutes: 52
 ---
 
 # Products combined by family
 
 Find consoldiated release notes information by product.
 
+-   **[Combined Access Analyzer release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-accessanalyzer-release-notes.md)**  
+Consolidated page of all release notes for Access Analyzer from Zurich to Brazil.
 -   **[Combined Access Management release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-accessmanagement-release-notes.md)**  
 Consolidated page of all release notes for Access Management from Zurich to Brazil.
 -   **[Combined Accounts Payable Operations release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-accountspayableoperations-release-notes.md)**  
@@ -67,8 +69,6 @@ Consolidated page of all release notes for AI Skill Kit from Zurich to Brazil.
 Consolidated page of all release notes for Alumni Center from Zurich to Brazil.
 -   **[Combined API release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-api-release-notes.md)**  
 Consolidated page of all release notes for API from Zurich to Brazil.
--   **[Combined App Engine ERP Rapid Deployment Packs release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-appengineerprapiddeploymentpacks-release-notes.md)**  
-Consolidated page of all release notes for App Engine ERP Rapid Deployment Packs from Zurich to Brazil.
 -   **[Combined App Engine Management Center release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-appenginemanagementcenter-release-notes.md)**  
 Consolidated page of all release notes for App Engine Management Center from Zurich to Brazil.
 -   **[Combined App Engine Studio release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-appenginestudio-release-notes.md)**  
@@ -77,6 +77,8 @@ Consolidated page of all release notes for App Engine Studio from Zurich to Braz
 Consolidated page of all release notes for Applicant Center from Zurich to Brazil.
 -   **[Combined Application Manager release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-applicationmanager-release-notes.md)**  
 Consolidated page of all release notes for Application Manager from Zurich to Brazil.
+-   **[Combined Application Runtime Policy release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-applicationruntimepolicy-release-notes.md)**  
+Consolidated page of all release notes for Application Runtime Policy from Zurich to Brazil.
 -   **[Combined Application Vulnerability Response release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-applicationvulnerabilityresponse-release-notes.md)**  
 Consolidated page of all release notes for Application Vulnerability Response from Zurich to Brazil.
 -   **[Combined Asset Audit Response release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-assetauditresponse-release-notes.md)**  
@@ -87,6 +89,8 @@ Consolidated page of all release notes for Audit Management from Zurich to Brazi
 Consolidated page of all release notes for Authentication from Zurich to Brazil.
 -   **[Combined Automated Test Framework release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-automatedtestframework-release-notes.md)**  
 Consolidated page of all release notes for Automated Test Framework from Zurich to Brazil.
+-   **[Combined Automation Center release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-automationcenter-release-notes.md)**  
+Consolidated page of all release notes for Automation Center from Zurich to Brazil.
 -   **[Combined Automation Discovery release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-automationdiscovery-release-notes.md)**  
 Consolidated page of all release notes for Automation Discovery from Zurich to Brazil.
 -   **[Combined Autonomous Workforce release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-autonomousworkforce-release-notes.md)**  
@@ -205,6 +209,8 @@ Consolidated page of all release notes for Data Management from Zurich to Brazil
 Consolidated page of all release notes for Data Management for CSM from Zurich to Brazil.
 -   **[Combined Data Privacy release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-dataprivacy-release-notes.md)**  
 Consolidated page of all release notes for Data Privacy from Zurich to Brazil.
+-   **[Combined Data Privacy and Discovery release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-dataprivacyanddiscovery-release-notes.md)**  
+Consolidated page of all release notes for Data Privacy and Discovery from Zurich to Brazil.
 -   **[Combined Data products release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-dataproducts-release-notes.md)**  
 Consolidated page of all release notes for Data products from Zurich to Brazil.
 -   **[Combined Data Separation release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-dataseparation-release-notes.md)**  
@@ -217,6 +223,8 @@ Consolidated page of all release notes for DevOps Change Velocity from Zurich to
 Consolidated page of all release notes for Digital End-User Experience from Zurich to Brazil.
 -   **[Combined Digital Portfolio Management \(DPM\) release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-digitalportfoliomanagementdpm-release-notes.md)**  
 Consolidated page of all release notes for Digital Portfolio Management \(DPM\) from Zurich to Brazil.
+-   **[Combined Digital Product Release release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-digitalproductrelease-release-notes.md)**  
+Consolidated page of all release notes for Digital Product Release from Zurich to Brazil.
 -   **[Combined Discovery release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-discovery-release-notes.md)**  
 Consolidated page of all release notes for Discovery from Zurich to Brazil.
 -   **[Combined Discovery store applications release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-discoverystoreapplications-release-notes.md)**  
@@ -261,6 +269,8 @@ Consolidated page of all release notes for Enterprise Service Management Foundat
 Consolidated page of all release notes for ERP Semantic Mining from Zurich to Brazil.
 -   **[Combined Event Management release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-eventmanagement-release-notes.md)**  
 Consolidated page of all release notes for Event Management from Zurich to Brazil.
+-   **[Combined Export to PowerPoint release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-exporttopowerpoint-release-notes.md)**  
+Consolidated page of all release notes for Export to PowerPoint from Zurich to Brazil.
 -   **[Combined Extended Security for Enterprise-Wide Deployment release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-extendedsecurityforenterprisewidedeployment-release-notes.md)**  
 Consolidated page of all release notes for Extended Security for Enterprise-Wide Deployment from Zurich to Brazil.
 -   **[Combined External Content Connectors release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-externalcontentconnectors-release-notes.md)**  
@@ -295,6 +305,8 @@ Consolidated page of all release notes for Goal Framework for SPM from Zurich to
 Consolidated page of all release notes for Hardware Asset Management from Zurich to Brazil.
 -   **[Combined Healthcare and Life Sciences Service Management Core release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-healthcareandlifesciencesservicemanagementcore-release-notes.md)**  
 Consolidated page of all release notes for Healthcare and Life Sciences Service Management Core from Zurich to Brazil.
+-   **[Combined Healthcare Operations release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-healthcareoperations-release-notes.md)**  
+Consolidated page of all release notes for Healthcare Operations from Zurich to Brazil.
 -   **[Combined Healthcare Operations Core release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-healthcareoperationscore-release-notes.md)**  
 Consolidated page of all release notes for Healthcare Operations Core from Zurich to Brazil.
 -   **[Combined Health Log Analytics release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-healthloganalytics-release-notes.md)**  
@@ -323,6 +335,10 @@ Consolidated page of all release notes for Impact from Zurich to Brazil.
 Consolidated page of all release notes for Import and Export from Zurich to Brazil.
 -   **[Combined Incident Management release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-incidentmanagement-release-notes.md)**  
 Consolidated page of all release notes for Incident Management from Zurich to Brazil.
+-   **[Combined Industrial Analytics and Reporting release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-industrialanalyticsandreporting-release-notes.md)**  
+Consolidated page of all release notes for Industrial Analytics and Reporting from Zurich to Brazil.
+-   **[Combined Industrial Centerlines release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-industrialcenterlines-release-notes.md)**  
+Consolidated page of all release notes for Industrial Centerlines from Zurich to Brazil.
 -   **[Combined Industrial Connected Workforce Core release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-industrialconnectedworkforcecore-release-notes.md)**  
 Consolidated page of all release notes for Industrial Connected Workforce Core from Zurich to Brazil.
 -   **[Combined Industrial Connected Workforce Mobile Experience release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-industrialconnectedworkforcemobileexperience-release-notes.md)**  
@@ -353,8 +369,6 @@ Consolidated page of all release notes for ITOM Cloud Accelerate from Zurich to 
 Consolidated page of all release notes for ITOM MCP Server Console from Zurich to Brazil.
 -   **[Combined ITOM Visibility release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-itomvisibility-release-notes.md)**  
 Consolidated page of all release notes for ITOM Visibility from Zurich to Brazil.
--   **[Combined ITSM Employee Slate for Moveworks release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-itsmemployeeslateformoveworks-release-notes.md)**  
-Consolidated page of all release notes for ITSM Employee Slate for Moveworks from Zurich to Brazil.
 -   **[Combined ITSM MCP Server release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-itsmmcpserver-release-notes.md)**  
 Consolidated page of all release notes for ITSM MCP Server from Zurich to Brazil.
 -   **[Combined Journey designer release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-journeydesigner-release-notes.md)**  
@@ -399,6 +413,12 @@ Consolidated page of all release notes for Listening Posts from Zurich to Brazil
 Consolidated page of all release notes for Live Connect from Zurich to Brazil.
 -   **[Combined Localization Workspace release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-localizationworkspace-release-notes.md)**  
 Consolidated page of all release notes for Localization Workspace from Zurich to Brazil.
+-   **[Combined Log Export Service release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-logexportservice-release-notes.md)**  
+Consolidated page of all release notes for Log Export Service from Zurich to Brazil.
+-   **[Combined Lux release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-lux-release-notes.md)**  
+Consolidated page of all release notes for Lux from Zurich to Brazil.
+-   **[Combined Lux Lab release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-luxlab-release-notes.md)**  
+Consolidated page of all release notes for Lux Lab from Zurich to Brazil.
 -   **[Combined Manufacturing Commercial Operations release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-manufacturingcommercialoperations-release-notes.md)**  
 Consolidated page of all release notes for Manufacturing Commercial Operations from Zurich to Brazil.
 -   **[Combined Mastercard Spoke release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-mastercardspoke-release-notes.md)**  
@@ -439,6 +459,8 @@ Consolidated page of all release notes for Now Assist in Contract Management fro
 Consolidated page of all release notes for Now Assist in Document Intelligence from Zurich to Brazil.
 -   **[Combined Now Assist in Virtual Agent release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-nowassistinvirtualagent-release-notes.md)**  
 Consolidated page of all release notes for Now Assist in Virtual Agent from Zurich to Brazil.
+-   **[Combined On-Call Onboarding release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-oncallonboarding-release-notes.md)**  
+Consolidated page of all release notes for On-Call Onboarding from Zurich to Brazil.
 -   **[Combined On-Call Scheduling release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-oncallscheduling-release-notes.md)**  
 Consolidated page of all release notes for On-Call Scheduling from Zurich to Brazil.
 -   **[Combined Operational Resilience release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-operationalresilience-release-notes.md)**  
@@ -475,6 +497,8 @@ Consolidated page of all release notes for Performance Analyzer from Zurich to B
 Consolidated page of all release notes for Platform Analytics experience from Zurich to Brazil.
 -   **[Combined Playbook release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-playbook-release-notes.md)**  
 Consolidated page of all release notes for Playbook from Zurich to Brazil.
+-   **[Combined Playbooks release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-playbooks-release-notes.md)**  
+Consolidated page of all release notes for Playbooks from Zurich to Brazil.
 -   **[Combined Playbooks in Workflow Studio release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-playbooksinworkflowstudio-release-notes.md)**  
 Consolidated page of all release notes for Playbooks in Workflow Studio from Zurich to Brazil.
 -   **[Combined Policy and Compliance Management release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-policyandcompliancemanagement-release-notes.md)**  
@@ -577,6 +601,8 @@ Consolidated page of all release notes for ServiceNow AI Lens from Zurich to Bra
 Consolidated page of all release notes for ServiceNow AI Platform core feature from Zurich to Brazil.
 -   **[Combined ServiceNow CLI release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-servicenowcli-release-notes.md)**  
 Consolidated page of all release notes for ServiceNow CLI from Zurich to Brazil.
+-   **[Combined ServiceNow Cowork release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-servicenowcowork-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Cowork from Zurich to Brazil.
 -   **[Combined ServiceNow IDE release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-servicenowide-release-notes.md)**  
 Consolidated page of all release notes for ServiceNow IDE from Zurich to Brazil.
 -   **[Combined ServiceNow Lux Lab for VS Code release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-servicenowluxlabforvscode-release-notes.md)**  
@@ -667,6 +693,8 @@ Consolidated page of all release notes for ServiceNow Studio from Zurich to Braz
 Consolidated page of all release notes for ServiceNow Vault from Zurich to Brazil.
 -   **[Combined Service Observability release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-serviceobservability-release-notes.md)**  
 Consolidated page of all release notes for Service Observability from Zurich to Brazil.
+-   **[Combined Service Operations Workspace release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-serviceoperationsworkspace-release-notes.md)**  
+Consolidated page of all release notes for Service Operations Workspace from Zurich to Brazil.
 -   **[Combined Service Operations Workspace for ITSM release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-serviceoperationsworkspaceforitsm-release-notes.md)**  
 Consolidated page of all release notes for Service Operations Workspace for ITSM from Zurich to Brazil.
 -   **[Combined Service Portal release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-serviceportal-release-notes.md)**  
@@ -675,6 +703,8 @@ Consolidated page of all release notes for Service Portal from Zurich to Brazil.
 Consolidated page of all release notes for Service Portfolio Management from Zurich to Brazil.
 -   **[Combined Service Reliability Management release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-servicereliabilitymanagement-release-notes.md)**  
 Consolidated page of all release notes for Service Reliability Management from Zurich to Brazil.
+-   **[Combined Service Test Management release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-servicetestmanagement-release-notes.md)**  
+Consolidated page of all release notes for Service Test Management from Zurich to Brazil.
 -   **[Combined Sidebar release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-sidebar-release-notes.md)**  
 Consolidated page of all release notes for Sidebar from Zurich to Brazil.
 -   **[Combined Simplified IT Service Management release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-simplifieditservicemanagement-release-notes.md)**  
@@ -703,8 +733,8 @@ Consolidated page of all release notes for Stream Connect from Zurich to Brazil.
 Consolidated page of all release notes for Subscription Management from Zurich to Brazil.
 -   **[Combined Supplier Lifecycle Operations release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-supplierlifecycleoperations-release-notes.md)**  
 Consolidated page of all release notes for Supplier Lifecycle Operations from Zurich to Brazil.
--   **[Combined Synthetic monitoring release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-syntheticmonitoring-release-notes.md)**  
-Consolidated page of all release notes for Synthetic monitoring from Zurich to Brazil.
+-   **[Combined Synthetic Monitoring release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-syntheticmonitoring-release-notes.md)**  
+Consolidated page of all release notes for Synthetic Monitoring from Zurich to Brazil.
 -   **[Combined System Localization release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-systemlocalization-release-notes.md)**  
 Consolidated page of all release notes for System Localization from Zurich to Brazil.
 -   **[Combined Table Builder release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/brazil-zurich-tablebuilder-release-notes.md)**  

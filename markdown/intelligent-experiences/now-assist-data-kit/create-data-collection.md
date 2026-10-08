@@ -20,7 +20,7 @@ Combine one or more datasets into a data collection, choosing the columns and re
 
 Role required: sn\_data\_kit.admin
 
-You have at least one dataset. To learn more, see [Add a dataset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-data-kit/add-dataset.md).
+At least one dataset must exist. To learn more, see [Add a dataset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-data-kit/add-dataset.md).
 
 ## About this task
 
@@ -32,12 +32,12 @@ A data collection is the object that AI Skill Kit uses to evaluate a skill. A co
 
 2.  In the **An overview of your data assets** section, select the **Datasets** tab.
 
-3.  Select the dataset that contains the records you want.
+3.  Select the dataset that contains the records that you want.
 
-4.  Select **Add to data collection**.
+4.  At the top of the dataset page, select **Add to data collection**.
 
     -   To create a collection, enter the data collection name, description, and relevant tags.
-    -   To add the dataset to an existing collection, deselect **Create Data Collection**. Then select the collection from the **Available data collection** field.
+    -   To add the dataset to an existing collection, clear the **Create Data Collection** check box. Then select the collection from the **Available data collection** field.
 5.  Select **Confirm**.
 
 6.  Select **Next**.
@@ -46,19 +46,24 @@ A data collection is the object that AI Skill Kit uses to evaluate a skill. A co
 
 7.  On the **Choose columns** form, select the columns that you want to add to the data collection.
 
-8.  On the **Choose records** form, select how you want to choose records for the collection.
+8.  In the **Choose records** section, select a selection method.
 
-    Select records manually, or choose a sampling method and select **Run** to preview the records.
+    |Selection method|Action|
+    |----------------|------|
+    |**__Manual Selection__**|Select the check box for each record that you want to include. If you don't select any records, all records in the dataset are added to the collection.|
+    |**__Sampling Selection__**|In the **Sampling Method** field, select **Random Sampling**. In the **Sample size** field, enter the number of records to include, and then select **Run**. The sampled records appear in the records list.|
 
-    The selected records are added to the data collection.
+9.  At the bottom of the page, select **Add to data collection**.
 
-9.  Select the data collection to preview the records.
+    For sampling selection, this button is available only after you run the sample.
 
-10. Select **Publish** to make the data available for evaluation.
+10. Select the data collection to preview the records.
+
+11. Select **Publish** to make the data available for evaluation.
 
     When you publish a collection, the collection freezes curation and becomes available for use through AI Skill Kit.
 
-11. Select **Confirm** to make your collection available.
+12. Select **Confirm** to make your collection available.
 
     The data collection is published.
 

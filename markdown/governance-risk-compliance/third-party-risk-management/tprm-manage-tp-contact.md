@@ -42,15 +42,15 @@ Your third-party contacts are external users at the third-party organization. Th
 
 3.  Manage the access to the portal for your third-party contacts.
 
-<table id="choicetable_x4v_zdv_2bc"><thead><tr><th align="left" id="d258742e119">
+<table id="choicetable_x4v_zdv_2bc"><thead><tr><th align="left" id="d260350e119">
 
 Option
 
-</th><th align="left" id="d258742e122">
+</th><th align="left" id="d260350e122">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d258742e128">
+</th></tr></thead><tbody><tr><td id="d260350e128">
 
 **Deactivate the account**
 
@@ -60,7 +60,7 @@ Deactivate the account by clearing the **Active** check box.
 
  After you deactivate the account, the third-party contact can't log in or appear in the list of associated contacts.
 
-</td></tr><tr><td id="d258742e146">
+</td></tr><tr><td id="d260350e146">
 
 **Resend Invite**
 
@@ -70,7 +70,7 @@ Resend an email invitation for accessing the third-party contact portal by selec
 
  The email contains a link to the third-party portal and login credentials.
 
-</td></tr><tr><td id="d258742e164">
+</td></tr><tr><td id="d260350e164">
 
 **Delete Contact**
 
@@ -78,7 +78,7 @@ Resend an email invitation for accessing the third-party contact portal by selec
 
 Remove the snc\_external role from the third-party contact and deactivate the third-party contact by selecting the **Delete Contact** related link.
 
-</td></tr><tr><td id="d258742e176">
+</td></tr><tr><td id="d260350e176">
 
 **Locked out**
 
@@ -88,7 +88,7 @@ Lock out the third-party contact by selecting the **Locked out** option.
 
  After you lock out the third-party contact, that person can't log in. The contact record remains active, but portal access is blocked.
 
-</td></tr><tr><td id="d258742e195">
+</td></tr><tr><td id="d260350e195">
 
 **Set password**
 
@@ -96,7 +96,7 @@ Lock out the third-party contact by selecting the **Locked out** option.
 
 Generate a new password and send it to the third-party contact by selecting **Set Password**.
 
-</td></tr><tr><td id="d258742e207">
+</td></tr><tr><td id="d260350e207">
 
 **Reset a password**
 

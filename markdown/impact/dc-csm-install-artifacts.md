@@ -1,16 +1,16 @@
 ---
-title: Review CSM artifacts
+title: Review Customer Service Management artifacts
 description: The Data Collection app contains a pre-build data metric structure for the ServiceNow Performance/Platform Analytics application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/dc-csm-install-artifacts.html
 release: brazil
 topic_type: reference
 last_updated: "2026-09-10"
-reading_time_minutes: 3
-breadcrumb: [Impact Value Management Data Collection Content Pack for CSM, Enable data collection for Value Management, Configuring Impact, Impact]
+reading_time_minutes: 4
+breadcrumb: [Impact Value Management Data Collection Content Pack for Customer Service Management, Enable data collection for Value Management, Guided Setup, Configuring Impact, Impact]
 ---
 
-# Review CSM artifacts
+# Review Customer Service Management artifacts
 
 The Data Collection app contains a pre-build data metric structure for the ServiceNow Performance/Platform Analytics application.
 
@@ -30,42 +30,57 @@ The content pack comes with the following artifact types. For configuring the pr
 
 ## Artifacts by type
 
-The app contains the following artifacts for each of the above-specified artifact types.
+The app contains the following artifacts for each of the before-specified artifact types.
 
 **Note:** The frequencies of all applicable indicators and indicator sources have been changed to monthly from quarterly. If this is not the first time using this content pack, you should run a baseline historical job \(data collection job\) to capture applicable historical data. The historical data will be visualized in a future enhancement of the dashboard.
 
-|Artifact type|Name|
-|-------------|----|
-|Automated|Impact VM - \# of cases not resolved within SLAs|
-|Automated|Impact VM - \# of customer cases|
-|Formula|Impact VM - % of cases not resolved within SLAs|
-|Automated|Impact VM - \# of closed customer cases|
-|Automated|Impact VM - \# of customer cases that resulted in an upsell|
-|Formula|Impact VM - % of customer cases that result in an upsell|
-|Automated|Impact VM - \# of survey responses|
-|Automated|Impact VM - \# of survey responses with a low overall service rating|
-|Formula|Impact VM - % of surveyed customers that report an unfavorable support experience|
-|Automated|Impact VM - Avg. cumulative processing effort required per request case \(hrs\)|
-|Automated|Impact VM - \# of T1 customer support cases closed|
-|Automated|Impact VM - \# of T1 customer support agent|
-|Formula|Impact VM - \# of T1 customer support cases closed : \# of T1 customer support agent|
-|Automated|Impact VM - \# of T2+ customer support cases closed|
-|Automated|Impact VM - \# of T2+ customer support agents|
-|Formula|Impact VM - \# of T2+ customer support cases closed: \# of T2+ customer support agents|
-|Data Collection Job|Impact VM - Monthly Data Collection|
-|Widget|% of cases not resolved within SLAs|
-|Widget|\# of interactions handled by an agent that don't have related case|
-|Widget|\# of revenue generating customer requests|
-|Widget|\# of T1 customer support cases closed|
-|Widget|\# of T1 customer support cases closed : \# of T1 customer support agents|
-|Widget|\# of T2+ customer support cases closed|
-|Widget|\# of T2+ customer support cases closed: \# of T2+ customer support agents|
-|Widget|% of customer cases that result in an upsell|
-|Widget|% of surveyed customers that report an unfavorable support experience|
-|Widget|Avg. cumulative processing effort required per request case \(hrs\)|
-|Dashboard|Impact VM - CSM|
-|Group Type|Tier 1|
-|Group Type|Tier 2+|
+|Artifact type|Name|Outcome Model|
+|-------------|----|-------------|
+|Indicator Source|Impact VM - CSM - Case closed This month|Enhanced|
+|Indicator Source|Impact VM - CSM - Case closed with account This month|Enhanced|
+|Automated|Impact VM - CSM - Number of T1 customer cases closed|Enhanced|
+|Automated|Impact VM - CSM - Number of T1 CS Agent FTEs|Enhanced|
+|Automated|Impact VM - CSM - Number of customer cases|Enhanced|
+|Automated|Impact VM - CSM - Number of customers|Enhanced|
+|Automated|Impact VM - CSM - Number of T2 customer cases closed|Enhanced|
+|Automated|Impact VM - CSM - Number of customer cases|Enhanced|
+|Automated|Impact VM - \# of T2+ customer support cases closed|Standard|
+|Automated|Impact VM - \# of T2+ customer support agents \*|Standard|
+|Automated|Impact VM - \# of T1 customer support cases closed|Standard|
+|Automated|Impact VM - \# of T1 customer support agent \*|Standard|
+|Automated|Impact VM - \# of cases not resolved within SLAs|Standard|
+|Automated|Impact VM - \# of customer cases|Standard|
+|Automated|Impact VM - \# of closed customer cases|Standard|
+|Automated|Impact VM - \# of customer cases that resulted in an upsell|Standard|
+|Automated|Impact VM - \# of survey responses|Standard|
+|Automated|Impact VM - \# of survey responses with a low overall service rating.|Standard|
+|Automated|Impact VM - Avg. cumulative processing effort required per request case \(hrs\)|Standard|
+|Formula|Impact VM - CSM - T1 cases closed per agent|Enhanced|
+|Formula|Impact VM - CSM - Number of cases per customer|Enhanced|
+|Formula|Impact VM - CSM - Cases escalated beyond Tier 1|Enhanced|
+|Formula|Impact VM - % of customer cases that result in an upsell|Standard|
+|Formula|Impact VM - % of surveyed customers that report an unfavorable support experience|Standard|
+|Formula|Impact VM - % of cases not resolved within SLAs|Standard|
+|Formula|Impact VM - \# of T1 customer support cases closed : \# of T1 customer support agent|Standard|
+|Formula|Impact VM - \# of T2+ customer support cases closed: \# of T2+ customer support agents|Standard|
+|Data Collection Job|Impact VM - CSM - Monthly Data Collection| |
+|Data Collection Job|Impact VM - CSM - Historical Data Collection| |
+|Widget|Impact VM - CSM - T1 cases closed per agent|Enhanced|
+|Widget|Impact VM - CSM - Number of cases per customer|Enhanced|
+|Widget|Impact VM - CSM - Cases escalated beyond Tier 1|Enhanced|
+|Widget|% of cases not resolved within SLAs|Standard|
+|Widget|\# of interactions handled by an agent that don't have related case|Standard|
+|Widget|\# of revenue generating customer requests|Standard|
+|Widget|\# of T1 customer support cases closed|Standard|
+|Widget|\# of T1 customer support cases closed : \# of T1 customer support agents|Standard|
+|Widget|\# of T2+ customer support cases closed|Standard|
+|Widget|\# of T2+ customer support cases closed: \# of T2+ customer support agents|Standard|
+|Widget|% of customer cases that result in an upsell|Standard|
+|Widget|% of surveyed customers that report an unfavorable support experience|Standard|
+|Widget|Avg. cumulative processing effort required per request case \(hrs\)|Standard|
+|Dashboard|Impact VM - CSM Service Management| |
+|Group Type|Tier 1| |
+|Group Type|Tier 2+| |
 
-**Parent Topic:**[Impact Value Management Data Collection Content Pack for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/data-collection-csm.md)
+**Parent Topic:**[Impact Value Management Data Collection Content Pack for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/data-collection-csm.md)
 

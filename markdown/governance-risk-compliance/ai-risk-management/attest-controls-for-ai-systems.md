@@ -41,15 +41,15 @@ Controls available for attestation are mapped to the AI asset during the assessm
 
 2.  Select the AI asset for which you need to create control attestations using one of the following options.
 
-<table id="choicetable_ftl_1bl_hjc"><thead><tr><th align="left" id="d365457e144">
+<table id="choicetable_ftl_1bl_hjc"><thead><tr><th align="left" id="d367745e144">
 
 Option
 
-</th><th align="left" id="d365457e147">
+</th><th align="left" id="d367745e147">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d365457e153">
+</th></tr></thead><tbody><tr><td id="d367745e153">
 
 **Create a control attestation using AI Risk and Compliance Workspace**
 
@@ -57,7 +57,7 @@ Description
 
 Select the list icon \[Omitted image "list-icon-airc-ws.png"\] Alt text: and select the AI asset for which you need to create control attestations.
 
-</td></tr><tr><td id="d365457e169">
+</td></tr><tr><td id="d367745e169">
 
 **Create a control attestation using AI Control Tower**
 

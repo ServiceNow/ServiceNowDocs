@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/components-installed-with-order-management.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-09-28"
 reading_time_minutes: 3
 breadcrumb: [Order Management reference, Reference, Sales Customer Relationship Management]
 ---
@@ -231,6 +231,7 @@ Creates orders. Use this role to send order via REST Web Services.
 -   sn\_tmt\_core.inbound\_queue\_create
 -   sn\_tmt\_core.outbound\_request\_write
 -   sn\_ind\_tmt\_orm.order\_creator
+-   sn\_tmf\_api.party\_integrator
 
 </td></tr></tbody>
 </table>## Tables installed

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-australia-brazil/brazil-australia-developersandboxes-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 5
+last_updated: "2026-10-08"
+reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
 
@@ -84,7 +84,20 @@ Brazil
 
 </td><td>
 
--   **[Sandbox pooling for faster provisioning](https://www.servicenow.com/docs/access?context=allocating-sandboxes&family=brazil&ft:locale=en-US)**
+-   **[Fully automated setup with self-serve license assignment](https://www.servicenow.com/docs/access?context=dsb-license-allocation-about&family=brazil&ft:locale=en-US)**
+
+Assign purchased sandbox packs to non-production instances directly from the **Developer Sandbox Management** tab in App Engine Management Center \(AEMC\), without opening a support case. Install the new licensing plugin on your license management instance, install the sandbox plugin on your non-production instances, and use the license management UI on the controller instance to distribute packs. Each pack provides 10 sandboxes, and you can assign a maximum of 3 packs to a single non-production instance.
+
+In support, the following have been added when the new com.glide.dsb.licensing plugin is installed:
+
+    -   A new instance allocation table \[sys\_dsb\_instance\_allocation\] is now installed with Developer Sandboxes.
+    -   The new sandbox admin role \(`sn_dsb_commons.sandbox_license_admin`\) lets users distribute sandbox packs to non-production instances without full admin access.
+-   **[Four free sandbox licenses](https://www.servicenow.com/docs/access?context=dev-sbx-entitlements&family=brazil&ft:locale=en-US)**
+
+All instances now get four free sandboxes per non-production instance to try out Developer Sandboxes. You can use the four free licenses on the same instance as purchased sandboxes, for a maximum of 34 sandboxes on an instance.
+
+
+ -   **[Sandbox pooling for faster provisioning](https://www.servicenow.com/docs/access?context=allocating-sandboxes&family=brazil&ft:locale=en-US)**
 
 Allocate sandboxes faster using pre-pooled instances. When you allocate a sandbox, you claim one from a pre-created pool rather than waiting for a new instance to be provisioned. Sandbox URLs are randomly generated strings and no longer match the sandbox display name. The display name remains configurable, but you can't change the URL.
 

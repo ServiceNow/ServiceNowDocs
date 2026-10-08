@@ -21,7 +21,7 @@ Role required: sn\_ai\_governance.ai\_steward
 
 ## About this task
 
-You can change the threat type, which agents it applies to, and more by editing an existing Threat Response policy. Editing keeps the same policy record, along with its enforcement history. The policy type can't be changed. To switch types, create a new policy instead.
+You can change the threat type, which agents it applies to, and more by editing an existing Threat Response policy. Editing keeps the same policy record, along with its enforcement history. The policy type is read only. To use a different policy type, create a new policy instead.
 
 ## Procedure
 
@@ -35,7 +35,7 @@ You can change the threat type, which agents it applies to, and more by editing 
 
 5.  In the Do this section, add, remove, or update follow-up actions.
 
-6.  Review the policy summary, then select **Save &amp; Publish**.
+6.  Review the policy summary, then select **Publish**.
 
 
 ## Result

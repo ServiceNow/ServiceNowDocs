@@ -36,7 +36,9 @@ Pre-auth case line
 
 </td><td>
 
-Displays all the repair pre-authorization case lines previously created for the selected repair associated with this claim case.**Note:** If the pre-authorization is selected from the drop-down list, it automatically fetches the casual parts and miscellaneous details.
+Displays the repair pre-authorization case lines previously created for the selected repair on this claim case. Only approved and partially approved pre-authorization cases are listed.
+
+**Note:** When you select a pre-authorization from the list, the causal parts and miscellaneous details are automatically populated.
 
 </td></tr><tr><td>
 

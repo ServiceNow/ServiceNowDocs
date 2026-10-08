@@ -7,7 +7,7 @@ release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Add staff to business organization, Use Business Location Service Portal, Customer communication, Use, Customer Service Management]
+breadcrumb: [Add staff to business organization, Use Business Organization Support Portal, Customer communication, Use, Customer Service Management]
 ---
 
 # Agent assistance for your business location staff
@@ -29,5 +29,5 @@ A resolution is also provided by interacting with the user. For further assistan
 **Related topics**  
 
 
-[Chat with Virtual Agent from the Business Location Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/agent-chat-business-location-service-portal.md)
+[Chat with Virtual Agent from the Business Organization Support Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/agent-chat-business-location-service-portal.md)
 

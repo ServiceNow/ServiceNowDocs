@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-developersandboxes-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 7
+last_updated: "2026-10-08"
+reading_time_minutes: 9
 breadcrumb: [Products combined by family]
 ---
 
@@ -157,7 +157,20 @@ Brazil
 
 </td><td>
 
--   **[Sandbox pooling for faster provisioning](https://www.servicenow.com/docs/access?context=allocating-sandboxes&family=brazil&ft:locale=en-US)**
+-   **[Fully automated setup with self-serve license assignment](https://www.servicenow.com/docs/access?context=dsb-license-allocation-about&family=brazil&ft:locale=en-US)**
+
+Assign purchased sandbox packs to non-production instances directly from the **Developer Sandbox Management** tab in App Engine Management Center \(AEMC\), without opening a support case. Install the new licensing plugin on your license management instance, install the sandbox plugin on your non-production instances, and use the license management UI on the controller instance to distribute packs. Each pack provides 10 sandboxes, and you can assign a maximum of 3 packs to a single non-production instance.
+
+In support, the following have been added when the new com.glide.dsb.licensing plugin is installed:
+
+    -   A new instance allocation table \[sys\_dsb\_instance\_allocation\] is now installed with Developer Sandboxes.
+    -   The new sandbox admin role \(`sn_dsb_commons.sandbox_license_admin`\) lets users distribute sandbox packs to non-production instances without full admin access.
+-   **[Four free sandbox licenses](https://www.servicenow.com/docs/access?context=dev-sbx-entitlements&family=brazil&ft:locale=en-US)**
+
+All instances now get four free sandboxes per non-production instance to try out Developer Sandboxes. You can use the four free licenses on the same instance as purchased sandboxes, for a maximum of 34 sandboxes on an instance.
+
+
+ -   **[Sandbox pooling for faster provisioning](https://www.servicenow.com/docs/access?context=allocating-sandboxes&family=brazil&ft:locale=en-US)**
 
 Allocate sandboxes faster using pre-pooled instances. When you allocate a sandbox, you claim one from a pre-created pool rather than waiting for a new instance to be provisioned. Sandbox URLs are randomly generated strings and no longer match the sandbox display name. The display name remains configurable, but you can't change the URL.
 
@@ -216,6 +229,16 @@ Australia
 
 -   **[Upgrade enhancements](https://www.servicenow.com/docs/access?context=dev-sbx-clone-upgrade-info&family=australia&ft:locale=en-US)**
 
+Automatic backups for upgrades are now working correctly. This issue is related to PRB2017438.
+
+
+ -   **[Schema change for shared tables isolates the table](https://www.servicenow.com/docs/access?context=dsb-installed-with&family=australia&ft:locale=en-US)**
+
+To ensure configuration consistency, if you make a schema change, such as adding a column, to a shared table, the table now becomes an isolated table on the sandbox that initiated the schema change.
+
+
+ -   **[Upgrade enhancements](https://www.servicenow.com/docs/access?context=dev-sbx-clone-upgrade-info&family=australia&ft:locale=en-US)**
+
 After an upgrade, Developer Sandboxes now recreates the sandboxes on an instance and automatically backs up update sets to the base instance.
 
 -   **[Queuing for successive sandbox creation](https://www.servicenow.com/docs/access?context=allocating-sandboxes&family=australia&ft:locale=en-US)**
@@ -229,6 +252,15 @@ Instances with vanity URLs can now support Single Sign-On \(SSO\).
 -   **[New vibe coding documentation](https://www.servicenow.com/docs/access?context=vibe-coding-landing&family=australia&ft:locale=en-US)**
 
 Documentation is now available that introduces vibe coding, which is a natural language approach to application development in ServiceNow, including how to get started, when to use it, and how it fits within the broader suite of AI-powered development tools.
+
+
+ -   **[Clarified sandbox initialization status](https://www.servicenow.com/docs/access?context=allocating-sandboxes&family=australia&ft:locale=en-US)**
+
+An error status message now appears on the instance home page when there’s an initialization error when allocating a sandbox.
+
+-   **[Developer Sandboxes home page hidden when product is inactive](https://www.servicenow.com/docs/access?context=dev-sbx-entitlements&family=australia&ft:locale=en-US)**
+
+The Developer Sandboxes home page is unavailable when Developer Sandboxes is inactive on an instance.
 
 
 </td></tr><tr><td>
@@ -392,6 +424,8 @@ Zurich
 
 Contact your ServiceNow account manager to install Developer Sandboxes.
 
+
+**Important:** [Developer Sandboxes](https://www.servicenow.com/docs/access?context=sandboxes-landing&family=zurich&ft:locale=en-US) is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 

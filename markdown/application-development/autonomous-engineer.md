@@ -6,10 +6,10 @@ canonical_url: https://www.servicenow.com/docs/r/application-development/autonom
 release: brazil
 topic_type: concept
 last_updated: "2026-09-08"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [Autonomous Engineer, Build Agent, implementation plan, agentic development, ServiceNow Studio, agent packs, work items, parallel execution]
 audience: programmer
-breadcrumb: [Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Build, AI Workflow Factory, Building applications]
 ---
 
 # Autonomous Engineer
@@ -55,4 +55,15 @@ The following resources provide additional information:
 
     [Contact Customer Service and Support](https://support.servicenow.com/now)
 
+
+-   **[Exploring Autonomous Engineer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/exploring-autonomous-engineer.md)**  
+Autonomous Engineer is an agentic worker that accepts requirements, generates a structured implementation plan, and builds all work items in parallel using background agents.
+-   **[Configure Autonomous Engineer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/configure-autonomous-engineer.md)**  
+Configure Autonomous Engineer by installing it from the ServiceNow Store and enabling the features required for planning and parallel execution on your instance.
+-   **[Using Autonomous Engineer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ae-using-autonomous-engineer.md)**  
+Use Autonomous Engineer to provide requirements, review an implementation plan, and build all work items in parallel using background agents in Build Agent.
+-   **[Autonomous Engineer reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/autonomous-engineer-reference-landing.md)**  
+Reference information for Autonomous Engineer, including work item states, agent packs, and supported capabilities in Build Agent.
+
+**Parent Topic:**[Build](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/build-ai-workflow-factory-prime.md)
 

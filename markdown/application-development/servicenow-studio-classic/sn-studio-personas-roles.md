@@ -8,8 +8,8 @@ product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 2
-breadcrumb: [Managing access to ServiceNow Studio, Configure, ServiceNow Studio, Developing your application, Building applications]
+reading_time_minutes: 3
+breadcrumb: [Managing access to ServiceNow Studio, Configure, ServiceNow Studio, Build, AI Workflow Factory, Building applications]
 ---
 
 # ServiceNow Studio personas and roles
@@ -36,6 +36,24 @@ Capabilities
 
 </th></tr></thead><tbody><tr><td>
 
+Admin
+
+</td><td>
+
+Admins can review and approve tasks related to custom application development.
+
+</td><td>
+
+-   Access ServiceNow Studio.
+-   Create apps in ServiceNow Studio.
+-   Create Fluent apps in source code from the Explorer tab.
+-   Edit existing apps and metadata records, or delegate development to another user.
+-   Create, edit, and manage update sets.
+-   Update existing metadata records.
+-   Create and edit global \(unscoped\) metadata records.
+
+</td></tr><tr><td>
+
 Delegated developer \(delegated\_developer\)
 
 </td><td>
@@ -52,21 +70,15 @@ Delegated developers have access only to the apps they are assigned to. Permissi
 
 </td></tr><tr><td>
 
-Admin
+Delegated admin \(Delegated developer with delegated\_admin permission\)
 
 </td><td>
 
-Admins can review and approve tasks related to custom application development.
+Delegated admins only have access to the scopes they have delegated developer access to.
 
 </td><td>
 
--   Access ServiceNow Studio.
--   Create apps in ServiceNow Studio.
--   Create Fluent apps in source code from the Explorer tab.
--   Edit existing apps and metadata records, or delegate development to another user.
--   Create, edit, and manage update sets.
--   Update existing metadata records.
--   Create and edit global \(unscoped\) metadata records.
+Grants access to all delegated development permissions for a specific scoped application so that permissions don't need to be granted individually. For more information, see [Developer and deployment permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/delegated-development-and-deployment/developer-permissions.md).
 
 </td></tr><tr><td>
 

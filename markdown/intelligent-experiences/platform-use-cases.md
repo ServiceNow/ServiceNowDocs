@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/platform-use-cases.html
 release: brazil
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2025-09-17"
 reading_time_minutes: 2
 breadcrumb: [Agentic workflows, AI agents and agentic workflows, Enable AI Experiences]
 ---
@@ -140,6 +140,18 @@ Processes images and converts them to tasks.
 
 </td></tr><tr><td>
 
+Process task closure
+
+</td><td>
+
+Triages tickets for closure eligibility and guides through reviewing, documenting, and closing them.
+
+</td><td>
+
+Task Closure Eligibility AI Agent
+
+</td></tr><tr><td>
+
 Propose survey responses
 
 </td><td>
@@ -150,18 +162,6 @@ Suggests answers for survey questions.
 
 -   Survey response suggestion AI agent
 -   Survey filling data collection AI agent
-
-</td></tr><tr><td>
-
-Task closure
-
-</td><td>
-
-Triages tickets for closure eligibility and guides through reviewing, documenting, and closing them.
-
-</td><td>
-
-Task closure AI agent
 
 </td></tr></tbody>
 </table>**Important:** By default, all agentic workflows and AI agent records are read only.

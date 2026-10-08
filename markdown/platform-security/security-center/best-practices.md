@@ -88,7 +88,7 @@ Consider limiting file attachments, uploads, and downloads
 
 Restrict attachment uploads by role, file extension, MIME type, or size to help prevent potentially malicious files being stored and delivered from your instance. You can also control which file types can be downloaded, including by MIME type, and prevent image access by unauthenticated users.
 
- These attachment restrictions are controlled by system properties on your instance. For details on their configuration, see .
+ These attachment restrictions are controlled by system properties on your instance. For details on their configuration, see [Configure attachment system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_DisablingTheDragAndDropFeature.md).
 
 </td></tr><tr><td>
 
@@ -154,7 +154,7 @@ Ensure automatic account creation
 
 Use this feature to create user accounts by email dynamically. Activate this feature only if necessary for your business needs, only after you have defined a list of trusted domains from which accounts can be created. You can also control how passwords are assigned to new accounts created this way.
 
- For details on automatic user creation, see .
+ For details on automatic user creation, see [Enable automatic user creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_EnablingAutomaticUserCreation.md).
 
 </td></tr><tr><td>
 
@@ -282,7 +282,7 @@ Monitor login failure rates and create alerts
 
 Monitor for unusual activity such as high numbers of failed logins, especially within short time frames. You can create alerts to send emails when a threshold you define is exceeded.
 
- Learn how to configure these thresholds at .
+ Learn how to configure these thresholds at [Indicator thresholds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/pa-threshold.md).
 
 </td></tr><tr><td>
 
@@ -429,7 +429,7 @@ Create email filters to filter out messages marked as suspicious by ServiceNow A
 
  Learn more about ServiceNow's antivirus feature at [Antivirus Scanning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/antivirus-protection.md).
 
- Learn how to configure email filters on your instance at .
+ Learn how to configure email filters on your instance at [Email filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/c_EmailFilters.md).
 
 </td></tr><tr><td>
 
@@ -439,7 +439,7 @@ Use the Syslog Probe to send logs to your SIEM
 
 Use the ServiceNow syslog probe to send log messages from your instance to a Security Information and Event Manager \(SIEM\). An SIEM is third-party software or service that can be used for activity monitoring and identifying security events.
 
- Learn more about ServiceNow syslog probe configuration at .
+ Learn more about ServiceNow syslog probe configuration at [Syslog probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/r_SyslogProbe.md).
 
 </td></tr><tr><td>
 

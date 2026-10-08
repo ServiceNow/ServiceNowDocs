@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-brazil/brazil-yokohama-productcatalogmanagement-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 6
+last_updated: "2026-10-08"
+reading_time_minutes: 8
 breadcrumb: [Products combined by family]
 ---
 
@@ -173,7 +173,22 @@ Brazil
 
 </td><td>
 
--   **[Minor updates to published product offerings and specifications](https://www.servicenow.com/docs/access?context=minor-updates-published-offerings-specs&family=brazil&ft:locale=en-US)**
+-   **[Catalog filtering for the eligible catalog-category hierarchy](https://www.servicenow.com/docs/access?context=product-catalog-search-api&family=brazil&ft:locale=en-US)**
+
+Retrieve only the catalog you need when loading the eligible catalog-category hierarchy. Previously, the response included the complete hierarchy for all eligible catalogs, even when a catalog was specified in the **selectedCatalog** parameter. Now, when you specify a catalog, the response includes only that catalog and its category hierarchy. The default value, `allCatalog`, still returns the complete hierarchy.
+
+-   **[Optional product details in catalog search results](https://www.servicenow.com/docs/access?context=prod_catalog_search-POST-search&family=brazil&ft:locale=en-US)**
+
+Reduce response size and processing time by requesting only the product details your integration needs.
+
+    -   Previously, the search response didn't include product offering characteristics or categories. Now, you can include the **additionalFields** object in the request to return the product offering family, characteristics, and categories, for example, `"additionalFields": {"family": true, "characteristics": true, "categories": true}`. These fields aren't returned unless you request them.
+    -   Previously, the search response included the **productOfferingFamily** object by default \(added in the September 2026 release\). Now, it's returned only when you set **family** to `true` in the **additionalFields** object. If your integration reads the product offering family from the search response, update your requests to include it.
+-   **[Improved search result ranking in the product catalog](https://www.servicenow.com/docs/access?context=reindex-product-offering-search&family=brazil&ft:locale=en-US)**
+
+Reindex the product catalog to help agents and customers find the exact product offering they're looking for, even when several similar offerings are indexed. Previously, a product offering could rank lower in search results than other offerings that only referenced it, such as a bundle that included it. Now, admins can reindex the product catalog so that the offering that most closely matches a search term ranks highest.
+
+
+ -   **[Minor updates to published product offerings and specifications](https://www.servicenow.com/docs/access?context=minor-updates-published-offerings-specs&family=brazil&ft:locale=en-US)**
 
 Simplify updates to published product offerings by adding optional characteristics and optional child offerings without creating a new offering version. Set a future effective date for the child-offering relationship to control when the child becomes available for new purchases or order changes. Previously, these updates required a new version of the parent offering and replication of its related configuration.
 
@@ -193,6 +208,10 @@ New columns have been added to the Product Catalog Management tables to enable n
     -   Effective from column has been added to the Product Offering Relationship \[sn\_prd\_pm\_product\_offering\_relationship\] and Specification Relationship \[sn\_prd\_pm\_specification\_relationship\] tables.
     -   Order column has been added to the Catalog Category \[sn\_prd\_pm\_catalog\_category\_relationship\] and Product Offering Catalog \[sn\_prd\_pm\_product\_offering\_catalog\] tables.
     -   Display Order column has been added to the Product Offering \[sn\_prd\_pm\_product\_offering\] table
+-   **[Product offering family in catalog search results](https://www.servicenow.com/docs/access?context=prod_catalog_search-POST-search&family=brazil&ft:locale=en-US)**
+
+Identify the product offering family of each search result without a separate lookup. Previously, the catalog search REST API response didn't include the product offering family. Now, the response returns the **productOfferingFamily** object for each product offering, whether or not AI Search is turned on.
+
 
 </td></tr></tbody>
 </table>## Removed

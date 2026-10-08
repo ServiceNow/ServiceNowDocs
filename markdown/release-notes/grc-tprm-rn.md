@@ -1,12 +1,12 @@
 ---
 title: Third-party Risk Management release notes
-description: The ServiceNow Third-party Risk Management application provides a centralized process for managing third-party engagement portfolios, assessing and scoring risk, and driving remediation. See the following sections for release notes by version. Version 23.0 adds AI asset support in element collection, DORA register-of-information terminology, and document version comparison. It also updates element assessments, risk scoring, and notifications, and fixes SBOM processing issues.
+description: The ServiceNow Third-party Risk Management application provides a centralized process for managing third-party engagement portfolios, assessing and scoring risk, and driving remediation. See the following sections for release notes by version. Version 23.0 adds AI asset support in element collection, DORA register-of-information terminology, and document version comparison. It also updates element assessments, risk scoring, and notifications, and fixes SBOM processing issues.Version 23.1.1 adds support to new AI models for Now LLM. Select model config updates are being deprecated and made inactive.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/grc-tprm-rn.html
 release: brazil
 topic_type: topic
 last_updated: "2026-09-10"
-reading_time_minutes: 8
+reading_time_minutes: 9
 keywords: [Third-Party Risk Management, TPRM, Third-Party Risk Management, TPRM, element collection, AI assets, AI use cases, AI models, DORA, register of information, document version comparison, Document Management System, Smart Assessment Engine, SAE, questionnaire reassignment, risk scoring, internal tasks, external tasks, SBOM, issue generation, third-party portal, due diligence]
 audience: administrator
 breadcrumb: [Governance, Risk, and Compliance release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
@@ -138,6 +138,17 @@ Version 23.0 adds AI asset support in element collection, DORA register-of-infor
 
     After upgrading to version 23.0.7, the SAE default rating scale table is available from the Vendor Management Workspace navigation, under **Assessment Setup**. Previously, this table wasn't accessible from workspace navigation.
 
+
+### What's deprecated or removed
+
+-   **Now LLM Service**
+
+    Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+
+
+## October 2026
+
+Version 23.1.1 adds support to new AI models for Now LLM. Select model config updates are being deprecated and made inactive.
 
 ### What's deprecated or removed
 

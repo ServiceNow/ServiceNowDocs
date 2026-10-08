@@ -49,8 +49,6 @@ Clone ERP models to make customizations so that your changes don't break connect
 
 6.  Select **Clone this model**.
 
-    The cloned model is created and opens in a new tab.
-
 7.  Change information about the cloned model on the **Details** tab, such as updating the name.
 
     **Warning:** Changing the ERP system connected to the ERP model affects the available remote tables and extraction tables. If you change the ERP system, you must confirm the change on a warning modal.
@@ -58,9 +56,11 @@ Clone ERP models to make customizations so that your changes don't break connect
     For a description of the field values, see [Zero Copy Connector for ERP clone model field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-clone-model-fields.md).
 
 
+## Result
+
+The cloned model is created and opens on the model details page.
+
 ## What to do next
 
 Next, manage the model to specify additional criteria, such as the tables it reads and joins. You can also define create, read, and update operations, and input/output parameters. For more information, see [Exploring Zero Copy Connector for ERP models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/exploring-erp-models.md).
-
-**Parent Topic:**[Building and managing models to work with ERP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/work-with-erp-data-models.md)
 

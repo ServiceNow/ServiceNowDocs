@@ -23,7 +23,7 @@ Role required: admin
 
 ## About this task
 
-The resource board in Resource Management Workspace uses progressive disclosure by default to load users incrementally and reduce performance impact. Setting the **com.snc.resource\_management.progressive\_disclosure** property to **false** disables this behavior and loads all 200 users at once, which may affect performance on instances with large user datasets.
+The resource board in Resource Management Workspace uses progressive disclosure by default to load users incrementally and reduce performance impact. Setting the **com.snc.resource\_management.progressive\_disclosure** property to **false** disables this behavior and loads all 200 users immediately, which may affect performance on instances with large user datasets.
 
 ## Procedure
 
@@ -33,14 +33,14 @@ The resource board in Resource Management Workspace uses progressive disclosure 
 
 3.  In the Value field, enter **false**.
 
-    Setting the value to **false** disables progressive disclosure and loads all 200 users at once, which may be slower on instances with large user datasets. The default value is **true**, which enables progressive disclosure for faster initial load.
+    Setting the value to **false** disables progressive disclosure and loads all 200 users, which may be slower on instances with large user datasets. The default value is **true**, which enables progressive disclosure for faster initial load.
 
 4.  Select **Update**.
 
 
 ## Result
 
-The resource board loads all 200 users at once. To restore progressive disclosure and improve load performance, set the property value back to **true**.
+The resource board loads all 200 users immediately. To restore progressive disclosure and improve load performance, set the property value back to **true**.
 
 **Parent Topic:**[Configure Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/configure-rmw.md)
 

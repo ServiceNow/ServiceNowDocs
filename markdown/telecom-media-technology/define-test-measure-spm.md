@@ -18,6 +18,10 @@ Define unique test metrics, such as parameters and criteria to run the test on a
 
 Role required: admin
 
+## About this task
+
+Test measure definitions are optional. You can publish a test definition that has no test measure definitions.
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **Service Test Management** &gt; **Test Groups** &gt; **All**.

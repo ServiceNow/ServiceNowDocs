@@ -1,5 +1,5 @@
 ---
-title: Track cases on the Business Location Service Portal
+title: Track cases on the Business Organization Support Portal
 description: Track cases on behalf of a business location against sold products deployed at a business location, or against installed base items deployed at a business location.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/track-cases-for-blsp-portal.html
@@ -7,12 +7,14 @@ release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create cases, Use Business Location Service Portal, Customer communication, Use, Customer Service Management]
+breadcrumb: [Create cases, Use Business Organization Support Portal, Customer communication, Use, Customer Service Management]
 ---
 
-# Track cases on the Business Location Service Portal
+# Track cases on the Business Organization Support Portal
 
 Track cases on behalf of a business location against sold products deployed at a business location, or against installed base items deployed at a business location.
+
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/renamed-entities.md).
 
 \[Omitted image "my-lists-widget.png"\] Alt text: Filter options for My Lists widget on the Business Location Service Portal.
 

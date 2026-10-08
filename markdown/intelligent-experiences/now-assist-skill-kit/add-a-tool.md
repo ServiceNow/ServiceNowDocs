@@ -1,6 +1,6 @@
 ---
 title: Add a tool
-description: Add and manage tools visually in the Tools editor, including decision branching, to execute different tools for your skill. Adding decision branches between tools enables you to define the conditions that need to be met for a tool to run. If no conditions are met, the default branch's step is executed.
+description: Add and manage tools visually in the Tools editor, including decision branching, to execute different tools for your skill. Adding decision branches between tools enables you to define the conditions that must be met for a tool to run. If no conditions are met, the default branch's step is executed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-skill-kit/add-a-tool.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Create a prompt, Using AI Skill Kit, AI Skill Kit, Generative AI sk
 
 # Add a tool
 
-Add and manage tools visually in the Tools editor, including decision branching, to execute different tools for your skill. Adding decision branches between tools enables you to define the conditions that need to be met for a tool to run. If no conditions are met, the default branch's step is executed.
+Add and manage tools visually in the Tools editor, including decision branching, to execute different tools for your skill. Adding decision branches between tools enables you to define the conditions that must be met for a tool to run. If no conditions are met, the default branch's step is executed.
 
 ## Before you begin
 
@@ -96,13 +96,13 @@ Decision node
 
 
 -   **[Add a retriever](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skill-kit/add-retriever.md)**  
-Add a retriever to your prompt to augment and add context to your prompts with AI search results.
+Add a retriever to your skill to augment your prompts with relevant context from AI Search results.
 -   **[Add a web search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skill-kit/add-web-search.md)**  
-Add a web search as a tool in AI Skill Kit. Adding a web search as a tool enables you to add search results to your prompt.
+Add a web search as a tool in AI Skill Kit to include web search results in your skill prompts.
 -   **[Add Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skill-kit/add-predictive-intelligence.md)**  
-Add predictive intelligence as a tool in AI Skill Kit. Predictive intelligence models enable you to predict, estimate, and identify patterns that can be used to route work, populate forms, estimate wait times, and more.
+Add Predictive Intelligence as a tool in AI Skill Kit. Predictive Intelligence models predict values, estimate outcomes, and identify patterns that you can use to route work, populate forms, and estimate wait times.
 -   **[Add Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skill-kit/add-document-intelligence.md)**  
-Add Document Intelligence as a tool in AI Skill Kit to extract structured data from documents as part of your skill's execution flowflow.
+Add Document Intelligence as a tool in AI Skill Kit to extract structured data from documents as part of your skill's execution flow.
 
 **Parent Topic:**[Create a prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skill-kit/create-prompt-template.md)
 

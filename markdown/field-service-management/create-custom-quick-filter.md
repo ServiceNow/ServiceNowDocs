@@ -1,5 +1,5 @@
 ---
-title: Create a custom quick filter
+title: Create a custom quick task filter
 description: Add a custom filter criterion to the quick task and calendar filters.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/field-service-management/create-custom-quick-filter.html
@@ -7,11 +7,11 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-keywords: [quick filter, extension point]
+keywords: [quick task filter, extension point]
 breadcrumb: [Dispatcher Workspace, CSM/FSM Configurable Workspace, Configure, Field Service Management]
 ---
 
-# Create a custom quick filter
+# Create a custom quick task filter
 
 Add a custom filter criterion to the quick task and calendar filters.
 
@@ -48,4 +48,13 @@ Role required: admin. You must be a professional developer to implement this ext
 ## Result
 
 The new criterion is available to select in the quick task filter and quick calendar filter modals.
+
+**Related topics**  
+
+
+[Quick task and calendar filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/quick-filters-dw.md)
+
+[Apply a quick task filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/apply-quick-task-filter.md)
+
+[Apply a quick calendar filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/apply-quick-cal-filter.md)
 

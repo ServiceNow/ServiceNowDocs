@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/financial-services-operations/configure-now-assist-for-fso.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-09-24"
 reading_time_minutes: 2
 keywords: [configuring generative AI for financial services operations, configuring generative AI for FSO]
 breadcrumb: [Configure AI skills, Enable AI capabilities, Configure, Financial Services Operations \(FSO\)]
@@ -19,7 +19,7 @@ If you have the admin role, you can configure the ServiceNow Otto for Financial 
 
 Verify the ServiceNow Otto for Financial Services Operations \(FSO\) plugin \(sn\_fso\_gen\_ai\) is installed.
 
--   For information about the installation process, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+-   For information about the installation process, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 -   For general information about configuring AI skills in FSO, see [Configure Financial Services Operations AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/financial-services-operations/configure-fso-now-assist-skills.md).
 
 Role required: admin
@@ -68,6 +68,8 @@ The following table lists the FSO case summarization skills that you can access 
 ## Result
 
 A message appears confirming the summarization skill has been successfully activated. Select **Return to Banking** to return to the Banking skills screen.
+
+**Note:** If a skill isn't active, the corresponding summarization component doesn't appear on the case record.
 
 ## What to do next
 

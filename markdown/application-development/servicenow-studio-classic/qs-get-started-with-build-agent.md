@@ -8,9 +8,9 @@ product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 2
+reading_time_minutes: 3
 keywords: [Build Agent]
-breadcrumb: [ServiceNow Studio quick start, Explore, ServiceNow Studio, Developing your application, Building applications]
+breadcrumb: [ServiceNow Studio quick start, Explore, ServiceNow Studio, Build, AI Workflow Factory, Building applications]
 ---
 
 # Getting started with Build Agent in ServiceNow Studio
@@ -29,6 +29,7 @@ Access Build Agent from several places.
 
 -   The home page of ServiceNow Studio contains the main chat panel for Build Agent.
 -   The ServiceNow Otto icon \[Omitted image "sn-studio-conversations-icon.png"\] Alt text: in the activity bar opens the list of all current and past conversations with Build Agent.
+-   From the ServiceNow AI Platform, from the right-click **Configure** menu where you might edit business rules or client scripts, ServiceNow Studio opens with the Build Agent activated with your request.
 
 \[Omitted image "sn-studio-ba-chat.png"\] Alt text: Access Build Agent from the ServiceNow Studio home page.
 

@@ -167,15 +167,15 @@ Connector for interacting with SAP applications.For more information about the S
 
 7.  Perform the following steps for more plugin options.
 
-<table id="choicetable_sx3_1wd_b2c"><thead><tr><th align="left" id="d553435e568">
+<table id="choicetable_sx3_1wd_b2c"><thead><tr><th align="left" id="d560120e568">
 
 Action
 
-</th><th align="left" id="d553435e571">
+</th><th align="left" id="d560120e571">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d553435e577">
+</th></tr></thead><tbody><tr><td id="d560120e577">
 
 **Update a plugin version**
 
@@ -189,7 +189,7 @@ Steps
 6.  Save, close and reopen the project to load the updated plugins to the current project.
 
 
-</td></tr><tr><td id="d553435e620">
+</td></tr><tr><td id="d560120e620">
 
 **Remove a plugin**
 

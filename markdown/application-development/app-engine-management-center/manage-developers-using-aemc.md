@@ -9,7 +9,7 @@ classification: app-engine-management-center
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage app development, Use, App Engine Management Center, Governing app development, Building applications]
+breadcrumb: [Manage app development, Use, App Engine Management Center, Run, AI Workflow Factory, Building applications]
 ---
 
 # Managing developers using AEMC

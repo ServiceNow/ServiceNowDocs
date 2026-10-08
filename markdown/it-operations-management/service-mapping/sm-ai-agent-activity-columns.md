@@ -7,9 +7,9 @@ release: brazil
 product: Service Mapping
 classification: service-mapping
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-09-18"
 reading_time_minutes: 1
-keywords: [AI Agent activity, mapping results, ITOM]
+keywords: [AI Agent activity, mapping results, ITOM, Business App Identification skill]
 breadcrumb: [Service Mapping reference, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
 
@@ -90,7 +90,7 @@ The outcome of the mapping attempt:
 
  -   **Linked** – The AI Agent found a matching application service for the business application and automatically created a "Uses::Used by" relationship between them.
 -   **Already connected** – The relationship between the business application and the application service was created manually.
--   **Needs review** - The AI Agent identified a possible match between the business application and an application service, but the confidence level was not high enough to create the relationship automatically.
+-   **Needs review** - The AI Agent identified a possible match between the business application and an application service. The confidence level was not high enough to create the relationship automatically.
 -   **No match found** - The AI Agent did not find an application service that could be linked to the business application with sufficient confidence. No relationship was created.
 -   **Failed** – The AI Agent has failed to link between the business application and the service instance.
 
@@ -100,7 +100,7 @@ Confidence
 
 </td><td>
 
-The AI confidence level for the mapping: High, Medium, or Low.
+The AI confidence rating for the mapping: Very low, Low, Medium, High, or Very high.
 
 </td></tr><tr><td>
 

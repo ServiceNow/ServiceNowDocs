@@ -43,5 +43,3 @@ Service categorizes the application according to the area of the work within the
 
 **Parent Topic:**[Configure service to use Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/universal-request-for-hr-service-delivery/config-service-for-ur.md)
 
-**Parent Topic:**[Configure service to use Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/universal-request-for-hr-service-delivery/config-service-for-ur.md)
-

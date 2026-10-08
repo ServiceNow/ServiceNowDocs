@@ -25,7 +25,7 @@ Amazon ElastiCache is a fully managed, in-memory caching service available on AW
     -   `https://elasticache.{region}.amazonaws.com?Action=DescribeReplicationGroups&Version=2015-02-02`
     -   `https://tagging.{region}.amazonaws.com {"ResourceTypeFilters":[]}`
 
-## Verify the REST API Permissions
+## Verify the REST API permissions
 
 Download the [Cloud Discovery patterns spreadsheet](https://downloads.docs.servicenow.com/resource/enus/api/servicenow-discovery-patterns-api-details.xlsx) so you can grant user permissions required for running the Discovery patterns. In addition to permissions, the spreadsheet also includes useful information such as pattern names, types, CI Classes, and links to vendor documentation. New patterns are available quarterly, so check periodically to be sure you have the latest version of the spreadsheet.
 

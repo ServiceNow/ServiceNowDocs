@@ -1,24 +1,24 @@
 ---
 title: Evaluate asset AI agent
-description: This AI agent assists users in troubleshooting asset-related issues by using the Web Search tool, guiding them to select an appropriate resolution, and automatically completing the troubleshooting task upon confirmation.
+description: This AI agent helps troubleshoot asset-related issues using the Web Search tool. It guides users to select a resolution and completes the troubleshooting task on confirmation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/itam-evaluate-asset-ai-agent.html
 release: brazil
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [IT Asset Management AI agents, IT Asset Management, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Asset Management AI agents, IT Asset Management, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Evaluate asset AI agent
 
-This AI agent assists users in troubleshooting asset-related issues by using the Web Search tool, guiding them to select an appropriate resolution, and automatically completing the troubleshooting task upon confirmation.
+This AI agent helps troubleshoot asset-related issues using the Web Search tool. It guides users to select a resolution and completes the troubleshooting task on confirmation.
 
 ## Workflow
 
 The agent helps users troubleshoot asset-related issues.
 
-1.  Perform a web search and create a step by step hardware evaluation plan from the official &lt;asset\_manufacturer&gt; website for &lt;asset\_model&gt;. Provide warranty consideration guidelines and void-prevention measures for different inspection scenarios. Give detailed steps for each issue.
+1.  Perform a web search and create a step by step hardware evaluation plan. Provide warranty consideration guidelines and void-prevention measures for different inspection scenarios. Give detailed steps for each issue.
 2.  Refine and format search results.
 3.  Display numbered troubleshooting steps to the user, one at a time.
 4.  If the user indicates that the problem is solved, end the workflow.
@@ -114,7 +114,7 @@ Used in agentic workflows
 -   Help repair enterprise assets
 
 </td></tr></tbody>
-</table>Learn more about IT Asset Management at .
+</table>Learn more about Asset Management at [Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-management-landing-page.md) .
 
-**Parent Topic:**[IT Asset Management AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/itam-ai-agents-overview.md)
+**Parent Topic:**[Asset Management AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/itam-ai-agents-overview.md)
 

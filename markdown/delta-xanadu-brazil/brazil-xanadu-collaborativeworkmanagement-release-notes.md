@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-collaborativeworkmanagement-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 18
+last_updated: "2026-10-08"
+reading_time_minutes: 27
 breadcrumb: [Products combined by family]
 ---
 
@@ -154,13 +154,68 @@ Use the keyboard shortcut to quickly search for and go to a Space, Board, or Doc
 Also, the Search bar displays all the recent Spaces, Boards, and Docs that you've navigated to within the CWM workspace so that you can quickly select from the recent items without having to search for them again.
 
 
+ -   **[Real-time collaboration in Docs](https://www.servicenow.com/docs/access?context=cwm-docs&family=yokohama&ft:locale=en-US)**
+
+Edit a Doc page concurrently with multiple other editors. Colored cursors denote the current location of editors on the page. You can choose to show or hide these indicators.
+
+**Note:** To use the full functionality of Docs when using Docs v6.0.0 within CWM workspace, ensure that you upgrade Collaborative Work Management to v5.0.0. For more information, see [KB2017926](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2017926).
+
+-   **[Requesting access to a Space or Board from its URL](https://www.servicenow.com/docs/access?context=cwm-spaces&family=yokohama&ft:locale=en-US)**
+    -   CWM users can quickly request access to a Space or Board through the **Request access** button, which sends an actionable email request to Space owners and editors.
+    -   Space owners can approve or reject the request directly from the email without having to open the CWM workspace.
+-   **[Requesting to elevate user access role to Editor](https://www.servicenow.com/docs/access?context=share-space-in-cwm&family=yokohama&ft:locale=en-US)**
+
+Easily send a request to Space owners and editors to request elevating your role to Editor by selecting the Viewing mode indicator in the Board header that indicates that you have only the Viewer role.
+
+-   **[Managing access in the Share permissions modal](https://www.servicenow.com/docs/access?context=share-space-in-cwm&family=yokohama&ft:locale=en-US)**
+
+Easily identify users who already have access to your Space and the users who requested access using the following two sections in the Share permissions modal.
+
+    -   **People with Access** section: Manage the access level of existing collaborators to Editor, Viewer, or Owner, or remove them from the Space.
+    -   **Pending Access** section: Review requests from users and choose to grant or deny them access to your Space.
+-   **[Managing Space permissions for task assignees and other users](https://www.servicenow.com/docs/access?context=share-space-in-cwm&family=yokohama&ft:locale=en-US)**
+
+Identify task assignees who don’t have access to the workspace through a lock icon next to the user name. This icon is visible in the List view of the Board in the columns of type People such as **Assigned to**, **Additional Assignee**, and **Assignment group**.
+
+You can either use the workspace prompt to grant assignees Viewer access or choose to manage their access level later from the Share permissions modal.
+
+-   **[Share task details with Task URLs](https://www.servicenow.com/docs/access?context=add-tasks-to-board-in-cwm&family=yokohama&ft:locale=en-US)**
+
+Provide direct access to a specific CWM Task record to share with team members and stakeholders by copying its URL. The task opens in the side panel in the context of the Board that it belongs to, eliminating the need to search through multiple items on the Board.
+
+-   **[Improved user experience for Board views](https://www.servicenow.com/docs/access?context=update-a-cwm-board-view&family=yokohama&ft:locale=en-US)**
+
+Avoid accidentally losing unsaved Board view edits when you try to navigate away from the Board or refresh the browser tab by responding to a displayed workspace prompt.
+
+
 </td></tr><tr><td>
 
 Zurich
 
 </td><td>
 
--   **[Agile sprint planning in CWM](https://www.servicenow.com/docs/access?context=agile-sprint-planning-in-cwm&family=zurich&ft:locale=en-US)**
+-   **[Enterprise Agile Planning \(EAP\) integration with CWM](https://www.servicenow.com/docs/access?context=integrate-eap-with-collaborative-work-management&family=zurich&ft:locale=en-US)**
+
+Enhance visibility and streamline planning for your teams with EAP integration into CWM.
+
+For Agile teams managing non-agile work items like incidents and change tasks, this integration bridges the gap by automatically creating a dedicated Space and Board in CWM. Agile work is seamlessly brought over via Connected Work, while EAP sprints are reflected directly in CWM’s Sprint planning view, thus enabling unified planning across all work types. Teams can plan work for their sprints and update work status directly from the CWM Board, with performance reports in EAP dynamically reflecting these changes. This integration enables teams to manage their full scope of work from a single, connected workspace.
+
+-   **[Board preferences](https://www.servicenow.com/docs/access?context=cwm-boards&family=zurich&ft:locale=en-US)**
+
+Reduce cognitive load and focus on the most relevant and actionable tasks by filtering work items on CWM boards based on their last updated date and hiding those items marked as Closed complete. From the Board preferences menu on the Board header, you can choose to show items last updated within 7 days, 30 days, 90 days, 120 days, or 1 year.
+
+-   **[Kanban card layout settings](https://www.servicenow.com/docs/access?context=cwm-board-views&family=zurich&ft:locale=en-US)**
+
+Surface the information that's most relevant to you using Card Layout settings for Kanban view of a CWM Board. You can now personalize Kanban cards by selecting up to five fields to display on them. For a cleaner, distraction-free view, you can enable the Compact layout, which shows only the work item name on the card. Alternatively, the Full view shows all selected fields, offering better context directly on the card. Based on your workflow needs, tailor your workspace to enhance the way you track tasks.
+
+-   **[Dynamic data linking in CWM Docs](https://www.servicenow.com/docs/access?context=cwm-docs&family=zurich&ft:locale=en-US)**
+
+Keep record information in your documentation current and reduce manual effort with the Dynamic data linking feature in Docs. You can now reference any ServiceNow application record and Docs will automatically reflect the latest updates from those records. For example, if you add a reference to a Project record, the reference will show the latest field information of the project in Docs without requiring manual edits. Clicking the project reference opens up the project form so that you can view the full details of the project record and make any necessary changes. Dynamic linking also enables adding references to a particular field of a record, such as Assigned to of an Incident record.
+
+You can add references from any ServiceNow table that you have access to, with no setup or configuration needed, thereby eliminate the hassle of switching between applications to copy and paste data from various records into Docs.
+
+
+ -   **[Agile sprint planning in CWM](https://www.servicenow.com/docs/access?context=agile-sprint-planning-in-cwm&family=zurich&ft:locale=en-US)**
 
 Plan, track, and manage work for your teams by using Agile sprint planning in the CWM workspace. You can use CWM to manage tasks in multiple methodologies including ad hoc, waterfall, and Agile practices.
 
@@ -217,7 +272,43 @@ Australia
 
 </td><td>
 
--   **[Formula columns in CWM](https://www.servicenow.com/docs/access?context=add-formula-column-cwm-boards&family=australia&ft:locale=en-US)**
+-   **[Project Workspace integration with CWM](https://www.servicenow.com/docs/access?context=connect-project-workspace-cwm&family=australia&ft:locale=en-US)**
+
+Deliver your part of a project without leaving CWM or duplicating work progress in Project Workspace. Track project tasks assigned to you in **My Work**, break them down into CWM tasks and stories directly from a Board, and see the project and project task that you're contributing to.
+
+Save time on status updates because your work rolls up to the project automatically. Any child tasks that you create are automatically linked to the parent project task and its project, you can reassign or remove that connection as work evolves, and project managers see the same updates in Project Workspace.
+
+
+ -   **[Import tasks into CWM Boards using Now Assist](https://www.servicenow.com/docs/access?context=importing-tasks-cwm-boards&family=australia&ft:locale=en-US)**
+
+Reduce manual effort when onboarding existing work to CWM by importing tasks or stories from spreadsheets, documents, or images. Upload a file and Now Assist analyzes the data and proposes how each source column maps to a column on your board.
+
+Review and adjust the AI-proposed mapping, add source columns as new custom columns if needed, and preview the full task list before confirming. The import runs in the background and a workspace notification reports the outcome when it completes.
+
+-   **[Inline comments and email notifications in Docs](https://www.servicenow.com/docs/access?context=add-comments-to-docs-in-cwm&family=australia&ft:locale=en-US)**
+
+Streamline collaboration by enabling inline comments in Docs. Select text to add a comment, mention colleagues using @, and include hyperlinks by pasting URLs. You can comment on plain text, hyperlinks, dynamic data, and text inside table cells, and track discussions through threads, all without leaving the page or switching applications.
+
+Email notifications with comment details, document name, workspace name, and document path are sent when a reply is added to your comment or when you're @-mentioned. Each notification includes a button that opens the document and navigates directly to the comment. Edit or delete your comments and choose to show or hide comment highlights. Users with read-only access can add comments and participate in comment threads.
+
+
+ -   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&family=australia&ft:locale=en-US)**
+
+The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
+
+    -   Foundation: AI basics to deliver insights
+    -   Advanced: AI to boost productivity across relevant use cases
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+
+-   **[Team member roles for project work](https://www.servicenow.com/docs/access?context=cwm-team-member-roles&family=australia&ft:locale=en-US)**
+
+View and update project and demand tasks directly in CWM using team member roles, installed alongside Collaborative Work Management.
+
+The team member read role lets users view project and demand tasks and leave comments. The team member read-write role also lets users edit those tasks. Team members can view and manage the work assigned to them and their team through **My Work** and **Connected Work** in CWM.
+
+
+ -   **[Formula columns in CWM](https://www.servicenow.com/docs/access?context=add-formula-column-cwm-boards&family=australia&ft:locale=en-US)**
 
 Gain deeper insights into your work by adding formula columns to your List view in CWM Boards. Create calculations that automatically compute values across your tasks, such as summing hours, calculating date differences, or deriving metrics from existing fields.
 
@@ -300,13 +391,51 @@ Identify and manage incorrect spellings in typed or pasted content in a Doc. The
 Insert hyperlinks in a Doc easily and quickly through the formatting toolbar, inline commands, or by pasting a copied link. The pasted URL can be converted into a hyperlink by pressing the Space or Enter key and edited using the inline edit modal.
 
 
+ -   **[Numbering on automation cards](https://www.servicenow.com/docs/access?context=manage-or-delete-automations-in-cwm&family=yokohama&ft:locale=en-US)**
+
+Instead of record numbers, Board automation cards show a sequential list numbering of 1, 2, 3, and so on. Error messages use these list numbers so you can easily identify an existing automation from the list of available automations for the Board.
+
+
+ -   **[Improved user experience for copying links of Boards](https://www.servicenow.com/docs/access?context=board-views-in-cwm&family=yokohama&ft:locale=en-US)**
+
+Ensure that your team sees the same data as you while sharing links of your Boards through the **Copy link** action, which now accesses the linked workspace showing the view in which the Board is displayed to you regardless of the user's view settings.
+
+-   **[Redirection to the CWM task from notification emails](https://www.servicenow.com/docs/access?context=cwm-boards&family=yokohama&ft:locale=en-US)**
+
+Access task details when you open a task from an assignment email from CWM in a new browser tab in the context of its Board rather than being directed to the workspace home page.
+
+-   **[Redirection to the specific doc pages from notification emails](https://www.servicenow.com/docs/access?context=cwm-docs&family=yokohama&ft:locale=en-US)**
+
+Access the specific Doc page that you are @-mentioned in by selecting **View Doc** in the notification email, eliminating the need to look through multiple pages in the Doc.
+
+-   **[Reflow for Configurable Workspace](https://www.servicenow.com/docs/access?context=auto-reflow&family=yokohama&ft:locale=en-US)**
+
+The CWM workspace supports reflow, which enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality.
+
+
 </td></tr><tr><td>
 
 Zurich
 
 </td><td>
 
--   **Coral theme**
+-   **[My Work enhancements](https://www.servicenow.com/docs/access?context=my-work-in-cwm&family=zurich&ft:locale=en-US)**
+
+Track all your work at one place using enhanced My Work. My Work now supports all ServiceNow task records-such as incidents, changes, and requests-whether they originate in CWM or outside, giving you a unified view of everything assigned to you. This helps you stay on top of overdue or open tasks and improves on-time delivery.
+
+Additionally, the Item type filter is refined to show all CWM tasks \(including custom ones\) grouped under a single category, instead of listing every CWM task type individually. You’ll also only see task types in the filter that you’re actually assigned to, reducing clutter and making it easier to filter what matters.
+
+-   **[Enhancements to tables in Docs](https://www.servicenow.com/docs/access?context=cwm-docs&family=zurich&ft:locale=en-US)**
+    -   Resize the column width of a table per your preference.
+    -   Add color to single or multiple table cells.
+    -   Select multiple cells of a table using the mouse device or by pressing **Shift+ one of the arrow keys** on the keyboard.
+    -   Delete content from multiple cells using the **Backspace** or **Delete** keys.
+    -   Copy and paste cell content:
+        -   Copy content from one cell and paste it to multiple cells.
+        -   Copy content from n number of cells and paste it to another set of n number of cells.
+        -   Copy content from multiple cells and paste it as a new table in an empty block on the page.
+
+ -   **Coral theme**
 
 Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
 
@@ -342,7 +471,22 @@ Australia
 
 </td><td>
 
--   **[Formatting toolbar changes in Docs](https://www.servicenow.com/docs/access?context=cwm-docs&family=australia&ft:locale=en-US)**
+-   **[ServiceNow Otto skills for CWM](https://www.servicenow.com/docs/access?context=now-assist-for-cwm-explore&family=australia&ft:locale=en-US)**
+
+ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+
+-   **[Task dependencies and relationships](https://www.servicenow.com/docs/access?context=managing-task-dependencies-relationships-cwm&family=australia&ft:locale=en-US)**
+
+You can now search by task number, in addition to name, when adding a relationship to a work item.
+
+
+ -   **[Inline comments changes in Docs](https://www.servicenow.com/docs/access?context=cwm-docs&family=australia&ft:locale=en-US)**
+    -   The Add comments icon appears in the inline toolbar.
+    -   Commented text displays a yellow highlight and underline. Selecting commented text darkens the highlight and opens a comment popover showing the full thread, including reply count, user avatars, names, and relative timestamps.
+    -   The comment popover provides options to edit or delete comments. Edited comments display an **Edited** indicator.
+    -   Users can turn highlights on or off using the **Show comment highlights** or **Hide comment highlights** options in the More actions menu of the document.
+
+ -   **[Formatting toolbar changes in Docs](https://www.servicenow.com/docs/access?context=cwm-docs&family=australia&ft:locale=en-US)**
 
 Quickly confirm which text formatting is active for your text selection. A green checkmark now appears next to the currently applied format in the formatting toolbar, giving you a clear visual indicator of the active formatting.
 
@@ -502,6 +646,8 @@ Yokohama
 Install Collaborative Work Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 
+**Important:** Collaborative Work Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Zurich
@@ -513,6 +659,8 @@ Zurich
 Install Collaborative Work Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
 
+**Important:** Collaborative Work Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Australia
@@ -523,6 +671,8 @@ Australia
 
 Install Collaborative Work Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
 
+
+**Important:** Collaborative Work Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 

@@ -9,7 +9,7 @@ classification: policy-and-compliance-management
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Policy as Code Engine for Preventive compliance management, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Policy as Code Engine for Preventive compliance management, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Map PaCE policy to a control objective

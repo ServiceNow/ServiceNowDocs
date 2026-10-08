@@ -1,12 +1,12 @@
 ---
 title: Impact release notes
-description: ServiceNow Impact is built on the ServiceNow AI Platform and combines customized service with a digital interface to provide tailored recommendations and guidance. Impact was enhanced and updated in the Brazil release. See the following sections for release notes by version.Version 11.0.0 introduces standalone product adoption functionality, new Accelerators across multiple domains, Scan Engine API and exception workflow enhancements, and Business Outcomes improvements. It also retires legacy Accelerators and Impact Health Diagnostics.
+description: ServiceNow Impact is built on the ServiceNow AI Platform and combines customized service with a digital interface to provide tailored recommendations and guidance. Impact was enhanced and updated in the Brazil release. See the following sections for release notes by version.Version 12.0.0 introduces a new Setup Hub onboarding experience, multi-participant maturity assessments, Scan Engine performance improvements, and Business Value Management enhancements.Version 11.0.0 introduces standalone product adoption functionality, new Accelerators across multiple domains, Scan Engine API and exception workflow enhancements, and Business Outcomes improvements. It also retires legacy Accelerators and Impact Health Diagnostics.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/impact-rn.html
 release: brazil
 topic_type: topic
 last_updated: "2026-09-10"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
@@ -17,7 +17,7 @@ ServiceNow® Impact is built on the ServiceNow AI Platform and combines customiz
 ## About Impact
 
 -   Achieve success your way with tailored resources, driving outcomes aligned to your business priorities.
--   Accelerate business outcomes faster with the AI Control Tower, reducing time to measurable impact.
+-   Accelerate business outcomes faster with AI Control Tower, reducing time to measurable impact.
 -   Adopt ServiceNow products and AI innovations rapidly, ensuring your team moves at the speed of transformation.
 -   Maximize your ServiceNow investment, proving its value to stakeholders through measurable adoption and outcomes.
 -   Improve platform health with proactive guidance, keeping your instance optimized and future-ready.
@@ -37,6 +37,45 @@ See [Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/
 
 **Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/new-features-changes.md)
 
+## October 2026 Store \(v12.0.0\)
+
+Version 12.0.0 introduces a new Setup Hub onboarding experience, multi-participant maturity assessments, Scan Engine performance improvements, and Business Value Management enhancements.
+
+### What's new
+
+-   **[Use the Impact Setup Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/use-impact-setup-hub.md)**
+
+    Configure Impact through an interactive Setup Hub UI that replaces the previous linear guided setup. Setup progress persists across upgrades.
+
+-   **[Latest Accelerators by release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/new-accelerators-australia-release.md)**
+
+    ServiceNow Impact now includes new self-service maturity assessment accelerators that help customers evaluate their maturity across key domains. With this release you can:
+
+    -   generate prioritized action plans with domain-specific tasks, assigned owners, and completion criteria aligned to business priorities
+    -   address the identified gaps
+-   **[Value Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/impact-in-platform-business-outcomes.md)**
+    -   Use the Impact Product Console to view and customize estimated data definitions switch any estimated metric to real, verified data, connected directly to Manage Objectives and Outcomes.
+    -   Configure an Estimated data definition using a two step flow. The first step explains the current approximation and what you're about to change. The second step maps the metric to the Performance Analytics indicator and updates the metric status from Not configured to Configured.
+    -   Map Tier 1 and Tier 2 groups and apply the mapping across IT Service Management, Customer Service Management, and HR Service Delivery metrics. Adding or removing a group from any product updates the mapping for all products.
+    -   Track an outcome that uses an Estimated data definition only after you configure its definition in the Impact Store App Store App and enable Service Exchange.
+
+### What's changed
+
+-   **[Maturity assessment questionnaires](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/maturity-assessment-questionnaire.md)**
+
+    Defects and UI improvements are resolved across all assessment steps, including Overview, Assess, Review, Prioritize, and Action Plan. Additional UI changes include:
+
+    -   Domain categories in the Assess Maturity questionnaire display in a reorganized layout with updated task labeling for clearer navigation during assessments.
+    -   The target-setting step in the Prioritize and Target decision table uses a consolidated decision table with an improved UI for specifying target values.
+-   **[Platform Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/platform-health-idi.md)**
+
+    On-demand definition scans complete in under one minute on average per instance, reducing wait times for Scan Engine operations.
+
+
+-   **[Manage objectives and outcomes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/manage-objectives-and-outcomes.md)**
+    -   Explore improved outcomes for CSM and HR Service Delivery, built on current ServiceNow platform capabilities with updated data instrumentation and calculation logic.
+    -   Find all Impact Value Management \(IVM\) data collection apps in one place, grouped by product line, on both the Impact Store App and Impact Delivery Instance.
+
 ## September 2026 store \(v11.0.0\)
 
 Version 11.0.0 introduces standalone product adoption functionality, new Accelerators across multiple domains, Scan Engine API and exception workflow enhancements, and Business Outcomes improvements. It also retires legacy Accelerators and Impact Health Diagnostics.
@@ -50,7 +89,7 @@ Version 11.0.0 introduces standalone product adoption functionality, new Acceler
     -   View the capabilities map with a list of capabilities and their entitlement status. You can also edit the usage status manually for relevant capabilities.
     -   Create product adoption roadmaps using templates or manually, and manage capabilities for those new product adoption roadmaps.
     -   Receive a consistent message when functionality is limited by unavailable status or inability to edit existing product adoption roadmaps until Service Exchange connects with Guided Setup.
--   **[Latest Accelerators by Release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/new-accelerators-australia-release.md)**
+-   **[Latest Accelerators by release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/new-accelerators-australia-release.md)**
     -   Accelerate AI adoption and time to value by generating complete applications, surfacing automation opportunities, measuring AI investment impact, and migrating Virtual Agent topics.
     -   Reduce onboarding friction and technical risk by orienting teams to scoped app development and enabling secure, integration-free access to external data sources. Activate Field Encryption Enterprise as a core part of your Vault Suite security strategy.
     -   Strengthen your governance foundation by structuring your CSDM data model, establishing sound IRM Entity Framework design, managing your demand pipeline, and improving Knowledge Management process maturity.
@@ -58,13 +97,13 @@ Version 11.0.0 introduces standalone product adoption functionality, new Acceler
     -   Call the Scan Engine API to provide trigger scans on demand, check scan status and results, and integrate findings into pipeline approval gates.
     -   Use exception approval workflows with explicit **Save Draft** and **Submit** actions.
     -   Use configurable exception reason scope controls.
--   **[Value management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/impact-in-platform-business-outcomes.md)**
+-   **[Value Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/impact-in-platform-business-outcomes.md)**
     -   View the same product line label in the Impact Delivery Instance as in the Impact Store Application for the same product. For example, IT Service Management instead of ITSM. Both legacy and current models in the Impact Delivery Instance now map to the correct product line taxonomy.
     -   Filter outcomes by version using the new Outcome version filter, available on the Objectives &amp; Outcomes landing page and the Outcome Insights page in Impact Delivery Instance.
 
 ### What's changed
 
--   **Accelerator Catalog**
+-   **[Accelerator catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-catalog.md)**
     -   Success Readiness Assessment changed to Success Foundation Review.
     -   UX Accelerators moved from Architecture to the Technical sub-catalog.
     -   AI Readiness Assessment moved from Architecture to the Technical sub-catalog.
@@ -78,14 +117,14 @@ Version 11.0.0 introduces standalone product adoption functionality, new Acceler
     -   View the captured update set data that contains the violating code whenever a full or delta scan runs and produces a finding.
     -   Full-scan scope updates so only definitions explicitly configured for single-finding-per-table scanning are included.
     -   The Scan Engine Properties page now displays a dedicated warning when the company code is unset, with a link to the system property for resolution.
--   **[Value management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/impact-in-platform-business-outcomes.md)**
+-   **[Value Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/impact-in-platform-business-outcomes.md)**
 
     Access Hardware Asset Management \(HAM\) and Software Asset Management \(SAM\) functionality through a single, unified ITAM app, grouped under IT Asset Management. All previously collected data and configuration is carried over with no manual reinstallation, reconfiguration, required during the upgrade.
 
 
 ### What's deprecated or removed
 
--   **Accelerators Retirement**
+-   **Accelerators retirement**
 
     Jumpstart Your Virtual Agent, Jumpstart Your Natural Language Understanding \(NLU\), Jumpstart Your Multi-Lingual Virtual Agent, Jumpstart Your Issue Auto Resolution, and Jumpstart Your CSDM - Crawl technical Accelerators are no longer available.
 

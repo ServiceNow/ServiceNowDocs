@@ -16,6 +16,8 @@ breadcrumb: [Explore, Next Experience for Demand Management in Strategic Plannin
 
 ServiceNow Otto for Strategic Portfolio Management provides AI-powered skills for demand records that help you quickly understand demand details and refine records. These skills improve planning efficiency and support informed decision-making.
 
+Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+
 ## Demand summarization
 
 The demand summarization skill reviews the fields and related lists of a demand record and helps generate a clear executive summary. Use this skill to quickly understand the key details of a demand without reviewing individual fields, comments, and work notes. You can trigger the skill by selecting the **Summarize** button in **AI Overview**.

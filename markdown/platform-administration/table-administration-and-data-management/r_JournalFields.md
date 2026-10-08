@@ -18,7 +18,7 @@ Journal fields work together to create a log of changes and comments as tasks ar
 
 **Note:** Journal fields are shown regardless of the table audit enabled/disabled setting.
 
-Fields of the journal\_input type are multi-line text boxes which, upon save, add the comments into the Activity field with a notation.
+Fields of the journal\_input type are multi-line text boxes which, upon save, add the comments into the Activity field with a notation. The most common types of journal fields are work notes and additional comments.
 
 |Field|Description|
 |-----|-----------|

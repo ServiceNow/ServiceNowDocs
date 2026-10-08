@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/prevent-resolve-technical-debt-ai.html
 release: brazil
 topic_type: concept
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 2
 breadcrumb: [Platform Health, Using Impact, Impact]
 ---
@@ -38,6 +38,8 @@ Real-time Prevention
 
 -   You're actively writing or modifying code in your development environment.
 -   When you save a record, the Scan Engine detects violations inline and you generate an AI fix before committing or promoting the code.
+
+ **Note:** See [Supported record types for Real-time prevention monitoring with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/real-time-prevention-monitoring-supported-record-types.md) for the tables that are supported.
 
 </td><td>
 

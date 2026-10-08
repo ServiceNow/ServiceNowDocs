@@ -95,7 +95,10 @@ Triggers
 
 </td><td>
 
-Optional. None defined by default. An admin can specify triggers if desired. For more information, see [Add a trigger to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/add-trigger-aia.md).
+Activate the following business rules to trigger the agent.-   Agentic AI - Set reminders for contract
+-   Agentic AI Set reminders for Econtract
+
+ business rule to trigger the agent.
 
 </td></tr><tr><td>
 

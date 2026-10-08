@@ -93,7 +93,7 @@ The Service Mapping MCP tools enforce the following scale limits to maintain per
 
 -   **Response time target**
 
-    Under 5 seconds per tool call.
+    Under 5 seconds per tool call. The get\_all\_application\_service\_names tool targets under 3 seconds, enforced through pagination with a page size capped at 800 entries.
 
 
 For application services that approach these limits, request summary data rather than full topology to stay within the bounds. For example, ask for member count and edge count only, rather than the full topology.

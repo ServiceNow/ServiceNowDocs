@@ -28,7 +28,7 @@ Provided input templates:
 -   Case work in progress
 -   Case resolved
 
-Any modifications to the names or labels of the fields within these templates can result in issues with notes generation.
+Any modifications to the names or labels of the fields within these templates can result in issues with case summaries.
 
 ## Procedure
 
@@ -115,7 +115,7 @@ Activity is listed as 'Email.'
 </td></tr></tbody>
 </table>6.  Select **Customize prompt** to evaluate the generated outputs of case summaries.
 
-    Evaluate the prompt used for each of the input templates by selecting an existing record to test the output. The review and modify the prompt after evaluating the output results, edit it within the AI Skill Kit.
+    Evaluate the prompt used for each of the input templates by selecting an existing record to test the output. After you review the results, edit the prompt in AI Skill Kit.
 
 7.  Select **Define availability** to customize how and when the skill capability is active and accessible.
 

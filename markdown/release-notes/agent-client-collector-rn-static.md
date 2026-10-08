@@ -1,12 +1,13 @@
 ---
 title: Agent Client Collector release notes
-description: The ServiceNow Agent Client Collector application enables you to monitor the service availability, performance, and infrastructure of your system. See the following sections for release notes by version.This release enables discovering software installed by package managers and provides enhanced error tracking with the Error Framework application. Additionally, agents have enhanced efficiency when working with virtual VDI machines.
+description: The ServiceNow Agent Client Collector application enables you to monitor the service availability, performance, and infrastructure of your system. See the following sections for release notes by version.Agent Client Collector for Visibility Content \(ACC-VC\) version 2.1.1 supports discovery and software metering on Windows non-persistent virtual desktop infrastructure \(NPVDI\) endpoints, so software data from short-lived sessions isn't lost.This release enables discovering software installed by package managers and provides enhanced error tracking with the Error Framework application. Additionally, agents have enhanced efficiency when working with virtual VDI machines.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/agent-client-collector-rn-static.html
 release: brazil
 topic_type: topic
 last_updated: "2026-09-10"
-reading_time_minutes: 2
+reading_time_minutes: 3
+keywords: [ACC-VC Version 2.1.1]
 breadcrumb: [IT Operations Management release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
@@ -40,7 +41,16 @@ See [Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/Servic
 
 **Parent Topic:**[IT Operations Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/it-operations-management-rn-landing.md)
 
-## Version 7.0.1
+## Agent Client Collector for Visibility Content version 2.1.1
+
+Agent Client Collector for Visibility Content \(ACC-VC\) version 2.1.1 supports discovery and software metering on Windows non-persistent virtual desktop infrastructure \(NPVDI\) endpoints, so software data from short-lived sessions isn't lost.
+
+### What's new
+
+-   **[Support Windows NPVDI endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/accvc-npvdi-support.md)**
+    -   ACC-VC supports discovery and software metering on Windows NPVDI endpoints. To reduce collection time in short-lived sessions, ACC-VC skips selected **Enhanced Discovery** modules, can reuse cached installed software results, and sends software installation data when the session ends.
+
+## Agent Client Collector version 7.0.1
 
 This release enables discovering software installed by package managers and provides enhanced error tracking with the Error Framework application. Additionally, agents have enhanced efficiency when working with virtual VDI machines.
 
@@ -77,6 +87,13 @@ This release enables discovering software installed by package managers and prov
 -   **[Categorize discovered browser extensions and software packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/acc-categorize-discovered-software.md)**
 
     Discover browser extensions and software packages by category. Categorization removes the need to tag software records manually and provides an accurate software inventory.
+
+
+### What's changed
+
+-   **[View agent errors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/view-agent-errors.md)**
+
+    Errors are now logged using the Error Framework application, instead of Service Error Management. Error Framework provides enhanced context and details for error entries, and error codes begin with the `SN-ACC` prefix.
 
 
 ### What's deprecated or removed

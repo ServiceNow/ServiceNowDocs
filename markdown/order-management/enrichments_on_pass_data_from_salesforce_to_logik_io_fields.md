@@ -28,7 +28,7 @@ Our goal is to populate a field in CPQ with the credit card type \(Visa, MasterC
 
 ## Setup
 
-The first step of using an enrichment and external connection is to set it up. For instructions, see . \(Note that the examples in this link focus mostly on the On BOM Response enrichment. This article complements the other because it focuses more on the Init enrichment.\)
+The first step of using an enrichment and external connection is to set it up. For instructions, see [Using external connections with OAuth support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown). \(Note that the examples in this link focus mostly on the On BOM Response enrichment. This article complements the other because it focuses more on the Init enrichment.\)
 
 The following information is used for our external connection to FakerAPI.it.
 

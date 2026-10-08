@@ -52,7 +52,7 @@ Starting March 2026, these AI Service Graph Connectors  are available.
 -   [n8n](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/n8n.md)
 -   [Salesforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-control-tower/salesforce.md)
 
-\[Omitted image "ai-connections.png"\] Alt text:
+\[Omitted image "ai-connections.png"\] Alt text: Configuration for AI connections to third-party systems.
 
 ## AI connection record
 

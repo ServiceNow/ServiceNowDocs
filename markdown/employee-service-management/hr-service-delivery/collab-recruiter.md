@@ -37,5 +37,3 @@ The recruiter receives an email notification with the details of the comment.
 
 **Parent Topic:**[Using Hiring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/hr-service-delivery/use-hiring.md)
 
-**Parent Topic:**[Using Hiring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/hr-service-delivery/use-hiring.md)
-

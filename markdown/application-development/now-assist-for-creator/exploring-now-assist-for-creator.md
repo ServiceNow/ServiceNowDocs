@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto, ServiceNow Otto for Creator, Now Assist, Now Assist for Creator, create with Now Assist, Install Now Assist for Creator, Creator Workflow, Creator Pro Plus, Build Agent, Flow generation, App generation, ServiceNow Otto for Creator, ServiceNow Otto]
-breadcrumb: [ServiceNow Otto for Creator, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [ServiceNow Otto for Creator, Build, AI Workflow Factory, Building applications]
 ---
 
 # Exploring ServiceNow Otto for Creator
@@ -39,4 +39,6 @@ To learn more about configuring and using ServiceNow Otto for Creator, see:
 -   [Configuring ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/now-assist-for-creator/configuring-now-assist-for-creator.md)
 -   [Using generative AI with ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/now-assist-for-creator/using-gen-ai-now-assist-for-creator.md)
 -   [Using agentic AI with ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/now-assist-for-creator/using-agentic-ai-now-assist-for-creator.md)
+
+**Parent Topic:**[ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/now-assist-for-creator/now-assist-for-creator-landing.md)
 

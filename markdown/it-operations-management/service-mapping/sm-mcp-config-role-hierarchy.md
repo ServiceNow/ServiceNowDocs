@@ -46,6 +46,8 @@ The following table describes the roles involved and the access each one grants.
 |service\_mapping\_user|Standard Service Mapping role|Read access to application service maps and topology data. Included automatically under sn\_sm\_gen\_ai.sm\_mcp\_user.|
 |sn\_mcp\_server.viewer|MCP platform role|Grants the ability to discover and invoke tools on an MCP server. Included automatically under sn\_sm\_gen\_ai.sm\_mcp\_user.|
 
+**Note:** Role checks for Service Mapping tools and CMDB tools are independent, even though both tool groups run under the same MCP server. A user with only a Service Mapping role gets an authorization error on every CMDB tool, and a user with only a CMDB role gets an authorization error on every Service Mapping tool.
+
 \[Omitted image "sm-mcp-roles-sep26.png"\] Alt text: sn\_sm\_gen\_ai.sm\_mcp\_admin contains sn\_sm\_gen\_ai.sm\_mcp\_user and service\_mapping\_admin. sn\_sm\_gen\_ai.sm\_mcp\_user contains service\_mapping\_user and sn\_mcp\_server.viewer.
 
 ## Procedure

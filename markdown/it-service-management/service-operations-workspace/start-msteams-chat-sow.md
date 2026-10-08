@@ -52,15 +52,15 @@ When you view or import a Microsoft Teams chat conversation for a task record, t
 
 6.  To import a chat conversation, perform one of the following actions.
 
-<table id="choicetable_tnl_jfr_vsb"><thead><tr><th align="left" id="d310286e237">
+<table id="choicetable_tnl_jfr_vsb"><thead><tr><th align="left" id="d311061e237">
 
 Option
 
-</th><th align="left" id="d310286e240">
+</th><th align="left" id="d311061e240">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d310286e246">
+</th></tr></thead><tbody><tr><td id="d311061e246">
 
 **Import a chat from any conversation**
 
@@ -71,7 +71,7 @@ Description
 3.  Select the chat and select **Import**.
 
 
-</td></tr><tr><td id="d310286e276">
+</td></tr><tr><td id="d311061e276">
 
 **Import a chat from a conversation in which you are a member**
 

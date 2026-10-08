@@ -84,9 +84,9 @@ All the portals offer the same self-service and Virtual Agent assistance feature
 
 ## Engagement Messenger
 
-With the [Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/engagement-center.md) web application, your customers can easily access the information or services they need from your third-party web applications, even if they're located outside of the ServiceNow environment.
+With the [Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/engagement-center.md) web application, your customers can easily access the information or services they need from your third-party web applications, even if they're located outside of the ServiceNow environment.
 
-To learn more about [Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/engagement-center.md), see [Set up Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/setting-up-engagement-messenger.md).
+To learn more about [Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/engagement-center.md), see [Set up Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-self-service-and-omnichannel-engagement/setting-up-engagement-messenger.md).
 
 ## Service catalog
 

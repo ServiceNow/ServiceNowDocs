@@ -7,7 +7,7 @@ release: brazil
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Order Management AI agents, Order Management, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Order Management AI agents, Sales CRM AI agents, Sales CRM, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Invoice dispute intake assistant AI agent
@@ -16,15 +16,16 @@ This AI agent helps requesters identify the correct invoice, confirm dispute det
 
 ## Workflow
 
-By interpreting emotional cues related to invoice or order issues, the agent classifies sentiment as Positive, Neutral, or Negative, and uses this insight to adjust response tone and offer escalation to a live agent when appropriate. This agent can resolve quantity-related invoice disputes only.
+This agent can resolve quantity-related invoice disputes only. If you show frustration or ask for help beyond its capabilities, the agent offers a transfer to a live agent.
 
-1.  If the user requests help beyond the agent’s capabilities or encounters repeated issues, always offer live agent support as option.
-2.  Check the current page URL first to determine whether an invoice number is available. If not, look up associated invoices for the user and clarify with the user which invoice is being disputed.
-3.  Validate the invoice and determine which line of the invoice is in dispute.
-4.  Identify the issue and capture disputed details.
-5.  Create an invoice case.
-6.  Off resolution options to the user.
-7.  If the user chooses a resolution option, resolve the invoice case.
+1.  The agent checks the current page URL for an invoice number. If none is available, it looks up your invoices and asks which invoice you want to dispute.
+2.  The agent validates the invoice and asks which invoice line is in dispute.
+3.  The agent identifies the issue and captures the disputed quantity details.
+4.  The agent creates an invoice case and validates the dispute.
+5.  If the agent finds no quantity discrepancy, it offers you the option to upload a delivery ticket as proof or to connect with a live agent.
+6.  If you upload a delivery ticket, the agent processes it and checks whether it supports your disputed quantity. You can re-upload the delivery ticket up to three times.
+7.  When the dispute is validated, the agent offers you resolution options, such as a credit note or an order for the remaining quantity.
+8.  When you select a resolution option, the agent resolves the invoice case.
 
 <table><thead><tr><th>
 
@@ -70,11 +71,17 @@ Create invoice case
 
 Get invoice details
 
+Process Delivery Ticket
+
 Resolve invoice dispute
 
 Validate and confirm invoice dispute
 
 Validate Invoice Line
+
+-   **Topic blocks**
+
+Upload Delivery Ticket
 
 -   **Conversational topics**
 
@@ -124,7 +131,7 @@ Used in agentic workflows
 Not applicable.
 
 </td></tr></tbody>
-</table>Learn more about Order Management at [Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/explore-order-management.md).
+</table>Learn more about customer self-service via Business Portal at [Customer self-service for Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/som-self-service-business-portal.md).
 
 **Parent Topic:**[Order Management AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/om-ai-agents-overview.md)
 

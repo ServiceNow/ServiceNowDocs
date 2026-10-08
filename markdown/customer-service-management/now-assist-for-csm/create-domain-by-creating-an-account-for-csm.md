@@ -25,8 +25,6 @@ Role required: admin
 
 Enable the **csm\_auto\_account\_domain\_generation** system property. This system property is installed with the CSM application and is available only after the domain separation plugin is active. When this property is enabled \(the value is set to True\), the CSM application automatically creates a domain of the same name when a new account is created.
 
-**Note:** Enabling this property doesn’t add domains for existing accounts. It only creates the domains for new accounts. Adding domains for existing accounts requires a migration script.
-
 When creating a domain, follow these general guidelines:
 
 -   Only one domain can be the default domain.

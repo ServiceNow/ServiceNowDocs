@@ -8,7 +8,7 @@ product: Project Workspace
 classification: project-workspace
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Manage projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
@@ -32,8 +32,6 @@ Role required: it\_project\_manager
 
 3.  Select **Generate insights** to generate AI insights of your project.
 
-    \[Omitted image "ai-insights-page-project-workspace.png"\] Alt text: AI insights page in Project Workspace.
-
     Project insights are generated using the same Project insights generation skill used for email insights. Insights are displayed directly in the in‑app AI insights experience.
 
 4.  Review the generation project insights.
@@ -43,7 +41,10 @@ Role required: it\_project\_manager
     -   Overall project health
     -   RAG status \(These appear as widgets on the AI insights page\).
     -   Work notes summary
-    AI computes project health across all configured dimensions based on administrator‑defined rules. The generated status report presents detailed health indicators along with supporting rationale to help you understand the current state of the project. You can review schedule variance information to identify delays and the sub‑indicators affecting progress, and view project status explanations that highlight recent achievements and issues requiring immediate attention. Additional sections can be expanded for deeper analysis. The report also includes schedule health to assess progress against planned timelines and thresholds, as well as budget and cost status to verify that financials remain within limits. AI also reviews recent work notes across the project's tasks and RIDAC records to further inform the health rationale and executive summary.
+    -   Data Quality Index \(DQI\)
+    AI computes project health across all configured dimensions based on administrator‑defined rules. The generated status report presents detailed health indicators along with supporting rationale to help you understand the current state of the project. You can review schedule variance information to identify delays and the sub‑indicators affecting progress, and view project status explanations that highlight recent achievements and issues requiring immediate attention. Additional sections can be expanded for deeper analysis. The report also includes schedule health to assess progress against planned timelines and thresholds, budget, and cost status to verify that financials remain within limits. AI also reviews recent work notes across the project's tasks and RIDAC records to further inform the health rationale and executive summary.
+
+    The Data Quality Index \(DQI\) widget shows how complete and accurate your project data is. DQI evaluates your project across six weighted dimensions: Charter, Schedule, Resources, Financials, Reporting, and RIDAC \(Risks, Issues, Decisions, Actions, and Changes\). Each dimension produces a score based on administrator-configured rules, and the dimension scores combine into a single composite score from 0 to 100. The composite score maps to a star rating from 1 to 5 stars, so you can quickly gauge your project's overall data quality. Select the DQI widget to expand the dimension-level breakdown and see which areas need attention.
 
     The generated status report presents detailed health indicators along with supporting rationale to help you understand the current state of the project. You can review schedule variance information to identify delays and the sub‑indicators affecting progress, and view project status explanations that highlight recent achievements and issues requiring immediate attention. Additional sections can be expanded for deeper analysis. The report also includes schedule health to assess progress against planned timelines and thresholds, and budget and cost status to verify that financials remain within limits. For more information on In-App insights, see [AI Project Insights](https://www.servicenow.com/community/spm-articles/enhancements-to-ai-powered-project-insights/ta-p/3485806).
 
@@ -55,7 +56,7 @@ The project insights are generated from the AI insights page with access to curr
 ## What to do next
 
 -   Modify the project insights admin configurations:
-    1.  Navigate to **All** and type `sn_spm_gen_ai_insight_topic.list` and press enter to open the configuration table.\[Omitted image "image.insight-topics-table"\] Alt text: Insights topic configuration table.
+    1.  Navigate to **All** and type `sn_spm_gen_ai_insight_topic.list` and press enter to open the configuration table.\[Omitted image "insight-topic-table-portfolio-insights.png"\] Alt text: Insights topic configuration table.
     2.  Locate the topic you want to update from the Topic name column.
     3.  Double-click \(or use the keyboard shortcut\) the Default topic config field to edit the required topic.
     4.  Update the values for threshold or critical state or time ranges according to your requirement.

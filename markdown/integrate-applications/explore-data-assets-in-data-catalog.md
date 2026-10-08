@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/explore-data-assets-in-data-catalog.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 breadcrumb: [Finding and accessing data assets, Data Catalog, Workflow Data Fabric]
 ---
@@ -47,6 +47,7 @@ Discover data assets using search or browsing. Search looks across asset names, 
         -   Domain: Organization or business area
         -   Tags: Applied classification tags
         -   Owner: Data owner or steward
+        -   Has Lineage: Yes or No
 5.  Change the sort order to organize the list by different criteria.
 
     From the sort dropdown menu, select a sort option:

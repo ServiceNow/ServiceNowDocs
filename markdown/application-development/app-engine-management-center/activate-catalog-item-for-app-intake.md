@@ -9,7 +9,7 @@ classification: app-engine-management-center
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuration tasks, Configure Application Intake, Configure, App Engine Management Center, Governing app development, Building applications]
+breadcrumb: [Configuration tasks, Configure Application Intake, Configure, App Engine Management Center, Run, AI Workflow Factory, Building applications]
 ---
 
 # Activate the Apply for Citizen Development catalog item
@@ -40,4 +40,6 @@ Role required: admin
 
 7.  Close the browser window and return to the Application Intake guided setup.
 
+
+**Parent Topic:**[Application Intake configuration tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/app-intake-config-tasks.md)
 

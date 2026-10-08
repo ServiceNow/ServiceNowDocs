@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/cu-explore-content-understanding.html
 release: brazil
 topic_type: concept
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [Content Understanding, Generative AI skills, Enable AI Experiences]
 ---
@@ -39,7 +39,7 @@ The following table lists where each skill and AI agent is configured, along wit
 
 |Capability|Configured in|Where to interact|
 |----------|-------------|-----------------|
-|[Extract information from documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/cu-extract-information-from-document.md)skill|AI Admin Hub|Workspace integrations|
+|[Extract information from documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/cu-extract-information-from-document.md) skill|AI Admin Hub|Workspace integrations|
 |[Attachment Summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/attachment-summarization.md) skill|AI Admin Hub|ITSM Workspace, ServiceNow Otto for HRSD Workspace|
 |[Content insights AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/cu-content-insights-ai-agent.md)|AI Agent Studio|ServiceNow Otto for Virtual Agent \(conversational\) or trigger-based|
 

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-brazil/brazil-yokohama-servicenowvault-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 12
+last_updated: "2026-10-08"
+reading_time_minutes: 13
 breadcrumb: [Products combined by family]
 ---
 
@@ -180,7 +180,16 @@ Brazil
 
 </td><td>
 
--   **[AI-generated security posture summary](https://www.servicenow.com/docs/access?context=vault-insights&family=brazil&ft:locale=en-US)**
+-   **[Agentic classification for ServiceNow assets](https://www.servicenow.com/docs/access?context=now-assist-vault-classify-servicenow-assets&family=brazil&ft:locale=en-US)**
+
+Classify sensitive data across a large table estate without labeling each column by hand. Select a category of ServiceNow assets in the Data Catalog, and the agent recommends a data class for each column in scope, with the reason for each recommendation. Recommendations are based on schema metadata, such as table and column names and any existing classifications. Review the recommendations and then confirm to apply them. The classifications appear on the data assets after the next ServiceNow metadata collector run.
+
+-   **Vault coverage report email**
+
+Stay informed about how much of your sensitive data is protected with a Vault coverage report email. Active administrators receive it on the last Monday of each month. The email is sent only when Vault finds sensitive columns on your instance.
+
+
+ -   **[AI-generated security posture summary](https://www.servicenow.com/docs/access?context=vault-insights&family=brazil&ft:locale=en-US)**
 
 Reduce the time you spend interpreting individual charts by reading an AI-generated summary of your data security, with a recommended next step for each area. Insights appears at the top of the Vault console home page and reports on data discovery, classification, and data protection.
 
@@ -264,7 +273,12 @@ Brazil
 
 </td><td>
 
--   **[ServiceNow Otto name change](https://www.servicenow.com/docs/access?context=now-assist-vault-landing&family=brazil&ft:locale=en-US)**
+-   **Vault onboarding email design**
+
+The Vault onboarding email uses an updated template design.
+
+
+ -   **[ServiceNow Otto name change](https://www.servicenow.com/docs/access?context=now-assist-vault-landing&family=brazil&ft:locale=en-US)**
 
 ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
 

@@ -43,5 +43,3 @@ After activating the Dynamic Translation plugin, you can configure one of the tr
 
 **Parent Topic:**[Configuring Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/universal-request-for-hr-service-delivery/configure-ur.md)
 
-**Parent Topic:**[Configuring Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/universal-request-for-hr-service-delivery/configure-ur.md)
-

@@ -7,7 +7,7 @@ release: brazil
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [Import models and templates, Explore, Telecommunications Network Inventory]
 ---

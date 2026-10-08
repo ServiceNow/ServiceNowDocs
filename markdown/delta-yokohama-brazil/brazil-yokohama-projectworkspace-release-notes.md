@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-brazil/brazil-yokohama-projectworkspace-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 22
+last_updated: "2026-10-08"
+reading_time_minutes: 23
 breadcrumb: [Products combined by family]
 ---
 
@@ -278,7 +278,17 @@ Brazil
 
 </td><td>
 
--   **[List view for centralized navigation](https://www.servicenow.com/docs/access?context=use-projects-pw&family=brazil&ft:locale=en-US)**
+-   **[Project type module visibility](https://www.servicenow.com/docs/access?context=configure-project-type-pw&family=brazil&ft:locale=en-US)**
+
+Show only the modules that are relevant to each project type in Project Workspace. In the **Show modules** section of the project type form, select the modules to display for projects of that type: **Playbook**, **Planning**, **Details**, **Financials**, **RIDAC**, **Resource**, **Analytics**, **Docs**, and **Status Report**. All modules are selected by default, and projects without a project type display all modules. Role-based access to each module continues to apply.
+
+
+ -   **[Tour guides](https://www.servicenow.com/docs/access?context=use-projects-pw&family=brazil&ft:locale=en-US)**
+
+Introduced guided tours for Ask Otto button in planning view and Accept button in the AI Identified Risk page.
+
+
+ -   **[List view for centralized navigation](https://www.servicenow.com/docs/access?context=use-projects-pw&family=brazil&ft:locale=en-US)**
 
 Centralized location for accessing all project-related entities such as My projects, All projects, Project templates, and RIDAC categories \(Risks, Issues, Decisions, Actions, Request changes\), streamlining navigation and improving productivity. Create and save custom lists in the My lists tab to organize your work according to your preferences.
 
@@ -439,7 +449,16 @@ Brazil
 
 </td><td>
 
--   **UI options for RIDAC**
+-   **[Manage projects](https://www.servicenow.com/docs/access?context=use-projects-pw&family=brazil&ft:locale=en-US)**
+
+On project tasks with logged actuals, you can't change the Planned start or move the end date earlier than the last logged actual, whether you edit dates directly or a dependency recalculates them. When the Actual start and end dates are present, the restriction applies to them. This keeps the tasks and assignments in sync.
+
+-   **[Preview attachments and manage excel files with dedicated prompts](https://www.servicenow.com/docs/access?context=generate-project-using-ai-pw&family=brazil&ft:locale=en-US)**
+
+When you generate a project plan, a preview of the attachment now appears before you proceed. This matches the existing behavior of [generating tasks](https://www.servicenow.com/docs/access?context=generate-tasks-using-ai-pw&family=brazil&ft:locale=en-US). Excel attachments are now processed with a dedicated prompt tailored to tabular data, separate from word, pdf, and powerpoint attachments. This applies when generating a project plan or inserting tasks.
+
+
+ -   **UI options for RIDAC**
 
 RIDAC section is expanded by default to view AI-Identified Risks and RIDAC.
 

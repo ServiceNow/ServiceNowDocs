@@ -7,7 +7,7 @@ release: brazil
 topic_type: concept
 last_updated: "2026-05-05"
 reading_time_minutes: 1
-breadcrumb: [Set up CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+breadcrumb: [Set up CPQ, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Configure CPQ Configurator using guided setup

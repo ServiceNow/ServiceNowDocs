@@ -7,7 +7,7 @@ release: brazil
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 keywords: [Workload Identity Federation, WIF, outbound OAuth, JWKS, Key Management Framework, KMF]
 breadcrumb: [OAuth Outbound, OAuth authentication, Authentication, Access Management]

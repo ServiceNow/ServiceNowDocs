@@ -105,7 +105,7 @@ For more information, see the [Now Assist documentation](https://raw.githubuserc
 
 To learn more about configuring and using ServiceNow Otto for TPRM, see:
 
--   [Supporting information for ServiceNow Otto for Third-party Risk Management \(TPRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/supporting-information-now-assist-tprm.md)
+-   
 -   [Configure AI capabilities in Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/configure-now-assist-for-tprm.md)
 -   [Activate the TPRM issue summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-summarize-an-issue.md)
 -   [Activate TPRM issue recommendation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/third-party-risk-management/tprm-recommend-an-issue.md)

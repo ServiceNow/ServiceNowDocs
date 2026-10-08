@@ -18,7 +18,10 @@ Configure an account recovery user to perform account recovery activities on you
 
 An account recovery user is a user account that administrators can use to perform account recovery tasks, such as addressing an SSO misconfiguration or addressing expired certificates.
 
-**Note:** If you are using account recovery on your instance, you must configure an account recovery user. This step is necessary before enabling multiple-provider single sign-on on an instance.
+**Note:**
+
+-   If you're using account recovery on your instance, you must configure an account recovery user. This step is necessary before enabling multiple-provider single sign-on on an instance.
+-   Enabling ACR disables the local interactive log-ins \(username or password based\) when SSO is enabled to your instances.
 
 ## Configure an account recovery user from the Account Recovery Properties page
 

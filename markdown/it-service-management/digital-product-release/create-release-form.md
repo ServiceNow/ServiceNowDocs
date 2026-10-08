@@ -116,7 +116,7 @@ Option to make this release as an out-of-band release, which means it isn’t as
 -   **out\_of\_band\_release\_allowed** is set to **true**.
 -   You have one of the roles listed in **out\_of\_band\_release\_roles**.
 
-For more information, see [Digital Product Release properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/digital-product-release-properties.md).
+For more information, see [Digital Product Release system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/digital-product-release-properties.md).
 
 </td></tr><tr><td>
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-center-actionable-use-cases.html
 release: brazil
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-10-02"
 reading_time_minutes: 2
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
 breadcrumb: [Setting up AI capabilities and configurations, AI Admin Center, Getting started with AI, Enable AI Experiences]
@@ -15,13 +15,17 @@ breadcrumb: [Setting up AI capabilities and configurations, AI Admin Center, Get
 
 Actionable use cases are quick-start scenarios that help you rapidly adopt AI capabilities on your instance.
 
+**Important:** Lux is the new user experience for AI Admin Center. For more information on the Lux experience, see [AI Admin Center user experience \(Lux UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-admin-center-lux-user-experience.md).
+
+The Next Experience AI Admin Center workspace is being prepared for deprecation in the November store release and will no longer be supported. For more information on the Next Experience UI, see [AI Admin Center workspace \(Next Experience UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-center-workspace.md).
+
+In AI Admin Center version 6.1, the Next Experience and Lux user interfaces are both available.
+
 ## Overview of actionable use cases
 
-Actionable use cases are represented as cards in the first section of the home page. Each card shows a supported and ready-to-activate AI solution for your instance, such as activating an AI skill for ITSM or configuring a safety setting through AI Guardian.
+Actionable use cases are represented as top action itemsin the first section of the home page. Eachitem shows a supported and ready-to-activate AI solution for your instance, such as activating an AI skill for ITSM or configuring a safety setting through AI Guardian.
 
-Actionable use cases use generative AI to tailor the solution and guide setup. The system analyzes your instance profile, organizational context, license entitlements, installed products, and current AI enablement state to determine which use case cards to display and in which order. Only cards for products that you're entitled to use appear on the home page.
-
-\[Omitted image "now-assist-center-home-adoption-tasks-2.png"\] Alt text: Actionable use cases on the AI Admin Center home page.
+Actionable use cases use generative AI to tailor the solution and guide setup. The system analyzes your instance profile, organizational context, license entitlements, installed products, and current AI enablement state to determine which use cases to display and in which order. Only use cases for products that you're entitled to use appear on the home page.
 
 ## Types of actionable use cases
 
@@ -37,25 +41,12 @@ The following are some examples of actionable use cases that may appear on your 
 -   KB generation for ITSM
 -   Resolution notes generation for ITSM
 
-## How actionable use cases work
-
-When you navigate to AI Admin Center, the home page displays the use cases most relevant to you. For each card:
-
--   Select **Activate** to start a guided setup conversation in the ServiceNow Otto panel. The panel describes the solution, confirms the current state, and asks you to confirm before making any change.
-
-    **Important:** ServiceNow Otto panel must be enabled to activate the use cases. Actionable use cases work with the ServiceNow Otto panel to guide you through the setup in a chat conversation. For more information, see [Enable the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-center-enable-now-assist-panel.md).
-
--   Select **Dismiss** to permanently remove a card.
-
-    **Warning:** Dismissed cards don't reappear in future sessions.
-
-
-After you successfully activate a solution, the card disappears from the home page and a confirmation message appears at the top of the workspace. The activated solution appears in the Recently activated AI section of the home page, where you can monitor its performance.
-
 -   **[Install and configure essential AI plugins using AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/install-configure-essential-now-assist-plugins.md)**  
 Install the plugins required to enable AI solutions on your instance before activating use cases.
--   **[Activate an actionable use case in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/activate-solution-now-assist-center.md)**  
-Activate an AI solution from an actionable use case card on the AI Admin Center home page.
+-   **[View and activate actionable use cases in AI Admin Center \(Next Experience UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/activate-solution-now-assist-center.md)**  
+View the top actions you can take right away to adopt AI capabilities on your instance.
+-   **[View and activate your top actions in AI Admin Center \(Lux UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-admin-center-lux-view-top-actions.md)**  
+View the top actions you can take right away to adopt AI capabilities on your instance.
 
 **Parent Topic:**[Setting up AI capabilities and configurations in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-admin-center-setting-up-ai.md)
 

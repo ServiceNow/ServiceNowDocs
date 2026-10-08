@@ -1,28 +1,37 @@
 ---
 title: Request catalog item AI voice agent
-description: This AI voice agent assists users in finding and delivering catalog items. If the item is not categorized as software, then the catalog link is sent through email or SMS. If the item is software, this agent will help create the request.
+description: This AI voice agent assists users in finding and delivering catalog items. If the item is not categorized as software, then the catalog link is sent through approved channels such as email or SMS. If the item is software, this agent will help create the request.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/itsm-request-catalog-item-with-voice-ai-voice-agent.html
 release: brazil
 topic_type: reference
 last_updated: "2026-09-10"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [IT Service Management AI agents, IT Service Management, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Request catalog item AI voice agent
 
-This AI voice agent assists users in finding and delivering catalog items. If the item is not categorized as software, then the catalog link is sent through email or SMS. If the item is software, this agent will help create the request.
+This AI voice agent assists users in finding and delivering catalog items. If the item is not categorized as software, then the catalog link is sent through approved channels such as email or SMS. If the item is software, this agent will help create the request.
 
 ## Workflow
 
-The agent operates only within approved channels \(email, SMS\) and never creates, modifies, or deletes catalog items.
+The agent operates only within approved channels and never creates, modifies, or deletes catalog items.
 
-1.  Verify that you have a description of the catalog item the user wants. If not provided, ask them to describe it.
+1.  Ask the user to describe the catalog item.
 2.  Search for matching items.
-3.  If there are multiple matches, ask clarifying questions.
-4.  Check the catalog item "category" sys\_id and determine if the item is in the software category.
-5.  Confirm any changes and place the order \(software\), or provide the user with the catalog item link.
+3.  If multiple matches, ask clarifying questions.
+4.  Confirm the selected item.
+5.  Determine item type:
+    -   If the item is software, proceed to request creation
+    -   If the item is not software, proceed to link delivery
+6.  If software item:
+    -   Collect any required inputs \(if applicable\)
+    -   Submit the catalog request on behalf of the user
+    -   Confirm submission to the user
+7.  If non-software item:
+    -   Confirm delivery channel
+    -   Send the catalog item link through the confirmed channel
 
 <table><thead><tr><th>
 
@@ -42,54 +51,11 @@ When enabled, third-party AI agents can use this agent. This value is off \(fals
 
 </td></tr><tr><td>
 
-Allow AI specialists to access this AI agent
-
-</td><td>
-
-When enabled, AI specialists can use this agent. This value is off \(false\) by default. When set to true, more configuration options for tools become available so that an AI specialist can map inputs and response templates to tool outputs. This setting is defined in the AI Agent configs \[sn\_aia\_agent\_config\] table on the Specialist enabled field.
-
-</td></tr><tr><td>
-
-Manage long-term memory
-
-</td><td>
-
-When enabled, all previous user interactions are used as context for the LLM. This value is off \(false\) by default. This setting is defined by the **sn\_aia.ltm.enable\_long\_term\_memory** system property. For more information, see [ServiceNow Otto AI agents reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/na-aia-reference.md).
-
-</td></tr><tr><td>
-
-Tools
-
-</td><td>
-
--   **Flow Actions**
-
-Gather catalog item variables
-
-Assist with catalog request form
-
-Modify catalog item
-
-Create catalog item order
-
--   **Search retrieval**
-
-Get relevant Catalog Items
-
--   **Subflows**
-
-Send catalog link to email
-
-Send catalog link to SMS
-
-
-</td></tr><tr><td>
-
 Allowed user roles The specific user roles that can access this AI agent.
 
 </td><td>
 
-snc\_internal
+Admin
 
 </td></tr><tr><td>
 
@@ -97,7 +63,7 @@ Data access roles The specific user identity roles that determine which data the
 
 </td><td>
 
-nobody
+Admin
 
 </td></tr><tr><td>
 

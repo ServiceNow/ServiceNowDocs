@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/somt-func-arch.html
 release: brazil
 topic_type: concept
-last_updated: "2026-09-24"
-reading_time_minutes: 3
+last_updated: "2026-10-08"
+reading_time_minutes: 4
 breadcrumb: [Explore, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
@@ -87,4 +87,17 @@ The Sales CRM for Telecommunications leverages TeleManagement Forum \(TMF\) Open
 -   Lead management API: Mapping and certification as per TMF 699. See [lead API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/lead-api.md).
 -   Order API: See [Order API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/order_csm-api.md).
 -   Sales agreement API: See [Sales Agreement API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/sales_agreement-api.md)
+
+## What to explore next
+
+To learn more about configuring and using, see:
+
+-   [Integrating Order Management with southbound external systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/order-mgt-integrate-southbound.md)
+-   [Configuring product offerings and catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/configuring-product-offerings-catalog.md)
+-   [Configuring Order Management for Service Bridge consumers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/order-mgt-configuring-customers.md)
+-   [Task plan templates driven order fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/somt-flow-action-catalog-task.md)
+-   [Approving and fulfilling customer orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/order-mgt-fulfillment-processing.md)
+-   [Creating, reviewing, approving, and fulfilling service orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/service-order-mgt-fulfilling-service-orders.md)
+-   [Revising an outbound request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/order-mgt-revise-outbound-request.md)
+-   [Sales CRM for Telecommunications PSR catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/somt-psr-catalog.md)
 

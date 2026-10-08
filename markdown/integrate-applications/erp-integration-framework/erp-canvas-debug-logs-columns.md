@@ -29,5 +29,3 @@ For process details, see [Debug Zero Copy Connector for ERP models](https://raw.
 |Status|Value that indicates if the call was successful.|
 |Transaction ID|Unique number that identifies each request and response exchange.|
 
-**Parent Topic:**[Zero Copy Connector for ERP field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-field-descriptions.md)
-

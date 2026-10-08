@@ -7,7 +7,7 @@ release: brazil
 topic_type: reference
 last_updated: "2026-09-16"
 reading_time_minutes: 1
-breadcrumb: [Now Assist reference, AI Admin Hub, Generative AI skills, Enable AI Experiences]
+breadcrumb: [AI Admin Hub reference, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
 # Default and target model version
@@ -30,5 +30,5 @@ A default mapping of default and target model version is pre-configured. If you 
 
 If you update the target model version for a selected default model version at the skill level, the mapping is updated for that skill only. Customizing the model version for skills overrides the instance-level model version currently assigned to each provider. This action is typically reserved for specific situations.
 
-**Parent Topic:**[Now Assist reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-reference-landing.md)
+**Parent Topic:**[AI Admin Hub reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-reference-landing.md)
 

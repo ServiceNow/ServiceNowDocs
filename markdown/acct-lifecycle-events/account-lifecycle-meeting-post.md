@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-meeting-post.html
 release: brazil
 topic_type: concept
-last_updated: "2026-08-21"
-reading_time_minutes: 2
+last_updated: "2026-10-01"
+reading_time_minutes: 3
 breadcrumb: [Meeting page, Touchpoints, Customer success, Use, Customer Success Management]
 ---
 
@@ -26,7 +26,7 @@ The Meeting Recap section contains three tabs.
 
     -   If the summary is long, select **Show more** to expand it. Select **View** to open the full guide.
     -   To edit the guide, select **Refine** to modify tone, length, and audience.
-    -   To share the guide by email, select **Draft email**. An email composer opens pre-populated with the guide content.
+    -   To share the guide by email, select **Draft email**. An email composer opens with the summary content, a subject line, and opening and closing lines. The email is addressed to the first meeting participant other than you. If there are no other participants, the email is addressed to you, and you add the recipients.
 -   **Agenda**
 
     Displays the meeting agenda as it was set before the meeting. The agenda content is read from the Agenda field on the meeting record.
@@ -39,6 +39,8 @@ The Meeting Recap section contains three tabs.
 ## Success Tasks
 
 The Success tasks list displays tasks associated with the meeting.You can generate draft task descriptions automatically using the next step task description skill. Use the **Show AI draft tasks** toggle to view AI-drafted tasks that have not yet been added. Select one or more draft tasks and **Add AI drafts** to add all drafted tasks at once, or select **New** to create a task manually. You can **Edit** or **Delete** a task and select the \[Omitted image "open-link-right-outline-24.svg"\] Alt text: to navigate to the Meeting details page.
+
+After you delete a task, a banner with **Undo** appears at the top of the page. Select **Undo** to restore the task. If the task can't be deleted, an error banner appears.
 
 ## Related Record
 
@@ -56,8 +58,12 @@ The Related Record section lists records associated with the meeting. Records ar
 
     Records created as action items from the meeting, such as success plays.
 
+    Records that you link when you convert a meeting next step also appear here. See [Convert a next step to an associated record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-convert-next-step.md).
+
 
 Select **Add record** to associate an additional record with the meeting. Select **View record** to open a listed record.
+
+After you remove a record from the meeting, a banner with **Undo** appears. Select **Undo** to restore the record. If you dismiss a recommended record, a banner with **Undo** also appears. If the removed record has no association type, the banner has no **Undo** option.
 
 **Parent Topic:**[Meeting page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-meeting-page.md)
 
@@ -68,5 +74,7 @@ Select **Add record** to associate an additional record with the meeting. Select
 
 [Meeting preparation brief](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-meeting-pre.md)
 
-[Use touchpoint meeting skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-tmt-meeting-skills.md)
+[Use touchpoint meeting skills in ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/now-assist-tmt-meeting-skills.md)
+
+[Meeting agenda items and next steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-meeting-scheduler-plus.md)
 

@@ -17,13 +17,13 @@ High-quality data that is complete, accurate, and contextually relevant is the f
 
 ## AI requires high-quality data
 
-To unlock the full potential of AI on your instance, the quality of your data is paramount. For AI to deliver accurate, context-aware, and actionable outputs, it must be trained and operate on high-quality data that is complete, consistent, and structured. When your data is well-prepared, AI can interpret user queries with greater accuracy, enabling faster resolutions and more effective self-service experiences.
+To unlock the full potential of AI on your instance, the quality of your data is paramount. For AI to deliver accurate, context-aware, and actionable outputs, it must be trained and operate on high-quality data that is complete, consistent, and structured. When your data is well-prepared, AI can process user queries with greater accuracy, enabling faster resolutions and more effective self-service experiences.
 
-Whether it's summarizing complex incidents, generating resolution notes, or creating knowledge articles, AI relies on detailed records that reflect the full lifecycle of a task. Short or incomplete cases often lack the depth needed for meaningful AI interpretation, which can result in vague or unhelpful responses. The importance of data readiness extends beyond technical accuracy—it directly impacts user trust and adoption.
+Whether it's summarizing complex incidents, generating resolution notes, or creating knowledge articles, AI requires detailed records that reflect the full lifecycle of a task. Short or incomplete cases often lack the depth needed for meaningful AI processing, which can result in vague or unhelpful responses. The importance of data readiness extends beyond technical accuracy—it directly impacts user trust and adoption.
 
-Clean, ready data also accelerates implementation. It minimizes the need for rework, reduces deployment friction, and ensures that AI features like summarization, recommendations, and workflow guidance operate smoothly from day one. This leads to higher ticket deflection rates and improved operational efficiency, allowing teams to focus on strategic tasks rather than repetitive support.
+Clean, ready data also accelerates implementation. It minimizes the need for rework, reduces deployment friction, and helps AI features like summarization, recommendations, and workflow guidance operate reliably from the start. This leads to more consistent outcomes, helping teams focus on strategic tasks.
 
-Moreover, high-quality data fosters trust in AI outputs. When users consistently receive reliable and context-aware responses, their confidence in the system grows—driving adoption and maximizing return on investment. Ultimately, investing in data quality is an investment in user satisfaction, AI performance, and long-term success.
+Moreover, high-quality data fosters trust in AI outputs. When users consistently receive reliable and context-aware responses, their confidence in the system grows—driving adoption. Ultimately, data quality supports user satisfaction and AI performance.
 
 Follow these tips to assess your organization's data readiness:
 
@@ -31,15 +31,15 @@ Follow these tips to assess your organization's data readiness:
 -   Avoid using vague or generic language in task descriptions and updates.
 -   Maintain a clean and structured knowledge base and ensure that knowledge articles are linked to resolved cases.
 
-    For details, see [Knowledge Base readiness for Now Assist on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/sn-ai-impl-kb-readiness.md).
+    For details, see [Knowledge Base readiness for AI on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/sn-ai-impl-kb-readiness.md).
 
 -   Audit Service Catalog items.
 
-    For details, see [Service Catalog readiness for Now Assist on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/sn-ai-impl-srvc-catalog.md).
+    For details, see [Service Catalog readiness for AI on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/sn-ai-impl-srvc-catalog.md).
 
 -   Use the AI Readiness Evaluation app to assess catalog, case, and knowledge data.
 -   Use the AI Data Kit to curate and cleanse data sources.
--   Align stakeholders \(data owners, product managers, engineers\) around shared standards for AI-ready data.
+-   Align stakeholders \(data owners, product managers, and engineers\) around shared standards for AI-ready data.
 
     For details, see [AI governance on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/sn-ai-impl-governance.md).
 

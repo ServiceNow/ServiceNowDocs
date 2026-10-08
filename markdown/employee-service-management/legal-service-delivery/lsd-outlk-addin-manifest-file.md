@@ -54,5 +54,3 @@ Role required: sn\_lg\_outlook.admin
 
 **Parent Topic:**[Configure Microsoft Outlook Add-In for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/legal-service-delivery/lsd-outlook-addin-configure.md)
 
-**Parent Topic:**[Configure Microsoft Outlook Add-In for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/legal-service-delivery/lsd-outlook-addin-configure.md)
-

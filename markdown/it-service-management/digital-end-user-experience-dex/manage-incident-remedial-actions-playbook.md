@@ -9,7 +9,7 @@ classification: digital-end-user-experience-dex
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Playbook for remedial actions in incident investigation, Incident diagnostics, suggested resolutions, and remedial actions, Manage, Digital End-User Experience, IT Service Management]
+breadcrumb: [Playbook for remedial actions in incident investigation, Incident diagnostics, suggested resolutions, and remedial actions, Manage employee experience, Digital End-User Experience, IT Service Management]
 ---
 
 # Manage remedial actions in DEX incident investigation Playbook

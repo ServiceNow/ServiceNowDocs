@@ -1,6 +1,6 @@
 ---
 title: Install Agent Client Collector on a Linux system
-description: Install Agent Client Collector using a package distribution tool. Before that, you can manually install the Agent Client Collector on a few machines to verify that your agents contain the correct policies and checks.
+description: Install Agent Client Collector using a package distribution tool.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/install-acc-linux.html
 release: brazil
@@ -14,12 +14,13 @@ breadcrumb: [ACC installation on a Linux OS system, ACC deployment - servers, Co
 
 # Install Agent Client Collector on a Linux system
 
-Install Agent Client Collector using a package distribution tool. Before that, you can manually install the Agent Client Collector on a few machines to verify that your agents contain the correct policies and checks.
+Install Agent Client Collector using a package distribution tool.
 
 ## Before you begin
 
+-   You can manually install the Agent Client Collector on a few machines to verify that your agents contain the correct policies and checks.
 -   Ensure that the Agent Client Collector Listener is configured on your MID Servers, and the service is available from your target hosts, see [Configure the websocket server on the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/acc-configure-web-server.md).
--   Verify that your server's OS and version is supported. For a list of supported OS's and versions, see [ServiceNow Store Page](https://store.servicenow.com/store/app/bc09636e1be06a50a85b16db234bcbd1).
+-   Verify that your server's Operation Systems and version is supported. For a list of supported Operation Systems and their versions, see [ServiceNow Store Page](https://store.servicenow.com/store/app/bc09636e1be06a50a85b16db234bcbd1).
 -   Verify whether there are restrictions or requirements to be aware of during deployment, such as specifying an account other than the default servicenow account. For more information about embedding the agent into your own automated system, see [ITOM Agent Client Collector documentation material \[KB1122613\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1122613).
 -   Ensure that the MID Server and its MID Web Server and ACC Websocket Endpoint extensions are up and running.
 -   Enable golden image mode for cloning additional agents by setting the golden image marker located at `/tmp/acc-goldenimage`. The golden image marker takes no action during new Linux installations, as there is nothing which requires cleaning.
@@ -31,7 +32,7 @@ Install Agent Client Collector using a package distribution tool. Before that, y
     5.  Copy the value in the **Endpoint URL** field.
 -   Retrieve the MID Server API key specified in the agent's **api-key** parameter.
     1.  Navigate to **All** &gt; **Agent Client Collector** &gt; **Deployment** &gt; **MID Web Server API Key**.
-    2.  Select the API key you want to use.
+    2.  Select the API key to use.
     3.  In the **Related Links** section, select **View API key**.
     4.  Copy the API key value and close the pop-up window.
 
@@ -191,7 +192,7 @@ SLES
 
 4.  When installing a .deb package, configure the agent's `acc.yml` configuration file.
 
-    1.  Copy the sample configuration file by running the following command.
+    1.  Copy the sample configuration file:
 
         `# cp -p /etc/servicenow/agent-client-collector/acc.yml.example /etc/servicenow/agent-client-collector/acc.yml`
 
@@ -199,9 +200,9 @@ SLES
 
         `# cp -p /etc/servicenow/agent-client-collector/check-allow-list.json.default /etc/servicenow/agent-client-collector/check-allow-list.json`
 
-    **Note:** This step is not relevant for .rpm packages, which come with `acc.yml` and `check-allow-list.json` files included in the base system.
+        **Note:** This step is not relevant for .rpm packages, which come with `acc.yml` and `check-allow-list.json` files included in the base system.
 
-5.  Update the configuration file, adding **check-allow-list.json** to `/etc/servicenow/agent-client-collector` and copying the `backend-url` and `api-key` from the instance.
+5.  Update the configuration file, adding **check-allow-list.json** to `/etc/servicenow/agent-client-collector` and copying the **backend-url** and **api-key** from the instance.
 
     For example:
 
@@ -232,11 +233,13 @@ SLES
 
 6.  Configure sudoers.
 
-    Configuration is typically automated by your Linux sysadmin. To manually configure ensuring correctness before full configuration, run the following to create a new sudoers file for the agent service user:
+    Configuration is typically automated by your Linux sysadmin. To verify configuration correctness, configure sudoers manually before full configuration. To do so, create a new sudoers file for the agent service user by running the following command:
 
     `visudo -f /etc/sudoers.d/01_servicenow`
 
 7.  Add the sudoers configuration according to your Linux distribution.
+
+    When sudo commands are executed as part of Agent Client Collector checks, the system adds the `-E` flag to preserve the environment variables. Commands are executed as `- sudo -E <command_placeholder>` in the sudoers file. Add the **SETENV** command for the Agent Client Collector service user as shown in the code snippet below. If the **Application Patterns** for Agent Client Collector is enabled, ensure sudoers is updated with privileged commands, see [Discovery commands for probes and patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/discovery-command-probe-pattern.md) and [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/r_SSHCredentialsForm.md).
 
     -   When installing agents on a deb/ubuntu system, run the following:
 

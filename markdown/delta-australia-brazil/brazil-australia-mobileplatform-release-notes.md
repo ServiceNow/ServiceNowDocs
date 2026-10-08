@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-australia-brazil/brazil-australia-mobileplatform-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 8
 breadcrumb: [Products combined by family]
 ---
@@ -110,6 +110,18 @@ Enable Voice Agent in SDK-based mobile applications by configuring the External 
 
 Premium Chat opens a web-based chat experience within your mobile app, ensuring that every feature configured for the web is accessible on your mobile device.
 
+-   **[Switch between mobile app experiences](https://www.servicenow.com/docs/access?context=mobile-experience-switcher&family=australia&ft:locale=en-US)**
+
+Enable users to switch between multiple mobile app experiences, also known as mobile app configs, in the Settings page.  The mobile experience switcher allows users to select multiple app experiences that match the users roles and permissions.
+
+-   **[Unified language settings options](https://www.servicenow.com/docs/access?context=localization-mobile-device&family=australia&ft:locale=en-US)**
+
+From client version 22.2, the Settings menu displays only one language option. Selecting it directs users to the Account Language page instead of presenting multiple language choices.
+
+-   **[Logo image support in top navigation bar of launcher screens](https://www.servicenow.com/docs/access?context=create-alp-header&family=australia&ft:locale=en-US)**
+
+Add a logo image instead of a text title to a launcher screen's top navigation bar to match your organization's branding.
+
 
 </td></tr><tr><td>
 
@@ -203,6 +215,12 @@ The following changes have been made:
 -   **[Redesigned Settings screen](https://www.servicenow.com/docs/access?context=manager-user-settings&family=australia&ft:locale=en-US)**
 
 Navigate the redesigned Settings screen in the Now Mobile and Mobile Agent apps to manage entries like preferences, profile, and account switching in one place. Tap the arrow next to a heading to expand or collapse its related options.
+
+Added to the Settings screen is the Experience area, where users can select between different mobile app experiences.
+
+-   **[System default added to theme option](https://www.servicenow.com/docs/access?context=enable-dark-theme&family=australia&ft:locale=en-US)**
+
+Use the new Theme option from the Settings menu called System default to automatically match the device's current theme setting. The other options in the theme menu are Light and Dark.
 
 
 </td></tr><tr><td>

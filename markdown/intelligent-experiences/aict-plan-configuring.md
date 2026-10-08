@@ -1,6 +1,6 @@
 ---
 title: AI Plan configuration
-description: AI plan in AI Control Tower requires no mandatory configuration to get started.
+description: The AI Plan tab in AI Control Tower displays when the Strategic Planning application is installed. It requires no additional configuration once installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/aict-plan-configuring.html
 release: brazil
@@ -13,11 +13,9 @@ breadcrumb: [Plan AI strategy, prioritize, and execute, Plan your AI strategy, A
 
 # AI Plan configuration
 
-AI plan in AI Control Tower requires no mandatory configuration to get started.
+The AI Plan tab in AI Control Tower displays when the Strategic Planning application is installed. It requires no additional configuration once installed.
 
-The Plan menu in AI Control Tower is available when the Strategic Planning application is installed.
-
-**Note:** You must have Strategic Planning 4.14.0 to use the Plan menu in AI Control Tower
+**Note:** You must have Strategic Planning 4.14.0 or later to use the Plan menu in AI Control Tower
 
 During installation of Strategic Planning, the sn\_align\_core.apw\_user, it\_demand\_manager, and it\_project\_manager roles are automatically added to the sn\_ai\_governance.ai\_steward role.
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/partner-relationship-management-reference.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 2
 breadcrumb: [Reference, Sales Customer Relationship Management]
 ---
@@ -14,10 +14,10 @@ breadcrumb: [Reference, Sales Customer Relationship Management]
 
 Reference topics provide additional information about Partner Relationship Management.
 
--   **[Member registration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/member-registration-form.md)**  
-Use the member registration form on the Partner portal to register members to a partner organization.
--   **[General Inquiry form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/general-inquiry-form.md)**  
-Use the general inquiry form on the Partner portal to raise queries and get in touch with the enterprise.
+-   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/member-registration-form.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/member-registration-form.md)**  
+
+-   **[Fill in the General Inquiry form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/general-inquiry-form.md)**  
+Use the General Inquiry form on the Partner portal to raise queries and get in touch with the enterprise.
 -   **[Channel partner table fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/channel-partner-table-fields.md)**  
 Use the fields on the channel partner \[sn\_prm\_channel\_partner\] table to manage and store information related to channel partners.
 -   **[Roles and components of Deal Registration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/roles-and-components-of-deal-registration-management.md)**  

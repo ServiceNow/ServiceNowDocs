@@ -31,13 +31,13 @@ Trending topics dashboard is generated from the information that you enter in th
 
 2.  Select the **Customer** workflow, and **CSM** as the product.
 
-3.  Activate skill for the **Trending topics dashboard** skill.
+3.  Activate the **Trending topics dashboard** skill.
 
     Each skill has a guided setup with multiple steps. A check symbol next to each step indicates whether its setup is complete, partially complete, or incomplete. After configuring a step, select **Save and continue** to move forward, or **Back** to return to a previous step.
 
 4.  Select **General details** and edit name and description of the skill.
 
-    Additional information regarding details of the skill are displayed, but can't be edited.
+    Additional information regarding details of the skill s displayed, but can't be edited.
 
 5.  Select **Cluster Input** and review the tables and fields to create prompts that determine the source from which the data is pulled.
 
@@ -50,7 +50,7 @@ Trending topics dashboard is generated from the information that you enter in th
 
 6.  Select **Record clustering** to group records by similarity based on the adjusted inputs in the previous step.
 
-    Record clustering enables you to add the job in the queue, providing you with the ability to leave the page while the task is running in the background. You are notified when the task is complete.
+    Record clustering enables you to add the job in the queue, etting you leave the page while the task is running in the background. You are notified when the task is complete.
 
 7.  Select **Define access** to determine who can access this skill.
 
@@ -58,7 +58,7 @@ Trending topics dashboard is generated from the information that you enter in th
 
     Default and Custom Roles:
 
-    -   If no changes are made, the default role sn\_customerservice\_manager automatically appear in **Define Access** and **Select Display**.
+    -   If no changes are made, the default role sn\_customerservice\_manager automatically ppears in **Define Access** and **Select Display**.
     -   If custom roles were added before the upgrade, they're updated automatically by a script.
     -   If new roles are created after the upgrade, you can manually add them in both the **Define Access** and **Select Display**.
 
@@ -66,15 +66,15 @@ Trending topics dashboard is generated from the information that you enter in th
 
 8.  Toggle **Select display** to determine if trending topics dashboard skill appears in In-product desktop, displaying AI skills on forms and workspaces.
 
-9.  Select roles for whom trending topics dashboard are displayed.
+9.  Select roles for whom trending topics dashboard is displayed.
 
-    The user roles added in the **Define access** step for each ACL\(access control list\) can be selected in this step.
+    The user roles added in the **Define access** step for each ACL \(access control list\) can be selected in this step.
 
-10. After selecting **Review and Activate** to examine changes, select **Done** to close the activity response generation settings.
+10. After selecting **Review and Activate** to examine changes, select **Done** to close the trending topic dashboard settings.
 
-11. Select **Activate** to turn on the skill for agents and complete the configuration.
+11. Select **Activate** to turn on the skill for managers and complete the configuration.
 
-    Skill is activated for agents.
+    Skill is activated for managers.
 
 
 **Related topics**  

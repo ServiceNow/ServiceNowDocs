@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-brazil/brazil-yokohama-agentclientcollector-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 11
+last_updated: "2026-10-08"
+reading_time_minutes: 12
 breadcrumb: [Products combined by family]
 ---
 
@@ -326,7 +326,10 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **[View agent errors](https://www.servicenow.com/docs/access?context=view-agent-errors&family=brazil&ft:locale=en-US)**
+
+Errors are now logged using the Error Framework application, instead of Service Error Management. Error Framework provides enhanced context and details for error entries, and error codes begin with the `SN-ACC` prefix.
+
 
 </td></tr></tbody>
 </table>## Removed
@@ -474,7 +477,12 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **Activation information**
+
+Agent Client Collector is available with activation of the Agent Client Collector Framework plugin \(sn\_agent\) and the Agent Client Collector Monitoring plugin \(sn\_itmon\) in an instance on which Event Management is installed.
+
+
+**Note:** Agent Client Collector is available in the ServiceNow Store. For details, see the following activation information.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -654,7 +662,10 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **Localization information**
+
+The current available languages for Agent Client Collector are US English, UK English, French, German, Italian, Japanese, and Spanish. The default language is US English.
+
 
 </td></tr></tbody>
 </table>## Highlight information
@@ -709,7 +720,11 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   Monitor the performance and health of your infrastructure components.
+-   Enable proactive management and troubleshooting of Configuration Items \(CIs\).
+-   Identify characteristics of components running on your servers, as an alternative to horizontal, IP-based Discovery.
+
+ See [Agent Client Collector](https://www.servicenow.com/docs/access?context=acc-landing-page&family=brazil&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/rn-combined-intro.md)

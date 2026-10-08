@@ -100,6 +100,9 @@ Requires
 Condition for your transition.The available options are:
 
 -   **Mandatory Fields**:Requires specified fields to be populated before the model state transitions.
+
+State field policies create and maintain conditions named **State Field Policy Managed**. To update the fields in these conditions, update the state field policies for the destination state. For more information, see [Add state field policies to a change model state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/define-state-field-policies.md).
+
 -   **Transition Condition**: Enables you to define a more granular condition.
 
 For more information, see [Create predefined conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/create-predefined-transition-condition-type.md).
@@ -133,6 +136,10 @@ Option to make the condition active.
 </td></tr></tbody>
 </table>    6.  Select **Save**.
 
+
+## What to do next
+
+Define which fields are mandatory or read-only in each state. For more information, see [Add state field policies to a change model state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/define-state-field-policies.md).
 
 **Parent Topic:**[Create a Change model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/change-management/create-a-change-model.md)
 

@@ -62,7 +62,7 @@ Additional fields may be tracked depending on your DRIR configuration. Confirm t
 
 ## Orphaned pending updates
 
-If the source incident linked to a pending update is deleted or unlinked from the DRIR case before you review the change, the pending update record remains visible but is flagged as **orphaned**. Orphaned pending updates are not automatically removed so that the audit trail of what changed is preserved, but they can no longer be traced back to an active source record.
+If the source incident linked to a pending update is deleted or unlinked from the DRIR case, the pending update record remains visible but is flagged as **orphaned**. Orphaned pending updates are not automatically removed to preserve the audit trail. They can no longer be traced back to an active source record.
 
 **Note:**
 

@@ -1,24 +1,24 @@
 ---
 title: Transaction events
-description: Events trigger rule groups, integrations, and stage transitions on a quote. ServiceNow Quote Experience provides system events and supports custom events in CPQ.
+description: Events trigger rule groups, integrations, repricing, and stage transitions on a quote. ServiceNow Quote Experience provides system events and supports custom events in CPQ.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/quote-tm-events.html
 release: brazil
 topic_type: concept
 last_updated: "2026-05-07"
-reading_time_minutes: 4
+reading_time_minutes: 3
 breadcrumb: [ServiceNow Quote Experience, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Transaction events
 
-Events trigger rule groups, integrations, and stage transitions on a quote. ServiceNow Quote Experience provides system events and supports custom events in CPQ.
+Events trigger rule groups, integrations, repricing, and stage transitions on a quote. ServiceNow Quote Experience provides system events and supports custom events in CPQ.
 
-Events are activated by buttons on the quote layout or by API calls, and typically help users transition quotes from one stage to another. When an event fires, it can run rule groupings, call integrations, and trigger stage transitions.
+Events are activated by buttons on the quote layout or by API calls.
 
 ## Header-level system events
 
-System events are standard behaviors provided by default. When the ServiceNow Quote Experience is embedded in CPQ, the user sees buttons on the quote interface corresponding to transaction-level events.
+System events are standard behaviors provided by default.
 
 Transaction-level system events:
 
@@ -38,10 +38,6 @@ Transaction-level system events:
 
     Manages the creation and update of transaction lines after the user browses the catalog to add new lines or reconfigures an existing line. Upsert Lines runs automatically after the user finishes selecting products from the catalog, configuring products, or reconfiguring a line. Although it works on lines, it operates at the transaction level on all lines. When pricing is enabled, this event ships with the **Reprice** action attached so that adding or reconfiguring a product automatically reprices the quote. For more information about UI effects, see [Quote transaction layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-tm-layouts.md).
 
--   **Reprice**
-
-    Recalculates pricing for the quote by assembling the pricing context from the header and line values and calling the pricing service. The response is mapped back onto the quote and line pricing fields. Available when pricing is enabled for the deployment. The **Reprice** action can be attached to a button on the quote layout for manual repricing and to system events, such as Upsert Lines, for automatic repricing.
-
 -   **Delete Transaction**
 
     Triggered to delete an existing transaction.
@@ -53,6 +49,12 @@ Transaction line-level system events are represented as buttons on the quote lin
 
     Clones a line and its children. Only top-level lines in the transaction can be cloned. Header-level rules also apply after cloning.
 
+    By default, cloning a line creates a single copy and no dialog appears.
+
+    To let runtime users create multiple copies of a line in a single action, submit a support request to have the tenant setting **transaction.events.cloneLine.multiCopy.enabled** to `true`. With the setting enabled, selecting a single line and cloning it opens a dialog in which the user specifies the number of copies to create. The line and its children are cloned that many times, for both standard and configurable products.
+
+    Multiple copies apply to a single selected line only. If the user selects more than one line, each selected line is cloned once and no dialog appears. The max number of copies is 10.
+
 -   **Delete Lines**
 
     Deletes one or more selected lines from the transaction. Line IDs can also be passed in headless mode.
@@ -62,13 +64,9 @@ Transaction line-level system events are represented as buttons on the quote lin
     Re-configure one or more selected lines from the transaction. Line IDs can also be passed in headless mode.
 
 
-## Repricing events
+## Repricing event actions
 
-When Pricing is enabled, the **Reprice** action drives both manual and automatic repricing. To enable Pricing, see [Set up an external connection in CPQ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/set-up-external-connection-logik.md)
-
--   Manual reprice — Attach the **Reprice** action to a button on the quote layout so users can recalculate pricing on demand.
--   Automatic reprice — Default special-event triggers, such as **upsertLines** when a configuration is added, ship with the **Reprice** action attached, so pricing runs without the user selecting **Reprice**. You can disable these default triggers per event if you don't want automatic repricing for a given event.
--   Stage-aware behavior — The effective repricing behavior can differ by stage without per-event configuration. For example, auto-pricing can be aggressive in an early stage such as Draft and suppressed in a later stage such as Order Submitted. Configure stage-specific behavior on the stage. For more information, see [Quote transaction stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-tm-stages.md).
+When Pricing is enabled, the **Reprice** action can be added to an event. The Reprice action includes a call to the Pricing Management service during the execution of an event, enabling explicit **Reprices** by a user or via API. To enable Pricing, see [Pricing in the ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/pricing-in-quote-experience.md)
 
 ## Event APIs
 

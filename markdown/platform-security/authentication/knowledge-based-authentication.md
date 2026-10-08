@@ -27,6 +27,8 @@ KBA validates answers against records in ServiceNow AI Platform tables. For call
 
 KBA questions can be configured for identification, authentication, or both phases, depending on admin configuration.
 
+**Note:** KBA factor isn’t supported for step-up authentication.
+
 ## External source validation
 
 When caller data is not stored in ServiceNow AI Platform, admins can configure a custom script on an answer record to validate the caller's response against an external system, such as a CRM or order management platform. The script receives the caller's answer as input and returns a match result.

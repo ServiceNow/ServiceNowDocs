@@ -96,15 +96,15 @@ Option to enable or disable SSL for the connection. When enabled, additional fie
 </td></tr></tbody>
 </table>4.  Configure the authentication method that you want to use with MySQL.
 
-<table id="choicetable_mysql_auth"><thead><tr><th align="left" id="d623197e251">
+<table id="choicetable_mysql_auth"><thead><tr><th align="left" id="d630295e251">
 
 Option
 
-</th><th align="left" id="d623197e254">
+</th><th align="left" id="d630295e254">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d623197e260">
+</th></tr></thead><tbody><tr><td id="d630295e260">
 
 **Basic**
 
@@ -116,7 +116,7 @@ Option to use a username and password.
 2.  Enter the password associated with the username.
 
 
-</td></tr><tr><td id="d623197e281">
+</td></tr><tr><td id="d630295e281">
 
 **AWS IAM**
 
@@ -124,7 +124,7 @@ Option to use a username and password.
 
 Option to authenticate using AWS IAM token-based authentication. See [MySQL authentication method fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/mysql-authentication-method-fields-zcc.md) for the specific fields \(Database user, AWS region, AWS access key ID, AWS secret access key\).
 
-</td></tr><tr><td id="d623197e300">
+</td></tr><tr><td id="d630295e300">
 
 **GCP IAM**
 
@@ -132,7 +132,7 @@ Option to authenticate using AWS IAM token-based authentication. See [MySQL auth
 
 Option to authenticate using GCP Cloud IAM token-based authentication. See [MySQL authentication method fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/mysql-authentication-method-fields-zcc.md) for the specific fields \(Service account key \(JSON\), Database user, GCP token scope\).
 
-</td></tr><tr><td id="d623197e319">
+</td></tr><tr><td id="d630295e319">
 
 **OAuth**
 

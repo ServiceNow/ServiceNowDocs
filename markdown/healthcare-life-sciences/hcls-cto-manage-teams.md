@@ -7,7 +7,7 @@ release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Navigate the Care Team Portal, Navigate, Care Team Portal, Healthcare Operations, Healthcare and Life Sciences]
+breadcrumb: [Navigate, Care Team Portal, Healthcare Operations, Healthcare and Life Sciences]
 ---
 
 # Manage your teams in the Care Team Portal

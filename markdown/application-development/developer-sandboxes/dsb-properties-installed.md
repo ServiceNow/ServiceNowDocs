@@ -8,8 +8,8 @@ product: Developer Sandboxes
 classification: developer-sandboxes
 topic_type: reference
 last_updated: "2026-09-10"
-reading_time_minutes: 3
-breadcrumb: [Installing, Developer Sandboxes, Developing your application, Building applications]
+reading_time_minutes: 4
+breadcrumb: [Installing, Developer Sandboxes, Build, AI Workflow Factory, Building applications]
 ---
 
 # Properties installed with Developer Sandboxes
@@ -47,6 +47,8 @@ Number of nodes that run as a controller.-   Type: number
 -   Increasing converts unassigned nodes to controller nodes.
 -   Decreasing converts unassigned nodes to nodes.
 -   More controller nodes mean you get fewer sandboxes.
+
+ **Important:** Reconfigure this property after installing the com.glide.dsb.licensing plugin to ensure the correct number of controller nodes for your sandbox capacity. Failure to reconfigure this property after installation can result in incorrect sandbox availability.
 
 </td></tr><tr><td>
 
@@ -249,4 +251,5 @@ Maximum limit of concurrent sandbox allocations/retirements events.-   Type: num
 Increasing the value enables more concurrent allocations/retirement, but could overload the database.
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[Installing Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/developer-sandboxes/dev-sbx-installing.md)
+

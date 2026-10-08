@@ -16,15 +16,15 @@ The Brazil Early Availability release introduces the flow troubleshooting agent,
 
 ## What's new
 
--   **[Enhanced Workflow Studio flow designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/enhanced-workflow-studio-flow-designer.md)**
+-   ****
 
     Create and manage flows from the enhanced Workflow Studio flow designer.
 
--   **[Flow troubleshooting agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/flow-troubleshooting-agent.md)**
+-   ****
 
     Diagnose and resolve flow errors from a conversation. Resume a flow the point of error, analyze flow steps, identify conflicts with business logic, and receive targeted recommendations to troubleshoot your flows.
 
--   **[Flow input modification during debugging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/flow-debugger.md)**
+-   **Flow input modification during debugging**
 
     Modify input configuration values while debugging a flow. Determine whether specific input values cause a flow to run to completion or cause errors.
 

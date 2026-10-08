@@ -15,7 +15,7 @@ breadcrumb: [Engagement home page, Manage engagements, Customer success, Use, Cu
 
 The engagement brief summarizes recent signals across risk, adoption, and market activity for a specific engagement.
 
-The [Executive Insight Generator skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-tmt-exec-insight-gen.md) analyzes engagement metrics and generates actionable insights organized by category. The generated brief highlights important and recent changes in metrics, helping customer success agents identify risks and opportunities and take proactive actions.
+The [Executive Insight Generator skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/now-assist-tmt-exec-insight-gen.md) analyzes engagement metrics and generates actionable insights organized by category. The generated brief highlights important and recent changes in metrics, helping customer success agents identify risks and opportunities and take proactive actions.
 
 The brief appears in the **Engagement updates** component at the top of the engagement record page. It loads automatically when the page opens and displays a one-line overview followed by a category-wise breakdown of recent signals.\[Omitted image "engagement-brief.jpg"\] Alt text: Engagement brief
 
@@ -24,9 +24,9 @@ The brief appears in the **Engagement updates** component at the top of the enga
 -   The engagement brief is displayed if the following plugins have been installed:
     -   Technology Account Management Experiences \(sn\_tech\_exp\)
     -   ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) \(sn\_tmt\_gen\_ai\)
--   The Executive Insight Generator skill has been activated. See [Activate the Executive Insight Generator skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-tmt-exec-insight-gen.md) for details.
+-   The Executive Insight Generator skill has been activated. See [Activate the Executive Insight Generator skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/now-assist-tmt-exec-insight-gen.md) for details.
 
-The Executive Insight Generator skill must be activated. See [Activate the Executive Insight Generator skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-tmt-exec-insight-gen.md) for details.
+The Executive Insight Generator skill must be activated. See [Activate the Executive Insight Generator skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/now-assist-tmt-exec-insight-gen.md) for details.
 
 ## Insight categories
 
@@ -89,7 +89,7 @@ Create a custom trigger to capture a business signal that is specific to your or
 **Related topics**  
 
 
-[Activate the Executive Insight Generator skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/now-assist-tmt-exec-insight-gen.md)
+[Activate the Executive Insight Generator skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/proactive-service-exp-workflows/now-assist-tmt-exec-insight-gen.md)
 
 [Configure a custom trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-exec-insight-custom-trigger.md)
 

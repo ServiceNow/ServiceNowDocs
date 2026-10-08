@@ -79,7 +79,7 @@ The following system properties control the initiation of automated actions duri
 -   sn\_dpr.auto\_transition\_release\_to\_review
 -   sn\_dpr.auto\_transition\_release\_to\_completed
 
-For more information about these properties, see [Digital Product Release properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/digital-product-release-properties.md).
+For more information about these properties, see [Digital Product Release system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/digital-product-release-properties.md).
 
 ## Single product or service release
 

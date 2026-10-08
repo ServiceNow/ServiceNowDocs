@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Run on-demand scans, Scan your instance, Impact Guided Setup, Configuring Impact, Impact]
+breadcrumb: [Initiate and monitor scans, Scan your instance, Configuring Impact, Impact]
 ---
 
 # Initiate limited definition scans
@@ -42,5 +42,5 @@ Role required:
         Definition suites group related definitions. Scanning a suite runs all definitions in that suite.
 
 
-**Parent Topic:**[Run on-demand scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/using-impact-scan-engine.md)
+**Parent Topic:**[Initiate and monitor scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/initiate-manage-scan-engine.md)
 

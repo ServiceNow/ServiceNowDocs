@@ -1,6 +1,6 @@
 ---
 title: Digital End-User Experience
-description: ServiceNow Digital End-User Experience \(DEX\) provides end-to-end visibility into the health of applications, networks, and end-user devices, enabling IT teams to proactively detect issues, remediate them, and empower employees to self-solve.
+description: ServiceNow Digital End-User Experience \(DEX\) application provides end-to-end visibility into the health of applications, networks, and end-user devices. IT teams can detect issues, remediate them, and help employees resolve issues independently.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/dex-landing-cf.html
 release: brazil
@@ -16,7 +16,7 @@ breadcrumb: [IT Service Management]
 
 # Digital End-User Experience
 
-ServiceNow® Digital End-User Experience \(DEX\) provides end-to-end visibility into the health of applications, networks, and end-user devices, enabling IT teams to proactively detect issues, remediate them, and empower employees to self-solve.
+ServiceNow® Digital End-User Experience \(DEX\) application provides end-to-end visibility into the health of applications, networks, and end-user devices. IT teams can detect issues, remediate them, and help employees resolve issues independently.
 
 \[Omitted video\] Description: DEX Overview
 

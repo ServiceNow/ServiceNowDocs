@@ -9,7 +9,7 @@ classification: policy-and-compliance-management
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Manage continuous monitoring for controls between Configuration Compliance and Policy and Compliance Management
@@ -26,7 +26,7 @@ Continuous monitoring is a pro-active security management approach. Customers mo
 4.  If the configuration test scan results of the configuration tests indicate a failure, then the control is non-compliant and an issue is automatically generated.
 5.  If the next scan result of the configuration test indicates that the failure has been remediated, then the control is compliant and the issue is automatically closed.
 
-**Parent Topic:**[Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/r_PolicyComplianceMgmt.md)
+**Parent Topic:**[Use Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/policy-and-compliance-management/use-policy-compliance-mgmt.md)
 
 ## Map control objective or controls to configuration tests
 

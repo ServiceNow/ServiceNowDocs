@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [developer sandbox, sandbox developer, servicenow sandbox enabled, development sandbox, dev sandbox, sandbox management, sandbox enabled servicenow, sandbox crm]
-breadcrumb: [Developer Sandboxes, Developing your application, Building applications]
+breadcrumb: [Developer Sandboxes, Build, AI Workflow Factory, Building applications]
 ---
 
 # Administering Developer Sandboxes
@@ -31,4 +31,13 @@ If you have permission, you can allocate and retire the sandboxes you've created
 
     Retire sandboxes that are outdated or to make room for new sandboxes in your instance.
 
+
+-   **[Allocate a sandbox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/developer-sandboxes/allocating-sandboxes.md)**  
+Allocate sandboxes to your development teams so they can start using them for development.
+-   **[Requesting sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/developer-sandboxes/dsb-requesting-sandboxes.md)**  
+Developers generally have admin rights on the non-production instance where Developer Sandboxes are allocated, and can thus allocate a sandbox to themselves.
+-   **[Retire a sandbox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/developer-sandboxes/retire-sandboxes.md)**  
+Retire sandboxes that are outdated or no longer needed to make room for new Developer Sandboxes in your instance.
+
+**Parent Topic:**[Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/developer-sandboxes/sandboxes-landing.md)
 

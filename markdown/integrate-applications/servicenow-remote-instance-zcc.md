@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/servicenow-remote-instance-zcc.html
 release: brazil
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 breadcrumb: [Primary connectors, Manage zero copy connections, Zero Copy Connectors, Workflow Data Fabric]
 ---
@@ -26,9 +26,9 @@ This approach differs from other data synchronization methods like Instance Data
 
 ## ServiceNow Connector — Oracle instance limitation
 
-When using the ServiceNow Connector with Workflow Data Fabric or Zero Copy Connectors, the remote ServiceNow instance must be running on a supported database platform. Connecting to a ServiceNow instance that uses Oracle as its underlying database is not supported. Queries that include tables from an Oracle-backed ServiceNow instance will fail.
+When using the ServiceNow Connector with Workflow Data Fabric or Zero Copy Connectors, the remote ServiceNow instance must be running on a supported database platform. Connecting to a ServiceNow instance that uses Oracle as its underlying database is not supported. Queries that include tables from an Oracle-backed ServiceNow instance fail.
 
-**Note:** This limitation applies specifically to ServiceNow to ServiceNow connectivity through the ServiceNow Connector. Workflow Data Fabric and Zero Copy Connectors continue to support direct connections to external Oracle databases through the Oracle Connector.
+**Warning:** This limitation applies specifically to ServiceNow to ServiceNow connectivity through the ServiceNow Connector. Workflow Data Fabric and Zero Copy Connectors support direct connections to external Oracle databases through the Oracle Connector.
 
 ## Service account security model
 
@@ -44,7 +44,7 @@ Work with the remote instance administrator to perform the following tasks:
 
 ## Use case
 
-A managed service provider operates twelve ServiceNow instances for different business units, each containing incident, change, and asset data specific to that unit. Due to data residency regulations in multiple regions, records cannot be copied or moved between instances.
+A managed service provider operates twelve ServiceNow instances for different business units, each containing incident, change, and asset data specific to that unit. Due to data residency regulations in multiple regions, records can't be copied or moved between instances.
 
 The provider designates one instance as the central processing instance where cross-organizational workflows and dashboards are managed. Using the ServiceNow Remote Instance connector, the central instance establishes zero copy connections to each of the twelve remote instances. Data stewards create data fabric tables that map incident and asset fields from the remote instances.
 

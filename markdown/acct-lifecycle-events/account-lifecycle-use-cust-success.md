@@ -30,6 +30,10 @@ View the customer success case records or case task records on the Customer Serv
 The Related Items component provides access to related lists associated with engagements, customer plays, and internal plays
 -   **[AI search with recommended actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-ai-search.md)**  
 Use AI search with recommended actions to create contexts and search for relevant records.
+-   **[Request ServiceNow Otto capabilities for Customer Success Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-otto-request-panel.md)**  
+Request generative AI capabilities for Customer Success Management, such as an engagement summary or a renewal insight, by using the conversational interface in the ServiceNow Otto panel.
+-   **[ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) adaptive desktop actions for customer experimentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/now-assist-adaptive-desktop-actions.md)**  
+Use ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) adaptive desktop actions in Customer Success Management to test prompt-driven models on your workflows.
 
 **Parent Topic:**[Use Customer Success Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-customer-success-landing-page.md)
 

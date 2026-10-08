@@ -59,15 +59,15 @@ Edit or assign an issue from the list of records. Alternatively, add or work not
 
     \[Omitted image "mobile-risk-issue-uw-record.jpg"\] Alt text: Issue record with tabs highlighted.
 
-<table id="choicetable_sgf_5fd_xhb"><thead><tr><th align="left" id="d417067e245">
+<table id="choicetable_sgf_5fd_xhb"><thead><tr><th align="left" id="d419484e245">
 
 Option
 
-</th><th align="left" id="d417067e248">
+</th><th align="left" id="d419484e248">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d417067e254">
+</th></tr></thead><tbody><tr><td id="d419484e254">
 
 **Details tab**
 
@@ -82,7 +82,7 @@ Tap the **Control/Risk** field to expand it. A list of Risk records is displayed
 -   At the top right of the screen with the Issue screen displayed, tap the menu icon \( \[Omitted image "mobile-top-menu.png"\] Alt text: Menu icon.\) to edit and assign the issue. Follow the steps described in the preceding table.
 
 
-</td></tr><tr><td id="d417067e295">
+</td></tr><tr><td id="d419484e295">
 
 **Activity Stream tab**
 
@@ -92,7 +92,7 @@ With the Activity Stream tab selected, choose one to continue.-   View work note
 -   At the top right of the screen, tap the menu icon \( \[Omitted image "mobile-top-menu.png"\] Alt text: Menu icon.\) to assign or edit the issue. Follow the steps described in the preceding table.
 
 
-</td></tr><tr><td id="d417067e325">
+</td></tr><tr><td id="d419484e325">
 
 **Related List tab**
 
@@ -103,7 +103,7 @@ With the Related List tab selected, follow these steps.1.  Tap **Remediation Tas
 3.  After your review, with navigate back to the issue record and tap the menu \( \[Omitted image "mobile-top-menu.png"\] Alt text: Menu icon.\) to assign or edit the issue. Follow the steps described in the preceding table.
 
 
-</td></tr><tr><td id="d417067e355">
+</td></tr><tr><td id="d419484e355">
 
 **Tap a screen icon at the bottom of the screen.**
 

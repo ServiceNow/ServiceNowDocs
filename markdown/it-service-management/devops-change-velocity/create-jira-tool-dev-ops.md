@@ -26,15 +26,15 @@ Role required: sn\_devops.admin or sn\_devops.tool\_owner
 
 1.  Navigate to **Workspaces** &gt; **DevOps Change Workspace** and use one of the following options to open the Playbook to onboard Jira.
 
-<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d386496e100">
+<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d385822e100">
 
 Option
 
-</th><th align="left" id="d386496e103">
+</th><th align="left" id="d385822e103">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d386496e109">
+</th></tr></thead><tbody><tr><td id="d385822e109">
 
 **Homepage**
 
@@ -44,7 +44,7 @@ Steps
 2.  On the  Connect to a tool  modal, select Jira from the **Plan** category.
 
 
-</td></tr><tr><td id="d386496e136">
+</td></tr><tr><td id="d385822e136">
 
 **Applications module**
 
@@ -56,7 +56,7 @@ Steps
 4.  On the  Connect to a tool  modal, select Jira from the **Plan** category.
 
 
-</td></tr><tr><td id="d386496e188">
+</td></tr><tr><td id="d385822e188">
 
 **Tools module**
 

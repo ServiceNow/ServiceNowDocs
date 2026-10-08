@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/rn-summary-browser-reqs.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-25"
+last_updated: "2026-10-08"
 reading_time_minutes: 2
 breadcrumb: [Release notes summaries for Brazil features, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
@@ -78,6 +78,14 @@ For optimal performance with Data Privacy and Discovery features, use the latest
 
 </td></tr><tr><td>
 
+Digital End-User Experience
+
+</td><td>
+
+Enable the DEX browser extension to monitor web applications for various operational or performance-based metrics on your system. For more information, see [Enable DEX browser extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/enable-dex-browser-extension.md).
+
+</td></tr><tr><td>
+
 Domain Separation
 
 </td><td>
@@ -140,6 +148,17 @@ ServiceNow Otto for Virtual Agent
 -   ****
 
 Virtual Agent supports various browsers, including Google Chrome and Microsoft Edge. For more information, see [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/browser-support.md).
+
+
+</td></tr><tr><td>
+
+Workforce Optimization for CSM
+
+</td><td>
+
+-   ****
+
+ServiceNow workspaces don’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge - Chromium or one of the other supported browsers listed in [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/browser-support.md).
 
 
 </td></tr><tr><td>

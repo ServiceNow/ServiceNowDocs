@@ -39,6 +39,15 @@ Each program plan includes four dedicated planning views:
 |Capacity|Track team resource capacity and allocation|Monitor resource utilization, manage workload, identify constraints, plan allocation|
 |Financials|Track program budget, costs, and financial metrics|Monitor spend, forecast costs, manage program financial health|
 
+## Program plan features
+
+Program plans include the following features:
+
+-   Program details: Select the information icon in the program plan header to view the planning item types, the program start and end dates, and the program manager.
+-   Program value on new items: When you create a planning item from a program plan, the **Program** field is set to that program automatically.
+-   Default Prioritization layout: Program plans use their own default column layout on the **Prioritization** tab. Changes to this layout do not affect other portfolio plans.
+-   Public views: You can create and update public views on a program plan without editor access to the plan.
+
 ## Program-scoped data
 
 Program plans display only that program's planning items in a focused, streamlined interface. This scope isolation confirms you see relevant data without portfolio-wide noise. Program-scoped planning data includes:

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-operationalsustainabilitymanagement-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 10
+last_updated: "2026-10-08"
+reading_time_minutes: 11
 breadcrumb: [Products combined by family]
 ---
 
@@ -154,7 +154,20 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **[Historical data for metrics](https://www.servicenow.com/docs/access?context=historical-data-generation-for-metrics&family=brazil&ft:locale=en-US)**
+
+With GRC: Metrics version 23.1.2, you can create historical data for past periods on manual and automated metrics. When you create historical data, the system generates metric definition data, metric data and metric data tasks from the historical start date up to the most recent completed period. If the metric belongs to an active, published campaign, the system also creates campaign cycles for those periods.
+
+To create historical data, select the **Create historical data** option on a metric and enter a historical start date. The records are generated during the next metric data run or when you execute the associated metric definition.
+
+The new historical records start in the following states:
+
+    |Record|Manual metric|Automated metric|
+    |------|-------------|----------------|
+    |Metric data|Pending|Pending, or Completed when no task is created|
+    |Metric data task|New|In progress|
+    |Campaign cycle \(campaign-enabled metrics only\)|Data collection|Data collection|
+
 
 </td></tr></tbody>
 </table>## Changes
@@ -232,6 +245,11 @@ With Document Designer version 23.0.3, you can create HTML-based scripted column
  -   **[Framework and regulatory content updates](https://www.servicenow.com/docs/access?context=esg-content-accelerator&family=brazil&ft:locale=en-US)**
 
 With Unified Content Management version 23.0.4, you receive updated framework and regulatory content without waiting for application upgrades.
+
+
+ -   **[Threshold rating recalculation](https://www.servicenow.com/docs/access?context=thresholds-for-metrics&family=brazil&ft:locale=en-US)**
+
+With GRC: Metrics version 23.1.2, threshold ratings and breach status are recalculated when you edit a threshold, delete a threshold, reopen a metric data task, or move it to the Estimated state. Ratings also update when you save or override a metric data value.
 
 
 </td></tr></tbody>
@@ -373,6 +391,8 @@ Yokohama
 Install Operational Sustainability Management by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 
+**Important:** Operational Sustainability Management is available in ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Zurich
@@ -383,6 +403,8 @@ Zurich
 
 Install Operational Sustainability Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
+
+**Important:** Operational Sustainability Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 

@@ -67,7 +67,7 @@ Error codes generated during Agent Client Collector upgrades, with descriptions 
 -   **[Supported platforms for Agent Client Collector auto-upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/acc-agent-upgrade-platforms.md)**  
 Operating systems and package types supported for Agent Client Collector auto-upgrade, and the minimum agent version required.
 -   **[MSI installation parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/msi-installation-parameters.md)**  
-The following table describes the MSI parameters used when preparing an agent to be installed on a gold image and used with a Virtual Desktop Infrastructure \(VDI\) machine.
+The following table describes the MSI parameters used when preparing an agent for installation on a gold image and used with a non-persistent virtual desktop infrastructure \(NPVDI\) machine.
 
 **Parent Topic:**[Agent Client Collector reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/agent-client-collector/acc-reference.md)
 

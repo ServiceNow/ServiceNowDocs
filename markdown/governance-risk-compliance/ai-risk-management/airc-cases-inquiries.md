@@ -35,7 +35,7 @@ AI cases are typically used to report observed AI-related concerns, risks, incid
 
 ## Submission and intake
 
-AI Case Business Users \[sn\_ai\_case\_mgmt.ai\_case\_business\_user\] submit AI cases and inquiries through the Employee Center to report concerns or request guidance. Submissions include descriptive information that helps reviewers understand context, such as the AI system, model, or dataset involved, observed behavior or concern, impacted users or business areas, and any supporting details or attachments. For more information, see .
+AI Case Business Users \[sn\_ai\_case\_mgmt.ai\_case\_business\_user\] submit AI cases and inquiries through the Employee Center to report concerns or request guidance. Submissions include descriptive information that helps reviewers understand context, such as the AI system, model, or dataset involved, observed behavior or concern, impacted users or business areas, and any supporting details or attachments. For more information, see [Report an AI case from the Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/report-ai-case.md).
 
 After upgrading to version 22.0.3 and installing the AI Case Management application, organizations can enable anonymous submission of AI cases through the Employee Center. Anonymous reporting supports broader participation in AI governance while protecting the identity of the reporter.
 
@@ -49,7 +49,7 @@ Before an anonymous report is saved, all free‑text fields in the forms \(such 
 
 Sanitization helps reduce the risk of unsafe or malformed input.
 
-For more information, see , , and [Anonymous Reporting Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/grc-anonymous-reporting-center.md).
+For more information, see [Report an AI case anonymously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/report-ai-case-anon.md), [Follow up on a report from the Anonymous Reporting Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/follow-up-anonymously.md), and [Anonymous Reporting Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-common-functions/grc-anonymous-reporting-center.md).
 
 ## Case management and follow-up
 
@@ -61,7 +61,7 @@ AI Risk and Compliance managers \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_ma
 
 Access to create and manage AI cases and inquiries is controlled through roles that support separation of duties and least-privilege access.
 
-Business users focus on reporting concerns and requesting guidance. Analysts and managers focus on investigation, assessment, coordination, and oversight. AI stewards \[sn\_ai\_governance\_ai\_steward\] and other governance stakeholders, such as security, legal, privacy, or data governance teams, contribute expertise and perform review or remediation tasks as needed.
+Business users focus on reporting concerns and requesting guidance. Analysts and managers focus on investigation, assessment, coordination, and oversight. AI stewards \[sn\_ai\_governance.ai\_steward\] and other governance stakeholders, such as security, legal, privacy, or data governance teams, contribute expertise and perform review or remediation tasks as needed.
 
 Governance stakeholders participate in case review and investigation activities without owning business outcomes or life cycle approval decisions.
 
@@ -69,6 +69,10 @@ For more information, see [Roles and responsibilities](https://raw.githubusercon
 
 **Related topics**  
 
+
+[Create an AI case in the AI Risk and Compliance workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/create-ai-case-in-the-ai-risk-and-compliance-workspace.md)
+
+[Raise an AI inquiry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/raise-ai-inquiry.md)
 
 [AI cases tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/ai-cases-tab-airc.md)
 

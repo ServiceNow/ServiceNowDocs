@@ -26,6 +26,8 @@ Use the ServiceNow Otto for Vault agentic workflows to complete tasks autonomous
 |Field Encryption and Auto Generate Access Policies|Encrypts a table field and creates a module access policy for each role that needs access to the field.|Field access auditor, Vault crypto module manager|
 |Classifying ServiceNow assets with Vault agents|Recommends a data class for each ServiceNow column collected into the Data Catalog.|Classify assets with ServiceNow Vault|
 
+For a list of all ServiceNow Vault AI agents, see [ServiceNow Vault AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/vault-ai-agents-overview.md).
+
 **Important:** Some generative AI skills, AI agents, and agentic workflows are turned on by default. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 ## AI model providers
@@ -44,7 +46,7 @@ Enable security settings to run AI agents and agentic workflows using access con
 
 ## Installed agents
 
-There might be AI agents installed on your instance that are not used in agentic workflows. To learn how to see all agents that are available to you, see Find AI agents.
+There might be AI agents installed on your instance that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/find-ai-agents.md).
 
 -   **[Securing custom apps with the Vault agents agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/now-assist-vault-securing-custom-apps-agents.md)**  
 Use the securing custom apps with Vault agents agentic workflow to get recommended data classifications and available protections for a custom application.
@@ -56,6 +58,8 @@ Use the summarize Access Observer logs agentic workflow to review and summarize 
 Use the field encryption with Vault module agentic workflow to encrypt specific fields and configure secure access to users with designated roles.
 -   **[Field encryption and auto-generate access policies agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/now-assist-vault-field-encryption-access-policies.md)**  
 The field encryption and auto-generate access policies agentic workflow encrypts a table field and creates the access policies that its roles need.
+-   **[Classifying ServiceNow assets with Vault agents agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/now-assist-vault-classify-servicenow-assets.md)**  
+The Classify assets with ServiceNow Vault agent recommends a data class for each ServiceNow column in the Data Catalog.
 
 **Parent Topic:**[ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/servicenow-vault-landing.md)
 

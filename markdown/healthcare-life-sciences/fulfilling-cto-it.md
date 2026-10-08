@@ -20,3 +20,5 @@ For more information, see [Incident Management](https://raw.githubusercontent.co
 
 This enables you to see the case associated with see the incident on the Service Operations Workspace under the Related Records section.
 
+**Note:** Some cases are created by the ServiceNow Otto case creation AI agent instead of being submitted through a form. Fulfill these cases the same way. When a case comes from a chat conversation, an interaction record of the conversation is also created.
+

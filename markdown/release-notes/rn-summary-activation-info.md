@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/rn-summary-activation-info.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-25"
-reading_time_minutes: 36
+last_updated: "2026-10-08"
+reading_time_minutes: 41
 breadcrumb: [Release notes summaries for Brazil features, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
@@ -45,7 +45,7 @@ AI Admin Hub
 
 -   ****
 
-AI Admin Hub is available from the ServiceNow® Store.
+AI Admin Hub is available from the ServiceNow® Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 </td></tr><tr><td>
@@ -151,7 +151,7 @@ Agent Chat
 
 -   ****
 
-Agent Chat is a ServiceNow AI Platform feature that is available with activation of the Agent Chat plugin \(com.glide.interaction.awa\). For details, see [Configuring Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/ci-agent-chat-configuring.md).
+Agent Chat is a ServiceNow AI Platform feature that is available with activation of the Agent Chat plugin \(com.glide.interaction.awa\). For details, see .
 
 
 </td></tr><tr><td>
@@ -178,6 +178,17 @@ Agent experience for CSM is available with activation of the Case Management Cor
 
 </td></tr><tr><td>
 
+App Engine Management Center
+
+</td><td>
+
+-   ****
+
+Install App Engine Management Center by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+
+</td></tr><tr><td>
+
 App Engine Studio
 
 </td><td>
@@ -185,6 +196,17 @@ App Engine Studio
 -   ****
 
 Install App Engine Studio by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+
+</td></tr><tr><td>
+
+Application Runtime Policy
+
+</td><td>
+
+-   ****
+
+Application Runtime Policy is a ServiceNow AI Platform feature that is active by default.
 
 
 </td></tr><tr><td>
@@ -222,6 +244,17 @@ Authentication is a ServiceNow AI Platform product that is active by default.
 
 </td></tr><tr><td>
 
+Automation Center
+
+</td><td>
+
+-   ****
+
+Install the Automation Center application \(sn\_ac\) by requesting it from the ServiceNow® Store. The application includes demo data and installs related Automation Center Store applications and plugins if they aren't already installed. Installation requires the admin role. For more information, see .
+
+
+</td></tr><tr><td>
+
 Autonomous Workforce
 
 </td><td>
@@ -241,7 +274,7 @@ Build Agent and Autonomous Engineer
 
 -   ****
 
-Build Agent \(Trial\) is a ServiceNow AI Platform feature that is active by default starting with the Brazil release. For Build Agent, you must install ServiceNow Otto for Creator.
+Build Agent \(Trial\) is a ServiceNow AI Platform feature that is active by default starting with the Brazil release. For Build Agent, you must install ServiceNow Otto for Creator. You must install Autonomous Engineer
 
 
 </td></tr><tr><td>
@@ -284,14 +317,6 @@ Card Data Security
 </td><td>
 
 Install Card data security by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
-
-</td></tr><tr><td>
-
-Care Team Work Management
-
-</td><td>
-
-Install Care Team Work Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 </td></tr><tr><td>
 
@@ -459,6 +484,17 @@ Install Customer Engagement Sequences \(com.sn\_crm\_sequence\) from the Service
 
 </td></tr><tr><td>
 
+Customer Service Problem Management
+
+</td><td>
+
+-   ****
+
+Install Customer Service Problem Management by requesting it from the ServiceNow Store.
+
+
+</td></tr><tr><td>
+
 Customer Success Management
 
 </td><td>
@@ -555,6 +591,14 @@ Install the Developer Sandbox License Management \(`com.glide.dsb.licensing`\) p
 
 </td></tr><tr><td>
 
+Digital End-User Experience
+
+</td><td>
+
+Install Digital End-User Experience by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+</td></tr><tr><td>
+
 Discovery
 
 </td><td>
@@ -638,7 +682,7 @@ Employee Slate for ITSM
 
 -   ****
 
-ITSM Employee Slate for Moveworks is available with activation of the ITSM Employee Slate for Moveworks plugin. For details, see [Configure Employee Slate for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/configure-employeeworks-itsm.md).
+Employee Slate for ITSM is available with activation of the ITSM Employee Slate for Moveworks plugin. For details, see [Configure Employee Slate for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/configure-employeeworks-itsm.md).
 
 
 </td></tr><tr><td>
@@ -706,6 +750,17 @@ Install Event Management by requesting it from the ServiceNow Store. Visit the [
 
 </td></tr><tr><td>
 
+Export to PowerPoint
+
+</td><td>
+
+-   ****
+
+The Export to PowerPoint for Strategic Portfolio Management application \(sn\_ppm\_ppt\_export\) is available on ServiceNow® Store. Install the application to activate it. The admin role is required.
+
+
+</td></tr><tr><td>
+
 Extended Security for Enterprise-Wide Deployment
 
 </td><td>
@@ -752,6 +807,14 @@ Install Financial Services Card Operations by requesting it from the ServiceNow 
 
 </td></tr><tr><td>
 
+Financial Services Operations Core
+
+</td><td>
+
+Install Financial Services Operations Core by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+</td></tr><tr><td>
+
 Financial Services Operations Integration with Visa
 
 </td><td>
@@ -787,6 +850,17 @@ Update Workflow Studio from the ServiceNow Store. Visit the [ServiceNow Store](h
 
 </td></tr><tr><td>
 
+Goal Framework
+
+</td><td>
+
+-   ****
+
+Install Goal Framework by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store.
+
+
+</td></tr><tr><td>
+
 Goal Framework for SPM
 
 </td><td>
@@ -817,6 +891,16 @@ Health Log Analytics
 
 Install Health Log Analytics by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
+
+</td></tr><tr><td>
+
+Healthcare Operations
+
+</td><td>
+
+Install each Healthcare Operations app by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+The Care Team Operations AI Chat Assistant and its agents require an HCLS Prime or HCLS Advanced scoped application.
 
 </td></tr><tr><td>
 
@@ -881,12 +965,12 @@ ITSM MCP Server
 
 -   ****
 
-ITSM MCP Server is available with activation of the following plugins:
+Activate these plugins to use ITSM MCP Server:
 
-    -   ServiceNow Otto for IT Service Management \(ITSM\) plugin \(sn\_itsm\_gen\_ai\)
+    -   Now Assist for ITSM plugin \(sn\_itsm\_gen\_ai\)
     -   Model Context Protocol Server \(sn\_mcp\_server\)
     -   ITSM MCP Server \(sn\_itsm\_mcp\_server\)
-For details, see .
+For details, see [Activate the ITSM MCP Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/set-up-itsm-mcp-server.md).
 
 
 </td></tr><tr><td>
@@ -1031,11 +1115,33 @@ Install Log Export Service by requesting it from the ServiceNow Store. Visit the
 
 </td></tr><tr><td>
 
+Lux
+
+</td><td>
+
+-   ****
+
+No activation is required. Lux is installed automatically on instances running Australia Patch 5 or later or Zurich Patch 12 or later.
+
+
+</td></tr><tr><td>
+
+Lux Lab
+
+</td><td>
+
+-   ****
+
+No activation is required. Lux is installed automatically on instances running Australia Patch 5 or later or Zurich Patch 12 or later.
+
+
+</td></tr><tr><td>
+
 MCP Server Console
 
 </td><td>
 
-MCP Server Console is available with activation of a Now Assist application. For more information, see [Installing Generative AI Controller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/installing-generative-ai-controller.md) and [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+MCP Server Console is available with activation of a Now Assist application. For more information, see [Installing Generative AI Controller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/installing-generative-ai-controller.md) and [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 
 **Note:** For patch compatibility, see the [Model Context Protocol Server listing](https://store.servicenow.com/store/app/6e521bf447713e9482f632c4f16d434e#versionSummary) in the ServiceNow Store.
 
@@ -1154,6 +1260,17 @@ Install Opportunity Management by requesting it from the ServiceNow Store. Visit
 
 </td></tr><tr><td>
 
+Order Management
+
+</td><td>
+
+-   ****
+
+Install Order Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+
+</td></tr><tr><td>
+
 Partner Relationship Management
 
 </td><td>
@@ -1169,9 +1286,36 @@ Performance Analytics
 
 </td><td>
 
+-   ****
+
 Complimentary Performance Analytics for Incident ManagementPerformance Analytics is active by default. You cannot create indicators or breakdowns with this complimentary application.
 
 The full features of Performance Analytics are available with a subscription. For details, see [Activating your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/c_PremiumPerformanceAnalytics.md).
+
+
+</td></tr><tr><td>
+
+Platform Analytics experience
+
+</td><td>
+
+-   ****
+
+Platform Analytics experience is enabled by default on upgrade to Brazil.
+
+
+</td></tr><tr><td>
+
+Playbooks
+
+</td><td>
+
+-   ****
+
+The Playbook application comes with the Workflow Studio ServiceNow® Store app. Workflow Studio is part of the ServiceNow AI Platform® and is available by default. Get the latest Workflow Studio features by downloading the latest Workflow Studio app in the ServiceNow® Store, as well as related applications like Process Automation Content and Process Automation Experience Demo. The Playbook application can be downloaded for patch fixes.
+
+To use playbook generation features in Workflow Studio, download the ServiceNow Otto for Creator application.
+
 
 </td></tr><tr><td>
 
@@ -1348,6 +1492,17 @@ Install the Retail applications by requesting them from the ServiceNow Store. Vi
 
 </td></tr><tr><td>
 
+Retail Strategic Portfolio Management Suite
+
+</td><td>
+
+-   ****
+
+The Retail Strategic Portfolio Management Suite application \(sn\_spm\_retail\) is available on the ServiceNow® Store. Install the application to activate it on your instance.
+
+
+</td></tr><tr><td>
+
 SPM Enterprise-Wide Deployment
 
 </td><td>
@@ -1377,6 +1532,17 @@ Sales CRM Mobile
 -   ****
 
 Sales CRM Mobile is available on the Now Agent application on mobiles. You can download the Now Agent application from the Apple App Store and Google Play. Sales CRM Mobile is enabled through the Sales CRM Mobile plugin \(`com.sn_sales_crm_mob`\).
+
+
+</td></tr><tr><td>
+
+Sales CRM for Telecommunications
+
+</td><td>
+
+-   ****
+
+Install Sales CRM for Telecommunications by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html). For activation details, see [Activate Sales CRM for Telecommunications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/activate-somt.md).
 
 
 </td></tr><tr><td>
@@ -1466,6 +1632,28 @@ Service Operations Workspace for ITSM is active by default and its default versi
 
 </td></tr><tr><td>
 
+Service Reliability Management
+
+</td><td>
+
+-   ****
+
+Install SRM or ITOM Mobile Agent by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+
+</td></tr><tr><td>
+
+Service Test Management
+
+</td><td>
+
+-   ****
+
+Install Service Test Management \(sn\_st\_mgmt\) by requesting it from the ServiceNow Store.
+
+
+</td></tr><tr><td>
+
 ServiceNow AI Platform core feature
 
 </td><td>
@@ -1473,6 +1661,8 @@ ServiceNow AI Platform core feature
 -   ****
 
 The ServiceNow AI Platform core features are active by default.
+
+To use Multi-Instance Setup, you must install it from the ServiceNow Store and activate the AMF Core plugin. For more information, see [Install Multi-Instance Setup and AMF Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/install-multi-instance-setup.md).
 
 
 </td></tr><tr><td>
@@ -1493,6 +1683,17 @@ ServiceNow Otto for Contract Management Pro
 </td><td>
 
 Install Contract Management Pro - Prime by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Hardware Asset Management \(HAM\)
+
+</td><td>
+
+-   ****
+
+Install ServiceNow Otto for Hardware Asset Management \(HAM\) by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
 
 </td></tr><tr><td>
 
@@ -1527,7 +1728,7 @@ ServiceNow Otto for Virtual Agent
 
 -   ****
 
-Virtual Agent is available with activation of the Glide Virtual Agent plugin \(com.glide.cs.chatbot\) if you have the admin role. For details, see [Activate Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/activate-virtual-agent.md). Once activated, you can install ServiceNow Otto for Virtual Agent by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Virtual Agent is available with activation of the Glide Virtual Agent plugin \(com.glide.cs.chatbot\) if you have the admin role. For details, see Activate Virtual Agent. Once activated, you can install ServiceNow Otto for Virtual Agent by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 </td></tr><tr><td>
@@ -1757,6 +1958,25 @@ Install Vulnerability Response and supported third-party integrations by request
 
 </td></tr><tr><td>
 
+Workforce Optimization for CSM
+
+</td><td>
+
+-   ****
+
+Install Workforce Optimization by requesting it from the ServiceNow Store. Visit the ServiceNow Store to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the ServiceNow Store version history release notes.
+
+
+</td></tr><tr><td>
+
+Zero Copy Connector for ERP
+
+</td><td>
+
+Install Zero Copy Connector for ERP by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+</td></tr><tr><td>
+
 Zero Copy Connectors
 
 </td><td>
@@ -1765,7 +1985,7 @@ Zero Copy Connectors
 
 Install Zero Copy Connector Hub by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
-Zero Copy Connector Hub is also available with activation of the Zero Copy Connectors app \(sn\_data\_fabric\_zcc\), which requires a separate subscription. For details, see [Request Zero Copy Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/request-zcc.md).
+Zero Copy Connector Hub is also available with activation of the Zero Copy Connectors app \(sn\_data\_fabric\_zcc\), which requires a separate subscription. For details, see .
 
 
 </td></tr><tr><td>

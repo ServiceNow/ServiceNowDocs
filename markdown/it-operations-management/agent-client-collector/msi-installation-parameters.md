@@ -1,6 +1,6 @@
 ---
 title: MSI installation parameters
-description: The following table describes the MSI parameters used when preparing an agent to be installed on a gold image and used with a Virtual Desktop Infrastructure \(VDI\) machine.
+description: The following table describes the MSI parameters used when preparing an agent for installation on a gold image and used with a non-persistent virtual desktop infrastructure \(NPVDI\) machine.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/agent-client-collector/msi-installation-parameters.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [ACC-F reference, Agent Client Collector reference, Agent Client Col
 
 # MSI installation parameters
 
-The following table describes the MSI parameters used when preparing an agent to be installed on a gold image and used with a Virtual Desktop Infrastructure \(VDI\) machine.
+The following table describes the MSI parameters used when preparing an agent for installation on a gold image and used with a non-persistent virtual desktop infrastructure \(NPVDI\) machine.
 
 <table id="table_lpn_byt_kkc"><thead><tr><th>
 

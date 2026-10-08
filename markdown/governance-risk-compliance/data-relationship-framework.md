@@ -1,6 +1,6 @@
 ---
 title: Data Relationships Framework
-description: The Data Relationships Framework application \(sn\_grc\_rel\_config\) supports the BCM application with the underlying framework to fetch dependencies in BIAs, plans, and events. It retrieves data from sources such as CMDB, BIA, and BCP. Beginning with the Brazil release, the Data Relationships Framework \(sn\_grc\_rel\_config\) application is installed with the BCM application by default.
+description: The Data Relationships Framework application \(sn\_grc\_rel\_config\) supports the BCM application with the underlying framework to fetch dependencies in BIAs, plans, and events. It retrieves data from sources such as CMDB, BIA, and BCP. The Data Relationships Framework \(sn\_grc\_rel\_config\) application is installed with the BCM application by default.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/data-relationship-framework.html
 release: brazil
@@ -12,7 +12,7 @@ breadcrumb: [Reference, Business Continuity Management, Governance, Risk, and Co
 
 # Data Relationships Framework
 
-The Data Relationships Framework application \(sn\_grc\_rel\_config\) supports the BCM application with the underlying framework to fetch dependencies in BIAs, plans, and events. It retrieves data from sources such as CMDB, BIA, and BCP. Beginning with the Brazil release, the Data Relationships Framework \(sn\_grc\_rel\_config\) application is installed with the BCM application by default.
+The Data Relationships Framework application \(sn\_grc\_rel\_config\) supports the BCM application with the underlying framework to fetch dependencies in BIAs, plans, and events. It retrieves data from sources such as CMDB, BIA, and BCP. The Data Relationships Framework \(sn\_grc\_rel\_config\) application is installed with the BCM application by default.
 
 \[Omitted video\] Description: An overview of the Data Relationships Framework.
 

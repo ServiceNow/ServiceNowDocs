@@ -1,6 +1,6 @@
 ---
 title: Activate Opportunity Management for Business Locations
-description: Activate the Opportunity Management for Business Location plugin to create and track opportunities across the lifecycle of the customer journey.
+description: Activate the Opportunity Management for Business Locations plugin to create and track opportunities across the lifecycle of the customer journey.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/activate-opportunity-management-for-business-locations.html
 release: brazil
@@ -12,7 +12,7 @@ breadcrumb: [Business location plugin, Activate plugins, Configure Service Model
 
 # Activate Opportunity Management for Business Locations
 
-Activate the Opportunity Management for Business Location plugin to create and track opportunities across the lifecycle of the customer journey.
+Activate the Opportunity Management for Business Locations plugin to create and track opportunities across the lifecycle of the customer journey.
 
 ## Before you begin
 

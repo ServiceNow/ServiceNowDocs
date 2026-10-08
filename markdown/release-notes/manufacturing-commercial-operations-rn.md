@@ -1,5 +1,5 @@
 ---
-title: Manufacturing Commercial Operations Manufacturing Commercial Operations
+title: Manufacturing Commercial Operations release notes
 description: The ServiceNow Manufacturing Commercial Operations application updates warranty and quality workflows across Product Quality Investigation, Non-Conformance, and Remediation Core.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/manufacturing-commercial-operations-rn.html
@@ -10,11 +10,23 @@ reading_time_minutes: 1
 breadcrumb: [Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
-# Manufacturing Commercial Operations Manufacturing Commercial Operations
+# Manufacturing Commercial Operations release notes
 
 The ServiceNow® Manufacturing Commercial Operations application updates warranty and quality workflows across Product Quality Investigation, Non-Conformance, and Remediation Core.
 
 ## What's new
+
+-   **Repair pre-authorization case lines on claim cases**
+
+    Claim cases list approved and partially approved pre-authorization cases created for the selected repair. Selecting a pre-authorization automatically populates the causal parts and miscellaneous details.
+
+-   **Automatic repair claim charge validation**
+
+    Ensures repair claim charges conform with pre-authorization limits.
+
+-   **Schedule a quality review meeting**
+
+    Schedule a quality review meeting to coordinate follow-up actions with stakeholders. The discussion, summary, and decision history remain attached to the issue for team reference.
 
 -   **Resolve a product non-conformance case playbook**
     -   Import impacted assets in bulk using an XLST file instead of adding them one at a time directly from the Product Quality Investigation \(PQI\) or Non-Conformance \(NC\) workspace. Reduce manual data entry when a single issue affects multiple assets.

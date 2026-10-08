@@ -9,7 +9,7 @@ classification: servicenow-studio-classic
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configure, ServiceNow Studio, Developing your application, Building applications]
+breadcrumb: [Configure, ServiceNow Studio, Build, AI Workflow Factory, Building applications]
 ---
 
 # Link an app to source control in ServiceNow Studio
@@ -28,7 +28,7 @@ Link an application or application customization to a Git repository in ServiceN
 
 ## About this task
 
-Source control integration does not support linking to an application or customization on a production instance. To install applications on a production instance, use the application repository, an update set, or ServiceNow Studio.
+You cannot link an application or customization to source control on a production instance. To install applications on a production instance, use the application repository, an update set, or ServiceNow Studio.
 
 ## Procedure
 
@@ -74,7 +74,7 @@ Branch
 
 </td><td>
 
-The repository branch to use for commits. The default branch is set to "main" if it is not already set in the remote repository. If there is no default branch in the remote Git repository, the instance creates a new default branch named "main". Configure this using the `glide.source_control.git_default_branch` system property.
+The repository branch to use for commits. The default branch is set to "main" if it is not already set in the remote repository. If there is no default branch in the remote Git repository, the instance creates a new default branch named "main". Configure this using the **glide.source\_control.git\_default\_branch** system property.
 
 </td></tr><tr><td>
 
@@ -92,7 +92,7 @@ Default email
 
 </td><td>
 
-The committer email address is taken from the sys\_user record when available. If a committer's sys\_user record email field is empty, the ServiceNow AI Platform generates an alternate email address \(username@instancename.service-now.com\). Enter a default email address to use when no sys\_user email is available.To use the default email address in all cases, select the check box.
+The committer email address is taken from the sys\_user record when available. If a committer's sys\_user record email field is empty, the ServiceNow AI Platform generates an alternate email address \(`username@instancename.service-now.com`\). Enter a default email address to use when no sys\_user email is available.To use the default email address in all cases, select the check box.
 
 </td></tr><tr><td>
 

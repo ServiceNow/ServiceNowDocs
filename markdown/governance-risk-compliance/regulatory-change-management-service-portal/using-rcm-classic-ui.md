@@ -7,7 +7,7 @@ release: brazil
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: concept
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [Use, Regulatory Change Management, Governance, Risk, and Compliance]
 ---
@@ -16,7 +16,14 @@ breadcrumb: [Use, Regulatory Change Management, Governance, Risk, and Compliance
 
 The ServiceNow® Regulatory Change Management application enables you to check upcoming regulatory changes, assess their impact, and implement risk and compliance-related changes. The application ensures overall regulatory compliance.
 
-Use the features and capabilities of the Regulatory Change Management application user interface such as setting up regulatory alerts, performing impact assessment, creating regulatory change tasks, creating action plan, managing action tasks, and closing of the regulatory change tasks to manage the regulatory changes across your organization.
+Use the Regulatory Change Management application to manage regulatory changes across your organization. The application supports the following capabilities:
+
+-   Setting up regulatory alerts
+-   Performing impact assessments
+-   Creating regulatory change tasks
+-   Creating action plans
+-   Managing action tasks
+-   Closing regulatory change tasks
 
 -   **[Regulatory alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/regulatory-feeds.md)**  
 Regulatory alerts are an aggregation of different regulatory events and documents that are sourced from multiple regulatory intelligence providers. Similar to web feeds, a regulatory alert is a record of these regulatory changes. Such changes are frequently updated, and the alerts help you stay informed about the regulatory landscape.

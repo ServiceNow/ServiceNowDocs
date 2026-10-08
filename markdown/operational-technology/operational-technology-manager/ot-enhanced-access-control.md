@@ -63,7 +63,7 @@ OT Editor \[cmdb\_ot\_editor\]
 
 </td><td>
 
-Create, read, update, and delete access for [Operation Technology \(OT\) extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/cmdb-ci-class-models-operation-technology.md).**Note:** Users assigned the **cmdb\_ot\_editor** role can edit and delete only OT configuration items \(CIs\) and can't edit IT CIs.
+Create, read, update, and delete access for Operation Technology \(OT\) extension classes.**Note:** Users assigned the **cmdb\_ot\_editor** role can edit and delete only OT configuration items \(CIs\) and can't edit IT CIs.
 
 </td></tr></tbody>
 </table>There are also restrictions on OT users who can edit or delete IT configuration items \(CIs\). Users assigned the **cmdb\_ot\_editor** role, or the **cmdb\_ot\_admin** role can't edit or delete IT CIs in the following related lists:
@@ -108,7 +108,11 @@ cmdb\_ot\_editor
 To edit OT devices, users with the **cmdb\_ot\_editor** role should be assigned Can Edit access for the site, or sites they belong to.For example, if you're assigned the **cmdb\_ot\_editor** role but only have Can Read access to the Atlanta site, you can only view the devices associated with Atlanta. If you're assigned the **cmdb\_ot\_editor** role and have Can Edit access to the San Diego site, you can edit or delete the devices associated with San Diego.
 
 </td></tr></tbody>
-</table>**Important:**
+</table>## Granular ACL extends access
+
+Site-based access controls access at the site level. Granular access control extends permissions to individual Equipment Model Entities \(EMEs\) within a site — such as plants, lines, areas, and cost centers. Use granular access control to scope access to the exact ISA 95 hierarchy nodes for which each user or group is responsible.
+
+**Important:**
 
 New records can't be created directly on the `isa_entity_user_criteria_access` table through the UI or any insert path. Existing records on this table remain readable and can be updated per the applicable ACL.
 

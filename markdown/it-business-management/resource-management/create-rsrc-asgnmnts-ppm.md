@@ -18,7 +18,7 @@ Create resource assignments to request a portion of team or resource capacity fo
 
 ## Before you begin
 
--   [Migrate resource plans and cost plans for projects and demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/migrate-rsrc-plan-rsrc-asgnmnt.md)
+-   [Migrate resource plans and cost plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/migrate-rsrc-plan-rsrc-asgnmnt.md)
 -   Set the resource planning property to true to create work with only resource assignments. For more information, see [Enable attribute-based resource assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/enable-resource-assignments.md).
 -   Role required: resource\_user, resource\_manager, it\_project\_manager, demand\_manager, admin
 

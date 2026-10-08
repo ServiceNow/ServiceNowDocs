@@ -24,8 +24,6 @@ AI Admin Center is installed with these roles.
 
 [Domain separation and AI Admin Center]()
 
-[AI Admin Center glossary]()
-
 ## AI Admin Center admin \[sn\_na\_center.nac\_admin\]
 
 Use the AI Admin Center workspace to access and set up Now Assist solutions, perform administrative tasks, and monitor performance. This role has full access to the AI Admin Center application, and can access AI Admin Center tables.

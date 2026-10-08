@@ -8,7 +8,7 @@ product: Goal Framework
 classification: goal-framework
 topic_type: reference
 last_updated: "2026-09-10"
-reading_time_minutes: 7
+reading_time_minutes: 9
 breadcrumb: [Reference, Goal Framework and Goal Framework for SPM, Strategic Portfolio Management]
 ---
 
@@ -29,6 +29,14 @@ Field
 Description
 
 </th></tr></thead><tbody><tr><td>
+
+Number
+
+</td><td>
+
+Unique identifier of the target. The number is generated automatically, for example, TRGT0005678. An administrator can change the prefix. For more information, see [Change the number prefix for goals and targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/goal-framework/change-number-prefix-goals-targets.md).
+
+</td></tr><tr><td>
 
 Name
 
@@ -85,6 +93,8 @@ Progress = (Actual value - Base value) / (Target value - Base value) x 100
  ```
 Progress = (Base value - Actual value) / (Base value - Target value) x 100
 ```
+
+ If the **Type** field is set to **Maintain above**, **Maintain below**, or **Maintain constant**, the progress is 100% or 0% for a target without target breakdowns, based on whether the actual value meets the final target value. For a target with target breakdowns, the progress is the percentage of target breakdown periods in which the target is met. For more information, see [Target types and achievement strategies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/goal-framework/target-types-gf.md).
 
  For more information on how the progress value is calculated when weight scale is defined, see [progress value calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/goal-framework/progress-value-calculation.md).
 
@@ -167,9 +177,14 @@ Type
 
 Target type that signifies the direction of achievement.-   **Maximize**: The direction of the progress is toward the target value from the base value where the base value must be less than the target value.
 -   **Minimize**: The direction of the progress is toward the target value from the base value where the target value must be less than the base value.
+-   **Maintain above**: The actual value must stay at or above the final target value in each period.
+-   **Maintain below**: The actual value must stay at or below the final target value in each period.
+-   **Maintain constant**: The actual value must stay within a tolerance band around the final target value in each period.
 -   **Milestone**: Fixed type. Only the qualitative target values are allowed \(that are set in the **Unit of measure** field for the target\) to capture the achievement of the target. The **Milestone** option is applicable only for qualitative targets.
 
-The **Type** field becomes read-only with the value populated as **Milestone** for qualitative targets \(when the **Unit of measure** field is set to a qualitative target value\).
+The **Type** and **Unit of measure** fields stay in sync. When you select **Milestone**, the **Unit of measure** field is set to a qualitative unit of measure, **Yes/No** by default. When you select any other type, the **Unit of measure** field is set to the last quantitative unit of measure used for the target, or to **Count\(\#\)** if none was used.
+
+ You can change the type of a target that already has actual values. A confirmation message appears before the change is applied. When you change between two Maintain types, the actual value is kept. When you change between **Maximize**, **Minimize**, and a Maintain type, the actual value and progress of the target are cleared, and any target breakdowns are regenerated. When you change to **Milestone**, any target breakdowns are deleted.
 
 </td></tr><tr><td>
 
@@ -187,7 +202,7 @@ Final target value
 
 </td><td>
 
-Final target value of the target. The target value should be aspirational and should challenge the teams.This field is available when the **Type** field is set to **Maximize** or **Minimize**.
+Final target value of the target. The target value should be aspirational and should challenge the teams.This field is available when the **Type** field is set to **Maximize**, **Minimize**, **Maintain above**, **Maintain below**, or **Maintain constant**.
 
 </td></tr><tr><td>
 
@@ -203,7 +218,7 @@ Actuals to date
 
 </td><td>
 
-Actual value of the target at a given time.This field is available when the **Type** field is set to **Maximize** or **Minimize**.
+Actual value of the target at a given time.This field is available when the **Type** field is set to **Maximize**, **Minimize**, **Maintain above**, **Maintain below**, or **Maintain constant**. For a Maintain type target with target breakdowns, this value is the actual value of the latest target breakdown that has an actual value.
 
 </td></tr><tr><td>
 
@@ -220,6 +235,8 @@ Target value distribution
 </td><td>
 
 Option to specify the target to be calculated cumulatively or non-cumulatively. The available options are **Split equally across the time period \(non-cumulative\)** and **Spread linearly across the time period \(cumulative\)**.This field is available only when the **Check-in frequency** field is set to any of the available options other than **None**.
+
+This field is hidden and cleared when the **Type** field is set to **Milestone**, **Maintain above**, **Maintain below**, or **Maintain constant**.
 
 </td></tr><tr><td>
 

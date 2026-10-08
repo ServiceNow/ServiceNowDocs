@@ -43,7 +43,7 @@ In Certificate discovery, the CA pattern uses specific API elements. The user ad
         |Field|Description|
         |-----|-----------|
         |Name|Descriptive name for the credential.|
-        |Credential alias|Create or add a credential alias for the credential. For more information, see [Credential aliases for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/discovery-credential-alias.md).|
+        |Credential alias|Create or add a credential alias for the credential. The alias must be assigned to the corresponding credential record for the association to let Discovery scan the CA and allow automated certificate requests authenticate to it. For more information, see [Credential aliases for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/discovery-credential-alias.md).|
         |API Key|API key generated from the CA for DigiCert, GoDaddy, and CyberArk Certificate Manager SaaS CA types.|
         |Secret Key|API secret key generated from GoDaddy CA.|
         |User name|User name associated with this credential for Entrust,|

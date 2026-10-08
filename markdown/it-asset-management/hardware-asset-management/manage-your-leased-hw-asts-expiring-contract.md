@@ -100,6 +100,8 @@ Extend your lease contract before the contract expires and avoid paying a penalt
 
 [Donate assets to charity organizations]()
 
+[Calculate the active lifecycle phase for a model]()
+
 [Manage asset bundles from your inventory]()
 
 [Manage obligations in the Hardware Asset Workspace]()

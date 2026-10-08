@@ -23,8 +23,8 @@ The following example shows the Settings page with four available plugins to ins
 
 \[Omitted image "config-now-assist-1.png"\] Alt text: Now Assist settings page that lets you install plugins, activate the Now Assist panel, and view account details.
 
--   **[Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/install-now-assist-feature-plugins.md)**  
-Install Now Assist plugins to enable generative AI on your instance.
+-   **[Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/install-now-assist-feature-plugins.md)**  
+Install plugins for ServiceNow Otto to enable generative AI on your instance.
 -   **[Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/activate-now-assist-panel.md)**  
 Activate the ServiceNow Otto panel standard chat to enable your agents to use AI skills, such as task summarization or navigation, in a side panel on the user interface.
 -   **[Activate ServiceNow Otto panel enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-panel-enhanced-activate.md)**  

@@ -9,6 +9,7 @@ classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 9
+keywords: [outbound intelligence sharing, TI Library, share intelligence records]
 breadcrumb: [Administer, Threat Intelligence Security Center, Security Operations]
 ---
 

@@ -49,9 +49,7 @@ A new Doc is created for the current Space, and an untitled page is opened for y
 
 ## What to do next
 
-Utilize the rich-text formatting options of the Doc to draft information relevant for your team or type **/** to explore other options.
-
-**Note:** To reference ServiceNow AI Platform records other than CWM tasks, work with your admin to update the **sn\_cwm.record\_mention\_config** system property. For more information, see .
+Use the rich-text formatting options of the Doc to draft information relevant for your team or type **/** to explore other options.
 
 **Parent Topic:**[Collaborative documentation using CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/collaborative-work-management/cwm-docs.md)
 

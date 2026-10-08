@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/telecom-media-technology/sales-crm.html
 release: brazil
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-10-05"
 reading_time_minutes: 1
 breadcrumb: [Telecommunications, Media, and Technology \(TMT\)]
 ---
@@ -13,6 +13,10 @@ breadcrumb: [Telecommunications, Media, and Technology \(TMT\)]
 # Sales Customer Relationship Management for Telecommunications
 
 The ServiceNow® Sales CRM for Telecommunications enables to unify your sales, fulfillment, and service operations on one platform.
+
+## Get started
+
+By unifying sales, fulfillment, and service operations on one platform, Sales CRM for Telecommunications helps you accelerate deal conversion, automate order orchestration, and deliver consistent customer experiences. It also fosters seamless collaboration between sales, fulfillment, and service teams, all within the unified ServiceNow AI Platform.
 
 <table id="table_b4t_hhl_nnb" class="nav-card"><tbody><tr><td>
 
@@ -28,11 +32,12 @@ The ServiceNow® Sales CRM for Telecommunications enables to unify your sales, f
 
 </td><td>
 
- 
+[Automate\[Omitted image "bus-artificial-intelligence.svg"\] Alt text:Automate order enrichment and fulfillment task suggestions with AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/ai-in-sales-crm-for-telecommunications.md)
 
 </td></tr></tbody>
 </table>## Additional resources
 
+-   Learn more about what's new and changed, see the [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/sales-customer-relationship-management-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/sales-customer-relationship-management-rn.md).
 -   Review the multiple TM Forum \(TMF\) Open APIs supported for the product, see [TMF APIs for TMT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/tmt-api-reference.md).
 -   Log in to your ServiceNow® account and find additional information about implementing and deploying Sales CRM for Telecommunications features at the [Best Practices Library](https://mynow.servicenow.com/now/best-practices/home).
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp?id=learning_course_prev&course_id=ff08c50d9389361056aeb94c5cba10ae&s=1&ssa=3).

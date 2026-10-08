@@ -1,6 +1,6 @@
 ---
 title: Install AI Risk and Compliance
-description: You can install the AI Risk and Compliance application \(sn\_grc\_ai\_gov\) if you have the admin role. The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
+description: Install the AI Risk and Compliance application \(sn\_grc\_ai\_gov\) if you have the admin role. The application includes demo data and related dependencies.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/ai-risk-management/install-ai-risk-and-compliance.html
 release: brazil
@@ -8,18 +8,18 @@ product: AI Risk Management
 classification: ai-risk-management
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 4
-breadcrumb: [AI Risk and Compliance, Governance, Risk, and Compliance]
+reading_time_minutes: 5
+breadcrumb: [Configure, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
 
 # Install AI Risk and Compliance
 
-You can install the AI Risk and Compliance application \(`sn_grc_ai_gov`\) if you have the admin role. The application includes demo data and installs related ServiceNow® Store applications and plugins if they are not already installed.
+Install the AI Risk and Compliance application \(`sn_grc_ai_gov`\) if you have the admin role. The application includes demo data and related dependencies.
 
 ## Before you begin
 
 -   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
--   Review the AI Risk and Compliance application listing in the ServiceNow Store for information on dependencies, and release compatibility.
+-   Review the AI Risk and Compliance application listing in the ServiceNow Store for information about dependencies and release compatibility.
 -   Check your entitlements to determine whether you have access to AI Risk and Compliance.
 
 Role required: admin
@@ -27,6 +27,10 @@ Role required: admin
 ## About this task
 
 Some AI Risk and Compliance capabilities are available only when specific plugins are installed. Review the following requirements for your deployment:
+
+**Note:**
+
+For a complete list of all AI Risk and Compliance system requirements and plugin dependencies, see [Components installed with AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-installed-with.md). If upgrading these applications together, see [Enterprise Architecture for AICT plugin installation and upgrade considerations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-ea-common-upgrade-considerations.md).
 
 -   AI Risk and Compliance Integration with AI Control Tower \(soft dependency\)
 
@@ -49,17 +53,23 @@ Some AI Risk and Compliance capabilities are available only when specific plugin
     -   AI Control Tower with Now Assist supports governance of ServiceNow AI assets only.
 -   AI intake request forms requirement
 
-    When AI Control Tower Core \(sn\_ai\_governance\) is used with AI Risk and Compliance in a new IRM deployment, the IRM Standard \(sn\_irm\_std\) plugin is required to enable AI intake request forms. These forms allow users to submit requests through the Employee Portal for registering AI systems, AI models, and datasets for governance and risk evaluation.
+    When AI Control Tower Core \(sn\_ai\_governance\) is used with AI Risk and Compliance in a new IRM deployment, the IRM Standard \(sn\_irm\_std\) plugin is required to enable AI intake request forms. With these forms, users can submit requests through the Employee Portal for registering AI systems, AI models, and datasets for governance and risk evaluation.
 
-    This requirement applies only to AI intake request forms. It does not apply to AI cases, inquiries, or the Anonymous Reporting Center. For information on applicable requests, see , , and .
+    This requirement applies only to AI intake request forms. It does not apply to AI cases, inquiries, or the Anonymous Reporting Center. For information about applicable requests, see [Request an AI use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/request-ai-system.md), [Request an AI model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/request-ai-model.md), and [Request a dataset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/request-dataset.md).
 
+-   Enterprise Architecture for AICT plugin \(upgrade order\)
+
+    The Enterprise Architecture for AICT plugin \(`com.sn_ea_aict`\) decouples the AI system-to-business-application association from EA Workspace. If AI Risk and Compliance, EA Workspace, and AI Control Tower Core are upgraded out of sync, business application associations may be affected. For more information, see [Enterprise Architecture for AICT plugin installation and upgrade considerations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-ea-common-upgrade-considerations.md).
+
+
+**Note:**
 
 -   For the complete list of dependencies, see the AI Risk and Compliance listing in the ServiceNow Store.
 
--   For more information on AI Control Tower, see [Activation and installation of AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/activation-and-installation-of-ai-control-tower.md) for complete setup and plugin dependency guidance.
+-   For more information about AI Control Tower, see [Activation and installation of AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/activation-and-installation-of-ai-control-tower.md) for complete setup and plugin dependency guidance.
 
--   For more information on roles, see [Roles and responsibilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/roles-installed-with-ai-risk-and-compliance.md).
--   For more information on tables, see [System tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/tables-installed-with-ai-risk-and-compliance.md).
+-   For more information about roles, see [Roles and responsibilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/roles-installed-with-ai-risk-and-compliance.md).
+-   For more information about tables, see [System tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/tables-installed-with-ai-risk-and-compliance.md).
 
 ## Procedure
 
@@ -92,7 +102,7 @@ The AI Risk and Compliance application is installed and ready to configure on yo
 
 Install the AI Risk and Compliance content application to add predefined governance content to your instance, including control objectives, risk statements, and assessment templates. For more information, see [Install AI Risk and Compliance content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/install-ai-risk-content-pack.md).
 
-You can also configure the workspace and system properties to customize your governance setup. For more information, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/configuring-ai-risk-and-compliance.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/configuring-ai-risk-and-compliance.md).
+You can also configure the workspace and system properties to customize your governance setup. For more information, see [Configuring AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/configuring-ai-risk-and-compliance.md).
 
 **Related topics**  
 
@@ -101,7 +111,9 @@ You can also configure the workspace and system properties to customize your gov
 
 [Configure AI Risk and Compliance Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/configure-airc-workspace.md)
 
-[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/configuring-ai-risk-and-compliance.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/configuring-ai-risk-and-compliance.md)
+[Configuring AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/configuring-ai-risk-and-compliance.md)
 
 [Roles and responsibilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/roles-installed-with-ai-risk-and-compliance.md)
+
+[Enterprise Architecture for AICT plugin installation and upgrade considerations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-ea-common-upgrade-considerations.md)
 

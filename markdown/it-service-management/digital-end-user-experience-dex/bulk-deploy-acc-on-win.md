@@ -72,10 +72,7 @@ Complete the required fields as shown in the following procedure.1.  Name your a
 3.  Enter ServiceNow for **Publisher**.
 4.  Paste the command that you copied earlier into **Command-line arguments** and remove content before `/quiet`.
 5.  In the command string `/quiet /qn /norestart CONNECT_WITHOUT_MID="true" ACC_CNC="*ACC\_CNC*" REGISTRATION_KEY="*REGISTRATION KEY*" INSTANCE_URL="*INSTANCE URL*" LOCALUSERNAME="*local user name*"`, confirm or enter the variable parameters as follows:
-    -   ACC\_CNC: one of the following gateway URLs, based on your location:
-        -   AMER \(Americas\): `itomcnc-prod-gateway-amer.sncapps.service-now.com:443`
-        -   EMEA \(Europe\): `itomcnc-prod-gateway-emea.sncapps.service-now.com:443`
-        -   APAC \(Asia Pacific\): `itomcnc-prod-gateway-apac.sncapps.service-now.com:443`
+    -   ACC\_CNC: gateway URL for your region
     -   REGISTRATION KEY: ACC registration key
     -   INSTANCE\_URL: URL that contains your ServiceNow instance name
     -   LOCALUSERNAME: `SYSTEM`

@@ -34,6 +34,7 @@ Primary connectors are developed, made available, and supported by ServiceNow.
 |[PostgreSQL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/postgresql-zcc.md)|Starting with Australia patch 6|
 |[Acumatica](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/acumatica-zcc.md)|Starting with Australia patch 6|
 |[Oracle HCM \(Discovery\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/oracle-hcm-discovery-zcc.md)|Starting with Australia patch 6|
+|[Microsoft SQL Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/sqlserver-zcc.md)|Starting with Australia patch 6|
 
 For additional information on data types and authentication methods that aren't supported with primary connectors, see [KBB0010487](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KBB0010487).
 

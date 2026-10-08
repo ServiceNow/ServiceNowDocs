@@ -1,6 +1,6 @@
 ---
 title: Security incident resolution AI agent
-description: This Operational Technology Security Incident Response agent walks the user through resolving a security incident by generating and executing a resolution plan.
+description: This Security Incident Response agent walks the user through resolving a security incident by generating and executing a resolution plan.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/sir-security-incident-resolution-ai-agent.html
 release: brazil
@@ -12,7 +12,7 @@ breadcrumb: [Security Incident Response AI agents, Security Incident Response, A
 
 # Security incident resolution AI agent
 
-This Operational Technology Security Incident Response agent walks the user through resolving a security incident by generating and executing a resolution plan.
+This Security Incident Response agent walks the user through resolving a security incident by generating and executing a resolution plan.
 
 ## Workflow
 
@@ -106,7 +106,7 @@ Used in agentic workflows
 Resolve security incident
 
 </td></tr></tbody>
-</table>Learn more about Operational Technology Security Incident Response at .
+</table>Learn more about Security Incident Response at .
 
 **Parent Topic:**[Security Incident Response AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/sir-ai-agents-overview.md)
 

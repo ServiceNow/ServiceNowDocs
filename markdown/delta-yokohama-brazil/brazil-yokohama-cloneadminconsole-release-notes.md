@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-brazil/brazil-yokohama-cloneadminconsole-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 9
+last_updated: "2026-10-08"
+reading_time_minutes: 10
 breadcrumb: [Products combined by family]
 ---
 
@@ -433,7 +433,10 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **Activation information**
+
+Clone Admin Console is a ServiceNow AI Platform feature that is active by default. No additional plugin activation is required to use core clone functionality.
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -478,7 +481,11 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **Additional requirements**
+    -   The `clone_admin` role is required to request, cancel, or schedule clones.
+    -   OAuth-based clone target authentication requires Australia Patch 5 or later on both the source and target instances. The `oauth_admin` role is required on the target instance during initial OAuth setup only. See [OAuth 2.0 authentication for clone targets](https://www.servicenow.com/docs/access?context=clone-oauth-authentication&family=brazil&ft:locale=en-US).
+    -   A Now Assist license is required to use the Clone FAQ Agent. If Now Assist is installed after the Clone Admin Console, reinstall the console from the Store to enable the skill.
+    -   Both the source and target instances must be on Australia Patch 5 or later to use Multi-Instance View.
 
 </td></tr></tbody>
 </table>## Browser requirements
@@ -667,7 +674,13 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   Copies data and metadata from a source instance to a target instance to keep sub-production environments synchronized with production.
+-   Provides a single console to configure, request, and monitor clones across your environment.
+-   Supports OAuth 2.0 authentication for clone targets, removing the need for local admin credentials on every clone request.
+-   Consolidates clone activity across multiple linked instances through Multi-Instance View.
+-   Offers AI-assisted answers to clone questions in the console through the Clone FAQ Agent, powered by Now Assist.
+
+ See [Instance Clone](https://www.servicenow.com/docs/access?context=instance-clone-landing&family=brazil&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/rn-combined-intro.md)

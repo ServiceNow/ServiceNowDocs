@@ -29,15 +29,15 @@ Role required: snc\_internal
 
 2.  Open a demand from **My Demands** or **Requests**.
 
-<table id="choicetable_dx3_nxp_jkc"><thead><tr><th align="left" id="d149631e108">
+<table id="choicetable_dx3_nxp_jkc"><thead><tr><th align="left" id="d153220e108">
 
 Goal
 
-</th><th align="left" id="d149631e111">
+</th><th align="left" id="d153220e111">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d149631e117">
+</th></tr></thead><tbody><tr><td id="d153220e117">
 
 **From My Demands**
 
@@ -49,7 +49,7 @@ Action
     2.  Select a demand from the list.
 
 
-</td></tr><tr><td id="d149631e143">
+</td></tr><tr><td id="d153220e143">
 
 **From Requests**
 
@@ -66,7 +66,7 @@ Action
 
 4.  Update the fields.
 
-    For information on the field values, see [Demand form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/demand-form-dw.md).
+    For information on the field values, see [Demand details form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/demand-form-dw.md).
 
 5.  Select **Save**.
 

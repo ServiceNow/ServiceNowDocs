@@ -9,7 +9,7 @@ classification: servicenow-studio-classic
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Collaborating on apps, Configure, ServiceNow Studio, Developing your application, Building applications]
+breadcrumb: [Collaborating on apps, Configure, ServiceNow Studio, Build, AI Workflow Factory, Building applications]
 ---
 
 # View collaborators on an app in ServiceNow Studio

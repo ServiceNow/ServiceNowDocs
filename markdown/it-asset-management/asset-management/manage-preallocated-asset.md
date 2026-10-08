@@ -23,7 +23,7 @@ Assets can be allocated from pre-allocated asset records, which creates new asse
 -   **[Split a pre-allocated asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-management/t_SplittingAPreAllocatedAsset.md)**  
 You can split a pre-allocated asset to create a group that can be moved to a different stockroom.
 
-**Parent Topic:**[Using Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-management/using-asset-management.md)
+**Parent Topic:**[Using Base Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-management/using-asset-management.md)
 
 **Related topics**  
 

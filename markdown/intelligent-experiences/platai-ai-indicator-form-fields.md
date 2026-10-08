@@ -1,5 +1,5 @@
 ---
-title: AI indicator on form fields
+title: AI indicators on form fields
 description: The AI indicator is a badge that identifies form fields containing content generated or updated by an AI agent in Core UI and configurable workspaces.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/platai-ai-indicator-form-fields.html
@@ -10,11 +10,11 @@ reading_time_minutes: 2
 breadcrumb: [Creating AI user experiences, Enable AI Experiences]
 ---
 
-# AI indicator on form fields
+# AI indicators on form fields
 
 The AI indicator is a badge that identifies form fields containing content generated or updated by an AI agent in Core UI and configurable workspaces.
 
-AI indicators help distinguish AI-generated updates from human edits on a record. When an AI agent updates a field, an AI indicator appears next to the field label. Selecting the indicator opens a popover that displays a brief message. When a record contains one or more AI-updated fields, a record-level alert is displayed as a reminder to review AI-generated content before using or acting on it.
+AI indicators help distinguish AI-generated updates from human edits on a record. When an AI agent updates a field, an AI indicator appears next to the field label. Selecting the indicator opens a popover that displays a brief message. When a record contains one or more AI-updated fields, a record-level alert appears as a reminder to review AI-generated content before using or acting on it. AI-generated content may be inaccurate.
 
 **Note:** The popover and alert messages aren't configurable.
 
@@ -23,7 +23,7 @@ AI indicators help distinguish AI-generated updates from human edits on a record
 AI indicators appear:
 
 -   When you open a record that contains one or more fields updated by an AI agent.
--   When an AI workflow updates a field while the record is open, a live update notification appears.
+-   When an AI workflow updates a field while the record is open.
 
 AI indicators clear:
 
@@ -34,14 +34,14 @@ AI indicators reappear when the field value is restored to the AI-generated valu
 
 ## Configuration and AI activity tracking
 
-AI indicators are included in the AI Field Activity \(com.glide.ai\_field\_activity\) plugin, which is installed with the Generative AI Controller \(sn.generative.ai\) plugin. No additional configuration is required.
+AI indicators are included in the AI Field Activity \(com.glide.ai\_field\_activity\) plugin, which is activated with the Generative AI Controller \(sn.generative.ai\) plugin. No additional configuration is required.
 
 -   Information about AI-generated activity is stored in the sys\_ai\_record\_activity table.
 -   This tracking data distinguishes AI-generated updates from manual edits, enables the display of AI indicators on form fields, and supports auditing, compliance, and AI governance.
 -   AI indicator activity records are retained for 365 days by default unless the associated AI indicator is cleared when the field value is manually modified.
 -   Admins can modify this retention period by configuring sys\_auto\_flush for the sys\_ai\_record\_activity table.
 
-AI tracking is enabled for all tables except the following:
+AI tracking applies to all tables except the following:
 
 -   Tables with the prefixes:
     -   sys\_

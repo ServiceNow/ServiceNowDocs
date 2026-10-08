@@ -1,12 +1,12 @@
 ---
 title: Product Catalog Management release notes
-description: The ServiceNow Product Catalog Management application helps your organization manage product offerings by grouping them into catalogs and categories, which streamlines the ordering process for leads, opportunities, quotes, and orders. See the following sections for release notes by version.Validate catalog changes before publishing, control when a published offering becomes available on each sales channel. Add optional characteristics and child offerings to published records without creating new versions. Generate multilingual catalog configurations automatically and set a custom display order for catalogs and categories.
+description: The ServiceNow Product Catalog Management application helps your organization manage product offerings by grouping them into catalogs and categories, which streamlines the ordering process for leads, opportunities, quotes, and orders. See the following sections for release notes by version.Retrieve smaller, more targeted responses from the Product Catalog Search REST API. Limit the catalog hierarchy to a single catalog and request only the product details you need.Validate catalog changes before publishing, control when a published offering becomes available on each sales channel. Add optional characteristics and child offerings to published records without creating new versions. Generate multilingual catalog configurations automatically and set a custom display order for catalogs and categories.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/product-catalog-management-rn.html
 release: brazil
 topic_type: topic
 last_updated: "2026-09-10"
-reading_time_minutes: 4
+reading_time_minutes: 6
 breadcrumb: [Sales Customer Relationship Management release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
@@ -40,7 +40,28 @@ See [Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/Se
 
 **Parent Topic:**[Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/sales-order-management-rn-landing.md)
 
-## Brazil Early Availability
+## October 2026
+
+Retrieve smaller, more targeted responses from the Product Catalog Search REST API. Limit the catalog hierarchy to a single catalog and request only the product details you need.
+
+### What's changed
+
+-   **Catalog filtering for the eligible catalog-category hierarchy**
+
+    Retrieve only the catalog you need when loading the eligible catalog-category hierarchy. Previously, the response included the complete hierarchy for all eligible catalogs, even when a catalog was specified in the **selectedCatalog** parameter. Now, when you specify a catalog, the response includes only that catalog and its category hierarchy. The default value, `allCatalog`, still returns the complete hierarchy.
+
+-   **Optional product details in catalog search results**
+
+    Reduce response size and processing time by requesting only the product details your integration needs.
+
+    -   Previously, the search response didn't include product offering characteristics or categories. Now, you can include the **additionalFields** object in the request to return the product offering family, characteristics, and categories, for example, `"additionalFields": {"family": true, "characteristics": true, "categories": true}`. These fields aren't returned unless you request them.
+    -   Previously, the search response included the **productOfferingFamily** object by default \(added in the September 2026 release\). Now, it's returned only when you set **family** to `true` in the **additionalFields** object. If your integration reads the product offering family from the search response, update your requests to include it.
+-   **[Improved search result ranking in the product catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/reindex-product-offering-search.md)**
+
+    Reindex the product catalog to help agents and customers find the exact product offering they're looking for, even when several similar offerings are indexed. Previously, a product offering could rank lower in search results than other offerings that only referenced it, such as a bundle that included it. Now, admins can reindex the product catalog so that the offering that most closely matches a search term ranks highest.
+
+
+## Brazil Early Availability \(September 2026\)
 
 Validate catalog changes before publishing, control when a published offering becomes available on each sales channel. Add optional characteristics and child offerings to published records without creating new versions. Generate multilingual catalog configurations automatically and set a custom display order for catalogs and categories.
 
@@ -91,4 +112,8 @@ Validate catalog changes before publishing, control when a published offering be
     -   Effective from column has been added to the Product Offering Relationship \[sn\_prd\_pm\_product\_offering\_relationship\] and Specification Relationship \[sn\_prd\_pm\_specification\_relationship\] tables.
     -   Order column has been added to the Catalog Category \[sn\_prd\_pm\_catalog\_category\_relationship\] and Product Offering Catalog \[sn\_prd\_pm\_product\_offering\_catalog\] tables.
     -   Display Order column has been added to the Product Offering \[sn\_prd\_pm\_product\_offering\] table
+-   **Product offering family in catalog search results**
+
+    Identify the product offering family of each search result without a separate lookup. Previously, the catalog search REST API response didn't include the product offering family. Now, the response returns the **productOfferingFamily** object for each product offering, whether or not AI Search is turned on.
+
 

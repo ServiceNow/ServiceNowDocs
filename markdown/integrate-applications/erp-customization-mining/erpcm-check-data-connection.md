@@ -9,7 +9,7 @@ classification: erp-customization-mining
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configure, ERP Semantic Mining overview, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Configure, ERP Semantic Mining overview, Workflow Data Fabric]
 ---
 
 # Check and troubleshoot the data refresh status for ERP Semantic Mining
@@ -47,15 +47,15 @@ You can receive email notifications for connection task success and failures. Fo
 
 4.  View a refined subset of connection tasks by selecting one of the following tabs.
 
-<table id="choicetable_s1g_n5l_zwb"><thead><tr><th align="left" id="d223239e209">
+<table id="choicetable_s1g_n5l_zwb"><thead><tr><th align="left" id="d225828e209">
 
 Tab
 
-</th><th align="left" id="d223239e212">
+</th><th align="left" id="d225828e212">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d223239e218">
+</th></tr></thead><tbody><tr><td id="d225828e218">
 
 **All tasks**
 
@@ -63,7 +63,7 @@ Description
 
 Log list of all connection tasks.
 
-</td></tr><tr><td id="d223239e227">
+</td></tr><tr><td id="d225828e227">
 
 **Task issues**
 
@@ -71,7 +71,7 @@ Log list of all connection tasks.
 
 Log list of all connection tasks that have an **Error** or **Warning** status.
 
-</td></tr><tr><td id="d223239e242">
+</td></tr><tr><td id="d225828e242">
 
 **Snapshots**
 

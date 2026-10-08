@@ -47,6 +47,8 @@ For the ServiceNow Otto Panel - Developer Assistant, when testing the assistant 
 Preview, test, and debug topics that use large language models \(LLMs\) in the Assistant Designer Asset library chat window.
 -   **[Debug a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/virtual-agent-troubleshooting-guide.md)**  
 Investigate and resolve unexpected behavior in your custom Virtual Agent topics, topic blocks, and controls.
+-   **[Testing assistant conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/evaluations-ad.md)**  
+The **Testing** tab in Assistant Designer helps you assess the quality and performance of your conversational assistant. You can test conversations manually or run automated evaluations on generated scenarios to measure the assistant's success in addressing the user request and usage of available assets.
 
 **Parent Topic:**[Build conversations in the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
 

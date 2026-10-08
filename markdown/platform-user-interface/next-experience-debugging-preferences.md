@@ -38,7 +38,7 @@ Script Debugger
 
 </td><td>
 
-Opens a JavaScript debugger with a script tracer and a session log. For more information, see [Debugging scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/scripts/script-debug-overview.md).
+Opens a JavaScript debugger with a script tracer and a session log. For more information, see .
 
 </td></tr><tr><td>
 

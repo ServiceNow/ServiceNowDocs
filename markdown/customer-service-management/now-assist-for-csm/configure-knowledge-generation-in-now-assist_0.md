@@ -20,8 +20,8 @@ Configure the Knowledge Generation skill to draft knowledge articles on resolvin
 
 Verify that the following is set up before you activate the skill:
 
-1.  Install the Required Plugin- ServiceNow Otto for CSM plugin.
-2.  Enable KCS system properties: The visibility of the **Create Knowledge** action in CRM Workspace depends on specific system properties and differs from its implementation in the Core UI UI.
+1.  Install the Required Plugin- ServiceNow Otto for CSM
+2.  Enable KCS system properties: The visibility of the **Create Knowledge** action in CRM Workspace depends on specific system properties and differs from its implementation in the Core UI.
 
     -   In Core UI, the action is implemented as a UI Action.
     -   In CRM Workspace, it is implemented as a Declarative Action.
@@ -60,7 +60,7 @@ Any modifications to the names or labels of these fields can affect the generati
 It is preferable to revert to the default field name and field label for the affected fields. To remove incompatible fields from generation, confirm a copy of the skill has been created, as not all fields are removable/configurable. Additionally, confirm that the Knowledge Management advanced installer plugin is enabled and the following system properties are set to TRUE:
 
 -   sn\_customerservice.enable\_knowledge\_kcs
--   kcs.enable\_template\_on\_case\_workspace
+-   sn\_custoemrservice.kcs.enable\_template\_on\_case\_workspace
 
 ## Procedure
 
@@ -72,7 +72,7 @@ It is preferable to revert to the default field name and field label for the aff
 
     Each skill has a guided setup with multiple steps. A check symbol next to each step indicates whether its setup is complete, partially complete, or incomplete. After configuring a step, select **Save and continue** to move forward, or **Back** to return to a previous step.
 
-4.  Select **Choose Input** and review the tables and fields to create prompts that determines where data is pulled from.
+4.  Select **Choose Input** and review the tables and fields to create prompts that determine where data is pulled from.
 
     **Note:** You can't modify the input data source.
 
@@ -100,7 +100,7 @@ Input fields
 
 -   Short description
 -   Description
--   Resolution notes \(for cases and incidents\)
+-   Resolution notes \(for cases\)
 -   Work notes
 -   Comments
 

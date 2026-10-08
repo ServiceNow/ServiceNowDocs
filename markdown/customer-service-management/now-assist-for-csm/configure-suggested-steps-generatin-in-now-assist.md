@@ -8,7 +8,7 @@ product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 10
+reading_time_minutes: 9
 keywords: [generative AI, generative AI for Customer Service Management, generative AI for customer service agents, generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
 breadcrumb: [Activate ServiceNow Otto Skills, Configure, ServiceNow Otto for CSM, Customer Service Management]
 ---
@@ -36,14 +36,14 @@ Assess your case data before setup:
     -   Case data currency \(verify historical data is recent enough to be relevant\)
     -   Special characters or formatting issues that could break parsing
 -   Don't proceed if:
-    -   Less than 50 cases match your use case
+    -   Less than 2000 cases match your use case
     -   Short descriptions are very generic. For example, "Fixed" or "Case resolved"
     -   Edited Conditions are inconsistently formatted or mostly empty
     -   Cases span many unrelated product lines
 
 ## Procedure
 
-1.  Navigate to **AI Admin Center** &gt; **AI Admin Hub** &gt; **AI Skills**.
+1.  Navigate to **AI Admin Hub** &gt; **AI Skills**.
 
 2.  Select the **Customer** workflow, and **CSM** as the product.
 
@@ -51,7 +51,7 @@ Assess your case data before setup:
 
     Each skill has a guided setup with multiple steps. A check symbol next to each step indicates whether its setup is complete, partially complete, or incomplete. After configuring a step, select **Save and continue** to move forward, or **Back** to return to a previous step.
 
-4.  Select **Choose Inputs** and review the tables and fields to create prompts that determines where data is pulled from.
+4.  Select **Choose Inputs** and review the tables and fields to create prompts that determine where data is pulled from.
 
     **Note:** You can't modify the input data source. However, you can refine which records are used by editing the Edited Conditions filter.
 
@@ -80,7 +80,7 @@ Assess your case data before setup:
     If Clustering Fails- Common reasons and solutions:
 
     -   Filter returns zero records → Broaden your Edited Conditions filter
-    -   Special characters in descriptions → Clean data or adjust NLP settings
+    -   Special characters in descriptions → Clean description data
     -   Other background jobs running → Wait for completion or try again
     -   Check logs: **AI Admin Hub** &gt; **Logs** for detailed error messages
 6.  Select **Define access** to determine who can access this skill.
@@ -103,7 +103,6 @@ Assess your case data before setup:
         -   Recommended Actions widget is enabled in CRM Workspace
         -   Clustering job completed successfully \(check logs\)
         -   Clear browser cache and refresh case form
-    -   For customizing access control, see [Customize access control for suggested steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/now-assist-for-csm/configure-suggested-steps-generatin-in-now-assist.md)
 7.  Toggle **Display** to determine if suggested step recommendations appear in In-product desktop, displaying AI skills on forms and workspaces.
 
 8.  After selecting **Review and Activate** to examine changes, select **Done** to close the Suggested Steps Generation settings.
@@ -113,8 +112,8 @@ Assess your case data before setup:
 
 |Error or symptom|Cause|Solution|
 |----------------|-----|--------|
-|No clusters generated|Edited Conditions filter is too restrictive|Broaden filter to capture at least 200+ cases|
-|Skill appears inactive in AI Admin Hub|Skill configuration not saved after setup|Complete all 9 steps and select **Done**|
+|No clusters generated|Edited Conditions filter is too restrictive|Broaden filter to capture at least 2000+ cases|
+|Skill appears inactive in AI Admin Hub|Skill configuration not saved after setup|Complete all guided setup steps.|
 |Agents see "No suggestions available"|Insufficient similar cases or insufficient data|Re-cluster with broader filter|
 |Suggested steps are outdated or irrelevant|Cluster includes very old cases|Add date filter: "Created &gt;= 90 days ago"|
 |Role added in Define Access but not visible in Select Display|Select Display must be configured separately|Add role in Select Display and toggle ON|
@@ -254,7 +253,7 @@ Before marking the Suggested Steps skill as complete and activating it for all a
 
 |Validation item|Expected result|Status|
 |---------------|---------------|------|
-|Case volume|200+ similar cases identified for clustering|☐ Pass ☐ Fail|
+|Case volume|2000+ similar cases identified for clustering|☐ Pass ☐ Fail|
 |Short Description coverage|80%+ of cases have populated Short Description|☐ Pass ☐ Fail|
 |Edited Conditions consistency|Conditions are formatted consistently across cases|☐ Pass ☐ Fail|
 |Data freshness|Most cases created in last 6-12 months|☐ Pass ☐ Fail|

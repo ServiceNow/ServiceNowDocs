@@ -9,7 +9,7 @@ classification: threat-intelligence-security-center
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-keywords: [tisc api, tisc, observables]
+keywords: [tisc api, tisc, observables, API endpoints]
 breadcrumb: [Reference, Threat Intelligence Security Center, Security Operations]
 ---
 

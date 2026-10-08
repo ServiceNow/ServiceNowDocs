@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-manufacturingcommercialoperations-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 9
+last_updated: "2026-10-08"
+reading_time_minutes: 12
 breadcrumb: [Products combined by family]
 ---
 
@@ -106,7 +106,30 @@ Yokohama
 
 </td><td>
 
--   **[Support multiple line items on a case to track requests on the Business Portal​](https://www.servicenow.com/docs/access?context=manufacturing-using&family=yokohama&ft:locale=en-US)**
+-   **[Manufacturing Commercial Operations users](https://www.servicenow.com/docs/access?context=manufacturing-explore&family=yokohama&ft:locale=en-US)**
+
+User roles provide the information on the users and their responsibilities.
+
+-   **[Dealer](https://www.servicenow.com/docs/access?context=dealer-data-model-overview&family=yokohama&ft:locale=en-US)**
+
+The dealer framework helps you manage the day-to-day business activities and monitor the real-time data insight.
+
+**Note:** Q2 release includes only the data model and not the playbook.
+
+-   **[Sales Promotion data model](https://www.servicenow.com/docs/access?context=sales-promotion-campaign-claims&family=yokohama&ft:locale=en-US)**
+
+The sales promotion framework helps the OEM to publish the promotions and the dealers to raise the claims against these promotions after the product sales transaction is completed.
+
+**Note:** Q2 release includes only the data model and not the playbook.
+
+The sales promotion supports bulk import functionality. To enable bulk import, you must customize it on existing CSM or Business Location Service Portal \(BLSP\) portals.
+
+-   **[Install Manufacturing Commercial Operations plugin](https://www.servicenow.com/docs/access?context=manufacturing-commercial-operations-plugins&family=yokohama&ft:locale=en-US)**
+
+List of all the plugins that are installed with Manufacturing Commercial Operations plugin.
+
+
+ -   **[Support multiple line items on a case to track requests on the Business Portal​](https://www.servicenow.com/docs/access?context=manufacturing-using&family=yokohama&ft:locale=en-US)**
 
 Capture and track requests for multiple items on the Business Portal.​ Case line items, case tasks, and case line tasks all appear on the case page​.
 
@@ -133,7 +156,30 @@ Australia
 
 </td><td>
 
--   **[FSM integration](https://www.servicenow.com/docs/access?context=mco-fsm-integration&family=australia&ft:locale=en-US)**
+-   **[MCO landing page](https://www.servicenow.com/docs/access?context=mco-landing-page&family=australia&ft:locale=en-US)**
+
+The MCO core landing page surfaces role-based views of claims, pre-authorization requests, and key processing metrics for claims agents and warranty assessors.
+
+-   **[Summarize fraudulent claim detection](https://www.servicenow.com/docs/access?context=mco-summarize-fraudulent-claim-detection&family=australia&ft:locale=en-US)**
+
+Anomaly-detection rules scan claim case lines against historical patterns and thresholds to identify fraudulent claims, flagging inflated amounts, frequency anomalies, and suspicious submission patterns. Claims meeting approval thresholds auto-approve with audit trail recording. Claims exceeding thresholds or exhibiting anomalies route to designated reviewers for investigation and disposition.
+
+-   **[Create a product non-conformance case using playbook](https://www.servicenow.com/docs/access?context=mco-playbook-create-non-conformance&family=australia&ft:locale=en-US)**
+
+QIM playbook enables you to create remediation action plans and access system-recommended correction actions. It automatically triages non-conformance records, assigns owners, and creates tasks based on historical patterns.
+
+
+ -   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&family=australia&ft:locale=en-US)**
+
+The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
+
+    -   Foundation: AI basics to deliver insights
+    -   Advanced: AI to boost productivity across relevant use cases
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+
+
+ -   **[FSM integration](https://www.servicenow.com/docs/access?context=mco-fsm-integration&family=australia&ft:locale=en-US)**
 
 QIM integrates with FSM to support quality actions that require on-site intervention. When an NC or QI record identifies a need for field verification, containment, or remediation action, you can create an FSM work order directly from within QIM.
 
@@ -143,6 +189,18 @@ QIM integrates with FSM to support quality actions that require on-site interven
 Brazil
 
 </td><td>
+
+-   **Repair pre-authorization case lines on claim cases**
+
+Claim cases list approved and partially approved pre-authorization cases created for the selected repair. Selecting a pre-authorization automatically populates the causal parts and miscellaneous details.
+
+-   **Automatic repair claim charge validation**
+
+Ensures repair claim charges conform with pre-authorization limits.
+
+-   **Schedule a quality review meeting**
+
+Schedule a quality review meeting to coordinate follow-up actions with stakeholders. The discussion, summary, and decision history remain attached to the issue for team reference.
 
 -   **Resolve a product non-conformance case playbook**
     -   Import impacted assets in bulk using an XLST file instead of adding them one at a time directly from the Product Quality Investigation \(PQI\) or Non-Conformance \(NC\) workspace. Reduce manual data entry when a single issue affects multiple assets.
@@ -356,6 +414,8 @@ Yokohama
 Install Manufacturing applications by requesting them from the ServiceNow Store. For details on installing the applications, see [Configuring Manufacturing Commercial Operations](https://www.servicenow.com/docs/access?context=configuring-manufacturing-foundation&family=yokohama&ft:locale=en-US). Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 
+**Important:** Manufacturing Commercial Operations is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Zurich
@@ -369,6 +429,8 @@ Install Manufacturing Commercial Operations by requesting it from the ServiceNow
 Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
 
+**Important:** Manufacturing Commercial Operations is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Australia
@@ -379,6 +441,8 @@ Australia
 
 Install Manufacturing Commercial Operations by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
 
+
+**Important:** Manufacturing Commercial Operations is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 

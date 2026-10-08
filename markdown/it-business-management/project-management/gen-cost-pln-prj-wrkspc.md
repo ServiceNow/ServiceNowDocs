@@ -25,19 +25,19 @@ Generate labor costs based on the planning attributes configured for financials 
 
 1.  Navigate to **All** &gt; **Project** &gt; **Projects** &gt; **All** and select the required project.
 
-    Make sure that the resource assignments are finalized to generate cost plans. If there are no resource assignments for the project, migrate the resource plans to resource assignments. For more information, see [Migrate resource plans and cost plans for projects and demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/migrate-rsrc-plan-rsrc-asgnmnt.md).
+    Make sure that the resource assignments are finalized to generate cost plans. If there are no resource assignments for the project, migrate the resource plans to resource assignments. For more information, see [Migrate resource plans and cost plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/resource-management/migrate-rsrc-plan-rsrc-asgnmnt.md).
 
 2.  Generate labor costs using one of the following options.
 
-<table id="choicetable_v4j_f5z_d1c"><thead><tr><th align="left" id="d60764e103">
+<table id="choicetable_v4j_f5z_d1c"><thead><tr><th align="left" id="d61493e111">
 
 Choice
 
-</th><th align="left" id="d60764e106">
+</th><th align="left" id="d61493e114">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d60764e112">
+</th></tr></thead><tbody><tr><td id="d61493e120">
 
 **Using link from Financials Summary view**
 
@@ -48,7 +48,7 @@ Description
 3.  Select **Generate Labor Costs**.
 
 
-</td></tr><tr><td id="d60764e145">
+</td></tr><tr><td id="d61493e153">
 
 **Using related links**
 
@@ -56,7 +56,7 @@ Description
 
 Select the **Generate Labor Costs** related link.
 
-</td></tr><tr><td id="d60764e157">
+</td></tr><tr><td id="d61493e165">
 
 **Activate a scheduled job**
 

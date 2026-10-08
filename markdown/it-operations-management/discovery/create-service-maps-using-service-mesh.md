@@ -30,15 +30,15 @@ If you use a service mesh, a pod running on every node \(Informer\) communicates
 
 -   Set parameters either during Helm chart archive installation or by modifying the Kubernetes YAML file provided by ServiceNow.
 
-<table id="choicetable_cc2_2vk_bgc"><thead><tr><th align="left" id="d534009e89">
+<table id="choicetable_cc2_2vk_bgc"><thead><tr><th align="left" id="d539599e89">
 
 Method
 
-</th><th align="left" id="d534009e92">
+</th><th align="left" id="d539599e92">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d534009e98">
+</th></tr></thead><tbody><tr><td id="d539599e98">
 
 **During Helm installation**
 
@@ -60,7 +60,7 @@ If your Prometheus server URL is not the default one, use the following paramete
 --set connectionsDiscovery.prometheusUrl
 ```
 
-</td></tr><tr><td id="d534009e124">
+</td></tr><tr><td id="d539599e124">
 
 **Modify the `k8s_informer.yaml` script**
 
@@ -83,7 +83,7 @@ kubectl apply -f k8s_informer.yaml
 </table>
 ## What to do next
 
-[Create application service maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/create-an-app-service-map-kva.md)
+[Create service maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/create-an-app-service-map-kva.md)
 
 **Parent Topic:**[Enabling application service maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/enabling-application-service-maps.md)
 

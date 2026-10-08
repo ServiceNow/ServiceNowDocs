@@ -16,7 +16,7 @@ Create a change request to modify the relationships between a deployed AI asset 
 
 ## Before you begin
 
-Role required: AI steward \[sn\_ai\_governance\_ai\_steward\] or AI asset owner \[sn\_ai\_asset\_mgmt.ai\_asset\_owner\]
+Role required: AI steward \[sn\_ai\_governance.ai\_steward\] or AI asset owner \[sn\_ai\_asset\_mgmt.ai\_asset\_owner\]
 
 **Note:** Users with the AI asset owner \[sn\_ai\_asset\_mgmt.ai\_asset\_owner\] role can create change requests only for the AI assets that they are assigned to manage. In addition, they can only create change requests and submit them for review. They can't approve or reject requests or complete any corresponding change tasks.
 
@@ -219,7 +219,7 @@ Related dataset card that you want to associate the AI asset with.
 
 7.  On the **Details** tab, set the **Assigned to** field to the user who you want to assign the change request to.
 
-    You can assign the request to yourself or to any other user with the AI steward \[sn\_ai\_governance\_ai\_steward\] role.
+    You can assign the request to yourself or to any other user with the AI steward \[sn\_ai\_governance.ai\_steward\] role.
 
 8.  Approve or reject the request.
 
@@ -227,7 +227,7 @@ Related dataset card that you want to associate the AI asset with.
     -   To reject the request, select **Reject**.
     -   If you approved the request, the Status changes to **Approved** and the State changes to **In progress** \(if there are impacted assets\) or **Completed** \(if there are no impacted assets\). The new AI asset is created.
 
-        The AI Control Tower application then generates a change task for each asset that is impacted by the request except for datasets. These change tasks appear on the **Change tasks** tab and specify the actions that must be taken on the impacted assets. Each change task is assigned to a user with the AI steward \[sn\_ai\_governance\_ai\_steward\] role. If you have any concerns or need further clarification on the request, you can create additional change tasks manually only if you have the AI steward \[sn\_ai\_governance\_ai\_steward\] role. After the assigned users complete all change tasks, the AI Control Tower application automatically creates a new AI asset record for the asset that the change request was created for. The State of the request then changes to Completed.
+        The AI Control Tower application then generates a change task for each asset that is impacted by the request except for datasets. These change tasks appear on the **Change tasks** tab and specify the actions that must be taken on the impacted assets. Each change task is assigned to a user with the AI steward \[sn\_ai\_governance.ai\_steward\] role. If you have any concerns or need further clarification on the request, you can create additional change tasks manually only if you have the AI steward \[sn\_ai\_governance.ai\_steward\] role. After the assigned users complete all change tasks, the AI Control Tower application automatically creates a new AI asset record for the asset that the change request was created for. The State of the request then changes to Completed.
 
         **Note:** The **Impacted assets** tab is not available if the change request was created for a dataset.
 

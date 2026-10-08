@@ -8,8 +8,8 @@ product: Value Library
 classification: value-library
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 1
-breadcrumb: [Objectives and outcomes, Value management, Using Impact, Impact]
+reading_time_minutes: 2
+breadcrumb: [Objectives and outcomes, Value Management, Using Impact, Impact]
 ---
 
 # Manage objectives and outcomes
@@ -19,6 +19,8 @@ You can review objectives and outcomes tracking configuration, and access trend 
 ## Before you begin
 
 Role required: Impact App Admin, Impact Platform Owner, Impact Portfolio Owner.
+
+An outcome whose success metric uses an estimated data definition cannot be tracked until that definition is configured. An indicator appears against any success metric that uses an estimated definition. While at least one metric on the page still needs configuring. An informational banner appears at the top explaining that estimated definitions have to be configured for high-fidelity value numbers, with a path to the Configure estimated data definition page.
 
 ## Procedure
 

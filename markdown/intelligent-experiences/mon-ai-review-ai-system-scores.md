@@ -66,6 +66,15 @@ When a specific AI system needs attention, determine which metrics are affecting
 
 8.  Check performance over time by reviewing the **Monitor agent activity** trend chart.
 
+    |Option|Description|
+    |------|-----------|
+    |**__Lowest performing metrics__**|View the top five metrics with the largest decline in quality and safety over time.|
+    |**Highest performing metrics**|View the top five metrics with the largest increase in quality and safety over time.|
+    |**Quality metrics**|View the performance of quality metrics over time.|
+    |**Safety metrics**|View the performance of safety metrics over time.|
+    |**All metrics**|View the performance of all metrics over time.|
+    |**Select a specific metric**|View the performance for a specific metric by selecting it from the list.|
+
     Solid lines represent metrics that contribute to this AI system's overall quality or safety score. Dotted lines represent metrics that are collected but don't contribute to those scores. You can point to a data point on the chart to see the exact score for that date.
 
     For example, a gradual decline in Task completion from 90% to 72% over three weeks indicates a quality regression for this AI system that warrants session-level investigation.

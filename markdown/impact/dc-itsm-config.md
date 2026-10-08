@@ -1,18 +1,18 @@
 ---
-title: Configure Data Collection for ITSM
-description: Configure Data Collection for ITSM.
+title: Configure Data Collection for IT Service Management
+description: Configure Data Collection for IT Service Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/dc-itsm-config.html
 release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Impact Value Management Data Collection Content Pack for ITSM, Enable data collection for Value Management, Configuring Impact, Impact]
+breadcrumb: [Impact Value Management Data Collection Content Pack for IT Service Management, Enable data collection for Value Management, Guided Setup, Configuring Impact, Impact]
 ---
 
-# Configure Data Collection for ITSM
+# Configure Data Collection for IT Service Management
 
-Configure Data Collection for ITSM.
+Configure Data Collection for IT Service Management.
 
 ## Before you begin
 
@@ -63,7 +63,7 @@ Role required: admin, pa\_power\_user, pa\_admin, or pa\_data\_collector
 
 8.  For the Manual Indicators, add a new data point every month.
 
-    As an example, given the fixed nature of the Impact VM - Legacy ITSM Systems Annual Run-Rate indicator, you only need to enter this data point once.
+    As an example, given the fixed nature of the Impact VM - Legacy IT Service Management Systems Annual Run-Rate indicator, you only need to enter this data point once.
 
     **Note:** If you don't have full access to Performance/Platform Analytics through a Pro or Enterprise subscription, you are required to enter this data point every month.
 
@@ -74,5 +74,5 @@ Role required: admin, pa\_power\_user, pa\_admin, or pa\_data\_collector
         \[Omitted image "dct\_man\_data\_points\_itsm.png"\] Alt text: Example with Mar 2024 cell selected with no Indicator score value entered.
 
 
-**Parent Topic:**[Impact Value Management Data Collection Content Pack for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/data-collection-itsm.md)
+**Parent Topic:**[Impact Value Management Data Collection Content Pack for IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/data-collection-itsm.md)
 

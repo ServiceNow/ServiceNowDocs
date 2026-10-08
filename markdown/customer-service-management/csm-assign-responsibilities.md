@@ -1,18 +1,18 @@
 ---
 title: Assign responsibilities
-description: Use the responsibility data model to assign responsibilities to a service organization \(SO\) member.
+description: Use the responsibility data model to assign responsibilities to an organization member.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-assign-responsibilities.html
 release: brazil
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Assign responsibilities
 
-Use the responsibility data model to assign responsibilities to a service organization \(SO\) member.
+Use the responsibility data model to assign responsibilities to an organization member.
 
 ## Before you begin
 
@@ -22,9 +22,9 @@ Role required: admin
 
 Businesses often need staff to work at more than one business location, and they can have different responsibilities at different locations. Using the responsibility data model, an SO member can be assigned multiple responsibilities.
 
-The responsibility data model tracks the relationship between the SO members and their responsibility type in the Service Organization Member Responsibilities \[sn\_csm\_svc\_org\_member\_responsibility\] table.
+The responsibility data model tracks the relationship between the organization members and their responsibility type in the Organization Member Responsibility \[sn\_csm\_svc\_org\_member\_responsibility\] table.
 
-**Note:** If the business location plugin is active, this feature is enabled by default. However, for upgrade customer, the data in the \[sn\_csm\_svc\_org\_member\_responsibility\] table will be auto-populated for existing SO members to confirm that they retain as much access after the upgrade. Any new records created after the Brazil release must be created using the following steps.
+**Note:** If the business organization plugin is active, this feature is enabled by default. However, for upgrade customer, the data in the \[sn\_csm\_svc\_org\_member\_responsibility\] table will be auto-populated for existing organization members to confirm that they retain as much access after the upgrade. Any new records created after the Brazil release must be created using the following steps.
 
 **Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/renamed-entities.md).
 
@@ -58,7 +58,7 @@ Name
 
 </th></tr></thead><tbody><tr><td>
 
-Location Agent**Note:** This role only applies to the internal business location.
+Location Agent**Note:** This role only applies to the internal organization.
 
 </td><td>
 
@@ -66,7 +66,7 @@ sn\_customerservice.svc\_location\_agent
 
 </td></tr><tr><td>
 
-Location Consumer Agent**Note:** This role only applies to the internal business location.
+Location Consumer Agent**Note:** This role only applies to the internal organization.
 
 </td><td>
 
@@ -90,7 +90,7 @@ sn\_customerservice.svc\_location\_manager\_contributor
 
 </td></tr><tr><td>
 
-Location Manager Fulfiller**Note:** This role only applies to the internal business location.
+Location Manager Fulfiller**Note:** This role only applies to the internal organization.
 
 </td><td>
 
@@ -98,7 +98,7 @@ sn\_customerservice.svc\_location\_manager
 
 </td></tr><tr><td>
 
-Location Relationship Manager**Note:** This role only applies to the external business location.
+Location Relationship Manager**Note:** This role only applies to the external organization.
 
 </td><td>
 
@@ -131,6 +131,6 @@ sn\_bus\_loc.business\_org\_consumer\_contributor
 </td></tr></tbody>
 </table>5.  After you assign the required related party type, select **Submit**.
 
-    A new responsibility is added to the SO member.
+    A new responsibility is added to the organization member.
 
 

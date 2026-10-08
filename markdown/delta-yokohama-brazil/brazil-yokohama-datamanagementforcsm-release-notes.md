@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-brazil/brazil-yokohama-datamanagementforcsm-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 28
 breadcrumb: [Products combined by family]
 ---
@@ -333,7 +333,14 @@ Brazil
 
 </td><td>
 
--   **[Restricted Customer Access now controls visibility](https://www.servicenow.com/docs/access?context=associate-customers-or-bus-loc-to-so&family=brazil&ft:locale=en-US)**
+-   **[View Customer contracts and entitlements for business organizations and edit entitlement usage](https://www.servicenow.com/docs/access?context=configure-data-model-roles&family=brazil&ft:locale=en-US)**
+
+Location support agents \[sn\_bus\_loc.svc\_location\_support\_agent\] can view customer contract records \(Business Organization as a customer\) and their associated entitlements, and edit entitlement usage when either of the following is true:
+
+    -   The channel partner is one of their organizations, and a buyer organization is specified.
+    -   The buyer organization is one of the organizations that they manage.
+
+ -   **[Restricted Customer Access now controls visibility](https://www.servicenow.com/docs/access?context=associate-customers-or-bus-loc-to-so&family=brazil&ft:locale=en-US)**
 
 Extended the organization customer criteria for a business organization with a new **Restricted Customer Access** check box that controls visibility of customer records. When enabled, business organization staff can view only the customer and consumer records that satisfy the configured criteria at their business organization. This applies to both service and sales personas. Upgrade customers must run the one-time scheduled job, **Remove Legacy roles from Loc Mgr Contrib** to enable restricted customer access configuration.
 
@@ -552,7 +559,7 @@ Introduced usability and functional enhancements to the Customer Access Manageme
 
 Added a system property \(sn\_customerservice.consumer.allowed\_user\_types\) to enhance unified user management. This property specifies which user types \(classes\) can be associated with consumers.
 
--   **[Configuring billing accounts](https://www.servicenow.com/docs/access?context=configuring-billing-accounts&family=australia&ft:locale=en-US)**
+-   **[Billing accounts](https://www.servicenow.com/docs/access?context=configuring-billing-accounts&family=australia&ft:locale=en-US)**
 
 Visualize a billing account's hierarchy directly from the account, making large parent-and-child account structures easier to navigate. The default view now adapts to the billing account type. The **Billing account type** field is populated automatically from the source customer to reduce manual setup and keep records consistent.
 
@@ -563,7 +570,12 @@ Brazil
 
 </td><td>
 
--   **[Project task assignment access for business organization staff](https://www.servicenow.com/docs/access?context=csm-data-model-roles&family=brazil&ft:locale=en-US)**
+-   **[Service organizations as buyers on install base records](https://www.servicenow.com/docs/access?context=product_inventory_configurations&family=brazil&ft:locale=en-US)**
+
+Add service organizations as buyers on install base records to control access to their product inventory by user role. Use the Modify or Disconnect actions from the service organization record to enable service organizations to create orders or quotes.
+
+
+ -   **[Project task assignment access for business organization staff](https://www.servicenow.com/docs/access?context=csm-data-model-roles&family=brazil&ft:locale=en-US)**
 
 Gain write access to the Assignment group and Assigned to field, and read access to the Priority field, on business organization project tasks with the Location Project Member \[sn\_bus\_loc.location\_project\_stakeholder\] or Location Project Manager Contributor \[sn\_bus\_loc.location\_manager\_project\_stakeholder\] role.
 

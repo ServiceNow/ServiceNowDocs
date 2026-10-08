@@ -8,9 +8,9 @@ product: Now Assist for App Engine
 classification: now-assist-for-app-engine
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 3
+reading_time_minutes: 4
 keywords: [now assist, ServiceNow Otto, ServiceNow Otto for App Engine, app engine, AI capability, AI feature, AI product, AI agent, skill, generative AI, genAI, Now Assist for App Engine, custom app]
-breadcrumb: [ServiceNow Otto for App Engine, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [ServiceNow Otto for App Engine, Run, AI Workflow Factory, Building applications]
 ---
 
 # Exploring ServiceNow Otto for App Engine
@@ -86,4 +86,15 @@ For more information about creating skills, AI agents, and agentic workflows wit
 ## What to explore next
 
 To learn more about ServiceNow Otto for App Engine, see [Installing ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/now-assist-for-app-engine/install-now-assist-for-app-engine.md) and [Use ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/now-assist-for-app-engine/use-now-assist-for-app-engine-enterprise.md).
+
+-   **[AI capabilities for enhancing custom applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/now-assist-for-app-engine/ai-capabilities-with-now-assist-for-app-engine.md)**  
+Learn about the AI capabilities available with ServiceNow Otto for App Engine that you can use to enhance custom applications.
+-   **[Custom app record summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/now-assist-for-app-engine/custom-app-record-summarization-na-for-app-engine.md)**  
+The ServiceNow Otto for App Engine custom app record summarization skill can generate summaries for the contents of records in custom applications and tables.
+-   **[Tools included with ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/now-assist-for-app-engine/tools-included-with-now-assist-for-app-engine.md)**  
+Learn about the tools and applications included with ServiceNow Otto for App Engine.
+-   **[Choosing the right AI capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/now-assist-for-app-engine/choosing-the-right-ai-capability.md)**  
+Choosing the right AI capability for your custom application is important. Learn about the differences between skills, AI agents, and agentic workflows, use cases for each, and when to choose one capability over another.
+
+**Parent Topic:**[ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/now-assist-for-app-engine/add-ai-to-custom-apps-with-now-assist-for-app-engine-enterprise.md)
 

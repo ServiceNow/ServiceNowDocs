@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [ReleaseOps, deploy changes, update sets, pipeline, ATF, schedule a release, deployment request, deployment analyzer]
-breadcrumb: [ReleaseOps, Deploying applications, Building applications]
+breadcrumb: [ReleaseOps, Run, AI Workflow Factory, Building applications]
 ---
 
 # Using ReleaseOps to manage deployments
@@ -38,6 +38,8 @@ Create a deployment request for changes that will deployed with an on-demand rel
 If you want to attach multiple update sets to a deployment request, you can attach an update set to an existing deployment request on the **Deploy an update set** form.
 -   **[Create a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/releaseops/create-a-release.md)**  
 Specify the details for your release, including the target instance that the changes will be deployed to and when the release should occur.
+-   **[Add a release to a deployment request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/releaseops/add-release-to-deployment-request.md)**  
+If you created a deployment request and associated it with only a pipeline, you must add a release to enable the deployment request to move to production.
 -   **[Create a runbook task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/releaseops/create-runbook-task.md)**  
 Create a runbook task to pause deployment and define the steps required to proceed.
 -   **[Reconcile a deployment task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/releaseops/reconcile-deployment-task.md)**  

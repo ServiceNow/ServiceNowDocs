@@ -37,5 +37,3 @@ Ensure that you have installed Predictive Intelligence \(com.glide.platform\_ml\
 
 **Parent Topic:**[Configure Predictive Intelligence for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/legal-service-delivery/lsd-PI-configure-landing.md)
 
-**Parent Topic:**[Configure Predictive Intelligence for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/legal-service-delivery/lsd-PI-configure-landing.md)
-

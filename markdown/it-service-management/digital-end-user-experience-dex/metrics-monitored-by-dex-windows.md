@@ -1,6 +1,6 @@
 ---
 title: Metrics monitored by DEX on Windows
-description: Review the endpoint performance and compliance metrics that DEX collects from managed Windows devices, including collection intervals, and associated check definitions and policies.
+description: Review the endpoint performance and conformance metrics that DEX collects from managed Windows devices, including collection intervals, and associated check definitions and policies.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/metrics-monitored-by-dex-windows.html
 release: brazil
@@ -9,14 +9,14 @@ classification: digital-end-user-experience-dex
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 14
-keywords: [dex metrics, windows metrics, digital end-user experience, endpoint performance monitoring, check definition, collection interval, agent policy, application metrics, device metrics, cpu usage, memory usage, disk usage, network metrics, wi-fi signal strength, battery details, bitLocker, antivirus, antimalware, bsod, system compliance, windows registry, pending updates, managed devices]
+keywords: [dex metrics, windows metrics, digital end-user experience, endpoint performance monitoring, check definition, collection interval, agent policy, application metrics, device metrics, cpu usage, memory usage, disk usage, network metrics, wi-fi signal strength, battery details, bitLocker, antivirus, antimalware, bsod, system conformance, windows registry, pending updates, managed devices]
 audience: administrator
 breadcrumb: [DEX Application and Device Health reference, Reference, Digital End-User Experience, IT Service Management]
 ---
 
 # Metrics monitored by DEX on Windows
 
-Review the endpoint performance and compliance metrics that DEX collects from managed Windows devices, including collection intervals, and associated check definitions and policies.
+Review the endpoint performance and conformance metrics that DEX collects from managed Windows devices, including collection intervals, and associated check definitions and policies.
 
 ## Application metrics
 
@@ -70,7 +70,7 @@ Single metric — `version` \(string\)
 
 </td><td>
 
-N/A
+None
 
 </td><td>
 
@@ -166,7 +166,7 @@ Network quality metrics for the target application's domain or domains: round-tr
 
 </td><td>
 
-N/A
+None
 
 </td><td>
 
@@ -230,7 +230,7 @@ Complete hop-by-hop network route from the device to the application's domain\(s
 
 </td><td>
 
-N/A
+None
 
 </td><td>
 
@@ -330,7 +330,7 @@ Bps
 
 </td><td>
 
-N/A
+None
 
 </td><td>
 
@@ -358,7 +358,7 @@ Per installed application: application name and version; delivered as change set
 
 </td><td>
 
-N/A
+None
 
 </td><td>
 
@@ -450,7 +450,7 @@ Boolean indicating whether the target application is installed on the device.
 
 </td><td>
 
-Single metric — `is_installed` \(boolean, gauge\)
+Single metric — `is_installed` \(Boolean, gauge\)
 
 </td><td>
 
@@ -458,7 +458,7 @@ Boolean
 
 </td><td>
 
-N/A
+None
 
 </td><td>
 
@@ -482,7 +482,7 @@ Boolean indicating whether at least one process of the target application is cur
 
 </td><td>
 
-Single metric — `is_running` \(boolean, gauge\)
+Single metric — `is_running` \(Boolean, gauge\)
 
 </td><td>
 
@@ -554,7 +554,7 @@ seconds
 
 </td><td>
 
-N/A
+None
 
 </td><td>
 
@@ -582,11 +582,11 @@ Single metric — `listening_ports` \(array of integers\)
 
 </td><td>
 
-N/A
+None
 
 </td><td>
 
-N/A
+None
 
 </td><td>
 
@@ -618,7 +618,7 @@ Bps
 
 </td><td>
 
-N/A
+None
 
 </td><td>
 
@@ -678,7 +678,7 @@ Application-specific metrics for Microsoft Configuration Manager \(MCM\), includ
 
 </td><td>
 
-N/A
+None
 
 </td><td>
 
@@ -742,7 +742,7 @@ Per-service status for ZPA, ZIA, ZDX \(latest\); ZPA connected status \(historic
 
 </td><td>
 
-N/A
+None
 
 </td><td>
 
@@ -809,11 +809,11 @@ List of local user accounts with administrator-level privileges on the device. S
 
 </td><td>
 
-N/A
+None
 
 </td><td>
 
-N/A
+None
 
 </td><td>
 
@@ -841,7 +841,7 @@ Antimalware software details including product name, version, enabled status, an
 
 </td><td>
 
-N/A
+None
 
 </td><td>
 
@@ -869,11 +869,11 @@ Boolean status indicating whether an antivirus product is registered and active 
 
 </td><td>
 
-`name` \(AV product\); `enabled` \(boolean\); `up_to_date` \(boolean\)
+`name` \(AV product\); `enabled` \(Boolean\); `up_to_date` \(Boolean\)
 
 </td><td>
 
-N/A
+None
 
 </td><td>
 
@@ -937,7 +937,7 @@ Comprehensive battery health snapshot including charge percentage, estimated run
 
 </td><td>
 
-N/A
+None
 
 </td><td>
 
@@ -969,7 +969,7 @@ BIOS firmware details for the Windows device including BIOS version, manufacture
 
 </td><td>
 
-N/A
+None
 
 </td><td>
 
@@ -1001,7 +1001,7 @@ Per volume: `volume_type`; `mount_point`; `encryption_percentage`; `protection_s
 
 </td><td>
 
-N/A
+None
 
 </td><td>
 
@@ -1014,6 +1014,38 @@ os.win.check-system-bitlocker-details
 </td><td>
 
 Local System Account
+
+</td></tr><tr><td>
+
+Boot details
+
+</td><td>
+
+boot-details
+
+</td><td>
+
+Time elapsed between device power-on and full OS availability, including kernel load time and device-ready state.
+
+</td><td>
+
+`boot_duration_ms`, `boot_start_time` and `boot_end_time`, `os_load_time`, `device_ready_time`
+
+</td><td>
+
+None
+
+</td><td>
+
+1,440
+
+</td><td>
+
+os.win.check-system-hardware-latest
+
+</td><td>
+
+No elevated privileges required
 
 </td></tr><tr><td>
 
@@ -1033,7 +1065,7 @@ Count of Windows BSOD \(Blue Screen of Death\) events in the last 30 days from t
 
 </td><td>
 
-N/A
+None
 
 </td><td>
 
@@ -1065,7 +1097,7 @@ Static CPU hardware details: processor name/model, architecture, physical core c
 
 </td><td>
 
-N/A
+None
 
 </td><td>
 
@@ -1193,7 +1225,7 @@ Hardware device inventory snapshot: chassis type, description, model, serial num
 
 </td><td>
 
-N/A
+None
 
 </td><td>
 
@@ -1225,7 +1257,7 @@ Device-level events during a specified time interval on Windows. Captures `last_
 
 </td><td>
 
-N/A
+None
 
 </td><td>
 
@@ -1289,7 +1321,7 @@ Per-disk snapshot of total, free, and used space plus disk performance counters:
 
 </td><td>
 
-N/A
+None
 
 </td><td>
 
@@ -1445,11 +1477,11 @@ Boolean status of the Windows OS firewall. Returns a single state value indicati
 
 </td><td>
 
-`firewall_enabled` \(boolean\)
+`firewall_enabled` \(Boolean\)
 
 </td><td>
 
-N/A
+None
 
 </td><td>
 
@@ -1513,7 +1545,7 @@ Physical disk drive inventory and health status including disk number, name, sta
 
 </td><td>
 
-N/A
+None
 
 </td><td>
 
@@ -1549,7 +1581,7 @@ Bps
 
 </td><td>
 
-N/A
+None
 
 </td><td>
 
@@ -1577,7 +1609,7 @@ Single metric — `last_access_time` \(timestamp of last lock/unlock\)
 
 </td><td>
 
-N/A
+None
 
 </td><td>
 
@@ -1609,7 +1641,7 @@ Per executable: `name`; `path`; `version`; `size`; `last_modified`
 
 </td><td>
 
-N/A
+None
 
 </td><td>
 
@@ -1641,7 +1673,7 @@ List of users currently logged into the device including username and uid.
 
 </td><td>
 
-N/A
+None
 
 </td><td>
 
@@ -1705,11 +1737,11 @@ Per module: `capacity`; `speed` \(MHz\); `manufacturer`; `part_number`; `slot`; 
 
 </td><td>
 
-N/A
+None
 
 </td><td>
 
-N/A
+None
 
 </td><td>
 
@@ -1737,7 +1769,7 @@ Details of all network adapters on the Windows device. On-demand collection only
 
 </td><td>
 
-N/A
+None
 
 </td><td>
 
@@ -1765,7 +1797,7 @@ Network connection profile details for the Windows device, including network typ
 
 </td><td>
 
-`network_type` \(Public/Private/Domain\); `interface_name`; `connected` \(boolean\)
+`network_type` \(Public/Private/Domain\); `interface_name`; `connected` \(Boolean\)
 
 </td><td>
 
@@ -1801,7 +1833,7 @@ Ethernet: `name`; `interface_description`; `driver_version`; `status`; `link_spe
 
 </td><td>
 
-N/A
+None
 
 </td><td>
 
@@ -1833,7 +1865,7 @@ Operating system inventory snapshot including name, version, platform, architect
 
 </td><td>
 
-N/A
+None
 
 </td><td>
 
@@ -1865,7 +1897,7 @@ Approximate age of the Windows OS installation. Derived from OS install date com
 
 </td><td>
 
-N/A
+None
 
 </td><td>
 
@@ -1929,7 +1961,7 @@ Per update: `kb`; `title`; `description`; `support_url`; `is_mandatory`; `is_uni
 
 </td><td>
 
-N/A
+None
 
 </td><td>
 
@@ -1961,7 +1993,7 @@ Per device: `name`; `device_id`; `type`; `status`; `manufacturer`
 
 </td><td>
 
-N/A
+None
 
 </td><td>
 
@@ -2041,7 +2073,7 @@ No elevated privileges required
 
 </td></tr><tr><td>
 
-System compliance
+System conformance
 
 </td><td>
 
@@ -2049,7 +2081,7 @@ system\_compliance\_details
 
 </td><td>
 
-Compliance rating \(percentage\) for the device based on configured compliance rules across apps and device metrics. Lists non-compliant metrics and apps.
+conformance rating \(percentage\) for the device based on configured conformance rules across apps and device metrics. Lists non-conforming metrics and apps.
 
 </td><td>
 
@@ -2065,7 +2097,7 @@ Compliance rating \(percentage\) for the device based on configured compliance r
 
 </td><td>
 
-os.win.check-system-compliance-details
+os.win.check-system-conformance-details
 
 </td><td>
 
@@ -2093,7 +2125,7 @@ seconds
 
 </td><td>
 
-N/A
+None
 
 </td><td>
 
@@ -2149,11 +2181,11 @@ List of Windows user profiles present on the device including profile path, SID,
 
 </td><td>
 
-Per profile: `sid`; `localpath`; `lastusetime`; `loaded` \(boolean\)
+Per profile: `sid`; `localpath`; `lastusetime`; `loaded` \(Boolean\)
 
 </td><td>
 
-N/A
+None
 
 </td><td>
 
@@ -2281,7 +2313,7 @@ Active Windows power plan \(for example, Balanced, High Performance, Power Saver
 
 </td><td>
 
-N/A
+None
 
 </td><td>
 
@@ -2313,7 +2345,7 @@ Configurable per key: `key`; `name`; `data`; `type` \(REG\_SZ, REG\_DWORD, etc.\
 
 </td><td>
 
-N/A
+None
 
 </td><td>
 
@@ -2353,7 +2385,7 @@ index \(0-10\)
 
 </td><td>
 
-os.win.check-system-compliance-details
+os.win.check-system-conformance-details
 
 </td><td>
 

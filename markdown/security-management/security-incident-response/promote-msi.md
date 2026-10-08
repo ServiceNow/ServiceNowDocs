@@ -7,7 +7,7 @@ release: brazil
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-09-28"
 reading_time_minutes: 2
 keywords: [major security incident, promote, MSIM, candidates]
 breadcrumb: [Propose, promote, and link incident records, Use, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
@@ -18,6 +18,8 @@ breadcrumb: [Propose, promote, and link incident records, Use, Major Security In
 Promote a security incident to a major security incident or reject promoted proposals through the Major Security Incident Management \(MSIM\) Workspace.
 
 ## Before you begin
+
+Role required: sn\_msi.workspace\_admin or sn\_msi.workspace\_manager
 
 ## Procedure
 

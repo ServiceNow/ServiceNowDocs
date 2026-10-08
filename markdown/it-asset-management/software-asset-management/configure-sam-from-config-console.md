@@ -42,8 +42,6 @@ The Configuration Console organizes Software Asset Management setup into indepen
 
 3.  In the Configure your product section, select **Configure**.
 
-    The Configuration Console opens, displaying the Setup status section and Configuration Summary navigation menu.
-
     **Tip:** To find a specific setup item, enter a keyword in the **Search configurations** field.
 
 4.  Select a module to configure.

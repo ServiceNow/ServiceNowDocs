@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-brazil/brazil-zurich-buildagentandautonomousengineer-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 28
+last_updated: "2026-10-08"
+reading_time_minutes: 32
 breadcrumb: [Products combined by family]
 ---
 
@@ -75,7 +75,34 @@ Zurich
 
 </td><td>
 
--   **[Playbook support updates](https://www.servicenow.com/docs/access?context=ba-update-sets&family=zurich&ft:locale=en-US)**
+-   **[New model support](https://www.servicenow.com/docs/access?context=ba-models-versions&family=zurich&ft:locale=en-US)**
+
+Build Agent supports the Google Gemini 3.7 Flash model in the October 2026 release.
+
+-   **[Additional metadata support](https://www.servicenow.com/docs/access?context=build-agent-supported-metadata&family=zurich&ft:locale=en-US)**
+
+The following metadata are now supported in Build Agent:
+
+    -   Assessments
+    -   Database views
+    -   Sys wizard answers
+-   **[Support for SPP](https://www.servicenow.com/docs/access?context=build-agent-limitations&family=zurich&ft:locale=en-US)**
+
+Build Agent now supports regulated markets through the ServiceNow Protected Platform for Australia, the EU, and Singapore, a cloud offering that stores and processes all customer data in-country on Microsoft Azure infrastructure.
+
+-   **[Expanded support for Playbooks](https://www.servicenow.com/docs/access?context=ba-playbooks&family=zurich&ft:locale=en-US)**
+
+Build Agent now include the following updates to Playbook support:
+
+    -   Public playbooks
+    -   Variants
+    -   Go back to activity definition
+    -   Golden path configuration
+    -   Using Automation plan pills
+    -   Image attachment support for Image to playbook generation
+    -   Configure golden path settings and define the ideal path through decision nodes
+
+ -   **[Playbook support updates](https://www.servicenow.com/docs/access?context=ba-update-sets&family=zurich&ft:locale=en-US)**
 
 Build Agent includes the following updates to Playbook support:
 
@@ -288,7 +315,45 @@ Australia
 
 </td><td>
 
--   **[Playbook support updates](https://www.servicenow.com/docs/access?context=ba-update-sets&family=australia&ft:locale=en-US)**
+-   **[Generate implementations from specifications with Autonomous Engineer](https://www.servicenow.com/docs/access?context=autonomous-engineer&family=australia&ft:locale=en-US)**
+
+Use Autonomous Engineer, powered by Build Agent, to generate a complete implementation plan from your requirements.
+
+    1.  Provide requirements as a prompt or a file upload.
+    2.  Autonomous Engineer prompts you with questions to clarify ambiguous requirements, queries your instance to identify existing artifacts. For example, it might ask questions about tables, roles, and catalog items, and generates a plan with work items. Work items include acceptance criteria and test criteria in an Agile user story format.
+    3.  After you approve the plan, Autonomous Engineer generates a background agent for each work item. It then builds all work items in parallel in the background, generates and runs ATF tests, and attempts to resolve test failures.
+    4.  Items that require human intervention appear in the dashboard and in the chat panel.
+    5.  When the plan is complete, an update set is generated for deployment to your UAT or production environment.
+Autonomous Engineer uses agent packs to give background agents product-specific domain knowledge during execution. The Custom app development agent pack is available in this release, which gives Autonomous Engineer awareness of platform tables, roles, and configuration patterns specific to custom app development.
+
+-   **[New model support](https://www.servicenow.com/docs/access?context=ba-models-versions&family=australia&ft:locale=en-US)**
+
+Build Agent and Autonomous Engineer support the Google Gemini 3.7 Flash model in the October 2026 release.
+
+-   **[Additional metadata support](https://www.servicenow.com/docs/access?context=build-agent-supported-metadata&family=australia&ft:locale=en-US)**
+
+The following metadata are now supported in Build Agent and Autonomous Engineer:
+
+    -   Assessments
+    -   Database views
+    -   Sys wizard answers
+-   **[Support for SPP](https://www.servicenow.com/docs/access?context=build-agent-limitations&family=australia&ft:locale=en-US)**
+
+Build Agent and Autonomous Engineer now support regulated markets through the ServiceNow Protected Platform for Australia, the EU, and Singapore, a cloud offering that stores and processes all customer data in-country on Microsoft Azure infrastructure.
+
+-   **[Expanded support for Playbooks](https://www.servicenow.com/docs/access?context=ba-playbooks&family=australia&ft:locale=en-US)**
+
+Build Agent and Autonomous Engineer now include the following updates to Playbook support:
+
+    -   Public playbooks
+    -   Variants
+    -   Go back to activity definition
+    -   Golden path configuration
+    -   Using Automation plan pills
+    -   Image attachment support for Image to playbook generation
+    -   Configure golden path settings and define the ideal path through decision nodes
+
+ -   **[Playbook support updates](https://www.servicenow.com/docs/access?context=ba-update-sets&family=australia&ft:locale=en-US)**
 
 Build Agent includes the following updates to Playbook support:
 
@@ -510,7 +575,38 @@ Brazil
 
 </td><td>
 
--   **[Generate implementations from specifications with Autonomous Engineer](https://www.servicenow.com/docs/access?context=autonomous-engineer&family=brazil&ft:locale=en-US)**
+-   **[New model support](https://www.servicenow.com/docs/access?context=ba-models-versions&family=brazil&ft:locale=en-US)**
+
+Build Agent and Autonomous Engineer support the Google Gemini 3.7 Flash model in the October 2026 release.
+
+-   **[Additional metadata support](https://www.servicenow.com/docs/access?context=build-agent-supported-metadata&family=brazil&ft:locale=en-US)**
+
+The following metadata are now supported in Build Agent and Autonomous Engineer:
+
+    -   Assessments
+    -   Database views
+    -   Sys wizard answers
+-   **[Support for SPP](https://www.servicenow.com/docs/access?context=build-agent-limitations&family=brazil&ft:locale=en-US)**
+
+Build Agent and Autonomous Engineer now support regulated markets through the ServiceNow Protected Platform for Australia, the EU, and Singapore, a cloud offering that stores and processes all customer data in-country on Microsoft Azure infrastructure.
+
+-   **[Automatic retry for stopped work items](https://www.servicenow.com/docs/access?context=ae-resiliency&family=brazil&ft:locale=en-US)**
+
+Reduce manual intervention during plan execution by automatically retrying work items that stop due to transient failures. Autonomous Engineer retries a stopped work item up to three times before requiring that you take action, resolving intermittent failures without interrupting the execution flow.
+
+-   **[Expanded support for Playbooks](https://www.servicenow.com/docs/access?context=ba-playbooks&family=brazil&ft:locale=en-US)**
+
+Build Agent and Autonomous Engineer now include the following updates to Playbook support:
+
+    -   Public playbooks
+    -   Variants
+    -   Go back to activity definition
+    -   Golden path configuration
+    -   Using Automation plan pills
+    -   Image attachment support for Image to playbook generation
+    -   Configure golden path settings and define the ideal path through decision nodes
+
+ -   **[Generate implementations from specifications with Autonomous Engineer](https://www.servicenow.com/docs/access?context=autonomous-engineer&family=brazil&ft:locale=en-US)**
 
 Use Autonomous Engineer, powered by Build Agent, to generate a complete implementation plan from your requirements.
 
@@ -596,7 +692,12 @@ Zurich
 
 </td><td>
 
--   **[Build Agent in ServiceNow Studio UI updates](https://www.servicenow.com/docs/access?context=access-build-agent&family=zurich&ft:locale=en-US)**
+-   **Larger input box for extended prompts**
+
+The input field for Build Agent prompts and instructions now expands to accommodate longer text entries.
+
+
+ -   **[Build Agent in ServiceNow Studio UI updates](https://www.servicenow.com/docs/access?context=access-build-agent&family=zurich&ft:locale=en-US)**
 
 Several changes have been made to how you access Build Agent in ServiceNow Studio:
 
@@ -671,7 +772,16 @@ Australia
 
 </td><td>
 
--   **[Build Agent in ServiceNow Studio UI updates](https://www.servicenow.com/docs/access?context=access-build-agent&family=australia&ft:locale=en-US)**
+-   **Autonomous Engineer Test Agent settings enabled by default**
+
+The Test Agent settings for Autonomous Engineer are enabled by default.
+
+-   **Larger input box for extended prompts**
+
+The input field for Build Agent and Autonomous Engineer prompts and instructions now expands to accommodate longer text entries.
+
+
+ -   **[Build Agent in ServiceNow Studio UI updates](https://www.servicenow.com/docs/access?context=access-build-agent&family=australia&ft:locale=en-US)**
 
 Several changes have been made to how you access Build Agent in ServiceNow Studio:
 
@@ -746,7 +856,16 @@ Brazil
 
 </td><td>
 
--   **[Build Agent in ServiceNow Studio UI updates](https://www.servicenow.com/docs/access?context=access-build-agent&family=brazil&ft:locale=en-US)**
+-   **Autonomous Engineer Test Agent settings enabled by default**
+
+The Test Agent settings for Autonomous Engineer are enabled by default.
+
+-   **Larger input box for extended prompts**
+
+The input field for Build Agent and Autonomous Engineer prompts and instructions now expands to accommodate longer text entries.
+
+
+ -   **[Build Agent in ServiceNow Studio UI updates](https://www.servicenow.com/docs/access?context=access-build-agent&family=brazil&ft:locale=en-US)**
 
 Several changes have been made to how you access Build Agent in ServiceNow Studio:
 
@@ -855,7 +974,12 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   **Activation information**
+
+Build Agent is a ServiceNow AI Platform feature that is active by default. You must install Autonomous Engineer.
+
+**Note:** Build Agent is dependent on ServiceNow Otto for Creator. For more information, see [ServiceNow Otto for Creator release notes](https://www.servicenow.com/docs/access?context=now-assist-for-creator-rn&family=australia&ft:locale=en-US). Autonomous Engineer is dependent on Build Agent.
+
 
 </td></tr><tr><td>
 
@@ -865,7 +989,7 @@ Brazil
 
 -   **Activation information**
 
-Build Agent \(Trial\) is a ServiceNow AI Platform feature that is active by default starting with the Brazil release. For Build Agent, you must install ServiceNow Otto for Creator.
+Build Agent \(Trial\) is a ServiceNow AI Platform feature that is active by default starting with the Brazil release. For Build Agent, you must install ServiceNow Otto for Creator. You must install Autonomous Engineer
 
 
 </td></tr></tbody>
@@ -904,9 +1028,8 @@ Brazil
 </td><td>
 
 -   **Additional requirements**
-
-Build Agent is dependent on ServiceNow Otto for Creator.
-
+    -   Build Agent is dependent on ServiceNow Otto for Creator.
+    -   Autonomous Engineer is dependent on Build Agent.
 
 </td></tr></tbody>
 </table>## Browser requirements
@@ -1046,7 +1169,13 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   Accelerate development by reducing backlogs and enabling faster deployment of new business applications, without requiring developers to manually handle repetitive build, test, and deployment steps.
+-   Describe an application in natural language to autonomously generate code, organize files, and manage both UI and back-end components, making development available to users at any level.
+-   Support automated testing through Automated Test Framework \(ATF\) test suite generation and execution, reducing the manual effort required to validate new or updated applications.
+-   Decrease development costs because Build Agent handles code compilation, quality checks, and documentation of existing applications automatically.
+-   Enable agentic development by letting you create agentic workflows, custom AI agents, and skills tailored to your organization directly from within ServiceNow Studio.
+
+ See [Build Agent](https://www.servicenow.com/docs/access?context=build-agent&family=australia&ft:locale=en-US) and [Autonomous Engineer](https://www.servicenow.com/docs/access?context=autonomous-engineer&family=australia&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -1060,7 +1189,7 @@ Brazil
 -   Decrease development costs because Build Agent handles code compilation, quality checks, and documentation of existing applications automatically.
 -   Enable agentic development by letting you create agentic workflows, custom AI agents, and skills tailored to your organization directly from within ServiceNow Studio.
 
- See [Build Agent](https://www.servicenow.com/docs/access?context=build-agent&family=brazil&ft:locale=en-US) for more information.
+ See [Build Agent](https://www.servicenow.com/docs/access?context=build-agent&family=brazil&ft:locale=en-US) and [Autonomous Engineer](https://www.servicenow.com/docs/access?context=autonomous-engineer&family=brazil&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/rn-combined-intro.md)

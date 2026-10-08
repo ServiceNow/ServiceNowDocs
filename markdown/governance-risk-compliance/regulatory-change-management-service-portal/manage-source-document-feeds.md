@@ -82,5 +82,5 @@ The source document alert is assigned to the selected user and it is listed unde
 
 [Manage and assign regulatory event alerts]()
 
-[Train and use the similarity solution to recommend citations on regulatory alerts]()
+[Recommend citations on regulatory alerts]()
 

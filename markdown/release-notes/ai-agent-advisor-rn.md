@@ -1,14 +1,14 @@
 ---
 title: AI Agent Advisor release notes
-description: The ServiceNow AI Agent Advisor application is an AI solution that automatically discovers automation opportunities in your instance and helps you to deploy AI agents to implement them. See the following sections for release notes by version.The September 2026 release adds features to help you configure data source analysis and view your automation opportunities.
+description: The ServiceNow AI Agent Advisor application is an AI solution that automatically discovers automation opportunities in your instance and helps you to deploy AI agents to implement them. See the following sections for release notes by version.The September 2026 release adds features to help you configure data source analysis and view your automation opportunities.The October 2026 release adds the ability to view your automation opportunities in AI Agent Studio and deploy existing and custom AI agents for them in the agent builder.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/ai-agent-advisor-rn.html
 release: brazil
 topic_type: topic
 last_updated: "2026-09-10"
-reading_time_minutes: 1
-keywords: [AI Agent Advisor, Agent Miner, AI, AI agents, AI Agent Advisor, Agent Miner, AI, AI agents]
-breadcrumb: [ServiceNow Otto and agentic AI release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
+reading_time_minutes: 2
+keywords: [AI Agent Advisor, Agent Miner, AI, AI agents, AI Agent Advisor, Agent Miner, AI, AI agents, AI Agent Advisor, Agent Miner, AI, AI agents]
+breadcrumb: [AI Experiences release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # AI Agent Advisor release notes
@@ -39,7 +39,7 @@ See [AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDo
     AI Agent Advisor supports machine translation. Localization is applicable to AI Agent Advisor in all languages supported by the ServiceNow AI Platform.
 
 
-**Parent Topic:**[ServiceNow Otto and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/now-assist-rn-landing.md)
+**Parent Topic:**[AI Experiences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/intelligent-experiences-rn-landing.md)
 
 ## Version 1.4
 
@@ -65,5 +65,23 @@ The September 2026 release adds features to help you configure data source analy
 -   **[Daily recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-admin-center-set-up-data-source.md)**
 
     The daily recommendation is no longer visible. Only three default configurations are available for custom data sets.
+
+
+## Version 1.5
+
+The October 2026 release adds the ability to view your automation opportunities in AI Agent Studio and deploy existing and custom AI agents for them in the agent builder.
+
+### What's new
+
+-   **View automation opportunities in AI Agent Studio**
+
+    View automation opportunities on the AI Agent Studio home page. Select the opportunity to create a custom AI agent or edit an existing AI agent in the agent builder.
+
+
+### What's changed
+
+-   **Updated AI Admin Center experience**
+
+    The new AI Agent Advisor experience in AI Admin Center provides a fresh look and feel, featuring revised pages and navigation to enhance your user experience. The Next Experience AI Admin Center workspace is still supported in this release.
 
 

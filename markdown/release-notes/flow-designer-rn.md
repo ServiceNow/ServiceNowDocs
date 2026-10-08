@@ -22,7 +22,7 @@ The ServiceNow® Workflow Studio flows, subflows, and actions application enable
 -   Pass data between the steps of a flow.
 -   Pass data between child subflows and their parent calling flows.
 
-See [Workflow Studio flows, subflows, and actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio-flows-subflows-and-actions-landing.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 

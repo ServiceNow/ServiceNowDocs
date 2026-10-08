@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-contractmanagementproforlegalservicedelivery-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 6
+last_updated: "2026-10-08"
+reading_time_minutes: 8
 breadcrumb: [Products combined by family]
 ---
 
@@ -139,7 +139,10 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   **[Contract renewals](https://www.servicenow.com/docs/access?context=snlc-renewal-landing&family=australia&ft:locale=en-US)**
+
+Manage contract renewals with a dedicated Renewal request type, available alongside New contract and Amendment. You can link it to an eligible previous contract. When a renewal is signed, a new executed contract record is created with field values copied per configuration. Track the renewal chain from a Contract History tab of the contract repository record.
+
 
 </td></tr><tr><td>
 
@@ -147,7 +150,12 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **[Contract renewals](https://www.servicenow.com/docs/access?context=snlc-renewal-landing&family=brazil&ft:locale=en-US)**
+
+Manage contract renewals with a dedicated Renewal request type, available alongside New contract and Amendment. Submit a renewal request for contracts due for expiry or expired contracts.
+
+After signature, a renewed contract repository record is created with a link to the previous contract. When a renewal is signed, a new executed contract record is created with field values copied per configuration. Track the full renewal chain from the Contract History tab of the contract repository record.
+
 
 </td></tr></tbody>
 </table>## Changes
@@ -195,7 +203,12 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   **[Install ServiceNow Legal Contracts](https://www.servicenow.com/docs/access?context=snlc-install-legal-contracts&family=australia&ft:locale=en-US)**
+
+For new customers adopting Contract Management Pro for Legal Service Delivery, the base system legal intake forms—Non Disclosure Agreement, Third-Party Contract Review, and Contract Amendment and Renewal request intake forms—are hidden by default. If administrators enable these forms, they are available under **Home** &gt; **Legal Services** &gt; **Legal Agreements**.
+
+For existing customers, intake form behavior is preserved after upgrade. Whether the intake forms were enabled or disabled before the upgrade, that configuration remains unchanged.
+
 
 </td></tr><tr><td>
 
@@ -203,7 +216,12 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **[Intake forms availability](https://www.servicenow.com/docs/access?context=snlc-install-legal-contracts&family=brazil&ft:locale=en-US)**
+
+For new installations of Contract Management Pro for Legal Service Delivery, the base system legal intake forms — NonDisclosure Agreement, Third-Party Contract Review, and Contract Amendment and Renewal request intake forms—are hidden by default. If administrators enable these forms, they are available under **Legal Services** &gt; **Legal Agreements**.
+
+For existing customers, intake form behavior is preserved after upgrade. Whether the intake forms were enabled or disabled before the upgrade, that configuration remains unchanged.
+
 
 </td></tr></tbody>
 </table>## Removed
@@ -345,6 +363,8 @@ Install Contract Management Pro for Legal Service Delivery \(sn\_lg\_cnt\) by re
 For details, see [Install ServiceNow Legal Contracts](https://www.servicenow.com/docs/access?context=snlc-install-legal-contracts&family=yokohama&ft:locale=en-US).
 
 
+**Important:** Contract Management Pro for Legal Service Delivery is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Zurich
@@ -357,6 +377,8 @@ Install Contract Management Pro for Legal Service Delivery \(sn\_lg\_cnt\) by re
 
 For details, see [Install ServiceNow Legal Contracts](https://www.servicenow.com/docs/access?context=snlc-install-legal-contracts&family=zurich&ft:locale=en-US).
 
+
+**Important:** Contract Management Pro for Legal Service Delivery is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 

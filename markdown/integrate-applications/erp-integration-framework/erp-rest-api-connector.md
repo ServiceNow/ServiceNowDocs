@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-08-05"
 reading_time_minutes: 2
 keywords: [zero, copy, connector, erp, canvas, data hub, integration, rest, api, openapi, swagger, postman]
-breadcrumb: [Adding an entity to a model, ERP models, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Connecting to ERP with REST, Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # REST API connector for Zero Copy Connector for ERP
@@ -58,6 +58,4 @@ If your REST API runs on-premises or behind a firewall, you can route API calls 
 ## REST API connector tables
 
 For information about the REST API connector tables that support Zero Copy Connector for ERP, see [REST API connector tables for Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-rest-api-tables.md).
-
-**Parent Topic:**[Adding an entity to a model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/add-an-entity-to-model.md)
 

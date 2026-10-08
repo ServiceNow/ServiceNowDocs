@@ -9,6 +9,7 @@ classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
+keywords: [MITRE techniques, roll up, case artifacts, revoked MITRE associations, case management]
 breadcrumb: [Add artifacts to cases or case tasks, Threat Analyst Workbench, Use, Threat Intelligence Security Center, Security Operations]
 ---
 

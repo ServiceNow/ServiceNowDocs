@@ -7,7 +7,7 @@ release: brazil
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Impact Value Management Data Collection Content Pack for IRM, Enable data collection for Value Management, Configuring Impact, Impact]
+breadcrumb: [Impact Value Management Data Collection Content Pack for Governance, Risk, and Compliance, Enable data collection for Value Management, Guided Setup, Configuring Impact, Impact]
 ---
 
 # Review Governance, Risk, and Compliance artifacts
@@ -68,5 +68,5 @@ The app contains the following artifacts for each of the above-specified artifac
 |Manual|Outsourced risk mgmt. spend as % of avg. risk mgmt. spend|
 |Manual|Legacy IRM and privacy systems annual run-rate|
 
-**Parent Topic:**[Impact Value Management Data Collection Content Pack for IRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/data-collection-irm.md)
+**Parent Topic:**[Impact Value Management Data Collection Content Pack for Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/data-collection-irm.md)
 

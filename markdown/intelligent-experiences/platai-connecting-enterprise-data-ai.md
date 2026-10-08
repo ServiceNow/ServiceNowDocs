@@ -15,9 +15,9 @@ breadcrumb: [Managing data for AI, Enable AI Experiences]
 
 Workflow Data Fabric connects enterprise data across systems, governs it through stable contracts, and makes it available to AI agents, workflows, and analytics on the ServiceNow AI Platform.
 
-AI capabilities on the ServiceNow AI Platform are only as effective as the data they can access. Workflow Data Fabric is the unified data foundation that addresses a common enterprise challenge: data scattered across dozens of systems, integrations rebuilt team by team, and AI agents lacking the governed context needed to act reliably. Once data is connected and governed through Workflow Data Fabric, any team can discover and reuse it without rebuilding pipelines or compromising data integrity.
+AI capabilities on the ServiceNow AI Platform are only as effective as the data they can access. Workflow Data Fabric is the unified data foundation that addresses a common enterprise challenge: data scattered across dozens of systems, integrations rebuilt team by team, and AI agents lacking the governed context needed to act reliably. After data is connected and governed through Workflow Data Fabric, any team can discover and reuse it without rebuilding pipelines or compromising data integrity.
 
-## How Workflow Data Fabric supports AI
+## Workflow Data Fabric support for AI
 
 AI agents, generative AI skills, and agentic workflows consume data through the governed contracts that Workflow Data Fabric provides. When an AI agent needs to retrieve information from an external system to complete a task, or when a workflow needs real-time data from a data warehouse to make a decision, Workflow Data Fabric supplies that data through stable, access-controlled interfaces. This means AI capabilities operate on trusted, contextualized data rather than on ad hoc integrations that may lack governance or break over time.
 
@@ -31,11 +31,11 @@ Workflow Data Fabric operates through four phases that separate planning, access
 
 -   **Connect**
 
-    Establish secure connections to external systems in Connect Hub. Connect Hub is a unified workspace for discovering, building, and managing integrations between ServiceNow and external systems. Connection admins configure credentials, authentication, and metadata collectors for external data sources including databases, APIs, data lakes, and SaaS applications.
+    Establish secure connections to external systems in Connect Hub. Connect Hub is a unified workspace for discovering, building, and managing integrations between the ServiceNow platform and external systems. Connection admins configure credentials, authentication, and metadata collectors for external data sources including databases, APIs, data lakes, and SaaS applications.
 
 -   **Understand**
 
-    Convert raw connectivity into governed, reusable data. Metadata collectors automatically populate the Data Catalog with discovered schemas, lineage, and governance metadata. Data stewards author data interfaces in the Data Workbench — stable contracts that define how consumers access data — and package them into data products with business context, documentation, and access controls.
+    Convert raw connectivity into governed, reusable data. Metadata collectors automatically populate the Data Catalog with discovered schemas, lineage, and governance metadata. Data stewards author data interfaces in the Data Workbench — stable contracts that define how consumers access data. Data stewards then package these interfaces into data products with business context, documentation, and access controls.
 
 -   **Act**
 
@@ -65,7 +65,7 @@ Workflow Data Fabric operates through four phases that separate planning, access
     An AI-guided entry point that helps you discover data fabric tables, connectors, and collectors, and request guidance on how to set up integrations. Describe what you need in natural language and Now Assist recommends whether to reuse existing data or connect a new source, then routes you to the right place.
 
 
-## Explore further
+## Additional resources
 
 To connect data sources, define the contracts that govern how that data is accessed, and make it available to AI agents, workflows, and analytics, see [Workflow Data Fabric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/create-integrations-applications.md).
 

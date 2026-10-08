@@ -209,7 +209,7 @@ Enables or disables the adaptive desktop actions on the instance. Set to 'true' 
 
 Roles and permissions
 
-sys\_admin: Read
+admin: Read
 
 </td></tr><tr><td>
 
@@ -221,7 +221,7 @@ Stores a list of websites that AI agents configured with adaptive desktop action
 
 Roles and permissions
 
--   sys\_admin: Read and Write
+-   admin: Read and Write
 -   sn\_naa\_admin: Read and Write
 
 </td></tr><tr><td>
@@ -235,7 +235,7 @@ Specifies, in hours, how long to wait before closing orphaned, running `sn_naa_c
 
 Roles and permissions
 
--   sys\_admin: Read and Write
+-   admin: Read and Write
 -   sn\_naa\_admin: Read and Write
 
 </td></tr><tr><td>
@@ -253,7 +253,7 @@ Keeps the browser tabs that open during goal execution open after the goal compl
 
  Roles and permissions
 
--   sys\_admin: Read and Write
+-   admin: Read and Write
 -   sn\_naa\_admin: Read and Write
 
 </td></tr><tr><td>
@@ -279,7 +279,7 @@ Specifies the maximum duration, in milliseconds, that the web automation tool is
 
 Roles and permissions
 
--   sys\_admin: Read and Write
+-   admin: Read and Write
 -   sn\_naa\_admin: Read and Write
 
 </td></tr><tr><td>
@@ -292,7 +292,7 @@ Instructs the system to pause and request explicit input, confirmation, or a dec
 
 Roles and permissions
 
--   sys\_admin: Read and Write
+-   admin: Read and Write
 -   sn\_naa\_admin: Read and Write
 
 </td></tr><tr><td>
@@ -306,7 +306,7 @@ Specifies, in days, how long to wait before permanently deleting `sn_naa_step` r
 
 Roles and permissions
 
--   sys\_admin: Read and Write
+-   admin: Read and Write
 -   sn\_naa\_admin: Read and Write
 
 </td></tr><tr><td>
@@ -320,7 +320,7 @@ Enables summarization of steps that exceed the history limit, rather than discar
 
 Roles and permissions
 
--   sys\_admin: Read and Write
+-   admin: Read and Write
 -   sn\_naa\_admin: Read and Write
 
 </td></tr><tr><td>
@@ -334,7 +334,7 @@ Sets the maximum number of unsummarized steps allowed before the oldest batch is
 
 Roles and permissions
 
--   sys\_admin: Read and Write
+-   admin: Read and Write
 -   sn\_naa\_admin: Read and Write
 
 </td></tr><tr><td>
@@ -348,7 +348,7 @@ Sets the number of steps combined into a single summary. Larger batches reduce h
 
 Roles and permissions
 
--   sys\_admin: Read and Write
+-   admin: Read and Write
 -   sn\_naa\_admin: Read and Write
 
 </td></tr><tr><td>
@@ -366,7 +366,21 @@ Set it to `local` to run execution through the browser extension.
 
 Roles and permissions
 
-sys\_admin: Read
+admin: Read
+
+</td></tr><tr><td>
+
+sn\_desktop\_core.enable\_reusable\_assets
+
+</td><td>
+
+Allows turning on or off the Reusable Skills feature enables reuse of recorded desktop actions as deterministic assets that execute from user prompts in the AI Desktop Actions application \(macOS\).-   Type: true \| false
+-   Default: false
+
+Roles and permissions
+
+-   admin: Read and Write
+-   sn\_aia.admin and now\_assist\_panel\_user: Read
 
 </td></tr></tbody>
 </table>**Parent Topic:**[AI Desktop Actions reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/agentic-desktop-reference.md)

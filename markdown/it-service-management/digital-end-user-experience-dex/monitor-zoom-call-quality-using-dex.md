@@ -9,7 +9,7 @@ classification: digital-end-user-experience-dex
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Zoom call quality monitoring overview, Monitor application performance, Manage, Digital End-User Experience, IT Service Management]
+breadcrumb: [Zoom call quality monitoring overview, Monitor application performance, Manage employee experience, Digital End-User Experience, IT Service Management]
 ---
 
 # Monitor Zoom call quality using DEX
@@ -35,9 +35,6 @@ The detailed Zoom call metrics include call quality, network performance, and ca
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-    -   AMER \(Americas\): `itomcnc-prod-gateway-amer.sncapps.service-now.com:443`
-    -   EMEA \(Europe\): `itomcnc-prod-gateway-emea.sncapps.service-now.com:443`
-    -   APAC \(Asia Pacific\): `itomcnc-prod-gateway-apac.sncapps.service-now.com:443`
 2.  In the primary navigation pane, select the Devices icon \(\[Omitted image "icon-devices.png"\] Alt text: Devices icon\).
 
 3.  Select a device.

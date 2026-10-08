@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [explore]
-breadcrumb: [Explore, ReleaseOps, Deploying applications, Building applications]
+breadcrumb: [Explore, ReleaseOps, Run, AI Workflow Factory, Building applications]
 ---
 
 # Exploring release lifecycle documentation AI agent
@@ -44,4 +44,6 @@ To learn more about configuring and using the release lifecycle documentation AI
 -   [Configure release lifecycle documentation AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/releaseops/configure-release-lifecycle-documentation-ai-agent.md)
 -   [Generate an update set description](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/releaseops/generate-update-set-description.md)
 -   [Generate release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/releaseops/generate-release-notes.md)
+
+**Parent Topic:**[Exploring ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/releaseops/exploring-release-ops.md)
 

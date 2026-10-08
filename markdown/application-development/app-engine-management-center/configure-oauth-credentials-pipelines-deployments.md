@@ -8,8 +8,8 @@ product: App Engine Management Center
 classification: app-engine-management-center
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 1
-breadcrumb: [Configure environment credentials, Configuration tasks, Configure Pipelines and Deployments, Configure, App Engine Management Center, Governing app development, Building applications]
+reading_time_minutes: 2
+breadcrumb: [Configure environment credentials, Configuration tasks, Configure Pipelines and Deployments, Configure, App Engine Management Center, Run, AI Workflow Factory, Building applications]
 ---
 
 # Configure OAuth credentials for use in Pipelines and Deployments
@@ -38,4 +38,13 @@ Creating and connecting OAuth credentials consists of several tasks that must be
 ## What to do next
 
 When you [Configure your pipeline environments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/config-pipeline-environments.md), make sure you select the correct instance credential records for the instance you're configuring.
+
+-   **[Create OAuth API endpoints for external clients](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/create-oauth-api-endpoints-for-external-clients.md)**  
+Create OAuth API endpoints to enable your controller instance to have two-way communication with your non-production instances. Follow and complete each step carefully on the specified instances before moving on to create your third-party OAuth provider records.
+-   **[Create third-party OAuth provider records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/create-third-party-oauth-provider-records.md)**  
+Create third-party OAuth provider records to enable each of your instances to access the API endpoints you've created.
+-   **[Use OAuth to create pipeline credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/use-oauth-to-create-pipeline-credentials.md)**  
+Create credential records on each of your instances to enable OAuth use in your pipeline.
+
+**Parent Topic:**[Configure environment credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/create-pipeline-credentials.md)
 

@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 6
 keywords: [governance, agentic development, security, compliance, access control, testing, validation, approval, oversight, release management, audit trails]
-breadcrumb: [Explore, Agentic development, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Explore, Agentic development, Build, AI Workflow Factory, Building applications]
 ---
 
 # Governance for agentic development
@@ -105,4 +105,6 @@ For more information, see [AI Control Tower \(legacy\)](https://raw.githubuserco
 When using agentic development, prompts should not only describe functionality but also embed governance requirements. This helps generated apps comply with security, compliance, and quality standards.
 
 See [Example prompts for agentic development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/vibe-coding-example-prompts.md) for example prompts for governance.
+
+**Parent Topic:**[Exploring agentic development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/exploring-vibe-coding.md)
 

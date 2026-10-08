@@ -1,6 +1,6 @@
 ---
 title: Administration cards
-description: The administration cards provide you with the capability to monitor and manage applications, where you can add, enable, or disable as necessary. You can get insights into the policies applied for compliance, view the list of DEX users and DEX administrators, manage the metric rules and devices with Agent Client Collector installed for data analysis.
+description: Administration cards let you monitor and manage applications, including adding, enabling, or disabling cards. Use administration cards to review compliance policies, view DEX users and DEX administrators, and manage metric rules and devices that have Agent Client Collector installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/digital-end-user-experience-dex/administration-cards.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [DEX Application and Device Health reference, Reference, Digital End
 
 # Administration cards
 
-The administration cards provide you with the capability to monitor and manage applications, where you can add, enable, or disable as necessary. You can get insights into the policies applied for compliance, view the list of DEX users and DEX administrators, manage the metric rules and devices with Agent Client Collector installed for data analysis.
+Administration cards let you monitor and manage applications, including adding, enabling, or disabling cards. Use administration cards to review compliance policies, view DEX users and DEX administrators, and manage metric rules and devices that have Agent Client Collector installed.
 
 <table id="table_rjd_p1l_1xb"><thead><tr><th>
 

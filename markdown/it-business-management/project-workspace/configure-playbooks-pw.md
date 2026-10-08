@@ -18,7 +18,7 @@ Configure playbooks to organize project workflows, maintain consistency, and kee
 
 Define a trigger condition in Workflow Studio to use a Playbook, either by selecting an existing one or creating a Playbook.
 
-In Project Workspace, Playbooks are triggered by record creation, record update, or both. For example, a Playbook created for projects is associated with project records, and the Playbook tab appears when a project meets the trigger condition. For more information on how to configure a playbook, see .
+In Project Workspace, Playbooks are triggered by record creation, record update, or both. For example, a Playbook created for projects is associated with project records, and the Playbook tab appears when a project meets the trigger condition. For more information on how to configure a playbook, see [Configuring Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/setting-up-process-automation-designer.md).
 
 There are two pre-defined project management playbooks available in the Workflow studio:
 
@@ -28,10 +28,10 @@ There are two pre-defined project management playbooks available in the Workflow
 To configure playbooks, perform these tasks:
 
 1.  Navigate to **Workflow Studio** and select **Playbooks**.
-2.  Create and configure playbooks according to your requirement. For more information, see Create and configure playbooks.
-3.  Activate one of the two pre-defined playbooks for the Project Workspace and define an appropriate trigger condition. For more information, see  and .
+2.  Create and configure playbooks according to your requirement. For more information, see [Create and configure playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/setting-up-process-automation-designer.md).
+3.  Activate one of the two pre-defined playbooks for the Project Workspace and define an appropriate trigger condition. For more information, see [Activate Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/activate-process-automation-designer.md) and [Triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/process-automation-designer-triggers.md).
 
-Multiple playbooks can be enabled at a time. Define the trigger so that each project is mapped to only one type of playbook. To activate a playbook, see .
+Multiple playbooks can be enabled at a time. Define the trigger so that each project is mapped to only one type of playbook. To activate a playbook, see [Activate Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/activate-process-automation-designer.md).
 
 **Note:**
 
@@ -42,7 +42,9 @@ When a project template is applied or project is created from a demand, the proj
 **Related topics**  
 
 
-[bundle-crworkflow.building-a-process]
+[Building Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/building-a-process.md)
+
+[Designing Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/playbook-experience-admins.md)
 
 [Playbooks in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/playbooks-in-pw.md)
 

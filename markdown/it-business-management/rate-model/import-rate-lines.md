@@ -18,7 +18,7 @@ Use the import rate lines function to quickly add multiple rate lines from an ex
 
 ## Before you begin
 
-Set the **glide.import\_set\_row.dynamically\_add\_fields** system property to true. For more information about the property, see 
+Set the **glide.import\_set\_row.dynamically\_add\_fields** system property to true. For more information about the property, see [Import sets properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/r_ImportSetsProperties.md#section_d4y_pcf_1jb)
 
 Role required: pps\_admin or it\_rate\_model\_admin
 
@@ -51,7 +51,7 @@ After adding or updating rate lines in a file created using the [export function
 
 6.  Select **Run Transform** to import the data.
 
-    For more information, see Run an import.
+    For more information, see [Run an import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/t_RunImport.md).
 
 
 ## Result

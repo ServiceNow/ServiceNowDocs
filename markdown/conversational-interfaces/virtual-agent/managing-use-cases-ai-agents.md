@@ -103,8 +103,8 @@ Delete option for AI agent is inactive in Assistant Designer. The AI agent can o
 
 For detailed information about creating AI agents, see [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configure-next-best-action-agent.md).
 
--   **[Using AI agents in Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/ai-agent-custom-skill.md)**  
-Use an AI agent custom skill to have it perform a task passed to it, such as compiling info on a KB article.
+-   **[AI agents in Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/ai-agent-custom-skill.md)**  
+An AI agent custom skill performs a task that you pass to it from a Virtual Agent topic, such as consolidating the content of a knowledge base article.
 
 **Parent Topic:**[Managing asset library items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent/managing-asset-library-items.md)
 

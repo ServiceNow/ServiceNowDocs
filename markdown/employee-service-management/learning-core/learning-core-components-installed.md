@@ -8,7 +8,7 @@ product: Learning Core
 classification: learning-core
 topic_type: reference
 last_updated: "2026-09-10"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [Reference, Learning Core, HR Service Delivery, Employee Service Management]
 ---
 
@@ -179,24 +179,8 @@ Stores configuration parameters of sources, third-party learning management syst
 </td></tr></tbody>
 </table>**Parent Topic:**[Learning Core Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/learning-core/learning-core-reference.md)
 
-**Parent Topic:**[Learning Core Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/learning-core/learning-core-reference.md)
-
 **Related topics**  
 
-
-[Course catalog form]()
-
-[Learning library form]()
-
-[Learning task form]()
-
-[Life-cycle stages of a content collection in Learning Core]()
-
-[Learning internal content form]()
-
-[Learning External Contents form]()
-
-[Collection form]()
 
 [Course catalog form]()
 

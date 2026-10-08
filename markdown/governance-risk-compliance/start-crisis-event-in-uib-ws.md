@@ -74,7 +74,7 @@ Role required: sn\_bcm.planner, sn\_bcm.program\_manager
 
 9.  Review the **Activity** panel of the event to track a consolidated timeline of the event.
 
-    Activity from the plans, action items, and collaboration threads associated with the event is propagated to the event's **Activity** panel, so you can track everything that happens during the event — for example, when assets are added from an activated plan, when a collaboration thread is created, or when an email is sent — from a single place.
+    Activity from the plans, action items, and collaboration threads associated with the event is propagated to the **Activity** panel. From a single place, track when assets are added from an activated plan, when a collaboration thread is created, or when an email is sent.
 
 10. Review and confirm the group ownership, issue details, and collaboration thread details for the event in separate sections of the PDF and Microsoft Word reports.
 

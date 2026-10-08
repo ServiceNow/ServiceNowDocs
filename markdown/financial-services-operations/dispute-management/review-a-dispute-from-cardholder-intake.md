@@ -9,6 +9,7 @@ classification: dispute-management
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 3
+keywords: [dispute review, cardholder intake, portal intake, workspace intake]
 breadcrumb: [Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
@@ -18,7 +19,7 @@ Review dispute cases that customers submit through the dispute intake portal, or
 
 ## About this task
 
-You can verify disputed and associated transactions, update the dispute reason, change dispute category, fill out a transaction-level questionnaire in cases with multiple transactions, modify the dispute answers, and submit the case for investigation.
+You can verify disputed and associated transactions, update the dispute reason, change the dispute category, and fill out a transaction-level questionnaire in cases with multiple transactions. You can also modify the dispute answers and submit the case for investigation.
 
 ## Before you begin
 
@@ -44,15 +45,15 @@ Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dis
 
 6.  Under the **Review** playbook stage, review the submitted information and make any necessary adjustments.
 
-<table id="choicetable_fwv_5cd_1cc"><thead><tr><th align="left" id="d117375e173">
+<table id="choicetable_fwv_5cd_1cc"><thead><tr><th align="left" id="d117715e164">
 
 Activity
 
-</th><th align="left" id="d117375e176">
+</th><th align="left" id="d117715e167">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d117375e182">
+</th></tr></thead><tbody><tr><td id="d117715e173">
 
 **Review intake**
 
@@ -66,13 +67,13 @@ Review the disputed transactions and the reason for dispute.
 
  To modify the dispute category and reason, select **Modify dispute reason**. Answer the questions presented, then select **Modify**.
 
- Each dispute can only address a single dispute category. If the reason code doesn’t match the dispute category for the case, you must cancel the case and create a new one.
+ Each dispute can only address a single dispute category. If the reason code doesn't match the dispute category for the case, you must cancel the case and create a new one.
 
 **Note:** If the transaction is part of another dispute case, it will be flagged with a link to the case and information on the case outcome.
 
  **Note:** In case of integration with Visa and Mastercard APIs, if an error displays, refer to the **Activity stream** to see the error cause, resolve it and then select **Continue** to be able to proceed to the next activity.
 
-</td></tr><tr><td id="d117375e239">
+</td></tr><tr><td id="d117715e230">
 
 **Additional questions**
 
@@ -80,7 +81,7 @@ Review the disputed transactions and the reason for dispute.
 
 Provide answers to any additional questions not answered by the customer and update any additional questions as required. If the dispute category changes, the system will produce a questionnaire for the newly selected category, which you must fill out. Select **Continue** when you have finished the questionnaire.
 
-</td></tr><tr><td id="d117375e251">
+</td></tr><tr><td id="d117715e242">
 
 **Customer signature required**
 
@@ -96,7 +97,7 @@ For compliance purposes, inform the customer to sign a written statement for the
 
  **Note:** In order for users to view the Written Statement of Unauthorized Debit \(WSUD\) document, the Document Templates \[sn\_doc\] plugin must be activated.
 
-</td></tr><tr><td id="d117375e278">
+</td></tr><tr><td id="d117715e269">
 
 **Submit for investigation**
 

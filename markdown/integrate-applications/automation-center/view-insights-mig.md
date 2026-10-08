@@ -9,7 +9,7 @@ classification: automation-center
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Migrating automations from UiPath and Blue Prism to ServiceNow RPA Hub, Use, Automation Center, Workflow Data Fabric]
+breadcrumb: [Migrating automations from third-party applications, Use, Automation Center, Workflow Data Fabric]
 ---
 
 # View insights of the report
@@ -24,7 +24,7 @@ Role required: sn\_ac.automation\_business\_user, sn\_ac.automation\_technical\_
 
 1.  Navigate to **Workspaces** &gt; **Automation Center Workspace**.
 
-2.  Select the Migration accelerator icon \(\[Omitted image "mig-acc-icon.png"\] Alt text: Migration accelerator icon\) on the side bar.
+2.  Select the Migration accelerator icon \(\[Omitted image "mig-acc-icon.png"\] Alt text: Migration accelerator icon\) on the sidebar.
 
 3.  Select the report whose details you want to view.
 
@@ -114,5 +114,5 @@ Select **View all integrations** to view the list of integrations.
     You can select the automation that you want to migrate from this list.
 
 
-**Parent Topic:**[Migrating automations from UiPath and Blue Prism to ServiceNow RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/automation-center/migrating-automations-from-uipath.md)
+**Parent Topic:**[Migrating automations from third-party applications to RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/automation-center/migrating-automations-from-uipath.md)
 

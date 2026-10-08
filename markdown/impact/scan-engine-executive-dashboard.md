@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/scan-engine-executive-dashboard.html
 release: brazil
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 3
+last_updated: "2026-10-01"
+reading_time_minutes: 2
 breadcrumb: [Track Platform Health trends, Platform Health, Using Impact, Impact]
 ---
 
@@ -28,7 +28,7 @@ Outstanding technical debt
 
 </td><td>
 
--   The total time required to resolve existing technical debt on your platform, based on the effort of a single developer.  It does not include time for testing, validation, or other stages of the software development life-cycle \(SDLC\).
+-   The total time required to resolve existing technical debt on your platform, based on the effort of a single developer. It does not include time for testing, validation, or other stages of the software development life-cycle \(SDLC\).
 -   The graph line shows the trend of technical debt over a certain time period.
 -   The time period shown depends on available data, with a maximum of 90 days of information displayed.
 
@@ -38,178 +38,63 @@ Technical debt prevented
 
 </td><td>
 
--   Reflects the amount of technical debt prevented from entering the instance because of the Scan Engine’s real-time prevention.
--   The graph line shows the trend of technical debt prevented over the past month.
+-   Reflects the amount of technical debt prevented from entering the instance because of the Scan Engine's real-time prevention.
+-   The graph line shows the trend of prevented technical debt over a certain time period.
+-   The time period shown depends on available data, with a maximum of 90 days of information displayed.
 
 </td></tr><tr><td>
 
-Health score
+Platform Health Score
 
 </td><td>
 
-The health score represents the percentage of definition occurrences used across the platform that did not return any findings. It is calculated as:
+-   A 0–100 metric showing your overall instance platform risk across five weighted categories.
+-   Combines Security, Performance, Manageability, Upgradeability, and User Experience risk independently so that higher severity violations carry more weight than cosmetic issues.
+-   Each category is scored separately and unaffected by changes in other categories, giving you a stable indicator of true platform health without false shifts.
 
- `(1 - (F / D)) * 100`
-
- Where F is the number of findings, and D is the number of definition occurrences.
-
- "Definition occurrences" refers to the total number of times a definition has been executed by the Scan Engine to generate findings.
+ For the complete calculation model and category weights, see [Platform Health score calculation model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/instance-health-score-calculation.md).
 
 </td></tr><tr><td>
 
-Health score thresholds
+Instance adoption risk
 
 </td><td>
 
--   90-100% = Excellent
--   80-89% = Good
--   70-79% = Fair
--   Below 70% = At risk
+-   An assessment of the risk of adopting the latest ServiceNow instance version.
+-   Risk factors are identified based on the current state of your instance's platform health, including quality, compliance, security, and other standards.
+-   The three levels of adoption risk are low, medium, and high.
 
 </td></tr><tr><td>
 
-Findings resolved by proposed fix
+Cost and time savings from remediation
 
 </td><td>
 
-The number of findings resolved using the proposed fix feature. **Note:** This feature is only available to ServiceNow customers who have purchased the Impact Total package or the Platform Health add-on.
-
-</td></tr><tr><td>
-
-Findings by categories
-
-</td><td>
-
--   The estimated amount of development cost required to resolve all findings within each category.
--   The value shown in the center is the combined total finding of cost, time, or count for all categories
-
-</td></tr><tr><td>
-
-Active definitions
-
-</td><td>
-
-The definitions used to determine violations with the Scan Engine.
-
-</td></tr><tr><td>
-
-Findings resolved by AI
-
-</td><td>
-
-The number of findings resolved using the Code Fix AI Agent feature.**Note:** This feature is only available to ProPlus customers.
+-   Reflects the cost savings and time savings your organization has gained by remediating findings through the Scan Engine.
+-   Cost savings are based on avoided downtime, prevented data breach expenses, and other remediation benefits.
+-   The chart shows current cost and time savings, as well as trends over time.
 
 </td></tr></tbody>
-</table>## Executive dashboard trend charts
+</table>## Executive trend charts
 
 The Executive dashboard includes the following trend charts.
 
-<table id="table_zwq_yhl_fhc"><thead><tr><th>
+|Trend chart|Description|
+|-----------|-----------|
+|Technical debt trend|A trend line showing the total outstanding technical debt over time, compared against the technical debt prevented by the Scan Engine.|
+|Platform Health Score trend|A trend line showing your overall Platform Health score over time, with the five category scores displayed so you can track which risk areas are improving or worsening.|
+|Instance adoption risk trend|A trend line showing changes in your adoption risk level over time.|
+|Cost and time savings trend|A trend line showing cumulative cost and time savings gained through remediation efforts.|
 
-Chart
+## Data sources
 
-</th><th>
+Modules and trend charts on the Executive dashboard source data from the sn\_se\_scan\_result \[sn\_se\_scan\_result\] table.
 
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Outstanding technical debt
-
-</td><td>
-
--   The amount of development time required to resolve all findings.
--   You can customize the time period using the date selector.
-
-</td></tr><tr><td>
-
-Health score
-
-</td><td>
-
-The percentage of scanned definitions that returned zero findings. This is calculated as:`1 - (F / D) * 100`
-
-Where F is the number of findings, and D is the number of definition occurrences.
-
-</td></tr><tr><td>
-
-Outstanding findings
-
-</td><td>
-
-The trend of all findings found during the scheduled instance scan.
-
-</td></tr><tr><td>
-
-Total impact to instance
-
-</td><td>
-
--   The total impact to instances, derived from the sum of the scheduled scan findings over the selected time period.
--   Represents the impact of your findings to your instance when a finding is not resolved.
--   You can customize the time period using the date selector.
-
-</td></tr><tr><td>
-
-Real-time preventions
-
-</td><td>
-
--   The sum of real-time preventions over the selected time period.
--   A real-time prevention is when the Scan Engine prevents a finding from being saved.
--   You can customize the time period using the date selector.
-
-</td></tr><tr><td>
-
-Total resolved findings
-
-</td><td>
-
--   The trends for all resolved findings found from nightly instance scanning over the selected time period.
--   You can customize the time period using the date selector.
--   You can select one of the following display options:
-    -   **All resolved findings**
-    -   **Findings by proposed fix applied**
-    -   **Findings that were resolved manually**
-
- **Note:** The Scan Engine property **Track resolved findings** must be active to populate this chart. See [Configure Scan Engine parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/configure-scan-engine-properties.md).
-
-</td></tr><tr><td>
-
-Instance comparison
-
-</td><td>
-
-A side-by-side comparison of the technical debt for all instances in the My SN Instances table. Technical debt is broken down by category to quickly view differences between environments.
-
-</td></tr></tbody>
-</table>## Executive dashboard data sources
-
-The following tables show the data source for each overview and trend chart in the Executive dashboard.
-
-**Note:** All components require either the impact.admin or impact.executive role to use.
-
-|Component|Data Source|
-|---------|-----------|
-|Outstanding technical debt|sn\_se\_summary\_scan\_detail|
-|Technical debt prevented|sn\_se\_onsubmit\_prevention|
-|Health score|sn\_se\_scan\_result|
-|Findings resolved by proposed fix|sn\_se\_resolved\_finding\_history|
-|Findings by categories|sn\_se\_summary\_scan\_detail|
-|Active definitions|sn\_se\_definition|
-|Codefix AI agent|sn\_impact\_code\_remediation\_suggestion\_item|
-|Outstanding findings|sn\_se\_summary\_scan\_detail|
-|Definition occurrences|sn\_se\_scan\_result|
-
-| | |
-|---|---|
-|Outstanding technical debt|sn\_se\_summary\_scan\_detail|
-|Health score|sn\_se\_scan\_result|
-|Outstanding findings|sn\_se\_scan\_result|
-|Total impact to instance|sn\_se\_scan\_result|
-|Real time preventions|sn\_se\_onsubmit\_prevention|
-|Total resolved findings|sn\_se\_scan\_result|
-|Instance comparison|sn\_se\_my\_sn\_instances|
-
-**Note:** `sn_se_scan_result` and `sn_se_summary_scan_detail` are populated from the latest full scan or delta scan, the values are updated after the scan is completed.
+|Modules|Trend charts|
+|-------|------------|
+|Outstanding technical debt|Technical debt trend|
+|Technical debt prevented|Platform Health Score trend|
+|Platform Health Score|Instance adoption risk trend|
+|Instance adoption risk|Cost and time savings trend|
+|Cost and time savings from remediation| |
 

@@ -79,5 +79,5 @@ To create an entity, you can also use the **Confirm details and convert to selec
 
 ## Result
 
-After the entity is created from the demand and associated with it, the demand type and category can't be changed. This restriction applies because work items are already linked to the demand when the artifact is created.
+After the entity is created from the demand and associated with it, the demand type and category can't be changed. This restriction applies because work items are already linked to the demand once the artifact is created.
 

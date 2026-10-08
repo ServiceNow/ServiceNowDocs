@@ -30,15 +30,15 @@ Hardware and consumable models with a status of **Fully Normalized**, **Partiall
 
 1.  Navigate to a normalized hardware or consumable record.
 
-<table id="choicetable_dsq_fhg_ywb"><thead><tr><th align="left" id="d299636e98">
+<table id="choicetable_dsq_fhg_ywb"><thead><tr><th align="left" id="d300506e98">
 
 Interface
 
-</th><th align="left" id="d299636e101">
+</th><th align="left" id="d300506e101">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d299636e107">
+</th></tr></thead><tbody><tr><td id="d300506e107">
 
 **Core UI**
 
@@ -48,7 +48,7 @@ Action
 -   For consumable models, navigate to **All** &gt; **Product Catalog** &gt; **Product Models** &gt; **Consumable models**.
 
 
-</td></tr><tr><td id="d299636e155">
+</td></tr><tr><td id="d300506e155">
 
 **Hardware Asset Workspace**
 

@@ -356,16 +356,6 @@ Specifies the maximum number of cursor-based pagination iterations to perform wh
 
 </td></tr><tr><td>
 
-mcp\_guardian\_check
-
-</td><td>
-
-Determines whether AI Guardian runs on MCP tool executions.You can enable guardian check for MCP Client when the value is set to **true**. The default value is **false**.
-
-**Note:** To enable guardian check for MCP Client, ensure that you enable AI Guardian on **AI Agent Studio** &gt; **Settings** page.
-
-</td></tr><tr><td>
-
 com.glide.agentic\_processes\_view.enabled
 
 </td><td>
@@ -568,6 +558,18 @@ Determines whether agentic AI-generated responses in ServiceNow Otto panel or in
 </td><td>
 
 false
+
+</td></tr><tr><td>
+
+mcp\_guardian\_check
+
+</td><td>
+
+Determines whether AI Guardian runs on MCP tool executions.**Note:** To enable guardian check for MCP Client, ensure that you enable AI Guardian on **AI Agent Studio** &gt; **Settings** page.
+
+</td><td>
+
+You can enable guardian check for MCP Client when the value is set to **true**. The default value is **false**.
 
 </td></tr><tr><td>
 

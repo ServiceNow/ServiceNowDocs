@@ -206,5 +206,5 @@ You can configure specific actions to be directly available on the standard tick
 
 [Configure actions for standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/configure-actions-for-standard-ticket-page.md)
 
-[Now Assist in Standard Ticket Page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-in-standard-ticket-page.md)
+[ServiceNow Otto in Standard Ticket Page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-in-standard-ticket-page.md)
 

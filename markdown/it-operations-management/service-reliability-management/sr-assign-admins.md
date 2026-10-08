@@ -34,6 +34,8 @@ The SRM admin can add and create teams. They can also manage data across all SRM
 
 4.  Enter user names in the field.
 
+    Users must have an email address associated with their user record to appear in the search results.
+
 5.  Select **Save**.
 
 

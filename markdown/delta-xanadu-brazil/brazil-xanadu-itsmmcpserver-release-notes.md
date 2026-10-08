@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-itsmmcpserver-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 11
+last_updated: "2026-10-08"
+reading_time_minutes: 12
 breadcrumb: [Products combined by family]
 ---
 
@@ -298,7 +298,14 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **[Changes to the ITSM MCP Server tools](https://www.servicenow.com/docs/access?context=itsm-mcp-server-tools-reference&family=zurich&ft:locale=en-US)**
+    -   You need the sn\_mcp\_server.viewer role as the base role to access ITSM MCP server.
+    -   The **sn\_itsm\_mcp\_server.incident.get\_details** and **sn\_itsm\_mcp\_server.incident.modify** incident tools are available to both fulfillers and requesters.
+        -   As a fulfiller, you can use the **sn\_itsm\_mcp\_server.incident.modify** tool to also escalate incidents.
+        -   As a requester, you can use the **sn\_itsm\_mcp\_server.incident.get\_details** to check the status of a specific incident.
+    -   The **sn\_itsm\_mcp\_server.requester.add\_comment** tool has been renamed to **sn\_itsm\_mcp\_server.request.modify**.
+        -   As a requester, you can use the **sn\_itsm\_mcp\_server.request.modify** tool to add customer-visible comments to the requested items.
+        -   As a fulfiller, you can use the **sn\_itsm\_mcp\_server.incident.modify** to add customer-visible comments to incidents.
 
 </td></tr><tr><td>
 
@@ -306,7 +313,14 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   **[Changes to the ITSM MCP Server tools](https://www.servicenow.com/docs/access?context=itsm-mcp-server-tools-reference&family=australia&ft:locale=en-US)**
+    -   You need the sn\_mcp\_server.viewer role as the base role to access ITSM MCP server.
+    -   The **sn\_itsm\_mcp\_server.incident.get\_details** and **sn\_itsm\_mcp\_server.incident.modify** incident tools are available to both fulfillers and requesters.
+        -   As a fulfiller, you can use the **sn\_itsm\_mcp\_server.incident.modify** tool to also escalate incidents.
+        -   As a requester, you can use the **sn\_itsm\_mcp\_server.incident.get\_details** to check the status of a specific incident.
+    -   The **sn\_itsm\_mcp\_server.requester.add\_comment** tool has been renamed to **sn\_itsm\_mcp\_server.request.modify**.
+        -   As a requester, you can use the **sn\_itsm\_mcp\_server.request.modify** tool to add customer-visible comments to the requested items.
+        -   As a fulfiller, you can use the **sn\_itsm\_mcp\_server.incident.modify** to add customer-visible comments to incidents.
 
 </td></tr><tr><td>
 
@@ -314,10 +328,14 @@ Brazil
 
 </td><td>
 
--   **[Changes to ITSM MCP server tools](https://www.servicenow.com/docs/access?context=itsm-mcp-server-tools-reference&family=brazil&ft:locale=en-US)**
-    -   Added role restrictions for the ITSM MCP Change management tools.
-    -   The **sn\_itsm\_mcp\_server.incident.get\_details**and **sn\_itsm\_mcp\_server.incident.modify** incident tools are available to both fulfillers and requesters. You use the **sn\_itsm\_mcp\_server.incident.modify** tool to also escalate incidents.
-    -   The **sn\_itsm\_mcp\_server.requester.add\_comment** tool has been renamed to **sn\_itsm\_mcp\_server.request.modify**. Using this tool the requester can add customer-visible comments to their Requested Items. To add customer-visible comments to incidents, use the **sn\_itsm\_mcp\_server.incident.modify** tool.
+-   **[Changes to the ITSM MCP Server tools](https://www.servicenow.com/docs/access?context=itsm-mcp-server-tools-reference&family=brazil&ft:locale=en-US)**
+    -   You need the sn\_mcp\_server.viewer role as the base role to access ITSM MCP server.
+    -   The **sn\_itsm\_mcp\_server.incident.get\_details** and **sn\_itsm\_mcp\_server.incident.modify** incident tools are available to both fulfillers and requesters.
+        -   As a fulfiller, you can use the **sn\_itsm\_mcp\_server.incident.modify** tool to also escalate incidents.
+        -   As a requester, you can use the **sn\_itsm\_mcp\_server.incident.get\_details** to check the status of a specific incident.
+    -   The **sn\_itsm\_mcp\_server.requester.add\_comment** tool has been renamed to **sn\_itsm\_mcp\_server.request.modify**.
+        -   As a requester, you can use the **sn\_itsm\_mcp\_server.request.modify** tool to add customer-visible comments to the requested items.
+        -   As a fulfiller, you can use the **sn\_itsm\_mcp\_server.incident.modify** to add customer-visible comments to incidents.
 
 </td></tr></tbody>
 </table>## Removed
@@ -407,7 +425,10 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **[Deprecated sn\_itsm\_mcp\_server.requester.escalate tool](https://www.servicenow.com/docs/access?context=manage-employee-experience-itsm-mcp-server&family=zurich&ft:locale=en-US)**
+
+The **sn\_itsm\_mcp\_server.requester.escalate** tool is turned off by default. Use **sn\_itsm\_mcp\_server.incident.modify** with the **escalate** and **escalation\_reason** inputs instead.
+
 
 </td></tr><tr><td>
 
@@ -415,7 +436,10 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   **[Deprecated sn\_itsm\_mcp\_server.requester.escalate tool](https://www.servicenow.com/docs/access?context=manage-employee-experience-itsm-mcp-server&family=australia&ft:locale=en-US)**
+
+The **sn\_itsm\_mcp\_server.requester.escalate** tool is turned off by default. Use **sn\_itsm\_mcp\_server.incident.modify** with the **escalate** and **escalation\_reason** inputs instead.
+
 
 </td></tr><tr><td>
 
@@ -425,7 +449,7 @@ Brazil
 
 -   **[Deprecated sn\_itsm\_mcp\_server.requester.escalate tool](https://www.servicenow.com/docs/access?context=manage-employee-experience-itsm-mcp-server&family=brazil&ft:locale=en-US)**
 
-The **sn\_itsm\_mcp\_server.requester.escalate** tool is disabled by default. Use **sn\_itsm\_mcp\_server.incident.modify** with the **escalate** and **escalation\_reason** inputs instead.
+The **sn\_itsm\_mcp\_server.requester.escalate** tool is turned off by default. Use **sn\_itsm\_mcp\_server.incident.modify** with the **escalate** and **escalation\_reason** inputs instead.
 
 
 </td></tr></tbody>
@@ -465,12 +489,12 @@ Zurich
 
 -   **Activation information**
 
-ITSM MCP Server is available with activation of the following plugins:
+Activate these plugins to use ITSM MCP Server:
 
-    -   ServiceNow Otto for IT Service Management \(ITSM\) plugin \(sn\_itsm\_gen\_ai\)
+    -   Now Assist for ITSM plugin \(sn\_itsm\_gen\_ai\)
     -   Model Context Protocol Server \(sn\_mcp\_server\)
     -   ITSM MCP Server \(sn\_itsm\_mcp\_server\)
-For details, see [\[Placeholder link text to key set-up-itsm-mcp-server\]](https://www.servicenow.com/docs/access?context=set-up-itsm-mcp-server&family=zurich&ft:locale=en-US).
+For details, see [Activate the ITSM MCP Server](https://www.servicenow.com/docs/access?context=set-up-itsm-mcp-server&family=zurich&ft:locale=en-US).
 
 
 </td></tr><tr><td>
@@ -481,12 +505,12 @@ Australia
 
 -   **Activation information**
 
-ITSM MCP Server is available with activation of the following plugins:
+Activate these plugins to use ITSM MCP Server:
 
-    -   ServiceNow Otto for IT Service Management \(ITSM\) plugin \(sn\_itsm\_gen\_ai\)
+    -   Now Assist for ITSM plugin \(sn\_itsm\_gen\_ai\)
     -   Model Context Protocol Server \(sn\_mcp\_server\)
     -   ITSM MCP Server \(sn\_itsm\_mcp\_server\)
-For details, see [\[Placeholder link text to key set-up-itsm-mcp-server\]](https://www.servicenow.com/docs/access?context=set-up-itsm-mcp-server&family=australia&ft:locale=en-US).
+For details, see [Activate the ITSM MCP Server](https://www.servicenow.com/docs/access?context=set-up-itsm-mcp-server&family=australia&ft:locale=en-US).
 
 
 </td></tr><tr><td>
@@ -497,12 +521,12 @@ Brazil
 
 -   **Activation information**
 
-ITSM MCP Server is available with activation of the following plugins:
+Activate these plugins to use ITSM MCP Server:
 
-    -   ServiceNow Otto for IT Service Management \(ITSM\) plugin \(sn\_itsm\_gen\_ai\)
+    -   Now Assist for ITSM plugin \(sn\_itsm\_gen\_ai\)
     -   Model Context Protocol Server \(sn\_mcp\_server\)
     -   ITSM MCP Server \(sn\_itsm\_mcp\_server\)
-For details, see [\[Placeholder link text to key set-up-itsm-mcp-server\]](https://www.servicenow.com/docs/access?context=set-up-itsm-mcp-server&family=brazil&ft:locale=en-US).
+For details, see [Activate the ITSM MCP Server](https://www.servicenow.com/docs/access?context=set-up-itsm-mcp-server&family=brazil&ft:locale=en-US).
 
 
 </td></tr></tbody>
@@ -763,7 +787,7 @@ Using ITSM MCP Server, manage incidents, change requests, and on-call schedule. 
 -   **On-call scheduling:** Retrieve rosters and shifts, request time off, and query availability through natural-language questions.
 
 
- See [\[Placeholder link text to key itsm-mcp-server-overview\]](https://www.servicenow.com/docs/access?context=itsm-mcp-server-overview&family=zurich&ft:locale=en-US) for more information.
+ See [ITSM MCP Server](https://www.servicenow.com/docs/access?context=itsm-mcp-server-overview&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -782,7 +806,7 @@ Using ITSM MCP Server, manage incidents, change requests, and on-call schedule. 
 -   **On-call scheduling:** Retrieve rosters and shifts, request time off, and query availability through natural-language questions.
 
 
- See [\[Placeholder link text to key itsm-mcp-server-overview\]](https://www.servicenow.com/docs/access?context=itsm-mcp-server-overview&family=australia&ft:locale=en-US) for more information.
+ See [ITSM MCP Server](https://www.servicenow.com/docs/access?context=itsm-mcp-server-overview&family=australia&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 
@@ -801,7 +825,7 @@ Using ITSM MCP Server, manage incidents, change requests, and on-call schedule. 
 -   **On-call scheduling:** Retrieve rosters and shifts, request time off, and query availability through natural-language questions.
 
 
- See [\[Placeholder link text to key itsm-mcp-server-overview\]](https://www.servicenow.com/docs/access?context=itsm-mcp-server-overview&family=brazil&ft:locale=en-US) for more information.
+ See [ITSM MCP Server](https://www.servicenow.com/docs/access?context=itsm-mcp-server-overview&family=brazil&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-xanadu-brazil/rn-combined-intro.md)

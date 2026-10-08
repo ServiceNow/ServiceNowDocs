@@ -1,6 +1,6 @@
 ---
 title: Set up routing policy for automated certificate management
-description: Set up a routing policy to automate your Certificate Inventory and Management. Creating a policy based on Certificate Authority \(CA\), environment, and other features ensures efficient TLS certificate management.
+description: Set up a routing policy to automate your Certificate Inventory and Management. Creating a policy based on Certificate Authority \(CA\), environment, and other features confirm efficient TLS certificate management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-operations-management/discovery/setup-routing-policy.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Automated certificate management for TLS certificates, Configure, C
 
 # Set up routing policy for automated certificate management
 
-Set up a routing policy to automate your Certificate Inventory and Management. Creating a policy based on Certificate Authority \(CA\), environment, and other features ensures efficient TLS certificate management.
+Set up a routing policy to automate your Certificate Inventory and Management. Creating a policy based on Certificate Authority \(CA\), environment, and other features confirm efficient TLS certificate management.
 
 ## Before you begin
 
@@ -22,9 +22,14 @@ Role required: pki\_admin or admin
 
 ## About this task
 
-The routing policy decides which CA must be contacted for certificate operations. It contains the CA, CA URL, Credential, Approval Group, Assignment Group, and CSR attributes. The routing policy triggers the flow for requesting certificates for specific CAs.
+Use the routing policy to determine which CA must be contacted for certificate operations. It contains the CA, CA URL, Credential, Approval Group, Assignment Group, and CSR attributes. The routing policy triggers the flow for requesting certificates for specific CAs.
 
-**Note:** A certificate request is considered a duplicate if there is another certificate task with the same domain name that is still in progress. Duplicate certificate requests are not allowed. However, you can override this setting by checking the Allow duplicate requests check box. Approvals are only supported in the Fulfiller approval experience at this time. See a table of fields that go into the routing policies at, [Certificate routing policy form for EJBCA ACME](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/certificate-routing-policy-form-table.md).
+A certificate request is considered a duplicate if there is another certificate task with the same domain name that is still in progress. Duplicate certificate requests aren't allowed. However, you can override this setting by checking the **Allow duplicate requests** check box.
+
+**Note:**
+
+-   Approvals are only supported in the Fulfiller approval experience at this time. See a table of fields that go into the routing policies at, [Certificate routing policy form for EJBCA ACME](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/certificate-routing-policy-form-table.md).
+-   When the CA's certificates needs to be picked up by Discovery, the same credential alias must be set as the `CredentialAlias` argument on the corresponding CA discovery pattern. Both associations use the identical alias value, one enables authentication for discovery, the other for automated certificate requests.
 
 ## Procedure
 
@@ -41,7 +46,7 @@ The routing policy decides which CA must be contacted for certificate operations
     -   It should not contain commas.
     -   It should not start and end with a forward slash \(/\) and \* matches any.
     -   For more inforamtion about the fields and values on a routing policy form, see [.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/discovery/certificate-routing-policy-form-table.md)
-3.  The following CSR attributes are matched with the entries in the Routing Policy \[sn\_disco\_certmgmt\_routing\_policy\] table:
+3.  The system matches the following CSR attributes with the entries in the Routing Policy \[sn\_disco\_certmgmt\_routing\_policy\] table:
 
     -   Organization
     -   Organizational Unit
@@ -53,11 +58,11 @@ The routing policy decides which CA must be contacted for certificate operations
     -   Certificate Purpose\(internal/external\)
     -   Subject common name
     -   Subject alternative name
-    **Note:** For Entrust CA Gateway, there are also these fields: Certificate Authority Identifier, Certificate Profile, and Certificate Format. For Microsoft CA also use these fields: Certificate Authority, CA template name, CA Host IP, Credential, and CSR attributes. For DigiCert, the routing policy also requires a Certificate Authority API URL field to handle automated processes and revocation flows.
+    **Note:** Entrust CA Gateway routing policies also include these fields: Certificate Authority Identifier, Certificate Profile, and Certificate Format. For Microsoft CA also use these fields: Certificate Authority, CA template name, CA Host IP, Credential, and CSR attributes. For DigiCert, the routing policy also requires a Certificate Authority API URL field to handle automated processes and revocation flows.
 
 4.  The following options may occur.
 
-<table id="choicetable_ccx_lnc_nqb"><tbody><tr><td id="d78362e186">
+<table id="choicetable_ccx_lnc_nqb"><tbody><tr><td id="d78916e202">
 
 **If a single routing policy matches**
 
@@ -68,7 +73,7 @@ Verify the following conditions: -   Validate the subject common name using the 
 -   Check for duplicate Certificate Request is allowed flag in the Routing Policy table.
 
 
-</td></tr><tr><td id="d78362e207">
+</td></tr><tr><td id="d78916e223">
 
 **If multiple routing policies are eligible**
 
@@ -76,7 +81,7 @@ Verify the following conditions: -   Validate the subject common name using the 
 
 The task is assigned to the default approver group.
 
-</td></tr><tr><td id="d78362e216">
+</td></tr><tr><td id="d78916e232">
 
 **If there is no routing policy found**
 
@@ -84,7 +89,7 @@ The task is assigned to the default approver group.
 
 The task is assigned to the default approver group.
 
-</td></tr><tr><td id="d78362e225">
+</td></tr><tr><td id="d78916e241">
 
 **If single policy matches and approval needed flag is true**
 

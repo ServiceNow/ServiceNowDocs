@@ -23,7 +23,7 @@ Offboarding AI system, models, and datasets involves both governance activities 
 
 During offboarding, governance review may include assessing how retiring an AI asset affects users, business processes, and dependent systems. The review also determines whether continued use, reuse, or retirement of related models or datasets is appropriate. Additionally, assessments performed during offboarding confirm that governance requirements associated with the AI asset are fully addressed before retirement. These assessments do not introduce new ongoing monitoring or post‑retirement requirements.
 
-AI Risk and Compliance is used to perform and document governance reviews associated with offboarding. AI Control Tower can be used to manage technical life-cycle workflows for AI assets based on governance outcomes. Offboarding is initiated when an AI asset owner \(sn\_ai\_asset\_mgmt.ai\_asset\_owner\) or steward \(sn\_ai\_governance\_ai\_steward\) submits an offboarding request in the control, which then drives governance review activities in the AI Risk and Compliance Workspace. For more information, see [Create offboarding requests for AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-ai-asset-offboarding-request.md).
+AI Risk and Compliance is used to perform and document governance reviews associated with offboarding. AI Control Tower can be used to manage technical life-cycle workflows for AI assets based on governance outcomes. Offboarding is initiated when an AI asset owner \(sn\_ai\_asset\_mgmt.ai\_asset\_owner\) or steward \(sn\_ai\_governance.ai\_steward\) submits an offboarding request in the control, which then drives governance review activities in the AI Risk and Compliance Workspace. For more information, see [Create offboarding requests for AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-ai-asset-offboarding-request.md).
 
 ## Governance activities in AI Risk and Compliance during offboarding
 
@@ -37,11 +37,11 @@ For more information about the AI governance life cycle and how offboarding fits
 
 In AIRC, practitioners can perform activities such as reviewing regulatory risk classifications and completing or updating impact assessments. They can also conduct conformity or policy-alignment reviews as part of the AI life cycle.
 
-For more information, see and .
+For more information, see [Perform impact assessment on an AI use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/perform-impact-assessment-of-ai-use-case.md) and [Initiate risk assessment on AI asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/initiate-risk-assessment-on-ai-systems.md).
 
 Offboarding is considered complete when required governance reviews are finished, related issues are resolved or formally accepted, and the AI asset life-cycle status is updated to retired.
 
-For more information about resolving governance issues before asset retirement, see .
+For more information about resolving governance issues before asset retirement, see [Remediate an issue in AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/remediate-an-issue-in-airc.md).
 
 ## Life cycle tasks executed during AI asset offboarding
 
@@ -51,4 +51,8 @@ Governance life cycle tasks support review, preparation, and retirement of AI sy
 
 
 [AI governance life cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/ai-gov-lifecycle.md)
+
+[Remediate an issue in AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/remediate-an-issue-in-airc.md)
+
+[Perform impact assessment on an AI use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/perform-impact-assessment-of-ai-use-case.md)
 

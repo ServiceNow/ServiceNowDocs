@@ -1,6 +1,6 @@
 ---
 title: SRE investigate AI agent
-description: This AI agent coordinates investigation activities across multiple observability platforms by orchestrating tool-specific agents, such as Dynatrace, New Relic, Kentik, SolarWinds, Splunk, AWS, ThousandEyes, and LogicMonitor. It correlates findings, identifies root causes, and synthesizes comprehensive investigation reports.
+description: This AI agent coordinates investigation activities across multiple observability platforms by orchestrating tool-specific agents. It correlates findings, identifies probable root causes, and synthesizes comprehensive investigation reports.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/itom-obs-sre-investigate-ai-agent.html
 release: brazil
@@ -12,18 +12,18 @@ breadcrumb: [IT Operations Management AI agents, IT Operations Management, AI ag
 
 # SRE investigate AI agent
 
-This AI agent coordinates investigation activities across multiple observability platforms by orchestrating tool-specific agents, such as Dynatrace, New Relic, Kentik, SolarWinds, Splunk, AWS, ThousandEyes, and LogicMonitor. It correlates findings, identifies root causes, and synthesizes comprehensive investigation reports.
+This AI agent coordinates investigation activities across multiple observability platforms by orchestrating tool-specific agents. It correlates findings, identifies probable root causes, and synthesizes comprehensive investigation reports.
 
 ## Workflow
 
-The agent coordinates a full investigation of an alert across multiple observability platforms and produces a consolidated report.
+1.  Identify what to investigate.
 
-1.  Determine whether the request is a new investigation or a follow-up question on a previous investigation already in the conversation.
-2.  For a new investigation, identify the vendor-specific tool agents relevant to the alert and invoke them, collecting data in parallel where possible.
-3.  Correlate the findings returned by each tool agent, gracefully handling any tool agent that fails to return results.
-4.  Identify the probable root cause and compile supporting evidence into a structured investigation report with recommended actions and suggested follow-up questions.
-5.  Save the investigation analysis and insight to the alert record so the findings persist beyond the conversation.
-6.  For follow-up questions, answer using the existing investigation findings without repeating the full investigation or the save steps.
+    The agent starts from an alert and a question about it, such as its impact, or from a question about a specific observability tool.
+
+2.  Invoke the vendor agents that are relevant to the alert source, such as Dynatrace, New Relic, Kentik, and Splunk, and correlate their findings.
+3.  Save the investigation report to the alert and display it.
+
+For more information about the supported vendor agents, see [Configure observability agents for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/configure-integration-agents-for-now-assist.md).
 
 <table><thead><tr><th>
 

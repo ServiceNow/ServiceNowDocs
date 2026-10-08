@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto for App Engine, Summarize a record, ServiceNow Otto panel, summarize a record in a custom table, summarize a table in a custom app, generate summary for table]
-breadcrumb: [Use, ServiceNow Otto for App Engine, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Use, ServiceNow Otto for App Engine, Run, AI Workflow Factory, Building applications]
 ---
 
 # Summarize a record through chat using ServiceNow Otto for App Engine
@@ -39,15 +39,15 @@ The following procedure describes how to summarize a record through chat in the 
 
 5.  When you're finished summarizing a record, you can copy the summary or provide feedback about the summary.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d200438e162">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d228129e162">
 
 Option
 
-</th><th align="left" id="d200438e165">
+</th><th align="left" id="d228129e165">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d200438e171">
+</th></tr></thead><tbody><tr><td id="d228129e171">
 
 **Provide feedback about the summary**
 
@@ -55,7 +55,7 @@ Procedure
 
 If you think that the summary was helpful, select the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text: Helpful icon.\). If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).**Note:** This feedback improves the generative AI model and can help to improve future versions of this skill.
 
-</td></tr><tr><td id="d200438e194">
+</td></tr><tr><td id="d228129e194">
 
 **Copy the record summary**
 

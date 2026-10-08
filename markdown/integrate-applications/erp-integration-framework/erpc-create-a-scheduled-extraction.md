@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, schedule, extract, interval, data]
-breadcrumb: [Extracting and transforming data, Data retrieval, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Data retrieval, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Create a scheduled extraction in Zero Copy Connector for ERP
@@ -21,11 +21,11 @@ Schedule extraction of information for an ERP \(Enterprise Resource Planning\) e
 
 **Important:**
 
-If you have existing scheduled extractions and have upgraded to Zurich or Australia, run the **Scheduled Extraction V2 Move** fix script to place scheduled extractions in a new table where scheduling is done by the scheduled scripts engine. For detailed steps, see [Run fix scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/t_RunFixScripts.md).
+If you have existing scheduled extractions and have upgraded to Zurich or Australia, run the **Scheduled Extraction V2 Move** fix script. The script places scheduled extractions in a new table where scheduling is done by the scheduled scripts engine. For detailed steps, see [Run fix scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/t_RunFixScripts.md).
 
 You must have a standard or custom ERP extraction table in place to use. For more information, see [Add an ERP extraction table in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-add-new-extraction-table.md).
 
-Role required: en\_erp\_integration.erp\_user
+Role required: sn\_erp\_integration.erp\_user
 
 This video was recorded in the Zurich release.
 
@@ -59,6 +59,4 @@ This video was recorded in the Zurich release.
 Check the executions. After the scheduled job has run, select the **Executions** tab. For details about an extraction, select any line item in the **Extraction table** column.
 
 \[Omitted image "erpc-view-extraction-executions-ys2.png"\] Alt text: ERP scheduled extraction executions list.
-
-**Parent Topic:**[ERP data extraction and transformation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-extraction-tables.md)
 

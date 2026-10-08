@@ -7,7 +7,7 @@ release: brazil
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, Customer Success Management]
+breadcrumb: [Tables, Reference, Customer Success Management]
 ---
 
 # Supported use case table
@@ -136,7 +136,7 @@ Domain path
 Domain path for multi-domain deployments.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Customer Success Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-reference.md)
+</table>**Parent Topic:**[Customer success management tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-success-tables.md)
 
 **Related topics**  
 

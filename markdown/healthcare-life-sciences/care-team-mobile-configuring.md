@@ -24,7 +24,15 @@ Set up the Care Team Mobile application.
 
     User access for Care Team Mobile is based on whether users have been assigned the Team Member or Team Manager role.
 
-3.  [Enable Push Notifications for Care Team Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/cto-mobile-enable-push-notifications.md)
+3.  [User criteria for Care Team Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/cto-mobile-user-criteria.md)
+
+    Review the user criteria records provided for each care team support role.
+
+4.  [Apply user criteria to Field Service Management Mobile quick actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/cto-mobile-apply-user-criteria.md)
+
+    Apply the user criteria records to Field Service Management Mobile quick-action icons so that each role sees only the icons relevant to its work.
+
+5.  [Enable Push Notifications for Care Team Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/cto-mobile-enable-push-notifications.md)
 
     Push notifications for Care Team Mobile must be enabled manually.
 

@@ -9,7 +9,7 @@ last_updated: "2026-09-08"
 reading_time_minutes: 1
 keywords: [Autonomous Engineer, Build Agent, configure, install, agent packs, ServiceNow Studio, setup]
 audience: programmer
-breadcrumb: [Autonomous Engineer, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Autonomous Engineer, Build, AI Workflow Factory, Building applications]
 ---
 
 # Configure Autonomous Engineer
@@ -35,6 +35,8 @@ Autonomous Engineer uses agent packs with product-specific domain knowledge to r
 
 -   **[Install Autonomous Engineer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/install-autonomous-engineer.md)**  
 Install Autonomous Engineer from the ServiceNow Store to make it available on your instance.
+-   **[Configuring Autonomous Engineer settings in Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ae-settings.md)**  
+Autonomous Engineer and Build Agent share the same configuration settings. Settings you configure for Build Agent also apply when Autonomous Engineer runs.
 
 **Parent Topic:**[Autonomous Engineer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/autonomous-engineer.md)
 

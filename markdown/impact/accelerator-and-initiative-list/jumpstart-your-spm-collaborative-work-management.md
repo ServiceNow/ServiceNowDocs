@@ -1,6 +1,6 @@
 ---
 title: Jumpstart Your Strategic Portfolio Management - Collaborative Work Management
-description: This Accelerator provides a demonstration of the possibilities and capabilities of Collaborative Work Management \(CWM\) with Strategic Portfolio Management \(SPM\).
+description: This Accelerator demonstrates how to set up and use Collaborative Work Management \(CWM\) with Strategic Portfolio Management \(SPM\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/jumpstart-your-spm-collaborative-work-management.html
 release: brazil
@@ -8,48 +8,58 @@ product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
 last_updated: "2026-09-10"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Jumpstart Your Strategic Portfolio Management - Collaborative Work Management
 
-This Accelerator provides a demonstration of the possibilities and capabilities of Collaborative Work Management \(CWM\) with Strategic Portfolio Management \(SPM\).
+This Accelerator demonstrates how to set up and use Collaborative Work Management \(CWM\) with Strategic Portfolio Management \(SPM\).
 
-## Accelerator Overview
+## Accelerator overview
 
-Jumpstart Your SPM - Collaboration Work Management \(CWM\) provides Impact customers with a comprehensive overview of the possibilities and capabilities of CWM. The goal is to demonstrate how customers can set up and use CWM to plan, manage, visualize, and collaborate on work with their teams. Additionally, this accelerator offers key resources and leading practice guides on getting started.
+Jumpstart Your SPM - Collaborative Work Management \(CWM\) provides Impact customers with an overview of CWM capabilities. The goal is to demonstrate how customers can set up and use CWM to plan, manage, visualize, and collaborate on work with their teams. This Accelerator also equips customers with key resources and leading practices to help them get started quickly.
 
 ## Package Availability
 
 **Note:** This Accelerator is available for Impact Guided, Guided+ \(Strategic Value or Platform Governance\), Advanced, and Total packages.
 
-## What You Get
+## What you get
 
--   **Customer Coaching Session \#1 \(up to 1.5 hrs\)**
+-   **Session preparation**
+
+    The Technical Accelerator Consultant:
+
+    -   Provisions a temporary instance
+    -   Activates and configures components of Collaborative Work Management:
+        -   Plugins
+        -   Updates
+        -   Foundation data
+    -   Configures the demonstration
+-   **Customer coaching session \#1 \(up to 1.5 hours\)**
     -   Overview of CWM within Strategic Portfolio Management
     -   Walkthrough of key CWM capabilities and features
-    -   Review leading practices with CWM usage and implementation guide
+    -   Review of leading practices with CWM usage and implementation guide
     -   Applied demonstration of CWM within SPM
--   **Customer Coaching Session \#2 \(Optional upon Customer request - up to 1 hr\)**
+-   **Customer coaching session \#2 \(optional on customer request, up to 1 hour\)**
 
     Opportunity for Q&amp;A related to CWM within SPM
 
 -   **Output**
     -   30-day access to the temporary instance and Technical Accelerator Consultant with whom you met for any further questions or in-depth explorations
-    -   Copy of the Coaching Session Deck
+    -   Copy of the coaching session deck
 
-## Requested Customer Resources
+## Requested customer resources
 
-|Customer Resource|Responsibilities|Required|Recommended|
+|Customer resource|Responsibilities|Required|Recommended|
 |-----------------|----------------|:------:|:---------:|
-|Platform Owner|Responsible for the overall accountability of the ServiceNow platform. Provides leadership and oversight to the System Administrators, ensures team alignment to business strategy and the ServiceNow roadmap, and is actively involved in the overarching governance of the platform.|✓| |
-|System Administrator\(s\)|Responsible for maintaining the stability and usability of the ServiceNow platform by performing application maintenance, managing support for Cases related to ServiceNow applications, and contributing to ServiceNow software releases by delivering configuration tasks and features.|✓| |
-|Other customer roles|Primary stakeholders responsible for Project Management. Example: Project Manager/Resource Manager – Individuals who are responsible for making requests for resources and/or collaborate on the allocation and planning of resources.|✓| |
+|Platform Owner|Holds overall accountability for the ServiceNow platform. Provides leadership and oversight to the System Administrators, ensures team alignment to business strategy and the ServiceNow roadmap, and is actively involved in the overarching governance of the platform.|✓| |
+|System Administrator\(s\)|Maintains the stability and usability of the ServiceNow platform. Performs application maintenance and manages support for cases related to ServiceNow applications. Contributes to ServiceNow software releases by delivering configuration tasks and features.|✓| |
+|Other customer roles|Oversees project management. Example: Project Manager/Resource Manager – Individuals who request resources or collaborate on the allocation and planning of resources.|✓| |
 |Developer\(s\)|Writes code for the ServiceNow platform.| |✓|
-|Trusted Service Partner\(s\)|Attends ServiceNow Impact Accelerator coaching session\(s\) to understand leading practices and potentially support customer going forward.| |✓|
+|Trusted Service Partner\(s\)|Attends ServiceNow Impact Accelerator coaching session\(s\) to understand leading practices and potentially support the customer in the future.| |✓|
 
-## Requested Information / Access
+## Requested information and access
 
 Additional details on supplemental legal terms, prerequisites, specifications, requirements, and exclusions can be found by selecting the Impact [Accelerator Terms Matrix](https://www.servicenow.com/legal/servicenow-impact.html).
 

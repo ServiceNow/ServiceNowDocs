@@ -9,7 +9,7 @@ last_updated: "2026-09-08"
 reading_time_minutes: 2
 keywords: [Autonomous Engineer, Build Agent, reference, work item states, agent packs, supported capabilities, plan dashboard]
 audience: programmer
-breadcrumb: [Autonomous Engineer, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Autonomous Engineer, Build, AI Workflow Factory, Building applications]
 ---
 
 # Autonomous Engineer reference

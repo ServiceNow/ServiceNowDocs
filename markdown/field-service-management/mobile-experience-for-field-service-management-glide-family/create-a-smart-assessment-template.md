@@ -104,6 +104,8 @@ Table to be assessed. Selecting multiple tables makes the scope a combination of
 
     For more information, see [Add instructions and questions to an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/sae-asmnt-template-populate.md).
 
+    Create templates faster by adding standard questions from a question bank. For more information, see [Question bank](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/question-bank.md).
+
 6.  Select **Save**.
 
 7.  Select **Publish** to publish the new template.

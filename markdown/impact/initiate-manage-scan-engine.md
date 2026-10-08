@@ -1,16 +1,16 @@
 ---
-title: Manage and monitor scans
+title: Initiate and monitor scans
 description: Initiate scans, monitor scan status, and manage scan execution using the Initiate Scan and Force Full Scan buttons.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/initiate-manage-scan-engine.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-09-30"
 reading_time_minutes: 3
-breadcrumb: [Run on-demand scans, Scan your instance, Impact Guided Setup, Configuring Impact, Impact]
+breadcrumb: [Scan your instance, Configuring Impact, Impact]
 ---
 
-# Manage and monitor scans
+# Initiate and monitor scans
 
 Initiate scans, monitor scan status, and manage scan execution using the Initiate Scan and Force Full Scan buttons.
 
@@ -55,7 +55,7 @@ The Scan Results list view provides two UI action buttons for scan initiation: *
     |-----|-----------|
     |Number|ID number assigned to the scan|
     |Start time|UTC time of when the scan executed.|
-    |Scan type|Type of scan being run. See [Monitor and manage instance health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/scan-engine-parallel-processing.md) for details.|
+    |Scan type|Type of scan being run. See [Full and delta scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/scan-engine-parallel-processing.md) for details.|
     |Status|Status of the scan.|
     |Active custom definition limit|Indicates if the number of custom definitions is within your Impact package allocation. For details on the limits, see [Impact packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/impact-packages1.md).|
     |Scan Engine score|A percentage of|
@@ -88,5 +88,14 @@ After scan completion:
 -   Address any identified issues or recommendations.
 -   Review the Scan Engine Score to assess instance health.
 
-**Parent Topic:**[Run on-demand scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/using-impact-scan-engine.md)
+-   **[Initiate application scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/initiating-on-demand-scans-scan-engine.md)**  
+Scan applications to identify definition findings before publishing to the application repository. Application scans give insight into health scores, the number of findings, and the total impact of findings within your custom applications. When Suite Scan is enabled, choose between scanning all active definitions or a curated suite.
+-   **[Initiate update set scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/initiate-update-set-scans.md)**  
+Scan open update sets for findings to gain insights into what you're importing and exporting across your environments. When Suite Scan is enabled, choose between scanning all active definitions or a curated suite.
+-   **[Initiate instance scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/initiate-instance-scans.md)**  
+You can scan your ServiceNow instance for findings.
+-   **[Initiate limited definition scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/initiate-limited-def-scans.md)**  
+You can scan individual definitions or suites of definitions on-demand.
+
+**Parent Topic:**[Run Scan Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/run-scan-engine.md)
 

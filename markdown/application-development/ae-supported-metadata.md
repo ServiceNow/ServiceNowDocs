@@ -6,10 +6,10 @@ canonical_url: https://www.servicenow.com/docs/r/application-development/ae-supp
 release: brazil
 topic_type: reference
 last_updated: "2026-09-09"
-reading_time_minutes: 5
+reading_time_minutes: 6
 keywords: [supported metadata, app file types, autonomous engineer, business rules, client scripts, script includes, tables, flows, UI policies, ACLs, scripted REST APIs, scheduled jobs, UI actions, workspaces, service catalog, playbooks, data import pipeline, custom AI agents, ServiceNow Fluent]
 audience: developer
-breadcrumb: [Reference, Autonomous Engineer, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Reference, Autonomous Engineer, Build, AI Workflow Factory, Building applications]
 ---
 
 # Supported metadata in Autonomous Engineer
@@ -45,6 +45,14 @@ Application menus and modules
 </td><td>
 
 Application menus are the top-level categories in the application navigator sidebar. Modules are the individual links within those categories and can link to tables, URLs, lists, or other platform resources. When Build Agent or Autonomous Engineer creates a new application with tables, it generates the corresponding navigator structure so users can access the application from the sidebar.
+
+</td></tr><tr><td>
+
+Assessments
+
+</td><td>
+
+Assessment instances, metric types, and related configurations for evaluating records against defined criteria. For more information, see [Assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/r_Assessments.md).
 
 </td></tr><tr><td>
 
@@ -117,6 +125,14 @@ Custom AI agents
 </td><td>
 
 AI agents scoped to application data models, roles, and ACLs. For more information, see [Create agentic workflows, agents, and skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/create-custom-ai-agent.md).
+
+</td></tr><tr><td>
+
+Database views
+
+</td><td>
+
+Database view definitions \(`sys_db_view`\) and database view table configurations \(`sys_db_view_table`\) that combine fields from multiple tables into a single queryable view.
 
 </td></tr><tr><td>
 
@@ -230,7 +246,7 @@ Playbooks
 
 Representations of cross-enterprise business processes that organize tasks and activities into logical stages to guide users through a record lifecycle. Playbooks combine triggers that specify when to start, stages that group sequences of activities, and activities that define the automation and user-facing experience. Build Agent or Autonomous Engineer can create playbook configurations and activity definitions to help organizations digitize and standardize their business processes.To generate a playbook in Build Agent or Autonomous Engineer, attach a file, such as an image, an XML file, or a text description.
 
--   For details on playbooks support in Build Agent and Autonomous Engineer, see .
+-   For details on playbooks support in Build Agent and Autonomous Engineer, see [Playbook authoring with Build Agent and Autonomous Engineer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ba-playbooks.md).
 -   For more information on playbooks, see [Workflow Studio playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio-playbooks-landing.md).
 
 </td></tr><tr><td>
@@ -312,6 +328,14 @@ Skills
 </td><td>
 
 ServiceNow Otto skills for AI-powered responses and actions.
+
+</td></tr><tr><td>
+
+Sys wizard answers
+
+</td><td>
+
+Answer options for platform interceptors stored in the `sys_wizard_answer` table. Interceptors are the choice dialogs that route users to different destinations when they navigate to a form or module. Each answer record defines a label and the target destination for one choice.
 
 </td></tr><tr><td>
 

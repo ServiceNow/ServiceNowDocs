@@ -109,12 +109,9 @@ The following procedure describes how to mass-deploy ACC using Jamf. Your organi
 
     3.  Provide a display name and complete the form as needed.
 
-    4.  In the **Script** tab, paste the following script.
+    4.  In the **Script** tab, paste the following script for the sudoers file.
 
         ```
-        # === 1. Create sudoers file ===
-        SUDOERS_FILE="/private/etc/sudoers.d/_servicenow"
-        cat <<EOF > "$SUDOERS_FILE"
         # ServiceNow Agent Collector - Sudoers Configuration for macOS
         
         # Command alias for ServiceNow allowed commands
@@ -132,13 +129,16 @@ The following procedure describes how to mass-deploy ACC using Jamf. Your organi
                                 /usr/bin/find, \
                                 /usr/bin/pmset, \
                                 /usr/bin/open, \
+                                /usr/sbin/networksetup, \
                                 /Library/Application\ Support/servicenow/agent-client-collector/cache/acc-dex-modules/bin/scripts/sudo/app_freeze.sh, \
                                 /Library/Application\ Support/servicenow/agent-client-collector/cache/acc-dex-modules/bin/scripts/sudo/zscaler_zpa_reconnect.sh, \
                                 /Library/Application\ Support/servicenow/agent-client-collector/cache/acc-dex-modules/bin/scripts/sudo/clear_google_chrome_browsing_data.sh, \
                                 /Library/Application\ Support/servicenow/agent-client-collector/cache/acc-dex-modules/bin/scripts/sudo/services.sh, \
                                 /Library/Application\ Support/servicenow/agent-client-collector/cache/acc-dex-modules/bin/scripts/sudo/restart_service.sh *, \
                                 /Applications/Zscaler/Zscaler.app/Contents/PlugIns/zscli, \
-                                /Library/Application\ Support/servicenow/agent-client-collector/cache/acc-dex-modules/bin/scripts/sudo/elevate_temporary_admin.sh
+                                /Library/Application\ Support/servicenow/agent-client-collector/cache/acc-dex-modules/bin/scripts/sudo/elevate_temporary_admin.sh, \
+                                /Library/Application\ Support/servicenow/agent-client-collector/cache/acc-dex-modules/bin/scripts/sudo/flush_dns_mac.sh, \
+                                /Library/Application\ Support/servicenow/agent-client-collector/cache/acc-dex-modules/bin/scripts/sudo/disk_cleanup.sh *
         
         # ServiceNow user permissions
         # _servicenow user can run osqueryi and all SN_ALLOWED commands without password
@@ -148,10 +148,11 @@ The following procedure describes how to mass-deploy ACC using Jamf. Your organi
         # Defaults for _servicenow user
         # !requiretty: Allow sudo without a TTY (required for automated scripts)
         Defaults:_servicenow !requiretty
-        EOF
-        chmod 440 "$SUDOERS_FILE"
-        echo "[INFO] Sudoers file created at $SUDOERS_FILE"
-        
+        ```
+
+    5.  In the same **Script** tab, add the yml file permissions and instruction to restart the ACC service.
+
+        ```
         # === 2. Set permissions for the YAML file ===
         YML_PATH="/Library/Application Support/servicenow/agent-client-collector/acc.yml"
         if [ -f "$YML_PATH" ]; then
@@ -173,7 +174,7 @@ The following procedure describes how to mass-deploy ACC using Jamf. Your organi
         fi
         ```
 
-    5.  Select **Save**.
+    6.  Select **Save**.
 
 7.  Create a Jamf policy and add the created packages and script.
 

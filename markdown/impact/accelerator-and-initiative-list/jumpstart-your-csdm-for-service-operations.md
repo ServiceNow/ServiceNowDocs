@@ -19,9 +19,9 @@ This Accelerator provides a demonstration of the possibilities and capabilities 
 
 ## Accelerator Overview
 
-Jumpstart Your CSDM for Service Operations helps organizations understand the data needed to establish and mature their service-aware CMDB, by defining and populating the core data required to support both their business-facing and technical service operations. The accelerator covers key data points pertaining to business and technical services, their related service offerings, and the dependent Service Instance \(Application Services\).
+Jumpstart Your CSDM for Service Operations helps organizations understand the data needed to establish and mature their service-aware CMDB. The accelerator defines and populates the core data required to support both business-facing and technical service operations. The accelerator covers key data points related to business and technical services, their related service offerings, and the dependent Service Instance \(Application Services\). Additionally, the accelerator explains how correctly populated data amplifies results when used with AI-powered features.
 
-The accelerator aligns you with CSDM leading practices and enables you to build a data foundation that helps achieve implementation success of both IT Service and IT Operation products.
+The accelerator aligns you with CSDM leading practices and enables you to build a data foundation that helps achieve implementation success of IT Service and IT Operation products.
 
 ## Package Availability
 
@@ -43,7 +43,7 @@ Customers are encouraged to complete the [Jumpstart Your CSDM: Foundation accele
 
     -   Overview of the data needed for IT Service and Operations products
     -   Demonstration of accurately populated data using real-world examples
--   **Customer Coaching Session \#2 \(Optional upon Customer request - up to 1 hour\)**
+-   **Customer Coaching Session \#2 \(optional, upon customer request — up to 1 hour\)**
 
     Opportunity for Q&amp;A related to CSDM for Service Operations
 
@@ -56,15 +56,15 @@ Customers are encouraged to complete the [Jumpstart Your CSDM: Foundation accele
 
 |Customer Resource|Responsibilities|Required|Recommended|
 |:----------------|:---------------|:------:|:---------:|
-|Platform Owner|Responsible for the overall accountability of the ServiceNow platform. Provide leadership and oversight to the System Administrators, ensure team alignment to business strategy and the ServiceNow roadmap, and is actively involved in the overarching governance of the platform.|✓| |
-|ServiceNow and CMDB Administrator \(s\)|Responsible for configuring and maintaining the stability and usability of the ServiceNow platform and the CMDB by performing application maintenance, managing support for Cases related to ServiceNow applications and the CMDB, and contributing to ServiceNow software releases by delivering configuration tasks and features.|✓| |
-|Process Owner\(s\)|A senior leader within each business unit for each major process or service \(e.g., incident, change, employee onboarding\) and is accountable for the correct and complete definition of each of the processes implemented within the ServiceNow platform.|✓| |
-|Enterprise Architect\(s\)|Ensure an organization's technical strategy, aligns with the goals of the business focusing on technology and processes. Helps guide the IT enterprise through frameworks to design, plan, implement, and govern IT systems.|✓| |
+|Platform Owner|Responsible for the overall accountability of the ServiceNow platform. Provides leadership and oversight to the System Administrators and ensures team alignment to business strategy and the ServiceNow roadmap. Actively involved in the overarching governance of the platform.|✓| |
+|ServiceNow and CMDB Administrator \(s\)|Responsible for configuring and maintaining the stability and usability of the ServiceNow platform and the CMDB. Performs application maintenance and manages support for Cases related to ServiceNow applications and the CMDB. Contributes to ServiceNow software releases by delivering configuration tasks and features.|✓| |
+|Process Owner\(s\)|A senior leader accountable for the correct and complete definition of each major process or service implemented within the ServiceNow platform.|✓| |
+|Enterprise Architect\(s\)|Ensure an organization's technical strategy aligns with the goals of the business focusing on technology and processes. Helps guide the IT enterprise through frameworks to design, plan, implement, and govern IT systems.|✓| |
 |CMDB Manager|Responsible for day-to-day facilitation of the Configuration process and ensure alignment to the ServiceNow CSDM data model. This primary objective of the role is to ensure change to the data in CMDB is controlled and to enable efficient resolution of integrity issues.|✓| |
 |Application or Product Owner\(s\)|Responsible for the population and maintenance of their product or application within the ServiceNow platform. They are accountable for the overall health, value, and lifecycle of a specific application or product used to deliver a service.|✓| |
 |Service Owner|Accountable for the end-to-end delivery, quality and value of a either a business or technical service as it is experienced by the customer \(external or internal\)|✓| |
 |Executive Sponsor\(s\)|Responsible for setting and communicating the vision of the ServiceNow Engagement within the rest of the enterprise. The Executive Sponsor also participates in engagement governance and removes roadblocks to a successful implementation.| |✓|
-|Trusted Service Partners|Attend ServiceNow Impact Accelerator coaching session\(s\) to understand leading practices and potentially support customers going forward.| |✓|
+|Trusted Service Partners|Participation in ServiceNow Impact Accelerator coaching session\(s\) to understand leading practices and potentially support customers going forward.| |✓|
 
 ## Requested Information/Access
 

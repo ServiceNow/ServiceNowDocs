@@ -53,3 +53,8 @@ For more information, see [Components installed with Pricing Management](https:/
 6.  Select **Install**.
 
 
+**Related topics**  
+
+
+[Enable pricing in the ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/enable-pricing-quote-experience.md)
+

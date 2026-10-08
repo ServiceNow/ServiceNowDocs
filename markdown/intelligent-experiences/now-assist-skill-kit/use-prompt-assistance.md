@@ -1,6 +1,6 @@
 ---
 title: Use prompt assistance
-description: Use prompt assistance to get a jump start with your prompt development by selecting an example from the prompt library or using ServiceNow Otto to generate one.
+description: Use prompt assistance to start your prompt from an example in the prompt library or from a prompt that ServiceNow Otto generates.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-skill-kit/use-prompt-assistance.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Using AI Skill Kit, AI Skill Kit, Generative AI skills, Enable AI E
 
 # Use prompt assistance
 
-Use prompt assistance to get a jump start with your prompt development by selecting an example from the prompt library or using ServiceNow Otto to generate one.
+Use prompt assistance to start your prompt from an example in the prompt library or from a prompt that ServiceNow Otto generates.
 
 ## Before you begin
 
@@ -24,15 +24,15 @@ Role required: sn\_skill\_builder.admin
 
 1.  Navigate to **All** &gt; **AI Skill Kit** &gt; **Home**.
 
-2.  Create a new skill or select the skill that you want to use prompt assistance for.
+2.  Create a skill or select the skill that you want to use prompt assistance for.
 
-3.  Select the prompt assistance icon.\[Omitted image "icon-nask-prompt-assistance.png"\] Alt text: Prompt assistance icon
+3.  Select the prompt assistance icon \[Omitted image "icon-nask-prompt-assistance.png"\] Alt text:.
 
 4.  Select the **Library** tab to search for a prompt from the prompt library.
 
 5.  \[Omitted image "nask-pa-library.png"\] Alt text: Prompt assistance prompt library search panel
 
-6.  Select the **AI generated** tab to have AI help you create a prompt based on your needs.
+6.  Select the **AI generated** tab to generate a prompt from a description of what you need.
 
     \[Omitted image "nask-pa-ai.png"\] Alt text: Prompt assistance AI generated panel
 

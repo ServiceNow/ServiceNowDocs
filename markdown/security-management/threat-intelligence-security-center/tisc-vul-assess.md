@@ -9,6 +9,7 @@ classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
+keywords: [vulnerability assessment, CVE, Vulnerability Exposure Assessment, vulnerability response]
 breadcrumb: [Access Vulnerability Downstream actions, Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
 ---
 

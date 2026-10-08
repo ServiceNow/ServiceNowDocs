@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/ai-admin-center-setting-up-ai.html
 release: brazil
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-10-02"
 reading_time_minutes: 1
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
 breadcrumb: [AI Admin Center, Getting started with AI, Enable AI Experiences]
@@ -23,13 +23,13 @@ Use AI Admin Center to set up AI solutions on your instance.
 
     Use AI Agent Advisor to automatically discover automation opportunities in your instance and deploy AI agents to implement the automations.
 
--   **[Configure AI Admin Hub settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-center-configure-admin-settings.md)**
+-   **[Configure AI admin settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-center-configure-admin-settings.md)**
 
     Use AI Admin Hub configuration features to configure AI settings and experiences.
 
 -   **[Manage AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-center-using-asset-inventory.md)**
 
-    Use the asset library to manage the AI assets on your instance. AI assets include agents, agentic workflows, skills, subflows, actions, virtual assistants, and topics. They also include datasets, knowledge graphs, and catalog items.
+    Use the asset library to manage the AI assets on your instance. AI assets include agents, agentic workflows, skills, subflows, intents,actions, virtual assistants, and topics. They also include datasets, knowledge graphs, and catalog items.
 
 -   **[Manage custom datasets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-center-use-data-kit-features.md)**
 

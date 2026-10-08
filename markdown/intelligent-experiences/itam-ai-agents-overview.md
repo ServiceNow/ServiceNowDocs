@@ -1,6 +1,6 @@
 ---
-title: IT Asset Management AI agents
-description: The following AI agents are available for IT Asset Management.
+title: Asset Management AI agents
+description: The following AI agents are available for Asset Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/itam-ai-agents-overview.html
 release: brazil
@@ -10,16 +10,16 @@ reading_time_minutes: 1
 breadcrumb: [IT Asset Management, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
-# IT Asset Management AI agents
+# Asset Management AI agents
 
-The following AI agents are available for IT Asset Management.
+The following AI agents are available for Asset Management.
 
 -   **[Asset next best action AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/itam-asset-next-best-action-ai-agent.md)**  
-This AI agent guides users through the repair order task process by validating task numbers, identifying task types, and routing the workflow to the correct specialized agent for troubleshooting or repair. The agent processes one task at a time to ensure accurate handling of hardware asset repair order tasks.
+This AI agent validates task numbers, identifies task types, and routes workflows to the correct specialized agent for troubleshooting or repair. It processes one task at a time for accurate handling of hardware asset repair order tasks.
 -   **[Asset sourcing AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/itam-asset-sourcing-ai-agent.md)**  
 This AI agent helps source a requested item by generating and executing sourcing plans through consumption, transfer, and purchase. The agent creates plans autonomously or with user guidance, coordinates with external agents for transfer and purchase orders, and validates sourcing status throughout the process.
 -   **[Evaluate asset AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/itam-evaluate-asset-ai-agent.md)**  
-This AI agent assists users in troubleshooting asset-related issues by using the Web Search tool, guiding them to select an appropriate resolution, and automatically completing the troubleshooting task upon confirmation.
+This AI agent helps troubleshoot asset-related issues using the Web Search tool. It guides users to select a resolution and completes the troubleshooting task on confirmation.
 -   **[Purchase order creation AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/itam-purchase-order-creation-ai-agent.md)**  
 This AI agent is used to create a purchase order.
 -   **[Repair asset AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/itam-repair-asset-ai-agent.md)**  

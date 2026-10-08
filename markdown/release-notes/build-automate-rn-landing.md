@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/release-notes/build-automate-rn
 release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
@@ -14,10 +14,16 @@ breadcrumb: [Features and changes by product, Release notes for upgrading from A
 
 The ServiceNow AI Platform® has new and updated automation, as well as and no-code, low-code, and platform developer features in the Brazil release.
 
+-   **[App Engine Management Center release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/app-engine-management-center-rn.md)**  
+The ServiceNow® App Engine Management Center application provides an innovative experience for you to manage the full life cycle of custom app development, from intake to deployment. See the following sections for release notes by version.
 -   **[App Engine Studio release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/app-engine-studio-rn.md)**  
 The ServiceNow® App Engine Studio application enables creators of varying skill levels to build applications that meet the immediate needs of your organization. See the following sections for release notes by version.
+-   **[Application Runtime Policy release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/application-runtime-policy-rn.md)**  
+The ServiceNow® Application Runtime Policy module enables optional, automatic generation of resource access policies for custom applications in development. See the following sections for release notes by version.
+-   **[Automation Center release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/automation-center-rn.md)**  
+The ServiceNow® Automation Center application helps you govern your end-to-end, multi-vendor automation life cycles from one place, and use real-time dashboards to measure automation health and prevent failures. See the following sections for release notes by version.
 -   **[Build Agent and Autonomous Engineer release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/build-agent-rn.md)**  
-The ServiceNow® Build Agent application enables developers to create, edit, and deploy full-stack applications and metadata through a conversational interface. See the following sections for release notes by version.
+The ServiceNow® Build Agent and Autonomous Engineer applications enable developers to create, edit, and deploy full-stack applications and metadata through a conversational interface. See the following sections for release notes by version.
 -   **[Data Catalog release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/data-catalog-rn.md)**  
  Data Catalog application is the self-service discovery layer within the Workflow Data Fabric application that enables teams to find, understand, and govern data assets across your organization. Data Catalog is a new application in the Brazil release.
 -   **[Developer Sandboxes release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown)**  
@@ -28,6 +34,10 @@ Guided Application Creator is a legacy development interface for building applic
 The Confluent Kafka REST Proxy Spoke integrates your ServiceNow instances with the Kafka cluster through API and the ServiceNow Kafka Consumer application integrates your ServiceNow instance with Kafka Consumer and stores data in the ServiceNow tables. These are currently supported for the Brazil release, but they will be deprecated in a future release.
 -   **[Intelligent approvals release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/intelligent-approvals-rn.md)**  
 The ServiceNow® Intelligent approvals application automatically evaluates incoming approval requests against your organization's policy documents. Requests that clearly meet policy criteria are approved or rejected automatically, while ambiguous cases are routed to human reviewers for approval. See the following sections for release notes by version.
+-   **[Lux release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/lux-rn.md)**  
+Lux is a Lit-based platform for building widget-based UI experiences that run on a ServiceNow instance. You create pages using widgets as Lit components. Release notes are organized by version.
+-   **[Lux Lab release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/lux-lab-rn.md)**  
+Lux Lab is a desktop application for building Lux applications that run on a ServiceNow instance. You create projects, edit code, preview your work, and deploy to your instance from one tool. Release notes are organized by version.
 -   **[Next Experience Components release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/component-rn.md)**  
 The ServiceNow® Next Experience Components application provides the components used to build custom user interfaces. Next Experience Components was enhanced and updated in the Brazil release.
 -   **[ReleaseOps release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/releaseops-rn.md)**  
@@ -44,6 +54,8 @@ The ServiceNow® Stream Connect application links your Apache Kafka environment 
 The ServiceNow® Workflow Studio application consolidates playbooks, flows, actions, decision tables, and integrations into one design environment. Workflow Studio was enhanced and updated in the Brazil release.
 -   **[Zero Copy Connectors release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/zero-copy-connectors-rn.md)**  
 ServiceNow® Zero Copy Connectors unifies data from across the enterprise, providing access to external data in real-time without needing to copy it to your instance.
+-   **[Zero Copy Connector for ERP release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/zero-copy-connector-for-erp-rn.md)**  
+The ServiceNow® Zero Copy Connector for ERP application enables you to connect to an Enterprise Resource Planning \(ERP\) system of record, query remote tables, and build data models to use ERP data. Zero Copy Connector for ERP was enhanced and updated in the Brazil release.
 
 **Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/new-features-changes.md)
 

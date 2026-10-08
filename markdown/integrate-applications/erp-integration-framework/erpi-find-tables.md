@@ -54,5 +54,3 @@ ERP remote tables have a limit of 1,000 records. If you need a larger amount of 
 8.  Select **Save**.
 
 
-**Parent Topic:**[Using ERP remote tables in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-work-with-remote-tables.md)
-

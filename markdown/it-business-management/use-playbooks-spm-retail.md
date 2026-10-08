@@ -48,9 +48,9 @@ A playbook defines the stages of a retail store project and includes action item
     -   Select **Skip** to bypass the activity and move to the next one.
     **Note:** When all sections in a stage are marked complete or skipped, the system sends an approval request to members of the Retail HQ Governance group.
 
-    Admins can create a playbook by defining the trigger condition in Workflow Studio. For more information, see .
+    Admins can create a playbook by defining the trigger condition in Workflow Studio. For more information, see [Triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/process-automation-designer-triggers.md).
 
-    For more information on how to create and use playbooks, see  and .
+    For more information on how to create and use playbooks, see [Building Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/building-a-process.md) and [Designing Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/playbook-experience-admins.md).
 
 
 **Related topics**  
@@ -58,5 +58,9 @@ A playbook defines the stages of a retail store project and includes action item
 
 [Explore playbooks for retail projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/playbooks-spm-retail-suite.md)
 
-[bundle-crworkflow.playbook-agents-and-fulfillers]
+[Running Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/playbook-agents-and-fulfillers.md)
+
+[Playbooks reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/process-automation-designer-reference.md)
+
+[Designing Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/playbook-experience-admins.md)
 

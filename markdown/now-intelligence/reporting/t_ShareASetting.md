@@ -1,13 +1,13 @@
 ---
 title: Share a Core UI report
-description: Control which users and groups can see a report in their Reports list.
+description: Control which users and groups can see a Core UI report.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/now-intelligence/reporting/t\_ShareASetting.html
 release: brazil
 product: Reporting
 classification: reporting
 topic_type: task
-last_updated: "2026-09-10"
+last_updated: "2026-09-24"
 reading_time_minutes: 4
 keywords: [Share a Core UI report, Share a report in the classic environment]
 breadcrumb: [Distribute reports, Core UI Reporting, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
@@ -15,15 +15,15 @@ breadcrumb: [Distribute reports, Core UI Reporting, Reporting, Reporting, dashbo
 
 # Share a Core UI report
 
-Control which users and groups can see a report in their Reports list.
+Control which users and groups can see a Core UI report.
 
 ## Before you begin
 
-Role required: report\_admin, report\_global, or report\_group.
+Role required: report owner, report\_admin, report\_global, or report\_group.
 
 This topic refers to Reporting in the Core UI. If your instance is a Brazil release or migrated to Platform Analytics experience, see [Share a data visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/share-dv-ac.md).
 
-The following roles can share reports:
+The creator of a report can share that report with any user. The following roles can share reports:
 
 <table id="table_pfs_kl1_nmb"><thead><tr><th>
 
@@ -71,14 +71,6 @@ The report\_group user can edit reports that are shared with the groups they are
 
 </td></tr><tr><td>
 
-report\_publisher
-
-</td><td>
-
-No sharing permissions.
-
-</td></tr><tr><td>
-
 report\_scheduler
 
 </td><td>
@@ -99,7 +91,7 @@ No sharing permissions.
 You can control who sees reports by making them:
 
 -   Globally visible to all users
--   Visible only to you if you are the report creator.
+-   Visible only to you if you're the report creator.
 -   Visible to one or more specific users
 -   Visible to one or more specific groups
 
@@ -109,11 +101,11 @@ It is not possible to grant edit rights on a report when you share it.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Reports** &gt; **View / Run** and select the report you want to control.
+1.  Navigate to **Platform Analytics Administration** &gt; **Usage and governance** &gt; **Reports** and select the report you want to control.
 
     On instances with Unified Analytics enabled, and on new Brazil instances, both Core UI reports and Platform Analytics experience data visualizations are found in the Platform Analytics library. Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**. For more information, see [Differences between Core UI and Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/differences-between-core-ui-ne-dbs.md).
 
-2.  In the upper right side of the report form, select the **Sharing** icon \(\[Omitted image "Form\_ShareIcon.png"\] Alt text: Sharing icon\) and select **Share**.
+2.  In the upper right side of the report form, select the **Sharing** icon \[Omitted image "square-share-fill-24.svg"\] and select **Share**.
 
 3.  In the Sharing settings dialog box, fill in the fields and select **OK**.
 
@@ -161,17 +153,11 @@ Users
 Users who have permission to see the report.This field is available when the **Groups and Users** option is selected.
 
 </td></tr></tbody>
-</table>4.  Select the **Sharing** icon \(\[Omitted image "Form\_ShareIcon.png"\] Alt text: Sharing icon\) and select **Add to Dashboard** or **Publish**.
+</table>4.  Select the **Sharing** icon \[Omitted image "square-share-fill-24.svg"\] and choose **Add to Dashboard** or **Copy read-only link**.
 
-5.  Share the dashboard or share the URL of the published report.
+5.  Share the dashboard or share a read-only URL of the report.
 
-    You can share the URL of the published report with any user, role, or group with whom you have shared the report.
-
-    **Danger**
-
-    This functionality is deactivated by default because of the risk of exposing data to unauthorized persons. For more information, see .
-
-    The people with whom you share the report must have rights to view the report data.
+    You can share the read-only URL of the report with any authenticated user, but that user must have rights to view the report data.
 
 
 **Parent Topic:**[Distribute reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/reporting/c_DistributeReports.md)

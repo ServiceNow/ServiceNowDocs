@@ -31,7 +31,10 @@ Each user enrolls a Soft PIN before it can be used for authentication. Users can
 
 When Soft PIN is selected as an authentication factor for an AI voice agent service, the agent prompts the caller for the PIN during the session. The platform validates the response against the user's enrolled PIN and returns the result to the orchestrator.
 
-**Note:** Soft PIN supports both Text and Voice input.
+**Note:**
+
+-   Soft PIN supports both Text and Voice input.
+-   Soft PIN factor isn’t supported for step-up authentication.
 
 ## Enrollment rules
 

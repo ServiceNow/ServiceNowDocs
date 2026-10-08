@@ -7,7 +7,7 @@ release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Order Management for business location, Integration with Sales Customer Relationship Management, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
+breadcrumb: [Order Management for business organization, Integration with Sales Customer Relationship Management, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Roles
@@ -105,7 +105,7 @@ Organization Sales Manager \(sn\_bus\_org\_orm.org\_sales\_mgr\)
 
 </td><td>
 
-This role enables enterprise sales persona to create, manage, and approve account and consumer related orders for their assigned organizational hierarchy.They can view consumer-related orders and order line items across both parent and child business locations.
+This role enables enterprise sales persona to create, manage, and approve account and consumer related orders for their assigned organizational hierarchy.They can view consumer-related orders and order line items across both parent and child business organizations \(formerly business locations\).
 
 The Location Sales Manager has full access to create and approve all order types, including both B2B and B2C orders.
 

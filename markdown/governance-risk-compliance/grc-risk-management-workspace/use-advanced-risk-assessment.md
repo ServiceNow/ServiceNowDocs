@@ -55,7 +55,7 @@ Simulate a risk assessment to verify the associated risk assessment methodology 
 -   **[Assess risks and objects on an assessment instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/assessing-risks.md)**  
 Assess the risks that you have configured and reassign the risks to relevant approvers.
 -   **[Reassign an individual risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/reassign-individual-risk-assessment.md)**  
-Reassign one or more in-progress risk assessments to a different assessor from the In Progress Assessments list.
+Reassign one or more risk assessments that are new or already in progress to a different assessor from the In Progress Assessments list.
 
 **Parent Topic:**[Using Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/grc-risk-management-workspace/using-risk-mgmt.md)
 

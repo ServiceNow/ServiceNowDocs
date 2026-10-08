@@ -1,18 +1,18 @@
 ---
-title: Activate Data Collection for CSM
-description: Activate the Data Collection Pack for CSM after you enable and configure it.
+title: Activate Data Collection for Customer Service Management
+description: Activate the Data Collection Pack for Customer Service Management after you enable and configure it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/dc-csm-activate.html
 release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Impact Value Management Data Collection Content Pack for CSM, Enable data collection for Value Management, Configuring Impact, Impact]
+breadcrumb: [Impact Value Management Data Collection Content Pack for Customer Service Management, Enable data collection for Value Management, Guided Setup, Configuring Impact, Impact]
 ---
 
-# Activate Data Collection for CSM
+# Activate Data Collection for Customer Service Management
 
-Activate the Data Collection Pack for CSM after you enable and configure it.
+Activate the Data Collection Pack for Customer Service Management after you enable and configure it.
 
 ## Before you begin
 
@@ -24,7 +24,7 @@ Role required: admin, pa\_admin, pa\_data\_collector
 
 ## Procedure
 
-1.  Navigate to **Performance/PlatformAnalytics &gt; Data Collector&gt; Jobs**, and then open **Impact VM – CSM - Monthly Data Collection**.
+1.  Navigate to **Performance/PlatformAnalytics &gt; Data Collector&gt; Jobs**, and then open **Impact VM – Customer Service Management - Monthly Data Collection**.
 
 2.  Select **Active**, and then update the record.
 
@@ -32,9 +32,9 @@ Role required: admin, pa\_admin, pa\_data\_collector
 
 3.  To do a trial run of the monthly data collection, select **Execute Now**.
 
-4.  Navigate to **Performance/Platform Analytics &gt; Dashboard**, and then open **Impact VM – CSM**.
+4.  Navigate to **Performance/Platform Analytics &gt; Dashboard**, and then open **Impact VM – Customer Service Management**.
 
-    There are two tabs: Monthly – CSM and Quarterly – CSM.
+    There are two tabs: Monthly – Customer Service Management and Quarterly – Customer Service Management.
 
 5.  To validate the scores on the dashboard, do either of the following:
 
@@ -52,12 +52,12 @@ Role required: admin, pa\_admin, pa\_data\_collector
         -   If you have the full version of Performance/Platform Analytics, you can change the Relative start date to a longer timeframe than 6 months. For example, you could change Relative start from 6 months ago to 12 months ago.
     2.  Select **Execute Now** to run the historical data collection job.
 
-    3.  Navigate to **Platform Analytics &gt; Dashboard**, and then open **Impact VM – CSM**.
+    3.  Navigate to **Platform Analytics &gt; Dashboard**, and then open **Impact VM – Customer Service Management**.
 
-        There are two tabs: Monthly - CSM and Quarterly - CSM.
+        There are two tabs: Monthly - Customer Service Management and Quarterly - Customer Service Management.
 
     4.  To validate historical data for any specific indicator, select the widget on the dashboard.
 
 
-**Parent Topic:**[Impact Value Management Data Collection Content Pack for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/data-collection-csm.md)
+**Parent Topic:**[Impact Value Management Data Collection Content Pack for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/data-collection-csm.md)
 

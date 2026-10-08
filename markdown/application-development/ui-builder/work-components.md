@@ -167,7 +167,7 @@ Duplicate a configured component to reuse on a page.
 Use the conditional renderer component to display content or components based on specified conditions.
 -   **[Learn components by example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/learning-components-by-example.md)**  
 Follow these procedures to learn how components create the functionality you need in your UI Builder pages.
--   **[Page collections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/page-collections.md)**  
+-   **[Page collections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/page-collections.md)**  
 Page Collections are groups of pages that can be used across multiple experiences.
 -   **[Change data visualizations in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder/component-hot-swapping.md)**  
 Change data visualizations in real time using a drop-down list to preview data in your experience.

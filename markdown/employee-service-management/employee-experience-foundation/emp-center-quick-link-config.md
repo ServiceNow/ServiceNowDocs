@@ -25,14 +25,6 @@ You can create quick links using the quick links module in the Employee Center f
 Create external links to access external resources and content. When creating a quick link, you can select an external link as the content type to display in a topic.
 -   **[Modify the Quick links widget display](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/employee-experience-foundation/config-quick-links-widget.md)**  
 Design and manage the appearance of the widget, such as the title, display style, tile size, and content alignment.
--   **[Create a quick link](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/employee-experience-foundation/create-quick-links.md)**  
-You can create quick links using the quick links module in the Employee Center for accessing internal and external resources, such as knowledge bases, catalog items, pages, and links.
--   **[Create an external link](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/employee-experience-foundation/create-external-links.md)**  
-Create external links to access external resources and content. When creating a quick link, you can select an external link as the content type to display in a topic.
--   **[Modify the Quick links widget display](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/employee-experience-foundation/config-quick-links-widget.md)**  
-Design and manage the appearance of the widget, such as the title, display style, tile size, and content alignment.
-
-**Parent Topic:**[Setup Employee Center browse experience features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/employee-experience-foundation/setup-browse-experience.md)
 
 **Parent Topic:**[Setup Employee Center browse experience features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/employee-experience-foundation/setup-browse-experience.md)
 

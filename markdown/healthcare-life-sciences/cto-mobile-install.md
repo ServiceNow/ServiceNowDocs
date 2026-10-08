@@ -23,11 +23,13 @@ The following plugins are activated with Care Team Mobile:
 -   com.sn\_mab
 -   sn\_mab\_api
 
+To complete care team tasks from a mobile device, Field Service Management Mobile \[sn\_fsm\_mobile\] version 29.2.3 must be installed. For more information, see [Complete care team tasks in Care Team Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/cto-mobile-complete-care-team-tasks.md).
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **System Applications** &gt; **All Available Applications** &gt; **All**.
 
-2.  Find the \[com.cto\_mobile\] plugin using the filter criteria and search bar.
+2.  Find the \[com.sn\_cto\_mobile\] plugin using the filter criteria and search bar.
 
 3.  If you're prompted, follow the links to the ServiceNow Store to get any additional entitlements for dependencies.
 

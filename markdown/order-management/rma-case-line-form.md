@@ -30,8 +30,3 @@ Fields on the Return Merchandise Authorization \(RMA\) case line form.
 
 **Parent Topic:**[Return Merchandise Authorization Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/return-merchandise-authorization-case-management-reference.md)
 
-**Related topics**  
-
-
-[Create Return Merchandise Authorization case lines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/create-return-merchandise-authorization-case-lines.md)
-

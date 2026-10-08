@@ -9,6 +9,7 @@ classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
+keywords: [indicator-indicator relationships, define relationships, SDO relationships]
 breadcrumb: [Relationships Objects, TISC Library Repository, Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
 ---
 
@@ -32,15 +33,15 @@ Role required: sn\_sec\_tisc.analyst
 
 5.  Complete the fields in the form as appropriate.
 
-<table id="choicetable_uvs_2cc_nzb"><thead><tr><th align="left" id="d332917e98">
+<table id="choicetable_uvs_2cc_nzb"><thead><tr><th align="left" id="d334460e110">
 
 Field
 
-</th><th align="left" id="d332917e101">
+</th><th align="left" id="d334460e113">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d332917e107">
+</th></tr></thead><tbody><tr><td id="d334460e119">
 
 **Description**
 
@@ -48,7 +49,7 @@ Description
 
 Specifies the threat source from which this record is created.
 
-</td></tr><tr><td id="d332917e116">
+</td></tr><tr><td id="d334460e128">
 
 **Domain**
 
@@ -56,7 +57,7 @@ Specifies the threat source from which this record is created.
 
 Defines the scope of the object record. The value in this field is auto populated.
 
-</td></tr><tr><td id="d332917e127">
+</td></tr><tr><td id="d334460e139">
 
 **Target Indicator**
 
@@ -64,7 +65,7 @@ Defines the scope of the object record. The value in this field is auto populate
 
 Select and define the target indicator object.
 
-</td></tr><tr><td id="d332917e136">
+</td></tr><tr><td id="d334460e148">
 
 **Relationship Type**
 
@@ -76,7 +77,7 @@ A description that provides more details and context about the relationship type
 -   Direct - This is the type of relationship between the object and observable.
 
 
-</td></tr><tr><td id="d332917e156">
+</td></tr><tr><td id="d334460e168">
 
 **Source Indicator**
 

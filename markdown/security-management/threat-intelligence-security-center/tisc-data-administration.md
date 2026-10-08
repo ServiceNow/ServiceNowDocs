@@ -9,6 +9,7 @@ classification: threat-intelligence-security-center
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
+keywords: [data administration, Administration module, TISC admin]
 breadcrumb: [Threat Intelligence Security Center, Security Operations]
 ---
 

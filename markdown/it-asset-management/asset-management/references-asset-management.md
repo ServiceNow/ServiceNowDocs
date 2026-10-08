@@ -16,11 +16,11 @@ breadcrumb: [Base Asset Management, Common applications, Asset Management]
 
 Reference topics provide additional information about the lists and forms that you use to configure and administer Asset Management.
 
--   **[Domain separation and Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-management/domain-separation-asset-management.md)**  
-Domain separation is supported in Asset Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
--   **[Quick start test for Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-management/quick-start-tests-am.md)**  
-Validate that Asset Management still works after you make any configuration change such as apply an upgrade or develop an application. Copy and customize these quick start tests to pass when using your instance-specific data.
--   **[Installed with Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-management/r_InstalledWithAssetManagement.md)**  
+-   **[Domain separation and Base Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-management/domain-separation-asset-management.md)**  
+Domain separation is supported in Base Asset Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
+-   **[Quick start test for Base Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-management/quick-start-tests-am.md)**  
+Validate that Base Asset Management still works after you make any configuration change such as apply an upgrade or develop an application. Copy and customize these quick start tests to pass when using your instance-specific data.
+-   **[Installed with Base Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-management/r_InstalledWithAssetManagement.md)**  
 Several tables, user roles, UI policies, script includes, client scripts, and business rules are installed with Asset Management.
 -   **[Installed with Model Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-management/installed-with-model-management.md)**  
 Several types of components are installed with Model Management.

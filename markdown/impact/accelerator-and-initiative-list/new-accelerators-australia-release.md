@@ -1,6 +1,6 @@
 ---
-title: Latest Accelerators by Release
-description: A list of new Impact Accelerators introduced in each Impact store releases.List of new Accelerators in the v11.0.0 Impact release.List of new Accelerators in the v8.0.0 Impact release.List of new Impact Accelerators in the v7.0.0 release.
+title: Latest Accelerators by release
+description: A list of new Impact Accelerators introduced in each Impact store releases.List of new Accelerators in the v12.0.0 Impact release.List of new Accelerators in the v11.0.0 Impact release.List of new Accelerators in the v8.0.0 Impact release.List of new Impact Accelerators in the v7.0.0 release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/accelerator-and-initiative-list/new-accelerators-australia-release.html
 release: brazil
@@ -8,17 +8,30 @@ product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
 last_updated: "2026-09-10"
-reading_time_minutes: 10
+reading_time_minutes: 11
 breadcrumb: [Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
-# Latest Accelerators by Release
+# Latest Accelerators by release
 
 A list of new Impact Accelerators introduced in each Impact store releases.
 
+-   [Accelerators introduced in v12.0.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/new-accelerators-australia-release.md)
 -   [Accelerators introduced in v11.0.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/new-accelerators-australia-release.md)
 -   [Accelerators introduced in v8.0.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/new-accelerators-australia-release.md)
 -   [Accelerators introduced in v7.0.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/new-accelerators-australia-release.md)
+
+## Accelerators introduced in v12.0.0
+
+List of new Accelerators in the v12.0.0 Impact release.
+
+### Strategy Accelerators
+
+The following Impact Strategy Accelerators were introduced in v12.0.0:
+
+-   [ITSM Maturity Assessment – On Demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/itsm-maturity-assessment-on-demand.md): Helps ServiceNow Impact customers assess their IT Service Management maturity across various domains and create a prioritized action plan with domain-specific tasks, owners, and success criteria.
+-   [Portfolio Governance Maturity Assessment – On Demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/portfolio_governance_maturity_assessment_on_demand.md): Helps ServiceNow Impact customers evaluate their Portfolio Governance maturity across Foundations, Demand Process, and Roadmap domains. It also generates a prioritized action plan with specific tasks, owners, and completion criteria to address identified gaps.
+-   [Strategy Governance Maturity Assessment – On Demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/accelerator-and-initiative-list/strategy-governance-maturity-assessment-on-demand.md): Helps ServiceNow Impact customers evaluate their Strategy Governance maturity across governance domains. It also generates a comprehensive action plan with maturity assessment results, prioritized focus areas, domain-specific weekly tasks, assigned owners, and completion criteria aligned to business priorities.
 
 ## Accelerators introduced in v11.0.0
 

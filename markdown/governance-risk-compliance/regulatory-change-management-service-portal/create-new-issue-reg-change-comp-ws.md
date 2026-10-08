@@ -1,6 +1,6 @@
 ---
-title: Create New Issue form
-description: Use the Create New Issue form in Compliance Workspace to create an issue or add an existing issue to a regulatory task.
+title: Create Issue form
+description: Use the Create Issue form in Compliance Workspace to create an issue or add an existing issue to a regulatory task.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/governance-risk-compliance/regulatory-change-management-service-portal/create-new-issue-reg-change-comp-ws.html
 release: brazil
@@ -12,11 +12,11 @@ reading_time_minutes: 3
 breadcrumb: [Create or add an issue related to a regulatory task, Manage regulatory tasks, Regulatory Change Management, Governance, Risk, and Compliance]
 ---
 
-# Create New Issue form
+# Create Issue form
 
-Use the Create New Issue form in Compliance Workspace to create an issue or add an existing issue to a regulatory task.
+Use the Create Issue form in Compliance Workspace to create an issue or add an existing issue to a regulatory task.
 
-## Create New Issue form
+## Create Issue form
 
 For a description of the field values, see the following table.
 

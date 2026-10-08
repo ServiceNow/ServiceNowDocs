@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-brazil/brazil-yokohama-aiadmincenter-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 9
+last_updated: "2026-10-08"
+reading_time_minutes: 11
 breadcrumb: [Products combined by family]
 ---
 
@@ -99,7 +99,36 @@ Australia
 
 </td><td>
 
--   **[Automation opportunities enhancements](https://www.servicenow.com/docs/access?context=now-assist-center-view-automation-opportunities&family=australia&ft:locale=en-US)**
+-   **[AI readiness enhancements](https://www.servicenow.com/docs/access?context=ai-admin-center-lux-view-ai-readiness&family=australia&ft:locale=en-US)**
+
+Use the Instance health tab on the AI readiness page to view the installation integrity and version currency of your installed AI applications and perform the required repair actions. Use the Data quality page to view the status of data quality checks.
+
+-   **[Upgrade readiness pre-check](https://www.servicenow.com/docs/access?context=ai-admin-center-plan-upgrade&family=australia&ft:locale=en-US)**
+
+Use the upgrade readiness pre-check to plan and prepare your instance for an upgrade to a selected release and minimize post-upgrade remediation.
+
+-   **[View prebuilt AI agents](https://www.servicenow.com/docs/access?context=ai-admin-center-lux-view-ai-assets&family=australia&ft:locale=en-US)**
+
+View a list of prebuilt AI agents available for the automation opportunities on your instance.
+
+-   **[System property registry](https://www.servicenow.com/docs/access?context=ai-admin-center-manage-system-properties&family=australia&ft:locale=en-US)**
+
+View and edit the system properties of AI applications in your instance using the system property registry.
+
+-   **[View assist consumption](https://www.servicenow.com/docs/access?context=ai-admin-center-lux-view-assist-consumption&family=australia&ft:locale=en-US)**
+
+View your total assist consumption for the instance, along with visualizations that show assists by asset, asset type, users, and departments.
+
+-   **[Custom metrics](https://www.servicenow.com/docs/access?context=ai-admin-center-custom-metric&family=australia&ft:locale=en-US)**
+
+Define custom deflection metrics, configure deflection logic, and test definitions against live data. Map assistants to custom or default definitions and activate or deactivate custom definitions with automatic fallback to the default definition.
+
+-   **[Intent discovery with AI agent matching](https://www.servicenow.com/docs/access?context=ai-admin-center-lux-set-up-data-source&family=australia&ft:locale=en-US)**
+
+Set up analysis of interaction data to identify intents, generate detection and resolution criteria for them, and provide a review workflow for intent curation and AI agent mapping.
+
+
+ -   **[Automation opportunities enhancements](https://www.servicenow.com/docs/access?context=now-assist-center-view-automation-opportunities&family=australia&ft:locale=en-US)**
 
 Use the automation opportunities enhancements to refine your view and identify opportunities. The automation opportunities list shows quick-select filters. The Resolution steps page for an automation opportunity is enhanced to show matched opportunities for default AI agents, agent status, and tooltips with links.
 
@@ -233,7 +262,12 @@ Australia
 
 </td><td>
 
--   **[Calculate savings projections for automation opportunities](https://www.servicenow.com/docs/access?context=ai-admin-center-set-up-data-source&family=australia&ft:locale=en-US)**
+-   **[Updated AI Admin Center experience](https://www.servicenow.com/docs/access?context=ai-admin-center-lux-user-experience&family=australia&ft:locale=en-US)**
+
+The Lux experience provides a fresh look and feel for AI Admin Center, featuring revised pages and navigation to enhance your user experience.
+
+
+ -   **[Calculate savings projections for automation opportunities](https://www.servicenow.com/docs/access?context=ai-admin-center-set-up-data-source&family=australia&ft:locale=en-US)**
 
 Use a single savings profile formula when configuring custom data sets for automation opportunity discovery. Multiple savings projections are no longer supported.
 
@@ -632,7 +666,14 @@ Australia
 
 </td><td>
 
-[Australia Patch 6](https://www.servicenow.com/docs/access?context=australia-patch-6&family=australia&ft:locale=en-US)
+[Australia Patch 7](https://www.servicenow.com/docs/access?context=australia-patch-7&family=australia&ft:locale=en-US)
+
+-   Leverage the updated user experience to carry out tasks in AI Admin Center.
+-   Prepare your instance for an upgrade to a selected release using the upgrade readiness pre-check.
+-   Manage the system properties of AI applications in your instance with the system property registry.
+-   Discover intents from your interaction data, generate detection and resolution criteria for them, and curate them for AI agent mapping.
+
+ [Australia Patch 6](https://www.servicenow.com/docs/access?context=australia-patch-6&family=australia&ft:locale=en-US)
 
 -   Use the automation opportunities enhancements to refine your view and identify opportunities.
 -   Delete a custom data source analysis that you no longer want to run for automation opportunity discovery.
@@ -665,11 +706,13 @@ Brazil
 
 </td><td>
 
--   Accelerate and simplify setup of your AI solutions in a unified experience. The workspace enables you to work with multiple AI applications without leaving AI Admin Center.
+-   Accelerate and simplify setup of your AI solutions in a unified experience. AI Admin Center enables you to work with multiple AI applications from a single experience.
 -   Easy-to-use conversational interface to perform common admin tasks, from basic setup to proposed AI implementations to guided help.
 -   Get started right away with guided quick-start use cases that appear as actionable cards on the home page. This gives both new and experienced administrators a clear starting point for enabling AI.
 -   Automated assessment of your instance readiness helps you prepare for AI adoption. The readiness assessment enables you to assess whether updates, installations, or customizations on your instance could affect AI implementation. It helps you to identify configuration gaps, view actionable insights, measure readiness over time.
 -   Analyze your instance data to identify automation opportunities that provide the greatest efficiency gains. View and activate prebuilt AI agents that match the opportunities, or create and deploy new AI agents for them.
+-   Use the ServiceNow Otto conversational experience to perform admin tasks, set up AI solutions, troubleshoot common issues, and get guided help.
+-   Review and evaluate the readiness of your instance for AI adoption and instance upgrades.
 
  See [AI Admin Center](https://www.servicenow.com/docs/access?context=now-assist-center-landing-page&family=brazil&ft:locale=en-US) for more information.
 

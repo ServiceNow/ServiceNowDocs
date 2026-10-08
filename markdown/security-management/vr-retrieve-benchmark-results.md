@@ -21,7 +21,7 @@ Role required: admin
 
 ## About this task
 
-For more information on Benchmarking, see [Benchmarks overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/c_BenchOverview.md).
+For more information on Benchmarking, see .
 
 ## Procedure
 

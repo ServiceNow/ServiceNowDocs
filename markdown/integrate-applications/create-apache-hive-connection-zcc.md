@@ -48,15 +48,15 @@ Work with your data source admin to create a connection to Apache Hive. For addi
 
 4.  Configure the metastore that you want to use with Apache Hive.
 
-<table id="choicetable_xqf_z3l_rfc"><thead><tr><th align="left" id="d579375e243">
+<table id="choicetable_xqf_z3l_rfc"><thead><tr><th align="left" id="d586350e243">
 
 Option
 
-</th><th align="left" id="d579375e246">
+</th><th align="left" id="d586350e246">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d579375e252">
+</th></tr></thead><tbody><tr><td id="d586350e252">
 
 **Hive Thrift**
 
@@ -70,7 +70,7 @@ Description
 
 `thrift://<host>:<port>`
 
-</td></tr><tr><td id="d579375e287">
+</td></tr><tr><td id="d586350e287">
 
 **AWS Glue**
 

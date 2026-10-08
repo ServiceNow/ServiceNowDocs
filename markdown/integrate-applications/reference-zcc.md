@@ -26,6 +26,10 @@ Fields that appear under Connection security configurations on the New PostgreSQ
 Fields that appear on the New MySQL Connection form depending on the selected authentication type.
 -   **[MySQL connection security configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/mysql-connection-security-fields-zcc.md)**  
 Fields that appear under Connection security configurations on the New MySQL Connection form when SSL is set to Enabled.
+-   **[Microsoft SQL Server authentication method fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/sqlserver-authentication-method-fields-zcc.md)**  
+Fields that appear on the New Microsoft SQL Server Connection form depending on the selected OAuth credential type.
+-   **[Microsoft SQL Server connection security configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/sqlserver-connection-security-fields-zcc.md)**  
+Fields that appear under Connection security configurations on the New Microsoft SQL Server Connection form depending on the selected SSL mode.
 
 **Parent Topic:**[Zero Copy Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/zero-copy-connectors.md)
 

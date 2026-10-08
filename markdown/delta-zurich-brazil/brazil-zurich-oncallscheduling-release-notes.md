@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-brazil/brazil-zurich-oncallscheduling-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 7
+last_updated: "2026-10-08"
+reading_time_minutes: 8
 breadcrumb: [Products combined by family]
 ---
 
@@ -105,6 +105,10 @@ Send the on-call escalation notifications when the configured record fields are 
     -   Configure the changes to fields as a triggering condition to run trigger rules. For example, changes to the **Priority** field for an incident can be configured as a trigger condition.
     -   Configure the group or team level trigger rules, or you can configure the global trigger rules that aren’t associated with a user group.
     -   If the assignment group is auto-populated when an incident is created, you can still configure the on-call trigger rules to run and send the escalation notifications.
+-   **[Bulk on-call schedule setup wizard](https://www.servicenow.com/docs/access?context=oc-create-bulk-schedule-onboarding&family=zurich&ft:locale=en-US)**
+
+Admins with the rota\_admin role can now onboard many teams onto on-call rotations in a single guided flow, instead of configuring each team one-by-one in On-Call Scheduling. Select the **On-Call Bulk Onboarding** in Service Operations Workspace \(SOW\).
+
 
 </td></tr><tr><td>
 
@@ -119,6 +123,10 @@ Simplify shift management by configuring a monthly roster rotation for an on-cal
 -   **[Granular role for on-call schedule configurations](https://www.servicenow.com/docs/access?context=roles-assigning-oncall&family=australia&ft:locale=en-US)**
 
 Configure on-call schedule features using the granular and specific role, sn\_on\_call\_admin. It contains sn\_trigger\_table\_cfg\_read and sn\_trigger\_table\_cfg\_write roles.
+
+-   **[Bulk on-call schedule setup wizard](https://www.servicenow.com/docs/access?context=oc-create-bulk-schedule-onboarding&family=australia&ft:locale=en-US)**
+
+Admins with the rota\_admin role can now onboard many teams onto on-call rotations in a single guided flow, instead of configuring each team one-by-one in On-Call Scheduling. Select the **On-Call Bulk Onboarding** in Service Operations Workspace \(SOW\).
 
 
 </td></tr><tr><td>

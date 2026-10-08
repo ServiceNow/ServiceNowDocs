@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/itsm-ma
 release: brazil
 topic_type: reference
 last_updated: "2026-09-10"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [IT Service Management AI agents, IT Service Management, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
@@ -18,12 +18,12 @@ This AI voice agent assists users with managing their active incidents and reque
 
 The agent is capable of fetching ticket details, adding a comment to a ticket, or escalating a ticket's urgency level.
 
-1.  Ask user to describe the ticket they want to manage.
-2.  Fetch all open tickets for the user and determine the best match for the user's description.
-3.  Ask user to confirm that this is the correct ticket.
-4.  Once confirmed, read out ticket summary.
-5.  Add a comment to the ticket and escalate as appropriate.
-6.  Close conversation when user is satisfied or if an error occurs.
+1.  Begin by asking the user to describe the ticket they would like to manage.
+2.  Fetch all the active tickets opened for the user, then from that list find the ticket\(s\) that best matches the user's description provided earlier and read out its number, short description and opened date.
+3.  Once you have narrowed down to one ticket, confirm the number and short description with the user, asking them "Is this the ticket you want to manage?".
+4.  When the user requests updates, use the add comment and escalate ticket tools as appropriate.
+5.  If a tool returns an error or a precondition is not met, notify the user and stop execution.
+6.  If the user is satisfied, close the conversation politely. If the user is not satisfied or requests a human, offer to transfer and end the conversation.
 
 <table><thead><tr><th>
 
@@ -43,44 +43,11 @@ When enabled, third-party AI agents can use this agent. This value is off \(fals
 
 </td></tr><tr><td>
 
-Allow AI specialists to access this AI agent
-
-</td><td>
-
-When enabled, AI specialists can use this agent. This value is off \(false\) by default. When set to true, more configuration options for tools become available so that an AI specialist can map inputs and response templates to tool outputs. This setting is defined in the AI Agent configs \[sn\_aia\_agent\_config\] table on the Specialist enabled field.
-
-</td></tr><tr><td>
-
-Manage long-term memory
-
-</td><td>
-
-When enabled, all previous user interactions are used as context for the LLM. This value is off \(false\) by default. This setting is defined by the **sn\_aia.ltm.enable\_long\_term\_memory** system property. For more information, see [ServiceNow Otto AI agents reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/na-aia-reference.md).
-
-</td></tr><tr><td>
-
-Tools
-
-</td><td>
-
--   **Flow actions**
-
-Get all active tickets
-
-Escalate ticket
-
-Get ticket details via number
-
-Add comment to ticket
-
-
-</td></tr><tr><td>
-
 Allowed user roles The specific user roles that can access this AI agent.
 
 </td><td>
 
-snc\_internal
+Admin
 
 </td></tr><tr><td>
 
@@ -88,7 +55,7 @@ Data access roles The specific user identity roles that determine which data the
 
 </td><td>
 
-nobody
+Admin
 
 </td></tr><tr><td>
 

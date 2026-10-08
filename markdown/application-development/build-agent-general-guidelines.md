@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Explore, Build Agent, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Explore, Build Agent, Build, AI Workflow Factory, Building applications]
 ---
 
 # General guidelines for Build Agent

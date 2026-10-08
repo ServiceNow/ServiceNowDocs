@@ -34,7 +34,7 @@ Role required: admin
     -   Ensure that the script include is **Active** and **Client callable**.
 3.  Call the JavaScript function from the condition builder.
 
-    For more information, see GlideRecord queries and [Script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/scripts/c_ScriptIncludes.md).
+    For more information, see GlideRecord queries and Script includes.
 
     **Note:** Grouped lists with a script include in the filter may cause slowness.
 

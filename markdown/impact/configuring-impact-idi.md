@@ -22,7 +22,7 @@ Download Impact from the ServiceNow store to take advantage of the latest featur
 
 1.  Access is enabled by your Impact squad who sends the Platform Owner a specific URL to log in to your Impact Delivery Instance portal.
 2.  In order to access various levels of IDI, a role must be assigned to you. Your Impact Administrator assigns the appropriate roles to you. See [Impact Delivery Instance roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/idi-roles.md) for additional information.
-3.  The value journey lifecycle starts with the creation of the value blueprint, which captures your business objectives, which are high-level goals tied to measurable outcomes that help illustrate value over time. Work with your Impact Squad and refer to [Value management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/value-library/impact-in-platform-business-outcomes.md) to get started.
+3.  The value journey lifecycle starts with the creation of the value blueprint, which captures your business objectives, which are high-level goals tied to measurable outcomes that help illustrate value over time. Work with your Impact Squad and refer to [Value Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/value-library/impact-in-platform-business-outcomes.md) to get started.
 
 1.  [Manage Impact Delivery Instance users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/ide-user-management.md)  
 Impact Delivery Instance \(IDI\) admins can create, view, and manage their users.

@@ -28,6 +28,8 @@ Iteration planning in EAP lets scrum masters and team members plan their own cad
 
 From EAP version 4.17.0, create a Planning Interval or Sprint directly from the team's Backlog by entering the start and end dates on the modal. The underlying planning calendar entries are created for you, so nobody has to define calendar entries before teams can plan. For the steps, see [Create a Planning Interval or Sprint from EAP Backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/enterprise-agile-planning/create-pi-sprint-eap-backlog.md).
 
+Agile Teams whose planning methodology is Kanban don't use Sprints. Kanban teams are skipped when Sprints are created for a Planning Interval, and the **Create next Sprint** button isn't available on their Backlog. For more information, see [Scrum and Kanban teams in an ART in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/enterprise-agile-planning/scrum-and-kanban-teams-in-eap.md).
+
 If you upgraded from an earlier version, the planning calendar entries that your admin defined remain valid. Existing iterations keep their dates, and teams can continue to create iterations within the timelines that those entries define. When an entry already matches the team, the dates on the modal are read-only and the system uses the dates from that entry.
 
 Define calendar entries in advance only if you have a specific requirement to manage iteration timelines from a central place. For more information, see [Create calendar entries for iterations in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/enterprise-agile-planning/create-calendar-entries-in-eap.md).

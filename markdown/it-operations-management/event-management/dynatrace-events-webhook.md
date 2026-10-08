@@ -7,7 +7,7 @@ release: brazil
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 3
 breadcrumb: [Integrate Dynatrace platform events, Integrate with push connectors, Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -53,6 +53,8 @@ Configure the Event Management environment for the collection of events from Dyn
     1.  Navigate to **Settings** &gt; **Analyze and alert** &gt; **Notifications** &gt; **Problem notifications**.
 
     2.  In the Set up custom integration form, add the Webhook URL: `https://<instance-name>.service-now.com/api/sn_em_connector/em/inbound_event?source=dynatrace`
+
+        **Note:**
 
         For basic authentication, select **Create basic authorization header**. You can see the username and password fields for the user.
 

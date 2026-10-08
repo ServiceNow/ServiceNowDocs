@@ -227,8 +227,12 @@ When selected, the Analytics Hub and KPI Details can show the score of this indi
     -   KPI Details can show the score of this indicator in real time.
     \[Omitted image "auto-ind-other-tab.png"\] Alt text: The Other tab on an indicator with settings previously listed
 
-10. In the **Forecasting** tab, set the forecast method, the number of data collection periods to forecast, the amount of historical data to base the forecast on, and the upper and lower limits of forecast values.
+10. In the **Forecasting** tab, set the following fields:
 
+    -   Forecast method
+    -   The number of data collection periods to forecast
+    -   The amount of historical data to base the forecast on
+    -   The upper and lower limits of forecast values
     For more information, see [Performance Analytics scores forecasts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/c_ForecastingData.md).
 
 11. Save the indicator.

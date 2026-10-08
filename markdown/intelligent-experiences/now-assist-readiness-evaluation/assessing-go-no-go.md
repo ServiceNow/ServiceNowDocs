@@ -7,7 +7,7 @@ release: brazil
 product: Now Assist Readiness Evaluation
 classification: now-assist-readiness-evaluation
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-10-06"
 reading_time_minutes: 1
 keywords: [Now Assist Readiness Evaluation, Now Assist Readiness Evaluation app, Now Assist Readiness, Now Assist assessment, GenAI assessment, AI assessment, Agentic AI assessment]
 breadcrumb: [Use, AI Readiness Evaluation, Assessing your AI readiness, Getting started with AI, Enable AI Experiences]
@@ -16,6 +16,8 @@ breadcrumb: [Use, AI Readiness Evaluation, Assessing your AI readiness, Getting 
 # Assessing readiness status
 
 The AI Readiness Evaluation app shows you a high-level overview of your go or no-go status for your organization's readiness to implement agentic AI, generative AI, or both.
+
+**Important:** The AI Readiness Evaluation store application is being prepared for deprecation. The readiness assessment capability is now available as a native in-platform feature within the AI Admin Center application. For more information, see [AI Admin Center \(formerly Now Assist Center\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-center-landing-page.md).
 
 Navigate to **Workspaces** &gt; **AI Readiness Evaluation** and select the Home icon \[Omitted image "home-icon.png"\] Alt text: to review your assessments' home page.
 

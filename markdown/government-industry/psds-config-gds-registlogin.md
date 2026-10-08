@@ -7,7 +7,7 @@ release: brazil
 topic_type: concept
 last_updated: "2026-06-01"
 reading_time_minutes: 4
-breadcrumb: [Configure pages, Configure UK GDS Service Portal, GOV.UK Developer Toolkit, Set up self-service, Configure, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Configure reusable pages, Configure UK GDS Service Portal, GOV.UK Developer Toolkit, Set up self-service, Configure, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Configure the GOV.UK Design System Service Portal Registration and Login pages

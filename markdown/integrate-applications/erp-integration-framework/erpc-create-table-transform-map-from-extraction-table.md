@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, table, transform, map, extraction, source, target, field]
-breadcrumb: [Extracting and transforming data, Data retrieval, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Extracting and transforming data, Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
 # Create a table transform map from an extraction table
@@ -67,6 +67,4 @@ Confirm that you have an extraction table associated with a model containing out
 
 11. To view the transform map at any time, select the link in **Table transform map link**.
 
-
-**Parent Topic:**[ERP data extraction and transformation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-extraction-tables.md)
 

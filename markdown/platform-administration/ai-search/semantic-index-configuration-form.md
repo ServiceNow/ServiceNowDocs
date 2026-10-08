@@ -8,7 +8,7 @@ product: AI Search
 classification: ai-search
 topic_type: reference
 last_updated: "2026-09-10"
-reading_time_minutes: 3
+reading_time_minutes: 4
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Reference, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -46,9 +46,9 @@ Embedding Models
 List of embedding models to use for the semantic index configuration.-   Default value: **ServiceNow Embedding \(E5\)**
 -   Supported values:
     -   **ServiceNow Embedding \(E5\)**: Use the E5 fine-tuned embedding model for content in the semantic index. The embedding model's encoder limit is 512 terms.
-    -   Azure OpenAI Embedding: Use the Azure OpenAI fine-tuned embedding model for content in the semantic index. For more information, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/setting-up-3p-embedding-models.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/setting-up-3p-embedding-models.md).
-    -   Google Gemini Embedding: Use the Google Gemini fine-tuned embedding model for content in the semantic index. For more information, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/setting-up-3p-embedding-models.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/setting-up-3p-embedding-models.md).
-    -   Custom Embedding: Use the custom fine-tuned embedding model for content in the semantic index. For more information, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/creating-byom.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/creating-byom.md).
+    -   Azure OpenAI Embedding: Use the Azure OpenAI fine-tuned embedding model for content in the semantic index. For more information, see [Configuring your embedding model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/setting-up-3p-embedding-models.md).
+    -   Google Gemini Embedding: Use the Google Gemini fine-tuned embedding model for content in the semantic index. For more information, see [Configuring your embedding model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/setting-up-3p-embedding-models.md).
+    -   Custom Embedding: Use the custom fine-tuned embedding model for content in the semantic index. For more information, see [Configuring bring your own model \(BYOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/ai-search/creating-byom.md).
 
 </td></tr><tr><td>
 

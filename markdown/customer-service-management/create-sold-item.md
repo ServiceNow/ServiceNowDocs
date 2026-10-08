@@ -147,7 +147,7 @@ Contacts, accounts, and consumers can login and access the sold products, howeve
 **Related topics**  
 
 
-[Create and manage sold products for a business location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-sp-for-business-location.md)
+[Create and manage sold products for a business organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-sp-for-business-location.md)
 
 [Edit a contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/edit-contract.md)
 

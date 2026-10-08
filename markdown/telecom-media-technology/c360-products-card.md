@@ -45,7 +45,7 @@ You can do the following:
     -   Suspend: Create an order to suspend a sold product and its hierarchy. Specify the **Start date and time**, the **Reason for Suspension**, and select **Suspend**.
     -   Resume: Create an order to resume a sold product and its hierarchy. If a sold product is in an **Inactive** or **Suspended** state, specify the **Start date and time** and select **Resume**.
     -   Disconnect: Disconnect a sold product and its services after fulfillment. Specify the **Start date and time**, the **Reason for disconnection**, and select **Disconnect**.
-    **Note:** These actions are available only for customer accounts.
+    **Note:** These actions are available only for customer accounts and a sold product that has a parent sold product. Performing the MACD actions \(Suspend, Resume, Disconnect, or Modify\) on that product updates the parent sold product's status or modification accordingly, based on the applicable order management business rules.
 
     You can perform these actions for multiple sold products from the View all list. For more details about these actions and the required conditions, see [Customer Life Cycle Management Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-life-cycle-management-workflows.md).
 

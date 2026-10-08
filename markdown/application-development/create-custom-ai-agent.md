@@ -9,7 +9,7 @@ last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [agentic workflow, AI agent, custom skill, Build Agent, ServiceNow Studio, create AI agent, create agentic workflow, AI Skill Kit, AI Agent Studio, access control list, ACL, automated generation, app development, prompt, ServiceNow Otto, AI Agents, generative AI, agentic AI]
 audience: administrator
-breadcrumb: [Use, Build Agent, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Use, Build Agent, Build, AI Workflow Factory, Building applications]
 ---
 
 # Create agentic workflows, agents, and skills

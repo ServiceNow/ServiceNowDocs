@@ -47,3 +47,5 @@ Create a reusable test to avoid redundancy, ensuring better test maintenance and
 
 [Performance profiling]()
 
+[ATF Health Check]()
+

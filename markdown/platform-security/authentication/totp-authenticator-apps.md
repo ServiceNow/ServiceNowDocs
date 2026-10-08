@@ -21,7 +21,7 @@ TOTP authenticator apps like **Okta Verify** generate temporary numeric codes on
 
 ## Use case
 
-TOTP authenticator apps are suitable for users who require stronger protection than standard multi-factor authentication \(MFA\) methods.
+TOTP authenticator apps are suitable for users who require stronger protection than standard multi-factor authentication \(MFA\) methods.TOTP factor can also be used for step-up authentication. For more information, see [Step-up authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/authentication/step-up-authentication.md).
 
 ## Key strengths
 

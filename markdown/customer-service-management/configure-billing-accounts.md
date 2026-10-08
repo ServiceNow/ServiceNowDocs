@@ -18,7 +18,7 @@ Configure billing accounts by reviewing the billing account model, setting up bi
 
 |Topic|Description|
 |-----|-----------|
-||Review the entities, relationships, and business models that the billing account data model adds to the Customer Data Foundation.|
+|[Billing account data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/billing-account-data-model.md)|Review the entities, relationships, and business models that the billing account data model adds to the Customer Data Foundation.|
 |[Billing account tables and plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/billing-account-tables-and-plugins.md)|Review the tables that the Billing Account Core application adds or uses, and the applications required.|
 |[Roles installed with billing accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/roles-installed-with-billing-accounts.md)|Review the granular roles installed across the platform, CRM, and customer access management families.|
 

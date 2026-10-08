@@ -103,8 +103,6 @@ See the [Commercial downloads for the Emergency Response Management and Safe Wor
 
 **Parent Topic:**[Employee Travel Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/employee-travel-safety/employee-travel-safety.md)
 
-**Parent Topic:**[Employee Travel Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/employee-travel-safety/employee-travel-safety.md)
-
 ## Components installed with Employee Travel Safety
 
 Several types of components are installed with Employee Travel Safety, including user roles and tables.

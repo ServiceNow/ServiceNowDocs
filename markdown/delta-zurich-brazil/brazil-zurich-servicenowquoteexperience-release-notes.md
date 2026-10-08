@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-brazil/brazil-zurich-servicenowquoteexperience-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 4
+last_updated: "2026-10-08"
+reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
 
@@ -91,7 +91,32 @@ Brazil
 
 </td><td>
 
--   **ServiceNow Quote Experience Experience integration with Contracts**
+-   **[Quote Experience configuration for subscriptions](https://www.servicenow.com/docs/access?context=sm-configuring-subscription-quote-experience&family=brazil&ft:locale=en-US)**
+
+Import the system-provided blueprint to define the fields and rules for populating, representing, and validating quote data. The blueprint includes transaction header-level fields, transaction line-level fields, line type and line action fields, business rules, and guardrails that enable ServiceNow Quote Experience to process subscription amendments and renewals.
+
+-   **[Transaction header-level system fields for subscriptions](https://www.servicenow.com/docs/access?context=sm-quote-tm-system-fields&family=brazil&ft:locale=en-US)**
+
+Reference the transaction header-level fields that ServiceNow Quote Experience uses to process subscription amendments and renewals.
+
+-   **[Transaction line-level system fields for subscriptions](https://www.servicenow.com/docs/access?context=sm-quote-tm-system-line-fields&family=brazil&ft:locale=en-US)**
+
+Reference the transaction line-level fields that ServiceNow Quote Experience uses to process subscription amendments and renewals.
+
+-   **[Line type and line action fields for subscriptions](https://www.servicenow.com/docs/access?context=sm-quote-tm-line-type-action-fields&family=brazil&ft:locale=en-US)**
+
+Reference the line type and line action fields that ServiceNow Quote Experience uses to process subscription amendments and renewals. These values add context to transaction fields and identify the type of change and action required for upsells, downsells, end date changes, product swaps, and standard and early renewals.
+
+-   **[Header-level and line-level business rules for subscriptions](https://www.servicenow.com/docs/access?context=sm-quote-tm-header-level-business-rules&family=brazil&ft:locale=en-US)**
+
+Reference the business rules that ServiceNow Quote Experience uses to process data from subscription workflows. Business rules work with transaction fields, line type, and line action to support accurate quote processing and downstream workflows.
+
+-   **[Guardrail rules for subscriptions](https://www.servicenow.com/docs/access?context=sm-tm-subscription-guardrails-quote&family=brazil&ft:locale=en-US)**
+
+Reference the guardrails that ServiceNow Quote Experience uses to help prevent invalid changes during amendment and renewal processing. Guardrails work with transaction fields, line type, line action, and business rules to maintain quote validity.
+
+
+ -   **ServiceNow Quote Experience Experience integration with Contracts**
 
 Amend simple and configurable products that originate from a contract, directly within a quote. Amend the products from a contract to complete upsell, downsell, and end-date changes, including early termination and extension. You can also renew the products from a contract using standard renewal, early renewal, or automatic renewal operations.
 
@@ -99,7 +124,7 @@ Amend simple and configurable products that originate from a contract, directly 
 
 Subscription Management integrates with ServiceNow Quote Experience, CPQ Configurator, and the Pricing Management to provide a unified experience throughout the Subscription Management lifecycle.
 
--   **ServiceNow Quote Experience integration with Pricing Management**
+-   **[Pricing in the ServiceNow Quote Experience](https://www.servicenow.com/docs/access?context=pricing-in-quote-experience&family=brazil&ft:locale=en-US)**
 
 Calculate and adjust transaction pricing directly from a quote.
 
@@ -108,6 +133,10 @@ Calculate and adjust transaction pricing directly from a quote.
     -   Set automatic pricing behavior by stage. For example, enable automatic reprice in **Draft** stage, but disable for **Order Submitted** stage.
     -   Adjust prices manually. Apply a fixed-amount or percentage discount or uplift to a line or the header total. Each adjustment is preserved as a distinct input and tracked for audit.
     -   Apply automatic price adjustments. Use rules such as volume tiers, promotions, and contracted discounts during a pricing call. A manual adjustment always takes precedence over an automatic one on the same line or header.
+-   **Configure ServiceNow Quote Experience through Guided Setup**
+
+Set up ServiceNow Quote Experience directly from the Guided Setup for CPQ Integration. Configure it alongside the rest of your CPQ integration in a single guided flow, instead of configuring components separately.
+
 
 </td></tr></tbody>
 </table>## Changes
@@ -370,7 +399,9 @@ Brazil
 </td><td>
 
 -   **Accessibility information**
-    -   ServiceNow Quote Experience is now fully accessible when using dark themes, so you can view and interact with all interface elements clearly in a dark-themed environment.
+
+Color contrast in ServiceNow Quote Experience was updated to display all interface elements clearly in dark-themed environments. This update helps users view and interact with all interface elements clearly in a dark-themed environment.
+
 
 </td></tr></tbody>
 </table>## Localization information
@@ -454,7 +485,7 @@ The ServiceNow Quote Experience is enhanced to integrate with Subscription Manag
 -   Create an auto-renewal automatically, enabling a renewal pipeline before expiration.
 -   Initiate an early or late renewal and add or remove products during the renewal process, providing greater flexibility to accommodate changing needs.
 
- See [ServiceNow Quote Experience](https://www.servicenow.com/docs/access?context=quoting-experiences-overview&family=brazil&ft:locale=en-US) for more information.
+ See [Subscription Management in Quote Experience](https://www.servicenow.com/docs/access?context=sm-quote-integration&family=brazil&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-zurich-brazil/rn-combined-intro.md)

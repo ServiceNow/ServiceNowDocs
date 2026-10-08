@@ -70,3 +70,5 @@ For details, see [Activate the Consumer and Customer Service Portals](https://ra
 
 [Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_ServicePortal.md)
 
+[Evaluate the performance of a portal page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/analyze-page-performance.md)
+

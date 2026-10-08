@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-portfolioplanning-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 22
+last_updated: "2026-10-08"
+reading_time_minutes: 31
 breadcrumb: [Products combined by family]
 ---
 
@@ -160,13 +160,36 @@ Portfolio plan display preferences include column selection, grouping and filter
 **Note:** Portfolio plan views are available only for the Planning module and are supported in live mode, but not in scenario mode.
 
 
+ -   **[View financial data of your planning items at the portfolio level](https://www.servicenow.com/docs/access?context=using-portfolio-financials-ppw&family=yokohama&ft:locale=en-US)**
+    -   View the rolled-up financial costs and benefits data of your planning items Epics, Demands, and Projects at the portfolio level for different time scales and ranges.
+    -   View the financial values such as the Budget, Planned cost, Variance, Actuals, and Remaining Estimates of your planning items by expense type or cost type.
+    -   View the Forecasts, Actuals, and Variance of your planning items for monetary benefits.
+    -   View the financial data of the planning items while creating multiple prioritization scenarios to promote efficient use of budget and to help increase ROI.
+-   **[Real-time collaboration for Planning item Docs](https://www.servicenow.com/docs/access?context=docs-for-planning-items-in-ppw&family=yokohama&ft:locale=en-US)**
+
+Edit a doc page concurrently with multiple other editors. Colored cursors denote the current location of editors on the page. You can choose to show or hide these indicators.
+
+**Note:** To use the full functionality of Docs v6.6.0 within Portfolio Planning Workspace, upgrade to Portfolio Planning Workspace v8.5.0. For more information, see the [Incompatibility After Upgrading Docs to Version 6.0.0 \[KB2017926\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2017926) article in the Now Support Knowledge Base.
+
+
 </td></tr><tr><td>
 
 Zurich
 
 </td><td>
 
--   **[Roadmap enhancements](https://www.servicenow.com/docs/access?context=planning-roadmaps-in-portfolio-planning&family=zurich&ft:locale=en-US)**
+-   **[Dynamic data linking in Docs](https://www.servicenow.com/docs/access?context=docs-for-planning-items-in-ppw&family=zurich&ft:locale=en-US)**
+
+Keep record information in your documentation always current and reduce manual effort with the Dynamic data linking feature in Docs. You can now reference any ServiceNow application record and Docs will automatically reflect the latest updates from those records. For example, if you add a reference to a Project record, the reference will show the latest field information of the project in Docs without requiring manual edits. Clicking the project reference opens up the project form so that you can view the full details of the project record and make any necessary changes. Dynamic linking also enables adding references to a particular field of a record, such as Assigned to of an Incident record.
+
+You can add references from any ServiceNow table you have access to, with no setup or configuration needed, thereby eliminate the hassle of switching between applications to copy and paste data from various records into Docs.
+
+-   **[Scenario planning enhancements](https://www.servicenow.com/docs/access?context=enable-scenario-planning-in-portfolio-planning&family=zurich&ft:locale=en-US)**
+
+With the sn\_align\_core.apw\_admin role, you can enable or disable the scenario planning feature. The **sn\_align\_ws.is\_scenario\_planning\_disabled** system property allows you to enable or disable the scenario planning feature.
+
+
+ -   **[Roadmap enhancements](https://www.servicenow.com/docs/access?context=planning-roadmaps-in-portfolio-planning&family=zurich&ft:locale=en-US)**
     -   Create custom themes for your roadmap bar colors to align with your organization’s standards.
     -   Experience consistent roadmap bar colors for choice list attribute values across all portfolio plans.
     -   View the roadmap-level milestone row while scrolling down the Roadmap page.
@@ -188,7 +211,48 @@ Australia
 
 </td><td>
 
--   **[Next Experience for Demand Management](https://www.servicenow.com/docs/access?context=demand-workspace-ppw&family=australia&ft:locale=en-US)**
+-   **[Financials grid for demands in Next Experience for Demand Management](https://www.servicenow.com/docs/access?context=managing-financials-for-demands-ppw&family=australia&ft:locale=en-US)**
+
+Next Experience for Demand Management includes a Financials grid for demand records. This grid shows the demand's cost plans, benefit plans, and baselines. From this grid, users can:
+
+    -   Add cost plans, benefit plans, and expense lines scoped to the demand.
+    -   Create and compare baselines for financial data on the demand.
+    -   Filter by time scope and personalize the grid columns.
+-   **[Monitor and track demands](https://www.servicenow.com/docs/access?context=c_demand_dashboards_ppw&family=australia&ft:locale=en-US)**
+
+Next Experience for Demand Management includes a Dashboard menu for demand records. The dashboard opens by default and is organized into three tabs:
+
+    -   Overview
+    -   Financials
+    -   Data Quality
+Filter dashboard data by department, business unit, portfolio, program, or demand manager. Select a widget, or select **View all** on a list widget, to open the underlying records with the same filters applied.
+
+-   **[Identify similar demands using AI](https://www.servicenow.com/docs/access?context=identify-similar-demand-records-ppw&family=australia&ft:locale=en-US)**
+
+Detect similar existing demand records when creating or editing a demand using the identify similar records skill. This skill compares the Name, Description, and Business Case fields for contextual similarity.
+
+-   **[RIDAC](https://www.servicenow.com/docs/access?context=explore-ridac-ppw&family=australia&ft:locale=en-US)**
+    -   Create and associate risks, issues, decisions, actions, and changes \(RIDAC\) with project and demand planning items to track planning uncertainties.
+    -   Access a dedicated RIDAC menu in Portfolio Planning Workspace for quick navigation to RIDAC items.
+    -   Manage RIDAC items with granular role-based access—assign read-only or full edit access to team members based on their responsibilities.
+    -   Run the scheduled job to populate the planning item field on the existing RIDAC records that were created earlier.
+    -   Track RIDAC across multiple scopes—view all RIDAC, project-specific RIDAC, portfolio RIDAC, and program RIDAC in a single unified view.
+
+ -   **[Plan efficiently with additional pre-defined lenses](https://www.servicenow.com/docs/access?context=lens-and-portfolio-plans&family=australia&ft:locale=en-US)**
+
+Use the Planning item lens to plan, prioritize, and roadmap work in Strategic Planning Workspace directly with planning items, without configuring organization structure, programs, portfolios, or products. The lens supports all enabled work item types, such as projects and demands, and can be used as a standalone lens or alongside other lenses.
+
+
+ -   **[AI-generated insights for portfolio plans](https://www.servicenow.com/docs/access?context=view-portfolio-insights&family=australia&ft:locale=en-US)**
+
+Gain AI-generated insights into planning items within a portfolio plan using the Portfolio insights skill. Identify planning items that are delayed beyond their planned end date, have delayed starts, or have misalignments between planned and approved dates. Monitor active projects that show early risk indicators but have not yet experienced delays. View AI-generated top root causes and recommended actions for each insight category to help address delays and misalignments effectively.
+
+The AI Insights window displays a timestamp indicating when insights were last generated. You can regenerate insights and recommendations if required to see the changes based on the latest available data.
+
+Users with the sn\_align\_core.apw\_admin role can configure severity thresholds and scoring factors for planning items. These settings control how the Portfolio insights skill classifies insight severity as Critical, Medium, or Low.
+
+
+ -   **[Next Experience for Demand Management](https://www.servicenow.com/docs/access?context=demand-workspace-ppw&family=australia&ft:locale=en-US)**
 
 Manage strategic and operational demands in a unified experience in Portfolio Planning. This Next Experience interface consolidates demand creation, assessment, collaboration, and conversion in one place, eliminating context switching and reducing reliance on the classic Demand Workbench.
 
@@ -230,7 +294,27 @@ Brazil
 
 </td><td>
 
--   **[RIDAC for portfolio plans](https://www.servicenow.com/docs/access?context=portfolio-plan-ridac-ppw&family=brazil&ft:locale=en-US)**
+-   **[EWD for demands](https://www.servicenow.com/docs/access?context=ewd-for-demands-ppw&family=brazil&ft:locale=en-US)**
+
+Partition demand data by any criteria, such as department or business unit, using Enterprise-Wide Deployment \(EWD\) partitioning on the Demand table and related entities. Demands are stamped with a matching partition, and users see only the demands, list views, search results, and dashboards for the partitions their role grants them.
+
+EWD for demands includes the following functionalities:
+
+    -   Demand experiences: Define the way a particular demand should work including its form view, modules, and dynamic attributes. For example, a particular view or certain functions available on a demand or menu items hidden or visible for different types of demands.
+    -   Demand partitions: Control the data visible to different users.
+    -   Demand partitions dashboard: Dedicated dashboard for different demand partitions.
+-   **[Assess demands with smart assessments](https://www.servicenow.com/docs/access?context=smart-assessments-overview-ppw&family=brazil&ft:locale=en-US)**
+
+Smart assessments are now available for demands, which are triggered on moving the demand to screening. These assessments are controlled by the **sn\_align\_ws.enable\_smart\_assessments** system property. After this property is enabled, smart assessments are triggered for the new demands and the ones that aren't yet in the screening state.
+
+The smart assessment form is more intuitive and supports text-based questions. The assessments are available at the individual demand record and in a consolidated Smart Assessments module in the main navigation menu. This module displays all assigned smart assessments across demands.
+
+-   **[Resource profiling for demands](https://www.servicenow.com/docs/access?context=resource-planning-for-demands-ppw&family=brazil&ft:locale=en-US)**
+
+Plan and manage resource assignments for a demand from the **Resources** tab in Next Experience for Demand Management. The resource board shows assignments alongside resource capacity so you can confirm availability before converting a demand to a project. Create, copy, move, split, end, or reassign resource assignments directly from the grid, group by primary group, role, or skill, and use the allocation heatmap to identify over-allocated and available resources. Use the Resource Finder to get fit-scored, ranked resource recommendations with rationale for unassigned work.
+
+
+ -   **[RIDAC for portfolio plans](https://www.servicenow.com/docs/access?context=portfolio-plan-ridac-ppw&family=brazil&ft:locale=en-US)**
 
 Access portfolio risks, issues, decisions, actions, and requested changes \(RIDAC\) directly from the portfolio plan using the dedicated RIDAC page within the portfolio plan. View all portfolio governance items in a single, integrated interface without navigating to the separate RIDAC menu. The RIDAC page reduces context-switching and improves portfolio visibility by consolidating governance data. The portfolio plan RIDAC displays the RIDAC items that match the portfolio plan's criteria or belong to the planning items of that portfolio plan.
 
@@ -291,6 +375,14 @@ Yokohama
 The name of the **Capacity Planning** tab in the planning view is changed to **Capacity**.
 
 
+ -   **[Financials UI changes](https://www.servicenow.com/docs/access?context=using-portfolio-financials-ppw&family=yokohama&ft:locale=en-US)**
+    -   New **Financials** tab in the Planning page.
+    -   The name of the **ETC** field is changed to **Remaining Estimates**.
+    -   The name of the **EAC** field is changed to **Forecast**.
+    -   The name of the **Actuals to date** field is changed to **Actuals**.
+    -   New Financials view in scenario planning.
+    -   New financial widgets in the compare scenario page.
+
 </td></tr><tr><td>
 
 Zurich
@@ -322,7 +414,20 @@ Australia
 
 </td><td>
 
--   **[Next Experience for Demand Management](https://www.servicenow.com/docs/access?context=demand-workspace-ppw&family=australia&ft:locale=en-US)**
+-   **[Summarize demands using AI](https://www.servicenow.com/docs/access?context=summarize-demands-in-ppw&family=australia&ft:locale=en-US)**
+
+The demand summary is generated in the **AI Overview** tab instead of the **Details** tab. The skill is set to trigger automatically, that is, the summary is generated on landing in this tab. Auto-generation is on by default and applies to demands in Submitted, Screening, Qualified, or Approved states. You can define the trigger to manually trigger as well, where users must select the **Summarize** button to generate the summary.
+
+-   **[AI skills for Demand Workspace](https://www.servicenow.com/docs/access?context=ai-skills-in-demands-workspace-ppw&family=australia&ft:locale=en-US)**
+
+ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+
+-   **[Access execution records from Portfolio Plans](https://www.servicenow.com/docs/access?context=access-demands-from-portfolio-planning-views&family=australia&ft:locale=en-US)**
+
+The execution URL is updated on the planning item demand. New planning items demand will automatically use the new execution URL. The execution URLs on existing planning item demands continue to work but doesn't reflect the updated navigation. Run the **Update Demand Planning Item Execution URL** scheduled job to update the execution URL on the existing demands.
+
+
+ -   **[Next Experience for Demand Management](https://www.servicenow.com/docs/access?context=demand-workspace-ppw&family=australia&ft:locale=en-US)**
     -   The Demands icon has been added to the Portfolio Planning L1 menu to open the All Demands home page.
     -   The **State** field on the All Demands home page has been color-coded for each state value.
     -   The **Playbook**, **Details**, and **Docs** tabs have been added to the L2 menu of each demand to clearly and consistently group information.
@@ -348,7 +453,26 @@ Brazil
 
 </td><td>
 
--   **Financials**
+-   **[Roadmap export range](https://www.servicenow.com/docs/access?context=export-portfolio-plan-status-to-ppt-portfolio-planning-workspace&family=brazil&ft:locale=en-US)**
+
+The maximum date range for exporting a roadmap to PowerPoint increased from 1 year to 3 years, within the start and end dates of the portfolio. The exported timescale adjusts to the range you select: months for a range of 1 year or less, and quarters for a range longer than 1 year.
+
+-   **[Program portfolio plan enhancements](https://www.servicenow.com/docs/access?context=program-portfolio-plan-ppw&family=brazil&ft:locale=en-US)**
+    -   **Program details** — Select the information icon next to the program name to view the planning item types, program timeline, and program manager.
+    -   **Program value for new items** — When you create a demand or project from a program portfolio plan, the **Program** field is prefilled with that program.
+    -   **Prioritization default layout** — The default **Prioritization** view shows the Rank, Name, Planning state, Planning item type, Status, Cost status, Resource status, Schedule status, Scope status, Percent complete, Primary goal, and Owner columns.
+    -   **Goals tab** — Program portfolio plans include the **Goals** tab, which shows all primary and non-primary goals linked to the planning items in the plan, along with goals assigned directly to the program.
+    -   **Public views** — Any user who can access a program portfolio plan can create and update its public views. Previously, only plan editors could create or update public views.
+-   **[Resource assignment offsets when converting a demand to a project](https://www.servicenow.com/docs/access?context=data-migrated-from-demand-project-dw&family=brazil&ft:locale=en-US)**
+
+When a demand with resource assignments is converted to a project, assignment offsets are recalculated against the project's schedule, which counts only the working days defined in the project schedule, instead of the demand, which has no schedule and counts every calendar day.
+
+-   **[Execution URL on planning item demands](https://www.servicenow.com/docs/access?context=update-execution-urls-for-existing-demands&family=brazil&ft:locale=en-US)**
+
+Run the **Update Demand Planning Item Execution URL** scheduled job to update the execution URLs on your existing demands to the latest format.
+
+
+ -   **Financials**
 
 Added in-context help \(hover info icons\) on the Financials page widgets, explaining how the key fields like Budget, EAC, Planned Cost, Actuals, Return, ROI, and NPV are calculated.
 
@@ -505,6 +629,8 @@ Yokohama
 Install Portfolio Planning by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 
+**Important:** Portfolio Planning is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Zurich
@@ -516,6 +642,8 @@ Zurich
 Install Portfolio Planning by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
 
+**Important:** Portfolio Planning is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Australia
@@ -526,6 +654,8 @@ Australia
 
 Install Portfolio Planning by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
 
+
+**Important:** Portfolio Planning is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 

@@ -58,16 +58,8 @@ See [Components installed with Workplace Core](https://raw.githubusercontent.com
 
 **Parent Topic:**[Configure Workplace Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/configure-wsd.md)
 
-**Parent Topic:**[Configure Workplace Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-core/configure-wsd.md)
-
 **Related topics**  
 
-
-[Providing your workplace data]()
-
-[Configuring spreadsheets to import workplace data]()
-
-[Activate Virtual Agent for Workplace Service Delivery]()
 
 [Providing your workplace data]()
 

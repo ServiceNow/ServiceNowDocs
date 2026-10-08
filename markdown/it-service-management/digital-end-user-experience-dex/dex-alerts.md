@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [dex alert management, active alerts, alert severity, impacted services, impacted devices, impacted users, overview tab, details tab, related records tab, remediate issue on devices, remedial actions, bulk remediation, root cause of alert]
-breadcrumb: [Monitor application performance, Manage, Digital End-User Experience, IT Service Management]
+breadcrumb: [Monitor application performance, Manage employee experience, Digital End-User Experience, IT Service Management]
 ---
 
 # DEX Alerts

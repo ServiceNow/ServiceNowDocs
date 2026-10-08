@@ -31,7 +31,7 @@ A quick task filter narrows the task panel list to only the tasks that match you
 
 2.  Select **Dispatcher Workspace**.
 
-3.  Open the quick filter using one of the following:
+3.  Open the quick task filter using one of the following:
 
     -   Select the filter icon next to the task search field.
     -   In the task search field drop-down, select **Quick Filters**.
@@ -52,4 +52,13 @@ A quick task filter narrows the task panel list to only the tasks that match you
 ## Result
 
 The task panel list updates to show only tasks that match the filter.
+
+**Related topics**  
+
+
+[Quick task and calendar filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/quick-filters-dw.md)
+
+[Apply a quick calendar filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-scheduling/apply-quick-cal-filter.md)
+
+[Create a custom quick task filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/create-custom-quick-filter.md)
 

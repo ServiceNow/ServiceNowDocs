@@ -99,7 +99,7 @@ View your capabilities and product adoption roadmaps for your ServiceNow instanc
 
 </td><td>
 
-[Value management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/value-library/impact-in-platform-business-outcomes.md)
+[Value Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/value-library/impact-in-platform-business-outcomes.md)
 
 </td><td>
 

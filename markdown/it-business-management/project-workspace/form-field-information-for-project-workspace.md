@@ -35,7 +35,7 @@ Learn about the fields on the Issue form of the Project Workspace. Use this form
 -   **[Project form in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/project-form-pw.md)**  
 Learn about the fields on the project form of the Project Workspace. Use this form to create a project.
 -   **[Project type form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/project-type-form-pw.md)**  
-Fields on the Project type form and their descriptions . Use this form to create a project type for your projects.
+Learn about the fields on the Project type form of the Project Workspace. Use this form to create a project type for your projects and choose which modules the project type shows.
 -   **[Request change form on Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/request-change-form-project-workspace.md)**  
 Learn about the fields on the Request change form of the Project Workspace. Use this form to add a change request to your projects.
 -   **[Risk form of Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/project-workspace/risk-form-project-workspace.md)**  

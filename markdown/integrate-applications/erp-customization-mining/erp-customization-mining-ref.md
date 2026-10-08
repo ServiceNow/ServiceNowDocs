@@ -9,7 +9,7 @@ classification: erp-customization-mining
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ERP Semantic Mining overview, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [ERP Semantic Mining overview, Workflow Data Fabric]
 ---
 
 # ERP Semantic Mining reference
@@ -30,8 +30,8 @@ Before snapshot import and export in ERP Semantic Mining, a check is performed a
 Find details on standard ERP \(Enterprise Resource Planning\) remote tables, extraction tables, and fields in ERP Semantic Mining.
 -   **[ERP Semantic Mining field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-customization-mining/erpcm-field-description-reference-landing.md)**  
 Some tables of field descriptions in ERP Semantic Mining are too large to maintain in task topics. Find information on those large tables in this section.
--   **[]()**  
-
+-   **[Zero Copy Connector for ERP glossary]()**  
+Learn about the terms and concepts used in Zero Copy Connector for ERP.
 
 **Parent Topic:**[ERP Semantic Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-customization-mining/erp-customization-mining-overview.md)
 

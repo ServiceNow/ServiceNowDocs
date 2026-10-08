@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/application-portfolio-managemen
 release: brazil
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 6
+reading_time_minutes: 8
 breadcrumb: [Working with an application portfolio, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
@@ -24,11 +24,20 @@ You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude on 
 
 The default AI model provider for this skill is Azure OpenAI.
 
+**Note:** Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+
 Role required: sn\_apm.apm\_user
 
 ## About this task
 
 The business application insights help you to make informed decisions without manually reviewing large volumes of data. The insights help minimize the time that you spend to learn about critical details of business applications like purpose, risk, cost, and recommendations for rationalization.
+
+How the insights are generated depends on the trigger type that your administrator configures for the Business application insights skill. For more information, see [Configure ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/configure-now-assist-ea.md).
+
+-   **Automatic**: The insights are generated automatically, without any action from you. When you open a business application record page, the insights are already generated. For example, when you select a business application in the application rationalization bubble chart, the side panel opens on the **Insights** tab. This is the default setting.
+-   **User trigger**: The insights are generated only when you select **Generate insights**. For example, when you select a business application in the application rationalization bubble chart, the side panel opens on the **Details** tab.
+
+On the Application Rationalization list view page and the Business Portfolio page, the insights aren't generated automatically for either trigger type. To generate insights from these pages, select the View BA Insights icon \(\[Omitted image "ba-generate-insights-icon.png"\] Alt text:\) next to the business application name.
 
 The business application summary and insights are generated based on certain related fields and related lists. To view the list of fields and related lists based on which the summary and insights are generated, navigate to **All** &gt; **AI Admin Hub** &gt; **AI Skills** &gt; **Technology** &gt; **EA** &gt; **Business application insights** &gt; **View details** &gt; **Edit configuration** &gt; **Choose input**. For more details, see [Configure ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/configure-now-assist-ea.md).
 
@@ -77,7 +86,11 @@ You can also provide feedback on the business application insights using the thu
 
 5.  Select the business application for which you want to generate insights.
 
-6.  Select **Generate insights**.
+6.  If the trigger type is set to **User trigger** in the AI Admin Hub, for the skill, select **Generate insights**.
+
+    If the trigger type is set to Automatic, the **Generate insights** button isn't displayed. The insights are already generated when the business application record page opens.
+
+    For information on triggers for this skill, see [Configure ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/configure-now-assist-ea.md).
 
     \[Omitted image "ba-generate-insights-button.png"\] Alt text: Screenshot showing the business application Generate insights button highlighted.
 
@@ -116,4 +129,6 @@ You can also provide feedback on the business application insights using the thu
 [Configure ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/configure-now-assist-ea.md)
 
 [ServiceNow Otto for Enterprise Architecture \(EA\) access roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/sn-otto-access-roles.md)
+
+[Access Enterprise Architecture data using MCP tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/access-ea-data-using-mcp-tools.md)
 

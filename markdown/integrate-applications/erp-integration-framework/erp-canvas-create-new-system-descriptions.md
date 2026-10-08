@@ -59,7 +59,7 @@ ERP software
 
 The supported ERP software on the system. Select one or more options from the list, for example, ECC 7.5 and SAP S/4HANA 2021. For SAP, the list contains major SAP versions and doesn't include patch versions.
 
- The list also contains Oracle E-Business Suite \(EBS\), version 12.2 or later. Oracle E-Business Suite systems support REST only. For more information, see .
+ The list also contains Oracle E-Business Suite \(EBS\), version 12.2 or later. Oracle E-Business Suite systems support REST only. For more information, see [Oracle E-Business Suite support in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-oracle-ebs-overview.md).
 
 </td></tr><tr><td>
 
@@ -102,5 +102,4 @@ Updated \(on heartbeat tabs after system record is first saved\)
 Date and time when the heartbeat was last changed.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Zero Copy Connector for ERP field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-framework/erp-canvas-field-descriptions.md)
-
+</table>

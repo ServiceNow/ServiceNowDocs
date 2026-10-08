@@ -18,7 +18,7 @@ This content covers the application development stages to help developers easily
 
 -   [Plan your application development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/plan-your-app-development.md): Think through the application before building it.
 -   [Build your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/build-your-application.md): Create and configure the application and its components.
--   [Agentic development on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/use-ai-capabilities-in-custom-apps.md): Create applications with help from agentic AI.
+-   [Build applications with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/build-ai-workflow-factory-prime.md): Create applications with help from agentic AI.
 -   [Validate app functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/validate-app-functionality.md): Perform functional testing and write test cases.
 -   [Deploy your app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/deploy-your-app.md): Move the application into production.
 

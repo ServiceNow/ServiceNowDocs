@@ -9,6 +9,7 @@ classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 7
+keywords: [CrowdStrike Premium Feed, Threat feed configuration, Indicator ingestion, Falcon Intelligence feed, Feed filtering, Threat data ingestion, CrowdStrike integration]
 breadcrumb: [View Custom Feed, View Threat Intel Feeds, Threat Intelligence Feeds, Integrate, Threat Intelligence Security Center, Security Operations]
 ---
 

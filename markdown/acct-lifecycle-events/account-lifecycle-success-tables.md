@@ -44,6 +44,12 @@ This section includes the Customer Success Management tables.
 |Applicable team members|Associates team members with an engagement.|
 |Applicable customer team|Associate a customer team with an engagement.|
 |Meeting applicable records|Associates records with a touchpoint meeting. Each entry links a meeting to a related record, such as a success play created from a meeting recommendation. The association type indicates the relationship: Trigger, Action Item, or Referenced. The AI Recommended field indicates whether the associated record was suggested by ServiceNow Otto.|
+|Engagement onboarding links|Associates an engagement with one or more onboarding cases. Each entry links one engagement to one onboarding case on the same account.|
+
+-   **[Supported use case table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-product-uc-tables.md)**  
+The supported use case table \(`sn_prod_cap_core_sup_use_case`\) is the default implementation of the use case catalog. It extends the base use case table and adds classifies the industry verticals and business model segments relevant to the use case.
+-   **[Customer Discovery Hub tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-cust-dh-tables.md)**  
+The Customer Discovery Hub includes four tables that capture customer business context: customer business need, customer business challenge, customer business expectation, and customer use case.
 
 **Parent Topic:**[Customer Success Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-reference.md)
 

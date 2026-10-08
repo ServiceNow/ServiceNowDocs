@@ -104,7 +104,7 @@ Used in agentic workflows
 
 </td><td>
 
-Help fulfill procurement requests
+Conversational intake for sourcing and procurement
 
 </td></tr></tbody>
 </table>Learn more about Sourcing and Procurement Operations at [Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/source-to-pay-operations/psm-overview.md).

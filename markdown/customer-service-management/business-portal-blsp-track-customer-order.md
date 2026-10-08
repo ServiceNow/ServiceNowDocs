@@ -28,5 +28,5 @@ The following table describes the fields available on the Customer Orders form.
 **Related topics**  
 
 
-[Track customer orders on the Business Location Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/track-customer-orders-on-the-blsp.md)
+[Track customer orders on the Business Organization Support Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/track-customer-orders-on-the-blsp.md)
 

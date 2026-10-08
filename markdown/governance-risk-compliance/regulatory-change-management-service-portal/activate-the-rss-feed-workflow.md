@@ -24,7 +24,7 @@ Role required: admin
 
 ## About this task
 
-The RCM IT Admin schedules the Pull RSS Feed to Regulatory Change flow to run on a daily, weekly, or monthly basis and sets up the time for the flow.
+The RCM IT Admin schedules the Pull RSS Feed to Regulatory Change flow to run on a daily, weekly, or monthly basis. The IT Admin also sets the time for the flow.
 
 ## Procedure
 

@@ -32,7 +32,7 @@ Healthcare Operations Core provides the foundation to enable hospitals to stream
 
 </td></tr><tr><td>
 
-
+[Use\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Create support requests by chat or by phone with ServiceNow Otto.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/healthcare-operations-core/hco-otto-create-requests.md)
 
 </td><td>
 

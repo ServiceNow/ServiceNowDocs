@@ -54,6 +54,8 @@ Trigger types determine the initiation of the execution of the work plan.
 Script includes used in Field Service Management help configure agent scheduling, dispatch operations, part management, integrations, and more.
 -   **[Field Service Management questionnaires](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-management-questionnaires.md)**  
 Both survey-based and Smart Assessment questionnaires are available in the ServiceNow Agent mobile application. If a questionnaire is configured as mandatory for a work order task, the task can't be closed until the questionnaire is completed.
+-   **[GeoJSON format requirements for territory geographies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/geojson-format-requirements.md)**  
+GeoJSON format requirements define the structure, geometry types, and coordinate rules that territory geographies must follow.
 -   **[Field Service Management glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/field-service-management/field-service-management-glossary.md)**  
 Learn about terms and concepts that are unique to Field Service Management.
 

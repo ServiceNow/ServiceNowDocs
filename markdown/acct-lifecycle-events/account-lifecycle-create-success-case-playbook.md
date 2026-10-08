@@ -83,6 +83,8 @@ A customer play monitors external activities of unplanned actions that a provide
 Create a customer play task to define a planned action that a provider or customer must complete in support of a customer play. A customer play task must be clearly defined and can be visible to internal stakeholders or external customers.
 -   **[Close or cancel a customer play](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-cancel-success-case.md)**  
 You can close or cancel a customer play and all the related tasks.
+-   **[Summarize a customer play using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/now-assist-tmt-summarize-success-play.md)**  
+Generate a summary from a customer play record and all associated customer play tasks.
 
 **Parent Topic:**[Manage customer success playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-manage-cust-succ-playbooks.md)
 

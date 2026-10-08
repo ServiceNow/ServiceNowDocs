@@ -5,7 +5,7 @@ locale: en-us
 canonical_url: https://www.servicenow.com/docs/r/acct-lifecycle-events/account-lifecycle-manage-acct-onboard.html
 release: brazil
 topic_type: concept
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 2
 breadcrumb: [Account onboarding, Use, Customer Success Management]
 ---
@@ -18,6 +18,8 @@ An account onboarding case is created in one of two ways:
 
 -   Automatically: When a new customer account is created, the Creation of account onboarding case flow is triggered, and an onboarding case is generated automatically. The trigger condition for this flow is configurable — automatic case creation is not mandatory when a new account is created.
 -   Manually: For existing customer accounts being onboarded in phases, create additional onboarding cases from the list view. See [Create an account onboarding case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-create-case.md).
+
+If an engagement covers more than one onboarding case, you can link the engagement to each case. See [Engagement onboarding links](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-engage-onb-links.md).
 
 When you open an account onboarding case, you're directed to the first activity in the Initial setup stage. While working on the activities, you can view:
 
@@ -39,6 +41,8 @@ When the customer service agent creates an account, an account onboarding case i
 The account onboarding playbook guides account teams through the structured steps required to set up a new account, from initial configuration to activation. Use it to standardize onboarding and reduce setup errors across accounts.
 -   **[Close or cancel an account onboarding case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-cancel-case.md)**  
 You can close or cancel an account boarding case and all the related activities.
+-   **[Summarize an account onboarding case using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/now-assist-tmt-summarize-onboard-case.md)**  
+Generate a summary from the fields that you selected on the account onboarding case record. Quickly understand the case context by using the account onboarding case summarization skill.
 
 **Parent Topic:**[Account onboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-use.md)
 

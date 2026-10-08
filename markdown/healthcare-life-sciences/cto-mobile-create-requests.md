@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/healthcare-life-sciences/cto-mo
 release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Care Team Mobile, Healthcare Operations, Healthcare and Life Sciences]
 ---
 
@@ -41,4 +41,13 @@ The following plugins are supported by Care Team Mobile:
 
     Use Browse locations in Care Team Mobile to browse and create support requests for specific locations.
 
+
+You can also create a request conversationally by chat or by phone instead of using these forms. See [Request care team assistance agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/healthcare-operations-core/hco-now-assist-request-assistance.md) and [Care Team Operations Case Creation AI voice agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/healthcare-operations-core/hco-now-assist-voice-agent.md).
+
+**Related topics**  
+
+
+[Request care team assistance agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/healthcare-operations-core/hco-now-assist-request-assistance.md)
+
+[Care Team Operations Case Creation AI voice agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/healthcare-operations-core/hco-now-assist-voice-agent.md)
 

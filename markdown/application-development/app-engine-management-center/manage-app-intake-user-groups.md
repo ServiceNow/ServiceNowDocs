@@ -9,7 +9,7 @@ classification: app-engine-management-center
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuration tasks, Configure Application Intake, Configure, App Engine Management Center, Governing app development, Building applications]
+breadcrumb: [Configuration tasks, Configure Application Intake, Configure, App Engine Management Center, Run, AI Workflow Factory, Building applications]
 ---
 
 # Manage user groups for Application Intake
@@ -32,4 +32,6 @@ Role required: admin
 ## What to do next
 
 Confirm that you see the correct active groups in an application request in App Engine Management Center.
+
+**Parent Topic:**[Application Intake configuration tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/app-intake-config-tasks.md)
 

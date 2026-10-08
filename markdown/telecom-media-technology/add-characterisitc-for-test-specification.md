@@ -65,6 +65,8 @@ Test definition
 Auto-populated name of the test definition for which you’re defining the characteristics.
 
 </td></tr></tbody>
-</table>5.  Select **Submit**.
+</table>    **Note:** A characteristic belongs to either a test definition or a test group, not both. To define a characteristic for a test group, see [Define a characteristic for a test group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/define-characteristic-for-test-group.md).
+
+5.  Select **Submit**.
 
 

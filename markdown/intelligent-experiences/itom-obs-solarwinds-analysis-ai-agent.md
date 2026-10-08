@@ -1,6 +1,6 @@
 ---
 title: SolarWinds analysis AI agent
-description: This AI agent fetches the details related to a SolarWinds alert by executing SWQL queries against SolarWinds to resolve the affected entity and retrieve supporting diagnostic information.
+description: This AI agent fetches the details related to a SolarWinds alert by executing SWQL queries against SolarWinds.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/itom-obs-solarwinds-analysis-ai-agent.html
 release: brazil
@@ -12,16 +12,18 @@ breadcrumb: [IT Operations Management AI agents, IT Operations Management, AI ag
 
 # SolarWinds analysis AI agent
 
-This AI agent fetches the details related to a SolarWinds alert by executing SWQL queries against SolarWinds to resolve the affected entity and retrieve supporting diagnostic information.
+This AI agent fetches the details related to a SolarWinds alert by executing SWQL queries against SolarWinds.
 
 ## Workflow
 
-The agent investigates a SolarWinds alert by resolving the affected entity and querying SolarWinds for supporting details.
+1.  Identify the entity to investigate.
 
-1.  Resolve the identifier provided, such as a node ID, application ID, IP address, hostname, or entity name, into a specific SolarWinds node or application.
-2.  Confirm that a valid identifier was provided before proceeding, and stop with a clear message if one was not.
-3.  Execute the appropriate SWQL queries against SolarWinds to retrieve details for the resolved entity, running independent queries in parallel where possible.
-4.  Compile the retrieved data into findings and return them to the calling agent.
+    The agent uses a provided identifier such as a node name, IP address, or application name from a SolarWinds alert.
+
+2.  Find the entity in SolarWinds, and query its health, relevant metrics, and relevant alerts.
+3.  Return the findings, including recommended next steps.
+
+For more information about configuring this AI agent, see [Configure observability agents for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/configure-integration-agents-for-now-assist.md).
 
 <table><thead><tr><th>
 
@@ -108,7 +110,7 @@ Used in agentic workflows
 
 </td><td>
 
-Not applicable.
+[Analyze alert impact agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/now-assist-itom-agentic-aia.md)
 
 </td></tr></tbody>
 </table>For more information, see [ITOM AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-health-landing-page.md).

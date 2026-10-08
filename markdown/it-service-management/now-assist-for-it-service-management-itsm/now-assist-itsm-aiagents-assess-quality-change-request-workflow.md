@@ -8,7 +8,7 @@ product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 12
+reading_time_minutes: 13
 keywords: [agentic AI, generative AI, Gen AI]
 breadcrumb: [Change Management, Use agentic AI in IT Service Management, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
@@ -36,10 +36,11 @@ When the workflow runs, the agent first checks for an active change policy docum
 -   **Policy document found**: The agent rates the change request using the policy document and suggests values only for the fields defined in it.
 -   **No policy document found**: The agent falls back to similar closed change requests to assess the change request.
 
+    **Note:** The agent prioritizes similar change requests that have high quality scores. For more information, see the Filtering similar change requests by quality score section in this topic.
+
+
 The agent assesses the following areas and assesses each one:
 
--   Short description
--   Description
 -   Implementation plan
 -   Backout plan
 -   Test plan
@@ -49,6 +50,27 @@ The agent assesses the following areas and assesses each one:
 The assessment report covers the overall change request and each area listed. It rates information as **Excellent**, **Very good**, **Good**, **Fair**, **Poor**, **Very poor**, or **Incomplete**. If all fields are rated **Excellent**, no suggestions are provided. The report is added to the **Work notes** field of the change request. You can also view the report in the `ai_change_quality_score` table.
 
 **Note:** The assess quality of a change request agentic workflow has no trigger and must be run manually. To modify the workflow, duplicate it and adjust the settings to meet your requirements. To clone an agentic workflow that is available by default, you must run the semantic index for similarChangeRequests. The Business Rule \(\[Chg Quality\] Trigger semantic index\) does not run automatically for cloned workflows. Activate it manually or run the script in the business rule to confirm that the index runs. When you modify an agentic workflow, AI agent, or tool, update all instructions accordingly.
+
+## Filtering similar change requests by quality score
+
+When no active change policy document applies, the **Change Quality Assessor using Similar Changes** AI agent compares the current change request with similar closed change requests. The workflow uses quality scores from the **AI Change Quality Scores**\(ai\_change\_quality\_score\) table to prioritize well-documented change requests.
+
+The workflow selects similar change requests as follows:
+
+1.  The AI search retrieves change requests that are similar to the current change request. The current change request is excluded from the results.
+2.  The workflow retrieves the quality score for each similar change request from the **AI Change Quality Scores** table.
+3.  If one or more similar change requests meet or exceed the minimum quality score, the workflow uses only those change requests. The highest-scoring change request is used first.
+4.  If no similar change request meets the minimum quality score, the workflow uses only unscored change requests in order of search relevance. Change requests with scores below the minimum quality score aren't used.
+
+To change how similar change requests are selected, set the following system properties.
+
+|Property|Description|Default value|
+|--------|-----------|-------------|
+|`sn_itsm_aia.chg_quality.similar_chg_threshold`|Minimum quality score, from 0 through 100, that a similar change request must have to be included in the assessment.|80|
+|`sn_itsm_aia.chg_quality.similar_chg_search_limit`|Maximum number of similar change requests retrieved by the AI search before filtering by quality score.|15|
+|`sn_itsm_aia.chg_quality.similar_chg_result_limit`|Maximum number of similar change requests included in the assessment.|5|
+
+**Note:** A higher minimum quality score restricts the assessment to better-documented change requests, but fewer change requests might qualify. If few or no change requests meet the minimum score, increase the search limit to allow the AI search to evaluate more candidates.
 
 ## Create a change policy document
 
@@ -192,6 +214,8 @@ To view the recorded scores, search for **AI Change Quality Scores**. The table 
 |Per field score|The per field rating values for the assessed fields.|
 
 If a record already exists for a change request, the workflow overwrites it with the latest assessment.
+
+The recorded scores are also used to select similar change requests when the workflow assesses other change requests through the similar changes path.
 
 ## Visualize change quality scores
 

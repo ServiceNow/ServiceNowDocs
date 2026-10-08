@@ -57,7 +57,7 @@ ServiceNow® Service Exchange connects multiple ServiceNow instances to provide 
 
 </td><td>
 
- 
+[Automate\[Omitted image "bus-artificial-intelligence.svg"\] Alt text:Use generative AI skills and agentic workflows to automate Service Exchange connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/now-assist-agenticworkflows-se.md)
 
 </td><td>
 

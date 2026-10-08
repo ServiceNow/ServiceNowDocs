@@ -23,7 +23,7 @@ The environment setup must be complete so that the approval system events, integ
 
 ## About this task
 
-Configure these events. Do not create additional ones. The events fall into two groups based on how they are triggered.
+Configure these events. Don't create additional ones. The events fall into two groups based on how they are triggered.
 
 |Event|Trigger type|What you configure|
 |-----|------------|------------------|

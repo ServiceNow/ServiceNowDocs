@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/impact/check-scan-status-retrieve-findings.html
 release: brazil
 topic_type: task
-last_updated: "2026-08-25"
-reading_time_minutes: 3
+last_updated: "2026-09-23"
+reading_time_minutes: 4
 keywords: [scan status, findings, API, GET]
-breadcrumb: [Scan Engine Headless REST API, Scan your instance, Impact Guided Setup, Configuring Impact, Impact]
+breadcrumb: [Scan Engine Headless REST API, Scan your instance, Configuring Impact, Impact]
 ---
 
 # Check scan status and retrieve findings
@@ -66,18 +66,192 @@ After you trigger a scan, poll the status endpoint to see whether it's complete,
     }
     ```
 
-    For complete field descriptions, see [Scan Engine API field reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/finding-resolved-finding-fields.md).
+<table><thead><tr><th>
 
-3.  Set up polling intervals.
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+`scan_result_sys_id`
+
+</td><td>
+
+Unique sys\_id of the scan result record.
+
+</td></tr><tr><td>
+
+`number`
+
+</td><td>
+
+Scan result number, for example, SCAN0001234.
+
+</td></tr><tr><td>
+
+`scan_type`
+
+</td><td>
+
+The classification recorded on the scan result record. Possible values: -   `full_instance_scan`
+-   `delta_instance_scan`
+-   `on_demand_instance_scan`
+-   `application_scan`
+-   `update_set_scan`
+-   `push_commit_scan`
+**Note:** This is a separate field from the `scan_mode` You send in the request and use its own value list. For example, a request with `scan_mode: application` is recorded as `application_scan`.
+
+</td></tr><tr><td>
+
+`status`
+
+</td><td>
+
+Current scan state. Keep polling while status is not a terminal state. -   `Waiting`
+-   `Getting Ready`
+-   `Scanning`
+-   `Complete`
+-   `complete_with_errors`
+-   `Cancelled`
+-   `Cancellation Requested`
+-   `No Action Taken`
+-   `Queued Scan Cancelled`
+
+
+</td></tr><tr><td>
+
+`source`
+
+</td><td>
+
+The originating ServiceNow instance name, or null if not applicable.
+
+</td></tr><tr><td>
+
+`trigger_channel`
+
+</td><td>
+
+The declared request channel, either API, UI, or Scheduled, captured from the request at trigger time. Use this to determine whether a scan was triggered via the API.
+
+</td></tr><tr><td>
+
+`progress_percent`
+
+</td><td>
+
+Scan progress percentage \(0–100\).
+
+</td></tr><tr><td>
+
+`start_time`
+
+</td><td>
+
+Scan start timestamp \(YYYY-MM-DD HH:MM:SS\).
+
+</td></tr><tr><td>
+
+`end_time`
+
+</td><td>
+
+Scan end timestamp \(YYYY-MM-DD HH:MM:SS\), or null if still running.
+
+</td></tr><tr><td>
+
+`total_batches`
+
+</td><td>
+
+Total number of batches the scan is divided into.
+
+</td></tr><tr><td>
+
+`batches_complete`
+
+</td><td>
+
+Number of batches that have finished processing.
+
+</td></tr><tr><td>
+
+`summary`
+
+</td><td>
+
+Available only when `status` is `Complete`. Contains the fields listed below.
+
+</td></tr><tr><td>
+
+`summary.total_findings`
+
+</td><td>
+
+Total count of findings from the scan.
+
+</td></tr><tr><td>
+
+`summary.total_errors`
+
+</td><td>
+
+Count of findings classified as errors.
+
+</td></tr><tr><td>
+
+`summary.total_warnings`
+
+</td><td>
+
+Count of findings classified as warnings.
+
+</td></tr><tr><td>
+
+`summary.se_score`
+
+</td><td>
+
+Overall health score on a 0–100 scale. Higher scores indicate healthier targets.
+
+</td></tr><tr><td>
+
+`summary.total_impact_to_instance`
+
+</td><td>
+
+Sum of the impact to instance score across all findings.
+
+</td></tr><tr><td>
+
+`summary.total_technical_debt`
+
+</td><td>
+
+Estimated total technical debt across all findings, expressed as days and hours.
+
+</td></tr><tr><td>
+
+`summary.definitions_scanned_for`
+
+</td><td>
+
+Count of scan definition inspections performed.
+
+</td></tr></tbody>
+</table>3.  Set up polling intervals.
 
     Most scans complete in seconds. Use a smart polling strategy to avoid unnecessary requests:
 
     -   Begin with 5-second intervals for scans expected to complete quickly.
     -   Increase the interval to 30 seconds if the scan continues beyond the initial polling attempts.
-    -   Cease polling when the status reaches `Complete`.
+    -   Cease polling when the status reaches a terminal state, such as `Complete`, `Cancelled`, `No Action Taken`, or `Queued Scan Cancelled`.
 4.  Retrieve findings once the scan is complete.
 
-    When the status shows `Complete`, fetch the findings endpoint:
+    When the status shows a terminal state, fetch the findings endpoint:
 
     ```
     GET https://<instance>.service-now.com/api/sn_se/v1/scan_operations/findings?scan_result_sys_id=a1b2c3d4e5f6g7h8
@@ -144,7 +318,7 @@ You now have detailed findings from your scan and can track resolved findings ov
 
 ## What to do next
 
-For common usage patterns, integrate the scan results into your Continuous Integration/Continuous Deployment \(CI/CD\) pipelines or scheduled workflows. See [Automate scans in CI/CD pipelines and scheduled workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/integrate-scan-engine-ci-cd.md) for examples.
+For common usage patterns, integrate the scan results into your CI/CD pipelines or scheduled workflows. See [Automate scans in CI/CD pipelines and scheduled workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/integrate-scan-engine-ci-cd.md) for examples.
 
 **Parent Topic:**[Scan Engine Headless REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/scan-engine-headless-api-overview.md)
 

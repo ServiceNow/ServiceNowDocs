@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/integrate-applications/connect-
 release: brazil
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [private relay, relay registration, Reverse Tunnel, config.yaml]
 breadcrumb: [Configure, Reverse Tunnel, Workflow Data Fabric]
 ---
@@ -17,9 +17,9 @@ Configure and register a private relay to establish an encrypted connection to t
 
 ## Before you begin
 
--   The Reverse Tunnel store app must be available in the ServiceNow Store.
 -   The host machine must be running Linux x86-64 or Windows x86-64.
--   The host machine must have outbound network access to the ServiceNow instance on port 443 and to the gateway on ports 8090 and 8081.
+-   The host machine must have outbound network access to the ServiceNow instance on port 443.
+-   After the relay registers, the host machine must also have access to each gateway host on its data port and admin port. For the purpose of each port, see [Reverse Tunnel architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/reverse-tunnel-architecture.md).
 -   A user account must be available to create a service account for the relay.
 
 Role required: sn\_zc\_tunnel.relay\_manager
@@ -30,13 +30,35 @@ Role required: sn\_zc\_tunnel.relay\_manager
 
 2.  Extract the artifact files.
 
-3.  Configure and start the relay following the README instructions included in the extracted artifact.
+3.  Verify outbound network access from the host machine to your ServiceNow instance on port 443.
 
-4.  Navigate to **All** &gt; **Private Relay** &gt; **Relays** and verify a relay record was created.
+    Replace `<instance>` with the name of your ServiceNow instance.
+
+    On Windows, run the following command:
+
+    ```
+    Test-NetConnection -ComputerName <instance>.service-now.com -Port 443
+    ```
+
+    On Linux, run the following command:
+
+    ```
+    nc -zv <instance>.service-now.com 443
+    ```
+
+    For examples of the output, see [Verify outbound network access for a private relay](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/verify-relay-outbound-access.md).
+
+4.  Configure and start the relay following the README instructions included in the extracted artifact.
+
+5.  Navigate to **All** &gt; **Private Relay** &gt; **Relays** and verify a relay record was created.
 
     **Note:** After successful registration, a record ID is stored in the `config.yaml` file. Do not modify or remove this value.
 
-5.  6.  Register backend services to the relay.
+6.  Verify outbound network access from the relay host machine to each gateway host.
+
+    Outbound firewall rules must permit access to each gateway host on its data port and admin port. For the required steps, see [Verify outbound network access for a private relay](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/verify-relay-outbound-access.md).
+
+7.  Register backend services to the relay.
 
     1.  Note the fully qualified domain name \(FQDN\) and port number of the data source you want to access through the tunnel.
 
@@ -56,7 +78,7 @@ Role required: sn\_zc\_tunnel.relay\_manager
 
     Assigned services are reported to the gateway, which routes incoming traffic to the correct relay. To add or update service endpoints after initial setup, see [Manage relay service endpoints through Reverse Tunnel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/manage-relay-services.md).
 
-7.  Set up the zero copy connection.
+8.  Set up the zero copy connection.
 
     1.  Navigate to **All** &gt; **Zero Copy Connectors** \(Workflow Data Fabric\).
 

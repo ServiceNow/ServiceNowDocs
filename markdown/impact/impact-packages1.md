@@ -261,7 +261,9 @@ Instance Observer Seats
 +10
 
 </td></tr></tbody>
-</table>Offered pursuant to the applicable ServiceNow Impact Package and Accelerator descriptions available at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html).
+</table>**Note:** Portions of Impact may not be available to users in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, to self-hosted users, or in other restricted environments, or to managed service providers \(except for their internal use\).
+
+Offered pursuant to the applicable ServiceNow Impact Package and Accelerator descriptions available at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html).
 
 **Related topics**  
 

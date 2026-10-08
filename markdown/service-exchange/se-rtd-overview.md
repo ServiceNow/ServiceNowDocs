@@ -8,7 +8,7 @@ product: Service Exchange
 classification: service-exchange
 topic_type: concept
 last_updated: "2026-09-21"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Configure for providers, Service Exchange for Providers, Service Exchange]
 ---
 
@@ -38,6 +38,5 @@ The following table lists the tasks for creating an RTD and for creating a remot
 |Link|Created in|Description|
 |----|----------|-----------|
 |[Create a remote task definition in Service Exchange for Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/service-bridge-v2-create-remote-tasks-defs.md)|Service Exchange|An administrator selects the provider and consumer tables directly, then maps each inbound and outbound field manually.|
-|[Create a remote task definition with AI assistance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/create-remote-task-definition-ai-assistance.md)|Service Exchange|An administrator describes the tables to ServiceNow Otto, which generates the field mappings automatically for review before publishing.|
 |[Create a remote task using Workflow Studio in Service Exchange for Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/service-bridge-v2-create-remote-task-flow-desig.md)|Workflow Studio|A flow, built once, creates a remote task automatically from a published RTD whenever its trigger condition is met.|
 

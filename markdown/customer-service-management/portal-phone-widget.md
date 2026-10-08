@@ -1,5 +1,5 @@
 ---
-title: Use Voice call widget for portal communication
+title: Enable WebRTC for voice calls
 description: The voice call widget enables users to manage voice calls initiated from the portal interface or Engagement Messenger. The widget maintains call state across tabs and page navigation, displaying call controls and connection status.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/portal-phone-widget.html
@@ -8,18 +8,16 @@ topic_type: concept
 last_updated: "2026-08-20"
 reading_time_minutes: 2
 keywords: [voice call widget, voice calls, portal, Engagement Messenger, WebRTC, call management]
-breadcrumb: [Configure Voice, Configure omnichannel, Configure, Customer Service Management]
+breadcrumb: [Configure voice, Configure omnichannel, Configure, Customer Service Management]
 ---
 
-# Use Voice call widget for portal communication
+# Enable WebRTC for voice calls
 
 The voice call widget enables users to manage voice calls initiated from the portal interface or Engagement Messenger. The widget maintains call state across tabs and page navigation, displaying call controls and connection status.
 
 WebRTC \(Web Real-Time Communication\) enables voice communication directly between browsers. When integrated into ServiceNow, it allows users to initiate calls from portal pages or Engagement Messenger. Users can make calls without switching applications or relying on external communication platforms.
 
 The voice call widget appears at the bottom-left corner of the page when a call is initiated.
-
-## Enable WebRTC for voice calls
 
 To enable the voice call capability on ServiceNow, first create an AI voice assistant to enable natural, conversational voice interactions between users and AI voice agents. For configuration steps, see [Create an AI voice assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/create-an-ai-voice-service.md).
 

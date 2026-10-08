@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure exception reason properties, Configure Scan Engine parameters, Activate Scan Engine and review settings, Impact Guided Setup, Configuring Impact, Impact]
+breadcrumb: [Configure exception reason properties, Configure Scan Engine parameters, Activate Scan Engine and review settings, Configuring Impact, Impact]
 ---
 
 # Configure exception approval behavior
@@ -20,7 +20,7 @@ When real-time enforcement is enabled, Act and Recommend level findings require 
 
 All instances must be registered in My SN Instances before configuring approval settings. See [Register your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/register-your-instance.md) for details.
 
-See [Understand scan results and findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/understand-scan-engine-results-findings.md) for additional information on finding levels.
+See [View scan results for Scan Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/viewing-scan-results-scan-engine.md) for additional information on finding levels.
 
 Role required: Scan Engine admin \(sn\_se.scan\_engine\_admin\)
 

@@ -7,7 +7,7 @@ release: brazil
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: concept
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 5
 breadcrumb: [Regulatory Change Management, Governance, Risk, and Compliance]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Regulatory Change Management, Governance, Risk, and Compliance]
 
 You can use the classic environment to perform all Regulatory Change Management application activities.
 
-As an RCM manager with the sn\_grc\_reg\_change.manager role, you can capture any problems or exceptions that are observed during the workflow by assigning regulatory alerts or creating an action task or issue that is related to the regulatory change tasks and source document tasks. You can also monitor the regulatory change tasks and action tasks.
+As an RCM manager with the sn\_grc\_reg\_change.manager role, you can capture problems or exceptions observed during the workflow. Assign regulatory alerts or create an action task or issue related to regulatory change tasks and source document tasks. You can also monitor the regulatory change tasks and action tasks.
 
 You can also use a [setup checklist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/rcm-impl-checklist.md) that can help you to get your base system ready for operation.
 
@@ -56,7 +56,7 @@ Configure a Regulatory Change Management RCM playbook for your organization or b
 7.  Manage the regulatory changes and strategies:
     -   Implement strategies to address the regulatory changes.
     -   Develop an implementation plan:
-        1.  Identify the steps to take to comply with the regulatory change, devise an action plan, and create the action tasks for different teams. After the action plan is created, send it to the RCM manager for approval and to confirm that all the action tasks are sufficient or if any aren't necessary.
+        1.  Identify the steps to comply with the regulatory change, devise an action plan, and create action tasks for different teams. Send the action plan to the RCM manager for approval. Confirm that all action tasks are sufficient and remove any that aren't necessary.
         2.  Create a clear action plan that details the actions required to comply with the new regulations. The action plans could be legal review, business change, policy updates, control revisions, or training.
         3.  Define the timelines, resources or watch list teams, and responsibilities.
 8.  Communicate changes:

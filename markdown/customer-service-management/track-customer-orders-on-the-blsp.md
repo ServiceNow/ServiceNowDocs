@@ -1,18 +1,18 @@
 ---
-title: Track customer orders on the Business Location Service Portal
-description: Enable your location staff to track customer orders for their business locations using the Business Location Service Portal \(BLSP\). The portal enables them to view and monitor order details like order status, account, and channel partner information, helping them stay updated on customer activity for specific locations.
+title: Track customer orders on the Business Organization Support Portal
+description: Enable your location staff to track customer orders for their business organizations \(formerly business locations\) using the Business Organization Support Portal \(BOSP\). The portal enables them to view and monitor order details like order status, account, and channel partner information, helping them stay updated on customer activity for specific locations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/track-customer-orders-on-the-blsp.html
 release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use Business Location Service Portal, Customer communication, Use, Customer Service Management]
+breadcrumb: [Use Business Organization Support Portal, Customer communication, Use, Customer Service Management]
 ---
 
-# Track customer orders on the Business Location Service Portal
+# Track customer orders on the Business Organization Support Portal
 
-Enable your location staff to track customer orders for their business locations using the Business Location Service Portal \(BLSP\). The portal enables them to view and monitor order details like order status, account, and channel partner information, helping them stay updated on customer activity for specific locations.
+Enable your location staff to track customer orders for their business organizations \(formerly business locations\) using the Business Organization Support Portal \(BOSP\). The portal enables them to view and monitor order details like order status, account, and channel partner information, helping them stay updated on customer activity for specific locations.
 
 ## Before you begin
 
@@ -29,13 +29,13 @@ Role required:
 
 1.  Navigate to **Home** &gt; **Your Information** &gt; **Customer Orders**.
 
-    The page displays a list of customer orders associated with the business locations.
+    The page displays a list of customer orders associated with the business organizations.
 
 2.  From the list, select a customer order number to view its details.
 
     For a description of the fields, see [Customer Orders form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/business-portal-blsp-track-customer-order.md)
 
-    You can also access Customer orders by navigating to **Home** &gt; **Your Information** &gt; **Business Locations**.
+    You can also access Customer orders by navigating to **Home** &gt; **Your Information** &gt; **Business Organizations**.
 
 
 **Related topics**  

@@ -1,6 +1,6 @@
 ---
 title: Telecommunications Customer 360 release notes
-description: The ServiceNow Telecommunications Customer 360 application provides a unified interface that aggregates data from multiple systems into a single platform. See the following sections for release notes by version.The September 2026 release introduces the Party Relationship Center, an interactive node map displaying entities connected to a consumer or account.
+description: The ServiceNow Telecommunications Customer 360 application provides a unified interface that aggregates data from multiple systems into a single platform. See the following sections for release notes by version.Perform MACD actions on child product inventory from Customer 360 and view all of a customer's billing accounts on the Billing card.The September 2026 release introduces the Party Relationship Center, an interactive node map displaying entities connected to a consumer or account.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/telecom-customer-360-rn.html
 release: brazil
@@ -30,7 +30,29 @@ See [Telecommunications Customer 360](https://raw.githubusercontent.com/ServiceN
 
 **Parent Topic:**[Telecommunications, Media, and Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/technology-industry-rn-landing.md)
 
-## Version x.x
+## Version 3.2.0
+
+Perform MACD actions on child product inventory from Customer 360 and view all of a customer's billing accounts on the Billing card.
+
+### What's new
+
+-   **[Products card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/c360-products-card.md)**
+
+    Perform Suspend, Resume, Disconnect, and Modify actions on a child product inventory record from Customer 360. The action also updates the parent product inventory. The actions require the sn\_contract\_ent\_wf plugin to be active.
+
+
+### What's changed
+
+-   **[Billing card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/c360-billing-card.md)**
+
+    The Billing card in Customer 360 displays billing accounts of any Billing Account Type, including Customer Account, instead of only Company.
+
+-   **[Party Relationship Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/c360-prc-overview.md)**
+
+    Each node in the Relationship viewer shows its table label as a tagline, so you can identify the record type at a glance.
+
+
+## Version 3.1.0
 
 The September 2026 release introduces the Party Relationship Center, an interactive node map displaying entities connected to a consumer or account.
 
@@ -39,12 +61,5 @@ The September 2026 release introduces the Party Relationship Center, an interact
 -   **[Party Relationship Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/c360-prc-overview.md)**
 
     View the network of entities connected to a consumer or account, including billing accounts, sold products, related parties, and active cases as an interactive node map from any Telecommunications Customer 360 record page.
-
-
-### Plugin information
-
--   **New plugins**
-
-     \(\): 
 
 

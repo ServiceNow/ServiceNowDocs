@@ -7,7 +7,7 @@ release: brazil
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Customer Discovery Hub tables, Reference, Customer Success Management]
+breadcrumb: [Customer Discovery Hub tables, Tables, Reference, Customer Success Management]
 ---
 
 # Customer use case

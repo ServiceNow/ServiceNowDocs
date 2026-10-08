@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/order-management/explore-servic
 release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 4
+reading_time_minutes: 5
 keywords: [explore]
 breadcrumb: [Configure, price, quote, Explore, Sales Customer Relationship Management]
 ---

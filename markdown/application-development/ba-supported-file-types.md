@@ -8,7 +8,7 @@ topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Reference, Build Agent, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Reference, Build Agent, Build, AI Workflow Factory, Building applications]
 ---
 
 # Supported file types for Build Agent

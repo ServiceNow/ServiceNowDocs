@@ -1,18 +1,18 @@
 ---
 title: Asset next best action AI agent
-description: This AI agent guides users through the repair order task process by validating task numbers, identifying task types, and routing the workflow to the correct specialized agent for troubleshooting or repair. The agent processes one task at a time to ensure accurate handling of hardware asset repair order tasks.
+description: This AI agent validates task numbers, identifies task types, and routes workflows to the correct specialized agent for troubleshooting or repair. It processes one task at a time for accurate handling of hardware asset repair order tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/itam-asset-next-best-action-ai-agent.html
 release: brazil
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [IT Asset Management AI agents, IT Asset Management, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Asset Management AI agents, IT Asset Management, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Asset next best action AI agent
 
-This AI agent guides users through the repair order task process by validating task numbers, identifying task types, and routing the workflow to the correct specialized agent for troubleshooting or repair. The agent processes one task at a time to ensure accurate handling of hardware asset repair order tasks.
+This AI agent validates task numbers, identifies task types, and routes workflows to the correct specialized agent for troubleshooting or repair. It processes one task at a time for accurate handling of hardware asset repair order tasks.
 
 ## Workflow
 
@@ -22,7 +22,7 @@ The agent identifies a repair order task type and routes the work to the appropr
 2.  Retrieve the task details and perform validation to confirm the task name, asset information, and status.
 3.  If validation returns an error, inform the user and end execution.
 4.  Display the identified task details to the user, including the task name, asset model, and manufacturer.
-5.  Route to the appropriate workflow: if the task name is Troubleshoot Asset, invoke the evaluate asset flow; if the task name is Repair Asset, invoke the repair asset flow.
+5.  Route to the appropriate workflow: if the task name is Troubleshoot Asset, invoke the evaluate asset AI agent; if the task name is Repair Asset, invoke the repair asset AI agent.
 6.  Terminate the workflow after the appropriate section has completed execution.
 
 <table><thead><tr><th>
@@ -110,7 +110,7 @@ Used in agentic workflows
 -   Help repair hardware assets
 
 </td></tr></tbody>
-</table>Learn more about IT Asset Management at .
+</table>Learn more about Asset Management at [Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/asset-management-landing-page.md).
 
-**Parent Topic:**[IT Asset Management AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/itam-ai-agents-overview.md)
+**Parent Topic:**[Asset Management AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/itam-ai-agents-overview.md)
 

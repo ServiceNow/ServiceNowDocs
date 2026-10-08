@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/integrate-applications/ask-now-
 release: brazil
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [ServiceNow Otto for Workflow Data Fabric \(WDF\), Workflow Data Fabric Home, Workflow Data Fabric]
 ---
 
@@ -60,6 +60,18 @@ Customer data exists across Salesforce SAP, and internal databases. We need a un
 ## Search the data catalog
 
 The support team is investigating customer churn. It wants to find data assets in the Data Catalog that hold subscription and cancellation records, along with the related glossary terms.
+
+## Classify ServiceNow assets
+
+The data privacy team wants data class recommendations for the ServiceNow columns in the Data Catalog. Select the promoted [Classifying ServiceNow assets with Vault agents agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/now-assist-vault-classify-servicenow-assets.md), if available on this panel, or ask Otto to classify the ServiceNow assets.
+
+\[Omitted image "dc-otto-classify-assets.png"\] Alt text: Otto classify assets panel in the Data Catalog.
+
+## Enrich metadata for data assets
+
+A recent metadata collector run onboarded new assets to the Data Catalog, but their metadata is still incomplete. Select the promoted [Bulk-enrich assets action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/ai-metadata-enrichment-overview-dc.md), if available on this panel, or ask Otto to bulk enrich the assets.
+
+\[Omitted image "dc-bulk-enrich-with-ai.png"\] Alt text: Enrich data assets with AI
 
 **Related topics**  
 

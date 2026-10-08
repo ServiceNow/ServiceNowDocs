@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/rn-summary-upgrade-info.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-25"
-reading_time_minutes: 8
+last_updated: "2026-10-08"
+reading_time_minutes: 9
 breadcrumb: [Release notes summaries for Brazil features, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
@@ -53,6 +53,8 @@ AI Risk and Compliance
 
 If you're upgrading from an earlier release, upgrade sequentially through each release rather than skipping versions. Upgrade scripts depend on running in order, and skipping releases can cause data inconsistencies or broken functionality.
 
+**Warning:** If AI Risk and Compliance, EA Workspace, and AI Control Tower Core are upgraded out of sync, business application associations may be lost or unavailable. For more information, see [Enterprise Architecture for AICT plugin installation and upgrade considerations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-ea-common-upgrade-considerations.md) and [Configuring AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/configuring-ai-risk-and-compliance.md).
+
 
 </td></tr><tr><td>
 
@@ -64,6 +66,16 @@ Accounts Payable Operations
 
 If you're an APO user upgrading from a previous release and want to configure the case exclusion rules, copy the out-of-box flow **Create Inquiry Case on Invoice email**, customize it as needed, and activate it.
 
+
+</td></tr><tr><td>
+
+Change Management
+
+</td><td>
+
+The ITSM Enhanced Security Features plugin \(com.snc.itsm.enhanced\_security\) is now activated automatically when you upgrade to the Brazil release. Previously, the plugin was activated only on new instances. Activating the plugin adds "deny unless authenticated" access control list \(ACL\) rules to several IT Service Management tables.
+
+To revert to the pre-upgrade behavior, contact ServiceNow Support for a list of ACLs to deactivate on specific tables. As a last resort, Support can run a script that deactivates all the new ACLs.
 
 </td></tr><tr><td>
 
@@ -185,6 +197,7 @@ Hardware Asset Management
 -   ****
     -   After upgrading to the Brazil release, review and reassess any ACL roles you have customized or deleted to confirm they reflect your expected access settings.
     -   A new system property, **sn\_itam\_restrict\_asset\_read**, controls read access to the Asset \[alm\_asset\] table and its child tables for users with only the snc\_internal role. For more information, see [Asset and CI management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/c_ManagingAssets.md).
+    -   A new system property, **sn\_itam\_enable\_manufacturer\_reference\_filter**, controls the Manufacturer field reference filter on model records for the Product Model \[cmdb\_model\] table. When this property is set to **true**, only active manufacturers appear as options. Set this property to **false** to also include inactive manufacturers.
 
 </td></tr><tr><td>
 
@@ -196,6 +209,16 @@ Impact
 
 Impact configuration requires a sequence of tasks in a unified registration process. See [Configuring Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/configuring-impact-platform.md).
 
+
+</td></tr><tr><td>
+
+Incident Management
+
+</td><td>
+
+The ITSM Enhanced Security Features plugin \(com.snc.itsm.enhanced\_security\) is now activated automatically when you upgrade to the Brazil release. Previously, the plugin was activated only on new instances. Activating the plugin adds "deny unless authenticated" access control list \(ACL\) rules to several IT Service Management tables.
+
+To revert to the pre-upgrade behavior, contact ServiceNow Support for a list of ACLs to deactivate on specific tables. As a last resort, Support can run a script that deactivates all the new ACLs.
 
 </td></tr><tr><td>
 
@@ -217,6 +240,28 @@ Operational Resilience
 -   ****
 
 If you're upgrading from an earlier release, upgrade sequentially through each release rather than skipping versions. Upgrade scripts depend on running in order, and skipping releases can cause data inconsistencies or broken functionality.
+
+
+</td></tr><tr><td>
+
+Platform Analytics experience
+
+</td><td>
+
+-   ****
+
+Core UI dashboards and reports are visible from the Platform Analytics Dashboard and Data visualization libraries.
+
+
+</td></tr><tr><td>
+
+Playbooks
+
+</td><td>
+
+-   ****
+
+After you upgrade to Brazil, update the Workflow Studio application in the ServiceNow® Store.
 
 
 </td></tr><tr><td>

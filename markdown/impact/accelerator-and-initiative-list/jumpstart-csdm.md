@@ -9,6 +9,7 @@ classification: accelerator-and-initiative-list
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 2
+keywords: [CSDM Foundation]
 breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
@@ -18,7 +19,7 @@ The Jumpstart Your Common Service Data Model \(CSDM\): Foundation Accelerator pr
 
 ## Accelerator Overview
 
-Jumpstart Your CSDM: Foundation provides Impact customers with an overview of the CSDM in  a comprehensible format. Through an applied demonstration, we illustrate how organizations can leverage this data framework to  configure ServiceNow products and applications by first populating their data into the appropriate Foundation tables. Additionally, this offering equips our  customers with essential ServiceNow resources and leading practice guides on how to get started using the CSDM.​ For more information on CSDM, see [Common Service Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/csdm-landing-page.md).
+Jumpstart Your CSDM: Foundation provides Impact customers with an overview of the CSDM in a comprehensible format. An applied demonstration, illustrates how organizations can use this data framework to configure ServiceNow products and applications by first populating their data into the appropriate Foundation tables. We demonstrate how correctly populated data amplifies results when used with AI-powered features. Additionally, this offering equips customers with essential ServiceNow resources and general guidelines on how to get started using the CSDM.
 
 ## Package Availability
 
@@ -31,18 +32,18 @@ Jumpstart Your CSDM: Foundation provides Impact customers with an overview of th
     The Technical Accelerator Consultant:
 
     -   Provisions a temporary instance
-    -   Installs required CSDM plugins
+    -   Installs required
     -   Assesses current CSDM alignment via Instance scan
--   **Customer Coaching Session \#1 \(up to 1.5 hrs\)**
+-   **Customer Coaching Session \#1 \(up to 1.5 hrs\)**
 
     Includes the following:
 
-    -   Overview of CSDM capabilities with a special focus on the ‘Foundation’ stage
+    -   Overview of CSDM capabilities with a special focus on the 'Foundation' stage
     -   Review of the importance of CSDM to the overall platform
     -   Demonstration of the CSDM Data Foundations Dashboard
     -   Discussion of assessment results
-    -   Leading practices guides and resources
--   **Customer Coaching Session \#2  \(Optional upon Customer request - up to 1 hr\)**
+    -   General guidelines and resources
+-   **Customer Coaching Session \#2 \(optional, upon customer request — up to 1 hour\)**
 
     Opportunity for Q&amp;A related to CSDM Foundation data
 
@@ -52,14 +53,14 @@ Jumpstart Your CSDM: Foundation provides Impact customers with an overview of th
 
 ## Requested Customer Resources
 
-|Customer Resource |Responsibilities |
-|------------------|-----------------|
-|Platform Owner \(Required\)|Responsible for the overall accountability of the ServiceNow platform. Provides leadership and oversight to the System Administrators, ensures team alignment to business strategy and the ServiceNow roadmap, and is actively involved in the overarching governance of the platform.|
-|System Administrator\(s\) \(Required\)|Maintains the stability and usability of the ServiceNow platform by performing application maintenance, managing support for cases related to ServiceNow applications, and contributing to ServiceNow software releases by delivering configuration tasks and features.|
-|Application Owner\(s\) \(Recommened\)|The owner of any deployed program, module or group of programs, that is designed to provide specific functionality on a computer infrastructure.|
-|ITSM Manager\(s\) \(Recommended\)|Responsible for setting SOP’s and governance around the IT Service Management operations.|
-|Service Owner\(s\) \(Recommended\)|A senior leader within each business unit for each major process or service \(for example, incident, change, employee onboarding\) who is accountable for ensuring the process is fit for purpose. |
-|Trusted Service Partners \(Recommended\)|Attends ServiceNow Impact Accelerator coaching session\(s\) to understand leading practices and potentially support customer going forward.|
+|Customer Resource|Responsibilities|
+|-----------------|----------------|
+|Platform Owner \(Required\)|Responsible for the overall accountability of the ServiceNow platform. Provides leadership and oversight to the System Administrators. Ensures team alignment to business strategy and the ServiceNow roadmap. Actively involved in the overarching governance of the platform.|
+|System Administrator\(s\) \(Required\)|Maintains the stability and usability of the ServiceNow platform by performing application maintenance and managing support for cases related to ServiceNow applications. Contributes to ServiceNow software releases by delivering configuration tasks and features.|
+|Application Owner\(s\) \(Recommended\)|The owner of any deployed program, module or group of programs, that is designed to provide specific functionality on a computer infrastructure.|
+|ITSM Manager\(s\) \(Recommended\)|Responsible for setting SOP's and governance around the IT Service Management operations.|
+|Service Owner\(s\) \(Recommended\)|A senior leader accountable for ensuring each major process or service \(for example, incident, change, employee onboarding\) is fit for purpose.|
+|Trusted Service Partners \(Recommended\)|Participation in ServiceNow Impact Accelerator coaching session\(s\) to understand general guidelines and potentially support customers going forward.|
 
 ## Requested Information/Access
 
@@ -69,5 +70,5 @@ Jumpstart Your CSDM: Foundation provides Impact customers with an overview of th
 
 This Impact Accelerator in its entirety or portions of the Impact Accelerator activities may not be available to customers in certain restricted environments, to self-hosted customers, or to managed service providers with domain separated instances.
 
-ServiceNow is not responsible for implementing recommendations on a customer’s sub-production or production instances.
+ServiceNow is not responsible for implementing recommendations on a customer's sub-production or production instances.
 

@@ -35,7 +35,7 @@ Action Center provides an easy way to fix repeated issues that cause automations
 -   **[Connection Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/automation-center/conn-manager.md)**  
 Connection Manager enables you to add data from a third-party tool into Automation Center tables by correctly mapping and testing the data import.
 -   **[Migration accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/automation-center/migration.md)**  
-Migration accelerator enables seamless, low-effort, cost-efficient migration of UiPath automations to ServiceNow RPA Hub. It’s a solution that minimizes downtime, maximizes reuse, and accelerates time-to-value.
+Migration accelerator enables seamless, low-effort, cost-efficient migration of UiPath, Blue Prism, and Automation Anywhere automations to ServiceNow RPA Hub. It’s a solution that minimizes downtime, maximizes reuse, and accelerates time-to-value.
 
 **Parent Topic:**[Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/automation-center/automation-center-landing-page.md)
 

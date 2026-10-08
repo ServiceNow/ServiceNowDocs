@@ -7,7 +7,7 @@ release: brazil
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-09-28"
 reading_time_minutes: 8
 keywords: [HAM dashboard metrics, CMDB data quality monitoring, CIs missing model data, CI data quality issues, CI and asset related issues, dashboard model category filters]
 breadcrumb: [Use HAM advisor, Use, Hardware Asset Management, IT Asset Management, Asset Management]
@@ -171,6 +171,8 @@ Displays key metrics related to CIs missing model details, ownership, and other 
 |CIs missing managed by group|Operational CIs not managed by a specific ownership group, leading to inefficient support assignment and operational risk.|[CIs missing managed by group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/cmdb-sa-ham-dashboard-indicators.md)|
 |CIs missing serial number|Operational CIs missing a serial number, leading to issues with duplicate identification.|[CIs missing serial number](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/hardware-asset-management/cmdb-sa-ham-dashboard-indicators.md)|
 
+**Note:** The percentage change comparison on the cards in this section covers the most recent 6 months of data.
+
 **Tip:** Select **Show more** in the CIs missing model data and other key attributes section to view all the cards.
 
 ## CI data quality issues
@@ -225,6 +227,8 @@ Operational CIs identified as duplicates based on key matching attributes, causi
 </table>## CI and asset-related issues
 
 Displays key metrics related to mismatches and missing links between CIs and assets, leading to incomplete asset life cycle tracking and reporting issues.
+
+**Note:** The KPI Details trend chart for the CIs missing asset, Virtual CIs with asset, and Assets missing CI cards covers the most recent 6 months of data.
 
 <table id="table_ck3_zmj_fgc"><thead><tr><th>
 

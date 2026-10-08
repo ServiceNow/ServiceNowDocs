@@ -8,7 +8,7 @@ product: Goal Framework
 classification: goal-framework
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 5
+reading_time_minutes: 7
 breadcrumb: [Manage goals, Goal Framework and Goal Framework for SPM, Strategic Portfolio Management]
 ---
 
@@ -68,6 +68,23 @@ The target breakdowns feature has the following benefits:
 -   Update the actual value for each target breakdown and track the progress of the main target
 -   Focus on the specific short-term target \(target breakdown\) rather than the whole target
 -   Track the progress of your short-term and long-term targets cumulatively or non-cumulatively
+
+## Target breakdowns for Maintain type targets
+
+When the **Type** field of a target is set to **Maintain above**, **Maintain below**, or **Maintain constant**, the planned target of every target breakdown, at every level, is set to the final target value. If the final target value is empty, the planned targets are set to 0. You can edit the planned target of a breakdown later. The **Target value distribution** field doesn't apply to Maintain types.
+
+For example, if you set a Maintain above target of 75 with a quarterly check-in frequency for 2026, four quarterly breakdowns are created, each with a planned target of 75.
+
+Enter the actual value that you measured in each breakdown period. The **Actuals to date** value of the target shows the actual value of the latest breakdown period that has an actual. Parent breakdowns, such as a year above its quarters, also take the actual value of their latest child breakdown.
+
+When you change a Maintain-type target, its breakdowns are updated as follows:
+
+-   Start date moved later or end date moved earlier: the breakdowns that fall outside the new date range are removed. The remaining breakdowns keep their planned targets and actuals.
+-   Start date moved earlier or end date moved later: breakdowns are added for the new periods, with the planned target set to the final target value and no actual value.
+-   Final target value changed: the planned target of every breakdown is updated to the new final target value, and the status and progress are recalculated.
+-   Check-in frequency changed: the breakdowns are regenerated for the new frequency. Where the old and new breakdowns share a period, such as the same month or quarter, the latest actual value and status from that period are copied to the new breakdowns.
+
+For how progress is calculated from the breakdowns, see [Target types and achievement strategies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/goal-framework/target-types-gf.md). To change the type of a target that already has breakdowns, see [Change the type of a target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/goal-framework/change-target-type-gf.md).
 
 ## How the actual value is calculated when the check-in frequency set to None
 

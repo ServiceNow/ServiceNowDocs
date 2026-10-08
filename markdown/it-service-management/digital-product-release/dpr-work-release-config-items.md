@@ -38,15 +38,15 @@ You can add a specific configuration item to a phase only once, although it can 
 
 5.  Add or remove configuration items.
 
-<table id="choicetable_l2q_vl2_52c"><thead><tr><th align="left" id="d80408e111">
+<table id="choicetable_l2q_vl2_52c"><thead><tr><th align="left" id="d80344e111">
 
 Option
 
-</th><th align="left" id="d80408e114">
+</th><th align="left" id="d80344e114">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d80408e120">
+</th></tr></thead><tbody><tr><td id="d80344e120">
 
 **Add existing CIs to a release phase**
 
@@ -58,13 +58,13 @@ A list of available configuration items displays as per the following conditions
 
     -   When product-level release settings are configured, only the configuration items of CI classes defined in the release settings are available for selection. If no CI classes are configured in the product settings, all CI classes are available. For more information, see [Configure product-level release settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/dpr-config-product-release-setting.md).
 
-    -   CIs are filtered by lifecycle stage or operational status based on the value defined in the `sn_dpr.ci_default_query` system property. To control which CIs are available for selection, modify this property. For more information, see [Digital Product Release properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/digital-product-release-properties.md).
+    -   CIs are filtered by lifecycle stage or operational status based on the value defined in the `sn_dpr.ci_default_query` system property. To control which CIs are available for selection, modify this property. For more information, see [Digital Product Release system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/digital-product-release-properties.md).
 
 2.  Select the CIs to add to the release.
 3.  Select **Add**.
  The selected configuration items are added to the phase based on the **sn\_dpr.default\_phase\_for\_cis** system property.
 
-</td></tr><tr><td id="d80408e190">
+</td></tr><tr><td id="d80344e190">
 
 **Remove associated CIs from a phase**
 

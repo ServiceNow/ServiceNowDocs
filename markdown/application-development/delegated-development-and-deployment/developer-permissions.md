@@ -188,7 +188,7 @@ Delegated Admin
 
 </td><td>
 
-Grants access to all Delegated Development permissions so that permissions do not need to be granted individually.**Note:** The SNC scripting role is also added.
+Grants access to all Delegated Development permissions for a specific scoped application so that permissions do not need to be granted individually.**Note:** The SNC scripting role is also added.
 
 </td></tr></tbody>
 </table>## Deployment permissions

@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/now-intelligence/create-dv-time
 release: brazil
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 12
+reading_time_minutes: 13
 breadcrumb: [Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
 
@@ -43,6 +43,8 @@ In Platform Analytics experience, time series visualizations do not display reco
 2.  Select **Create data visualization**.
 
 3.  Configure the **Header and border**. Header and border options are the same for all data sources.
+
+    None of the **Header and border** fields is required.
 
 <table id="table_ly5_djk_c5b"><thead><tr><th>
 

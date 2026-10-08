@@ -1,6 +1,6 @@
 ---
 title: Create Security Attributes
-description: Create new Security Attributes with a step-by-step guide.
+description: Create new security attributes with a step-by-step guide.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/platform-security/create-security-attributes.html
 release: brazil
@@ -12,7 +12,7 @@ breadcrumb: [Security Attributes, Access Management]
 
 # Create Security Attributes
 
-Create new Security Attributes with a step-by-step guide.
+Create new security attributes with a step-by-step guide.
 
 ## Before you begin
 

@@ -40,6 +40,8 @@ Create and configure the capacity management function, definition, and metric in
 Update the decision table to configure the operational data overlay on the floor map. You can view the operational data of the datacenters for a selected time range as colored layer on the floor map in the Telecommunications Network Inventory application.
 -   **[Configuring Design and Assign function for your network services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/configure-playbooks-design-assign-function.md)**  
 Create and configure a Design and Assign function in the Telecommunications Network Inventory application. You can use it to design your network service and assign the network resources.
+-   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/configure-servicenow-otto-for-tni.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/configure-servicenow-otto-for-tni.md)**  
+
 
 **Parent Topic:**[Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/telecom-network-inventory.md)
 

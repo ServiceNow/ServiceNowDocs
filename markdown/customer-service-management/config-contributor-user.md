@@ -1,5 +1,5 @@
 ---
-title: Configure Contributor Users
+title: Configure contributor users
 description: The CSM Contributor User plugin enables you to engage middle office teams in resolving customer issues and requests.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/config-contributor-user.html
@@ -10,7 +10,7 @@ reading_time_minutes: 1
 breadcrumb: [User management, Set up your environment, Configure, Customer Service Management]
 ---
 
-# Configure Contributor Users
+# Configure contributor users
 
 The CSM Contributor User plugin enables you to engage middle office teams in resolving customer issues and requests.
 
@@ -29,6 +29,8 @@ The CSM Query Rules plugin is automatically activated by the CSM Contributor Use
 1.  Activate the CSM Contributor User plugin \(com.snc.csm\_contributor\_user\).
 
 2.  Assign the contributor user roles to middle office users.
+
+    For more details on the contributor user roles and their privileges, see [Contributor users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/customer-service-contributor-users.md) and [Contributor user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-contributor-user-roles.md).
 
 3.  Create relationships.
 

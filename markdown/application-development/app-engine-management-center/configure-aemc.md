@@ -9,7 +9,7 @@ classification: app-engine-management-center
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Configure, App Engine Management Center, Governing app development, Building applications]
+breadcrumb: [Configure, App Engine Management Center, Run, AI Workflow Factory, Building applications]
 ---
 
 # Configure the App Engine Management Center
@@ -82,4 +82,9 @@ Essentially, the AEMC guided setup contains the setup steps for both the Applica
 
 5.  Configure additional properties used to control system behavior in AEMC.
 
+
+-   **[Test App Engine Management Center functionality on a non-production instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/test-aemc-non-production-instance.md)**  
+Test App Engine Management Center \(AEMC\) on a non-production instance to confirm that everything is working as expected before moving to production.
+
+**Parent Topic:**[Configuring AEMC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/configuring-aemc.md)
 

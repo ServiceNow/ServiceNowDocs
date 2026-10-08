@@ -1,13 +1,13 @@
 ---
 title: Dispute Rules Content Pack for Mastercard release notes
-description: Dispute Rules Content Pack for Mastercard supports the intake of dispute-related information under various dispute categories according to Mastercard guidelines.Maintain compliance with the latest Mastercard chargeback rules. This release updates fraud and authorization dispute assessments to align with Mastercard's October 2026 rule changes, adds support for transit transaction types, and introduces time-based rule evaluation.
+description: Dispute Rules Content Pack for Mastercard supports the intake of dispute-related information under various dispute categories according to Mastercard guidelines.Maintain compliance with the latest Mastercard chargeback rules. This release adds new transactional data field values for Mastercard authorization processing and refines the fraud chargeback eligibility condition for reason code \(RC\) 4871.Maintain compliance with the latest Mastercard chargeback rules. This release updates fraud and authorization dispute assessments to align with Mastercard's October 2026 rule changes, adds support for transit transaction types, and introduces time-based rule evaluation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/dispute-rules-content-pack-for-mastercard-rn.html
 release: brazil
 topic_type: topic
 last_updated: "2026-09-10"
-reading_time_minutes: 2
-keywords: [Mastercard disputes, chargeback rules, dispute management, Mastercard, chargeback, dispute rules, fraud, authorization, transit transactions]
+reading_time_minutes: 4
+keywords: [Mastercard disputes, chargeback rules, dispute management, Mastercard, chargeback, dispute rules, fraud, reason codes, transaction data, Mastercard, chargeback, dispute rules, fraud, authorization, transit transactions]
 breadcrumb: [Financial Services Operations release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
@@ -33,6 +33,69 @@ See [Dispute Rules Content Pack for Mastercard](https://raw.githubusercontent.co
 
 
 **Parent Topic:**[Financial Services Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/financial-services-operations-rn-landing.md)
+
+## Version 5.2.2
+
+Maintain compliance with the latest Mastercard chargeback rules. This release adds new transactional data field values for Mastercard authorization processing and refines the fraud chargeback eligibility condition for reason code \(RC\) 4871.
+
+### What's new
+
+-   **New choice values for Mastercard transactional data fields**
+
+    Use the new **processing\_code** and **merchant\_advice\_code** choice values on the Financial Transaction Authorization table to align with the current authorization data requirements of Mastercard.
+
+    **processing\_code** values:
+
+    -   00 Purchase
+    -   01 Withdrawal
+    -   02 Debit Adjustment
+    -   09 Purchase with Cash Back
+    -   10 Visa Only. Account Funding
+    -   17 Cash Disbursement
+    -   18 Scrip Issue
+    -   20 Purchase Return/Refund
+    -   21 Deposit
+    -   22 Credit Adjustment
+    -   28 Payment Transaction
+    -   30 Balance Inquiry
+    -   40 Account Transfer
+    -   90 Reserved for Future Use
+    -   91 PIN Unblock
+    -   92 PIN Change
+    **merchant\_advice\_code** values:
+
+    -   01 New account information available
+    -   02 Cannot approve at this time, try again later
+    -   03 Do not try again
+    -   04 Token requirements not fulfilled for this token type
+    -   05 Negotiated value not approved
+    -   06 Original Transaction Approved
+    -   07 Original Transaction Declined
+    -   08 Original Transaction Approval Status Unknown
+    -   21 Payment Cancellation
+    -   22 Merchant does not qualify for product code
+    -   24 Retry after 1 hour
+    -   25 Retry after 24 hours
+    -   26 Retry after 2 days
+    -   27 Retry after 4 days
+    -   28 Retry after 6 days
+    -   29 Retry after 8 days
+    -   30 Retry after 10 days
+    -   40 Consumer non-reloadable prepaid card
+    -   41 Consumer single-use virtual card number
+    -   42 Sanctions score limit exceeded
+    -   43 Consumer multi-use virtual card number
+    -   44 Processing in progress
+    -   blank \(no value\) Retry with PIN
+    -   90 Issuer decisioned
+    -   99 Mastercard decisioned
+
+### What's changed
+
+-   **Updated Mastercard chargeback ineligibility rule for fraud**
+
+    The ineligibility condition for RC 4871 \(Chip Liability Shift, Lost, Stolen, or Never Received Issue \(NRI\) Fraud\) correctly evaluates the fraud-report timing window. A dispute is ineligible only when it is not raised within three days of the transaction being reported lost, stolen, or never received in the fraud and loss database. The condition also requires a fraud report ID to be present. The associated chargeback ineligibility reason text is updated to match the current wording in the Mastercard Chargeback Guide.
+
 
 ## Version 5.1.0
 

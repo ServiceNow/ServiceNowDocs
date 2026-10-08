@@ -27,9 +27,6 @@ Role required: admin
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-    -   AMER \(Americas\): `itomcnc-prod-gateway-amer.sncapps.service-now.com:443`
-    -   EMEA \(Europe\): `itomcnc-prod-gateway-emea.sncapps.service-now.com:443`
-    -   APAC \(Asia Pacific\): `itomcnc-prod-gateway-apac.sncapps.service-now.com:443`
 2.  In the primary navigation pane, select the DEX Administration icon \(\[Omitted image "icon-administration.png"\] Alt text:\).
 
 3.  In the Device and application configuration section, select **Manage policies** on the Agent policies card.
@@ -42,15 +39,15 @@ Role required: admin
 
 6.  On the **Monitored CIs** tab, select one of the following options.
 
-<table id="choicetable_en5_d41_52c"><thead><tr><th align="left" id="d256613e177">
+<table id="choicetable_en5_d41_52c"><thead><tr><th align="left" id="d256523e156">
 
 Option
 
-</th><th align="left" id="d256613e180">
+</th><th align="left" id="d256523e159">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d256613e186">
+</th></tr></thead><tbody><tr><td id="d256523e165">
 
 **Manual calculation**
 
@@ -58,7 +55,7 @@ Description
 
 Select to exclude the policy from scheduled policy calculation, ignoring any changes to the policy impacted CIs.Select this option when the policy monitors a single CI. The option enables you to avoid a long completion time for the Refresh and Publish Monitoring Policies scheduled job.
 
-</td></tr><tr><td id="d256613e197">
+</td></tr><tr><td id="d256523e176">
 
 **Monitored CI type by filter**
 
@@ -68,7 +65,7 @@ Select to exclude the policy from scheduled policy calculation, ignoring any cha
 2.  In the **Filter** field, configure a filter so that the policy checks monitor only CI types, which meet the specified criteria. CI **tags** are included in the available criteria.
 
 
-</td></tr><tr><td id="d256613e224">
+</td></tr><tr><td id="d256523e203">
 
 **Monitored CI type by script**
 
@@ -76,7 +73,7 @@ Select to exclude the policy from scheduled policy calculation, ignoring any cha
 
 Specify the monitored CIs using a script. Using a script enables you to create a CI filter for several tables related to each other. For example, you can set a filter in both a Linux servers table and an Oracle table when searching for a CI.
 
-</td></tr><tr><td id="d256613e235">
+</td></tr><tr><td id="d256523e214">
 
 **Monitored CI type by CMDB Group**
 
@@ -95,15 +92,15 @@ Specify the monitored CIs by using CMDB group queries. When selected, the **Moni
 
 9.  On the **Scheduling** tab, select one of the following options.
 
-<table id="choicetable_elq_mdb_52c"><thead><tr><th align="left" id="d256613e300">
+<table id="choicetable_elq_mdb_52c"><thead><tr><th align="left" id="d256523e279">
 
 Option
 
-</th><th align="left" id="d256613e303">
+</th><th align="left" id="d256523e282">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d256613e309">
+</th></tr></thead><tbody><tr><td id="d256523e288">
 
 **Interval-based scheduling**
 
@@ -111,7 +108,7 @@ Steps
 
 Configure the time interval \(in seconds\) to indicate the frequency with which the policy's checks run.
 
-</td></tr><tr><td id="d256613e318">
+</td></tr><tr><td id="d256523e297">
 
 **Cron-based scheduling**
 

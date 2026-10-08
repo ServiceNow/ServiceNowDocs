@@ -33,7 +33,7 @@ Exporting RIDAC records allows you to share risk, issue, decision, action, and c
 
 2.  Select the RIDAC records you want to export or email.
 
-    For example, to export all risks, select **Risks** under **All RIDAC**. Filter the RIDAC list by planning scope \(All RIDAC, Project RIDAC, Portfolio RIDAC, Program RIDAC\) or by RIDAC type \(Risks, Issues, Decisions, Actions, Request Changes\).
+    For example, to export all risks, select **Risks** under **All RIDAC**. Filter the RIDAC list by planning scope \(All RIDAC, Project RIDAC, RIDAC by Portfolio, RIDAC by Program\) or by RIDAC type \(Risks, Issues, Decisions, Actions, Request Changes\).
 
 3.  Select **Export**.
 

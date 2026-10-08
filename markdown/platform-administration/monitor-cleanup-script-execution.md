@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/platform-administration/monitor
 release: brazil
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [cleanup script, clone, execution, monitoring]
 breadcrumb: [Configure, Instance Clone, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -19,11 +19,13 @@ Monitor the execution status of cleanup scripts after a clone and retry any scri
 
 A clone must have completed before cleanup script execution data is available.
 
+Both the source and target instances must be on Australia Patch 5 or later to use OAuth target authentication and view cleanup script status.
+
 Role required: clone\_admin
 
 ## About this task
 
-You can monitor cleanup script execution directly from the source instance using Multi-Instance View. This approach allows you to view cleanup script status without logging in to the target instance. Both the source and target instances must be on Australia Patch 5 or later to use Multi-Instance View.
+You can monitor cleanup script execution directly from the source instance using Multi-Instance View. This approach enables you to view cleanup script status without logging in to the target instance.
 
 You can also view the execution status on the target instance.
 
@@ -35,21 +37,29 @@ You can also view the execution status on the target instance.
 
     Alternatively, log in to the target instance and navigate to **Cleanup Script Execution**.
 
-2.  Navigate to **Cleanup Script Execution**.
+2.  Navigate to the Clone Status page for the completed clone request.
+
+    In the Clone Admin Console, select the clone request from the Clone Activity tab to open its Clone Status page.
+
+3.  Select **Show cleanup scripts** to expand the Post-clone Cleanup Scripts section.
+
+    The Post-clone Cleanup Scripts section displays the status of cleanup scripts running on the target instance after the clone.
+
+4.  Select **View on target instance** to open the Cleanup Script Execution page on the target instance.
 
     The page displays a list of all cleanup scripts and their current execution state.
 
-3.  Review the **State** column for each script.
+5.  Review the **State** column for each script.
 
     For a description of each state, see [Clone states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/clone-states.md).
 
-4.  If one or more scripts show a state of **Error**, select **Resume all remaining scripts** to re-run all failed scripts and continue with any remaining scripts.
+6.  If one or more scripts show a state of **Error**, select **Resume all remaining scripts** to re-run all failed scripts and continue with any remaining scripts.
 
-    A confirmation modal displays: "This will re-run all failed scripts and continue with remaining scripts. Once started, scripts cannot be canceled from the user interface."
+    A confirmation modal displays: "This will re-run all failed scripts and continue with remaining scripts. After scripts start, they can't be canceled from the user interface."
 
     If **Resume all remaining scripts** is not available, verify that at least one script has a state of **Error**.
 
-5.  Select **Resume all remaining scripts** in the confirmation modal to confirm.
+7.  Select **Resume all remaining scripts** in the confirmation modal to confirm.
 
     Failed scripts return to **Executing** state. The **Runs** column increments by 1 for each retried script.
 

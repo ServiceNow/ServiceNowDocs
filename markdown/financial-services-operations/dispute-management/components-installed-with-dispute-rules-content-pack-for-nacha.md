@@ -41,6 +41,16 @@ Used to reference dispute transactions and related disputes data.
 
 No tables are included with Dispute Rules Content Pack for Nacha. Chargeback reason codes are stored in Financial Services Operations Core.
 
+## Roles
+
+No custom roles are shipped with Dispute Rules Content Pack for Nacha. Access to dispute records and determination results is governed entirely by roles defined in Financial Services Card Operations:
+
+|Role|Description|
+|----|-----------|
+|sn\_bom\_credit\_card.dispute\_agent|Full read/write access to dispute records; can trigger NACHA determination through the parent application's workflow.|
+|sn\_bom\_credit\_card.dispute\_viewer|Read-only access to dispute records, including NACHA determination results.|
+|sn\_bom\_credit\_card.dispute\_manager|Managerial and reporting access to dispute records, including NACHA determination results.|
+
 ## Dispute Reason Codes
 
 Dispute Rules Content Pack for Nacha includes 10 reason codes and the predefined logic to determine if the codes apply to a disputed transaction.

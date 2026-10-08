@@ -22,7 +22,7 @@ You can view the following types of alerts under the Regulatory Alerts module:
 -   All Assigned Alerts: Displays all assigned alerts in the instance where the **Coordinator** field is assigned to an appropriate user.
 -   Unassigned Alerts: Displays the unassigned alerts in the instance where the **Coordinator** field is empty. Mark the Overall impact as No impact, Low, Medium, High, or Critical.
 -   New Alerts: Displays new alerts in the instance where the **Coordinator** field is empty.
--   Deferred Alerts: Displays the deferred alerts where the **Coordinator** field is assigned to an appropriate user, the state is Deferred, and a reminder date is listed to perform the action post deferral.
+-   Deferred Alerts: Displays the deferred alerts where the **Coordinator** field is assigned to an appropriate user. The state is Deferred, and a reminder date is listed for the post-deferral action.
 -   Impact Assessment Alerts: Displays the alerts for regulatory events that are in Impact Assessment state.
 -   In Progress Alerts: Displays the alerts that are in In Progress state.
 -   Closed Alerts: Displays the alerts that are in Closed state.

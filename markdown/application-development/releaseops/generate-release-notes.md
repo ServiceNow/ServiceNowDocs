@@ -9,7 +9,7 @@ classification: releaseops
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use, ReleaseOps, Deploying applications, Building applications]
+breadcrumb: [Use, ReleaseOps, Run, AI Workflow Factory, Building applications]
 ---
 
 # Generate release notes

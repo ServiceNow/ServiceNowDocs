@@ -18,7 +18,7 @@ Certificate and Management streamlines your TLS certificate processes, offering 
 
 ## Before you begin
 
-To use the Microsoft Certificate Authority automated flow, you must install the **ServiceNow IntegrationHub Action Step - PowerShell** plugin and must have an Integration Hub subscription. See [Integration Hub usage and subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/subscription-usage.md) for more information.
+To use the Microsoft Certificate Authority automated flow, you must install the **ServiceNow IntegrationHub Action Step - PowerShell** plugin and must have an Integration Hub subscription. See  for more information.
 
 Role required: pki\_admin or admin
 

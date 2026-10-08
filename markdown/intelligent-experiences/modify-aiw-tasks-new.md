@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/modify-aiw-tasks-new.html
 release: brazil
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 5
+last_updated: "2026-09-18"
+reading_time_minutes: 6
 breadcrumb: [Configure in AI Agent Studio, Configure, Autonomous Workforce, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
@@ -42,15 +42,24 @@ To learn how to modify the roles and capabilities that an AI specialist has, see
 
     -   **Classify and assign: Configure how the AI specialist identifies incidents, classifies them, and assigns a specific incident type for follow-up.**
         -   **Table**: Select the table in which the AI specialist operates and resolution workflows are executed.
-        -   **Fields to predict**: Enter the fields that the AI specialist should classify if empty.
-        -   **Similar records search profile**: Select the AI Search profile that should be used for gathering records similar to the assigned record.
-        -   **Override existing field values with predictions**: Enable this setting to let the AI specialist use predictions from similar records to replace existing values. Fields that can potentially be overridden are **Service**, **Offering**, and **CI**. Turn off if you only want the AI specialist to fill in empty fields.
+        -   **Fields to classify on the record**: Enter the fields that the AI specialist should classify if empty.
+        -   **Routing**: Add and manage the routing criteria that determine which records the AI specialist handles. For more information, see Manage the routing criteria of an AI specialist.
     -   **Triage and diagnose: Configure the details for how the AI specialist analyzes incidents for accurate handling.**
         -   **Field to use as Task objective**: Select the record fields which the AI specialist uses to analyze and determine the next steps.
         -   **Use attachment content**: Enable the option for the AI specialist to review the content of attached files as part of incident triage and diagnosis.
         -   **Map AI specialist states to record states**: Map the states of the AI specialist's execution to the states of the incident record. For example, the AI specialist's **Awaiting information** state can be mapped to the incident record **On Hold** state. If you have customized state values for your Incident table, you can map them to the AI specialist's states here.
-        -   **Default routing decision**: Determine whether an AI specialist should attempt to resolve a case outside of the assignment group's scope or reassign it to another assignment group. You can also specify in the following routing criteria section different categories of tasks for the AI specialist to attempt or reassign.
-        -   **Routing criteria**: Categories of task specifying whether they should attempt resolution or reassign.
+        -   **Default routing decision**: Select the routing decision that the AI specialist falls back to when an incident matches none of the routing criteria. Select either **Attempt resolution** or **Reassign**.
+        -   **Routing criteria**: Add criteria that determine which records the AI specialist handles. Criteria are grouped into two sections:
+
+            -   **Reassign for**: When an incident matches one of these criteria, the incident is reassigned to a human.
+            -   **Attempt resolution for**: When an incident matches one of these criteria, the AI specialist attempts to resolve it.
+            To add a criterion, select **Add reassigned criteria** or **Add attempted criteria**, depending on which decision you want the criterion to trigger. Complete the following required fields and then select **Add routing criteria**.
+
+            -   **Name**: Enter a name that identifies the criterion, such as `AD account access blocked`.
+            -   **Routing instructions for LLM**: Describe which incidents the criterion applies to, including any scope that limits it. The AI specialist uses these instructions to determine whether an incident matches the criterion. Enter up to 4,000 characters.
+            -   **Routing Decision**: Set by the button that you selected, either **Reassign** or **Attempt resolution**.
+            Each criterion appears as a labeled item in its section, showing only the name. To change a criterion, select its name to reopen the dialog box. To remove a criterion, select the **X** next to its name and then select **Delete** to confirm.
+
     -   **Investigate and resolve: Configure the following details on how the AI specialist investigates to find relevant solutions and resolve the issue.**
         -   **Knowledge sources**: Select search profiles and knowledge base **sys\_ids** to define how the AI specialist retrieves knowledge articles. AI search profiles can include sources such as knowledge articles, ServiceNow documentation, or specific tables. You can create AI Search profiles specifically for your AI specialists. To customize what information your AI specialist accesses, add search profiles with the pre-installed ones or remove the pre-installed ones. You must have at least one search profile selected for the AI specialist to complete the **Investigate and resolve** task.
 

@@ -1,6 +1,6 @@
 ---
 title: Analyze change and incident impact
-description: Use the Impact analysis agentic workflow to identify upstream services and CIs likely to be affected by a proposed change. Invoke the workflow in the ServiceNow Otto panel with a change record or a CI and plain language description to receive a prioritized impact assessment with severity levels and reasoning.
+description: Use the Impact analysis agentic workflow to identify upstream services and CIs likely to be affected by a proposed change. Invoke the workflow in the ServiceNow Otto panel with a change record to receive a prioritized impact assessment with severity levels and reasoning.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-awf-impact-analysis-use.html
 release: brazil
@@ -15,34 +15,34 @@ breadcrumb: [Analyzing the impact of a change or incident, Using agentic workflo
 
 # Analyze change and incident impact
 
-Use the Impact analysis agentic workflow to identify upstream services and CIs likely to be affected by a proposed change. Invoke the workflow in the ServiceNow Otto panel with a change record or a CI and plain language description to receive a prioritized impact assessment with severity levels and reasoning.
+Use the Impact analysis agentic workflow to identify upstream services and CIs likely to be affected by a proposed change. Invoke the workflow in the ServiceNow Otto panel with a change record to receive a prioritized impact assessment with severity levels and reasoning.
 
 ## Before you begin
 
 -   Activate the Impact analysis agentic workflow, as described in [AI Agent Studio overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-agent-studio.md).
 -   You have the `itil` role to read CMDB, incident, and change records
--   A change record \(change\_request or incident\) exists and is active, or you have a CI sys\_id and a description of the proposed change
--   The affected CI has at least one upstream dependency in the CMDB \(topological relationships\)
+-   A change record \(change\_request or incident\) exists and is active
+-   The change record has a CI set, or has exactly one affected CI
+-   The resolved CI has at least one upstream dependency in the CMDB \(topological relationships\)
 
 Role required: `itil`
 
 ## About this task
 
+**Note:** The Impact analysis agentic workflow is deactivated by default.
+
 The workflow helps change and incident managers make informed approval decisions by automatically identifying which upstream services and CIs are at risk from a proposed change. Rather than manually tracing CMDB relationships, the workflow uses AI to reason about propagation likelihood based on the change description and dependency topology. This reasoning helps you make an informed approval decision, schedule appropriate maintenance windows, and notify relevant stakeholders before the change is implemented.
 
-You can invoke the workflow in one of the following ways:
-
--   From a change record \(change request or incident\) where the affected CI and change description are automatically extracted.
--   Directly with a CI sys\_id and description for analysis.
+Invoke the workflow from a change record \(change request or incident\). The workflow automatically extracts the affected CI and change description from the record.
 
 If the analysis reaches the LLM reasoning step, the invocation consumes one ServiceNow Otto credit. Calls that fail before reaching the LLM step \(for example, CI not found, no description available\) don't consume credits.
 
 ## Procedure
 
-1.  Select the ServiceNow Otto icon and, in the ServiceNow Otto panel, ask the workflow about the impact of a change.
+1.  Select the ServiceNow Otto icon \[Omitted image "otto-icon-white.svg"\] Alt text: and, in the ServiceNow Otto panel, ask the workflow about the impact of a change, providing the change record number.
 
-    -   Provide the change record number from a change record. The workflow reads the affected CI and change description from the record.
-    -   Provide a CI sys\_id plus a text description of the proposed change. Use this option when there is no change record — the change has not yet been formally raised.
+    The workflow reads the CI and change description from the record. If the record has no CI set, the workflow uses the record's affected CI instead, provided there's exactly one.
+
 <table><thead><tr><th>
 
 Mode
@@ -67,18 +67,6 @@ Change request or incident number. For example, `CHG0000015` or `INC0001234`.
 
 “Help with the impact analysis for CHG000015”, "What is the impact of CHG0001234?", "Help me do the impact analysis for INC0001234" or "Analyze the impact of CHG0001235".
 
-</td></tr><tr><td>
-
-CI\_SYSID plus Change context
-
-</td><td>
-
-`ciid` \(sys\_id of the `cmdb_ci`\) + changeContext \(free-text description of the proposed change\)
-
-</td><td>
-
-"what would be the impact if I patched this server?" or "Analyze the impact of restarting server abc12345. We need to apply a kernel patch and restart".
-
 </td></tr></tbody>
 </table>    The workflow processes your request by traversing the CMDB topology and querying the LLM for impact reasoning. The workflow resolves the CI and description, performs a three-phase BFS traversal of CMDB relationships to build the upstream dependency topology, and uses an LLM to assess impact on each upstream service.
 
@@ -93,11 +81,19 @@ CI\_SYSID plus Change context
     -   Reason: Plain-language explanation, including redundancy awareness and propagation logic.
 3.  Use the impact analysis to inform your change approval or incident decision.
 
-    -   Prioritize services with high impact and no redundancy—these are single points of failure.
+    -   Prioritize services with high impact and no redundancy. These are single points of failure.
     -   Medium-impact services that could need staging, rollback procedures, or additional testing.
     -   Identify which stakeholders own high- and medium-impact services, and notify them before approval.
     -   Decide whether to proceed as planned, reschedule during a maintenance window, or modify the change request to reduce impact.
-4.  Select the relevant CIs in the result to open their detail pages, or continue with your change approval workflow.
+    \[Omitted image "otto-impact-analysis-panel.png"\] Alt text: Otto panel showing the impact analysis result with the Open in expanded view control.
+
+4.  Select **Open in expanded view** to review the topology visualization.
+
+    The visualization opens in an expanded view. The root CI is highlighted in purple, and upstream CIs are colored by impact level: red for high impact, orange for medium impact, and gray for CIs with no impact. Pointing to a highlighted CI shows its class, status, and the impact reasoning for that CI.
+
+    \[Omitted image "na-cmdb-impact-visual.png"\] Alt text: Impact analysis topology visualization, showing the root CI highlighted in purple and upstream CIs colored by impact severity.
+
+5.  Select the relevant CIs in the result to open their detail pages, or continue with your change approval workflow.
 
     The workflow renders the result with direct links to affected CI records in the CMDB.
 
@@ -109,5 +105,5 @@ CI\_SYSID plus Change context
 
 [Analyzing the impact of a change or incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-awf-impact-analysis-using.md)
 
-[Assess CMDB impact agentic workflow reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-awf-impact-analysis-ref.md)
+[CMDB impact analysis agentic workflow details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-awf-impact-analysis-ref.md)
 

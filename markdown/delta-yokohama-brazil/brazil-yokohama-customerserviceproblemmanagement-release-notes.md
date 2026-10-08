@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-brazil/brazil-yokohama-customerserviceproblemmanagement-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 7
+last_updated: "2026-10-08"
+reading_time_minutes: 8
 breadcrumb: [Products combined by family]
 ---
 
@@ -156,7 +156,10 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **Service Lifecycle Request**
+
+Create cases for customer-initiated changes to the ownership of an existing service. A new case type, Account change request, extends the Customer Service base case and includes child tables to support use cases such as transfer of responsibility.
+
 
 </td></tr></tbody>
 </table>## Changes
@@ -217,7 +220,10 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **[Test group characteristics](https://www.servicenow.com/docs/access?context=test-group-characteristics&family=brazil&ft:locale=en-US)**
+
+Add characteristics directly to Test Groups, map product specifications to the Test Group that should run. Propagate those values to Test Definitions through attribute mapping and decomposition rules. The right tests run with the correct inputs for each product, reducing manual configuration and errors.
+
 
 </td></tr></tbody>
 </table>## Removed
@@ -362,7 +368,10 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **Activation information**
+
+Install Customer Service Problem Management by requesting it from the ServiceNow Store.
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -617,7 +626,11 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   Identify and resolve service problems that customers experience, using a structured approach to customer-reported issues.
+-   Define tests that diagnose service problems, then apply targeted solutions based on the results.
+-   Resolve broadband and internet issues with AI-driven workflows that track network tickets and create actionable tasks for customer agents.
+
+ See [Customer Service Problem Management](https://www.servicenow.com/docs/access?context=cspm-landing-page&family=brazil&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/rn-combined-intro.md)

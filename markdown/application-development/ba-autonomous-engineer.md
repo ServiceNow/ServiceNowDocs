@@ -9,7 +9,7 @@ last_updated: "2026-09-08"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, Autonomous Engineer, Build Agent, implementation plan, work items, parallel execution, agile user stories, ATF tests, update set, ServiceNow Studio, plan dashboard, autonomous engineering, application development, agent packs]
 audience: programmer
-breadcrumb: [Explore, Build Agent, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Explore, Build Agent, Build, AI Workflow Factory, Building applications]
 ---
 
 # Autonomous Engineer in Build Agent

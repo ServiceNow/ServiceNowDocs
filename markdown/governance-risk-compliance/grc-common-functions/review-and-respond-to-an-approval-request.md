@@ -36,15 +36,15 @@ Approval requests assigned to you appear in the **Approvals** widget on your **H
 
     On the issue or remediation task, the available options depend on how many approval requests on that record are awaiting your decision.
 
-<table id="choicetable_approval_response_options"><thead><tr><th align="left" id="d383332e93">
+<table id="choicetable_approval_response_options"><thead><tr><th align="left" id="d385619e93">
 
 Approval requests awaiting your decision
 
-</th><th align="left" id="d383332e96">
+</th><th align="left" id="d385619e96">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d383332e102">
+</th></tr></thead><tbody><tr><td id="d385619e102">
 
 **One __State Change__ approval request**
 
@@ -52,7 +52,7 @@ Action
 
 Select **Approve** or **Reject**.
 
-</td></tr><tr><td id="d383332e123">
+</td></tr><tr><td id="d385619e123">
 
 **One __Due Date Extension__ approval request**
 
@@ -60,7 +60,7 @@ Select **Approve** or **Reject**.
 
 Select **Approve Extension** or **Reject Extension**.
 
-</td></tr><tr><td id="d383332e144">
+</td></tr><tr><td id="d385619e144">
 
 **More than one approval request**
 

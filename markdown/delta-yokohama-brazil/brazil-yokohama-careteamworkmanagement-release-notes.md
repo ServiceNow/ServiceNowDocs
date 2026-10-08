@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-brazil/brazil-yokohama-careteamworkmanagement-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 6
+last_updated: "2026-10-08"
+reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
 
@@ -118,18 +118,7 @@ Brazil
 
 </td><td>
 
--   **[Care team activities playbook](https://www.servicenow.com/docs/access?context=ctwm-cta-work-plan-overview&family=brazil&ft:locale=en-US)**
-
-Define a recurring or one-time activities plan once, such as a daily unit safety check or a routine equipment inspection. The system automatically generates care team cases and tasks for every selected team or unit according to a configured schedule.
-
-Unlike the Operational Rounding playbook, the Care team activities playbook works directly at the care team case and task level. It does not create a healthcare orchestration case, making it suited to single-unit, recurring operational work.
-
--   **[Smart assessments](https://www.servicenow.com/docs/access?context=ctwm-smart-assessments&family=brazil&ft:locale=en-US)**
-
-Associate a structured, repeatable questionnaire with a care team task to capture standardized evidence, such as room inspections, equipment checks, or readiness surveys. Assessments can also be associated with task plan templates so that every concrete task generated from the template automatically inherits the assessment. Results can be reviewed, compared, and reported on across a unit, an organization, or an entire hospital.
-
-This feature depends on the Smart Assessment for CSM plugin, which is automatically installed with Care Team Work Management.
-
+No updates for this release.
 
 </td></tr></tbody>
 </table>## Changes
@@ -174,12 +163,7 @@ Brazil
 
 </td><td>
 
--   **Healthcare Orchestration roles**
-
-Two new roles, `sn_hco_orc.loc_contributor` \(Healthcare Orchestration Location Contributor\) and `sn_hco_orc.loc_manager` \(Healthcare Orchestration Location Manager\), can now be assigned directly as a service organization member's type.
-
-Location-level and hospital-level visibility and management permissions for orchestration functions resolve automatically, without requiring the Care Team Agent Manager role as a workaround.
-
+No updates for this release.
 
 </td></tr></tbody>
 </table>## Removed
@@ -319,12 +303,7 @@ Brazil
 
 </td><td>
 
--   **Activation information**
-
-Install Care Team Work Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=brazil&ft:locale=en-US).
-
-
-**Important:** Care Team Work Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+No updates for this release.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -553,12 +532,7 @@ Brazil
 
 </td><td>
 
--   Create ad-hoc or recurring scheduled task plans for care teams across one or more units.
--   Use the unified workspace landing page for managing cases and tasks.
--   Streamline rounding workflows and reduce administrative burden by leveraging the Operational Rounding playbook.
--   Standardize recurring unit-level work, such as daily safety checks or shift readiness reviews, with the Care team activities playbook.
-
- See [\[Placeholder link text to key ctwm-landing\]](https://www.servicenow.com/docs/access?context=ctwm-landing&family=brazil&ft:locale=en-US) for more information.
+No updates for this release.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/rn-combined-intro.md)

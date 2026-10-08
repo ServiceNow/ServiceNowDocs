@@ -1,21 +1,21 @@
 ---
 title: Employee Slate for ITSM
-description: , built on Moveworks, displays active outages and degradations for employees through the Service Health Broadcast widget, which also provides plain-language summaries from Otto, and lets employees check in for walk-in IT help or book an appointment through the Tech lounge widget, or start that same check-in conversationally by chatting with Otto.
+description: Employee Slate for ITSM displays active outages and degradations through the Service Health Broadcast widget, which provides plain-language summaries from Otto. Employees can check in for walk-in IT help, book appointments through the Tech lounge widget, or start check-in conversationally with Otto.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-service-management/explore-employeeworks-itsm.html
 release: brazil
 topic_type: concept
 last_updated: "2026-09-16"
-reading_time_minutes: 2
+reading_time_minutes: 1
 keywords: [explore]
 breadcrumb: [Employee Slate for ITSM, IT Service Management]
 ---
 
 # Employee Slate for ITSM
 
-, built on Moveworks, displays active outages and degradations for employees through the Service Health Broadcast widget, which also provides plain-language summaries from Otto, and lets employees check in for walk-in IT help or book an appointment through the Tech lounge widget, or start that same check-in conversationally by chatting with Otto.
+Employee Slate for ITSM displays active outages and degradations through the Service Health Broadcast widget, which provides plain-language summaries from Otto. Employees can check in for walk-in IT help, book appointments through the Tech lounge widget, or start check-in conversationally with Otto.
 
-You can see this experience in the homepage.
+You can see this experience in the Employee Slate for ITSM homepage.
 
 **Note:** Otto is an AI agent. Summaries it generates may not always be accurate. Review AI-generated content before acting on it.
 
@@ -23,7 +23,7 @@ You can see this experience in the homepage.
 
 |User|Description|
 |----|-----------|
-|Requester or Employee|Any user that can access .|
+|Requester or Employee|Any user that can access Employee Slate for ITSM.|
 
 ## Employee Slate for ITSM benefits
 

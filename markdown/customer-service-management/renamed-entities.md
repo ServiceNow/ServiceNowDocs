@@ -1,6 +1,6 @@
 ---
 title: Service Model Foundation renamed Entities
-description: The renamed entities dispaly several Service Model Foundation entities that are renamed, including the previous and current names.
+description: The renamed entities display several Service Model Foundation entities that are renamed, including the previous and current names.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/renamed-entities.html
 release: brazil
@@ -12,7 +12,7 @@ breadcrumb: [Reference, Customer Service Management]
 
 # Service Model Foundation renamed Entities
 
-The renamed entities dispaly several Service Model Foundation entities that are renamed, including the previous and current names.
+The renamed entities display several Service Model Foundation entities that are renamed, including the previous and current names.
 
 |Table name|Previous label|New label|Effective from|
 |----------|--------------|---------|--------------|
@@ -57,4 +57,6 @@ The following foreign key field labels have been updated across impacted entitie
 |Customer Service Organization|service\_organization\_served|Service organizations served|Organizations served|
 |Responsibility Definition|service\_organization|Service Organization|Business Organization|
 |Responsibility Access Config|service\_organization|Service Organization|Business Organization|
+
+Also, the Business Location Service Portal has been renamed to Business Organization Support Portal.
 

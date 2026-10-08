@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-portfolio-management/eaw-trm-technical-debt-form.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 2
+last_updated: "2026-10-01"
+reading_time_minutes: 3
 keywords: [TRM technical debt, technical debt form, technology reference model]
 breadcrumb: [Form field information for Enterprise Architecture Workspace, Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
@@ -25,11 +25,19 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
+Number
+
+</td><td>
+
+Unique identifier of the technical debt record. Select this value to open the technical debt record. **Note:** If you upgraded to Enterprise Architecture Workspace version 10.1.3, technical debt records created before the upgrade display **\(empty\)** in this field. Select **\(empty\)** to open these records. Records created after the upgrade have a number.
+
+</td></tr><tr><td>
+
 Reason
 
 </td><td>
 
-Reason why the technical debt was created. Select this value to open the technical debt record.
+Reason why the technical debt was created.
 
 </td></tr><tr><td>
 

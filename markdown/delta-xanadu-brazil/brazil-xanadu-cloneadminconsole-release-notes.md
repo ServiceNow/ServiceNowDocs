@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-cloneadminconsole-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 9
+last_updated: "2026-10-08"
+reading_time_minutes: 11
 breadcrumb: [Products combined by family]
 ---
 
@@ -243,6 +243,33 @@ Australia
 Clone Admin Console now uses JWT certificate-based authentication instead of username and password authentication, improving security and simplifying cross-instance authentication.
 
 
+ -   **[Updated clone menu navigation items](https://www.servicenow.com/docs/access?context=instance-clone-landing&family=australia&ft:locale=en-US)**
+
+All clone-related functions are now available under the Clone Admin Console menu navigation item.
+
+-   **[Submit a new clone even if another clone is scheduled](https://www.servicenow.com/docs/access?context=t_StartAClone&family=australia&ft:locale=en-US)**
+
+Create an additional clone request even if there’s already a future clone for that target. This feature removes the previous limitation where any new clone requests were not allowed until all existing requests were canceled. You can now submit new clone requests if more than five days apart from existing ones.
+
+-   **[Clone summary](https://www.servicenow.com/docs/access?context=t_StartAClone&family=australia&ft:locale=en-US)**
+
+Help prevent clone conflicts with the **Clone summary**, which highlights clones that are scheduled in the next 30 days that involve the same target instance.
+
+-   **[Configuration tab](https://www.servicenow.com/docs/access?context=instance-clone-landing&family=australia&ft:locale=en-US)**
+
+All clone-related settings are now grouped under a single **Configuration** tab for improved organization and discoverability.
+
+-   **[Clone Home Renamed to Clone Activity](https://www.servicenow.com/docs/access?context=instance-clone-landing&family=australia&ft:locale=en-US)**
+
+The **Clone Home** menu item has been renamed to **Clone Activity** to be more descriptive of the page's purpose and improve navigation clarity.
+
+-   **Clone profile script updates**
+
+Fixed an issue where setting a script in the clone\_cleanup\_script table to active=false or active=true did not apply consistently across all clone profiles the script was listed on. Changes now propagate correctly.
+
+Both the source and target instances must be on Australia Patch 5 or a subsequent release to use cleanup script status.
+
+
 </td></tr><tr><td>
 
 Brazil
@@ -446,6 +473,8 @@ Zurich
 Install the Clone Admin Console by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
 
+**Important:** Clone Admin Console is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Australia
@@ -463,7 +492,10 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **Activation information**
+
+Clone Admin Console is a ServiceNow AI Platform feature that is active by default. No additional plugin activation is required to use core clone functionality.
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -516,7 +548,11 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **Additional requirements**
+    -   The `clone_admin` role is required to request, cancel, or schedule clones.
+    -   OAuth-based clone target authentication requires Australia Patch 5 or later on both the source and target instances. The `oauth_admin` role is required on the target instance during initial OAuth setup only. See [OAuth 2.0 authentication for clone targets](https://www.servicenow.com/docs/access?context=clone-oauth-authentication&family=brazil&ft:locale=en-US).
+    -   A Now Assist license is required to use the Clone FAQ Agent. If Now Assist is installed after the Clone Admin Console, reinstall the console from the Store to enable the skill.
+    -   Both the source and target instances must be on Australia Patch 5 or later to use Multi-Instance View.
 
 </td></tr></tbody>
 </table>## Browser requirements
@@ -741,7 +777,13 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   Copies data and metadata from a source instance to a target instance to keep sub-production environments synchronized with production.
+-   Provides a single console to configure, request, and monitor clones across your environment.
+-   Supports OAuth 2.0 authentication for clone targets, removing the need for local admin credentials on every clone request.
+-   Consolidates clone activity across multiple linked instances through Multi-Instance View.
+-   Offers AI-assisted answers to clone questions in the console through the Clone FAQ Agent, powered by Now Assist.
+
+ See [Instance Clone](https://www.servicenow.com/docs/access?context=instance-clone-landing&family=brazil&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-xanadu-brazil/rn-combined-intro.md)

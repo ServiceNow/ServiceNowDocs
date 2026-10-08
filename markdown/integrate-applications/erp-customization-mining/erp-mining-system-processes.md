@@ -9,7 +9,7 @@ classification: erp-customization-mining
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, ERP Semantic Mining overview, Zero Copy Connector for ERP, Workflow Data Fabric]
+breadcrumb: [Reference, ERP Semantic Mining overview, Workflow Data Fabric]
 ---
 
 # ERP Semantic Mining system connection tasks

@@ -46,7 +46,7 @@ const response = Salesforce.<yourExternalConnectionVariableName>(inputs);
 **Related topics**  
 
 
-[external-connections]
+[Using external connections with OAuth support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown)
 
 [Passing data from Salesforce to CPQ fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/enrichments_on_pass_data_from_salesforce_to_logik_io_fields.md)
 

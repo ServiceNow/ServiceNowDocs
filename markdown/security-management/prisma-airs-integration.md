@@ -1,18 +1,18 @@
 ---
-title: Explore the Palo Alto Prisma AIRS Integration for AI Security Exposure Management
-description: The Vulnerability Response Integration with Palo Alto Prisma AIRS imports AI security scan results, posture findings, and model validation data into your ServiceNow AI Platform instance. Use the data to help you detect security risks, drive remediation workflows, and ensure compliance with AI security requirements.
+title: Palo Alto Prisma AIRS integration
+description: The Vulnerability Response Integration with Palo Alto Prisma AIRS imports AI security scan results, posture findings, and model validation data into your ServiceNow AI Platform instance. Use the data to help you detect security risks, drive remediation workflows, and verify compliance with AI security requirements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/prisma-airs-integration.html
 release: brazil
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-09-30"
 reading_time_minutes: 2
 breadcrumb: [Integrate, Unified Security Exposure Management, Security Operations]
 ---
 
-# Explore the Palo Alto Prisma AIRS Integration for AI Security Exposure Management
+# Palo Alto Prisma AIRS integration
 
-The Vulnerability Response Integration with Palo Alto Prisma AIRS imports AI security scan results, posture findings, and model validation data into your ServiceNow AI Platform instance. Use the data to help you detect security risks, drive remediation workflows, and ensure compliance with AI security requirements.
+The Vulnerability Response Integration with Palo Alto Prisma AIRS imports AI security scan results, posture findings, and model validation data into your ServiceNow AI Platform instance. Use the data to help you detect security risks, drive remediation workflows, and verify compliance with AI security requirements.
 
 ## Prisma AI Runtime Security \(AIRS\)
 
@@ -20,22 +20,22 @@ Palo Alto Networks' Prisma AIRS \(AI Runtime Security\) is a security platform t
 
 ## Prisma AIRS AI Red Teaming
 
-AI Red Teaming is a Prisma AIRS capability that automatically simulates adversarial attacks against AI models. — including prompt injection, jailbreaks, bias, toxicity, and hallucination — and maps findings to frameworks such as OWASP LLM Top 10 and MITRE ATLAS. It helps organizations proactively identify and fix AI security weaknesses before attackers can exploit them.
+AI Red Teaming is a Prisma AIRS capability that automatically simulates adversarial attacks against AI models — including prompt injection, jailbreaks, bias, toxicity, and hallucination — and maps findings to frameworks such as OWASP LLM Top 10 and MITRE ATLAS. It helps organizations proactively identify and fix AI security weaknesses before attackers can exploit them.
 
 ## The ServiceNow AI Platform Prisma AIRS integration
 
-This integration, developed by ServiceNow engineering, permits you to import current Palo Alto Prisma AIRS data into your ServiceNow AI Platform instance. With this imported data, you can see how AI security scans and model validation results are tracked so you can evaluate your exposure to AI-related vulnerabilities.
+This integration, developed by ServiceNow engineering, enables you to import current Palo Alto Prisma AIRS data into your ServiceNow AI Platform instance. With this imported data, you can see how AI security scans and model validation results are tracked so you can evaluate your exposure to AI-related vulnerabilities.
 
 ## How it works
 
--   A user with a role designed specifically for this integration configures the connection to Prisma AIRS through a dedicated configuration UI. The user provides the API URL, Client ID, Client Secret, TSG ID, and Auth URL. These credentials are validated and then securely saved in the instance parameters for future use by the integration.
+-   A user with the required role configures the connection to Prisma AIRS through a dedicated configuration UI. The user provides the **API URL**, **Client ID**, **Client Secret**, **TSG ID**, and **Auth URL**. These credentials are validated and then securely saved in the instance parameters for future use by the integration.
 -   The integration can be executed manually or scheduled to run automatically to pull scan results and model validation data from Prisma AIRS into your ServiceNow AI Platform instance.
 -   After the data is imported, it is validated and processed automatically through transform maps.
 -   You view the processed data mapped to records in modules created for this integration under AI Security.
 
 ## Data retrieved from the integration
 
-This integration retrieves two types of data from the Palo Alto Prisma AIRS integration:
+This integration retrieves three types of data from the Palo Alto Prisma AIRS integration:
 
 -   **AI Security Scans**
 
@@ -45,8 +45,12 @@ This integration retrieves two types of data from the Palo Alto Prisma AIRS inte
 
     Tests performed on AI models against various attack scenarios to identify weaknesses, including prompts, responses, and threat signatures.
 
+-   **Red Team Scan Guardrails**
 
-All data is stored in your AI Security Exposures module for tracking, remediation, and reporting.
+    Guardrail policy configuration applied during Red Team scans, including the policy identifier, name, and configuration for each guardrail.
+
+
+Scan findings, posture findings, and validation findings are stored in the AI Security Exposures module.
 
 ## Prerequisites
 

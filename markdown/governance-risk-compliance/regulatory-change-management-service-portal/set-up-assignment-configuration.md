@@ -9,7 +9,7 @@ classification: regulatory-change-management-service-portal
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Train and use the similarity solution to recommend citations on regulatory alerts, Regulatory alerts, Regulatory Change Management Core UI, Use, Regulatory Change Management, Governance, Risk, and Compliance]
+breadcrumb: [Recommend citations on regulatory alerts, Regulatory alerts, Regulatory Change Management Core UI, Use, Regulatory Change Management, Governance, Risk, and Compliance]
 ---
 
 # Auto-assign configuration for regulatory alerts
@@ -43,5 +43,5 @@ You can now route regulatory alerts to domain experts who can promptly address c
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Train and use the similarity solution to recommend citations on regulatory alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/retrain-ml-reg-compliance-mapping.md)
+**Parent Topic:**[Recommend citations on regulatory alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/regulatory-change-management-service-portal/retrain-ml-reg-compliance-mapping.md)
 

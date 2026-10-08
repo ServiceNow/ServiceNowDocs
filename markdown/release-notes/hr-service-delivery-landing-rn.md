@@ -30,17 +30,9 @@ See  for more information.
 
     Activate Human Resources Scoped App: Core \[com.sn\_hr\_core\] if you have the admin role. This plugin includes demo data and activates related plugins if they are not already active.
 
--   **Upgrade information**
--   **Browser requirements**
--   **Additional requirements**
-
-## Accessibility and localization
-
--   **Accessibility information**
-    -   -   **Localization information**
 
 -   **[Brazil Early Availability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/hr-service-delivery-rn-2026-09.md)**  
-The Brazil release introduces enhanced protections for read‑only fields across the ServiceNow AI Platform®. These changes include a new “read\_only\_option” field with granular control levels, including “strict\_read\_only” and “client\_script\_modifiable". The changes occur in the back end and maintain backward‑compatible behavior. This update helps strengthen your instance security while preserving the flexibility you need. Refer to [KB2718122](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2718122) for additional technical details on how to identify affected fields and adjust their settings. For more information about granular read-only security options, see [Configuring read-only security options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/read-only-option.md).
+Case and Knowledge Management enhancements and new features in the Brazil release.
 
 **Parent Topic:**[HR Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/hrsd-rn-landing.md)
 

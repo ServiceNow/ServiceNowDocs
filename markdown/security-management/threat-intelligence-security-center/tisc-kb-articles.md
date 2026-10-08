@@ -9,6 +9,7 @@ classification: threat-intelligence-security-center
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 3
+keywords: [TISC Knowledge Base, KB articles reference, TISC best practices, Configuration guidance, Support documentation, Troubleshooting resources, TISC setup guide]
 breadcrumb: [Reference, Threat Intelligence Security Center, Security Operations]
 ---
 

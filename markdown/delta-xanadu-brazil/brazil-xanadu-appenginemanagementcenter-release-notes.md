@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-appenginemanagementcenter-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 5
+last_updated: "2026-10-08"
+reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
 
@@ -107,7 +107,16 @@ Zurich
 
 </td><td>
 
--   **[Use AEMC to manage app delegation, development, and deployment](https://www.servicenow.com/docs/access?context=app-engine-management-center&family=zurich&ft:locale=en-US)**
+-   **[ReleaseOps integration](https://www.servicenow.com/docs/access?context=exploring-aemc&family=zurich&ft:locale=en-US)**
+
+Starting with version 28.2.1 of AEMC, you can deploy using ReleaseOps. ReleaseOps enables the deployment of update sets via a pipeline and leverages the automation capabilities of ServiceNow Playbooks.
+
+-   **[Migrate App Engine pipelines to ReleaseOps](https://www.servicenow.com/docs/access?context=migrating-ae-pipelines-to-releaseops-aemc&family=zurich&ft:locale=en-US)**
+
+Starting with version 28.2.1 of AEMC, migrate your existing App Engine pipelines to ReleaseOps to take advantage of ReleaseOps features without disrupting your existing pipeline and deployment process.
+
+
+ -   **[Use AEMC to manage app delegation, development, and deployment](https://www.servicenow.com/docs/access?context=app-engine-management-center&family=zurich&ft:locale=en-US)**
 
 AEMC is a centralized tool for IT admins and developers to manage the entire app development life cycle, from idea submission to deployment and monitoring. AEMC enhances efficiency and governance, and provides clear insights into custom app usage and developer productivity.
 
@@ -131,13 +140,21 @@ Configure a standalone environment for deployments in the platform version of AE
 Streamline credential sharing between instances and automates the deployment process in ReleaseOps within the AEMC guided setup.
 
 
+ -   **[Release lifecycle documentation AI agent](https://www.servicenow.com/docs/access?context=exploring-release-lifecycle-documentation-agent&family=australia&ft:locale=en-US)**
+
+Help improve transparency across your app development environment using the release lifecycle documentation AI agent, to generate update set descriptions and release notes.
+
+
 </td></tr><tr><td>
 
 Brazil
 
 </td><td>
 
-No updates for this release.
+-   **[Assign Developer Sandboxes packs](https://www.servicenow.com/docs/access?context=assign-dsb-packs-aemc&family=brazil&ft:locale=en-US)**
+
+Assign Developer Sandboxes packs inside AEMC. You can see how many free, purchased, and unassigned sandbox packs you have entitlements for. You can also see which instances already have sandbox packs assigned to them and whether the packs include free sandboxes.
+
 
 </td></tr></tbody>
 </table>## Changes
@@ -346,6 +363,8 @@ Install AEMC by requesting it from the ServiceNow Store.
 Starting with version 28.2.1 of AEMC, you can use ReleaseOps pipelines or migrate your existing App Engine pipelines to ReleaseOps. To use ReleaseOps, you must install ReleaseOps by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
 
+**Important:** App Engine Management Center is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Australia
@@ -357,13 +376,18 @@ Australia
 Install App Engine Management Center by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
 
 
+**Important:** App Engine Management Center is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Brazil
 
 </td><td>
 
-No updates for this release.
+-   **Activation information**
+
+Install App Engine Management Center by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=brazil&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -644,7 +668,13 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   Oversee requests for new custom applications from Creator Studio, App Engine Studio, and ServiceNow Studio.
+-   Manage and approve deployment requests for App Engine, ReleaseOps, and standalone pipelines.
+-   Assign Developer Sandboxes licenses to selected instances.
+-   View insights into custom app production and usage across your organization.
+-   Analyze individual developer trends and contributions.
+
+ See [App Engine Management Center](https://www.servicenow.com/docs/access?context=app-engine-management-center&family=brazil&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-xanadu-brazil/rn-combined-intro.md)

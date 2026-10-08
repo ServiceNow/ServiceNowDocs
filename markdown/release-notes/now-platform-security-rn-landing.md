@@ -16,6 +16,8 @@ ServiceNow AI Platform® security product enhancements and updates in the Brazil
 
 Use ServiceNow AI Platform® security to secure the instance, encrypt your data, authenticate users, and view your current compliance levels based on application security standards.
 
+-   **[Access Analyzer release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/access-analyzer-rn-static.md)**  
+ServiceNow Access Analyzer is an access diagnostic tool designed for AI administrators or creators to validate the access controls configured within various resources and agentic assets.
 -   **[Access Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/access-management-rn.md)**  
 The ServiceNow® Access Management application provides robust tools to manage security data on the ServiceNow AI Platform. Access Management includes many controls, such as access control lists \(ACLs\), security attributes, security data filters, and machine identity access control. These controls provide granular control and help improve security for managing data access. See the following sections for release notes by version.
 -   **[Authentication release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/authentication-rn-static.md)**  

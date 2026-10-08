@@ -1,31 +1,31 @@
 ---
 title: Status calculation specifications and examples
-description: Detailed specifications for status calculation across different target types, calculation formulas for targets with and without breakdowns, and worked examples demonstrating status assignment and rollup mechanics.
+description: Formulas and worked examples show how target status is calculated for each target type and how status rolls up from breakdowns to goals.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/it-business-management/goal-framework/target-status-calculation-examples.html
 release: brazil
 product: Goal Framework
 classification: goal-framework
 topic_type: concept
-last_updated: "2026-09-24"
-reading_time_minutes: 7
+last_updated: "2026-10-08"
+reading_time_minutes: 9
 breadcrumb: [Explore, Goal Framework and Goal Framework for SPM, Strategic Portfolio Management]
 ---
 
 # Status calculation specifications and examples
 
-Detailed specifications for status calculation across different target types, calculation formulas for targets with and without breakdowns, and worked examples demonstrating status assignment and rollup mechanics.
+Formulas and worked examples show how target status is calculated for each target type and how status rolls up from breakdowns to goals.
 
 ## Status calculation for targets without breakdowns
 
-For targets without period-based breakdowns, status is calculated once using the overall actual value against the Final target value:
+For targets without period-based breakdowns, status is calculated once using the overall actual value against the final target value:
 
 ```
 Achievement % = ((Actuals to date − Start value) ÷ (Final target value − Start value)) × 100
 Status = Green if Achievement % ≥ 90; Yellow if 75–89; Red if < 75
 ```
 
-**Example:** Achieve $1,000,000 revenue by the year-end
+**Example:** Achieve $1,000,000 revenue by year-end
 
 -   Start value \(baseline\): $0
 -   Final target value: $1,000,000
@@ -57,14 +57,14 @@ In this scenario, each quarter is evaluated cumulatively from a start value of $
 
 -   **How breakdown statuses roll up to the target status**
 
-    The target's overall status is determined using latest-wins logic: the status of the most recent reported breakdown period becomes the target status. This ensures the target status always reflects the most current performance data.
+    The target's overall status is determined using latest-wins logic: the status of the most recently reported breakdown period becomes the target status.
 
     -   Q1 status: Yellow \(88%\)
     -   Q2 status: Green \(96%\)
     -   Q3 status: Green \(94.7%\)
     -   Q4 status: Green \(96.8%\) ← **Most recent**
     -   **Target status: Green** \(determined by Q4, the latest reported quarter\)
-    The target displays Green status even though Q1 was Yellow, because Q4's Green status is the most current indicator of performance. If Q4's actual had fallen short and resulted in Yellow or Red, the target status would immediately reflect that latest assessment.
+    The target displays Green status even though Q1 was Yellow, because Q4's Green status is the most current indicator of performance. If Q4's actual had fallen short and resulted in Yellow or Red, the target status would reflect that latest assessment.
 
 
 ## Status calculation for targets with non-cumulative breakdowns
@@ -79,20 +79,20 @@ Status = Green if Achievement % ≥ 90; Yellow if 75–89; Red if < 75
 
 **Example:** Annual revenue target \($0 start, $1,000,000 final target\) with non-cumulative quarterly check-ins
 
-|Quarter|Planned \(this Q\)|Actual \(this Q\)|Breakdown status|Total actual|Total planned|Target window %|
-|-------|------------------|-----------------|----------------|------------|-------------|---------------|
+|Quarter|Planned \(this quarter\)|Actual \(this quarter\)|Breakdown status|Total actual|Total planned|Target window %|
+|-------|------------------------|-----------------------|----------------|------------|-------------|---------------|
 |Q1|$250,000|$220,000|88% \(Yellow\)|$220,000|$250,000|88%|
 |Q2|$250,000|$240,000|96% \(Green\)|$460,000|$500,000|92%|
 |Q3|$250,000|$200,000|80% \(Yellow\)|$660,000|$750,000|88%|
-|Q4|$250,000|$230,000|92% \(Green\)|$890,000|$1,000,000|89% \(Target status\)|
+|Q4|$250,000|$230,000|92% \(Green\)|$890,000|$1,000,000|89% \(Yellow\)|
 
 Although Q4's individual breakdown shows Green \(92%\), the target displays Yellow \(89%\) because the target's status reflects the overall cumulative performance across all four quarters. Individual breakdown statuses show period-by-period progress, while the target status shows how the team is tracking toward the full-year goal.
 
-**Key differences from cumulative:** In cumulative, each quarter's start value is the previous quarter's actual \($220K → $480K → $710K\), and each quarter's status is calculated individually. In non-cumulative, each quarter's Planned and Actual are also independent \($250K planned each quarter\), and each quarter's status is calculated independently \(Q1 = 88% Yellow, Q2 = 96% Green, Q3 = 80% Yellow, Q4 = 92% Green\). However, the target's overall status is determined by the cumulative window across all quarters: \($220K + $240K + $200K + $230K\) ÷ \($250K + $250K + $250K + $250K\) = 89% Yellow. This means the target can show Yellow status even when the latest quarter \(Q4\) shows Green—the target reflects overall annual progress, not the most recent period alone.
+**Key differences from cumulative:** In cumulative, each quarter's start value is the previous quarter's actual \($220K → $480K → $710K\), and each quarter's status is calculated individually. In non-cumulative, each quarter's Planned and Actual are independent \($250K planned each quarter\). Each quarter's status is also calculated independently: Q1 = 88% Yellow, Q2 = 96% Green, Q3 = 80% Yellow, Q4 = 92% Green. However, the target's overall status is determined by the cumulative window across all quarters: \($220K + $240K + $200K + $230K\) ÷ \($250K + $250K + $250K + $250K\) = 89% Yellow. The target can show Yellow status even when the latest quarter \(Q4\) shows Green—it reflects overall annual progress, not the most recent period alone.
 
 -   **How breakdown statuses roll up to the target status**
 
-    The target's overall status is determined by aggregating all periods into a cumulative window. The target status is NOT determined by the most recent breakdown; instead, it reflects the cumulative performance across all reported periods.
+    The target's overall status is determined by aggregating all periods into a cumulative window. The target status is not determined by the most recent breakdown; instead, it reflects the cumulative performance across all reported periods.
 
     -   Q1 status: Yellow \(88% independent\)
     -   Q2 status: Green \(96% independent\)
@@ -101,17 +101,42 @@ Although Q4's individual breakdown shows Green \(92%\), the target displays Yell
     -   **Target window:** \($220K + $240K + $200K + $230K\) ÷ \($250K + $250K + $250K + $250K\) = $890K ÷ $1,000K = 89%
     -   **Target status: Yellow** \(89% determined by cumulative window, not by latest breakdown\)
 
+## Status calculation for Maintain-type targets
+
+The following example shows status calculation for a Maintain above target. For Maintain above targets, the planned target of every breakdown period defaults to the final target value of the target, and you can edit it for each period. Each period is evaluated on its own: it is Green when the actual value is greater than or equal to the planned target, and Red when the actual value is lower. Progress is the percentage of periods that meet the planned target, counted up to the latest period with an actual value. The target status is based on this progress, compared against the same thresholds as other target types \(90% for Green and 75% for Yellow by default\).
+
+```
+Period status = Green if Actual ≥ Planned target; Red if Actual < Planned target
+Progress % = (Number of periods met ÷ Number of periods up to the latest period with an actual value) × 100
+Target status = Green if Progress % ≥ 90; Yellow if 75–89; Red if Progress % < 75
+```
+
+**Example:** Keep API uptime at or above 99.5% through year-end, with quarterly check-ins
+
+-   Type: Maintain above
+-   Final target value: 99.5%
+-   Planned target for each quarter: 99.5%
+
+|Quarter|Planned target|Actual|Period status|Periods met|Progress|Target status|
+|-------|--------------|------|-------------|-----------|--------|-------------|
+|Q1|99.5%|99.6%|Green|1 of 1|100%|Green|
+|Q2|99.5%|99.3%|Red|1 of 2|50%|Red|
+|Q3|99.5%|99.7%|Green|2 of 3|66.7%|Red|
+|Q4|99.5%|99.8%|Green|3 of 4|75%|Yellow|
+
+In this scenario, the Q1 actual of 99.6% is greater than the planned target of 99.5%, so Q1 is Green. The target has met 1 of 1 reported periods, so progress is 100%. The Q2 actual of 99.3% is lower than the planned target, so Q2 is Red. The target has now met 1 of 2 reported periods, so progress is 50%. Because 50% is below the Yellow threshold of 75%, the **target status is Red**. The Q3 actual of 99.7% meets the planned target, so Q3 is Green, but the target has met only 2 of 3 reported periods. Progress is 66.7%, which is still below 75%, so the target status stays Red. The Q4 actual of 99.8% also meets the planned target, so the target has met 3 of 4 periods. Progress is 75%, which falls in the 75–89% range, so the **target status changes to Yellow**. Because the target status is based on progress rather than on the latest period alone, a Red period doesn't keep the target Red: the target status improves as more periods meet the planned target.
+
 ## Status rollup mechanics
 
 Status automatically rolls up through three hierarchical layers:
 
--   **Layer 1 for cumulative targets: Breakdown → Target \(Latest-wins logic\)**
+-   **Layer 1 for cumulative targets: Breakdown → Target \(latest-wins logic\)**
 
     When a target has multiple check-in periods, the status of the target is determined by the most recent period's status:
 
-    -   If March check-in status is Red, target status = Red
-    -   If February check-in status is Yellow and March is Green, target status = Green \(most recent wins\)
--   **Layer 1 for non-cumulative targets: Breakdown → Target \(Cumulative window aggregation\)**
+    -   If the March check-in status is Red, the target status is Red.
+    -   If the February check-in status is Yellow and the March status is Green, the target status is Green because the most recent period determines it.
+-   **Layer 1 for non-cumulative targets: Breakdown → Target \(cumulative window aggregation\)**
 
     For non-cumulative targets with period-based breakdowns, the target's overall status is determined by aggregating all periods into a single cumulative window. The target status is determined by the cumulative performance across all reported breakdown periods.
 
@@ -123,24 +148,24 @@ Status automatically rolls up through three hierarchical layers:
     -   **Target status: Yellow** \(89% from cumulative window, even though Q4 is Green\)
     The key distinction: individual breakdowns may show Green \(Q4 at 92%\), but the target displays Yellow because the cumulative performance across all quarters \(89%\) determines the target status. This reflects overall annual progress, not just the most recent period.
 
--   **Layer 2: Target → Goal \(Worst-wins logic\)**
+-   **Layer 2: Target → Goal \(worst-wins logic\)**
 
     When a goal has multiple targets, the goal status is determined by the lowest-performing target:
 
     -   Target 1 status = Green \(90%\)
     -   Target 2 status = Red \(60%\)
     -   **Goal status = Red** \(worst-wins\)
--   **Layer 3: Goal → Parent goal \(Worst-wins logic\)**
+-   **Layer 3: Goal → Parent goal \(worst-wins logic\)**
 
     Goals roll up to parent goals using worst-wins logic:
 
     -   Goal 1 \(Parent goal\) status = Yellow
     -   Goal 1.2 \(Child goal\) status = Red
     -   Target 1.2.1 status = Yellow
-    As a result, the parent goal \(Goal 1\) status will be Red, since a single red status propagates to the parent goal.
+    As a result, the parent goal \(Goal 1\) status is Red because the Red status of the child goal rolls up to the parent goal.
 
 
-## Status rollup example: Three-layer cascade
+## Status rollup example across three layers
 
 This example shows how status cascades through all three layers:
 
@@ -169,7 +194,7 @@ LAYER 3 — Goals roll up to Parent goals (Worst-wins):
 
 -   **Manual override then recalculation**
 
-    If you manually override status to Red, the override applies immediately. However, if you later update the actual value such that the achievement percentage would calculate as Green \(95%\), the system recalculates and displays Green. Manual overrides do not persist through data updates.
+    If you manually override status to Red, the override applies immediately. However, if you later update the actual value such that the achievement percentage would calculate as Green \(95%\), the system recalculates and displays Green. Manual overrides don't persist through data updates.
 
 -   **Milestone targets \(qualitative goals\)**
 

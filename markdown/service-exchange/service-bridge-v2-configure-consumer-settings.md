@@ -24,23 +24,25 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **Service Exchange Consumer** &gt; **Provider Connections**.
 
-2.  Click the Number link on the Provider Connections page.
+2.  Select the Number link on the Provider Connections page.
 
-3.  Under the Related Links, click the **Settings** tab and click **New**.
+3.  In the Related list, select the **Settings** tab and select **New**.
 
-4.  In the Settings page, click the **Remote Record Producers** tab under the Related Links.
+4.  In the Settings page, select the **Remote Record Producers**.
 
 5.  Enable the **Auto activate remote record producer** check box if you want the remote record producers to be automatically activated.
 
-6.  Click the **Remote Task Definitions** tab.
+6.  Select the **Remote Task Definitions** tab.
 
-7.  Enable the **Auto activate remote task definition** check box if you want the remote task definition to be automatically activated.
+7.  In the **Allowed tables** field, move the tables you want to expose to this provider for introspection to the Selected column.
 
-8.  Click the **Authorized Users** tab.
+8.  Enable the **Auto activate remote task definition** check box if you want the remote task definition to be automatically activated.
+
+9.  Select the **Authorized Users** tab.
 
     -   Max authorized users: This field is available only if the Restrict authorized users flag has been enabled. Specify the maximum number authorized users that can be defined on the consumer's instance.
     -   Restrict authorized users: Select the check box if you want restrict the number of authorized users on the consumer's instance.
     -   Auto approve authorized users: If this check box is selected, authorized users created on the consumer instance are automatically approved.
-9.  Click **Update**.
+10. Select **Update**.
 
 

@@ -9,7 +9,7 @@ classification: app-engine-management-center
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure ReleaseOps, Configure, App Engine Management Center, Governing app development, Building applications]
+breadcrumb: [Configure ReleaseOps, Configure, App Engine Management Center, Run, AI Workflow Factory, Building applications]
 ---
 
 # Enable ReleaseOps system property
@@ -32,4 +32,6 @@ Role required: admin
 
     \[Omitted image "releaseops-enable-system-property.png"\] Alt text: Select Enable ReleaseOps to enable ReleaseOps within AEMC.
 
+
+**Parent Topic:**[Configure ReleaseOps in AEMC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/configure-releaseops-in-aemc.md)
 

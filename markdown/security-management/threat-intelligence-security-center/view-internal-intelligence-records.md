@@ -9,6 +9,7 @@ classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
+keywords: [internal intelligence, Security Incident Response, Vulnerability Response, Business Context, CMDB]
 breadcrumb: [Working with Internal Intelligence Records, Observables, TISC Library Repository, Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
 ---
 

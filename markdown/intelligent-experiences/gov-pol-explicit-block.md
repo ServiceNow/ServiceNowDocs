@@ -1,6 +1,6 @@
 ---
 title: Explicit Block policies
-description: Stop a specific person, team, or your whole organization from using an AI agent, model, or domain, enforced automatically everywhere that access could happen.
+description: Stop a specific person, a department, or your whole organization from using an AI agent, model, or domain, enforced automatically everywhere that access could happen.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/gov-pol-explicit-block.html
 release: brazil
@@ -13,29 +13,29 @@ breadcrumb: [Explore, Controlling AI asset usage, Govern AI assets, AI Control T
 
 # Explicit Block policies
 
-Stop a specific person, team, or your whole organization from using an AI agent, model, or domain, enforced automatically everywhere that access could happen.
+Stop a specific person, a department, or your whole organization from using an AI agent, model, or domain, enforced automatically everywhere that access could happen.
 
 ## Key benefits
 
--   Stop a specific person, team, or your entire organization from using an AI agent, model, or domain, without writing a script for each platform.
+-   Stop a specific person, a department, or your entire organization from using an AI agent, model, or domain, without writing a script for each platform.
 -   Apply one rule consistently whether it covers a handful of contractors or thousands of employees, without reconfiguring it person by person.
 -   Keep enforcing at every connected point even if one point is unavailable or doesn't apply, instead of the whole block depending on all of them.
 
 ## How Explicit Block policies work
 
-You define who's blocked and what they're blocked from, and publish it. Restricting access this way usually means writing a custom script for each platform involved, or relying on someone to remember to check and revoke access manually; an Explicit Block policy replaces that with one rule, enforced consistently everywhere that access could happen. The policy stands until it's deactivated; there's no pause or in-between state.
+You define who's blocked and what they're blocked from, and publish it. Restricting access this way usually means writing a custom script for each platform involved, or relying on someone to remember to check and revoke access manually; an Explicit Block policy replaces that with one rule, enforced consistently everywhere that access could happen. The policy stands until it's deleted; there's no pause or in-between state.
 
 Enforcement is attempted independently at each connected point, so if one point is unreachable or doesn't apply, the block still takes effect everywhere else it can.
 
-Because Explicit Block covers users, groups, agents, models, and domains under this same mechanism, the same policy type applies whether the goal is keeping a contractor off internally sensitive tools or keeping an entire department off a model that isn't approved for their work.
+Because Explicit Block covers users, departments, agents, models, and domains under this same mechanism, the same policy type applies whether the goal is keeping a contractor off internally sensitive tools or keeping an entire department off a model that isn't approved for their work.
 
 ## Use cases
 
--   **Blocking access to an agent**
+-   **Blocking access to ServiceNow Cowork**
 
-    Employees use a ServiceNow desktop conversational agent to ask instance-specific questions. The organization might need to block one person from using it, for example while a security review is underway, or prevent anyone from using it at all until that review is complete.
+    Employees use ServiceNow Cowork to ask instance-specific questions. The organization might need to block one person from using it, for example while a security review is underway, or prevent anyone from using it at all until that review is complete.
 
-    An Explicit Block policy scoped to a specific person and the conversational agent ends that person's active session and prevents them from starting a new one. Publishing the same policy without naming a person blocks everyone who has used the agent instead.
+    An Explicit Block policy scoped to a specific person and ServiceNow Cowork ends that person's active session and prevents them from starting a new one. Publishing the same policy without naming a person blocks everyone who has used ServiceNow Cowork instead.
 
 -   **Blocking access to a specific model**
 

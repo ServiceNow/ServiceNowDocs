@@ -17,7 +17,7 @@ ServiceNow Impact is built on the ServiceNow AI Platform and combines customized
 
 <table id="table_uqc_flp_fsb" class="nav-card"><tbody><tr><td>
 
-[Exploring Impact\[Omitted image "bus-explore.svg"\] Alt text:Explore Impact features to help you realize the full potential of your instances.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/servicenow-impact-concept.md)
+[Exploring Impact\[Omitted image "bus-explore.svg"\] Alt text:Explore Impact features to help you realize the full potential of your instances.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/exploring-impact.md)
 
 </td><td>
 

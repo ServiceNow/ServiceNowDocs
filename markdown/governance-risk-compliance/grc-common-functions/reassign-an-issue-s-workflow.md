@@ -46,15 +46,15 @@ Reassignment preserves the issue's attachments and related records, including re
 
     The warning and the confirmation label depend on the issue's grouping status.
 
-<table id="choicetable_reassignment_confirmation"><thead><tr><th align="left" id="d229044e154">
+<table id="choicetable_reassignment_confirmation"><thead><tr><th align="left" id="d230600e154">
 
 Issue grouping status
 
-</th><th align="left" id="d229044e157">
+</th><th align="left" id="d230600e157">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d229044e163">
+</th></tr></thead><tbody><tr><td id="d230600e163">
 
 **Standalone issue, or an issue in a group managed from the child \(__Manage child__\)**
 
@@ -62,7 +62,7 @@ Action
 
 A warning indicates that the issue's current workflow will be replaced. Select **Change workflow**.
 
-</td></tr><tr><td id="d229044e181">
+</td></tr><tr><td id="d230600e181">
 
 **Child issue in a group managed from the parent \(__Manage parent__\)**
 
@@ -70,7 +70,7 @@ A warning indicates that the issue's current workflow will be replaced. Select *
 
 A warning indicates that the issue will be removed from the group and become a standalone issue, because all issues in a **Manage parent** group must use the same workflow. Select **Change workflow and remove from group**.
 
-</td></tr><tr><td id="d229044e202">
+</td></tr><tr><td id="d230600e202">
 
 **Parent issue in a group managed from the parent \(__Manage parent__\)**
 

@@ -6,9 +6,9 @@ canonical_url: https://www.servicenow.com/docs/r/application-development/test-ag
 release: brazil
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 2
+reading_time_minutes: 3
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Test Agent, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Test Agent, Build, AI Workflow Factory, Building applications]
 ---
 
 # Author, execute, and troubleshoot tests and test suites with Test Agent
@@ -66,4 +66,11 @@ Role required: admin
 
     When a test/test suite fails, the Test Agent automatically starts the troubleshooting process. It identifies the step where the failure occurred and analyzes the root cause. The Test Agent then recommends possible fixes. After you select a recommended option, the Test Agent applies the fix, updates the test/test suite code, and reruns the test/test suite automatically. When the test/test suite passes, it provides a summary of the changes made to resolve the failure.
 
+
+-   **[ATF test generation in Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/test-agent-atf-test-gen-ba.md)**  
+The Build Agent can generate Automated Test Framework \(ATF\) tests while you create or edit applications. This capability helps validate your builds with consistent, automated test coverage.
+-   **[UI Test Script in Automated Test Framework \(ATF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/test-agent-ui-test-script-atf.md)**  
+UI Test Script enables you to create test code for custom user interfaces exposing elements of Testing Library within the Automated Test Framework \(ATF\). Generate test scripts through conversational interaction with Build Agent and run them alongside other ATF tests.
+
+**Parent Topic:**[Test Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/test-agent-landing-page.md)
 

@@ -8,7 +8,7 @@ product: Learning Core
 classification: learning-core
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 5
+reading_time_minutes: 4
 breadcrumb: [Configure, Learning Core, HR Service Delivery, Employee Service Management]
 ---
 
@@ -30,15 +30,15 @@ The following plugins are not active by default, and you must install them to us
 
 1.  Integrate your ServiceNow instance with the third-party learning source account that you plan to use.
 
-<table id="choicetable_bzs_wvn_rpb"><thead><tr><th align="left" id="d82654e99">
+<table id="choicetable_bzs_wvn_rpb"><thead><tr><th align="left" id="d82616e98">
 
 To integrate with this third-party learning source
 
-</th><th align="left" id="d82654e102">
+</th><th align="left" id="d82616e101">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d82654e108">
+</th></tr></thead><tbody><tr><td id="d82616e107">
 
 **Pluralsight Skills account**
 
@@ -46,7 +46,7 @@ Do this
 
 Use an API key to authenticate the ServiceNow requests. Follow the steps in [Set up the Pluralsight spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/setup-pluralsight-spk.md) to perform the integration.
 
-</td></tr><tr><td id="d82654e124">
+</td></tr><tr><td id="d82616e122">
 
 **Cornerstone OnDemand application**
 
@@ -54,7 +54,7 @@ Use an API key to authenticate the ServiceNow requests. Follow the steps in [Set
 
 Register an OAuth application in Cornerstone OnDemand application and authenticate requests from ServiceNow instance. Follow the steps in [Set up the Cornerstone spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/setup-cornerstone.md) to perform the integration.
 
-</td></tr><tr><td id="d82654e143">
+</td></tr><tr><td id="d82616e140">
 
 **Udemy application**
 
@@ -64,7 +64,7 @@ Integrate your Udemy application with your ServiceNow instance. For more informa
 
  **Note:** You must manually configure fields such as logos and course reassignments in the learning system configuration table.
 
-</td></tr><tr><td id="d82654e165">
+</td></tr><tr><td id="d82616e161">
 
 **Sumtotal application**
 
@@ -72,7 +72,7 @@ Integrate your Udemy application with your ServiceNow instance. For more informa
 
 Integrate your Sumtotal application with your ServiceNow instance. For more information, see [Set up the Sumtotal spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/setup-sumtotal.md).
 
-</td></tr><tr><td id="d82654e188">
+</td></tr><tr><td id="d82616e183">
 
 **Saba application**
 
@@ -80,7 +80,7 @@ Integrate your Sumtotal application with your ServiceNow instance. For more info
 
 Integrate your Saba application with your ServiceNow instance. For more information, see [Set up Saba spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/saba-spoke.md) .
 
-</td></tr><tr><td id="d82654e209">
+</td></tr><tr><td id="d82616e203">
 
 **Workday Learning**
 
@@ -88,7 +88,7 @@ Integrate your Saba application with your ServiceNow instance. For more informat
 
 Integrate your Workday Learning application with your ServiceNow instance. For more information, see [Set up Workday spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/saba-spoke.md) .
 
-</td></tr><tr><td id="d82654e230">
+</td></tr><tr><td id="d82616e223">
 
 **SuccessFactors Learning**
 
@@ -220,19 +220,11 @@ To integrate Learning Core with a new third-party learning system, follow the in
 Once you set up the Learning Core application, the source record for Cornerstone On Demand, Pluralsight, Udemy, Sumtotal, and Saba applications are automatically created in the Source module in Enterprise Service Management Integrations Framework. The source records in the Enterprise Service Management Integrations Framework application contain a predefined set of properties and integration services.
 -   **[Activate Learning Core flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/learning-core/flows-lp.md)**  
 Activate the flows that run on a schedule basis to pull learning course items from the Cornerstone OnDemand, Udemy, Pluralsight, Sumtotal, and Saba applications into the ServiceNow application.
--   **[Sources for Learning Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/learning-core/source-lnpst.md)**  
-Once you set up the Learning Core application, the source record for Cornerstone On Demand, Pluralsight, Udemy, Sumtotal, and Saba applications are automatically created in the Source module in Enterprise Service Management Integrations Framework. The source records in the Enterprise Service Management Integrations Framework application contain a predefined set of properties and integration services.
--   **[Activate Learning Core flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/learning-core/flows-lp.md)**  
-Activate the flows that run on a schedule basis to pull learning course items from the Cornerstone OnDemand, Udemy, Pluralsight, Sumtotal, and Saba applications into the ServiceNow application.
-
-**Parent Topic:**[Configuring Learning Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/learning-core/configuring-learning-core.md)
 
 **Parent Topic:**[Configuring Learning Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/learning-core/configuring-learning-core.md)
 
 **Related topics**  
 
-
-[Administration tasks in Learning Core]()
 
 [Administration tasks in Learning Core]()
 

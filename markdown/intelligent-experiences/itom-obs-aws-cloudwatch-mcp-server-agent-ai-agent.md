@@ -16,13 +16,14 @@ This AI agent automates AWS CloudWatch alert investigations by analyzing alarm d
 
 ## Workflow
 
-The agent investigates an AWS CloudWatch alarm, or a named entity referenced by another vendor's alert, using the CloudWatch MCP tools.
+1.  Identify what to investigate.
 
-1.  Determine whether a specific CloudWatch alarm name is known, or whether the investigation must start from a named entity and work back to the relevant alarm.
-2.  Retrieve the alarm's history and current state, along with its associated metric data.
-3.  Analyze the relevant metrics against expected thresholds and run log insights queries against associated log groups.
-4.  Review recommended metric alarms and any active alarms tied to the same resource for additional context.
-5.  Summarize the findings into a clear report identifying the probable root cause and recommended remediation steps.
+    The agent uses a provided CloudWatch alarm name or identifies an active alarm associated with a provided entity.
+
+2.  Gather context about the alarm and investigate metrics and logs.
+3.  Return findings, including a summary of alarm history, probable causes, and recommended next steps.
+
+For more information about configuring this AI agent, see [Configure observability agents for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/configure-integration-agents-for-now-assist.md).
 
 <table><thead><tr><th>
 
@@ -129,7 +130,7 @@ Used in agentic workflows
 
 </td><td>
 
-Not applicable.
+[Analyze alert impact agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/now-assist-itom-agentic-aia.md)
 
 </td></tr></tbody>
 </table>For more information, see [ITOM AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-health-landing-page.md).

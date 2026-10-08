@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-brazil/brazil-zurich-retail-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 6
+last_updated: "2026-10-08"
+reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
 
@@ -112,6 +112,13 @@ The experience is available in the Retail Service Portal and in Retail Mobile. I
 Track the progress of a store plan in a single view from the **Track Plan** tab of a plan. The plan progress summary shows the percentage of store cases closed and the number of open, overdue, closed, and all store cases for the selected occurrence, and you can filter the summary by occurrence. Select a metric to open the matching list of cases.
 
 The hierarchical list view provides a navigation tree of the cases and tasks in a plan, with **Open**, **Overdue**, **Closed**, and **All** tabs. The tree is plan-type agnostic and adapts to current and future plan types, including the plan types that you configure. The plan progress summary applies to the base-system HQ Communications and Store Audit plan types. Plan types with custom configurations or custom case or task states might require additional configuration.
+
+
+ -   **[Retail MCP Server](https://www.servicenow.com/docs/access?context=rahi-retail-mcp-server-overview&family=brazil&ft:locale=en-US)**
+
+The Retail MCP Server exposes Retail Service Management capabilities as Model Context Protocol \(MCP\) tools, so store staff can work with their AI assistant instead of switching to the portal. The assistant finds the user's store and its devices, then raises, tracks, and updates break-fix and store inquiry cases on the user's behalf.
+
+Each tool runs as the calling user and returns only records that the user can already read in the platform. MCP-compatible clients such as ServiceNow Otto, Now Assist, and Claude discover and connect to a single registered server, so future retail tools become available to the assistant without any new server setup. For setup steps, see [Set up the Retail MCP Server](https://www.servicenow.com/docs/access?context=rahi-retail-mcp-server-set-up&family=brazil&ft:locale=en-US).
 
 
 </td></tr></tbody>
@@ -473,6 +480,7 @@ Brazil
 -   Schedule and manage recurring tasks such as daily store opening procedures with parent cases for store-level tracking.
 -   Fulfillment of store case and task for regional managers and store teams through Retail mobile app.
 -   Let store associates and managers view and act on the Strategic Portfolio Management project work behind a store opening, closing, renovation, or relocation, without leaving the Retail application.
+-   Let store staff raise, track, and update break-fix and store inquiry cases from their AI assistant using the Retail MCP Server.
 
  See [Retail](https://www.servicenow.com/docs/access?context=rahi-retail-operations-overview&family=brazil&ft:locale=en-US) for more information.
 

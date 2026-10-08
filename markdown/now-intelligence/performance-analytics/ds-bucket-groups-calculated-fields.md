@@ -31,9 +31,10 @@ Calculated fields are active on all instances. You don't have to activate anythi
 -   Calculated fields support only date/time fields.
 -   Calculated fields do not support score\_start or score\_end.
 -   You can visualize calculated fields only in KPI Details. You cannot show them on data visualizations and thus not on dashboards.
+-   You can apply a calculated field as a breakdown or aggregate on a Data snapshots indicator only if the field is on the source table for that indicator. The Data snapshots source also must track the fields in the calculated field's formula.
 
 -   **[Create a calculated field for a Data snapshots source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/create-a-calculated-field.md)**  
-Show the length of time that has passed between two date/time fields on a Data snapshots source table. For example, calculate Age as the difference between Created and Updated.
+Show the length of time that has passed between two date/time fields on a Data snapshots source table. For example, calculate Age as the difference between Created and Updated. Use this value as an aggregate field on an indicator or in a bucket group mapping.
 -   **[Map a bucket group to a Data snapshots source field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/performance-analytics/map-bucket-group-to-ds-source.md)**  
 To be able to filter Data snapshots scores by a numeric field on the source table, map a bucket group to that field. The bucket group splits that field into value ranges.
 

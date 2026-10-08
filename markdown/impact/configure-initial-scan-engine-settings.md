@@ -7,7 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Impact Guided Setup, Configuring Impact, Impact]
+breadcrumb: [Configuring Impact, Impact]
 ---
 
 # Activate Scan Engine and review settings
@@ -16,9 +16,9 @@ Use Impact Guided Setup to set up the minimum required configuration options in 
 
 ## Before you begin
 
-[Assign users to Platform Health groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/assign-users-scan-engine-groups.md) before beginning this task.
+**Important:** Navigation to reach this step differs depending on whether you're using the [Impact Setup Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/use-impact-setup-hub.md) or the legacy [Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/guided-setup-impact-in-app.md). See whichever one applies to you for the exact path.
 
-**Note:** You can complete the configuration steps directly in the Guided Setup interface, or can configure the properties using the indicated navigation steps.
+[Assign roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/assign-roles.md) before beginning this task.
 
 Role required: impact app admin or admin
 
@@ -26,21 +26,19 @@ Role required: impact app admin or admin
 
 1.  Configure Instance Scanning and allow application access.
 
-    1.  Navigate to **All** &gt; **Impact** &gt; **Guided Setup** &gt; **Impact Platform Health** &gt; **Activate Scan Engine &amp; review settings**.
-
-    2.  On the Scan Engine Properties form, an SE Error banner displays.
+    1.  On the Scan Engine Properties form, an SE Error banner displays.
 
         \[Omitted image "scan-engine-operation-banner4.png"\] Alt text: The banner to select to activate application access.
 
-    3.  Select the `sys_update_version` link to navigate to the Tables page.
+    2.  Select the `sys_update_version` link to navigate to the Tables page.
 
         \[Omitted image "guided-setup-app-access.png"\] Alt text: The Table updated versions page with the Application Access tab and the Can read check box selected.
 
-    4.  Select the **Application Access** tab.
+    3.  Select the **Application Access** tab.
 
-    5.  Select the **Can read** checkbox.
+    4.  Select the **Can read** checkbox.
 
-    6.  Select **Update**.
+    5.  Select **Update**.
 
 2.  Navigate to **All** &gt; **Impact** &gt; **Configuration** &gt; **Scan Engine Properties**.
 
@@ -121,5 +119,9 @@ You can modify an existing definition to further customize and refine its scanni
 -   **[Configure Scan Engine integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/instance-integration-scan-engine.md)**  
 Scan Engine integrates with other ServiceNow instances and external agile systems to synchronize definitions, manage exception reasons, create user stories, and enforce governance over app deployments.
 
-**Parent Topic:**[Impact Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/guided-setup-impact-in-app.md)
+**Parent Topic:**[Configuring Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/configuring-impact-platform.md)
+
+**Previous topic:**[Create a development team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/create-development-team.md)
+
+**Next topic:**[Configure Scan Engine parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/impact/configure-scan-engine-properties.md)
 

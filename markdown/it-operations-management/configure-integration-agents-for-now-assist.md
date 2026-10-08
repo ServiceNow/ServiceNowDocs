@@ -7,7 +7,7 @@ release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 8
-keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, Google Gemini Cloud Assist agent, Google Gemini Cloud Assist skill]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, AWS CloudWatch MCP, AWS CloudWatch API, Datadog, Dynatrace, Google Cloud, Google Gemini Cloud Assist agent, Google Gemini Cloud Assist skill, Kentik, LogicMonitor, Microsoft Azure, New Relic, Prometheus, SolarWinds, Splunk, ThousandEyes]
 breadcrumb: [Configure, ITOM AIOps, IT Operations Management]
 ---
 
@@ -417,7 +417,7 @@ Required Dynatrace Intelligence settings
 </td></tr></tbody>
 </table>## Google Cloud
 
-**Note:** Before configuring this connection, create a keystore file by following the steps in [Create a Java KeyStore certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/setup-google-translator.md).
+**Note:** Before configuring this connection, create a keystore file by following the steps in .
 
 <table id="table_iqq_xqz_1kc"><thead><tr><th>
 

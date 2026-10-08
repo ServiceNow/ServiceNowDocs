@@ -1,6 +1,6 @@
 ---
 title: Using bulk edit in the Security Exposure Management Workspace
-description: Bulk edit in the Security Exposure Management Workspace enables you to update the state, request exceptions and false positives, and assign multiple findings to an assignment group simultaneously.
+description: Bulk edit in the Security Exposure Management Workspace enables you to update the state, request exceptions and false positives, assign multiple findings to an assignment group simultaneously, and modify risk ratings.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/security-management/sem-using-bulk-edit.html
 release: brazil
@@ -12,7 +12,7 @@ breadcrumb: [Bulk edit in the Security Exposure Management Workspace, Use, Unifi
 
 # Using bulk edit in the Security Exposure Management Workspace
 
-Bulk edit in the Security Exposure Management Workspace enables you to update the state, request exceptions and false positives, and assign multiple findings to an assignment group simultaneously.
+Bulk edit in the Security Exposure Management Workspace enables you to update the state, request exceptions and false positives, assign multiple findings to an assignment group simultaneously, and modify risk ratings.
 
 The bulk edit feature is available for:
 

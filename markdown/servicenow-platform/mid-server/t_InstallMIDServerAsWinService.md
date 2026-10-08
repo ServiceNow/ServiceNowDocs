@@ -1,6 +1,6 @@
 ---
 title: Manually start, stop, and restart a MID Server
-description: If you did not start the MID Server at the end of the installation procedure, you can manually start the MID Server.
+description: Start, stop, or restart a MID Server manually when needed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/mid-server/t\_InstallMIDServerAsWinService.html
 release: brazil
@@ -14,28 +14,34 @@ breadcrumb: [MID Server reference, MID Server, Manage instance data sources, Ext
 
 # Manually start, stop, and restart a MID Server
 
-If you did not start the MID Server at the end of the installation procedure, you can manually start the MID Server.
+Start, stop, or restart a MID Server manually when needed.
 
 ## Before you begin
 
-Role required: MID Server Service account user or a Windows Admin account
+Role required: MID Server Service account user or an Admin account
 
-This procedure is only for users who install the MID Server using the ZIP file. The Windows MID Server installer completes the installation automatically.
+This procedure is only for users who install the MID Server using the ZIP file. For Windows, the Windows MID Server installer completes the installation automatically.
 
 ## Procedure
 
 1.  Open the agent directory in the directory you created for the MID Server installation files.
 
-    For example, the path might be `C:\ServiceNow\MID Server1\agent`.
+    For example, the path might be:
 
-2.  Start the MID Server by executing the `start.bat` file.
+    -   Windows: `C:\ServiceNow\MID Server1\agent`
+    -   Linux: `/ServiceNow/MID Server1/agent`
+2.  To start the MID Server:
 
-3.  To stop the MID Server, execute the `stop.bat` file.
+    -   Windows: Execute the `start.bat` file.
+    -   Linux: Run `./start.sh`
+3.  To stop the MID Server:
 
-4.  To restart a stopped MID Server, either:
+    -   Windows: Execute the `stop.bat` file.
+    -   Linux: Run `./stop.sh`
+4.  To restart the MID Server:
 
-    -   If the MID Server is stopped, execute the `start.bat` file.
-    -   If the MID Server is running, execute the `restart.bat` file.
+    -   Windows: Execute the `restart.bat` file.
+    -   Linux: Run `./restart.sh`
 
 **Parent Topic:**[MID Server reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/mid-server/mid-server-reference-information.md)
 

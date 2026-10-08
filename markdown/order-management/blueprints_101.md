@@ -71,7 +71,7 @@ You can also see a list of the environment’s most recent deployments in the Ut
 
 ## The Enrichments tab
 
-This tab shows the enrichment scripts that have been created for the blueprint. These scripts run outside of the rules engine and enact their functions on their own areas, such as on initialization, BOM response, validation, or picklist extension pricing. An admin can edit these scripts or delete them using the Trash icon on the far left. For more information about enrichment scripts, see .
+This tab shows the enrichment scripts that have been created for the blueprint. These scripts run outside of the rules engine and enact their functions on their own areas, such as on initialization, BOM response, validation, or picklist extension pricing. An admin can edit these scripts or delete them using the Trash icon on the far left. For more information about enrichment scripts, see [Using external connections with OAuth support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown).
 
 \[Omitted image "cpq-blueprints-enrichments.png"\] Alt text: Enrichments screen
 

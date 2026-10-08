@@ -7,6 +7,7 @@ release: brazil
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
+keywords: [warranty claim summarization]
 breadcrumb: [Repair claim, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
@@ -29,14 +30,16 @@ Enable the skill before use. It is inactive by default:
 
 The App Anomaly Detection Rule \[com.sn\_anomaly\_detect\] framework identifies fraudulent claims. The Agents portal displays fraudulent repair claims submitted from the dealer portal using these rules.
 
--   Similar claims
--   Duplicate claims
--   Image reuse
--   Usage mismatch detection
--   Dealer claim spike
--   Document mismatch
--   Threshold based approval
--   Inflated claim
+-   Similar claim: Identifies the similar claims submitted for the same customer across multiple assets or vehicles.
+-   Duplicate claims: Automatically identifies claims that match previously processed claims for the same vehicle, part, or repair.
+-   Image reuse: Detects claims that reference the same picture as a prior submission.
+-   Configurable detection parameters: Allows administrators to tune detection sensitivity and time windows to match their operational policies.
+-   Product usage mismatch detection: Compares product usage data between the current claim and historical claim records to flag inconsistencies.
+-   Dealer claim spike: Surfaces similar claims submitted by the same dealer within a configurable time window.
+-   Document mismatch: Detects claims with mismatched or incomplete supporting documents.
+-   Threshold based approval: Detects repair claims that exceed threshold limits that have been specified for the causal parts.
+-   Inflated claim: Detects if the claim amount is significantly greater than the average claim amount for similar claims.
+-   Cross validation: Compares a repair claim's charges against the pre-authorization request or recall campaign it originates from. Claims that fall outside the configured tolerance are flagged for manual review.
 
 Use case 1: Dealer submits repair claim with image.
 

@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/platfor
 release: brazil
 topic_type: concept
 last_updated: "2026-08-04"
-reading_time_minutes: 7
+reading_time_minutes: 5
 breadcrumb: [ServiceNow AI Platform, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
@@ -14,52 +14,44 @@ breadcrumb: [ServiceNow AI Platform, AI agents library, AI agents and agentic wo
 
 The following AI agents are available for ServiceNow AI Platform.
 
+-   **[Access Analysis AI Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/access-analysis-agent.md)**  
+The Access Analysis Agent lets you ask whether a user, group, or role can access something on your ServiceNow instance. It uses guided, conversational workflows in the ServiceNow Otto® panel.
 -   **[AI Analytics Q and A AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/plat-ai-ai-analytics-q-and-a-ai-agent.md)**  
 This AI agent answers natural language questions about AI Analytics. It covers KPI definitions, dashboard widgets, source tables, data flows, deflection log states and scenarios, the deflection and metric frameworks, and ServiceNow platform scripts.
 -   **[AICT security analyzer AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/plat-ai-aict-security-analyzer-agent-ai-agent.md)**  
 This AI agent generates context for a detected AI security event by aggregating asset, prompt, cross-threat, and correlation data. It then computes a confidence score from detection strength, event risk, and authorization signals.
+-   **[AICT AI asset description auto-populator AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/plat-ai-aict-ai-asset-description-auto-populator-ai-agent.md)**  
+This AI agent generates and applies descriptions to AI assets using vendor, model, and manufacturer metadata.
+-   **[AICT deactivate dormant asset AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/plat-ai-aict-deactivate-dormant-asset-ai-agent.md)**  
+This AI agent analyzes and retires dormant AI assets by running comprehensive analysis and creating offboarding change requests.
+-   **[AICT life cycle task reminder AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/plat-ai-aict-lifecycle-task-reminder-agent-ai-agent.md)**  
+This AI agent sends automated email reminders to task owners for overdue and dormant life cycle tasks on high-priority AI assets.
+-   **[AICT outcome ranker AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/plat-ai-aict-outcome-ranker-agent-ai-agent.md)**  
+This AI agent ranks AI insight outcomes by relevance to each user persona based on their role and responsibilities.
 -   **[Approval assistance AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/plat-approval-assistance-ai-agent.md)**  
 This AI agent handles all queries related to approval records for the current user.
--   **[Data and policy configuration AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/plat-ai-data-and-policy-configuration-agent-ai-agent.md)**  
-This AI agent manages the data and policy configuration for AI on the platform. It retrieves the list of privacy policies, data patterns, data sharing, and data overflow processing details and displays it to the user. It also handles opt-in and opt-out requests for data sharing and data overflow processing \(also known as Azure Data Bursting or cloud bursting\).
 -   **[Decomposition AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/plat-ai-decomposition-agent-ai-agent.md)**  
 This AI agent takes resolution steps as input, and then analyzes and breaks down each resolution step into a clear, structured set of smaller, actionable substeps. It then creates records based on user preference. This enables precise execution, improves task clarity, and supports automation and auditability of resolution workflows.
--   **[Edit model provider AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/plat-ai-edit-model-provider-agent-ai-agent.md)**  
-This AI agent lets the user change, update, set, edit, modify, or switch the default LLM model provider. It handles instance level \(all skills\) and skill level \(a single skill\) updates. It saves configurations and provides a link to the change history.
--   **[Email action and information AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/plat-ai-email-action-and-information-ai-agent.md)**  
-This AI agent is equipped with tools to extract action items and details from emails, predict information for child task records, retrieve lists of task tables and fields within those tables, get information on groups, and copy email attachments to records. This agent also has tools to compose email body and send the email to recipients.
--   **[Email on existing parent lead AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/plat-ai-email-on-existing-parent-lead-ai-agent.md)**  
-This AI agent handles emails that have a parent record and creates or updates tasks for them.
--   **[Email to new task creation AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/plat-ai-email-to-new-task-creation-ai-agent.md)**  
-This agent creates a new task from an email and then processes it. This agent never sends emails.
+-   **[Domain Separation AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/domain-sep-aia.md)**  
+The Domain Visibility AI agent enables Domain Admins to manage user domain visibility using guided, conversational workflows in the ServiceNow Otto® panel.
+-   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/plat-ai-email-action-and-information-ai-agent.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/plat-ai-email-action-and-information-ai-agent.md)**  
+
+-   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/plat-ai-email-on-existing-parent-lead-ai-agent.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/plat-ai-email-on-existing-parent-lead-ai-agent.md)**  
+
+-   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/plat-ai-email-to-new-task-creation-ai-agent.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/plat-ai-email-to-new-task-creation-ai-agent.md)**  
+
 -   **[Error analysis and remediation AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/plat-err-error-analysis-and-remediation-agent-ai-agent.md)**  
 This AI agent is helps admins and operators investigate Error Framework error codes, analyze root causes, and execute preconfigured remediation actions.
 -   **[Explain SLA AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/plat-ai-explain-sla-ai-agent.md)**  
 This agent explains Service Level Agreement \(SLA\) details to the user based on the provided task number. It retrieves the matching SLA using timer configurations, along with SLA breakdown details, task SLA information, and an SLA timeline summary.
--   **[Guardian settings modifier AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/plat-ai-guardian-settings-modifier-agent-ai-agent.md)**  
-This AI agent modifies AI Guardian settings, including prompt injection, offensiveness, and filters based on structured payload.
--   **[Guardian settings viewer AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/plat-ai-guardian-settings-viewer-agent-ai-agent.md)**  
-This AI agent retrieves and displays AI Guardian settings based on natural language queries. It shows only the requested settings, including prompt injection, offensiveness, and filters with severity and threshold levels.
 -   **[Image processor AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/plat-ai-image-processor-agent-ai-agent.md)**  
 This AI agent lets users upload image attachments and create task records by analyzing them. I
 -   **[Issue readiness AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/plat-ai-issue-readiness-ai-agent.md)**  
 This AI agent scans the record fields and context of a ticket so it can determine if it is ready for a fulfiller to work on it.
 -   **[Issue trend analysis AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/plat-ai-issue-trend-analysis-ai-agent.md)**  
 This AI agent analyzes grouped task data from cases, incidents, problems, or other tables to identify recurring issues and root causes.
--   **[Language configuration AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/plat-ai-language-configuration-agent-ai-agent.md)**  
-This AI agent handles language configuration for AI multilingual LLM model providers. It retrieves the list of model providers and their configured languages and adds or removes languages for both native translation and Dynamic Translation per provider.
 -   **[Model provider configuration AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/plat-ai-model-provider-configuration-ai-agent.md)**  
 This AI Agent helps administrators understand whether their configured third-party LLM providers use OEM \(managed by ServiceNow\) or bring-your-own-key integration.
--   **[Model provider policy AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/plat-ai-model-provider-policy-agent-ai-agent.md)**  
-This AI Agent provides an LLM model provider policy summary via a conversation in the ServiceNow Otto panel.
--   **[Model provider query and history AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/plat-ai-model-provider-query-and-history-agent-ai-agent.md)**  
-This AI agent helps administrators find current LLM provider configurations and review historical changes.
--   **[Model version modifier AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/plat-ai-model-version-modifier-agent-ai-agent.md)**  
-This AI agent creates, updates or removes instance- and skill-level LLM model version configurations based on the user queries.
--   **[Model version viewer AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/plat-ai-model-version-viewer-agent-ai-agent.md)**  
-This AI agent shows admins the active and deprecated LLM models that are being used in the instance, at both the instance level and the skill level.
--   **[NAC help AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/plat-ai-nac-help-agent-ai-agent.md)**  
-This AI agent answers help questions by querying the help knowledge base. Routes here when users ask "how do I", "what is", "help with", or similar help-seeking questions.
 -   **[Next action recommendation AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/plat-ai-next-action-recommendation-ai-agent.md)**  
 This AI agent identifies the optimal steps for resolving tasks by reviewing similar record details, related list record details, relevant knowledge articles, and web search results.
 -   **[Prioritize work AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/plat-ai-prioritize-work-ai-agent.md)**  
@@ -76,14 +68,6 @@ This AI agent answers inquiries about existing tickets that were created by or a
 This agent searches available resources to answer user queries, serving as the fallback agent when other agents cannot handle a request.
 -   **[ServiceNow record navigator AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/plat-ai-servicenow-record-navigator-ai-agent.md)**  
 This AI agent surfaces ServiceNow records as clickable navigation views. It handles retrieval-style queries \("show me open P1 incidents"\) and navigation-style commands \("take me to changes assigned to David"\).
--   **[SHA diagnostic AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/plat-ai-sha-diagnostic-agent-ai-agent.md)**  
-This AI agent runs configuration diagnostics on the instance and presents actionable results to the admin.
--   **[SHA triage AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/plat-ai-sha-triage-agent-ai-agent.md)**  
-This AI agent assesses whether the admin's AI problem description contains enough information to produce a meaningful diagnosis, asking at most one clarification question per turn across a maximum of two turns. It then produces a finalized problem description.
--   **[Skill configuration AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/plat-ai-skill-configuration-ai-agent.md)**  
-This AI agent executes all configuration operations for generative AI skills.
--   **[Skill discovery AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/plat-ai-skill-discovery-ai-agent.md)**  
-This AI agent retrieves generative AI skill information and prepares pre-formatted display payloads for the skill management agentic workflow.
 -   **[Smart documents AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/plat-docmgmt-smart-documents-agent-ai-agent.md)**  
 This Document Management AI agent help users interact with document content by providing summaries, FAQs, and answers to their specific questions. It only works within the ServiceNow Document Viewer.
 -   **[Survey analysis AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/plat-ai-survey-analysis-ai-agent.md)**  
@@ -92,8 +76,6 @@ This AI agent extracts and validates date ranges from user input, including natu
 This AI agent collects data related to the case, incident, or request and the survey questions raised to collect feedback on it.
 -   **[Survey response suggestion AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/plat-ai-survey-response-suggestion-ai-agent.md)**  
 This AI agent suggests answers to questions in the survey by using details from case, incident, or request.
--   **[Translation settings AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/plat-ai-translation-settings-agent-ai-agent.md)**  
-This AI agent handles translation settings and status inquiries for AI multilingual services. Users may refer to native translation as "NT" and Dynamic Translation as "DT."
 -   **[Troubleshooting AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/plat-atf-troubleshooting-agent-ai-agent.md)**  
 This AI agent triages an Automated Test Framework \(ATF\) test failure.
 -   **[Update work plan AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/plat-ai-update-work-plan-ai-agent.md)**  

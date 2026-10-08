@@ -34,13 +34,9 @@ The header also shows latency and span count for the session. Latency reflects t
 
 Review the overall quality and safety of the session by reviewing the score cards. View a breakdown of the score by selecting the side panel icon. The side panel is filtered to show only the metrics that apply to this session, along with each metric's weight, score, and explanatory notes about how the score is calculated.
 
-## Session scores and aggregate scores
+Learn which metrics are impacting the overall score by viewing the lowest scoring metrics list.
 
-Understand what's driving a session's quality and safety scores by reviewing all of its evaluated metrics in one place. Metrics scored at the session, trace, or span level all roll up to this section, so you don't have to open each trace or span to see an individual score.
-
-Session-level metrics such as Task completion assess the entire conversation rather than individual traces or spans, so a low session-level score often means the agent didn't accomplish the user's overall goal, even when individual steps were executed correctly. To see whether a metric was evaluated at the session, trace, or span level, check the Level column.
-
-For a metric evaluated at the trace or span level, the score shown is an aggregate, meaning the average of that metric's scores across the traces or spans where it was evaluated. To understand any score, read the Reason column. For an aggregated metric, the reason notes that the score is an average and points you to open an individual span or trace to read the judge's reasoning for each one.
+To learn more about any single score, point to the information icon. The reason notes that the score is an average and points you to open an individual span or trace to read the judge's reasoning for each one.
 
 ## Details
 

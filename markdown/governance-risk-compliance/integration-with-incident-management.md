@@ -36,7 +36,7 @@ The DRIR application detects modifications to incidents after case creation. It 
 
 The banner shows the total number of pending updates, the timestamp of the last generated report, and the timestamp of the most recent source-record change. Select **Review updates** to open the Updates tab of the action task with the most pending updates \(or the case-level Updates view, if all pending updates are case-level\). Select **Dismiss** to hide the banner for your current session; the underlying pending updates remain, and the banner reappears the next time you open the case.
 
-If the oldest pending update is more than 30 days old, the banner switches to a warning visual style and adds an "oldest update is N days old" sub-line to call out the stale data.
+If the oldest pending update is more than 30 days old, the banner switches to a warning visual style. It also adds an "oldest update is N days old" sub-line to indicate stale data.
 
 No banner is displayed when the case has no pending updates, or when the case is in a terminal state \(Closed or Cancelled\). Applying updates against a closed case is blocked at the point you try to apply them.
 

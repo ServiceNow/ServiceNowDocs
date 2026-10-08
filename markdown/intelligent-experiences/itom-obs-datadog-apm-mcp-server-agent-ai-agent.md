@@ -16,13 +16,14 @@ This AI agent queries Datadog APM observability data using the full suite of Dat
 
 ## Workflow
 
-The agent investigates a Datadog alert, a cross-referenced entity, or a direct user question about Datadog observability data.
+1.  Identify what to investigate.
 
-1.  Determine whether the request is driven by a Datadog alert, a cross-referenced entity from another vendor's alert, or a direct conversational question.
-2.  Identify the relevant monitor, service, or entity to investigate based on that context.
-3.  Query Datadog for service health, distributed traces, logs, incidents, and deployment events relevant to the issue.
-4.  Check service level objective compliance and service dependency data where relevant to the investigation.
-5.  Translate the findings into clear, structured answers for the calling agent or user, avoiding any exposure of internal system details.
+    The agent uses information about a Datadog alert or the name of a host, service, or application to determine what to investigate.
+
+2.  Query Datadog observability data that's relevant to the alert or entity.
+3.  Return findings, including a probable cause and recommended actions.
+
+For more information about configuring this AI agent, see [Configure observability agents for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/configure-integration-agents-for-now-assist.md).
 
 <table><thead><tr><th>
 
@@ -129,7 +130,7 @@ Used in agentic workflows
 
 </td><td>
 
-Not applicable.
+[Analyze alert impact agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/now-assist-itom-agentic-aia.md)
 
 </td></tr></tbody>
 </table>For more information, see [ITOM AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/itom-health-landing-page.md).

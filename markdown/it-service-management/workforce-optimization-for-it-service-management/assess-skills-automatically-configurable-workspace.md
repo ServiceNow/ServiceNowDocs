@@ -40,15 +40,15 @@ The Coaching Overview screen displays the average quality of the tasks that were
 
 2.  Perform adhoc assessments or the ones triggered by coaching opportunities.
 
-<table id="choicetable_k5z_rpq_pnb"><thead><tr><th align="left" id="d339465e126">
+<table id="choicetable_k5z_rpq_pnb"><thead><tr><th align="left" id="d340011e126">
 
 To
 
-</th><th align="left" id="d339465e129">
+</th><th align="left" id="d340011e129">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d339465e135">
+</th></tr></thead><tbody><tr><td id="d340011e135">
 
 **Perform adhoc assessments**
 
@@ -60,7 +60,7 @@ Do this
 4.  Click the plus \(+\) icon.
 
 
-</td></tr><tr><td id="d339465e165">
+</td></tr><tr><td id="d340011e165">
 
 **Use assessments triggered by coaching opportunities**
 

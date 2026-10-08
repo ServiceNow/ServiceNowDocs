@@ -9,7 +9,7 @@ classification: digital-end-user-experience-dex
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [DEX Alerts, Monitor application performance, Manage, Digital End-User Experience, IT Service Management]
+breadcrumb: [DEX Alerts, Monitor application performance, Manage employee experience, Digital End-User Experience, IT Service Management]
 ---
 
 # DEX alert grouping

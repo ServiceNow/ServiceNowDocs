@@ -8,7 +8,7 @@ product: AI Risk Management
 classification: ai-risk-management
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 5
+reading_time_minutes: 6
 keywords: [AI cases dashboard, AI inquiries, AI cases tab, AI risk and compliance workspace, case trends]
 breadcrumb: [AI Risk and Compliance workspace, Explore, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
@@ -21,7 +21,7 @@ Track, monitor, and analyze your AI case workflows, identify your workflow bottl
 
 The **AI cases** tab on the AI risk and compliance dashboard provides the key metrics, trends, and actionable tasks that you can use to track your AI risks, case activities, compliance tracking, and governance enforcement. You can get case-level insights, task-level tracking, and accountability for your responsibilities and progress. As an AI steward, you can report a case when a violation is found. An AI analyst also follows the case and comes up with a resolution.
 
-**Note:** Dashboards in the AI Risk and Compliance Workspace \(Risk and Compliance, Operations, and AI Cases\) display data for **Managed** AI assets only. AI assets that are marked as **Unmanaged** are excluded from dashboard widgets, metrics, and summary counts, but remain visible in inventory and list views. If you have the AI steward \[sn\_ai\_governance\_ai\_steward\] role, you can mark assets as Managed or Unmanaged. For more information, see [Assets list- managed and unmanaged assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/assets-list-managing-and-unmanaging-assets.md).
+**Note:** Dashboards in the AI Risk and Compliance Workspace \(Risk and Compliance, Operations, and AI Cases\) display data for **Managed** AI assets only. AI assets that are marked as **Unmanaged** are excluded from dashboard widgets, metrics, and summary counts, but remain visible in inventory and list views. If you have the AI steward \[sn\_ai\_governance.ai\_steward\] role, you can mark assets as Managed or Unmanaged. For more information, see [Assets list- managed and unmanaged assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/assets-list-managing-and-unmanaging-assets.md).
 
 You can drill down into the data on each of the following widgets to learn more about an AI case.
 
@@ -63,7 +63,7 @@ You can drill down into the data on each of the following widgets to learn more 
         -   Counts of issues that are linked to AI cases by their states like New, Review, or Responds.
         -   Counts of issues that are linked to AI cases by additional details like Overdue, Due in 7 days, or Unassigned.
 
-The button enables you to initiate a new AI case record within the monitoring dashboard. This action is typically used to document, investigate, or track issues, risks, or compliance concerns that are related to AI models or datasets. Use the button to create an issue related to AI cases.
+Select [**Create AI case**](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/create-ai-case-in-the-ai-risk-and-compliance-workspace.md) to initiate a new AI case record within the monitoring dashboard. This action is typically used to document, investigate, or track issues, risks, or compliance concerns that are related to AI models or datasets. Select [**Create issue**](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/create-ai-issue-in-the-ai-risk-and-compliance-workspace.md) from the **Create AI case** split button to create an issue related to AI cases.
 
 The following example shows the **AI cases** tab on the AI risk and compliance dashboard.
 
@@ -105,7 +105,7 @@ You can drill down into the data on each of the following widgets to learn more 
     -   Inquiries by business unit: You can see the distribution of inquiries across the various departments or functional areas of your organization. This distribution helps you to identify where most AI-related concerns originate so that you can plan on more targeted risk mitigation or awareness training.
     -   Open and closed inquiries: You can track the volume of inquiries that are initiated and resolved within a selected time range. This tracking enables you to track how your workflow is performing and to plan for future capacity.
 
-Use the button to initiate a new inquiry. You can make timely reports of AI-related concerns or clarification requests.
+Select [**Create inquiry**](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/raise-ai-inquiry.md) to initiate a new inquiry. You can make timely reports of AI-related concerns or clarification requests.
 
 The following example shows the **Inquiries** tab on the AI risk and compliance dashboard.
 

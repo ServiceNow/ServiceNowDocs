@@ -7,10 +7,10 @@ release: brazil
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 keywords: [deactivate alert grouping, alert correlation rule, individual alert visibility, alert grouping]
-breadcrumb: [DEX Alerts, Monitor application performance, Manage, Digital End-User Experience, IT Service Management]
+breadcrumb: [DEX Alerts, Monitor application performance, Manage employee experience, Digital End-User Experience, IT Service Management]
 ---
 
 # Deactivate DEX alert grouping
@@ -25,15 +25,15 @@ Role required: sn\_dex.admin
 
 1.  Perform one of the following options.
 
-<table id="choicetable_hm4_cgv_1bc"><thead><tr><th align="left" id="d129244e58">
+<table id="choicetable_hm4_cgv_1bc"><thead><tr><th align="left" id="d128561e58">
 
 Options
 
-</th><th align="left" id="d129244e61">
+</th><th align="left" id="d128561e61">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d129244e67">
+</th></tr></thead><tbody><tr><td id="d128561e67">
 
 **System Properties table \[sys\_properties\]**
 
@@ -41,7 +41,7 @@ Actions
 
 Open the property **sn\_dex.alert.correlation\_rule.device.period** and in the **Value** field, enter 0.
 
-</td></tr><tr><td id="d129244e82">
+</td></tr><tr><td id="d128561e82">
 
 **Alert Correlation Rules**
 

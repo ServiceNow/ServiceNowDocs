@@ -8,7 +8,7 @@ product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: reference
 last_updated: "2026-09-10"
-reading_time_minutes: 11
+reading_time_minutes: 12
 breadcrumb: [Reference, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
@@ -163,7 +163,7 @@ Can view the goals. This role can be given to users such as the project user and
 
 </td><td>
 
-None
+sn\_gf.strategy\_planner\_read
 
 </td></tr><tr><td>
 
@@ -205,7 +205,8 @@ sn\_gf.goal\_admin
 
 </td><td>
 
--   sn\_gf.goal\_user\_read
+-   assessment\_admin
+-   sn\_apw\_advanced.spw\_goal\_user
 -   sn\_gf.goal\_user
 
 </td></tr><tr><td>
@@ -261,9 +262,10 @@ sn\_apw\_advanced.spw\_goal\_user
 
 </td><td>
 
+-   sn\_gf.strategy\_planner
+-   sn\_align\_ws.ridac\_user
 -   sn\_apw\_advanced.spw\_goal\_user\_read
 -   sn\_gf.goal\_user
--   sn\_align\_ws.ridac\_user
 
 </td></tr><tr><td>
 
@@ -276,8 +278,8 @@ sn\_apw\_advanced.spw\_goal\_user\_read
 
 </td><td>
 
+-   sn\_align\_core.ap\_read\_only
 -   sn\_gf.goal\_user\_read
--   sn\_align\_ws.ridac\_read\_only
 
 </td></tr></tbody>
 </table><table id="table_nnx_q51_fdc"><thead><tr><th>
@@ -797,6 +799,7 @@ Stores the information about the function or capability that adds value to a pro
 |Clear the Planning item value in the Goal Relationship for strategic items|Clears the planning item value in the existing Goal Relationship records for strategic items - Program and Initiative.|
 |Update Actual value of the targets using Goal Framework for SPM|Updates the actual value of the targets by collecting the data from the respective target sources, so that the progress of the targets is updated and then the targets' progress is rolled up to the goals.|
 |Create Goals Demo Data with Target Breakdowns|Creates a target breakdowns demo data for the targets.|
+|GF - Override Goal and Target Number fields with customized prefixes|Applies the prefixes that are set in the number records for goals and targets to the **Number** field of existing goals and targets, and keeps the numeric part of each number. For more information, see [Change the number prefix for goals and targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/change-number-prefix-goals-targets-spw.md).|
 
 |Scheduled job|Description|
 |-------------|-----------|

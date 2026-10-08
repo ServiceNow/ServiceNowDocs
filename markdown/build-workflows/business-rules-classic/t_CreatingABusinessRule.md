@@ -246,3 +246,8 @@ If you run into issues with your business rule, see the [Business Rule FAQ \[KB0
 
 **Parent Topic:**[Classic Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/business-rules-classic/c_BusinessRules.md)
 
+**Related topics**  
+
+
+[Classic Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/c_BusinessRules.md)
+

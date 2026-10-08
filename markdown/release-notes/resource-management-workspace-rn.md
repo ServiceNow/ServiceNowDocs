@@ -1,13 +1,13 @@
 ---
 title: Resource Management Workspace release notes
-description: The ServiceNow Resource Management Workspace application helps organizations optimize resource allocation, manage capacity, and align workforce planning with project demands.
+description: The ServiceNow Resource Management Workspace application helps organizations optimize resource allocation, manage capacity, and align workforce planning with project demands.Resource Management Workspace enables resource managers set a precise end date for resource assignments directly from the workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/resource-management-workspace-rn.html
 release: brazil
 topic_type: topic
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-keywords: [resource management workspace, capacity planning, resource allocation, workforce planning, project resources, demand management]
+keywords: [resource management workspace, capacity planning, resource allocation, workforce planning, project resources, demand management, resource management workspace, end assignment, resource assignment]
 breadcrumb: [Strategic Portfolio Management release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
@@ -31,4 +31,22 @@ See the [Resource Management Workspace](https://raw.githubusercontent.com/Servic
 
 
 **Parent Topic:**[Strategic Portfolio Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/it-business-management-rn-landing.md)
+
+## Version 5.11.1
+
+Resource Management Workspace enables resource managers set a precise end date for resource assignments directly from the workspace.
+
+### What's new
+
+-   **End assignment action in Resource Management Workspace**
+
+    End resource assignments at a precise date without modifying the original task plan. Select **End Assignment** from the row context menu of a resource assignment.
+
+
+### What's changed
+
+-   **[End assignment UI option](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/end-resource-assignment-rmw.md)**
+
+    Added **End assignment** option in row context menu for assignments.
+
 

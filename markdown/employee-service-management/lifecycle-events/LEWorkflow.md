@@ -8,7 +8,7 @@ product: Lifecycle Events
 classification: lifecycle-events
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 2
+reading_time_minutes: 1
 keywords: [Lifecycle Event Workflow]
 breadcrumb: [Activate Lifecycle Events, Configuring Lifecycle Events, Lifecycle Events, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
@@ -46,8 +46,6 @@ Each activity set in a lifecycle event has an associated workflow. Each workflow
 
         See [Parallel Flow Launcher workflow activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/r_ParallelFlowLauncher.md) .
 
-
-**Parent Topic:**[Activate Lifecycle Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/lifecycle-events/activate-enterprise-onboarding-and-transitions-scoped.md)
 
 **Parent Topic:**[Activate Lifecycle Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/lifecycle-events/activate-enterprise-onboarding-and-transitions-scoped.md)
 

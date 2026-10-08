@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, generative AI, servicenow studio]
-breadcrumb: [App summary generation, AI tools and files, Use, ServiceNow Studio, Developing your application, Building applications]
+breadcrumb: [App summary generation, AI tools and files, Use, ServiceNow Studio, Build, AI Workflow Factory, Building applications]
 ---
 
 # Summarize the contents of an app in ServiceNow Studio
@@ -19,7 +19,7 @@ Generate a summary of your app using ServiceNow Otto for Creator in ServiceNow S
 
 ## Before you begin
 
-Role required: sn\_app\_summary.app\_summary\_user, and admin or delegated\_developerwith Write access to the app record
+Role required: sn\_app\_summary.app\_summary\_user, and admin or delegated\_developer with either Delegated admin or Delete application permissions
 
 ## About this task
 

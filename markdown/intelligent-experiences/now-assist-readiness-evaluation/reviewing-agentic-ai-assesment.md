@@ -7,7 +7,7 @@ release: brazil
 product: Now Assist Readiness Evaluation
 classification: now-assist-readiness-evaluation
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-10-06"
 reading_time_minutes: 3
 keywords: [Now Assist Readiness Evaluation, Now Assist Readiness Evaluation app, Now Assist Readiness, Now Assist assessment, GenAI assessment, AI assessment, Agentic AI assessment]
 breadcrumb: [Use, AI Readiness Evaluation, Assessing your AI readiness, Getting started with AI, Enable AI Experiences]
@@ -16,6 +16,8 @@ breadcrumb: [Use, AI Readiness Evaluation, Assessing your AI readiness, Getting 
 # Reviewing your Agentic AI assessment
 
 This automated assessment process evaluates potential implementation impacts and provides actionable insights for agentic AI in ServiceNow Otto for IT Service Management \(ITSM\) and ServiceNow Otto for Customer Service Management \(CSM\).
+
+**Important:** The AI Readiness Evaluation store application is being prepared for deprecation. The readiness assessment capability is now available as a native in-platform feature within the AI Admin Center application. For more information, see [AI Admin Center \(formerly Now Assist Center\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-center-landing-page.md).
 
 Navigate to **Workspaces** &gt; **AI Readiness Evaluation** and select the agentic AI assessment icon \[Omitted image "agentic-ai-icon.png"\] Alt text: to review your agentic AI assessment.
 

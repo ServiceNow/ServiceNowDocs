@@ -52,3 +52,5 @@ In cases where an incident is set to **On hold** by the support agent with a rea
 
 This triggers an alert on the case in the Care Team Portal, where the state is changed to **Awaiting info**.
 
+**Note:** Care team members can also create these cases conversationally, by chat in Care Team Portal or Care Team Mobile, or by phone, using ServiceNow Otto. For more information, see [AI in Care Team Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/healthcare-operations-core/hco-otto-landing.md).
+

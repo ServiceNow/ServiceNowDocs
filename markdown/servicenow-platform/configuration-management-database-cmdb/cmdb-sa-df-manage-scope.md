@@ -7,8 +7,8 @@ release: brazil
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-09-10"
-reading_time_minutes: 1
+last_updated: "2026-09-30"
+reading_time_minutes: 2
 keywords: [manage principal classes, Data Foundations advisor scope, add or remove CI classes, Set principal classes dialog box, principal class selection]
 breadcrumb: [Manage advisor scope, Advisor setup, Use Data Foundations advisor, CMDB success advisor, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -34,10 +34,21 @@ Role required: sn\_cmdb\_admin
     |Narrow down CI class selection|Select **&gt;** to expand a group, then clear check boxes for specific CI classes.|Excludes only the CI classes cleared from a group.|
     |Remove a CI class group|Clear the check box for the CI class group.|Excludes all CI classes associated with the removed group.|
     |Remove a selected CI class|Select X icon next to the category in the **Selected classes** column.|CI class is removed from scope.|
+    |Find a specific CI class|Enter a class name in the **Search** box.|Matches any non-excluded CI class in the CMDB, not only the classes already shown in the **Available classes** column groups. Selecting a matched class adds it to your principal class selection.|
 
     **Note:** CI classes on the exclusion list aren't shown in the **Available classes** column.
 
-3.  Select **Done** to apply the changes.
+3.  If a confirmation check box appears under **Review and confirm changes**, select the check box.
+
+    The check box appears only when the **com.snc.task.principal\_class\_filter** system property is set and your selection has an unsaved change.
+
+    The check box label states how many principal classes you're adding and removing. It also notes a possible effect on CI filtering for incident, problem, and change \(IPC\) tasks.
+
+    **Done** stays disabled until you select the check box. Changing your selection again clears the check box and disables **Done** until you select it again.
+
+    Selecting the check box enables **Done**.
+
+4.  Select **Done** to apply the changes.
 
 
 ## Result

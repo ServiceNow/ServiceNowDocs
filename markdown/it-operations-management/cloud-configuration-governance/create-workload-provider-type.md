@@ -18,7 +18,8 @@ Create a workload provider type for each new configuration management provider. 
 
 ## Before you begin
 
-Role required: cloud\_admin
+-   For information on Ansible naming conventions, refer to [KB3136715](https://support.servicenow.com/kb?sys_kb_id=7b5db29697bd8f5c0ed83bbe2153afc5&id=kb_article_view)
+-   Role required: cloud\_admin
 
 ## Procedure
 

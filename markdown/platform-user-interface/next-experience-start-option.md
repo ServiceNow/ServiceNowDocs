@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/platform-user-interface/next-ex
 release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 3
+reading_time_minutes: 2
 keywords: [next experience start page options]
 breadcrumb: [Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -41,11 +41,11 @@ Any page can have redirect rules as the page is loading to take the user to a di
     -   [Configure per-user landing pages in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/configure-per-user-ui16-landing-page-in-next-experience.md)
 -   **Responsive dashboards**
 
-    You can start with a responsive dashboard created in the classic environment to use an existing dashboard that isn't available in a configurable workspace. For more information, see [Set responsive dashboards as your home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/t_SetDashboardsAsHome.md).
+    You can start with a responsive dashboard created in the classic environment to use an existing dashboard that isn't available in a configurable workspace. For more information, see .
 
 -   **Homepages**
 
-    Homepages are a deprecated feature. Homepages from earlier releases are read-only from the Tokyo release. For information on converting homepages to Responsive dashboards, see [Homepage deprecation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/homepage-deprecation-help-tool.md).
+    Homepages are a deprecated feature. Homepages from earlier releases are read-only from the Tokyo release. For information on converting homepages to Responsive dashboards, see .
 
 
 ## How to choose a start page
@@ -54,7 +54,7 @@ The different options for start pages serve different purposes. For example, cho
 
 ## Upgrade considerations
 
-When you upgrade to an instance with Next Experience enabled, it's best to convert homepages to responsive dashboards, so that you don't lose editing capabilities. In instances using Next Experience, legacy Homepages are turned off by default. For more information, see [Homepage deprecation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/homepage-deprecation-help-tool.md).
+When you upgrade to an instance with Next Experience enabled, it's best to convert homepages to responsive dashboards, so that you don't lose editing capabilities. In instances using Next Experience, legacy Homepages are turned off by default. For more information, see .
 
 -   **[Next Experience administrator start options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/ne-start-options-admin.md)**  
 As an administrator, you can configure where users start when they log in to ServiceNow.

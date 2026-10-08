@@ -9,7 +9,7 @@ classification: releaseops
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Explore, ReleaseOps, Deploying applications, Building applications]
+breadcrumb: [Explore, ReleaseOps, Run, AI Workflow Factory, Building applications]
 ---
 
 # Runbook tasks in ReleaseOps
@@ -29,4 +29,6 @@ Runbook tasks are activities that pause the progression of a playbook until the 
 When the playbook executes and encounters a runbook task, the playbook pauses progression until the runbook task is resolved.
 
 To add runbook tasks to your deployment requests, see [Create a runbook task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/releaseops/create-runbook-task.md).
+
+**Parent Topic:**[Exploring ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/releaseops/exploring-release-ops.md)
 

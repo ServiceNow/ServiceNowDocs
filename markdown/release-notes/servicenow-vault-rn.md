@@ -1,13 +1,13 @@
 ---
 title: ServiceNow Vault release notes
-description: The ServiceNow Vault application provides a set of data security tools that protect sensitive information from unauthorized access, corruption, or theft throughout its entire life cycle. See the following sections for release notes by version.ServiceNow Vault reduces the effort of monitoring and protecting sensitive data, adding AI-generated Insights, code signing metrics, and log export monitoring to Vault Console, generating module access policies as part of field encryption, and applying Zero Trust Access default policies on install.
+description: The ServiceNow Vault application provides a set of data security tools that protect sensitive information from unauthorized access, corruption, or theft throughout its entire life cycle. See the following sections for release notes by version.For the October 2026 release of ServiceNow Otto for Vault version 3.1, use an agentic workflow to classify sensitive data across a large table estate without labeling each column by hand, and stay informed about data protection coverage with a monthly Vault coverage report email.ServiceNow Vault reduces the effort of monitoring and protecting sensitive data, adding AI-generated Insights, code signing metrics, and log export monitoring to Vault Console, generating module access policies as part of field encryption, and applying Zero Trust Access default policies on install.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/servicenow-vault-rn.html
 release: brazil
 topic_type: topic
 last_updated: "2026-07-13"
-reading_time_minutes: 4
-keywords: [ServiceNow Vault, Vault Console, ServiceNow Otto for Vault, Vault by Default, data classification, anonymization, Zero Trust Access, code signing, Log Export Service]
+reading_time_minutes: 5
+keywords: [ServiceNow Vault, Vault Console, ServiceNow Otto for Vault, Vault by Default, data discovery, data classification, anonymization, Workflow Data Fabric, ServiceNow Vault, Vault Console, ServiceNow Otto for Vault, Vault by Default, data classification, anonymization, Zero Trust Access, code signing, Log Export Service]
 breadcrumb: [ServiceNow AI Platform security release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
@@ -42,6 +42,28 @@ See [ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDo
 
 
 **Parent Topic:**[ServiceNow AI Platform security release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/now-platform-security-rn-landing.md)
+
+## Version 3.1
+
+For the October 2026 release of ServiceNow Otto for Vault version 3.1, use an agentic workflow to classify sensitive data across a large table estate without labeling each column by hand, and stay informed about data protection coverage with a monthly Vault coverage report email.
+
+### What's new
+
+-   **Agentic classification for ServiceNow assets**
+
+    Classify sensitive data across a large table estate without labeling each column by hand. Select a category of ServiceNow assets in the Data Catalog, and the agent recommends a data class for each column in scope, with the reason for each recommendation. Recommendations are based on schema metadata, such as table and column names and any existing classifications. Review the recommendations and then confirm to apply them. The classifications appear on the data assets after the next ServiceNow metadata collector run.
+
+-   **Vault coverage report email**
+
+    Stay informed about how much of your sensitive data is protected with a Vault coverage report email. Active administrators receive it on the last Monday of each month. The email is sent only when Vault finds sensitive columns on your instance.
+
+
+### What's changed
+
+-   **Vault onboarding email design**
+
+    The Vault onboarding email uses an updated template design.
+
 
 ## Brazil Early Availability
 

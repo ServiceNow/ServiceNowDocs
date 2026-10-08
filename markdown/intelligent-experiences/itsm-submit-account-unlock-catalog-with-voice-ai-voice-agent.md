@@ -16,12 +16,12 @@ This AI voice agent helps users unlock accounts by invoking a tool call to submi
 
 ## Workflow
 
-The agent helps users complete tasks related to submit account unlock catalog with voice.
+1.  Make sure you have the name of the account that needs to be unlocked. If not provided, ask the user to provide it.
+2.  Confirm the correct account with the user and inform user that you will proceed to submit the unlock catalog request.
+3.  On confirmation, call the tool to create the unlock catalog request.
+4.  Always confirm with user before submitting.
 
-1.  Verify that you have the name of the account that needs to be unlocked.
-2.  Confirm the correct account with the user and inform them that you will proceed to submit the unlock catalog request.
-3.  Upon confirmation, call the tool to create the unlock catalog request.
-4.  Confirm with the user before submitting.
+**Note:** The agent must execute all steps in sequence and must not skip any step, even if it believes it already knows the information.
 
 <table><thead><tr><th>
 
@@ -41,38 +41,11 @@ When enabled, third-party AI agents can use this agent. This value is off \(fals
 
 </td></tr><tr><td>
 
-Allow AI specialists to access this AI agent
-
-</td><td>
-
-When enabled, AI specialists can use this agent. This value is off \(false\) by default. When set to true, more configuration options for tools become available so that an AI specialist can map inputs and response templates to tool outputs. This setting is defined in the AI Agent configs \[sn\_aia\_agent\_config\] table on the Specialist enabled field.
-
-</td></tr><tr><td>
-
-Manage long-term memory
-
-</td><td>
-
-When enabled, all previous user interactions are used as context for the LLM. This value is off \(false\) by default. This setting is defined by the **sn\_aia.ltm.enable\_long\_term\_memory** system property. For more information, see [ServiceNow Otto AI agents reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/na-aia-reference.md).
-
-</td></tr><tr><td>
-
-Tools
-
-</td><td>
-
--   **Flow action**
-
-Submit Account Unlock Catalog Order
-
-
-</td></tr><tr><td>
-
 Allowed user roles The specific user roles that can access this AI agent.
 
 </td><td>
 
-snc\_internal
+Admin
 
 </td></tr><tr><td>
 
@@ -80,7 +53,7 @@ Data access roles The specific user identity roles that determine which data the
 
 </td><td>
 
-nobody
+Admin
 
 </td></tr><tr><td>
 

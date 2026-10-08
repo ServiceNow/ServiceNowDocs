@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-zurich-brazil/brazil-zurich-mcpforstrategicportfoliomanagement-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 4
+last_updated: "2026-10-08"
+reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
 
@@ -93,7 +93,7 @@ Brazil
 
 -   **[SPM MCP server](https://www.servicenow.com/docs/access?context=spm-mcp-server-landing-page&family=brazil&ft:locale=en-US)**
 
-Connect any MCP-compatible AI assistant to your ServiceNow instance to query Strategic Portfolio Management data through natural language, without opening the ServiceNow application. The SPM MCP server ships as a standalone application \(com.sn.spm.mcp\) and is managed through the MCP Server Console console.
+Connect any MCP-compatible AI assistant to your ServiceNow instance to query Strategic Portfolio Management data through natural language, without opening the ServiceNow application. The SPM MCP server ships as a standalone application \(com.sn.spm.mcp\) and is managed through the MCP Server Console.
 
 -   **[Goal tools](https://www.servicenow.com/docs/access?context=exploring-spm-mcp-server&family=brazil&ft:locale=en-US)**
 
@@ -143,7 +143,14 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **[Role-based tool access](https://www.servicenow.com/docs/access?context=exploring-spm-mcp-server&family=brazil&ft:locale=en-US)**
+
+Control which SPM MCP server tools each user can run based on their assigned roles. Each tool is mapped to the SPM roles required to use it, and the MCP Server Console enforces that mapping through role-based access control.
+
+-   **[Tool annotations](https://www.servicenow.com/docs/access?context=exploring-spm-mcp-server&family=brazil&ft:locale=en-US)**
+
+The SPM MCP server tools include annotation hints, such as title, readOnlyHint, and destructiveHint, in the tools/list response as defined by the MCP specification. AI assistants use these hints to apply the correct permission policies, so read-only tools are no longer treated as potentially destructive by default. Administrators can review and configure the annotations for each tool in the MCP Server Console.
+
 
 </td></tr></tbody>
 </table>## Removed

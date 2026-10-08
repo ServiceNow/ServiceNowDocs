@@ -18,7 +18,7 @@ Reference topics provide additional information about the lists and forms that y
 
 -   **[Components installed with Digital Product Release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/installed-with-dpr.md)**  
 Several types of components are installed with activation of the Digital Product Release app, including tables and user roles.
--   **[Digital Product Release properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/digital-product-release-properties.md)**  
+-   **[Digital Product Release system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/digital-product-release-properties.md)**  
 Configure the system properties to customize various features of Digital Product Release according to your organization's needs.
 -   **[Approval definition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/approval-definition-form.md)**  
 Release admins can create approval definitions to get approvals of phase tasks for a release.

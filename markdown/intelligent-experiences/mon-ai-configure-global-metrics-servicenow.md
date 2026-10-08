@@ -47,15 +47,15 @@ After activating evaluation for ServiceNow AI systems, configure the global metr
 
     **Important:** Adding more metrics increases the visibility you gain into each session, but also increases assist usage to evaluate it. Select the metrics that give you the insight you need.
 
-<table id="choicetable_add_remove_metrics_sn"><thead><tr><th align="left" id="d223528e180">
+<table id="choicetable_add_remove_metrics_sn"><thead><tr><th align="left" id="d272846e180">
 
 Option
 
-</th><th align="left" id="d223528e183">
+</th><th align="left" id="d272846e183">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d223528e189">
+</th></tr></thead><tbody><tr><td id="d272846e189">
 
 **Add metrics**
 
@@ -67,7 +67,7 @@ Description
 4.  Select **Done**.
 
 
-</td></tr><tr><td id="d223528e219">
+</td></tr><tr><td id="d272846e219">
 
 **Remove metrics**
 

@@ -22,7 +22,7 @@ You must opt-in to the ServiceNow® Benchmarks application.
 
 Role required: pa\_data\_collector, pa\_power\_user, admin
 
-**Note:** If you have the sn\_bm\_client.benchmark\_admin role, you can link Performance Analytics indicators to benchmark indicators through the Benchmarks Setup interface. For instructions about linking indicators through that interface, see [Link or customize a benchmark KPI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/t_CustomBenchKPIConditions.md).
+**Note:** If you have the sn\_bm\_client.benchmark\_admin role, you can link Performance Analytics indicators to benchmark indicators through the Benchmarks Setup interface. For instructions about linking indicators through that interface, see Link or customize a benchmark KPI.
 
 ## About this task
 

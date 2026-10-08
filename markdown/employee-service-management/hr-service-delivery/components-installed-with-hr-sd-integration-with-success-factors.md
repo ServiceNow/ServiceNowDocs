@@ -70,5 +70,3 @@ The tables required for HR Service Delivery Integration with SuccessFactors are 
 
 **Parent Topic:**[HR Service Delivery Integration with SuccessFactors reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/hr-service-delivery/hr-service-delivery-integration-with-success-factors-reference.md)
 
-**Parent Topic:**[HR Service Delivery Integration with SuccessFactors reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/hr-service-delivery/hr-service-delivery-integration-with-success-factors-reference.md)
-

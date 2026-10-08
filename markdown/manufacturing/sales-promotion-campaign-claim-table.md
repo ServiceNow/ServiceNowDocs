@@ -139,7 +139,7 @@ Case Line\[sn\_case\_line\]
 Stores the case line item records.
 
 </td></tr></tbody>
-</table>To learn more about the Case and Case Line, see .
+</table>To learn more about the Case and Case Line, see [Case Lines and Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-case-mgmt-case-lines.md).
 
 **Parent Topic:**[Sales promotion campaign data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/manufacturing/sales-promotion-campaign-claims.md)
 

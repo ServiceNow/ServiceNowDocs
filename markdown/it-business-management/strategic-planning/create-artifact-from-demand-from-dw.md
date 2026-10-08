@@ -48,7 +48,7 @@ To create an entity, you can also use the **Confirm details and convert to selec
 
 5.  Verify that the values in the **Category** and **Type** fields are appropriate for the entity you want to create.
 
-    The options in the Type list change according to the category that you select. For more information, see [Demand form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/demand-form-dw.md).
+    The options in the Type list change according to the category that you select. For more information, see [Demand details form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/strategic-planning/demand-form-dw.md).
 
     **Note:** The **Category** and **Type** fields are set to read only when an entity is created from a demand. If you delete the created entity, these fields are set to editable again.
 

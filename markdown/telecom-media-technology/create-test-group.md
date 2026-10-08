@@ -82,7 +82,7 @@ The test definitions can be mapped to the test group in the related list.
 
 -   **Automated**
 
-A subflow has to be created and mapped to the automated test group.
+A subflow has to be created and mapped to the automated test group. For more details about creating a subflow, see [Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/create-flow.md).
 
 </td></tr><tr><td>
 
@@ -95,4 +95,8 @@ Description for the test group.
 </td></tr></tbody>
 </table>4.  Select **Submit**.
 
+
+## What to do next
+
+Associate the test group with a specification or product model. For more details, see [Associate a test group with a specifications or product model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/define-relationship-test-group-specifications.md).
 

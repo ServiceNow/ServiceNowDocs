@@ -1,19 +1,27 @@
 ---
-title: AI Admin Center Performance Explorer dashboard
+title: AI Admin Center Performance Explorer dashboard \(Next Experience UI\)
 description: Use the AI Admin Center Performance Explorer dashboard to review and analyze the execution details of assistants and AI agents across your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-center-performance-explorer-dashboard.html
 release: brazil
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-10-05"
 reading_time_minutes: 3
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup, performance]
-breadcrumb: [View AI assets usage and performance, Monitor, AI Admin Center, Getting started with AI, Enable AI Experiences]
+breadcrumb: [View AI assets usage and performance \(Next Experience UI\), Monitor, AI Admin Center, Getting started with AI, Enable AI Experiences]
 ---
 
-# AI Admin Center Performance Explorer dashboard
+# AI Admin Center Performance Explorer dashboard\(Next Experience UI\)
 
 Use the AI Admin Center Performance Explorer dashboard to review and analyze the execution details of assistants and AI agents across your organization.
+
+**Important:** Lux is the new user experience for AI Admin Center. For more information on the Lux experience, see [AI Admin Center user experience \(Lux UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-admin-center-lux-user-experience.md).
+
+The Next Experience AI Admin Center workspace is being prepared for deprecation in the November store release and will no longer be supported. For more information on the Next Experience UI, see [AI Admin Center workspace \(Next Experience UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-center-workspace.md).
+
+In AI Admin Center version 6.1, the Next Experience and Lux user interfaces are both available.
+
+**Note:** This topic describes the AI Admin Center feature based on the Next Experience UI. If you're using the Lux user experience for AI Admin Center, see the Lux UI version of this topic.
 
 ## AI Admin Center Performance Explorer dashboard
 
@@ -115,30 +123,5 @@ The **Agents** tab displays a list of individual AI agent executions. Use the **
     The inferred customer satisfaction score for the execution, calculated based on interaction signals. See [Exploring Conversation Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/conversational-intelligence/exploring-conversation-insights.md) for more information.
 
 
-## Skills
-
-The **Skills** tab displays the following additional KPIs at the bottom of the skills table:
-
--   **Total skill execution**
-
-    The total number of times skills were executed.
-
--   **Daily skill execution**
-
-    The number of times skills were executed on a given day.
-
--   **Average daily unique users engaging with AI**
-
-    The average number of distinct users who engaged with AI skills per day over the selected period.
-
--   **Daily unique users engaging with AI**
-
-    The number of distinct users who engaged with AI skills on a given day.
-
--   **Skill execution usage comparison by top 10 departments**
-
-    A comparison of skill execution usage across the top 10 departments by volume.
-
-
-**Parent Topic:**[View AI assets usage and performance in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-center-view-ai-usage.md)
+**Parent Topic:**[View AI assets usage and performance in AI Admin Center \(Next Experience UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-center-view-ai-usage.md)
 

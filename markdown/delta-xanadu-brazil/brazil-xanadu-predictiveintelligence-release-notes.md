@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-predictiveintelligence-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 8
+last_updated: "2026-10-08"
+reading_time_minutes: 9
 breadcrumb: [Products combined by family]
 ---
 
@@ -139,6 +139,11 @@ Australia
 -   **Sys property: [ML Trainer - Glide communication KAA](https://www.servicenow.com/docs/access?context=predictive-intelligence-properties&family=australia&ft:locale=en-US)**
 
 A sys property \(glide.platform\_ml.kaa\_auth\_enabled\) implements KAA validation to the ML Trainer server. KAA validation occurs only if mTLS is enabled on the instance. If this property is enabled but mTLS isn't enabled, the KAA validation is skipped. Default value is true \(from the Australia release\).
+
+
+ -   **[Predictive Intelligence Usage Analytics dashboard](https://www.servicenow.com/docs/access?context=predictive-intel-usage-analytics&family=australia&ft:locale=en-US)**
+
+Usage Analytics dashboard is a central location to understand the adoption, effectiveness, and overall value of all your Predictive Intelligence solutions. Dashboard widgets offer several metrics such as total monthly count of predictions per solution type.
 
 
 </td></tr><tr><td>

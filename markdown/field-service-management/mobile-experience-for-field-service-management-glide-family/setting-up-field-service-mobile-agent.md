@@ -29,6 +29,18 @@ You can configure the following functionalities within this mobile application t
 
 If you have the wm\_manager, sn\_fsm\_tp.fsm\_territory\_resource\_manager role, and Field Service Manager Mobile is activated, when you sign into the Mobile Agent you see Field Service Manager Mobile.
 
+## Offline Mobile Limitations
+
+The following items are known limitations to consider when using Field Service Mobile Agent in offline mode.
+
+-   Mobile Playbooks aren't available offline.
+-   Questionnaires can't be generated offline. However, if the questionnaire is generated online, it can be submitted offline.
+-   PDF work summary can't be generated offline.
+-   ServiceNow Otto® isn't available offline.
+-   The mandatory questionnaires button doesn't show when offline. However, you can still open the questionnaire from the task page and complete it.
+-   `Run client script` mobile UI rule action input form screens aren't supported offline.
+-   The map in Field Service Mobile Agent isn't supported offline.
+
 ## Configuration overview
 
 The steps for setting up Field Service Mobile Agent are:

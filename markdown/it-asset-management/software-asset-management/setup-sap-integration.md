@@ -22,14 +22,14 @@ Configure SAP integration, users, roles, and authorizations that are required to
 2.  [Create a WSDL for the SAP service definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/create-wsdl-sap-service.md)
 3.  [Create SAP users, roles, and authorizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/create-sap-users-roles-auth.md)
 4.  [Upload the license ruleset for SAP S/4HANA Private Cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/upload-license-ruleset-sap-private-cloud.md)
-5.  [Export the Root CA certificate from SAP for Private Cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/export-root-ca-cert-sap-private-cloud.md)
+5.  [Establish a trusted HTTPS connection for SAP S/4HANA Cloud, Private Edition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/export-root-ca-cert-sap-private-cloud.md)
 6.  [Select SAP clients to import data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/select-sap-clients-import.md)
 7.  [Activate OData services and assign a system alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/activate-odata-services-sap.md)
 8.  [Create a system user for OAuth authentication in SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/create-system-user-oauth-sap.md)
 9.  [Configure an OAuth client in SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/configure-oauth-client-sap.md)
 10. [Configure roles and authorizations for the OAuth user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/configure-roles-auth-oauth-user.md)
 
-**Note:** The steps to upload the license ruleset and export the Root CA certificate apply only to SAP S/4HANA Cloud, Private Edition deployments. On-premises SAP deployments do not require these steps.
+**Note:** The steps to upload the license ruleset and establish a trusted HTTPS connection for SAP S/4HANA Cloud, Private Edition apply only to SAP S/4HANA Cloud, Private Edition deployments. On-premises SAP deployments do not require these steps.
 
 ## SAP jobs that must be scheduled
 
@@ -47,8 +47,8 @@ Generate a Web Services Description Language \(WSDL\) URL for the SAP service de
 Create the SAP user, roles, and authorization objects required for the Software Asset Management integration with the central and satellite SAP systems.
 -   **[Upload the license ruleset for SAP S/4HANA Private Cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/upload-license-ruleset-sap-private-cloud.md)**  
 Upload the license ruleset file to your SAP system to enable Full Usage Equivalent \(FUE\) user classification for SAP S/4HANA Cloud, Private Edition.
--   **[Export the Root CA certificate from SAP for Private Cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/export-root-ca-cert-sap-private-cloud.md)**  
-Export the Root CA certificate from your SAP system and upload it to your ServiceNow instance to establish a trusted HTTPS connection for SAP S/4HANA Cloud, Private Edition integration.
+-   **[Establish a trusted HTTPS connection for SAP S/4HANA Cloud, Private Edition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/export-root-ca-cert-sap-private-cloud.md)**  
+Export the Root CA certificate from your SAP system and import it into the MID Server's cacerts keystore to establish a trusted HTTPS connection between SAP S/4HANA Cloud, Private Edition and your ServiceNow instance.
 -   **[Select SAP clients to import data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/select-sap-clients-import.md)**  
 Select the Remote Function Call \(RFC\) connections that the SAP ABAP program uses to import data from your SAP clients into the central system and then into your ServiceNow instance.
 -   **[Activate OData services and assign a system alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/activate-odata-services-sap.md)**  

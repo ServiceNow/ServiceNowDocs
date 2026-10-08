@@ -36,15 +36,15 @@ Role required: agent\_client\_collector\_admin
 
     The MID Web Server unified keystore is the most efficient option. To enable backward compatibility and store keypairs in an additional keystore, use the Web server keystore. The Web server keystore allows you to use the MID unified keystore as well.
 
-<table id="choicetable_ezm_tvg_dsb"><thead><tr><th align="left" id="d79494e157">
+<table id="choicetable_ezm_tvg_dsb"><thead><tr><th align="left" id="d80060e157">
 
 Option
 
-</th><th align="left" id="d79494e160">
+</th><th align="left" id="d80060e160">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d79494e166">
+</th></tr></thead><tbody><tr><td id="d80060e166">
 
 **MID unified keystore**
 
@@ -57,7 +57,7 @@ For more information, see the **Install custom certificates in the MID Server un
 
 **Important:** Leaving the **Keystore Certificate Alias** field empty causes connecting clients to skip certificate verification. Instead, the MID Server uses its own self-signed certificate.
 
-</td></tr><tr><td id="d79494e209">
+</td></tr><tr><td id="d80060e209">
 
 **Web server keystore**
 

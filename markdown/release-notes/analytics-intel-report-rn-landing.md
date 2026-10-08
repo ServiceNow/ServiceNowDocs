@@ -1,6 +1,6 @@
 ---
 title: Platform Analytics release notes
-description: Platform Analytics has new and updated features in the Brazil release.
+description: Optimize processes and increase productivity with the Platform Analytics applications. These applications include Performance Analytics, Usage Insights, and Process Mining. Present data through either the Core UI or the Platform Analytics experience. Platform Analytics has new and updated features in the Brazil release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/analytics-intel-report-rn-landing.html
 release: brazil
@@ -12,14 +12,16 @@ breadcrumb: [Features and changes by product, Release notes for upgrading from A
 
 # Platform Analytics release notes
 
-Platform Analytics has new and updated features in the Brazil release.
+Optimize processes and increase productivity with the Platform Analytics applications. These applications include Performance Analytics, Usage Insights, and Process Mining. Present data through either the Core UI or the Platform Analytics experience. Platform Analytics has new and updated features in the Brazil release.
 
 -   **[Automation Discovery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/automation-discovery-rn-2026-09.md)**  
 The Automation Discovery application helped you identify automation opportunities for your workflows. This application is no longer supported starting with the Brazil release.
 -   **[ServiceNow Otto for Platform Analytics Release Notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/otto-for-platform-analytics-rn-static.md)**  
 ServiceNow Otto® for Platform Analytics consists of several skills and applications that let you generate and work with Platform Analytics objects through generative AI. These skills let you analyze your business data through conversational interactions, without a technical knowledge of Platform Analytics.
+-   **[Platform Analytics experience release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/platform-analytics-experience-rn.md)**  
+The Platform Analytics experience application enables you to distribute and consume Platform Analytics through data visualizations and dashboards with optional filters. Explore KPIs and receive insights into significant events in the data.
 -   **[Performance Analytics release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/performance-analytics-rn.md)**  
-The ServiceNow® Performance Analytics application is an in-platform process optimization solution. It enables organizations to set, track, and analyze progress toward goals. Performance Analytics was enhanced and updated in the Brazil release.
+The ServiceNow® Performance Analytics application is an in-platform process optimization solution. It enables organizations to set, track, and analyze progress toward goals.
 -   **[Predictive Intelligence release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/predictive-intelligence-rn.md)**  
 The ServiceNow® Predictive Intelligence application is a powerful interface to train machine learning models. See the following sections for release notes by version.
 -   **[Process Mining release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/process-optimization-rn.md)**  

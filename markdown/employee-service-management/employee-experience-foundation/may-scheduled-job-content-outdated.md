@@ -53,5 +53,3 @@ When a category has outdated data, that data isn't associated with the topic.
 
 **Parent Topic:**[Manage outdated connected content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/employee-experience-foundation/may-manage-outdated-content-topics.md)
 
-**Parent Topic:**[Manage outdated connected content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/employee-experience-foundation/may-manage-outdated-content-topics.md)
-

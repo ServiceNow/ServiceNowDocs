@@ -20,7 +20,7 @@ This playbook step enables you to link an already established review framework t
 
 ## Before you begin
 
-Role required: sn\_gsm\_grnt\_mgmt.program\_manager, sn\_gsm\_grnt\_mgmt.grant\_director
+Role required: sn\_svc\_appl\_pgm\_mg.grant\_program\_manager or sn\_svc\_appl\_pgm\_mg.grant\_program\_director
 
 **Note:** Requires framework to already be done. For info on how to create this see [Configure the Merit Review Scoring Framework for a Grant Program in the Reviewer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/government-industry/psds-config-gmp-scoring-framework.md).
 

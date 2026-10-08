@@ -28,10 +28,8 @@ This section includes the Customer Success Management tables.
 This section includes the Customer Success Management business rules.
 -   **[Customer success management flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-success-flows.md)**  
 This section includes the Customer Success Management flows.
--   **[Customer Discovery Hub tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-cust-dh-tables.md)**  
-The Customer Discovery Hub includes four tables that capture customer business context: customer business need, customer business challenge, customer business expectation, and customer use case.
--   **[Supported use case table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-product-uc-tables.md)**  
-The supported use case table \(`sn_prod_cap_core_sup_use_case`\) is the default implementation of the use case catalog. It extends the base use case table and adds classifies the industry verticals and business model segments relevant to the use case.
+-   **[Skill inputs for ServiceNow Otto for Customer Success Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-otto-skill-inputs-reference.md)**  
+Look up the table and field inputs that each Customer Success Management skill relies on to generate a summary, insight, or draft.
 
 **Parent Topic:**[Customer Success Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/acct-lifecycle-events/account-lifecycle-events-landing.md)
 

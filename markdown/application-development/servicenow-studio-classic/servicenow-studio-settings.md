@@ -1,6 +1,6 @@
 ---
 title: ServiceNow Studio settings
-description: Personalize your settings and preferences in ServiceNow Studio to get the most out of your application development experience.
+description: Personalize settings and preferences in ServiceNow Studio to get the most out of the application development experience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/application-development/servicenow-studio-classic/servicenow-studio-settings.html
 release: brazil
@@ -10,12 +10,12 @@ topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Studio, Personalization, Settings]
-breadcrumb: [Configure, ServiceNow Studio, Developing your application, Building applications]
+breadcrumb: [Configure, ServiceNow Studio, Build, AI Workflow Factory, Building applications]
 ---
 
 # ServiceNow Studio settings
 
-Personalize your settings and preferences in ServiceNow Studio to get the most out of your application development experience.
+Personalize settings and preferences in ServiceNow Studio to get the most out of the application development experience.
 
 The User profile menu in ServiceNow Studio provides access to the Command palette, a list of keyboard shortcuts, preferences for theme and development style, and to elevate your role. Select the **Settings** icon \[Omitted image "sn-studio-settings-icon.png"\] Alt text: in the activity bar to open this menu.
 

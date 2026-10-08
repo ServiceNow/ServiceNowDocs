@@ -37,16 +37,6 @@ See [Instance Clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs
     -   A Now Assist license is required to use the Clone FAQ Agent. If Now Assist is installed after the Clone Admin Console, reinstall the console from the Store to enable the skill.
     -   Both the source and target instances must be on Australia Patch 5 or later to use Multi-Instance View.
 
-## Accessibility and localization
-
--   **Accessibility information**
-    -   The Clone Admin Console user interface follows ServiceNow platform accessibility standards.
-    -   Clone status indicators, tables, and forms in the Clone Admin Console are navigable using standard keyboard and screen reader support provided by the platform.
--   **Localization information**
-
-    Clone Admin Console follows the language settings configured on your instance. Clone Admin Console labels, messages, and Help content reflect the language preferences set for each user.
-
-
 **Parent Topic:**[ServiceNow AI Platform administration release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/now-platform-admin-rn-landing.md)
 
 ## Brazil Early Availability

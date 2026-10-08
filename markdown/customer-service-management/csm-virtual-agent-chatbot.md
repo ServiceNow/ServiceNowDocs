@@ -1,6 +1,6 @@
 ---
 title: Customer Service Virtual Agent conversations
-description: Predefined Customer Service Virtual Agent chatbot conversations enable your customers to get help with the product. Integrating Natural Language Understanding \(NLU\) models with your virtual agent chatbot topics enables chatbots to analyze, understand, and navigate the user to the right topic based on the inferred intent.
+description: Predefined Customer Service Virtual Agent chatbot conversations enable your customers to get help with the product. Integrating Natural Language Understanding \(NLU\) models with your virtual agent chatbot topics enables chatbots to analyze and understand user input. Chatbots then navigate users to the right topic based on inferred intent.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/csm-virtual-agent-chatbot.html
 release: brazil
@@ -12,7 +12,7 @@ breadcrumb: [Activate Virtual Agent, Configure chat, Configure omnichannel, Conf
 
 # Customer Service Virtual Agent conversations
 
-Predefined Customer Service Virtual Agent chatbot conversations enable your customers to get help with the product. Integrating Natural Language Understanding \(NLU\) models with your virtual agent chatbot topics enables chatbots to analyze, understand, and navigate the user to the right topic based on the inferred intent.
+Predefined Customer Service Virtual Agent chatbot conversations enable your customers to get help with the product. Integrating Natural Language Understanding \(NLU\) models with your virtual agent chatbot topics enables chatbots to analyze and understand user input. Chatbots then navigate users to the right topic based on inferred intent.
 
 A conversation topic defines the dialog between the Virtual Agent \(chatbot\) and the user to accomplish a specific goal.
 
@@ -36,7 +36,7 @@ The system administrator or a virtual agent admin must do the following to enabl
 
     -   Get Help \(Template\)
 
-        This topic is for users who are not logged in and want to chat anonymously. Users can use keywords and search relevant knowledge articles or choose to be transferred to a live agent. You can integrate this topic with the [Virtual agent - Facebook messaging integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/update-authentication-facebook-va-integration.md) to enable chat using your messaging application.
+        This topic is for users who aren't logged in and want to chat anonymously. Users can use keywords and search relevant knowledge articles or choose to be transferred to a live agent. You can integrate this topic with the [Facebook Messenger integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/messg-integrate-fbm-csm.md) to enable chat using your messaging application.
 
     -   Get Help with an Order \(Template\)
 
@@ -48,20 +48,20 @@ The system administrator or a virtual agent admin must do the following to enabl
 
     -   Create Case
 
-        Creates a case from Virtual Agent when no relevant topics for the issue you have are displayed.
+        Users can create a case from Virtual Agent when no relevant topics for their issue are displayed.
 
     -   Update Case
 
-        Users can update a case from Virtual agent.
+        Users can update a case from Virtual Agent.
 
 
 Your users can run the published topics in your chat support client.
 
 ## Activating Virtual Agent conversations with NLU
 
--   The Customer Service NLU Model for Virtual Agent Conversations \(com.sn\_csm.nlu\) plugin is automatically enabled when you enable the Customer Service Virtual Agent Conversations plugin \(com.sn\_csm.virtualagent\).
+-   The Customer Service NLU Model for Virtual Agent Conversations \(com.sn\_csm.nlu\) plugin is automatically activated when you activate the Customer Service Virtual Agent Conversations plugin \(com.sn\_csm.virtualagent\).
 
-    After you enable the plugin, you can view the following read-only intents for the Customer Service NLU for VA models in Studio:
+    After you activate the plugin, you can view the following read-only intents for the Customer Service NLU for models in Studio:
 
     -   CheckCaseStatus
     -   GetHelp

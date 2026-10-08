@@ -20,3 +20,5 @@ Multi-Instance Management offers tools and visibility to control how instances s
 
 -   [Cross-instance application trust configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/grant-access-v2.md): Multi-Instance Management provides a mechanism to streamline the management of trust configurations across your entire multi-instance environment.
 
+Multi-Instance Setup simplifies setting up cross-instance communication with a single user interface where administrators can configure and monitor non-production instances connected to a controller. Every connection is requested, reviewed, and approved or rejected to help avoid silent failures or undocumented instance relationships. For more information, see [Multi-Instance Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/multi-instance-setup-overview.md).
+

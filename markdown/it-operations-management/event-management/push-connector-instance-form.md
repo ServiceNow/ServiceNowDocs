@@ -8,7 +8,7 @@ product: Event Management
 classification: event-management
 topic_type: reference
 last_updated: "2026-09-10"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Reference, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
@@ -95,5 +95,16 @@ Select this check box to enable receiving the events from this external event so
  This field appears only after the form has been saved.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Event Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/event-management-reference.md)
+</table>Here are some options that depend on the type of **Push Connector Definition** you selected:
+
+-   Datadog: For case or work items, while creating push connectors select the **Configure Work Item Alerts** button. You are redirected to the Datadog work Items pull connector instance form, where you configure related-alert fetch and bi-directional synchronization. For more information, see [Configure a Datadog work item connector instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/configure-a-datadog-work-item-connector.md).
+
+-   Dynatrace: Specify the connection credential alias sys ID of the Service graph connector as the parameter value of the **connection\_sys\_id** parameter. For details on configuring this the Service graph connector, see [Configure Service Graph Connector for Observability - Dynatrace using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/configure-dynatrace-integration.md).
+
+**Parent Topic:**[Event Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/event-management-reference.md)
+
+**Related topics**  
+
+
+[Configure a push connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/push-event-listener.md)
 

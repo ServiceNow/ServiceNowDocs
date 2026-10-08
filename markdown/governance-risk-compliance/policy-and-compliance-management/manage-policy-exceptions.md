@@ -9,7 +9,7 @@ classification: policy-and-compliance-management
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Classic UI, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Classic UI, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Manage policy exceptions and extensions

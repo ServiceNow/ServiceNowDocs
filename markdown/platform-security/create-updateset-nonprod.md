@@ -58,7 +58,7 @@ Trusted instance
 
 8.  Retrieve the update set in production.
 
-    See  for details.
+    See [Retrieve an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/t_RetrieveAnUpdateSet.md) for details.
 
     **Important:** Repeat these steps for your second key pair. Remember that there’s a key for both the cm\_code\_attest and cm\_code\_signing cryptographic modules.
 

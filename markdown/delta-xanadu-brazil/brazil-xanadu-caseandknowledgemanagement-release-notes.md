@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-caseandknowledgemanagement-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
@@ -70,7 +70,7 @@ Brazil
 
 </td><td>
 
--   **Upgrade information**
+No updates for this release.
 
 </td></tr></tbody>
 </table>## New features
@@ -434,7 +434,7 @@ Brazil
 
 </td><td>
 
--   **Additional requirements**
+No updates for this release.
 
 </td></tr></tbody>
 </table>## Browser requirements
@@ -487,7 +487,7 @@ Brazil
 
 </td><td>
 
--   **Browser requirements**
+No updates for this release.
 
 </td></tr></tbody>
 </table>## Accessibility information
@@ -540,9 +540,7 @@ Brazil
 
 </td><td>
 
--   **Accessibility information**
-    -   
-
+No updates for this release.
 
 </td></tr></tbody>
 </table>## Localization information
@@ -595,7 +593,7 @@ Brazil
 
 </td><td>
 
--   **Localization information**
+No updates for this release.
 
 </td></tr></tbody>
 </table>## Highlight information

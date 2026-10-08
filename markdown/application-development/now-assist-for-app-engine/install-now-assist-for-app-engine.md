@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, ServiceNow Otto for App Engine, now assist, app engine, AI capability, AI feature, AI product, AI agent, skill, generative AI, genAI, Now Assist for App Engine, custom app, configure Now Assist, Installing Now Assist for App Engine, Install ServiceNow Otto for App Engine]
-breadcrumb: [Configure, ServiceNow Otto for App Engine, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Configure, ServiceNow Otto for App Engine, Run, AI Workflow Factory, Building applications]
 ---
 
 # Installing ServiceNow Otto for App Engine
@@ -37,4 +37,6 @@ The ServiceNow Store enables you to download core products and applications. A p
 
 6.  Log in with your ServiceNow user ID.
 
+
+**Parent Topic:**[Configuring ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/now-assist-for-app-engine/configuring-now-assist-for-app-engine.md)
 

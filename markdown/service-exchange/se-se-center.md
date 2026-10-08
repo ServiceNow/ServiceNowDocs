@@ -1,6 +1,6 @@
 ---
 title: Service Exchange Center
-description: Service Exchange center is a unified dashboard that consolidates connection health monitoring, issue resolution, and scan check management into a single interface.
+description: The Service Exchange Center enables you to monitor connection health, resolve scan check issues, and add and manage Service Exchange connections from a single dashboard in the Provider Center or Consumer Center applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/service-exchange/se-se-center.html
 release: brazil
@@ -8,105 +8,51 @@ product: Service Exchange
 classification: service-exchange
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 4
+reading_time_minutes: 3
 keywords: [Service Exchange Center, connection health, health dashboard, scan checks, resolution center]
 breadcrumb: [Explore, Service Exchange]
 ---
 
 # Service Exchange Center
 
-Service Exchange center is a unified dashboard that consolidates connection health monitoring, issue resolution, and scan check management into a single interface.
+The Service Exchange Center enables you to monitor connection health, resolve scan check issues, and add and manage Service Exchange connections from a single dashboard in the Provider Center or Consumer Center applications.
 
-Service Exchange Center provides administrators with a centralized location to monitor Service Exchange connections, track instance performance, and identify critical issues generated from scan suites.
+Using single dashboard, you can manage and monitor Service Exchange connections between provider and consumer instances. It covers the full connection lifecycle, from registering consumers and completing the onboarding to monitoring connection health and resolving issues. Automated scan checks detect configuration issues and errors, and guided resolution steps help you fix each issue.
+
+The Service Exchange Center includes the two tabs:
+
+-   Health: Monitor the health of your connections and identify issues early. Automated scan checks detect configuration issues and errors, and each issue includes troubleshooting steps to resolve it. You can also manage scan suites and their schedules. The Health tab includes the Resolution center, Connection health, and Scan suites tabs. For more information, see [Health tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/se-hd-health.md).
+-   Connections: Add, monitor, and manage connections across every stage of onboarding. Each connection appears as a card that shows its company, instance URL, and current state. For more information, see [Connections tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/se-connections-tab.md).
+
+The health dashboard works the same way in both the provider and consumer views, but some actions are role-specific. A provider creates connection requests and shares the onboarding URL with the consumer. A consumer uses that URL to complete onboarding and connect to the provider. Both can view connection details, configure the settings they control, and offboard a connection. Health monitoring, issues, and scan checks are available in both views, and each view shows the connections for that role.
+
+The dashboard displays the provider or consumer view, depending on which Service Exchange applications are installed on the instance. If both the provider and consumer applications are installed, you can switch between the two views.\[Omitted image "se-center-dashboard.png"\] Alt text: Service Exchange center dashboard showing connection related information.
 
 ## Role requirements
 
-The Service Exchange Admin \(sb\_admin\) role is required to access the Service Exchange Center.
+The Service Exchange admin \(sb\_admin\) role is required to access the Service Exchange Center.
 
 ## How to access
 
-The Service Exchange Center is accessible from the Administration menu under either the **Provider Center** or **Consumer Center** modules in the application menu, depending on your instance role. The dashboard displays data relevant to your entry point, with the option to switch between provider and consumer views when your instance supports both roles.
+The Service Exchange Center is available from the Administration menu of the **Provider Center** or **Consumer Center** module, depending on which Service Exchange applications are installed on your instance. If both the provider and consumer applications are installed, you can switch between the provider and consumer views.
 
 ## Benefits
 
--   Quick visibility into connection health status.
--   Reduced downtime and troubleshooting efforts through early issue identification.
--   Known errors with detailed solutions for faster resolution.
--   Improved productivity through automation and visibility.
--   Consolidated health monitoring, connection management, and scan checks in one location.
-
-## Service Exchange health
-
-Service Exchange health dashboard is the part of Service Exchange Center and provides unified views of connection health. It also consolidates functionality that was previously available across multiple interfaces, including the Health Dashboard, and scan checks. Service Exchange Health includes the following tabs and elements:
-
-\[Omitted image "se-health-dashboard.png"\] Alt text: View of Service Exchange Health dashboard with four callouts highlighted. For descriptions of the numbered callouts, refer to the table that follows.
-
-|Feature|Description|
-|-------|-----------|
-|1. Tabs|Service Exchange Health dashboard contains three tabs: Resolution center, Connection health, and Scan suites.|
-|2. Overview|The overview section shows a high-level summary of the connections.|
-|3. Issue|The issue section lists all issues found during scan checks.|
-|4. Provider/Consumer drop-down menu|The Provider/Consumer drop-down menu enables switching between provider and consumer views when the instance supports both roles.|
-
--   **Resolution center**
-
-    The Resolution Center is the default landing page that provides an at-a-glance view of integration health. This tab contains the following components:
-
-    -   **Connection Summary**
-
-        Displays the overall health score calculated from connection statuses \(Up, Down, or Slow\), the down connections count indicates connections requiring attention. A donut chart visualizes the distribution of connection states.
-
-    -   **Issue Distribution**
-
-        A bar chart that categorizes issues by severity \(critical, high, moderate, low\) from scan checks.
-
-    -   **Issues List**
-
-        A comprehensive table listing all detected unresolved issues generated from scan checks and the Service Exchange Error table, with columns for issue summary, associated connection, count, assigned user, and other information.
-
-        Selecting an issue summary, shows details about the issue, known errors include resolution steps and guidance. The issue dialog includes options to mute, assign, or follow the issue, and a **Validate &amp; Resolve** button to revalidate the issue status and resolve if no longer applicable. You can select the Navigate to Issue Report icon \[Omitted image "icon-se-center-Issue-report.svg"\] Alt text: next to **Validate &amp; Resolve** button to get more details about the issue.
-
-        Post comments or work notes using the Activity tab.
-
--   **Connection health**
-
-    The Connection heath tab displays a list of connections grouped by their status, down, slow, or up. It also provides detailed information for each Service Exchange connection through individual connection cards. Each card contains:
-
-    -   Connection name and status \(color-coded: green for Up, red for Down, purple for Slow\)
-    -   Outbound and inbound status indicators
-    -   Payload statistics \(sent and received\)
-    -   App version
-    -   Connection creation date
-    -   Related issues associated with the connection
-    You can also search, sort, and filter connections based on name, number, status, and so on.
-
--   **Scan suites**
-
-    The Scan Suites tab provides access to automated health checks that detect issues and inconsistencies. To learn more about instance scan checks, see [Instance scan checks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/service-bridge-v2-scan-checks.md).
-
-    Scan suites are organized into two categories:
-
-    -   **On-demand suites**
-
-        Suites that are available for manual execution as needed. On-demand suites include suites for post-clone, pre-onboarding, post-upgrade, and post-onboarding scenarios.
-
-    -   **Scheduled suites**
-
-        Suites that run automatically at configured times.
-
-    Each scan suite contains multiple scan checks. When you select a scan suite, you can view all scan checks included in that suite.
-
-    Scan results appear as issues. Each issue is assigned a priority level: critical, high, medium, or low, based on its severity. You can run any scan suite as needed using **Execute scan suite** button.
-
--   **Provider/Consumer drop-down menu**
-
-    Provides options for switching between provider and consumer views when the instance supports both roles.
-
+-   View connection health status
+-   Detect configuration issues early with automated scan checks to reduce downtime and troubleshooting effort
+-   Resolve known errors using detailed resolution steps
+-   Fix known connection errors automatically when a connection goes down
+-   Access consolidated health monitoring, connection management, and scan checks in one location
+-   View all connections across every onboarding stage, and monitor them without opening individual records
+-   Access registration details and connection settings from each connection card
+-   Resume an interrupted onboarding from the consumer view
 
 **Related topics**  
 
 
-[Execute a scan suite as a provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/se-execute-scan-check.md)
+[Health tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/se-hd-health.md)
 
-[Execute a scan suite as a consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/se-con-execute-scan-check.md)
+[Connections tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/se-connections-tab.md)
+
+[Instance scan checks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/service-exchange/service-bridge-v2-scan-checks.md)
 

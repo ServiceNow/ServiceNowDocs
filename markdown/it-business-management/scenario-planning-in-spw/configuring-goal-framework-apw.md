@@ -29,6 +29,8 @@ If your organization uses the legacy goal and strategy tables \(Goal, Enterprise
 Configure goal preferences to manage goals such as the calendar type used for goal setting, weighted average calculation for goal progress, and deletion of goals and targets.
 -   **[Customize label for Goal and Target tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/customize-labels-for-goal-and-target-tables.md)**  
 Customize the label for Goal \[sn\_gf\_goal\] and Target \[sn\_gf\_goal\_target\] tables according to your organization’s requirement.
+-   **[Change the number prefix for goals and targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/change-number-prefix-goals-targets-spw.md)**  
+Change the Number field prefixes for goals and targets, for example, to OBJ and KR for objectives and key results, and update existing records.
 -   **[Configure a table for an assigned entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/configure-assigned-entity-egm.md)**  
 Configure a table for an assigned entity type, so that the goal user can associate goals with the required assigned entity.
 -   **[Create goals demo data with target breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/create-goals-demo-data-with-target-breakdowns.md)**  
@@ -47,6 +49,8 @@ Configure target sources for target automation so that the goal user can define 
 Defining a custom unit of measure helps the goal users to set the unit of measure for targets as per their choice. Unit of measures are two types, quantitative and qualitative.
 -   **[Configure automatic status calculation for targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/configure-automatic-status-calculation-spw.md)**  
 Configure system-wide automatic status calculation settings to determine target and goal status automatically based on achievement percentages. Enable or disable automatic calculation and customize Green, Yellow, and Red threshold values to align with your organizational governance policies.
+-   **[Configure the tolerance for Maintain constant targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/configure-maintain-constant-tolerance-spw.md)**  
+Change the tolerance band that determines whether a Maintain constant target is on target. The default tolerance is ±5%.
 
 **Parent Topic:**[Configuring Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-business-management/scenario-planning-in-spw/setting-up-alignment-planner-workspace.md)
 

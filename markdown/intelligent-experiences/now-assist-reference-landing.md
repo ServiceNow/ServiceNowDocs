@@ -1,19 +1,19 @@
 ---
-title: Now Assist reference
-description: Reference topics include information about user roles, data usage, and domain separation for Now Assist.
+title: AI Admin Hub reference
+description: Reference topics include information about user roles, data usage, and domain separation for AI Admin Hub.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-reference-landing.html
 release: brazil
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-09-28"
 reading_time_minutes: 1
 keywords: [Now Assist, reference, user roles, data usage, domain separation, Generative AI, Gen AI]
 breadcrumb: [AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
-# Now Assist reference
+# AI Admin Hub reference
 
-Reference topics include information about user roles, data usage, and domain separation for Now Assist.
+Reference topics include information about user roles, data usage, and domain separation for AI Admin Hub.
 
 -   **[Default and target model version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/default-and-target-model-model-version.md)**  
 Model version is the large language model version a skill uses to route requests to process users' queries. Default model version is where all the requests route to by default. This is pre-set by ServiceNow®. A target model version is chosen to route your requests to a different version at run-time, rather than using the default version.
@@ -25,10 +25,10 @@ The Now Assist Conversational Help skills architecture solves latency by fetchin
 Certain roles are required to use AI Admin Hub functionality. The base admin \(sys\_admin\) role does not automatically grant or include the following roles, so assign these directly to users who require them.
 -   **[User data usage policy for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/user-data-usage-policy-now-assist.md)**  
 Now Assist is designed to keep user data safe and secure. You can also mask sensitive data or opt-out of sharing data for model improvements.
--   **[Troubleshoot a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/troubleshoot-a-now-assist-skill.md)**  
-Run diagnostics for a skill on the AI Admin Hub console to get information about the status of your skill configuration.
--   **[Now Assist panel system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/nap-sys-props.md)**  
-Use system properties to customize Now Assist panel. Some properties are available on a system properties form, but some lesser-used properties are available only from the System Property \[sys\_properties\] table.
+-   **[Troubleshoot an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/troubleshoot-a-now-assist-skill.md)**  
+Run diagnostics for a skill on the AI Admin Hub console to get information about the status of your skill configuration. The availability of diagnostics depends on the skill.
+-   **[ServiceNow Otto panel system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/nap-sys-props.md)**  
+Use system properties to customize ServiceNow Otto panel. Some properties are available on a system properties form, but some lesser-used properties are available only from the System Property \[sys\_properties\] table.
 
 **Parent Topic:**[AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/platform-now-assist-landing.md)
 

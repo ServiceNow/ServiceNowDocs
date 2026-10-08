@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/release-notes/technology-indust
 release: brazil
 topic_type: reference
 last_updated: "2026-09-10"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
@@ -41,12 +41,18 @@ The Technology industry solution includes the following applications:
 -   Sales and Order ManagementSales CRM for Technology Providers. See [Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/sales-order-management-rn-landing.md).
 -   ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
 
+-   **[Customer Service Problem Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/customer-service-problem-management-rn.md)**  
+The ServiceNow® Customer Service Problem Management application helps customer to identify and resolve service problems. See the following sections for release notes by version.
 -   **[Customer Success Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/account-lifecycle-rn.md)**  
 The ServiceNow® Customer Success Management application helps you to streamline your onboarding process, define and track objectives and outcomes, identify and mitigate risks, and increase renewal rates. See the following sections for release notes by version.
 -   **[Product Support for Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/product-support-for-technology-rn.md)**  
 The ServiceNow® Product Support for Technology application helps to identify your impacted customers, communicate directly with them, escalate a case if needed, and auto-generate cases for faster issue resolution. See the following sections for release notes by version.
+-   **[Sales CRM for Telecommunications release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/sales-customer-relationship-management-rn.md)**  
+The ServiceNow® Sales Customer Relationship Management application manages the sales and order lifecycle, from product catalog definition through order capture, fulfillment orchestration, and AI-assisted task templating. See the following sections for release notes by version.
 -   **[Service Exchange \(formerly Service Bridge\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/service-exchange-rn.md)**  
 The ServiceNow® Service Exchange application, formerly known as Service Bridge, enables providers and consumers to connect and track services directly between instances without having to configure and maintain custom integrations. See the following sections for release notes by version.
+-   **[Service Test Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/service-test-management-rn.md)**  
+The ServiceNow® Service Test Management application helps to define, run, and monitor service tests in real time. See the following sections for release notes by version.
 -   **[Telecommunication Network Inventory release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/telecommunication-network-inventory-rn.md)**  
 The ServiceNow® Telecommunications Network Inventory application enables network planners to model physical, logical, or virtual networks, support datacenter infrastructure management, and perform design and assign services. See the following sections for release notes by version.
 -   **[Data Center and Network Asset Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/data-center-and-network-asset-management-release-notes-rn.md)**  

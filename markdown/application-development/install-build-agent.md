@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Configure, Build Agent, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Configure, Build Agent, Build, AI Workflow Factory, Building applications]
 ---
 
 # Install Build Agent
@@ -24,7 +24,8 @@ The Premium version of Build Agent is part of ServiceNow Otto for Creator, and i
 -   Build Agent supports the following models:
     -   Azure OpenAI 5.4
     -   Azure OpenAI 5.5
-    -   Azure OpenAI GPT 5.6 Sol
+    -   Azure OpenAI GPT 5.6 Sol 
+    -   Google Gemini 3.7 Flash
     -   Google Gemini 3.5 Flash
     -   Gemini 2.5 Pro
     -   Claude Opus 4.6

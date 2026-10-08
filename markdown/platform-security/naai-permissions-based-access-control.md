@@ -31,27 +31,27 @@ The following topics describe how to implement, configure, and verify access con
 
     Understand how ACLs and user identities work together across agentic workflows, AI agents, and tools to control who can invoke an agent and what resources it can access once invoked.
 
--   ****
+-   **[Role masking in AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aia-role-masking.md)**
 
     Use role masking to define an allow-list of roles that agentic workflows and AI agents can inherit from invoking users, enforcing least-privilege access during tool execution.
 
--   ****
+-   **[Define security controls for an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/define-sec-controls-aia.md)**
 
     Step through the AI agent guided setup to configure who can access an agent and what data it can act on, covering both user access and data access settings.
 
--   ****
+-   **[Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/define-sec-controls-aw.md)**
 
     Step through the agentic workflow guided setup to configure who can access a workflow and what data it can act on, covering both user access and data access settings.
 
--   ****
+-   **[Test user access to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/test-aia-access.md)**
 
     Run a manual access test to confirm that only the intended users can discover and invoke a given AI agent.
 
--   ****
+-   **[Test user access to an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/test-aw-access.md)**
 
     Run a manual access test to confirm that only the intended users can discover and invoke a given agentic workflow.
 
--   ****
+-   **[Configure security controls for a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/nask-access-control.md)**
 
     Configure access control for custom skills built with the AI Skill Kit to manage who can invoke skill-based functionality.
 
@@ -60,15 +60,15 @@ The following topics describe how to implement, configure, and verify access con
 
 The following reference topics describe the roles installed with Now Assist and what each role permits.
 
--   ****
+-   **[AI Admin Hub roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/roles-installed-with-now-assist-admin.md)**
 
     A reference list of the roles installed with AI Admin Hub, including the permissions required to activate and manage Now Assist features and skills.
 
--   ****
+-   **[Now Assist Admin \[sn\_nowassist\_admin.nsa\_admin\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/roles-installed-with-now-assist-admin.md)**
 
     Details the **sn\_nowassist\_admin.nsa\_admin** role, which allows users to create, edit, and configure Now Assist skills and settings.
 
--   ****
+-   **[AI Admin Hub console user \[sn\_nowassist\_admin.user\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/roles-installed-with-now-assist-admin.md)**
 
     Details the **sn\_nowassist\_admin.user** role, which provides read-only access to the AI Admin Hub console.
 

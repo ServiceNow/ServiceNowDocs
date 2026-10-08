@@ -20,12 +20,12 @@ Role required: csm\_guided\_setup\_user or admin
 
 ## About this task
 
-Service Model Foundation provides the core framework and guidance for building and modeling the entities that are involved in the customer service value chain. This framework introduces new entities, such as service organizations, internal and external business locations, and households. It also introduces roles and relationships that provide both flexibility and control in granting access to customer cases and information.
+Service Model Foundation provides the core framework and guidance for building and modeling the entities that are involved in the customer service value chain. This framework introduces new entities, such as service organizations, internal and external organizations \(formerly business locations\), and households. It also introduces roles and relationships that provide both flexibility and control in granting access to customer cases and information.
 
 With the Service Model Foundation plugins, you can support:
 
--   Internal business locations and staff members
--   External business locations and staff members
+-   Internal organizations and staff members
+-   External organizations and staff members
 -   Households and household members
 
 For more information about this feature, see [Service Model Foundation overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-industry-data-model.md).
@@ -72,7 +72,7 @@ Activate the query rules by setting the system property \[sn\_cs\_queryrules.use
 
 </td><td>
 
-Configure forms to add the fields and related lists that support the business location and household models.
+Configure forms to add the fields and related lists that support the business organization and household models.
 
 </td></tr><tr><td>
 

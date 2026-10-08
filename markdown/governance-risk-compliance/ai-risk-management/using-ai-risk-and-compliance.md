@@ -8,7 +8,7 @@ product: AI Risk Management
 classification: ai-risk-management
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 4
+reading_time_minutes: 3
 breadcrumb: [AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
 
@@ -17,15 +17,15 @@ breadcrumb: [AI Risk and Compliance, Governance, Risk, and Compliance]
 Use the AI Risk and Compliance to request AI systems, AI models, AI datasets, and so on and perform assessments for them to determine their risk posture.
 
 -   **[Request an AI use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/request-ai-system.md)**  
-Request the development or procurement of an AI system to initiate and document the need for an AI‑driven solution within an organization. This process helps ensure that AI implementations are aligned with business goals, compliant with regulations, and technically feasible.
+Request the development or procurement of an AI system to initiate and document the need for an AI-driven solution within an organization.
 -   **[Request an AI model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/request-ai-model.md)**  
-Request the development or procurement of an AI model to support an AI system. This process captures the technical and business context needed to initiate governance review, risk assessment, and life cycle tracking for the model.
+Request the development or procurement of an AI model to support an AI system and initiate governance review, risk assessment, and life cycle tracking.
 -   **[Request a dataset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/request-dataset.md)**  
-Request a dataset to support AI model training, testing, validation, or analytical use cases. This process helps ensure data sources are reviewed for quality, privacy, and compliance.
+Request a dataset to support AI model training, testing, validation, or analytical use cases. Datasets are reviewed for quality, privacy, and compliance.
 -   **[Raise an AI inquiry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/raise-ai-inquiry.md)**  
 Submit your questions about AI systems, models, or datasets and their business applications.
 -   **[Report an AI case from the Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/report-ai-case.md)**  
-Report an AI case by providing a detailed description, such as system behavior, affected users, and relevant data. Include supporting attachments for prompt resolution.
+Report an AI case by describing the system behavior, affected users, and relevant data, and attach supporting files.
 -   **[Report an AI case anonymously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/report-ai-case-anon.md)**  
 Report an AI case without revealing your identity using the Anonymous Reporting Center. Your name and contact details are not shared with investigators. Save the report key and report number provided after submission to track updates or provide additional information later.
 -   **[Create an AI issue in the AI Risk and Compliance workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/create-ai-issue-in-the-ai-risk-and-compliance-workspace.md)**  

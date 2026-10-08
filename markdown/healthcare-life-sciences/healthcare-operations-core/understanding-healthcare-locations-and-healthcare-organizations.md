@@ -26,7 +26,7 @@ An example healthcare organization hierarchy might look like:
 
 Structuring healthcare organizations correctly is vital to healthcare operations as it defines the organizational structure, influencing visibility, responsibility, and routing.
 
-These roles are healthcare-specific labels for the underlying Service Model Foundation \(SMF\) personas. For the platform-wide persona reference, including a healthcare example, see .
+These roles are healthcare-specific labels for the underlying Service Model Foundation \(SMF\) personas. For the platform-wide persona reference, including a healthcare example, see [Service Model Foundation personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/smf-persona.md).
 
 ## Healthcare organization \[sn\_hcls\_organization\] table technical details
 
@@ -114,7 +114,7 @@ When creating a healthcare organization or a healthcare location, you can use th
 
 For more information on this process, see [Associate healthcare locations with a healthcare organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/healthcare-life-sciences/healthcare-operations-core/hcls-sm-associate-healthcare-locations-organization.md)
 
-This association is healthcare's implementation of the generic Service Model Foundation relationship model. For the platform-wide pattern, see .
+This association is healthcare's implementation of the generic Service Model Foundation relationship model. For the platform-wide pattern, see [Service Model Foundation relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-data-model-relationships.md).
 
 ## How to set up healthcare organizations and healthcare locations
 

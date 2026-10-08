@@ -16,6 +16,8 @@ breadcrumb: [UI test steps, Building and running automated tests with the Automa
 
 Test customized user interfaces such as UI pages and UI macros by retrieving their HTML and JavaScript page components and identifying the test actions they support.
 
+**Note:** For new test development, use the Run UI Test Script test step instead of Custom UI test steps.
+
 Custom UI test steps require the Automated Test Framework to retrieve and identify the testable components from a target web page.
 
 **Note:** Next UI Experience pages are not supported by the Custom UI test steps, including but not limited to Configurable Workspaces \(except for Form steps\) and UI Builder.
@@ -34,7 +36,7 @@ Testable page components consist of standard HTML and JavaScript with these char
 
 -   **Are accessible to JavaScript**
 
-    Testable page components are accessible to JavaScript. Custom UI test steps cannot access page components that interact directly with the operating system such as file fields or display non-HTML content such as Excel or PDF files.
+    Testable page components are accessible to JavaScript. Custom UI test steps cannot access page components that interact directly with the operating system such as file fields. Custom UI test steps cannot access page components that display non-HTML content such as Excel or PDF files.
 
     New browser tabs or windows are not supported by Custom UI test steps.
 
@@ -193,7 +195,7 @@ When you select a component in any of the custom UI test steps, the Custom UI ve
 
 ## Identifying components
 
-Implement an alternative way to identify your component by using the sn-atf-id attribute. This is useful if the name or id attribute of your component is dynamic and changes every time a test runs. Add the sn-atf-id attribute with a consistent value to allow ATF identify your component when running a test. It also allows you to identify your component when building a test. For example, in a button component
+Implement an alternative way to identify your component by using the **sn-atf-id** attribute. This is useful if the name or id attribute of your component is dynamic and changes every time a test runs. Add the sn-atf-id attribute with a consistent value to allow ATF identify your component when running a test. It also allows you to identify your component when building a test. For example, in a button component
 
 ```
 <button sn-atf-id="consistentValue">Test</button>
@@ -205,7 +207,7 @@ Implement an alternative way to identify your component by using the sn-atf-id a
 
 Identify your component using the label path included in the **Page area** column. Starting with the Rome release, the `sn_atf.element.use_label_path` property has been set to true by default.
 
-If a component has the `sn-atf-area` attribute, the **Page area** column displays the `sn-atf-area` value. If the `sn-atf-area` attribute is not present, the label path for that component is shown in the Page area column.
+If a component has the sn-atf-area attribute**sn-atf-area** attribute, the **Page area** column displays the sn-atf-area value**sn-atf-area** value. If the sn-atf-area attribute**sn-atf-area** attribute is not present, the label path for that component is shown in the Page area column.
 
 \[Omitted image "atf-label-path.png"\] Alt text: Image showing label path of the component
 

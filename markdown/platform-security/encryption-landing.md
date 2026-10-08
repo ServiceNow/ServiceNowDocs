@@ -70,6 +70,8 @@ Protect your sensitive data and stay compliant with regulatory  requirements a
 </td></tr></tbody>
 </table>-   **[Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/encryption.md)**  
 Use the Key Management Framework \(KMF\) to generate, exchange, store, use, and replace the cryptographic keys used to encrypt and decrypt sensitive data on your ServiceNow instance.
+-   **[Unified Secrets Gateway](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/usg-landing.md)**  
+Secure secrets on your instance from unauthorized access using Unified Secrets Gateway.
 -   **[Certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/c_Certificates.md)**  
 Your instance requires certificates to establish secure connections and validate signatures.
 -   **[Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/field-encryption.md)**  

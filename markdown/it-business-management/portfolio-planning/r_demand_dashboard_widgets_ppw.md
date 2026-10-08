@@ -48,6 +48,8 @@ You can further drill down on each widget to see the list of records associated 
 |No Assignee|Count of demand tasks that don't have an assignee.|
 |Overdue Demand Tasks|Count of demand tasks whose due date has passed as of the current date.|
 
+**Note:** These widgets report only on classic assessment instances.
+
 |Widget|Description|
 |------|-----------|
 |No Due Date|Count of demand assessments that don't have a set due date.|

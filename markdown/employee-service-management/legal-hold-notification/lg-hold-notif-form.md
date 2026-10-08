@@ -111,5 +111,3 @@ Enables the attachment of documents related to the legal hold.
 </td></tr></tbody>
 </table>**Parent Topic:**[Legal Hold Notification reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/legal-hold-notification/lg-hold-notif-ref.md)
 
-**Parent Topic:**[Legal Hold Notification reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/legal-hold-notification/lg-hold-notif-ref.md)
-

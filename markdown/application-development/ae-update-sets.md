@@ -7,7 +7,7 @@ release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Use, Autonomous Engineer, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Use, Autonomous Engineer, Build, AI Workflow Factory, Building applications]
 ---
 
 # Update sets and Autonomous Engineer
@@ -27,7 +27,11 @@ For general information about update sets on the ServiceNow AI Platform, see [Sy
 
 ## How Autonomous Engineer tracks changes
 
-Autonomous Engineer automatically captures changes in a unified update set as you work. The consolidated update set merges all the update sets created for previous agentic and manual development into a single update set for ease of deployment. The consolidation occurs after you tell Autonomous Engineer that you're done working on a task and no longer require rollback.
+Autonomous Engineer automatically captures changes in a unified update set as you work.
+
+**Note:** Manual changes aren't included in the automatically generated update set, and must be deployed separately.
+
+The consolidated update set merges all the update sets created for previous agentic and manual development into a single update set for ease of deployment. The consolidation occurs after you tell Autonomous Engineer that you're done working on a task and no longer require rollback.
 
 Autonomous Engineer automatically captures changes to the app and metadata that you're working on.
 

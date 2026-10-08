@@ -9,7 +9,7 @@ last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [revert app changes, build agent checkpoint, restore checkpoint, undo changes build agent, chat history revert, build agent ServiceNow Studio, app development rollback, checkpoint restore, ServiceNow Otto, AI Agents, generative AI, agentic AI]
 audience: administrator
-breadcrumb: [Use, Build Agent, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Use, Build Agent, Build, AI Workflow Factory, Building applications]
 ---
 
 # Revert app changes with Build Agent

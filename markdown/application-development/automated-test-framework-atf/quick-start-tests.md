@@ -54,3 +54,5 @@ Validate that your instance still works after you make any configuration change 
 
 [Performance profiling]()
 
+[ATF Health Check]()
+

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-brazil/brazil-yokohama-servicenowaiplatformcorefeature-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 20
 breadcrumb: [Products combined by family]
 ---
@@ -232,6 +232,10 @@ Strengthen scope boundary enforcement when dot-walking across application scopes
 Brazil
 
 </td><td>
+
+-   **[Set up cross-instance communication](https://www.servicenow.com/docs/access?context=multi-instance-setup-overview&family=brazil&ft:locale=en-US)**
+
+Run a scan to discover non-production instances related to a production instance and connect instances using the Multi-Instance Setup application \(sn-app-amf\). Multi-Instance Setup supports cross-instance communication with other ServiceNow applications and provides a single interface to view and monitor connections.
 
 -   **AI indicators now visible in Core UI lists**
 
@@ -655,6 +659,8 @@ Brazil
 -   **Activation information**
 
 The ServiceNow AI Platform core features are active by default.
+
+To use Multi-Instance Setup, you must install it from the ServiceNow Store and activate the AMF Core plugin. For more information, see [Install Multi-Instance Setup and AMF Core](https://www.servicenow.com/docs/access?context=install-multi-instance-setup&family=brazil&ft:locale=en-US).
 
 
 </td></tr></tbody>

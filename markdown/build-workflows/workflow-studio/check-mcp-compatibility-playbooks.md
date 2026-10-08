@@ -8,7 +8,7 @@ product: Workflow Studio
 classification: workflow-studio
 topic_type: task
 last_updated: "2026-09-21"
-reading_time_minutes: 2
+reading_time_minutes: 1
 keywords: [MCP, playbooks, compatibility, tools]
 breadcrumb: [Playbooks as an MCP tool, Playbooks, Workflow Studio, Build workflows]
 ---
@@ -23,17 +23,7 @@ Role required: workflow\_mcp\_tool\_admin
 
 ## About this task
 
-When you try to [Add a playbook as an MCP tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/add-playbook-as-mcp-tool.md) but are unable to see a playbook in the MCP tool list, perform this procedure to verify that the playbook is compatible. You can add only compatible playbooks as an MCP tool to an MCP server.
-
-A playbook must meet the following conditions to be compatible:
-
--   The playbook must be active and published.
--   The playbook must contain only the supported activity types.
--   No activities in the playbook have delayed start.
--   All form fields in the playbook are of primitive types.
--   All subflows and actions used in the playbook are MCP compatible.
-
-For more information about compatibility, see [Playbooks as an MCP tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/playbook-as-mcp-tool.md).
+When you try to [Add a playbook as an MCP tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/add-playbook-as-mcp-tool.md) but are unable to see a playbook in the MCP tool list, perform this procedure to verify that the playbook is compatible.
 
 ## Procedure
 
@@ -45,14 +35,14 @@ For more information about compatibility, see [Playbooks as an MCP tool](https:/
 
 4.  If you don't see your playbook in the list, run a new compatibility scan.
 
-    |Choice|Description|
+    |Option|Description|
     |------|-----------|
     |**__Full scan compatibility check__**|Scans all the playbooks in your instance for compatibility. Select this option when the table is empty and you run the compatibility check for the first time.|
     |**__Quick scan compatibility check__**|Runs the compatibility scan only on new playbooks. Select this option if you import playbooks to your instance.|
 
 5.  Check the **Compatibility Status** column of the playbook.
 
-    For incompatible playbooks, open the record to see the incompatible reason. After you update and republish the playbook, the compatibility status updates automatically.
+    For incompatible playbooks, open the record to see the incompatible reason. After you update and republish the playbook, the compatibility status updates automatically. For more information about compatibility, see [Playbooks as an MCP tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio/playbook-as-mcp-tool.md).
 
     When the playbook compatibility status is **Compatible**, you can add it to an MCP server as an MCP tool.
 

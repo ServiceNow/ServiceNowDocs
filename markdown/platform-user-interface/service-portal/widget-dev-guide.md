@@ -8,7 +8,7 @@ product: Service Portal
 classification: service-portal
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 5
+reading_time_minutes: 6
 breadcrumb: [Service Portal, Configure UIs and portals, Configure user experiences]
 ---
 
@@ -123,7 +123,7 @@ The client script:
 
 When you create a widget, a record is created in the sp\_widget table. However, you can use the Widget Editor in Service Portal Configuration as your scripting environment. The Widget Editor is a full page application similar to an IDE. You can show the parts of the widget you want to edit and hide the rest, while previewing your changes in real time.
 
-**Note:** For server-side scripts, you can turn on using the ECMAScript 2021 \(ES12\) JavaScript mode if your application uses ES5 Standards mode or Compatibility mode. Scripts in applications with the JavaScript mode set to ECMAScript 2021 \(ES12\) use ECMAScript 2021 \(ES12\) by default. For more information, see [Turn on ECMAScript 2021 \(ES12\) mode for a script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/scripts/set-es12-mode-scripts.md).
+**Note:** For server-side scripts, you can turn on using the ECMAScript 2021 \(ES12\) JavaScript mode if your application uses ES5 Standards mode or Compatibility mode. Scripts in applications with the JavaScript mode set to ECMAScript 2021 \(ES12\) use ECMAScript 2021 \(ES12\) by default. For more information, see .
 
 \[Omitted image "basic-widget.png"\] Alt text: Widget editor IDE
 
@@ -151,6 +151,8 @@ Use the `${}` or `gs.getMessage()` syntax in the **HTML Template**, **Client Scr
 You can use widgets in Service Portal to replace UI Macros. If your Service Catalog form includes a UI Macro that references other fields or variables on the form, you can create a widget to hold reusable code and embed it within the Service Catalog form. Use special syntax to access any variable fields on the form.
 -   **[Widget troubleshooting guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/widget-troubleshooting-guide.md)**  
 Use the following tools to investigate and resolve unexpected behavior in your custom Service Portal widgets.
+-   **[Embeddables in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/embeddables-service-portal.md)**  
+Embeddables are UI Builder components that you can embed into Service Portal pages, external websites, and other web interfaces. Using embeddables, you can reuse existing components across multiple platforms without requiring an AngularJS rebuild. Embeddables enable low-code configuration of components, reducing development time and improving integration flexibility across your ServiceNow® ecosystem.
 
 **Parent Topic:**[Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/service-portal/c_ServicePortal.md)
 

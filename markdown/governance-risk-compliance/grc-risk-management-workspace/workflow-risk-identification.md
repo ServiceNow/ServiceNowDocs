@@ -71,7 +71,7 @@ The risk identification record moves through the following states:
 
 After the risk identification configuration moves to the Retired state, the configuration becomes invalid and risk identification records are not created for related entities.
 
-**Note:** Before a risk identification record is retired, a confirmation dialog box titled `Retire this risk identification?` appears with the message `This action will cancel the assessments in progress. You will need to restart from the beginning.` Select **Retire** to confirm, or **Cancel** to keep the record active.
+**Warning:** Before a risk identification record is retired, a confirmation message is displayed. Select **Retire** to confirm, or **Cancel** to keep the record active.
 
 In terms of its life cycle, a risk identification record goes through the following states:
 

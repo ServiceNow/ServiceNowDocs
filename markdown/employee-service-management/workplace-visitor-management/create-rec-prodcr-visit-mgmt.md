@@ -8,7 +8,7 @@ product: Workplace Visitor Management
 classification: workplace-visitor-management
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 4
+reading_time_minutes: 2
 breadcrumb: [Configure, Workplace Visitor Management, Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -119,8 +119,6 @@ The record producer is created.
 
 **Parent Topic:**[Configuring Workplace Visitor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-visitor-management/configure-visitor-mgmt.md)
 
-**Parent Topic:**[Configuring Workplace Visitor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-visitor-management/configure-visitor-mgmt.md)
-
 **Related topics**  
 
 
@@ -139,18 +137,4 @@ The record producer is created.
 [Configuring Workplace Visitor Management for Workplace Services Kiosk]()
 
 [Quick start test for Workplace Visitor Management]()
-
-[Install Workplace Visitor Management]()
-
-[Create a visitor policy]()
-
-[Configure a visitor type]()
-
-[Configure visit requirements]()
-
-[Create a visitor badge template]()
-
-[Configure the frequency of email notifications]()
-
-[Configuring Workplace Visitor Management for Workplace Services Kiosk]()
 

@@ -1,12 +1,13 @@
 ---
 title: Authentication release notes
-description: The ServiceNow Authentication application supports many authentication mechanisms that enable you to authenticate the users. See the following sections for release notes by version.The Brazil Early Availability release adds security features for Authentication.
+description: The ServiceNow Authentication application supports many authentication mechanisms that enable you to authenticate the users. See the following sections for release notes by version.The Brazil Early Availability release adds security features for Authentication.The Brazil Patch 1 release adds step-up authentication for AI voice agents in Authentication.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/authentication-rn-static.html
 release: brazil
 topic_type: topic
 last_updated: "2026-09-10"
-reading_time_minutes: 4
+reading_time_minutes: 5
+keywords: [step-up authentication, AI voice agent, caller verification]
 breadcrumb: [ServiceNow AI Platform security release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
@@ -16,6 +17,7 @@ The ServiceNow® Authentication application supports many authentication mechani
 
 ## About Authentication
 
+-   Require a caller who is already authenticated to complete an additional challenge before reaching an AI voice agent that handles a sensitive request, such as a password reset or access to bank account details.
 -   Simplify the login experience by crafting login policies that present relevant methods based on user context with the Policy-based experience - Identifier-first login experience.
 -   Act before SSO is disrupted with home page banner alerts when SAML SP signing or encryption keystores are nearing or past expiry.
 -   Authenticate callers in AI voice agent sessions using a one-time passcode delivered to a registered email address, as a standalone, primary, or secondary factor.
@@ -98,5 +100,16 @@ The Brazil Early Availability release adds security features for Authentication.
 -   **KBA for AI voice service**
 
     Use the KBA setup to configure Knowledge-Based Authentication \(KBA\) for the voice channel. Choose from base system questions at both the identification level and the authentication level. AI voice service mappings are populated automatically from your Assistant Designer selection, so manually mapping voice services is no longer a mandatory step in the KBA setup.
+
+
+## Brazil Patch 1
+
+The Brazil Patch 1 release adds step-up authentication for AI voice agents in Authentication.
+
+### What's new
+
+-   **[Step-up authentication for AI voice agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-security/step-up-authentication.md)**
+
+    Require a caller who is already authenticated to complete an additional challenge before reaching an AI voice agent that handles a sensitive request, such as a password reset or access to bank account details. Select Okta Verify push notification, SMS verification code, or authenticator app time-based one-time password \(TOTP\) as the step-up factor on the Assistant Designer's Caller verification page.
 
 

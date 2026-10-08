@@ -23,6 +23,8 @@ Platform Analytics has both unique roles and roles from other applications that 
 The following tables relate to Platform Analytics data visualizations and dashboards and can be accessed through scripts.
 -   **[Platform Analytics UI artifacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/platform-analytics-ui-artifacts.md)**  
 Core UI and Next Experience UI artifacts are located under Platform Analytics Administration. Users with the admin role can navigate from these components to the associated tables.
+-   **[Platform Analytics experience properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/pae-properties.md)**  
+Several properties affect data visualizations and the ability to create Core UI artifacts in the Platform Analytics experience.
 
 **Parent Topic:**[Platform Analytics experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/par-workspace.md)
 

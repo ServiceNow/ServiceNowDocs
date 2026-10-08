@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-supplierlifecycleoperations-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 17
+last_updated: "2026-10-08"
+reading_time_minutes: 25
 breadcrumb: [Products combined by family]
 ---
 
@@ -91,9 +91,9 @@ Xanadu
 
 </td><td>
 
--   **[Now Assist for Supplier Lifecycle Operations \(SLO\)](https://www.servicenow.com/docs/access?context=now-assist-slo&family=xanadu&ft:locale=en-US)**
+-   **[ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)](https://www.servicenow.com/docs/access?context=now-assist-slo&family=xanadu&ft:locale=en-US)**
 
-With the Now Assist for Supplier Lifecycle Operations \(SLO\) application, supplier managers and fulfillers can summarize the details of supply-related records to keep them informed about their progress and action items.
+With the ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) application, supplier managers and fulfillers can summarize the details of supply-related records to keep them informed about their progress and action items.
 
 -   **[Supplier Relationship and Performance Management](https://www.servicenow.com/docs/access?context=supplier-performance-management-overview&family=xanadu&ft:locale=en-US)**
     -   Manage supplier relationship and performance to optimize the value and quality of the products and services delivered by suppliers.
@@ -133,13 +133,72 @@ Supplier managers can access their emails within the Source-to-Pay Workspace fro
 Supplier contacts receive the emails and they can perform the assigned tasks directly via email without logging in to the Supplier Collaboration Portal.
 
 
+ -   **[Supplier Operations](https://www.servicenow.com/docs/access?context=supplier-operations&family=yokohama&ft:locale=en-US)**
+
+Supplier Operations ​ provides support for advanced case management capabilities to handle key supplier lifecycle events such as onboarding, offboarding, and ongoing operations. It includes the ability to resolve cases via Playbooks for a structured and consistent approach.
+
+-   **[Supplier Payment Optimization](https://www.servicenow.com/docs/access?context=supplier-pmnt-opt&family=yokohama&ft:locale=en-US)**
+
+Supplier managers can identify, prioritize, and track suppliers with high potential for accepting credit card payments.
+
+    -   Supplier Managers can initiate credit card enablement cases, enabling suppliers to use a credit card as their preferred payment method.
+    -   They can initiate credit card enablement journey for new or existing suppliers after checking their propensity scores \(currently requires manual updates\).
+    -   They can view the saving estimates associated with the card for a given supplier using the **Savings calculator** tool. They can also view the calculation details of the savings estimator formulas.
+
+ -   **[Relish Integration for Supplier Lifecycle Operations](https://www.servicenow.com/docs/access?context=relish-slo-connector&family=yokohama&ft:locale=en-US)**
+
+Supplier managers can conduct sanction screening, validate banking details change requests, and supplier location change requests via Relish integration.
+
+-   **[Mapping multiple internal stakeholders to a supplier](https://www.servicenow.com/docs/access?context=manage-internal-stakeholders&family=yokohama&ft:locale=en-US)**
+
+This feature enhances supplier governance in SLO by enabling the mapping of multiple internal stakeholders such as legal, business, technical, and risk teams to suppliers, improving visibility and management of supplier relationships.
+
+-   **[Universal Request](https://www.servicenow.com/docs/access?context=universal-request&family=yokohama&ft:locale=en-US)**
+
+Supplier contacts can create generic cases by selecting **Request Help** in the Supplier Collaboration Portal, if they can't find the relevant search results or are unsure of which department to contact for help. These cases are triaged and routed internally to appropriate case types. Universal requests remove ambiguity and improve efficiency for both suppliers and internal operations.
+
+-   **[Overall supplier dashboard](https://www.servicenow.com/docs/access?context=overall-supplier-db&family=yokohama&ft:locale=en-US)**
+
+The overall supplier performance dashboard provides detailed information about overall supplier scores, count of all active suppliers, their all-time spend, and overall risk ratings. It also includes the Supplier Insights section and the Action plans section showing relevant details.
+
+
+ -   **[ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)](https://www.servicenow.com/docs/access?context=now-assist-slo&family=yokohama&ft:locale=en-US)**
+    -   View the summarized details of supply-related cases within the **Now Assist Panel** to keep the supplier managers and fulfillers informed about their progress and action items.
+    -   Case summarization supports multiple languages.
+-   **[AI driven supplier onboarding](https://www.servicenow.com/docs/access?context=supplier-onboarding-agentic-workflow&family=yokohama&ft:locale=en-US)**
+
+Use agentic AI in Now Assist for Supplier Lifecycle Operations \(SLO\) to streamline the supplier onboarding process by automating supplier registration.
+
+
+ -   **[Supplier Relationship and Performance Management](https://www.servicenow.com/docs/access?context=supplier-performance-management-overview&family=yokohama&ft:locale=en-US)**
+    -   **Flexible KPI tracking**: Supplier managers can create KPIs directly without predefined templates, which results in simplified KPI creation, enabling faster and more efficient performance tracking.
+    -   **Enhanced KPI management**: Improved threshold setup, error messaging, and dashboard visualizations for KPI tracking.
+    -   **Multiple dimensions for KPI tracking**: Create supplier-level and contract-level KPIs using KPI templates to measure supplier performance. Contract-level KPIs are created under supplier-level KPIs. The overall KPI value of a supplier is calculated based on the latest aggregated values of all the related contract-level KPIs.
+    -   **Action Plans for under-performing KPIs**: Address performance gaps by creating Action Plans linked to the under-performing KPIs, enabling visual tracking of milestones and tasks. The tasks triggered by the Action Plans are assigned to the suppliers and they can see and complete those tasks in the Supplier Collaboration Portal, streamlining the overall KPI remediation process.
+    -   **Automated KPIs**: Enables automated data collection, KPI template modifications, and calculation at supplier and contract levels. The automated KPI system integrated into action plans can be used for comprehensive performance monitoring.
+-   **[Many-to-many \(M2M\) mapping between supplier contact and suppliers](https://www.servicenow.com/docs/access?context=enable-m2m-supplier-contacts&family=yokohama&ft:locale=en-US)**
+    -   Supplier contacts can manage multiple supplier records under a single login, with the ability to toggle between records in the Supplier Collaboration Portal. One supplier contact can be the contact for multiple suppliers, provided the suppliers share a parent-subsidiary relationship.
+    -   M2M mapping between supplier contact and suppliers also enables supplier contacts to register using a company name across different email domains, thus simplifying onboarding for distributed supplier teams.
+    -   M2M mapping between supplier contact and suppliers is available from the Xanadu December 2024 release onwards. To enable this feature, see [Enable M2M mapping between supplier contact and suppliers](https://www.servicenow.com/docs/access?context=enable-m2m-supplier-contacts&family=yokohama&ft:locale=en-US).
+
 </td></tr><tr><td>
 
 Zurich
 
 </td><td>
 
--   **[Automated KPI data collection](https://www.servicenow.com/docs/access?context=create-auto-kpi-template&family=zurich&ft:locale=en-US)**
+-   **[Smart Assessments](https://www.servicenow.com/docs/access?context=slo-campaign-mgmt&family=zurich&ft:locale=en-US)**
+
+Supplier managers can use the segmentation rules and assessment templates to create smart assessments in bulk for users. Smart assessments provide a survey-like experience with enhanced UI capabilities for both internal and external users. This feature utilizes the capabilities of the Smart Assessment Engine application.
+
+-   **[Emails view for supplier managers](https://www.servicenow.com/docs/access?context=enabling-emails-view-for-contacts&family=zurich&ft:locale=en-US)**
+
+Supplier managers can access their emails within the Source-to-Pay Workspace from the **Emails** tab in the case, task, and supplier details pages respectively. Email actions are reflected, incomplete email errors are handled, and email-related activities can be summarized from the workspace.
+
+Supplier contacts receive the emails and they can perform the assigned tasks directly via email without logging in to the Supplier Collaboration Portal.
+
+
+ -   **[Automated KPI data collection](https://www.servicenow.com/docs/access?context=create-auto-kpi-template&family=zurich&ft:locale=en-US)**
 
 This feature enables automated data collection, KPI template modifications, and calculation at supplier and contract levels. The automated KPI system integrated into action plans can be used for comprehensive performance monitoring.
 
@@ -156,13 +215,65 @@ Supplier contacts can create generic cases by selecting **Request Help** in the 
 The overall supplier performance dashboard provides detailed information about overall supplier scores, count of all active suppliers, their all-time spend, and overall risk ratings. It also includes the Supplier Insights section and the Action plans section showing relevant details.
 
 
+ -   **[Supplier Operations](https://www.servicenow.com/docs/access?context=supplier-operations&family=zurich&ft:locale=en-US)**
+
+Supplier Operations ​ provides support for advanced case management capabilities to handle key supplier lifecycle events such as onboarding, offboarding, and ongoing operations. It includes the ability to resolve cases via Playbooks for a structured and consistent approach.
+
+-   **[Supplier Payment Optimization](https://www.servicenow.com/docs/access?context=supplier-pmnt-opt&family=zurich&ft:locale=en-US)**
+
+Supplier managers can identify, prioritize, and track suppliers with high potential for accepting credit card payments.
+
+    -   Supplier Managers can initiate credit card enablement cases, enabling suppliers to use credit card payments as their preferred payment method.
+    -   They can initiate credit card enablement journey for new or existing suppliers after checking their propensity scores \(currently requires manual updates\).
+    -   They can view the saving estimates associated with the card for a given supplier using the **Savings calculator** tool. They can also view the calculation details of the savings estimator formulas.
+-   **[Relish Integration](https://www.servicenow.com/docs/access?context=relish-slo-connector&family=zurich&ft:locale=en-US)**
+
+Supplier managers can conduct sanction screening, validate banking details change requests, and supplier location change requests via Relish integration.
+
+
 </td></tr><tr><td>
 
 Australia
 
 </td><td>
 
--   **[Smart Assessments](https://www.servicenow.com/docs/access?context=slo-campaign-mgmt&family=australia&ft:locale=en-US)**
+-   **[FedEx Dataworks Integration](https://www.servicenow.com/docs/access?context=fedex-dataworks-overview&family=australia&ft:locale=en-US)**
+
+FedEx Dataworks combines unmatched, proprietary real-world data signals with advanced analytics to power ServiceNow's Source-to-Pay workflows. Relationship managers can use these signals during supplier onboarding to validate suppliers, evaluate risk, and benchmark supplier performance — without leaving the supplier workspace.
+
+The FedEx Dataworks integration includes the following features:
+
+    -   **Supplier validation in supplier onboarding Registration stage**: Verifies a supplier's details against FedEx Dataworks records to establish a FedEx Dataworks Supplier ID. This step is part of the supplier onboarding playbook and is required before risk assessment or performance benchmarking data can be retrieved.
+    -   **FedEx Dataworks risk assessment in supplier onboarding Qualification stage**: Returns risk factor ratings for a matched supplier, covering customs risk, restricted country screening, and dangerous goods risk. Risk assessment is available in the supplier onboarding playbook after a successful supplier match.
+    -   **Supplier performance benchmarking**: Retrieves FedEx Dataworks logistics performance metrics for a matched supplier, displayed in a dedicated section on the supplier profile page.
+-   **[AI L1 SLO Service Desk Specialist](https://www.servicenow.com/docs/access?context=ai-l1-slo-service-desk-specialist&family=australia&ft:locale=en-US)**
+
+The AI L1 SLO Service Desk Specialist is a fully autonomous help desk automation solution that resolves supplier inquiries without manual intervention from a fulfiller.
+
+For general inquiry cases, the AI L1 SLO Service Desk Specialist retrieves relevant information from published knowledge base articles and the FSC Common KG Tags added under the Enterprise knowledge graph to investigate the issue.
+
+-   **[Generate a knowledge article from a closed supplier case](https://www.servicenow.com/docs/access?context=generate-article-case&family=australia&ft:locale=en-US)**
+
+Generate, review, and publish knowledge articles from closed supplier cases using ServiceNow Otto for SLO.
+
+-   **[Generate a knowledge article from multiple closed cases](https://www.servicenow.com/docs/access?context=generate-article-multiple-cases&family=australia&ft:locale=en-US)**
+
+Generate, review, and publish a knowledge article from multiple closed supplier cases using ServiceNow Otto for SLO.
+
+-   **[Verify tax information change request using Relish](https://www.servicenow.com/docs/access?context=validate-tax-information&family=australia&ft:locale=en-US)**
+
+Relish is a third-party supplier intelligence platform that validates supplier data while working on supplier cases.
+
+When a tax information change request is assigned to a supplier manager and they start working on it, they can verify the tax details using Relish.
+
+-   **[View supplier sanction status using Relish](https://www.servicenow.com/docs/access?context=view-supplier-sanction-status&family=australia&ft:locale=en-US)**
+
+Supplier managers can view the sanction status and last sanction check date for suppliers from the Manage Suppliers list.
+
+These fields in the supplier list are available regardless of whether Relish is installed or not, but are updated only when Relish is integrated. If Relish is not integrated, users can edit the field manually if they want.
+
+
+ -   **[Smart Assessments](https://www.servicenow.com/docs/access?context=slo-campaign-mgmt&family=australia&ft:locale=en-US)**
 
 Supplier managers can use the segmentation rules and assessment templates to create smart assessments in bulk for users. Smart assessments provide a survey-like experience with enhanced UI capabilities for both internal and external users. This feature utilizes the capabilities of the Smart Assessment Engine application.
 
@@ -478,6 +589,8 @@ Yokohama
 Install Supplier Lifecycle Operations by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 
+**Important:** Supplier Lifecycle Operations is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Zurich
@@ -488,6 +601,8 @@ Zurich
 
 Install Supplier Lifecycle Operations by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
+
+**Important:** Supplier Lifecycle Operations is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 
@@ -500,13 +615,24 @@ Australia
 Install Supplier Lifecycle Operations by requesting it from the ServiceNow Store. 
 
 
+**Important:**
+
+-   The plugin Supplier Operations \(com.snc.sn\_so\) **must** be installed after upgrading to Supplier Lifecycle Operations Australia release. For more information, see [Install Supplier Operations](https://www.servicenow.com/docs/access?context=install-supplier-ops&family=australia&ft:locale=en-US).
+-   The Supplier Lifecycle Operations plugin \(com.snc.sn\_supplier\_mgmt\) is renamed to Supplier Case Management. For more information, see [Supplier Case Management](https://www.servicenow.com/docs/access?context=supplier-case-management&family=australia&ft:locale=en-US).
+-   Supplier Lifecycle Operations is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Brazil
 
 </td><td>
 
-No updates for this release.
+-   **Activation information**
+
+Request Supplier Lifecycle Operations from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=brazil&ft:locale=en-US).
+
+
+**Note:** Supplier Lifecycle Operations is available in the ServiceNow Store.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -826,7 +952,19 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+Supplier Lifecycle Operations enables you to onboard suppliers quickly, effortlessly manage supplier data, add key supplier contacts, monitor supplier performance, and enhance the productivity of the teams that engage with suppliers.
+
+ Supplier Lifecycle Operations provides the following benefits:
+
+-   Faster supplier onboarding: View details about new suppliers and onboard suppliers quickly using onboarding workflows and start purchasing goods and services.
+-   Automatically import supplier information: Supplier Lifecycle Operations integrates with the supplier Intelligence platform, Craft, which enables you to import and view all the important supplier details.
+-   Supplier self-service: Enhance the supplier experience by enabling suppliers to complete onboarding tasks, get their questioned answered, and fulfill requests, such as viewing open purchase orders and submitting invoices.
+-   Supplier data management: Provide flexibility to suppliers to manage and update their own data, ensuring that the supplier data is current and up to date.
+-   Supplier case and contact management: Create and manage supplier cases, add, and manage supplier contacts.
+-   Minimize risk during supplier onboarding: Identify and assess potential supplier risks when onboarding new suppliers.
+-   Manage supplier relationship and performance: Monitor and assess supplier performance by setting up criteria for measuring supplier performance though KPIs and thresholds.
+
+ For an overview of Supplier Lifecycle Operations capabilities, see [Supplier Lifecycle Management](https://www.servicenow.com/docs/access?context=supp-mgmt-landing-page&family=brazil&ft:locale=en-US).
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-xanadu-brazil/rn-combined-intro.md)

@@ -19,21 +19,21 @@ The value of AI capabilities is realized when users can access them through the 
 
 ## ServiceNow Otto context menu
 
-The ServiceNow Otto context menu provides an additional interaction pattern that allows users to generate record summaries and answer queries on demand directly from record views, without opening the ServiceNow Otto panel.
+The ServiceNow Otto context menu provides an additional interaction pattern for record views. Users can generate record summaries and answer queries on demand, without opening the ServiceNow Otto panel.
 
 For more information, see [ServiceNow Otto context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-write-overview.md).
 
 ## ServiceNow Otto for Mobile
 
-ServiceNow Otto for Mobile brings AI capabilities to users on mobile devices, allowing the same generative AI experiences available on desktop to be accessible wherever your users are working.
+ServiceNow Otto for Mobile brings AI capabilities to users on mobile devices, making the same generative AI experiences available on desktop accessible wherever your users are working.
 
 For more information, see [ServiceNow Otto for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/now-assist-mobile-landing.md).
 
 -   **[Chatting with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/platai-otto-panel-va-chat.md)**  
 ServiceNow Otto is the conversational AI experience across the ServiceNow AI Platform. ServiceNow Otto provides a natural language interface that makes it easier to look for information, complete a task, get help with work, or interact with AI-powered experiences.
--   **[Create assistants and conversations with Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/platai-assistant-designer.md)**  
-Assistant Designer is the central workspace for creating, configuring, testing, and managing assistants and their conversational experiences. It gives administrators a single place to define what an assistant knows, what it can do, how it behaves, and where it is deployed.
--   **[AI indicator on form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/platai-ai-indicator-form-fields.md)**  
+-   **[Assistants and conversations in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/platai-assistant-designer.md)**  
+Assistant Designer is the central workspace for creating, configuring, testing, and managing assistants and their conversational experiences. Administrators use it as a single place to define an assistant's knowledge sources, capabilities, behavior, and deployment channels.
+-   **[AI indicators on form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/platai-ai-indicator-form-fields.md)**  
 The AI indicator is a badge that identifies form fields containing content generated or updated by an AI agent in Core UI and configurable workspaces.
 
 **Parent Topic:**[Enable AI Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-products.md)

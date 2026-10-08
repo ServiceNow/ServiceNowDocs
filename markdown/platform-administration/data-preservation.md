@@ -29,6 +29,8 @@ Data preservers typically preserve system settings and themes, such as:
 
 **Note:** A clone does not support preserving data from a database view.
 
+Preserving a parent table also preserves all of its child tables. For clones between MariaDB instances, child tables aren't automatically preserved and must be manually added to the preserver list.
+
 Don't use data preservers to transfer large sets of data, such as user groups. If you must preserve table data, such as users, groups, and roles, consider exporting the records to a file and importing them after cloning.
 
 ## Data preservers for Multi-SSO

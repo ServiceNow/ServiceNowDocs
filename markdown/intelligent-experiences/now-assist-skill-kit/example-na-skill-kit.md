@@ -38,7 +38,7 @@ After you create the skill, you must configure the skill settings.
 
 1.  Select **Configurations**.
 2.  Select the model that you want to use. For this example, you can select `llm_generic`.
-3.  Select a temperature between 0-1 to determine the randomness and creativity of the output, such as `0.2`.
+3.  Select a temperature between 0 and 1 to determine the randomness and creativity of the output, such as `0.2`.
 
 ## Develop the prompt
 
@@ -50,15 +50,15 @@ Select the **Inputs** for the skill. For this example, the record is selected as
 
 \[Omitted image "nask-add-skill-input.png"\] Alt text: Skill input modal for AI Skill Kit.
 
-Select insert inputs for the prompt.
+Select **Insert inputs** for the prompt.
 
-\[Omitted image "nask-insert-inputs.png"\] Alt text: Prompt page for AI Skill Kit with the Insert iIputs button outlined in red.
+\[Omitted image "nask-insert-inputs.png"\] Alt text: Prompt page for AI Skill Kit with the Insert inputs button outlined in red.
 
 For this example, the following is used:
 
 `Parent incident short description: {{incident.short_description}} Parent incident description: {{incident.description}} Here are the child incident details: {{ChildIncidents.output}}`
 
-Select the tools for the skill. For this example, select Flow Action and the IncidentDetailsFetcher flow resource.
+Select the tools for the skill. For this example, select **Flow Action** and the IncidentDetailsFetcher flow resource.
 
 \[Omitted image "nask-add-tool-example.png"\] Alt text: Add tool modal in AI Skill Kit.
 
@@ -73,7 +73,7 @@ The next step is to configure the skill deployment options. These options enable
 
 ## Test and publish the skill
 
-It is important to test your skill prompt to ensure that the correct type of data is being pulled in.
+Test your skill prompt to verify that it pulls in the correct type of data.
 
 1.  Select **Run tests**.
 2.  Choose a record or incident.
@@ -81,9 +81,9 @@ It is important to test your skill prompt to ensure that the correct type of dat
 
 Look at the response.
 
-To see the data that was brought into the prompt from your skill inputs and tools, you can look at the grounded prompt tab.
+To see the data that was brought into the prompt from your skill inputs and tools, you can look at the **Grounded prompt** tab.
 
-If everything looks good, select **Finalize prompt**. After you finalize the prompt and you are ready to implement it, select **Publish**.
+If the output is correct, select **Finalize prompt**. After you finalize the prompt and you are ready to implement it, select **Publish**.
 
 ## Activate the skill
 

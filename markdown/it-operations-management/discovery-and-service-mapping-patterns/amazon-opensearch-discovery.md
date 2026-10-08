@@ -26,7 +26,7 @@ OpenSearch is an open-source search and analytics engine for use cases such as l
     -   `https://es.{region}.amazonaws.com/2021-01-01/opernsearch/domain-info{"DomainNames":[]}`
     -   `https://tagging.{region}.amazonaws.com {"ResourceTypeFilters":[]}`
 
-## Verify the REST API Permissions
+## Verify the REST API permissions
 
 Download the [Cloud Discovery patterns spreadsheet](https://downloads.docs.servicenow.com/resource/enus/api/servicenow-discovery-patterns-api-details.xlsx) so you can grant user permissions required for running the Discovery patterns. In addition to permissions, the spreadsheet also includes useful information such as pattern names, types, CI Classes, and links to vendor documentation. New patterns are available quarterly, so check periodically to be sure you have the latest version of the spreadsheet.
 

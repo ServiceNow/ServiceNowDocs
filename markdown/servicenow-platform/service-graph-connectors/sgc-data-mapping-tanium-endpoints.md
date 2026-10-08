@@ -1,6 +1,6 @@
 ---
-title: Data mapping for Service Graph Connector for Tanium Endpoints
-description: Data from the Tanium data sources is mapped and transformed into the ServiceNow CMDB configuration item \(CI\) class definitions using the Robust Transform Engine \(RTE\). Data is inserted into the ServiceNow CMDB using the Identification and Reconciliation Engine \(IRE\).
+title: Data mapping for Service Graph Connector for Tanium Atlas Endpoints
+description: Data from the Tanium Atlas data sources is mapped and transformed into the ServiceNow CMDB configuration item \(CI\) class definitions using the Robust Transform Engine \(RTE\). Data is inserted into the ServiceNow CMDB using the Identification and Reconciliation Engine \(IRE\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/servicenow-platform/service-graph-connectors/sgc-data-mapping-tanium-endpoints.html
 release: brazil
@@ -9,18 +9,18 @@ classification: service-graph-connectors
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Tanium Endpoints, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Tanium Atlas Endpoints, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Data mapping for Service Graph Connector for Tanium Endpoints
+# Data mapping for Service Graph Connector for Tanium Atlas Endpoints
 
-Data from the Tanium data sources is mapped and transformed into the ServiceNow CMDB configuration item \(CI\) class definitions using the Robust Transform Engine \(RTE\). Data is inserted into the ServiceNow CMDB using the Identification and Reconciliation Engine \(IRE\).
+Data from the Tanium Atlas data sources is mapped and transformed into the ServiceNow CMDB configuration item \(CI\) class definitions using the Robust Transform Engine \(RTE\). Data is inserted into the ServiceNow CMDB using the Identification and Reconciliation Engine \(IRE\).
 
-When you complete setting up the connection, you can configure the integration to periodically pull data from Tanium.
+When you complete setting up the connection, you can configure the integration to periodically pull data from Tanium Atlas.
 
 **Important:** The Service Graph Connector for Tanium Endpoints populates the Computer class with user-facing endpoints, and doesn't import data from the Server child class. Use this connector if you don't require Server data. If you require Server data, use the Service Graph Connector for Tanium.
 
-The following table lists the data sources, the staging tables, and the target tables as CMDB CI classes for the Service Graph Connector for Tanium Endpoints.
+The following table lists the data sources, the staging tables, and the target tables as CMDB CI classes for the Service Graph Connector for Tanium Atlas Endpoints.
 
 <table id="table_data_mapping" class="custom-rows"><thead><tr><th class="filter">
 

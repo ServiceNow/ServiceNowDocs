@@ -1,28 +1,32 @@
 ---
 title: Order exception AI voice agent
-description: This AI voice agent helps customers request faster delivery of an order.
+description: This AI voice agent helps customers change an order after they place it. Customers can request faster delivery, a higher quantity, or a different shipping location, in any combination, for one order line. The agent creates one case for the requested changes and can connect the customer to a live agent.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/om-ord-order-exception-voice-ai-voice-agent.html
 release: brazil
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Order Management AI agents, Order Management, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
+breadcrumb: [Order Management AI agents, Sales CRM AI agents, Sales CRM, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Order exception AI voice agent
 
-This AI voice agent helps customers request faster delivery of an order.
+This AI voice agent helps customers change an order after they place it. Customers can request faster delivery, a higher quantity, or a different shipping location, in any combination, for one order line. The agent creates one case for the requested changes and can connect the customer to a live agent.
 
 ## Workflow
 
-The agent validates order numbers, checks if expedited options exist, and either processes the expedite request with updated delivery details or creates an order case.
+The agent captures every change the customer asks for on one order line, validates new shipping locations, creates one case, and hands off to a live agent when it can't complete the request.
 
-1.  Retrieve and confirm the order number.
-2.  Validate the order and confirm the details.
-3.  Check if expedited shipping is available for the selected order and retrieve the earliest possible delivery date. If it can be expedited, request approval or date selection from the user.
-4.  If the order cannot be expedited, summarize the details and create an order case.
-5.  Share the case details with the user.
+1.  Listen to the customer's request and identify each change they want: faster delivery, a higher quantity, a different shipping location, or any combination of these.
+2.  Retrieve the order by product name, order number, or a list of the customer's recent orders, and confirm the order with the customer.
+3.  Retrieve the order line items and confirm the line to change. The agent handles one line per case.
+4.  Ask only for missing values, such as the new quantity, the required delivery date, or the new shipping location.
+5.  Validate a new shipping location and confirm the matching address with the customer.
+6.  Ask whether the customer wants to change anything else on the same line before submitting.
+7.  Read back all requested changes for a final confirmation, and create one order case for them.
+8.  Share the case number and a summary of the original and requested values.
+9.  End the conversation. If the customer asks for more changes after the case is created, or the agent can't complete the request after three attempts or a tool failure, transfer the customer to a live agent with the case and conversation summary.
 
 <table><thead><tr><th>
 
@@ -70,6 +74,10 @@ Create order case
 
 Get Customer Orders Tool
 
+Get Order Line Items
+
+Validate Address
+
 Validate and get order details
 
 
@@ -114,7 +122,7 @@ Used in agentic workflows
 Not applicable.
 
 </td></tr></tbody>
-</table>Learn more about Order Management at [Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/explore-order-management.md).
+</table>Learn more about customer self-service via Business Portal at [Customer self-service for Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/som-self-service-business-portal.md).
 
 **Parent Topic:**[Order Management AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/om-ai-agents-overview.md)
 

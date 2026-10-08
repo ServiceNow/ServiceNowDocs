@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/security-management/sem-configu
 release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 8
+reading_time_minutes: 10
 keywords: [Remediation target, Recalculate remediation target date]
 breadcrumb: [Configure rules to manage findings, Implement, Unified Security Exposure Management, Security Operations]
 ---
@@ -81,7 +81,7 @@ Recalculate from risk change date and set to earliest target date only when risk
 If the risk increases: Compares the existing RT date and the recalculated RT date and applies the earliest date. If the risk decreases: Compares the existing RT date and the recalculated RT date and applies whichever date is later.
 
 </td></tr></tbody>
-</table>For configuration steps, see [Recalculate a remediation target date](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/sem-configure-remediation-target-rules.md).
+</table>For configuration steps, see [Recalculate a remediation target date](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/vulnerability-response/sem-recalculate-rt-date.md).
 
 **Related topics**  
 
@@ -122,9 +122,9 @@ Role required: See [Access control lists \(ACLs\) for administration rules](http
 
 [Create or edit remediation target rules]()
 
-[Recalculate a remediation target date]()
+[Recalculate a remediation target date](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/vulnerability-response/sem-recalculate-rt-date.md)
 
-[Examples of recalculating a remediation target date]()
+[Examples of recalculating a remediation target date](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/vulnerability-response/sem-recalculate-rt-date-examples.md)
 
 ### Recalculate a remediation target date
 
@@ -150,27 +150,39 @@ Role required: admin
 
     For instructions, see [Create or edit a Vulnerability Response remediation target rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/vulnerability-response/create-time-to-remediate-rule.md).
 
-3.  Choose how the system should recalculate the remediation target \(RT\) date when the risk rating changes.
+3.  Select the fields that should trigger recalculation of the remediation target \(RT\) date.
+
+    -   In Workspace and Classic view, use the **Recalculate when any of these fields change** field.
+    -   You can select one or more of the available fields, such as **Risk rating** and **Assignment group**. At least one field must be selected for recalculation to occur.
+4.  Choose how the system should recalculate the remediation target \(RT\) date when the risk rating changeswhen a selected field changes.
 
     -   In Workspace, this option appears in the Recalculate target date section
     -   In Classic view, use the **Target recalculation method** field.
-<table id="choicetable_bb3_q3b_fhc"><thead><tr><th align="left" id="d435512e502">
+<table id="choicetable_bb3_q3b_fhc"><thead><tr><th align="left" id="d437129e533">
 
 Choice
 
-</th><th align="left" id="d435512e505">
+</th><th align="left" id="d437129e536">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d435512e511">
+</th></tr></thead><tbody><tr><td id="d437129e542">
 
 **Default calculation**
 
 </td><td>
 
-Recalculates the RT date using the standard formula \(Target from \(date\) + Target \(days\)\), based on the rule that currently matches the finding's risk rating. The Field change time-based recalculated date is not applied.
+Recalculates the RT date using the standard formula \(Target from \(date\) + Target \(days\)\), based on the rule that currently matches the finding's risk ratingthe finding. The Field change time-based recalculated date is not applied.
 
-</td></tr><tr><td id="d435512e525">
+</td></tr><tr><td id="d437129e559">
+
+**Recalculate from trigger field change date**
+
+</td><td>
+
+Updates the Remediation Target date to: Field change time + Target \(days\) based on the rule that matches the finding's updated values.
+
+</td></tr><tr><td id="d437129e569">
 
 **Recalculate from risk change date**
 
@@ -178,7 +190,15 @@ Recalculates the RT date using the standard formula \(Target from \(date\) + Tar
 
 Updates the Remediation Target date to: Field change time + Target \(days\) based on the new risk rating.
 
-</td></tr><tr><td id="d435512e534">
+</td></tr><tr><td id="d437129e579">
+
+**Recalculate from trigger field change date and always set to the earliest target date**
+
+</td><td>
+
+Compares the existing RT date with Field change time + Target \(days\) and applies the earlier date.
+
+</td></tr><tr><td id="d437129e590">
 
 **Recalculate from risk change date and always set to earliest target date**
 
@@ -186,7 +206,15 @@ Updates the Remediation Target date to: Field change time + Target \(days\) base
 
 Compares the existing RT date with Field change time + Target \(days\) and applies the earlier date.
 
-</td></tr><tr><td id="d435512e543">
+</td></tr><tr><td id="d437129e600">
+
+**Recalculate from risk rating change date and set to the earliest target date only when risk rating increases \(available only when __Risk rating__ is selected as a trigger field\)**
+
+</td><td>
+
+If the risk increases: Compares the existing RT date and the recalculated RT date and applies the earliest date. If the risk decreases: Compares the existing RT date and the recalculated RT date and applies whichever date is farther out \(later\).
+
+</td></tr><tr><td id="d437129e615">
 
 **Recalculate from risk change date and set to earliest target date only when risk rating increases**
 
@@ -195,7 +223,7 @@ Compares the existing RT date with Field change time + Target \(days\) and appli
 If the risk increases: Compares the existing RT date and the recalculated RT date and applies the earliest date. If the risk decreases: Compares the existing RT date and the recalculated RT date and applies whichever date is farther out \(later\).
 
 </td></tr></tbody>
-</table>4.  Select **Save**.
+</table>5.  Select **Save**.
 
 
 #### What to do next
@@ -204,7 +232,7 @@ For more information on remediation target rules, see:
 
 -   [Vulnerability Response remediation target rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/vulnerability-response/time-to-remediate-rules.md)
 -   [Create or edit a Vulnerability Response remediation target rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/vulnerability-response/create-time-to-remediate-rule.md)
--   [Examples of recalculating a remediation target date](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/sem-configure-remediation-target-rules.md)
+-   [Examples of recalculating a remediation target date](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/security-management/vulnerability-response/sem-recalculate-rt-date-examples.md)
 
 #### Examples of recalculating a remediation target date
 
@@ -220,10 +248,13 @@ The following examples show how the system recalculates the remediation target d
 |--------------------|-----------------|---------------------------------------------------------------|----------------|--------------------|------------|
 |Default calculation|
 |Feb 1|Feb 10|Medium \(15 days\) → High \(10 days\)|Feb 16|Feb 11 \(applied\)|Uses the standard formula with the new risk ratings target days, not the Field change time-based formula: Target from \(date\) + New risk Target \(days\) → Feb 1 + 10 = Feb 11.|
+|Recalculate from trigger field change date|
 |Recalculate from risk change date|
 |Feb 1|Feb 10|Medium \(15 days\) → High \(10 days\)|Feb 16|Feb 20 \(applied\)|Uses the recalculation formula: Field change time + Target \(days\) → Feb 10 + 10 = Feb 20.|
+|Recalculate from trigger field change date and always set to the earliest target date|
 |Recalculate from risk change date and always set to earliest target date|
 |Feb 1|Feb 10|Medium \(15 days\) → Low \(30 days\)|Feb 16 \(applied\)|Mar 12|Compares the existing RT date \(Feb 16\) with the recalculated date \(Feb 10 + 30 = Mar 12\) and selects the earliest date → Feb 16.|
+|Recalculate from risk rating change date and set to the earliest target date only when risk rating increases \(available only when **Risk rating** is selected as a trigger field\)|
 |Recalculate from risk change date and set to earliest target date only when risk rating increases|
 |Feb 1|Feb 10|Low \(30 days\) → High \(10 days\)|Mar 3|Feb 20 \(applied\)|Because the risk increased, the system compares the existing RT date \(Mar 3\) with the recalculated date \(Feb 20\) and applies the earlier date → Feb 20.|
 |Feb 1|Feb 10|High \(10 days\) → Low \(30 days\)|Feb 11|Mar 12 \(applied\)|Because the risk decreased, the system compares the existing RT date \(Feb 11\) with the recalculated date \(Feb 10 + 30 = Mar 12\) and applies the later date → Mar 12.|

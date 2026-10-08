@@ -8,7 +8,7 @@ product: Journey Designer
 classification: journey-designer
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [Offboarding knowledge transfer plan generation agentic workflow, AI in Journey designer, Use, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
@@ -69,8 +69,6 @@ The knowledge transfer summary is approved and shared with the manager. The mana
 ## What to do next
 
 The manager can review the knowledge transfer summary approved by the departing employee and share it with successors who will assume their duties.
-
-**Parent Topic:**[Offboarding knowledge transfer plan generation agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/journey-designer/offboarding-knowledge-x-agentic-wf.md)
 
 **Parent Topic:**[Offboarding knowledge transfer plan generation agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/journey-designer/offboarding-knowledge-x-agentic-wf.md)
 

@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Configure, email, reply, Now Assist Admin, console, features, technology, skill, Generative AI, GenAI]
-breadcrumb: [Activate an AI skill, Using Now Assist Admin, AI Admin Hub, Generative AI skills, Enable AI Experiences]
+breadcrumb: [Activate an AI skill, Using AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
 # Configure email reply recommendation in the AI Admin Hub console

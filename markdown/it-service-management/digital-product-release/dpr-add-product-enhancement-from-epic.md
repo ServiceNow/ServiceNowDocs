@@ -24,11 +24,11 @@ Role required: sn\_dpr\_model.product\_manager
 
 Product enhancements can also be generated automatically from the main epics imported into the ServiceNow instance through the DevOps data model if the following settings have been completed:
 
--   The system property **sn\_dpr\_workspace.enhancement\_work\_item\_types** lists the DevOps work item types that can be mapped. By default only epics can be mapped; add other types such as feature or story as needed. For more information, see [Digital Product Release properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/digital-product-release-properties.md).
+-   The system property **sn\_dpr\_workspace.enhancement\_work\_item\_types** lists the DevOps work item types that can be mapped. By default only epics can be mapped; add other types such as feature or story as needed. For more information, see [Digital Product Release system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/digital-product-release-properties.md).
 -   The integration with the external planning tool is done.
 -   The validates version option of the release is set to true.
 -   A project from the Planning tool is linked with the product or service. For more information, see [View and manage data from external tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/dpr-manage-product-ext-tool.md).
--   The system property **sn\_dpr\_workspace.auto\_create\_product\_enhancement\_for\_primary\_epic** is set to **true**. For more information, see [Digital Product Release properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/digital-product-release-properties.md).
+-   The system property **sn\_dpr\_workspace.auto\_create\_product\_enhancement\_for\_primary\_epic** is set to **true**. For more information, see [Digital Product Release system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-service-management/digital-product-release/digital-product-release-properties.md).
 
 ## Procedure
 

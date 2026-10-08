@@ -80,6 +80,8 @@ Multiple scan checks are available in Service Exchange to help you identify issu
 |\[PRO\]\[CON\] OAuth crypto module access policy check|OAuth crypto module has incorrect access policy|Service Exchange Pre-Onboarding|Both|On-Demand|
 |\[PRO\]\[CON\] Provider and Consumer app versions are same on the instance|Service Exchange Provider and Consumer app installed versions are not matching|Service Exchange Pre-Onboarding, Base Configurations, Post-Upgrade, Post-Clone|Both|On-Demand, Scheduled|
 |\[PRO\]\[CON\] Remote System Inbound and Outbound state is valid|Connection's RPS Remote System not in active state|Service Exchange Post-Clone, Connection Health|Both|On-Demand, Scheduled|
+|\[PRO\]\[CON\] RPS subflow execution timeout is above default|RPS inbound or outbound subflow execution timeout remains above the default value after connection recovery|Service Exchange Performance|Both|Scheduled|
+|\[PRO\]\[CON\] Service Exchange Admins group has no users|Service Exchange Admins group does not contain any users|Service Exchange Post-Onboarding|Both|On-Demand|
 |\[PRO\]\[CON\] Skipped files listed in Upgrade History|Skipped files are present in Upgrade History|Service Exchange Post-Upgrade|Both|On-Demand|
 |\[PRO\]\[CON\] Transport inbound queue processing is slow|Some inbound records are taking abnormally long to process|Service Exchange Base Configurations|Both|Scheduled|
 |\[PRO\]\[CON\] Transport System user domain and user\_id is not modified|The sn\_transport\_system user's domain or user\_id was modified|Service Exchange Connection Health|Both|Scheduled|

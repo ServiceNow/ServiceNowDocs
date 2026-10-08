@@ -8,8 +8,8 @@ product: App Engine Management Center
 classification: app-engine-management-center
 topic_type: reference
 last_updated: "2026-09-10"
-reading_time_minutes: 2
-breadcrumb: [Configure Application Intake, Configure, App Engine Management Center, Governing app development, Building applications]
+reading_time_minutes: 3
+breadcrumb: [Configure Application Intake, Configure, App Engine Management Center, Run, AI Workflow Factory, Building applications]
 ---
 
 # Application Intake configuration tasks
@@ -70,4 +70,13 @@ On your production instance, create an environment record of type "Development" 
 
 </td></tr></tbody>
 </table>When you have completed Application Intake guided setup, proceed to [Pipelines and Deployments guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/config-p-and-d.md) to fully configure App Engine Studio.
+
+-   **[Activate the Apply for Citizen Development catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/activate-catalog-item-for-app-intake.md)**  
+Enable citizen developers to submit their ideas for applications by activating the Apply for Citizen Development catalog item. This is the first step in configuring the App Engine Studio \(AES\) Application Intake app.
+-   **[Customize the App Intake form in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/customize-app-intake-form-catalog-builder.md)**  
+Create a custom app intake experience for your organization by editing the fields and questions on the App Engine Studio \(AES\) App Intake form in Catalog Builder.
+-   **[Manage user groups for Application Intake](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/manage-app-intake-user-groups.md)**  
+Control which user groups are available for admins to give Creator Studio and App Engine Studio app development permissions to during the Application Intake process. These groups are managed on the User Groups Permission Types \[sn\_app\_intake\_permission\_type\] table.
+
+**Parent Topic:**[Configure Application Intake](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center/config-app-intake.md)
 

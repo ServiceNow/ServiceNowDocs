@@ -9,7 +9,7 @@ last_updated: "2026-09-09"
 reading_time_minutes: 1
 keywords: [ServiceNow Studio, changlog, Autonomous Engineer]
 audience: programmer
-breadcrumb: [Overview, Autonomous Engineer, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Use, Autonomous Engineer, Build, AI Workflow Factory, Building applications]
 ---
 
 # View changes in the change log
@@ -20,5 +20,5 @@ To review what a background agent worker did during execution, open the work ite
 
 For information on how the Build Agent change log works, see [Checkpoints and conversation change log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ba-conversational-change-log.md).
 
-**Parent Topic:**[Exploring Autonomous Engineer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/exploring-autonomous-engineer.md)
+**Parent Topic:**[Using Autonomous Engineer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ae-using-autonomous-engineer.md)
 

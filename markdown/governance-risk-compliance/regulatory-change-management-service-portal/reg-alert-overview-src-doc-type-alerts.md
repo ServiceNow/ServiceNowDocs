@@ -52,7 +52,7 @@ Process flow stepper component for the source document alert that displays the f
 </td></tr></tbody>
 </table>|Field|Description|
 |-----|-----------|
-|Regulatory alert|Details of the alert such as title of the alert, citation associated with the alert, provider URL, regulatory body URL, name of the provider, type of the alert, and coordinator of the alert.|
+|Regulatory alert|Details of the alert such as title of the alert, citation associated with the alert, provider URL. View the regulatory body URL, name of the provider, type of the alert, and coordinator of the alert.|
 |Dates|Details of the important dates associated with the alert such as source publication date, comments date, effective date, compliance date, and expiration date.|
 |Activity journal|Text box for entering additional comments related to the alert.|
 |Compose additional comments|Text box for entering additional comments related to the activity.|

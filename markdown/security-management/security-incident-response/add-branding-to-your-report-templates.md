@@ -41,15 +41,15 @@ The key considerations while adding branding to your report templates are as fol
 
 5.  On the Branding template form, fill the fields.
 
-<table id="choicetable_fll_jgw_wsb"><thead><tr><th align="left" id="d98310e123">
+<table id="choicetable_fll_jgw_wsb"><thead><tr><th align="left" id="d98856e123">
 
 Field
 
-</th><th align="left" id="d98310e126">
+</th><th align="left" id="d98856e126">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d98310e132">
+</th></tr></thead><tbody><tr><td id="d98856e132">
 
 **Name**
 
@@ -57,7 +57,7 @@ Description
 
 Name of the branding template.
 
-</td></tr><tr><td id="d98310e141">
+</td></tr><tr><td id="d98856e141">
 
 **Header image**
 
@@ -68,7 +68,7 @@ Add a Header image for the branding template by performing the following steps:1
 3.  Choose an image from your system and select **OK**.
 
 
-</td></tr><tr><td id="d98310e169">
+</td></tr><tr><td id="d98856e169">
 
 **Footer image**
 
@@ -79,7 +79,7 @@ Add a Footer image for the branding template by performing the following steps:1
 3.  Choose an image from your system and select **OK**.
 
 
-</td></tr><tr><td id="d98310e197">
+</td></tr><tr><td id="d98856e197">
 
 **Header image position**
 
@@ -87,7 +87,7 @@ Add a Footer image for the branding template by performing the following steps:1
 
 Select a header image position for the branding template. You can choose **Left**, **Center**, or **Right**.
 
-</td></tr><tr><td id="d98310e216">
+</td></tr><tr><td id="d98856e216">
 
 **Footer image position**
 
@@ -95,7 +95,7 @@ Select a header image position for the branding template. You can choose **Left*
 
 Select a header image position for the branding template. You can choose **Top left**, **Top center**, **Top Right**, **Bottom left**, **Bottom center**, or **Bottom Right**.
 
-</td></tr><tr><td id="d98310e244">
+</td></tr><tr><td id="d98856e244">
 
 **Header image height**
 
@@ -103,7 +103,7 @@ Select a header image position for the branding template. You can choose **Top l
 
 Provide a height value \(in pt\) for the Header image of the branding template.
 
-</td></tr><tr><td id="d98310e253">
+</td></tr><tr><td id="d98856e253">
 
 **Footer image height**
 
@@ -111,7 +111,7 @@ Provide a height value \(in pt\) for the Header image of the branding template.
 
 Provide a height value \(in pt\) for the Footer image of the branding template.
 
-</td></tr><tr><td id="d98310e262">
+</td></tr><tr><td id="d98856e262">
 
 **Footer text**
 
@@ -119,7 +119,7 @@ Provide a height value \(in pt\) for the Footer image of the branding template.
 
 Provide a footer text for the branding template. You can include classification or confidentiality information. For example, this email is classified as Confidential, Internal Only or Client Attorney Privileged.
 
-</td></tr><tr><td id="d98310e271">
+</td></tr><tr><td id="d98856e271">
 
 **Footer text position**
 

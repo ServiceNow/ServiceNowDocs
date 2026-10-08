@@ -21,7 +21,6 @@ Use this checklist to verify that AI Data Explorer is properly configured and re
 
 -   Verify that the AI Data Explorer application is installed.
 -   Verify that required AI skills are activated.
--   Decide whether to run AI Data Explorer initially in agentic or non-agentic mode. You can reverse your decision later. For more information, see .
 -   Enable Record Level Analysis in the Analytics Exploration skill to get better insights.
 -   Check the base health of Query Generation using the [Query Generation Health page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/querygen-health-page.md).
 -   Confirm that AI Search is active.

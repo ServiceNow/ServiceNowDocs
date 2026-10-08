@@ -1,19 +1,19 @@
 ---
 title: Contract Management Pro
-description: The ServiceNow Contract Management Pro solution enables you to set up contract document templates, clauses, and clause variations, and to initiate contract and amendment requests. The solution uses AI to analyze contracts and extract metadata. It also supports e-signatures, wet signatures, and external storage systems. See the following sections for release notes by version.Contract Management Pro supports parallel signing, enabling you to group signatories to sign a contract at the same time.
+description: The ServiceNow Contract Management Pro solution enables you to set up contract document templates, clauses, and clause variations, and to initiate contract, amendment and renewal requests. The solution uses AI to analyze contracts and extract metadata. It also supports e-signatures, wet signatures, and external storage systems. See the following sections for release notes by version.Contract Management Pro adds standalone contract requests, direct contract submission from the Employee Center, and a contract renewal workflow.Contract Management Pro supports parallel signing, enabling you to group signatories to sign a contract at the same time.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/release-notes/contract-management-pro-rn.html
 release: brazil
 topic_type: topic
 last_updated: "2026-09-10"
-reading_time_minutes: 2
-keywords: [parallel signing order, parallel signature, signing order, sequential order, Wet/Offline signature, Signatories tab, Contract Workspace, DocuSign, AdobeSign]
+reading_time_minutes: 3
+keywords: [standalone contract request, Employee Center intake, contract renewal, renewal request type, Contract Workspace, parent field, configurator, Renewal History, parallel signing order, parallel signature, signing order, sequential order, Wet/Offline signature, Signatories tab, Contract Workspace, DocuSign, AdobeSign]
 breadcrumb: [Contract Management Pro release notes, Employee Service Management release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # Contract Management Pro
 
-The ServiceNow® Contract Management Pro solution enables you to set up contract document templates, clauses, and clause variations, and to initiate contract and amendmentrequests. The solution uses AI to analyze contracts and extract metadata. It also supports e-signatures, wet signatures, and external storage systems. See the following sections for release notes by version.
+The ServiceNow® Contract Management Pro solution enables you to set up contract document templates, clauses, and clause variations, and to initiate contract, amendment and renewal requests. The solution uses AI to analyze contracts and extract metadata. It also supports e-signatures, wet signatures, and external storage systems. See the following sections for release notes by version.
 
 ## About Contract Management Pro
 
@@ -33,6 +33,38 @@ See [Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/Servi
 
 
 **Parent Topic:**[Contract Management Pro release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/cmpro-landing-page.md)
+
+## Version 1.7.15
+
+Contract Management Pro adds standalone contract requests, direct contract submission from the Employee Center, and a contract renewal workflow.
+
+### What's new
+
+-   **[Standalone contract requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/cncore-sa-submit.md)**
+
+    Create and process a contract request without linking a parent record such as a purchase requisition or sourcing event. Initiate a standalone request from the Contract Workspace, other business unit workspaces, or the Employee Center. The Employee Center has new intake forms for new contract, amendment, and renewal requests available in the base system, accessible from **Employee Center** &gt; **Help Center** &gt; **Contracts**.
+
+-   **[Contract renewals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/cmpro-renewal-landing.md)**
+
+    Manage contract renewals with a dedicated Renewal request type, available alongside New contract and Amendment. Submit a renewal request for contracts due for expiry or expired contracts.
+
+    After signature, a renewed contract repository record is created with a link to the previous contract. When a renewal is signed, a new executed contract record is created with field values copied per configuration. Track the full renewal chain from the Contract History tab of the contract repository record.
+
+-   **[Contract Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/cncore-contract-workspace.md)**
+
+    Contract report viewers with the sn\_cm\_core.contract\_report\_viewer role can now access the Contracts dashboard in the Contract Workspace and filter data by Request Type \(New Contract, Amendment, or Renewal\).
+
+
+### What's changed
+
+-   **[Create a contract configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/cncore-contract-config.md)**
+
+    Configurator-managed setups support the Renewal request type through a multi-select Request Type field, without requiring duplicate configuration entries. Both admin configuration and AI feature configuration extend to cover renewals.
+
+-   **[Initiate an amendment from a contract record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/cncore-amend-from-cntr.md)**
+
+    Initiate an amendment from the contract workspace or from within a contract repository record.
+
 
 ## Version 1.7.13
 

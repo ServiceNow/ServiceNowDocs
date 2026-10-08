@@ -56,7 +56,7 @@ The license ruleset is stored in the SAP system and is available for use by the 
 
 ## What to do next
 
-After uploading the ruleset, export the Root CA certificate from your SAP system. For more information, see [Export the Root CA certificate from SAP for Private Cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/export-root-ca-cert-sap-private-cloud.md).
+After uploading the ruleset, establish a trusted HTTPS connection for SAP S/4HANA Cloud, Private Edition. For more information, see [Establish a trusted HTTPS connection for SAP S/4HANA Cloud, Private Edition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/export-root-ca-cert-sap-private-cloud.md).
 
 **Parent Topic:**[Set up SAP integration to establish a connection with SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/software-asset-management/setup-sap-integration.md)
 

@@ -147,4 +147,6 @@ Data certification helps maintain high‑quality data across architecture portfo
 The Enterprise Architecture Workspace \(EA Workspace\) is part of the Enterprise Architecture application. It provides an interactive interface for enterprise architects to manage tasks, gain insights, and monitor portfolio health.
 -   **[ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/now-assist-ea.md)**  
 Use ServiceNow Otto for Enterprise Architecture \(EA\) to use generative AI skills in the Enterprise Architecture Workspace. These skills help you summarize and refine content, generate and compare diagrams, gather insights into business applications, and query your enterprise architecture portfolio using natural language.
+-   **[MCP for Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/ea-mcp-server-landing-page.md)**  
+MCP for Enterprise Architecture connects any MCP-compatible AI assistant to your ServiceNow® instance. Enterprise architects, application portfolio managers, and technology portfolio managers can query business applications, capabilities, technology products, and architectural relationships using natural language prompts.
 

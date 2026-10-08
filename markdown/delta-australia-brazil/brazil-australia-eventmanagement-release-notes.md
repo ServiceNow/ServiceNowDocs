@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-australia-brazil/brazil-australia-eventmanagement-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -212,7 +212,12 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **Activation information**
+
+Install Event Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=brazil&ft:locale=en-US).
+
+
+**Note:** Event Management is available in the ServiceNow Store. For details, see the following activation information.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -328,7 +333,10 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **Localization information**
+
+The current available languages for Event Management are US English, UK English, French, German, Italian, Japanese, and Spanish. The default language is US English.
+
 
 </td></tr></tbody>
 </table>## Highlight information
@@ -372,7 +380,14 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   Cut through alert noise with automatic deduplication and filtering.
+-   Focus on what matters by prioritizing alerts based on business impact.
+-   Resolve issues faster by correlating related events into actionable alerts.
+-   See the full picture with CI and service context on every alert.
+-   Accelerate response with built-in playbooks and remediation actions.
+-   Reduce manual effort by automating alert handling with ServiceNow Otto for ITOM.
+
+ See [Event Management](https://www.servicenow.com/docs/access?context=c_EM&family=brazil&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-australia-brazil/rn-combined-intro.md)

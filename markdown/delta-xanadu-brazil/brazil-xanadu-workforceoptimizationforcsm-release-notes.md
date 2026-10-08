@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-workforceoptimizationforcsm-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 7
+last_updated: "2026-10-08"
+reading_time_minutes: 9
 breadcrumb: [Products combined by family]
 ---
 
@@ -110,7 +110,16 @@ Zurich
 
 </td><td>
 
--   **[View the monthly staff alignment on the team calendar in the Manager Workspace](https://www.servicenow.com/docs/access?context=scheduling-configurable-wfo-cs&family=zurich&ft:locale=en-US)**
+-   **[\[Placeholder link text to key decouple-channel-management-dependencies-from-wfo\]](https://www.servicenow.com/docs/access?context=decouple-channel-management-dependencies-from-wfo&family=zurich&ft:locale=en-US)**
+
+Decoupling Channel Management from the core Workforce Optimization \(WFO\) modules is necessary during dependencies or emergency situations. This architectural enhancement supports modular deployment, enabling independent updates or scaling of Channel Management without impacting other workforce engagement features.
+
+    -   Independent Deployment: Channel Management can be deployed independently, allowing for greater flexibility and control.
+    -   Reduced Inter-Module Dependencies: The decoupling reduces dependencies between modules, enhancing system stability.
+    -   Enhanced Scalability and Maintainability: The new architecture improves scalability and maintainability, making it easier to manage and expand.
+    -   Streamlined Future Upgrades: Future upgrades for individual modules can be streamlined, ensuring smoother and more efficient updates.
+
+ -   **[View the monthly staff alignment on the team calendar in the Manager Workspace](https://www.servicenow.com/docs/access?context=scheduling-configurable-wfo-cs&family=zurich&ft:locale=en-US)**
 
 Enable managers to plan, monitor, and adjust staffing more effectively with the month view on the Team Calendar tab in the Schedule page of the Manager Workspace. You can also view staffing and shift details across a full month to optimize and identify gaps in coverage, detect over staffing, and take proactive steps to balance workloads improving operational efficiency and responsiveness.
 
@@ -125,7 +134,15 @@ Australia
 
 </td><td>
 
--   **[Location Based Holiday Calendar Management](https://www.servicenow.com/docs/access?context=location-based-holiday-calendar-management&family=australia&ft:locale=en-US)**
+-   **[\[Placeholder link text to key schedule-management-capabilities-in-csm-configurable-workspace\]](https://www.servicenow.com/docs/access?context=schedule-management-capabilities-in-csm-configurable-workspace&family=australia&ft:locale=en-US)**
+
+Enable Schedule Management schedule management capabilities in CSM configurable workspace:
+
+    -   Provide a standalone licensing and entitlement model for Schedule Management schedule management using the  "com.sn\_shift\_planning" plugin.
+    -   Support independent deployment of Schedule Management schedule management without Forecasting, Intraday Management, Coaching, or other Workforce Optimization modules.
+    -   Extend scheduling to support shift and roster management for FSM and Retail, enabling phased use of Workforce Optimization modules.
+
+ -   **[Location Based Holiday Calendar Management](https://www.servicenow.com/docs/access?context=location-based-holiday-calendar-management&family=australia&ft:locale=en-US)**
 
 Enable location-based holiday calendars to
 
@@ -166,7 +183,10 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **[Move agents between shifts and schedules in Shift Planning](https://www.servicenow.com/docs/access?context=move-agents-between-shifts-wfo-cs&family=brazil&ft:locale=en-US)**
+
+As a shift planning admin \[sn\_shift\_planning.admin\], you can move one or more agents from one shift to another, within the same published schedule or to a different published schedule. You no longer need to unpublish and republish the schedule. Each move has a start and end date, and you can configure for the agents to automatically revert to the original shift on the end date if required. You can move agents in bulk, using the same dates for all of them or separate dates for each. The system validates each move, and a move history records the changes.
+
 
 </td></tr></tbody>
 </table>## Changes
@@ -384,13 +404,18 @@ Australia
 Install Workforce Optimization by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
 
 
+**Important:** Workforce Optimization for Customer Service is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Brazil
 
 </td><td>
 
-No updates for this release.
+-   **Activation information**
+
+Install Workforce Optimization by requesting it from the ServiceNow Store. Visit the ServiceNow Store to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the ServiceNow Store version history release notes.
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -496,7 +521,10 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **Browser requirements**
+
+ServiceNow workspaces don’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge - Chromium or one of the other supported browsers listed in [Browser support](https://www.servicenow.com/docs/access?context=browser-support&family=brazil&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Accessibility information
@@ -661,7 +689,13 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   Manage location‑based holiday calendars to improve workforce scheduling by mapping holidays to specific regions, enabling managers to plan shifts with accuracy, and reduce manual adjustments.
+-   Enhance the Manager Dashboard with standalone installation support and new AI-powered widgets \(Sentiment Analysis, Trending Topics, and Auto QA\) to provide actionable insights.
+-   Support real-time supervisor assistance during customer calls in Manager Workspace, enabling monitoring, whisper coaching, and direct participation.
+-   Analyze the help requested interactions segmented by different channels, such as Chat, Email, Messaging, Phone and Video.
+-   Enable Schedule Management as a standalone capability, with backward compatibility for existing deployments and no additional configuration required after activation.
+
+ See [Workforce Optimization for Customer Service](https://www.servicenow.com/docs/access?context=configurable-wfo-cs&family=brazil&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-xanadu-brazil/rn-combined-intro.md)

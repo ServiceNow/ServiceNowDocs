@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-nowassistforitoperationsmanagementitom-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 7
+last_updated: "2026-10-08"
+reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
 
@@ -91,20 +91,7 @@ Xanadu
 
 </td><td>
 
-[Xanadu Patch 1](https://www.servicenow.com/docs/access?context=xanadu-patch-1&family=xanadu&ft:locale=en-US)
-
--   **[Speed up alert resolution with a Now Assist analysis of past related incidents](https://www.servicenow.com/docs/access?context=nai-past-incidents&family=xanadu&ft:locale=en-US)**
-
-Enhance efficiency and reduce downtime with a Now Assist analysis of past incidents on the same or related CIs. Now Assist investigates historical data to identify past incidents related to the current alert and reports their frequency and criticality levels. It also provides a summary of effective strategies used to resolve them. In addition, Now Assist offers contact information for individuals or teams who have resolved similar incidents in the past and could assist when needed.
-
--   **[Generate an alert group description in Express List using Now Assist](https://www.servicenow.com/docs/access?context=alert-group-descr-generate-el&family=xanadu&ft:locale=en-US)**
-
-Use Now Assist to generate a description of an alert group in Express List that encompasses all the alerts within the group. The generated description replaces the original description of the group.
-
--   **[Launch an alert analysis from the Now Assist panel](https://www.servicenow.com/docs/access?context=alert-analysis-now-assist-panel&family=xanadu&ft:locale=en-US)**
-
-Analyze an alert from the Now Assist panel. The alert analysis displays directly in the Now Assist panel for convenient review.
-
+No updates for this release.
 
 </td></tr><tr><td>
 
@@ -210,8 +197,7 @@ Xanadu
 
 </td><td>
 
--   Starting with version 2.0.1 of AI Agents for Observability, the sn\_obs\_aia.admin role, previously required to configure AI agents in the Analyze alert impact agentic workflow, has been removed. Users must now have the credential\_admin and connection\_admin roles instead.
--   Starting with version 2.0.1 of AI Agents for Observability, the prompt `How severe is this alert?` no longer appears in the Analyze alert impact agentic workflow.
+No updates for this release.
 
 </td></tr><tr><td>
 
@@ -317,7 +303,7 @@ Xanadu
 
 </td><td>
 
-Install Now Assist for ITOM by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
+No updates for this release.
 
 </td></tr><tr><td>
 
@@ -328,6 +314,8 @@ Yokohama
 -   **Activation information**
     -   Install the AIOps Experience \[sn\_sow\_aiops\] application from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
     -   Install ServiceNow Otto for ITOM by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
+**Important:** ServiceNow Otto for ITOM is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 
@@ -372,7 +360,7 @@ Xanadu
 
 </td><td>
 
-Now Assist for ITOM is supported on Vancouver Patch 7 and later releases.
+No updates for this release.
 
 </td></tr><tr><td>
 
@@ -587,23 +575,7 @@ Xanadu
 
 </td><td>
 
-Xanadu Patch 10
-
--   Get deeper impact analysis in the Analyze alert impact agentic workflow with five new AI agents.
--   Enhance security for Now Assist AI agents with Access Control Lists \(ACLs\).
-
- Xanadu Patch 9
-
--   Investigate alerts and get the context that you need to respond efficiently using the Analyze alert impact agentic workflow.
--   Automatically perform initial alert triage and analysis tasks such as assigning alerts, analyzing alert history, and summarizing past incidents, with the Triage and analyze alert agentic workflow.
-
- [Xanadu Patch 1](https://www.servicenow.com/docs/access?context=xanadu-patch-1&family=xanadu&ft:locale=en-US)
-
--   Optimize alert resolution with Now Assist AI-driven investigation of past related incidents.
--   Generate an alert group description in Express List using Now Assist.
--   Launch an alert analysis from the Now Assist panel.
-
- See [Now Assist for IT Operations Management \(ITOM\)](https://www.servicenow.com/docs/access?context=now-assist-itom&family=xanadu&ft:locale=en-US) for more information.
+No updates for this release.
 
 </td></tr><tr><td>
 

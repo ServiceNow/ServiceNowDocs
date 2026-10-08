@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/release-notes/intelligent-exper
 release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
@@ -14,6 +14,10 @@ breadcrumb: [Features and changes by product, Release notes for upgrading from A
 
 AI Experiences has new and updated features in the Brazil release.
 
+-   **[AI Admin Center release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/ai-admin-center-rn.md)**  
+The ServiceNow® AI Admin Center application is a single, AI‑native control hub that brings together other AI capabilities and configuration functions, helping administrators to set up and manage generative‑AI solutions from a unified experience. See the following sections for release notes by version.
+-   **[AI Agent Advisor release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/ai-agent-advisor-rn.md)**  
+The ServiceNow® AI Agent Advisor application is an AI solution that automatically discovers automation opportunities in your instance and helps you to deploy AI agents to implement them. See the following sections for release notes by version.
 -   **[AI Agent Studio release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/ai-agents-rn.md)**  
 The ServiceNow® AI agents and AI Agent Studio provide solutions that can perceive the environment, decide, and proactively act to achieve specific goals without the need for constant human oversight. AI Agent Studio was enhanced and updated in the Brazil release.
 -   **[AI Control Tower release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/ai-control-tower-rn.md)**  
@@ -28,6 +32,8 @@ Natural Language Understanding is currently supported for the Brazil release, bu
 Now Assist in Document Intelligence is now Content Understanding. The ServiceNow® Content Understanding application brings multimodal generative AI to document and image processing. It extracts key data, answers natural-language questions, and generates summaries from unstructured text, tables, and images. Content Understanding is enhanced and updated in the Brazil release.
 -   **[Knowledge Graph release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/knowledge-graph-rn.md)**  
 The ServiceNow® Knowledge Graph application enables you to create and manage a Knowledge Graph schema for default integrations with ServiceNow® Otto for Virtual Agent Virtual Agent, ServiceNow Otto panel and AI Agent. See the following sections for release notes by version.
+-   **[ServiceNow Cowork release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/servicenow-cowork-rn.md)**  
+The ServiceNow Cowork application is a desktop AI agent that plans and runs multistep tasks across your enterprise applications within the governance and security policies your administrators define. See the following sections for release notes by version.
 
 **Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/new-features-changes.md)
 

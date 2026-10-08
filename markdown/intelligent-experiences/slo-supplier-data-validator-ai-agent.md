@@ -1,6 +1,6 @@
 ---
 title: Supplier data validator AI agent
-description: This Supplier Lifecycle Operations agent takes a supplier case number and initiates the supplier banking task validation process.
+description: This Supplier Lifecycle Operations agent takes a supplier case number and initiates the supplier banking task validation process. The validation process compares the bank account proof against the banking details provided by the supplier contact.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/slo-supplier-data-validator-ai-agent.html
 release: brazil
@@ -12,14 +12,14 @@ breadcrumb: [Supplier Lifecycle Operations AI agents, Supplier Lifecycle Operati
 
 # Supplier data validator AI agent
 
-This Supplier Lifecycle Operations agent takes a supplier case number and initiates the supplier banking task validation process.
+This Supplier Lifecycle Operations agent takes a supplier case number and initiates the supplier banking task validation process. The validation process compares the bank account proof against the banking details provided by the supplier contact.
 
 ## Workflow
 
-1.  Run the validation tool with the provided case number.
-2.  Display a success message to the user.
+1.  Run the validation tool with the provided case number. The tool retrieves the supplier banking task details and initiates the validation process.
+2.  Display a message confirming that the validation process has started.
 
-<table><thead><tr><th>
+<table id="table_c3d_bgt_5kc"><thead><tr><th>
 
 Field
 

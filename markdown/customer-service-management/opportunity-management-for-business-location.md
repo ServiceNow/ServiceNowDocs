@@ -21,7 +21,7 @@ Integrate Service Model Foundation with Opportunity Management for Business Loca
 Use the Opportunity Management for Business Locations plugin \(com.snc.business\_organization\_opptym\) to perform the following actions.
 
 -   Create opportunities for business locations
--   Modify and manage opportunities for the business locations
+-   Modify and manabusiness locationfor the business locations
 -   Track the end-to-end life cycle of opportunities
 -   Enable external channel partners to track opportunities.
 

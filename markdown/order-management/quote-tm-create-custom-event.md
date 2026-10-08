@@ -42,7 +42,7 @@ Role required: admin
 
     Multiple rule groupings and integrations can be assigned to the same event.
 
-    When pricing is enabled, you can attach the **Reprice** action to an event so that the event recalculates pricing when it runs. Default triggers such as **upsertLines** ship with the **Reprice** action already attached; you can disable these triggers per event if you don't want automatic repricing. For more information, see [Transaction events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-tm-events.md).
+    When pricing is enabled, you can assign the **Reprice** action to an event so that the Pricing Management service is called during the event and updates all prices. Some system events such as **upsertLines** ship with the **Reprice** action already assigned. The **Reprice** action can be removed from an event if pricing is not needed on the event. For more information, see [Transaction events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/quote-tm-events.md).
 
 7.  To configure the event to transition the quote to another stage, enable the **Transition** toggle and set the transition direction \(forward or backward in the stage sequence\).
 

@@ -15,7 +15,7 @@ breadcrumb: [Managing tasks and approvals, Address action items, AI Control Towe
 
 Complete a risk assessment that AI Control Tower generates automatically for a managed AI asset, evaluating its inherent, control, and residual risk.
 
-Unlike a case, an issue, or a policy exception, you don't create a risk assessment. AI Control Tower generates a risk assessment automatically and assigns it to the asset's steward or owner to complete. For more information about how risk is assessed across your AI portfolio, see [AI risk posture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-airc-risk-posture.md).
+Unlike a case, an issue, or a policy exception, you don't create a risk assessment. AI Control Tower generates a risk assessment automatically and assigns it to the asset's steward or owner to complete. For more information about how risk is assessed across your AI portfolio, see [Reviewing AI risk posture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/gov-airc-risk-posture.md).
 
 ## How risk assessments are generated
 

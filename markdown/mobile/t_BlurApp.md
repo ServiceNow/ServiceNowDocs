@@ -33,8 +33,6 @@ Before you enable the **glide.sg.blur\_ui\_when\_backgrounded** system property,
 
     ServiceNow mobile apps appear blurred when not in focus on a mobile device.
 
-    **Note:** For BlackBerry and Microsoft Intune variants, screen recordings and screenshots remain enabled.
-
 -   **Android specific**
 
     ServiceNow mobile apps appear blackened when not in focus on a mobile device.

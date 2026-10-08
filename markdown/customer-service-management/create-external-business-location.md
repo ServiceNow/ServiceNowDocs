@@ -1,6 +1,6 @@
 ---
-title: Create an external business location
-description: Create an external business location to enable users and consumers to create accounts, contacts, consumers, and households.
+title: Create an external organization
+description: Create an external organization \(formerly external business location\) to enable users and consumers to create accounts, contacts, consumers, and households.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/customer-service-management/create-external-business-location.html
 release: brazil
@@ -10,9 +10,9 @@ reading_time_minutes: 2
 breadcrumb: [Create a business organization, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
 
-# Create an external business location
+# Create an external organization
 
-Create an external business location to enable users and consumers to create accounts, contacts, consumers, and households.
+Create an external organization \(formerly external business location\) to enable users and consumers to create accounts, contacts, consumers, and households.
 
 ## Before you begin
 
@@ -22,9 +22,9 @@ Role required: admin
 
 Both internal and external users can be added as managers for external business locations.
 
-The manager of an external business location can access all the cases for an account, household, or consumer in the location hierarchy, including cases for child business locations. The manager can also:
+The manager of an external organization can access all the cases for an account, household, or consumer in the location hierarchy, including cases for child business locations. The manager can also:
 
--   Create staff members for internal and external business location.
+-   Create staff members for internal and external organization .
 -   Assign roles and responsibilities to the staff members.
 -   Assign staff members to the location.
 -   View and manage cases created in the location hierarchy.
@@ -34,9 +34,9 @@ The manager of an external business location can access all the cases for an acc
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Customer Service** &gt; **Service Organizations** &gt; **External Business Locations**.
+1.  Navigate to **All** &gt; **Customer Service** &gt; **Business Organizations\)** &gt; **External Organizations**.
 
-2.  In the External Business Locations list, select **New**.
+2.  In the External Organizations list, select **New**.
 
 3.  On the form, fill in the fields.
 
@@ -44,9 +44,9 @@ The manager of an external business location can access all the cases for an acc
 
 4.  Select **Submit**.
 
-    The location is added to the External Business Locations list.
+    The location is added to the External Organizations list.
 
-    After creating an external business location, add staff members to it. You can then create relationships between staff members and accounts, households, and consumers, and track the list of customers serviced by a business location.
+    After creating an external organization, add staff members to it. You can then create relationships between staff members and accounts, households, and consumers, and track the list of customers serviced by a business organization.
 
 
 ## What to do next
@@ -135,5 +135,5 @@ View details of install base items, including the Buyer organization member and 
 </table>**Related topics**  
 
 
-[Create an internal business location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-internal-business-location.md)
+[Create an internal organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/create-internal-business-location.md)
 

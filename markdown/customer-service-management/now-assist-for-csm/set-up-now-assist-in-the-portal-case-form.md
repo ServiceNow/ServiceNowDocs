@@ -31,7 +31,7 @@ This configuration involves setting up the record producer, configuring related 
 
 1.  Navigate to **All** &gt; **Service Catalog** &gt; **Catalog Definitions** &gt; **Record Producers**.
 
-2.  Search and open the record producer **Create case for a product \(AI\)**.
+2.  Search and open the record producer **Create case for a product \(Otto\)**.
 
     The base system configuration details display.
 
@@ -55,7 +55,7 @@ This configuration involves setting up the record producer, configuring related 
 
 9.  Select **Try It** to preview the record producer.
 
-10. Navigate to **All** &gt; **AI Search** &gt; **AI Search Assist** &gt; **Record Producer Configuration** to edit the record producer configuration that we previously duplicated.
+10. Navigate to **All** &gt; **AI Search** &gt; **AI Search Assist** &gt; **Record Producer Configuration** create a record producer configuration for the record producer you copied.
 
 11. Select **New**.
 
@@ -106,7 +106,7 @@ This configuration involves setting up the record producer, configuring related 
 
 ## Result
 
-The AI Case in form portal is now configured and available for use.
+AI in the portal case form is now configured.
 
 **Related topics**  
 

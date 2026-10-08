@@ -1,6 +1,6 @@
 ---
 title: Add Predictive Intelligence
-description: Add predictive intelligence as a tool in AI Skill Kit. Predictive intelligence models enable you to predict, estimate, and identify patterns that can be used to route work, populate forms, estimate wait times, and more.
+description: Add Predictive Intelligence as a tool in AI Skill Kit. Predictive Intelligence models predict values, estimate outcomes, and identify patterns that you can use to route work, populate forms, and estimate wait times.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/intelligent-experiences/now-assist-skill-kit/add-predictive-intelligence.html
 release: brazil
@@ -14,7 +14,7 @@ breadcrumb: [Add a tool, Create a prompt, Using AI Skill Kit, AI Skill Kit, Gene
 
 # Add Predictive Intelligence
 
-Add predictive intelligence as a tool in AI Skill Kit. Predictive intelligence models enable you to predict, estimate, and identify patterns that can be used to route work, populate forms, estimate wait times, and more.
+Add Predictive Intelligence as a tool in AI Skill Kit. Predictive Intelligence models predict values, estimate outcomes, and identify patterns that you can use to route work, populate forms, and estimate wait times.
 
 ## Before you begin
 
@@ -28,7 +28,7 @@ Role required: sn\_skill\_builder.admin
 
 3.  Select the **Tool editor** tab.
 
-4.  Select \(+\) icon to add a node.
+4.  Select the \(+\) icon to add a node.
 
 5.  Select **Tool node**.
 
@@ -50,7 +50,7 @@ Name
 
 </td><td>
 
-The name of the tool
+Name of the tool.
 
 </td></tr><tr><td>
 

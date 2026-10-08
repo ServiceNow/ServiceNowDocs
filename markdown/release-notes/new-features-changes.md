@@ -54,7 +54,7 @@ ServiceNow® Impact is built on the ServiceNow AI Platform and combines customiz
 IT Operations Management has new and updated features in the Brazil release.
 -   **[IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/it-service-management-rn-landing.md)**  
 IT Service Management has new and updated features in the Brazil release.
--   **[Manufacturing Commercial Operations Manufacturing Commercial Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/manufacturing-commercial-operations-rn.md)**  
+-   **[Manufacturing Commercial Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/manufacturing-commercial-operations-rn.md)**  
 The ServiceNow® Manufacturing Commercial Operations application updates warranty and quality workflows across Product Quality Investigation, Non-Conformance, and Remediation Core.
 -   **[Mobile Platform release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/mobile-rn-landing.md)**  
 Mobile Platform product enhancements and updates in the Brazil release.
@@ -65,13 +65,13 @@ The ServiceNow® Operational Sustainability Management application helps organiz
 -   **[Operational Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/operational-technology-rn-landing.md)**  
 Operational Technology has new and updated features in the Brazil release.
 -   **[Platform Analytics release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/analytics-intel-report-rn-landing.md)**  
-Platform Analytics has new and updated features in the Brazil release.
+Optimize processes and increase productivity with the Platform Analytics applications. These applications include Performance Analytics, Usage Insights, and Process Mining. Present data through either the Core UI or the Platform Analytics experience. Platform Analytics has new and updated features in the Brazil release.
 -   **[Public Sector Digital Services release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/public-sector-digital-services-rn.md)**  
 The ServiceNow® Public Sector Digital Services application enables government agencies to provide citizens, businesses, and other agencies with important services such as public records, licenses, permits, and social services. Public Sector Digital Services was enhanced and updated in the Brazil release.
 -   **[Retail release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/retail-rn.md)**  
 The ServiceNow® retail applications streamline frontline operations and customer experiences. See the following sections for release notes by version.
 -   **[Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/sales-order-management-rn-landing.md)**  
-ServiceNow® Sales Customer Relationship Management is a set of new and updated applications and features in the Brazil release. These applications enable you to manage the product sales life cycle in your organization, including leads, pre-sales opportunities, sales quote generation, order capture, order fulfillment, and post-sales order changes and renewals.
+ServiceNow® Sales Customer Relationship Management is a set of new and updated applications and features in the Brazil release. These applications enable you to manage the product sales life cycle in your organization. Supported processes include leads, pre-sales opportunities, sales quote generation, order capture, order fulfillment, and post-sales order changes and renewals.
 -   **[Security Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/security-operations-rn-landing.md)**  
 Security Operations has new and updated features in the Brazil release.
 -   **[ServiceNow AI Platform administration release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/now-platform-admin-rn-landing.md)**  

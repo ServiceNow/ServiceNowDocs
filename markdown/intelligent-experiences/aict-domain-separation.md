@@ -31,6 +31,8 @@ For more information on support levels, see [Application support for domain sepa
 
 AI Control Tower helps you discover, govern, monitor, and measure the value of AI systems across your enterprise. If you manage multiple business units or client tenants from a shared instance, such as a managed service provider, domain separation lets you keep each tenant's AI assets, risk posture, security data, and value calculations distinct while administering the deployment from a single instance.
 
+Sample AI Control Tower use case: When a service provider \(SP\) configures a discovery connector for a client, the client is able to see all assets from their environment.
+
 ## How domain separation works in AI Control Tower
 
 AI Control Tower provides Basic support for domain separation beginning with the September release, across all pillars: inventory and discovery, monitoring, risk, security, and value.

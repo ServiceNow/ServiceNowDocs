@@ -9,7 +9,7 @@ last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [create app file, update app file, add file to application, modify application file, build agent create file, build agent update file, application scope, conversational change log, checkpoints, app development, app maintenance, ServiceNow Otto, AI Agents, generative AI, agentic AI]
 audience: programmer
-breadcrumb: [Use, Build Agent, Agentic development on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Use, Build Agent, Build, AI Workflow Factory, Building applications]
 ---
 
 # Creating or updating an app file with Build Agent default mode

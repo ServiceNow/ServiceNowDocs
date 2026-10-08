@@ -28,6 +28,7 @@ Case resolution notes are generated from the information that you enter in the f
 -   Description
 -   Work Notes
 -   Additional Comments
+-   Email
 
 Any modifications to the names or labels of these fields can result in issues with notes generation.
 
@@ -43,7 +44,7 @@ Any modifications to the names or labels of these fields can result in issues wi
 
     Each skill has a guided setup with multiple steps. A check symbol next to each step indicates whether its setup is complete, partially complete, or incomplete. After configuring a step, select **Save and continue** to move forward, or **Back** to return to a previous step.
 
-4.  Select **Choose Input** and review the tables and fields to create prompts that determines where data is pulled from.
+4.  Select **Choose Input** and review the tables and fields to create prompts that determine where data is pulled from.
 
     **Note:** You can't modify the input data source.
 
@@ -90,7 +91,7 @@ Input fields
     Default and Custom Roles:
 
     -   If no changes are made, the default roles sn\_customerservice\_agent and sn\_customerservice.consumer\_agent will automatically appear in **Define Access** and **Select Display**.
-    -   If custom roles were added before the upgrade, they'll be updated automatically by a script.
+    -   If custom roles were added before the upgrade, they are updated automatically by a script.
     -   If new roles are created after the upgrade, you must manually add them in both the **Define Access** and **Select Display**.
 
         **Note:** In the **Select Display** step, you can only choose roles that were added in the **Define Access** step. If you add a role in **Define Access**, you still must manually select it in **Select Display** to make it active.
@@ -103,9 +104,9 @@ Input fields
 
 10. Select **Activate** to turn on the skill for agents and complete the configuration.
 
-    Skill is activated for agents and a success modal shows up with the option to **Return to CSM** and to **Go to ServiceNow Otto content menu**.
+    Skill is activated for agents and a success modal shows up with the option to **Return to CSM** and to **Go to ServiceNow Otto context menu**.
 
-11. Select **Go to ServiceNow Otto context menu** to [configure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/now-assist-for-csm/customize-now-assist-context-menu-for-skills.md) the activity response generation skill's context menu in AI Experience.
+11. Select **Go to ServiceNow Otto context menu** to [configure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/now-assist-for-csm/customize-now-assist-context-menu-for-skills.md) the resolution notes generation skill's context menu in **AI Experiences**.
 
 
 **Related topics**  

@@ -28,6 +28,18 @@ The Telecommunications Customer 360 application provides a unified interface tha
 
 [Use\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Use Telecommunications Customer 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/c360-use.md)
 
+</td></tr><tr><td>
+
+[Automate\[Omitted image "bus-artificial-intelligence.svg"\] Alt text:Use generative AI skills and agentic workflows to automate customer insights and recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-media-technology/ai-customer-360.md)
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
 </td></tr></tbody>
 </table>## Additional resources
 

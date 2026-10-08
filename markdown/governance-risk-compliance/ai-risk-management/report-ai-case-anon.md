@@ -35,15 +35,15 @@ The Report an AI case record producer within the AI Case Management application 
 
 1.  Access the Anonymous report center using one of these options.
 
-<table id="choicetable_npy_jjm_23c"><thead><tr><th align="left" id="d300221e104">
+<table id="choicetable_npy_jjm_23c"><thead><tr><th align="left" id="d301969e106">
 
 Option
 
-</th><th align="left" id="d300221e107">
+</th><th align="left" id="d301969e109">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d300221e113">
+</th></tr></thead><tbody><tr><td id="d301969e115">
 
 **Direct portal access**
 
@@ -53,7 +53,7 @@ Description
 2.  Select **Submit a report anonymously**.
 
 
-</td></tr><tr><td id="d300221e137">
+</td></tr><tr><td id="d301969e139">
 
 **Employee center access**
 
@@ -94,6 +94,10 @@ The AI case record is created and routed to the AI Risk and Compliance team for 
 After the case enters the **New** state, the team performs triage to validate scope, assess severity, and determine next steps. Depending on the outcome, the team may initiate an assessment on the related AI asset.
 
 For more information about subsequent assessment activities, see [Initiate AI assessment on an AI asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/initiate-assessment-on-an-ai-asset.md).
+
+**Note:**
+
+Email notifications are automatically sent to case analysts and stakeholders when an AI case is created, updated, or reassigned. For more information, see [Email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/airc_email_notifications.md).
 
 ## What to do next
 

@@ -18,15 +18,7 @@ Create a subgroup to add child asset groups to an asset group.
 
 ## Before you begin
 
-Role required:
-
--   sn\_eam.enterprise\_admin
--   sn\_eam.enterprise\_asset\_manager
--   sn\_eamfam.facility\_asset\_manager
--   sn\_eamhc.medical\_asset\_manager
--   sn\_otam.ot\_asset\_manager
-
-Asset subgroups can be used and created in the Enterprise Asset Workspace, Facility Asset Workspace, Medical Asset Workspace, and the Operational Technology \(OT\) Asset Workspace. This task specifically describes how to create an asset subgroup in the Enterprise Asset Workspace.
+Role required: sn\_eam.enterprise\_admin or sn\_eam.enterprise\_asset\_manager
 
 ## About this task
 
@@ -34,21 +26,25 @@ You can add or remove a subgroup from an asset group.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Enterprise Asset Workspace** &gt; **Enterprise asset estate** &gt; **Asset groups**.
+1.  Navigate to **Workspaces** &gt; **Enterprise Asset Workspace**.
 
-2.  Open the asset group record for which you want to create a subgroup.
+2.  From the Enterprise Asset Workspace, open the Enterprise asset estate view.
 
-3.  Select the Subgroups related list.
+3.  On the **Asset groups** tab, select the **Asset groups** subtab.
 
-4.  Select **New** on the Create New Asset group page.
+4.  Open the asset group record for which you want to create a subgroup.
+
+5.  Select the Subgroups related list.
+
+6.  Select **New** on the Create New Asset group page.
 
     The **Parent** field is automatically filled with the parent asset group.
 
-5.  On the form, fill in the required details.
+7.  On the form, fill in the required details.
 
     For more details on the fields, see [Create an asset group in Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-asset-management/enterprise-asset-management/create-asset-groups-eam.md).
 
-6.  Select **Save**.
+8.  Select **Save**.
 
     The subgroup is created and is listed in the Subgroups related list.
 

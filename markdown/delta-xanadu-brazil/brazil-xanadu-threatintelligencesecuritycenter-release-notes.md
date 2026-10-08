@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-threatintelligencesecuritycenter-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 17
+last_updated: "2026-10-08"
+reading_time_minutes: 19
 breadcrumb: [Products combined by family]
 ---
 
@@ -218,7 +218,17 @@ Australia
 
 </td><td>
 
--   **[Generate a Case Report using generative AI](https://www.servicenow.com/docs/access?context=na-tisc-generate-ai-reports&family=australia&ft:locale=en-US)**
+-   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&family=australia&ft:locale=en-US)**
+
+The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
+
+    -   Foundation: AI basics to deliver insights
+    -   Advanced: AI to boost productivity across relevant use cases
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+
+
+ -   **[Generate a Case Report using generative AI](https://www.servicenow.com/docs/access?context=na-tisc-generate-ai-reports&family=australia&ft:locale=en-US)**
 
 Introduced the TISC Report Authoring skill to generate analyst‑grade threat intelligence reports from threat cases. Supports configurable styling and analyst-defined instructions for content and focus.
 
@@ -453,6 +463,56 @@ Australia
 ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
 
 
+ -   **[TISC Library Repository](https://www.servicenow.com/docs/access?context=tisc-ioc&family=australia&ft:locale=en-US)**
+
+Enhanced Threat Intelligence Library list views by grouping observables, indicators, threat entities, RSS feed, and vulnerability artifacts into appropriate categories for improved navigation.
+
+
+ -   **[Create Vulnerability Assessment from a Vulnerability](https://www.servicenow.com/docs/access?context=tisc-vul-assess&family=australia&ft:locale=en-US)**
+
+Introduced a new button **Create Vulnerability Assessment** to conduct a vulnerability assessment for a specific vulnerability.
+
+
+ -   **[Create Security Incident from a Vulnerability Record](https://www.servicenow.com/docs/access?context=tisc-create-security-incident&family=australia&ft:locale=en-US)**
+
+Introduced a new button **Create Security Incident** to facilitate identifying vulnerabilities and enable faster incident response within the threat analysis.
+
+
+ -   **[Threat Intelligence Security Center Catalog](https://www.servicenow.com/docs/access?context=threat-intelligence-security-center-catalogue&family=australia&ft:locale=en-US)**
+
+Introduced a new catalog entry which includes the RSS feed for **Google Project Zero**, enabling real-time detection of emerging threats.
+
+
+ -   **[MITRE ATT&amp;CK Technique Extraction Rules](https://www.servicenow.com/docs/access?context=mitre-extraction-rules&family=australia&ft:locale=en-US) and [View extracted MITRE ATT&amp;CK Techniques](https://www.servicenow.com/docs/access?context=mitre-extraction-method&family=australia&ft:locale=en-US)**
+
+Enabled MITRE-ATT&amp;CK extraction rules for RSS feed to map and associate MITRE-ATT&amp;CK techniques.
+
+
+ -   **[View RSS Feeds](https://www.servicenow.com/docs/access?context=define-rss-feeds&family=australia&ft:locale=en-US)**
+
+Enhanced the RSS feed schema and parsers to support additional fields, including tags, taxonomies, status, and expiration time.
+
+
+ -   **[Export intelligence data](https://www.servicenow.com/docs/access?context=tisc-export-observables&family=australia&ft:locale=en-US), [Sharing of Outbound Intelligence Records from GUI](https://www.servicenow.com/docs/access?context=tisc-create-intel-records-lib&family=australia&ft:locale=en-US), and [Add to TAXII Collections from Library List View](https://www.servicenow.com/docs/access?context=tisc-obs-add-taxii-collects&family=australia&ft:locale=en-US)**
+
+Enhanced STIX 2.1 export to include Traffic Light Protocol \(TLP\) definitions applied to intelligence objects as TLP 2.0 marking definition objects. For more information, see [Marking Definition](https://www.servicenow.com/docs/access?context=marking-definition&family=australia&ft:locale=en-US).
+
+
+ -   **[System properties for TISC Reports](https://www.servicenow.com/docs/access?context=reports-system-properties&family=australia&ft:locale=en-US)**
+
+The system property `sn_sec_tisc.reporting.email_template_sn_sec_tisc_case` is no longer supported in TISC. It has been renamed to `sn_sec_tisc.default_report_email_template`, effective with the latest release.
+
+
+ -   **[Configure custom MISP API feed](https://www.servicenow.com/docs/access?context=tisc-premium-misp&family=australia&ft:locale=en-US)**
+
+Enhanced MISP API feed ingestion to handle events when the published timestamp is greater than the modified timestamp.
+
+
+ -   **[Define Vulnerability](https://www.servicenow.com/docs/access?context=define-vulnerability&family=australia&ft:locale=en-US) and [Access the Vulnerability Entities](https://www.servicenow.com/docs/access?context=access-the-vulnerability-entities&family=australia&ft:locale=en-US)**
+
+Enhanced the vulnerability schema to support additional vulnerability intelligence fields related to CVSS scoring, exploit details, and remediation information.
+
+
 </td></tr><tr><td>
 
 Brazil
@@ -630,6 +690,8 @@ Install Threat Intelligence Security Center by requesting it from the ServiceNow
 The Security Support Common plugin is activated when any of the plugins for the main Security Operations applications \(Security Incident Response, Vulnerability Response, Threat Intelligence, or Configuration Compliance\) are activated.
 
 
+**Important:** Threat Intelligence Security Center is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Zurich
@@ -641,6 +703,8 @@ Zurich
 Install Threat Intelligence Security Center by requesting it from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home). Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
 
+**Important:** Threat Intelligence Security Center is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Australia
@@ -651,6 +715,8 @@ Australia
 
 Install Threat Intelligence Security Center by requesting it from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home). Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
 
+
+**Important:** Threat Intelligence Security Center is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 

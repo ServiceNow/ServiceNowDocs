@@ -32,7 +32,7 @@ The oneExtend LLM skill is included in Now Assist for WDF.
 
 2.  Find the ServiceNow Otto for WDF plugin \(sn\_nowassist\_wdf\) using the filter criteria and search bar and install the ServiceNow Otto for WDF plugin \(sn\_nowassist\_wdf\).
 
-    For information about the installation process, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+    For information about the installation process, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 
 3.  Select the Now Assist for WDF plugin tile, select **Install**, and confirm.
 

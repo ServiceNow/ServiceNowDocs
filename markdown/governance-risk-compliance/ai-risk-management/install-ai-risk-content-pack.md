@@ -9,7 +9,7 @@ classification: ai-risk-management
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Content pack, AI Risk and Compliance, Governance, Risk, and Compliance]
+breadcrumb: [Content pack, Configure, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
 
 # Install AI Risk and Compliance content

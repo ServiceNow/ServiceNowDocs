@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-australia-brazil/brazil-australia-aiagentadvisor-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
@@ -67,7 +67,16 @@ Australia
 
 </td><td>
 
--   **[Automation opportunities enhancements](https://www.servicenow.com/docs/access?context=now-assist-center-view-automation-opportunities&family=australia&ft:locale=en-US)**
+-   **[View automation opportunities in AI Agent Studio](https://www.servicenow.com/docs/access?context=ai-agent-studio&family=australia&ft:locale=en-US)**
+
+View automation opportunities on the AI Agent Studio home page. Select the opportunity to create a custom AI agent or edit an existing AI agent in the agent builder.
+
+-   **[View recommended intents in the asset library](https://www.servicenow.com/docs/access?context=ai-admin-center-lux-view-ai-assets&family=australia&ft:locale=en-US)**
+
+Use the asset library to view intents identified from existing automation opportunities. The intents contain a short description and sample utterance text.
+
+
+ -   **[Automation opportunities enhancements](https://www.servicenow.com/docs/access?context=now-assist-center-view-automation-opportunities&family=australia&ft:locale=en-US)**
 
 Use the automation opportunities enhancements to refine your view and identify opportunities. The automation opportunities list shows quick-select filters. The Resolution steps page for an automation opportunity is enhanced to show matched opportunities for default AI agents, agent status, and tooltips with links.
 
@@ -141,7 +150,12 @@ Australia
 
 </td><td>
 
--   **[Calculate savings projections for automation opportunities](https://www.servicenow.com/docs/access?context=ai-admin-center-set-up-data-source&family=australia&ft:locale=en-US)**
+-   **[Updated AI Admin Center experience](https://www.servicenow.com/docs/access?context=ai-admin-center-lux-user-experience&family=australia&ft:locale=en-US)**
+
+The Lux experience provides a fresh look and feel for AI Agent Advisor in the AI Admin Center user interface, featuring revised pages and navigation to enhance your user experience.
+
+
+ -   **[Calculate savings projections for automation opportunities](https://www.servicenow.com/docs/access?context=ai-admin-center-set-up-data-source&family=australia&ft:locale=en-US)**
 
 Use a single savings profile formula when configuring custom data sets for automation opportunity discovery. Multiple savings projections are no longer supported.
 
@@ -403,7 +417,12 @@ Australia
 
 </td><td>
 
-[Australia Patch 6](https://www.servicenow.com/docs/access?context=australia-patch-6&family=australia&ft:locale=en-US)
+[Australia Patch 7](https://www.servicenow.com/docs/access?context=australia-patch-7&family=australia&ft:locale=en-US)
+
+-   View recommended intents identified from existing automation opportunities in the asset library.
+-   Create custom AI agents and edit existing agents for automation opportunities in the agent builder in AI Agent Studio.
+
+ [Australia Patch 6](https://www.servicenow.com/docs/access?context=australia-patch-6&family=australia&ft:locale=en-US)
 
 -   Use the automation opportunities enhancements to refine your view and identify opportunities.
 -   Delete a custom data source analysis that you no longer want to run for automation opportunity discovery.

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-yokohama-brazil/brazil-yokohama-hermesmessagingservice-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 6
+last_updated: "2026-10-08"
+reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
 
@@ -373,7 +373,10 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   **Activation information**
+
+Hermes is a ServiceNow AI Platform feature that is available with activation of the ServiceNow Stream Connect Installer \(com.glide.hub.stream\_connect.installer\) plugin or the installation of the Log Export Service application.
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -615,7 +618,12 @@ Brazil
 
 </td><td>
 
-No updates for this release.
+-   Delivers asynchronous event streaming and messaging capabilities for enterprise workflows.
+-   Enables scalable message delivery across distributed systems with configurable retention policies.
+-   Provides comprehensive usage tracking and reporting for messaging operations.
+-   Supports integration with applications such as Instance Data Replication and Log Export Service.
+
+ See [Hermes Messaging Service](https://www.servicenow.com/docs/access?context=hermes-messaging-service&family=brazil&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/delta-yokohama-brazil/rn-combined-intro.md)

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/integrate-applications/metadata-collector-deployment-models.html
 release: brazil
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-08-19"
 reading_time_minutes: 2
 keywords: [metadata collectors, deployment models, MID Server, cloud collectors, on-premises]
 breadcrumb: [Configuring metadata collectors, Data Catalog, Workflow Data Fabric]
@@ -19,10 +19,11 @@ Metadata collectors harvest metadata â€” schemas, tables, columns, and lineage â
 
 ## Deployment model selection
 
-Select a deployment model using the toggle on the metadata collector setup screen: **Use MID Server**.
+Select a deployment model using the **Use MID server** toggle on the metadata collector configuration form.
 
--   **Toggle on:** The collector connects to the source system through a MID Server. The system automatically selects an available MID Server.
--   **Toggle off:** The collector connects to the source system without requiring a MID Server. \[Omitted image "dc-metadata-collector-mid-server.png"\] Alt text: Select deployment model
+\[Omitted image "dc-metadata-collector-mid-server.png"\] Alt text: Select deployment model
+
+When a collector is configured to run on a MID Server, three routing models control how the system assigns a MID Server to the collection job. For details on each routing model, see [MID Server for metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/mid-server-for-metadata-collectors-dc.md).
 
 ## MID Server collectors \(on-premises\)
 

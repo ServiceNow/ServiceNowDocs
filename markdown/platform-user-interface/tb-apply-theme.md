@@ -28,7 +28,7 @@ You can also watch a short video on how to publish a theme.
 
 Currently, mobile instances can only accommodate one published theme at a time.
 
-If you want to publish a theme to specific mobile applications, you can use [Mobile App Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mab-concept.md). Any themes that are created using Theme Builder are available for publishing in [Mobile App Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mab-concept.md).
+If you want to publish a theme to specific mobile applications, you can use . Any themes that are created using Theme Builder are available for publishing in .
 
 Next Experience Polaris and Coral themes are available for publishing from Theme Builder.
 
@@ -46,15 +46,15 @@ Next Experience Polaris and Coral themes are available for publishing from Theme
 
 4.  To publish your themes, complete any of the following actions.
 
-<table id="choicetable_ahh_ch2_fdc"><thead><tr><th align="left" id="d117595e156">
+<table id="choicetable_ahh_ch2_fdc"><thead><tr><th align="left" id="d118023e154">
 
 Option
 
-</th><th align="left" id="d117595e159">
+</th><th align="left" id="d118023e157">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d117595e165">
+</th></tr></thead><tbody><tr><td id="d118023e163">
 
 **Publish using the List or Grid view More Actions menu**
 
@@ -62,7 +62,7 @@ Description
 
 From the Unpublished section, select the More actions icon \[Omitted image "tb-more-actions.png"\] Alt text:from the theme that you want published, and select **Publish**.\[Omitted image "tb-more-actions-publish.png"\] Alt text: More actions menu opened with Publish selected.
 
-</td></tr><tr><td id="d117595e190">
+</td></tr><tr><td id="d118023e188">
 
 **Publish using the List view drag-and-drop feature**
 
@@ -97,7 +97,7 @@ From the Unpublished section, hover over the theme you want published, and drag 
 
     If you created and published themes outside of Theme Builder and want to revert them, navigate to the tables where they're stored and reapply them.
 
-    To change themes in individual mobile applications, use [Mobile App Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/mobile/mab-concept.md).
+    To change themes in individual mobile applications, use .
 
 
 -   **[Set the default theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/set-the-default-theme.md)**  

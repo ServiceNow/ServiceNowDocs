@@ -8,7 +8,7 @@ product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
 topic_type: task
 last_updated: "2026-09-10"
-reading_time_minutes: 5
+reading_time_minutes: 4
 breadcrumb: [Create a normal mode connection with Microsoft Exchange Online, Microsoft Exchange Online - Calendar synchronization, Setup Workplace Calendar Synchronization, Configure, Workplace Calendar Synchronization, Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -149,20 +149,8 @@ Run Instance scan to check Microsoft Exchange Online synchronization configurati
 
 **Parent Topic:**[Create a normal mode connection with Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-calendar-synchronization/create-connection-with-msex-in-normal-mode.md)
 
-**Parent Topic:**[Create a normal mode connection with Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/employee-service-management/workplace-calendar-synchronization/create-connection-with-msex-in-normal-mode.md)
-
 **Related topics**  
 
-
-[Configure Microsoft Azure in normal mode]()
-
-[Create a connection with Microsoft Exchange Online spoke]()
-
-[Set up OAuth connection with Microsoft Exchange Online]()
-
-[Configure Connection and credential alias for Microsoft Exchange Online using the default credentials and connections]()
-
-[Create your own connection and credential alias for Microsoft Exchange Online]()
 
 [Configure Microsoft Azure in normal mode]()
 

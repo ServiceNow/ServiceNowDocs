@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/delta-xanadu-brazil/brazil-xanadu-serviceoperationsworkspaceforitsm-release-notes.html
 release: brazil
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 37
+last_updated: "2026-10-08"
+reading_time_minutes: 42
 breadcrumb: [Products combined by family]
 ---
 
@@ -283,7 +283,28 @@ Yokohama
 
 </td><td>
 
--   **[User role for service desk agents](https://www.servicenow.com/docs/access?context=roles-in-sow&family=yokohama&ft:locale=en-US)**
+-   **[Enhanced security model adoption in Service Operations Workspace](https://www.servicenow.com/docs/access?context=components-installed-investigate&family=yokohama&ft:locale=en-US)**
+
+Help prevent unauthorized access to the tables of the following applications with Deny-Unless ACLs:
+
+    -   Metrics and CI actions framework
+    -   Remedial actions framework
+    -   Agent client collector for investigation
+    -   Microsoft Endpoint Configuration Manager for Investigation
+A Deny-Unless authentication ACL restricts access for a non-authenticated user, such as a public role user. Without access, the user can't perform any actions on the tables related to the above mentioned applications, including reading, writing, deleting, creating, or accessing the report view. This feature is available to both new \(zboot\) and upgrade instances.
+
+-   **[Configure Notify in SOW](https://www.servicenow.com/docs/access?context=configure-notify-sow&family=yokohama&ft:locale=en-US)**
+
+Configure the provider preferences for Notify to manage the conference calls in Service Operations Workspace.
+
+-   **[Create CAB meetings in Service Operations Workspace](https://www.servicenow.com/docs/access?context=cm-create-cab-meeting-sow&family=yokohama&ft:locale=en-US)**
+
+Define and create Change Advisory Board \(CAB\) meetings, invite attendees and dynamically populate agenda items for each meeting in Service Operations Workspace.
+
+Run CAB meetings through CAB Workbench, available within Service Operations Workspace to review and authorize change requests. For more information, see [Conduct a CAB meeting in the CAB workbench](https://www.servicenow.com/docs/access?context=cm-manage-cab-meeting-workbench-sow&family=yokohama&ft:locale=en-US).
+
+
+ -   **[User role for service desk agents](https://www.servicenow.com/docs/access?context=roles-in-sow&family=yokohama&ft:locale=en-US)**
 
 Enable tier 1 service desk agents to quickly gather and verify information by granting the sn\_service\_desk\_agent role, which is accessible when the ITSM Roles plugin \(com.snc.itsm.roles\) is installed.
 
@@ -409,13 +430,54 @@ For more information on conflict detection, see [Conflict detection](https://www
 Provide agents with dedicated time after each call or chat to finalize the interaction details and wrap up their work before starting a new conversation.
 
 
+ -   **[Configuring Notify in Service Operations Workspace](https://www.servicenow.com/docs/access?context=configure-notify-sow&family=zurich&ft:locale=en-US)**
+
+Configure Notify with Microsoft Teams SOW in Admin Center using the guided setup.
+
+-   **[Visual indicators for unread messages](https://www.servicenow.com/docs/access?context=sow-itsm-workspace-chat-session-tabs-configure&family=zurich&ft:locale=en-US)**
+
+To help agents maintain the Service Level Agreement \(SLA\) for chats, visual indicators are available on chat session tabs in the SOW. These indicators include color codes, where tabs with unread messages are highlighted in different colors. Inactive tabs display a purple background color to indicate that a message has been received. Tab colors shift to yellow and then to red to highlight critical wait times. These enhancements aim to improve customer service by ensuring quick response time, increase productivity by helping agents manage multiple chats more effectively, and reduce stress by providing clear visual cues, ultimately leading to better SLA compliance and higher service quality.
+
+-   **[Resize modal in Service Operations Workspace](https://www.servicenow.com/docs/access?context=view-update-inc-overview-tab&family=zurich&ft:locale=en-US)**
+
+Optimize your viewing experience by resizing the following modals in SOW:
+
+    -   Copy incident
+    -   Report knowledge gap
+    -   Reopen incident
+-   **[Add similar incidents to major incident record](https://www.servicenow.com/docs/access?context=managing-major-incident-sow&family=zurich&ft:locale=en-US)**
+
+Find multiple similar incidents and add them as child incidents to a major incident or major incident candidate record from the child incident related list in the **Related records** tab of the major incident record. Similar incidents are retrieved based on the similarity solution definition that can be configured to train on various fields such as **Short description** and **Description**. Adding the similar incidents as child incidents to the major incident record ensures avoiding the creation of multiple major incident records for the same issue.
+
+-   **[On-Call Scheduling enhancements in Service Operations Workspace](https://www.servicenow.com/docs/access?context=work-on-escalation-trigger-rules-and-policies-in-sow&family=zurich&ft:locale=en-US)**
+
+On-call scheduling in SOW has the following enhancements:
+
+    -   The On-call trigger rule page is enhanced to support and select subflows.
+    -   The On-call trigger rule page is enhanced for supporting re-triggering escalations on configured fields such as Priority. Re-triggering is enabled whenever the value in the configured field changes.
+    -   Configure custom providers as channels for on-call escalation notifications.
+    -   Send the on-call escalations notifications to all stakeholders when any of the record fields configured using the on-call trigger rules are modified.
+-   **[Auto-dismiss the alerts and notification in Service Operations Workspace](https://www.servicenow.com/docs/access?context=configure-alerts-auto-dismiss-sow&family=zurich&ft:locale=en-US)**
+
+Configure the alerts and notifications in SOW to automatically dismiss within the specified time. Auto-dismissal of the alert notification reduces the user effort in manually dismissing the notification. By default, the base system has the following settings:
+
+    -   Auto-dismiss is turned on for alert notification of type info, positive \(success\) and low and has the timeout value of three seconds.
+    -   Auto-dismiss is turned off for alert notification of type critical, high, moderate, and warning.
+    -   The time label is turned off and only a visual time indicator is displayed.
+    -   The alert notification content is expanded.
+
 </td></tr><tr><td>
 
 Australia
 
 </td><td>
 
--   **[UI16 links to SOW redirection behavior](https://www.servicenow.com/docs/access?context=manage-admin-console-sow-itsm&family=australia&ft:locale=en-US)**
+-   **[Review AI incident summary and suggestions in the incident record](https://www.servicenow.com/docs/access?context=view-update-inc-overview-tab&family=australia&ft:locale=en-US)**
+
+Investigate and resolve incidents efficiently by reviewing the AI-generated incident summary and suggested resolution plan in the AI summary and suggestions card on the **Overview** tab of an incident record. If the **Overview** tab is hidden for L1 service desk agents, the card appears on the **Details** tab.
+
+
+ -   **[UI16 links to SOW redirection behavior](https://www.servicenow.com/docs/access?context=manage-admin-console-sow-itsm&family=australia&ft:locale=en-US)**
 
 Redirect UI16 module links such as forms and lists to the equivalent SOW experience. The UI16 module link redirection behavior is supported for all the applications in SOW when the system property **sn\_sow\_itsm\_admin.experience\_redirection\_enabled.sow** is set to `true`.
 
@@ -542,7 +604,24 @@ Yokohama
 
 </td><td>
 
--   **[Incident record page changes](https://www.servicenow.com/docs/access?context=view-inc-record-info-contextual-sidepanel&family=yokohama&ft:locale=en-US)**
+-   **[GenAI email templates for communication](https://www.servicenow.com/docs/access?context=compose-communication-mim-sow&family=yokohama&ft:locale=en-US)**
+
+Use the GenAI capabilities for composing email with GenAI email templates in all major incident communications. The GenAI email templates are visible in a separate section when the email templates field is selected and the following conditions are met:
+
+    -   Any GenAI variable is available in the email templates.
+    -   ServiceNow Otto for ITSM is installed and activated.
+    -   GenAI skills are enabled.
+    -   User have the required roles to execute the GenAI skills.
+-   **[Close resolved incident](https://www.servicenow.com/docs/access?context=close-resolved-incident-sow&family=yokohama&ft:locale=en-US)**
+
+Close an incident in **Resolved** state using the itil\_admin user role.
+
+-   **[Resize modals on the SRP and list pages](https://www.servicenow.com/docs/access?context=srp-service-operations-workspace&family=yokohama&ft:locale=en-US)**
+
+Ensure flexibility and efficiency by enabling users to resize the modals on the SOW SRP and list pages. This helps in adjusting screen space allocation, enabling multi-tasking, and optimizing content visibility for different tasks and screen sizes. 
+
+
+ -   **[Incident record page changes](https://www.servicenow.com/docs/access?context=view-inc-record-info-contextual-sidepanel&family=yokohama&ft:locale=en-US)**
 
 The Incident record page has the following changes:
 
@@ -615,7 +694,16 @@ Australia
 
 </td><td>
 
--   **[Configure reference field auto-load behavior from SOW Admin Center](https://www.servicenow.com/docs/access?context=admin-center-sow&family=australia&ft:locale=en-US)**
+-   **[Generate, update and publish PIR](https://www.servicenow.com/docs/access?context=review-update-pir-mim-sow&family=australia&ft:locale=en-US)**
+
+Perform the following actions on the PIR if you have the incident\_write role and added as co-contributor to the PIR:
+
+    -   Update the state or publish the PIR.
+    -   Refresh the Incident Summary data on the PIR.
+    -   Create PIR custom event.
+    -   Search, add, edit and save co-contributors \(Users\) for PIR.
+
+ -   **[Configure reference field auto-load behavior from SOW Admin Center](https://www.servicenow.com/docs/access?context=admin-center-sow&family=australia&ft:locale=en-US)**
 
 Use the Reference field auto-load behavior option from the SOW Properties section of the SOW Admin Center to configure the **Reference search on click** \(**ref\_search\_on\_click**\) UX page property. The option enables you to configure the automatic searching of field value results displayed for reference fields such as Configuration item, Service offering, and Service.
 
@@ -773,6 +861,8 @@ Yokohama
 Service Operations Workspace for ITSM is active by default and its default version is 7.0 in Yokohama. When you upgrade from any previous release to Yokohama from the ServiceNow Store, Service Operations Workspace for ITSM 7.0 is automatically installed.
 
 
+**Important:** Service Operations Workspace is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Zurich
@@ -783,6 +873,8 @@ Zurich
 
 Service Operations Workspace for ITSM is active by default and its default version is 8.0 in Zurich. When you upgrade from any previous release to Zurich from the ServiceNow Store, Service Operations Workspace for ITSM 8.0 is automatically installed.
 
+
+**Important:** Service Operations Workspace is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 
@@ -795,6 +887,8 @@ Australia
 Service Operations Workspace for ITSM is active by default and its default version is `9.0` in Australia. When you upgrade from any previous release to Australia from the ServiceNow Store, Service Operations Workspace for ITSM `9.0` is automatically installed.
 
 
+**Important:** Service Operations Workspace is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Brazil
@@ -805,6 +899,8 @@ Brazil
 
 Service Operations Workspace for ITSM is active by default and its default version is 9.5 in Brazil. When you upgrade from any previous release to Brazil from the ServiceNow Store, Service Operations Workspace for ITSM 9.5 is automatically installed.
 
+
+**Note:** Service Operations Workspace is available in the ServiceNow Store. For details, see the following activation information.
 
 </td></tr></tbody>
 </table>## Additional requirements

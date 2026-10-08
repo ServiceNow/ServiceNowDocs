@@ -18,107 +18,33 @@ Agent Client Collector \(ACC\) errors are visible in logs related to the agent a
 
 ## Before you begin
 
+-   Ensure that the Error Framework \(**com.glide.error\_framework**\) plugin is active.
+-   Ensure that the system property **sn\_agent.use\_glide\_error\_framework** is set to **true** \(**All** &gt; **System properties** &gt; **All Properties**\).
+-   Ensure that ACC Admin Workspace \(**sn\_acc\_wrksp**\) store application is active.
+
+Role required: agent\_client\_collector\_admin
+
 ## Procedure
 
-1.  Navigate to **All** &gt; **Agent Client Collector** &gt; **Agent Issues**.
+1.  Navigate to **Workspaces** &gt; **ITOM Infra Services Workspace**.
 
-    The **Errors** page appears and lists the errors compiled from the instance.
+2.  Select the ACC agents \[Omitted image "acc-agents-icon.png"\] Alt text: ACC agents icon icon.
 
-    The following columns display the indicated information about the errors.
+3.  Select **Errors** to view the errors existing on ACC agents.\[Omitted image "acc-agents-page.png"\] Alt text: ACC agents error page
 
-<table id="table_dlc_s4b_fdc"><thead><tr><th>
+4.  Filter the displayed errors by selecting severity and category values in the **Filter By** options.
 
-Column
+    If you don't configure a filter, all agent errors appear.
 
-</th><th>
+5.  Select an error to view additional information, including the error's root cause and remediation instructions.\[Omitted image "agent-error-additional-info.png"\] Alt text: ACC error - additional info page
 
-Description
+    1.  Select the **Errors** subtab to view detailed information about the error.
 
-</th></tr></thead><tbody><tr><td>
+    2.  Select the information \[Omitted image "info.png"\] Alt text: Information icon icon to open the **Error details** panel.
 
-Key
+        \[Omitted image "error-details-panel.png"\] Alt text: Error details panel
 
-</td><td>
-
-Internal value used to identify the error.For data collection errors, specifies the **agent\_id** value.
-
-</td></tr><tr><td>
-
-Error Code
-
-</td><td>
-
-Error code assigned to the issue.
-
-</td></tr><tr><td>
-
-Refined Error Code
-
-</td><td>
-
-Optional modified error code. For example if the assigned **Error Code** is too generic, you can modify the value.
-
-</td></tr><tr><td>
-
-Error Category
-
-</td><td>
-
-The error category which the error is classified under.
-
-</td></tr><tr><td>
-
-Message
-
-</td><td>
-
-A message describing the error.
-
-</td></tr><tr><td>
-
-Error state
-
-</td><td>
-
-Indicates the state of the error: **Open** or **Resolved**.
-
-</td></tr><tr><td>
-
-Error Source
-
-</td><td>
-
-The application triggering the error.
-
-</td></tr><tr><td>
-
-Suppress
-
-</td><td>
-
-Indicates whether the error is to be ignored.
-
-</td></tr><tr><td>
-
-Last Occurrence
-
-</td><td>
-
-Time stamp with the most recent occurrence of the error.
-
-</td></tr></tbody>
-</table>    **Note:**
-
-    -   Not all columns are visible by default on the page.
-    -   Select the info icon \(\[Omitted image "info.png"\] Alt text: Info icon\) next to an error to view a pop-up window with full information about the error.
-
-        \[Omitted image "acc-error-message-popup.png"\] Alt text: ACC Error Message popup window
-
-        The info icon is visible when hovering under the search icon \(\[Omitted image "search-icon-magnifyingGlass.png"\] Alt text: Search icon\) next to the error entry.
-
-    Alternatively, you can view information about the error by selecting it on the **Errors** page.
-
-2.  To view errors for a specific agent:
+6.  To view errors for a specific agent:
 
     1.  Select **All** &gt; **Agent Client Collector** &gt; **Agents**.
 
@@ -128,8 +54,4 @@ Time stamp with the most recent occurrence of the error.
 
     3.  Select the **Automation Error Messages** tab at the bottom of the page to view errors relating to the agent.
 
-
-## Result
-
-If an error causes an agent's registration to fail, the agent's **Status** column displays **Registration Failure** on the Agent Client Collectors page \(**All** &gt; **Agent Client Collector** &gt; **Agents**\).
 

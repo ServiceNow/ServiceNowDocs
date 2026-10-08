@@ -9,6 +9,7 @@ classification: threat-intelligence-security-center
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 5
+keywords: [threat score calculator, define threat score, scoring rule]
 breadcrumb: [Custom Threat Score Calculator in TISC, About Rules Engine in TISC, Administer, Threat Intelligence Security Center, Security Operations]
 ---
 

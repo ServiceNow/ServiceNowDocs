@@ -87,8 +87,7 @@ The following table shows different assets and their description.
 
 |Asset|Description|
 |-----|-----------|
-|GRC Issue agent|Report and manage GRC issues|
-|Issue submission agent|Employee Center integrated issue submission|
+|Report a GRC issue agent|Report and manage GRC issues from the Employee Center and Workspace|
 |Issue resolution agent|AI-assisted issue resolution and remediation|
 |Remediation task agent|Automated remediation task generation|
 |Issue summarization|Automatic issue summarization and analysis|

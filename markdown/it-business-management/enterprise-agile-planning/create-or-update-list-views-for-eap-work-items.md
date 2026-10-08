@@ -38,15 +38,15 @@ Configuration for EAP List View determines the columns that are displayed for a 
 
 5.  Create the EAP List View or update its configuration.
 
-<table id="choicetable_ap3_sy1_f1c"><thead><tr><th align="left" id="d269769e118">
+<table id="choicetable_ap3_sy1_f1c"><thead><tr><th align="left" id="d278848e118">
 
 Option
 
-</th><th align="left" id="d269769e121">
+</th><th align="left" id="d278848e121">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d269769e127">
+</th></tr></thead><tbody><tr><td id="d278848e127">
 
 **Create EAP List View**
 
@@ -59,7 +59,7 @@ Steps
 
 You can also rearrange them in the order of your choice.
 
-</td></tr><tr><td id="d269769e171">
+</td></tr><tr><td id="d278848e171">
 
 **Edit EAP List View**
 

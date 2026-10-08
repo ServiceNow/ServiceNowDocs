@@ -60,7 +60,7 @@ Buyer organization
 
 </td><td>
 
-The service organization for which you want to create an order.
+The buyer organization for which you want to create an order.
 
 </td></tr><tr><td>
 
@@ -68,7 +68,7 @@ Buyer organization member
 
 </td><td>
 
-Employee of the service organization that creates the order.
+Employee of the buyer organization for whom the order is created.
 
 </td></tr><tr><td>
 

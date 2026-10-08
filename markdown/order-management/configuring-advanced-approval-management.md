@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/order-management/configuring-ad
 release: brazil
 topic_type: concept
 last_updated: "2026-09-10"
-reading_time_minutes: 3
+reading_time_minutes: 4
 keywords: [configure]
 breadcrumb: [Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
@@ -23,6 +23,8 @@ Configuring the Advanced Approval Management involves the following sections:
 
 -   Environment Setup: Establish the system foundation by installing required plugins, enabling approval functionality, and configuring the user interface.
 -   Approval Configuration: Create business-specific approval rules, conditions, and workflows for your entities \(for example, quotes, orders\) that requires approval management.
+
+**Prerequisite**: Ensure the necessary roles are added and configured, if not already, to configure Advanced Approval Management and manage approvals. For more information, see [Advanced Approval Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/advanced-approval-management-reference.md) and [Components installed with Sales Common](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/components-installed-sales-common.md).
 
 1.  [Install Advanced Approval Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/install-advanced-approval-management.md).
 
@@ -72,4 +74,15 @@ The following workflow illustrates the end-to-end process for configuring the Ad
 6.  Assign individual approvers and approver groups to approval rules.
 7.  Configure system notifications to inform requesters and approvers of approval status.
 8.  Configure granulation delegation if your organization is using Employee Service Management and your approvers want to delegate their approval tasks to another employee.
+
+**Related topics**  
+
+
+[Advanced Approval Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/explore-advanced-approval-for-sales.md)
+
+[Using Advanced Approval Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/using-advanced-approval-management.md)
+
+[Notifications in Advanced Approval Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/setting-up-approval-notifications.md)
+
+[Advanced Approval Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/advanced-approval-management-reference.md)
 

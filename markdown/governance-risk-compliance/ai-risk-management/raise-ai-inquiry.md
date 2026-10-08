@@ -23,17 +23,17 @@ Role required: sn\_ai\_case\_mgmt.ai\_case\_business\_user
 
 ## Procedure
 
-1.  Raise and AI inquiry from the Employee Center or from the AI Risk and Compliance Workspace.
+1.  Raise an AI inquiry from the Employee Center or from the AI Risk and Compliance Workspace.
 
-<table id="choicetable_afh_4hk_23c"><thead><tr><th align="left" id="d255831e77">
+<table id="choicetable_afh_4hk_23c"><thead><tr><th align="left" id="d257405e79">
 
 Option
 
-</th><th align="left" id="d255831e80">
+</th><th align="left" id="d257405e82">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d255831e86">
+</th></tr></thead><tbody><tr><td id="d257405e88">
 
 **Raise an AI inquiry using the Employee Center**
 
@@ -43,7 +43,7 @@ Navigate to **All** &gt; **Self-Service** &gt; **Employee Center**. 1.  Select *
 2.  Select the **Raise an AI inquiry** card.
 **Note:** AI Risk and Compliance Business User and AI Asset owner can complete this option.
 
-</td></tr><tr><td id="d255831e135">
+</td></tr><tr><td id="d257405e137">
 
 **Raise an AI inquiry using the AI Risk and Compliance Workspace**
 
@@ -69,7 +69,7 @@ Navigate to **All** &gt; **Workspaces** &gt; **AI Risk and Compliance Workspace*
 
 The AI inquiry team receives the inquiry and provides the insights and support you need. A user with the AI Risk and Compliance Analyst role or AI Case Analyst role works on the AI inquiry created.
 
-An AI inquiry passes through: New, Triage, In progress, Awaiting approval, and Closed states.
+An AI inquiry passes through the New, Triage, In progress, Awaiting approval, and Closed states.
 
 ## What to do next
 
@@ -81,7 +81,7 @@ AI Case Analyst \[sn\_ai\_case\_mgmt.ai\_case\_analyst\]: Review the assigned AI
 
 AI Case Manager \[sn\_ai\_case\_mgmt.ai\_case\_manager\]: Review all AI inquiries, manage prioritization and assignment, and help ensure the inquiry progresses through the appropriate review and closure stages.
 
-For more information see, [AI cases and inquiries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/airc-cases-inquiries.md) and [AI governance life cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/ai-gov-lifecycle.md).
+For more information, see [AI cases and inquiries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/airc-cases-inquiries.md) and [AI governance life cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/ai-gov-lifecycle.md).
 
 -   **[Raise an AI inquiry form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/ai-risk-management/raise-ai-inquiry-form.md)**  
 Use the Raise an AI inquiry form to submit your questions about AI systems, models, or datasets and their business applications.
