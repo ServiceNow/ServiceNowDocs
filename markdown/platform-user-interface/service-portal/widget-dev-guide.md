@@ -8,7 +8,7 @@ product: Service Portal
 classification: service-portal
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 5
+reading_time_minutes: 6
 breadcrumb: [Service Portal, Configure UIs and portals, Configure user experiences]
 ---
 
@@ -151,6 +151,8 @@ Use the `${}` or `gs.getMessage()` syntax in the **HTML Template**, **Client Scr
 You can use widgets in Service Portal to replace UI Macros. If your Service Catalog form includes a UI Macro that references other fields or variables on the form, you can create a widget to hold reusable code and embed it within the Service Catalog form. Use special syntax to access any variable fields on the form.
 -   **[Widget troubleshooting guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/widget-troubleshooting-guide.md)**  
 Use the following tools to investigate and resolve unexpected behavior in your custom Service Portal widgets.
+-   **[Embeddables in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/embeddables-service-portal.md)**  
+Embeddables are UI Builder components that you can embed into Service Portal pages, external websites, and other web interfaces. Using embeddables, you can reuse existing components across multiple platforms without requiring an AngularJS rebuild. Embeddables enable low-code configuration of components, reducing development time and improving integration flexibility across your ServiceNow® ecosystem.
 
 **Parent Topic:**[Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/service-portal/c_ServicePortal.md)
 

@@ -82,7 +82,7 @@ The ServiceNow® Dispute Rules Content Pack for Visa application provides questi
     Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
 
 
--   **Visa Resolve Online \(VROL\) version 26.1 updates**
+-   **[Visa Resolve Online \(VROL\) version 26.1 updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/visa-spoke.md#section_gsl_nw5_vyb)**
 
     Updated the dispute questionnaire provided through the Dispute Rules Content Pack for Visa to align with Visa Resolve Online \(VROL\) release 26.1 revision changes.
 

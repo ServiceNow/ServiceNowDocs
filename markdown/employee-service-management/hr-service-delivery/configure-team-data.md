@@ -123,6 +123,8 @@ Option to add a script to retrieve the preferred records. This option allows you
 
 [Configure important dates in Manager Hub]()
 
+[Configure manager insights for ServiceNow Otto for HRSD]()
+
 [Configure team requests in Manager Hub]()
 
 [Configure team column data in Manager Hub]()

@@ -9,7 +9,7 @@ classification: ai-search
 topic_type: task
 last_updated: "2026-06-08"
 reading_time_minutes: 2
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [WordPress external content connector, Configure, External Content Connectors, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer]
 ---
 

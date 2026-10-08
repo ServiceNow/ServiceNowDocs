@@ -7,7 +7,7 @@ release: zurich
 topic_type: concept
 last_updated: "2026-09-02"
 reading_time_minutes: 5
-keywords: [Build Agent, ServiceNow Studio, ServiceNow IDE, access, development, AI agent, chat panel, Personal Development Instance, PDI, Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [Build Agent, ServiceNow Studio, ServiceNow IDE, access, development, AI agent, chat panel, Personal Development Instance, PDI, ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Use, Build Agent, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
 ---
 
@@ -19,11 +19,11 @@ Build Agent is available in ServiceNow Studio for UI-first, declarative workflow
 
 When you open ServiceNow Studio, the central chat area on the home page is where you chat with Build Agent to start a new conversation.
 
-\[Omitted image "ba-sns-full-page-chat.png"\] Alt text: ServiceNow Studio home screen with a Build Agent prompt input area, Recents panel, Recent chats panel, and Plans panel listing example plans with statuses.
+\[Omitted image "ba-sns-panel-left.png"\] Alt text: Home screen in ServiceNow Studio with the Build Agent panel open. For a description of the interface panels, refer to the surrounding text.
 
 To open an existing conversation, select the Conversations icon \[Omitted image "ba-sns-otto-nav-icon.png"\] Alt text: in the Navigator panel. The Build Agent panel then opens on the left.
 
-\[Omitted image "ba-sns-panel-left.png"\] Alt text: Home screen in ServiceNow Studio with the Build Agent panel open. For a description of the interface panels, refer to the surrounding text.
+\[Omitted image "ba-sns-full-page-chat.png"\] Alt text: ServiceNow Studio home screen with a Build Agent prompt input area, Recents panel, Recent chats panel, and Plans panel listing example plans with statuses.
 
 **Note:**
 

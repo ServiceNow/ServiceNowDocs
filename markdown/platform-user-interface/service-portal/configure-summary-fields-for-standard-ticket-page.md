@@ -43,5 +43,5 @@ Role required: admin and sp\_admin
 **Related topics**  
 
 
-[bundle-platcap.genai-summary-standard-ticket-page]
+[Generative AI summarization on the standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/genai-summary-standard-ticket-page.md)
 

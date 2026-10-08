@@ -235,7 +235,7 @@ The colleague's license plate details.
 
 8.  In the **Notification preferences** section, select the channel to be notified on when the visitor checks into the building.
 
-    You can link the Virtual Agent with other channels like Microsoft Teams or Slack. For more information, see .
+    You can link the Virtual Agent with other channels like Microsoft Teams or Slack. For more information, see [Integrating Virtual Agent with other channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/integrate-virtual-agent.md).
 
 9.  Select **Submit**.
 

@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/create-
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 10
+reading_time_minutes: 11
 keywords: [Create pivot table report, Create pivot table visualization]
 breadcrumb: [Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
@@ -178,6 +178,8 @@ Specify the text color of the title. The default title color is black, but you c
 
     -   Usage Insights \(available with the User Experience PAR Integration application, to users with a required role\). Choose one of up to three KPIs included with this application, depending on the visualization type. For more information, see [User Experience Analytics data sources for data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/uxa-data-sources.md).
     **Note:** You can choose multiple data sources for this visualization. However, all data sources must be of the same type: table, indicator, or Usage Insights. For more information, see [Multiple data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/multiple-data-sources.md).
+
+    Pivot table visualizations support a maximum of 15 data sources.
 
 6.  Select the options for your data source.
 

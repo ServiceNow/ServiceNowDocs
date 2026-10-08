@@ -7,7 +7,7 @@ release: zurich
 product: Web Services
 classification: web-services
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Access your ServiceNow data using Live Connect, Additional integration resources, Web services, API implementation, API implementation and reference]
 ---
@@ -26,15 +26,11 @@ Type
 
 Supported version
 
-</th></tr></thead><tbody><tr><td rowspan="2">
+</th></tr></thead><tbody><tr><td>
 
 Server
 
 </td><td>
-
-Zurich patch1
-
-</td></tr><tr><td>
 
 Zurich patch8
 
@@ -44,19 +40,27 @@ Client driver
 
 </td><td>
 
-ODBC v3.0.0
+ODBC v4.0.0
 
 </td></tr><tr><td>
 
-JDBC v2.0.0
+JDBC v4.0.0
 
 </td></tr><tr><td>
 
-Java Runtime
+Java Development Kit \(JDK\)
 
 </td><td>
 
 JDK 17
+
+</td></tr><tr><td>
+
+OAuth 2.0 authentication
+
+</td><td>
+
+Zurich patch13
 
 </td></tr><tr><td>
 
@@ -80,5 +84,5 @@ The ServiceNow ODBC driver supports installation on the following operating syst
 -   Windows 11
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Live Connect reference information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/troubleshooting.md)
+</table>**Parent Topic:**[Live Connect reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/api-reference/web-services/troubleshooting.md)
 

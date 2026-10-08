@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-collaborativeworkmanagement-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
-reading_time_minutes: 18
+last_updated: "2026-10-08"
+reading_time_minutes: 20
 breadcrumb: [Products combined by family]
 ---
 
@@ -137,7 +137,8 @@ Use the keyboard shortcut to quickly search for and go to a Space, Board, or Doc
     -   Windows OS: Alt + F
 Also, the Search bar displays all the recent Spaces, Boards, and Docs that you've navigated to within the CWM workspace so that you can quickly select from the recent items without having to search for them again.
 
--   **[Real-time collaboration in Docs](https://www.servicenow.com/docs/access?context=cwm-docs&family=yokohama&ft:locale=en-US)**
+
+ -   **[Real-time collaboration in Docs](https://www.servicenow.com/docs/access?context=cwm-docs&family=yokohama&ft:locale=en-US)**
 
 Edit a Doc page concurrently with multiple other editors. Colored cursors denote the current location of editors on the page. You can choose to show or hide these indicators.
 
@@ -197,7 +198,8 @@ Keep record information in your documentation current and reduce manual effort w
 
 You can add references from any ServiceNow table that you have access to, with no setup or configuration needed, thereby eliminate the hassle of switching between applications to copy and paste data from various records into Docs.
 
--   **[Agile sprint planning in CWM](https://www.servicenow.com/docs/access?context=agile-sprint-planning-in-cwm&family=zurich&ft:locale=en-US)**
+
+ -   **[Agile sprint planning in CWM](https://www.servicenow.com/docs/access?context=agile-sprint-planning-in-cwm&family=zurich&ft:locale=en-US)**
 
 Plan, track, and manage work for your teams by using Agile sprint planning in the CWM workspace. You can use CWM to manage tasks in multiple methodologies including ad hoc, waterfall, and Agile practices.
 
@@ -278,11 +280,26 @@ Yokohama
 
 </td><td>
 
--   **[Improved user experience for adding hyperlinks in Docs](https://www.servicenow.com/docs/access?context=cwm-docs&family=yokohama&ft:locale=en-US)**
+-   **[Improved navigation in the workspace](https://www.servicenow.com/docs/access?context=cwm-spaces&family=yokohama&ft:locale=en-US)**
+
+The improved navigation panel provides a simpler and cleaner user interface. At a given time, the navigation panel shows the contents of just one Space to provide a distraction-free experience while you work.Use the Spaces menu to choose a different Space or use the Search option to quickly find and open any Space, Board or Doc.Additionally, you can also choose to resize the navigation panel or collapse it altogether to increase the working area for your Boards or Docs.
+
+-   **[Verify content through browser spell checks](https://www.servicenow.com/docs/access?context=cwm-docs&family=yokohama&ft:locale=en-US)**
+
+Identify and manage incorrect spellings in typed or pasted content in a Doc. The incorrect spellings are highlighted automatically, and you can correct them using the right-click menu options on the highlighted word.
+
+
+ -   **[Improved user experience for adding hyperlinks in Docs](https://www.servicenow.com/docs/access?context=cwm-docs&family=yokohama&ft:locale=en-US)**
 
 Insert hyperlinks in a Doc easily and quickly through the formatting toolbar, inline commands, or by pasting a copied link. The pasted URL can be converted into a hyperlink by pressing the Space or Enter key and edited using the inline edit modal.
 
--   **[Improved user experience for copying links of Boards](https://www.servicenow.com/docs/access?context=board-views-in-cwm&family=yokohama&ft:locale=en-US)**
+
+ -   **[Numbering on automation cards](https://www.servicenow.com/docs/access?context=manage-or-delete-automations-in-cwm&family=yokohama&ft:locale=en-US)**
+
+Instead of record numbers, Board automation cards show a sequential list numbering of 1, 2, 3, and so on. Error messages use these list numbers so you can easily identify an existing automation from the list of available automations for the Board.
+
+
+ -   **[Improved user experience for copying links of Boards](https://www.servicenow.com/docs/access?context=board-views-in-cwm&family=yokohama&ft:locale=en-US)**
 
 Ensure that your team sees the same data as you while sharing links of your Boards through the **Copy link** action, which now accesses the linked workspace showing the view in which the Board is displayed to you regardless of the user's view settings.
 
@@ -320,7 +337,13 @@ Additionally, the Item type filter is refined to show all CWM tasks \(including 
         -   Copy content from one cell and paste it to multiple cells.
         -   Copy content from n number of cells and paste it to another set of n number of cells.
         -   Copy content from multiple cells and paste it as a new table in an empty block on the page.
--   **[Enhancements to CWM Board templates](https://www.servicenow.com/docs/access?context=templates-in-cwm-for-spaces-boards-and-docs&family=zurich&ft:locale=en-US)**
+
+ -   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+
+ -   **[Enhancements to CWM Board templates](https://www.servicenow.com/docs/access?context=templates-in-cwm-for-spaces-boards-and-docs&family=zurich&ft:locale=en-US)**
     -   While saving a Board as a template, choose between saving the current view or all shared views. You can see the number of Board views and custom task types that are included in this template.
 
 These details are displayed in the Template Center, where you can select a template that best meets your team's needs.
@@ -446,7 +469,12 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Install Collaborative Work Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
+
+**Important:** Collaborative Work Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 
@@ -454,7 +482,12 @@ Zurich
 
 </td><td>
 
-Install Collaborative Work Management by requesting it from the ServiceNow Store. 
+-   **Activation information**
+
+Install Collaborative Work Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
+
+**Important:** Collaborative Work Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -557,11 +590,12 @@ Yokohama
 
 </td><td>
 
--   **Accessibility improvements**
+-   **Accessibility information**
+    -   **Accessibility improvements**
 
 Accessibility improvements were completed to create a configurable workspace that supports WCAG 2.1 Level AA conformance.
 
--   **Reflow**
+    -   **Reflow**
 
 The CWM Configurable Workspace supports reflow, which enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality. Additionally, content can be enlarged without scrolling in two dimensions at a width equivalent to 320 CSS pixels or a height equivalent to 256 CSS pixels. Page layouts are transformed into a vertical, stacked view automatically when users increase browser zoom to 400%.
 
@@ -576,7 +610,11 @@ Zurich
 
 </td><td>
 
--   ****
+-   **Accessibility information**
+    -   **Dark theme**
+
+The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
 
 </td></tr></tbody>
 </table>## Localization information

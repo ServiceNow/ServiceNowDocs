@@ -94,6 +94,10 @@ A scheduled job that collects data from one or more indicator sources to produce
 
 An alternative architecture for indicators. This architecture uses a change data capture \(CDC\) process, which captures data changes from configurable tables that are optimized for generating scores and time series at run-time. Data snapshots avoid the need for breakdown matrices, allowing unlimited breakdowns.
 
+## \[score\] forecast
+
+A prediction of future Performance Analytics indicator scores based on past behavior. Visible in time series data visualizations/widgets and KPI Details.
+
 ## formula indicator
 
 Produces a computed indicator score from one or more other indicators. Besides indicator scores, the formula can include calculations such as the gap between an indicator score and the indicator target.

@@ -16,7 +16,7 @@ Create and configure ServiceNow cloud accounts at ServiceNow AI Platform for the
 
 -   **[Set up Oracle Cloud infrastructure \(OCI\) service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/set-up-oracle-cloud-infrastructure-oci-service-accounts.md)**  
 Create and configure cloud service accounts at ServiceNow AI Platform for the corresponding Oracle Cloud Infrastructure \(OCI\) service accounts.
--   **[Setting up AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/setup-aws-service-accounts.md)**  
+-   **[Setup AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/setup-aws-service-accounts.md)**  
 Create and configure cloud service accounts at ServiceNow AI Platform for the corresponding Amazon Web Services \(AWS\) service accounts.
 -   **[Set up Azure service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/setup-azure-service-accounts.md)**  
 Create and configure cloud service accounts at ServiceNow AI Platform for the corresponding Microsoft Azure accounts.

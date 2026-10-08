@@ -20,6 +20,8 @@ If you have the admin role, you can install the Dispute Rules Content Pack for N
 
 Role required: admin
 
+Before you install Dispute Rules Content Pack for Nacha, you must activate Financial Services Card Operations. For details, see [Plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/financial-services-operations/dispute-management/components-installed-with-dispute-rules-content-pack-for-nacha.md).
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **System Applications** &gt; **All Available Applications** &gt; **All**.

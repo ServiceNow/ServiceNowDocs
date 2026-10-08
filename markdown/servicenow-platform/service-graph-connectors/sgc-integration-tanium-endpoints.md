@@ -1,22 +1,22 @@
 ---
-title: Service Graph Connector for Tanium Endpoints
-description: Use the Service Graph Connector for Tanium Endpoints to integrate the data discovered by Tanium into your ServiceNow instance to support various use cases.
+title: Service Graph Connector for Tanium Atlas Endpoints
+description: Use the Service Graph Connector for Tanium Atlas Endpoints to integrate the data discovered by Tanium into your ServiceNow instance to support various use cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-graph-connectors/sgc-integration-tanium-endpoints.html
 release: zurich
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: concept
-last_updated: "2026-05-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Service Graph Connector for Tanium Endpoints
+# Service Graph Connector for Tanium Atlas Endpoints
 
-Use the Service Graph Connector for Tanium Endpoints to integrate the data discovered by Tanium into your ServiceNow instance to support various use cases.
+Use the Service Graph Connector for Tanium Atlas Endpoints to integrate the data discovered by Tanium into your ServiceNow instance to support various use cases.
 
-**Important:** The Service Graph Connector for Tanium Endpoints populates the Computer class with user-facing endpoints, and doesn't import data from the Server child class. Use this connector if you don't require Server data. If you require Server data, use the Service Graph Connector for Tanium.
+**Important:** The Service Graph Connector for Tanium Atlas Endpoints populates the Computer class with user-facing endpoints, and doesn't import data from the Server child class. Use this connector if you don't require Server data. If you require Server data, use the Service Graph Connector for Tanium.
 
 ## Request apps on the Store
 
@@ -30,7 +30,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 ## Use cases
 
-The Service Graph Connector for Tanium Endpoints enables your IT Asset Management \(ITAM\) use cases. The following examples describe how you can use the Service Graph Connector for Tanium Endpoints:
+The Service Graph Connector for Tanium Atlas Endpoints enables your IT Asset Management \(ITAM\) use cases. The following examples describe how you can use the Service Graph Connector for Tanium Atlas Endpoints:
 
 -   Maintain an accurate and up-to-date inventory of Tanium configuration items \(CIs\) in the CMDB.
 -   Identify and assess dependencies between CIs discovered by Tanium.
@@ -39,20 +39,20 @@ The Service Graph Connector for Tanium Endpoints enables your IT Asset Managemen
 
 ## Configuring a connection for the connector
 
-Use the SGC Central view in the Service Graph Workspace or CMDB Workspace to install the connector and configure the connection. The view enables you to install and discover connectors and to manage the full life cycle of creating, editing, monitoring, and debugging connections. For instructions, see [Configure Service Graph Connector for Tanium Endpoints using SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/sgcc-configure-tanium-endpoints.md).
+Use the SGC Central view in the Service Graph Workspace or CMDB Workspace to install the connector and configure the connection. The view enables you to install and discover connectors and to manage the full life cycle of creating, editing, monitoring, and debugging connections. For instructions, see [Configure Service Graph Connector for Tanium Atlas Endpoints using SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/sgcc-configure-tanium-endpoints.md).
 
 ## CMDB integrations dashboard
 
-The Integration Commons for CMDB store app provides a dashboard with a central view of the status, processing results, and processing errors of all installed integrations. You can see metrics for all integration runs. You can filter the view to a specific CMDB integration, a specific time duration, or a specific integration run. For more details about monitoring Tanium Endpoints integrations in the CMDB Integrations Dashboard, see [Using the CMDB Integrations Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/cmdb-integration-commons/integration-commons-for-cmdb.md).
+The Integration Commons for CMDB store app provides a dashboard with a central view of the status, processing results, and processing errors of all installed integrations. You can see metrics for all integration runs. You can filter the view to a specific CMDB integration, a specific time duration, or a specific integration run. For more details about monitoring Tanium Atlas Endpoints integrations in the CMDB Integrations Dashboard, see [Using the CMDB Integrations Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/cmdb-integration-commons/integration-commons-for-cmdb.md).
 
 **Related topics**  
 
 
 [Service Graph Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/cmdb-sgc-available.md)
 
-[Configure Service Graph Connector for Tanium Endpoints using SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/sgcc-configure-tanium-endpoints.md)
+[Configure Service Graph Connector for Tanium Atlas Endpoints using SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/sgcc-configure-tanium-endpoints.md)
 
-[CMDB classes targeted in Service Graph Connector for Tanium Endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/sgc-tanium-endpoints-classes.md)
+[CMDB classes targeted in Service Graph Connector for Tanium Atlas Endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/sgc-tanium-endpoints-classes.md)
 
-[Data mapping for Service Graph Connector for Tanium Endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/sgc-data-mapping-tanium-endpoints.md)
+[Data mapping for Service Graph Connector for Tanium Atlas Endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/sgc-data-mapping-tanium-endpoints.md)
 

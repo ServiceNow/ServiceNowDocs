@@ -32,7 +32,7 @@ Learn about Public Sector Digital Services \(PSDS\) features to help create a se
 
 </td></tr><tr><td>
 
-[Information Request Playbook \[Omitted image "bus-discover.svg"\] Alt text:Handle public record and information requests.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-exploring-pbs-information-request.md)
+[Information Request Administration \[Omitted image "bus-discover.svg"\] Alt text:Handle public record and information requests.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-exploring-pbs-information-request.md)
 
 </td><td>
 

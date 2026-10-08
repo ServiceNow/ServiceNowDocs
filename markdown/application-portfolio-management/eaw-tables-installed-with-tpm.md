@@ -60,7 +60,7 @@ TPM Technology Lifecycle Exception \[sn\_apm\_tpm\_technology\_lifecycle\_except
 
 </td><td>
 
-Stores the life cycles that were approximated or couldn’t be found from Software Asset Management \(SAM\) Professional or Hardware Asset Management \(HAM\) Professional.
+Stores the lifecycles that were approximated or couldn’t be found from Software Asset Management \(SAM\) Professional or Hardware Asset Management \(HAM\) Professional.
 
 </td></tr><tr><td>
 

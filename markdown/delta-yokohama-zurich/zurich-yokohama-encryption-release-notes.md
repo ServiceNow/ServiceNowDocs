@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-encryption-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
+last_updated: "2026-10-08"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -46,13 +46,15 @@ Zurich
 
 </td><td>
 
+-   **Upgrade information**
+
 For the GlideEncrypter API, NIST 800-131A Rev 2 has recommended against using the Triple Data Encryption Standard \(3DES\) encryption. The following changes are taking place in the Zurich release with the official removal of 3DES encryption for GlideEncrypter.
 
--   The GlideEncrypter API defaults to using the Key Management Framework \(KMF\) based algorithm, Advanced Encryption Standard \(AES\), for encryption and decryption operations for upgraded instances only.
--   For instances created with the Zurich release or later, this API isn’t supported.
--   Learn more about 3DES deprecation in [KB1704481](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1704481).
+    -   The GlideEncrypter API defaults to using the Key Management Framework \(KMF\) based algorithm, Advanced Encryption Standard \(AES\), for encryption and decryption operations for upgraded instances only.
+    -   For instances created with the Zurich release or later, this API isn’t supported.
+    -   Learn more about 3DES deprecation in [KB1704481](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1704481).
+In the Zurich release, Column Level Encryption has received a required upgrade to Key Management Framework Column Level Encryption \(KMF-CLE\) due to the platform-wide deprecation of 3DES. For more information about this upgrade, see KB1700704.
 
- In the Zurich release, Column Level Encryption has received a required upgrade to Key Management Framework Column Level Encryption \(KMF-CLE\) due to the platform-wide deprecation of 3DES. For more information about this upgrade, see KB1700704.
 
 </td></tr></tbody>
 </table>## New features
@@ -206,9 +208,12 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 The Platform Encryption subscription bundle is a group commercial entitlement that includes Field Encryption Enterprise and Cloud Encryption.
 
- Field Encryption Enterprise is the unlimited license of Field Encryption. The Enterprise plugin is available with the activation of the com.glide.now.platform.encryption plugin. For details, see the [Encryption and Key Management subscription bundle](https://www.servicenow.com/docs/access?context=encryption-sku&family=zurich&ft:locale=en-US).
+Field Encryption Enterprise is the unlimited license of Field Encryption. The Enterprise plugin is available with the activation of the com.glide.now.platform.encryption plugin. For details, see the [Encryption and Key Management subscription bundle](https://www.servicenow.com/docs/access?context=encryption-sku&family=zurich&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements

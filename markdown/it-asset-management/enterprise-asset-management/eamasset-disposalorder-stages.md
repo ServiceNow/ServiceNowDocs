@@ -35,7 +35,7 @@ Closing a task in the asset disposal process completes that task and automatical
 
 [Domain separation and Enterprise Asset Management]()
 
-[Enterprise Asset Management roles]()
+[Components installed with Enterprise Asset Management]()
 
 [OT Asset Workspace roles]()
 

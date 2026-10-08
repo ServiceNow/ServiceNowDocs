@@ -9,7 +9,7 @@ classification: ai-search
 topic_type: concept
 last_updated: "2026-01-22"
 reading_time_minutes: 8
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Explore, External Content Connectors, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer]
 ---
 
@@ -92,7 +92,7 @@ Connector administrators can configure crawl settings for each external content 
 
 [Configure crawl settings for a Workvivo external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-crawl-settings-workvivo-external-content-connector.md)
 
-[Configure crawl settings for a Zendesk Guide external crawl connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-crawl-settings-zendesk-guide-external-crawl-connector.md)
+[Configure crawl settings for a Zendesk Guide external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-crawl-settings-zendesk-guide-external-content-connector.md)
 
 [Configure crawl settings for a Zoom external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-crawl-settings-zoom-external-content-connector.md)
 

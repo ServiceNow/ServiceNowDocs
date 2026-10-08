@@ -1,6 +1,6 @@
 ---
 title: Configure a persona
-description: Create a persona to bind the API token that is used by the Service Graph Connector for Tanium Endpoints. If a persona for the integration already exists, edit it. Use a persona only if a service account isn't permitted by your organization.
+description: Create a persona to bind the API token that is used by the Service Graph Connector for Tanium Atlas Endpoints. If a persona for the integration already exists, edit it. Use a persona only if a service account isn't permitted by your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-graph-connectors/sgc-tanium-endpoints-configure-persona.html
 release: zurich
@@ -9,12 +9,12 @@ classification: service-graph-connectors
 topic_type: task
 last_updated: "2026-06-08"
 reading_time_minutes: 1
-breadcrumb: [Configure the Tanium environment, Tanium Endpoints, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Configure the Tanium environment, Tanium Atlas Endpoints, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Configure a persona
 
-Create a persona to bind the API token that is used by the Service Graph Connector for Tanium Endpoints. If a persona for the integration already exists, edit it. Use a persona only if a service account isn't permitted by your organization.
+Create a persona to bind the API token that is used by the Service Graph Connector for Tanium Atlas Endpoints. If a persona for the integration already exists, edit it. Use a persona only if a service account isn't permitted by your organization.
 
 ## Before you begin
 

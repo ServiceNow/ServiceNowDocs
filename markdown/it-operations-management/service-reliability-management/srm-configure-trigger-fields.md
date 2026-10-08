@@ -34,15 +34,15 @@ Configure additional fields that teams can use when setting up escalation trigge
 
     **Note:** Selecting fields not listed in the table might cause performance issues.
 
-<table id="choicetable_uxy_qdw_3hc"><thead><tr><th align="left" id="d400120e108">
+<table id="choicetable_uxy_qdw_3hc"><thead><tr><th align="left" id="d408101e108">
 
 Table
 
-</th><th align="left" id="d400120e111">
+</th><th align="left" id="d408101e111">
 
 Supported fields
 
-</th></tr></thead><tbody><tr><td id="d400120e117">
+</th></tr></thead><tbody><tr><td id="d408101e117">
 
 **em\_alert**
 
@@ -57,7 +57,7 @@ Supported fields
 -   Overall Event Count
 
 
-</td></tr><tr><td id="d400120e151">
+</td></tr><tr><td id="d408101e151">
 
 **incident**
 

@@ -7,8 +7,8 @@ release: zurich
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: concept
-last_updated: "2026-06-02"
-reading_time_minutes: 7
+last_updated: "2026-09-10"
+reading_time_minutes: 8
 breadcrumb: [Explore, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
 
@@ -19,6 +19,8 @@ With the integration of Smart Assessment Engine \(SAE\), TPRM now supports both 
 ## SAE overview
 
 The Smart Assessment Engine in Vendor Management Workspace enables you to create both internal and external questionnaires using configurable templates, logical grouping of questions, inline guidance, and automations.
+
+In the Vendor Management Workspace, you can view the templates available for TPRM. Confirm that the assessment template category is set to one of the supported TPRM template purposes. Also confirm that assessment targets are set to **Third party** and **Engagement**, along with any related components such as subsidiaries or engagement risk assessments that apply to your assessment. Only the assessment templates that are published are available for performing the assessments.
 
 For more information about the Smart Assessment Engine application, refer to [Exploring Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/smart-assessment-engine/smart-assessment-engine-cf-explore.md).
 
@@ -42,6 +44,10 @@ The new assessment experience offers the following benefits.
 -   Combine assessments: Respond to questionnaires by using the same SAE template in a single, streamlined view.
 -   Risk scoring and score normalization: Standardize the risk scores for a consistent evaluation using the more flexible scoring settings available in SAE.
 -   Support for the GRC and third-party portals: Internal assessment responders can use the GRC portal to access and complete internal assessments and external assessment responders can use third-party portal to complete external assessments.
+-   Question-level comments, worknotes, and flags are available in SAE assessments. Any user with read access to an assessment instance can add and view question-level comments. Worknotes and question flags require a role assigned at the template category level. TPRM reviewers, assessors, and managers have this access in all out-of-the-box TPRM template categories. Third party and engagement contacts can view and respond to question-level comments but cannot access worknotes or set question flags.
+-   When a question triggers a skip, downstream conditional questions are hidden and sections containing only skipped questions are visually de-emphasized. Assessments render in a continuous scroll layout, making it easier to focus on relevant questions without scrolling past hidden content.
+-   TPR assessors \[sn\_vdr\_risk\_asmt.vendor\_assessor\], TPR managers \[sn\_vdr\_risk\_asmt.vendor\_risk\_manager\] roles, and Third-party risk \(TPR\) administrators \[sn\_vdr\_risk\_asmt.vendor\_risk\_admin\], can reassign SAE questionnaires to another user.
+-   Risk rating after submission: The risk rating for an assessment is now correctly written to the assessment record after the third party submits their response.
 
 ## Smart Assessment Engine limitations
 
@@ -49,14 +55,13 @@ SAE with TPRM has the following limitations.
 
 -   All new assessments must use SAE questionnaire templates.
 -   Third-party risk assessors can no longer create issues from the View responses page. Issues generation rules can be used to create issues automatically.
--   Third-party risk assessors can no longer create comments on individual questions. They can only use the comment section at the questionnaire level.
 -   The signature feature isn’t supported.
 -   Automatic attachment of questionnaires to external assessments based on inherent risk questionnaire \(IRQ\) responses or IRQ-calculated risk tiers is currently not supported in Smart Assessment Engine.
 -   The following question types aren’t supported: Percentage, ranking, image scale, and custom metric aren’t supported. You must either convert these question types to supported formats before migration or create new questions in the template designer after migration.
 
     **Note:** For the percentage and image scale question types, customers can use the Number type and Radio button type, respectively. Ranking and custom metric question types aren't supported.
 
--   In the Third‑party portal,the Excel export option available for Classic assessments is not supported for SAE assessments.
+-   In the Third-party portal, the Excel export option available for Classic assessments is not supported for SAE assessments.
 -   If a section in the classic template contains only unsupported questions, an empty section is created in the TPRM SAE template. TPRM SAE templates with empty sections can’t be published; therefore, you must either add replacement questions to these sections or delete the empty sections before publishing.
 
     For more information on migration results, migration limitations, and creating TPRM SAE questionnaires, see [Results of migrating a template to a TPRM SAE template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-migrate-asmnt-template-result.md) and [Create a TPRM SAE questionnaire or document request template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/create-sae-q-template.md).

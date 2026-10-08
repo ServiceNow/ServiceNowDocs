@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2026-08-19"
 reading_time_minutes: 1
-keywords: [Build Agent, document application, README, ServiceNow IDE, Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [Build Agent, document application, README, ServiceNow IDE, ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Use, Build Agent, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
 ---
 

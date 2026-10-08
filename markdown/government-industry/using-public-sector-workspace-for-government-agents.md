@@ -31,7 +31,7 @@ Public Sector Digital Services provides agents across government agencies with a
     -   Grants Management
     -   Social Benefits Playbook
     -   License and Permit Playbook
-    -   Information Request Playbook
+    -   Information Request Administration
     -   Service Request Playbook
     To learn more about playbooks, see [Playbooks for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/playbooks-psds-exploring.md).
 

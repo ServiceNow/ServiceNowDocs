@@ -165,7 +165,7 @@ The ServiceNow® AI agents provides solutions that can perceive the environment,
 
     Auto-migrate all the AI Agent Studio skills from on-glide execution path to the off-glide execution path.
 
--   **[Deny-by-default ACL configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/aia-acl-configuration.md)**
+-   ****
 
     Enforce deny-by-default access control for AI agentic record types \(`gen_ai_agent`, `gen_ai_workflow`, `gen_ai_skill`, `Flow`, `flow_action`\) for newly activated ServiceNow instances. In previous releases, these types defaulted to allow access.
 

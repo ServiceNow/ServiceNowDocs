@@ -22,7 +22,7 @@ Role required: sn\_apm.apm\_user
 
 1.  Navigate to **Workspace** &gt; **Enterprise Architecture Workspace**.
 
-2.  Open the Technology Portfolio page by selecting the Technology Portfolio icon \[Omitted image "technology-portfolio-icon.png"\] Alt text: Technology portfolio icon.
+2.  Open the Technology Portfolio page by selecting the Technology Portfolio icon \[Omitted image "technology-portfolio-icon.png"\] Alt text:.
 
 3.  Select **Request TRM product**.
 

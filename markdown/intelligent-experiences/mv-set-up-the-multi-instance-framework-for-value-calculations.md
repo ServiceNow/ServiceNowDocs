@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/mv-set-up-the-multi-instance-framework-for-value-calculations.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-16"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [Value, Configure, Measure AI system, Measure AI systems, AI Control Tower, Enable AI experiences]
 ---
@@ -19,7 +19,7 @@ Connect a subproduction instance to a production instance through the Multi-Inst
 Before you begin:
 
 -   You must have access to both the subproduction and the production instances.
--   Role required: `sn_ai_governance_ai_steward`
+-   Role required: `sn_ai_governance.ai_steward`
 
 ## About this task
 

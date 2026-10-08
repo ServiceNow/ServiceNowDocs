@@ -62,6 +62,8 @@ View the open hardware asset pick tasks for your stockroom to get the details of
 
 [Create an internal lifecycle in the Hardware Asset Workspace]()
 
+[Calculate the active lifecycle phase for a model]()
+
 [Receive asset warranty details from Lenovo]()
 
 [Manage stockrooms]()

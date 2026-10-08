@@ -1,6 +1,6 @@
 ---
-title: Software asset overview for Software Asset Management Foundation plugin dashboard
-description: Enhance your Software Asset Management Foundation plugin experience by using the modernized and user-friendly software asset overview dashboard. The software asset overview is a simplified and intuitive environment that helps you use the application more effectively by reducing complexity.
+title: Software asset overview for Basic Software Asset Management dashboard
+description: Enhance your Basic Software Asset Management experience by using the modernized and user-friendly software asset overview dashboard. The software asset overview is a simplified and intuitive environment that helps you use the application more effectively by reducing complexity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/software-asset-management-foundation-plugin/software-asset-overview-samf.html
 release: zurich
@@ -9,12 +9,12 @@ classification: software-asset-management-foundation-plugin
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Using Software Asset Management Foundation plugin workspace, Software Asset Management Foundation plugin, ITSM Software Asset Management, Asset Management, IT Service Management]
+breadcrumb: [Using Basic Software Asset Management workspace, Basic Software Asset Management, ITSM Software Asset Management, Asset Management, IT Service Management]
 ---
 
-# Software asset overview for Software Asset Management Foundation plugin dashboard
+# Software asset overview for Basic Software Asset Management dashboard
 
-Enhance your Software Asset Management Foundation plugin experience by using the modernized and user-friendly software asset overview dashboard. The software asset overview is a simplified and intuitive environment that helps you use the application more effectively by reducing complexity.
+Enhance your Basic Software Asset Management experience by using the modernized and user-friendly software asset overview dashboard. The software asset overview is a simplified and intuitive environment that helps you use the application more effectively by reducing complexity.
 
 Use the software asset overview view to:
 
@@ -74,5 +74,5 @@ Product Results\[samp\_product\_result\]
 Cost to be compliant based on the average prices in entitlements for the rights by publisher.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Using Software Asset Management Foundation plugin workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/software-asset-management-foundation-plugin/using-samf-workspace.md)
+</table>**Parent Topic:**[Using Basic Software Asset Management workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/software-asset-management-foundation-plugin/using-samf-workspace.md)
 

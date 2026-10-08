@@ -42,4 +42,8 @@ By default, all skills exist in the global domain. When you use AI in a domain-s
 
     To reduce debugging and resolution time and effort, the Service Graph Connector diagnosis skill generates summaries of errors and recommendations for resolving processing errors with SGC import sets. For more information, see [Fix SGC import set issues with the ServiceNow Otto SGC diagnosis skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)
 
+-   **Remediating stale CIs using the staleness skill**
+
+    The staleness agentic workflow identifies, evaluates, and remediates stale configuration items \(CIs\) in the CMDB.
+
 

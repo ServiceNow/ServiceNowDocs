@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-complian
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Configure, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
@@ -25,6 +25,8 @@ Configurations and customizations: When you update an application property, it's
 ## Procedure
 
 1.  Navigate to **All** &gt; **System Properties** &gt; **All Properties**.
+
+    **Important:** This module is visible only to users with the Maint \(Maintenance\) role. If you do not have this role, ask your system administrator to grant it or to perform this step on your behalf.
 
 2.  Filter the properties for GRC: Operational Resilience application.
 

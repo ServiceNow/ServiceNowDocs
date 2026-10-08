@@ -25,17 +25,19 @@ Role required: snc\_internal
 
 ## Procedure
 
-1.  Open a demand from **My Demands** or **Requests**.
+1.  Navigate to **Employee Slate** &gt; **Canvas**.
 
-<table id="choicetable_dx3_nxp_jkc"><thead><tr><th align="left" id="d120037e93">
+2.  Open a demand from **My Demands** or **Requests**.
+
+<table id="choicetable_dx3_nxp_jkc"><thead><tr><th align="left" id="d120305e108">
 
 Goal
 
-</th><th align="left" id="d120037e96">
+</th><th align="left" id="d120305e111">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d120037e102">
+</th></tr></thead><tbody><tr><td id="d120305e117">
 
 **From My Demands**
 
@@ -47,7 +49,7 @@ Action
     2.  Select a demand from the list.
 
 
-</td></tr><tr><td id="d120037e128">
+</td></tr><tr><td id="d120305e143">
 
 **From Requests**
 
@@ -60,16 +62,16 @@ Action
 
 
 </td></tr></tbody>
-</table>2.  In the Demand Details section, select the Edit icon.
+</table>3.  In the Demand Details section, select the Edit icon.
 
-3.  Update the fields.
+4.  Update the fields.
 
     For information on the field values, see [Demand form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/demand-form-ppw.md).
 
-4.  Select **Save**.
+5.  Select **Save**.
 
 
 ## Result
 
-After you submit the demand, the fields are set to read-only, though you can still add comments and attachments.
+After you submit the demand, the fields are set to read-only. You can still add comments and attachments.
 

@@ -7,7 +7,7 @@ release: zurich
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
 breadcrumb: [Reference, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -320,6 +320,9 @@ Relationships:
 -   The SAE Questionnaire Template component has a one-to-many relationship with the Post-assessment Automation component.
 
 For more information on Smart Assessment Engine and TPRM, see [Smart assessments with Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-sae-using.md).
+
+-   **[SBOM records and relationships in Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-sbom-relationship.md)**  
+The records, related lists, and relationships created when you collect SBOM data in Third-party Risk Management, and how those records relate to engagements and third parties.
 
 **Parent Topic:**[Third-party Risk Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-reference.md)
 

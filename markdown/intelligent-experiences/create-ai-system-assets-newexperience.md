@@ -16,7 +16,7 @@ Create AI assets to track and manage the life cycles of your AI systems
 
 ## Before you begin
 
-Role required: sn\_ai\_governance\_ai\_steward or sn\_ai\_asset\_mgmt.ai\_asset\_owner
+Role required: sn\_ai\_governance.ai\_steward or sn\_ai\_asset\_mgmt.ai\_asset\_owner
 
 **Note:** Users with the AI asset owner \[sn\_ai\_asset\_mgmt.ai\_asset\_owner\] role can only create AI assets and submit them for life-cycle review. They can't start or complete any life-cycle reviews.
 
@@ -108,7 +108,7 @@ Managed by
 
 </td><td>
 
-User who is assigned to manage the AI system. This field is automatically set to the user who creates the AI system asset.**Note:** This field is editable only if you have the AI steward \[sn\_ai\_governance\_ai\_steward\] role. If you have the AI asset owner \[sn\_ai\_asset\_mgmt.ai\_asset\_owner\] role, this field is read-only.
+User who is assigned to manage the AI system. This field is automatically set to the user who creates the AI system asset.**Note:** This field is editable only if you have the AI steward \[sn\_ai\_governance.ai\_steward\] role. If you have the AI asset owner \[sn\_ai\_asset\_mgmt.ai\_asset\_owner\] role, this field is read-only.
 
 </td></tr><tr><td>
 
@@ -325,21 +325,21 @@ Additional information or context that helps clarify the specific use and purpos
 
     The Asset record page opens and your asset is in an unmanaged state. You can edit details related to your asset on the **Details** tab by using the pencil icon in the sections titled **About this asset** and **Use and purpose**.
 
-11. If you have the AI steward \[sn\_ai\_governance\_ai\_steward\] role, select the **Actions** menu and then select **Start lifecycle review**.
+11. If you have the AI steward \[sn\_ai\_governance.ai\_steward\] role, select the **Actions** menu and then select **Start lifecycle review**.
 
-    **Important:** Only users with the AI steward \[sn\_ai\_governance\_ai\_steward\] role can start the life-cycle review.
+    **Important:** Only users with the AI steward \[sn\_ai\_governance.ai\_steward\] role can start the life-cycle review.
 
     The Start AI steward review dialog box opens.
 
 12. In the **Managed by** field of the dialog box, search for and select the user that you want to assign the life-cycle review to.
 
-    **Important:** You must select a user with the AI steward \[sn\_ai\_governance\_ai\_steward\] role.
+    **Important:** You must select a user with the AI steward \[sn\_ai\_governance.ai\_steward\] role.
 
 13. Select **Start review**.
 
     The asset automatically changes from an unmanaged asset to a managed asset and starts the onboarding workflow. The Lifecycle tab now contains three sub tabs: **Onboard**, **Maintain**, and **Retire**. The **Maintain**, and **Retire** are disabled and are enabled once onboarding is complete.
 
-    The **Onboard** sub tab contains the Onboarding playbook with tasks displayed. If tasks are not already present in the Onboarding playbook, users with the AI steward \[sn\_ai\_governance\_ai\_steward\] role can create tasks by selecting **New** and assign them to other AI stewards.
+    The **Onboard** sub tab contains the Onboarding playbook with tasks displayed. If tasks are not already present in the Onboarding playbook, users with the AI steward \[sn\_ai\_governance.ai\_steward\] role can create tasks by selecting **New** and assign them to other AI stewards.
 
 14. If you're assigned to the life-cycle review, select **Mark complete** to complete each activity in the onboarding playbook.
 

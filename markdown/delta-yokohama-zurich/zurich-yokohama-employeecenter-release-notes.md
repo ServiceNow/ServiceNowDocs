@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-employeecenter-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
-reading_time_minutes: 7
+last_updated: "2026-10-08"
+reading_time_minutes: 8
 breadcrumb: [Products combined by family]
 ---
 
@@ -119,21 +119,17 @@ Zurich
 
 </td><td>
 
-[Zurich Patch 1](https://www.servicenow.com/docs/access?context=zurich-patch-1&family=zurich&ft:locale=en-US)
-
 -   **[Check latest company news and events](https://www.servicenow.com/docs/access?context=check-company-newsevent-ai-agent-for-emp-exp&family=zurich&ft:locale=en-US)**
 
 Use the **Company News and Events AI Agent** to enable employees to check their company-related news and any upcoming events using the Now Assist in Virtual Agent.
 
 
--   **[ServiceNow Otto for Employee Experience Summarization skill](https://www.servicenow.com/docs/access?context=activate-now-assist-skills-uex&family=zurich&ft:locale=en-US)**
+ -   **[ServiceNow Otto for Employee Experience Summarization skill](https://www.servicenow.com/docs/access?context=activate-now-assist-skills-uex&family=zurich&ft:locale=en-US)**
 
 Enable a summary of the request, requested item, or case for approval task using ServiceNow Otto for Employee Experience. The skill provides a summary of the selected item from the available list that you want to work on.
 
 
- Zurich Early Availability
-
--   **[ServiceNow Otto for Employee Experience plugin](https://www.servicenow.com/docs/access?context=now-assisit-employee-exp&family=zurich&ft:locale=en-US)**
+ -   **[ServiceNow Otto for Employee Experience plugin](https://www.servicenow.com/docs/access?context=now-assisit-employee-exp&family=zurich&ft:locale=en-US)**
 
 Enable employees to resolve and approve tasks easily through chat conversation using the ServiceNow Otto for Employee Experience plugin with Now Assist in Virtual Agent.
 
@@ -197,7 +193,10 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
 
 </td></tr></tbody>
 </table>## Removed
@@ -276,7 +275,12 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Install the Employee Center plugin by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
+
+**Important:** Employee Center is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 
@@ -284,7 +288,12 @@ Zurich
 
 </td><td>
 
-Install Employee Center by requesting it from the ServiceNow Store. 
+-   **Activation information**
+
+Install Employee Center by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
+
+**Important:** Employee Center is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -342,7 +351,10 @@ Zurich
 
 </td><td>
 
+-   **Browser requirements**
+
 The Browser Extension for Employee Center is only available with Google Chrome or Microsoft Edge browsers.
+
 
 </td></tr></tbody>
 </table>## Accessibility information

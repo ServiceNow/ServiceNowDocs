@@ -41,7 +41,7 @@ Choose one of these tiles to get started.
 
 </td></tr><tr><td>
 
-[Conversational Interfaces\[Omitted image "bus-community.svg"\] Alt text:Learn how users can engage with live agents and virtual agents and how generative AI can enhance these interactions.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/convint-landing-page.md)
+Conversational Interfaces\[Omitted image "bus-community.svg"\] Alt text:Learn how users can engage with live agents and virtual agents and how generative AI can enhance these interactions.
 
 </td><td>
 

@@ -19,6 +19,11 @@ Administrators and partners use the AI-powered Widget Builder to generate, clone
 
 The Widget Builder is the single authoring surface for all Employee Slate canvas widgets. It combines a widget library, an AI chat panel, and an inline code and preview workspace. Administrators move from a written requirement to a working widget without leaving the tool.
 
+**Important:** The AI-powered Widget Builder version 1.3.7 has a new architecture backed by source code. It has the following changes.
+
+-   The widgets built in the old format shows an upgrade prompt with an **Upgrade** button. Without the upgrade, the old widget stays usable but non-editable.
+-   The upgrade converts the widget automatically with no functional loss.
+
 ## Widget library
 
 The first card in the Widget Builder lists every widget available in the instance. Administrators use the library to:

@@ -7,7 +7,7 @@ release: zurich
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: concept
-last_updated: "2026-02-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
 breadcrumb: [Configure, ServiceNow Otto for CSM, Customer Service Management]
@@ -21,12 +21,11 @@ Verify that:
 
 -   You have the required admin role.
 -   ServiceNow Otto for CSM skills are active in your instance.
--   Analytics data collection is enabled.
 -   You have at least one ServiceNow Otto for CSM product configured.
 
 ## View the Skills Performance dashboard
 
-1.  Navigate to **AI Admin Hub** &gt; **Analytics** &gt; **Skills Performance**.
+1.  Navigate to **AI Admin Hub** &gt; **Performance** &gt; **Skills Performance**.
 2.  Use the filters to refine your view:
 
     -   **Date**: Select the time period to analyze
@@ -50,7 +49,7 @@ Usage metrics across the following ServiceNow Otto for CSM skills are:
 
 ## Understand the performance indicators
 
-The GenAI skills dashboards within Platform Analytics provide comprehensive metrics for tracking skill usage across CSM record and interaction pages. The dashboards include several default widgets that deliver insight into skill performance and user adoption. The **Skills Performance** dashboard provides the following key visualizations:
+The GenAI skills dashboard provides comprehensive metrics for tracking skill usage across CSM record and interaction pages. The dashboards include several default widgets that deliver insight into skill performance and user adoption. The **Skills Performance** dashboard provides the following key visualizations:
 
 Default widgets:
 
@@ -66,7 +65,7 @@ Custom widgets:
 
 **Note:**
 
--   Sentiment analysis on case, KB Generation skills do not have all 6 widgets.
+-   Sentiment analysis on case, KB Generation skills don't have all 6 widgets.
 -   Sentiment analysis doesn't have Daily active users, Skill Usage Trend by Customer Agents, AI actions per assignment group.
 -   KB generation doesn't have Acceptance rate and Skills feedback.
 

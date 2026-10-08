@@ -7,7 +7,7 @@ release: zurich
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2025-08-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Activate ServiceNow Otto Skills, Configure, ServiceNow Otto for CSM, Customer Service Management]
 ---
@@ -24,7 +24,7 @@ Sidebar summarization is generated from the information within selected tables c
 
 ## Procedure
 
-1.  Navigate to **Admin &gt; AI Admin Hub &gt; AI Skills**.
+1.  Navigate to **All &gt; AI Admin Hub &gt; AI Skills**.
 
 2.  Select the **Customer** workflow, and **CSM** as the product.
 
@@ -46,35 +46,22 @@ Sidebar summarization is generated from the information within selected tables c
 
 5.  Select **Choose tables** to select the tables from which summaries for Sidebar discussions are generated.
 
-    Tables that are added in the **Default Table Name** section, like the Case table and Task table are available by default and are automatically populated. The default table names check boxes associated to the tables are pre-checked and inactive.
+    Tables that are added in **Default Table Name** section, like the Case table and Task table are available by default, and are automatically populated. The default table names check boxes associated to the tables are pre-checked and inactive.
 
-    **Note:** An admin can only select or deselct the tables added within the **Table Names** section.
+    **Note:** An admin can only select or deselect the tables added within the **Table Names** section.
 
     Any tables available by default or customized must be added to one of the **Choose tables** section based on the preferred configurations.
 
     -   Table Names contains a list of all the table names that are required for the sidebar summarization skill.
     -   Default Table Name only contains tables that you want pre-checked.
-    -   Enabled Table Names can have the same values as the Default Table Names and must be in the **Active** state from the beginning.
+    -   Enabled Table Names can have the same value as the Default Table Names and must be in **Active** state from the beginning.
 
         **Note:** The Default Table Names and Enabled Table Names are a subset of Table Names and can't be modified by the user.
 
     |Label|Name|
     |-----|----|
-    |Change Phase|change\_phase|
-    |Change Request|change\_request|
-    |IMAC|change\_request\_imac|
-    |Change Task|change\_task|
-    |Chat Queue Entry|chat\_queue\_entry|
-    |Incident|incident|
-    |Incident Task|incident\_task|
-    |Interaction|interaction|
-    |Knowledge Feedback Task|kb\_feedback\_task|
-    |Problem|problem|
-    |Problem Task|problem\_task|
-    |Request|sc\_request|
-    |Requested Item|sc\_req\_item|
-    |Catalog Task|sc\_task|
-    |Standard Change Proposal|std\_change\_proposal|
+    |Case|sn\_customerservice\_case|
+    |Task|sn\_customerservice\_task|
 
 6.  Select **Define access** to determine who can access this skill.
 
@@ -82,11 +69,11 @@ Sidebar summarization is generated from the information within selected tables c
 
     Default and Custom Roles:
 
-    -   If no changes are made, the default roles sn\_customerservice\_agent and sn\_customerservice.consumer\_agent will automatically appear in **Define Access** and **Select Display**.
-    -   If custom roles were added before the upgrade, they’ll be updated automatically by a script.
-    -   If new roles are created after the upgrade, you’ll need to manually add them in both the **Define Access** and **Select Display**.
+    -   If no changes are made, the default role sn\_customerservice\_agent or sn\_customerservice.consumer\_agent will automatically appear in **Define Access** and **Select Display**.
+    -   If custom roles were added before the upgrade, they are updated automatically by a script.
+    -   If new roles are created after the upgrade, you must manually add them in both the **Define Access** and **Select Display**.
 
-        **Note:** In the **Select Display** step, you can only choose roles that were added in the **Define Access** step. If you add a role in **Define Access**, you still need to manually select it in **Select Display** to make it active.
+        **Note:** In the **Select Display** step, you can only choose roles that were added in the **Define Access** step. If you add a role in **Define Access**, you still must manually select it in **Select Display** to make it active.
 
 7.  Toggle **Select display** to determine if sidebar summarization appears in In-product desktop, displaying AI skills on forms and workspaces.
 

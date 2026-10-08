@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-customerserviceproblemmanagement-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
+last_updated: "2026-10-08"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -80,7 +80,7 @@ Zurich
 The granular admin role enables developers and administrators to complete administrative configuration tasks for Customer Service Problem Management without requiring the full admin role.
 
 
--   **[Setting up a test group](https://www.servicenow.com/docs/access?context=setting-test-group&family=zurich&ft:locale=en-US)**
+ -   **[Setting up a test group](https://www.servicenow.com/docs/access?context=setting-test-group&family=zurich&ft:locale=en-US)**
 
 Enables the system to trigger the required tests for service problem cases, incidents, and change request, helping to identify the root cause of the problem. Test group includes test definitions.
 
@@ -116,7 +116,10 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
 
 </td></tr></tbody>
 </table>## Removed
@@ -203,7 +206,12 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Install Customer Service Problem Management and Service Test Management by requesting it from the ServiceNow® Store.
+
+
+**Important:** Customer Service Problem Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -290,7 +298,11 @@ Zurich
 
 </td><td>
 
--   ****
+-   **Accessibility information**
+    -   **Dark theme**
+
+The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
 
 </td></tr></tbody>
 </table>## Localization information

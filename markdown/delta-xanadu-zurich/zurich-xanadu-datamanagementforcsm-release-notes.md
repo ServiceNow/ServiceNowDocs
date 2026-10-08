@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-datamanagementforcsm-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
-reading_time_minutes: 10
+last_updated: "2026-10-08"
+reading_time_minutes: 15
 breadcrumb: [Products combined by family]
 ---
 
@@ -83,7 +83,68 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+-   **[Billing account store application](https://www.servicenow.com/docs/access?context=configuring-billing-accounts&family=yokohama&ft:locale=en-US)**
+
+Use the new CSM Billing Account Core store app that provides a foundational data model for managing billing accounts across organizations and users. It enables businesses to define, organize, and maintain billing relationships, supporting accurate billing, payments, and scalable financial operations.
+
+
+ -   **[Inbound Request Configuration table](https://www.servicenow.com/docs/access?context=inbound-request-configuration-table&family=yokohama&ft:locale=en-US)**
+
+Use the Inbound Request Configuration \[sn\_tmt\_core\_inbound\_queue\_config\] table to enable configurations that determine how a flow is executed, whether synchronous or asynchronous.
+
+Use the **Trigger Notifications** field on the Inbound Request Configuration \[sn\_tmt\_core\_inbound\_queue\_config\] table to enable configuration of notification types, whether default, custom,or no notifications.
+
+-   **[Activate Customer Life Cycle Management Self-Service](https://www.servicenow.com/docs/access?context=activate-customer-life-cycle-management-self-service&family=yokohama&ft:locale=en-US)**
+
+Enable customers who are primary contacts associated to a sold product to perform the Modify, Suspend, Resume, and Disconnect actions on the Business portal..
+
+
+ -   **[Project Management for business locations​](https://www.servicenow.com/docs/access?context=csm-ppm-integration&family=yokohama&ft:locale=en-US)**
+
+Integrate SPM project management with business locations to support operations such as opening, closing, or modernizing locations. With the project management integration, your teams can track the timelines, collaborate, and execute the business location-facing tasks more effectively.
+
+-   **[Work orders for business locations​](https://www.servicenow.com/docs/access?context=track-work-orders-on-the-blsp&family=yokohama&ft:locale=en-US)**
+
+Fulfill Field Service Management \(FSM\) work orders at business locations. This way, you can enable location members to view and complete the assigned tasks. By using the existing business location data, you can streamline work order assignments.
+
+-   **[Enhanced data fields for business locations](https://www.servicenow.com/docs/access?context=data-model-business-location-form&family=yokohama&ft:locale=en-US)**
+
+Track additional information about business locations by using new fields for opening and closing dates, status, and description.
+
+-   **[Staff movement between internal business locations](https://www.servicenow.com/docs/access?context=create-internal-business-location&family=yokohama&ft:locale=en-US)**
+
+Enable managers to transfer the staff between internal business locations. You can streamline updates for organizations that have frequent staff movements.
+
+-   **[Company-owned, third-party operated business locations](https://www.servicenow.com/docs/access?context=add-user-internal-bus-location&family=yokohama&ft:locale=en-US)**
+
+Assign external staff to internal business locations to support various operating models, including company-owned, third-party operated locations.
+
+-   **[Customer Life Cycle workflows for Sold Products and Product Inventory records](https://www.servicenow.com/docs/access?context=customer-life-cycle-management-workflows&family=yokohama&ft:locale=en-US)**
+
+Use the Customer Life Cycle workflows to do the following tasks:
+
+    -   Create a Modify, Suspend, Resume, and Disconnect order for single or multiple root product inventory records that are associated with a service specification.
+    -   Select multiple root product inventories to perform the modify action to create both orders and quotes.
+    -   Track the status of the Modify, Suspend, Resume, and Disconnect flows on sold products and product inventory record by using the Sales and Order Management Request Tracker \(sn\_tmt\_core\_inbound\_queue\) table.
+
+ -   **[Naming customer relationship records](https://www.servicenow.com/docs/access?context=adding-related-party-to-case&family=yokohama&ft:locale=en-US)**
+
+Use the Type field through related party configurations to name records in the account team member, contact relationship, consumer relationship, and household member relationship tables. With this functionality, you can identify the relationship that is based on the industry use case.
+
+-   **[Ordering customer relationship records](https://www.servicenow.com/docs/access?context=adding-related-party-to-case&family=yokohama&ft:locale=en-US)**
+
+Organize records in tables such as account team members, consumer relationships, and more by using the **Order** field. You can set the order manually or auto-populate it based on the selected Type through related party configurations. This way, you can arrange records logically based on your use case.
+
+-   **[Enhancements to the declarative responsibility framework](https://www.servicenow.com/docs/access?context=declarative-resposibility-framework&family=yokohama&ft:locale=en-US)**
+
+Enhance the declarative responsibility framework to simplify administration and access management by enabling administrators to do the following tasks:
+
+    -   Add new granular roles for accessing customer data that is based on responsibility definitions.
+    -   Include additional entities in the framework.
+-   **[Subscription metrics for sold products](https://www.servicenow.com/docs/access?context=create-sold-item&family=yokohama&ft:locale=en-US)**
+
+Enable agents to track and analyze the pricing information for products and services by using the pricing and subscription revenue metrics on the sold product form on the CRM Workspace.
+
 
 </td></tr><tr><td>
 
@@ -91,7 +152,78 @@ Zurich
 
 </td><td>
 
--   **Naming customer relationship records for [Consumer team member relationship tables](https://www.servicenow.com/docs/access?context=assign-team-member-to-consumer&family=zurich&ft:locale=en-US) and [Household team member relationship tables](https://www.servicenow.com/docs/access?context=assign-team-member-to-household&family=zurich&ft:locale=en-US)**
+-   **[Create return merchandise authorization case lines](https://www.servicenow.com/docs/access?context=som.create-return-merchandise-authorization-case-lines&family=zurich&ft:locale=en-US)**
+
+Enable agents to initiate return requests directly from sold product records along with the install base items. Return cases automatically map order and product details to the case, giving users an end-to-end visibility into their returns and reducing processing time.
+
+-   **[Synchronizing life-cycle values](https://www.servicenow.com/docs/access?context=cmdb-asset-CI-IBI-sync-options&family=zurich&ft:locale=en-US)**
+
+Configure a model category as a product instance to enable the system to synchronize the life cycle values between asset and install base item using the life cycle stage and life cycle state status values.
+
+-   **[Proactive Customer Service Operations](https://www.servicenow.com/docs/access?context=proactive-service-operations&family=zurich&ft:locale=en-US)**
+
+Event management operators now have a dedicated customer service management role for access control when setting up new installations. The access to customer data for event management operators is granted through a limited scoped role \( sn\_pro\_cs\_ops.csm\_evt\_mgmt\_stakeholder\) instead of the global platform role \(evt\_mgmt\_operator role\).
+
+
+ -   **[Billing account store application](https://www.servicenow.com/docs/access?context=configuring-billing-accounts&family=zurich&ft:locale=en-US)**
+
+Install the new CSM Billing Account Core store application, which introduces a foundational data model and hierarchy for managing billing accounts. It enables you to define billing relationships, establish account hierarchies, and track financial responsibility across your organization.
+
+-   **[Sold product form](https://www.servicenow.com/docs/access?context=sold-product-form&family=zurich&ft:locale=en-US)**
+
+The following enhancements are added for the Sold Product in this release:
+
+    -   Billing Account: Enables direct reference to the associated Billing Account on the Sold Product entity within ServiceNow® CRM allowing agents to access financial information instantly during service delivery. This provides visibility into payment terms and conditions linked to the product, builds customer trust through transparent and predictable billing, and supports accurate revenue recognition for businesses.
+    -   Start and end Dates: Provides full lifecycle state‑transition support \(**In preparation, Active, Expired, Cancelled**\) with automated date‑driven updates.
+
+ -   **[Explore partial sync](https://www.servicenow.com/docs/access?context=about-partial-sync&family=zurich&ft:locale=en-US)**
+
+Synchronize only specific sections of your data structure using the new partial sync capability in the create instance flow. This enhancement introduces the `allowedContextTypes` parameter, which enables you to specify exactly which types should be processed during synchronization operations. This leads to the following benefits:
+
+    -   Improved performance: Reduction in processing time for targeted updates.
+    -   Reduced resource consumption: Lower database queries, memory usage, and network bandwidth.
+    -   Faster response times: Users experience quicker synchronization operations.
+
+ -   **Support indirect sales through Business Locations with [Opportunity Management for business location](https://www.servicenow.com/docs/access?context=opportunity-management-for-business-location&family=zurich&ft:locale=en-US).**
+
+Use the Sales Customer Relationship Management capabilities with both internal and external business organizations using Opportunity Management for business locations. Support channel sales by enabling business location staff to create and modify business opportunities and to track end-to-end life cycle of opportunities.
+
+-   **[Sales and Service API Core](https://www.servicenow.com/docs/access?context=sales-and-services-api-core&family=zurich&ft:locale=en-US) and [Lead to Cash Core](https://www.servicenow.com/docs/access?context=entity-configuration-and-mapping&family=zurich&ft:locale=en-US)**
+
+Granular admin roles introduced in Lead to Cash Core and Sales and Service API core.
+
+-   **[Granular roles in Install Base Management](https://www.servicenow.com/docs/access?context=r_rolesinstalledwithcustaccessmgmt&family=zurich&ft:locale=en-US)**
+
+Added new granular roles with the sn\_install\_base.install\_base\_admin admin role, which is installed with Customer Service Install Base Management \[com.snc.install\_base\] plugin.
+
+    -   sn\_install\_base.install\_base\_read
+    -   sn\_install\_base.install\_base\_write
+    -   sn\_install\_base.install\_base\_create
+    -   sn\_install\_base.install\_base\_delete
+    -   sn\_customerservice.customer\_data\_viewer
+    -   sn\_customerservice.case.viewer
+These roles provide you with more control over administrative tasks like read, write, create, delete, data view, and case view related to install base and sold product related entities.
+
+
+ -   **CPQ integration with MACD workflows**
+
+Introduced new data model changes to enable CPQ configurator usage for MACD workflows.
+
+
+ -   **Using [CSM Data Classification application](https://www.servicenow.com/docs/access?context=using-csm-data-classification&family=zurich&ft:locale=en-US)**
+
+Use the new CSM Data Classification \(com.snc.csm\_data\_privacy\) Store app that delivers base system classifications for CRM data, categorizing it as internal, personally identifiable information \(PII\), confidential, and more. The solution uses the ServiceNow AI Platform data privacy capabilities, such as data classification, to apply protection measures and enhance data security.
+
+-   **Support indirect sales through Business Locations with [Order Management for business location](https://www.servicenow.com/docs/access?context=order-managment-for-business-location&family=zurich&ft:locale=en-US), [Quote Management for business location](https://www.servicenow.com/docs/access?context=quote-management-for-business-location&family=zurich&ft:locale=en-US).**
+
+Use the Sales Customer Relationship Management capabilities for both internal and external business organizations to enable Order Management, and Quote Management systems for business locations. Support channel sales and indirect sales by enabling business location staff to collaborate with an enterprise in managing customer orders, quotes, and performing the following actions:
+
+    -   Permit enterprise sales agents to associate business locations as channel partners to create and fulfill customer orders and quotes.
+    -   Enable self-service order tracking for internal and external business location staff through the Business Location Service Portal to track and manage customer orders.
+    -   Support the tracking of multiple business locations for a single order or quote, either at the order line item level, order related party, quote line item level, or the quote related party.
+    -   Improve the indirect sales cycle efficiency by converting approved channel quotes into customer orders.
+
+ -   **Naming customer relationship records for [Consumer team member relationship tables](https://www.servicenow.com/docs/access?context=assign-team-member-to-consumer&family=zurich&ft:locale=en-US) and [Household team member relationship tables](https://www.servicenow.com/docs/access?context=assign-team-member-to-household&family=zurich&ft:locale=en-US)**
 
 Use the **Type** field through related party configurations to name records in the consumer team member and household team member relationship tables. This functionality enables you to label relationships based on the purpose of the association and relevant industry use cases.
 
@@ -106,71 +238,6 @@ As part of this update:
 -   **[Account address enhancements](https://www.servicenow.com/docs/access?context=account-address-access-for-contacts&family=zurich&ft:locale=en-US)**
 
 Enable contacts to access the account addresses that permit contacts to view both account-address records and the associated location information for accounts they’re authorized to access.
-
--   **Using [CSM Data Classification application](https://www.servicenow.com/docs/access?context=using-csm-data-classification&family=zurich&ft:locale=en-US)**
-
-Use the new CSM Data Classification \(com.snc.csm\_data\_privacy\) Store app that delivers base system classifications for CRM data, categorizing it as internal, personally identifiable information \(PII\), confidential, and more. The solution uses the ServiceNow AI Platform data privacy capabilities, such as data classification, to apply protection measures and enhance data security.
-
--   **Support indirect sales through Business Locations with [Order Management for business location](https://www.servicenow.com/docs/access?context=order-managment-for-business-location&family=zurich&ft:locale=en-US), [Quote Management for business location](https://www.servicenow.com/docs/access?context=quote-management-for-business-location&family=zurich&ft:locale=en-US).**
-
-Use the Sales Customer Relationship Management capabilities for both internal and external business organizations to enable Order Management, and Quote Management systems for business locations. Support channel sales and indirect sales by enabling business location staff to collaborate with an enterprise in managing customer orders, quotes, and performing the following actions:
-
-    -   Permit enterprise sales agents to associate business locations as channel partners to create and fulfill customer orders and quotes.
-    -   Enable self-service order tracking for internal and external business location staff through the Business Location Service Portal to track and manage customer orders.
-    -   Support the tracking of multiple business locations for a single order or quote, either at the order line item level, order related party, quote line item level, or the quote related party.
-    -   Improve the indirect sales cycle efficiency by converting approved channel quotes into customer orders.
--   **Support indirect sales through Business Locations with [Opportunity Management for business location](https://www.servicenow.com/docs/access?context=opportunity-management-for-business-location&family=zurich&ft:locale=en-US).**
-
-Use the Sales Customer Relationship Management capabilities with both internal and external business organizations using Opportunity Management for business locations. Support channel sales by enabling business location staff to create and modify business opportunities and to track end-to-end life cycle of opportunities.
-
--   **CPQ integration with MACD workflows**
-
-Introduced new data model changes to enable CPQ configurator usage for MACD workflows.
-
--   **[Sales and Service API Core](https://www.servicenow.com/docs/access?context=sales-and-services-api-core&family=zurich&ft:locale=en-US) and [Lead to Cash Core](https://www.servicenow.com/docs/access?context=entity-configuration-and-mapping&family=zurich&ft:locale=en-US)**
-
-Granular admin roles introduced in Lead to Cash Core and Sales and Service API core.
-
--   **[Explore partial sync](https://www.servicenow.com/docs/access?context=about-partial-sync&family=zurich&ft:locale=en-US)**
-
-Synchronize only specific sections of your data structure using the new partial sync capability in the create instance flow. This enhancement introduces the `allowedContextTypes` parameter, which enables you to specify exactly which types should be processed during synchronization operations. This leads to the following benefits:
-
-    -   Improved performance: Reduction in processing time for targeted updates.
-    -   Reduced resource consumption: Lower database queries, memory usage, and network bandwidth.
-    -   Faster response times: Users experience quicker synchronization operations.
--   **[Granular roles in Install Base Management](https://www.servicenow.com/docs/access?context=r_rolesinstalledwithcustaccessmgmt&family=zurich&ft:locale=en-US)**
-
-Added new granular roles with the sn\_install\_base.install\_base\_admin admin role, which is installed with Customer Service Install Base Management \[com.snc.install\_base\] plugin.
-
-    -   sn\_install\_base.install\_base\_read
-    -   sn\_install\_base.install\_base\_write
-    -   sn\_install\_base.install\_base\_create
-    -   sn\_install\_base.install\_base\_delete
-    -   sn\_customerservice.customer\_data\_viewer
-    -   sn\_customerservice.case.viewer
-These roles provide you with more control over administrative tasks like read, write, create, delete, data view, and case view related to install base and sold product related entities.
-
--   **[Billing account store application](https://www.servicenow.com/docs/access?context=configuring-billing-accounts&family=zurich&ft:locale=en-US)**
-
-Install the new CSM Billing Account Core store application, which introduces a foundational data model and hierarchy for managing billing accounts. It enables you to define billing relationships, establish account hierarchies, and track financial responsibility across your organization.
-
--   **[Sold product form](https://www.servicenow.com/docs/access?context=sold-product-form&family=zurich&ft:locale=en-US)**
-
-The following enhancements are added for the Sold Product in this release:
-
-    -   Billing Account: Enables direct reference to the associated Billing Account on the Sold Product entity within ServiceNow® CRM allowing agents to access financial information instantly during service delivery. This provides visibility into payment terms and conditions linked to the product, builds customer trust through transparent and predictable billing, and supports accurate revenue recognition for businesses.
-    -   Start and end Dates: Provides full lifecycle state‑transition support \(**In preparation, Active, Expired, Cancelled**\) with automated date‑driven updates.
--   **[Create return merchandise authorization case lines](https://www.servicenow.com/docs/access?context=som.create-return-merchandise-authorization-case-lines&family=zurich&ft:locale=en-US)**
-
-Enable agents to initiate return requests directly from sold product records along with the install base items. Return cases automatically map order and product details to the case, giving users an end-to-end visibility into their returns and reducing processing time.
-
--   **[Synchronizing life-cycle values](https://www.servicenow.com/docs/access?context=cmdb-asset-CI-IBI-sync-options&family=zurich&ft:locale=en-US)**
-
-Configure a model category as a product instance to enable the system to synchronize the life cycle values between asset and install base item using the life cycle stage and life cycle state status values.
-
--   **[Proactive Customer Service Operations](https://www.servicenow.com/docs/access?context=proactive-service-operations&family=zurich&ft:locale=en-US)**
-
-Event management operators now have a dedicated customer service management role for access control when setting up new installations. The access to customer data for event management operators is granted through a limited scoped role \( sn\_pro\_cs\_ops.csm\_evt\_mgmt\_stakeholder\) instead of the global platform role \(evt\_mgmt\_operator role\).
 
 
 </td></tr></tbody>
@@ -200,7 +267,47 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+-   **[Inbound Request Configuration table](https://www.servicenow.com/docs/access?context=inbound-request-configuration-table&family=yokohama&ft:locale=en-US)**
+
+The Inbound Queue \[sn\_tmt\_core\_inbound\_queue\] table is renamed to Inbound Request table.
+
+Use the **Request Configuration** field on the Inbound Request \[sn\_tmt\_core\_inbound\_queue\] table to reference the Inbound Request Configuration \[sn\_tmt\_core\_inbound\_queue\_config\] table while executing synchronous or asynchronous flows.
+
+
+ -   **[Specification Class on Product Inventory related list](https://www.servicenow.com/docs/access?context=product_inventory_configurations&family=yokohama&ft:locale=en-US)**
+
+The **Specification class** field on the Product Inventory related list provides information on whether the selected product inventory record has a product specification or service specification that is associated with it.
+
+
+ -   **[Notification for case tasks at business locations](https://www.servicenow.com/docs/access?context=manage-business-location-cases&family=yokohama&ft:locale=en-US)**
+
+View the notifications for the case tasks that are associated with the business locations on the Business Location Service Portal \(BLSP\). This way, your location members can stay informed about their pending tasks.
+
+-   **[Case resolution by location staff at other business locations](https://www.servicenow.com/docs/access?context=ebl-as-a-fulfiller&family=yokohama&ft:locale=en-US)**
+
+Enable your location staff, whether at company-owned or third-party-owned organizations \(internal and external business locations\), to handle and resolve issues from other eligible business locations.
+
+
+ -   **[Product Inventories configurations for Customer Life Cycle Management workflows](https://www.servicenow.com/docs/access?context=product_inventory_configurations&family=yokohama&ft:locale=en-US)**
+
+Perform the Modify, Suspend, Resume, and Disconnect operations on product inventory records directly from the Product Inventory related list on the Accounts page.
+
+-   **[Grant write access to account relationships](https://www.servicenow.com/docs/access?context=t_CreateAcctRelationshipRecord&family=yokohama&ft:locale=en-US)**
+
+Enable administrators and customer service managers to update account relationship records.
+
+-   **[Enable write access to contact relationships](https://www.servicenow.com/docs/access?context=t_CreateAContactRelationship&family=yokohama&ft:locale=en-US)**
+
+Enable administrators and customer service managers to update the contact relationship records.
+
+-   **[Populate the Type field in relationship tables using the fix script](https://www.servicenow.com/docs/access?context=migration-of-account-manager-responsibility-access&family=yokohama&ft:locale=en-US)**
+
+Migrate the account manager responsibilities from the account team member relationships to the new responsibility access configurations. The updated framework enables you to manage access settings more efficiently.
+
+-   **[Update roles within relationship agent and relationship contributor](https://www.servicenow.com/docs/access?context=features-supp-and-unsupp-by-unified-consumer&family=yokohama&ft:locale=en-US)**
+
+Modify the roles of the relationship agent and relationship contributor to include the new granular roles that can grant access by responsibilities.
+
 
 </td></tr><tr><td>
 
@@ -208,7 +315,43 @@ Zurich
 
 </td><td>
 
--   **[Enhancements to the declarative responsibility framework](https://www.servicenow.com/docs/access?context=declarative-resposibility-framework&family=zurich&ft:locale=en-US)**
+-   **[Explore partial sync](https://www.servicenow.com/docs/access?context=about-partial-sync&family=zurich&ft:locale=en-US)**
+
+Partial sync processes the data sections you specify instead of the entire structure, significantly improving performance and reducing resource consumption.The partial sync enhancement includes improved error handling that provides clear, actionable error messages when mandatory fields are missing from synchronization requests.
+
+
+ -   **[Entity configuration and mapping](https://www.servicenow.com/docs/access?context=entity-configuration-and-mapping&family=zurich&ft:locale=en-US)**
+
+Gain precision in sales entity setup with three new columns in the Lead to Cash Entity Definition table: Filter Conditions, Enable Post Processing, and Post Processing Script. These columns enable targeted data filtering and post-processing logic execution.
+
+-   **[Associate products and services](https://www.servicenow.com/docs/access?context=products-services-at-bus-loc&family=zurich&ft:locale=en-US)Support for service-related capabilities in business locations**
+
+Enable service-related capabilities for business locations by activating the optional Customer Service Case Types \(sn\_csm\_case\_types\) plugin.
+
+
+ -   **[Delta price enhancements](https://www.servicenow.com/docs/access?context=sold-product-form&family=zurich&ft:locale=en-US)**
+
+The following are enhancements added in Delta pricing:
+
+    -   Added pricing fields that reference sales agreements and captures base prices on sold products to verify consistent pricing during modifications, such as quantity changes or attribute updates. New fields are added to enhance the traceability for subscription-based products.
+    -   Added columns to the Sold Product base table. Use the Split from and Split from root to track lineage during upsells, downsells, and expiration date changes ensuring accurate order management, compliance, and analytics.
+-   **[Install base data model enhancements](https://www.servicenow.com/docs/access?context=create-install-base-item&family=zurich&ft:locale=en-US)**
+
+Improve traceability and product life cycle management with the **Install Base Identifier** field on the install base form. Base install base items are mapped directly to model categories to support industry-specific product configurations.
+
+Added **Provider Service Org** field on the install base form to support tracking, recall workflows, and post-sale engagement with dealers and partners.
+
+-   **[Access control improvements](https://www.servicenow.com/docs/access?context=sold-product-form&family=zurich&ft:locale=en-US)**
+
+Provide hierarchical access to Install Base items for location managers and staff to manage assets sold by or associated with their service organizations.
+
+
+ -   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+
+ -   **[Enhancements to the declarative responsibility framework](https://www.servicenow.com/docs/access?context=declarative-resposibility-framework&family=zurich&ft:locale=en-US)**
 
 Introduced several key improvements to enhance the flexibility and usability of the declarative responsibility framework:
 
@@ -226,36 +369,6 @@ Manage account addresses by associating locations with accounts where the Update
 -   **[Updating location records associated with account](https://www.servicenow.com/docs/access?context=delete-address-location-form&family=zurich&ft:locale=en-US)**
 
 Restricts users from updating a shared location record unless they have the Update access to all associated accounts, confirming location details can only be modified with the necessary permissions across every linked account.
-
--   **[Delta price enhancements](https://www.servicenow.com/docs/access?context=sold-product-form&family=zurich&ft:locale=en-US)**
-
-The following are enhancements added in Delta pricing:
-
-    -   Added pricing fields that reference sales agreements and captures base prices on sold products to verify consistent pricing during modifications, such as quantity changes or attribute updates. New fields are added to enhance the traceability for subscription-based products.
-    -   Added columns to the Sold Product base table. Use the Split from and Split from root to track lineage during upsells, downsells, and expiration date changes ensuring accurate order management, compliance, and analytics.
--   **[Install base data model enhancements](https://www.servicenow.com/docs/access?context=create-install-base-item&family=zurich&ft:locale=en-US)**
-
-Improve traceability and product life cycle management with the **Install Base Identifier** field on the install base form. Base install base items are mapped directly to model categories to support industry-specific product configurations.
-
-Added **Provider Service Org** field on the install base form to support tracking, recall workflows, and post-sale engagement with dealers and partners.
-
--   **[Access control improvements](https://www.servicenow.com/docs/access?context=sold-product-form&family=zurich&ft:locale=en-US)**
-
-Provide hierarchical access to Install Base items for location managers and staff to manage assets sold by or associated with their service organizations.
-
--   **[Entity configuration and mapping](https://www.servicenow.com/docs/access?context=entity-configuration-and-mapping&family=zurich&ft:locale=en-US)**
-
-Gain precision in sales entity setup with three new columns in the Lead to Cash Entity Definition table: Filter Conditions, Enable Post Processing, and Post Processing Script. These columns enable targeted data filtering and post-processing logic execution.
-
--   **[Explore partial sync](https://www.servicenow.com/docs/access?context=about-partial-sync&family=zurich&ft:locale=en-US)**
-
-Partial sync processes the data sections you specify instead of the entire structure, significantly improving performance and reducing resource consumption.
-
-The partial sync enhancement includes improved error handling that provides clear, actionable error messages when mandatory fields are missing from synchronization requests.
-
--   **[Associate products and services](https://www.servicenow.com/docs/access?context=products-services-at-bus-loc&family=zurich&ft:locale=en-US)Support for service-related capabilities in business locations**
-
-Enable service-related capabilities for business locations by activating the optional Customer Service Case Types \(sn\_csm\_case\_types\) plugin.
 
 
 </td></tr></tbody>
@@ -330,12 +443,8 @@ Zurich
 
 </td><td>
 
-The following legacy base system workflows have been deprecated:
-
 -   Escalation Master-Approval
 -   Escalation-Approval
-
-Custom workflows remain supported, and you can continue to create them as needed. However, any new business requirements must be implemented using the new or updated flow-based framework rather than with the legacy workflows.
 
 </td></tr></tbody>
 </table>## Activation information
@@ -372,21 +481,25 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 CSM is a ServiceNow AI Platform application that is available with activation of the Customer Service Management plugin \(com.sn\_customerservice\). For details, see [Activate Customer Service Management](https://www.servicenow.com/docs/access?context=t_ActivateCustomerService&family=zurich&ft:locale=en-US).
 
- Additional CSM features are available with the activation of other plugins. For details, see [Additional plugins for Customer Service Management](https://www.servicenow.com/docs/access?context=r_CustServMgmtAddtlPluginsTable&family=zurich&ft:locale=en-US).
+Additional CSM features are available with the activation of other plugins. For details, see [Additional plugins for Customer Service Management](https://www.servicenow.com/docs/access?context=r_CustServMgmtAddtlPluginsTable&family=zurich&ft:locale=en-US).
 
- Sales Customer Relationship Management is a ServiceNow AI Platform feature that is available with the activation of the Lead to Cash Core plugin \(com.snd.l2c.core\). For details, see [Explore](https://www.servicenow.com/docs/access?context=som-exploring&family=zurich&ft:locale=en-US).
+Sales Customer Relationship Management is a ServiceNow AI Platform feature that is available with the activation of the Lead to Cash Core plugin \(com.snd.l2c.core\). For details, see [Explore](https://www.servicenow.com/docs/access?context=som-exploring&family=zurich&ft:locale=en-US).
 
- Starting in the Yokohama release, the following plugins are available on the ServiceNow Store for:
+Starting in the Yokohama release, the following plugins are available on the ServiceNow Store for:
 
--   Install Base Management \(com.snc.install\_base\)
--   Install base characteristics \(com.snc.install\_base\_characteristics\)
--   Customer Service with Service Portfolio management \(com.snc.csm\_spm\)
-
+    -   Install Base Management \(com.snc.install\_base\)
+    -   Install base characteristics \(com.snc.install\_base\_characteristics\)
+    -   Customer Service with Service Portfolio management \(com.snc.csm\_spm\)
 For details, see [Configure Install base](https://www.servicenow.com/docs/access?context=configure-install-base&family=zurich&ft:locale=en-US).
 
- Starting from the Yokohama release, the Business Location plugin \(com.snc.business\_location\) is available on the ServiceNow Store. For details, see [Activate business locations](https://www.servicenow.com/docs/access?context=activate-business-location&family=zurich&ft:locale=en-US).
+Starting from the Yokohama release, the Business Location plugin \(com.snc.business\_location\) is available on the ServiceNow Store. For details, see [Activate business locations](https://www.servicenow.com/docs/access?context=activate-business-location&family=zurich&ft:locale=en-US).
+
+
+**Important:** Business Location and Install Base Management are available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -460,7 +573,10 @@ Zurich
 
 </td><td>
 
+-   **Browser requirements**
+
 Starting with the Zurich release, data management for Customer Service Management doesn't support mobile devices and Internet Explorer. For more information, see [Browser support](https://www.servicenow.com/docs/access?context=browser-support&family=zurich&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Accessibility information
@@ -497,7 +613,11 @@ Zurich
 
 </td><td>
 
--   ****
+-   **Accessibility information**
+    -   **Dark theme**
+
+The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
 
 </td></tr></tbody>
 </table>## Localization information

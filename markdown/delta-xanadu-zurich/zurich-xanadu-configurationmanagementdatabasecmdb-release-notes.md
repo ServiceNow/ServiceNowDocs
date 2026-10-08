@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-configurationmanagementdatabasecmdb-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
+last_updated: "2026-10-08"
 reading_time_minutes: 36
 breadcrumb: [Products combined by family]
 ---
@@ -58,7 +58,10 @@ Yokohama
 
 </td><td>
 
+-   **Upgrade information**
+
 Three new indexes \(parent, type\), \(child, type\), and \(child, parent, type, port\) are added to the CI Relationship \[cmdb\_rel\_ci\] table to improve the performance of Identification and Reconciliation Engine \(IRE\) querying this table. This change is likely to increase upgrade time. For more information about the impact of this change during upgrade and to learn how to minimize that impact, see [Increased Yokohama Upgrade Time due to cmdb\_rel\_ci index additions \[KB1703367\]](https://support.servicenow.com/kb_view_customer.do?sysparm_article=KB1703367).
+
 
 </td></tr><tr><td>
 
@@ -66,12 +69,14 @@ Zurich
 
 </td><td>
 
+-   **Upgrade information**
+
 Due to the removal of the **Design** value for the operational status attribute in a CI, after an upgrade, you must review all CIs that have the discovery source attribute set to **Manual via IRE**. Review the operational status attribute of those CIs and set it to a supported value in CMDB for your environment. For example, you can set the attribute to **Non-Operational**. For more information about the operational status values, see [Tangible/physical life cycle](https://www.servicenow.com/docs/access?context=csdm-lifecycle-hardware&family=zurich&ft:locale=en-US).
 
- On an upgraded Zurich instance, to configure the sn\_cmdb\_admin and the sn\_cmdb\_editor user roles with the necessary permissions to perform some CMDB Workspace tasks, you must manually run the scheduled job **Remove CMDB Roles from ITIL roles and Add CUD access to sn\_cmdb\_admin/sn\_cmdb\_editor roles**. This scheduled job modifies the user roles as follows:
+On an upgraded Zurich instance, to configure the sn\_cmdb\_admin and the sn\_cmdb\_editor user roles with the necessary permissions to perform some CMDB Workspace tasks, you must manually run the scheduled job **Remove CMDB Roles from ITIL roles and Add CUD access to sn\_cmdb\_admin/sn\_cmdb\_editor roles**. This scheduled job modifies the user roles as follows:
 
--   Updates the itil user role to no longer contain the sn\_cmdb\_editor user role, and updates the itil\_admin user role to no longer contain the sn\_cmdb\_admin user role.
--   If those permissions don't exist, updates the sn\_cmdb\_admin and the sn\_cmdb\_editor user roles with create, update, and delete access to the Configuration Item \[cmdb\_ci\] class. For more information about the **Remove CMDB Roles from ITIL roles and Add CUD access to sn\_cmdb\_admin/sn\_cmdb\_editor roles** scheduled job, see [Remove sn\_cmdb\_admin from itil\_admin and sn\_cmdb\_editor from itil, and then add create/update/delete access to cmdb\_ci table for sn\_cmdb\_admin / sn\_cmdb\_editor \[KB2290506\]](https://support.servicenow.com/kb_view_customer.do?sysparm_article=KB2290506).
+    -   Updates the itil user role to no longer contain the sn\_cmdb\_editor user role, and updates the itil\_admin user role to no longer contain the sn\_cmdb\_admin user role.
+    -   If those permissions don't exist, updates the sn\_cmdb\_admin and the sn\_cmdb\_editor user roles with create, update, and delete access to the Configuration Item \[cmdb\_ci\] class. For more information about the **Remove CMDB Roles from ITIL roles and Add CUD access to sn\_cmdb\_admin/sn\_cmdb\_editor roles** scheduled job, see [Remove sn\_cmdb\_admin from itil\_admin and sn\_cmdb\_editor from itil, and then add create/update/delete access to cmdb\_ci table for sn\_cmdb\_admin / sn\_cmdb\_editor \[KB2290506\]](https://support.servicenow.com/kb_view_customer.do?sysparm_article=KB2290506).
 
 </td></tr></tbody>
 </table>## New features
@@ -122,7 +127,7 @@ The CMDB Integrations Dashboard has a modernized look and feel with the Next Exp
 
 -   **[\[Placeholder link text to key now-assist-landing-cmdb\]](https://www.servicenow.com/docs/access?context=now-assist-landing-cmdb&family=xanadu&ft:locale=en-US)**
 
-The ServiceNow® Now Assist for CMDB application brings generative AI to CMDB. The Now Assist for CMDB application provides the following skills:
+The ServiceNow® ServiceNow Otto for CMDB application brings generative AI to CMDB. The ServiceNow Otto for CMDB application provides the following skills:
 
     -   CI summarization: Shows CI details such as discovery and class, and tallies of records that are related to the CI such as incidents, alerts, and security vulnerabilities, directly on CI forms.
     -   Manage duplicate CIs: Guides you step-by-step through the process of reviewing de-duplication tasks, and then creating and running de-duplication templates to remediate tasks that you choose. As you respond to choices presented by the manage duplicate CIs skill, you receive clear guidance for what should be your next step in the remediation process. This skill also provides root cause analysis to help you prevent future generation of duplicate CIs.
@@ -145,7 +150,8 @@ Yokohama
 
 You can now use the Create CI experience in CMDB Workspace to create a CI with a lookup identifier entry that contains mandatory attributes. When you select a lookup identifier entry on the Required attributes page, those mandatory attributes now appear and you can set their values for proper IRE processing. For more information, see [Create a CI manually in CMDB Workspace](https://www.servicenow.com/docs/access?context=create-ci-manual-cmdb-workspace&family=yokohama&ft:locale=en-US).
 
--   **[CMDB Workspace v7.6](https://www.servicenow.com/docs/access?context=cmdb-workspace&family=yokohama&ft:locale=en-US):**
+
+ -   **[CMDB Workspace v7.6](https://www.servicenow.com/docs/access?context=cmdb-workspace&family=yokohama&ft:locale=en-US):**
     -   Access a centralized location with a comprehensive view of CI details by using the new CI form in CMDB Workspace. The form shows the attributes \(key attributes are highlighted on a Summary page\), tags, resources, activities, relationships, related services, health state, performance indicators, and CMDB 360 data that is associated with the CI. While viewing, you can also modify many of those CI details. For information about all the details on a CI form, see [Manage CI details in CI Form](https://www.servicenow.com/docs/access?context=ci-form-cmdb-workspace&family=yokohama&ft:locale=en-US).
     -   Access the Data Certification dashboard in CMDB Workspace. The Data Certification dashboard provides the insights about the data certification activities and progress, policies and tasks, reports about certification instances, charts that show the aging certification tasks, and group and individual workloads. For more information, see [Data Certification Dashboard](https://www.servicenow.com/docs/access?context=data-cert-dashboard-workspace&family=yokohama&ft:locale=en-US).
     -   [Manage a shared preset](https://www.servicenow.com/docs/access?context=unified-map-manage-shared-preset&family=yokohama&ft:locale=en-US). Save Unified Map filter settings as shared presets that any user on the team can access. This task requires the sn\_cmdb\_admin, sm\_admin, or admin role.
@@ -159,11 +165,13 @@ Retaining certification policy execution records instead of deleting them after 
         -   The archive rule, Archive Certification Instances, is added to specifically archive certification policy execution records from the CMDB Data Management Policy Execution \[cmdb\_data\_management\_policy\_execution\] table. This new archive rule is configured to archive certification policy execution records 2 years after creation, and to destroy those records 7 years after they are archived.
         -   The archive rule, Archive Certification tasks, is added to specifically archive certification task records from the CMDB Data Management Task \[cmdb\_data\_management\_task table\].
         -   The archival of related records in table CMDB Data Management Certification Task To Document \[sn\_cmdb\_ws\_dm\_certification\_task\_to\_document\] is now moved as an Archive Related Records entry from the Archive CMDB Data Management Tasks archive rule to the new Archive Certification tasks archive rule.
--   **[SGC Central](https://www.servicenow.com/docs/access?context=sgcc-landing&family=yokohama&ft:locale=en-US)**
+
+ -   **[SGC Central](https://www.servicenow.com/docs/access?context=sgcc-landing&family=yokohama&ft:locale=en-US)**
 
 Use the Service Graph Connector Central view, also known as the SGC Central view, in the CMDB Workspace to discover and install connectors, and then effectively manage the full life cycle of creating, editing, monitoring, and debugging connections.
 
--   **[ServiceNow Otto for Configuration Management Database \(CMDB\)](https://www.servicenow.com/docs/access?context=now-assist-landing-cmdb&family=yokohama&ft:locale=en-US)**
+
+ -   **[ServiceNow Otto for Configuration Management Database \(CMDB\)](https://www.servicenow.com/docs/access?context=now-assist-landing-cmdb&family=yokohama&ft:locale=en-US)**
 
 Use the new ServiceNow Otto for CMDB agentic workflows, AI agents, and skills. The Now Assist CI summarizer AI agent summarizes the key details for CIs, such as the discovery and incident details, directly on the CI forms. The Manage duplicate CIs skill guides you step by step on how to use the deduplication templates to help maintain the health and integrity of CMDB.
 
@@ -202,11 +210,17 @@ Zurich
 
 </td><td>
 
--   **[CMDB Workspace v8.0](https://www.servicenow.com/docs/access?context=cmdb-workspace&family=zurich&ft:locale=en-US):**
+-   **[Dynamic IRE](https://www.servicenow.com/docs/access?context=dynamic-ire&family=zurich&ft:locale=en-US)**
+
+Use Dynamic IRE to accurately identify CIs across multiple data sources, and by so, minimize duplicate CIs. Dynamic IRE is applicable only to the Hardware \[cmdb\_ci\_hardware\] class and its descending class, using a dynamic identification process which eliminates the need to manually create and maintain identification rules.
+
+
+ -   **[CMDB Workspace v8.0](https://www.servicenow.com/docs/access?context=cmdb-workspace&family=zurich&ft:locale=en-US):**
 
 You can now use the Create CI experience in CMDB Workspace to create a CI with a lookup identifier entry that contains mandatory attributes. When you select a lookup identifier entry on the Required attributes page, those mandatory attributes now appear and you can set their values for proper IRE processing. For more information, see [Create a CI manually in CMDB Workspace](https://www.servicenow.com/docs/access?context=create-ci-manual-cmdb-workspace&family=zurich&ft:locale=en-US).
 
--   **[CMDB Workspace v7.6](https://www.servicenow.com/docs/access?context=cmdb-workspace&family=zurich&ft:locale=en-US):**
+
+ -   **[CMDB Workspace v7.6](https://www.servicenow.com/docs/access?context=cmdb-workspace&family=zurich&ft:locale=en-US):**
 
     -   Access a centralized location with a comprehensive view of CI details by using the new CI form in CMDB Workspace. The form shows the attributes \(key attributes are highlighted on a Summary page\), tags, resources, activities, relationships, related services, health state, performance indicators, and CMDB 360 data that is associated with the CI. While viewing, you can also modify many of those CI details. For information about all the details on a CI form, see [Manage CI details in CI Form](https://www.servicenow.com/docs/access?context=ci-form-cmdb-workspace&family=zurich&ft:locale=en-US).
     -   Access the Data Certification dashboard in CMDB Workspace. The Data Certification dashboard provides the insights about the data certification activities and progress, policies and tasks, reports about certification instances, charts that show the aging certification tasks, and group and individual workloads. For more information, see [Data Certification Dashboard](https://www.servicenow.com/docs/access?context=data-cert-dashboard-workspace&family=zurich&ft:locale=en-US).
@@ -223,11 +237,8 @@ Retaining certification policy execution records instead of deleting them after 
         -   The archival of related records in the CMDB Data Management Certification Task To Document \[sn\_cmdb\_ws\_dm\_certification\_task\_to\_document\] table is now moved as an Archive Related Records entry from the Archive CMDB Data Management Tasks archive rule to the new Archive Certification tasks archive rule.
 The Zurich release includes an installation of CMDB Workspace. However, you can download a newer version of CMDB Workspace so that you can use its latest features in your Zurich instance. For more information, visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home).
 
--   **[Dynamic IRE](https://www.servicenow.com/docs/access?context=dynamic-ire&family=zurich&ft:locale=en-US)**
 
-Use Dynamic IRE to accurately identify CIs across multiple data sources, and by so, minimize duplicate CIs. Dynamic IRE is applicable only to the Hardware \[cmdb\_ci\_hardware\] class and its descending class, using a dynamic identification process which eliminates the need to manually create and maintain identification rules.
-
--   **[Quick start tests for CMDB](https://www.servicenow.com/docs/access?context=quick-start-tests-cmdb&family=zurich&ft:locale=en-US)**
+ -   **[Quick start tests for CMDB](https://www.servicenow.com/docs/access?context=quick-start-tests-cmdb&family=zurich&ft:locale=en-US)**
 
 After upgrades and deployments of new applications or integrations, run quick start tests to verify that CMDB works as expected. If you customized CMDB, copy the quick start tests and configure them for your customizations.
 
@@ -308,11 +319,20 @@ This scheduled job modifies user roles as follows:
 
         -   Updates the itil user role to no longer contain the sn\_cmdb\_editor user role, and updates the itil\_admin user role to no longer contain the sn\_cmdb\_admin user role.
         -   If those permissions don't exist, updates the sn\_cmdb\_admin and the sn\_cmdb\_editor user roles with create, update, and delete access to the Configuration Item \[cmdb\_ci\] class. For more information about the 'Remove CMDB Roles from ITIL roles and Add CUD access to sn\_cmdb\_admin/sn\_cmdb\_editor roles' scheduled job, see [Remove sn\_cmdb\_admin from itil\_admin and sn\_cmdb\_editor from itil, and then add create/update/delete access to cmdb\_ci table for sn\_cmdb\_admin / sn\_cmdb\_editor \[KB2290506\]](https://support.servicenow.com/kb_view_customer.do?sysparm_article=KB2290506).
--   **[CMDB Workspace v6.3](https://www.servicenow.com/docs/access?context=cmdb-workspace&family=yokohama&ft:locale=en-US)**
-    -   Apply the filters that were previously available only to the coverage charts to all charts in the Discovery sources tile in the CMDB 360 dashboard. For example, you can filter out non-CMDB tables or include records only from principal classes. For more information, see [CMDB 360 experience in CMDB Workspace](https://www.servicenow.com/docs/access?context=cmdb360-exp-cmdb-workspace&family=yokohama&ft:locale=en-US).
-    -   Use a condition builder or a custom script to narrow down the list of de-duplication tasks that are assigned to a template. For more information, see [Create a de-duplication template](https://www.servicenow.com/docs/access?context=workspc-dedup-create-template&family=yokohama&ft:locale=en-US).
-    -   Use the new **Allow empty field values** option to allow or disallow certification of empty value fields when creating a certification policy type in CMDB Data Manager. For more information, see [Create a CMDB Data Manager policy in CMDB Workspace](https://www.servicenow.com/docs/access?context=data-manager-create-policy-wrkspc&family=yokohama&ft:locale=en-US).
--   **[CMDB Workspace v6.4](https://www.servicenow.com/docs/access?context=cmdb-workspace&family=yokohama&ft:locale=en-US)**
+
+ -   **[CMDB Workspace v7.5](https://www.servicenow.com/docs/access?context=cmdb-workspace&family=yokohama&ft:locale=en-US)**
+
+In the CMDB Workspace version 7.5, you can now do the following tasks:
+
+    -   Delete CMDB Data Manager retirement definitions in CMDB Workspace \(other than the cmdb\_ci retirement definition\). For more information, see [Delete a CMDB Data Manager retirement definition](https://www.servicenow.com/docs/access?context=data-manager-manage-ret-def-wrkspc&family=yokohama&ft:locale=en-US).
+    -   Configure a CMDB Data Manager certification policy to disallow reviewers, to update fields' value while reviewing CIs in a certification task. Administrators can clear the **Allow updates to field values** option to prevent reviewers from updating non-compliant field values into compliance, resulting in rejecting those CIs. For more information, see [Create a CMDB Data Manager policy in CMDB Workspace](https://www.servicenow.com/docs/access?context=data-manager-create-policy-wrkspc&family=yokohama&ft:locale=en-US).
+    -   Schedule a de-duplication template for daily, weekly, monthly, or periodic runs for continuous remediation of duplicate CIs. For more information, see [Schedule a de-duplication template](https://www.servicenow.com/docs/access?context=workspc-dedup-schedule-template&family=yokohama&ft:locale=en-US).
+    -   Receive notifications from CMDB Data Manager about certification and attestation tasks, that are incomplete or overdue. For more information, see [Components related to CMDB Data Manager](https://www.servicenow.com/docs/access?context=components-cmdb-data-manager&family=yokohama&ft:locale=en-US).
+    -   Review and process tasks of your direct reports and of members of any user group that you manage. For more information about accessing these tasks in CMDB Data Manager, see [My Work view in CMDB Workspace](https://www.servicenow.com/docs/access?context=cmdb-workspace-govern-view&family=yokohama&ft:locale=en-US).
+    -   Reject a CMDB Data Manager life-cycle task in CMDB Workspace. For more information, see [Review CMDB Data Manager tasks in CMDB Workspace](https://www.servicenow.com/docs/access?context=data-manager-review-task-wrkspc&family=yokohama&ft:locale=en-US).
+    -   Use the Create CI experience with a preset class when drilling down a class in the CI Summary chart on the Home view of CMDB Workspace. For more information about creating CIs manually while applying IRE processes, see [Create a CI manually in CMDB Workspace](https://www.servicenow.com/docs/access?context=create-ci-manual-cmdb-workspace&family=yokohama&ft:locale=en-US).
+
+ -   **[CMDB Workspace v6.4](https://www.servicenow.com/docs/access?context=cmdb-workspace&family=yokohama&ft:locale=en-US)**
 
 You can now use dot-walking when setting assignments for the User Field or User Group Field options for CMDB Data Manager policies \(such as Certification\). Also, when converting legacy certification schedules into Data Manager Certification policies, existing dot-walking settings are preserved. For more information, see [Create a CMDB Data Manager policy in CMDB Workspace](https://www.servicenow.com/docs/access?context=data-manager-create-policy-wrkspc&family=yokohama&ft:locale=en-US).
 
@@ -325,17 +345,11 @@ In the CMDB Workspace version 7.4, you can now do the following tasks:
 
 Also, the CMDB Health dashboard now shows the overall score, which by default, is a simple average of the aggregated scores of the completeness, correctness, and compliance KPIs.
 
--   **[CMDB Workspace v7.5](https://www.servicenow.com/docs/access?context=cmdb-workspace&family=yokohama&ft:locale=en-US)**
 
-In the CMDB Workspace version 7.5, you can now do the following tasks:
-
-    -   Delete CMDB Data Manager retirement definitions in CMDB Workspace \(other than the cmdb\_ci retirement definition\). For more information, see [Delete a CMDB Data Manager retirement definition](https://www.servicenow.com/docs/access?context=data-manager-manage-ret-def-wrkspc&family=yokohama&ft:locale=en-US).
-    -   Configure a CMDB Data Manager certification policy to disallow reviewers, to update fields' value while reviewing CIs in a certification task. Administrators can clear the **Allow updates to field values** option to prevent reviewers from updating non-compliant field values into compliance, resulting in rejecting those CIs. For more information, see [Create a CMDB Data Manager policy in CMDB Workspace](https://www.servicenow.com/docs/access?context=data-manager-create-policy-wrkspc&family=yokohama&ft:locale=en-US).
-    -   Schedule a de-duplication template for daily, weekly, monthly, or periodic runs for continuous remediation of duplicate CIs. For more information, see [Schedule a de-duplication template](https://www.servicenow.com/docs/access?context=workspc-dedup-schedule-template&family=yokohama&ft:locale=en-US).
-    -   Receive notifications from CMDB Data Manager about certification and attestation tasks, that are incomplete or overdue. For more information, see [Components related to CMDB Data Manager](https://www.servicenow.com/docs/access?context=components-cmdb-data-manager&family=yokohama&ft:locale=en-US).
-    -   Review and process tasks of your direct reports and of members of any user group that you manage. For more information about accessing these tasks in CMDB Data Manager, see [My Work view in CMDB Workspace](https://www.servicenow.com/docs/access?context=cmdb-workspace-govern-view&family=yokohama&ft:locale=en-US).
-    -   Reject a CMDB Data Manager life-cycle task in CMDB Workspace. For more information, see [Review CMDB Data Manager tasks in CMDB Workspace](https://www.servicenow.com/docs/access?context=data-manager-review-task-wrkspc&family=yokohama&ft:locale=en-US).
-    -   Use the Create CI experience with a preset class when drilling down a class in the CI Summary chart on the Home view of CMDB Workspace. For more information about creating CIs manually while applying IRE processes, see [Create a CI manually in CMDB Workspace](https://www.servicenow.com/docs/access?context=create-ci-manual-cmdb-workspace&family=yokohama&ft:locale=en-US).
+ -   **[CMDB Workspace v6.3](https://www.servicenow.com/docs/access?context=cmdb-workspace&family=yokohama&ft:locale=en-US)**
+    -   Apply the filters that were previously available only to the coverage charts to all charts in the Discovery sources tile in the CMDB 360 dashboard. For example, you can filter out non-CMDB tables or include records only from principal classes. For more information, see [CMDB 360 experience in CMDB Workspace](https://www.servicenow.com/docs/access?context=cmdb360-exp-cmdb-workspace&family=yokohama&ft:locale=en-US).
+    -   Use a condition builder or a custom script to narrow down the list of de-duplication tasks that are assigned to a template. For more information, see [Create a de-duplication template](https://www.servicenow.com/docs/access?context=workspc-dedup-create-template&family=yokohama&ft:locale=en-US).
+    -   Use the new **Allow empty field values** option to allow or disallow certification of empty value fields when creating a certification policy type in CMDB Data Manager. For more information, see [Create a CMDB Data Manager policy in CMDB Workspace](https://www.servicenow.com/docs/access?context=data-manager-create-policy-wrkspc&family=yokohama&ft:locale=en-US).
 -   **[Update to the Walk stage reports on the CSDM Data Foundations dashboard](https://www.servicenow.com/docs/access?context=csdm-datafdn-dash-walk-tab&family=yokohama&ft:locale=en-US)**
 
 The Technical Service Offerings with Support Group or Change Group report now includes data that meets the **sys\_class \_name = offering** parameter.
@@ -361,7 +375,12 @@ Zurich
 
 </td><td>
 
--   **[CMDB Workspace v7.6](https://www.servicenow.com/docs/access?context=cmdb-workspace&family=zurich&ft:locale=en-US)**
+-   **[Role configuration required for agentic workflows and AI agents](https://www.servicenow.com/docs/access?context=aia-role-masking&family=zurich&ft:locale=en-US)**
+
+Agentic workflows and AI agents included with your applications require additional security configuration. If you select **Users with selected roles** for your user access security controls for an agentic workflow or AI agent, you must add the installed roles, or they will not execute. See the documentation for the agentic workflow or AI agent for the specific roles you must add.
+
+
+ -   **[CMDB Workspace v7.6](https://www.servicenow.com/docs/access?context=cmdb-workspace&family=zurich&ft:locale=en-US)**
     -   On the Published policy tile on the Data Manager policies page, the policies list view now shows the scheduled job that is associated with the policy and the user that the policy runs as.
 
 For more information, see [Create a CMDB Data Manager policy](https://www.servicenow.com/docs/access?context=data-manager-create-policy-wrkspc&family=zurich&ft:locale=en-US).
@@ -386,7 +405,13 @@ For more information, see [Create a CI manually in CMDB Workspace](https://www.s
         -   Create and delete the operations that are related to CMDB 360 queries.
         -   Access the CMDB Retirement Definitions module by navigating to **All** &gt; **Configuration** &gt; **CMDB Retirement Definitions**.
         -   Access the Create CI quick link on the Home view of CMDB Workspace.
--   **[Containment in the itil user role](https://www.servicenow.com/docs/access?context=installed-with-cmdb-workspace&family=zurich&ft:locale=en-US)**
+
+ -   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+
+ -   **[Containment in the itil user role](https://www.servicenow.com/docs/access?context=installed-with-cmdb-workspace&family=zurich&ft:locale=en-US)**
 
 In zBooted instances, the itil user role no longer contains the sn\_cmdb\_editor user role and the itil\_admin user role no longer contains the sn\_cmdb\_admin user role. However, the sn\_cmdb\_admin and the sn\_cmdb\_editor user roles now have full \(create, update, delete\) access to the Configuration Item \[cmdb\_ci\] class.
 
@@ -404,7 +429,6 @@ Configure the system to prioritize the use of IRE identification rules to unique
 
 Set the execution mode for a saved CMDB Query Builder query to run using an enhanced query execution engine, which is designed for improved performance and scalability.
 
--   ****
 -   **[New role required for the Create configuration item agentic workflow](https://www.servicenow.com/docs/access?context=na-cmdb-awf-ci-creator&family=zurich&ft:locale=en-US)**
 
 The sn\_cmdb\_admin role is now required to use the Create configuration item agentic workflow \(was sn\_cmdb\_editor\).
@@ -455,7 +479,7 @@ Zurich
 
 </td><td>
 
--   Common Service Data Model no longer provides **Design** as a value for the **Operational status** attribute in CIs.
+No updates for this release.
 
 </td></tr></tbody>
 </table>## Deprecations
@@ -493,7 +517,9 @@ Zurich
 
 </td><td>
 
--   The Data Certification plugin \(com.snc.certification\_v2\) is now deprecated and no longer supported or available for new activation. The latest experience for this functionality is included with CMDB Workspace.
+-   Common Service Data Model no longer provides **Design** as a value for the **Operational status** attribute in CIs.
+
+ -   The Data Certification plugin \(com.snc.certification\_v2\) is now deprecated and no longer supported or available for new activation. The latest experience for this functionality is included with CMDB Workspace.
 
 
 </td></tr></tbody>
@@ -523,7 +549,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 CMDB is a ServiceNow AI Platform feature that is active by default.
+
 
 </td></tr><tr><td>
 
@@ -531,7 +560,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 CMDB is a ServiceNow AI Platform feature that is active by default.
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -634,11 +666,12 @@ Yokohama
 
 </td><td>
 
--   **Accessibility improvements**
+-   **Accessibility information**
+    -   **Accessibility improvements**
 
 Accessibility improvements were completed to create a configurable workspace that supports Web Content Accessibility Guidelines \(WCAG\) 2.1 Level AA conformance.
 
--   **Reflow**
+    -   **Reflow**
 
 The Configurable Workspace supports reflow, which enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality. Additionally, content can be enlarged without scrolling in two dimensions at a width equivalent to 320 CSS pixels or a height equivalent to 256 CSS pixels. Page layouts are transformed into a vertical, stacked view automatically when users increase browser zoom to 400%.
 
@@ -716,7 +749,7 @@ Xanadu
 -   New filtering options for the Coverage charts on the CMDB 360 dashboard help you better manage the performance associated with calculating those charts, while limiting analysis to only those classes that you're interested in.
 -   Limit the performance impact of CSDM and the CMDB Data Foundations Dashboards by configuring performance settings for some metrics to limit their performance impact, such as triggering the system to automatically deactivate metrics such as **CIs Processed via IRE** and **Business Application with Application Service Relationship**.
 -   The CMDB Health Dashboard is now implemented with the Next Experience user interface in the CMDB Workspace.
--   The ServiceNow® Now Assist for CMDB application brings generative AI to CMDB. Now Assist for CMDB is a new application in the Xanadu release. The ServiceNow® Now Assist for Service Graph Connectors \(SGC\) application brings in generative AI capabilities to resolve issues within Service Graph Connector. Now Assist for SGC is a new application in the Xanadu release..
+-   The ServiceNow® ServiceNow Otto for CMDB application brings generative AI to CMDB. ServiceNow Otto for CMDB is a new application in the Xanadu release. The ServiceNow® Now Assist for Service Graph Connectors \(SGC\) application brings in generative AI capabilities to resolve issues within Service Graph Connector. Now Assist for SGC is a new application in the Xanadu release..
 
  See [Configuration Management](https://www.servicenow.com/docs/access?context=manage-cmdb&family=xanadu&ft:locale=en-US) for more information.
 

@@ -19,7 +19,7 @@ The ServiceNow® classicWorkflow application is a legacy application that provid
 -   Added the snc\_required\_script\_writer\_permission role to all Workflow tasks.
 -   Removed the legacy workflows created and published by ServiceNow, Inc. from new customer installations.
 
-See  for more information.
+See [Classic Workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/c_WorkflowOverview.md) for more information.
 
 ## Activation and other requirements
 
@@ -45,7 +45,7 @@ The ServiceNow® classicWorkflow application is a legacy application that provid
 
 ### What's new
 
--   **Restrict access to Workflow Editor with a new role**
+-   **[Restrict access to Workflow Editor with a new role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/r_WorkflowRoles.md)**
 
     Grant access to the Workflow editor by giving users the snc\_required\_script\_writer\_permission role.
 

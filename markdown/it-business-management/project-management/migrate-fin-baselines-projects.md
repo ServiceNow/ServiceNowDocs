@@ -8,7 +8,7 @@ product: Project Management
 classification: project-management
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 7
+reading_time_minutes: 6
 breadcrumb: [Starting a project, Use, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
@@ -43,15 +43,15 @@ Role required: it\_project\_manager
 
 2.  Migrate baselines using one of the following options.
 
-<table id="choicetable_v4j_f5z_d1c"><thead><tr><th align="left" id="d51294e178">
+<table id="choicetable_v4j_f5z_d1c"><thead><tr><th align="left" id="d51297e178">
 
 Choice
 
-</th><th align="left" id="d51294e181">
+</th><th align="left" id="d51297e181">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d51294e187">
+</th></tr></thead><tbody><tr><td id="d51297e187">
 
 **Using list actions**
 
@@ -62,7 +62,7 @@ Description
 3.  Select **OK** on the Migrate Financial Baselines confirmation window.
 
 
-</td></tr><tr><td id="d51294e217">
+</td></tr><tr><td id="d51297e217">
 
 **Using related links**
 
@@ -72,7 +72,7 @@ Description
 2.  Select the **Migrate Financial Baselines** related link.
 
 
-</td></tr><tr><td id="d51294e238">
+</td></tr><tr><td id="d51297e238">
 
 **Activate a scheduled job**
 

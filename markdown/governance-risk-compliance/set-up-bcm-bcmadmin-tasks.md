@@ -86,6 +86,8 @@ Approver configurator provides you with capabilities to define multiple levels o
 You can configure the BCM properties in the **Properties** module.
 -   **[Properties installed with BCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/properties-bcm.md)**  
 Properties are added with the activation of Business Continuity Management.
+-   **[Create a recovery team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/add-recovery-team-classic-ws-admin.md)**  
+Create a recovery team from the administration menu in the BCM classic Workspace. Add users and groups, attach locations, and build parent-child relationships to organize your business continuity response structure.
 
 **Parent Topic:**[Configuring Business Continuity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/configuring-business-continuity-management.md)
 

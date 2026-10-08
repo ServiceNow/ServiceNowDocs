@@ -21,13 +21,9 @@ The Assess CMDB impact agentic workflow identifies the upstream services and CIs
 
 Generative AI might produce inaccurate or incomplete information. Impact analysis output depends on the quality of the change description and CMDB relationship data. Always validate AI-generated impact assessments against your organization's change governance policies before approving a change.
 
-## What is it
-
 The Assess CMDB impact agentic workflow solves a key gap in change management. Today's impact assessment process relies on flat lists of topologically related services with no semantic reasoning about which services will actually be disrupted, or how severely. Change managers must trace CMDB relationships manually and apply institutional knowledge to assess blast radius.
 
-The workflow reads the affected CI from a change record \(or accepts a CI plus description directly\), traverses the upstream CMDB dependency graph, and uses an LLM to reason about propagation likelihood given the nature of the change and each CI's role in the topology. The result is a structured list: each upstream service or CI with an impact level \(High, Medium, Low, or None\) and a plain-language reason explaining the assessment.
-
-**Important:** LLM reasoning accuracy depends on the richness and clarity of the change description. Short or vague descriptions produce lower-quality impact assessments.
+**Note:** The Assess CMDB impact agentic workflow is deactivated by default. Activate it from Agentic Solutions before use, as described in [AI Agent Studio overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-agent-studio.md).
 
 ## Key benefits
 
@@ -39,13 +35,19 @@ The workflow provides the following benefits:
 -   Helps Change managers and CAB members make informed approval and scheduling decisions before meetings.
 -   Is invoked directly from the ServiceNow Otto panel or as part of agentic workflows.
 
-## How it works
+## Required role
+
+Access to invoke the workflow requires the `itil` role to read CMDB CI and relationship data, and to view change records.
+
+## Workflow steps
 
 The workflow executes three sequential steps:
 
 -   **Step 1: Resolve input**
 
-    Resolves the CI and a context description from a change record \(change request or incident\) or from direct CI and description input. For change records, the description is extracted from the NowAssist task summary \(Objective and Risk sections for change requests; Issue section for incidents\). If the summary is unavailable, the workflow uses the record's `short_description` or `description` field.
+    Resolves the CI and a context description from a change record \(change request or incident\). The description is extracted from the NowAssist task summary \(Objective and Risk sections for change requests; Issue section for incidents\). If the summary is unavailable, the workflow uses the record's `short_description` or `description` field.
+
+    If the change record has no CI set, the workflow resolves the CI from the record's affected CI list. This fallback requires exactly one affected CI. If the affected CI list is empty or contains more than one CI, the workflow returns an error instead of running the analysis.
 
 -   **Step 2: Fetch topology**
 
@@ -55,21 +57,14 @@ The workflow executes three sequential steps:
 
     The workflow sends the topology graph and change context to an LLM for impact analysis. The LLM returns a structured assessment with impact level, impact type, confidence, and reasoning for each affected CI.
 
-
-## Invocation modes
-
-The workflow supports two invocation modes:
-
--   **By change or incident task**
-
-    Invoke with a change or incident record. The workflow reads the change's associated CI and extracts the change description from the record. Supported types: change\_request and incident. Other record types or cancelled changes \(change\_request state 4, incident state 8\) are rejected.
-
--   **By CI directly**
-
-    Invoke with a CI sys\_id and a caller-supplied change description. The description is used as-is without change record lookup. Useful for agentic workflows, CI record workspace actions, or scenarios where no change record is available.
+    **Important:** LLM reasoning accuracy depends on the richness and clarity of the change description. Short or vague descriptions produce lower-quality impact assessments.
 
 
-See [Assess CMDB impact agentic workflow reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-awf-impact-analysis-ref.md) for detailed API specifications and error handling for each mode.
+## Invocation mode
+
+Invoke the workflow with a change or incident record. The workflow reads the change's associated CI and extracts the change description from the record. Supported types: change\_request and incident. Other record types or cancelled changes \(change\_request state 4, incident state 8\) are rejected.
+
+See [CMDB impact analysis agentic workflow details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-awf-impact-analysis-ref.md) for detailed API specifications and error handling.
 
 ## Output format
 
@@ -81,28 +76,25 @@ The workflow returns a structured list of impacted items. Each item includes:
 -   Confidence: Confidence in the assessment: High, Medium, or Low
 -   Reason: Plain-language explanation including redundancy assessment and propagation reasoning
 
-\[Omitted image "otto-impact-analysis-panel.png"\] Alt text: Example impact report.
+The workflow renders the result as a topology visualization. The root CI is highlighted in purple. Upstream CIs are colored by impact level: red for high impact, orange for medium impact, and gray for CIs with no impact. Pointing to a highlighted CI shows its class, status, and the impact reasoning for that CI.
+
+\[Omitted image "na-cmdb-impact-visual.png"\] Alt text: Impact analysis topology visualization, showing the root CI highlighted in purple and upstream CIs colored by impact severity.
 
 ## Constraints and limitations
 
--   Maximum topology nodes: 250 CIs maximum per traversal. Configurable by the `sn_cmdb_gen_ai.impact_analysis.max_topology_nodes` system property.
 -   Maximum LLM input tokens: 15,000 tokens. Large topologies may require truncation or summarization
 -   Service Mapping not integrated: Service association relationships \(svc\_ci\_assoc\) aren't included.
 -   No relationship type exclusion: All relationship types are traversed. Relationship filtering is not supported.
 
 This workflow considers only the semantics of the Assess CMDB impact agentic workflow topology \(actual and probabilistic relationships\).
 
-## Required role
-
-Access to invoke the workflow requires the `itil` role to read CMDB CI and relationship data, and to view change records.
-
 -   **[Analyze change and incident impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-awf-impact-analysis-use.md)**  
-Use the Assess CMDB impact agentic workflow to identify upstream services and CIs likely to be affected by a proposed change. Invoke the workflow in the ServiceNow Otto panel with a change record or a CI and plain language description to receive a prioritized impact assessment with severity levels and reasoning.
+Use the Assess CMDB impact agentic workflow to identify upstream services and CIs likely to be affected by a proposed change. Invoke the workflow in the ServiceNow Otto panel with a change record to receive a prioritized impact assessment with severity levels and reasoning.
 
 **Parent Topic:**[Using agentic workflows in ServiceNow Otto for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-using.md)
 
 **Related topics**  
 
 
-[Assess CMDB impact agentic workflow reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-awf-impact-analysis-ref.md)
+[CMDB impact analysis agentic workflow details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-awf-impact-analysis-ref.md)
 

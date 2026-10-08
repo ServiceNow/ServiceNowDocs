@@ -37,6 +37,7 @@ Build Agent supports the following deployment methods for apps created and edite
     -   For more information, see [Integrating source control with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-ide-family-release/integrating-source-control-servicenow-ide.md).
 -   Update sets and application packaging: Standard ServiceNow deployment uses System Update Sets to track changes.
     -   Advanced guidance includes packing update sets into scoped applications for easier transport and installation across instances, for example using Application Repository \(AppRepo\).
+    -   For information on update sets for Build Agent, see [Update sets and Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ba-update-sets.md).
     -   For more information on System Update Sets, see [System update sets]().
 
 ## Workflows for moving apps through higher instances
@@ -50,7 +51,7 @@ After you create an app using Build Agent, you have several options to move the 
     4.  Put the update set in a deployment request for ReleaseOps, or follow your standard update set process for deployment.
 2.  Publish the app to AppRepo:
     -   You can use a Git-based process or update sets to publish to AppRepo.
-    -   Scoped apps, as well as apps that are ready for testing, can be published to the AppRepo for distribution across environments.
+    -   Scoped apps and apps that are ready for testing can be published to the AppRepo for distribution across environments.
     -   After an app is in AppRepo, you can move it through a ReleaseOps pipeline. If ATF tests are included in the pipeline, they automatically run.
     -   Register and entitle apps before publishing.
     -   For more information on Application Repository, see [ServiceNow application repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/application-repository-self-hosted/app-repo.md).

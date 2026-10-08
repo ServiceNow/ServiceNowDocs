@@ -35,7 +35,9 @@ To update **Use and purpose** values, see [Update the use and purpose of an AI a
 
 ## Asset relationship map
 
-An AI asset can depend on other AI assets. For example, an AI system can use AI models, prompts, and datasets, and can invoke other AI systems. Use the asset relationship map to see these connections, assess the impact of a planned change, and navigate to a related asset's record.
+An AI asset can depend on other AI assets. For example, an AI system can use AI models, prompts, and datasets; can invoke other AI systems; and can be associated with one or more business applications. Use the asset relationship map to see these connections, assess the impact of a planned change, and navigate to a related asset's record.
+
+Business application connections require the Enterprise Architecture for AICT plugin, which installs automatically with AI Control Tower Core at the required version. For upgrade-order considerations, see [Enterprise Architecture for AICT plugin installation and upgrade considerations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/aict-ea-common-upgrade-considerations.md).
 
 \[Omitted image "disc-asset-relationship-map.png"\] Alt text: The asset relationship provides a visual depiction of everything related to the current AI asset.
 
@@ -51,6 +53,8 @@ Update the use and purpose values for an AI asset when its operating characteris
 Field and value reference for the **Use and purpose** section of an AI asset record. AI stewards and AI asset owners reference these values during onboarding, reviews, and audits.
 -   **[Trace the relationships between AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/disc-asset-trace-relationships.md)**  
 Identify the AI assets that depend on or feed into a specific AI asset to assess the impact of a planned change, investigate an unexpected evaluation score, or respond to an audit question about how data and models flow through your AI inventory.
+-   **[Associate a business application with an AI system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/disc-asset-associate-business-application.md)**  
+Associate an existing business application with an AI system asset, independently of whether the Enterprise Architecture Workspace plugin is installed.
 
 **Parent Topic:**[Working with AI asset records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/disc-managing-ai-assets.md)
 

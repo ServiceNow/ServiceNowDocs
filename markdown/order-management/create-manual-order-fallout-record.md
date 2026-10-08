@@ -65,7 +65,7 @@ When you create a manual fallout record, or an automated one is generated, the f
 
 [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/flow-designer.md)
 
-[bundle-crworkflow.flows]
+[Flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/flows.md)
 
 [Create a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/create-flow.md)
 

@@ -21,7 +21,7 @@ The ServiceNow® ReleaseOps application enables developers to manage deployments
 -   Schedule releases or deploy changes on-demand.
 -   Automate the testing and validation process with ReleaseOps to ensure that the proper checks, tests, scans, and approvals are completed before releasing changes to production.
 
-See  for more information.
+See [ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/releaseops-landing.md) for more information.
 
 ## Activation and other requirements
 
@@ -44,40 +44,40 @@ The ServiceNow® ReleaseOps application enables developers to manage deployments
 
 ### What's new
 
--   ****
+-   **[Pipelines in ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/releaseops-pipeline-environments.md)**
 
     A pipeline is the flow of a deployment in ReleaseOps. A pipeline's flow is defined within playbooks, which enables you to customize as needed.
 
--   ****
+-   **[Releases in ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/releases-in-release-ops.md)**
 
     Scheduled and on-demand releases are how changes are deployed to target instances with ReleaseOps. Releases can contain one or more deployment requests.
 
--   ****
+-   **[Deployment requests in ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/deployment-requests.md)**
 
     Deployment requests contain one or more update sets, and are contained in a release.
 
--   ****
+-   **[Configure a new ReleaseOps ecosystem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/configure-new-releaseops-ecosystem.md)**
 
     Configure a new ReleaseOps ecosystem using the sample pipelines and playbooks to begin deploying changes from your development to test to production instances.
 
--   ****
+-   **[Create a custom pipeline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/create-release-ops-pipeline.md)**
 
     Create a custom pipeline to move changes through your production environment to testing by duplicating one of the ReleaseOps playbooks.
 
--   ****
+-   **[Promote an update set for deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/promote-update-set-for-deployment.md)**
 
     When you're ready to deploy your changes, promote your update set to begin the deployment process.
 
--   ****
+-   **[Create a deployment request for a scheduled release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/create-a-new-deployment-request.md)**
 
     Create a deployment request for a scheduled release to contain your update set and enable your changes to move through the pipeline for deployment.
 
--   ****
+-   **[Create a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/create-a-release.md)**
 
     Specify the details for your release, including the target instance that the changes deploy to and when the release should occur.
 
 
--   **ReleaseOps guided setup**
+-   **[ReleaseOps guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/complete-guided-setup.md)**
 
     Starting with version 1.2.1 of ReleaseOps, you can use guided setup to help simplify the initial configuration process.
 

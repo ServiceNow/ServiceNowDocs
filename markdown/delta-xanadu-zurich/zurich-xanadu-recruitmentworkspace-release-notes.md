@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-recruitmentworkspace-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
+last_updated: "2026-10-08"
 reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
@@ -91,8 +91,6 @@ Zurich
 
 </td><td>
 
-[Zurich Patch 10](https://www.servicenow.com/docs/access?context=zurich-patch-10&family=zurich&ft:locale=en-US)
-
 -   **[Substitute interviewer](https://www.servicenow.com/docs/access?context=manage-interviews-recruiter&family=zurich&ft:locale=en-US)**
 
 Substitute an interviewer for any interview on a job where you're part of the hiring team, from Recruitment workspace. You don't need to reschedule the interview or update invites.
@@ -102,9 +100,7 @@ Substitute an interviewer for any interview on a job where you're part of the hi
 Monitor interview health from the Needs attention list view in Recruitment workspace.
 
 
-[Zurich Patch 1](https://www.servicenow.com/docs/access?context=zurich-patch-1&family=zurich&ft:locale=en-US)
-
--   **[Create job requisitions](https://www.servicenow.com/docs/access?context=request-job-hiring&family=zurich&ft:locale=en-US)**
+ -   **[Create job requisitions](https://www.servicenow.com/docs/access?context=request-job-hiring&family=zurich&ft:locale=en-US)**
 
 Create a job requisition for a vacancy that you want to fill in your organization.
 
@@ -179,8 +175,6 @@ No updates for this release.
 Zurich
 
 </td><td>
-
-[Zurich Patch 10](https://www.servicenow.com/docs/access?context=zurich-patch-10&family=zurich&ft:locale=en-US)
 
 -   **[Get overview of workload](https://www.servicenow.com/docs/access?context=recruitment-workspace-oveview&family=zurich&ft:locale=en-US)**
 
@@ -296,7 +290,12 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Install Recruiter Workspace by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
+
+**Important:** Recruitment workspace is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -333,7 +332,10 @@ Zurich
 
 </td><td>
 
+-   **Additional requirements**
+
 The Hiring Core application provides essential data models and shared components for Hiring Experiences. The Hiring Core application must be activated.
+
 
 </td></tr></tbody>
 </table>## Browser requirements

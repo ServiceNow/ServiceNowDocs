@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2026-04-29"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI, use]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, use]
 breadcrumb: [Evaluating AI systems, Managing your AI asset inventory, Discover and manage AI assets, AI Control Tower, Enable AI experiences]
 ---
 
@@ -30,15 +30,15 @@ Role required: sn\_ai\_asset\_mgmt.ai\_asset\_owner or sn\_ai\_governance.ai\_st
 
 2.  On the Overview tab, enable evaluation for one or more AI systems.
 
-<table><thead><tr><th align="left" id="d110991e135">
+<table><thead><tr><th align="left" id="d113322e135">
 
 Option
 
-</th><th align="left" id="d110991e138">
+</th><th align="left" id="d113322e138">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d110991e144">
+</th></tr></thead><tbody><tr><td id="d113322e144">
 
 **Enable evaluation for a single AI system**
 
@@ -50,7 +50,7 @@ Steps
 4.  Select **Turn on evaluation** to confirm.
 
 
-</td></tr><tr><td id="d110991e177">
+</td></tr><tr><td id="d113322e177">
 
 **Enable evaluation for multiple AI systems**
 

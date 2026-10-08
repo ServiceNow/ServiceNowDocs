@@ -199,6 +199,8 @@ Text that must appear when multiple important date configuration records are dis
 
 [Activate a scheduled job in Manager Hub]()
 
+[Configure manager insights for ServiceNow Otto for HRSD]()
+
 [Configure team requests in Manager Hub]()
 
 [Configure team data in Manager Hub]()

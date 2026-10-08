@@ -118,7 +118,7 @@ Content Delivery manager \[sn\_cd.content\_manager\]
 
 -   **Load data**
 
-    To add alumni users in bulk, use **System Import Sets**. For more information, see Import sets key concepts.
+    To add alumni users in bulk, use **System Import Sets**. For more information, see [Import sets key concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/c_ImportSetsKeyConcepts.md).
 
     At a minimum, the file you upload must have a header and the personal email for each alumnus.
 

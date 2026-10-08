@@ -8,7 +8,7 @@ product: Change Management
 classification: change-management
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Configure, Change Management, IT Service Management]
 ---
 
@@ -262,6 +262,8 @@ Option to make the condition active.
 20. Select **Submit**.
 
 
+-   **[Change model attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/change-model-attributes.md)**  
+Change model attributes are tags that you assign to states in a change model. Scripts can check which attributes are present in the current state of a change and turn functionality on or off for that state.
 -   **[Create predefined transition condition types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/create-predefined-transition-condition-type.md)**  
 Create predefined transition conditions to reuse the conditions for your Change models.
 -   **[Attach a process for Change model states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/attach-process-change-model.md)**  

@@ -19,6 +19,8 @@ Monitor project tasks autonomously by configuring the AI agent in the AI Agent S
 
 ## Before you begin
 
+The Project insights generation skill is activated by default. For more information on how to activate the skill if it isn't automatically activated or if you want to change the skill configuration, see [Configure Now Assist Admin features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/now-assist-for-strategic-portfolio-management-spm/configuring-na-spm.md).
+
 Role required: admin or it\_project\_manager
 
 ## Procedure
@@ -36,23 +38,25 @@ Role required: admin or it\_project\_manager
     1.  From Define key requirements screen, select **Continue**.
     2.  From Define user access screen, select **Continue**.
     3.  From Define data access screen, select **Continue**.
-    4.  From Add triggers screen, select the Project task update monitoring and turn on the Trigger. Select **Save** and select **Continue**.
+    4.  From Add triggers screen, select the **Project task update monitoring** and turn on the Trigger. Select **Save** and select **Continue**.
     5.  From the Select channels and status screen, select **Save and test**.
-    The agentic workflow trigger defines the events that invoke AI agents for this agentic workflow. The trigger ensures that the AI agents can only start working upon specific key updates to project tasks.
+    The agentic workflow trigger defines the events that invoke AI agents for this agentic workflow. The trigger verifies that the AI agents can only start working on specific key updates to project tasks.
 
 4.  Navigate to **Workspaces** &gt; **Project Workspace** and select the project.
 
-    The admin must enable the project insights generation skill for a specific project and set up a cadence for the project insights email. For more information on how to set up an email cadence, see the .
+    The admin must enable the project insights generation skill for a specific project and set up a cadence for the project insights email. For more information on how to set up an email cadence, see the [Schedule the project insights email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/email-project-summary-pw.md).
 
 5.  Enable the AI agent for a specific project:
 
-    1.  .
+    1.  [Schedule the project insights email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/project-workspace/email-project-summary-pw.md).
     2.  From the planning page, select the more actions icon \(\[Omitted image "more-options-icon.png"\] Alt text: More actions icon.\) and then select **Enable critical task alerts**.
 
         **Note:** Enable critical task alerts option is only available when the email is scheduled. To disable the AI agent, select the more actions icon \(\[Omitted image "more-options-icon.png"\] Alt text: More actions icon.\) and then select **Disable critical task alerts**.
 
-    The Monitor project tasks agents are enabled for the selected project.
 
+## Result
+
+The Monitor project tasks agents are enabled for the selected project.
 
 **Parent Topic:**[Configure AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/now-assist-for-strategic-portfolio-management-spm/configuring-na-spm.md)
 

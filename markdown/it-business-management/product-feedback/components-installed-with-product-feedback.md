@@ -135,7 +135,7 @@ sn\_apw\_advanced.product\_feedback\_allowed\_non\_planning\_items\_for\_link\_i
 
 </td><td>
 
-Specifies the non-planning items that can be linked to feedback or product idea. With the **sn\_apw\_advanced.product\_feedback\_allowed\_non\_planning\_items\_for\_link\_item** system property, you can link non-planning items such as incident, scrum tasks, agile stories, or items from safe application, agile development, PPM standard, or any global or scoped application tables to your feedback or product idea.
+Specifies the non-planning items that can be linked to feedback or a product idea. Use the **sn\_apw\_advanced.product\_feedback\_allowed\_non\_planning\_items\_for\_link\_item** system property to link items such as incidents, scrum tasks, and agile stories. You can also link items from safe application, agile development, PPM standard, or any global or scoped application tables.
 
 </td></tr><tr><td>
 

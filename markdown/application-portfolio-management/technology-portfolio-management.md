@@ -56,7 +56,7 @@ Enterprise Architecture no longer integrates with Service Mapping through the **
 
 ## TPM depends on Software Asset Management \(SAM\) to retrieve the technology information of the software product
 
-**Warning:** TPM and TRM require installation of either SAM Foundation or SAM Professional. Before installing the SAM Foundation plugin, carefully review the [Software Asset Management Foundation plugin migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/c_SAMMigrationSAMF.md) documentation. Contact ServiceNow Support if you don't have either SAM Foundation or SAM Professional installed on your instance.
+**Warning:** TPM and TRM require installation of either SAM Foundation or SAM Professional. Before installing the SAM Foundation plugin, carefully review the [Basic Software Asset Management migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/c_SAMMigrationSAMF.md) documentation. Contact ServiceNow Support if you don't have either SAM Foundation or SAM Professional installed on your instance.
 
 You can use Technology Portfolio Management even if you do not have Software Asset Management \(SAM\) installed. A preconfigured Software Product Model table is available to all TPM users. You can create a list of all software models that your organization uses either manually or import from an existing database or source.
 

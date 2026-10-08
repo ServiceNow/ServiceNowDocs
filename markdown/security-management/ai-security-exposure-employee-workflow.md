@@ -1,35 +1,31 @@
 ---
 title: Using AI remediation workflows with Employee Center
-description: AI Security Exposure Management integrates with Employee Center and third-party security tools to enable AI asset owners to remediate AI posture findings \(configuration issues\) directly through lightweight tasks.
+description: AI Security Exposure Management integrates with Employee Center and third-party security tools to enable AI asset owners to remediate AI posture findings \(configuration issues\) directly through lightweight tasks. These tasks can reduce time to remediate \(TTR\) by assigning a task directly to the asset owner.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/ai-security-exposure-employee-workflow.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-03"
-reading_time_minutes: 4
+last_updated: "2026-10-05"
+reading_time_minutes: 3
 keywords: [AI security, remediation, Employee Center, vulnerability management]
 breadcrumb: [AI Security Exposure Management, Use, Unified Security Exposure Management, Security Operations]
 ---
 
 # Using AI remediation workflows with Employee Center
 
-AI Security Exposure Management integrates with Employee Center and third-party security tools to enable AI asset owners to remediate AI posture findings \(configuration issues\) directly through lightweight tasks.
+AI Security Exposure Management integrates with Employee Center and third-party security tools to enable AI asset owners to remediate AI posture findings \(configuration issues\) directly through lightweight tasks. These tasks can reduce time to remediate \(TTR\) by assigning a task directly to the asset owner.
 
 ## Remediation workflow overview
 
-AI Security Exposure Management routes an eligible AI exposure finding to a corresponding AI exposure task that is created in Employee Center. AI exposure tasks are routed directly to asset owners. These tasks can reduce time to remediate \(TTR\).
-
-An AI exposure task is created for any AI posture finding that matches the filter of the sn\_sec\_ai.create\_employee\_tasks\_ai\_posture system property. This approach distributes remediation tasks to the individuals who own and manage AI assets, allowing them to address security issues directly. Multiple remediation paths are available and thus reduces the burden on centralized vulnerability teams.
+AI Security Exposure Management routes AI exposure findings to asset owners through Employee Center, enabling multiple remediation paths and reducing the burden on centralized vulnerability teams. This approach distributes remediation tasks to the individuals who own and manage AI assets, allowing them to address security issues directly.
 
 This approach is also useful for security posture findings identified in AI agents or associated AI assets in no-code or low-code platforms such as Microsoft Copilot studio. These agents are created by business users for productivity gains and don't involve application developers.
 
-The system uses third-party integrations to import AI posture findings for misconfigurations identified in agents, tools, and other AI assets and match them to AI asset owners. Tasks in Employee Center are automatically created based on AI asset ownership and displayed along with other requests. Each task is associated with a distinct AI asset.
-
-The AI exposure task provides asset owners with a streamlined interface to either resolve the configuration issue or request an exception quickly.
+The system uses third-party integrations to import AI posture findings for misconfigurations identified in agents, tools, and other AI assets and matches them to AI asset owners. Tasks in Employee Center are automatically created based on AI asset ownership and displayed along with other requests. Each task is associated with a distinct AI asset. The task provides asset owners with a streamlined interface to either resolve the configuration issue or request an exception quickly.
 
 ## Task routing and assignment
 
-When AI Security Exposure Management detects a finding, the creates a task and routes it to the appropriate AI asset owner in Employee Center. The integration with third-party AI security platforms identify the owners of each AI asset, ensuring that tasks reach the correct owners. Task records and states are synched to AI posture findings that can be monitored by analysts and managers in the AI Security Exposure Management module dashboard.
+When AI Security Exposure Management detects a finding, the system creates a task and routes it to the appropriate AI asset owner in Employee Center. The integration with third-party AI security platforms identifies the owners of each AI asset, ensuring that tasks reach the correct owners. Task records and states are synched to AI posture findings that can be monitored by analysts and managers in the AI Security Exposure Management module dashboard.
 
 Each employee typically receives one task per AI asset and security finding combination they own.
 

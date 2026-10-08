@@ -207,7 +207,7 @@ ServiceNow Otto® for Platform Analytics consists of several skills and applicat
 
     -   [Ability to add tables to the semantic data layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/add-table-semantic-layer.md)
     -   [Multi-table source support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/ask-expl-questions.md)
-    -   Workflow Data Fabric table support
+    -   [Workflow Data Fabric table support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/create-integrations-applications.md)
     -   [Database view support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/add-table-semantic-layer.md)
 
 ### What's changed
@@ -220,7 +220,7 @@ ServiceNow Otto® for Platform Analytics consists of several skills and applicat
 
     Query Generation supports related table conditions and dot-walking in queries.
 
--   **Get insights and visualizations for Workflow Data Fabric tables**
+-   **[Get insights and visualizations for Workflow Data Fabric tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/create-integrations-applications.md)**
 
     Ask AI Data Explorer information about Workflow Data Fabric data and get insightful responses. You must first add the Workflow Data Fabric tables to the Query Generation Semantic Table Configuration table.
 

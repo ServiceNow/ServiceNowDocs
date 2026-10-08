@@ -9,7 +9,7 @@ classification: software-asset-management-foundation-plugin
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Configuring Software Asset Management Foundation plugin workspace, Software Asset Management Foundation plugin, ITSM Software Asset Management, Asset Management, IT Service Management]
+breadcrumb: [Configuring Basic Software Asset Management workspace, Basic Software Asset Management, ITSM Software Asset Management, Asset Management, IT Service Management]
 ---
 
 # Create a Software Asset Management Foundation entitlement in workspace
@@ -39,5 +39,5 @@ When you start creating the entitlement, it is in the build status. After you pu
     For a detailed description of the fields, see [Create a SAM Foundation entitlement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/software-asset-management-foundation-plugin/t_AddASoftwareEntitlementSAMF.md).
 
 
-**Parent Topic:**[Configuring Software Asset Management Foundation plugin workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/software-asset-management-foundation-plugin/configuring-samf-plugin-workspace.md)
+**Parent Topic:**[Configuring Basic Software Asset Management workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/software-asset-management-foundation-plugin/configuring-samf-plugin-workspace.md)
 

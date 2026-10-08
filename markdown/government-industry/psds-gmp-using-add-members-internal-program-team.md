@@ -16,7 +16,7 @@ Add members of the Internal Grant Program team who will be responsible for admin
 
 ## About this task
 
-The Internal Team plays a crucial role in supporting the Grant Program Manager throughout the lifecycle of the grant program. This group is responsible for assisting with the development and configuration of program parameters, managing internal processes, and ensuring that all compliance and operational requirements are met. Members collaborate to provide expertise across areas such as budgeting, timelines, proposal evaluations, and documentation, enabling a streamlined and transparent grant management process, and can be sub-classified as approver, observer, program lead, program co-lead, or other.
+The Internal Team plays a crucial role in supporting the Grant Program Manager throughout the lifecycle of the grant program. This group is responsible for assisting with the development and configuration of program parameters, managing internal processes, and ensuring that all compliance and operational requirements are met. Members collaborate to provide expertise across areas such as budgeting, timelines, proposal evaluations, and documentation. Members can be sub-classified as approver, observer, program lead, program co-lead, or other.
 
 \[Omitted image "psds\_gmp\_internalpgrteam\_view.png"\] Alt text: internal progam team playbook view
 
@@ -26,7 +26,7 @@ To add public-facing points of contact that potential applicants can reach out t
 
 ## Before you begin
 
-Role required: sn\_gsm\_grnt\_mgmt.program\_manager, sn\_gsm\_grnt\_mgmt.grant\_director, sn\_svc\_appl\_pgm\_mg.grant\_program\_manager, or sn\_svc\_appl\_pgm\_mg-grant\_program\_director
+Role required: sn\_svc\_appl\_pgm\_mg.grant\_program\_manager or sn\_svc\_appl\_pgm\_mg.grant\_program\_director
 
 To add a user as an Internal Team Member, an Employee Profile must be created.
 

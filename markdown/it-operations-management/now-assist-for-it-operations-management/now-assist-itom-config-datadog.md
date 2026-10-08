@@ -9,7 +9,7 @@ classification: now-assist-for-it-operations-management
 topic_type: task
 last_updated: "2025-12-04"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configure the manage alerts autonomously agentic workflow, Configure, ServiceNow Otto for ITOM, IT Operations Management]
 ---
 
@@ -37,15 +37,15 @@ Role required: connection\_admin and credential\_admin
 
 4.  On the form, fill in the fields.
 
-<table id="choicetable_uv4_x44_gfc"><thead><tr><th align="left" id="d223960e149">
+<table id="choicetable_uv4_x44_gfc"><thead><tr><th align="left" id="d227435e149">
 
 Field
 
-</th><th align="left" id="d223960e152">
+</th><th align="left" id="d227435e152">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d223960e158">
+</th></tr></thead><tbody><tr><td id="d227435e158">
 
 **Connection Name**
 
@@ -53,7 +53,7 @@ Description
 
 Name of your Datadog connection. This name helps you identify it later. For example, `Datadog analysis AI agent connection`.
 
-</td></tr><tr><td id="d223960e175">
+</td></tr><tr><td id="d227435e175">
 
 **Connection URL**
 
@@ -61,7 +61,7 @@ Name of your Datadog connection. This name helps you identify it later. For exam
 
 URL of your Datadog instance. Datadog URLs follow this format: `https://api.datadoghq.com`.
 
-</td></tr><tr><td id="d223960e193">
+</td></tr><tr><td id="d227435e193">
 
 **Datadog API key**
 
@@ -69,7 +69,7 @@ URL of your Datadog instance. Datadog URLs follow this format: `https://api.data
 
 Your Datadog API key.
 
-</td></tr><tr><td id="d223960e207">
+</td></tr><tr><td id="d227435e207">
 
 **Datadog Application key**
 

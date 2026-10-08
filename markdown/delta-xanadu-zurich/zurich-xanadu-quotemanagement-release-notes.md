@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-quotemanagement-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
+last_updated: "2026-10-08"
 reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
@@ -108,17 +108,17 @@ Create a new sales agreement or apply an existing sales agreements to a quote. W
 Agents gain visibility into the price adjustments that were applied to the base and list price of the product ordered. This provides sales agent the visibility of how the net price is determined.
 
 
--   **[Quote PDF documents generation](https://www.servicenow.com/docs/access?context=quote-create-pdf-document&family=yokohama&ft:locale=en-US)**
+ -   **[Quote PDF documents generation](https://www.servicenow.com/docs/access?context=quote-create-pdf-document&family=yokohama&ft:locale=en-US)**
 
 Generate a quote PDF document. Quote PDF documents can have designated signers and be emailed to customers for signatures through Docusign. Customers can also create PDF templates that reflect customer branding and logos.
 
 
--   **[Hierarchical quote line list view](https://www.servicenow.com/docs/access?context=quote-management-view-hierarchical-line-items&family=yokohama&ft:locale=en-US)**
+ -   **[Hierarchical quote line list view](https://www.servicenow.com/docs/access?context=quote-management-view-hierarchical-line-items&family=yokohama&ft:locale=en-US)**
 
 View quote lines as a hierarchical list. Agents can then view parent and child relationships for quote line items.
 
 
--   **[Product offer recommendations for quotes](https://www.servicenow.com/docs/access?context=quote-get-product-offer&family=yokohama&ft:locale=en-US)**
+ -   **[Product offer recommendations for quotes](https://www.servicenow.com/docs/access?context=quote-get-product-offer&family=yokohama&ft:locale=en-US)**
 
 Enable your agents to get product offer recommendations that complement or supplement existing products within a quote.
 
@@ -134,7 +134,7 @@ Zurich
 Enables sales agents to quickly view, add, and edit manual price adjustments for quote line items directly from the list view, making it easier to manage both automatic and manual adjustments. The new experience streamlines the quoting process and allows adjustments to be applied to individual or multiple line items at once.
 
 
--   **[Price and quantity ramps on quote line items](https://www.servicenow.com/docs/access?context=add-price-ramps-on-a-quote-line-item&family=zurich&ft:locale=en-US)**
+ -   **[Price and quantity ramps on quote line items](https://www.servicenow.com/docs/access?context=add-price-ramps-on-a-quote-line-item&family=zurich&ft:locale=en-US)**
 
 Create price and quantity ramps for product offerings in quotes to define incremental price and quantity changes over time. Product offerings eligible for ramps have the Ramps enabled option and Recurring price method selected. Agents can define ramps in two ways:
 
@@ -144,12 +144,12 @@ Create price and quantity ramps for product offerings in quotes to define increm
 Agents can also make manual price adjustments per segment. When a quote with ramps is converted to an order, ramps become read-only.
 
 
--   **[Quote header discount](https://www.servicenow.com/docs/access?context=add-header-discount-to-a-quote&family=zurich&ft:locale=en-US)**
+ -   **[Quote header discount](https://www.servicenow.com/docs/access?context=add-header-discount-to-a-quote&family=zurich&ft:locale=en-US)**
 
 Added a quote header discount feature that enables sales agents to apply a discount across multiple quote lines at once. This simplifies the quoting process and ensures consistent discount application, thereby improving overall sales efficiency and customer satisfaction.
 
 
--   **[Subscription revenue metrics](https://www.servicenow.com/docs/access?context=som-subscription-pricing&family=zurich&ft:locale=en-US)**
+ -   **[Subscription revenue metrics](https://www.servicenow.com/docs/access?context=som-subscription-pricing&family=zurich&ft:locale=en-US)**
 
 Provides sales agents better visibility of the entire quote cost and profit with the addition of Cost and Margin calculations to the following levels:
 
@@ -301,11 +301,14 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Install Quote Management by requesting it from the ServiceNow Store.
 
- To add Docusign plugin to the Quote Management PDF document function, use the Docusign eSignature Spoke plugin \(sn\_docusign\_spoke\).
+To add Docusign plugin to the Quote Management PDF document function, use the Docusign eSignature Spoke plugin \(sn\_docusign\_spoke\).
 
- Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -313,11 +316,16 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Install Quote Management by requesting it from the ServiceNow Store.
 
- To add Docusign plugin to the Quote Management PDF document function, use the Docusign eSignature Spoke plugin \(sn\_docusign\_spoke\).
+To add Docusign plugin to the Quote Management PDF document function, use the Docusign eSignature Spoke plugin \(sn\_docusign\_spoke\).
 
- Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
+
+**Important:** Quote Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -428,7 +436,8 @@ Zurich
 
 </td><td>
 
--   **Dark theme**
+-   **Accessibility information**
+    -   **Dark theme**
 
 The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
 

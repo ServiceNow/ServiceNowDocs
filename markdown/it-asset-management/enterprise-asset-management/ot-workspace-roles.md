@@ -28,7 +28,7 @@ Access to the OT Asset Workspace depends on the role assigned to you.
 
 [Domain separation and Enterprise Asset Management]()
 
-[Enterprise Asset Management roles]()
+[Components installed with Enterprise Asset Management]()
 
 [Asset fields for enterprise assets]()
 

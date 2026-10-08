@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/create-dv-calendar-ac.html
 release: zurich
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 3
+last_updated: "2026-09-25"
+reading_time_minutes: 4
 keywords: [Create calendar report, Create calendar visualization]
 breadcrumb: [Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
@@ -25,7 +25,20 @@ For information about the use of the Calendar report visualizations on dashboard
 
 The calendar visualization is used to show activity over the course of a longer span of time than most data visualizations. Use them when you want to condense date-specific information into a small space.
 
-**Note:** Calendar visualizations that are migrated from Core UI require a start time in the **Start date** field and an end time in the **End date** field. These fields are not required in Core UI, but are required in Platform Analytics experience.
+**Note:** Calendar visualizations that are migrated from Core UI require a start time in the **Start date** field and an end time in the **End date** field. These fields aren't required in Core UI, but are required in Platform Analytics experience.
+
+Calendar report limitations:
+
+-   You can limit the number of events that may be returned when you browse backwards in a calendar visualization. There is a limit of 30 days into the past, starting from the first day in the current Calendar view. Events that start more than 30 days before the first day visible on a calendar are not displayed. If you select **Year**, then the calendar includes events that start between December 1 of the previous year and December 31 of the current year.
+
+    The KB article [Weekly calendar view does not display all entries](https://support.servicenow.com/nav_to.do?uri=%2Fkb%3Fid%3Dkb_article_view%26sysparm_article%3DKB0598360) covers scenarios in which some expected entries do not display.
+
+    To show more or fewer days, edit the **glide.report.calendar.max\_days\_back** property. See [Reporting properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/reporting/reporting-properties.md).
+
+    **Note:** Performance may degrade if this value is too large.
+
+-   This visualization type cannot be run as a scheduled export.
+-   Calendar visualizations on a start date field show the range of the field from the start date to the end date. Calendar visualizations on an end date field show only the end date.
 
 ## Procedure
 

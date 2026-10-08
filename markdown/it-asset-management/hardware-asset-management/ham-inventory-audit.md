@@ -87,6 +87,8 @@ View the deprecated asset audit records that are created before switching to the
 
 [Create an internal lifecycle in the Hardware Asset Workspace]()
 
+[Calculate the active lifecycle phase for a model]()
+
 [Receive asset warranty details from Lenovo]()
 
 [Manage stockrooms]()

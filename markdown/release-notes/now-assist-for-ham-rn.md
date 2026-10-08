@@ -1,12 +1,12 @@
 ---
 title: ServiceNow Otto for Hardware Asset Management \(HAM\) release notes
-description: The ServiceNow Otto for Hardware Asset Management \(HAM\) application brings agentic AI to Hardware Asset Management. ServiceNow Otto for HAM was enhanced and updated in the Zurich release.The ServiceNow Otto for Hardware Asset Management \(HAM\) application brings agentic AI to Hardware Asset Management. ServiceNow Otto for HAM was enhanced and updated in the Zurich release.The ServiceNow Otto for Hardware Asset Management \(HAM\) application brings agentic AI to Hardware Asset Management. ServiceNow Otto for HAM was enhanced and updated in the Zurich release.The ServiceNow Otto for Hardware Asset Management \(HAM\) application brings agentic AI to Hardware Asset Management. ServiceNow Otto for HAM was enhanced and updated in the Zurich release.The ServiceNow Otto for Hardware Asset Management \(HAM\) application brings agentic AI to Hardware Asset Management. ServiceNow Otto for HAM was enhanced and updated in the Zurich release.The ServiceNow Otto for Hardware Asset Management \(HAM\) application brings agentic AI to Hardware Asset Management. ServiceNow Otto for HAM was enhanced and updated in the Zurich release.The ServiceNow Otto for Hardware Asset Management \(HAM\) application brings agentic AI to Hardware Asset Management. ServiceNow Otto for HAM was enhanced and updated in the Zurich release.The ServiceNow Otto for Hardware Asset Management \(HAM\) application brings agentic AI to Hardware Asset Management. ServiceNow Otto for HAM was enhanced and updated in the Zurich release.
+description: The ServiceNow Otto for Hardware Asset Management \(HAM\) application brings agentic AI to Hardware Asset Management. ServiceNow Otto for HAM was enhanced and updated in the Zurich release.This version includes support for Gemma, a third-party LLM.The ServiceNow Otto for Hardware Asset Management \(HAM\) application brings agentic AI to Hardware Asset Management. ServiceNow Otto for HAM was enhanced and updated in the Zurich release.The ServiceNow Otto for Hardware Asset Management \(HAM\) application brings agentic AI to Hardware Asset Management. ServiceNow Otto for HAM was enhanced and updated in the Zurich release.The ServiceNow Otto for Hardware Asset Management \(HAM\) application brings agentic AI to Hardware Asset Management. ServiceNow Otto for HAM was enhanced and updated in the Zurich release.The ServiceNow Otto for Hardware Asset Management \(HAM\) application brings agentic AI to Hardware Asset Management. ServiceNow Otto for HAM was enhanced and updated in the Zurich release.The ServiceNow Otto for Hardware Asset Management \(HAM\) application brings agentic AI to Hardware Asset Management. ServiceNow Otto for HAM was enhanced and updated in the Zurich release.The ServiceNow Otto for Hardware Asset Management \(HAM\) application brings agentic AI to Hardware Asset Management. ServiceNow Otto for HAM was enhanced and updated in the Zurich release.The ServiceNow Otto for Hardware Asset Management \(HAM\) application brings agentic AI to Hardware Asset Management. ServiceNow Otto for HAM was enhanced and updated in the Zurich release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/now-assist-for-ham-rn.html
 release: zurich
 topic_type: topic
 last_updated: "2025-08-14"
-reading_time_minutes: 5
+reading_time_minutes: 6
 breadcrumb: [IT Asset Management release notes, Features and changes by product, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
 ---
 
@@ -52,7 +52,18 @@ See [ServiceNow Otto for Hardware Asset Management \(HAM\)](https://raw.githubus
 
 **Parent Topic:**[IT Asset Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/it-asset-management-rn-landing.md)
 
-## August 2026
+## Version 5.1.0
+
+This version includes support for Gemma, a third-party LLM.
+
+### What's deprecated or removed
+
+-   **Now LLM Service**
+
+    Starting with the October 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+
+
+## Version 4.7.0
 
 The ServiceNow Otto for Hardware Asset Management \(HAM\) application brings agentic AI to Hardware Asset Management. ServiceNow Otto for HAM was enhanced and updated in the Zurich release.
 
@@ -60,10 +71,10 @@ The ServiceNow Otto for Hardware Asset Management \(HAM\) application brings age
 
 -   **[Now Assist &gt; ServiceNow Otto announcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/platform-now-assist-landing.md)**
 
-    Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+    ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
 
 
-## July 2026
+## Version 4.4.0
 
 The ServiceNow Otto for Hardware Asset Management \(HAM\) application brings agentic AI to Hardware Asset Management. ServiceNow Otto for HAM was enhanced and updated in the Zurich release.
 
@@ -74,18 +85,7 @@ The ServiceNow Otto for Hardware Asset Management \(HAM\) application brings age
     The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
 
 
-## March 2026
-
-The ServiceNow Otto for Hardware Asset Management \(HAM\) application brings agentic AI to Hardware Asset Management. ServiceNow Otto for HAM was enhanced and updated in the Zurich release.
-
-### What's new
-
--   **[Manage your assets with comprehensive and real-time data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/generate-asset-analysis-now-assist-ham.md)**
-
-    View consolidated asset information through AI-generated analysis summary on the asset record. The AI-generated summary dynamically updates based on the asset state and includes context from any active incidents or tasks. The summary displays the asset life cycle, current assignment and location, audit status, financial metrics, and identifies missing data to support asset management activities.
-
-
-## January 2026
+## Version 4.3.0
 
 The ServiceNow Otto for Hardware Asset Management \(HAM\) application brings agentic AI to Hardware Asset Management. ServiceNow Otto for HAM was enhanced and updated in the Zurich release.
 
@@ -96,7 +96,7 @@ The ServiceNow Otto for Hardware Asset Management \(HAM\) application brings age
     Starting with Australia Early Access, AI usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: AI Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
 
 
-## December 2025
+## Version 4.1.0
 
 The ServiceNow Otto for Hardware Asset Management \(HAM\) application brings agentic AI to Hardware Asset Management. ServiceNow Otto for HAM was enhanced and updated in the Zurich release.
 
@@ -113,18 +113,18 @@ The ServiceNow Otto for Hardware Asset Management \(HAM\) application brings age
     Agentic workflows and AI agents included with your applications require additional security configuration. If you select **Users with selected roles** for your user access security controls for an agentic workflow or AI agent, you must add the installed roles, or they will not execute. See the documentation for the agentic workflow or AI agent for the specific roles you must add.
 
 
-## Zurich General Availability
+## Version 4.0.0
 
 The ServiceNow Otto for Hardware Asset Management \(HAM\) application brings agentic AI to Hardware Asset Management. ServiceNow Otto for HAM was enhanced and updated in the Zurich release.
 
 ### What's new
 
--   **[Optimize hardware asset repair process with the suite of AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/now-assist-ham-repair-agent-workflow.md)**
+-   **[Manage your assets with comprehensive and real-time data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/generate-asset-analysis-now-assist-ham.md)**
 
-    Automate the repair of defective and out-of-warranty hardware assets by using AI agents in the help repair hardware assets agentic workflow. These AI agents validate the repair tasks, provide detailed troubleshooting and repair instructions, and complete the tasks on receiving user confirmation.
+    View consolidated asset information through AI-generated analysis summary on the asset record. The AI-generated summary dynamically updates based on the asset state and includes context from any active incidents or tasks. The summary displays the asset life cycle, current assignment and location, audit status, financial metrics, and identifies missing data to support asset management activities.
 
 
-## Zurich
+## Version 3.0.1
 
 The ServiceNow Otto for Hardware Asset Management \(HAM\) application brings agentic AI to Hardware Asset Management. ServiceNow Otto for HAM was enhanced and updated in the Zurich release.
 
@@ -133,5 +133,16 @@ The ServiceNow Otto for Hardware Asset Management \(HAM\) application brings age
 -   **[Configure ACLs for AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/aia-security-implementation.md)**
 
     Configure the access control lists for who can discover and trigger AI agents and agentic workflows in their guided setups in AI Agent Studio. You can determine whether an AI agent or agentic workflow behaves as a dynamic user or as an AI user. You can also specify if an AI agent or agentic workflow can be available to all authenticated users or publicly available.
+
+
+## Version 2.0.0
+
+The ServiceNow Otto for Hardware Asset Management \(HAM\) application brings agentic AI to Hardware Asset Management. ServiceNow Otto for HAM was enhanced and updated in the Zurich release.
+
+### What's new
+
+-   **[Optimize hardware asset repair process with the suite of AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/now-assist-ham-repair-agent-workflow.md)**
+
+    Automate the repair of defective and out-of-warranty hardware assets by using AI agents in the help repair hardware assets agentic workflow. These AI agents validate the repair tasks, provide detailed troubleshooting and repair instructions, and complete the tasks on receiving user confirmation.
 
 

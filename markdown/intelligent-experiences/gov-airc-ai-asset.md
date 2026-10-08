@@ -16,7 +16,7 @@ Get a consolidated view of your AI asset's regulatory risk classification, compl
 
 When you open an AI asset record, the Risk &amp; compliance tab provides a consolidated view of regulatory risk classification, compliance posture, control effectiveness metrics, and associated governance tasks.
 
-\[Omitted image "image.aict-govern-asset-page-risk-compliance"\] Alt text: Risk and Compliance tab showing regulatory risk classification, compliance posture, aggregated risk rating, risk heat map, and governance sections.
+\[Omitted image "aict-govern-asset-page-risk-compliance.png"\] Alt text: Risk and Compliance tab showing regulatory risk classification, compliance posture, aggregated risk rating, risk heat map, and governance sections.
 
 The following table describes each section of the Risk &amp; Compliance Asset page.
 

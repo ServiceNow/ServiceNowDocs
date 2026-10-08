@@ -1,6 +1,6 @@
 ---
-title: Supported Tanium resource types
-description: Several Tanium resource types are imported as CMDB data.
+title: Supported Tanium Atlas resource types
+description: Several Tanium Atlas resource types are imported as CMDB data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/servicenow-platform/service-graph-connectors/cmdb-sgc-tanium-endpoints-resource-types.html
 release: zurich
@@ -9,16 +9,16 @@ classification: service-graph-connectors
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Reference, Tanium Endpoints, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Reference, Tanium Atlas Endpoints, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Supported Tanium resource types
+# Supported Tanium Atlas resource types
 
-Several Tanium resource types are imported as CMDB data.
+Several Tanium Atlas resource types are imported as CMDB data.
 
-Tanium resource types refer to the sensors included in the queries used for filtering data using the Tanium API for a specific data source.
+Tanium Atlas resource types refer to the sensors included in the queries used for filtering data using the Tanium Atlas API for a specific data source.
 
-The following table lists the Service Graph Connector for Tanium Endpoints data sources and the Tanium sensors they import. ✓ indicates supported, and ✕ indicates not supported.
+The following table lists the Service Graph Connector for Tanium Atlas Endpoints data sources and the Tanium Atlas sensors they import. ✓ indicates supported, and ✕ indicates not supported.
 
 <table id="table_o2t_br4_q1c"><thead><tr><th>
 
@@ -30,7 +30,7 @@ CMDB CI classes
 
 </th><th>
 
-Tanium sensors
+Tanium Atlas sensors
 
 </th><th>
 
@@ -296,7 +296,7 @@ Asset SIU Product Usage
 ✓
 
 </td></tr></tbody>
-</table>**Note:** Of the four tags available in Tanium \(Custom, Extended Custom, Enhanced, and Meta\), the Service Graph Connector for Tanium Endpoints 1.0.0 version supports only Custom Tags.
+</table>**Note:** Of the four tags available in Tanium Atlas \(Custom, Extended Custom, Enhanced, and Meta\), the Service Graph Connector for Tanium Atlas Endpoints 1.0.0 version supports only Custom Tags.
 
-**Parent Topic:**[Service Graph Connector for Tanium Endpoints reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/sgc-cmdb-tanium-endpoints-reference.md)
+**Parent Topic:**[Service Graph Connector for Tanium Atlas Endpoints reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/service-graph-connectors/sgc-cmdb-tanium-endpoints-reference.md)
 

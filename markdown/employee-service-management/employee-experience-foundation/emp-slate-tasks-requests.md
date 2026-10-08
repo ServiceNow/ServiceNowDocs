@@ -21,7 +21,7 @@ Set up AI preferences to control resource usage and generation modes for task in
 
 Check your entitlements to determine whether you have access to Now Assist or Moveworks licensing.
 
-Role required: admin
+Role required: esc\_admin
 
 ## About this task
 
@@ -74,9 +74,4 @@ Configure the following AI preferences to manage smart prioritization for tasks 
 ## What to do next
 
 Monitor AI assists usage and adjust limits as needed based on organizational requirements and performance considerations.
-
-**Related topics**  
-
-
-[Smart prioritization]()
 

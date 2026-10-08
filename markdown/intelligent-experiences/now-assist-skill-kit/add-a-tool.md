@@ -1,20 +1,20 @@
 ---
 title: Add a tool
-description: Add and manage tools visually in the Tools editor, including decision branching, to execute different tools for your skill. Adding decision branches between tools enables you to define the conditions that need to be met for a tool to run. If no conditions are met, the default branch's step is executed.
+description: Add and manage tools visually in the Tools editor, including decision branching, to execute different tools for your skill. Adding decision branches between tools enables you to define the conditions that must be met for a tool to run. If no conditions are met, the default branch's step is executed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/now-assist-skill-kit/add-a-tool.html
 release: zurich
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Create a prompt, Using AI Skill Kit, AI Skill Kit, Enable AI experiences]
 ---
 
 # Add a tool
 
-Add and manage tools visually in the Tools editor, including decision branching, to execute different tools for your skill. Adding decision branches between tools enables you to define the conditions that need to be met for a tool to run. If no conditions are met, the default branch's step is executed.
+Add and manage tools visually in the Tools editor, including decision branching, to execute different tools for your skill. Adding decision branches between tools enables you to define the conditions that must be met for a tool to run. If no conditions are met, the default branch's step is executed.
 
 ## Before you begin
 
@@ -26,7 +26,7 @@ A tool is a utility that is configured to convert skill inputs into skill output
 
 You can use the Tool editor to configure tools and link them to each other.
 
-Decision nodes enable you to execute different tools, based on the logic of the branch. A decision node can contain multiple branches but will always need one default branch.
+Decision nodes enable you to execute different tools, based on the logic of the branch. A decision node can contain multiple branches but needs one default branch.
 
 ## Procedure
 
@@ -36,7 +36,7 @@ Decision nodes enable you to execute different tools, based on the logic of the 
 
 3.  Select the **Tool editor** tab.
 
-4.  Select \(+\) icon to add a node.
+4.  Select the \(+\) icon to add a node.
 
 5.  Select the type of node that you want to add.
 
@@ -52,7 +52,7 @@ Steps
 
 Tool node
 
- Types of tool:
+ Types of tools:
 
 -   Script
 -   SubFlow
@@ -61,7 +61,7 @@ Tool node
 -   Skill
 -   Web search
 
-**Note:** If you select Google as your web search tool provider, the web search tool leverages [Grounding with Google Search](https://cloud.google.com/vertex-ai/generative-ai/docs/grounding/grounding-with-google-search), offered under a Global Standard deployment. Because grounding is not [data resident](https://cloud.google.com/vertex-ai/generative-ai/docs/security-controls), Google's global infrastructure routes traffic to a global data center for each web search request. This processing may be different than your data processing location chosen for your ServiceNow instance. Please consider your organization's data policies before enabling skills that have Google web search tools.
+**Note:** If you select Google as your web search tool provider, the web search tool uses [Grounding with Google Search](https://cloud.google.com/vertex-ai/generative-ai/docs/grounding/grounding-with-google-search), offered under a Global Standard deployment. Because grounding is not [data resident](https://cloud.google.com/vertex-ai/generative-ai/docs/security-controls), Google's global infrastructure routes traffic to a global data center for each web search request. This processing location may be different from the data processing location that you chose for your ServiceNow instance. Consider your organization's data policies before enabling skills that have Google web search tools.
 
 -   Predictive Intelligence
 
@@ -96,13 +96,13 @@ Decision node
 
 
 -   **[Add a retriever](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skill-kit/add-retriever.md)**  
-Add a retriever to your prompt to augment and add context to your prompts with AI search results.
+Add a retriever to your skill to augment your prompts with relevant context from AI Search results.
 -   **[Add a web search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skill-kit/add-web-search.md)**  
-Add a web search as a tool in AI Skill Kit. Adding a web search as a tool enables you to add search results to your prompt.
+Add a web search as a tool in AI Skill Kit to include web search results in your skill prompts.
 -   **[Add Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skill-kit/add-predictive-intelligence.md)**  
-Add predictive intelligence as a tool in AI Skill Kit. Predictive intelligence models enable you to predict, estimate, and identify patterns that can be used to route work, populate forms, estimate wait times, and more.
+Add Predictive Intelligence as a tool in AI Skill Kit. Predictive Intelligence models predict values, estimate outcomes, and identify patterns that you can use to route work, populate forms, and estimate wait times.
 -   **[Add Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skill-kit/add-document-intelligence.md)**  
-Add Document Intelligence as a tool in AI Skill Kit to extract structured data from documents as part of your skill's execution flow
+Add Document Intelligence as a tool in AI Skill Kit to extract structured data from documents as part of your skill's execution flow.
 
 **Parent Topic:**[Create a prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skill-kit/create-prompt-template.md)
 

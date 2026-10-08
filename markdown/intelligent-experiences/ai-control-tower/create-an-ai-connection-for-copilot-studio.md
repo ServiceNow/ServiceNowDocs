@@ -39,11 +39,7 @@ To configure application access:
 2.  Navigate to Environments and select your Copilot Studio environment.
 3.  Go to Settings &gt; Users + Permissions &gt; Application users.
 4.  Select New App User and add your application using the Client ID from step 1.
-5.  Assign the following security roles to the application user:
-    -   Basic User
-    -   System administrator
-
-If you don't want to create a System administrator role, you can create a Copilot Studio dataverse custom role. For custom role creation, see [Create a Copilot Studio Dataverse custom role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/create-a-copilot-studio-dataverse-custom-role.md).
+5.  Assign the following security roles to the application user: Basic user and [Create a Copilot Studio Dataverse custom role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/create-a-copilot-studio-dataverse-custom-role.md)
 
 **Note:** You can obtain the Environment ID from Settings &gt; Session details &gt; Environment ID in your environment.
 

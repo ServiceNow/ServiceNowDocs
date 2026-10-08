@@ -7,7 +7,7 @@ release: zurich
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2025-09-16"
+last_updated: "2026-10-01"
 reading_time_minutes: 22
 breadcrumb: [Flows, subflows, and actions reference, Reference, Workflow Studio, Build workflows]
 ---
@@ -197,7 +197,7 @@ The maximum number of actions allowed on a flow.sn\_flow\_designer.max\_actions
 
 </td><td>
 
-Specify the maximum number of actions a flow or subflow can contain. Workflow Studio prevents you from adding further actions after the maximum number of actions has been reached. Consider the performance impact raising the maximum number of actions may have. For example, running more actions may conflict with the default transaction quota rule that prevents flows from running longer than an hour.-   Type: integer
+Specify the maximum number of actions a flow or subflow can contain. Workflow Studio blocks you from adding further actions after the maximum number of actions has been reached. Consider the performance impact raising the maximum number of actions may have. ServiceNow recommends limiting flows to 100 actions.-   Type: integer
 -   Default value: 50
 -   Location: **Process Automation** &gt; **Properties**
 -   More information: [Architecture Overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/flow-designer-arch-overview.md)
@@ -208,7 +208,7 @@ The maximum number of allowed steps on an action. sn\_flow\_designer.max\_action
 
 </td><td>
 
-Specify the maximum number of steps that an action can contain. Workflow Studio prevents you from adding further steps after the maximum number of steps has been reached. Consider the performance impact raising the maximum number of steps may have. For example, running more steps may conflict with the default transaction quota rule that prevents flows from running longer than an hour.-   Type: integer
+Specify the maximum number of steps that an action can contain. Workflow Studio blocks you from adding further steps after the maximum number of steps has been reached. Consider the performance impact raising the maximum number of steps may have. For example, running more steps may conflict with the default transaction quota rule that stops flows from running longer than an hour.-   Type: integer
 -   Default value: 20
 -   Location: **Process Automation** &gt; **Properties**
 -   More information: [Architecture Overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/flow-designer-arch-overview.md)
@@ -296,7 +296,9 @@ Maximum inputs per action
 
 </td><td>
 
-Specify the maximum number of inputs that can be added to an action. Workflow Studio prevents you from adding further inputs after the maximum number of inputs has been reached. Consider the performance impact raising the maximum number of action inputs may have. For example, processing more action inputs may risk the action running for more than an hour and being stopped by the default transaction quota rule.-   Type: integer
+Specify the maximum number of inputs that can be added to an action. Workflow Studio blocks you from adding further inputs after the maximum number of inputs has been reached. Consider the performance impact raising the maximum number of action inputs may have. For example, processing more action inputs may risk the action running for more than an hour and being stopped by the default transaction quota rule.**Note:** ServiceNow recommends limiting this property to no more than 100 actions.
+
+-   Type: integer
 -   Default value: 20
 -   Location: System Properties \[sys\_properties\] table
 
@@ -380,7 +382,7 @@ com.glide.cs.fdih.interactive.timeout
 Specify the length of time, in seconds, before the Workflow Studio Integration Hub action workflow times out.-   Type: integer
 -   Default value: 120
 -   Location: System Properties \[sys\_properties\] table
--   More information: [Specify the action workflow timeout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/va-fdih-action-timeout.md).
+-   More information: Specify the action workflow timeout.
 
 </td></tr><tr><td>
 
@@ -468,7 +470,7 @@ com.glide.hub.flow\_api.default\_execution\_time
 Specify the default duration in milliseconds your Flow API calls can run. Use this property to give Flow API calls in spokes more time to run. The maximum value of this property is limited by REST transaction quotas, which by default the system stops after 60 seconds.-   Type: integer
 -   Default value: 30000 \(30 seconds\)
 -   Location: System Properties \[sys\_properties\] table
--   More information: 
+-   More information: [Transaction quotas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/c_TransactionQuotas.md)
 
 </td></tr><tr><td>
 
@@ -542,7 +544,7 @@ The comma-separated list of Type field values that an sys\_email record must hav
 -   Type: string
 -   Default value: sent,send-ready
 -   Location: Add to the System Properties \[sys\_properties\] table
--   More information: [Wait For Email Reply action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/wait-for-email-reply-action.md) and 
+-   More information: [Wait For Email Reply action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/build-workflows/workflow-studio/wait-for-email-reply-action.md) and [System email log and mailboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/r_EmailLogs.md)
 
 </td></tr><tr><td>
 

@@ -28,15 +28,15 @@ Role required: resource\_user, resource\_manager, It\_project\_manager
 
 3.  Create resource assignments using one of the following options.
 
-<table id="choicetable_ibq_nxx_bcc"><thead><tr><th align="left" id="d240872e98">
+<table id="choicetable_ibq_nxx_bcc"><thead><tr><th align="left" id="d241632e98">
 
 Option
 
-</th><th align="left" id="d240872e101">
+</th><th align="left" id="d241632e101">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d240872e107">
+</th></tr></thead><tbody><tr><td id="d241632e107">
 
 **Create a resource assignment**
 
@@ -47,7 +47,7 @@ Procedure
 
 For a description of the field names, see [New Resource Assignment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/resource-management/create-ra-form-rmw.md).
 
-</td></tr><tr><td id="d240872e143">
+</td></tr><tr><td id="d241632e143">
 
 **Create operational resource assignment**
 

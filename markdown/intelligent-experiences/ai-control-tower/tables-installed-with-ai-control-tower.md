@@ -43,3 +43,8 @@ The following table is provided to understand the AI assessment and AI task fiel
 
 **Parent Topic:**[AI Control Tower reference \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/aict-references.md)
 
+**Related topics**  
+
+
+[Enterprise Architecture for AICT plugin installation and upgrade considerations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/aict-ea-common-upgrade-considerations.md)
+

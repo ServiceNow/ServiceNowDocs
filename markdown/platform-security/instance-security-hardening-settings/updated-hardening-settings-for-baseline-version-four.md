@@ -7,7 +7,7 @@ release: zurich
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: concept
-last_updated: "2026-09-16"
+last_updated: "2026-10-08"
 reading_time_minutes: 26
 breadcrumb: [Updated hardening settings, Baseline versions, Hardening settings, Platform Security]
 ---
@@ -430,7 +430,7 @@ Ref: [OWASP ASVS v4.0 Authentication](https://github.com/OWASP/ASVS/blob/master/
 
 </td></tr><tr><td>
 
-
+[Enforce credential alias usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/instance-security-hardening-settings/sc-enforce-credential-alias-usage.md)
 
 </td><td>
 

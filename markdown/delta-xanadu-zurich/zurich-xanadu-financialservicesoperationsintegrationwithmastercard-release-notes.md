@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-financialservicesoperationsintegrationwithmastercard-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
-reading_time_minutes: 4
+last_updated: "2026-10-08"
+reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
 
@@ -91,7 +91,19 @@ Zurich
 
 </td><td>
 
--   **​ [Mastercom subflows for disputes](https://www.servicenow.com/docs/access?context=financial-services-operations-integration-with-mastercard-subflows&family=zurich&ft:locale=en-US)**
+-   **[Additional Mastercom subflows for disputes](https://www.servicenow.com/docs/access?context=financial-services-operations-integration-with-mastercard-subflows&family=zurich&ft:locale=en-US)**
+
+New set of subflows to promote execution of Mastercom spoke actions for dispute management. This set includes the following subflows:
+
+    -   Mastercom - Look up Authorization Transaction Details
+    -   Mastercom - Look up Claim Details
+    -   Mastercom - Take Action on Existing Claim
+    -   Mastercom - Process Pending Queue
+    -   Mastercom - Look up Chargebacks Related Information
+    -   Mastercom - Look up Fraud Related Information
+    -   Mastercom - Reverse Chargeback
+
+ -   **​ [Mastercom subflows for disputes](https://www.servicenow.com/docs/access?context=financial-services-operations-integration-with-mastercard-subflows&family=zurich&ft:locale=en-US)**
 
 An integration layer that provides predefined subflows and a supporting data model to enable seamless execution of Mastercom spoke actions for dispute management. This layer includes the following subflows:
 
@@ -118,18 +130,6 @@ An integration layer that provides predefined subflows and a supporting data mod
     -   Mastercom - Look up Case Documents
     -   Mastercom - Look up Case Documents Status
     -   Mastercom - Look up List of Claims
-
--   **[Additional Mastercom subflows for disputes](https://www.servicenow.com/docs/access?context=financial-services-operations-integration-with-mastercard-subflows&family=zurich&ft:locale=en-US)**
-
-New set of subflows to promote execution of Mastercom spoke actions for dispute management. This set includes the following subflows:
-
-    -   Mastercom - Look up Authorization Transaction Details
-    -   Mastercom - Look up Claim Details
-    -   Mastercom - Take Action on Existing Claim
-    -   Mastercom - Process Pending Queue
-    -   Mastercom - Look up Chargebacks Related Information
-    -   Mastercom - Look up Fraud Related Information
-    -   Mastercom - Reverse Chargeback
 
 </td></tr></tbody>
 </table>## Changes
@@ -166,7 +166,10 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
 
 </td></tr></tbody>
 </table>## Removed
@@ -277,7 +280,12 @@ Zurich
 
 </td><td>
 
-Install Financial Services Operations Integration with Mastercard by requesting it from the ServiceNow Store. 
+-   **Activation information**
+
+Install Financial Services Operations Integration with Mastercard by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
+
+**Important:** Financial Services Operations Integration with Mastercard is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -388,7 +396,11 @@ Zurich
 
 </td><td>
 
--   ****
+-   **Accessibility information**
+    -   **Dark theme**
+
+The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
 
 </td></tr></tbody>
 </table>## Localization information

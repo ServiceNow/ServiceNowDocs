@@ -7,7 +7,7 @@ release: zurich
 topic_type: concept
 last_updated: "2026-07-16"
 reading_time_minutes: 3
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Explore, AI Control Tower, Enable AI experiences]
 ---
 
@@ -25,7 +25,7 @@ Track and act on the governance work generated across AI Control Tower from a si
 
 ## Required roles
 
-The AI steward \[sn\_ai\_governance\_ai\_steward\] or AI asset owner \[sn\_ai\_asset\_mgmt.ai\_asset\_owner\] role is required to access the **Activity Center** in AI Control Tower.
+The AI steward \[sn\_ai\_governance.ai\_steward\] or AI asset owner \[sn\_ai\_asset\_mgmt.ai\_asset\_owner\] role is required to access the **Activity Center** in AI Control Tower.
 
 ## Accessing Activity Center
 

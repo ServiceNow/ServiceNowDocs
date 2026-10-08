@@ -9,7 +9,7 @@ classification: change-management
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 4
-breadcrumb: [Risk assessment, Analyze change request risk and impact rating, Reference, Change Management, IT Service Management]
+breadcrumb: [Risk assessment, Analyze change request risk and impact, Reference, Change Management, IT Service Management]
 ---
 
 # Define risk assessments

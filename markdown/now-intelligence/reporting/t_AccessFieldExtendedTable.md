@@ -40,7 +40,7 @@ The video shows how to create a report with data from multiple tables using the 
 1.  Perform one of the following actions:
 
     -   On an upgraded instance that has not been fully migrated to Platform Analytics, navigate to **All** &gt; **Reports** &gt; **Create New**.
-    -   On a new instance or one that has been fully migrated to Platform Analytics, navigate to **All** &gt; **Platform Analytics Administration** &gt; **Usage and governance** &gt; **Reports** and select **New**.
+    -   On a new instance or one that has been fully migrated to Platform Analytics, navigate to **All** &gt; **Core UI artifacts** &gt; **Reports** and select **New**.
 2.  On the Data tab, name the report `Active Incidents and Problems of Priority 1 or 2`, select the Source type Table, and select the table Task \[task\].
 
     \[Omitted image "report-ext-tables-data.png"\] Alt text: Report on extended tables in Report Designer, Data tab, with report name Active Incidents and Problems of Priority 1 or 2, Source type=Table, and Table=Task

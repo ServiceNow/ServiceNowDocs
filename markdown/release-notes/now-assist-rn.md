@@ -1,12 +1,12 @@
 ---
 title: ServiceNow Otto release notes
-description: The ServiceNow ServiceNow Otto experience brings generative AI to your organization. You can improve productivity and efficiency by delivering better self-service, recommending actions, delivering answers, and providing your users with AI Search. ServiceNow Otto was enhanced and updated in the Zurich release.The ServiceNow ServiceNow Otto experience brings generative AI to your organization. You can improve productivity and efficiency by delivering better self-service, recommending actions, delivering answers, and providing your users with AI Search. ServiceNow Otto was enhanced and updated in the Zurich release.The ServiceNow ServiceNow Otto experience brings generative AI to your organization. You can improve productivity and efficiency by delivering better self-service, recommending actions, delivering answers, and providing your users with AI Search. ServiceNow Otto was enhanced and updated in the Zurich release.The ServiceNow ServiceNow Otto experience brings generative AI to your organization. You can improve productivity and efficiency by delivering better self-service, recommending actions, delivering answers, and providing your users with AI Search. ServiceNow Otto was enhanced and updated in the Zurich release.The ServiceNow ServiceNow Otto experience brings generative AI to your organization. You can improve productivity and efficiency by delivering better self-service, recommending actions, delivering answers, and providing your users with AI Search. ServiceNow Otto was enhanced and updated in the Zurich release.The ServiceNow ServiceNow Otto experience brings generative AI to your organization. You can improve productivity and efficiency by delivering better self-service, recommending actions, delivering answers, and providing your users with AI Search. ServiceNow Otto was enhanced and updated in the Zurich release.The ServiceNow ServiceNow Otto experience brings generative AI to your organization. You can improve productivity and efficiency by delivering better self-service, recommending actions, delivering answers, and providing your users with AI Search. ServiceNow Otto was enhanced and updated in the Zurich release.The ServiceNow ServiceNow Otto experience brings generative AI to your organization. You can improve productivity and efficiency by delivering better self-service, recommending actions, delivering answers, and providing your users with AI Search. ServiceNow Otto was enhanced and updated in the Zurich release.The ServiceNow ServiceNow Otto experience brings generative AI to your organization. You can improve productivity and efficiency by delivering better self-service, recommending actions, delivering answers, and providing your users with AI Search. ServiceNow Otto was enhanced and updated in the Zurich release.The ServiceNow ServiceNow Otto experience brings generative AI to your organization. You can improve productivity and efficiency by delivering better self-service, recommending actions, delivering answers, and providing your users with AI Search. ServiceNow Otto was enhanced and updated in the Zurich release.The ServiceNow ServiceNow Otto experience brings generative AI to your organization. You can improve productivity and efficiency by delivering better self-service, recommending actions, delivering answers, and providing your users with AI Search. ServiceNow Otto was enhanced and updated in the Zurich release.The ServiceNow ServiceNow Otto experience brings generative AI to your organization. You can improve productivity and efficiency by delivering better self-service, recommending actions, delivering answers, and providing your users with AI Search. ServiceNow Otto was enhanced and updated in the Zurich release.The ServiceNow ServiceNow Otto experience brings generative AI to your organization. You can improve productivity and efficiency by delivering better self-service, recommending actions, delivering answers, and providing your users with AI Search. ServiceNow Otto was enhanced and updated in the Zurich release.
+description: The ServiceNow ServiceNow Otto experience brings generative AI to your organization. You can improve productivity and efficiency by delivering better self-service, recommending actions, delivering answers, and providing your users with AI Search. ServiceNow Otto was enhanced and updated in the Zurich release.Work more easily with generated files and interactive views in the ServiceNow Otto panel premium chat. Preview, download, and brand your files, and ask follow-up questions about any part of a response. The ServiceNow ServiceNow Otto experience brings generative AI to your organization. You can improve productivity and efficiency by delivering better self-service, recommending actions, delivering answers, and providing your users with AI Search. ServiceNow Otto was enhanced and updated in the Zurich release.The ServiceNow ServiceNow Otto experience brings generative AI to your organization. You can improve productivity and efficiency by delivering better self-service, recommending actions, delivering answers, and providing your users with AI Search. ServiceNow Otto was enhanced and updated in the Zurich release.The ServiceNow ServiceNow Otto experience brings generative AI to your organization. You can improve productivity and efficiency by delivering better self-service, recommending actions, delivering answers, and providing your users with AI Search. ServiceNow Otto was enhanced and updated in the Zurich release.The ServiceNow ServiceNow Otto experience brings generative AI to your organization. You can improve productivity and efficiency by delivering better self-service, recommending actions, delivering answers, and providing your users with AI Search. ServiceNow Otto was enhanced and updated in the Zurich release.The ServiceNow ServiceNow Otto experience brings generative AI to your organization. You can improve productivity and efficiency by delivering better self-service, recommending actions, delivering answers, and providing your users with AI Search. ServiceNow Otto was enhanced and updated in the Zurich release.The ServiceNow ServiceNow Otto experience brings generative AI to your organization. You can improve productivity and efficiency by delivering better self-service, recommending actions, delivering answers, and providing your users with AI Search. ServiceNow Otto was enhanced and updated in the Zurich release.The ServiceNow ServiceNow Otto experience brings generative AI to your organization. You can improve productivity and efficiency by delivering better self-service, recommending actions, delivering answers, and providing your users with AI Search. ServiceNow Otto was enhanced and updated in the Zurich release.The ServiceNow ServiceNow Otto experience brings generative AI to your organization. You can improve productivity and efficiency by delivering better self-service, recommending actions, delivering answers, and providing your users with AI Search. ServiceNow Otto was enhanced and updated in the Zurich release.The ServiceNow ServiceNow Otto experience brings generative AI to your organization. You can improve productivity and efficiency by delivering better self-service, recommending actions, delivering answers, and providing your users with AI Search. ServiceNow Otto was enhanced and updated in the Zurich release.The ServiceNow ServiceNow Otto experience brings generative AI to your organization. You can improve productivity and efficiency by delivering better self-service, recommending actions, delivering answers, and providing your users with AI Search. ServiceNow Otto was enhanced and updated in the Zurich release.The ServiceNow ServiceNow Otto experience brings generative AI to your organization. You can improve productivity and efficiency by delivering better self-service, recommending actions, delivering answers, and providing your users with AI Search. ServiceNow Otto was enhanced and updated in the Zurich release.The ServiceNow ServiceNow Otto experience brings generative AI to your organization. You can improve productivity and efficiency by delivering better self-service, recommending actions, delivering answers, and providing your users with AI Search. ServiceNow Otto was enhanced and updated in the Zurich release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/now-assist-rn.html
 release: zurich
 topic_type: topic
 last_updated: "2025-07-31"
-reading_time_minutes: 27
+reading_time_minutes: 28
 keywords: [ai-now-assist, ai-now-assist, ai-now-assist, ai-now-assist, ai-now-assist, ai-now-assist, ai-now-assist, ai-now-assist, ai-now-assist, ai-now-assist, ai-now-assist, ai-now-assist, ai-now-assist]
 breadcrumb: [Now Assist and agentic AI release notes, Features and changes by product, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
 ---
@@ -131,6 +131,22 @@ For more Platform Now Assist feature release notes, see the following topics:
 
 **Parent Topic:**[Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/now-assist-rn-landing.md)
 
+## October 2026
+
+Work more easily with generated files and interactive views in the ServiceNow Otto panel premium chat. Preview, download, and brand your files, and ask follow-up questions about any part of a response.
+
+### What's new
+
+-   **[New features in ServiceNow Otto panel premium chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-panel-premium.md)**
+
+    These features were added to ServiceNow Otto panel premium chat:
+
+    -   Switch between multiple interactive views in a single ServiceNow Otto conversation by using the drop-down selector in the interactive view header. Return to a Knowledge Base article, catalog form, or other content you opened earlier without searching for it again.
+    -   Preview files that ServiceNow Otto generates directly in the interactive view, including Microsoft Word, Microsoft PowerPoint, Microsoft Excel, and PDF. Review a file's content before you download it, without leaving the conversation.
+    -   Ask a follow-up question about specific content by highlighting text in a ServiceNow Otto response and selecting Ask a follow-up. The highlighted text appears as a quote above the input bar and doesn't carry over when you start or switch to a different conversation.
+    -   Download generated files that use plain Microsoft Office templates, with no ServiceNow branding applied. Share or edit downloaded Word, PowerPoint, and Excel files without removing extra formatting first.
+    -   Download a generated file directly from the chat by selecting the download icon on the attachment in a ServiceNow Otto response.
+
 ## August 2026
 
 The ServiceNow® ServiceNow Otto experience brings generative AI to your organization. You can improve productivity and efficiency by delivering better self-service, recommending actions, delivering answers, and providing your users with AI Search. ServiceNow Otto was enhanced and updated in the Zurich release.
@@ -164,7 +180,7 @@ The ServiceNow® ServiceNow Otto experience brings generative AI to your organiz
 
 ### What's new
 
--   **Prompt library**
+-   **[Prompt library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/now-assist-prompt-library.md)**
 
     Browse and select from promoted prompt templates or save your own custom prompts, eliminating the need to retype frequently-used prompts within your chats. Access your reusable templates instantly from the omnibar for faster, more consistent conversations.
 
@@ -436,7 +452,7 @@ The ServiceNow® ServiceNow Otto experience brings generative AI to your organiz
 
     Request additional information or clarification by asking a follow-up question in the Now Assist panel.
 
--   **Synthesized Now Assist responses**
+-   **[Synthesized Now Assist responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/gchat-conv-integration.md)**
 
     View synthesized Now Assist responses from within Google Chat to have a richer conversational experience.
 
@@ -448,7 +464,7 @@ The ServiceNow® ServiceNow Otto experience brings generative AI to your organiz
 
     Identify and fill potential knowledge gaps proactively, including missing knowledge articles and recurring issues that lack or have an incomplete knowledge article.
 
--   **Agentic workflows from within Google Chat**
+-   **[Agentic workflows from within Google Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/gchat-conv-integration.md)**
 
     Initiate and view agentic workflows from within Google Chat.
 
@@ -575,7 +591,7 @@ The ServiceNow® ServiceNow Otto experience brings generative AI to your organiz
 
     The email response creation skill helps you choose the most appropriate template based on your context. Additionally, it identifies the potential errors when a response isn't generated as intended.
 
--   ****
+-   **[Agentic conversations in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/agentic-conversations-vad.md)**
 
     Halt an agentic conversation mid-query by hovering over the send icon \[Omitted image "vad-send-icon.png"\] Alt text: and selecting the interrupt flow icon \[Omitted image "vad-interrupt-flow-icon.png"\] Alt text: Interrupt flow icon when the icon changes.
 

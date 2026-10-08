@@ -88,15 +88,15 @@ If you’re using Software Asset Workspace, the option to create the GitHub Serv
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d296121e410">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d298746e410">
 
 Interface
 
-</th><th align="left" id="d296121e413">
+</th><th align="left" id="d298746e413">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d296121e419">
+</th></tr></thead><tbody><tr><td id="d298746e419">
 
 **Core UI**
 
@@ -107,7 +107,7 @@ Action
 3.  Select **GitHub Server Subscription Profile**.
 
 
-</td></tr><tr><td id="d296121e461">
+</td></tr><tr><td id="d298746e461">
 
 **Software Asset Workspace**
 

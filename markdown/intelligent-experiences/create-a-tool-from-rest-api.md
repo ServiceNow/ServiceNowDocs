@@ -1,18 +1,18 @@
 ---
 title: Create a tool from a REST API
-description: Create a tool from a REST API to expose it to Model Context Protocol \(MCP\) clients from an MCP Server.
+description: Use a REST API to create a tool and expose it to Model Context Protocol \(MCP Server Console\) clients from an MCP Server Console.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/create-a-tool-from-rest-api.html
 release: zurich
 topic_type: task
-last_updated: "2026-05-29"
+last_updated: "2026-09-28"
 reading_time_minutes: 2
 breadcrumb: [Creating tools, Configure, MCP Server Console, Enable AI experiences]
 ---
 
 # Create a tool from a REST API
 
-Create a tool from a REST API to expose it to Model Context Protocol \(MCP\) clients from an MCP Server.
+Use a REST API to create a tool and expose it to Model Context Protocol \(MCP Server Console\) clients from an MCP Server Console.
 
 ## Before you begin
 
@@ -22,13 +22,13 @@ Role required: sn\_mcp\_server.tools\_admin, sn\_mcp\_server.admin, or admin
 
 1.  Select REST API from these categories.
 
-    \[Omitted image "mcp-create-tool-moveworks.png"\] Alt text: Tool creation
+    \[Omitted image "mcp-create-tool-moveworks.png"\] Alt text: Tool category selection screen
 
-2.  On the form, fill in the fields.
+2.  Complete the fields on the form.
 
     \[Omitted image "mcp-server-create-tool-restapi.png"\] Alt text: Create tool from REST APIs
 
-    **Note:** The **category** is auto-populated if selected in the last modal.
+    **Note:** The **Category** is auto-populated if selected in the previous dialog.
 
 <table id="table_l2y_lhm_hgc"><thead><tr><th>
 
@@ -44,7 +44,7 @@ REST API
 
 </td><td>
 
-Select a REST API type from the list.
+REST API type for the tool.
 
 </td></tr><tr><td>
 
@@ -68,13 +68,13 @@ Description
 
 </td><td>
 
-The description of what the tool intends to do. This input is exposed to AI clients and used to determine when to call this tool.
+The description of what the tool does. This input is exposed to AI clients and used to determine when to call this tool.
 
-**Note:** Admins must add specific and action-oriented description as the AI clients access it to decide when to invoke the tool.
+**Note:** Add a specific, action-oriented description. AI clients use it to decide when to invoke the tool.
 
  Client requests to Scripted REST API tools must include the inputs required by the API. The tool description must clearly state which inputs are required and what format they should be in so clients know exactly what to include in their request.
 
- For example, a well-written tool description could say: "Returns all open incidents assigned to a specified assignment group within a given date range. Requires: assignment\_group \(string, the exact group name\), start\_date \(string, format YYYY-MM-DD\), end\_date \(string, format YYYY-MM-DD\)." When the calling agent reads this description, it knows exactly what to collect from the user before invoking the tool.
+ For example, a well-written tool description could say: "Returns all open incidents assigned to a specified assignment group within a given date range. Requires: assignment\_group \(string, the exact group name\), start\_date \(string, format YYYY-MM-DD\), end\_date \(string, format YYYY-MM-DD\)." The calling agent uses this description to determine what to collect from the user before invoking the tool.
 
 </td></tr><tr><td>
 
@@ -88,11 +88,19 @@ Indication of the tool's behavior with MCP clients, including whether it only re
 
 </td></tr><tr><td>
 
+Required roles
+
+</td><td>
+
+One or more roles from the sys\_user\_role \[sys\_user\_role\] table that control access to the tool.
+
+</td></tr><tr><td>
+
 MCP Servers
 
 </td><td>
 
-One or more servers you want to add your tool to.
+One or more servers to add the tool to.
 
 </td></tr></tbody>
 </table>    **Note:** A tool can be used by multiple servers so any changes that you make to a tool apply to all servers that use the tool. Before editing a tool, review which servers it's associated with to determine the impact for every server.
@@ -114,7 +122,7 @@ One or more servers you want to add your tool to.
 
 Configure clients to connect to the server and use the tool. For more information, see [Connecting to an MCP server from an MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/connect-mcp-server-client.md).
 
-**Note:** When calling a Scripted REST API tool from a client, you must provide inputs in your request. If a required parameter, such as a record number, a date range, or a filter value, is not present in the request, the tool will not be able to complete the task.
+**Note:** When calling a Scripted REST API tool from a client, you must provide inputs in your request. If a required parameter, such as a record number, a date range, or a filter value, is not present in the request, the tool cannot complete the task.
 
 **Parent Topic:**[Creating tools for a Model Context Protocol server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/creating-tools-mcp-server.md)
 

@@ -43,7 +43,7 @@ Role required: pa\_power\_user, or admin
 
 **Parent Topic:**[Automated indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/automated-indicators.md)
 
-**Previous topic:**[Assign and map breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/create-breakdown-mapping.md)
+**Previous topic:**[Collect and manage a matrix of breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/configure-breakdown-matrix.md)
 
 **Next topic:**[Performance Analytics snapshots](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/pa-snapshots.md)
 

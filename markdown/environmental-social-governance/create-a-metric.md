@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/environmental-social-gov
 release: zurich
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 7
+reading_time_minutes: 8
 breadcrumb: [Configuring GRC: Metrics, GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
@@ -274,6 +274,22 @@ Period date
 
 Date used to specify the start and end dates for the data collection period.
 
+</td></tr><tr><td>
+
+Create historical data
+
+</td><td>
+
+Option to generate metric definition data, metric data, and metric data tasks for past periods, starting from the **Historical start date**. After the records are created, this option is automatically cleared.
+
+</td></tr><tr><td>
+
+Historical start date
+
+</td><td>
+
+Date from which to generate historical metric definition data, metric data and metric data tasks. This field appears and is required when **Create historical data** is selected. The date must be in the past.
+
 </td></tr><tr><td class="sub-head" colspan="2">
 
 Data Collection Details
@@ -383,7 +399,7 @@ Allowed groups
 Groups that can view the record.
 
 </td></tr></tbody>
-</table>4.  Click **Save**.
+</table>4.  Select **Save**.
 
     **Note:** After a new metric is created, the related lists along with the **Details** tab are displayed on the form. You can view the metric data overview in the **Overview** tab. The Metrics overview page displays the metrics data details when you execute a metric along with the duration for which the data is collected.
 
@@ -393,4 +409,9 @@ Groups that can view the record.
 The metric is saved in the Metrics list.
 
 **Parent Topic:**[Configuring GRC: Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/configuring-grc-metrics.md)
+
+**Related topics**  
+
+
+[Historical data generation for metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/historical-data-generation-for-metrics.md)
 

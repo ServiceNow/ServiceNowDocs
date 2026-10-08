@@ -1,18 +1,19 @@
 ---
-title: Field mapping for the Prisms AIRS integration
-description: Review source and target fields and view imported data on tables and records in your ServiceNow ServiceNow AI Platform instance.
+title: Field mapping for the Prisma AIRS integration
+description: These tables map Prisma AIRS payload fields to target tables and columns in your ServiceNow ServiceNow AI Platform instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/palo-alto-prisma-airs-mapping.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-03"
+last_updated: "2026-09-15"
 reading_time_minutes: 3
-breadcrumb: [Explore the Palo Alto Prisma AIRS Integration for AI Security Exposure Management, Integrations, Unified Security Exposure Management, Security Operations]
+keywords: [Prisma AIRS field mapping]
+breadcrumb: [Palo Alto Prisma AIRS Integration for AI Security Exposure Management, Integrations, Unified Security Exposure Management, Security Operations]
 ---
 
-# Field mapping for the Prisms AIRS integration
+# Field mapping for the Prisma AIRS integration
 
-Review source and target fields and view imported data on tables and records in your ServiceNow ServiceNow AI Platform instance.
+These tables map Prisma AIRS payload fields to target tables and columns in your ServiceNow ServiceNow AI Platform instance.
 
 ## Field mapping for scan findings
 
@@ -62,13 +63,13 @@ The following tables show how Prisma AIRS payload fields map to ServiceNow AI Pl
 
 Tables populated by scan findings:
 
--   AI Scan Findings \(sn\_sec\_ai\_scan\_finding\)
--   AI Scan Summaries \(sn\_sec\_ai\_scan\_summary\)
--   Discovered AI Assets \(sn\_sec\_ai\_src\_ci\)
--   AI Vulnerability Entries \(sn\_sec\_ai\_vul\_entry\)
--   Model Files \(sn\_sec\_ai\_file\)
+-   AI Scan Findings \[sn\_sec\_ai\_scan\_finding\]
+-   AI Scan Summaries \[sn\_sec\_ai\_scan\_summary\]
+-   Discovered AI Assets \[sn\_sec\_ai\_src\_ci\]
+-   AI Vulnerability Entries \[sn\_sec\_ai\_vul\_entry\]
+-   Model Files \[sn\_sec\_ai\_file\]
 
-## Field mapping for Posture findings
+## Field mapping for posture findings
 
 |Input field \(payload key\)|Target table|Target column|
 |---------------------------|------------|-------------|
@@ -97,13 +98,13 @@ Tables populated by scan findings:
 
 Tables populated by posture findings:
 
--   AI Posture Finding \(sn\_sec\_ai\_posture\_finding\)
--   AI Posture Rule \(sn\_sec\_ai\_posture\_rule\)
--   Discovered AI Assets \(sn\_sec\_ai\_src\_ci\)
--   Finding Evidence \(sn\_sec\_ai\_finding\_evidence\)
--   AI Model Product Model \(cmdb\_ai\_model\_product\_model\)
+-   AI Posture Finding \[sn\_sec\_ai\_posture\_finding\]
+-   AI Posture Rule \[sn\_sec\_ai\_posture\_rule\]
+-   Discovered AI Assets \[sn\_sec\_ai\_src\_ci\]
+-   Finding Evidence \[sn\_sec\_ai\_finding\_evidence\]
+-   AI Model Product Model \[cmdb\_ai\_model\_product\_model\]
 
-## Field mapping for Validation findings
+## Field mapping for validation findings
 
 |Input field \(payload key\)|Target table|Target column|
 |---------------------------|------------|-------------|
@@ -147,9 +148,20 @@ Tables populated by posture findings:
 
 Tables populated by validation findings:
 
--   AI Threat Signatures \(sn\_sec\_ai\_threat\_signature\)
--   AI Validation Threats \(sn\_sec\_ai\_validation\_threat\)
--   AI Validation Findings \(sn\_sec\_ai\_validation\_finding\)
+-   AI Threat Signatures \[sn\_sec\_ai\_threat\_signature\]
+-   AI Validation Threats \[sn\_sec\_ai\_validation\_threat\]
+-   AI Validation Findings \[sn\_sec\_ai\_validation\_finding\]
 
-**Parent Topic:**[Explore the Palo Alto Prisma AIRS Integration for AI Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/prisma-airs-integration.md)
+## Field mapping for Red Team scan guardrails
+
+|Input field \(payload key\)|Target table|Target column|
+|---------------------------|------------|-------------|
+|job\_uuid|sn\_vul\_prisma\_airs\_red\_team\_scan\_guardrails|job\_uuid|
+|policy\_id|sn\_vul\_prisma\_airs\_red\_team\_scan\_guardrails|policy\_id|
+|display\_name|sn\_vul\_prisma\_airs\_red\_team\_scan\_guardrails|policy\_name|
+|config|sn\_vul\_prisma\_airs\_red\_team\_scan\_guardrails|policy\_config|
+
+Tables populated by Red Team scan guardrails: Prisma AIRS Red Team Scan Guardrails \[sn\_vul\_prisma\_airs\_red\_team\_scan\_guardrails\].
+
+**Parent Topic:**[Palo Alto Prisma AIRS integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/prisma-airs-integration.md)
 

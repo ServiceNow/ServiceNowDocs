@@ -1,5 +1,5 @@
 ---
-title: Software Asset Management Foundation plugin discovery models and software installations
+title: Basic Software Asset Management discovery models and software installations
 description: Software discovery models are automatically created during discovery so you can manually normalize the software installed in your environment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/software-asset-management-foundation-plugin/c\_DiscoveryModelsSAMF.html
@@ -9,10 +9,10 @@ classification: software-asset-management-foundation-plugin
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 4
-breadcrumb: [Exploring Software Asset Management Foundation plugin, Software Asset Management Foundation plugin, ITSM Software Asset Management, Asset Management, IT Service Management]
+breadcrumb: [Exploring Basic Software Asset Management, Basic Software Asset Management, ITSM Software Asset Management, Asset Management, IT Service Management]
 ---
 
-# Software Asset Management Foundation plugin discovery models and software installations
+# Basic Software Asset Management discovery models and software installations
 
 Software discovery models are automatically created during discovery so you can manually normalize the software installed in your environment.
 
@@ -337,5 +337,5 @@ Omit from suites
 Check box for not counting the software install as a component of a suite during reconciliation.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Exploring Software Asset Management Foundation plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/software-asset-management-foundation-plugin/exploring-sam-foundation.md)
+</table>**Parent Topic:**[Exploring Basic Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/software-asset-management-foundation-plugin/exploring-sam-foundation.md)
 

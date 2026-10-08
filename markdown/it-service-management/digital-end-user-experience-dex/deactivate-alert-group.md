@@ -7,7 +7,7 @@ release: zurich
 product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: task
-last_updated: "2026-09-16"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [DEX Alerts, Configure, Digital End-User Experience, IT Service Management]
 ---
@@ -24,15 +24,15 @@ Role required: sn\_dex.admin
 
 1.  Perform one of the following options.
 
-<table id="choicetable_hm4_cgv_1bc"><thead><tr><th align="left" id="d125692e50">
+<table id="choicetable_hm4_cgv_1bc"><thead><tr><th align="left" id="d126895e50">
 
 Options
 
-</th><th align="left" id="d125692e53">
+</th><th align="left" id="d126895e53">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d125692e59">
+</th></tr></thead><tbody><tr><td id="d126895e59">
 
 **System Properties table \[sys\_properties\]**
 
@@ -40,7 +40,7 @@ Actions
 
 Open the property **sn\_dex.alert.correlation\_rule.device.period** and in the **Value** field, enter 0.
 
-</td></tr><tr><td id="d125692e74">
+</td></tr><tr><td id="d126895e74">
 
 **Alert Correlation Rules**
 

@@ -82,7 +82,7 @@ Returns the CIs, services, and teams impacted by a given change request, using t
 |---------|--------|-----------|
 |**change\_request\_number**|Required|The change request number to analyze for impact, for example **CHG0001234**.|
 
-On success, the tool returns the impacted-items list produced by the Impact Analysis Skill capability. See [Assess CMDB impact agentic workflow reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-awf-impact-analysis-ref.md) for the full output schema, including impact level, impact type, and confidence for each impacted CI. If **change\_request\_number** is missing, or the Impact Analysis Skill capability doesn't complete successfully, the tool returns an error describing the problem.
+On success, the tool returns the impacted-items list produced by the Impact Analysis Skill capability. See [CMDB impact analysis agentic workflow details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-awf-impact-analysis-ref.md) for the full output schema, including impact level, impact type, and confidence for each impacted CI. If **change\_request\_number** is missing, or the Impact Analysis Skill capability doesn't complete successfully, the tool returns an error describing the problem.
 
 Example utterances:
 
@@ -141,5 +141,5 @@ Access to each tool is controlled by the role specified in the prerequisites of 
 
 [Analyzing the impact of a change or incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-awf-impact-analysis-using.md)
 
-[Assess CMDB impact agentic workflow reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-awf-impact-analysis-ref.md)
+[CMDB impact analysis agentic workflow details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-awf-impact-analysis-ref.md)
 

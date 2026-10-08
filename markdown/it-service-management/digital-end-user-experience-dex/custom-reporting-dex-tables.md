@@ -8,7 +8,7 @@ product: Digital End-User Experience \(DEX\)
 classification: digital-end-user-experience-dex
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Reference, Digital End-User Experience, IT Service Management]
 ---
 
@@ -254,7 +254,7 @@ Insights - Battery health
 
 </td><td>
 
-Battery health, designed capacity, full charge capacity, percentage of designed capacity, battery condition, battery serial number, battery status, chemistry, cycle count, design voltage, installed batteries
+Battery health, designed capacity, full charge capacity, percentage of designed capacity, battery condition, battery serial number, battery status. Chemistry, cycle count, design voltage, installed batteries, estimated runtime, and charge percentage. Stores multiple records for each device.
 
 </td></tr><tr><td>
 
@@ -402,7 +402,187 @@ DEX
 
 </td><td>
 
-Device metrics provide details on memory usage, virtual memory, and device stability, including antivirus status, firewall status, system uptime, and power plan configuration.
+Device metrics provide details on memory usage, virtual memory, and device stability, including antivirus status, firewall status, system uptime, current clock speed, and power plan configuration. Stores one record for each device.
+
+</td></tr><tr><td>
+
+Device BIOS details
+
+</td><td>
+
+dex\_ci\_device\_bios\_details
+
+</td><td>
+
+Daily
+
+</td><td>
+
+DEX
+
+</td><td>
+
+Configuration item, SMBIOS BIOS version, name, serial number, version, manufacturer, and computer status. Stores one record for each device.
+
+</td></tr><tr><td>
+
+Device Peripherals
+
+</td><td>
+
+dex\_ci\_device\_peripheral
+
+</td><td>
+
+Daily
+
+</td><td>
+
+DEX
+
+</td><td>
+
+Configuration item, name, status, description, manufacturer, service, and device class of peripherals connected to a device. Stores multiple records for each device.
+
+</td></tr><tr><td>
+
+Device BSOD
+
+</td><td>
+
+dex\_ci\_device\_bsod
+
+</td><td>
+
+Daily
+
+</td><td>
+
+DEX
+
+</td><td>
+
+Configuration item, count of blue screen of death \(BSOD\) events, and event details. Stores one record for each device.
+
+</td></tr><tr><td>
+
+Device Network Profile
+
+</td><td>
+
+dex\_ci\_device\_network\_profile
+
+</td><td>
+
+Daily
+
+</td><td>
+
+DEX
+
+</td><td>
+
+Configuration item and VPN profile fields. Stores one record for each device.
+
+</td></tr><tr><td>
+
+Device Network Adapters
+
+</td><td>
+
+dex\_ci\_device\_network\_adapter
+
+</td><td>
+
+Daily
+
+</td><td>
+
+DEX
+
+</td><td>
+
+Configuration item, name, interface description, interface index, status, MAC address, link speed, and additional fields. Stores multiple records for each device.
+
+</td></tr><tr><td>
+
+Device BitLocker
+
+</td><td>
+
+dex\_ci\_device\_bitlocker
+
+</td><td>
+
+Daily
+
+</td><td>
+
+DEX
+
+</td><td>
+
+Configuration item, volume type, mount point, capacity, volume status, encryption percentage, protection status, encryption method, and key protector. Stores multiple records for each device.
+
+</td></tr><tr><td>
+
+Device OS Details
+
+</td><td>
+
+dex\_ci\_device\_os\_details
+
+</td><td>
+
+Daily
+
+</td><td>
+
+DEX
+
+</td><td>
+
+Configuration item, platform, locale, status, code set, country code, system device, system directory, build number, build type, service pack major version, service pack minor version. Stores one record for each device.
+
+</td></tr><tr><td>
+
+Device Hard Drives
+
+</td><td>
+
+dex\_ci\_device\_hard\_drive
+
+</td><td>
+
+Daily
+
+</td><td>
+
+DEX
+
+</td><td>
+
+Configuration item, media loaded, size, and additional fields. Stores multiple records for each device. This table doesn't contain CMDB fields.
+
+</td></tr><tr><td>
+
+Device Wi-Fi Status
+
+</td><td>
+
+dex\_ci\_device\_wifi\_status
+
+</td><td>
+
+Daily
+
+</td><td>
+
+DEX
+
+</td><td>
+
+SSID, channel, physical address, state, authentication, radio type, profile, description, and driver date. Stores one record for each device.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Digital End-User Experience reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/digital-end-user-experience-dex/dex-reference.md)

@@ -34,15 +34,15 @@ The default integration user credential will be applicable for all the tools. If
 
 1.  Set the integration user password in one of the following ways.
 
-<table id="choicetable_g4v_f5r_gwb"><thead><tr><th align="left" id="d238795e88">
+<table id="choicetable_g4v_f5r_gwb"><thead><tr><th align="left" id="d240919e88">
 
 Option
 
-</th><th align="left" id="d238795e91">
+</th><th align="left" id="d240919e91">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d238795e97">
+</th></tr></thead><tbody><tr><td id="d240919e97">
 
 **Using workspace**
 
@@ -64,7 +64,7 @@ Steps
 
 \[Omitted image "setupsystemaccount-3.png"\] Alt text: Selecting Set password for DevOps integration user account through workspace.
 
-</td></tr><tr><td id="d238795e177">
+</td></tr><tr><td id="d240919e177">
 
 **Using Classic UI**
 

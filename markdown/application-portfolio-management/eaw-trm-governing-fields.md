@@ -23,15 +23,15 @@ The TLM Technology Lifecycle \[sn\_apm\_tpm\_technology\_lifecycle\] record incl
 
 |Field|Description|
 |-----|-----------|
-|**Governing TRM Product**|Reference to the TRM product that governs the obsolescence status of this discovered technology. Cleared if no matching TRM product is found.|
-|**Governing TRM Product Lifecycle**|Reference to the specific TRM product lifecycle \(version, or version and edition\) that matches this discovered technology. Cleared if no TRM product lifecycle matches, even when a **Governing TRM Product** is populated.|
+|Governing TRM Product|Reference to the TRM product that governs the obsolescence status of this discovered technology. Cleared if no matching TRM product is found.|
+|Governing TRM Product Lifecycle|Reference to the specific TRM product lifecycle \(version, or version and edition\) that matches this discovered technology. Cleared if no TRM product lifecycle matches, even when a **Governing TRM Product** is populated.|
 
 ## Field population by reason
 
 The scheduled job **Populate TRM technical debts in the EA Workspace** populates or clears these fields each time it runs, based on whether the discovered technology matches a TRM standard.
 
-|Reason|**Governing TRM Product**|**Governing TRM Product Lifecycle**|
-|------|-------------------------|-----------------------------------|
+|Reason|Governing TRM Product|Governing TRM Product Lifecycle|
+|------|---------------------|-------------------------------|
 |Software product has no TRM product defined|Cleared|Cleared|
 |TRM product exists but is not production approved|Populated|Cleared|
 |TRM product is approved but no matching lifecycle version is found|Populated|Cleared|

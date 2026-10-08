@@ -41,15 +41,15 @@ The identification rules for a CI class are defined in the CMDB Identification a
 
 1.  Navigate to ASN import page.
 
-<table id="choicetable_rcm_45c_m3c"><thead><tr><th align="left" id="d329728e116">
+<table id="choicetable_rcm_45c_m3c"><thead><tr><th align="left" id="d333493e116">
 
 HAM version
 
-</th><th align="left" id="d329728e121">
+</th><th align="left" id="d333493e121">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d329728e127">
+</th></tr></thead><tbody><tr><td id="d333493e127">
 
 **Version 15.0.0 and later**
 
@@ -59,7 +59,7 @@ Steps
 2.  Select the **Procurement** tab.
 
 
-</td></tr><tr><td id="d329728e160">
+</td></tr><tr><td id="d333493e160">
 
 **Versions prior to 15.0.0**
 
@@ -186,6 +186,8 @@ For rows that were ignored or resulted in a failed import, perform the following
 [Manage the lifecycle of hardware models with calculated lifecycle templates]()
 
 [Create an internal lifecycle in the Hardware Asset Workspace]()
+
+[Calculate the active lifecycle phase for a model]()
 
 [Receive asset warranty details from Lenovo]()
 

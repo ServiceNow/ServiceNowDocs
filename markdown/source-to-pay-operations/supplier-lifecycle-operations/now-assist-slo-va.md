@@ -68,7 +68,7 @@ As a supplier, you can manage a profile, manage users, submit a request, track r
 
 ## Additional Information
 
-ServiceNow Otto in Virtual Agent provides your users with an interactive generative AI experience. A friendly, natural language conversation is easier to understand and makes supplier contacts more comfortable with talking to a bot. To learn how a conversation that is powered by generative AI might look in Virtual Agent, see [Using ServiceNow® Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/using-now-assist-in-va.md).
+ServiceNow Otto in Virtual Agent provides your users with an interactive generative AI experience. A friendly, natural language conversation is easier to understand and makes supplier contacts more comfortable with talking to a bot. To learn how a conversation that is powered by generative AI might look in Virtual Agent, see .
 
 As an administrator, you can use the ServiceNow Otto in Virtual Agent Analytics dashboard to monitor the performance of ServiceNow Otto in Virtual Agent as a self-service deflection tool. ServiceNow Otto in Virtual Agent Analytics calculates the conversation deflection rate that is based on the resolution status associated with ServiceNow Otto query responses. For more information, see .
 

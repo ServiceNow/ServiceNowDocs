@@ -94,7 +94,7 @@ The ServiceNow® Platform Analytics experience provides a single center for cons
     -   Geomap migration supported.
     -   Interactive filter check box option.
     -   Export to CSV from lists is supported.
--   **Data visualizations and filters support Workflow Data Fabric tables**
+-   **[Data visualizations and filters support Workflow Data Fabric tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/workflow-data-fabric.md)**
 
     Perform data analysis on external data fabric sources.
 

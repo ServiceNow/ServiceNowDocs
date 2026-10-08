@@ -43,9 +43,6 @@ Zurich Patch 11 includes fixes for security-related problems that affected certa
     Activate a pre-release feature on the instance so your users can try it out and provide feedback to the product team.
 
 -   **[Auto-upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/um-auto-upgrade.md)**
-
-    The auto-upgrade mechanism automatically upgrades ServiceNow-managed applications across your instances on a regular schedule without requiring manual intervention. Auto-upgrade applies exclusively to ServiceNow-managed applications; customer-customized or third-party applications aren't included in automatic upgrades.
-
 -   **[Deactivate a pre-release feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/deactivate-prerelease-feature.md)**
 
     Deactivate a pre-release feature if it is not working as expected or if you no longer need the feature.

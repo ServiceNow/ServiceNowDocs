@@ -58,9 +58,9 @@ Role required: report\_admin.
 
 ### Procedure
 
-1.  Navigate to **All** &gt; **Reports** &gt; **Administration** &gt; **Chart Colors**.
+1.  Navigate to **All** &gt; **Platform Analytics Administration** &gt; **Color Settings** &gt; **Chart Colors**.
 
-2.  Click **New**.
+2.  Select **New**.
 
     \[Omitted image "new-chart-colors-form.png"\] Alt text: New chart colors form
 

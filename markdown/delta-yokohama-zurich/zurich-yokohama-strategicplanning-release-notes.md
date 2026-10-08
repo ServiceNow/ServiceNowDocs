@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-strategicplanning-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
-reading_time_minutes: 15
+last_updated: "2026-10-08"
+reading_time_minutes: 18
 breadcrumb: [Products combined by family]
 ---
 
@@ -38,10 +38,12 @@ Yokohama
 
 </td><td>
 
+-   **Upgrade information**
+
 After upgrading to Strategic Planning v4.7.0, the following changes apply to user preferences:
 
--   Custom view settings previously saved under user preferences will be cleared. You must reapply these changes and create views as needed. For instructions, see [Create a portfolio plan view in Strategic Planning](https://www.servicenow.com/docs/access?context=create-portfolio-plan-view-spw&family=yokohama&ft:locale=en-US) and [Create a free-form roadmap view in Strategic Planning](https://www.servicenow.com/docs/access?context=create-free-form-roadmap-view-spw&family=yokohama&ft:locale=en-US).
--   Customizations made to the Timeline and Kanban views in the **Roadmap** tab, and the Kanban view in the **Prioritization** tab at the portfolio plan level, will be copied to the Default view of the portfolio plan. Similarly, any customizations made to the Timeline and Kanban views in the free-form roadmap will also be copied to the Default view of the free-form roadmap.
+    -   Custom view settings previously saved under user preferences will be cleared. You must reapply these changes and create views as needed. For instructions, see [Create a portfolio plan view in Strategic Planning](https://www.servicenow.com/docs/access?context=create-portfolio-plan-view-spw&family=yokohama&ft:locale=en-US) and [Create a free-form roadmap view in Strategic Planning](https://www.servicenow.com/docs/access?context=create-free-form-roadmap-view-spw&family=yokohama&ft:locale=en-US).
+    -   Customizations made to the Timeline and Kanban views in the **Roadmap** tab, and the Kanban view in the **Prioritization** tab at the portfolio plan level, will be copied to the Default view of the portfolio plan. Similarly, any customizations made to the Timeline and Kanban views in the free-form roadmap will also be copied to the Default view of the free-form roadmap.
 
 </td></tr><tr><td>
 
@@ -49,9 +51,12 @@ Zurich
 
 </td><td>
 
+-   **Upgrade information**
+
 After upgrading to Strategic Planning v4.8.0, the existing **Investment type** and **Investment class** fields will appear as **Investment type \(Deprecated\)** and **Investment class \(Deprecated\)** respectively across the Planning page including in the Prioritization and Roadmap views and in the Scenario Planning page. The values from these deprecated fields will be automatically copied to the new **Investment type** and **Investment class** fields.
 
- If you previously applied filters or personalized your view using the deprecated fields, you must update those configurations to use the new **Investment type** and **Investment class** fields across the workspace—including in the Prioritization and Roadmap views on the Planning page, as well as in the Scenario Planning page.
+If you previously applied filters or personalized your view using the deprecated fields, you must update those configurations to use the new **Investment type** and **Investment class** fields across the workspace—including in the Prioritization and Roadmap views on the Planning page, as well as in the Scenario Planning page.
+
 
 </td></tr></tbody>
 </table>## New features
@@ -89,12 +94,6 @@ For free-form roadmaps - Create, edit, and switch between views with display pre
 -   **[Write planning item skill](https://www.servicenow.com/docs/access?context=refine-text-with-write-planning-item-skill&family=yokohama&ft:locale=en-US)**
     -   Improve record quality and user satisfaction by enabling AI assistance in the **Description** field across all Strategic Planning Workspace forms, including product idea, demand, epic, project, capability, feature, and story.
     -   Enable text refinement with the **Elaborate** and **Shorten** options on planning items to support product managers and agile team members in creating and editing content more effectively.
--   **[Plan efficiently with additional pre-defined lenses](https://www.servicenow.com/docs/access?context=lens-alignment-planner-workspace&family=yokohama&ft:locale=en-US)**
-
-Using the Digital Product lens, portfolio managers can plan, prioritize, and roadmap the work in the Strategic Planning Workspace based on the digital products by aligning with the business strategy.
-
-The lens is supported with the work items, epic, and product idea. With the Digital Product lens, you can also do high-level planning using the Product Enhancement entity. By default, the Product Enhancement entity is enabled for high-level planning.
-
 -   **[Cycle time report for Agile teams in EAP dashboards](https://www.servicenow.com/docs/access?context=eap-agile-team-dashboard&family=yokohama&ft:locale=en-US)**
 
 Analyze how long the stories take for your Agile team to move from an in-progress state to completion. Each bubble on the chart represents a story and the chart shows stories completed in the past 30 days. You can compare the cycle times of stories that have different story points and review the trend in the time taken by the team to complete them.
@@ -113,16 +112,23 @@ Quickly find the work items that you need by using column-level filters for the 
 
 Break down epics and features into stories using the Now Assist Agile story generation skill in the EAP workspace. Using the available details such as name, description, docs content, and any existing stories, Now Assist provides story recommendations for your epic or feature. You can let Now Assist generate stories using its initial recommendations or you can choose to split or combine the story recommendations before prompting Now Assist to create the stories.
 
--   **[View financial data of your planning items at portfolio level](https://www.servicenow.com/docs/access?context=using-portfolio-financials-spw&family=yokohama&ft:locale=en-US)**
-    -   View the rolled-up financial costs and benefits data of your planning items such as Epics, Demands, and Projects at the portfolio level for different time scales and ranges.
-    -   View the Budget, Planned, Variance, Actuals, and Remaining Estimates of the financials costs by expense type or cost type.
-    -   View the Forecasts, Actuals, and Variance of monetary benefits.
 -   **[Create a manage financial scenarios of planning items](https://www.servicenow.com/docs/access?context=optimizing-scenarios-in-strategic-planning&family=yokohama&ft:locale=en-US)**
     -   Optimize your portfolio by creating financial scenarios to validate and arrive at a profitable outcome.
     -   Plan and manage the budget of planning items in simulation mode for efficient financial planning and to help prevent overspending.
     -   Manage prioritization and budget allocation of the planning items to meet business priorities.
     -   Compare scenarios financially and automatically allocate the planned budget to planning items from approved scenarios.
     -   Enable the **new budget allocation** property \(**sn\_invst\_pln.enable\_budget\_allocation\_v2**\) to perform financial analysis in scenario planning and take effective decisions by data-driven insights.
+
+ -   **[Plan efficiently with additional pre-defined lenses](https://www.servicenow.com/docs/access?context=lens-alignment-planner-workspace&family=yokohama&ft:locale=en-US)**
+
+Using the Digital Product lens, portfolio managers can plan, prioritize, and roadmap the work in the Strategic Planning Workspace based on the digital products by aligning with the business strategy.
+
+The lens is supported with the work items, epic, and product idea. With the Digital Product lens, you can also do high-level planning using the Product Enhancement entity. By default, the Product Enhancement entity is enabled for high-level planning.
+
+-   **[View financial data of your planning items at portfolio level](https://www.servicenow.com/docs/access?context=using-portfolio-financials-spw&family=yokohama&ft:locale=en-US)**
+    -   View the rolled-up financial costs and benefits data of your planning items such as Epics, Demands, and Projects at the portfolio level for different time scales and ranges.
+    -   View the Budget, Planned, Variance, Actuals, and Remaining Estimates of the financials costs by expense type or cost type.
+    -   View the Forecasts, Actuals, and Variance of monetary benefits.
 -   **[Real-time collaboration for EAP Docs](https://www.servicenow.com/docs/access?context=docs-for-eap-teams-and-planning-items&family=yokohama&ft:locale=en-US)**
 
 Edit a doc page concurrently with multiple other editors. Colored cursors denote the current location of editors on the page. You can choose to show or hide these indicators.
@@ -137,12 +143,6 @@ The real-time collaboration feature for docs is also available for planning item
 Zurich
 
 </td><td>
-
--   **[Strategic Planning and AI Control Tower](https://www.servicenow.com/docs/access?context=better-together-with-other-apps-spw&family=zurich&ft:locale=en-US)**
-
-Categorize your strategic priorities, goals, planning items, and execution items—projects and demands as Artificial Intelligence to track and monitor strategy progress from the AI Control Tower workspace.
-
-Use the **Type** field for strategic priorities, the **Category** field for goals, the **Investment type** field for planning items - to classify them as Artificial Intelligence and monitor their progress in the AI Control Tower workspace.
 
 -   **[Integrate Enterprise Agile Planning \(EAP\) with Atlassian Jira](https://www.servicenow.com/docs/access?context=spw-jira-landing&family=zurich&ft:locale=en-US)**
 
@@ -160,6 +160,17 @@ Keep record information in your documentation always current and reduce manual e
 
 You can add references from any ServiceNow table you have access to, with no setup or configuration needed, thereby eliminate the hassle of switching between applications to copy and paste data from various records into Docs.
 
+-   **[Scenario planning enhancements](https://www.servicenow.com/docs/access?context=enable-scenario-planning-in-strategic-planning&family=zurich&ft:locale=en-US)**
+
+With the sn\_align\_core.apw\_admin role, you can enable or disable the scenario planning feature. The **sn\_align\_ws.is\_scenario\_planning\_disabled** system property allows you to enable or disable the scenario planning feature.
+
+
+ -   **[Strategic Planning and AI Control Tower](https://www.servicenow.com/docs/access?context=better-together-with-other-apps-spw&family=zurich&ft:locale=en-US)**
+
+Categorize your strategic priorities, goals, planning items, and execution items—projects and demands as Artificial Intelligence to track and monitor strategy progress from the AI Control Tower workspace.
+
+Use the **Type** field for strategic priorities, the **Category** field for goals, the **Investment type** field for planning items - to classify them as Artificial Intelligence and monitor their progress in the AI Control Tower workspace.
+
 -   **[Portfolio plan enhancements](https://www.servicenow.com/docs/access?context=create-portfolio-plans-in-alignment-planner-workspace&family=zurich&ft:locale=en-US)**
     -   Create portfolio plans for AI-related items by applying a filter on the planning item tables, setting the **Investment type** field value to **Artificial Intelligence** during portfolio plan creation. This allows you to focus exclusively on AI-related items.
     -   With the sn\_align\_core.apw\_admin role, you can update the following system properties:
@@ -175,10 +186,6 @@ You can add references from any ServiceNow table you have access to, with no set
     -   Match milestone colors with their status labels across the roadmap, milestone popover, and side panel. For example, a missed milestone displays the same color in all locations.
     -   With the sn\_align\_core.apw\_admin role, you can define the number of milestone items to be loaded in the Roadmap tab. The **sn\_align\_ws.item\_milestone\_limit** system property allows you to define the number of milestone items to be loaded in the Roadmap tab.
     -   With the sn\_align\_core.apw\_admin role, you can define the list of planning item types that can be created in a free-form roadmap. The **sn\_align\_ws.freeform\_planning\_items\_creation\_list** system property allows you to define the list of planning item types that can be created in a free-form roadmap.
--   **[Scenario planning enhancements](https://www.servicenow.com/docs/access?context=enable-scenario-planning-in-strategic-planning&family=zurich&ft:locale=en-US)**
-
-With the sn\_align\_core.apw\_admin role, you can enable or disable the scenario planning feature. The **sn\_align\_ws.is\_scenario\_planning\_disabled** system property allows you to enable or disable the scenario planning feature.
-
 -   **[Quick filters enhancements](https://www.servicenow.com/docs/access?context=managing-backlog-alignment-planner-workspace&family=zurich&ft:locale=en-US)**
 
 Apply filters using string-type and boolean field values across the Planning page and Scoring page to view the required dataset. These filters are saved as part of your user preferences, enabling you to access the same filtered data when you log back in and continue your planning seamlessly.
@@ -222,7 +229,24 @@ Yokohama
 
 </td><td>
 
--   **[Changes in planning item forms](https://www.servicenow.com/docs/access?context=epic-form&family=yokohama&ft:locale=en-US)**
+-   **[Skill name updates](https://www.servicenow.com/docs/access?context=alignment-planner-workspace-landing-page&family=yokohama&ft:locale=en-US)**
+    -   Renamed the Planning item Gen AI Docs to the Planning item doc summarization skill in Strategic Planning.
+    -   Renamed the EAP Teams Gen AI Docs to the EAP doc summarization skill in Enterprise Agile Planning.
+    -   Added the Write planning items skill in Strategic Planning.
+-   **[Capacity Planning name updates](https://www.servicenow.com/docs/access?context=using-cap-plan-spw&family=yokohama&ft:locale=en-US)**
+
+Change in the name of the **Capacity Planning** tab to **Capacity** in the planning view.
+
+
+ -   **[Financials UI changes](https://www.servicenow.com/docs/access?context=using-portfolio-financials-spw&family=yokohama&ft:locale=en-US)**
+    -   New **Financials** tab in the Planning page.
+    -   The name of the **ETC** field is changed to **Remaining Estimates**.
+    -   The name of the **EAC** field is changed to **Forecast**.
+    -   The name of the **Actuals to date** field is changed to **Actuals**.
+    -   New Financials view in scenario planning.
+    -   New financial widgets in the compare scenario page.
+
+ -   **[Changes in planning item forms](https://www.servicenow.com/docs/access?context=epic-form&family=yokohama&ft:locale=en-US)**
 
 The dates in the **Planned start date** and **Planned end date** fields are editable for all planning item types other than Demand and Project planning item types. Also, the **State** field is editable for EAP planning items and its child items.
 
@@ -233,7 +257,31 @@ Zurich
 
 </td><td>
 
--   **[Investment type and Investment class fields](https://www.servicenow.com/docs/access?context=planning-item-form&family=zurich&ft:locale=en-US)**
+-   **[Enhancements to tables in Docs](https://www.servicenow.com/docs/access?context=docs-for-planning-items-in-spw&family=zurich&ft:locale=en-US)**
+    -   Resize the column width of a table per your preference.
+    -   Add color to single or multiple table cells.
+
+ -   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+-   **[Financials UI changes](https://www.servicenow.com/docs/access?context=using-financials-spw&family=zurich&ft:locale=en-US)**
+    -   New Display mode in the Financials record page to select and view forecast, compare planned vs actual costs, planned costs, or allocate budget.
+    -   Select and view forecasts, compare planned vs. actual costs, and view planned costs or the allocated budget through a new display mode on the Financials record page.
+    -   Renamed **Cost** tab as **Costs and benefits** to manage cost plans and benefit plans in one view.
+    -   Renamed **Baselines** as **Baseline comparison** to create and compare financial baselines.
+    -   Renamed **Time scope** as **Filter time scope** to adjust the time scope to view a focused and customized financial snapshot.
+    -   New **Generate labor costs** button to generate labor costs based on the resource assignments.
+    -   New **Currency** list option to switch between functional and investment currency.
+    -   New **Edit investment currency** option to define investment currency for your projects.
+    -   **New monetary benefit plan** option to create new forecast benefit plans.
+    -   New **Planned Benefits** widget displays the total forecasted benefits.
+    -   New **Total Return** widget displays the total actual benefits form the projects.
+    -   New **Record type** column to classify the financial records between benefits and costs.
+    -   Renamed **Estimate At Completion** widget to **EAC Cost**.
+    -   Renamed **Actual Cost To Date** to **Actuals \(Incl. current fiscal period\)**.
+
+ -   **[Investment type and Investment class fields](https://www.servicenow.com/docs/access?context=planning-item-form&family=zurich&ft:locale=en-US)**
 
 The **Investment type** and **Investment class** fields have been deprecated from the Project and Demand planning item tables. These fields are now created at the parent level in the Planning item \[sn\_align\_core\_planning\_item\] table.
 
@@ -245,9 +293,6 @@ By default, only active goals—those goals with the **Active** field set to **t
 
 In the Stories list for an Epic, Feature, or Capability in the Enterprise Agile Planning workspace, the Assignment group and Sprint columns in the default related list view are replaced with the EAP team and Iteration columns.
 
--   **[Enhancements to tables in Docs](https://www.servicenow.com/docs/access?context=docs-for-planning-items-in-spw&family=zurich&ft:locale=en-US)**
-    -   Resize the column width of a table per your preference.
-    -   Add color to single or multiple table cells.
 
 </td></tr></tbody>
 </table>## Removed
@@ -326,7 +371,12 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Install Strategic Planning by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
+
+**Important:** Strategic Planning is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 
@@ -334,7 +384,12 @@ Zurich
 
 </td><td>
 
-Install Strategic Planning by requesting it from the ServiceNow Store. 
+-   **Activation information**
+
+Install Strategic Planning by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
+
+**Important:** Strategic Planning is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements

@@ -7,7 +7,7 @@ release: zurich
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: task
-last_updated: "2026-08-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [AWS cloud discovery, Server CI, Windows Server, Linux Server, system property, SSM]
 breadcrumb: [AWS discovery, Available cloud discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
@@ -20,7 +20,7 @@ Create Windows Server or Linux Server configuration items \(CIs\) during AWS clo
 ## Before you begin
 
 -   Verify that you have at least version 1.35.0 of Discovery and Service Mapping Patterns.
--   Download the [Cloud Discovery patterns spreadsheet](https://downloads.docs.servicenow.com/resource/enus/api/servicenow-discovery-patterns-api-details.xlsx) so you can grant user permissions required for running the relevant patterns.
+-   Download the [Cloud Discovery patterns spreadsheet](https://downloads.docs.servicenow.com/resource/enus/api/servicenow-discovery-patterns-api-details.xlsx) so you can grant user permissions required for running the Discovery patterns.
 -   Verify that AWS Systems Manager \(AWS SSM\) is enabled on the Amazon Elastic Compute Cloud \(Amazon EC2\) instances.
 -   Verify SSM Agent execution context.
     -   For Linux: The SSM Agent must run as root to retrieve the serial number using `dmidecode`.
@@ -50,6 +50,8 @@ Before Discovery and Service Mapping Patterns version 1.35.0, Server CIs weren't
 ## What to do next
 
 Run AWS cloud discovery or wait for the next scheduled discovery run for the changes to apply.
+
+If your EC2 instances are slow to respond to SSM commands, increase the SSM command wait time. This provides more time before the first status check, enabling Server CIs to be created successfully. For more information, see [set the SSM command wait time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/set-aws-ssm-server-timeout.md).
 
 **Parent Topic:**[AWS discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/data-discovered-aws-patterns.md)
 

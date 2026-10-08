@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-developersandboxes-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
-reading_time_minutes: 3
+last_updated: "2026-10-08"
+reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
 
@@ -190,7 +190,10 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   All data generation metadata and non-metadata records are automatically deleted.
+-   The data generation plugin is no longer discoverable.
+-   All references to data generation will be removed from sandbox templates.
+-   Sandbox initialization will operate independently of data generation logic.
 
 </td></tr></tbody>
 </table>## Activation information
@@ -219,7 +222,12 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Contact your ServiceNow account manager to install Developer Sandboxes.
+
+
+**Important:** [Developer Sandboxes](https://www.servicenow.com/docs/access?context=sandboxes-landing&family=zurich&ft:locale=en-US) is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements

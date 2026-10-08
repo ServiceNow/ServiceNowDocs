@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-domainseparation-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
+last_updated: "2026-10-08"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -193,7 +193,12 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Domain Separation is a ServiceNow AI Platform feature that is available with activation of the com.glide.domain.activation\_utility. For details, see [Domain separation plugin](https://www.servicenow.com/docs/access?context=domain-sep-plugin&family=yokohama&ft:locale=en-US).
+
+
+**Important:** Domain Separation is available in ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 
@@ -201,7 +206,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Domain Separation is a ServiceNow AI Platform feature that is available with activation of the com.glide.domain.activation\_utility. For details, see [Domain separation plugin](https://www.servicenow.com/docs/access?context=domain-sep-plugin&family=zurich&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements

@@ -1,6 +1,6 @@
 ---
-title: Configure the Manage documents activity UI in Information Request Playbook
-description: Configure the Manage Documents activity UI in Information Request Playbook to allow agents to view, link, or unlink documents to an information request case.
+title: Configure the Manage documents activity UI in Information Request Administration
+description: Configure the Manage Documents activity UI in Information Request Administration to allow agents to view, link, or unlink documents to an information request case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/psds-ir-playbooks-configure-manage-documents.html
 release: zurich
@@ -10,9 +10,9 @@ reading_time_minutes: 1
 breadcrumb: [Information Request Playbook, Playbooks and Solutions, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Configure the Manage documents activity UI in Information Request Playbook
+# Configure the Manage documents activity UI in Information Request Administration
 
-Configure the Manage Documents activity UI in Information Request Playbook to allow agents to view, link, or unlink documents to an information request case.
+Configure the Manage Documents activity UI in Information Request Administration to allow agents to view, link, or unlink documents to an information request case.
 
 ## Before you begin
 
@@ -57,5 +57,5 @@ Role required: admin
 
 ## Result
 
-The Manage Documents UI activity is now configured, and the modal should now display when you open a new or existing Information Request Playbook.
+The Manage Documents UI activity is now configured, and the modal should now display when you open a new or existing Information Request Administration.
 

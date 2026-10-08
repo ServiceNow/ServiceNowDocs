@@ -8,7 +8,7 @@ product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
 last_updated: "2026-03-23"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [Configure, ServiceNow Otto for CSM, Customer Service Management]
 ---
 
@@ -29,7 +29,7 @@ Guardian filters analyze case conversation content using AI's sentiment analysis
 
 |Filter name|What it detects|Example use case|
 |-----------|---------------|----------------|
-|**Active Data Loss or security breach**- Refers to issues related to security incidents that can put sensitive data at risk. It can include questions about ongoing security incidents, confidential information, or personally identifiable information.|Content indicating unauthorized data access, data ex filtration, or active security incidents|Customer reports that their account credentials were exposed in a third-party breach|
+|**Active Data Loss or security breach**- Refers to issues related to security incidents that can put sensitive data at risk. It can include questions about ongoing security incidents, confidential information, or personally identifiable information.|Content indicating unauthorized data access, data exfiltration, or active security incidents|Customer reports that their account credentials were exposed in a third-party breach|
 |**Threatening legal action**- Refers to issues that may arise in business-to-business or business-to-customer interactions related to legal action. It includes any threats to sue and questions related to past and present litigation.|Language suggesting the customer intends to pursue legal remedies or regulatory complaints|Customer states they will contact their attorney or file a complaint with regulatory authorities|
 |**Reputational incident/issue**- Refers to issues related to the reputation of either the service provider or the customer. It includes any content that could be perceived as harmful to the reputations of either party.|Content that could damage the organization's public image or brand reputation|Customer threatens to share negative experiences on social media or with industry publications|
 

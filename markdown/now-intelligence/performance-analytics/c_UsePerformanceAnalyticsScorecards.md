@@ -18,8 +18,6 @@ The Analytics Hub is an exploratory view of indicators, used for more detailed a
 
 **Note:** In Platform Analytics, Analytics Hub functionality is in [KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/kpi-details.md). Navigate to **Platform Analytics** &gt; **Indicators**. After you migrate to Platform Analytics, only the [KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/kpi-details.md) option is available.
 
-Watch this five-minute video to learn how to use Analytics Hub to analyze, explore, and compare Performance Analytics indicator data.
-
 In the Analytics Hub, analyze indicator scores by aggregating data, comparing scores, or viewing changes over time, and filter scores by breakdown. Enhance the Analytics Hub by adding targets, thresholds, trendlines, and useful comments for significant changes.
 
 On the indicator form, you can set the indicator to be included in the Analytics Hub automatically.

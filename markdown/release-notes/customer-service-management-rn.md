@@ -21,7 +21,7 @@ The ServiceNow® Case management for CSM application enables customer service or
 -   View and select from the available entitlements that are associated with the customer, product, and contract information to associate multiple entitlements with customer service cases.
 -   Filter the service definitions that are displayed to agents based on such criteria as the assigned role or group, or entity criteria.
 
-See Case management for Customer Service Management for more information.
+See [Case management for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/csm-case-management.md) for more information.
 
 ## Activation and other requirements
 
@@ -42,7 +42,7 @@ The ServiceNow® Case management for CSM application enables customer service or
 
 ### What's new
 
--   **Recommend service definitions based on case context**
+-   **[Recommend service definitions based on case context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/csm-service-definitions.md)**
 
     Recommend the most relevant services to an agent based on the record context, such as the short description or description of the interaction.
 
@@ -58,7 +58,7 @@ The ServiceNow® Case management for CSM application enables customer service or
     -   Global template: Task plan templates can be marked as global, making them visible to all users with read access.
     -   Form and List Layouts: Admins can view and edit form and list layouts for sharing, displaying all relevant fields.
     -   Notifications: In-app notifications are sent when access is granted, Selecting the notification opens the shared template directly.
--   **Task plan template configurations**
+-   **[Task plan template configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/task_plan_template_configurations.md)**
 
     Admins can create configurations for task plan templates that pre-fill information when creating a new task plan template.
 
@@ -69,28 +69,28 @@ The ServiceNow® Case management for CSM application enables customer service or
 
 ### What's new
 
--   **Task plan templates**
+-   **[Task plan templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/task-plan-templates.md)**
 
     Create templates that define the repeatable tasks and records that need to be created for business processes. Define the tasks, set the task order, and create conditions that determine when these tasks and records are created.
 
--   **Customer Service Case Types - Enable the service selector to launch record producers**
+-   **[Customer Service Case Types - Enable the service selector to launch record producers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/csm-service-definition-catalog-items.md)**
 
     Use the Service Portal record producers when your agents are creating cases in CRM Workspace. Agents can select the service definitions from the case type selector and launch the record producers.
 
 
 ### What's changed
 
--   **Filtering service definitions**
+-   **[Filtering service definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/csm-service-definitions.md)**
 
     Enable agents to filter the service definitions that are shown on the service selector in the following ways:
 
     -   By user, role, group, or agent
     -   By entity critera such as location, customer level, or related entities
--   **Case lines for Case Management - Add multiple entitlements to case lines**
+-   **[Case lines for Case Management - Add multiple entitlements to case lines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/csm-case-mgmt-case-lines.md)**
 
     View the available entitlements on a case line and associate the multiple entitlements to that case line. Available entitlements are associated with the contracts and entitlements that are purchased by the customer.
 
--   **Customer Service Case Types moved from family to store release**
+-   **[Customer Service Case Types moved from family to store release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/customer-service-case-types.md)**
 
     Starting with the Zurich release, the Customer Service Case Types application \(sn\_csm\_case\_types\) has moved to the ServiceNow Store. Any new enhancements to this application are delivered through the Customer Service Case Types store app.
 
@@ -101,11 +101,11 @@ The ServiceNow® Case management for CSM application enables customer service or
 
 ### What's new
 
--   **Add multiple entitlements to a case**
+-   **[Add multiple entitlements to a case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/add-entitlement-to-case.md)**
 
     View the available entitlements on a customer service case and associate the multiple entitlements to the case. Available entitlements are associated with the account or consumer, product, and contract selected on the case record.
 
--   **Quick start tests for Customer Service Management**
+-   **[Quick start tests for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/quick-start-tests-csm.md)**
 
     After upgrades and deployments of new applications or integrations, run quick start tests to verify that Customer Service Management works as expected. If you customized Customer Service Management, copy the quick start tests and configure them for your customizations.
 
@@ -117,7 +117,7 @@ The ServiceNow® Case management for CSM application enables customer service or
     Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
 
 
--   **Targeted Communications and Case Digests workflows**
+-   **[Targeted Communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/targeted-comm-publication-workflows.md) and [Case Digests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/customer-service-case-digests.md#section_ast_r2k_qfc) workflows**
 
     Legacy workflows for the Targeted Communications \(com.sn\_publications\) and Case Digests \(com.sn\_csm\_case\_digest\) applications have been migrated to low-code flows in Workflow Studio. The functionality of the flows remains the same.
 

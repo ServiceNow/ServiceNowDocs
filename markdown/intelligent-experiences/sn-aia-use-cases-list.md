@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/sn-aia-use-cases-list.html
 release: zurich
 topic_type: concept
-last_updated: "2026-08-03"
+last_updated: "2026-10-06"
 reading_time_minutes: 5
 keywords: [AI Agents, Agentic AI]
 breadcrumb: [AI assets, Enable AI experiences]
@@ -89,7 +89,7 @@ Available agentic workflows
 
 </td></tr><tr><td>
 
-ServiceNow Otto for Field Service Management \(FSM\)
+[Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/field-service-management/fsm-application-landing-page.md)
 
 </td><td>
 
@@ -244,7 +244,7 @@ ServiceNow Otto for Field Service Management \(FSM\)
 
 </td></tr><tr><td>
 
-ServiceNow Otto for Public Sector Digital Services \(PSDS\)
+[Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/government-industry/bun-public-sector-landing-page.md)
 
 </td><td>
 

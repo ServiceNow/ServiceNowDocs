@@ -16,13 +16,26 @@ Use the ServiceNow Otto for Operational Technology \(OT\) Service Management app
 
 ## Get started
 
-**Note:** Depending on your license, you have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 ## Get started with AI
 
 Starting with the Australia release, Now Assist for Operational Technology Service Management \(OTSM\) is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
+The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
+
+-   Foundation: AI basics to deliver insights
+-   Advanced: AI to boost productivity across relevant use cases
+-   Prime: Act autonomously with all AI assets, and create your own
+
+For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-native-sku-overview.md).
+
 For more information about AI capabilities in Operational Technology Service Management, see [ServiceNow Otto for OTSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/operational-technology/operational-technology-incident-management/exploring-now-assist-otsm.md).
+
+For information about AI assets that are available on the ServiceNow AI Platform, see the following topics:
+
+-   [Generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills.md)
+-   [Agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/sn-aia-use-cases-list.md)
 
 **Important:**
 

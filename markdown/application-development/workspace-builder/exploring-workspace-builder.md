@@ -16,14 +16,6 @@ breadcrumb: [Workspace Builder, Builder library, Developing your application, Bu
 
 Workspace Builder for App Engine is a streamlined, no-code environment that enables you to create a custom workspace from within App Engine Studio \(AES\) quickly and efficiently.
 
-##  users
-
-|User|Description|
-|----|-----------|
-|||
-| | |
-| | |
-
 ## What to explore next
 
 To learn more about configuring and using Workspace Builder, see:

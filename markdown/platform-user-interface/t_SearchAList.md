@@ -54,7 +54,7 @@ Each option in a choice list is defined with a column label and a value. For exa
 **Related topics**  
 
 
-[bundle-platadm.c_TextSearchesInRecordLists]
+[Enable text searches](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/c_TextSearchesInRecordLists.md)
 
 [Personal lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/c_PersonalLists.md)
 
@@ -129,7 +129,7 @@ Search for values that start end with search-term.
 Search for values that don't equal search-term.
 
 </td></tr></tbody>
-</table>**Note:** Reference fields support a different set of wildcard operators. For details on using wildcards to search reference field auto-complete values, see .
+</table>**Note:** Reference fields support a different set of wildcard operators. For details on using wildcards to search reference field auto-complete values, see [Auto-complete for reference fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/c_AutoCompleteForReferenceFields.md).
 
 **Related topics**  
 

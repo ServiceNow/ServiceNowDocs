@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/enable-aia-na-guardian.html
 release: zurich
 topic_type: task
-last_updated: "2026-09-16"
+last_updated: "2026-10-08"
 reading_time_minutes: 2
 breadcrumb: [Configure, AI Agent Studio, Enable AI experiences]
 ---

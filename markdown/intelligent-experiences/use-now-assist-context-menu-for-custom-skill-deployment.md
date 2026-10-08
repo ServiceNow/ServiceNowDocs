@@ -16,7 +16,7 @@ Use the Now Assist context menu to deploy the custom skills created using Now As
 
 AI practitioners can use Now Assist skill kit to create a custom skill to provide custom solutions, with Now Assist's generative AI capabilities.
 
-Now Assist allows the administrators to choose the custom skills for deployment. Use Now Assist context menu as a preferred channel to deploy a custom skill, when you configure deployment setting in Now Assist skill kit. For more information, see [Configure skill deployment settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skill-kit/configure-skill-settings.md).
+Now Assist allows the administrators to choose the custom skills for deployment. Use Now Assist context menu as a preferred channel to deploy a custom skill, when you configure deployment setting in Now Assist skill kit. For more information, see [Configure deployment and skill settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-skill-kit/configure-skill-settings.md).
 
 You must also select Now Assist context menu as a display option when you activate the skill in Now Assist Admin. For more information, see [Activate an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/configure-a-now-assist-skill.md).
 

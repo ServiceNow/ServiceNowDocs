@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2026-04-29"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI, use]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, use]
 breadcrumb: [Managed and unmanaged AI assets, Managing your AI asset inventory, Discover and manage AI assets, AI Control Tower, Enable AI experiences]
 ---
 
@@ -17,7 +17,7 @@ Bring discovered or imported AI assets into your governance program by moving th
 
 ## Before you begin
 
-Role required: sn\_ai\_governance\_ai\_steward
+Role required: sn\_ai\_governance.ai\_steward
 
 ## Procedure
 

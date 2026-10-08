@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/rn-summary-addtl-reqs.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 7
 breadcrumb: [Release notes summaries for Zurich features, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
 ---
@@ -60,11 +60,33 @@ You should have ServiceNow Otto for Creator installed to generate playbooks.
 
 </td></tr><tr><td>
 
+Advanced AI Search Management Tools
+
+</td><td>
+
+-   ****
+
+You must have the Usage Insights API application installed from the ServiceNow Store to use Advanced AI Search Management Tools.
+
+
+</td></tr><tr><td>
+
 Applicant Center
 
 </td><td>
 
 The Hiring Core application provides essential data models and shared components for Hiring Experiences. Hiring Core must be activated.
+
+</td></tr><tr><td>
+
+Autonomous Workforce
+
+</td><td>
+
+-   ****
+
+Your instance must be on Zurich Patch 10.
+
 
 </td></tr><tr><td>
 
@@ -92,6 +114,17 @@ This application requires Financial Services Card Operations \(sn\_bom\_credit\_
 
 </td></tr><tr><td>
 
+External Content Connectors
+
+</td><td>
+
+-   ****
+
+Your instance needs inbound mTLS support to run external content connector crawls. If inbound mTLS support isn't already activated for your instance, it should be automatically activated after you install the External Content Connectors Application Suite plugin.
+
+
+</td></tr><tr><td>
+
 Hiring
 
 </td><td>
@@ -116,6 +149,17 @@ Ensure that your instance is upgraded to XP7.
 
 </td></tr><tr><td>
 
+L1 IT Service Desk AI Specialist
+
+</td><td>
+
+-   ****
+
+Your instance must be on Zurich Patch 12.
+
+
+</td></tr><tr><td>
+
 Now Assist in Document Intelligence
 
 </td><td>
@@ -128,7 +172,7 @@ Now Assist in Virtual Agent
 
 </td><td>
 
- requires a license for Virtual Agent and at least one Now Assist product.
+[ServiceNow Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/now-assist-in-va-landing.md) requires a license for Virtual Agent and at least one Now Assist product.
 
 </td></tr><tr><td>
 
@@ -244,7 +288,7 @@ ServiceNow IDE
 
 </td><td>
 
-ServiceNow IDE uses the public npm registry \(`https://registry.npmjs.org`\) as its default package source. If your network blocks access to this registry, you must have access to an alternate registry to download packages and build applications in the ServiceNow IDE. If access to the public npm registry is blocked on your system, you must configure a private npm registry in your Package Manager user settings in the ServiceNow IDE. For more information, see .
+ServiceNow IDE uses the public npm registry \(`https://registry.npmjs.org`\) as its default package source. If your network blocks access to this registry, you must have access to an alternate registry to download packages and build applications in the ServiceNow IDE. If access to the public npm registry is blocked on your system, you must configure a private npm registry in your Package Manager user settings in the ServiceNow IDE. For more information, see [Install an npm package from a private registry with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/use-library-private-npm-registry.md).
 
 </td></tr><tr><td>
 
@@ -300,7 +344,7 @@ ServiceNow SDK
 
 </td><td>
 
-You must have Node.js and Node Package Manager \(npm\) installed to install the ServiceNow SDK. For more information, see .
+You must have Node.js and Node Package Manager \(npm\) installed to install the ServiceNow SDK. For more information, see [Install the ServiceNow SDK in an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/install-servicenow-sdk.md).
 
 </td></tr><tr><td>
 

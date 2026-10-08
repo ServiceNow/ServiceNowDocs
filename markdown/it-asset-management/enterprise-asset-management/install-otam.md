@@ -1,26 +1,26 @@
 ---
-title: Install OT Asset Management
-description: You can install the OT Asset Management application \(com.sn\_otam\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence: The application includes demo data and installs related ServiceNow Store applications and plugins if they aren’t already installed.
+title: Install OT Asset Management from the ServiceNow Store
+description: You can install the OT Asset Management application \(com.sn\_otam\) if you have the admin role. The application installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-asset-management/enterprise-asset-management/install-otam.html
 release: zurich
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Installing OT Asset Management, Configure, Enterprise Asset Management, IT Asset Management]
 ---
 
-# Install OT Asset Management
+# Install OT Asset Management from the ServiceNow Store
 
-You can install the OT Asset Management application \(com.sn\_otam\) if you have the admin role. The application includes demo data and installs related ServiceNow® Store applications and plugins if they aren’t already installed.
+You can install the OT Asset Management application \(com.sn\_otam\) if you have the admin role. The application installs related ServiceNow® Store applications and plugins if they are not already installed.
 
 ## Before you begin
 
 Review the application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
 
-Role required: sys\_admin
+Role required: admin
 
 ## About this task
 
@@ -48,10 +48,8 @@ For more information, see [Installed with OT Asset Management](https://raw.githu
 
 4.  If you're prompted, follow the links to the ServiceNow Store to get any additional entitlements for dependencies.
 
-5.  If demo data is available and you want to install it, select the **Load demo data** check box.
+5.  Select **Install**.
 
-    Demo data are the sample records that describe application features for common use cases. Load the demo data when you first install the application on a development or test instance.
 
-6.  Select **Install**.
-
+**Parent Topic:**[Installing OT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/installing-otam.md)
 

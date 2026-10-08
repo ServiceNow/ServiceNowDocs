@@ -41,7 +41,7 @@ Role required: sn\_mcp\_server.admin or admin
 
         The **MCP Server Console** page opens with all fields populated by default.
 
-        \[Omitted image "image.itsm-mcp-server-console"\] Alt text: ITSM MCP server Oauth access
+        \[Omitted image "itsm-mcp-server-console.png"\] Alt text: ITSM MCP server Oauth access
 
     4.  In the **Auth scope** field, select **a2aauthscope**.
 
@@ -59,7 +59,7 @@ Role required: sn\_mcp\_server.admin or admin
 
     -   If you use the ITSM MCP Server OAuth client entry to set up your OAuth server, the fields on the Authorization code grant page are automatically populated. Use this information to connect to the ITSM MCP Server.
 
-        \[Omitted image "image.itsm-mcp-server-setup-oauth"\] Alt text: OAuth authorization code grant configuration form in Machine Identity Console showing fields for Name, Provider name, Redirect URLs, Client ID, and Client secret.
+        \[Omitted image "itsm-mcp-server-setup-oauth.png"\] Alt text: OAuth authorization code grant configuration form in Machine Identity Console showing fields for Name, Provider name, Redirect URLs, Client ID, and Client secret.
 
     -   If you're setting up your own OAuth connection, the oauth\_admin or admin role is required to configure your OAuth client entry. See the [Connecting to an MCP server from an MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/connect-mcp-server-client.md) to set up the OAuth and connect to the ITSM MCP Server.
 

@@ -1,20 +1,20 @@
 ---
 title: Send data from SIR Workspace to TISC
-description: Learn how the data is collaborated and shared between the Threat Intelligence Security Center \(TISC\) and Security Incident Response \(SIR\) Workspaces by following the procedures explained in the following sections.
+description: Learn how the data is collaborated and shared between the Threat Intelligence Security Center \(TISC\) and Security Incident Response \(SIR\) Workspaces.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/security-incident-response/send-sir-to-tisc.html
 release: zurich
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [TISC integration within SIR Workspace, Working with Security Incident Records, Use, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
 # Send data from SIR Workspace to TISC
 
-Learn how the data is collaborated and shared between the Threat Intelligence Security Center \(TISC\) and Security Incident Response \(SIR\) Workspaces by following the procedures explained in the following sections.
+Learn how the data is collaborated and shared between the Threat Intelligence Security Center \(TISC\) and Security Incident Response \(SIR\) Workspaces.
 
 -   **[System properties to send data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/security-incident-response/tisc-integrations-system-properties.md)**  
 Review the system properties for TISC integrations to combine with SIRW. You can configure these properties to control how both applications manages the integrations.

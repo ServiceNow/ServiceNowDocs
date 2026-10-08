@@ -7,7 +7,7 @@ release: zurich
 product: Now Assist Skills
 classification: now-assist-skills
 topic_type: concept
-last_updated: "2026-08-03"
+last_updated: "2026-10-06"
 reading_time_minutes: 8
 keywords: [Skills, Generative AI, Gen AI]
 breadcrumb: [AI assets, Enable AI experiences]
@@ -273,14 +273,14 @@ Technology
 -   [Create a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/demand-creation-using-now-assist.md)
 -   [EAP doc summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/summarize-and-refine-docs-content-in-eap.md)
 -   [Identify similar records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/identify-similar-demand-records.md)
--   Multi feedback summarization
--   Planning item doc summarization
--   Project doc summarization
--   Project insights generation
--   Refine records
+-   [Multi feedback summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/feedback-summary-sentiment-topics-pf.md)
+-   [Planning item doc summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/summarize-docs-genai-skill-pf.md)
+-   [Project doc summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/summarize-docs-genai-skill-pw.md)
+-   [Project insights generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/email-project-summary-pw.md)
+-   [Refine records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/generate-summarize-and-refine-content-of-docs-with-now-assist-spm.md)
 -   [Story generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/generate-stories-from-epics-now-assist-eap.md)
 -   [Target generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/generate-targets-for-goal.md)
--   Write planning item
+-   [Write planning item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/generate-summarize-and-refine-content-of-docs-with-now-assist-spm.md)
 
 </td></tr><tr><td>
 
@@ -344,7 +344,7 @@ Customer
 
 </td><td>
 
-
+[Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/field-service-management/fsm-application-landing-page.md)
 
 </td><td>
 
@@ -383,7 +383,7 @@ Customer
 
 </td><td>
 
-
+[Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/government-industry/bun-public-sector-landing-page.md)
 
 </td><td>
 

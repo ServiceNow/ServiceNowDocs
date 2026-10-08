@@ -47,7 +47,7 @@ The version 7.1 release adds support for authenticating Rally tool connections w
 
 ### What's new
 
--   **Rally authentication with OAuth 2.0**
+-   **[Rally authentication with OAuth 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/setting-up-rally-oauth-2-0-credentials-for-devops.md)**
 
     Authenticate a Rally tool connection using OAuth 2.0 credentials to strengthen your tool security.
 

@@ -16,7 +16,7 @@ You can ask the Enterprise Architecture query agent natural language questions a
 
 ## Before you begin
 
-**Note:** Depending on your license, you have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 **Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
@@ -41,6 +41,9 @@ Example questions:
 -   List top-level capabilities
 -   List business applications not assigned to capabilities
 -   List applications that are candidates for retirement
+-   Which business capabilities are impacted if a specific database fails?
+-   Which entities are affected by a failure of a specific server or storage device?
+-   Which servers and databases support a business application?
 
 ## Procedure
 
@@ -65,6 +68,8 @@ Example questions:
     After returning a response, the agent may display related questions. Select a suggestion or type a follow-up question to continue exploring your enterprise architecture data.
 
     If the response references a specific record, such as a business application or a capability, the record name appears as linked text. Select the linked text to open that record directly in Enterprise Architecture Workspace.
+
+    If you ask about an infrastructure CI and more than one CI matches the name that you entered, the response lists the matching CIs with their class. Specify the CI that you want in your next message to continue.
 
 
 ## Result

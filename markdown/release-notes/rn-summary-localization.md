@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/rn-summary-localization.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 2
 breadcrumb: [Release notes summaries for Zurich features, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
 ---
@@ -34,6 +34,17 @@ AI agents and AI Agent Studio are built on the GPT-4o-based framework and suppor
 
 </td></tr><tr><td>
 
+AI Search
+
+</td><td>
+
+-   ****
+
+AI Search supports indexing and search in all languages offered by the ServiceNow AI Platform. Search features, such as stop words and synonyms, are available in many supported languages. For details of language support by feature, see [Internationalization support for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/international-language-support-ais.md).
+
+
+</td></tr><tr><td>
+
 AI Skill Kit
 
 </td><td>
@@ -47,6 +58,17 @@ Accounts Payable Operations
 </td><td>
 
 Accounts Payable Operations supports multiple languages. However, the current DocIntel model is trained to extract invoices in the English language only. If you want to process an invoice in the multiple languages supported by DocIntel, you must train the DocIntel model.
+
+</td></tr><tr><td>
+
+Autonomous Workforce
+
+</td><td>
+
+-   ****
+
+AI specialist supports multiple languages for user interaction. Because language detection and generation are based on an underlying large language model, not all languages have the same level of fluency. See [Multilingual support for AI specialists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/lang-support-aiw.md) for more information.
+
 
 </td></tr><tr><td>
 
@@ -90,6 +112,17 @@ The current available languages for Health Log Analytics are US English, UK Engl
 
 </td></tr><tr><td>
 
+L1 IT Service Desk AI Specialist
+
+</td><td>
+
+-   ****
+
+Multi-language support for the L1 IT Service Desk AI Specialist may vary.
+
+
+</td></tr><tr><td>
+
 Now Assist in AI Search
 
 </td><td>
@@ -113,7 +146,7 @@ Now Assist in Virtual Agent
 
 </td><td>
 
-[Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/dynamic-translation-overview.md) is supported for non-streaming Now Assist Virtual Agent conversations. For details, see [Configure multilingual service for Now Assist applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-dynamic-translation-for-now-assist-applications.md), , and .
+[Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/dynamic-translation-overview.md) is supported for non-streaming Now Assist Virtual Agent conversations. For details, see [Configure multilingual service for Now Assist applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/enable-dynamic-translation-for-now-assist-applications.md), [Using language detection and dynamic machine translation in Virtual Agent enhanced chat conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/dynamic-lang-detection-translation-enhanced-chat.md), and [Using language detection and dynamic machine translation in ServiceNow Otto NLU and LLM standard chat conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/dynamic-lang-detection-translation-standard-chat-nlu.md).
 
 </td></tr><tr><td>
 
@@ -129,7 +162,7 @@ RPA Hub
 
 </td><td>
 
-RPA Hub supports international languages. For more information, see Internationalization support for RPA Hub.
+RPA Hub supports international languages. For more information, see [Internationalization support for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/rpa-hub-international-language-support.md).
 
 </td></tr><tr><td>
 

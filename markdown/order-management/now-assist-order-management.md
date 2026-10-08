@@ -7,7 +7,7 @@ release: zurich
 topic_type: reference
 last_updated: "2025-11-06"
 reading_time_minutes: 3
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 ---
 
 # ServiceNow Otto for Order Management

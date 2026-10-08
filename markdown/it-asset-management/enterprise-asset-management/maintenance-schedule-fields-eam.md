@@ -156,7 +156,7 @@ Filter conditions that trigger the maintenance to run
 
 [Domain separation and Enterprise Asset Management]()
 
-[Enterprise Asset Management roles]()
+[Components installed with Enterprise Asset Management]()
 
 [OT Asset Workspace roles]()
 

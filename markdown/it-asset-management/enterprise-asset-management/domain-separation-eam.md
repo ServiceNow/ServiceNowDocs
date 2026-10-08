@@ -57,7 +57,7 @@ To learn more, see [Domain separation explained](https://raw.githubusercontent.c
 **Related topics**  
 
 
-[Enterprise Asset Management roles]()
+[Components installed with Enterprise Asset Management]()
 
 [OT Asset Workspace roles]()
 

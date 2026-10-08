@@ -25,7 +25,7 @@ Role required: admin, function\_field\_admin
 1.  Perform one of the following actions:
 
     -   On an upgraded instance that has not been fully migrated to Platform Analytics, navigate to **All** &gt; **Reports** &gt; **Create New**.
-    -   On a new instance or one that has been fully migrated to Platform Analytics, navigate to **All** &gt; **Platform Analytics Administration** &gt; **Usage and governance** &gt; **Reports** and select **New**.
+    -   On a new instance or one that has been fully migrated to Platform Analytics, navigate to **All** &gt; **Core UI artifacts** &gt; **Reports** and select **New**.
 2.  Select a report based on the table that you want to add a function field to.
 
     When you configure a function field, it is available in any report on the same table. For example, a function field that calculates how long incidents have been open is available for all reports on the incident table.

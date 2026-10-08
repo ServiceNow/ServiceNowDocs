@@ -16,7 +16,7 @@ breadcrumb: [Configure Cloud Cost Management for Google Cloud, Configure, Cloud 
 
 Set up access to Google Cloud Platform \(GCP\) billing and usage data by following the steps.
 
-1.  [Create a Google Cloud billing account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/create-gcp-service-account.md)
+1.  [Set up and configure billing data export in Google Cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/create-gcp-service-account.md)
 2.  [Create Google API credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/create-google-api-credentials.md)
 3.  [Enable cost allocation in Google Cloud for Kubernetes cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/enable-cost-allocation-kc-gcp.md)
 4.  [Schedule and manage the jobs that download Google Cloud billing data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/cloud-cost-management/gcp-bill-dwnld-job-cloudin.md)

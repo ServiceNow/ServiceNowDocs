@@ -7,7 +7,7 @@ release: zurich
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-09-16"
+last_updated: "2026-10-08"
 reading_time_minutes: 4
 breadcrumb: [Integrate Azure Monitor as an authenticated data source, Integrate with push connectors, Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -71,8 +71,6 @@ You can integrate Azure Monitor issues using Integration Launchpad. For more inf
         7.  Select **Test Connection** to validate the connection.
 
             If Azure bi-directional connector is enabled, when an Azure issue is closed in ServiceNow, it automatically closes in the Azure portal as well.
-
-            When an Azure issue is closed in ServiceNow, it automatically closes in the Azure portal as well.
 
 3.  In the ServiceNow AI Platform instance, configure a pull connector if you have used a push connector instance to send Azure issues by perform the following steps:
 

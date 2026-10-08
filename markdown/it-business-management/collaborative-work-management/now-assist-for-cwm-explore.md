@@ -17,9 +17,9 @@ breadcrumb: [Explore, Collaborative Work Management, Strategic Portfolio Managem
 
 Learn more about the generative AI capabilities of ServiceNow Otto for CWM. These capabilities can help you save time and improve efficiency for the actions your team performs within the CWM workspace.
 
-Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
 
-**Note:** Depending on your license, you have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 **Important:**
 

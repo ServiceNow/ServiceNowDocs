@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2026-06-30"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configuring trace connections, Configuring integrations, Configure, AI Control Tower, Enable AI experiences]
 ---
 
@@ -27,15 +27,15 @@ Role required: sn\_ai\_governance.ai\_steward
 
 3.  Deactivate the connection using one of the following methods.
 
-<table id="choicetable-deactivate"><thead><tr><th align="left" id="d36584e102">
+<table id="choicetable-deactivate"><thead><tr><th align="left" id="d37371e102">
 
 Method
 
-</th><th align="left" id="d36584e105">
+</th><th align="left" id="d37371e105">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d36584e111">
+</th></tr></thead><tbody><tr><td id="d37371e111">
 
 **Actions menu**
 
@@ -45,7 +45,7 @@ Steps
 2.  In the confirmation dialog, select **Deactivate**.
 
 
-</td></tr><tr><td id="d36584e139">
+</td></tr><tr><td id="d37371e139">
 
 **Edit form**
 

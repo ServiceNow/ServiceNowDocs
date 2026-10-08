@@ -16,7 +16,7 @@ breadcrumb: [Explore, Software Asset Management, IT Asset Management]
 
 The Software Asset Management Guided Experiences application provides step-by-step guidance for completing tasks in your daily software management activities.
 
-## Playbook overview
+## Entitlement Playbook overview
 
 A playbook takes a workflow and breaks it into multiple lanes. Each lane includes:
 
@@ -38,7 +38,7 @@ A playbook is divided into three parts:
 
 You can use the guided walk-through playbook for setting up entitlements. The guided walk-through playbook takes you step by step through each stage of the entitlement creation process, from initiation to completion.
 
-To access the Software Asset Management playbook, you must install it from the ServiceNow Store and then access the playbook from the landing page on the Software Asset Workspace.
+To access the Entitlement playbook, you must install it from the ServiceNow Store and then access the playbook from the landing page on the Software Asset Workspace.
 
 ## Using Guided Setup
 

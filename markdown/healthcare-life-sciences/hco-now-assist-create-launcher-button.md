@@ -20,7 +20,7 @@ Create a prominent action button that launches ServiceNow Otto chat or voice in 
 Role required: admin
 
 -   Verify that ServiceNow Otto is enabled on your instance. For more information, see [AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/platform-now-assist-landing.md).
--   Confirm that you have the appropriate permissions and licensing for AI voice capabilities, and that you have a ServiceNow Otto voice assistant created in Assistant Designer. For more information, see [Create an AI voice assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/create-an-ai-voice-service.md).
+-   Confirm that you have the appropriate permissions and licensing for AI voice capabilities, and that you have a ServiceNow Otto voice assistant created in Assistant Designer. For more information, see .
 
 ## Procedure
 

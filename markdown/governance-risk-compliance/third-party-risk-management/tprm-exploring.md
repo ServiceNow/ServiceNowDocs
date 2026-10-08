@@ -7,7 +7,7 @@ release: zurich
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 19
 breadcrumb: [Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -208,6 +208,7 @@ For more information on the terminology used in TPRM, see [Terminology](https://
 
 To learn more about configuring and using Third-party Risk Management, see:
 
+-   [ServiceNow Otto for Third-party Risk Management \(TPRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/exploring-now-assist-tprm.md)
 -   [Configuring Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-configuring.md)
 -   [Classic assessment configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-ongoing-config.md)
 -   [Smart assessment configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-sae-assessment-config.md)
@@ -225,5 +226,9 @@ To learn more about configuring and using Third-party Risk Management, see:
 **Related topics**  
 
 
+[Due diligence workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-workflow-in-workspace.md)
+
 [Smart assessments with Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-sae-using.md)
+
+[Exploring software bill of materials collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-sbom-exploring.md)
 

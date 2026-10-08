@@ -1,6 +1,6 @@
 ---
 title: Using bulk edit in the Security Exposure Management Workspace
-description: Bulk edit in the Security Exposure Management Workspace enables you to update the state, request exceptions and false positives, and assign multiple findings to an assignment group simultaneously.
+description: Bulk edit in the Security Exposure Management Workspace enables you to update the state, request exceptions and false positives, assign multiple findings to an assignment group simultaneously, and modify risk ratings.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/sem-using-bulk-edit.html
 release: zurich
@@ -12,7 +12,7 @@ breadcrumb: [Bulk edit in the Security Exposure Management Workspace, Use, Unifi
 
 # Using bulk edit in the Security Exposure Management Workspace
 
-Bulk edit in the Security Exposure Management Workspace enables you to update the state, request exceptions and false positives, and assign multiple findings to an assignment group simultaneously.
+Bulk edit in the Security Exposure Management Workspace enables you to update the state, request exceptions and false positives, assign multiple findings to an assignment group simultaneously, and modify risk ratings.
 
 The bulk edit feature is available for:
 
@@ -39,16 +39,18 @@ Assign multiple records findings concurrently to an assignment group using the b
 Remove yourself or your groups from the  **Assigned to ** and  **Assignment group ** fields on the findings if you determine that the records aren’t within your scope for remediation, or if you think that records have been incorrectly assigned to you or to your groups.
 -   **[Request bulk exception in the Security Exposure Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sem-bulk-edit-request-exception.md)**  
 Request an exception for multiple findings concurrently using the bulk edit feature instead of manually selecting each record.
--   **[Bulk edit risk reduction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/bulk-edit-risk-reduction.md)**  
-Use bulk edit risk reduction to request an adjusted risk rating and apply compensating controls across multiple vulnerable items that share a single vulnerability.
--   **[Bulk edit risk reduction restrictions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/bulk-edit-risk-restrictions.md)**  
-Risk reduction in the Bulk Edit dialog is restricted in specific scenarios based on the vulnerabilities mapped to the selected items and the vulnerability configuration.
--   **[Request risk reduction for findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/reduce-risk-bulk-edit.md)**  
-Create a risk reduction request for multiple vulnerable items at once by using the Bulk Edit dialog to specify a desired risk rating and compensating controls.
+-   **[Bulk edit risk modification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/bulk-edit-risk-reduction.md)**  
+Use bulk edit risk modification to request an adjusted risk rating, and optionally apply compensating controls, across multiple vulnerable items that share a single vulnerability.
+-   **[Bulk edit risk modification restrictions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/bulk-edit-risk-restrictions.md)**  
+Risk modification in the Bulk Edit dialog is restricted in specific scenarios based on the vulnerabilities mapped to the selected items and the vulnerability configuration.
+-   **[Request risk modification for findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/reduce-risk-bulk-edit.md)**  
+Create a risk modification request for multiple vulnerable items at once by using the Bulk Edit dialog to specify a desired risk rating and optional compensating controls.
 -   **[Bulk edit for false positive in the Security Exposure Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sem-bulk-edit-request-false-positive.md)**  
 Mark one or more records \(VITs, AVITs, CVITs, or TRs\) as false positive concurrently using the bulk edit feature from the Security Exposure Management Workspace instead of manually selecting each item.
 -   **[Close records in bulk in the Security Exposure Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sem-bulk-edit-close-records.md)**  
 Close multiple records \(VITs, AVITs, or CVITs\) concurrently using the bulk edit feature in the Security Exposure Management Workspace.
+-   **[Bulk edit form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sem-bulk-edit-request-exception-form.md)**  
+The following table shows the fields on the Bulk Edit modal in the Security Exposure Management Workspace. The fields that appear depend on the **State** or **Risk rating** value you select.
 
 **Parent Topic:**[Bulk edit in the Security Exposure Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sem-workspace-bulk-edit-overview.md)
 

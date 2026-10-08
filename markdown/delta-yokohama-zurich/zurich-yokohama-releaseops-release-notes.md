@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-releaseops-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
-reading_time_minutes: 3
+last_updated: "2026-10-08"
+reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
 
@@ -108,7 +108,7 @@ Create a deployment request for a scheduled release to contain your update set a
 Specify the details for your release, including the target instance that the changes deploy to and when the release should occur.
 
 
--   **[ReleaseOps guided setup](https://www.servicenow.com/docs/access?context=complete-guided-setup&family=zurich&ft:locale=en-US)**
+ -   **[ReleaseOps guided setup](https://www.servicenow.com/docs/access?context=complete-guided-setup&family=zurich&ft:locale=en-US)**
 
 Starting with version 1.2.1 of ReleaseOps, you can use guided setup to help simplify the initial configuration process.
 
@@ -227,7 +227,12 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Install ReleaseOps by requesting it from the ServiceNow Store. Visit the ServiceNow Store to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the ServiceNow Store version history release notes.
+
+
+**Important:** ReleaseOps is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -256,7 +261,10 @@ Zurich
 
 </td><td>
 
+-   **Additional requirements**
+
 ReleaseOps is not supported in regulated environments or on-premise. Check your entitlements to determine whether you have access to ReleaseOps.
+
 
 </td></tr></tbody>
 </table>## Browser requirements
@@ -377,7 +385,7 @@ Zurich
 -   Schedule releases or deploy changes on-demand.
 -   Automate the testing and validation process with ReleaseOps to ensure that the proper checks, tests, scans, and approvals are completed before releasing changes to production.
 
- See [Release Ops](https://www.servicenow.com/docs/access?context=releaseops-landing&family=zurich&ft:locale=en-US) for more information.
+ See [ReleaseOps](https://www.servicenow.com/docs/access?context=releaseops-landing&family=zurich&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/delta-yokohama-zurich/rn-combined-intro.md)

@@ -7,7 +7,7 @@ release: zurich
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-16"
 reading_time_minutes: 4
 breadcrumb: [OS-level virtualization discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
@@ -217,11 +217,12 @@ Status \[status\]
 </td></tr></tbody>
 </table>The **Collect Container Repository** extension section discovers this information.
 
-|Table and field|Description|
-|---------------|-----------|
-|Container Repository \[cmdb\_ci\_container\_repository\]|
+|Field|Description|
+|-----|-----------|
 |Name \[name\]|The name of the container repository.|
-|Container Repository Entry \[cmdb\_ci\_container\_repository\_entry\]|
+
+|Field|Description|
+|-----|-----------|
 |Name \[name\]|The name of the container repository entry.|
 |Category \[category\]|The category of the container repository entry.|
 
@@ -341,7 +342,7 @@ Discovery uses an application rule identifier to find the Docker engine and then
 
 -   **Application rule identifier**
 
-    The system creates the cmdb\_ci\_docker\_engine configuration item \(CI\) during process classification. Based on this, Discovery uses the Application Rule identifier on the Application \[cmdb\_ci\_appl\] table to identify the particular Docker engine encountered. After establishing this identity, Discovery uses the relationships defined in the containment and hosting rules to accurately create and update the individual Docker component CIs related to that engine.
+    The system creates the cmdb\_ci\_docker\_engine configuration item \(CI\) during process classification. Based on this, Discovery uses the Application Rule identifier on the Application \[cmdb\_ci\_appl\] table to identify the particular Docker engine encountered. After establishing this identity, Discovery applies the relationships defined in the containment and hosting rules. It then creates and updates the individual Docker component CIs related to that engine.
 
 -   **Identifiers**
 

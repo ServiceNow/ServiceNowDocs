@@ -8,7 +8,7 @@ product: Integration Hub
 classification: integration-hub
 topic_type: concept
 last_updated: "2026-01-07"
-reading_time_minutes: 34
+reading_time_minutes: 35
 breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Workday HR spoke v3.0.2 is the latest version.
+Workday HR spoke v3.1.1 is the latest version.
 
 ## Supported versions
 
@@ -3385,7 +3385,7 @@ Update Object Custom Fields
 
 Updates fields in the specified custom object.
 
-</td></tr><tr><td>
+</td></tr><tr><td rowspan="2">
 
 Payroll Management
 
@@ -3396,6 +3396,14 @@ Look up Payslip
 </td><td>
 
 Retrieves payslip details of the specified employee.**Important:** Before executing this action, you must set up a report. When you execute the action, it calls the report and the data is sent from Workday HR to your ServiceNow instance. To set up the report, see [Workday configuration for payslip report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/wdhr-pk-payslip.md).
+
+</td></tr><tr><td>
+
+Look up Payslips Stream
+
+</td><td>
+
+Retrieves payslip details for an employee from Workday, including the payslip ID, descriptor, gross and net pay, payment date, and status.
 
 </td></tr><tr><td>
 
@@ -3480,7 +3488,7 @@ Look up Skills
 
 Retrieves skills from Workday.**Important:** You must create report in Workday instance to use this action. For more information, see [Create report to extract skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/wd-hr-lookup-skills.md) and [Workday configuration for skill details report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/integrate-applications/integration-hub/wdhr-pk-skill-details-report.md).
 
-</td></tr><tr><td rowspan="8">
+</td></tr><tr><td rowspan="9">
 
 Resource Management
 
@@ -3547,6 +3555,14 @@ Look Up Termination Details Action
 </td><td>
 
 Retrieves termination details for a specified employee from Workday.
+
+</td></tr><tr><td>
+
+Look up Authenticated User and Reportees Information
+
+</td><td>
+
+Retrieves the authenticated worker's details and, if available, their direct reportees from Workday, including employee ID, worker ID, and worker name.
 
 </td></tr><tr><td rowspan="6">
 

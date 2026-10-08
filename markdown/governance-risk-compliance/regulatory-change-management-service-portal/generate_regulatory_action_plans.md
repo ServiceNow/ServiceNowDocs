@@ -53,15 +53,15 @@ When you modify an agentic workflow, AI agent, or tool, make sure that you updat
 
 4.  Review the proposed action plan and choose whether to accept or dismiss it.
 
-<table id="choicetable_action_plan_options"><thead><tr><th align="left" id="d90686e237">
+<table id="choicetable_action_plan_options"><thead><tr><th align="left" id="d93456e237">
 
 Option
 
-</th><th align="left" id="d90686e240">
+</th><th align="left" id="d93456e240">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d90686e246">
+</th></tr></thead><tbody><tr><td id="d93456e246">
 
 **Accept action plan**
 
@@ -79,7 +79,7 @@ After initiating the generate regulatory action plan agentic workflow, it create
 -   The "other" type is used to capture non-standard or cross-functional activities that don’t directly map to impacted areas such as citations, control objectives, controls, or policies. These tasks are typically broader in scope and can apply to the entire regulatory alert rather than specific impacted elements.
 
 
-</td></tr><tr><td id="d90686e296">
+</td></tr><tr><td id="d93456e296">
 
 **Dismiss action plan**
 

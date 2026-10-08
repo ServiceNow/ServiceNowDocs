@@ -47,7 +47,7 @@ The ServiceNow® Authentication application supports many authentication mechani
     Use the Provider name field to enter the details of your inbound integrations to distinguish between different inbound integrations on your ServiceNow AI Platform®. Update the Provider name in your API integrations to improve monitoring capabilities:
 
     -   For OAuth integrations, update the provider name using the Provider name field. To know more, see [OAuth inbound](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/oauth-inbound.md).
-    -   For Basic authentication integrations, update the Provider name in the integration registration form. To know more about the integration registration form, see .
+    -   For Basic authentication integrations, update the Provider name in the integration registration form. To know more about the integration registration form, see [View Inbound API Integration Usage dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/view-inbound-api-integration-usage-dashboard.md).
 
 [Zurich Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/zurich-patch-1.md)
 

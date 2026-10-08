@@ -8,7 +8,7 @@ product: Service Mapping
 classification: service-mapping
 topic_type: concept
 last_updated: "2026-04-09"
-reading_time_minutes: 4
+reading_time_minutes: 5
 keywords: [Now Assist, Otto, Service Mapping, AI]
 breadcrumb: [Using Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
@@ -19,7 +19,7 @@ AI-powered features in Service Mapping help administrators automate service map 
 
 Service Mapping includes several AI-powered features. All features require ServiceNow Otto for IT Operations Management \(ITOM\) to be installed.
 
-**Note:** Depending on your license, you have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 ## MCP servers
 
@@ -95,8 +95,8 @@ A Service Mapping administrator wants to process a large volume of ML-powered ca
 
 </td><td>
 
--   [AI Agents for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/service-mapping-ai-specialists.md)
--   [Activate AI Agents for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/activate-sm-ai-specialists.md)
+-   [AI Agents for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/service-mapping-ai-agents.md)
+-   [Activate AI Agents for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/activate-sm-ai-agents.md)
 
 </td></tr><tr><td>
 
@@ -104,7 +104,7 @@ Business App Mapping AI Agent
 
 </td><td>
 
-Automatically creates CSDM "Uses::Used by" relationships between Business Applications and discovered Application Services using AI semantic search.
+Automatically creates CSDM "Consumes::Consumed by" relationships between Business Applications and discovered Application Services by invoking the Business App Identification skill. High-confidence matches are connected automatically. Medium-confidence matches are saved to a staging table for administrator review.**Note:** The Business App Mapping AI Agent is available through the Feature Preview Program. For more information, see [Feature Preview Program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/feature-preview-program.md).
 
 </td><td>
 
@@ -112,8 +112,8 @@ A Service Mapping administrator wants to connect discovered application services
 
 </td><td>
 
--   [AI Agents for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/service-mapping-ai-specialists.md)
--   [Activate AI Agents for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/activate-sm-ai-specialists.md)
+-   [AI Agents for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/service-mapping-ai-agents.md)
+-   [Activate AI Agents for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/activate-sm-ai-agents.md)
 
 </td></tr><tr><td>
 
@@ -135,7 +135,7 @@ An operator or change manager wants to assess the risk of a change request befor
 -   [Activate the Service Mapping Candidates Impact skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/now-assist-for-it-operations-management/activate-sm-candidates-impact-skill.md)
 
 </td></tr></tbody>
-</table>-   **[AI Agents for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/service-mapping-ai-specialists.md)**  
+</table>-   **[AI Agents for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/service-mapping-ai-agents.md)**  
 The Service Mapping AI agents automate the creation and maintenance of service maps in the Configuration Management Database \(CMDB\), reducing manual effort for Service Mapping administrators.
 -   **[Service Mapping MCP tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/service-mapping-mcp-server.md)**  
 The Service Mapping tools expose live application service data and enable AI clients to query service topology, identify mapping gaps, and create application services in natural language.

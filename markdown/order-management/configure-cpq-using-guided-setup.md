@@ -20,6 +20,15 @@ Role required: admin
 
 Complete the prerequisites for the ServiceNow CPQ Integration. For more information, see [Prerequisites for configuring CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/guided-setup-prereq.md).
 
+## About this task
+
+Configure the ServiceNow CPQ Configurator in a logical sequence and track your progress from a single. This guided setup assists you with the basic configuration that is required to start using the Configurator.
+
+**Note:**
+
+-   You can move to the next module or an activity within a module only after completing the previous step.
+-   When you edit a completed module or activity, all subsequent activities and modules are marked as incomplete even if previously finished. Their configuration now depends on the updated settings. You're required to complete the subsequent modules or activities again.
+
 ## Procedure
 
 1.  Navigate to the guided setup using either of the following ways.

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-disputerulescontentpackformastercard-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
-reading_time_minutes: 6
+last_updated: "2026-10-08"
+reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
 
@@ -75,14 +75,6 @@ Zurich
 
 </td><td>
 
--   **[Decision tables for Mastercard dispute processing](https://www.servicenow.com/docs/access?context=dispute-decision-tables&family=zurich&ft:locale=en-US)**
-
-Streamline dispute processing by validating Mastercard transaction details and questionnaire answers against the eligibility rules in this application's decision tables.
-
--   **[New data fields for Mastercard chargeback eligibility rules](https://www.servicenow.com/docs/access?context=dispute-rules-content-pack-for-mastercard-landing-page&family=zurich&ft:locale=en-US)**
-
-New data fields sourced from the Mastercard authorization API and Mastercard clearing API have been added to support the expanded eligibility rules. Fields sourced from the Mastercard authorization API are available on the Financial Transaction Authorization table. Fields sourced from the Mastercard clearing API are available on the Financial Transaction table.
-
 -   **[July Store Release: New data field for Mastercard chargeback ineligibility rule assessment](https://www.servicenow.com/docs/access?context=dispute-rules-content-pack-for-mastercard-landing-page&family=zurich&ft:locale=en-US)**
 
 A new Mastercard data field `programRegistrationId` has been added to the Financial Transaction table to support chargeback ineligibility rule evaluation for RC 4853 Cardholder Disputes sub-categories. The field is sourced from the Mastercard clearing API.
@@ -102,6 +94,16 @@ The following new Mastercard dispute sub-categories are available:
 
     -   Installment Billing Dispute-Participating Countries \(RC 4850\)
     -   Cardholder Dispute-Not Elsewhere Classified-United States Domestic \(RC 4854\)
+
+ -   **[New data fields for Mastercard chargeback eligibility rules](https://www.servicenow.com/docs/access?context=dispute-rules-content-pack-for-mastercard-landing-page&family=zurich&ft:locale=en-US)**
+
+New data fields sourced from the Mastercard authorization API and Mastercard clearing API have been added to support the expanded eligibility rules. Fields sourced from the Mastercard authorization API are available on the Financial Transaction Authorization table. Fields sourced from the Mastercard clearing API are available on the Financial Transaction table.
+
+
+ -   **[Decision tables for Mastercard dispute processing](https://www.servicenow.com/docs/access?context=dispute-decision-tables&family=zurich&ft:locale=en-US)**
+
+Streamline dispute processing by validating Mastercard transaction details and questionnaire answers against the eligibility rules in this application's decision tables.
+
 
 </td></tr></tbody>
 </table>## Changes
@@ -130,27 +132,6 @@ Zurich
 
 </td><td>
 
--   **[Dispute Rules Content Pack for Mastercard chargeback eligibility rules updates](https://www.servicenow.com/docs/access?context=dispute-rules-content-pack-for-mastercard-landing-page&family=zurich&ft:locale=en-US)**
-
-Transformed chargeback eligibility rules into technical formulas to determine the eligibility or ineligibility of a selected transaction for chargeback.
-
-New ineligibility conditions have been added across all five existing RC 4808 Authorization sub-categories:
-
-    -   Required Authorization Not Obtained \(RANO\)
-    -   Expired Chargeback Protection Period \(ECPP\)
-    -   Stand-in or X-Code Approval after Issuer Decline \(SIXCAID\)
-    -   CAT 3 Devices \(CAT3D\)
-    -   Transit First Ride Risk Framework Claims \(TFRR\)
-Expanded eligibility rules for the following fraud dispute reason codes:
-
-    -   RC 4837 \(No Cardholder Authorization\)
-    -   RC 4849 \(Questionable Merchant Activity\)
-    -   RC 4870 \(Chip Liability Shift\)
-    -   RC 4871 \(Chip Liability Shift – Lost/Stolen/NRI Fraud\)
--   **[Dispute Rules Content Pack for Mastercard intake questionnaire updates](https://www.servicenow.com/docs/access?context=dispute-rules-content-pack-for-mastercard-landing-page&family=zurich&ft:locale=en-US)**
-
-Updated the dispute questionnaire provided through Dispute Rules Content Pack for Mastercard by adding new questions and updating existing questions.
-
 -   **[July Store Release: Build and update Mastercard chargeback ineligibility rules — Processing Errors](https://www.servicenow.com/docs/access?context=dispute-rules-content-pack-for-mastercard-landing-page&family=zurich&ft:locale=en-US)**
 
 Ineligibility rule conditions have been updated across the RC 4834 Processing Errors sub-categories to align with the latest Mastercard Chargeback Guide. Updated sub-categories include Transaction Amount Differs, Currency Errors, Cardholder Debited More than Once for the Same Goods or Services, ATM Funds Not Dispensed, Charges for Loss, Theft, or Damages, Merchant Refund Correcting Error Resulted in Cardholder Currency Exchange Loss, Improper Merchant Surcharge, Unreasonable Amount, and Cash was not properly provided from a Purchase with Cash Back transaction.
@@ -176,6 +157,33 @@ Ineligibility rule conditions have been added or updated across the following RC
     -   Transaction Did Not Complete
     -   Travel/Entertainment Services Not Provided/Not as Described and Merchant Voucher Issued
 New ineligibility rule conditions have also been added for the Cardholder Dispute-Not Elsewhere Classified-United States Domestic \(RC 4854\) sub-category.
+
+
+ -   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+
+ -   **[Dispute Rules Content Pack for Mastercard chargeback eligibility rules updates](https://www.servicenow.com/docs/access?context=dispute-rules-content-pack-for-mastercard-landing-page&family=zurich&ft:locale=en-US)**
+
+Transformed chargeback eligibility rules into technical formulas to determine the eligibility or ineligibility of a selected transaction for chargeback.
+
+New ineligibility conditions have been added across all five existing RC 4808 Authorization sub-categories:
+
+    -   Required Authorization Not Obtained \(RANO\)
+    -   Expired Chargeback Protection Period \(ECPP\)
+    -   Stand-in or X-Code Approval after Issuer Decline \(SIXCAID\)
+    -   CAT 3 Devices \(CAT3D\)
+    -   Transit First Ride Risk Framework Claims \(TFRR\)
+Expanded eligibility rules for the following fraud dispute reason codes:
+
+    -   RC 4837 \(No Cardholder Authorization\)
+    -   RC 4849 \(Questionable Merchant Activity\)
+    -   RC 4870 \(Chip Liability Shift\)
+    -   RC 4871 \(Chip Liability Shift – Lost/Stolen/NRI Fraud\)
+-   **[Dispute Rules Content Pack for Mastercard intake questionnaire updates](https://www.servicenow.com/docs/access?context=dispute-rules-content-pack-for-mastercard-landing-page&family=zurich&ft:locale=en-US)**
+
+Updated the dispute questionnaire provided through Dispute Rules Content Pack for Mastercard by adding new questions and updating existing questions.
 
 
 </td></tr></tbody>
@@ -205,7 +213,7 @@ Zurich
 
 </td><td>
 
-For July store release, the sub-category RC 4834 — Late Presentment has been removed.
+No updates for this release.
 
 </td></tr></tbody>
 </table>## Deprecations
@@ -234,7 +242,7 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+For July store release, the sub-category RC 4834 — Late Presentment has been removed.
 
 </td></tr></tbody>
 </table>## Activation information
@@ -263,7 +271,12 @@ Zurich
 
 </td><td>
 
-Install Dispute Rules Content Pack for Mastercard by requesting it from ServiceNow Store. 
+-   **Activation information**
+
+Install Dispute Rules Content Pack for Mastercard by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
+
+**Important:** Dispute Rules Content Pack for Mastercard is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -292,7 +305,10 @@ Zurich
 
 </td><td>
 
+-   **Additional requirements**
+
 This application requires Financial Services Card Operations \(sn\_bom\_credit\_card\) to be installed.
+
 
 </td></tr></tbody>
 </table>## Browser requirements
@@ -350,7 +366,11 @@ Zurich
 
 </td><td>
 
--   ****
+-   **Accessibility information**
+    -   **Dark theme**
+
+The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
 
 </td></tr></tbody>
 </table>## Localization information

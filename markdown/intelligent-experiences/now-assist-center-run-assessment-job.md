@@ -81,3 +81,5 @@ Review the readiness assessments that the Now Assist Readiness Evaluation has id
 
 [View your AI readiness assessment in AI Admin Center]()
 
+[Plan an instance upgrade \(Lux UI\)]()
+

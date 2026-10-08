@@ -7,7 +7,7 @@ release: zurich
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Classic assessments, Configure, Third-party Risk Management, Governance, Risk, and Compliance]
 ---

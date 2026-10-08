@@ -49,7 +49,8 @@ EAP user \[sn\_apw\_advanced.eap\_user\]
 </td><td>
 
 -   Can create, update, and delete work items
--   Can create iterations such as Planning Intervals and Sprints when a timeline already exists for the team, but can't change iteration dates
+-   Can create iterations such as Planning Intervals and Sprints when a timeline already exists for the team, and can set the start date and the end date while creating one
+-   Can change the start date and the end date of an iteration that doesn't follow a planning calendar entry
 -   Can access the team's Backlog and Planning Board
 
 </td><td>

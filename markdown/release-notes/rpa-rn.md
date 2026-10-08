@@ -33,7 +33,7 @@ The ServiceNow® RPA Hub application enables end-to-end automation for your orga
 -   Use a Smart Card authentication for enhanced security.
 -   Enhanced access controls for RPA bot generation skill.
 
-See  for more information.
+See [Robotic Process Automation \(RPA\) Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/rpa-main-landing-page.md) for more information.
 
 ## Activation and other requirements
 
@@ -51,7 +51,7 @@ See  for more information.
     -   Attended Robot
     -   Unattended Robot
     -   Unattended Robot Login Agent
-    For more information, see Download the RPA applications from RPA Hub.
+    For more information, see [Download the RPA applications from RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/download-installer-rpa.md).
 
     The following upgrade information is applicable only when you’re upgrading from San Diego or Tokyo to Zurich.
 
@@ -136,7 +136,7 @@ See  for more information.
 
 -   **Localization information**
 
-    RPA Hub supports international languages. For more information, see Internationalization support for RPA Hub.
+    RPA Hub supports international languages. For more information, see [Internationalization support for RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/rpa-hub-international-language-support.md).
 
 
 **Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/build-automate-rn-landing.md)
@@ -147,7 +147,7 @@ The ServiceNow® RPA Hub application enables end-to-end automation for your orga
 
 ### What's new
 
--   **Try catch component enhancement**
+-   **[Try catch component enhancement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/use-general-try-catch.md)**
 
     You can now precisely control the scope of Try-Catch blocks by selecting which actions \(components\) to include within exception handling and which to manage outside it. This enhancement provides better control over error handling logic and improves workflow reliability.
 
@@ -158,7 +158,7 @@ The ServiceNow® RPA Hub application enables end-to-end automation for your orga
 
 ### What's new
 
--   **Role changed for creating, updating, and deleting the Robot License Distribution records**
+-   **[Role changed for creating, updating, and deleting the Robot License Distribution records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/create-lua-record.md)**
 
     Role for Create, Update, and Delete ACLs in the Robot License Distribution table is changed from admin to sn\_rpa\_fdn.rpa\_admin.
 
@@ -173,7 +173,7 @@ The ServiceNow® RPA Hub application enables end-to-end automation for your orga
 
 ### What's new
 
--   **Enhanced ACLs for security measures**
+-   **[Enhanced ACLs for security measures](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/installed-with-rpa-hub.md)**
 
     Enhanced access controls for RPA bot generation skill for Now Assist for RPA Hub in compliance with AI security directives.
 
@@ -183,7 +183,7 @@ The ServiceNow® RPA Hub application enables end-to-end automation for your orga
 
     Google Gemini and AWS Claude are available for RPA bot generation skill in addition to Now LLM Service and Azure OpenAI.
 
--   ****
+-   **[Python connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/python-connector-rpa.md)**
 
     Execute custom Python scripts or files as part of an automation workflow in the RPA Desktop Design Studio.
 
@@ -193,7 +193,7 @@ The ServiceNow® RPA Hub application enables end-to-end automation for your orga
     -   InvokeScript: Runs Python script on local computers and gets the output.
     Ensure to install the Scripting plugin from the Plugins Manager as a prerequisite. Along with Python, VB.NET, C\#, and Javascript connectors are available with this plugin.
 
--   **Smart Card authentication**
+-   **[Smart Card authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/smart-card-il.md)**
 
     Use a physical smart card instead of a username and password for logging into a Windows machine.
 

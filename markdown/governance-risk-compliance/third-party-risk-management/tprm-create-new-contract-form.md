@@ -7,7 +7,7 @@ release: zurich
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a contract and enhance digital resilience data, Use digital resilience third-party registers, Third-party Risk Management, Governance, Risk, and Compliance]
 ---

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-aiopsleap-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
-reading_time_minutes: 4
+last_updated: "2026-10-08"
+reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
 
@@ -67,7 +67,12 @@ Yokohama
 
 </td><td>
 
--   **[Incident clustering and comprehensive summaries](https://www.servicenow.com/docs/access?context=aiops-leap-features&family=yokohama&ft:locale=en-US)**
+-   **[Enhanced opportunities page](https://www.servicenow.com/docs/access?context=aiops-leap-features&family=yokohama&ft:locale=en-US)**
+
+Enhancements &amp; Design changes to load all opportunities and enable to select all cards.
+
+
+ -   **[Incident clustering and comprehensive summaries](https://www.servicenow.com/docs/access?context=aiops-leap-features&family=yokohama&ft:locale=en-US)**
 
 AIOps LEAP smartly categorizes IT incidents based on short descriptions and assignment groups. It uses historical data to get a deeper understanding of issues and summarizes them into actionable resolutions. AIOps LEAP consolidates information from different incidents to help with decision making and serves as a repository of knowledge.
 
@@ -110,7 +115,18 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+-   **[Pin automation opportunities](https://www.servicenow.com/docs/access?context=aiops-leap-features&family=yokohama&ft:locale=en-US)**
+
+You can pin the automation opportunities required for ease of access and research.
+
+-   **[Automation feedback and tracking](https://www.servicenow.com/docs/access?context=aiops-leap-features&family=yokohama&ft:locale=en-US)**
+
+You can provide your feedback on the available resolution steps and playbooks. Each activity on the automation activity is tracked and recorded.
+
+-   **[Filters for automation opportunities and playbooks](https://www.servicenow.com/docs/access?context=aiops-leap-features&family=yokohama&ft:locale=en-US)**
+
+You can customize filters on the automation opportunity dashboard to filter them according your requirement for analysis. These filters are retained even when the page is refreshed.
+
 
 </td></tr><tr><td>
 
@@ -118,7 +134,10 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
 
 </td></tr></tbody>
 </table>## Removed
@@ -197,9 +216,11 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Install AIOps LEAP by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
- Use one of the following steps to activate **AIOps LEAP**.
+Use one of the following steps to activate **AIOps LEAP**.
 
 <table><thead><tr><th>
 
@@ -218,6 +239,7 @@ Workspaces
 1.  Select **Workspaces** on top, select **AIOps LEAP**.
 2.  Select **Now Assist Admin Workspace**, select **Activate**.
 
+
 </td></tr><tr><td>
 
 Now Assist Admin
@@ -228,8 +250,10 @@ Now Assist Admin
 2.  In the navigation pane, select **ITOM**.
 3.  Select **Activate AIOps LEAP**.
 
+
 </td></tr></tbody>
 </table>
+**Important:** AIOps LEAP is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 
@@ -237,7 +261,12 @@ Zurich
 
 </td><td>
 
-Install AIOps LEAP by requesting ServiceNow Otto for ITOM from the ServiceNow Store. 
+-   **Activation information**
+
+Install AIOps LEAP by requesting ServiceNow Otto for ITOM from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
+
+**Important:** AIOps LEAP is available under ServiceNow Otto for IT Operations Management \(ITOM\) in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -258,10 +287,12 @@ Yokohama
 
 </td><td>
 
+-   **Additional requirements**
+
 You should have the following dependencies installed:
 
--   Now Assist for Platform
--   Now Assist for Creator \(optional\)
+    -   Now Assist for Platform
+    -   Now Assist for Creator \(optional\)
 
 </td></tr><tr><td>
 
@@ -269,7 +300,10 @@ Zurich
 
 </td><td>
 
+-   **Additional requirements**
+
 You should have ServiceNow Otto for Creator installed to generate playbooks.
+
 
 </td></tr></tbody>
 </table>## Browser requirements
@@ -327,7 +361,11 @@ Zurich
 
 </td><td>
 
--   ****
+-   **Accessibility information**
+    -   **Dark theme**
+
+The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
 
 </td></tr></tbody>
 </table>## Localization information

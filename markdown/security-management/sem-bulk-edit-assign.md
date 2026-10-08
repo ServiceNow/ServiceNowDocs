@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/sem-
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Using bulk edit in the Security Exposure Management Workspace, Bulk edit in the Security Exposure Management Workspace, Use, Unified Security Exposure Management, Security Operations]
 ---
 
@@ -39,62 +39,21 @@ Role required:
     -   Apply filters if you want to use the **All records that match filter** option in the [Record selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/vulnerability-manager-workspace/vmws-bulk-edit-assign.md) field.
 4.  Select the **Bulk Edit** button.
 
-5.  On the form, fill in the fields to assign the records to an assignment group.
+5.  On the form, select the **Assignment group** to which you want to reassign the records.
 
-<table id="table_t4d_4bd_5s"><thead><tr><th>
+    For a description of the other field values, see [Bulk edit form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sem-bulk-edit-request-exception-form.md).
 
-Field
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td id="record-slection-field-assign">
-
-Record Selection
-
-</td><td>
-
-Records to update. Choices are:-   Only Selected Items: Select this option if you want to update the records you selected using the check box.
--   All records that match filter: Select this option if you want to update the filtered records.
--   Remediation Task: Select this option if you want to update the records in a remediation task and then select the desired remediation task in the **Remediation task** field.
--   Vulnerability Entry: Select this option if you want to update the records specific to a vulnerability and then select a CVE or TPE in the **Vulnerability Entry** field.
-
-**Note:** This field appears for host vulnerable items, application vulnerable items, and container vulnerable items.
-
--   Configuration test: Select this option if you want to update the test results specific to a test and then select a test in the **Configuration test** field.
-
-**Note:** This option appears for Configuration test results only.
-
-**Note:**
-
--   Records with invalid CI or CI decommissioned aren’t updated.
--   Only the records in the Open, Under Investigation, Awaiting Implementation or Deferred state are updated.
-
-
-</td></tr><tr><td>
-
-Assignment group
-
-</td><td>
-
-Assignment group for the records. All the active assignment groups appear in this field.**Note:** This field is deactivated when you select the Unassign check box for VITs.
-
-</td></tr><tr><td>
-
-Work notes
-
-</td><td>
-
-Text that you enter to describe the changes.
-
-</td></tr></tbody>
-</table>6.  Click  **Edit**.
+6.  Select  **Edit**.
 
 
 ## Result
 
-Open a record for which you updated the assignment group and navigate to the Overview tab, the user group to which the record is assigned appears in the **Assignment group** field.
+Open a record for which you updated the assignment group and navigate to the **Overview** tab. The user group to which the record is assigned appears in the **Assignment group** field.
 
 **Parent Topic:**[Using bulk edit in the Security Exposure Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sem-using-bulk-edit.md)
+
+**Related topics**  
+
+
+[Bulk edit form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sem-bulk-edit-request-exception-form.md)
 

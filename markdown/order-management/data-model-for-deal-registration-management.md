@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/order-management/data-model-for-deal-registration-management.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-16"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [Deal Registration, Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---

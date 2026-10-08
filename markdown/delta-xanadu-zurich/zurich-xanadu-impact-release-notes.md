@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-impact-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
-reading_time_minutes: 22
+last_updated: "2026-10-08"
+reading_time_minutes: 23
 breadcrumb: [Products combined by family]
 ---
 
@@ -46,7 +46,10 @@ Yokohama
 
 </td><td>
 
+-   **Upgrade information**
+
 The Impact Store Application configuration requires a sequence of tasks. See [Configuring the Impact Store Application](https://www.servicenow.com/docs/access?context=configuring-impact-platform&family=yokohama&ft:locale=en-US) for details.
+
 
 </td></tr><tr><td>
 
@@ -54,7 +57,10 @@ Zurich
 
 </td><td>
 
+-   **Upgrade information**
+
 The Impact Store Application configuration requires a sequence of tasks in a unified registration process. See [Configure the Impact Store Application](https://www.servicenow.com/docs/access?context=configuring-impact-platform&family=zurich&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## New features
@@ -147,7 +153,8 @@ Yokohama
     -   [Connect to the provider instance](https://www.servicenow.com/docs/access?context=connect-instance-impact-store-app&family=yokohama&ft:locale=en-US): The administrator or a named contact log in to your instance to facilitate the connection of data with the Impact Store Application.
     -   [Product Adoption](https://www.servicenow.com/docs/access?context=product-adoption&family=yokohama&ft:locale=en-US): Start an initiative from an individual capability to log and track your activities toward the implementation. The reference of the created initiative is available in the capability details and initiatives roadmap. The reference of the created initiative is available in the capability details and initiatives roadmap.
     -   [Healthscan definitions updates: May 2025 store](https://www.servicenow.com/docs/access?context=healthscan-definitions-may-store&family=yokohama&ft:locale=en-US): Some HealthScan definitions have been updated or deprecated for the May store release.
--   **[Accelerator catalog](https://www.servicenow.com/docs/access?context=accelerator-catalog&family=yokohama&ft:locale=en-US)**
+
+ -   **[Accelerator catalog](https://www.servicenow.com/docs/access?context=accelerator-catalog&family=yokohama&ft:locale=en-US)**
     -   [Jumpstart Your Employee Journey Management](https://www.servicenow.com/docs/access?context=jumpstart-employee-journey-management&family=yokohama&ft:locale=en-US): Provides a demonstration of the possibilities and capabilities of Employee Journey Management.
     -   [Jumpstart Your Knowledge Management](https://www.servicenow.com/docs/access?context=jumpstart-knowledge-management&family=yokohama&ft:locale=en-US): Provides a demonstration of the possibilities and capabilities of Knowledge Management.
     -   [Jumpstart Your Legacy Workflow Migration](https://www.servicenow.com/docs/access?context=jumpstart-legacy-workflow-migration&family=yokohama&ft:locale=en-US): Provides a demonstration of the possibilities and capabilities of Legacy Workflow Migration.
@@ -192,7 +199,20 @@ Assess the performance status of your ServiceNow instances using the ML-based in
 
 Monitor response times using operational metrics.
 
--   **[Generative AI-powered Root cause analysis](https://www.servicenow.com/docs/access?context=generative-ai-root-cause-anal&family=zurich&ft:locale=en-US)**
+-   **[Outcomes based contextual learning recommendations](https://www.servicenow.com/docs/access?context=contextual-learning-recommendations&family=zurich&ft:locale=en-US)**
+    -   View the recommendations for the most relevant personalized course recommendations based on your performance context to help you strengthen specific skills.
+    -   View the recommendation for every capability. Multiple courses are available for some recommendations.
+
+ -   **[Triage a ServiceNow instance based on nodes](https://www.servicenow.com/docs/access?context=io-triage-sn-instance&family=zurich&ft:locale=en-US)**
+
+Triage your ServiceNow instances based on production nodes that are categorized as All, Generic, Worker, and UI nodes. This categorization removes unhelpful irrelevant standby nodes and helps triage useful production nodes.
+
+-   **[Custom Performance report](https://www.servicenow.com/docs/access?context=instance-observer-reporting&family=zurich&ft:locale=en-US)**
+
+Generate a custom report selecting a maximum of 20 metrics and a minimum of one metric from a wide range of 90 metrics available across the Instance Observer application. This report is almost the same as Performance Trend report, however it offers you the flexibility to choose more metrics from the performance categories in the Performance page and build a dynamic report, and also to customize how charts are displayed in the report.
+
+
+ -   **[Generative AI-powered Root cause analysis](https://www.servicenow.com/docs/access?context=generative-ai-root-cause-anal&family=zurich&ft:locale=en-US)**
 
 Generate a structured root cause summary using a large language model \(LLM\) anomaly detection system that can automate the process and analyze system logs, performance metrics, and alerts. This root cause summary simplifies the analysis process and helps to diagnose the problem before the issue occurs.
 
@@ -207,14 +227,6 @@ The top six alert cards evaluated to be most important based on alerts that user
 -   **[Use popular alerts to receive notifications](https://www.servicenow.com/docs/access?context=io-alerts-popular-total-adv-cust&family=zurich&ft:locale=en-US)**
 
 View the most popular alerts displayed on the first page of the Configure Alerts page. You can also set up alerts and view notifications.
-
--   **[Triage a ServiceNow instance based on nodes](https://www.servicenow.com/docs/access?context=io-triage-sn-instance&family=zurich&ft:locale=en-US)**
-
-Triage your ServiceNow instances based on production nodes that are categorized as All, Generic, Worker, and UI nodes. This categorization removes unhelpful irrelevant standby nodes and helps triage useful production nodes.
-
--   **[Custom Performance report](https://www.servicenow.com/docs/access?context=instance-observer-reporting&family=zurich&ft:locale=en-US)**
-
-Generate a custom report selecting a maximum of 20 metrics and a minimum of one metric from a wide range of 90 metrics available across the Instance Observer application. This report is almost the same as Performance Trend report, however it offers you the flexibility to choose more metrics from the performance categories in the Performance page and build a dynamic report, and also to customize how charts are displayed in the report.
 
 -   **[Accelerator request](https://www.servicenow.com/docs/access?context=accelerator-request&family=zurich&ft:locale=en-US)**
 
@@ -240,9 +252,6 @@ Strategic Accelerators:
     -   [ITOM Maturity Accelerator](https://www.servicenow.com/docs/access?context=ITOM-maturity-assessment&family=zurich&ft:locale=en-US): Get guidance on fine-tuning IT Operations Management \(ITOM\) with a base-level understanding of maturity tied to business outcomes.
     -   [Stakeholder Path to Value](https://www.servicenow.com/docs/access?context=stakeholder-path-to-value&family=zurich&ft:locale=en-US): Get deep qualitative insights into how process owners and key stakeholders utilize the ServiceNow platform to deliver vital services across the organization.
     -   [Foundations of AI Governance](https://www.servicenow.com/docs/access?context=foundations-of-ai-governance&family=zurich&ft:locale=en-US): Foundational knowledge that will help you start your AI Management journey and take control of your AI deployments.
--   **[Outcomes based contextual learning recommendations](https://www.servicenow.com/docs/access?context=contextual-learning-recommendations&family=zurich&ft:locale=en-US)**
-    -   View the recommendations for the most relevant personalized course recommendations based on your performance context to help you strengthen specific skills.
-    -   View the recommendation for every capability. Multiple courses are available for some recommendations.
 -   **[Value management](https://www.servicenow.com/docs/access?context=impact-in-platform-business-outcomes&family=zurich&ft:locale=en-US)**
 
 [Value reports](https://www.servicenow.com/docs/access?context=business-value-reports&family=zurich&ft:locale=en-US)
@@ -277,9 +286,7 @@ Install at least one dependency plugin to enable data collection jobs in Impact 
     -   View which subscriptions provide entitlement to an entitled capability in the **Included with these subscriptions** section when you select a capability.
 -   **[Consumption Report](https://www.servicenow.com/docs/access?context=ide-consumption-report&family=zurich&ft:locale=en-US)**
 
-The Consumption report provides an overview of your Impact tier features and their usage, which helps you identify your underused or unused Impact benefits.
-
-[Gen AI based consumption report summarization](https://www.servicenow.com/docs/access?context=gen-ai-based-consumption-report-summarization&family=zurich&ft:locale=en-US)
+The Consumption report provides an overview of your Impact tier features and their usage, which helps you identify your underused or unused Impact benefits.[Gen AI based consumption report summarization](https://www.servicenow.com/docs/access?context=gen-ai-based-consumption-report-summarization&family=zurich&ft:locale=en-US)
 
     -   Monitor the overall consumption of the accelerator in your plan. This information could include status details for ongoing, completed, and not yet started accelerators.
     -   View the usage details for the Instance observer and Developer Support seats.
@@ -334,17 +341,6 @@ Yokohama
 
 </td><td>
 
--   **New [Impact Store Application](https://www.servicenow.com/docs/access?context=impact-store-app&family=yokohama&ft:locale=en-US) experience**
-
-The new Impact Store Application provides a more efficient, streamlined way for you to work. For information about how to upgrade, see [Configuring the Impact Store Application](https://www.servicenow.com/docs/access?context=configuring-impact-platform&family=yokohama&ft:locale=en-US). Note that [Impact Delivery Instance \(formerly Impact Digital Experience\)](https://www.servicenow.com/docs/access?context=impact-digital-experience&family=yokohama&ft:locale=en-US) is still supported in this release.
-
--   **[Value Management](https://www.servicenow.com/docs/access?context=impact-value-journey&family=yokohama&ft:locale=en-US) name changes:**
-    -   Impact Value Journey is renamed to Impact Value
-    -   Value Blueprint is renamed to Objectives and Outcomes.
-    -   Outcomes Performance is renamed to Outcomes Insights.
-    -   Business Objectives is renamed to Objectives.
-    -   Operational Outcomes is renamed to Outcomes.
-    -   Business Value Report is renamed to Value Report.
 -   **[Impact Workspace name change](https://www.servicenow.com/docs/access?context=impact-in-platform-home&family=yokohama&ft:locale=en-US)**
 
 Impact Workspace has been renamed as Impact.
@@ -356,6 +352,11 @@ Impact users who have migrated from the Impact Delivery Instance may access Quic
 -   **[Custom payload in Instance Observer alerts integration](https://www.servicenow.com/docs/access?context=custom-payload-help-guide-impact&family=yokohama&ft:locale=en-US)**
 
 Define and manage a custom JSON request payload for ServiceNow and third-party integrations with the Instance Observer enhancements.
+
+
+ -   **New [Impact Store Application](https://www.servicenow.com/docs/access?context=impact-store-app&family=yokohama&ft:locale=en-US) experience**
+
+The new Impact Store Application provides a more efficient, streamlined way for you to work. For information about how to upgrade, see [Configuring the Impact Store Application](https://www.servicenow.com/docs/access?context=configuring-impact-platform&family=yokohama&ft:locale=en-US). Note that [Impact Delivery Instance \(formerly Impact Digital Experience\)](https://www.servicenow.com/docs/access?context=impact-digital-experience&family=yokohama&ft:locale=en-US) is still supported in this release.
 
 -   **[Accelerator catalog](https://www.servicenow.com/docs/access?context=accelerator-catalog&family=yokohama&ft:locale=en-US)**
 
@@ -370,9 +371,6 @@ The following Accelerators are renamed:
 
     -   Jumpstart Your Now Assist for ITSM is now [Jumpstart Your AI Agents for ITSM](https://www.servicenow.com/docs/access?context=jumpstart-your-ai-agents-for-itsm&family=yokohama&ft:locale=en-US)
     -   Jumpstart Your Now Assist for CSM is now [Jumpstart Your AI Agents for CSM](https://www.servicenow.com/docs/access?context=jumpstart-ai-agents-csm&family=yokohama&ft:locale=en-US)
--   **[Impact packages](https://www.servicenow.com/docs/access?context=impact-packages&family=yokohama&ft:locale=en-US)**
-    -   Add-on SKUs have been updated to provide additional flexibility for Impact customers and are available in all environments where Impact is available.
-    -   Updates to the Impact Advanced package, offered pursuant to the applicable Impact Accelerator Description available at  [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html).
 -   **[Data Collection Toolkit](https://www.servicenow.com/docs/access?context=data-collection-toolkit&family=yokohama&ft:locale=en-US)**
     -   Download the content packs for both regulated \(GCC/NSC\) and non-regulated customers.
     -   Automatically transfer Impact Value Metrics to the centralized Impact instance to manage the value journey, including setting value baselines and targets, outcome performance reviews, and the value report with the enhanced toolkit.
@@ -381,18 +379,28 @@ The following Accelerators are renamed:
 With the Yokohama release, Impact Digital Experience \(IDE\) has been renamed as Impact Delivery Instance \(IDI\).
 
 
+ -   **[Impact Store Application](https://www.servicenow.com/docs/access?context=impact-store-app&family=yokohama&ft:locale=en-US)**
+
+Impact is accessible in both the Impact Delivery Instance, formerly the Impact Digital Experience, and as the ServiceNow Impact Store Application.
+
+
+ -   **[Value Management](https://www.servicenow.com/docs/access?context=impact-value-journey&family=yokohama&ft:locale=en-US) name changes:**
+    -   Impact Value Journey is renamed to Impact Value
+    -   Value Blueprint is renamed to Objectives and Outcomes.
+    -   Outcomes Performance is renamed to Outcomes Insights.
+    -   Business Objectives is renamed to Objectives.
+    -   Operational Outcomes is renamed to Outcomes.
+    -   Business Value Report is renamed to Value Report.
+-   **[Impact packages](https://www.servicenow.com/docs/access?context=impact-packages&family=yokohama&ft:locale=en-US)**
+    -   Add-on SKUs have been updated to provide additional flexibility for Impact customers and are available in all environments where Impact is available.
+    -   Updates to the Impact Advanced package, offered pursuant to the applicable Impact Accelerator Description available at  [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html).
+
 </td></tr><tr><td>
 
 Zurich
 
 </td><td>
 
--   **[The outcome summarization Now Assist skill is now turned on by default](https://www.servicenow.com/docs/access?context=now-assist-skills&family=zurich&ft:locale=en-US)**
-
-This skill is automatically available to appropriate role users for the application. This change simply activates the skill and does not touch the roles that may be needed to use the skill. The new default behavior works as follows:
-
-    -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
-    -   Existing customers who are upgrading \(starting with Zurich Patch 4\): Any previously unconfigured skill is turned on automatically \(the skill was never turned on, then off again\). Previously configured skills that were turned on, then off, remain inactive.
 -   **[GenAI-powered Root Cause Summary](https://www.servicenow.com/docs/access?context=generative-ai-root-cause-anal&family=zurich&ft:locale=en-US)**
     -   Use the dynamically generated Root Cause Analysis \(RCA\), which is readily available in the RCA History page. RCA is available not only for alerts but also for the Critical or Warning scenarios of the performance category. This feature is a change to the existing functionality and is delivered dynamically.
     -   The core Root Cause Correlation functionality is being offered under the revised name of Root Cause Analysis to ensure product consistency.
@@ -404,6 +412,40 @@ The content and flow of this Accelerator has been streamlined to provide a clear
 
 This offering is now available across all packages, and includes clearer guidance on how customers can leverage ServiceNow’s AI capabilities to achieve their organizational goals and objectives.
 
+
+ -   **[Value management](https://www.servicenow.com/docs/access?context=impact-in-platform-business-outcomes&family=zurich&ft:locale=en-US)**
+
+    |Previous name|New name|
+    |-------------|--------|
+    |Impact Value Journey|Impact Value|
+    |Value Blueprint|Objectives and Outcomes|
+    |Outcomes Performance|Outcomes Insights|
+    |Business Objectives|Objectives|
+    |Business Value Report|Value Report|
+    |Data collection toolkit|Impact Value Management data collection apps|
+
+-   **[Capability Details Page](https://www.servicenow.com/docs/access?context=capability-details&family=zurich&ft:locale=en-US)**
+
+The Notes Specific to a Phase in the Capabilities Details page has been renamed Guidelines for Phase.
+
+-   **[Impact home page](https://www.servicenow.com/docs/access?context=impact-in-platform-home&family=zurich&ft:locale=en-US)**
+    -   The My Work Items page enables you to track and manage Strategic Portfolio Management and Collaborative Work Management work items created in Impact.
+    -   Provides information about key Impact features, an Impact demonstration video, a guided tour that supports with the navigation of Impact features and a dialog displaying the new features in the release for the first time customers.
+-   **[Recommendations](https://www.servicenow.com/docs/access?context=using-recommendations-iip-ws&family=zurich&ft:locale=en-US)**
+
+The Accelerator recommendations that are already implemented by the customer appear as auto-accepted in the list of recommendations.
+
+-   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+
+ -   **[The outcome summarization Now Assist skill is now turned on by default](https://www.servicenow.com/docs/access?context=now-assist-skills&family=zurich&ft:locale=en-US)**
+
+This skill is automatically available to appropriate role users for the application. This change simply activates the skill and does not touch the roles that may be needed to use the skill. The new default behavior works as follows:
+
+    -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
+    -   Existing customers who are upgrading \(starting with Zurich Patch 4\): Any previously unconfigured skill is turned on automatically \(the skill was never turned on, then off again\). Previously configured skills that were turned on, then off, remain inactive.
 -   **[Configure Impact with Guided Setup](https://www.servicenow.com/docs/access?context=guided-setup-impact-in-app&family=zurich&ft:locale=en-US)**
 
 Use automated registration, the preferred method, to initiate the connection and registration to the Impact Delivery Instance provider instance in one combined step.
@@ -436,7 +478,7 @@ Yokohama
 
 </td><td>
 
-The Expert Connect Accelerator is no longer supported as of Yokohama.
+No updates for this release.
 
 </td></tr><tr><td>
 
@@ -444,7 +486,7 @@ Zurich
 
 </td><td>
 
-The Jumpstart Your Document Intelligence Accelerator has been removed.
+No updates for this release.
 
 </td></tr></tbody>
 </table>## Deprecations
@@ -473,7 +515,7 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+The Expert Connect Accelerator is no longer supported as of Yokohama.
 
 </td></tr><tr><td>
 
@@ -482,6 +524,8 @@ Zurich
 </td><td>
 
 Starting with Impact Zurich version 6.0.8 ServiceNow Store release, Proactive Code Check is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
+ The Jumpstart Your Document Intelligence Accelerator has been removed.
 
 </td></tr></tbody>
 </table>## Activation information
@@ -510,11 +554,15 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Impact is available for activation with a separate subscription. Your Customer Success Manager sets entitlement information for access.
 
--   Impact Delivery Instance is accessed using your unique portal URL. Your Impact Squad sends you login information to access your IDI portal.
--   For the Impact Store Application, see [Install the Impact Store Application from the ServiceNow Store](https://www.servicenow.com/docs/access?context=install-impact-innovation-lab&family=yokohama&ft:locale=en-US) for activation details.
--   Proactive Code Check can be activated in your production and non-production instances. See [Configuring Proactive Code Check](https://www.servicenow.com/docs/access?context=configuring-proactive-code-check&family=yokohama&ft:locale=en-US) for details.
+    -   Impact Delivery Instance is accessed using your unique portal URL. Your Impact Squad sends you login information to access your IDI portal.
+    -   For the Impact Store Application, see [Install the Impact Store Application from the ServiceNow Store](https://www.servicenow.com/docs/access?context=install-impact-innovation-lab&family=yokohama&ft:locale=en-US) for activation details.
+    -   Proactive Code Check can be activated in your production and non-production instances. See [Configuring Proactive Code Check](https://www.servicenow.com/docs/access?context=configuring-proactive-code-check&family=yokohama&ft:locale=en-US) for details.
+
+**Important:** Impact is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 
@@ -522,12 +570,15 @@ Zurich
 
 </td><td>
 
--   **[Impact](https://www.servicenow.com/docs/access?context=impact-landing-page&family=zurich&ft:locale=en-US)**
+-   **Activation information**
+    -   **[Impact](https://www.servicenow.com/docs/access?context=impact-landing-page&family=zurich&ft:locale=en-US)**
 
 See [Impact packages](https://www.servicenow.com/docs/access?context=impact-packages&family=zurich&ft:locale=en-US) for information on package entitlement and features activation.
 
 See [Configuring Impact](https://www.servicenow.com/docs/access?context=configuring-impact&family=zurich&ft:locale=en-US) for details on configuring Impact and its features.
 
+
+**Important:** Impact is also available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -638,7 +689,11 @@ Zurich
 
 </td><td>
 
--   ****
+-   **Accessibility information**
+    -   **Dark theme**
+
+The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
 
 </td></tr></tbody>
 </table>## Localization information

@@ -36,7 +36,7 @@ A script runs to generate software component models from the normalized discover
 
 Two records are created in the Software Model Component table when a FULL version and a MAJOR version exist for the normalized discovery model. However, only one record is created if only the MAJOR version exists.
 
-You can also manually create a software component model record in the Software Component Model \[cmdb\_software\_component\_model\] table. If you have the Software Asset Management Foundation plugin or the Software Asset Management Professional application while creating the record, you can reference the Software Product \[samp\_sw\_product\] table. If you are not using the Software Asset Management application, you need to type in the software product name.
+You can also manually create a software component model record in the Software Component Model \[cmdb\_software\_component\_model\] table. If you have the Basic Software Asset Management or the Software Asset Management Professional application while creating the record, you can reference the Software Product \[samp\_sw\_product\] table. If you are not using the Software Asset Management application, you need to type in the software product name.
 
 ## Upgrade information
 
@@ -44,7 +44,7 @@ When you upgrade to Zurich release and later releases, the scheduled job, **SAM 
 
 After the upgrade, every time a new discovery model is normalized, the business rule,**Create software component model** that runs on the Software discovery model \[cmdb\_sam\_sw\_discovery\_model\] table gets triggered and automatically creates new software component model records for the new normalized discovery models.
 
-**Note:** The Software Discovery Model table is available if you have Software Asset Management Foundation plugin or the Software Asset Management Professional application running on your ServiceNow instance.
+**Note:** The Software Discovery Model table is available if you have Basic Software Asset Management or the Software Asset Management Professional application running on your ServiceNow instance.
 
 ## Discovery model considerations
 

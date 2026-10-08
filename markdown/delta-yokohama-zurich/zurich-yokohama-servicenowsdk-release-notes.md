@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-servicenowsdk-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
+last_updated: "2026-10-08"
 reading_time_minutes: 10
 breadcrumb: [Products combined by family]
 ---
@@ -38,11 +38,14 @@ Yokohama
 
 </td><td>
 
+-   **Upgrade information**
+
 Upgrade to the latest version of the ServiceNow SDK with the `now-sdk upgrade` command. For more information, see [Upgrade the ServiceNow SDK](https://www.servicenow.com/docs/access?context=upgrade-servicenow-sdk&family=yokohama&ft:locale=en-US).
 
- ServiceNow SDK version 3.0 supports integrating with ServiceNow instances beginning with the Washington DC release.
+ServiceNow SDK version 3.0 supports integrating with ServiceNow instances beginning with the Washington DC release.
 
 **Note:** For more information about minor releases of the ServiceNow SDK, see the [ServiceNow IDE, SDK, and Fluent articles](https://www.servicenow.com/community/servicenow-ide-sdk-and-fluent/tkb-p/ide-sdk-fluent-articles) in the ServiceNow Community.
+
 
 </td></tr><tr><td>
 
@@ -50,13 +53,16 @@ Zurich
 
 </td><td>
 
+-   **Upgrade information**
+
 To upgrade to the latest version of the ServiceNow SDK globally or within an application, see [Upgrade the ServiceNow SDK](https://www.servicenow.com/docs/access?context=upgrade-servicenow-sdk&family=zurich&ft:locale=en-US).
 
- ServiceNow SDK version 4.0 supports integration with ServiceNow instances beginning with the Washington DC release.
+ServiceNow SDK version 4.0 supports integration with ServiceNow instances beginning with the Washington DC release.
 
- On Windows systems, after upgrading to ServiceNow SDK version 4.3 or later, existing stored credentials aren’t supported due to the deprecation of Keytar. Users on Windows systems must add their user credentials again using the `now-sdk auth --add` command to authenticate with instances. For more information, see [Authenticate](https://www.servicenow.com/docs/access?context=authenticate-instance-now-sdk&family=zurich&ft:locale=en-US).
+On Windows systems, after upgrading to ServiceNow SDK version 4.3 or later, existing stored credentials aren’t supported due to the deprecation of Keytar. Users on Windows systems must add their user credentials again using the `now-sdk auth --add` command to authenticate with instances. For more information, see [Authenticate](https://www.servicenow.com/docs/access?context=authenticate-instance-now-sdk&family=zurich&ft:locale=en-US).
 
 **Note:** For more information about minor releases of the ServiceNow SDK, see the [ServiceNow SDK repository](https://github.com/ServiceNow/sdk/releases) on GitHub.
+
 
 </td></tr></tbody>
 </table>## New features
@@ -133,7 +139,7 @@ Use the Workspace API to define configurable workspace experiences for organizin
 Configure which third-party library modules to identify as trusted and have access to ServiceNow APIs with the `trustedModules` parameter in an application's `now.config.json` file.
 
 
--   **[Import Sets API](https://www.servicenow.com/docs/access?context=fluent-import-sets-api&family=zurich&ft:locale=en-US)**
+ -   **[Import Sets API](https://www.servicenow.com/docs/access?context=fluent-import-sets-api&family=zurich&ft:locale=en-US)**
 
 Use the Import Sets API to define transform maps \[sys\_transform\_map\] that specify how to transform and map data from the import set staging table to target tables.
 
@@ -154,12 +160,12 @@ Use utility types that help validate values for properties that support the Dura
 Configure a custom directory structure for metadata transformed into ServiceNow Fluent code with the `taxonomy` parameter in an application's `now.config.json` file. By default, generated ServiceNow Fluent files are organized in a taxonomy-based directory structure within the `fluent/generated` directory.
 
 
--   **[Specify which files to build as JavaScript modules](https://www.servicenow.com/docs/access?context=building-applications-source-code&family=zurich&ft:locale=en-US)**
+ -   **[Specify which files to build as JavaScript modules](https://www.servicenow.com/docs/access?context=building-applications-source-code&family=zurich&ft:locale=en-US)**
 
 Configure which files to include or exclude when building JavaScript modules with the `serverModulesIncludePatterns` and `serverModulesExcludePatterns` parameters in an application's `now.config.json` file.
 
 
--   **[Develop a user interface with React](https://www.servicenow.com/docs/access?context=ui-development-react&family=zurich&ft:locale=en-US)**
+ -   **[Develop a user interface with React](https://www.servicenow.com/docs/access?context=ui-development-react&family=zurich&ft:locale=en-US)**
 
 Develop a user interface with the React library and the UI Page API to build a full-stack application in source code.
 
@@ -251,7 +257,7 @@ Zurich
 Full-stack TypeScript applications support type checking and validation of `.ts` and `.tsx` files in the `src/client` directory when building applications.
 
 
--   **[Manage dependencies with additional parameters on the dependencies command](https://www.servicenow.com/docs/access?context=now-sdk-dependencies-command&family=zurich&ft:locale=en-US)**
+ -   **[Manage dependencies with additional parameters on the dependencies command](https://www.servicenow.com/docs/access?context=now-sdk-dependencies-command&family=zurich&ft:locale=en-US)**
 
 Control which dependencies and TypeScript definitions to download with additional parameters on the `now-sdk dependencies` command.
 
@@ -260,7 +266,7 @@ Control which dependencies and TypeScript definitions to download with additiona
 Use the following additional types of table columns with ServiceNow Fluent APIs: Password2Column, GuidColumn, JsonColumn, NameValuePairsColumn, UrlColumn, EmailColumn, HTMLColumn, FloatColumn, MultiLineTextColumn, DurationColumn, TimeColumn, FieldListColumn, SlushBucketColumn, TemplateValueColumn, and ApprovalRulesColumn.
 
 
--   **[Download TypeScript definitions for script includes used in JavaScript modules](https://www.servicenow.com/docs/access?context=download-script-dependencies&family=zurich&ft:locale=en-US)**
+ -   **[Download TypeScript definitions for script includes used in JavaScript modules](https://www.servicenow.com/docs/access?context=download-script-dependencies&family=zurich&ft:locale=en-US)**
 
 Download TypeScript definitions for script includes imported in JavaScript modules from an instance using the `now-sdk dependencies` command.
 
@@ -269,7 +275,7 @@ Download TypeScript definitions for script includes imported in JavaScript modul
 Add template files and directories for development in ServiceNow Fluent using the `--template` parameter with the `now-sdk init` command in an existing application.
 
 
--   **[Automated Test Framework API supports additional test steps](https://www.servicenow.com/docs/access?context=atf-test-now-ts&family=zurich&ft:locale=en-US)**
+ -   **[Automated Test Framework API supports additional test steps](https://www.servicenow.com/docs/access?context=atf-test-now-ts&family=zurich&ft:locale=en-US)**
 
 Use the following test steps with the ServiceNow Fluent Automated Test Framework API.
 
@@ -302,8 +308,7 @@ Yokohama
 
 </td><td>
 
--   The `now-sdk convert` command has been removed. Use the `now-sdk init` and `now-sdk transform` commands instead.
--   The `now-sdk fetch` command has been removed. Use the `now-sdk transform` command instead.
+No updates for this release.
 
 </td></tr><tr><td>
 
@@ -311,7 +316,7 @@ Zurich
 
 </td><td>
 
--   The `now-sdk upgrade` command has been removed. To upgrade the version of the ServiceNow SDK, see [Upgrade the ServiceNow SDK](https://www.servicenow.com/docs/access?context=upgrade-servicenow-sdk&family=zurich&ft:locale=en-US).
+No updates for this release.
 
 </td></tr></tbody>
 </table>## Deprecations
@@ -332,7 +337,8 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+-   The `now-sdk convert` command has been removed. Use the `now-sdk init` and `now-sdk transform` commands instead.
+-   The `now-sdk fetch` command has been removed. Use the `now-sdk transform` command instead.
 
 </td></tr><tr><td>
 
@@ -340,7 +346,9 @@ Zurich
 
 </td><td>
 
--   The $id property is deprecated in the List API and Role API.
+-   The `now-sdk upgrade` command has been removed. To upgrade the version of the ServiceNow SDK, see [Upgrade the ServiceNow SDK](https://www.servicenow.com/docs/access?context=upgrade-servicenow-sdk&family=zurich&ft:locale=en-US).
+
+ -   The $id property is deprecated in the List API and Role API.
 -   Property names that use snake case are deprecated in all ServiceNow Fluent APIs. Use the equivalent property name in camel case instead.
 
 </td></tr></tbody>
@@ -362,7 +370,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 The ServiceNow SDK is available as a Node Package Manager \(npm\) package from the [public npm registry](https://www.npmjs.com/package/@servicenow/sdk) and installed locally. For information about installing the ServiceNow SDK, see [Install the ServiceNow SDK](https://www.servicenow.com/docs/access?context=install-servicenow-sdk&family=yokohama&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -370,7 +381,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 The ServiceNow SDK is available as a Node Package Manager \(npm\) package from the [public npm registry](https://www.npmjs.com/package/@servicenow/sdk) and installed locally. For information about installing the ServiceNow SDK, see [Install the ServiceNow SDK](https://www.servicenow.com/docs/access?context=install-servicenow-sdk&family=zurich&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -391,7 +405,10 @@ Yokohama
 
 </td><td>
 
+-   **Additional requirements**
+
 You must have Node.js and Node Package Manager \(npm\) installed to install the ServiceNow SDK. For more information, see [Install the ServiceNow SDK](https://www.servicenow.com/docs/access?context=install-servicenow-sdk&family=yokohama&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -399,7 +416,10 @@ Zurich
 
 </td><td>
 
+-   **Additional requirements**
+
 You must have Node.js and Node Package Manager \(npm\) installed to install the ServiceNow SDK. For more information, see [Install the ServiceNow SDK](https://www.servicenow.com/docs/access?context=install-servicenow-sdk&family=zurich&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Browser requirements

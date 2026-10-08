@@ -7,8 +7,8 @@ release: zurich
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 3
+last_updated: "2026-09-21"
+reading_time_minutes: 4
 breadcrumb: [Configuring On-Call Scheduling in Service Operations Workspace, On-Call Scheduling in Service Operations Workspace, Manage, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
@@ -16,11 +16,13 @@ breadcrumb: [Configuring On-Call Scheduling in Service Operations Workspace, On-
 
 Configure the user, notification and on-call escalation preferences by creating escalation trigger rules and policies.
 
-## About this task
-
 ## Before you begin
 
 Role required: rota\_manager, rota\_admin
+
+## About this task
+
+To apply an escalation policy to multiple teams, use policy templates in the on-call bulk onboarding. For more information, see [Create on-call schedules for multiple groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/service-operations-workspace/oc-create-bulk-schedule-onboarding.md).
 
 ## Procedure
 

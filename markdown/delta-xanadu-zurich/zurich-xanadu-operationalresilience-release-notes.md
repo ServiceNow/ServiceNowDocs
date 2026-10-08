@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-operationalresilience-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
-reading_time_minutes: 11
+last_updated: "2026-10-08"
+reading_time_minutes: 15
 breadcrumb: [Products combined by family]
 ---
 
@@ -54,7 +54,10 @@ Zurich
 
 </td><td>
 
+-   **Upgrade information**
+
 After upgrading to Operational Resilience version 21.0.x, rerun the **Update CSDM and other dependencies** scheduled job to populate the additional metadata that was introduced in this release.
+
 
 </td></tr></tbody>
 </table>## New features
@@ -102,7 +105,8 @@ After generating the entities and setting up the main node configurations, you c
 
 Identify the primary origin of an operational vulnerability in its record. Once the primary origin is specified, its upstream dependencies are automatically included in the impacted areas, enabling you to view the operational vulnerability from all affected perspectives.
 
--   **[Using Digital resilience incident reporting](https://www.servicenow.com/docs/access?context=drir-module&family=yokohama&ft:locale=en-US)**
+
+ -   **[Using Digital resilience incident reporting](https://www.servicenow.com/docs/access?context=drir-module&family=yokohama&ft:locale=en-US)**
 
 Assess whether any critical services are affected and classify the reported incident as a major incident if necessary. Notify regulators of major incidents, categorized by their severity and security ratings.
 
@@ -143,7 +147,8 @@ Validate downloaded Register of Information \(RoI\) regulatory packages against 
 
 If validation warnings are detected, an automated report is attached, mapping issues to regulator fields like Template Code, Row Code, and Column Code. These reports include real-world field labels, rule expressions, and record identifiers. You can easily cross-reference validation errors using a downloadable Excel template that mirrors the CSV structure, simplifying issue location and resolution. Further enhancements include support for 'Not applicable' values, enforced file size limits, and clearer error messages for malformed data.
 
--   **[Improve resilience metrics with the enhanced CSDM model](https://www.servicenow.com/docs/access?context=using-csdm-v5&family=zurich&ft:locale=en-US)**
+
+ -   **[Improve resilience metrics with the enhanced CSDM model](https://www.servicenow.com/docs/access?context=using-csdm-v5&family=zurich&ft:locale=en-US)**
 
 Leverage the enhanced fix scripts in the Common Service Data Model \(CSDM\) to enhance your Operational Resilience metrics. Each node in the hierarchy is now stored separately, with its class and parent nodes, to help you manage your data more efficiently.
 
@@ -202,7 +207,39 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+-   **[Business services dashboard](https://www.servicenow.com/docs/access?context=opres-ws-homepage-overview&family=yokohama&ft:locale=en-US)**
+
+The Business services dashboard has been added to display business services data.
+
+-   **[New modules for services and processes](https://www.servicenow.com/docs/access?context=using-csdm-v5&family=yokohama&ft:locale=en-US)**
+
+The Services, Business Services, Service Offerings, and Business Processes modules have been added to the Operational Resilience Workspace. Operational Resilience managers use these modules to manage the services, business services, service offerings, and business processes used in Operational Resilience reporting.
+
+-   **[Entity Types and Pillars modules](https://www.servicenow.com/docs/access?context=manage-entity-types-pillars-from-ws&family=yokohama&ft:locale=en-US)**
+
+The Entity Types and Pillars modules have been added to the Operational Resilience Workspace. These modules enable Operational Resilience managers to update the entity types and pillars directly from the Workspace.
+
+-   **[Primary origin tab](https://www.servicenow.com/docs/access?context=add-impacted-area-to-vul&family=yokohama&ft:locale=en-US)**
+
+The **Primary origin** tab has been added to the Operational vulnerability record to identify the main source and report the upstream entities of the vulnerability.
+
+
+ -   **[Addition of classes to the assessment form](https://www.servicenow.com/docs/access?context=submit-an-assessment-in-ws&family=yokohama&ft:locale=en-US)**
+
+The Business Service and Offering classes have been added to the **Scope** tab of the assessment form, enabling you to assess the business services and service offerings alongside services. Once the assessment is complete, the importance and impact tolerance of these items are displayed in the Importance and Impact Tolerance columns on the **Scope** tab.
+
+-   **[Addition of classes to the scenario analysis form](https://www.servicenow.com/docs/access?context=scenario-analysis-in-ws&family=yokohama&ft:locale=en-US)**
+
+The Business Service and Offering classes have been added to the **Scope** tab of the scenario analysis form, enabling you to analyze the business services and service offerings alongside services.
+
+-   **[Addition of classes to the self-attestation form](https://www.servicenow.com/docs/access?context=self-attestation-in-ws&family=yokohama&ft:locale=en-US)**
+
+The Business Service and Offering classes have been added to the **Scope** tab of the self-attestation form, enabling you to self-attest the business services and service offerings alongside services.
+
+-   **[Digital resilience incident reporting module](https://www.servicenow.com/docs/access?context=drir-module&family=yokohama&ft:locale=en-US)**
+
+The Digital resilience incident reporting module is used to report the Information and Communication Technology \(ICT\) related incidents to the regulators.
+
 
 </td></tr><tr><td>
 
@@ -210,7 +247,55 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **[Main node configurations: A component of the Data Relationship Framework](https://www.servicenow.com/docs/access?context=main-node-relationship-fw&family=zurich&ft:locale=en-US)**
+
+The properties, related lists, and copy functionality in the Main node configurations form are updated.
+
+-   **[Configure the Nexus map configurations](https://www.servicenow.com/docs/access?context=configure-nexus-map-configurations&family=zurich&ft:locale=en-US)**
+
+The Nexus map configuration settings are added.
+
+-   **[Node configurations and Node status configurations](https://www.servicenow.com/docs/access?context=configure-node-configurations&family=zurich&ft:locale=en-US)**
+
+The Node configurations and Node status configurations related lists are added.
+
+-   **[Edge configurations and edge status configurations](https://www.servicenow.com/docs/access?context=configure-edge-configurations&family=zurich&ft:locale=en-US)**
+
+The Edge configurations and Edge status configurations related lists are added.
+
+-   **[Interacting with the Nexus map UI from the Workspace](https://www.servicenow.com/docs/access?context=interacting-with-nexus-map-ui-from-worksapce&family=zurich&ft:locale=en-US)**
+
+The **Resilience map** UI action is added to display the map view for a service record.
+
+-   **[Word reports](https://www.servicenow.com/docs/access?context=reporting-for-multiple-regulations&family=zurich&ft:locale=en-US)**
+
+The 'Template Configurations' module displays the document design template configuration details of DIR action tasks. The 'Word Templates' module provides the DIR Word templates used to generate Microsoft Word reports.
+
+-   **[Regulation mappings related list](https://www.servicenow.com/docs/access?context=workflow-confi-auto-trigger-inci-repo-cases&family=zurich&ft:locale=en-US)**
+
+The 'Digital Resilience Incident Case Type' module displays the ‘Digital Resilience Incident Case.’ The Regulation Mappings related list in the record shows the relationships between entities and their corresponding regulations.
+
+-   **[Download the Excel template](https://www.servicenow.com/docs/access?context=create-excel-upload-download-request&family=zurich&ft:locale=en-US)**
+
+The option to download the Third-party Information Register is renamed to Excel Master Template.
+
+
+ -   **[Action tasks configuration related list](https://www.servicenow.com/docs/access?context=work-on-action-tasks&family=zurich&ft:locale=en-US)**
+
+Action tasks configuration related list is used to set up contextual information for different regulations. This includes the assessment template, assignment group, trigger conditions, due dates, and more.
+
+-   **[New modules and layout for Services](https://www.servicenow.com/docs/access?context=using-csdm-v5&family=zurich&ft:locale=en-US)**
+
+The Application services module is added to the list view, which enables you to configure application services.A vertical layout is added for the Services, Business services, Offerings, Business processes, and Application services modules.In the CSDM objects table, the Impacted objects column displays the parent objects, while the Impacted objects classes column shows the classes. The Red flags count column indicates the number of the red flags that are directly assigned to a node, and the Total red flags count column displays the total count of the red flags directly assigned to a node and its children.
+
+-   **[Contracts and related tabs for DORA](https://www.servicenow.com/docs/access?context=create-drtp-reg-contract&family=zurich&ft:locale=en-US)**
+
+The related tabs for the contracts, including associated entities and third parties, are now shown in the Contract record forms.
+
+-   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
 
 </td></tr></tbody>
 </table>## Removed
@@ -313,7 +398,12 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Install Operational Resilience by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
+
+**Important:** Operational Resilience is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 
@@ -321,7 +411,12 @@ Zurich
 
 </td><td>
 
-Install Operational Resilience by requesting it from the ServiceNow Store. 
+-   **Activation information**
+
+Install Operational Resilience by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
+
+**Important:** Operational Resilience is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -392,12 +487,14 @@ Yokohama
 
 </td><td>
 
+-   **Browser requirements**
+
 Business Continuity Management requires the following browsers:
 
--   Google Chrome
--   Firefox and Firefox Extended Support Release \(ESR\)
--   Microsoft Edge Chromium
--   Safari 12.0 and later versions
+    -   Google Chrome
+    -   Firefox and Firefox Extended Support Release \(ESR\)
+    -   Microsoft Edge Chromium
+    -   Safari 12.0 and later versions
 
 </td></tr><tr><td>
 
@@ -405,12 +502,14 @@ Zurich
 
 </td><td>
 
+-   **Browser requirements**
+
 Operational Resilience requires the following browsers:
 
--   Google Chrome
--   Firefox and Firefox Extended Support Release \(ESR\)
--   Microsoft Edge Chromium
--   Safari 12.0 and later versions
+    -   Google Chrome
+    -   Firefox and Firefox Extended Support Release \(ESR\)
+    -   Microsoft Edge Chromium
+    -   Safari 12.0 and later versions
 
 </td></tr></tbody>
 </table>## Accessibility information
@@ -447,7 +546,11 @@ Zurich
 
 </td><td>
 
--   ****
+-   **Accessibility information**
+    -   **Dark theme**
+
+The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
 
 </td></tr></tbody>
 </table>## Localization information

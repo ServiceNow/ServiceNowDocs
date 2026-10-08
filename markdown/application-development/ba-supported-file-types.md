@@ -7,7 +7,7 @@ release: zurich
 topic_type: reference
 last_updated: "2026-06-04"
 reading_time_minutes: 2
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Reference, Build Agent, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
 ---
 

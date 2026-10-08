@@ -303,5 +303,5 @@ Optional context ID of selected activity for deep linking
 **Related topics**  
 
 
-[bundle-cadev.ui-builder-overview]
+[UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/ui-builder-overview.md)
 

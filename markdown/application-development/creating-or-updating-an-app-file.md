@@ -7,7 +7,7 @@ release: zurich
 topic_type: concept
 last_updated: "2026-08-19"
 reading_time_minutes: 2
-keywords: [create app file, update app file, add file to application, modify application file, build agent create file, build agent update file, application scope, conversational change log, checkpoints, app development, app maintenance, Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [create app file, update app file, add file to application, modify application file, build agent create file, build agent update file, application scope, conversational change log, checkpoints, app development, app maintenance, ServiceNow Otto, AI Agents, generative AI, agentic AI]
 audience: programmer
 breadcrumb: [Use, Build Agent, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
 ---
@@ -22,9 +22,9 @@ In a new chat with Build Agent, select **Create a file** or **Update a file** to
 
 \[Omitted image "ba-sns-create-update.png"\] Alt text: New Chat panel with Create a file and Update a file buttons highlighted.
 
-Continue the conversation just like you did with creating an application, using the change log and checkpoints as you go. For more information, see [Build Agent checkpoints and conversation change log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ba-conversational-change-log.md) and [Revert app changes with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/revert-app-changes-using-build-agent.md).
+Continue the conversation just like you did with creating an application, using the change log and checkpoints as you go. For more information, see [Checkpoints and conversation change log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ba-conversational-change-log.md) and [Revert app changes with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/revert-app-changes-using-build-agent.md).
 
-Review the application and its metadata in ServiceNow Studio using the change log. For more information, see [Build Agent checkpoints and conversation change log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ba-conversational-change-log.md). You can also review the application using the File Navigator in ServiceNow Studio. For more information, see [Find an app or app file using the Navigator panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/qs-find-app-app-file-using-navigator-panel.md).
+Review the application and its metadata in ServiceNow Studio using the change log. For more information, see [Checkpoints and conversation change log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ba-conversational-change-log.md). You can also review the application using the File Navigator in ServiceNow Studio. For more information, see [Find an app or app file using the Navigator panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-studio-classic/qs-find-app-app-file-using-navigator-panel.md).
 
 When you're ready, deploy the app. For more information, see [Deploying what you built with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/build-agent-deployment.md).
 

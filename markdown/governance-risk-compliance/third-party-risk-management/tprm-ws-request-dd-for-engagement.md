@@ -7,8 +7,8 @@ release: zurich
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 6
 breadcrumb: [Request due diligence, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
 
@@ -43,6 +43,8 @@ Because your organization assesses the risk that is associated with doing busine
         For more information, see [Offboarding an engagement without conducting due diligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-dd-request-offboard-no-dd.md).
 
     For descriptions of each type of due diligence request, see [Requesting third-party risk due diligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-requesting-tpr-due-diligence.md).
+
+    **Note:** If your organization requires a software bill of materials \(SBOM\) from the third party as part of due diligence, select **SBOM required** on the request form. When selected and the engagement uses the Smart Assessment Engine, the system automatically associates an SBOM questionnaire with the engagement's external assessment. For more information, see [Request a software bill of materials from an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-sbom-collect.md).
 
 4.  Select **Add attachments** to include a document with the request.
 

@@ -7,7 +7,7 @@ release: zurich
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: concept
-last_updated: "2026-09-16"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [Indirect Discovery with SGCs, Telecom Discovery, Telecom Visibility, Explore, Telecommunications Service Operations Management]
 ---

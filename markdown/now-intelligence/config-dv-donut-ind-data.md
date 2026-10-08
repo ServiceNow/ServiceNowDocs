@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/config-
 release: zurich
 topic_type: reference
 last_updated: "2025-07-31"
-reading_time_minutes: 6
+reading_time_minutes: 7
 breadcrumb: [Pie and donut visualizations, Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
 
@@ -136,6 +136,12 @@ List of breakdowns to choose from for grouping indicator scores.**Important:**
 
 -   Scripted breakdowns are not supported in dashboard filters.
 -   Only two levels of breakdown are supported in total, including data visualization and dashboard filters.
+
+ Each breakdown element is shown separately in the visualization. If a multiple select filter for that breakdown is also applied to the visualization, only the selected elements are shown. If you do not specify a breakdown in this field and apply a multiple select filter, the aggregate score of all selected breakdown elements is shown. For more information, see [Viewing multiple breakdown elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/view-multiple-breakdown-elements.md).
+
+ Data snapshots indicators support only reference, Boolean, and choice fields for group bys.
+
+ **Note:** For Data snapshots indicators, breakdowns are specified on the indicator source. For classic Performance Analytics indicators, breakdowns are specified on the indicator record.
 
 </td></tr><tr><td>
 

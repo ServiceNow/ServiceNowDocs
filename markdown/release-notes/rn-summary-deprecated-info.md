@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/rn-summary-deprecated-info.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 7
+last_updated: "2026-10-08"
+reading_time_minutes: 9
 breadcrumb: [Release notes summaries for Zurich features, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
 ---
 
@@ -32,7 +32,11 @@ AI Control Tower
 
 -   **[Now LLM Service deprecation notice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/exploring-large-language-models.md)**
 
-Starting with the September 2026 release, Now LLM Service is being prepared for future deprecation. The Now LLM Service is no longer the default model provider for new or inactive AI assets, and it is no longer selected by default in AI Control Tower. A third-party LLM is now selected by default for AI assets, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. We're committed to bringing you the latest industry advancements while maintaining sovereignty-focused options, all hosted and governed by ServiceNow with the infrastructure and data protections you rely on today. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+
+-   **[Traceloop Warehouse HTTPS connection removed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/gov-sec-configure-pi-sensitive-metrics.md)**
+
+The base system Traceloop Warehouse HTTPS connection \(sn\_ai\_security.Traceloop\_API alias\) is removed. If you're upgrading and use Traceloop-based external AI metrics, create a new HTTPS connection under that alias and re-create your credential with connection URL `https://api.traceloop.com`.
 
 
 The AI Gateway application is deprecated in the Australia release and is no longer supported.
@@ -137,6 +141,16 @@ Enterprise Asset Management
 
 </td><td>
 
+-   **Now LLM Service**
+
+Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+
+
+-   **[Enterprise model and asset import templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/download-seeded-template-manual-bulk-imports.md)**
+
+Enterprise model and asset import templates that were previously generated from Enterprise Asset Management staging tables have been replaced with seeded import templates.
+
+
 The Classification \(classification\) column in the Enterprise good model \[sn\_ent\_model\] table has been deprecated and renamed as Classification \(Deprecated\). The data from this column is available in the new Classification \(classification\_code\) column in the Product model \[cmdb\_model\] table.
 
 </td></tr><tr><td>
@@ -170,6 +184,17 @@ ITOM Visibility
 </td><td>
 
 Starting with the Zurich release, Cloud Discovery Workspace is being prepared for future deprecation. It’s hidden and no longer activated on new instances but continues to be supported. Discovery Admin Workspace provides the latest experience for this functionality. For details, see the [Application/Plugin Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support knowledge base.
+
+</td></tr><tr><td>
+
+ITSM MCP Server
+
+</td><td>
+
+-   **[Deprecated sn\_itsm\_mcp\_server.requester.escalate tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/manage-employee-experience-itsm-mcp-server.md)**
+
+The **sn\_itsm\_mcp\_server.requester.escalate** tool is turned off by default. Use **sn\_itsm\_mcp\_server.incident.modify** with the **escalate** and **escalation\_reason** inputs instead.
+
 
 </td></tr><tr><td>
 
@@ -211,7 +236,7 @@ Legacy Studio
 
 </td><td>
 
-Starting with the Zurich release, Legacy Studio is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details on this process, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base. For more information about app development on the ServiceNow AI Platform®, see .
+Starting with the Zurich release, Legacy Studio is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details on this process, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base. For more information about app development on the ServiceNow AI Platform®, see [ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/servicenow-studio-landing.md).
 
 </td></tr><tr><td>
 
@@ -220,6 +245,21 @@ Listening Posts
 </td><td>
 
 Starting with the zurich release, Listening Posts is being deprecated. It will be hidden and no longer available for activation. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
+</td></tr><tr><td>
+
+Now Assist in Virtual Agent
+
+</td><td>
+
+-   **Agentic support**
+
+The **Agentic support** page has been deprecated for ServiceNow Otto for Virtual Agent and ServiceNow Otto panel - Platform. There is no loss in functionality previously provided by the **Agentic support** page. By default, all existing assistants operate in agentic mode. The **Prioritize AI agents during skills discovery** option is available when configuring additional chat features in .
+
+-   **[ServiceNow® Otto for Virtual Agent system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/nava-sys-props.md)**
+
+The **sn\_nowassist\_va.assistant\_personalization** system property is removed from the admin experience. This property previously enabled administrators to show or hide chat personalization options \(agent persona, tone, and response length\) when branding an assistant. By default, all settings are shown in [Brand and personalize an assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/brand-assistant.md).
+
 
 </td></tr><tr><td>
 
@@ -252,7 +292,7 @@ Self-service and omnichannel engagement for CSM
 
 </td><td>
 
-Starting with the Zurich release, Customer Service CTI Demo Data Plugin and CTI Softphone Plugin are no longer deployed, enhanced, or supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base, , and .
+Starting with the Zurich release, Customer Service CTI Demo Data Plugin and CTI Softphone Plugin are no longer deployed, enhanced, or supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base, [Components installed with Customer Service CTI Demo Data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/r_InstalledWithCustServCTIDemoData.md), and [Components installed with CTI Softphone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/r_InstalledWithCCTISoftphone.md).
 
 </td></tr><tr><td>
 
@@ -272,6 +312,17 @@ Starting with the Zurich release, Application Insights is no longer deployed, en
 
 </td></tr><tr><td>
 
+ServiceNow Otto for Hardware Asset Management \(HAM\)
+
+</td><td>
+
+-   **Now LLM Service**
+
+Starting with the October 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+
+
+</td></tr><tr><td>
+
 ServiceNow Otto for IT Operations Management \(ITOM\)
 
 </td><td>
@@ -287,6 +338,14 @@ Strategic Planning
 </td><td>
 
 The **Investment class** and **Investment type** fields have been deprecated from the Project \[sn\_align\_core\_project\] and Demand \[sn\_align\_core\_demand\] tables.
+
+</td></tr><tr><td>
+
+Third-party Risk Management
+
+</td><td>
+
+Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. We're committed to bringing you the latest industry advancements while maintaining sovereignty-focused options, all hosted and governed by ServiceNow with the infrastructure and data protections you rely on today. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
 
 </td></tr><tr><td>
 

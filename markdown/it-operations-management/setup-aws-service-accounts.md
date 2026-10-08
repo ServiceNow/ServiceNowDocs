@@ -1,20 +1,20 @@
 ---
-title: Setting up AWS service accounts
+title: Setup AWS service accounts
 description: Create and configure cloud service accounts at ServiceNow AI Platform for the corresponding Amazon Web Services \(AWS\) service accounts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/setup-aws-service-accounts.html
 release: zurich
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-10-01"
+reading_time_minutes: 3
 breadcrumb: [Set up a cloud service account, Access to cloud environments for ITOM products, IT Operations Management]
 ---
 
-# Setting up AWS service accounts
+# Setup AWS service accounts
 
 Create and configure cloud service accounts at ServiceNow AI Platform for the corresponding Amazon Web Services \(AWS\) service accounts.
 
-## Verify the REST API Permissions
+## Verify the REST API permissions
 
 Download the [Cloud Discovery patterns spreadsheet](https://downloads.docs.servicenow.com/resource/enus/api/servicenow-discovery-patterns-api-details.xlsx) so you can grant user permissions required for running the Discovery patterns. In addition to permissions, the spreadsheet also includes useful information such as pattern names, types, CI Classes, and links to vendor documentation. New patterns are available quarterly, so check periodically to be sure you have the latest version of the spreadsheet.
 
@@ -22,10 +22,26 @@ Ensure that you are familiar with the hierarchy of AWS service accounts in your 
 
 -   **Discrete account**: Standalone account, with no management account.
 -   **Management account**: Management account that may or may not contain member accounts \(subaccounts\).
+-   **Member account**: Subaccount that belongs to the management account.
 
-    **Note:** Some ServiceNow UI screens may refer to management accounts as master accounts.
+## Account terminology in the UI
 
--   **Member account**: Subaccount that belongs with the \(management\) account.
+Some screens in the ServiceNow UI use different labels for the same account types. Use the following table to map UI labels to the terms used in this documentation.
+
+|UI label|Term used in this documentation|
+|--------|-------------------------------|
+|**Master**|Management account|
+|**Parent account**|Management account field|
+|**Sub-account**|Member account|
+
+## Set up AWS Discovery
+
+After you understand the account hierarchy in your environment, complete the following steps to set up AWS Discovery:
+
+1.  Install and configure the MID Server. For more information, see [Install and configure MID Servers to access cloud environments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/mid-server-configuration-cloud.md).
+2.  Configure the required IAM permissions. For more information, see [Control AWS access and permissions using policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/aws-create-user-policy-cloud-mgt.md).
+3.  Choose an access method and configure credentials. For more information, see [Access setup for AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/access-aws-accounts.md).
+4.  Create the AWS service account on the platform. For more information, see [Create AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/create-aws-service-accounts.md).
 
 -   **[Access setup for AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/access-aws-accounts.md)**  
 Cloud Discovery and Cloud Provisioning and Governance need access to resources in the Amazon Web Services \(AWS\) service accounts. Learn about different methods of configuring such access.

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-documentservices-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
-reading_time_minutes: 5
+last_updated: "2026-10-08"
+reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
 
@@ -75,17 +75,18 @@ Zurich
 
 </td><td>
 
--   **[Document comparison](https://www.servicenow.com/docs/access?context=compare-document-version&family=zurich&ft:locale=en-US)**
+-   **[Smart Documents](https://www.servicenow.com/docs/access?context=configure-skill-smart-documents&family=zurich&ft:locale=en-US)**
+
+Accelerate insights with quick summaries, dynamic Q&amp;A, and FAQs that reduce time spent searching for information
+
+
+ -   **[Document comparison](https://www.servicenow.com/docs/access?context=compare-document-version&family=zurich&ft:locale=en-US)**
 
 Compare two versions of the document side by side.
 
 -   **[Guardrails for PDF generation and accessibility](https://www.servicenow.com/docs/access?context=guardrails-pdf-generation-accessibility&family=zurich&ft:locale=en-US)**
 
 Use static and dynamic guardrails to help maintain stability during PDF generation and accessibility.
-
--   **[Smart Documents](https://www.servicenow.com/docs/access?context=configure-skill-smart-documents&family=zurich&ft:locale=en-US)**
-
-Accelerate insights with quick summaries, dynamic Q&amp;A, and FAQs that reduce time spent searching for information
 
 
 </td></tr></tbody>
@@ -107,21 +108,28 @@ Yokohama
 
 </td><td>
 
--   **[PDF generation and accessibility](https://www.servicenow.com/docs/access?context=pdf-generation-accessibility&family=yokohama&ft:locale=en-US)**
+-   **[Summarize button](https://www.servicenow.com/docs/access?context=configure-skill-smart-documents&family=yokohama&ft:locale=en-US).**
+
+The **Summarize** button was changed to the **Ask Now Assist** button.
+
+
+ -   **[Subflows for Shared drives for Google Drive](https://www.servicenow.com/docs/access?context=google-drive-spoke-document-services&family=yokohama&ft:locale=en-US).**
+
+Added Spoke subflows for Shared drives in Google Drive.
+
+
+ -   **[Pop-up window](https://www.servicenow.com/docs/access?context=pdf-generation-accessibility&family=yokohama&ft:locale=en-US)**
+
+Added a pop-up window for list and form export with a check box that enables you to export an individual record or a list of records into a PDF format. The PDF includes accessibility support.
+
+
+ -   **[PDF generation and accessibility](https://www.servicenow.com/docs/access?context=pdf-generation-accessibility&family=yokohama&ft:locale=en-US)**
 
 Export a collection of records or a single record into a PDF format. New system property was added for better accessibility.
 
 -   **[Workflow migration for Managed Documents](https://www.servicenow.com/docs/access?context=c_ManagedDocuments&family=yokohama&ft:locale=en-US)**
 
 Improved usability, low code accessibility, and feature parity due to the newly configured workflows.​
-
--   **[Subflows for Shared drives for Google Drive](https://www.servicenow.com/docs/access?context=google-drive-spoke-document-services&family=yokohama&ft:locale=en-US).**
-
-Added Spoke subflows for Shared drives in Google Drive.
-
--   **[Summarize button](https://www.servicenow.com/docs/access?context=configure-skill-smart-documents&family=yokohama&ft:locale=en-US).**
-
-The **Summarize** button was changed to the **Ask Now Assist** button.
 
 
 </td></tr><tr><td>
@@ -130,7 +138,55 @@ Zurich
 
 </td><td>
 
--   **[Connect documents on external cloud](https://www.servicenow.com/docs/access?context=upload-versions-external-cloud&family=zurich&ft:locale=en-US)**
+-   **[Summarize button](https://www.servicenow.com/docs/access?context=configure-skill-smart-documents&family=zurich&ft:locale=en-US)**
+
+The **Summarize** button was changed to the **Ask Now Assist** button.
+
+
+ -   **[Property value for digital signature](https://www.servicenow.com/docs/access?context=property-value-cac-piv-signing&family=zurich&ft:locale=en-US)**
+
+Specify the method used to identify and validate the user who has signed the PDF using the property value.
+
+-   **[Document summarization](https://www.servicenow.com/docs/access?context=generate-document-summary-now-assist&family=zurich&ft:locale=en-US)**
+
+Use AI to generate summaries for feedback, disclaimers, and usage tracking in PDFs and Microsoft Word files.
+
+-   **[Document Service Framework](https://www.servicenow.com/docs/access?context=onedrive-spoke-document-services-framework&family=zurich&ft:locale=en-US)**
+
+Retrieve the list of files and folders based on the given search query from Microsoft OneDrive.
+
+-   **[Document service Framework](https://www.servicenow.com/docs/access?context=google-drive-spoke-document-services&family=zurich&ft:locale=en-US)**
+
+Retrieve the list of files and folders based on the given search query from Google Drive.
+
+
+ -   **[PDF generation](https://www.servicenow.com/docs/access?context=pdf-generation-accessibility&family=zurich&ft:locale=en-US)**
+
+Generate a PDF with accessibility for regulated markets.
+
+
+ -   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+-   **[Upload to provider button](https://www.servicenow.com/docs/access?context=upload-external-provider&family=zurich&ft:locale=en-US)**
+
+The **Upload to provider** button was changed to **Upload to cloud** button within the Connect with external cloud dialog box.
+
+-   **[Sync button](https://www.servicenow.com/docs/access?context=sync-versions&family=zurich&ft:locale=en-US)**
+
+The **Sync** button was changed to the **Download from Cloud** button.
+
+-   **[Upload to cloud button](https://www.servicenow.com/docs/access?context=upload-versions-external-cloud&family=zurich&ft:locale=en-US)**
+
+The **Upload to cloud** button has been added for versions.
+
+-   **[External Provider Settings tab](https://www.servicenow.com/docs/access?context=sync-versions&family=zurich&ft:locale=en-US)**
+
+The **External Provider Settings** tab was changed to the **External Cloud Settings** tab.
+
+
+ -   **[Connect documents on external cloud](https://www.servicenow.com/docs/access?context=upload-versions-external-cloud&family=zurich&ft:locale=en-US)**
 
 Upload your files directly to an external cloud \(including multiple versions of the document\).
 
@@ -153,26 +209,6 @@ Specify an image retrieval timeout for HTML to PDF conversion.
 -   **[Document classification](https://www.servicenow.com/docs/access?context=share-document-link&family=zurich&ft:locale=en-US)**
 
 Limit public sharing based on a document's classification.
-
--   **[PDF generation](https://www.servicenow.com/docs/access?context=pdf-generation-accessibility&family=zurich&ft:locale=en-US)**
-
-Generate a PDF with accessibility for regulated markets.
-
--   **[Property value for digital signature](https://www.servicenow.com/docs/access?context=property-value-cac-piv-signing&family=zurich&ft:locale=en-US)**
-
-Specify the method used to identify and validate the user who has signed the PDF using the property value.
-
--   **[Document summarization](https://www.servicenow.com/docs/access?context=generate-document-summary-now-assist&family=zurich&ft:locale=en-US)**
-
-Use AI to generate summaries for feedback, disclaimers, and usage tracking in PDFs and Microsoft Word files.
-
--   **[Document Service Framework](https://www.servicenow.com/docs/access?context=onedrive-spoke-document-services-framework&family=zurich&ft:locale=en-US)**
-
-Retrieve the list of files and folders based on the given search query from Microsoft OneDrive.
-
--   **[Document service Framework](https://www.servicenow.com/docs/access?context=google-drive-spoke-document-services&family=zurich&ft:locale=en-US)**
-
-Retrieve the list of files and folders based on the given search query from Google Drive.
 
 
 </td></tr></tbody>
@@ -252,11 +288,16 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Document Services is a ServiceNow AI Platform feature that is active by default.
 
- Document Management is available with activation of the Document Management plugin \(com.snc.platform\_document\_management\). For more details, see [Activate](https://www.servicenow.com/docs/access?context=activate-doc-mgmt-plugin&family=yokohama&ft:locale=en-US).
+Document Management is available with activation of the Document Management plugin \(com.snc.platform\_document\_management\). For more details, see [Activate](https://www.servicenow.com/docs/access?context=activate-doc-mgmt-plugin&family=yokohama&ft:locale=en-US).
 
- [Multi Provider Document Services Framework](https://www.servicenow.com/docs/access?context=mp-document-services-framework-landing&family=yokohama&ft:locale=en-US) Install Multi Provider Document Services Framework by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+[Multi Provider Document Services Framework](https://www.servicenow.com/docs/access?context=mp-document-services-framework-landing&family=yokohama&ft:locale=en-US) Install Multi Provider Document Services Framework by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
+
+**Important:** Multi Provider Document Services Framework is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 
@@ -264,11 +305,16 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Document Services is a ServiceNow AI Platform feature that is active by default.
 
- Document Management is available with activation of the Document Management plugin \(com.snc.platform\_document\_management\). For more details, see [Activate](https://www.servicenow.com/docs/access?context=activate-doc-mgmt-plugin&family=zurich&ft:locale=en-US).
+Document Management is available with activation of the Document Management plugin \(com.snc.platform\_document\_management\). For more details, see [Activate](https://www.servicenow.com/docs/access?context=activate-doc-mgmt-plugin&family=zurich&ft:locale=en-US).
 
- Multi Provider Document Services Framework needs to be installed by requesting it from the ServiceNow Store. For more information, see [Multi Provider Document Services Framework](https://www.servicenow.com/docs/access?context=mp-document-services-framework-landing&family=zurich&ft:locale=en-US). 
+Multi Provider Document Services Framework needs to be installed by requesting it from the ServiceNow Store. For more information, see [Multi Provider Document Services Framework](https://www.servicenow.com/docs/access?context=mp-document-services-framework-landing&family=zurich&ft:locale=en-US). Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
+
+**Important:** Multi Provider Document Services Framework is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -347,7 +393,10 @@ Yokohama
 
 </td><td>
 
+-   **Accessibility information**
+
 Added accessibility support for PDF document generation. PDF accessibility tags are now available to help users who rely on screen readers to navigate, understand, and interact with these generated PDF documents. For more information, see [PDF generation and accessibility](https://www.servicenow.com/docs/access?context=pdf-generation-accessibility&family=yokohama&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -355,12 +404,16 @@ Zurich
 
 </td><td>
 
--   ****
--   **[Guardrails for PDF generation and accessibility](https://www.servicenow.com/docs/access?context=guardrails-pdf-generation-accessibility&family=zurich&ft:locale=en-US)**
+-   **Accessibility information**
+    -   **Dark theme**
+
+The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
+    -   **[Guardrails for PDF generation and accessibility](https://www.servicenow.com/docs/access?context=guardrails-pdf-generation-accessibility&family=zurich&ft:locale=en-US)**
 
 Added static and dynamic guardrails for accessibility support for PDF document generation
 
--   **[PDF generation and accessibility](https://www.servicenow.com/docs/access?context=pdf-generation-accessibility&family=zurich&ft:locale=en-US)**
+    -   **[PDF generation and accessibility](https://www.servicenow.com/docs/access?context=pdf-generation-accessibility&family=zurich&ft:locale=en-US)**
 
 Added support for PDF document generation with accessibility for regulated markets.
 

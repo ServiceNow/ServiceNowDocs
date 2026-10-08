@@ -9,7 +9,7 @@ classification: ai-search
 topic_type: concept
 last_updated: "2026-07-25"
 reading_time_minutes: 6
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configuring Now Assist in AI Search, ServiceNow Otto for AI Search, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer]
 ---
 

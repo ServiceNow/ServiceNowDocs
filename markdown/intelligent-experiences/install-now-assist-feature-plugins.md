@@ -94,15 +94,15 @@ For details about available Suites and their compatibility with ServiceNow AI Pl
 
 11. Install the application now or schedule installation for a later time.
 
-<table><thead><tr><th align="left" id="d104053e448">
+<table><thead><tr><th align="left" id="d105956e448">
 
 Installation option
 
-</th><th align="left" id="d104053e451">
+</th><th align="left" id="d105956e451">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d104053e457">
+</th></tr></thead><tbody><tr><td id="d105956e457">
 
 **Install now**
 
@@ -112,7 +112,7 @@ Procedure
 2.  Select **Install**.
 
 
-</td></tr><tr><td id="d104053e481">
+</td></tr><tr><td id="d105956e481">
 
 **Install later**
 

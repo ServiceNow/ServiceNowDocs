@@ -17,7 +17,7 @@ breadcrumb: [Use agentic AI in IT Service Management, ServiceNow Otto for IT Ser
 
 Use the IT Service Management AI agents within an agentic workflow to complete tasks autonomously.
 
-## Agentic workflows for Now Assist IT Service Management
+## Agentic workflows for ServiceNow Otto IT Service Management
 
 <table id="table_lxk_lck_h2c"><thead><tr><th>
 

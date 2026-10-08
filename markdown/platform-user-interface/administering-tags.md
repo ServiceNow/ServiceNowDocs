@@ -159,7 +159,7 @@ Use automatically assigned tags to group high urgency incidents, overdue inciden
 **Related topics**  
 
 
-[bundle-platadm.configure-form-layout]
+[Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/configure-form-layout.md)
 
 ## Configure notifications for tagged records
 

@@ -76,13 +76,13 @@ For guidance on using these capabilities in ServiceNow Otto for SPO, see [Use Se
 
 ServiceNow Otto for SPO is also available in Virtual Agent, where it uses large language models \(LLMs\) and generative AI skills to enhance conversational experiences. These capabilities help improve deflection rates and reduce the manual effort required for Natural Language Understanding \(NLU\) topic discovery.
 
-For detailed information about ServiceNow Otto for Virtual Agent and how to use generative AI skills in your conversations, see [ServiceNow Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/now-assist-in-va-landing.md).
+For detailed information about ServiceNow Otto for Virtual Agent and how to use generative AI skills in your conversations, see .
 
-To understand how you can interact with the Virtual Agent when ServiceNow Otto capabilities are enabled in your instance, see [Exploring ServiceNow Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/exploring-now-assist-va.md).
+To understand how you can interact with the Virtual Agent when ServiceNow Otto capabilities are enabled in your instance, see .
 
-During the Conversational Interfaces Assistants guided setup, a ServiceNow Otto assistant for Virtual Agent is created automatically. For more information about this assistant, see [LLM assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/llm-assistants.md).
+During the Conversational Interfaces Assistants guided setup, a ServiceNow Otto assistant for Virtual Agent is created automatically. For more information about this assistant, see .
 
-Domain separation is supported for ServiceNow Otto for Virtual Agent. For more information, see [ServiceNow® Otto for Virtual Agent domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/na-in-va-domain-separation.md).
+Domain separation is supported for ServiceNow Otto for Virtual Agent. For more information, see .
 
 -   **[Supporting information for ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/source-to-pay-operations/sourcing-and-procurement-operations/now-assist-spo-supporting-info.md)**  
 Get a quick overview of the important information that is related to the ServiceNow Otto for Sourcing and Procurement Operations \(SPO\) application.

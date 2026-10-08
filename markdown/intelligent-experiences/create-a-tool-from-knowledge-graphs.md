@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/
 release: zurich
 topic_type: task
 last_updated: "2026-06-08"
-reading_time_minutes: 3
+reading_time_minutes: 4
 keywords: [Create tool Knowledge graph for MCP]
 breadcrumb: [Creating tools, Configure, MCP Server Console, Enable AI experiences]
 ---
@@ -86,6 +86,14 @@ Annotations
 Indication of the tool's behavior with MCP clients. 'Read Only' is the default annotation or tool behavior Knowledge Graph.
 
  The MCP client will use the selected annotations to categorise tools according to their behavior.
+
+</td></tr><tr><td>
+
+Required roles
+
+</td><td>
+
+The MCP Tools admin selects one or more roles from the User Role \[sys\_user\_role\] table to specify which roles can access and use the tool.
 
 </td></tr><tr><td>
 

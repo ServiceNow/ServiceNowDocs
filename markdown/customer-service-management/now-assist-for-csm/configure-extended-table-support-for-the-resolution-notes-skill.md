@@ -7,7 +7,7 @@ release: zurich
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2026-09-16"
+last_updated: "2026-10-08"
 reading_time_minutes: 2
 breadcrumb: [Resolution notes generation, Activate ServiceNow Otto Skills, Configure, ServiceNow Otto for CSM, Customer Service Management]
 ---
@@ -18,11 +18,11 @@ Create a child skill variant of the resolution notes generation skill to create 
 
 ## Before you begin
 
-Role required: Admin to copy and configure the skill in AI Admin Hub \(NAA\). sn\_skill\_builder.admin to edit input configurations in AI Skill Kit.
+Role required: `Admin` to copy and configure the skill in AI Admin Hub. sn\_skill\_builder.admin to edit input configurations in AI Admin Hub.
 
 Confirm the following prerequisites are met before you begin:
 
--   Your instance must be running **uxc-generative-ai** version 12.2.2 or later.
+-   Your instance must be running **uxc-generative-ai** version 12.0.3 or later.
 -   The base resolution notes generation skill must already be activated.
 
 ## About this task
@@ -31,7 +31,7 @@ When you copy the resolution notes generation skill in AI Admin Hub, a child ski
 
 ## Procedure
 
-1.  Navigate to &gt; &gt; **Admin** &gt; **AI Admin Hub** &gt; **AI Skills**.
+1.  Navigate to **Admin** &gt; **AI Admin Hub** &gt; **AI Skills**.
 
 2.  Select the **Customer** workflow and **CSM** as the product.
 

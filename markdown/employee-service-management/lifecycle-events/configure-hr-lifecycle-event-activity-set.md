@@ -235,7 +235,7 @@ Condition
 
 </td><td colspan="2">
 
-Activity set triggers per the specified conditions.**Note:** When defining conditions like case sensitivity or null values, see API GlideFilter - Scoped, Global.
+Activity set triggers per the specified conditions.**Note:** When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/c_GlideFilterScopedAPI.md).
 
 </td></tr><tr><td>
 

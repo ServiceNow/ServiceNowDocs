@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-workforceoptimizationforitsm-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
+last_updated: "2026-10-08"
 reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
@@ -46,7 +46,8 @@ Yokohama
 
 </td><td>
 
--   **[Enhanced security to access Workforce Optimization for ITSM](https://www.servicenow.com/docs/access?context=components-installed-workforce-optimization-itsm&family=yokohama&ft:locale=en-US)**
+-   **Upgrade information**
+    -   **[Enhanced security to access Workforce Optimization for ITSM](https://www.servicenow.com/docs/access?context=components-installed-workforce-optimization-itsm&family=yokohama&ft:locale=en-US)**
 
 When you upgrade to the Yokohama release, you have the option to turn on enhanced security for the Workforce Optimization for ITSM application. To get the enhanced security, you must contact Now Support to install the ITSM Enhanced Security Features plugin \(com.snc.itsm.enhanced\_security\). After you install the plugin, you need the roles listed here to access the respective features.
 
@@ -283,7 +284,12 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Install the Workforce Optimization for ITSM plugin \(sn\_wfo\_cfg\_itsm\) by requesting it from the ServiceNow Store. For details, see [Activate Workforce Optimization for ITSM](https://www.servicenow.com/docs/access?context=activate-configurable-workforce-optimization-itsm&family=yokohama&ft:locale=en-US) Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
+
+**Important:** Workforce Optimization for ITSM is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 

@@ -1,6 +1,6 @@
 ---
 title: Hardware Asset Management release notes
-description: The ServiceNow Hardware Asset Management application provides advanced workflow, automation, and mobile capabilities to track and manage your technology asset environment. Hardware Asset Management was enhanced and updated in the Zurich release. This release notes includes Hardware Asset Management version 13.0.0 and 14.0.0 updates.This release adds an application installation option from the Admin Home page and a Configuration Console to set up the Hardware Asset Management application.The ServiceNow Hardware Asset Management application provides advanced workflow, automation, and mobile capabilities to track and manage your technology asset environment. Hardware Asset Management was enhanced and updated in the Zurich release. This release notes includes Hardware Asset Management version 13.0.0 and 14.0.0 updates.The ServiceNow Hardware Asset Management application provides advanced workflow, automation, and mobile capabilities to track and manage your technology asset environment. Hardware Asset Management was enhanced and updated in the Zurich release. This release notes includes Hardware Asset Management version 13.0.0 and 14.0.0 updates.
+description: The ServiceNow Hardware Asset Management application provides advanced workflow, automation, and mobile capabilities to track and manage your technology asset environment. Hardware Asset Management was enhanced and updated in the Zurich release. This release notes includes Hardware Asset Management version 13.0.0 and 14.0.0 updates.This version adds an application installation option from the Admin Home page and a Configuration Console to set up the Hardware Asset Management application.The ServiceNow Hardware Asset Management application provides advanced workflow, automation, and mobile capabilities to track and manage your technology asset environment. Hardware Asset Management was enhanced and updated in the Zurich release. This release notes includes Hardware Asset Management version 13.0.0 and 14.0.0 updates.The ServiceNow Hardware Asset Management application provides advanced workflow, automation, and mobile capabilities to track and manage your technology asset environment. Hardware Asset Management was enhanced and updated in the Zurich release. This release notes includes Hardware Asset Management version 13.0.0 and 14.0.0 updates.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/hardware-asset-management-rn.html
 release: zurich
@@ -86,22 +86,22 @@ See [Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/Ser
 
 **Parent Topic:**[IT Asset Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/it-asset-management-rn-landing.md)
 
-## September 2026
+## Version 16.0.0
 
-This release adds an application installation option from the Admin Home page and a Configuration Console to set up the Hardware Asset Management application.
+This version adds an application installation option from the Admin Home page and a Configuration Console to set up the Hardware Asset Management application.
 
 ### What's new
 
--   **Hardware Asset Management installation from Product Hub**
+-   **[Hardware Asset Management installation from Product Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/product-hub-for-ham.md)**
 
     Install Hardware Asset Management and dependent applications from the Product Hub, the central location to view and manage all applications included in your subscription.
 
--   **Set up Hardware Asset Management using the Configuration Console**
+-   **[Set up Hardware Asset Management using the Configuration Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/config-console-ham.md)**
 
     Streamline your asset management setup by configuring all Hardware Asset Management settings from a single location using the Configuration Console. Set up users, roles, asset lifecycle, inventory, asset integrations, and generative AI skills. You can also use the AI conversational interface to configure groups, users, and content service setup.
 
 
-## November 2025
+## Version 14.0.0
 
 The ServiceNow® Hardware Asset Management application provides advanced workflow, automation, and mobile capabilities to track and manage your technology asset environment. Hardware Asset Management was enhanced and updated in the Zurich release. This release notes includes Hardware Asset Management version 13.0.0 and 14.0.0 updates.
 
@@ -116,7 +116,7 @@ The ServiceNow® Hardware Asset Management application provides advanced workflo
     With Hardware Asset Management version 14.0.0, a new field **Shipment quantity** has been added to the Shipment Details form. The **Shipment quantity** field displays the quantity of assets shipped for the shipment record.
 
 
-## Zurich
+## Version 13.0.0
 
 The ServiceNow® Hardware Asset Management application provides advanced workflow, automation, and mobile capabilities to track and manage your technology asset environment. Hardware Asset Management was enhanced and updated in the Zurich release. This release notes includes Hardware Asset Management version 13.0.0 and 14.0.0 updates.
 

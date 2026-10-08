@@ -7,7 +7,7 @@ release: zurich
 topic_type: reference
 last_updated: "2026-07-24"
 reading_time_minutes: 2
-keywords: [Build Agent, AI agent, autonomous AI, application development, ServiceNow applications, conversational interface, natural language, application lifecycle management, Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [Build Agent, AI agent, autonomous AI, application development, ServiceNow applications, conversational interface, natural language, application lifecycle management, ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
 ---
 

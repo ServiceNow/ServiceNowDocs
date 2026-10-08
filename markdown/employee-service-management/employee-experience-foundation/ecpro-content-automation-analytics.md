@@ -16,7 +16,7 @@ breadcrumb: [Setup continuous improvement, Configure, Employee Center Pro, Unifi
 
 Monitor and measure the impact of the content you provide through the Employee Center and in campaigns using Content Analytics.
 
-Content Analytics collects data and generates visualizations on employee engagement with content in the Employee Center. Content Analytics is powered by the Platform Analytics framework.
+Content Analytics collects data and generates visualizations on employee engagement with content in the Employee Center. Content Analytics is powered by the [Platform Analytics framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/now-intelligence/par-workspace.md).
 
 **Note:** Google Analytics is no longer supported as Google has stopped offering the integration.
 

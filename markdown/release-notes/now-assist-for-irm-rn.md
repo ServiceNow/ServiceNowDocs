@@ -83,11 +83,11 @@ The ServiceNow® ServiceNow Otto for Integrated Risk Management \(IRM\) applicat
 
     If you’re a RCM User \[sn\_grc\_reg\_change.user\] and have the Regulatory change AI user \[sn\_grc\_comp\_genai.reg\_change\_ai\_user\] role, you can generate AI-driven recommendations to help identify and mark relevant policies as impacted during regulatory alert reviews. These recommendations assist in associating policy impacts with alerts. You can accept suggested policy impacts to create action tasks immediately or dismiss recommendations to filter out irrelevant information.
 
--   **Citation impact analysis and updates with Now Assist for IRM**
+-   **[Citation impact analysis and updates with Now Assist for IRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/control-objective-change-agent.md)**
 
     When a citation’s description or supplemental guidance is updated, Control Objective Impact Analyzer skill identifies related control objectives that might be affected. The AI agent, ControlObjective Change Agent, then reviews these control objectives to determine whether the descriptions or guidance need changes and provides suggested updates. Users can review, provide feedback, and approve these updates directly in the Now Assist panel, ensuring that citation changes are reflected in associated control objectives.
 
--   **Enhancements to control objectives rationalization process**
+-   **[Enhancements to control objectives rationalization process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/governance-risk-compliance/take-actions-on-the-recommendations-for-similar-control-objectives.md)**
 
     The following enhancements have been introduced to the generative AI rationalization process of control objectives:
 

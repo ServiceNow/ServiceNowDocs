@@ -7,7 +7,7 @@ release: zurich
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Exploring the Technology Reference Model in Enterprise Architecture Workspace, Exploring Technology Portfolio view, Explore, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Technology Reference Model in Enterprise Architecture Workspace, Exploring Technology Portfolio view, Explore, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
 # Work with Technology Reference Model \(TRM\) lifecycle with wildcard
@@ -38,7 +38,7 @@ You must be a part of the enterprise architects group to be able to create a TRM
 
 A TRM wildcard can’t create technical debts when the full version of a particular TRM software product exists.
 
-**Parent Topic:**[Exploring the Technology Reference Model in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-managing-the-technology-portfolio.md)
+**Parent Topic:**[Technology Reference Model in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-managing-the-technology-portfolio.md)
 
 **Related topics**  
 

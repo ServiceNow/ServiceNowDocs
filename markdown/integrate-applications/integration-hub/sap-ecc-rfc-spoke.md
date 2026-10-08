@@ -7,7 +7,7 @@ release: zurich
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2025-12-09"
+last_updated: "2026-10-05"
 reading_time_minutes: 10
 breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-SAP ECC RFC spoke v2.11.0 is the latest version.
+SAP ECC RFC spoke v2.12.0 is the latest version.
 
 ## Supported versions
 
@@ -80,7 +80,7 @@ The SAP ECC RFC spoke provides sample flows to demonstrate automating the SAP EC
 
 The SAP ECC RFC spoke provides actions to automate SAP ECC RFC tasks when events occurs in your ServiceNow instance. Available actions include:
 
-<table id="table_o3f_np4_xmb"><thead><tr><th>
+<table id="table_ilw_qd4_5kc"><thead><tr><th>
 
 Category
 
@@ -212,7 +212,7 @@ Look up RFC Output Metadata
 
 Dynamically retrieves the output schema from SAP ECC - RFC, for the selected RFC.
 
-</td></tr><tr><td rowspan="22">
+</td></tr><tr><td rowspan="23">
 
 Procurement
 
@@ -223,6 +223,14 @@ Authorize Payment
 </td><td>
 
 Creates an authorize payment document in SAP ECC RFC.
+
+</td></tr><tr><td>
+
+Authorize Payment for Non-PO Invoice
+
+</td><td>
+
+Creates an authorize payment document for create non purchase order invoice in SAP ECC RFC.
 
 </td></tr><tr><td>
 

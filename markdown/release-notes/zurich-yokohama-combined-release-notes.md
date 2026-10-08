@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/zurich-yok
 release: zurich
 topic_type: reference
 last_updated: "2020-06-26"
-reading_time_minutes: 9
+reading_time_minutes: 7
 breadcrumb: [Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
 ---
 
@@ -44,14 +44,6 @@ Accounts Payable Operations
 
 </td></tr><tr><td>
 
-Activity Management
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-activitymanagement-release-notes.html)
-
-</td></tr><tr><td>
-
 Adoption Services
 
 </td><td>
@@ -65,14 +57,6 @@ Advanced AI Search Management Tools
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-advancedaisearchmanagementtools-release-notes.html)
-
-</td></tr><tr><td>
-
-Advanced Approval Management
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-advancedapprovalmanagement-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -124,22 +108,6 @@ Agent experience for CSM
 
 </td></tr><tr><td>
 
-Agentic Contact Center for Banking
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-agenticcontactcenterforbanking-release-notes.html)
-
-</td></tr><tr><td>
-
-Agentic Contact Center for Insurance
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-agenticcontactcenterforinsurance-release-notes.html)
-
-</td></tr><tr><td>
-
 Agent Workspace for HR Case Management
 
 </td><td>
@@ -148,19 +116,19 @@ Agent Workspace for HR Case Management
 
 </td></tr><tr><td>
 
-Agile Development 2.0
+AI Agent Studio
 
 </td><td>
 
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-agiledevelopment20-release-notes.html)
+[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-aiagentstudio-release-notes.html)
 
 </td></tr><tr><td>
 
-AI Agent Advisor
+AI Analytics
 
 </td><td>
 
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-aiagentadvisor-release-notes.html)
+[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-aianalytics-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -204,19 +172,19 @@ AI Search
 
 </td></tr><tr><td>
 
+AI Skill Kit
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-aiskillkit-release-notes.html)
+
+</td></tr><tr><td>
+
 Alumni Center
 
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-alumnicenter-release-notes.html)
-
-</td></tr><tr><td>
-
-Analytics, Intelligence, and Reporting
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-analyticsintelligenceandreporting-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -268,14 +236,6 @@ Application Vulnerability Response
 
 </td></tr><tr><td>
 
-Assessments and Surveys
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-assessmentsandsurveys-release-notes.html)
-
-</td></tr><tr><td>
-
 Asset Audit Response
 
 </td><td>
@@ -316,6 +276,14 @@ Automation Discovery
 
 </td></tr><tr><td>
 
+Autonomous Workforce
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-autonomousworkforce-release-notes.html)
+
+</td></tr><tr><td>
+
 Benchmarks
 
 </td><td>
@@ -337,14 +305,6 @@ Business Continuity Management
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-businesscontinuitymanagement-release-notes.html)
-
-</td></tr><tr><td>
-
-Buying Group
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-buyinggroup-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -404,14 +364,6 @@ Care Team Operations for Healthcare IT
 
 </td></tr><tr><td>
 
-Care Team Work Management
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-careteamworkmanagement-release-notes.html)
-
-</td></tr><tr><td>
-
 Case and Knowledge Management
 
 </td><td>
@@ -460,27 +412,11 @@ Cloud Account Management
 
 </td></tr><tr><td>
 
-Cloud Cost Management 10.0
+Cloud Cost Management
 
 </td><td>
 
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-cloudcostmanagement100-release-notes.html)
-
-</td></tr><tr><td>
-
-Cloud Cost Management 8.0.0
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-cloudcostmanagement800-release-notes.html)
-
-</td></tr><tr><td>
-
-Cloud Cost Management 9.0
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-cloudcostmanagement90-release-notes.html)
+[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-cloudcostmanagement-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -513,14 +449,6 @@ Common Core
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-commoncore-release-notes.html)
-
-</td></tr><tr><td>
-
-Common Governance, Risk, and Compliance feature
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-commongovernanceriskandcompliancefeature-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -561,14 +489,6 @@ Container Vulnerability Response
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-containervulnerabilityresponse-release-notes.html)
-
-</td></tr><tr><td>
-
-Content Management System
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-contentmanagementsystem-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -617,30 +537,6 @@ Conversation Insights
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-conversationinsights-release-notes.html)
-
-</td></tr><tr><td>
-
-Core Business Suite
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-corebusinesssuite-release-notes.html)
-
-</td></tr><tr><td>
-
-Core ServiceNow AI Platform
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-coreservicenowaiplatform-release-notes.html)
-
-</td></tr><tr><td>
-
-CPQ
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-cpq-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -700,14 +596,6 @@ Customer Success Management
 
 </td></tr><tr><td>
 
-Data Catalog
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-datacatalog-release-notes.html)
-
-</td></tr><tr><td>
-
 Data Loss Prevention Incident Response
 
 </td><td>
@@ -740,14 +628,6 @@ Data Privacy
 
 </td></tr><tr><td>
 
-Data products
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-dataproducts-release-notes.html)
-
-</td></tr><tr><td>
-
 Data Separation
 
 </td><td>
@@ -761,14 +641,6 @@ Decision Builder in Workflow Studio
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-decisionbuilderinworkflowstudio-release-notes.html)
-
-</td></tr><tr><td>
-
-Decision tables in Workflow Studio
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-decisiontablesinworkflowstudio-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -812,14 +684,6 @@ Digital Portfolio Management \(DPM\)
 
 </td></tr><tr><td>
 
-Dispute Content Pack for US Regulations
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-disputecontentpackforusregulations-release-notes.html)
-
-</td></tr><tr><td>
-
 Dispute Rules Content Pack for Mastercard
 
 </td><td>
@@ -860,14 +724,6 @@ Document Services
 
 </td></tr><tr><td>
 
-Document Templates
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-documenttemplates-release-notes.html)
-
-</td></tr><tr><td>
-
 Domain Separation
 
 </td><td>
@@ -897,14 +753,6 @@ Employee Center Pro
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-employeecenterpro-release-notes.html)
-
-</td></tr><tr><td>
-
-Employee Relations
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-employeerelations-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -953,14 +801,6 @@ Enterprise Asset Management
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-enterpriseassetmanagement-release-notes.html)
-
-</td></tr><tr><td>
-
-Enterprise Service Management Foundation
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-enterpriseservicemanagementfoundation-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -1028,27 +868,11 @@ Financial Services Operations Integration with Mastercard
 
 </td></tr><tr><td>
 
-Financial Services Operations Integration with Verifi
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-financialservicesoperationsintegrationwithverifi-release-notes.html)
-
-</td></tr><tr><td>
-
 Financial Services Operations Integration with Visa
 
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-financialservicesoperationsintegrationwithvisa-release-notes.html)
-
-</td></tr><tr><td>
-
-Flows, Subflows, and Actions
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-flowssubflowsandactions-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -1092,30 +916,6 @@ Hardware Asset Management
 
 </td></tr><tr><td>
 
-Hardware Asset Management 11.0.0
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-hardwareassetmanagement1100-release-notes.html)
-
-</td></tr><tr><td>
-
-Healthcare and Life Sciences Service Management Core
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-healthcareandlifesciencesservicemanagementcore-release-notes.html)
-
-</td></tr><tr><td>
-
-Healthcare Computerized Maintenance Management System
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-healthcarecomputerizedmaintenancemanagementsystem-release-notes.html)
-
-</td></tr><tr><td>
-
 Healthcare Operations Core
 
 </td><td>
@@ -1153,14 +953,6 @@ HR Multi Instance Integration
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-hrmultiinstanceintegration-release-notes.html)
-
-</td></tr><tr><td>
-
-HR Service Delivery for Healthcare
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-hrservicedeliveryforhealthcare-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -1204,14 +996,6 @@ Impact
 
 </td></tr><tr><td>
 
-Import and Export
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-importandexport-release-notes.html)
-
-</td></tr><tr><td>
-
 Incident Management
 
 </td><td>
@@ -1220,51 +1004,11 @@ Incident Management
 
 </td></tr><tr><td>
 
-Individual Life Claims
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-individuallifeclaims-release-notes.html)
-
-</td></tr><tr><td>
-
-Industrial Connected Workforce Core
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-industrialconnectedworkforcecore-release-notes.html)
-
-</td></tr><tr><td>
-
-Industrial Connected Workforce Mobile Experience
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-industrialconnectedworkforcemobileexperience-release-notes.html)
-
-</td></tr><tr><td>
-
-Industrial Guided Tasks
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-industrialguidedtasks-release-notes.html)
-
-</td></tr><tr><td>
-
 Industrial Process Manager
 
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-industrialprocessmanager-release-notes.html)
-
-</td></tr><tr><td>
-
-Industrial Standards
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-industrialstandards-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -1281,14 +1025,6 @@ Instance Scan
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-instancescan-release-notes.html)
-
-</td></tr><tr><td>
-
-Insurance claims
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-insuranceclaims-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -1356,11 +1092,11 @@ ITOM Visibility
 
 </td></tr><tr><td>
 
-IT Service Management
+ITSM MCP Server
 
 </td><td>
 
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-itservicemanagement-release-notes.html)
+[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-itsmmcpserver-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -1396,14 +1132,6 @@ Journey designer
 
 </td></tr><tr><td>
 
-Key Management
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-keymanagement-release-notes.html)
-
-</td></tr><tr><td>
-
 Knowledge Center
 
 </td><td>
@@ -1428,11 +1156,11 @@ Knowledge Management
 
 </td></tr><tr><td>
 
-Leader Hub
+L1 IT Service Desk AI Specialist
 
 </td><td>
 
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-leaderhub-release-notes.html)
+[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-l1itservicedeskaispecialist-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -1508,14 +1236,6 @@ Legal Request Management
 
 </td></tr><tr><td>
 
-Legal Virtual Agent Conversations
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-legalvirtualagentconversations-release-notes.html)
-
-</td></tr><tr><td>
-
 Lifecycle Events
 
 </td><td>
@@ -1529,14 +1249,6 @@ Listening Posts
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-listeningposts-release-notes.html)
-
-</td></tr><tr><td>
-
-Localization Framework
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-localizationframework-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -1585,14 +1297,6 @@ Mentoring
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-mentoring-release-notes.html)
-
-</td></tr><tr><td>
-
-Microsoft Azure DevOps Integration for Agile Development
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-microsoftazuredevopsintegrationforagiledevelopment-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -1676,251 +1380,11 @@ Now Assist AI agents
 
 </td></tr><tr><td>
 
-Now Assist Analytics
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-nowassistanalytics-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist Center
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-nowassistcenter-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for App Engine
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-nowassistforappengine-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for CMDB
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-nowassistforcmdb-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Collaborative Work Management
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-nowassistforcollaborativeworkmanagement-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Collaborative Work Management \(CWM\)
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-nowassistforcollaborativeworkmanagementcwm-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Configuration Management Database \(CMDB\)
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-nowassistforconfigurationmanagementdatabasecmdb-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Configure, Price, Quote \(CPQ\)
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-nowassistforconfigurepricequotecpq-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Creator
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-nowassistforcreator-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Customer Service Management \(CSM\)
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-nowassistforcustomerservicemanagementcsm-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Employee Center Pro
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-nowassistforemployeecenterpro-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Enterprise Architecture \(EA\)
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-nowassistforenterprisearchitectureea-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Field Service Management \(FSM\)
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-nowassistforfieldservicemanagementfsm-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Financial Services Operations \(FSO\)
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-nowassistforfinancialservicesoperationsfso-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for FSM
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-nowassistforfsm-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Hardware Asset Management \(HAM\)
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-nowassistforhardwareassetmanagementham-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for HR Service Delivery \(HRSD\)
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-nowassistforhrservicedeliveryhrsd-release-notes.html)
-
-</td></tr><tr><td>
-
 Now Assist for IT Operations Management \(ITOM\)
 
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-nowassistforitoperationsmanagementitom-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for IT Service Management \(ITSM\)
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-nowassistforitservicemanagementitsm-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Legal Service Delivery \(LSD\)
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-nowassistforlegalservicedeliverylsd-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Manufacturing Commercial Operations \(MCO\)
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-nowassistformanufacturingcommercialoperationsmco-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Operational Sustainability Management Management
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-nowassistforoperationalsustainabilitymanagementmanagement-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Operational Technology Service Management \(OTSM\)
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-nowassistforoperationaltechnologyservicemanagementotsm-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Order Management
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-nowassistforordermanagement-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Retail Service Management \(RSM\)
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-nowassistforretailservicemanagementrsm-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Sales CRM for Telecommunications
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-nowassistforsalescrmfortelecommunications-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Sales Force Automation \(SFA\)
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-nowassistforsalesforceautomationsfa-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Security Incident Response
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-nowassistforsecurityincidentresponse-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Security Incident Response \(SIR\)
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-nowassistforsecurityincidentresponsesir-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Security Operations
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-nowassistforsecurityoperations-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Software Asset Management \(SAM\)
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-nowassistforsoftwareassetmanagementsam-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -1932,59 +1396,11 @@ Now Assist for Source-to-Pay Operations
 
 </td></tr><tr><td>
 
-Now Assist for Strategic Portfolio Management \(SPM\)
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-nowassistforstrategicportfoliomanagementspm-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Telecommunications, Media and Technology \(TMT\)
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-nowassistfortelecommunicationsmediaandtechnologytmt-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Third-party Risk Management \(TPRM\)
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-nowassistforthirdpartyriskmanagementtprm-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Vault
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-nowassistforvault-release-notes.html)
-
-</td></tr><tr><td>
-
 Now Assist for Vulnerability Response
 
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-nowassistforvulnerabilityresponse-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Workplace Service Delivery \(WSD\)
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-nowassistforworkplaceservicedeliverywsd-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Zero Copy Connector
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-nowassistforzerocopyconnector-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -2028,14 +1444,6 @@ Now Assist in Virtual Agent
 
 </td></tr><tr><td>
 
-Now Assist Skill Kit
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-nowassistskillkit-release-notes.html)
-
-</td></tr><tr><td>
-
 Now Mobile
 
 </td><td>
@@ -2065,14 +1473,6 @@ Operational Sustainability Management
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-operationalsustainabilitymanagement-release-notes.html)
-
-</td></tr><tr><td>
-
-Operational Sustainability Management \(formerly Environmental, Social, and Governance\)
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-operationalsustainabilitymanagementformerlyenvironmentalsocialandgovernance-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -2113,14 +1513,6 @@ Operational Technology \(OT\) Manager Foundation
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-operationaltechnologyotmanagerfoundation-release-notes.html)
-
-</td></tr><tr><td>
-
-Operational Technology Request Management
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-operationaltechnologyrequestmanagement-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -2188,14 +1580,6 @@ Performance Analytics
 
 </td></tr><tr><td>
 
-Performance AnalyticsITSM dashboards
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-performanceanalyticsitsmdashboards-release-notes.html)
-
-</td></tr><tr><td>
-
 Performance Analyzer
 
 </td><td>
@@ -2209,14 +1593,6 @@ Platform Analytics experience
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-platformanalyticsexperience-release-notes.html)
-
-</td></tr><tr><td>
-
-Playbook
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-playbook-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -2244,27 +1620,11 @@ Portfolio Planning
 
 </td></tr><tr><td>
 
-Predictive AI for CSM
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-predictiveaiforcsm-release-notes.html)
-
-</td></tr><tr><td>
-
 Predictive Intelligence
 
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-predictiveintelligence-release-notes.html)
-
-</td></tr><tr><td>
-
-Predictive intelligence for Legal Service Delivery
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-predictiveintelligenceforlegalservicedelivery-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -2281,14 +1641,6 @@ Privacy Management
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-privacymanagement-release-notes.html)
-
-</td></tr><tr><td>
-
-Proactive Engagement
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-proactiveengagement-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -2321,14 +1673,6 @@ Product Catalog Management and Pricing Management
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-productcatalogmanagementandpricingmanagement-release-notes.html)
-
-</td></tr><tr><td>
-
-Product Support for Technology
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-productsupportfortechnology-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -2372,14 +1716,6 @@ Quote Management
 
 </td></tr><tr><td>
 
-Recommended Actions for HRSD
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-recommendedactionsforhrsd-release-notes.html)
-
-</td></tr><tr><td>
-
 Recommended Actions for Operational Technology Service Management \(OTSM\)
 
 </td><td>
@@ -2412,14 +1748,6 @@ Regulatory Change Management
 
 </td></tr><tr><td>
 
-Release Management
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-releasemanagement-release-notes.html)
-
-</td></tr><tr><td>
-
 ReleaseOps
 
 </td><td>
@@ -2444,14 +1772,6 @@ Resource Management Workspace
 
 </td></tr><tr><td>
 
-Retail
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-retail-release-notes.html)
-
-</td></tr><tr><td>
-
 Retail applications
 
 </td><td>
@@ -2465,22 +1785,6 @@ Retail Core
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-retailcore-release-notes.html)
-
-</td></tr><tr><td>
-
-Retail Operations
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-retailoperations-release-notes.html)
-
-</td></tr><tr><td>
-
-Retail Strategic Portfolio Management Suite
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-retailstrategicportfoliomanagementsuite-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -2500,14 +1804,6 @@ Return Merchandise Authorization
 
 </td></tr><tr><td>
 
-Reverse Tunnel
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-reversetunnel-release-notes.html)
-
-</td></tr><tr><td>
-
 RPA Hub
 
 </td><td>
@@ -2524,14 +1820,6 @@ Sales Agreement Management
 
 </td></tr><tr><td>
 
-Sales CRM for Telecommunications
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-salescrmfortelecommunications-release-notes.html)
-
-</td></tr><tr><td>
-
 Sales Forecasting
 
 </td><td>
@@ -2545,14 +1833,6 @@ Sales Territory Management​
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-salesterritorymanagement-release-notes.html)
-
-</td></tr><tr><td>
-
-Scaled Agile Framework \(SAFe\)
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-scaledagileframeworksafe-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -2612,14 +1892,6 @@ Service Exchange
 
 </td></tr><tr><td>
 
-Service Exchange \(formerly Service Bridge\)
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-serviceexchangeformerlyservicebridge-release-notes.html)
-
-</td></tr><tr><td>
-
 Service Graph Connector for Microsoft Defender for IoT \(Azure\)
 
 </td><td>
@@ -2668,19 +1940,299 @@ ServiceNow AI Platform core feature
 
 </td></tr><tr><td>
 
-ServiceNow CLI
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-servicenowcli-release-notes.html)
-
-</td></tr><tr><td>
-
 ServiceNow IDE
 
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-servicenowide-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-servicenowotto-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for App Engine
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-servicenowottoforappengine-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for CMDB
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-servicenowottoforcmdb-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Collaborative Work Management \(CWM\)
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-servicenowottoforcollaborativeworkmanagementcwm-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\)
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-servicenowottoforcollaborativeworkmanagementcwmcwm-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Configuration Management Database \(CMDB\)
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-servicenowottoforconfigurationmanagementdatabasecmdb-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Configure, Price, Quote \(CPQ\)
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-servicenowottoforconfigurepricequotecpq-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Creator
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-servicenowottoforcreator-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Customer Service Management \(CSM\)
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-servicenowottoforcustomerservicemanagementcsm-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Enterprise Architecture \(EA\)
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-servicenowottoforenterprisearchitectureea-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Field Service Management \(FSM\)
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-servicenowottoforfieldservicemanagementfsm-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Financial Services Operations \(FSO\)
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-servicenowottoforfinancialservicesoperationsfso-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for FSM
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-servicenowottoforfsm-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Hardware Asset Management \(HAM\)
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-servicenowottoforhardwareassetmanagementham-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for HR Service Delivery \(HRSD\)
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-servicenowottoforhrservicedeliveryhrsd-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for IT Operations Management \(ITOM\)
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-servicenowottoforitoperationsmanagementitom-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for IT Service Management \(ITSM\)
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-servicenowottoforitservicemanagementitsm-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Legal Service Delivery \(LSD\)
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-servicenowottoforlegalservicedeliverylsd-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Manufacturing Commercial Operations \(MCO\)
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-servicenowottoformanufacturingcommercialoperationsmco-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Operational Sustainability Management Management
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-servicenowottoforoperationalsustainabilitymanagementmanagement-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Operational Technology \(OT\) Service Management
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-servicenowottoforoperationaltechnologyotservicemanagement-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Order Management
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-servicenowottoforordermanagement-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Platform Analytics
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-servicenowottoforplatformanalytics-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Retail Service Management \(RSM\)
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-servicenowottoforretailservicemanagementrsm-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Sales Automation
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-servicenowottoforsalesautomation-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Sales Customer Relationship Management for Telecommunications
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-servicenowottoforsalescustomerrelationshipmanagementfortelecommunications-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Security Incident Response \(SIR\)
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-servicenowottoforsecurityincidentresponsesir-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Security Incident Response \(SIR\) \(SIR\)
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-servicenowottoforsecurityincidentresponsesirsir-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Software Asset Management \(SAM\)
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-servicenowottoforsoftwareassetmanagementsam-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Source-to-Pay Operations
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-servicenowottoforsourcetopayoperations-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Strategic Portfolio Management
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-servicenowottoforstrategicportfoliomanagement-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-servicenowottofortelecommunicationsmediaandtechnologytmt-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Third-party Risk Management \(TPRM\)
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-servicenowottoforthirdpartyriskmanagementtprm-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Unified Security Exposure Management
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-servicenowottoforunifiedsecurityexposuremanagement-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Vault
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-servicenowottoforvault-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Workplace Service Delivery \(WSD\)
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-servicenowottoforworkplaceservicedeliverywsd-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -2748,14 +2300,6 @@ Service Reliability Management
 
 </td></tr><tr><td>
 
-Setup Hub
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-setuphub-release-notes.html)
-
-</td></tr><tr><td>
-
 Sidebar
 
 </td><td>
@@ -2777,22 +2321,6 @@ Skills Foundation
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-skillsfoundation-release-notes.html)
-
-</td></tr><tr><td>
-
-Skills Intelligence
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-skillsintelligence-release-notes.html)
-
-</td></tr><tr><td>
-
-Skills Management
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-skillsmanagement-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -2828,14 +2356,6 @@ Sourcing and Procurement Operations
 
 </td></tr><tr><td>
 
-SPM Enterprise-Wide Deployment
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-spmenterprisewidedeployment-release-notes.html)
-
-</td></tr><tr><td>
-
 SQL API
 
 </td><td>
@@ -2857,14 +2377,6 @@ Strategic Portfolio Management for Telecom
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-strategicportfoliomanagementfortelecom-release-notes.html)
-
-</td></tr><tr><td>
-
-Stream Connect dashboard
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-streamconnectdashboard-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -2932,22 +2444,6 @@ Talent profile
 
 </td></tr><tr><td>
 
-Task Intelligence for ITSM
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-taskintelligenceforitsm-release-notes.html)
-
-</td></tr><tr><td>
-
-Telecommunications Customer 360
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-telecommunicationscustomer360-release-notes.html)
-
-</td></tr><tr><td>
-
 Telecommunications Network Inventory
 
 </td><td>
@@ -2996,27 +2492,11 @@ UI Builder
 
 </td></tr><tr><td>
 
-UI Component CLI Extension
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-uicomponentcliextension-release-notes.html)
-
-</td></tr><tr><td>
-
 Unified Security Exposure Management
 
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-unifiedsecurityexposuremanagement-release-notes.html)
-
-</td></tr><tr><td>
-
-Universal Request
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-universalrequest-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -3049,14 +2529,6 @@ Vendor Management Workspace
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-vendormanagementworkspace-release-notes.html)
-
-</td></tr><tr><td>
-
-Verifi Spoke
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-verifispoke-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -3100,14 +2572,6 @@ Vulnerability Response Integration with Claroty CTD
 
 </td></tr><tr><td>
 
-Vulnerability Response Integration with Microsoft Defender for IoT \(Azure\)
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-vulnerabilityresponseintegrationwithmicrosoftdefenderforiotazure-release-notes.html)
-
-</td></tr><tr><td>
-
 Walk-up Experience
 
 </td><td>
@@ -3116,35 +2580,11 @@ Walk-up Experience
 
 </td></tr><tr><td>
 
-Workflow Studio
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-workflowstudio-release-notes.html)
-
-</td></tr><tr><td>
-
-Workforce Optimization for CSM
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-workforceoptimizationforcsm-release-notes.html)
-
-</td></tr><tr><td>
-
 Workforce Optimization for Customer Service CSM
 
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-workforceoptimizationforcustomerservicecsm-release-notes.html)
-
-</td></tr><tr><td>
-
-Workforce Optimization for HR
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-workforceoptimizationforhr-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -3177,14 +2617,6 @@ Zero Copy Connector Hub
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-zerocopyconnectorhub-release-notes.html)
-
-</td></tr><tr><td>
-
-Zero Copy Connectors
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-zerocopyconnectors-release-notes.html)
 
 </td></tr></tbody>
 </table>

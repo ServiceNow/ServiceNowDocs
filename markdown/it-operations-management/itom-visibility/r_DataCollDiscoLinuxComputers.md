@@ -205,12 +205,12 @@ The Linux classifier triggers probes that perform the discovery. Several probes 
 
 Discovery also identifies and classifies information about Linux KVM. Discovery identifies Linux kernel-based virtual machines \(KVM\) when the process classifier detects libvirtd running on a Linux server. The classification triggers the creation of a cmdb\_ci\_kvm record and launches the SSH Command probes to explore the Linux server with virsh, lbvert utility, and virtual machine configuration data.
 
-Discovery creates a \[cmdb\_ci\_kvm\_instance\] record for each virtual machine on the server, and then matches the \[cmdb\_ci\_kvm\_instance\] record to a corresponding \[cmdb\_ci\_computer\] record using the MAC addresses of installed network adapters.
+Discovery creates a \[cmdb\_ci\_kvm\_instance\] record for each virtual machine on the server. It then matches the \[cmdb\_ci\_kvm\_instance\] record to a corresponding \[cmdb\_ci\_computer\] record using the MAC addresses of installed network adapters.
 
 |Table name|Extends|Description|Source|
 |----------|-------|-----------|------|
 |cmdb\_ci\_kvm|cmdb\_ci\_vm|A hypervisor that manages kernel-based virtual machines \(KVMs\)|Process classifier detects libvirtd running on Linux servers|
-|cmdb\_ci\_kvm\_vm\_instance|cmdb\_ci\_vm\_instance|A virtual machine instance on this hypervisor|virsh list-all and dumpxml command|
+|cmdb\_ci\_kvm\_vm\_instance|cmdb\_ci\_vm\_instance|A virtual machine instance on this hypervisor|virsh list --all and dumpxml command|
 |cmdb\_ci\_kvm\_object|cmdb\_ci\_vm\_object|An object connected to a virtual machine instance|&lt;network&gt;, &lt;storage pool&gt;, and &lt;storage volume&gt; elements from the dumpxml command|
 |cmdb\_kvm\_device|Not applicable|A device connected to a virtual machine instance|&lt;devices&gt; element from the dumpxml command|
 
@@ -219,7 +219,7 @@ Discovery creates a \[cmdb\_ci\_kvm\_instance\] record for each virtual machine 
 |Linux Host|cmdb\_ci\_kvm|linux\_host|Reference to the cmdb\_ci\_linux\_server that is running this virtual machine|
 |Details|cmdb\_ci\_kvm|details\_xml|dumpxml|
 |Object ID|cmdb\_ci\_kvm\_vm\_instance|object\_id|virsh dumpxml|
-|State|cmdb\_ci\_kvm\_vm\_instance|state|virsh list-all|
+|State|cmdb\_ci\_kvm\_vm\_instance|state|virsh list --all|
 |CPUs|cmdb\_ci\_kvm\_vm\_instance|cpus|virsh dumpxml|
 |Memory|cmdb\_ci\_kvm\_vm\_instance|memory|virsh dumpxml|
 |Disks|cmdb\_ci\_kvm\_vm\_instance|disks|virsh dumpxml|

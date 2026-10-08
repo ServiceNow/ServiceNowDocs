@@ -7,7 +7,7 @@ release: zurich
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Smart Assessment Engine assessments, Configure, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -30,13 +30,13 @@ The TPRM SAE questionnaire template has the following limitations.
 
 -   All new assessments must use SAE questionnaire templates.
 -   Third-party risk assessors can no longer create issues from the View responses page. Issues generation rules can be used to create issues automatically.
--   Third-party risk assessors can no longer create comments on individual questions. They can only use the comment section at the questionnaire level.
 -   The signature feature isn’t supported.
 -   Automatic attachment of questionnaires to external assessments based on inherent risk questionnaire \(IRQ\) responses or IRQ-calculated risk tiers is currently not supported in Smart Assessment Engine.
 -   The following question types aren’t supported: percentage, ranking, image scale, and custom metric. You must either convert these question types to supported formats before migration or create new questions in the template designer after migration.
 
     **Note:** For the percentage and image scale question types, customers can use the Number type and Radio button type, respectively. Ranking and custom metric question types aren't supported. You must either convert these question types to supported formats before migration or create new questions in the template designer after migration.
 
+-   In the Third‑party portal,the Excel export option available for Classic assessments is not supported for SAE assessments.
 -   If a section in the classic template contains only unsupported questions, an empty section is created in the TPRM SAE template. TPRM SAE templates with empty sections can’t be published; therefore, you must either add replacement questions to these sections or delete the empty sections before publishing.
 
     For more information on migration results, migration limitations, and creating TPRM SAE questionnaires, see [Results of migrating a template to a TPRM SAE template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-migrate-asmnt-template-result.md) and [Create a TPRM SAE questionnaire or document request template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/create-sae-q-template.md).

@@ -174,7 +174,7 @@ Sometimes, a platform feature or application may effectively support SP use case
 |[Expense Line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/r_InstalledWithExpenseLine.md)|No support|
 |[Incident Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/domain-separation-incident-comm-mgt.md)|Standard|
 |[Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/domain-separation-incident-management.md)|Standard|
-|[Facilities Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/service-management-for-the-enterprise/domain-separation-facilities-service-mgt.md)|Standard|
+|Facilities Service Management|Standard|
 |[Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/domain-separation-incident-management.md)|Standard|
 |[On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/domain-separation-on-call-scheduling.md)|Standard|
 |Asset Management|Basic|
@@ -268,7 +268,7 @@ Sometimes, a platform feature or application may effectively support SP use case
 |[Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/domain-separation-security-incident-response.md)|Standard|
 |[Threat Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/domain-separation-threat-intelligence.md)|Standard|
 |[Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/domain-separation-vulnerability-response.md)|Standard|
-|[Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/service-management-for-the-enterprise/c_ServiceManagement.md)|[Facilities Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/service-management-for-the-enterprise/domain-separation-facilities-service-mgt.md)|Standard|
+|[Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/service-management-for-the-enterprise/c_ServiceManagement.md)|Facilities Service Management|Standard|
 |[Planned Maintenance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/service-management-for-the-enterprise/domain-separation-planned-maintenance.md)|Standard\*|
 |[Proactive Triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/proactive-triggers.md)|Basic|
 |NOW Code Editor|No support|

@@ -452,7 +452,7 @@ As a product and portfolio manager, use dashboards in Portfolio Planning Workspa
 -   **[RIDAC in Portfolio Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/explore-ridac-ppw.md)**  
 RIDAC \(Risk, Issue, Decision, Action, Change\) in Portfolio Planning Workspace provides a holistic, portfolio-wide view of all risks, issues, decisions, actions, and changes across your entire organization—from individual projects to programs and portfolios.
 -   **[Portfolio plan RIDACs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/portfolio-plan-ridac-ppw.md)**  
-Portfolio plan RIDAC provides a unified view of all risks, issues, decisions, actions, and changes that belong to a specific portfolio plan. Access portfolio governance items directly within the portfolio plan without navigating to separate RIDAC records.
+Portfolio plan RIDAC \(Risks, Issues, Decision, Actions, and Change requests\) provides a unified view of all risks, issues, decisions, actions, and changes for a portfolio plan. Access portfolio governance items directly without navigating to separate RIDAC records.
 -   **[Better together with other ServiceNow applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/portfolio-planning/better-together-with-other-apps-ppw.md)**  
 Integration of Portfolio Planning with other ServiceNow® applications helps portfolio and product managers to optimize planning, collaboration, and release management for their products.
 

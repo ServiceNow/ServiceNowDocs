@@ -39,8 +39,6 @@ The following Support knowledge articles \(KBs\) are hosted on the ServiceNow® 
 -   [Mobile Publishing - Google metadata \(KB1157062\)](https://support.servicenow.com/kb?id=kb_article_view&sys_kb_id=a2a066bedb5155d0d0dc3feb68961951)
 -   [Mobile Publishing - Icon guidance \(KB1157074\)](https://support.servicenow.com/kb?id=kb_article_view&sys_kb_id=aa83b0a71b9dd9d038739979b04bcb6d)
 -   [How to configure Intune for White label applications \(Mobile Publishing\) \(KB0818363\)](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0818363)
--   [Adding your iOS Mobile Publishing branded application to Blackberry \(KB0821154\)](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0821154)
--   [How to add an Android White label \(Mobile Publishing\) build to your Blackberry portal \(KB0813295\)](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=kb0813295)
 
 **Parent Topic:**[Publish mobile apps with custom branding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/mobile/mobile-publishing.md)
 

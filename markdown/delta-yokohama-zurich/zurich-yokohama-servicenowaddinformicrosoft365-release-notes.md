@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-servicenowaddinformicrosoft365-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
+last_updated: "2026-10-08"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -198,7 +198,12 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Install ServiceNow Add-in for Microsoft 365 by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
+
+**Important:** ServiceNow Add-in for Microsoft 365 is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 
@@ -227,7 +232,10 @@ Yokohama
 
 </td><td>
 
+-   **Additional requirements**
+
 You must have Microsoft Outlook 2019 or a later version to use ServiceNow Add-in for Microsoft 365.
+
 
 </td></tr><tr><td>
 

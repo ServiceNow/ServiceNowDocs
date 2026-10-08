@@ -155,7 +155,7 @@ A custom label for this indicator.
 
         For example, the indicator Number of open incidents uses two breakdowns: Assigned to, and Opened by. Both breakdowns are based on the Users.Active breakdown source. Consider the case where you create a widget for this indicator and you have the widget follow elements on breakdown dashboards. You want the widget to display separate values for the elements of the Assigned to breakdown. Therefore, you select **Assigned to** in the field **Followed breakdown**.
 
-    For more information about breakdown dashboards, see [Using breakdowns on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/c_SpecialDashboards.md).
+    For more information about breakdown dashboards, see [Using breakdowns on responsive dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/c_SpecialDashboards.md).
 
 8.  Time series widgets only: In the **Elements Filter** tab, you can select an element filter to use instead of selecting a first-level element in the **Element** field.
 

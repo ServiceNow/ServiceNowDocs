@@ -55,15 +55,15 @@ For detailed information about configuring email notifications, see [Create an e
 
 5.  On the **Who will receive** tab, fill in the fields according to your organizational requirements.
 
-<table id="choicetable_xvd_hzb_lgc"><thead><tr><th align="left" id="d62197e256">
+<table id="choicetable_xvd_hzb_lgc"><thead><tr><th align="left" id="d62212e256">
 
 Field
 
-</th><th align="left" id="d62197e259">
+</th><th align="left" id="d62212e259">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d62197e265">
+</th></tr></thead><tbody><tr><td id="d62212e265">
 
 **Users**
 
@@ -71,7 +71,7 @@ Description
 
 Select the lock icon \[Omitted image "LockIconNE.png"\] to add an individual user from the User \[sys\_user\] table.
 
-</td></tr><tr><td id="d62197e276">
+</td></tr><tr><td id="d62212e276">
 
 **Users/Groups in Fields**
 
@@ -79,7 +79,7 @@ Select the lock icon \[Omitted image "LockIconNE.png"\] to add an individual use
 
 Select the lock icon to add recipients from fields in the Translation Request \[sn\_lw\_trans\_request\] table.
 
-</td></tr><tr><td id="d62197e285">
+</td></tr><tr><td id="d62212e285">
 
 **Groups**
 
@@ -87,7 +87,7 @@ Select the lock icon to add recipients from fields in the Translation Request \[
 
 Select the lock icon to add a group of users, such as Localization Requestor, from the Group \[sys\_user\_group\] table.
 
-</td></tr><tr><td id="d62197e294">
+</td></tr><tr><td id="d62212e294">
 
 **Subscribable**
 
@@ -100,15 +100,15 @@ Option to enable all users to subscribe to the notification.**Note:** Recipients
 
 6.  On the **What it will contain** tab, fill in the fields according to your organizational requirements.
 
-<table id="choicetable_l2h_f1c_lgc"><thead><tr><th align="left" id="d62197e328">
+<table id="choicetable_l2h_f1c_lgc"><thead><tr><th align="left" id="d62212e328">
 
 Field
 
-</th><th align="left" id="d62197e331">
+</th><th align="left" id="d62212e331">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d62197e337">
+</th></tr></thead><tbody><tr><td id="d62212e337">
 
 **Email template**
 
@@ -116,7 +116,7 @@ Description
 
 You can search for an existing template.
 
-</td></tr><tr><td id="d62197e346">
+</td></tr><tr><td id="d62212e346">
 
 **Subject**
 
@@ -124,7 +124,7 @@ You can search for an existing template.
 
 You can use variables from the Translation Request \[sn\_lw\_trans\_request\] table, available under **Select variables**.
 
-</td></tr><tr><td id="d62197e358">
+</td></tr><tr><td id="d62212e358">
 
 **Message HTML**
 

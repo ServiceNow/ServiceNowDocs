@@ -1,6 +1,6 @@
 ---
 title: Banners in ServiceNow Otto for Customer Service Management \(CSM\)
-description: Banners display information about generative AI skills and the form fields that are generated or predicted by the those skills.
+description: Banners display information about generative AI skills and the form fields that are generated or predicted by those skills.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/customer-service-management/now-assist-for-csm/now-assist-csm-record-banner.html
 release: zurich
@@ -15,7 +15,7 @@ breadcrumb: [Configure, ServiceNow Otto for CSM, Customer Service Management]
 
 # Banners in ServiceNow Otto for Customer Service Management \(CSM\)
 
-Banners display information about generative AI skills and the form fields that are generated or predicted by the those skills.
+Banners display information about generative AI skills and the form fields that are generated or predicted by those skills.
 
 ## Overview of banners
 

@@ -35,15 +35,15 @@ Role required: evt\_mgmt\_operator
 
 4.  Initiate an alert analysis from the ServiceNow Otto panel using one of the available methods.
 
-<table id="choicetable_jyk_xts_5cc"><thead><tr><th align="left" id="d667775e142">
+<table id="choicetable_jyk_xts_5cc"><thead><tr><th align="left" id="d690841e142">
 
 Launch an alert analysis
 
-</th><th align="left" id="d667775e145">
+</th><th align="left" id="d690841e145">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d667775e151">
+</th></tr></thead><tbody><tr><td id="d690841e151">
 
 **From the list**
 
@@ -59,7 +59,7 @@ The panel displays.
 
 The alert analysis displays in the panel.
 
-</td></tr><tr><td id="d667775e181">
+</td></tr><tr><td id="d690841e181">
 
 **From an alert form**
 

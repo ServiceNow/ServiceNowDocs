@@ -7,7 +7,7 @@ release: zurich
 topic_type: concept
 last_updated: "2026-08-20"
 reading_time_minutes: 9
-keywords: [AI agent, application development, natural language, full-stack applications, conversational interface, autonomous AI, code generation, Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [AI agent, application development, natural language, full-stack applications, conversational interface, autonomous AI, code generation, ServiceNow Otto, AI Agents, generative AI, agentic AI]
 audience: developer
 breadcrumb: [Build Agent, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
 ---
@@ -112,6 +112,7 @@ To learn more about configuring and using Build Agent, see:
 -   [Build Agent configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/configure-build-agent.md)
 -   [Use Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/use-build-agent.md)
 -   [Build Agent reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/build-agent-reference-landing.md)
+-   [Support for regulated markets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/build-agent-limitations.md)
 
 To learn more about prompting, see this Community article on [The fastest way to learn Build Agent prompting? Ask Build Agent.](https://www.servicenow.com/community/now-assist-for-creator-articles/the-fastest-way-to-learn-build-agent-prompting-ask-build-agent/ta-p/3533544)
 
@@ -129,12 +130,12 @@ Learn to develop reusable server-side logic and build a ServiceNow® application
 Use these guidelines to get the most out of Build Agent in your development workflow.
 -   **[Build Agent tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/build-agent-tools.md)**  
 Build Agent tools support application development tasks such as semantic search, schema inspection, code search, planning, UI validation, database querying, app navigation, and script execution. Each tool extends what Build Agent can do during a build session.
+-   **[Playbook authoring with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ba-playbooks.md)**  
+Use Build Agent to author and manage Playbook Designer artifacts through a conversation. You can generate playbook structures, configure activities, set runtime permissions, and define launcher configurations without manually navigating the Playbook Designer UI.
 -   **[MCP connections and Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/accelerate-design-to-development-with-figma-mcp-server.md)**  
 MCP connections enable Build Agent to access external tools and resources through standardized communication. Use these connections to integrate third-party applications like Figma for accelerated design-to-development workflows.
 -   **[Build Agent governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/build-agent-governance.md)**  
 Governance controls in Build Agent help with code quality, security, and compliance when generating applications. The Build Agent automated safeguards prevent common development issues and enforce organizational standards.
--   **[Domain separation and Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/ba-domain-separation.md)**  
-Domain separation is supported for Build Agent. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 -   **[Build Agent limitations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/build-agent-limitations.md)**  
 Plan deployments and troubleshoot issues by learning about Build Agent constraints that affect deployment capabilities and performance.
 

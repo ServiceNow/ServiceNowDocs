@@ -28,7 +28,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Information Request Playbook Fee Estimation Agent
+Information Request Administration Fee Estimation Agent
 
 </td><td>
 

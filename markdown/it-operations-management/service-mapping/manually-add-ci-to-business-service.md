@@ -158,5 +158,5 @@ Select the CI from the list of CIs of the selected CI type.**Note:** To eliminat
 
 [Link application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/link-services-to-services.md)
 
-[addCI\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/BusinessServiceManagerAPI.md)
+[bundle-crapiref.BusinessServiceManagerAPI]
 

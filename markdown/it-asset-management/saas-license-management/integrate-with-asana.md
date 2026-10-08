@@ -79,15 +79,15 @@ Role required: admin or sam\_integrator
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d250138e397">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d252574e397">
 
 Interface
 
-</th><th align="left" id="d250138e400">
+</th><th align="left" id="d252574e400">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d250138e406">
+</th></tr></thead><tbody><tr><td id="d252574e406">
 
 **Core UI**
 
@@ -98,7 +98,7 @@ Action
 3.  Select **Asana Integration Profile**.
 
 
-</td></tr><tr><td id="d250138e448">
+</td></tr><tr><td id="d252574e448">
 
 **Software Asset Workspace**
 

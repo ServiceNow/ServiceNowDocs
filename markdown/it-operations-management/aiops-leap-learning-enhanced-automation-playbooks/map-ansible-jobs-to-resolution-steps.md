@@ -21,35 +21,37 @@ Create mappings between automation opportunity resolution steps and Ansible job 
 
 Before mapping Ansible jobs to resolution steps:
 
+-   The [automation opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/automation-opportunities.md) must have generated resolution steps
 -   The Ansible discovery agent must have analyzed the automation opportunity
 -   Job templates related to the resolution steps must exist and be available in your connected Ansible Automation Platform instance.
--   The [automation opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/automation-opportunities.md) must have generated resolution steps
-
+-   
 Role required: LEAP admin
 
 ## About this task
 
-Step-to-job mapping creates the relationship between specific resolution steps and Ansible job templates. This mapping enables the Ansible execution agent to automatically launch the appropriate automations during incident remediation. At remediation time, the Ansible execution agent reads this mapping to determine which job template to launch for each step, in sequence.
+Step-to-job mapping creates the relationship between specific resolution steps and Ansible job templates. This mapping enables the Ansible execution agent to automatically launch the appropriate automation during incident remediation. At remediation time, the Ansible execution agent reads this mapping to determine which job template to launch for each step, in sequence.
 
 ## Procedure
 
-1.  Navigate to **LEAP** &gt; **AI Teammate Dashboard**.
+1.  Navigate to **Learning-Enhanced Automation Platform\(LEAP\)**.
 
 2.  Locate the automation opportunity that you want to configure for Ansible integration.
 
-3.  Select **Map Ansible Jobs** to open the mapping modal.
+3.  In the automation opportunity details page, the Ready for review section displays whether there are Ansible playbooks detected.
 
-    This button appears only after the Ansible discovery agent has analyzed the automation opportunity and identified candidate job templates.
+4.  Select **Review details** to open the mapping modal.
 
-    If the button does not appear, confirm that the Ansible discovery agent has completed analysis.
+    \[Omitted image "image.map\_ansible\_playbooks"\] Alt text: Map resolution steps to Ansible pllaybooks
 
-4.  Review the resolution steps displayed in the mapping modal.
+    This button appears only after the Ansible discovery agent has analyzed the automation opportunity and identified candidate job templates. If the button does not appear, confirm that the Ansible discovery agent has completed analysis.
+
+5.  Review the resolution steps displayed in the mapping modal.
 
     The modal parses the resolution steps and displays each step with a numbered index.
 
-5.  For each resolution step, select the appropriate Ansible job templates from the drop-down list:
+6.  For each resolution step, select the appropriate Ansible job templates from the drop-down list:
 
-    -   Select one or more job templates if the step can be automated.
+    -   Select a job template for the step to be automated.
 
         A step can be automated if a matching job template exists.
 
@@ -58,20 +60,19 @@ Step-to-job mapping creates the relationship between specific resolution steps a
 
     -   Job template name
     -   Description
-    -   Confidence score from the discovery analysis
-6.  Review your mappings to verify that:
+7.  Review your mappings to verify that:
 
-    -   Automated steps have appropriate job templates selected.
+    -   Automated steps have appropriate job template selected.
     -   Manual steps are left unmapped \(empty drop-down\).
     -   The sequence of steps makes logical sense for incident remediation.
-7.  Select **Save** to create the step-to-job mapping.
+8.  Select **Save** to create the mapping.
 
-    The mapping is saved to the `sn_itom_leap_ansible_mapping` table in active state.
+    The mapping is saved to the `sn_itom_leap_ansible_mapping` table.
 
 
 ## Result
 
-The step-to-job mapping is created and activated. The automation opportunity detail page now displays each resolution step with its mapped job templates. Manual steps are indicated with **\(manual\)**. The mapping is available for incident remediation in the Service Operations Workspace.
+The step-to-job mapping is created. The automation opportunity detail page now displays each resolution step with its mapped job template. Manual steps are indicated with **\(manual\)**. The mapping is available for incident remediation in Service Operations Workspace.
 
 ## Step-to-job mapping
 
@@ -80,7 +81,6 @@ After saving a mapping, the automation opportunity displays resolution steps lik
 ```
 Step 1: Restart the nginx service
   ▶ nginx-restart-playbook
-  ▶ service-restart-generic
 
 Step 2: Flush DNS cache
   (manual)

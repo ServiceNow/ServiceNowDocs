@@ -7,7 +7,7 @@ release: zurich
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-28"
 reading_time_minutes: 2
 breadcrumb: [Propose, promote, and link incident records, Use, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -18,7 +18,7 @@ Promote a security incident to a major security incident or reject promoted prop
 
 ## Before you begin
 
-Role required: sn\_msi.workspace\_admin
+Role required: sn\_msi.workspace\_admin or sn\_msi.workspace\_manager
 
 ## Procedure
 

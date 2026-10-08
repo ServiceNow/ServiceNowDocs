@@ -20,10 +20,10 @@ Employees can interact with the reservation agent and collaboration agent using 
 
 Visit these resources about ServiceNow Otto for Virtual Agent.
 
-**Important:** By default, pinning a chat window is enabled for Service Portal. For all other portals, an admin must create a system property to enable pinning a chat window. For more information, see .
+**Important:** By default, pinning a chat window is enabled for Service Portal. For all other portals, an admin must create a system property to enable pinning a chat window. For more information, see [ServiceNow® Otto for Virtual Agent system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/nava-sys-props.md).
 
--   
--   
+-   [Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/nava-enhanced-chat.md)
+-   [Portal prerequisites for enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/prerequisites-enhanced-chat.md)
 -   [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/configure-now-assist-va.md)
--   .
+-   [Using ServiceNow® Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/using-now-assist-in-va.md).
 

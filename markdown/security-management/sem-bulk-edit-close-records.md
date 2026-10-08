@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/sem-
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Using bulk edit in the Security Exposure Management Workspace, Bulk edit in the Security Exposure Management Workspace, Use, Unified Security Exposure Management, Security Operations]
 ---
 
@@ -38,67 +38,19 @@ Role required:
     -   Apply filters if you want to use the All Vulnerable Items that match filter option in the [**Record Selection**](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/vulnerability-manager-workspace/vmws-bulk-edit-close-records.md) field.
 4.  Select the **Bulk Edit** button.
 
-5.  On the form, fill in the fields to close the selected records.
+5.  On the form, select **Closed** in the **State** field, and select a **Reason** to close the selected records.
 
-<table id="table_t4d_4bd_5s"><thead><tr><th>
+    For a description of the other field values, see [Bulk edit form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sem-bulk-edit-request-exception-form.md).
 
-Field
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td id="record-slection-field">
-
-Record Selection
-
-</td><td>
-
-Records to update. Choices are:-   Only Selected Items: Select this option if you want to update the records you selected using the check box.
--   All Vulnerable Items that match filter: Select this option if you want to update the filtered records.
--   Remediation Task: Select this option if you want to update the records in a remediation task and then select the desired remediation task in the **Remediation task** field.
--   Vulnerability Entry: Select this option if you want to update the records specific to a common vulnerable entry \(CVE\) and then select the CVE in the **Vulnerability Entry** field.
-**Note:**
-
--   Records with invalid CI or CI decommissioned aren’t updated.
--   Only the records in the Open, Under Investigation, or Awaiting Implementation state are updated.
-
-
-</td></tr><tr><td>
-
-State
-
-</td><td>
-
-Select the state as Closed.
-
-</td></tr><tr><td>
-
-Reason
-
-</td><td>
-
-Reason for closing records:-   False Positive
-
-**Note:** When you select this option to mark the records as false- positive, the Reason, Short description, and Additional information fields appear. For more information on bulk edit for false positive, see [Bulk edit for false positive in the Vulnerability Manager Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/vulnerability-manager-workspace/vmws-bulk-edit-request-false-positive.md).
-
--   Cancelled
--   Fixed
-**Note:** The reasons, Cancelled and Fixed are not applicable to CVITs.
-
-</td></tr><tr><td>
-
-Work notes
-
-</td><td>
-
-Text that you enter to describe the changes.
-
-</td></tr></tbody>
-</table>6.  Click  **Edit**.
+6.  Click  **Edit**.
 
     A bulk edit asynchronous job updates the relevant records.
 
 
 **Parent Topic:**[Using bulk edit in the Security Exposure Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sem-using-bulk-edit.md)
+
+**Related topics**  
+
+
+[Bulk edit form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sem-bulk-edit-request-exception-form.md)
 

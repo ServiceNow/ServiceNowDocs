@@ -1,25 +1,25 @@
 ---
 title: Explore the Enterprise Architecture Workspace dashboard
-description: The Enterprise Architecture Workspace dashboard provides a summary of the business and application portfolio of your organization. It’s arranged according to different portfolios such as the application portfolio, technology portfolio, information portfolio, and so on.
+description: The Enterprise Architecture Workspace dashboard provides a summary of the business and application portfolio of your organization. It’s arranged according to different portfolios such as the application portfolio, technology portfolio, and information portfolio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-management/eaw-workspace-dashboard.html
 release: zurich
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 5
+reading_time_minutes: 4
 breadcrumb: [Exploring dashboards in Enterprise Architecture Workspace, Explore, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
 # Explore the Enterprise Architecture Workspace dashboard
 
-The Enterprise Architecture Workspace dashboard provides a summary of the business and application portfolio of your organization. It’s arranged according to different portfolios such as the application portfolio, technology portfolio, information portfolio, and so on.
+The Enterprise Architecture Workspace dashboard provides a summary of the business and application portfolio of your organization. It’s arranged according to different portfolios such as the application portfolio, technology portfolio, and information portfolio.
 
 As an enterprise architect, use the interactive filters to generate different graphical reports of the business applications for your portfolios. You can select a pie chart slice or graph bar to open a particular page and see the list of records under that category. To hide or show a slice in the pie chart, select its colored legend. Use the **Refresh** button to refresh the results of a pie chart.
 
 |End user and goal|Required role|
 |-----------------|-------------|
 |Enterprise Architecture Analyst- Create, configure, and share dashboards|sn\_apm.apm\_analyst|
-|Enterprise Architecture User- View dashboard|sn\_apm.apm\_user|
+|Enterprise Architecture User- View dashboards|sn\_apm.apm\_user|
 
 \[Omitted image "eaw-tabbed-dashboard.png"\] Alt text: The Enterprise Architecture Dashboard page displaying the multiple tabs and their respective widgets.
 
@@ -360,7 +360,7 @@ If both the Technology Portfolio Management \(sn\_apm\_tpm\) and Enterprise Arch
 
 -   All monetary values are displayed in a single currency type. The currency conversion rates are contained in the Currencies table \(fx\_currency.list\).
 
-    The currency type is determined based on the geographical location from where you’ve logged in. For example, if the system detects that you’ve logged in to the EA workspace from the USA, the default currency displayed will be USD.
+    The currency type is determined based on the geographical location from where you’ve logged in. For example, if the system detects that you’ve logged in to the EA workspace from the USA, the default currency displayed is USD.
 
 -   The duration of a fiscal period displayed on the widgets is determined from the **com.glide.fiscal\_calendar.fiscal.unit** property. To set the fiscal period duration, see [Set the fiscal period property for TCO dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-set-property-tco-dashboards.md).
 
@@ -376,7 +376,7 @@ Use the following filters to narrow down the results in the dashboard page:
 -   IT Application Owner
 -   Capability Owner
 
-You can manually refresh the dashboard by using the refresh icon \(\[Omitted image "icon-refresh.png"\] Alt text: Refresh icon.\).
+You can manually refresh the dashboard by using the refresh icon \(\[Omitted image "icon-refresh.png"\] Alt text:\).
 
 **Parent Topic:**[Exploring dashboards in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-exploring-dashboards-in-ea-workspace.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Configure RadarFirst for Privacy Case Management
+title: RadarFirst configuration for Privacy Case Management
 description: Integrate RadarFirst with Privacy Case Management to analyze breaches and receive regulatory guidance for each impacted jurisdiction.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/privacy-workspace/config-rf.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Integrate with RadarFirst, Privacy Case Management, Privacy Management, Governance, Risk, and Compliance]
 ---
 
-# Configure RadarFirst for Privacy Case Management
+# RadarFirst configuration for Privacy Case Management
 
 Integrate RadarFirst with Privacy Case Management to analyze breaches and receive regulatory guidance for each impacted jurisdiction.
 
@@ -21,7 +21,7 @@ Integrate RadarFirst with Privacy Case Management to analyze breaches and receiv
 
 [Set up the RadarFirst connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/set-up-radarfirst-connection.md)
 
-[import-radarfirst-data]
+[Import RadarFirst data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/import-radarfirst-data.md)
 
 [Map regions and jurisdictions to RadarFirst regions and jurisdictions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/privacy-workspace/map-regions-to-rf.md)
 

@@ -7,7 +7,7 @@ release: zurich
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [DORA validation, RoI package, third-party risk, compliance]
 breadcrumb: [Validation framework for RoI, Use digital resilience third-party registers, Third-party Risk Management, Governance, Risk, and Compliance]
@@ -26,6 +26,8 @@ Generate a Plain-CSV Reporting Package and an Excel Master Template. For more in
 ## About this task
 
 Validation is performed automatically when a Register of Information \(RoI\) Plain-CSV reporting package is uploaded via an Excel download/upload request. The system initiates real-time validation without requiring a separate request type.
+
+For information on validating LEI codes against the GLEIF database, see [Validate Legal Entity Identifier codes for DORA reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-valid-lei.md).
 
 Once validation is complete, the system sends an email notification to whoever initiated the request. If validation warnings are detected, both the validation report and the CSV package are attached to the request record. If no issues are found, only the CSV package is included.
 

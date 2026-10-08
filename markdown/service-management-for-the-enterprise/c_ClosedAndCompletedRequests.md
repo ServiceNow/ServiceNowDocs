@@ -7,7 +7,7 @@ release: zurich
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Close a request, Facilities requests, Facilities service management process, Facilities Service Management overview, Facilities Service Management, Service Management]
+breadcrumb: [Close a request, Request Management in a Service Management application, Service Management]
 ---
 
 # Closed and completed requests

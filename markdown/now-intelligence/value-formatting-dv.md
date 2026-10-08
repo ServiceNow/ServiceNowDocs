@@ -16,6 +16,8 @@ In most data visualizations, you can configure how numerical values look when yo
 
 ## Types of value formatting
 
+Access value formatting from the **Format values** button in the **Metric** section of the configuration panel of your data visualization.
+
 -   **Unit format**
 
     Show the format of time fields as d/h/m/s or day/hour/minute/second.

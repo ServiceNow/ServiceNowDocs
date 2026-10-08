@@ -55,7 +55,7 @@ Assign the now\_assist\_explorer\_user role, and activate the AI Data Explorer s
 
 7.  Configure the analytics exploration skill.
 
-    1.  In the **Advanced analysis** page, you can activate record-level analysis or deactivate indicator support.
+    1.  In the **Advanced options** page, you can activate record-level analysis, or indicator support.
 
         For record-level analysis, you can also set which tables it applies to. For more information, see [Configure record level analysis in AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/record-level-analysis.md) and [Deactivate indicator support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/aide-deactivate-indicator-support.md).
 

@@ -16,7 +16,7 @@ Create a new Smart Assessment template, which would show up in the compliance as
 
 ## Before you begin
 
-Role required: admin, sn\_smart\_asmt.assessment\_reader, sn\_smart\_asmt.template\_manager, sn\_gsm\_grnt\_mgmt.program\_manager, sn\_gsm\_grnt\_mgmt.grant\_director
+Role required: sn\_smart\_asmt.assessment\_admin, sn\_svc\_appl\_pgm\_mg.grant\_program\_manager, or sn\_svc\_appl\_pgm\_mg.grant\_program\_director
 
 Verify your scope is set to **Global**.
 

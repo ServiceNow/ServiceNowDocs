@@ -19,7 +19,7 @@ Customize some of the input fields of a generative AI skill to suit the requirem
 
 ## Before you begin
 
-**Note:** Depending on your license, you have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 Roles required: sn\_si.admin
 

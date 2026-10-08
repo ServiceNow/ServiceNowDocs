@@ -43,7 +43,7 @@ An alert is shown when:
 
 If your instance doesn’t meet the requirements for premium chat, you can continue using your existing standard or enhanced chat experience.
 
-Premium chat is not available for instances in regulated markets \(Government Cloud Community\), instances that use domain separation, or regional data routing.
+Premium chat is not available for instances that use regional data routing.
 
 In premium chat, catalog items have improved fluidity, but some will no longer be conversational. They’ll open in a catalog form instead. For more information, see [Conversational catalog item requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/explore.md).
 
@@ -118,7 +118,6 @@ In premium chat, catalog items have improved fluidity, but some will no longer b
 
     -   Select the ellipsis to remove a channel. The edit option is only available for Microsoft Teams. You can toggle between standard and premium chat.
         -   For standard chat, conversations in Microsoft Teams display a condensed conversational experience.
-        -   For premium chat, conversations in Microsoft Teams display a contextual chat experience that works best for end users using premium chat in their portal experience.
 3.  In **Mobile**, select a mobile app display experience.
 
     In the **Mobile** tab, if no mobile app is selected to display standard chat or enhanced chat, users see the traditional NLU Virtual Agent in the mobile app. There are different mobile app components that admins can display with an assistant: mobile search widget, chat launcher, prominent action button override, and a custom app \(mobile SDK\).

@@ -65,7 +65,7 @@ The ServiceNow® Knowledge Center helps you manage your knowledge articles from 
     Improve the quality and health of your knowledge articles by using the Article Optimization tool in the Knowledge Center to scan the articles, and get instant, actionable feedback.
 
 
--   **[Generate and edit articles using Now Assist in the Knowledge Center article editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/km-article-editor.md)**
+-   **[Generate and edit articles using ServiceNow Otto in the Knowledge Center article editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/servicenow-platform/km-article-editor.md)**
 
     Use the editing tools in the Knowledge Center to format knowledge article content such as text, images, and media.
 

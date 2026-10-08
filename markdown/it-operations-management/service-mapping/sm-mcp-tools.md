@@ -19,7 +19,7 @@ Details on the six Service Mapping MCP tools, including their inputs, outputs, a
 
 The CMDB MCP Server exposes six tools that an MCP-compatible AI client can invoke to retrieve application service data from a ServiceNow instance and create application services. Five tools are read-only and do not create, update, or delete records. One tool, create\_top\_down\_service, creates application service records and initiates Service Mapping discovery.
 
-The create\_top\_down\_service tool requires the sm\_mcp\_admin role. The five read-only tools require sm\_mcp\_user.
+All six tools require the sm\_mcp\_user role.
 
 The following five tools retrieve application service data without modifying records:
 
@@ -29,7 +29,7 @@ Returns a list of all application service names in the instance.
 
 -   **Input**
 
-    An optional filter parameter to limit results by mapping type: pattern-based, tag-based, or calculated. If no filter is provided, all service types are returned.
+    An optional filter parameter to limit results by mapping type: pattern-based, tag-based, or calculated. If no filter is provided, all service types are returned. Optional **limit** and **offset** parameters control pagination. **limit** is capped at 800 entries per page.
 
 -   **Output**
 
@@ -38,7 +38,7 @@ Returns a list of all application service names in the instance.
     -   Service name
     -   System ID
     -   Service type
-    The response is paginated or bounded to prevent oversized payloads.
+    The response is paginated or bounded to prevent oversized payloads. The response includes a **has\_more** flag and a **next\_offset** value for retrieving subsequent pages.
 
 -   **Example queries**
     -   "Use the ServiceNow Service Mapping tool, get\_all\_application\_service\_names, to list all application services."
@@ -60,7 +60,7 @@ Returns all application services that include a specified server as a member CI.
     -   System ID
     -   Service type
     -   Mapping status
-    If no services are found for the specified server, an empty list is returned. This is not treated as an error.
+    If no services are found for the specified server, an empty list is returned. This is not treated as an error. The list is capped at 150 entries; if the cap is reached, the response includes a flag noting the result set was capped. If the server name matches more than one CI, the tool resolves to the first match and the response includes a warning recommending a system ID for a deterministic result.
 
 -   **Example queries**
     -   "Use the ServiceNow Service Mapping tool, get\_all\_application\_service\_for\_server, to find which services contain server emse-10152008.servicenow.com"
@@ -98,7 +98,7 @@ Given a server CI, returns all CIs related to it via CMDB relationships and all 
 
 -   **Input**
 
-    Server CI name or System ID.
+    **server\_names**: Required. One or more server CI names or system IDs, comma-separated. **max\_depth**: Optional. Maximum relationship depth to traverse, from 1 to 4. Defaults to 2. **servers\_limit\_per\_start**: Optional. Maximum number of servers to traverse per starting point, from 1 to 25. **sources**: Optional. A comma-separated subset of traffic, cmdb\_rel to limit which connection types are returned. Defaults to both.
 
 -   **Output**
 
@@ -118,7 +118,7 @@ Starting from a single server or application CI, returns the CIs reachable from 
 
 -   **Input**
 
-    **ci**: Required. The name or system ID of the starting server or application CI.
+    **ci**: Required. The name or system ID of the starting server or application CI. **max\_depth**: Optional. Maximum traversal depth, from 1 to 4. Defaults to 2. **servers\_limit\_per\_start**: Optional. Maximum number of servers to traverse per starting point, from 1 to 25.
 
 -   **Output**
 
@@ -136,13 +136,13 @@ Starting from a single server or application CI, returns the CIs reachable from 
     -   "Use the ServiceNow Service Mapping tool, get\_unmapped\_topology, to show me what's connected to server db-cluster-02 by traffic only."
     -   "Use the ServiceNow Service Mapping tool, get\_unmapped\_topology, starting from application server app-01."
 
-## create\_top\_down\_service
+## create\_top\_down\_application\_service
 
 Creates an application service record from one or more entry points \(HTTP URLs or TCP host-and-port pairs\). The user provides a unique service name and at least one entry point that isn't already used by another service. The user can also provide optional metadata details. Each entry point's type is automatically detected from its format.
 
 -   **Role requirement**
 
-    Requires the sm\_mcp\_admin role. This tool has an operation-level ACL evaluated in addition to the endpoint-level ACL that applies to all six tools. Users with only sm\_mcp\_user role receive a 403 authorization error.
+    Requires the sm\_mcp\_user role, the same endpoint-level ACL that applies to all six tools.
 
 -   **Input**
 
@@ -185,7 +185,7 @@ Creates an application service record from one or more entry points \(HTTP URLs 
     -   "We need to map our new authentication service. Create it in Service Mapping with the entry point https://auth.acme.com, then once it's created show me the topology so I can confirm it exists"
 -   **Usage notes**
     -   To give one service multiple entry points, pass them all in a single entry\_points array rather than calling the tool once per entry point.
-    -   For bulk service creation across separate services, invoke create\_top\_down\_service multiple times with different service names. Each invocation is independent.
+    -   For bulk service creation across separate services, invoke create\_top\_down\_application\_service multiple times with different service names. Each invocation is independent.
     -   The service created by this tool can be queried immediately with get\_application\_service\_topology.
     -   If you provide all optional metadata fields at creation time, all service properties will be populated in a single call, reducing the number of follow-up edits needed.
 

@@ -61,7 +61,7 @@ The ServiceNow® Table Builder application is a centralized way to build tables,
 -   **[UI Builder release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/ui-builder-rn.md)**  
 The ServiceNow® UI Builder application is a web user interface builder for building pages for Workspaces, as well as custom workspaces or portals with Next Experience Components. UI Builder was enhanced and updated in the Zurich release.
 -   **[Workflow Data Fabric Hub release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/workflow-data-fabric-rn.md)**  
-The ServiceNow® Workflow Data Fabric Hub application unifies data from across the enterprise, providing access to external data in real time without needing to copy it to your instance. Workflow Data Fabric Hub is a new application in the Zurich release.
+The ServiceNow® Workflow Data Fabric Hub application unifies data from across the enterprise, providing access to external data in real time without needing to copy it to your instance.
 -   **[Workflow Studio release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/workflow-studio-rn-landing.md)**  
 The ServiceNow® Workflow Studio application consolidates playbooks, flows, actions, decision tables, and integrations into one design environment. Workflow Studio was enhanced and updated in the Zurich release.
 

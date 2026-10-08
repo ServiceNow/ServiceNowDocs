@@ -9,7 +9,7 @@ classification: software-asset-management-foundation-plugin
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Configuring the classic Software Asset Management Foundation plugin, Software Asset Management Foundation plugin, ITSM Software Asset Management, Asset Management, IT Service Management]
+breadcrumb: [Configuring the classic Basic Software Asset Management, Basic Software Asset Management, ITSM Software Asset Management, Asset Management, IT Service Management]
 ---
 
 # Manually override SAM Foundation edition value
@@ -41,5 +41,5 @@ Once the edition value is set, the discovery model for the software install is a
     The software installation is associated to different discovery model containing the edition value as part of the primary key. If the appropriate discovery model does not exist, a new one is created.
 
 
-**Parent Topic:**[Configuring the classic Software Asset Management Foundation plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/software-asset-management-foundation-plugin/samf-plugin-configuration.md)
+**Parent Topic:**[Configuring the classic Basic Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/software-asset-management-foundation-plugin/samf-plugin-configuration.md)
 

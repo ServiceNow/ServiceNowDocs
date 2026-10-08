@@ -9,7 +9,7 @@ classification: change-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Analyze change request risk and impact rating, Reference, Change Management, IT Service Management]
+breadcrumb: [Analyze change request risk and impact, Reference, Change Management, IT Service Management]
 ---
 
 # Risk assessment
@@ -32,7 +32,7 @@ Change Management - Risk Assessment provides a flexible way to capture informati
 -   **[Perform risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/t_AssessRisk.md)**  
 You can perform risk assessment of existing change requests after the risk assessment criteria are defined. After assessing the risk, you can view the risk assessment responses in the change request.
 
-**Parent Topic:**[Analyze change request risk and impact rating](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/change-risk-conflict-analysis.md)
+**Parent Topic:**[Analyze change request risk and impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/change-risk-conflict-analysis.md)
 
 **Related topics**  
 

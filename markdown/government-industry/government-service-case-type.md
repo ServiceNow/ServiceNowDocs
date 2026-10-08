@@ -18,7 +18,7 @@ You can use a public service case, which is based on the Government Service case
 
 A case type represents the processes and data needed to resolve a specific type of constituent request. For example, within Public Sector, government service agents can use case types for different constituent needs such as requests for information, requests for maintenance, social benefits application processing, or managing licenses and permits. You can associate record producers with a certain type of case so that when you submit that record producer through the portal, it creates a case of the correct type. In addition to using service definitions, you can use the case types feature to create and configure the different types of government service cases that your agency handles. For more information on service definitions, see [Service definitions for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-service-definitions.md).
 
-The base Government Service case type is called a public service case, and is an extension of the Customer Service case type from the Customer Service Management application. Each Public Sector Digital Services playbook application comes with its own case type \(for example, Information Request Playbook has an Information Request case type that comes by default, which is an extension of the base Government Service case type\). The Information Request case type can be extended further if your specific use case goes beyond what it offers.
+The base Government Service case type is called a public service case, and is an extension of the Customer Service case type from the Customer Service Management application. Each Public Sector Digital Services playbook application comes with its own case type \(for example, Information Request Administration has an Information Request case type that comes by default, which is an extension of the base Government Service case type\). The Information Request case type can be extended further if your specific use case goes beyond what it offers.
 
 As an administrator, you can extend from existing base case types that are provided in applications out-of-the-box to create additional case types for various government services that your agency offers, or you can create and configure an entirely new case type that extends the Case table, in order to implement specific case application types, and enabling you to take advantage of prebuilt roles, business rules, and other business logic.
 
@@ -124,7 +124,7 @@ Playbook that provides step-by-step guidance through the life cycle of license o
 
 </td></tr><tr><td>
 
-Information Request Playbook\(sn\_gsm\_info\_req\)
+Information Request Administration\(sn\_gsm\_info\_req\)
 
 </td><td>
 

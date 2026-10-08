@@ -7,7 +7,7 @@ release: zurich
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-28"
 reading_time_minutes: 1
 breadcrumb: [Propose, promote, and link incident records, Use, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -45,7 +45,7 @@ The incident is proposed and the following actions occur:
 
 -   In the security incident record, a verification banner message is displayed and the defined Major Security Incident tag appears.
 
--   The record appears in the Major Security Incident related list in the incident record, with the state listed as Proposed, and in the MSIM Workspace Candidates list.
+-   The record appears in the Major Security Incident related list in the incident record, with the state listed as Proposed. It also appears in the Proposed list in the MSIM Workspace.
 
 -   The Activity section in the MSIM Workspace shows that the security incident has been proposed to be promoted as a major security incident.
 -   A message is sent to those in the defined notification list that contains a link to the incident record and the Details tab for the incident.

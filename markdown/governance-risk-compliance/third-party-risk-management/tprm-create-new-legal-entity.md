@@ -7,7 +7,7 @@ release: zurich
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Create a legal entity and enhance digital resilience data, Use digital resilience third-party registers, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -36,7 +36,7 @@ LEI of the entity
 
 </td><td>
 
-Legal Entity Identifier. A unique global identifier for the entity reported in the register of information. It uses the 20-character, alpha-numeric code based on the ISO 17442 standard.
+Legal Entity Identifier. A unique global identifier for the entity reported in the register of information. It uses the 20-character, alpha-numeric code based on the ISO 17442 standard.**Note:** When you enter or update this field, the system validates the code against the GLEIF database and auto-populates the Name of the entity and Country of the entity fields. If you then edit those fields to values that no longer match GLEIF data, an inline warning is displayed on the edited field. For more information, see [Validate Legal Entity Identifier codes for DORA reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-valid-lei.md).
 
 </td></tr><tr><td>
 

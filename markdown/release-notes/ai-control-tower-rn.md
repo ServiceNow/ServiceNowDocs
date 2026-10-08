@@ -1,12 +1,12 @@
 ---
 title: AI Control Tower release notes
-description: The ServiceNow AI Control Tower application provides a centralized workspace to track and act on AI governance work across the enterprise. AI Control Tower was enhanced and updated in the Zurich release.This release adds support for domain separation, discovery and management for shadow AI assets, policies, quality and safety metrics for specific assets, and more.The ServiceNow AI Control Tower application provides a centralized workspace to track and act on AI governance work across the enterprise. AI Control Tower was enhanced and updated in the Zurich release.The ServiceNow AI Control Tower application provides a centralized workspace to track and act on AI governance work across the enterprise. AI Control Tower was enhanced and updated in the Zurich release.The ServiceNow AI Control Tower application provides a centralized workspace to track and act on AI governance work across the enterprise. AI Control Tower was enhanced and updated in the Zurich release.The ServiceNow AI Control Tower application provides a centralized workspace to track and act on AI governance work across the enterprise. AI Control Tower was enhanced and updated in the Zurich release.The ServiceNow AI Control Tower application provides a centralized workspace to track and act on AI governance work across the enterprise. AI Control Tower was enhanced and updated in the Zurich release.The ServiceNow AI Control Tower application provides a centralized workspace to track and act on AI governance work across the enterprise. AI Control Tower was enhanced and updated in the Zurich release.The ServiceNow AI Control Tower application provides a centralized workspace to track and act on AI governance work across the enterprise. AI Control Tower was enhanced and updated in the Zurich release.
+description: The ServiceNow AI Control Tower application provides a centralized workspace to track and act on AI governance work across the enterprise. AI Control Tower was enhanced and updated in the Zurich release.This release adds support for domain separation, policies, quality and safety metrics for specific assets, and more.The ServiceNow AI Control Tower application provides a centralized workspace to track and act on AI governance work across the enterprise. AI Control Tower was enhanced and updated in the Zurich release.The ServiceNow AI Control Tower application provides a centralized workspace to track and act on AI governance work across the enterprise. AI Control Tower was enhanced and updated in the Zurich release.The ServiceNow AI Control Tower application provides a centralized workspace to track and act on AI governance work across the enterprise. AI Control Tower was enhanced and updated in the Zurich release.The ServiceNow AI Control Tower application provides a centralized workspace to track and act on AI governance work across the enterprise. AI Control Tower was enhanced and updated in the Zurich release.The ServiceNow AI Control Tower application provides a centralized workspace to track and act on AI governance work across the enterprise. AI Control Tower was enhanced and updated in the Zurich release.The ServiceNow AI Control Tower application provides a centralized workspace to track and act on AI governance work across the enterprise. AI Control Tower was enhanced and updated in the Zurich release.The ServiceNow AI Control Tower application provides a centralized workspace to track and act on AI governance work across the enterprise. AI Control Tower was enhanced and updated in the Zurich release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/ai-control-tower-rn.html
 release: zurich
 topic_type: topic
 last_updated: "2025-07-31"
-reading_time_minutes: 27
+reading_time_minutes: 30
 breadcrumb: [AI Experiences release notes, Features and changes by product, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
 ---
 
@@ -18,7 +18,6 @@ The ServiceNow® AI Control Tower application provides a centralized workspace t
 
 AI Control Tower highlights in Zurich patch 13:
 
--   Detect unsanctioned AI usage across your enterprise and apply policies to control it.
 -   Apply policies to block AI activity and respond to AI threats.
 -   Add evaluation metrics for a specific AI system without changing your organization's global metric configuration.
 -   Discard session, trace, and span data to reduce storage usage, while retaining quality and safety scores.
@@ -132,35 +131,31 @@ For more information on the legacy AI Control Tower experience, see [AI Control 
 
 ## Zurich Patch 13
 
-This release adds support for domain separation, discovery and management for shadow AI assets, policies, quality and safety metrics for specific assets, and more.
+This release adds support for domain separation, policies, quality and safety metrics for specific assets, and more.
 
 ### What's new
 
--   **Detect shadow AI**
-
-    Detect unsanctioned AI use in your organization and manage exposure by triaging detected AI services.
-
--   **Control AI asset usage through policies**
+-   **[Control AI asset usage through policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/gov-pol-landing.md)**
 
     Create AI asset usage policies that automatically respond to detected AI threats or block an AI agent, domain, or model outright.
 
--   **Add an Azure AI Foundry connection**
+-   **[Add an Azure AI Foundry connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/aict-configure-azure-foundry-security-connection.md)**
 
     Connect Azure AI Foundry to AI Control Tower so that policies and AI agent containment using kill switch protocol can reach and act on agents running on Azure AI Foundry.
 
--   **Add metrics from the AI system record**
+-   **[Add metrics from the AI system record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/mon-ai-configure-ai-system-metrics.md)**
 
     Add evaluation metrics for a specific AI system without changing your organization's global metric configuration.
 
--   **Add specific metrics for one or more external AI systems**
+-   **[Add specific metrics for one or more external AI systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/mon-ai-configure-asset-metrics-external.md)**
 
     Add, remove, or adjust the sample rate of metrics for one or more external AI systems, without changing your organization's global metric configuration.
 
--   **Add specific metrics for one or more ServiceNow AI systems**
+-   **[Add specific metrics for one or more ServiceNow AI systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/mon-ai-configure-asset-metrics-servicenow.md)**
 
     Add or remove metrics for one or more ServiceNow AI systems, without changing your organization's global metric configuration.
 
--   **Exclude an AI system from a metric**
+-   **[Exclude an AI system from a metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/mon-ai-exclude-ai-systems-external.md)**
 
     Exclude one or more AI systems from a specific metric, without changing that metric's configuration for every other system.
 
@@ -176,7 +171,7 @@ This release adds support for domain separation, discovery and management for sh
 
     Learn when a composite score might be skewed. See how many evaluations back each metric, and identify when uneven evaluation coverage is influencing the score more than the configured weight suggests.
 
--   **Trace data retention controls**
+-   **[Trace data retention controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/mon-ai-configure-trace-retention.md)**
 
     Keep session, trace, and span data for up to 30 days for scoring, or discard it to reduce storage usage, with quality and safety scores staying available either way. Discarding also disables AI Skill Kit insights and hides the evaluated sessions views.
 
@@ -190,14 +185,50 @@ This release adds support for domain separation, discovery and management for sh
 
 -   **[Configuring connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/aict-configuring-connectors.md)**
     -   The Microsoft connector introduces the A365 agent platform to discover and import AI assets into ServiceNow AI Control Tower.
+-   **[Monitor agent activity chart improvements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/mon-ai-monitoring-overview.md)**
+
+    Monitor agentic AI performance over time using new filter options in the Monitor agent activity chart. View the top five lowest performing metrics, top five highest performing metrics, or view performance for a specific metric in the chart.
+
+-   **[Session details improvements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/mon-ai-session-details.md)**
+
+    View a list of lowest scoring metrics and the LLM judge's reasoning in the Quality and Safety score cards on the Session details page.
+
+-   **Connectors**
+
+    Amazon Quick connector is a new connector which is part of discovering Systems, models, and prompts for creating AI connections.
+
+-   **[Edit an Explicit Block policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/gov-pol-edit-explicit-block-policy.md)**
+
+    Change who an Explicit Block policy blocks, what they're blocked from using, or its follow-up actions after the policy is published.
+
+-   **[Block AI usage by department](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/gov-pol-create-explicit-block-policy.md)**
+
+    Scope an Explicit Block policy to a department so everyone in that department is blocked from a specific AI agent, model, or domain.
+
+-   **[Use new role to contain AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/gov-sec-manage-ai-agents-using-kill-switch-protocol.md)**
+
+    Perform AI agent containment \(kill switch\) with the AI Security Operator role. You can deactivate an AI agent without requiring full AI Steward–level access.
+
+-   **Check whether the Security Analyzer agent is enabled**
+
+    Check the status of the Security Analyzer agent which determines security event severity and insights for your top recommendations, data integrity incident detection, system prompt leakage, correctness detection, prompt injection, and agent goal deviation metrics. Available on the Security Insights tab in Settings &gt; Rules and templates &gt; Security.
+
+-   **Sub-vendor AI costs**
+
+    Set a rate for a specific service from an integrated vendor, such as an agent platform. The sub-vendor rate takes precedence over the vendor rate. The vendor rate applies to any usage that doesn't have a sub-vendor rate.
+
+-   ****
+
+    Record per-seat subscription costs for integrated and non-integrated vendors. Specify the number of licensed seats, the cost per seat, and the contract dates. Optionally, add a one-time setup fee and distribute it over a set number of months so that it's included in the estimated monthly cost.
+
 
 ### What's changed
 
--   ****
+-   **[Domain separation and AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/aict-domain-separation.md)**
 
     Use AI Control Tower on a domain-separated instance.
 
--   ****
+-   **[Domain separation and AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/aict-domain-separation.md)**
 
     Use AI Control Tower on a domain-separated instance. In Security, detail pages for some metrics include a Domain column that shows the domain the AI asset belongs to, or shows `global` or is empty if domain separation isn't configured.
 
@@ -229,7 +260,7 @@ This release adds support for domain separation, discovery and management for sh
 
     The Kill Switch Protocol Log is renamed the Agent containment list, and the **View details** option on the containment banner is renamed **View containment options**. The list now includes Domain and Actions columns. Containment details now show how the containment was initiated \(Manual or Automated\) and identity and enforcement details. The list can be filtered using the All, In progress, or Contained options, which replace the previous Show all link.
 
--   ****
+-   **[AI Gateway](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-gateway.md)**
 
     Starting in the September 2026 release, AI Gateway is available in AI Control Tower.
 
@@ -237,19 +268,41 @@ This release adds support for domain separation, discovery and management for sh
     -   The GCP Vertex AI connector is renamed to Gemini Enterprise Agent Platform.
     -   The application AI Service Graph Connector for GCP is renamed to AI Service Graph Connector for Google.
     -   The Salesforce connector is renamed to AI Connector for Salesforce.
+-   **[View input and output in trace details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/mon-ai-session-details.md)**
+
+    Toggle between input and output when viewing trace details.
+
+-   **[Usability improvements to Security Overview metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/gov-sec-reference.md)**
+
+    See only actionable items in your top recommendations on the Security Overview tab. In addition, the recommendations rank AI agent insights by number of critical security events and show the agent name, critical event count, and top threat categories. The security events list now matches the list on the Post-runtime tab. The Access issues detailed view includes a description that explains each access issue in plain language—identifying the agent, the operation, the resource, and the denial count.
+
+-   **[Domain separation and AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/aict-domain-separation.md)**
+
+    Review sensitive data metrics for ServiceNow AI systems in a domain-separated instance. Available on the Runtime tab in Security.
+
+-   **[Configure Excessive Agency in Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/gov-sec-configure-event-metrics.md)**
+
+    Control whether Excessive Agency is enabled in Post-runtime configuration in Security. This setting controls data for Access issues and Privileged AI agents metrics, as well as post-runtime metrics. The setting is off by default.
+
+-   **[Post-runtime Security probabilistic metrics and AI agent disabled by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/gov-sec-configure-event-metrics.md)**
+
+    To reduce token consumption, screening for data integrity incident detection, system prompt leakage, correctness detection, prompt injection, and agent goal deviation is disabled by default. In addition, the Security Analyzer agent that determines security event severity and insights is disabled by default. The default sampling rate for all metrics is 1%. If you're upgrading, your Detection enabled setting for each metric isn’t affected. After upgrading, check your settings in **Settings** &gt; **Rules and templates** &gt; **Security** and adjust if needed.
+
 
 ### What's deprecated or removed
 
 -   **[Now LLM Service deprecation notice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/exploring-large-language-models.md)**
 
-    Starting with the September 2026 release, Now LLM Service is being prepared for future deprecation. The Now LLM Service is no longer the default model provider for new or inactive AI assets, and it is no longer selected by default in AI Control Tower. A third-party LLM is now selected by default for AI assets, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+    Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. We're committed to bringing you the latest industry advancements while maintaining sovereignty-focused options, all hosted and governed by ServiceNow with the infrastructure and data protections you rely on today. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+
+-   **[Traceloop Warehouse HTTPS connection removed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/gov-sec-configure-pi-sensitive-metrics.md)**
+
+    The base system Traceloop Warehouse HTTPS connection \(sn\_ai\_security.Traceloop\_API alias\) is removed. If you're upgrading and use Traceloop-based external AI metrics, create a new HTTPS connection under that alias and re-create your credential with connection URL `https://api.traceloop.com`.
 
 
 ### Plugin information
 
 -   **New plugins**
-
-    Shadow AI Detection \(sn\_shadow\_ai\): Detect unsanctioned AI use.
 
     AI Policy Framework \(sn\_ai\_policy\_framework\): Mitigate AI exposure through policies.
 
@@ -280,7 +333,7 @@ The ServiceNow® AI Control Tower application provides a centralized workspace t
 
     Track your AI portfolio from strategy to delivery with the Plan menu. Plan connects goal alignment, intake management, and execution tracking in a single workspace, giving portfolio managers and AI COE leads a current view of AI investments.
 
--   **[Conversational interface in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/aict-convrstn-support.md)**
+-   **[ServiceNow Otto in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/aict-convrstn-support.md)**
 
     Use ServiceNow Otto premium chat in AI Control Tower for a better conversational experience with unified search and chat capabilities, including integrated web search and file uploads.
 
@@ -342,7 +395,7 @@ The ServiceNow® AI Control Tower application provides a centralized workspace t
 
 -   **[Now Assist &gt; ServiceNow Otto® announcement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/sn-ai-implementation-landing.md)**
 
-    Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+    ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
 
 -   **[Discover your agent network with the map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/gov-sec-use-map.md)**
 

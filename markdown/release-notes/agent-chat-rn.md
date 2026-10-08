@@ -18,7 +18,7 @@ The ServiceNow® Agent Chat application enables agents to interact directly with
 
 Integrate and use Agent Chat with third-party chat apps.
 
-See  for more information.
+See [Using Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/ci-agent-chat-using.md) for more information.
 
 ## Activation and other requirements
 
@@ -26,7 +26,7 @@ See  for more information.
 
 -   **Activation information**
 
-    Agent Chat is a ServiceNow AI Platform feature that is available with activation of the Agent Chat plugin \(com.glide.interaction.awa\). For details, see .
+    Agent Chat is a ServiceNow AI Platform feature that is available with activation of the Agent Chat plugin \(com.glide.interaction.awa\). For details, see [Configuring Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/ci-agent-chat-configuring.md).
 
 
 **Parent Topic:**[Conversational Interfaces release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/conversational-interfaces-rn-landing.md)
@@ -37,7 +37,7 @@ The ServiceNow® Agent Chat application enables agents to interact directly with
 
 ### What's new
 
--   **Third-party chat integrations**
+-   **[Third-party chat integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/ci-agent-chat-using.md)**
 
     Use the new customer message area for third-party chat integrations to see these features:
 

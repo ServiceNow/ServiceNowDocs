@@ -86,6 +86,8 @@ Track and manage stockrooms efficiently by evaluating the inventory reports in t
 
 [Create an internal lifecycle in the Hardware Asset Workspace]()
 
+[Calculate the active lifecycle phase for a model]()
+
 [Receive asset warranty details from Lenovo]()
 
 [Track shipments using the integration framework]()

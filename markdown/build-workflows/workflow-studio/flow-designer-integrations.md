@@ -39,7 +39,7 @@ App Engine Studio
 
 </td></tr><tr><td>
 
-[Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/integrationhub.md)
+Integration Hub
 
 </td><td>
 
@@ -57,7 +57,7 @@ App Engine Studio
 
 </td></tr><tr><td>
 
-[Robotic Process Automation \(RPA\) Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/rpa-main-landing-page.md)
+Robotic Process Automation \(RPA\) Hub
 
 </td><td>
 

@@ -14,7 +14,7 @@ breadcrumb: [Agent auto assignment using rating-based criteria, Agent auto assig
 
 Agents can be auto assigned based on the skills of an agent, and the skills required to perform the task. Assign skills to an agent user records using **Skills** &gt; **Users**.
 
-Auto assignment by skills can be performed in either a [task- or request-driven processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/service-management-for-the-enterprise/c_TaskVsRequestDrivenProcessing.md) environment when the **Auto-selection of agents for tasks requires them to have skills** configuration option must be set to **all** or **some** for the application.
+Auto assignment by skills can be performed in either a task- or request-driven processing environment when the **Auto-selection of agents for tasks requires them to have skills** configuration option must be set to **all** or **some** for the application.
 
 When a task that includes skills is qualified or marked as **Ready for Work**, skills of each agent are compared with the skills required to perform the task, and a rating is calculated based on the skills configuration option. If the option is set to **some**, the agent with the closest skills match is auto-assigned the task. If the option is set to **all**, only agents who possess all the required skills are considered. If no agents possess all the skills required to perform the task, none are auto-assigned.
 

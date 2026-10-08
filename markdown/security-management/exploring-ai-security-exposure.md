@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/exploring-ai-security-exposure.html
 release: zurich
 topic_type: concept
-last_updated: "2026-09-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 keywords: [explore]
 breadcrumb: [Use, Unified Security Exposure Management, Security Operations]
@@ -96,9 +96,9 @@ To learn more about configuring and using AI Security Exposure Management, see:
 -   [Configuring remediation task rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sem-configure-remediation-task-rules.md)
 
 -   **[Using the AI guardrails helper skill and agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/ai-security-exposure-skill-agent.md)**  
-You have the option to use a generative AI skill and agentic workflow to help you understand what type of findings you have, understand the guardrails associated with findings, and see why the skill mapped guardrails to particular findings.
+The AI guardrails helper skill and agentic workflow can help you understand finding types, associated guardrails, and how guardrails map to findings. See what type of findings you have, understand the guardrails associated with findings, and see why the skill to mapped guardrails to particular findings.
 -   **[Using AI remediation workflows with Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/ai-security-exposure-employee-workflow.md)**  
-AI Security Exposure Management integrates with Employee Center and third-party security tools to enable AI asset owners to remediate AI posture findings \(configuration issues\) directly through lightweight tasks.
+AI Security Exposure Management integrates with Employee Center and third-party security tools to enable AI asset owners to remediate AI posture findings \(configuration issues\) directly through lightweight tasks. These tasks can reduce time to remediate \(TTR\) by assigning a task directly to the asset owner.
 
 **Parent Topic:**[Using Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/using-unified-security-exposure-management.md)
 

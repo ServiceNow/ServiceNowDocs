@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/now-assist
 release: zurich
 topic_type: topic
 last_updated: "2025-07-31"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [App development and low-code release notes, Features and changes by product, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
 ---
 
@@ -28,7 +28,7 @@ The ServiceNow® ServiceNow Otto for App Engine application enables creators to 
 
 -   Use Google Gemini and Anthropic Claude on AWS as AI model providers for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
 
-See  for more information.
+See [ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/add-ai-to-custom-apps-with-now-assist-for-app-engine-enterprise.md) for more information.
 
 ## Activation and other requirements
 
@@ -58,17 +58,17 @@ The ServiceNow® ServiceNow Otto for App Engine application enables creators to 
 
 ### What's new
 
--   ****
+-   **[Custom app record summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/custom-app-record-summarization-na-for-app-engine.md)**
 
     Generate summaries for records in custom applications and tables with the custom app record summarization skill.
 
--   ****
+-   **[Configure the custom app record summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/configure-custom-app-record-summarization-na-for-app-engine.md)**
 
     Configure the custom app record summarization skill so that it generates summaries for the tables and records that you specify. You can add context about the table or tables and describe the purpose of the table, so that Now Assist can use that information when generating summaries.
 
--   ****
+-   **[Summarize a record in-product using ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/summarize-record-in-product-na-for-app-engine.md)**
 
-    Select the **Summarize** button on a record in-product to generate a summary. You can also summarize a record through chat in the Now Assist panel. See  for more information.
+    Select the **Summarize** button on a record in-product to generate a summary. You can also summarize a record through chat in the Now Assist panel. See [Summarize a record through chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/summarize-record-through-chat-na-for-app-engine.md) for more information.
 
 
 ## Zurich General Availability

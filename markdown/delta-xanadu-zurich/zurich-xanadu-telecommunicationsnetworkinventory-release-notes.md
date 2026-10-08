@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-telecommunicationsnetworkinventory-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
-reading_time_minutes: 10
+last_updated: "2026-10-08"
+reading_time_minutes: 11
 breadcrumb: [Products combined by family]
 ---
 
@@ -46,7 +46,10 @@ Yokohama
 
 </td><td>
 
+-   **Upgrade information**
+
 The Yokohama release needs the Xanadu platform version to support the Design and Assign playbook feature.
+
 
 </td></tr><tr><td>
 
@@ -170,7 +173,7 @@ Zurich
 Logical interfaces created are now automatically related to their corresponding cards or parent equipment. This enhancement ensures consistency across systems and helps prevent duplicate CI creation by improving the alignment between logical and physical interfaces.
 
 
--   **[Visualize your network infrastructure](https://www.servicenow.com/docs/access?context=data-center-inventory-management&family=zurich&ft:locale=en-US)**
+ -   **[Visualize your network infrastructure](https://www.servicenow.com/docs/access?context=data-center-inventory-management&family=zurich&ft:locale=en-US)**
 
 Use the new L1 menu that consolidates all network visualizations into a single canvas and include a tabular section for each view, such as site, floor, and topology. The following roles are introduced to manage datacenter infrastructure.
 
@@ -272,7 +275,36 @@ Zurich
 
 </td><td>
 
--   **[Define network service instance details](https://www.servicenow.com/docs/access?context=create_application_services&family=zurich&ft:locale=en-US)**
+-   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+-   **[Visualize your network infrastructure](https://www.servicenow.com/docs/access?context=data-center-inventory-management&family=zurich&ft:locale=en-US)**
+
+The Network Visualization L1 menu is added to the Telecommunications Network Inventory Workspace. The Topology L1 menu has been removed and is available as **Topology** tab within the Network Visualization view.
+
+-   **[Geo map](https://www.servicenow.com/docs/access?context=visualization-map&family=zurich&ft:locale=en-US)**
+
+Network site map L1 menu is removed and repositioned as **Geo map** tab in the Network visualization view.
+
+-   **[Define the power circuit details](https://www.servicenow.com/docs/access?context=define-power-circuit-details&family=zurich&ft:locale=en-US)**
+
+The **Power Circuits** inventory is added.
+
+-   **[Define the facility hardware details](https://www.servicenow.com/docs/access?context=define-facility-hardware-details&family=zurich&ft:locale=en-US)**
+
+The **All Facilities** inventory is added.
+
+-   **[Create a facility model](https://www.servicenow.com/docs/access?context=create-facility-model&family=zurich&ft:locale=en-US)**
+
+The **Facility Models** inventory model is added.
+
+-   **[Lists view](https://www.servicenow.com/docs/access?context=network-inventory-workspace-list-view&family=zurich&ft:locale=en-US)**
+
+The **Network site** is renamed to **Site**.
+
+
+ -   **[Define network service instance details](https://www.servicenow.com/docs/access?context=create_application_services&family=zurich&ft:locale=en-US)**
 
 **xNF Instance** is renamed to **Service Instance**.
 
@@ -382,7 +414,12 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Install Telecommunications Network Inventory by requesting it from the ServiceNow Store. For details about the installation procedure, see [Install Telecommunications Network Inventory](https://www.servicenow.com/docs/access?context=installing-telecommunications-network-inventory&family=yokohama&ft:locale=en-US).
+
+
+**Important:** Telecommunications Network Inventory is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 
@@ -390,7 +427,12 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Install Network Inventory Advanced plugin \(sn\_ni\_adv\) by requesting it from the ServiceNow Store. For installation details, see [Install TNI](https://www.servicenow.com/docs/access?context=installing-telecommunications-network-inventory&family=zurich&ft:locale=en-US). Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
+
+**Important:** Telecommunications Network Inventory is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -427,8 +469,9 @@ Zurich
 
 </td><td>
 
--   You must install Telecommunications Alarm Management Open API \(sn\_ind\_tmf642\) and Customer Service Problem Management \(sn\_sprb\_mgmt\) plugin to view incident and alert details.
--   You must install the Indoor Mapping plugin \(sn\_map\_core\) to create and manage floor maps for data centers.
+-   **Additional requirements**
+    -   You must install Telecommunications Alarm Management Open API \(sn\_ind\_tmf642\) and Customer Service Problem Management \(sn\_sprb\_mgmt\) plugin to view incident and alert details.
+    -   You must install the Indoor Mapping plugin \(sn\_map\_core\) to create and manage floor maps for data centers.
 
 </td></tr></tbody>
 </table>## Browser requirements

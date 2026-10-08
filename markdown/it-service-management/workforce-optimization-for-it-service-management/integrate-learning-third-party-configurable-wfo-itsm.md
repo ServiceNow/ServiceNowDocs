@@ -135,15 +135,15 @@ Configuration set to push a record if the previous push fails.**Note:** This fie
 </table>    7.  Click **Update**.
 2.  Integrate your ServiceNow instance with your third-party learning source accounts.
 
-<table id="choicetable_bzs_wvn_rpb"><thead><tr><th align="left" id="d169926e336">
+<table id="choicetable_bzs_wvn_rpb"><thead><tr><th align="left" id="d171825e336">
 
 To integrate with this third-party learning source
 
-</th><th align="left" id="d169926e339">
+</th><th align="left" id="d171825e339">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d169926e345">
+</th></tr></thead><tbody><tr><td id="d171825e345">
 
 **Pluralsight Skills account**
 
@@ -151,7 +151,7 @@ Do this
 
 Use an API key to authenticate the ServiceNow requests. Follow the steps in [Set up the Pluralsight spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/setup-pluralsight-spk.md) to perform the integration.
 
-</td></tr><tr><td id="d169926e361">
+</td></tr><tr><td id="d171825e361">
 
 **Cornerstone application**
 
@@ -159,7 +159,7 @@ Use an API key to authenticate the ServiceNow requests. Follow the steps in [Set
 
 Register an OAuth application in Cornerstone and authenticate requests from ServiceNow. Follow the steps in [Set up the Cornerstone spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/setup-cornerstone.md) to perform the integration.
 
-</td></tr><tr><td id="d169926e377">
+</td></tr><tr><td id="d171825e377">
 
 **Udemy application**
 
@@ -167,7 +167,7 @@ Register an OAuth application in Cornerstone and authenticate requests from Serv
 
 **Note:** You must manually configure fields such as logos and course reassignments in the learning system configuration table.
 
-</td></tr><tr><td id="d169926e389">
+</td></tr><tr><td id="d171825e389">
 
 **ServiceNow University application**
 

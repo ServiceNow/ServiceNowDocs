@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-operationaltechnologychangemanagement-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
+last_updated: "2026-10-08"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -123,7 +123,14 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+-   **[Incidents Fixed by Change related list](https://www.servicenow.com/docs/access?context=create-ot-incident-from-ot-change&family=yokohama&ft:locale=en-US)**
+
+The Incidents Fixed by Change related list was added to the OT change request record in the Industrial Workspace. You can use this related list to create an OT incident or link an existing OT incident that has been fixed by the OT change request.
+
+-   **[Incidents Caused by Change related list](https://www.servicenow.com/docs/access?context=create-ot-incident-from-ot-change&family=yokohama&ft:locale=en-US)**
+
+The Incidents Caused by Change related list was added to the OT change request record in the Industrial Workspace. You can use this related list to create an OT incident or link an existing OT incident that is needed because of the OT change request.
+
 
 </td></tr><tr><td>
 
@@ -236,7 +243,12 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Install Operational Technology Change Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
+
+**Important:** Operational Technology Change Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 

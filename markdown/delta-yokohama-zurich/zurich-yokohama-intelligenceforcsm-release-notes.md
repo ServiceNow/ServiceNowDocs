@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-intelligenceforcsm-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
-reading_time_minutes: 10
+last_updated: "2026-10-08"
+reading_time_minutes: 12
 breadcrumb: [Products combined by family]
 ---
 
@@ -67,7 +67,31 @@ Yokohama
 
 </td><td>
 
--   **[Recommended Actions - Front-line case page integration with knowledge guidance](https://www.servicenow.com/docs/access?context=csm-front-line-case-page&family=yokohama&ft:locale=en-US)**
+-   **[Recommended Actions – AI search on CSM default record page, Front line case page, and CSM interaction record page](https://www.servicenow.com/docs/access?context=ra-csm-ai-search&family=yokohama&ft:locale=en-US)**
+
+The Recommended Actions – AI search is introduced on the [CSM default record page](https://www.servicenow.com/docs/access?context=csm-default-record-page&family=yokohama&ft:locale=en-US), [Front-line case page](https://www.servicenow.com/docs/access?context=csm-front-line-case-page&family=yokohama&ft:locale=en-US), and [CSM Interaction record page](https://www.servicenow.com/docs/access?context=csm-interaction-record-page&family=yokohama&ft:locale=en-US) \(for the chat, video, walk-up, and email type channels\) and it’s enabled by default for new customers. The default guidance is also enabled for these pages. Agents can attach and share knowledge article links in comments, work notes, and emails.
+
+-   **[Recommended Actions - Catalog item source type for AI search](https://www.servicenow.com/docs/access?context=ra-csm-ai-search&family=yokohama&ft:locale=en-US)**
+
+Search and filter the catalog items easily in the AI search tab of Recommended Actions in the CRM Workspace.
+
+-   **[Recommended Actions - Ability to have multiple active contexts for the same table](https://www.servicenow.com/docs/access?context=ra-csm-contexts&family=yokohama&ft:locale=en-US)**
+
+Enables multiple active contexts for the same table, so that tailored recommendations are displayed in the CRM Workspace:
+
+    -   For different user personas based on their requirements.
+    -   For different Predictive Intelligence models or AI model variants.
+    -   For the same record in different channels, such as chat, email, and so on.
+-   **[Recommended Actions - Ability to inherit active rules and their recommendations from a parent table context to extended table context](https://www.servicenow.com/docs/access?context=ra-csm-contexts&family=yokohama&ft:locale=en-US)**
+
+Assign the active rules and their recommendations from the parent table context to the extended context table for a streamlined process.
+
+-   **[Recommended Actions - Asynchronous evaluation for recommendations](https://www.servicenow.com/docs/access?context=ra-csm-contexts&family=yokohama&ft:locale=en-US)**
+
+Enables you to configure loading behavior at the context level by choosing between synchronous and asynchronous modes. In the asynchronous mode, recommendations load in the background without blocking the UI, allowing agents to interact with the record immediately.
+
+
+ -   **[Recommended Actions - Front-line case page integration with knowledge guidance](https://www.servicenow.com/docs/access?context=csm-front-line-case-page&family=yokohama&ft:locale=en-US)**
 
 Enable agents to attach and share knowledge article links in comments, work notes, or emails by using modeless dialogs.
 
@@ -95,36 +119,14 @@ Enable agents to view Recommended Actions in the contextual side panel on the CS
 
 Use the Interaction Context record to display the search results from the Knowledge table. The results are based on the interaction's short description. This context record includes a search-mapping record that maps knowledge results to the Share KB in chat interactions guidance.
 
--   **[Recommended Actions - Question font size customization for a Decision tree](https://www.servicenow.com/docs/access?context=configure-decision-trees-gdb&family=yokohama&ft:locale=en-US)**
 
-Enables you to customize the font size of questions in a Decision tree for a better look and feel. This font size is applied to the questions in the decision trees of playbooks, and recommendations, within the CSM Configurable Workspace and service portal.
+ -   **[Recommended Actions - Question font size customization for a Decision tree](https://www.servicenow.com/docs/access?context=configure-decision-trees-gdb&family=yokohama&ft:locale=en-US)**
+
+Enables you to customize the font size of questions in a Decision tree for a better look and feel. This font size is applied to the questions in the decision trees of playbooks, and recommendations, within the CRM Workspace and service portal.
 
 -   **[Recommended Actions - Control the visibility of completed guidance information](https://www.servicenow.com/docs/access?context=create-guidances&family=yokohama&ft:locale=en-US)**
 
-Allows you to manage the visibility of the completed guidance history information of a decision tree in playbooks, and recommendations for an agent, within the CSM Configurable Workspace, and service portal for a streamlined experience.
-
--   **[Recommended Actions – AI search on CSM default record page, Front line case page, and CSM interaction record page](https://www.servicenow.com/docs/access?context=ra-csm-ai-search&family=yokohama&ft:locale=en-US)**
-
-The Recommended Actions – AI search is introduced on the [CSM default record page](https://www.servicenow.com/docs/access?context=csm-default-record-page&family=yokohama&ft:locale=en-US), [Front-line case page](https://www.servicenow.com/docs/access?context=csm-front-line-case-page&family=yokohama&ft:locale=en-US), and [CSM Interaction record page](https://www.servicenow.com/docs/access?context=csm-interaction-record-page&family=yokohama&ft:locale=en-US) \(for the chat, video, walk-up, and email type channels\) and it’s enabled by default for new customers. The default guidance is also enabled for these pages. Agents can attach and share knowledge article links in comments, work notes, and emails.
-
--   **[Recommended Actions - Catalog item source type for AI search](https://www.servicenow.com/docs/access?context=ra-csm-ai-search&family=yokohama&ft:locale=en-US)**
-
-Search and filter the catalog items easily in the AI search tab of Recommended Actions in the CSM Configurable Workspace.
-
--   **[Recommended Actions - Ability to have multiple active contexts for the same table](https://www.servicenow.com/docs/access?context=ra-csm-contexts&family=yokohama&ft:locale=en-US)**
-
-Enables multiple active contexts for the same table, so that tailored recommendations are displayed in the CSM Configurable Workspace:
-
-    -   For different user personas based on their requirements.
-    -   For different Predictive Intelligence models or AI model variants.
-    -   For the same record in different channels, such as chat, email, and so on.
--   **[Recommended Actions - Ability to inherit active rules and their recommendations from a parent table context to extended table context](https://www.servicenow.com/docs/access?context=ra-csm-contexts&family=yokohama&ft:locale=en-US)**
-
-Assign the active rules and their recommendations from the parent table context to the extended context table for a streamlined process.
-
--   **[Recommended Actions - Asynchronous evaluation for recommendations](https://www.servicenow.com/docs/access?context=ra-csm-contexts&family=yokohama&ft:locale=en-US)**
-
-Enables you to configure loading behavior at the context level by choosing between synchronous and asynchronous modes. In the asynchronous mode, recommendations load in the background without blocking the UI, allowing agents to interact with the record immediately.
+Allows you to manage the visibility of the completed guidance history information of a decision tree in playbooks, and recommendations for an agent, within the CRM Workspace, and service portal for a streamlined experience.
 
 
 </td></tr><tr><td>
@@ -137,15 +139,8 @@ Zurich
 
 Added support for the Guided Decision with Inputs and Outputs activity in Playbook. Use this activity to embed decision trees that accept inputs and generate outputs, guiding users through complex decisions within your playbooks.
 
--   **[Recommended Actions - View the relevancy score of the AI search results](https://www.servicenow.com/docs/access?context=nba-use-ai-search&family=zurich&ft:locale=en-US)**
 
-View the relevancy score on the search result recommendation cards in the Search tab of the Recommended Actions panel for the default guidance for search results, Attach and share article, Share KB in chat interactions, and all no-code \( Link incident to current case, Link problem to current case, and Link change request to current case\) guidances. To enable this feature, you must enable the Show relevancy score for results check box in the Context form.
-
--   **[Recommended Actions – Limit the number of search results for more precise output](https://www.servicenow.com/docs/access?context=nba-use-ai-search&family=zurich&ft:locale=en-US)**
-
-Limit the number of search results \(Top N\) that appear in the AI search tab in the Recommended Actions context side panel. To configure top N search results, you must enable the Top N check box in the Context form and then define the Search Results Limit in the Search Application Configuration.
-
--   **[Recommended Actions - Filter search results across multiple sources in the Contextual side panel](https://www.servicenow.com/docs/access?context=nba-use-ai-search&family=zurich&ft:locale=en-US)**
+ -   **[Recommended Actions - Filter search results across multiple sources in the Contextual side panel](https://www.servicenow.com/docs/access?context=nba-use-ai-search&family=zurich&ft:locale=en-US)**
 
 Filter search results corresponding to multiple sources in the AI search tab of the Recommended Actions contextual side panel. You can also filter the search results at the facet-level.
 
@@ -157,9 +152,19 @@ Track and analyze the AI search usage in Recommended Actions using the AI search
 
 Access Task Intelligence \(TI\) solution definitions in read-only mode as a Resource Generator author \[sn\_nb\_action.resource\_generator\_author\] to configure recommendations with Machine Learning \(ML\) solutions from TI models. In other words, the sn\_ti\_admin.tia\_user role is added to the Resource Generator author role.
 
--   **[Recommended Actions - Filter search results across multiple sources on the Search page](https://www.servicenow.com/docs/access?context=nba-use-ai-search&family=zurich&ft:locale=en-US)**
+
+ -   **[Recommended Actions - Filter search results across multiple sources on the Search page](https://www.servicenow.com/docs/access?context=nba-use-ai-search&family=zurich&ft:locale=en-US)**
 
 Filter search results corresponding to multiple sources on the Search page. You can also filter the search results at facet-level.
+
+
+ -   **[Recommended Actions - View the relevancy score of the AI search results](https://www.servicenow.com/docs/access?context=nba-use-ai-search&family=zurich&ft:locale=en-US)**
+
+View the relevancy score on the search result recommendation cards in the Search tab of the Recommended Actions panel for the default guidance for search results, Attach and share article, Share KB in chat interactions, and all no-code \( Link incident to current case, Link problem to current case, and Link change request to current case\) guidances. To enable this feature, you must enable the Show relevancy score for results check box in the Context form.
+
+-   **[Recommended Actions – Limit the number of search results for more precise output](https://www.servicenow.com/docs/access?context=nba-use-ai-search&family=zurich&ft:locale=en-US)**
+
+Limit the number of search results \(Top N\) that appear in the AI search tab in the Recommended Actions context side panel. To configure top N search results, you must enable the Top N check box in the Context form and then define the Search Results Limit in the Search Application Configuration.
 
 -   **[Recommended Actions - Optimize the Recommended Actions refresh behavior by excluding non-critical field updates](https://www.servicenow.com/docs/access?context=ra-csm-contexts-create&family=zurich&ft:locale=en-US)**
 
@@ -177,7 +182,7 @@ Configure JSON-based context inputs in a context to populate accurate recommenda
 
 -   **[Recommended Actions - Enhanced KB article sharing for Agents](https://www.servicenow.com/docs/access?context=ra-csm-guidances-attach-share-article&family=zurich&ft:locale=en-US)**
 
-Identify the Knowledge Base \(KB\) articles that are not accessible to the case requester with the help of a Lock icon. In the recommendations on the contextual side panel of the CSM Configurable Workspace, a Lock icon on a recommendation card denotes that the recommended KB article cannot be accessed by the case requester.
+Identify the Knowledge Base \(KB\) articles that are not accessible to the case requester with the help of a Lock icon. In the recommendations on the contextual side panel of the CRM Workspace, a Lock icon on a recommendation card denotes that the recommended KB article cannot be accessed by the case requester.
 
 -   **[Process Mining - SLA breach analysis](https://www.servicenow.com/docs/access?context=csm-integration-po&family=zurich&ft:locale=en-US)**
 
@@ -215,7 +220,14 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **[Recommended Actions - The primary call-to-action changes on the KB article recommendation card](https://www.servicenow.com/docs/access?context=ra-csm-contexts&family=zurich&ft:locale=en-US)**
+
+The primary call-to-action \(CTA\) on a recommended knowledge base article is determined by the source channel of the case. If the case originates from an email, the primary CTA displayed is Attach and share link in the email. For all the other channels, the primary CTA is Attach and add link in comments. If the article isn’t accessible to the requester, the primary CTA is set to Read article. Accessible articles display the full set of actions \(Attach and add link in comments, Add link in work note, and so on\). Inaccessible articles are limited to internal-use actions only \(Read article, Share link in work notes, and so on\).
+
+-   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
 
 </td></tr></tbody>
 </table>## Removed
@@ -294,7 +306,18 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Customer Service Management is available with activation of the Customer Service plugin \(com.sn\_customerservice\). For details, see [Activate Customer Service Management](https://www.servicenow.com/docs/access?context=t_ActivateCustomerService&family=yokohama&ft:locale=en-US).
+
+
+**Important:** The following applications are available in ServiceNow Store:
+
+-   Recommended Actions \(sn\_nb\_action\)
+-   Recommended Actions for Customer Service \(sn\_cs\_nb\_action\)
+-   Task Intelligence for Customer Service \(com.snc.csm\_ml\_task\)
+
+For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 
@@ -302,7 +325,19 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Customer Service Management is available with activation of the Customer Service plugin \(com.sn\_customerservice\). For details, see [Activate Customer Service Management](https://www.servicenow.com/docs/access?context=t_ActivateCustomerService&family=zurich&ft:locale=en-US).
+
+
+**Important:** The following applications are available in ServiceNow Store:
+
+-   Guided Decisions Experience \(sn\_ga\_exp\)
+-   Recommended Actions \(sn\_nb\_action\)
+-   Recommended Actions for Customer Service \(sn\_cs\_nb\_action\)
+-   Task Intelligence for Customer Service \(com.snc.csm\_ml\_task\)
+
+For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -352,7 +387,10 @@ Yokohama
 
 </td><td>
 
+-   **Browser requirements**
+
 ServiceNow workspaces don’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge - Chromium or one of the other supported browsers listed in [Browser support](https://www.servicenow.com/docs/access?context=browser-support&family=yokohama&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -360,7 +398,10 @@ Zurich
 
 </td><td>
 
+-   **Browser requirements**
+
 ServiceNow workspaces don’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge - Chromium or one of the other supported browsers listed in [Browser support](https://www.servicenow.com/docs/access?context=browser-support&family=zurich&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Accessibility information
@@ -389,7 +430,11 @@ Zurich
 
 </td><td>
 
--   ****
+-   **Accessibility information**
+    -   **Dark theme**
+
+The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
 
 </td></tr></tbody>
 </table>## Localization information
@@ -452,7 +497,7 @@ Zurich
 
 </td><td>
 
--   Get enhanced visibility of knowledge base articles by marking and displaying a lock icon for articles that aren’t accessible to the case requester within the CSM Configurable Workspace.
+-   Get enhanced visibility of knowledge base articles by marking and displaying a lock icon for articles that aren’t accessible to the case requester within the CRM Workspace.
 -   Gain insights to the root causes of case service level agreement \(SLA\) breaches and view the suggested improvements to optimize process performance.
 
  See [Intelligence for CSM](https://www.servicenow.com/docs/access?context=intelligence-csm&family=zurich&ft:locale=en-US) for more information.

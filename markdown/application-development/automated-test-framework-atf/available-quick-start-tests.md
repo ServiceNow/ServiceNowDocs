@@ -4765,7 +4765,7 @@ The Reporting quick start test Automated Test Framework - Reporting plugin \(com
 |----|-----------|---------------|
 |Report Visibility|Confirm whether reports are still visible to users whom they are shared with.|Madrid|
 
-## Software Asset Management Foundation plugin Software Asset Management
+## Basic Software Asset Management Software Asset Management
 
 Software Asset Management quick start tests require activating the Software Asset Management Professional plugin \(com.snc.samp\). Some quick start tests require activating the following additional plugins.
 

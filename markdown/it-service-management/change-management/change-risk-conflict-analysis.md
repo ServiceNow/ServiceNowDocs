@@ -1,22 +1,26 @@
 ---
-title: Analyze change request risk and impact rating
-description: After you create a change request, you can assess and analyze the risk and impact rating for the change request. You can review any conflicts that are detected by reviewing the change request.
+title: Analyze change request risk and impact
+description: Assess and analyze the risk and impact involved in the change request. You can review any conflicts that are detected by reviewing the change request.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/change-management/change-risk-conflict-analysis.html
 release: zurich
 product: Change Management
 classification: change-management
 topic_type: concept
-last_updated: "2026-09-16"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [Reference, Change Management, IT Service Management]
 ---
 
-# Analyze change request risk and impact rating
+# Analyze change request risk and impact
 
-After you create a change request, you can assess and analyze the risk and impact rating for the change request. You can review any conflicts that are detected by reviewing the change request.
+Assess and analyze the risk and impact involved in the change request. You can review any conflicts that are detected by reviewing the change request.
 
-Analyze the risk of change and review detected conflicts in the following ways.
+After you create a change request, assess and review its risk, impact, and conflicts in the following ways:
+
+-   Understand how risk and impact are calculated and assessed, see [Risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/c_RskAsmtCalc.md).
+-   Configure the conditions that set the **Risk** and **Impact** field values. See [Risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/c_RskAsmtCalc.md).
+-   Review scheduling conflicts detected for the change request. See [Conflict detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/c_ConflictDetection.md).
 
 -   **[Risk conditions and calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/change-management/change-risk-assess-detect-conflict.md)**  
 Change Management features provide ways to calculate and assess the risk of change requests, and to identify and resolve conflicts.

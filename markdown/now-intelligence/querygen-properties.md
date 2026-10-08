@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/queryge
 release: zurich
 topic_type: reference
 last_updated: "2026-02-03"
-reading_time_minutes: 6
+reading_time_minutes: 7
 breadcrumb: [Reference, Query Generation, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
 
@@ -27,6 +27,19 @@ Property
 Description
 
 </th></tr></thead><tbody><tr><td>
+
+sn\_query\_gen.default\_source\_type
+
+</td><td>
+
+The data source type that AI Data Explorer uses in responses—table or indicator—when there are no query keywords or explicit context to determine this. Does not apply in agentic mode.
+
+-   Type: Choice \(table \| indicator\)
+-   Default value: table
+-   Location: System Property \[sys\_properties\] table
+-   Learn more: [Indicator vs Table data source selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/indicator-vs-table-data-source-selection.md)
+
+</td></tr><tr><td>
 
 sn\_query\_gen.hidden\_insights.groupby.min\_fields
 

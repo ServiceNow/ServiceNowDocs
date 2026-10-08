@@ -7,7 +7,7 @@ release: zurich
 topic_type: topic
 last_updated: "2026-09-03"
 reading_time_minutes: 6
-keywords: [Now Assist, AI Agents, generative AI, agentic AI, Now Assist, AI Agents, generative AI, agentic AI, Now Assist, AI Agents, generative AI, agentic AI, Now Assist, AI Agents, generative AI, agentic AI, Now Assist, AI Agents, generative AI, agentic AI, Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, ServiceNow Otto, AI Agents, generative AI, agentic AI, ServiceNow Otto, AI Agents, generative AI, agentic AI, ServiceNow Otto, AI Agents, generative AI, agentic AI, ServiceNow Otto, AI Agents, generative AI, agentic AI, ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [ServiceNow AI Platform administration release notes, Features and changes by product, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
 ---
 
@@ -53,7 +53,7 @@ The ServiceNow® AI Search application provides a consumer-grade search experien
 
 -   **[ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/now-assist-ais.md)**
 
-    Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows. Name changes include but aren't limited to:
+    ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows. Name changes include but aren't limited to:
 
     -   Now Assist in AI Search is now ServiceNow Otto for AI Search.
     -   Now Assist Actions is now Actions.

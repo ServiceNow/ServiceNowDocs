@@ -87,5 +87,5 @@ The relationship conditions that a CI must fail,based on records in the CI Relat
 **Related topics**  
 
 
-[CMDB Health Dashboard for Helsinki \| Overview](https://youtu.be/CvMRT3NExIo)
+[CMDB Health Dashboard overview](https://www.youtube.com/watch?v=aPHxWoVdD1c)
 

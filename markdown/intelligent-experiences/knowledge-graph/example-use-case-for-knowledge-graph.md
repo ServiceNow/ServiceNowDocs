@@ -8,7 +8,7 @@ product: Knowledge Graph
 classification: knowledge-graph
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 5
+reading_time_minutes: 6
 breadcrumb: [Exploring Knowledge Graph, Knowledge Graph, Enable AI experiences]
 ---
 
@@ -22,7 +22,10 @@ In this release, the available prebuilt integrations with ServiceNow® Otto for 
 2.  Integration with Now Assist for Slot filling: Helps requesters and fulfillers in pre-filling the slots for LLM topics and skills execution using Natural Language Querying of Knowledge Graph.
 3.  Integration with Now Assist for Natural Language Query graph: Helps requesters and fulfillers with personalized responses on people queries and Natural Language queries. Also supports people citation card.
 
-**Note:** To enable Knowledge Graph for Now Assist Virtual Agent, ensure that **sn\_vad\_genai.knowledge\_graph.enabled** and **sn\_ais\_assist.enable\_knowledge\_graph\_nlq** system properties are set to true. See [Add a Knowledge Graph schema to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/add-kg-schema-assistant.md).
+**Note:**
+
+-   To enable Knowledge Graph for Virtual Agent, ensure that **sn\_vad\_genai.knowledge\_graph.enabled** and **sn\_ais\_assist.enable\_knowledge\_graph\_nlq** system properties are set to true. See [Add a Knowledge Graph schema to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/add-kg-schema-assistant.md).
+-   To enable Knowledge Graph for external users, with user role `snc_external`, verify if the **sn\_kg.enable\_external\_user\_check** property is set to true.
 
 For more information see [Add a Knowledge Graph schema to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/add-kg-schema-assistant.md).
 

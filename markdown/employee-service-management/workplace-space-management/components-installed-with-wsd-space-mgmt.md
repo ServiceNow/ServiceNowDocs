@@ -38,7 +38,7 @@ sn\_wsd\_spcmgmt.admin
 
 </td><td>
 
-As a Workplace Space Management admin, you can access the application completely.
+As a Workplace Space Management admin, you can access the application completely and perform any task that require other space management roles.
 
 </td><td>
 
@@ -50,7 +50,7 @@ sn\_wsd\_spcmgmt.manager
 
 </td><td>
 
-As a Workplace Space Manager, you can access the application completely.
+As a Workplace Space Manager, you can access the application completely and perform any task that require other space management roles.
 
 </td><td>
 

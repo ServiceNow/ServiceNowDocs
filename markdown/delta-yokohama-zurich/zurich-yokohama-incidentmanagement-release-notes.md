@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-incidentmanagement-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
+last_updated: "2026-10-08"
 reading_time_minutes: 8
 breadcrumb: [Products combined by family]
 ---
@@ -172,7 +172,12 @@ Zurich
 
 </td><td>
 
--   **[Incident task record behavior changes](https://www.servicenow.com/docs/access?context=create-incident-task&family=zurich&ft:locale=en-US)**
+-   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+
+ -   **[Incident task record behavior changes](https://www.servicenow.com/docs/access?context=create-incident-task&family=zurich&ft:locale=en-US)**
 
 When an incident task is closed, you can no longer edit the field values in the incident task form. Disabling the fields helps prevent any further updates or modifications to closed incident tasks, reducing audit risks.
 
@@ -260,7 +265,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Incident Management is a ServiceNow AI Platform feature that is active by default.
+
 
 </td></tr><tr><td>
 
@@ -268,7 +276,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Incident Management is a ServiceNow AI Platform feature that is active by default.
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -355,7 +366,11 @@ Zurich
 
 </td><td>
 
--   ****
+-   **Accessibility information**
+    -   **Dark theme**
+
+The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
 
 </td></tr></tbody>
 </table>## Localization information

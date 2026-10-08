@@ -7,9 +7,9 @@ release: zurich
 product: AI Search
 classification: ai-search
 topic_type: task
-last_updated: "2026-06-02"
+last_updated: "2026-09-29"
 reading_time_minutes: 6
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Microsoft SharePoint Online external content connector, Configure, External Content Connectors, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer]
 ---
 
@@ -41,7 +41,7 @@ When the connector's indexed content item count exceeds eight million \(8,000,00
 
 The Microsoft SharePoint Online external content connector can handle permissions for up to five hundred thousand \(500,000\) users and their groups. If the connector retrieves users in excess of this limit, user and group permissions may not be correctly applied to the connector's retrieved content. As a result, the content may not be searchable.
 
-If your Microsoft SharePoint Online connector reaches the content indexing limit, you can update its crawl settings and file inclusion/exclusion filters to reduce the number of content items it retrieves. Alternatively, if you need the connector to index more than 1,000,000 content items, you can create a Customer Service and Support case at [https://support.servicenow.com/now](https://support.servicenow.com/now) to request a limit increase for the connector.
+If your Microsoft SharePoint Online connector reaches the content indexing limit, you can update its crawl settings and file inclusion/exclusion filters to reduce the number of content items it retrieves. If you need to index more content items than the limit allows, you can create a Customer Service and Support case at [https://support.servicenow.com/now](https://support.servicenow.com/now) to request a limit increase for the connector.
 
 ## Procedure
 
@@ -53,13 +53,14 @@ If your Microsoft SharePoint Online connector reaches the content indexing limit
 
 4.  Select one of the following **Content filtering** options:
 
-    -   To crawl all sites from the source system, select **All**, then optionally select **Exclude sites** and use the **Add URL** field and **Add** button to enter the SiteCollection, Site, or SubSite URLs for sites that you want to exclude from the crawl.
+    -   To crawl all sites from the source system, select **Crawl all content**.
+    -   To crawl only a specified set of sites from the source system, select **Include only these sites**, then use the **Add URL** field and **Add** button to enter URLs for sites that you want to include in the crawl.
 
-        **Note:** The **Exclude sites** option only accepts SiteCollection, Site, and SubSite URLs. Don't enter other types of URL when using this option.
+        For example, you might enter `https://example.sharepoint.com/sites/ProductionSite` to include only searchable content from the specified site.
 
-    -   To crawl only a specified set of sites from the source system, select **Specify**, then use the **Add URL** field and **Add** button to enter the SiteCollection URLs for sites that you want to include in the crawl.
+    -   To crawl all except a specified set of sites from the source system, select **Exclude only these sites**, then use the **Add URL** field and **Add** button to enter URLs for sites that you want to exclude from the crawl.
 
-        **Note:** The **Specify** option only accepts SiteCollection URLs. Don't add other types of URL when using this option.
+        For example, you might enter `https://example.sharepoint.com/sites/TestSite` to exclude searchable content from the specified site.
 
     **Important:** The connector validates access permissions for your specified sites on every crawl. If it encounters a site that it doesn't have FullControl SharePoint API permission for, it records an alert for that site. The type of event depends on whether the site in question was automatically discovered or whether it was specified in your site inclusion list.
 

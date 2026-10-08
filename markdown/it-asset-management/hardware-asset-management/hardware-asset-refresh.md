@@ -102,6 +102,10 @@ Aged Hardware assets that you want to replace. You can use a filter to search fo
 
         You can’t create multiple rows for the same aged hardware asset that you want to replace.
 
+        The single-model and multi-model refresh flows apply different default filters. In the single-model flow, a default **Eligible for refresh = true** filter is applied, which you can clear or modify. In the multi-model flow, this default eligibility filter isn't applied.
+
+        If an asset appears in the multi-model flow but not in the single-model flow, check whether the asset is marked **Eligible for refresh** in the Hardware \[alm\_hardware\] table.
+
 5.  Select **Order Now**.
 
     You can't view an excluded asset. For more information, see [Hardware Asset Management license exclusion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/ham-license-exclusion.md).
@@ -149,6 +153,8 @@ An Order status page appears and it displays the details of the order. A request
 [Manage the lifecycle of hardware models with calculated lifecycle templates]()
 
 [Create an internal lifecycle in the Hardware Asset Workspace]()
+
+[Calculate the active lifecycle phase for a model]()
 
 [Receive asset warranty details from Lenovo]()
 
@@ -206,15 +212,15 @@ After sourcing the new assets, the asset refresh is completed through the follow
 
 1.  Select the hardware asset refresh request.
 
-<table id="choicetable_upl_qst_ywb"><thead><tr><th align="left" id="d317314e761">
+<table id="choicetable_upl_qst_ywb"><thead><tr><th align="left" id="d319960e781">
 
 Interface
 
-</th><th align="left" id="d317314e764">
+</th><th align="left" id="d319960e784">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d317314e770">
+</th></tr></thead><tbody><tr><td id="d319960e790">
 
 **Core UI**
 
@@ -224,7 +230,7 @@ Action
 2.  Select the request number of the hardware asset refresh request that you want to fulfill.
 
 
-</td></tr><tr><td id="d317314e803">
+</td></tr><tr><td id="d319960e823">
 
 **Hardware Asset Workspace**
 

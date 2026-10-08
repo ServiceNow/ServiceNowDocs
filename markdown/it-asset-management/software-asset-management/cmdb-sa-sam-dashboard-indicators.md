@@ -7,8 +7,8 @@ release: zurich
 product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 3
+last_updated: "2026-09-28"
+reading_time_minutes: 4
 keywords: [SAM advisor dashboard indicators, software install data quality metrics, duplicate software installs, server installs missing cloud license, virtual server host relationship indicators]
 breadcrumb: [Use SAM advisor, Software Asset Management, IT Asset Management]
 ---
@@ -82,6 +82,10 @@ Indicators enable viewing of high-level metrics that highlight data quality, com
 -   **Virtual CIs with incorrect host CI relationships**
 
     Total number of Virtualized by or Member of relationships for virtual server CIs, limited to VMware ESX Server and Microsoft Hyper-V virtual infrastructure. Relationship health analysis flags these relationships as incorrect or suggested for removal. On the KPI Details page, this indicator appears under the heading Incorrect infrastructure relationships.
+
+-   **Virtual CIs on hosts with incorrect cluster relationships**
+
+    Total number of software installs, scoped to the selected SAM products, on virtual server CIs whose host server has a Member of relationship to a cluster CI. The relationship uses the wrong type for that valid child and parent class pair. Covers three virtualization technologies: VMware ESX Server, Microsoft Hyper-V, and Nutanix virtualization. A **CMDB Advisor - SAM Daily Data Collection** scheduled job populates this indicator. It doesn't depend on the **CMDB Health Dashboard - Relationship Compliance Processor** job used by other indicators in this section.
 
 -   **Install status distribution matched**
 

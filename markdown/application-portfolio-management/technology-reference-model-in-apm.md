@@ -16,7 +16,7 @@ Use the Technology Reference Model \(TRM\) feature in Enterprise Architecture to
 
 **Important:**
 
-Starting with the Xanadu release, the legacy Technology Reference Model module is moved to the Enterprise Architecture Workspace. To learn more, see [Exploring the Technology Reference Model in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-managing-the-technology-portfolio.md).
+Starting with the Xanadu release, the legacy Technology Reference Model module is moved to the Enterprise Architecture Workspace. To learn more, see [Technology Reference Model in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-managing-the-technology-portfolio.md).
 
 ## Overview and benefits of a TRM
 
@@ -45,7 +45,7 @@ The TLM home page fetches all the business applications that are being used in y
 
 ## TRM and other modules
 
-**Warning:** TPM and TRM require installation of either SAM Foundation or SAM Professional. Before installing the SAM Foundation plugin, carefully review the [Software Asset Management Foundation plugin migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/c_SAMMigrationSAMF.md) documentation. Contact ServiceNow Support if you do not have either SAM Foundation or SAM Professional installed on your instance.
+**Warning:** TPM and TRM require installation of either SAM Foundation or SAM Professional. Before installing the SAM Foundation plugin, carefully review the [Basic Software Asset Management migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/c_SAMMigrationSAMF.md) documentation. Contact ServiceNow Support if you do not have either SAM Foundation or SAM Professional installed on your instance.
 
 The TRM module uses a similar module to TLM to search in the TRM library. You can view the software that is part of the TRM library, and initiate a request to add the software or software version to the TRM library.
 

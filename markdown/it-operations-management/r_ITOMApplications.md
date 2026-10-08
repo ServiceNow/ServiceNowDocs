@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/r\_ITOMApplications.html
 release: zurich
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 5
+last_updated: "2026-03-12"
+reading_time_minutes: 6
 ---
 
 # IT Operations Management
@@ -48,7 +48,7 @@ Instantly see the service impact of your infrastructure issues and changes, simp
 
 \[Omitted image "health75.png"\] Alt text: Events prioritized on the dashboard
 
-ITOM AIOps uses the power of AIOps to turn events into actionable alerts. Pinpoint service issues and rapidly identify and remediate the root cause. Unlike legacy event management systems, which are static and rule based, ITOM AIOps applies machine learning and advanced analytics to correlate events, adapting automatically to rapidly evolving virtualized and cloud environments. For more information, see [ITOM Health](https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/resource-center/data-sheet/ds-itom-health.pdf).
+ITOM AIOps uses AI to turn events into actionable alerts. Pinpoint service issues and rapidly identify and remediate the root cause. Unlike legacy event management systems, which are static and rule based, ITOM AIOps applies machine learning and advanced analytics to correlate events, adapting automatically to rapidly evolving virtualized and cloud environments. For more information, see [ITOM Health](https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/resource-center/data-sheet/ds-itom-health.pdf).
 
 ## Accelerate cloud strategy and reduce costs
 
@@ -59,6 +59,8 @@ Accelerate your cloud strategy with ITOM Cloud Accelerate. Improve your organiza
 The ServiceNow AI Platform® uses a licensing method where your organization is billed for using the following IT Operations Management products: ServiceNow® ITOM Visibility, ServiceNow® ITOM Discovery, ServiceNow® ITOM AIOps, ServiceNow® Health Log Analytics, ServiceNow® ITOM Optimization, and ServiceNow® ITOM Cloud Accelerate.
 
 The ServiceNow Product Documentation doesn't provide information on prices, packaging, or other details determined by your organization customer contract. For general information about licensing and subscriptions, see [ITOM/OT SU Licensing and subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-su-licensing-landing-page.md).
+
+The ServiceNow Store regularly releases updates to applications created by ServiceNow. To access the latest features and updates for ITOM applications, deploy the latest upgrades from the [ServiceNow Store](https://store.servicenow.com/store). Each application may be on a different release schedule and is not specifically tied to a family release.
 
 ## Get started
 
@@ -85,10 +87,13 @@ The ServiceNow Product Documentation doesn't provide information on prices, pack
 -   [ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-visibility/itom-visibility-landing-page.md)
 -   [Visibility: Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/r-discovery.md)
 -   [Visibility: Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-mapping/c_ServiceMappingOverview.md)
--   [ITOM Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-health-landing-page.md)
 -   [Health: Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/c_EM.md)
 -   [Health: Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/health-log-analytics/hla-landing-page.md)
 -   [Health: Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-landing-page.md)
 -   [ITOM Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-optimization-landing-page.md)
 -   [Optimization: Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/cloud-configuration-governance/cloud-management-v2-landing-page.md)
+-   [Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-reliability-management/sr-landing-page.md)
+-   [SLO Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-level-objective-management/slo-landing-page.md)
+-   [Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/service-observability/service-observability.md)
+-   [Synthetic monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/synthetic-monitoring-landing-page.md)
 

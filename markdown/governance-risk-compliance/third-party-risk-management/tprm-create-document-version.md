@@ -7,10 +7,10 @@ release: zurich
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [TPRM, document management, create document, version document, link document, manage permissions]
-breadcrumb: [Document Management system, Third-party Risk Management, Governance, Risk, and Compliance]
+breadcrumb: [Use the Document Management System, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
 
 # Create a document version

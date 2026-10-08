@@ -28,9 +28,9 @@ Role required: wm\_admin
 
 **Note:** This video demonstrates how to configure intraday optimization for a specific group or territory. To create a default intraday configuration for all groups and territories, see step 5.
 
-You can configure the schedule optimization engine to automatically update assigned work order tasks throughout the day as scheduling conditions change. Common conditions that trigger intraday optimization to run are an agent running late, an agent calling in sick, an agent using PTO, a task being canceled, or a new high priority task being added.
+You can configure the schedule optimization engine to automatically update assigned work order tasks throughout the day as scheduling conditions change. Common conditions that trigger intraday optimization to run are an agent running late, calling in sick, using PTO, a task being canceled, or a new high priority task.
 
-You can also enable dispatchers to manually trigger optimization to run from the Dispatcher Workspace when the intraday on demand optimization configuration is enabled and an on demand applicable policy has been added to the scheduling attribute. See [Create a scheduling attribute for Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-scheduling/configure-scheduling-attributes.md) to add an on-demand applicable policy to the configuration.
+You can also enable dispatchers to manually trigger optimization to run from the Dispatcher Workspace when the intraday on demand optimization configuration is enabled. Verify that an on demand applicable policy is added to the scheduling attribute. See [Create a scheduling attribute for Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/field-service-scheduling/configure-scheduling-attributes.md) to add an on-demand applicable policy to the configuration.
 
 ## Procedure
 
@@ -78,4 +78,10 @@ You can also enable dispatchers to manually trigger optimization to run from the
 
     5.  Select **Submit**.
 
+
+## Result
+
+Intraday Optimization is configured to run at defined intervals and on demand, automatically updating task assignments as conditions change.
+
+See [KB3012217](https://support.servicenow.com/kb?sys_kb_id=a5645aad97b0c75068d477121153af90&id=kb_article_view) for resolving jobs that remain in progress.
 

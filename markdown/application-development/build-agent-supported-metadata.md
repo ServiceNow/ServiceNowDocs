@@ -7,7 +7,7 @@ release: zurich
 topic_type: reference
 last_updated: "2026-08-26"
 reading_time_minutes: 5
-keywords: [metadata, app files, development workflow, compatibility, business rules, client scripts, forms, tables, workflows, UI components, scripted REST APIs, ATF tests, LDAP, data import, JavaScript modules, application menus, record insertion, Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [metadata, app files, development workflow, compatibility, business rules, client scripts, forms, tables, workflows, UI components, scripted REST APIs, ATF tests, LDAP, data import, JavaScript modules, application menus, record insertion, ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Reference, Build Agent, Agentic development on the ServiceNow AI Platform, Developing your application, Building applications]
 ---
 

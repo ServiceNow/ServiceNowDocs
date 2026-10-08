@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-visaspoke-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
-reading_time_minutes: 7
+last_updated: "2026-10-08"
+reading_time_minutes: 8
 breadcrumb: [Products combined by family]
 ---
 
@@ -172,15 +172,6 @@ Yokohama
 
 </td><td>
 
--   **[Visa Resolve Online \(VROL\) version 25.1 updates](https://www.servicenow.com/docs/access?context=visa-spoke&family=yokohama&ft:locale=en-US)**
-
-Updated the following Visa Spoke actions to align with Visa Resolve Online \(VROL\) release 25.1 revision changes:
-
-    -   Submit Fraud Report Request Builder
-    -   Look up Fraud Report Details Response Parser
-    -   Look up Dispute Response Details Response Parser
-    -   Look up Dispute Details Response Parser
-    -   Submit Dispute Questionnaire
 -   **[Visa Resolve Online \(VROL\) version 25.2 updates](https://www.servicenow.com/docs/access?context=visa-spoke&family=yokohama&ft:locale=en-US)**
 
 Updated the following Visa Spoke actions to align with Visa Resolve Online \(VROL\) release 25.2 revision changes:
@@ -199,13 +190,28 @@ Updated the following Visa Spoke actions to align with Visa Resolve Online \(VRO
     -   Look up Dispute Details Request Builder
     -   Look up Dispute Details Response Parser
 
+ -   **[Visa Resolve Online \(VROL\) version 25.1 updates](https://www.servicenow.com/docs/access?context=visa-spoke&family=yokohama&ft:locale=en-US)**
+
+Updated the following Visa Spoke actions to align with Visa Resolve Online \(VROL\) release 25.1 revision changes:
+
+    -   Submit Fraud Report Request Builder
+    -   Look up Fraud Report Details Response Parser
+    -   Look up Dispute Response Details Response Parser
+    -   Look up Dispute Details Response Parser
+    -   Submit Dispute Questionnaire
+
 </td></tr><tr><td>
 
 Zurich
 
 </td><td>
 
--   **[Visa Resolve Online \(VROL\) version 25.2 updates](https://www.servicenow.com/docs/access?context=visa-spoke&family=zurich&ft:locale=en-US)**
+-   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+
+ -   **[Visa Resolve Online \(VROL\) version 25.2 updates](https://www.servicenow.com/docs/access?context=visa-spoke&family=zurich&ft:locale=en-US)**
 
 Updated the following Visa Spoke actions to align with Visa Resolve Online \(VROL\) release 25.2 revision changes:
 
@@ -222,6 +228,8 @@ Updated the following Visa Spoke actions to align with Visa Resolve Online \(VRO
     -   Look up Dispute Pre-Arbitration Details Response Parser
     -   Look up Dispute Details Request Builder
     -   Look up Dispute Details Response Parser
+In addition, the Look up Dispute Details, Look up Dispute Response Details, Look up Dispute Pre-Arbitration Details, and Look up Dispute Pre-Arbitration Response Details actions now return a Dispute Intelligence object in their output. Dispute Intelligence includes an AI-generated Probability of Success score for the dispute, along with a ranked list of key factors influencing that score, so a consuming app can incorporate Visa's own win-likelihood assessment into its dispute-handling decisions.
+
 
 </td></tr></tbody>
 </table>## Removed
@@ -316,7 +324,7 @@ Xanadu
 
 </td><td>
 
-Install Now Assist for FSO by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
+Install ServiceNow Otto for FSO by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -324,7 +332,12 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Install Visa Spoke by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
+
+**Important:** Visa Spoke is available in ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 
@@ -332,7 +345,12 @@ Zurich
 
 </td><td>
 
-Install Visa Spoke by requesting it from ServiceNow Store. 
+-   **Activation information**
+
+Install Visa Spoke by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
+
+**Important:** Visa Spoke is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -443,7 +461,11 @@ Zurich
 
 </td><td>
 
--   ****
+-   **Accessibility information**
+    -   **Dark theme**
+
+The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
 
 </td></tr></tbody>
 </table>## Localization information

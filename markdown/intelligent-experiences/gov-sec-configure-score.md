@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2026-05-02"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configure, Managing AI asset security, Govern AI assets, AI Control Tower, Enable AI experiences]
 ---
 
@@ -17,7 +17,7 @@ Customize the AI asset security score to align with your enterprise's security p
 
 ## Before you begin
 
-Role required: AI steward \[sn\_ai\_governance\_ai\_steward\]
+Role required: AI steward \[sn\_ai\_governance.ai\_steward\]
 
 ## About this task
 

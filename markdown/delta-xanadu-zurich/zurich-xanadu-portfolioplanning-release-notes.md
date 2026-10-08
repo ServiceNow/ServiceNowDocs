@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-portfolioplanning-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
-reading_time_minutes: 12
+last_updated: "2026-10-08"
+reading_time_minutes: 13
 breadcrumb: [Products combined by family]
 ---
 
@@ -46,7 +46,10 @@ Yokohama
 
 </td><td>
 
+-   **Upgrade information**
+
 After upgrading to Portfolio Planning v8.8.0, the custom view settings previously saved under user preferences will be cleared. You must reapply these changes and create views as needed. For instructions, see [Create a portfolio plan view in Portfolio Planning](https://www.servicenow.com/docs/access?context=create-portfolio-plan-view-ppw&family=yokohama&ft:locale=en-US) and [Create a free-form roadmap view in Portfolio Planning](https://www.servicenow.com/docs/access?context=create-free-form-roadmap-view-ppw&family=yokohama&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -120,11 +123,6 @@ Yokohama
 
 </td><td>
 
--   **[View financial data of your planning items at the portfolio level](https://www.servicenow.com/docs/access?context=using-portfolio-financials-ppw&family=yokohama&ft:locale=en-US)**
-    -   View the rolled-up financial costs and benefits data of your planning items Epics, Demands, and Projects at the portfolio level for different time scales and ranges.
-    -   View the financial values such as the Budget, Planned cost, Variance, Actuals, and Remaining Estimates of your planning items by expense type or cost type.
-    -   View the Forecasts, Actuals, and Variance of your planning items for monetary benefits.
-    -   View the financial data of the planning items while creating multiple prioritization scenarios to promote efficient use of budget and to help increase ROI.
 -   **[Create and manage financial scenarios of planning items](https://www.servicenow.com/docs/access?context=optimizing-scenarios-in-strategic-planning&family=yokohama&ft:locale=en-US)**
     -   Optimize your portfolio by creating financial scenarios to validate and arrive at a profitable outcome.
     -   Plan and manage the budget of the planning items in a simulation mode for efficient financial planning and to help prevent overspending.
@@ -145,6 +143,12 @@ Portfolio plan display preferences include column selection, grouping and filter
 
 **Note:** Portfolio plan views are available only for the Planning module and are supported in live mode, but not in scenario mode.
 
+
+ -   **[View financial data of your planning items at the portfolio level](https://www.servicenow.com/docs/access?context=using-portfolio-financials-ppw&family=yokohama&ft:locale=en-US)**
+    -   View the rolled-up financial costs and benefits data of your planning items Epics, Demands, and Projects at the portfolio level for different time scales and ranges.
+    -   View the financial values such as the Budget, Planned cost, Variance, Actuals, and Remaining Estimates of your planning items by expense type or cost type.
+    -   View the Forecasts, Actuals, and Variance of your planning items for monetary benefits.
+    -   View the financial data of the planning items while creating multiple prioritization scenarios to promote efficient use of budget and to help increase ROI.
 -   **[Real-time collaboration for Planning item Docs](https://www.servicenow.com/docs/access?context=docs-for-planning-items-in-ppw&family=yokohama&ft:locale=en-US)**
 
 Edit a doc page concurrently with multiple other editors. Colored cursors denote the current location of editors on the page. You can choose to show or hide these indicators.
@@ -158,11 +162,6 @@ Zurich
 
 </td><td>
 
--   **[Roadmap enhancements](https://www.servicenow.com/docs/access?context=planning-roadmaps-in-portfolio-planning&family=zurich&ft:locale=en-US)**
-    -   Create custom themes for your roadmap bar colors to align with your organization’s standards.
-    -   Experience consistent roadmap bar colors for choice list attribute values across all portfolio plans.
-    -   View the roadmap-level milestone row while scrolling down the Roadmap page.
-    -   Use different icons to distinguish item-level milestones.
 -   **[Dynamic data linking in Docs](https://www.servicenow.com/docs/access?context=docs-for-planning-items-in-ppw&family=zurich&ft:locale=en-US)**
 
 Keep record information in your documentation always current and reduce manual effort with the Dynamic data linking feature in Docs. You can now reference any ServiceNow application record and Docs will automatically reflect the latest updates from those records. For example, if you add a reference to a Project record, the reference will show the latest field information of the project in Docs without requiring manual edits. Clicking the project reference opens up the project form so that you can view the full details of the project record and make any necessary changes. Dynamic linking also enables adding references to a particular field of a record, such as Assigned to of an Incident record.
@@ -173,6 +172,12 @@ You can add references from any ServiceNow table you have access to, with no set
 
 With the sn\_align\_core.apw\_admin role, you can enable or disable the scenario planning feature. The **sn\_align\_ws.is\_scenario\_planning\_disabled** system property allows you to enable or disable the scenario planning feature.
 
+
+ -   **[Roadmap enhancements](https://www.servicenow.com/docs/access?context=planning-roadmaps-in-portfolio-planning&family=zurich&ft:locale=en-US)**
+    -   Create custom themes for your roadmap bar colors to align with your organization’s standards.
+    -   Experience consistent roadmap bar colors for choice list attribute values across all portfolio plans.
+    -   View the roadmap-level milestone row while scrolling down the Roadmap page.
+    -   Use different icons to distinguish item-level milestones.
 -   **[Quick filters enhancements](https://www.servicenow.com/docs/access?context=quick-fiters-prioitization-roadmap-ppw&family=zurich&ft:locale=en-US)**
 
 Apply filters using string-type and Boolean field values across the Planning page to view the required dataset. These filters are saved as part of your user preferences, enabling you to access the same filtered data when you log back in and continue your planning seamlessly.
@@ -211,7 +216,18 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+-   **[Capacity Planning tab name change](https://www.servicenow.com/docs/access?context=using-cap-plan-pp&family=yokohama&ft:locale=en-US)**
+
+The name of the **Capacity Planning** tab in the planning view is changed to **Capacity**.
+
+
+ -   **[Financials UI changes](https://www.servicenow.com/docs/access?context=using-portfolio-financials-ppw&family=yokohama&ft:locale=en-US)**
+    -   New **Financials** tab in the Planning page.
+    -   The name of the **ETC** field is changed to **Remaining Estimates**.
+    -   The name of the **EAC** field is changed to **Forecast**.
+    -   The name of the **Actuals to date** field is changed to **Actuals**.
+    -   New Financials view in scenario planning.
+    -   New financial widgets in the compare scenario page.
 
 </td></tr><tr><td>
 
@@ -219,7 +235,24 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+-   **[Financials in Portfolio Planning](https://www.servicenow.com/docs/access?context=using-financials-pp&family=zurich&ft:locale=en-US)**
+    -   Use the new **Display mode** in the Financials record page to select and view forecast, compare planned vs actual costs, planned costs, or allocate budget.
+    -   Renamed **Cost** tab as **Costs and benefits** to manage cost plans and benefit plans in one view.
+    -   Renamed **Baselines** as **Baseline comparison** to create and compare financial baselines.
+    -   Renamed **Time scope** as **Filter time scope** to adjust the time scope to view a focused and customized financial snapshot.
+    -   New **Generate labor costs** button to generate labor costs based on the resource assignments.
+    -   New **Currency** list option to switch between functional and investment currency.
+    -   New **Edit investment currency** option to define investment currency for your projects.
+    -   **New monetary benefit plan** option to create new forecast benefit plans.
+    -   New **Planned Benefits** widget displays the total forecasted benefits.
+    -   New **Total Return** widget displays the total actual benefits form the projects.
+    -   New **Record type** column to classify the financial records between benefits and costs.
+    -   Renamed **Estimate At Completion** widget to **EAC Cost**.
+    -   Renamed **Actual Cost To Date** to **Actuals \(Incl. current fiscal period\)**.
 
 </td></tr></tbody>
 </table>## Removed
@@ -322,7 +355,12 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Install Portfolio Planning by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
+
+**Important:** Portfolio Planning is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 
@@ -330,7 +368,12 @@ Zurich
 
 </td><td>
 
-Install Portfolio Planning by requesting it from the ServiceNow Store. 
+-   **Activation information**
+
+Install Portfolio Planning by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
+
+**Important:** Portfolio Planning is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements

@@ -9,7 +9,7 @@ classification: now-assist-for-it-operations-management
 topic_type: task
 last_updated: "2025-12-04"
 reading_time_minutes: 2
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configure the manage alerts autonomously agentic workflow, Configure, ServiceNow Otto for ITOM, IT Operations Management]
 ---
 
@@ -26,7 +26,7 @@ Before configuring the Google Gemini Cloud Assist agent, you must do the followi
 -   [Install ServiceNow Otto for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 -   [Integrate Google Cloud Platform \(GCP\) events with Event Management.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/event-management/gcp-events-integration.md)
 -   Download the JSON private key file from your Google Cloud project and gather the following credentials: Google project ID, service account email, and private key ID.
--   Create a keystore file and password by following the steps in [Create a Java KeyStore certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/setup-google-translator.md).
+-   Create a keystore file and password by following the steps in .
 -   Set up the following Google Cloud project settings and permissions. For detailed instructions, navigate to the Gemini for Google Cloud documentation and search for `Create a Cloud Assist investigation`.
     -   Enable the required APIs for your Google Cloud project.
     -   Assign the Investigation Creator role to the service account.

@@ -8,7 +8,7 @@ product: Agent Client Collector
 classification: agent-client-collector
 topic_type: reference
 last_updated: "2025-07-31"
-reading_time_minutes: 7
+reading_time_minutes: 8
 keywords: [Agent Client Collector, Agent Client Collector for Visibility, ACC for Visibility]
 breadcrumb: [Agent Client Collector for Visibility Content reference, Agent Client Collector, IT Operations Management]
 ---
@@ -42,6 +42,8 @@ Enhanced Discovery
 Runs on a schedule, by default every 24 hours \(86400 seconds\). The policy interval can be adjusted, for example to run every 4 hours \(set the interval to 14400\). The ACC-VC policy configuration is synced to all agents based on the policy filter defined by ACC-VC. Update the following ACC-F system properties, if needed:-   **sn\_agent.disco\_minimum\_threshold\_for\_rediscovery\_minutes**: to avoid discovering the system too frequently.
 -   **sn\_agent.disco\_disable\_ci\_clobber\_of\_agentless\_disco**: to avoid Discovery conflicts.
 -   **sn\_agent.disco\_ci\_clobber\_of\_agentless\_disco\_threshold\_days**: to avoid Discovery conflicts.
+
+On Windows non-persistent VDI endpoints \(NPVDI\), ACC-VC can skip some inventory modules. For more information, see [ACC-VC NPVDI system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/accvc-npvdi-properties.md).
 
 </td><td>
 
@@ -273,12 +275,14 @@ Enhanced Discovery
 
 Synced to all agents based on the policy filter defined by ACC-VC. The Check definition is configured to run with certain assets and determines what gets synced between the agent and the MID Server. For more details on policies, see [Checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/checks-policies.md).**Note:**
 
-For the agent to retrieve the OS serial numbers and TCP connections along with associated running processes, sudo access for “dmidecode” and “ss” is required on Linux systems. For example, this content could be added to /etc/sudoers or to an individual file in `/etc/sudoers.d/`:
+For the agent to retrieve the OS serial numbers and TCP connections along with associated running processes, sudo access for **dmidecode** and **ss** commands is required on Linux systems. For example, this content could be added to /etc/sudoers or to an individual file in `/etc/sudoers.d/`:
 
 ```
 Cmnd_Alias AGENT_ACC_V = /usr/sbin/dmidecode -s baseboard-serial-number,/usr/sbin/dmidecode -s chassis-serial-number,/usr/sbin/dmidecode -s system-serial-number,/usr/sbin/dmidecode -s system-uuid,/usr/sbin/ss -tanp
 servicenow ALL=(root) NOPASSWD:AGENT_ACC_V
 ```
+
+For the sudoers configuration example, the **must\_sudo** check parameter, and the equivalent macOS and Windows privilege requirements, see the "Privileges for running check commands" section in [Checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/checks-policies.md).
 
 </td></tr><tr><td>
 

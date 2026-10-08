@@ -9,7 +9,7 @@ classification: ai-search
 topic_type: concept
 last_updated: "2025-08-01"
 reading_time_minutes: 28
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [External Content Connectors, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer]
 ---
 
@@ -164,7 +164,7 @@ AI Search administrator configures external content connector crawl settings for
 -   [Configure crawl settings for a WordPress external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-crawl-settings-wordpress-external-content-connector.md)
 -   [Configure crawl settings for a Workday external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-crawl-settings-workday-external-content-connector.md)
 -   [Configure crawl settings for a Workvivo external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-crawl-settings-workvivo-external-content-connector.md)
--   [Configure crawl settings for a Zendesk Guide external crawl connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-crawl-settings-zendesk-guide-external-crawl-connector.md)
+-   [Configure crawl settings for a Zendesk Guide external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-crawl-settings-zendesk-guide-external-content-connector.md)
 -   [Configure crawl settings for a Zoom external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/configure-crawl-settings-zoom-external-content-connector.md)
 
 </td></tr><tr><td>
@@ -209,7 +209,7 @@ The Google Drive external content connector retrieves files and attachments from
 -   **[HubSpot external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/hubspot-external-content-connector.md)**  
 The HubSpot external content connector retrieves tickets and notes from your HubSpot source system and makes their content and metadata searchable in AI Search applications.
 -   **[Lucidchart external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/lucidchart-external-content-connector.md)**  
-The Lucidchart external content connector retrieves documents and folders from folders in your Lucidchart source system and makes their text content and metadata searchable in AI Search applications.
+The Lucidchart external content connector retrieves documents from folders in your Lucidchart source system and makes their text content and metadata searchable in AI Search applications.
 -   **[ManageEngine external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/manageengine-external-content-connector.md)**  
 The ManageEngine external content connector retrieves public-domain knowledge articles from knowledge bases in your ManageEngine source system and makes their content and metadata searchable in AI Search applications.
 -   **[Microsoft OneDrive external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-administration/ai-search/microsoft-onedrive-external-content-connector.md)**  

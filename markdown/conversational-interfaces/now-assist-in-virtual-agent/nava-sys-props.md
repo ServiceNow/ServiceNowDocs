@@ -34,7 +34,7 @@ com.glide.cs.doc\_qna.va\_attachment.max\_attachments
 
 </td><td>
 
-Set the maximum number of attachments that can be attached at one time for the assistant. Default value = 3.
+Set the maximum number of attachments that can be attached at one time for the assistant. The default value is `3`.
 
 </td><td>
 
@@ -87,22 +87,6 @@ Control the information available to ServiceNow Otto for Virtual Agent through K
 </td><td>
 
 Legacy
-
-</td></tr><tr><td>
-
-sn\_nowassist\_va.assistant\_personalization
-
-</td><td>
-
-Show or hide chat personalization when branding an assistant.-   Choices: `AGENT_PERSONA`, `TONE_RESPONSE_LEN`, `TONE_RESPONSE_LEN_PERSONA`
--   Type: Choice list
--   Value: `TONE_RESPONSE_LEN_PERSONA` \(Personalization is shown by default.\)
-
- The `AGENT_PERSONA` value hides personalization. The `TONE_RESPONSE_LEN` value shows tone and response length but hides the persona setting.
-
-</td><td>
-
-Legacy and premium
 
 </td></tr><tr><td>
 
@@ -216,7 +200,7 @@ sn\_nowassist\_va.use\_planner2\_response\_as\_fallback
 
 </td><td>
 
-Set to `false` \(default value\) to use the Virtual Agent fallback message when an answer cannot be found. Set to `true` to use an LLM-generated fallback message that is more specific in response whenever an answer cannot be found.
+Set to `false` \(default value\) to use the Virtual Agent fallback message when an answer cannot be found. Set to `true` to use a large language model \(LLM\)-generated fallback message that is more specific in response whenever an answer cannot be found.
 
 </td><td>
 

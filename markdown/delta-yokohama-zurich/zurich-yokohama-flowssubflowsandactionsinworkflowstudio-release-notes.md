@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-flowssubflowsandactionsinworkflowstudio-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
-reading_time_minutes: 10
+last_updated: "2026-10-08"
+reading_time_minutes: 12
 breadcrumb: [Products combined by family]
 ---
 
@@ -46,7 +46,10 @@ Zurich
 
 </td><td>
 
+-   **Upgrade information**
+
 An earlier version of the save as you go feature was released and withdrawn from the Washington DC release. If you're upgrading from the Washington DC release, you might have manually turned off the save as you go features by setting a system property. To restore the save as you go features, see [Restore save as you go functionality](https://www.servicenow.com/docs/access?context=restore-save-as-you-go-functionality&family=zurich&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## New features
@@ -124,12 +127,12 @@ Support conversational subflows that have Dynamic Choice and Array of Objects in
 Answer a few questions about your automation and Workflow Studio displays recommendations on whether you should create a playbook, flow, subflow, action, or a data stream.
 
 
--   **[Configure conversational settings](https://www.servicenow.com/docs/access?context=configure-subflow-conversation-settings&family=yokohama&ft:locale=en-US)**
+ -   **[Configure conversational settings](https://www.servicenow.com/docs/access?context=configure-subflow-conversation-settings&family=yokohama&ft:locale=en-US)**
 
 View the subflows and actions that are conversational compatible. Configure conversational settings to make a subflow or action available to conversational interfaces.
 
 
--   **[Debug flows and subflows](https://www.servicenow.com/docs/access?context=flow-debugger&family=yokohama&ft:locale=en-US)**
+ -   **[Debug flows and subflows](https://www.servicenow.com/docs/access?context=flow-debugger&family=yokohama&ft:locale=en-US)**
 
 Debug flows and subflows from a dedicated Workflow Studio tab. Set breakpoints and step through a paused flow to review configuration and runtime values.
 
@@ -152,38 +155,6 @@ Zurich
 
 </td><td>
 
--   **[Create and manage external event sources](https://www.servicenow.com/docs/access?context=manage-external-event-sources&family=zurich&ft:locale=en-US)**
-
-Create an external event source on your ServiceNow instance that listens to events occurring in an application or system outside of the ServiceNow AI Platform®. Based on the external event source, you can define one or more external trigger definitions in your instance and then associate the external trigger definitions with the external event source. When an event that you specified in the external trigger definition occurs, the external trigger definition executes one or more flows. You can update or remove external event sources that you create.
-
--   **[Create a domain-separated saved external trigger](https://www.servicenow.com/docs/access?context=create-saved-external-trigger&family=zurich&ft:locale=en-US)**
-
-Create a domain-separated saved external trigger. Configurations that you make to the trigger are auto-saved. After the trigger is published, you can edit only the **Label** field values.
-
--   **[Create a reusable scheduled trigger](https://www.servicenow.com/docs/access?context=create-scheduled-trigger&family=zurich&ft:locale=en-US)**
-
-Create a scheduled trigger that starts your flow when you need. Use the trigger across your flows.
-
--   **[Create a skill for conversational subflows and actions](https://www.servicenow.com/docs/access?context=create-conversational-subflow-skill&family=zurich&ft:locale=en-US)**
-
-Create a skill for the conversational subflow and action and make the skill discoverable in conversations. You can have multiple skills for the same subflow or action.
-
--   **[Enhancements in the subflow and action conversational settings](https://www.servicenow.com/docs/access?context=configure-subflow-conversation-settings&family=zurich&ft:locale=en-US)**
-
-To make the error messages more useful in a conversation, you can show specific error messages from the subflow or action rather than showing generic error messages. Additionally, if you override an input with reference, you can apply a filter to limit the number of records in the Reference field.
-
--   **[Make a flow wait for an email reply](https://www.servicenow.com/docs/access?context=wait-for-email-reply-action&family=zurich&ft:locale=en-US)**
-
-Pause a flow until an email reply is received to an outbound email record
-
--   **[Show subflow stages in a parent flow](https://www.servicenow.com/docs/access?context=show-subflow-stages-in-a-parent-flow&family=zurich&ft:locale=en-US)**
-
-Show subflow stages as part of the execution details of a parent flow.
-
--   **[Save flows, subflows, and actions automatically](https://www.servicenow.com/docs/access?context=save-as-you-go-flows&family=zurich&ft:locale=en-US)**
-
-Save flows, subflows, and actions automatically as you work on them.
-
 -   **[Support Now LLM Long Term Stable models \(LTS\) with Flow generation](https://www.servicenow.com/docs/access?context=exploring-flow-generation&family=zurich&ft:locale=en-US)**
 
 Support the Now LLM Long Term Stable models \(LTS\) for Flow generation.
@@ -196,13 +167,48 @@ Support the Now LLM Long Term Stable models \(LTS\) for Flow summarization.
 
 Use flow data to run an AI agent and configure the expected agent output for use later in the flow.
 
--   **[Use conversational subflows and actions by default](https://www.servicenow.com/docs/access?context=conversational-subflows&family=zurich&ft:locale=en-US)**
+
+ -   **[Use conversational subflows and actions by default](https://www.servicenow.com/docs/access?context=conversational-subflows&family=zurich&ft:locale=en-US)**
 
 Use conversational subflows and actions when you install any Now Assist product. This skill is active by default.
+
+
+ -   **[Create a skill for conversational subflows and actions](https://www.servicenow.com/docs/access?context=create-conversational-subflow-skill&family=zurich&ft:locale=en-US)**
+
+Create a skill for the conversational subflow and action and make the skill discoverable in conversations. You can have multiple skills for the same subflow or action.
+
+-   **[Enhancements in the subflow and action conversational settings](https://www.servicenow.com/docs/access?context=configure-subflow-conversation-settings&family=zurich&ft:locale=en-US)**
+
+To make the error messages more useful in a conversation, you can show specific error messages from the subflow or action rather than showing generic error messages. Additionally, if you override an input with reference, you can apply a filter to limit the number of records in the Reference field.
 
 -   **[Use your preferred LLM to generate descriptions for subflow or action skill, input, and output](https://www.servicenow.com/docs/access?context=configure-llm-for-conversational-subflow&family=zurich&ft:locale=en-US)**
 
 Leverage generative AI to generate descriptions for the subflow or action skill, inputs, and outputs. You can configure a default LLM to generate the descriptions.
+
+
+ -   **[Create and manage external event sources](https://www.servicenow.com/docs/access?context=manage-external-event-sources&family=zurich&ft:locale=en-US)**
+
+Create an external event source on your ServiceNow instance that listens to events occurring in an application or system outside of the ServiceNow AI Platform®. Based on the external event source, you can define one or more external trigger definitions in your instance and then associate the external trigger definitions with the external event source. When an event that you specified in the external trigger definition occurs, the external trigger definition executes one or more flows. You can update or remove external event sources that you create.
+
+-   **[Create a domain-separated saved external trigger](https://www.servicenow.com/docs/access?context=create-saved-external-trigger&family=zurich&ft:locale=en-US)**
+
+Create a domain-separated saved external trigger. Configurations that you make to the trigger are auto-saved. After the trigger is published, you can edit only the **Label** field values.
+
+-   **[Create a reusable scheduled trigger](https://www.servicenow.com/docs/access?context=create-scheduled-trigger&family=zurich&ft:locale=en-US)**
+
+Create a scheduled trigger that starts your flow when you need. Use the trigger across your flows.
+
+-   **[Make a flow wait for an email reply](https://www.servicenow.com/docs/access?context=wait-for-email-reply-action&family=zurich&ft:locale=en-US)**
+
+Pause a flow until an email reply is received to an outbound email record
+
+-   **[Show subflow stages in a parent flow](https://www.servicenow.com/docs/access?context=show-subflow-stages-in-a-parent-flow&family=zurich&ft:locale=en-US)**
+
+Show subflow stages as part of the execution details of a parent flow.
+
+-   **[Save flows, subflows, and actions automatically](https://www.servicenow.com/docs/access?context=save-as-you-go-flows&family=zurich&ft:locale=en-US)**
+
+Save flows, subflows, and actions automatically as you work on them.
 
 -   **[View flow history](https://www.servicenow.com/docs/access?context=flow-history&family=zurich&ft:locale=en-US)**
 
@@ -232,7 +238,10 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+-   **[Display text descriptions of data changes](https://www.servicenow.com/docs/access?context=exploring-flows&family=yokohama&ft:locale=en-US)**
+
+See a natural language description of the data each component of a flow uses. Understand what data flow triggers, actions, and flow logic blocks use without having to open their configuration details.
+
 
 </td></tr><tr><td>
 
@@ -240,7 +249,30 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+-   **[Display flow recommendations in flow diagramming view](https://www.servicenow.com/docs/access?context=exploring-flow-recommendations&family=zurich&ft:locale=en-US)**
+
+Get a list of recommendations for the next item in your flow while in a flow diagramming view.
+
+-   **[Launch the flow debugger from an updated button](https://www.servicenow.com/docs/access?context=flow-debugger&family=zurich&ft:locale=en-US)**
+
+Start the flow debugger from an updated button.
+
+-   **[Open conversational subflow settings from an updated button](https://www.servicenow.com/docs/access?context=configure-subflow-conversation-settings&family=zurich&ft:locale=en-US)**
+
+The option to open subflow conversational settings has moved from the more action menu to the sidebar.
+
+-   **[Open conversational action settings from an updated button](https://www.servicenow.com/docs/access?context=configure-action-conversation-settings&family=zurich&ft:locale=en-US)**
+
+The option to open action conversational settings has moved from the more action menu to the sidebar.
+
+-   **[See event sources from a new menu](https://www.servicenow.com/docs/access?context=create-an-external-event-source&family=zurich&ft:locale=en-US)**
+
+Create, read, update, or delete external event sources with the Event sources menu. An Event sources menu has been added to a panel of the spokes page that appears after you select a spoke under the **Integrations** tab.
+
 
 </td></tr></tbody>
 </table>## Removed
@@ -319,9 +351,14 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Workflow Studio is a ServiceNow AI Platform feature that is active by default.
 
- Get the latest Workflow Studio features by updating the app from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+Get the latest Workflow Studio features by updating the app from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
+
+**Important:** Workflow Studio is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 
@@ -329,9 +366,14 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Workflow Studio is a ServiceNow AI Platform feature that is active by default.
 
- Get the latest Workflow Studio features by updating the app from the ServiceNow Store. 
+Get the latest Workflow Studio features by updating the app from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
+
+**Important:** Workflow Studio is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -410,15 +452,16 @@ Yokohama
 
 </td><td>
 
--   **ARIA label improvements**
+-   **Accessibility information**
+    -   **ARIA label improvements**
 
 Added and updated ARIA labels to support screen readers.
 
--   **Keyboard navigation improvements**
+    -   **Keyboard navigation improvements**
 
 Improved keyboard navigation with working with actions, flows, and subflows in Workflow Studio.
 
--   **Reflow improvements of canvas headers and footers**
+    -   **Reflow improvements of canvas headers and footers**
 
 Added support for the reflow of canvas headers and footer content in Workflow Studio actions, flows, and subflows. These components can be zoomed up to 400% through your browser settings without loss of content or functionality.
 
@@ -431,9 +474,15 @@ Zurich
 
 </td><td>
 
--   **Reflow improvements of canvas headers and footers**
-    -   Workflow Studio canvas header
-    -   Workflow Studio canvas footer
+-   **Accessibility information**
+    -   **Reflow improvements of canvas headers and footers**
+
+The following components were updated to support reflow, which enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality. Additionally, content can be enlarged without scrolling in two dimensions at a width equivalent to 320 CSS pixels or a height equivalent to 256 CSS pixels.
+
+        -   Workflow Studio canvas header
+        -   Workflow Studio canvas footer
+This enhancement helps users with low vision or who have trouble seeing web content in a browser due to monitor size, device type, poor lighting, or other situations. Reflow can be turned off with a system property for instances, experiences, and pages. See [\[Placeholder link text to key bundle-platux.auto-reflow\]](https://www.servicenow.com/docs/access?context=auto-reflow&family=zurich&ft:locale=en-US) for details.
+
 
 </td></tr></tbody>
 </table>## Localization information

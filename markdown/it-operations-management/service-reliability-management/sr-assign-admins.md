@@ -7,7 +7,7 @@ release: zurich
 product: Service Reliability Management
 classification: service-reliability-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Service Reliability Management, Service Reliability Management, ITOM AIOps, IT Operations Management]
 ---
@@ -33,6 +33,8 @@ The SRM admin can add and create teams. They can also manage data across all SRM
 3.  Navigate to **Assign admins** &gt; **Service reliability management admins**.
 
 4.  Enter user names in the field.
+
+    Users must have an email address associated with their user record to appear in the search results.
 
 5.  Select **Save**.
 

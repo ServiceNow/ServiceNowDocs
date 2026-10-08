@@ -35,7 +35,7 @@ As an author or agent, generate Knowledge articles using ServiceNow Otto on task
 ServiceNow Otto in Knowledge Management provides multi-language support for Knowledge article generation. As an agent, generate articles from incidents, cases, and other task types in languages other than English using a language selector configured by the admin.
 -   **[Edit an article using the ServiceNow Otto context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-generate-article-using-context-menu.md)**  
 Elaborate or shorten content within a Knowledge article using the ServiceNow Otto context menu to access generative AI capabilities in Knowledge Management.
--   **[Generate and edit articles using Now Assist in the Knowledge Center article editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)**  
+-   **[Generate and edit articles using ServiceNow Otto in the Knowledge Center article editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown)**  
 This task explains how to create and improve a knowledge article with the Knowledge center article editor.
 -   **[Identify and review duplicate Knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-identify-and-review-duplicate-articles.md)**  
 Review duplicate Knowledge articles using the identify and review duplicate articles feature in ServiceNow Otto.

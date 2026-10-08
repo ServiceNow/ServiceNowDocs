@@ -205,3 +205,5 @@ Displays a list of all knowledge graphs.
 
 [Create an AI asset in the asset inventory]()
 
+[Manage system properties for AI applications in AI Admin Center]()
+

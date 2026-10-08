@@ -36,15 +36,15 @@ If you have the srm\_admin or admin role, you can set up teams using a different
 
 3.  Create a new team or add an existing one.
 
-<table id="choicetable_m4k_fmf_n1c"><thead><tr><th align="left" id="d420699e116">
+<table id="choicetable_m4k_fmf_n1c"><thead><tr><th align="left" id="d428513e116">
 
 Option
 
-</th><th align="left" id="d420699e119">
+</th><th align="left" id="d428513e119">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d420699e125">
+</th></tr></thead><tbody><tr><td id="d428513e125">
 
 **Add a new team**
 
@@ -58,7 +58,7 @@ For more information on the field descriptions, see [Create team form](https://r
 3.  Select **Add team**.
 
 
-</td></tr><tr><td id="d420699e164">
+</td></tr><tr><td id="d428513e164">
 
 **Register an existing team**
 

@@ -50,7 +50,7 @@ Location
 
 </td><td>
 
-Geographic location of the network site. Select the search icon \(\[Omitted image "search.png"\] Alt text: Search icon.\) and select a location from the Location hierarchy. To learn more about the Location hierarchy, see [449481304bb85a1f15bf5745c92aef511887f8fa.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/define-tni-locations.md).
+Geographic location of the network site. Select the search icon \(\[Omitted image "search.png"\] Alt text: Search icon.\) and select a location from the Location hierarchy. To learn more about the Location hierarchy, see [17d5ab04176723ba602d3da0ccbd65a6205cccb4.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/define-tni-locations.md).
 
 </td></tr><tr><td>
 
@@ -92,5 +92,5 @@ Subcategory of the site.
 **Related topics**  
 
 
-[3d2dc458bf22efbd7c1c286263fac682f2fa02b4.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/define-tni-sites.md)
+[6ae017e0af7d4246ad6f9813addb0b7ccaa73376.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/define-tni-sites.md)
 

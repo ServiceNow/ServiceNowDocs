@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/mon-ai-configure-asset-metrics-servicenow.html
 release: zurich
 topic_type: task
-last_updated: "2026-08-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configure evaluation scoring for ServiceNow AI systems, Configure, Monitoring and evaluating AI systems, Monitor AI assets, AI Control Tower, Enable AI experiences]
 ---
 
@@ -33,15 +33,17 @@ You can optionally override which metrics are evaluated for specific ServiceNow 
 
 3.  Configure the metrics that you want to evaluate for specific AI systems.
 
-<table id="choicetable_asset_metric_actions"><thead><tr><th align="left" id="d215529e141">
+    **Important:** Adding more metrics increases the visibility you gain into each session, but also increases assist usage to evaluate it. Select the metrics that give you the insight you need.
+
+<table id="choicetable_asset_metric_actions"><thead><tr><th align="left" id="d222411e147">
 
 Option
 
-</th><th align="left" id="d215529e144">
+</th><th align="left" id="d222411e150">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d215529e150">
+</th></tr></thead><tbody><tr><td id="d222411e156">
 
 **Add one or more AI systems and selected metrics**
 
@@ -54,7 +56,7 @@ Steps
 5.  Select **Add metrics**.
 
 
-</td></tr><tr><td id="d215529e186">
+</td></tr><tr><td id="d222411e192">
 
 **Remove one or more metrics**
 

@@ -1,18 +1,18 @@
 ---
-title: Intake information request case details using Information Request Playbook
-description: Complete the Intake stage as your first step in resolving a case using the Information Request Playbook.
+title: Intake information request case details using Information Request Administration
+description: Complete the Intake stage as your first step in resolving a case using the Information Request Administration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/psds-irplaybook-complete-intake-stage.html
 release: zurich
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Information Request Playbook, Playbooks and solutions, Use, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Information Request Administration, Playbooks and solutions, Use, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Intake information request case details using Information Request Playbook
+# Intake information request case details using Information Request Administration
 
-Complete the Intake stage as your first step in resolving a case using the Information Request Playbook.
+Complete the Intake stage as your first step in resolving a case using the Information Request Administration.
 
 ## Before you begin
 
@@ -24,13 +24,13 @@ Role required: sn\_gsm.constituent\_agent, sn\_gsm.relationship\_agent, sn\_gsm.
 
 2.  Select **New**.
 
-    The Information Request Playbook opens and initiates the first activity for collecting the request details.
+    The Information Request Administration opens and initiates the first activity for collecting the request details.
 
 3.  On the Enter Request Details activity card, fill in the information.
 
 4.  Select **Save**.
 
-    A case is created with the information request information. The case number is added to the tab and the first activity in the Intake stage is marked as complete. The second activity in this stage is highlighted as the current activity. If you have enabled the Similar Request documents UI activity, this will display as the second activity. For more information, see [Configure Similar Request Documents UI in Information Request Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-ir-playbooks-configure-similar-request-documents.md).
+    A case is created with the information request information. The case number is added to the tab and the first activity in the Intake stage is marked as complete. The second activity in this stage is highlighted as the current activity. If you have enabled the Similar Request documents UI activity, this will display as the second activity. For more information, see [Configure Similar Request Documents UI in Information Request Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/government-industry/psds-ir-playbooks-configure-similar-request-documents.md).
 
 5.  Select a related document to link it to the request, and select **Next**.
 

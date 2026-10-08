@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-proactiveserviceexperienceworkflows-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
-reading_time_minutes: 4
+last_updated: "2026-10-08"
+reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
 
@@ -90,7 +90,46 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+-   **[Redirection to the right case type](https://www.servicenow.com/docs/access?context=generate-proactive-cases&family=yokohama&ft:locale=en-US)**
+
+Create a proactive case from an incident in the Proactive Service Experience Workflows.
+
+-   **[Playbook stages and activities](https://www.servicenow.com/docs/access?context=tech-product-support-playbook-stages&family=yokohama&ft:locale=en-US)**
+
+Diagnose the issue in the troubleshoot stage in the Technology Product Support Case playbook. Create the resolution task to solve the issue.
+
+-   **[Integrate with external southbound systems](https://www.servicenow.com/docs/access?context=tech-product-outbound-flow&family=yokohama&ft:locale=en-US)**
+
+In the Technology Product Support Case, you can submit outbound service test run requests to various external systems by integrating the application with the external southbound systems.
+
+-   **[Create a service problem case from the workspace](https://www.servicenow.com/docs/access?context=create-service-problem-case&family=yokohama&ft:locale=en-US)**
+
+Create a service problem case for a customer raised issue so that an agent can work on it and resolve the service-related problem. Record generation capability via playbooks for customer service problem management.
+
+-   **[Create a service problem case in the Customer Service Portal](https://www.servicenow.com/docs/access?context=create-a-product-case-from-the-customer-service-portal&family=yokohama&ft:locale=en-US)**
+
+Create a service problem case to report an issue about the service from the Customer Service Portal.
+
+-   **[Summarize a service problem case](https://www.servicenow.com/docs/access?context=now-assist-tmt-summarize-case&family=yokohama&ft:locale=en-US)**
+
+Use the ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) to provide concise, context-driven summaries specific to each case. This feature enables agents to confirm that critical case details are captured, and enable them to provide personalized and informed resolutions.
+
+-   **[Generate the resolution notes for a service problem case using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://www.servicenow.com/docs/access?context=now-assist-tmt-generate-resolution&family=yokohama&ft:locale=en-US)**
+
+Generate resolution notes and then shorten or elaborate the content using the Now Assist context menu in the resolution notes field of the case form, in both the Core UI \(UI16\) and Workspace.
+
+-   **[Generate a knowledge article](https://www.servicenow.com/docs/access?context=now-assist-tmt-generate-knowledge-article&family=yokohama&ft:locale=en-US)**
+
+You can now select and gather insights and data from multiple similar cases to draft an article by using ServiceNow Otto for TMT. You can revise the content in existing Knowledge articles by using the Now Assist icon \(\[Omitted image "icon-ai-sparkle.png"\] Alt text: Now assist icon.\), which is accessible as an inline capability, and create and refine Knowledge articles.
+
+-   **[Summarize test for a technology product support case using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://www.servicenow.com/docs/access?context=now-assist-tmt-summarize-tech-support-case&family=yokohama&ft:locale=en-US)**
+
+Generate the test run summary for a technology product support case record to understand the context of test outcomes and the root cause of the problem.
+
+-   **[Components installed with Customer Service Problem Management](https://www.servicenow.com/docs/access?context=spm-components&family=yokohama&ft:locale=en-US)**
+
+Create roles for customer service problem management so that agents and customers can create service problem cases.
+
 
 </td></tr><tr><td>
 
@@ -103,12 +142,12 @@ Zurich
 The granular admin role enables developers and administrators to complete administrative configuration tasks for Proactive Service Experience Workflows without requiring the full admin role.
 
 
--   **[Components](https://www.servicenow.com/docs/access?context=components-product-support-case&family=zurich&ft:locale=en-US)**
+ -   **[Components](https://www.servicenow.com/docs/access?context=components-product-support-case&family=zurich&ft:locale=en-US)**
 
 The granular admin role enables developers and administrators to complete administrative configuration tasks for Product Support for Technology without requiring the full admin role.
 
 
--   **[Diagnose and resolve an incident](https://www.servicenow.com/docs/access?context=diagnose-reslove-incident-psew&family=zurich&ft:locale=en-US)**
+ -   **[Diagnose and resolve an incident](https://www.servicenow.com/docs/access?context=diagnose-reslove-incident-psew&family=zurich&ft:locale=en-US)**
 
 Diagnose the incident in the Proactive Service Experience Workflows and create the resolution task manually to resolve the issue.
 
@@ -156,7 +195,14 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **[Technology Product Support Case](https://www.servicenow.com/docs/access?context=tech-product-support-case-app&family=zurich&ft:locale=en-US)**
+
+Technology Product Support Case menu is renamed to Product Support for Technology Case.
+
+-   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
 
 </td></tr></tbody>
 </table>## Removed
@@ -267,7 +313,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Install Proactive Service Experience Workflows by requesting it from the ServiceNow® Store.
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -378,7 +427,11 @@ Zurich
 
 </td><td>
 
--   ****
+-   **Accessibility information**
+    -   **Dark theme**
+
+The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
 
 </td></tr></tbody>
 </table>## Localization information

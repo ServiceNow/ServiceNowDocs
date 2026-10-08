@@ -20,7 +20,7 @@ The ServiceNow® App Engine Management Center \(AEMC\) application enables admin
 -   Migrate your existing App Engine pipelines to ReleaseOps.
 -   Oversee application development, deployment, and insights using AEMC.
 
-See  for more information.
+See [App Engine Management Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/app-engine-management-center.md) for more information.
 
 ## Activation and other requirements
 
@@ -41,18 +41,18 @@ The ServiceNow® App Engine Management Center \(AEMC\) application enables admin
 
 ### What's new
 
--   **ReleaseOps integration**
+-   **[ReleaseOps integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/exploring-aemc.md)**
 
     Starting with version 28.2.1 of AEMC, you can deploy using ReleaseOps. ReleaseOps enables the deployment of update sets via a pipeline and leverages the automation capabilities of ServiceNow Playbooks.
 
--   **Migrate App Engine pipelines to ReleaseOps**
+-   **[Migrate App Engine pipelines to ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/migrating-ae-pipelines-to-releaseops-aemc.md)**
 
     Starting with version 28.2.1 of AEMC, migrate your existing App Engine pipelines to ReleaseOps to take advantage of ReleaseOps features without disrupting your existing pipeline and deployment process.
 
 
 ### What's changed
 
--   **Release management tab**
+-   **[Release management tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/aemc-user-interface.md)**
 
     Starting with version 28.2.1 of AEMC, you can manage your ReleaseOps deployments in the **Release management** tab of AEMC.
 
@@ -63,7 +63,7 @@ The ServiceNow® App Engine Management Center \(AEMC\) application enables admin
 
 ### What's new
 
--   **Use AEMC to manage app delegation, development, and deployment**
+-   **[Use AEMC to manage app delegation, development, and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/app-engine-management-center.md)**
 
     AEMC is a centralized tool for IT admins and developers to manage the entire app development life cycle, from idea submission to deployment and monitoring. AEMC enhances efficiency and governance, and provides clear insights into custom app usage and developer productivity.
 

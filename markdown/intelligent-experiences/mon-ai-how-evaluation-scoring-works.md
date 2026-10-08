@@ -7,7 +7,7 @@ release: zurich
 topic_type: concept
 last_updated: "2026-06-30"
 reading_time_minutes: 5
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Explore, Monitoring and evaluating AI systems, Monitor AI assets, AI Control Tower, Enable AI experiences]
 ---
 

@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2026-07-21"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Contain AI agents manually using kill switch protocol, Managing AI asset security, Govern AI assets, AI Control Tower, Enable AI experiences]
 ---
 
@@ -17,7 +17,7 @@ The agent containment list shows agents that were deactivated and reinstated for
 
 ## Before you begin
 
-Role required: AI steward \[sn\_ai\_governance\_ai\_steward\]
+Role required: AI steward \[sn\_ai\_governance.ai\_steward\]
 
 ## Procedure
 

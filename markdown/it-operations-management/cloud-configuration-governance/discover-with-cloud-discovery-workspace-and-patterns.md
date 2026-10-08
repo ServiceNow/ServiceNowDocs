@@ -34,15 +34,15 @@ Cloud Operations Workspace is now known as Cloud Discovery Workspace or CDW.
 
     Follow these scenarios for next steps.
 
-<table id="choicetable_rcg_mjr_bcc"><thead><tr><th align="left" id="d69287e102">
+<table id="choicetable_rcg_mjr_bcc"><thead><tr><th align="left" id="d70088e102">
 
 Scenario
 
-</th><th align="left" id="d69287e105">
+</th><th align="left" id="d70088e105">
 
 Next steps
 
-</th></tr></thead><tbody><tr><td id="d69287e111">
+</th></tr></thead><tbody><tr><td id="d70088e111">
 
 **Cloud Discovery schedules don't display for System Admin login**
 
@@ -52,7 +52,7 @@ Next steps
 -   The page prompts to **Go to Applications Manager** to allow installation
 
 
-</td></tr><tr><td id="d69287e137">
+</td></tr><tr><td id="d70088e137">
 
 **Cloud Discovery schedules don't display for sn\_cmp Cloud Admin login**
 
@@ -62,7 +62,7 @@ Next steps
 -   The page requests to contact the system admin for Cloud Discovery Workspace installation.
 
 
-</td></tr><tr><td id="d69287e163">
+</td></tr><tr><td id="d70088e163">
 
 **Cloud Discovery displays**
 

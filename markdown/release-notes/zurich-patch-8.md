@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/zurich-pat
 release: zurich
 topic_type: reference
 last_updated: "2026-04-07"
-reading_time_minutes: 72
+reading_time_minutes: 70
 breadcrumb: [Available patches and hotfixes, Learn about the Zurich release, Zurich release notes]
 ---
 
@@ -42,91 +42,31 @@ Zurich Patch 8 includes fixes for security-related problems that affected certai
 
     The ServiceNow® Live Connect enables RaptorDB Pro users to bring their Business Intelligence \(BI\) tools to ServiceNow. Users can perform BI analytics on their ServiceNow data without mass data export. Live Connect is only available with RaptorDB Pro.
 
--   ****
-
-    The ServiceNow Live Connect provides data access to your ServiceNow instances through industry-standard ODBC and JDBC drivers, enabling direct connections from Business Intelligence \(BI\) tools and data analysis platforms.
-
--   ****
-
-    The Live Connect architecture demonstrates how the Live Connect plugin integrates with the ServiceNow system to provide secure, read-only data access through industry-standard ODBC and JDBC drivers.
-
--   ****
-
-    Common SQL functions used in Live Connect for querying and analyzing incident data.
-
--   ****
-
-    This section guides you through the complete setup process for the ServiceNow Live Connect, covering both instance configuration and driver installation. You will configure your ServiceNow instance to enable Live Connect access, set up the necessary security controls, and install the appropriate drivers on your client machine.
-
--   ****
-
-    Create a dedicated non-interactive Service Account in User Administration and assign the appropriate Live Connect access role to enable secure, programmatic access for BI tools and analytics platforms.
-
--   ****
-
-    Configure table-level access control using the egress\_sql and read operations to grant Service Accounts query access to specific tables through the Live Connect.
-
--   ****
-
-    Define which IP addresses or IP ranges are permitted to connect to your ServiceNow instance via the Live Connect ODBC/JDBC driver. By default, all incoming IPs are blocked until you configure the Live Connect Authentication Policy with an IP filter and policy condition to allow access only from trusted client machines.
-
--   ****
-
-    Download the ODBC and JDBC drivers from the ServiceNow store to your client machine to enable Live Connect connectivity.
-
--   ****
-
-    Install the ServiceNow ODBC driver on your Windows client machine to enable connectivity between your Business Intelligence \(BI\) tools and ServiceNow data through the Live Connect.
-
--   ****
-
-    Configure connection settings for the installed ODBC driver including server URL and authentication credentials to enable data access from BI tools to your ServiceNow instance.
-
--   ****
-
-    Run the Interactive SQL application for quick verification of connectivity and to test query results without using a full application.
-
--   ****
-
-    Configure the JDBC driver settings on your client machine to establish a connection to your ServiceNow instance and access data through the Live Connect.
-
--   ****
-
-    You can route Live Connect calls to Read Replica to optimize the performance of your ServiceNow instance.
-
--   ****
-
-    The Live Connect supports business intelligence reporting, ad-hoc data analysis, and custom report development.
-
--   ****
-
-    Configure ServiceNow Live Connect drivers to connect with third-party business intelligence and database tools for direct data access and analysis.
-
--   ****
-
-    Connect Power BI Desktop to your ServiceNow instance using the ODBC driver to access and analyze ServiceNow data. Create dashboards and reports that visualize your ServiceNow data.
-
--   ****
-
-    Connect the DB Visualizer database tool to your ServiceNow instance using the JDBC driver to query ServiceNow data. Access authorized tables and perform read-only queries on your ServiceNow data to create visualizations, and perform ad-hoc analysis using industry-standard SQL commands.
-
--   ****
-
-    This section provides details about Live Connect reference information like minimum requirements, usage limitations, configuration issues, and frequently asked questions.
-
--   ****
-
-    This section lists the minimum supported versions for ServiceNow server releases, client drivers \(ODBC and JDBC\), and Java Development Kit required for Live Connect.
-
--   ****
-
-    The Live Connect imposes rate limits to ensure system stability and performance when querying ServiceNow data through ODBC and JDBC drivers.
-
--   ****
+-   **[Getting started with ServiceNow Live Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/getting-started-with-servicenow-sql-api.md)**
+-   **[Live Connect architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/sql-api-architecture.md)**
+-   **[Supported SQL functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/supported-sql-functions.md)**
+-   **[Configuring Live Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/configuring-sql-api.md)**
+-   **[Assign roles and create service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/create-service-account.md)**
+-   **[Create Access Control Lists \(ACLs\) for Live Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/create-acls-sql-api.md)**
+-   **[Create IP filter criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/create-ip-filter-criteria.md)**
+-   **[Download the Live Connect drivers on a client machine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/download-sql-api-drivers.md)**
+-   **[Install the ServiceNow Live Connect ODBC driver on a client machine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/install-odbc-driver.md)**
+-   **[Configure ServiceNow Live Connect ODBC driver on a client machine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/configure-odbc-driver.md)**
+-   **[Test Live Connect ODBC driver connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/test-sql-api-odbc-driver-connection-using-interactive-sql.md)**
+-   **[Configure ServiceNow Live Connect JDBC driver on a client machine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/configure-jdbc-driver.md)**
+-   **[Route Live Connect calls to Read Replica](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/routing-sql-api-calls-to-read-replica.md)**
+-   **[Use cases for Live Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/common-use-cases-for-sql-api.md)**
+-   **[Integrate Live Connect Drivers with third-party BI tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/configure-drivers-bi-tools.md)**
+-   **[Connect Power BI Desktop to ODBC driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/connect-power-bi-odbc.md)**
+-   **[Connect DB Visualizer to JDBC driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/connect-dbvisualizer-jdbc.md)**
+-   **[Live Connect reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/troubleshooting.md)**
+-   **[Minimum requirements and supported software for Live Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/minimum-requirements-and-supported-softwares.md)**
+-   **[Usage limitations for Live Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/web-services/usage-limitations.md)**
+-   **[Define a REST API schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/define-scripted-rest-api-schema.md)**
 
     The following procedure describes the process for manual schema definition. For details about automatically generating request schema definitions in non-production instances, see .
 
--   ****
+-   **[Automatically generate API request definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/autogenerate-api-request-definitions.md)**
 
     Use sample requests made to an API resource to generate request header associations, query parameter associations, and a request schema for that resource.
 

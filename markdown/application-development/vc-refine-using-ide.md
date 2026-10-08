@@ -43,7 +43,7 @@ To refine your vibe-coded app in the ServiceNow IDE, follow these steps:
 6.  Validate security and roles.
     -   Review ACLs to confirm that the correct roles and conditions are applied.
     -   Tighten permissions and remove any overly permissive logic introduced during scaffolding.
-7.  Use Build Agent to generate and run Automated Test Framework. For more information, see [Test what you built](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/build-agent-testing.md).
+7.  Use Build Agent to generate and run Automated Test Framework. For more information, see [Test what you built with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/build-agent-testing.md).
 8.  Move to local development with the ServiceNow SDK for deeper refactoring.
     -   Use the ServiceNow SDK command line interface \(CLI\) for build, deploy, and fetch operations, version control, and CI integration.
     -   Use the Source Control extension within the ServiceNow IDE to move changes between local versions and the ServiceNow IDE. For more information, see [Using source control in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-development/servicenow-ide-family-release/using-source-control-servicenow-ide.md).

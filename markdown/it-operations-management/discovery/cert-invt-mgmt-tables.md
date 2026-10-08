@@ -7,7 +7,7 @@ release: zurich
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2026-05-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reference, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
@@ -30,7 +30,7 @@ Unique Certificate \[cmdb\_ci\_certificate\]
 
 </td><td>
 
-The Fingerprint column is unique for every server certificate. **Note:** You can also view the entire certificate chain using the related list in the Unique Certificate table.
+The Fingerprint column is unique for every server certificate. **Note:** You can also view the entire certificate chain using the related list in the Unique Certificate table. The State field records the life cycle state of the certificate and doesn't include an Expired value. Expired certificates are denoted as Issued. Use the Valid to field to identify certificates that have expired.
 
 </td></tr><tr><td>
 

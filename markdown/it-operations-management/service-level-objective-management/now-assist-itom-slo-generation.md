@@ -9,7 +9,7 @@ classification: service-level-objective-management
 topic_type: concept
 last_updated: "2026-01-23"
 reading_time_minutes: 2
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Using SLO Management, Service Level Objective Management, ITOM AIOps, IT Operations Management]
 ---
 

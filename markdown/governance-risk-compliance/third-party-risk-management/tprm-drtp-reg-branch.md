@@ -7,8 +7,8 @@ release: zurich
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Use digital resilience third-party registers, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
 
@@ -42,6 +42,8 @@ A legal entity can operate multiple branches across various cities or countries,
     -   Specifying the branch as a head office or as a different branch other than the head office
     -   ID of the branch and its originating country
     The number for the branch is auto-generated. Once the branch details are complete, the information is ready to be captured in the information register.
+
+    **Note:** When you enter or update an LEI code field on the branch form, the system validates it against the GLEIF database and auto-populates the name and country fields. If you then edit the name or country to a value that no longer matches GLEIF data, an inline warning is displayed on the edited field. You can still save the record. For more information, see [Validate Legal Entity Identifier codes for DORA reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-valid-lei.md).
 
 4.  Select **Save**.
 

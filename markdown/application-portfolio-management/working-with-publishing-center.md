@@ -70,5 +70,5 @@ Use the Knowledge Base management controls to retire or archive the content gene
 
 [Publishing results and knowledge base output](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/understand-publishing-output.md)
 
-[Exploring the Technology Reference Model in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-managing-the-technology-portfolio.md)
+[Technology Reference Model in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-managing-the-technology-portfolio.md)
 

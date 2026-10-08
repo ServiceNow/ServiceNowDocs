@@ -1,6 +1,6 @@
 ---
 title: Data Relationships Framework
-description: The Data Relationships Framework application \(sn\_grc\_rel\_config\) supports the BCM application with the underlying framework to fetch the dependencies in the BIAs, plans, and events from different sources such as CMDB, BIA, and BCP. Beginning with the Zurich release, the Data Relationships Framework \(sn\_grc\_rel\_config\) application is installed with the BCM application by default.
+description: The Data Relationships Framework application \(sn\_grc\_rel\_config\) supports the BCM application with the underlying framework. It fetches the dependencies in the BIAs, plans, and events from different sources such as CMDB, BIA, and BCP. Beginning with the Zurich release, the Data Relationships Framework \(sn\_grc\_rel\_config\) application is installed with the BCM application by default.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/data-relationship-framework.html
 release: zurich
@@ -12,13 +12,17 @@ breadcrumb: [Reference, Business Continuity Management, Governance, Risk, and Co
 
 # Data Relationships Framework
 
-The Data Relationships Framework application \(sn\_grc\_rel\_config\) supports the BCM application with the underlying framework to fetch the dependencies in the BIAs, plans, and events from different sources such as CMDB, BIA, and BCP. Beginning with the Zurich release, the Data Relationships Framework \(sn\_grc\_rel\_config\) application is installed with the BCM application by default.
+The Data Relationships Framework application \(sn\_grc\_rel\_config\) supports the BCM application with the underlying framework. It fetches the dependencies in the BIAs, plans, and events from different sources such as CMDB, BIA, and BCP. Beginning with the Zurich release, the Data Relationships Framework \(sn\_grc\_rel\_config\) application is installed with the BCM application by default.
+
+\[Omitted video\] Description: An overview of the Data Relationships Framework.
+
+The video gives you an overview of the Data Relationships Framework and how it fetches dependencies in BIAs, plans, and events from different sources.
 
 ## Framework for fetching the dependencies
 
-The Data Relationships Framework \(sn\_grc\_rel\_config\) stores the configurations for how a main object type can relate to other object types. It enables the users to configure the source \(main node\) for the dependency updates, configure its relationship with the child nodes, and fetch the dependencies for the selected object.
+The Data Relationships Framework \(sn\_grc\_rel\_config\) stores the configurations for how a main object type can relate to other object types. It enables the users to configure the source \(main node\) for the dependency updates. It configures its relationship with the child nodes and fetch the dependencies for the selected object.
 
-A scheduled job scans the object configuration data at regular intervals and checks if any dependencies have been updated. If any changes are observed in the dependencies, the scheduled job fetches the dependencies of the selected object from one of the configured sources such as BIA, BCP, or CMDB.
+A scheduled job scans the object configuration data at regular intervals and checks if any dependencies have been updated. If any changes are observed in the dependencies, the scheduled job fetches the dependencies from one of the configured sources such as BIA, BCP, or CMDB.
 
 ## Benefits of the Data Relationships Framework
 

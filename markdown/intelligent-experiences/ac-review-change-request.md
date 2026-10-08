@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2026-07-16"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Change and offboarding requests, Managing tasks and approvals, Address action items, AI Control Tower, Enable AI experiences]
 ---
 
@@ -43,15 +43,15 @@ Role required: sn\_ai\_governance.ai\_steward
 
 7.  Approve or reject the change request.
 
-<table><thead><tr><th align="left" id="d165756e155">
+<table><thead><tr><th align="left" id="d170740e155">
 
 Option
 
-</th><th align="left" id="d165756e158">
+</th><th align="left" id="d170740e158">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d165756e164">
+</th></tr></thead><tbody><tr><td id="d170740e164">
 
 **Approve the request**
 
@@ -62,7 +62,7 @@ Description
 3.  Confirm the approval. AI Control Tower applies the change to the asset and updates the asset record with the new values.
 
 
-</td></tr><tr><td id="d165756e188">
+</td></tr><tr><td id="d170740e188">
 
 **Reject the request**
 

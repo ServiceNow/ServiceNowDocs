@@ -46,5 +46,5 @@ Role required: admin
 
 [Personal lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-user-interface/c_PersonalLists.md)
 
-[bundle-platadm.t_ConfigureTheListLayout]
+[Configure the list layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_ConfigureTheListLayout.md)
 

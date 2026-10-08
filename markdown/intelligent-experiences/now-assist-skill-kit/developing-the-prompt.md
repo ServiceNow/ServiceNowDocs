@@ -1,24 +1,24 @@
 ---
-title: Developing the prompt
-description: Use the guidelines to help create a prompt for your skill. A specific, clear, contextual prompt provides better results.
+title: Prompt development guidelines
+description: Write a skill prompt that is specific, clear, and grounded in context so that the model is more likely to return the output that you expect.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/now-assist-skill-kit/developing-the-prompt.html
 release: zurich
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [General guidelines for AI Skill Kit, Exploring AI Skill Kit, AI Skill Kit, Enable AI experiences]
 ---
 
-# Developing the prompt
+# Prompt development guidelines
 
-Use the guidelines to help create a prompt for your skill. A specific, clear, contextual prompt provides better results.
+Write a skill prompt that is specific, clear, and grounded in context so that the model is more likely to return the output that you expect.
 
-## Prompt development overview
+## Prompt design guidelines
 
-As a prompt engineer, you should make development decisions by looking at the model outputs that are generated in response to a prompt applied to many different inputs. However, there are still certain guidelines that may help users get started with prompt design.
+Base prompt development decisions on the model outputs that a prompt generates across many different inputs. The following guidelines can help you get started with prompt design.
 
 1.  Be specific
 
@@ -34,7 +34,7 @@ As a prompt engineer, you should make development decisions by looking at the mo
 
 4.  Include demonstrations
 
-    If possible, experiment with providing completed examples, or demonstrations, in the prompt after the instructions to illustrate what you want the model to produce. Demonstrations are a powerful way to increase the likelihood of generating a desirable output. However, the performance changes depending on the demonstrations selected.
+    If possible, experiment with providing completed examples, or demonstrations, in the prompt after the instructions to illustrate what you want the model to produce. Demonstrations can increase the likelihood of generating a desirable output. However, the performance changes depending on the demonstrations selected.
 
 5.  Start simple and test variations
 
@@ -43,6 +43,6 @@ As a prompt engineer, you should make development decisions by looking at the mo
 
 ## Other considerations
 
--   Subtle differences in wording can lead to substantial differences in performance. Trying to reason about how a large language model \(LLM\) may “interpret” the instructions in a prompt only gets you so far. Which specific choice of prompt-wording works best depends on the underlying model and should ideally be chosen based on evidence \(that is, looking at lots of outputs\).
--   In data-constrained settings, you should iteratively develop several candidate prompts using the development data, then measure the performance of each candidate prompt on the test set, choosing the best one.
+-   Subtle differences in wording can lead to substantial differences in performance. Trying to reason about how a large language model \(LLM\) may “interpret” the instructions in a prompt only gets you so far. Which specific choice of prompt wording works best depends on the underlying model and should ideally be chosen based on evidence \(that is, looking at lots of outputs\).
+-   In data-constrained settings, iteratively develop several candidate prompts using the development data, then measure the performance of each candidate prompt on the test set, choosing the best one.
 

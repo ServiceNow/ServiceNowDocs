@@ -1,12 +1,13 @@
 ---
 title: Enterprise Asset Management release notes
-description: The ServiceNow Enterprise Asset Management application manages the entire life cycle of your enterprise's connected and non-connected assets, which enables you to maintain and maximize the life of your assets while minimizing any costly downtimes. Enterprise Asset Management was enhanced and updated in the Zurich release.The ServiceNow Enterprise Asset Management application manages the entire life cycle of your enterprise's connected and non-connected assets, which enables you to maintain and maximize the life of your assets while minimizing any costly downtimes. Enterprise Asset Management was enhanced and updated in the Zurich release.The ServiceNow Enterprise Asset Management application manages the entire life cycle of your enterprise's connected and non-connected assets, which enables you to maintain and maximize the life of your assets while minimizing any costly downtimes. Enterprise Asset Management was enhanced and updated in the Zurich release.The ServiceNow Enterprise Asset Management application manages the entire life cycle of your enterprise's connected and non-connected assets, which enables you to maintain and maximize the life of your assets while minimizing any costly downtimes. Enterprise Asset Management was enhanced and updated in the Zurich release.
+description: The ServiceNow Enterprise Asset Management application manages the entire life cycle of your enterprise's connected and non-connected assets, which enables you to maintain and maximize the life of your assets while minimizing any costly downtimes. Enterprise Asset Management was enhanced and updated in the Zurich release.The version 11.0.1 release adds the capability to create enterprise catalog categories for the Service Catalog.The version 11.0.0 release adds AI-assisted enterprise model and asset import capabilities, seeded templates for manual enterprise model and asset imports, and an application installation option from the Admin Home page.The ServiceNow Enterprise Asset Management application manages the entire life cycle of your enterprise's connected and non-connected assets, which enables you to maintain and maximize the life of your assets while minimizing any costly downtimes. Enterprise Asset Management was enhanced and updated in the Zurich release.The ServiceNow Enterprise Asset Management application manages the entire life cycle of your enterprise's connected and non-connected assets, which enables you to maintain and maximize the life of your assets while minimizing any costly downtimes. Enterprise Asset Management was enhanced and updated in the Zurich release.The ServiceNow Enterprise Asset Management application manages the entire life cycle of your enterprise's connected and non-connected assets, which enables you to maintain and maximize the life of your assets while minimizing any costly downtimes. Enterprise Asset Management was enhanced and updated in the Zurich release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/enterprise-asset-management-rn.html
 release: zurich
 topic_type: topic
 last_updated: "2025-07-31"
-reading_time_minutes: 13
+reading_time_minutes: 16
+keywords: [Enterprise Asset Management]
 breadcrumb: [IT Asset Management release notes, Features and changes by product, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
 ---
 
@@ -55,9 +56,78 @@ See [Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/S
 
 **Parent Topic:**[IT Asset Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/it-asset-management-rn-landing.md)
 
-## December 2025
+## Version 11.0.1
+
+The version 11.0.1 release adds the capability to create enterprise catalog categories for the Service Catalog.
+
+### What's new
+
+-   **[Create enterprise catalog categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/create-product-catalog-category-eam.md)**
+
+    Create and manage enterprise catalog categories for the Service Catalog. Catalog categories help you organize related product catalog items into logical groupings within the Service Catalog. You can then use these groupings to locate and request product catalog items more intuitively and efficiently.
+
+
+### What's changed
+
+-   **Product catalogs menu item**
+
+    In the navigation panel of the Admin center view, the **Product catalogs** menu item has been renamed to **Product catalog items**.
+
+
+### What's deprecated or removed
+
+-   **Now LLM Service**
+
+    Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+
+
+## Version 11.0.0
+
+The version 11.0.0 release adds AI-assisted enterprise model and asset import capabilities, seeded templates for manual enterprise model and asset imports, and an application installation option from the Admin Home page.
+
+### What's new
+
+-   **[Bulk import enterprise models and assets by using AI-assisted import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/importing-data-ai-eam.md)**
+
+    Streamline the bulk import process for your enterprise models and assets by using AI-assisted import. AI-assisted import automatically analyzes the external model and asset data that you upload into your ServiceNow instance. It then uses AI-powered column and value mappings to automatically align this data with ServiceNow table fields and values, eliminating the need for manual mapping. You can save your completed mappings as templates, further simplifying the import process across future imports. AI-assisted import also provides real-time feedback that helps you identify and resolve errors before you import any data. With AI-assisted import, you can reduce the time and effort that you spend on importing your enterprise models and assets.
+
+-   **[Import enterprise models and assets through enhanced seeded templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/download-seeded-template-manual-bulk-imports.md)**
+
+    Use enhanced seeded templates to manually import enterprise models and assets into your ServiceNow instance. Each template is preconfigured for a specific import scenario and includes a detailed implementation aid, providing immediate guidance on the fields and formatting required for a successful import.
+
+-   **[Install the Enterprise Asset Management application from the Admin Home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/install-eam-admin-home-page.md)**
+
+    Install the Enterprise Asset Management application or any Enterprise Asset Management dependent applications from the Admin Home page. The Admin Home page provides an overview of each application that you're entitled to install and configure.
+
+
+### What's deprecated or removed
+
+-   **[Enterprise model and asset import templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/download-seeded-template-manual-bulk-imports.md)**
+
+    Enterprise model and asset import templates that were previously generated from Enterprise Asset Management staging tables have been replaced with seeded import templates.
+
+
+### Plugin information
+
+-   **New plugins**
+    -   Enterprise Data Transform \(sn\_ent\_datamap\): Provides access to all enterprise data transform tables.
+    -   Enterprise Data Transform Components \(sn\_ent\_datamap\_components\): Provides access to seismic workspace components.
+    -   AI Agents for Enterprise \(sn\_ent\_aia\): Provides AI skills related to model categories and classifications.
+
+## Version 9.1.0
 
 The ServiceNow® Enterprise Asset Management application manages the entire life cycle of your enterprise's connected and non-connected assets, which enables you to maintain and maximize the life of your assets while minimizing any costly downtimes. Enterprise Asset Management was enhanced and updated in the Zurich release.
+
+### What's new
+
+-   **[Manage mission-critical enterprise assets and linear assets for telecommunications networks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/eam-dcnam.md)**
+
+    Use the Enterprise Asset Management for Data Center and Network Asset Management \(DCNAM\) application to track and manage mission-critical facility-based enterprise assets and linear assets for telecommunications networks. Get a comprehensive view of these assets throughout their life cycles so that you can help optimize their performance and improve their longevity.
+
+-   **[Fulfill Return Merchandise Authorization \(RMA\) requests as a Device as a Service \(DaaS\) provider, vendor, or manufacturer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/eam-providers.md)**
+
+    Use the Enterprise Asset Management for Providers application to fulfill the RMA requests that you receive from customers as a DaaS provider, vendor, or manufacturer. The application adds support for RMA response orders, which enable you to track and manage the process of repairing or replacing defective assets for your RMA requests. The application also adds support for inbound asset orders, which enable you to track and manage the process of providing assets for your RMA requests. By managing these orders from a consolidated location, you can streamline your operations and improve efficiency.
+
 
 ### What's changed
 
@@ -70,7 +140,7 @@ The ServiceNow® Enterprise Asset Management application manages the entire life
     Starting from Enterprise Asset Management version 9.1.0, a new field **Shipment quantity** has been added to the Shipment Details form. The **Shipment quantity** field displays the quantity of assets shipped for the shipment record.
 
 
-## November 2025
+## Version 9.0.1
 
 The ServiceNow® Enterprise Asset Management application manages the entire life cycle of your enterprise's connected and non-connected assets, which enables you to maintain and maximize the life of your assets while minimizing any costly downtimes. Enterprise Asset Management was enhanced and updated in the Zurich release.
 
@@ -81,7 +151,7 @@ The ServiceNow® Enterprise Asset Management application manages the entire life
     All Enterprise Asset Management demo data has migrated from the Enterprise Asset Management application to either the EAM Demo Data application or Indoor Mapping for Assets application. The EAM Demo Data application contains all Enterprise Asset Management demo data except for indoor mapping-related demo data, which is now included in the Indoor Mapping for Assets application.
 
 
-## Zurich
+## Version 9.0.0
 
 The ServiceNow® Enterprise Asset Management application manages the entire life cycle of your enterprise's connected and non-connected assets, which enables you to maintain and maximize the life of your assets while minimizing any costly downtimes. Enterprise Asset Management was enhanced and updated in the Zurich release.
 

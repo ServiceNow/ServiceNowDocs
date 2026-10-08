@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-externalcontentconnectors-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
-reading_time_minutes: 16
+last_updated: "2026-10-08"
+reading_time_minutes: 15
 breadcrumb: [Products combined by family]
 ---
 
@@ -38,9 +38,7 @@ Yokohama
 
 </td><td>
 
-Beginning with version 2 of the External Content Connectors application, external content connectors implement semantic vector indexing for crawled items. When you upgrade to a version that supports semantic vector indexing, your existing connectors will reindex all previously retrieved items the next time they're visited by a crawl, even if those items' content is unchanged. To force semantic vector indexing of your external content items as soon as possible after upgrading, cancel any running crawls, then restart the canceled crawls manually.
-
- When you upgrade to version 4 of the External Content Connectors application from an earlier version, searches may not show all previously crawled content until you've completed both a content crawl and a user mapping crawl for each upgraded connector. The first content crawl run after the upgrade will reindex all searchable content from the source system, and the user mapping crawl will reindex all security principals from the source system. All crawled content should be shown in searches after both of these crawls are complete.
+No updates for this release.
 
 </td></tr><tr><td>
 
@@ -48,9 +46,7 @@ Zurich
 
 </td><td>
 
-Starting in version 2 of the External Content Connectors application, external content connectors implement semantic vector indexing for crawled items. When you upgrade to a version that supports semantic vector indexing, your existing connectors will reindex all previously retrieved items the next time they're visited by a crawl, even if those items' content is unchanged. To force semantic vector indexing of your external content items as soon as possible after upgrading, cancel any running crawls, then restart the canceled crawls manually.
-
- When you upgrade to version 4 of the External Content Connectors application from an earlier version, searches may not show all previously crawled content until you complete both a content crawl and a user mapping crawl for each upgraded connector. The first content crawl run after the upgrade will reindex all searchable content from the source system, and the user mapping crawl will reindex all security principals from the source system. All crawled content should be shown in searches after both of these crawls are complete.
+No updates for this release.
 
 </td></tr></tbody>
 </table>## New features
@@ -156,7 +152,7 @@ Review statistics about the permissions \(user and group-membership security pri
 Review metrics that show how your external content connector has run over time.
 
 
--   **[Amazon S3 external content connector](https://www.servicenow.com/docs/access?context=amazon-s3-external-content-connector&family=yokohama&ft:locale=en-US)**
+ -   **[Amazon S3 external content connector](https://www.servicenow.com/docs/access?context=amazon-s3-external-content-connector&family=yokohama&ft:locale=en-US)**
 
 Retrieve searchable content and metadata from buckets in your Amazon S3 source system.
 
@@ -197,7 +193,7 @@ Review statistics for searchable items retrieved by a content crawl.
 Review statistics for user and group permissions retrieved by a user permission crawl.
 
 
--   **[Atlassian Jira Cloud external content connector](https://www.servicenow.com/docs/access?context=create-ext-cont-connector-jira&family=yokohama&ft:locale=en-US)**
+ -   **[Atlassian Jira Cloud external content connector](https://www.servicenow.com/docs/access?context=create-ext-cont-connector-jira&family=yokohama&ft:locale=en-US)**
 
 Retrieve searchable content and user permissions from projects in your Atlassian Jira Cloud source system.
 
@@ -226,7 +222,7 @@ When an external content connector's indexed document count exceeds 800,000, a w
 Expand the range of information available to Virtual Agent users by adding external content search results to Now Assist in Virtual Agent conversations.
 
 
--   **[Semantic vector indexing for crawled content](https://www.servicenow.com/docs/access?context=semantic-search-ais&family=yokohama&ft:locale=en-US)**
+ -   **[Semantic vector indexing for crawled content](https://www.servicenow.com/docs/access?context=semantic-search-ais&family=yokohama&ft:locale=en-US)**
 
 Improve recall for external content searches with support for semantic vector indexing of crawled content. Semantic vector indexing is supported for all external content connectors.
 
@@ -242,7 +238,7 @@ Zurich
 Configure your Google Drive external content connectors to only retrieve content items that have one or more of a specified set of label values applied.
 
 
--   **[Adobe Acrobat Sign external content connector](https://www.servicenow.com/docs/access?context=adobe-acrobat-sign-external-content-connector&family=zurich&ft:locale=en-US)**
+ -   **[Adobe Acrobat Sign external content connector](https://www.servicenow.com/docs/access?context=adobe-acrobat-sign-external-content-connector&family=zurich&ft:locale=en-US)**
 
 Retrieve searchable content and metadata from your Adobe Acrobat Sign source system.
 
@@ -267,7 +263,7 @@ Retrieve searchable content and metadata from your ManageEngine source system.
 Retrieve searchable content and metadata from your Workvivo source system.
 
 
--   **[Connector admin role](https://www.servicenow.com/docs/access?context=installed-with-ext-content-connectors&family=zurich&ft:locale=en-US)**
+ -   **[Connector admin role](https://www.servicenow.com/docs/access?context=installed-with-ext-content-connectors&family=zurich&ft:locale=en-US)**
 
 Users with the sn\_ext\_conn.xcc\_admin role can create, configure, and review details for external content connectors and crawls.
 
@@ -352,7 +348,7 @@ Review statistics about the permissions \(user and group-membership security pri
 Review metrics that show how your external content connector has run over time.
 
 
--   **[Amazon S3 external content connector](https://www.servicenow.com/docs/access?context=amazon-s3-external-content-connector&family=zurich&ft:locale=en-US)**
+ -   **[Amazon S3 external content connector](https://www.servicenow.com/docs/access?context=amazon-s3-external-content-connector&family=zurich&ft:locale=en-US)**
 
 Retrieve searchable content and metadata from buckets in your Amazon S3 source system.
 
@@ -412,7 +408,12 @@ Yokohama
 
 </td><td>
 
--   **[Analytics](https://www.servicenow.com/docs/access?context=analytics-external-content-connectors&family=yokohama&ft:locale=en-US)**
+-   **[Connector creation UI](https://www.servicenow.com/docs/access?context=creating-ext-cont-connectors&family=yokohama&ft:locale=en-US)**
+
+The connector creation UI now includes optional steps for configuring user permission crawls \(for connectors that support them\) and for linking connector search sources to your search profiles. If you want to change these settings for an existing connector, you can configure these settings from the connector editor.
+
+
+ -   **[Analytics](https://www.servicenow.com/docs/access?context=analytics-external-content-connectors&family=yokohama&ft:locale=en-US)**
 
 Analyze connector performance and behavior in a selected time period using the redesigned Analytics page. You can access this page from the connector editor.
 
@@ -433,9 +434,19 @@ The Microsoft SharePoint Online external content connector now accepts certifica
 The Microsoft Teams external content connector now accepts certificate SHA1 thumbprint hashes in hexadecimal format as well as in base64-encoded format.
 
 
--   **[Webcrawler external content connector](https://www.servicenow.com/docs/access?context=webcrawler-external-content-connector&family=yokohama&ft:locale=en-US)**
+ -   **[Connector creation UI](https://www.servicenow.com/docs/access?context=creating-ext-cont-connectors&family=yokohama&ft:locale=en-US)**
+
+The connector creation UI now includes optional steps for configuring the new connector's crawl settings and creating and scheduling crawls for it. You can still configure these settings from the connector editor, so you can skip these steps during connector creation if you want to configure crawl settings and create crawls later on.
+
+
+ -   **[Webcrawler external content connector](https://www.servicenow.com/docs/access?context=webcrawler-external-content-connector&family=yokohama&ft:locale=en-US)**
 
 The predefined web sources external content connector has been subsumed into the new Webcrawler external content connector, which allows you to specify a custom web source or select a predefined one.
+
+
+ -   **[New UI for creating external content connectors](https://www.servicenow.com/docs/access?context=creating-ext-cont-connectors&family=yokohama&ft:locale=en-US)**
+
+On the External Content Admin Home page, you now select **New** instead of **Create** to create a new connector. Next, you select the appropriate source system type on the Choose source page. Finally, you fill in required values on the Connector details page.
 
 
 </td></tr><tr><td>
@@ -461,7 +472,12 @@ View the start point for a scheduled partial content crawl via a link in its cra
 Map source system user and group permissions assigned via RBAC roles to users in your ServiceNow AI Platform instance.
 
 
--   **[Analytics](https://www.servicenow.com/docs/access?context=analytics-external-content-connectors&family=zurich&ft:locale=en-US)**
+ -   **[Connector creation UI](https://www.servicenow.com/docs/access?context=creating-ext-cont-connectors&family=zurich&ft:locale=en-US)**
+
+The connector creation UI now includes optional steps for configuring user permission crawls \(for connectors that support them\) and for linking connector search sources to your search profiles. If you want to change these settings for an existing connector, you can configure these settings from the connector editor.
+
+
+ -   **[Analytics](https://www.servicenow.com/docs/access?context=analytics-external-content-connectors&family=zurich&ft:locale=en-US)**
 
 Analyze connector performance and behavior in a selected time period using the redesigned Analytics page. You can access this page from the connector editor.
 
@@ -482,9 +498,19 @@ The Microsoft SharePoint Online external content connector now accepts certifica
 The Microsoft Teams external content connector now accepts certificate SHA1 thumbprint hashes in hexadecimal format as well as in base64-encoded format.
 
 
--   **[Webcrawler external content connector](https://www.servicenow.com/docs/access?context=webcrawler-external-content-connector&family=zurich&ft:locale=en-US)**
+ -   **[Connector creation UI](https://www.servicenow.com/docs/access?context=creating-ext-cont-connectors&family=zurich&ft:locale=en-US)**
+
+The connector creation UI now includes optional steps for configuring the new connector's crawl settings and creating and scheduling crawls for it. You can still configure these settings from the connector's editor, so you can skip these steps during connector creation if you want to configure crawl settings and create crawls later on.
+
+
+ -   **[Webcrawler external content connector](https://www.servicenow.com/docs/access?context=webcrawler-external-content-connector&family=zurich&ft:locale=en-US)**
 
 The predefined web sources external content connector has been subsumed into the new Webcrawler external content connector, which enables you to specify a custom web source or select a predefined one.
+
+
+ -   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
 
 
 </td></tr></tbody>
@@ -564,7 +590,12 @@ Yokohama
 
 </td><td>
 
-Install External Content Connectors by requesting the External Content Connectors Application Suite from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+-   **Activation information**
+
+Install External Content Connectors by requesting the External Content Connectors Application Suite plugin from the ServiceNow Store. If you want to activate the ServiceNow product documentation external content connector or the Webcrawler external content connector, you must request activation of those plugins after the Application Suite is activated.
+
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -572,7 +603,12 @@ Zurich
 
 </td><td>
 
-Install External Content Connectors by requesting the External Content Connectors Application Suite from the ServiceNow Store. 
+-   **Activation information**
+
+Install External Content Connectors by requesting the External Content Connectors Application Suite plugin from the ServiceNow Store. If you want to activate the ServiceNow product documentation external content connector or the Webcrawler external content connector, you must request activation of those plugins after the Application Suite is activated.
+
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -593,7 +629,10 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+-   **Additional requirements**
+
+Your instance needs inbound mTLS support to run external content connector crawls. If inbound mTLS support isn't already activated for your instance, it should be automatically activated after you install the External Content Connectors Application Suite plugin.
+
 
 </td></tr><tr><td>
 
@@ -601,7 +640,10 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **Additional requirements**
+
+Your instance needs inbound mTLS support to run external content connector crawls. If inbound mTLS support isn't already activated for your instance, it should be automatically activated after you install the External Content Connectors Application Suite plugin.
+
 
 </td></tr></tbody>
 </table>## Browser requirements
@@ -622,7 +664,10 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+-   **Browser requirements**
+
+For optimal performance, use External Content Connectors in the latest release of Google Chrome or Mozilla Firefox. Internet Explorer isn't supported.
+
 
 </td></tr><tr><td>
 
@@ -630,7 +675,10 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **Browser requirements**
+
+For optimal performance, use External Content Connectors in the latest release of Google Chrome or Mozilla Firefox. Internet Explorer isn't supported.
+
 
 </td></tr></tbody>
 </table>## Accessibility information
@@ -659,7 +707,7 @@ Zurich
 
 </td><td>
 
--   ****
+No updates for this release.
 
 </td></tr></tbody>
 </table>## Localization information
@@ -709,28 +757,9 @@ Yokohama
 
 </td><td>
 
-[Yokohama Patch 11](https://www.servicenow.com/docs/access?context=yokohama-patch-11&family=yokohama&ft:locale=en-US)
-
--   Expand your search experience with external content connectors for Adobe Experience Manager as a Cloud Service, Asana, Docusign, Dropbox, GitHub Enterprise Cloud, HubSpot, Lucidchart, Miro, monday.com, Notion, SAP DMS, Smartsheet, Trello, WordPress, Workday, and Zoom source systems.
--   Customize user permission settings, choosing the fields you want to compare when mapping source system users to ServiceNow AI Platform® users.
--   Make external content connector crawl results searchable by linking connector search sources to search profiles from the connector editor.
--   Monitor connector behavior on individual crawl runs and over time with improved crawl statistics and analytics.
-
- [Yokohama Patch 6](https://www.servicenow.com/docs/access?context=yokohama-patch-6&family=yokohama&ft:locale=en-US)
-
--   Expand your search experience by indexing searchable content from your Amazon S3, Box, GitLab, Microsoft OneDrive, Microsoft Viva Engage, and Zendesk Guide source systems.
--   Search KB articles from your ServiceNow instance.
--   Make web content locally searchable by indexing pages from predefined or custom public web sites with the Webcrawler external content connector.
--   Configure connector settings and schedule crawls as part of connector creation using the revamped UI.
-
- [Yokohama Patch 3](https://www.servicenow.com/docs/access?context=yokohama-patch-3&family=yokohama&ft:locale=en-US)
-
--   Expand your search by indexing searchable content from your Atlassian Jira Cloud, Google Drive, Microsoft Teams, and Slack source systems.
--   Make web content locally searchable by indexing pages from predefined public web sites.
--   Find answers about your ServiceNow deployment by indexing searchable content from the ServiceNow product documentation.
--   Know when your external content connectors are approaching their crawl limits with new warning messages.
--   Expand the range of information available to Virtual Agent users by adding external content search results to Now Assist in Virtual Agent conversations.
--   Improve recall for external content searches with support for semantic vector indexing of crawled content.
+-   Make content and metadata from your external document repositories searchable in AI Search applications.
+-   Map your source system users to their ServiceNow AI Platform user accounts to preserve their access permissions for crawled content.
+-   Schedule content and user permission crawls or run them manually as needed.
 
  See [External Content Connectors](https://www.servicenow.com/docs/access?context=ext-cont-connectors-landing-page&family=yokohama&ft:locale=en-US) for more information.
 
@@ -740,29 +769,9 @@ Zurich
 
 </td><td>
 
-[Zurich Patch 11](https://www.servicenow.com/docs/access?context=zurich-patch-11&family=zurich&ft:locale=en-US)
-
- Configure your Google Drive external content connectors to only retrieve content items that have one or more of a specified set of label values applied.
-
- [Zurich Patch 7](https://www.servicenow.com/docs/access?context=zurich-patch-7&family=zurich&ft:locale=en-US)
-
--   Expand your search experience with external content connectors for Adobe Acrobat Sign, Aha! Roadmaps, Cornerstone, Fluid Topics, ManageEngine, and Workvivo source systems.
--   Retrieve content and links from URLs found in sitemaps defined for your web source system when running content crawls for the Webcrawler external content connector.
--   View a content crawl's start point via links in the content crawl list and in content crawl history entries.
-
- [Zurich Patch 4](https://www.servicenow.com/docs/access?context=zurich-patch-4&family=zurich&ft:locale=en-US)
-
--   Expand your search experience with external content connectors for Adobe Experience Manager as a Cloud Service, Asana, Docusign, Dropbox, GitHub Enterprise Cloud, HubSpot, Lucidchart, Miro, monday.com, Notion, SAP DMS, Smartsheet, Trello, WordPress, Workday, and Zoom source systems.
--   Customize user permission settings, choosing the fields you want to compare when mapping source system users to ServiceNow AI Platform® users.
--   Make external content connector crawl results searchable by linking connector search sources to search profiles from the connector editor.
--   Monitor connector behavior on individual crawl runs and over time with improved crawl statistics and analytics.
-
- [Zurich Patch 1](https://www.servicenow.com/docs/access?context=zurich-patch-1&family=zurich&ft:locale=en-US)
-
--   Expand your search experience by indexing searchable content from your Amazon S3, Box, GitLab, Microsoft OneDrive, Microsoft Viva Engage, and Zendesk Guide source systems.
--   Search KB articles from your ServiceNow instance.
--   Make web content locally searchable by indexing pages from predefined or custom public web sites with the Webcrawler external content connector.
--   Configure connector settings and schedule crawls as part of connector creation using the revamped UI.
+-   Make content and metadata from your external document repositories searchable in AI Search applications.
+-   Map your source system users to their ServiceNow AI Platform user accounts to preserve their access permissions for crawled content.
+-   Schedule content and user permission crawls or run them manually as needed.
 
  See [External Content Connectors](https://www.servicenow.com/docs/access?context=ext-cont-connectors-landing-page&family=zurich&ft:locale=en-US) for more information.
 

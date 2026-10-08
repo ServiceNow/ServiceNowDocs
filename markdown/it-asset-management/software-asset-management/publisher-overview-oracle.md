@@ -96,7 +96,7 @@ License types of Oracle Database on AWS
 
 </td><td>
 
-Number of software installations for each license type that you are using in AWS cloud environments, based on the cloud service model through which your Oracle Database servers are deployed. License types include BYOL and License Included. Cloud service models include PaaS \(Platform as a Service\) and IaaS \(Infrastructure as a Service\).
+Number of software installations for each license type that you are using in AWS cloud environments, based on the cloud service model through which your Oracle Database is deployed. License types include BYOL and License Included. Cloud service models include PaaS \(Platform as a Service\) and IaaS \(Infrastructure as a Service\).
 
 </td></tr></tbody>
 </table>For more details on the license usage information that is provided in the publisher overview, see [License usage publisher fields in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/workbench-publisherfields-workspace.md).

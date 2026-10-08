@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/mon-ai-configure-global-metrics-servicenow.html
 release: zurich
 topic_type: task
-last_updated: "2026-08-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configure evaluation scoring for ServiceNow AI systems, Configure, Monitoring and evaluating AI systems, Monitor AI assets, AI Control Tower, Enable AI experiences]
 ---
 
@@ -47,15 +47,15 @@ After activating evaluation for ServiceNow AI systems, configure the global metr
 
     **Important:** Adding more metrics increases the visibility you gain into each session, but also increases assist usage to evaluate it. Select the metrics that give you the insight you need.
 
-<table id="choicetable_add_remove_metrics_sn"><thead><tr><th align="left" id="d192390e180">
+<table id="choicetable_add_remove_metrics_sn"><thead><tr><th align="left" id="d198906e180">
 
 Option
 
-</th><th align="left" id="d192390e183">
+</th><th align="left" id="d198906e183">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d192390e189">
+</th></tr></thead><tbody><tr><td id="d198906e189">
 
 **Add metrics**
 
@@ -67,7 +67,7 @@ Description
 4.  Select **Done**.
 
 
-</td></tr><tr><td id="d192390e219">
+</td></tr><tr><td id="d198906e219">
 
 **Remove metrics**
 
@@ -82,6 +82,8 @@ Description
 </table>5.  Update the sample rate.
 
     The sample rate determines what percentage of AI executions are evaluated. ServiceNow AI systems use a single sample rate for all metrics, unlike external AI systems, where each metric has its own rate. The default is 100%. You can enter a lower percentage to evaluate fewer executions.
+
+    **Important:** Increasing the sample rate evaluates more executions and gives you more confidence in your scores, but also increases assist usage. Set the lowest rate that produces enough evaluated sessions to trust the score.
 
     1.  Enter the sample rate to use when evaluating ServiceNow AI systems.
 

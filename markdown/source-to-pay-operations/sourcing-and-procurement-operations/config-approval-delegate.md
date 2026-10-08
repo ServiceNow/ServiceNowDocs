@@ -7,7 +7,7 @@ release: zurich
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure delegate for a shopper, Setting up primary data Shopping, Configure Sourcing and Procurement Operations, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---

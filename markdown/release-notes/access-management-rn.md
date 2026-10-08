@@ -1,6 +1,6 @@
 ---
 title: Access Management release notes
-description: The ServiceNow Access Management application provides robust tools to manage security data on the ServiceNow AI Platform. Access Management includes many controls, such as access control lists \(ACLs\), security attributes, contextual security manager, and data filtration. These controls provide granular control and help improve security for managing data access. Access Management is a new application in the Zurich release.The ServiceNow Access Management application provides robust tools to manage security data on the ServiceNow AI Platform. Access Management includes many controls, such as access control lists \(ACLs\), security attributes, contextual security manager, and data filtration. These controls provide granular control and help improve security for managing data access. Access Management is a new application in the Zurich release.
+description: The ServiceNow Access Management application provides robust tools to manage security data on the ServiceNow AI Platform. Access Management includes many controls, such as access control lists \(ACLs\), security attributes, contextual security manager, and data filtration. These controls provide granular control and help improve security for managing data access. Access Management was enhanced and updated in the Zurich release.The ServiceNow Access Management application provides robust tools to manage security data on the ServiceNow AI Platform. Access Management includes many controls, such as access control lists \(ACLs\), security attributes, contextual security manager, and data filtration. These controls provide granular control and help improve security for managing data access. Access Management is a new application in the Zurich release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/access-management-rn.html
 release: zurich
@@ -12,7 +12,7 @@ breadcrumb: [ServiceNow AI Platform security release notes, Features and changes
 
 # Access Management release notes
 
-The ServiceNow® Access Management application provides robust tools to manage security data on the ServiceNow AI Platform. Access Management includes many controls, such as access control lists \(ACLs\), security attributes, contextual security manager, and data filtration. These controls provide granular control and help improve security for managing data access. Access Management is a new application in the Zurich release.
+The ServiceNow® Access Management application provides robust tools to manage security data on the ServiceNow AI Platform. Access Management includes many controls, such as access control lists \(ACLs\), security attributes, contextual security manager, and data filtration. These controls provide granular control and help improve security for managing data access. Access Management was enhanced and updated in the Zurich release.
 
 ## About Access Management
 

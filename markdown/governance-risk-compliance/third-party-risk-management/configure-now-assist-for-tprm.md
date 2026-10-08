@@ -1,13 +1,13 @@
 ---
 title: Configure AI capabilities in Third-party Risk Management
-description: If you have the admin role, you can configure the ServiceNow Otto for Third-party Risk Management \(TPRM\) application so that agents can use the generative AI capabilities in Vendor Management Workspace and Core UI.
+description: If you have the admin role, you can configure the ServiceNow Otto for Third-party Risk Management \(TPRM\) application so that agents can use the generative AI capabilities in Vendor Management Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/governance-risk-compliance/third-party-risk-management/configure-now-assist-for-tprm.html
 release: zurich
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [configure, ServiceNow Otto, Agentic AI, generative AI, Gen AI]
 breadcrumb: [Configure, Third-party Risk Management, Governance, Risk, and Compliance]
@@ -15,7 +15,7 @@ breadcrumb: [Configure, Third-party Risk Management, Governance, Risk, and Compl
 
 # Configure AI capabilities in Third-party Risk Management
 
-If you have the admin role, you can configure the ServiceNow Otto for Third-party Risk Management \(TPRM\) application so that agents can use the generative AI capabilities in Vendor Management Workspace and Core UI.
+If you have the admin role, you can configure the ServiceNow Otto for Third-party Risk Management \(TPRM\) application so that agents can use the generative AI capabilities in Vendor Management Workspace.
 
 ## ServiceNow Otto for Third-party Risk Management \(TPRM\) configuration overview
 
@@ -24,6 +24,8 @@ If you have the admin role, you can configure the ServiceNow Otto for Third-part
 Use the AI Admin Hub console to configure ServiceNow Otto for TPRM. This console contains everything that you need to install plugins and configure the generative AI skills. For additional information, see [Overview tab in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configuring-now-assist.md).
 
 For earlier versions, go to [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/application-manager.md) to upgrade it to a later version.
+
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 For information about configuring generative AI skills and prompts, see [Configuring AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/configuring-na-landing.md).
 

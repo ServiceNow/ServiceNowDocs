@@ -7,7 +7,7 @@ release: zurich
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using AI Skill Kit, AI Skill Kit, Enable AI experiences]
 ---

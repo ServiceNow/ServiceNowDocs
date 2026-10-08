@@ -20,6 +20,8 @@ Reference topics provide additional information about mapping and fine-tuning ap
 Administrators can assign user roles to grant access to the Agent Client Collector. The following standard roles for the Agent Client Collector Framework \(ACC-F\) are included in the ServiceNow system with the Agent Client Collector installed on it.
 -   **[Agent Client Collector Framework default checks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-framework-checks-policies.md)**  
 Agent Client Collector Framework provides default checks with the base system.
+-   **[Agent Client Collector diagnostic self tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-agent-self-tests.md)**  
+The following table describes each diagnostic self-test that runs in the Agent Self Test Run \(`sn_agent_self_test_run`\) table.
 -   **[Agent Client Collector performance and footprint for URL monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-footprint-url-monitoring.md)**  
 The following tables display the agent performance KPIs and its footprint on the host during URL monitoring data collection execution on different operation systems.
 -   **[Agent Client Collector certificate revocation reasons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/certificate-revocation-reasons.md)**  
@@ -61,7 +63,7 @@ Error codes generated during Agent Client Collector upgrades, with descriptions 
 -   **[Supported platforms for Agent Client Collector auto-upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-agent-upgrade-platforms.md)**  
 Operating systems and package types supported for Agent Client Collector auto-upgrade, and the minimum agent version required.
 -   **[MSI installation parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/msi-installation-parameters.md)**  
-The following table describes the MSI parameters used when preparing an agent to be installed on a gold image and used with a Virtual Desktop Infrastructure \(VDI\) machine.
+The following table describes the MSI parameters used when preparing an agent for installation on a gold image and used with a non-persistent virtual desktop infrastructure \(NPVDI\) machine.
 
 **Parent Topic:**[Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/agent-client-collector/acc-landing-page.md)
 

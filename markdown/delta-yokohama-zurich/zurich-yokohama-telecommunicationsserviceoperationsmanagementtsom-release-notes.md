@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-telecommunicationsserviceoperationsmanagementtsom-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
-reading_time_minutes: 7
+last_updated: "2026-10-08"
+reading_time_minutes: 8
 breadcrumb: [Products combined by family]
 ---
 
@@ -38,7 +38,10 @@ Yokohama
 
 </td><td>
 
+-   **Upgrade information**
+
 After installing Telecommunications Service Operations Management TSOM, any customized IRE identification rules applied to interface cards, slots, sub-slots and network interfaces may be affected. You must review and validate the rules to ensure proper functionality.
+
 
 </td></tr><tr><td>
 
@@ -109,7 +112,26 @@ Zurich
 
 </td><td>
 
--   **[Telecom Discovery Builder framework](https://www.servicenow.com/docs/access?context=exploring-the-telco-generic-schema-etl-framework&family=zurich&ft:locale=en-US)**
+-   **[Fault Management: Events and alerts](https://www.servicenow.com/docs/access?context=fault-management-events-and-alerts&family=zurich&ft:locale=en-US)**
+
+You can monitor your SD-WAN network health and resolve issues faster with automated alerts and event detection.
+
+    -   Detect and resolve SD-WAN network issues faster with automated alerts and event monitoring.
+    -   Configure customizable event rules to detect SD-WAN device issues in real time.
+
+-   **[Added Service Graph Connector for Cisco Meraki and Fortinet](https://www.servicenow.com/docs/access?context=configuring-cisco-meraki-service-graph-connector&family=zurich&ft:locale=en-US)**
+
+The following capabilities have been added to Cisco Meraki and Fortinet:
+
+    -   Provides a centralized management of physical infrastructure and logical network relationships within the ServiceNow AI Platform®.
+    -   Supports automated, telecom-aware discovery and real-time CMDB synchronization, along with visual network mapping, guided setup, and a dashboard for monitoring integration health.
+
+ -   **[Granular admin roles](https://www.servicenow.com/docs/access?context=exploring-the-telco-generic-schema-etl-framework&family=zurich&ft:locale=en-US)**
+
+The granular admin role enables developers and administrators to complete administrative configuration tasks for TSOM without requiring the full admin role.
+
+
+ -   **[Telecom Discovery Builder framework](https://www.servicenow.com/docs/access?context=exploring-the-telco-generic-schema-etl-framework&family=zurich&ft:locale=en-US)**
 
 Leverage a standardized Extract, Transform, Load \(ETL\) framework to streamline the processing and storage of telecom network data on the ServiceNow AI Platform.
 
@@ -132,23 +154,6 @@ Use enhanced discrepancy identification and reconciliation features to keep your
     -   Display previous and current attribute values, enabling you to decide whether to accept the new value, retain the old one, or manually raise a remediation task.
     -   Detect discrepancies in logical entities alongside physical entities for comprehensive discrepancy management for newly discovered logical network elements.
     -   Generate audit results using filtering conditions—such as specific IP ranges, device vendors, or port types—to focus on relevant subsets of data and significantly enhance audit performance and usability.
--   **[Fault Management: Events and alerts](https://www.servicenow.com/docs/access?context=fault-management-events-and-alerts&family=zurich&ft:locale=en-US)**
-
-You can monitor your SD-WAN network health and resolve issues faster with automated alerts and event detection.
-
-    -   Detect and resolve SD-WAN network issues faster with automated alerts and event monitoring.
-    -   Configure customizable event rules to detect SD-WAN device issues in real time.
-
--   **[Added Service Graph Connector for Cisco Meraki and Fortinet](https://www.servicenow.com/docs/access?context=configuring-cisco-meraki-service-graph-connector&family=zurich&ft:locale=en-US)**
-
-The following capabilities have been added to Cisco Meraki and Fortinet:
-
-    -   Provides a centralized management of physical infrastructure and logical network relationships within the ServiceNow AI Platform®.
-    -   Supports automated, telecom-aware discovery and real-time CMDB synchronization, along with visual network mapping, guided setup, and a dashboard for monitoring integration health.
--   **[Granular admin roles](https://www.servicenow.com/docs/access?context=exploring-the-telco-generic-schema-etl-framework&family=zurich&ft:locale=en-US)**
-
-The granular admin role enables developers and administrators to complete administrative configuration tasks for TSOM without requiring the full admin role.
-
 
 </td></tr></tbody>
 </table>## Changes
@@ -271,7 +276,12 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Install Telecommunications Service Operations Management by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
+
+**Important:** Telecommunications Service Operations Management \(TSOM\) is available in ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 
@@ -279,7 +289,12 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Install Telecommunications Service Operations Management applications and plugins by requesting them from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
+
+**Important:** Telecommunications Service Operations Management \(TSOM\) applications and plugins are available in ServiceNow Store. For details, see the "Activation information" section of this release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-vendormanagementworkspace-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
+last_updated: "2026-10-08"
 reading_time_minutes: 2
 breadcrumb: [Products combined by family]
 ---
@@ -153,8 +153,6 @@ Release notes
 Yokohama
 
 </td><td>
-
-Starting with Yokohama release, the following applications within Vendor Management Workspace are being prepared for future deprecation. They will be hidden and no longer available for activation but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 -   Performance Analytics Content Pack - Vendor Management Workspace
 -   Vendor Management Workspace UI Components

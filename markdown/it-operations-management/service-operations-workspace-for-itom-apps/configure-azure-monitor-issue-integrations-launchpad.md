@@ -7,7 +7,7 @@ release: zurich
 product: Service Operations Workspace for ITOM Apps
 classification: service-operations-workspace-for-itom-apps
 topic_type: task
-last_updated: "2026-09-16"
+last_updated: "2026-10-08"
 reading_time_minutes: 5
 breadcrumb: [Integrations Launchpad in Service Operations Workspace for ITOM, Use, Service Operations Workspace for ITOM, ITOM AIOps, IT Operations Management]
 ---
@@ -89,7 +89,7 @@ Note the following before you start:
 
         If Azure bi-directional connector is enabled, when an Azure issue is closed in ServiceNow, it automatically closes in the Azure portal as well.
 
-5.  If you used the push connector to bring Azure alerts or issues into ServiceNow, configure a pull connector instance by performing the following steps:
+5.  If you used the push connector instance to bring Azure alerts or issues into ServiceNow, configure a pull connector instance by performing the following steps:
 
     1.  On the **Browse Integrations** tab, search for `Microsoft Azure` and select the **Microsoft Azure \(Events – pull\)** tile to create a new pull connector instance.
     2.  On the **Details** tab, provide the following information:

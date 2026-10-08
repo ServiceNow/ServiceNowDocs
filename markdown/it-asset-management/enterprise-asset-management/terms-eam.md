@@ -118,7 +118,7 @@ A linear asset relationship for linear assets that have a start and an end marke
 
 [Domain separation and Enterprise Asset Management]()
 
-[Enterprise Asset Management roles]()
+[Components installed with Enterprise Asset Management]()
 
 [OT Asset Workspace roles]()
 

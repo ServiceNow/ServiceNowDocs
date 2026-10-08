@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/incident-trends.html
 release: zurich
 topic_type: concept
-last_updated: "2026-07-21"
+last_updated: "2026-09-28"
 reading_time_minutes: 10
 breadcrumb: [Platform agentic workflows, Agentic workflows, AI assets, Enable AI experiences]
 ---
@@ -40,7 +40,7 @@ You can con figure additional input fields using a Now Assist Skill Config Var S
 
 The agents, tools, and triggers associated with the Analyze task trends agentic workflow are provided by AI applications. You can [activate the agentic workflow template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/activate-aia-use-case.md) by making triggers active and setting the display settings to include the ServiceNow Otto panel. If you want to change this agentic workflow's instructions, you must duplicate it, adjust the settings to suit your specific needs, and activate the duplicated version instead.
 
-**Note:** Depending on your license, you have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-native-sku-overview.md).
 
 ## Prerequisites and setup
 
@@ -54,7 +54,7 @@ GAF is set up for certain applications for you. If you want the agentic workflow
 
 **Note:** If you create a clone of an action strategy skill, ensure that **Optimized prediction** is enabled to use AI Search as your fallback. You can leave it unchecked if you don't use AI Search on your instance.
 
-## Role masking
+## Role filtering
 
 Required role: sn\_uxc\_gen\_ai.platform\_ai\_analyze\_trnds.
 

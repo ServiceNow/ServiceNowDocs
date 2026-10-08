@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/
 release: zurich
 topic_type: task
 last_updated: "2026-08-20"
-reading_time_minutes: 5
+reading_time_minutes: 7
 keywords: [AI specialist, AI specialist tasks, AI specialist capabilities, AI specialist jobs, AI specialist actions]
 breadcrumb: [Configure in the legacy AI Agent Studio, Configure, Autonomous Workforce, AI Agent Studio, Enable AI experiences]
 ---
@@ -49,7 +49,26 @@ To learn how to modify the roles and capabilities that an AI specialist has, see
         -   **Use attachment content**: Enable the option for the AI specialist to review the content of attached files as part of incident triage and diagnosis.
         -   **Map AI specialist states to record states**: Map the states of the AI specialist's execution to the states of the incident record. For example, the AI specialist's **Awaiting information** state can be mapped to the Incident record **On Hold** state. If you have customized state values for your Incident table, you can map them to the AI specialist's states here.
         -   **Default routing decision**: Determine whether an AI specialist should attempt to resolve a case outside of the assignment group's scope or reassign it to another assignment group. You can also specify in the following routing criteria section different categories of tasks for the AI specialist to attempt or reassign.
-        -   **Routing criteria**: Categories of task specifying whether they should attempt resolution or reassign.
+        -   **Default routing decision**: Select the routing decision that the AI specialist falls back to when an incident matches none of the routing criteria. Select one of the following options:
+            -   **Resolve without root cause analysis**
+            -   **Perform root cause analysis**
+            -   **Ask the caller for more information**
+            -   **Route to the service desk team**
+        -   **Routing criteria**: Add criteria that determine which records the AI specialist handles. Criteria are grouped into two sections:
+
+            -   **Attempt resolution for**: When an incident matches one of these criteria, the AI specialist attempts to resolve it.
+            -   **Reassign for**: When an incident matches one of these criteria, the incident is reassigned to a human.
+            To add a criterion, select **Add attempted criteria** or **Add reassigned criteria**, depending on which decision you want the criterion to trigger. In the **New routing criteria** dialog box, enter a name in the **Criteria** field and explain in the **Description** field which incidents belong to the criterion.
+
+            Select **Submit** to add the criterion. The criterion appears as a labeled item in its section.
+
+            To change a criterion, select its name to reopen the dialog box. To remove a criterion, select the **X** next to its name and then select **Delete** to confirm. A removed criterion is no longer used when the AI specialist routes work.
+
+        -   **Default routing decision**: Select the routing decision that the AI specialist falls back to when an incident matches none of the routing criteria. Select one of the following options:
+            -   **Resolve without root cause analysis**
+            -   **Perform root cause analysis**
+            -   **Ask the caller for more information**
+            -   **Route to the service desk team**
     -   **Investigate and resolve: Configure the following details on how the AI specialist investigates to find relevant solutions and resolve the issue.**
         -   **Knowledge sources**: Select search profiles and/or knowledge base **sys\_ids** to define how the AI specialist retrieves knowledge articles. AI search profiles can include sources such as knowledge articles, ServiceNow documentation, or specific tables. You can create AI Search profiles specifically for your AI specialists. To customize what information your AI specialist accesses, add search profiles with the pre-installed ones or remove the pre-installed ones. You must have at least one search profile selected for the AI specialist to complete the **Investigate and resolve** task.
 

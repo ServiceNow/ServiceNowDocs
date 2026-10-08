@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Setting up AWS service accounts, Set up a cloud service account, Access to cloud environments for ITOM products, IT Operations Management]
+breadcrumb: [Setup AWS service accounts, Set up a cloud service account, Access to cloud environments for ITOM products, IT Operations Management]
 ---
 
 # Configure the MID Server for AWS IAM roles
@@ -45,5 +45,5 @@ Role required: discovery\_admin or sn\_cmp.cloud\_admin \(for Cloud Provisioning
     The new parameter is listed in the MID Server record.
 
 
-**Parent Topic:**[Setting up AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/setup-aws-service-accounts.md)
+**Parent Topic:**[Setup AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/setup-aws-service-accounts.md)
 

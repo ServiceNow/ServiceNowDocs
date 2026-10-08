@@ -51,7 +51,7 @@ Agency Example
 
 </th></tr></thead><tbody><tr><td>
 
-Admin\[admin\], \[sn\_gsm\_grnt\_mgmt.grant\_admin\]
+Admin\[sn\_svc\_appl\_pgm\_mg.grant\_program\_admin\], \[sn\_gsm\_grnt\_mgmt.grant\_admin\]
 
 </td><td>
 
@@ -87,7 +87,7 @@ Define program details, eligibility rules, milestones, and budget parameters. Co
 
 </td></tr><tr><td>
 
-Merit \(External\) Reviewer\[sn\_gsm\_grnt\_mgmt.external\_reviewer\]
+Merit \(External\) Reviewer\[awa\_agent\], \[sn\_gsm\_grnt\_mgmt.external\_reviewer\]
 
 </td><td>
 
@@ -119,7 +119,7 @@ roles.
 
 </td><td>
 
-An applicant seeking funding will work through the Grant Applicant Portal, where they will carefully review program requirements, adhere to compliance mandates, and ensure all conditions are met before they submit their application. Their role often involves collaborating internally to gather necessary data and signatures, as well as acting as the main point of contact for communications with the Grant Program Manager.
+An applicant seeking funding works through the Grant Applicant Portal. They review program requirements, adhere to compliance mandates, and verify all conditions are met before submitting an application. They collaborate internally to gather required data and signatures, and serve as the main point of contact for communications with the Grant Program Manager.
 
 </td></tr><tr><td>
 

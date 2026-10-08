@@ -7,7 +7,7 @@ release: zurich
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-29"
 reading_time_minutes: 1
 breadcrumb: [Integrate ThousandEyes platform events, Integrate with push connectors, Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
@@ -34,36 +34,38 @@ Role required: web\_service\_admin
 
 5.  Configure the Access and Refresh token lifespans by providing a value in seconds.
 
-6.  Open the ThousandEyes webhook configuration and complete the following fields:
+6.  In ThousandEyes, navigate to **Manage** &gt; **Alert Rules**.
+
+7.  Open an alert rule and select the **Notifications** tab.
+
+8.  Under **Webhooks**, select **Configure Webhooks** or **Edit webhooks**, and then select **Add New Webhook**.
+
+9.  Complete the following fields:
 
     -   **Name**
 
-        Any name
+        Enter a name for the webhook.
 
     -   **URL**
 
-        ServiceNow ThousandEyes Push connector end point
+        `https://<instance-name>.service-now.com/api/sn_em_connector/em/inbound_event?source=thousandeyes`
 
-    -   **Select Auth Type**
+    -   **Auth Type**
 
-        OAuth
-
-    -   **Grant Type**
-
-        Implicit
+        Select **OAuth**.
 
     -   **Auth URL**
 
-        https://servicenow\_insatnce&gt;.service-now.com/oauth\_auth.do
+        `https://<instance-name>.service-now.com/oauth_auth.do`
 
     -   **Client ID**
 
-        Paste the Client ID automaticcally generated in Step 3.
+        Paste the Client ID generated in the ServiceNow instance.
 
-7.  Select **Get Token**.
+10. Select **Get Token**.
 
-8.  Once the ThousandEyes connector navigates to a webpage requesting to connect to your ServiceNow account, select **Allow**.
+11. When the ServiceNow authorization page opens, sign in and select **Allow**.
 
-9.  Provide account credentials which have the **web\_service\_admin** role.
+12. Test and save the webhook.
 
 

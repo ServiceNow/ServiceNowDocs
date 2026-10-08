@@ -9,7 +9,7 @@ classification: software-asset-management-foundation-plugin
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [License Operation view for Software Asset Management Foundation plugin, Using Software Asset Management Foundation plugin workspace, Software Asset Management Foundation plugin, ITSM Software Asset Management, Asset Management, IT Service Management]
+breadcrumb: [License Operation view for Basic Software Asset Management, Using Basic Software Asset Management workspace, Basic Software Asset Management, ITSM Software Asset Management, Asset Management, IT Service Management]
 ---
 
 # View discovery models in workspace
@@ -31,5 +31,5 @@ Role required: sam\_admin or sam\_user
     Clicking a record takes you to the Company page in the classic view.
 
 
-**Parent Topic:**[License Operation view for Software Asset Management Foundation plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/software-asset-management-foundation-plugin/license-operation-view-samf.md)
+**Parent Topic:**[License Operation view for Basic Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/software-asset-management-foundation-plugin/license-operation-view-samf.md)
 

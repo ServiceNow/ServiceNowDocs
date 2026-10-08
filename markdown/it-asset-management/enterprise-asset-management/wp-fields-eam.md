@@ -155,7 +155,7 @@ Filter conditions that enable you to apply the work plan to specific subsets of 
 
 [Domain separation and Enterprise Asset Management]()
 
-[Enterprise Asset Management roles]()
+[Components installed with Enterprise Asset Management]()
 
 [OT Asset Workspace roles]()
 

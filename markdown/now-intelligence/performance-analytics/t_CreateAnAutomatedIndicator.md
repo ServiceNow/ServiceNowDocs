@@ -174,7 +174,7 @@ The value that is inserted as the score when no value is collected. This value i
 
 [Create an indicator group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/t_CreatingIndicatorGroups.md)
 
-[Collect and manage a matrix of breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/create-breakdown-mapping.md)
+[Collect and manage a matrix of breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/configure-breakdown-matrix.md)
 
 ## Advanced indicator settings
 
@@ -310,7 +310,7 @@ When selected, the Analytics Hub and KPI Details show unbroken data lines for th
 
  Continuous lines aren’t rendered when a time series is set on the indicator or the Analytics Hub or KPI Details.
 
-</td></tr><tr><td>
+</td></tr><tr id="row_show-real-time-scores"><td>
 
 Show real-time score
 
@@ -333,7 +333,7 @@ When selected, the Analytics Hub and KPI Details can show the score of this indi
 
 5.  In the **Collect breakdown matrix fields** tab, you can enable second-level breakdowns for the indicator, such as Open Incidents by Category by Priority.
 
-    Enabling second-level breakdowns can significantly impact performance. For more information, see [Collect and manage a matrix of breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/create-breakdown-mapping.md).
+    Enabling second-level breakdowns can significantly impact performance. For more information, see [Collect and manage a matrix of breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/performance-analytics/configure-breakdown-matrix.md).
 
 6.  In the **Collection periods** tab, override the properties that set the maximum number of periods prior to today for which scores and snapshots are collected and kept.
 

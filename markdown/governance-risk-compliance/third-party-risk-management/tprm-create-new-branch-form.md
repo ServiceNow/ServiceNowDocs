@@ -7,8 +7,8 @@ release: zurich
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Create a branch and enhance digital resilience data, Use digital resilience third-party registers, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
 
@@ -116,7 +116,7 @@ LEI of the financial entity head office of the branch
 
 </td><td>
 
-Legal Entity Identifier \(LEI\) of the head office of the financial entity to which the branch belongs, for example, LEIACMEGermany001 or LEIACMEAmericas001
+Legal Entity Identifier \(LEI\) of the head office of the financial entity to which the branch belongs, for example, LEIACMEGermany001 or LEIACMEAmericas001.**Note:** When you enter or update this field, the system validates the code against the GLEIF database and auto-populates the Name of the branch and Country of the branch fields. If you then edit those fields to values that no longer match GLEIF data, an inline warning is displayed on the edited field. For more information, see [Validate Legal Entity Identifier codes for DORA reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-valid-lei.md).
 
 </td></tr><tr><td>
 

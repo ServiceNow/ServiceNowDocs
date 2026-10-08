@@ -7,7 +7,7 @@ release: zurich
 product: Developer Sandboxes
 classification: developer-sandboxes
 topic_type: concept
-last_updated: "2025-11-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Developer Sandboxes, Developing your application, Building applications]
 ---
@@ -34,7 +34,7 @@ Supported features include the following:
 
 -   Outgoing integrations
 
-    **Note:** Incoming integrations must be manually updated by customers to support the unique URLs of sandboxes.
+    **Note:** You must manually update incoming integrations to support the unique URLs of sandboxes.
 
 
 ## Sandbox limitations
@@ -44,4 +44,6 @@ Sandboxes are deleted when the instance is upgraded or cloned, though after the 
 You can have up to 30 sandboxes per instance.
 
 Developer Sandboxes does not support self-hosted instances by default, though you can set up your own networking and routing changes to support sandboxes.
+
+**Note:** Developer Sandboxes are not supported on UI/Worker node instances.
 

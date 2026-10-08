@@ -38,7 +38,7 @@ Zurich Patch 7 includes fixes for security-related problems that affected certai
 
 ## Changes in Zurich Patch 7
 
--   ****
+-   **[Associate a request header with a resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/associate-header-api-resource.md)**
 
     The request headers that you added are included in the exportable OpenAPI specification in the REST API Explorer with a "type: string" schema definition. For more information about exporting OpenAPI specifications, see .
 
@@ -48,23 +48,23 @@ Zurich Patch 7 includes fixes for security-related problems that affected certai
 
     If your instance uses Zurich Patch 7, you can edit any part of the theme from this screen.
 
--   ****
+-   **[Define an API resource request structure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/add-schema-rest-api-request.md)**
 
     Add a schema to a REST request record to define the request's expected data structure.
 
--   ****
+-   **[Define a REST API response header](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/define-scripted-api-response-header.md)**
 
     Define one or more REST API response headers in a REST API.
 
--   ****
+-   **[Define an API resource response structure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/add-schema-rest-api-response.md)**
 
     Add a schema and relevant response headers to a REST response to define the response's expected data structure.
 
--   ****
+-   **[Define a scripted REST API request header](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/t_DefineRESTServiceHeaders.md)**
 
     Define scripted REST API requestheaders to control which headers the API accepts
 
--   ****
+-   **[Define a REST API schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/define-scripted-rest-api-schema.md)**
 
     Specify the expected data structure for requests or responses within a REST API by defining a schema.
 
@@ -73,7 +73,7 @@ Zurich Patch 7 includes fixes for security-related problems that affected certai
 
     For Now Assist new features and changes, see [Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/now-assist-rn-landing.md).
 
--   ****
+-   **[Scripted REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/c_CustomWebServices.md)**
 
     Schemas define a structure that can be used for API requests and responses, including data type, expected fields, and formats. You can define multiple schemas within a scripted REST API, which can be used to specify request and response contents of the resources within that API.
 

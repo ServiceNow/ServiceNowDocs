@@ -108,7 +108,7 @@ In this example, you create a single score visualization that shows the number o
 
     3.  Select the color type `Single color`.
 
-        \[Omitted image "dv-ex-single-score-show-display.png"\] Alt text: Single score visualization showing selection of score size, score icon, icon style, and color&lt;
+        \[Omitted image "image.dv-ex-single-score-show-display-png"\] Alt text: Single score visualization showing selection of score size, score icon, icon style, and color&lt;
 
 8.  Configure a color rule for the score.
 

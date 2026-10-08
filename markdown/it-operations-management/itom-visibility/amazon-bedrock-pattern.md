@@ -7,7 +7,7 @@ release: zurich
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: reference
-last_updated: "2026-05-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 12
 keywords: [Amazon Bedrock, AI Agent Topology Mapping, AWS Bedrock, AI discovery]
 breadcrumb: [Reference, AI Agent Topology Mapping, ITOM Visibility, IT Operations Management]
@@ -27,12 +27,11 @@ The following diagram illustrates the tables and relationships that the AI Agent
 
 \[Omitted image "amazon-bedrock-data-model.png"\] Alt text: Amazon Bedrock data model
 
-**Note:** The following relationships are stored in the Asset-CI Relationship \[cmdb\_rel\_asset\_ci\] table and aren't represented in the Dependency View map:
-
--   The **Deployed as::Deployment of** relationship between AI Function \[cmdb\_ci\_function\_ai\] and AI System Digital Asset \[alm\_ai\_system\_digital\_asset\].
--   The **Used by::Uses** relationship between AI Model Deployment \[cmdb\_ci\_ai\_model\_deployment\] and AI Model Digital Asset \[alm\_ai\_model\_digital\_asset\].
-
 ## Discovery requirements
+
+-   **Verify the REST API permissions**
+
+    Download the [Cloud Discovery patterns spreadsheet](https://downloads.docs.servicenow.com/resource/enus/api/servicenow-discovery-patterns-api-details.xlsx) so you can grant user permissions required for running the Discovery patterns. In addition to permissions, the spreadsheet also includes useful information such as pattern names, types, CI Classes, and links to vendor documentation. New patterns are available quarterly, so check periodically to be sure you have the latest version of the spreadsheet.
 
 -   **Verify that the applications are up to date**
 
@@ -42,6 +41,7 @@ The following diagram illustrates the tables and relationships that the AI Agent
     -   Discovery and Service Mapping Patterns
     -   Visibility Content
     -   CMDB CI Class Models
+    -   Data Foundation Model \(at least version 1.13.2\)
 -   **Update the method used for pointed discovery for the AWS CloudFormation Template \(CFT\) stack**
 
     If you use Cloud Provisioning and Governance, you must update the **getOperationGR\(type\)** method. This update enables the pointed discovery to list the resources correctly for the AWS CFT stack after provisioning. For further information about the steps required to update this method, see the Knowledge Base article [KB0858437](https://support.servicenow.com/nav_to.do?uri=kb_knowledge.do?sys_id=54ecb719db1f1cd0fb115583ca961917).
@@ -64,7 +64,7 @@ The following diagram illustrates the tables and relationships that the AI Agent
 
         When you run Discovery on your cloud resources, you don’t need separate credentials for each member account. The Cloud Discovery process handles credentials automatically by acquiring a temporary credential for each member via an AWS API. You can elect to use the default configuration or customize the MID Server to assume other roles for additional controls and security.
 
-    For more information, see [Setting up AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/setup-aws-service-accounts.md).
+    For more information, see [Setup AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/setup-aws-service-accounts.md).
 
 -   **Use IAM user policy on the AWS Management Console**
 
@@ -112,10 +112,6 @@ The following diagram illustrates the tables and relationships that the AI Agent
     Starting with Discovery and Service Mapping Patterns version 1.30.2, you can improve query performance by populating Service Account and Logical Datacenter fields directly in cloud CIs. For more information, see [Improved query performance with direct field population in CI tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/query-service-account-ldc-fields.md).
 
 
-## Verify the REST API Permissions
-
-Download the [Cloud Discovery patterns spreadsheet](https://downloads.docs.servicenow.com/resource/enus/api/servicenow-discovery-patterns-api-details.xlsx) so you can grant user permissions required for running the Discovery patterns. In addition to permissions, the spreadsheet also includes useful information such as pattern names, types, CI Classes, and links to vendor documentation. New patterns are available quarterly, so check periodically to be sure you have the latest version of the spreadsheet.
-
 ## Data collection
 
 The AI Agent Topology Mapping application includes the following patterns for Amazon Bedrock discovery:
@@ -142,6 +138,7 @@ If you have the AI Control Tower application, you can view the information in th
 |Model \[model\]|References the AI System Component Product Model \[cmdb\_ai\_system\_component\_product\_model\] table.|
 |Asset type \[model\_category\]|Asset type of the agent. Value is set to **Agentic AI**.|
 |State \[install\_status\]|State of the agent. Value is set to **Deployed**.|
+|Vendor \[vendor\]|Vendor of the agent. The value is set to **Amazon**.|
 |AI prompts \[ai\_prompts\]|References the AI Prompt Digital Asset \[alm\_ai\_prompt\_digital\_asset\] table.|
 |AI models \[ai\_models\]|References the AI Model Digital Asset \[alm\_ai\_model\_digital\_asset\] table.|
 |Configuration Item \[ci\]|References the AI Function \[cmdb\_ci\_function\_ai\] table.|
@@ -192,7 +189,7 @@ Manufacturer \[manufacturer\]
 
 </td><td>
 
-Manufacturer of the agent model. Value is set to **AWS**.
+Name of the company defined in the **glide.appcreator.company.friendly\_name** system property.
 
 </td></tr><tr><td>
 
@@ -208,12 +205,13 @@ Model category. Value is set to **Agentic AI**.
 |Prompt information \[prompt\_info\]|Instruction text defined for the Bedrock agent.|
 |Model \[model\]|References the AI Prompt Product Model \[cmdb\_ai\_prompt\_product\_model\] table.|
 |Asset type \[model\_category\]|Asset type of the prompt. Value is set to **AI prompt**.|
+|Vendor \[vendor\]|Vendor of the prompt. The value is set to **Amazon**.|
 |Configuration Item \[ci\]|References the AI Function \[cmdb\_ci\_function\_ai\] table.|
 
 |Field|Description|
 |-----|-----------|
 |Name \[name\]|Name of the Bedrock agent, used to identify the associated prompt model.|
-|Manufacturer \[manufacturer\]|Manufacturer of the prompt model. Value is set to **AWS**.|
+|Manufacturer \[manufacturer\]|Name of the company defined in the **glide.appcreator.company.friendly\_name** system property.|
 
 |Field|Description|
 |-----|-----------|
@@ -236,19 +234,88 @@ Model category. Value is set to **Agentic AI**.
 
 AI Agent Topology Mapping populates the data in the CMDB when running the Amazon Bedrock patterns.
 
-|Field|Description|
-|-----|-----------|
-|Name \[name\]|Name of the Bedrock agent.|
-|Object ID \[object\_id\]|ARN of the Bedrock agent.|
-|Description \[short\_description\]|Description of the Bedrock agent.|
-|Model number \[model\_number\]|Agent ID assigned by Amazon Bedrock.|
-|Operational status \[operational\_status\]|Operational status of the resource. Default value is set to Operational.|
-|Install Status \[install\_status\]|Install status of the resource. Default value is set to Installed.|
-|Product instance identifier \[product\_instance\_id\]|Version of the Bedrock agent.|
-|Comments \[comments\]|Resource type identifier. Value is set to **AWS::Bedrock::Agent**.|
-|Manufacturer \[manufacturer\]|Manufacturer of the resource. Value is set to **AWS**.|
+<table id="table_ai_function"><thead><tr><th>
 
-<table id="table_ai_model_deployment"><thead><tr><th>
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Name \[name\]
+
+</td><td>
+
+Name of the Bedrock agent.
+
+</td></tr><tr><td>
+
+Object ID \[object\_id\]
+
+</td><td>
+
+Concatenation of the agent ARN and version.For example: **arn:aws:bedrock:us-east-1:123456789012:agent/AGENTID123/versions/DRAFT**.
+
+</td></tr><tr><td>
+
+Description \[short\_description\]
+
+</td><td>
+
+Description of the Bedrock agent.
+
+</td></tr><tr><td>
+
+Model number \[model\_number\]
+
+</td><td>
+
+Agent ID assigned by Amazon Bedrock.
+
+</td></tr><tr><td>
+
+Operational status \[operational\_status\]
+
+</td><td>
+
+Operational status of the resource. Default value is set to **Operational**.
+
+</td></tr><tr><td>
+
+Install Status \[install\_status\]
+
+</td><td>
+
+Install status of the resource. Default value is set to **Installed**.
+
+</td></tr><tr><td>
+
+Product instance identifier \[product\_instance\_id\]
+
+</td><td>
+
+Version of the Bedrock agent.
+
+</td></tr><tr><td>
+
+Comments \[comments\]
+
+</td><td>
+
+Resource type identifier. Value is set to **AWS::Bedrock::Agent**.
+
+</td></tr><tr><td>
+
+Manufacturer \[manufacturer\]
+
+</td><td>
+
+Manufacturer of the resource. Value is set to **AWS**.
+
+</td></tr></tbody>
+</table><table id="table_ai_model_deployment"><thead><tr><th>
 
 Field
 
@@ -318,7 +385,7 @@ Operational status \[operational\_status\]
 
 </td><td>
 
-Operational status of the resource. Default value is Operational.
+Operational status of the resource. Default value is **Operational**.
 
 </td></tr><tr><td>
 
@@ -326,12 +393,17 @@ Install Status \[install\_status\]
 
 </td><td>
 
-Install status of the resource. Default value is Installed.
+Install status of the resource. Default value is **Installed**.
 
 </td></tr></tbody>
 </table>## Dependency Views map
 
 On the Dependency Views map, you can view discovered Amazon Bedrock resources and the relationships between them.
+
+**Note:** The following relationships are stored in the Asset-CI Relationship \[cmdb\_rel\_asset\_ci\] table and aren't represented in the Dependency View map:
+
+-   The **Deployed as::Deployment of** relationship between AI Function \[cmdb\_ci\_function\_ai\] and AI System Digital Asset \[alm\_ai\_system\_digital\_asset\].
+-   The **Used by::Uses** relationship between AI Model Deployment \[cmdb\_ci\_ai\_model\_deployment\] and AI Model Digital Asset \[alm\_ai\_model\_digital\_asset\].
 
 \[Omitted image "amazon-bedrock-dependency-view.png"\] Alt text: Amazon Bedrock CI and connection on a Dependency Views map
 

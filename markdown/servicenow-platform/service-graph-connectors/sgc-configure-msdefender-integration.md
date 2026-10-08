@@ -33,7 +33,7 @@ Dependencies and requirements:
 
 Complete the following tasks:
 
--   Install the Service Graph Connector for Microsoft Defender Endpoint application \(sn\_defender\_integ\). For more information, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/t_InstallApplications.md).
+-   Install the Service Graph Connector for Microsoft Defender Endpoint application \(sn\_defender\_integ\). For more information, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/installing-applications-in-application-manager.md).
 -   Ensure that you have an active subscription to Microsoft Defender for Endpoint.
 -   Ensure that you have created an Azure application to get programmatic access to Microsoft Defender for Endpoint. See [Create an app to access Microsoft Defender for Endpoint without a user](https://learn.microsoft.com/en-us/defender-endpoint/api/exposed-apis-create-app-webapp?view=o365-worldwide) in the Microsoft 365 documentation.
 -   Obtain the tenant ID, client ID, and client secret details for the Microsoft Defender for Endpoint administrator account.

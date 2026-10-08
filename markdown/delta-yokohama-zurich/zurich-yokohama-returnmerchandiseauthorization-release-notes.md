@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-returnmerchandiseauthorization-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
+last_updated: "2026-10-08"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -80,7 +80,7 @@ Zurich
 Enable customers to create cases for defective products within a specified warranty period, which helps streamline the process.
 
 
--   **[Granular roles in Install Base Management](https://www.servicenow.com/docs/access?context=r_rolesinstalledwithcustaccessmgmt&family=zurich&ft:locale=en-US)**
+ -   **[Granular roles in Install Base Management](https://www.servicenow.com/docs/access?context=r_rolesinstalledwithcustaccessmgmt&family=zurich&ft:locale=en-US)**
 
 Use the following new granular roles with the sn\_install\_base.install\_base\_admin role, which is installed with Customer Service Install Base Management plugin \(com.snc.install\_base\):
 
@@ -210,7 +210,12 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Install RMA Case Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US). Return Merchandise Authorization is available with activation of the RMA Case Management plugin \(sn\_csm\_rma\_case\). For details, see [Return merchandise authorization](https://www.servicenow.com/docs/access?context=activate-return-merchandise-authorization-plugin&family=zurich&ft:locale=en-US).
+
+
+**Important:** RMA Case Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -268,7 +273,10 @@ Zurich
 
 </td><td>
 
+-   **Browser requirements**
+
 Starting with the Zurich release, RMA Case Management for Sales Customer Relationship Management doesn't support mobile devices and Internet Explorer. For more information, see [Browser support](https://www.servicenow.com/docs/access?context=browser-support&family=zurich&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Accessibility information

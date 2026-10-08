@@ -27,6 +27,10 @@ Before you create a widget, verify the following prerequisites:
 
 Role required: administrator.
 
+**Important:**
+
+Widgets with relative imports `./` or `../` appear grayed out in the AI-Powered Widget Builder version 1.3.7 onwards. Clicking one shows a message to edit it in ServiceNow® AI Experience Lab for VS Code. Customer-built widgets aren't affected. For more information, see .
+
 ## About this task
 
 The Widget Builder generates, validates, and compiles the widget automatically. Generation can take 15 to 20 seconds for the initial prompt and for each refinement prompt.

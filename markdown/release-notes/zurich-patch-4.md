@@ -7,7 +7,7 @@ release: zurich
 topic_type: reference
 last_updated: "2025-12-05"
 reading_time_minutes: 114
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Available patches and hotfixes, Learn about the Zurich release, Zurich release notes]
 ---
 

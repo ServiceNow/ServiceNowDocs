@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configure, ServiceNow Otto for Order Management]
 ---
 
@@ -65,5 +65,7 @@ Customize the subject, content, or formatting of the default email templates for
 
 [AI Agent Studio overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-agent-studio.md)
 
-[bundle-convint.promote-demote-va-topics]
+[Promote or demote LLM assets in Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/promote-demote-va-topics.md)
+
+[Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/vad-topics-page.md)
 

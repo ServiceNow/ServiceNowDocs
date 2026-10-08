@@ -8,7 +8,7 @@ product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 45
+reading_time_minutes: 32
 keywords: [Amazon, AWS, Cloud, Patterns, Discovery]
 breadcrumb: [Available cloud discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
@@ -51,7 +51,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
         When you run Discovery on your cloud resources, you don’t need separate credentials for each member account. The Cloud Discovery process handles credentials automatically by acquiring a temporary credential for each member via an AWS API. You can elect to use the default configuration or customize the MID Server to assume other roles for additional controls and security.
 
-    For more information, see [Setting up AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/setup-aws-service-accounts.md).
+    For more information, see [Setup AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/setup-aws-service-accounts.md).
 
 -   **Use IAM user policy on the AWS Management Console**
 
@@ -95,7 +95,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
     Starting with Discovery and Service Mapping Patterns version 1.30.2, you can improve query performance by populating Service Account and Logical Datacenter fields directly in cloud CIs. For more information, see [Improved query performance with direct field population in CI tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/query-service-account-ldc-fields.md).
 
 
-## Verify the REST API Permissions
+## Verify the REST API permissions
 
 Download the [Cloud Discovery patterns spreadsheet](https://downloads.docs.servicenow.com/resource/enus/api/servicenow-discovery-patterns-api-details.xlsx) so you can grant user permissions required for running the Discovery patterns. In addition to permissions, the spreadsheet also includes useful information such as pattern names, types, CI Classes, and links to vendor documentation. New patterns are available quarterly, so check periodically to be sure you have the latest version of the spreadsheet.
 
@@ -133,719 +133,13 @@ Datacenters discovered before upgrading to version 1.29.0 remain in the **Amazon
 
 **Note:** Discovery and Service Mapping Patterns versions 1.29.0 through 1.32.0 used the AWS Config service instead of the Resource Explorer API to determine datacenter activity. For instructions on configuring AWS Config recorder, go to the [AWS Documentation](https://docs.aws.amazon.com/) and search for the "Recording resources in the AWS Config console" article.
 
-## Data collected by Discovery during horizontal discovery
-
--   **Resources discovered using the Amazon AWS - Availability Zone \(LP\) pattern**
-
-    |Field|Description|
-    |-----|-----------|
-    |Name \[name\]|Name of the Availability Zone.|
-    |Object ID \[object\_id\]|Unique identifier, allocated by Amazon AWS Cloud for this resource.|
-    |State \[state\]|The state of the Availability Zone. The possible values are: available, information, impaired, and unavailable.|
-
--   **Resources discovered using the Amazon AWS - Classic LB \(LP\) pattern**
-
-    |Field|Description|
-    |-----|-----------|
-    |Name \[name\]|The name of the load balancer.|
-    |Fully Qualified Domain Name \[fqdn\]|The DNS name of the load balancer.|
-    |Object ID \[object\_id\]|Unique identifier, allocated by Amazon AWS Cloud for this resource.|
-    |DNS Name \[dns\_name\]|The DNS name of the load balancer.|
-    |Canonical Hosted Zone Name \[canonical\_hosted\_zone\_name\]|The DNS name of the load balancer.|
-    |Canonical Hosted Zone ID \[canonical\_hosted\_zone\_id\]|The ID of the Amazon Route 53 hosted zone for the load balancer.|
-
-    |Field|Description|
-    |-----|-----------|
-    |Name \[name\]|IP address of the Load Balancer.|
-    |Object ID \[object\_id\]|IP address of the Load Balancer.|
-    |IP Address \[ip\_address\]|IP address of the Load Balancer.|
-    |Comments \[comments\]|Comments related to the Configuration Item \(CI\).|
-
-    |Field|Description|
-    |-----|-----------|
-    |Name \[name\]|Name of the Domain Name System \(DNS\).|
-    |IP Address \[ip\_address\]|IP address of the DNS.|
-    |Comments \[comments\]|Comments related to the CI.|
-
-    |Field|Description|
-    |-----|-----------|
-    |Name \[name\]|The name of the load balancer pool.|
-    |Object ID \[object\_id\]|Unique identifier, allocated by Amazon AWS Cloud for this resource.|
-    |Comments \[comments\]|Comments related to the CI.|
-
-    |Field|Description|
-    |-----|-----------|
-    |Name \[name\]|The name of the load balancer pool member \(known in AWS as a target\).|
-    |Object ID \[object\_id\]|Unique identifier, allocated by Amazon AWS Cloud for this resource.|
-
-    |Field|Description|
-    |-----|-----------|
-    |Name \[name\]|Name of the load balancer service.|
-    |Object ID \[object\_id\]|Unique identifier, allocated by Amazon AWS Cloud for this resource.|
-    |Port \[port\]|The port on which the load balancer is listening.|
-    |Service Port \[service\_port\]|The port on which the instance is listening.|
-    |Server Protocol \[service\_protocol\]|The protocol to use for routing traffic to instances: HTTP, HTTPS, TCP, or SSL.|
-    |Listener Protocol \[service\_protocol\]|The load balancer transport protocol to use for routing: HTTP, HTTPS, TCP, or SSL.|
-    |Comments \[comments\]|Comments related to the CI.|
-
--   **Resources discovered using the Amazon AWS - LB Pool Member\(LP\) pattern**
-
-<table id="table_ntq_x3y_p2c"><thead><tr><th>
-
-Field
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Name \[name\]
-
-</td><td>
-
-Target ID, depending on the target type. For example: Instance ID, IP address, Lambda ARN, or Application Load Balancer ARN.
-
-</td></tr><tr><td>
-
-Service port \[service\_port\]
-
-</td><td>
-
-The port on which the target is listening, if available.
-
-</td></tr><tr><td>
-
-Object ID \[object\_id\]
-
-</td><td>
-
-Possible values are:-   Target ID
--   Target ID and target port, if available, in the following format: `<target ID>#<target port>`.
-
-For example: `i-0123456789abcdef0#8080`
-
-</td></tr><tr><td>
-
-Comments \[comments\]
-
-</td><td>
-
-Comments related to the CI.
-
-</td></tr><tr><td>
-
-Operational status \[operational\_status\]
-
-</td><td>
-
-Operational status of the target. Possible values are Operational or Non-Operational.
-
-</td></tr><tr><td>
-
-Install Status \[install\_status\]
-
-</td><td>
-
-Installation status of the target. Possible values are Installed or Retired.
-
-</td></tr><tr><td>
-
-Pool \[pool\]
-
-</td><td>
-
-References the Load Balancer Pool \[cmdb\_ci\_lb\_pool\] table.
-
-</td></tr></tbody>
-</table>    **Note:** By default, the Amazon AWS - LB Pool Member\(LP\) pattern doesn't execute discovery. To enable the discovery of AWS Application Load Balancer targets, set the **sn\_itom\_pattern.discover\_aws\_app\_pool\_members** MID Server property to **true**. For more information, see [Enable AWS Application Load Balancer target discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/enable-aws-app-lb-discovery.md).
-
--   **Resources discovered using the Amazon AWS - Customer Gateway \(LP\) pattern**
-
-    |Field|Description|
-    |-----|-----------|
-    |Name \[name\]|Name or ID if no Name is specified of the customer gateway.|
-    |Object ID \[object\_id\]|ID of the customer gateway.|
-    |Connection Type \[connection\_type\]|Type of VPN connection the customer gateway supports.|
-
-    |Field|Description|
-    |-----|-----------|
-    |Name \[name\]|Name or ID if no Name is specified of the customer gateway.|
-    |Object ID \[object\_id\]|ID of the customer gateway.|
-
--   **Resources discovered using the Amazon AWS - discover Organization pattern**
-
-    |Field|Description|
-    |-----|-----------|
-    |Name \[name\]|The unique identifier \(ID\) of the management account of an organization.|
-    |Object ID \[object\_id\]|The unique identifier \(ID\) of the management account of an organization.|
-    |Root ID \[root\_id\]|The unique identifier \(ID\) of an organization.|
-    |Master Email \[master\_email\]|The email address associated with the AWS account that is designated as the management account for the organization.|
-    |Install Status \[install\_status\]|The install status of the Organization based on the AvailablePolicyTypes status.|
-    |Operational status \[operational\_status\]|The operational status of the Organization based on the AvailablePolicyTypes status.|
-
--   **Resources discovered the using the Amazon AWS - Host \(LP\) pattern**
-
-    |Field|Description|
-    |-----|-----------|
-    |Name \[name\]|Name of this host.|
-    |Object ID \[object\_id\]|Unique identifier, allocated by Amazon AWS Cloud for this resource.|
-    |CPU Core Count \[cpu\_core\_count\]|The number of host cores.|
-    |State \[state\]|The current state of the host.|
-    |Host Type \[host\_type\]|The host type \(instanceFamily\).|
-    |Cloud Vendor \[cloud\_vendor\]|The cloud vendor: AWS.|
-    |Virtual \[virtual\]|Virtual host: False.|
-
--   **Resources discovered using the Amazon AWS - Internet Gateway \(LP\) pattern**
-
-    |Field|Description|
-    |-----|-----------|
-    |Name \[name\]|Name or ID if no Name is specified for the internet gateway.|
-    |Object ID \[object\_id\]|ID of the internet gateway.|
-
-    |Field|Description|
-    |-----|-----------|
-    |Name \[name\]|Name or ID if no Name is specified for the internet gateway.|
-    |Object ID \[object\_id\]|ID of the internet gateway.|
-
--   **Resources discovered using the Amazon AWS - IP Address \(LP\) pattern**
-
-    |Field|Description|
-    |-----|-----------|
-    |Name \[name\]|The name or ID if no Name is specified for the Network Interface.|
-    |IP Address \[ip\_address\]|If available, the address of the Elastic IP address bound to the network interface. If not available, the Private IP.|
-    |Object ID \[object\_id\]|The ID of the Network Interface.|
-    |Public DNS \[public\_dns\]|The public DNS name if available.|
-    |Private IP Address \[private\_ip\]|The IPv4 address of the network interface within the subnet.|
-    |Instance ID \[instance\_id\]|The ID of the instance.|
-
--   **Resources discovered the using the Amazon AWS - Key Pair \(LP\) pattern**
-
-    |Field|Description|
-    |-----|-----------|
-    |Name \[name\]|The name of the key pair.|
-    |Object ID \[object\_id\]|The ID of the key pair.|
-    |Finger Print \[finger\_print\]|If you used [CreateKeyPair](https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_CreateKeyPair.html) to create the key pair, this value is the SHA-1 digest of the DER encoded private key. If you used ImportKeyPair to provide AWS the public key, this value is the MD5 public key fingerprint as specified in section 4 of RFC 4716.|
-
--   **Resources discovered using the Amazon AWS - LB Pool \(LP\) pattern**
-
-    |Field|Description|
-    |-----|-----------|
-    |Name \[name\]|The name of the load balancer pool.|
-    |Object ID \[object\_id\]|Unique identifier, allocated by Amazon AWS Cloud for this resource.|
-    |Comments \[comments\]|Comments related to the CI.|
-
--   **Resources discovered using the Amazon AWS - LB Service \(LP\) pattern**
-
-    |Field|Description|
-    |-----|-----------|
-    |Name \[name\]|Name of the load balancer service.|
-    |Object ID \[object\_id\]|Unique identifier, allocated by Amazon AWS Cloud for this resource.|
-    |Port \[port\]|The port on which the load balancer is listening.|
-    |Service Port \[service\_port\]|The port on which the instance is listening.|
-    |Server Protocol \[service\_protocol\]|The protocol to use for routing traffic to instances: HTTP, HTTPS, TCP, or SSL.|
-    |Listener Protocol \[service\_protocol\]|The load balancer transport protocol to use for routing: HTTP, HTTPS, TCP, or SSL.|
-    |Comments \[comments\]|Comments related to the CI.|
-
--   **Resources discovered using the Amazon AWS - NAT Gateway \(LP\) pattern**
-
-    |Field|Description|
-    |-----|-----------|
-    |Name \[name\]|Name of the NAT gateway.|
-    |Object ID \[object\_id\]|Unique identifier, allocated by Amazon AWS Cloud for this resource.|
-    |Install Status \[install\_status\]|Provisioning status of the NAT gateway.|
-
-    |Field|Description|
-    |-----|-----------|
-    |Name \[name\]|The name of the NAT endpoint.|
-    |Object ID \[object\_id\]|Unique identifier, allocated by Amazon AWS Cloud for this resource.|
-
--   **Resources discovered using the Amazon AWS - Network \(LP\) pattern**
-
-    |Field|Description|
-    |-----|-----------|
-    |Name \[name\]|Name of the Virtual Private Cloud \(VPC\) network.|
-    |Object ID \[object\_id\]|Unique identifier, allocated by Amazon AWS Cloud for this resource.|
-    |State \[state\]|The current state of the VPC: pending or available.|
-    |CIDR \[cidr\]|CIDR representation of the subnet. For example, 10.0.0.0/24.|
-    |Install Status \[install\_status\]|Resource provisioning status.|
-
--   **Resources discovered using the Amazon AWS - NIC \(LP\) pattern**
-
-    |Field|Description|
-    |-----|-----------|
-    |Name \[name\]|The Name or ID if no Name is specified for the Network Interface.|
-    |Object ID \[object\_id\]|The ID of the network interface.|
-    |State \[state\]|The status of the network interface. The valid values are as follows: available, associated, attaching, in-use, or detaching.|
-    |Private IP \[private\_ip\]|The IPv4 address of the network interface within the subnet.|
-    |IP Address \[ip\_address\]|If available, the address of the Elastic IP address bound to the network interface. If not available, the Private IP.|
-    |Public IP \[public\_ip\]|The address of the Elastic IP address bound to the network interface.|
-
-    |Field|Description|
-    |-----|-----------|
-    |Name \[name\]|IP address of the Load Balancer.|
-    |Object ID \[object\_id\]|If available, the address of the Elastic IP address bound to the network. If not available, the Private IP.|
-    |IP Address \[ip\_address\]|If available, the address of the Elastic IP address bound to the network interface. If not available, the Private IP.|
-    |Comments \[comments\]|Comments related to the CI.|
-
-    |Field|Description|
-    |-----|-----------|
-    |Name \[name\]|The name of the virtual network machine interface \(VNIC\) endpoint.|
-    |Object ID \[object\_id\]|Unique identifier, allocated by Amazon AWS Cloud for this resource.|
-    |IP Address \[ip\_address\]|If available, the address of the Elastic IP address bound to the network interface. If not available, the Private IP.|
-    |Host \[host\]|The ID of the instance.|
-
--   **Resources discovered using the Amazon AWS - Organizational Units \(LP\) pattern**
-
-    |Field|Description|
-    |-----|-----------|
-    |Name \[name\]|The user-friendly name of the Organizational Unit \(OU\).|
-    |Object ID \[object\_id\]|The unique identifier \(ID\) associated with this OU. The ID is unique to the organization.|
-    |Organizational ID \[aws\_org\_id\]|The unique identifier \(ID\) associated with this OU. The ID is unique to the organization.|
-    |Org Unit Parent ID \[org\_unit\_parent\_id\]|The ID of the root or the immediate parent OU.|
-
--   **Resources discovered using the Amazon AWS - Public IP Address \(LP\) pattern**
-
-    |Field|Description|
-    |-----|-----------|
-    |Name \[name\]|The name or allocation ID, if no name is specified for the public IP address.|
-    |Object ID \[object\_id\]|The ID representing the allocation of the address for the use with EC2-VPC.|
-    |Public ID Address \[public\_ip\]|The elastic IP address.|
-
--   **Resources discovered using the Amazon AWS - Route Table \(LP\) pattern**
-
-    |Field|Description|
-    |-----|-----------|
-    |Name \[name\]|The ID of the route table.|
-    |State \[state\]|If the route table is discoverable, the value is available.|
-    |Object ID \[object\_id\]|The name or ID, if no name is specified for the route table.|
-
-    |Field|Description|
-    |-----|-----------|
-    |Name \[name\]|The name or ID, if no name is specified for the route table.|
-    |Object ID \[object\_id\]|The ID of the route table.|
-
--   **Resources discovered using the Amazon AWS - Security Group \(LP\) pattern**
-
-    |Field|Description|
-    |-----|-----------|
-    |Name \[name\]|The name of the security group.|
-    |Object ID \[object\_id\]|The ID of the security group.|
-
--   **Resources discovered using the Amazon AWS - SSM Cloud Agents \(LP\) pattern**
-
-    The Amazon AWS - SSM Cloud Agents \(LP\) pattern introduces the following CI class that extends an existing CMDB class.
-
-    |CI class|Extends from|
-    |--------|------------|
-    |Cloud System Management Agent \[cmdb\_ci\_cloud\_system\_management\_agent\]|Virtual Machine Object \[cmdb\_ci\_vm\_object\]|
-
-<table id="table_dnd_xpy_1fc"><thead><tr><th>
-
-Field
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Cloud Agent Type \[cloud\_agent\_type\]
-
-</td><td>
-
-Type of cloud agent: AWS SSM.
-
-</td></tr><tr><td>
-
-Install Status \[install\_status\]
-
-</td><td>
-
-Install status of the AWS Systems Manager \(SSM\) agent:-   **Installed**: The agent is currently running.
--   **Absent**: The agent is not currently running.
-
-
-</td></tr><tr><td>
-
-IP Address \[ip\_address\]
-
-</td><td>
-
-Address of the VM instance.
-
-</td></tr><tr><td>
-
-Name \[name\]
-
-</td><td>
-
-Name of the VM instance that the SSM agent is running on.
-
-</td></tr><tr><td>
-
-Object ID \[object\_id\]
-
-</td><td>
-
-ID of the VM instance.
-
-</td></tr><tr><td>
-
-Operational status \[operational\_status\]
-
-</td><td>
-
-Operational status of the agent service.Possible values are Operational or Non-Operational.
-
-</td></tr><tr><td>
-
-Operating System Platform \[operating\_system\_platform\]
-
-</td><td>
-
-Operating system type of the VM instance.
-
-</td></tr><tr><td>
-
-Resource Type \[resource\_type\]
-
-</td><td>
-
-Type of resource managed by SSM. Possible values are EC2Instance or ManagedInstance.
-
-</td></tr><tr><td>
-
-Version \[version\]
-
-</td><td>
-
-Version of the SSM agent.
-
-</td></tr></tbody>
-</table>-   **Resources discovered using the Amazon AWS - Storage \(LP\) pattern**
-
-    |Field|Description|
-    |-----|-----------|
-    |State \[state\]|The volume state. The following values are valid: creating, available, in-use, deleting, deleted, or error.|
-    |Storage Type \[storage\_type\]|For example, hard-coded value: **block**.|
-    |Volume ID \[volume\_id\]|The volume type. For example, gp2 for General Purpose SSD, io1 for Provisioned IOPS SSD, st1 for Throughput Optimized HDD, sc1 for Cold HDD, or standard for Magnetic volumes.|
-    |Name \[name\]|The name or ID, if no name is specified for the volume.|
-    |Size Bytes \[size\_bytes\]|The size of the volume, in bytes.|
-    |Object ID \[object\_id\]|The ID of the volume.|
-
-    |Field|Description|
-    |-----|-----------|
-    |Name \[name\]|The name or ID, if no name is specified for the volume.|
-    |Object ID \[object\_id\]|The ID of the volume.|
-
--   **Resources discovered using the Amazon AWS - Sub Account \(LP\) pattern**
-
-    |Field|Description|
-    |-----|-----------|
-    |Account ID \[account\_id\]|Unique identifier \(ID\) of the account.|
-    |Object ID \[object\_id\]|Unique identifier \(ID\) of the account.|
-    |Datacenter Type \[datacenter\_type\]|Hard-coded value: cmdb\_ci\_aws\_datacenter.|
-    |Name \[name\]|User-friendly name of the account.|
-    |Is Master Account \[is\_master\_account\]|Boolean attribute indicating if this account is the management account or not.|
-    |Account Email \[account\_email\]|Email address of the AWS service account.|
-
--   **Resources discovered using the Amazon AWS - Subnet \(LP\) pattern**
-
-    |Field|Description|
-    |-----|-----------|
-    |Name \[name\]|The name or ID, if no name is specified for the subnet.|
-    |Object ID \[object\_id\]|The ID of the subnet.|
-    |CIDR \[cidr\]|The IPv4 CIDR block assigned to the subnet.|
-    |Available IP Count \[available\_ip\_count\]|The number of unused private IPv4 addresses in the subnet. The IPv4 addresses for any stopped instances are considered unavailable.|
-    |State \[state\]|The current state of the subnet. The following values are valid: pending or available.|
-
--   **Resources discovered using the Amazon AWS - VPN Connections \(LP\) pattern**
-
-    |Field|Description|
-    |-----|-----------|
-    |Name \[name\]|Name of the project that is used for the discovery.|
-    |Object ID \[object\_id\]|The name or ID, if no name is specified for the VPN connection.|
-    |State \[state\]|The current state of the VPN connection. The following values are valid: pending, available, deleting, or deleted.|
-
--   **Resources discovered using the Amazon AWS - VPN Gateway \(LP\) pattern**
-
-    |Field|Description|
-    |-----|-----------|
-    |Name \[name\]|The name or ID, if no name is specified for the VPN Gateway.|
-    |Object ID \[object\_id\]|The ID of the virtual private gateway.|
-    |Connection Type \[connection\_type\]|The type of VPN connection the virtual private gateway supports.|
-
-    |Field|Description|
-    |-----|-----------|
-    |Name \[name\]|The name or ID, if no name is specified for the VPN Gateway.|
-    |Object ID \[object\_id\]|The ID of the virtual private gateway.|
-    |Connection Type \[connection\_type\]|The type of VPN connection the virtual private gateway supports.|
-
--   **Resources discovered using the Amazon AWS - Web ACL \(LP\) pattern**
-
-    The Amazon AWS - Web ACL \(LP\) pattern introduces the following CI class that extends an existing CMDB class.
-
-    |CI class|Extends from|
-    |--------|------------|
-    |Web ACL \[cmdb\_ci\_web\_acl\]|Virtual Machine Object \[cmdb\_ci\_vm\_object\]|
-
-<table id="table_il1_nbb_y2c"><thead><tr><th>
-
-Field
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Name \[name\]
-
-</td><td>
-
-Name of the web access control list \(web ACL\).
-
-</td></tr><tr><td>
-
-Object ID \[object\_id\]
-
-</td><td>
-
-Unique ID for the web ACL from AWS.
-
-</td></tr><tr><td>
-
-Default Action \[defaul\_action\]
-
-</td><td>
-
-Default action when no rules in the web ACL match.Possible values are Allow or Deny.
-
-</td></tr><tr><td>
-
-Description \[short\_description\]
-
-</td><td>
-
-Description of web ACL provided by AWS.
-
-</td></tr><tr><td>
-
-Operational status \[operational\_status\]
-
-</td><td>
-
-Whether the web ACL is enabled or disabled.Possible values are Operational or Retired.
-
-</td></tr></tbody>
-</table>    **Note:** Security Operations users can leverage the integration with Discovery to import web ACL rules and load balancers with attached web ACLs. For more information on setting ACL rules and using the Mitigation Controls Monitoring app, see [Configure the AWS WAF integration for mitigation controls monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/spc-install-config-aws-waf.md).
-
-
-## Events discovered by Discovery during horizontal discovery
-
-Discovery uses patterns to find events created for Amazon AWS Cloud components. If there are events that indicate the change of state in one of the Amazon AWS Cloud components, it triggers discovery of Amazon AWS Cloud components using the patterns.
-
-|Pattern|CI|
-|-------|---|
-|Amazon AWS Virtual Server Events|Virtual Machine Instance \[cmdb\_ci\_vm\_instance\]|
-|Amazon AWS Security Group Events|Compute Security Group \[cmdb\_ci\_compute\_security\_group\]|
-|Amazon AWS Subnet Events|Cloud Subnet \[cmdb\_ci\_cloud\_subnet\]|
-|Amazon AWS Storage Events|Storage Volume \[cmdb\_ci\_storage\_volume\]|
-|Amazon AWS Network Events|Cloud Network \[cmdb\_ci\_network\]|
-|Amazon AWS Classic LB Events|Cloud Load Balancer \[cmdb\_ci\_cloud\_load\_balancer\]|
-|Amazon AWS Application and Network LBs Events|Cloud Load Balancer \[cmdb\_ci\_cloud\_load\_balancer\]|
+## AWS discovery Dependency Views
 
 \[Omitted image "aws-cloud-load-balancer-components.png"\] Alt text: Dependency Views displaying the cloud load balancer and connected components.
 
 \[Omitted image "aws-cloud-network-components.png"\] Alt text: Dependency Views displaying components connected to the cloud network in the AWS environment.
 
 \[Omitted image "aws-virtual-machine-components.png"\] Alt text: Dependency Views showing Virtual Machine and connected components in the AWS environment.
-
-## CI relationships and references
-
-The AWS patterns create the following relationships and references to support AWS discovery. References link to records in other tables and don't appear in the CI Relationship \[cmdb\_rel\_ci\] table.
-
--   **Relationships discovered using the Amazon AWS - Availability Zone \(LP\) pattern**
-
-    |CI|Relationship|CI|
-    |---|------------|---|
-    |AWS Datacenter \[cmdb\_ci\_aws\_datacenter\]|Contains::Contained by|Availability Zone \[cmdb\_ci\_availability\_zone\]|
-
--   **Relationships discovered using the Amazon AWS - Classic LB \(LP\) pattern**
-
-    |CI|Relationship|CI|
-    |---|------------|---|
-    |Load Balancer Service \[cmdb\_ci\_lb\_service\]|Hosted on::Hosts|Cloud Load Balancer \[cmdb\_ci\_cloud\_load\_balancer\]|
-    |Cloud Subnet \[cmdb\_ci\_cloud\_subnet\]|Contains::Contained by|Cloud Load Balancer \[cmdb\_ci\_cloud\_load\_balancer\]|
-    |Availability Zone \[cmdb\_ci\_availability\_zone\]|Contains::Contained by|Cloud Load Balancer \[cmdb\_ci\_cloud\_load\_balancer\]|
-    |Load Balancer Pool \[cmdb\_ci\_lb\_pool\]|Hosted on::Hosts|Cloud Load Balancer \[cmdb\_ci\_cloud\_load\_balancer\]|
-    |Load Balancer Pool \[cmdb\_ci\_lb\_pool\]|Owns::Owned by|Load Balancer Pool Member \[cmdb\_ci\_lb\_pool\_member\]|
-    |Cloud Load Balancer \[cmdb\_ci\_cloud\_load\_balancer\]|Contains::Contained by|DNS Name \[cmdb\_ci\_dns\_name\]|
-    |Cloud Load Balancer \[cmdb\_ci\_cloud\_load\_balancer\]|Owns::Owned by|Cloud LB IPAddress \[cmdb\_ci\_cloud\_lb\_ipaddress\]|
-    |Cloud Load Balancer \[cmdb\_ci\_cloud\_load\_balancer\]|Hosted on::Hosts|AWS Datacenter \[cmdb\_ci\_aws\_datacenter\]|
-    |Cloud Load Balancer \[cmdb\_ci\_cloud\_load\_balancer\]|Contains::Contained by|Compute Security Group \[cmdb\_ci\_compute\_security\_group\]|
-
--   **Relationships discovered using the Amazon AWS - LB Pool Member\(LP\) pattern**
-
-    |CI|Relationship|CI|
-    |---|------------|---|
-    |Load Balancer Pool \[cmdb\_ci\_lb\_pool\]|Owns::Owned by|Load Balancer Pool Member \[cmdb\_ci\_lb\_pool\_member\]|
-
-    |CI|Field|Referenced CI|
-    |---|-----|-------------|
-    |Load Balancer Pool Member \[cmdb\_ci\_lb\_pool\_member\]|Pool \[pool\]|Load Balancer Pool \[cmdb\_ci\_lb\_pool\]|
-
-    **Note:** By default, the Amazon AWS - LB Pool Member\(LP\) pattern doesn't execute discovery. To enable the discovery of AWS Application Load Balancer targets, set the **sn\_itom\_pattern.discover\_aws\_app\_pool\_members** MID Server property to **true**. For more information, see [Enable AWS Application Load Balancer target discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/enable-aws-app-lb-discovery.md).
-
--   **Relationships discovered using the Amazon AWS - Customer Gateway \(LP\) pattern**
-
-    |CI|Relationship|CI|
-    |---|------------|---|
-    |Customer Gateway \[cmdb\_ci\_customer\_gateway\]|Hosted on::Hosts|Virtual Machine Instance \[cmdb\_ci\_instance\]|
-    |Customer Gateway \[cmdb\_ci\_customer\_gateway\]|Implement End Point To::Implement End Point From|Customer Gateway \[cmdb\_ci\_endpoint\_cust\_gateway\]|
-
--   **Relationships discovered using the Amazon AWS - Host \(LP\) pattern**
-
-    |CI|Relationship|CI|
-    |---|------------|---|
-    |Host \[cmdb\_ci\_cloud\_host\]|Hosted on::Hosts|AWS Datacenter \[cmdb\_ci\_aws\_datacenter\]|
-    |Virtual Machine Instance \[cmdb\_ci\_vm\_instance\]|Runs on::Runs|Host \[cmdb\_ci\_cloud\_host\]|
-
--   **Relationships discovered using the Amazon AWS - Internet Gateway \(LP\) pattern**
-
-    |CI|Relationship|CI|
-    |---|------------|---|
-    |Internet Gateway \[cmdb\_ci\_internet\_gateway\]|Hosted on::Hosts|AWS Datacenter \[cmdb\_ci\_aws\_datacenter\]|
-    |Internet Gateway \[cmdb\_ci\_internet\_gateway\]|Implement End Point To::Implement End Point From|Internet Gateway EP \[cmdb\_ci\_endpoint\_intgateway\]|
-    |Cloud Network \[cmdb\_ci\_network\]|Use End Point To::Use End Point From|Internet Gateway EP \[cmdb\_ci\_endpoint\_intgateway\]|
-
--   **Relationships discovered using the Amazon AWS - IP Address \(LP\) pattern**
-
-    |CI|Relationship|CI|
-    |---|------------|---|
-    |Cloud Key Pair \[cmdb\_ci\_cloud\_key\_pair\]|Contains::Contained by|IP Address \[cmdb\_ci\_cloud\_ip\_address\]|
-
--   **Relationships discovered using the Amazon AWS - Key Pair \(LP\) pattern**
-
-    |CI|Relationship|CI|
-    |---|------------|---|
-    |Servers \[cmdb\_ci\_server\]|Hosted on::Hosts|AWS Datacenter \[cmdb\_ci\_aws\_datacenter\]|
-
--   **Relationships discovered using the Amazon AWS - LB Pool \(LP\) pattern**
-
-    |CI|Relationship|CI|
-    |---|------------|---|
-    |Load Balancer Pool \[cmdb\_ci\_lb\_pool\]|Hosted on::Hosts|Cloud Load Balancer \[cmdb\_ci\_cloud\_load\_balancer\]|
-
--   **Relationships discovered using the Amazon AWS - LB Service \(LP\) pattern**
-
-    |CI|Relationship|CI|
-    |---|------------|---|
-    |Load Balancer Service \[cmdb\_ci\_lb\_service\]|Hosted on::Hosts|Cloud Load Balancer \[cmdb\_ci\_cloud\_load\_balancer\]|
-
--   **Relationships discovered using the Amazon AWS - NAT Gateway \(LP\) pattern**
-
-    |CI|Relationship|CI|
-    |---|------------|---|
-    |NAT Gateway \[cmdb\_ci\_nat\_gateway\]|Hosted on::Hosts|AWS Datacenter \[cmdb\_ci\_aws\_datacenter\]|
-    |NAT Gateway \[cmdb\_ci\_nat\_gateway\]|Implement End Point To::Implement End Point From|NAT EP \[cmdb\_ci\_endpoint\_nat\]|
-    |Network \[cmdb\_ci\_network\]|Use End Point To::Use End Point From|NAT EP \[cmdb\_ci\_endpoint\_nat\]|
-
--   **Relationships discovered using the Amazon AWS - Network \(LP\) pattern**
-
-    |CI|Relationship|CI|
-    |---|------------|---|
-    |Network \[cmdb\_ci\_network\]|Hosted on::Hosts|AWS Datacenter \[cmdb\_ci\_aws\_datacenter\]|
-
--   **Relationships discovered using the Amazon AWS - NIC \(LP\) pattern**
-
-    |CI|Relationship|CI|
-    |---|------------|---|
-    |Cloud Load Balancer \[cmdb\_ci\_cloud\_load\_balancer\]|Owns::Owned by|Cloud LB IPAddress \[cmdb\_ci\_cloud\_lb\_ipaddress\]|
-    |Virtual Machine Instance \[cmdb\_ci\_vm\_instance\]|Use End Point To::Use End Point From|VNIC Endpoint \[cmdb\_ci\_endpoint\_vnic\]|
-    |Cloud Subnet \[cmdb\_ci\_cloud\_subnet\]|Contains::Contained by|NIC \[cmdb\_ci\_nic\]|
-    |VNIC Endpoint \[cmdb\_ci\_endpoint\_vnic\]|Implement End Point To::Implement End Point From|NIC \[cmdb\_ci\_nic\]|
-    |NIC \[cmdb\_ci\_nic\]|Hosted on::Hosts|AWS Datacenter \[cmdb\_ci\_aws\_datacenter\]|
-
--   **Relationships discovered using the Amazon AWS - Organizational Units \(LP\) pattern**
-
-    |CI|Relationship|CI|
-    |---|------------|---|
-    |Cloud Organization \[cmdb\_ci\_cloud\_org\]|Contains::Contained by|AWS Organizational Unit \[cmdb\_ci\_aws\_org\_unit\]|
-    |AWS Organizational Unit \[cmdb\_ci\_aws\_org\_unit\]|Contains::Contained by|Cloud Service Account \[cmdb\_ci\_cloud\_service\_account\]|
-
-    |CI|Field|Referenced CI|
-    |---|-----|-------------|
-    |Key Value \[cmdb\_key\_value\]|Configuration item \[configuration\_item\]|AWS Organizational Unit \[cmdb\_ci\_aws\_org\_unit\]|
-
--   **Relationships discovered using the Amazon AWS - Public IP Address \(LP\) pattern**
-
-    |CI|Relationship|CI|
-    |---|------------|---|
-    |Cloud Public IP Address \[cmdb\_ci\_cloud\_public\_ipaddress\]|Hosted on::Hosts|AWS Datacenter \[cmdb\_ci\_aws\_datacenter\]|
-
--   **Relationships discovered using the Amazon AWS - Route Table \(LP\) pattern**
-
-    |CI|Relationship|CI|
-    |---|------------|---|
-    |Network \[cmdb\_ci\_network\]|Contains::Contained by|Route Table \[cmdb\_ci\_route\_table\]|
-    |Cloud Subnet \[cmdb\_ci\_cloud\_subnet\]|Use End Point To::Use End Point From|Route Table Endpoint \[cmdb\_ci\_endpoint\_route\_table\]|
-    |Route Table \[cmdb\_ci\_route\_table\]|Implement End Point To::Implement End Point From|Route Table Endpoint \[cmdb\_ci\_endpoint\_route\_table\]|
-
--   **Relationships discovered using the Amazon AWS - Security Group \(LP\) pattern**
-
-    |CI|Relationship|CI|
-    |---|------------|---|
-    |Network \[cmdb\_ci\_network\]|Contains::Contained by|Compute Security Group \[cmdb\_ci\_compute\_security\_group\]|
-    |Compute Security Group \[cmdb\_ci\_compute\_security\_group\]|Hosted on::Hosts|AWS Datacenter \[cmdb\_ci\_aws\_datacenter\]|
-
--   **Relationships discovered using the Amazon AWS - SSM Cloud Agents \(LP\) pattern**
-
-    |CI|Relationship|CI|
-    |---|------------|---|
-    |Cloud System Management Agent \[cmdb\_ci\_cloud\_system\_management\_agent\]|Runs on::Runs|Virtual Machine Instance \[cmdb\_ci\_vm\_instance\]|
-
--   **Relationships discovered using the Amazon AWS - Storage \(LP\) pattern**
-
-    |CI|Relationship|CI|
-    |---|------------|---|
-    |Virtual Machine Instance \[cmdb\_ci\_instance\]|Use End Point To::Use End Point From|Block Endpoint \[cmdb\_ci\_endpoint\_block\]|
-    |Block Endpoint \[cmdb\_ci\_endpoint\_block\]|Implement End Point To::Implement End Point From|Storage Volume \[cmdb\_ci\_storage\_volume\]|
-    |Availability Zone \[cmdb\_ci\_availability\_zone\]|Contains::Contained by|Storage Volume \[cmdb\_ci\_storage\_volume\]|
-    |Storage Volume \[cmdb\_ci\_storage\_volume\]|Hosted on::Hosts|AWS Datacenter \[cmdb\_ci\_aws\_datacenter\]|
-
--   **Relationships discovered using the Amazon AWS - Subnet \(LP\) pattern**
-
-    |CI|Relationship|CI|
-    |---|------------|---|
-    |Network \[cmdb\_ci\_network\]|Contains::Contained by|Cloud Subnet \[cmdb\_ci\_cloud\_subnet\]|
-    |Availability Zone \[cmdb\_ci\_availability\_zone\]|Contains::Contained by|Cloud Subnet \[cmdb\_ci\_cloud\_subnet\]|
-
--   **Relationships discovered using the Amazon AWS - VPN Connections \(LP\) pattern**
-
-    |CI|Relationship|CI|
-    |---|------------|---|
-    |Customer Gateway \[cmdb\_ci\_customer\_gateway\]|Contains::Contained by|VPN Connection \[cmdb\_ci\_vpn\_connection\]|
-    |Virtual Private Gateway \[cmdb\_ci\_virtual\_pvt\_gateway\]|Contains::Contained by|VPN Connection \[cmdb\_ci\_vpn\_connection\]|
-    |VPN Connection \[cmdb\_ci\_vpn\_connection\]|Hosted on::Hosts|AWS Datacenter \[cmdb\_ci\_aws\_datacenter\]|
-
--   **Relationships discovered using the Amazon AWS - VPN Gateway \(LP\) pattern**
-
-    |CI|Relationship|CI|
-    |---|------------|---|
-    |Virtual Private Gateway \[cmdb\_ci\_virtual\_pvt\_gateway\]|Hosted on::Hosts|AWS Datacenter \[cmdb\_ci\_aws\_datacenter\]|
-    |Virtual Private Gateway \[cmdb\_ci\_virtual\_pvt\_gateway\]|Implement End Point To::Implement End Point From|Virtual Private Gateway Endpoint \[cmdb\_ci\_endpoint\_vpg\]|
-    |Network \[cmdb\_ci\_network\]|Use End Point To::Use End Point From|Virtual Private Gateway Endpoint \[cmdb\_ci\_endpoint\_vpg\]|
-
--   **Relationships discovered using the Amazon AWS - Web ACL \(LP\) pattern**
-
-    |CI|Relationship|CI|
-    |---|------------|---|
-    |Web ACL \[cmdb\_ci\_web\_acl\]|Hosted on::Hosts|AWS Datacenter \[cmdb\_ci\_aws\_datacenter\]|
-
-    **Note:** Security Operations users can leverage the integration with Discovery to import web ACL rules and load balancers with attached web ACLs. For more information on setting ACL rules and using the Mitigation Controls Monitoring app, see [Configure the AWS WAF integration for mitigation controls monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/security-management/spc-install-config-aws-waf.md).
-
 
 ## Services discovered by patterns
 
@@ -938,12 +232,16 @@ Discovery and Service Mapping Patterns finds Amazon Virtual Private Cloud \(Amaz
 Discovery and Service Mapping Patterns finds AWS Application Load Balancers and Network Load Balancers on your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 -   **[AWS AppSync API pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/aws-appsync-api.md)**  
 Discovery and Service Mapping Patterns finds AWS AppSync APIs on your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+-   **[AWS Availability Zone pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/aws-availability-zone-pattern.md)**  
+Discovery and Service Mapping Patterns finds AWS Availability Zones in your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 -   **[AWS Backup Plan pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/aws-backup-plan.md)**  
 Discovery and Service Mapping Patterns finds AWS Backup Plans on your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 -   **[AWS Backup Vault pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/aws-backup-vault.md)**  
 Discovery and Service Mapping Patterns finds AWS Backup Vaults on your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 -   **[AWS Batch Compute Environment pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/aws-batch-compute-environment.md)**  
 Discovery and Service Mapping Patterns finds AWS services on your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+-   **[AWS Classic Load Balancer pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/aws-classic-lb-pattern.md)**  
+Discovery and Service Mapping Patterns finds AWS Classic Load Balancers on your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 -   **[AWS CloudHSM HSM pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/aws-cloudhsm-hsm.md)**  
 Discovery and Service Mapping Patterns finds AWS services on your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 -   **[AWS CloudTrail Trail pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/aws-cloudtrail-trail.md)**  
@@ -952,52 +250,94 @@ Discovery and Service Mapping Patterns finds AWS services on your cloud environm
 Discovery and Service Mapping Patterns finds AWS CodeDeploy Deployments on your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 -   **[AWS CodePipeline Pipeline pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/aws-codepipeline-pipeline.md)**  
 Discovery and Service Mapping Patterns finds AWS CodePipeline Pipelines on your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+-   **[AWS Customer Gateway pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/aws-customer-gateway-pattern.md)**  
+Discovery and Service Mapping Patterns finds AWS customer gateways on your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 -   **[AWS datacenter pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/aws-datacenter-pattern.md)**  
 Discovery and Service Mapping Patterns finds AWS Regions for your AWS account on your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 -   **[AWS DataSync Task pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/aws-datasync-task.md)**  
 Discovery and Service Mapping Patterns finds AWS services on your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+-   **[AWS discover Organization pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/aws-discover-organization-pattern.md)**  
+Discovery and Service Mapping Patterns finds AWS Cloud Organizations in your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 -   **[AWS DMS Endpoints pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/aws-dms-endpoint.md)**  
 Discovery and Service Mapping Patterns finds AWS DMS endpoints on your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 -   **[AWS Elastic Beanstalk Application pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/aws-elastic-beanstalk-application.md)**  
 Discovery and Service Mapping Patterns finds AWS Elastic Beanstalk Applications on your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+-   **[AWS Events pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/aws-events-pattern.md)**  
+Discovery uses event patterns to update Amazon AWS Cloud component data in near real-time. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 -   **[AWS Global Accelerator pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/aws-global-accelerator.md)**  
 Discovery and Service Mapping Patterns finds AWS services on your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 -   **[AWS Glue Database pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/aws-glue-database.md)**  
 Discovery and Service Mapping Patterns finds AWS Glue Databases on your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 -   **[AWS hardware type pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/aws-hardware-type-pattern.md)**  
 Discovery and Service Mapping Patterns finds Amazon EC2 instance types on your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+-   **[AWS Host pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/aws-host-pattern.md)**  
+Discovery and Service Mapping Patterns finds AWS Dedicated Hosts in your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 -   **[AWS IAM Policy pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/aws-iam-policy.md)**  
 Discovery and Service Mapping Patterns finds AWS IAM Policies on your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 -   **[AWS IAM Role pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/aws-iam-role.md)**  
 Discovery and Service Mapping Patterns finds AWS IAM Roles on your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 -   **[AWS IAM User pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/aws-iam-user.md)**  
 Discovery and Service Mapping Patterns finds AWS IAM Users on your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+-   **[AWS Internet Gateway pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/aws-internet-gateway-pattern.md)**  
+Discovery and Service Mapping Patterns finds AWS Internet Gateways in your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+-   **[AWS IP Address pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/aws-ip-address-pattern.md)**  
+Discovery and Service Mapping Patterns finds AWS IP addresses associated with network interfaces in your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+-   **[AWS Key Pair pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/aws-key-pair-pattern.md)**  
+Discovery and Service Mapping Patterns finds AWS key pairs in your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 -   **[AWS KMS Key pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/aws-kms-key.md)**  
 Discovery and Service Mapping Patterns finds AWS KMS Keys on your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+-   **[AWS LB Pool pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/aws-lb-pool-pattern.md)**  
+Discovery and Service Mapping Patterns finds AWS load balancer \(LB\) pools \(known in AWS as target groups\) in your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+-   **[AWS LB Pool Member pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/aws-lb-pool-member-pattern.md)**  
+Discovery and Service Mapping Patterns finds AWS Application Load Balancer \(LB\) pool members \(known in AWS as target group members\) in your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+-   **[AWS LB Service pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/aws-lb-service-pattern.md)**  
+Discovery and Service Mapping Patterns finds AWS load balancer \(LB\) listeners in your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 -   **[AWS Linux Server pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/aws-linux-server-pattern.md)**  
 Discovery and Service Mapping Patterns finds AWS Linux Server configuration items \(CIs\) in your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 -   **[AWS Marketplace pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/aws-marketplace-pattern.md)**  
 Discovery and Service Mapping Patterns finds active AWS Marketplace subscriptions on your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+-   **[AWS NAT Gateway pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/aws-nat-gateway-pattern.md)**  
+Discovery and Service Mapping Patterns finds AWS Network Address Translation \(NAT\) Gateways in your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+-   **[AWS Network pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/aws-network-pattern.md)**  
+Discovery and Service Mapping Patterns finds AWS Virtual Private Cloud \(VPC\) networks in your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 -   **[AWS Network ACL pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/aws-acl-pattern.md)**  
 Discovery and Service Mapping Patterns finds AWS Network access control lists \(ACLs\) on your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 -   **[AWS Network Firewall pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/aws-network-firewall.md)**  
 Discovery and Service Mapping Patterns finds AWS services on your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+-   **[AWS NIC pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/aws-nic-pattern.md)**  
+Discovery and Service Mapping Patterns finds AWS network interfaces \(NICs\) in your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 -   **[AWS Organizations pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/aws-organizations-pattern.md)**  
 Discovery and Service Mapping Patterns finds AWS Organizations accounts on your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+-   **[AWS Organizational Units pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/aws-organizational-units-pattern.md)**  
+Discovery and Service Mapping Patterns finds AWS Organizational Units in your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 -   **[AWS OS image pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/aws-os-image-pattern.md)**  
 Discovery and Service Mapping Patterns finds AWS OS images \(both owned and executable\) on your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+-   **[AWS Public IP Address pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/aws-public-ip-address-pattern.md)**  
+Discovery and Service Mapping Patterns finds AWS public IP addresses \(Elastic IPs\) in your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+-   **[AWS Route Table pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/aws-route-table-pattern.md)**  
+Discovery and Service Mapping Patterns finds AWS route tables in your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 -   **[AWS Secrets Manager Secret pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/aws-secrets-manager-secret.md)**  
 Discovery and Service Mapping Patterns finds AWS Secrets Manager Secrets on your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+-   **[AWS Security Group pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/aws-security-group-pattern.md)**  
+Discovery and Service Mapping Patterns finds AWS security groups in your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 -   **[AWS Serverless Database pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/aws-serverless-database-pattern.md)**  
 Discovery and Service Mapping Patterns finds Amazon Aurora Serverless databases on your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+-   **[AWS SSM Cloud Agents pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/aws-ssm-cloud-agents-pattern.md)**  
+Discovery and Service Mapping Patterns finds AWS Systems Manager \(SSM\) agents on your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 -   **[AWS Step Functions State Machine pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/aws-step-functions-state-machine.md)**  
 Discovery and Service Mapping Patterns finds AWS Step Functions State Machines on your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+-   **[AWS Storage pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/aws-storage-pattern.md)**  
+Discovery and Service Mapping Patterns finds AWS Elastic Block Store \(EBS\) storage volumes on your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 -   **[AWS Storage Gateway File Share pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/aws-storage-gateway-file-share.md)**  
 Discovery and Service Mapping Patterns finds AWS services on your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 -   **[AWS Storage Gateway Gateway pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/aws-storage-gateway-gateway.md)**  
 Discovery and Service Mapping Patterns finds AWS Storage Gateway Gateways on your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
--   **[AWS sub account pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/aws-sub-account-pattern.md)**  
+-   **[AWS sub account Organizations pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/aws-sub-account-organization-pattern.md)**  
+Discovery and Service Mapping Patterns finds AWS sub-accounts in your organization on your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+-   **[AWS sub account regional pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/aws-sub-account-pattern.md)**  
 Discovery and Service Mapping Patterns finds member accounts and the primary account within an AWS Organization. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+-   **[AWS subnet pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/aws-subnet-pattern.md)**  
+Discovery and Service Mapping Patterns finds AWS subnets on your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 -   **[AWS Systems Manager Document pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/aws-systems-manager-document.md)**  
 Discovery and Service Mapping Patterns finds AWS Systems Manager Documents on your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 -   **[AWS Systems Manager Parameter Store pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/aws-systems-manager-parameter-store.md)**  
@@ -1006,6 +346,12 @@ Discovery and Service Mapping Patterns finds AWS Systems Manager Parameter Store
 Discovery and Service Mapping Patterns finds AWS Transfer Family Servers on your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 -   **[AWS virtual server pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/aws-virtual-server-pattern.md)**  
 Discovery and Service Mapping Patterns finds AWS EC2 virtual machine instances on your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+-   **[AWS VPN Connections pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/aws-vpn-connections-pattern.md)**  
+Discovery and Service Mapping Patterns finds AWS Virtual Private Network \(VPN\) connections on your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+-   **[AWS VPN Gateway pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/aws-vpn-gateway-pattern.md)**  
+Discovery and Service Mapping Patterns finds AWS virtual private gateways on your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+-   **[AWS web ACL pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/aws-web-acl-pattern.md)**  
+Discovery and Service Mapping Patterns finds AWS web access control lists \(web ACLs\) on your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 -   **[AWS Windows Server pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/aws-windows-server-pattern.md)**  
 Discovery and Service Mapping Patterns finds AWS Windows Server configuration items \(CIs\) in your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 -   **[AWS X-Ray Sampling Rule pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/aws-xray-sampling-rule.md)**  
@@ -1016,6 +362,8 @@ Optimize AWS discovery by limiting it to datacenters with resources.
 You can configure which AWS resource types to exclude from AWS datacenter discovery, to avoid triggering discovery patterns in regions with only default resources.
 -   **[Configure Server CI creation during AWS cloud discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/configure-aws-server-ci-cloud-discovery.md)**  
 Create Windows Server or Linux Server configuration items \(CIs\) during AWS cloud discovery by enabling the **sn\_itom\_pattern.aws\_cloud\_discovery\_populate\_server\_ci** system property.
+-   **[Set the AWS SSM command wait time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/set-aws-ssm-server-timeout.md)**  
+Increase the wait time for AWS Systems Manager \(AWS SSM\) commands to support Server CI creation on slow-responding EC2 instances.
 
 **Parent Topic:**[Available cloud discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery-and-service-mapping-patterns/available-patterns-cloud.md)
 

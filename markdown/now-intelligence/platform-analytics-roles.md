@@ -373,7 +373,7 @@ Share a dashboard
 
 </td><td>
 
-Any role to share a data visualization that you created or that was shared with you with sharing rights. With the viz\_admin role or higher, you can share any data visualization on the instance. When you share a data visualization, you can pass along the rights to share that visualization further. You also decide whether to share with editing rights or only viewing rights. If a data visualization has been shared with you with sharing and editing rights, you can also pass along editing rights.dashboard\_admin to share any dashboard
+Any role to share a dashboard that you own or that was shared with you with sharing rights. With the viz\_admin role or higher, you can share any dashboard on the instance. When you share a dashboard, you can pass along the rights to share that dashboard further. You also decide whether to share with editing rights or only viewing rights. If a dashboard has been shared with you with sharing and editing rights, you can also pass along editing rights.dashboard\_admin to share any dashboard
 
 A role with read access to the Roles \[sys\_user\_role\] table to share with roles
 
@@ -383,7 +383,7 @@ Edit a dashboard
 
 </td><td>
 
-Any role, if you created the dashboard or have had it shared with you with editing rights.dashboard\_admin or higher for any dashboard
+Any role, if you own the dashboard or have had it shared with you with editing rights.dashboard\_admin or higher for any dashboard
 
 Technical dashboards also require ui\_builder\_admin
 
@@ -417,7 +417,7 @@ Schedule the export of a dashboard
 
 </td><td>
 
-par\_scheduler for dashboards that you own or that have been shared with you.dashboard\_admin or higher for any dashboard
+par\_scheduler for dashboards that you own or that have been shared with you.sn\_par\_sche\_export.par\_scheduler\_admin \(contained in dashboard\_admin\) or higher for any dashboard
 
 </td></tr><tr><td>
 
@@ -441,7 +441,7 @@ Delete a dashboard
 
 </td><td>
 
-Any role, if you created the dashboard.dashboard\_admin or higher for any dashboard
+Any role, if you own the dashboard.dashboard\_admin or higher for any dashboard
 
 </td></tr><tr><td>
 
@@ -449,7 +449,7 @@ Any role, if you created the dashboard.dashboard\_admin or higher for any dashbo
 
 </td><td>
 
-Any role, if you created the dashboard or have had it shared with you with editing rights.dashboard\_admin or higher for any dashboard
+Any role, if you own the dashboard or have had it shared with you with editing rights.dashboard\_admin or higher for any dashboard
 
 </td></tr><tr><td>
 
@@ -457,7 +457,7 @@ Any role, if you created the dashboard or have had it shared with you with editi
 
 </td><td>
 
-Any role, if you created the dashboard or have had it shared with you with editing rights.dashboard\_admin or higher for any dashboard
+Any role, if you own the dashboard or have had it shared with you with editing rights.dashboard\_admin or higher for any dashboard
 
 </td></tr><tr><td>
 
@@ -514,7 +514,7 @@ Edit a data visualization
 
 </td><td>
 
-You can edit any visualization that you created or that was shared with you with editing rights, if it is not in the library. If it is in the library, you also need the viz\_creator role.Edit any visualization on the instance with viz\_admin or higher.
+You can edit any visualization that you own or that was shared with you with editing rights, if it is not in the library. If it is in the library, you also need the viz\_creator role.Edit any visualization on the instance with viz\_admin or higher.
 
 </td></tr><tr><td>
 
@@ -554,7 +554,7 @@ Share a visualization with users or groups
 
 </td><td>
 
-Any role to share a data visualization that you created or that was shared with you with sharing rights. With the viz\_admin role or higher, you can share any data visualization on the instance. When you share a data visualization, you can pass along the rights to share that visualization further. You also decide whether to share with editing rights or only viewing rights. If a data visualization has been shared with you with sharing and editing rights, you can also pass along editing rights.
+Any role to share a data visualization that you own or that was shared with you with sharing rights. With the viz\_admin role or higher, you can share any data visualization on the instance. When you share a data visualization, you can pass along the rights to share that visualization further. You also decide whether to share with editing rights or only viewing rights. If a data visualization has been shared with you with sharing and editing rights, you can also pass along editing rights.
 
 </td></tr><tr><td>
 
@@ -594,7 +594,7 @@ Delete a visualization
 
 </td><td>
 
-Any role, to delete a data visualization that you created. viz\_admin or higher to delete any data visualization on the instance.
+Any role, to delete a data visualization that you own. viz\_admin or higher to delete any data visualization on the instance.
 
 </td></tr><tr><td>
 

@@ -7,7 +7,7 @@ release: zurich
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Integrate, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -27,6 +27,8 @@ Risk intelligence providers generate risk scores for a variety of third-party ri
 ## Integration types
 
 Here are some examples of the types of integrations supported by ServiceNow and ServiceNow partners:
+
+**Note:** The tables in the following sections list the complete, current set of ServiceNow certified risk intelligence integrations. If a provider doesn't appear in either table, no packaged integration currently exists for it.
 
 -   Independent software vendor \(ISV\) integration types involve integrating ISV services such as EcoVadis or Black Kite.
 
@@ -291,7 +293,11 @@ Access to an automated questionnaire for Higher education organizations.
 ISV, content
 
 </td></tr></tbody>
-</table>-   **[Register a risk intelligence provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-register.md)**  
+</table>**Note:**
+
+You can build a custom integration to any risk data provider using Integration Hub and the same registration and request-type pattern described in [Register a risk intelligence provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-register.md) and [Set up a risk intelligence provider service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-set-up.md). This is a self-service integration that ServiceNow doesn't certify or support.
+
+-   **[Register a risk intelligence provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-register.md)**  
 Create a record for each risk intelligence provider from which you’ll request reports. The risk scores and ratings that risk intelligence providers generate are analogous to personal credit scores. The scores provide insight on how trustworthy and safe a particular third party can be.
 -   **[Set up a risk intelligence provider service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-set-up.md)**  
 After you register a risk intelligence provider, you specify which of the provider's scoring or rating services you’ll use. You also specify how their scores or ratings map to your TPRM ratings.

@@ -115,22 +115,24 @@ The standard version of Field Encryption is limited to five encrypted columns. F
 
 ## Supported field information
 
-The following field types can be encrypted:
+The following field types can be encrypted with Field Encryption Enterprise:
 
--   Attachments
 -   Date
 -   Date/Time
 -   Email
 -   HTML
 -   Journal
 -   Journal Input
--   Journal List
--   Phone
--   String text
+-   Phone Number \(E164\)
+-   String
+-   String \(Full UTF-8\)
+-   Translated
 -   Translated Field
 -   Translated HTML
 -   Translated Text
 -   URL
+
+**Note:** Attachments aren't considered a field type but can be encrypted separately and are only visible to users who are granted access, or is visible to all users that aren't restricted from viewing the data. See [Attachment encryption walkthrough](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/platform-security/attachment-encryption-walkthrough.md) for more information.
 
 ## Attachment Encryption
 
@@ -138,7 +140,7 @@ The following field types can be encrypted:
 
     Customers using Field Encryption have attachments encrypted by default in tables that have an active Encrypted Field Configuration \(EFC\) type of **Attachment**.
 
-    This default encryption defined by the EFC configuration means that it's not necessary for admins to manually declare that an attachment should be encrypted on upload for these tables.
+    Because the EFC configuration defines this default encryption, admins don't need to manually declare that an attachment should be encrypted on upload for these tables.
 
 -   **Administrators can disallow users from attaching unencrypted files**
 
@@ -181,7 +183,7 @@ Return type
 
 </td><td>
 
-Updates an active Encryption Context \(EC\) used to encrypt an attachment. When CLE is enabled with the CLE Starter plugin using KMF Crypto Module \(CM\), the API locates the CM for the EC and uses it to encrypt the attachment.
+Updates an active Encryption Context \(EC\) used to encrypt an attachment. When CLE is enabled with the CLE Starter plugin using KMF Crypto Module \(CM\), the API locates the CM for the EC and encrypts the attachment.
 
 **Note:** This API is only available in the Global scope.
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-servicenowvault-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
+last_updated: "2026-10-08"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -46,13 +46,17 @@ Zurich
 
 </td><td>
 
+-   **Upgrade information**
+
 To install ServiceNow Vault, the following must be installed:
 
--   [Data Discovery](https://www.servicenow.com/docs/access?context=data-discovery-landing&family=zurich&ft:locale=en-US)
--   [Data Privacy](https://www.servicenow.com/docs/access?context=data-privacy-landing&family=zurich&ft:locale=en-US)
--   [Data anonymization](https://www.servicenow.com/docs/access?context=dps-data-anonymization&family=zurich&ft:locale=en-US)
--   [Field Encryption](https://www.servicenow.com/docs/access?context=field-encryption&family=zurich&ft:locale=en-US)
--   [Zero Trust Access](https://www.servicenow.com/docs/access?context=session-access&family=zurich&ft:locale=en-US)
+    -   [Data Discovery](https://www.servicenow.com/docs/access?context=data-discovery-landing&family=zurich&ft:locale=en-US)
+    -   [Data Privacy](https://www.servicenow.com/docs/access?context=data-privacy-landing&family=zurich&ft:locale=en-US)
+    -   [Data anonymization](https://www.servicenow.com/docs/access?context=dps-data-anonymization&family=zurich&ft:locale=en-US)
+    -   [Field Encryption](https://www.servicenow.com/docs/access?context=field-encryption&family=zurich&ft:locale=en-US)
+    -   [Zero Trust Access](https://www.servicenow.com/docs/access?context=session-access&family=zurich&ft:locale=en-US)
+**Note:** Field Encryption, Data Discovery, and Data Privacy can be automatically installed using Vault Console.
+
 
 </td></tr></tbody>
 </table>## New features
@@ -86,7 +90,7 @@ Zurich
     -   Get AI guidance using the Ask Now Assist panel.
     -   Explore more detail for each metric.
 
--   **[ServiceNow Vault console dashboard](https://www.servicenow.com/docs/access?context=vault-dashboard&family=zurich&ft:locale=en-US)**
+ -   **[ServiceNow Vault console dashboard](https://www.servicenow.com/docs/access?context=vault-dashboard&family=zurich&ft:locale=en-US)**
 
 Monitor your sensitive data in ServiceNow Vault with a comprehensive dashboard. The dashboard view shows metrics from each of the ServiceNow Vault tools and provides easy access to them.
 
@@ -211,7 +215,12 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Install ServiceNow Vault by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
+
+**Important:** ServiceNow Vault is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements

@@ -35,12 +35,12 @@ The **Scoped Application Restricted Caller Access \[com.glide.scope.access.restr
     This setting is recommended for the production phase after development is complete.
 
 
-To define cross-scope access to an application resource, refer to Define cross-scope access to an application resource.
+To define cross-scope access to an application resource, refer to [Define cross-scope access to an application resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/set-RCA-level.md).
 
 **Related topics**  
 
 
-[bundle-cadev.scope-resource-access]
+[Set the application scope, application resources, and event access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/scope-resource-access.md)
 
 ## Encryption for HR and Employee Document Management
 

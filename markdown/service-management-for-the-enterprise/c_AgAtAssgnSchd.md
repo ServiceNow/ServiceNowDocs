@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/service-management-for-t
 release: zurich
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Agent auto assignment using time-based criteria, Agent auto assignment, Agent assignment methods, Request Management in a Service Management application, Service Management]
 ---
 
@@ -14,7 +14,7 @@ breadcrumb: [Agent auto assignment using time-based criteria, Agent auto assignm
 
 Agents can be auto assigned based on the agent or the task schedule.
 
-Auto assignment by schedule can be performed only in a [task-driven processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/service-management-for-the-enterprise/c_TaskVsRequestDrivenProcessing.md) environment, and the **Auto-selection of agents will consider agent or task schedules** configuration option must be enabled for the application. If this option is turned off, only the [agent ratings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/service-management-for-the-enterprise/c_AgentAutoAssignUseRatBaseCrit.md) are used for auto-assignment.
+Auto assignment by schedule can be performed only in a task-driven processing environment, and the **Auto-selection of agents will consider agent or task schedules** configuration option must be enabled for the application. If this option is turned off, only the [agent ratings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/service-management-for-the-enterprise/c_AgentAutoAssignUseRatBaseCrit.md) are used for auto-assignment.
 
 When a task is qualified or marked as **Ready for Work**, agents ratings are evaluated, and the schedules of qualified agents are compared against the schedule of the task to determine the agent with the best matching schedule.
 

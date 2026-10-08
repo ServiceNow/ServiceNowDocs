@@ -7,8 +7,9 @@ release: zurich
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 6
+keywords: [DORA, contract, digital resilience, Specific Information, LEI, supply chain, Register of Information]
 breadcrumb: [Use digital resilience third-party registers, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
 
@@ -29,6 +30,10 @@ The contracts link both parties—those using the information and those providin
 You can navigate to the contracts from the Contracts menu item in Digital resilience third-party registers. Alternatively, you can navigate to the legal entities record, open the Legal entities tab, and navigate to the contracts.
 
 **Note:** The annual expense may be converted during report generation if currency conversion is enabled. If aggregation is enabled and all criteria are met, contract expenses may also be combined into a provider‑level total.
+
+After setting up contract and Specific Information records, you can generate a Register of Information reporting package. For more information, see [Generate a register of information package](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-drtp-roi-packages.md).
+
+LEI codes on records associated with this contract are validated against the GLEIF database during Register of Information reporting. For more information, see [Validate Legal Entity Identifier codes for DORA reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-valid-lei.md).
 
 ## Procedure
 
@@ -70,9 +75,17 @@ You can navigate to the contracts from the Contracts menu item in Digital resili
 
 17. On the form, fill in the fields.
 
+    **Note:** When you open the linked legal entity, third party, or third-party engagement record from the Specific information section of a contract, a parent path is displayed so you can navigate back to the contract record.
+
 18. Select **Save**.
 
+    -   When you save a Specific Information record, Rank 1 ICT service supply chain records are generated automatically using the Type of ICT services value. If you update the Type of ICT services value, the supply chain records update automatically. If you remove a Type of ICT services value, the corresponding Rank 1 and higher supply chain records are deleted automatically. To create Rank 2 and higher supply chain records manually, see [Create a supply chain and enhance digital resilience data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-drtp-reg-supply-chain.md).
+    -   If a Specific Information record with the same combination of contract reference, entity using service, service provider, country of provision, function identifier, Type of ICT services, storage location, and processing location already exists, the save is blocked. The error message includes a link to the conflicting record so you can compare the two records before saving.
+    **Note:** If the **Storage of data** field is set to **No** on a contractual arrangement, the associated location field values are cleared automatically.
+
 19. To add intra-group contractual arrangements, navigate to the **Intra-group contractual arrangements** tab of the contract and select **Add**.
+
+    **Note:** If all Specific Information records are removed from a contract, making it no longer DORA relevant, any intra-group contractual arrangements linked to the contract are removed automatically. A confirmation message is displayed when this occurs.
 
 20. Select **Save**.
 
@@ -94,4 +107,15 @@ You can navigate to the contracts from the Contracts menu item in Digital resili
 
 27. To delete the contract record, select it from the list and select **Delete**.
 
+
+**Related topics**  
+
+
+[Generate a register of information package](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-drtp-roi-packages.md)
+
+[Create a supply chain and enhance digital resilience data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-drtp-reg-supply-chain.md)
+
+[Validate Legal Entity Identifier codes for DORA reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-valid-lei.md)
+
+[Create New Contract form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/governance-risk-compliance/third-party-risk-management/tprm-create-new-contract-form.md)
 

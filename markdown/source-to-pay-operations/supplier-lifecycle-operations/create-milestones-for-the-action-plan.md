@@ -7,8 +7,9 @@ release: zurich
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
 topic_type: task
-last_updated: "2025-04-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
+keywords: [KPI, action plan item, Milestone collection, Milestone target value, action plan]
 breadcrumb: [Create action plan for KPIs, Using Supplier Relationship and Performance Management, Use, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 
@@ -20,13 +21,17 @@ Create milestones for the affected KPIs in the action plan.
 
 Role required: sn\_kpi.admin
 
+## About this task
+
+\[Omitted video\] Description: Video explaining how to create milestones for affected KPIs in the action plan.
+
 ## Procedure
 
 1.  Navigate to the **Action plan items** tab of the action plan.
 
 2.  Select **Create**.
 
-    The **Crate new action plan item** dialog box is displayed.\[Omitted image "create-milestone-task.png"\] Alt text: Create new action plan item dialog box for creating milestone
+    The **Create new action plan item** dialog box is displayed.\[Omitted image "create-milestone-task.png"\] Alt text: Create new action plan item dialog box for creating milestone
 
 3.  Select **Milestone**.
 

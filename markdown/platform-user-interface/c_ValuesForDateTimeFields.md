@@ -31,7 +31,7 @@ For the **at or before** and **at or after** filters, use midnight as a start or
 
 [Comparing field values]()
 
-[bundle-platadm.r_UseDateAndTimeFields]
+[Date and Date/Time fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/r_UseDateAndTimeFields.md)
 
 ## Operators and values available for date and time fields
 

@@ -7,7 +7,7 @@ release: zurich
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2025-12-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Generative AI, Generative AI for Customer Service Management, record producer, portal case form, AI Search Assist]
 breadcrumb: [Configure, ServiceNow Otto for CSM, Customer Service Management]
@@ -31,7 +31,7 @@ This configuration involves setting up the record producer, configuring related 
 
 1.  Navigate to **All** &gt; **Service Catalog** &gt; **Catalog Definitions** &gt; **Record Producers**.
 
-2.  Search and open the record producer **Create case for a product \(AI\)**.
+2.  Search and open the record producer **Create case for a product \(Otto\)**.
 
     The base system configuration details display.
 
@@ -55,7 +55,7 @@ This configuration involves setting up the record producer, configuring related 
 
 9.  Select **Try It** to preview the record producer.
 
-10. Navigate to **All** &gt; **AI Search** &gt; **AI Search Assist** &gt; **Record Producer Configuration** to edit the record producer configuration that we previously duplicated.
+10. Navigate to **All** &gt; **AI Search** &gt; **AI Search Assist** &gt; **Record Producer Configuration** create a record producer configuration for the record producer you copied.
 
 11. Select **New**.
 
@@ -91,13 +91,13 @@ This configuration involves setting up the record producer, configuring related 
 
 23. Edit the **Catalog** field to include the catalog we noted from the Portal settings.
 
-24. Select **Assigned Topics** and add the relevant topic to ensure the record producer appears in the correct location of the portal.
+24. Select **Assigned Topics** and add the relevant topic to confirm the record producer appears in the correct location of the portal.
 
 25. Select **Save**.
 
 26. Navigate to the Portal and under **Catalogs** verify that the record producer appears under the specified topic.
 
-    **Note:** Ensure the catalog you related to the record producer is also related to the portal and fully published.
+    **Note:** Verify the catalog you related to the record producer is also related to the portal and fully published.
 
 27. Navigate to the **Service Portals**.
 
@@ -106,7 +106,7 @@ This configuration involves setting up the record producer, configuring related 
 
 ## Result
 
-The AI Case in form portal is now configured and available for use.
+AI in the portal case form is now configured.
 
 **Related topics**  
 

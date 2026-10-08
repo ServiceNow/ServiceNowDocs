@@ -1,5 +1,5 @@
 ---
-title: Software Asset Management Foundation plugin software discovery and normalization
+title: Basic Software Asset Management software discovery and normalization
 description: ServiceNow Discovery is used to automatically populate the Software Installations table so the software can be manually normalized and reconciled.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/software-asset-management-foundation-plugin/c\_SAMDiscoverySAMF.html
@@ -9,10 +9,10 @@ classification: software-asset-management-foundation-plugin
 topic_type: concept
 last_updated: "2025-07-31"
 reading_time_minutes: 2
-breadcrumb: [Exploring Software Asset Management Foundation plugin, Software Asset Management Foundation plugin, ITSM Software Asset Management, Asset Management, IT Service Management]
+breadcrumb: [Exploring Basic Software Asset Management, Basic Software Asset Management, ITSM Software Asset Management, Asset Management, IT Service Management]
 ---
 
-# Software Asset Management Foundation plugin software discovery and normalization
+# Basic Software Asset Management software discovery and normalization
 
 ServiceNow Discovery is used to automatically populate the Software Installations table so the software can be manually normalized and reconciled.
 
@@ -22,11 +22,11 @@ For more information, see [Collect software data with either SCCM or Discovery](
 
 **Note:** To use Discovery, the [Request Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-operations-management/t_ActivateTheDiscoveryPlugin.md) must be activated.
 
-Discovery uses patterns in the discovery process that can be created or customized. The base system contains a wide range of patterns that cover most industry standard network devices and applications. Software Asset Management Foundation plugin automatically leverages SQL Server, Exchange Server, and Oracle Database Server specifically, but other patterns can be customized for use by Software Asset Management Foundation plugin, if needed.
+Discovery uses patterns in the discovery process that can be created or customized. The base system contains a wide range of patterns that cover most industry standard network devices and applications. Basic Software Asset Management automatically leverages SQL Server, Exchange Server, and Oracle Database specifically, but other patterns can be customized for use by Basic Software Asset Management, if needed.
 
 Discovered software is stored in the Software Installations \[cmdb\_sam\_sw\_install\] table.
 
-**Note:** If you are already running Discovery but have not used a version of ITSM Software Asset Management previously, run the [Migrate Software Asset Management Foundation plugin software installations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/software-asset-management-foundation-plugin/t_MigrateSWInstallsSAMF.md) script to copy records from the \[cmdb\_ci\_spkg\] table to the \[cmdb\_sam\_sw\_install\] table, so that any previously discovered software installs are utilized by Software Asset Management Foundation plugin.
+**Note:** If you are already running Discovery but have not used a version of ITSM Software Asset Management previously, run the [Migrate Basic Software Asset Management software installations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/software-asset-management-foundation-plugin/t_MigrateSWInstallsSAMF.md) script to copy records from the \[cmdb\_ci\_spkg\] table to the \[cmdb\_sam\_sw\_install\] table, so that any previously discovered software installs are utilized by Basic Software Asset Management.
 
 When software install records are written to the Software Installations table, a business rule verifies whether the unique combination of the discovered publisher, discovered product, and discovered version already exist in the Discovery Model table.
 
@@ -40,5 +40,5 @@ After discovery, you can [manually normalize](https://raw.githubusercontent.com/
 |Manually Normalized|A discovery model is manually normalized when key fields in the discovery model are filled in manually.|
 |New|The software discovery model has not yet been manually normalized.|
 
-**Parent Topic:**[Exploring Software Asset Management Foundation plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/software-asset-management-foundation-plugin/exploring-sam-foundation.md)
+**Parent Topic:**[Exploring Basic Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-service-management/software-asset-management-foundation-plugin/exploring-sam-foundation.md)
 

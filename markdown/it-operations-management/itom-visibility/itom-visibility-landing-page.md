@@ -30,7 +30,7 @@ Data collected by ITOM Visibility provides a foundation for operation of the fol
 
 -   **[ITOM Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/itom-optimization-landing-page.md)**
 
-    ITOM Optimization gives you tools to provision private and public cloud infrastructure and services and to achieve consistent management and cost visibility. The [Cloud Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/cloud-insights-landing-page.md) application, available in the ServiceNow Store, helps you analyze cloud asset costs, identify savings opportunities, and optimize operations.
+    ITOM Optimization gives you tools to provision private and public cloud infrastructure and services and to achieve consistent management and cost visibility. The Cloud Insights application, available in the ServiceNow Store, helps you analyze cloud asset costs, identify savings opportunities, and optimize operations.
 
 -   **[Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-asset-management/c_SoftwareAssetMgmt.md)**
 
@@ -44,7 +44,7 @@ Data collected by ITOM Visibility provides a foundation for operation of the fol
 
     Rely on the IT infrastructure discovered by ITOM Visibility to manage and deliver services to your users. See changes and incidents created and managed by IT Service Management applications in ITOM Visibility service maps.
 
--   **[Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-business-management/r_ITBusinessManagement.md)**
+-   **Strategic Portfolio Management**
 
     Use data collected by ITOM Visibility to gain a comprehensive understanding of the applications used in your organization.
 

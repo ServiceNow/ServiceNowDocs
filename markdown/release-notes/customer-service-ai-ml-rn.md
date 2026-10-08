@@ -19,7 +19,7 @@ The ServiceNow® Intelligence for CSM applications enable customer service organ
 -   Get enhanced visibility of knowledge base articles by marking and displaying a lock icon for articles that aren’t accessible to the case requester within the CRM Workspace.
 -   Gain insights to the root causes of case service level agreement \(SLA\) breaches and view the suggested improvements to optimize process performance.
 
-See Intelligence for CSM for more information.
+See [Intelligence for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/intelligence-csm.md) for more information.
 
 ## Activation and other requirements
 
@@ -57,7 +57,7 @@ The ServiceNow® Intelligence for CSM applications enable customer service organ
 
 ### What's new
 
--   **Guided Decisions - Enable Guided Decisions as a Playbook Activity with Inputs and Outputs**
+-   **[Guided Decisions - Enable Guided Decisions as a Playbook Activity with Inputs and Outputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/add-gd-input-output-playbook.md)**
 
     Added support for the Guided Decision with Inputs and Outputs activity in Playbook. Use this activity to embed decision trees that accept inputs and generate outputs, guiding users through complex decisions within your playbooks.
 
@@ -68,15 +68,15 @@ The ServiceNow® Intelligence for CSM applications enable customer service organ
 
 ### What's new
 
--   **Recommended Actions - Filter search results across multiple sources in the Contextual side panel**
+-   **[Recommended Actions - Filter search results across multiple sources in the Contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/nba-use-ai-search.md)**
 
     Filter search results corresponding to multiple sources in the AI search tab of the Recommended Actions contextual side panel. You can also filter the search results at the facet-level.
 
--   **Recommended Actions – Track the AI search usage trends with the AI search analytics dashboard**
+-   **[Recommended Actions – Track the AI search usage trends with the AI search analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/nba-use-ai-search.md)**
 
     Track and analyze the AI search usage in Recommended Actions using the AI search analytics dashboard. The AI search events and actions performed by the agent are captured in the Search Events, Search Source Events, Search Signal Events, Search Result Event, and Search Result Event Action tables. This data is used in the AI search analytics dashboard.
 
--   **Recommended Actions - Read-only access to TI solutions for the Resource Generator author role**
+-   **[Recommended Actions - Read-only access to TI solutions for the Resource Generator author role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/ra-csm-installed-components.md)**
 
     Access Task Intelligence \(TI\) solution definitions in read-only mode as a Resource Generator author \[sn\_nb\_action.resource\_generator\_author\] to configure recommendations with Machine Learning \(ML\) solutions from TI models. In other words, the sn\_ti\_admin.tia\_user role is added to the Resource Generator author role.
 
@@ -87,7 +87,7 @@ The ServiceNow® Intelligence for CSM applications enable customer service organ
 
 ### What's new
 
--   **Recommended Actions - Filter search results across multiple sources on the Search page**
+-   **[Recommended Actions - Filter search results across multiple sources on the Search page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/nba-use-ai-search.md)**
 
     Filter search results corresponding to multiple sources on the Search page. You can also filter the search results at facet-level.
 
@@ -98,29 +98,29 @@ The ServiceNow® Intelligence for CSM applications enable customer service organ
 
 ### What's new
 
--   **Recommended Actions - View the relevancy score of the AI search results**
+-   **[Recommended Actions - View the relevancy score of the AI search results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/nba-use-ai-search.md)**
 
     View the relevancy score on the search result recommendation cards in the Search tab of the Recommended Actions panel for the default guidance for search results, Attach and share article, Share KB in chat interactions, and all no-code \( Link incident to current case, Link problem to current case, and Link change request to current case\) guidances. To enable this feature, you must enable the Show relevancy score for results check box in the Context form.
 
--   **Recommended Actions – Limit the number of search results for more precise output**
+-   **[Recommended Actions – Limit the number of search results for more precise output](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/nba-use-ai-search.md)**
 
     Limit the number of search results \(Top N\) that appear in the AI search tab in the Recommended Actions context side panel. To configure top N search results, you must enable the Top N check box in the Context form and then define the Search Results Limit in the Search Application Configuration.
 
--   **Recommended Actions - Optimize the Recommended Actions refresh behavior by excluding non-critical field updates**
+-   **[Recommended Actions - Optimize the Recommended Actions refresh behavior by excluding non-critical field updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/ra-csm-contexts-create.md)**
 
     Exclude the non-critical fields from triggering a Recommended Actions refresh on the record pages by adding the non-critical fields to the **Exclude fields** field on a context record. In a child context, you can also include the field exclusions of the parent context. You can enhance a user’s UI experience when you prevent excessive UI updates and still ensure that relevant updates trigger as intended.
 
--   **Recommended Actions - Trigger Refresh for Recommendations explicitly or based on UI events**
+-   **[Recommended Actions - Trigger Refresh for Recommendations explicitly or based on UI events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/ra-csm-config-data-broker.md)**
 
     Trigger recommendations refresh in the Recommended Actions tab on the contextual side panel when a UI or back-end event update is made. This provides dynamic and more contextually relevant recommendations based on the outcome of UI and back-end events. To trigger a recommendations refresh:
 
     -   configure UI component’s Data Broker in the UI builder for UI events
     -   execute the ForceRefreshRecommendationsscript include for back-end events
--   **Recommended Actions - Configure dynamic JSON-based context inputs**
+-   **[Recommended Actions - Configure dynamic JSON-based context inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/ra-csm-create-context-inputs.md)**
 
     Configure JSON-based context inputs in a context to populate accurate recommendations corresponding to dynamically changing contexts. You can conﬁgure parameters associated with the context table along with context table parameters. To support scenarios where a single workflow may leverage multiple active contexts simultaneously to generate recommendations. This uses the context inputs in rule condition builders, resource generators, and recommendation-action mappings, with minimal performance impact and backward compatibility.
 
--   **Recommended Actions - Enhanced KB article sharing for Agents**
+-   **[Recommended Actions - Enhanced KB article sharing for Agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/ra-csm-guidances-attach-share-article.md)**
 
     Identify the Knowledge Base \(KB\) articles that are not accessible to the case requester with the help of a Lock icon. In the recommendations on the contextual side panel of the CRM Workspace, a Lock icon on a recommendation card denotes that the recommended KB article cannot be accessed by the case requester.
 
@@ -128,14 +128,14 @@ The ServiceNow® Intelligence for CSM applications enable customer service organ
 
     Identify and analyze cases where service level agreements \(SLAs\) have been violated. The SLA breach analysis project provides insights into the root causes of breaches, highlights bottlenecks, and recommends improvements to optimize the performance of your processes.
 
--   **Quick start tests for Customer Service Management**
+-   **[Quick start tests for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/quick-start-tests-csm.md)**
 
     After upgrades and deployments of new applications or integrations, run quick start tests to verify that Customer Service Management works as expected. If you customized Customer Service Management, copy the quick start tests and configure them for your customizations.
 
 
 ### What's changed
 
--   **Recommended Actions - The primary call-to-action changes on the KB article recommendation card**
+-   **[Recommended Actions - The primary call-to-action changes on the KB article recommendation card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/ra-csm-contexts.md)**
 
     The primary call-to-action \(CTA\) on a recommended knowledge base article is determined by the source channel of the case. If the case originates from an email, the primary CTA displayed is Attach and share link in the email. For all the other channels, the primary CTA is Attach and add link in comments. If the article isn’t accessible to the requester, the primary CTA is set to Read article. Accessible articles display the full set of actions \(Attach and add link in comments, Add link in work note, and so on\). Inaccessible articles are limited to internal-use actions only \(Read article, Share link in work notes, and so on\).
 

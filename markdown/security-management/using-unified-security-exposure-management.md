@@ -52,6 +52,8 @@ As a vulnerability manager or analyst, you can modify the severity level of Comm
 When Vulnerability managers and analysts create remediation efforts \(REs\), remediation Tasks \(VUL\) are automatically assigned to IT teams for remediation.
 -   **[Approve or reject requests in the Security Exposure Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sem-approve-requests.md)**  
 Approve or reject requests that are submitted by remediation owners.
+-   **[Modify the risk rating for a finding or remediation task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sem-modify-risk.md)**  
+Change the risk rating for a host vulnerable item, application vulnerable item, container vulnerable item, or remediation task in the Security Exposure Management Workspace.
 -   **[Add a compensating control to the library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sem-create-compensatory-control.md)**  
 As a Vulnerability Manager or Analyst, add a list of compensatory controls to the Compensating Controls library in the Security Exposure Management Workspace, which can be applied for the risk reduction of host vulnerable items and remediation tasks.
 -   **[Examples for remediation task creation in the Security Exposure Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sem-create-remediation-task-examples.md)**  

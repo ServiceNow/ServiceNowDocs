@@ -1,12 +1,12 @@
 ---
 title: Employee Slate release notes
-description: Employee Slate is a new AI-first employee experience that boosts employee productivity, powered by Moveworks or Now Assist.Employee Slate is a new AI-first employee experience that boosts employee productivity, powered by Moveworks or Now Assist.
+description: Employee Slate is a new AI-first employee experience that boosts employee productivity, powered by Moveworks or Now Assist.ServiceNow EmployeeWorks Web App provides enhancements in Browse experience, admin configurations, added themes, and added filter and sorting options for daily chores.Employee Slate is a new AI-first employee experience that boosts employee productivity, powered by Moveworks or Now Assist.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/employee-slate-rn.html
 release: zurich
 topic_type: topic
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
 keywords: [Employee Slate, AI-native portal, Moveworks, Now Assist, conversation-first, Employee Slate, AI-native portal, Moveworks, Now Assist, conversation-first]
 breadcrumb: [Unified Employee Experience release notes, Employee Service Management release notes, Features and changes by product, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
 ---
@@ -54,6 +54,28 @@ For more information, see  documentation.
 
 
 **Parent Topic:**[Unified Employee Experience release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/uex-rn-landing.md)
+
+## Patch = Zurich 13
+
+ServiceNow EmployeeWorks Web App provides enhancements in Browse experience, admin configurations, added themes, and added filter and sorting options for daily chores.
+
+### What's new
+
+-   **[Tasks and requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/emp-slate-inbox.md)**
+
+    Manage long task and request lists using date-range filters for requests and due date, task type, and sort options for tasks, and apply or clear filters conversationally using chat. Use the Now sidekick to assist in handling the tasks and requests in split view.
+
+-   **[Browse and topic pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/eslate-topic-pages.md)**
+
+    Activate the AIX menu item to surface Explore section menu items on topic pages. Customize the Explore page header, topic page header, and widget head text directly in Admin editor.
+
+
+### What's changed
+
+-   **[Edit widgets inline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/employee-service-management/eslate-configure-browse-pages-inline-config.md)**
+
+    Instance options to customize widgets on the home page and topic pages are no longer available. Customize your portal pages with the Admin editor.
+
 
 ## Zurich
 

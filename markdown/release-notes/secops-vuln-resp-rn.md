@@ -211,7 +211,7 @@ The ServiceNow® Vulnerability Response application brings security and IT toget
 
     Starting with v25.0.3 of Vulnerability Response, the system property **sn\_sec\_cmn.risk\_score\_changes\_add\_worknotes** is inactive by default. If you enable it, only then you can see all the changes related to the risk score of a vulnerable item in the Work notes section. Additionally, the work notes are updated only if there’s a change in the risk score.
 
--   **Quick Start Tests for Vulnerability Response**
+-   **[Quick Start Tests for Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/available-quick-start-tests.md)**
 
     After upgrades and deployments of new applications or integrations, run quick start tests to verify that Vulnerability Response works as expected. If you customized Vulnerability Response, copy the quick start tests and configure them for your customizations.
 

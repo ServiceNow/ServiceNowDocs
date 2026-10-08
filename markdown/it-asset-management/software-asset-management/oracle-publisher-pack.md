@@ -162,8 +162,8 @@ You can use the Software Asset Management publisher pack for Oracle to track lic
 Oracle reconciliation keeps your Oracle license positions accurate and up-to-date without requiring manual calculations. Reconciliation runs weekly or on-demand.
 -   **[Oracle Infrastructure report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/oracle-infrastructure-report.md)**  
 You can use the Oracle Infrastructure report to gain visibility into your Oracle infrastructure. This report includes information about the Oracle databases that you are running and the configuration items that are supporting these databases.
--   **[Oracle DB Server Deployments per Agreement report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/oracle-server-agreement.md)**  
-You can use the Oracle DB Server Deployments per Agreement report to gain visibility into your Oracle Database server deployments across hybrid infrastructures, based on the agreement type.
+-   **[Oracle Database Deployments per Agreement report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/oracle-server-agreement.md)**  
+You can use the Oracle Database Deployments per Agreement report to gain visibility into your Oracle Database deployments across hybrid infrastructures, based on the agreement type.
 -   **[Software Publisher Analytics dashboard for Oracle in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/dashboard-oracle.md)**  
 View compliance analysis results related to Oracle on the Software Publisher Analytics dashboard in the Software Asset Management classic application.
 -   **[Publisher overview for Oracle in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/software-asset-management/publisher-overview-oracle.md)**  

@@ -9,7 +9,7 @@ classification: change-management
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Migrate from legacy change risk assessments, Analyze change request risk and impact rating, Reference, Change Management, IT Service Management]
+breadcrumb: [Migrate from legacy change risk assessments, Analyze change request risk and impact, Reference, Change Management, IT Service Management]
 ---
 
 # Migrated risk assessment components

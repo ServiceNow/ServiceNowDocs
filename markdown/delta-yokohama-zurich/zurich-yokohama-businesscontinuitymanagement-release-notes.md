@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-businesscontinuitymanagement-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
-reading_time_minutes: 9
+last_updated: "2026-10-08"
+reading_time_minutes: 13
 breadcrumb: [Products combined by family]
 ---
 
@@ -94,10 +94,6 @@ Set up phases for plans and events using the administrative setup. The base vers
 
 The logical grouping of tasks into phases enables clear progression tracking for exercises and crisis events, offering flexible execution and task completion requirements for phase transitions.
 
--   **[Exclude non-recovery tasks from time calculation](https://www.servicenow.com/docs/access?context=add-a-recovery-task&family=zurich&ft:locale=en-US)**
-
-Exclude specific recovery or event tasks from time calculations by using the **Do not include in time calculation** field within recovery or event tasks.
-
 -   **[View and generate PDFs of approved plans](https://www.servicenow.com/docs/access?context=mobile-bcm&family=zurich&ft:locale=en-US)**
 
 View the continuity and recovery plans directly from your mobile devices. BCM managers can generate PDFs of the approved plans, which BCM planners can then view and download, streamlining access to critical information on the go.
@@ -130,6 +126,11 @@ Use the hierarchical structure in the associated plans, establishing clear upstr
 
 Use the Gantt chart in the Hierarchy view to visualize the planned and actual timelines of event tasks. Task dependencies can now be created directly on the Gantt chart, provided the dependency points to a task scheduled ahead in time. Plans are automatically sorted based on the planned start time of their earliest event task, verifying a clear chronological view.
 
+
+ -   **[Exclude non-recovery tasks from time calculation](https://www.servicenow.com/docs/access?context=add-a-recovery-task&family=zurich&ft:locale=en-US)**
+
+Exclude specific recovery or event tasks from time calculations by using the **Do not include in time calculation** field within recovery or event tasks.
+
 -   **[Generate reports in a Microsoft Word format using Document designer](https://www.servicenow.com/docs/access?context=integrating-document-designer-with-bcm&family=zurich&ft:locale=en-US)**
 
 Create standardized reports for business impact analyses \(BIAs\), business continuity plans \(BCPs\), and events by using predefined Microsoft Word templates. To use these templates, first establish a template relationship registry and install the necessary add-in to design and configure the templates.
@@ -156,9 +157,7 @@ Revert an archived business impact analysis \(BIA\) or business continuity plan 
 
 -   **[Optimized Crisis map interface](https://www.servicenow.com/docs/access?context=manage-alerts-in-crisis-map-interface-uib-ws&family=zurich&ft:locale=en-US)**
 
-The Crisis map interface has been optimized to handle over 10,000 resources and more than 1,000 alerts without performance issues.
-
-Customize the display of impacted areas for alerts by using custom shapes or specifying a custom radius. To edit an impacted area, simply select its corresponding card and make the necessary adjustments to the shape. If needed, you can also revert the changes made to an impacted area directly within the map interface.
+The Crisis map interface has been optimized to handle over 10,000 resources and more than 1,000 alerts without performance issues.Customize the display of impacted areas for alerts by using custom shapes or specifying a custom radius. To edit an impacted area, simply select its corresponding card and make the necessary adjustments to the shape. If needed, you can also revert the changes made to an impacted area directly within the map interface.
 
 
 </td></tr></tbody>
@@ -181,6 +180,25 @@ Yokohama
 </td><td>
 
 -   **[Using latest assessment for conducting BIAs](https://www.servicenow.com/docs/access?context=using-smart-asmt-template&family=yokohama&ft:locale=en-US)**
+    -   The BIA form displays the assessment questionnaire that is based on the latest assessment template. The **Assessments** tab in the BIA record page has been enhanced to eliminate repetitive UI actions and reduce large empty spaces. The latest assessment template includes additional question types such as drop-down, references, text, attachments, check boxes, date, time, and number value inputs.
+    -   The PDF template for the BIA has been updated to include the questions and answers that are based on the latest assessment template.
+-   **[Adopting UIB page for improved performance](https://www.servicenow.com/docs/access?context=crisis-map-migration&family=yokohama&ft:locale=en-US)**
+
+The enhancements to the Crisis map user interface are:
+
+    -   Alerts are displayed in the side panel of the Crisis map application.
+    -   The alert details page includes the **Open alert** and **Dismiss alert** UI actions, which enable you to either open or dismiss alerts.
+    -   The active alerts can be sorted by using the **Severity**, **Created**, **Updated** fields, and can also be toggled from top-to-bottom or bottom-to-top by using the Toggle option.
+    -   The alerts display can be updated with the Refresh icon \[Omitted image "image.refresh-icon"\] Alt text: Refresh icon..
+    -   The active and dismissed alerts are now displayed on the Alerts page.
+-   **[Using nested plans](https://www.servicenow.com/docs/access?context=creating-nested-plan-in-event&family=yokohama&ft:locale=en-US)**
+
+The enhancements to the nested plans user interface are:
+
+    -   The hierarchical view shows the nested event tasks.
+    -   The progress bar displays the progress of the creation of related plans, event assets, or event tasks.
+
+ -   **[Using latest assessment for conducting BIAs](https://www.servicenow.com/docs/access?context=using-smart-asmt-template&family=yokohama&ft:locale=en-US)**
 
 You can use the latest assessment template to conduct the Business Impact Analysis \(BIA\).
 
@@ -191,7 +209,59 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **[Configuring the phases](https://www.servicenow.com/docs/access?context=set-up-phases&family=zurich&ft:locale=en-US)**
+
+The Active phases module is available in the General Administration setup for configuring the phases.
+
+-   **[Phase column](https://www.servicenow.com/docs/access?context=add-a-recovery-task&family=zurich&ft:locale=en-US)**
+
+The recovery and event tasks now include the Phase column in the list and form views, indicating association with specific phases within the recovery process.
+
+-   **[Do not include tasks in time calculation](https://www.servicenow.com/docs/access?context=create-new-recovery-task-form&family=zurich&ft:locale=en-US)**
+
+The **Do not include tasks in time calculation** field has been added to Recovery tasks, enabling you to exclude specific tasks from overall time calculations.
+
+-   **[Asset recovery level column](https://www.servicenow.com/docs/access?context=create-new-recovery-task-form&family=zurich&ft:locale=en-US)**
+
+The Asset recovery level column is added to the recovery tasks to indicate recovery levels of the assets.
+
+-   **[Include task in field](https://www.servicenow.com/docs/access?context=create-new-recovery-task-form&family=zurich&ft:locale=en-US)**
+
+The **Include task in** field is added in the recovery tasks to specify whether a task should be included in an exercise, crisis event, or both.
+
+-   **[Finalized RTO and RPO](https://www.servicenow.com/docs/access?context=create-new-impact-analysis-reference-form-bcm-uib-ws&family=zurich&ft:locale=en-US)**
+
+The Finalized RTO column is shown in the chart and list views, replacing the previously shown RTO and Adjusted RTO columns. Similarly, the Finalized RPO column is shown in the chart and list views, replacing the previously shown RPO and Adjusted RPO columns.
+
+-   **[Associated plans tab](https://www.servicenow.com/docs/access?context=add-related-plans-recovery-teams-bcp-uib-ws&family=zurich&ft:locale=en-US)**
+
+The **Associated plans** tab in the Plan record replaces the **Related plan** and **Parent plan** tabs. Upstream, Downstream, and Related plans are now included as associated plan types.
+
+-   **[Gantt chart in the Hierarchy view](https://www.servicenow.com/docs/access?context=managing-enhanced-hierarchical-view-in-event-tasks&family=zurich&ft:locale=en-US)**
+
+A Gantt chart has been added to the Hierarchy view to help visualize the planned and actual timelines of event tasks.
+
+
+ -   **[Predefined Word templates](https://www.servicenow.com/docs/access?context=edit-report-temp&family=zurich&ft:locale=en-US)**
+
+Predefined Microsoft Word templates are now provided in the instance.
+
+-   **[Similar tasks group tab](https://www.servicenow.com/docs/access?context=identifying-running-dup-tasks-once&family=zurich&ft:locale=en-US)**
+
+The **Similar tasks groups** tab is now included in the events and the **Create similar tasks group** UI action is available in the **Event tasks** tab.
+
+-   **[Action items tab in Exercises and Crises modules](https://www.servicenow.com/docs/access?context=create-action-items-based-on-smart-assessments&family=zurich&ft:locale=en-US)**
+
+The **Action items** tab is now available in both exercises and crises.
+
+-   **[Pagination for alerts](https://www.servicenow.com/docs/access?context=manage-alerts-in-crisis-map-interface-uib-ws&family=zurich&ft:locale=en-US)**
+
+Pagination has been added to alerts in Crisis map, to make them more readable on the map interface.Edit the impacted area of an alert by using custom shapes or a custom radius. Similarly, you can revert the changes made to an impacted area within the map interface.
+
+-   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
 
 </td></tr></tbody>
 </table>## Removed
@@ -270,7 +340,12 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Install Business Continuity Management by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
+
+**Important:** Business Continuity Management is available in ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 
@@ -278,7 +353,12 @@ Zurich
 
 </td><td>
 
-Install Business Continuity Management by requesting it from the ServiceNow Store. 
+-   **Activation information**
+
+Install Business Continuity Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
+
+**Important:** Business Continuity Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -328,12 +408,14 @@ Yokohama
 
 </td><td>
 
+-   **Browser requirements**
+
 Business Continuity Management requires the following browsers:
 
--   Google Chrome
--   Firefox and Firefox Extended Support Release \(ESR\)
--   Microsoft Edge Chromium
--   Safari 12.0 and later versions
+    -   Google Chrome
+    -   Firefox and Firefox Extended Support Release \(ESR\)
+    -   Microsoft Edge Chromium
+    -   Safari 12.0 and later versions
 
 </td></tr><tr><td>
 
@@ -341,12 +423,14 @@ Zurich
 
 </td><td>
 
+-   **Browser requirements**
+
 Business Continuity Management requires the following browsers:
 
--   Google Chrome
--   Firefox and Firefox Extended Support Release \(ESR\)
--   Microsoft Edge Chromium
--   Safari 12.0 and later versions
+    -   Google Chrome
+    -   Firefox and Firefox Extended Support Release \(ESR\)
+    -   Microsoft Edge Chromium
+    -   Safari 12.0 and later versions
 
 </td></tr></tbody>
 </table>## Accessibility information
@@ -367,7 +451,10 @@ Yokohama
 
 </td><td>
 
+-   **Accessibility information**
+
 Various accessibility issues in the Crisis map application have been resolved with the implementation of the Geomap \[sn\_geo\_map\] component, which has replaced the FAM Map \[sn-fam-map\] component.
+
 
 </td></tr><tr><td>
 
@@ -375,7 +462,11 @@ Zurich
 
 </td><td>
 
--   ****
+-   **Accessibility information**
+    -   **Dark theme**
+
+The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
 
 </td></tr></tbody>
 </table>## Localization information

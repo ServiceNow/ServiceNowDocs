@@ -9,7 +9,7 @@ classification: ai-search
 topic_type: task
 last_updated: "2025-12-17"
 reading_time_minutes: 4
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Atlassian Confluence Cloud external content connector, Configure, External Content Connectors, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer]
 ---
 

@@ -1,18 +1,18 @@
 ---
 title: Platform Classify tasks agentic workflow
-description: Use the Platform Classify tasks AI agents agentic workflow to gather relevant information about tasks automatically and make decisions about priorities and assignments.
+description: Use the Platform Classify tasks agentic workflow to gather relevant information about tasks automatically and make decisions about priorities and assignments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/classify-tasks.html
 release: zurich
 topic_type: concept
-last_updated: "2026-07-23"
-reading_time_minutes: 7
+last_updated: "2026-09-28"
+reading_time_minutes: 8
 breadcrumb: [Platform agentic workflows, Agentic workflows, AI assets, Enable AI experiences]
 ---
 
 # Platform Classify tasks agentic workflow
 
-Use the Platform Classify tasks AI agents agentic workflow to gather relevant information about tasks automatically and make decisions about priorities and assignments.
+Use the Platform Classify tasks agentic workflow to gather relevant information about tasks automatically and make decisions about priorities and assignments.
 
 ## Classify tasks overview
 
@@ -20,15 +20,17 @@ The Classify tasks agentic workflow can help improve efficiency and accuracy by 
 
 The agents, tools, and triggers that are associated with the Classify tasks agentic workflow are provided by AI applications. You can [activate the agentic workflow template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/activate-aia-use-case.md) by making triggers active and setting the display settings to include the ServiceNow Otto panel. If you want to change this agentic workflow's instructions, you must [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/clone-aia-usecase.md), adjust the settings to suit your specific needs, and activate the duplicated version of the agentic workflow instead.
 
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-native-sku-overview.md).
+
 ## Prerequisites and setup
 
 To access this workflow, you must have ServiceNow Otto for Platform installed on your instance, which you can get if you install any other AI application.
 
 For this agentic workflow to behave as expected, you must also configure Group Action Framework \(GAF\). See [Set up AI Search for Group Action Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/setup-ai-search-gaf.md) and [Configure Group Action Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/configure-gaf.md) for more information on getting started with GAF.
 
-## Role masking
+## Role filtering
 
-Required role: sn\_uxc\_gen\_ai.platform\_ai\_classify\_tasks.
+Required role: sn\_uxc\_gen\_ai.platform\_ai\_classify\_tasks
 
 Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/define-sec-controls-aw.md).
 
@@ -87,14 +89,6 @@ GAF Config
 </td><td>
 
 Skill configuration for [Group AI Framework \(GAF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/group-action-framework.md).
-
-</td></tr><tr><td>
-
-AIS Search Fields
-
-</td><td>
-
-Fields used by AI Search to determine what work a user has
 
 </td></tr><tr><td>
 

@@ -1,27 +1,25 @@
 ---
-title: Request risk reduction for findings
-description: Create a risk reduction request for multiple vulnerable items at once by using the Bulk Edit dialog to specify a desired risk rating and compensating controls.
+title: Request risk modification for findings
+description: Create a risk modification request for multiple vulnerable items at once by using the Bulk Edit dialog to specify a desired risk rating and optional compensating controls.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/security-management/reduce-risk-bulk-edit.html
 release: zurich
 topic_type: task
 last_updated: "2026-06-04"
 reading_time_minutes: 1
-keywords: [bulk edit, risk reduction, compensating controls, vulnerable items]
+keywords: [bulk edit, risk modification, compensating controls, vulnerable items]
 breadcrumb: [Using bulk edit in the Security Exposure Management Workspace, Bulk edit in the Security Exposure Management Workspace, Use, Unified Security Exposure Management, Security Operations]
 ---
 
-# Request risk reduction for findings
+# Request risk modification for findings
 
-Create a risk reduction request for multiple vulnerable items at once by using the Bulk Edit dialog to specify a desired risk rating and compensating controls.
+Create a risk modification request for multiple vulnerable items at once by using the Bulk Edit dialog to specify a desired risk rating and optional compensating controls.
 
 ## Before you begin
 
-All vulnerable items you plan to select must map to the same vulnerability. Risk reduction is not available when items from multiple different vulnerabilities are selected.
+Risk change must be enabled on the vulnerability before you can request it for the associated items.
 
-Risk reduction must be enabled on the vulnerability before you can request it for the associated items.
-
-Role required:
+Role required: sn\_vul.vulnerability\_admin, sn\_vul.vulnerability\_analyst or sn\_vul.remediation\_owner
 
 ## Procedure
 
@@ -29,34 +27,32 @@ Role required:
 
     **Note:** The selected records must be in the **Open**, **Under Investigation**, or **Awaiting Implementation** state.
 
-2.  On the List page, under Host Vulnerable items, open the **Active** or **All** list.
+2.  On the **List** page, under Host Vulnerable items, open the **Active** or **All** list.
 
-3.  In the list, select the check box for each vulnerable item to include in the risk reduction request.
+3.  In the list, select the check box for each vulnerable item to include in the risk modification request.
 
 4.  Select **Bulk edit**.
 
-5.  In the Bulk Edit dialog, in the **Deferred** section, select **Mitigating Control in Place** as the reason.
+5.  In the **Risk rating** field, select the target risk rating.
 
-6.  Select the **Request for Risk Reduction** check box.
+6.  If compensating controls apply, in the **Compensating controls** field, select the controls that mitigate the vulnerability.
 
-7.  Select the **Request for Deferral** check box to also submit a deferral alongside the risk reduction request.
+7.  Select the **Modify risk until** date.
 
-8.  In the **Desired risk rating** field, select the target risk rating.
+8.  In the **Work notes** field, enter a summary of the risk modification justification.
 
-9.  In the **Compensating controls** field, select the controls that mitigate the vulnerability.
+9.  Select **Submit request**.
 
-10. In the **Short description** field, enter a summary of the risk reduction justification.
-
-11. In the **Work notes** field, enter supporting details.
-
-12. Select **Update**.
-
-    A Remediation Task is created for the selected items and enters an **In review** state. Approval requests are raised for the risk reduction and, if selected, for the deferral.
+    A Remediation Task is created for the selected items and enters an In review state. Approval requests are raised for the risk modification.
 
 
-## What to do next
+## Result
 
-Approvers at each configured level must approve the risk reduction and deferral requests. After all approvals are complete, the Remediation Task transitions to **Deferred** state and the risk ratings on the affected items are updated to reflect the approved desired rating.
+If you're a Vulnerability admin or an analyst, the state change approval \(CA\#\) is approved immediately, the risk rating updates on the selected findings right away and rolls up to the new Remediation Task.
+
+If you're a Remediation Owner, the state change approval \(CA\#\) follows the configured approval process. After it's approved, the risk rating updates on the selected vulnerable items and rolls up to the new Remediation Task.
+
+**Note:** The sn\_sec\_exception.modify\_risk\_approval\_required system property controls whether a Remediation Owner request requires approval. This property is set to true by default. If set to false, the change approval moves directly to **Approved** and the risk rating updates immediately for Remediation Owners too.
 
 **Parent Topic:**[Using bulk edit in the Security Exposure Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/security-management/sem-using-bulk-edit.md)
 

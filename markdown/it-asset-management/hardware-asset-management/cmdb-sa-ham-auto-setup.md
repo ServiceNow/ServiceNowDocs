@@ -7,7 +7,7 @@ release: zurich
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-09-30"
 reading_time_minutes: 3
 keywords: [auto-setup, automatic dashboard setup, HAM advisor dashboard, model categories]
 breadcrumb: [Get started with dashboard setup, Set up advisor, Use HAM advisor, Asset and CI management, Explore, Hardware Asset Management, IT Asset Management]
@@ -25,6 +25,8 @@ After data collection completes, users with the sn\_cmdb\_admin role receive a n
 
 The dashboard card on the CMDB success advisor landing page displays a badge with the number of model categories that auto-setup selected.
 
+The badge remains after you open the dashboard for the first time. Manually editing the model category scope through **Edit dashboard scope** removes the badge.
+
 ## Eligibility conditions
 
 Auto-setup runs only when all the following conditions are met:
@@ -33,12 +35,15 @@ Auto-setup runs only when all the following conditions are met:
 -   The CMDB success advisor for HAM setup isn't yet complete.
 -   The total number of CIs on the instance is fewer than 5 million.
 -   If the Hardware Asset Management plugin \(sn\_hamp\) is installed, at least one HAM resource category is opted in. See [Managing opt-in and opt-out resource categories for HAM in CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/cmdb-sa-ham-opt-categories.md).
+-   The **com.snc.task.principal\_class\_filter** system property is empty, or at least one principal class already exists on the instance.
 
 **Note:** If any condition isn't met, you can configure the HAM advisor dashboard manually.
 
 ## Scope selected by auto-setup
 
-Auto-setup selects up to 10 recommended HAM model categories, ranked primarily by asset count. For more information, see [HAM model category recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/cmdb-sa-ham-scope-recom.md).
+If no principal classes exist yet, auto-setup selects the top 5 recommended HAM model categories, ranked primarily by asset count. For more information, see [HAM model category recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/hardware-asset-management/cmdb-sa-ham-scope-recom.md).
+
+If one or more principal classes already exist, auto-setup instead adopts whichever of those classes are hardware classes with an opted-in resource category. There's no minimum or maximum count in this case. Auto-setup doesn't run if none of the existing principal classes qualify.
 
 For each selected model category, auto-setup also marks the corresponding CI class as a principal class so the class appears in CI selection filters on incident, change, and problem forms.
 

@@ -69,5 +69,5 @@ The time period that is used for the staleness test.If the CI was not updated \(
 **Related topics**  
 
 
-[CMDB Health Dashboard for Helsinki \| Overview](https://youtu.be/CvMRT3NExIo)
+[CMDB Health Dashboard overview](https://www.youtube.com/watch?v=aPHxWoVdD1c)
 

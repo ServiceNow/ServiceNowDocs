@@ -23,6 +23,8 @@ These assets include AI capabilities such as AI skills, AI agents, and AI agenti
 Use the asset library to view and manage the AI assets in your instance.
 -   **[Create an AI asset in the asset inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-create-asset.md)**  
 Use the asset library to create AI assets in your instance.
+-   **[Manage system properties for AI applications in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-admin-center-manage-system-properties.md)**  
+Use the system property registry to view and edit the system properties for the AI applications in your instance.
 
 **Parent Topic:**[Setting up AI capabilities and configurations in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-admin-center-setting-up-ai.md)
 

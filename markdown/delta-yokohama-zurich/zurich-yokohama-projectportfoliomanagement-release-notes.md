@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-projectportfoliomanagement-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
-reading_time_minutes: 6
+last_updated: "2026-10-08"
+reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
 
@@ -71,19 +71,8 @@ Yokohama
 
 Detect similar existing demand records when creating or editing a demand using the identify similar records skill. This skill compares the **Name**, **Description**, and **Business Case** fields for contextual similarity.
 
--   **[Migrate old status reports to new reporting tool](https://www.servicenow.com/docs/access?context=view-status-report-in-project-workspace&family=yokohama&ft:locale=en-US)**
 
-Import your old status reports to a new status report tool for a consistent and organized reporting system.
-
--   **[Apply confidentiality settings to your projects](https://www.servicenow.com/docs/access?context=configuring-security-for-a-project-in-pw&family=yokohama&ft:locale=en-US)**
-
-Secure sensitive projects by applying confidentiality settings to your projects and make sure only authorized users can access confidential data and sub-projects.
-
--   **[Use checklist for project tasks](https://www.servicenow.com/docs/access?context=c_project-task-checklists&family=yokohama&ft:locale=en-US)**
-
-Track the list of activities to be completed for a task by creating a checklist for your project tasks.
-
--   **[Migrate notes of resource plans to resource assignments](https://www.servicenow.com/docs/access?context=migrate-rsrc-plan-rsrc-asgnmnt&family=yokohama&ft:locale=en-US)**
+ -   **[Migrate notes of resource plans to resource assignments](https://www.servicenow.com/docs/access?context=migrate-rsrc-plan-rsrc-asgnmnt&family=yokohama&ft:locale=en-US)**
 
 Migrate the existing resource plan notes along with the allocation details to resource assignments and get clear insights while working with resource assignments in Resource Management Workspace.
 
@@ -96,15 +85,25 @@ Migrate the existing resource plan notes along with the allocation details to re
         -   Notes
     -   Extend a resource assignment for a project or project task using the **Extend** row context menu action.
 
+ -   **[Migrate old status reports to new reporting tool](https://www.servicenow.com/docs/access?context=view-status-report-in-project-workspace&family=yokohama&ft:locale=en-US)**
+
+Import your old status reports to a new status report tool for a consistent and organized reporting system.
+
+-   **[Apply confidentiality settings to your projects](https://www.servicenow.com/docs/access?context=configuring-security-for-a-project-in-pw&family=yokohama&ft:locale=en-US)**
+
+Secure sensitive projects by applying confidentiality settings to your projects and make sure only authorized users can access confidential data and sub-projects.
+
+-   **[Use checklist for project tasks](https://www.servicenow.com/docs/access?context=c_project-task-checklists&family=yokohama&ft:locale=en-US)**
+
+Track the list of activities to be completed for a task by creating a checklist for your project tasks.
+
+
 </td></tr><tr><td>
 
 Zurich
 
 </td><td>
 
--   **[Manage projects](https://www.servicenow.com/docs/access?context=use-projects-pw&family=zurich&ft:locale=en-US)**
-    -   End resource assignments when a project ends, view assignment details, and synchronize assignment dates with project dates.
-    -   Access and edit the resource details directly from the Resource page without switching between views.
 -   **[Identify similar records using Now Assist](https://www.servicenow.com/docs/access?context=identify-similar-demand-records&family=zurich&ft:locale=en-US)**
 
 Detect similar existing demand records when creating or editing a demand using the identify similar records skill. This skill compares the **Name**, **Description**, and **Business Case** fields for contextual similarity.
@@ -113,6 +112,10 @@ Detect similar existing demand records when creating or editing a demand using t
 
 Convert your demand records quickly to Enterprise Agile Planning \(EAP\) entities, such as Epic, Feature, or Capability. When you convert a demand, the system generates a new record of the selected entity type, replicates common fields from the demand, and moves the demand to the Approved state.
 
+
+ -   **[Manage projects](https://www.servicenow.com/docs/access?context=use-projects-pw&family=zurich&ft:locale=en-US)**
+    -   End resource assignments when a project ends, view assignment details, and synchronize assignment dates with project dates.
+    -   Access and edit the resource details directly from the Resource page without switching between views.
 
 </td></tr></tbody>
 </table>## Changes
@@ -133,7 +136,9 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+-   **[Demand Management UI changes](https://www.servicenow.com/docs/access?context=identify-similar-demands&family=yokohama&ft:locale=en-US)**
+    -   The **Identify similar demands** button has been added to the demand form to identify and view any similar demands with the identify similar demands skill.
+    -   The Similar Demands related list has been added, which displays the list of similar demand records identified by Now Assist.
 
 </td></tr><tr><td>
 
@@ -141,7 +146,30 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **[Demand Management UI changes](https://www.servicenow.com/docs/access?context=demand-form&family=zurich&ft:locale=en-US)**
+    -   The Artificial Intelligence value has been added to the **Investment Type** field of the Demand form so you can choose AI as an investment type.
+    -   Three values, EAP Epic, EAP Feature, and EAP Capability, have been added to the **Type** field in the Demand form. These options are available only when the value in the **Category** field is set to **Strategic**.
+    -   An option to create the selected type of EAP entity has been added under Related Links in the Demand form. This option is available when the demand is in the Draft state and until an EAP entity is created.
+    -   The EAP Details section has been added to the Demand form. This section is displayed after the demand is in the Draft state and includes two fields:
+
+        -   **Team**: Choose a team for the EAP entity.
+        -   **Converted to**: Name of the created EAP entity after it's generated.
+After the EAP entity is created, both fields are set to read only.
+
+    -   The following items have been added to the demand form and are available if you have the identify similar records Now Assist skill activated:
+        -   The **Identify similar demands** button, which identifies and displays similar demands.
+        -   The Similar Demands related list, which displays the list of similar demand records identified by Now Assist.
+
+ -   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+-   **[Project Workspace UI changes](https://www.servicenow.com/docs/access?context=update-resource-assignment-pw&family=zurich&ft:locale=en-US)**
+
+The following items were added to Project Workspace:
+
+    -   Resource page to access and manage resource assignments.
+    -   **Sync all** button to synchronize project dates for all the resource assignments.
 
 </td></tr></tbody>
 </table>## Removed
@@ -229,9 +257,12 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Project Portfolio Management is available with activation of the PPM Standard \(com.snc.financial\_planning\_pmo\) plugin. For more information on activation, see [Activate PPM Standard \( Project Portfolio Management \)](https://www.webstg.servicenow.com/docs/access?topicname=t_ActivateProjectPortfolioSuiteWithFinancials&version=washingtondc&pubname=washingtondc-it-business-management).
 
- Install Strategic Spend Tracking for PPM by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+Install Strategic Spend Tracking for PPM by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
 
 </td></tr><tr><td>
 
@@ -239,9 +270,12 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Project Portfolio Management is available with activation of the PPM Standard \(com.snc.financial\_planning\_pmo\) plugin. For more information on activation, see [Activate](https://www.servicenow.com/docs/access?context=t_ActivateProjectPortfolioSuiteWithFinancials&family=zurich&ft:locale=en-US).
 
- Install Strategic Spend Tracking for PPM by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+Install Strategic Spend Tracking for PPM by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Additional requirements

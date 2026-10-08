@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2026-08-31"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI, Policies, Threat Response, Control Enforcement Points, kill switch protocol]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, Policies, Threat Response, Control Enforcement Points, kill switch protocol]
 breadcrumb: [Configure, Controlling AI asset usage, Govern AI assets, AI Control Tower, Enable AI experiences]
 ---
 

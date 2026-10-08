@@ -28,9 +28,9 @@ Enable application service maps based on the traffic between the workloads in Ku
 Enable application service maps based on the traffic between the workloads in Kubernetes by using Istio or Linkerd or service meshes as part of Kubernetes Visibility Agent \(KVA\) installation.
 -   **[Enable service maps using Cilium](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/create-service-maps-using-cilium.md)**  
 Enable application service maps based on the traffic between the workloads in Kubernetes by connecting to a Cilium agent already running in the cluster.
--   **[Create application service maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/create-an-app-service-map-kva.md)**  
+-   **[Create service maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/create-an-app-service-map-kva.md)**  
 Create a service map that maps application services based on traffic between the workloads in Kubernetes using Istio or Linkerd service meshes or a ServiceNow DaemonSet.
--   **[Create hybrid application service maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/create-hybrid-application-service-maps.md)**  
+-   **[Create hybrid service maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/create-hybrid-application-service-maps.md)**  
 Create hybrid service maps that extend outside the Kubernetes cluster and map other related service resources.
 
 **Parent Topic:**[Configuring Kubernetes Visibility Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/discovery/cnov-configuring.md)

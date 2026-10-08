@@ -26,5 +26,5 @@ The ServiceNow® Legacy Studio application provides an integrated development en
 
 ### What's deprecated or removed
 
-Starting with the Zurich release, Legacy Studio is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details on this process, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base. For more information about app development on the ServiceNow AI Platform®, see .
+Starting with the Zurich release, Legacy Studio is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details on this process, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base. For more information about app development on the ServiceNow AI Platform®, see [ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/servicenow-studio-landing.md).
 

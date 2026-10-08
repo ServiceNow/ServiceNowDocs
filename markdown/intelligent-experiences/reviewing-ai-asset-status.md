@@ -7,7 +7,7 @@ release: zurich
 topic_type: concept
 last_updated: "2026-07-28"
 reading_time_minutes: 3
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Working with AI asset records, Discover and manage AI assets, AI Control Tower, Enable AI experiences]
 ---
 
@@ -57,8 +57,6 @@ Track the productivity, usage, and returns this asset has delivered over a selec
 
     The net returns this asset delivered after deducting the cost of running it during the selected period.
 
-
-For a more detailed, filterable view of this data, see .
 
 ## Viewing activity
 

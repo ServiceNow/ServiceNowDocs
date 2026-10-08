@@ -1,20 +1,20 @@
 ---
 title: Evaluate a prompt
-description: Use the AI Skill Kit evaluation tools to evaluate the effectiveness of your skill prompts.
+description: Use the AI Skill Kit evaluation tools to measure how your skill prompts perform against a dataset, using automated metrics and human feedback.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/intelligent-experiences/now-assist-skill-kit/evaluate-prompt.html
 release: zurich
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Using AI Skill Kit, AI Skill Kit, Enable AI experiences]
 ---
 
 # Evaluate a prompt
 
-Use the AI Skill Kit evaluation tools to evaluate the effectiveness of your skill prompts.
+Use the AI Skill Kit evaluation tools to measure how your skill prompts perform against a dataset, using automated metrics and human feedback.
 
 ## Before you begin
 
@@ -63,7 +63,7 @@ Create a dataset from a data collection
 </td><td>
 
 1.  Give the dataset a name and description.
-2.  Select Data Collection.
+2.  Select **Data Collection**.
 3.  Select a data collection that you created in AI Data Kit.
 4.  Select **Generate Preview**.
 5.  Select the mappings.
@@ -71,7 +71,7 @@ Create a dataset from a data collection
 
 
 </td></tr></tbody>
-</table>6.  Select the add icon \[Omitted image "icon-nask-add.png"\] Alt text: add icon for **Evaluation Runs**.
+</table>6.  Select the add icon \[Omitted image "icon-nask-add.png"\] Alt text: for **Evaluation Runs**.
 
 7.  Give the evaluation run a name and description.
 
@@ -91,7 +91,7 @@ Create a dataset from a data collection
     |-----------------|------|-----------|
     |Human|Human Feedback|Human evaluation is the default option available for all prompt executions that generate a response. You can rate the response with a thumbs up or thumbs down, based on your satisfaction. You also have the option to provide more detailed feedback to explain your evaluation choice.|
     |Automated|Correctness|The correctness metric assesses the generated response's accuracy, completeness, pertinence, and writing quality relative to the given instruction. This metric helps to check that the text accurately reflects the instruction, covers all important points, remains relevant, and is well written.|
-    |Automated|Correctness with Golden Response|The correctness with golden response metric uses a predefined reference to assess the generated response's accuracy, completeness, pertinence, and writing quality relative to the given instruction. This metric helps to check that the text accurately reflects the instruction, covers all important points, remains relevant, and is well written. You should use this metric whenever possible.|
+    |Automated|Correctness with Golden Response|The correctness with golden response metric uses a predefined reference to assess the generated response's accuracy, completeness, pertinence, and writing quality relative to the given instruction. This metric helps to check that the text accurately reflects the instruction, covers all important points, remains relevant, and is well written. Use this metric when a reference response is available.|
     |Automated|Faithfulness|The faithfulness metric assesses whether a generated response accurately reflects the information and context provided in the given instruction. This metric helps to check that the text contains no hallucinations, fabricated facts, or unsupported conclusions, maintaining alignment with the source material.|
 
 14. Select **Save &amp; Next**.
@@ -108,7 +108,7 @@ Create a dataset from a data collection
 
     3.  Expand the prompt and read the result.
 
-    4.  Select the thumbs up or thumbs down icon \[Omitted image "icon-nask-thumbs.png"\] Alt text: human evaluation thumbs up or thumbs down icon to give your evaluation.
+    4.  Select the thumbs up or thumbs down icon \[Omitted image "icon-nask-thumbs.png"\] Alt text: to give your evaluation.
 
     5.  Add more information and select **Submit**.
 

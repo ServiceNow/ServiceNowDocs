@@ -46,4 +46,6 @@ Settings in the application configuration determine how the appointment booking 
 The application configuration works with the Field Service Management configuration for task assignment.
 -   **[Learn about triggers for work schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/schedule-trigger-types.md)**  
 Trigger types determine the initiation of the execution of the work plan.
+-   **[GeoJSON format requirements for territory geographies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/field-service-management/geojson-format-requirements.md)**  
+GeoJSON format requirements define the structure, geometry types, and coordinate rules that territory geographies must follow.
 

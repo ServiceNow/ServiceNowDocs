@@ -1,12 +1,12 @@
 ---
 title: AI Desktop Actions release notes
-description: The ServiceNow AI Desktop Actions application enables you to design, configure, and manage desktop actions to automate repetitive tasks. These desktop actions are executed by AI agents created in AI Agent Studio. AI Desktop Actions is a new application in the Zurich release.The ServiceNow AI Desktop Actions application enables you to design, configure, and manage desktop actions to automate repetitive tasks. These desktop actions are executed by AI agents created in AI Agent Studio. AI Desktop Actions is a new application in the Zurich release.The ServiceNow AI Desktop Actions application enables you to design, configure, and manage desktop actions to automate repetitive tasks. These desktop actions are executed by AI agents created in AI Agent Studio. AI Desktop Actions is a new application in the Zurich release.The ServiceNow AI Desktop Actions application enables you to design, configure, and manage desktop actions to automate repetitive tasks. These desktop actions are executed by AI agents created in AI Agent Studio. AI Desktop Actions is a new application in the Zurich release.The ServiceNow AI Desktop Actions application enables you to design, configure, and manage desktop actions to automate repetitive tasks. These desktop actions are executed by AI agents created in AI Agent Studio. AI Desktop Actions is a new application in the Zurich release.The ServiceNow AI Desktop Actions application enables you to design, configure, and manage desktop actions to automate repetitive tasks. These desktop actions are executed by AI agents created in AI Agent Studio. AI Desktop Actions is a new application in the Zurich release.The ServiceNow AI Desktop Actions application enables you to design, configure, and manage desktop actions to automate repetitive tasks. These desktop actions are executed by AI agents created in AI Agent Studio. AI Desktop Actions is a new application in the Zurich release.The ServiceNow AI Desktop Actions application enables you to design, configure, and manage desktop actions to automate repetitive tasks. These desktop actions are executed by AI agents created in AI Agent Studio. AI Desktop Actions is a new application in the Zurich release.The ServiceNow AI Desktop Actions application enables you to design, configure, and manage desktop actions to automate repetitive tasks. These desktop actions are executed by AI agents created in AI Agent Studio. AI Desktop Actions is a new application in the Zurich release.
+description: The ServiceNow AI Desktop Actions application enables you to design, configure, and manage desktop actions to automate repetitive tasks. These desktop actions are executed by AI agents created in AI Agent Studio. AI Desktop Actions is a new application in the Zurich release.Adaptive desktop actions now automatically record your steps and convert them into reusable action blocks, powered by Claude Sonnet 4.6. AI-powered search instantly suggests matching actions for similar tasks, eliminating repetitive work and accelerating automation.The ServiceNow AI Desktop Actions application enables you to design, configure, and manage desktop actions to automate repetitive tasks. These desktop actions are executed by AI agents created in AI Agent Studio. AI Desktop Actions is a new application in the Zurich release.The ServiceNow AI Desktop Actions application enables you to design, configure, and manage desktop actions to automate repetitive tasks. These desktop actions are executed by AI agents created in AI Agent Studio. AI Desktop Actions is a new application in the Zurich release.The ServiceNow AI Desktop Actions application enables you to design, configure, and manage desktop actions to automate repetitive tasks. These desktop actions are executed by AI agents created in AI Agent Studio. AI Desktop Actions is a new application in the Zurich release.The ServiceNow AI Desktop Actions application enables you to design, configure, and manage desktop actions to automate repetitive tasks. These desktop actions are executed by AI agents created in AI Agent Studio. AI Desktop Actions is a new application in the Zurich release.The ServiceNow AI Desktop Actions application enables you to design, configure, and manage desktop actions to automate repetitive tasks. These desktop actions are executed by AI agents created in AI Agent Studio. AI Desktop Actions is a new application in the Zurich release.The ServiceNow AI Desktop Actions application enables you to design, configure, and manage desktop actions to automate repetitive tasks. These desktop actions are executed by AI agents created in AI Agent Studio. AI Desktop Actions is a new application in the Zurich release.The ServiceNow AI Desktop Actions application enables you to design, configure, and manage desktop actions to automate repetitive tasks. These desktop actions are executed by AI agents created in AI Agent Studio. AI Desktop Actions is a new application in the Zurich release.The ServiceNow AI Desktop Actions application enables you to design, configure, and manage desktop actions to automate repetitive tasks. These desktop actions are executed by AI agents created in AI Agent Studio. AI Desktop Actions is a new application in the Zurich release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/agentic-desktop-rn.html
 release: zurich
 topic_type: topic
 last_updated: "2025-10-31"
-reading_time_minutes: 15
+reading_time_minutes: 16
 breadcrumb: [AI Experiences release notes, Features and changes by product, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
 ---
 
@@ -102,6 +102,28 @@ See [AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNow
 
 
 **Parent Topic:**[AI Experiences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/release-notes/intelligent-experiences-rn-landing.md)
+
+## October 2026
+
+Adaptive desktop actions now automatically record your steps and convert them into reusable action blocks, powered by Claude Sonnet 4.6. AI-powered search instantly suggests matching actions for similar tasks, eliminating repetitive work and accelerating automation.
+
+### What's new
+
+-   **[Execute recorded desktop actions on macOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/reusable-skills-adaptive-da.md)**
+    -   Enable the setting to automatically record adaptive desktop actions during execution and reuse them for similar tasks.
+    -   Automated recording captures your exact steps and converts them instantly into reusable action blocks.
+    -   AI-powered search automatically suggests matching desktop actions based on your current task.
+-   **[New system property added](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/components-installed-with-agentic-desktop.md)**
+
+    The sn\_desktop\_core.enable\_reusable\_assets system property is added to manage the reusable skills feature. The system property creates reusable skills from adaptive desktop action recordings and enables deterministic replay. The default value is false.
+
+
+### What's changed
+
+-   **[Claude Sonnet 4.6 supported](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-llm-model-updates.md)**
+
+    Adaptive desktop actions now support version 4.6 of Claude Sonnet. It is now the default model for adaptive desktop actions.
+
 
 ## August 2026
 

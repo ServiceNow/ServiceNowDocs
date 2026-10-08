@@ -38,7 +38,7 @@ By default, the data for the software products are populated from the Computer \
 
 For instructions to install Technology Lifecycle Management, see [Activate the Technology Lifecycle Management \(TLM\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/application-portfolio-management/eaw-install-tpm.md).
 
-**Important:** Technology Lifecycle Management \(TLM\) fetches the hardware life-cycle data for your enterprise. To fetch the software life-cycle data, you must activate the Software Asset Management \(SAM\) Professional plugin. Before installing the SAM Foundation plugin, carefully review the [Software Asset Management Foundation plugin migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/c_SAMMigrationSAMF.md) documentation.
+**Important:** Technology Lifecycle Management \(TLM\) fetches the hardware life-cycle data for your enterprise. To fetch the software life-cycle data, you must activate the Software Asset Management \(SAM\) Professional plugin. Before installing the SAM Foundation plugin, carefully review the [Basic Software Asset Management migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/it-service-management/c_SAMMigrationSAMF.md) documentation.
 
 ## TLM indicators in EA Workspace
 

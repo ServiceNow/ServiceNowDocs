@@ -47,7 +47,7 @@ Optionally, set up one or more additional request task management configurations
 **Related topics**  
 
 
-[Change the location of a request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/service-management-for-the-enterprise/t_ChangeTheLocationOfARequest.md)
+[bundle-sm4e.t_ChangeTheLocationOfARequest]
 
 [Request approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/service-management-for-the-enterprise/c_RequestApprovals.md)
 

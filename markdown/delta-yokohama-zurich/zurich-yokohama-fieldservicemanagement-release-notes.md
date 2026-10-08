@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-fieldservicemanagement-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
-reading_time_minutes: 14
+last_updated: "2026-10-08"
+reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
 
@@ -38,8 +38,9 @@ Yokohama
 
 </td><td>
 
--   Upgrading to Yokohama may extend the upgrade maintenance time of a customer due to Appointment Booking. The Appointment Booking configuration tables get extended to the Application File \[sys\_metadata\] table as a part of the upgrade. After upgrading to Yokohama, re-parenting occurs automatically and the duration of the re-parenting depends on the number of records in Application File \[sys\_metadata\] table.
--   Effective March 1, 2025, Google has designated the Places API, Directions API, and Distance Matrix API as Legacy services. The newer versions of these services are Places API \(New\) and Routes API. You can’t enable or generate new API keys for these legacy services. However, you can continue using these services with the existing API keys. If you need to create a new Google API key after March 1, 2025, you must enable the new APIs from Google Console and upgrade to Yokohama Patch 3 version or higher to ensure compatibility.
+-   **Upgrade information**
+    -   Upgrading to Yokohama may extend the upgrade maintenance time of a customer due to Appointment Booking. The Appointment Booking configuration tables get extended to the Application File \[sys\_metadata\] table as a part of the upgrade. After upgrading to Yokohama, re-parenting occurs automatically and the duration of the re-parenting depends on the number of records in Application File \[sys\_metadata\] table.
+    -   Effective March 1, 2025, Google has designated the Places API, Directions API, and Distance Matrix API as Legacy services. The newer versions of these services are Places API \(New\) and Routes API. You can’t enable or generate new API keys for these legacy services. However, you can continue using these services with the existing API keys. If you need to create a new Google API key after March 1, 2025, you must enable the new APIs from Google Console and upgrade to Yokohama Patch 3 version or higher to ensure compatibility.
 
 </td></tr><tr><td>
 
@@ -47,7 +48,10 @@ Zurich
 
 </td><td>
 
+-   **Upgrade information**
+
 Effective March 1, 2025, the Google Places API, Directions API, and Distance Matrix API have been designated as legacy services. The newer versions of these services are Places API \(New\) and Routes API. Google Maps APIs for Field Service capabilities uses the latest version of the APIs in the Zurich release and Dispatcher Workspace version 8.0. To help avoid issues with the Google Maps APIs, enable Places API \(New\) and Routes API from Google Cloud Platform Console.
+
 
 </td></tr></tbody>
 </table>## New features
@@ -68,85 +72,7 @@ Yokohama
 
 </td><td>
 
--   **[Dispatcher Workspace](https://www.servicenow.com/docs/access?context=using-dispatcher-workspace&family=yokohama&ft:locale=en-US)**
-
-Use Dispatcher Workspace to perform the following tasks:
-
-    -   View the Field Service agent’s real-time location and completed daily route.
-    -   Use a condition builder to filter relevant resources. You can also extend existing tables to filter custom fields.
-    -   Use advanced filters with hierarchical structures to filter territories.
-    -   View task scheduling conflict messages in the Dispatcher Workspace to improve visibility and facilitate resolutions for dispatchers.
--   **[Field Service Agent Efficiency](https://www.servicenow.com/docs/access?context=configuring-agent-efficiency&family=yokohama&ft:locale=en-US)**
-
-Use Agent Efficiency to perform the following tasks:
-
-    -   Define the agent efficiency criteria to calculate the Agent Efficiency for a task.
-    -   Calculate the estimated work duration for a work order task more accurately based on the Agent Efficiency feature.
-    -   Enhance manual task assignment and dynamic scheduling for a task by leveraging Agent Efficiency.
-    -   Optimize Intelligent Task Recommendation by incorporating Agent Efficiency values so that dispatchers can assign tasks more effectively.
--   **[Appointment Booking](https://www.servicenow.com/docs/access?context=appointment-booking-administer&family=yokohama&ft:locale=en-US)**
-
-Use Appointment Booking to perform the following tasks:
-
-    -   Replicate the application and service-based configurations across instances.
-    -   Grade the appointment booking slots by recommended or available slots to ensure optimal scheduling.
-    -   Use the seismic appointment booking calendar across all user interfaces to ensure a consistent and seamless scheduling experience.
--   **[Task dependencies](https://www.servicenow.com/docs/access?context=t_SetAnUpstreamTask&family=yokohama&ft:locale=en-US)**
-
-Use task dependencies to perform the following tasks:
-
-    -   Enable administrators and dispatchers to define advanced task dependencies, such as start together or start after start, so that you can ensure that tasks are executed in the right order.
-    -   Enable dispatchers to create task dependencies within or between work orders.
--   **[Schedule Optimization](https://www.servicenow.com/docs/access?context=schedule-optimization-engine&family=yokohama&ft:locale=en-US)**
-
-Use Schedule Optimization to perform the following tasks:
-
-    -   Enable dispatchers to optimize resource assignments that are based on the dependency relationship between tasks.
-    -   Generate more accurate scheduling and assist your field technicians in navigating traffic conditions more effectively by configuring Schedule Optimization. You can consider time-of-day and set up intraday scheduling to leverage real-time traffic data when certain conditions are met.
-    -   Use new optimization features, such as **Maximize consecutive collocated task assignments** and **Minimize task start times**, when you're creating a policy.
-    -   Provide greater control over task distribution by enabling a new drip feed property, **Number of tasks**, to enhance your scheduling capabilities.
-    -   Expect more reliable and efficient task scheduling due to resolved conflicts between the various scheduling engines.
-    -   View the task scheduling conflict messages on the task, user, and group records when optimization is in progress.
--   **[Capacity and Reservations Management](https://www.servicenow.com/docs/access?context=capacity-management&family=yokohama&ft:locale=en-US)**
-
-Use Capacity and Reservations Management to perform the following tasks:
-
-    -   Leverage the capacity console to efficiently manage resource allocation across territories and demand channels so that you can enable your teams to analyze field technician performance and make data-driven decisions.
-    -   Set flexible reservation rules to define the minimum and maximum resource allocations so that you can enable dynamic adjustments to capacity based on shifting demands.
-    -   Create recurring capacity assignments for specific days of the week for long-term capacity planning and management.
-    -   Enable multiple overrides for the same date range to address demand fluctuations so that you can manage exceptions with more precision and flexibility.
--   **[Scheduling Health dashboard](https://www.servicenow.com/docs/access?context=scheduling-health-dashboard&family=yokohama&ft:locale=en-US)**
-
-Use the Scheduling Health dashboard to view these additional Schedule Optimization metrics:
-
-    -   Tasks without skills
-    -   Technicians without skills
-    -   Tasks without parts
-    -   Technicians without parts
--   **[Business location-based work management](https://www.servicenow.com/docs/access?context=industry-products-integration&family=yokohama&ft:locale=en-US)**
-
-Enable your staff across various industries to efficiently manage work orders. Your employees can resolve tasks that are specific to their assigned location, while your managers can oversee the tasks across their assigned locations. You can reinforce your security by ensuring that your staff can only access the work orders that are related to their designated locations.
-
--   **[Managing agents and tasks from Workforce](https://www.servicenow.com/docs/access?context=using-manager-workforce&family=yokohama&ft:locale=en-US)**
-
-Use Workforce to perform the following tasks:
-
-    -   Enable additional users to use Workforce by adding additional managers to assignment groups.
-    -   Enable managers to view the event management tab when Workforce Optimization for Field Service is active.
--   **[Smart Assessment for Field Service Questionnaire](https://www.servicenow.com/docs/access?context=configuring-smart-assessment-questionnaire&family=yokohama&ft:locale=en-US)**
-
-Use Smart Assessment templates to perform the following tasks:
-
-    -   Migrate from a survey-based questionnaire to Smart Assessment based questionnaires.
-    -   Create work order questionnaires.
-    -   Set up detailed instructions that include rich text and images.
-    -   Configure conditional questions based on responses of all other types of questions and across sections.
-    -   Allow additional comments or attachments on a question's response.
-    -   Improve the work order questionnaire in the Mobile Agent® application by implementing a paginated layout, providing instructions with questions, and offering in-line choices.
--   **[Planned Work Management](https://www.servicenow.com/docs/access?context=migrate-maint-plans-pwm&family=yokohama&ft:locale=en-US)**
-
-Seamlessly migrate monthly and annual plans from Planned Maintenance to Planned Work Management.
-
+No updates for this release.
 
 </td></tr><tr><td>
 
@@ -154,45 +80,7 @@ Zurich
 
 </td><td>
 
--   **[Using Dispatcher Workspace](https://www.servicenow.com/docs/access?context=using-dispatcher-workspace&family=zurich&ft:locale=en-US)**
-
-Use Dispatcher Workspace to perform the following tasks:
-
-    -   Use the advanced resource filter to sort contractors and equipment.
-    -   Add agents to Dispatcher Workspace to see their schedules, or assign them tasks if you manage the assignment group or territory they're a part of. This action can be done without loading the entire assignment group or territory that the agent is a member of.
-    -   Set up the calendar to use multiple time zones at once. For more information, see [Show multiple time zones](https://www.servicenow.com/docs/access?context=use-stacked-time-zones&family=zurich&ft:locale=en-US).
-    -   Navigate from a work order task to a related list of smart assessments that are associated with that work order.
--   **[Assigning WOTs manually](https://www.servicenow.com/docs/access?context=c_DispatchWorkOrderTasks&family=zurich&ft:locale=en-US)**
-
-Use the records page to perform the following tasks that was limited to Dispatcher Workspace before:
-
-    -   Flag a work order task.
-    -   Use assignment assistance.
--   **[Schedule Optimization](https://www.servicenow.com/docs/access?context=schedule-optimization-engine&family=zurich&ft:locale=en-US)**
-
-Use Schedule Optimization to do the following:
-
-    -   Initiate immediate optimization to adjust schedules and tasks when an in-day event occurs, like a new priority 1 task, a canceled task, an agent taking PTO, or an agent running late.
-    -   Assign the best agent for a work order task based on agent efficiency, which helps schedule and assign tasks more appropriately, using Field Service Agent Efficiency.
-    -   Define work, travel, and overtime penalty values for each agent so the optimization engine can either schedule a nearby agent with a higher penalty or a distant agent with a lower penalty.
-
-    -   Improve task scheduling by assigning dependent tasks to a single technician within the same shift.
--   **[Workforce](https://www.servicenow.com/docs/access?context=configuring-workforce&family=zurich&ft:locale=en-US)**
-
-Enable managers to show or hide work order tasks from the **Calendars** tab in Workforce. When Workforce Optimization for Field Service is enabled, these tasks can also be viewed in Hybrid and Map views.
-
--   **[Field Service Scheduling](https://www.servicenow.com/docs/access?context=setting-up-scheduling-methods&family=zurich&ft:locale=en-US)**
-
-Manage resource attributes for any duration, whether a single day or multiple days.
-
--   **[Appointment Booking](https://www.servicenow.com/docs/access?context=appointment-booking-administer&family=zurich&ft:locale=en-US)**
-
-Use Appointment Booking to do the following:
-
-    -   Enable better control over task sequencing using new dependency types, such as 'Finish to Start - Same Day' and 'Finish Together' with lag options, integrated with appointment booking for more precise scheduling. Enhance operational insight for all roles through improved visualizations including dependency trees, conflict alerts, and task indicators, which support dispatcher decisions and technician execution.
-    -   Optimize appointment recommendations by allowing radius configuration at the territory level, tailored to diverse areas, such as urban versus rural. This capability includes an extension point for customers to implement custom radius logic with default instance-level values if no specific configuration is set.
-    -   Enhance appointment recommendations by allowing grading against user-defined similar services rather than identical ones, resulting in more versatile scheduling options. This feature includes an extension point for customers to specify which services they consider similar, and the system defaults to same-catalog matching if no custom configuration is provided.
-    -   Increase scheduling flexibility with new features to support slot overlap and overrides. This capability enables territory-based customization of appointment windows, default schedules, and specific slot-level overrides, giving more control over availability.
+No updates for this release.
 
 </td></tr></tbody>
 </table>## Changes
@@ -213,34 +101,7 @@ Yokohama
 
 </td><td>
 
--   **[SLAs in Dispatcher Workspace](https://www.servicenow.com/docs/access?context=using-dispatcher-workspace&family=yokohama&ft:locale=en-US)**
-
-The SLAs breached query on the Dispatcher Dashboard in Dispatcher Workspace has been updated to look at the SLAs that are associated with the work order tasks only instead of the work orders and work order tasks. The SLA breached counter on the task cards is also static, instead of real time. For more information on changing the SLA timer on task cards, see the Enable the **SLA timer on work order task cards** property on [Configure settings for Dispatcher Workspace](https://www.servicenow.com/docs/access?context=configure-workspce-settings&family=yokohama&ft:locale=en-US).
-
--   **[Assignment groups and territories in Dispatcher Workspace](https://www.servicenow.com/docs/access?context=using-dispatcher-workspace&family=yokohama&ft:locale=en-US)**
-
-You must save the default assignment groups or territories in Dispatcher Workspace to load when you open Dispatcher Workspace. If you don’t have the defaults saved, then you must select the assignment groups or territories to appear every time you open Dispatcher Workspace. This change is made to improve the performance of Dispatcher Workspace. For more information on saving the default assignment groups, see the Groups section on the **General** tab on [Enable Dispatcher Workspace settings](https://www.servicenow.com/docs/access?context=dispatcher-wrkspc-settings&family=yokohama&ft:locale=en-US). For information on saving default territories, see [Select Territories in Dispatcher Workspace](https://www.servicenow.com/docs/access?context=select-territory-dispatch&family=yokohama&ft:locale=en-US). Administrators can disable this by setting the **sn\_fsm\_disp\_wrkspc.enableEmptyState** system property to false.
-
--   **[Work order questionnaire](https://www.servicenow.com/docs/access?context=complete-questionnaire-mobile-app&family=yokohama&ft:locale=en-US)**
-
-Availability of inline choices for a question and the ability to add additional information for a question when completing a work order questionnaire through the Now Mobile Agent application.
-
--   **Role to access opportunities**
-
-The Opportunity Writer sn\_opty\_mgmt\_core.opportunity\_writer role has been replaced with the Opportunity Contributor sn\_opty\_mgmt\_core.opportunity\_contributor role. Field service technicians can use the new Opportunity Contributor\[sn\_opty\_mgmt\_core.opportunity\_contributor role to create and view opportunities.
-
--   **Google Maps APIs for Field Service Capabilities**
-
-Upgrade to the new Places API \(new\) and Routes API for Field Service Capabilities.
-
-Effective March 1, 2025, Google has designated the Places API, Directions API, and Distance Matrix API as Legacy services. The newer versions of these services are Places API \(New\) and Routes API.
-
-You can’t enable or generate new API keys for these legacy services. However, you can continue using these services with the existing API keys. Enable the new APIs from Google Console to continue using the API services without any issues.
-
-If you create a new Google API key after March 1, 2025, enable the new APIs from Google Console to use these services with the new API keys.
-
-For more information see, [KB2111488](https://support.servicenow.com/nav_to.do?uri=kb_knowledge.do?sys_id=3b86844293516210f538fb2d6cba10bf), [KB2112054](https://support.servicenow.com/nav_to.do?uri=kb_knowledge.do?sys_id=47952c8a93556210f538fb2d6cba1026), and [Changes to Google Maps Platform automatic volume discounts, monthly credit, and services transitioning to Legacy status](https://developers.google.com/maps/billing-and-pricing/faq#legacy).
-
+No updates for this release.
 
 </td></tr><tr><td>
 
@@ -248,27 +109,7 @@ Zurich
 
 </td><td>
 
--   **[Capacity and Reservations Management](https://www.servicenow.com/docs/access?context=configuring-capacity-management&family=zurich&ft:locale=en-US)**
-
-Use the aggregated schedules of all agents of a territory to allocate resources until a specified cut-off date, after which predicted capacity can be used for bookings. This feature optimizes resource utilization and capacity management for a territory, which helps ensure that business services remain available without overburdening resources.
-
--   **[Google Maps APIs for  Field Service  capabilities](https://www.servicenow.com/docs/access?context=google-maps-api-keys&family=zurich&ft:locale=en-US)**
-
-Effective March 1, 2025, Google has designated the Places API, Directions API, and Distance Matrix API as Legacy services. The newer versions of these services are Places API \(New\) and Routes API. You can’t generate new API keys for these legacy services. However, you can continue using these services with the existing API keys. If you create a Google API key after March 2025, you must upgrade to a supported ServiceNow release version to verify compatibility.
-
--   **[Smart Assessment for Field Service](https://www.servicenow.com/docs/access?context=configuring-smart-assessment-questionnaire&family=zurich&ft:locale=en-US)**
-
-Use Smart Assessment for Field Service to do the following:
-
-    -   Streamline asset identification and data entry by scanning and capturing barcode values directly within a work order questionnaire.
-    -   Configure a predefined range for numeric inputs to minimize errors and help ensure data accuracy.
-    -   View completed questionnaires in the workspace.
-    -   Create follow-up work order tasks from a work order questionnaire based on the responses.
-    -   Allow users to retry or replace an attachment if the upload is unsuccessful.
--   **[Field Service Scheduling](https://www.servicenow.com/docs/access?context=setting-up-scheduling-methods&family=zurich&ft:locale=en-US)**
-
-Migrates data from the Work Parameter table to the Resource Schedule Attribute table for each technician, confirming that work parameters align with the new schedule attributes.
-
+No updates for this release.
 
 </td></tr></tbody>
 </table>## Removed
@@ -289,7 +130,7 @@ Yokohama
 
 </td><td>
 
-The approval for new requests workflow was removed from the Field Service Management Business Process configuration. Existing customers that use this workflow are unaffected. New customers can use ServiceNow® Workflow Studio to build the approval for the new requests workflow. For more information on Workflow Studio, see [Flow Designer](https://www.servicenow.com/docs/access?context=flow-designer&family=yokohama&ft:locale=en-US).
+No updates for this release.
 
 </td></tr><tr><td>
 
@@ -318,8 +159,7 @@ Yokohama
 
 </td><td>
 
--   Starting with the Yokohama release, Approval Workflow for FSM is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
--   Starting with the Zurich release, the **Enable capacity** constraint for Schedule Optimization is being prepared for future deprecation. It will be no longer be applied for Schedule Optimization. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+No updates for this release.
 
 </td></tr><tr><td>
 
@@ -327,8 +167,7 @@ Zurich
 
 </td><td>
 
--   Non-collapsed mode is being deprecated and removed from Dispatcher Workspace. Dispatchers must use collapsed mode to see available resources in Dispatcher Workspace.
--   Starting with the Zurich release, the **Enable capacity** constraint for Schedule Optimization is being deprecated. It will no longer be applied for Schedule Optimization. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+No updates for this release.
 
 </td></tr></tbody>
 </table>## Activation information
@@ -349,13 +188,16 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Field Service Management is a ServiceNow AI Platform feature that is active by default.
 
- Leverage advanced features of Appointment Booking, such as the appointment slot recommendation, by activating the Advanced Appointment Booking \(com.snc.advanced\_appointment\_booking\) plugin.
+Leverage advanced features of Appointment Booking, such as the appointment slot recommendation, by activating the Advanced Appointment Booking \(com.snc.advanced\_appointment\_booking\) plugin.
 
- Define the task dependencies for a work order task and schedule tasks based on the dependency by activating the Field Service Task Dependencies \(com.snc.fsm\_task\_dependency\) plugin.
+Define the task dependencies for a work order task and schedule tasks based on the dependency by activating the Field Service Task Dependencies \(com.snc.fsm\_task\_dependency\) plugin.
 
- Integrate agent efficiency metrics with Field Service Management to define and use the efficiency of agents to estimate the work duration for tasks by activating the FSM Agent Efficiency \(com.snc.fsm\_agent\_efficiency​\) plugin.
+Integrate agent efficiency metrics with Field Service Management to define and use the efficiency of agents to estimate the work duration for tasks by activating the FSM Agent Efficiency \(com.snc.fsm\_agent\_efficiency​\) plugin.
+
 
 </td></tr><tr><td>
 
@@ -363,7 +205,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Field Service Management is a ServiceNow AI Platform feature that is active by default.
+
 
 </td></tr></tbody>
 </table>## Additional requirements

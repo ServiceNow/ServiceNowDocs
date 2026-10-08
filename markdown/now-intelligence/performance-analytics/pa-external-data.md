@@ -204,7 +204,7 @@ When selected, the Analytics Hub and KPI Details show unbroken data lines for th
 
  Continuous lines aren’t rendered when a time series is set on the indicator or the Analytics Hub or KPI Details.
 
-</td></tr><tr><td>
+</td></tr><tr id="row_show-real-time-scores"><td>
 
 Show real-time score
 

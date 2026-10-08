@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-themebuilder-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
-reading_time_minutes: 11
+last_updated: "2026-10-08"
+reading_time_minutes: 13
 breadcrumb: [Products combined by family]
 ---
 
@@ -114,17 +114,6 @@ Yokohama
 
 </td><td>
 
--   **[Align with your brand by using the Unified Navigation component](https://www.servicenow.com/docs/access?context=edit-unified-navigation-component&family=yokohama&ft:locale=en-US)**
-
-Customize the Unified Navigation component from within Theme Builder by using the following new features:
-
-    -   Quickly view how the Unified Navigation component will look in your theme by using the Preview pane.
-    -   Use the Component Configuration menu to view any shared styling between subcomponents.
-    -   View the background color of your subcomponent and see how it renders in relation to the Unified Navigation component by using the updated canvas color feature.
--   **[Use the double-click feature to quickly access the Component Editor](https://www.servicenow.com/docs/access?context=tb-edit-components&family=yokohama&ft:locale=en-US)**
-
-Double-click a component tile to access the Component Editor where you can continue to make style adjustments to subcomponents, variants, or interactions.
-
 -   **[Adjust the Unified Navigation component to meet accessibility standards](https://www.servicenow.com/docs/access?context=tb-adjust-component-wcag&family=yokohama&ft:locale=en-US)**
 
 As of Theme Builder version 5.1, the Accessibility Inspector now displays the total number of accessibility errors with contrast issues for the Unified Navigation component and subcomponents. See the Accessibility section for details.
@@ -136,6 +125,18 @@ As of Theme Builder version 5.1, use the new Image styles feature to enhance you
     -   Edit the colors of the empty state illustrations from within Theme Builder. When a part of your Next Experience web page doesn't contain data, an empty state illustration appears. Empty state illustrations are theme-able and adapt to your theme colors.
     -   Override empty state illustrations with your own custom images to uniquely align with your branding style.
 
+ -   **[Align with your brand by using the Unified Navigation component](https://www.servicenow.com/docs/access?context=edit-unified-navigation-component&family=yokohama&ft:locale=en-US)**
+
+Customize the Unified Navigation component from within Theme Builder by using the following new features:
+
+    -   Quickly view how the Unified Navigation component will look in your theme by using the Preview pane.
+    -   Use the Component Configuration menu to view any shared styling between subcomponents.
+    -   View the background color of your subcomponent and see how it renders in relation to the Unified Navigation component by using the updated canvas color feature.
+-   **[Use the double-click feature to quickly access the Component Editor](https://www.servicenow.com/docs/access?context=tb-edit-components&family=yokohama&ft:locale=en-US)**
+
+Double-click a component tile to access the Component Editor where you can continue to make style adjustments to subcomponents, variants, or interactions.
+
+
 </td></tr><tr><td>
 
 Zurich
@@ -146,6 +147,15 @@ Zurich
 
 Upload your brand guidelines as a PDF to the theme creation workflow within the Now Assist panel to generate themes aligned with your brand.
 
+
+ -   **[Create a theme using ServiceNow Otto](https://www.servicenow.com/docs/access?context=create-theme-now-assist&family=zurich&ft:locale=en-US)**
+
+As of Zurich Patch 7, leverage Now Assist to generate themes based on your brand image. After generating a theme, navigate to Theme Builder to publish and apply additional styling. This feature requires ServiceNow Otto for Creator.
+
+-   **[Create a theme with AI in Theme Builder](https://www.servicenow.com/docs/access?context=tb-create-a-theme-ai&family=zurich&ft:locale=en-US)**
+
+As of Zurich Patch 7, use AI to generate themes from brand images, preview multiple options, and refine results all within the updated Create a theme wizard. If you prefer, you can skip the AI step and continue creating your theme manually using the existing workflow. This feature requires ServiceNow Otto for Creator.
+
 -   **[Create a theme using ServiceNow Otto](https://www.servicenow.com/docs/access?context=create-theme-now-assist&family=zurich&ft:locale=en-US)**
 
 As of Zurich Patch 7, leverage Now Assist to generate themes based on your brand image. After generating a theme, navigate to Theme Builder to publish and apply additional styling. This feature requires ServiceNow Otto for Creator.
@@ -154,7 +164,19 @@ As of Zurich Patch 7, leverage Now Assist to generate themes based on your brand
 
 As of Zurich Patch 7, use AI to generate themes from brand images, preview multiple options, and refine results all within the updated Create a theme wizard. If you prefer, you can skip the AI step and continue creating your theme manually using the existing workflow. This feature requires ServiceNow Otto for Creator.
 
--   **[Publish the new Coral theme](https://www.servicenow.com/docs/access?context=tb-apply-theme&family=zurich&ft:locale=en-US)**
+
+ -   **[Explore the expanded image categories with color editing and override capability](https://www.servicenow.com/docs/access?context=working-with-image-styles&family=zurich&ft:locale=en-US)**
+
+As of Theme Builder version 6.1, configure the following new image categories to further enhance your theme:
+
+    -   Edit the colors of banners, modals, tile icons, and cards from within Theme Builder.
+    -   Override each of these default illustrations with your own custom images to uniquely align with your branding style.
+-   **[Guided tours in Theme Builder](https://www.servicenow.com/docs/access?context=guided-tours-theme-builder&family=zurich&ft:locale=en-US)**
+
+As of version 6.1, learn about additional features and complete tasks through interactive steps by taking guided tours within Theme Builder.
+
+
+ -   **[Publish the new Coral theme](https://www.servicenow.com/docs/access?context=tb-apply-theme&family=zurich&ft:locale=en-US)**
 
 Publish or unpublish the new Coral theme directly from Theme Builder. This theme provides a fresh look and feel and features brand-neutral illustrations to enhance your user experience. A dark theme variant is available for web and mobile experiences.
 
@@ -165,24 +187,6 @@ Use your organization's fonts to maintain a consistent look and feel for your br
     -   Upload, preview, and edit at most 10 custom font families from the **Global styles** or **Component styles** tabs.
     -   Add unlimited associated font faces to each font family and apply them individually to components.
     -   Delete your font family or font face from your theme.
--   **[Explore the expanded image categories with color editing and override capability](https://www.servicenow.com/docs/access?context=working-with-image-styles&family=zurich&ft:locale=en-US)**
-
-As of Theme Builder version 6.1, configure the following new image categories to further enhance your theme:
-
-    -   Edit the colors of banners, modals, tile icons, and cards from within Theme Builder.
-    -   Override each of these default illustrations with your own custom images to uniquely align with your branding style.
--   **[Guided tours in Theme Builder](https://www.servicenow.com/docs/access?context=guided-tours-theme-builder&family=zurich&ft:locale=en-US)**
-
-As of version 6.1, learn about additional features and complete tasks through interactive steps by taking guided tours within Theme Builder.
-
--   **[Create a theme using ServiceNow Otto](https://www.servicenow.com/docs/access?context=create-theme-now-assist&family=zurich&ft:locale=en-US)**
-
-As of Zurich Patch 7, leverage Now Assist to generate themes based on your brand image. After generating a theme, navigate to Theme Builder to publish and apply additional styling. This feature requires ServiceNow Otto for Creator.
-
--   **[Create a theme with AI in Theme Builder](https://www.servicenow.com/docs/access?context=tb-create-a-theme-ai&family=zurich&ft:locale=en-US)**
-
-As of Zurich Patch 7, use AI to generate themes from brand images, preview multiple options, and refine results all within the updated Create a theme wizard. If you prefer, you can skip the AI step and continue creating your theme manually using the existing workflow. This feature requires ServiceNow Otto for Creator.
-
 
 </td></tr></tbody>
 </table>## Changes
@@ -211,7 +215,25 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+-   **[New Image styles tab added to Editor page](https://www.servicenow.com/docs/access?context=working-with-image-styles&family=yokohama&ft:locale=en-US)**
+
+As of Theme Builder version 5.1, the Editor page has the following additional options:
+
+    -   The general styles panel, which includes Global and Component styles, now features Image styles. The Image styles tab displays all illustrations available for editing.
+    -   When you select an empty state illustration for editing from the Image styles tab, the property panel opens with two additional tabs: Images and Colors. The Images tab displays which image files are applied to an empty state illustration. The Colors tab displays which theme colors are applied to an illustration.
+
+ -   **[Navigation updated](https://www.servicenow.com/docs/access?context=tb-edit-components&family=yokohama&ft:locale=en-US)**
+
+The **Return to component overview** link within the Component Editor is replaced with breadcrumb-style navigation for a more contextual navigation experience.
+
+-   **[Component Editor button replaced](https://www.servicenow.com/docs/access?context=tb-edit-components&family=yokohama&ft:locale=en-US)**
+
+The **Go to Component Editor** button is now labeled either **Style variants**, **Style subcomponents**, or **Style interactions** depending on the selected component. The Component Editor behaves in the same way despite this UI change.
+
+-   **[Component Editor Interactions States panel updated](https://www.servicenow.com/docs/access?context=tb-edit-components&family=yokohama&ft:locale=en-US)**
+
+The Interaction States panel within the Component Editor now refers to either **Interactions** or **Subcomponents**.
+
 
 </td></tr><tr><td>
 
@@ -221,8 +243,27 @@ Zurich
 
 -   **[Now Assist &gt; ServiceNow Otto® announcement](https://www.servicenow.com/docs/access?context=sn-ai-implementation-landing&family=zurich&ft:locale=en-US)**
 
-Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
 
+
+ -   **[Create a theme wizard color selector updated](https://www.servicenow.com/docs/access?context=tb-create-theme&family=zurich&ft:locale=en-US)**
+
+As of Theme Builder version 6.1, when you create a theme, the color selector now defaults to Coral theme colors instead of static gray tones. This means your initial color options feature a blue hue for a more vibrant look. Colors can still be customized at any time by selecting a preferred color in the color selector.
+
+
+ -   **[Global styles upload and selector modals updated](https://www.servicenow.com/docs/access?context=working-with-global-styles&family=zurich&ft:locale=en-US)**
+
+A more consistent, user-friendly interface is now available for uploading logos, fonts, and shapes. The following changes have been made:
+
+    -   A larger modal for uploading your company logo with a browse or drag-and-drop capability.
+    -   A larger modal for selecting predefined corner shapes and fonts.
+    -   A preview window within each modal for immediately viewing your selections before they’re applied to your theme.
+-   **[Updated Global styles Overview panel](https://www.servicenow.com/docs/access?context=working-with-global-styles&family=zurich&ft:locale=en-US)**
+
+The Global styles Overview panel has been updated in the following ways:
+
+    -   The Font section has been renamed Typography.
+    -   The font family field that is listed in the Typography section has been renamed as the Default font family. The Default font family still indicates which font is applied globally across your theme, unless you override it at the component level.
 
 </td></tr></tbody>
 </table>## Removed
@@ -327,7 +368,12 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Starting with the Yokohama release, Theme Builder is included as a core plugin with the Next Experience application and is available by default. You can update to the latest version of Theme Builder from ServiceNow Store.
+
+
+**Important:** Theme Builder is available by default starting in the Yokohama release and upgrades are available in ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 
@@ -335,7 +381,12 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Theme Builder is included as a core plugin with the Next Experience application and is available by default. You can update to the latest version of Theme Builder from the ServiceNow Store.
+
+
+**Important:** Theme Builder is available by default and upgrades are available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -443,7 +494,8 @@ Yokohama
 
 </td><td>
 
--   **[Adjust the Unified Navigation component to meet accessibility standards](https://www.servicenow.com/docs/access?context=tb-adjust-component-wcag&family=yokohama&ft:locale=en-US)**
+-   **Accessibility information**
+    -   **[Adjust the Unified Navigation component to meet accessibility standards](https://www.servicenow.com/docs/access?context=tb-adjust-component-wcag&family=yokohama&ft:locale=en-US)**
 
 The Accessibility Inspector, which detects and guides you through fixing contrast issues in your theme, now includes accessibility errors for the Unified Navigation component and subcomponents.
 
@@ -454,14 +506,15 @@ Zurich
 
 </td><td>
 
--   **[Upload custom font](https://www.servicenow.com/docs/access?context=upload-custom-font&family=zurich&ft:locale=en-US)**
+-   **Accessibility information**
+    -   **[Upload custom font](https://www.servicenow.com/docs/access?context=upload-custom-font&family=zurich&ft:locale=en-US)**
 
 The ability to upload custom fonts to your theme can help users with disabilities in several ways, including:
 
-    -   **Improved readability**: Custom fonts can be selected to enhance readability, making text easier to see, understand, and retain. This is beneficial for users with visual impairments, as clear letter forms reduce eye strain.
-    -   **Support for cognitive differences**: Custom fonts can address cognitive accessibility needs. For instance, users with dyslexia or Attention- Deficit/Hyperactivity Disorder \(ADHD\) may benefit from fonts that reduce reading strain and improve information processing.
-    -   **Improved globalization support**: Custom fonts tailored to specific languages improve the readability for non-Latin alphabets and ensure consistent, accessible user experiences across global audiences.
--   **[Dark mode in Theme Builder](https://www.servicenow.com/docs/access?context=dark-mode-theme-builder&family=zurich&ft:locale=en-US)**
+        -   **Improved readability**: Custom fonts can be selected to enhance readability, making text easier to see, understand, and retain. This is beneficial for users with visual impairments, as clear letter forms reduce eye strain.
+        -   **Support for cognitive differences**: Custom fonts can address cognitive accessibility needs. For instance, users with dyslexia or Attention- Deficit/Hyperactivity Disorder \(ADHD\) may benefit from fonts that reduce reading strain and improve information processing.
+        -   **Improved globalization support**: Custom fonts tailored to specific languages improve the readability for non-Latin alphabets and ensure consistent, accessible user experiences across global audiences.
+    -   **[Dark mode in Theme Builder](https://www.servicenow.com/docs/access?context=dark-mode-theme-builder&family=zurich&ft:locale=en-US)**
 
 As of version 6.1, Theme Builder is now available in light and dark mode. This option is commonly used to alleviate eye strain and improve readability. Dark mode applies to the Theme Builder interface only and does not affect the appearance of individual themes.
 

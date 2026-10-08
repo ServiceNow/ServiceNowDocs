@@ -7,7 +7,7 @@ release: zurich
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2026-07-06"
+last_updated: "2026-09-22"
 reading_time_minutes: 12
 keywords: [AI Agent, Agentic AI]
 breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
@@ -328,7 +328,7 @@ Available AI agents include:
 |Microsoft Exchange Online room management AI agent|Automates workflows related to the room management within Microsoft Exchange Online such as 'Look up Rooms Stream'.|
 |Microsoft Exchange Online metadata retrieval management AI agent|Automates workflows related to the room metadata management within Microsoft Exchange Online such as looking up room metadata and time zone metadata.|
 |Microsoft Exchange Online meeting scheduler AI agent|Automates calendar management tasks within Microsoft Exchange Online. It enables users to find the available meeting time slots and create the meetings accordingly.|
-|Microsoft Exchange Online mail manager|Automates mail management tasks within Microsoft Exchange Online such as look up mail folders and messages, delete messages, and set mailbox auto-replies.|
+|Microsoft Exchange Online mail management AI agent|Automates mail management tasks within Microsoft Exchange Online such as look up mail folders and messages, delete messages, and set mailbox auto-replies.|
 
 There might be AI agents installed on your instance that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/find-ai-agents.md).
 

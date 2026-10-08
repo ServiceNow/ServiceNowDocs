@@ -21,6 +21,8 @@ The AI readiness assessment features in AI Admin Center help you find actionable
 Run the AI readiness assessment to analyze your instance and evaluate its readiness for AI adoption.
 -   **[View your AI readiness assessment in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/view-ai-readiness-now-assist-center.md)**  
 Review the readiness assessments that the Now Assist Readiness Evaluation has identified for your instance.
+-   **[Plan an instance upgrade \(Lux UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-admin-center-plan-upgrade.md)**  
+Run an upgrade readiness pre-check and evaluate the current version against the target version to determine if you're ready to upgrade your instance.
 
 **Parent Topic:**[AI Admin Center \(formerly Now Assist Center\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/now-assist-center-landing-page.md)
 

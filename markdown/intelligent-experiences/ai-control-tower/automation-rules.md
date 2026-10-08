@@ -35,7 +35,5 @@ Only active rules are evaluated during scheduled runs; inactive rules are skippe
 
 ## References
 
-For information on Managed and Unmanaged assets, see 
-
-For information on creating rules, see [Create an Automation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/create-automation-rules.md)
+For information on Managed and Unmanaged assets, see [AI assets- Managed and Unmanaged](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/intelligent-experiences/ai-control-tower/ai-assets-managed-and-unmanaged.md)
 

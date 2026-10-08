@@ -42,8 +42,12 @@ Configure thresholds to define multiple performance levels, set specific ranges 
 
     -   If the threshold configuration validation is successful, the threshold is saved and becomes active based on the configured settings.
     -   If validation errors occur, the system displays error messages indicating the specific field and recommended actions. Review these messages and correct the issues before resubmitting.
-    The configured threshold is now active for the metric. When the Enable threshold breach monitoring check box is selected, the system monitors metric values and immediately triggers the specified actions when threshold levels are exceeded. Metric values are displayed with the appropriate color indicators in dashboards and reports.
+    The configured threshold is now active for the metric. When the Enable threshold breach monitoring option is selected, the system monitors metric values and immediately triggers the specified actions when threshold levels are exceeded. Metric values are displayed with the appropriate color indicators in dashboards and reports. Clearing the Enable threshold breach monitoring option hides the threshold justification field on affected metric data tasks.
 
+
+## What to do next
+
+You can edit or remove a threshold to keep the threshold ratings accurate. Editing a threshold recalculates the rating and breach status for associated metric data and metric definition data. Deleting or deactivating a threshold recalculates them against any other applicable threshold, or clears them if none applies. In either case, metric data that is already closed or completed keeps its existing rating.
 
 **Parent Topic:**[Configuring GRC: Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/environmental-social-governance/configuring-grc-metrics.md)
 

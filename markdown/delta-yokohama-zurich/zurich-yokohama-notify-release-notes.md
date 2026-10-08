@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-notify-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
-reading_time_minutes: 3
+last_updated: "2026-10-08"
+reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
 
@@ -46,32 +46,33 @@ Zurich
 
 </td><td>
 
+-   **Upgrade information**
+
 Starting with the Zurich release, Notify uses subflows instead of workflows. For existing users in Zurich, your current workflows are still supported. For new users, your Notify plugin installations use subflows.
 
- As part of this transition, the following workflow activities are available as flow actions and can be used when creating subflows:
+As part of this transition, the following workflow activities are available as flow actions and can be used when creating subflows:
 
--   Join conference call
--   Call
--   Send SMS
--   Forward call
--   Input
--   Hangup
--   Play
--   Record
--   Reject
--   Say
--   Forward to notify client
--   Queue
+    -   Join conference call
+    -   Call
+    -   Send SMS
+    -   Forward call
+    -   Input
+    -   Hangup
+    -   Play
+    -   Record
+    -   Reject
+    -   Say
+    -   Forward to notify client
+    -   Queue
+Maintain, build, and modify your own custom subflows in Workflow Studio with subflows for new instances. The following base system workflows have been migrated to subflows:
 
- Maintain, build, and modify your own custom subflows in Workflow Studio with subflows for new instances. The following base system workflows have been migrated to subflows:
-
--   \(Re\)join Conference Call
--   Join Conference Call with muting
--   Join Conference Call with SMS
-
+    -   \(Re\)join Conference Call
+    -   Join Conference Call with muting
+    -   Join Conference Call with SMS
 Your existing workflows continue to function after the upgrade.
 
 **Note:** All workflow-related artifacts have been moved to a new plugin, which is maintained in a support-only mode and isn't available for new installations.
+
 
 </td></tr></tbody>
 </table>## New features
@@ -141,7 +142,10 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
 
 </td></tr></tbody>
 </table>## Removed
@@ -220,7 +224,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Notify is a ServiceNow AI Platform feature that is active by default.
+
 
 </td></tr><tr><td>
 
@@ -228,7 +235,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Notify is a ServiceNow AI Platform feature that is active by default.
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -315,7 +325,11 @@ Zurich
 
 </td><td>
 
--   ****
+-   **Accessibility information**
+    -   **Dark theme**
+
+The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
 
 </td></tr></tbody>
 </table>## Localization information

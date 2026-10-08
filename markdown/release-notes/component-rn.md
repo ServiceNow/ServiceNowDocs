@@ -19,7 +19,7 @@ The ServiceNow® Next Experience Components are the components used to build cus
 -   Build rich UI experiences with prebuilt system or custom components. To view the Next Experience Components API reference, usage guidance, and ServiceNow® UI Builder setup documentation, visit the [Horizon site Next Experience Components doc](https://horizon.servicenow.com/workspace/components?release=zurich).
 -   Use common web component patterns and principles, such as a JavaScript framework, immutable data, and simple action handlers.
 -   Reuse components across multiple user interfaces to create a cohesive experience for your end users.
--   Use preset property values to configure properties and event handlers automatically for a component so that the component is ready to work when you add it to a page. Presets can connect to a controller that acts as a data resource for the component. For more information, see  and .
+-   Use preset property values to configure properties and event handlers automatically for a component so that the component is ready to work when you add it to a page. Presets can connect to a controller that acts as a data resource for the component. For more information, see [Automatically configure components using presets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/presets.md) and [Bind data to UI Builder pages using controllers \(advanced feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/controllers.md).
 
 ## Activation and other requirements
 

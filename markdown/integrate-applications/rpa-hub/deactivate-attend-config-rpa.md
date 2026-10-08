@@ -38,15 +38,15 @@ Deactivating an attended configuration record moves the state from **Active** to
 
 3.  Navigate to the Attended Configuration record either from the Attended Configuration menu list or from an attended bot process record's related list.
 
-<table id="choicetable_uqv_q52_vzb"><thead><tr><th align="left" id="d100480e140">
+<table id="choicetable_uqv_q52_vzb"><thead><tr><th align="left" id="d100562e140">
 
 Option
 
-</th><th align="left" id="d100480e143">
+</th><th align="left" id="d100562e143">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d100480e149">
+</th></tr></thead><tbody><tr><td id="d100562e149">
 
 **From an Attended Configuration menu list**
 
@@ -56,7 +56,7 @@ Action
 2.  Open an attended configuration record.
 
 
-</td></tr><tr><td id="d100480e176">
+</td></tr><tr><td id="d100562e176">
 
 **From an attended bot process record's related list**
 

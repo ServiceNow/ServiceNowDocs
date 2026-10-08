@@ -7,7 +7,7 @@ release: zurich
 topic_type: reference
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Create a facilities request task, Facilities request tasks, Facilities service management process, Facilities Service Management overview, Facilities Service Management, Service Management]
+breadcrumb: [Request task management, Request Management in a Service Management application, Service Management]
 ---
 
 # Task windows
@@ -19,8 +19,6 @@ Task windows can be flexible or fixed, and are used by the route optimization an
 For more information on creating work order tasks, see .
 
 For more information on Work order task start and end dates, see .
-
-**Parent Topic:**[Create a facilities request task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/service-management-for-the-enterprise/t_CreateAFacilitiesRequestTask.md)
 
 **Parent Topic:**[Request task management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/service-management-for-the-enterprise/c_RequestTasksMgmt.md)
 

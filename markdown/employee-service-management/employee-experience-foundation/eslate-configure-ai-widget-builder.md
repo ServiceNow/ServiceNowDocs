@@ -23,9 +23,11 @@ Activate Employee Slate \(built for Now Assist\) in the instance.
 
 An Oasis for Creator license for any admin who uses the AI chat panel.
 
-Role required: admin.
+Role required: aix\_admin
 
 ## About this task
+
+**Important:** The Roles field is removed from widgets. Access and visibility are now controlled through ACLs. Roles already defined still work, and the upgrade converts them. For more information, see [AI-powered Widget Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/employee-experience-foundation/eslate-ai-widget-builder.md).
 
 The AI widget builder lets admins describe a widget in plain language. The builder generates the widget code, validates it, and compiles it before preview.
 

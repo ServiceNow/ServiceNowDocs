@@ -7,7 +7,7 @@ release: zurich
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Assess third-party risk, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -32,15 +32,15 @@ When someone in your organization creates a due diligence request, the owner of 
 
 2.  Respond to an internal assessment by performing one of the following.
 
-<table id="choicetable_zqw_522_yfc"><thead><tr><th align="left" id="d123248e133">
+<table id="choicetable_zqw_522_yfc"><thead><tr><th align="left" id="d127234e133">
 
 Option
 
-</th><th align="left" id="d123248e136">
+</th><th align="left" id="d127234e136">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d123248e142">
+</th></tr></thead><tbody><tr><td id="d127234e142">
 
 **Respond to an IRQ or Internal questionnaire using the Classic engine**
 
@@ -48,7 +48,7 @@ Description
 
 In the My active items pane, select **Surveys** and In the My Assessments and Surveys section, select the assessment you want to respond to.
 
-</td></tr><tr><td id="d123248e154">
+</td></tr><tr><td id="d127234e154">
 
 **Respond to an IRQ or internal questionnaire using the Smart Assessment Engine**
 
@@ -57,6 +57,8 @@ In the My active items pane, select **Surveys** and In the My Assessments and Su
 1.  In the My active items pane, select **GRC tasks** and In the My to-dos section, select any number to open the list of assessments with that state.
 2.  Select the TPRM assessment that you want to respond to.
  **Note:** You can reassign a questionnaire to another team member by selecting the more actions menu icon \[Omitted image "context-menu-db-element-ac.png"\] Alt text: and selecting **Reassign**. After reassigning the questionnaire, you lose access to the questionnaire.
+
+Internal assessments can be reassigned to any member of your organization. Third-party and engagement contacts are excluded from the reassignment option for internal assessments.
 
 </td></tr></tbody>
 </table>3.  Answer all relevant questions in the questionnaire and then select **Submit**.

@@ -71,7 +71,7 @@ For detailed information on SQL Server supported versions see: [Detailed informa
 
 ## SQL failover cluster instance \(FCI\)
 
-Updating the version 1.6.1 set of Patterns available from the ServiceNow® Store starting August 2023 enables an appropriate discovery of the Always On availability group details and the SQL Failover Clusters. When the failover scenario is occurring, the MSSql DB On Windows pattern discovers the failover cluster \(Node 2\). Then a new MSFT SQL instance and databases are created.
+Starting with version 1.6.1 of the Patterns available from the ServiceNow® Store \(August 2023\), discovery of Always On availability group details and SQL Failover Clusters is supported. When a failover scenario occurs, the MSSql DB On Windows pattern discovers the failover cluster \(Node 2\). A new MSFT SQL instance and databases are then created.
 
 \[Omitted image "sql\_cluster\_discovery.png"\] Alt text: Node 2 is a duplicate of Node 1
 

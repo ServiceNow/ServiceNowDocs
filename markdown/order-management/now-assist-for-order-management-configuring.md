@@ -7,7 +7,7 @@ release: zurich
 topic_type: concept
 last_updated: "2026-01-13"
 reading_time_minutes: 3
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [ServiceNow Otto for Order Management]
 ---
 
@@ -44,7 +44,7 @@ Business-to-business \(B2B\) customers can submit order cases using ServiceNow O
 
 Enable AI voice agent support on your phone channels by installing the ServiceNow Otto Voice \[sn\_voice\_aia\] plugin. For more information, see [Deploy AI voice agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/deploy-ai-agents-for-voice.md).
 
-Configure Chat Summarization to enable the AI summarization and recommendation features in Active Chat. For more information, see .
+Configure Chat Summarization to enable the AI summarization and recommendation features in Active Chat. For more information, see [Configure chat summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/configure-chat-summarization-in-now-assist_0.md).
 
 ## Configuring the Manage Invoice Operations application
 
@@ -57,7 +57,7 @@ Business-to-business \(B2B\) customers can submit invoice cases using ServiceNow
 
 Enable AI voice agent support on your phone channels by installing the ServiceNow Otto Voice \[sn\_voice\_aia\] plugin. For more information, see [Deploy AI voice agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/deploy-ai-agents-for-voice.md).
 
-Configure Chat Summarization to enable the AI summarization and recommendation features in Active Chat. For more information, see .
+Configure Chat Summarization to enable the AI summarization and recommendation features in Active Chat. For more information, see [Configure chat summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/configure-chat-summarization-in-now-assist_0.md).
 
 **Related topics**  
 

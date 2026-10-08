@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/application-portfolio-ma
 release: zurich
 topic_type: task
 last_updated: "2026-07-20"
-reading_time_minutes: 7
+reading_time_minutes: 8
 breadcrumb: [Configure, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\)]
 ---
 
@@ -16,7 +16,7 @@ If you have the admin role, you can configure the ServiceNow Otto for Enterprise
 
 ## Before you begin
 
-**Note:** Depending on your license, you have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
 Role required: admin
 
@@ -37,6 +37,8 @@ The following table lists the features and skills that you can access from the A
 |Business process map diagrams|Create diagram from image \(Enterprise Architecture Workspace\)|
 
 **Note:** The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
+
+**Note:** Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. We're committed to bringing you the latest industry advancements while maintaining sovereignty-focused options, all hosted and governed by ServiceNow with the infrastructure and data protections you rely on today. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
 
 The ServiceNow Otto for Enterprise Architecture \(EA\) system requirements are as follows:
 
@@ -59,15 +61,15 @@ The ServiceNow Otto for Enterprise Architecture \(EA\) system requirements are a
 
 5.  Activate and configure the skill for ServiceNow Otto for Enterprise Architecture \(EA\).
 
-<table id="choicetable_wnn_hyf_b2c"><thead><tr><th align="left" id="d39796e349">
+<table id="choicetable_wnn_hyf_b2c"><thead><tr><th align="left" id="d39877e366">
 
 Skill
 
-</th><th align="left" id="d39796e352">
+</th><th align="left" id="d39877e369">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d39796e358">
+</th></tr></thead><tbody><tr><td id="d39877e375">
 
 **ADR Doc Summarization and Actions**
 
@@ -78,7 +80,7 @@ Action
 3.  Go to step 6 and review the details.
 
 
-</td></tr><tr><td id="d39796e389">
+</td></tr><tr><td id="d39877e406">
 
 **Business application insights**
 
@@ -89,7 +91,13 @@ Action
 3.  On the **Define availability** tab, configure when and under what conditions the skill will be available and select **Save and continue**. The available options are:
     -   **Skill is always available**: Select this option if you want the skill to be available at all times.
     -   **Customize skill availability**: Select this option if you want to define specific conditions for the availability of the skill. For example, you can define whether you want this skill to be available for active business applications.
-4.  On the **Define access** tab, verify the roles that have access to the skill.
+4.  On the **Define trigger** tab, select how the skill is triggered and select **Save and continue**. The available options are:
+
+    -   **User trigger**: Select this option if you want users to generate business application insights on demand by selecting **Generate insights**. Insights are generated only when users request them, which helps avoid generating insights when users only want to view business application details. For example, in the application rationalization bubble chart, the side panel opens on the **Details** tab.
+    -   **Automatic**: Select this option if you want the skill to generate business application insights automatically, without user interaction. For example, when users open a business application record page, the insights are already generated. For example, in the application rationalization bubble chart, the side panel opens on the **Insights** tab. Optionally, define conditions for triggering the skill automatically by selecting a field, an operator, and a value. To add more conditions, select **New condition set**. For example, you can set the skill to trigger automatically only for active business applications.
+By default, the skill trigger is set to **Automatic**.
+
+5.  On the **Define access** tab, verify the roles that have access to the skill.
 
 If you want to provide access to more roles, perform the following:
 
@@ -98,13 +106,13 @@ If you want to provide access to more roles, perform the following:
     3.  Select the user access level, according to your requirement.
         -   **Any authenticated user**: Selecting this option enables any logged-in user to use the skill.
         -   **Select Roles**: Selecting this option enables you to add specific roles in the **Roles** field.
-5.  Select **Apply**.
+6.  Select **Apply**.
 
 The new role is added to the access list.
 
 **Note:** The **Role restrictions to skill** section displays the roles that have access to the skill, by default.
 
-6.  Go to step 6 and review the details.
+7.  Go to step 6 and review the details.
  **Note:** An admin user can also define and configure custom parameters for the prompt. To define and configure custom parameters, perform the following:
 
 1.  Select the context menu icon \(\[Omitted image "eaw-icon-menu.png"\] Alt text: Row context menu icon.\) next on the **Business applications insights** card.
@@ -117,12 +125,13 @@ The You are making a copy of a skill dialog box appears.
     1.  On the **General details** tab, modify the name or description of the skill and select **Save and continue**.
     2.  On the **Choose input** tab, modify the table, fields, and related list details that ServiceNow Otto® leverages to generate business application insights and select **Save and continue**.
     3.  On the **Define availability** tab, configure when and under what conditions the skill will be available and select **Save and continue**.
-    4.  On the **Define access** tab, modify the roles that have access to the skill and select **Save and continue**.
-    5.  On the **Select display** tab, enable the **Display** toggle and then elect **Save and continue**.
-    6.  On the **Review and activate** tab, review the summary of your choices and select **Activate**.
+    4.  On the **Define trigger** tab, select how the skill is triggered and select **Save and continue**.
+    5.  On the **Define access** tab, modify the roles that have access to the skill and select **Save and continue**.
+    6.  On the **Select display** tab, enable the **Display** toggle and then elect **Save and continue**.
+    7.  On the **Review and activate** tab, review the summary of your choices and select **Activate**.
 
 
-</td></tr><tr><td id="d39796e600">
+</td></tr><tr><td id="d39877e661">
 
 **Diagram change analysis**
 
@@ -147,7 +156,7 @@ The new role is added to the access list.
 
 The diagram change analysis skill is activated.
 
-</td></tr><tr><td id="d39796e689">
+</td></tr><tr><td id="d39877e750">
 
 **Refine text**
 
@@ -157,7 +166,7 @@ The diagram change analysis skill is activated.
 2.  Go to step 6 and review the details.
 
 
-</td></tr><tr><td id="d39796e711">
+</td></tr><tr><td id="d39877e772">
 
 **Create diagram from image**
 

@@ -40,7 +40,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 ## Data collected by Discovery during horizontal discovery
 
-The **Collect Certificates** extension section of the **Linux Server** and **Windows OS – Servers** patterns support discovery of the following table and fields.
+The **Collect Certificates** extension section of the **Linux Server** and **Windows OS – Servers** patterns support discovery of the following tables and fields.
 
 <table id="table_w2j_l53_2nb"><thead><tr><th>
 
@@ -50,11 +50,7 @@ Field
 
 Description
 
-</th></tr></thead><tbody><tr><td class="sub-head" colspan="2">
-
-Unique Certificates \[cmdb\_ci\_certificate\] ​
-
-</td></tr><tr><td>
+</th></tr></thead><tbody><tr><td>
 
 Fingerprint \[fingerprint\]
 
@@ -210,11 +206,16 @@ Issuer \[issuer\]
 
 In this field, there’s a reference to the certificate record. The issuer is the entity that signed and issued the certificate. The reference is available if the issued certificate is a part of the same payload.
 
-</td></tr><tr><td colspan="2">
+</td></tr></tbody>
+</table><table id="table_installed_certificate"><thead><tr><th>
 
-Installed Certificate \[sn\_disco\_certmgmt\_cmdb\_installed\_certificate\]
+Field
 
-</td></tr><tr><td>
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
 
 Discovery Method \[discovery\_method\]
 

@@ -105,5 +105,5 @@ Flow action to attach scripting that designates what undo actions, or cancellati
 
 [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/application-development/flow-designer.md)
 
-[bundle-crworkflow.flows]
+[Flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/build-workflows/flows.md)
 

@@ -67,7 +67,7 @@ The ServiceNow® MCP Server Console application enables secure and governed acce
 
 ### What's new
 
--   ****
+-   **[ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/ai-native-sku-overview.md)**
 
     The ServiceNow AI Platform now brings you an AI native experience with three licensing tiers available:
 

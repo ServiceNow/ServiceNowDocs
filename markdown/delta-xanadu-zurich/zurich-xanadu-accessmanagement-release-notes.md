@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-accessmanagement-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
+last_updated: "2026-10-08"
 reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
@@ -266,7 +266,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Access Management is a ServiceNow AI Platform feature that is active by default.
+
 
 </td></tr><tr><td>
 
@@ -274,7 +277,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Access Management is a ServiceNow AI Platform feature that is active by default.
+
 
 </td></tr></tbody>
 </table>## Additional requirements

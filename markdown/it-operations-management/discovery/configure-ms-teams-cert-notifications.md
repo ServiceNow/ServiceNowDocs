@@ -7,7 +7,7 @@ release: zurich
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-09-16"
+last_updated: "2026-10-08"
 reading_time_minutes: 2
 keywords: [configure Microsoft Teams CIM notifications, certificate expiration Teams channel, CIM Teams spoke setup]
 breadcrumb: [Certificate alerts and notifications, Configure, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
@@ -19,7 +19,7 @@ Configure certificate notifications to be delivered to a Microsoft Teams channel
 
 ## Before you begin
 
-Verify that the Microsoft Teams spoke is installed and configured. For more information, see [Set up the](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/set-up-msteams.md).
+Verify that the Microsoft Teams spoke is installed and configured. For more information, see .
 
 Role required: pki\_admin or admin.
 

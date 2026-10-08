@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/zurich-xan
 release: zurich
 topic_type: reference
 last_updated: "2020-06-26"
-reading_time_minutes: 9
+reading_time_minutes: 8
 breadcrumb: [Release notes for upgrading from Xanadu, Learn about the Zurich release, Zurich release notes]
 ---
 
@@ -44,14 +44,6 @@ Accounts Payable Operations
 
 </td></tr><tr><td>
 
-Activity Management
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-activitymanagement-release-notes.html)
-
-</td></tr><tr><td>
-
 Adoption Services
 
 </td><td>
@@ -65,14 +57,6 @@ Advanced AI Search Management Tools
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-advancedaisearchmanagementtools-release-notes.html)
-
-</td></tr><tr><td>
-
-Advanced Approval Management
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-advancedapprovalmanagement-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -124,22 +108,6 @@ Agent experience for CSM
 
 </td></tr><tr><td>
 
-Agentic Contact Center for Banking
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-agenticcontactcenterforbanking-release-notes.html)
-
-</td></tr><tr><td>
-
-Agentic Contact Center for Insurance
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-agenticcontactcenterforinsurance-release-notes.html)
-
-</td></tr><tr><td>
-
 Agent Workspace for HR Case Management
 
 </td><td>
@@ -148,19 +116,19 @@ Agent Workspace for HR Case Management
 
 </td></tr><tr><td>
 
-Agile Development 2.0
+AI Agent Studio
 
 </td><td>
 
-[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-agiledevelopment20-release-notes.html)
+[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-aiagentstudio-release-notes.html)
 
 </td></tr><tr><td>
 
-AI Agent Advisor
+AI Analytics
 
 </td><td>
 
-[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-aiagentadvisor-release-notes.html)
+[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-aianalytics-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -201,6 +169,14 @@ AI Search
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-aisearch-release-notes.html)
+
+</td></tr><tr><td>
+
+AI Skill Kit
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-aiskillkit-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -316,6 +292,14 @@ Automation Discovery
 
 </td></tr><tr><td>
 
+Autonomous Workforce
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-autonomousworkforce-release-notes.html)
+
+</td></tr><tr><td>
+
 Benchmarks
 
 </td><td>
@@ -337,14 +321,6 @@ Business Continuity Management
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-businesscontinuitymanagement-release-notes.html)
-
-</td></tr><tr><td>
-
-Buying Group
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-buyinggroup-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -404,14 +380,6 @@ Care Team Operations for Healthcare IT
 
 </td></tr><tr><td>
 
-Care Team Work Management
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-careteamworkmanagement-release-notes.html)
-
-</td></tr><tr><td>
-
 Case and Knowledge Management
 
 </td><td>
@@ -460,11 +428,11 @@ Cloud Account Management
 
 </td></tr><tr><td>
 
-Cloud Cost Management 10.0
+Cloud Cost Management
 
 </td><td>
 
-[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-cloudcostmanagement100-release-notes.html)
+[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-cloudcostmanagement-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -473,14 +441,6 @@ Cloud Cost Management 8.0.0
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-cloudcostmanagement800-release-notes.html)
-
-</td></tr><tr><td>
-
-Cloud Cost Management 9.0
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-cloudcostmanagement90-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -564,14 +524,6 @@ Container Vulnerability Response
 
 </td></tr><tr><td>
 
-Content Management System
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-contentmanagementsystem-release-notes.html)
-
-</td></tr><tr><td>
-
 Continual Improvement Management
 
 </td><td>
@@ -620,27 +572,11 @@ Conversation Insights
 
 </td></tr><tr><td>
 
-Core Business Suite
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-corebusinesssuite-release-notes.html)
-
-</td></tr><tr><td>
-
 Core ServiceNow AI Platform
 
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-coreservicenowaiplatform-release-notes.html)
-
-</td></tr><tr><td>
-
-CPQ
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-cpq-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -700,14 +636,6 @@ Customer Success Management
 
 </td></tr><tr><td>
 
-Data Catalog
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-datacatalog-release-notes.html)
-
-</td></tr><tr><td>
-
 Data Loss Prevention Incident Response
 
 </td><td>
@@ -737,14 +665,6 @@ Data Privacy
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-dataprivacy-release-notes.html)
-
-</td></tr><tr><td>
-
-Data products
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-dataproducts-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -956,14 +876,6 @@ Enterprise Asset Management
 
 </td></tr><tr><td>
 
-Enterprise Service Management Foundation
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-enterpriseservicemanagementfoundation-release-notes.html)
-
-</td></tr><tr><td>
-
 ERP Semantic Mining
 
 </td><td>
@@ -1028,27 +940,11 @@ Financial Services Operations Integration with Mastercard
 
 </td></tr><tr><td>
 
-Financial Services Operations Integration with Verifi
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-financialservicesoperationsintegrationwithverifi-release-notes.html)
-
-</td></tr><tr><td>
-
 Financial Services Operations Integration with Visa
 
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-financialservicesoperationsintegrationwithvisa-release-notes.html)
-
-</td></tr><tr><td>
-
-Flows, Subflows, and Actions
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-flowssubflowsandactions-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -1204,14 +1100,6 @@ Impact
 
 </td></tr><tr><td>
 
-Import and Export
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-importandexport-release-notes.html)
-
-</td></tr><tr><td>
-
 Incident Management
 
 </td><td>
@@ -1228,43 +1116,11 @@ Individual Life Claims
 
 </td></tr><tr><td>
 
-Industrial Connected Workforce Core
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-industrialconnectedworkforcecore-release-notes.html)
-
-</td></tr><tr><td>
-
-Industrial Connected Workforce Mobile Experience
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-industrialconnectedworkforcemobileexperience-release-notes.html)
-
-</td></tr><tr><td>
-
-Industrial Guided Tasks
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-industrialguidedtasks-release-notes.html)
-
-</td></tr><tr><td>
-
 Industrial Process Manager
 
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-industrialprocessmanager-release-notes.html)
-
-</td></tr><tr><td>
-
-Industrial Standards
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-industrialstandards-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -1356,11 +1212,11 @@ ITOM Visibility
 
 </td></tr><tr><td>
 
-IT Service Management
+ITSM MCP Server
 
 </td><td>
 
-[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-itservicemanagement-release-notes.html)
+[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-itsmmcpserver-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -1396,14 +1252,6 @@ Journey designer
 
 </td></tr><tr><td>
 
-Key Management
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-keymanagement-release-notes.html)
-
-</td></tr><tr><td>
-
 Knowledge Center
 
 </td><td>
@@ -1425,6 +1273,14 @@ Knowledge Management
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-knowledgemanagement-release-notes.html)
+
+</td></tr><tr><td>
+
+L1 IT Service Desk AI Specialist
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-l1itservicedeskaispecialist-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -1505,14 +1361,6 @@ Legal Request Management
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-legalrequestmanagement-release-notes.html)
-
-</td></tr><tr><td>
-
-Legal Virtual Agent Conversations
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-legalvirtualagentconversations-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -1676,70 +1524,6 @@ Now Assist AI agents
 
 </td></tr><tr><td>
 
-Now Assist Analytics
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-nowassistanalytics-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist Center
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-nowassistcenter-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for App Engine
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-nowassistforappengine-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for CMDB
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-nowassistforcmdb-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Collaborative Work Management
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-nowassistforcollaborativeworkmanagement-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Collaborative Work Management \(CWM\)
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-nowassistforcollaborativeworkmanagementcwm-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Configuration Management Database \(CMDB\)
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-nowassistforconfigurationmanagementdatabasecmdb-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Configure, Price, Quote \(CPQ\)
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-nowassistforconfigurepricequotecpq-release-notes.html)
-
-</td></tr><tr><td>
-
 Now Assist for Creator
 
 </td><td>
@@ -1753,14 +1537,6 @@ Now Assist for Customer Service Management \(CSM\)
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-nowassistforcustomerservicemanagementcsm-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Employee Center Pro
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-nowassistforemployeecenterpro-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -1788,27 +1564,11 @@ Now Assist for Financial Services Operations \(FSO\)
 
 </td></tr><tr><td>
 
-Now Assist for FSM
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-nowassistforfsm-release-notes.html)
-
-</td></tr><tr><td>
-
 Now Assist for Hardware Asset Management \(HAM\)
 
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-nowassistforhardwareassetmanagementham-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for HR Service Delivery \(HRSD\)
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-nowassistforhrservicedeliveryhrsd-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -1828,99 +1588,11 @@ Now Assist for IT Service Management \(ITSM\)
 
 </td></tr><tr><td>
 
-Now Assist for Legal Service Delivery \(LSD\)
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-nowassistforlegalservicedeliverylsd-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Manufacturing Commercial Operations \(MCO\)
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-nowassistformanufacturingcommercialoperationsmco-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Operational Sustainability Management Management
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-nowassistforoperationalsustainabilitymanagementmanagement-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Operational Technology Service Management \(OTSM\)
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-nowassistforoperationaltechnologyservicemanagementotsm-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Order Management
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-nowassistforordermanagement-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Retail Service Management \(RSM\)
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-nowassistforretailservicemanagementrsm-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Sales CRM for Telecommunications
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-nowassistforsalescrmfortelecommunications-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Sales Force Automation \(SFA\)
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-nowassistforsalesforceautomationsfa-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Security Incident Response
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-nowassistforsecurityincidentresponse-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Security Incident Response \(SIR\)
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-nowassistforsecurityincidentresponsesir-release-notes.html)
-
-</td></tr><tr><td>
-
 Now Assist for Security Operations
 
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-nowassistforsecurityoperations-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Software Asset Management \(SAM\)
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-nowassistforsoftwareassetmanagementsam-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -1948,43 +1620,11 @@ Now Assist for Telecommunications, Media and Technology \(TMT\)
 
 </td></tr><tr><td>
 
-Now Assist for Third-party Risk Management \(TPRM\)
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-nowassistforthirdpartyriskmanagementtprm-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Vault
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-nowassistforvault-release-notes.html)
-
-</td></tr><tr><td>
-
 Now Assist for Vulnerability Response
 
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-nowassistforvulnerabilityresponse-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Workplace Service Delivery \(WSD\)
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-nowassistforworkplaceservicedeliverywsd-release-notes.html)
-
-</td></tr><tr><td>
-
-Now Assist for Zero Copy Connector
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-nowassistforzerocopyconnector-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -2028,14 +1668,6 @@ Now Assist in Virtual Agent
 
 </td></tr><tr><td>
 
-Now Assist Skill Kit
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-nowassistskillkit-release-notes.html)
-
-</td></tr><tr><td>
-
 Now Mobile
 
 </td><td>
@@ -2065,14 +1697,6 @@ Operational Sustainability Management
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-operationalsustainabilitymanagement-release-notes.html)
-
-</td></tr><tr><td>
-
-Operational Sustainability Management \(formerly Environmental, Social, and Governance\)
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-operationalsustainabilitymanagementformerlyenvironmentalsocialandgovernance-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -2212,14 +1836,6 @@ Platform Analytics experience
 
 </td></tr><tr><td>
 
-Playbook
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-playbook-release-notes.html)
-
-</td></tr><tr><td>
-
 Playbooks in Workflow Studio
 
 </td><td>
@@ -2244,27 +1860,11 @@ Portfolio Planning
 
 </td></tr><tr><td>
 
-Predictive AI for CSM
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-predictiveaiforcsm-release-notes.html)
-
-</td></tr><tr><td>
-
 Predictive Intelligence
 
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-predictiveintelligence-release-notes.html)
-
-</td></tr><tr><td>
-
-Predictive intelligence for Legal Service Delivery
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-predictiveintelligenceforlegalservicedelivery-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -2324,14 +1924,6 @@ Product Catalog Management and Pricing Management
 
 </td></tr><tr><td>
 
-Product Support for Technology
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-productsupportfortechnology-release-notes.html)
-
-</td></tr><tr><td>
-
 Project Portfolio Management
 
 </td><td>
@@ -2369,14 +1961,6 @@ Quote Management
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-quotemanagement-release-notes.html)
-
-</td></tr><tr><td>
-
-Recommended Actions for HRSD
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-recommendedactionsforhrsd-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -2444,14 +2028,6 @@ Resource Management Workspace
 
 </td></tr><tr><td>
 
-Retail
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-retail-release-notes.html)
-
-</td></tr><tr><td>
-
 Retail applications
 
 </td><td>
@@ -2476,14 +2052,6 @@ Retail Operations
 
 </td></tr><tr><td>
 
-Retail Strategic Portfolio Management Suite
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-retailstrategicportfoliomanagementsuite-release-notes.html)
-
-</td></tr><tr><td>
-
 Retail Task Management Core
 
 </td><td>
@@ -2500,14 +2068,6 @@ Return Merchandise Authorization
 
 </td></tr><tr><td>
 
-Reverse Tunnel
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-reversetunnel-release-notes.html)
-
-</td></tr><tr><td>
-
 RPA Hub
 
 </td><td>
@@ -2521,14 +2081,6 @@ Sales Agreement Management
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-salesagreementmanagement-release-notes.html)
-
-</td></tr><tr><td>
-
-Sales CRM for Telecommunications
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-salescrmfortelecommunications-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -2612,14 +2164,6 @@ Service Exchange
 
 </td></tr><tr><td>
 
-Service Exchange \(formerly Service Bridge\)
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-serviceexchangeformerlyservicebridge-release-notes.html)
-
-</td></tr><tr><td>
-
 Service Graph Connector for Microsoft Defender for IoT \(Azure\)
 
 </td><td>
@@ -2668,19 +2212,299 @@ ServiceNow AI Platform core feature
 
 </td></tr><tr><td>
 
-ServiceNow CLI
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-servicenowcli-release-notes.html)
-
-</td></tr><tr><td>
-
 ServiceNow IDE
 
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-servicenowide-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-servicenowotto-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for App Engine
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-servicenowottoforappengine-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for CMDB
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-servicenowottoforcmdb-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Collaborative Work Management \(CWM\)
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-servicenowottoforcollaborativeworkmanagementcwm-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\)
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-servicenowottoforcollaborativeworkmanagementcwmcwm-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Configuration Management Database \(CMDB\)
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-servicenowottoforconfigurationmanagementdatabasecmdb-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Configure, Price, Quote \(CPQ\)
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-servicenowottoforconfigurepricequotecpq-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Creator
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-servicenowottoforcreator-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Customer Service Management \(CSM\)
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-servicenowottoforcustomerservicemanagementcsm-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Enterprise Architecture \(EA\)
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-servicenowottoforenterprisearchitectureea-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Field Service Management \(FSM\)
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-servicenowottoforfieldservicemanagementfsm-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Financial Services Operations \(FSO\)
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-servicenowottoforfinancialservicesoperationsfso-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for FSM
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-servicenowottoforfsm-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Hardware Asset Management \(HAM\)
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-servicenowottoforhardwareassetmanagementham-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for HR Service Delivery \(HRSD\)
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-servicenowottoforhrservicedeliveryhrsd-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for IT Operations Management \(ITOM\)
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-servicenowottoforitoperationsmanagementitom-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for IT Service Management \(ITSM\)
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-servicenowottoforitservicemanagementitsm-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Legal Service Delivery \(LSD\)
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-servicenowottoforlegalservicedeliverylsd-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Manufacturing Commercial Operations \(MCO\)
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-servicenowottoformanufacturingcommercialoperationsmco-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Operational Sustainability Management Management
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-servicenowottoforoperationalsustainabilitymanagementmanagement-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Operational Technology \(OT\) Service Management
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-servicenowottoforoperationaltechnologyotservicemanagement-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Order Management
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-servicenowottoforordermanagement-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Platform Analytics
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-servicenowottoforplatformanalytics-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Retail Service Management \(RSM\)
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-servicenowottoforretailservicemanagementrsm-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Sales Automation
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-servicenowottoforsalesautomation-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Sales Customer Relationship Management for Telecommunications
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-servicenowottoforsalescustomerrelationshipmanagementfortelecommunications-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Security Incident Response \(SIR\)
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-servicenowottoforsecurityincidentresponsesir-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Security Incident Response \(SIR\) \(SIR\)
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-servicenowottoforsecurityincidentresponsesirsir-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Software Asset Management \(SAM\)
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-servicenowottoforsoftwareassetmanagementsam-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Source-to-Pay Operations
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-servicenowottoforsourcetopayoperations-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Strategic Portfolio Management
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-servicenowottoforstrategicportfoliomanagement-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-servicenowottofortelecommunicationsmediaandtechnologytmt-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Third-party Risk Management \(TPRM\)
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-servicenowottoforthirdpartyriskmanagementtprm-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Unified Security Exposure Management
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-servicenowottoforunifiedsecurityexposuremanagement-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Vault
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-servicenowottoforvault-release-notes.html)
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Workplace Service Delivery \(WSD\)
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-servicenowottoforworkplaceservicedeliverywsd-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -2745,14 +2569,6 @@ Service Reliability Management
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-servicereliabilitymanagement-release-notes.html)
-
-</td></tr><tr><td>
-
-Setup Hub
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-setuphub-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -2825,14 +2641,6 @@ Sourcing and Procurement Operations
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-sourcingandprocurementoperations-release-notes.html)
-
-</td></tr><tr><td>
-
-SPM Enterprise-Wide Deployment
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-spmenterprisewidedeployment-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -2940,19 +2748,19 @@ Task Intelligence for ITSM
 
 </td></tr><tr><td>
 
-Telecommunications Customer 360
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-telecommunicationscustomer360-release-notes.html)
-
-</td></tr><tr><td>
-
 Telecommunications Network Inventory
 
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-telecommunicationsnetworkinventory-release-notes.html)
+
+</td></tr><tr><td>
+
+Telecommunications Service Operations Management
+
+</td><td>
+
+[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-telecommunicationsserviceoperationsmanagement-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -3009,14 +2817,6 @@ Unified Security Exposure Management
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-unifiedsecurityexposuremanagement-release-notes.html)
-
-</td></tr><tr><td>
-
-Universal Request
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-universalrequest-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -3124,27 +2924,11 @@ Workflow Studio
 
 </td></tr><tr><td>
 
-Workforce Optimization for CSM
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-workforceoptimizationforcsm-release-notes.html)
-
-</td></tr><tr><td>
-
 Workforce Optimization for Customer Service CSM
 
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-workforceoptimizationforcustomerservicecsm-release-notes.html)
-
-</td></tr><tr><td>
-
-Workforce Optimization for HR
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-workforceoptimizationforhr-release-notes.html)
 
 </td></tr><tr><td>
 
@@ -3177,14 +2961,6 @@ Zero Copy Connector Hub
 </td><td>
 
 [Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-zerocopyconnectorhub-release-notes.html)
-
-</td></tr><tr><td>
-
-Zero Copy Connectors
-
-</td><td>
-
-[Link](https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-zerocopyconnectors-release-notes.html)
 
 </td></tr></tbody>
 </table>

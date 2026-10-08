@@ -1,11 +1,11 @@
 ---
 title: ITSM MCP Server
-description: Connect an AI-enabled Model Context Protocol \(MCP\) client application to your ServiceNow environment using the ITSM MCP Server. This connection enables incident and change management for service desk agents and IT managers, and enables requesters to check and manage their own tickets.
+description: Connect an AI-enabled Model Context Protocol \(MCP\) client application to your ServiceNow environment using the ITSM MCP Server. This connection provides incident and change management for service desk agents and IT managers, and allows requesters to check and manage their own tickets.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-service-management/itsm-mcp-server-overview.html
 release: zurich
 topic_type: concept
-last_updated: "2026-07-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [ITSM MCP Server, Model Context Protocol, AI integration, incident management, change management, change requests, knowledge graph, Now Assist, service desk agents, IT managers, natural language, AI clients, Claude, Microsoft Copilot]
 audience: [administrator, user]
@@ -14,7 +14,7 @@ breadcrumb: [IT Service Management]
 
 # ITSM MCP Server
 
-Connect an AI-enabled Model Context Protocol \(MCP\) client application to your ServiceNow environment using the ITSM MCP Server. This connection enables incident and change management for service desk agents and IT managers, and enables requesters to check and manage their own tickets.
+Connect an AI-enabled Model Context Protocol \(MCP\) client application to your ServiceNow environment using the ITSM MCP Server. This connection provides incident and change management for service desk agents and IT managers, and allows requesters to check and manage their own tickets.
 
 ## ITSM MCP Server capabilities
 
@@ -34,7 +34,7 @@ The ITSM MCP Server handles these core incident management capabilities:
 The ITSM MCP Server handles these core change management capabilities:
 
 -   Answers natural-language questions about changes and related data across multiple tables.
--   Searches and retrieves change request data, similar changes, and aggregation of changes by various criteria for example, state, risk, or assignment group.
+-   Searches and retrieves change request data, similar changes, and aggregation of changes by various criteria such as state, risk, or assignment group.
 -   Executes the end-to-end change lifecycle, including creation, updates, and closure.
     -   Suggests the appropriate change model or template.
     -   Fills out change details such as assignment group, CIs, and planning fields.
@@ -66,8 +66,8 @@ These on-call capabilities are inactive by default. To use them, you must first 
 |Users|Description|
 |-----|-----------|
 |IT administrators|Activates the ITSM MCP Server.|
-|Service desk agents, change managers, and fulfillers|Use the ITSM MCP Server to investigate incidents, manage change requests, perform updates, and move incidents and change requests through their lifecycle, without switching between windows or opening forms. Users ask questions through the MCP client application and request actions in the chat.|
-|Employees and requesters|Use the ITSM MCP Server to create incidents, check the status of their own incidents and requested items, escalate incidents, and add comments, through an MCP client application, without opening the ServiceNow instance directly.|
+|Service desk agents, change managers, and fulfillers|Use the ITSM MCP Server to investigate incidents, manage change requests, and perform updates through chat without switching windows or opening forms. Users ask questions through the MCP client application and request actions in the chat.|
+|Employees and requesters|Use the ITSM MCP Server to create incidents, check status, escalate, and add comments through chat without opening the ServiceNow instance.|
 
 ## Server operation
 

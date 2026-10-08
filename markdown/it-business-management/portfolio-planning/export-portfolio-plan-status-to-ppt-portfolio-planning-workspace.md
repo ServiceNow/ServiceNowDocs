@@ -7,7 +7,7 @@ release: zurich
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -20,7 +20,10 @@ Export the status of work items, roadmap, and key metrics of your portfolio plan
 
 [Install Export to PowerPoint for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-business-management/export-to-powerpoint-for-application-portfolio-management/install-export-to-ppt.md).
 
-**Important:** Export to PowerPoint is currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. Please check for availability updates in future releases.
+**Important:** Availability of Export to PowerPoint:
+
+-   For general customers: Available for all customers
+-   For regulated customers: Supported on GCC, NSC, SPP-AU, SPP-SG, and Australia IRAP-Protected data centers
 
 Role required: admin
 
@@ -39,15 +42,15 @@ You can customize the type of the data to be shown in the generated report by up
 
 2.  Export the status of goals, work items, roadmap, and key metrics of your portfolio plan and free-form roadmap into a Microsoft PowerPoint file.
 
-<table id="choicetable_qkd_qrh_bcc"><thead><tr><th align="left" id="d44929e148">
+<table id="choicetable_qkd_qrh_bcc"><thead><tr><th align="left" id="d44920e157">
 
 For exporting this data
 
-</th><th align="left" id="d44929e151">
+</th><th align="left" id="d44920e160">
 
 Perform these steps
 
-</th></tr></thead><tbody><tr><td id="d44929e157">
+</th></tr></thead><tbody><tr><td id="d44920e166">
 
 **Portfolio plan or roadmap with default settings**
 
@@ -62,7 +65,7 @@ Perform these steps
 
 \[Omitted image "ppt-export-template-ppw.png"\] Alt text: Select a template to export portfolio plan.
 
-</td></tr><tr><td id="d44929e208">
+</td></tr><tr><td id="d44920e217">
 
 **Roadmap or free-form roadmap with customized settings**
 

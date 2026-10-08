@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-generativeaicontroller-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
-reading_time_minutes: 8
+last_updated: "2026-10-08"
+reading_time_minutes: 9
 breadcrumb: [Products combined by family]
 ---
 
@@ -38,7 +38,10 @@ Yokohama
 
 </td><td>
 
+-   **Upgrade information**
+
 Generative AI Controller is installed and updated when you install or update any Now Assist application. If you have issues installing or updating applications, see this [knowledge article](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1637452) for steps that may address your issue. Otherwise, you can make a Support case.
+
 
 </td></tr><tr><td>
 
@@ -46,7 +49,10 @@ Zurich
 
 </td><td>
 
+-   **Upgrade information**
+
 Generative AI Controller is installed or updated when you install or update a Now Assist application. If you have issues installing or updating applications, see this [knowledge article](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1637452) or open a support case.
+
 
 </td></tr></tbody>
 </table>## New features
@@ -72,7 +78,7 @@ Yokohama
 Connect Generative AI Controller to your Azure OpenAI deployment by configuring a custom resource path in your bring your own key \(BYOK\) model configuration. Use this when your Azure OpenAI endpoint includes a path segment that Generative AI Controller does not add by default.
 
 
--   **[Administrator access to Gen AI log](https://www.servicenow.com/docs/access?context=reference-for-generative-ai-controller&family=yokohama&ft:locale=en-US)**
+ -   **[Administrator access to Gen AI log](https://www.servicenow.com/docs/access?context=reference-for-generative-ai-controller&family=yokohama&ft:locale=en-US)**
 
 Access the Gen AI log \[sys\_generative\_ai\_log\] table to gain insights for debugging purposes. Records related to HR remain restricted to HR admins.
 
@@ -81,12 +87,12 @@ Access the Gen AI log \[sys\_generative\_ai\_log\] table to gain insights for de
 Track the enhanced AI asset inventory through AI Control Tower using new metadata fields in the Model \[sys\_generative\_ai\_model\_config\] and Prompt \[sys\_generative\_ai\_config\] tables. Gain better visibility into AI asset status and life-cycle details, such as retirement dates.
 
 
--   **[AI Model Version Mappings](https://www.servicenow.com/docs/access?context=reference-for-generative-ai-controller&family=yokohama&ft:locale=en-US)**
+ -   **[AI Model Version Mappings](https://www.servicenow.com/docs/access?context=reference-for-generative-ai-controller&family=yokohama&ft:locale=en-US)**
 
 Review the mappings between AI model versions, their providers in the Gen AI Model Version Mapping \[sys\_gen\_ai\_model\_version\_mapping\] table. It shows mapping between source and target models, along with associated metadata, such as skill type, model type, resource associations, and provider information.
 
 
--   **[Identify third-party LLM information](https://www.servicenow.com/docs/access?context=reference-for-generative-ai-controller&family=yokohama&ft:locale=en-US)**
+ -   **[Identify third-party LLM information](https://www.servicenow.com/docs/access?context=reference-for-generative-ai-controller&family=yokohama&ft:locale=en-US)**
 
 Access the Gen AI Log Metadata \[sys\_gen\_ai\_log\_metadata\] table to identify which LLM model, version, and requested language was used to generate the AI content.
 
@@ -95,7 +101,7 @@ Access the Gen AI Log Metadata \[sys\_gen\_ai\_log\_metadata\] table to identify
 Enable or disable Now Assist for each domain so that you can restrict the use of LLMs and avoid using AI for data processing, if needed.
 
 
--   **[Global Model selection for conversational skills](https://www.servicenow.com/docs/access?context=manage-large-language-models&family=yokohama&ft:locale=en-US)**
+ -   **[Global Model selection for conversational skills](https://www.servicenow.com/docs/access?context=manage-large-language-models&family=yokohama&ft:locale=en-US)**
 
 Enable Now Assist Admins to choose between GPT4.o and Now Assist LLM model for data routing at a global level. This ensures compliance with any regional restrictions and helpful for APAC users who may face limitations with US-based models, such as GPT-4.0.
 
@@ -111,12 +117,12 @@ Zurich
 Retain records in the Generative AI Log \[sys\_generative\_ai\_log\] table for 180 days, up from 30 days, to stay compliant with retention requirements.
 
 
--   **[Configure a custom resource path for BYOK models](https://www.servicenow.com/docs/access?context=configure-custom-resource-path-byok&family=zurich&ft:locale=en-US)**
+ -   **[Configure a custom resource path for BYOK models](https://www.servicenow.com/docs/access?context=configure-custom-resource-path-byok&family=zurich&ft:locale=en-US)**
 
 Connect Generative AI Controller to your Azure OpenAI deployment by configuring a custom resource path in your bring your own key \(BYOK\) model configuration. Use this when your Azure OpenAI endpoint includes a path segment that Generative AI Controller does not add by default.
 
 
--   **[Administrator access to Gen AI log](https://www.servicenow.com/docs/access?context=reference-for-generative-ai-controller&family=zurich&ft:locale=en-US)**
+ -   **[Administrator access to Gen AI log](https://www.servicenow.com/docs/access?context=reference-for-generative-ai-controller&family=zurich&ft:locale=en-US)**
 
 Access the Gen AI log \[sys\_generative\_ai\_log\] table to gain insights for debugging purposes. HR-related records remain restricted to HR admins.
 
@@ -129,12 +135,12 @@ Track the enhanced AI asset inventory through AI Control Tower using new metadat
 Promote stability and adoption for entitled users with a Long-Term Stable \(LTS\) model. The LTS model provides regulatory alignment, predictable behavior, and life cycle stability to integrate GenAI with confidence.
 
 
--   **[AI Model Version Mappings](https://www.servicenow.com/docs/access?context=reference-for-generative-ai-controller&family=zurich&ft:locale=en-US)**
+ -   **[AI Model Version Mappings](https://www.servicenow.com/docs/access?context=reference-for-generative-ai-controller&family=zurich&ft:locale=en-US)**
 
 Review the mappings between AI model versions and their providers in the Gen AI Model Version Mapping \[sys\_gen\_ai\_model\_version\_mapping\] table. This table shows the mappings between source and target models, along with associated metadata, such as skill type, model type, resource associations, and provider information.
 
 
--   **[Identify third-party LLM information](https://www.servicenow.com/docs/access?context=reference-for-generative-ai-controller&family=zurich&ft:locale=en-US)**
+ -   **[Identify third-party LLM information](https://www.servicenow.com/docs/access?context=reference-for-generative-ai-controller&family=zurich&ft:locale=en-US)**
 
 Access the Gen AI Log Metadata \[sys\_gen\_ai\_log\_metadata\] table to identify which LLM model, version, and requested language was used to generate the AI content.
 
@@ -172,9 +178,12 @@ The new default behavior works as follows:
 
     -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
     -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
--   ****
+-   **[Configure ACLs for AI agents and agentic workflows](https://www.servicenow.com/docs/access?context=aia-security-implementation&family=yokohama&ft:locale=en-US)**
 
--   **[Configure Data Privacy and Data Discovery to protect the personally identifying information \(PII\) of your users.](https://www.servicenow.com/docs/access?context=configure-now-assist-data-privacy&family=yokohama&ft:locale=en-US)**
+Configure the access control lists for who can discover and trigger AI agents and agentic workflows in their guided setups in AI Agent Studio. You can determine whether an AI agent or agentic workflow behaves as a dynamic user or as an AI user. You can also specify if an AI agent or agentic workflow can be available to all authenticated users or publicly available.
+
+
+ -   **[Configure Data Privacy and Data Discovery to protect the personally identifying information \(PII\) of your users.](https://www.servicenow.com/docs/access?context=configure-now-assist-data-privacy&family=yokohama&ft:locale=en-US)**
 
 Generative AI Controller has changed to use the Data Privacy application instead of the Sensitive Data Handler to help anonymize PII. The process for choosing what gets anonymized and how has shifted to different tables and forms that your administrator must configure for your organization.
 
@@ -279,7 +288,12 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Generative AI Controller is a ServiceNow AI Platform feature that is available with activation of a Now Assist application. For details, see [Installing Generative AI Controller](https://www.servicenow.com/docs/access?context=installing-generative-ai-controller&family=yokohama&ft:locale=en-US) and [Install Now Assist plugins](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&family=yokohama&ft:locale=en-US).
+
+
+**Important:** Generative AI Controller is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 
@@ -287,7 +301,12 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Generative AI Controller is a ServiceNow AI Platform feature that is available with activation of a Now Assist application. For details, see [Installing Generative AI Controller](https://www.servicenow.com/docs/access?context=installing-generative-ai-controller&family=zurich&ft:locale=en-US) and [Install plugins for ServiceNow Otto](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&family=zurich&ft:locale=en-US).
+
+
+**Important:** Generative AI Controller is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -403,7 +422,10 @@ Zurich
 
 </td><td>
 
+-   **Localization information**
+
 Generative AI Controller uses Microsoft Azure OEM for Dynamic Translation in Now Assist for multilanguage support. You can enable dynamic translation from the AI Admin Hub console. For more information, see [Microsoft Azure OEM for Dynamic Translation in Now Assist](https://www.servicenow.com/docs/access?context=dynamic-translation-na-ms-azure-oem&family=zurich&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Highlight information

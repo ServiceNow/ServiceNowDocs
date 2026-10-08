@@ -61,5 +61,5 @@ An empty Knowledge Graph page is shown if the Knowledge Graph app isn’t instal
 
 ## What to do next
 
-See [Assign Model Context Protocol \(MCP\) servers to an assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/conversational-interfaces/now-assist-in-virtual-agent/assign-mcp-servers.md).
+See .
 

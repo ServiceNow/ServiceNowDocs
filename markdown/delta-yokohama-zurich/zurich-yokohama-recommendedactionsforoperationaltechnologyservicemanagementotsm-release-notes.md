@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-recommendedactionsforoperationaltechnologyservicemanagementotsm-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
-reading_time_minutes: 4
+last_updated: "2026-10-08"
+reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
 
@@ -83,12 +83,12 @@ Zurich
 The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
 
 
--   **[Contextualize an external document](https://www.servicenow.com/docs/access?context=use-ai-enhanced-ra-otsm&family=zurich&ft:locale=en-US)**
+ -   **[Contextualize an external document](https://www.servicenow.com/docs/access?context=use-ai-enhanced-ra-otsm&family=zurich&ft:locale=en-US)**
 
 Contextualize an external document to get an explanation of why the document is relevant to the selected OT incident.
 
 
--   **[Apply Recommended Actions to your Operational Technology incidents](https://www.servicenow.com/docs/access?context=use-recommended-actions-ot-incidents&family=zurich&ft:locale=en-US)**
+ -   **[Apply Recommended Actions to your Operational Technology incidents](https://www.servicenow.com/docs/access?context=use-recommended-actions-ot-incidents&family=zurich&ft:locale=en-US)**
 
 Use Recommended Actions to see relevant actions that can help resolve your OT incidents.
 
@@ -112,7 +112,10 @@ Yokohama
 
 </td><td>
 
-No updates for this release.
+-   **[Recommended actions button](https://www.servicenow.com/docs/access?context=use-recommended-actions-ot-incidents&family=yokohama&ft:locale=en-US)**
+
+The **Recommended actions** \[Omitted image "image.recommendations-icon"\] Alt text: button was added to the Industrial Workspace to access the Recommended Actions panel for an OT incident.
+
 
 </td></tr><tr><td>
 
@@ -120,7 +123,20 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **[Contextualize UI action](https://www.servicenow.com/docs/access?context=use-ai-enhanced-ra-otsm&family=zurich&ft:locale=en-US)**
+
+The **Contextualize** UI action was added to the Recommendations panel in the Industrial Workspace for external documents related to the selected OT incident.
+
+
+ -   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+
+ -   **[Recommended actions button](https://www.servicenow.com/docs/access?context=use-recommended-actions-ot-incidents&family=zurich&ft:locale=en-US)**
+
+The **Recommended actions** \[Omitted image "image.recommendations-icon"\] Alt text: button was added to the Industrial Workspace to access the Recommended Actions panel for an OT incident.
+
 
 </td></tr></tbody>
 </table>## Removed
@@ -199,7 +215,12 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Install Recommended Actions for OTSM by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
+
+**Important:** Recommended Actions for OTSM is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 
@@ -207,7 +228,12 @@ Zurich
 
 </td><td>
 
-Install Recommended Actions for OTSM and AI Enhanced Recommended Actions for OTSM by requesting them from the ServiceNow Store. 
+-   **Activation information**
+
+Install Recommended Actions for OTSM and AI Enhanced Recommended Actions for OTSM by requesting them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
+
+**Important:** Recommended Actions for OTSM and AI Enhanced Recommended Actions for OTSM are available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -294,7 +320,11 @@ Zurich
 
 </td><td>
 
--   ****
+-   **Accessibility information**
+    -   **Dark theme**
+
+The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
 
 </td></tr></tbody>
 </table>## Localization information
@@ -354,7 +384,9 @@ Zurich
 
 </td><td>
 
-[Zurich Patch 11](https://www.servicenow.com/docs/access?context=zurich-patch-11&family=zurich&ft:locale=en-US)
+ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+
+ [Zurich Patch 11](https://www.servicenow.com/docs/access?context=zurich-patch-11&family=zurich&ft:locale=en-US)
 
 -   The Now LLM Service is no longer the default model provider for new or inactive AI assets.
 

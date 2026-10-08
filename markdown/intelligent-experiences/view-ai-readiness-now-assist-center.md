@@ -69,3 +69,5 @@ Resolve the reported issues to improve AI implementation readiness.
 
 [Run the AI readiness assessment job in AI Admin Center]()
 
+[Plan an instance upgrade \(Lux UI\)]()
+

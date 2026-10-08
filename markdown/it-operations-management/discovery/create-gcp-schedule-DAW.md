@@ -53,15 +53,15 @@ Role required: discovery\_admin
 
 8.  Select a cloud account.
 
-<table id="choicetable_bbl_3zw_zgc"><thead><tr><th align="left" id="d121720e341">
+<table id="choicetable_bbl_3zw_zgc"><thead><tr><th align="left" id="d124254e341">
 
 Option
 
-</th><th align="left" id="d121720e344">
+</th><th align="left" id="d124254e344">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d121720e350">
+</th></tr></thead><tbody><tr><td id="d124254e350">
 
 **Existing cloud account**
 
@@ -69,7 +69,7 @@ Description
 
 Select an existing cloud account on your instance. Once an account is selected, the **Account name** and **Project ID/Folder ID** fields auto-populate.
 
-</td></tr><tr><td id="d121720e365">
+</td></tr><tr><td id="d124254e365">
 
 **New cloud account**
 

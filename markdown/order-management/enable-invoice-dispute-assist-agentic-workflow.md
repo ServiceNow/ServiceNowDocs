@@ -7,7 +7,7 @@ release: zurich
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configure, ServiceNow Otto for Order Management]
 ---
 
@@ -56,7 +56,7 @@ Agentic workflows that are installed with ServiceNow Otto applications aren’t 
 
 ## What to do next
 
-Configure Chat Summarization to enable the summarization and recommendation features in Active Chat. For more information, see .
+Configure Chat Summarization to enable the summarization and recommendation features in Active Chat. For more information, see [Configure chat summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/configure-chat-summarization-in-now-assist_0.md).
 
 **Parent Topic:**[Configuring ServiceNow Otto for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/order-management/now-assist-for-order-management-configuring.md)
 

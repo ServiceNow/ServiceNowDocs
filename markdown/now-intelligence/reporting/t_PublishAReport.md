@@ -7,7 +7,7 @@ release: zurich
 product: Reporting
 classification: reporting
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-17"
 reading_time_minutes: 2
 breadcrumb: [Distribute reports, Core UI Reporting, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -22,7 +22,7 @@ Publish a report to create a URL that anyone can use to access the report, inclu
 
 This functionality is deactivated by default because of the risk of exposing data to unauthorized persons.
 
-For this functionality to be available, the system property **glide.report.published\_reports.enabled** must be set to `true`.
+For this functionality to be available, the system property **glide.report.published\_reports.enabled** must be set to `true`. Only customer support can modify this property.
 
 Role required: report\_publisher, report\_admin, or admin.
 
@@ -34,19 +34,19 @@ There are limitations to what users see when they follow the publish URL for a r
 -   Read ACLs govern the content of list reports. Users cannot see records for which they do not have access.
 -   Public roles with access to a published report may see a smaller subset of the original data displayed in the report when they're not logged in. For help with resolving published reports not showing all the expected data, see [KB article KB0736982](https://support.servicenow.com/kb_view.do?sysparm_article=KB0736982).
 
-Users with the admin or report\_admin role can see if a report has been published. Navigate to **Reports** &gt; **View / Run**, open the report, and click the **Sharing** icon \(\[Omitted image "Form\_ShareIcon.png"\] Alt text: Sharing icon\). If the Sharing menu has the **Publish** option, the report is not yet published. If the Sharing menu has the **Unpublish** option, the report has been published.
+Users with the admin or report\_admin role can see if a report has been published. Navigate to **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**, open the Core UI report, and select the **Sharing** icon \(\[Omitted image "Form\_ShareIcon.png"\] Alt text: Sharing icon\). If the Sharing menu has the **Publish** option, the report is not yet published. If the Sharing menu has the **Unpublish** option, the report has been published.
 
 **Note:** To make a report available only to users who are logged in, set its **Sharing** setting to **Everyone**, but do not publish it.
 
 ## Procedure
 
-1.  Navigate to **Reports** &gt; **View / Run**.
+1.  Navigate to **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**.
 
-2.  Click the report you want to publish.
+2.  Select the report you want to publish.
 
-3.  In the upper right side of the report form, click the **Sharing** icon \(\[Omitted image "Form\_ShareIcon.png"\] Alt text: Sharing icon\) and select **Publish**.
+3.  In the upper right side of the report form, Select the **Sharing** icon \(\[Omitted image "Form\_ShareIcon.png"\] Alt text: Sharing icon\) and choose **Publish**.
 
-    A link icon \(\[Omitted image "link-icon.png"\] Alt text: Link icon\) shows with the Report option icons message. Click this icon to show a link to the published report. This link is available as long as the report is published.
+    A link icon \(\[Omitted image "link-icon.png"\] Alt text: Link icon\) shows with the Report option icons message. Select this icon to show a link to the published report. This link is available as long as the report is published.
 
     **Note:** Business rules may affect how records are collected for public reports.
 

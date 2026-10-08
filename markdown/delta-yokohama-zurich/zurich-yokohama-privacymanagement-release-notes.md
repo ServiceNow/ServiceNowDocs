@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-yokohama-zurich/zurich-yokohama-privacymanagement-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
-reading_time_minutes: 7
+last_updated: "2026-10-08"
+reading_time_minutes: 9
 breadcrumb: [Products combined by family]
 ---
 
@@ -110,6 +110,31 @@ Get an overview of your complete privacy risk and compliance posture from the Pr
 Use the new Privacy Impact Assessments \(PIAs\) and Screening Assessment templates that provide standardized questions, evaluation criteria, and workflows so that you can perform a processing activity criticality and privacy risk assessment. With these new templates, you can ensure consistency, reduce manual effort, and support compliance with regulatory and organizational requirements.
 
 
+ -   **[PDR external-facing form](https://www.servicenow.com/docs/access?context=pdr-external-facing&family=zurich&ft:locale=en-US)**
+
+A new external-facing form for personal data rights \(PDR\) requests is now available, enabling customers, ex-employees, and third party individuals to initiate PDR requests directly from a company's website, without needing Employee Center access. The form allows users to submit various requests, including Right to Know, Right to Delete, Right to Correct, and Right to Opt-Out, with the flexibility to add additional request types as required. An email-based verification process ensures security before processing the PDR request. The PDR form is customizable and can be easily embedded on external sites.
+
+
+ -   **[Access control by legal entity](https://www.servicenow.com/docs/access?context=access-control-by-legal-entity&family=zurich&ft:locale=en-US)**
+
+The Access control by legal entity feature allows teams to access processing activities relevant only to their legal entity. This ensures teams view only their own records, maintaining adherence to the privacy by design principle. By limiting access according to legal entities, this feature reduces operational risks and enables organizations to manage privacy requests and regulatory compliance effectively.
+
+
+ -   **[ServiceNow Otto for Privacy Management](https://www.servicenow.com/docs/access?context=now-assist-for-privacy-management&family=zurich&ft:locale=en-US)**
+
+Now Assist for Privacy Management leverages GenAI to support privacy workflows by summarizing risk assessments, condensing issue details, and identifying redundant control objectives and merging them into a common control objective. Now Assist for Privacy Management is delivered as a separate plugin, requiring administrators to activate specific skills and assign the new sn\_prm\_gen\_ai.user role to access these features.
+
+
+ -   **[Report a privacy case through email](https://www.servicenow.com/docs/access?context=add-issues-email&family=zurich&ft:locale=en-US)**
+
+Employees can now report privacy incidents directly through email, eliminating the need for complex forms or portals. This enhancement simplifies the reporting process, enabling faster case handling and efficient tracking of privacy issues.
+
+
+ -   **[Impacted and related areas configuration](https://www.servicenow.com/docs/access?context=configure-record-type-area&family=zurich&ft:locale=en-US)**
+
+The Record Type Configuration feature allows privacy case managers or analysts to add additional relevant business area types in impacted and related areas. When creating or updating a privacy case, users can select from pre-defined options to add these areas, ensuring that each case accurately reflects its business context.
+
+
 </td></tr></tbody>
 </table>## Changes
 
@@ -144,14 +169,24 @@ Zurich
 
 </td><td>
 
--   ****
+-   **[Some generative AI skills are turned on by default](https://www.servicenow.com/docs/access?context=now-assist-skills-on-by-default&family=zurich&ft:locale=en-US)**
 
--   **[Processing activity tab](https://www.servicenow.com/docs/access?context=processing-activity-tab&family=zurich&ft:locale=en-US)**
+The new default behavior works as follows:
+
+    -   New customers: When you install an AI product, designated skills are turned on automatically.
+    -   Existing customers who are upgrading \(starting with Australia Early Access\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
+
+ -   **[Processing activity tab](https://www.servicenow.com/docs/access?context=processing-activity-tab&family=zurich&ft:locale=en-US)**
 
 The revamped Processing Activity overview page provides a unified dashboard that displays key compliance and risk metrics, such as risk scores, compliance scores, and criticality scores. This update makes it easier for privacy managers and analysts to assess the status of each processing activity, track open issues, and prioritize actions.
 
 
--   **[Layout for processing activity record view](https://www.servicenow.com/docs/access?context=processing-activity-homepage&family=zurich&ft:locale=en-US)**
+ -   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+
+ -   **[Layout for processing activity record view](https://www.servicenow.com/docs/access?context=processing-activity-homepage&family=zurich&ft:locale=en-US)**
 
 The vertical layout of a processing activity enables you to see the information in a top-down linear flow. With this layout, you can see the sequential representation of a data processing workflow.
 
@@ -237,7 +272,12 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Install Privacy Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
+
+**Important:** Privacy Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 
@@ -245,7 +285,12 @@ Zurich
 
 </td><td>
 
-Install Privacy Management by requesting it from the ServiceNow Store. 
+-   **Activation information**
+
+Install Privacy Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
+
+**Important:** Privacy Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -332,7 +377,11 @@ Zurich
 
 </td><td>
 
--   ****
+-   **Accessibility information**
+    -   **Dark theme**
+
+The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
 
 </td></tr></tbody>
 </table>## Localization information

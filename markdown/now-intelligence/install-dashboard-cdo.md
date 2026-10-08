@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/now-intelligence/install-dashboard-cdo.html
 release: zurich
 topic_type: task
-last_updated: "2026-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Chief Digital Officer \(CDO\) Dashboard, Executive dashboard overview, Dashboards, Platform Analytics experience, Platform Analytics]
 ---
@@ -56,4 +56,9 @@ In addition, the com.snc.pa.premium.all\_content application plugin is required 
 
     Users must log out and log back in to enable their new roles after the admin assigns them. For more information on user roles, see [Exploring user administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/exploring-user-administration.md).
 
+
+## What to do next
+
+-   Navigate to **CDO Dashboard** &gt; **Dashboard** to view the installed dashboard.
+-   Use the information in the Tabs, Data Visualizations, and Indicators topics to configure the dashboard.
 

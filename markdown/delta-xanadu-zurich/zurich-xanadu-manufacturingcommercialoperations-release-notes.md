@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-manufacturingcommercialoperations-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
-reading_time_minutes: 8
+last_updated: "2026-10-08"
+reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
 
@@ -113,7 +113,7 @@ The sales promotion supports bulk import functionality. To enable bulk import, y
 List of all the plugins that are installed with Manufacturing Commercial Operations plugin.
 
 
--   **[Support multiple line items on a case to track requests on the Business Portal​](https://www.servicenow.com/docs/access?context=manufacturing-using&family=yokohama&ft:locale=en-US)**
+ -   **[Support multiple line items on a case to track requests on the Business Portal​](https://www.servicenow.com/docs/access?context=manufacturing-using&family=yokohama&ft:locale=en-US)**
 
 Capture and track requests for multiple items on the Business Portal.​ Case line items, case tasks, and case line tasks all appear on the case page​.
 
@@ -132,42 +132,7 @@ Zurich
 
 </td><td>
 
--   **[Quality issue management](https://www.servicenow.com/docs/access?context=mco-quality-issue-management&family=zurich&ft:locale=en-US)**
-
-The MCO agents portal enables the manufacturers to identify, manage, and resolve product quality issues throughout the entire life cycle, from initial detection through remediation and closure.
-
--   **[Data model](https://www.servicenow.com/docs/access?context=data-model&family=zurich&ft:locale=en-US)**
-
-The quality issue management data model facilitates the OEMs to understand the quality issue management tables and their functions.
-
--   **[Phases and Sub-phases](https://www.servicenow.com/docs/access?context=mco-phases-and-subphases&family=zurich&ft:locale=en-US)**
-
-The MCO agents portal enables the manufacturers to create phases and sub-phases within a recall campaign and launch it for selected assets, and notify the targeted dealers.
-
--   **[Pre-authorization request](https://www.servicenow.com/docs/access?context=pre-authorization-request&family=zurich&ft:locale=en-US)**
-
-The dealer portal enables the dealer to initiate the pre-authorization request to confirm whether certain parts, labor fees, or repairs are covered under a warranty or service contract.
-
--   **[Recall campaign](https://www.servicenow.com/docs/access?context=mco-rcl-clms&family=zurich&ft:locale=en-US)**
-
-The dealer portal enables the dealer to initiate reimbursement claim requests from the OEM for the work performed on the recalled products.
-
--   **[Repair claims](https://www.servicenow.com/docs/access?context=mco-warranty-clms&family=zurich&ft:locale=en-US)**
-
-The dealer portal enables the dealer to raise a reimbursement claim request for the repair of an equipment or product that is under a warranty contract.
-
--   **[Sales promotion](https://www.servicenow.com/docs/access?context=mco-sls-prom-clms&family=zurich&ft:locale=en-US)**
-
-The dealer portal enables the dealers to raise post sales promotion claims from the OEM depending on the claim case.
-
--   **[Dealer portal](https://www.servicenow.com/docs/access?context=mco-dealer-portal&family=zurich&ft:locale=en-US)**
-
-The dealer portal helps the agent to manage the day-to-day business activities and monitor the real-time data insight.
-
--   **[Plugins installed with MCO](https://www.servicenow.com/docs/access?context=manufacturing-commercial-operations-plugins&family=zurich&ft:locale=en-US)**
-
-The new MCO plugin enables you to install the Manufacturing Commercial Operations and other dependent modules.
-
+No updates for this release.
 
 </td></tr></tbody>
 </table>## Changes
@@ -307,7 +272,12 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Install Manufacturing applications by requesting them from the ServiceNow Store. For details on installing the applications, see [Configuring Manufacturing Commercial Operations](https://www.servicenow.com/docs/access?context=configuring-manufacturing-foundation&family=yokohama&ft:locale=en-US). Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
+
+**Important:** Manufacturing Commercial Operations is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 
@@ -315,9 +285,14 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Install Manufacturing Commercial Operations by requesting it from the ServiceNow Store.
 
- Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
+
+**Important:** Manufacturing Commercial Operations is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -391,7 +366,10 @@ Zurich
 
 </td><td>
 
+-   **Browser requirements**
+
 ServiceNow workspace doesn’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge - Chromium or one of the other supported browsers listed in [Browser support](https://www.servicenow.com/docs/access?context=browser-support&family=zurich&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Accessibility information
@@ -428,7 +406,11 @@ Zurich
 
 </td><td>
 
--   ****
+-   **Accessibility information**
+    -   **Dark theme**
+
+The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
 
 </td></tr></tbody>
 </table>## Localization information

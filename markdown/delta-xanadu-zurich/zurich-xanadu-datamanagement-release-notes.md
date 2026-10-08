@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-datamanagement-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
+last_updated: "2026-10-08"
 reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
@@ -46,9 +46,10 @@ Yokohama
 
 </td><td>
 
--   After upgrading a self-hosted instance to Yokohama, the sys\_physical\_table\_stats table doesn't display the latest data for table size, with the sample\_period\_start column showing dates prior to the upgrade. To see the correct table size, you can set the com.glide.stats.storage\_disk\_usage.information\_schema system property to true, which allows the statsGatherer job to use the information schema to generate the required database statistics.
+-   **Upgrade information**
+    -   After upgrading a self-hosted instance to Yokohama, the sys\_physical\_table\_stats table doesn't display the latest data for table size, with the sample\_period\_start column showing dates prior to the upgrade. To see the correct table size, you can set the com.glide.stats.storage\_disk\_usage.information\_schema system property to true, which allows the statsGatherer job to use the information schema to generate the required database statistics.
 
--   A data management policy record is automatically created for each table that is configured with an archive rule or a table cleaner rule prior to the upgrade.
+    -   A data management policy record is automatically created for each table that is configured with an archive rule or a table cleaner rule prior to the upgrade.
 
 </td></tr><tr><td>
 
@@ -174,7 +175,10 @@ Zurich
 
 </td><td>
 
-No updates for this release.
+-   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
 
 </td></tr></tbody>
 </table>## Removed
@@ -277,7 +281,10 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Data Management is a ServiceNow AI Platform feature that is active by default.
+
 
 </td></tr><tr><td>
 
@@ -285,7 +292,10 @@ Zurich
 
 </td><td>
 
+-   **Activation information**
+
 Data Management is a ServiceNow AI Platform capability that is active by default.
+
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -396,7 +406,11 @@ Zurich
 
 </td><td>
 
--   ****
+-   **Accessibility information**
+    -   **Dark theme**
+
+The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
 
 </td></tr></tbody>
 </table>## Localization information

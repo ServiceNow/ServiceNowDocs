@@ -18,7 +18,7 @@ The Operational Sustainability Workspace displays different sections to provide 
 
 The following image shows you the operational sustainability home page.
 
-\[Omitted image "image.operational-sustainability-workspace"\] Alt text: Operational sustainability dashboard
+\[Omitted image "operational-sustainability-workspace.png"\] Alt text: Operational sustainability dashboard
 
 Each section of the dashboard is explained in the following sections.
 

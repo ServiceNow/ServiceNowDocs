@@ -5,14 +5,16 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/it-operations-management/access-aws-accounts.html
 release: zurich
 topic_type: concept
-last_updated: "2025-09-03"
-reading_time_minutes: 7
-breadcrumb: [Setting up AWS service accounts, Set up a cloud service account, Access to cloud environments for ITOM products, IT Operations Management]
+last_updated: "2026-10-01"
+reading_time_minutes: 8
+breadcrumb: [Setup AWS service accounts, Set up a cloud service account, Access to cloud environments for ITOM products, IT Operations Management]
 ---
 
 # Access setup for AWS service accounts
 
 Cloud Discovery and Cloud Provisioning and Governance need access to resources in the Amazon Web Services \(AWS\) service accounts. Learn about different methods of configuring such access.
+
+Before you configure access, understand the AWS service account types in your environment. For more information, see [Setup AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/setup-aws-service-accounts.md). Configure the required IAM permissions before selecting an access method. For more information, see [Control AWS access and permissions using policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/aws-create-user-policy-cloud-mgt.md).
 
 Cloud Discovery and Cloud Provisioning and Governance access resources in AWS service accounts through MID Servers. You must authorize inbound traffic to Amazon EC2 instances from the MID Server for setting up initial communication. For more information, see [Configure security group inbound rules using the AWS Management Console](https://docs.aws.amazon.com/vpc/latest/userguide/working-with-security-group-rules.html).
 
@@ -40,6 +42,8 @@ There are permanent and temporary AWS credentials that you can use for configuri
 ## IAM roles and permissions
 
 To enhance security provided by the default AWS `OrganizationAccountAccessRole` role, you can customize the AWS roles that MID Servers can assume to receive temporary credentials for member accounts. You can configure additional permissions to improve security and customize the way that the member account’s role is assumed when discovering cloud resources.
+
+For a list of required API permissions for Cloud Discovery, including org-level permissions required for management account discovery, see [Control AWS access and permissions using policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/aws-create-user-policy-cloud-mgt.md).
 
 ## Methods of granting access
 
@@ -99,7 +103,7 @@ Typically, you set up access to the AWS accounts in your organization using the 
     1.  If permanent credentials are defined for the member or management account in the Cloud Service Account \[cmdb\_ci\_cloud\_service\_account\] table, Discovery uses those credentials. The Cloud Service Accounts \[cmdb\_ci\_cloud\_service\_account\] table contains the information on the service account types, like management or member, and their credentials.
     2.  If no permanent credentials are defined for the account, Discovery checks the Cloud Service Account AWS Cross Assume Role Params \[cloud\_service\_account\_aws\_cross\_assume\_role\_params\] table for any special parameters associated with the account. If parameters exist in that table, Discovery uses the temporary credentials acquired from specifying a role and its parameters in the AWS Security Token Service API AssumeRole action.
 
-**Parent Topic:**[Setting up AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/setup-aws-service-accounts.md)
+**Parent Topic:**[Setup AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/setup-aws-service-accounts.md)
 
 **Related topics**  
 
@@ -107,4 +111,10 @@ Typically, you set up access to the AWS accounts in your organization using the 
 [Step-by-Step Guide to Configure AWS Cloud Discovery in ServiceNow Using Patterns \[KB2184482\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2184482)
 
 [AWS Cloud Discovery Setup – Use Case Guide with CloudFormation Templates \[KB2221157\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2221157)
+
+[Setup AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/setup-aws-service-accounts.md)
+
+[Control AWS access and permissions using policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/aws-create-user-policy-cloud-mgt.md)
+
+[Create AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-operations-management/create-aws-service-accounts.md)
 

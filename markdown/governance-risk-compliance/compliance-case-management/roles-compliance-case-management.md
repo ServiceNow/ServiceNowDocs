@@ -32,7 +32,7 @@ Contains roles
 
 Compliance Case Business User
 
- \[sn\_comp\_case.compliance​\_case\_business\_user\]
+ \[sn\_comp\_case.compliance\_case\_business\_user\]
 
 </td><td>
 
@@ -49,14 +49,11 @@ sn\_grc\_case\_mgmt.grc\_​case\_business\_user ​
 
 Compliance Case Analyst
 
- \[sn\_comp\_case.compliance\_​case\_analyst\]
+ \[sn\_comp\_case.compliance\_case\_analyst\]
 
 </td><td>
 
-Compliance case analyst can review the case. The compliance case analyst can perform the following tasks:-   Review the key stakeholders, impacted areas, related areas, causes and consequences, regulations, and issues that are assigned to the case analyst.
--   Review any unassigned cases.
-
-​
+Compliance case analyst work on the compliance cases assigned to them. They can review the key stakeholders, impacted areas, related areas, causes and consequences, regulations, and issues that are assigned to them.​
 
 </td><td>
 
@@ -69,14 +66,11 @@ Compliance case analyst can review the case. The compliance case analyst can per
 
 Compliance Case Manager
 
- \[sn\_comp\_case.compliance\_​case\_manager\]
+ \[sn\_comp\_case.compliance\_case\_manager\]
 
 </td><td>
 
-Compliance case manager can review and work on the created cases. The compliance case manager can perform the following tasks:-   Review the key stakeholders, impacted areas, related areas, causes and consequences, regulations, and issues that are assigned to the case analyst.
--   Review all cases.
-
-​
+Compliance cases can be classified into groups, and for every group there can be a manager. The compliance case manager reviews and works on cases within their group and can assign or reassign cases to analysts in the same group. They can also review key stakeholders, impacted areas, related areas, causes and consequences, regulations, and issues assigned to a case analyst.​
 
 </td><td>
 
@@ -89,7 +83,7 @@ Compliance case manager can review and work on the created cases. The compliance
 
 Compliance Case Admin
 
- \[sn\_comp\_case.compliance\_​case\_admin\]
+ \[sn\_comp\_case.compliance\_case\_admin\]
 
 </td><td>
 
@@ -114,7 +108,7 @@ Compliance case administrators can configure the Compliance Case Management appl
 
 GRC Employee User
 
- \[sn\_grc\_emp\_user.grc​\_employee\]
+ \[sn\_grc\_emp\_user.grc\_employee\]
 
 </td><td>
 

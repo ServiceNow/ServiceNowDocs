@@ -18,8 +18,8 @@ Reference topics provide additional information about the lists and forms that y
 
 -   **[Domain separation and Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/domain-separation-eam.md)**  
 Domain separation is supported in Enterprise Asset Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
--   **[Enterprise Asset Management roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/eam-roles.md)**  
-The following roles help you to configure and use the Enterprise Asset Management application to manage the life cycle of your assets, parts, and their hierarchical relationships.
+-   **[Components installed with Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/installed-with-eam.md)**  
+Several types of components are installed with activation of the com.sn\_eam plugin, including user roles, plugins, and applications.
 -   **[OT Asset Workspace roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/ot-workspace-roles.md)**  
 The following roles help you to manage the OT Asset Management application.
 -   **[Asset fields for enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/asset-fields-eam.md)**  
@@ -55,11 +55,11 @@ An enterprise asset disposal order goes through various stages in the disposal p
 -   **[Terminology for linear assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/terms-eam.md)**  
 Terms commonly used for linear assets in the Enterprise Asset Management application.
 -   **[Installed with Enterprise Asset Management for Healthcare](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/installed-with-eam-healthcare.md)**  
-The user role components, plugins, and applications are installed with activation of the com.sn\_eamhc plugin.
+Several types of components are installed with activation of the com.sn\_eamhc plugin, including user roles and applications.
 -   **[Installed with OT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/installed-with-otam.md)**  
-The user role components, plugins, and applications are installed with activation of the com.sn\_otam plugin.
+Several types of components are installed with activation of the com.sn\_otam plugin, including user roles and applications.
 -   **[Components installed with Enterprise Asset Management for Data Center and Network Asset Management \(DCNAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/installed-with-eam-dcnam.md)**  
-Several types of components are installed with activation of the com.sn\_eam\_dcnam plugin, including user roles, plugins, and applications.
+Several types of components are installed with activation of the com.sn\_eam\_dcnam plugin, including user roles and applications.
 -   **[Components installed with Enterprise Asset Management for Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/installed-with-eam-providers.md)**  
 Several types of components are installed with activation of the com.sn\_eam\_provider plugin, including user roles, applications, and tables.
 -   **[Scheduled jobs and tables installed with normalization of firmware models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/it-asset-management/enterprise-asset-management/firmware-tables-jobs-ot.md)**  

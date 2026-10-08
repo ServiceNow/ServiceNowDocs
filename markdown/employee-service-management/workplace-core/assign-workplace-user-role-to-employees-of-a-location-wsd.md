@@ -45,6 +45,12 @@ Role required: admin or sn\_wsd\_core.admin
 
 The workplace user roles are assigned. If a record is created or updated on this table, a role assignment process is triggered in the background.
 
+**Note:**
+
+-   When a user no longer satisfies the Workplace Client Role Rule criteria, the role assignment framework deactivates the existing sys\_user\_has\_role record by setting its state to Pending Approval.
+-   The Pending Approval state is equivalent to the inactive state — the user does not hold the role. Role evaluation grants a role only when the assignment state is active.
+-   When the user satisfies the criteria again, the same record is moved back to active. No new record is created.
+
 **Parent Topic:**[Manage workplace safety activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/employee-service-management/workplace-core/manage-wsd-activites.md)
 
 **Related topics**  

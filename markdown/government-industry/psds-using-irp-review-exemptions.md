@@ -1,5 +1,5 @@
 ---
-title: Review a case for exemptions using Information Request Playbook
+title: Review a case for exemptions using Information Request Administration
 description: Review a case for exemptions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/government-industry/psds-using-irp-review-exemptions.html
@@ -7,10 +7,10 @@ release: zurich
 topic_type: task
 last_updated: "2026-03-30"
 reading_time_minutes: 1
-breadcrumb: [Review request details, Information Request Playbook, Playbooks and solutions, Use, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Review request details, Information Request Administration, Playbooks and solutions, Use, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Review a case for exemptions using Information Request Playbook
+# Review a case for exemptions using Information Request Administration
 
 Review a case for exemptions.
 

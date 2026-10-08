@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/delta-xanadu-zurich/zurich-xanadu-selfserviceandomnichannelengagementforcsm-release-notes.html
 release: zurich
 topic_type: reference
-last_updated: "2026-09-16"
-reading_time_minutes: 12
+last_updated: "2026-10-08"
+reading_time_minutes: 14
 breadcrumb: [Products combined by family]
 ---
 
@@ -83,25 +83,6 @@ Yokohama
 
 </td><td>
 
--   **[Business Portal](https://www.servicenow.com/docs/access?context=configure-business-portal&family=yokohama&ft:locale=en-US)**
-
-Support your customers through the Business Portal self-service capabilities, such as knowledge articles, service catalogs, case management, Virtual Agent, and others. Help reduce maintenance effort through low-code configurations on pages with configurable widgets.
-
--   **[Email as an Interaction](https://www.servicenow.com/docs/access?context=email-channel&family=yokohama&ft:locale=en-US)**
-
-Enhance case management with the Email as an Interaction feature.
-
-    -   Transform emails into interactions, enabling customer communication to be tracked in a central location and help avoid unnecessary case creation.
-    -   Manage straightforward customer inquiries via email, create cases for more complex issues, or link emails to existing cases.
-    -   Notify agents on email responses received from customers.
--   **[Contact Center Integration Core](https://www.servicenow.com/docs/access?context=contactcenter-integration&family=yokohama&ft:locale=en-US)**
-
-As an admin, import data automatically from a third-party contact center as a service \(CCaaS\) application to facilitate external routing and third-party telephony integration in their ServiceNow® instance.
-
-**Note:** The Contact Center Integration Core is a framework that includes voice call features, which doesn't work unless CCaaS implements it.
-
-    -   Import records such as queues, skills, and wrap-up codes from a third party into your ServiceNow instance.
-    -   Maintain data consistency between your ServiceNow instance and third-party systems. Verify that chats and cases are routed to the correct agent and that the correct wrap-up codes are available when dispositioning an interaction.
 -   **[Interaction Controls Component \(ICC\)](https://www.servicenow.com/docs/access?context=contact-center-integration-with-icc&family=yokohama&ft:locale=en-US)**
 
 As an agent, manage calls, such as muting, holding, and transferring, directly within the Configurable Workspace. As a part of the new Voice interaction page experience, the ICC framework helps improve workflow efficiency and promotes a consistent agent experience across all channels.
@@ -112,6 +93,31 @@ Connect customers with field agents or third-party support teams in the embedded
 
     -   Consult transfer: Share the call context with the external contact before transferring the customer.
     -   Blind transfer: Immediately transfer the call to the external contact.
+
+ -   **[Business Portal](https://www.servicenow.com/docs/access?context=configure-business-portal&family=yokohama&ft:locale=en-US)**
+
+Support your customers through the Business Portal self-service capabilities, such as knowledge articles, service catalogs, case management, Virtual Agent, and others. Help reduce maintenance effort through low-code configurations on pages with configurable widgets.
+
+-   **[Email as an Interaction](https://www.servicenow.com/docs/access?context=email-channel&family=yokohama&ft:locale=en-US)**
+
+Enhance case management with the Email as an Interaction feature.
+
+    -   Transform emails into interactions, enabling customer communication to be tracked in a central location and help avoid unnecessary case creation.
+    -   Manage straightforward customer inquiries via email, create cases for more complex issues, or link emails to existing cases.
+    -   Notify agents on email responses received from customers.
+-   **[Integrating Conversational SMS with AWS End User Messaging](https://www.servicenow.com/docs/access?context=conversational-sms-integration-amazon&family=yokohama&ft:locale=en-US)**
+
+Integrate the ServiceNow SMS channel with AWS end-user messaging to engage in conversations with Now Virtual Agent and live agents to address and resolve any customer queries or issues.
+
+
+ -   **[Contact Center Integration Core](https://www.servicenow.com/docs/access?context=contactcenter-integration&family=yokohama&ft:locale=en-US)**
+
+As an admin, import data automatically from a third-party contact center as a service \(CCaaS\) application to facilitate external routing and third-party telephony integration in their ServiceNow® instance.
+
+**Note:** The Contact Center Integration Core is a framework that includes voice call features, which doesn't work unless CCaaS implements it.
+
+    -   Import records such as queues, skills, and wrap-up codes from a third party into your ServiceNow instance.
+    -   Maintain data consistency between your ServiceNow instance and third-party systems. Verify that chats and cases are routed to the correct agent and that the correct wrap-up codes are available when dispositioning an interaction.
 -   **[OpenFrame Integration to Interaction Controls Component \(ICC\)](https://www.servicenow.com/docs/access?context=interaction-controls-component&family=yokohama&ft:locale=en-US)**
 
 ICC is a new component for a native call controls interface embedded in Agent Workspace. With the ICC component, you can do the following:
@@ -119,10 +125,6 @@ ICC is a new component for a native call controls interface embedded in Agent Wo
     -   Create the state context in OpenFrame to read the state of idle and active call state, and the state of the transfer.
     -   Provide iframe sandbox parameters to allow iframe access to security features and to enable additional iframe restrictions.
     -   Create an extension point implementation to create and get phone log segments.
--   **[Integrating Conversational SMS with AWS End User Messaging](https://www.servicenow.com/docs/access?context=conversational-sms-integration-amazon&family=yokohama&ft:locale=en-US)**
-
-Integrate the ServiceNow SMS channel with AWS end-user messaging to engage in conversations with Now Virtual Agent and live agents to address and resolve any customer queries or issues.
-
 
 </td></tr><tr><td>
 
@@ -132,9 +134,10 @@ Zurich
 
 -   **[Amazon Connect for voice calls via ICC](https://www.servicenow.com/docs/access?context=amazon-connect-for-voice-calls&family=zurich&ft:locale=en-US)**
 
-Manage Amazon Connect calls directly in the CSM Configurable Workspace voice Interaction record page. This integration supports inbound and outbound call flows, presence management, and call transfers without switching applications.
+Manage Amazon Connect calls directly in the CRM Workspace voice Interaction record page. This integration supports inbound and outbound call flows, presence management, and call transfers without switching applications.
 
--   **[Selecting queues for outbound calls](https://www.servicenow.com/docs/access?context=select-queues-for-outbound-calls&family=zurich&ft:locale=en-US)**
+
+ -   **[Selecting queues for outbound calls](https://www.servicenow.com/docs/access?context=select-queues-for-outbound-calls&family=zurich&ft:locale=en-US)**
 
 Enable agents to designate a specific queue for their outbound calls directly from the keypad or the phone directory in the Global Call window to improve routing and reporting. This provides a streamlined search interface that enables agents to find and select a single queue that can be applied across all outbound dialing methods.
 
@@ -147,12 +150,22 @@ Connect directly to WhatsApp Cloud API for more reliable, feature-rich customer 
     -   Simplify customer input with list pickers and location sharing.
     -   View typing indicators for more natural conversational flow.
     -   Automatically capture and record customer opt-in and opt-out messages to ensure compliance with WhatsApp's messaging policies.
--   **[Defining CCaaS callbacks](https://www.servicenow.com/docs/access?context=interaction-controls-component-icc-callback-integration-features&family=zurich&ft:locale=en-US)**
+
+ -   **[Voice Controls Simulator tool](https://www.servicenow.com/docs/access?context=voice-control-simulator-tool&family=zurich&ft:locale=en-US)**
+
+Test and validate voice call UI flows in the CRM Workspace to ensure CCaaS partners have clear insights into their supported voice control capabilities.
+
+-   **[Monitoring calls](https://www.servicenow.com/docs/access?context=call-monitoring&family=zurich&ft:locale=en-US)**
+
+Enable supervisors to monitor, coach, and barge-in on calls in real time by integrating ServiceNow's native voice call feature within an active call interface.
+
+
+ -   **[Defining CCaaS callbacks](https://www.servicenow.com/docs/access?context=interaction-controls-component-icc-callback-integration-features&family=zurich&ft:locale=en-US)**
     -   Offer callers a callback option that lets them retain their position in the queue and receive a call when an agent is available. Alternatively, callers can choose a specific date and time for the callback, also known as scheduled callback.
     -   As an agent, view callback requests in the order that they're received.
 -   **[CCaaS callback features](https://www.servicenow.com/docs/access?context=contact-center-intergration-with-icc-callback&family=zurich&ft:locale=en-US)**
 
-As an agent, address callback requests from the CSM Configurable Workspace. Initiate callbacks and manage active calls with the Callback context card and Callback Actions component on the voice interaction page.
+As an agent, address callback requests from the CRM Workspace. Initiate callbacks and manage active calls with the Callback context card and Callback Actions component on the voice interaction page.
 
 On the Callback actions component, you can use the **Call number** option to initiate a call; alternatively, the call can be initiated automatically at the end of the preview timer when enabled. After the call has ended, the **Close callback** option closes the callback interaction and changes the status to Closed complete. Agents can also retry the callback as needed.
 
@@ -164,19 +177,11 @@ Switch between workspaces using the global call list. As a CSM agent, you can ac
 
 -   **[Phone directory](https://www.servicenow.com/docs/access?context=ccaas-phone-directory&family=zurich&ft:locale=en-US)**
 
-Access the embedded phone directory in your CSM Configurable Workspace via Interaction Controls Component \(ICC\) to make outbound calls to external and internal contacts.
+Access the embedded phone directory in your CRM Workspace via Interaction Controls Component \(ICC\) to make outbound calls to external and internal contacts.
 
 -   **[Call resiliency](https://www.servicenow.com/docs/access?context=ccaas-call-resiliency&family=zurich&ft:locale=en-US)**
 
-Route phone calls to the CSM Configurable Workspace without creating an interaction record, helping agents handle calls even during connectivity issues.
-
--   **[Voice Controls Simulator tool](https://www.servicenow.com/docs/access?context=voice-control-simulator-tool&family=zurich&ft:locale=en-US)**
-
-Test and validate voice call UI flows in the CSM Configurable Workspace to ensure CCaaS partners have clear insights into their supported voice control capabilities.
-
--   **[Monitoring calls](https://www.servicenow.com/docs/access?context=call-monitoring&family=zurich&ft:locale=en-US)**
-
-Enable supervisors to monitor, coach, and barge-in on calls in real time by integrating ServiceNow's native voice call feature within an active call interface.
+Route phone calls to the CRM Workspace without creating an interaction record, helping agents handle calls even during connectivity issues.
 
 
 </td></tr></tbody>
@@ -208,6 +213,13 @@ Yokohama
 
 -   **[Using the email interaction page](https://www.servicenow.com/docs/access?context=using-email-interaction-page&family=yokohama&ft:locale=en-US)**
 
+The following UI elements have been added to the Email Interaction page:
+
+    -   A **Contact** card to simplify the process of adding and viewing customer information.
+    -   A **Customer History** tab that displays the details of previous conversations between the customer and the agent.
+
+ -   **[Using the email interaction page](https://www.servicenow.com/docs/access?context=using-email-interaction-page&family=yokohama&ft:locale=en-US)**
+
 Manage and view customer-related information and past conversations while interacting with customers via email.
 
 -   **[Now Assist conversational experience in self-service portals](https://www.servicenow.com/docs/access?context=nass-portal&family=yokohama&ft:locale=en-US)**
@@ -221,29 +233,23 @@ Zurich
 
 </td><td>
 
--   **[Using the email interaction page](https://www.servicenow.com/docs/access?context=using-email-interaction-page&family=zurich&ft:locale=en-US)**
+-   **[Portal Data List widget](https://www.servicenow.com/docs/access?context=portal-data-list-widget&family=zurich&ft:locale=en-US)**
 
-View annotations for the most recent activity along with a compact email header that includes the subject, sender, and receiver details in the activity stream. Focus on new or unread email messages rather than the entire email conversation.
+The Data List widget now offers more configuration flexibility and supports dynamic, context‑aware view selection. Key enhancements include:
 
-View or edit the interaction record while drafting an email in a modeless dialog, keeping all relevant information accessible.
+    -   Role‑Based and Guest Views: Use the new role\_based\_views and guest\_view options to define different views for different user roles and for unauthenticated users removing the dependency on a single static view.
+    -   Automatic URL Parameter Passing: Pass URL parameters automatically into scripts invoked from Data List instance options enabling admins to build richer, multi‑parameter conditions without extra setup.
+    -   Script‑Based View Selection: Use the Data List Condition Script option to choose a view dynamically. Scripts can evaluate URL parameters and other context to determine the most appropriate view at runtime.
+    -   Configurable Default Sorting: Define initial sorting behavior using the new sort\_by and sort\_order options letting the users see a meaningful default order when the list loads.
 
--   **[Using Agent Chat](https://www.servicenow.com/docs/access?context=ci-agent-chat-using&family=zurich&ft:locale=en-US)**
+ -   **[Selecting queues for outbound calls](https://www.servicenow.com/docs/access?context=select-queues-for-outbound-calls&family=zurich&ft:locale=en-US)**
 
-Leave a chat without ending it for other agents, enabling you to complete your task and exit the chat.
+The following UI components have been added to the Global Call window when making outbound calls from a keypad or phone directory:
 
-Confirm before closing a chat tab to avoid unintentionally leaving the chat.
+    -   A new Search field to search and select from a list of available queues.
+    -   A new toggle control that applies the selected queue to either the current call or all outbound calls by default. This option appears after selecting a queue.
 
-Enable multiple agents to add wrap-up codes and comments for a single chat.
-
--   **[Import queues](https://www.servicenow.com/docs/access?context=import-queues&family=zurich&ft:locale=en-US)**
-
-Review and update queues imported from a contact center in a post-import page. The post-import page for a queue mirrors the existing post-import pages for skills and wrap-up codes, providing a consistent user experience.
-
--   **[ICC call control features](https://www.servicenow.com/docs/access?context=interaction-controls-component-icc-call-interaction-features&family=zurich&ft:locale=en-US)**
-
-Notify agents when a supervisor is coaching or has joined an active call while monitoring agents directly through the CCaaS system.
-
--   **[CCaaS callback features](https://www.servicenow.com/docs/access?context=contact-center-intergration-with-icc-callback&family=zurich&ft:locale=en-US)**
+ -   **[CCaaS callback features](https://www.servicenow.com/docs/access?context=contact-center-intergration-with-icc-callback&family=zurich&ft:locale=en-US)**
 
 Callback management has been improved to make handling requests easier for agents. The key changes include:
 
@@ -265,14 +271,61 @@ Email interaction handling has been enhanced to improve efficiency and responsiv
 
 Use bulk action to assign service channels to multiple queues simultaneously during queue-import, simplifying queue management for CCaaS integrations.
 
--   **[Portal Data List widget](https://www.servicenow.com/docs/access?context=portal-data-list-widget&family=zurich&ft:locale=en-US)**
 
-The Data List widget now offers more configuration flexibility and supports dynamic, context‑aware view selection. Key enhancements include:
+ -   **[Using the voice interaction page for callback requests](https://www.servicenow.com/docs/access?context=csm-native-voice-record-page&family=zurich&ft:locale=en-US)**
 
-    -   Role‑Based and Guest Views: Use the new role\_based\_views and guest\_view options to define different views for different user roles and for unauthenticated users removing the dependency on a single static view.
-    -   Automatic URL Parameter Passing: Pass URL parameters automatically into scripts invoked from Data List instance options enabling admins to build richer, multi‑parameter conditions without extra setup.
-    -   Script‑Based View Selection: Use the Data List Condition Script option to choose a view dynamically. Scripts can evaluate URL parameters and other context to determine the most appropriate view at runtime.
-    -   Configurable Default Sorting: Define initial sorting behavior using the new sort\_by and sort\_order options letting the users see a meaningful default order when the list loads.
+The following UI components have been added on the voice interaction page to manage callback requests:
+
+    -   A Callback Actions component enables agents to initiate a call to the customers.
+    -   A Callback Context card enables agents to get quick context before initiating the call.
+    -   A Transfer button has been added in the Callback actions component to enable agents to transfer callback requests.
+    -   The scheduled start time option has been added in the callback context card to help agents access the date and time of the scheduled callback and enable smoother conversations.
+    -   The callback context card appears at the center of the voice interaction page to help agents stay informed and efficient during customer interactions.
+    -   The following options have been added to the Reason for the Call list to help agents better capture the reason for callbacks:
+        -   Customer Survey
+        -   Sales Discovery
+        -   Product Feedback
+        -   Customer Relationship Building
+-   **[Using the email interaction page](https://www.servicenow.com/docs/access?context=using-email-interaction-page&family=zurich&ft:locale=en-US)**
+
+The following changes have been made to the Email Interaction page:
+
+    -   A New Activity marker has been added to help distinguish the most recent conversation.
+    -   A modeless dialog has been added to respond to emails without interrupting your workflow, enabling you to multitask and easily refer to record details.
+    -   A compact email header has been added to help you focus on key message details.
+    -   The activity stream shows only the latest reply in the email conversation for each response.
+-   **[Using Agent Chat](https://www.servicenow.com/docs/access?context=ci-agent-chat-using&family=zurich&ft:locale=en-US)**
+
+A **Leave Chat** button has been added to the record page so you can leave the chat without ending the session for other participating agents.
+
+
+ -   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+
+ -   **[Using the email interaction page](https://www.servicenow.com/docs/access?context=using-email-interaction-page&family=zurich&ft:locale=en-US)**
+
+View annotations for the most recent activity along with a compact email header that includes the subject, sender, and receiver details in the activity stream. Focus on new or unread email messages rather than the entire email conversation.
+
+View or edit the interaction record while drafting an email in a modeless dialog, keeping all relevant information accessible.
+
+-   **[Using Agent Chat](https://www.servicenow.com/docs/access?context=ci-agent-chat-using&family=zurich&ft:locale=en-US)**
+
+Leave a chat without ending it for other agents, enabling you to complete your task and exit the chat.
+
+Confirm before closing a chat tab to avoid unintentionally leaving the chat.
+
+Enable multiple agents to add wrap-up codes and comments for a single chat.
+
+-   **[Import queues](https://www.servicenow.com/docs/access?context=import-queues&family=zurich&ft:locale=en-US)**
+
+Review and update queues imported from a contact center in a post-import page. The post-import page for a queue mirrors the existing post-import pages for skills and wrap-up codes, providing a consistent user experience.
+
+-   **[ICC call control features](https://www.servicenow.com/docs/access?context=interaction-controls-component-icc-call-interaction-features&family=zurich&ft:locale=en-US)**
+
+Notify agents when a supervisor is coaching or has joined an active call while monitoring agents directly through the CCaaS system.
+
 
 </td></tr></tbody>
 </table>## Removed
@@ -375,7 +428,12 @@ Yokohama
 
 </td><td>
 
+-   **Activation information**
+
 Install the Engagement Messenger, Playbook for Portals, and Omnichannel applications by requesting them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
+
+
+**Important:** Engagement Messenger, Playbooks for Portals, and Omnichannel applications are available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 
@@ -383,7 +441,12 @@ Zurich
 
 </td><td>
 
-Install self-service and omnichannel applications, such as OpenFrame and Interaction Controls Component \(ICC\), by requesting them from the ServiceNow Store. 
+-   **Activation information**
+
+Install self-service and omnichannel applications, such as OpenFrame and Interaction Controls Component \(ICC\), by requesting them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
+
+
+**Important:** Self-service and omnichannel applications are available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -449,7 +512,10 @@ Yokohama
 
 </td><td>
 
+-   **Browser requirements**
+
 Internet Explorer isn't supported.
+
 
 </td></tr><tr><td>
 
@@ -457,7 +523,10 @@ Zurich
 
 </td><td>
 
+-   **Browser requirements**
+
 Internet Explorer isn't supported. For more information, see [Browser support](https://www.servicenow.com/docs/access?context=browser-support&family=zurich&ft:locale=en-US).
+
 
 </td></tr></tbody>
 </table>## Accessibility information
@@ -494,7 +563,11 @@ Zurich
 
 </td><td>
 
--   ****
+-   **Accessibility information**
+    -   **Dark theme**
+
+The new Coral theme includes a dark theme option for web and mobile experiences. This option is commonly used to alleviate eye strain and improve readability.
+
 
 </td></tr></tbody>
 </table>## Localization information

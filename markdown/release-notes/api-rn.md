@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/zurich/release-notes/api-rn.htm
 release: zurich
 topic_type: topic
 last_updated: "2025-07-31"
-reading_time_minutes: 9
+reading_time_minutes: 10
 breadcrumb: [Features and changes by product, Release notes for upgrading from Yokohama, Learn about the Zurich release, Zurich release notes]
 ---
 
@@ -21,7 +21,7 @@ ServiceNow® APIs enable you to build custom applications and experiences. APIs 
 -   Use inbound REST APIs to interact with various ServiceNow functionalities within your application.
 -   Client Next Experience APIs include client APIs compatible with the Next Experience UI.
 
-See  for more information.
+See [API implementation and reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/api-implementation-reference.md) for more information.
 
 ## Activation and other requirements
 
@@ -96,7 +96,7 @@ Lead to Cash Core
 
 </td><td>
 
-
+[LeadtoCashCore - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/LeadToCashCoreAPI.md)
 
 </td><td>
 
@@ -116,7 +116,7 @@ Lead to Cash Core
 
 </td><td>
 
-
+[LeadtoCashCore - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/LeadToCashCoreAPI.md)
 
 </td><td>
 
@@ -171,7 +171,7 @@ Omnichannel Callback
 
 </td><td>
 
-
+[Omnichannel Callback API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/omichannel-callback-api.md)
 
 </td><td>
 
@@ -195,7 +195,7 @@ Contact Center Integration Core
 
 </td><td>
 
-
+[External ID Mapping API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/external-id-mapping-api.md)
 
 </td><td>
 
@@ -216,7 +216,7 @@ Digital Product Release
 
 </td><td>
 
-
+[Digital Product Release API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/digital-product-release-api.md)
 
 </td><td>
 
@@ -246,7 +246,7 @@ Threat Intelligence Security Center for Security Operations
 
 </td><td>
 
-
+[TISC TAXII Server API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/taxii-server-api.md)
 
 </td><td>
 
@@ -273,7 +273,7 @@ Telecommunication Open APIs
 
 </td><td>
 
-
+[Party Management Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/tmf-party-management-open-api.md)
 
 </td><td>
 
@@ -303,7 +303,7 @@ Telecommunication Open APIs
 
 </td><td>
 
-
+[Product Inventory Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/product-inventory-open-api.md)
 
 </td><td>
 
@@ -324,7 +324,7 @@ Telecommunication Open APIs
 
 </td><td>
 
-
+[Service Catalog Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/service-catalog-open-api.md)
 
 </td><td>
 
@@ -348,7 +348,7 @@ Threat Intelligence Security Center for Security Operations
 
 </td><td>
 
-
+[TISC Intel Exchange API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/tisc-intel-ex-api.md)
 
 </td><td>
 
@@ -368,7 +368,7 @@ Threat Intelligence Security Center for Security Operations
 
 </td><td>
 
-
+[TISC RPZ API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/tisc-rpz-api.md)
 
 </td><td>
 
@@ -388,7 +388,7 @@ Network Inventory Advanced
 
 </td><td>
 
-
+[DCIM Metric Data Feed API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/dcim-metric-data-feed-api.md)
 
 </td><td>
 
@@ -408,7 +408,7 @@ Omnichannel Callback
 
 </td><td>
 
-
+[Omnichannel Callback API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/omichannel-callback-api.md)
 
 </td><td>
 
@@ -430,7 +430,7 @@ Quote Management
 
 </td><td>
 
-
+[Quote Management API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/quote-management-api.md)
 
 </td><td>
 
@@ -454,7 +454,7 @@ Telecommunication Open APIs
 
 </td><td>
 
-
+[Work Order Management API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/work-order-mgmt-api.md)
 
 </td><td>
 
@@ -501,14 +501,14 @@ Telecommunication Open APIs
 
 </td><td>
 
-
+[Product Order Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/tmf622_product_ordering-api.md)
 
 </td><td>
 
-When submitting a change payload with a new or updated service location \(via **productOrderItem.product.place.id**\), the request is now processed as a move order. This means that the product order remains the same but the service is fulfilled in the new designated location.-   
--   
--   
--   
+When submitting a change payload with a new or updated service location \(via **productOrderItem.product.place.id**\), the request is now processed as a move order. This means that the product order remains the same but the service is fulfilled in the new designated location.-   [Product Order Open API - PATCH /sn\_ind\_tmt\_orm/order/productOrder/\{id\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/tmf622_product_ordering-api.md)
+-   [Product Order Open API - PATCH /sn\_ind\_tmt\_orm/productorder/\{id\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/tmf622_product_ordering-api.md)
+-   [Product Order Open API - POST /sn\_ind\_tmt\_orm/order/productOrder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/tmf622_product_ordering-api.md)
+-   [Product Order Open API - POST /sn\_ind\_tmt\_orm/productorder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/tmf622_product_ordering-api.md)
 
 </td></tr><tr><td>
 
@@ -524,7 +524,7 @@ Omnichannel Callback
 
 </td><td>
 
-
+[Omnichannel Callback API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/omichannel-callback-api.md)
 
 </td><td>
 
@@ -547,7 +547,7 @@ Proactive Service Experience Workflows
 
 </td><td>
 
-
+[Trouble Ticket Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/trouble-ticket-open-api.md)
 
 </td><td>
 
@@ -570,7 +570,7 @@ Telecommunication Open APIs
 
 </td><td>
 
-
+[Product Catalog Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/product-catalog-open-api.md)
 
 </td><td>
 
@@ -595,7 +595,7 @@ Telecommunication Open APIs
 
 </td><td>
 
-
+[Service Catalog Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/service-catalog-open-api.md)
 
 </td><td>
 
@@ -618,7 +618,7 @@ Telecommunication Open APIs
 
 </td><td>
 
-
+[Product Order Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/tmf622_product_ordering-api.md)
 
 </td><td>
 
@@ -641,7 +641,7 @@ Telecommunication Open APIs
 
 </td><td>
 
-
+[Service Order Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/service-order-open-api.md)
 
 </td><td>
 
@@ -664,7 +664,7 @@ Threat Intelligence Security Center for Security Operations
 
 </td><td>
 
-
+[TISC API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/tisc-api.md)
 
 </td><td>
 
@@ -684,7 +684,7 @@ v9.5.17
 
 </td><td>
 
-
+[AP Invoice API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/ap-invoice-api.md)
 
 </td><td>
 
@@ -705,7 +705,7 @@ Telecommunication Open APIs
 
 </td><td>
 
-
+[Service Order Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/service-order-open-api.md)
 
 </td><td>
 
@@ -728,7 +728,7 @@ Telecommunication Open APIs
 
 </td><td>
 
-
+[Product Catalog Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/product-catalog-open-api.md)
 
 </td><td>
 
@@ -751,7 +751,7 @@ Telecommunication Open APIs
 
 </td><td>
 
-
+[Product Inventory Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/product-inventory-open-api.md)
 
 </td><td>
 
@@ -776,7 +776,7 @@ Telecommunication Open APIs
 
 </td><td>
 
-
+[Product Order Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/tmf622_product_ordering-api.md)
 
 </td><td>
 
@@ -803,7 +803,7 @@ Virtual Agent API
 
 </td><td>
 
-
+[Virtual Agent Bot Integration API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/bot-api.md)
 
 </td><td>
 
@@ -826,7 +826,7 @@ Methods
 
 </th></tr></thead><tbody><tr><td>
 
-
+[GlideCurrencyCode - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/GlideCurrencyCodeBothAPI.md)
 
 </td><td>
 
@@ -835,7 +835,7 @@ Methods
 
 </td></tr><tr><td>
 
-
+[GlideCurrencySymbol - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/GlideCurrencySymbolBothAPI.md)
 
 </td><td>
 
@@ -844,7 +844,7 @@ Methods
 
 </td></tr><tr><td>
 
-
+[GlideQueryCondition - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md)
 
 </td><td>
 
@@ -870,7 +870,7 @@ Methods
 
 </td></tr><tr><td>
 
-
+[GlideSysAttachment - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/c_GlideSysAttachmentScopedAPI.md)
 
 </td><td>
 
@@ -905,7 +905,7 @@ Methods
 
 </th></tr></thead><tbody><tr><td>
 
-
+[GlideDynamicAttribute - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/GlideDynamicAttributeAPI.md)
 
 </td><td>
 
@@ -913,7 +913,7 @@ Updated content to remove support for dynamic attribute groups.New method getNam
 
 </td></tr><tr><td>
 
-
+[GlideDynamicAttributeStore - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/GlideDynamicAttStoreAPI.md)
 
 </td><td>
 
@@ -924,7 +924,7 @@ Updated content to remove support for dynamic attribute groups.New methods:
 
 </td></tr><tr><td>
 
-
+[GlideDynamicNamespace - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/GlideDynamicNamespaceAPI.md)
 
 </td><td>
 
@@ -934,7 +934,7 @@ Updated content to remove support for dynamic attribute groups.New methods:
 
 </td></tr><tr><td>
 
-
+[GlideQueryCondition - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/c_GlideQueryConditionAPI.md)
 
 </td><td>
 
@@ -960,7 +960,7 @@ Updated content to remove support for dynamic attribute groups.New methods:
 
 </td></tr><tr><td>
 
-
+[GlideSysAttachment - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/GlideSysAttachmentGlobalAPI.md)
 
 </td><td>
 
@@ -986,7 +986,7 @@ Added support for additional message types to display at the top of forms:-   ad
 
 </td></tr><tr><td>
 
-
+[Message - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/sn_i18n.messageAPI.md)
 
 </td><td>
 
@@ -1004,7 +1004,7 @@ Methods
 
 </th></tr></thead><tbody><tr><td>
 
-
+[GlideForm \(g\_form\) - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/c_GlideFormAPI.md)
 
 </td><td>
 
@@ -1033,7 +1033,7 @@ Methods
 
 </td></tr><tr><td>
 
-
+[GlideModal \(Next Experience\) - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/GModClientAPINX.md)
 
 </td><td>
 
@@ -1051,7 +1051,7 @@ Methods
 
 </td></tr><tr><td>
 
-
+[GlideNavigation \(Next Experience\) - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/GlideNavigationClientAPINX.md)
 
 </td><td>
 
@@ -1059,7 +1059,7 @@ refreshNavigator\(\)
 
 </td></tr><tr><td>
 
-
+[StopWatch \(Next Experience\) - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/StopWatchAPINX.md)
 
 </td><td>
 
@@ -1070,7 +1070,7 @@ refreshNavigator\(\)
 
 </td></tr><tr><td>
 
-
+[GlideForm \(Next Experience\) - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/GlideFormAPINX.md)
 
 </td><td>
 
@@ -1094,7 +1094,7 @@ refreshNavigator\(\)
 
 </td></tr><tr><td>
 
-
+[GlideUser \(Next Experience\) - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/GlideUserAPINX.md)
 
 </td><td>
 
@@ -1111,7 +1111,7 @@ Endpoints
 
 </th></tr></thead><tbody><tr><td>
 
-
+[Conversation Member API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/conversation-member-api.md)
 
 </td><td>
 
@@ -1120,7 +1120,7 @@ Endpoints
 
 </td></tr><tr><td>
 
-
+[Omnichannel Callback API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/omichannel-callback-api.md)
 
 </td><td>
 
@@ -1130,7 +1130,7 @@ Endpoints
 
 </td></tr><tr><td>
 
-
+[CSM Pricing API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/csm-pricing-api.md)
 
 </td><td>
 
@@ -1150,7 +1150,7 @@ Methods
 
 </th></tr></thead><tbody><tr><td>
 
-
+[GlideSysAttachment - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/c_GlideSysAttachmentScopedAPI.md)
 
 </td><td>
 
@@ -1162,7 +1162,7 @@ Support for copying any attributes from source attachment records and deleting a
 
 </td></tr><tr><td>
 
-
+[IdentificationEngine - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/IdentificationEngineScopedAPI.md)
 
 </td><td>
 
@@ -1172,7 +1172,7 @@ Enable the **referenceItems** properties of the incoming payload to be populated
 
 </td></tr><tr><td>
 
-
+[ProducerV2 - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/ProducerV2ScopedAPI.md)
 
 </td><td>
 
@@ -1197,7 +1197,7 @@ Methods
 
 </th></tr></thead><tbody><tr><td>
 
-
+[GlideAggregate - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/c_GlideAggregateAPI.md)
 
 </td><td>
 
@@ -1212,7 +1212,7 @@ Remove support for groups in Dynamic Schema.-   addAggregate\(\)
 
 </td></tr><tr><td>
 
-
+[GlideDynamicAttribute - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/GlideDynamicAttributeAPI.md)
 
 </td><td>
 
@@ -1247,7 +1247,7 @@ Remove support for groups in Dynamic Schema.-   addQuery\(\)
 
 </td></tr><tr><td>
 
-
+[GlideSysAttachment - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/GlideSysAttachmentGlobalAPI.md)
 
 </td><td>
 
@@ -1259,7 +1259,7 @@ Support for copying any attributes from source attachment records and deleting a
 
 </td></tr><tr><td>
 
-
+[IdentificationEngineScriptableApi - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/c_IdentEngineScriptAPI.md)
 
 </td><td>
 
@@ -1279,15 +1279,15 @@ setHttpMethod\(\) - Added support for HEAD method calls via the **method** param
 </table>### What's deprecated or removed
 
 -   The GlideEncrypter API no longer supports Triple Data Encryption Standard \(3DES\) due to updated [NIST 800-131A Rev 2](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-131Ar2.pdf) guidelines.
-    -   For existing instances that upgrade to the Zurich release, the GlideEncrypter API is available for use but has been updated to automatically use the Key Management Framework algorithm. See  for more information on how to continue calling this API.
+    -   For existing instances that upgrade to the Zurich release, the GlideEncrypter API is available for use but has been updated to automatically use the Key Management Framework algorithm. See [GlideEncrypter - Global \(deprecated\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/GlideEncrypterAPI.md) for more information on how to continue calling this API.
     -   For all new instances created starting with the Zurich release, the GlideEncrypter API is no longer supported. Directly use the [Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/encryption.md) instead for all cryptography operations.
--   Dynamic groups have been removed from dynamic schema in Core Platform. For dynamic attributes defined with an associated dynamic attribute group before the Zurich release, the GlideDynamicAttribute getGroupName\(\) method originally designed for dynamic attribute groups continues to work for backwards compatibility.
+-   Dynamic groups have been removed from dynamic schema in Core Platform. For dynamic attributes defined with an associated dynamic attribute group before the Zurich release, the [GlideDynamicAttribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/GlideDynamicAttributeAPI.md) getGroupName\(\) method originally designed for dynamic attribute groups continues to work for backwards compatibility.
 
     The getGroupName\(\) method returns null for migrated attributes and newly created attributes.
 
     Customers are urged to migrate to the current [Dynamic Attribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-administration/working-with-dynamic-schema.md) definitions to take advantage of future improvements in features and functionality. For migration details, see the [Dynamic Schema Zurich Migration Guide \[KB2146133\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2146133) article in the Now Support Knowledge Base.
 
 
--   For existing instances that upgrade to the Zurich release, the GlideEncrypter API is available for use but has been updated to automatically use the Key Management Framework algorithm. See  for more information on how to continue calling this API.
+-   For existing instances that upgrade to the Zurich release, the GlideEncrypter API is available for use but has been updated to automatically use the Key Management Framework algorithm. See [GlideEncrypter - Global \(deprecated\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/GlideEncrypterAPI.md) for more information on how to continue calling this API.
 -   For all new instances created starting with the Zurich release, the GlideEncrypter API is no longer supported. Directly use the [Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/encryption.md) instead for all cryptography operations.
 
