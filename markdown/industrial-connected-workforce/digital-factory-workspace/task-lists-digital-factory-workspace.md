@@ -34,7 +34,7 @@ My tasks
 
 </td><td>
 
-Shows active tasks assigned to or created by the user that:
+Shows active tasks assigned to the user that:
 
  -   Are due during their current shift
 -   Have no due date
@@ -43,11 +43,16 @@ Shows active tasks assigned to or created by the user that:
 
 </td></tr><tr><td>
 
- 
+Opened by me
 
 </td><td>
 
- 
+Shows active tasks created by the current user that:
+
+ -   Are due during their current shift
+-   Have no due date
+-   Have no due date shift defined or
+-   Are no more than seven days overdue
 
 </td></tr><tr><td>
 
@@ -59,19 +64,6 @@ Shows active tasks in the user’s functional location that:
 
  -   Have a due date that falls within the current shift
 -   Have no due date
--   Are no more than seven days overdue
-
-</td></tr><tr><td>
-
-Opened by Me
-
-</td><td>
-
-Shows active tasks created by the current user that:
-
- -   Are due during their current shift
--   Have no due date
--   Have no due date shift defined or
 -   Are no more than seven days overdue
 
 </td></tr><tr><td>

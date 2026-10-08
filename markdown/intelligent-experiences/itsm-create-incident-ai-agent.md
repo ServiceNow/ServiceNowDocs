@@ -1,12 +1,13 @@
 ---
 title: Create incident AI agent
-description: This AI agent manages the end-to-end process of formally logging IT support requests, specifically for user requests like "create an incident," "raise an incident," "open a new incident," "open an IT ticket," or "raise an IT support ticket."
+description: This AI agent manages the end-to-end process of formally logging IT support requests, specifically for user requests like "create an incident," "raise an incident," "open a new incident," "open an IT ticket," or "raise an IT support ticket."Use the AI agent incident creation workflow to report issues, review resolution plans, and automatically create incident records with duplicate detection.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/itsm-create-incident-ai-agent.html
 release: australia
 topic_type: reference
 last_updated: "2026-08-14"
-reading_time_minutes: 2
+reading_time_minutes: 4
+keywords: [AI agent, incident creation, workflow]
 breadcrumb: [IT Service Management AI agents, IT Service Management, AI agents library, AI assets, Enable AI experiences]
 ---
 
@@ -117,4 +118,53 @@ Default VA Workflow
 </table>Learn more about IT Service Management at [IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/r_ITServiceManagement.md).
 
 **Parent Topic:**[IT Service Management AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/itsm-ai-agents-overview.md)
+
+## Use the Create incident AI agent
+
+Use the AI agent incident creation workflow to report issues, review resolution plans, and automatically create incident records with duplicate detection.
+
+### Before you begin
+
+Role required: none
+
+**Note:** The AI agent executes the operations as an ITIL user.
+
+### Procedure
+
+1.  Open the Create Incident AI agent from one of the available contexts:
+
+    -   ServiceNow Otto panel
+    -   Employee Center
+    -   ServiceNow Otto for Virtual Agent
+2.  Describe the issue you're experiencing in the provided field.
+
+    Provide details about the problem, including what you were trying to do, when the issue occurred, and any error messages or symptoms you observed.
+
+3.  Submit your issue description to the agent.
+
+    The agent analyzes your input and generates a proposed resolution plan based on the issue description and knowledge base.
+
+4.  Review the resolution plan and select **Accept** or **Reject**.
+
+    The agent displays a suggested resolution approach. If you accept the plan, the workflow proceeds to incident creation. If you reject it, you can provide additional guidance or take an alternative approach.
+
+    \[Omitted image "itsm-create-incident-ai-agent-plan-review.png"\] Alt text: Resolution plan review screen showing Accept and Reject options
+
+5.  Wait for the agent to check for similar existing incidents.
+
+    **Note:** The similar incidents must have the following conditions:
+
+    -   The incident must be active.
+    -   The caller must be the logged-in user.
+    -   The incident must have been created within the last 30 days.
+    The agent queries the incident database to identify any duplicate or related incidents that might address the same issue. This duplicate detection helps prevent unnecessary incident creation and helps consolidate related issues.
+
+6.  Review the incident created by the agent.
+
+    If no duplicates are found, the agent creates a new incident record with all relevant information from your issue description. The incident is ready for assignment to the appropriate support team and includes a complete audit trail of the workflow.
+
+
+### What to do next
+
+Your incident is in the system and assigned to the appropriate team for investigation and resolution. Track the status through your ServiceNow portal or mobile app.
 

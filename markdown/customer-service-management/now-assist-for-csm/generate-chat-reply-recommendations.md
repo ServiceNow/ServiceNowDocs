@@ -46,15 +46,15 @@ You can do these actions by using the AI icon:
 
 4.  In the chat message window, either type a response, or leave blank, and then select the AI icon \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon for Now Assist.
 
-<table id="choicetable_nbt_cxv_bcc"><thead><tr><th align="left" id="d34358e146">
+<table id="choicetable_nbt_cxv_bcc"><thead><tr><th align="left" id="d34555e146">
 
 Chat message window
 
-</th><th align="left" id="d34358e149">
+</th><th align="left" id="d34555e149">
 
 AI icon
 
-</th></tr></thead><tbody><tr><td id="d34358e155">
+</th></tr></thead><tbody><tr><td id="d34555e155">
 
 **Typed response**
 
@@ -71,7 +71,7 @@ Provides the option to refine your response:
 -   Sympathetic
 
 
-</td></tr><tr><td id="d34358e189">
+</td></tr><tr><td id="d34555e189">
 
 **Left blank**
 

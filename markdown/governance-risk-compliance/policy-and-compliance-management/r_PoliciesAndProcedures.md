@@ -9,7 +9,7 @@ classification: policy-and-compliance-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [Classic UI, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Classic UI, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Manage control objectives and policies

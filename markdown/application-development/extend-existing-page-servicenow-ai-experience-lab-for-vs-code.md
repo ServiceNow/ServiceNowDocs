@@ -78,7 +78,7 @@ ServiceNow SDK
 
 </td><td>
 
-4.10 or later
+4.12.1 or later
 
 </td><td>
 
@@ -106,7 +106,7 @@ ServiceNow instance
 
 2.  Access the command palette by pressing Ctrl+Shift+P on Windows or Command+Shift+P on macOS, or by navigating to **View** &gt; **Command Palette**.
 
-3.  Select **AIUX: Create Page**.
+3.  Select **Lux: Create Page**.
 
 4.  Select **Extend Existing Page**.
 

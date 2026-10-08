@@ -8,7 +8,7 @@ product: Event Management
 classification: event-management
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Reference, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
@@ -95,5 +95,9 @@ Select this check box to enable receiving the events from this external event so
  This field appears only after the form has been saved.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Event Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/event-management-reference.md)
+</table>Here are some options that depend on the type of **Push Connector Definition** you selected:
+
+-   Dynatrace: Specify the connection credential alias sys ID of the Service graph connector as the parameter value of the **connection\_sys\_id** parameter. For details on configuring this the Service graph connector, see [Configure Service Graph Connector for Observability - Dynatrace using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configure-dynatrace-integration.md).
+
+**Parent Topic:**[Event Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/event-management-reference.md)
 

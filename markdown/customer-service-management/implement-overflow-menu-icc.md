@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-05-20"
 reading_time_minutes: 2
 keywords: [overflow menu, active call component, toolbar layout order, ICC, call controls]
-breadcrumb: [ICC for voice calls, Integrating with Computer Telephony Integration \(CTI\), Integrate, Customer Service Management]
+breadcrumb: [Enable ICC for CCaaS calls and callbacks, Configure voice, Configure omnichannel, Configure, Customer Service Management]
 ---
 
 # Implement the overflow menu for active calls

@@ -61,6 +61,8 @@ Role required: sn\_mh.admin, sp\_admin
 
 [Configure important dates]()
 
+[Configure manager insights for ServiceNow Otto for HRSD]()
+
 [Configure team requests]()
 
 [Configure team data]()

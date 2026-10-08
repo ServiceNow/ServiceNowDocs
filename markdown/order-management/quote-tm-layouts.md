@@ -92,7 +92,7 @@ Layouts are organized using tiers, columnsets, and a line item grid.
     -   **Line item grid header** — buttons that appear above the grid at runtime.
     -   **Line item grid column** — fields that appear as columns in the grid.
     -   **Line level buttons** — buttons that appear on each individual line in the grid.
-    When pricing is enabled, you can surface pricing in the line item grid. Add the **Reprice** event button to the line item grid header or line-level buttons so users can recalculate pricing. Add the line pricing-state field \(`txn.line.pricing.state`\) as a grid column to show which lines need repricing. For more information about the Reprice event, see [Transaction events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-events.md).
+    When pricing is enabled, you can surface pricing in the line item grid: add the **Reprice** event button to the line item grid header or line-level buttons so users can recalculate pricing, and add the line pricing-state field \(`txn.line.pricing.state`\) as a grid column to show which lines need repricing. For more information about the Reprice event, see [Transaction events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-tm-events.md).
 
     The following layout properties apply to the line item grid and must be defined in the main YAML editor. Each property is enabled when its value is `true`.
 

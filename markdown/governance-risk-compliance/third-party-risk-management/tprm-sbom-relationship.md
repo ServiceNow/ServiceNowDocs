@@ -7,7 +7,7 @@ release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: reference
-last_updated: "2026-05-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [SBOM, software bill of materials, BOM entity, BOM components, data model]
 breadcrumb: [Third-party risk management data model, Reference, Third-party Risk Management, Governance, Risk, and Compliance]

@@ -17,7 +17,7 @@ Remove AI assets from active governance workflows by moving them to unmanaged st
 
 ## Before you begin
 
-Role required: sn\_ai\_governance\_ai\_steward
+Role required: sn\_ai\_governance.ai\_steward
 
 ## Procedure
 

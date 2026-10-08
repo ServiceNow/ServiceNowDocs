@@ -111,7 +111,7 @@ Used in agentic workflows
 
 </td><td>
 
-Triage cases
+[Triage cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/case-resolving-use-case.md)
 
 </td></tr></tbody>
 </table>Learn more about Customer Service Management at [Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_CustomerServiceManagement.md).

@@ -7,7 +7,7 @@ release: australia
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-12"
 reading_time_minutes: 4
 breadcrumb: [Manage projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -62,7 +62,7 @@ Role required: it\_pps\_admin, it\_project\_manager
 
 8.  Make changes to the report by editing the data, formatting, organizing the content, and entering additional data.
 
-    The changes you make to the status report here are saved to the underlying status report record, which you access from the status report related list in Projects form.
+    The changes you make to the status report here are saved to the underlying status report record. You can access this record from the status report related list in the Projects form.
 
 9.  Observe and monitor the report.
 

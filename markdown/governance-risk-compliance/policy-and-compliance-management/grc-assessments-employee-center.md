@@ -9,7 +9,7 @@ classification: policy-and-compliance-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Manage GRC tasks from Employee Center, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Manage GRC tasks from Employee Center, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Complete control assessments from the Employee Center portal

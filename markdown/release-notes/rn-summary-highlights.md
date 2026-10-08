@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/rn-summary-highlights.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-23"
-reading_time_minutes: 144
+last_updated: "2026-10-08"
+reading_time_minutes: 150
 breadcrumb: [Release notes summaries for Australia features, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
 
@@ -30,7 +30,14 @@ AI Admin Center
 
 </td><td>
 
-Australia Patch 6
+[Australia Patch 7](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-7.md)
+
+-   Leverage the updated user experience to carry out tasks in AI Admin Center.
+-   Prepare your instance for an upgrade to a selected release using the upgrade readiness pre-check.
+-   Manage the system properties of AI applications in your instance with the system property registry.
+-   Discover intents from your interaction data, generate detection and resolution criteria for them, and curate them for AI agent mapping.
+
+[Australia Patch 6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-6.md)
 
 -   Use the automation opportunities enhancements to refine your view and identify opportunities.
 -   Delete a custom data source analysis that you no longer want to run for automation opportunity discovery.
@@ -70,13 +77,13 @@ AI Admin Hub
 [Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-3.md)
 
 -   AI Guardian is enabled by default and detects prompt injection attempts and offensive content without manual activation.
--   Configure prompt injection detection separately for each Now Assist skill.
--   Create knowledge articles from Now Assist using files stored in Box.
+-   Configure prompt injection detection separately for each generative AI skill.
+-   Create knowledge articles with AI using files stored in Box.
 -   Improve the clarity and accessibility of your articles with the AI-powered prompt Reading Ease scan.
 
 -   **[Merge duplicate articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/merge-duplicate-articles.md)**
 
-Merge selected duplicate knowledge articles into a new consolidated article using Now Assist in Knowledge Management. The merge preserves references to source articles and helps maintain a clean, high‑quality knowledge base.
+Merge selected duplicate knowledge articles into a new consolidated article with ServiceNow® Otto for Knowledge Management. The merge preserves references to source articles and helps maintain a clean, high‑quality knowledge base.
 
 
 </td></tr><tr><td>
@@ -85,7 +92,12 @@ AI Agent Advisor
 
 </td><td>
 
-Australia Patch 6
+[Australia Patch 7](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-7.md)
+
+-   View recommended intents identified from existing automation opportunities in the asset library.
+-   Create custom AI agents and edit existing agents for automation opportunities in the agent builder in AI Agent Studio.
+
+[Australia Patch 6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-6.md)
 
 -   Use the automation opportunities enhancements to refine your view and identify opportunities.
 -   Delete a custom data source analysis that you no longer want to run for automation opportunity discovery.
@@ -126,7 +138,6 @@ AI Agent Studio
 -   Add or remove AI agents or tools from the built-in AI agents.
 -   Detect and disable runaway AI agent triggers to prevent unintended consumption.
 -   Support conversation history for Knowledge Graph tool.
--   Enforce deny-by-default ACLs for new agentic ACL types.
 -   Enable AI Agent Studio skill migration to Mosaic.
 
 [Australia Patch 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-2.md)
@@ -455,18 +466,6 @@ See  for an overview of features and capabilities.
 
 </td></tr><tr><td>
 
-App Engine ERP Rapid Deployment Packs
-
-</td><td>
-
--   Manage the CRUD \(create, read, update, delete\) processes for master data records across business domains through the MDM Orchestrator.
--   Review and act on transactions, master data records, and month-end journal entries from a single location through the centralized Approvals Hub.
--   Post, validate, and authorize manual journal entries before they post to the general ledger through the Journal Entry Approval Portal.
-
-See  for more information.
-
-</td></tr><tr><td>
-
 App Engine Management Center
 
 </td><td>
@@ -556,6 +555,27 @@ Authentication
 
 </td><td>
 
+[Australia Patch 7](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-7.md)
+
+-   **Step-up authentication for AI voice agents**
+
+Require a caller who is already authenticated to complete an additional challenge before reaching an AI voice agent that handles a sensitive request, such as a password reset or access to bank account details. Select Okta Verify push notification, SMS verification code, or authenticator app time-based one-time password \(TOTP\) as the step-up factor on the Assistant Designer's Caller verification page.
+
+
+[Australia Patch 6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-6.md)
+
+-   **[Human-assisted SMS OTP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/human-assisted-sms-otp.md)**
+
+Human-assisted SMS OTP lets a human agent verify an end user's identity by sending a one-time passcode via SMS during a live interaction. The agent initiates OTP generation and validation through the platform's scriptable APIs, and the consuming application \(for example, CSM or FSO workspace\) handles the agent-facing workflow and user interface.
+
+
+[Australia Patch 6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-6.md)
+
+-   **[Human-assisted SMS OTP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/human-assisted-sms-otp.md)**
+
+Human-assisted SMS OTP lets a human agent verify an end user's identity by sending a one-time passcode via SMS during a live interaction. The agent initiates OTP generation and validation through the platform's scriptable APIs, and the consuming application \(for example, CSM or FSO workspace\) handles the agent-facing workflow and user interface.
+
+
 [Australia Patch 3](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-3.md)
 
 -   **Authentication factors enhancement for AI voice service**
@@ -582,7 +602,26 @@ Australia
 -   Use the granular roles to complete administrative configuration tasks for Authentication without requiring the full admin role.
 -   Use the enhanced Auth Scope for your Inbound Integrations.
 
-See [Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/c_Authentication.md) for more information.
+[Australia Patch 7](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-7.md)
+
+-   **Step-up authentication for AI voice agents**
+
+Require a caller who is already authenticated to complete an additional challenge before reaching an AI voice agent that handles a sensitive request, such as a password reset or access to bank account details. Select Okta Verify push notification, SMS verification code, or authenticator app time-based one-time password \(TOTP\) as the step-up factor on the Assistant Designer's Caller verification page.
+
+
+</td></tr><tr><td>
+
+Automated Test Framework
+
+</td><td>
+
+-   Reduce upgrade and development time by replacing manual testing with automated testing.
+-   Design tests once and reuse them in different contexts and with different test data sets.
+-   Keep test instances clean by rolling back test data and changes made after each test run.
+-   Create and schedule test suites to organize and run tests in batches.
+-   Reduce test design time by copying quick start tests and test suites. You can also create custom test steps to expand test coverage.
+
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -599,17 +638,17 @@ See [Autonomous Workforce](https://raw.githubusercontent.com/ServiceNow/ServiceN
 
 </td></tr><tr><td>
 
-Build Agent
+Build Agent and Autonomous Engineer
 
 </td><td>
 
--   Use Build Agent in ServiceNow Studio.
--   Work with additional Model Context Protocol \(MCP\) support.
--   Create apps and newly supported metadata in the global scope.
--   Choose from newly supported models.
--   Search external content without leaving Build Agent.
+-   Accelerate development by reducing backlogs and enabling faster deployment of new business applications, without requiring developers to manually handle repetitive build, test, and deployment steps.
+-   Describe an application in natural language to autonomously generate code, organize files, and manage both UI and back-end components, making development available to users at any level.
+-   Support automated testing through Automated Test Framework \(ATF\) test suite generation and execution, reducing the manual effort required to validate new or updated applications.
+-   Decrease development costs because Build Agent handles code compilation, quality checks, and documentation of existing applications automatically.
+-   Enable agentic development by letting you create agentic workflows, custom AI agents, and skills tailored to your organization directly from within ServiceNow Studio.
 
-See  for more information.
+See  and  for more information.
 
 </td></tr><tr><td>
 
@@ -1198,6 +1237,19 @@ See [Digital End-User Experience](https://raw.githubusercontent.com/ServiceNow/S
 
 </td></tr><tr><td>
 
+Digital Product Release
+
+</td><td>
+
+-   Plan, validate, and track product releases in one workspace, so product teams share a single view of release readiness.
+-   Gate release progression with policies that evaluate data from the AI Platform and from connected planning and CI/CD tools.
+-   Restrict release visibility to the teams that own a release, and inherit that access down to release phases, phase tasks, and linked records.
+-   Hand a validated release to Change Management, so change approval focuses on deployment scheduling and service impact.
+
+For more information, see [Digital Product Release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/dpr-landing-page.md).
+
+</td></tr><tr><td>
+
 Dispute Content Pack for US Regulations
 
 </td><td>
@@ -1299,6 +1351,21 @@ Employee Slate
 -   Navigate organizational hierarchies with an integrated search experience for detailed employee information access.
 
 For more information, see  documentation.
+
+</td></tr><tr><td>
+
+Employee Slate for ITSM
+
+</td><td>
+
+-   See active outages and scheduled maintenance directly on the Employee Slate for ITSM home page, without navigating to a separate page.
+-   Investigate service status in more depth from a dedicated Service Status page.
+-   Ask Otto to summarize current active outages in one select, directly from the home page banner.
+-   Ask natural-language questions about outages -- by service, by outage number, or by date range -- and get a summarized answer with suggested follow-ups.
+-   Check in for a walk-up visit to the tech lounge or schedule an in-person appointment directly from the home page with available time slots.
+-   Ask Otto to request a tech lounge visit in natural language, and get routed to walk-in visit or a booking.
+
+See [Employee Slate for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/employee-works-itsm.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1520,7 +1587,7 @@ Flows, subflows, and actions
 -   Test conversation-enabled actions and subflows from a conversation.
 -   Use an AI agent from a flow.
 
-See [Exploring flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/exploring-flows.md), [Exploring subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/exploring-subflows.md), and [Exploring actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/exploring-actions.md) for more information.
+See , , and  for more information.
 
 </td></tr><tr><td>
 
@@ -1713,21 +1780,6 @@ See [ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDoc
 
 </td></tr><tr><td>
 
-ITSM Employee Slate for Moveworks
-
-</td><td>
-
--   See active outages and scheduled maintenance directly on the ITSM Employee Slate for Moveworks home page, without navigating to a separate page.
--   Investigate service status in more depth from a dedicated Service Status page.
--   Ask Otto to summarize current active outages in one select, directly from the home page banner.
--   Ask natural-language questions about outages -- by service, by outage number, or by date range -- and get a summarized answer with suggested follow-ups.
--   Check in for a walk-up visit to the tech lounge or schedule an in-person appointment directly from the home page with available time slots.
--   Ask Otto to request a tech lounge visit in natural language, and get routed to walk-in visit or a booking.
-
-See [ITSM Employee Slate for Moveworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/employee-works-itsm.md) for more information.
-
-</td></tr><tr><td>
-
 ITSM MCP Server
 
 </td><td>
@@ -1743,7 +1795,7 @@ Using ITSM MCP Server, manage incidents, change requests, and on-call schedule. 
 -   **On-call scheduling:** Retrieve rosters and shifts, request time off, and query availability through natural-language questions.
 
 
-See  for more information.
+See [ITSM MCP Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-mcp-server-overview.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1799,20 +1851,46 @@ See [Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNo
 
 </td></tr><tr><td>
 
+Industrial Analytics and Reporting
+
+</td><td>
+
+-   Monitor safety, quality, delivery, and cost \(SQDC\) performance for a functional location through inline dashboards, without leaving your operational workflows.
+-   Identify production shortfalls and dominant loss categories from a single view during shift handovers, daily reviews, and cadence meetings.
+-   Analyze IGT standard execution with shopfloor insights to uncover performance gaps and improve standards.
+-   Compare execution across shifts, with data aggregated according to the shift configuration of each functional location.
+
+See [Exploring Industrial Analytics and Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/exploring-industrial-analytics-and-reporting.md) for more information.
+
+</td></tr><tr><td>
+
+Industrial Centerlines
+
+</td><td>
+
+-   Standardize equipment base conditions by defining the operator-modifiable settings for each piece of equipment, with value types such as numeric range, numeric target, choice, or text.
+-   Establish acceptable values, ranges, and targets for each setting through setting specifications grouped in setting plans.
+-   Automate confirmation scheduling with centerline standards that define which settings to verify and when.
+-   Reduce quality and reliability losses by having operators confirm settings during centerline tasks, and create deviation tasks when a setting doesn't conform to the standard.
+
+See [Industrial Centerlines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/icw-centerlining-overview.md) for more information.
+
+</td></tr><tr><td>
+
 Industrial Connected Workforce Core
 
 </td><td>
 
 -   Navigate the equipment model faster in the Digital Factory Workspace using vertical navigation and a breadcrumb trail to move between functional locations.
 -   Use the AI Enhanced recommended actions for Industrial Connected Workforce \(ICW\) feature to access external sources related to a deviation and review why the document is relevant to the incident.
--   Use the action plan skill available with AI Enhanced recommended actions for \(ICW\) to create and organize resolution action items related to deviation.
+-   Use the action plan skill available with AI Enhanced recommended actions for Industrial Connected Workforce \(ICW\) to create and organize resolution action items related to deviation.
 -   Standardize your industrial data across equipment hierarchies, functional locations, calendars, and workforce structures to drive operational consistency.
 -   Strengthen governance of industrial task records, worker skills, and operational compliance across your organization.
--   Accelerate cross‑application task creation and record synchronization with expanded workflow orchestration.
+-   Accelerate cross-application task creation and record synchronization with expanded workflow orchestration.
 -   Improve system responsiveness with performance optimizations that reduce load times and increase record processing throughput.
 -   Enhance interoperability across the ICW suite applications with improved integration capabilities for downstream applications.
 
-See, [ICW Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-connected-workforce-core-landing-page.md) for more information.
+See [ICW Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-connected-workforce-core-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1937,7 +2015,7 @@ Knowledge Center
 
 </td><td>
 
-
+[Australia Patch 6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-6.md)
 
 -   Prioritize what matters most by assigning custom weights to individual scans at both the Article and Knowledge Base level in the Health Score configuration page.
 -   Catch outdated content with the new stale and expiring article detection in the Article Optimization scan, available at both the article and knowledge base level.
@@ -1977,14 +2055,13 @@ Knowledge Graph
 
 </td><td>
 
+-   Knowledge Graph can now be accessed by External users, with user role snc\_external, by setting the sn\_kg.enable\_external\_user\_check property to true.
 
+[Australia Patch 6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-6.md)
 
 -   Improved search results accuracy with enhanced Knowledge Graph integration in ServiceNow Otto® panel, ServiceNow® Otto for Virtual Agent, and AI Agents.
 
-[Australia Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-5.md)
-
--   ServiceNow Otto is the new AI experience brand. ServiceNow Now Assist is now ServiceNow Otto.
--   Run queries visually using the Graph Query Builder to select entities, add relationships and filters without writing query syntax.
+-   Knowledge Graph can now be accessed by External users, with user role snc\_external, by setting the sn\_kg.enable\_external\_user\_check property to true.
 
 [Australia Patch 4](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-4.md)
 
@@ -2250,6 +2327,17 @@ See [Now Assist in Document Intelligence \(Legacy\)](https://raw.githubuserconte
 
 </td></tr><tr><td>
 
+On-Call Onboarding
+
+</td><td>
+
+-   Onboard many teams onto on-call rotations at once — shift templates, rosters, and escalation policies — instead of configuring each team one at a time.
+-   Keep bulk schedule setup safe with per-team rollback: if one team's setup fails, the rest of the batch still completes.
+
+See [Create on-call schedules for multiple groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/oc-create-bulk-schedule-onboarding.md) for more information.
+
+</td></tr><tr><td>
+
 On-Call Scheduling
 
 </td><td>
@@ -2304,7 +2392,7 @@ Operational Technology Incident Management
 
 ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
 
-
+[Australia Patch 6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-6.md)
 
 -   The Now LLM Service is being prepared for future deprecation.
 
@@ -2337,7 +2425,7 @@ Operational Technology Manager
 
 ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
 
-
+[Australia Patch 6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-6.md)
 
 -   The Now LLM Service is being prepared for future deprecation.
 
@@ -2477,13 +2565,12 @@ Playbook
 
 </td><td>
 
--   Nest playbooks within other playbooks.
--   Enable runtime users to launch a playbook on demand.
--   Test playbooks with the Automated Test Framework.
--   Preview the UI for an activity in when configuring a playbook activity in Workflow Studio.
--   Use AI agents as activities in your playbook to automate tasks.
+-   Playbooks are structured, guided workflows that lead users, agents, or technicians through the steps required to complete a business process, such as case resolution or work order fulfillment.
+-   Playbooks consist of sequential stages, each containing activities that can be manual tasks, automated actions, or guided decisions, ensuring consistency and conformance across records.
+-   Benefits include eliminating the need to memorize processes, providing real‑time guidance, automating routine steps, and enabling administrators to update processes centrally, which applies to all users.
+-   Playbooks support use cases across multiple domains.
 
-See [Exploring Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/process-automation-designer.md) for more information.
+See  for more information.
 
 </td></tr><tr><td>
 
@@ -2522,6 +2609,10 @@ See [Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNow
 Predictive AI for CSM
 
 </td><td>
+
+[Australia Patch 7](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-7.md)
+
+-   Use MCP Server in ServiceNow Otto for Customer Service Management \(CSM\).
 
 [Australia Patch 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-5.md)
 
@@ -2757,7 +2848,7 @@ Recommended Actions for Operational Technology Service Management \(OTSM\)
 
 ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
 
-
+[Australia Patch 6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-6.md)
 
 -   The Now LLM Service is being prepared for future deprecation.
 
@@ -3094,6 +3185,14 @@ Use the Feature Preview Program to choose which pre-release capabilities to acti
 
 </td></tr><tr><td>
 
+ServiceNow Cowork
+
+</td><td>
+
+See [ServiceNow Cowork](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/servicenow-cowork-landing.md) for more information.
+
+</td></tr><tr><td>
+
 ServiceNow IDE
 
 </td><td>
@@ -3183,7 +3282,7 @@ ServiceNow Otto for Contract Management Pro
 
 </td><td>
 
-
+[Australia Patch 6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-6.md)
 
 -   Contract Management Pro MCP Server to retrieve the approved contract analysis playbook for external AI tools, enabling the use of organization's standard terms and approved clause language when reviewing contracts.
 -   Contract document-based conversational search queries now return all matching results instead of 10 results. Use Show more option to load the remaining results.
@@ -3205,7 +3304,7 @@ ServiceNow Otto for Contract Management Pro
 -   Configure use case mappings to extract metadata and obligations from a signed contract that is uploaded directly on a contract record.
 -   Use AI powered conversational search to query contract documents using natural language and dialogue-driven queries, making it easier to find relevant information.
 
-See  for more information.
+See [AI capabilities in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/cncore-exp-now-assist-land.md) for more information.
 
 </td></tr><tr><td>
 
@@ -3225,7 +3324,7 @@ ServiceNow Otto for Creator
 
 -   Upload brand guidelines as a PDF in the theme creation workflow to generate themes that align with your brand.
 -   Prepare for the app generation and test generation plugins to be deprecated in a future release.
--   Learn about Build Agent updates in the new [Build Agent release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/build-agent-rn.md).
+-   Learn about Build Agent updates in the new [Build Agent and Autonomous Engineer release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/build-agent-rn.md).
 
 [Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-1.md)
 
@@ -3315,6 +3414,18 @@ Australia Patch 0
 -   View additional journey services \(catalogs and order guides\) recommended based on previous journeys and peer requests.
 
 See [ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/now-assist-hrsd.md) for more information.
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Hardware Asset Management \(HAM\)
+
+</td><td>
+
+-   Automate repetitive sourcing tasks and reduce workload on asset managers.
+-   Reduce response and resolution time for hardware and repair requests.
+-   Consolidate asset data across related records and identify action items with AI-generated analysis.
+
+See [ServiceNow Otto for Hardware Asset Management \(HAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/now-assist-ham.md) for more information.
 
 </td></tr><tr><td>
 
@@ -3703,6 +3814,18 @@ Australia Early Availability
 
 </td></tr><tr><td>
 
+System Localization
+
+</td><td>
+
+-   Accommodate users in multiple countries, using different languages and currencies, within the same instance.
+-   Adapt your instance to a specific region or locale without impacting functionality.
+-   Localize your instance using one or more of the default language packs provided. If your target language is not provided by default, you can create your own translations of UI text.
+
+See [System Localization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/system-localization-landing.md) for more information.
+
+</td></tr><tr><td>
+
 Table Builder
 
 </td><td>
@@ -3921,7 +4044,7 @@ Virtual Agent
 
 </td><td>
 
-Australia Patch 6
+[Australia Patch 6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-6.md)
 
 -   Embed the enhanced chat widget on third-party websites.
 
@@ -3991,6 +4114,7 @@ Zero Copy Connector for ERP
 </td><td>
 
 -   Connect to Oracle E-Business Suite \(12.2 and later\).
+-   Add Workday RaaS reports to read operations by pasting a sample report response.
 -   Use REST APIs to extend beyond SAP systems.
 -   Use the improved AI suggestions and interface to map fields in the Model Manager.
 -   As of version 29.2.11, ServiceNow Otto is the new AI experience brand. This change is reflected in the name of ServiceNow products, including ServiceNow Otto for Zero Copy Connector.
@@ -4009,6 +4133,9 @@ Zero Copy Connectors
 -   Connect to Databricks, Oracle, and Snowflake using OAuth authentication.
 -   Query time-series monitoring data from Prometheus using the new community connector.
 -   Include either primary connectors only or both primary and community connectors.
+-   Retrieve real-time data from Oracle HCM \(Discovery\), and Acumatica using new REST connectors.
+-   Connect to MySQL and PostgreSQL using newly promoted primary connectors.
+-   Authenticate to external data sources using your own credentials with personal authentication support.
 
 See [Zero Copy Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/zero-copy-connectors.md) for more information.
 

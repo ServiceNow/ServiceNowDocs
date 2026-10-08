@@ -26,34 +26,34 @@ Role required: sn\_lg\_ops.legal\_user and sn\_cm\_core.contract\_user
 
 1.  Open the third-party contract review request.
 
-<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d787271e83">
+<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d794717e83">
 
 Method
 
-</th><th align="left" id="d787271e86">
+</th><th align="left" id="d794717e86">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d787271e92">
-
-**Using Legal Service Portal**
-
-</td><td>
-
-1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Service Portal**
-2.  Select the **My Requests** option on the header menu.
-3.  Select **View all requests**.
-4.  Open your submitted legal request from the list.
-5.  On the Standard Ticket page, from the Actions menu, select **Edit Request**.
-
-
-</td></tr><tr><td id="d787271e141">
+</th></tr></thead><tbody><tr><td id="d794717e92">
 
 **Employee Center**
 
 </td><td>
 
 1.  Navigate to **All** &gt; **Self-Service** &gt; **Employee Center**
+2.  Select the **My Requests** option on the header menu.
+3.  Select **View all requests**.
+4.  Open your submitted legal request from the list.
+5.  On the Standard Ticket page, from the Actions menu, select **Edit Request**.
+
+
+</td></tr><tr><td id="d794717e140">
+
+**Using Legal Service Portal**
+
+</td><td>
+
+1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Service Portal**
 2.  Select the **My Requests** option on the header menu.
 3.  Select **View all requests**.
 4.  Open your submitted legal request from the list.

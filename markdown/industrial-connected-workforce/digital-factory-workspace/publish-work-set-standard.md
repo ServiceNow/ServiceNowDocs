@@ -44,7 +44,9 @@ Role required: sn\_icw\_std.work\_set\_standard\_author
     Set the sub-activity **Type** to one of the following values.
 
     -   **Standard**: Select a published Industrial Guided Task standard to run as part of the work set. Work set standards can't reference other work set standards.
-    -   **Action**: Enter a short description for an industrial action that the system creates when the work set runs.
+    -   **Action**: Enter a short description for an industrial action that the system creates when the work set runs.Optionally, set the **LOTO\(TO\) Level**, **Line Status**, and **Knowledge Article** fields so that this execution-critical context is available on the generated action.
+    To run the sub-activity on its own schedule instead of the work set's schedule, select **Schedule-based exception**.
+
     For field descriptions, see [Work set sub-activity form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/work-set-sub-activity-form.md).
 
 8.  When the standard is ready for review, select **Request approval**.

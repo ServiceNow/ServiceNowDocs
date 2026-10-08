@@ -26,6 +26,8 @@ This task is explained using an Agile Release Train \(ART\) that has a Planning 
 
 On the board, move the story cards into different lanes or add new stories for the teams during planning meetings. Enable the **Dependencies** toggle to view dependencies and blockers across work for the teams.
 
+The Planning board of an ART doesn't display child teams whose planning methodology is Kanban. For more information, see [Scrum and Kanban teams in an ART in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/scrum-and-kanban-teams-in-eap.md).
+
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Strategic Planning Workspace** &gt; **Enterprise Agile Planning**.

@@ -9,7 +9,7 @@ classification: contract-management-pro
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Manual internal review, Review contract documents, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Manual internal review, Review contract documents, Common contract request tasks, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Work on internal review task
@@ -24,15 +24,15 @@ Role required: sn\_cm\_core.contract\_reviewer
 
 1.  Open the review task from workspace that you are using.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d77509e55">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d77692e55">
 
 Method
 
-</th><th align="left" id="d77509e58">
+</th><th align="left" id="d77692e58">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d77509e64">
+</th></tr></thead><tbody><tr><td id="d77692e64">
 
 **Contract Workspace Review tasks listing**
 
@@ -45,7 +45,7 @@ Steps
 5.  Open the review task from the list
 
 
-</td></tr><tr><td id="d77509e114">
+</td></tr><tr><td id="d77692e114">
 
 **Contract Workspace landing page**
 
@@ -56,7 +56,7 @@ Steps
 3.  Open the review task from the list
 
 
-</td></tr><tr><td id="d77509e147">
+</td></tr><tr><td id="d77692e147">
 
 **Workspace used by your application**
 
@@ -67,7 +67,7 @@ Steps
 3.  Open the review task from the list.
 
 
-</td></tr><tr><td id="d77509e168">
+</td></tr><tr><td id="d77692e168">
 
 **Contract Request Reviews tab**
 
@@ -104,15 +104,15 @@ Steps
 
     The reviewer edits the document, suggest changes through comments, and approve or reject any redlines.
 
-<table id="choicetable_qqw_xjr_5bc"><thead><tr><th align="left" id="d77509e294">
+<table id="choicetable_qqw_xjr_5bc"><thead><tr><th align="left" id="d77692e294">
 
 Type of storage
 
-</th><th align="left" id="d77509e297">
+</th><th align="left" id="d77692e297">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d77509e303">
+</th></tr></thead><tbody><tr><td id="d77692e303">
 
 **Internal storage**
 
@@ -128,7 +128,7 @@ Steps
 5.  Select **Submit**.
 
 
-</td></tr><tr><td id="d77509e347">
+</td></tr><tr><td id="d77692e347">
 
 **External storage**
 

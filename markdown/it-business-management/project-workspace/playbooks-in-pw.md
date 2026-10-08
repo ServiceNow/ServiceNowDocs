@@ -46,7 +46,7 @@ In a Stage-gate playbook, the stages and tasks must be completed in a linear ord
 **Related topics**  
 
 
-[Workflow Studio Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio-playbooks-landing.md)
+[bundle-crworkflow.workflow-studio-playbooks-landing]
 
 [Playbooks configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/configure-playbooks-pw.md)
 

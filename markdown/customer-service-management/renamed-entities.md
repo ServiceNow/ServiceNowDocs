@@ -58,3 +58,5 @@ The following foreign key field labels have been updated across impacted entitie
 |Responsibility Definition|service\_organization|Service Organization|Business Organization|
 |Responsibility Access Config|service\_organization|Service Organization|Business Organization|
 
+Also, the Business Location Service Portal has been renamed to Business Organization Support Portal.
+

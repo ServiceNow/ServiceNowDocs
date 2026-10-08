@@ -1,6 +1,6 @@
 ---
 title: Example: Script mapping
-description: The Age breakdown uses the Incident.Age.Days script to calculate the age of incidents in days and map the values to the Incident Age Ranges bucket group.
+description: The Age breakdown uses the RequestedItem.Age.Days script to calculate the age of incidents in days and map the values to the RequestedItem Age Ranges bucket group.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/example-script-mapping.html
 release: australia
@@ -14,15 +14,15 @@ breadcrumb: [Create a breakdown mapping on a breakdown record, Automated breakdo
 
 # Example: Script mapping
 
-The Age breakdown uses the Incident.Age.Days script to calculate the age of incidents in days and map the values to the Incident Age Ranges bucket group.
+The Age breakdown uses the RequestedItem.Age.Days script to calculate the age of incidents in days and map the values to the RequestedItem Age Ranges bucket group.
 
-In the first two images, you see the Age breakdown, which uses the Incident.Age.Days breakdown source and the Incident.Age.Days script for breakdown mapping. You also see that the breakdown source refers to the Incident Age Range \(Days\) bucket group.
+In the first two images, you see the Age breakdown, which uses the RequestedItem.Age.Days breakdown source and the RequestedItem.Age.Days script for breakdown mapping. You also see that the breakdown source refers to the RequestedItem Age Ranges \(Days\) bucket group.
 
-\[Omitted image "age-breakdown.png"\] Alt text: The age breakdown with Incident.Age.Days source and mapping highlighted.
+\[Omitted image "age-breakdown.png"\] Alt text: The age breakdown with Requested Item.Age.Days source and mapping highlighted.
 
 \[Omitted image "incident-age-days-bkdown-source.png"\] Alt text: The Incident.Age.Days breakdown source showing the Incident Age Ranges bucket group
 
-The Incident.Age.Days script takes the time stamp when the incident was opened from the incident table and subtracts this from the time stamp at the end of the collection period. The script converts this value from milliseconds to days.
+The RequestedItem.Age.Days script takes the timestamp when the incident was opened from the incident table. The script subtracts this time from the timestamp at the end of the collection period. The script converts this value from milliseconds to days.
 
 ```
 var diff=function(x,y){return y.dateNumericValue() - x.dateNumericValue();};
@@ -36,7 +36,7 @@ The resulting numbers of days are sorted into the buckets of the bucket group.
 
 Here is the result of running this script on the Number of open incidents indicator.
 
-\[Omitted image "detailed-scorecard-age-breakdown.png"\] Alt text: Analytics Hub for the Number of open incidents indicator showing the Age breakdown.
+\[Omitted image "detailed-scorecard-age-breakdown.png"\] Alt text: KPI Details for the Number of open incidents indicator showing the Age breakdown.
 
 **Parent Topic:**[Create a breakdown mapping on a breakdown record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/t_CrtBkdnBreakdownMpngs.md)
 

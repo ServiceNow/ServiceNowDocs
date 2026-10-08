@@ -8,8 +8,8 @@ product: Journey Designer
 classification: journey-designer
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
-breadcrumb: [Use, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
+reading_time_minutes: 1
+breadcrumb: [Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
 # AI in Journey designer
@@ -64,11 +64,4 @@ For more information about duplicating an agentic workflow and activating the re
 -   [Modify an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/modify-ai-agent.md)
 
 There might be AI agents installed on your instance that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md).
-
--   **[Generate onboarding ramp-up plan agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/onboarding-ramp-up-plan-agentic-wf.md)**  
-The Generate onboarding ramp-up plan agentic workflow is an AI-powered solution that helps managers at your organization onboard new employees more efficiently. This workflow uses a team of AI agents to generate team specific and personalized plans for every new hire.
--   **[Offboarding knowledge transfer plan generation agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/offboarding-knowledge-x-agentic-wf.md)**  
-The agentic workflow uses AI agents to identify, categorize, and transfer knowledge from departing employees to their managers and team.
-
-**Parent Topic:**[Using Journey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/using-jny-dsnr.md)
 

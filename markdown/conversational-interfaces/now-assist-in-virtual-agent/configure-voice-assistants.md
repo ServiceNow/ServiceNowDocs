@@ -8,7 +8,7 @@ product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
 topic_type: task
 last_updated: "2025-04-21"
-reading_time_minutes: 13
+reading_time_minutes: 15
 breadcrumb: [View assistants, Configuring assistants overview, ServiceNow Otto for Virtual Agent, Conversational Interfaces]
 ---
 
@@ -196,15 +196,17 @@ Instructions that tell the assistant how to handle specific situations and topic
 
         Select **Web applications** to configure the voice call widget on your ServiceNow Portal or Engagement Messenger. For more information, see [Use Voice call widget for portal communication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/portal-phone-widget.md).
 
+        **Note:** Guest callers connecting through a WebRTC web application, such as an unauthenticated portal visitor, are automatically authenticated using a cookie-based session. No additional widget configuration is required. Guest callers are still subject to the identification and authentication factors you configure in the next step, Identify and authenticate the caller. For more information about the voice call widget, see [Use Voice call widget for portal communication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/portal-phone-widget.md).
+
     3.  Select **Save and continue**.
 
         You're directed to the Caller verification page.
 
 7.  Identify and authenticate the caller.
 
-    Authentication settings apply only to telephony provider communication channel. If you have selected only mobile communication channel, skip this step.
+    Authentication settings configured in this step apply to the telephony provider communication channel. They also apply to guest callers connecting through a WebRTC web application, such as an unauthenticated portal visitor. If you selected only the mobile communication channel, or if a caller connects through a WebRTC web application while already logged in, skip this step. In these cases, the system uses the caller's existing authentication token instead.
 
-    \[Omitted image "ai-voice-assistant-authentication.png"\] Alt text: Caller identification and authentication method selection, showing identification method cards, first and second authentication factor cards, and advanced options.
+    \[Omitted image "ai-voice-assistant-authentication.png"\] Alt text: Caller identification and authentication method selection, showing identification method cards, first and second authentication factor cards, the step-up authentication card, and advanced options.
 
     Ensure the identification and authentication factors are configured at the platform level before you select them here. For more information, see [Authentication factors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/authentication-factors.md).
 
@@ -242,7 +244,7 @@ Knowledge-based authentication \(KBA\)
 
 </td><td>
 
-Verifies the caller by asking security questions configured at the platform level. Supports both internal records and external sources. See [Knowledge-based authentication \(Security Questions\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/knowledge-based-authentication.md) for more information.
+Verifies the caller using preconfigured security questions, or questions that you configure at the platform level using internal records or external sources. See [Knowledge-based authentication \(Security Questions\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/knowledge-based-authentication.md) for more information.
 
 </td><td>
 
@@ -309,15 +311,27 @@ Sends a one-time code to the caller’s configured email address. See [Email One
 Voice or DTMF
 
 </td></tr></tbody>
-</table>    4.  Enable the **Authenticate at the start of the call** option to prompt callers for authentication or identification details before the voice assistant responds to any request.
+</table>    4.  Select the step-up authentication factor.
 
-        When enabled, every caller is prompted to complete authentication or identification at the start of the call, regardless of which AI voice agent handles the interaction.
+        This step is required if one or more AI voice agents in this assistant require step-up authentication. If none do, the step is optional and you can select the factor in advance. For more information about step-up authentication, see Step-up authentication.
 
-    5.  In the **Advanced options** section, configure the authentication type and retry attempts.
+        Select one factor. The same factor applies to every AI voice agent in this assistant that requires step-up authentication. Supported factors are Okta Verify push notification, SMS verification code, and Authenticator app time-based One Time Password \(TOTP\). The factor selected as the **First factor** or **Second factor** can also be selected for step-up authentication. The caller receives a new challenge.
 
-        -   **Authentication type**: Select **Multi-factor authentication \(MFA\)** to require callers to complete both a first and second factor before the system grants access. MFA is enabled by default. Select **Single factor** to require one verification method only. To enable single factor, set the `glide.voice.authenticate.mfa_mandatory` system property to `false`.
-        -   **Retry**: Set the number of authentication attempts callers get before the system routes them to a live agent. The default is 3 attempts.
-    6.  Select **Save and continue**.
+        An AI agent is set to require step-up authentication in AI Agent Studio, not on this screen. When one or more AI voice agents in this assistant require step-up authentication, the step-up authentication card shows which agents require it. For more information, see Create an AI voice agent.
+
+        To change or remove the factor, select **Remove** on the card.
+
+        **Note:** If an AI agent is set to require step-up authentication after this assistant is saved without a step-up factor, callers reaching that agent are directed to the fallback method configured on the Safeguards screen until a factor is selected.
+
+    5.  Enable the **Authenticate at the start of the call** option to prompt callers for authentication or identification details before the voice assistant responds to any request.
+
+        When enabled, every caller is prompted to complete authentication or identification at the start of the call, regardless of which AI voice agent handles the interaction. If the caller's first request reaches an AI voice agent that requires step-up authentication, the caller completes first factor and second factor authentication and then completes the step-up challenge before the agent handles the request.
+
+    6.  In the **Advanced options** section, configure the authentication type and retry attempts.
+
+        -   **Authentication type**: Select **Multi-factor authentication \(MFA\)** to require callers to complete both a first and second factor before the system grants access. MFA is enabled by default. Select **Single factor** to require one verification method only. To enable single factor, set the `glide.voice.authenticate.mfa_mandatory` system property to `false`. This setting applies to the first and second factor only. Step-up authentication runs regardless of the authentication type selected.
+        -   **Retry**: Set the number of first factor and second factor authentication attempts callers get before the system routes them to a live agent. The default is 3 attempts. This setting doesn't apply to step-up authentication, which is one attempt.
+    7.  Select **Save and continue**.
 
         If the configuration is incomplete or inconsistent, inline messages appear next to the relevant field.
 

@@ -73,13 +73,7 @@ The Agent and Case tables present average Auto QA scores, category scores, and c
 
 The Auto QA dashboard displays quality assurance cases and associated agents as a sortable list component. To reorganize agent or case data, select the column header and arrange them in ascending or descending order. You can organize them by the number of reviewed cases, performance score, caseload, or other metrics. A new tab with more information opens when you select an agent or case from the list.
 
-You can use the following features to manage data:
-
--   Filters: Use the condition builder to filter by any column.
--   Group By: Organize data by any column.
--   Sort: Arrange data by any column.
--   Search: Find specific information across columns.
--   Export: Download data as PDF, JPG, or CSV.
+You can use the sort functionality from the dashboard to manage and arrange data by any column.
 
 **Note:**
 

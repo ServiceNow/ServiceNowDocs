@@ -8,7 +8,7 @@ product: Change Management
 classification: change-management
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 6
 breadcrumb: [Conflict detection, Configure, Change Management, IT Service Management]
 ---
 
@@ -22,13 +22,17 @@ Role required: admin
 
 ## About this task
 
-By default, not all properties are selected in the Change Management Conflict Analysis Properties page. Modify or customize conflict detection capabilities to meet the needs of your organization.
+Conflict detection compares a change request schedule against blackout windows, maintenance windows, and other change requests for the same configuration item \(CI\) or assignee. By default, not all properties are selected on the Change Management Conflict Analysis Properties page. Configure the properties to match your organization's scheduling rules.
+
+For example, set **change.conflict.mode** to **Advanced**. This checks both the current CI and its affected CIs against other change requests, and set **change.conflict.show\_conflict\_message** to **Always** to display a message whenever a scheduling conflict is detected. For the conflict detection concept, see [Conflict detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/c_ConflictDetection.md).
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Change** &gt; **Administration** &gt; **Conflict Properties**.
 
 2.  In the Change Management Conflict analysis properties page, enter the roles that have access to the conflict detection feature.
+
+    Enter a comma-separated list of roles in the **change.conflict.role** property. Include roles that already have access to the change\_request record. For example, enter `itil`. For the complete property list, see [Conflict detection properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/configure-conflict-properties.md).
 
 3.  Configure the remaining customization properties.
 

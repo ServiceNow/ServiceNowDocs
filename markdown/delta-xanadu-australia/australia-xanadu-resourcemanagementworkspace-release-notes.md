@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-xanadu-australia/australia-xanadu-resourcemanagementworkspace-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 9
+last_updated: "2026-10-08"
+reading_time_minutes: 10
 breadcrumb: [Products combined by family]
 ---
 
@@ -113,6 +113,15 @@ Yokohama
 </td><td>
 
 -   **[Using Resource Management Workspace](https://www.servicenow.com/docs/access?context=using-rmw&family=yokohama&ft:locale=en-US)**
+
+View and access the resource assignments from high-level to get an overview of all the resource assignments, based on their states, completion dates, start dates, resources with allocations over their capacity, and resources allocations within their available.
+
+    -   Filter the resource board using the primary attributes and dates to build a custom view.
+    -   Edit the dashboard further to manage the data representation view of existing widgets or add new elements to build the required widgets.
+    -   Access the custom resource boards from dashboard using the interactive widgets to manage the allocations details.
+    -   Edit the Start and End dates, Task efforts, and Resource status for assigned tasks in the top tray using the inline editing feature.
+
+ -   **[Using Resource Management Workspace](https://www.servicenow.com/docs/access?context=using-rmw&family=yokohama&ft:locale=en-US)**
     -   View the Resource status, Remaining capacity, and Utilization columns to the allocation heatmap modal to help resource managers to view detailed insights and the total efforts for Approved and Pending tasks.
     -   Use the Total row in the heatmap modal to view the aggregate utilization for approved and pending tasks.
     -   Update the resource status and the efforts for child assignments using the new modal.
@@ -128,7 +137,14 @@ Zurich
 
 </td><td>
 
--   **[Move a resource assignment](https://www.servicenow.com/docs/access?context=move-ra-rmw&family=zurich&ft:locale=en-US)**
+-   **[Assign resource assignments](https://www.servicenow.com/docs/access?context=allocate-resources-rmw&family=zurich&ft:locale=en-US)**
+
+Allocate effort from unassigned resource assignments using the following ways:
+
+    -   Auto-assign work among all the available resources.
+    -   Partially assign work among for selected resources.
+
+ -   **[Move a resource assignment](https://www.servicenow.com/docs/access?context=move-ra-rmw&family=zurich&ft:locale=en-US)**
 
 Move any assigned resource assignment without actuals or an unassigned resource assignment to a different date to align the work with your project realignment, prioritization, or resource availability. You can move individual resource assignments based on your project or organizational priorities.
 
@@ -178,7 +194,11 @@ Yokohama
 
 </td><td>
 
--   **[Using Resource Management Workspace](https://www.servicenow.com/docs/access?context=using-rmw&family=yokohama&ft:locale=en-US)**
+-   **[New navigation menu](https://www.servicenow.com/docs/access?context=using-rmw&family=yokohama&ft:locale=en-US)**
+    -   New Reporting dashboard landing page in Resource Management Workspace to view and access the resource allocation details.
+    -   Interactive widgets in Reporting dashboard to access the custom resource boards.
+
+ -   **[Using Resource Management Workspace](https://www.servicenow.com/docs/access?context=using-rmw&family=yokohama&ft:locale=en-US)**
 
 Added the following details in the resource allocation heatmap view.
 
@@ -349,6 +369,8 @@ Yokohama
 Install Resource Management Workspace by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 
+**Important:** Resource Management Workspace is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Zurich
@@ -359,6 +381,8 @@ Zurich
 
 Install Resource Management Workspace by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
+
+**Important:** Resource Management Workspace is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 

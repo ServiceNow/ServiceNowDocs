@@ -107,7 +107,7 @@ Your connector administrator can use settings copied from the Google Cloud conso
 Provide the following items to your connector administrator:
 
 -   Your Google Workspace domain name, in the format `example.com`. You can find your domain name by navigating to the [https://admin.google.com/ac/domains/manage](https://admin.google.com/ac/domains/manage) Google administration page.
--   The email address for a user account that has permission to access your Google Workspace domain’s user directory. The Google Drive external content connector uses this account to enumerate users and groups of the domain.
+-   The email address for a user account that has permission to access your Google Workspace domain's user directory. The Google Drive external content connector uses this account to enumerate users and groups of the domain.
 
     **Note:** This should be an email address from your organization's domain, not a service account email address from the `iam.gserviceaccount.com` domain.
 

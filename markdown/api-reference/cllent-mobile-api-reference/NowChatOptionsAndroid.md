@@ -1,6 +1,6 @@
 ---
 title: NowChatConfiguration class - Android
-description: The NowChatConfiguration class enables you to configure options on a chat session, such as showing a prompt before closing a chat window, disabling features while using chat, applying different conversation options when using chat, and configuring UI components in NowChat.Configures options for the current chat session. This method enables you to show a prompt before closing a chat window, disable features while using chat, apply different conversation options when using chat, and configure UI components in NowChat.Defines the UI configurations to apply to the upload attachment button that appears next to the text input while talking with a live agent.Defines the configuration of the close button used for back navigation on the NowChat toolbar. You then pass this object into the NowChatConfiguration\(\) method to configure the close button to use within the chat session.Creates and returns a ClosePrompt object based on the passed parameters. You then pass this object into the NowChatConfiguration\(\) method to configure the close prompt options within the chat session.Creates and returns a UIConfiguration object based on the passed parameters. You then pass this object into the NowChatConfiguration\(\) constructor to configure UI components in NowChat.
+description: The NowChatConfiguration class enables you to configure options on a chat session, such as showing a prompt before closing a chat window, disabling features while using chat, applying different conversation options when using chat, and configuring UI components in NowChat.Configures options for the current chat session. This method enables you to show a prompt before closing a chat window, disable features while using chat, apply different conversation options when using chat, and configure UI components in NowChat.Defines the UI configurations to apply to the upload attachment button that appears next to the text input while talking with a live agent.Defines the configuration of the close button used for back navigation on the NowChat toolbar. You then pass this object into the NowChatConfiguration\(\) method to configure the close button to use within the chat session.Creates and returns a ClosePrompt object based on the passed parameters. You then pass this object into the NowChatConfiguration\(\) method to configure the close prompt options within the chat session.Creates and returns a UIConfiguration object based on the passed parameters. You then pass this object into the NowChatConfiguration\(\) constructor to configure UI components in NowChat. Defines the UI configurations to apply to the speech-to-text microphone button that appears in the text input bar.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/api-reference/cllent-mobile-api-reference/NowChatOptionsAndroid.html
 release: australia
@@ -8,7 +8,7 @@ product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 6
+reading_time_minutes: 8
 breadcrumb: [Mobile SDK - Android, Mobile SDK API reference, API reference, API implementation and reference]
 ---
 
@@ -380,7 +380,7 @@ suspend fun launchChat() {
 }
 ```
 
-## NowChatConfiguration - UIConfiguration\(closeButton: CloseButton? = null, attachmentUploadButton: AttachmentUploadButton? = null\)
+## NowChatConfiguration - UIConfiguration\(closeButton: CloseButton? = null, attachmentUploadButton: AttachmentUploadButton? = null, hideServiceNowInProductBranding: Boolean = false, voiceInputButton: VoiceInputButton? = null\)
 
 Creates and returns a UIConfiguration object based on the passed parameters. You then pass this object into the NowChatConfiguration\(\) constructor to configure UI components in NowChat.
 
@@ -408,7 +408,7 @@ closeButton
 
 </td><td>
 
-Configuration for the `CloseButton` that appears on the NowChat toolbar and is used for back navigation.Call the [NowChatConfiguration - CloseButton\(icon: Drawable?\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowChatOptionsAndroid.md) subclass to define the value of this parameter.
+UI configuration for the `CloseButton` that appears on the NowChat toolbar and is used for back navigation.Call the [NowChatConfiguration - CloseButton\(icon: Drawable?\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowChatOptionsAndroid.md) subclass to define the value of this parameter.
 
 For example:
 
@@ -431,7 +431,7 @@ attachmentUploadButton
 
 </td><td>
 
-Configuration for the `AttachmentUploadButton` that is shown next to the text input while talking with a live agent.Call the [NowChatConfiguration - AttachmentUploadButton\(isVisible: Boolean = true\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowChatOptionsAndroid.md) subclass to define the value of this parameter.
+UI configuration for the `AttachmentUploadButton` that is shown next to the text input while talking with a live agent.Call the [NowChatConfiguration - AttachmentUploadButton\(isVisible: Boolean = true\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowChatOptionsAndroid.md) subclass to define the value of this parameter.
 
 For example:
 
@@ -443,30 +443,121 @@ val chatConfiguration = NowChatConfiguration(
 )
 ```
 
+</td></tr><tr><td>
+
+hideServiceNowInProductBranding
+
+</td><td>
+
+Boolean
+
+</td><td>
+
+Optional. Flag that indicates whether to hide the ServiceNow branding in Virtual Agent.Valid values:
+
+-   true: ServiceNow branding is hidden.
+-   false: ServiceNow branding is shown.
+
+Default: false
+
+</td></tr><tr><td>
+
+voiceInputButton
+
+</td><td>
+
+[VoiceInputButton?](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/NowChatOptionsAndroid.md)
+
+</td><td>
+
+Optional. UI configuration for the speech-to-text microphone button shown in the text input bar.Default: null \(the button is visible\)
+
 </td></tr></tbody>
 </table>|Type|Description|
 |----|-----------|
-|Object|UI configuration object.|
+|UIConfiguration|Object containing the UI configurations defined in the provided parameters.|
 
-The following code example shows how to call the UIConfiguration subclass to set the icon for the closeButton and to hide the attachment upload button.
+The following code example calls the UIConfiguration subclass. It sets the icon for the closeButton, hides the attachment upload button, hides ServiceNow branding, and hides the speech-to-text microphone button.
 
 ```
-suspend fun launchChat() {
-  val chatService = getNowChatService() 
-     
-  //Drawable to use instead of the default NowChat back button. 
-  val myDrawable = ContextCompat.getDrawable(activity, R.drawable.my_drawable) 
+suspend fun launchChat() { 
+    val chatService = getNowChatService() 
  
-  val chatConfiguration = NowChatConfiguration( 
-    uiConfiguration = NowChatConfiguration.UIConfiguration( 
-      closeButton = NowChatConfiguration.CloseButton( 
-        icon = myDrawable 
-      ), 
-      attachmentUploadButton = NowChatConfiguration.AttachmentUploadButton(isVisible = false)
+    // Drawable to use instead of the default NowChat back button 
+    val myDrawable = ContextCompat.getDrawable(activity, R.drawable.my_drawable) 
+ 
+    val uiConfiguration = NowChatConfiguration.UIConfiguration( 
+        closeButton = NowChatConfiguration.CloseButton(icon = myDrawable), 
+        attachmentUploadButton = NowChatConfiguration.AttachmentUploadButton(isVisible = false), 
+        hideServiceNowInProductBranding = true, 
+        voiceInputButton = NowChatConfiguration.VoiceInputButton(isVisible = false) 
     ) 
-  ) 
  
-  chatService?.start(activity, chatConfiguration) 
-} 
+    val chatConfiguration = NowChatConfiguration( 
+        uiConfiguration = uiConfiguration 
+    ) 
+ 
+    chatService?.start(activity, chatConfiguration) 
+}
+```
+
+## NowChatConfiguration - VoiceInputButton\(isVisible: Boolean = true\)
+
+Defines the UI configurations to apply to the speech-to-text microphone button that appears in the text input bar.
+
+VoiceInputButton is a subclass of the NowChatConfiguration class.
+
+<table id="table_v1a_5zr_ddc" class="parameters"><thead><tr><th>
+
+Name
+
+</th><th>
+
+Type
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+isVisible
+
+</td><td>
+
+Boolean
+
+</td><td>
+
+Optional. Flag that sets the visibility of the speech-to-text microphone button in the text input bar.Valid values:
+
+-   true: The button is visible.
+-   false: The button is hidden.
+
+Default: true
+
+</td></tr></tbody>
+</table>|Type|Description|
+|----|-----------|
+|VoiceInputButton|Object containing the UI configuration for the speech-to-text microphone button.|
+
+The following code example hides the speech-to-text microphone button.
+
+```
+suspend fun launchChat() { 
+    val chatService = getNowChatService() 
+ 
+    val voiceInputButton = NowChatConfiguration.VoiceInputButton(isVisible = false) 
+ 
+    val uiConfiguration = NowChatConfiguration.UIConfiguration( 
+        voiceInputButton = voiceInputButton 
+    ) 
+ 
+    val chatConfiguration = NowChatConfiguration( 
+        uiConfiguration = uiConfiguration 
+    ) 
+ 
+    chatService?.start(activity, chatConfiguration)
+}
 ```
 

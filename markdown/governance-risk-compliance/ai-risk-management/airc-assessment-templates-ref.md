@@ -7,7 +7,7 @@ release: australia
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: reference
-last_updated: "2026-05-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [assessment templates, FRIA, EU AI Act, NIST, AI Risk and Compliance]
 breadcrumb: [Reference, AI Risk and Compliance, Governance, Risk, and Compliance]
@@ -45,8 +45,6 @@ ServiceNow aims to provide software updates for new or updated major regulations
 
 
 [Assessment templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/airc-assessment-templates.md)
-
-[Risk assessment methodologies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/airc-rams.md)
 
 [Risk assessment methodologies reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/airc-rams-ref.md)
 

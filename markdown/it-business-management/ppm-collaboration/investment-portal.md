@@ -1,20 +1,20 @@
 ---
 title: Investment Portal
-description: Completing projects and demands on time within budget is a challenge. Investment Portal gives you a comprehensive view of project and demand financials, deadlines, and other important metrics in an intuitive user interface that makes project and demand management more efficient.
+description: Completing projects and demands on time within budget is a challenge. Investment Portal gives you a comprehensive view of project and demand financials, deadlines, and other important metrics. The intuitive interface makes project and demand management more efficient.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/ppm-collaboration/investment-portal.html
 release: australia
 product: PPM Collaboration
 classification: ppm-collaboration
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-12"
 reading_time_minutes: 3
 breadcrumb: [Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Investment Portal
 
-Completing projects and demands on time within budget is a challenge. Investment Portal gives you a comprehensive view of project and demand financials, deadlines, and other important metrics in an intuitive user interface that makes project and demand management more efficient.
+Completing projects and demands on time within budget is a challenge. Investment Portal gives you a comprehensive view of project and demand financials, deadlines, and other important metrics. The intuitive interface makes project and demand management more efficient.
 
 **Important:**
 

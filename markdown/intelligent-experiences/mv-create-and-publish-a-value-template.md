@@ -17,7 +17,7 @@ A value template defines the formula used to calculate productivity gains for ma
 
 ## Before you begin
 
-Role required: sn\_ai\_governance\_ai\_steward
+Role required: sn\_ai\_governance.ai\_steward
 
 ## About this task
 

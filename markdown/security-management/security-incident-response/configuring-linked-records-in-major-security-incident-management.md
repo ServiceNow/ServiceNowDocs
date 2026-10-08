@@ -8,7 +8,7 @@ product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Rollup Framework for MSIM, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
@@ -28,9 +28,9 @@ Role required: admin and sn\_msi.workspace\_admin.
 
     \[Omitted image "linked-record-config.png"\] Alt text: Linked Record configuration
 
-2.  On the Linked Record Configuration page, click **New**
+2.  On the Linked Record Configuration page, select **New**
 
-    **Note:** Ensure that the application is in Major Security Incident Management scope.
+    **Note:** Verify that the application is in Major Security Incident Management scope.
 
     \[Omitted image "linked-record-new-form.png"\] Alt text: Create record
 
@@ -58,7 +58,7 @@ Order
 
 </td><td>
 
-Allows you to control the order of the current source table in MSIM workspace drop-down. Below is an example of the **order**.Refer to image 1 below, which is provided after this table.
+Allows you to control the order of the current source table in MSIM workspace drop-down. Following is an example of the **order**.Refer to image 1, which is provided after this table.
 
 </td></tr><tr><td>
 
@@ -74,14 +74,16 @@ Can Promote to MSI
 
 </td><td>
 
-Select this check box to confirm whether the record is a primary record. Below is an example of **Can Promote to MSI** option selection.Refer to the following image 2, which is provided after this table.
+Select this check box to confirm whether the record is a primary record. Following is an example of **Can Promote to MSI** option selection.Refer to the following image 2, which is provided after this table.
 
  If this check box is selected and the value is true, then:
 
 -   you can directly propose and promote a source record to Major Security Incident using the classic environment actions with additional configurations.
 -   you can link source records to major security incidents both from the classic environment and MSIM workspace.
 -   Major Security Incident Management workspace linked record page displays the linked source table records.
- **Note:** If a record can be directly proposed/promoted as a Major Security Incident, then that record is a primary record. For example, in the Security Response task table configuration, the value of **Can Promote to MSI** is false as you can't directly promote Security Response task to Major Security Incident. Hence, it does not show up in the MSIM workspace linked record tab drop-down list.
+ **Note:** If a record can be directly proposed/promoted as a Major Security Incident, then that record is a primary record. For example, in the Security Response task table configuration, the value of **Can Promote to MSI** is false as you can't directly promote Security Response task to Major Security Incident. Therefore, it does not show up in the MSIM workspace linked record tab drop-down list.
+
+ **Note:** If this check box is cleared, the **Model ListView** and MSI Field Mapping fields are hidden on the form, because these fields apply only to records that can be promoted directly to a major security incident.
 
 </td></tr><tr><td>
 

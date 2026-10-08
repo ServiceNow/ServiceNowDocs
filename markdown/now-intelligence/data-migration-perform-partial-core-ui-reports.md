@@ -17,7 +17,7 @@ Migrate a selection of your Core UI reports to Platform Analytics experience.
 
 ## Before you begin
 
-Role required: admin, report\_admin, or dashboard\_admin.
+Role required: report\_admin, dashboard\_admin, or higher
 
 ## About this task
 

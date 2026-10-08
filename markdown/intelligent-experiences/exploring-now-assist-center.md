@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/exploring-now-assist-center.html
 release: australia
 topic_type: concept
-last_updated: "2026-07-30"
+last_updated: "2026-10-01"
 reading_time_minutes: 4
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
 breadcrumb: [AI Admin Center, Enable AI experiences]
@@ -14,6 +14,12 @@ breadcrumb: [AI Admin Center, Enable AI experiences]
 # Exploring AI Admin Center
 
 The ServiceNow® AI Admin Center application is a single control hub that brings together other AI capabilities and configuration functions, making it fast and effortless for administrators to set up and manage AI solutions from a unified experience.
+
+**Important:** Lux is the new user experience for AI Admin Center. For more information on the Lux experience, see [AI Admin Center user experience \(Lux UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-admin-center-lux-user-experience.md).
+
+The Next Experience AI Admin Center workspace is being prepared for deprecation in the November store release and will no longer be supported. For more information on the Next Experience UI, see [AI Admin Center workspace \(Next Experience UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-workspace.md).
+
+In AI Admin Center version 6.1, the Next Experience and Lux user interfaces are both available.
 
 ## AI Admin Center overview
 
@@ -62,13 +68,14 @@ AI practitioners building and deploying custom AI solutions across ServiceNow wo
 
 The following diagram shows the AI adoption activities you can accomplish in AI Admin Center.
 
-\[Omitted image "mmasset0022025-now-assist-center-capabilities-v2.png"\] Alt text: List of the AI Admin Center capabilities and their related activities.
+\[Omitted image "mmasset0022025-ai-admin-center-capabilities-v3.png"\] Alt text: List of the AI Admin Center capabilities and their related activities.
 
 This diagram shows the following capabilities in AI Admin Center:
 
 -   Assess AI readiness
     -   View readiness assessments
     -   Take remediation steps
+    -   Plan instance upgrades
 -   Install and configure AI products
     -   Install plugins
     -   Activate skills
@@ -85,6 +92,7 @@ This diagram shows the following capabilities in AI Admin Center:
 -   Manage AI assets
     -   View asset library
     -   Create AI assets
+    -   Manage system properties
 -   Set up AI settings and guardrails
     -   Configure settings
     -   Manage models
@@ -116,11 +124,13 @@ User
 
 </th></tr></thead><tbody><tr><td>
 
-Accelerate and simplify setup of your AI solutions in a unified experience. The workspace tab structure enables you to work with multiple AI applications without leaving AI Admin Center.
+Accelerate and simplify setup of your AI solutions in a unified experience. The workspace enables you to work with multiple AI applications without leaving AI Admin Center.
 
 </td><td>
 
-[AI Admin Center workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-workspace.md)
+[AI Admin Center user experience \(Lux UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-admin-center-lux-user-experience.md)
+
+ [AI Admin Center workspace \(Next Experience UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-workspace.md)
 
 </td><td>
 
@@ -144,7 +154,7 @@ Automated assessment of your instance readiness helps you prepare for AI adoptio
 
 </td><td>
 
-[AI readiness](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-readiness-evaluation.md)
+[AI readiness](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-using-readiness-evaluation.md)
 
 </td><td>
 
@@ -152,7 +162,7 @@ AI administrator
 
 </td></tr><tr><td>
 
-Get started right away with guided quick-start use cases that appear as actionable cards on the home page. This gives both new and experienced administrators a clear starting point for enabling AI.
+Get started right away with guided quick-start use cases that appear as top actions on the home page. This gives both new and experienced administrators a clear starting point for enabling AI.
 
 </td><td>
 
@@ -168,7 +178,7 @@ Quickly discover automation opportunities for your instance. AI Agent Advisor an
 
 </td><td>
 
-Automation opportunity discovery with AI Agent Advisor
+[Automation opportunity discovery with AI Agent Advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-automation-discovery-setup.md)
 
 </td><td>
 
@@ -180,7 +190,7 @@ Matches identified automation opportunities to existing AI agents on the platfor
 
 </td><td>
 
-[AI agent matching and automated deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/activate-automation-opportunity-now-assist-center.md)
+[AI agent matching and automated deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/using-ai-agent-advisor.md)
 
 </td><td>
 
@@ -190,7 +200,7 @@ AI administrator
 
 </td></tr><tr><td>
 
-Provides centralized access to the broader AI ecosystem within a consistent tabbed workspace experience.
+Provides centralized access to the broader AI ecosystem within a consistent workspace experience.
 
 </td><td>
 
@@ -213,10 +223,10 @@ View performance and usage statistics for your AI implementation.
 AI administrator
 
 </td></tr></tbody>
-</table>-   **[AI Admin Center workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-workspace.md)**  
+</table>-   **[AI Admin Center workspace \(Next Experience UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-workspace.md)**  
 Use the AI Admin Center workspace to set up, monitor, and manage your AI solutions.
--   **[AI readiness assessments in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-readiness-evaluation.md)**  
-The AI readiness assessment helps to simplify and automate the generative AI and agentic AI implementation assessment process. It automates assessment processes, evaluates data readiness, and provides actionable insights to help you quickly adopt AI capabilities.
+-   **[AI Admin Center user experience \(Lux UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-admin-center-lux-user-experience.md)**  
+Use the AI Admin Center experience to set up, monitor, and manage your AI solutions.
 -   **[Supporting information for AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/supporting-information-now-assist-center.md)**  
 Get a quick overview of the important information that is related to the AI Admin Center application.
 

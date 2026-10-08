@@ -1,5 +1,5 @@
 ---
-title: Configure project status generation skill in the AI Admin Hub
+title: Configure project status generation skill in the AI Admin Hub console
 description: Configure the project status generation AI skill to enable.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-workspace/configure-project-status-generation-skill.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Activate a AI skill, Use AI Admin Hub, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
-# Configure project status generation skill in the AI Admin Hub
+# Configure project status generation skill in the AI Admin Hub console
 
 Configure the project status generation AI skill to enable.
 
@@ -22,7 +22,7 @@ Role required: admin
 
 ## Procedure
 
-1.  Navigate to **Admin** &gt; **AI Admin Hub**.
+1.  Navigate to **Admin** &gt; **AI Admin**.
 
     If you’re already in the AI Admin Hub console, select the **AI Skills** tab.
 

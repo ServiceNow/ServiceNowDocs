@@ -17,7 +17,7 @@ Assign a default value template to each AI system category and vendor so that ne
 
 ## Before you begin
 
-Role required: sn\_ai\_governance\_ai\_steward
+Role required: sn\_ai\_governance.ai\_steward
 
 ## About this task
 

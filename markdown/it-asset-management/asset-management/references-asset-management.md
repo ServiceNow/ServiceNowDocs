@@ -1,6 +1,6 @@
 ---
-title: Asset Management references
-description: Reference topics provide additional information about the lists and forms that you use to configure and administer Asset Management.
+title: Base Asset Management references
+description: Reference topics provide additional information about the lists and forms that you use to configure and administer Base Asset Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/asset-management/references-asset-management.html
 release: australia
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Base Asset Management, Common applications, Asset Management]
 ---
 
-# Asset Management references
+# Base Asset Management references
 
-Reference topics provide additional information about the lists and forms that you use to configure and administer Asset Management.
+Reference topics provide additional information about the lists and forms that you use to configure and administer Base Asset Management.
 

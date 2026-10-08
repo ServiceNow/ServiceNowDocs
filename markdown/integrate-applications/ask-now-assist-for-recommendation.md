@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/australia/integrate-application
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Configure, Workflow Data Fabric Home, Workflow Data Fabric]
 ---
 
@@ -62,6 +62,12 @@ Customer data exists across Salesforce, SAP, and internal databases. We need a u
 ## Search the data catalog
 
 The support team is investigating customer churn. It wants to find data assets in the Data Catalog that hold subscription and cancellation records, along with the related glossary terms.
+
+## Enrich metadata for data assets
+
+A recent metadata collector run onboarded new assets to the Data Catalog, but their metadata is still incomplete. Select the promoted [Bulk enrich assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/ai-metadata-enrichment-overview-dc.md) action, if available on this panel, or ask Otto to bulk enrich the assets.
+
+\[Omitted image "dc-bulk-enrich-with-ai.png"\] Alt text: Enrich data assets with AI
 
 **Related topics**  
 

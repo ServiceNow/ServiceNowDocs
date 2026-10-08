@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/data-migration-migrate-dbs-you-own.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-10-05"
 reading_time_minutes: 2
 keywords: [How to migrate your own dashboards]
 breadcrumb: [Platform Analytics Migration Center, Platform Analytics experience, Platform Analytics]
@@ -17,40 +17,36 @@ Migrate dashboards that you own, including reports, interactive filters, and Per
 
 ## Before you begin
 
-Role required: You can migrate any dashboard you own. Users with admin or dashboard\_admin roles can migrate any dashboard.
+Role required: Non-admin users can migrate any dashboard they own from the dashboard itself. Users with the dashboard\_admin or higher roles can migrate any dashboard from the Dashboard Library.
 
 ## About this task
 
 To learn about migration and its benefits, see [Platform Analytics Migration Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/data-migration.md).
 
-**Note:** You cannot use update sets to move the migrated material from a non-production instance to a production instance. Test the migration on the non-production instance and then use Migration Center functionality to migrate the production instance.
+**Note:** You cannot use update sets to move the migrated material from a non-production instance to a production instance. Test the migration on the non-production instance and then use Migration Center functionality to migrate the production instance. If content on a dashboard is used in only one dashboard, it will be available only on that dashboard after migration. If it is used in more than one dashboard, that content is migrated to the Platform Analytics experience library.
 
-If content on a dashboard is used in only one dashboard, it will be available only on that dashboard after migration. If it is used in more than one dashboard, that content is migrated to the Platform Analytics experience library.
-
-This task is only applicable on instances that are upgraded to releases Australia or later. Net new instances from Australia onward do not have the **Ready to migrate** column or the **Switch to Next UI** button.
+This task is only applicable on instances that are upgraded to releases Xanadu or later. Net new instances from Xanadu onward don't have the **Core UI** column or the **Switch to Next Experience UI** button.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Self-Service** &gt; **Dashboards**.
+1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Dashboards**.
 
-    \[Omitted image "data-migration-mig-indiv-db1.png"\] Alt text: Personal dashboard showing the individual migration banner.
+2.  Open the dashboard that you want to migrate.
 
-2.  Select the dashboards that you want to migrate.
+    Choose from dashboards that you own that have Core UI in the **UI version** column.
 
-    Choose from dashboards that have Yes in the **Ready to migrate** column.
+    **Note:** Dashboards with custom or dynamic content blocks and any widgets that aren't base-system Performance Analytics widgets will not show the migration banner. Examples of these widgets include CMDB widgets.
 
-    **Note:** Dashboards with custom or dynamic content blocks and any widgets that are not base-system Performance Analytics widgets will not show the migration banner. Examples of these other widgets include CMDB widgets.
+    \[Omitted image "data-migration-mig-indiv-db2.png"\] Alt text: Personal dashboard showing the individual migration banner.
 
-3.  Select **Switch to Next UI**.
-
-    \[Omitted image "data-mig-selected-from-library.png"\] Alt text: Dashboard library with two Core UI dashboards that are ready to migrate selected and the Switch to Next UI button highlighted
-
-    A message confirming the number of dashboards you want to migrate appears. Select **Switch to Next UI** again to open the Migration Center.
+3.  Select **Switch to Next Experience UI**.
 
 
 ## Result
 
-The migrated dashboard appears in the Platform Analytics library. Links to the original Core UI dashboard redirect to the library as well.
+The migrated dashboard replaces the Core UI dashboard in the browser and in the Platform Analytics Dashboard library.
+
+The migrated dashboard appears in the library. Links to the original Core UI dashboard redirect to the Platform Analytics experience version too.
 
 ## What to do next
 

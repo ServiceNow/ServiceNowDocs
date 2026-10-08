@@ -30,7 +30,7 @@ Public Sector Digital Services provides agents across government agencies with a
 
     -   Social Benefits Playbook
     -   License and Permit Playbook
-    -   Information Request Playbook
+    -   Information Request Administration
     -   Service Request Playbook
     To learn more about playbooks, see [Playbooks for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/playbooks-psds-exploring.md).
 

@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure Voice, Configure omnichannel, Configure, Customer Service Management]
+breadcrumb: [OpenFrame overview, Configure voice, Configure omnichannel, Configure, Customer Service Management]
 ---
 
 # Create an OpenFrame configuration

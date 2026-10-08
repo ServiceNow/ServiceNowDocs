@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-xanadu-australia/australia-xanadu-servicenowottoforfinancialservicesoperationsfso-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 10
+last_updated: "2026-10-08"
+reading_time_minutes: 16
 breadcrumb: [Products combined by family]
 ---
 
@@ -83,7 +83,27 @@ Xanadu
 
 </td><td>
 
-No updates for this release.
+-   **[ACL security implementation](https://www.servicenow.com/docs/access?context=configuring-security-in-now-assist-for-fso&family=xanadu&ft:locale=en-US)**
+
+ServiceNow Otto for FSO can be configured to enable security implementation to execute generative AI skills through ACLs and user identities. Some predefined ACLs are provided for case summarization.
+
+
+-   **[Case summarization skill](https://www.servicenow.com/docs/access?context=now-assist-case-summary&family=xanadu&ft:locale=en-US)**
+
+Designed to save time for your agents by allowing them to condense a record to a short summary \(when configured\). ServiceNow Otto for FSO includes the customized skills that can be configured to use for specific card dispute and insurance claim use cases.
+
+-   **[Now Assist panel](https://www.servicenow.com/docs/access?context=now-assist-panel-overview&family=xanadu&ft:locale=en-US)**
+
+Enable your agents to access Now Assist skills in a panel that is available in Financial Services Workspace. After configuration, agents can summarize the viewed record or a specific case number in Now Assist panel.
+
+-   **[AI Admin Hub console](https://www.servicenow.com/docs/access?context=configuring-now-assist&family=xanadu&ft:locale=en-US)**
+
+Use the AI Admin Hub console to activate and configure the capabilities and individual skills. For example, you can designate which roles have access to a skill, or whether the skill is available in Financial Services Workspace, the Now Assist panel, or both.
+
+-   **[Skill availability restricted by user role](https://www.servicenow.com/docs/access?context=configure-now-assist-for-fso&family=xanadu&ft:locale=en-US)**
+
+Specify the roles that can access the case summarization skill.
+
 
 </td></tr><tr><td>
 
@@ -91,9 +111,30 @@ Yokohama
 
 </td><td>
 
--   **[Using agentic workflows](https://www.servicenow.com/docs/access?context=using-ai-agent-use-cases-in-now-assist-for-fso&family=yokohama&ft:locale=en-US)**
+-   **[Long term stable models](https://www.servicenow.com/docs/access?context=long-term-stable-models&family=yokohama&ft:locale=en-US)**
+
+Long term stable \(LTS\) models are part of Now LLM Service and provide longer model stability windows for regulated industries. These models can integrate with tools to provide governance, monitoring, and compliance controls.
+
+
+ -   **[New third-party AI model provider options available for all Now Assist applications](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=yokohama&ft:locale=en-US)**
+
+Google Gemini and AWS Claude are available for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
+
+-   **[ACL security implementation](https://www.servicenow.com/docs/access?context=configuring-now-assist-skills-for-fso&family=yokohama&ft:locale=en-US)**
+
+Enable security implementation to execute AI agents, agentic workflows, and generative AI skills through ACLs and user identities in Now Assist for FSO.
+
+Predefined ACLs are provided for case summarization, Disputes intake via Virtual Agent, and the Help resolve friendly fraud AI agent and agentic workflow.
+
+
+ -   **[Using agentic workflows](https://www.servicenow.com/docs/access?context=using-ai-agent-use-cases-in-now-assist-for-fso&family=yokohama&ft:locale=en-US)**
 
 Resolve disputes that are flagged as friendly fraud with comprehensive guidance from the friendly fraud AI agent. Leverage the AI agent's step-by-step recommendations and detailed responses to explain the decisions made regarding disputes. Based on the AI agent recommendations, issue credit to customers, decline disputes, or initiate an exception process.
+
+
+ -   **[Disputes intake via Virtual Agent](https://www.servicenow.com/docs/access?context=now-assist-for-financial-services-operations&family=yokohama&ft:locale=en-US)**
+
+Provide an intuitive dialog-based channel experience for your customers to submit details on a dispute case. The dispute intake via Virtual Agent leverages questions that are required by the card processing networks. Now LLM Service rephrases these questions in a conversational format and infers the answers for the unanswered questions from customer responses.
 
 
 </td></tr><tr><td>
@@ -112,6 +153,28 @@ Streamline your front-office banking operations by using the Agentic Contact Cen
     -   CSR Interaction
         -   Customer support AI agent - It provides real-time contextual insights and recommended steps that help reduce manual effort and decrease handle time during customer calls.
         -   Call summarization skill - It summarizes active customer calls and other customer information, then displays relevant insights dynamically, eliminating the need to navigate multiple windows during customer calls.
+
+ -   **[AI agents in FSO](https://www.servicenow.com/docs/access?context=ai-agents-fso&family=zurich&ft:locale=en-US)**
+
+Automate ACH dispute resolution using AI-powered agents to assist in these tasks:
+
+    1.  Evaluate merchant analysis
+    2.  Evaluate Nacha operating guidelines
+    3.  Review ACH dispute return recommendation
+    4.  Dispute communication initiation
+These AI agents provide recommended outcomes along with supporting rationale to assist decision-making. However, the final decision remains entirely with the dispute agent.
+
+Dispute agents can now close tasks faster and with confidence using the **Apply Recommendation** option. With one click, the recommended outcome and rationale are applied and the task is closed, saving time, reducing manual effort, and boosting productivity.
+
+-   **[Now LLM LTS support for ServiceNow Otto for FSO](https://www.servicenow.com/docs/access?context=now-llm-model-updates&family=zurich&ft:locale=en-US)**
+
+Long term stable \(LTS\) models are part of Now LLM Service and provide longer model stability windows for regulated industries. These models can integrate with tools to provide governance, monitoring, and compliance controls.
+
+
+ -   **[ACL security implementation](https://www.servicenow.com/docs/access?context=using-ai-agent-use-cases-in-now-assist-for-fso&family=zurich&ft:locale=en-US)**
+
+Enable security implementation to execute AI agents, agentic workflows, and generative AI skills through ACLs and user identities in ServiceNow Otto for FSO. Predefined ACLs are provided for case summarization, Disputes intake via Virtual Agent, and the Help resolve friendly fraud AI agent and agentic workflow.
+
 
 </td></tr><tr><td>
 
@@ -134,6 +197,32 @@ Enables insurance CSRs to ask natural-language questions about a customer's insu
 -   **[Insurance Customer Profile Summarization skill](https://www.servicenow.com/docs/access?context=ai-skills-agentic-contact-center-insurance&family=australia&ft:locale=en-US)**
 
 Provides AI-generated summaries of an insurance customer's profile, status, and policy portfolio directly in the Customer 360 page in Agentic Contact Center for Insurance.
+
+
+ -   **[Banking CSR support AI agent](https://www.servicenow.com/docs/access?context=agentic-contact-center-for-banking-agents-overview&family=australia&ft:locale=en-US)**
+
+Provides CSRs with AI-driven live assistance during voice calls. This AI agent monitors the transcript of the call. When prompted, the agent identifies customer intent, surfaces knowledge-based recommendations, and suggests next-best actions.
+
+-   **[Banking customer interaction context summary skill](https://www.servicenow.com/docs/access?context=ai-skills-agentic-contact-center-banking&family=australia&ft:locale=en-US)**
+
+Generates a call-contextual customer summary in the Interaction workspace in the Agentic Contact Center for Banking. This summary is scoped to the intent of the inbound call, providing the agent with a snapshot of the customer's situation when the call begins.
+
+-   **[Banking CSR customer insights AI agent](https://www.servicenow.com/docs/access?context=agentic-contact-center-for-banking-agents-overview&family=australia&ft:locale=en-US)**
+
+Enables CSRs to ask natural-language questions about a customer directly from the Customer 360 workspace. The agent aggregates data from predefined sources, then uses the information to generate accurate, contextually relevant answers.
+
+-   **[Banking customer profile summarization skill](https://www.servicenow.com/docs/access?context=ai-skills-agentic-contact-center-banking&family=australia&ft:locale=en-US)**
+
+Provides AI-generated summaries directly on the Customer 360 workspace in the Agentic Contact Center for Banking, reducing navigation across multiple systems.
+
+-   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&family=australia&ft:locale=en-US)**
+
+The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
+
+    -   Foundation: AI basics to deliver insights
+    -   Advanced: AI to boost productivity across relevant use cases
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
 
 
 </td></tr></tbody>
@@ -184,9 +273,27 @@ Zurich
 
 </td><td>
 
--   **[Changes to Now Assist usage measurement](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=zurich&ft:locale=en-US)**
+-   **[Now Assist &gt; ServiceNow Otto announcement](https://www.servicenow.com/docs/access?context=sn-ai-implementation-landing&family=zurich&ft:locale=en-US)**
+
+ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+
+
+ -   **[Changes to Now Assist usage measurement](https://www.servicenow.com/docs/access?context=monitoring-now-assist-usage&family=zurich&ft:locale=en-US)**
 
 Starting with Australia Early Access, AI usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: AI Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
+
+
+ -   **[Disputes intake via Virtual Agent](https://www.servicenow.com/docs/access?context=exploring-now-assist-for-financial-services-operations-fso&family=zurich&ft:locale=en-US)**
+
+Disputes intake via Virtual Agent has the following updates:
+
+    -   Questions presented to the user for disputes will follow the dispute questionnaire in the disputes playbook.
+    -   Bypass inferring answers to certain questions so that customers provide answers directly, ensuring the correct dispute category and dispute reason are determined.
+    -   Supports ACH disputes, Disputes intake via Virtual Agent including submission of the Written Statement of Unauthorized Debt \(WSUD\).
+    -   Checks if the disputed transaction is already part of an existing case.
+-   **[Role configuration required for agentic workflows and AI agents](https://www.servicenow.com/docs/access?context=aia-role-masking&family=zurich&ft:locale=en-US)**
+
+Agentic workflows and AI agents included with your applications require additional security configuration. If you select **Users with selected roles** for your user access security controls for an agentic workflow or AI agent, you must add the installed roles, or they will not execute. See the documentation for the agentic workflow or AI agent for the specific roles you must add.
 
 
 </td></tr><tr><td>
@@ -195,7 +302,12 @@ Australia
 
 </td><td>
 
--   **[Updated default model provider for ServiceNow Otto for FSO skills](https://www.servicenow.com/docs/access?context=configure-fso-now-assist-skills&family=australia&ft:locale=en-US)**
+-   **[Now Assist &gt; ServiceNow Otto announcement](https://www.servicenow.com/docs/access?context=sn-ai-implementation-landing&family=australia&ft:locale=en-US)**
+
+ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+
+
+ -   **[Updated default model provider for ServiceNow Otto for FSO skills](https://www.servicenow.com/docs/access?context=configure-fso-now-assist-skills&family=australia&ft:locale=en-US)**
 
 The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
 
@@ -309,7 +421,7 @@ Xanadu
 
 </td><td>
 
-No updates for this release.
+Install ServiceNow Otto for FSO by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=xanadu&ft:locale=en-US).
 
 </td></tr><tr><td>
 
@@ -322,6 +434,8 @@ Yokohama
 Install ServiceNow Otto for FSO by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 
+**Important:** ServiceNow Otto for FSO is available in ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Zurich
@@ -333,6 +447,8 @@ Zurich
 Install ServiceNow Otto for FSO by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
 
+**Important:** ServiceNow Otto for FSO is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Australia
@@ -343,6 +459,8 @@ Australia
 
 Install ServiceNow Otto for FSO by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
 
+
+**Important:** ServiceNow Otto for FSO is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -363,7 +481,7 @@ Xanadu
 
 </td><td>
 
-No updates for this release.
+The ServiceNow Otto for FSO application requires a Financial Services Operations Professional Plus or Enterprise Plus license.
 
 </td></tr><tr><td>
 
@@ -546,7 +664,15 @@ Xanadu
 
 </td><td>
 
-No updates for this release.
+Xanadu Patch 10
+
+ Implement security in ServiceNow Otto for FSO skills with access control lists \(ACLs\).
+
+ [Early Availability](https://www.servicenow.com/docs/access?context=xanadu-all-other-fixes&family=xanadu&ft:locale=en-US)
+
+ Enable agents to review card dispute and insurance claim cases more effectively by using the case summarization skill to generate an overview of key details.
+
+ See [ServiceNow Otto for Financial Services Operations \(FSO\)](https://www.servicenow.com/docs/access?context=now-assist-for-financial-services-operations&family=xanadu&ft:locale=en-US) for more information.
 
 </td></tr><tr><td>
 

@@ -7,7 +7,7 @@ release: australia
 topic_type: topic
 last_updated: "2026-07-30"
 reading_time_minutes: 5
-breadcrumb: [Now Assist and agentic AI release notes, Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
+breadcrumb: [ServiceNow Otto and agentic AI release notes, Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
 
 # ServiceNow Otto for Configuration Management Database \(CMDB\) release notes
@@ -40,7 +40,7 @@ See [ServiceNow Otto for Configuration Management Database \(CMDB\)](https://raw
     To enable Now Assist to provide detailed descriptions of CIs and classes, you must activate the 'External Content Connectors' plugin, install the ‘ServiceNow Product Documentation’ connector, and then crawl the product documentation. For configuration instructions, see .
 
 
-**Parent Topic:**[Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/now-assist-rn-landing.md)
+**Parent Topic:**[ServiceNow Otto and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/now-assist-rn-landing.md)
 
 ## August 2026
 

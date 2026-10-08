@@ -274,7 +274,7 @@ Reference live ServiceNow AI Platform records such as Incidents, Risks, or Issue
 
 </td><td>
 
-[Enable ServiceNow AI Platform records in CWM Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/enable-now-platform-servicenow-records-cwm-docs.md)
+[Collaborative documentation using CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/collaborative-work-management/cwm-docs.md)
 
 </td><td>
 

@@ -322,7 +322,7 @@ If the removal candidates don't exist, a scheduled job runs nightly that creates
 
 </td></tr><tr><td>
 
-License all installs**Note:** This field appears only on software models that are associated with [resource value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/create-resource-value-record.md) and [client access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/t_AddAClientAccessRec.md) records, except for Oracle DB Server software models.
+License all installs**Note:** This field appears only on software models that are associated with [resource value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/create-resource-value-record.md) and [client access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/t_AddAClientAccessRec.md) records, except for Oracle database software models.
 
 </td><td>
 
@@ -341,7 +341,7 @@ Oracle database option or management pack. Each option or pack requires a separa
  This field is shown when creating software models that meet the following conditions:
 
 -   The **Publisher** is **Oracle**.
--   The **Product** is **DB Server**.
+-   The **Product** is **Database**.
 
 </td></tr><tr><td>
 
@@ -372,15 +372,15 @@ Option to apply this software model to only subscription-based software suites. 
 
 </td></tr><tr><td>
 
-Auto-generate client access for allocations. **Note:** This field appears only on Oracle Database Server software models.
+Auto-generate client access for allocations. **Note:** This field appears only on Oracle Database software models.
 
  **Important:** To use this option, you must request the Data Collection for Oracle Global Licensing and Advisory Services \(GLAS\) application from the ServiceNow Store. For details, see [Request Data Collection for Oracle Global Licensing and Advisory Services \(GLAS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/request-data-collection-oracle-glas-app.md).
 
 </td><td>
 
-Option to automatically generate and manage client access records for Oracle Database Server. If you enable this option, the Software Asset Management application generates and manages client access records based on your latest Oracle Database Server Named User Plus entitlements, the users, and devices that the associated rights are allocated to, and the Oracle database instances that are supported by these users and devices. The Software Asset Management application generates a separate client access record for each supported database instance. If you disable this option after the Software Asset Management application has automatically generated client access records for Oracle Database Server, those client access records are no longer managed and updated automatically. You must manage and update those client access records manually to keep them accurate and upto date.
+Option to automatically generate and manage client access records for Oracle Database. If you enable this option, the Software Asset Management application generates and manages client access records based on your latest Oracle Database Named User Plus entitlements, the users, and devices that the associated rights are allocated to, and the Oracle database instances that are supported by these users and devices. The Software Asset Management application generates a separate client access record for each supported database instance. If you disable this option after the Software Asset Management application has automatically generated client access records for Oracle Database, those client access records are no longer managed and updated automatically. You must manage and update those client access records manually to keep them accurate and upto date.
 
- If you enable this option and already have existing client access records for Oracle Database Server, all automatically generated client access records are managed and updated automatically again. However, you must continue to manage and update all manually generated client access records.
+ If you enable this option and already have existing client access records for Oracle Database, all automatically generated client access records are managed and updated automatically again. However, you must continue to manage and update all manually generated client access records.
 
 </td></tr><tr class="sub-head"><td colspan="2">
 

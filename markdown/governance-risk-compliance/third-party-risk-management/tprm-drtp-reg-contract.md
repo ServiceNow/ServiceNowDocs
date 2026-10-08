@@ -7,7 +7,7 @@ release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-05-15"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 keywords: [DORA, contract, digital resilience, Specific Information, LEI, supply chain, Register of Information]
 breadcrumb: [Use digital resilience third-party registers, Third-party Risk Management, Governance, Risk, and Compliance]
@@ -74,6 +74,8 @@ LEI codes on records associated with this contract are validated against the GLE
 16. To set up the digital resilience information for DORA regulation, navigate to the **Specific information** related list and create a contractual arrangement by selecting **New**.
 
 17. On the form, fill in the fields.
+
+    **Note:** When you open the linked legal entity, third party, or third-party engagement record from the Specific information section of a contract, a parent path is displayed so you can navigate back to the contract record.
 
 18. Select **Save**.
 

@@ -8,7 +8,7 @@ product: Export to PowerPoint for Application Portfolio Management
 classification: export-to-powerpoint-for-application-portfolio-management
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Use, Export to PowerPoint for Strategic Portfolio Management, Strategic Portfolio Management]
 ---
 
@@ -20,7 +20,10 @@ Download your projects and project status reports as a Microsoft PowerPoint file
 
 Role required: sn\_ppt\_export.ppt\_user
 
-**Important:** Export to PowerPoint is currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. Please check for availability updates in future releases.
+**Important:** Availability of Export to PowerPoint:
+
+-   For general customers: Available for all customers
+-   For regulated customers: Supported on GCC, NSC, SPP-AU, SPP-SG, and Australia IRAP-Protected data centers
 
 ## Procedure
 

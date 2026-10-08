@@ -52,6 +52,8 @@ Using the Workflow Studio, you can add actions to the dashboard deletion process
 
 [Create a dashboard with the in-line editor]()
 
+[Create Core UI dashboards on upgraded instances]()
+
 [Edit Platform Analytics dashboards]()
 
 [Share a Platform Analytics dashboard]()

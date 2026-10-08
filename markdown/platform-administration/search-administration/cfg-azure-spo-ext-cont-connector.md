@@ -126,7 +126,7 @@ This permission allows the connector to read users from Microsoft Entra ID. User
 
     6.  In the **Select permissions** search field, enter either `Sites.FullControl.All` or `Sites.Selected`, then locate and select the option for the specified permission.
 
-        **Note:** The connector only needs one of these two permissions. Don't select both permissions.
+        **Note:** The connector only requires one of these two permissions. Don't select both permissions.
 
 <table id="table_ldc_qnn_djc"><thead><tr><th>
 
@@ -161,7 +161,7 @@ To learn how to grant FullControl permissions for individual sites and site coll
 
     \[Omitted image "ms-sharepoint-online-entra-api-permissions-grant-consent.png"\] Alt text: Application's API permissions list in Microsoft Entra admin center showing Microsoft Graph API permissions and Sites.FullControl.All SharePoint API permission added.
 
-    **Tip:** The SharePoint section of your application's API permissions list will show the entry for the SharePoint API permission that you selected in step [3.f](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/cfg-azure-spo-ext-cont-connector.md). The images in this procedure show the Sites.FullControl.All permission, but your application may show the Sites.Selected permission instead.
+    **Tip:** The SharePoint section of your application's API permissions list shows the entry for the SharePoint API permission that you selected in step [3.f](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/cfg-azure-spo-ext-cont-connector.md). The images in this procedure show the Sites.FullControl.All permission, but your application may show the Sites.Selected permission instead.
 
 4.  Grant admin consent for the added API permissions.
 

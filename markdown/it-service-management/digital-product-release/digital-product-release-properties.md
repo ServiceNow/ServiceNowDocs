@@ -239,7 +239,6 @@ Controls whether you can create timeline releases with flexible date configurati
     -   Enables creation of releases even if the start dates are before today.
     -   Enables creation of tasks and key dates in the past, but only after the release start date.
     -   Restricts release targets to be set to today or future dates only.
-    -   Enables retargeting releases with dates before today.
 
 -   Type: true\|false
 -   Default value: false

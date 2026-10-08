@@ -29,7 +29,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Microsoft Exchange Online spoke v4.1.0 is the latest version. For version history of the spoke, see [Microsoft Exchange Online Spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-ms-exchange-online.html).
+Microsoft Exchange Online spoke v4.1.2 is the latest version. For version history of the spoke, see [Microsoft Exchange Online Spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-ms-exchange-online.html).
 
 ## Spoke dependencies
 
@@ -328,7 +328,7 @@ Available AI agents include:
 |Microsoft Exchange Online room management AI agent|Automates workflows related to the room management within Microsoft Exchange Online such as 'Look up Rooms Stream'.|
 |Microsoft Exchange Online metadata retrieval management AI agent|Automates workflows related to the room metadata management within Microsoft Exchange Online such as looking up room metadata and time zone metadata.|
 |Microsoft Exchange Online meeting scheduler AI agent|Automates calendar management tasks within Microsoft Exchange Online. It enables users to find the available meeting time slots and create the meetings accordingly.|
-|Microsoft Exchange Online mail manager|Automates mail management tasks within Microsoft Exchange Online such as look up mail folders and messages, delete messages, and set mailbox auto-replies.|
+|Microsoft Exchange Online mail management AI agent|Automates mail management tasks within Microsoft Exchange Online such as look up mail folders and messages, delete messages, and set mailbox auto-replies.|
 
 There might be AI agents installed on your instance that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md).
 

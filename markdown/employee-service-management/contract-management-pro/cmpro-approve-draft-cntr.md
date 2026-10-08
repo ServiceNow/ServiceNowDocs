@@ -26,9 +26,7 @@ Role required: sn\_lg\_cnt.contract\_fulfiller and contract manger
 
 2.  Open the contract repository record that is in Draft state and Awaiting Review substate.
 
-3.  Select **Approve Contract**.
-
-    \[Omitted image "cmpro-amend-approve-cntr.png"\] Alt text: Contract in Draft state
+3.  Select **Mark as active**.
 
 
 ## Result

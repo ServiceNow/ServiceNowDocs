@@ -44,15 +44,15 @@ The deadlock letter draft generation skill is available in the CSM/FSM Configura
 
 6.  After you're finished summarizing the key findings, manage the results.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d39740e151">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d39737e151">
 
 Option
 
-</th><th align="left" id="d39740e154">
+</th><th align="left" id="d39737e154">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d39740e160">
+</th></tr></thead><tbody><tr><td id="d39737e160">
 
 **Provide feedback for the summary**
 
@@ -62,7 +62,7 @@ Procedure
 -   If you think that the deadlock letter wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).
  This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary detail and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d39740e193">
+</td></tr><tr><td id="d39737e193">
 
 **Copy the case summary**
 
@@ -70,7 +70,7 @@ Procedure
 
 Select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: Copy to clipboard icon.\) to use the details of the deadlock letter for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d39740e208">
+</td></tr><tr><td id="d39737e208">
 
 **View the information about the case summary**
 

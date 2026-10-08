@@ -77,9 +77,9 @@ Period for which the ephemeral key pair is valid.
 </td></tr></tbody>
 </table>## Procedure
 
-1.  Contact ServiceNow Support if you need to change any of these properties.
+1.  Contact ServiceNow Support to change any of these properties.
 
-    **Note:** These system properties are not visible to admins, and do not appear in the System properties \[sys\_properties\] list. Use the table above to see their default values.
+    **Note:** These system properties aren't visible to admins, and don't appear in the System properties \[sys\_properties\] list. Use the table above to see their default values.
 
 
 ## What to do next

@@ -7,9 +7,9 @@ release: australia
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: concept
-last_updated: "2026-08-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Exploring Now Assist in AI Risk and Compliance, Explore, AI Risk and Compliance, Governance, Risk, and Compliance]
+breadcrumb: [ServiceNow Otto for AI Risk and Compliance, Explore, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
 
 # AI reviewer assist for risk assessments

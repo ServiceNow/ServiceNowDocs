@@ -29,7 +29,7 @@ Role required: sn\_icw\_std.work\_set\_standard\_author
 
 3.  From the overflow actions menu, select **Create new version**.
 
-    This option is available when the standard is in the **Published** or **Retired** state. The new version starts in the **Draft** state and includes the sub-activities of the source version.
+    This option is available when the standard is in the **Published** or **Retired** state. The new version starts in the **Draft** state and includes the sub-activities of the source version.For sub-activities with **Schedule-based exception** selected, the custom schedule is also copied to the new version and can be edited independently of the source.
 
 4.  Update the field values and sub-activities as required.
 
@@ -45,7 +45,7 @@ Role required: sn\_icw\_std.work\_set\_standard\_author
 After approval, the new version replaces the previous published version, which moves to the **Revised** state. A copied standard is as a new draft that can be edited and approved independently.
 
 -   **[Create a copy of a work set standard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/create-copy-of-work-set-standard.md)**  
-Create and update a work set standard. Create a copy of a published or retired work set standard to use as a template for a new one.
+Use an existing work set standard as a template to create a new work set standard.
 
 **Parent Topic:**[Work set standard and task life cycles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/work-set-standard-task-life-cycle.md)
 

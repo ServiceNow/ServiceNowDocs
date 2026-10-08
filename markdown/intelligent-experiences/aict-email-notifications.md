@@ -40,5 +40,5 @@ The following notification is sent when an AI asset transitions to a terminal li
 
 ## Related information
 
-For email notifications sent by AI Risk and Compliance workflows and inherited Risk Management processes, see [AI governance email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/airc_email_notifications.md).
+For email notifications sent by AI Risk and Compliance workflows and inherited Risk Management processes, see [Email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/airc_email_notifications.md).
 

@@ -45,11 +45,11 @@ Edit rights granted by sharing a data visualization do not apply to that visuali
     -   Only users with the admin or viz\_admin role see the option to share visualizations with roles.
 5.  To allow the people that you share the data visualization with also to share that data visualization, select **Allow recipients to share**.
 
-    When you add a user, group, or role as a viewer, they can only share the visualization as a viewer. When you add a user, group, or role as an editor, they can share the dashboard as a viewer or as an editor.
+    When you add a user, group, or role as a viewer, they can only share the visualization as a viewer. When you add a user, group, or role as an editor, they can share the visualization as a viewer or as an editor.
 
 6.  Select one of the following options.
 
-<table id="choicetable_yxb_j15_q5b"><tbody><tr><td id="d81933e165">
+<table id="choicetable_yxb_j15_q5b"><tbody><tr><td id="d82263e165">
 
 **Add as viewer**
 
@@ -57,7 +57,7 @@ Edit rights granted by sharing a data visualization do not apply to that visuali
 
 Grant only viewing rights to the users, groups, or roles you share the visualization with. The recipients cannot edit it.
 
-</td></tr><tr><td id="d81933e174">
+</td></tr><tr><td id="d82263e174">
 
 **Add as editor**
 

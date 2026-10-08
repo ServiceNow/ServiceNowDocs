@@ -1,5 +1,5 @@
 ---
-title: Tables installed with AI Risk and Compliance
+title: System tables
 description: Tables are added with the activation of the AI Risk and Compliance application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/ai-risk-management/tables-installed-with-ai-risk-and-compliance.html
@@ -7,12 +7,13 @@ release: australia
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
+keywords: [tables installed, AI Risk and Compliance tables, database tables]
 breadcrumb: [Reference, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
 
-# Tables installed with AI Risk and Compliance
+# System tables
 
 Tables are added with the activation of the AI Risk and Compliance application.
 

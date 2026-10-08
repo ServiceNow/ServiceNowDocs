@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/build-a
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 6
+reading_time_minutes: 5
 breadcrumb: [Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
 
@@ -14,14 +14,12 @@ breadcrumb: [Features and changes by product, Release notes for upgrading from Z
 
 The ServiceNow AI Platform® has new and updated automation, as well as and no-code, low-code, and platform developer features in the Australia release.
 
--   **[App Engine ERP Rapid Deployment Packs release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/app-engine-erp-rdp-rn.md)**  
-The ServiceNow® App Engine ERP Rapid Deployment Packs are templates for specific business processes in enterprise ERP workflows. App Engine for ERP Rapid Deployment Packs are new in the Australia Patch 5 \(August 2026\) release.
 -   **[App Engine Management Center release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/aemc-rn.md)**  
 The ServiceNow® App Engine Management Center \(AEMC\) application enables admins to manage app development from intake to deployment to production monitoring. AEMC was enhanced and updated in the Australia release.
 -   **[App Engine Studio release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/app-engine-studio-rn.md)**  
 The ServiceNow® App Engine Studio application enables creators of varying skill levels to build applications that meet the immediate needs of your organization. App Engine Studio was enhanced and updated in the Australia release.
--   **[Build Agent release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/build-agent-rn.md)**  
-The ServiceNow® Build Agent application enables developers to create, edit, and deploy full-stack applications and metadata through a conversational interface. Build Agent was enhanced and updated in the Australia release, and its Now Assist features have been rebranded to ServiceNow Otto®.
+-   **[Build Agent and Autonomous Engineer release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/build-agent-rn.md)**  
+The ServiceNow® Build Agent and Autonomous Engineer applications enable developers to create, edit, and deploy full-stack applications and metadata through a conversational interface. See the following sections for release notes by version.
 -   **[Creator Studio release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/creator-studio-rn.md)**  
 The ServiceNow® Creator Studio application guides business process experts through creating request-based applications, removing the barriers of traditional low-code development. Creator Studio was enhanced and updated in the Australia release.
 -   **[Data Catalog release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/data-catalog-rn.md)**  
@@ -44,6 +42,8 @@ The ServiceNow® ReleaseOps application enables you to deploy and validate code 
 The ServiceNow® Reverse Tunnel application enables zero copy connectors to reach private cloud or on-premises data sources through encrypted outbound connections without having to open inbound firewall ports. Reverse Tunnel is available in the Australia release.
 -   **[RPA Hub release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/rpa-rn.md)**  
 The ServiceNow® RPA Hub application enables end-to-end automation for your organization. RPA Hub was enhanced and updated in the Australia release.
+-   **[ServiceNow Lux Lab for VS Code release notes]()**  
+The ServiceNow Lux Lab for VS Code extension transforms how you build on the ServiceNow AI Platform. Scaffold experiences, pages, and widgets with framework intelligence built in, cutting development time and ensuring consistency across your projects. See the following sections for release notes by version.
 -   **[ServiceNow Lux Lab for VS Code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/servicenow-ai-experience-lab-for-vs-code-rn.md)**  
 The ServiceNow Lux Lab for VS Code extension transforms how you build on the ServiceNow AI Platform. Scaffold experiences, pages, and widgets with framework intelligence built in, cutting development time and ensuring consistency across your projects. See the following sections for release notes by version.
 -   **[ServiceNow CLI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/servicenow-cli-rn.md)**  

@@ -7,7 +7,7 @@ release: australia
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Reference, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -44,11 +44,25 @@ Privacy analysts are responsible for managing the privacy compliance posture of 
 </td><td>
 
 -   sn\_grc\_workspace.task\_reader
--   sn\_risk\_advanced.ara\_approver
--   sn\_risk\_advanced.ara\_assessor
--   sn\_risk.user
--   sn\_compliance.user
+-   sn\_compliance.policy\_user
+-   sn\_compliance.library\_user
+-   sn\_compliance.control\_framework\_user
+-   sn\_smart\_asmt.template\_reader
+-   sn\_privacy.business\_user
+-   sn\_risk.implementation\_user
+-   sn\_risk.library\_user
 -   sn\_privacy\_case.privacy\_case\_analyst
+
+ If the sn\_risk\_advanced plugin is active:
+
+ -   sn\_risk\_advanced.ara\_approver
+-   sn\_risk\_advanced.ara\_assessor
+
+ If the sn\_prm\_gen\_ai plugin is active: sn\_reco\_template.rationalization\_process\_writer
+
+ If the sn\_reg\_body\_mgmt plugin is active: sn\_reg\_body\_mgmt.reader
+
+ If the sn\_smart\_asmt plugin is active: sn\_smart\_asmt.assessment\_reader
 
 </td></tr><tr><td>
 
@@ -60,7 +74,7 @@ Privacy managers are responsible for managing the overall organization level pri
 -   Review privacy regulatory requirements and policies​.
 -   Design and monitor controls to deal with violations of privacy regulations and internal policies.​
 -   Plan privacy programs and scope entities.
--   Creating privacy impact assessment templates.​
+-   Create privacy impact assessment templates.​
 -   Continuously monitor control effectiveness and recommend effective improvements.
 -   ​ Supervise the privacy compliance team.​
 -   Report to management and the Board of Directors on compliance posture​.
@@ -68,13 +82,31 @@ Privacy managers are responsible for managing the overall organization level pri
 
 </td><td>
 
--   sn\_compliance.manager
 -   sn\_privacy.analyst
--   sn\_risk.manager
 -   sn\_grc\_workspace.task\_admin
 -   sn\_compliance.attestation\_creator
--   sn\_grc\_reg\_change.manager
 -   sn\_privacy\_case.privacy\_case\_manager
+-   sn\_compliance.control\_framework\_manager
+-   sn\_compliance.library\_manager
+-   sn\_compliance.policy\_manager
+-   sn\_risk.implementation\_manager
+-   sn\_risk.library\_manager
+-   sn\_smart\_asmt.template\_contributor
+-   sn\_smart\_asmt.template\_manager
+
+ If the sn\_grc\_pdr plugin is active: sn\_grc\_pdr.pdr\_manager
+
+ If the sn\_privacy\_content plugin is active: sn\_esg\_content.admin
+
+ If the sn\_prm\_gen\_ai plugin is active: sn\_smart\_imp\_auto.automation\_reader
+
+ If the sn\_grc\_reg\_change plugin is active: sn\_grc\_reg\_change.manager
+
+ If the sn\_grc\_ent\_access plugin is active: sn\_grc\_ent\_access.reader
+
+ If the sn\_reg\_body\_mgmt plugin is active: sn\_reg\_body\_mgmt.writer
+
+ If the sn\_smart\_asmt plugin is active: sn\_smart\_imp\_auto.automation\_reader
 
 </td></tr><tr><td>
 
@@ -87,14 +119,27 @@ Privacy administrators administer the privacy policy and compliance management. 
 -   Monitor the ServiceNow AI Platform dependencies with other applications and modules.
 -   Can read the scripts under Processing activity script configurations related list.
 
- ​
+​
 
 </td><td>
 
 -   sn\_privacy.manager
 -   sn\_risk\_advanced.ara\_admin
--   sn\_compliance.admin
 -   sn\_privacy\_case.privacy\_case\_admin
+-   sn\_compliance.control\_framework\_admin
+-   sn\_compliance.library\_admin
+-   sn\_compliance.policy\_admin
+-   sn\_grc\_workspace.assessment\_template\_configuration\_writer
+-   sn\_smart\_asmt.assessment\_admin
+
+ If the sn\_grc\_pdr plugin is active: sn\_grc\_pdr.pdr\_admin
+
+ If the sn\_grc\_ent\_access plugin is active:
+
+ -   sn\_grc\_ent\_access.admin
+-   sn\_grc\_ent\_access.bulk\_access\_config\_admin
+
+ If the sn\_smart\_asmt plugin is active: sn\_smart\_imp\_auto.automation\_creator
 
 </td></tr><tr><td>
 
@@ -108,6 +153,10 @@ Privacy assessment responders can respond to the privacy assessments as key stak
 
 -   sn\_grc\_workspace.task\_reader
 -   canvas\_user
+-   sn\_grc\_workspace.assessment\_template\_configuration\_reader
+-   sn\_grc\_workspace.user
+
+ If the sn\_smart\_asmt plugin is active: sn\_smart\_asmt.actor
 
 </td></tr><tr><td>
 
@@ -122,7 +171,16 @@ Privacy business users can edit the assigned processing activities in the [Disco
 -   sn\_grc\_workspace.task\_reader
 -   canvas\_user
 -   sn\_privacy\_case.privacy\_case\_business\_user
--   sn\_grc.business\_user
+-   sn\_compliance.control\_framework\_business\_user
+-   sn\_compliance.library\_business\_user
+-   sn\_compliance.policy\_business\_user
+-   sn\_grc\_workspace.assessment\_template\_configuration\_reader
+-   sn\_grc\_workspace.user
+-   sn\_risk.implementation\_business\_user
+-   sn\_smart\_asmt.actor
+-   sn\_smart\_asmt.assessment\_reader
+
+ If the sn\_risk\_advanced plugin is active: sn\_risk\_advanced.ara\_reader
 
 </td></tr><tr><td>
 
@@ -134,7 +192,9 @@ Privacy developers can write custom scripts
 
 </td><td>
 
-sn\_privacy.admin
+-   sn\_privacy.admin
+-   sn\_compliance.compliance\_shared\_developer
+-   sn\_grc.grc\_shared\_developer
 
 </td></tr><tr><td class="sub-head" colspan="3">
 

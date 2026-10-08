@@ -1,22 +1,22 @@
 ---
 title: Flow generation
-description: Use ServiceNow Otto for Creator to create a flow or subflow from a text description.
+description: Use AI to create a flow or subflow from a text description.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/build-workflows/workflow-studio/flow-generation-landing.html
 release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2026-07-28"
+last_updated: "2026-09-15"
 reading_time_minutes: 4
 breadcrumb: [Build flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Flow generation
 
-Use ServiceNow Otto for Creator to create a flow or subflow from a text description.
+Use AI to create a flow or subflow from a text description.
 
-\[Omitted video\] Description: Create a flow with Now Assist
+\[Omitted video\] Description: Create a flow with AI
 
 This video demonstrates creating a flow from a text description.
 

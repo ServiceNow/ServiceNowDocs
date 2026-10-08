@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Facilities requests, Facilities service management process, Facilities Service Management overview, Facilities Service Management, Service Management]
+breadcrumb: [Request Management in a Service Management application, Service Management]
 ---
 
 # Close a request
@@ -29,8 +29,6 @@ When you close a request, you can add details that you want the submitter to be 
 
 -   **[Closed and completed requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/c_ClosedAndCompletedRequests.md)**  
 When the **Request lifecycle** option is set to **request-driven**, the assigned agent can complete and close the request once all the tasks in the request are complete.
-
-**Parent Topic:**[Facilities requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/c_FacilitiesRequests.md)
 
 **Parent Topic:**[Request Management in a Service Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/rm-sm-application.md)
 

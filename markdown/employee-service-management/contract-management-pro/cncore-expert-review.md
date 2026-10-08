@@ -11,7 +11,7 @@ last_updated: "2026-08-14"
 reading_time_minutes: 1
 keywords: [Expert review, Manual review, Internal review, Contract review workflow, Subject matter expert review]
 audience: [sn\_cm\_core.contract\_fulfiller, sn\_cm\_core.contract\_reviewer]
-breadcrumb: [Review contract documents, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Review contract documents, Common contract request tasks, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Manual internal review

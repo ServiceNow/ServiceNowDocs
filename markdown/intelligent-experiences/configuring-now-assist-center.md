@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/configuring-now-assist-center.html
 release: australia
 topic_type: concept
-last_updated: "2026-07-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
 breadcrumb: [AI Admin Center, Enable AI experiences]
@@ -17,8 +17,10 @@ Install and configure settings for AI Admin Center.
 
 -   **[Confirm installation of AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-install.md)**  
 Confirm the installation of the AI Admin Center application.
--   **[Enable the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-enable-now-assist-panel.md)**  
+-   **[Enable the ServiceNow Otto panel \(Next Experience UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-enable-now-assist-panel.md)**  
 Enable the ServiceNow Otto panel to have your AI companion perform setup, configuration, and administrative tasks more quickly using natural language prompts.
+-   **[Enable the ServiceNow Otto panel \(Lux UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-admin-center-lux-enable-otto-panel.md)**  
+Enable the ServiceNow Otto panel to have your AI assistant perform setup, configuration, and administrative tasks more quickly using natural language prompts.
 
 **Parent Topic:**[AI Admin Center \(formerly Now Assist Center\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-landing-page.md)
 

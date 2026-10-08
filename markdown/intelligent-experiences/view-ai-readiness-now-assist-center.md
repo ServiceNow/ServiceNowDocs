@@ -1,23 +1,29 @@
 ---
-title: View your AI readiness assessment in AI Admin Center
-description: Review the readiness assessments that the Now Assist Readiness Evaluation has identified for your instance.
+title: View an AI readiness assessment in AI Admin Center \(Next Experience UI\)
+description: Review the results of readiness assessments run for your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/view-ai-readiness-now-assist-center.html
 release: australia
 topic_type: task
-last_updated: "2026-07-30"
-reading_time_minutes: 2
+last_updated: "2026-10-02"
+reading_time_minutes: 3
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
 breadcrumb: [Increasing AI readiness, AI Admin Center, Enable AI experiences]
 ---
 
-# View your AI readiness assessment in AI Admin Center
+# View an AI readiness assessment in AI Admin Center\(Next Experience UI\)
 
-Review the readiness assessments that the Now Assist Readiness Evaluation has identified for your instance.
+Review the results of readiness assessments run for your instance.
+
+**Important:** Lux is the new user experience for AI Admin Center. For more information on the Lux experience, see [AI Admin Center user experience \(Lux UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-admin-center-lux-user-experience.md).
+
+The Next Experience AI Admin Center workspace is being prepared for deprecation in the November store release and will no longer be supported. For more information on the Next Experience UI, see [AI Admin Center workspace \(Next Experience UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-workspace.md).
+
+In AI Admin Center version 6.1, the Next Experience and Lux user interfaces are both available.
 
 ## Before you begin
 
-Before you can review your readiness assessments in AI Admin Center, you must first run the AI readiness assessment job. For more information, see [Run the AI readiness assessment job in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-run-assessment-job.md).
+Before you can review your readiness assessments in AI Admin Center, you must first run the AI readiness assessment job. For more information, see [Run the AI readiness assessment job in AI Admin Center \(Next Experience UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-run-assessment-job.md).
 
 Role required: sn\_na\_center.nac\_admin
 
@@ -25,9 +31,11 @@ Role required: sn\_na\_center.nac\_admin
 
 Follow these steps to review the AI readiness assessments based on your instance data.
 
+**Note:** This topic describes the AI Admin Center feature based on the Next Experience UI. If you're using the Lux user experience for AI Admin Center, see the Lux UI version of this topic.
+
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Admin Center** or **Workspaces** &gt; **AI Admin Center**.
+1.  Navigate to **All** &gt; **AI Admin Center** &gt; **AI Admin Center \(Legacy\)**.
 
 2.  Review the AI Readiness section of the home page to see the overall AI readiness assessment for the instance.
 
@@ -67,5 +75,11 @@ Resolve the reported issues to improve AI implementation readiness.
 **Related topics**  
 
 
-[Run the AI readiness assessment job in AI Admin Center]()
+[Run the AI readiness assessment job in AI Admin Center \(Next Experience UI\)]()
+
+[Run the AI readiness assessment job in AI Admin Center \(Lux UI\)]()
+
+[View your AI readiness in AI Admin Center \(Lux UI\)]()
+
+[Plan an instance upgrade \(Lux UI\)]()
 

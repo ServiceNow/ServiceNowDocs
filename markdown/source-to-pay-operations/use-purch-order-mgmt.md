@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/use-purch-order-mgmt.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Use, purchase order exceptions, resolve purchase order exceptions]
 breadcrumb: [Purchase Order Management, Source-to-Pay Operations, Finance and Supply Chain]
@@ -22,7 +22,7 @@ After an exception is flagged, you can access the exception details, which expla
 -   **[Create purchase order exception from Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/create-po-exception-universal-req.md)**  
 Operational buyers can convert universal requests into purchase order exceptions during triage, cutting down on manual effort and ensuring that purchase order related issues are tracked and resolved more efficiently.
 -   **[Managing purchase order confirmations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/managing-po-confirmations.md)**  
-Create and review purchase order confirmations in the Supplier Collaboration Portal.
+As a supplier, create and review purchase order confirmations in the Supplier Collaboration Portal.
 
 **Parent Topic:**[Purchase Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/purchase-order-mgmt-landing-page.md)
 

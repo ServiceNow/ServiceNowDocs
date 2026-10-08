@@ -26,7 +26,7 @@ The current set of checks include checks for the following configurations:
 -   SQL Server CMDB
 -   Windows Server CMDB
 -   Windows Server Config
--   Database Server - Oracle
+-   Oracle Database
 -   Java - Oracle
 -   WebLogic Server - Oracle
 -   Microsoft 365

@@ -1,6 +1,6 @@
 ---
-title: Setting up Google A2A authentication for ServiceNow AI agents
-description: Configure ServiceNow AI agents as secondary agents over the Google Agent2Agent \(A2A\) protocol by setting up authentication and enabling external agent interoperability.
+title: Setting up A2A authentication for ServiceNow AI agents
+description: Configure ServiceNow AI agents as secondary agents over the Agent2Agent \(A2A\) protocol by setting up authentication and enabling external agent interoperability.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/set-up-google-a2a.html
 release: australia
@@ -10,9 +10,9 @@ reading_time_minutes: 4
 breadcrumb: [Integrate external AI agents, AI Agent Studio, Enable AI experiences]
 ---
 
-# Setting up Google A2A authentication for ServiceNow AI agents
+# Setting up A2A authentication for ServiceNow AI agents
 
-Configure ServiceNow AI agents as secondary agents over the Google Agent2Agent \(A2A\) protocol by setting up authentication and enabling external agent interoperability.
+Configure ServiceNow AI agents as secondary agents over the Agent2Agent \(A2A\) protocol by setting up authentication and enabling external agent interoperability.
 
 ## Before you begin
 
@@ -156,7 +156,7 @@ Role required: sn\_aia.admin
 
 ## Result
 
-You have successfully configured ServiceNow AI agents as secondary agents over the Google A2A protocol. Your AI agents can now accept external requests from other systems using either OAuth 2.0 or API key authentication.
+You have successfully configured ServiceNow AI agents as secondary agents over the A2A protocol. Your AI agents can now accept external requests from other systems using either OAuth 2.0 or API key authentication.
 
 ## What to do next
 

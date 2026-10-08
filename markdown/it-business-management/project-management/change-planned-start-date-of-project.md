@@ -7,7 +7,7 @@ release: australia
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-07"
 reading_time_minutes: 7
 breadcrumb: [Starting a project, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -32,21 +32,21 @@ Changing the planned start date of a project to a new date also moves all its ta
 **Note:**
 
 -   The **Move project** option is available for a project only when it has a task or subproject.
--   If an agile phase with sprints is associated to the project, then changing the planned start date of the project also clears the start and end dates of the sprints.
+-   If an agile phase with sprints is associated to the project, changing the planned start date also clears the sprint start and end dates.
 
 ## Procedure
 
 1.  Change the planned start date of a project using either of the following options.
 
-<table id="choicetable_bx2_kjj_wfb"><thead><tr><th align="left" id="d336541e114">
+<table id="choicetable_bx2_kjj_wfb"><thead><tr><th align="left" id="d345492e114">
 
 Option
 
-</th><th align="left" id="d336541e117">
+</th><th align="left" id="d345492e117">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d336541e123">
+</th></tr></thead><tbody><tr><td id="d345492e123">
 
 **From the Planning console**
 
@@ -57,7 +57,7 @@ Steps
 3.  In the Planning Console, select the more actions icon \(\[Omitted image "gannt\_chart\_icon.png"\] Alt text: More Actions icon\) and then select the **Move project** option.
 
 
-</td></tr><tr><td id="d336541e168">
+</td></tr><tr><td id="d345492e168">
 
 **From the Project form**
 
@@ -74,7 +74,7 @@ Steps
 3.  Select or clear the **Move all tasks regardless of constraint type** check box.
 
     -   Clearing the check box moves the tasks with Start ASAP constraint only to the new project date.
-    -   Selecting the check box moves all the project tasks irrespective of their constraints to the new project date with the same offset except the task with Start ASAP constraint.
+    -   Selecting the check box moves all project tasks to the new project date with the same offset, regardless of their constraints. Tasks with Start ASAP constraint are excluded.
     This check box is selected by default.
 
     **Note:** The tasks in WIP and Close states are not moved.
@@ -88,13 +88,13 @@ Steps
 -   Program dates are updated relative to the project start date.
 -   If the **Move all tasks regardless of constraint type** check box is selected, all project tasks with Start on specific date and Start no earlier than constraints are moved to a new start date by the same offset as from the earlier project start date. The constraint date is also moved by the same offset.
 
-    For example, say a project is starting on November 10 with a Start On task starting on November 15, giving an offset of five days. If you move the project start date to November 20, then the task start date will be moved to November 25, maintaining the five-day offset from the project start date.
+    For example, say a project is starting on November 10 with a Start On task starting on November 15, giving an offset of five days. If you move the project start date to November 20, the task start date moves to November 25. This maintains the five-day offset from the project start date.
 
 -   All project tasks with Start ASAP constraint are moved to the new start date based on the **Constraint Date** field on the project form. The tasks must be in the Open or Pending state.
 -   If the **Change Resource Plan and Cost Plan Start Date with Demand or Project Start Date Change** property is selected, all related entities like cost plan, resource plan, and benefit plans are moved relative to the project start date. For more information on how to set this property, see [Properties installed with Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/r_InstalledWithProjectManagement.md).
 
 -   **[Pre-date a project task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/pre-date-prj-dt.md)**  
-Move the planned start date of a task prior to the planned start date of a project. Adding a pre-dated task allows you to accommodate tasks which need to start before the planned start date of a project.
+Move the planned start date of a task before the planned start date of a project. Adding a pre-dated task allows you to accommodate tasks which need to start before the planned start date of a project.
 
 **Parent Topic:**[Starting a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/t_CreateAProject.md)
 

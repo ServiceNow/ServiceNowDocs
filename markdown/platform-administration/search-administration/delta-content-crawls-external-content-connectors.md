@@ -9,6 +9,7 @@ classification: search-administration
 topic_type: concept
 last_updated: "2026-08-26"
 reading_time_minutes: 4
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Explore, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -30,7 +31,7 @@ By default, delta content crawls aren't active for any external content connecto
 
 ## Scheduling of delta content crawls
 
-When you activate delta content crawling for an external content connector, the system begins scheduling delta content crawls for that connector once it completes a full content crawl. Until that full content crawl is completed, no delta content crawls will be scheduled.
+When you activate delta content crawling for an external content connector, the system begins scheduling delta content crawls for that connector after it completes a full content crawl. Until that full content crawl is completed, no delta content crawls will be scheduled.
 
 **Note:** If you upgrade to a new External Content Connectors major release, run a full content crawl in the new version for each connector that has delta content crawling activated. Full content crawls run in a previous External Content Connectors release don't retrieve all of the metadata needed for delta content crawling. As an example, after upgrading from External Content Connectors version 8.0 to version 9.0, you must complete a full content crawl in version 9.0 for each connector that has delta content crawls activated. Until you complete that full content crawl, delta content crawls won't run for the connector.
 

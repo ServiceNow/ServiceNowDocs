@@ -26,6 +26,10 @@ The following table describes the field values for the Industrial Guided Task fo
 The following table describes the field values for the standard automation task form.
 -   **[Industrial Guided Task standard and task life cycles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/industrial-guided-task-life-cycle.md)**  
 A life cycle is the list of states that an Industrial Guided Task \(IGT\) standard or task can go through.
+-   **[Industrial Guided Task Result database view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/igt-results-database-view.md)**  
+The Industrial Guided Task Result \[sn\_icw\_igt\_results\] database view combines the question responses of each IGT task with the operational context of the task. This enables you to report on individual question results.
+-   **[Shopfloor insights indicators and visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/igt-shopfloor-insights-indicators.md)**  
+Reference information for the indicators, charts, and visualizations displayed on the Insights Overview tab for IGT standards.
 
 **Parent Topic:**[Digital Factory Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/digital-factory-workspace-reference.md)
 

@@ -1,13 +1,13 @@
 ---
 title: Configure AI capabilities in Third-party Risk Management
-description: If you have the admin role, you can configure the ServiceNow Otto for Third-party Risk Management \(TPRM\) application so that agents can use the generative AI capabilities in Vendor Management Workspace and Core UI.
+description: If you have the admin role, you can configure the ServiceNow Otto for Third-party Risk Management \(TPRM\) application so that agents can use the generative AI capabilities in Vendor Management Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/third-party-risk-management/configure-now-assist-for-tprm.html
 release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [configure, ServiceNow Otto, Agentic AI, generative AI, Gen AI]
 breadcrumb: [Configure, Third-party Risk Management, Governance, Risk, and Compliance]
@@ -15,7 +15,7 @@ breadcrumb: [Configure, Third-party Risk Management, Governance, Risk, and Compl
 
 # Configure AI capabilities in Third-party Risk Management
 
-If you have the admin role, you can configure the ServiceNow Otto for Third-party Risk Management \(TPRM\) application so that agents can use the generative AI capabilities in Vendor Management Workspace and Core UI.
+If you have the admin role, you can configure the ServiceNow Otto for Third-party Risk Management \(TPRM\) application so that agents can use the generative AI capabilities in Vendor Management Workspace.
 
 ## ServiceNow Otto for Third-party Risk Management \(TPRM\) configuration overview
 

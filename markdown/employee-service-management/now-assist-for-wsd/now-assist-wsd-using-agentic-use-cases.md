@@ -136,7 +136,7 @@ Workplace Advisor is an AI-powered solution designed to help Space Planners and 
 -   **[Workplace Concierge agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-wsd/workplace-concierge-ai-agent.md)**  
 Use the Workplace Concierge agentic workflow to register visitors from existing communication tools like emails, calendars, or the Virtual Agent.
 -   **[Implement Autonomous L1 Agent for Workplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-wsd/implement-autonomous-l1-agent-for-workplace.md)**  
-Use the Autonomous L1 Agent for Workplace agent that automatically resolves frequently asked General Inquiry workplace cases without requiring manual agent intervention.
+Use the Autonomous L1 Agent for Workplace agent that automatically resolves General Inquiry workplace cases without requiring manual agent intervention.
 
 **Parent Topic:**[ServiceNow Otto for Workplace Service Delivery \(WSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-wsd/now-assist-wsd-landing.md)
 

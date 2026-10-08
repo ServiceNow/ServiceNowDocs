@@ -25,7 +25,7 @@ The following table highlights the related applications that underpin effective 
 |[Product Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/product-catalog/c_ProductCatalog.md)|Provides a standardized library of hardware and software models that normalizes asset data across the enterprise. It ensures consistent naming, classification, and attribution, reducing data quality issues and enabling accurate reporting, spend analysis, and lifecycle planning.|
 
 -   **[Base Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/c_AssetManagement.md)**  
-The ServiceNow® Asset Management application integrates the physical, technological, contractual, and financial aspects of information technology assets.
+The ServiceNow® Base Asset Management application integrates the physical, technological, contractual, and financial aspects of information technology assets.
 -   **[ITSM Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/itsm-sam.md)**  
 The software asset management features of the ITSM suite can be activated using one of the plugins in the feature table.
 -   **[Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/contract-management/c_ContractManagement.md)**  

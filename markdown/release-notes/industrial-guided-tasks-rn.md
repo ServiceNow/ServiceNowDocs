@@ -1,12 +1,13 @@
 ---
 title: Industrial Guided Tasks release notes
-description: The ServiceNow Industrial Guided Tasks \(IGT\) application enables structured and guided execution of operational tasks using step-by-step digital workflows. IGT helps you maintain consistent work quality, safety compliance, and traceable execution. Industrial Guided Tasks is a new application in the Australia release.The ServiceNow Industrial Guided Tasks \(IGT\) application enables structured and guided execution of operational tasks using step-by-step digital workflows. IGT helps you maintain consistent work quality, safety compliance, and traceable execution. Industrial Guided Tasks is a new application in the Australia release.
+description: The ServiceNow Industrial Guided Tasks \(IGT\) application enables structured and guided execution of operational tasks using step-by-step digital workflows. IGT helps you maintain consistent work quality, safety compliance, and traceable execution. Industrial Guided Tasks is a new application in the Australia release.Report on individual IGT question results in their operational context, and reuse assessment questions across standards with the question bank.The ServiceNow Industrial Guided Tasks \(IGT\) application enables structured and guided execution of operational tasks using step-by-step digital workflows. IGT helps you maintain consistent work quality, safety compliance, and traceable execution. Industrial Guided Tasks is a new application in the Australia release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/industrial-guided-tasks-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
 reading_time_minutes: 3
+keywords: [question results, database view, report, question bank]
 breadcrumb: [Industrial Connected Workforce release notes, Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
 
@@ -34,6 +35,21 @@ See [Exploring Industrial Guided Tasks](https://raw.githubusercontent.com/Servic
 
 
 **Parent Topic:**[Industrial Connected Workforce release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/industrial-connected-workforce-rn-landing.md)
+
+## Version 3.0.2
+
+Report on individual IGT question results in their operational context, and reuse assessment questions across standards with the question bank.
+
+### What's new
+
+-   **[Reports on question results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/create-report-igt-question-results.md)**
+
+    Analyze inspection results question by question. Create reports on the new Industrial Guided Task Result \[sn\_icw\_igt\_results\] database view, which combines the question responses of each task with its functional location, equipment, standard, and shift. Users with the sn\_icw.report\_user role can filter or group results by these fields, or filter on a single assessment question.
+
+-   **[Question bank](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/igt-question-bank.md)**
+
+    Keep assessment questions consistent across standards without recreating them. Users with the new Industrial Guided Task Manager \[sn\_icw\_igt.manager\] role can create question banks and publish questions in them from the Assessment Workspace. Standard authors can then add published questions to sections in any IGT standard from the Task authoring tab. Each added question is an independent copy.
+
 
 ## Australia Early Availability
 

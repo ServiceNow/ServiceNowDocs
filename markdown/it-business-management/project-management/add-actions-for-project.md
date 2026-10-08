@@ -7,7 +7,7 @@ release: australia
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-08"
 reading_time_minutes: 1
 breadcrumb: [Adding RIDAC records for a project, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -22,7 +22,7 @@ Role required: it\_project\_manager
 
 ## About this task
 
-After analyzing the risks and issues and taking a decision on how to manage those risks and issues, add an action for resolving the risk or issue to a project.
+After analyzing the risks and issues and taking a decision on how to manage them, add an action to resolve the risk or issue.
 
 ## Procedure
 

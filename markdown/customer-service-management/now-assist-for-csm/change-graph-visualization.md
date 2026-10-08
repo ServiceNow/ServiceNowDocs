@@ -7,7 +7,7 @@ release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Generative AI, Generative AI for Customer Service Management, Generative AI for customer service agents]
 breadcrumb: [Trending topics dashboard, Activate ServiceNow Otto Skills, Configure, ServiceNow Otto for CSM, Customer Service Management]
@@ -19,7 +19,7 @@ Change a graph visualization to a different type within the same graph group, su
 
 ## Before you begin
 
-Role required: admin or maint
+Role required: admin
 
 ## About this task
 

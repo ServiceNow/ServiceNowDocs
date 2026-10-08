@@ -7,7 +7,7 @@ release: australia
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Genius Result configurations in the base system, Genius Results, Search profiles, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -23,7 +23,7 @@ When computing NLQ Genius Result answers, AI Search identifies tables that match
 -   Natural language queries similar to the ones made using Analytics Overview. To learn more about Analytics Overview table query capabilities, see [Platform Analytics overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/analytics-center.md).
 -   Natural language queries similar to the ones made using the Configuration Management Database \(CMDB\). These CMDB queries only match tables that aren't defined as indexed sources. For more information about CMDB table query capabilities, see [Configuration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/manage-cmdb.md).
 
-AI Search combines the results from these query types when creating NLQ Genius Result answer cards. As a result, a single NLQ Genius Result answer card may contain tables returned by Analytics Overview queries, CMDB queries, or both.
+AI Search combines the results from these query types when creating NLQ Genius Result answer cards. A single NLQ Genius Result answer card may contain tables returned by Analytics Overview queries, CMDB queries, or both.
 
 For more information about NLQ processing, see [Natural Language Query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/natural-language-query.md).
 

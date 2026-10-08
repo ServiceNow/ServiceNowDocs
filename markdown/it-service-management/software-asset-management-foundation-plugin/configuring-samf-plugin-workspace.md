@@ -1,6 +1,6 @@
 ---
-title: Configuring Software Asset Management Foundation plugin workspace
-description: Once you have finished setting up the Software Asset Management Foundation plugin and the Software Asset Workspace plugin applications, you need to configure the Software Asset Workspace.
+title: Configuring Basic Software Asset Management workspace
+description: Once you have finished setting up the Basic Software Asset Management and the Software Asset Workspace plugin applications, you need to configure the Software Asset Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/software-asset-management-foundation-plugin/configuring-samf-plugin-workspace.html
 release: australia
@@ -9,12 +9,12 @@ classification: software-asset-management-foundation-plugin
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Software Asset Management Foundation plugin, ITSM Software Asset Management, Asset Management common applications, IT Service Management]
+breadcrumb: [Basic Software Asset Management, ITSM Software Asset Management, Asset Management common applications, IT Service Management]
 ---
 
-# Configuring Software Asset Management Foundation plugin workspace
+# Configuring Basic Software Asset Management workspace
 
-Once you have finished setting up the Software Asset Management Foundation plugin and the Software Asset Workspace plugin applications, you need to configure the Software Asset Workspace.
+Once you have finished setting up the Basic Software Asset Management and the Software Asset Workspace plugin applications, you need to configure the Software Asset Workspace.
 
 If you have multiple entitlements, you can import them at one go using a Microsoft Excel spreadsheet template.
 
@@ -25,5 +25,5 @@ Create entitlements in the Software Asset Workspace to enter your license detail
 -   **[Create a Software Asset Management Foundation software model in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/software-asset-management-foundation-plugin/Create-samf-software-model-workspace.md)**  
 Create a software model in the Software Asset Workspace to add product details that are used to connect software rights you purchased with software installations discovered on your system.
 
-**Parent Topic:**[Software Asset Management Foundation plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/software-asset-management-foundation-plugin/c_SoftwareAssetMgmtSAMF.md)
+**Parent Topic:**[Basic Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/software-asset-management-foundation-plugin/c_SoftwareAssetMgmtSAMF.md)
 

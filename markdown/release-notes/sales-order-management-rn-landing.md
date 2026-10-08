@@ -80,8 +80,6 @@ The ServiceNow® Sales Forecasting application helps you project your future sal
 The ServiceNow® Sales Territory Management​ application structures and optimizes the sales efforts of your organization based on territories. It involves overseeing daily sales activities, adjusting team assignments to verify complete customer coverage, monitoring sales performance against goals, and updating territory assignments as markets change. Sales Territory Management​ was enhanced and updated in the Australia release.
 -   **[Partner Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/partner-relationship-management-rn-static1.md)**  
 The ServiceNow® Partner Relationship Management application provides a unified workspace for sales, delivery, marketing, and operations to help you manage the entire partner life cycle. See the following sections for release notes by version.
--   **[Version 9.0.1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/partner-relationship-managementt-rn-2026-08.md)**  
-Streamline deal registration approvals and task management with configurable rules, automated notifications, and centralized visibility.
 
 **Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/new-features-changes.md)
 

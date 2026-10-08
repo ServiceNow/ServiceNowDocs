@@ -68,8 +68,10 @@ Table
 
 </td><td>
 
-Table to which you want to associate the clause.**Note:** The Contract Request table \[sn\_cm\_core\_contract\_request\] is selected by default to centralize the configuration on a single table and improve reusability across product lines. You can choose to configure the clause library on a different table.
+Table to which you want to associate the clause.**Note:**
 
+-   The Contract Request table \[sn\_cm\_core\_contract\_request\] is selected by default to centralize the configuration on a single table and improve reusability across product lines. You can choose to configure the clause library on a different table.
+-   For standalone requests the configurations should be done on the Contract Request table \[sn\_cm\_core\_contract\_request\].
 Example: If you select Legal Contract Request table, the clause will appear only for the templates associated to that table.
 
 </td></tr><tr><td>

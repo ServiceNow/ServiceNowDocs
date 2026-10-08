@@ -37,7 +37,7 @@ Creating a custom application to contain your Workflow Studio content enables yo
 
 3.  Select whether to build the flow with Now Assist or to build the flow from scratch.
 
-    To build a flow with Now Assist, see [Create a flow with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-flow-now-assist.md).
+    To build a flow with Now Assist, see [Create a flow with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-flow-now-assist.md).
 
     To build a flow from scratch, continue to the next step.
 
@@ -216,7 +216,7 @@ Select a published subflow and define the input values. In addition to adding a 
     -   [Deploy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_SharingApplications.md) your flow from the application repository when your application is complete and ready for release.
     -   [Transfer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/update-set-transfers.md) your flow from an update set XML file when you want to test the flow on another instance. When you save a flow, Workflow Studio generates a single update set file containing its subflows and actions.
 
--   **[Create a flow with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-flow-now-assist.md)**  
+-   **[Create a flow with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-flow-now-assist.md)**  
 Use generative AI to create a flow from text directionsand images.
 -   **[Create a flow with an inbound email trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-inbound-email-flow.md)**  
 Start a flow when your instance receives an email.

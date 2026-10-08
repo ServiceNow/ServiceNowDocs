@@ -7,7 +7,7 @@ release: australia
 product: AI Search
 classification: ai-search
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-This task is optional. You only need to perform it if you want to activate the fuzzy numeric search feature in AI Search.
+This task is optional. You only need to perform it if you need to activate the fuzzy numeric search feature in AI Search.
 
 Fuzzy numeric search allows numerical search terms to match indexed ServiceNow AI Platform® records by their Number field values. The fuzzy matching compares the numeric search term with each indexed record's Number, ignoring its alphabetical prefix and any leading zeroes. As an example, if you index knowledge article and problem records, a search for `23583` might return knowledge article KB00023583 and problem PRB00023583 as search results.
 

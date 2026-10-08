@@ -94,7 +94,7 @@ Indicator Scope Control has no impact when it is not used:
 
 -   **Duplicate indicators aren't allowed**
 
-    The system prevents a second configuration row for an indicator that already has one. You can edit the existing row instead.
+    The system prevents the creation of a second configuration row for an indicator that already has one. You can edit the existing row instead.
 
 -   **Runtime control**
 
@@ -102,7 +102,7 @@ Indicator Scope Control has no impact when it is not used:
 
 -   **Entry-point indicators unaffected**
 
-    Indicators that are both on the boost list and passed as entry-point context \(via dashboard widgets or API\) are boosted and then pinned to the top with no conflict.
+    Indicators that are both on the boost list and passed as entry-point context \(via dashboard widgets or API\) are pinned to the top with no conflict.
 
 
 **Parent Topic:**[Configuring Query Generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/configuring-query-generation.md)

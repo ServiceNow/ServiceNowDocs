@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
 audience: sn\_cm\_core.contract\_fulfiller
-breadcrumb: [Use self-served contract request, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Own paper contract requests, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Reviewing and finalizing a self-serve contract document
@@ -35,5 +35,5 @@ As a contract user, review a contract document and submit a change request to th
 -   **[Work on a contract change request]()**  
 As a contract fulfiller, review the change request, update the contract document, and send it back to the contract user.
 
-**Parent Topic:**[Use self-served contract request]()
+**Parent Topic:**[Own paper contract requests]()
 

@@ -105,8 +105,10 @@ Table
 
 Table configured to store the request details for your application. All the documents attached to the records created in the selected table are stored in the external storage you are configuring.For example, if you configure Google Drive as the external storage and select Contract Request table \[sn\_cm\_core\_contract\_request\], then all the documents attached to the records created in the Contract Request table will be automatically stored in Google Drive.
 
-**Note:** The Contract Request table \[sn\_cm\_core\_contract\_request\] is selected by default to centralize the configuration on a single table and improve reusability across product lines. You can choose to configure a different table to configure external storage.
+**Note:**
 
+-   The Contract Request table \[sn\_cm\_core\_contract\_request\] is selected by default to centralize the configuration on a single table and improve reusability across product lines. You can choose to configure a different table to configure external storage.
+-   For standalone requests the configurations should be done on the Contract Request table \[sn\_cm\_core\_contract\_request\].
 **Note:** If you select a different table, you must associate a corresponding flow.
 
 </td></tr><tr><td>

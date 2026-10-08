@@ -7,7 +7,7 @@ release: australia
 product: Strategic Planning
 classification: strategic-planning
 topic_type: reference
-last_updated: "2026-07-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [demand dashboard widgets, reference, Demand Management]
 breadcrumb: [Explore, Monitor and track demands, Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
@@ -47,6 +47,8 @@ You can further drill down on each widget to see the list of records associated 
 |No Due Date|Count of demand tasks that don't have a set due date.|
 |No Assignee|Count of demand tasks that don't have an assignee.|
 |Overdue Demand Tasks|Count of demand tasks whose due date has passed as of the current date.|
+
+**Note:** These widgets report only on classic assessment instances.
 
 |Widget|Description|
 |------|-----------|

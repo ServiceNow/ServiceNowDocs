@@ -89,7 +89,7 @@ Recalculate from risk change date and set to earliest target date only when risk
 If the risk increases: Compares the existing RT date and the recalculated RT date and applies the earliest date. If the risk decreases: Applies Field change time + Target \(days\) without comparison.
 
 </td></tr></tbody>
-</table>For configuration steps, see [Recalculate a remediation target date](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-configure-remediation-target-rules.md).
+</table>For configuration steps, see [Recalculate a remediation target date](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/vulnerability-response/sem-recalculate-rt-date.md).
 
 ## Deactivating or deleting remediation target rules
 

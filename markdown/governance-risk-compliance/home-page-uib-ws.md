@@ -515,13 +515,9 @@ Action button to create an exercise event from the **Exercises** tab. When you s
 
 When you log in to the BCM application, the Home page view is displayed according to your user role, responsibilities, and the assigned tasks.
 
-A typical Home page view for a BCM manager is shown in the example.
+**Note:** The Home page structure and tabs described earlier in this topic are the same for every role. Only the data and tasks shown in the cards differ, based on your role, responsibilities, and assigned tasks.
 
-\[Omitted image "exercises-homepage.png"\] Alt text: Exercises tab in the Home page.
-
-A typical Home page view for a BCM planner is shown in the example.
+The following example shows a typical Home page view for a BCM planner.
 
 \[Omitted image "bcm-planner-homepage-view.png"\] Alt text: Home page view for the BCM planner.
-
-For information on the tabs and their associated actions in the Home page, see [Home page view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/home-page-uib-ws.md).
 

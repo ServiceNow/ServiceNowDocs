@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/master-data-tables-for-pom.html
 release: australia
 topic_type: reference
-last_updated: "2026-06-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [data tables]
 breadcrumb: [Reference, Purchase Order Management, Source-to-Pay Operations, Finance and Supply Chain]
@@ -36,4 +36,6 @@ A purchase order \(PO\) confirmation line is a supplier's line-level response ac
 [Delivery plan change form]()
 
 [Create new purchase order exception form]()
+
+[Purchase order confirmation form]()
 

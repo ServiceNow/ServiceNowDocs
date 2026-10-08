@@ -26,6 +26,8 @@ ServiceNow aims to provide software updates for new or updated major regulations
 
 ## Before you begin
 
+Privacy Management Content \(sn\_privacy\_content\) must be installed.
+
 Role required: sn\_privacy.manager
 
 ## Procedure

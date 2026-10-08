@@ -48,9 +48,5 @@ When you upgrade from the Zurich release, understand the fixes in each release v
 
 [Accessibility and conformance \[Omitted image "accessibility.png"\] Alt text: Accessibility conformance reports based on the voluntary product accessibility template \(VPAT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/r_Accessibility508Compliance.md)
 
-</td><td>
-
-Australia highlights \[Omitted image "highlights.png"\] Alt text: icon for the tile Australia highlights High-level overview of products and features in Australia
-
 </td></tr></tbody>
 </table>

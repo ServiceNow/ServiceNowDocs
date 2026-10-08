@@ -52,7 +52,7 @@ A workspace is a suite of tools that provides agents, case managers, help desk p
 
     DEX Application &amp; Device Health is a centralized workspace, dedicated to monitoring the performance, security, and compliance of the digital workplace.
 
--   **Enterprise Architecture Workspace**
+-   **[Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/explore-eaw.md)**
 
     The Enterprise Architecture Workspace is part of the Application Portfolio Management \(APM\) application. The workspace is a unified interface with multiple views that help you manage your portfolio efficiently. You can use these views to stay up to date with your tasks, insights, tasks that need attention, portfolio health, and dashboards.
 

@@ -27,6 +27,10 @@ Discovery and Service Mapping Patterns finds Azure network interfaces Controller
 
     Discovering Azure GovCloud \(US\) accounts requires using a datacenter URL when setting up an Azure service account. For more information, see [Set up Azure service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/setup-azure-service-accounts.md).
 
+-   **\(Optional\) Exclude temporary Azure Databricks VMs**
+
+    Starting with Discovery and Service Mapping Patterns version 1.30.2, you can reduce short-lived configuration item \(CI\) records by excluding temporary Azure Databricks VMs. For more information, see [Exclude temporary Azure Databricks virtual machines]().
+
 
 ## Data collected by Discovery during horizontal discovery
 

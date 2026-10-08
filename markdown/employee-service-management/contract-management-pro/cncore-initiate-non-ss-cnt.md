@@ -1,69 +1,87 @@
 ---
-title: Initiate a non-self-served contract request
-description: As a case owner or fulfiller, initiate the submission of contracts when you want third-party based contract documents to be sent for review.
+title: Initiate a third-party paper contract request
+description: Initiate a third-party paper contract request linked to a parent record such as a purchase requisition or sourcing event. Third-party paper contracts are external contracts uploaded for review and signature.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-initiate-non-ss-cnt.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 1
-breadcrumb: [Initiating a contract or amendment request, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+last_updated: "2026-09-20"
+reading_time_minutes: 2
+breadcrumb: [Parent-linked contract requests, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
-# Initiate a non-self-served contract request
+# Initiate a third-party paper contract request
 
-As a case owner or fulfiller, initiate the submission of contracts when you want third-party based contract documents to be sent for review.
+Initiate a third-party paper contract request linked to a parent record such as a purchase requisition or sourcing event. Third-party paper contracts are external contracts uploaded for review and signature.
 
 ## About this task
 
-The initiated contract is assigned according to an assignment rule or manually by a contract fulfiller or a group manager. The contract administrator can modify the assignment rule to specify the group to which the contract request should be assigned.
+After you submit a standalone contract request, it is automatically assigned to a group or user based on the default assignment rule. A contract fulfiller can assign a contract request to themselves. A group manager can assign a contract request to any member of the assignment group.
 
 ## Before you begin
-
-Ensure that the initiate contract button has been added to your workspace. For more information, see [Add a workspace action button for initiating a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-config-initiate-cont.md).
 
 Role required: sn\_cm\_core.contract\_user, sn\_cm\_core.contract\_fulfiller
 
 ## Procedure
 
-1.  Navigate to your workspace.
+1.  Open the parent record \(purchase requisition or sourcing event\).
 
-2.  Open the case for which you want to initiate a contract.
+2.  Select **Initiate Contract**.
 
-3.  Select **Initiate contract**.
+    The Initiate Plug and Play modal opens.
 
-4.  In the **Type of paper** drop-down list, select **Third-party paper**.
+3.  In the **Request type** field, select **New contract**.
+
+4.  In the **Company** list, select the company.
+
+5.  In the **Type of paper** drop-down list, select **Third-party paper**.
 
     \[Omitted image "cmpro-initiate-tpc.png"\] Alt text: Initiate contract window to populate the contract request details.
 
-5.  In the **Type** field, specify whether the contract request is for single contract or multiple contracts.
+6.  In the **Type** field, specify whether the contract request is for single contract or multiple contracts.
 
     If you select **Single contract**, the **Contract type** field appears.
 
-6.  In the **Contract type** field, select the type of contract for which the contract request is created.
+7.  In the **Contract type** field, select the type of contract for which the contract request is created.
 
-7.  In the **Signature type** drop-down list, select the signature type for the contract document.
+8.  In the **Signature type** drop-down list, select the signature type for the contract document.
 
-8.  In the **Start date** field, specify the contract start date.
+9.  In the **Start date** field, specify a future date as the contract start date.
 
-9.  In the **End date** field, specify the contract end date.
+10. In the **End date** field, specify the contract end date.
 
     The End date should be later than the Start date.
 
-10. Select **Initiate**.
+11. Select **Initiate**.
+
+    A contract request is initiated and opens in a new tab displaying the contract request details.
+
+12. Add contract documents.
+
+    1.  In the Contract Document tab, select **Attach document**.
+
+    2.  For multiple contract type request, in the **Select contract type** drop-down, select the type of contract.
+
+    3.  Select **Attach file** link.
+
+    4.  Select the file to be attached.
+
+    5.  Select **Attach**.
+
+    The selected file is attached and listed in the Contract Documents related list.
+
+13. Select **Submit** to submit the request.
 
 
 ## Result
 
-A contract request is initiated and opens in a new tab displaying the contract request details.
-
-If there are validation errors, the contract request is created in the Draft state. If there are no validation errors, the contract request is created in the New state.
+The contract request is created in the New state.
 
 ## What to do next
 
 Add contract documents and submit the contract request. For more information, see [Add contract documents to non-self-served contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-nss-add-cont-doc.md).
 
-**Parent Topic:**[Initiating a contract or amendment request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-initiate-contract.md)
+**Parent Topic:**[Parent-linked contract requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-initiate-contract.md)
 

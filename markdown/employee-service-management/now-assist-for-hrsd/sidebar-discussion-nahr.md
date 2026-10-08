@@ -34,7 +34,7 @@ You can do these actions by using Sidebar discussion summarization:
 
 **Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
-You can make a copy of this skill to configure it to meet your business needs. For more information, see [Make a copy of AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/make-a-copy-of-a-now-assist-skill.md).
+You can make a copy of this skill to configure it to meet your business needs. For more information, see [Make a copy of an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/make-a-copy-of-a-now-assist-skill.md).
 
 ## Procedure
 
@@ -54,15 +54,15 @@ You can make a copy of this skill to configure it to meet your business needs. F
 
 4.  After summarizing the Sidebar discussion, you can add it to the case work notes, and provide feedback about it.
 
-<table id="choicetable_vzl_myv_bcc"><thead><tr><th align="left" id="d591746e233">
+<table id="choicetable_vzl_myv_bcc"><thead><tr><th align="left" id="d596932e233">
 
 Option
 
-</th><th align="left" id="d591746e236">
+</th><th align="left" id="d596932e236">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d591746e242">
+</th></tr></thead><tbody><tr><td id="d596932e242">
 
 **Save the summary information by adding it to the case work notes**
 
@@ -73,7 +73,7 @@ Procedure
 3.  Select **Save to Work notes**.
 
 
-</td></tr><tr><td id="d591746e269">
+</td></tr><tr><td id="d596932e269">
 
 **Provide feedback for the summary**
 

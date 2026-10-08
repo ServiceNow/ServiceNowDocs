@@ -84,7 +84,7 @@ Two system properties control whether the Progress Tracker displays on purchase 
 
 [Sourcing Pipeline Management]()
 
-[Understanding Punchout]()
+[Understanding punchout]()
 
 [AI Search for Sourcing and Procurement Operations]()
 

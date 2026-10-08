@@ -16,7 +16,7 @@ AI filter assist enables you to convert everyday language into an AI-generated e
 
 ## Before you begin
 
-**Important:** The AI filter assist feature is available with ServiceNow® Pro Plus licensing. Discuss licensing with your ServiceNow® account representative for information specific to your contract.
+**Important:** Check your entitlements to determine whether you have access to the AI filter assist feature. Discuss licensing with your ServiceNow® account representative for information specific to your contract.
 
 Role required: workspace\_user
 

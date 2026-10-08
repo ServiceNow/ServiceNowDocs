@@ -62,7 +62,7 @@ Role required: admin
 
         The default is set to Monthly.
 
-    **Note:** File-based Discovery does not trigger until initial Content Data Service \(CDS\) synchronization occurs. CDS synchronization could take approximately 24 hours for the initial set of data to be synchronized from CDS. For more information see, [File Signature Normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/sam-file-based-discovery.md).
+    **Note:** File-based Discovery does not trigger until initial Content Data Service \(CDS\) synchronization occurs. CDS synchronization could take approximately 24 hours for the initial set of data to be synchronized from CDS. For more information see, File Signature Normalization.
 
 
 ## Result

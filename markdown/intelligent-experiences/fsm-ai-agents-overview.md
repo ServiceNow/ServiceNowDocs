@@ -18,6 +18,8 @@ The following AI agents are available for Field Service Management.
 This AI agent creates work orders using text descriptions and image.
 -   **[Parts audit AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/fsm-parts-audit-agent-ai-agent.md)**  
 This AI agent assists technicians in conducting thorough parts validation only for work order tasks. It streamlines the process of verifying and reporting parts usage, ensuring accuracy and accountability.
+-   **[Shift and schedule management AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/fsm-shift-and-schedule-management-ai-agent.md)**  
+This AI agent helps managers create, review, update, and delete shifts and schedules, and assign technicians to them. It suggests default shift details, finds technicians by skill or name, and asks the manager to confirm one complete plan before making changes. Managers can also open shifts for technician signup.
 
 **Parent Topic:**[ServiceNow AI agents library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-agent-landing-page.md)
 

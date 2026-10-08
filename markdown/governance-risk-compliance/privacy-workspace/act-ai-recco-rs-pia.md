@@ -27,7 +27,7 @@ Role required: sn\_privacy.analyst, sn\_prm\_gen\_ai.user
 
 ## About this task
 
-After a business user submits a privacy assessment, the assessment task moves to the Review state. As the assigned analyst on the assessment task, generate AI recommendations to quickly surface relevant control objectives and risk statements based on the assessment responses. Accepting a recommendation automatically scopes that record to the processing activity, and maps corresponding risks and controls to it.
+After a business user submits a privacy assessment, the assessment task moves to the Review state. As the assigned analyst on the assessment task, generate AI recommendations to quickly surface relevant control objectives and risk statements based on the assessment responses. Accepting a recommendation automatically scopes that record to the processing activity when the assessment task closes, and maps corresponding risks and controls to it.
 
 **Note:** Review all AI-generated recommendations for accuracy.
 
@@ -138,13 +138,15 @@ Control objectives that are mapped to this risk statement in the privacy library
 
 ## Result
 
-Records scoped to a processing activity based on assessment responses appear in the Applicable scope tab of the assessment task. These include accepted AI recommendations, records added manually and through smart assessment automation rules. Filter by AI-assisted in the Mode column to verify that the accepted risk statement recommendations appear in the list correctly. Any control objective you selected with the accepted risk statement also appears in this tab. If you must add more records, you can manually add those to the tab.
+Records scoped to a processing activity based on assessment responses appear in the Applicable scope tab of the assessment task. These include accepted AI recommendations, records added manually, and records added through smart assessment automation rules. To verify that the accepted risk statement recommendations appear in the list correctly, filter by **AI-assisted** in the Mode column. Any control objective you selected with the accepted risk statement also appears in this tab. Any control objective you selected with the accepted risk statement also appears in this tab. If you must add more records, you can manually add those to the tab.
 
-**Note:** If a recommended record is already in Applicable scope from another mode such as automation, accepting the recommendation does not create a duplicate. The Mode column retains the value of the original source. If that record is later removed from Applicable scope and the reviewer then accepts the same recommendation, the record is added back with AI-assisted as its mode.
+**Note:** If a recommended record is already in Applicable scope from another mode such as automation, accepting the recommendation does not create a duplicate. The Mode column retains the value of the original source. If that record is later removed from Applicable scope and you then accept the same recommendation, the record is added back with **AI-assisted** as its mode.
 
 ## What to do next
 
-Review the control objective recommendations. For steps, see [Accept or dismiss AI-recommended control objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/act-ai-recco-co-pia.md). When done, mark the assessment as complete. For steps, see [Review a privacy assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/review-a-privacy-assessment.md). Closing the assessment task scopes the accepted recommendations to the processing activity:
+Review the control objective recommendations. For steps, see [Accept or dismiss AI-recommended control objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/act-ai-recco-co-pia.md). After reviewing all recommendations, mark the assessment as complete. For steps, see [Review a privacy assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/review-a-privacy-assessment.md).
+
+Closing the assessment task scopes the accepted recommendations to the processing activity:
 
 -   The corresponding risk for the accepted risk statement is added to the Risks tab of the processing activity.
 -   The corresponding controls from the accepted control objectives are added to the Controls tab of the processing activity.

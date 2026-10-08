@@ -59,5 +59,5 @@ When dashboards are set as your **Home**, the most recently selected dashboard i
 
 When you navigate to **Self-Service** &gt; **Dashboards** or select your company logo, the last dashboard you selected appears.
 
-**Parent Topic:**[Create and use dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/create-and-edit-dashboards.md)
+**Parent Topic:**[Create and use Core UI dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/create-and-edit-dashboards.md)
 

@@ -7,7 +7,7 @@ release: australia
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-29"
 reading_time_minutes: 2
 breadcrumb: [Storage Discovery via SMI-S and CIM, Storage discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
@@ -69,7 +69,9 @@ Discovery identifies and classifies information about storage devices.
 
 ## Storage relationships
 
-Discovery establishes the correct relationships between Network-Attached Storage \(NAS\) storage devices and remotely mounted client servers that consume the storage. Discovery maps NAS file shares. It maps by taking the IP or hostname of a remote mounted disk on the client computer. It then matches it to the IP or hostname of the storage server providing the exported file system.
+Discovery creates relationships for storage CIs running on Storage Area Networks \(SAN\) and Network Attached Storage \(NAS\).
+
+## SAN relationships
 
 Discovery creates the following relationships for storage CIs running on Storage Area Networks.
 
@@ -78,9 +80,13 @@ Discovery creates the following relationships for storage CIs running on Storage
 |Storage Volume \[cmdb\_ci\_storage\_volume\]|Exports to::Imports from|Fibre Channel Disk \[cmdb\_ci\_fc\_disk\]|
 |Storage Volume \[cmdb\_ci\_storage\_volume\]|Exports to::Imports from|iSCSI \[cmdb\_ci\_iscsi\_disk\]|
 
-Discovery maps NAS file shares. It maps by resolving the hostname of a remote mounted disk on the client computer to an IP address. It then matches it to the IP address of the storage server that provides the exported file system. Discovery extracts the hostname or IP address from the NAS path to determine the identity of the storage server. If the hostname is an actual hostname, the system immediately resolves that value into an IP address. It also stores it in the **nas\_ip\_address** field of the NAS File System \[cmdb\_ci\_nas\_file\_system\] table.
+## NAS relationships
 
-Discovery creates the following relationships for storage CIs running on Network Attached Storage \(NAS\). These relationships are the same between Linux and Windows operating system hosts.
+Discovery maps NAS file shares by resolving the hostname of a remotely mounted disk on the client computer to an IP address. It then matches the IP address to the storage server that provides the exported file system.
+
+Discovery extracts the hostname or IP address from the NAS path to identify the storage server. If the NAS path contains a hostname, Discovery resolves it to an IP address and stores the value in the **nas\_ip\_address** field of the NAS File System \[cmdb\_ci\_nas\_file\_system\] table.
+
+Discovery creates the following relationships for storage CIs running on Network Attached Storage \(NAS\). These relationships are the same for Linux and Windows hosts.
 
 |Parent Component|Relationship|Child Component|
 |----------------|------------|---------------|

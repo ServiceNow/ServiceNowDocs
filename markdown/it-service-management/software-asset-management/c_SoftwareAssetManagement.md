@@ -18,7 +18,7 @@ The legacy Software Asset Management \(com.snc.software\_asset\_management\) plu
 
 **Important:** The legacy Software Asset Management \(com.snc.software\_asset\_management\) plugin is supported only in the Jakarta and earlier releases. Although this legacy plugin can no longer be activated upon request, you can continue to use it if it has already been activated on a ServiceNow instance running the Jakarta or earlier releases.
 
-If your ServiceNow instance is running the Kingston or later releases, you must request and activate the [Software Asset Management Foundation plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/software-asset-management-foundation-plugin/c_SoftwareAssetMgmtSAMF.md) instead.
+If your ServiceNow instance is running the Kingston or later releases, you must request and activate the [Basic Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/software-asset-management-foundation-plugin/c_SoftwareAssetMgmtSAMF.md) instead.
 
 A strong software asset management \(SAM\) program can help an organization reduce software costs, improve compliance, and simplify or develop processes for employee software requests. SAM programs can also help control inventory through accurate databases, which in turn helps identify organizational software needs, identify unused software that can be deleted, as well as reduce or consolidate the number of software vendors used.
 

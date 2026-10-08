@@ -27,6 +27,8 @@ Role required: You can edit any data visualization you own unless it is a shared
 
 3.  In the Visualization Designer, select the Configuration icon \(\[Omitted image "icon-ac-config.png"\] Alt text: Configuration icon\) to edit header, data, and presentation options.
 
+    For details about editing the configuration of a data visualization, look up the visualization type under [Creating data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/creating-data-visualizations.md).
+
 4.  Select the information icon \(\[Omitted image "icon-info-ac.png"\] Alt text: Info icon\) to edit name, description, certification, and requester information.
 
 

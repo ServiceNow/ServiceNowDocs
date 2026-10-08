@@ -9,7 +9,7 @@ classification: performance-analytics
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Using breakdowns on dashboards, Indicator breakdowns, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
+breadcrumb: [Using breakdowns on responsive dashboards, Create and use dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Same breakdown on widget and dashboard
@@ -26,16 +26,16 @@ In the following animation, you have a breakdown widget on a breakdown dashboard
 
 \[Omitted image "interactive-bkdown-widget-on-bkdown-dashboard.gif"\] Alt text: A breakdown widget on a breakdown dashboard, first with the same breakdown selected, then with a different breakdown selected
 
-**Parent Topic:**[Using breakdowns on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_SpecialDashboards.md)
+**Parent Topic:**[Using breakdowns on responsive dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_SpecialDashboards.md)
 
 **Related topics**  
 
 
-[Add breakdown sources to a dashboard]()
+[Add breakdown sources to a responsive dashboard]()
 
 [Configure widgets for breakdown dashboards]()
 
-[Showing multiple elements separately or aggregated]()
+[Showing multiple elements separately or aggregated in Core UI]()
 
 [Showing breakdown relations on dashboards]()
 

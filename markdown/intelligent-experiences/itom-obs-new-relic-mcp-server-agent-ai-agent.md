@@ -1,28 +1,31 @@
 ---
 title: New Relic MCP server AI agent
-description: This AI agent queries and interprets observability data from New Relic using the full suite of New Relic MCP server tools. It answers questions about entity health, service dependencies, log analysis, alert details and history, performance metrics, and change events.
+description: This AI agent queries and interprets observability data from New Relic using the full suite of New Relic MCP server tools.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/itom-obs-new-relic-mcp-server-agent-ai-agent.html
 release: australia
 topic_type: reference
-last_updated: "2026-06-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [IT Operations Management AI agents, IT Operations Management, AI agents library, AI assets, Enable AI experiences]
 ---
 
 # New Relic MCP server AI agent
 
-This AI agent queries and interprets observability data from New Relic using the full suite of New Relic MCP server tools. It answers questions about entity health, service dependencies, log analysis, alert details and history, performance metrics, and change events.
+This AI agent queries and interprets observability data from New Relic using the full suite of New Relic MCP server tools.
 
 ## Workflow
 
 The agent investigates a New Relic alert or answers a direct question using New Relic observability data.
 
-1.  Determine whether the request is driven by a New Relic alert issue or by a direct conversational question.
-2.  Identify the relevant entity, service, or issue to investigate based on that context.
-3.  Query New Relic for entity health, performance metrics, logs, and related change events using the appropriate MCP tools.
-4.  Review alert conditions, policies, and recent issues associated with the entity for additional context.
-5.  Translate the findings into clear, structured answers for the calling agent or user, without exposing internal system details.
+1.  Identify what to investigate.
+
+    The agent uses a provided alert or assesses a conversational question.
+
+2.  Generate an alert insights report or query the relevant data in New Relic using the appropriate MCP tools.
+3.  Return the relevant information, such as entity health, service dependencies, log analysis, alert details and history, performance metrics, and change events.
+
+For more information about configuring this AI agent, see [Configure observability agents for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/configure-integration-agents-for-now-assist.md).
 
 <table><thead><tr><th>
 
@@ -157,7 +160,7 @@ Used in agentic workflows
 
 </td><td>
 
-Not applicable.
+[Analyze alert impact agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/now-assist-itom-agentic-aia.md)
 
 </td></tr></tbody>
 </table>For more information, see [ITOM AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-health-landing-page.md).

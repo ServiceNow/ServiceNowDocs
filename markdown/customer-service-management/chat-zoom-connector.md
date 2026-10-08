@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-mana
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Configure chat, Configure omnichannel, Configure, Customer Service Management]
 ---
 
@@ -18,7 +18,7 @@ Resolve issues quickly and engage better with customers with video and screen sh
 
 Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
-## Overview
+## Chat Zoom Connector Overview
 
 The Chat Zoom Connector application integrates the chat communication channel with the Notify communication channel by managing and initiating a Zoom meeting directly from a chat. An interaction record is created for each Zoom meeting initiated from a chat.
 
@@ -41,7 +41,7 @@ To get started with the Chat Zoom Connector application, see [Configure Chat Zoo
 
 The following example scenario shows the use of the Chat Zoom Connector application in resolving a configuration issue with an agent initiating a Zoom meeting directly from a customer chat.
 
-\[Omitted image "chat-zoom-connector.png"\] Alt text: Infographic displaying the process of an agent resolving a customer issue over chat. For the text description, refer to the following steps.
+\[Omitted image "chat-zoom-connector-new.svg"\] Alt text: Infographic displaying the process of an agent resolving a customer issue over chat. For the text description, refer to the following steps.
 
 1.  A customer engages with Support over chat to report an issue for a product.
 2.  An agent receives the chat request and realizes that the issue can be resolved through a minor configuration change.

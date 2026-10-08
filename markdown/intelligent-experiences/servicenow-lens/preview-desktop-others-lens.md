@@ -155,15 +155,15 @@ By using Lens actions, you can perform one of the following tasks:
 
 11. Depending on the type of Lens action selected, perform the following steps.
 
-<table id="choicetable_vdv_pdx_mgc"><thead><tr><th align="left" id="d206595e758">
+<table id="choicetable_vdv_pdx_mgc"><thead><tr><th align="left" id="d249411e758">
 
 Task
 
-</th><th align="left" id="d206595e761">
+</th><th align="left" id="d249411e761">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d206595e767">
+</th></tr></thead><tbody><tr><td id="d249411e767">
 
 **Filling form**
 
@@ -173,7 +173,7 @@ Steps
 2.  On the form header in the Preview window, select **Submit** to save the filled form on the instance.
 
 
-</td></tr><tr><td id="d206595e788">
+</td></tr><tr><td id="d249411e788">
 
 **Previewing extracted data**
 

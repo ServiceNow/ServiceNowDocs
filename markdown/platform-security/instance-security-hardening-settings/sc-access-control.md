@@ -62,6 +62,8 @@ Learn how to set the **glide.service\_portal.enable\_acls\_for\_encoded\_query\_
 Use a system property to protect your Language Learning Models \(LLMs\) with Guardian.
 -   **[Enable Anti-CSRF token \[New in Security Center 1.3, updated in 1.5, and removed in 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-anti-csrf-token.md)**  
 Use the **glide.security.use\_csrf\_token** property to ensure the use of a secure token to identify and validates incoming requests, which in turn are used to prevent these attacks.
+-   **[Enforce credential alias usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-enforce-credential-alias-usage.md)**  
+Learn how to secure your credentials from unauthorized use by configuring the MID Server property.
 -   **[Enable contextual security plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-contextual-security-plugin.md)**  
 Activate the Contextual Security Plugin \(**com.glide.role\_management**\) plugin to enable contextual security, which secures a record/information using create, read, write, and delete functionality.
 -   **[Enable Cross Scope Privilege Checks on Service Portal Form \[New in Security Center 7.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-enable-cross-scope-privilege-checks-on-service-portal-form.md)**  

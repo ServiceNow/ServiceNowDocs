@@ -17,7 +17,7 @@ Deactivate or reinstate AI agents using kill switch protocol to eliminate malici
 
 ## Before you begin
 
-Role required: AI steward \[sn\_ai\_governance\_ai\_steward\]
+Role required: AI steward \[sn\_ai\_governance.ai\_steward\]
 
 Make sure that you have configured connectors and optional identity providers for AI agent containment. For more information, see [Configure AI agent containment using kill switch protocol manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-sec-configure-ai-agent-containment.md).
 

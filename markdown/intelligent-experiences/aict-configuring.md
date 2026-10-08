@@ -35,6 +35,8 @@ Use the AI Gateway settings page to control global transaction processing for al
 Drive the lifecycle and approval workflows for AI assets using playbooks in AI Control Tower.
 -   **[Configure ServiceNow AI settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-configure-servicenow-ai-settings.md)**  
 Control how AI features operate on your instance by configuring data sharing preferences, asset approval requirements, and allowed AI model providers.
+-   **[Configuring pages in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-configuring-page-widgets.md)**  
+View and govern your AI portfolio using terms and visualizations tailored to your organization.
 -   **[Creating or extending pages with pro-code tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-create-extend-pages-pro-code-tools.md)**  
 Extend your AI Control Tower pages beyond the built-in configuration options with the ServiceNow Lux Lab for VS Code extension.
 

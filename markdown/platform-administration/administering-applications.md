@@ -22,7 +22,7 @@ You can install, update, and remove applications without leaving your instance.
 
 </td><td>
 
-[Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/application-manager/application-manager.md)[\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Application Manager, new in the Vancouver release, simplifies the process of managing your licensed applications by consolidating them in one convenient location.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/application-manager/application-manager.md)
+[Application Manager\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Application Manager, new in the Vancouver release, simplifies the process of managing your licensed applications by consolidating them in one convenient location.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/application-manager/application-manager.md)
 
 </td><td>
 

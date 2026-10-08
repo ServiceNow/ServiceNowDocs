@@ -1,6 +1,6 @@
 ---
 title: Creating a GeoJSON geography
-description: Create a GeoJSON geography by importing GeoJSON co-ordinates or drawing shapes directly on the map.Create a geography of type GeoJSON.Draw boundaries on the map to define your geographic areas and create GeoJSON geographies. These geographies not only give you a clear visual on the map but also used task scheduling.
+description: Create a GeoJSON geography by importing GeoJSON co-ordinates or drawing shapes directly on the map.Create a GeoJSON geography to define territory boundaries with polygons, multipolygons, or circles.Draw boundaries on the map to define your geographic areas and create GeoJSON geographies. These geographies not only give you a clear visual on the map but also used task scheduling.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/field-service-management/workforce-optimization-for-field-service/creating-a-gojson-geography.html
 release: australia
@@ -18,9 +18,11 @@ Create a GeoJSON geography by importing GeoJSON co-ordinates or drawing shapes d
 
 ## Create a GeoJSON geography
 
-Create a geography of type GeoJSON.
+Create a GeoJSON geography to define territory boundaries with polygons, multipolygons, or circles.
 
 ### Before you begin
+
+The GeoJSON must meet the format requirements. For more information, see [GeoJSON format requirements for territory geographies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/geojson-format-requirements.md).
 
 Role required: sn\_fsm\_tp.fsm\_territory\_planner, sn\_fsm\_tp.territory\_manager
 
@@ -28,21 +30,21 @@ Role required: sn\_fsm\_tp.fsm\_territory\_planner, sn\_fsm\_tp.territory\_manag
 
 Use GeoJSON geography type to accommodate scenarios where detailed geo-spatial information is available externally, enabling organizations to incorporate diverse geographic datasets into the planning processes.
 
-**Note:** For effective task assignments using Schedule Optimization, it is recommended to use consistent shapes \(like polygons or circles\) and avoid overlapping or intersecting geographies to ensure accurate results.
+**Note:** For accurate task assignments with Schedule Optimization, use consistent shapes, such as polygons or circles, and avoid overlapping or intersecting geographies.
 
 ### Procedure
 
 1.  Navigate to **All** &gt; **Field Service** &gt; **Territory Planning** &gt; **Territory Geography**.
 
-2.  In the **Territory Geographies** page, select **New**.
+2.  On the **Territory Geographies** page, select **New**.
 
 3.  On the form, fill in the fields.
 
     |Field|Description|
     |-----|-----------|
     |Name|Name of the geography.|
-    |Geography type|Select **GeoJSON**.|
-    |GeoJSON|Use the GeoJSON format for encoding variety of geographical data structures. GeoJSON supports the geometry types such as polygon, multi-polygon, and circle.|
+    |Geography Type|Type of geography. Select **GeoJSON**.|
+    |GeoJSON|GeoJSON content that defines the geography. Supported geometry types are Polygon, MultiPolygon, and Point \(circle\). For format requirements, see [GeoJSON format requirements for territory geographies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/geojson-format-requirements.md).|
 
 4.  Select **Submit**.
 
@@ -51,7 +53,7 @@ Use GeoJSON geography type to accommodate scenarios where detailed geo-spatial i
 
 ### Result
 
-After creating a GeoJSON geography, connect it to a territory for work order management; the associated territory will be listed in the **Territories** related list when you open the geography record. The geography of GeoJSON type appears visually on the map when its territory is selected in the Territory Planning console.
+After you link the geography to a territory, the territory appears in the Territories related list of the geography record. The GeoJSON geography appears on the map when you select its territory in the Territory Planning console.
 
 ### What to do next
 

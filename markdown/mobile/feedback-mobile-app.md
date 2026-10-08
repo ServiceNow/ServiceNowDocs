@@ -18,7 +18,7 @@ ServiceNow strives to continuously improve the Mobile Platform, and therefore it
 
 Starting with version 11.3 of the native client, anyone using a ServiceNow® mobile app can provide feedback regarding their in-app experience.
 
-**Note:** This functionality only exists for ServiceNow General Availability applications. This functionality is not available in ServiceNow MAM \(Intune and BlackBerry\) apps.
+**Note:** This functionality only exists for ServiceNow General Availability applications. This functionality is not available in ServiceNow MAM \(Intune\) apps.
 
 ## Providing feedback
 

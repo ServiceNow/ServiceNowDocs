@@ -40,15 +40,15 @@ The model has flexible options. Based on the sensitivity and requirements of eac
 
 3.  Choose one of the following options from the **Prediction preference** drop-down list for each field.
 
-<table id="choicetable_lzr_gyr_zyb"><thead><tr><th align="left" id="d239076e110">
+<table id="choicetable_lzr_gyr_zyb"><thead><tr><th align="left" id="d240785e110">
 
 Options
 
-</th><th align="left" id="d239076e113">
+</th><th align="left" id="d240785e113">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d239076e119">
+</th></tr></thead><tbody><tr><td id="d240785e119">
 
 **Recommendations**
 
@@ -56,7 +56,7 @@ Description
 
 hows the top recommendations based on the similarity patterns. Agents can choose to accept or reject the recommendation. You can configure the number of recommended values using Advanced Recommended actions for ITSM. For more information, see [Recommended Actions for ITSM in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/recommended-actions-for-itsm-in-service-operations-workspace.md).
 
-</td></tr><tr><td id="d239076e144">
+</td></tr><tr><td id="d240785e144">
 
 **Turn off predictions**
 
@@ -64,7 +64,7 @@ hows the top recommendations based on the similarity patterns. Agents can choose
 
 Stops the model from performing any predictions.
 
-</td></tr><tr><td id="d239076e153">
+</td></tr><tr><td id="d240785e153">
 
 **Monitor only**
 

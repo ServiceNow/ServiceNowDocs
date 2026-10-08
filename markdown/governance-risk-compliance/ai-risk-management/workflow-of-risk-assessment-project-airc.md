@@ -7,7 +7,7 @@ release: australia
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [risk assessment project workflow, define risk scoping, approve bulk assessment]
 breadcrumb: [Risk assessment project, Explore, AI Risk and Compliance, Governance, Risk, and Compliance]

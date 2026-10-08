@@ -53,6 +53,8 @@ As administrator manage clauses, clause variations, and contract templates.
 
 [Contract amendments]()
 
+[Contract renewals]()
+
 [Linking parent-child contracts]()
 
 [Internal review overview]()
@@ -62,6 +64,4 @@ As administrator manage clauses, clause variations, and contract templates.
 [Cancel a legal request]()
 
 [View and download a signed contract document]()
-
-[View contract requests]()
 

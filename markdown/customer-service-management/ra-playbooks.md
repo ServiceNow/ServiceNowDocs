@@ -21,11 +21,11 @@ For more information on playbooks, see [Playbooks in Customer Service Management
 
 -   **Playbook action type**
 
-    The Playbooks action type that enables authors and admins to add and configure playbooks as recommended actions. Admins configure and publish playbooks, and set launch behavior. Agents see playbooks as cards in the Suggested Actions tab of the RA panel in the Agent Workspace and can execute them inline with minimal tab switching.
+    The Playbooks action type that enables authors and admins to add and configure playbooks as recommended actions. Admins configure and publish playbooks, and set launch behavior. Agents see playbooks as cards in the Suggested Actions tab of the Recommended Actions Contextual Side Panel in the CSM Configurable Workspace and can execute them inline with minimal tab switching.
 
 -   **Launch mode**
 
-    The behavior that determines how a playbook opens when an agent selects the **Launch** button on the Playbook card in the Recommended Actions panel in the Agent Workspace. Options include Launch in side panel \(opens playbook in the side panel\) and Launch in expanded view \(opens playbook in a related tab\).
+    The behavior that determines how a playbook opens when an agent selects the **Launch** button on the Playbook card in the Recommended Actions Contextual Side Panel in the CSM Configurable Workspace. Options include Launch in side panel \(opens playbook in the side panel\) and Launch in expanded view \(opens playbook in a related tab\).
 
 -   **Playbook execution state**
 
@@ -42,6 +42,11 @@ As an admin, you can perform the following on the playbooks in Recommended Actio
 
 -   Add playbooks as a new action type when authoring recommended actions.
 -   Execute playbooks directly from the Recommended Actions panel without switching between the tabs.
--   Monitor playbook completion and synchronize state across team members.
--   Review execution history for audit and training purposes.
+-   Monitor playbook completion and synchronize the playbook state across team members.
+-   Review playbook execution history for audit and training purposes.
+
+**Related topics**  
+
+
+[ra-configure-playbook-action]
 

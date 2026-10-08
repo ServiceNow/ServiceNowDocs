@@ -47,6 +47,7 @@ Discover data assets using search or browsing. Search looks across asset names, 
         -   Domain: Organization or business area
         -   Tags: Applied classification tags
         -   Owner: Data owner or steward
+        -   Has Lineage: Yes or No
 5.  Change the sort order to organize the list by different criteria.
 
     From the sort dropdown menu, select a sort option:

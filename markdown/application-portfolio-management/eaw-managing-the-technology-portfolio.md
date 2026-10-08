@@ -1,6 +1,6 @@
 ---
-title: Exploring the Technology Reference Model in Enterprise Architecture Workspace
-description: You can use the Technology Reference Model \(TRM\) feature in Enterprise Architecture Workspace to define the standards for your software and hardware products and manage unapproved products in your organization.
+title: Technology Reference Model in Enterprise Architecture Workspace
+description: The Technology Reference Model \(TRM\) feature in Enterprise Architecture Workspace helps define the standards for your software and hardware products and manage unapproved products in your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-managing-the-technology-portfolio.html
 release: australia
@@ -10,38 +10,38 @@ reading_time_minutes: 4
 breadcrumb: [Exploring Technology Portfolio view, Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# Exploring the Technology Reference Model in Enterprise Architecture Workspace
+# Technology Reference Model in Enterprise Architecture Workspace
 
-You can use the Technology Reference Model \(TRM\) feature in Enterprise Architecture Workspace to define the standards for your software and hardware products and manage unapproved products in your organization.
+The Technology Reference Model \(TRM\) feature in Enterprise Architecture Workspace helps define the standards for your software and hardware products and manage unapproved products in your organization.
 
 ## Overview and benefits of a TRM
 
-In your business enterprise, using an unapproved software can create a risk to the organization. The risks can include the following:
+In your business enterprise, using unapproved software can create a risk to the organization. The risks can include the following:
 
 -   Security risks: The software might be exposed to security issues.
 -   Delivery risks: There might not be sufficient knowledge on how to support the software.
 -   Legal risks: A business application might use the software in illegal ways.
 
-You must define the standards for the software that is to be used and the software versions that are permitted for use in your organization. Also, you need a way to explore when a non-permitted software is being used within the organization and in which business applications.
+You must define the standards for the software that is to be used and the software versions that are permitted for use in your organization. Use this module to identify non-permitted software in use across the organization and the business applications that use it.
 
 You can use the TRM module in the Enterprise Architecture Workspace to perform the following:
 
--   View a list of all available TRM products. You can also view the list of TRM products grouped by product category.
+-   View a list of all available TRM products. You can also view the list of TRM products grouped by product category
 -   Request a TRM product
 -   Request a TRM product lifecycle
 -   Create a TRM product
 -   Create a TRM product lifecycle
--   Approve or reject TRM product and product lifecycle requests.
+-   Approve or reject TRM product and product lifecycle requests
 
 Using the TRM module, you can manage the standards of the technology and set the right guardrail for technology usage. Setting the standards can improve the technical debt, security posture and save costs for the organization.
 
-You can also assign an owner to a TRM category, to ensure clear accountability and improved governance standards. The owner is responsible for maintaining consistent technology compliance standards for that TRM category.
+You can also assign an owner to a TRM category, to facilitate clear accountability and improved governance standards. The owner is responsible for maintaining consistent technology compliance standards for that TRM category.
 
 ## TRM Product Lifecycle
 
-Each product in the TRM library is associated with a set of life-cycle phases with a start and end date. The life-cycle phases could be approved, unapproved, approved with constraints, Divest, and evaluation.
+Each product in the TRM library is associated with a set of lifecycle phases with a start and end date. The lifecycle phases could be approved, unapproved, approved with constraints, divest, and evaluation.
 
-The TLM home page fetches all the business applications that are being used in your organization. It helps to review the status of the software that is being used. You can understand if any business application is using the software that is not part of the TRM or a software version that is not approved for production. For more information, see [TRM lifecycle timelines on Gantt chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-trm-lifecycle-timelines-on-gantt-chart.md).
+The TLM home page fetches all the business applications that are used in your organization. It helps to review the status of the software that is being used. You can understand if any business application is using the software that is not part of the TRM or a software version that is not approved for production. For more information, see [TRM lifecycle timelines on Gantt chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-trm-lifecycle-timelines-on-gantt-chart.md).
 
 The TRM module uses a similar module to TLM to search in the TRM library. You can view the software that is part of the TRM library, and initiate a request to add the software or software version to the TRM library.
 
@@ -52,7 +52,7 @@ You can also use the TRM with the Software Asset Management \(SAM\) plugin. This
 -   **[TRM technical debt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-manage-trm-technical-debt.md)**  
 Manage the TRM technical debts that are created for the products that aren’t approved for the usage.
 -   **[Technical debt calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-trm-technical-debt-calc.md)**  
-Technical debt records identify products used in business applications that are not approved in the TRM or that use unapproved versions. View technical debt records to understand conformance gaps and plan remediation.
+Technical debt records identify products used in business applications that aren't approved in the TRM or that use unapproved versions. View technical debt records to understand conformance gaps and plan remediation.
 -   **[Technology Reference Model \(TRM\) lifecycle with wildcard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-trm-wildcard-to-create-technical-debts.md)**  
 Use Technology Reference Model \(TRM\) lifecycles with wildcards to update multiple software product lifecycles simultaneously without specifying exact minor version details.
 

@@ -7,8 +7,8 @@ release: australia
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
 
@@ -17,6 +17,12 @@ breadcrumb: [AI Risk and Compliance, Governance, Risk, and Compliance]
 To use the AI Risk and Compliance application, you download and activate the application and then you must publish the assessment templates and set up the assessments and their automation logic to ensure accurate risk assessment scores.
 
 ## Configuration overview
+
+Verify that required applications, reference data, life cycle integrations, workspaces, governance artifacts, and access controls are in place so AI Risk and Compliance can be used end-to-end.
+
+**Important:**
+
+If you are upgrading AI Risk and Compliance, AI Control Tower Core, or Enterprise Architecture for AICT plugins together, review the upgrade order and dependencies in [Enterprise Architecture for AICT plugin installation and upgrade considerations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-ea-common-upgrade-considerations.md) to avoid configuration issues.
 
 1.  [Install AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/install-ai-risk-and-compliance.md)
 2.  [AI Risk and Compliance Content Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/airc-content-pack.md)
@@ -42,4 +48,21 @@ Some AI capabilities are available only when the required plugins are installed.
 
 
 For information about AI Control Tower setup and plugin dependencies, see [Activation and installation of AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activation-and-installation-of-ai-control-tower.md).
+
+If your deployment also includes the Enterprise Architecture for AICT plugin \(`com.sn_ea_aict`\), review the upgrade-order guidance for AI Risk and Compliance, EA Workspace, and AI Control Tower Core before upgrading any of these applications out of sync. For more information, see [Enterprise Architecture for AICT plugin installation and upgrade considerations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-ea-common-upgrade-considerations.md).
+
+**Related topics**  
+
+
+[Install AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/install-ai-risk-and-compliance.md)
+
+[Install AI Risk and Compliance content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/install-ai-risk-content-pack.md)
+
+[Set up AI Risk and Compliance properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/configure-airc-properties.md)
+
+[Configure AI Risk and Compliance Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/configure-airc-workspace.md)
+
+[Roles and responsibilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/roles-installed-with-ai-risk-and-compliance.md)
+
+[Enterprise Architecture for AICT plugin installation and upgrade considerations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-ea-common-upgrade-considerations.md)
 

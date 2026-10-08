@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-08-14"
 reading_time_minutes: 2
-breadcrumb: [Order Management AI agents, Order Management, AI agents library, AI assets, Enable AI experiences]
+breadcrumb: [Order Management AI agents, Sales CRM AI agents, Sales CRM, AI agents library, AI assets, Enable AI experiences]
 ---
 
 # Invoice dispute AI voice agent

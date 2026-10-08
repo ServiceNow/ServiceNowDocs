@@ -1,6 +1,6 @@
 ---
 title: Configure Cornerstone for external content indexing
-description: Create and authorize an OAuth 2.0 application in the Cornerstone to allow the Cornerstone external content connector to access your Cornerstone source system.
+description: Create and authorize an OAuth 2.0 application in Cornerstone OnDemand to allow the Cornerstone external content connector to access your source system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/configure-cornerstone-external-content-indexing.html
 release: australia
@@ -15,7 +15,7 @@ breadcrumb: [Cornerstone external content connector, Configure, External Content
 
 # Configure Cornerstone for external content indexing
 
-Create and authorize an OAuth 2.0 application in the Cornerstone  to allow the Cornerstone external content connector to access your Cornerstone source system.
+Create and authorize an OAuth 2.0 application in Cornerstone OnDemand to allow the Cornerstone external content connector to access your source system.
 
 ## Before you begin
 
@@ -27,7 +27,7 @@ Role required: none
 
 The Cornerstone external content connector retrieves Catalogue and Learning objects from organization units in your Cornerstone source system using the Cornerstone API.
 
-To allow the connector to access your Cornerstone source system via the API, you must register an OAuth 2.0 application in Cornerstone OnDemand. Your connector administrator can use settings copied from the OAuth 2.0 application to configure the Cornerstone external connector for proper connection to your source system.
+To allow the connector to access your Cornerstone source system via the API, you must register an OAuth 2.0 application in Cornerstone OnDemand. Your connector administrator can use settings copied from the OAuth 2.0 application to configure the Cornerstone external content connector for proper connection to your source system.
 
 ## Procedure
 
@@ -60,7 +60,6 @@ To allow the connector to access your Cornerstone source system via the API, you
         -   catalog:read
         -   transcript:read
         -   task:read
-        -   group:read
         -   certification:read
     7.  Select **Register Application**.
 

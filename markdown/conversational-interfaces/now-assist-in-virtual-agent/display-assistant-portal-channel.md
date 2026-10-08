@@ -32,7 +32,7 @@ The chat experience configuration defines how users interact with an assistant d
 -   Enhanced chat is a conversational experience that includes a dynamic, movable, and resizable chat window, plus access to multiple active conversations.
 -   Premium chat is a contextual chat experience that appears throughout the platform, adapting its behavior and interface based on where users are and what they’re doing.
 
-If your instance is eligible, you can opt into the premium chat experience. ServiceNow performs a set of readiness checks to see if your instance is eligible for premium chat. The default chat experience is enhanced chat. However, if you also previously had standard chat enabled, you still have that as an option.
+If your instance is eligible, you can opt in to the premium chat experience. ServiceNow performs a set of readiness checks to determine whether your instance is eligible for premium chat. The default chat experience is enhanced chat. However, if you also previously had standard chat enabled, you still have that as an option.
 
 An alert is shown when:
 
@@ -43,9 +43,9 @@ An alert is shown when:
 
 If your instance doesn’t meet the requirements for premium chat, you can continue using your existing standard or enhanced chat experience.
 
-Premium chat is not available for instances that use domain separation or regional data routing.
+Premium chat is not available for instances that use regional data routing.
 
-In premium chat, catalog items have improved fluidity, but some will no longer be conversational. They’ll open in a catalog form instead. For more information, see [Conversational catalog item requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/explore.md).
+In premium chat, catalog items have improved fluidity, but some are no longer conversational. They open in a catalog form instead. For more information, see [Conversational catalog item requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/explore.md).
 
 ## Procedure
 
@@ -54,7 +54,7 @@ In premium chat, catalog items have improved fluidity, but some will no longer b
     **Note:** If you have access to the default Employee Slate assistant, Employee Slate is available from within the portal list. Selecting Employee Slate prompts you to add premium chat.
 
     -   Standard chat and enhanced chat are not options for Employee Slate.
-    -   Employee Slate can be removed/unmapped from the default Employee Slate assistant and added to any ServiceNow Otto for Virtual Agent assistant.
+    -   Employee Slate can be removed from the default Employee Slate assistant and added to any ServiceNow Otto for Virtual Agent assistant.
     \[Omitted image "NAinVA-display-exp-052026.png"\] Alt text: Select a portal for where you want your assistant to appear.
 
     One portal can only include one assistant. Any portal in the list that is already used is unavailable for selection.
@@ -65,9 +65,9 @@ In premium chat, catalog items have improved fluidity, but some will no longer b
 
         For more information, see [Standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/nava-standard-chat.md), [Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/nava-enhanced-chat.md), or [Premium chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/nava-integrated-chat.md).
 
-        \[Omitted image "NAinVA-add-chat-exp-072026.png"\] Alt text: Opt into premium chat for your portal.
+        \[Omitted image "NAinVA-add-chat-exp-072026.png"\] Alt text: Opt in to premium chat for your portal.
 
-        When adding a new assistant into a portal, the chat experience options are:
+        When you add an assistant to a portal, the chat experience options are:
 
         -   Enhanced chat with a dynamic, movable, and resizable chat window.
         -   Enhanced chat with the option to allow the search bar to open into a full-page chat experience.
@@ -76,7 +76,7 @@ In premium chat, catalog items have improved fluidity, but some will no longer b
 
         For more information about whether your portal meets the requirements to have users chat from search results, see [Portal prerequisites for enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/prerequisites-enhanced-chat.md).
 
-        **Note:** When you activate enhanced chat in a portal or mobile app, that portal or mobile app uses the assistant search application configuration rather than the portal or mobile app's search application configuration. This ensures that the portal/mobile app's search results and assistant provide consistent responses. To learn more about search profiles and how they affect search behavior, see [Search profiles in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/defining-search-profiles-ais.md).
+        **Note:** When you turn on enhanced chat in a portal or mobile app, that portal or mobile app uses the assistant search application configuration rather than the portal or mobile app's search application configuration. This helps the portal or mobile app search results and the assistant provide consistent responses. To learn more about search profiles and how they affect search behavior, see [Search profiles in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/defining-search-profiles-ais.md).
 
         Your display experience options depend on the configuration.
 
@@ -89,7 +89,7 @@ In premium chat, catalog items have improved fluidity, but some will no longer b
             -   Remain with enhanced chat with a dynamic, movable, and resizable chat window.
             -   Enhanced chat with the option to allow the search bar to open into a full-page chat experience.
             -   Premium chat that opens the search bar into a full-page chat experience.
-        -   For portals that do not have AI search enabled, you can choose between standard chat and enhanced chat with a dynamic, movable, and resizable chat window.
+        -   For portals that do not have AI Search enabled, you can choose between standard chat and enhanced chat with a dynamic, movable, and resizable chat window.
         Enhanced chat and premium chat \(full-page experience\) are supported for default Customer Service Management \(CSM\) portals such as Business Portal, CSM Portal, and Consumer Service Portal \(CSP\). CSM portals must have AI Search enabled. Enhanced chat is the default when an assistant is added to a default CSM portal.
 
         For premium chat, your premium messages and premium fallbacks are prefilled with what you had in your legacy messages and legacy fallbacks. Review the settings to ensure that everything was prefilled correctly.
@@ -102,28 +102,27 @@ In premium chat, catalog items have improved fluidity, but some will no longer b
 
     3.  Select the **Allow public access for this assistant** check box to enable the assistant on public pages for all selected portals.
 
-        Selecting the check box only makes the assistant response available to guest users. In addition to selecting the check box, ensure that the UI page and chat client are also set to public. For more information, see [Make UI pages public or private](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_MakeAPagePublic.md), [Configure page security by role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-page-security.md), and [Configure widget security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-widget-security.md).
+        Selecting the check box only makes the assistant response available to guest users. Also ensure that the UI page and chat client are set to public. For more information, see [Make UI pages public or private](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/t_MakeAPagePublic.md), [Configure page security by role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-page-security.md), and [Configure widget security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/configure-widget-security.md).
 
-        For public access across the entire instance, see **Conversational** &gt; **Interfaces** &gt; **Settings**. For more information on public access across the entire instance, see [Enable public access to the chat widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/enable-public-access-web-client.md).
+        For public access across the entire instance, navigate to **Conversational** &gt; **Interfaces** &gt; **Settings**. For more information about public access across the entire instance, see [Enable public access to the chat widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/enable-public-access-web-client.md).
 
 2.  In **Channels**, select your preferred messaging channels to display a chat assistant.
 
-    ServiceNow Otto for Virtual Agent integrates with these channels: Slack, Microsoft Teams, Google Chat, SMS with Twilio, WhatsApp, and Amazon Connect. If the plugins are already installed, the available channel cards aren't displayed. For more information on integrating Virtual Agent with messaging apps, see [Integrating Virtual Agent with messaging apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-integration-messaging-apps.md).
+    ServiceNow Otto for Virtual Agent integrates with these channels: Slack, Microsoft Teams, Google Chat, SMS with Twilio, WhatsApp, and Amazon Connect. If the plugins are already installed, the available channel cards aren't displayed. For more information about integrating Virtual Agent with messaging apps, see [Integrating Virtual Agent with messaging apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-integration-messaging-apps.md).
 
     Getting the plugin redirects you to the ServiceNow Store. After the plugins are installed and configured, you can then select the ones that you want the assistant to integrate with.
 
-    -   After the plugins are installed and configured, choose the ones that you want the assistant to integrate with by selecting from the Add channel drop down menu.
+    -   After the plugins are installed and configured, choose the ones that you want the assistant to integrate with by selecting from the **Add channel** drop-down menu.
 
         \[Omitted image "NAinVA-display-channels-062026.png"\] Alt text: List of channels to integrate with Virtual Agent.
 
-    -   Select the ellipsis to remove a channel. The edit option is only available for Microsoft Teams. You can toggle between standard and premium chat.
+    -   Select the ellipsis to remove a channel. The edit option is available for Microsoft Teams. You can toggle between standard and premium chat.
         -   For standard chat, conversations in Microsoft Teams display a condensed conversational experience.
-        -   For premium chat, conversations in Microsoft Teams display a contextual chat experience that works best for end users using premium chat in their portal experience.
 3.  In **Mobile**, select a mobile app display experience.
 
-    In the **Mobile** tab, if no mobile app is selected to display standard chat or enhanced chat, users see the traditional NLU Virtual Agent in the mobile app. There are different mobile app components that admins can display with an assistant: mobile search widget, chat launcher, prominent action button override, and a custom app \(mobile SDK\).
+    In the **Mobile** tab, if no mobile app is selected to display standard chat or enhanced chat, users see the traditional NLU Virtual Agent in the mobile app. You can display an assistant with these mobile app components: mobile search widget, chat launcher, prominent action button override, and custom app \(mobile SDK\).
 
-    The table shows chat experiences available when editing a mobile widget's display experience or adding an assistant to a new mobile widget. Options vary based on existing configuration.
+    The following table shows the chat experiences that are available when you edit a mobile widget's display experience or add an assistant to a new mobile widget. Options vary based on existing configuration.
 
 <table id="table_bx3_bh3_njc"><thead><tr><th>
 
@@ -147,7 +146,7 @@ Mobile search widgets
 
 </td><td>
 
-Currently on enhanced chat with a dynamic, movable, and resizable window or full-page experience, your option is premium full-page experience.
+Currently on enhanced chat with a dynamic, movable, and resizable window or full-page experience, your option is premium chat full-page experience.
 
 </td><td>
 
@@ -233,19 +232,19 @@ Not applicable
 
         The **Add chat experience** pop-up window appears where you can optionally select a mobile search configuration if you have enhanced chat or premium chat.
 
-        **Note:** Any prior Virtual Agent configurations that applied to the NOW mobile or Agent apps are migrated to apply to the chat launcher functions.
+        **Note:** Any prior Virtual Agent configurations that applied to the Now Mobile or Agent apps are migrated to apply to the chat launcher functions.
 
     4.  In **Prominent action button override**, select from the **Add tab override** drop-down menu to allow a prominent action button to launch the assistant when it's opened from the selected mobile navigation tab. This overrides what’s been defined in the chat launcher function from any other assistant record.
 
-        The default setting for the chat launcher function associated with a prominent action button should still be configured in the chat launcher functions. If there is no record in the chat launcher function, the override won’t work.
+        The default setting for the chat launcher function associated with a prominent action button should still be configured in the chat launcher functions. If there is no record in the chat launcher function, the override doesn’t work.
 
-        The same chat experience must be used to override the same prominent action button. For example, if the chat launcher section is configured to be enhanced chat, only an override record for enhanced chat would work.
+        The same chat experience must be used to override the same prominent action button. For example, if the chat launcher section is configured to be enhanced chat, only an override record for enhanced chat works.
 
         \[Omitted image "NAinVA-prominent-action-override-122025.png"\] Alt text: Prominent action button override.
 
         The **Add chat experience** pop-up window appears where you can optionally select a mobile search configuration. For more information, see [Using the prominent action button](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/using-prominent-action-button.md) and [Configuring a prominent action button](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/configuring-prominent-action-button.md).
 
-    5.  The **Custom apps section** is displayed when a mobile SDK plugin is installed. Select a custom mobile app integrated with the mobile SDK that launches this assistant.
+    5.  The **Custom apps** section is displayed when a mobile SDK plugin is installed. Select a custom mobile app integrated with the mobile SDK that launches this assistant.
 
         The **Add custom app** pop-up window appears. Select enhanced chat or premium chat.
 

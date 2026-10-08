@@ -7,7 +7,7 @@ release: australia
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Create a change request, Use, Change Management, IT Service Management]
 ---
@@ -38,9 +38,9 @@ New change tasks can be created when a change is copied. If your change record h
 
 2.  Open the change request that you want to copy.
 
-    The Copy Change option is available from the form, and not from the list view.
+    Open the record to display its form. The Copy Change option is available from the form, and not from the list view.
 
-3.  In the change request form header, select the Additional Actions menu icon \[Omitted image "additional-actions.png"\] Alt text: Change request form header showing the Additional Actions menu open with Copy Change highlighted and then select **Copy Change** to copy change request details.
+3.  In the change request form header, select the Additional Actions menu icon. \[Omitted image "additional-actions.png"\] Alt text: Change request form header showing the Additional Actions menu open with Copy Change highlighted and then select **Copy Change** to copy change request details.
 
     A preview of the new change record appears with values from the original source change record.
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/create-delivery-plan-change.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [delivery plan change, purchase order exception, PO exception]
 breadcrumb: [Reference, Purchase Order Management, Source-to-Pay Operations, Finance and Supply Chain]
@@ -122,6 +122,8 @@ Revised delivery date.
 [Purchase order exception form]()
 
 [Create new purchase order exception form]()
+
+[Purchase order confirmation form]()
 
 [Master data tables for Purchase Order Management]()
 

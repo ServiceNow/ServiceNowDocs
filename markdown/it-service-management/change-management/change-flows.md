@@ -7,8 +7,8 @@ release: australia
 product: Change Management
 classification: change-management
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 keywords: [Workflow Editor, Workflow, Flow]
 breadcrumb: [Reference, Change Management, IT Service Management]
 ---
@@ -25,7 +25,9 @@ You can use ServiceNow® Workflow Studio to create, operate, and troubleshoot fl
 -   Runtime information.
 -   Consolidated configuration.
 
-You can deactivate an out-of-box change flow directly after you copy it, without logging a support case. To activate the change flows in the base system, contact Support to request activation. For more information on the plugin activation, see
+The provided flows are read-only to confirm that they can be upgraded. To change the behaviour of these flows, copy the read-only flow and then deactivate it. You do not need to contact Support to deactivate an out-of-box change flow. Deactivating the read-only flow ensures that only the copied flow is triggered.
+
+You can deactivate an out-of-box change flow directly after you copy it, without logging a support case. To activate the change flows in the base system, contact Support to request activation. For more information on the plugin activation, see [Activate Change Management - Change Flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/activate-change-flows.md)
 
 .
 

@@ -7,7 +7,7 @@ release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Set up master data, Configure, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
@@ -21,8 +21,6 @@ Configure your employees as delegates to shop on behalf of someone else. For the
 Role required: admin
 
 ## About this task
-
-\[Omitted video\] Description: Shows how to configure a delegate for a shopper.
 
 When shopping as a delegate, the user can see the previous purchases and top supplier preferences of the delegate. The user can place orders and request pricing for the catalog and non-catalog items on Shopping Hub on the behalf of the delegate.
 

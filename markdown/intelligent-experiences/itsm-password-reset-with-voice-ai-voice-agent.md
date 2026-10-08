@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experienc
 release: australia
 topic_type: reference
 last_updated: "2026-08-14"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [IT Service Management AI agents, IT Service Management, AI agents library, AI assets, Enable AI experiences]
 ---
 
@@ -18,10 +18,10 @@ This AI voice agent helps users reset their password during phone-based interact
 
 The agent sends a password reset link through email or SMS to ensure a successful reset.
 
-1.  Verify the name of the password reset application. If not provided, ask the user to describe or name the application.
+1.  Ensure you have the name of the password reset application. If not provided, ask the user to describe or name the application.
 2.  Call the application search tool with the provided name to retrieve possible matches.
 3.  If the tool returns multiple matches, ask clarifying questions.
-4.  Confirm the selected application and explicitly ask for the delivery method \(email address, phone number, or reading out a URL\).
+4.  Confirm the selected application and explicitly ask for the delivery method.
 5.  Send or read out the password reset link based on the confirmed method.
 
 <table><thead><tr><th>
@@ -42,44 +42,11 @@ When enabled, third-party AI agents can use this agent. This value is off \(fals
 
 </td></tr><tr><td>
 
-Allow AI specialists to access this AI agent
-
-</td><td>
-
-When enabled, AI specialists can use this agent. This value is off \(false\) by default. When set to true, more configuration options for tools become available so that an AI specialist can map inputs and response templates to tool outputs. This setting is defined in the AI Agent configs \[sn\_aia\_agent\_config\] table on the Specialist enabled field.
-
-</td></tr><tr><td>
-
-Manage long-term memory
-
-</td><td>
-
-When enabled, all previous user interactions are used as context for the LLM. This value is off \(false\) by default. This setting is defined by the **sn\_aia.ltm.enable\_long\_term\_memory** system property. For more information, see [ServiceNow Otto AI agents reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/na-aia-reference.md).
-
-</td></tr><tr><td>
-
-Tools
-
-</td><td>
-
--   **Search retrievals**
-
-Get relevant knowledge articles
-
--   **Subflows**
-
-Send password reset link to email
-
-Send password reset link to SMS
-
-
-</td></tr><tr><td>
-
 Allowed user roles The specific user roles that can access this AI agent.
 
 </td><td>
 
-snc\_internal
+Admin
 
 </td></tr><tr><td>
 

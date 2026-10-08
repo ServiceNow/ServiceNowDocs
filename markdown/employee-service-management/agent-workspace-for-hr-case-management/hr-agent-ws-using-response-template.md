@@ -28,15 +28,15 @@ Role required: sn\_hr\_core.case\_writer
 
 3.  Select an HR case or task.
 
-<table id="choicetable_a5l_fjh_1cc"><thead><tr><th align="left" id="d310862e83">
+<table id="choicetable_a5l_fjh_1cc"><thead><tr><th align="left" id="d314156e83">
 
 Item
 
-</th><th align="left" id="d310862e86">
+</th><th align="left" id="d314156e86">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d310862e92">
+</th></tr></thead><tbody><tr><td id="d314156e92">
 
 **HR case**
 
@@ -46,7 +46,7 @@ Steps
 2.  Select the HR case.
 
 
-</td></tr><tr><td id="d310862e119">
+</td></tr><tr><td id="d314156e119">
 
 **HR task**
 

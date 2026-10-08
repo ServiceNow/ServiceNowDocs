@@ -94,7 +94,7 @@ To learn about activating Playbook other applications, see [Activate Playbooks](
 |-----------|-----------------|
 |[App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-overview.md)|Build playbooks from App Engine Studio.|
 |[Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/creator-studio-landing.md)|Create basic request and fulfillment apps without code.|
-||Create playbooks for Customer Service Management.|
+|[Playbooks in Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/setting-up-csm-playbooks.md)|Create playbooks for Customer Service Management.|
 |[Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/fsm-application-landing-page.md)|Create playbooks for Field Service Management.|
 |[HR Service Delivery Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/playbook-hr.md)|Create playbooks for HR services.|
 |[Software Asset Management Guided Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/playbook-entitlementsetup-workspace.md)|Create playbooks for Software Asset Management.|

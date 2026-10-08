@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-xanadu-australia/australia-xanadu-customercontractsandentitlements-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 9
+last_updated: "2026-10-08"
+reading_time_minutes: 10
 breadcrumb: [Products combined by family]
 ---
 
@@ -150,7 +150,26 @@ Zurich
 
 </td><td>
 
--   **[Renew a service contract](https://www.servicenow.com/docs/access?context=cce-renew-service-contract&family=zurich&ft:locale=en-US)**
+-   **[Support Price Ramps in contract](https://www.servicenow.com/docs/access?context=using-customer-cnt-ent-wf&family=zurich&ft:locale=en-US)**
+
+Enable customers to specify price ramps for a product or service in a single quote. When the quote is completed and the order process is finalized, the contract captures the new pricing details.​
+
+
+ -   **[Enhancements in Renewals workflow](https://www.servicenow.com/docs/access?context=create-cont-ent-workflows-csm&family=zurich&ft:locale=en-US)**
+    -   Configure renewal opportunity and quote generation dates on separate dates.
+    -   Renewed quotes automatically update when new products are added to auto-renewed contracts.
+
+ -   **[Non-Standard Renewals](https://www.servicenow.com/docs/access?context=cce-renew-service-contract&family=zurich&ft:locale=en-US)**
+
+Renew customer contracts outside the standard renewal cycle. You can perform early renewals to generate new contracts with updated pricing terms or late renewals to extend contracts after the expiry date.
+
+
+ -   **[Modify line item quantities](https://www.servicenow.com/docs/access?context=cce-upsell-downsell-service-contract&family=zurich&ft:locale=en-US)**
+
+Swap an existing subscribed product or service with another product, either partially or fully.
+
+
+ -   **[Renew a service contract](https://www.servicenow.com/docs/access?context=cce-renew-service-contract&family=zurich&ft:locale=en-US)**
 
 Initiate renewals from contracts at either the line level or the contract level. The resulting renewal quotes and orders generate a new contract that is associated with the original contract in the renewal history.
 
@@ -372,6 +391,8 @@ Customer Contracts and Entitlements is available with activation of the Customer
 **Note:** With the activation of Customer Contracts and Entitlements, new contracts and entitlements are created using the new data model only. The new entitlement verification APIs and change workflows are based on the new data model. Older contracts and entitlements can still be viewed but not modified.
 
 
+**Important:** Customer Contracts and Entitlements is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Zurich
@@ -387,6 +408,8 @@ Customer Contracts and Entitlements is available with activation of the Customer
 **Note:** With the activation of Customer Contracts and Entitlements, new contracts and entitlements are created using the new data model only. The new entitlement verification APIs and change workflows are based on the new data model. Older contracts and entitlements can still be viewed but not modified.
 
 
+**Important:** Customer Contracts and Entitlements is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Australia
@@ -397,6 +420,8 @@ Australia
 
 Customer Contracts and Entitlements is a ServiceNow AI Platform feature that is available with activation of the \(com.sn\_pss\_core\) plugin, which requires a separate subscription. For details, see [Post-Sales Support](https://www.servicenow.com/docs/access?context=configuring-post-sales-support&family=australia&ft:locale=en-US).
 
+
+**Important:** Customer Contracts and Entitlements is available in the ServiceNow Store. For details, see the Activation information section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements

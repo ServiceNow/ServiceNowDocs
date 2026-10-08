@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/create-bcp-plan-in-uib-ws.html
 release: australia
 topic_type: task
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 8
 breadcrumb: [Structured workflows for BCPs, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -47,15 +47,15 @@ When you select an owner group, the **Plan owner** field is limited to members o
 
 3.  Assign plan ownership by selecting the appropriate ownership model in the **User Administration** or **Assignment details** section.
 
-<table id="choicetable_vgt_1wx_gkc"><thead><tr><th align="left" id="d123477e206">
+<table id="choicetable_vgt_1wx_gkc"><thead><tr><th align="left" id="d125133e206">
 
  
 
-</th><th align="left" id="d123477e208">
+</th><th align="left" id="d125133e208">
 
  
 
-</th></tr></thead><tbody><tr><td id="d123477e213">
+</th></tr></thead><tbody><tr><td id="d125133e213">
 
 **Group ownership only**
 
@@ -63,7 +63,7 @@ When you select an owner group, the **Plan owner** field is limited to members o
 
 Select the **Plan owner group** field, select a group from the list \(filtered to show only groups with the Plan Owner or equivalent BCM Manager role\), and leave the **Plan owner** field empty. The plan is owned by the group as a whole, with any member able to take action on the record.
 
-</td></tr><tr><td id="d123477e228">
+</td></tr><tr><td id="d125133e228">
 
 **Individual ownership only**
 
@@ -73,7 +73,7 @@ Select the **Plan owner** field, select a user, and save the record. This is the
 
  Group and individual ownership: Select the **Plan owner group** field and choose a group. Then select the **Plan owner** field and select a user from the filtered list \(showing only members of the selected group\). The record is owned by the group with a specific individual designated as the point of contact.
 
-</td></tr><tr><td id="d123477e252">
+</td></tr><tr><td id="d125133e252">
 
 **Outside group scenario**
 

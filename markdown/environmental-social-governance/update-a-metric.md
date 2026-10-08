@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Using GRC: Metrics to provide data, GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
@@ -218,6 +218,22 @@ Next run date
 
 Date for the next run time.
 
+</td></tr><tr><td>
+
+Create historical data
+
+</td><td>
+
+Option to generate metric definition data, metric data, and metric data tasks for past periods, starting from the **Historical start date**. After the records are created, this option is automatically cleared.
+
+</td></tr><tr><td>
+
+Historical start date
+
+</td><td>
+
+Date from which to generate historical metric definition data, metric data and metric data tasks. This field appears and is required when **Create historical data** is selected. The date must be in the past.
+
 </td></tr><tr><td class="sub-head" colspan="2">
 
 Data Collection Details
@@ -321,4 +337,9 @@ Details of the citations, such as reference, name, authority document, descripti
 
 
 **Parent Topic:**[Using GRC: Metrics to provide data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/using-grc-metrics.md)
+
+**Related topics**  
+
+
+[Historical data generation for metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/historical-data-generation-for-metrics.md)
 

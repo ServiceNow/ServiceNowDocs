@@ -20,7 +20,7 @@ Use the AI conversational experience in the Configuration Console to configure a
 
 -   The Hardware Asset Management \(HAM\) application must be installed on your ServiceNow instance. For details, see [Install Hardware Asset Management from Product Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/install-ham-from-product-hub.md).
 -   The ServiceNow Otto for Hardware Asset Management \(HAM\) application must be installed on your ServiceNow instance. For details, see [Install additional HAM applications using Product Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/install-additional-ham-apps.md).
--   The ServiceNow Otto panel must be enabled on your ServiceNow instance. For details, see [Enable the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-enable-now-assist-panel.md).
+-   The ServiceNow Otto panel must be enabled on your ServiceNow instance. For details, see [Enable the ServiceNow Otto panel \(Next Experience UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-center-enable-now-assist-panel.md).
 -   AI Search must be activated on your ServiceNow instance. For details, see the AI Search activation steps in [Install ServiceNow Otto for Hardware Asset Management \(HAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/install-now-assist-ham.md).
 
 Role required: To access the Configuration Console, you must have the ham\_admin and ia\_user roles. The setup items available within the console depend on the additional roles assigned. For more information on roles required for modules, see [Configuration Console for Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/config-console-ham.md).
@@ -52,7 +52,7 @@ The Configuration Console includes a **Configure with AI** option that opens a c
     -   Select **Choose something else** to view all available options, including groups, users, and roles.
 6.  Based on your selection, follow the prompts in the panel.
 
-<table id="choicetable_otq_dy3_hkc"><tbody><tr><td id="d340382e258">
+<table id="choicetable_otq_dy3_hkc"><tbody><tr><td id="d346461e258">
 
 **__Assignment groups \(Team management\)__ or __Roles \(Team management\)__**
 
@@ -65,7 +65,7 @@ Select one of the following options or enter a natural-language prompt: -   **As
 -   **Search by Org Chart**
 
 
-</td></tr><tr><td id="d340382e294">
+</td></tr><tr><td id="d346461e294">
 
 **__Users \(Team management\)__**
 

@@ -7,7 +7,7 @@ release: australia
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: task
-last_updated: "2026-07-20"
+last_updated: "2026-09-15"
 reading_time_minutes: 1
 keywords: [AWS resource types, datacenter discovery, passive datacenter, Resource Explorer]
 breadcrumb: [AWS discovery, Available cloud discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
@@ -39,6 +39,8 @@ Some resource types, such as default Virtual Private Cloud \(VPC\) and security 
 4.  In the **Value** field, enter a comma-separated list of AWS resource type identifiers to exclude.
 
     For example: `ec2:vpc,ec2:security-group`.
+
+    For a list of AWS resource type identifiers, go to the [AWS Documentation](https://docs.aws.amazon.com/) and search for the "Resource types you can search for with Resource Explorer" article.
 
 5.  Select **Update**.
 

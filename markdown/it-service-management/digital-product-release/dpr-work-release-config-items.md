@@ -38,15 +38,15 @@ You can add a specific configuration item to a phase only once, although it can 
 
 5.  Add or remove configuration items.
 
-<table id="choicetable_l2q_vl2_52c"><thead><tr><th align="left" id="d79926e111">
+<table id="choicetable_l2q_vl2_52c"><thead><tr><th align="left" id="d80254e111">
 
 Option
 
-</th><th align="left" id="d79926e114">
+</th><th align="left" id="d80254e114">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d79926e120">
+</th></tr></thead><tbody><tr><td id="d80254e120">
 
 **Add existing CIs to a release phase**
 
@@ -64,7 +64,7 @@ A list of available configuration items displays as per the following conditions
 3.  Select **Add**.
  The selected configuration items are added to the phase based on the **sn\_dpr.default\_phase\_for\_cis** system property.
 
-</td></tr><tr><td id="d79926e190">
+</td></tr><tr><td id="d80254e190">
 
 **Remove associated CIs from a phase**
 

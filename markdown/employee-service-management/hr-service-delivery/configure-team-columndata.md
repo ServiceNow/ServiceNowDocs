@@ -107,6 +107,8 @@ Order in which you want to display the column display fields on the Team members
 
 [Configure important dates]()
 
+[Configure manager insights for ServiceNow Otto for HRSD]()
+
 [Configure team requests]()
 
 [Configure team data]()

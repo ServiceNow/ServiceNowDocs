@@ -1,5 +1,5 @@
 ---
-title: Roles and responsibilities
+title: Roles
 description: After successful integration of Order Management with Service Model Foundation, various roles are added to the list view menu.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/personas-roles-and-tables-post-integration.html
@@ -10,13 +10,13 @@ reading_time_minutes: 2
 breadcrumb: [Order Management for business organization, Integration with Sales Customer Relationship Management, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
 
-# Roles and responsibilities
+# Roles
 
 After successful integration of Order Management with Service Model Foundation, various roles are added to the list view menu.
 
 **Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/renamed-entities.md).
 
-## Description of roles and their responsibilities
+## Description of roles
 
 <table id="table_rnc_gcs_ffc"><tbody><tr><td>
 

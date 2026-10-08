@@ -7,9 +7,9 @@ release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a document, DMS system, Third-party Risk Management, Governance, Risk, and Compliance]
+breadcrumb: [Create a document, Use the Document Management System, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
 
 # Create new document form

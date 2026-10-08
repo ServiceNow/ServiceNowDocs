@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-08-18"
 reading_time_minutes: 1
 keywords: [Signing order, Parallel signature, Parallel signing]
-breadcrumb: [Use self-served contract request, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Own paper contract requests, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Modify the signing order for signatories
@@ -52,5 +52,5 @@ The Signatories reflect the updated signing order.
 
 If the signing order contains a gap, it updates automatically when the contract is sent for signature. For more information, see [Send a contract document for signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-send-doc-signature.md).
 
-**Parent Topic:**[Use self-served contract request]()
+**Parent Topic:**[Own paper contract requests]()
 

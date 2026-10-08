@@ -9,7 +9,7 @@ classification: policy-and-compliance-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [integrate with UCF Common Controls Hub, Configure UCF integration using UCF CCH, Manage UCF integration, Classic UI, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [integrate with UCF Common Controls Hub, Configure UCF integration using UCF CCH, Manage UCF integration, Classic UI, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Create a Now Support Case for UCF-CCH account integration information

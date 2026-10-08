@@ -62,7 +62,11 @@ Requested table
 
 </td><td>
 
-Table in which the contract requests are saved.**Note:** The Contract Request table \[sn\_cm\_core\_contract\_request\] is selected by default to centralize the configuration on a single table and improve and reusability across product lines. You can choose to configure the template rules on a different table.
+Table in which the contract requests are saved.**Note:**
+
+-   The Contract Request table \[sn\_cm\_core\_contract\_request\] is selected by default to centralize the configuration on a single table and improve and reusability across product lines. You can choose to configure the template rules on a different table.
+-   For standalone requests the configurations should be done on the Contract Request table \[sn\_cm\_core\_contract\_request\].
+
 
 </td></tr><tr><td>
 
@@ -94,7 +98,7 @@ Request type
 
 </td><td>
 
-Type of request the template rule is applicable to.For contract requests, select **New Contract**; for amendment requests, select **Amendment**.
+Type of request the template rule is applicable to.For contract requests, select **New Contract**; for amendment requests, select **Amendment**; and for renewal requests, select **Renewal**.
 
 </td></tr><tr><td>
 

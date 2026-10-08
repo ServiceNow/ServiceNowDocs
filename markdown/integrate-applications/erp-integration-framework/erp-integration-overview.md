@@ -7,7 +7,7 @@ release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: concept
-last_updated: "2026-08-05"
+last_updated: "2026-10-05"
 reading_time_minutes: 3
 keywords: [erp, canvas, erp canvas, model, integration, data hub, zero, copy, connector, sap, erp data, connect]
 breadcrumb: [Workflow Data Fabric]
@@ -22,8 +22,6 @@ Zero Copy Connector for ERP \(Enterprise Resource Planning\) is a ServiceNow sco
 Legacy ERP systems, such as SAP, can have old, complex custom code and data. The old information requires more time and effort to move to newer versions of the ERP system. Use Zero Copy Connector for ERP to find and replace custom code with digitized workflows, resulting in a clean ERP core. This is the process of ERP modernization.
 
 The replatforming of legacy code enables innovation on top of the ERP system without knowledge of the legacy system. Administrators and developers are then relieved of time-consuming efforts to create database views or endpoints in the ERP system and can work on other projects, such as migration.
-
-\[Omitted image "erpc-landing-page-infographic.png"\] Alt text: Querying SAP and identifying data models to simplify ERP.
 
 Use models as the foundation for ERP apps. These models include ERP system data in remote tables and extraction tables. The models enable you to perform read, update, and create operations on the ERP system. After you create models, you can use the extracted and transformed data to build apps that access the models. For example, use ServiceNow Studio or Creator Studio to build apps, or use the ERP data in flows within Workflow Studio.
 

@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-mana
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 8
+reading_time_minutes: 9
 keywords: [Contexts, Context in Recommended Actions, Create Context in Recommended Actions]
 breadcrumb: [Recommended Actions, Recommended Actions configuration, Implement Intelligence, Configure, Customer Service Management]
 ---
@@ -122,6 +122,8 @@ The Recommended Actions for Customer Service application adds the Case Context r
 If an upgrade customer has one or more context records for the Case table available on their instance, the system runs a fix script that deactivates the out-of-box Case Context record \(sets the **Active** field to false\).
 
 **Note:** Verify that the correct context record for the Case table is active.
+
+You can create contexts, rules, and recommendations for any table. However, on the CSM default record page, the Recommended Actions tab appears only for records from the base system Case \[sn\_customerservice\_case\] table. For more information, see [Recommended Actions tab not appearing on the CSM default record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ra-csm-enable-ra-variant-record-page.md).
 
 **Related topics**  
 

@@ -45,6 +45,8 @@ Options are:-   1 - Direct
 -   5 - Within 30 days
 -   6 - Unplanned
 
+A task that you create on demand defaults to **2 - This shift**, so its due date falls within the current shift.
+
 </td></tr><tr><td>
 
 Short description

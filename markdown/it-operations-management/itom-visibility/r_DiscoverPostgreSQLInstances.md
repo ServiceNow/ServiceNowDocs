@@ -7,7 +7,7 @@ release: australia
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: reference
-last_updated: "2026-08-24"
+last_updated: "2026-09-17"
 reading_time_minutes: 3
 breadcrumb: [Database discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
@@ -18,9 +18,9 @@ Discovery can find running instances of PostgreSQL on Windows and Linux systems.
 
 ## Credentials and other prerequisites
 
--   **Create credentials for PostgreSQL discovery**
-    -   [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md)
-    -   \[optional\] [Applicative credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/applicative-creds.md)
+-   **Create SSH credentials for PostgreSQL discovery**
+
+    For more information, see [SSH credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r_SSHCredentialsForm.md).
 
 -   **Verify root-level access to the database**
 

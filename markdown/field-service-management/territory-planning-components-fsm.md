@@ -453,6 +453,13 @@ Field Service Territory Planning adds the following Schedule Optimization adds t
 
 **Parent Topic:**[Components installed with additional plugins for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/components-inst-additional-plugin.md)
 
+**Related topics**  
+
+
+[Field Service Territory Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/territory-planning-fsm.md)
+
+[Configuring Field Service Territory Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/workforce-optimization-for-field-service/configuring-territory-planning-fsm.md)
+
 ## Field Service Territory Planning console properties
 
 Territory Planning console uses the following properties.

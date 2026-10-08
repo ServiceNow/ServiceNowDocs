@@ -29,7 +29,7 @@ Role required: none
 
 The Box external content connector retrieves documents and user permissions from your Box source system using the Box API.
 
-To allow the connector to access your Box source system via the Box API, you must configure and authorize an OAuth 2.0 application in the Box developer console. Your connector administrator can use settings copied from the OAuth 2.0 application and its API key to configure the Box external connector for proper connection to your source system.
+To allow the connector to access your Box source system via the Box API, you must configure and authorize an OAuth 2.0 application in the Box developer console. Your connector administrator can use settings copied from the OAuth 2.0 application and its API key to configure the Box external content connector for proper connection to your source system.
 
 ## Procedure
 
@@ -134,7 +134,7 @@ Provide the following items to your connector administrator:
 
 Your connector administrator needs these items to configure a Box external content connector to retrieve user boxes and security principals from your Box source system.
 
-For details on creating and configuring a Box Cloud external content connector, see [Create a Box external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/create-ext-cont-connector-box.md).
+For details on creating and configuring a Box external content connector, see [Create a Box external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/create-ext-cont-connector-box.md).
 
 **Parent Topic:**[Box external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/box-external-content-connector.md)
 

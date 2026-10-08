@@ -1,5 +1,5 @@
 ---
-title: Evaluate supplier risk using FedEx Dataworks risk assessment
+title: Evaluate supplier risk using FedEx Dataworks
 description: FedEx Dataworks risk assessment returns logistics-based risk factor ratings for a matched supplier, helping relationship managers evaluate supplier risk during onboarding.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/supplier-lifecycle-operations/fedex-risk-assessment.html
@@ -7,21 +7,23 @@ release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
 topic_type: task
-last_updated: "2026-09-24"
-reading_time_minutes: 2
+last_updated: "2026-10-08"
+reading_time_minutes: 3
 keywords: [FedEx risk assessment, supplier risk assessment, supplier onboarding, FedEx]
 breadcrumb: [FedEx Dataworks Integration, Integrate, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
 
-# Evaluate supplier risk using FedEx Dataworks risk assessment
+# Evaluate supplier risk using FedEx Dataworks
 
 FedEx Dataworks risk assessment returns logistics-based risk factor ratings for a matched supplier, helping relationship managers evaluate supplier risk during onboarding.
 
 ## Before you begin
 
-Role required: sn\_slm.manager
+FedEx Dataworks risk assessment is available only for suppliers that have a FedEx Dataworks Supplier ID. If supplier validation was not completed or returned no result, the risk assessment option is read-only and cannot be selected.
 
-FedEx Dataworks risk assessment is available only for suppliers that have a FedEx Dataworks Supplier ID. If supplier validation was not completed or returned no result, the risk assessment option is read-only and can't be selected.
+The risk assessment template must be available on your instance. Your administrator must run the **Trigger FedEx Risk Assessment template pull - \[Monthly\]** scheduled job at least once after installing the **S2P Integration FedEx Connector**. For more information, see [Install the S2P Integration FedEx Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/install-fedex-connector.md).
+
+Role required: sn\_slm.manager
 
 ## About this task
 
@@ -33,19 +35,19 @@ In the supplier onboarding playbook, FedEx Dataworks risk assessment is availabl
 
 **FedEx Dataworks risk factor ratings**: Each risk factor is rated High, Medium, or Low. Ratings are color-coded: High is displayed in red, Medium in yellow, and Low in green.
 
-**Risk assessment template**: A scheduled job runs on a monthly cycle to retrieve the latest risk assessment template from FedEx Dataworks. The template defines which risk factors are returned for any supplier assessment that month. The template applies to all suppliers globally for that month and is not supplier-specific.
+**Risk assessment template**: The **Trigger FedEx Risk Assessment template pull - \[Monthly\]** scheduled job runs on the first day of each month to retrieve the latest risk assessment template from FedEx Dataworks. The template defines which risk factors are returned for any supplier assessment that month. The template applies to all suppliers globally for that month and is not supplier-specific.
 
 ## Procedure
 
 1.  In the supplier onboarding playbook, when you reach the **Select risk assessments** step in the **Qualification** stage, select the **FedEx Dataworks Risk Assessment** check box to opt in.
 
-    \[Omitted image "fedex-risk-assessment-select.png"\] Alt text: Select FedEx Risk Assessment
+    \[Omitted image "fedex-risk-assessment-select.png"\] Alt text: Select FedEx Dataworks Risk Assessment
 
 2.  Select **Run selected Assessments**.
 
     \[Omitted image "fedex-risk-assessment-run.png"\] Alt text: Running selected risk Assessment message
 
-    An outbound request is sent to FedEx Dataworks for risk evaluation. Results are returned and displayed in the playbook within seconds.
+    The system sends an outbound request to FedEx Dataworks for risk evaluation. Results are returned and displayed in the playbook within seconds.
 
 3.  View the risk evaluation results.
 
@@ -73,7 +75,7 @@ Indicates if the given supplier address is in a restricted or sanctioned country
 
 </td><td>
 
-Boolean \( Restricted=1, Unrestricted=0\)
+Boolean \( Restricted=1, Not Restricted=0\)
 
 </td></tr><tr><td>
 
@@ -110,7 +112,7 @@ Percentile
 
 [Install the S2P Integration FedEx Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/install-fedex-connector.md)
 
-[Validate supplier using FedEx Dataworks supplier validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/fedex-supplier-validation.md)
+[Validate supplier using FedEx Dataworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/fedex-supplier-validation.md)
 
 [View supplier metrics using FedEx Dataworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/fedex-supplier-performance-benchmarking.md)
 

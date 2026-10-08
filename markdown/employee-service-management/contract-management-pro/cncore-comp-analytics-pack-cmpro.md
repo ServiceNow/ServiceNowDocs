@@ -103,6 +103,8 @@ Provides an immediate insight from your existing contract request data.
 
 [Contract request State and Contract document status in Contract Management Pro]()
 
+[Amendment and renewal interaction messages]()
+
 [Signatory roles]()
 
 [Clause Variation form]()
@@ -126,6 +128,10 @@ Provides an immediate insight from your existing contract request data.
 [Contract Analysis Playbook form]()
 
 [Contract analysis playbook tool messages]()
+
+[Contract request ticket page actions]()
+
+[Default availability of out-of-the-box record producers]()
 
 [Contract Management Pro glossary]()
 

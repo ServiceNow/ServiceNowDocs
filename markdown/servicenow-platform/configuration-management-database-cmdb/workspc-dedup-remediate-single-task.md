@@ -47,15 +47,15 @@ Role required:
 
 6.  In the Remediate dialog box, choose which method you want to use for remediation, and then select **Remediate**.
 
-<table id="choicetable_khq_wpd_fzb"><thead><tr><th align="left" id="d269200e209">
+<table id="choicetable_khq_wpd_fzb"><thead><tr><th align="left" id="d269907e209">
 
 Choice
 
-</th><th align="left" id="d269200e212">
+</th><th align="left" id="d269907e212">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d269200e218">
+</th></tr></thead><tbody><tr><td id="d269907e218">
 
 **Use the Duplicate CI Remediator**
 
@@ -65,7 +65,7 @@ Use the Duplicate CI Remediator built on Core UI to remediate the task.
 
  To continue with this choice of remediation, see [Remediate a de-duplication task \(manual\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/reconcile-dup-task.md).
 
-</td></tr><tr><td id="d269200e240">
+</td></tr><tr><td id="d269907e240">
 
 **Use the Duplicate CI Remediator \(AI\)**
 
@@ -75,7 +75,7 @@ Use the De-duplication task resolution assistant skill to make suggestions for t
 
  The De-duplication task resolution assistant skill skips directly to the final dashboard of the Duplicate CI Remediator where you can review the selections made by the skill.
 
-</td></tr><tr><td id="d269200e258">
+</td></tr><tr><td id="d269907e258">
 
 **Use the Duplicate CI Remediator in Restricted Mode**
 
@@ -85,7 +85,7 @@ Appears only if the **glide.duplicate\_ci\_remediator.enable\_restricted\_mode**
 
  To continue with this choice, see [Remediate a de-duplication task \(manual\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/reconcile-dup-task.md). Skip to step \#5 in the procedure.
 
-</td></tr><tr><td id="d269200e290">
+</td></tr><tr><td id="d269907e290">
 
 **Remediate using a template**
 

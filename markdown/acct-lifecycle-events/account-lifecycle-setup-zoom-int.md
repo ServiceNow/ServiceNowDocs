@@ -5,7 +5,7 @@ locale: en-us
 canonical_url: https://www.servicenow.com/docs/r/australia/acct-lifecycle-events/account-lifecycle-setup-zoom-int.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [Customer success, Configure, Customer Success Management]
 ---

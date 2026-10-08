@@ -19,6 +19,8 @@ Use the IT Service Management AI agents within an agentic workflow to complete t
 
 ## Agentic workflows in IT Service Management
 
+For a list of IT Service Management AI agents, see [IT Service Management AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/itsm-ai-agents-overview.md).
+
 <table id="table_lxk_lck_h2c"><thead><tr><th>
 
 Product

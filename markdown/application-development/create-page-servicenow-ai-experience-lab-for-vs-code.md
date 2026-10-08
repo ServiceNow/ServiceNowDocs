@@ -81,7 +81,7 @@ ServiceNow SDK
 
 </td><td>
 
-4.10 or later
+4.12.1 or later
 
 </td><td>
 
@@ -128,6 +128,8 @@ ServiceNow instance
 4.  Enter a URL route for the new page and select the Enter key.
 
     After entering the URL route, the ServiceNow Lux Lab for VS Code extension creates the folder and page file using the information you provided.
+
+    \[Omitted image "servicenow-lux-lab-vs-code-page-folder.png"\] Alt text: The pages folder showing a new page subfolder containing page.js.
 
 
 ## Result

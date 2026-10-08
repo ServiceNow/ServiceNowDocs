@@ -66,15 +66,15 @@ To become familiar with the process before handling more complex operations, you
 
     When you apply a filter to the list and then select All, the download includes only the records that match the filter.
 
-<table id="choicetable_agc_y2k_fdc"><thead><tr><th align="left" id="d40994e255">
+<table id="choicetable_agc_y2k_fdc"><thead><tr><th align="left" id="d41381e255">
 
 Step
 
-</th><th align="left" id="d40994e258">
+</th><th align="left" id="d41381e258">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d40994e264">
+</th></tr></thead><tbody><tr><td id="d41381e264">
 
 **Export to excel**
 
@@ -82,7 +82,7 @@ Description
 
 When making a download request for records related to Assessments, Branches, Contracts, Functions, Legal Entities, Supply Chains, Third Parties, or Third-Party Engagements, select **Export to Info Excel**. Export those records as a Microsoft Excel file.
 
-</td></tr><tr><td id="d40994e282">
+</td></tr><tr><td id="d41381e282">
 
 **Export to info register**
 
@@ -162,15 +162,15 @@ When making a download request for a Third-Party Information Register record, se
 
 13. To export Excel download/upload requests, select the requests you want and then **Export**.
 
-<table id="choicetable_zpm_dmr_xcc"><thead><tr><th align="left" id="d40994e569">
+<table id="choicetable_zpm_dmr_xcc"><thead><tr><th align="left" id="d41381e569">
 
 Step
 
-</th><th align="left" id="d40994e572">
+</th><th align="left" id="d41381e572">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d40994e578">
+</th></tr></thead><tbody><tr><td id="d41381e578">
 
 **Select __File Type__.**
 
@@ -182,7 +182,7 @@ File type selected for the export. Available choices are:-   **Excel**
 -   **PDF**
 
 
-</td></tr><tr><td id="d40994e608">
+</td></tr><tr><td id="d41381e608">
 
 **Select __Delivery Type__.**
 
@@ -192,7 +192,7 @@ Delivery type selected for the export. Available choices are:-   **Download**
 -   **Email**
 
 
-</td></tr><tr><td id="d40994e630">
+</td></tr><tr><td id="d41381e630">
 
 **Select __Export.__**
 

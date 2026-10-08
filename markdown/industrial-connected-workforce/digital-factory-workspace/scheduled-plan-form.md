@@ -34,28 +34,11 @@ Name for the standard schedule plan.
 
 </td></tr><tr><td>
 
-Schedule type
-
-</td><td>
-
-Type of schedule. Options are:-   Custom
--   Template
-
-</td></tr><tr><td>
-
 Table
 
 </td><td>
 
 Type of standard. This field is automatically set and can’t be edited.
-
-</td></tr><tr><td>
-
-Schedule
-
-</td><td>
-
-Schedule template that is used for the schedule plan. This field is required if the Schedule type field is set to Template.
 
 </td></tr><tr><td>
 

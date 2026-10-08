@@ -46,7 +46,7 @@ Flow generation supports a limited number of trigger types. You can use text dir
 
 ## General guidelines
 
-Follow these general guidelines when writing Now Assist directions.
+Follow these general guidelines when writing AI directions.
 
 -   **Always describe the trigger first**
 

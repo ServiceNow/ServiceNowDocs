@@ -42,8 +42,8 @@ With Feedback, you can:
 |Create or submit feedback from the Microsoft Outlook directly without disturbing the workflow.|[Submit feedback from Microsoft Outlook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/product-feedback/create-feedback-from-outlook.md)|pf\_user|
 |Configure the non-planning items that you want to link with the feedback or product idea without having to switch between related items.|[Configure non-planning items for feedback or product ideas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/product-feedback/config-items-sp.md)|admin|
 |Configure filters for feedback or product idea overview page to get information based on your preference.|[Filter configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/product-feedback/configure-feedback-or-idea-overview-page.md)|admin|
-|Generate concise and informative summary of customer feedback using Now Assist for SPM.||pf\_user|
-|Generate a summary of selected text using Planning item Gen AI Docs skill.|[Summarize content with Planning Item Doc Summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/product-feedback/summarize-docs-genai-skill-pf.md)|pf\_user|
+|Generate concise and informative summary of customer feedback using AI.| |pf\_user|
+|Generate a summary of selected text using Planning item Gen AI Docs skill.|[Summarize content with the doc summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/product-feedback/summarize-docs-genai-skill-pf.md)|pf\_user|
 
 **Related topics**  
 

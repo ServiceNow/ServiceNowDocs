@@ -23,7 +23,7 @@ The following are three dashboards are available in the Enterprise Architecture 
 For guidance on using the dashboards in Enterprise Architecture Workspace, see [Working with Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-work-with-dashboards.md).
 
 -   **[Explore the Enterprise Architecture Workspace dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-workspace-dashboard.md)**  
-The Enterprise Architecture Workspace dashboard provides a summary of the business and application portfolio of your organization. It’s arranged according to different portfolios such as the application portfolio, technology portfolio, information portfolio, and so on.
+The Enterprise Architecture Workspace dashboard provides a summary of the business and application portfolio of your organization. It’s arranged according to different portfolios such as the application portfolio, technology portfolio, and information portfolio.
 -   **[Explore the Application Assessments dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-working-with-the-applications-assessment-dashboard.md)**  
 The Application Assessments dashboard is a responsive dashboard that provides a complete view of applications.
 -   **[Explore the Application 360 dashboard in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-working-with-application-360-dashboard-in-enterprise-architecture-workspace.md)**  

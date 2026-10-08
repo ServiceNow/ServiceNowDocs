@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio
 release: australia
 topic_type: task
 last_updated: "2026-05-26"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
@@ -41,6 +41,9 @@ Example questions:
 -   List top-level capabilities
 -   List business applications not assigned to capabilities
 -   List applications that are candidates for retirement
+-   Which business capabilities are impacted if a specific database fails?
+-   Which entities are affected by a failure of a specific server or storage device?
+-   Which servers and databases support a business application?
 
 ## Procedure
 
@@ -66,6 +69,8 @@ Example questions:
 
     If the response references a specific record, such as a business application or a capability, the record name appears as linked text. Select the linked text to open that record directly in Enterprise Architecture Workspace.
 
+    If you ask about an infrastructure CI and more than one CI matches the name that you entered, the response lists the matching CIs with their class. Specify the CI that you want in your next message to continue.
+
 
 ## Result
 
@@ -87,4 +92,6 @@ The Enterprise Architecture query agent returns a structured answer based on you
 [Configure ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/configure-now-assist-ea.md)
 
 [ServiceNow Otto for Enterprise Architecture \(EA\) access roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/sn-otto-access-roles.md)
+
+[Access Enterprise Architecture data using MCP tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/access-ea-data-using-mcp-tools.md)
 

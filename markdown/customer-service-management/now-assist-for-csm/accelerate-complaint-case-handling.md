@@ -26,6 +26,8 @@ To install the AI agents and skills for the AI Agents for CSM - Complaint Case a
 
 For more information on configuring the AI Agents for CSM - Complaint Case agentic workflow, see [Configure AI Agents for CSM - Complaint Case workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/now-assist-for-csm/acc-complaint-case-handling-agentic-wkfl.md).
 
+The complaint case research agent is also embedded directly in the [Case Playbook for Complaints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/csm-playbook-complaint-overview.md) as the **Research AI agent** activity, which is the first activity in the Research stage. For more information, see [Use the Research AI agent activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/now-assist-for-csm/acc-complaint-case-handling-research-activity.md).
+
 <table id="table_bst_k4t_mhc"><thead><tr><th>
 
 Agent

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/default-and-target-model-model-version.html
 release: australia
 topic_type: reference
-last_updated: "2026-01-28"
+last_updated: "2026-09-16"
 reading_time_minutes: 1
 breadcrumb: [AI Admin Hub reference, AI Admin Hub, Enable AI experiences]
 ---
@@ -16,7 +16,11 @@ Model version is the large language model version a skill uses to route requests
 
 ## Updating the target model version at the instance level
 
-**Note:** A model version will not be available for selection as target model version, if it is in deprecated, retired, in review or rejected state.
+**Note:**
+
+-   Model versions in the following states aren't available for selection: deprecated, retired, in review, rejected.
+-   Confirm that the model name you enter exactly matches the name configured in your external provider's console. A mismatch may cause the provider configuration to fail.
+-   Confirm that network access to the provider endpoint is allowed by your instance's proxy or firewall rules.
 
 A default mapping of default and target model version is pre-configured. If you update the target model version for a selected default model version, all the associated skills with this version mapping at the current instance level, get impacted.
 

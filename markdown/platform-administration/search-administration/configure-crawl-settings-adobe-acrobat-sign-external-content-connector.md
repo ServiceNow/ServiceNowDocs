@@ -37,7 +37,7 @@ When a connector's indexed content item count exceeds 800,000, a warning message
 
 External content connectors that support user permissions crawls can handle permissions for up to five hundred thousand \(500,000\) users and their groups. If a connector retrieves users in excess of this limit, user and group permissions may not be correctly applied to the connector's retrieved content. As a result, the content may not be searchable.
 
-If one of your connectors reaches the content indexing limit, you can update its crawl settings and file inclusion/exclusion filters to reduce the number of content items it retrieves. Alternatively, if you need a connector to index more than 1,000,000 content items, you can create a Customer Service and Support case at [https://support.servicenow.com/now](https://support.servicenow.com/now) to request a limit increase for the connector.
+If one of your connectors reaches the content indexing limit, you can update its crawl settings and file inclusion/exclusion filters to reduce the number of content items it retrieves. If you need to index more content items than the limit allows, you can create a Customer Service and Support case at [https://support.servicenow.com/now](https://support.servicenow.com/now) to request a limit increase for the connector.
 
 ## Procedure
 
@@ -60,7 +60,7 @@ If one of your connectors reaches the content indexing limit, you can update its
 
         As an example, you might enter `Approved` to only retrieve searchable content from agreements with this status.
 
-    -   To crawl agreements with all but a specified set of statuses from the source system, select **Exclude only these statuses**, then use the **Statuses to exclude** field enter statuses you want the connector to exclude when crawling.
+    -   To crawl agreements with all but a specified set of statuses from the source system, select **Exclude only these statuses**, then use the **Statuses to exclude** field to enter statuses you want the connector to exclude when crawling.
 
         As an example, you might enter `Cancelled` to exclude searchable content from agreements with this status.
 

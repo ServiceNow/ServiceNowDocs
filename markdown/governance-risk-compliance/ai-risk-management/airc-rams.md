@@ -7,7 +7,7 @@ release: australia
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: concept
-last_updated: "2026-06-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [risk assessment methodologies, RAM, AI Risk and Compliance, risk classification]
 breadcrumb: [AI governance life cycle, Explore, AI Risk and Compliance, Governance, Risk, and Compliance]
@@ -57,9 +57,7 @@ Classifies AI systems by regulatory risk level based on factors captured during 
 
 </td><td>
 
-During intake screening or early assessment to determine initial regulatory risk classification. When configured and applied to the AI use case request form, this RAM evaluates responses in the Use and Purpose section and assigns a risk classification such as High, Medium, Low, or Unacceptable.
-
- If the AI Risk and Compliance admin doesn't complete the required configuration steps, the classification defaults to **To Be Determined**.
+During intake screening or early assessment to determine initial regulatory risk classification.
 
 </td></tr><tr><td>
 
@@ -75,7 +73,7 @@ Automatically assigns an initial regulatory risk classification based on Use and
 
 </td><td>
 
-During intake when automated screening is enabled.
+During intake when automated screening is enabled.When configured and applied to the AI use case request form, this RAM evaluates responses in the Use and Purpose section and assigns a risk classification such as High, Medium, Low, or Unacceptable.
 
 </td></tr><tr><td>
 
@@ -123,8 +121,6 @@ When models or datasets require independent governance evaluation. Unlike AI sys
 Administrators can configure which risk assessment methodologies \(RAMs\) are applied during intake, assessment, and risk evaluation workflows.
 
 Configuration options include specifying default RAMs for AI systems, models, and datasets, and enabling automated or advanced risk calculation behavior.
-
-To configure the default RAM for AI system risk classification at intake, set the `sn_grc_ai_gov.ai_system_risk_classification_ram` property.
 
 To configure automated risk classification during intake, specify the `sn_grc_ai_gov.ai_system_automated_risk_classification_asmt_ram` property.
 

@@ -512,6 +512,8 @@ Build a large streaming JSON payload to use in a REST or SOAP request to send bu
 Create a builder object used to build a large streaming JSON payload to use in a REST or SOAP request to send bulk data to a third-party API. You can also create the payload as a JSON string for a non-streaming option.
 -   **[JSUtil - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/c_JSUtilAPI.md)**  
 The JSUtil script include provides shortcuts for common JavaScript routines.
+-   **[KafkaProducerAPI - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/KafkaProducerAPIScoped.md)**  
+The KafkaProducerAPI provides a method to produce messages from server-side scripts to an Apache Kafka topic.
 -   **[KMFCryptoOperation - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/KMFCryptoOperationBothAPI.md)**  
 The KMFCryptoOperation class provides methods for performing cryptographic operations, including JSON Web Token \(JWT\) signing and verification, using the Key Management Framework \(KMF\) cryptographic module or a Field Encryption encryption module.
 -   **[LeadAPIHelperOOB - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/LeadAPIHelperOOBAPI.md)**  

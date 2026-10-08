@@ -7,8 +7,8 @@ release: australia
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 6
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Indexed sources, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -59,7 +59,7 @@ Attachment indexing is controlled by an indexed source's **index\_attachments** 
 
 AI Search can index tags found on source table records. Search results display indexed tags based on the visibility of the result record instead of the visibility of the tag.
 
-By default, indexing ignores tags from source records. You can enable indexing of tags for each indexed source. Choose whether you want to index all shared and globally visible tags or just globally visible tags.
+By default, indexing ignores tags from source records. You can enable indexing of tags for each indexed source. Choose whether to index all shared and globally visible tags or just globally visible tags.
 
 For details on enabling tag indexing for an indexed source, see [Enable indexing of tags for an AI Search indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/enable-tag-indexing-ais.md).
 
@@ -72,7 +72,7 @@ When defining an indexed source that indexes records from the Task table or any 
 You must perform a full table reindex for an indexed source under the following circumstances:
 
 -   After you add, modify, or delete an indexed source attribute or a field setting for the indexed source.
--   If you want to update indexed values for fields on tables referenced by source table records. As an example, the **company** field on the User \[sys\_user\] table stores a reference to the Company \[core\_company\] table. If you configure indexing for values for fields on the referenced Company table, such as **city** or **website**, you must reindex the User table to update those indexed Company table field values. For details on configuring indexing of referenced table fields, see [Enable indexing of referenced table fields for an AI Search indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/enable-ref-table-field-index-ais.md).
+-   To update indexed values for fields on tables referenced by source table records. As an example, the **company** field on the User \[sys\_user\] table stores a reference to the Company \[core\_company\] table. If you configure indexing for values for fields on the referenced Company table, such as **city** or **website**, you must reindex the User table to update those indexed Company table field values. For details on configuring indexing of referenced table fields, see [Enable indexing of referenced table fields for an AI Search indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/enable-ref-table-field-index-ais.md).
 
 -   **[Perform a full table index or reindex for a single AI Search indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/index-single-source-ais.md)**  
 Make content from an internal indexed source searchable by performing a full table index. This procedure indexes existing records from the source table and any child tables configured for indexing. You can manually reindex content from an internal indexed source by repeating this procedure.

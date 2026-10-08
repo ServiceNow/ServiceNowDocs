@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Add and configure the Retail KPI widget, Set up Retail Portal, Configure, Retail]
+breadcrumb: [Add and configure the Retail KPI widget, Configure, Retail]
 ---
 
 # Retail KPI JSON parameters

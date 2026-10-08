@@ -1,5 +1,5 @@
 ---
-title: Convert and aggregate contractual expenses to regulator-required currencies
+title: Aggregate contractual expenses in required currencies
 description: Convert and aggregate contractual expenses to regulator-required currencies and generate consolidated reports for reporting submission.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/third-party-risk-management/tprm-create-report-aggregate-expenses.html
@@ -7,12 +7,12 @@ release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Currency conversion and third-party total expense aggregation, Use digital resilience third-party registers, Third-party Risk Management, Governance, Risk, and Compliance]
+breadcrumb: [Currency conversion and third-party expense aggregation, Use digital resilience third-party registers, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
 
-# Convert and aggregate contractual expenses to regulator-required currencies
+# Aggregate contractual expenses in required currencies
 
 Convert and aggregate contractual expenses to regulator-required currencies and generate consolidated reports for reporting submission.
 
@@ -54,9 +54,11 @@ Administrators maintain the currency rates and validation rules. Currency rates 
 
 13. Fill in the same entity configuration with currency conversion and aggregation settings and save the CSV package request to initiate asynchronous processing.
 
-14. Monitor the Result section for processing messages including validation completion and package generation status and download the generated attachments including the Consolidated\_Reports.zip and the main CSV reporting package file once processing completes.
+14. Monitor the Result section for processing messages, including validation completion and package generation status.
 
-15. Open the CSV file to review the structured data formatted for regulatory reporting.
+15. After processing completes, download the generated attachments, including the Consolidated\_Reports.zip and the main CSV reporting package file.
+
+16. Open the CSV file to review the structured data formatted for regulatory reporting.
 
     If any providers were ineligible for aggregation, the aggregation summary and detail reports identify those providers and explains the reason they were skipped.
 

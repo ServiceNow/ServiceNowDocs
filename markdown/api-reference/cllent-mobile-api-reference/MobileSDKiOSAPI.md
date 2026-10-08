@@ -8,7 +8,7 @@ product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 4
 breadcrumb: [Mobile SDK API reference, API reference, API implementation and reference]
 ---
 
@@ -104,8 +104,6 @@ The NowWebViewController class provides functions that enable you to manage a we
 The NowWebViewControllerDelegate protocol provides callbacks for notification of issues within the NowWebViewController processing such as when a flow ends or a navigation fails.
 -   **[Paginator API - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/PaginatorIOSAPI.md)**  
 The Paginator class provides methods for iterating through a record set returned by a call to the ServiceNow Table API through the NowTableService. It is the object that is returned by the NowTableService paginator\(\) methods. Do not call this method outside of that environment.
--   **[SNMobileAnalytics API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/SNMobileAnalytics.md)**  
-The SNMobileAnalytics API provides methods that you can call within a WebView using JavaScript. These methods enable you to push custom analytics data \(events, pages, and user properties\) to the Usage Insights for Service Portal dashboard.
 
 **Parent Topic:**[Mobile SDK API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/cllent-mobile-api-reference/api-mobile_sdk.md)
 

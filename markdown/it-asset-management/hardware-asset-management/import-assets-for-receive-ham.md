@@ -38,6 +38,7 @@ The asset data validation takes care of the following points:
     -   The asset quantity is valid.
     -   The Source type and Source ticket details are valid.
 -   Asset from purchase order lines can be received only in Zurich and later releases.
+-   Asset whose model doesn't match the model in the purchase order line can't be received.
 -   Asset bundles can't be received.
 
 ## Procedure

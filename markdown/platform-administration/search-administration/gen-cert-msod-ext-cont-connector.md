@@ -7,7 +7,7 @@ release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Microsoft OneDrive external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
@@ -64,7 +64,7 @@ To configure public/private key pair authentication for the connector, you need 
 
     5.  When prompted for a key password, press Enter to use the same password you specified for the keystore file.
 
-        **Important:** The key must use the same password as the keystore. Record this password in a secure location. Your connector administrator needs this password when configuring the Microsoft Teams external content connector.
+        **Important:** The key must use the same password as the keystore. Record this password in a secure location. Your connector administrator needs this password when configuring the Microsoft OneDrive external content connector.
 
     The keytool utility generates a new Java KeyStore \(.jks\) file containing your public/private key pair.
 

@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experienc
 release: australia
 topic_type: concept
 last_updated: "2026-08-25"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, use]
 breadcrumb: [AI Control Tower, Enable AI experiences]
 ---
@@ -28,4 +28,12 @@ The **Inventory** page is designed to give you a complete picture of every AI as
 ## AI asset records
 
 The asset record is where you investigate and act on a single asset. In the asset record, you can review the asset's governance posture, evaluation scores, lifecycle progress, and value contribution. You can initiate asset-level actions such as starting a lifecycle review, submitting a change request, or turning on evaluation. See [Working with AI asset records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/disc-managing-ai-assets.md).
+
+## Connecting external AI through AI Gateway
+
+AI Gateway manages MCP \(Model Context Protocol\) server connections, providing a governed pathway for external AI tools to interact with your ServiceNow environment. Where Service Graph Connectors focus on discovering what AI exists externally, AI Gateway focuses on governing how external AI tools connect to and operate within your platform.
+
+When an MCP server is added through AI Agent Studio, AI Gateway tracks the connection, monitors transaction volumes and success rates, and enforces approval workflows if MCP server approval controls are active. AI stewards can review MCP server records, pause and resume transactions, and manage global MCP clients from the AI Gateway settings page.
+
+AI Gateway provides a comprehensive view of all connected MCP servers, showing name, total transactions, and success rate. Total transactions represent all tool calls \(MCP method equal to "tools/call"\), and the success rate reflects the proportion of those calls returning a successful HTTP status.
 

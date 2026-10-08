@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/review-ai-system-value-and-engagement-data.html
 release: australia
 topic_type: task
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [Use, Measure AI system, Measure AI systems, AI Control Tower, Enable AI experiences]
 ---
@@ -19,7 +19,7 @@ Review productivity gains, cost savings, and engagement results for AI systems. 
 -   You must have the AI steward role or the product owner role. Users without one of these roles can't open AI Control Tower.
 -   If you have the product owner role, at least one AI system must list you in the **Managed by** field.
 
-Role required: sn\_ai\_governance\_ai\_steward or the product owner \(sn\_ai\_governance\_ai\_asset\_owner\)
+Role required: sn\_ai\_governance.ai\_steward or the product owner \(sn\_ai\_governance\_ai\_asset\_owner\)
 
 ## About this task
 

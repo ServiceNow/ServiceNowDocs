@@ -1,56 +1,94 @@
 ---
-title: Contract and amendment requests
-description: Contract Management Pro supports initiation of self-served contract requests, non-self-served contract requests, and amendment requests
+title: Contract, amendment and renewal requests
+description: Contract Management Pro supports initiation of Own paper and Third-Party paper based new contract, amendment and renewal requests.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-expl-ss-nss-contracts.html
 release: australia
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-10-06"
+reading_time_minutes: 3
 keywords: [Own paper contract, Third party paper contract, Self-served contract, Non-self served contract, Contract templates]
 breadcrumb: [Explore, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
-# Contract and amendment requests
+# Contract, amendment and renewal requests
 
-Contract Management Pro supports initiation of self-served contract requests, non-self-served contract requests, and amendment requests
+Contract Management Pro supports initiation of Own paper and Third-Party paper based new contract, amendment and renewal requests.
 
-The main difference between self-served and non-self-served contract requests is the use of own paper or third-party paper for generating contract documents.
+## Contract requests
 
-## Self-served contract requests
+Contract requests are either standalone or linked to a parent record.
 
-Self-served contract requests are fulfilled using the contract templates that are based on the company's own paper. Using contract templates, you save time and the manual work of filling out contract documents or standard letters from again for each request. In addition, contract templates ensure that the company’s contract guidelines are followed maintaining consistency. For example, you can create a contract template for a non-disclosure agreement to generate a non-disclosure agreement contract document. For more information, see [Use self-served contract request]().
+-   **Standalone requests**
 
-## Non-self-served contract requests
+    Contract requests initiated directly without a parent record. Entry points include the Contract Workspace, contract request listing pages, the Employee Center, and business unit workspaces.
 
-Non-self-served contract requests don’t use contract templates to generate contract documents but you can submit third-party paper contract documents for review. You don't need to create and configure any contract templates for third-party paper contract requests. Non-self-served contract requests support review of multiple contract and supporting documents from a single request. For more information, see [Use non-self-served contract request]().
+-   **Parent-linked requests**
 
-## Amendment requests
+    Contract requests tied to a business unit entity. Entry points include purchase requisitions and sourcing events.
 
-Amendment requests enable you to amend an existing contract by adding, removing, or updating terms, without the need to replace the entire contract.
 
-The amendment workflow supports both own-paper and third-party amendment requests. While submitting an amendment request, you can select the **Type of paper** from the intake form.
+Regardless of the entry point, you can submit a new contract, amendment, or renewal request using own paper or third-party paper workflows.
 
-For more information, see [Contract amendments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-amend-landing.md).
+## Request types
 
-You can initiate an amendment request from your workspace using the **Initiate contract** modal.
+-   **New contract requests**
 
-**Note:** Third-party amendments are supported only for single contract types.
+    Submit a request to create a new contract.
 
-## Distinguish contract and amendment request
+-   **Amendment requests**
 
-The field, **Request type**, differentiates contract and amendment requests. For amendment request the value is **Amendment** and for contract request it’s **New contract**.
+    Modify, add, or remove specific terms or clauses in an active contract due to business or regulatory changes. Amendment requests can only be submitted for contracts in the Active state. If a contract is in Draft state, approve it before submitting an amendment request. The amendment request is automatically linked to the original contract.
 
-The Request type field is displayed in the contract details and list view pages making it easy to differentiate between the two request types.
+-   **Renewal requests**
 
-\[Omitted image "cmpro-amend-req-type-field.png"\] Alt text: Request type field to differentiate between contract and amendment request
+    Extend a contract that is approaching or past its expiration date, with the option to update terms. You can submit a renewal request for an expired or active contract with an end date. The renewal request is automatically linked to the previous contract.
 
-\[Omitted image "cmpro-amend-list-reqtype.png"\] Alt text: Request type field to distinguish between contract and amendment request.
 
-This field is also available in the following base system configurations \(when demo data is installed\) to indicate whether the configuration applies to a contract or an amendment request:
+Both amendment and renewal workflows support own paper and third-party paper requests. While submitting a request, select the **Type of paper** from the intake form.
 
--   Contract template rule
--   Contract configuration
+**Note:** Third-party amendments and renewals are supported only for contract requests with a single contract type. Multi-contract type requests aren't supported.
+
+For more information, see:
+
+-   [Contract amendments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-amend-landing.md)
+-   [Contract renewals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-renewal-landing.md)
+
+The **Request type** field identifies the request as **New contract**, **Amendment**, or **Renewal**. The field appears in the contract details and list view pages.
+
+\[Omitted image "cmpro-amend-req-type-field.png"\] Alt text: Request type field in the contract details page
+
+\[Omitted image "cmpro-amend-list-reqtype.png"\] Alt text: Request type field in the contract list view
+
+The **Request type** field is also available in the following base system configurations \(when demo data is installed\) to indicate whether the configuration applies to a new contract, amendment, or renewal request:
+
+-   Contract Template Rules
+-   Contract Configurations
+
+## Types of paper supported
+
+-   **Own paper**
+
+    Own paper contract requests use contract templates based on the company's own paper. Templates save time, reduce manual drafting, and help maintain consistency with the company's contract guidelines. For example, you can create a template to generate a non-disclosure agreement. For more information, see [Own paper contract requests]().
+
+-   **Third-party paper**
+
+    Third-party paper contract requests don't use contract templates. You can submit third-party contract documents for review without creating or configuring templates. A single request supports review of multiple contract and supporting documents. For more information, see [Third-Party paper contract request]().
+
+
+## Parallel amendment and renewal requests
+
+You can submit both amendment and renewal requests for the same contract, and both are processed in parallel without blocking each other.
+
+When both requests are active on the same contract, review the following to avoid conflicts:
+
+-   Contract dates to prevent overlapping effective periods between the amended contract and the renewed contract
+-   Terms and pricing changes in both requests
+-   Effective dates and expiration dates
+
+You must manually reconcile any conflicts between the amended original contract and the renewed contract.
+
+For more information about how amendment and renewal requests interact, see [Amendment and renewal interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-amend-renewal-int.md).
 

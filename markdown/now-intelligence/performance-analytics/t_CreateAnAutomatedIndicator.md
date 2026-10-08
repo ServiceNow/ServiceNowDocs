@@ -35,10 +35,8 @@ This form provides all the many options for creating an automated indicator. To 
 
 ## Procedure
 
-1.  Use one of the following navigation paths:
+1.  Navigate to **All** &gt; **Platform Analytics Administration** &gt; **Indicators** &gt; **Automated Indicators** and select **New**.
 
-    -   If you are on an upgraded instance that hasn’t migrated to Platform Analytics, navigate to **All** &gt; **Performance Analytics** &gt; **Indicators** &gt; **Automated Indicators** and select **New**.
-    -   If you are on a new instance or have migrated to Platform Analytics, navigate to **All** &gt; **Platform Analytics Administration** &gt; **Indicators** &gt; **Automated Indicators** and select **New**.
 2.  In the **Name** field, give the indicator a descriptive name, such as Number of Critical Incidents.
 
 3.  Add a meaningful **Description** to help other users understand the purpose of this indicator.
@@ -176,7 +174,7 @@ The value that is inserted as the score when no value is collected. This value i
 
 [Create an indicator group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/t_CreatingIndicatorGroups.md)
 
-[Collect and manage a matrix of breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/create-breakdown-mapping.md)
+[Collect and manage a matrix of breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/configure-breakdown-matrix.md)
 
 ## Advanced indicator settings
 
@@ -312,7 +310,7 @@ When selected, the Analytics Hub and KPI Details show unbroken data lines for th
 
  Continuous lines aren’t rendered when a time series is set on the indicator or the Analytics Hub or KPI Details.
 
-</td></tr><tr><td>
+</td></tr><tr id="row_show-real-time-scores"><td>
 
 Show real-time score
 
@@ -335,12 +333,16 @@ When selected, the Analytics Hub and KPI Details can show the score of this indi
 
 5.  In the **Collect breakdown matrix fields** tab, you can enable second-level breakdowns for the indicator, such as Open Incidents by Category by Priority.
 
-    Enabling second-level breakdowns can significantly impact performance. For more information, see [Collect and manage a matrix of breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/create-breakdown-mapping.md).
+    Enabling second-level breakdowns can significantly impact performance. For more information, see [Collect and manage a matrix of breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/configure-breakdown-matrix.md).
 
 6.  In the **Collection periods** tab, override the properties that set the maximum number of periods prior to today for which scores and snapshots are collected and kept.
 
-7.  In the **Forecasting** tab, set the forecast method, the number of data collection periods to forecast, the amount of historical data to base the forecast on, and the upper and lower limits of forecast values.
+7.  In the **Forecasting** tab, set the following fields:
 
+    -   Forecast method
+    -   The number of data collection periods to forecast
+    -   The amount of historical data to base the forecast on
+    -   The upper and lower limits of forecast values
     For more information, see [Performance Analytics scores forecasts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_ForecastingData.md).
 
 8.  In the **Statistics exclusion** tab, select any statistics that you do not want to show on KPI Details or the Analytics Hub.

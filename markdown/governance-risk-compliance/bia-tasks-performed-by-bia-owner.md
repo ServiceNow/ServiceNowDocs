@@ -14,6 +14,10 @@ breadcrumb: [Manage, Business Continuity Management, Governance, Risk, and Compl
 
 Perform the tasks that are outlined in this section to create a business impact analysis in Business Continuity Workspace \(also known as BCM Configurable Workspace\).
 
+\[Omitted video\] Description: An overview of how to update dependencies
+
+This video shows how BCM Managers can use the CMDB as a source to update dependencies in a Business Impact Analysis \(BIA\). The same process applies to Business Continuity Plans \(BCPs\) and events.
+
 Business impact analysis \(BIA\) owner performs these tasks:
 
 -   Create a business impact analysis. For more information, see [Create a business impact analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/create-bia-in-uib-ws.md).

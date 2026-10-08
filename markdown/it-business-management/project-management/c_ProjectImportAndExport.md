@@ -7,7 +7,7 @@ release: australia
 product: Project Management
 classification: project-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-12"
 reading_time_minutes: 3
 breadcrumb: [Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -24,7 +24,7 @@ Create a project or update an existing project by importing the project data fro
 
 While importing a project into your ServiceNow instance, you can also specify the calculation method for calculating project dates. You can import the project tasks with different constraint types using Manual or Automatic calculation. For information about supported constraints and their conversion, see [Project import from Microsoft Project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/project-import-msp.md).
 
-You can create custom fields in your ServiceNow instance and map these fields with your Microsoft Project while importing a project. For more information, see [Create custom field mapping for Microsoft Project import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/map-custom-fields-msp-project.md).
+You can create custom fields in your ServiceNow instance and map these fields with your Microsoft Project while importing a project. For more information, see [Map custom fields for Microsoft Project import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/map-custom-fields-msp-project.md).
 
 You can import project tasks for multiple projects in one time using data files and transform maps. For more information, see [Import project tasks for multiple projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/import-project-tasks-multiple-projects.md).
 
@@ -34,11 +34,11 @@ Some calendar elements are not imported from Microsoft Project into Project Mana
 
 If you have the it\_project\_manager role, you can export project data. The project data, such as project tasks and task constraints, can be exported as an export file. Use this export file to import the projects into other ServiceNow instances.
 
-If you are managing your projects using Microsoft Project, you can export your ServiceNow projects using the export functionality.
+If you're managing your projects using Microsoft Project, you can export your ServiceNow projects using the export functionality.
 
 You can choose to export the project data in MPP, XML, or CSV file formats. For more information, see [Project export to Microsoft Project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/c_ProjectExportToMicrosoftProject.md).
 
-If your project in the ServiceNow instance contains dates with any of the supported constraint types, then these constraints are also exported when you export the project and project tasks. For more information, see [Project export to Microsoft Project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/c_ProjectExportToMicrosoftProject.md).
+If your project in the ServiceNow instance contains dates with any of the supported constraint types, these constraints are also exported. For more information, see [Project export to Microsoft Project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/c_ProjectExportToMicrosoftProject.md).
 
 ## Supported versions
 
@@ -52,7 +52,7 @@ Projects created in the following versions of Microsoft Project can be imported 
 
 -   **[Project field mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/r_ProjectFieldMapping.md)**  
 During an import, values from Microsoft Project overwrite fields in project records.
--   **[Create custom field mapping for Microsoft Project import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/map-custom-fields-msp-project.md)**  
+-   **[Map custom fields for Microsoft Project import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/map-custom-fields-msp-project.md)**  
 Map custom fields from Microsoft Project to ServiceNow fields before importing a project.
 -   **[Project import from Microsoft Project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/project-import-msp.md)**  
 Import Microsoft project files into the ServiceNow Project Management application.

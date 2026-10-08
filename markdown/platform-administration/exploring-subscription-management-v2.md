@@ -73,4 +73,5 @@ To learn more about configuring and using Subscription Management, see:
 -   [Managing custom tables and applications in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/allocating-custom-tables-subscr-apps-v2.md)
 -   [Monitoring capacity subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/monitoring-capacity-subscriptions.md)
 -   [Subscription Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/subscription-management-reference-v2.md)
+-   [Types of subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/types-subscription-v2.md)
 

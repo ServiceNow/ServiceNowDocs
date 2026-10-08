@@ -7,7 +7,7 @@ release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
 topic_type: concept
-last_updated: "2026-08-24"
+last_updated: "2026-10-06"
 reading_time_minutes: 5
 breadcrumb: [Integrate, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
@@ -18,13 +18,22 @@ FedEx Dataworks brings logistics intelligence into Supplier Lifecycle Operations
 
 ## About FedEx Dataworks
 
-FedEx Dataworks combines unmatched, proprietary real-world data signals with advanced analytics to power ServiceNow's Source-to-Pay workflows. Relationship managers can use these signals during supplier onboarding to validate suppliers, evaluate risk, and benchmark supplier performance — without leaving the supplier workspace.
+FedEx Dataworks combines unmatched, proprietary real-world data signals with advanced analytics to power ServiceNow Source-to-Pay workflows. Relationship managers can use these signals during supplier onboarding to validate suppliers, evaluate risk, and benchmark supplier performance — without leaving the supplier workspace.
 
-**Important:** Check your entitlements to determine whether you have access to FedEx Dataworks for Supplier Lifecycle Operations. This integration is available from the Australia September 2026 release onwards.
+**Note:** Check your entitlements to determine whether you have access to FedEx Dataworks for Supplier Lifecycle Operations. This integration is available starting with the Australia September 2026 release.
 
 ## How the FedEx Dataworks integration works
 
-The integration uses an outbound request table owned by the Source-to-Pay integration framework scope. The FedEx Dataworks app on the platform listens to this table and populates responses. No direct API configuration is required on the Supplier Lifecycle Operations side beyond installing the S2P Integration FedEx Connector app.
+The integration uses an outbound request table owned by the Source-to-Pay integration framework scope. The FedEx Dataworks app on the platform listens to this table and populates responses. No direct API configuration is required on the Supplier Lifecycle Operations side to start using the integration beyond installing the S2P Integration FedEx Connector app.
+
+If a request to FedEx Dataworks fails or doesn't receive a response in time, the system retries the request. Retries apply to supplier validation, risk assessment, risk assessment template retrieval, and supplier performance benchmarking requests.
+
+The number of retries and the wait time between them are defined in the script of the **FedEx integration attributes** record in the S2P Custom Configuration table. The script contains the following attributes:
+
+-   **retry\_count**: Number of times the system retries a request before marking it as failed. The default value is 1.
+-   **retry\_timeout\_seconds**: Time, in seconds, that the system waits before retrying a request. The default value is 120.
+
+Administrators can change these values in the script to specify the number of retries and wait time between them.
 
 The integration introduces a new data collection type called Integration for KPI templates and KPIs. This collection type enables automated data retrieval from external sources such as FedEx Dataworks. When you install the S2P Integration FedEx Connector app, demo data is loaded that includes KPI templates configured with the Integration data collection type.
 
@@ -34,11 +43,11 @@ The FedEx Dataworks integration includes the following features:
 
 -   **Supplier validation in supplier onboarding Registration stage**
 
-    Verifies a supplier's details against FedEx Dataworks records to establish a FedEx Dataworks Supplier ID. This step is part of the supplier onboarding playbook and is required before risk assessment or performance benchmarking data can be retrieved. For more information, see [Validate supplier using FedEx Dataworks supplier validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/fedex-supplier-validation.md).
+    Verifies a supplier's details against FedEx Dataworks records to establish a FedEx Dataworks Supplier ID. This step is part of the supplier onboarding playbook and is required before risk assessment or performance benchmarking data can be retrieved. For more information, see [Validate supplier using FedEx Dataworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/fedex-supplier-validation.md).
 
 -   **FedEx Dataworks risk assessment in supplier onboarding Qualification stage**
 
-    Returns risk factor ratings for a matched supplier, covering customs risk, restricted country screening, and dangerous goods risk. Risk assessment is available in the supplier onboarding playbook after a successful supplier match. For more information, see [Evaluate supplier risk using FedEx Dataworks risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/fedex-risk-assessment.md).
+    Returns risk factor ratings for a matched supplier, covering customs risk, restricted country screening, and dangerous goods risk. Risk assessment is available in the supplier onboarding playbook after a successful supplier match. For more information, see [Evaluate supplier risk using FedEx Dataworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/fedex-risk-assessment.md).
 
 -   **Supplier performance benchmarking**
 
@@ -71,12 +80,12 @@ To use FedEx Dataworks for Supplier Lifecycle Operations, install the S2P Integr
 
 -   **[Install the S2P Integration FedEx Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/install-fedex-connector.md)**  
 Install the S2P Integration FedEx Connector app to enable the FedEx Dataworks integration in Supplier Lifecycle Operations.
--   **[Validate supplier using FedEx Dataworks supplier validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/fedex-supplier-validation.md)**  
+-   **[Validate supplier using FedEx Dataworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/fedex-supplier-validation.md)**  
 Supplier validation connects a supplier's location to a FedEx Dataworks record, returning a FedEx Dataworks Supplier ID that unlocks risk assessment and performance benchmarking data for that supplier.
--   **[Evaluate supplier risk using FedEx Dataworks risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/fedex-risk-assessment.md)**  
+-   **[Evaluate supplier risk using FedEx Dataworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/fedex-risk-assessment.md)**  
 FedEx Dataworks risk assessment returns logistics-based risk factor ratings for a matched supplier, helping relationship managers evaluate supplier risk during onboarding.
 -   **[Fetch KPI data using FedEx Dataworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/fedex-fetch-kpi-data.md)**  
-FedEx Dataworks integration lets you retrieve KPI data metrics for a given supplier, using which KPIs are created.
+FedEx Dataworks integration lets you retrieve KPI data for a given supplier to create KPIs.
 -   **[View supplier metrics using FedEx Dataworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/fedex-supplier-performance-benchmarking.md)**  
 FedEx Dataworks supplier performance benchmarking retrieves FedEx Dataworks logistics performance metrics for a matched supplier, displayed on the supplier profile page to support supplier evaluation.
 
@@ -95,9 +104,9 @@ FedEx Dataworks supplier performance benchmarking retrieves FedEx Dataworks logi
 
 [Install the S2P Integration FedEx Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/install-fedex-connector.md)
 
-[Validate supplier using FedEx Dataworks supplier validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/fedex-supplier-validation.md)
+[Validate supplier using FedEx Dataworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/fedex-supplier-validation.md)
 
-[Evaluate supplier risk using FedEx Dataworks risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/fedex-risk-assessment.md)
+[Evaluate supplier risk using FedEx Dataworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/fedex-risk-assessment.md)
 
 [View supplier metrics using FedEx Dataworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/fedex-supplier-performance-benchmarking.md)
 

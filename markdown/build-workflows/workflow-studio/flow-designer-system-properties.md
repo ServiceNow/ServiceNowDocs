@@ -7,7 +7,7 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-10-01"
 reading_time_minutes: 22
 breadcrumb: [Flows, subflows, and actions reference, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -197,7 +197,7 @@ The maximum number of actions allowed on a flow.sn\_flow\_designer.max\_actions
 
 </td><td>
 
-Specify the maximum number of actions a flow or subflow can contain. Workflow Studio prevents you from adding further actions after the maximum number of actions has been reached. Consider the performance impact raising the maximum number of actions may have. For example, running more actions may conflict with the default transaction quota rule that prevents flows from running longer than an hour.-   Type: integer
+Specify the maximum number of actions a flow or subflow can contain. Workflow Studio blocks you from adding further actions after the maximum number of actions has been reached. Consider the performance impact raising the maximum number of actions may have. ServiceNow recommends limiting flows to 100 actions.-   Type: integer
 -   Default value: 50
 -   Location: **Process Automation** &gt; **Properties**
 -   More information: [Architecture Overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-designer-arch-overview.md)
@@ -208,7 +208,7 @@ The maximum number of allowed steps on an action. sn\_flow\_designer.max\_action
 
 </td><td>
 
-Specify the maximum number of steps that an action can contain. Workflow Studio prevents you from adding further steps after the maximum number of steps has been reached. Consider the performance impact raising the maximum number of steps may have. For example, running more steps may conflict with the default transaction quota rule that prevents flows from running longer than an hour.-   Type: integer
+Specify the maximum number of steps that an action can contain. Workflow Studio blocks you from adding further steps after the maximum number of steps has been reached. Consider the performance impact raising the maximum number of steps may have. For example, running more steps may conflict with the default transaction quota rule that stops flows from running longer than an hour.-   Type: integer
 -   Default value: 20
 -   Location: **Process Automation** &gt; **Properties**
 -   More information: [Architecture Overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-designer-arch-overview.md)
@@ -296,7 +296,9 @@ Maximum inputs per action
 
 </td><td>
 
-Specify the maximum number of inputs that can be added to an action. Workflow Studio prevents you from adding further inputs after the maximum number of inputs has been reached. Consider the performance impact raising the maximum number of action inputs may have. For example, processing more action inputs may risk the action running for more than an hour and being stopped by the default transaction quota rule.-   Type: integer
+Specify the maximum number of inputs that can be added to an action. Workflow Studio blocks you from adding further inputs after the maximum number of inputs has been reached. Consider the performance impact raising the maximum number of action inputs may have. For example, processing more action inputs may risk the action running for more than an hour and being stopped by the default transaction quota rule.**Note:** ServiceNow recommends limiting this property to no more than 100 actions.
+
+-   Type: integer
 -   Default value: 20
 -   Location: System Properties \[sys\_properties\] table
 

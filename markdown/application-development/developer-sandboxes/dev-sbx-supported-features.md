@@ -7,7 +7,7 @@ release: australia
 product: Developer Sandboxes
 classification: developer-sandboxes
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-04"
 reading_time_minutes: 1
 breadcrumb: [Explore, Developer Sandboxes, Developing your application, Building applications]
 ---
@@ -34,7 +34,7 @@ Supported features include the following:
 
 -   Outgoing integrations
 
-    **Note:** Incoming integrations must be manually updated by customers to support the unique URLs of sandboxes.
+    **Note:** You must manually update incoming integrations to support the unique URLs of sandboxes.
 
 
 ## Sandbox considerations and limitations
@@ -46,4 +46,6 @@ Upgrading an instance automatically backs up update sets to the base instance an
 You can have up to 30 sandboxes per instance.
 
 Developer Sandboxes does not support self-hosted instances by default, though you can set up your own networking and routing changes to support sandboxes.
+
+**Note:** Developer Sandboxes are not supported on UI/Worker node instances.
 

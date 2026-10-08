@@ -127,7 +127,7 @@ Interval-based scheduling
 
 </td><td>
 
-
+When selected, enables configuring a time interval \(in seconds\) to wait between check executions.
 
 </td></tr><tr><td>
 
@@ -138,6 +138,8 @@ Interval
 The amount of time, in seconds, to wait between check executions.For example, a value of 60 means that the check runs every 60 seconds.
 
 Specified value must be an integer.
+
+Appears only when selecting **Interval-based scheduling**.
 
 </td></tr><tr><td>
 

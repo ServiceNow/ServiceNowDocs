@@ -1,21 +1,27 @@
 ---
-title: Configure AI Admin Hub settings in AI Admin Center
+title: Configure AI settings in AI Admin Center \(Next Experience UI\)
 description: Use AI Admin Hub configuration features on the AI Admin Hub page in the AI Admin Center workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-center-configure-admin-settings.html
 release: australia
 topic_type: task
-last_updated: "2026-07-30"
-reading_time_minutes: 5
+last_updated: "2026-10-02"
+reading_time_minutes: 6
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
 breadcrumb: [Using other AI applications from AI Admin Center, Setting up AI capabilities and configurations, AI Admin Center, Enable AI experiences]
 ---
 
-# Configure AI Admin Hub settings in AI Admin Center
+# Configure AI settings in AI Admin Center\(Next Experience UI\)
 
 Use AI Admin Hub configuration features on the AI Admin Hub page in the AI Admin Center workspace.
 
 ## Before you begin
+
+**Important:** Lux is the new user experience for AI Admin Center. For more information on the Lux experience, see [AI Admin Center user experience \(Lux UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-admin-center-lux-user-experience.md).
+
+The Next Experience AI Admin Center workspace is being prepared for deprecation in the November store release and will no longer be supported. For more information on the Next Experience UI, see [AI Admin Center workspace \(Next Experience UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-workspace.md).
+
+In AI Admin Center version 6.1, the Next Experience and Lux user interfaces are both available.
 
 Role required: sn\_na\_center.nac\_admin
 
@@ -25,9 +31,11 @@ Follow these steps to configure AI settings.
 
 AI Admin Hub features from the Experiences and Settings sections are accessible on the AI Admin Hub page. The features are regrouped in AI Admin Center based on the type of action to perform.
 
+**Note:** This topic describes the AI Admin Center feature based on the Next Experience UI. If you're using the Lux user experience for AI Admin Center, see the Lux UI version of this topic.
+
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Admin Center** or **Workspaces** &gt; **AI Admin Center**.
+1.  Navigate to **All** &gt; **AI Admin Center** &gt; **AI Admin Center \(Legacy\)**.
 
 2.  Select **Admin** \(\[Omitted image "icon-now-assist-center-nav-admin.png"\] Alt text: Admin icon. \) in the side navigation bar.
 
@@ -60,6 +68,18 @@ Opens the Account page from AI Admin Hub.
  Review your ServiceNow AI license details to make sure that you're up to date on what's available to you.
 
  For more information, see [Review Now Assist account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/review-now-assist-account-information.md).
+
+</td></tr><tr><td>
+
+Automation opportunities
+
+</td><td>
+
+Opens the Automation opportunities settings page.
+
+ Configure the data source, filters, schedule, and cost profile that AI Agent Advisor uses to identify automation opportunities and provide savings estimates for them.
+
+ For more information, see [Set up a data source for analysis \(Next Experience UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-admin-center-set-up-data-source.md).
 
 </td></tr><tr><td>
 

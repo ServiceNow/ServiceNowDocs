@@ -17,7 +17,7 @@ breadcrumb: [Build flows, Flows, subflows, and actions, Workflow Studio, Build w
 
 Generate a summary of a flow or flow execution details with ServiceNow Otto for Creator.
 
-\[Omitted video\] Description: Summarize a flow with Now Assist
+\[Omitted video\] Description: Summarize a flow with AI
 
 ## Before you begin
 
@@ -26,7 +26,7 @@ Role required:
 -   now.assist.creator
 -   flow\_designer or admin
 
-Turn on the flow summarization skill. See .
+Turn on the flow summarization skill. See [Turn on the flow summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/turn-on-the-flow-summarization-skill.md).
 
 ## Procedure
 

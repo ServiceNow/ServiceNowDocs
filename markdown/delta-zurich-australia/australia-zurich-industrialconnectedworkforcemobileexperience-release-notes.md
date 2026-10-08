@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-zurich-australia/australia-zurich-industrialconnectedworkforcemobileexperience-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 5
+last_updated: "2026-10-08"
+reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
 
@@ -75,7 +75,28 @@ Australia
 
 </td><td>
 
--   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&family=australia&ft:locale=en-US)**
+-   **[Centerline audit tasks on mobile](https://www.servicenow.com/docs/access?context=centerline-audit-task-mobile&family=australia&ft:locale=en-US)**
+
+Run centerline audits from the shop floor instead of on paper. Open a centerline audit task on your mobile device, move between setting groups in any order, and enter the measured value for each setting to see immediately whether it's within specification. Before you start a task, you can view and edit its details, including the active material.
+
+-   **[Setting definition details during an audit](https://www.servicenow.com/docs/access?context=open-setting-definition-details-mobile&family=australia&ft:locale=en-US)**
+
+Open the full specification for a setting definition while you run a centerline audit, without leaving the audit.
+
+-   **[Automatic deviations for out-of-specification settings](https://www.servicenow.com/docs/access?context=create-deviation-from-centerline-task-mobile&family=australia&ft:locale=en-US)**
+
+Track non-compliant settings as soon as an audit ends. When you submit a centerline audit task, a deviation is created automatically for each parameter that's outside its specification limits, with no manual deviation entry required.
+
+-   **[Sub-activity list for work set tasks](https://www.servicenow.com/docs/access?context=execute-work-set-task-mobile&family=australia&ft:locale=en-US)**
+
+Execute a work set task from a single screen. When you open a work set task, the Tasks tab lists its Industrial Guided Tasks, actions, centerline tasks, deviations, and root cause analyses in execution order, so you don't need to open a related list. Each card shows the short description, task type, state, assigned user, equipment or functional location, planned start, and line status and LOTO\(TO\) level when set. Cards for inactive sub-activities show fewer details. Select a card to open the sub-activity.
+
+-   **[Line status and LOTO\(TO\) level in the action header](https://www.servicenow.com/docs/access?context=action-form-mobile&family=australia&ft:locale=en-US)**
+
+See the safety context for an action before you perform it. When an action has a LOTO\(TO\) level or line status, those values appear in the header of the action record.
+
+
+ -   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&family=australia&ft:locale=en-US)**
 
 The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
 

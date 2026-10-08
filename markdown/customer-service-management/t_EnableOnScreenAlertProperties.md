@@ -24,7 +24,7 @@ Role required: sn\_shn.admin
 
 2.  Configure the following properties.
 
-<table id="choicetable_oj1_stz_55"><tbody><tr><td id="d182772e94">
+<table id="choicetable_oj1_stz_55"><tbody><tr><td id="d185539e94">
 
 **Display special handling notes only once per session**
 
@@ -32,7 +32,7 @@ Role required: sn\_shn.admin
 
 Special handling notes are displayed each time you access a record. Enable this property to display special handling notes only once per session.
 
-</td></tr><tr><td id="d182772e103">
+</td></tr><tr><td id="d185539e103">
 
 **Maximum number of notes displayed in the Special Handling Notes pop-up window**
 
@@ -40,7 +40,7 @@ Special handling notes are displayed each time you access a record. Enable this 
 
 Increase or decrease this number as desired. The default is 20 alerts.
 
-</td></tr><tr><td id="d182772e112">
+</td></tr><tr><td id="d185539e112">
 
 **Width of the Special Handling Notes pop-up window in pixels**
 

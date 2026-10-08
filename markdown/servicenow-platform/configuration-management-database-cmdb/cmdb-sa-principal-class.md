@@ -7,7 +7,7 @@ release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-06-24"
+last_updated: "2026-09-28"
 reading_time_minutes: 4
 keywords: [principal classes, cmdb\_class\_info, principal class filter, task forms]
 breadcrumb: [Use Data Foundations advisor, CMDB success advisor, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
@@ -28,7 +28,7 @@ For information about selecting principal classes, see the [Guidance on designat
 You can manage the most important CI classes with CMDB success advisor by:
 
 -   Selecting CI classes from the grouped, recommended list in the Data Foundations scope setup. Classes are set as principal automatically when you save.
--   Using intelligent recommendations based on the past incident, problem, and change \(IPC\) activity on your instance.
+-   Using intelligent recommendations based on a weighted score of your instance's past incident, problem, and change \(IPC\) activity, CI count, and CI class category. For more information, see [CI class recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-class-recom.md).
 -   Monitoring data quality continuously through the Data Foundations advisor dashboard.
 
 ## Principal class tracking in CMDB success advisor

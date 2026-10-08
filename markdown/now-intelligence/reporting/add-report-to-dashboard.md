@@ -7,7 +7,7 @@ release: australia
 product: Reporting
 classification: reporting
 topic_type: task
-last_updated: "2026-03-30"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 breadcrumb: [Distribute reports, Core UI Reporting, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -28,11 +28,11 @@ Watch this eight-minute video to learn about generating reports, creating report
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**.
+1.  Navigate to **Platform Analytics Administration** &gt; **Usage and governance** &gt; **Reports**.
 
-2.  Select the report you want to add.
+2.  Select the Core UI report you want to add.
 
-3.  Select the Sharing icon \[Omitted image "icon-share-db.png"\] Alt text: Sharing icon and select **Add to Dashboard**.
+3.  Select the Sharing icon \[Omitted image "square-share-fill-24.svg"\] and select **Add to Dashboard**.
 
 4.  Select the **Dashboard** and **Tab** to add the report to.
 

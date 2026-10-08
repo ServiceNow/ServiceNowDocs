@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/configure-activity-timer-log.html
 release: australia
 topic_type: task
-last_updated: "2026-05-07"
+last_updated: "2026-09-21"
 reading_time_minutes: 1
 breadcrumb: [Set up CRM Workspace, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -25,12 +25,15 @@ The activity timer log feature automatically tracks the time that agents spend w
 -   CSM default record page
 -   Front-line case page
 -   CSM Interaction record page
+-   Email interaction record page
 -   CSM voice interaction record page
 -   CSM centered chat interaction record page
 
 ## Procedure
 
-1.  Install the Activity Timer Reporting plugin \(sn\_activity\_timer\_reporting\).
+1.  Install the Activity Timer Reporting plugin \(sn\_at\_rpt\).
+
+    The Activity Timer Reporting application has a dependency on the Activity Timer application \(sn\_at\).
 
 2.  Assign the sn\_at.admin role to the appropriate users.
 

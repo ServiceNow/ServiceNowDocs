@@ -7,7 +7,7 @@ release: australia
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Use, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
@@ -206,5 +206,24 @@ Option to enable confidentiality of the record. Only the assigned confidential u
 </table>4.  Select **Submit**.
 
 
+## Result
+
+A remediation task is created and associated with the issue. The issue remains open while the remediation task is in progress. Once the remediation task is completed and reviewed, the issue can be closed.
+
+## What to do next
+
+After the remediation task is created and associated with the issue, next steps vary depending on your role.
+
+AI Risk and Compliance business users \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_business\_user\] can work and update the remediation task.
+
+AI Risk and Compliance analysts \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_analyst\] and managers \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_manager\] can monitor task status and review remediation progress.
+
 **Parent Topic:**[Using AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/using-ai-risk-and-compliance.md)
+
+**Related topics**  
+
+
+[Create an AI issue in the AI Risk and Compliance workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/create-ai-issue-in-the-ai-risk-and-compliance-workspace.md)
+
+[AI cases and inquiries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/airc-cases-inquiries.md)
 

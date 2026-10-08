@@ -30,7 +30,7 @@ Policies address this by letting you define that governance once, as a reusable 
 
 |User|Description|
 |----|-----------|
-|AI steward|Creates, clones, and deactivates Threat Response and Explicit Block policies, and reviews policy enforcement activity to confirm policies are working as expected.|
+|AI steward|Creates, edits, clones, and deletes Threat Response and Explicit Block policies, and reviews policy enforcement activity to confirm policies are working as expected.|
 
 ## Policy types
 
@@ -42,7 +42,7 @@ Policies come in two types, each suited to a different governance need.
 
 -   **Explicit Block**
 
-    Stops a group, user, or everyone from using a specific AI agent, model, or domain. Once initiated, the block stays in effect until the policy is deactivated. For details, see [Explicit Block policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-pol-explicit-block.md).
+    Stops a user, a department, or everyone from using a specific AI agent, model, or domain. Once initiated, the block stays in effect until the policy is deleted. For details, see [Explicit Block policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-pol-explicit-block.md).
 
 
 ## Policy enforcement points

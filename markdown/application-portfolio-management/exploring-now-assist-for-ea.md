@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio
 release: australia
 topic_type: concept
 last_updated: "2026-08-04"
-reading_time_minutes: 7
+reading_time_minutes: 8
 breadcrumb: [ServiceNow Otto for Enterprise Architecture \(EA\), Enterprise Architecture]
 ---
 
@@ -67,6 +67,8 @@ ServiceNow Otto for Enterprise Architecture \(EA\) includes the following genera
 
 You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all generative AI skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md).
 
+**Note:** Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. We're committed to bringing you the latest industry advancements while maintaining sovereignty-focused options, all hosted and governed by ServiceNow with the infrastructure and data protections you rely on today. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+
 -   **[Supporting information for ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/supporting-info-now-assist-ea.md)**  
 Get a quick overview of the important information that is related to the ServiceNow Otto for Enterprise Architecture \(EA\) application.
 
@@ -102,4 +104,6 @@ Get a quick overview of the important information that is related to the Service
 [Configure AI Data Explorer and Query Generation skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/configure-ai-data-explr-qry-genr-skills.md)
 
 [Enable Knowledge Graph system properties for the Enterprise Architecture query agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/set-kg-system-properties-ea-qna.md)
+
+[Explore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/exploring-ea-mcp-server.md)
 

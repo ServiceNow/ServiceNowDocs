@@ -31,14 +31,14 @@ To configure MCP server, see [Configure Contract Management Pro MCP Server](http
 
 Contract analysis with external AI tools provides the following benefits:
 
--   AI-proposedredlines that follows your approved playbooks containing clause level organizational positions, not general guidance.
+-   AI-proposed redlines that follow your approved playbooks containing clause level organizational positions, not general guidance.
 -   Fulfillers and reviewers can use their preferred AI tool while Contract Management Pro manages the playbook content and access control.
 -   Separate playbooks per contract type, auto-selected so reviews use the right guidance.
 -   Contract playbooks for contract types are available in centralized location within Contract Management Pro, so administrators can handle changes centrally instead of maintaining playbooks in different locations or local folders.
 
 ## Contract states for playbook retrieval
 
-The playbook tool returns playbook guidance only when the contract is in one of the following states and the user has thesn\_cm\_gen\_ai.ai\_contract\_fulfiller role:
+The playbook tool returns playbook guidance only when the contract is in one of the following states and the user has the sn\_cm\_gen\_ai.ai\_contract\_fulfiller role:
 
 -   Contract fulfillers \(Assigned to, Collaborator, or Group manager\) can retrieve playbooks when the contract is in the Work in Progress state.
 -   Contract reviewers can retrieve playbooks when the contract is in the Awaiting Review state and review task is in Work in Progress state.

@@ -250,7 +250,7 @@ Enable flows to catch errors. Run a sequence of actions and subflows to identify
 -   **[Flow execution analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-execution-analysis-landing.md)**  
 Analyze flow execution details to identify errors and suggest potential fixes.
 -   **[Flow generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-generation-landing.md)**  
-Use ServiceNow Otto for Creator to create a flow or subflow from a text description.
+Use AI to create a flow or subflow from a text description.
 -   **[Flow generation with images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-generation-with-images-landing.md)**  
 Create a flow or a subflow from an image by using ServiceNow Otto for Creator.
 -   **[Flow history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/flow-history.md)**  

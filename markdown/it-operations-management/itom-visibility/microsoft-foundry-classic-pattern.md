@@ -1,21 +1,21 @@
 ---
-title: Microsoft Foundry \(Classic\) pattern-based discovery
-description: AI Agent Topology Mapping discovers Microsoft Foundry \(Classic\) services, agents, and models during horizontal discovery.
+title: Microsoft Foundry \(classic\) pattern-based discovery
+description: AI Agent Topology Mapping discovers Microsoft Foundry \(classic\) services, assistants, and models during horizontal discovery.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/itom-visibility/microsoft-foundry-classic-pattern.html
 release: australia
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: reference
-last_updated: "2026-05-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
 keywords: [Azure AI Foundry, Microsoft Foundry, AI Agent Topology Mapping, Azure AI, AI discovery]
 breadcrumb: [Reference, AI Agent Topology Mapping, ITOM Visibility, IT Operations Management]
 ---
 
-# Microsoft Foundry \(Classic\) pattern-based discovery
+# Microsoft Foundry \(classic\) pattern-based discovery
 
-AI Agent Topology Mapping discovers Microsoft Foundry \(Classic\) services, agents, and models during horizontal discovery.
+AI Agent Topology Mapping discovers Microsoft Foundry \(classic\) services, assistants, and models during horizontal discovery.
 
 ## Request new or enhanced Patterns on the ServiceNow® Store
 
@@ -27,12 +27,11 @@ The following diagram illustrates the tables and relationships that the AI Agent
 
 \[Omitted image "microsoft-foundry-data-model.png"\] Alt text: Microsoft Foundry data model
 
-**Note:** The following relationships are stored in the Asset-CI Relationship \[cmdb\_rel\_asset\_ci\] table and aren't represented in the Dependency View map:
-
--   The **Deployed as::Deployment of** relationship between AI Function \[cmdb\_ci\_function\_ai\] and AI System Digital Asset \[alm\_ai\_system\_digital\_asset\].
--   The **Used by::Uses** relationship between AI Model Deployment \[cmdb\_ci\_ai\_model\_deployment\] and AI Model Digital Asset \[alm\_ai\_model\_digital\_asset\].
-
 ## Discovery requirements
+
+-   **Verify the REST API permissions**
+
+    Download the [Cloud Discovery patterns spreadsheet](https://downloads.docs.servicenow.com/resource/enus/api/servicenow-discovery-patterns-api-details.xlsx) so you can grant user permissions required for running the Discovery patterns. In addition to permissions, the spreadsheet also includes useful information such as pattern names, types, CI Classes, and links to vendor documentation. New patterns are available quarterly, so check periodically to be sure you have the latest version of the spreadsheet.
 
 -   **Verify that the applications are up to date**
 
@@ -42,13 +41,14 @@ The following diagram illustrates the tables and relationships that the AI Agent
     -   Discovery and Service Mapping Patterns
     -   Visibility Content
     -   CMDB CI Class Models
+    -   Data Foundation Model \(at least version 1.13.2\)
 -   **Activate the cloud-related CI relationships**
 
     To include discovered components into service instances, enable CI relationships used in tag-based discovery by Service Mapping. These CI relationships are available from the 1.0.68 release on the ServiceNow Store. For operational steps, see [Tag-based discovery configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/tag_discovery_configuration.md).
 
 -   **Azure Availability Set**
 
-    Wait for the **Clean-Up job for Availability zone to clear availability set record** schedule job to delete all the pre-populated availability set's Configuration Items \(CI\) in the **cmdb\_ci\_azure\_availability\_set** table.
+    Wait for the **Clean-Up job for Availability zone to clear availability set record** schedule job to delete all the pre-populated Configuration Items \(CIs\) in the **cmdb\_ci\_azure\_availability\_set** table.
 
 -   **Azure Availability Zone**
 
@@ -73,10 +73,6 @@ The following diagram illustrates the tables and relationships that the AI Agent
     Starting with Discovery and Service Mapping Patterns version 1.30.2, you can improve query performance by populating Service Account and Logical Datacenter fields directly in cloud CIs. For more information, see [Improved query performance with direct field population in CI tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/query-service-account-ldc-fields.md).
 
 
-## Verify the REST API Permissions
-
-Download the [Cloud Discovery patterns spreadsheet](https://downloads.docs.servicenow.com/resource/enus/api/servicenow-discovery-patterns-api-details.xlsx) so you can grant user permissions required for running the Discovery patterns. In addition to permissions, the spreadsheet also includes useful information such as pattern names, types, CI Classes, and links to vendor documentation. New patterns are available quarterly, so check periodically to be sure you have the latest version of the spreadsheet.
-
 ## Data collection
 
 The AI Agent Topology Mapping application includes the following patterns for Microsoft Foundry discovery:
@@ -100,44 +96,46 @@ If you have the AI Control Tower application, you can view the information in th
 
 |Field|Description|
 |-----|-----------|
-|Display name \[display\_name\]|Display name of the Microsoft Foundry agent.|
-|External record reference \[external\_ref\_id\]|Unique identifier of the Microsoft Foundry agent.|
+|Display name \[display\_name\]|Display name of the Microsoft Foundry assistant.|
+|External record reference \[external\_ref\_id\]|Unique identifier of the Microsoft Foundry assistant.|
+|Asset type \[model\_category\]|Asset type of the assistant. Value is set to **Agentic AI**.|
+|State \[install\_status\]|State of the assistant. Value is set to **Deployed**.|
+|Vendor \[vendor\]|Vendor of the assistant.Value is set to **Azure**.|
 |Model \[model\]|References the AI System Component Product Model \[cmdb\_ai\_system\_component\_product\_model\] table.|
-|Asset type \[model\_category\]|Asset type of the agent. Value is set to **Agentic AI**.|
-|State \[install\_status\]|State of the agent. Value is set to **Deployed**.|
 |AI prompts \[ai\_prompts\]|References the AI Prompt Digital Asset \[alm\_ai\_prompt\_digital\_asset\] table.|
 |AI models \[ai\_models\]|References the AI Model Digital Asset \[alm\_ai\_model\_digital\_asset\] table.|
 |Configuration Item \[ci\]|References the AI Function \[cmdb\_ci\_function\_ai\] table.|
 
 |Field|Description|
 |-----|-----------|
-|Name \[name\]|Name of the Microsoft Foundry agent.|
-|Short description \[short\_description\]|Description of the Microsoft Foundry agent.|
-|Status \[status\]|Operational status of the agent. Value is set to **PREPARED**.|
-|Version \[version\]|Version of the Microsoft Foundry agent.|
-|Manufacturer \[manufacturer\]|Cloud provider of the resource. Value is set to **Azure**.|
+|Name \[name\]|Name of the Microsoft Foundry assistant.|
+|Short description \[short\_description\]|Description of the Microsoft Foundry assistant.|
+|Status \[status\]|Operational status of the assistant. Value is set to **PREPARED**.|
+|Version \[version\]|Version of the Microsoft Foundry assistant.|
+|Manufacturer \[manufacturer\]|Name of the company defined in the **glide.appcreator.company.friendly\_name** system property.|
 |Model categories \[cmdb\_model\_category\]|Model category. Value is set to **Agentic AI**.|
 
 |Field|Description|
 |-----|-----------|
-|Prompt information \[prompt\_info\]|Instruction text defined for the Microsoft Foundry agent.|
-|Model \[model\]|References the AI Prompt Product Model \[cmdb\_ai\_prompt\_product\_model\] table.|
+|Prompt information \[prompt\_info\]|Instruction text defined for the Microsoft Foundry assistant.|
 |Asset type \[model\_category\]|Asset type of the prompt. Value is set to **AI prompt**.|
+|Vendor \[vendor\]|Vendor of the prompt. Value is set to **Azure**.|
+|Model \[model\]|References the AI Prompt Product Model \[cmdb\_ai\_prompt\_product\_model\] table.|
 |Configuration Item \[ci\]|References the AI Function \[cmdb\_ci\_function\_ai\] table.|
 
 |Field|Description|
 |-----|-----------|
-|Name \[name\]|Name of the Microsoft Foundry agent, used to identify the associated prompt model.|
-|Manufacturer \[manufacturer\]|Cloud provider of the resource. Value is set to **Azure**.|
+|Name \[name\]|Name of the Microsoft Foundry assistant, used to identify the associated prompt model.|
+|Manufacturer \[manufacturer\]|Name of the company defined in the **glide.appcreator.company.friendly\_name** system property.|
 |Model categories \[cmdb\_model\_category\]|Model category. Value is set to **AI prompt**.|
 
 |Field|Description|
 |-----|-----------|
 |Display name \[display\_name\]|Name of the foundation model.|
 |External record reference \[external\_ref\_id\]|Resource identifier of the foundation model.|
-|Model \[model\]|References the AI Model Product Model \[cmdb\_ai\_model\_product\_model\] table.|
 |Asset type \[model\_category\]|Asset type of the model. Value is set to **AI model**.|
 |Vendor \[vendor\]|Provider of the foundation model.|
+|Model \[model\]|References the AI Model Product Model \[cmdb\_ai\_model\_product\_model\] table.|
 |Configuration Item \[ci\]|References the AI Model Deployment \[cmdb\_ci\_ai\_model\_deployment\] table.|
 
 |Field|Description|
@@ -155,12 +153,12 @@ The AI Agent Topology Mapping application populates data in the CMDB when runnin
 
 |Field|Description|
 |-----|-----------|
-|Name \[name\]|Name of the Microsoft Foundry agent.|
-|Object ID \[object\_id\]|Unique identifier of the Microsoft Foundry agent.|
-|Description \[short\_description\]|Description of the Microsoft Foundry agent.|
+|Name \[name\]|Name of the Microsoft Foundry assistant.|
+|Object ID \[object\_id\]|Unique identifier of the Microsoft Foundry assistant.|
+|Description \[short\_description\]|Description of the Microsoft Foundry assistant.|
 |Manufacturer \[manufacturer\]|Cloud provider of the resource. Value is set to **Azure**.|
-|Operational status \[operational\_status\]|Operational status of the resource. Default value is Operational.|
-|Install Status \[install\_status\]|Install status of the resource. Default value is Installed.|
+|Operational status \[operational\_status\]|Operational status of the resource. Default value is **Operational**.|
+|Install Status \[install\_status\]|Install status of the resource. Default value is **Installed**.|
 |Comments \[comments\]|Resource type identifier. Value is set to **Azure::Foundry::Agent**.|
 
 <table id="table_ai_foundry"><thead><tr><th>
@@ -201,7 +199,7 @@ Operational status \[operational\_status\]
 
 </td><td>
 
-Operational status of the resource. Default value is Operational.
+Operational status of the resource. Default value is **Operational**.
 
 </td></tr><tr><td>
 
@@ -209,7 +207,7 @@ Install Status \[install\_status\]
 
 </td><td>
 
-Install status of the resource. Default value is Installed.
+Install status of the resource. Default value is **Installed**.
 
 </td></tr><tr><td>
 
@@ -266,7 +264,7 @@ Operational status \[operational\_status\]
 
 </td><td>
 
-Operational status of the resource. Default value is Operational.
+Operational status of the resource. Default value is **Operational**.
 
 </td></tr><tr><td>
 
@@ -274,7 +272,7 @@ Install Status \[install\_status\]
 
 </td><td>
 
-Install status of the resource. Default value is Installed.
+Install status of the resource. Default value is **Installed**.
 
 </td></tr><tr><td>
 
@@ -363,7 +361,7 @@ Operational status \[operational\_status\]
 
 </td><td>
 
-Operational status of the resource. Default value is Operational.
+Operational status of the resource. Default value is **Operational**.
 
 </td></tr><tr><td>
 
@@ -371,18 +369,23 @@ Install Status \[install\_status\]
 
 </td><td>
 
-Install status of the resource. Default value is Installed.
+Install status of the resource. Default value is **Installed**.
 
 </td></tr></tbody>
 </table>## Dependency Views map
 
 On the Dependency Views map, you can view discovered Microsoft Foundry resources and the relationships between them.
 
+**Note:** The following relationships are stored in the Asset-CI Relationship \[cmdb\_rel\_asset\_ci\] table and aren't represented in the Dependency View map:
+
+-   The **Deployed as::Deployment of** relationship between AI Function \[cmdb\_ci\_function\_ai\] and AI System Digital Asset \[alm\_ai\_system\_digital\_asset\].
+-   The **Used by::Uses** relationship between AI Model Deployment \[cmdb\_ci\_ai\_model\_deployment\] and AI Model Digital Asset \[alm\_ai\_model\_digital\_asset\].
+
 \[Omitted image "microsoft-foundry-dependency-view.png"\] Alt text: Microsoft Foundry CIs and connections on a Dependency Views map
 
 ## CI relationships and references
 
-The Microsoft Foundry patterns create the following relationships and references to support Microsoft Foundry discovery. References link to records in other tables and don't appear in the CI Relationship \[cmdb\_rel\_ci\] table.
+The Microsoft Foundry patterns create the following relationships and references to support Microsoft Foundry \(classic\) discovery. References link to records in other tables and don't appear in the CI Relationship \[cmdb\_rel\_ci\] table.
 
 |CI/Table|Relationship|CI/Table|
 |--------|------------|--------|

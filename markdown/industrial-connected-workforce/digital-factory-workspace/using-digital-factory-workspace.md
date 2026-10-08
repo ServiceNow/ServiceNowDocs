@@ -55,6 +55,10 @@ Digital Factory Workspace enables you to manage your organization data and proce
 Use the Industrial Standards application to manage industrial standards in your organization.
 -   **[Using Industrial Guided Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/using-industrial-guided-tasks.md)**  
 Use Industrial Guided Tasks to manage Industrial Guided Task standards.
+-   **[Using Industrial Analytics and Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/using-industrial-analytics-and-reporting.md)**  
+View and filter the SQDC Analytics dashboards and shopfloor insights to monitor operational performance in the Digital Factory Workspace.
+-   **[Using Industrial Centerlines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/using-industrial-centerlines.md)**  
+Use Industrial Centerlines to create centerline standards and to confirm equipment settings through centerline tasks.
 -   **[Industrial Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/industrial-workflows.md)**  
 Use Industrial Workflows to manage different types of tasks in the Industrial Connected Workforce \(ICW\).
 -   **[Industrial Data Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/industrial-data-models.md)**  

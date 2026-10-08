@@ -287,6 +287,8 @@ The following table lists the software filter fields from which you can create a
 Reference information for the tables, fields, access control, and scheduled job used by license key discovery in Agent Client Collector for Visibility Content.
 -   **[Running process-based discovery platform coverage and properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/running-process-based-discovery-platform-coverage-properties.md)**  
 Platform coverage identifies which operating systems are supported and what privileges the agent needs for full coverage. The system property controls whether the feature is enabled or disabled.
+-   **[ACC-VC NPVDI system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/accvc-npvdi-properties.md)**  
+System properties that control how Agent Client Collector for Visibility Content \(ACC-VC\) runs **Enhanced Discovery** and installed software checks on Windows non-persistent virtual desktop infrastructure \(NPVDI\) endpoints.
 
 **Parent Topic:**[Agent Client Collector reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-reference.md)
 

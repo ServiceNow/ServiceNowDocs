@@ -28,28 +28,15 @@ For a custom record producer, if no documents are attached while submitting the 
 
 1.  Open the third-party contract review request.
 
-<table id="d8593e52"><thead><tr><th align="left" id="d257168e65">
+<table id="d8650e54"><thead><tr><th align="left" id="d259419e65">
 
 Method
 
-</th><th align="left" id="d257168e68">
+</th><th align="left" id="d259419e68">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d257168e74">
-
-**Using Legal Service Portal**
-
-</td><td>
-
-1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Service Portal**
-2.  Select the **My Requests** option on the header menu.
-3.  Select **View all requests**.
-4.  Open your submitted legal request from the list.
-5.  On the Standard Ticket page, from the Actions menu, select **Edit Request**.
-
-
-</td></tr><tr><td id="d257168e123">
+</th></tr></thead><tbody><tr><td id="d259419e74">
 
 **Employee Center**
 
@@ -62,18 +49,31 @@ Action
 5.  On the Standard Ticket page, from the Actions menu, select **Edit Request**.
 
 
+</td></tr><tr><td id="d259419e122">
+
+**Using Legal Service Portal**
+
+</td><td>
+
+1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Service Portal**
+2.  Select the **My Requests** option on the header menu.
+3.  Select **View all requests**.
+4.  Open your submitted legal request from the list.
+5.  On the Standard Ticket page, from the Actions menu, select **Edit Request**.
+
+
 </td></tr></tbody>
 </table>2.  In the Documents section, attach documents.
 
-<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d257168e180">
+<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d259419e180">
 
 Method
 
-</th><th align="left" id="d257168e183">
+</th><th align="left" id="d259419e183">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d257168e189">
+</th></tr></thead><tbody><tr><td id="d259419e189">
 
 **__Choose a file__**
 
@@ -83,7 +83,7 @@ Actions
 2.  Select the files to attach and select **Open**.
 
 
-</td></tr><tr><td id="d257168e214">
+</td></tr><tr><td id="d259419e214">
 
 **__Drag file__**
 
@@ -91,7 +91,7 @@ Actions
 
 Drag files from your local computer into your browser window to attach them to the current record.
 
-</td></tr><tr><td id="d257168e224">
+</td></tr><tr><td id="d259419e224">
 
 **Copy and paste clipboard files**
 
@@ -106,15 +106,15 @@ Drag files from your local computer into your browser window to attach them to t
 
 3.  Classify the attached documents.
 
-<table id="choicetable_kjj_yws_5yb"><thead><tr><th align="left" id="d257168e254">
+<table id="choicetable_kjj_yws_5yb"><thead><tr><th align="left" id="d259419e254">
 
 Classification
 
-</th><th align="left" id="d257168e257">
+</th><th align="left" id="d259419e257">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d257168e263">
+</th></tr></thead><tbody><tr><td id="d259419e263">
 
 **Contract document**
 
@@ -127,7 +127,7 @@ Only active contract types are displayed in the list.
 
  **Note:** At least one document should be classified as a contract document.
 
-</td></tr><tr><td id="d257168e289">
+</td></tr><tr><td id="d259419e289">
 
 **Supporting document**
 

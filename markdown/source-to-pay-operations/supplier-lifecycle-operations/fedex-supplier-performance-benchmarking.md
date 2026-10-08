@@ -7,7 +7,7 @@ release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
 topic_type: task
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 2
 keywords: [performance benchmarking, supplier performance, FedEx metrics]
 breadcrumb: [FedEx Dataworks Integration, Integrate, Supplier Lifecycle Operations, Finance and Supply Chain]
@@ -27,7 +27,7 @@ The supplier must have a valid FedEx Dataworks Supplier ID. Supplier validation 
 
 FedEx Dataworks supplier performance benchmarking is accessible from the supplier profile page in the Source-to-Pay Workspace for suppliers that have a FedEx Dataworks Supplier ID. Relationship managers can retrieve FedEx Dataworks logistics performance metrics for those suppliers on demand.
 
-**Note:** The **FedEx Dataworks - supplier performance benchmarking** section is only visible for suppliers that have a FedEx Dataworks Supplier ID. Suppliers who haven't completed FedEx Dataworks validation won't see this section.
+**Note:** The **FedEx Dataworks - supplier performance benchmarking** section is only visible for suppliers that have a FedEx Dataworks Supplier ID. Suppliers who haven't completed FedEx Dataworks validation don't see this section.
 
 ## Procedure
 
@@ -37,24 +37,26 @@ FedEx Dataworks supplier performance benchmarking is accessible from the supplie
 
 2.  Navigate to the **Performance** tab.
 
-3.  Locate the **FedEx Dataworks - supplier performance benchmarking** section.
+3.  Locate the FedEx Dataworks - supplier performance benchmarking section.
 
     This section only appears for suppliers with a valid FedEx Dataworks Supplier ID.\[Omitted image "fedex-supplier-performance-result.png"\] Alt text: Performance metrics result
 
     The FedEx Dataworks performance metrics are presented as key-value pairs that show logistics performance data for the selected supplier.
 
-    Performance metrics are defined and supplied by FedEx Dataworks. Metrics are returned as key-value pairs and displayed directly from the FedEx Dataworks response. The specific metrics available depend on FedEx Dataworks' latest data and may vary by supplier.
+    Performance metrics are defined and supplied by FedEx Dataworks. Metrics are returned as key-value pairs and displayed directly from the FedEx Dataworks response. The specific metrics available depend on FedEx Dataworks's latest data and may vary by supplier.
+
+    **Note:** If FedEx Dataworks adds a new performance metric, it is reflected the next time performance data is retrieved, with no dependency on a scheduled job.
 
     |Performance metrics|Description|Rating scale|
     |-------------------|-----------|------------|
-    |Customs Delay Rate|Peer group average percentage for similar industry suppliers, indicates the average percent of shipments that were held or delayed during customs clearance processes over the past year.|0% – 100%|
-    |Shipment Claims Rate|Peer group average percentage for similar industry suppliers, indicates the average percent of shipments that had associated claims over the past year.|0% – 100%|
+    |Customs Delay Rate|Peer group average percentage for similar industry suppliers, indicates the average percent of shipments that were held or delayed during customs clearance processes over the past year.|0% and above|
+    |Shipment Claims Rate|Peer group average percentage for similar industry suppliers, indicates the average percent of shipments that had associated claims over the past year.|0% and above|
 
-4.  Review other performance metrics including supplier score, supplier risk, domain scores, Overall ESG score, and KPI performance data.
+4.  Review additional performance metrics including supplier score, supplier risk, domain scores, Overall ESG score, and KPI performance data.
 
     \[Omitted image "fedex-supplier-performance-result2.png"\] Alt text: Supplier metrics showing overall scores and Domain scores for ESG, Quality, and Speed performance
 
-    \[Omitted image "fedex-supplier-performance-result3.png"\] Alt text: Supplier metrics showing overall scores for ESGand KPI metrics
+    \[Omitted image "fedex-supplier-performance-result3.png"\] Alt text: Supplier metrics showing overall scores for ESG and KPI metrics
 
 
 ## What to do next
@@ -70,7 +72,7 @@ Use the performance metrics to evaluate supplier performance and make informed d
 
 [Install the S2P Integration FedEx Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/install-fedex-connector.md)
 
-[Validate supplier using FedEx Dataworks supplier validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/fedex-supplier-validation.md)
+[Validate supplier using FedEx Dataworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/fedex-supplier-validation.md)
 
-[Evaluate supplier risk using FedEx Dataworks risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/fedex-risk-assessment.md)
+[Evaluate supplier risk using FedEx Dataworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/fedex-risk-assessment.md)
 

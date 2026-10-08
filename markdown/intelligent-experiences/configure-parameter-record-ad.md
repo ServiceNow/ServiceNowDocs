@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experienc
 release: australia
 topic_type: concept
 last_updated: "2026-05-25"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Defined desktop actions for desktop, Configure, AI Desktop Actions, Enable AI experiences]
 ---
 
@@ -104,6 +104,13 @@ The following example shows how an AI agent instruction can reference stored par
 **Note:** When triggering an AI agent, explicitly specify in your instructions whether the credentials are provided directly or stored in Parameter records. If Parameter records are used, clarify that the record names are for reference only and that the agent must retrieve the username and password from those records.
 
 Verify that you use the exact names of the Parameter records. Parameter record names are case sensitive. For example, "UserName" and "username" are treated as different values.
+
+-   **[Create a Desktop action parameter record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configuration-ssh-username-password-ad.md)**  
+Create a Desktop action parameter record to store a name that an AI agent references when accessing credentials or other values during desktop action execution.
+-   **[Create a parameter value record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configure-parameter-value-record.md)**  
+Create a Desktop action parameter value record to store the value that an AI agent retrieves during desktop action execution.
+
+**Parent Topic:**[Configuring AI Desktop Actions for defined path desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ad-defined-path-da.md)
 
 **Related topics**  
 

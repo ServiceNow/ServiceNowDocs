@@ -96,7 +96,9 @@ When creating emails, agents can apply templates to add content to the draft ema
 
 ## Recommended Actions feature
 
-The Recommended Actions tab is now available as the first tab in the contextual side panel and is enabled for Pro customers. It includes a set of base system recommendations, such as similar incidents and similar open incidents.
+The Recommended Actions tab is now available as the first tab in the contextual side panel and is enabled for Pro customers. By default, the Recommended Actions tab on the CSM default record page is designed to show on the base system Case table `(sn_customerservice_case)`. It includes a set of base system recommendations, such as similar incidents and similar open incidents.
+
+**Note:** The Hide tab condition on the Recommended Actions tab in the Tab sidebar component matches the base system Case table name exactly. As a result, the tab doesn't appear for records from tables that extend the Case table. For more information, see [Recommended Actions tab not appearing on the CSM default record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ra-csm-enable-ra-variant-record-page.md).
 
 The Recommended Actions tab includes [AI search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ra-csm-ai-search.md) functionality and Suggested Actions.
 

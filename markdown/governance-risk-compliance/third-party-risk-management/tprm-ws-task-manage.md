@@ -7,7 +7,7 @@ release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Assess third-party risk, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -19,6 +19,10 @@ Verify that the **Assigned to** user at your organization or the third-party con
 ## Before you begin
 
 Role required: sn\_vdr\_risk\_asmt.vendor\_assessor
+
+## About this task
+
+This topic covers managing external tasks for third parties or engagement contacts. To manage tasks assigned to internal users instead, see [Create a task for an internal user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-internal-tasks.md).
 
 ## Procedure
 
@@ -32,4 +36,15 @@ Role required: sn\_vdr\_risk\_asmt.vendor\_assessor
 
     For descriptions of all the fields in the Create new third-party risk task form, see [Create new third-party risk task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-create-task-form.md).
 
+
+**Related topics**  
+
+
+[Create new third-party risk task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-create-task-form.md)
+
+[Create a task for an internal user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-internal-tasks.md)
+
+[Complete an element collection task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-elements-task-manage.md)
+
+[Create a task for a third party or engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-ws-task-create.md)
 

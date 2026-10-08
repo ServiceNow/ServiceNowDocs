@@ -1,17 +1,17 @@
 ---
-title: AI risk posture
+title: Reviewing AI risk posture
 description: Aggregated risk posture displays inherent risk, residual risk, and control effectiveness for AI assets.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/gov-airc-risk-posture.html
 release: australia
 topic_type: concept
-last_updated: "2026-05-13"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 keywords: [use]
-breadcrumb: [Governance posture and compliance, Managing risk and compliance, Govern AI assets, AI Control Tower, Enable AI experiences]
+breadcrumb: [Reviewing AI governance posture and compliance status, Managing risk and compliance, Govern AI assets, AI Control Tower, Enable AI experiences]
 ---
 
-# AI risk posture
+# Reviewing AI risk posture
 
 Aggregated risk posture displays inherent risk, residual risk, and control effectiveness for AI assets.
 
@@ -23,33 +23,35 @@ At the portfolio level, risk posture views summarize how AI assets are distribut
 
 Risk heat maps add more context by showing how counts of risks are distributed across inherent risk levels and control effectiveness levels. These views help you identify where ineffective or partially effective controls are associated with higher-risk conditions.
 
-A global filter at the top of the Risk posture page lets you switch the widgets on this page between **AI System**, **AI Model**, and **Dataset** asset types. Selecting an asset type updates the AI system by aggregated risk score chart and the risk heat map to show results for that asset type only. By default, the page displays results for **AI System**.
+Use the global filter on the Risk posture page to switch the widgets between **AI System**, **AI Model**, and **Dataset** asset types. Selecting an asset type updates the aggregated risk score chart and the risk heat map to show results for that asset type only, and relabels the chart to match \(for example, **AI systems by aggregated risk score**\). By default, the page displays results for **AI System**.
 
-## AI system by aggregated risk score
+## Aggregated risk score
 
-AI systems are classified by aggregated risk score using a donut chart. The risk scores are qualitatively classified as High, Medium, and Low.
+AI assets are classified by aggregated risk score using a donut chart. The risk scores are qualitatively classified as Low, Medium, and High.
 
 AI systems are distributed across risk rating levels through two primary visualizations: inherent risk and residual risk.
 
-Inherent risk: Risk level of an AI system before controls, mitigations, or safeguards are applied. This baseline view identifies the potential risk exposure that exists in the AI environment without intervention. The chart categorizes systems into four risk levels: Low, Medium, High, and Critical.
+Inherent risk: Risk level of an AI system before controls, mitigations, or safeguards are applied. This baseline view identifies the potential risk exposure that exists in the AI environment without intervention. The chart categorizes systems into three risk levels: Low, Medium, and High.
 
 Residual risk: Risk level after controls, mitigations, and safeguards are implemented. This view demonstrates the effectiveness of the risk management program by showing how control measures reduce overall exposure. By comparing inherent and residual risk charts, you can measure the impact of governance controls.
 
-\[Omitted image "aict-aggregated-risk-score.png"\] Alt text: Donut charts showing AI systems distributed across Low, Medium, High, and Critical risk levels for inherent and residual risk.
+\[Omitted image "aict-aggregated-risk-score.png"\] Alt text: Donut charts showing AI systems distributed across Low, Medium, and High risk levels for inherent and residual risk.
 
 ## Risk heat map
 
-The Risk heat map widget displays identified risks for AI assets. By default, the widget applies the Residual risk filter, but you can filter the heat map by Inherent risk. Segmentation changes based on the selected filter. Risks appear under the respective combination of risk and control effectiveness, or impact and likelihood, depending on the selected risk classification filter. You can filter the risk heat map by Risk Assessment Methodology \(RAM\) when more than one methodology is available.
+The Risk heat map widget displays identified risks for AI assets. By default, the widget applies the **Residual risk** filter, but you can filter the heat map by **Inherent risk**. Segmentation changes based on the selected filter. Risks appear under the respective combination of risk and control effectiveness, or impact and likelihood, depending on the selected risk classification filter. You can filter the risk heat map by Risk Assessment Methodology \(RAM\) when more than one methodology is available. For more information about RAMs, see [Risk assessment methodologies reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/airc-rams-ref.md).
 
 \[Omitted image "aict-risk-heat-map.png"\] Alt text: Heat map grid showing AI asset counts by inherent risk level and control effectiveness, with color coding from green to red.
 
 ## How data is determined
 
+For the full calculation, including the primary RAM, contributing entities, and recalculation, see [Risk rating calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-airc-risk-score-calculation.md).
+
 AI systems by aggregated risk score:
 
 -   Risk ratings come from risk assessments performed against the risks linked to each AI system.
 -   A background job rolls up the individual assessment results into a single risk rating per AI system.
--   The chart then counts how many AI systems fall into each rating level \(for example, Low, Medium, High, Critical\).
+-   The chart then counts how many AI systems fall into each rating level \(for example, Low, Medium, High\).
 
 Risk heat map: Each cell shows the count of risk assessment instances at that intersection. This is the standard Advanced Risk heat map, scoped to AI governance entities.
 

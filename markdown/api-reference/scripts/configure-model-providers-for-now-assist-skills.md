@@ -7,7 +7,7 @@ release: australia
 product: Scripts
 classification: scripts
 topic_type: concept
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 3
 breadcrumb: [Configure, ServiceNow Otto for Code, Scripting, API implementation, API implementation and reference]
 ---
@@ -44,15 +44,15 @@ Set the default AI model providers for generative AI skills in your instance thr
 
 4.  Select a model provider for either all skill groups or just a specific skill group.
 
-<table id="choicetable_nkr_m3k_zfc"><thead><tr><th align="left" id="d728175e191">
+<table id="choicetable_nkr_m3k_zfc"><thead><tr><th align="left" id="d731363e191">
 
 Choice
 
-</th><th align="left" id="d728175e194">
+</th><th align="left" id="d731363e194">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d728175e200">
+</th></tr></thead><tbody><tr><td id="d731363e200">
 
 **Select a model provider for all the skill groups and skills in the instance.**
 
@@ -63,7 +63,7 @@ Description
 3.  Select **Save and activate**.
  \[Omitted image "soc-instance-edit-model-provider.png"\] Alt text: Select a model provider for all the skill groups and skills in the instance.
 
-</td></tr><tr><td id="d728175e247">
+</td></tr><tr><td id="d731363e247">
 
 **Select a model provider for a specific skill group.**
 
@@ -77,7 +77,7 @@ Description
 
 \[Omitted image "soc-customize-group-edit-model-provider.png"\] Alt text: Select a model provider for a specific skill group.
 
-</td></tr><tr><td id="d728175e290">
+</td></tr><tr><td id="d731363e290">
 
 **Select a model provider for a specific skill.**
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/activate-business-location.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-10-04"
 reading_time_minutes: 1
 breadcrumb: [Activate plugins, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---

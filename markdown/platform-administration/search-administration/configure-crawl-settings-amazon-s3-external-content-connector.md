@@ -40,7 +40,7 @@ When a connector's indexed content item count exceeds 800,000, a warning message
 
 External content connectors that support user permissions crawls can handle permissions for up to five hundred thousand \(500,000\) users and their groups. If a connector retrieves users in excess of this limit, user and group permissions may not be correctly applied to the connector's retrieved content. As a result, the content may not be searchable.
 
-If one of your connectors reaches the content indexing limit, you can update its crawl settings and file inclusion/exclusion filters to reduce the number of content items it retrieves. Alternatively, if you need a connector to index more than 1,000,000 content items, you can create a Customer Service and Support case at [https://support.servicenow.com/now](https://support.servicenow.com/now) to request a limit increase for the connector.
+If one of your connectors reaches the content indexing limit, you can update its crawl settings and file inclusion/exclusion filters to reduce the number of content items it retrieves. If you need to index more content items than the limit allows, you can create a Customer Service and Support case at [https://support.servicenow.com/now](https://support.servicenow.com/now) to request a limit increase for the connector.
 
 ## Procedure
 
@@ -57,7 +57,7 @@ If one of your connectors reaches the content indexing limit, you can update its
 
         As an example, you might enter `https://s3.amazonaws.com/published` to only include searchable content from a bucket with name `published`.
 
-    -   To crawl all but a specified set of buckets from the source system, select **Exclude only these user boxes**, then use the **Add S3 bucket URLs to exclude** field and **Add** button to enter URLs for buckets you want the connector to exclude when crawling.
+    -   To crawl all but a specified set of buckets from the source system, select **Exclude only these buckets**, then use the **Add S3 bucket URLs to exclude** field and **Add** button to enter URLs for buckets you want the connector to exclude when crawling.
 
         As an example, you might enter `https://s3.amazonaws.com/legacy_bucket` to exclude searchable content from a bucket with name `legacy_bucket`.
 

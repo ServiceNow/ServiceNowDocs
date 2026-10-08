@@ -16,10 +16,11 @@ This AI agent creates new incidents when the user explicitly mentions they want 
 
 ## Workflow
 
-1.  Ask the user what issue they are facing today.
-2.  If the reply is vague, ask up to 3 follow-up questions to clarify, one at a time.
-3.  Always perform the single recap and ask for a quick confirmation.
-4.  Create the incident and read the incident number back to the user.
+1.  Check whether the caller already stated their issue during the initial routing or transfer.
+2.  If more context would help, ask up to two follow-up questions \(one at a time\).
+3.  Summarize the issue in one sentence and briefly state any follow-up answers received.
+4.  Create the incident and read the incident number back to the user and inform them they will receive an email with the details.
+5.  After confirming the incident number, say: "Is there anything else you'd like help with?"
 
 <table><thead><tr><th>
 
@@ -39,38 +40,11 @@ When enabled, third-party AI agents can use this agent. This value is off \(fals
 
 </td></tr><tr><td>
 
-Allow AI specialists to access this AI agent
-
-</td><td>
-
-When enabled, AI specialists can use this agent. This value is off \(false\) by default. When set to true, more configuration options for tools become available so that an AI specialist can map inputs and response templates to tool outputs. This setting is defined in the AI Agent configs \[sn\_aia\_agent\_config\] table on the Specialist enabled field.
-
-</td></tr><tr><td>
-
-Manage long-term memory
-
-</td><td>
-
-When enabled, all previous user interactions are used as context for the LLM. This value is off \(false\) by default. This setting is defined by the **sn\_aia.ltm.enable\_long\_term\_memory** system property. For more information, see [ServiceNow Otto AI agents reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/na-aia-reference.md).
-
-</td></tr><tr><td>
-
-Tools
-
-</td><td>
-
--   **Flow Action**
-
-Create incident flow action
-
-
-</td></tr><tr><td>
-
 Allowed user roles The specific user roles that can access this AI agent.
 
 </td><td>
 
-snc\_internal
+Admin
 
 </td></tr><tr><td>
 
@@ -78,7 +52,7 @@ Data access roles The specific user identity roles that determine which data the
 
 </td><td>
 
-nobody
+Admin
 
 </td></tr><tr><td>
 

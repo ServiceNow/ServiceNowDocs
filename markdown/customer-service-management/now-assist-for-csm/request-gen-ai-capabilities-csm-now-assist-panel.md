@@ -43,15 +43,15 @@ For more information about the panel, see [ServiceNow Otto panel](https://raw.gi
 
     You can summarize chats for interactions and cases, summarize cases and calls, and generate resolution notes and knowledge articles. You can also ask questions about cases, use AI agents to complete cases, and complete tasks with conversational subflows and actions.
 
-<table id="choicetable_tvj_cqn_xyb"><thead><tr><th align="left" id="d41675e172">
+<table id="choicetable_tvj_cqn_xyb"><thead><tr><th align="left" id="d41732e172">
 
 Option
 
-</th><th align="left" id="d41675e175">
+</th><th align="left" id="d41732e175">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d41675e181">
+</th></tr></thead><tbody><tr><td id="d41732e181">
 
 **Summarize the chat for an interaction**
 
@@ -62,7 +62,7 @@ Description
 3.  In the panel, select **Chat Summarization**. A summary of the chat conversation with the live agent is displayed.
 
 
-</td></tr><tr><td id="d41675e211">
+</td></tr><tr><td id="d41732e211">
 
 **Summarize the chat for a case that is created from an interaction**
 
@@ -73,7 +73,7 @@ Description
 3.  In the panel, select **Chat Summarization**. A summary of the chat conversation with the live agent before the case was created is displayed.
 
 
-</td></tr><tr><td id="d41675e241">
+</td></tr><tr><td id="d41732e241">
 
 **Summarize a case**
 
@@ -84,7 +84,7 @@ Description
 3.  In the panel, select **Summarize a record**.
 
 
-</td></tr><tr><td id="d41675e271">
+</td></tr><tr><td id="d41732e271">
 
 **Generate case resolution notes**
 
@@ -95,7 +95,7 @@ Description
 3.  In the panel, select **Generate resolution notes**.
 
 
-</td></tr><tr><td id="d41675e302">
+</td></tr><tr><td id="d41732e302">
 
 **Summarize a call**
 
@@ -106,7 +106,7 @@ Description
 3.  In the panel, select **Summarize conversation**. A call summary of the conversation with the live agent is generated on the details page.
 
 
-</td></tr><tr><td id="d41675e332">
+</td></tr><tr><td id="d41732e332">
 
 **Generate a knowledge article**
 
@@ -117,7 +117,7 @@ Description
 3.  In the panel, select **Generate Article**. A knowledge article is drafted for the case using task data, comments, and work notes from the activity stream.
 
 
-</td></tr><tr><td id="d41675e362">
+</td></tr><tr><td id="d41732e362">
 
 **Ask questions about a case**
 
@@ -128,7 +128,7 @@ Description
 3.  In the panel, enter a case assist topic question and select a case assist topic. Information requested about the case is shown.
 
 
-</td></tr><tr><td id="d41675e389">
+</td></tr><tr><td id="d41732e389">
 
 **Use AI agents to complete cases**
 

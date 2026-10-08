@@ -69,10 +69,6 @@ After you have tested your app, set it up, and customized its workflows, you are
 
     To upload your public branded Android app to the Google Play Console, see [Google documentation](https://developer.android.com/studio/publish/upload-bundle). Also see [KB1710255](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1710255) and [KB1157062](https://support.servicenow.com/kb?id=kb_article_view&sys_kb_id=a2a066bedb5155d0d0dc3feb68961951) for information about required actions to publish a public Android app on the Google Play Store and for ServiceNow® guidance on creating your Google Play console listing metadata.
 
--   **BlackBerry Portal:**
-
-    To publish your public branded Android app to the BlackBerry Portal if you are using BlackBerry mobile application management \(MAM\), see [KB0813295](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0813295)
-
 -   **Microsoft Intune:**
 
     To sync your public branded Android app from Google to Microsoft Intune, see [Microsoft documentation](https://learn.microsoft.com/en-us/mem/intune/apps/apps-add-android-for-work).

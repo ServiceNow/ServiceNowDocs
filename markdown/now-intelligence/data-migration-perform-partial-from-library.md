@@ -1,23 +1,23 @@
 ---
 title: Perform a partial dashboard migration from the library
-description: Migrate a selection of your existing dashboards, reports, interactive filters, and Performance Analytics widgets to Platform Analytics experience. Migration works the same whether you choose to migrate some or all of your content. However, you can move some of your content to evaluate the process or when you have a large number of dashboards and want to migrate in segments.
+description: Migrate a selection of your existing dashboards, reports, interactive filters, and Performance Analytics widgets to Platform Analytics experience. Migration works the same whether you choose to migrate some or all of your content. However, you can move some of your content to evaluate the process or when you have many dashboards and want to migrate in segments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/data-migration-perform-partial-from-library.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-10-02"
+reading_time_minutes: 3
 keywords: [How to migrate a few dashboards]
 breadcrumb: [Platform Analytics Migration Center, Platform Analytics experience, Platform Analytics]
 ---
 
 # Perform a partial dashboard migration from the library
 
-Migrate a selection of your existing dashboards, reports, interactive filters, and Performance Analytics widgets to Platform Analytics experience. Migration works the same whether you choose to migrate some or all of your content. However, you can move some of your content to evaluate the process or when you have a large number of dashboards and want to migrate in segments.
+Migrate a selection of your existing dashboards, reports, interactive filters, and Performance Analytics widgets to Platform Analytics experience. Migration works the same whether you choose to migrate some or all of your content. However, you can move some of your content to evaluate the process or when you have many dashboards and want to migrate in segments.
 
 ## Before you begin
 
-Role required: You can migrate any dashboard you own. Users with admin or dashboard\_admin roles can migrate any dashboard from the library.
+Role required: dashboard\_admin or higher
 
 ## About this task
 
@@ -33,9 +33,18 @@ If content on a dashboard is used in only one dashboard, it will be available on
 
 The migrated dashboard appears in the Platform Analytics library. The original Core UI dashboard is listed as Inactive in the library.
 
+The **Ready to migrate** column can show one of four values:
+
+-   **Yes** — the dashboard is ready to migrate.
+-   **No** — the dashboard isn't ready to migrate yet. If you edit a dashboard that was previously marked **Yes**, its value changes back to **No** until it's reevaluated.
+-   **Already migrated** — the dashboard is ready to migrate and an active Next Experience version of it already exists.
+-   **Not applicable** — the dashboard isn't a Core UI dashboard, or it's already in Next Experience.
+
+You can migrate a Core UI dashboard from the library again as long as it's still the active Core UI version.
+
 ## Procedure
 
-1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Library**.
+1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Dashboards**.
 
 2.  On the Dashboards list, select the dashboards you want to migrate.
 
@@ -55,7 +64,7 @@ The migrated dashboard appears in the Platform Analytics library. The original C
 
 6.  Select the dashboard's name in the Migration Center to edit it before you activate.
 
-7.  When you are satisfied, choose which dashboards to migrate and select **Activate selected**.\[Omitted image "data-mig-activate-selected.png"\] Alt text: Migration center with two dashboards selected and the Activate selected button enabled.
+7.  When you're satisfied, choose which dashboards to migrate and select **Activate selected**.\[Omitted image "data-mig-activate-selected.png"\] Alt text: Migration center with two dashboards selected and the Activate selected button enabled.
 
 
 ## Result

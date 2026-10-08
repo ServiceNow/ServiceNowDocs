@@ -269,6 +269,8 @@ As a legal user, cancel the wet signature process for contract documents in NDA 
 
 [Contract amendments]()
 
+[Contract renewals]()
+
 [Linking parent-child contracts]()
 
 [Internal review overview]()
@@ -276,8 +278,6 @@ As a legal user, cancel the wet signature process for contract documents in NDA 
 [Cancel a legal request]()
 
 [View and download a signed contract document]()
-
-[View contract requests]()
 
 [Manage Contract Management Pro for Legal Service Delivery]()
 

@@ -37,5 +37,3 @@ Only active rules are evaluated during scheduled runs; inactive rules are skippe
 
 For information on Managed and Unmanaged assets, see [AI assets- Managed and Unmanaged](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
 
-For information on creating rules, see [Create an Automation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-control-tower/create-automation-rules.md)
-

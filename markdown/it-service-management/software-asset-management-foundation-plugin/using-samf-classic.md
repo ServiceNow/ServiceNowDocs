@@ -1,6 +1,6 @@
 ---
-title: Using Software Asset Management Foundation plugin classic
-description: Using Software Asset Management Foundation plugin classic.
+title: Using Basic Software Asset Management classic
+description: Using Basic Software Asset Management classic.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/software-asset-management-foundation-plugin/using-samf-classic.html
 release: australia
@@ -9,19 +9,19 @@ classification: software-asset-management-foundation-plugin
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Software Asset Management Foundation plugin, ITSM Software Asset Management, Asset Management common applications, IT Service Management]
+breadcrumb: [Basic Software Asset Management, ITSM Software Asset Management, Asset Management common applications, IT Service Management]
 ---
 
-# Using Software Asset Management Foundation plugin classic
+# Using Basic Software Asset Management classic
 
-Using Software Asset Management Foundation plugin classic.
+Using Basic Software Asset Management classic.
 
 -   **[Software Asset Management Foundation dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/software-asset-management-foundation-plugin/c_SAMDashboardSAMF.md)**  
 View compliance and true-up cost trend charts on the Software Asset Management Foundation dashboard.
--   **[Run Software Asset Management Foundation plugin software reconciliation in classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/software-asset-management-foundation-plugin/t_RunReconciliationSAMF.md)**  
+-   **[Run Basic Software Asset Management software reconciliation in classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/software-asset-management-foundation-plugin/t_RunReconciliationSAMF.md)**  
 Reconciliation is run as a scheduled job \(default is weekly\), but you can also run reconciliation manually to reconcile software products in your environment on demand.
--   **[View Software Asset Management Foundation plugin software model results in classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/software-asset-management-foundation-plugin/t_ViewSWModelResultsSAMF.md)**  
+-   **[View Basic Software Asset Management software model results in classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/software-asset-management-foundation-plugin/t_ViewSWModelResultsSAMF.md)**  
 View compliance information for software model results from the Product Results list after reconciliation is run.
 
-**Parent Topic:**[Software Asset Management Foundation plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/software-asset-management-foundation-plugin/c_SoftwareAssetMgmtSAMF.md)
+**Parent Topic:**[Basic Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/software-asset-management-foundation-plugin/c_SoftwareAssetMgmtSAMF.md)
 

@@ -1,35 +1,36 @@
 ---
 title: Industrial Connected Workforce Core release notes
-description: The ServiceNow Industrial Connected Workforce \(ICW\) Core is the foundational application that powers the entire ICW suite. This application provides the shared data models, governance structures, workflows, and integration framework required for consistent and reliable industrial operations. All other ICW applications depend on ICW Core for unified execution, cross‑application interoperability, and enterprise‑wide alignment. ICW Core is a new application in the Australia release.The ServiceNow Industrial Connected Workforce \(ICW\) Core is the foundational application that powers the entire ICW suite. This application provides the shared data models, governance structures, workflows, and integration framework required for consistent and reliable industrial operations. All other ICW applications depend on ICW Core for unified execution, cross‑application interoperability, and enterprise‑wide alignment. ICW Core is a new application in the Australia release.The ServiceNow Industrial Connected Workforce \(ICW\) Core is the foundational application that powers the entire ICW suite. This application provides the shared data models, governance structures, workflows, and integration framework required for consistent and reliable industrial operations. All other ICW applications depend on ICW Core for unified execution, cross‑application interoperability, and enterprise‑wide alignment. ICW Core is a new application in the Australia release.
+description: The ServiceNow Industrial Connected Workforce \(ICW\) Core is the foundational application that powers the ICW suite. It provides shared data models, governance structures, workflows, and integration capabilities for consistent industrial operations. ICW Core was added in the Australia release.Actions now surface LOTO\(TO\) level, line status, and knowledge article context, and operators can self-assign unassigned actions.The ServiceNow Industrial Connected Workforce \(ICW\) Core is the foundational application that powers the entire ICW suite. This application provides the shared data models, governance structures, workflows, and integration framework required for consistent and reliable industrial operations. All other ICW applications depend on ICW Core for unified execution, cross‑application interoperability, and enterprise‑wide alignment. ICW Core is a new application in the Australia release.The ServiceNow Industrial Connected Workforce \(ICW\) Core is the foundational application that powers the entire ICW suite. This application provides the shared data models, governance structures, workflows, and integration framework required for consistent and reliable industrial operations. All other ICW applications depend on ICW Core for unified execution, cross‑application interoperability, and enterprise‑wide alignment. ICW Core is a new application in the Australia release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/icw-core-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 5
+keywords: [action, LOTO, line status, knowledge article, self-assignment]
 breadcrumb: [Industrial Connected Workforce release notes, Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
 
 # Industrial Connected Workforce Core release notes
 
-The ServiceNow® Industrial Connected Workforce \(ICW\) Core is the foundational application that powers the entire ICW suite. This application provides the shared data models, governance structures, workflows, and integration framework required for consistent and reliable industrial operations. All other ICW applications depend on ICW Core for unified execution, cross‑application interoperability, and enterprise‑wide alignment. ICW Core is a new application in the Australia release.
+The ServiceNow® Industrial Connected Workforce \(ICW\) Core is the foundational application that powers the ICW suite. It provides shared data models, governance structures, workflows, and integration capabilities for consistent industrial operations. ICW Core was added in the Australia release.
 
 ## About Industrial Connected Workforce Core
 
 -   Navigate the equipment model faster in the Digital Factory Workspace using vertical navigation and a breadcrumb trail to move between functional locations.
 -   Use the AI Enhanced recommended actions for Industrial Connected Workforce \(ICW\) feature to access external sources related to a deviation and review why the document is relevant to the incident.
--   Use the action plan skill available with AI Enhanced recommended actions for \(ICW\) to create and organize resolution action items related to deviation.
+-   Use the action plan skill available with AI Enhanced recommended actions for Industrial Connected Workforce \(ICW\) to create and organize resolution action items related to deviation.
 -   Standardize your industrial data across equipment hierarchies, functional locations, calendars, and workforce structures to drive operational consistency.
 -   Strengthen governance of industrial task records, worker skills, and operational compliance across your organization.
--   Accelerate cross‑application task creation and record synchronization with expanded workflow orchestration.
+-   Accelerate cross-application task creation and record synchronization with expanded workflow orchestration.
 -   Improve system responsiveness with performance optimizations that reduce load times and increase record processing throughput.
 -   Enhance interoperability across the ICW suite applications with improved integration capabilities for downstream applications.
 
-See, [ICW Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-connected-workforce-core-landing-page.md) for more information.
+See [ICW Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-connected-workforce-core-landing-page.md) for more information.
 
 ## Activation and other requirements
 
-**Important:** ICW Core is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+**Note:** ICW Core is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 -   **Activation information**
 
@@ -37,6 +38,21 @@ See, [ICW Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/aust
 
 
 **Parent Topic:**[Industrial Connected Workforce release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/industrial-connected-workforce-rn-landing.md)
+
+## Version 3.0.2
+
+Actions now surface LOTO\(TO\) level, line status, and knowledge article context, and operators can self-assign unassigned actions.
+
+### What's new
+
+-   **[Safety and knowledge context on actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/industrial-action-management.md)**
+
+    See the required LOTO\(TO\) level, line status, and a related knowledge article directly on an action. When these fields are populated, the LOTO\(TO\) level and line status appear as highlighted values in the action header, and the knowledge article is available from the recommendations sidebar during execution.
+
+-   **[Self-assignment for unassigned actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/action-form.md)**
+
+    Claim an unassigned action without waiting for a supervisor to assign it. Users with the action\_user role can now assign any unassigned action to themselves, but can't reassign an action that's already assigned to another user.
+
 
 ## Australia General Availability
 

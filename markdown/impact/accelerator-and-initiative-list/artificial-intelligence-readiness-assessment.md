@@ -37,7 +37,7 @@ See [Enable AI experiences](https://raw.githubusercontent.com/ServiceNow/Service
 
 ## Prerequisites
 
-Jumpstart Your AI Journey \(recommended, not required\)
+[Jumpstart Your ServiceNow AI Journey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/accelerator-and-initiative-list/jumpstart-snow-ai-journey.md) \(recommended, not required\)
 
 ## What You Get
 

@@ -38,7 +38,7 @@ Public Sector Digital Services helps government agencies manage the complete lif
 
 </td><td>
 
-[Information Request Playbook \[Omitted image "bus-discover.svg"\] Alt text:Handle public record and information requests.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-exploring-pbs-information-request.md)
+[Information Request Administration \[Omitted image "bus-discover.svg"\] Alt text:Handle public record and information requests.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-exploring-pbs-information-request.md)
 
 </td><td>
 

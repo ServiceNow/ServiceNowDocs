@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/purch-order-exception-form-tabs.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [purchase order exception form, tabs in purchase order exception form]
 breadcrumb: [Purchase order exception form, Reference, Purchase Order Management, Source-to-Pay Operations, Finance and Supply Chain]

@@ -50,7 +50,7 @@ As a shopper, you can view all the purchases you made from your shopping account
 
 [Sourcing Pipeline Management]()
 
-[Understanding Punchout]()
+[Understanding punchout]()
 
 [AI Search for Sourcing and Procurement Operations]()
 

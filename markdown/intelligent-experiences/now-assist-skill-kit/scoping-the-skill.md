@@ -1,28 +1,28 @@
 ---
-title: Scoping the skill
-description: Scoping the skill before you build it helps determine the requirements needed for the skill and the expected outcomes.
+title: Skill scoping guidelines
+description: Scope a custom skill before you build it to define its requirements and expected outcomes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-skill-kit/scoping-the-skill.html
 release: australia
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [General guidelines for AI Skill Kit, Exploring AI Skill Kit, AI Skill Kit, Enable AI experiences]
 ---
 
-# Scoping the skill
+# Skill scoping guidelines
 
-Scoping the skill before you build it helps determine the requirements needed for the skill and the expected outcomes.
+Scope a custom skill before you build it to define its requirements and expected outcomes.
 
 ## Before you begin
 
-Before you start to build a custom skill with AI Skill Kit, you should first review the base system skills that are available in the AI Admin Hub console. Use these pre-existing skills whenever possible.
+Before you start to build a custom skill with AI Skill Kit, review the base system skills that are available in the AI Admin Hub console. Use these pre-existing skills whenever possible.
 
 ## User prerequisites
 
-AI Skill Kit is meant to be used by a developer or someone with experience using generative AI. Because you must write the initial prompt template, you should:
+AI Skill Kit is intended for developers and people with generative AI experience. Because you must write the initial prompt template, you should:
 
 1.  Be knowledgeable about prompt engineering, including:
     -   Having familiarity with the development and testing of machine learning systems.
@@ -30,16 +30,16 @@ AI Skill Kit is meant to be used by a developer or someone with experience using
         -   The fundamentally probabilistic nature of LLMs.
         -   That performance can vary greatly across different LLMs and different target tasks.
     -   Having experience or training with writing and evaluating prompts for LLMs.
-2.  Have an in-depth understanding of the use case that they’re trying to solve and the persona that they’re building the skill for.
+2.  Have an in-depth understanding of the use case that you’re trying to solve and the persona that you’re building the skill for.
 
 ## Design
 
 Before you begin building a custom skill, you must think about the overall design and document the requirements. Consider the following:
 
 1.  What precisely do you want the skill to do?
-    -   What will be the inputs to the model?
+    -   What are the inputs to the model?
     -   What should be the outputs of the model? \(Both content and format\)
-    -   Who will be using the skill?
+    -   Who uses the skill?
     -   How can you characterize success?
 2.  What don't you want the model to do?
     -   It’s useful to think about the possible risks and downsides of using generative AI outputs so that you can try to guard against them during development and testing.

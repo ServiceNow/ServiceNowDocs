@@ -1,19 +1,27 @@
 ---
-title: AI Admin Center Overview dashboard
+title: AI Admin Center Overview dashboard \(Next Experience UI\)
 description: Use the AI Admin Center Overview dashboard to monitor key metrics for AI asset activation, adoption, and usage across your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-center-overview-dashboard.html
 release: australia
 topic_type: concept
-last_updated: "2026-07-30"
-reading_time_minutes: 4
+last_updated: "2026-10-05"
+reading_time_minutes: 5
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
-breadcrumb: [View AI assets usage and performance, Monitor, AI Admin Center, Enable AI experiences]
+breadcrumb: [View AI assets usage and performance \(Next Experience UI\), Monitor, AI Admin Center, Enable AI experiences]
 ---
 
-# AI Admin Center Overview dashboard
+# AI Admin Center Overview dashboard\(Next Experience UI\)
 
 Use the AI Admin Center Overview dashboard to monitor key metrics for AI asset activation, adoption, and usage across your organization.
+
+**Important:** Lux is the new user experience for AI Admin Center. For more information on the Lux experience, see [AI Admin Center user experience \(Lux UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-admin-center-lux-user-experience.md).
+
+The Next Experience AI Admin Center workspace is being prepared for deprecation in the November store release and will no longer be supported. For more information on the Next Experience UI, see [AI Admin Center workspace \(Next Experience UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-workspace.md).
+
+In AI Admin Center version 6.1, the Next Experience and Lux user interfaces are both available.
+
+**Note:** This topic describes the AI Admin Center feature based on the Next Experience UI. If you're using the Lux user experience for AI Admin Center, see the Lux UI version of this topic.
 
 ## AI Admin Center Overview dashboard
 
@@ -92,5 +100,5 @@ The **Usage** section displays the total number of executions for each AI asset 
     This area of the dashboard displays a trend line chart showing the total executions for skills, assistants, and AI agents over the selected time range. Use the trend lines to compare usage volumes across asset types and monitor changes in execution patterns over time.
 
 
-**Parent Topic:**[View AI assets usage and performance in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-view-ai-usage.md)
+**Parent Topic:**[View AI assets usage and performance in AI Admin Center \(Next Experience UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-view-ai-usage.md)
 

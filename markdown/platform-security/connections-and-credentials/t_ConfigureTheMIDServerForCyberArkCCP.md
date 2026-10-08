@@ -20,6 +20,10 @@ Configure the `config.xml` file to grant the MID Server access to the CyberArk C
 
 Role required: admin
 
+## About this task
+
+CyberArk CCP supports certificate-based authentication.
+
 ## Procedure
 
 1.  Manually configure the MID Server [Add a MID Server parameter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-parameters.md) file with these parameters.
@@ -64,7 +68,7 @@ Boolean parameter indicating that this MID Server is integrated with CyberArk.
 
 </td></tr><tr><td>
 
-ext.cred.ccp\_endpoint
+ext.cred.cyberark.ccp\_endpoint
 
 </td><td>
 
@@ -113,7 +117,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-ext.cred.timeout
+ext.cred.cyberark.timeout
 
 </td><td>
 
@@ -125,7 +129,7 @@ Timeout of each credential lookup in the vault, specified in seconds.
 
 </td></tr><tr><td>
 
-ext.cred.safe\_name
+ext.cred.cyberark.safe
 
 </td><td>
 
@@ -137,7 +141,7 @@ Default safe name used for all credential lookups. If parameters are in multiple
 
 </td></tr><tr><td>
 
-ext.cred.app\_id
+ext.cred.cyberark.app\_id
 
 </td><td>
 
@@ -176,7 +180,7 @@ When set to true, requires that the type of SSH credential returned from CyberAr
 
 </td></tr><tr><td>
 
-ext.cred.verify\_ssl
+ext.cred.cyberark.verify\_ssl
 
 </td><td>
 
@@ -188,7 +192,7 @@ The MID Server validates the CCP server certificate, verifying the server’s id
 
 </td></tr><tr><td>
 
-ext.cred.check\_revocation
+ext.cred.cyberark.check\_revocation
 
 </td><td>
 
@@ -200,7 +204,7 @@ This parameter controls certificate revocation checking for the CCP server certi
 
 </td></tr><tr><td>
 
-ext.cred.snmpv2\_community\_property
+ext.cred.cyberark.snmpv2\_community\_property
 
 </td><td>
 

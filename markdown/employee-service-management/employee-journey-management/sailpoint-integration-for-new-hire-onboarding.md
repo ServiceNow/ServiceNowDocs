@@ -20,7 +20,7 @@ This integration requires the Sailpoint IdentityIQ for Service Catalog v2 app fr
 
 ## Setting up the Sailpoint integration
 
-To set up the Sailpoint integration for new hire onboarding, you must install the Sailpoint IdentityIQ for Service Catalog v2 app from the ServiceNow Store. For the installation guide and further information, see [SailPoint IdentityIQ for Service Catalog v2](https://store.servicenow.com/sn_appstore_store.do#!/store/application/c4af6dafdbf73300f931fe1b68961952/2.0.10).
+To set up the Sailpoint integration for new hire onboarding, you must install the Sailpoint IdentityIQ for Service Catalog v2 app from the ServiceNow Store. For more information, see[Sailpoint IdentityIQ Service Catalog](https://store.servicenow.com/store/app/16acabee1b246a50a85b16db234bcbdd).
 
 **Note:** Make sure to use version 2.0.10 or later.
 

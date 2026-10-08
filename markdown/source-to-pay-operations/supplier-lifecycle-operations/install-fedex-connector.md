@@ -7,8 +7,8 @@ release: australia
 product: Supplier Lifecycle Operations
 classification: supplier-lifecycle-operations
 topic_type: task
-last_updated: "2026-08-24"
-reading_time_minutes: 2
+last_updated: "2026-10-08"
+reading_time_minutes: 3
 keywords: [installation, FedEx Dataworks, S2P Integration]
 breadcrumb: [FedEx Dataworks Integration, Integrate, Supplier Lifecycle Operations, Finance and Supply Chain]
 ---
@@ -19,7 +19,7 @@ Install the S2P Integration FedEx Connector app to enable the FedEx Dataworks in
 
 ## Before you begin
 
-A basic authentication profile must be created using the FedEx Dataworks guidelines.
+Create a basic authentication profile using the FedEx Dataworks guidelines.
 
 Role required: admin
 
@@ -29,7 +29,7 @@ The S2P FedEx Integration Connector is a Store app that enables Supplier Lifecyc
 
 ## Procedure
 
-1.  Navigate to the ServiceNow Store and search for **S2P FedEx Integration Connector**.
+1.  Navigate to the ServiceNow Store and search for `S2P FedEx Integration Connector`.
 
 2.  Select **Get** to install the app on your instance.
 
@@ -39,15 +39,25 @@ The S2P FedEx Integration Connector is a Store app that enables Supplier Lifecyc
 
 4.  Load the demo data by navigating to **System Applications** &gt; **Applications**, locating the S2P Integration FedEx Connector app, and selecting **Load Demo Data**.
 
-    The demo data includes KPI templates, threshold sets, a Shipping performance domain, and an ERP source record for FedEx Dataworks. This data is required for the FedEx Dataworks to function correctly.
+    The demo data includes KPI templates, threshold sets, a Shipping performance domain, and an ERP source record for FedEx Dataworks. This data is required for FedEx Dataworks to function correctly.
 
-    The demo data is loaded into your instance.
+    The system loads the demo data into your instance.
 
 5.  Verify that the demo data loaded correctly by navigating to **Supplier Lifecycle Operations** &gt; **Performance Management** &gt; **KPI Templates** and confirming that the Customs delay rate and Shipments claim rate templates are present.
 
-6.  For each FedEx Dataworks-related KPI template, verify that the **External source** field is populated with FedEx Dataworks.
+6.  For each FedEx Dataworks related KPI template, verify that the **External source** field is populated with FedEx Dataworks.
 
-    The **External source** field is hidden by default on the KPI template form. To view this field, customize the form layout. If the field is empty for FedEx Dataworks-related templates, populate it manually with FedEx Dataworks from the ERP source table to prevent integration failures.
+    The **External source** field is hidden by default on the KPI template form. To view this field, customize the form layout. If the field is empty for FedEx Dataworks related templates, populate it manually with FedEx Dataworks from the ERP source table to prevent integration failures.
+
+7.  Retrieve the FedEx Dataworks risk assessment template.
+
+    1.  Navigate to **All** &gt; **System Definition** &gt; **Scheduled Jobs**.
+
+    2.  Search for and open the **Trigger FedEx Risk Assessment template pull - \[Monthly\]** scheduled job.
+
+    3.  Select **Execute Now**.
+
+    This scheduled job runs automatically on the first day of each month. Run it once manually after installation so that the risk assessment template is available before supplier managers run a FedEx Dataworks risk assessment for a supplier.
 
 
 ## Result
@@ -56,7 +66,7 @@ The FedEx Dataworks features are now available in the supplier onboarding playbo
 
 ## What to do next
 
-To start using the FedEx Dataworks integration, initiate a supplier's onboarding and match their details to establish a FedEx Dataworks Supplier ID. For more information, see [Validate supplier using FedEx Dataworks supplier validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/fedex-supplier-validation.md).
+To start using the FedEx Dataworks integration, initiate a supplier's onboarding and match their details to establish a FedEx Dataworks Supplier ID. For more information, see [Validate supplier using FedEx Dataworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/fedex-supplier-validation.md).
 
 **Parent Topic:**[FedEx Dataworks Integration for Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/fedex-dataworks-overview.md)
 
@@ -65,9 +75,9 @@ To start using the FedEx Dataworks integration, initiate a supplier's onboarding
 
 [FedEx Dataworks Integration for Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/fedex-dataworks-overview.md)
 
-[Validate supplier using FedEx Dataworks supplier validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/fedex-supplier-validation.md)
+[Validate supplier using FedEx Dataworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/fedex-supplier-validation.md)
 
-[Evaluate supplier risk using FedEx Dataworks risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/fedex-risk-assessment.md)
+[Evaluate supplier risk using FedEx Dataworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/fedex-risk-assessment.md)
 
 [View supplier metrics using FedEx Dataworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/fedex-supplier-performance-benchmarking.md)
 

@@ -167,7 +167,7 @@ Description of the base input field value.
 
     2.  In the **Role restrictions to skill** section, grant data access to additional roles.
 
-        For more information, see [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-role-masking.md).
+        For more information, see role masking.
 
     3.  Select **Save and continue** to go to the next step.
 

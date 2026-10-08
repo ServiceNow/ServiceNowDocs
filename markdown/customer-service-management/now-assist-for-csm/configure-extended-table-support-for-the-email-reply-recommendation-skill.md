@@ -32,7 +32,7 @@ When you copy the Email reply recommendation skill in AI Admin Hub, a child skil
 
 ## Procedure
 
-1.  Navigate to &gt; &gt; **Admin** &gt; **AI admin Hub** &gt; **Skills**.
+1.  Navigate to **Admin** &gt; **AI Admin Hub** &gt; **Skills**.
 
 2.  Select the **Customer** workflow and **CSM** as the product.
 

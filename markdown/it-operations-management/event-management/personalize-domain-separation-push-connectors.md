@@ -44,15 +44,15 @@ Role required: evt\_mgmt\_admin
 
 4.  In the **Push Connector Configurations** screen, determine whether events should be created in the provided domain or the domain provided in the payload of each event.
 
-<table id="choicetable_jm5_rmb_d1c"><thead><tr><th align="left" id="d284428e184">
+<table id="choicetable_jm5_rmb_d1c"><thead><tr><th align="left" id="d289801e184">
 
 Domain creation location
 
-</th><th align="left" id="d284428e187">
+</th><th align="left" id="d289801e187">
 
 Parameter and values
 
-</th></tr></thead><tbody><tr><td id="d284428e193">
+</th></tr></thead><tbody><tr><td id="d289801e193">
 
 **The provided domain**
 
@@ -62,7 +62,7 @@ Parameter and values
 -   **Value**: domain-identifier
 
 
-</td></tr><tr><td id="d284428e215">
+</td></tr><tr><td id="d289801e215">
 
 **The domain provided in the payload of each event**
 

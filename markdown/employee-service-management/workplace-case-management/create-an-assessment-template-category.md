@@ -9,7 +9,7 @@ classification: workplace-case-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Smart Assessment for Workplace Case and Task, Configure, Workplace Case Management, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Smart Assessment for workplace cases and tasks, Configure, Workplace Case Management, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Create an assessment template category
@@ -74,5 +74,5 @@ Option to activate the category.
     The system generates the assessment template category and adds it to the list of categories that can be specified when designing an assessment template. Active categories are only available for use while categorizing templates.
 
 
-**Parent Topic:**[Smart Assessment for Workplace Case and Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/smart-assessment-for-workplace-case-and-task.md)
+**Parent Topic:**[Smart Assessment for workplace cases and tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/smart-assessment-for-workplace-case-and-task.md)
 

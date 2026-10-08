@@ -1,6 +1,6 @@
 ---
 title: Statistics for external content connector user permission crawls
-description: Each crawl history entry for an external content connector's user permission crawl crawl includes statistics about the permissions \(user and group-membership security principals\) retrieved by the crawl.
+description: Each crawl history entry for an external content connector's user permission crawl includes statistics about the permissions \(user and group-membership security principals\) retrieved by the crawl.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/permission-statistics-external-content-connectors.html
 release: australia
@@ -15,7 +15,7 @@ breadcrumb: [Reference, External Content Connectors, Search administration, Conf
 
 # Statistics for external content connector user permission crawls
 
-Each crawl history entry for an external content connector's user permission crawl crawl includes statistics about the permissions \(user and group-membership security principals\) retrieved by the crawl.
+Each crawl history entry for an external content connector's user permission crawl includes statistics about the permissions \(user and group-membership security principals\) retrieved by the crawl.
 
 |Permission statistics entry|Description|
 |---------------------------|-----------|

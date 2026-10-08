@@ -43,15 +43,15 @@ A ServiceNow app is a package that performs a specific task for a specified grou
 
 2.  In the chat panel, describe the application that you want to create in plain language or select a prompt.
 
-<table id="choicetable_qzh_hj2_lgc"><thead><tr><th align="left" id="d252666e220">
+<table id="choicetable_qzh_hj2_lgc"><thead><tr><th align="left" id="d276596e220">
 
 Scenario
 
-</th><th align="left" id="d252666e223">
+</th><th align="left" id="d276596e223">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d252666e229">
+</th></tr></thead><tbody><tr><td id="d276596e229">
 
 **Describe the app you want to create**
 
@@ -59,7 +59,7 @@ Actions
 
 Describe the application that you want to create, and then select the Send icon \[Omitted image "ba-send-icon.png"\] Alt text:. For example, `Create a basic to-do task tracker app with a user interface. Name the application Planner.`You can also attach images, such as architectural diagrams or UI wireframes, to provide context for prompts.
 
-</td></tr><tr><td id="d252666e247">
+</td></tr><tr><td id="d276596e247">
 
 **Select a predetermined prompt**
 
@@ -91,7 +91,7 @@ Describe the application that you want to create, and then select the Send icon 
 
 ## Result
 
-Review the application and its metadata in ServiceNow Studio using the change log. For more information, see [Build Agent checkpoints and conversation change log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ba-conversational-change-log.md). You can also review the application using the File Navigator in ServiceNow Studio. For more information, see [Find an app or app file using the Navigator panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/qs-find-app-app-file-using-navigator-panel.md).
+Review the application and its metadata in ServiceNow Studio using the change log. For more information, see [Checkpoints and conversation change log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ba-conversational-change-log.md). You can also review the application using the File Navigator in ServiceNow Studio. For more information, see [Find an app or app file using the Navigator panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/qs-find-app-app-file-using-navigator-panel.md).
 
 For information on deploying your application, see [Deploying what you built with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/build-agent-deployment.md).
 

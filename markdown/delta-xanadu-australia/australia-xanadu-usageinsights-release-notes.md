@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-xanadu-australia/australia-xanadu-usageinsights-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 9
 breadcrumb: [Products combined by family]
 ---
@@ -398,6 +398,8 @@ Zurich
 Usage Insights is a ServiceNow AI Platform feature that is active by default.
 
 
+**Important:** Usage Insights is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Australia
@@ -408,6 +410,8 @@ Australia
 
 Usage Insights is a ServiceNow AI Platform feature that is active by default.
 
+
+**Important:** Usage Insights is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements

@@ -37,7 +37,7 @@ The **Overview** tab shows high-level conversation volume, resolution performanc
 
 -   **Total voice conversations**
 
-    This area of the dashboard shows the total number of voice conversations in the selected date range. Only sessions where at least one intent was detected are included in this count. Sessions where no intent was detected are excluded. Select the chart view to see how conversation volume has changed over the selected date range. Use this metric to track growth in voice interactions and set benchmarks for assistant performance. Select **Related records** to view the underlying records.
+    This area of the dashboard shows the total number of voice conversations in the selected date range. Select the chart view to see how conversation volume has changed over the selected date range. Use this metric to track growth in voice interactions and set benchmarks for assistant performance. Select **Related records** to view the underlying records.
 
     \[Omitted image "aiv-total-voice-conversations.png"\] Alt text: Scorecard showing the total number of voice conversations in the selected date range, with a chart toggle to view conversation volume over time.
 

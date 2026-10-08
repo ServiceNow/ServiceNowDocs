@@ -41,5 +41,5 @@ The files get downloaded automatically without any prompt. The Web agent extensi
 
 [File upload and download in adaptive desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/upload-download-file.md)
 
-[Considerations for file upload and download](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+[Considerations for file upload and download](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/upload-download-ref.md)
 

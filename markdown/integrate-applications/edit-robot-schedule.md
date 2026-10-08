@@ -35,15 +35,15 @@ Role required: sn\_rpa\_fdn.rpa\_release\_manager, sn\_rpa\_fdn.rpa\_developer, 
 
 3.  View a robot calendar either from a robot or from a bot process.
 
-<table id="choicetable_kgc_jxm_frb"><thead><tr><th align="left" id="d322955e192">
+<table id="choicetable_kgc_jxm_frb"><thead><tr><th align="left" id="d326053e192">
 
 Option
 
-</th><th align="left" id="d322955e195">
+</th><th align="left" id="d326053e195">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d322955e201">
+</th></tr></thead><tbody><tr><td id="d326053e201">
 
 **View a robot calendar from a robot**
 
@@ -54,7 +54,7 @@ Action
 3.  In the form header, select **Robot Calendar**.
 
 
-</td></tr><tr><td id="d322955e234">
+</td></tr><tr><td id="d326053e234">
 
 **View a robot calendar from a bot process**
 

@@ -81,7 +81,7 @@ Recalculate from risk change date and set to earliest target date only when risk
 If the risk increases: Compares the existing RT date and the recalculated RT date and applies the earliest date. If the risk decreases: Compares the existing RT date and the recalculated RT date and applies whichever date is later.
 
 </td></tr></tbody>
-</table>For configuration steps, see [Recalculate a remediation target date](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-configure-remediation-target-rules.md).
+</table>For configuration steps, see [Recalculate a remediation target date](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/vulnerability-response/sem-recalculate-rt-date.md).
 
 **Parent Topic:**[Configure rules to manage findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-configure-rules-manage-findings.md)
 
@@ -124,9 +124,9 @@ Role required: See [Access control lists \(ACLs\) for administration rules](http
 
 [Create or edit remediation target rules]()
 
-[Recalculate a remediation target date]()
+[Recalculate a remediation target date](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/vulnerability-response/sem-recalculate-rt-date.md)
 
-[Examples of recalculating a remediation target date]()
+[Examples of recalculating a remediation target date](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/vulnerability-response/sem-recalculate-rt-date-examples.md)
 
 ### Recalculate a remediation target date
 
@@ -156,15 +156,15 @@ Role required: admin
 
     -   In Workspace, this option appears in the Recalculate target date section
     -   In Classic view, use the **Target recalculation method** field.
-<table id="choicetable_bb3_q3b_fhc"><thead><tr><th align="left" id="d435439e512">
+<table id="choicetable_bb3_q3b_fhc"><thead><tr><th align="left" id="d437332e509">
 
 Choice
 
-</th><th align="left" id="d435439e515">
+</th><th align="left" id="d437332e512">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d435439e521">
+</th></tr></thead><tbody><tr><td id="d437332e518">
 
 **Default calculation**
 
@@ -172,7 +172,7 @@ Description
 
 Recalculates the RT date using the standard formula \(Target from \(date\) + Target \(days\)\), based on the rule that currently matches the finding's risk rating. The Field change time-based recalculated date is not applied.
 
-</td></tr><tr><td id="d435439e532">
+</td></tr><tr><td id="d437332e529">
 
 **Recalculate from risk change date**
 
@@ -180,7 +180,7 @@ Recalculates the RT date using the standard formula \(Target from \(date\) + Tar
 
 Updates the Remediation Target date to: Field change time + Target \(days\) based on the new risk rating.
 
-</td></tr><tr><td id="d435439e541">
+</td></tr><tr><td id="d437332e538">
 
 **Recalculate from risk change date and always set to earliest target date**
 
@@ -188,7 +188,7 @@ Updates the Remediation Target date to: Field change time + Target \(days\) base
 
 Compares the existing RT date with Field change time + Target \(days\) and applies the earlier date.
 
-</td></tr><tr><td id="d435439e550">
+</td></tr><tr><td id="d437332e547">
 
 **Recalculate from risk change date and set to earliest target date only when risk rating increases**
 
@@ -206,7 +206,7 @@ For more information on remediation target rules, see:
 
 -   [Vulnerability Response remediation target rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/vulnerability-response/time-to-remediate-rules.md)
 -   [Create or edit a Vulnerability Response remediation target rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/vulnerability-response/create-time-to-remediate-rule.md)
--   [Examples of recalculating a remediation target date](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-configure-remediation-target-rules.md)
+-   [Examples of recalculating a remediation target date](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/vulnerability-response/sem-recalculate-rt-date-examples.md)
 
 #### Examples of recalculating a remediation target date
 

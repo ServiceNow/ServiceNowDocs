@@ -7,8 +7,8 @@ release: australia
 product: Program Management
 classification: program-management
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Project Portfolio Management, Strategic Portfolio Management]
 ---
 
@@ -72,6 +72,8 @@ Program vs Project decision criteria:
 
 -   Use Program when: Multi-project initiative, $1M+ budget, 2+ year duration, cross-organizational scope
 -   Use Project when: Single deliverable
+
+**Tip:** Program management has been enhanced with dedicated planning views in Strategic Planning Workspace and Portfolio Planning Workspace. Programs now automatically receive their own prioritization, roadmap, Kanban, and financial planning views—accessible from the Programs menu with zero setup required. For more information on the new program planning experience, see [Programs enhanced experience in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/program-portfolio-plan-spw.md) and [Programs enhanced experience in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/program-portfolio-plan-ppw.md).
 
 -   **[Create a program to manage projects and demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/program-management/t_CreateAProgram.md)**  
 Create a program to manage related projects and demands. Define the duration, estimated cost, benefits, and ROI to the organization.

@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-08-14"
 reading_time_minutes: 2
-breadcrumb: [IT Asset Management AI agents, IT Asset Management, AI agents library, AI assets, Enable AI experiences]
+breadcrumb: [Asset Management AI agents, IT Asset Management, AI agents library, AI assets, Enable AI experiences]
 ---
 
 # Purchase order creation AI agent
@@ -122,7 +122,7 @@ Used in agentic workflows
 -   Help manage software requests
 
 </td></tr></tbody>
-</table>Learn more about IT Asset Management at .
+</table>Learn more about Asset Management at [Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management-landing-page.md).
 
-**Parent Topic:**[IT Asset Management AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/itam-ai-agents-overview.md)
+**Parent Topic:**[Asset Management AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/itam-ai-agents-overview.md)
 

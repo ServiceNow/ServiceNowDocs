@@ -18,6 +18,10 @@ The following AI agents are available for Accounts Payable Operations.
 This AI agent assists with invoice inquiries by providing resolution details based on the invoice and its related data. It is intended for use by Accounts Payable Operations agents handling invoice inquiries.
 -   **[Recommend invoice owner AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/apo-recommend-invoice-owner-ai-agent.md)**  
 This AI agent intelligently analyzes exception work notes to predict the most likely business owner for an invoice. It collaborates with the Accounts Payable \(AP\) specialist — the person responsible for processing the invoice — by suggesting the predicted business owner or creating follow-up tasks to streamline ownership validation and resolution.
+-   **[Email parser agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/apo-email-parser-agent.md)**  
+This AI agent identifies and classifies actionable requests, and routes them to the appropriate workflows to create invoice cases.
+-   **[Zero touch service desk agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/apo-zero-touch-service-desk-agent.md)**  
+This AI agent investigates supplier invoice inquiry cases and generates a response for the supplier contact. Fulfillers can review its work in the Agentic Processes panel on the case.
 
 **Parent Topic:**[ServiceNow AI agents library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-agent-landing-page.md)
 

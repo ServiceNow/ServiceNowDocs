@@ -17,7 +17,7 @@ Customize the AI asset security score to align with your enterprise's security p
 
 ## Before you begin
 
-Role required: AI steward \[sn\_ai\_governance\_ai\_steward\]
+Role required: AI steward \[sn\_ai\_governance.ai\_steward\]
 
 ## About this task
 

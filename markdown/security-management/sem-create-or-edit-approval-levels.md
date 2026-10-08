@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-create-or-edit-approval-levels.html
 release: australia
 topic_type: task
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [Unified Approval Rules Overview, Use, Unified Security Exposure Management, Security Operations]
 ---
@@ -99,6 +99,8 @@ Groups
 
 Approver level group consisting of multiple users. The user must have one of the following roles:-   sn\_vul.exception\_approver: For exception management and exception rules
 -   sn\_vul.false\_positive\_approver: For false positive
+-   sn\_sec\_exception.approver: For exception rule approvals
+-   sn\_vul.unassign\_approver: For unassignment approvals
 
 
 </td></tr><tr><td>

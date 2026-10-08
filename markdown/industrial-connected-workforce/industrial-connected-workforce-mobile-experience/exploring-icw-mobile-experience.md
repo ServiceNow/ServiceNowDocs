@@ -157,6 +157,8 @@ The Industrial Connected Workforce Mobile Experience gives operators a single pl
 
 -   **[Standards hub in the Industrial Connected Workforce Mobile Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/standards-hub-mobile.md)**  
 The Industrial Standards Library or Standards hub in the Industrial Connected Workforce Mobile Experience is a collection of published standards and knowledge articles available within your organization.
+-   **[Centerline audit tasks in the Industrial Connected Workforce Mobile Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/centerline-audit-task-mobile.md)**  
+Use centerline audit tasks in the Industrial Connected Workforce Mobile Experience to measure process parameters against published standards and record results directly from your mobile device.
 -   **[AI Search in Industrial Connected Workforce Mobile Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)**  
 Access the AI Search for Industrial Connected Workforce Mobile Experience by using the search bar on the home page. The system interprets queries to return the most relevant results across configured record types, such as standards, tasks, and knowledge articles.
 -   **[Recommended Actions in the Industrial Connected Workforce Mobile Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/recommended-actions-icw-mobile-experience.md)**  

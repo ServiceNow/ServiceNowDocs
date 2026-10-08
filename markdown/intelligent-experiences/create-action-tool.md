@@ -94,6 +94,14 @@ Indication of the tool's behavior with MCP clients, including whether it only re
 
 </td></tr><tr><td>
 
+Required roles
+
+</td><td>
+
+The MCP Tools admin selects one or more roles from the User Role \[sys\_user\_role\] table to specify which roles can access and use the tool.
+
+</td></tr><tr><td>
+
 MCP Servers
 
 </td><td>

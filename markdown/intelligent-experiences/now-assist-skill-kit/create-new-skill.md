@@ -1,26 +1,26 @@
 ---
 title: Create a skill
-description: Create a custom skill for Otto. Creating a custom skill enables you to have greater flexibility with Otto's generative AI capabilities.
+description: Create a custom skill for Otto. Custom skills extend the generative AI capabilities of Otto to fit your own use cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-skill-kit/create-new-skill.html
 release: australia
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Using AI Skill Kit, AI Skill Kit, Enable AI experiences]
 ---
 
 # Create a skill
 
-Create a custom skill for Otto. Creating a custom skill enables you to have greater flexibility with Otto's generative AI capabilities.
+Create a custom skill for Otto. Custom skills extend the generative AI capabilities of Otto to fit your own use cases.
 
 ## Before you begin
 
 Role required: sn\_skill\_builder.admin
 
-**Note:** When you update AI Skill Kit you should also update Generative AI Controller to ensure that your skills continue to perform correctly.
+**Note:** When you update AI Skill Kit also update Generative AI Controller so that your skills continue to work as expected.
 
 ## Procedure
 
@@ -30,7 +30,7 @@ Role required: sn\_skill\_builder.admin
 
 3.  On the form, fill in the fields.
 
-    \[Omitted image "nask-new-skill.png"\] Alt text: New skill modal in Otto Skill Kit.
+    \[Omitted image "nask-new-skill.png"\] Alt text: New skill modal in AI Skill Kit.
 
 <table id="table_chg_qth_lcc"><thead><tr><th>
 
@@ -46,7 +46,7 @@ Skill name
 
 </td><td>
 
-A name for the skill.
+Name of the skill.
 
 </td></tr><tr><td>
 
@@ -54,7 +54,7 @@ Description
 
 </td><td>
 
-A description of the skill.
+Description of the skill.
 
 </td></tr><tr><td>
 
@@ -77,7 +77,7 @@ Available prebuilt spokes that enable you to connect with an external LLM:
 -   Microsoft Azure OpenAI Generative AI Spoke
 -   OpenAI Generative AI Spoke
 -   Aleph Alpha
--   WatsonX
+-   IBM watsonx
 -   Google Gemini \(MakerSuite and Vertex AI\)
 **Note:** The spokes don't consume Integration Hub transactions. The spokes consume assists.
 
@@ -87,7 +87,7 @@ Provider API
 
 </td><td>
 
-The provider of the API for your chosen LLM.
+Provider of the API for the selected LLM.
 
 </td></tr><tr><td>
 
@@ -97,13 +97,13 @@ User access
 
 -   Any authenticated user
 
-As long as a user is logged in, they can access and execute the skill.
+Any logged-in user can access and run the skill.
 
 -   Select roles
 
 Select the roles that a user must have to execute the skill.
 
-**Note:** If you select multiple roles, a user must only have one of the roles to execute the skill.
+**Note:** If you select multiple roles, a user needs only one of the roles to run the skill.
 
 </td></tr><tr><td>
 
@@ -111,7 +111,7 @@ Role restrictions
 
 </td><td>
 
-Role restrictions define the specific roles under which a skill in ServiceNow executes. While ACLs determine which user roles are permitted to trigger the skill, role restrictions determine the roles the skill will operate with during execution.
+Roles that the skill runs as. Access control lists \(ACLs\) determine which user roles can trigger the skill, while role restrictions determine the roles that the skill operates with when it runs.
 
 </td></tr></tbody>
 </table>4.  Select how you want to create the prompt for the skill.
@@ -119,10 +119,10 @@ Role restrictions define the specific roles under which a skill in ServiceNow ex
     -   Write from scratch
     -   Choose one from library
         1.  Find the prompt that you want to use.
-        2.  Select View.
-        3.  Select Use prompt.
+        2.  Select **View**.
+        3.  Select **Use prompt**.
     -   Use an AI-generated prompt
-    \[Omitted image "nask-guided-setup.png"\] Alt text: Guided set up for AI Skill Kit
+    \[Omitted image "nask-guided-setup.png"\] Alt text: Guided setup for AI Skill Kit
 
 5.  Select **Next**.
 
@@ -139,8 +139,8 @@ After you create the skill, you must configure it. To learn more about configuri
 
 If you don't need to set any configurations for your skill, you can create your skill prompt and tools. To learn more, see [Create a prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-kit/create-prompt-template.md) and [Add a tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-kit/add-a-tool.md).
 
--   **[Clone a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-kit/clone-and-edit-servicenow-skill.md)**  
-Clone an existing skill to use it as a starting point for a new one. You can clone both base system ServiceNow skills and custom skills you have created.
+-   **[Clone and edit a ServiceNow skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-kit/clone-and-edit-servicenow-skill.md)**  
+Clone an eligible skill provided in ServiceNow Otto applications in AI Skill Kit so that you can edit its prompt or change its AI service provider. Editing the prompt lets you control the format and content of the large language model \(LLM\) response.
 
 **Parent Topic:**[Using AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-kit/using-now-assist-skill-kit.md)
 

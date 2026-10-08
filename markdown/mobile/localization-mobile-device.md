@@ -1,6 +1,6 @@
 ---
 title: Localization on mobile devices
-description: ServiceNow mobile apps are localized in many languages, including both left-to-right and right-to-left languages. Additionally, you can customize non-default languages on the client-side. These features ensure that your translations remain consistent across your mobile applications.
+description: ServiceNow mobile apps are localized in many languages, including both left-to-right and right-to-left languages. Additionally, you can customize non-default languages on the client-side. These features verify that your translations remain consistent across your mobile applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/mobile/localization-mobile-device.html
 release: australia
@@ -12,7 +12,9 @@ breadcrumb: [Before implementation, Configuration detail, Configuring the Mobile
 
 # Localization on mobile devices
 
-ServiceNow mobile apps are localized in many languages, including both left-to-right and right-to-left languages. Additionally, you can customize non-default languages on the client-side. These features ensure that your translations remain consistent across your mobile applications.
+ServiceNow mobile apps are localized in many languages, including both left-to-right and right-to-left languages. Additionally, you can customize non-default languages on the client-side. These features verify that your translations remain consistent across your mobile applications.
+
+**Note:** For new customers on client version 22.2, only one language option is displayed to the user in the Settings menu. After users select Language in the menu they are navigated to the language accounts page. The single language option is displayed if you configure the property glide.sg.unify\_language\_settings and mark it as `true`. For more information, see [Mobile language menu unification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/language-menu-unification.md).
 
 \[Omitted image "mobile-language-selector.png"\] Alt text: Mobile language selector
 
@@ -31,6 +33,8 @@ ServiceNow mobile applications draw localized texts from multiple sources, which
     Client-side localization uses the device’s UI to localize app-rendered elements such as screens, lists, and buttons. You can include languages beyond those natively supported by the ServiceNow AI Platform base system. For more information, see [Client-side localization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/localization-client.md).
 
 
+-   **[Mobile language menu unification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/language-menu-unification.md)**  
+Learn about the different Language options in the Settings menu for ServiceNow mobile client versions 22.1 and 22.2.
 -   **[Native localization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/localization-native.md)**  
 Native \(on device\) localization is controlled by the device's language preference, which means that many components are localized with the language preference for the user's device. These components can include local screen titles, such as Settings, and local button titles, such as the Clear All button on the filter screen.
 -   **[Server-side localization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/localization-server-side.md)**  

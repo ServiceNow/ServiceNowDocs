@@ -26,7 +26,7 @@ Role required: sn\_hr\_core.case\_writer
 
 **Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
-You can make a copy of this skill to configure it to meet your business needs. For more information, see [Make a copy of AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/make-a-copy-of-a-now-assist-skill.md).
+You can make a copy of this skill to configure it to meet your business needs. For more information, see [Make a copy of an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/make-a-copy-of-a-now-assist-skill.md).
 
 ## Procedure
 
@@ -38,15 +38,15 @@ You can make a copy of this skill to configure it to meet your business needs. F
 
 4.  Select one of the following in the **Add resolution notes** window.
 
-<table id="choicetable_tz3_gql_khc"><thead><tr><th align="left" id="d363995e127">
+<table id="choicetable_tz3_gql_khc"><thead><tr><th align="left" id="d367765e127">
 
 Option
 
-</th><th align="left" id="d363995e130">
+</th><th align="left" id="d367765e130">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d363995e136">
+</th></tr></thead><tbody><tr><td id="d367765e136">
 
 **Save notes**
 
@@ -54,7 +54,7 @@ Description
 
 Add resolution notes to the **Close notes** field.**Note:** Review the generated text and make sure it's accurate. You may edit the notes or delete them to provide your own.
 
-</td></tr><tr><td id="d363995e150">
+</td></tr><tr><td id="d367765e150">
 
 **Skip notes**
 

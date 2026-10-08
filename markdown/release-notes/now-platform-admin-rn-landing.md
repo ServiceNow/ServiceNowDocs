@@ -34,7 +34,7 @@ The ServiceNow® Instance Scan engine is used to interrogate your instance for c
 The ServiceNow® Legacy Application Manager application enables administrators to install and manage applications. This application is deprecated as of Australia patch 1.
 -   **[Localization Workspace release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/localization-workspace-rn.md)**  
 The ServiceNow® Localization Workspace application is a targeted translation management experience for content owners and translation fulfillers that you can use to manage and deliver multilingual content at scale. Localization Workspace was enhanced and updated in the Australia release.
--   **[MCP Server Console release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/mcp-server-console-rn.md)**  
+-   **[MCP Server Console release notes]()**  
 The ServiceNow® MCP Server Console application enables secure and governed access to functionality on a ServiceNow instance for AI applications with Model Context Protocol \(MCP\) servers. MCP servers extend ServiceNow AI Platform® functionality into any external MCP client and employee experience over the Model Context Protocol. MCP Server Console is a new application in the Australia release.
 -   **[Notifications release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/notifications-rn.md)**  
 The ServiceNow® Notifications application enables you to create, manage, and send custom notifications in workflows for important events, actions, and alerts. Notifications was enhanced and updated in the Australia release.
@@ -46,6 +46,8 @@ The ServiceNow® ServiceNow Otto for Setup application centralizes instance mana
 The ServiceNow AI Platform® core features provide configurations for applications and other parts of the ServiceNow AI Platform. The ServiceNow AI Platform core features were enhanced and updated in the Australia release.
 -   **[Subscription Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/subscription-management-rn.md)**  
 The ServiceNow® Subscription Management application enables you to manage your subscriptions proactively and monitor subscription usage on your instances. Subscription Management was enhanced and updated in the Australia release.
+-   **[System Localization release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/system-localization-rn.md)**  
+The ServiceNow® System Localization application enables users to interact with your instance in their preferred language. See the following sections for release notes by version.
 -   **[Upgrade Console release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/upgrade-console-rn.md)**  
 The ServiceNow® Upgrade Console application guides you for a comprehensive and efficient upgrade experience. Upgrade Console was enhanced and updated in the Australia release.
 

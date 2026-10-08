@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/mv-data-visibility-by-ai-control-tower-role.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 2
 breadcrumb: [Explore, Measure AI system, Measure AI systems, AI Control Tower, Enable AI experiences]
 ---
@@ -16,7 +16,7 @@ The AI Control Tower shows value, engagement, and cost data for the AI systems i
 
 AI Control Tower supports two responsibility levels. AI stewards oversee AI systems at the instance level. Product owners oversee individual AI systems.
 
-To access AI Control Tower, users must have either the AI steward role \(`sn_ai_governance_ai_steward`\) or the product owner \(`sn_ai_governance_ai_asset_owner`\) role. Users without one of these roles can’t access the application.
+To access AI Control Tower, users must have either the AI steward role \(`sn_ai_governance.ai_steward`\) or the product owner \(`sn_ai_governance_ai_asset_owner`\) role. Users without one of these roles can’t access the application.
 
 ## Data scope for each role
 

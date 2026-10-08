@@ -44,8 +44,8 @@ Configure the templates and cost inputs used to calculate the value your AI asse
 
 |Setup area|Setup item|Description|
 |----------|----------|-----------|
-|Value and cost configuration|Value templates|Select from existing value templates or create custom templates to define, calculate, and track the value your AI assets deliver. For more information, see .|
-|Value and cost configuration|Cost framework|Configure cost and productivity inputs, such as hourly rates and AI costs by vendor, to calculate the net return on your AI investment. For more information, see .|
+|Value and cost configuration|Value templates|Select from existing value templates or create custom templates to define, calculate, and track the value your AI assets deliver. For more information, see [Value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/mv-value.md).|
+|Value and cost configuration|Cost framework|Configure cost and productivity inputs, such as hourly rates and AI costs by vendor, to calculate the net return on your AI investment. For more information, see [Cost](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/mc-cost.md).|
 
 ## ServiceNow AI settings
 

@@ -7,7 +7,7 @@ release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2025-12-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Generative AI, Generative AI for Customer Service Management, Generative AI for customer service agents]
 breadcrumb: [Sentiment analysis case, Activate ServiceNow Otto Skills, Configure, ServiceNow Otto for CSM, Customer Service Management]
@@ -19,7 +19,7 @@ Change a sentiment analysis insight to display sentiment data from a different f
 
 ## Before you begin
 
-Role required: admin or maint
+Role required: admin
 
 General ServiceNow platform knowledge is required for this procedure.
 

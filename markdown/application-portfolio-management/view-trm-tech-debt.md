@@ -1,6 +1,6 @@
 ---
 title: View Technology Reference Model technical debts
-description: View Technology Reference Model \(TRM\) technical debts created for products that are not aligned with TRM phases and standards.
+description: View Technology Reference Model \(TRM\) technical debts created for products that aren't aligned with TRM phases and standards.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/view-trm-tech-debt.html
 release: australia
@@ -13,7 +13,7 @@ breadcrumb: [Working with Technology Reference Model \(TRM\) in EA Workspace, Ma
 
 # View Technology Reference Model technical debts
 
-View Technology Reference Model \(TRM\) technical debts created for products that are not aligned with TRM phases and standards.
+View Technology Reference Model \(TRM\) technical debts created for products that aren't aligned with TRM phases and standards.
 
 ## Before you begin
 
@@ -41,7 +41,9 @@ Technical debt records persist across job runs instead of being deleted and re-c
 
     **Note:** You can also open this list directly by selecting the **Business applications with TRM technical debt** card in the **Portfolio Overview and Health** section on the Enterprise Architecture Workspace home page.
 
-4.  In the **Reason** column, select a value to open the technical debt record.
+4.  In the **Number** column, select a value to open the technical debt record.
+
+    **Note:** Technical debt records created before an upgrade to Enterprise Architecture Workspace version 10.1.3 display **\(empty\)** in the **Number** column. Select **\(empty\)** to open these records.
 
     For field information, see [TRM technical debt form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-trm-technical-debt-form.md).
 
@@ -81,7 +83,7 @@ The list displays TRM products, associated business application details, and the
 
 [Add a TRM product lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-create-trm-prod-lifecycle-req.md)
 
-[Exploring the Technology Reference Model in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-managing-the-technology-portfolio.md)
+[Technology Reference Model in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-managing-the-technology-portfolio.md)
 
 [View or update your TRM requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-view-update-trm-requests.md)
 

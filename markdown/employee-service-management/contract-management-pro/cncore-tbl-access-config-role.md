@@ -57,9 +57,9 @@ The user who with the sn\_cm\_core.contract\_config role can update template map
 
 [Add Contract requests tab to the contract request record]()
 
-[Add amendment tabs to contract repository record]()
-
 [Add Contract documents tab to the contract repository record]()
+
+[Add amendment tabs to contract repository record]()
 
 [Copy fields from parent request to contract request]()
 
@@ -67,7 +67,7 @@ The user who with the sn\_cm\_core.contract\_config role can update template map
 
 [Add access to obligation management from contract repository records]()
 
-[Configure the contract request form header for your workspace]()
+[Configure the contract request form header]()
 
 [Enable contract request fields in condition builders]()
 

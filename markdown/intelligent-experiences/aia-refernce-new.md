@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/aia-refernce-new.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 10
 breadcrumb: [AI Agent Studio, Enable AI experiences]
 ---
@@ -40,7 +40,7 @@ AI Agent Viewer \[sn\_aia.viewer\]
 
 </td><td>
 
-Read-only access to the application. A user with the sn\_aia\_viewer role has read and report access on all tables.
+Read-only access to the application. A user with the sn\_aia\_viewer role has read and report access on all tables. **Note:** The sn\_aia.admin and the sn\_aia.viewer roles should not be given to the same user. If a user has both roles, then AI Agent Studio will only be accessible in read-only mode for that user.
 
 </td></tr><tr><td>
 
@@ -356,16 +356,6 @@ Specifies the maximum number of cursor-based pagination iterations to perform wh
 
 </td></tr><tr><td>
 
-mcp\_guardian\_check
-
-</td><td>
-
-Determines whether AI Guardian runs on MCP tool executions.You can enable guardian check for MCP Client when the value is set to **true**. The default value is **false**.
-
-**Note:** To enable guardian check for MCP Client, ensure that you enable AI Guardian on **AI Agent Studio** &gt; **Settings** page.
-
-</td></tr><tr><td>
-
 com.glide.agentic\_processes\_view.enabled
 
 </td><td>
@@ -568,6 +558,18 @@ Determines whether agentic AI-generated responses in ServiceNow Otto panel or in
 </td><td>
 
 false
+
+</td></tr><tr><td>
+
+mcp\_guardian\_check
+
+</td><td>
+
+Determines whether AI Guardian runs on MCP tool executions.**Note:** To enable guardian check for MCP Client, ensure that you enable AI Guardian on **AI Agent Studio** &gt; **Settings** page.
+
+</td><td>
+
+You can enable guardian check for MCP Client when the value is set to **true**. The default value is **false**.
 
 </td></tr><tr><td>
 

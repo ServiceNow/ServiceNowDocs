@@ -46,6 +46,8 @@ View and download a signed contract document as a legal user.
 
 [Contract amendments]()
 
+[Contract renewals]()
+
 [Linking parent-child contracts]()
 
 [Internal review overview]()
@@ -53,8 +55,6 @@ View and download a signed contract document as a legal user.
 [Signature workflow for a request]()
 
 [Cancel a legal request]()
-
-[View contract requests]()
 
 [Manage Contract Management Pro for Legal Service Delivery]()
 

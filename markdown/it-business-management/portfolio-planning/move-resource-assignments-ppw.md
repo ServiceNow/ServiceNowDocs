@@ -1,0 +1,56 @@
+---
+title: Move a resource assignment
+description: Move a resource assignment to different start and end dates depending on the availability of the resource.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/portfolio-planning/move-resource-assignments-ppw.html
+release: australia
+product: Portfolio Planning
+classification: portfolio-planning
+topic_type: task
+last_updated: "2026-10-05"
+reading_time_minutes: 1
+breadcrumb: [Manage resources for demands, Use, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
+---
+
+# Move a resource assignment
+
+Move a resource assignment to different start and end dates depending on the availability of the resource.
+
+## Before you begin
+
+Role required: it\_demand\_manager
+
+## About this task
+
+-   The resource assignment dates honor the task dates. The start and end dates of the resource assignments should be within the task start and end dates.
+-   When a resource assignment is moved beyond the task dates, the allocations outside the dates are cleared.
+-   A resource assignment cannot be moved if actual efforts are captured for the work.
+
+    Use the **Show actuals** toggle \(\[Omitted image "rmw-show-actuals-toggle.png"\] Alt text: Toggle button to view actual hours in Resource Management Workspace\) from the settings \(\[Omitted image "rmw-settings-panel-icon.png"\] Alt text: Gear icon to view or hide settings side panel.\) side panel to view the efforts captured for an assignment via time cards.
+
+
+## Procedure
+
+1.  Navigate to **Workspaces** &gt; **Portfolio Planning Workspace**.
+
+2.  Select the Demands icon \[Omitted image "demands-icon.png"\].
+
+3.  Open a demand from the **List** page.
+
+4.  Select the **Resources** tab.
+
+    The resource grid opens for the demand's timeline, grouped by **Primary Group**.
+
+5.  Select the row context menu \(\[Omitted image "icon-row-context-menu.png"\] Alt text: Three vertical dots icon for row context menu.\) for any resource assignment row and select **Move**.
+
+6.  In the move assignment modal, you can either enter or select the new start date using the date picker modal from the **New start date** field.
+
+7.  Change the assignment status using the **New status** list.
+
+8.  Select **Confirm**.
+
+
+## Example
+
+Consider a resource assignment for Website Overhaul task is assigned to Grace Lee. The task duration is from August 01, 2025 to August 31, 2025. The assignment duration is from August 01, 2025 to August 20, 2025. Now, when you move the assignment start date to August 15, 2025; the new assignment dates will honor the task dates and will auto-assign the work from August 15, 2025 to August 31, 2025. The remaining efforts of the resource are cleared and the cleared capacity is shown as available.
+

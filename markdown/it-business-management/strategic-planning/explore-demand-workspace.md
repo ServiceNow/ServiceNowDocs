@@ -7,8 +7,8 @@ release: australia
 product: Strategic Planning
 classification: strategic-planning
 topic_type: concept
-last_updated: "2026-05-11"
-reading_time_minutes: 3
+last_updated: "2026-09-29"
+reading_time_minutes: 4
 keywords: [explore]
 breadcrumb: [Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -43,6 +43,9 @@ Next Experience for Demand Management provides benefits for demand managers and 
 -   Playbook-guided demand life-cycle: Playbooks define the sequence of stages and activities that demands must go through such as creation, planning, assessment, and approval. Each stage contains a set of prescribed activities that must be completed before demands transition to the next stage. Using playbooks, your organization can define its own processes.
 -   Consolidated data for demand prioritization: Next Experience for Demand Management provides demand details, capacity and risk assessment outputs, and financial summaries in a unified view. Demand managers can compare, rank, and prioritize demands based on defined organizational criteria.
 -   Manage demand financials in one place: Using the Financials tab on the demand record, demand managers can view, plan, and define cost plans, benefit plans, and budgets. Filter by time scope and personalize grid columns without leaving the demand.
+-   Plan demand resources before project conversion: Using the Resources tab on the demand record, demand managers can view resource assignments against resource capacity. They can group assignments by primary group, role, or skill, and adjust allocations before the demand becomes a project.
+-   Tailor demand data capture by governance process: Using demand experiences, admins can configure the form view, modules, and dynamic attributes for different governance processes, such as Marketing or IT. This configuration does not require adding fields to the base demand form.
+-   Score and qualify demands: Using smart assessments, assessments are created, scored, and used to qualify a demand. The smart assessment form is intuitive and efficient for stakeholders to score.
 -   AI system integration through playbook activities: The AI playbook enables associating AI systems to demands through a playbook activity. This feature enables associating a demand with an AI system from directly within the demand workflow.
 -   AI-assisted demand skills: Using the AI skills, demand users and demand managers can expand or condense text content in text fields, summarize the demand, and identify the similar demand records.
 
@@ -53,6 +56,9 @@ To learn more about configuring and using Next Experience for Demand Management,
 -   [Configuring Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/setting-up-demand-workspace.md)
 -   [Using Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/use-demands-dmnd-wpc.md)
 -   [Managing financials for demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/managing-financials-dw.md)
+-   [Manage resources for demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/resource-planning-for-demands-dw.md)
+-   [Enterprise-Wide Deployment for demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/ewd-for-demands-dw.md)
+-   [Assess demands with smart assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/smart-assessments-overview.md)
 -   [Collaborate with docs in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/docs-for-demands-dw.md)
 -   [Next Experience for Demand Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/demand-workspace-reference.md)
 

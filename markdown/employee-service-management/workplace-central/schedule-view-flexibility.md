@@ -1,6 +1,6 @@
 ---
 title: Schedule view flexibility
-description: Event planners and space planners can organize, view, and manage events across multiple spaces and time zones using the Event planner Scheduled view tab.
+description: Event planners and space planners can organize, view, and manage events across multiple spaces and time zones using the Event planner Schedule view tab.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-central/schedule-view-flexibility.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Working with schedule view, Working with Event planner, Use, Workpl
 
 # Schedule view flexibility
 
-Event planners and space planners can organize, view, and manage events across multiple spaces and time zones using the Event planner **Scheduled view** tab.
+Event planners and space planners can organize, view, and manage events across multiple spaces and time zones using the Event planner **Schedule view** tab.
 
 The following configuration options are available on the **Schedule view** tab:
 
@@ -26,42 +26,42 @@ The following configuration options are available on the **Schedule view** tab:
 
     Configure which fields from the space table are displayed as row titles in the Schedule view by setting the **sn\_wsd\_rsv.row\_title\_fields\_event\_planner\_schedule** system property.
 
--   **Configure Event card**
+-   **Event card configuration**
 
     Select which fields from the reservation table are shown on the event card by configuring the **sn\_wsd\_rsv.event\_body\_fields\_event\_planner\_schedule** system property.
 
--   **Additional details in side panel**
+-   **Additional details in the side panel**
 
-    Configure additional space details fields to be viewed in the space details panel using the **sn\_wsd\_rsv.additional\_space\_details\_fields** system property.
+    Configure which additional space details fields appear in the space details panel by using the **sn\_wsd\_rsv.additional\_space\_details\_fields** system property.
 
     **Note:** Images can’t be displayed directly in additional details. If you enter a field name for an image, the system shows the attachment ID instead of the actual image.
 
 -   **Page size**
 
-    The **sn\_wsd\_rsv.page\_size\_event\_planner\_schedule** system property determines the default page size for the event planner schedule view, which is set to 20 by default. Modifying this property can affect the page’s load performance.
+    The **sn\_wsd\_rsv.page\_size\_event\_planner\_schedule** system property determines the default page size for the event planner Schedule view. The default value is 20. Modifying this property can affect the page’s load performance.
 
--   **Zoom in and Zoom out space details**
+-   **Zoom in and zoom out space details**
 
     Adjust the time scale and visual density of the schedule grid using the zoom in and zoom out feature. The default view is set to 100%.
 
 -   **Multiple time zone settings**
 
-    View reservation details in specific time zones in addition to the default time zone. Select the settings icon \[Omitted image "system-settings-icon.png"\] Alt text: and choose a time zone from the available options to update all event times in the Schedule view accordingly.
+    View reservation details in specific time zones alongside the default time zone. Select the settings icon \[Omitted image "system-settings-icon.png"\] Alt text: and choose a time zone from the available options to update all event times in the Schedule view accordingly.
 
--   **Edit events in selected time zone**
+-   **Event editing in the selected time zone**
 
-    You can drag or stretch events to change their time or duration, changes are applied according to the currently selected time zone. A confirm reservation changes pop-up appears to confirm the changes. You can also change the time of the event on the side panel and the time zone changes are applied accordingly.
+    You can drag or stretch events to change their time or duration. Changes are applied according to the currently selected time zone. A Confirm reservation changes dialog box appears so that you can confirm the changes. You can also change the event time in the side panel, and the changes are applied according to the selected time zone.
 
--   **Display multiple time zones**
+-   **Multiple time zone display**
 
-    You can view multiple time zones in the event planner’s Schedule view, with all times shown in a 24-hour format for improved clarity. To configure additional time zones:
+    You can view multiple time zones in the event planner’s Schedule view, with all times shown in a 24-hour format. To configure additional time zones:
 
-    -   Select the Settings icon in the Schedule view.
+    -   Select the settings icon in the Schedule view.
     -   Add up to three additional time zones alongside your default time zone.
-    -   The selected time zones appear in the Schedule view, enabling you to easily coordinate events across different regions.\[Omitted image "wsd-timezone-settings.png"\] Alt text: Multiple timezone settings appear on the page when you select Settings.
+    -   The selected time zones appear in the Schedule view, enabling you to coordinate events across different regions.\[Omitted image "wsd-timezone-settings.png"\] Alt text: Multiple time zone settings appear on the page when you select Settings.
 -   **Group by filter**
 
-    Organize event sections dynamically using the Group by filter in the Advanced filter dialog. In addition to building and floor, you can group by other fields such as campus or space type. Applying a group by filter updates the schedule view to show sections based on the selected attribute. For example, grouping by campus displays separate sections for each campus, while grouping by space type organizes sections according to room types.
+    Organize event sections dynamically using the Group by filter in the Advanced filter dialog box. You can group by building and floor, and by other fields such as campus or space type. Applying a group by filter updates the Schedule view to show sections based on the selected attribute. For example, grouping by campus displays separate sections for each campus, while grouping by space type organizes sections according to room types.
 
 
 **Parent Topic:**[Working with schedule view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/working-with-schedule-view.md)

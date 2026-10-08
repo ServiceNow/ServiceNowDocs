@@ -67,7 +67,7 @@ The Workplace template configuration is added. The template will be applied to t
 
 [Create a Workplace task template]()
 
-[Smart Assessment for Workplace Case and Task]()
+[Smart Assessment for workplace cases and tasks]()
 
 [Automating seat assignment for new hires]()
 

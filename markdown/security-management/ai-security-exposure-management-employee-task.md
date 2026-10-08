@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/security-management/ai-security-exposure-management-employee-task.html
 release: australia
 topic_type: task
-last_updated: "2026-09-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [AI posture finding, AI Security Exposure Management, Employee Center, assignment rule, exception request]
 breadcrumb: [Using Employee Center AI asset remediation, AI Security Exposure Management, Use, Unified Security Exposure Management, Security Operations]

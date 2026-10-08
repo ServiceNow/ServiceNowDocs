@@ -7,7 +7,7 @@ release: australia
 topic_type: topic
 last_updated: "2026-03-12"
 reading_time_minutes: 6
-breadcrumb: [Now Assist and agentic AI release notes, Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
+breadcrumb: [ServiceNow Otto and agentic AI release notes, Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
 
 # ServiceNow Otto in Platform Analytics release notes
@@ -41,7 +41,7 @@ See [ServiceNow Otto for Platform Analytics](https://raw.githubusercontent.com/S
     -   \(June 2026 AI Data Explorer\) Keyboard navigation allows tabbing between the text editor and the icons.
     -   \(June 2026 AI Data Explorer\) Users can use move up/move down control menu items to change the order of question/response nodes in the exploration. Previously they could only drag the nodes.
 
-**Parent Topic:**[Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/now-assist-rn-landing.md)
+**Parent Topic:**[ServiceNow Otto and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/now-assist-rn-landing.md)
 
 ## September 2026
 

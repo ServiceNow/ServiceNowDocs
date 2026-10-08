@@ -8,7 +8,7 @@ product: Performance Analytics
 classification: performance-analytics
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Working with responsive dashboards, Create and use dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
@@ -24,7 +24,7 @@ Role required: None
 
 ## About this task
 
-To filter a dashboard on breakdown elements, such as priorities or categories, select the breakdown source and then select elements within that breakdown source. Reports and appropriately configured Performance Analytics widgets reflect the filter when it is applied. If you select multiple elements, Performance Analytics shows the values associated with those elements as an aggregation or as separated elements, depending on how each Performance Analytics widget is configured. For more information about configuring breakdown dashboards and their widgets, see [Using breakdowns on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_SpecialDashboards.md).
+To filter a dashboard on breakdown elements, such as priorities or categories, select the breakdown source and then select elements within that breakdown source. Reports and appropriately configured Performance Analytics widgets reflect the filter when it is applied. If you select multiple elements, Performance Analytics shows the values associated with those elements as an aggregation or as separated elements, depending on how each Performance Analytics widget is configured. For more information about configuring breakdown dashboards and their widgets, see [Using breakdowns on responsive dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_SpecialDashboards.md).
 
 For performance reasons, there is no option to select all breakdown elements.
 

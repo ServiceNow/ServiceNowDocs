@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-yokohama-australia/australia-yokohama-enterpriseassetmanagement-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 26
+last_updated: "2026-10-08"
+reading_time_minutes: 31
 breadcrumb: [Products combined by family]
 ---
 
@@ -126,7 +126,34 @@ Zurich
 
 </td><td>
 
--   **[Organize your assets into hierarchical asset groups to manage your complex asset ecosystems](https://www.servicenow.com/docs/access?context=asset-groups-eam&family=zurich&ft:locale=en-US)**
+-   **[Create enterprise catalog categories](https://www.servicenow.com/docs/access?context=create-product-catalog-category-eam&family=zurich&ft:locale=en-US)**
+
+Create and manage enterprise catalog categories for the Service Catalog. Catalog categories help you organize related product catalog items into logical groupings within the Service Catalog. You can then use these groupings to locate and request product catalog items more intuitively and efficiently.
+
+
+ -   **[Bulk import enterprise models and assets by using AI-assisted import](https://www.servicenow.com/docs/access?context=importing-data-ai-eam&family=zurich&ft:locale=en-US)**
+
+Streamline the bulk import process for your enterprise models and assets by using AI-assisted import. AI-assisted import automatically analyzes the external model and asset data that you upload into your ServiceNow instance. It then uses AI-powered column and value mappings to automatically align this data with ServiceNow table fields and values, eliminating the need for manual mapping. You can save your completed mappings as templates, further simplifying the import process across future imports. AI-assisted import also provides real-time feedback that helps you identify and resolve errors before you import any data. With AI-assisted import, you can reduce the time and effort that you spend on importing your enterprise models and assets.
+
+-   **[Import enterprise models and assets through enhanced seeded templates](https://www.servicenow.com/docs/access?context=download-seeded-template-manual-bulk-imports&family=zurich&ft:locale=en-US)**
+
+Use enhanced seeded templates to manually import enterprise models and assets into your ServiceNow instance. Each template is preconfigured for a specific import scenario and includes a detailed implementation aid, providing immediate guidance on the fields and formatting required for a successful import.
+
+-   **[Install the Enterprise Asset Management application from the Admin Home page](https://www.servicenow.com/docs/access?context=install-eam-admin-home-page&family=zurich&ft:locale=en-US)**
+
+Install the Enterprise Asset Management application or any Enterprise Asset Management dependent applications from the Admin Home page. The Admin Home page provides an overview of each application that you're entitled to install and configure.
+
+
+ -   **[Manage mission-critical enterprise assets and linear assets for telecommunications networks](https://www.servicenow.com/docs/access?context=eam-dcnam&family=zurich&ft:locale=en-US)**
+
+Use the Enterprise Asset Management for Data Center and Network Asset Management \(DCNAM\) application to track and manage mission-critical facility-based enterprise assets and linear assets for telecommunications networks. Get a comprehensive view of these assets throughout their life cycles so that you can help optimize their performance and improve their longevity.
+
+-   **[Fulfill Return Merchandise Authorization \(RMA\) requests as a Device as a Service \(DaaS\) provider, vendor, or manufacturer](https://www.servicenow.com/docs/access?context=eam-providers&family=zurich&ft:locale=en-US)**
+
+Use the Enterprise Asset Management for Providers application to fulfill the RMA requests that you receive from customers as a DaaS provider, vendor, or manufacturer. The application adds support for RMA response orders, which enable you to track and manage the process of repairing or replacing defective assets for your RMA requests. The application also adds support for inbound asset orders, which enable you to track and manage the process of providing assets for your RMA requests. By managing these orders from a consolidated location, you can streamline your operations and improve efficiency.
+
+
+ -   **[Organize your assets into hierarchical asset groups to manage your complex asset ecosystems](https://www.servicenow.com/docs/access?context=asset-groups-eam&family=zurich&ft:locale=en-US)**
 
 Organize assets into logical groups and subgroups to represent their dependencies and operational relationships. Use a dependency map to visualize the entire structure of the asset hierarchy, making it easy to see all the subgroups and assets within each asset group.
 
@@ -211,7 +238,25 @@ Australia
 
 </td><td>
 
--   **[Automate enterprise asset sourcing by using an agentic workflow](https://www.servicenow.com/docs/access?context=now-assist-eam-help-manage-enterprise-asset-requests-workflow&family=australia&ft:locale=en-US)**
+-   **[Create enterprise catalog categories](https://www.servicenow.com/docs/access?context=create-product-catalog-category-eam&family=australia&ft:locale=en-US)**
+
+Create and manage enterprise catalog categories for the Service Catalog. Catalog categories help you organize related product catalog items into logical groupings within the Service Catalog. You can then use these groupings to locate and request product catalog items more intuitively and efficiently.
+
+
+ -   **[Bulk import enterprise models and assets by using AI-assisted import](https://www.servicenow.com/docs/access?context=importing-data-ai-eam&family=australia&ft:locale=en-US)**
+
+Streamline the bulk import process for your enterprise models and assets by using AI-assisted import. AI-assisted import automatically analyzes the external model and asset data that you upload into your ServiceNow instance. It then uses AI-powered column and value mappings to automatically align this data with ServiceNow table fields and values, eliminating the need for manual mapping. You can save your completed mappings as templates, further simplifying the import process across future imports. AI-assisted import also provides real-time feedback that helps you identify and resolve errors before you import any data. With AI-assisted import, you can reduce the time and effort that you spend on importing your enterprise models and assets.
+
+-   **[Import enterprise models and assets through enhanced seeded templates](https://www.servicenow.com/docs/access?context=download-seeded-template-manual-bulk-imports&family=australia&ft:locale=en-US)**
+
+Use enhanced seeded templates to manually import enterprise models and assets into your ServiceNow instance. Each template is preconfigured for a specific import scenario and includes a detailed implementation aid, providing immediate guidance on the fields and formatting required for a successful import.
+
+-   **[Install the Enterprise Asset Management application from the Admin Home page](https://www.servicenow.com/docs/access?context=install-eam-admin-home-page&family=australia&ft:locale=en-US)**
+
+Install the Enterprise Asset Management application or any Enterprise Asset Management dependent applications from the Admin Home page. The Admin Home page provides an overview of each application that you're entitled to install and configure.
+
+
+ -   **[Automate enterprise asset sourcing by using an agentic workflow](https://www.servicenow.com/docs/access?context=now-assist-eam-help-manage-enterprise-asset-requests-workflow&family=australia&ft:locale=en-US)**
 
 Use the help manage enterprise asset requests agentic workflow to automate the process of sourcing assets for your enterprise asset requests. The workflow uses AI agents to fulfill these requests by allocating assets from local stockrooms, creating transfer orders to move assets between stockrooms, or generating purchase orders for the requested assets.
 
@@ -348,7 +393,12 @@ Zurich
 
 </td><td>
 
--   **[Shipment asset table label](https://www.servicenow.com/docs/access?context=view-enterprise-asset-shipments&family=zurich&ft:locale=en-US)**
+-   **Product catalogs menu item**
+
+In the navigation panel of the Admin center view, the **Product catalogs** menu item has been renamed to **Product catalog items**.
+
+
+ -   **[Shipment asset table label](https://www.servicenow.com/docs/access?context=view-enterprise-asset-shipments&family=zurich&ft:locale=en-US)**
 
 Starting from the Enterprise Asset Management version 9.1.0, the Shipment asset \[sn\_itam\_common\_m2m\_shipment\_asset\] table label has been renamed to Shipment line \[sn\_itam\_common\_m2m\_shipment\_asset\].
 
@@ -448,7 +498,12 @@ Australia
 
 </td><td>
 
--   **[Now Assist to ServiceNow Otto® name change](https://www.servicenow.com/docs/access?context=ai-products&family=australia&ft:locale=en-US)**
+-   **Product catalogs menu item**
+
+In the navigation panel of the Admin center view, the **Product catalogs** menu item has been renamed to **Product catalog items**.
+
+
+ -   **[Now Assist to ServiceNow Otto® name change](https://www.servicenow.com/docs/access?context=ai-products&family=australia&ft:locale=en-US)**
 
 ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
 
@@ -549,7 +604,17 @@ Zurich
 
 </td><td>
 
-The Classification \(classification\) column in the Enterprise good model \[sn\_ent\_model\] table has been deprecated and renamed as Classification \(Deprecated\). The data from this column is available in the new Classification \(classification\_code\) column in the Product model \[cmdb\_model\] table.
+-   **Now LLM Service**
+
+Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+
+
+ -   **[Enterprise model and asset import templates](https://www.servicenow.com/docs/access?context=download-seeded-template-manual-bulk-imports&family=zurich&ft:locale=en-US)**
+
+Enterprise model and asset import templates that were previously generated from Enterprise Asset Management staging tables have been replaced with seeded import templates.
+
+
+ The Classification \(classification\) column in the Enterprise good model \[sn\_ent\_model\] table has been deprecated and renamed as Classification \(Deprecated\). The data from this column is available in the new Classification \(classification\_code\) column in the Product model \[cmdb\_model\] table.
 
 </td></tr><tr><td>
 
@@ -557,7 +622,15 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   **Now LLM Service**
+
+Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+
+
+ -   **[Enterprise model and asset import templates](https://www.servicenow.com/docs/access?context=download-seeded-template-manual-bulk-imports&family=australia&ft:locale=en-US)**
+
+Enterprise model and asset import templates that were previously generated from Enterprise Asset Management staging tables have been replaced with seeded import templates.
+
 
 </td></tr></tbody>
 </table>## Activation information

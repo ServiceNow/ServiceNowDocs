@@ -62,6 +62,8 @@ View and track the warranty details of your Lenovo hardware assets from a centra
 
 [Create an internal lifecycle in the Hardware Asset Workspace]()
 
+[Calculate the active lifecycle phase for a model]()
+
 [Manage stockrooms]()
 
 [Track shipments using the integration framework]()

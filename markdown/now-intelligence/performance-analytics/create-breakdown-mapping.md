@@ -1,6 +1,6 @@
 ---
 title: Assign and map breakdowns
-description: Select which breakdowns to assign to an indicator. Map which field on the indicator source references the breakdown source. If no appropriate field is available, specify a script to associate the indicator and breakdown sources.Collect a matrix of the two-breakdown combinations for an indicator. Exclude unnecessary or meaningless combinations of breakdowns from being collected.
+description: Select which breakdowns to assign to an indicator. Map which field on the indicator source references the breakdown source. If no appropriate field is available, specify a script to associate the indicator and breakdown sources.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/create-breakdown-mapping.html
 release: australia
@@ -8,7 +8,7 @@ product: Performance Analytics
 classification: performance-analytics
 topic_type: task
 last_updated: "2023-08-03"
-reading_time_minutes: 9
+reading_time_minutes: 6
 breadcrumb: [Automated indicators, Indicators, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
 
@@ -52,7 +52,7 @@ You can create multiple mappings for the same breakdown, enabling you to use tha
 
 4.  Complete the breakdown mapping as follows.
 
-<table id="choicetable_xmg_r3d_pdb"><tbody><tr><td id="d201033e219">
+<table id="choicetable_xmg_r3d_pdb"><tbody><tr><td id="d202328e215">
 
 **Use a field to map values to elements.**
 
@@ -60,7 +60,7 @@ You can create multiple mappings for the same breakdown, enabling you to use tha
 
 Select the **Field** in the indicator source that maps to records in the breakdown. See the use of the **Category** field in [Example: Field mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/example-field-mapping.md).
 
-</td></tr><tr><td id="d201033e247">
+</td></tr><tr><td id="d202328e243">
 
 **Use a script to map values to elements.**
 
@@ -84,7 +84,7 @@ Select **Scripted**, then select the **Script** that defines the association bet
 
 ## What to do next
 
-If you have assigned at least two breakdowns to an automated indicator, you can collect the two-breakdown combinations. If you do so, save system resources by excluding meaningless combinations of breakdowns from being collected. See [Collect and manage a matrix of breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/create-breakdown-mapping.md).
+If you have assigned at least two breakdowns to an automated indicator, you can collect the two-breakdown combinations. If you do so, save system resources by excluding meaningless combinations of breakdowns from being collected. See [Collect and manage a matrix of breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/configure-breakdown-matrix.md).
 
 **Important:** If you enable Data snapshots for an indicator, you are not limited to two-breakdown combinations and the indicator does not have a breakdown matrix. For more information, see [Data snapshots and multiple breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/multi-level-breakdowns.md).
 
@@ -104,54 +104,5 @@ In the Platform Analytics experience:
 
 **Previous topic:**[Create an automated indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/t_CreateAnAutomatedIndicator.md)
 
-**Next topic:**[Add a collection job to an indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/t_EditAJobForTheIndicator.md)
-
-## Collect and manage a matrix of breakdowns
-
-Collect a matrix of the two-breakdown combinations for an indicator. Exclude unnecessary or meaningless combinations of breakdowns from being collected.
-
-### Before you begin
-
-Breakdowns must be assigned to the indicator. See [Assign and map breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/create-breakdown-mapping.md).
-
-**Important:** If you enable Data snapshots for an indicator, you are not limited to two-breakdown combinations and the indicator does not have a breakdown matrix. For more information, see [Data snapshots and multiple breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/multi-level-breakdowns.md).
-
-Role required: pa\_data\_collector, pa\_power\_user, pa\_admin, or admin
-
-### About this task
-
-Sometimes, not all breakdown combinations give useful information. For example, the combination \[Country, Region\] gives the same scores as the breakdown Country. You can prevent the instance from collecting data for these invalid combinations with breakdown matrix exclusions. These exclusions are not shown in the Analytics Hub, in KPI Details, or in the scoresheet. You also cannot select excluded breakdown combinations when you create widgets or data visualizations.
-
-To prevent performance issues, the property **com.snc.pa.dc.max\_breakdown\_elements\_level2\_limit** limits the number of elements from breakdown connections that are included in data collection. If you exceed this limit, some of the combinations in your matrix are grayed out. By excluding some breakdown combinations, you can help to avoid exceeding this limit. For more information, see [Performance Analytics properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/pa-properties.md).
-
-**Note:**
-
--   The scores for individual breakdowns are still collected when the combination of those breakdowns has been excluded.
--   Scores that were collected in previous jobs for breakdown combinations are not deleted when those combinations are later excluded. New scores for those combinations are not collected.
--   These instructions are for using the graphical tool to manage breakdown matrix exclusions. However, you can also manage them in the **Breakdown matrix exclusion** tab of the indicator form.
-
-### Procedure
-
-1.  Navigate to **Automated Indicators**.
-
-2.  Select the automated indicator for which you want to configure the breakdown matrix.
-
-3.  Under **Indicator properties**, select the **Collect breakdown matrix** tab.
-
-4.  Select the **Collect breakdown matrix** check box.
-
-5.  Click **Manage Breakdowns**.
-
-6.  Click **Configure Breakdown Matrix**.
-
-    The matrix shows the number of element combinations for each breakdown pair, calculated by multiplying the number of elements for the two breakdowns. Breakdown pairs with a higher number of combinations are shown in a darker color, to help you spot possible performance bottlenecks at a glance. By default, all combinations are included in data collection. You can select combinations to exclude from data collection.
-
-7.  In the **Breakdown Matrix** pop-up, select breakdown combinations to exclude from Analytics Hub and dashboard widgets.
-
-    Included combinations are shaded in the breakdown matrix. Excluded combinations are white. If the number of breakdown combinations exceeds the value of **com.snc.pa.dc.max\_breakdown\_elements\_level2\_limit**, some combinations are grayed out.\[Omitted image "exclude-breakdown-combination.png"\] Alt text: Breakdown matrix with one combination excluded and another with the "Exclude breakdown combination" tool tip.
-
-8.  On the indicator form, open the **Breakdown matrix exclusion** tab and see which breakdown combinations have been excluded.
-
-    You can manage which breakdown combinations to exclude in this tab instead of using the graphical tool.
-
+**Next topic:**[Collect and manage a matrix of breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/configure-breakdown-matrix.md)
 

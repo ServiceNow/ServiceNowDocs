@@ -32,7 +32,7 @@ Core UI dashboards are those created in the classic UI featuring visualizations 
     Both Core UI and Platform Analytics dashboards are found in the Library. Navigate to **Platform Analytics** &gt; **Library** &gt; **Dashboards**.
 
 
-When you edit Core UI dashboards and their content, you do so in the Core UI tools including Report Designer. For more information, see [Reporting, dashboards, and Performance Analytics in the Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/classic-vis-overview.md).
+When you edit Core UI dashboards and their content, you do so in the Core UI tools including Report Designer. However, you can open these tools from the Platform Analytics dashboard and data visualization libraries. For more information, see [Reporting, dashboards, and Performance Analytics in the Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/classic-vis-overview.md).
 
 ## Platform Analytics dashboards
 

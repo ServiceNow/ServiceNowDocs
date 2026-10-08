@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Configure Voice, Configure omnichannel, Configure, Customer Service Management]
+breadcrumb: [OpenFrame overview, Configure voice, Configure omnichannel, Configure, Customer Service Management]
 ---
 
 # OpenFrame events for work items, agent presence, and interactions

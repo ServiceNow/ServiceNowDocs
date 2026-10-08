@@ -28,15 +28,11 @@ Starting from the Australia release, the reclamation workflow can also be comple
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Software asset** &gt; **Software Asset Workspace**.
+1.  Navigate to **Workspaces** &gt; **Software Asset Workspace** &gt; **License operations** &gt; **Reclamation** &gt; **Removal candidates**.
 
-2.  Select **License usage**.
+2.  Select **New** to open the Create New Removal Candidate page.
 
-3.  Select the **Removal candidates** tab.
-
-4.  Select **New** to open the Create New Removal Candidate page.
-
-5.  On the form, fill in the fields.
+3.  On the Removal Candidate form, fill in the fields.
 
 <table id="table_fv5_1xh_wpb"><thead><tr><th>
 
@@ -78,7 +74,7 @@ Name
 
 Removal candidate name that is automatically generated. Contains the software installation display name.
 
- **Note:** If you are using the bulk reclamation functionality, for the name to be generated, at least one software installation must be selected in the removal candidate form. If no software installation is selected, a name isn't generated and the **Name** field is empty. If you add software installations and later decide to remove all of them, the **Name** field returns to being empty.
+ **Note:** If you're using the bulk reclamation functionality, for the name to be generated, at least one software installation must be selected in the removal candidate form. If no software installation is selected, a name isn't generated and the **Name** field is empty. If you add software installations and later decide to remove all of them, the **Name** field returns to being empty.
 
 </td></tr><tr><td>
 
@@ -225,7 +221,7 @@ Potential savings
 
 </td><td>
 
-Estimated cost of savings if all removal candidates are in the Closed Complete state, meaning the software was uninstalled and the rights were harvested \(unused rights \* average price per right from entitlements\).
+Estimated cost of savings if all removal candidates are in the Closed Complete state. This means the software was uninstalled and the rights were harvested \(unused rights \* average price per right from entitlements\).
 
 </td></tr><tr><td>
 
@@ -256,7 +252,7 @@ Work notes
 Used to track the actions that have been performed on this task.
 
 </td></tr></tbody>
-</table>6.  Select **Save**.
+</table>4.  Select **Save**.
 
     The removal candidate record is created. If you selected the **Bulk Reclamation** check box, the state of the removal candidate changes to **Attention Required**. Perform the following sub steps to add software installations before proceeding to the next step. If you didn't select the **Bulk Reclamation** check box, proceed to the next step.
 
@@ -266,7 +262,7 @@ Used to track the actions that have been performed on this task.
 
         The software installation you added appears in the Software Installations related list. The state of the removal candidate moves from **Attention Required** to **Ready** and a name is generated in the **Name** field. Continue to select **New** to add more software installations. If you decide to remove all software installations, then the state reverts back to **Attention Required** and the name no longer appears in the **Name** field. For the name to be generated and for the removal candidate to be in **Ready** state, at least one software installation must be selected in the removal candidate form.
 
-7.  Select **Reclaim**.
+5.  Select **Reclaim**.
 
     Once your software installation is reclaimed and removed from your system, the Software Installation column becomes empty. You can refer to the following fields on the Software installation related list to give you insights into the history of the reclaimed software installation.
 

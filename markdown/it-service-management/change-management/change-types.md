@@ -7,7 +7,7 @@ release: australia
 product: Change Management
 classification: change-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Explore, Change Management, IT Service Management]
 ---
@@ -24,9 +24,11 @@ Change Management supports the three types of service changes ITIL describes —
 
     Approved standard change requests can be predefined in a catalog of templates to make accessing and requesting a standard change more efficient. This ability also enables the Change Management team to control the changes that are authorized as standard.
 
+    For example, a routine TLS certificate renewal or a documented password policy update is typically handled as a standard change.
+
 -   **Emergency change**
 
-    A change that must be implemented as soon as possible, for example to resolve a major incident or implement a security patch. This change is of such a high priority that it bypasses group and peer review and approval and goes straight to the Authorization state for approval by the CAB approval group.
+    A high-priority change implemented immediately to resolve a major incident or apply a security patch. It bypasses group and peer review and goes directly to the Authorization state for CAB approval.
 
     Emergency changes cover the following types of emergencies:
 
@@ -42,7 +44,7 @@ Change Management supports the three types of service changes ITIL describes —
 
     A normal change differs from a standard change in its approval path. Unlike a standard change, which is pre-approved and bypasses Change Advisory Board \(CAB\) authorization, a normal change requires assessment, peer or technical approval, and CAB authorization before implementation.
 
-    Normal change requests follow a prescriptive process which requires two levels of approval before being implemented, reviewed, and closed. These changes require a full range of assessments and authorizations such as peer or technical approval, change management, and Change Advisory Board \(CAB\) authorization, to ensure completeness, accuracy, and the least possible disruption to service. These changes are most often scheduled outside of defined change blackout windows or during defined maintenance windows. The normal type is used to implement beneficial change for any change to a service that is not a standard or emergency change.
+    Normal change requests follow a prescriptive process which requires two levels of approval before being implemented, reviewed, and closed. These changes require a full range of assessments and authorizations such as peer or technical approval, change management, and Change Advisory Board \(CAB\) authorization. This is to confirm completeness, accuracy, and the least possible disruption to service. These changes are most often scheduled outside of defined change blackout windows or during defined maintenance windows. The normal type is used to implement beneficial change for any change to a service that is not a standard or emergency change.
 
 
 The following table summarizes about the three change types:
@@ -52,6 +54,14 @@ The following table summarizes about the three change types:
 |Standard|Yes|No|Low-risk, repeatable changes with a proven history of success.|
 |Normal|No|Yes|Any change that isn't standard or emergency and requires full assessment.|
 |Emergency|No|Yes|High-priority changes that resolve a major incident or apply a security patch.|
+
+## Choosing a change type
+
+Use the following scenarios as a guide:
+
+-   A scheduled upgrade of a production database server that needs peer reviews and CAB authorization is a normal change.
+-   Applying a documented, pre-approved patch from a tested standard change template is a standard change.
+-   Deploying an out-of-band security patch to stop an active exploit is an emergency change.
 
 **Parent Topic:**[Exploring Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/exploring-change-management.md)
 

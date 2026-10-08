@@ -1,6 +1,6 @@
 ---
 title: Create a copy of a work set standard
-description: Create and update a work set standard. Create a copy of a published or retired work set standard to use as a template for a new one.
+description: Use an existing work set standard as a template to create a new work set standard.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/industrial-connected-workforce/digital-factory-workspace/create-copy-of-work-set-standard.html
 release: australia
@@ -9,13 +9,13 @@ classification: digital-factory-workspace
 topic_type: task
 last_updated: "2026-09-03"
 reading_time_minutes: 1
-keywords: [version work set standard, copy work set standard]
+keywords: [copy work set standard]
 breadcrumb: [Create a work set standard, Standard and task life cycles, Industrial Standards, Use, Digital Factory Workspace, Industrial Connected Workforce]
 ---
 
 # Create a copy of a work set standard
 
-Create and update a work set standard. Create a copy of a published or retired work set standard to use as a template for a new one.
+Use an existing work set standard as a template to create a new work set standard.
 
 ## Before you begin
 
@@ -29,7 +29,7 @@ Role required: sn\_icw\_std.work\_set\_standard\_author
 
 3.  From the overflow actions menu, select **Use as template for new standard**.
 
-    This option is available for any state. You can create a work set standard with the same field values and sub-activities as the source standard.
+    This option is available for any state. You can create a work set standard with the same field values and sub-activities as the source standard.For sub-activities with **Schedule-based exception** selected, the custom schedule is also copied to the new standard and can be edited independently of the source.
 
 4.  Update the field values and sub-activities as required.
 
@@ -42,7 +42,7 @@ Role required: sn\_icw\_std.work\_set\_standard\_author
 
 ## Result
 
-After approval, the new version replaces the previous published version, which moves to the **Revised** state. A copied standard is as a new draft that can be edited and approved independently.
+The copied standard is created as a new draft that you can edit and approve independently of the source standard.
 
 **Parent Topic:**[Create a work set standard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/create-work-set-standard.md)
 

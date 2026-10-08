@@ -80,7 +80,7 @@ Users with the report\_admin role can create different kinds of reports in the R
 ### What to do next
 
 -   [Share the report using the Report Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/t_ShareASetting.md).
--   [Publish the report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/t_PublishAReport.md) by generating a URL to share with other users.
+-   Publish the report by generating a URL to share with other users.
 
 **Related topics**  
 

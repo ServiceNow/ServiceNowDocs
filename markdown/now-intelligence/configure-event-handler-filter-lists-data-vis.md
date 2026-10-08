@@ -68,23 +68,11 @@ Role required: ui\_builder\_admin, admin
 
 8.  In the UI Builder, select the Filter component.
 
-9.  Select the **Events** tab in the configuration panel and add the page script you have created, which in our example is Apply PAR Filters, as an event handler.
+9.  Select the **Events** tab in the configuration panel and add the page script you have created, which in this example is Apply PAR Filters, as an event handler.
 
     \[Omitted image "add-apply-par-filters.png"\] Alt text: Adding the Apply PAR Filters script as the Filter applied event handler.
 
-10. In the UI Builder, select a Record List component, if one exists.
-
-11. Open the Presentational List subcomponent of the Record List in the configuration panel.
-
-12. In the Data section, select **Edit fixed filter** and set this property \[fixedQuery\] as the dynamic binding expression `@state.encodedQueries.<list-datasource>`.
-
-    Replace &lt;list-datasource&gt; with the data source for the List component. For example, if your List shows records from the Incident \[incident\] table, enter `@state.encodedQueries.incident`.
-
-    \[Omitted image "configure-fixed-filter.png"\] Alt text: In the fixed filter field on a List config panel, binding the fixedQuery property to the encodedQueries client state parameter.
-
-13. Repeat the previous two steps for any other List components.
-
-14. Save the page.
+10. Save the page.
 
 
 **Parent Topic:**[Technical dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/technical-dashboards.md)

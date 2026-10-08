@@ -36,7 +36,7 @@ Use the AI Admin Hub console to activate the following skills of ServiceNow Otto
 -   Tasks generation
 -   CWM Scrum tasks generation
 
-**Note:** Now LLM Service is the default provider for this Now Assist application's skills.
+**Note:** Now LLM Service is the default provider for ServiceNow Otto for Collaborative Work Management \(CWM\) application's skills, and Gemma 4 is the default model.
 
 ## Procedure
 

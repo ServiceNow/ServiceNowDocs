@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/rn-summary-activation-info.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-23"
-reading_time_minutes: 57
+last_updated: "2026-10-08"
+reading_time_minutes: 60
 breadcrumb: [Release notes summaries for Australia features, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
 
@@ -40,7 +40,7 @@ AI Admin Hub
 
 -   **[Generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills.md)**
 
-Now Assist features are available with activation of any Now Assist plugin from [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home).
+AI features are available with activation of any ServiceNow Otto® plugin from [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home). For AI Admin Hub in the ServiceNow® Store, see [https://store.servicenow.com/store/app/c3b967621b246a50a85b16db234bcb97](https://store.servicenow.com/store/app/c3b967621b246a50a85b16db234bcb97).
 
 
 </td></tr><tr><td>
@@ -82,6 +82,17 @@ AI Risk and Compliance
 </td><td>
 
 Install AI Risk and Compliance by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+</td></tr><tr><td>
+
+AI Search
+
+</td><td>
+
+-   ****
+
+AI Search is a ServiceNow AI Platform feature that is active by default.
+
 
 </td></tr><tr><td>
 
@@ -144,6 +155,17 @@ Adoption Services
 </td><td>
 
 Adoption Services is a ServiceNow AI Platform feature that is active by default.
+
+</td></tr><tr><td>
+
+Advanced AI Search Management Tools
+
+</td><td>
+
+-   ****
+
+Install Advanced AI Search Management Tools by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
 
 </td></tr><tr><td>
 
@@ -261,13 +283,40 @@ Authentication is a ServiceNow AI Platform product that is active by default.
 
 </td></tr><tr><td>
 
-Build Agent
+Automated Test Framework
 
 </td><td>
 
-Build Agent is a ServiceNow AI Platform feature that is active by default.
+Automated Test Framework is a ServiceNow AI Platform feature that is active by default.
 
-**Note:** Build Agent is dependent on ServiceNow Otto for Creator. For more information, see [ServiceNow Otto for Creator release notes]().
+**Note:** By default, the system property that is used to run automated tests is turned off to help prevent you from accidentally running these tests on a production system. To avoid data corruption or an outage, run tests only on development, test, and other non-production instances. For more information, see .
+
+To use the quick start tests for an application, activate the plugin that is associated with the application. For more information, see .
+
+Set the **sn\_atf.runner.enabled** property to **True** to activate the content pack for the ATF Test Generator and Cloud Runner store application.
+
+</td></tr><tr><td>
+
+Autonomous Workforce
+
+</td><td>
+
+-   ****
+
+Contact your ServiceNow account manager to get started with Autonomous Workforce.
+
+**Note:** Domain separation is [not supported](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/domain-separation-aiw.md) on this version of Autonomous Workforce.
+
+
+</td></tr><tr><td>
+
+Build Agent and Autonomous Engineer
+
+</td><td>
+
+Build Agent is a ServiceNow AI Platform feature that is active by default. You must install Autonomous Engineer.
+
+**Note:** Build Agent is dependent on ServiceNow Otto for Creator. For more information, see [ServiceNow Otto for Creator release notes](). Autonomous Engineer is dependent on Build Agent.
 
 </td></tr><tr><td>
 
@@ -659,6 +708,14 @@ Access the Employee Slate setup experience through the profile icon to configure
 
 </td></tr><tr><td>
 
+Employee Slate for ITSM
+
+</td><td>
+
+Enable Employee Slate for ITSM by setting up Moveworks for Employee Slate and enabling the Employee Slate for ITSM plugin. For more information, see [Configure Employee Slate for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/configure-employeeworks-itsm.md).
+
+</td></tr><tr><td>
+
 Encryption
 
 </td><td>
@@ -708,6 +765,19 @@ Event Management
 </td><td>
 
 Event Management is available with activation of the Event Management plugin \(com.glideapp.itom.snac\). For details, see [Request Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/t_EMActivatePlugin.md).
+
+</td></tr><tr><td>
+
+External Content Connectors
+
+</td><td>
+
+-   ****
+
+Install External Content Connectors by requesting the External Content Connectors Application Suite plugin from the ServiceNow Store. If you want to activate the ServiceNow product documentation external content connector or the Webcrawler external content connector, you must request activation of those plugins after the Application Suite is activated.
+
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
 
 </td></tr><tr><td>
 
@@ -844,11 +914,19 @@ ITOM Visibility is available with activation of the Discovery \(com.snc.discover
 
 </td></tr><tr><td>
 
-ITSM Employee Slate for Moveworks
+ITSM MCP Server
 
 </td><td>
 
-Enable ITSM Employee Slate for Moveworks by setting up Moveworks for Employee Slate and enabling the ITSM Employee Slate for Moveworks plugin. For more information, see .
+-   ****
+
+Activate these plugins to use ITSM MCP Server:
+
+    -   Now Assist for ITSM plugin \(sn\_itsm\_gen\_ai\)
+    -   Model Context Protocol Server \(sn\_mcp\_server\)
+    -   ITSM MCP Server \(sn\_itsm\_mcp\_server\)
+For details, see [Activate the ITSM MCP Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/set-up-itsm-mcp-server.md).
+
 
 </td></tr><tr><td>
 
@@ -886,6 +964,28 @@ Incident Management
 </td><td>
 
 Incident Management is a ServiceNow AI Platform feature that is active by default.
+
+</td></tr><tr><td>
+
+Industrial Analytics and Reporting
+
+</td><td>
+
+-   ****
+
+Activate the Industrial Analytics and Reporting plugin and its dependencies: RaptorDB Pro, PA Premium, PA DataSnapshots, and Industrial Guided Tasks. After activation, an administrator sets up the business calendars that drive shift-based data aggregation for each functional location.
+
+
+</td></tr><tr><td>
+
+Industrial Centerlines
+
+</td><td>
+
+-   ****
+
+Industrial Centerlines doesn't have its own SKU. It's included in the ICW Advanced SKU. You can request ICW Advanced from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
 
 </td></tr><tr><td>
 
@@ -988,6 +1088,21 @@ Knowledge Graph
 </td><td>
 
 Knowledge Graph is a ServiceNow AI Platform feature that is active on installation, by default.
+
+</td></tr><tr><td>
+
+L1 IT Service Desk AI Specialist
+
+</td><td>
+
+-   ****
+
+Install L1 IT Service Desk AI Specialist by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+Contact your ServiceNow account manager to get started with L1 IT Service Desk AI Specialist.
+
+**Note:** Domain separation is not supported on this version of L1 IT Service Desk AI Specialist.
+
 
 </td></tr><tr><td>
 
@@ -1147,6 +1262,19 @@ For more information, see [Configuring Now Assist in Document Intelligence](http
 
 </td></tr><tr><td>
 
+On-Call Onboarding
+
+</td><td>
+
+-   ****
+
+Install On-Call Onboarding by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+Australia Patch 4 or later is required to install and use the On-Call Onboarding.
+
+
+</td></tr><tr><td>
+
 On-Call Scheduling
 
 </td><td>
@@ -1206,6 +1334,17 @@ Install Operational Technology Manager by requesting it from the ServiceNow Stor
 
 </td></tr><tr><td>
 
+Operational Technology Setup
+
+</td><td>
+
+-   ****
+
+Operational Technology Setup is available with activation of ServiceNow Otto for OT Service Management or OT Manager Foundation. For details, see [Configuring the OT Manager Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/configuring-na-otm.md) and [Configure ServiceNow Otto for Operational Technology \(OT\) Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/operational-technology/configuring-now-assist-otsm.md).
+
+
+</td></tr><tr><td>
+
 Opportunity Management
 
 </td><td>
@@ -1226,7 +1365,10 @@ Partner Relationship Management
 
 </td><td>
 
+-   ****
+
 Install Partner Relationship Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html). Partner Relationship Management is available with activation of the Partner Relationship Management plugin. For details, see [Install Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/install-partner-relationship-management.md).
+
 
 </td></tr><tr><td>
 
@@ -1584,6 +1726,17 @@ ServiceNow IDE is active by default and available for upgrade in the ServiceNow 
 
 </td></tr><tr><td>
 
+ServiceNow Lux Lab for VS Code
+
+</td><td>
+
+-   ****
+
+Install ServiceNow Lux Lab for VS Code by requesting it from the Visual Studio Code Marketplace.
+
+
+</td></tr><tr><td>
+
 ServiceNow Otto for App Engine
 
 </td><td>
@@ -1661,6 +1814,17 @@ ServiceNow Otto for HR Service Delivery \(HRSD\)
 </td><td>
 
 Install ServiceNow Otto for HRSD by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Hardware Asset Management \(HAM\)
+
+</td><td>
+
+-   ****
+
+Install ServiceNow Otto for Hardware Asset Management \(HAM\) by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
 
 </td></tr><tr><td>
 
@@ -1806,9 +1970,9 @@ Activating this plugin automatically activates the following:
     -   Software Asset Workspace store application \(sn\_sam\_workspace\)
 After you activate the Activate all Software Asset Management Professional plugin including the Software Asset Workspace plugin \(com.sn\_samp\_master\_ws\), you can't access the Software Asset Management Core UI.
 
--   **Software Asset Management Foundation plugin \(com.snc.sams\)**
+-   **Basic Software Asset Management \(com.snc.sams\)**
 
-To access the foundation capabilities of Software Asset Management, activate this plugin. After you activate the Software Asset Management Foundation plugin, activate the Software Asset Workspace store application \(sn\_sam\_workspace\) to complete the setup.
+To access the foundation capabilities of Software Asset Management, activate this plugin. After you activate the Basic Software Asset Management, activate the Software Asset Workspace store application \(sn\_sam\_workspace\) to complete the setup.
 
 
 The ServiceNow AI Platform® in the Australia release has limited support for the Software Asset Management classic user interface. However, it remains active in your instance, including when you upgrade to a newer ServiceNow AI Platform® release.
@@ -1853,6 +2017,17 @@ Supplier Lifecycle Operations
 </td><td>
 
 Install Supplier Lifecycle Operations by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+</td></tr><tr><td>
+
+System Localization
+
+</td><td>
+
+-   ****
+
+System Localization is a ServiceNow AI Platform feature that is active by default.
+
 
 </td></tr><tr><td>
 

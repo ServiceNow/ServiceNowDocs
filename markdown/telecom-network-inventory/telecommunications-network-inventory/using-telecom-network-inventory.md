@@ -61,6 +61,8 @@ Use the Design and Assign function for a network service in the Telecommunicatio
 Use the Network visualization view in the Telecommunications Network Inventory application to explore your network site details, datacenters's floor map, and network topology.
 -   **[Viewing rack or cabinet equipment details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/viewing-rack-or-cabinet-equipment-details.md)**  
 View network interfaces and physical connections for equipment placed in a rack or cabinet, without opening each equipment record individually.
+-   **[Generate summary for remote hands case record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/summerizing-remote-hands-case.md)**  
+Remote Hands Request Summarization generates a contextual summary of a Remote Hands case. It combines current case data with insights from similar historical cases using information submitted through the CSM portal.
 -   **[Remote Hands Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/remote-hands-request.md)**  
 Use Remote Hands Request Management to enables customers to request services for equipment housed in your datacenter by connecting them directly with your onsite agents handling the remote hands requests.
 -   **[Access the TNI data model navigator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-network-inventory/telecommunications-network-inventory/access-tni-data-model-navigator.md)**  

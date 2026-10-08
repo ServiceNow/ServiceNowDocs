@@ -76,7 +76,7 @@ The Pipeline management tab enables you to get insights into savings and pipelin
 
 [Spend and Savings Management]()
 
-[Understanding Punchout]()
+[Understanding punchout]()
 
 [AI Search for Sourcing and Procurement Operations]()
 

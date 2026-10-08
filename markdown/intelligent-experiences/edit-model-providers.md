@@ -1,11 +1,11 @@
 ---
 title: Manage model providers
-description: Edit or customise the model provider for a skill or skill group at the instance level from the list of supported third-party model providers, including the default Now LLM Service. You can also review the model policy set by your organisation, and view the change history here.
+description: Edit or customize the model provider for a skill or skill group at the instance level from the list of supported third-party model providers, including the default Now LLM Service. You can also review the model policy set by your organization, and view the change history here.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/edit-model-providers.html
 release: australia
 topic_type: task
-last_updated: "2025-07-02"
+last_updated: "2026-09-16"
 reading_time_minutes: 3
 keywords: [Edit LLM provider, web search]
 breadcrumb: [Manage AI models, AI Admin Hub Settings, Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
@@ -13,11 +13,15 @@ breadcrumb: [Manage AI models, AI Admin Hub Settings, Exploring AI Admin Hub, AI
 
 # Manage model providers
 
-Edit or customise the model provider for a skill or skill group at the instance level from the list of supported third-party model providers, including the default Now LLM Service. You can also review the model policy set by your organisation, and view the change history here.
+Edit or customize the model provider for a skill or skill group at the instance level from the list of supported third-party model providers, including the default Now LLM Service. You can also review the model policy set by your organization, and view the change history here.
 
 ## Before you begin
 
+Confirm that network access to the provider endpoint is allowed by your instance's proxy or firewall rules.
+
 Role required: admin
+
+## About this task
 
 The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
 

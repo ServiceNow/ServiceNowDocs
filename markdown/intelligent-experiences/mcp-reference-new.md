@@ -65,7 +65,7 @@ sn\_aia.enable\_mcp\_tool
 
 </td><td>
 
-Enables access to the MCP Client tool on your ServiceNow instance.Default value: **false**
+Enables access to the MCP Client tool on your ServiceNow instance.Default value: **true**
 
 </td></tr></tbody>
 </table>## MCP Client tables

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/configuring-now-assist.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [Configuring, Now Assist Admin, console, ServiceNow AI Platform, GenAI, Generative AI]
 breadcrumb: [Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
@@ -15,11 +15,11 @@ breadcrumb: [Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
 
 The AI Admin Hub console provides quick and effortless access to the important information that you need to set up, configure, and monitor ServiceNow Otto applications and features.
 
-\[Omitted video\] Description: ServiceNow Otto Admin overview
+x\[Omitted video\] Description: ServiceNow Otto Admin overview
 
 ## AI Admin Hub overview tab
 
-Begin your exploration of the ServiceNow Otto features and skills in the AI Admin Hub console. This console contains everything that you need to install, configure, and learn about the different generative AI features on the ServiceNow AI Platform.
+Begin your exploration of the ServiceNow Otto features and skills in the AI Admin Hub console. This console has everything you need to install the plugins, configure the skills, and learn about the different generative AI features on the ServiceNow AI Platform.
 
 The following example shows the AI Admin Hub Overview page.
 
@@ -72,9 +72,9 @@ Take five steps to begin using the AI Admin Hub console.
     \[Omitted image "explore-now-assist-6.png"\] Alt text: Plugin status shows that three plugins are installed, and three plugins are not installed. The Skills status shows that twelve skills are active, and one skill is inactive.
 
 
-The AI Admin Hub console contains the **ServiceNow Otto journey checklist** with additional instructions for implementing Now Assist on your instance.
+The AI Admin Hub console contains the **ServiceNow Otto journey checklist** with additional instructions for implementing ServiceNow Otto on your instance.
 
-You can consult the following checklist from the AI Admin Hub console Overview page at any time to guide your implementation of Now Assist applications, features, and skills.
+You can consult the following checklist from the AI Admin Hub console Overview page at any time to guide your implementation of ServiceNow Otto applications, features, and skills.
 
 \[Omitted image "now-assist-journey-checklist.png"\] Alt text: The ServiceNow Otto Journey checklist shows the ServiceNow Otto admin journey that was described in the five step workflow of this topic.
 

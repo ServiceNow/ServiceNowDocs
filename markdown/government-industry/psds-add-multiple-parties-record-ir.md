@@ -1,5 +1,5 @@
 ---
-title: Add Multiple Parties to a record in Information Request Playbook
+title: Add Multiple Parties to a record in Information Request Administration
 description: As a government agent, you can add other business contacts or constituents to an information request application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/psds-add-multiple-parties-record-ir.html
@@ -7,10 +7,10 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Using Information Request Playbook, Playbooks, Use, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Using Information Request Administration, Playbooks, Use, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Add Multiple Parties to a record in Information Request Playbook
+# Add Multiple Parties to a record in Information Request Administration
 
 As a government agent, you can add other business contacts or constituents to an information request application.
 
@@ -20,7 +20,7 @@ Role required: admin
 
 ## Procedure
 
-1.  Open the Information Request Playbook by navigating to Lists in the CRM Workspace.
+1.  Open the Information Request Administration by navigating to Lists in the CRM Workspace.
 
 2.  Navigate to the **Information Requests** list and select **All**.
 
@@ -28,7 +28,7 @@ Role required: admin
 
     **Note:** Related parties can only be edited if the case is in the **Intake** or **Review** stage.
 
-4.  Navigate to the **Add related parties** activity in the Intake stage of Information Request Playbook.
+4.  Navigate to the **Add related parties** activity in the Intake stage of Information Request Administration.
 
 5.  Select **Add Related Party**.
 

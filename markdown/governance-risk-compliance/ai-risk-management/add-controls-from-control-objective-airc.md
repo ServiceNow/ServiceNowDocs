@@ -7,8 +7,8 @@ release: australia
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 keywords: [add controls, control objective, AI asset governance]
 breadcrumb: [Manage controls, Use, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
@@ -20,6 +20,10 @@ Add controls manually from published control objectives to an AI asset in AI Ris
 ## Before you begin
 
 Role required: sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_analyst
+
+## About this task
+
+Controls are typically generated and mapped to an AI asset automatically when an impact assessment is completed and marked as Closed complete. When controls are not generated automatically, or when additional governance controls are required beyond those mapped through the assessment, you can add them manually from published control objectives in the inventory. Adding controls creates active control records on the AI asset and makes them available for attestation. For more information about how controls are generated automatically, see [Assessment templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/airc-assessment-templates.md).
 
 ## Procedure
 
@@ -39,6 +43,14 @@ Role required: sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_analyst
 
     The corresponding controls are created and activated for the AI asset.
 
+
+## Result
+
+Controls are created and activated on the AI asset record. They are now available for attestation and appear in the **Controls** list under **Applies to**.
+
+## What to do next
+
+To create attestations for the newly added controls, see [Create control attestations for an AI asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/attest-controls-for-ai-systems.md). To remove or delete controls from the AI asset, see [Remove controls from an AI asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/remove-controls-from-an-ai-asset.md) and [Delete controls from an AI asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/delete-controls-from-an-ai-asset.md).
 
 **Parent Topic:**[Manage controls using AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/manage-controls-in-airc.md)
 

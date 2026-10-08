@@ -44,7 +44,7 @@ This method requires fewer permissions than the ServiceNow DaemonSet method and 
 
 ## What to do next
 
-[Create application service maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/create-an-app-service-map-kva.md)
+[Create service maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/create-an-app-service-map-kva.md)
 
 **Parent Topic:**[Enabling application service maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/enabling-application-service-maps.md)
 

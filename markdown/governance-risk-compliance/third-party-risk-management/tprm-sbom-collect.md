@@ -7,8 +7,8 @@ release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-05-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 keywords: [SBOM, software bill of materials, due diligence, vendor risk assessment, external assessment, engagement]
 breadcrumb: [Collecting software bill of materials, Assess third-party risk, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -20,12 +20,13 @@ Turn on SBOM collection on a due diligence request and send the external assessm
 ## Before you begin
 
 -   Confirm that the following applications are installed for SBOM file collection:
-    -   SBOM Core \(sn\_sbom\_core\)
-    -   Data Model for SBOM \(sn\_sbom\_dm\)
+    -   Security Support Common \(com.snc.security\_support.common\), a soft dependency that must be installed before the other required SBOM applications
+    -   Data Model for SBOM \(com.snc.sbom\_dm\)
+    -   SBOM Core \(com.snc.sbom\_core\)
 -   If your organization requires vulnerability details for SBOM components, confirm that the following additional applications are installed:
 
-    -   SBOM Response \(sn\_sbom\_resp\)
-    -   Vulnerability Response \(sn\_vul\)
+    -   SBOM Response \(com.snc.sbom\_resp\)
+    -   Vulnerability Response \(com.snc.vulnerability\)
     For more information see, [Activate SBOM support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/sbom-activate.md).
 
 -   Confirm that the engagement uses the Smart Assessment Engine. SBOM collection isn't supported for Classic assessments.
@@ -45,15 +46,15 @@ The engagement-level external assessment is the mechanism through which SBOM inf
 
 1.  Turn on SBOM collection for the engagement.
 
-<table><thead><tr><th align="left" id="d251493e196">
+<table><thead><tr><th align="left" id="d255377e203">
 
 Option
 
-</th><th align="left" id="d251493e199">
+</th><th align="left" id="d255377e206">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d251493e205">
+</th></tr></thead><tbody><tr><td id="d255377e212">
 
 **New due diligence request**
 
@@ -64,7 +65,7 @@ Steps
 3.  Complete the request.
  For details, see [Request due diligence for a third-party engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-ws-request-dd-for-engagement.md).
 
-</td></tr><tr><td id="d251493e240">
+</td></tr><tr><td id="d255377e247">
 
 **Existing due diligence request**
 

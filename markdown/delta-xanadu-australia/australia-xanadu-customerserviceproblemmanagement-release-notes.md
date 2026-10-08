@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-xanadu-australia/australia-xanadu-customerserviceproblemmanagement-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
@@ -99,7 +99,12 @@ Zurich
 
 </td><td>
 
--   **[Setting up a test group](https://www.servicenow.com/docs/access?context=setting-test-group&family=zurich&ft:locale=en-US)**
+-   **[Components](https://www.servicenow.com/docs/access?context=spm-components&family=zurich&ft:locale=en-US)**
+
+The granular admin role enables developers and administrators to complete administrative configuration tasks for Customer Service Problem Management without requiring the full admin role.
+
+
+ -   **[Setting up a test group](https://www.servicenow.com/docs/access?context=setting-test-group&family=zurich&ft:locale=en-US)**
 
 Enables the system to trigger the required tests for service problem cases, incidents, and change request, helping to identify the root cause of the problem. Test group includes test definitions.
 
@@ -199,7 +204,12 @@ Australia
 
 </td><td>
 
--   **[Diagnose and resolve a service problem case](https://www.servicenow.com/docs/access?context=work-on-service-problem-case&family=australia&ft:locale=en-US)**
+-   **[Now LLM service deprecation](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=australia&ft:locale=en-US)**
+
+The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
+
+
+ -   **[Diagnose and resolve a service problem case](https://www.servicenow.com/docs/access?context=work-on-service-problem-case&family=australia&ft:locale=en-US)**
 
 A refresh button is added to the Repair stage in the Service Problem Case.
 
@@ -339,6 +349,8 @@ Zurich
 Install Customer Service Problem Management and Service Test Management by requesting it from the ServiceNow® Store.
 
 
+**Important:** Customer Service Problem Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Australia
@@ -349,6 +361,8 @@ Australia
 
 Install Customer Service Problem Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
 
+
+**Important:** Customer Service Problem Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements

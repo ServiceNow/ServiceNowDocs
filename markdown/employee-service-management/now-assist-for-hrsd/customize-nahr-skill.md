@@ -20,7 +20,7 @@ Role required: sn\_hr\_core.admin
 
 The skills that come with the ServiceNow Otto applications have defaults configurations that are optimized to serve the most common use cases. The base system skills can be tailored to meet specific business requirements. Customization ensures that skills align with your organization's workflows, data sources, and user roles. There are two main ways to customize:
 
--   Using ServiceNow Otto Admin console: Modify base system skills, input configurations, and display settings. Make a copy of the skill as you cannot directly modify the base system skill. For more information, see [Make a copy of AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/make-a-copy-of-a-now-assist-skill.md).
+-   Using ServiceNow Otto Admin console: Modify base system skills, input configurations, and display settings. Make a copy of the skill as you cannot directly modify the base system skill. For more information, see [Make a copy of an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/make-a-copy-of-a-now-assist-skill.md).
 -   Using AI Skill Kit: Build and publish custom skills for advanced use cases by customizing inputs and prompts, and then publish it. You can also use the AI Skill Kit to clone base system skills, as long as they are the latest versions created after the release of the AI Skill Kit. For more information, see [Using AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/using-now-assist-skill-kit.md).
 
 Unified Admin Experience for GenAI Skills:

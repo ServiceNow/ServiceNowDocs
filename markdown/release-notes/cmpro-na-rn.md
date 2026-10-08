@@ -16,7 +16,7 @@ The ServiceNow Otto for Contract Management Pro uses generative AI capabilities 
 
 ## About ServiceNow Otto for Contract Management Pro
 
-
+[Australia Patch 6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-6.md)
 
 -   Contract Management Pro MCP Server to retrieve the approved contract analysis playbook for external AI tools, enabling the use of organization's standard terms and approved clause language when reviewing contracts.
 -   Contract document-based conversational search queries now return all matching results instead of 10 results. Use Show more option to load the remaining results.
@@ -38,7 +38,7 @@ The ServiceNow Otto for Contract Management Pro uses generative AI capabilities 
 -   Configure use case mappings to extract metadata and obligations from a signed contract that is uploaded directly on a contract record.
 -   Use AI powered conversational search to query contract documents using natural language and dialogue-driven queries, making it easier to find relevant information.
 
-See  for more information.
+See [AI capabilities in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/cncore-exp-now-assist-land.md) for more information.
 
 ## Activation and other requirements
 
@@ -49,7 +49,7 @@ See  for more information.
     Install Contract Management Pro - Prime by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
-**Parent Topic:**[Contract Management Pro release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/cmpro-rn.md)
+**Parent Topic:**[Contract Management Pro release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/cmpro-landing-page.md)
 
 ## September 2026
 

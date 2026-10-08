@@ -8,7 +8,7 @@ product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 26
+reading_time_minutes: 16
 keywords: [Patterns, Azure, Cloud, Discovery]
 breadcrumb: [Available cloud discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
@@ -33,7 +33,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 -   **Azure Availability Set**
 
-    Wait for the **Clean-Up job for Availability zone to clear availability set record** schedule job to delete all the pre-populated availability set's Configuration Items \(CI\) in the **cmdb\_ci\_azure\_availability\_set** table.
+    Wait for the **Clean-Up job for Availability zone to clear availability set record** schedule job to delete all the pre-populated Configuration Items \(CIs\) in the **cmdb\_ci\_azure\_availability\_set** table.
 
 -   **Azure Availability Zone**
 
@@ -56,7 +56,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
     Starting with Discovery and Service Mapping Patterns version 1.30.2, you can improve query performance by populating Service Account and Logical Datacenter fields directly in cloud CIs. For more information, see [Improved query performance with direct field population in CI tables]().
 
 
-## Verify the REST API Permissions
+## Verify the REST API permissions
 
 Download the [Cloud Discovery patterns spreadsheet](https://downloads.docs.servicenow.com/resource/enus/api/servicenow-discovery-patterns-api-details.xlsx) so you can grant user permissions required for running the Discovery patterns. In addition to permissions, the spreadsheet also includes useful information such as pattern names, types, CI Classes, and links to vendor documentation. New patterns are available quarterly, so check periodically to be sure you have the latest version of the spreadsheet.
 
@@ -168,584 +168,7 @@ The flow is as described in [KB1285337](https://support.servicenow.com/kb?id=kb_
 Either **Hardware Type \(LP\)** pattern or **Cloud Hardware Type \(LP\)** pattern executes.
 
 </td></tr></tbody>
-</table>## Azure SQL Managed Instance license discovery
-
-The Azure DataBase \(LP\) pattern extension **Azure SQL Managed Instance license** discovers Azure SQL Managed Instance license information and populates the license type in the Key Value \[cmdb\_key\_value\] table of Cloud Database CI \[cmdb\_ci\_cloud\_database\].
-
--   **Required plugins and applications**
-    -   Software Asset Management Professional for Microsoft
-    -   Visibility Content
--   **Discovered resources and relationships**
-
-    [Resources discovered using the Azure DataBase \(LP\) pattern extension: Azure SQL Managed Instance license](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/azure-cloud-discovery-patterns.md)
-
-    [Relationships discovered using the Azure DataBase \(LP\) pattern extension: Azure SQL Managed Instance license](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/azure-cloud-discovery-patterns.md)
-
-
-## Azure Marketplace discovery
-
-The Azure - Marketplace LB \(LP\) pattern discovers the following Azure Marketplace products:
-
--   SaaS
--   Azure Application
--   Virtual Machine
-
-    **Note:** The pattern discovers only virtual machines \(VMs\) created from third-party or commercial marketplace images.
-
-
--   **Discovered resources and relationships**
-
-    [Resources discovered by the Azure - Marketplace LB \(LP\) pattern](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/azure-cloud-discovery-patterns.md)
-
-    [Relationships discovered using the Azure - Marketplace LB \(LP\) pattern](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/azure-cloud-discovery-patterns.md)
-
-
-## Data collected by Discovery during horizontal discovery
-
--   **Resources discovered by the Microsoft Azure - Resource Group \(LP\) pattern**
-
-    |Field|Description|
-    |-----|-----------|
-    |Object ID \[object\_id\]|A unique identifier, allocated by Microsoft Azure for this resource.|
-    |Name \[name\]|The Name or ID if no Name is specified for the resource group.|
-    |Location \[location\]|Path of the resource group.|
-    |State \[state\]|The current state of the resource group.|
-    |Install Status \[install\_status\]|Resource provisioning status.|
-
--   **Resources discovered by the Microsoft Azure - Route Table \(LP\) pattern**
-
-    |Field|Description|
-    |-----|-----------|
-    |Object ID \[object\_id\]|A unique identifier, allocated by Microsoft Azure for this resource.|
-    |Name \[name\]|The Name or ID if no Name is specified for the route table.|
-    |Location \[location\]|Path of the route table.|
-    |Install Status \[install\_status\]|Resource provisioning status.|
-    |State \[state\]|The current state of the route table.|
-
--   **Resources discovered by the Microsoft Azure - Security Group \(LP\) pattern**
-
-    |Field|Description|
-    |-----|-----------|
-    |Object ID \[object\_id\]|A unique identifier, allocated by Microsoft Azure for this resource.|
-    |Name \[name\]|The Name or ID if no Name is specified for the security group.|
-    |Location \[location\]|Path of the security group.|
-    |State \[state\]|The current state of the security group.|
-    |Install Status \[install\_status\]|Resource provisioning status.|
-
--   **Resources discovered by the Microsoft Azure - SQL Server \(LP\) pattern**
-
-    |Field|Description|
-    |-----|-----------|
-    |Object ID \[object\_id\]|A unique identifier, allocated by Microsoft Azure for this resource.|
-    |Location \[location\]|Path of the VM instance.|
-
-<table id="table_x1d_tw1_23c"><thead><tr><th>
-
-Field
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Key \[key\]
-
-</td><td>
-
-Server\_License\_Type\_automatic
-
-</td></tr><tr><td>
-
-Value \[value\]
-
-</td><td>
-
-The value is one of the following options: -   Azure Hybrid Benefit: **BYOL**
--   Pay-as-you-go licensing: **License Included**
-
-
-</td></tr><tr><td>
-
-Configuration item \[configuration\_item\]
-
-</td><td>
-
-References the Virtual Machine Instance \[cmdb\_ci\_vm\_instance\] table.
-
-</td></tr></tbody>
-</table>-   **Resources discovered by the Microsoft Azure - Storage Account \(LP\) pattern**
-
-    |Field|Description|
-    |-----|-----------|
-    |Object ID \[object\_id\]|A unique identifier, allocated by Microsoft Azure for this resource.|
-    |Name \[name\]|The Name or ID if no Name is specified for the storage account.|
-    |Location \[location\]|Path of the storage account.|
-    |Sku Name \[sku\_name\]|The name of the stock keeping unit \(SKU\) for backup frequency.|
-    |Install Status \[install\_status\]|Resource provisioning status.|
-    |State \[state\]|The current state of the storage account.|
-
--   **Resources discovered by the Microsoft Azure - Storage Containers \(LP\) pattern**
-
-    |Field|Description|
-    |-----|-----------|
-    |Name \[name\]|The name of the storage container.|
-    |Object ID \[object\_id\]|A unique identifier for the storage container.|
-    |Comments \[comments\]|Identifier for internal usage \(deletion strategy\).|
-    |Install Status \[install\_status\]|Resource provisioning status.|
-
--   **Resources discovered by the Microsoft Azure - Storage Volume \(LP\) pattern**
-
-<table id="table_nps_rdl_rnb"><thead><tr><th>
-
-Field
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Object ID \[object\_id\]
-
-</td><td>
-
-A unique identifier, allocated by Microsoft Azure for this resource.
-
-</td></tr><tr><td>
-
-Name \[name\]
-
-</td><td>
-
-The Name or ID if no Name is specified for the storage volume.
-
-</td></tr><tr><td>
-
-Volume ID \[volume\_id\]
-
-</td><td>
-
-The volume type. For example:-   `gp2` for General Purpose SSD
--   `io1` for Provisioned IOPS SSD
--   `st1` for Throughput Optimized HDD
--   `sc1` for Cold HDD
--   `standard` for Magnetic volumes
-
-
-</td></tr><tr><td>
-
-Location \[location\]
-
-</td><td>
-
-Path of the storage volume.
-
-</td></tr><tr><td>
-
-State \[state\]
-
-</td><td>
-
-The current state of the storage volume.
-
-</td></tr><tr><td>
-
-Install Status \[install\_status\]
-
-</td><td>
-
-Resource provisioning status.
-
-</td></tr><tr><td>
-
-Size \[size\]
-
-</td><td>
-
-The size of the volume.
-
-</td></tr><tr><td>
-
-Size bytes \[size\_bytes\]
-
-</td><td>
-
-The size of the volume in bytes.
-
-</td></tr><tr><td>
-
-Storage type \[storage\_type\]
-
-</td><td>
-
-For example, hard-coded value "block".
-
-</td></tr><tr><td>
-
-Comments \[comments\]
-
-</td><td>
-
-Identifier for internal usage \(deletion strategy\).
-
-</td></tr></tbody>
-</table>-   **Resources discovered by the Microsoft Azure - Sub Account \(LP\) pattern**
-
-    |Field|Description|
-    |-----|-----------|
-    |Object ID \[object\_id\]|A unique identifier, allocated by Microsoft Azure for this resource.|
-    |Account Id \[account\_id\]|The unique identifier \(ID\) of the account.|
-    |Name \[name\]|The Name or ID if no Name is specified for the service account.|
-    |Datacenter Type \[datacenter\_type\]|cmdb\_ci\_azure\_datacenter|
-    |Discovery credentials \[discovery\_credentials\]|Reference field to the related Microsoft Azure credentials.|
-    |Datacenter URL \[datacenter\_url\]|The URL of the datacenter.|
-    |Parent account \[parent\_account\]|Reference to the primary account, if it exists.|
-    |Is management account \[is\_master\_account\]|The Boolean attribute indicating if this is the primary account or not.|
-
--   **Resources discovered by the Microsoft Azure WebSite \(LP\) pattern and Microsoft Azure WebSite pattern**
-
-    |Field|Description|
-    |-----|-----------|
-    |Name \[name\]|The name of the Azure web server.|
-    |Object ID \[object\_id\]|The ID of the Azure web server.|
-    |IP Address \[ip\_address\]|The IP address of the web server.|
-    |Fully qualified domain name \[fqdn\]|The fully qualified domain name \(FQDN\) of the web server.|
-    |Vendor \[vendor\]|The vendor is Microsoft.|
-    |Install Status \[install\_status\]|The install status of the web server.|
-    |State \[state\]|The operational state of the web server.|
-    |Operational status \[operational\_status\]|The operational status of the web server.|
-
-    |Field|Description|
-    |-----|-----------|
-    |Name \[name\]|The IP address of the web server.|
-    |IP Address \[ip\_address\]|The IP address of the web server.|
-    |Fully qualified domain name \[fqdn\]|The fully qualified domain name \(FQDN\).|
-    |Vendor \[vendor\]|The vendor is Microsoft.|
-    |Install Status \[install\_status\]|The install status.|
-    |Operational status \[operational\_status\]|The operational status.|
-
--   **Resources discovered using the Azure DataBase \(LP\) pattern**
-
-    |Field|Description|
-    |-----|-----------|
-    |Fully qualified domain name \[fqdn\]|The FQDN that Microsoft Azure assigned to your database.|
-    |Name \[name\]|The name of the database that you created in Microsoft Azure.|
-    |Object ID \[object\_id\]|The identification name of the database.|
-    |Operational Status \[operational\_status\]|The operational status of the database.|
-    |Type \[type\]|The type of database you created.|
-    |State \[state\]|The state of the database: Whether it's Available or Terminated.|
-    |Vendor \[vendor\]|The vendor name is Azure.|
-    |Version \[version\]|The version of the database.|
-    |Category \[category\]\*|The stock keeping unit \(SKU\) family.|
-
-    \* Populated only by the Azure SQL Managed Instance license pattern extension. For more information, see the "Azure SQL Managed Instance license discovery" section.
-
-    |Field|Description|
-    |-----|-----------|
-    |Object ID \[object\_id\]|A unique identifier for the hardware type.|
-    |Name \[name\]|Name for the hardware type.|
-    |vCPUs \[vcpus\]|Number of virtual CPU cores.|
-    |Provider \[provider\]|Provider for the hardware type: Azure.|
-
-    |Field|Description|
-    |-----|-----------|
-    |Netmask \[netmask\]|Netmask of the Azure database.|
-
--   **Resources discovered using the Azure DataBase \(LP\) pattern extension: Azure SQL Managed Instance license**
-
-<table id="table_jbc_kwd_zbc"><thead><tr><th>
-
-Field
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Key \[key\]
-
-</td><td>
-
-SQL\_Server\_PaaS\_Managed\_Instance\_License\_Type\_automatic
-
-</td></tr><tr><td>
-
-Value \[value\]
-
-</td><td>
-
-License type. The following maps the Azure portal license to ServiceNow values:-   **Azure Hybrid Benefit**: BYOL
--   **Pay as you go**: License Included
--   **Hybrid Failover rights**: Hybrid Failover
-
-
-</td></tr><tr><td>
-
-Configuration item \[configuration\_item\]
-
-</td><td>
-
-References the Cloud DataBase \[cmdb\_ci\_cloud\_database\] table.
-
-</td></tr></tbody>
-</table>    |Field|Description|
-    |-----|-----------|
-    |Object ID \[object\_id\]|Object ID of the Azure cloud database.|
-    |Name \[name\]|SKU name.|
-    |Cloud Vendor \[cloud\_vendor\]|Cloud vendor of the serverless hardware: MS Azure.|
-    |CPU core count \[cpu\_core\_count\]|Number of virtual cores \(vCores\).|
-    |CPU core thread \[cpu\_core\_thread\]|Number of vCores.|
-    |CPU count \[cpu\_count\]|Number of vCores.|
-    |Category \[category\]|vCore purchasing model.|
-    |Subcategory \[subcategory\]|SKU tier.|
-    |Host Type \[host\_type\]|Host type: PaaS.|
-
--   **Resources discovered by the Azure - Marketplace LB \(LP\) pattern**
-
-    The Azure - Marketplace LB \(LP\) pattern introduces the following CI class that extends an existing CMDB class.
-
-    |CI class|Extends from|
-    |--------|------------|
-    |Deployed Marketplace Product \[cmdb\_ci\_deployed\_marketplace\_product\]|Virtual Machine Object \[cmdb\_ci\_vm\_object\]|
-
-    |Field|Description|
-    |-----|-----------|
-    |Name \[name\]|Name of the Cloud resource, usually the marketplace offering or SKU name.|
-    |Object ID \[object\_id\]|A unique resource ID of the Cloud resource.|
-    |Resource Type \[resource\_type\]|Service in Cloud Marketplace. For example: microsoft.compute/virtualmachines.|
-    |Plan Name \[plan\_name\]|Billing or SKU plan for a resource from the Cloud Marketplace. For example: Pay as You Go.|
-    |Market \[market\]|International Organization for Standardization \(ISO\) code of the geographical market where the resource is sold. For example: US or EU.|
-    |Organization Id \[organization\_id\]|A unique identifier for the organization or publisher that owns the marketplace resource.|
-
-    |Field|Description|
-    |-----|-----------|
-    |Product Code \[product\_code\]|A unique product code of the resource within the Cloud Marketplace.|
-    |Publisher Name \[publisher\_name\]|Organization or individual responsible for creating and offering the product or service.|
-    |Version \[version\]|Release number or iteration of the product.|
-    |Deployed On \[deployed\_on\]|References the Deployed Marketplace Product \[cmdb\_ci\_deployed\_marketplace\_product\] table.|
-
--   **Resources discovered by the Azure - Sub Account \(LP\) pattern extension: Azure Management Groups**
-
-    The Azure - Sub Account \(LP\) pattern extension introduces the following CI class that extends an existing CMDB class.
-
-    |CI class|Extends from|
-    |--------|------------|
-    |Azure Management Group \[cmdb\_ci\_azure\_management\_group\]|Cloud Account Group \[cmdb\_ci\_cloud\_account\_group\]|
-
-<table id="table_rwt_pws_p2c"><thead><tr><th>
-
-Field
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Name \[name\]
-
-</td><td>
-
-Tenant ID or name.-   Tenant ID: When using management-level credentials
--   Tenant name: When using tenant-level credentials
-
-
-</td></tr><tr><td>
-
-Object ID \[object\_id\]
-
-</td><td>
-
-Tenant ID.
-
-</td></tr><tr><td>
-
-DNS Domain \[dns\_domain\]
-
-</td><td>
-
-Domain name entered during registration. For example: `servicenow.com`. This field is only populated when using tenant-level credentials.
-
-</td></tr></tbody>
-</table><table id="table_f3n_vws_p2c"><thead><tr><th>
-
-Field
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Name \[name\]
-
-</td><td>
-
-Management group name.
-
-</td></tr><tr><td>
-
-Object ID \[object\_id\]
-
-</td><td>
-
-Management group name and tenant ID in the following format: `name+@+tenantId`. For example: `itomMgmtGroup@8bcff-vdc-btrv`.
-
-</td></tr><tr><td>
-
-Parent \[parent\]
-
-</td><td>
-
-References the direct parent Azure Management Group \[cmdb\_ci\_azure\_management\_group\] table.
-
-</td></tr></tbody>
-</table>
-## CI relationships
-
-The Microsoft Azure patterns create the following relationships and references to support Microsoft Azure discovery. References link to records in other tables and don't appear in the CI Relationship \[cmdb\_rel\_ci\] table.
-
--   **Relationships discovered using the Microsoft Azure - Resource Group \(LP\) pattern**
-
-    |CI|Relationship|CI|
-    |---|------------|---|
-    |Azure Datacenter \[cmdb\_ci\_azure\_datacenter\]|Contains::Contained by|Resource Group \[cmdb\_ci\_resource\_group\]|
-
--   **Relationships discovered using the Microsoft Azure - Route Table \(LP\) pattern**
-
-    |CI|Relationship|CI|
-    |---|------------|---|
-    |Route Table \[cmdb\_ci\_route\_table\]|Contains::Contained by|Route \[cmdb\_ci\_route\]|
-    |Route Table \[cmdb\_ci\_route\_table\]|Contains::Contained by|Cloud Network \[cmdb\_ci\_network\]|
-    |Resource Group \[cmdb\_ci\_resource\_group\]|Contains::Contained by|Route Table \[cmdb\_ci\_route\_table\]|
-    |Azure Datacenter \[cmdb\_ci\_azure\_datacenter\]|Contains::Contained by|Route Table \[cmdb\_ci\_route\_table\]|
-
--   **Relationships discovered using the Microsoft Azure - Security Group \(LP\) pattern**
-
-    |CI|Relationship|CI|
-    |---|------------|---|
-    |Cloud Subnet \[cmdb\_ci\_cloud\_subnet\]|Uses::Used by|Compute Security Group \[cmdb\_ci\_compute\_security\_group\]|
-    |Cloud Network \[cmdb\_ci\_network\]|Contains::Contained by|Compute Security Group \[cmdb\_ci\_compute\_security\_group\]|
-    |Resource Group \[cmdb\_ci\_resource\_group\]|Contains::Contained by|Compute Security Group \[cmdb\_ci\_compute\_security\_group\]|
-    |Compute Security Group \[cmdb\_ci\_compute\_security\_group\]|Hosted on::Hosts|Azure Datacenter \[cmdb\_ci\_azure\_datacenter\]|
-
--   **Relationships discovered using the Microsoft Azure - Storage Account \(LP\) pattern**
-
-    |CI|Relationship|CI|
-    |---|------------|---|
-    |Resource Group \[cmdb\_ci\_resource\_group\]|Contains::Contained by|Cloud Storage Account \[cmdb\_ci\_cloud\_storage\_account\]|
-    |Cloud Storage Account \[cmdb\_ci\_cloud\_storage\_account\]|Hosted on::Hosts|Azure Datacenter \[cmdb\_ci\_azure\_datacenter\]|
-
--   **Relationships discovered using the Microsoft Azure - Storage Containers \(LP\) pattern**
-
-    |CI|Relationship|CI|
-    |---|------------|---|
-    |Block Endpoint \[cmdb\_ci\_endpoint\_block\]|Implement End Point To::Implement End Point From|Storage Volume \[cmdb\_ci\_storage\_volume\]|
-    |Cloud Storage Account \[cmdb\_ci\_cloud\_storage\_account\]|Contains::Contained by|Storage Volume \[cmdb\_ci\_storage\_volume\]|
-    |Resource Group \[cmdb\_ci\_resource\_group\]|Contains::Contained by|Storage Volume \[cmdb\_ci\_storage\_volume\]|
-    |Storage Volume \[cmdb\_ci\_storage\_volume\]|Hosted on::Hosts|Azure Datacenter \[cmdb\_ci\_azure\_datacenter\]|
-
--   **Relationships discovered using the Microsoft Azure - Storage Volume \(LP\) pattern**
-
-    |CI|Relationship|CI|
-    |---|------------|---|
-    |Resource Group \[cmdb\_ci\_resource\_group\]|Contains::Contained by|Storage Volume \[cmdb\_ci\_storage\_volume\]|
-    |Storage Volume \[cmdb\_ci\_storage\_volume\]|Hosted on::Hosts|Azure Datacenter \[cmdb\_ci\_azure\_datacenter\]|
-
--   **Relationships discovered using the Microsoft Azure - Sub Account \(LP\) pattern**
-
-    The Microsoft Azure - Sub Account \(LP\) pattern does not discover any relationships.
-
--   **Relationships discovered using the Microsoft Azure WebSite \(LP\) and Microsoft Azure WebSite patterns**
-
-    |CI|Relationship|CI|
-    |---|------------|---|
-    |Cloud WebServer \[cmdb\_ci\_cloud\_webserver\]|Hosted on::Hosts|Azure Datacenter \[cmdb\_ci\_azure\_datacenter\]|
-    |Cloud WebServer \[cmdb\_ci\_cloud\_webserver\]|Owns::Owned by|IP Address \[cmdb\_ci\_ip\_address\]|
-
-    |CI|Field|Referenced CI|
-    |---|-----|-------------|
-    |Key Value \[cmdb\_key\_value\]|Configuration item \[configuration\_item\]|Cloud WebServer \[cmdb\_ci\_cloud\_webserver\]|
-
--   **Relationships discovered using the Azure DataBase \(LP\) Pattern.**
-
-    |CI|Relationship|CI|
-    |---|------------|---|
-    |Cloud DataBase \[cmdb\_ci\_cloud\_database\]|Owns::Owned by|IP Address \[cmdb\_ci\_ip\_address\]|
-    |Cloud DataBase \[cmdb\_ci\_cloud\_database\]|Contains::Contained by|Database \[cmdb\_ci\_database\]|
-    |Cloud DataBase \[cmdb\_ci\_cloud\_database\]|Hosted on::Hosts|Azure Datacenter \[cmdb\_ci\_azure\_datacenter\]|
-    |Database \[cmdb\_ci\_database\]|Provisioned From::Provisioned|Compute Template \[cmdb\_ci\_compute\_template\]|
-    |Database \[cmdb\_ci\_database\]|Provisioned From::Provisioned|Cloud Hardware Type \[cmdb\_ci\_cloud\_hardware\_type\]|
-    |Compute Template \[cmdb\_ci\_compute\_template\]|Hosted on::Hosts|Azure Datacenter \[cmdb\_ci\_azure\_datacenter\]|
-    |Compute Template \[cmdb\_ci\_compute\_template\]|Hosted on::Hosts|Cloud Hardware Type \[cmdb\_ci\_cloud\_hardware\_type\]|
-
--   **Relationships discovered using the Azure DataBase \(LP\) pattern extension: Azure SQL Managed Instance license**
-
-    |CI|Relationship|CI|
-    |---|------------|---|
-    |Cloud DataBase \[cmdb\_ci\_cloud\_database\]|Runs on::Runs|Serverless Hardware \[cmdb\_ci\_serverless\_hardware\]|
-    |Serverless Hardware \[cmdb\_ci\_serverless\_hardware\]|Hosted on::Hosts|Azure Datacenter \[cmdb\_ci\_azure\_datacenter\]|
-
-    |CI|Field|Referenced CI|
-    |---|-----|-------------|
-    |Key Value \[cmdb\_key\_value\]|Configuration item \[configuration\_item\]|Cloud DataBase \[cmdb\_ci\_cloud\_database\]|
-
--   **Relationships discovered using the Azure - Marketplace LB \(LP\) pattern**
-
-    |CI|Relationship|CI|
-    |---|------------|---|
-    |Deployed Marketplace Product \[cmdb\_ci\_deployed\_marketplace\_product\]|Hosted on::Hosts|Cloud Service Account \[cmdb\_ci\_cloud\_service\_account\]|
-    |Deployed Marketplace Product \[cmdb\_ci\_deployed\_marketplace\_product\]|Hosted on::Hosts|Azure Datacenter \[cmdb\_ci\_azure\_datacenter\]|
-    |Resource Group \[cmdb\_ci\_resource\_group\]|Contains::Contained by|Deployed Marketplace Product \[cmdb\_ci\_deployed\_marketplace\_product\]|
-
-    |CI|Field|Referenced CI|
-    |---|-----|-------------|
-    |Marketplace Product Details \[marketplace\_product\_details\]|Deployed On \[deployed\_on\]|Deployed Marketplace Product \[cmdb\_ci\_deployed\_marketplace\_product\]|
-
--   **Relationships discovered using the Azure - Sub Account \(LP\) pattern extension: Azure Management Groups**
-
-    |CI|Relationship|CI|
-    |---|------------|---|
-    |Azure Management Group \[cmdb\_ci\_azure\_management\_group\]|Contains::Contained by|Cloud Service Account \[cmdb\_ci\_cloud\_service\_account\]|
-    |Cloud Organizations \[cmdb\_ci\_cloud\_org\]|Contains::Contained by|Azure Management Group \[cmdb\_ci\_azure\_management\_group\]|
-    |Azure Management Group \[cmdb\_ci\_azure\_management\_group\]|Contains::Contained by|Azure Management Group \[cmdb\_ci\_azure\_management\_group\]|
-
-    |CI|Field|Referenced CI|
-    |---|-----|-------------|
-    |Azure Management Group \[cmdb\_ci\_azure\_management\_group\]\*|Parent \[parent\]|Azure Management Group \[cmdb\_ci\_azure\_management\_group\]|
-
-    \*Only references the direct parent-child management group relationship.
-
-
-## Events discovered by Discovery during horizontal discovery
-
-Discovery uses patterns to find events created for Microsoft Azure components. If there are events that indicate the change of state in one of the Microsoft Azure components, it triggers the discovery of Microsoft Azure components using the patterns.
-
-|Pattern|CI Class|
-|-------|--------|
-|Azure Application LB Event|Cloud Load Balancer \[cmdb\_ci\_cloud\_load\_balancer\]|
-|Azure Availability Set Event|Availability Set \[cmdb\_ci\_availability\_set\]|
-|Azure Classic LB Event|Cloud Load Balancer \[cmdb\_ci\_cloud\_load\_balancer\]|
-|Azure DataBase Event|Cloud DataBase \[cmdb\_ci\_cloud\_database\]|
-|Azure Express Route Circuit Event|Cloud Direct Connect \[cmdb\_ci\_cloud\_direct\_connect\]|
-|Azure Functions Event|Cloud Function \[cmdb\_ci\_cloud\_function\]|
-|Azure Local Network Gateway Event|Virtual Private Gateway \[cmdb\_ci\_virtual\_pvt\_gateway\]|
-|Azure NAT Gateway Event|NAT Gateway \[cmdb\_ci\_nat\_gateway\]|
-|Azure Network Event|Cloud Network \[cmdb\_ci\_network\]|
-|Azure NIC Event|Cloud Mgmt Network Interface \[cmdb\_ci\_nic\]|
-|Azure Private DNS Zone Event|DNS Zone \[cmdb\_ci\_dns\_zone\]|
-|Azure Public IP Event|Cloud Public IP Address \[cmdb\_ci\_cloud\_public\_ipaddress\]|
-|Azure Resource Group Event|Resource Group \[cmdb\_ci\_resource\_group\]|
-|Azure Security Group Event|Compute Security Group \[cmdb\_ci\_compute\_security\_group\]|
-|Azure Storage Account Event|Cloud Storage Account \[cmdb\_ci\_cloud\_storage\_account\]|
-|Azure Virtual Machine Event|Virtual Machine Instance \[cmdb\_ci\_vm\_instance\]|
-|Azure Virtual Network Gateway Connection Event|Virtual Network Gateway Connection \[cmdb\_ci\_vpc\_gateway\_connection\]|
-|Azure Virtual Network Peerings Event|Virtual Network Peering \[cmdb\_ci\_vnet\_peering\]|
-|Azure VM Scale Set Event|Instance Scale Set \[cmdb\_ci\_instance\_scale\_set\]|
-
-## Tag information collected by Discovery during horizontal discovery
+</table>## Tag information collected by Discovery during horizontal discovery
 
 When running the patterns, tag information is collected to populate the cmdb\_key\_value table.​ Each tag is related to a CI that was discovered during the discovery.​ Tag discovery is done in the extension section of each pattern.
 
@@ -770,10 +193,14 @@ Discovery and Service Mapping Patterns finds Azure Classic Load Balancers on you
 Discovery and Service Mapping Patterns finds Azure services on your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 -   **[Azure Data Explorer Cluster pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/azure-data-explorer-cluster.md)**  
 Discovery and Service Mapping Patterns finds Azure services on your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+-   **[Azure Database pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/azure-database-pattern.md)**  
+Discovery and Service Mapping Patterns finds Azure databases, including SQL Server, MySQL, PostgreSQL, Redis, and Azure Cosmos DB, in your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 -   **[Azure Datacenter discovery pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/azure-datacenter-discovery-pattern.md)**  
 Discovery and Service Mapping Patterns finds Azure Datacenter resources on your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 -   **[Azure Dev Center pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/azure-dev-center.md)**  
 Discovery and Service Mapping Patterns finds Azure services on your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+-   **[Azure Events pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/azure-events-pattern.md)**  
+Discovery uses event patterns to update Microsoft Azure Cloud component data in near real-time. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 -   **[Azure Express Route Circuit pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/azure-express-route-circuit-pattern.md)**  
 Discovery and Service Mapping Patterns finds Azure Express Route Circuit resources on your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 -   **[Azure File Share pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/azure-file-share-pattern.md)**  
@@ -790,6 +217,8 @@ Discovery and Service Mapping Patterns finds Azure Key Vault Keys on your cloud 
 Discovery and Service Mapping Patterns finds Azure Local Network Gateway resources on your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 -   **[Azure Log Analytics Workspace pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/azure-log-analytics-workspace.md)**  
 Discovery and Service Mapping Patterns finds Azure services on your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+-   **[Azure Marketplace pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/azure-marketplace-lb-pattern.md)**  
+Discovery and Service Mapping Patterns finds Azure Marketplace products in your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 -   **[Azure NAT Gateway pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/azure-nat-gateway-pattern.md)**  
 Discovery and Service Mapping Patterns finds Azure NAT Gateway resources on your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 -   **[Azure Network and Subnet pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/azure-network-subnet-pattern.md)**  
@@ -808,8 +237,24 @@ Discovery and Service Mapping Patterns finds Azure public IP addresses on your c
 Discovery and Service Mapping Patterns finds Azure services on your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 -   **[Azure Recovery Services Vault Backup Item pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/azure-recovery-services-vault-backup.md)**  
 Discovery and Service Mapping Patterns finds Azure services on your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+-   **[Azure Resource Group pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/azure-resource-group-pattern.md)**  
+Discovery and Service Mapping Patterns finds Azure Resource Groups in your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+-   **[Azure Route Table pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/azure-route-table-pattern.md)**  
+Discovery and Service Mapping Patterns finds Azure Route Tables in your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+-   **[Azure Security Group pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/azure-security-group-pattern.md)**  
+Discovery and Service Mapping Patterns finds Azure Security Groups on your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 -   **[Azure Service Endpoint Policy pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/azure-service-endpoint-policy.md)**  
 Discovery and Service Mapping Patterns finds Azure services on your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+-   **[Azure SQL Server pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/azure-sql-server-pattern.md)**  
+Discovery and Service Mapping Patterns finds Azure SQL Server virtual machines in your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+-   **[Azure Storage Account pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/azure-storage-account-pattern.md)**  
+Discovery and Service Mapping Patterns finds Azure Storage Accounts in your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+-   **[Azure Storage Containers pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/azure-storage-container-pattern.md)**  
+Discovery and Service Mapping Patterns finds Azure Storage Containers in your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+-   **[Azure Storage Volume pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/azure-storage-volume-pattern.md)**  
+Discovery and Service Mapping Patterns finds Azure Storage Volumes \(managed disks\) in your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+-   **[Azure sub account pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/azure-sub-account-pattern.md)**  
+Discovery and Service Mapping Patterns finds Azure subscriptions and management groups on your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 -   **[Azure Subscriptions Discovery For Management Group pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/azure-sub-mgmt-group-pattern.md)**  
 Discovery and Service Mapping Patterns finds Azure Subscription entities under Management Groups on your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 -   **[Azure virtual machine pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/azure-vm-pattern.md)**  
@@ -818,6 +263,8 @@ Discovery and Service Mapping Patterns finds Azure virtual machines \(VMs\) on y
 Discovery and Service Mapping Patterns finds Azure Virtual Network Gateway Connection resources on your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 -   **[Azure Web Application Firewall Policy pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/azure-web-app-firewall-policy.md)**  
 Discovery and Service Mapping Patterns finds Azure services on your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+-   **[Azure WebSite pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/azure-website-pattern.md)**  
+Discovery and Service Mapping Patterns finds Azure App Service web applications in your cloud environment. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 **Parent Topic:**[Available cloud discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/available-patterns-cloud.md)
 
@@ -828,5 +275,5 @@ Discovery and Service Mapping Patterns finds Azure services on your cloud enviro
 
 [Azure Key Vault certificate discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/azure-certificate-discovery-pattern.md)
 
-[Microsoft Foundry \(Classic\) pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/microsoft-foundry-classic-pattern.md)
+[Microsoft Foundry \(classic\) pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/microsoft-foundry-classic-pattern.md)
 

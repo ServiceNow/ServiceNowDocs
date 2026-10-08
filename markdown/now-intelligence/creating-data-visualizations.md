@@ -69,6 +69,8 @@ Create a list of table records that can be drilled down to from chart interactio
 The Indicator Scorecard component enables users to visualize and compare data between multiple Performance Analytics indicators. It highlights the information regarding the last score collected, the change from the previous data point, the trend over time, and the value of the target to achieve.​
 -   **[Create a data visualization from a list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-data-viz-from-list.md)**  
 You can create a Platform Analytics vertical bar or pie data visualization from inside a Core UI list. If you have a data visualization role, you can save, share, export, or duplicate the visualization.
+-   **[Create Core UI reports on an upgraded instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-core-ui-reports-on-migrated-instance.md)**  
+On upgraded instances, including ones fully migrated to Platform Analytics, you can create Core UI reports from the Platform Analytics Data visualizations library.
 
 **Parent Topic:**[Data visualizations in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/analytics-center-data-visualizations.md)
 

@@ -1,5 +1,5 @@
 ---
-title: View Facility Assets in Workplace Central
+title: View facility assets in Workplace Central
 description: Use the Facility Assets list to look up an asset and its related cases without leaving Workplace Central.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-central/view-facility-assets-in-workplace-central.html
@@ -12,7 +12,7 @@ reading_time_minutes: 2
 breadcrumb: [Working with Case management, Use, Workplace Central, Workplace Service Delivery, Employee Service Management]
 ---
 
-# View Facility Assets in Workplace Central
+# View facility assets in Workplace Central
 
 Use the Facility Assets list to look up an asset and its related cases without leaving Workplace Central.
 
@@ -22,9 +22,9 @@ Role required: sn\_wsd\_case.manager
 
 ## About this task
 
-A new Facility Assets section has been added to the Lists area of Workplace Central, enabling case agents, case managers, and facilities managers to view asset details, associated workplace cases, maintenance cases, and maintenance plan records from within a single workspace without switching to the Enterprise Asset Management workspace.
+The Facility Assets section in the Lists area of Workplace Central shows asset details, workplace cases, maintenance cases, and maintenance plan records. Case agents, case managers, and facilities managers can view this information without switching to the Enterprise Asset Management workspace.
 
-**Note:** Install the Extended Model and Asset Classes \(sn\_ent\) plugin to view the Facility Assets and Facility Models in Workplace Central. The Workplace Maintenance Cases and Workplace Maintenance Plan Records tabs will appear only if the Workplace Maintenance Management \(sn\_wsd\_maintenance\) plugin is installed.
+**Note:** The Extended Model and Asset Classes plugin \(sn\_ent\) must be installed to view the Facility Assets and Facility Models lists in Workplace Central. The Workplace Maintenance Cases and Workplace Maintenance Plan Records tabs appear only if the Workplace Maintenance Management plugin \(sn\_wsd\_maintenance\) is installed.
 
 ## Procedure
 
@@ -34,21 +34,21 @@ A new Facility Assets section has been added to the Lists area of Workplace Cent
 
 3.  Select the following tabs to view asset information:
 
-    -   **Assets**
+    -   **__Assets__**
 
         General information about the asset, such as name, type, location, and warranty information.
 
-    -   **Workplace Cases**
+    -   **__Workplace Cases__**
 
-        Displays all workplace cases that have been created for the asset, allowing agents to quickly identify and access related case work.
+        All workplace cases created for the asset, so you can identify and access related case work.
 
-    -   **Workplace Maintenance Cases**
+    -   **__Workplace Maintenance Cases__**
 
-        Displays all maintenance cases associated with the asset, providing visibility into service history and ongoing maintenance work.
+        All maintenance cases associated with the asset, including service history and ongoing maintenance work.
 
-    -   **Workplace Maintenance Plan Records**
+    -   **__Workplace Maintenance Plan Records__**
 
-        Displays all maintenance plans linked to the asset, enabling you to review scheduled or recurring maintenance programs.
+        All maintenance plans linked to the asset, so you can review scheduled or recurring maintenance programs.
 
     \[Omitted image "Casemgmt-FacilityAssets.png"\] Alt text:
 
@@ -74,5 +74,5 @@ A new Facility Assets section has been added to the Lists area of Workplace Cent
 
 [Manage workplace cases in calendar view in Workplace Central]()
 
-[Manage workplace cases in List view in Workplace Central]()
+[Workplace cases in List view in Workplace Central]()
 

@@ -7,7 +7,7 @@ release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: reference
-last_updated: "2026-05-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Reference, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -124,6 +124,7 @@ Contains:-   vendor\_assessment\_reviewer
 -   vendor\_editor
 -   vendor\_reader
 -   sn\_dora\_accel.manager
+-   sn\_smart\_asmt.reassign
 
 </td></tr><tr><td>
 
@@ -160,6 +161,7 @@ Contains:
 
 -   vendor\_assessor
 -   sn\_dora\_accel.manager
+-   sn\_smart\_asmt.reassign
 
 </td></tr><tr><td>
 
@@ -189,6 +191,7 @@ Contains:
 -   sn\_dora\_accel.admin
 -   sn\_smart\_asmt.assessment\_admin
 -   sn\_smart\_imp\_auto.automation\_creator
+-   sn\_smart\_asmt.reassign
 
 </td></tr><tr><td>
 
@@ -285,6 +288,8 @@ A user with one of the following roles can respond to questionnaires in the Vend
 A user with the TPRM SAE admin \[sn\_smart\_asmt.assessment\_admin\] role can create SAE templates in the Vendor Management Workspace and Assessment Workspace.
 
 A user with the sn\_smart\_imp\_auto.automation\_creator role can create post assessment impact automation rules. The TPR admin contains this role.
+
+The TPR administrator \[sn\_vdr\_risk\_asmt.vendor\_risk\_admin\], TPR assessor \[sn\_vdr\_risk\_asmt.vendor\_assessor\], and TPR manager \[sn\_vdr\_risk\_asmt.vendor\_risk\_manager\] roles now include the sn\_smart\_asmt.reassign role. You can reassign Smart Assessment Engine questionnaires to another member of your organization.
 
 **Note:** The Third-party assessment reviewer \[sn\_vdr\_risk\_asmt.vendor\_assessment\_reviewer\] role is the minimum role required to view any template that is a member of the TPRM external questionnaire, TPRM external document request, TPRM internal tiering questionnaire, and TPRM internal IRQ purposes.
 

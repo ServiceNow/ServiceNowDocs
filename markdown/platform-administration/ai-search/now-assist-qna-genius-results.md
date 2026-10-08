@@ -31,7 +31,7 @@ The Knowledge base articles Genius Result answer card contains a snippet that su
 
 Knowledge base articles Genius Results use semantic vector search and legacy keyword search to find knowledge articles that best match the meaning and intent of your search query. For more details on semantic vector search, see [Semantic vector search in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/semantic-search-ais.md).
 
-The Knowledge base articles Genius Result configuration replaces the original Q&amp;A Genius Result configuration from the base system. The base system's configuration extracts answers from knowledge articles using internal routines instead of using the LLM. To learn more about the base system's Q&amp;A Genius Result configuration, see [Knowledge base articles Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/genius-result-q-a-ais.md).
+The Knowledge base articles Genius Result configuration replaces the original Q&amp;A Genius Result configuration from the base system. The base system's configuration extracts answers from knowledge articles using internal routines instead of using the LLM. To learn more about the base system's Q&amp;A Genius Result configuration, see [Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/genius-result-q-a-ais.md).
 
 ## Enabling Knowledge base articles Genius Results
 

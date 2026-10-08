@@ -7,7 +7,7 @@ release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-05-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [AI-assisted questionnaire pre-fill, draft responses, smart assessment, DMS, third-party risk]
 breadcrumb: [Assess third-party risk, Third-party Risk Management, Governance, Risk, and Compliance]
@@ -68,7 +68,7 @@ The skill generates draft responses from two sources: documents stored in DMS an
 
     3.  From the documents list, select up to five documents you want the skill to analyze.
 
-        The list includes documents retrieved based on the template category configuration, and any files attached directly to the assessment instance. To use a document not in the list, upload it as an attachment to the assessment and it appears as an available option. For supported document types and file size limits, see [Limitations in Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-document-intelligence-limitations.md).
+        The list includes documents retrieved based on the template category configuration, and any files attached directly to the assessment instance. To use a document not in the list, upload it as an attachment to the assessment and it appears as an available option. For supported document types and file size limits, see [Limitations in Content Understanding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/cu-limitations.md).
 
     4.  Select **Generate draft responses**.
 

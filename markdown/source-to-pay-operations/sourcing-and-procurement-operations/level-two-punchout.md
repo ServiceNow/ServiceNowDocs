@@ -57,5 +57,5 @@ The Level 2 PunchOut flow includes the following steps:
 
 The following figure illustrates the L2 PunchOut flow.\[Omitted image "punchout-level-two-flow.png"\] Alt text: L2 punchout flow.
 
-**Parent Topic:**[Understanding Punchout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/punchout-overview.md)
+**Parent Topic:**[Understanding punchout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/punchout-overview.md)
 

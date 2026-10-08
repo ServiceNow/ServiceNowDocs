@@ -30,7 +30,7 @@ Role required: admin or it\_project\_manager
 
     From the Monitor project tasks agentic workflow, each AI agent is shipped as active by default.
 
-    **Note:** Only users with the Now Assist panel \(NAP\) role can access agents, even if the current agentic workflow doesn’t require that role.
+    **Note:** Only users with the AI admin role can access agents, even if the current agentic workflow doesn’t require that role.
 
 3.  Enable the Monitor project tasks AI agent:
 
@@ -39,15 +39,15 @@ Role required: admin or it\_project\_manager
     3.  From Define data access screen, select **Continue**.
     4.  From Add triggers screen, select the **Project task update monitoring** and turn on the Trigger. Select **Save** and select **Continue**.
     5.  From the Select channels and status screen, select **Save and test**.
-    The agentic workflow trigger defines the events that invoke AI agents for this agentic workflow. The trigger ensures that the AI agents can only start working upon specific key updates to project tasks.
+    The agentic workflow trigger defines the events that invoke AI agents for this agentic workflow. The trigger verifies that the AI agents can only start working on specific key updates to project tasks.
 
 4.  Navigate to **Workspaces** &gt; **Project Workspace** and select the project.
 
-    The admin must enable the project insights generation skill for a specific project and set up a cadence for the project insights email. For more information on how to set up an email cadence, see the .
+    The admin must enable the project insights generation skill for a specific project and set up a cadence for the project insights email. For more information on how to set up an email cadence, see the [Schedule the project insights email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/email-project-summary-pw.md).
 
 5.  Enable the AI agent for a specific project:
 
-    1.  .
+    1.  [Schedule the project insights email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/email-project-summary-pw.md).
     2.  From the planning page, select the more actions icon \(\[Omitted image "more-options-icon.png"\] Alt text: More actions icon.\) and then select **Enable critical task alerts**.
 
         **Note:** Enable critical task alerts option is only available when the email is scheduled. To disable the AI agent, select the more actions icon \(\[Omitted image "more-options-icon.png"\] Alt text: More actions icon.\) and then select **Disable critical task alerts**.

@@ -38,7 +38,7 @@ Role required: impact app admin or admin
 
 3.  Navigate to **All** &gt; **Impact** &gt; **Platform Health** &gt; **Scan Engine** &gt; **Scan Status**.
 
-    See [Track Platform Health trends](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/scan-engine-diagnostic-dashboards.md):
+    See :
 
     -   View the different charts and reports available at **Impact** **Platform Health** **Analytics Dashboard**.
     -   Access refreshed Health Scan Engine dashboards each time a scan is completed.

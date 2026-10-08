@@ -1,6 +1,6 @@
 ---
-title: Change CI suggestion AI agent \(latest\)
-description: This AI agent autonomously identifies and populates both the primary configuration item \(CI\) and affected configuration items on a change request without requiring multiple user interactions.
+title: Change CI suggestion AI agent
+description: This AI agent autonomously identifies and populates both the primary configuration item \(CI\) and affected configuration items on a change request during Orchestrator execution without requiring multiple user interactions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/now-assist-for-it-service-management-itsm/change-ai-orch-ci-suggestion-ai-agent.html
 release: australia
@@ -12,9 +12,9 @@ reading_time_minutes: 1
 breadcrumb: [Change Management, Use agentic AI in IT Service Management, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
-# Change CI suggestion AI agent \(latest\)
+# Change CI suggestion AI agent
 
-This AI agent autonomously identifies and populates both the primary configuration item \(CI\) and affected configuration items on a change request without requiring multiple user interactions.
+This AI agent autonomously identifies and populates both the primary configuration item \(CI\) and affected configuration items on a change request during Orchestrator execution without requiring multiple user interactions.
 
 **Note:** Available starting with the Australia Patch 5 release. Requires ServiceNow Otto for IT Service Management \(ITSM\) v17.1.2 or later.
 
@@ -117,7 +117,7 @@ Used in agentic workflows
 
 </td><td>
 
-Not applicable.
+Change Orchestrator AI agent \(Readiness phase\)
 
 </td></tr></tbody>
 </table>

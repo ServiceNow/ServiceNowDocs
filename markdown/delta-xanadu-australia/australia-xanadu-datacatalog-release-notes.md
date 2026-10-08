@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-xanadu-australia/australia-xanadu-datacatalog-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 6
+last_updated: "2026-10-08"
+reading_time_minutes: 8
 breadcrumb: [Products combined by family]
 ---
 
@@ -107,7 +107,64 @@ Australia
 
 </td><td>
 
--   **[Search and discovery](https://www.servicenow.com/docs/access?context=explore-data-assets-in-data-catalog&family=australia&ft:locale=en-US)**
+-   **[Metadata enrichment with ServiceNow Otto](https://www.servicenow.com/docs/access?context=ai-metadata-enrichment-overview-dc&family=australia&ft:locale=en-US)**
+
+Accelerate catalog curation using AI-powered enrichment. Enrich asset names and descriptions across multiple assets in a single request, review AI-generated recommendations, and publish richer metadata to your catalog with less manual effort.
+
+-   **[Lineage search facet and CSV export](https://www.servicenow.com/docs/access?context=explore-data-assets-lineage-dc&family=australia&ft:locale=en-US)**
+
+A new "Has lineage" search facet shows how much of your catalog has lineage and which assets have a lineage view in Graph Explorer. Download your current lineage view to CSV to analyze and use the data in other tools.
+
+-   **[\[Placeholder link text to key microsoft-fabric-metadata-collector\]](https://www.servicenow.com/docs/access?context=microsoft-fabric-metadata-collector&family=australia&ft:locale=en-US)**
+
+Automatically collect and synchronize metadata from Microsoft Fabric using metadata collectors.
+
+-   **[MID Server routing for metadata collectors](https://www.servicenow.com/docs/access?context=metadata-collector-deployment-models&family=australia&ft:locale=en-US)**
+
+Choose whether a connection runs in the ServiceNow hosted cloud infrastructure \(the default\) or through a MID Server to reach your data sources. When a collector is configured to run on a MID Server, three routing models control how the system assigns a MID Server to the collection job.
+
+-   **[Email notifications for collector runs](https://www.servicenow.com/docs/access?context=subscribe-to-collector-run-notifications&family=australia&ft:locale=en-US)**
+
+When a collector run completes or fails, the platform sends an email notification to the collector owner and any subscribers. Notifications use the ServiceNow Notification framework.
+
+-   **[Data classification with Vault](https://www.servicenow.com/docs/access?context=enable-vault-classification&family=australia&ft:locale=en-US)**
+
+Enable a metadata collector to classify harvested columns using ServiceNow Vault. The following metadata collector types support Vault classification:
+
+    -   Snowflake
+    -   Amazon Redshift
+    -   Databricks
+    -   Oracle
+    -   PostgreSQL
+    -   Teradata
+    -   MySQL
+    -   Microsoft SQL Server
+    -   SAP HANA
+
+ -   **[Bulk import and export glossary terms](https://www.servicenow.com/docs/access?context=managing-glossary-terms&family=australia&ft:locale=en-US)**
+
+Quickly manage large volumes of glossary terms by importing and exporting them in bulk through XLSX files. Preview changes before committing, and get detailed feedback on any rows that fail so you can correct and re-upload. Skip manual entry and reduce glossary enrichment time significantly.
+
+-   **[Rich text editing and image embedding in data assets](https://www.servicenow.com/docs/access?context=update-data-asset&family=australia&ft:locale=en-US)**
+
+Document your data assets with rich text formatting and embedded images. Edit with bold, italics, lists, and links, then embed images directly into catalog fields and resize them as needed.
+
+-   **[Cloud collectors for metadata collection](https://www.servicenow.com/docs/access?context=metadata-collector-deployment-models&family=australia&ft:locale=en-US)**
+
+****
+
+Collect metadata from your data sources without hosting and maintaining a MID Server.
+
+-   **[SAP HANA metadata collector](https://www.servicenow.com/docs/access?context=sap-hana-metadata-collector&family=australia&ft:locale=en-US)**
+
+Automatically collect and synchronize metadata from SAP HANA using metadata collectors.
+
+-   **[Salesforce metadata collector](https://www.servicenow.com/docs/access?context=salesforce-metadata-collector&family=australia&ft:locale=en-US)**
+
+Automatically collect and synchronize metadata from Salesforce using metadata collectors.
+
+
+ -   **[Search and discovery](https://www.servicenow.com/docs/access?context=explore-data-assets-in-data-catalog&family=australia&ft:locale=en-US)**
 
 Find data assets across your organization using keyword search, filters, and faceted browsing in a unified self-service interface. Browse assets by type, domain, tag, or owner, and preview schema and sample data directly from search results to evaluate assets without opening each record.
 
@@ -204,7 +261,21 @@ Australia
 
 </td><td>
 
--   **[ServiceNow metadata collector](https://www.servicenow.com/docs/access?context=servicenow-metadata-collector&family=australia&ft:locale=en-US)**
+-   **[Graph Explorer performance improvements](https://www.servicenow.com/docs/access?context=explore-data-assets-lineage-dc&family=australia&ft:locale=en-US)**
+
+Lineage views open faster by showing the nearest upstream and downstream connections first instead of waiting for the full diagram to load.
+
+-   **[ServiceNow collector lineage from Import Set Transform Map](https://www.servicenow.com/docs/access?context=servicenow-metadata-collector&family=australia&ft:locale=en-US)**
+
+The ServiceNow collector harvests lineage edges based on the platform's native Import Set Transform Map framework.
+
+
+ -   **[Data assets lineage improvements](https://www.servicenow.com/docs/access?context=explore-data-assets-lineage-dc&family=australia&ft:locale=en-US)**
+
+Transform nodes now display transformations and processing steps in your lineage diagram with enhanced visualizations. Interact with transform nodes to view additional details about what data transformations occur at each step, helping you understand your data flow more clearly.Lineage graphs now load progressively by level, reducing the risk of timeouts when viewing large graphs. The system displays lineage in stages, allowing you to explore relationships without waiting for the entire graph to load, which improves overall responsiveness and performance.
+
+
+ -   **[ServiceNow metadata collector](https://www.servicenow.com/docs/access?context=servicenow-metadata-collector&family=australia&ft:locale=en-US)**
 
 Control how the collector harvests metadata. Enable an API size limit to cap the volume of data retrieved per request, exclude Glide artifacts from harvesting, and harvest Platform Analytics artifacts.
 
@@ -346,6 +417,8 @@ Australia
 
 Install Data Catalog by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
 
+
+**Important:** Data Catalog is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements

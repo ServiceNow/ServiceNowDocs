@@ -7,7 +7,7 @@ release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Classic assessments, Configure, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -67,15 +67,15 @@ A set of related questions within a questionnaire template.**Note:** There can b
     -   **Workspaces** &gt; **Vendor Management Workspace**, select the list icon \[Omitted image "ws-list-icon.png"\] Alt text: and then navigate to **Assessment setup** &gt; **Questionnaire Templates**.
 2.  Complete one of the following options to create a new template or copy an existing template.
 
-<table id="choicetable_ctx_vmr_g2c"><thead><tr><th align="left" id="d368966e205">
+<table id="choicetable_ctx_vmr_g2c"><thead><tr><th align="left" id="d375753e205">
 
 Option
 
-</th><th align="left" id="d368966e208">
+</th><th align="left" id="d375753e208">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d368966e214">
+</th></tr></thead><tbody><tr><td id="d375753e214">
 
 **Create a new template**
 
@@ -93,7 +93,7 @@ Any other templates associated with this template are shown as related links or 
 
 .
 
-</td></tr><tr><td id="d368966e254">
+</td></tr><tr><td id="d375753e254">
 
 **Copy and customize an existing template**
 

@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/australia/order-management/usin
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [use]
 breadcrumb: [Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
@@ -14,6 +14,8 @@ breadcrumb: [Configure, price, quote apps, Use, Sales Customer Relationship Mana
 # Using Advanced Approval Management
 
 Sales teams can use workflows for approving Sales Customer Relationship Management entities such as customer quotes. Workflows begin with approval requests submitted by sales agents, which are then routed for approval by designated approvers.
+
+**Prerequisite**: Ensure the necessary roles are added and configured, if not already, to configure Advanced Approval Management and manage approvals. For more information, see [Advanced Approval Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/advanced-approval-management-reference.md) and [Components installed with Sales Common](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/components-installed-sales-common.md).
 
 -   **[Tracking approval status and history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/tracking-approval-status.md)**  
 Monitor the progress of an approval request as it moves through the steps in an approval workflow.
@@ -33,4 +35,17 @@ As an approver, reject or return a submitted quote when it does not meet organiz
 Track the progress of submitted quote approval requests. View the complete history of approvals and rejections for audit and reference.
 
 **Parent Topic:**[Using configure, price, quote applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/using-cpq.md)
+
+**Related topics**  
+
+
+[Advanced Approval Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/explore-advanced-approval-for-sales.md)
+
+[Configuring Advanced Approval Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configuring-advanced-approval-management.md)
+
+[Advanced Approval Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/advanced-approval-management-reference.md)
+
+[Notifications in Advanced Approval Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/setting-up-approval-notifications.md)
+
+[Create an approval configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-approval-configuration.md)
 

@@ -24,7 +24,7 @@ The system can only recommend actions, flow logic, and subflows that are availab
 
 ## Generative AI model training
 
-This Generative AI large language model was pre-trained with internal ServiceNow flows to learn flow creation patterns. The goal was to understand what flow components are most relevant for a certain position in a flow given the content before.
+This generative AI large language model was trained with internal ServiceNow flows to learn flow creation patterns. The goal was to understand what flow components are most relevant for a certain position in a flow given the content before.
 
 ## Flow preference
 
@@ -36,7 +36,7 @@ By default, Workflow Studio shows flow recommendations as you build a flow. You 
 
 \[Omitted image "flow-recommendations-diagramming-view.png"\] Alt text: Demo flow recommendations in diagram mode
 
-Workflow Studio shows recommendations from the flow diagramming view while you're editing a flow. In diagramming view, the last node of the flow always shows a list of recommendations. This experience matches the behavior of the text view, which also always shows a list of recommendations at the end of the flow.
+Workflow Studio shows recommendations from the flow diagramming view while you're editing a flow. In diagramming view, the last node of the flow shows a list of recommendations. This experience matches the behavior of the text view, which also shows a list of recommendations at the end of the flow.
 
 ## AI limitations
 

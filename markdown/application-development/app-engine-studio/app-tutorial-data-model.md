@@ -7,7 +7,7 @@ release: australia
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: concept
-last_updated: "2026-04-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [data model, application development, tutorial, tables, employee travel request]
 audience: developer

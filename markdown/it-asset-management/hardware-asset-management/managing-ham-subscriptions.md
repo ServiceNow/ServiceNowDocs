@@ -67,6 +67,8 @@ Exclude an asset for which you don't want to use Hardware Asset Management licen
 
 [Create an internal lifecycle in the Hardware Asset Workspace]()
 
+[Calculate the active lifecycle phase for a model]()
+
 [Receive asset warranty details from Lenovo]()
 
 [Manage stockrooms]()

@@ -32,7 +32,7 @@ sn\_query\_gen.default\_source\_type
 
 </td><td>
 
-Fallback source type when the user request and conversation history do not determine whether to use table or indicator data. Accepted values: 'table' \(default\), 'indicator', or 'match\_found\_wins' \(indicator data if a match was found, otherwise table\).
+Fallback source type when the user request and conversation history do not determine whether to use table or indicator data. Accepted values: 'table' \(default\), 'indicator', or 'match\_found\_wins' \(indicator data if a match was found, otherwise table\). Does not apply in agentic mode.
 
 -   Type: String
 -   Default value: table

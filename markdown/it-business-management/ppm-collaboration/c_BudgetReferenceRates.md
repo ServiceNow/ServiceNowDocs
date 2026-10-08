@@ -7,7 +7,7 @@ release: australia
 product: PPM Collaboration
 classification: ppm-collaboration
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [PPM Standard \(Project Portfolio Management\), Explore Project Portfolio Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -55,9 +55,9 @@ The reporting currency.
 </td></tr></tbody>
 </table>## Budget reference rates
 
-Budget reference rates are exchange rates between currencies. Each reference rate is valid for a specified time period. The application uses budget reference rates when budget items are in a different currency from the budget plan and forecast. The application automatically converts budget item currency values to a global system currency value when it calculates the Budget Amount on a Budget Plan, and when it shows values on budget forecasts.
+Budget reference rates are exchange rates between currencies. Each reference rate is valid for a specified time period. The application uses budget reference rates when budget items are in a different currency from the budget plan and forecast. The application automatically converts budget item currency values to a global system currency value. This conversion occurs when it calculates the Budget Amount on a Budget Plan and when it shows values on budget forecasts.
 
-**Note:** Currency support is for budgets only. You cannot create allocations in multiple currencies.
+**Note:** Currency support is for budgets only. You can't create allocations in multiple currencies.
 
 **Parent Topic:**[PPM Standard \(Project Portfolio Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/ppm-collaboration/c_ProjectPortfolioSuiteWithFinancials.md)
 

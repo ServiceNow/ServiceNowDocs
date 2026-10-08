@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/security-management/ai-security-exposure-install-config.html
 release: australia
 topic_type: task
-last_updated: "2026-09-03"
+last_updated: "2026-10-01"
 reading_time_minutes: 4
-breadcrumb: [Configure AI skills and agentic workflows for USEM, Implement, Unified Security Exposure Management, Security Operations]
+breadcrumb: [Implement, Unified Security Exposure Management, Security Operations]
 ---
 
 # Install and configure AI Security Exposure Management
@@ -28,8 +28,8 @@ The following ServiceNow Plugins are required:
 
 At least one of these AI defense integrations supported by the application must be installed and activated.
 
--   Cisco AI Defense Integration for AI Security Exposure Management - import AI security exposures such as model vulnerabilities and model validation findings \(automated red teaming alerts\).
--   [Explore the Palo Alto Prisma AIRS Integration for AI Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/prisma-airs-integration.md)
+-   [Cisco AI Defense integration for AI security exposure management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/exploring-cisco-ai-defense-integration.md)
+-   [Palo Alto Prisma AIRS integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/prisma-airs-integration.md)
 -   [Configure the Wiz test results integration for AI Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/vulnerability-response/wiz-test-result-tab-filters.md)
 
 Although not mandatory, it's recommended that you install the one of the following service graph connectors. You should choice depends on the AI security tool that you're using in your organization to import AI inventory data into your CMDB. AI Service Graph Connector for Palo Alto Prisma AIRS is currently supported.

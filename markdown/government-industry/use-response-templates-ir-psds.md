@@ -1,5 +1,5 @@
 ---
-title: Use response templates in Information Request Playbook
+title: Use response templates in Information Request Administration
 description: Respond to cases by using the response templates in the contextual side panel in CRM Workspace. Good templates save you time by eliminating repetitive work.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/government-industry/use-response-templates-ir-psds.html
@@ -7,10 +7,10 @@ release: australia
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Using the contextual side panel, Using Information Request Playbook, Playbooks, Use, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Using the contextual side panel, Using Information Request Administration, Playbooks, Use, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Use response templates in Information Request Playbook
+# Use response templates in Information Request Administration
 
 Respond to cases by using the response templates in the contextual side panel in CRM Workspace. Good templates save you time by eliminating repetitive work.
 

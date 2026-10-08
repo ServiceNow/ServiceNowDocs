@@ -22,7 +22,7 @@ The flexibility of the Public Sector Digital Services platform provides you with
 Public Sector Digital Services Core application provides a framework to enable institutions to organize and manage their data effectively to meet their business needs. This section introduces Public Sector Digital Services Core and explains its purpose and key data design components.
 -   **[Public Sector Digital Services Service Request Playbook Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-data-model-sr-playbook.md)**  
 This section outlines the Service Request Playbook data model and the tables installed with the Service Request application.
--   **[Public Sector Digital Services Information Request Playbook Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-data-model-ir-playbook.md)**  
+-   **[Public Sector Digital Services Information Request Administration Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-data-model-ir-playbook.md)**  
 This section outlines the Information Request data model and the tables installed with the Information Request application.
 -   **[Public Sector Digital Services License and Permit Playbook Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-data-model-lp-playbook.md)**  
 This section outlines the License and Permit data model and the tables installed with the License and Permit application.

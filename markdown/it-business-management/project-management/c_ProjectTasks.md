@@ -7,7 +7,7 @@ release: australia
 product: Project Management
 classification: project-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-13"
 reading_time_minutes: 11
 breadcrumb: [Exploring Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -18,7 +18,7 @@ Learn about the basic terms used in Project Management.
 
 ## Bottom-up Tasking
 
-Bottom-up \(tactical\) tasking means that you plan small, individual units of work that are required, then build a project up to include larger phases. Take this approach when you know what individual tasks are required to be accomplished and you are more flexible about overall project duration and estimated cost. Use this approach to see how much a project costs and how long it takes if you include every task. Project management supports tactical tasking by using rollup calculations on several project fields, such as project duration, so that the project adjusts to the tasks it contains. It is the recommended approach for the Project Management application.
+Bottom-up \(tactical\) tasking means that you plan small, individual units of work that are required, then build a project up to include larger phases. Take this approach when you know what individual tasks are required to be accomplished and you're more flexible about overall project duration and estimated cost. Use this approach to see how much a project costs and how long it takes if you include every task. Project management supports tactical tasking by using rollup calculations on several project fields, such as project duration, so that the project adjusts to the tasks it contains. It is the recommended approach for the Project Management application.
 
 ## Top-down Tasking
 
@@ -38,7 +38,7 @@ The Project Management application enables you a create parent-child relationshi
 |Finish-to-finish dependency|A dependency that indicates that a task must not be finished until another task finishes.|
 |Lag time|A manually specified time break between predecessor and successor tasks.|
 |Parent task|A project task with smaller tasks, referred to as child tasks, underneath it. Child tasks break down the work of a parent task into more manageable subsets. Certain fields for child tasks, such as planned end date, roll up and affect the same field in the parent task.|
-|Child task|A project task that is a subset of a larger task. Child task start dates cannot occur before the start date of the parent task.|
+|Child task|A project task that is a subset of a larger task. Child task start dates can't occur before the start date of the parent task.|
 |Rollup task|Another term for a parent task in the context of aggregating child task items, such as effort or resources, into a larger parent task calculation. All fields on rollup task forms are read-only.|
 |Roll down|State changes roll down from the project to project tasks, and from parent tasks to child tasks.|
 
@@ -54,7 +54,7 @@ The Project Task form includes a **Time Constraint** field, which can be one of 
 
 -   If a task is set to **Start ASAP**: The task appears on the Gantt chart as starting when the dependency allows it. However, a task can start on a later date when a lag value is set for the relationship.
 -   If a task is set to **Start on specific date**: The task appears on the Gantt chart as starting on the constraint date. The start date of such a task is not impacted even after you put the task in a relation to another task, for example, FS relation.
--   If a task is set to **Start no earlier than**: The task appears on the Gantt chart as starting on or after the constraint date. If the task has no predecessor, the task starts on the specified date. The start date changes to a later date based on the predecessor task end date or if the task is in a relation to another task, for example, FS relationship.
+-   If a task is set to **Start no earlier than**: The task appears on the Gantt chart as starting on or after the constraint date. If the task has no predecessor, the task starts on the specified date. The start date changes to a later date based on the predecessor task end date. The start date also changes when the task is in a relation to another task, for example, FS relationship.
 -   If a task is set to **Start no later than**: The task appears on the Gantt chart as starting on or before the constraint date. If the task has any predecessor task, the dependency on the predecessor task determines when the task can start. A scheduling conflict occurs if the predecessor task attempts to move the task beyond the date specified in the **Constraint date** field.
 
     **Note:** The [project property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/r_InstalledWithProjectManagement.md) **Retain start on constraint on tasks after adding relations** controls the behavior for **Start on** selection. The property is set to True by default and is not editable.
@@ -81,7 +81,7 @@ Parent-child task relationships have several effects on task time constraints.
 
 -   **When a child task is set to __Start ASAP__**
 
-    The child task starts at the same time as the parent task. If Project itself is set as a parent, the **Start ASAP** tasks starts on the same date as set in the **Constraint Date** field, as long as it does not have dependencies with other child tasks.
+    The child task starts at the same time as the parent task. If Project itself is set as a parent, the task starts on the date set in the **Constraint Date** field. This applies when the task has no dependencies with other child tasks.
 
 -   **When a parent task is set to __Start ASAP__ and child tasks are set to __Start on specific date__:**
     -   The earliest child task start date determines the start date of the parent, assuming no other dependencies.
@@ -92,7 +92,7 @@ Parent-child task relationships have several effects on task time constraints.
 
     For the planned start date of the parent task:
 
-    -   The planned start date is the earliest planned start date of all the children that do not have an actual start date.
+    -   The planned start date is the earliest planned start date of all the children that don't have an actual start date.
     -   If all child tasks have actual start dates, the planned start date of the parent task is set to the actual start date.
     For the planned end date of the parent task: The latest planned end date or actual end date of the child tasks determines the planned end date of the parent.
 

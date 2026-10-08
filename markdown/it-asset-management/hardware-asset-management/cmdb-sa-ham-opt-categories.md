@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
 keywords: [HAM resource category opt-in, opt-out resource categories, model category availability, HAM license resource category, hardware asset advisor scope, opt in HAM resource categories, HAM license resource category management, model category availability, opt out HAM resource categories, remove opted-out model categories, HAM advisor scope reduction]
-breadcrumb: [Set up advisor, Use HAM advisor, Asset and CI management, Explore, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Set up advisor, Use HAM advisor, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Managing opt-in and opt-out resource categories for HAM in CMDB success advisor

@@ -46,6 +46,8 @@ Setup involves two stages: enabling ITOM Gateway and Hermes on your instance, an
 
 Supported log sources include [AWS Firehose](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/health-log-analytics/il-connector-hla-firehose.md), Cribl Stream, and OpenTelemetry Collector.
 
+For more information about connecting a Cribl Stream instance to the ServiceNow ITOM Gateway, see the [Set up Cribl to send data to HLA without a MID server](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2271238) \[KB2271238\] article in the Now Support knowledge base.
+
 ## Procedure
 
 1.  Enable ITOM Gateway and the  Hermes  Messaging Service.

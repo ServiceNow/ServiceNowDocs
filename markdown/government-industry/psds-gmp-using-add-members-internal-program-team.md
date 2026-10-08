@@ -26,7 +26,7 @@ To add public-facing points of contact that potential applicants can reach out t
 
 ## Before you begin
 
-Role required: sn\_gsm\_grnt\_mgmt.program\_manager, sn\_gsm\_grnt\_mgmt.grant\_director, sn\_svc\_appl\_pgm\_mg.grant\_program\_manager, or sn\_svc\_appl\_pgm\_mg-grant\_program\_director
+Role required: sn\_svc\_appl\_pgm\_mg.grant\_program\_manager or sn\_svc\_appl\_pgm\_mg.grant\_program\_director
 
 To add a user as an Internal Team Member, an Employee Profile must be created.
 

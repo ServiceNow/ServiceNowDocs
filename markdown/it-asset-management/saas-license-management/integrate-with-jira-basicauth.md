@@ -149,15 +149,15 @@ If you’re using Software Asset Workspace, the option to create the Jira integr
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d207826e528">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d210757e528">
 
 Interface
 
-</th><th align="left" id="d207826e531">
+</th><th align="left" id="d210757e531">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d207826e537">
+</th></tr></thead><tbody><tr><td id="d210757e537">
 
 **Core UI**
 
@@ -168,7 +168,7 @@ Action
 3.  Select **Jira Integration Profile**.
 
 
-</td></tr><tr><td id="d207826e579">
+</td></tr><tr><td id="d210757e579">
 
 **Software Asset Workspace**
 
@@ -274,13 +274,13 @@ Jira Subscription. This field is automatically populated.
 
     3.  Select the **Select** button against the required organization.
 
-    4.  Select the **Products** tab.
+    4.  On the side navigation pane, select **Apps** &gt; **Atlassian apps**.
 
-    5.  On the Products page, select **Manage product** on the Jira product row.
+    5.  On the Atlassian apps page, select **Manage app** on the Jira product row.
 
     6.  View the list of groups that have access to Jira Software.
 
-        Take note of this information for later use.
+        Secure this information for later use.
 
     7.  Return to your ServiceNow instance and navigate to **Jira** &gt; **Jira Groups**.
 

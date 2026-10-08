@@ -7,7 +7,7 @@ release: australia
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: task
-last_updated: "2026-05-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [NIST AI RMF, content accelerator, activate framework, citations, control objectives, risk statements]
 breadcrumb: [Content pack, Configure, AI Risk and Compliance, Governance, Risk, and Compliance]
@@ -68,7 +68,9 @@ The selected NIST Risk Management Framework citations, control objectives, and r
 
 ## What to do next
 
-The installed citations, control objectives, and risk statements are available for use in assessments and to map to your AI assets. To activate additional frameworks, see [Activate or update EU Artificial Intelligence Act](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/activate-or-update-eu-artificial-intelligence-act.md), [Activate or update the Colorado Artificial Intelligence Act](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/activate-or-update-colorado-ai-act.md), or [Activate or update the Transparency in Frontier Artificial Intelligence Act \(SB 53\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/activate-or-update-sb53.md).
+The installed citations, control objectives, and risk statements are available for use in assessments and to map to your AI assets.
+
+To activate additional frameworks, see [Activate or update EU Artificial Intelligence Act](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/activate-or-update-eu-artificial-intelligence-act.md), [Activate or update the Colorado Artificial Intelligence Act](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/activate-or-update-colorado-ai-act.md), or [Activate or update the Transparency in Frontier Artificial Intelligence Act \(SB 53\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/activate-or-update-sb53.md).
 
 **Related topics**  
 

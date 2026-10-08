@@ -66,7 +66,7 @@ Account ID
 
 </td><td>
 
-12-digit user account number. Expand the list under the AWS account name on the AWS Management Console to view the number.**Important:** In the **Account ID** field, remove the hyphen characters \(-\) from the number.
+12-digit user account number. Expand the list under the AWS account name on the AWS Management Console to view the number.**Note:** In the **Account ID** field, remove the hyphen characters \(-\) from the number.
 
  \[Omitted image "aws-account-id.png"\] Alt text: Determine the IAM user account number to fill in the Account ID field
 
@@ -120,7 +120,7 @@ Parent account
 
 </td><td>
 
-Name of the management account that represents the organization in AWS that this member account belongs to.It appears when you select **AWS datacenter**.
+Name of the management account \(also referred to as the master account in some ServiceNow UI screens\) that represents the organization in AWS that this member account belongs to.This field appears when you select **AWS datacenter**.
 
  Leave the field empty if this account is not part of an AWS organization.
 
@@ -130,9 +130,9 @@ Is master account
 
 </td><td>
 
-Management account flag.It appears when you select **AWS datacenter** from the Datacenter Type drop-down. Select the check box to associate the AWS service account with the management account. Select this check box only for accounts that you previously configured in the AWS Management Console as management accounts with some member accounts belonging to them. See the [AWS documentation](https://aws.amazon.com/documentation/) for information on AWS Organizations.
+Management account flag. This field is also referred to as the master account flag in some ServiceNow UI screens.This field appears when you select **AWS datacenter** from the Datacenter Type list. Select the check box to associate the AWS service account with the management account. Select this check box only for accounts that you previously configured in the AWS Management Console as management accounts with some member accounts belonging to them. See the [AWS documentation](https://aws.amazon.com/documentation/) for information on AWS Organizations.
 
-**Note:** You will need to setup the correct permission in AWS or the Organization role for a standard credential. For more information, see [Control AWS access and permissions using policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/aws-create-user-policy-cloud-mgt.md).
+**Note:** You must set up the correct permission in AWS or the Organization role for a standard credential. For more information, see [Control AWS access and permissions using policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/aws-create-user-policy-cloud-mgt.md).
 
 </td></tr><tr><td>
 

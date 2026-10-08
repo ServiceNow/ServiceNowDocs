@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/lsd-rn-
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Employee Service Management release notes, Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
 
@@ -14,6 +14,8 @@ breadcrumb: [Employee Service Management release notes, Features and changes by 
 
 The ServiceNow® Legal Service Delivery streamlines legal operations by automating request intake, managing legal matters and investigations, and enabling secure collaboration across departments. Legal Service Delivery was enhanced and updated in the Australia release.
 
+-   **[Contract Management Pro for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/snlc-cmpro-for-lsd-rn.md)**  
+The ServiceNow Store Contract Management Pro for Legal Service Delivery application enables you to configure and automate the legal contract lifecycle by creating contract document templates, clauses, and clause variations. You can submit, review, finalize, and manage legal contract requests, and the application supports e-signatures and external storage systems. See the following sections for release notes by version.
 -   **[Legal Conflict of Interest release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/lsd-coi-rn.md)**  
 The ServiceNow® Legal Conflict of Interest enables you to manage the disclosure, approval, and registry of conflict of interest that might arise from employees having competing interests or loyalties. Legal Conflict of Interest was enhanced and updated in the Australia release.
 -   **[Legal Matter Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/legal-matter-mgmt-rn.md)**  

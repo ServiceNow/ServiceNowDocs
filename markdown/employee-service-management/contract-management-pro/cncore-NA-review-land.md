@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [Contract analysis, AI contract review, Otto Contract Management, Non-standard clauses, Missing clauses, Automated contract analysis, AI-powered review]
-breadcrumb: [Review contract documents, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Review contract documents, Common contract request tasks, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Contract review using ServiceNow Otto for Contract Management Pro

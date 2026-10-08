@@ -1,6 +1,6 @@
 ---
-title: Pattern diagnostic agentic workflow
-description: The Pattern diagnostic agentic workflow helps Discovery administrators investigate missing CI attributes. It identifies the gap, parses discovery logs, identifies the root cause, and suggests remediation — without manually navigating log files.
+title: Pattern Diagnostic agentic workflow
+description: The Pattern Diagnostic agentic workflow helps Discovery administrators investigate missing CI attributes. It identifies the gap, parses discovery logs, identifies the root cause, and suggests remediation — without manually navigating log files.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery/pattern-diagnostic-agentic-workflow.html
 release: australia
@@ -9,15 +9,15 @@ classification: discovery
 topic_type: concept
 last_updated: "2026-09-01"
 reading_time_minutes: 4
-keywords: [Discovery, agentic workflow, Now Assist, pattern diagnostic, missing attribute, CMDB, data quality]
+keywords: [Discovery, agentic workflow, Now Assist, Pattern Diagnostic, missing attribute, CMDB, data quality]
 breadcrumb: [Using Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
-# Pattern diagnostic agentic workflow
+# Pattern Diagnostic agentic workflow
 
-The Pattern diagnostic agentic workflow helps Discovery administrators investigate missing CI attributes. It identifies the gap, parses discovery logs, identifies the root cause, and suggests remediation — without manually navigating log files.
+The Pattern Diagnostic agentic workflow helps Discovery administrators investigate missing CI attributes. It identifies the gap, parses discovery logs, identifies the root cause, and suggests remediation — without manually navigating log files.
 
-When Discovery runs, it populates CI attributes in the CMDB using both probe-based and pattern-based discovery. The Pattern diagnostic agentic workflow supports investigation into CIs discovered through pattern-based discovery. When an attribute is missing, identifying the cause requires navigating multiple tables and interpreting nested JSON in discovery logs. The Pattern diagnostic agentic workflow automates this investigation and suggests a remediation action, all from the ServiceNow Otto panel.
+When Discovery runs, it populates CI attributes in the CMDB using both probe-based and pattern-based discovery. The Pattern Diagnostic agentic workflow supports investigation into CIs discovered through pattern-based discovery. When an attribute is missing, identifying the cause requires navigating multiple tables and interpreting nested JSON in discovery logs. The Pattern Diagnostic agentic workflow automates this investigation and suggests a remediation action, all from the ServiceNow Otto panel.
 
 ## Requirements
 
@@ -31,24 +31,20 @@ Role required: discovery\_admin.
 
 AI Search must be enabled for the workflow to match natural language queries to CI tables. If AI Search is not enabled, you can still use the workflow by providing the direct table name in your query. To enable AI Search, navigate to **All** &gt; **AI Search** &gt; **Enable AI Search**. After enabling, verify that the search status is enabled to confirm indexing is complete.
 
-**Note:**
-
-The workflow is available as a pill in the ServiceNow Otto panel in Discovery Admin Workspace. The workflow can also be invoked by asking plain text questions in the ServiceNow Otto panel.
-
 ## Required property configuration
 
 The **glide.discovery.save\_pattern\_log** property controls whether pattern logs are saved after successful pattern execution. By default, this property is set to true, which saves all pattern logs.
 
-If this property is set to false, successful pattern logs are not saved. This can prevent the Pattern diagnostic agentic workflow from performing missing attribute analysis in cases where the attribute is not failing the pattern. Verify that this property is set to true to enable complete analysis. For information about configuring this property, see [Discovery properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/r_DiscoveryProperties.md).
+If this property is set to false, successful pattern logs are not saved. This can prevent the Pattern Diagnostic agentic workflow from performing missing attribute analysis in cases where the attribute is not failing the pattern. Verify that this property is set to true to enable complete analysis. For information about configuring this property, see [Discovery properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/r_DiscoveryProperties.md).
 
-## Pattern diagnostic agentic workflow overview
+## Pattern Diagnostic agentic workflow overview
 
-A Discovery administrator triggers the workflow by asking a natural-language question in the ServiceNow Otto panel. The workflow supports both exploratory investigation, where it surfaces available attributes for selection, and direct investigation, where the administrator specifies the CI class and attribute in the initial question. The workflow then identifies affected CI records with the selected attribute missing, parses the relevant discovery logs to identify the root cause and, when the root cause is classified, displays the corresponding error code, and suggests a remediation.
+A Discovery administrator triggers the workflow from the ServiceNow Otto panel in Discovery Admin Workspace by asking a natural-language question or by selecting the corresponding pill. The workflow supports both exploratory investigation, where it surfaces available attributes for selection, and direct investigation, where the administrator specifies the CI class and attribute in the initial question. The workflow then identifies affected CI records with the selected attribute missing, parses the relevant discovery logs to identify the root cause and, when the root cause is classified, displays the corresponding error code, and suggests a remediation.
 
 The workflow uses two agents:
 
--   Pattern diagnostic agent: Receives the administrator's query and runs script tools autonomously to investigate the missing attribute.
--   EF Remediation Agent: Receives the identified root cause and suggests a remediation.
+-   Pattern Diagnostic agent: Receives the administrator's query and runs script tools autonomously to investigate the missing attribute.
+-   Error Framework Remediation agent: Receives the identified root cause and suggests a remediation.
 
 The second agent runs only when the root cause is classified and logged to the Error Framework. If classification or logging doesn't succeed, the workflow ends after the diagnostic summary, which lists the affected CIs, the error messages from the discovery logs, and general troubleshooting guidance.
 

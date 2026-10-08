@@ -20,7 +20,7 @@ After you generate and expand an app on the ServiceNow AI Platform, the deployme
 After development, review, and testing are complete, a typical deployment workflow includes the following steps:
 
 1.  Collaborative design: Business owners and IT collaborate on requirements and ideas using their preferred tools.
-2.  AI-driven app development: Build Agent and ServiceNow Otto process files, chat history, and diagrams to generate and implement app updates.
+2.  AI-driven app development: Build Agent, Autonomous Engineer and ServiceNow Otto process files, chat history, and diagrams to generate and implement app updates.
 3.  Review and testing: Teams preview updates, make revisions, and run rounds of performance and readiness testing.
 4.  Developer review: A developer reviews the AI-generated changes, compares versions, and confirms the changes are ready for deployment.
 5.  Deployment approval: The project is handed off to a deployment manager, who initiates the deployment approval process.
@@ -29,7 +29,7 @@ After development, review, and testing are complete, a typical deployment workfl
 
 ## Deployment options
 
-Build Agent supports the following deployment methods for apps created and edited with agentic development:
+Build Agent and Autonomous Engineer support the following deployment methods for apps created and edited with agentic development:
 
 -   Git-based source control integration: ServiceNow supports Git-based workflows for version control and CI/CD.
     -   You can push scoped apps to Git repositories, enabling branching, merging, and automated deployments. ServiceNow supports bring-your-own Git integration, such as GitHub or Bitbucket.
@@ -37,11 +37,13 @@ Build Agent supports the following deployment methods for apps created and edite
     -   For more information, see [Integrating source control with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-ide-family-release/integrating-source-control-servicenow-ide.md) and [Fluent source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/servicenow-studio-classic/fluent-source-control-sn-studio.md).
 -   Update sets and application packaging: Standard ServiceNow deployment uses System Update Sets to track changes.
     -   Advanced guidance includes packing update sets into scoped applications for easier transport and installation across instances, for example using Application Repository \(AppRepo\).
+    -   For information on update sets for Build Agent, see [Update sets and Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ba-update-sets.md).
+    -   For information on update sets for Autonomous Engineer, see [Update sets and Autonomous Engineer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ae-update-sets.md).
     -   For more information on System Update Sets, see [System update sets]().
 
 ## Workflows for moving apps through higher instances
 
-After you create an app using Build Agent, you have several options to move the app to the test instance.
+After you create an app using Build Agent or Autonomous Engineer, you have several options to move the app to the test instance.
 
 1.  Wrap the entire scoped application in an update set. The workflow is as follows:
     1.  Go to the **Custom Applications** list, select an app and swap to its scope.
@@ -50,7 +52,7 @@ After you create an app using Build Agent, you have several options to move the 
     4.  Put the update set in a deployment request for ReleaseOps, or follow your standard update set process for deployment.
 2.  Publish the app to AppRepo:
     -   You can use a Git-based process or update sets to publish to AppRepo.
-    -   Scoped apps, as well as apps that are ready for testing, can be published to the AppRepo for distribution across environments.
+    -   Scoped apps and apps that are ready for testing can be published to the AppRepo for distribution across environments.
     -   After an app is in AppRepo, you can move it through a ReleaseOps pipeline. If ATF tests are included in the pipeline, they automatically run.
     -   Register and entitle apps before publishing.
     -   For more information on Application Repository, see [ServiceNow application repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/application-repository-self-hosted/app-repo.md).

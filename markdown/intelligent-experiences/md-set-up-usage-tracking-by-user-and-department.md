@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/md-set-up-usage-tracking-by-user-and-department.html
 release: australia
 topic_type: task
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [Dashboards, Configure, Measure AI system, Measure AI systems, AI Control Tower, Enable AI experiences]
 ---
@@ -16,7 +16,7 @@ Add user email and department information to the User table so that the AI Contr
 
 ## Before you begin
 
-Role required: sn\_ai\_governance\_ai\_steward
+Role required: sn\_ai\_governance.ai\_steward
 
 ## About this task
 

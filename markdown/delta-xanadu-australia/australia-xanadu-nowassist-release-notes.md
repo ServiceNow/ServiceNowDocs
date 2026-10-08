@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-xanadu-australia/australia-xanadu-nowassist-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 14
 breadcrumb: [Products combined by family]
 ---
@@ -122,7 +122,7 @@ Run diagnostics on certain Now Assist skills to identify common configuration er
 
 -   **[Analyze Now Assist performance](https://www.servicenow.com/docs/access?context=now-assist-analytics&family=xanadu&ft:locale=en-US)**
 
-Use the Now Assist Analytics dashboard to monitor the usage and performance of generative AI features and capabilities offered under Now Assist.
+Use the AI Analytics dashboard to monitor the usage and performance of generative AI features and capabilities offered under Now Assist.
 
 -   **[Configure and use a retriever with Now Assist Skill Kit](https://www.servicenow.com/docs/access?context=add-retriever&family=xanadu&ft:locale=en-US)**
 
@@ -148,9 +148,9 @@ Generate a Knowledge article for an incident, case, or other supported task type
 
 Use generative AI capabilities of Now Assist to shorten or elaborate content within a Knowledge article.
 
--   **[Use Now Assist Data Kit to add a dataset to the data catalog](https://www.servicenow.com/docs/access?context=now-assist-data-kit-landing&family=xanadu&ft:locale=en-US)**
+-   **[Use AI Data Kit to add a dataset to the data catalog](https://www.servicenow.com/docs/access?context=now-assist-data-kit-landing&family=xanadu&ft:locale=en-US)**
 
-Create a data collection and select the sampling data for publication. Once published, the evaluation data is available in Now Assist Skill Kit.
+Create a data collection and select the sampling data for publication. Once published, the evaluation data is available in AI Skill Kit.
 
 -   **[Now Assist context menu](https://www.servicenow.com/docs/access?context=now-assist-write-overview&family=xanadu&ft:locale=en-US)**
     -   Write with Now Assist is now called the Now Assist context menu.
@@ -170,7 +170,7 @@ Enable your agents to use Write with Now Assist for generative AI-powered text g
 -   **Use Now Assist [Platform skills](https://www.servicenow.com/docs/access?context=na-platform-skills&family=xanadu&ft:locale=en-US)**
     -   Use generative AI Platform skills in the Platform workflow starting with the Xanadu release to enhance and streamline your user experience.
     -   Enter search commands in plain language to retrieve and filter records and tables by using the [Navigation](https://www.servicenow.com/docs/access?context=now-assist-global-navigation&family=xanadu&ft:locale=en-US) skill.
--   **Use [Now Assist Skill Kit](https://www.servicenow.com/docs/access?context=now-assist-skill-kit-landing&family=xanadu&ft:locale=en-US) for Generative AI app developers**
+-   **Use [AI Skill Kit](https://www.servicenow.com/docs/access?context=now-assist-skill-kit-landing&family=xanadu&ft:locale=en-US) for Generative AI app developers**
 
 Create and activate custom prompts and skills for your Now Assist agent use cases.
 
@@ -367,23 +367,23 @@ Xanadu
 
 Now Assist features are available with activation of any Now Assist plugin from the ServiceNow Store. The following plugins are available:
 
--   [Now Assist for Accounts Payable Operations \(APO\)](https://www.servicenow.com/docs/access?context=now-assist-apo&family=xanadu&ft:locale=en-US)
--   [Now Assist for Configuration Management Database \(CMDB\)](https://www.servicenow.com/docs/access?context=now-assist-landing-cmdb&family=xanadu&ft:locale=en-US)
+-   [ServiceNow Otto for Accounts Payable Operations \(APO\)](https://www.servicenow.com/docs/access?context=now-assist-apo&family=xanadu&ft:locale=en-US)
+-   [ServiceNow Otto for Configuration Management Database \(CMDB\)](https://www.servicenow.com/docs/access?context=now-assist-landing-cmdb&family=xanadu&ft:locale=en-US)
 -   [Now Assist for Creator](https://www.servicenow.com/docs/access?context=now-assist-for-creator-landing&family=xanadu&ft:locale=en-US)
--   [Now Assist for Customer Service Management \(CSM\)](https://www.servicenow.com/docs/access?context=now-assist-csm&family=xanadu&ft:locale=en-US)
--   [Now Assist for Field Service Management \(FSM\)](https://www.servicenow.com/docs/access?context=now-assist-fsm&family=xanadu&ft:locale=en-US)
--   [Now Assist for Financial Services Operations \(FSO\)](https://www.servicenow.com/docs/access?context=now-assist-for-financial-services-operations&family=xanadu&ft:locale=en-US)
--   [Now Assist for Health and Safety](https://www.servicenow.com/docs/access?context=now-assist-hs-landing&family=xanadu&ft:locale=en-US)
--   [Now Assist for HR Service Delivery \(HRSD\)](https://www.servicenow.com/docs/access?context=now-assist-hrsd&family=xanadu&ft:locale=en-US)
--   [Now Assist for IT Operations Management \(ITOM\)](https://www.servicenow.com/docs/access?context=now-assist-itom&family=xanadu&ft:locale=en-US)
--   [Now Assist for IT Service Management \(ITSM\)](https://www.servicenow.com/docs/access?context=now-assist-itsm&family=xanadu&ft:locale=en-US)
--   [Now Assist for Legal Service Delivery \(LSD\)](https://www.servicenow.com/docs/access?context=now-assist-lsd-landing&family=xanadu&ft:locale=en-US)
--   [Now Assist for PSDS](https://www.servicenow.com/docs/access?context=now-assist-for-psds&family=xanadu&ft:locale=en-US)
--   [Now Assist for Security Incident Response](https://www.servicenow.com/docs/access?context=now-assist-security-incident-landing&family=xanadu&ft:locale=en-US)
--   [Now Assist for Supplier Lifecycle Operations \(SLO\)](https://www.servicenow.com/docs/access?context=now-assist-slo&family=xanadu&ft:locale=en-US)
--   [Now Assist for Sourcing and Procurement Operations \(SPO\)](https://www.servicenow.com/docs/access?context=now-assist-spo&family=xanadu&ft:locale=en-US)
--   [Now Assist for Strategic Portfolio Management \(SPM\)](https://www.servicenow.com/docs/access?context=now-assist-spm&family=xanadu&ft:locale=en-US)
--   [Now Assist for Telecommunications, Media and Technology \(TMT\)](https://www.servicenow.com/docs/access?context=now-assist-spmc&family=xanadu&ft:locale=en-US)
+-   [ServiceNow Otto for Customer Service Management \(CSM\)](https://www.servicenow.com/docs/access?context=now-assist-csm&family=xanadu&ft:locale=en-US)
+-   [ServiceNow Otto for Field Service Management \(FSM\)](https://www.servicenow.com/docs/access?context=now-assist-fsm&family=xanadu&ft:locale=en-US)
+-   [ServiceNow Otto for Financial Services Operations \(FSO\)](https://www.servicenow.com/docs/access?context=now-assist-for-financial-services-operations&family=xanadu&ft:locale=en-US)
+-   [ServiceNow Otto for Health and Safety](https://www.servicenow.com/docs/access?context=now-assist-hs-landing&family=xanadu&ft:locale=en-US)
+-   [ServiceNow Otto for HR Service Delivery \(HRSD\)](https://www.servicenow.com/docs/access?context=now-assist-hrsd&family=xanadu&ft:locale=en-US)
+-   [ServiceNow Otto for IT Operations Management \(ITOM\)](https://www.servicenow.com/docs/access?context=now-assist-itom&family=xanadu&ft:locale=en-US)
+-   [ServiceNow Otto for IT Service Management \(ITSM\)](https://www.servicenow.com/docs/access?context=now-assist-itsm&family=xanadu&ft:locale=en-US)
+-   [ServiceNow Otto for Legal Service Delivery \(LSD\)](https://www.servicenow.com/docs/access?context=now-assist-lsd-landing&family=xanadu&ft:locale=en-US)
+-   [ServiceNow Otto for PSDS](https://www.servicenow.com/docs/access?context=now-assist-for-psds&family=xanadu&ft:locale=en-US)
+-   [ServiceNow Otto for Security Incident Response \(SIR\)](https://www.servicenow.com/docs/access?context=now-assist-security-incident-landing&family=xanadu&ft:locale=en-US)
+-   [ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)](https://www.servicenow.com/docs/access?context=now-assist-slo&family=xanadu&ft:locale=en-US)
+-   [ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://www.servicenow.com/docs/access?context=now-assist-spo&family=xanadu&ft:locale=en-US)
+-   [ServiceNow Otto for Strategic Portfolio Management](https://www.servicenow.com/docs/access?context=now-assist-spm&family=xanadu&ft:locale=en-US)
+-   [ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://www.servicenow.com/docs/access?context=now-assist-spmc&family=xanadu&ft:locale=en-US)
 
 For more information, see [Install Now Assist plugins](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&family=xanadu&ft:locale=en-US).
 
@@ -427,6 +427,8 @@ Now Assist features are available with activation of any Now Assist plugin from 
     -   [Now Assist](https://www.servicenow.com/docs/access?context=now-assist-tprm&family=yokohama&ft:locale=en-US)
     -   [Now Assist for WSD](https://www.servicenow.com/docs/access?context=now-assist-wsd-landing&family=yokohama&ft:locale=en-US)
     -   [ServiceNow Otto for Unified Security Exposure Management](https://www.servicenow.com/docs/access?context=now-assist-for-vulnerability-response-landing&family=yokohama&ft:locale=en-US)
+
+**Important:** After purchasing a generative AI product, you can install it from ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 
@@ -666,10 +668,10 @@ Xanadu
 
  [Xanadu Patch 3](https://www.servicenow.com/docs/access?context=xanadu-patch-3&family=xanadu&ft:locale=en-US)
 
--   Protect your users from offensive content, prompt injection attacks, and filtered subjects in AI-generated content with Now Assist Guardian.
+-   Protect your users from offensive content, prompt injection attacks, and filtered subjects in AI-generated content with AI Guardian.
 -   Use the native translation capabilities of the Now LLM Service models to speak to users in their preferred languages.
--   Troubleshoot Now Assist skills from the Now Assist Admin console to locate the sources of configuration problems.
--   Monitor the usage and performance of generative AI features and capabilities offered under Now Assist from the Analytics tab in the Now Assist Admin console.
+-   Troubleshoot Now Assist skills from the AI Admin Hub console to locate the sources of configuration problems.
+-   Monitor the usage and performance of generative AI features and capabilities offered under Now Assist from the Analytics tab in the AI Admin Hub console.
 -   Use the multi-language capabilities of Now Assist to generate a Knowledge article for an incident, case, or other supported task type in a language other than English.
 -   Enable agents to utilize the generative AI capabilities of Now Assist to shorten or elaborate content in a Knowledge article using the context menu feature.
 -   Now Assist context menu enhancements.
@@ -679,7 +681,7 @@ Xanadu
 -   Support users who speak different languages with multi-language, dynamic translation.
 -   Make finding tables and lists easier and more efficient by using the navigation platform skill in the Now Assist panel.
 -   Write with Now Assist to provide chat and email suggestions for agents based on the content of a conversation.
--   Enable developers to create their own custom skills by using the Now Assist Skill Kit.
+-   Enable developers to create their own custom skills by using the AI Skill Kit.
 -   Generate a Knowledge Base article from a selection of similar cases or incidents to help address related concerns in a single article with Now Assist in Knowledge Management.
 
  See [Now Assist](https://www.servicenow.com/docs/access?context=platform-now-assist-landing&family=xanadu&ft:locale=en-US) for more information.

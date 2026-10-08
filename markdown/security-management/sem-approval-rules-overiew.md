@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-approval-rules-overiew.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-10-01"
 reading_time_minutes: 1
 breadcrumb: [Use, Unified Security Exposure Management, Security Operations]
 ---
@@ -25,6 +25,8 @@ It is a standardized way to route approval requests across multiple findings and
 -   Required approval levels before activation.
 -   Configurable expiry periods for approvals and notifications.
 -   Role-based routing using users and groups.
+-   Support for exception rule approvals: Approval rules of type **exception\_rules** route exception rule creation and extension requests through the unified approval workflow.
+-   Integration with questionnaire configuration: Approval rules of types deferral\_requests, and false\_positive can be linked to conditional questionnaire configurations for structured information gathering.
 
 -   **[Create or edit approval rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-configure-approval-rules-list-and-form-view.md)**  
 Create and activate an approval rule by selecting a rule type, choosing the target tables, defining conditions, and configuring approval levels.

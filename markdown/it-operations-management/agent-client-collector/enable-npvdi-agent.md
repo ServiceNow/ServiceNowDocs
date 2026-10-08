@@ -1,5 +1,5 @@
 ---
-title: Enable a non-persistent virtual desktop infrastructure \(NPVDI\) agent
+title: Enable a non-persistent virtual desktop infrastructure agent
 description: Configure an agent to enable it to work in a non-persistent virtual desktop infrastructure \(NPVDI\) environment. NPVDI agents are self-sufficient and start running checks immediately.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/agent-client-collector/enable-npvdi-agent.html
@@ -12,13 +12,13 @@ reading_time_minutes: 1
 breadcrumb: [ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
-# Enable a non-persistent virtual desktop infrastructure \(NPVDI\) agent
+# Enable a non-persistent virtual desktop infrastructure agent
 
 Configure an agent to enable it to work in a non-persistent virtual desktop infrastructure \(NPVDI\) environment. NPVDI agents are self-sufficient and start running checks immediately.
 
 ## Before you begin
 
-Ensure that you have set preliminary configurations in your ServiceNow instance, as described in [Prepare for agent deployment on a non-persistent virtual desktop infrastructure machine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/npvdi-agent-instance-prep.md).
+Ensure that you have set preliminary configurations in your ServiceNow instance, as described in [Prepare agent deployment on a non-persistent virtual desktop infrastructure machine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/npvdi-agent-instance-prep.md).
 
 Role required: agent\_client\_collector\_user
 

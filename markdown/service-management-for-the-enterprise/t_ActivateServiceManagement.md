@@ -20,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-For information on subscribing to a service management application, see [Activate Facilities Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/t_ActivateFacilitiesSM.md).
+For information on subscribing to a service management application, see .
 
 The Service Management Core plugin also activates the following plugins if they are not already active.
 

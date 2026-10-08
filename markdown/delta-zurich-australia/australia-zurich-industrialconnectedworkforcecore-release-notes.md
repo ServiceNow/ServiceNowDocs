@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-zurich-australia/australia-zurich-industrialconnectedworkforcecore-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 5
+last_updated: "2026-10-08"
+reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
 
@@ -75,7 +75,16 @@ Australia
 
 </td><td>
 
--   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&family=australia&ft:locale=en-US)**
+-   **[Safety and knowledge context on actions](https://www.servicenow.com/docs/access?context=industrial-action-management&family=australia&ft:locale=en-US)**
+
+See the required LOTO\(TO\) level, line status, and a related knowledge article directly on an action. When these fields are populated, the LOTO\(TO\) level and line status appear as highlighted values in the action header, and the knowledge article is available from the recommendations sidebar during execution.
+
+-   **[Self-assignment for unassigned actions](https://www.servicenow.com/docs/access?context=action-form&family=australia&ft:locale=en-US)**
+
+Claim an unassigned action without waiting for a supervisor to assign it. Users with the action\_user role can now assign any unassigned action to themselves, but can't reassign an action that's already assigned to another user.
+
+
+ -   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&family=australia&ft:locale=en-US)**
 
 The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
 
@@ -234,7 +243,7 @@ Australia
 ICW Core is automatically installed when you install Industrial Connected Workforce Mobile Experience as part of the ICW Foundational SKU. You can request ICW Mobile from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
 
 
-**Important:** ICW Core is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+**Note:** ICW Core is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -381,14 +390,14 @@ Australia
 
 -   Navigate the equipment model faster in the Digital Factory Workspace using vertical navigation and a breadcrumb trail to move between functional locations.
 -   Use the AI Enhanced recommended actions for Industrial Connected Workforce \(ICW\) feature to access external sources related to a deviation and review why the document is relevant to the incident.
--   Use the action plan skill available with AI Enhanced recommended actions for \(ICW\) to create and organize resolution action items related to deviation.
+-   Use the action plan skill available with AI Enhanced recommended actions for Industrial Connected Workforce \(ICW\) to create and organize resolution action items related to deviation.
 -   Standardize your industrial data across equipment hierarchies, functional locations, calendars, and workforce structures to drive operational consistency.
 -   Strengthen governance of industrial task records, worker skills, and operational compliance across your organization.
--   Accelerate cross‑application task creation and record synchronization with expanded workflow orchestration.
+-   Accelerate cross-application task creation and record synchronization with expanded workflow orchestration.
 -   Improve system responsiveness with performance optimizations that reduce load times and increase record processing throughput.
 -   Enhance interoperability across the ICW suite applications with improved integration capabilities for downstream applications.
 
- See, [ICW Core](https://www.servicenow.com/docs/access?context=industrial-connected-workforce-core-landing-page&family=australia&ft:locale=en-US) for more information.
+ See [ICW Core](https://www.servicenow.com/docs/access?context=industrial-connected-workforce-core-landing-page&family=australia&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-zurich-australia/rn-combined-intro.md)

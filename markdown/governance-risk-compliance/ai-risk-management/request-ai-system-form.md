@@ -1,22 +1,21 @@
 ---
 title: Request an AI use case form
-description: The Request an AI use case form is designed to streamline the request process for developing or procuring an AI-based solution. This intake form confirms that all necessary details, supporting documents, and compliance considerations are captured before moving forward with development and deployment of the AI-solution.
+description: The Request an AI use case form captures details, supporting documents, and compliance considerations for developing or procuring an AI-based solution.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/ai-risk-management/request-ai-system-form.html
 release: australia
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
+keywords: [request AI use case form, AI system intake form, intake fields]
 breadcrumb: [Request an AI use case, Use, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
 
 # Request an AI use case form
 
-The Request an AI use case form is designed to streamline the request process for developing or procuring an AI-based solution. This intake form confirms that all necessary details, supporting documents, and compliance considerations are captured before moving forward with development and deployment of the AI-solution.
-
-See the following table for a description of the field values.
+The Request an AI use case form captures details, supporting documents, and compliance considerations for developing or procuring an AI-based solution.
 
 <table id="table_l35_zwl_kkb"><thead><tr><th>
 
@@ -36,7 +35,7 @@ Name
 
 </td><td>
 
-A name for the AI use case or AI system. For example, `AI-Based Credit Scoring for Loan Approvals`.
+Unique name for the AI use case or AI system. For example, `AI-Based Credit Scoring for Loan Approvals`.
 
 </td></tr><tr><td>
 
@@ -44,7 +43,7 @@ State
 
 </td><td>
 
-Indicates whether the AI system is in the draft, development, or deployed state. Draft is the default state.
+Current state of the AI system: draft, development, or deployed. Draft is the default state.
 
 The following options are available.
 
@@ -52,7 +51,9 @@ The following options are available.
 -   Deployed
 -   Development
 
-For more information on states, see [AI asset lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-asset-lifecycle.md).**Note:** This field is available in the Request an AI use case form on the Employee Center.
+For more information on states, see [AI asset lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-asset-lifecycle.md).
+
+**Note:** This field is available in the Request an AI use case form on the Employee Center.
 
 </td></tr><tr><td>
 
@@ -70,9 +71,9 @@ Model category
 
 AI model category to classify how the system learns and decides. The following options are available.
 
--   **Agentic AI**: Acts autonomously to achieve goals by planning, deciding, and taking actions.
--   **Classic AI**: Follows fixed rules to solve structured problems.
--   **Generative AI**: Learns from data to create content like text, images, or code.
+-   Agentic AI: Acts autonomously to achieve goals by planning, deciding, and taking actions.
+-   Classic AI: Follows fixed rules to solve structured problems.
+-   Generative AI: Learns from data to create content like text, images, or code.
 
 </td></tr><tr><td>
 
@@ -80,7 +81,7 @@ Description
 
 </td><td>
 
-Brief description of the AI system, its core functionality, and intended use.For example, an AI system that analyzes incident and request data to identify recurring issues and recommend proactive remediation actions
+Brief description of the AI system, its core functionality, and intended use.For example, an AI system that analyzes incident and request data to identify recurring issues and recommend proactive remediation actions.
 
 </td></tr><tr><td>
 
@@ -116,7 +117,7 @@ Managed by
 
 </td><td>
 
-User responsible for managing the AI system. **Note:** By default, this field is automatically populated with the requestor or submitter of the request.
+User responsible for managing the AI system. **Note:** This field is automatically populated with the name of the person who submitted the request.
 
 </td></tr><tr><td>
 
@@ -124,23 +125,21 @@ Business application
 
 </td><td>
 
-Select one or more business applications to associate with the AI system.
+One or more business applications to associate with the AI system. This field is available when the Enterprise Architecture for AICT plugin \(com.sn\_ea\_aict\) is active. The Enterprise Architecture for AICT plugin installs automatically with AI Control Tower Core \(sn\_ai\_governance\).
 
- This field is available only when Enterprise Architecture \(EA\) is installed and business applications are configured.
-
- Associating a business application creates an association between the AI system and the selected application.
-
- For more information, see [AI Control Tower integration with Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-aict.md).
-
- **Note:**
+ Associate one or more business applications with the AI system.
 
 -   You can select multiple business applications.
--   If you do not select a business application, intake and onboarding continue without interruption.
--   Retired business applications are not available for selection.
+-   If you don't select a business application, intake and onboarding continue without interruption.
+-   Retired business applications aren't available for selection.
+
+For more information, see [AI Control Tower integration with Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-aict.md).
+
+ **Note:** Starting in version 23.1.1, availability depends on the Enterprise Architecture for AICT plugin instead. If AI Risk and Compliance, Enterprise Architecture Workspace, and AI Control Tower Core are upgraded out of sync, this field's behavior and your existing business application associations may be temporarily affected. For more information, see [Enterprise Architecture for AICT plugin installation and upgrade considerations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-ea-common-upgrade-considerations.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
-AI models and Datasets
+AI models and datasets
 
 </td></tr><tr><td>
 
@@ -186,7 +185,7 @@ Area where the AI system is used
 
 Business or operational areas where the AI system is used or provides value.Select all that apply.
 
--   Customer services
+-   Customer Services
 -   External Partner Ecosystem
 -   Finance &amp; Accounting
 -   HR &amp; Workforce
@@ -217,7 +216,7 @@ People affected by the AI system
 
 </td><td>
 
-Groups of people who may be directly or indirectly affected by the AI system’s outputs or decisions.Select all that apply.
+Groups of people who may be directly or indirectly affected by the AI system's outputs or decisions.Select all that apply.
 
 -   External Partners
 -   General Customer Base
@@ -231,7 +230,7 @@ Level of human involvement
 
 </td><td>
 
-When and how people guide, review, or accept the AI system’s activities during operation.The following options are available.
+Degree of human guidance, review, or approval applied to the AI system's activities during operation.The following options are available.
 
 -   Not Applicable
 -   Full User Control
@@ -261,7 +260,7 @@ Interaction type with end users
 
 </td><td>
 
-End user interaction with the AI system including whether outputs are visible, actionable, or interactive.The following options are available.
+End user interaction with the AI system, including whether outputs are visible, actionable, or interactive.The following options are available.
 
 -   Not Applicable
 -   No Direct Interaction

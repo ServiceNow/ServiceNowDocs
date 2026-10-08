@@ -59,7 +59,7 @@ Create an external content connector to retrieve searchable content and security
 -   **[Configure crawl settings for a Microsoft SharePoint Online external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-crawl-settings-spo-ext-cont-connector.md)**  
 Specify the sites you want your Microsoft SharePoint Online external content connector to crawl. Define inclusion or exclusion filters to dictate the types of content the crawl retrieves and feeds to AI Search for indexing.
 -   **[View retrievable page content using the Microsoft SharePoint Online REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/view-retrievable-page-content-mspo-rest-api.md)**  
-Review the elements of of a Microsoft SharePoint Online page's content that can be retrieved by the Microsoft SharePoint Online external content connector.
+Review the elements of a Microsoft SharePoint Online page's content that can be retrieved by the Microsoft SharePoint Online external content connector.
 
 **Parent Topic:**[Configuring External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configuring-ext-cont-connectors.md)
 

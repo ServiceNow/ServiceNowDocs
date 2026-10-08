@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio
 release: australia
 topic_type: task
 last_updated: "2026-05-26"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Configure ServiceNow Otto for Enterprise Architecture \(EA\), Configuring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
@@ -73,4 +73,6 @@ Knowledge Graph begins processing your CMDB data using scheduled jobs. After ini
 [Configure ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/configure-now-assist-ea.md)
 
 [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md)
+
+[Connect the EA MCP server to an AI assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/connect-ea-mcp-server-to-ai-assistant.md)
 

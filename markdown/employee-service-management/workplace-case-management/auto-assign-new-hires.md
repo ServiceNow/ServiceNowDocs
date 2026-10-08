@@ -74,7 +74,7 @@ To use the automated seat assignment feature, you must install plugins in the fo
 
 [Create a Workplace task template]()
 
-[Smart Assessment for Workplace Case and Task]()
+[Smart Assessment for workplace cases and tasks]()
 
 [Configure Approval options]()
 

@@ -1,18 +1,18 @@
 ---
 title: Create an AI agent
-description: Create an AI agent in AI Agent Studio to solve problems for your users and coordinate with other AI agents while executing the agentic workflows.
+description: Create an AI agent in AI Agent Studio to solve problems for your users and coordinate with other AI agents in agentic workflows.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/create-aia-new.html
 release: australia
 topic_type: task
-last_updated: "2026-08-27"
+last_updated: "2026-10-05"
 reading_time_minutes: 5
 breadcrumb: [AI Agent Studio, Enable AI experiences]
 ---
 
 # Create an AI agent
 
-Create an AI agent in AI Agent Studio to solve problems for your users and coordinate with other AI agents while executing the agentic workflows.
+Create an AI agent in AI Agent Studio to solve problems for your users and coordinate with other AI agents in agentic workflows.
 
 ## Before you begin
 
@@ -22,53 +22,53 @@ Role required: sn\_aia.admin
 
 In the ServiceNow agentic ecosystem, an AI agent is a set of large language model \(LLM\) instructions and tools that can perform specific tasks.
 
-An AI agent can collaborate with other agents to achieve better results by using fewer LLM calls. AI agents can also reach out to the user if they need any help or information.
+An AI agent can collaborate with other agents to achieve better results by using fewer LLM calls. AI agents can also request help or information from the user.
 
 There are three ways to create an AI agent. The following procedure describes the steps for the full guided setup. You complete every section yourself, from the definition through tools, security, triggers, channels, and memory. Use it when you already know what the agent must do and have intended prompts in mind.
 
-You can also create an AI agent conversationally. You describe the agent and Virtual Agent drafts the definition and suggests tools, which you then review and finish in the guided setup. Use it to get to a first draft quickly. You can only create AI agents by this method, not agentic workflows. For those instructions, see Create an AI agent conversationally.
+You can also create an AI agent conversationally. You describe the agent, and Virtual Agent drafts the definition and displays suggested tools, which you then review and finish in the guided setup. Use it to get to a first draft quickly. You can create only AI agents with this method, not agentic workflows. For those instructions, see Create an AI agent conversationally.
 
-The third way to build an AI agent is through an automation opportunity. The identified automation context is applied to the AI agent when building from the automation opportunities list. For those instructions, see [Create an AI agent for an automation opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/create-aia-aut-opp.md).
+The third way to build an AI agent is through an automation opportunity. When you build from the automation opportunities list, the identified automation context is applied to the AI agent. For those instructions, see [Create an AI agent for an automation opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/create-aia-aut-opp.md).
 
 ## Procedure
 
-1.  Navigate to the **All** &gt; **AI Agent Studio** &gt; **Home**.
+1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Home**.
 
 2.  Select **Create new agentic solution**, then select **New AI agent for a task**.
 
-3.  In the new AI Agent pop up, describe your AI agent and select **Next**.
+3.  In the new AI Agent pop-up window, describe your AI agent and select **Next**.
 
     Alternatively, you can select **Skip** to open a new AI agent form.
 
 4.  Select **Create an agent from scratch** and select **Next**.
 
-    For more information about creating an external AI agent, see [Create an external AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/create-a2a-agent-new.md).
+    To create an external AI agent instead, see [Create an external AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/create-a2a-agent-new.md).
 
 5.  Describe the purpose of the AI agent, then select **Check**.
 
-    The description you provide is given to a large language model \(LLM\) to help suggest contents for the general prompt for the AI agent. Confirm that your description names the goal, what starts the work, the records and tables involved, and the outcome that countas as done. For example, "Categorize incoming ITSM incidents by reading the short description and description, select the best-fit category and subcategory, and update the incident with a short rationale in the work notes."
+    The LLM uses your description to generate suggested content for the general prompt of the AI agent. Confirm that your description names the goal, what starts the work, the records and tables involved, and the outcome that counts as done. For example, "Categorize incoming ITSM incidents by reading the short description and description, select the best-fit category and subcategory, and update the incident with a short rationale in the work notes."
 
-    The LLM also uses the description to suggest tools for the AI agent to execute its goal.
+    The LLM also uses the description to generate tool suggestions that help the AI agent achieve its goal.
 
-    If there are other agentic solutions that accomplish a similar goal as the one you describe, the check will reveal it and let you edit the matching one.
+    If other agentic solutions accomplish a goal similar to the one you describe, the check identifies them so you can edit a matching solution instead.
 
     You can skip this step by selecting **Skip**.
 
 6.  [Review or draft the content in the **Expected behavior** section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/define-aia-new.md).
 
-    You can make changes to any of the content generated by the LLM.
+    You can edit any content that the LLM generates.
 
-    The description, role, and instructions are used by the Orchestrator when the AI agent is invoked, by itself or as part of an agentic workflow. They provide the necessary context for the Orchestrator to use them effectively to serve their purpose.
+    The Orchestrator uses the description, role, and instructions when the AI agent is invoked, either alone or as part of an agentic workflow. This content gives the Orchestrator the context it requires to use the AI agent for its intended purpose.
 
     After making any changes to the AI agent in this guided setup, you can select **Save** to save your progress.
 
 7.  [Add tools and information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/add-tool-aia-new.md) your AI agent can use to accomplish its goals.
 
-    The tools give the AI agent the capabilities necessary to accomplish tasks. An AI agent without tools can't do anything.
+    The tools give the AI agent the capabilities necessary to accomplish tasks. An AI agent requires tools to perform tasks.
 
-    You can also add information that the AI agent can use, such as knowledge graphs, to incorporate into its decision-making.
+    You can also add information sources, such as knowledge graphs, that the AI agent uses when making decisions.
 
-    Information can reach an agent at run time in multiple ways. Knowledge graphs supply relationships between entities Search retrieval tools retrieve content from defined sources. File upload tools give the agent specific documents.
+    Information can reach an agent at run time in multiple ways. Knowledge graphs supply relationships between entities. Search retrieval tools retrieve content from defined sources. File upload tools give the agent specific documents.
 
 8.  [Define the AI agent access rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/define-sec-aia-new.md).
 
@@ -76,30 +76,30 @@ The third way to build an AI agent is through an automation opportunity. The ide
 
 9.  [Add test scenarios for evaluations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/create-scenarios-aia.md).
 
-    Automated evaluations of your AI agent require configured test scenarios to run against. You can add existing table records as scenarios or manually input different test objectives to cover the full range of conditions your AI agentic can encounter.
+    Automated evaluations of your AI agent require configured test scenarios to run against. You can add existing table records as scenarios or manually enter different test objectives to cover the full range of conditions your AI agent can encounter.
 
 10. [Add a trigger to automatically invoke your AI agent if a specified event occurs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/add-trigger-aia-new.md).
 
-    If you want your AI agent to be used only in chats, you don’t need to add a trigger.
+    A trigger isn't required if your AI agent is used only in chats.
 
 11. [Determine how and where users can invoke your AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/channels-access-aia-new.md).
 
-    If you want users to be able to invoke the AI agents by themselves, you can add the AI agent to Virtual Agent chat assistants.
+    To let users invoke the AI agent directly, add it to Virtual Agent chat assistants.
 
 12. [Set up long-term memory and active learning controls for your AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/map-ltm-aia-new.md).
 
-    AI agents can learn from previous interactions, if configured to do so. You can choose the categories of information that the AI agent should consider from its previous experiences when approaching new problems.
+    AI agents can learn from previous interactions, if configured to do so. You can choose the categories of information from previous interactions that the AI agent uses when handling new requests.
 
 13. Select **Save** to save your changes.
 
 
 ## Result
 
-Your AI agent is configured with the context necessary for it to be used by the AI Agent Orchestrator and has the tools to accomplish its intended tasks.
+Your AI agent has the context that the AI Agent Orchestrator requires and the tools to accomplish its intended tasks.
 
 ## What to do next
 
-You can [test your AI agent on a record manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/test-ai-asset-new.md) to see an example execution. You can also [create an automated agentic evaluation to test the AI agent over repeated interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/launch-aia-eval.md). Automated evaluations can recommend specific optimizations if the LLM judges find underlying patterns for low success rates.
+You can [test your AI agent on a record manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/test-ai-asset-new.md) to see an example execution. You can also [create an automated agentic evaluation to test the AI agent over repeated interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/launch-aia-eval.md). Automated evaluations can display optimization suggestions when LLM judges detect patterns behind low success rates.
 
-You can activate your AI agent and make it ready for use by selecting **Activate**.
+To make your AI agent ready for use, select **Activate**.
 

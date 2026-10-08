@@ -51,7 +51,7 @@ You can add existing business application to Technology Reference Model \(TRM\) 
 -   **[Remove business applications associated with a Technology Reference Model product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/remove-ba-assoc-with-trm-product.md)**  
 You can remove the business applications associated with Technology Reference Model \(TRM\) products in the Enterprise Architecture Workspace, confirming only the relevant and current business applications are associated with the TRM products.
 -   **[View Technology Reference Model technical debts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/view-trm-tech-debt.md)**  
-View Technology Reference Model \(TRM\) technical debts created for products that are not aligned with TRM phases and standards.
+View Technology Reference Model \(TRM\) technical debts created for products that aren't aligned with TRM phases and standards.
 -   **[Update TRM technical debt data using scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-run-job-trm-tech-debts.md)**  
 Run the scheduled job to update technical debt data based on Technology Reference Model \(TRM\) phases. This job identifies products not approved for use in your enterprise and can be scheduled to run periodically.
 -   **[Update the retention period for archived technical debts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-update-system-property-archived-tech-debt-retention.md)**  
@@ -68,5 +68,5 @@ Export the Technology Reference Model \(TRM\) list view data to Microsoft Excel 
 **Related topics**  
 
 
-[Exploring the Technology Reference Model in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-managing-the-technology-portfolio.md)
+[Technology Reference Model in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-managing-the-technology-portfolio.md)
 

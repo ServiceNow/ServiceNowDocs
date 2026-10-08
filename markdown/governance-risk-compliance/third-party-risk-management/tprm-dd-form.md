@@ -7,7 +7,7 @@ release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Due diligence request process management, Reference, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -150,6 +150,14 @@ Standard contact information for the person at the engagement organization who a
  If the target of your engagement request is the parent third-party organization, select **Same as third-party primary contact**.
 
  For a description of the responsibilities of the third-party contact role, see [Roles in Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-roles.md).
+
+</td></tr><tr><td>
+
+AI assets involved
+
+</td><td>
+
+Indicates whether the third party provides, embeds, or uses AI systems, models, or datasets as part of the engagement or service being assessed. This information is used to determine whether additional AI‑related data collection, assessments, or integrations \(such as AI risk monitoring\) are required.
 
 </td></tr><tr><td>
 

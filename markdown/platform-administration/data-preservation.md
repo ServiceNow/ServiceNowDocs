@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/data-preservation.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Manage, Instance Clone, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -28,6 +28,8 @@ Data preservers typically preserve system settings and themes, such as:
 -   User Preference \[sys\_user\_preference\]
 
 **Note:** A clone does not support preserving data from a database view.
+
+Preserving a parent table also preserves all of its child tables. For clones between MariaDB instances, child tables aren't automatically preserved and must be manually added to the preserver list.
 
 Don't use data preservers to transfer large sets of data, such as user groups. If you must preserve table data, such as users, groups, and roles, consider exporting the records to a file and importing them after cloning.
 

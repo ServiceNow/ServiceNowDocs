@@ -7,7 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-08-20"
 reading_time_minutes: 1
-breadcrumb: [Schedule the export of dashboards and data visualizations, Working with in-line dashboards, Dashboards, Platform Analytics experience, Platform Analytics]
+breadcrumb: [Schedule exports, Working with in-line dashboards, Dashboards, Platform Analytics experience, Platform Analytics]
 ---
 
 # Scheduled export reference qualifiers

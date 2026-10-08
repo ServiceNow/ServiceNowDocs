@@ -1,6 +1,6 @@
 ---
 title: Edit a Platform Analytics filter on a dashboard
-description: When you highlight a filter on a dashboard that you have put into edit mode, you have several editing options depending on whether the filter is local to the dashboard or saved in the library.
+description: When you highlight a filter on a dashboard that you have put into edit mode, you have several editing options. These options depend on whether the filter is local to the dashboard or saved in the library.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/edit-filters-configurable-workspaces.html
 release: australia
@@ -12,7 +12,7 @@ breadcrumb: [Filters, Platform Analytics experience, Platform Analytics]
 
 # Edit a Platform Analytics filter on a dashboard
 
-When you highlight a filter on a dashboard that you have put into edit mode, you have several editing options depending on whether the filter is local to the dashboard or saved in the library.
+When you highlight a filter on a dashboard that you have put into edit mode, you have several editing options. These options depend on whether the filter is local to the dashboard or saved in the library.
 
 ## Before you begin
 

@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-07-24"
 reading_time_minutes: 2
 keywords: [HAM advisor dashboard setup, automatic setup CMDB advisor, manual setup model categories, HAM advisor scope configuration, CMDB Advisor Auto Setup scheduled job]
-breadcrumb: [Set up advisor, Use HAM advisor, Asset and CI management, Explore, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Set up advisor, Use HAM advisor, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Getting started with HAM advisor dashboard setup

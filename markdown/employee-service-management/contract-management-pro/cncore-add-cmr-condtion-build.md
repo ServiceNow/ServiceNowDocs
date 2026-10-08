@@ -69,9 +69,9 @@ The contract request fields are available for selection in the condition builder
 
 [Add Contract requests tab to the contract request record]()
 
-[Add amendment tabs to contract repository record]()
-
 [Add Contract documents tab to the contract repository record]()
+
+[Add amendment tabs to contract repository record]()
 
 [Copy fields from parent request to contract request]()
 
@@ -79,7 +79,7 @@ The contract request fields are available for selection in the condition builder
 
 [Add access to obligation management from contract repository records]()
 
-[Configure the contract request form header for your workspace]()
+[Configure the contract request form header]()
 
 [Assign a role for configuring template mappings]()
 

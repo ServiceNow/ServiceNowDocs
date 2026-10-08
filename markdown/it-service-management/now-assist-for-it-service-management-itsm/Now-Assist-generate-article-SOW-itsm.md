@@ -1,27 +1,31 @@
 ---
 title: Generate a knowledge article from the Service Operations Workspace for ITSM and classic environment by using ServiceNow Otto
-description: As an agent or knowledge writer, quickly generate knowledge articles from resolved and closed incidents within the Service Operations Workspace for ITSM application and classic environment by using the ServiceNow Otto application.
+description: As an agent or knowledge writer, generate knowledge articles from resolved and closed incidents within the Service Operations Workspace for ITSM application and classic environment by using the ServiceNow Otto application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/now-assist-for-it-service-management-itsm/Now-Assist-generate-article-SOW-itsm.html
 release: australia
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-21"
 reading_time_minutes: 6
-keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
+keywords: [generate, knowledge, article, sow, service, operations, workspace, itsm, classic, otto, Now Assist, Agentic AI, generative AI, Gen AI]
 breadcrumb: [Use generative AI skills, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
 # Generate a knowledge article from the Service Operations Workspace for ITSM and classic environment by using ServiceNow Otto
 
-As an agent or knowledge writer, quickly generate knowledge articles from resolved and closed incidents within the Service Operations Workspace for ITSM application and classic environment by using the ServiceNow Otto application.
+As an agent or knowledge writer, generate knowledge articles from resolved and closed incidents within the Service Operations Workspace for ITSM application and classic environment by using the ServiceNow Otto application.
 
 ## Before you begin
 
 You can generate a knowledge article in any incident state that is set by your administrator using the **com.snc.incident.create\_knowledge.multistate.enable** system property. The incident must also not have an existing knowledge article that is associated with it.
 
+**Note:** KB generation applies to incident records only. The **Create Knowledge** option does not appear on catalog items or other task table types.
+
 The Knowledge generation skill is turned on by default. The skill will be automatically available to appropriate role users for the application. When new customers install a ServiceNow Otto product, designated skills are turned on automatically. For existing users who upgrade, there will be no change to the skill activation. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+
+The knowledge base referenced by the system property glide.knowman.task\_kb must be active. If the specified knowledge base is inactive, the **Create Knowledge** option does not appear on resolved incidents.
 
 **Important:**
 
@@ -57,6 +61,7 @@ To enable an agent to see the ServiceNow Otto experience on the Create Article p
     -   Specify that the knowledge base generation feature for the In-product or ServiceNow Otto panel is displayed.
 -   Configure the Create Article feature to apply the supported template, Incident-KCS article - HTML, or Standard article.
 
+-   Activate the Knowledge Content Recommendation skill. In Otto Admin, navigate to **Otto Experiences** &gt; **Otto Context Menu** and activate the Knowledge Content Recommendation skill. Activating the Otto Context Menu alone does not enable this skill.
 -   Currently, only the Create Article experience is available.
 
 Role required: itil
@@ -76,7 +81,9 @@ Role required: itil
     **Note:**
 
     -   The **Create knowledge** UI action is only visible when an incident doesn't have an existing knowledge article that is associated with it.
-    -   When the **Create knowledge** action is initiated, it gets redirected to an interceptor page. The Knowledge article interceptor page displays only when the KCS integration for incident management \(com.snc.incident.knowledge\) plugin is not installed.
+    -   If the popup modal does not appear, see the [KB Generation Otto popup modal is not visible in the ServiceNow Operations Workspace](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3061335) knowledge article for the resolution.
+
+        When the **Create knowledge** action is initiated, it gets redirected to an interceptor page. The Knowledge article interceptor page displays only when the KCS integration for incident management \(com.snc.incident.knowledge\) plugin is not installed.
 
         **Important:** If the KCS integration for incident management \(com.snc.incident.knowledge\) plugin is installed, then the interceptor page is skipped.
 
@@ -101,15 +108,15 @@ Role required: itil
 
 6.  To add or update the knowledge article, follow the instructions in the table below.
 
-<table><thead><tr><th align="left" id="d344369e527">
+<table><thead><tr><th align="left" id="d347200e595">
 
 To add or update the knowledge article
 
-</th><th align="left" id="d344369e530">
+</th><th align="left" id="d347200e598">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d344369e536">
+</th></tr></thead><tbody><tr><td id="d347200e604">
 
 **In Service Operation Workspace**
 
@@ -122,7 +129,7 @@ Do this
 -   Click **Save**.
 
 
-</td></tr><tr><td id="d344369e571">
+</td></tr><tr><td id="d347200e639">
 
 **In Core UI**
 
@@ -146,15 +153,15 @@ To update it:
 
     \[Omitted image "now-assist-itsm-ai-search.png"\] Alt text: AI Search activated
 
-<table id="choicetable_d3l_scz_23c"><thead><tr><th align="left" id="d344369e669">
+<table id="choicetable_d3l_scz_23c"><thead><tr><th align="left" id="d347200e737">
 
 Type of UI
 
-</th><th align="left" id="d344369e672">
+</th><th align="left" id="d347200e740">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d344369e678">
+</th></tr></thead><tbody><tr><td id="d347200e746">
 
 **In Service Operation Workspace**
 
@@ -173,7 +180,7 @@ The Knowledge article is created and attached to all selected similar incidents.
 
 \[Omitted image "now-assist-itsm-sow-similar-inc-knowledge.png"\] Alt text: Knowledge created for similar incidentsSelect **Save** to save the article.
 
-</td></tr><tr><td id="d344369e747">
+</td></tr><tr><td id="d347200e815">
 
 **In Core UI**
 

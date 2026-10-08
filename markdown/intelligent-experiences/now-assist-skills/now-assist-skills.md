@@ -7,7 +7,7 @@ release: australia
 product: Now Assist Skills
 classification: now-assist-skills
 topic_type: concept
-last_updated: "2026-09-02"
+last_updated: "2026-10-06"
 reading_time_minutes: 8
 keywords: [Skills, Generative AI, Gen AI]
 breadcrumb: [AI assets, Enable AI experiences]
@@ -46,6 +46,8 @@ Technology
 </td><td>
 
 -   [Acceptance criteria generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/generate-acceptance-criteria-for-stories-in-cwm.md)
+-   [CWM subtask generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/generate-subtasks-for-cwm-tasks.md)
+-   [CWM contextual task generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/generate-tasks-cwm-boards.md)
 -   [Docs summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/summarize-doc-now-assist-cwm.md)
 -   [Doc generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/generate-summarize-and-refine-content-of-docs-with-now-assist.md)
 -   [Task generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-business-management/generate-tasks-cwm-docs-now-assist.md)
@@ -258,6 +260,8 @@ Technology
 -   [Contract entitlement data extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/extract-entitlements-from-contracts-now-assist-sam.md)
 -   [Product match reviewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/resolve-entitlement-import-error.md)
 -   [Software normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/resolve-entitlement-import-error.md)
+-   [Spend transaction software classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/classify-normalize-software-spend-transactions.md)
+-   [Spend transaction software normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/classify-normalize-software-spend-transactions.md)
 
 </td></tr><tr><td>
 

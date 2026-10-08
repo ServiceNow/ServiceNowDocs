@@ -62,11 +62,11 @@ Tools
 
 -   **Script**
 
-Get Problem Details with Relevant Incidents
+Get Problem Details
 
--   **Generative AI skill**
+-   **Conversational topic**
 
-Problems investigation skill
+Problems Investigation Analyzer
 
 
 </td></tr><tr><td>

@@ -36,7 +36,7 @@ The following are minimum prerequisites:
 1.  Set system to enforce real-time validation.
 2.  Navigate to Scan Engine Properties System properties \(`sn_se_properties.list`\).
 
-3.  On the Real Time Scanning related list, set **Enforce real-time validation** to true
+3.  On the Real Time Scanning related list, enable **Enforce real-time validation** .
 
     Real-time Messaging must be activated, as the feature is tied to findings being present.
 
@@ -49,7 +49,7 @@ The following are minimum prerequisites:
 
     The button on the tile updates to **Deactivate skill** when the option has been selected and the status will show **Active**.
 
-8.  Set the `sn_impact_gen_ai.ai_fix.enabled` property to true.
+8.  Ensure the `sn_impact_gen_ai.ai_fix.enabled` property is enabled.
 
     **Note:** Enables the **Generate fixes with AI** button to display on script records.
 

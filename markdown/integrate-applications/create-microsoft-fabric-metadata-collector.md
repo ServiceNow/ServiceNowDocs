@@ -1,0 +1,363 @@
+---
+title: Create a Microsoft fabric metadata collector
+description: Create a collector to import metadata from Microsoft Fabric.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/create-microsoft-fabric-metadata-collector.html
+release: australia
+topic_type: task
+last_updated: "2026-07-29"
+reading_time_minutes: 7
+breadcrumb: [Microsoft Fabric metadata collector, Configuring metadata collectors, Data Catalog, Workflow Data Fabric]
+---
+
+# Create a Microsoft fabric metadata collector
+
+Create a collector to import metadata from Microsoft Fabric.
+
+## Before you begin
+
+Before you begin, verify the following:
+
+-   All per-requisite tasks are completed. For more information, see [Prepare to run the Microsoft Fabric collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/prepare-to-run-microsoft-fabric-collector.md).
+-   If you plan to run the collector on-premise, a MID Server is setup for the collector. For more information, see [MID Server for metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/mid-server-for-metadata-collectors-dc.md).
+-   Role required: connection-admin
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Workflow Data Fabric** &gt; **Workflow Data Fabric Home**.
+
+2.  Select the Connect Hub \[Omitted image "wdf-connect-hub-icon.png"\] Alt text: Connect Hub icon icon in the left sidebar.
+
+3.  Select **Create** &gt; **Metadata collector**.
+
+4.  From the System list, select **Microsoft Fabric**.
+
+5.  From the Connection type list, select one of the following:
+
+    1.  Select **New connection** to configure a new connection.
+
+    2.  Select **Existing connection** to reuse an existing connection and select an existing connection from the **Connections** list.
+
+        The configuration form is filled with details from the existing connection. The name is appended with the word Copy and sensitive details like password aren't copied.
+
+6.  Complete the form.
+
+    |Field|Description|
+    |-----|-----------|
+    |Connection name|Unique identifier for the connection. This field can't be modified once the connection is established.|
+    |Short description|Purpose and details of the connection.|
+
+7.  Configure the authentication options.
+
+    |Field|Description|
+    |-----|-----------|
+    |Microsoft Entra Tenant ID|The tenant ID that identifies the organization in Microsoft Entra.|
+    |Client ID|The client ID of the registered application in Microsoft Entra.|
+    |Client secret|The client secret for the registered application in Microsoft Entra.|
+
+8.  Configure the connection options.
+
+<table id="table_s3_collector_props"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Use MID server
+
+</td><td>
+
+Option to connect to the source system through a MID Server. When selected, the **MID selection** options appear.
+
+</td></tr><tr><td>
+
+MID selection
+
+</td><td>
+
+MID Server routing option for the collector job. This field appears only when **Use MID server** is selected.
+
+ -   **Auto-Select MID Server** — The system selects an available MID Server at job execution time. Default selection.
+-   **Specific MID Server** — The collector job runs on the selected MID Server. If the MID Server is offline at job execution time, the job fails with an error identifying the MID Server by name.
+-   **Specific MID Cluster** — The collector job runs on any available MID Server within the selected cluster.
+
+
+</td></tr><tr><td>
+
+MID Server
+
+</td><td>
+
+MID Server to use for the collector job. This field appears only when **Specific MID Server** is selected. The selected MID Server is saved on the collector record and used for all subsequent collection runs until changed.
+
+</td></tr><tr><td>
+
+MID Cluster
+
+</td><td>
+
+MID cluster to use for the collector job. This field appears only when **Specific MID Cluster** is selected. The selected cluster is saved on the collector record; any available MID Server within the cluster may serve the job.
+
+</td></tr><tr><td>
+
+Capabilities
+
+</td><td>
+
+One or more capability labels that restrict auto-selection to MID Servers advertising those capabilities. This field appears only when **Auto-Select MID Server** is selected.
+
+</td></tr><tr><td>
+
+MID application
+
+</td><td>
+
+MID Server application to use for the collector job. This field appears only when **Auto-Select MID Server** is selected.
+
+</td></tr></tbody>
+</table>9.  Configure the MID server options.
+
+<table><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Use MID server
+
+</td><td>
+
+Enable the **Use MID server** toggle to connect to the source system through a MID Server. The system automatically selects an available MID Server.
+
+</td></tr></tbody>
+</table>10. Configure the workspace options.
+
+    |Field|Description|
+    |-----|-----------|
+    |Include fabric workspaces|Match the workspaces to be collected. Use either a workspace name or a regular expression.|
+    |Exclude fabric workspaces|Match the workspaces and contents to exclude from cataloged. Use either a workspace name or a regular expression. If a workspace is specified in both Include Workspace and Exclude Workspace, Include Workspace takes precedence.|
+
+11. Select from **Collect all schemas** or **Specify which schema to collect** to configure the schema collection options.
+
+    |Field|Description|
+    |-----|-----------|
+    |Collect all schemas|
+    |Collect all schemas|Catalog all schemas to which the user has access.|
+    |Exclude Schema|Name or regular expression of the database schema to be excluded.|
+    |Include Information Schema|Include the database's Information Schema in catalog collection.|
+    |Specify which schema to collect|
+    |Specify which schema to collect|Catalog only the specified schemas.|
+    |Schema|Name of the database schema to catalog.|
+
+12. Configure the advanced options.
+
+<table><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Collect extended properties for SQL database resources
+
+</td><td>
+
+Harvest information about extended properties from SQL Server type databases.
+
+</td></tr><tr><td>
+
+Disable harvesting notebook definition
+
+</td><td>
+
+Specify whether to skip harvesting notebook definition.
+
+</td></tr><tr><td>
+
+Disable harvesting GraphQL API definition
+
+</td><td>
+
+Specify whether to skip harvesting GraphQL API definition.
+
+</td></tr><tr><td>
+
+Exclude delta table internal files
+
+</td><td>
+
+Specify whether to exclude delta table internal files \(parquet files and \_delta\_log folders\) from lakehouse file cataloging. Delta tables themselves are still cataloged via the Table API.
+
+</td></tr><tr><td>
+
+OneLake API page size
+
+</td><td>
+
+Page size for OneLake API pagination. Default is 5000.
+
+</td></tr><tr><td>
+
+Exclude system functions
+
+</td><td>
+
+Specify to exclude harvesting of built-in system functions.
+
+</td></tr><tr><td>
+
+JDBC properties
+
+</td><td>
+
+JDBC driver properties to pass through to driver connection, as name=value. Use the parameter multiple times for multiple properties.By default the collector uses authentication=ActiveDirectoryServicePrincipal, and encrypt=true
+
+</td></tr></tbody>
+</table>13. Configure the statistics and sampling options.
+
+<table id="table_ocr_gc4_33c"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Disable Lineage collection
+
+</td><td>
+
+Skip harvesting of intra-database lineage metadata.
+
+</td></tr><tr><td>
+
+Disable Extended Metadata collection
+
+</td><td>
+
+Skip harvesting of extended metadata for data asset types such as database, schema, table, columns functions, stored procedures, user defined types, synonyms. Basic metadata for these data asset types will still be harvested.
+
+</td></tr><tr><td>
+
+Enable column statistics collection
+
+</td><td>
+
+Enable harvesting of column statistics \(that is, data profiling\).**Note:** Enabling profiling can increase the collector’s runtime, as the collector must read table data to generate profiling metadata.
+
+</td></tr><tr><td>
+
+Target sample size for column statistics
+
+</td><td>
+
+Number of rows sampled for computation of column statistics and string-value histograms. For example, to sample 1000 rows, set the parameter as: 1000.Default: 100000
+
+</td></tr><tr><td>
+
+SQL parsing timeout
+
+</td><td>
+
+Specify the timeout in seconds for SQL parsing during lineage collection. The default is 60.
+
+</td></tr></tbody>
+</table>14. Configure the Power BI options.
+
+<table id="table_jrc_gty_qkc"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Maximum power BI expression length
+
+</td><td>
+
+Maximum number of characters in a Table expression \(coming from Semantic Models and Dataflows\) that will be parsed for lineage metadata. Expressions longer than this will be skipped. Default: 32000.
+
+</td></tr><tr><td>
+
+Datasource name mapping file
+
+</td><td>
+
+If you have configured source details in the [datasources.yml](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/prepare-to-run-microsoft-fabric-collector.md) file, upload the file.
+
+</td></tr><tr><td>
+
+Disable power BI expression lineage collection
+
+</td><td>
+
+Skip harvesting of intra-database lineage metadata. This applies only to database resources such as views.
+
+</td></tr><tr><td>
+
+Catalog report preview images
+
+</td><td>
+
+Specify if the collector should catalog preview images. The default setting is false. Ensure that you have met all pre-requisites for using this feature.
+
+</td></tr><tr><td>
+
+Disable max requests wait
+
+</td><td>
+
+Disable waiting up to an hour for the Power BI API endpoints to reset throttling limits \(error code 429 - too many requests\). When not disabled, the collector retries every 5 minutes for up to an hour. If this option is disabled, the Max retries and Retry delay options will be used instead.
+
+</td></tr><tr><td>
+
+Max retries
+
+</td><td>
+
+The number of times the system retries a failed API call.Default: 5
+
+</td></tr><tr><td>
+
+Retry delay
+
+</td><td>
+
+The number of seconds to wait between retry attempts for a failed API call.Default: 2 seconds
+
+</td></tr></tbody>
+</table>15. Select **Save**.
+
+
+## Result
+
+The metadata collector is created and appears on the Connectors page with a Configured status. It is now ready to connect to the source system and harvest metadata.
+
+## What to do next
+
+After creating the collector, you can perform any of the following tasks:
+
+-   Enable vault classification for columns harvested by the collector. This option is available only from the connection details of a saved collector. See [Enable Vault classification for a metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/enable-vault-classification.md).
+-   Run the collector manually to harvest metadata immediately. See [Run metadata collectors manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/run_metadata-collectors-manually.md).
+-   Automate metadata collection by scheduling regular collector runs. See [Schedule metadata collector runs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/schedule-metadata-collector-runs.md).
+-   Monitor execution status and troubleshoot issues by viewing the runtime logs. See [View runtime logs for collector runs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/view-runtime-logs-for-collector-runs.md).
+-   Discover and evaluate the harvested data assets in the Data Catalog. See [Governing the Data Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/manage-data-catalog.md).
+
+**Parent Topic:**[Microsoft Fabric metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/microsoft-fabric-metadata-collector.md)
+

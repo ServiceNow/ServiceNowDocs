@@ -1,6 +1,6 @@
 ---
-title: Smart Assessment for Workplace Case and Task
-description: Smart Assessment enables workplace case managers to create structured assessment templates with customizable questions and sections. These assessments can be automatically triggered based on specific conditions, such as state changes in workplace cases and tasks. Workplace agents complete these assessments as part of their workflow, ensuring standardized data collection and quality control.
+title: Smart Assessment for workplace cases and tasks
+description: Smart Assessment enables workplace case managers to create structured assessment templates with customizable questions and sections. These assessments trigger automatically based on specific conditions, such as state changes in workplace cases and tasks. Workplace agents complete these assessments as part of their workflow, to standardize data collection and support quality control.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-case-management/smart-assessment-for-workplace-case-and-task.html
 release: australia
@@ -8,15 +8,15 @@ product: Workplace Case Management
 classification: workplace-case-management
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 3
 breadcrumb: [Configure, Workplace Case Management, Workplace Service Delivery, Employee Service Management]
 ---
 
-# Smart Assessment for Workplace Case and Task
+# Smart Assessment for workplace cases and tasks
 
-Smart Assessment enables workplace case managers to create structured assessment templates with customizable questions and sections. These assessments can be automatically triggered based on specific conditions, such as state changes in workplace cases and tasks. Workplace agents complete these assessments as part of their workflow, ensuring standardized data collection and quality control.
+Smart Assessment enables workplace case managers to create structured assessment templates with customizable questions and sections. These assessments trigger automatically based on specific conditions, such as state changes in workplace cases and tasks. Workplace agents complete these assessments as part of their workflow, to standardize data collection and support quality control.
 
-The following plugins must be installed:
+You must install the following plugins:
 
 -   Smart Assessment Core \(sn\_smart\_asmt\)
 -   sn-smart-assessment-designer \(sn\_smart\_asmt\_desg\)
@@ -28,15 +28,15 @@ The following plugins must be installed:
 -   **[Create an assessment template category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/create-an-assessment-template-category.md)**  
 Assessment template categories help organize and classify smart assessment templates based on their purpose or use case. Categories make it easier to locate and manage templates within the assessment workspace.
 -   **[Create Smart Assessment template for Workplace Case and Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/create-smart-assessment-template.md)**  
-Smart assessment templates define the structure, questions, and sections that workplace agents complete when working on cases and tasks. Case managers create templates to standardize data collection and ensure consistent quality checks across workplace cases and tasks. These assessments automatically attach to cases and tasks based on configurable trigger conditions.
--   **[Configure Automations in Smart Assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/configure-automations-in-assessment-template.md)**  
-Set up automations to trigger predefined actions whenever assessment templates are published. You can define action set types that determine how and when automated actions execute within the assessment workflow.
+Create assessment templates to standardize data collection, define quality checks, and automatically attach assessments to workplace cases and tasks.
+-   **[Configure automations in a Smart Assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/configure-automations-in-assessment-template.md)**  
+Set up automations that run predefined actions when an assessment template is published, using conditional or standalone action sets.
 -   **[Configure Smart Assessment Trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/configure-smart-assessment-trigger.md)**  
 Smart assessment triggers define the conditions when assessment templates are applied to workplace cases or tasks.
 -   **[Create and assign a workplace case with Smart Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/create-a-workplace-case-with-smart-assessment.md)**  
-Workplace managers create a workplace case and assign it to workplace agents for various service requests such as cleaning, maintenance, or inspection tasks. When a case is moved to a specific state \(for example, Work in Progress\) and meets the configured trigger conditions, a smart assessment instance is automatically created and attached to the case.
--   **[Access and Complete Smart Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/access-and-complete-smart-assessment.md)**  
-Workplace agents complete smart assessments as part of their case workflow. When a case has an attached assessment that meet configured trigger conditions, agents can open it directly from the case form, answer all required questions, and submit the assessment.
+Create a workplace case and assign it to a workplace agent for various service requests such as cleaning, maintenance, or inspection tasks. A smart assessment is automatically attached when the case meets the configured trigger conditions.
+-   **[Access and complete a smart assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/access-and-complete-smart-assessment.md)**  
+Answer and submit a smart assessment directly from the workplace case form when the assessment meets its configured trigger conditions.
 
 **Parent Topic:**[Configuring Workplace Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/workplace-case-mgmt-setup.md)
 

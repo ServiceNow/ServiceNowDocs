@@ -1,6 +1,6 @@
 ---
 title: Custom schedule plan form
-description: Use this reference to understand the fields available when configuring a custom schedule.
+description: Use this reference to understand the fields available when configuring a custom schedule. This form is also used to configure a schedule for a work set sub-activity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/industrial-connected-workforce/digital-factory-workspace/custom-schedule-plan-form.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Industrial Standards, Reference, Digital Factory Workspace, Industr
 
 # Custom schedule plan form
 
-Use this reference to understand the fields available when configuring a custom schedule.
+Use this reference to understand the fields available when configuring a custom schedule.This form is also used to configure a schedule for a work set sub-activity.
 
 <table id="table_rmv_hpz_khc"><thead><tr><th>
 
@@ -31,6 +31,13 @@ Schedule time zone notice
 </td><td>
 
 Schedule time zone, which is the time zone of the currently logged-in user.
+
+ The system resolves the default time zone in the following order:
+
+ 1.  Time zone of the site defined on the functional location of the schedule plan or sub-activity, if available.
+2.  Otherwise, time zone of the standard's location, if available.
+3.  Otherwise, time zone of the current user, if available.
+4.  Otherwise, you must specify a time zone.
 
 </td></tr><tr><td>
 
@@ -68,7 +75,7 @@ Repeat until
 
 </td><td>
 
-Last date for recurrence. Format: yyyy-MM-dd.
+Last date for recurrence. Format: yyyy-MM-dd.Not available when configuring a schedule for a work set sub-activity.
 
 </td></tr><tr><td>
 
@@ -131,7 +138,7 @@ Selected items
 
 Shifts that you selected.
 
- For shift-based schedules you're not required to manually enter start and end times.
+ For shift-based schedules you aren't required to manually enter start and end times.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Industrial Standards reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/industrial-standards-reference.md)

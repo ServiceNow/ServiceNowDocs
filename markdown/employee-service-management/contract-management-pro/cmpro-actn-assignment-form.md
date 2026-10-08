@@ -8,7 +8,7 @@ product: Contract Management Pro
 classification: contract-management-pro
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Reference, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
@@ -44,6 +44,8 @@ Use the action assignment form to define a action button in your workspace and m
 
 [Contract request State and Contract document status in Contract Management Pro]()
 
+[Amendment and renewal interaction messages]()
+
 [Signatory roles]()
 
 [Clause Variation form]()
@@ -65,6 +67,10 @@ Use the action assignment form to define a action button in your workspace and m
 [Contract Analysis Playbook form]()
 
 [Contract analysis playbook tool messages]()
+
+[Contract request ticket page actions]()
+
+[Default availability of out-of-the-box record producers]()
 
 [Contract Management Pro glossary]()
 

@@ -39,6 +39,8 @@ Set up prerequisite tasks before proceeding to use the Digital Factory Workspace
 Set up prerequisite tasks before proceeding to use the Digital Factory Workspace.
 -   **[Configuring Industrial Guided Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/configuring-industrial-guided-tasks.md)**  
 Learn how to configure Industrial Guided Tasks.
+-   **[Configuring Industrial Centerlines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/configuring-industrial-centerlines.md)**  
+Industrial centerline configuration involves the setting definitions, setting plans, and setting specifications that centerline standards use.
 -   **[Configure Recommended Actions for the Industrial Connected Workforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/configure-recommended-actions-icw.md)**  
 Configure Recommended Actions for the Industrial Connected Workforce. Recommended Actions are based on context, rules, and recommendations and can be configured to support additional use cases. You can create rules and recommendations or modify existing ones to meet the specific requirements of your organization.
 

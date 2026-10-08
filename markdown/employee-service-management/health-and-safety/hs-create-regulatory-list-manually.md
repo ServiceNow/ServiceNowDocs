@@ -28,15 +28,15 @@ Role required: sn\_hs\_chm.manager
 
 3.  Add regulations to the regulatory list.
 
-<table id="choicetable_hp4_t5r_ljc"><thead><tr><th align="left" id="d388472e87">
+<table id="choicetable_hp4_t5r_ljc"><thead><tr><th align="left" id="d392468e87">
 
 Option
 
-</th><th align="left" id="d388472e90">
+</th><th align="left" id="d392468e90">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d388472e96">
+</th></tr></thead><tbody><tr><td id="d392468e96">
 
 **From Regulatory list**
 
@@ -44,7 +44,7 @@ Steps
 
 Select **Regulatory** list and then **All**.
 
-</td></tr><tr><td id="d388472e111">
+</td></tr><tr><td id="d392468e111">
 
 **From Chemical substance list**
 

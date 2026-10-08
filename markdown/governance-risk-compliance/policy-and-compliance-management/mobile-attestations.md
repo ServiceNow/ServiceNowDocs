@@ -9,7 +9,7 @@ classification: policy-and-compliance-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Managing mobile experience for GRC Policy and Compliance, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Managing mobile experience for GRC Policy and Compliance, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Reassign overdue Policy and Compliance Management attestations with the GRC Mobile application
@@ -58,15 +58,15 @@ Reassign a record from the list. Alternatively, view the details of the record p
 
     \[Omitted image "mobile-attest-record.jpg"\] Alt text: Attestation record.
 
-<table id="choicetable_y2s_tlz_xhb"><thead><tr><th align="left" id="d357405e224">
+<table id="choicetable_y2s_tlz_xhb"><thead><tr><th align="left" id="d363705e224">
 
 Option
 
-</th><th align="left" id="d357405e227">
+</th><th align="left" id="d363705e227">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d357405e233">
+</th></tr></thead><tbody><tr><td id="d363705e233">
 
 **Tap the top menu icon**
 
@@ -74,7 +74,7 @@ Description
 
 Tap the menu icon \(\[Omitted image "mobile-top-menu.png"\] Alt text: Top menu icon.\) to reassign the attestation.
 
-</td></tr><tr><td id="d357405e248">
+</td></tr><tr><td id="d363705e248">
 
 **Screen icons at the bottom of the screen.**
 

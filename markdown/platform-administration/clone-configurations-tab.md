@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/clone-configurations-tab.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Explore, Instance Clone, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -80,7 +80,7 @@ The Clone Instances page displays registered instances and their URLs. You can u
 
 ## Multi-Instance View
 
-The Multi-Instance View provides consolidated clone activity across linked instances.
+The Multi-Instance View provides consolidated clone activity across linked instances. Multi-Instance View is included in Instance Clone.
 
 ## Clarifying exclusions and preservers combinations
 
@@ -88,10 +88,12 @@ Clone exclusions and preservers are both useful for managing your data. The grap
 
 \[Omitted image "clone-exclusion-preservers-cheatsheet.png"\] Alt text: Clone exclusions and preservers cheatsheet.
 
--   Scenario 1: Preserving and excluding a table. You want the records on your target instance to remain the same.
--   Scenario 2: Not preserving and excluding a table. You want records from your source instance not to be copied over and records on your target instance to be removed: The table is empty but usable after the clone.
--   Scenario 3: Preserving and not excluding a table. You want records on your target Instance to remain the same and records for your source instance to be copied over.
--   Scenario 4: Not preserving and not excluding a table. You want records from your source instance to replace records on your target instance.
+|Scenario|Result|
+|--------|------|
+|Scenario 1: Excluding + Preserving|Records on the target instance remain the same.|
+|Scenario 2: Excluding + Not preserving|Records from the source instance aren't copied over and records on the target instance are removed. The table is empty but usable after the clone.|
+|Scenario 3: Not excluding + Preserving|Records on the target instance remain the same and records from the source instance are copied over.|
+|Scenario 4: Not excluding + Not preserving|Records from the source instance replace records on the target instance.|
 
 **Important:** During a clone, data from the source instances replaces data from the target instance. Therefore, any in-progress development work on the target instance is overwritten. For example: Work-in-progress update sets, scoped apps that only exist on the target instance but not on the source instance. If you have in-progress update sets, you must export them before the clone and re-import them after the clone is finished. Custom applications that aren't yet deployed to the source instance must be reinstalled after the clone is completed.
 

@@ -1,46 +1,62 @@
 ---
-title: Set up the Multi-Instance Framework for value calculations
-description: Connect a subproduction instance to a production instance through the Multi-Instance Framework \(MIF\) so that the AI Control Tower can run value calculations across instances.
+title: Set up Multi-Instance Framework for value calculations
+description: Connect a sub-production instance to a production instance through the Multi-Instance Framework \(MIF\) so that the AI Control Tower can run value calculations across Creator skills.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/mv-set-up-the-multi-instance-framework-for-value-calculations.html
 release: australia
 topic_type: task
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [Value, Configure, Measure AI system, Measure AI systems, AI Control Tower, Enable AI experiences]
 ---
 
-# Set up the Multi-Instance Framework for value calculations
+# Set up Multi-Instance Framework for value calculations
 
-Connect a subproduction instance to a production instance through the Multi-Instance Framework \(MIF\) so that the AI Control Tower can run value calculations across instances.
+Connect a sub-production instance to a production instance through the Multi-Instance Framework \(MIF\) so that the AI Control Tower can run value calculations across Creator skills.
 
 ## Before you begin
 
-Before you begin:
+You must have access to both the sub-production and the production instances.
 
--   You must have access to both the subproduction and the production instances.
--   Role required: `sn_ai_governance_ai_steward`
+Role required: sn\_ai\_governance.ai\_steward
 
 ## About this task
 
-Use the Multi-Instance Framework to register a subproduction instance under a production instance so that value calculations run against the correct managed instances.
+Use the Multi-Instance Framework to register a sub-production instance under a production instance so that value calculations run against the correct managed instances.
 
 ## Procedure
 
-1.  In the subproduction instance, create a record that defines the production instance in the Manager Instances \[`sn_mif_managed_by_instance`\] table with the following values.
+1.  In the sub-production instance, navigate to the Manager Instances \[sn\_mif\_managed\_by\_instance\] table and create a record.
 
-    -   **Application**: AI Control Tower Core
-    -   **Manager Instance**: select your production instance
-2.  Wait a few minutes until the **Approval** field of the record updates to **Auto-Approved**.
+    |Field|Value|
+    |-----|-----|
+    |**Application**|AI Control Tower Core|
+    |**Manager Instance**|Your production instance|
+
+2.  Monitor the **Approval** field until it changes to **Auto-Approved**.
 
 3.  In the production instance, open the **AI Control Tower** workspace.
 
 4.  Go to **Configurations**.
 
-5.  On the **Multi-instance setup** tab, select **Add instances**, choose your subproduction instance, and then select **Save**.
+5.  On the **Multi-instance setup** tab, complete the following substeps to add your sub-production instance.
+
+    1.  Select **Add instances**.
+
+    2.  Select your sub-production instance.
+
+    3.  Select **Save**.
 
 
 ## Result
 
-The subproduction instance is registered with the production instance, and the AI Control Tower can run value calculations across the connected instances.
+The sub-production instance is registered with the production instance. The AI Control Tower can run value calculations across the following data:
+
+-   Creator metrics data for all creator skills
+-   Results obtained from testing Value Templates for AI systems in the sub-production environment.
+
+**Related topics**  
+
+
+[Multi-Instance Framework for AI value data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/mv-multi-instance-framework-for-ai-value-data.md)
 

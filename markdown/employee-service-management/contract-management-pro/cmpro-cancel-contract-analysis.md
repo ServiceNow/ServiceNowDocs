@@ -9,7 +9,7 @@ classification: contract-management-pro
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Contract review using AI, Review contract documents, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Contract review using AI, Review contract documents, Common contract request tasks, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Cancel AI contract analysis
@@ -30,15 +30,15 @@ You can cancel an analysis for a contract document or for all contract documents
 
 1.  Open the contract request from the workspace that you’re using.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d173785e76">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d174989e76">
 
 Method
 
-</th><th align="left" id="d173785e79">
+</th><th align="left" id="d174989e79">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d173785e85">
+</th></tr></thead><tbody><tr><td id="d174989e85">
 
 **Contract Workspace listing**
 
@@ -50,7 +50,7 @@ Steps
 4.  Select a contract request.
 
 
-</td></tr><tr><td id="d173785e133">
+</td></tr><tr><td id="d174989e133">
 
 **Workspace used by your application**
 
@@ -64,15 +64,15 @@ Steps
 </td></tr></tbody>
 </table>2.  Cancel the contract analysis for a contract document or all documents in a contract request.
 
-<table id="choicetable_hwf_1sy_ddc"><thead><tr><th align="left" id="d173785e163">
+<table id="choicetable_hwf_1sy_ddc"><thead><tr><th align="left" id="d174989e163">
 
 Method
 
-</th><th align="left" id="d173785e166">
+</th><th align="left" id="d174989e166">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d173785e172">
+</th></tr></thead><tbody><tr><td id="d174989e172">
 
 **Cancel contract analysis for a document**
 
@@ -83,7 +83,7 @@ Steps
 3.  Cancel the contract analysis by selecting **Yes, Cancel**.
 
 
-</td></tr><tr><td id="d173785e205">
+</td></tr><tr><td id="d174989e205">
 
 **Cancel contract analysis for all the documents in a contract request**
 

@@ -50,7 +50,7 @@ The ServiceNow® Configuration Management Database \(CMDB\) application stores d
 
 ### What's new
 
--   **CMDB success advisor summary on the Governance view**
+-   **[CMDB success advisor summary on the Governance view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/sg-workspace-governance-view.md)**
 
     Review a ServiceNow Otto for CMDB-generated summary of the top data quality issues for Data Foundations, Hardware Asset Management \(HAM\), and Software Asset Management \(SAM\), directly on the Governance view in Service Graph Workspace. Select **View remediations** or **View insights** on a card to open the corresponding dashboard in CMDB success advisor.
 

@@ -31,6 +31,8 @@ See [Field Service Management](https://raw.githubusercontent.com/ServiceNow/Serv
     Field Service Management is a ServiceNow AI Platform feature that is active by default.
 
 
+-   **[Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/field-service-management-australia-rn.md)**  
+Field Service Management enhancements and new features in the Australia release.
 -   **[ServiceNow Otto for FSM release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/now-assist-for-fsm-rn.md)**  
 The ServiceNow® ServiceNow Otto for FSM application brings generative AI to Field Service Management. ServiceNow Otto for FSM was enhanced and updated in the Australia release.
 

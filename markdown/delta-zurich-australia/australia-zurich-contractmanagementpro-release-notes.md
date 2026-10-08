@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-zurich-australia/australia-zurich-contractmanagementpro-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 4
+last_updated: "2026-10-08"
+reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
 
@@ -78,7 +78,27 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   **[Standalone contract requests](https://www.servicenow.com/docs/access?context=cncore-sa-submit&family=australia&ft:locale=en-US)**
+
+Create and process a contract request without linking a parent record such as a purchase requisition or sourcing event. Initiate a standalone request from the Contract Workspace, other business unit workspaces, or the Employee Center. The Employee Center has new intake forms for new contract, amendment, and renewal requests available in the base system, accessible from **Employee Center** &gt; **Help Center** &gt; **Contracts**.
+
+-   **[Contract renewals](https://www.servicenow.com/docs/access?context=cmpro-renewal-landing&family=australia&ft:locale=en-US)**
+
+Manage contract renewals with a dedicated Renewal request type, available alongside New contract and Amendment. Submit a renewal request for contracts due for expiry or expired contracts.
+
+After signature, a renewed contract repository record is created with a link to the previous contract. When a renewal is signed, a new executed contract record is created with field values copied per configuration. Track the full renewal chain from the Contract History tab of the contract repository record.
+
+-   **[Contract Workspace](https://www.servicenow.com/docs/access?context=cncore-contract-workspace&family=australia&ft:locale=en-US)**
+
+Contract report viewers with the sn\_cm\_core.contract\_report\_viewer role can now access the Contracts dashboard in the Contract Workspace and filter data by Request Type \(New Contract, Amendment, or Renewal\).
+
+
+ -   **[Support for parallel signing](https://www.servicenow.com/docs/access?context=cncore-signature-workflow&family=australia&ft:locale=en-US)**
+
+Enable parallel signing by assigning the same signing order to multiple signatories. Signatories with the same signing order receive signature requests at the same time and can complete their signatures independently. Signatory statuses update individually as each signatory signs, declines, or takes other actions.
+
+**Note:** Parallel signing is supported for electronic signatures.
+
 
 </td></tr></tbody>
 </table>## Changes
@@ -107,7 +127,29 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   **[Create a contract configuration](https://www.servicenow.com/docs/access?context=cncore-contract-config&family=australia&ft:locale=en-US)**
+
+Configurator-managed setups support the Renewal request type through a multi-select Request Type field, without requiring duplicate configuration entries. Both admin configuration and AI feature configuration extend to cover renewals.
+
+-   **[Initiate an amendment from a contract record](https://www.servicenow.com/docs/access?context=cncore-amend-from-cntr&family=australia&ft:locale=en-US)**
+
+Initiate an amendment from the contract workspace or from within a contract repository record.
+
+
+ -   **[Assign a signing order while adding a signatory](https://www.servicenow.com/docs/access?context=cncore-update-sign-ss-cmr&family=australia&ft:locale=en-US)**
+
+The **Signatory order** field on the Add signatory form is editable. Assign a unique signing order to each signatory for sequential signing, or assign the same signing order to multiple signatories for parallel signing.
+
+-   **[Modify the signing order on the Signatories related list](https://www.servicenow.com/docs/access?context=cncore-set-signing-order&family=australia&ft:locale=en-US)**
+
+Set the signing order for a signatory by entering a number directly in the **Signatory order** column on the Signatories related list in Contract Workspace. The **Reorder** option is not available to modify the signing orders.
+
+-   **[Signing order gaps and parallel grouping corrected automatically](https://www.servicenow.com/docs/access?context=cncore-signature-workflow&family=australia&ft:locale=en-US)**
+
+When you change a contract signing method from electronic signature to wet signature, signatories with the same signing order are assigned unique sequential signing order, and any gaps in the signing order are removed.
+
+When you select **Send for signature** or **Prepare for signature**, any gaps in the signing order are automatically removed.
+
 
 </td></tr></tbody>
 </table>## Removed

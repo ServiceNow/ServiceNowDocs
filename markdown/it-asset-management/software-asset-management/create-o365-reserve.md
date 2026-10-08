@@ -33,7 +33,7 @@ Role required: sam\_user or sam\_admin
     |Start date|Start date for the new licenses.|
     |End date|The earliest anniversary of the source entitlement end date. This field is calculated automatically.|
     |Purchased rights|Number of new licenses.|
-    |Monthly unit cost|Unit cost of the source entitlement divided by the duration of the source entitlement \(in months\). This field is calculated automatically.|
+    |Monthly unit cost|The per-license monthly cost of your Microsoft 365 subscription, calculated by dividing the unit cost of the source entitlement by its duration in months. This value reflects your actual Microsoft 365 agreement pricing and is used to calculate true-up costs and optimization savings such as license reclamation.|
     |Software model|Software model for the existing entitlement. This field populates automatically.|
     |Source entitlement|Existing entitlement used to create the reserve entitlement. This field populates automatically.|
 

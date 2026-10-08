@@ -7,7 +7,7 @@ release: australia
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Tutorial: add a new change management state, Reference, Change Management, IT Service Management]
 ---
@@ -17,6 +17,10 @@ breadcrumb: [Tutorial: add a new change management state, Reference, Change Mana
 Add a UI policy to display the **Needs review** field for **Normal** change requests when it reaches the **Complete** state.
 
 ## Before you begin
+
+Confirm that the **Needs review** field exists on the **Change Request** table.
+
+**Note:** A UI policy action can reference only a field that exists on the table. If the field does not exist, create it before configuring the UI policy action. For more information, see [Create a custom field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/t_CreateCustomField.md).
 
 Role required: admin
 

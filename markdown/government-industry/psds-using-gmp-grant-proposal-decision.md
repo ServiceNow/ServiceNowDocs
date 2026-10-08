@@ -16,7 +16,7 @@ Complete the Decision stage as your last step in managing a grant proposal using
 
 ## Before you begin
 
-Role required: Admin
+Role required: sn\_svc\_appl\_pgm\_mg.grant\_program\_manager
 
 ## About this task
 

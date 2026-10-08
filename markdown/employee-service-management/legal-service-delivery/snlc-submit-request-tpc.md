@@ -8,7 +8,7 @@ product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Third-party contract review requests, Use, Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
@@ -24,15 +24,15 @@ Role required: sn\_lg\_ops.legal\_user and sn\_cm\_core.contract\_user
 
 1.  Access the third-party review intake form either from the Legal Service Portal or from Employee Center.
 
-<table id="choicetable_new_tpc"><thead><tr><th align="left" id="d590865e60">
+<table id="choicetable_new_tpc"><thead><tr><th align="left" id="d596040e60">
 
 Method
 
-</th><th align="left" id="d590865e63">
+</th><th align="left" id="d596040e63">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d590865e69">
+</th></tr></thead><tbody><tr><td id="d596040e69">
 
 **Legal Service Portal**
 
@@ -43,16 +43,16 @@ Action
 3.  Search for and open the **Third-party review** request item.
 
 
-</td></tr><tr><td id="d590865e108">
+</td></tr><tr><td id="d596040e108">
 
 **Employee Center**
 
 </td><td>
 
 1.  Navigate to **All** &gt; **Self-Service** &gt; **Employee Center**
-2.  Select **Help center** &gt; **Legal Services** from the header.
+2.  Select **Help center** &gt; **Legal Services** &gt; **Legal agreements** from the header.
 3.  Search for and open the **Third-party Contract review** request item.
-
+ **Note:** In new deployments, the out-of-the-box legal contract intake forms can be hidden by default. If the **Third-party Contract review** request item isn't listed under **Legal agreements**, ask your administrator to enable it.
 
 </td></tr></tbody>
 </table>2.  On the form, fill in the fields.
@@ -61,15 +61,15 @@ Action
 
 3.  Attach one or more contract and supporting documents for the legal department to review.
 
-<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d590865e190">
+<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d596040e206">
 
 Method
 
-</th><th align="left" id="d590865e193">
+</th><th align="left" id="d596040e209">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d590865e199">
+</th></tr></thead><tbody><tr><td id="d596040e215">
 
 **Choose the file**
 
@@ -79,7 +79,7 @@ Actions
 2.  Select the files to attach and select **Open**.
 
 
-</td></tr><tr><td id="d590865e223">
+</td></tr><tr><td id="d596040e239">
 
 **Drag the file**
 
@@ -90,15 +90,15 @@ Drag files from your local computer into your browser window to attach them to t
 </td></tr></tbody>
 </table>4.  Classify the attached documents.
 
-<table id="choicetable_kjj_yws_5yb"><thead><tr><th align="left" id="d590865e241">
+<table id="choicetable_kjj_yws_5yb"><thead><tr><th align="left" id="d596040e257">
 
 Classification
 
-</th><th align="left" id="d590865e244">
+</th><th align="left" id="d596040e260">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d590865e250">
+</th></tr></thead><tbody><tr><td id="d596040e266">
 
 **Contract document**
 
@@ -110,7 +110,7 @@ In the **Document type** list, select the contract type that is relevant to the 
 
  **Note:** At least one document should be classified as a contract document.
 
-</td></tr><tr><td id="d590865e271">
+</td></tr><tr><td id="d596040e287">
 
 **Supporting document**
 

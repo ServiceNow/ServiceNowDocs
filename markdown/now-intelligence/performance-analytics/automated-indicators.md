@@ -28,9 +28,11 @@ You can use automated indicators as inputs to a formula indicator, for example t
 To analyze the performance of a business process that is recorded in a ServiceNow table, use an automated indicator. If a suitable indicator is not provided in a Platform Analytics Solution, create a new one.
 2.  [Assign and map breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/create-breakdown-mapping.md)  
 Select which breakdowns to assign to an indicator. Map which field on the indicator source references the breakdown source. If no appropriate field is available, specify a script to associate the indicator and breakdown sources.
-3.  [Add a collection job to an indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/t_EditAJobForTheIndicator.md)  
+3.  [Collect and manage a matrix of breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/configure-breakdown-matrix.md)  
+Collect a matrix of the two-breakdown combinations for an indicator. Exclude unnecessary or meaningless combinations of breakdowns from being collected.
+4.  [Add a collection job to an indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/t_EditAJobForTheIndicator.md)  
 To collect scores for an automated indicator, add a collection job to that indicator.
-4.  [Performance Analytics snapshots](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/pa-snapshots.md)  
+5.  [Performance Analytics snapshots](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/pa-snapshots.md)  
 Snapshots are the lists of records \(sys\_ids\) that are collected at the time that the scores for those records are collected. Snapshots enable users to drill down into the records from a Performance Analytics indicator visualization.
 
 **Parent Topic:**[Performance Analytics indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_Indicators.md)

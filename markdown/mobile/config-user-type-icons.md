@@ -53,5 +53,5 @@ You can configure an icon within the work flow of configuring a screen in Mobile
 
 ## What to do next
 
-To use the user type icon, you must configure a header function in the launcher screen that enables users to navigate to an employee profile. For more information, see [Configure a launcher screen header](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/create-alp-header.md). To configure a mobile app to use a user icon, see [Configure using a user icon in a mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/config-user-icon-in-mobile-app.md).
+To use the user type icon, you must configure a header function in the launcher screen that enables users to navigate to an employee profile. For more information, see [Configure a launcher screen text header](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/create-alp-header.md). To configure a mobile app to use a user icon, see [Configure using a user icon in a mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/config-user-icon-in-mobile-app.md).
 

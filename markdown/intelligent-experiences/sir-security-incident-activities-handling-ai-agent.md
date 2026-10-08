@@ -1,6 +1,6 @@
 ---
 title: Security incident activities handling AI agent
-description: This Operational Technology Security Incident Response agent manages security incident core activities, ensuring efficient and effective handling of incidents, problems, change requests, and security incident response tasks. It is intended for use by security incident management teams.
+description: This Security Incident Response agent manages security incident core activities, ensuring efficient and effective handling of incidents, problems, change requests, and security incident response tasks. It is intended for use by security incident management teams.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/sir-security-incident-activities-handling-ai-agent.html
 release: australia
@@ -12,7 +12,7 @@ breadcrumb: [Security Incident Response AI agents, Security Incident Response, A
 
 # Security incident activities handling AI agent
 
-This Operational Technology Security Incident Response agent manages security incident core activities, ensuring efficient and effective handling of incidents, problems, change requests, and security incident response tasks. It is intended for use by security incident management teams.
+This Security Incident Response agent manages security incident core activities, ensuring efficient and effective handling of incidents, problems, change requests, and security incident response tasks. It is intended for use by security incident management teams.
 
 ## Workflow
 
@@ -110,7 +110,7 @@ Used in agentic workflows
 Resolve security incident
 
 </td></tr></tbody>
-</table>Learn more about Operational Technology Security Incident Response at .
+</table>Learn more about Security Incident Response at .
 
 **Parent Topic:**[Security Incident Response AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/sir-ai-agents-overview.md)
 

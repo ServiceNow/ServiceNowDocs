@@ -124,7 +124,9 @@ Can execute work set tasks and the child tasks and actions that they generate.
 </td><td>
 
 -   sn\_icw\_std.user
--   sn\_icw\_igt.user
+-   sn\_icw\_igt.user \(if Industrial Guided Tasks is installed\)
+-   sn\_icw.action\_user
+-   sn\_icw\_ctl.user \(if Industrial Centerlines is installed\)
 
 </td></tr></tbody>
 </table>## Tables installed with work set standards

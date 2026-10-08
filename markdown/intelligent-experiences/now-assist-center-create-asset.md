@@ -1,19 +1,25 @@
 ---
-title: Create an AI asset in the asset inventory
-description: Use the asset library to create AI assets in your instance.
+title: Create an asset in the AI asset inventory \(Next Experience UI\)
+description: Use the asset inventory to create AI assets in your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-center-create-asset.html
 release: australia
 topic_type: task
-last_updated: "2026-07-30"
-reading_time_minutes: 5
+last_updated: "2026-10-02"
+reading_time_minutes: 6
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
 breadcrumb: [Managing AI assets, Setting up AI capabilities and configurations, AI Admin Center, Enable AI experiences]
 ---
 
-# Create an AI asset in the asset inventory
+# Create an asset in the AI asset inventory\(Next Experience UI\)
 
-Use the asset library to create AI assets in your instance.
+Use the asset inventory to create AI assets in your instance.
+
+**Important:** Lux is the new user experience for AI Admin Center. For more information on the Lux experience, see [AI Admin Center user experience \(Lux UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-admin-center-lux-user-experience.md).
+
+The Next Experience AI Admin Center workspace is being prepared for deprecation in the November store release and will no longer be supported. For more information on the Next Experience UI, see [AI Admin Center workspace \(Next Experience UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-workspace.md).
+
+In AI Admin Center version 6.1, the Next Experience and Lux user interfaces are both available.
 
 ## Before you begin
 
@@ -50,9 +56,11 @@ From the asset inventory, asset types are created by opening their respective ap
     For more information, see [Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/knowledge-graph/knowledge-graph-landing.md).
 
 
+**Note:** This topic describes the AI Admin Center feature based on the Next Experience UI. If you're using the Lux user experience for AI Admin Center, see the Lux UI version of this topic.
+
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Admin Center** or **Workspaces** &gt; **AI Admin Center**.
+1.  Navigate to **All** &gt; **AI Admin Center** &gt; **AI Admin Center \(Legacy\)**.
 
 2.  Select **Asset inventory** \(\[Omitted image "icon-now-assist-center-nav-assets.png"\] Alt text: Asset inventory icon.\) in the side navigation bar.
 
@@ -198,7 +206,7 @@ Knowledge Graph
 
 Opens Knowledge Graph Designer home page.
 
- A knowledge graph is a graphical representation of real-world entities \(tables\) and their relationships. It is used add context and meaning to information to enable intelligent search, insights, and AI-driven experiences.
+ A knowledge graph is a graphical representation of real-world entities \(tables\) and their relationships. It is used to add context and meaning to information to enable intelligent search, insights, and AI-driven experiences.
 
  For more information on creating a knowledge graph in Knowledge Graph Designer, see [Using Knowledge Graph Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/knowledge-graph/using-knowledge-graph-designer.md).
 
@@ -219,5 +227,15 @@ An asset is created and can be seen in the related asset inventory list.
 **Related topics**  
 
 
-[View and manage your AI assets in the asset inventory]()
+[View your AI assets in the asset inventory \(Next Experience UI\)]()
+
+[View your AI assets in the asset library \(Lux UI\)]()
+
+[Create an asset in AI Admin Center \(Lux UI\)]()
+
+[Create an intent in AI Admin Center \(Lux UI\)]()
+
+[Edit an intent in AI Admin Center \(Lux UI\)]()
+
+[Create a data asset in AI Admin Center \(Lux UI\)]()
 

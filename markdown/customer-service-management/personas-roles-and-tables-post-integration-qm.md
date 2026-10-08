@@ -1,5 +1,5 @@
 ---
-title: Roles and responsibilities
+title: Roles
 description: After successful integration of Order Management, the following menu items and roles are added to the list view menu.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/personas-roles-and-tables-post-integration-qm.html
@@ -10,11 +10,11 @@ reading_time_minutes: 1
 breadcrumb: [Quote management for business organization, Integration with Sales Customer Relationship Management, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
 
-# Roles and responsibilities
+# Roles
 
 After successful integration of Order Management, the following menu items and roles are added to the list view menu.
 
-## Description of roles and their responsibilities
+## Description of roles
 
 <table id="table_rnc_gcs_ffc"><tbody><tr><td>
 

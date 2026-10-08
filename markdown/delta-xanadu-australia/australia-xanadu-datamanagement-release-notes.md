@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-xanadu-australia/australia-xanadu-datamanagement-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 6
+last_updated: "2026-10-08"
+reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
 
@@ -158,6 +158,16 @@ Create and manage your archive, cleanup, and one-time delete rules in the Data M
 -   **[Restore archive records in bulk](https://www.servicenow.com/docs/access?context=t_RestoreArchivedData&family=australia&ft:locale=en-US)**
 
 Search for archived records and restore them in bulk to live tables from the Data Management Console.
+
+
+ -   **[Archive data in object storage](https://www.servicenow.com/docs/access?context=c_ArchiveData&family=australia&ft:locale=en-US)**
+
+Store archive records and attachments in columnar format in an object storage outside the primary instance, freeing up primary storage and improving query performance for active data. The object storage is exclusive to RaptorDB Professional V2.
+
+
+ -   **[Granular admin role](https://www.servicenow.com/docs/access?context=data-management-role-1&family=australia&ft:locale=en-US)**
+
+Enable administrators to perform basic Data Management tasks by granting the data\_mgmt\_tools\_admin role instead of the full admin role.
 
 
 </td></tr></tbody>

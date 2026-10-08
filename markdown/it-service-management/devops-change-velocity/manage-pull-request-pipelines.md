@@ -46,15 +46,15 @@ For ADO pipelines, pull requests can be managed for ADO coding source.
 
 2.  Perform the following steps based on your orchestration tool.
 
-<table id="choicetable_khj_xzd_vyb"><thead><tr><th align="left" id="d406871e222">
+<table id="choicetable_khj_xzd_vyb"><thead><tr><th align="left" id="d410056e222">
 
 Orchestration tool
 
-</th><th align="left" id="d406871e225">
+</th><th align="left" id="d410056e225">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d406871e231">
+</th></tr></thead><tbody><tr><td id="d410056e231">
 
 **Jenkins**
 
@@ -64,7 +64,7 @@ Steps
 2.  Select the **Pull Request Pipeline Tracking Check** option.
 
 
-</td></tr><tr><td id="d406871e258">
+</td></tr><tr><td id="d410056e258">
 
 **GitHub Actions**
 
@@ -75,7 +75,7 @@ Steps
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d406871e291">
+</td></tr><tr><td id="d410056e291">
 
 **ADO**
 

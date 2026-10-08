@@ -131,7 +131,7 @@ Audience
 
 </td><td>
 
-Defines whether the activity should trigger for the lifecycle event case. You can apply one or more audience records. The subject person of the lifecycle event case must meet the conditions or criteria of one audience record for the activity to trigger in the case. If no audience record is selected, then the activity for the activity to trigger in the case. The audience criteria for an activity set applies first. When the audience criteria is met, the activity set executes. The audience at the activity level is then checked and executed.
+Defines whether the activity should trigger for the lifecycle event case. You can apply one or more audience records. The subject person of the lifecycle event case must meet the conditions or criteria of one audience record for the activity to trigger in the case. If an activity isn't associated with an audience record, then the activity triggers for all employees. The audience criteria for an activity set applies first. When the audience criteria is met, the activity set executes. The audience at the activity level is then checked and executed.
 
  You cannot set an audience for activity sets that have a trigger type of Rescind.
 
@@ -287,7 +287,7 @@ Audience
 
 </td><td>
 
-Defines whether the activity should trigger for the lifecycle event case. You can apply one or more audience records. The subject person of the lifecycle event case must meet the conditions or criteria of one audience record for the activity to trigger in the case. If no audience record is selected, then the activity for the activity to trigger in the case. The audience criteria for an activity set applies first. When the audience criteria is met, the activity set executes. The audience at the activity level is then checked and executed.
+Defines whether the activity should trigger for the lifecycle event case. You can apply one or more audience records. The subject person of the lifecycle event case must meet the conditions or criteria of one audience record for the activity to trigger in the case. If an activity isn't associated with an audience record, then the activity triggers for all employees. The audience criteria for an activity set applies first. When the audience criteria is met, the activity set executes. The audience at the activity level is then checked and executed.
 
  You cannot set an audience for activity sets that have a trigger type of Rescind.
 
@@ -518,7 +518,7 @@ Audience
 
 </td><td colspan="2">
 
-Defines whether the activity should trigger for the lifecycle event case. You can apply one or more audience records. The subject person of the lifecycle event case must meet the conditions or criteria of one audience record for the activity to trigger in the case. If no audience record is selected, then the activity for the activity to trigger in the case. The audience criteria for an activity set applies first. When the audience criteria is met, the activity set executes. The audience at the activity level is then checked and executed.
+Defines whether the activity should trigger for the lifecycle event case. You can apply one or more audience records. The subject person of the lifecycle event case must meet the conditions or criteria of one audience record for the activity to trigger in the case. If an activity isn't associated with an audience record, then the activity triggers for all employees. The audience criteria for an activity set applies first. When the audience criteria is met, the activity set executes. The audience at the activity level is then checked and executed.
 
  You cannot set an audience for activity sets that have a trigger type of Rescind.
 
@@ -703,7 +703,7 @@ Audience
 
 </td><td>
 
-Defines whether the activity should trigger for the lifecycle event case. You can apply one or more audience records. The subject person of the lifecycle event case must meet the conditions or criteria of one audience record for the activity to trigger in the case. If no audience record is selected, then the activity for the activity to trigger in the case. The audience criteria for an activity set applies first. When the audience criteria is met, the activity set executes. The audience at the activity level is then checked and executed.
+Defines whether the activity should trigger for the lifecycle event case. You can apply one or more audience records. The subject person of the lifecycle event case must meet the conditions or criteria of one audience record for the activity to trigger in the case. If an activity isn't associated with an audience record, then the activity triggers for all employees. The audience criteria for an activity set applies first. When the audience criteria is met, the activity set executes. The audience at the activity level is then checked and executed.
 
  You cannot set an audience for activity sets that have a trigger type of Rescind.
 
@@ -899,7 +899,7 @@ Audience
 
 </td><td>
 
-Defines whether the activity should trigger for the lifecycle event case. You can apply one or more audience records. The subject person of the lifecycle event case must meet the conditions or criteria of one audience record for the activity to trigger in the case. If no audience record is selected, then the activity for the activity to trigger in the case. The audience criteria for an activity set applies first. When the audience criteria is met, the activity set executes. The audience at the activity level is then checked and executed.
+Defines whether the activity should trigger for the lifecycle event case. You can apply one or more audience records. The subject person of the lifecycle event case must meet the conditions or criteria of one audience record for the activity to trigger in the case. If an activity isn't associated with an audience record, then the activity triggers for all employees. The audience criteria for an activity set applies first. When the audience criteria is met, the activity set executes. The audience at the activity level is then checked and executed.
 
  You cannot set an audience for activity sets that have a trigger type of Rescind.
 
@@ -1259,7 +1259,7 @@ Audience
 
 </td><td>
 
-Defines whether the activity should trigger for the lifecycle event case. You can apply one or more audience records. The subject person of the lifecycle event case must meet the conditions or criteria of one audience record for the activity to trigger in the case. If no audience record is selected, then the activity for the activity to trigger in the case. The audience criteria for an activity set applies first. When the audience criteria is met, the activity set executes. The audience at the activity level is then checked and executed.
+Defines whether the activity should trigger for the lifecycle event case. You can apply one or more audience records. The subject person of the lifecycle event case must meet the conditions or criteria of one audience record for the activity to trigger in the case. If an activity isn't associated with an audience record, then the activity triggers for all employees. The audience criteria for an activity set applies first. When the audience criteria is met, the activity set executes. The audience at the activity level is then checked and executed.
 
  You cannot set an audience for activity sets that have a trigger type of Rescind.
 
@@ -1367,7 +1367,7 @@ Audience
 
 </td><td>
 
-Defines whether the activity should trigger for the lifecycle event case. You can apply one or more audience records. The subject person of the lifecycle event case must meet the conditions or criteria of one audience record for the activity to trigger in the case. If no audience record is selected, then the activity for the activity to trigger in the case. The audience criteria for an activity set applies first. When the audience criteria is met, the activity set executes. The audience at the activity level is then checked and executed.
+Defines whether the activity should trigger for the lifecycle event case. You can apply one or more audience records. The subject person of the lifecycle event case must meet the conditions or criteria of one audience record for the activity to trigger in the case. If an activity isn't associated with an audience record, then the activity triggers for all employees. The audience criteria for an activity set applies first. When the audience criteria is met, the activity set executes. The audience at the activity level is then checked and executed.
 
  You cannot set an audience for activity sets that have a trigger type of Rescind.
 

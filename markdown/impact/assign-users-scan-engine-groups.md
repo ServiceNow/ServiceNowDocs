@@ -16,7 +16,7 @@ In addition to assigning Impact users to groups, Platform Health users must also
 
 ## Before you begin
 
-Feature allocation and availability in the Platform Health Scan Engine is based on role and group assignment. See [Track Platform Health trends](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/scan-engine-diagnostic-dashboards.md) for additional information on role-based feature availability.
+Feature allocation and availability in the Platform Health Scan Engine is based on role and group assignment. See  for additional information on role-based feature availability.
 
 **Note:** You may return to the various steps in the configuration if you don't complete the entire setup at once. As you complete each step successfully, mark the step as complete. Subsequent tasks are locked until the previous step is completed.
 

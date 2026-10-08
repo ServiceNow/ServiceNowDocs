@@ -19,7 +19,12 @@ Submit an amendment request from the Employee Center.
 
 ## Before you begin
 
-Role required: sn\_lg\_ops.legal\_user and sn\_cm\_core.contract\_user
+**Note:** In new deployments, the base system legal contract intake forms \(Non-disclosure agreement, Third-party contract review, and Contract Amendment and Renewal request\) are hidden by default. On enabling they will be available under **Home** &gt; **Legal Services** &gt; **Legal agreements**. If you are upgrading from an existing deployment, your current intake form visibility settings are unchanged.
+
+Role required:
+
+-   sn\_lg\_ops.legal\_user and sn\_cm\_core.contract\_user
+-   sn\_cm\_core.contract\_fulfiller
 
 ## About this task
 
@@ -31,96 +36,125 @@ A sample workflow while submitting on an amendment request would be:
     **Note:** When a contract is selected while submitting a request, it’s automatically linked as the parent contract for the amendment request.
 
 3.  Select the paper type.
-4.  Enters amendment details.
+4.  Enter amendment details.
 5.  Select the signature type.
 6.  Attach documents.
-7.  Submit the request.
+7.  Add external signatories.
+8.  Submit the request.
 
 ## Procedure
 
+1.  Navigate to the contract request form.
+
+<table id="choicetable_amend-entry-points"><thead><tr><th align="left" id="d130109e135">
+
+Entry point
+
+</th><th align="left" id="d130109e138">
+
+Navigation
+
+</th></tr></thead><tbody><tr><td id="d130109e144">
+
+**Employee Center \(sn\_cm\_core.contract\_user\)**
+
+</td><td>
+
 1.  Navigate to **All** &gt; **Employee Center**.
+2.  Navigate to **Help center** &gt; **Legal services** &gt; **Legal agreements**.
+3.  Select **Contract Amendment and Renewal request**.
 
-2.  Navigate **Help center** &gt; **Legal services**.
 
-3.  Search for **Amendment request** and open the intake form.\[Omitted image "snlc-amend-record-producer.png"\] Alt text: Amendment request intake form in Employee Center
+</td></tr><tr><td id="d130109e191">
 
-4.  Enter the contract details.
+**Legal Counsel Center landing page \(sn\_cm\_core.contract\_fulfiller\)**
 
-<table id="choicetable_ihc_fgn_fhc"><thead><tr><th align="left" id="d129486e145">
+</td><td>
+
+1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**.
+2.  On the landing page, select **New**.
+3.  Select **Contract Amendment and Renewal**.
+
+
+</td></tr><tr><td id="d130109e230">
+
+**Legal Counsel Center listing page \(sn\_cm\_core.contract\_fulfiller\)**
+
+</td><td>
+
+1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**.
+2.  Select the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
+3.  Select **Legal requests** &gt; **All** from the listing panel.
+4.  On the list page, select **New**.
+5.  Select **Contract Amendment and Renewal**.
+
+
+</td></tr></tbody>
+</table>2.  In the **Request type** field, select Amendment.
+
+    \[Omitted image "snlc-amend-submit-req.png"\] Alt text: Contract repository record showing amendment related details
+
+3.  Enter the contract details.
+
+<table id="choicetable_fv5_1mg_rkc"><thead><tr><th align="left" id="d130109e314">
 
 Option
 
-</th><th align="left" id="d129486e148">
+</th><th align="left" id="d130109e317">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d129486e154">
+</th></tr></thead><tbody><tr><td id="d130109e323">
 
 **Select an existing contract**
 
 </td><td>
 
-1.  Select company in the **Company** drop-down.
-2.  Select the contract type in the **Contract type** dropdown.
-
-**Note:** Only active contracts and contracts with no pending amendment requests are listed.
-
-3.  Select the contract number to view details and the associated documents. Although some of the fields look editable, changes made cannot be saved to the contract record.
+1.  In the **Company** field, select the company.
+2.  In the **Contract type** field, select the contract type.
+3.  Select the contract number to view details and associated documents.
 4.  Select **Select** to choose the contract.
 
 **Note:**
 
-    -   You can’t select contracts that have an active amendment request.
-    -   If the required contract isn’t listed, choose **Enter contract details manually** option and provide the contract and amendment details.
-    -   A parent contract child hierarchy is established between the selected contract and the amendment request. You can’t unlink the parent and the child contract.
+    -   Only active contracts are listed. Contracts with ongoing amendment are disabled from selection.
+    -   When a contract is selected, it is automatically linked as the parent contract for the amendment request.
+    -   If the required contract is not listed, choose **Enter contract details manually** and provide the contract and amendment details.
 
 
-</td></tr><tr><td id="d129486e206">
+</td></tr><tr><td id="d130109e374">
 
-**Manually enter contract details**
+**Enter contract details manually**
 
 </td><td>
 
 1.  Select **Enter contract details manually**.
-2.  Select **Upload**.
+2.  Select **Upload** to attach the contract document.
 
 **Note:** You can only upload one document of PDF type.
 
-3.  Select the file to upload and select **Open**.
-
-
 </td></tr></tbody>
-</table>5.  Select type of paper in the **Type of paper** field.
+</table>4.  In the **Requested for** field, select the user for whom you are submitting the request.
 
-    -   For own-paper based amendment request, select **Own paper**.
-    -   For third-party paper based amendment request, select **Third Party Paper**. The amendment is supported for third-party contracts with a single contract type.
-6.  Enter amendment details.
+5.  In the **Type of paper** field, select the paper type.
 
-    1.  In the **Effective date** field, select a date within the existing contract’s start and end dates to indicate when the amendment takes effect.
+    -   **Own paper**: Amendment contract created from your company's standard template.
+    -   **Third-party paper**: Amendment is supported for third-party contracts with a single contract type.
+6.  Attach documents.
 
-    2.  In the **Requested for**, select the user for whom you want to submit a legal request.
-
-    3.  In the **Description** field, enter the details of the changes required to the existing contract document and any other details.
-
-7.  Select Electronic or Wet signature, in the **Signature type** drop-down.
-
-    For more information on the signature flow, see [Signature workflow for a request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-lsd-signature-workflow.md)
-
-8.  Attach contract documents.
-
-    -   For own paper based amendment requests: Adding documents isn’t required. The attached documents are classified as supporting documents.
-    -   For third-party paper based amendment requests: Adding documents is required. You must classify the attached document. The options available for classification are supporting documents and contract type selected in the contract details section.
-<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d129486e340">
+    -   For own paper amendments: Adding documents is optional. Attached documents are classified as supporting documents.
+    -   For third-party paper amendments: Adding documents is required. You must classify the attached document.
+<table id="choicetable_eks_mwq_qkc"><thead><tr><th align="left" id="d130109e454">
 
 Method
 
-</th><th align="left" id="d129486e343">
+</th><th align="left" id="d130109e457">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d129486e349">
+</th></tr></thead><tbody><tr><td id="d130109e463">
 
-**__Choose the file__**
+**Choose a file**
 
 </td><td>
 
@@ -128,28 +162,38 @@ Actions
 2.  Select the files to attach and select **Open**.
 
 
-</td></tr><tr><td id="d129486e374">
+</td></tr><tr><td id="d130109e487">
 
-**__Drag the file__**
+**Drag and drop**
 
 </td><td>
 
-Drag files from your local computer into your browser window to attach them to the current record.
+Drag files from your local computer into the browser window to attach them to the request.
 
 </td></tr></tbody>
-</table>9.  Add external signatories.
+</table>7.  Enter amendment details.
 
-    Adding an external signatory is required for own-paper based amendment request and optional for third-party based amendment request.
+    1.  In the **Effective date** field, select the date when the amendment takes effect.
+
+        The effective date must be within the original contract's start and end dates.
+
+    2.  In the **Description** field, enter the details of the changes required to the existing contract.
+
+8.  In the **Signature type** field, select the signature type for the contract document.
+
+    -   **Electronic signature**: Signatories sign the contract document electronically.
+    -   **Wet signature**: Signatories sign the contract document manually.
+    -   **Offline signature**: The contract is signed outside Contract Management Pro.
+    For more information about signature workflows, see [Signature workflow for a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-signature-workflow.md).
+
+9.  Add external signatories.
+
+    Adding an external signatory is required for own paper amendments and optional for third-party paper amendments.
 
     -   To add a signatory, select **Add** and provide the signatory's details.
-
-    -   To modify a signatory's information, select the Edit row icon \(\[Omitted image "rename-icon.png"\] Alt text: Edit row icon.\) on the signatory's row and update the details.
-
-    -   To remove a signatory, select the Remove row icon \(\[Omitted image "delete-icon.png"\] Alt text: Remove row icon.\) on the signatory's row.
-
-10. Save the information in the request to submit later in Employee Center by selecting **Save as Draft**.
-
-    **Note:** If the contract type is deactivated when the request is saved as draft, the inactive contract type isn’t included in the list displayed in the **Contract type** and **Document type** fields. You must select an active contract type before submitting the request.
+    -   To modify a signatory's information, select the Edit row icon and update the details.
+    -   To remove a signatory, select the Remove row icon on the signatory's row.
+10. Save the information to submit later by selecting **Save as Draft**.
 
 11. Select **Submit**.
 
@@ -164,8 +208,6 @@ Drag files from your local computer into your browser window to attach them to t
     -   Replacing the signatory information.
     -   Placing the content of the clauses in the contract document according to the clause variation rules.
 -   Internal signatories based on the template are also populated in the generated document. For more information, see [Define an internal signatory rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-define-internal-signers-rule.md). View the signatories in the Signatories tab of the contract request.
-
-For more information on how to view and track a legal request, see [View and track non-disclosure agreement requests as a legal user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-view-legal-req-details.md).
 
 **Parent Topic:**[Contract amendments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-amend-req-landing.md)
 

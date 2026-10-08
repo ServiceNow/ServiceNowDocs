@@ -7,7 +7,7 @@ release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Generative AI, Generative AI for Customer Service Management, Generative AI for customer service agents]
 breadcrumb: [Trending topics dashboard, Activate ServiceNow Otto Skills, Configure, ServiceNow Otto for CSM, Customer Service Management]
@@ -19,7 +19,7 @@ Add a new filter to a UI Builder dashboard to enable users to refine data views 
 
 ## Before you begin
 
-Role required: admin or maint
+Role required: admin
 
 If the Components tab in UI Builder is not available, run provided background script to enable the component view for maint users.
 
@@ -44,8 +44,22 @@ Filters allow users to refine dashboard data by specific fields. This procedure 
 
     The different UI Builder Component names:
 
-    -   Trending topics dashboard: Default Trending Topics Dashboard, Top Trends, Trending topics by Field Insight \(accounts, products, assignment group, channels\), default Topic Details Dashboard, Topic Over Time Visualization, Topic Breakdown Visualization, Topic Affected Regions Visualization.
-    -   Sentiment analysis dashboard: Default Sentiment Analysis Dashboard, Sentiment Over Time Visualization, Sentiment Breakdown Visualization, Sentiment Top Drivers Insight \(Negative sentiment and Positive sentiment drivers\), Sentiment by Assignment Group Insight, Sentiment After Escalation Insight, Sentiment by Channel Insight.
+    -   Trending topics dashboard:
+        -   Default Trending Topics Dashboard
+        -   Top Trends
+        -   Trending topics by Field Insight \(accounts, products, assignment group, channels\)
+        -   Default Topic Details Dashboard
+        -   Topic Over Time Visualization
+        -   Topic Breakdown Visualization
+        -   Topic Affected Regions Visualization
+    -   Sentiment analysis dashboard:
+        -   Default Sentiment Analysis Dashboard
+        -   Sentiment Over Time Visualization
+        -   Sentiment Breakdown Visualization
+        -   Sentiment Top Drivers Insight \(Negative sentiment and Positive sentiment drivers\)
+        -   Sentiment by Assignment Group Insight
+        -   Sentiment After Escalation Insight
+        -   Sentiment by Channel Insight
     If working with the base system component, create a clone before making modifications.
 
 3.  Select a **Filter Carousel Item 2** in the component tree.

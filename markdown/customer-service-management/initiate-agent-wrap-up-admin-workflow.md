@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-06-18"
 reading_time_minutes: 1
 keywords: [agent-initiated wrap-up, wrap-up, call wrap-up, wrap-up configuration, wrap-up codes, CCaaS]
-breadcrumb: [Call Wrap-Up, ICC for voice calls, Integrating with Computer Telephony Integration \(CTI\), Integrate, Customer Service Management]
+breadcrumb: [Call Wrap-Up, Enable ICC for CCaaS calls and callbacks, Configure voice, Configure omnichannel, Configure, Customer Service Management]
 ---
 
 # Configure agent-initiated wrap-up

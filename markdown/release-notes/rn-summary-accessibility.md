@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/rn-summary-accessibility.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-23"
+last_updated: "2026-10-08"
 reading_time_minutes: 8
 breadcrumb: [Release notes summaries for Australia features, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---

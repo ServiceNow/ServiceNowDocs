@@ -461,7 +461,7 @@ Synthetic monitoring
 </td></tr></tbody>
 </table>### What's deprecated or removed
 
--   NowAnalyticsService and NowAnalyticsServiceDelegate have been removed from Mobile SDK - iOS.
+-   NowAnalyticsService, NowAnalyticsServiceDelegate, and SNMobileAnalytics have been removed from Mobile SDK - iOS.
 -   NowAnalyticsSDK has been removed from Mobile SDK - Android.
 
 ## Australia
@@ -534,6 +534,15 @@ setAggregateWorkflow\(\)
 </td><td>
 
 
+
+</td></tr><tr><td>
+
+
+
+</td><td>
+
+-   KafkaProducerAPI\(\)
+-   send\(\)
 
 </td></tr></tbody>
 </table><table id="table_nds_wxf_gfc"><thead><tr><th>

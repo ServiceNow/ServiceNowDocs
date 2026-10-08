@@ -22,27 +22,27 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 <table id="table_bj1_24q_sxb" class="nav-card"><tbody><tr><td>
 
-[Explore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/smart-assessment-engine-cf-explore.md)\[Omitted image "bus-explore.svg"\] Alt text:Learn about Smart Assessment Engine
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/smart-assessment-engine-cf-explore.md)
 
 </td><td>
 
-[Configure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/smart-assessment-engine-cf-config.md)\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the Smart Assessment Engine application
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the Smart Assessment Engine application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/smart-assessment-engine-cf-config.md)
 
 </td><td>
 
-[Use](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/sae-template-designer.md)\[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Set up Smart Assessment Engine templates
+[Use\[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Set up Smart Assessment Engine templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/sae-template-designer.md)
 
 </td></tr><tr><td>
 
-[Manage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/sae-respond-to-asmnt.md)\[Omitted image "bus-manage.svg"\] Alt text:Manage Smart Assessment Engine tasks
+[Manage\[Omitted image "bus-manage.svg"\] Alt text:Manage Smart Assessment Engine tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/sae-respond-to-asmnt.md)
 
 </td><td>
 
-[ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/servicenow-otto-for-smart-assessment-engine.md)\[Omitted image "bus-ai-sparkle.svg"\] Alt text: ServiceNow Otto for Smart Assessment Engine
+[ServiceNow Otto\[Omitted image "bus-ai-sparkle.svg"\] Alt text: ServiceNow Otto for Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/servicenow-otto-for-smart-assessment-engine.md)
 
 </td><td>
 
-[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/smart-assessment-engine-cf-ref.md) \[Omitted image "bus-profile.svg"\] Alt text:Components installed with Smart Assessment Engine
+[Reference \[Omitted image "bus-profile.svg"\] Alt text:Components installed with Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/smart-assessment-engine/smart-assessment-engine-cf-ref.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-mana
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 6
+reading_time_minutes: 5
 breadcrumb: [Implement Intelligence, Configure, Customer Service Management]
 ---
 
@@ -125,7 +125,7 @@ Assign roles to your users to control access to Recommended Actions features and
 Configure recommended actions to create a context, rule, and recommendations with action types such as guidance and field recommendation.**Note:** The Guided Decisions application \(sn\_gd\_core\) is required to create guided decision trees.
 
 </td></tr></tbody>
-</table>**Note:** If Recommended Actions doesn't appear on a variant of a record page \(such as the CSM default record page, CSM Interaction record page, or Front-line case page\), ensure that the variant is marked active. For detailed steps, see [Restore Recommended Actions on record page variants after upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ra-csm-enable-ra-variant-record-page.md).
+</table>**Note:** If Recommended Actions doesn't appear on a variant of a record page \(such as the CSM default record page, CSM Interaction record page, or Front-line case page\), ensure that the variant is marked active. For detailed steps, see [Recommended Actions tab not appearing on the CSM default record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ra-csm-enable-ra-variant-record-page.md).
 
 ## Integrating decision trees in recommended actions
 

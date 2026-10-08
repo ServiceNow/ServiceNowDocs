@@ -40,6 +40,8 @@ Associate an existing AI Control Tower AI system with a business application fro
 You can open an AI system record in the AI Control Tower Workspace directly from the **AI Systems** tab on a business application record in the Enterprise Architecture Workspace.
 -   **[Remove an AI system from a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-unassign-ai-system-from-ba.md)**  
 You can remove an AI system from a business application record in the Enterprise Architecture Workspace.
+-   **[Run the Migrate BA Product Model Map job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-run-migrate-ba-product-model-map-job.md)**  
+Run this job to migrate existing AI system-to-business application associations to the new Enterprise Architecture for AICT data model after activating the AI Control Tower and Enterprise Architecture integration.
 -   **[View a unified map for a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-open-map-ba.md)**  
 View a unified map for your business applications in the Enterprise Architecture Workspace to understand the current architecture and associated references.
 -   **[View roadmap of a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-view-roadmap-ba.md)**  

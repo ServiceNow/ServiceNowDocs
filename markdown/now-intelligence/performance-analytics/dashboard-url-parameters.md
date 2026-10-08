@@ -60,7 +60,7 @@ The sysparm\_group URL system parameter enables you to include a single dashboar
     Indicates whether the editing panel can be visible.
 
 
-**Parent Topic:**[Administering dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_DashboardAdministration.md)
+**Parent Topic:**[Administering Core UI dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_DashboardAdministration.md)
 
 ## Dashboards overview URL parameter
 

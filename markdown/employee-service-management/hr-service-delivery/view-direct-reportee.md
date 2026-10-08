@@ -70,6 +70,8 @@ Set up the View as page experience, add pagination, and tweak the number of arti
 
 [Configure important dates]()
 
+[Configure manager insights for ServiceNow Otto for HRSD]()
+
 [Configure team requests]()
 
 [Configure team data]()

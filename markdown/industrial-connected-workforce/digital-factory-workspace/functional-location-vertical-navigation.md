@@ -8,7 +8,7 @@ product: Digital Factory Workspace
 classification: digital-factory-workspace
 topic_type: concept
 last_updated: "2026-05-19"
-reading_time_minutes: 1
+reading_time_minutes: 2
 keywords: [functional location, vertical navigation, breadcrumb, equipment model]
 breadcrumb: [Operational Equipment Model, Industrial Data Models, Use, Digital Factory Workspace, Industrial Connected Workforce]
 ---
@@ -30,11 +30,19 @@ The vertical layout accommodates additional sections, such as analytics, without
 
 ## Breadcrumb trail
 
-A breadcrumb trail appears above the page title and shows the full equipment model hierarchy path for the selected functional location. The trail starts with a home icon and ends with the current location. Select a segment to open that level in the hierarchy. The home segment uses the same icon as the icon that opens the equipment view.
+A breadcrumb trail appears before the page title and shows the full equipment model hierarchy path for the selected functional location. The trail starts with a home icon and ends with the current location. Select a segment to open that level in the hierarchy. The home segment uses the same icon as the icon that opens the equipment view.
 
 ## Default landing location
 
 When you open the functional location view, the page opens to the functional location that is set in your worker profile. From this default landing location, you can drill down through the equipment model. You can also open the list of functional locations to switch to a different one within your entitlement scope.
+
+## Selecting a functional location in a field
+
+When you fill in a functional location field on a record in the Digital Factory Workspace, select the tree icon next to the field to open the functional location hierarchy. Expand the tree to browse from the site down to individual stations, and select any level. If the field already has a value, the tree opens at that location.
+
+Your selection fills the field but doesn't save the record, so save the form when you're done. The tree shows only the functional locations available for that field.
+
+The selector is on by default for functional location fields. Records that include these fields are failures, tasks, actions, deviations, root cause analyses, scheduled plans, work set sub-activities, and worker profiles.
 
 -   **[Navigate the equipment model with the breadcrumb trail](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/navigate-with-breadcrumb-trail.md)**  
 Use the breadcrumb trail at the top of the page title to open a different level in the equipment model hierarchy from the current functional location.

@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-08-19"
 reading_time_minutes: 4
 keywords: [Contract negotiation, Negotiate contract document, Contract analysis playbook, Claude for Microsoft Word, AI contract review]
-breadcrumb: [Review contract documents, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Review contract documents, Common contract request tasks, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Contract review using external AI tool

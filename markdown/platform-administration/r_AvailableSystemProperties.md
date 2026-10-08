@@ -4542,6 +4542,14 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Type: true \| false
     -   Default value: true
     -   Location: System Property \[sys\_properties\] table
+-   **sn\_query\_gen.default\_source\_type**
+
+    The data source type that AI Data Explorer uses in responses—table or indicator—when there are no query keywords or explicit context to determine this. Does not apply in agentic mode.
+
+    -   Type: Choice \(table \| indicator\)
+    -   Default value: table
+    -   Location: System Property \[sys\_properties\] table
+    -   Learn more: [Indicator vs Table data source selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/indicator-vs-table-data-source-selection.md)
 -   **sn\_query\_gen.hidden\_insights.groupby.min\_fields**
 
     The target number of group-by fields for extended analysis in AI Data Explorer. These group-by fields are taken from the default list view of the relevant table. When this list view contains fewer eligible fields than the property value, the system looks for more eligible fields on the table to try to reach this count.

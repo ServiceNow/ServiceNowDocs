@@ -22,7 +22,7 @@ Role required: sn\_apm.apm\_admin
 
 ## About this task
 
-\[Omitted image "trm-tech-debt-settings.png"\] Alt text: Technical debt settings page in the EA Workspace Setup page.
+\[Omitted image "trm-tech-debt-settings.png"\] Alt text: Technical debt settings page in the Enterprise Architecture Workspace Setup page.
 
 Use the technical debt settings to control how the scheduled job **Populate TRM technical debts in the EA Workspace** identifies and creates technical debt records.
 

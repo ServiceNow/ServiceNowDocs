@@ -7,7 +7,7 @@ release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: concept
-last_updated: "2026-06-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [Explore, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -46,10 +46,12 @@ The new assessment experience offers the following benefits.
 -   Support for the GRC and third-party portals: Internal assessment responders can use the GRC portal to access and complete internal assessments and external assessment responders can use third-party portal to complete external assessments.
 -   Question-level comments, worknotes, and flags are available in SAE assessments. Any user with read access to an assessment instance can add and view question-level comments. Worknotes and question flags require a role assigned at the template category level. TPRM reviewers, assessors, and managers have this access in all out-of-the-box TPRM template categories. Third party and engagement contacts can view and respond to question-level comments but cannot access worknotes or set question flags.
 -   When a question triggers a skip, downstream conditional questions are hidden and sections containing only skipped questions are visually de-emphasized. Assessments render in a continuous scroll layout, making it easier to focus on relevant questions without scrolling past hidden content.
+-   TPR assessors \[sn\_vdr\_risk\_asmt.vendor\_assessor\], TPR managers \[sn\_vdr\_risk\_asmt.vendor\_risk\_manager\] roles, and Third-party risk \(TPR\) administrators \[sn\_vdr\_risk\_asmt.vendor\_risk\_admin\], can reassign SAE questionnaires to another user.
+-   Risk rating after submission: The risk rating for an assessment is now correctly written to the assessment record after the third party submits their response.
 
 ## Smart Assessment template versioning
 
-SAE templates in TPRM now support explicit versioning. Each version is a full copy of the template \(deep copy\). When a new version is published, the previously published version is automatically retired. Retired versions remain visible for reference but cannot be used for new assessments.
+SAE templates in TPRM now support explicit versioning. Each version is a full copy of the template \(deep copy\). When a new version is published, the previously published version is automatically retired. Retired versions remain visible for reference but can't be used for new assessments.
 
 To create a new version of a template, use the **Create Version** action on the template record in the Vendor Management Workspace. Editing a published template in place is no longer supported — you must create a version instead. Template versions can also be deleted.
 
@@ -69,7 +71,7 @@ SAE with TPRM has the following limitations.
 
     **Note:** For the percentage and image scale question types, customers can use the Number type and Radio button type, respectively. Ranking and custom metric question types aren't supported.
 
--   In the Third‑party portal,the Excel export option available for Classic assessments is not supported for SAE assessments.
+-   In the Third-party portal, the Excel export option available for Classic assessments is not supported for SAE assessments.
 -   If a section in the classic template contains only unsupported questions, an empty section is created in the TPRM SAE template. TPRM SAE templates with empty sections can’t be published; therefore, you must either add replacement questions to these sections or delete the empty sections before publishing.
 
     For more information on migration results, migration limitations, and creating TPRM SAE questionnaires, see [Results of migrating a template to a TPRM SAE template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-migrate-asmnt-template-result.md) and [Create a TPRM SAE questionnaire or document request template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/create-sae-q-template.md).

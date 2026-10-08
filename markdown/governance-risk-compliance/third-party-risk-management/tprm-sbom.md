@@ -7,7 +7,7 @@ release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: concept
-last_updated: "2026-05-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [SBOM, software bill of materials, third-party risk, due diligence]
 breadcrumb: [Assess third-party risk, Third-party Risk Management, Governance, Risk, and Compliance]
@@ -56,13 +56,14 @@ SBOM collection capabilities are procured separately from Third-party Risk Manag
 
 The following applications are required to collect and process SBOM files:
 
--   SBOM Core \(sn\_sbom\_core\)
--   Data Model for SBOM \(sn\_sbom\_dm\)
+-   Security Support Common \(com.snc.security\_support.common\), a soft dependency that must be installed before the other required SBOM applications
+-   Data Model for SBOM \(com.snc.sbom\_dm\)
+-   SBOM Core \(com.snc.sbom\_core\)
 
 The following additional applications are required to view vulnerability details associated with SBOM components:
 
--   SBOM Response \(sn\_sbom\_resp\)
--   Vulnerability Response \(sn\_vul\)
+-   SBOM Response \(com.snc.sbom\_resp\)
+-   Vulnerability Response \(com.snc.vulnerability\)
 
 **Note:** Some SBOM capabilities require additional configuration after installation. For more information, see [Activate SBOM support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/sbom-activate.md).
 

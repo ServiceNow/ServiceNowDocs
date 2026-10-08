@@ -7,7 +7,7 @@ release: australia
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -24,7 +24,7 @@ AI Search enables users to refine searches by filtering their results. Use sourc
 
 -   **Filter results dynamically using facets**
 
-    Display field value-based filter selections generated dynamically from the search query's result set. Users can select multiple facet values to narrow their area of focus. Facets only display when they produce results, so users never need to worry about dead ends.
+    Display field value-based filter selections generated dynamically from the search query's result set. Users can select multiple facet values to narrow their area of focus. Facets only display when they produce results, so users don't need to worry about dead ends.
 
     Search administrators define facets in search application configurations. For details on creating and configuring facets, see [Create a facet in an AI Search application configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/create-facet-ais.md).
 

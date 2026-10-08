@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/incident-trends.html
 release: australia
 topic_type: concept
-last_updated: "2026-07-21"
-reading_time_minutes: 10
+last_updated: "2026-09-28"
+reading_time_minutes: 11
 breadcrumb: [Platform agentic workflows, Agentic workflows, AI assets, Enable AI experiences]
 ---
 
@@ -26,6 +26,8 @@ After the analysis is generated, you can continue the conversation to do the fol
 -   Analyze the next ten groups. Each analysis is done for ten groups at a time. You can continue analyzing more groups with the same filters within the same conversation, but the other actions for the previous group are no longer available.
 
 The exact options for follow-up actions available can be configured.
+
+By default, the Analyze task trends agentic workflow only analyzes closed tasks, but you can configure it to also investigate open tasks. See the **Additional configuration** section for how to enable that option.
 
 The default input fields considered for analysis are the following:
 
@@ -54,11 +56,11 @@ GAF is set up for certain applications for you. If you want the agentic workflow
 
 **Note:** If you create a clone of an action strategy skill, ensure that **Optimized prediction** is enabled to use AI Search as your fallback. You can leave it unchecked if you don't use AI Search on your instance.
 
-## Role masking
+## Role filtering
 
 Required role: sn\_uxc\_gen\_ai.platform\_ai\_analyze\_trnds.
 
-Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/define-sec-controls-aw.md).
+Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/implement-aias-security-new.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/define-sec-controls-aw.md).
 
 In the data access settings, you must also add the necessary roles to enable reading of the tables for the records you want to access for trend analysis. For example, you can add the itil role to the agentic workflow's list of approved roles so that it can access Incident records.
 
@@ -112,6 +114,23 @@ Range of time, in months, for the trends analyzer to look at records to identify
 </td><td>
 
 3
+
+</td></tr><tr><td>
+
+Active record analysis
+
+</td><td>
+
+Enable this setting for the agentic workflow to include open tasks in its analysis.
+
+ **Note:** If you select this option, you need to set the sn\_uxc\_gen\_ai.active\_records\_enabled\_tables system property and run a Group Action Framework script to ensure that the open tasks are grouped and accessible for analysis.
+
+1.  Go to the System Properties \[sys\_properties\] table, then open the record for **sn\_uxc\_gen\_ai.active\_records\_enabled\_tables**. The **Value** should be set to `Incident`. Other tables for active records are not supported at this time.
+2.  Go to the GAF scheduled script execution \[sn\_gaf\_sysauto\_script\] table, then open the record **GAF - Active Records Run Offline Flow**. Select **Execute now** to run the script. The job may take some time to complete.
+
+</td><td>
+
+False
 
 </td></tr><tr><td>
 

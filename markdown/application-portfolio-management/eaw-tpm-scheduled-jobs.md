@@ -44,7 +44,7 @@ Populate TPM Discovered Technologies and Lifecycles
 
 </td><td>
 
-Populates the technology life-cycle data in the TPM Technology Lifecycle \[sn\_apm\_tpm\_technology\_lifecycle\] table. The data includes end of support date, end of extended support date, and end of life date for your software products and hardware models.**Note:** The data for software products is displayed only when the Software Asset Management \(SAM\) Foundation or Software Asset Management \(SAM\) Professional plugin.
+Populates the technology life-cycle data in the TPM Technology Lifecycle \[sn\_apm\_tpm\_technology\_lifecycle\] table. The data includes end of support date, end of extended support date, and end of life date for your software products and hardware models.**Note:** The data for software products is displayed only when the Software Asset Management \(SAM\) Foundation or Software Asset Management \(SAM\) Professional plugin is installed.
 
 </td></tr><tr><td>
 
@@ -52,7 +52,7 @@ Populate TRM technical debts in the EA Workspace
 
 </td><td>
 
-Updates the Technical Debt \[sn\_apm\_trm\_standards\_technical\_debt\] table with the latest technical debt data for your software products that is available in the TPM Discovered Technology \[sn\_apm\_tpm\_discovered\_technology\] table. Existing records persist across runs and move between Active, Resolved, and Archived states instead of being deleted and re-created.**Note:** The Populate TRM technical debts in the EA Workspace scheduled job will be available only the Software Asset Management \(SAM\) Foundation or Software Asset Management \(SAM\) Professional plugin is installed.
+Updates the Technical Debt \[sn\_apm\_trm\_standards\_technical\_debt\] table with the latest technical debt data for your software products that is available in the TPM Discovered Technology \[sn\_apm\_tpm\_discovered\_technology\] table. Existing records persist across runs and move between Active, Resolved, and Archived states instead of being deleted and re-created.**Note:** The **Populate TRM technical debts in the EA Workspace** scheduled job will be available only the Software Asset Management \(SAM\) Foundation or Software Asset Management \(SAM\) Professional plugin is installed.
 
 </td></tr><tr><td>
 

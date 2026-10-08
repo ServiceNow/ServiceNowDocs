@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-zurich-australia/australia-zurich-knowledgecenter-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 12
 breadcrumb: [Products combined by family]
 ---
@@ -77,7 +77,7 @@ Build a complete and accurate knowledge base, focus on continuous improvement by
 Improve the quality and health of your knowledge articles by using the Article Optimization tool in the Knowledge Center to scan the articles, and get instant, actionable feedback.
 
 
- -   **[Generate and edit articles using Now Assist in the Knowledge Center article editor](https://www.servicenow.com/docs/access?context=kc-article-editor&family=zurich&ft:locale=en-US)**
+ -   **[Generate and edit articles using ServiceNow Otto in the Knowledge Center article editor](https://www.servicenow.com/docs/access?context=kc-article-editor&family=zurich&ft:locale=en-US)**
 
 Use the editing tools in the Knowledge Center to format knowledge article content such as text, images, and media.
 
@@ -483,7 +483,7 @@ Australia
 
 </td><td>
 
-[\[Placeholder link text to key australia-patch-6\]](https://www.servicenow.com/docs/access?context=australia-patch-6&family=australia&ft:locale=en-US)
+[Australia Patch 6](https://www.servicenow.com/docs/access?context=australia-patch-6&family=australia&ft:locale=en-US)
 
 -   Prioritize what matters most by assigning custom weights to individual scans at both the Article and Knowledge Base level in the Health Score configuration page.
 -   Catch outdated content with the new stale and expiring article detection in the Article Optimization scan, available at both the article and knowledge base level.

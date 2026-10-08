@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-xanadu-australia/australia-xanadu-enterpriseassetmanagement-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 23
+last_updated: "2026-10-08"
+reading_time_minutes: 35
 breadcrumb: [Products combined by family]
 ---
 
@@ -143,7 +143,16 @@ Yokohama
 
 </td><td>
 
--   **[Gain normalization coverage for firmware in your Operational Technology \(OT\) assets](https://www.servicenow.com/docs/access?context=normalizing-firmware-ot-assets&family=yokohama&ft:locale=en-US)**
+-   **[Manage mission-critical enterprise assets and linear assets for telecommunications networks](https://www.servicenow.com/docs/access?context=eam-dcnam&family=yokohama&ft:locale=en-US)**
+
+Use the Enterprise Asset Management for Data Center and Network Asset Management \(DCNAM\) application to track and manage mission-critical facility-based enterprise assets and linear assets for telecommunications networks. Get a comprehensive view of these assets throughout their life cycles so that you can help optimize their performance and improve their longevity.
+
+-   **[Fulfill Return Merchandise Authorization \(RMA\) requests as a Device as a Service \(DaaS\) provider, vendor, or manufacturer](https://www.servicenow.com/docs/access?context=eam-providers&family=yokohama&ft:locale=en-US)**
+
+Use the Enterprise Asset Management for Providers application to fulfill the RMA requests that you receive from customers as a DaaS provider, vendor, or manufacturer. The application adds support for RMA response orders, which enable you to track and manage the process of repairing or replacing defective assets for your RMA requests. The application also adds support for inbound asset orders, which enable you to track and manage the process of providing assets for your RMA requests. By managing these orders from a consolidated location, you can streamline your operations and improve efficiency.
+
+
+ -   **[Gain normalization coverage for firmware in your Operational Technology \(OT\) assets](https://www.servicenow.com/docs/access?context=normalizing-firmware-ot-assets&family=yokohama&ft:locale=en-US)**
 
 Achieve enhanced normalization across your OT deployments by normalizing the firmware that is embedded into your OT assets. Use the normalized data to track and manage the life cycles of your firmware separately from your OT assets so that you can directly detect and mitigate firmware vulnerabilities. You can view the firmware model details in the OT model management view of the OT Asset Workspace.
 
@@ -180,7 +189,34 @@ Zurich
 
 </td><td>
 
--   **[Organize your assets into hierarchical asset groups to manage your complex asset ecosystems](https://www.servicenow.com/docs/access?context=asset-groups-eam&family=zurich&ft:locale=en-US)**
+-   **[Create enterprise catalog categories](https://www.servicenow.com/docs/access?context=create-product-catalog-category-eam&family=zurich&ft:locale=en-US)**
+
+Create and manage enterprise catalog categories for the Service Catalog. Catalog categories help you organize related product catalog items into logical groupings within the Service Catalog. You can then use these groupings to locate and request product catalog items more intuitively and efficiently.
+
+
+ -   **[Bulk import enterprise models and assets by using AI-assisted import](https://www.servicenow.com/docs/access?context=importing-data-ai-eam&family=zurich&ft:locale=en-US)**
+
+Streamline the bulk import process for your enterprise models and assets by using AI-assisted import. AI-assisted import automatically analyzes the external model and asset data that you upload into your ServiceNow instance. It then uses AI-powered column and value mappings to automatically align this data with ServiceNow table fields and values, eliminating the need for manual mapping. You can save your completed mappings as templates, further simplifying the import process across future imports. AI-assisted import also provides real-time feedback that helps you identify and resolve errors before you import any data. With AI-assisted import, you can reduce the time and effort that you spend on importing your enterprise models and assets.
+
+-   **[Import enterprise models and assets through enhanced seeded templates](https://www.servicenow.com/docs/access?context=download-seeded-template-manual-bulk-imports&family=zurich&ft:locale=en-US)**
+
+Use enhanced seeded templates to manually import enterprise models and assets into your ServiceNow instance. Each template is preconfigured for a specific import scenario and includes a detailed implementation aid, providing immediate guidance on the fields and formatting required for a successful import.
+
+-   **[Install the Enterprise Asset Management application from the Admin Home page](https://www.servicenow.com/docs/access?context=install-eam-admin-home-page&family=zurich&ft:locale=en-US)**
+
+Install the Enterprise Asset Management application or any Enterprise Asset Management dependent applications from the Admin Home page. The Admin Home page provides an overview of each application that you're entitled to install and configure.
+
+
+ -   **[Manage mission-critical enterprise assets and linear assets for telecommunications networks](https://www.servicenow.com/docs/access?context=eam-dcnam&family=zurich&ft:locale=en-US)**
+
+Use the Enterprise Asset Management for Data Center and Network Asset Management \(DCNAM\) application to track and manage mission-critical facility-based enterprise assets and linear assets for telecommunications networks. Get a comprehensive view of these assets throughout their life cycles so that you can help optimize their performance and improve their longevity.
+
+-   **[Fulfill Return Merchandise Authorization \(RMA\) requests as a Device as a Service \(DaaS\) provider, vendor, or manufacturer](https://www.servicenow.com/docs/access?context=eam-providers&family=zurich&ft:locale=en-US)**
+
+Use the Enterprise Asset Management for Providers application to fulfill the RMA requests that you receive from customers as a DaaS provider, vendor, or manufacturer. The application adds support for RMA response orders, which enable you to track and manage the process of repairing or replacing defective assets for your RMA requests. The application also adds support for inbound asset orders, which enable you to track and manage the process of providing assets for your RMA requests. By managing these orders from a consolidated location, you can streamline your operations and improve efficiency.
+
+
+ -   **[Organize your assets into hierarchical asset groups to manage your complex asset ecosystems](https://www.servicenow.com/docs/access?context=asset-groups-eam&family=zurich&ft:locale=en-US)**
 
 Organize assets into logical groups and subgroups to represent their dependencies and operational relationships. Use a dependency map to visualize the entire structure of the asset hierarchy, making it easy to see all the subgroups and assets within each asset group.
 
@@ -265,7 +301,43 @@ Australia
 
 </td><td>
 
--   **[Define, schedule, and track complex asset-centric work tasks through work order plans](https://www.servicenow.com/docs/access?context=manage-work-order-plans&family=australia&ft:locale=en-US)**
+-   **[Create enterprise catalog categories](https://www.servicenow.com/docs/access?context=create-product-catalog-category-eam&family=australia&ft:locale=en-US)**
+
+Create and manage enterprise catalog categories for the Service Catalog. Catalog categories help you organize related product catalog items into logical groupings within the Service Catalog. You can then use these groupings to locate and request product catalog items more intuitively and efficiently.
+
+
+ -   **[Bulk import enterprise models and assets by using AI-assisted import](https://www.servicenow.com/docs/access?context=importing-data-ai-eam&family=australia&ft:locale=en-US)**
+
+Streamline the bulk import process for your enterprise models and assets by using AI-assisted import. AI-assisted import automatically analyzes the external model and asset data that you upload into your ServiceNow instance. It then uses AI-powered column and value mappings to automatically align this data with ServiceNow table fields and values, eliminating the need for manual mapping. You can save your completed mappings as templates, further simplifying the import process across future imports. AI-assisted import also provides real-time feedback that helps you identify and resolve errors before you import any data. With AI-assisted import, you can reduce the time and effort that you spend on importing your enterprise models and assets.
+
+-   **[Import enterprise models and assets through enhanced seeded templates](https://www.servicenow.com/docs/access?context=download-seeded-template-manual-bulk-imports&family=australia&ft:locale=en-US)**
+
+Use enhanced seeded templates to manually import enterprise models and assets into your ServiceNow instance. Each template is preconfigured for a specific import scenario and includes a detailed implementation aid, providing immediate guidance on the fields and formatting required for a successful import.
+
+-   **[Install the Enterprise Asset Management application from the Admin Home page](https://www.servicenow.com/docs/access?context=install-eam-admin-home-page&family=australia&ft:locale=en-US)**
+
+Install the Enterprise Asset Management application or any Enterprise Asset Management dependent applications from the Admin Home page. The Admin Home page provides an overview of each application that you're entitled to install and configure.
+
+
+ -   **[Automate enterprise asset sourcing by using an agentic workflow](https://www.servicenow.com/docs/access?context=now-assist-eam-help-manage-enterprise-asset-requests-workflow&family=australia&ft:locale=en-US)**
+
+Use the help manage enterprise asset requests agentic workflow to automate the process of sourcing assets for your enterprise asset requests. The workflow uses AI agents to fulfill these requests by allocating assets from local stockrooms, creating transfer orders to move assets between stockrooms, or generating purchase orders for the requested assets.
+
+-   **[Automatically generate instructions for enterprise asset repairs by using an agentic workflow](https://www.servicenow.com/docs/access?context=now-assist-eam-help-repair-enterprise-assets-workflow&family=australia&ft:locale=en-US)**
+
+Use the help repair enterprise assets agentic workflow, which is driven by AI agents, to automatically generate step-by-step troubleshooting, diagnostics, and repair instructions for your enterprise asset repairs in real time.
+
+-   **[ServiceNow product tiers](https://www.servicenow.com/docs/access?context=ai-native-sku-overview&family=australia&ft:locale=en-US)**
+
+The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
+
+    -   Foundation: AI basics to deliver insights
+    -   Advanced: AI to boost productivity across relevant use cases
+    -   Prime: Act autonomously with all AI assets, and create your own
+Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents.
+
+
+ -   **[Define, schedule, and track complex asset-centric work tasks through work order plans](https://www.servicenow.com/docs/access?context=manage-work-order-plans&family=australia&ft:locale=en-US)**
 
 Manage complex asset-centric work tasks with unified work order plans that can be applied across assets, asset groups, or locations. The work order plans offer the following benefits:
 
@@ -392,7 +464,12 @@ Zurich
 
 </td><td>
 
--   **[Shipment asset table label](https://www.servicenow.com/docs/access?context=view-enterprise-asset-shipments&family=zurich&ft:locale=en-US)**
+-   **Product catalogs menu item**
+
+In the navigation panel of the Admin center view, the **Product catalogs** menu item has been renamed to **Product catalog items**.
+
+
+ -   **[Shipment asset table label](https://www.servicenow.com/docs/access?context=view-enterprise-asset-shipments&family=zurich&ft:locale=en-US)**
 
 Starting from the Enterprise Asset Management version 9.1.0, the Shipment asset \[sn\_itam\_common\_m2m\_shipment\_asset\] table label has been renamed to Shipment line \[sn\_itam\_common\_m2m\_shipment\_asset\].
 
@@ -401,13 +478,108 @@ Starting from the Enterprise Asset Management version 9.1.0, the Shipment asset 
 Starting from Enterprise Asset Management version 9.1.0, a new field **Shipment quantity** has been added to the Shipment Details form. The **Shipment quantity** field displays the quantity of assets shipped for the shipment record.
 
 
+ -   **[Enterprise Asset Management demo data migration](https://www.servicenow.com/docs/access?context=install-eam-demo-data&family=zurich&ft:locale=en-US)**
+
+All Enterprise Asset Management demo data has migrated from the Enterprise Asset Management application to either the EAM Demo Data application or Indoor Mapping for Assets application. The EAM Demo Data application contains all Enterprise Asset Management demo data except for indoor mapping-related demo data, which is now included in the Indoor Mapping for Assets application.
+
+
+ -   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
+
+-   **[Asset performance dashboard in the Asset analytics view](https://www.servicenow.com/docs/access?context=eam-asset-dboard&family=zurich&ft:locale=en-US)**
+
+The Asset performance dashboard in the Asset analytics view of the Enterprise Asset Workspace includes scorecards for Availability, Mean time to repair device \(MTTR\), and Mean time between failures \(MTBF\).
+
+The Asset availability and related KPIs report and the Asset total time spent report are displayed in the contextual sidebar of the asset form.
+
+-   **[Stock orders and Transfer orders tabs for stock rules in Enterprise Asset Workspace](https://www.servicenow.com/docs/access?context=create-eamstockrules&family=zurich&ft:locale=en-US)**
+
+The **Stock orders** tab on a stock rule shows all the stock orders that were created using that specific stock rule. The **Transfer orders** tab on a stock rule lists all the transfer orders that were generated using that particular stock rule.
+
+-   **[Inventory availability tab on the asset form in the Enterprise Asset Workspace](https://www.servicenow.com/docs/access?context=identify-inventory-availability-eam&family=zurich&ft:locale=en-US)**
+
+The **Inventory availability** tab on the asset form lists all available replacement assets and parts or their substitutes in local and remote stockrooms. The Purchase lead time column displays the average number of days that it would take to procure a new asset through a new purchase order.
+
+-   **[Failure and resolution list in the Admin center](https://www.servicenow.com/docs/access?context=manage-failure-res-codes-eam&family=zurich&ft:locale=en-US)**
+
+The Failure and resolution list in the Admin center of the Enterprise Asset Workspace provides options to create, update, and import failure and resolution codes.
+
+-   **[Failure code and Resolution code fields on repair order task forms](https://www.servicenow.com/docs/access?context=troubleshoot-eam-assets-for-repair&family=zurich&ft:locale=en-US)**
+
+The **Failure code** and **Resolution code** fields appear on repair order task forms. As an asset technician, you can do the following:
+
+    -   On the Troubleshoot asset task form, select a predefined code in the **Failure code** field.
+    -   On the Repair asset task form, select predefined codes in both the **Failure code** and **Resolution code** fields.
+    -   On the Evaluate asset task form and the Repair order line form, only view the failure code and resolution code selected in the previous tasks.
+-   **[Location field on the work order and work order task forms for linear assets](https://www.servicenow.com/docs/access?context=create-eam-work-order&family=zurich&ft:locale=en-US)**
+
+For a linear asset, the **Location** field on the work order and work order task forms in the Enterprise Asset Workspace shows a pencil icon \(\[Omitted image "pencil-outline-24.svg"\] Alt text: Pencil icon.\). Selecting this icon opens a map where you can select a marker location between the start and end markers.
+
+-   **[Acknowledge Recall button and Enterprise Recall Tasks tab](https://www.servicenow.com/docs/access?context=acknowledge-recalled-assets-eam&family=zurich&ft:locale=en-US)**
+
+When an enterprise recall order is created in the Enterprise Asset Workspace, the **Acknowledge Recall** button appears. When you select this button, an Acknowledgment task is generated and listed under the **Enterprise Recall Tasks** tab to confirm whether you want to continue with the recall process.
+
+-   **[Aisle and space field on the stockroom audit form](https://www.servicenow.com/docs/access?context=audit-eam-assetinventory&family=zurich&ft:locale=en-US)**
+
+When the audit is for a stockroom, the **Aisle and space** field appears on the audit form in the Enterprise Asset Workspace.
+
+-   **[Custom Firmware CPE mapping in the Enterprise Asset Management Content Service](https://www.servicenow.com/docs/access?context=optin-cs-eam&family=zurich&ft:locale=en-US)**
+
+The **Custom Firmware CPE mapping** option enables you to opt in to the Enterprise Asset Management Content Service to improve the normalization process.
+
+The **Exclude from content service** option on the Custom firmware CPE mapping form enables you to exclude these transactions from being shared with the Content Service.
+
+-   **[Columns for OT entity and Parent asset attribute in the bulk import templates](https://www.servicenow.com/docs/access?context=overview-bulk-import-eam&family=zurich&ft:locale=en-US)**
+
+The bulk import templates include the OT entity and Parent asset attribute columns.
+
+When the OT Asset Management application is activated, you can bulk import hardware assets and models in both the Enterprise Asset Workspace and the OT Asset Workspace only if the OT entity column is marked as **TRUE**.
+
+With the Parent asset attribute, you can choose to identify the parent of a child asset using either the asset tag, serial number, or MAC address.
+
+-   **[OT entity column in the Advanced Shipment Notification template](https://www.servicenow.com/docs/access?context=asn-eam&family=zurich&ft:locale=en-US)**
+
+The Advanced Shipment Notification template includes the OT entity column. When this column is set to **TRUE** for hardware models, it creates OT hardware assets in the OT Asset Workspace.
+
+-   **[Hardware Asset Reclamation Lines tab on OT hardware asset reclamation requests](https://www.servicenow.com/docs/access?context=ot-asset-ws-otam&family=zurich&ft:locale=en-US)**
+
+When a reclamation request for an OT hardware asset is created, a hardware reclamation request line is generated and displayed on the **Hardware Asset Reclamation Lines** tab in the OT Asset Workspace.
+
+-   **[OT stock rule check box on the Stock rule form](https://www.servicenow.com/docs/access?context=create-eamstockrules&family=zurich&ft:locale=en-US)**
+
+The **OT stock rule** check box appears on the stock rule form only for hardware models in both the OT Asset Workspace and Enterprise Asset Workspace. However, only the OT asset manager can select or clear this check box in the OT Asset Workspace. The OT stock rule check box indicates whether the stock rule was created in the OT Asset Workspace.
+
+-   **[Bulk import instructions for assets](https://www.servicenow.com/docs/access?context=overview-bulk-import-eam&family=zurich&ft:locale=en-US)**
+
+The **Bulk import instructions** option that appears on the contextual sidebar provides guidance on assigning a parent asset when importing assets in bulk.
+
+-   **[Report table field values on the TCO comparative report](https://www.servicenow.com/docs/access?context=ot-asset-ws-otam&family=zurich&ft:locale=en-US)**
+
+The **Report table** field on the TCO comparative report shows the **Hardware** option in the OT Asset Workspace.
+
+-   **[Renamed the Pick task required field in the Stockroom details form](https://www.servicenow.com/docs/access?context=enable-pick-task-for-stockroom-eam&family=zurich&ft:locale=en-US)**
+
+The **Pick task required** field in the Stockroom details form has been renamed **Warehouse tasks required**. This field supports enabling both the Asset put away task and the Asset pick task for the stockroom in the Hardware Asset Workspace.
+
+
 </td></tr><tr><td>
 
 Australia
 
 </td><td>
 
--   **[Work order plan reports in the Work management view](https://www.servicenow.com/docs/access?context=work-management-overview-eam&family=australia&ft:locale=en-US)**
+-   **Product catalogs menu item**
+
+In the navigation panel of the Admin center view, the **Product catalogs** menu item has been renamed to **Product catalog items**.
+
+
+ -   **[Now Assist to ServiceNow Otto® name change](https://www.servicenow.com/docs/access?context=ai-products&family=australia&ft:locale=en-US)**
+
+ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+
+
+ -   **[Work order plan reports in the Work management view](https://www.servicenow.com/docs/access?context=work-management-overview-eam&family=australia&ft:locale=en-US)**
 
 The Work management view of the Enterprise Asset Workspace includes work order plan status and task reports.
 
@@ -519,7 +691,17 @@ Zurich
 
 </td><td>
 
-The Classification \(classification\) column in the Enterprise good model \[sn\_ent\_model\] table has been deprecated and renamed as Classification \(Deprecated\). The data from this column is available in the new Classification \(classification\_code\) column in the Product model \[cmdb\_model\] table.
+-   **Now LLM Service**
+
+Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+
+
+ -   **[Enterprise model and asset import templates](https://www.servicenow.com/docs/access?context=download-seeded-template-manual-bulk-imports&family=zurich&ft:locale=en-US)**
+
+Enterprise model and asset import templates that were previously generated from Enterprise Asset Management staging tables have been replaced with seeded import templates.
+
+
+ The Classification \(classification\) column in the Enterprise good model \[sn\_ent\_model\] table has been deprecated and renamed as Classification \(Deprecated\). The data from this column is available in the new Classification \(classification\_code\) column in the Product model \[cmdb\_model\] table.
 
 </td></tr><tr><td>
 
@@ -527,7 +709,15 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   **Now LLM Service**
+
+Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+
+
+ -   **[Enterprise model and asset import templates](https://www.servicenow.com/docs/access?context=download-seeded-template-manual-bulk-imports&family=australia&ft:locale=en-US)**
+
+Enterprise model and asset import templates that were previously generated from Enterprise Asset Management staging tables have been replaced with seeded import templates.
+
 
 </td></tr></tbody>
 </table>## Activation information
@@ -574,6 +764,8 @@ Install the following applications by requesting them from ServiceNow Store:
 Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 
+**Important:** Enterprise Asset Management, Enterprise Asset Management for Healthcare, Operational Technology \(OT\) Asset Management, and Expanded Model and Asset Classes are available in ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Zurich
@@ -590,6 +782,8 @@ Install the following applications by requesting them from the ServiceNow Store:
     -   Expanded Model and Asset Classes
 Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
+
+**Important:** Enterprise Asset Management, Enterprise Asset Management for Healthcare, Operational Technology \(OT\) Asset Management, and Expanded Model and Asset Classes are available in ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 
@@ -610,6 +804,18 @@ Install the following applications by requesting them from the ServiceNow Store:
     -   Expanded Model and Asset Classes
 Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
 
+
+**Important:** The following applications are available in the ServiceNow Store:
+
+-   Enterprise Asset Management
+-   Enterprise Asset Management for Healthcare
+-   Enterprise Asset Management for Facilities
+-   Operational Technology \(OT\) Asset Management
+-   Enterprise Asset Management for Data Center and Network Asset Management \(DCNAM\)
+-   Enterprise Asset Management for Providers
+-   Expanded Model and Asset Classes
+
+For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements

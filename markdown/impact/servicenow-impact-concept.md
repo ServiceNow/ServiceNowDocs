@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/australia/impact/servicenow-imp
 release: australia
 topic_type: concept
 last_updated: "2026-07-07"
-reading_time_minutes: 5
+reading_time_minutes: 4
 breadcrumb: [Impact]
 ---
 
@@ -123,7 +123,7 @@ Monitor instance health and align with technical general guidelines: -   [Preven
 
 </td></tr><tr><td>
 
-[Track Platform Health trends](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/scan-engine-diagnostic-dashboards.md) using Analytics Dashboards
+ using Analytics Dashboards
 
 </td><td>
 

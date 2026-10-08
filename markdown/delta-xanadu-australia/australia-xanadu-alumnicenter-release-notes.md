@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-xanadu-australia/australia-xanadu-alumnicenter-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
@@ -99,7 +99,12 @@ Zurich
 
 </td><td>
 
--   **[Alumni Self-registration](https://www.servicenow.com/docs/access?context=alumni-self-registration&family=zurich&ft:locale=en-US)**
+-   **[\[Placeholder link text to key alumni-service-center\]](https://www.servicenow.com/docs/access?context=alumni-service-center&family=zurich&ft:locale=en-US)Alumni Center revamp**
+
+The revamped alumni home page is a central hub where former employees can update their details, manage preferences, and access personalized job recommendations. It also provides quick access to alumni services, news, resources, and tasks to stay connected and engaged.Alumni can maintain their employment history with legacy &amp; latest employment details.Alumni can view the existing job opportunities​ and also get personal job recommendation based on your job preferences.
+
+
+ -   **[Alumni Self-registration](https://www.servicenow.com/docs/access?context=alumni-self-registration&family=zurich&ft:locale=en-US)**
 
 A former employee can sign up on the Alumni Center and provide details to register as an alumni.
 
@@ -297,6 +302,8 @@ Zurich
 
 Install Alumni Center by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
+
+**Important:** Alumni Center is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 

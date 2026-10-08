@@ -148,5 +148,5 @@ The UKG spoke requires registering an OAuth 2.0 application in your UKG account 
 
 Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see [Connections and Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/r-credentials.md).
 
-For information about setting up the spoke, see .
+For information about setting up the spoke, see [Configure a connection for the UKG spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/configure-connection-ukg-spoke.md).
 

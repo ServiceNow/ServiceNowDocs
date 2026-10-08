@@ -26,7 +26,7 @@ If you have a combination of custom tables and grandfathered tables in one appli
 
 ## Grandfathered tables on an instance
 
-Scenario: Your organization purchases three new subscriptions with entitlements for a total of 55 App Engine Starter custom tables \(formerly Bundled Custom Tables\). To ensure your organization doesn't lose the previous custom table entitlements, a grandfather subscription with an entitlement for 25 grandfathered tables is allotted to your instance. This subscription requires the admin to identify and map the existing 25 tables. These subscriptions result in a total custom table entitlement of 80. Once a custom table has been assigned to the grandfather subscription there is no option to revert this.
+Scenario: Your organization purchases three new subscriptions with entitlements for a total of 55 App Engine Starter custom tables \(formerly Bundled Custom Tables\). To ensure your organization doesn't lose the previous custom table entitlements, a grandfather subscription with an entitlement for 25 grandfathered tables is allotted to your instance. This subscription requires support to identify and map the existing 25 tables. These subscriptions result in a total custom table entitlement of 80. Once a custom table has been assigned to the grandfather subscription there is no option to revert this.
 
 |Subscription|Number of custom table entitlements|Number of mappable tables|
 |------------|-----------------------------------|-------------------------|

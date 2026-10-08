@@ -94,15 +94,15 @@ For details about available ServiceNow Otto Suites and their compatibility with 
 
 11. Install the application now or schedule installation for a later time.
 
-<table><thead><tr><th align="left" id="d126168e455">
+<table><thead><tr><th align="left" id="d151932e455">
 
 Installation option
 
-</th><th align="left" id="d126168e458">
+</th><th align="left" id="d151932e458">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d126168e464">
+</th></tr></thead><tbody><tr><td id="d151932e464">
 
 **Install now**
 
@@ -112,7 +112,7 @@ Procedure
 2.  Select **Install**.
 
 
-</td></tr><tr><td id="d126168e488">
+</td></tr><tr><td id="d151932e488">
 
 **Install later**
 

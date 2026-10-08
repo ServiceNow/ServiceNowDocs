@@ -44,6 +44,8 @@ Role required: sn\_lg\_cnt.contract\_fulfiller
 **Related topics**  
 
 
+[Contract repository record tabs]()
+
 [Modify a contract record]()
 
 [Configure fields in contract template to display correct sys\_id value in contract documents]()

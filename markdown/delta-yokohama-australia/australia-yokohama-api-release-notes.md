@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-yokohama-australia/australia-yokohama-api-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 14
 breadcrumb: [Products combined by family]
 ---
@@ -855,6 +855,15 @@ setAggregateWorkflow\(\)
 
 [GlideElementDescriptor - isEncrypted\(\)](https://www.servicenow.com/docs/access?context=SGED-isEncrypted&family=australia&ft:locale=en-US)
 
+</td></tr><tr><td>
+
+[KafkaProducerAPI - Scoped](https://www.servicenow.com/docs/access?context=KafkaProducerAPIScoped&family=australia&ft:locale=en-US)
+
+</td><td>
+
+-   KafkaProducerAPI\(\)
+-   send\(\)
+
 </td></tr></tbody>
 </table><table><thead><tr><th>
 
@@ -1512,7 +1521,7 @@ Australia
 
 </td><td>
 
--   NowAnalyticsService and NowAnalyticsServiceDelegate have been removed from Mobile SDK - iOS.
+-   NowAnalyticsService, NowAnalyticsServiceDelegate, and SNMobileAnalytics have been removed from Mobile SDK - iOS.
 -   NowAnalyticsSDK has been removed from Mobile SDK - Android.
 
  -   GlideElementDynamicAttribute has been removed. Use other GlideElement instances corresponding to an attribute's type instead.

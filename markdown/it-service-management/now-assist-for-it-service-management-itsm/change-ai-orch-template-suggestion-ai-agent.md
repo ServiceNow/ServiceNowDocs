@@ -1,5 +1,5 @@
 ---
-title: Change template suggestion AI agent \(autonomous\)
+title: Change template suggestion AI agent
 description: This AI agent identifies the most relevant change template and model for new change requests by analyzing request details and comparing them against available templates and historical data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/now-assist-for-it-service-management-itsm/change-ai-orch-template-suggestion-ai-agent.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Change Management, Use agentic AI in IT Service Management, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
-# Change template suggestion AI agent \(autonomous\)
+# Change template suggestion AI agent
 
 This AI agent identifies the most relevant change template and model for new change requests by analyzing request details and comparing them against available templates and historical data.
 
@@ -111,7 +111,7 @@ Used in agentic workflows
 
 </td><td>
 
-Create a change request AI agent
+Change Orchestrator AI agent \(Readiness phase\)
 
 </td></tr></tbody>
 </table>

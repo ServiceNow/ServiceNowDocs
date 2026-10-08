@@ -23,12 +23,12 @@ Complete the following steps in your Azure environment before creating an Azure 
 -   Configure OAuth Credentials
 -   The connector uses OAuth to authenticate with Azure APIs. To obtain credentials, register an application in Microsoft Entra ID.
 
-For full instructions, see the[Azure documentation](https://learn.microsoft.com/en-us/rest/api/azure/#register-your-client-application-with-azure-ad)
+For full instructions, see the [Azure documentation](https://learn.microsoft.com/en-us/rest/api/azure/#register-your-client-application-with-azure-ad)
 
 The Azure client application requires the following roles:
 
 -   Reader role at the subscription or resource group level to discover resources.
--   Azure User role in the Azure AI Foundry resources.
+-   Azure user role in the Azure AI Foundry resources.
 
 **Note:** As of March 2026, ServiceNow supports the New Azure AI Foundry alongside the original Azure AI Foundry. The New Foundry treats each agent version as a distinct entity.
 

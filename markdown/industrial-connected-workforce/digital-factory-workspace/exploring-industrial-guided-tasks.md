@@ -53,6 +53,10 @@ The Industrial Guided Tasks application enables you to:
 
 -   **[Scoring in Industrial Guided Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/scoring-industrial-guided-tasks.md)**  
 Scoring enables the automatic calculation of performance scores after completing an Industrial Guided Task \(IGT\).
+-   **[Question bank in Industrial Guided Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/igt-question-bank.md)**  
+Use the question bank to store assessment questions once and reuse them across multiple Industrial Guided Task standards, so that you maintain consistency across standards without recreating questions.
+-   **[Shopfloor insights for Industrial Guided Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/igt-shopfloor-insights.md)**  
+Shopfloor insights provide embedded execution analytics on Industrial Guided Tasks \(IGT\) standards to support continuous improvement of manufacturing processes.
 
 **Parent Topic:**[Exploring Digital Factory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/exploring-digital-factory-workspace.md)
 

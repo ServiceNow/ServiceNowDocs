@@ -32,6 +32,8 @@ View the license usage breakdown for CrowdStrike products to understand how your
 Discovery Models form and related list field descriptions.
 -   **[Software installation fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/software-installation-fields.md)**  
 Software Installation form and related list field descriptions.
+-   **[Software spend transaction fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/software-spend-transaction-fields.md)**  
+Software spend transaction form fields and their descriptions.
 -   **[Normalization statuses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/normalization-status.md)**  
 Description of normalization statuses for discovery models.
 -   **[License metrics for Microsoft products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/mapping-ms-license-metrics.md)**  

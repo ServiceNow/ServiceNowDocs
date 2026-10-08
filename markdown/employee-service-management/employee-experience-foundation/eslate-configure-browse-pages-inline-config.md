@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-09-03"
 reading_time_minutes: 1
 keywords: [inline admin config, EmployeeWorks Web App, Explore page, topic pages, Employee Slate]
-breadcrumb: [Browse and topic experience, Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Admin editor, Browse and topic experience, Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
 ---
 
 # Edit widgets inline
@@ -35,7 +35,7 @@ Select **Admin editor** to enter edit mode, then select the edit icon on a widge
 
     Each widget on the page has its own edit icon.
 
-    \[Omitted image "image.es-topic-page-inline-config"\] Alt text: Topic page showing edit controls on the banner, support resources, and topic assist widgets
+    \[Omitted image "es-topic-page-inline-config.png"\] Alt text: Topic page showing edit controls on the banner, support resources, and topic assist widgets
 
 4.  On the **Explore Hero** panel, update the fields as needed.
 

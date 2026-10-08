@@ -7,8 +7,8 @@ release: australia
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 4
+last_updated: "2026-10-06"
+reading_time_minutes: 5
 breadcrumb: [Platform Analytics Solutions for Contract Management Pro, Manage, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
@@ -25,12 +25,15 @@ For more information on working with KPI details, see [Examining indicators with
 ## Required ServiceNow AI Platform roles
 
 -   Contract Report Publisher \[sn\_cm\_core.contract\_report\_publisher\]: Needed to edit and publish reports related to contract requests and signed contracts data.
--   Contract Report Viewer \[sn\_cm\_core.contract\_report\_viewer\]: Needed to view reports related to contract requests and signed contracts data.
+-   Contract Report Viewer \[sn\_cm\_core.contract\_report\_viewer\]: Needed to view reports related to contract requests and signed contracts data, and to access the Contracts Dashboard from Contract Workspace.
 -   Contract PA Admin \[sn\_cm\_pa.pa\_admin\]: Needed to activate and configure the Analytics Pack for Contract Management Pro.
 
 ## Access the Contracts Dashboard
 
-To open the Contracts Dashboard, navigate to **All** &gt; **Contracts Core** &gt; **Contracts Dashboard**.
+To open the Contracts Dashboard, use one of the following methods:
+
+-   Navigate to **All** &gt; **Contracts Core** &gt; **Contracts Dashboard**.
+-   In Contract Workspace, select the Analytics Center icon in the left navigation bar. This option is available only to users with the contract report viewer \[sn\_cm\_core.contract\_report\_viewer\] role.
 
 ## Using data in Contracts Dashboard
 
@@ -66,6 +69,7 @@ General counsels can make data-driven decisions through insights into the contra
 -   Contract Type
 -   Contract type of paper
 -   Contract Request Age
+-   Request type
 
 ## Reports
 
@@ -233,6 +237,18 @@ Choice
 </td><td>
 
 Displays own paper and third-party paper in the list. You can select the desired option to view the relevant data in the Contracts Dashboard.
+
+</td></tr><tr><td>
+
+Request type
+
+</td><td>
+
+Multi-select
+
+</td><td>
+
+Displays New Contract, Amendment, and Renewal. By default, all three values are selected and the dashboard reflects data for all request types. Select one or more values to filter all charts and KPIs to the selected request types only.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Platform Analytics Solutions for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-analytics-pa.md)

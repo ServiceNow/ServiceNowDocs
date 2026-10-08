@@ -19,6 +19,8 @@ Reference topics provide additional information about the roles and tables that 
 Several types of components are installed with activation of the sn\_desktop\_agents plugin, including user roles and tables.
 -   **[System requirements and limitations in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/sys-req-limitations-ad.md)**  
 Be aware of system requirements and a few limitations when you’re using the AI Desktop Actions application for defined desktop actions.
+-   **[Considerations for file upload and download](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/upload-download-ref.md)**  
+Lists the details of the supported file types and validation rules.
 -   **[AI Desktop Actions glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/agentic-desktop-glossary.md)**  
 Learn about the terms and concepts that are unique to AI Desktop Actions.
 

@@ -82,7 +82,7 @@ ServiceNow® Impact is built on the ServiceNow AI Platform and combines customiz
 
     Optimization accelerators catalog displays across dashboards, catalog filter and navigation, accelerator creation flows, and accelerator detail views inline with the other accelerator catalogs Flash cards now reflect the Optimization accelerator catalog category, and dashboards include platform optimization usage and consumption metrics.
 
--   **[Track Platform Health trends](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/impact/scan-engine-diagnostic-dashboards.md)**
+-   ****
 
     Open the Real-time Messaging panel directly alongside the development workspace; a slide-in side panel that stays visible until dismissed. Findings are organized into tabs by severity level, each showing a total count, and ordered by impact to the instance.Hover over the Level of Finding field in the findings table and definition records now displays a tooltip explaining Act, Recommend, Suggest, and Review.Select and open a filtered back-end list view for donut chart segments.
 

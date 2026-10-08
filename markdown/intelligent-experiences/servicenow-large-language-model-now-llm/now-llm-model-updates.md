@@ -7,8 +7,8 @@ release: australia
 product: ServiceNow Large Language Model \(Now LLM\)
 classification: servicenow-large-language-model-now-llm
 topic_type: concept
-last_updated: "2026-09-02"
-reading_time_minutes: 7
+last_updated: "2026-09-23"
+reading_time_minutes: 9
 keywords: [model card, Now LLM Service, LLM, Large language model, Generative AI, Gen AI, Now Assist]
 breadcrumb: [Large language models on the ServiceNow AI Platform, Enable AI experiences]
 ---
@@ -23,35 +23,27 @@ Large language models \(LLMs\) are complex machine-learning models that are trai
 
 Model cards explain the specific model's context, intended use, training data, limitations, and other important information.
 
-These model cards are for skills that use the Now LLM Service. There are certain skills, such as Now Assist Multi-Turn Catalog Ordering, that use Azure OpenAI instead. To see what LLM a skill is using, you can check the skill list in the AI Admin Hub console and review the LLM service column.
+These model cards reflect the AI models that power various features within the ServiceNow platform. These include skills, agents, and agentic workflows within ServiceNow Otto as well as AI powered features outside of ServiceNow Otto. To see which model a ServiceNow Otto skill, agent, or agentic workflow is using, you can check the skill list in the AI Admin Hub console and review the LLM service column.
 
--   **[Model card for ServiceNow large language model](https://downloads.docs.servicenow.com/resource/enus/infocard/sn-llm.pdf)**
+-   **Model card for Gemma 4 26B A4B**
 
-    Model used for AI-driven solutions to support natural language understanding, automation, and decision support.
-
-    This model card is available in Yokohama patch 1 and later.
+    Selectable ServiceNow Otto model for enterprise AI that enhances text-based automation and content generation in ServiceNow workflows, including requester OOTB skills, custom skills, and agentic use cases.
 
 -   **[Model card for ServiceNow large language model \(V2\)](https://downloads.docs.servicenow.com/resource/enus/infocard/sn-llm-v2.pdf)**
 
-    Model for enterprise AI that enhances text-based automation and content generation in ServiceNow workflows, including requester OOTB skills, custom skills, and agentic use cases.
+    ServiceNow Otto model for enterprise AI that enhances text-based automation and content generation in ServiceNow workflows, including requester OOTB skills, custom skills, and agentic use cases.
 
-    This model is for Generative AI Controller application 11.2 or higher.
-
--   **[Model card for ServiceNow small language model](https://downloads.docs.servicenow.com/resource/enus/infocard/sn-slm.pdf)**
-
-    Model used for enterprise AI applications by enhancing text-based automation and content generation within ServiceNow workflows.
-
-    This model card is available in Yokohama patch 1 and later.
+    This model is available for Generative AI Controller application 15.1.0 or higher.
 
 -   **[Model card for ServiceNow small language model \(V2\)](https://downloads.docs.servicenow.com/resource/enus/infocard/sn-slm-v2.pdf)**
 
-    Model for enterprise AI that enhances text-based automation and content generation in ServiceNow workflows, including creator and fulfiller OOTB skills as well as custom skills.
+    ServiceNow Otto model for enterprise AI that enhances text-based automation and content generation in ServiceNow workflows, including creator and fulfiller OOTB skills as well as custom skills.
 
-    This model is for Generative AI Controller application 11.2 or higher.
+    This model is available for Generative AI Controller application 11.2 or higher.
 
 -   **[Model card for ServiceNow third party large language model](https://downloads.docs.servicenow.com/resource/enus/infocard/third-party-llm.pdf)**
 
-    Model used for AI-driven solutions for text generation, summarization, and conversational AI.
+    ServiceNow Otto models used for AI-driven solutions for text generation, summarization, and conversational AI.
 
 -   **[Model card for ServiceNow Voice AI Speech-to-Text and Text-to-Speech models](https://downloads.docs.servicenow.com/resource/enus/infocard/sn-voice.pdf)**
 
@@ -66,15 +58,29 @@ These model cards are for skills that use the Now LLM Service. There are certain
     This model is designed to ingest a conversation and predict a CSAT score as well as factors that explain the predicted score.
 
 
+## October 2026
+
+The October release adds models to the Now LLM Service and to Google Gemini. It also retires the Gemini 2.5 models and Claude Sonnet 4.5, and begins the deprecation of the Now LLM Service V2 models.
+
+-   New model in the Now LLM Service: Gemma 4 26B-A4B is available for both large and small language model use cases. Third-party models remain the default. You can select the Now LLM Service for your skills and agents instead of the default.
+
+-   New restricted model: Gemini 3.7 Flash supports the Build Agent. You can't select it for your skills and agents.
+
+-   Gemini 2.5 models retired: Gemini 2.5 Pro, Gemini 2.5 Flash, and Gemini 2.5 Flash Lite are retired on October 8, 2026. These models are no longer available, and requests to them fail. Gemini 3.5 Flash replaces all three models. Review your skills, agents, and generative AI configurations for references to the retired models, and select Gemini 3.5 Flash instead.
+-   Claude Sonnet 4.5 retired: Claude Sonnet 4.5 is retired on October 8, 2026. Claude Sonnet 4.6 replaces it. Select Claude Sonnet 4.6 for your skills and agents.
+
+-   V2 models deprecated for new development: The ServiceNow large language model \(V2\) and small language model \(V2\) are deprecated for new development. Your existing skills and agents continue to work. Retirement is planned for the December release, when these models are replaced by Gemma.
+
+
 ## September 2026
 
-The September release adds restricted models from AWS Anthropic. Restricted models support specific features only. You can't select them for your skills and agents.
+September release adds restricted models from AWS Anthropic. Restricted models support specific features only. You can't select them for your skills and agents.
 
 This release doesn't add any general purpose models. The models that you can select in the AI Admin Hub console are unchanged.
 
 -   Claude Sonnet 5 and Claude Fable 5 support the Build Agent.
 
--   Restricted replaces limited: The card now uses **Restricted** instead of **Limited** to identify models that you can't configure. Claude Opus 4.6 and Gemini 2.5 Flash Lite use the new term. Their supported features haven't changed.
+-   Restricted replaces limited: The card now uses **Restricted** instead of **Limited** to identify models that you can't configure. Claude Opus 4.6 and Gemini 2.5 Flash Lite use the new term. Their supported features haven't changed. Gemini 2.5 Flash Lite is retired on October 8, 2026, and is replaced by Gemini 3.5 Flash.
 
 
 ## July 2026
@@ -87,18 +93,20 @@ The Now LLM Service model strategy has moved toward integrated model provider fl
 
     -   Azure OpenAI: GPT-5.1, GPT-5.4 Mini, and GPT-5.1 Mini
     -   Google Gemini: Gemini 3.5 Flash
+-   GPT-5.2 deprecated: GPT-5.2 is no longer available as a model option. GPT-5.4 replaces it. If you selected GPT-5.2, update your model configuration records to select GPT-5.4. References to GPT-5.2 aren't redirected automatically.
+
 -   The Now LLM Service is still supported: The change to the default model provider doesn't remove access to the Now LLM Service. You can still select it for your skills and agents if you require a ServiceNow hosted model.
 
 -   Existing selections preserved: If you have already selected a model provider, that configuration is preserved. The update doesn't overwrite an explicit selection.
 
--   Changing your model provider: To select a model provider other than the default, review the providers that are allowed for your instance in AI Control Tower. Navigate to **Configurations** &gt; **Controls** &gt; **AI model providers**, and then make your changes in the ServiceNow Otto Admin Center by navigating to **Settings** &gt; **Manage AI Models** &gt; **Manage Model Providers**.
+-   Changing your model provider: To select a model provider other than the default, review the providers that are allowed for your instance in AI Control Tower. Navigate to **Configurations** &gt; **Controls** &gt; **AI model providers**, and then make your changes in the AI Admin Hub Center by navigating to **Settings** &gt; **Manage AI Models** &gt; **Manage Model Providers**.
 
--   Explicit model names required: Generic model references such as `cloud_small` and `cloud_large` are no longer supported as of December 2026, when the Now LLM Service transitions to integrated third-party model providers.
+-   Explicit model names required: Update prompt and generative AI configuration records that use generic large or small model references. Reference a specific supported model by name instead.
 
 
 ## June 2026
 
-The June release includes updates to third-party model defaults. It also contains a change to the default reasoning effort setting for GPT-5 Mini, and the retirement of the Now LLM long-term support \(LTS\) SKU.
+June release includes updates to third-party model defaults. It also contains a change to the default reasoning effort setting for GPT-5 Mini, and the retirement of the Now LLM long-term support \(LTS\) SKU.
 
 -   Third-party default model version update: Teams that did not update their third-party default model versions to the latest available versions in the May release must do so in the June release. GAIC 13.1.2 is the required version for this update.
 

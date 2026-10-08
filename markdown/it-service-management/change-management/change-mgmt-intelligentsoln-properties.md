@@ -7,7 +7,7 @@ release: australia
 product: Change Management
 classification: change-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Predictive Intelligence for Change Management, Configure, Change Management, IT Service Management]
 ---
@@ -46,15 +46,6 @@ The type of PI solutions used for risk prediction.-   Similarity: Uses machine-l
 If the risk have same count or confidence, then the higher risk is considered.
 
 -   Classification: Uses machine-learning algorithms to set field values during record creation, such as setting the risk category based on previous data.
-
-</td></tr><tr><td>
-
-Predicted value usage \[chg\_ml\_prop\_risk.usage\]
-
-</td><td>
-
-Determines how the predictive value must be used.-   View risk value
--   Set risk value
 
 </td></tr><tr><td>
 

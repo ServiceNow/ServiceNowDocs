@@ -22,7 +22,7 @@ Launcher screen header functions allow your users to navigate to a specific para
 
  For details on creating parametrized record screens, see [Configure a parameterized record screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/configure-param-form-applet.md).
 
- For details on how to use these record screens in a launcher screen header, see [Configure a launcher screen header](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/create-alp-header.md).
+ For details on how to use these record screens in a launcher screen header, see [Configure a launcher screen text header](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/create-alp-header.md).
 
 </td><td>
 

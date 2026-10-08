@@ -215,7 +215,15 @@ Necessary steps to be followed by the AI agent while carrying out its role.
 
         **Note:** This option is available only for voice agents configured with **Public** access.
 
-    3.  Define the user identity of the AI agents to determine what data it has access to.
+    3.  Select **Require step-up authentication of users** to require callers to complete a high-assurance authentication factor before the AI agent runs.
+
+        **Note:**
+
+        This option is available only for AI voice agents. For more information about step-up authentication, see Step-up authentication.
+
+        A step-up authentication factor must also be selected in **Caller Verification** for each voice assistant that uses this AI agent, from the following supported factors: Okta Verify push notification, SMS verification code, and authenticator app time-based one-time password \(TOTP\). See [Identify and authenticate the caller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/create-an-ai-voice-service.md). Without a selected factor, callers are routed to the fallback method configured on the Safeguards screen.
+
+    4.  Define the user identity of the AI agents to determine what data it has access to.
 
         The default selection is **Dynamic user**. The user passes their roles to the AI agent, and the AI agent runs as the user that invokes it. The user's ACLs determine the data accessible to the AI agent.
 

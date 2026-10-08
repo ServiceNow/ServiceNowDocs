@@ -88,5 +88,5 @@ Using the context that you provided, Virtual Agent automatically matches it to t
 **Related topics**  
 
 
-[Using ServiceNow® Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/using-now-assist-in-va.md)
+[bundle-convint.using-now-assist-in-va]
 

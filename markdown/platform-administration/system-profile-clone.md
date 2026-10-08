@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/system-profile-clone.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a custom clone profile, Configure, Instance Clone, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -20,15 +20,15 @@ Role required: admin
 
 ## About this task
 
-If you leave the clone profile field empty when requesting a clone, the system uses the exclude tables, data preservers, and cleanup scripts configured under **Instance Clone** &gt; **Clone Definition**.
+If you leave the clone profile field empty when requesting a clone, the system uses the exclude tables, data preservers, and cleanup scripts configured under **Clone Admin Console** &gt; **Clone Definition**.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Instance Clone** &gt; **Clone profiles**.
+1.  Navigate to **All** &gt; **Clone Admin Console** &gt; **Clone profiles**.
 
 2.  Select **New**.
 
-3.  Fill in the form.
+3.  Complete in the form.
 
     For field information, see [Clone options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/clone-options.md).
 

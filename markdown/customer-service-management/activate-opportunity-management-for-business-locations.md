@@ -1,18 +1,18 @@
 ---
 title: Activate Opportunity Management for Business Locations
-description: Activate the Opportunity Management for Business Location plugin to create and track opportunities across the lifecycle of the customer journey.
+description: Activate the Opportunity Management for Business Locations plugin to create and track opportunities across the lifecycle of the customer journey.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/activate-opportunity-management-for-business-locations.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-10-04"
 reading_time_minutes: 1
 breadcrumb: [Business location plugin, Activate plugins, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Activate Opportunity Management for Business Locations
 
-Activate the Opportunity Management for Business Location plugin to create and track opportunities across the lifecycle of the customer journey.
+Activate the Opportunity Management for Business Locations plugin to create and track opportunities across the lifecycle of the customer journey.
 
 ## Before you begin
 
@@ -28,7 +28,7 @@ The following items are installed with Opportunity Management for Business Locat
 -   Scheduled jobs
 -   Tables
 
-For more information, see [Roles and responsibilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/personas-roles-and-tables-post-integration-oppMgmt.md).
+For more information, see [Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/personas-roles-and-tables-post-integration-oppMgmt.md).
 
 ## Procedure
 

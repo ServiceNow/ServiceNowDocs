@@ -17,7 +17,7 @@ The PostgreSQL connector enables access to relational database data from your Po
 
 Connection admins set up connections to PostgreSQL in the Zero Copy Connector Hub and grant data stewards access. Data stewards use the connection to create data fabric tables and map data from PostgreSQL. Users can then access PostgreSQL data through the table list view or GlideRecord scripts. For details, see [Managing data fabric tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/managing-data-fabric-tables-zcc.md).
 
-For known limitations, see the Knowledge Base article [PostgreSQL connector known limitations \(KBB0010487\)](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KBB0010487).
+For specific functionality limitations, see [Primary Connectors Limitations \(KBB0010487\)](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KBB0010487).
 
 The connector supports primary key and composite \(unique\) key detection on PostgreSQL tables.
 

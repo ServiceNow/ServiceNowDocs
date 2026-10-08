@@ -35,15 +35,15 @@ The Greetings setup topic contains the Send Topic Picker script action, which co
 
 1.  Navigate to **All** and use one of the following methods.
 
-<table id="choicetable_llf_w4t_d1c"><thead><tr><th align="left" id="d62825e132">
+<table id="choicetable_llf_w4t_d1c"><thead><tr><th align="left" id="d63000e132">
 
 Method
 
-</th><th align="left" id="d62825e135">
+</th><th align="left" id="d63000e135">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d62825e141">
+</th></tr></thead><tbody><tr><td id="d63000e141">
 
 **System properties**
 
@@ -54,7 +54,7 @@ Description
 3.  Select the Save icon \[Omitted image "icon\_save.png"\] Alt text: Save icon..
 
 
-</td></tr><tr><td id="d62825e176">
+</td></tr><tr><td id="d63000e176">
 
 **Assistant Designer Asset library**
 

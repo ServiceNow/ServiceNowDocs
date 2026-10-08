@@ -9,7 +9,7 @@ classification: contract-management-pro
 topic_type: task
 last_updated: "2026-05-19"
 reading_time_minutes: 3
-breadcrumb: [Use self-served contract request, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Own paper contract requests, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Work on requests as a contract fulfiller
@@ -34,15 +34,15 @@ You cannot add the same user to the Assigned to and Collaborator fields.
 
 3.  Work on the contract request.
 
-<table id="choicetable_phr_kxb_gzb"><thead><tr><th align="left" id="d712195e99">
+<table id="choicetable_phr_kxb_gzb"><thead><tr><th align="left" id="d719023e99">
 
 Action
 
-</th><th align="left" id="d712195e102">
+</th><th align="left" id="d719023e102">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d712195e108">
+</th></tr></thead><tbody><tr><td id="d719023e108">
 
 **Specify the contract as perpetual**
 
@@ -52,7 +52,7 @@ Select the **Perpetual** check box in the Details tab to classify the contract a
 
 The **Perpetual** check box is available in contract requests that are initiated from the Sales Customer Relationship Management and Source-to-Pay Operations.
 
-</td></tr><tr><td id="d712195e136">
+</td></tr><tr><td id="d719023e136">
 
 **Regenerate contract document**
 
@@ -60,7 +60,7 @@ The **Perpetual** check box is available in contract requests that are initiated
 
 Create a version of the contract document. Using this option discards the changes made in the previous version of the document. For more information, see [Regenerate contract document after modifying request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-regen-contract-doc.md).
 
-</td></tr><tr><td id="d712195e152">
+</td></tr><tr><td id="d719023e152">
 
 **Sync the document__Note:__ This option is available on Contract Management Pro starting with version 1.2.1
 
@@ -70,7 +70,7 @@ Create a version of the contract document. Using this option discards the change
 
 Create a version of the contract document while retaining the changes made in the previous version. For more information, see [Create an updated contract document revision after modifying a self-served contract request \(starting Contract Management Pro 1.2.1\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-sync-document.md).
 
-</td></tr><tr><td id="d712195e173">
+</td></tr><tr><td id="d719023e173">
 
 **Create document revisions**
 
@@ -78,7 +78,7 @@ Create a version of the contract document while retaining the changes made in th
 
 Create a document revision. For more information, see [Create a document revision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-create-doc-rev.md).
 
-</td></tr><tr><td id="d712195e190">
+</td></tr><tr><td id="d719023e190">
 
 **Add signatories**
 
@@ -86,7 +86,7 @@ Create a document revision. For more information, see [Create a document revisio
 
 Add signatories. For more information, see [Add signatories in self-served contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-update-sign-ss-cmr.md).
 
-</td></tr><tr><td id="d712195e208">
+</td></tr><tr><td id="d719023e208">
 
 **Sync signatories__Note:__ This option isn’t available on Contract Management Pro starting with version 1.2.1 because it is no longer necessary.
 
@@ -96,7 +96,7 @@ Add signatories. For more information, see [Add signatories in self-served contr
 
 Update the contract document with the latest signatory details. For more information, see [Updating and synchronizing signatories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-update-sync-signatories.md).
 
-</td></tr><tr><td id="d712195e229">
+</td></tr><tr><td id="d719023e229">
 
 **Initiate ad hoc approvals**
 
@@ -104,7 +104,7 @@ Update the contract document with the latest signatory details. For more informa
 
 Initiate ad hoc approvals. For more information, see [Initiate an ad hoc approval for a contract document revision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-initiate-approval-contract-request.md).
 
-</td></tr><tr><td id="d712195e245">
+</td></tr><tr><td id="d719023e245">
 
 **Communicate with stakeholders using Email**
 
@@ -112,7 +112,7 @@ Initiate ad hoc approvals. For more information, see [Initiate an ad hoc approva
 
 Communicate with stakeholders via email. For more information, see [Send email to stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-send-email.md)
 
-</td></tr><tr><td id="d712195e260">
+</td></tr><tr><td id="d719023e260">
 
 **Analyze contract documents using AI to identify non-standard and missing clauses**
 
@@ -120,7 +120,7 @@ Communicate with stakeholders via email. For more information, see [Send email t
 
 Use AI to analyze the contract documents to identify the non-standard and missing clauses. For more information, see [Contract review using ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-NA-review-land.md).
 
-</td></tr><tr><td id="d712195e280">
+</td></tr><tr><td id="d719023e280">
 
 **Send the document for signature**
 
@@ -128,7 +128,7 @@ Use AI to analyze the contract documents to identify the non-standard and missin
 
 Send the document for a signature. For more information, see [Signature workflow for a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-signature-workflow.md).
 
-</td></tr><tr><td id="d712195e298">
+</td></tr><tr><td id="d719023e298">
 
 **Initiate an offline signature__Note:__ This option is available only when the signature type is Offline signature.
 
@@ -138,7 +138,7 @@ Send the document for a signature. For more information, see [Signature workflow
 
 Use this option for a contract signed outside Contract Management Pro. For offline signatures, the system does not send signature request emails to the signatories. For more information, see [Signature workflow for a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-signature-workflow.md).
 
-</td></tr><tr><td id="d712195e321">
+</td></tr><tr><td id="d719023e321">
 
 **Cancel request**
 
@@ -150,5 +150,5 @@ Cancel a request:-   On the contract request page, from the Actions menu, select
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Use self-served contract request]()
+**Parent Topic:**[Own paper contract requests]()
 

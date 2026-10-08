@@ -24,13 +24,15 @@ Role required: sn\_cm\_core.contract\_config
 
 1.  Navigate to **All** &gt; **Document Templates** &gt; **Document Template Categories**.
 
-2.  In the **Name** field, enter the name for the category.
+2.  Select **New**.
 
-3.  Select **Active** to make the category active.
+3.  In the **Name** field, enter the name for the category.
+
+4.  Select **Active** to make the category active.
 
     \[Omitted image "cmpro-temp-catg.png"\] Alt text: Activate Document template category.
 
-4.  Select **Submit** to save the category.
+5.  Select **Submit** to save the category.
 
 
 ## Result

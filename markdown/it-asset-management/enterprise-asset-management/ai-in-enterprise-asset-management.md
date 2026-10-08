@@ -29,6 +29,7 @@ For more information about AI capabilities in Enterprise Asset Management, see t
 
 -   [Fulfill enterprise asset requests by using an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/now-assist-eam-help-manage-enterprise-asset-requests-workflow.md)
 -   [Fulfill repair orders by using an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/now-assist-eam-help-repair-enterprise-assets-workflow.md)
+-   [Importing enterprise models and assets using AI assistance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/importing-data-ai-eam.md)
 
 For information about AI assets that are available on the ServiceNow AI Platform, see the following topics:
 

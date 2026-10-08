@@ -7,7 +7,7 @@ release: australia
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [AI case management, AI cases, AI inquiries, AI Risk and Compliance, AI Control Tower, AI governance, Employee Center]
 breadcrumb: [AI governance life cycle, Explore, AI Risk and Compliance, Governance, Risk, and Compliance]
@@ -49,7 +49,7 @@ Before an anonymous report is saved, all free‑text fields in the forms \(such 
 
 Sanitization helps reduce the risk of unsafe or malformed input.
 
-For more information, see [Report an AI case anonymously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/report-ai-case-anon.md), [Track report status or follow up on a report from the Anonymous Reporting Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/grc-follow-up-anonymously.md), and [Anonymous Reporting Center \(ARC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/grc-anonymous-reporting-center.md).
+For more information, see [Report an AI case anonymously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/report-ai-case-anon.md), [Follow up on a report from the Anonymous Reporting Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/follow-up-anonymously.md), and [Anonymous Reporting Center \(ARC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/grc-anonymous-reporting-center.md).
 
 ## Case management and follow-up
 
@@ -61,11 +61,11 @@ AI Risk and Compliance managers \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_ma
 
 Access to create and manage AI cases and inquiries is controlled through roles that support separation of duties and least-privilege access.
 
-Business users focus on reporting concerns and requesting guidance. Analysts and managers focus on investigation, assessment, coordination, and oversight. AI stewards \[sn\_ai\_governance\_ai\_steward\] and other governance stakeholders, such as security, legal, privacy, or data governance teams, contribute expertise and perform review or remediation tasks as needed.
+Business users focus on reporting concerns and requesting guidance. Analysts and managers focus on investigation, assessment, coordination, and oversight. AI stewards \[sn\_ai\_governance.ai\_steward\] and other governance stakeholders, such as security, legal, privacy, or data governance teams, contribute expertise and perform review or remediation tasks as needed.
 
 Governance stakeholders participate in case review and investigation activities without owning business outcomes or life cycle approval decisions.
 
-For more information, see [Roles installed with AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/roles-installed-with-ai-risk-and-compliance.md).
+For more information, see [Roles and responsibilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/roles-installed-with-ai-risk-and-compliance.md).
 
 **Related topics**  
 

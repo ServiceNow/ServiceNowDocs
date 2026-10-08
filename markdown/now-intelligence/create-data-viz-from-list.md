@@ -22,6 +22,8 @@ Role required: You need a role that gives access to the list. To save, share, ex
 
 If you're on a new instance or an instance that has fully migrated to Platform Analytics, follow this procedure. Otherwise, you create a Core UI pie or bar report, instead. In this case, see [Run a report from a list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/t_RunAReport.md).
 
+Specifically, whether this feature creates Platform Analytics or Core UI bars and pies is linked to whether both Platform Analytics and Core UI dashboards are available in the dashboard libraries. To combine all dashboards in the library, and thus to open Platform Analytics visualizations from a list, set the property **com.glide.par.unified\_analytics.enabled** to `true`.
+
 ## Procedure
 
 1.  Navigate to the list.

@@ -7,7 +7,7 @@ release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: concept
-last_updated: "2026-06-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Otto, Agentic AI, generative AI, Gen AI]
 breadcrumb: [AI in Third-party Risk Management, Explore, Third-party Risk Management, Governance, Risk, and Compliance]
@@ -29,7 +29,7 @@ As of version 22.3.4, ServiceNow Otto for Third-party Risk Management \(TPRM\) s
 
 ## Supported user interfaces
 
-The ServiceNow Otto for TPRM application skills TPRM Issue Summarization and TPRM Issue Recommendation can be accessed in the Vendor Management Workspace and Core UI. Issue recommendations are available only for Smart Assessment Engine questionnaires.
+The ServiceNow Otto for TPRM application skills TPRM Issue Summarization and TPRM Issue Recommendation can be accessed in the Vendor Management Workspace. Issue recommendations are available only for Smart Assessment Engine questionnaires.
 
 ## Application information
 

@@ -7,7 +7,7 @@ release: australia
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: concept
-last_updated: "2026-05-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [AI system, AI governance, aggregated risk score]
 breadcrumb: [AI assets, Explore, AI Risk and Compliance, Governance, Risk, and Compliance]

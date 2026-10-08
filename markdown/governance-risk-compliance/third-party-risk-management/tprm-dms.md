@@ -7,7 +7,7 @@ release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: concept
-last_updated: "2026-05-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -41,6 +41,10 @@ The DMS is accessible for external users through the Third-party portal as shown
 -   Users can manage document versions, download attachments, and track their metadata.
 
     For more information, see [Create a document version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-create-document-version.md).
+
+-   You can compare two versions of a Microsoft Word document \(DOCX to DOCX or DOC to DOC\) to identify the changes between revisions.
+
+    For more information, see [Compare document versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-compare-document-versions.md).
 
 -   Documents can be linked to multiple TPRM record types with auto-rollup:
 
@@ -86,9 +90,9 @@ This capability reduces manual effort by ensuring that essential vendor document
 
 For more information, see [AI-assisted questionnaire pre-fill using the Document Management System](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-dms-sae.md).
 
-## Now Assist document skills
+## ServiceNow Otto® document skills
 
-If your organization uses DMS and ServiceNow Otto for TPRM, you can leverage AI-driven skills to streamline document-heavy workflows. These capabilities reduce manual effort, improve accuracy, and accelerate risk tasks. Now Assist for Document Management and ServiceNow Otto for TPRM offer the following key skills:
+If your organization uses DMS and ServiceNow Otto for TPRM, you can leverage AI-driven skills to streamline document-heavy workflows. These capabilities reduce manual effort, improve accuracy, and accelerate risk tasks. ServiceNow Otto® in Document Management and ServiceNow Otto for TPRM offer the following key skills:
 
 -   TPRM issue summarization– Condenses complex third-party risk issues into actionable summaries, helping risk analysts review and respond faster.
 
@@ -118,6 +122,8 @@ For more information on Now Assist for Document Management skills, see [Explore 
 
 [Create a document version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-create-document-version.md)
 
+[Compare document versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-compare-document-versions.md)
+
 [Link documents to a TPRM record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-link-document.md)
 
 [Define document sharing permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-doc-share-permissions.md)
@@ -130,5 +136,5 @@ For more information on Now Assist for Document Management skills, see [Explore 
 
 [Explore ServiceNow Otto in Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/explore-now-assist-in-document-management.md)
 
-[Exploring Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-docintel.md)
+[Exploring Content Understanding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/cu-explore-content-understanding.md)
 

@@ -7,7 +7,7 @@ release: australia
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-10-01"
 reading_time_minutes: 1
 breadcrumb: [Create a project task from a project, Starting a project, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -43,7 +43,7 @@ You can link any change request record to a project task, regardless of the chan
 
         The Change Request form appears. Enter the information in the form. The short description of the change request is taken from the project task.
 
-    **Note:** These related links are available only when the project task type is waterfall.
+    **Note:** These related links are available only when the **Phase type** of the project task is waterfall.
 
 
 ## Result

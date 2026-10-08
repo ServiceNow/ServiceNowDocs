@@ -68,7 +68,7 @@ Role required: sn\_erp\_integration.erp\_admin
 
     1.  Select the nesting options icon.
 
-        \[Omitted image "erp-manage-outputs-rest1.jpg"\] Alt text: Choose outputs screen with nesting options icon highlighted.
+        \[Omitted image "erp-manage-outputs-rest1.jpg"\] Alt text: Choose outputs screen with nesting option highlighted.
 
     2.  Select **+ Add field**.
 

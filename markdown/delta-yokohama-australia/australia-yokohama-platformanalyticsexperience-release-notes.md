@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-yokohama-australia/australia-yokohama-platformanalyticsexperience-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 15
+last_updated: "2026-10-08"
+reading_time_minutes: 16
 breadcrumb: [Products combined by family]
 ---
 
@@ -349,6 +349,10 @@ Filter data by the contents of string-type fields with a single-select or multip
 -   **[View the percentage each data segment contributes to the total](https://www.servicenow.com/docs/access?context=create-dv-donut-ac&family=australia&ft:locale=en-US)**
 
 Enable the **Show % of total in tooltip** option to show the percentage each data point contributes to the total alongside absolute values in the tooltip. Applies to time series, bar, bubble, donut, geomap, and heatmap visualizations.
+
+-   **Publish report functionality replaced with Read-only link option in Report Designer**
+
+It is no longer possible to publish a report. The **Read-only** option provides a URL that authenticated users can follow to view a report.
 
 -   **[Explore native data snapshots indicators in KPI Details](https://www.servicenow.com/docs/access?context=kpi-details&family=australia&ft:locale=en-US)**
     -   Employ intraday analysis with granularity based on work shifts.

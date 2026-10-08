@@ -160,6 +160,8 @@ Use the contract playbook to review, edit, approve, or reject obligations automa
 
 [Create an internal lifecycle in the Hardware Asset Workspace]()
 
+[Calculate the active lifecycle phase for a model]()
+
 [Receive asset warranty details from Lenovo]()
 
 [Manage stockrooms]()

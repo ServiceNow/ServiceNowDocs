@@ -8,7 +8,7 @@ product: ITOM Visibility
 classification: itom-visibility
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 87
+reading_time_minutes: 97
 keywords: [ITOM, Visibility, ServiceNow, Discovery, Cloud, API, Permissions, Patterns, AWS, Azure, GCP, IBM, Oracle, OCI]
 breadcrumb: [Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
@@ -29,7 +29,7 @@ If you want to validate the necessary pattern commands before running discovery,
 
 ITOM Content Service Provides visibility to your applications by using AI capabilities that cluster and classify running application processes. For more information, see [ITOM Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/discovery-content-services.md).
 
-## Verify the REST API Permissions
+## Verify the REST API permissions
 
 Download the [Cloud Discovery patterns spreadsheet](https://downloads.docs.servicenow.com/resource/enus/api/servicenow-discovery-patterns-api-details.xlsx) so you can grant user permissions required for running the Discovery patterns. In addition to permissions, the spreadsheet also includes useful information such as pattern names, types, CI Classes, and links to vendor documentation. New patterns are available quarterly, so check periodically to be sure you have the latest version of the spreadsheet.
 
@@ -1608,6 +1608,30 @@ AWS Auto Scaling groups \(LP\) \(pattern\)
 
 </td></tr><tr><td>
 
+[AWS Availability Zone pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/aws-availability-zone-pattern.md)
+
+</td><td>
+
+AWS
+
+</td><td>
+
+N/A
+
+</td><td>
+
+REST
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Amazon AWS - Availability Zone \(LP\)
+
+</td></tr><tr><td>
+
 [AWS Backup Plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/aws-backup-plan.md)
 
 </td><td>
@@ -1701,6 +1725,30 @@ Horizontal
 </td><td>
 
 Amazon AWS classic ELB Service
+
+</td></tr><tr><td>
+
+[AWS Classic LB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/aws-classic-lb-pattern.md)
+
+</td><td>
+
+AWS
+
+</td><td>
+
+N/A
+
+</td><td>
+
+REST
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Amazon AWS - Classic LB \(LP\)
 
 </td></tr><tr><td>
 
@@ -1800,6 +1848,30 @@ Amazon AWS - CodePipeline Pipeline - Extended Inventory \(LP\)
 
 </td></tr><tr><td>
 
+[AWS Customer Gateway](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/aws-customer-gateway-pattern.md)
+
+</td><td>
+
+AWS
+
+</td><td>
+
+N/A
+
+</td><td>
+
+REST
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Amazon AWS - Customer Gateway \(LP\)
+
+</td></tr><tr><td>
+
 [AWS datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/aws-datacenter-pattern.md)
 
 </td><td>
@@ -1845,6 +1917,30 @@ Horizontal
 </td><td>
 
 Amazon AWS - DataSync Task - Extended Inventory \(LP\)
+
+</td></tr><tr><td>
+
+[AWS Cloud Organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/aws-discover-organization-pattern.md)
+
+</td><td>
+
+AWS
+
+</td><td>
+
+N/A
+
+</td><td>
+
+REST
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Amazon AWS - discover Organization
 
 </td></tr><tr><td>
 
@@ -1917,6 +2013,36 @@ Top-down
 </td><td>
 
 Amazon AWS classic ELB Service - TD
+
+</td></tr><tr><td>
+
+[AWS Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/aws-events-pattern.md)
+
+</td><td>
+
+AWS
+
+</td><td>
+
+N/A
+
+</td><td>
+
+REST
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Patterns:-   Amazon AWS Virtual Server Events
+-   Amazon AWS Security Group Events
+-   Amazon AWS Subnet Events
+-   Amazon AWS Storage Events
+-   Amazon AWS Network Events
+-   Amazon AWS Classic LB Events
+-   Amazon AWS Application and Network LBs Events
 
 </td></tr><tr><td>
 
@@ -1993,6 +2119,30 @@ Patterns:-   Amazon AWS - Hardware Type \(LP\)
 
 </td></tr><tr><td>
 
+[AWS Host](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/aws-host-pattern.md)
+
+</td><td>
+
+AWS
+
+</td><td>
+
+N/A
+
+</td><td>
+
+REST
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Amazon AWS - Host \(LP\)
+
+</td></tr><tr><td>
+
 [AWS IAM Policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/aws-iam-policy.md)
 
 </td><td>
@@ -2065,6 +2215,54 @@ Amazon AWS - IAM User - Extended Inventory \(LP\)
 
 </td></tr><tr><td>
 
+[AWS Internet Gateway](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/aws-internet-gateway-pattern.md)
+
+</td><td>
+
+AWS
+
+</td><td>
+
+N/A
+
+</td><td>
+
+REST
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Amazon AWS - Internet Gateway \(LP\)
+
+</td></tr><tr><td>
+
+[AWS IP Address](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/aws-ip-address-pattern.md)
+
+</td><td>
+
+AWS
+
+</td><td>
+
+N/A
+
+</td><td>
+
+REST
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Amazon AWS - IP Address \(LP\)
+
+</td></tr><tr><td>
+
 [AWS Keyspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/amazon-keyspaces-discovery.md)
 
 </td><td>
@@ -2086,6 +2284,30 @@ Horizontal
 </td><td>
 
 Amazon AWS Keyspaces
+
+</td></tr><tr><td>
+
+[AWS Key Pair](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/aws-key-pair-pattern.md)
+
+</td><td>
+
+AWS
+
+</td><td>
+
+N/A
+
+</td><td>
+
+REST
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Amazon AWS - Key Pair \(LP\)
 
 </td></tr><tr><td>
 
@@ -2164,6 +2386,78 @@ Amazon AWS Lambda
 
 </td></tr><tr><td>
 
+[AWS LB Pool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/aws-lb-pool-pattern.md)
+
+</td><td>
+
+AWS
+
+</td><td>
+
+N/A
+
+</td><td>
+
+REST
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Amazon AWS - LB Pool \(LP\)
+
+</td></tr><tr><td>
+
+[AWS LB Pool Member](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/aws-lb-pool-member-pattern.md)
+
+</td><td>
+
+AWS
+
+</td><td>
+
+N/A
+
+</td><td>
+
+REST
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Amazon AWS - LB Pool Member\(LP\)
+
+</td></tr><tr><td>
+
+[AWS LB Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/aws-lb-service-pattern.md)
+
+</td><td>
+
+AWS
+
+</td><td>
+
+N/A
+
+</td><td>
+
+REST
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Amazon AWS - LB Service \(LP\)
+
+</td></tr><tr><td>
+
 [AWS Linux Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/aws-linux-server-pattern.md)
 
 </td><td>
@@ -2236,6 +2530,54 @@ AWS MemoryDB \(pattern\)
 
 </td></tr><tr><td>
 
+[AWS NAT Gateway](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/aws-nat-gateway-pattern.md)
+
+</td><td>
+
+AWS
+
+</td><td>
+
+N/A
+
+</td><td>
+
+REST
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Amazon AWS - NAT Gateway \(LP\)
+
+</td></tr><tr><td>
+
+[AWS Network](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/aws-network-pattern.md)
+
+</td><td>
+
+AWS
+
+</td><td>
+
+N/A
+
+</td><td>
+
+REST
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Amazon AWS - Network \(LP\)
+
+</td></tr><tr><td>
+
 [AWS Network ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/aws-acl-pattern.md)
 
 </td><td>
@@ -2281,6 +2623,30 @@ Horizontal
 </td><td>
 
 Amazon AWS - Network Firewall - Extended Inventory \(LP\)
+
+</td></tr><tr><td>
+
+[AWS NIC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/aws-nic-pattern.md)
+
+</td><td>
+
+AWS
+
+</td><td>
+
+N/A
+
+</td><td>
+
+REST
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Amazon AWS - NIC \(LP\)
 
 </td></tr><tr><td>
 
@@ -2332,6 +2698,30 @@ Amazon AWS Organizations
 
 </td></tr><tr><td>
 
+[AWS Organizational Units](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/aws-organizational-units-pattern.md)
+
+</td><td>
+
+AWS
+
+</td><td>
+
+N/A
+
+</td><td>
+
+REST
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Amazon AWS - Organizational Units \(LP\)
+
+</td></tr><tr><td>
+
 [AWS OS images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/aws-os-image-pattern.md)
 
 </td><td>
@@ -2359,6 +2749,30 @@ Patterns:-   Amazon AWS - Owned Template \(LP\)
 
 </td></tr><tr><td>
 
+[AWS Public IP Address](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/aws-public-ip-address-pattern.md)
+
+</td><td>
+
+AWS
+
+</td><td>
+
+N/A
+
+</td><td>
+
+REST
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Amazon AWS - Public IP Address \(LP\)
+
+</td></tr><tr><td>
+
 [AWS Resource Inventory discovery with Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/aws-resource-inventory.md)
 
 </td><td>
@@ -2380,6 +2794,30 @@ Horizontal
 </td><td>
 
 AWS Resource Inventory
+
+</td></tr><tr><td>
+
+[AWS Route Table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/aws-route-table-pattern.md)
+
+</td><td>
+
+AWS
+
+</td><td>
+
+N/A
+
+</td><td>
+
+REST
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Amazon AWS - Route Table \(LP\)
 
 </td></tr><tr><td>
 
@@ -2407,6 +2845,30 @@ Amazon AWS - Secrets Manager Secret - Extended Inventory \(LP\)
 
 </td></tr><tr><td>
 
+[AWS Security Group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/aws-security-group-pattern.md)
+
+</td><td>
+
+AWS
+
+</td><td>
+
+N/A
+
+</td><td>
+
+REST
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Amazon AWS - Security Group \(LP\)
+
+</td></tr><tr><td>
+
 [AWS Serverless Database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/aws-serverless-database-pattern.md)
 
 </td><td>
@@ -2431,6 +2893,30 @@ Amazon AWS Serverless Database
 
 </td></tr><tr><td>
 
+[AWS SSM Cloud Agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/aws-ssm-cloud-agents-pattern.md)
+
+</td><td>
+
+AWS
+
+</td><td>
+
+N/A
+
+</td><td>
+
+REST
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Amazon AWS - SSM Cloud Agents \(LP\)
+
+</td></tr><tr><td>
+
 [AWS Step Functions State Machine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/aws-step-functions-state-machine.md)
 
 </td><td>
@@ -2452,6 +2938,30 @@ Horizontal
 </td><td>
 
 Amazon AWS - Step Functions State Machine - Extended Inventory \(LP\)
+
+</td></tr><tr><td>
+
+[AWS Storage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/aws-storage-pattern.md)
+
+</td><td>
+
+AWS
+
+</td><td>
+
+N/A
+
+</td><td>
+
+REST
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Amazon AWS - Storage \(LP\)
 
 </td></tr><tr><td>
 
@@ -2503,7 +3013,31 @@ Amazon AWS - Storage Gateway Gateway - Extended Inventory \(LP\)
 
 </td></tr><tr><td>
 
-[AWS sub accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/aws-sub-account-pattern.md)
+[AWS sub account Organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/aws-sub-account-organization-pattern.md)
+
+</td><td>
+
+AWS
+
+</td><td>
+
+N/A
+
+</td><td>
+
+REST
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Amazon AWS - Sub Account \(LP\)
+
+</td></tr><tr><td>
+
+[AWS sub account regional](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/aws-sub-account-pattern.md)
 
 </td><td>
 
@@ -2524,6 +3058,30 @@ Horizontal
 </td><td>
 
 Amazon AWS sub account discovery
+
+</td></tr><tr><td>
+
+[AWS subnet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/aws-subnet-pattern.md)
+
+</td><td>
+
+AWS
+
+</td><td>
+
+N/A
+
+</td><td>
+
+REST
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Amazon AWS - Subnet \(LP\)
 
 </td></tr><tr><td>
 
@@ -2620,6 +3178,78 @@ Horizontal
 </td><td>
 
 Amazon AWS - Virtual Server \(LP\)
+
+</td></tr><tr><td>
+
+[AWS VPN Connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/aws-vpn-connections-pattern.md)
+
+</td><td>
+
+AWS
+
+</td><td>
+
+N/A
+
+</td><td>
+
+REST
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Amazon AWS - VPN Connections \(LP\)
+
+</td></tr><tr><td>
+
+[AWS VPN Gateway](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/aws-vpn-gateway-pattern.md)
+
+</td><td>
+
+AWS
+
+</td><td>
+
+N/A
+
+</td><td>
+
+REST
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Amazon AWS - VPN Gateway \(LP\)
+
+</td></tr><tr><td>
+
+[AWS web ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/aws-web-acl-pattern.md)
+
+</td><td>
+
+AWS
+
+</td><td>
+
+N/A
+
+</td><td>
+
+REST
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Amazon AWS - Web ACL \(LP\)
 
 </td></tr><tr><td>
 
@@ -3127,7 +3757,7 @@ Azure - Data Protection Backup Vault - Extended Inventory\(LP\)
 
 </td></tr><tr><td>
 
-[Azure Database Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/data-collected-azure-discovery.md)
+[Azure Database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/azure-database-pattern.md)
 
 </td><td>
 
@@ -3147,7 +3777,8 @@ Horizontal and top-down
 
 </td><td>
 
-Azure DataBase \(pattern\)
+-   Azure DataBase \(LP\)
+-   Azure DataBase TD
 
 </td></tr><tr><td>
 
@@ -3322,6 +3953,48 @@ Horizontal
 </td><td>
 
 Azure - Event Hub Namespace - Extended Inventory\(LP\)
+
+</td></tr><tr><td>
+
+[Azure Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/azure-events-pattern.md)
+
+</td><td>
+
+Microsoft Azure
+
+</td><td>
+
+N/A
+
+</td><td>
+
+REST
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Patterns:-   Azure Application LB Event
+-   Azure Availability Set Event
+-   Azure Classic LB Event
+-   Azure DataBase Event
+-   Azure Express Route Circuit Event
+-   Azure Functions Event
+-   Azure Local Network Gateway Event
+-   Azure NAT Gateway Event
+-   Azure Network Event
+-   Azure NIC Event
+-   Azure Private DNS Zone Event
+-   Azure Public IP Event
+-   Azure Resource Group Event
+-   Azure Security Group Event
+-   Azure Storage Account Event
+-   Azure Virtual Machine Event
+-   Azure Virtual Network Gateway Connection Event
+-   Azure Virtual Network Peerings Event
+-   Azure VM Scale Set Event
 
 </td></tr><tr><td>
 
@@ -3642,6 +4315,30 @@ Azure - Managed Identity User Assigned Identity - Extended Inventory\(LP\)
 
 </td></tr><tr><td>
 
+[Azure Marketplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/azure-marketplace-lb-pattern.md)
+
+</td><td>
+
+Microsoft Azure
+
+</td><td>
+
+N/A
+
+</td><td>
+
+REST
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Azure - Marketplace LB \(LP\)
+
+</td></tr><tr><td>
+
 [Azure NAT Gateway](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/azure-nat-gateway-pattern.md)
 
 </td><td>
@@ -3907,6 +4604,30 @@ Azure - Recovery Services Vault Backup Item - Extended Inventory\(LP\)
 
 </td></tr><tr><td>
 
+[Azure Resource Group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/azure-resource-group-pattern.md)
+
+</td><td>
+
+Microsoft Azure
+
+</td><td>
+
+N/A
+
+</td><td>
+
+REST
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Azure - Resource Group \(LP\)
+
+</td></tr><tr><td>
+
 [Azure Resource Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/azure-resource-inventory-pattern.md)
 
 </td><td>
@@ -3928,6 +4649,54 @@ Horizontal
 </td><td>
 
 Azure Inventory and tags
+
+</td></tr><tr><td>
+
+[Azure Route Table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/azure-route-table-pattern.md)
+
+</td><td>
+
+Microsoft Azure
+
+</td><td>
+
+N/A
+
+</td><td>
+
+REST
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Azure - Route Table \(LP\)
+
+</td></tr><tr><td>
+
+[Azure Security Group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/azure-security-group-pattern.md)
+
+</td><td>
+
+Microsoft Azure
+
+</td><td>
+
+N/A
+
+</td><td>
+
+REST
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Azure - Security Group \(LP\)
 
 </td></tr><tr><td>
 
@@ -4027,6 +4796,126 @@ Azure - Service Endpoint Policy - Extended Inventory\(LP\)
 
 </td></tr><tr><td>
 
+[Azure SQL Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/azure-sql-server-pattern.md)
+
+</td><td>
+
+Microsoft Azure
+
+</td><td>
+
+N/A
+
+</td><td>
+
+REST
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Azure - SQL Server \(LP\)
+
+</td></tr><tr><td>
+
+[Azure Storage Account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/azure-storage-account-pattern.md)
+
+</td><td>
+
+Microsoft Azure
+
+</td><td>
+
+N/A
+
+</td><td>
+
+REST
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Azure - Storage Account \(LP\)
+
+</td></tr><tr><td>
+
+[Azure Storage Container](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/azure-storage-container-pattern.md)
+
+</td><td>
+
+Microsoft Azure
+
+</td><td>
+
+N/A
+
+</td><td>
+
+REST
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Azure - Storage Container\(LP\)
+
+</td></tr><tr><td>
+
+[Azure Storage Volume](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/azure-storage-volume-pattern.md)
+
+</td><td>
+
+Microsoft Azure
+
+</td><td>
+
+N/A
+
+</td><td>
+
+REST
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Azure - Storage Volume \(LP\)
+
+</td></tr><tr><td>
+
+[Azure sub account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/azure-sub-account-pattern.md)
+
+</td><td>
+
+Microsoft Azure
+
+</td><td>
+
+N/A
+
+</td><td>
+
+REST
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Azure - Sub Account \(LP\)
+
+</td></tr><tr><td>
+
 [Azure Subscriptions Discovery For Management Group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/azure-sub-mgmt-group-pattern.md)
 
 </td><td>
@@ -4048,30 +4937,6 @@ Horizontal
 </td><td>
 
 Azure Subscriptions Discovery For Management Group
-
-</td></tr><tr><td>
-
-Azure SQL Database
-
-</td><td>
-
-Microsoft Azure
-
-</td><td>
-
-N/A
-
-</td><td>
-
-REST
-
-</td><td>
-
-Horizontal and top-down
-
-</td><td>
-
-Cloud Database Instance
 
 </td></tr><tr><td>
 
@@ -4174,7 +5039,7 @@ Azure - Web Application Firewall Policy - Extended Inventory\(LP\)
 
 </td></tr><tr><td>
 
-[Azure WebSite Service and Database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/azure-cloud-discovery-patterns.md)
+[Azure WebSite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery-and-service-mapping-patterns/azure-website-pattern.md)
 
 </td><td>
 
@@ -4190,15 +5055,12 @@ REST
 
 </td><td>
 
-Horizontal
+Horizontal and top-down
 
 </td><td>
 
-Patterns:Azure WebSite
-
-Azure WebSite \(LP\)
-
-Collect Azure Database Tags and WebSite tags
+Patterns:-   Azure WebSite \(LP\)
+-   Azure WebSite TD
 
 </td></tr><tr><td>
 
@@ -6503,7 +7365,7 @@ Fast Search
 
 </td></tr><tr><td>
 
-[Microsoft Foundry \(Classic\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/microsoft-foundry-classic-pattern.md)
+[Microsoft Foundry \(classic\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/microsoft-foundry-classic-pattern.md)
 
 </td><td>
 
@@ -6526,6 +7388,59 @@ Horizontal
 Patterns:-   Azure - AI Foundry Agents
 -   Azure - AI Service Foundry
 -   Azure - AI Service Foundry Project
+-   Azure - AI Foundry Models
+
+</td></tr><tr><td>
+
+[Microsoft Foundry \(new\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/microsoft-foundry-new-pattern.md)
+
+</td><td>
+
+Microsoft Azure
+
+</td><td>
+
+N/A
+
+</td><td>
+
+REST
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Patterns:-   Azure - AI New Foundry Agents
+-   Azure - AI Service Foundry
+-   Azure - AI Service Foundry Project
+-   Azure - AI Foundry Models
+
+</td></tr><tr><td>
+
+[Microsoft Foundry Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/microsoft-foundry-hub-pattern.md)
+
+</td><td>
+
+Microsoft Azure
+
+</td><td>
+
+N/A
+
+</td><td>
+
+REST
+
+</td><td>
+
+Horizontal
+
+</td><td>
+
+Patterns:-   Azure - AI Foundry Hub Agents
+-   Azure - AI Foundry Hub Project
 -   Azure - AI Foundry Models
 
 </td></tr><tr><td>

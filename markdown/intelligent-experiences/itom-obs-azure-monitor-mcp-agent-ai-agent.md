@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/itom-obs-azure-monitor-mcp-agent-ai-agent.html
 release: australia
 topic_type: reference
-last_updated: "2026-06-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [IT Operations Management AI agents, IT Operations Management, AI agents library, AI assets, Enable AI experiences]
 ---
@@ -16,13 +16,14 @@ This AI agent investigates Azure Monitor alerts by querying Log Analytics worksp
 
 ## Workflow
 
-The agent investigates an Azure Monitor alert by querying Azure's monitoring data sources for supporting evidence.
+1.  Identify what to investigate.
 
-1.  Identify the Azure alert and subscription to investigate from the context provided by the parent agent.
-2.  Query the relevant Log Analytics workspace using KQL, applying a time window and result limit to keep queries efficient.
-3.  Retrieve platform metrics, activity logs, and resource health information for the affected resource.
-4.  Continue the investigation with the remaining tools if any individual call fails, noting the failure rather than stopping.
-5.  Return the structured findings to the parent agent for inclusion in the overall investigation report.
+    The agent uses a provided alert instance ID and the Azure subscription ID.
+
+2.  Gather context about the alert and the affected resource, and investigate metrics or logs.
+3.  Return findings, including the probable cause, trend direction, and recommended actions.
+
+For more information about configuring this AI agent, see [Configure observability agents for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/configure-integration-agents-for-now-assist.md).
 
 <table><thead><tr><th>
 
@@ -131,7 +132,7 @@ Used in agentic workflows
 
 </td><td>
 
-Not applicable.
+[Analyze alert impact agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/now-assist-itom-agentic-aia.md)
 
 </td></tr></tbody>
 </table>For more information, see [ITOM AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-health-landing-page.md).

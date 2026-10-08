@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/mon-ai-session-details.html
 release: australia
 topic_type: concept
-last_updated: "2026-06-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Investigate sessions, Monitoring and evaluating AI systems, Monitor AI assets, AI Control Tower, Enable AI experiences]
@@ -30,21 +30,17 @@ The session details page shows the AI system, its type, session duration, and to
 
 The header also shows latency and span count for the session. Latency reflects the AI system's language model response time across the session's traces, which is typically much shorter than the session duration since duration also includes think time and tool-call execution. Span count is the number of spans across all traces in the session.
 
-## Quality and safety score cards
+## Quality and Safety score cards
 
 Review the overall quality and safety of the session by reviewing the score cards. View a breakdown of the score by selecting the side panel icon. The side panel is filtered to show only the metrics that apply to this session, along with each metric's weight, score, and explanatory notes about how the score is calculated.
 
-## Session scores and aggregate scores
+Learn which metrics are impacting the overall score by viewing the lowest scoring metrics list.
 
-Understand what's driving a session's quality and safety scores by reviewing all of its evaluated metrics in one place. Metrics scored at the session, trace, or span level all roll up to this section, so you don't have to open each trace or span to see an individual score.
+To learn more about any single score, point to the information icon. The reason notes that the score is an average and points you to open an individual span or trace to read the judge's reasoning for each one.
 
-Session-level metrics such as Task completion assess the entire conversation rather than individual traces or spans, so a low session-level score often means the agent didn't accomplish the user's overall goal, even when individual steps were executed correctly. To see whether a metric was evaluated at the session, trace, or span level, check the Level column.
+## Details
 
-For a metric evaluated at the trace or span level, the score shown is an aggregate, meaning the average of that metric's scores across the traces or spans where it was evaluated. To understand any score, read the Reason column. For an aggregated metric, the reason notes that the score is an average and points you to open an individual span or trace to read the judge's reasoning for each one.
-
-## Traces
-
-Sort the traces to focus your investigation by selecting Lowest quality score, Lowest safety score, Highest latency, or other criteria from the list. Select a trace to open the trace detail.
+Identify which trace in the session is responsible for the low score by reviewing the traces list. Sort the Traces list to focus your investigation by selecting Lowest quality score, Lowest safety score, Highest latency, or other criteria from the list.
 
 A trace shows N/A for its Quality or Safety score when no metrics in your corresponding metric template apply to that trace. This happens when all metrics in the template are evaluated at the session or span level only, or when the metrics that do apply to the trace level weren't evaluated for that particular trace. An N/A score doesn't indicate a problem with the trace. Rather, it indicates that your template's formula has nothing to calculate at the trace level. To see scores for that trace, either:
 
@@ -53,7 +49,7 @@ A trace shows N/A for its Quality or Safety score when no metrics in your corres
 
 ## Trace detail
 
-Identify which trace in the session is responsible for the low score by reviewing the traces list. View the span timeline and evaluation data by selecting a trace.
+View the span timeline and evaluation data by selecting a trace.
 
 -   **Span timeline**
 
@@ -65,7 +61,7 @@ Identify which trace in the session is responsible for the low score by reviewin
 
 -   **Details**
 
-    Shows what the AI system received and what it produced for this trace. Select the **Input** tab to view the user's request or the data passed to the agent. Select the **Output** tab to view the agent's response. Select **Open details** to view the full content in a modal when the preview is truncated.
+    Shows what the AI system received and what it produced for this trace. Select **Open details** to view the full content in a modal. Select the **Input** tab to view the user's request or the data passed to the agent. Select the **Output** tab to view the agent's response.
 
 
 Navigate between traces without returning to the session detail page by selecting **Previous trace** or **Next trace**.

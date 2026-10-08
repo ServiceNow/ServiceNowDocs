@@ -27,7 +27,7 @@ Role required: none
 
 The Adobe Experience Manager as a Cloud Service external content connector retrieves assets from nodes in your Adobe Experience Manager as a Cloud Service source system.
 
-To allow the connector to access your Adobe Experience Manager as a Cloud Service source system, you must create a Technical Account in Adobe Cloud Manager. Your connector administrator can use the Service Credentials from this Technical Account to configure the Adobe Experience Manager as a Cloud Service external connector for proper connection to your source system.
+To allow the connector to access your Adobe Experience Manager as a Cloud Service source system, you must create a Technical Account in Adobe Cloud Manager. Your connector administrator can use the Service Credentials from this Technical Account to configure the Adobe Experience Manager as a Cloud Service external content connector for proper connection to your source system.
 
 ## Procedure
 

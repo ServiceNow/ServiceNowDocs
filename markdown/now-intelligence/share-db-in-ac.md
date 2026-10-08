@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/shar
 release: australia
 topic_type: task
 last_updated: "2026-08-04"
-reading_time_minutes: 4
+reading_time_minutes: 5
 keywords: [How to share a dashboard, How to share a Platform Analytics dashboard, How to share a Next Experience dashboard]
 breadcrumb: [Working with in-line dashboards, Dashboards, Platform Analytics experience, Platform Analytics]
 ---
@@ -53,7 +53,7 @@ Rights to the underlying data only matter when the visualizations contain raw da
 
 6.  Select one of the following options.
 
-<table id="choicetable_yxb_j15_q5b"><tbody><tr><td id="d39173e176">
+<table id="choicetable_yxb_j15_q5b"><tbody><tr><td id="d39284e176">
 
 **Add as viewer**
 
@@ -61,7 +61,7 @@ Rights to the underlying data only matter when the visualizations contain raw da
 
 Grant only viewing rights to the users, groups, or roles you're sharing the dashboard with. They cannot edit it.
 
-</td></tr><tr><td id="d39173e185">
+</td></tr><tr><td id="d39284e185">
 
 **Add as editor**
 
@@ -87,7 +87,7 @@ The roles, groups, and users you have shared the dashboard with appear when you 
 
 ## What to do next
 
-You can change the rights of whom you have shared the dashboard with in the Share Dashboard dialog, under the Can view/Can edit list for each user, group, or role.
+To change sharing rights, open the Share Dashboard dialog. Under the Can view/Can edit list, select the rights for each user, group, or role.
 
 \[Omitted image "db-share-rights-selector.png"\] Alt text: Rights selector for a user, group, or role that a dashboard was shared with.
 
@@ -100,6 +100,8 @@ Use reference qualifiers to limit the users, groups, and roles in the recipients
 
 
 [Create a dashboard with the in-line editor]()
+
+[Create Core UI dashboards on upgraded instances]()
 
 [Edit Platform Analytics dashboards]()
 

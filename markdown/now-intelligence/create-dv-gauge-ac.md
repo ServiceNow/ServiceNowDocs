@@ -35,6 +35,8 @@ For information about the use of a Gauge visualization in a dashboard, see [the 
 
 4.  Configure the **Header and border**. Header and border options are the same for all data sources.
 
+    None of the **Header and border** fields is required.
+
 <table id="table_ly5_djk_c5b"><thead><tr><th>
 
 Header and border fields
@@ -178,7 +180,7 @@ Specify the text color of the title. The default title color is black, but you c
 
     -   Indicator \(available in the base system\). You can filter the indicator scores by breakdowns and elements. Automated indicators can be configured with selected breakdowns. Formula indicators inherit their breakdowns from the parent indicators. Data snapshots indicator breakdowns are configured in the indicator. In both cases, only those breakdowns are available when you configure a visualization based on those indicators.
 
-        **Note:** Benchmark indicators are not supported.
+        **Note:** Benchmark indicators aren't supported.
 
         \[Omitted image "dv-ind-source-con-filter.png"\] Alt text: Conditional filter for indicator data source on data visualization.
 
@@ -358,7 +360,7 @@ Show label as primary
 Available when the score label is configured as Range label. Changes the places of the score value and label to make the score value small and emphasize the range value.
 
 </td></tr></tbody>
-</table>8.  Under **Chart interaction**, set what if anything happens when a viewer clicks a chart or a chart segment on the visualization.
+</table>8.  Under **Chart interaction**, set what if anything happens when a viewer selects a chart or a chart segment on the visualization.
 
 <table id="table_qnp_d2d_b1c"><thead><tr><th>
 

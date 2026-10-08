@@ -19,6 +19,8 @@ AI Desktop Actions to execute predefined automation sequences on your desktop. D
 Download the AI Desktop Actions installer so that you can install AI Desktop Actions on your Windows machine for designing and running defined desktop actions.
 -   **[Download and install .Net Desktop Runtime for AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/install-dot-network-framework-ad.md)**  
 Reduce setup time and prevent installation errors by downloading and installing .Net Desktop Runtime following the instructions.
+-   **[Enable AI agents to securely access parameters in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configure-parameter-record-ad.md)**  
+Enable AI agents to securely access stored values, such as credentials and other input data, through Desktop Action Parameter records. Parameters protect sensitive values and provide dynamic inputs to desktop actions during agent execution.
 
 **Parent Topic:**[Configure AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configure-agentic-desktop.md)
 

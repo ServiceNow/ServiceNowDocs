@@ -8,7 +8,7 @@ product: Digital Factory Workspace
 classification: digital-factory-workspace
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Digital Factory Workspace, Industrial Connected Workforce]
 ---
 
@@ -56,6 +56,18 @@ Find answers fast
 </td><td>
 
 [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/ai-search-digital-factory-workspace.md)
+
+</td><td>
+
+All Workspace users
+
+</td></tr><tr><td>
+
+Select the right functional location
+
+</td><td>
+
+Hierarchical functional location selector
 
 </td><td>
 
@@ -166,6 +178,10 @@ Get to the root cause
 Industrial Standards enable you to manage consistency and control across your manufacturing environment. Standardizing components such as standard operating procedures, shift structures, and production calendars. Standardization helps improve traceability, reduce errors, and support scalable, compliant operations.
 -   **[Exploring Industrial Guided Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/exploring-industrial-guided-tasks.md)**  
 Manage your industrial guided task \(IGT\) standards with Industrial Guided Tasks.
+-   **[Exploring Industrial Analytics and Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/exploring-industrial-analytics-and-reporting.md)**  
+Learn how Industrial Analytics and Reporting embeds operational analytics in the Digital Factory Workspace so workers can monitor performance without leaving their workflows.
+-   **[Industrial Centerlines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/icw-centerlining-overview.md)**  
+Industrial Centerlines enables you to identify and maintain critical equipment settings by specifying baseline targets and ranges, and routinely verifying that all settings conform to the defined standard. This process reduces the risk of quality and reliability losses in manufacturing operations.
 -   **[Task lists in the Digital Factory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/task-lists-digital-factory-workspace.md)**  
 Use the task lists in the Digital Factory Workspace to access and manage all types of tasks for your organization.
 -   **[Reporting and metrics for industrial task flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/reporting-metrics-industrial-task-flows.md)**  

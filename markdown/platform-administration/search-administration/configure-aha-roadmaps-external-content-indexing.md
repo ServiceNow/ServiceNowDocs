@@ -29,7 +29,7 @@ Role required: none
 
 The Aha! Roadmaps external content connector retrieves Features, Goals, Ideas, Notes, and Releases from workspaces in your Aha! Roadmaps source system using the Aha! REST API.
 
-To allow the connector to access your Aha! Roadmaps content via the REST API, you must generate an API key in Aha! Roadmaps. Your connector administrator can use this API key to configure the Aha! Roadmaps external connector for proper connection to your source system.
+To allow the connector to access your Aha! Roadmaps content via the REST API, you must generate an API key in Aha! Roadmaps. Your connector administrator can use this API key to configure the Aha! Roadmaps external content connector for proper connection to your source system.
 
 ## Procedure
 

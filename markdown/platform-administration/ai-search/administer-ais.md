@@ -7,7 +7,7 @@ release: australia
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -22,7 +22,7 @@ Understand how the AI Search topology affects performance testing on instances c
 
 **Warning:**
 
-Be careful when testing AI Search performance in cloned non-production instances. The same dedicated AI Search nodes handle search query traffic from all of your instances. As a result, search queries on non-production instances may impact search query performance in your production instance.
+Be careful when testing AI Search performance in cloned non-production instances. The same dedicated AI Search nodes handle search query traffic from all of your instances. Search queries on non-production instances can impact search query performance in your production instance.
 
 -   **[Lemma and Unicode normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/lemma-unicode-normalization-ais.md)**  
 AI Search normalizes inflected words and Unicode glyphs during indexing and at search query time. Normalization improves search recall and enables users to find content with variant forms of their search query terms.

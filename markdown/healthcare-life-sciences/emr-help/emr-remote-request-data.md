@@ -49,8 +49,6 @@ String
 
 This field is used to store any additional sensitive information when submitting a request from the EMR.
 
- This field has column-level encryption.
-
 </td></tr><tr><td>
 
 Created

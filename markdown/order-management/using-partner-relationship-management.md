@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/using-partner-relationship-management.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 3
 breadcrumb: [Use, Sales Customer Relationship Management]
 ---
@@ -162,7 +162,7 @@ Register a new partner member or transfer existing staff within a partner organi
 -   **[Register a deal on Partner portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/register-a-deal-partner-portal.md)**  
 Register a deal on the Partner portal to update its state and trigger the end-to-end life cycle of the deal.
 -   **[Register a deal using agentic AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/register-deal-using-agentic-ai.md)**  
-Use the Deal Registration AI agent to process deal registrations and manage the entire deal registration process.
+The **Deal Registration Agent** assists users in submitting deal registrations and perform specific actions, such as updating fields, managing products, and retrieving deal details.
 -   **[Create a Quote via Self-Service for Channel Partners](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/create-a-self-service-quote.md)**  
 Use the Quote Self-Service plugin \(com.sn\_quote\_self\_service\) to create and submit a configured quote directly from the Partner portal.
 -   **[View opportunity analytics on Partner portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/view-opportunity-analytics-on-partner-portal.md)**  

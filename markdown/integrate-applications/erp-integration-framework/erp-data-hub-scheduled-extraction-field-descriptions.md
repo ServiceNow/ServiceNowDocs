@@ -7,7 +7,7 @@ release: australia
 product: ERP Integration Framework
 classification: erp-integration-framework
 topic_type: reference
-last_updated: "2026-08-06"
+last_updated: "2026-09-16"
 reading_time_minutes: 4
 keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, schedule, extract, data, interval, pull]
 breadcrumb: [Field descriptions, Reference, Zero Copy Connector for ERP, Workflow Data Fabric]
@@ -93,6 +93,8 @@ Encoded query string, created by applying a filter on the extraction table list 
 
 For more information, see [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/c_EncodedQueryStrings.md).
 
+Every field name in the encoded query must match a field on the model that the extraction table is built from. If a field name doesn't match, that condition isn't applied to the query sent to the ERP system, and the extraction returns more records than the filter specifies. Check the field names against the model before you save the scheduled extraction.
+
 </td></tr><tr><td>
 
 Generate encoded query script
@@ -117,7 +119,7 @@ Run as
 
 </td><td>
 
- 
+User whose roles and permissions the scheduled extraction runs under.
 
 </td></tr><tr><td>
 
@@ -131,11 +133,13 @@ When to run the extraction.-   **Daily**: Specify the next scheduled start in ho
 -   **Periodically**: In **Repeat Interval**, select the days, hours, minutes, and seconds to repeat periodically. For example, start the scheduled extraction every 3 days, 4 hours, 30 minutes, and 30 seconds.
 -   **Once**: In **Starting**, select the field, select a day, and enter a time for the extraction to run once.
 -   **On Demand**: Select the **Run now** button \(next to the **Save** button\) to run the extraction immediately.
--   **Business Calendar:Entry Start**: Runs on the starting entry dates for the business calendar that you select in the Business Calendar field. A scheduled job runs for the starting date of each of the business entries that you defined for the business calendar. For example, if the business calendar represents a fiscal year, and the starting date of each entry is a fiscal month, the scheduled job runs on the first day of each month.
+-   **Business Calendar:Entry Start**: Runs on the starting entry dates for the business calendar that you select in the **Business Calendar** field. A scheduled job runs for the starting date of each of the business entries that you defined for the business calendar. For example, the business calendar represents a fiscal year and the starting date of each entry is a fiscal month. Then the scheduled job runs on the first day of each month.
 -   **Business Calendar:Entry End**: Runs for the ending date for the business calendar that you select in the **Business Calendar** field. This selection runs in the same manner as **Business Calendar:Entry Start**, but for the end dates of the associated business calendar entries.
 
 **Note:** To learn more about creating and using business calendars and defining business calendar entries, see [Creating business calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/business-calendars.md).
 
+
+This field is automatically set to **On Demand** and becomes read-only when the **After extraction** field is set.
 
 </td></tr><tr><td>
 

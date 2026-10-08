@@ -1,6 +1,6 @@
 ---
 title: Security incident shift handover AI agent
-description: This Operational Technology Security Incident Response agent adds a security incident to a shift handover report, walking the user through each section for review.
+description: This Security Incident Response agent adds a security incident to a shift handover report, walking the user through each section for review.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/sir-security-incident-shift-handover-ai-agent.html
 release: australia
@@ -12,7 +12,7 @@ breadcrumb: [Security Incident Response AI agents, Security Incident Response, A
 
 # Security incident shift handover AI agent
 
-This Operational Technology Security Incident Response agent adds a security incident to a shift handover report, walking the user through each section for review.
+This Security Incident Response agent adds a security incident to a shift handover report, walking the user through each section for review.
 
 ## Workflow
 
@@ -112,7 +112,7 @@ Used in agentic workflows
 Generate SIR Shift Handover Report
 
 </td></tr></tbody>
-</table>Learn more about Operational Technology Security Incident Response at .
+</table>Learn more about Security Incident Response at .
 
 **Parent Topic:**[Security Incident Response AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/sir-ai-agents-overview.md)
 

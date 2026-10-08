@@ -9,7 +9,7 @@ classification: policy-and-compliance-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Manage UCF integration, Classic UI, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Manage UCF integration, Classic UI, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Configure the UCF integration using the UCF Common Controls Hub

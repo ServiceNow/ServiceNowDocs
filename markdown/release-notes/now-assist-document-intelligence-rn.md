@@ -8,7 +8,7 @@ topic_type: topic
 last_updated: "2026-03-12"
 reading_time_minutes: 3
 keywords: [Now Assist, Gen AI, Generative AI, Document Intelligence, Now Assist, Gen AI, Generative AI, Document Intelligence, Now Assist, Gen AI, Generative AI, Document Intelligence, Now Assist, Gen AI, Generative AI, Document Intelligence]
-breadcrumb: [Now Assist and agentic AI release notes, Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
+breadcrumb: [ServiceNow Otto and agentic AI release notes, Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
 
 # Now Assist in Document Intelligence release notes
@@ -43,7 +43,7 @@ See [Now Assist in Document Intelligence \(Legacy\)](https://raw.githubuserconte
     Now Assist in Document Intelligence requires the installation of the Document Intelligence application \(sn\_docintel\) and at least one Now Assist product.
 
 
-**Parent Topic:**[Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/now-assist-rn-landing.md)
+**Parent Topic:**[ServiceNow Otto and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/now-assist-rn-landing.md)
 
 ## April 2026
 

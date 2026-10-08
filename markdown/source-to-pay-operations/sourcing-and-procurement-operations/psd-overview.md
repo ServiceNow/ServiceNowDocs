@@ -93,7 +93,7 @@ The Procurement Case Management Dashboard helps you to track, analyze, and manag
 
 [Sourcing Pipeline Management]()
 
-[Understanding Punchout]()
+[Understanding punchout]()
 
 [AI Search for Sourcing and Procurement Operations]()
 

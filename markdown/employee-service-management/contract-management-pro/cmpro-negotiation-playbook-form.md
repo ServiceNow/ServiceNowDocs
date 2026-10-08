@@ -8,7 +8,7 @@ product: Contract Management Pro
 classification: contract-management-pro
 topic_type: reference
 last_updated: "2026-08-18"
-reading_time_minutes: 3
+reading_time_minutes: 4
 keywords: [Contract analysis playbook, Playbook fields, reference, Contract negotiation]
 breadcrumb: [Reference, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
@@ -48,6 +48,8 @@ The fields on the Contract Analysis Playbook form are described in the following
 
 [Contract request State and Contract document status in Contract Management Pro]()
 
+[Amendment and renewal interaction messages]()
+
 [Signatory roles]()
 
 [Clause Variation form]()
@@ -69,6 +71,10 @@ The fields on the Contract Analysis Playbook form are described in the following
 [Obligation Management notifications]()
 
 [Contract analysis playbook tool messages]()
+
+[Contract request ticket page actions]()
+
+[Default availability of out-of-the-box record producers]()
 
 [Contract Management Pro glossary]()
 

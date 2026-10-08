@@ -56,7 +56,7 @@ For the ITSM Software Asset Management feature of Asset Management, see [ITSM So
 -   **[Exploring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/explore-sam-workspace.md)**  
 The Software Asset Management application's user interface is enhanced to make it more user friendly and intuitive, allowing you to better manage your software installations.
 -   **[Configuring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/Config-sam-workspace.md)**  
-Configure the various aspects of the Software Asset Management application based on the needs of your organization.
+Install and configure the Software Asset Management application to manage your software inventory, track licenses, and support compliance workflows.
 -   **[Using AI in Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/using-ai-in-software-asset-workspace.md)**  
 Streamline your software asset operations by using the ServiceNow Otto for Software Asset Management \(SAM\) agentic AI workflows and generative AI skills.
 -   **[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/using-sam-workspace.md)**  

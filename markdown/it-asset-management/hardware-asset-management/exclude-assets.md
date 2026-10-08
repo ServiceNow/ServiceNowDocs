@@ -21,6 +21,10 @@ Exclude an asset for which you don't want to use Hardware Asset Management licen
 
 Role required: admin
 
+## About this task
+
+You can only exclude assets whose resource category is opted in to Hardware Asset Management licensed features.
+
 ## Procedure
 
 1.  Navigate to **Hardware Asset Workspace** &gt; **Asset estate** &gt; **Hardware assets**.

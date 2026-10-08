@@ -7,7 +7,7 @@ release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Classic assessments, Configure, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -93,7 +93,7 @@ A set of related questions within a questionnaire template.**Note:** There can b
 
 4.  Select the form context menu to select one of the following options.
 
-<table id="choicetable_mvf_45v_lz"><tbody><tr><td id="d263710e528">
+<table id="choicetable_mvf_45v_lz"><tbody><tr><td id="d268552e528">
 
 **Save**
 
@@ -101,7 +101,7 @@ A set of related questions within a questionnaire template.**Note:** There can b
 
 Save the current questionnaire or document request.
 
-</td></tr><tr><td id="d263710e537">
+</td></tr><tr><td id="d268552e537">
 
 **Preview**
 
@@ -109,7 +109,7 @@ Save the current questionnaire or document request.
 
 Display a preview of the questionnaire or document request with its current settings.
 
-</td></tr><tr><td id="d263710e546">
+</td></tr><tr><td id="d268552e546">
 
 **New Assessment**
 
@@ -117,7 +117,7 @@ Display a preview of the questionnaire or document request with its current sett
 
 Open a fresh canvas for a new questionnaire or document request.
 
-</td></tr><tr><td id="d263710e555">
+</td></tr><tr><td id="d268552e555">
 
 **Load Assessment**
 
@@ -125,7 +125,7 @@ Open a fresh canvas for a new questionnaire or document request.
 
 Open the list of existing questionnaires or document requests that are available for use.
 
-</td></tr><tr><td id="d263710e564">
+</td></tr><tr><td id="d268552e564">
 
 **Copy Assessment**
 

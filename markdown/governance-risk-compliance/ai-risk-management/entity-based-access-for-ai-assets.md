@@ -7,7 +7,7 @@ release: australia
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [entity-based access, AI asset access control, GRC Entity Based Access]
 breadcrumb: [Explore, AI Risk and Compliance, Governance, Risk, and Compliance]

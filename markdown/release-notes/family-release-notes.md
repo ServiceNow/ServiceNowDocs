@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/family-release-notes.html
 release: australia
 topic_type: concept
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 4
 ---
 
@@ -40,7 +40,7 @@ To use the release notes in your upgrade process, choose the upgrade phase that 
 
 New Australia release versions are released throughout the year. Here are the current dates for Australia patch and security patch releases. To view a full list of Australia release versions, refer to [Available patches and hotfixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/available-versions.md). Future release dates are subject to change.
 
-\[Omitted image "release-timeline-australia-legacy.png"\] Alt text: Australia release timeline for the year of 2026
+\[Omitted image "release-timeline-australia.png"\] Alt text: Australia release timeline for the year of 2026
 
 ## Maximize your release notes value
 

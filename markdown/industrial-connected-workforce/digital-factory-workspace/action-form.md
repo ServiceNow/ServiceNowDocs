@@ -8,7 +8,7 @@ product: Digital Factory Workspace
 classification: digital-factory-workspace
 topic_type: reference
 last_updated: "2026-09-03"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Reference, Digital Factory Workspace, Industrial Connected Workforce]
 ---
 
@@ -86,7 +86,7 @@ Assigned to
 
 </td><td>
 
-User that the action should be assigned to.
+User that the action should be assigned to.**Note:** A user with the `action_user` role can assign an unassigned action to themselves. This role can't reassign an action that's already assigned to another user.
 
 </td></tr><tr><td>
 
@@ -150,5 +150,17 @@ Escalate to
 User that the action should be escalated to.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Digital Factory Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/digital-factory-workspace-reference.md)
+</table>## Safety and knowledge section
+
+This section appears only when at least one of the following fields is populated.
+
+|Field|Description|
+|-----|-----------|
+|LOTO\(TO\) Level|Lockout/Tagout safety level required to execute the action. This value is populated from the sub-activity that generated the action, when defined.|
+|Line Status|Required status of the production line for the action. This value is populated from the sub-activity that generated the action, when defined.|
+|Knowledge Article|Knowledge article related to the action that provides background for the operator who executes it. This value is populated from the sub-activity that generated the action, when defined.|
+
+**LOTO\(TO\) Level** and **Line Status** also appear as highlighted values in the action header. The related **Knowledge Article** is available during execution from the recommendations sidebar.
+
+**Parent Topic:**[Digital Factory Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/digital-factory-workspace-reference.md)
 

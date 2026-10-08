@@ -36,7 +36,7 @@ The system administrator or a virtual agent admin must do the following to enabl
 
     -   Get Help \(Template\)
 
-        This topic is for users who are not logged in and want to chat anonymously. Users can use keywords and search relevant knowledge articles or choose to be transferred to a live agent. You can integrate this topic with the [Virtual agent - Facebook messaging integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/update-authentication-facebook-va-integration.md) to enable chat using your messaging application.
+        This topic is for users who are not logged in and want to chat anonymously. Users can use keywords and search relevant knowledge articles or choose to be transferred to a live agent. You can integrate this topic with the Virtual agent - Facebook messaging integration to enable chat using your messaging application.
 
     -   Get Help with an Order \(Template\)
 

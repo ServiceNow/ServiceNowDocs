@@ -54,7 +54,7 @@ The task template is created. You can use this template for Workplace services.
 
 [Create a Workplace case template]()
 
-[Smart Assessment for Workplace Case and Task]()
+[Smart Assessment for workplace cases and tasks]()
 
 [Automating seat assignment for new hires]()
 

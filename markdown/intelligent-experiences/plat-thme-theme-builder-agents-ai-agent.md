@@ -1,23 +1,27 @@
 ---
-title: Theme builder AI agent
+title: Theme Builder AI agent
 description: This ServiceNow Otto for Creator agent assists in creating and managing themes for user interfaces. It is intended for use by UI/UX designers, developers, and anyone responsible for maintaining the visual consistency of their organization's digital properties.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/plat-thme-theme-builder-agents-ai-agent.html
 release: australia
 topic_type: reference
 last_updated: "2026-08-14"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [ServiceNow Otto for Creator AI agents, ServiceNow Otto for Creator, AI agents library, AI assets, Enable AI experiences]
 ---
 
-# Theme builder AI agent
+# Theme Builder AI agent
 
 This ServiceNow Otto for Creator agent assists in creating and managing themes for user interfaces. It is intended for use by UI/UX designers, developers, and anyone responsible for maintaining the visual consistency of their organization's digital properties.
 
 ## Workflow
 
-1.  Open the Theme Builder tool.
-2.  
+1.  Open the ServiceNow Otto® panel.
+2.  Start the theme creation workflow by prompting ServiceNow Otto® to create a theme.
+3.  Provide brand assets or manually select theme colors.
+4.  Review the AI-generated theme.
+5.  Create the theme and open it in Theme Builder for further customization and publishing.
+
 <table><thead><tr><th>
 
 Field

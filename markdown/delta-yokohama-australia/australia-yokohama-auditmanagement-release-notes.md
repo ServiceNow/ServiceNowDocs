@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-yokohama-australia/australia-yokohama-auditmanagement-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 7
 breadcrumb: [Products combined by family]
 ---
@@ -100,11 +100,11 @@ Zurich
 
 </td><td>
 
--   **Audit Period Start and End Dates [\[Placeholder link text to key t\_CreateEngagement\]](https://www.servicenow.com/docs/access?context=t_CreateEngagement&family=zurich&ft:locale=en-US)**
+-   **[Audit period start and end dates](https://www.servicenow.com/docs/access?context=t_CreateEngagement&family=zurich&ft:locale=en-US)**
 
 Set audit period start and end dates directly on Engagement records to focus audits on specific time-frames. The system displays only indicator results that fall within your defined audit period, keeping the audit time-frame separate from the overall engagement time-frame. This helps you audit past or future periods without affecting the broader engagement timeline.
 
--   **[\[Placeholder link text to key unified-content-management\_0\]](https://www.servicenow.com/docs/access?context=unified-content-management_0&family=zurich&ft:locale=en-US)**
+-   **[Unified content management](https://www.servicenow.com/docs/access?context=unified-content-management_0&family=zurich&ft:locale=en-US)**
 
 Simplify the installation of pre-configured content packs with the new Unified content management icon in the Audit Workspace. Content Accelerator includes the Digital Operational Resilience Act \(DORA\) content pack, offering citations and authority documents for DORA compliance. Audit shared manager and Audit WS supervisor roles can access Content Accelerator.
 

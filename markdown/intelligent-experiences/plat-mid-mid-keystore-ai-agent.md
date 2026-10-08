@@ -1,6 +1,6 @@
 ---
 title: MID keystore AI agent
-description: This AI agent helps users diagnose and resolve MID Server keystore problems. This AI agent is designed for IT administrators who manage MID Server health.
+description: This AI agent helps IT administrators diagnose and resolve MID Server keystore problems and manage MID Server health.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/plat-mid-mid-keystore-ai-agent.html
 release: australia
@@ -12,7 +12,7 @@ breadcrumb: [MID Server AI agents, ServiceNow AI Platform AI agents, ServiceNow 
 
 # MID keystore AI agent
 
-This AI agent helps users diagnose and resolve MID Server keystore problems. This AI agent is designed for IT administrators who manage MID Server health.
+This AI agent helps IT administrators diagnose and resolve MID Server keystore problems and manage MID Server health.
 
 ## Workflow
 

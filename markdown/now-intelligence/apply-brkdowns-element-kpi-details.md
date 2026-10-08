@@ -22,7 +22,7 @@ Role required: None. However, upgraded instances may require pa\_viewer.
 
 You can select as many breakdowns as the indicator supports.
 
-For classic indicators, you can select up to two levels of breakdown, and you can select multiple elements on the first breakdown. [Breakdown matrix collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/create-breakdown-mapping.md) must be enabled on the indicator to have more than one breakdown. For classic formula indicators, breakdown matrix collection must be enabled on the contributing automated indicators.
+For classic indicators, you can select up to two levels of breakdown, and you can select multiple elements on the first breakdown. [Breakdown matrix collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/configure-breakdown-matrix.md) must be enabled on the indicator to have more than one breakdown. For classic formula indicators, breakdown matrix collection must be enabled on the contributing automated indicators.
 
 For indicators with Data snapshots enabled, you can select any number of breakdowns and elements.
 

@@ -7,7 +7,7 @@ release: australia
 product: AI Search
 classification: ai-search
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Internationalization support, Administer, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -28,7 +28,7 @@ You can configure AI Search to apply a global fallback locale to user searches. 
 
 \[Omitted image "diagram-global-fallback-locale.png"\] Alt text: Diagram showing ja user session language and en global fallback locale language.
 
-**Note:** The global fallback locale works best when you want to make all English-language records globally searchable. To make other sets of records globally searchable, see [Configure globally searchable knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/configure-global-srch-kb-articles.md).
+**Note:** The global fallback locale works best when you need to make all English-language records globally searchable. To make other sets of records globally searchable, see [Configure globally searchable knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/configure-global-srch-kb-articles.md).
 
 When you enable the global fallback locale option for search, AI Search determines the global fallback locale as follows:
 

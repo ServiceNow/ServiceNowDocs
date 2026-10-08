@@ -854,7 +854,7 @@ Facilities Move Management
 
 </td><td>
 
-[Roles installed with Facilities Move Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_RolesInstallWFacMoveMgmt.md)
+
 
 </td></tr><tr><td>
 
@@ -866,7 +866,7 @@ Facilities Service Management
 
 </td><td>
 
-[Roles installed with Facilities Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/r_RolesInstallWFacServMgmnt.md)
+
 
 </td></tr><tr><td>
 

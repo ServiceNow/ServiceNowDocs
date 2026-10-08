@@ -18,7 +18,7 @@ Set up the Ansible console as a Day 1 task before running Discovery and deployin
 
 ## Before you begin
 
-Set the deploymentID on the extra variables for Ansible job templates.
+All extra variables must have a variable called deploymentID. The value of this deploymentID is sent from the catalog request.
 
 Select the **Prompt on launch** option next to the variables section in the template. This action allows you to update or override the default extra\_vars with values from the catalog order form when launching the template.
 

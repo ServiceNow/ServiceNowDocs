@@ -36,7 +36,7 @@ You can configure the following functionality.
 
 2.  Set the following properties as desired.
 
-<table id="choicetable_q1v_qzc_nw"><tbody><tr><td id="d76569e92">
+<table id="choicetable_q1v_qzc_nw"><tbody><tr><td id="d76886e92">
 
 **Disable the ability to copy a change request**
 
@@ -44,7 +44,7 @@ You can configure the following functionality.
 
 Set **Enable Copy Change feature** \(**com.snc.change\_request.enable\_copy**\) to `false`.
 
-</td></tr><tr><td id="d76569e110">
+</td></tr><tr><td id="d76886e110">
 
 **Disable the ability to copy an attachment**
 
@@ -52,7 +52,7 @@ Set **Enable Copy Change feature** \(**com.snc.change\_request.enable\_copy**\) 
 
 Set **Copy attachments from originating change** \(**com.snc.change\_request.attach.enable\_copy**\) to `false`.
 
-</td></tr><tr><td id="d76569e131">
+</td></tr><tr><td id="d76886e131">
 
 **Disable the ability to copy the attachments from the change task**
 
@@ -62,7 +62,7 @@ This system property is located in the \[sys\_properties\] table.Set the **Enabl
 
  **Note:** If the ability to copy attachments is enabled, the attachment appears on the copy of the change request only after it is saved.
 
-</td></tr><tr><td id="d76569e155">
+</td></tr><tr><td id="d76886e155">
 
 **Configure attributes to be copied**
 
@@ -70,7 +70,7 @@ This system property is located in the \[sys\_properties\] table.Set the **Enabl
 
 Edit the list of values in **List of attributes \(comma-separated\) that will be copied from the originating change** \(**com.snc.change\_request.copy.attributes**\) to remove or add more attributes. For example, to prevent the **Assigned to** attribute from being copied, remove the `assigned_to` value from the list of attributes in the property text box.
 
-</td></tr><tr><td id="d76569e179">
+</td></tr><tr><td id="d76886e179">
 
 **Configure related lists to be copied**
 
@@ -85,7 +85,7 @@ This system property is located in the \[sys\_properties\] table. The following 
 
  **Note:** You can configure this property to control the copy functionality of the **Affected CIs**, **Impacted Services/CIs**, and **Change Tasks** related lists. You cannot add any other related list to this property.
 
-</td></tr><tr><td id="d76569e234">
+</td></tr><tr><td id="d76886e234">
 
 **Configure attributes of the default related lists to be copied**
 
@@ -105,6 +105,8 @@ These system properties are located in the \[sys\_properties\] table. Navigate t
     2.  Create a custom script include that extends ChangeUtils.
 
         For example, the ability to copy a change request is not available by default for standard changes. However, you can provide your own implementation of the isCopyRulesValid function in the ChangeUtils script include to override the default.
+
+        **Important:** The ChangeUtils script include is read-only. Do not edit it directly. Create a custom script include that extends ChangeUtils, and overrides the isCopyRulesValid function.
 
 
 **Parent Topic:**[Configuring Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/configure-change-management.md)

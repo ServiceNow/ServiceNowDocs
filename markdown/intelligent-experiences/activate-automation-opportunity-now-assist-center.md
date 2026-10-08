@@ -1,19 +1,25 @@
 ---
-title: Implement an automation opportunity from AI Admin Center
+title: Implement an automation opportunity from AI Admin Center \(Next Experience UI\)
 description: Deploy a matched AI agent or a new agent to automate a resolution for an identified automation opportunity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/activate-automation-opportunity-now-assist-center.html
 release: australia
 topic_type: task
-last_updated: "2026-07-30"
-reading_time_minutes: 3
+last_updated: "2026-10-02"
+reading_time_minutes: 4
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
 breadcrumb: [AI Agent Advisor in AI Admin Center, Use, AI Agent Advisor, AI Admin Center, Enable AI experiences]
 ---
 
-# Implement an automation opportunity from AI Admin Center
+# Implement an automation opportunity from AI Admin Center\(Next Experience UI\)
 
 Deploy a matched AI agent or a new agent to automate a resolution for an identified automation opportunity.
+
+**Important:** Lux is the new user experience for AI Admin Center. For more information on the Lux experience, see [AI Admin Center user experience \(Lux UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-admin-center-lux-user-experience.md).
+
+The Next Experience AI Admin Center workspace is being prepared for deprecation in the November store release and will no longer be supported. For more information on the Next Experience UI, see [AI Admin Center workspace \(Next Experience UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-workspace.md).
+
+In AI Admin Center version 6.1, the Next Experience and Lux user interfaces are both available.
 
 ## Before you begin
 
@@ -25,9 +31,11 @@ Follow these steps to implement an automation opportunity with AI Agent Advisor.
 
 Each automation opportunity includes a set of recommended resolution steps that describe how to automate the identified opportunity. AI Agent Advisor also maps each resolution step to an existing AI agent on your platform when a match is available. Review the details of an opportunity before deciding whether to deploy an agent for it.
 
+**Note:** This topic describes the AI Admin Center feature based on the Next Experience UI. If you're using the Lux user experience for AI Admin Center, see the Lux UI version of this topic.
+
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Admin Center** or **Workspaces** &gt; **AI Admin Center**.
+1.  Navigate to **All** &gt; **AI Admin Center** &gt; **AI Admin Center \(Legacy\)**.
 
 2.  In the Automation opportunitiessection of the home page or in the automation opportunities list tab, select an automation opportunity to view its details.
 
@@ -41,7 +49,7 @@ Each automation opportunity includes a set of recommended resolution steps that 
 
     \[Omitted image "ai-agent-advisor-matching-prebuilt-agent-2.png"\] Alt text: Automation opportunity details with a matching prebuilt AI agent.
 
-    For more information on finding an automation opportunity, see [View your automation opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-view-automation-opportunities.md).
+    For more information on finding an automation opportunity, see [View your automation opportunities \(Next Experience UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-view-automation-opportunities.md).
 
 3.  Select the **Example Records** tab to review records from the source table.
 

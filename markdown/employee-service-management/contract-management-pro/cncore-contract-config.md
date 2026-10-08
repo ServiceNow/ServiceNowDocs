@@ -1,6 +1,6 @@
 ---
 title: Create a contract configuration
-description: Define the contract repository where the contracts will be stored and map the data to be added to the contract or amendment document.
+description: Define the contract repository where the contracts will be stored and map the data to be added to the contract, amendment, or renewal document.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-contract-config.html
 release: australia
@@ -14,20 +14,20 @@ breadcrumb: [Configure, Contract Management Pro, Legal and Contract Operations, 
 
 # Create a contract configuration
 
-Define the contract repository where the contracts will be stored and map the data to be added to the contract or amendment document.
+Define the contract repository where the contracts will be stored and map the data to be added to the contract, amendment, or renewal document.
 
 ## Before you begin
 
-A contract template and a template rule that will pick the template when the user submits a contract or amendment request must exist. For more information, see [Configure templates for a contract and amendment request in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-document-templates.md) and [Configure contract template rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-config-template-rules.md).
+A contract template and a template rule that will pick the template when the user submits a contract, amendment, or renewal request must exist. For more information, see [Configure templates for a contract requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-document-templates.md) and [Configure contract template rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-config-template-rules.md).
 
-You can distinguish configurations for an amendment request from those for a new contract by using the **Request type** selection.
+You can distinguish configurations for a new contract, amendment and renewal requests from the **Request type** selection. You can add multiple request types, so a single configuration is applicable to more than one request type, such as New Contract and Renewal together.
 
 If you want the variables related to the contract request to be available in condition builder, add the contract request reference to your application table. For more information, see [Enable contract request fields in condition builders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-add-cmr-condtion-build.md)
 
 For a request:
 
--   The fields mapped in the contract configuration determine which values will be updated in the contract document.
--   For a contract request, a new contract repository record is created. According to field and variables mapping, the values are populated into the contract document.
+-   The fields mapped in the contract configuration determine which values will be updated in the contract repository.
+-   For a new contract and renewal request, a new contract repository record is created. According to field and variables mapping, the values are populated into the contract repository.
 -   For an amendment request, a new contract repository record isn’t created. Instead, the existing record is updated by overriding values for fields and variables that have a defined mapping. If a mapping doesn’t exist for a specific field, its value remains unchanged. For example, to update the contract end date through an amendment, the mapping for the end date field must exist.
 
     If you want to copy fields with empty values and override existing values in the contract document, select the **Allow empty value flag** when configuring the mappings.\[Omitted image "cncore-amend-allow-empty-value.png"\] Alt text: Set the flag Allow empty value for copying empty values
@@ -37,7 +37,7 @@ Role required: sn\_cm\_core.contract\_config
 
 ## About this task
 
-To add data to the contract documents, you have to map request table fields to repository fields.
+To add data to the contract repository, you have to map request table fields to repository fields.
 
 **Note:**
 
@@ -63,15 +63,15 @@ Third party contracts already have a default contract configuration in the base 
 
     The fields on the form change depending on the selection.
 
-<table id="choicetable_grz_dw5_yxb"><thead><tr><th align="left" id="d84369e214">
+<table id="choicetable_grz_dw5_yxb"><thead><tr><th align="left" id="d84609e219">
 
 Mapping type
 
-</th><th align="left" id="d84369e217">
+</th><th align="left" id="d84609e222">
 
 Fields available
 
-</th></tr></thead><tbody><tr><td id="d84369e223">
+</th></tr></thead><tbody><tr><td id="d84609e228">
 
 **Field mapping - Map fields from the request table to the fields in the contract repository table.**
 
@@ -85,7 +85,7 @@ Fields available
 
 **Note:** This option is available only when the **Request type** is set to Amendment in the contract configuration and it isn’t selected by default.
 
-</td></tr><tr><td id="d84369e271">
+</td></tr><tr><td id="d84609e276">
 
 **Template mapping- Map the template mappings of a contract template to the fields in the contract repository.**
 
@@ -98,7 +98,7 @@ Fields available
 
 **Note:** This option is available only when the **Request type** is set to Amendment in the contract configuration and it isn’t selected by default.
 
-</td></tr><tr><td id="d84369e311">
+</td></tr><tr><td id="d84609e316">
 
 **Template mapping- Map variables of record producer to the fields in the contract repository table.**
 

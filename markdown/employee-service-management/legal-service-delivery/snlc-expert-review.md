@@ -55,6 +55,8 @@ As a contract fulfiller, cancel a review task irrespective of its state.
 
 [Contract amendments]()
 
+[Contract renewals]()
+
 [Linking parent-child contracts]()
 
 [Signature workflow for a request]()
@@ -62,8 +64,6 @@ As a contract fulfiller, cancel a review task irrespective of its state.
 [Cancel a legal request]()
 
 [View and download a signed contract document]()
-
-[View contract requests]()
 
 [Manage Contract Management Pro for Legal Service Delivery]()
 

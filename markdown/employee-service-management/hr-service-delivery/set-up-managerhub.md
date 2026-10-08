@@ -22,6 +22,8 @@ After you install Manager Hub, you might encounter Restricted Caller Access \(RC
 Activate and run the Add Manager Hub user role scheduled job to assign the Manager Hub user role to new people managers. When the scheduled job runs, it considers delta changes and assigns the Manager Hub user role to new managers only.
 -   **[Configure important dates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/configure-imp-dates.md)**  
 Configure important dates, such as employee leaves, employee birthdays, or anniversaries, that you want to display on the **Upcoming team events** widget in Manager Hub.
+-   **[Configure manager insights for ServiceNow Otto for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/config-manager-insights.md)**  
+Configure the manager insights skill in ServiceNow Otto for HRSD to generate a summary of team data in Manager Hub.
 -   **[Configure team requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/configure-team-requests.md)**  
 Configure the type of team requests that you want to display on the **Requests opened by your team** widget in Manager Hub.
 -   **[Configure team data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/hr-service-delivery/configure-team-data.md)**  

@@ -7,7 +7,7 @@ release: australia
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-24"
 reading_time_minutes: 3
 breadcrumb: [Integrate VA with messaging apps, Integrate VA with other channels, Virtual Agent, Conversational Interfaces]
 ---
@@ -45,7 +45,7 @@ Select a tile to get started.
 [Design\[Omitted image "bus-manage.svg"\] Alt text: Use supported Virtual Agent features in Microsoft Teams conversations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-teams-other-features.md)
 
 </td></tr></tbody>
-</table>**Important:**
+</table>**Warning:**
 
 -   If your instance is in our GovtCommunityCloud \(GCC\) environment, see to [Integrating Virtual Agent with Microsoft Teams using the self-configured bot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/va-integ-teams-self-configured-bot.md) for more information.
 -   If your instance is in our Australia SPP \(ServiceNow Protected Platform\) environment, see [Enable Microsoft Teams integration in ServiceNow Protected Platform \(SPP\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/enable-msteams-integ-spp.md) for more information.

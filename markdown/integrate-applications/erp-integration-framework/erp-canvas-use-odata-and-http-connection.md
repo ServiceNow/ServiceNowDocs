@@ -1,5 +1,5 @@
 ---
-title: Connecting Zero Copy Connector for ERP to SAP using OData
+title: Connecting Zero Copy Connector for ERP to ERP using OData
 description: Extract data securely from ERP OData v2 APIs for use in remote tables and extraction tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-integration-framework/erp-canvas-use-odata-and-http-connection.html
@@ -13,7 +13,7 @@ keywords: [erp, canvas, erp canvas, model, integration, data hub, zero, copy, co
 breadcrumb: [Connecting to SAP, Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
-# Connecting Zero Copy Connector for ERP to SAP using OData
+# Connecting Zero Copy Connector for ERP to ERP using OData
 
 Extract data securely from ERP OData v2 APIs for use in remote tables and extraction tables.
 
@@ -23,7 +23,7 @@ OData v2 doesn't use snapshot isolation, so you might experience some data consi
 
 ## Providing OData access to users
 
-You must have an SAP system enabled for OData connections.
+You must have an ERP system enabled for OData connections.
 
 To give users OData access, see the following instructions on the SAP help site: [Back-End Server: Assign OData Service Authorization to Users](https://help.sap.com/doc/saphelp_ssb/1.0/en-US/6f/0e415370107d77e10000000a441470/content.htm?no_cache=true).
 

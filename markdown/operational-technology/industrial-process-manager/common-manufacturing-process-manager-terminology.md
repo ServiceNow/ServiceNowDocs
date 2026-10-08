@@ -1,6 +1,6 @@
 ---
 title: Industrial Process Manager common terminology
-description: Before getting started with the Industrial Process Manager, let's look at some common terminology and acronyms that are used in this content.
+description: Before getting started with the Industrial Process Manager, here are some common terminology and acronyms.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/operational-technology/industrial-process-manager/common-manufacturing-process-manager-terminology.html
 release: australia
@@ -14,7 +14,7 @@ breadcrumb: [Explore, Industrial Process Manager, Operational Technology]
 
 # Industrial Process Manager common terminology
 
-Before getting started with the Industrial Process Manager, let's look at some common terminology and acronyms that are used in this content.
+Before getting started with the Industrial Process Manager, here are some common terminology and acronyms.
 
 <table id="table_msb_ghs_gqb"><thead><tr><th>
 

@@ -7,7 +7,7 @@ release: australia
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-12"
 reading_time_minutes: 2
 breadcrumb: [Create a status report in Project Workspace, Manage projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -30,7 +30,7 @@ Role required: it\_pps\_admin, it\_project\_manager
 
 3.  From the Pages section, select **Create status report** and select **Import existing status report**.
 
-    By default, the create status report and create new from template options are visible, while the import existing status report option appears only if an old status report exists.
+    By default, the create status report and create new from template options are visible. The import existing status report option appears only if an old status report exists.
 
 4.  Select **Import** to import old status report to new reporting tool.
 

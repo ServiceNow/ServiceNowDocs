@@ -141,6 +141,8 @@ Enables access to the ServiceNow IDE. If false, access to the ServiceNow IDE is 
 -   Default value: true
 -   Location: Add the property to the System Property \[sys\_properties\] table
 
+**Important:** As of version 29.2.11, turning off this property also turns off access to ServiceNow Studio across the instance.
+
 </td></tr><tr><td>
 
 sn\_glider.fluent\_convert\_enabled

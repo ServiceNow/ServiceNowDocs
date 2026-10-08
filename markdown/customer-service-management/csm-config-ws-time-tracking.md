@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/csm-config-ws-time-tracking.html
 release: australia
 topic_type: concept
-last_updated: "2026-05-19"
+last_updated: "2026-09-16"
 reading_time_minutes: 3
 breadcrumb: [CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
@@ -64,13 +64,13 @@ The **My Timelog** list includes these default filter conditions:
 -   Start and end time: Yesterday's data appears by default.
 -   User: The current logged-in user. Agents can only view their own data.
 
-Agents can filter and sort the information in this list to see different views, such as all of the entries for a single record or the total time worked on a record. For more information, see the table descriptions in [Activity timer log components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/activity-timer-log-components.md).
+Agents can filter and sort the information in this list to see different views. For example, agents can filter to see all of the entries for a single record or the total time worked on a record. For more information, see the table descriptions in [Activity timer log components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/activity-timer-log-components.md).
 
 ## Plugin
 
-The activity timer log feature is available with the Activity Timer Reporting plugin \(sn\_activity\_timer\_reporting\). This plugin has a dependency on the Activity Timer plugin \(sn\_activity\_timer\_connected\).
+The activity timer log feature is available with the Activity Timer Reporting application \(sn\_at\_rpt\). This application has a dependency on the Activity Timer application \(sn\_at\).
 
-**Note:** Activate the activity timer log before use. It is not active by default.
+**Note:** Activate the activity timer log feature before use. It is not active by default.
 
 For more information about activating the plugin and configuring this feature, see [Configure the activity timer log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configure-activity-timer-log.md).
 
@@ -81,6 +81,7 @@ The activity timer log feature is available on these [record pages](https://raw.
 -   CSM default record page
 -   Front-line case page
 -   CSM Interaction record page
+-   Email interaction record page
 -   CSM voice interaction record page
 -   CSM centered chat interaction record page
 

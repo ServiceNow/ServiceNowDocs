@@ -125,7 +125,7 @@ For details on defining file-extension inclusion and exclusion filters for exter
 
 Binary files may be retrieved as content items, or as attachments found on content items. The exact behavior depends on the connector type.
 
-**Important:** The maximum file size for binary files is 25 MB. Keyword indexing processes up to the first 1MB of text. Use semantic search to index data containing between 1MB and 25 MB of text.
+**Important:** The maximum file size for binary files is 25 MB. Keyword indexing processes up to the first 1 MB of text. Use semantic search to index data containing between 1 MB and 25 MB of text.
 
 **Parent Topic:**[External Content Connectors reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/reference-ext-cont-connectors.md)
 

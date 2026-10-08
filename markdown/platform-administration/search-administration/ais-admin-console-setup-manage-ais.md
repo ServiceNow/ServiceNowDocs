@@ -53,15 +53,15 @@ You can modify existing search application configurations, or create and configu
 
 3.  In the application configuration landing page, assign a search profile.
 
-<table id="choicetable_s2z_q1p_f2c"><thead><tr><th align="left" id="d377557e293">
+<table id="choicetable_s2z_q1p_f2c"><thead><tr><th align="left" id="d378556e293">
 
 Option
 
-</th><th align="left" id="d377557e296">
+</th><th align="left" id="d378556e296">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d377557e302">
+</th></tr></thead><tbody><tr><td id="d378556e302">
 
 **Create a new search profile**
 
@@ -69,7 +69,7 @@ Procedure
 
 Select **Create new**.A new search profile is created automatically. You can rename it or use a different search profile. For more information about the search profile controls, see [AI Search Admin console Applications page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/ais-admin-console-applications.md). For a description of the search profile field values, see [Search Profile form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/search-profile-form-ais.md).
 
-</td></tr><tr><td id="d377557e342">
+</td></tr><tr><td id="d378556e342">
 
 **Link an existing search profile**
 
@@ -145,15 +145,15 @@ Select **Create new**.A new search profile is created automatically. You can ren
 
 4.  Define the search application configuration.
 
-<table id="choicetable_c42_rxp_f2c"><thead><tr><th align="left" id="d377557e747">
+<table id="choicetable_c42_rxp_f2c"><thead><tr><th align="left" id="d378556e747">
 
 Option
 
-</th><th align="left" id="d377557e750">
+</th><th align="left" id="d378556e750">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d377557e756">
+</th></tr></thead><tbody><tr><td id="d378556e756">
 
 **Create a new search application configuration**
 
@@ -161,7 +161,7 @@ Procedure
 
 Select **Create new**.A new search application configuration is created automatically. You can rename it or use a different configuration. For more information about the search application configuration controls, see [AI Search Admin console Applications page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/ais-admin-console-applications.md). For a description of the search application configuration field values, see [Search Application Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/search-app-config-form-ais.md).
 
-</td></tr><tr><td id="d377557e796">
+</td></tr><tr><td id="d378556e796">
 
 **Link an existing search application configuration**
 

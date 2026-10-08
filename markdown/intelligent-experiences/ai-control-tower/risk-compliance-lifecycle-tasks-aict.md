@@ -28,6 +28,7 @@ From the Playbook task page, an AI Steward or AI Asset Owner with the required r
 
 -   Impact assessment
 -   Risk assessment
+-   Control attestation
 
 **Related topics**  
 

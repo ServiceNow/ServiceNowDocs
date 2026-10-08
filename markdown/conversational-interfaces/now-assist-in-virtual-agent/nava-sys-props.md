@@ -90,22 +90,6 @@ Legacy
 
 </td></tr><tr><td>
 
-sn\_nowassist\_va.assistant\_personalization
-
-</td><td>
-
-Show or hide chat personalization when branding an assistant.-   Choices: `AGENT_PERSONA`, `TONE_RESPONSE_LEN`, `TONE_RESPONSE_LEN_PERSONA`
--   Type: Choice list
--   Value: `AGENT_PERSONA` \(This is the default that keeps personalization hidden.\)
-
- To show tone and response length, remove `AGENT_PERSONA` from the **Value** field and replace it with `TONE_RESPONSE_LEN`. To show tone, response length, and persona, remove `AGENT_PERSONA` from the**Value** field and replace it with `TONE_RESPONSE_LEN_PERSONA`.
-
-</td><td>
-
-Legacy and premium
-
-</td></tr><tr><td>
-
 sn\_nowassist\_va.display\_default\_catalog\_image
 
 </td><td>

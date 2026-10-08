@@ -20,6 +20,8 @@ These properties are available for the Software Asset Management application.
 
 To access these properties, navigate to **All** &gt; **Software Asset** &gt; **Administration** &gt; **Properties**.
 
+You can also access the SAM properties using the Configuration Console for Software Asset Management. For more details about the Configuration Console for Software Asset Management, see [Configuration Console for Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/config-console-sam.md).
+
 <table id="table_ygc_2lb_dbb"><thead><tr><th>
 
 Property
@@ -324,4 +326,13 @@ Sets the maximum number of times the **SAM - Label Spend Transactions** schedule
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/references.md)
+
+**Related topics**  
+
+
+[Configuration Console for Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/config-console-sam.md)
+
+[Configuration Console overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/config-console-overview.md)
+
+[Configure Software Asset Management using the Configuration Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/configure-sam-from-config-console.md)
 

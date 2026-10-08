@@ -117,7 +117,7 @@ User Profile
 
 </td><td>
 
-Displays user profile information. To learn more about user profile, see .
+Displays user profile information. To learn more about user profile, see [User Profile widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/user-profile-widget.md).
 
 </td></tr></tbody>
 </table>## What to explore next

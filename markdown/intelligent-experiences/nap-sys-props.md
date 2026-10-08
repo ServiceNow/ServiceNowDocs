@@ -1,6 +1,6 @@
 ---
-title: Now Assist panel system properties
-description: Use system properties to customize Now Assist panel. Some properties are available on a system properties form, but some lesser-used properties are available only from the System Property \[sys\_properties\] table.
+title: ServiceNow Otto panel system properties
+description: Use system properties to customize ServiceNow Otto panel. Some properties are available on a system properties form, but some lesser-used properties are available only from the System Property \[sys\_properties\] table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/nap-sys-props.html
 release: australia
@@ -10,9 +10,9 @@ reading_time_minutes: 1
 breadcrumb: [AI Admin Hub reference, AI Admin Hub, Enable AI experiences]
 ---
 
-# Now Assist panel system properties
+# ServiceNow Otto panel system properties
 
-Use system properties to customize Now Assist panel. Some properties are available on a system properties form, but some lesser-used properties are available only from the System Property \[sys\_properties\] table.
+Use system properties to customize ServiceNow Otto panel. Some properties are available on a system properties form, but some lesser-used properties are available only from the System Property \[sys\_properties\] table.
 
 |Property|Description|
 |--------|-----------|

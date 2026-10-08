@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-zurich-australia/australia-zurich-impact-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 18
 breadcrumb: [Products combined by family]
 ---
@@ -340,7 +340,7 @@ ServiceNow Otto is the new AI experience brand. This change is reflected in the 
 
 Optimization accelerators catalog displays across dashboards, catalog filter and navigation, accelerator creation flows, and accelerator detail views inline with the other accelerator catalogs Flash cards now reflect the Optimization accelerator catalog category, and dashboards include platform optimization usage and consumption metrics.
 
--   **[Track Platform Health trends](https://www.servicenow.com/docs/access?context=scan-engine-diagnostic-dashboards&family=australia&ft:locale=en-US)**
+-   **[\[Placeholder link text to key bundle-ipact.scan-engine-diagnostic-dashboards\]](https://www.servicenow.com/docs/access?context=scan-engine-diagnostic-dashboards&family=australia&ft:locale=en-US)**
 
 Open the Real-time Messaging panel directly alongside the development workspace; a slide-in side panel that stays visible until dismissed. Findings are organized into tabs by severity level, each showing a total count, and ordered by impact to the instance.Hover over the Level of Finding field in the findings table and definition records now displays a tooltip explaining Act, Recommend, Suggest, and Review.Select and open a filtered back-end list view for donut chart segments.
 

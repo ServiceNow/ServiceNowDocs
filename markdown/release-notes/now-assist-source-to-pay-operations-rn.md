@@ -8,7 +8,7 @@ topic_type: topic
 last_updated: "2026-03-12"
 reading_time_minutes: 5
 keywords: [AI agents, Agentic AI, AI agents, Agentic AI, AI agents, Agentic AI]
-breadcrumb: [Now Assist and agentic AI release notes, Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
+breadcrumb: [ServiceNow Otto and agentic AI release notes, Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
 
 # ServiceNow Otto for Source-to-Pay Operations release notes
@@ -31,7 +31,7 @@ Now Assist introduced AI on the platform. As that experience has evolved, there'
     Install for ServiceNow Otto for Sourcing and Procurement Operations \(SPO\), ServiceNow Otto for Supplier Lifecycle Operations \(SLO\) and ServiceNow Otto for Accounts Payable Operations \(APO\), and ServiceNow Otto for Purchase Order Management \(POM\) by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
-**Parent Topic:**[Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/now-assist-rn-landing.md)
+**Parent Topic:**[ServiceNow Otto and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/now-assist-rn-landing.md)
 
 ## Australia Early Availability
 

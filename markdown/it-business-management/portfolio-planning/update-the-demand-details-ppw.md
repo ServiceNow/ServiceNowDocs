@@ -34,6 +34,12 @@ Role required: it\_demand\_user, it\_demand\_manager
 
     For information on the field values, see [Demand form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/demand-form-ppw.md).
 
-6.  Select **Save**.
+6.  Change the form view to view the demand details in a different layout.
+
+    1.  Select the Additional actions icon.
+
+    2.  Select **View** and select a view from the available views.
+
+7.  Select **Save**.
 
 

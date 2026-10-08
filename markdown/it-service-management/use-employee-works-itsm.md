@@ -1,18 +1,18 @@
 ---
-title: Use ITSM Employee Slate for Moveworks
-description: View active outages and degradations for your services using the Service Health Broadcast widget. Ask Otto for a summary of current issues. Use the Tech Lounge widget to check in for walk-in help or book appointments. You can also check in conversationally by chatting with Otto.
+title: Use Employee Slate for ITSM
+description: View active outages and degradations using the Service Health Broadcast widget. Ask Otto for a summary of current issues, check in for walk-in help, or book appointments using the Tech Lounge widget.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/use-employee-works-itsm.html
 release: australia
 topic_type: task
-last_updated: "2026-08-13"
+last_updated: "2026-09-16"
 reading_time_minutes: 3
-breadcrumb: [ITSM Employee Slate for Moveworks, IT Service Management]
+breadcrumb: [Employee Slate for ITSM, IT Service Management]
 ---
 
-# Use ITSM Employee Slate for Moveworks
+# Use Employee Slate for ITSM
 
-View active outages and degradations for your services using the Service Health Broadcast widget. Ask Otto for a summary of current issues. Use the Tech Lounge widget to check in for walk-in help or book appointments. You can also check in conversationally by chatting with Otto.
+View active outages and degradations using the Service Health Broadcast widget. Ask Otto for a summary of current issues, check in for walk-in help, or book appointments using the Tech Lounge widget.
 
 ## Before you begin
 
@@ -31,31 +31,35 @@ The following status values classify entries in the Service Health Broadcast wid
 
 ## Procedure
 
-1.  Navigate to the ITSM Employee Slate for Moveworks homepage.\[Omitted image "employeeworks-landing-page.png"\] Alt text: ITSM Employee Slate for Moveworks landing page
+1.  Navigate to the Employee Slate for ITSM homepage.\[Omitted image "employeeworks-landing-page.png"\] Alt text: Landing page showing Service Health Broadcast banner
 
     The Service Health Broadcast banner shows active outages, active maintenance, and degradations at the highest business criticality tier and displays for all users. The banner only displays the three most recently updated events.
 
-2.  Select **View details**.\[Omitted image "employeeworks-all-services.png"\] Alt text: All services for ITSM Employee Slate for Moveworks that has the Service health and Scheduled maintenance tabs
+2.  Select **View details**.\[Omitted image "employeeworks-all-services.png"\] Alt text: All services page with Service health and Scheduled maintenance tabs
 
     The **All services** page displays the service status for outages, degradations, the ones under maintenance, and the operational status for the services.
 
-3.  Select a service to drill down into the details for ITSM Employee Slate for Moveworks.
+3.  Select a service to drill down into the details for Employee Slate for ITSM.
 
-    \[Omitted image "employeeworks-service-details.png"\] Alt text: Drilldown into a service in ITSM Employee Slate for Moveworks
+    **Note:** Subscribe to service status updates to be informed on the status of service, such as when an outage or degradation occurs. When you subscribe to service status updates, you receive an email confirming that you've subscribed to those updates.
 
-4.  From the Servicehealth banner in the ITSM Employee Slate for Moveworks homepage, select **Ask Otto** to open a chat that automatically summarizes active outages for services you can access.
+    \[Omitted image "employeeworks-service-details.png"\] Alt text: Service details page showing status and updates
+
+4.  From the Servicehealth banner in the Employee Slate for ITSM homepage, select **Ask Otto** to open a chat that automatically summarizes active outages for services you can access.
 
     **Note:** Make sure the Outage lookup plugin is installed to view the Ask Otto conversations.
 
-    \[Omitted image "employeeworks-ask-otto.png"\] Alt text: Ask Otto chat in ITSM Employee Slate for Moveworks
+    \[Omitted image "employeeworks-ask-otto.png"\] Alt text: Otto chat interface showing outage summary
 
-5.  Add the **Tech lounge** quick link to the ITSM Employee Slate for Moveworks homepage.
+5.  Add the **Tech lounge** quick link to the Employee Slate for ITSM homepage.
 
     For more information, see [Configure EmployeeWorks Web App](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/empworks-configure-employee-slate-moveworks.md).
 
 6.  From the homepage, select the **Tech lounge** quick link.
 
     The Tech lounge page shows your selected location, its hours of operation, and the current walk-in queue.
+
+    **Note:** Your administrator can rename **Tech lounge** to match the name your organization uses. When the name is changed, the labels on this page show that name instead.
 
 7.  Select **Change location** to pick a different Tech lounge location.
 
@@ -70,6 +74,8 @@ The following status values classify entries in the Service Health Broadcast wid
 9.  After you check in, view your position in the queue and your estimated wait time on the confirmation screen.
 
     The queue count and wait time update automatically as employees check in and are helped, without requiring a page refresh.
+
+    Email notifications keep you updated on your walk-in visit — technician assignment, spot status, and queue position. Each notification links to your tech lounge visit.
 
 10. To schedule a visit instead of walking in, select **Book appointment**, choose an in-person or remote appointment, then select a date and an available time slot.
 

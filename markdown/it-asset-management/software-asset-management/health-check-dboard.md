@@ -46,7 +46,7 @@ Number of checks available for the following suites:-   SQL Server Config
 -   SQL Server CMDB
 -   Windows Server CMDB
 -   Windows Server Config
--   Database Server - Oracle
+-   Oracle Database
 -   Java - Oracle
 -   WebLogic Server - Oracle
 -   Microsoft 365
@@ -81,7 +81,7 @@ The number of open records for each of the following suites:-   SQL Server Confi
 -   SQL Server CMDB
 -   Windows Server CMDB
 -   Windows Server Config
--   Database Server - Oracle
+-   Oracle Database
 -   Java - Oracle
 -   WebLogic Server - Oracle
 -   Microsoft 365

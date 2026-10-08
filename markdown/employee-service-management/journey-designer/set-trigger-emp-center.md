@@ -9,7 +9,7 @@ classification: journey-designer
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Generate onboarding ramp-up plan, AI in Journey designer, Use, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Generate onboarding ramp-up plan, AI in Journey designer, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Set Onboarding ramp up trigger to use Employee Center portal
@@ -42,6 +42,4 @@ Role required: admin
 
 6.  Select **Update**.
 
-
-**Parent Topic:**[Generate onboarding ramp-up plan agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/onboarding-ramp-up-plan-agentic-wf.md)
 

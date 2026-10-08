@@ -18,16 +18,17 @@ Learn more about Contract Management Pro for Legal Service Delivery through a sa
 
 ## Contract Management Pro for Legal Service Delivery overview
 
-With the Legal Contract Management Pro for Legal Service Delivery, you can configure and automate the legal contract lifecycle by creating contract document templates, clauses, and clause variations. The legal contract lifecycle enables you to submit, review, finalize, and manage legal contract and amendmentrequests. The integration also supports e-signatures and external storage systems.
+The ServiceNow® Contract Management Pro for Legal Service Delivery enables you to configure and automate the legal contract lifecycle by creating contract document templates, clauses, and clause variations. The legal contract lifecycle enables you to submit, review, finalize, and manage legal contract, amendment, and renewal requests. It also supports e-signatures, wet signatures, offline signatures, and external storage systems.
 
 ## Contract Management Pro for Legal Service Delivery users
 
 |User|Description|
 |----|-----------|
-|Contract Management Pro for Legal Service Delivery configurator|Contract Management Pro for Legal Service Delivery configurator can configure contract templates, external systems, and configuration rules.|
-|Contract Management Pro for Legal Service Delivery administrator|Contract Management Pro for Legal Service Delivery administrator manages contract records, user roles, and system configurations.|
-|Contract Management Pro for Legal Service Delivery fulfiller|Contract Management Pro for Legal Service Delivery fulfiller works on legal requests.|
-|Legal User|Legal user submits legal and amendment requests and track their progress.|
+|Contract Management Pro for Legal Service Delivery configurator|Configures contract templates, external systems, and configuration rules.|
+|Contract Management Pro for Legal Service Delivery administrator|Manages contract records, user roles, and system configurations.|
+|Contract Management Pro for Legal Service Delivery fulfiller|Works on legal requests.|
+|Contract Management Pro for Legal Service Delivery owner|Manages lifecycle of legal contracts|
+|Legal User|Legal user initiates and tracks legal contract, amendment, and renewal requests.|
 |Contract user|Contract user initiates and tracks a contract request.|
 |Contract fulfiller|Contract fulfiller work on contract request and initiates actions while fulfilling an assigned contract execution.|
 
@@ -123,7 +124,7 @@ Submit, review, finalize, and manage legal contract requests. The legal departme
 
 </td><td>
 
-[Contract Management Pro for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-expl-legal-contracts.md)
+[Use Contract Management Pro for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-use-sn-legal-cont-landing.md)
 
 </td><td>
 
@@ -181,6 +182,19 @@ Initiate and manage amendment requests.
 
 </td></tr><tr><td>
 
+Initiate and manage renewal requests. Keeping negotiation, review, approval, and signature in one place lets teams act ahead of expiration instead of reacting at the deadline.
+
+</td><td>
+
+[Contract renewals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-renewal-landing.md)
+
+</td><td>
+
+-   Legal user and contract user
+-   Contract Management Pro for Legal Service Delivery fulfiller
+
+</td></tr><tr><td>
+
 Track and manage contract obligations to help ensure compliance and minimize risks.
 
 </td><td>
@@ -212,9 +226,6 @@ To learn more about configuring and using , see:
 -   -   [Non-disclosure agreement requests]()
 -   [Third-party contract review requests]()
 -   [Contract Management Pro for Legal Service Delivery reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-ref-sn-legal-contracts.md)
-
--   **[Contract Management Pro for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-expl-legal-contracts.md)**  
-Contract Management Pro for Legal Service Delivery enables you to submit, review, finalize, and manage legal contract requests. The legal department can manage and process these submitted legal requests for contracts from a centralized location.
 
 **Parent Topic:**[Contract Management Pro for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-mgmt-pro-landing-page.md)
 

@@ -26,8 +26,6 @@ Role required: sn\_eam.enterprise\_admin or sn\_eam.enterptrise\_asset\_manager
 
 2.  Select **New**.
 
-    The Create New Stockroom page opens.
-
 3.  On the form, fill in the fields.
 
 <table id="table_dhx_jt2_psb"><thead><tr><th>
@@ -115,6 +113,14 @@ Exclude from service locations
 </td><td>
 
 Option to exclude the stockroom from all service locations in which you are completing work orders or work order tasks.
+
+</td></tr><tr><td>
+
+Warehouse tasks required
+
+</td><td>
+
+Option to enable the Asset pick task and Asset put away task for the stockroom.
 
 </td></tr><tr><td>
 

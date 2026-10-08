@@ -16,13 +16,15 @@ This AI specialist discovers service infrastructure from application service can
 
 ## Workflow
 
-The agent helps users complete tasks related to service map creation ai specialist.
+The agent helps users complete tasks related to service map creation.
 
-1.  Call the Get ML Candidate Full Data tool with the candidate number from the objective. This returns candidate sys\_id, candidate name, server list with host names, and IPs.
+1.  Call the Get ML Candidate Full Data tool with the candidate number. This returns candidate sys\_id, candidate name, server list with host names, and IPs.
 2.  Call the Get Candidate Running Processes tool with the same candidate number. This returns the running process details, AFP groups, connection data, and key ports.
-3.  Determine the suggested\_name: a concise, business-meaningful service name derived from the identified technology.
-4.  Create and save the service topology.
-5.  Inform the user of all changes.
+3.  Perform a noise check. Skip candidates flagged as monitoring clients, security clients, or operating system processes.
+4.  Determine the suggested\_name using this priority order: Service Fingerprints \(SFPs\) if the candidate matches an Application Service Fingerprint in the Discovery Content Library; strong process evidence if no fingerprint exists; technology inference otherwise.
+5.  Check for existing service topology. If a topology already exists for this candidate, skip creation.
+6.  Create and save the service topology. Service maps are set to non-operational by default to allow administrator review before activation.
+7.  Inform the user of all changes.
 
 <table><thead><tr><th>
 

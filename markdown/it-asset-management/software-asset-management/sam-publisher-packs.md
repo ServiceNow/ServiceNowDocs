@@ -78,7 +78,7 @@ Software Asset Management Professional for Oracle \(com.snc.samp.oracle\)
 
 </td><td>
 
-Provides additional capabilities to reconcile Oracle software, such as Oracle DB Server.
+Provides additional capabilities to reconcile Oracle software, such as Oracle Database.
 
 </td></tr><tr><td>
 

@@ -66,7 +66,7 @@ Tools
 
 Get user tasks
 
-Identify next steps
+Identify average completion time
 
 Plan work
 

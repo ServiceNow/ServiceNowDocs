@@ -8,7 +8,7 @@ product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
 topic_type: concept
 last_updated: "2026-01-23"
-reading_time_minutes: 17
+reading_time_minutes: 18
 breadcrumb: [Using ServiceNow Otto for Virtual Agent, ServiceNow Otto for Virtual Agent, Conversational Interfaces]
 ---
 
@@ -132,6 +132,16 @@ Support contact information such as phone numbers and email addresses are listed
 -   A document was uploaded and you choose to preview the document.
 -   A source is available and you choose to select and view the source content.
 
+</td></tr><tr><td>
+
+7. Voice input
+
+</td><td>
+
+If voice input is enabled, select the microphone icon and speak your message. Your speech is transcribed and appears in the input bar in real time.When you speak in the default language selected in your profile, your speech is transcribed into text in that same language.
+
+ **Note:** Voice input must be enabled by an administrator before it is available. Administrators can enable or disable voice input at the instance level. Individual users can also turn voice input on or off.
+
 </td></tr></tbody>
 </table>## Chatting with Virtual Agent
 
@@ -164,7 +174,11 @@ Responses generated in ServiceNow Otto for Virtual Agent can come from a combina
 -   People
 -   Extended entities and additional records
 
-**Note:** Q&amp;A Knowledge Base and external content connection citations also appear within the expandable **Show sources** option.
+**Note:**
+
+In premium chat with Microsoft Teams, citations are clickable, providing direct links to the source articles, records, or catalog items. Additionally, the sources are displayed at the bottom alongside the citations. Q&amp;A Knowledge Base and external content connection citations also appear within the expandable **Show sources** option.
+
+In standard chat, citations aren't clickable. Instead, citations in synthesized responses are linked to the sources listed at the bottom of the message.
 
 ## Response feedback
 

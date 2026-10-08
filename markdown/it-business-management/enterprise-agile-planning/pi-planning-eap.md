@@ -43,6 +43,8 @@ As you go bottom to top in an Agile structure, the cards are grouped as follows 
 
     If Planning Interval \(PI\) is the planning calendar configured for ART, the vertical lanes represent the Sprints within the selected PI.
 
+    The ART Planning board doesn't display Agile Teams whose planning methodology is Kanban, because Kanban teams don't use iterations. A message that you can dismiss tells you that some teams might not be displayed. For more information, see [Scrum and Kanban teams in an ART in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/scrum-and-kanban-teams-in-eap.md).
+
 -   Solution Train: Horizontally grouped by child ARTs and vertical lanes represent the state of the item.
 -   Portfolio: Horizontally grouped by child Solution Trains and vertical lanes represent the state of the item.
 -   If the **Dependency** toggle is enabled, you can visualize the dependencies between work items.

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/purch-order-exception-form.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [purchase order exception form, fields in purchase order exception form]
 breadcrumb: [Reference, Purchase Order Management, Source-to-Pay Operations, Finance and Supply Chain]
@@ -157,6 +157,8 @@ The Purchase order exception form includes tabs that store exception information
 [Delivery plan change form]()
 
 [Create new purchase order exception form]()
+
+[Purchase order confirmation form]()
 
 [Master data tables for Purchase Order Management]()
 

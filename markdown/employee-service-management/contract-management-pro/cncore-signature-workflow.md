@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-06-24"
 reading_time_minutes: 11
 audience: [sn\_cm\_core.contract\_fulfiller, sn\_cm\_core.contract\_user]
-breadcrumb: [Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Common contract request tasks, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Signature workflow for a contract request
@@ -247,5 +247,5 @@ Resend signature request functionality enables contract fulfillers to manually t
 -   **[Cancel the signature process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-cancel-a-manual-signature.md)**  
 Cancel a signature process for contract documents that have been sent to signatories.
 
-**Parent Topic:**[Using Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-use-cmpro.md)
+**Parent Topic:**[Common contract request tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-common-contract-req-tasks.md)
 

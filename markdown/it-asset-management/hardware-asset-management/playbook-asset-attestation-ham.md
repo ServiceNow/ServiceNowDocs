@@ -9,6 +9,7 @@ classification: hardware-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [Asset attestation, Attestation playbook, Attestation schedule]
 breadcrumb: [Audit assets using Asset Attestation, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
@@ -18,7 +19,7 @@ The Create asset attestation playbook provides detailed, step-by-step instructio
 
 The Create asset attestation playbook includes multiple lanes on the left-hand pane, each corresponding to the different activities in the asset attestation process. Each lane includes status indicators that display the current state of each activity.
 
-Once you mark an activity in a lane as complete, you can move on to the next lane. You can return to the playbook anytime later to finish any pending activities. As you complete each lane, the status updates in the left-hand panel. The final activity in the playbook involves reviewing the attestation schedule details that you provided and marking that activity as complete.
+After you mark an activity in a lane as complete, you can move on to the next lane. You can return to the playbook anytime later to finish any pending activities. As you complete each lane, the status updates in the left-hand panel. The final activity in the playbook involves reviewing the attestation schedule details that you provided and marking that activity as complete.
 
 -   **[Create an asset attestation or a schedule using the playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/create-attestation-using-playbook.md)**  
 Create a one-time asset attestation or a schedule for recurring attestations to verify if your serialized hardware assets are in use, using the playbook.

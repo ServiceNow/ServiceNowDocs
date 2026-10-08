@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/australia/application-developme
 release: australia
 topic_type: task
 last_updated: "2026-08-06"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Use, ServiceNow Lux Lab for VS Code extension, Building pro-code applications, Developing your application, Building applications]
 ---
 
@@ -16,7 +16,7 @@ Add pages to the navigation to make them accessible from other pages, such as a 
 
 ## About this task
 
-Some pages are added to the navigation by default when you create them. For pages that aren't added automatically added to the navigation, use the following procedure to make them display and accessible via other pages.
+Some pages are added to the navigation by default when you create them. For pages that aren't added automatically to the navigation, use the following procedure to make them display and accessible via other pages.
 
 The following procedure describes how to complete this task manually. You can also complete the task using agentic development tools, such as Claude Code.
 
@@ -80,7 +80,7 @@ ServiceNow SDK
 
 </td><td>
 
-4.10 or later
+4.12.1 or later
 
 </td><td>
 
@@ -115,6 +115,25 @@ ServiceNow instance
 5.  Add the following lines of code to the application.js file with the page name and target path that you want to add.
 
     **Note:** To add pages to L2, include an `l2Nav: [{icon, title, action}]` array on the L1 page you pass to `addNavItem`. The page accepts \{icon, title, action, l2Nav?, l3Nav?\}.
+
+    A navigation entry has the following format:
+
+    ```
+    setup(ctx) {
+      const items = [
+        {
+          icon: 'home',
+          title: i18n.getMessage('Home'),
+          action: {type: 'navigate', path: '/home'}
+        },
+        {
+          icon: 'list',
+          title: i18n.getMessage('Incidents'),
+          action: {type: 'navigate', path: '/incidents'}
+        }
+      ];
+    }
+    ```
 
     |Action|Code to add in application.js|
     |------|-----------------------------|
