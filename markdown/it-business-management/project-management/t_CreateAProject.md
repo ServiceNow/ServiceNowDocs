@@ -7,7 +7,7 @@ release: australia
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-08"
 reading_time_minutes: 6
 breadcrumb: [Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -31,10 +31,10 @@ You can create a project from the Projects list or from the Project Workspace. Y
 After you start the project:
 
 -   The read-only **Actual start date** field of the project is populated with the planned date.
--   If a task or set of tasks are scheduled to start immediately upon project start \(meaning that their time constraints are set to **Start ASAP** and they have no other start dependencies\), the actual start dates of those tasks also get populated with the planned date.
+-   If a task or set of tasks are scheduled to start immediately upon project start, their actual start dates also get populated with the planned date. This applies when their time constraints are set to **Start ASAP** and they have no other start dependencies.
 -   The planned start dates of all other tasks adjust accordingly based on the time you started the project. Their new planned start dates depend on several factors, including dependent relationships with other tasks and the duration for each task.
 
-    **Note:** Once a project is in the **Work in Progress** state, it does not mean that the state of every task will start updating automatically based on planned start date. Other than the project tasks that you schedule to start **ASAP** when the project starts, project tasks are not started automatically. Continue to manage the project and change the state of each task to **Work in Progress**.
+    **Note:** Once a project is in the **Work in Progress** state, it does not mean that the state of every task will start updating automatically based on planned start date. Other than the project tasks that you schedule to start **ASAP** when the project starts, project tasks aren't started automatically. Continue to manage the project and change the state of each task to **Work in Progress**.
 
 
 You can also use the multi-currency feature to create a project in a local currency different from your functional currency. You must enable the PPM Standard Multicurrency plugin \(com.snc.ppm\_multicurrency\) and switch to the Project Currency view for the additional fields in the **Financials** tab of the Project form. For more information, see [Multi-currency in project financials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/multicurrency-pps.md).
@@ -43,15 +43,15 @@ You can also use the multi-currency feature to create a project in a local curre
 
 1.  Create a project in any of the following ways.
 
-<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d265110e150">
+<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d271848e150">
 
 Location
 
-</th><th align="left" id="d265110e153">
+</th><th align="left" id="d271848e153">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d265110e159">
+</th></tr></thead><tbody><tr><td id="d271848e159">
 
 **From the Projects list**
 
@@ -59,7 +59,7 @@ Steps
 
 Navigate to **All** &gt; **Project** &gt; **Projects** &gt; **Create New**.
 
-</td></tr><tr><td id="d265110e185">
+</td></tr><tr><td id="d271848e185">
 
 **From the project workspace**
 
@@ -91,7 +91,7 @@ Associate monetary and non-monetary benefit plans, so that you can capture the p
 -   **[Create a project cost plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/t_CreateAProjectCostPlan.md)**  
 Create a cost plan to specify the unit cost of a cost type for a fiscal period. Project cost plans capture the costs of projects.
 -   **[Recalculating costs of all resource plans in a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/recalculate-resource-costs-of-a-project.md)**  
-Recalculate the resource costs of all resource plans in a project whenever the hourly rates change in the associated rate model so that the plan costs are up to date.
+Recalculate resource costs for all resource plans in a project when hourly rates change in the associated rate model.
 -   **[Create an expense line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/t_CreateAExpenseLine.md)**  
 A project expense line is cost associated with a specific source, such as a user, fixed asset, or a CI. Expense lines are part of project cost plans.
 -   **[Create and manage waterfall projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/c_CreateAndManageWaterfallProjects.md)**  
@@ -101,7 +101,7 @@ Update the project and make adjustments in fields to handle scope, cost, and sch
 -   **[Copy a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/t_CopyAProject.md)**  
 Another option for creating a project is to copy an existing project with all its tasks and relationships. After you specify the start date for the copy, the system adjusts all task start and end dates automatically.
 -   **[Assign a project schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/t_UseAProjectSchedule.md)**  
-Without an assigned schedule, a project calculates a day as a full 24 work hours. To schedule tasks by a more realistic work day, assign a schedule to the project. If the schedules provided in the base system do not suit your needs, define a new one.
+Assign a schedule to a project so that task durations and dates reflect real working days and hours.
 -   **[Create baseline of a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/t_CreateAProjectBaseline.md)**  
 Create a schedule baseline and financial baseline of a project. A schedule baseline captures planned dates of all tasks and milestones at a particular moment in time. A financial baseline captures benefit and financial metric information \(snapshot of cost plan, benefit plan, and project-level financial metrics\) at a particular moment in time.
 -   **[Create a milestone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/t_CreateMilestones.md)**  

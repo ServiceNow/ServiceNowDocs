@@ -26,9 +26,9 @@ This approach differs from other data synchronization methods like Instance Data
 
 ## ServiceNow Connector — Oracle instance limitation
 
-When using the ServiceNow Connector with Workflow Data Fabric or Zero Copy Connectors, the remote ServiceNow instance must be running on a supported database platform. Connecting to a ServiceNow instance that uses Oracle as its underlying database is not supported. Queries that include tables from an Oracle-backed ServiceNow instance will fail.
+When using the ServiceNow Connector with Workflow Data Fabric or Zero Copy Connectors, the remote ServiceNow instance must be running on a supported database platform. Connecting to a ServiceNow instance that uses Oracle as its underlying database is not supported. Queries that include tables from an Oracle-backed ServiceNow instance fail.
 
-**Note:** This limitation applies specifically to ServiceNow to ServiceNow connectivity through the ServiceNow Connector. Workflow Data Fabric and Zero Copy Connectors continue to support direct connections to external Oracle databases through the Oracle Connector.
+**Warning:** This limitation applies specifically to ServiceNow to ServiceNow connectivity through the ServiceNow Connector. Workflow Data Fabric and Zero Copy Connectors support direct connections to external Oracle databases through the Oracle Connector.
 
 ## Service account security model
 

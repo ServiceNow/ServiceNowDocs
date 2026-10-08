@@ -1,6 +1,6 @@
 ---
 title: Activate Order Management for Business Locations
-description: Activate the Order Management for Business Location plugin to manage the complete order lifecycle.
+description: Activate the Order Management for Business Locations plugin to manage the complete order lifecycle.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/activate-order-management-for-business-locations.html
 release: australia
@@ -12,7 +12,7 @@ breadcrumb: [Business location plugin, Activate plugins, Configure Service Model
 
 # Activate Order Management for Business Locations
 
-Activate the Order Management for Business Location plugin to manage the complete order lifecycle.
+Activate the Order Management for Business Locations plugin to manage the complete order lifecycle.
 
 ## Before you begin
 
@@ -28,7 +28,7 @@ The following items are installed with Order Management for Business Locations:
 -   Scheduled jobs
 -   Tables
 
-For more information, see [Roles and responsibilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/personas-roles-and-tables-post-integration.md).
+For more information, see [Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/personas-roles-and-tables-post-integration.md).
 
 ## Procedure
 

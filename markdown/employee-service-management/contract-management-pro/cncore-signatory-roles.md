@@ -94,6 +94,8 @@ Controls the visibility of the **Role** field in internal signatory rules, and t
 
 [Contract request State and Contract document status in Contract Management Pro]()
 
+[Amendment and renewal interaction messages]()
+
 [Clause Variation form]()
 
 [Contract Configuration form]()
@@ -115,6 +117,10 @@ Controls the visibility of the **Role** field in internal signatory rules, and t
 [Contract Analysis Playbook form]()
 
 [Contract analysis playbook tool messages]()
+
+[Contract request ticket page actions]()
+
+[Default availability of out-of-the-box record producers]()
 
 [Contract Management Pro glossary]()
 

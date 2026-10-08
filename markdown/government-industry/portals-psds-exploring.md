@@ -64,7 +64,7 @@ The following playbooks on service portal experiences are available for constitu
 
 -   Grants Management: Grants Proposal Playbook, Grants Workspace Playbook
 -   Service Request Playbook
--   Information Request Playbook
+-   Information Request Administration
 
 ## Engagement Messenger
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/ai-agent-advisor-landing-page.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [AI Agent Advisor, AI Admin Center, Agent Miner, AI agents, AI opportunities, AI setup]
 breadcrumb: [AI Admin Center, Enable AI experiences]
@@ -23,7 +23,7 @@ The AI Agent Advisor automatically discovers automation opportunities in your in
 
 </td><td>
 
-[Configure\[Omitted image "icon-configure-docintel.png"\] Alt text:Set up AI Agent Advisor to get started.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configuring-ai-agent-advisor.md)
+[Configure\[Omitted image "icon-aiac-landing-configure-aiac.png"\] Alt text:Set up AI Agent Advisor to get started.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configuring-ai-agent-advisor.md)
 
 </td></tr><tr><td>
 

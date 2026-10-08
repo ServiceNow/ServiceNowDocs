@@ -24,7 +24,7 @@ Role required: admin
 
 ## Procedure
 
-1.  Navigate to **Admin** &gt; **AI Admin Hub**.
+1.  Navigate to **Admin** &gt; **AI Admin Hubn**.
 
     If you’re already in the AI Admin Hub console, select the **AI Skills** tab.
 
@@ -40,12 +40,12 @@ Role required: admin
 
 5.  Review the role restrictions to skill and select **Turn on** to activate the skill.
 
-    New topics in project insights framework to support reuse across portfolio insights, project insights, and status report contextual data:
+    Topics in project insights framework for reuse across portfolio insights, project insights, and status report contextual data.
 
     -   Project delays: Identifies delay patterns across your project timeline and reports them in project insights.
     -   Task dependency: Evaluates task relationships to highlight dependency risks and impacts.
     -   Budget fluctuations: Monitors budget changes and highlights significant variances for review.
-    -   Scope creep: Detects insights of unplanned growth in a project by comparing the current project state against its first baseline. The insight flags deviations in task count, budget, and the existence of open change requests to help project managers identify potential scope expansion early.
+    -   Scope creep: Detects insights of unplanned growth in a project by comparing the current project state against its first baseline. The insight flags deviations in task count, budget, and the existence of open change requests to help project managers identify potential scope expansion.
 
 ## Result
 
@@ -56,4 +56,9 @@ The skill is active on the instance.
 Analyze your skill performance and usage on the AI Admin Hub console to help determine the success of the skill. Learn more about tracking your AI usage at [Monitor AI usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/monitoring-now-assist-usage.md).
 
 **Parent Topic:**[Activate a AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/configure-now-assist-skill-spm.md)
+
+**Related topics**  
+
+
+[Schedule the project insights email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/email-project-summary-pw.md)
 

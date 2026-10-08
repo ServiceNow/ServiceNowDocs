@@ -16,6 +16,8 @@ Use the AI agents in Enterprise Architecture to help complete tasks autonomously
 
 **Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-native-sku-overview.md).
 
+**Note:** Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. We're committed to bringing you the latest industry advancements while maintaining sovereignty-focused options, all hosted and governed by ServiceNow with the infrastructure and data protections you rely on today. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+
 |Agentic workflow name|Description|Available AI agents|
 |---------------------|-----------|-------------------|
 |Generate enterprise architecture diagram|Generates diagrams for business applications hierarchy in Enterprise Modeling and Visualization and summarizes them.|Enterprise architecture diagrams AI agent|

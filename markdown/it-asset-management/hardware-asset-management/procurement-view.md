@@ -26,7 +26,7 @@ Select any widget or chart to view the details. You can also use **Location**, *
 
 |Widget or chart|Description|
 |---------------|-----------|
-|Purchase order pending delivery|Count of purchase orders that aren't received and aren't canceled. Only purchase orders that have a status of Requested, Ordered, or Pending Delivery are displayed.|
+|Purchase order pending delivery|Count of purchase orders that aren't in a Canceled or Received status. This includes purchase orders with a status of Requested, Ordered, Pending Delivery, and Suspended.|
 |Requests pending approval|Count of sourceable and active requests with request state of pending approval.|
 |Expenditure by vendor|Cost that you've paid to each of your vendors for procuring the inventory. Only purchase orders that have a status of Ordered, Pending Delivery, or Received are listed.|
 |Orders by vendor|Purchase orders that have been ordered, are pending delivery, or have been received by the vendor.|

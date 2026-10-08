@@ -39,7 +39,7 @@ Role required: sn\_cwm.cwm\_user
 
     \[Omitted image "cwm-edit-record-list-panel.png"\] Alt text: The Edit item side panel to update the records.
 
-7.  Select **Submit**.
+7.  Select **Update**.
 
 
 ## Result

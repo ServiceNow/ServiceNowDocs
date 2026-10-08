@@ -8,7 +8,7 @@ product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: task
 last_updated: "2026-07-24"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Manage team backlog, Use, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
@@ -29,6 +29,8 @@ From the Backlog, create the next iteration for Agile Release Trains \(ARTs\) an
 This task is explained using the default Full Configuration as an example, where ARTs are mapped to Planning Intervals and Agile Teams are mapped to Sprints.
 
 From EAP version 4.17.0, enter the start and end dates directly on the modal. The underlying planning calendar entries are created automatically, so nobody has to define them first. If a calendar entry already matches the team, the date fields are read-only and the system uses the dates from that entry. For details, see [Creating iterations for teams in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/simplified-iteration-creation-in-eap.md).
+
+Sprints are created only for Agile Teams whose planning methodology is Scrum. When you create a Planning Interval or add child Sprints, Kanban teams are skipped. The **Create next Sprint** button isn't available on the Backlog of a Kanban team. For more information, see [Scrum and Kanban teams in an ART in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/enterprise-agile-planning/scrum-and-kanban-teams-in-eap.md).
 
 ## Procedure
 

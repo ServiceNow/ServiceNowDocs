@@ -30,7 +30,7 @@ Extends Table
 
 </th></tr></thead><tbody><tr><td>
 
-Master Index\[sn\_icm\_master\_index\]
+Master Index
 
 </td><td>
 
@@ -42,7 +42,7 @@ N/A
 
 </td></tr><tr><td>
 
-Firearm Index\[sn\_icm\_firearm\]
+Firearm Index
 
 </td><td>
 
@@ -54,7 +54,7 @@ N/A
 
 </td></tr><tr><td>
 
-Location Index\[sn\_icm\_location\]
+Location Index
 
 </td><td>
 
@@ -66,7 +66,7 @@ N/A
 
 </td></tr><tr><td>
 
-Organization Index\[sn\_icm\_organization\]
+Organization Index
 
 </td><td>
 
@@ -78,7 +78,7 @@ N/A
 
 </td></tr><tr><td>
 
-Person Index\[sn\_icm\_person\]
+Person Index
 
 </td><td>
 
@@ -90,7 +90,7 @@ N/A
 
 </td></tr><tr><td>
 
-Property Index\[sn\_icm\_property\]
+Property Index
 
 </td><td>
 
@@ -102,7 +102,7 @@ N/A
 
 </td></tr><tr><td>
 
-Vehicle Index\[sn\_icm\_vehicle\]
+Vehicle Index
 
 </td><td>
 
@@ -114,7 +114,7 @@ N/A
 
 </td></tr><tr><td>
 
-Investigative Evidence\[sn\_icm\_evidence\]
+Investigative Evidence
 
 </td><td>
 
@@ -124,11 +124,9 @@ Contains information about evidence records within the case. Non-specific to PSD
 
 Evidence
 
- \[sn\_gsm\_icm\_evidence\]
-
 </td></tr><tr><td>
 
-Chain of Custody Log\[sn\_icm\_chain\_of\_custody\]
+Chain of Custody Log
 
 </td><td>
 
@@ -138,13 +136,9 @@ Contains the custody log files created each time a piece of evidence is transfer
 
 Chain of Custody Log
 
- \[sn\_gsm\_icm\_chain\_of\_custody\]
-
 </td></tr><tr><td>
 
 Investigative Case
-
- \[sn\_gsm\_icm\_case\]
 
 </td><td>
 
@@ -154,11 +148,9 @@ Contains information about the investigative case record.
 
 CSM Investigative Case
 
- \[sn\_csm\_icm\_case\]
-
 </td></tr><tr><td>
 
-Investigative Task\[sn\_gsm\_icm\_task\]
+Investigative Task
 
 </td><td>
 
@@ -168,11 +160,9 @@ Contains information about the investigative tasks records associated with the c
 
 CSM Investigative Task
 
- \[sn\_csm\_icm\_task\]
-
 </td></tr><tr><td>
 
-Evidence\[sn\_gsm\_icm\_evidence\]
+Evidence
 
 </td><td>
 
@@ -184,7 +174,7 @@ N/A
 
 </td></tr><tr><td>
 
-Chain of Custody Log\[sn\_gsm\_icm\_chain\_of\_custody\]
+Chain of Custody Log
 
 </td><td>
 
@@ -196,7 +186,7 @@ N/A
 
 </td></tr><tr><td>
 
-CSM Investigative Case\[sn\_csm\_icm\_case\]
+CSM Investigative Case
 
 </td><td>
 
@@ -208,7 +198,7 @@ N/A
 
 </td></tr><tr><td>
 
-CSM Investigative Task\[sn\_csm\_icm\_task\]
+CSM Investigative Task
 
 </td><td>
 

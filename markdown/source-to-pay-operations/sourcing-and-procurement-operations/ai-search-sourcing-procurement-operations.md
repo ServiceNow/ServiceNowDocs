@@ -97,7 +97,7 @@ For more information, see [AI Search](https://raw.githubusercontent.com/ServiceN
 
 [Sourcing Pipeline Management]()
 
-[Understanding Punchout]()
+[Understanding punchout]()
 
 [Universal Request in Sourcing and Procurement Operations]()
 

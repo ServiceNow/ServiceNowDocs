@@ -9,7 +9,7 @@ classification: workplace-case-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Smart Assessment for Workplace Case and Task, Configure, Workplace Case Management, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Smart Assessment for workplace cases and tasks, Configure, Workplace Case Management, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Configure Smart Assessment Trigger
@@ -98,5 +98,5 @@ Option to specify the case state that cannot be reached until the assessment is 
 5.  In the **Smart assessment template** field, select the published smart assessment template that should be applied when trigger conditions are met.
 
 
-**Parent Topic:**[Smart Assessment for Workplace Case and Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/smart-assessment-for-workplace-case-and-task.md)
+**Parent Topic:**[Smart Assessment for workplace cases and tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/smart-assessment-for-workplace-case-and-task.md)
 

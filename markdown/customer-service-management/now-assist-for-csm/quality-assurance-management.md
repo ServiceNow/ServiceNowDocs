@@ -7,7 +7,7 @@ release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2026-02-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 keywords: [Generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
 breadcrumb: [Activate ServiceNow Otto Skills, Configure, ServiceNow Otto for CSM, Customer Service Management]
@@ -53,7 +53,7 @@ Add, configure, review, and activate the Automated quality assurance skill, incl
 
         1.  Select any parameter to view its detailed scoring rubric. The rubric explains the evaluation criteria and scoring methodology for the parameter.
         2.  You can search for parameters through the search option and also sort parameters based on their weights.
-        3.  Review the rubric to understand how interactions are scored for this parameter. The total weight across all the categories and parameters should add up to 100%. For example, If there are 9 categories and 21 parameters, having just one parameter turned on with 100% weightage meets the requirement.
+        3.  Review the rubric to understand how interactions are scored for this parameter. The total weight across all the categories and parameters should add up to 100%. For example, if there are 9 categories and 21 parameters, having just one parameter turned on with 100% weight meets the requirement.
         |Category|Parameter|What it measures|
         |--------|---------|----------------|
         |Issue Understanding &amp; Diagnosis|Root cause analysis|Agent identifies and explains the underlying cause — not just surface symptoms. Good agents explain why the problem occurred; weak agents restate what the customer said.|
@@ -89,7 +89,7 @@ Add, configure, review, and activate the Automated quality assurance skill, incl
 
 7.  Select **Define Availability** to review when the side panel on the dashboard is active and available to customize.
 
-    Customize availability by setting specific conditions to enable the contextual side panel on the case record page. Alternatively, choose the default **Skill is always available** option to view the side panel for all cases. Select **Field** and **Value** to set conditions.
+    Admins can customize availability and set specific conditions to enable the contextual side panel on the case record page. Alternatively, choose the default **Skill is always available** option to view the side panel for all cases. Select **Field** and **Value** to set conditions to define availability.
 
 8.  Select **Define triggers** to choose how a base skill is automatically triggered.
 
@@ -103,7 +103,7 @@ Add, configure, review, and activate the Automated quality assurance skill, incl
 
 11. Select **Display** to activate the skill and make it visible in the In-product desktop for specific roles.
 
-    **Note:** The skill appears on forms and workspaces. By default, the skill is available to customer service managers and customer service agents’ roles. Admins can deactivate the skill to hide it from managers and agents during testing the configuration accuracy.
+    **Note:** The skill appears on forms and workspaces. By default, the skill is available to customer service managers and customer service agents’ roles. Admins can deactivate the skill to hide it from managers and agents while you test the configuration.
 
 12. Select **Review and Activate** to check the default setup and a summary of your selections.
 

@@ -35,7 +35,7 @@ The combination of user roles and responsibilities determines what a user can do
 
 ## Grants Management user personas
 
-A persona role is pre-configured role in the application that is made up of multiple granular roles, and are designed to correspond to common job titles for members of an agency. Each persona role represents a different way a user interacts with an agency.. The following table contains the persona roles included with the Grants Management, and a description of each persona as it may pertain to an agency. For more information on the roles installed with Grants Management, including the roles contained in each persona, see [Grants Management roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/roles-installed-with-public-sector-digital-services.md).
+A persona role is a pre-configured role made up of multiple granular roles. Each persona role corresponds to a common job title for agency members and represents a different way a user interacts with an agency. The following table contains the persona roles included with the Grants Management, and a description of each persona as it may pertain to an agency. For more information on the roles installed with Grants Management, including the roles contained in each persona, see [Grants Management roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/roles-installed-with-public-sector-digital-services.md).
 
 <table id="table_idr_2r2_1hc"><thead><tr><th>
 
@@ -51,11 +51,11 @@ Agency Example
 
 </th></tr></thead><tbody><tr><td>
 
-Admin\[admin\], \[sn\_gsm\_grnt\_mgmt.grant\_admin\]
+Admin\[sn\_svc\_appl\_pgm\_mg.grant\_program\_admin\], \[sn\_gsm\_grnt\_mgmt.grant\_admin\]
 
 </td><td>
 
-An administrator is a certified ServiceNow system administrator of the agency. An administrator doesn't use the application directly, but supports configuration of the agency and its instances, hierarchy management, assignment of member roles and responsibilities \(including related-party configurations\), as well as general data management.
+An administrator is a certified ServiceNow system administrator of the agency. Administrators don't use the application directly. They support agency configuration, instance management, hierarchy management, and member role and responsibility assignments, including related-party configurations and general data management.
 
 </td><td>
 
@@ -79,7 +79,7 @@ Grant Program Manager\[sn\_svc\_appl\_pgm\_mg.grant\_program\_manager\], \[pps\_
 
 </td><td>
 
-The Grant Program Manager is the primary owner of the grant program, and is responsible for overseeing the full lifecycle of a grant program, from initial definition through announcement, application configuration, and final publication. hey design, configure, and maintain the program throughout its lifecycle. This includes defining eligibility criteria, review frameworks, budget structures, milestones, and required documentation. They also oversee application intake, screening, evaluation, and funding recommendations.
+The Grant Program Manager is the primary owner of the grant program. This role oversees the full lifecycle, from initial definition through announcement, application configuration, and final publication. They design, configure, and maintain the program throughout its lifecycle. This includes defining eligibility criteria, review frameworks, budget structures, milestones, and required documentation. They also oversee application intake, screening, evaluation, and funding recommendations.
 
 </td><td>
 
@@ -87,7 +87,7 @@ Define program details, eligibility rules, milestones, and budget parameters. Co
 
 </td></tr><tr><td>
 
-Merit \(External\) Reviewer\[sn\_gsm\_grnt\_mgmt.external\_reviewer\]
+Merit \(External\) Reviewer\[awa\_agent\], \[sn\_gsm\_grnt\_mgmt.external\_reviewer\]
 
 </td><td>
 
@@ -119,7 +119,7 @@ roles.
 
 </td><td>
 
-An applicant seeking funding will work through the Grant Applicant Portal, where they will carefully review program requirements, adhere to compliance mandates, and ensure all conditions are met before they submit their application. Their role often involves collaborating internally to gather necessary data and signatures, as well as acting as the main point of contact for communications with the Grant Program Manager.
+An applicant seeking funding works through the Grant Applicant Portal. They review program requirements, adhere to compliance mandates, and confirm all conditions are met before submitting an application. The role involves collaborating internally to gather data and signatures, and serving as the main contact for communications with the Grant Program Manager.
 
 </td></tr><tr><td>
 

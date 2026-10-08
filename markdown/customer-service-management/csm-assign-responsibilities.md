@@ -24,7 +24,7 @@ Use the responsibility data model to assign multiple responsibilities to a singl
 
 The responsibility data model tracks the relationship between the organization members and their responsibility type in the Organization Member Responsibility \[sn\_csm\_svc\_org\_member\_responsibility\] table.
 
-**Note:** If the business organization plugin is active, this feature is enabled by default. However, for upgrade customer, the data in the \[sn\_csm\_svc\_org\_member\_responsibility\] table will be auto-populated for existing organization members to confirm that they retain as much access after the upgrade. Any new records created after the Australia release must be created using the following steps.
+**Note:** If the business location plugin is active, this feature is enabled by default. However, for upgrade customer, the data in the \[sn\_csm\_svc\_org\_member\_responsibility\] table will be auto-populated for existing organization members to confirm that they retain as much access after the upgrade. Any new records created after the Australia release must be created using the following steps.
 
 **Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/renamed-entities.md).
 
@@ -41,8 +41,8 @@ The responsibility data model tracks the relationship between the organization m
     The Organization Member Responsibility record shows the following fields:
 
     1.  **Member**: Refers to the \[sn\_csm\_service\_organization\_member\] table and is auto-populated if the record is initiated from the Organization Member related list.
-    2.  **Type**: Refers to the \[sn\_customerservice\_related\_party\_configuration\] table
-    3.  **Order**: Refers to the sequence in which records are displayed, organized according to business preferences.
+    2.  **Type**: Refers to the \[sn\_customerservice\_related\_party\_configuration\] table.
+    3.  **Order**: This field specifies the sequence in which records are displayed, organized according to business preferences.
     4.  **Excluded Organizations**: Exclude the following child organizations from hierarchy-based access for this user.
     **Note:**
 

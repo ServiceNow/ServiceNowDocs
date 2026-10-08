@@ -46,6 +46,21 @@ sn\_icw\_igt.user
 
 </td></tr><tr><td>
 
+Industrial Guided Task Manager
+
+ \[sn\_icw\_igt.manager\]
+
+</td><td>
+
+Can create question banks, and create and publish questions in them. Has the same privileges as the Industrial Guided Task Standard Author role.
+
+</td><td>
+
+-   sn\_icw\_igt.standard\_author
+-   sn\_smart\_asmt.question\_bank\_manager
+
+</td></tr><tr><td>
+
 Industrial Guided Task Standard Author
 
  \[sn\_icw\_igt.standard\_author\]
@@ -85,6 +100,10 @@ User role for the Industrial Guided Tasks application
 
 -   Industrial Guided Task Standard \[sn\_icw\_igt\_standard\]
 -   Industrial Guided Task \[sn\_icw\_igt\_task\]
+-   Industrial Guided Task Result \[sn\_icw\_igt\_results\]
+
+    Database view that joins the question responses of each task with the task's operational context for reporting. For more information, see [Industrial Guided Task Result database view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/igt-results-database-view.md).
+
 
 **Parent Topic:**[Industrial Guided Tasks reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/industrial-guided-tasks-reference.md)
 

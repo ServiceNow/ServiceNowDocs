@@ -28,15 +28,15 @@ Role required: sn\_shift\_planning.agent
 
 2.  Request time off.
 
-<table id="choicetable_l1r_jp3_p4b"><thead><tr><th align="left" id="d479936e84">
+<table id="choicetable_l1r_jp3_p4b"><thead><tr><th align="left" id="d483475e84">
 
 To
 
-</th><th align="left" id="d479936e87">
+</th><th align="left" id="d483475e87">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d479936e93">
+</th></tr></thead><tbody><tr><td id="d483475e93">
 
 **Request time off after reviewing your schedule**
 
@@ -53,7 +53,7 @@ Do this
 6.  In the **Description** field, enter a reason requesting time off.
 
 
-</td></tr><tr><td id="d479936e141">
+</td></tr><tr><td id="d483475e141">
 
 **Request time off after reviewing your time-off requests**
 

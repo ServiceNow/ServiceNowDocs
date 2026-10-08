@@ -40,6 +40,8 @@ Set request and response payload sizes, filter request and response headers, and
 You can troubleshoot automatic test performance by inspecting system transaction log records and potentially shorten execution time by adjusting how often automatic tests capture screenshots.
 -   **[Working with scheduled test suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/atf-sched-suites.md)**  
 You can schedule a test suite to run at a specified date and time.
+-   **[ATF Code Coverage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/atf-code-coverage.md)**  
+Metadata code coverage tracks which lines of code in your custom scripts are executed during ATF test runs. It helps identify untested code, validate test quality, and assess deployment risk in ReleaseOps.
 
 **Parent Topic:**[Automated Test Framework \(ATF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/automated-test-framework-atf/atf-landing-page.md)
 

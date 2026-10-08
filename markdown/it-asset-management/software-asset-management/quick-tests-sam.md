@@ -55,7 +55,7 @@ SAM - Oracle PaaS BYOL
 </td><td>
 
 -   Validates the addition of the new Serverless Hardware \[cmdb\_ci\_serverless\_hardware\] table, which stores information about PaaS devices.
--   Validates the license compliance of Oracle Database servers in Amazon Web Services \(AWS\) PaaS environments.
+-   Validates the license compliance of Oracle Database in Amazon Web Services \(AWS\) PaaS environments.
 
  **Note:** Requires the Software Asset Management Professional for Oracle \(com.snc.samp.oracle\) plugin and the CMDB CI Class Models store application.
 

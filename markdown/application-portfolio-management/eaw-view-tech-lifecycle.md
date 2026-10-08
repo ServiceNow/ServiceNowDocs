@@ -16,7 +16,7 @@ View Technology Lifecycle Management \(TLM\) lifecycle timelines in Enterprise A
 
 ## Before you begin
 
-The lifecycle data for software products is displayed only when the Software Asset Management Foundation plugin or Software Asset Management Professional plugin is installed.
+The lifecycle data for software products is displayed only when the Basic Software Asset Management or Software Asset Management Professional plugin is installed.
 
 Role required: sn\_apm.apm\_user
 
@@ -32,7 +32,7 @@ Each software technology lifecycle record also shows which TRM product and produ
 
 1.  Navigate to **Workspaces** &gt; **Enterprise Architecture Workspace**.
 
-2.  Open the Technology Portfolio page by selecting the Technology Portfolio icon \[Omitted image "technology-portfolio-icon.png"\] Alt text: Technology portfolio icon.
+2.  Open the Technology Portfolio page by selecting the Technology Portfolio icon \[Omitted image "technology-portfolio-icon.png"\] Alt text:.
 
 3.  Select **Technology lifecycles**.
 

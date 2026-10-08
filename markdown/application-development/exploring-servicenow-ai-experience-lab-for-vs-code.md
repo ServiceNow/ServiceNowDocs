@@ -19,6 +19,8 @@ The ServiceNow Lux Lab for VS Code extension provides framework intelligence and
 
 The ServiceNow Lux Lab for VS Code extension enables you to create and extend ServiceNow experiences. With built-in framework intelligence, you can run quick commands, preview entire applications, and see which files are relevant for your work from inside the explorer. Create experiences, pages, and widgets that support tailored functionality in your ServiceNow applications.
 
+\[Omitted image "servicenow-lux-lab-vs-code-welcome.png"\] Alt text: ServiceNow Lux Lab for VS Code welcome screen.
+
 ## ServiceNow Lux Lab for VS Code users
 
 |User|Description|

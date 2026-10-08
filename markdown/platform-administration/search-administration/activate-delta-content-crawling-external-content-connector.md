@@ -9,6 +9,7 @@ classification: search-administration
 topic_type: task
 last_updated: "2026-08-26"
 reading_time_minutes: 2
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Crawl, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 

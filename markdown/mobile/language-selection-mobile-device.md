@@ -1,5 +1,5 @@
 ---
-title: Selecting languages on your mobile device
+title: Selecting languages on your mobile device \(ServiceNow mobile client version 22.1 and earlier\)
 description: There are two areas where you define the language for your ServiceNow mobile apps: the instance language setup and the mobile app language setup.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/mobile/language-selection-mobile-device.html
@@ -10,7 +10,7 @@ reading_time_minutes: 1
 breadcrumb: [Languages on your mobile device, Using the mobile apps, Mobile Platform]
 ---
 
-# Selecting languages on your mobile device
+# Selecting languages on your mobile device \(ServiceNow mobile client version 22.1 and earlier\)
 
 There are two areas where you define the language for your ServiceNow mobile apps: the instance language setup and the mobile app language setup.
 
@@ -18,7 +18,7 @@ There are two areas where you define the language for your ServiceNow mobile app
 
 For a list of supported languages, see [Localization on mobile devices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/localization-mobile-device.md).
 
-## Defining the ServiceNow instance language
+## Defining the ServiceNow instance language from mobile app login screen
 
 You can change the instance language by selecting the relevant language from the drop-down field in the mobile app login screen. If this field isn't displayed, this means that your instance has been preconfigured for a specific language and can't be changed.
 

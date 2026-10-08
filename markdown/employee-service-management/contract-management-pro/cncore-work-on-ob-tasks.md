@@ -24,15 +24,15 @@ Role required: sn\_cm\_obligation.obligation\_user
 
 1.  Open the obligation task from the email notification or Employee Center.
 
-<table id="choicetable_ix4_gbl_trb"><thead><tr><th align="left" id="d410600e58">
+<table id="choicetable_ix4_gbl_trb"><thead><tr><th align="left" id="d414831e58">
 
 Options
 
-</th><th align="left" id="d410600e61">
+</th><th align="left" id="d414831e61">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d410600e67">
+</th></tr></thead><tbody><tr><td id="d414831e67">
 
 **From the email notification**
 
@@ -40,7 +40,7 @@ Steps
 
 Select the link in the notification email sent when an obligation task is assigned to you to access the task.
 
-</td></tr><tr><td id="d410600e76">
+</td></tr><tr><td id="d414831e76">
 
 **From Employee Center**
 

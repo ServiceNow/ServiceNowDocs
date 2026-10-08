@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experienc
 release: australia
 topic_type: reference
 last_updated: "2026-08-14"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [IT Service Management AI agents, IT Service Management, AI agents library, AI assets, Enable AI experiences]
 ---
 
@@ -16,11 +16,13 @@ This AI voice agent troubleshoots Microsoft Outlook issues. It also sends a trou
 
 ## Workflow
 
-1.  If the user hasn't stated their issue, ask them what they need help with regarding Microsoft Outlook.
-2.  Fetch KB articles related to the user query using the appropriate tool.
-3.  If the tool returns multiple matches, ask clarifying questions.
-4.  Before providing any instructions or taking any delivery action, the agent must ask the user to choose a delivery method.
-5.  Send or answer questions based on the confirmed method \(troubleshooting article link to email or reading out the instructions to the user\).
+1.  Greet the user and ask them if they need any help with Microsoft Outlook.
+2.  Fetch the KB articles related to user query and answer in a concise manner
+3.  Use the KB articles to answer the follow up questions.
+4.  If you are unable to answer any question, offer to transfer to an agent.
+5.  If they are satisfied and want no more details, politely end the conversation. If they are not satisfied, offer to transfer to an agent.
+6.  If they want to be transferred, do so and end the conversation.
+7.  If there are multiple steps, give each step one at a time and wait for the user to confirm they are ready for the next step.
 
 <table><thead><tr><th>
 
@@ -40,42 +42,11 @@ When enabled, third-party AI agents can use this agent. This value is off \(fals
 
 </td></tr><tr><td>
 
-Allow AI specialists to access this AI agent
-
-</td><td>
-
-When enabled, AI specialists can use this agent. This value is off \(false\) by default. When set to true, more configuration options for tools become available so that an AI specialist can map inputs and response templates to tool outputs. This setting is defined in the AI Agent configs \[sn\_aia\_agent\_config\] table on the Specialist enabled field.
-
-</td></tr><tr><td>
-
-Manage long-term memory
-
-</td><td>
-
-When enabled, all previous user interactions are used as context for the LLM. This value is off \(false\) by default. This setting is defined by the **sn\_aia.ltm.enable\_long\_term\_memory** system property. For more information, see [ServiceNow Otto AI agents reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/na-aia-reference.md).
-
-</td></tr><tr><td>
-
-Tools
-
-</td><td>
-
--   **Search retrieval**
-
-search outlook KB articles
-
--   **Subflow**
-
-Send outlook troubleshooting email
-
-
-</td></tr><tr><td>
-
 Allowed user roles The specific user roles that can access this AI agent.
 
 </td><td>
 
-snc\_internal
+Admin
 
 </td></tr><tr><td>
 
@@ -83,7 +54,7 @@ Data access roles The specific user identity roles that determine which data the
 
 </td><td>
 
-nobody
+Admin
 
 </td></tr><tr><td>
 

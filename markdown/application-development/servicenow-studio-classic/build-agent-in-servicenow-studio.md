@@ -48,7 +48,7 @@ For more information, see [Update sets in ServiceNow Studio](https://raw.githubu
 
 ## Build Agent chat panel
 
-Use the Build Agent chat panel to create or update an app or app file. Make a selection to begin the chat, or enter a prompt.
+Use the Build Agent or Autonomous Engineer chat panel to create or update an app or app file. Make a selection to begin the chat, or enter a prompt.If you have a longer prompt, the chat box expands as you extend your input. The chat panel runs in Build Agent mode by default. To use Autonomous Engineer, select **Build Agent** from the selector in the chat panel and choose Autonomous Engineer.
 
 \[Omitted image "ba-new-chat.png"\] Alt text: OTTO New Chat screen showing five quick-action buttons: Create an app, Update an app, Create a file, Update a file, and Add AI to an app.
 
@@ -60,7 +60,7 @@ For more information, see the following topics:
 -   [Edit an existing application using Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/edit-an-existing-application-using-build-agent.md)
 -   [Creating or updating an app file with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/creating-or-updating-an-app-file.md)
 -   [Revert app changes with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/revert-app-changes-using-build-agent.md)
--   [Build Agent checkpoints and conversation change log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ba-conversational-change-log.md)
+-   [Checkpoints and conversation change log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ba-conversational-change-log.md)
 -   [Example prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/build-agent-example-prompts.md)
 
 <table id="table_x2g_4c2_m3c"><thead><tr><th>

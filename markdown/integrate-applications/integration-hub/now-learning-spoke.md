@@ -26,7 +26,7 @@ The ServiceNow University spoke is available with the ITSM Enterprise license. Y
 
 ## Spoke version
 
-ServiceNow University Spoke v1.1.1 is the latest version.
+ServiceNow University Spoke v1.1.1 is the latest version. For version history of the spoke, see [ServiceNow University Spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-rn-itsm-now-learning-spoke.html).
 
 ## Spoke actions
 

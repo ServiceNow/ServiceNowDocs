@@ -7,7 +7,7 @@ release: australia
 product: AI Search
 classification: ai-search
 topic_type: task
-last_updated: "2026-08-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Search profiles, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -24,7 +24,7 @@ Role required: ais\_admin
 
 Unlinking a search source from a search profile prevents its filtered content from being searchable through that search profile.
 
-When you delete a search source, the system doesn't automatically unlink it from search profiles. In this case, you must manually unlink the search source from each search profile that's it's linked to.
+When you delete a search source, the system doesn't automatically unlink it from search profiles. In this case, you must manually unlink the search source from each search profile it's linked to.
 
 ## Procedure
 

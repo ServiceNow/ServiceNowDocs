@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/expl
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Query Generation, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
 
@@ -19,13 +19,14 @@ Query Generation is an AI-powered service that translates user questions into an
 Query Generation supports the following data sources:
 
 -   Tables
--   Performance Analytics [automated indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/performance-analytics-glossary.md) \(excluding Data Snapshots\)
+-   Performance Analytics [automated indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/performance-analytics-glossary.md) \(excluding Benchmarking and Data Snapshots indicators\)
+-   Performance Analytics [formula indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/performance-analytics-glossary.md) \(excluding Benchmarking and Data Snapshots indicators\)
 
 Table data is queried through a [semantic data layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/now-assist-platform-analytics-glossary.md). The semantic data layer is a flat representation of tables and table columns. Query Generation uses the semantic data layer to find the actual [facts tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/now-assist-platform-analytics-glossary.md) and columns related to a user [utterance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/now-assist-platform-analytics-glossary.md). Specifically, facts tables are represented by [Entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/now-assist-platform-analytics-glossary.md) records and their columns by [Dimension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/now-assist-platform-analytics-glossary.md) records.
 
 Not all facts tables are included in Query Generation, as this would overload an instance. To see which facts tables are included, open the Semantic Tables Configurations list \[sn\_query\_gen\_table\_config\_list\], and note which tables are present and have Enable Semantic Generation = true. You can add more tables to the list, but be careful of possible performance impacts. For more information, see [Add a table to the semantic data layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/add-table-semantic-layer.md).
 
-Indicator data is searched through the Indicator \[pa\_indicators\] table. Indicators are not represented in the semantic data layer. The 12 indicators that most closely match the user's query are passed to the LLM.
+Indicator data is searched through the Indicator \[pa\_indicators\] table. Indicators are not represented in the semantic data layer. The 12 indicators that most closely match the user's query are passed to the LLM.Keywords, context, and a default setting are used to determine whether automated or formula indicators are returned. If a formula indicator is returned, follow-up questions can drill down to its contributing indicators. Follow-up questions can also drill down to the source table, including the source tables of contributing indicators. For more information about returning automated or formula indicators, see [Indicator vs Table data source selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/indicator-vs-table-data-source-selection.md).
 
 ## How Query Generation works
 
@@ -33,7 +34,7 @@ Indicator data is searched through the Indicator \[pa\_indicators\] table. Indic
 
 The filter first checks the query contents for information about whether to use table data or an indicator score in the response. The check follows these steps:
 
-1.  Does the application calling Query Generation support only table data, only indicator data, or both?
+1.  Does the application calling Query Generation support only table data, only indicator data, or both? In the case
 2.  If it supports both data sources, is a data source specified in the query?
     1.  Are there keywords in the query, such as "table" or "indicator," that clearly show what data source is desired?
     2.  Is the query made in the context of a data source type? For example, is an AI Data Explorer query launched from a data visualization of table or indicator data? Is it launched from a follow-up question, and if so, what is the data source of the parent query? If the parent query data source is an indicator, that indicator is automatically included among the 12 indicators that most closely match the query.

@@ -8,7 +8,7 @@ product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
 last_updated: "2026-04-27"
-reading_time_minutes: 2
+reading_time_minutes: 3
 keywords: [generative AI for Employee Center, generative AI for UEX, configuration]
 breadcrumb: [Explore, ServiceNow Otto for Employee Experience, Unified Employee Experience, Employee Service Management]
 ---
@@ -56,7 +56,7 @@ Activate the ServiceNow Otto for Employee Experience plugin to enable generative
     -   Select the step in the guided setup navigation.
     -   Return to a previous step by selecting **Back**.
     -   Select **Save and continue** to go to the next step.
-4.  [Clone a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-and-edit-servicenow-skill.md).
+4.  [Clone and edit a ServiceNow skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/clone-and-edit-servicenow-skill.md).
 
 5.  Go to **Define Trigger** and select one of the following triggers.
 

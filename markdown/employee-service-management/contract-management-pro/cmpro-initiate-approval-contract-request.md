@@ -9,7 +9,7 @@ classification: contract-management-pro
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Common contract request tasks, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Initiate an ad hoc approval for a contract document revision
@@ -38,15 +38,15 @@ You can request for approval of a revision for contract documents from stakehold
 
 3.  In the **Lists** tab, open a request by selecting an option under **Contract Requests**.
 
-<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d88197e106">
+<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d88433e106">
 
 Option
 
-</th><th align="left" id="d88197e109">
+</th><th align="left" id="d88433e109">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d88197e115">
+</th></tr></thead><tbody><tr><td id="d88433e115">
 
 **As an assignee**
 
@@ -58,7 +58,7 @@ Steps
 
 The state of the request is Work in progress and the contract status is also work in progress.
 
-</td></tr><tr><td id="d88197e144">
+</td></tr><tr><td id="d88433e144">
 
 **As a collaborator**
 
@@ -156,5 +156,5 @@ Review a contract request or attachment and approve or reject it.
 -   **[Cancel an ad hoc approval for a contract document revision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-cancel-approval-request.md)**  
 Cancel an ad hoc approval for a contract document revision if it no longer requires any action.
 
-**Parent Topic:**[Using Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-use-cmpro.md)
+**Parent Topic:**[Common contract request tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-common-contract-req-tasks.md)
 

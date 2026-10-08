@@ -321,11 +321,11 @@ Any consumable model that you create in the OT Asset Workspace, has the consumab
 **Related topics**  
 
 
-[OT Asset Management licensing]()
-
-[Install OT Asset Management]()
+[Installing OT Asset Management]()
 
 [Installed with OT Asset Management]()
+
+[OT Asset Management licensing]()
 
 [Asset and Configuration Item \(CI\) synchronization for Operational Technology \(OT\) assets]()
 

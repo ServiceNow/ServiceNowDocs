@@ -29,7 +29,7 @@ The ServiceNow Otto for Creator application includes generative AI skills and AI
 
 -   Upload brand guidelines as a PDF in the theme creation workflow to generate themes that align with your brand.
 -   Prepare for the app generation and test generation plugins to be deprecated in a future release.
--   Learn about Build Agent updates in the new [Build Agent release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/build-agent-rn.md).
+-   Learn about Build Agent updates in the new [Build Agent and Autonomous Engineer release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/build-agent-rn.md).
 
 [Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-1.md)
 

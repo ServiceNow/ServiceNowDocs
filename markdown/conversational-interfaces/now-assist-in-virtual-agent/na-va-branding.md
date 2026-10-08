@@ -7,7 +7,7 @@ release: australia
 product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
 topic_type: task
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [Configuring assistants overview, ServiceNow Otto for Virtual Agent, Conversational Interfaces]
 ---

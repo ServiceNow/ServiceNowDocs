@@ -7,9 +7,9 @@ release: australia
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 1
-keywords: [Contracts workspace, Fulfiller workspace, Work on contract request, Contract requests, Contract filters]
+last_updated: "2026-10-06"
+reading_time_minutes: 2
+keywords: [Contracts workspace, Fulfiller workspace, Work on contract request, Contract requests, Contract filters, Contracts dashboard, Analytics Center, Contract report viewer, Request type filter]
 audience: sn\_cm\_core.contract\_fulfiller
 breadcrumb: [Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
@@ -98,6 +98,12 @@ Number of expiring contracts that you have executed. The contracts are grouped b
 </table>The Contract Workspace is built through the configurable UI Builder application. For more information, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/ui-builder-overview.md).
 
 Access to the Contract Workspace requires activation of the Contract Workspace plugin. For more information, see [Activate Contract Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-activate-contract-workspace-plugin.md).
+
+## Contracts dashboard
+
+Users with the contract report viewer \[sn\_cm\_core.contract\_report\_viewer\] role can access the Contracts Dashboard directly from Contract Workspace. The Analytics Center icon appears in the left navigation bar of the workspace only when the user has this role.
+
+On the Contracts Dashboard, use the **Request type** multi-select filter to scope all charts and KPIs to one or more request types: New Contract, Amendment, or Renewal. By default, all three values are selected and the dashboard reflects data for all request types. To reset the filter, select all three values again.
 
 ## Contract Workspace benefits
 

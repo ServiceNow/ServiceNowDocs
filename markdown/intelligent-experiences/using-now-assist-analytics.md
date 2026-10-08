@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/using-now-assist-analytics.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-10-01"
 reading_time_minutes: 1
 keywords: [Now Assist Analytics, dashboard, GenAI, GenerativeAI, sn\_na\_analytics\_admin, sn\_na\_analytics\_viewer]
 breadcrumb: [Analyzing AI performance, Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
@@ -15,7 +15,14 @@ breadcrumb: [Analyzing AI performance, Exploring AI Admin Hub, AI Admin Hub, Ena
 
 The AI Analytics dashboard provides indicators and breakdowns that help monitor the performance of generative AI features, capabilities, and skills active on your instance.
 
-Access the dashboard by navigating to **All** &gt; **AI Admin Hub** &gt; **Performance**. You must have Now Assist Analytics Admin \[sn\_na\_analytics\_admin\] or Now Assist Analytics Viewer \[sn\_na\_analytics\_viewer\] role to view the dashboard. The following sections explain the dashboard pages in more detail.
+Access the dashboard by navigating to **All** &gt; **AI Admin Hub** &gt; **Performance**.
+
+You must have one of these roles to view the dashboard:
+
+-   Now Assist Analytics Admin \[sn\_na\_analytics.admin\]
+-   Now Assist Analytics Viewer \[sn\_na\_analytics.viewer\]
+
+The following pages explain the available analytics in more detail.
 
 -   **[Usage and adoption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/usage-and-adoption.md)**  
 The Usage and adoption dashboard page contains key usage and performance indicators that help you evaluate AI adoption in your organization.

@@ -91,12 +91,12 @@ Role required: admin
 
     -   To configure the default connection and credential alias record that is shipped along with the BigFix Inventory spoke, click **View Details**.
 
-        \[Omitted image "image.bigfix-inventory-connection"\] Alt text: Connection for the BigFix Inventory spoke
+        \[Omitted image "bigfix-inventory-connection.png"\] Alt text: Connection for the BigFix Inventory spoke
 
     -   To manage more than one BigFix Inventory spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/support-multiple-connections.md).
     If you are configuring the spoke for the first time, click **Configure**. Otherwise, click **Edit**.
 
-    \[Omitted image "image.bigfix-inventory-connection-conf"\] Alt text: Initial connection configuration.
+    \[Omitted image "bigfix-inventory-connection-conf.png"\] Alt text: Initial connection configuration.
 
 5.  On the form, fill in these fields:
 
@@ -108,7 +108,7 @@ Role required: admin
     |Credential Information|
     |API Key|The key that your ServiceNow instance requires to access the BigFix Inventory instance. Enter the API key that you had generated in the BigFix Inventory portal. To learn how to generate an API key, see[Generate an API key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/setup-bigfix.md).|
 
-    \[Omitted image "image.bigfix-inventory-conf-temp"\] Alt text: Configure a connection for the BigFix Inventory spoke.
+    \[Omitted image "bigfix-inventory-conf-temp.png"\] Alt text: Configure a connection for the BigFix Inventory spoke.
 
 6.  Click **Save**.
 

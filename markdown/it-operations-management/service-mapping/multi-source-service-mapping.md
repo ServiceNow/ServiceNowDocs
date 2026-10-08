@@ -7,7 +7,7 @@ release: australia
 product: Service Mapping
 classification: service-mapping
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-10-06"
 reading_time_minutes: 5
 keywords: [Service Mapping, ITOM, CMDB, Configuration item, service map, unified service, Keystone, service instance, service\_mapping\_admin]
 breadcrumb: [Choose the right method for discovering and mapping services, Exploring Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
@@ -43,10 +43,6 @@ Multi-source service mapping can combine data from the following sources:
 -   **Manual service maps**
 
     Manually selecting specific CIs without automation. By converting manual services to a dynamic application services, you can synchronize the manually created CI relationships into a Service Map view. These maps are maintained by administrators and are best fit for static services. For more information, see: [Convert legacy manual services to dynamic application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/convert-manual-app-ser-to-dynamic.md)
-
--   **Dynamic CI groups**
-
-    Based on CMDB relationships, this query-based mapping can be used for mapping technical services grouped under a specific category. For example, all Linux servers in a certain location.
 
 
 ## Key benefits

@@ -40,7 +40,7 @@ The property for the playbook generation is set in the Process Mining system pro
 
 5.  Select **Apply**.
 
-6.  Select **Playbooks** icon \(\[Omitted image "playbook-icon.png"\] Alt text: Playbooks icon\).
+6.  Select **Associated Projects** icon \(\[Omitted image "playbook-icon.png"\] Alt text: Playbooks icon\).
 
     \[Omitted image "playbook-1.png"\] Alt text: Selecting variants to generate playbook
 

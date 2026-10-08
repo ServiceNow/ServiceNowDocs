@@ -23,7 +23,7 @@ The indexed content and metadata are stored as records in a connector-specific i
 
 **Note:**
 
-When running crawls for the Atlassian Confluence Cloud external content connector, always run your content crawl first, before running a user permission crawl. If you run the user permission crawl before the content crawl completes, some Confluence Cloud content may not be searchable.
+When running crawls for the Atlassian Confluence Cloud external content connector, run your content crawl first, before running a user permission crawl. If you run the user permission crawl before the content crawl completes, some Confluence Cloud content may not be searchable.
 
 The connector automatically runs a user permission crawl after its first full content crawl completes. It also automatically runs a user permission crawl if you modify its connection settings and then run a complete full content crawl. In all other cases, you need to run or schedule the user permission crawl so that it starts after your latest content crawl has completed.
 
@@ -32,7 +32,7 @@ The connector automatically runs a user permission crawl after its first full co
 The Atlassian Confluence Cloud external content connector only offers limited support for the Role-Based Access Control \(RBAC\) feature that's available in beta in Atlassian Confluence Cloud.
 
 -   The connector maps user and group read permissions assigned via RBAC roles just as it does for non-RBAC read permissions.
--   The connector ignores user and group read permissions assigned via RBAC user classes. These include the anonymous permission assigned via the anonymous user class. If RBAC user class permissions are the only read permissions assigned on a page or attachment, the content from that page or attachment will not be searchable in AI Search applications.
+-   The connector ignores user and group read permissions assigned via RBAC user classes. These include the anonymous permission assigned via the anonymous user class. If RBAC user class permissions are the only read permissions assigned on a page or attachment, the content from that page or attachment is not searchable in AI Search applications.
 
 Atlassian recommends enabling the RBAC feature for testing in a non-production Atlassian Confluence Cloud environment. Connector admins should test the connector's behavior with RBAC in non-production ServiceNow AI Platform® instances before deploying to production.
 

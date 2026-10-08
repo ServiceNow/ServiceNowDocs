@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/mc-review-and-submit-the-cost-configuration.html
 release: australia
 topic_type: task
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 2
 breadcrumb: [Cost, Configure, Measure AI system, Measure AI systems, AI Control Tower, Enable AI experiences]
 ---
@@ -16,11 +16,13 @@ Review all Cost Framework configurations, verify the calculations, and submit to
 
 ## Before you begin
 
-Role required: AI steward \(`sn_ai_governance_ai_steward`\).
+Role required: AI steward \(`sn_ai_governance.ai_steward`\).
 
 ## About this task
 
-Before activating the Cost Framework, review all configurations to verify accuracy. The review screen displays how money saved is calculated \(based on the hourly rate\), how total cost is calculated \(all vendors combined\), and a preview of the net returns calculation. After your verification is complete, the system uses these calculations in dashboards and reports.
+Before activating the Cost Framework, review all configurations to verify accuracy. The review screen displays how total savings are calculated based on the hourly rate. It also shows how total cost is calculated, which encompasses all vendors combined. Additionally, there is a preview of the Net AI Returns calculation. After verification, these calculations appear in dashboards and reports.
+
+Cost entries that you add or change remain in draft until you submit them in the **Preview cost &amp; savings** step.
 
 ## Procedure
 
@@ -28,34 +30,41 @@ Before activating the Cost Framework, review all configurations to verify accura
 
 2.  Select **Edit configuration**.
 
-3.  Make sure you have configured the average rate, added integrated vendor pricing, and added other vendor pricing \(if applicable\).
+3.  Verify that the average rate, integrated vendor pricing, and other vendor pricing \(if applicable\) are configured.
 
     For more information, see [Configure average hourly rate for your organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/mc-configure-the-average-hourly-rate-for-your-organization.md), [Add costs for integrated vendors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/mc-add-and-configure-costs-for-integrated-vendors.md), and [Add costs for other vendors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/mc-add-and-configure-costs-for-non-integrated-vendors.md).
 
-4.  Go to **Preview cost &amp; savings** section and review the details.
+4.  In the **Preview cost &amp; savings** section, review the details.
+
+    |Section|Description|
+    |-------|-----------|
+    |**Preview total savings**|Total savings for the listed personas, calculated as productivity gains in hours multiplied by the average hourly rate. The section also shows **Total productivity gains \(hours\)** and **Personas applicable**.|
+    |**Preview total cost**|Total Enterprise AI cost across vendors, based on the information entered in the previous steps.|
+
+    To change a value, select **Back**.
 
 5.  Select **Submit** to activate the Cost Framework.
 
-    The system uses these configurations for cost calculations.
+    The **Cost** tab shows the **Cost setup** summary with the status **Configured** and an updated **Last updated at** date.
 
 
 ## Result
 
-Your Cost Framework configuration is complete and active. The system calculates money saved, total costs, and net returns based on your specifications, and dashboards and reports show the financial impact of your AI investments.
+The Cost Framework configuration is active. The Cost Framework calculates total savings, total costs, and Net AI Returns based on your specifications, and dashboards and reports show the financial impact of AI usage.
 
 ## What to do next
 
 Verify that the Cost Framework is active in the dashboards:
 
 1.  Navigate to **All** &gt; **AI Control Tower** &gt; **Insights** &gt; **Value**.
-2.  Confirm that the Productivity gains widget shows total money saved \(not just hours\), the Net AI Returns widget shows total calculated returns, and the Total AI Cost widget shows aggregated vendor costs.
+2.  Confirm that the Productivity Gains widget displays total money saved, not just hours. The Net AI Returns widget shows total calculated returns. The Total AI Cost widget indicates the aggregated vendor costs.
 3.  Verify that these values match the values on the Cost setup page.
 
 After submission:
 
--   Monitor regularly: Check the Cost Framework dashboards weekly to track costs and savings.
--   Update as needed: If vendor pricing changes or you add new vendors, reconfigure them from **Settings** &gt; **Rules &amp; Templates** &gt; **Cost**.
--   Review quarterly: Reassess hourly rates and vendor pricing quarterly to verify accuracy.
--   Investigate anomalies: Watch for unexpected cost spikes or changes in savings patterns.
--   Use for decisions: Share Cost Framework insights with stakeholders for budget and investment decisions.
+-   Check the Cost Framework dashboards weekly to track costs and savings.
+-   If vendor pricing changes or you add new vendors, reconfigure them from **Settings** &gt; **Rules and Templates** &gt; **Cost**.
+-   Reassess hourly rates and vendor pricing quarterly to verify accuracy.
+-   Watch for unexpected cost spikes or changes in savings patterns.
+-   Share Cost Framework insights with stakeholders for budget and investment decisions.
 

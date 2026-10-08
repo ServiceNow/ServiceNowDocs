@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-zurich-australia/australia-zurich-servicenowottoforcreator-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 14
 breadcrumb: [Products combined by family]
 ---
@@ -587,7 +587,7 @@ Australia
 
 -   Upload brand guidelines as a PDF in the theme creation workflow to generate themes that align with your brand.
 -   Prepare for the app generation and test generation plugins to be deprecated in a future release.
--   Learn about Build Agent updates in the new [Build Agent release notes](https://www.servicenow.com/docs/access?context=build-agent-rn&family=australia&ft:locale=en-US).
+-   Learn about Build Agent updates in the new [Build Agent and Autonomous Engineer release notes](https://www.servicenow.com/docs/access?context=build-agent-rn&family=australia&ft:locale=en-US).
 
  [Australia Patch 1](https://www.servicenow.com/docs/access?context=australia-patch-1&family=australia&ft:locale=en-US)
 

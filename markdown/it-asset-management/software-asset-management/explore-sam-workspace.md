@@ -8,7 +8,7 @@ product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 8
+reading_time_minutes: 9
 breadcrumb: [Software Asset Management, IT Asset Management, Asset Management]
 ---
 
@@ -174,6 +174,8 @@ Use a guided walk-through playbook to achieve audit readiness and regulatory com
 The Software Asset Management Guided Experiences application provides step-by-step guidance for completing tasks in your daily software management activities.
 -   **[Use Software Asset Management with Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/sam-integration-cmpro.md)**  
 Leverage advanced contract life cycle capabilities after a contract has been signed using the Obligation Management \(sn\_cm\_obligation\) and the ServiceNow Otto for Contract Management Pro in Contract Management Pro \(sn\_cm\_gen\_ai\) plugin.
+-   **[Consumption rule evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/consumption-rule-evaluation.md)**  
+Consumption rules control which installations or users can consume a license. After you link a consumption rule to an entitlement, the license metric type determines how the system evaluates the rule during allocation.
 
 **Parent Topic:**[Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/c_SoftwareAssetMgmt.md)
 

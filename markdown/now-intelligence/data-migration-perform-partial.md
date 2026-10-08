@@ -17,7 +17,7 @@ Migrate a selection of your existing dashboards, reports, interactive filters, a
 
 ## Before you begin
 
-Role required: You can migrate any dashboard you own. Users with admin or dashboard\_admin roles can migrate any dashboard.
+Role required: dashboard\_admin or higher
 
 ## About this task
 

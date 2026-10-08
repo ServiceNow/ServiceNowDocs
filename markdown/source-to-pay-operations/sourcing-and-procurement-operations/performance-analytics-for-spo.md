@@ -56,7 +56,7 @@ Visually analyze how your team is performing on sourcing requests, purchase requ
 
 [Sourcing Pipeline Management]()
 
-[Understanding Punchout]()
+[Understanding punchout]()
 
 [AI Search for Sourcing and Procurement Operations]()
 

@@ -7,7 +7,7 @@ release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Classic assessments, Configure, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -19,6 +19,10 @@ If you maintain questionnaires using Microsoft Excel spreadsheets, you can save 
 ## Before you begin
 
 Role required: sn\_vdr\_risk\_asmt.vendor\_risk\_manager
+
+**Note:**
+
+This import method applies to classic questionnaire templates only. When the Smart Assessment Engine \(SAE\) is enabled, **Import from Excel** isn't available for questionnaire templates.
 
 ## About this task
 

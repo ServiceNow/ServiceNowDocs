@@ -7,7 +7,7 @@ release: australia
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-28"
 reading_time_minutes: 1
 breadcrumb: [Personal events, ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
@@ -31,6 +31,13 @@ Role required: wm\_agent
 4.  Tap **Edit Event**.
 
 5.  Edit the event information.
+
+    **Note:** If this is a recurring event, select the occurrence the change applies to.
+
+    |Option|Description|
+    |------|-----------|
+    |Edit this event|Applies your changes to only this occurrence.|
+    |Edit this and future events|Applies your changes to this occurrence and all future occurrences.|
 
 6.  Tap **Submit**.
 

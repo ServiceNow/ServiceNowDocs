@@ -88,6 +88,18 @@ The ServiceNow® Mobile Platform application enables you to access your ServiceN
 
     Premium Chat opens a web-based chat experience within your mobile app, ensuring that every feature configured for the web is accessible on your mobile device.
 
+-   **[Switch between mobile app experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/mobile-experience-switcher.md)**
+
+    Enable users to switch between multiple mobile app experiences, also known as mobile app configs, in the Settings page.  The mobile experience switcher allows users to select multiple app experiences that match the users roles and permissions.
+
+-   **[Unified language settings options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/localization-mobile-device.md)**
+
+    From client version 22.2, the Settings menu displays only one language option. Selecting it directs users to the Account Language page instead of presenting multiple language choices.
+
+-   **[Logo image support in top navigation bar of launcher screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/create-alp-header.md)**
+
+    Add a logo image instead of a text title to a launcher screen's top navigation bar to match your organization's branding.
+
 
 ### What's changed
 
@@ -149,5 +161,11 @@ The ServiceNow® Mobile Platform application enables you to access your ServiceN
 -   **[Redesigned Settings screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/manager-user-settings.md)**
 
     Navigate the redesigned Settings screen in the Now Mobile and Mobile Agent apps to manage entries like preferences, profile, and account switching in one place. Tap the arrow next to a heading to expand or collapse its related options.
+
+    Added to the Settings screen is the Experience area, where users can select between different mobile app experiences.
+
+-   **[System default added to theme option](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/mobile/enable-dark-theme.md)**
+
+    Use the new Theme option from the Settings menu called System default to automatically match the device's current theme setting. The other options in the theme menu are Light and Dark.
 
 

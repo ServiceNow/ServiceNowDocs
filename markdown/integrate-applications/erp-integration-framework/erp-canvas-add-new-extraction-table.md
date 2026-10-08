@@ -1,5 +1,5 @@
 ---
-title: Add a new ERP extraction table in Zero Copy Connector for ERP
+title: Add an ERP extraction table in Zero Copy Connector for ERP
 description: Create an ERP \(Enterprise Resource Planning\) extraction table to capture large amounts of data every day, and save the data to a transformation \(staging\) table. The data is then available on the ServiceNow AI Platform, and you can add the extracted data to an ERP model or remote table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/integrate-applications/erp-integration-framework/erp-canvas-add-new-extraction-table.html
@@ -13,21 +13,21 @@ keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector
 breadcrumb: [Extracting and transforming data, Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
 ---
 
-# Add a new ERP extraction table in Zero Copy Connector for ERP
+# Add an ERP extraction table in Zero Copy Connector for ERP
 
 Create an ERP \(Enterprise Resource Planning\) extraction table to capture large amounts of data every day, and save the data to a transformation \(staging\) table. The data is then available on the ServiceNow AI Platform, and you can add the extracted data to an ERP model or remote table.
 
 ## Before you begin
 
-You must first configure the source table, target table, and table transform map before those tables can be added to an ERP extraction table. For more information on creating table transform maps, see [Create a transform map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/system-import-sets/t_CreateATransformMap.md).
+The source table, target table, and table transform map must be configured before those tables can be added to an ERP extraction table. For more information on creating table transform maps, see [Create a transform map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/system-import-sets/t_CreateATransformMap.md).
 
 Role required: sn\_erp\_integration.erp\_admin
 
 ## About this task
 
-Zero Copy Connector for ERP provides a number of standard extraction tables, which you can use as-is. If you must change a standard extraction table, copy the table and then update the copied version.
+Zero Copy Connector for ERP provides several standard extraction tables, which you can use as-is. If you must change a standard extraction table, copy the table and then update the copied version.
 
-You can create multiple ERP extraction tables, and multiple extraction tables can use the same ERP model. For example, create separate extraction tables for sales contracts, sales inquires, and old sales orders.
+You can create multiple ERP extraction tables, and multiple extraction tables can use the same ERP model. For example, create separate extraction tables for sales contracts, sales inquiries, and old sales orders.
 
 ## Procedure
 

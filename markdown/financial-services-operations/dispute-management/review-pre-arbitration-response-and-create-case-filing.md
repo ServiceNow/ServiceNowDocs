@@ -52,15 +52,15 @@ After you receive the merchant’s response for pre-arbitration, the response is
 
 8.  In the **Pre arbitration outcome** field, select **Resolved** or **Unresolved**.
 
-<table id="choicetable_inv_t2g_2fc"><thead><tr><th align="left" id="d127410e218">
+<table id="choicetable_inv_t2g_2fc"><thead><tr><th align="left" id="d127467e218">
 
 Selection
 
-</th><th align="left" id="d127410e221">
+</th><th align="left" id="d127467e221">
 
 Result
 
-</th></tr></thead><tbody><tr><td id="d127410e227">
+</th></tr></thead><tbody><tr><td id="d127467e227">
 
 **Unresolved**
 
@@ -73,7 +73,7 @@ the field **Do you want to create case filing?** is displayed.1.  Create a case 
 5.  Select **Submit dispute filing**.
 
 
-</td></tr><tr><td id="d127410e273">
+</td></tr><tr><td id="d127467e273">
 
 **Resolved**
 

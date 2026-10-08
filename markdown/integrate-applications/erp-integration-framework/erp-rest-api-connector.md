@@ -17,11 +17,11 @@ breadcrumb: [Connecting to ERP with REST, Configuring, Zero Copy Connector for E
 
 Use the REST API connector to connect to any RESTful API with standardized API specification formats.
 
-## REST API connector
+## Overview
 
 You can use REST APIs to access business data from ERP \(Enterprise Resource Planning\) systems. Integrating these APIs requires manual processes. The REST API connector solves this by providing a reusable, low-code integration layer.
 
-For API details, see .
+For API details, see [sn\_erp\_integration API - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/sn_erp_integrationBothAPI.md).
 
 ## REST service connection configuration
 
@@ -53,7 +53,7 @@ After you import a REST service, use the Model Manager to define entities and ma
 
 ## MID Server support
 
-If your REST API runs on-premises or behind a firewall, you can route API calls through a MID Server. The connection record includes a midServerName property that routes traffic through the designated MID Server. Cloud-hosted APIs can connect directly without a MID Server. For more information, see [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-landing.md).
+If your REST API runs on-premises or behind a firewall, you can route API calls through a MID Server. The connection record includes a **midServerName** property that routes traffic through the designated MID Server. Cloud-hosted APIs can connect directly without a MID Server. For more information, see [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/mid-server-landing.md).
 
 ## REST API connector tables
 

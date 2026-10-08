@@ -7,8 +7,8 @@ release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-06-24"
-reading_time_minutes: 2
+last_updated: "2026-09-28"
+reading_time_minutes: 3
 keywords: [auto-setup, automatic dashboard setup, Data Foundations advisor dashboard, principal classes]
 breadcrumb: [Get started with dashboard setup, Advisor setup, Use Data Foundations advisor, CMDB success advisor, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -25,6 +25,8 @@ After data collection completes, users with the sn\_cmdb\_admin role receive a n
 
 The dashboard card on the CMDB success advisor landing page displays a badge with the number of principal classes that auto-setup selected.
 
+The badge remains after you open the dashboard for the first time. Manually editing the principal class scope through **Manage principal classes** removes the badge.
+
 ## Eligibility conditions
 
 Auto-setup runs only when all the following conditions are met. If any condition is not met, you can configure the Data Foundations advisor dashboard manually.
@@ -32,14 +34,14 @@ Auto-setup runs only when all the following conditions are met. If any condition
 -   The instance has no existing Data Foundations dashboard.
 -   The total number of CIs on the instance is fewer than 5 million.
 -   No more than 200 principal classes are already marked on the instance.
+-   The **com.snc.task.principal\_class\_filter** system property is empty, or at least one principal class already exists on the instance.
 
 ## Scope selected by auto-setup
 
 The following logic applies when auto-setup selects the principal class scope:
 
 -   If no principal classes exist, the top five recommended classes form the scope. Rankings reflect recent incident, problem, and change \(IPC\) activity. For more information, see [CI class recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/configuration-management-database-cmdb/cmdb-sa-df-class-recom.md).
--   If one to four principal classes already exist, those classes remain in scope and additional recommendations fill the scope to a total of five.
--   If five to 200 principal classes already exist, all existing classes form the scope.
+-   If one or more principal classes already exist, up to the 200-class scope limit, all existing classes form the scope. Auto-setup doesn't add recommended classes to top up the count.
 
 ## Data collection and notifications after auto-setup
 

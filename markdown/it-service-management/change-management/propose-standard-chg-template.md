@@ -7,7 +7,7 @@ release: australia
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Create a standard change task template, Standard change catalog, Configure, Change Management, IT Service Management]
 ---
@@ -73,7 +73,7 @@ For the complete role list, see [Components installed with ITSM Roles - Change M
 
     -   Any change tasks that are included with the change also get copied to the new standard change proposal. The fields copied from both the change and change tasks are defined in the [Standard Change Properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/t_ConfigureTheStandardChangeCatalog.md).
     -   By default, approval records are created for members of the Change Management group.
-    Alternatively, as a change manager, create and submit a standard change proposal that can be utilized as a template to draft a standard change request that occurs frequently and is of low risk. By default, the basic standard change proposal workflow sends approval records to members of the change management group where the members verify and modify the records, as appropriate. Navigate to **Change** &gt; **Standard Change** &gt; **My Proposals**. Select **New**, fill the form, and then select **Submit**.
+    Alternatively, as a change manager, create and submit a standard change proposal. Use it as a template to draft low-risk standard change requests that occur frequently. By default, the basic standard change proposal workflow sends approval records to members of the change management group where the members verify and modify the records, as appropriate. Navigate to **Change** &gt; **Standard Change** &gt; **My Proposals**. Select **New**, fill the form, and then select **Submit**.
 
     To view standard change templates, users must have the appropriate roles. Users with the following roles can view the standard change templates:
 

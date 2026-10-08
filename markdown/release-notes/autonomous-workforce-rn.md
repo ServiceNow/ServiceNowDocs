@@ -89,7 +89,7 @@ Version 3.1 is the first release of Autonomous Workforce. Contact your ServiceNo
 
     Track every record your AI specialist touches and measure its performance to see the value it brings to your team across multiple metrics.
 
--   **[User-based work assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-assign-rules-aiw.md)**
+-   **[User-based work assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/work-assign-aiw.md)**
 
     Create assignment rules to automatically route work to your AI specialist for triage and resolution. It only acts on requests it's confident it can resolve, proposing a solution directly. Anything less certain gets handed off to a human agent.
 

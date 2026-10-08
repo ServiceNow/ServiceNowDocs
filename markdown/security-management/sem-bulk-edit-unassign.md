@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/australia/security-management/s
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 2
 breadcrumb: [Using bulk edit in the Security Exposure Management Workspace, Bulk edit in the Security Exposure Management Workspace, Use, Unified Security Exposure Management, Security Operations]
 ---
 
@@ -27,74 +27,34 @@ Role required:
 
 The  unassign  feature is applicable for records in any state other than Closed or Resolved. When you remove assignments for host vulnerable items using the bulk edit feature, only relevant records are updated.
 
+You can remove assignments in bulk as a remediation owner, vulnerability manager, or vulnerability analyst. The records that are updated depend on your persona:
+
+-   Remediation owner: Only the records that are assigned to you or to your assignment groups are updated.
+-   Vulnerability manager or vulnerability analyst: All the records that meet the conditions you specify in the Bulk Edit modal are updated.
+
+You can remove assignments in bulk for host vulnerable items \(VITs\), application vulnerable items \(AVITs\), container vulnerable items \(CVITs\), and configuration test results. The **Unassign** option appears only when the assignment rules plugin \(com.snc.sec.wf\) is active.
+
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Security Exposure Management Workspace**.
 
-2.  On the List page, under Host Vulnerable items, open the Active or All list.
+2.  On the List page, open the Active or All list in one of the following lists:
 
+    -   Host Vulnerable items
+    -   Application Vulnerable items
+    -   Container Vulnerable items
+    -   Configuration Test Results
 3.  Perform one of the following:
 
     -   Select the check box next to each item if you want to use the **Only Selected Items** option in the [Record Selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/vulnerability-manager-workspace/vmws-bulk-edit-unassign.md) field.
     -   Apply filters if you want to use the **All Vulnerable Items that match filter** option in the [Record Selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/vulnerability-manager-workspace/vmws-bulk-edit-unassign.md) field.
 4.  Select the **Bulk Edit** button.
 
-5.  On the form, fill in the fields to remove assignments in bulk.
+5.  On the form, select the **Unassign** check box to remove assignments in bulk.
 
-<table id="table_t4d_4bd_5s"><thead><tr><th>
+    For a description of the other field values, see [Bulk edit form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-bulk-edit-request-exception-form.md).
 
-Field
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Record Selection
-
-</td><td>
-
-Records to update. Choices are:-   Only Selected Items: Select this option if you want to update the records you selected using the check box.
--   All Vulnerable Items that match filter: Select this option if you want to update the filtered records.
--   Remediation Task: Select this option if you want to update the records in a remediation task and then select the desired remediation task in the **Remediation task** field.
--   Vulnerability Entry: Select this option if you want to update the records specific to a common vulnerable entry \(CVE\) and then select the CVE in the **Vulnerability Entry** field.
-**Note:**
-
--   Records with invalid CI or CI decommissioned aren’t updated.
--   Only the records in the Open, Under Investigation, Awaiting Implementation, or Deferred state are updated.
-
-
-</td></tr><tr><td>
-
-State
-
-</td><td>
-
-Select the state as Do Not Update.
-
-</td></tr><tr><td>
-
-Unassign
-
-</td><td>
-
-All the selected vulnerable items are unassigned from assignment group and remediation owner. **Note:**
-
--   This field appears when you select the State as Do Not Update.
--   When you unassign records, a remediation task is created which is sent for approval.
-
-
-</td></tr><tr><td>
-
-Work notes
-
-</td><td>
-
-Text that you enter to describe the changes.
-
-</td></tr></tbody>
-</table>6.  Click  **Edit**.
+6.  Select  **Edit**.
 
     A remediation task is created with the selected host vulnerable items \(VITs\).
 

@@ -71,8 +71,6 @@ Consolidated page of all release notes for AI Skill Kit from Yokohama to Austral
 Consolidated page of all release notes for Alumni Center from Yokohama to Australia.
 -   **[Combined API release notes for upgrades from Yokohama to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-yokohama-australia/australia-yokohama-api-release-notes.md)**  
 Consolidated page of all release notes for API from Yokohama to Australia.
--   **[Combined App Engine ERP Rapid Deployment Packs release notes for upgrades from Yokohama to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-yokohama-australia/australia-yokohama-appengineerprapiddeploymentpacks-release-notes.md)**  
-Consolidated page of all release notes for App Engine ERP Rapid Deployment Packs from Yokohama to Australia.
 -   **[Combined App Engine Management Center release notes for upgrades from Yokohama to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-yokohama-australia/australia-yokohama-appenginemanagementcenter-release-notes.md)**  
 Consolidated page of all release notes for App Engine Management Center from Yokohama to Australia.
 -   **[Combined App Engine Studio release notes for upgrades from Yokohama to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-yokohama-australia/australia-yokohama-appenginestudio-release-notes.md)**  
@@ -99,6 +97,8 @@ Consolidated page of all release notes for Autonomous Workforce from Yokohama to
 Consolidated page of all release notes for Benchmarks from Yokohama to Australia.
 -   **[Combined Build Agent release notes for upgrades from Yokohama to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-yokohama-australia/australia-yokohama-buildagent-release-notes.md)**  
 Consolidated page of all release notes for Build Agent from Yokohama to Australia.
+-   **[Combined Build Agent and Autonomous Engineer release notes for upgrades from Yokohama to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-yokohama-australia/australia-yokohama-buildagentandautonomousengineer-release-notes.md)**  
+Consolidated page of all release notes for Build Agent and Autonomous Engineer from Yokohama to Australia.
 -   **[Combined Business Continuity Management release notes for upgrades from Yokohama to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-yokohama-australia/australia-yokohama-businesscontinuitymanagement-release-notes.md)**  
 Consolidated page of all release notes for Business Continuity Management from Yokohama to Australia.
 -   **[Combined Buying Group release notes for upgrades from Yokohama to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-yokohama-australia/australia-yokohama-buyinggroup-release-notes.md)**  
@@ -213,6 +213,8 @@ Consolidated page of all release notes for Digital End-User Experience from Yoko
 Consolidated page of all release notes for Digital Portfolio Management from Yokohama to Australia.
 -   **[Combined Digital Portfolio Management \(DPM\) release notes for upgrades from Yokohama to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-yokohama-australia/australia-yokohama-digitalportfoliomanagementdpm-release-notes.md)**  
 Consolidated page of all release notes for Digital Portfolio Management \(DPM\) from Yokohama to Australia.
+-   **[Combined Digital Product Release release notes for upgrades from Yokohama to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-yokohama-australia/australia-yokohama-digitalproductrelease-release-notes.md)**  
+Consolidated page of all release notes for Digital Product Release from Yokohama to Australia.
 -   **[Combined Dispute Content Pack for US Regulations release notes for upgrades from Yokohama to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-yokohama-australia/australia-yokohama-disputecontentpackforusregulations-release-notes.md)**  
 Consolidated page of all release notes for Dispute Content Pack for US Regulations from Yokohama to Australia.
 -   **[Combined Dispute Rules Content Pack for Mastercard release notes for upgrades from Yokohama to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-yokohama-australia/australia-yokohama-disputerulescontentpackformastercard-release-notes.md)**  
@@ -235,6 +237,8 @@ Consolidated page of all release notes for Employee Center from Yokohama to Aust
 Consolidated page of all release notes for Employee Center Pro from Yokohama to Australia.
 -   **[Combined Employee Slate release notes for upgrades from Yokohama to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-yokohama-australia/australia-yokohama-employeeslate-release-notes.md)**  
 Consolidated page of all release notes for Employee Slate from Yokohama to Australia.
+-   **[Combined Employee Slate for ITSM release notes for upgrades from Yokohama to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-yokohama-australia/australia-yokohama-employeeslateforitsm-release-notes.md)**  
+Consolidated page of all release notes for Employee Slate for ITSM from Yokohama to Australia.
 -   **[Combined EMR Provider Directory Sync Sync release notes for upgrades from Yokohama to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-yokohama-australia/australia-yokohama-emrproviderdirectorysyncsync-release-notes.md)**  
 Consolidated page of all release notes for EMR Provider Directory Sync Sync from Yokohama to Australia.
 -   **[Combined Encryption release notes for upgrades from Yokohama to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-yokohama-australia/australia-yokohama-encryption-release-notes.md)**  
@@ -311,6 +315,10 @@ Consolidated page of all release notes for Impact from Yokohama to Australia.
 Consolidated page of all release notes for Import and Export from Yokohama to Australia.
 -   **[Combined Incident Management release notes for upgrades from Yokohama to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-yokohama-australia/australia-yokohama-incidentmanagement-release-notes.md)**  
 Consolidated page of all release notes for Incident Management from Yokohama to Australia.
+-   **[Combined Industrial Analytics and Reporting release notes for upgrades from Yokohama to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-yokohama-australia/australia-yokohama-industrialanalyticsandreporting-release-notes.md)**  
+Consolidated page of all release notes for Industrial Analytics and Reporting from Yokohama to Australia.
+-   **[Combined Industrial Centerlines release notes for upgrades from Yokohama to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-yokohama-australia/australia-yokohama-industrialcenterlines-release-notes.md)**  
+Consolidated page of all release notes for Industrial Centerlines from Yokohama to Australia.
 -   **[Combined Industrial Connected Workforce Core release notes for upgrades from Yokohama to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-yokohama-australia/australia-yokohama-industrialconnectedworkforcecore-release-notes.md)**  
 Consolidated page of all release notes for Industrial Connected Workforce Core from Yokohama to Australia.
 -   **[Combined Industrial Connected Workforce Mobile Experience release notes for upgrades from Yokohama to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-yokohama-australia/australia-yokohama-industrialconnectedworkforcemobileexperience-release-notes.md)**  
@@ -341,8 +349,6 @@ Consolidated page of all release notes for ITOM Cloud Accelerate from Yokohama t
 Consolidated page of all release notes for ITOM Optimization from Yokohama to Australia.
 -   **[Combined ITOM Visibility release notes for upgrades from Yokohama to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-yokohama-australia/australia-yokohama-itomvisibility-release-notes.md)**  
 Consolidated page of all release notes for ITOM Visibility from Yokohama to Australia.
--   **[Combined ITSM Employee Slate for Moveworks release notes for upgrades from Yokohama to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-yokohama-australia/australia-yokohama-itsmemployeeslateformoveworks-release-notes.md)**  
-Consolidated page of all release notes for ITSM Employee Slate for Moveworks from Yokohama to Australia.
 -   **[Combined ITSM MCP Server release notes for upgrades from Yokohama to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-yokohama-australia/australia-yokohama-itsmmcpserver-release-notes.md)**  
 Consolidated page of all release notes for ITSM MCP Server from Yokohama to Australia.
 -   **[Combined ITSM Mobile Agent release notes for upgrades from Yokohama to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-yokohama-australia/australia-yokohama-itsmmobileagent-release-notes.md)**  
@@ -441,6 +447,8 @@ Consolidated page of all release notes for Now Assist in Platform Analytics from
 Consolidated page of all release notes for Now Assist in Virtual Agent from Yokohama to Australia.
 -   **[Combined Now Mobile release notes for upgrades from Yokohama to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-yokohama-australia/australia-yokohama-nowmobile-release-notes.md)**  
 Consolidated page of all release notes for Now Mobile from Yokohama to Australia.
+-   **[Combined On-Call Onboarding release notes for upgrades from Yokohama to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-yokohama-australia/australia-yokohama-oncallonboarding-release-notes.md)**  
+Consolidated page of all release notes for On-Call Onboarding from Yokohama to Australia.
 -   **[Combined On-Call Scheduling release notes for upgrades from Yokohama to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-yokohama-australia/australia-yokohama-oncallscheduling-release-notes.md)**  
 Consolidated page of all release notes for On-Call Scheduling from Yokohama to Australia.
 -   **[Combined Operational Resilience release notes for upgrades from Yokohama to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-yokohama-australia/australia-yokohama-operationalresilience-release-notes.md)**  
@@ -587,6 +595,8 @@ Consolidated page of all release notes for ServiceNow AI Lens from Yokohama to A
 Consolidated page of all release notes for ServiceNow AI Platform core feature from Yokohama to Australia.
 -   **[Combined ServiceNow CLI release notes for upgrades from Yokohama to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-yokohama-australia/australia-yokohama-servicenowcli-release-notes.md)**  
 Consolidated page of all release notes for ServiceNow CLI from Yokohama to Australia.
+-   **[Combined ServiceNow Cowork release notes for upgrades from Yokohama to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-yokohama-australia/australia-yokohama-servicenowcowork-release-notes.md)**  
+Consolidated page of all release notes for ServiceNow Cowork from Yokohama to Australia.
 -   **[Combined ServiceNow IDE release notes for upgrades from Yokohama to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-yokohama-australia/australia-yokohama-servicenowide-release-notes.md)**  
 Consolidated page of all release notes for ServiceNow IDE from Yokohama to Australia.
 -   **[Combined ServiceNow Lux Lab for VS Code release notes for upgrades from Yokohama to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-yokohama-australia/australia-yokohama-servicenowluxlabforvscode-release-notes.md)**  
@@ -719,6 +729,8 @@ Consolidated page of all release notes for Subscription Management from Yokohama
 Consolidated page of all release notes for Supplier Lifecycle Operations from Yokohama to Australia.
 -   **[Combined Synthetic monitoring release notes for upgrades from Yokohama to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-yokohama-australia/australia-yokohama-syntheticmonitoring-release-notes.md)**  
 Consolidated page of all release notes for Synthetic monitoring from Yokohama to Australia.
+-   **[Combined System Localization release notes for upgrades from Yokohama to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-yokohama-australia/australia-yokohama-systemlocalization-release-notes.md)**  
+Consolidated page of all release notes for System Localization from Yokohama to Australia.
 -   **[Combined System Update Sets release notes for upgrades from Yokohama to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-yokohama-australia/australia-yokohama-systemupdatesets-release-notes.md)**  
 Consolidated page of all release notes for System Update Sets from Yokohama to Australia.
 -   **[Combined Table Builder release notes for upgrades from Yokohama to Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-yokohama-australia/australia-yokohama-tablebuilder-release-notes.md)**  

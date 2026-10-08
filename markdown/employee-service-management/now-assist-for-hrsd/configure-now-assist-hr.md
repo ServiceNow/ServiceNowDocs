@@ -84,8 +84,6 @@ Complete the configuration steps to enable your employees place requests to the 
 Enable your employees to place requests to the Human Capital Management \(HCM\) system using the ServiceNow Otto for HR Service Delivery \(HRSD\) agent collection.
 -   **[Configure HR AI voice agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/configure-voice-agents.md)**  
 Enable employees to complete tasks, resolve issues, and access information through a conversational experience.
--   **[Configure manager insights for ServiceNow Otto for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/config-manager-insights.md)**  
-Configure the manager insights skill in ServiceNow Otto for HRSD to generate a summary of team data in Manager Hub.
 -   **[Configure ServiceNow Otto for HRSD – Galileo Inside](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/configuring-galileo-inside.md)**  
 Enable users to access functionality and benefits of the ServiceNow Otto for HRSD – Galileo Inside \[sn\_hr\_na\_galileo\] plugin by completing a short installation and configuration process.
 -   **[Configure Activity Response Generation for HR Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-activity.md)**  

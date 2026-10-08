@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/australia/integrate-application
 release: australia
 topic_type: concept
 last_updated: "2026-04-29"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [Data Catalog, Workflow Data Fabric]
 ---
 
@@ -18,10 +18,33 @@ Metadata collectors provide read-only access to external data systems and harves
 
 \[Omitted image "dc-mcollector-list.png"\] Alt text: List of metadata collectors
 
+## Connection states
+
+Metadata collectors progress through the following states as you configure and validate them:
+
+-   **Not configured**
+
+    The collector has been created but required fields are incomplete. Complete all mandatory fields including system details, connection credentials, and at least one endpoint configuration to move to the next state.
+
+-   **Configured**
+
+    All required information has been provided, but credentials have not yet been validated. The collector moves to Connected status after credentials are successfully verified when the collector runs successfully.
+
+-   **Connected**
+
+    Credentials have been validated and the connection is working. The collector is ready to harvest metadata from the source system.
+
+-   **Expired**
+
+    The connection is broken due to expired authentication details. It is only applicable for authentication methods where this information can be retrieved.
+
+
 -   **[Metadata collector deployment models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/metadata-collector-deployment-models.md)**  
 Choose how to deploy metadata collectors based on your network accessibility and security needs. Deploy on a MID Server you host, or use ServiceNow-managed cloud infrastructure.
 -   **[MID Server for metadata collectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/mid-server-for-metadata-collectors-dc.md)**  
 When your source is behind a firewall or requires on-premises handling, deploy metadata collectors on a MID Server you host to harvest metadata from on-premises and privately networked data sources.
+-   **[Enable Vault classification for a metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/enable-vault-classification.md)**  
+Enable a metadata collector to classify harvested columns using ServiceNow Vault.
 -   **[Amazon Redshift metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/amazon-redshift-metadata-collector.md)**  
 Amazon Redshift metadata collector provides read-only access to metadata from an Amazon Redshift database.
 -   **[Amazon S3 metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/amazon-s3-metadata-collector.md)**  
@@ -36,6 +59,8 @@ The Databricks metadata collector provides read-only access to metadata from an 
 The dbt Cloud metadata collector provides read-only access to metadata from an external dbt Cloud account.
 -   **[Fivetran metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/fivetran-metadata-collector.md)**  
 Provides read-only access to metadata from a Fivetran account.
+-   **[Microsoft Fabric metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/microsoft-fabric-metadata-collector.md)**  
+Provides read-only access to metadata from a Microsoft Fabric account.
 -   **[Microsoft SQL Server metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/microsoft-sql-server-metadata-collector.md)**  
 Provides read-only access to metadata from a Microsoft SQL Server account.
 -   **[MongoDB metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/mongodb-metadata-collector.md)**  

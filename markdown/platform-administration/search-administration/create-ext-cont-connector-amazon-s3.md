@@ -7,7 +7,7 @@ release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-08-18"
+last_updated: "2026-09-15"
 reading_time_minutes: 7
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Amazon S3 external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
@@ -27,9 +27,7 @@ Role required: sn\_ext\_conn.xcc\_admin
 
 1.  Navigate to **All** &gt; **External Content Connectors** &gt; **External Content Admin Home**.
 
-2.  If prompted, select **Switch scope** to switch to the External Content Connectors Admin scope.
-
-    You must be in this scope to create or edit external content connectors.
+2.  If prompted to switch scope, select **Switch scope** and select the application scope specified in the prompt.
 
 3.  In the Connectors section, select **New**.
 
@@ -82,11 +80,11 @@ Option acknowledging that the Amazon S3 external content connector makes all cra
 
 <table id="table_u4x_znw_gkc"><thead><tr><th>
 
- 
+Connection setting
 
 </th><th>
 
- 
+Description
 
 </th></tr></thead><tbody><tr><td>
 

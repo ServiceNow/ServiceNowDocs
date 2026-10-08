@@ -7,7 +7,7 @@ release: australia
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: concept
-last_updated: "2026-05-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 15
 keywords: [AI governance, AI life cycle, AI Control Tower, AI Risk and Compliance]
 breadcrumb: [Explore, AI Risk and Compliance, Governance, Risk, and Compliance]
@@ -60,11 +60,11 @@ AI asset owners authorize deployment and retirement decisions. These decisions a
 
 AI Risk and Compliance managers \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_manager\] provide independent risk and regulatory oversight. They initiate and oversee impact and risk assessments, determine risk classification, validate control implementation, and approve or block life cycle progression.
 
-AI Risk and Compliance business users \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_business\_user\] and AI stewards \[sn\_ai\_governance\_ai\_steward\] execute governance activities. These roles contribute assessment inputs, perform assigned tasks such as control attestations, and support remediation and issue management. They also help keep inventory records accurate throughout the life cycle.
+AI Risk and Compliance business users \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_business\_user\] and AI stewards \[sn\_ai\_governance.ai\_steward\] execute governance activities. These roles contribute assessment inputs, perform assigned tasks such as control attestations, and support remediation and issue management. They also help keep inventory records accurate throughout the life cycle.
 
 Other governance stakeholders, such as security, legal, privacy, or data governance teams, participate as needed. They contribute expertise during assessment, review, and investigation activities. These stakeholders don't own life cycle decisions.
 
-For more information about roles in AICT and AIRC, see [Roles installed with AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/roles-installed-with-ai-risk-and-compliance.md) and [AI Control Tower roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/roles-installed-with-ai-control-tower.md).
+For more information about roles in AICT and AIRC, see [Roles and responsibilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/roles-installed-with-ai-risk-and-compliance.md) and [AI Control Tower roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/roles-installed-with-ai-control-tower.md).
 
 ## AI governance life cycle phases and processes
 

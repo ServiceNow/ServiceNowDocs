@@ -25,6 +25,8 @@ Role required: sn\_esg\_gen\_ai.docintel\_user
 
 **Important:** Be sure to check AI-extracted information for accuracy.
 
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **Operational Sustainability Management** &gt; **Operational Sustainability Workspace** &gt; **Lists** &gt; **Document intelligence** &gt; **Metric document extraction**.

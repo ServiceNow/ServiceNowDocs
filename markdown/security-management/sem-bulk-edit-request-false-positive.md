@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/australia/security-management/s
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 4
 breadcrumb: [Using bulk edit in the Security Exposure Management Workspace, Bulk edit in the Security Exposure Management Workspace, Use, Unified Security Exposure Management, Security Operations]
 ---
 
@@ -32,6 +32,17 @@ When you raise a false positive request for one or more records from the Bulk ed
 -   If you select AVITs from various scanners, some with the **Manage False positive with Servicenow** parameter set to true and other set to false, the AVITs linked to the scanners with the **Manage False positive with Servicenow** parameter set to false are not updated.
 -   If you select AVITs from only the scanners with the **Manage False positive with Servicenow** parameter set to false, the False positive option does not appear in the **Reason** field in the Bulk Edit modal.
 
+You can mark records as Closed-False positive in bulk as a remediation owner, vulnerability manager, or vulnerability analyst. The records that are updated depend on your persona:
+
+-   Remediation owner: Only the records that are assigned to you or to your assignment groups are updated.
+-   Vulnerability manager or vulnerability analyst: All the records that meet the conditions you specify in the Bulk Edit modal are updated.
+
+**Note:** The options in the **Reason** field depend on your role and the record type:
+
+-   Host vulnerable items: If you have the sn\_vul.remediation\_owner role but not the sn\_vul.close\_vi\_vg role, False positive is the only reason available.
+-   Application vulnerable items: If you have the sn\_vul.app\_security\_champion role but not the sn\_vul.app\_write\_all role, False positive is the only reason available.
+-   Container vulnerable items and configuration test results: False positive is the only reason available for all users.
+
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Security Exposure Management Workspace** &gt; **List**.
@@ -50,94 +61,22 @@ When you raise a false positive request for one or more records from the Bulk ed
     -   Apply filters if you want to use the All records that match filter option in the [**Record selection**](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/vulnerability-manager-workspace/vmws-bulk-edit-request-false-positive.md) field.
 4.  Select the **Bulk Edit** button.
 
-5.  On the form, fill in the fields to request false positive for multiple records.
+5.  On the form, select **Closed** in the **State** field, and select **False Positive** as the **Reason** to request false positive for multiple records.
 
-<table id="table_t4d_4bd_5s"><thead><tr><th>
+    For a description of the other field values, see [Bulk edit form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/sem-bulk-edit-request-exception-form.md).
 
-Field
+6.  Select **Update**.
 
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td id="record-slection-field">
-
-Record Selection
-
-</td><td>
-
-Records to update. Choices are:-   Only Selected Items: Select this option if you want to update the records you selected using the check box.
--   All records that match filter: Select this option if you want to update the filtered records.
--   Remediation Task: Select this option if you want to update the records in a remediation task and then select the desired remediation task in the **Remediation task** field.
--   Vulnerability Entry: Select this option if you want to update the records specific to a vulnerability and then select a CVE or TPE in the **Vulnerability Entry** field.
-
-**Note:** This field appears for host vulnerable items, application vulnerable items, and container vulnerable items.
-
--   Configuration test: Select this option if you want to update the test results specific to a test and then select a test in the **Configuration test** field.
-
-**Note:** This option appears for Configuration test results only.
-
-**Note:**
-
--   Records with invalid CI or CI decommissioned aren’t updated.
--   Only the records in the Open, Under Investigation, or Awaiting Implementation state are updated.
-
-
-</td></tr><tr><td>
-
-State
-
-</td><td>
-
-Select the **Closed** state.
-
-</td></tr><tr><td>
-
-Reason
-
-</td><td>
-
-Select the Reason as False positive.
-
-**Note:**
-
--   When you select this option, the Short description, and Additional information fields appear.
--   A remediation task is created when you mark the records as False-positive and this task is sent for approval.
- **Note:** The **Reason** field appears when you select the State as Deferred or Closed.
-
-</td></tr><tr><td>
-
-Short description
-
-</td><td>
-
-Brief note describing the reasons for Closed-False positive request. This information reflects in the **Description** field of the remediation task that is created for a Closed-False positive request.**Note:** This field appears when you select the State as Deferred or Closed-False positive.
-
-</td></tr><tr><td>
-
-Additional information
-
-</td><td>
-
-Any other necessary information. This information reflects in the Additional Information field in the Overview tab of the remediation task that is created for Closed-False positive request. If your false positive request is approved, this additional information appears as notes for both VIT and remediation task.**Note:** This field appears when you select the State as Deferred or Closed-False positive.
-
-</td></tr><tr><td>
-
-Work notes
-
-</td><td>
-
-Text that you enter to describe the changes.
-
-</td></tr></tbody>
-</table>6.  Click  **Edit**.
+    **Note:** If you have configured Questionnaire for false positive requests, this button is labeled **Go to Questionnaire** instead.
 
 7.  On the Take Questionnaire modal, answer the questions and select **Submit**.
 
     A remediation task is created with the selected records. Your request is submitted for approval and the State of the remediation task changes to  In Review.
 
-    **Note:** The **Take Questionnaire** modal appears only when the questionnaire is enabled for false positive requests in the Exception Management form. For more information on configuring a questionnaire for false positive requests, see [Configure Exception Management for Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/vulnerability-response/configure-exception-management-settings.md), [Configure Exception Management for Application Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/application-vulnerability-response/configure-exception-management-application-vulnerability-response.md), and [Configure Exception Management for Container Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/container-vulnerability-response/configure-exception-management-for-container-vulnerability-response.md).
+    **Note:** The **Questionnaire** modal appears only when the questionnaire is enabled for exception requests in the Exception Management form.
 
+    -   For more information on configuring a questionnaire for exception requests, see [Configure Exception Management for Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/vulnerability-response/configure-exception-management-settings.md), [Configure Exception Management for Application Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/application-vulnerability-response/configure-exception-management-application-vulnerability-response.md), and [Configure Exception Management for Container Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/container-vulnerability-response/configure-exception-management-for-container-vulnerability-response.md), and [Configuration Compliance Exception Management overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/configuration-compliance/cc-ex-mgmt.md).
+    -   In case you must modify your questionnaire, refer to KB2713229.
     The approver receives an email notification about your request.
 
 

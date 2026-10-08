@@ -106,7 +106,7 @@ The Savings Opportunity Discovery agentic workflow automatically scans contracts
 
 [Sourcing Pipeline Management]()
 
-[Understanding Punchout]()
+[Understanding punchout]()
 
 [AI Search for Sourcing and Procurement Operations]()
 

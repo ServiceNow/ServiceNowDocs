@@ -64,7 +64,7 @@ Role required: Scan Engine admin \(`sn_se.scan_engine_admin`\).
 
     Related lists appear at the bottom of the definition screen.
 
-<table id="choicetable_fkk_pkx_2hc"><tbody><tr><td id="d55729e288">
+<table id="choicetable_fkk_pkx_2hc"><tbody><tr><td id="d55362e288">
 
 **Applicable Tables**
 
@@ -85,7 +85,7 @@ See [Restricted Caller Access](https://www.servicenow.com/docs/access?context=re
     -   **Conditions**: Defines the conditions that table records must meet to be scanned.
 
 
-</td></tr><tr><td id="d55729e353">
+</td></tr><tr><td id="d55362e353">
 
 **Findings For This Definition**
 
@@ -93,7 +93,7 @@ See [Restricted Caller Access](https://www.servicenow.com/docs/access?context=re
 
 Displays any findings, as established by the definition, found during on-demand or scheduled scans.
 
-</td></tr><tr><td id="d55729e362">
+</td></tr><tr><td id="d55362e362">
 
 **Resolved Finding Histories**
 
@@ -101,7 +101,7 @@ Displays any findings, as established by the definition, found during on-demand 
 
 Shows findings that were resolved for this definition.
 
-</td></tr><tr><td id="d55729e371">
+</td></tr><tr><td id="d55362e371">
 
 **Scan Engine Suites**
 

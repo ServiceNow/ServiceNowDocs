@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-xanadu-australia/australia-xanadu-servicenowotto-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 9
 breadcrumb: [Products combined by family]
 ---
@@ -295,6 +295,8 @@ Zurich
 
 Now Assist features are available with activation of any Now Assist plugin from ServiceNow Store.
 
+
+**Important:** Now Assist is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 

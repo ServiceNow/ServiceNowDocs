@@ -7,7 +7,7 @@ release: australia
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: task
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [ITOM Visibility, IT Operations Management]
 ---
@@ -33,7 +33,7 @@ Verify the following:
     For more information, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/configure-now-assist-va.md).
 
 -   You have activated Now LLM Service as a provider. For more information, see [Manage AI models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/manage-large-language-models.md).
--   You have set up AI Search. For more information, see [AI Search readiness for ServiceNow Otto on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-ai-impl-ai-search.md).
+-   You have set up AI Search. For more information, see [AI Search readiness for AI on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/sn-ai-impl-ai-search.md).
 -   You have installed the following ServiceNow Otto for Setup applications from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home):
     -   ServiceNow Otto for Setup \(sn\_ia\)
     -   ServiceNow Otto for Setup Common \(sn\_ia\_common\)

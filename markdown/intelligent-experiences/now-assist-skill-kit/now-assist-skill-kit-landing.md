@@ -1,20 +1,20 @@
 ---
 title: AI Skill Kit
-description: Use ServiceNow AI Skill Kit to create and publish custom prompts and skills for ServiceNow Otto. Creating custom skills and prompts enables you to have greater flexibility with ServiceNow Otto's generative AI capabilities.
+description: Use ServiceNow AI Skill Kit to create and publish custom prompts and skills for ServiceNow Otto. Creating custom skills and prompts gives you greater flexibility with ServiceNow Otto's generative AI capabilities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-skill-kit/now-assist-skill-kit-landing.html
 release: australia
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Enable AI experiences]
 ---
 
 # AI Skill Kit
 
-Use ServiceNow® AI Skill Kit to create and publish custom prompts and skills for ServiceNow Otto. Creating custom skills and prompts enables you to have greater flexibility with ServiceNow Otto's generative AI capabilities.
+Use ServiceNow® AI Skill Kit to create and publish custom prompts and skills for ServiceNow Otto. Creating custom skills and prompts gives you greater flexibility with ServiceNow Otto's generative AI capabilities.
 
 \[Omitted video\] Description: AI Skill Kit video that shows how to build a custom skill.
 

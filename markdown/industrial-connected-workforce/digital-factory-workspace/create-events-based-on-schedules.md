@@ -18,7 +18,7 @@ Create a plan for the scheduled creation of standard tasks.
 
 ## Before you begin
 
-To create a template schedule, you must define a schedule first. For more information about defining schedules, see [Define a schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_DefineASchedule.md). To create a custom template that is based on shifts, refer to [Define a shift](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/define-shifts.md) to configure shifts.
+To create a shift-based custom schedule, configure shifts first. For more information, see [Define a shift](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/define-shifts.md).
 
 Role required: sn\_icw\_std.standard\_author
 
@@ -38,7 +38,7 @@ Role required: sn\_icw\_std.standard\_author
 
 6.  Select **Save**.
 
-7.  For custom schedules, select **Custom schedule** to configure the scheduled plan.
+7.  Select **Custom schedule** to configure the scheduled plan.
 
 8.  To create a shift-based schedule, enable the **Shift** option before filling in the Custom schedule form fields.
 

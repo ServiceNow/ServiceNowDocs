@@ -27,7 +27,7 @@ Role required: none
 
 The Amazon S3 external content connector retrieves content from buckets in your Amazon S3 source system using the Amazon Web Services \(AWS\) API. To access your Amazon S3 buckets, the connector uses an access key ID and secret access key that you define for a new Identity and Access Management \(IAM\) user. You specify bucket access permissions for this IAM user with an IAM policy.
 
-Your ServiceNow AI Platform needs this IAM user's access key ID and secret access key to configure the Amazon S3 external content connector for proper connection to your AWS account.
+Your ServiceNow AI Platform administrator needs this IAM user's access key ID and secret access key to configure the Amazon S3 external content connector for proper connection to your AWS account.
 
 **Important:** All content the connector retrieves from your Amazon S3 buckets is treated as public content, searchable by everyone who has access to your configured AI Search experience.
 

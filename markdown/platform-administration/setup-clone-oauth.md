@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/setup-clone-oauth.html
 release: australia
 topic_type: task
-last_updated: "2026-06-10"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Register instance for cloning, Configure, Instance Clone, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -16,7 +16,7 @@ Complete a one-time OAuth setup to register a target instance for cloning. This 
 
 ## Before you begin
 
-The target instance must run an OAuth-capable version of the Clone Admin Console OAuth clone target authentication requires Australia Patch 5 or later on both the source and target instances.
+Both the source and target instances must be on Australia Patch 5 or later to use OAuth target authentication.
 
 Roles required:
 

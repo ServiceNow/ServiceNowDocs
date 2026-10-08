@@ -34,7 +34,7 @@ Preconfigured in-form analytics are available as plugins for several application
 **Related topics**  
 
 
-[Using breakdowns on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_SpecialDashboards.md)
+[Using breakdowns on responsive dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_SpecialDashboards.md)
 
 [UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_UIActions.md)
 

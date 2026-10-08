@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-zurich-australia/australia-zurich-servicenowottoforcustomerservicemanagementcsm-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 14
 breadcrumb: [Products combined by family]
 ---
@@ -166,6 +166,11 @@ Implement security in ServiceNow Otto for CSM skills through ACLs and user ident
  -   **[New third-party AI model provider options available for all AI applications](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=zurich&ft:locale=en-US)**
 
 Google Gemini and AWS Claude are available for generative AI skills and AI agents, in addition to Now LLM Service and Azure OpenAI.
+
+
+ -   **[Availability of MCP Server in ServiceNow Otto for Customer Service Management \(CSM\)](https://www.servicenow.com/docs/access?context=csm-mcp-server&family=zurich&ft:locale=en-US)**
+
+ServiceNow Otto for Customer Service Management \(CSM\) can now provide key data and AI actions through MCP connectors, bringing intelligent case management to third-party interfaces seamlessly. CSM customers can now use subflow and actions such as retrieve cases and case task details or AI skills such as generate summaries and resolution notes, analyze sentiment, and draft activity responses when using any AI-enabled MCP client, such as Moveworks or frontier LLM model channels such as Claude in the web.
 
 
 </td></tr><tr><td>

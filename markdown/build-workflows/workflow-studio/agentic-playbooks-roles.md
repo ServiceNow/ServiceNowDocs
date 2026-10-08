@@ -9,7 +9,7 @@ classification: workflow-studio
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Reference, Agentic Playbooks, Workflow Studio, Build workflows]
+breadcrumb: [Reference, Agentic Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Agentic Playbooks user roles

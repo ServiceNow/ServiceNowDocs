@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/i
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 7
+reading_time_minutes: 6
 breadcrumb: [Integrating Voice with other applications, ServiceNow Voice, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -152,7 +152,7 @@ Set up a collection of the required Amazon Web Services \(AWS\) resources. For m
 
 -   Use AWS Cloud Formation template to describe AWS resources and properties
 -   Use AWS Cloud Formation stack to provision the resources described in the template
-**Note:** If you're upgrading from a previous release, point your existing deployment of Lambda function running on Node.js 10.x to point it to Node.js 14.x. For more information, see the Amazon [documentation](https://aws.amazon.com/blogs/compute/node-js-14-x-runtime-now-available-in-aws-lambda/).
+**Note:** If you're upgrading from a previous release, point your Lambda function to one of the AWS supported versions. For more information, see the Amazon [documentation](https://docs.aws.amazon.com/lambda/latest/dg/lambda-nodejs.html).
 
 </td></tr><tr><td>
 

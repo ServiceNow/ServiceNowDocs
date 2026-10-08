@@ -9,7 +9,7 @@ classification: software-asset-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 14
-breadcrumb: [Configure ServiceNow Otto for SAM, Configure, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Configure ServiceNow Otto for SAM, Configuring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Skill inputs and triggers for ServiceNow Otto for Software Asset Management \(SAM\)
@@ -635,32 +635,19 @@ The Spend transaction software classification skill first identifies whether eac
 
 The following table lists the trigger for the Spend transaction software classification skill.
 
-<table id="table_spend_txn_class_trig"><thead><tr><th>
+|Trigger|Description|
+|-------|-----------|
+|Auto-triggered|The skill classifies spend transactions as part of the spend transaction import pipeline through the **SAM - Label Spend Transactions** scheduled job. The job processes batches of transactions that haven't yet been classified.|
 
-Trigger
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Auto-triggered
-
-</td><td>
-
-The skill classifies spend transactions as part of the spend transaction import pipeline through the **SAM - Label Spend Transactions** scheduled job. The job processes batches of transactions that haven't yet been classified.
-
-</td></tr></tbody>
-</table>The following table lists the input for the Spend transaction software classification skill.
+The following table lists the input for the Spend transaction software classification skill.
 
 |Input|Description|
 |-----|-----------|
-|Software Spend Transactions \[sam\_spend\_transaction\]|The skill reads the vendor name, transaction description, and GL account fields from imported spend transaction records.|
+|Software Spend Transactions \[sam\_spend\_transaction\]|Reads the vendor name, transaction description, and GL account fields from imported spend transaction records.|
 
-The following table lists the plugin and store app dependencies for the Spend transaction software classification skill in the Australia release.
+The following table lists the plugin and store app dependencies for the Spend transaction software classification skill in the Brazil release.
 
-<table id="table_spend_txn_class_plugins_aus"><thead><tr><th>
+<table id="table_spend_txn_class_plugins_bra"><thead><tr><th>
 
 Release
 
@@ -674,7 +661,7 @@ Store App with Version
 
 </th></tr></thead><tbody><tr><td>
 
-Australia Patch 6
+Brazil
 
 </td><td>
 
@@ -684,7 +671,7 @@ Australia Patch 6
 </td><td>
 
 -   ServiceNow Otto for Software Asset Management \(SAM\) \[sn\_now\_assist\_sam\] - 11.0.0
--   Software asset workspace \[sn\_sam\_workspace\] - 11.0.20
+-   Software Asset Workspace \[sn\_sam\_workspace\] - 12.0.4
 
 </td></tr></tbody>
 </table>## Spend transaction software normalization skill
@@ -695,7 +682,7 @@ The following table lists the trigger for the Spend transaction software normali
 
 |Trigger|Description|
 |-------|-----------|
-|Auto-triggered|The skill normalizes the raw publisher and raw product after the Spend transaction software classification skill identifies a transaction as software. When a match is found in existing publisher and product records, the skill populates the Publisher and Product fields on the spend transaction record.|
+|Auto-triggered|Normalizes the raw publisher and raw product after the Spend transaction software classification skill identifies a transaction as software. When a match is found in existing publisher and product records, the skill populates the Publisher and Product fields on the spend transaction record.|
 
 The following table lists the input for the Spend transaction software normalization skill.
 
@@ -703,9 +690,9 @@ The following table lists the input for the Spend transaction software normaliza
 |-----|-----------|
 |Extracted publisher and product values|Raw publisher and product produced by the Spend transaction software classification skill for transactions identified as software.|
 
-The following table lists the plugin and store app dependencies for the Spend transaction software normalization skill in the Australia release.
+The following table lists the plugin and store app dependencies for the Spend transaction software normalization skill in the Brazil release.
 
-<table id="table_spend_txn_norm_plugins_aus"><thead><tr><th>
+<table id="table_spend_txn_norm_plugins_bra"><thead><tr><th>
 
 Release
 
@@ -719,17 +706,17 @@ Store App with Version
 
 </th></tr></thead><tbody><tr><td>
 
-Australia Patch 6
+Brazil
 
 </td><td>
 
--   Software Asset Management Professional \[com.snc.samp\]
+-   Software Asset Management Professional\[com.snc.samp\]
 -   Software Asset Management - Spend Detection \[com.sn\_sam\_spend\]
 
 </td><td>
 
 -   ServiceNow Otto for Software Asset Management \(SAM\) \[sn\_now\_assist\_sam\] - 11.0.0
--   Software asset workspace \[sn\_sam\_workspace\] - 11.0.20
+-   Software Asset Workspace \[sn\_sam\_workspace\] - 12.0.4
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Configuring ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/now-assist-sam-configuration.md)

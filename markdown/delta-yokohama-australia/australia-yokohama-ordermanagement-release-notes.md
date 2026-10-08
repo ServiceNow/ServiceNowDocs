@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-yokohama-australia/australia-yokohama-ordermanagement-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 11
 breadcrumb: [Products combined by family]
 ---
@@ -146,7 +146,7 @@ Australia
 
 </td><td>
 
--   **[Order Fulfillment Milestones](https://www.servicenow.com/docs/access?context=reviewing-orchestration-plans-order-fulfillment&family=australia&ft:locale=en-US)**
+-   **[\[Placeholder link text to key order-line-milestones\]](https://www.servicenow.com/docs/access?context=order-line-milestones&family=australia&ft:locale=en-US)**
 
 Track order progress through configurable fulfillment milestones mapped to order specifications. Milestones are automatically generated when order lines are created and can be manually marked as reached. View milestone details, track milestone status on order lines, and associate milestones with tasks for integrated fulfillment tracking and visibility.
 

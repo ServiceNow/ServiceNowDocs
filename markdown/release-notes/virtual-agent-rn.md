@@ -1,12 +1,12 @@
 ---
 title: Virtual Agent release notes
-description: The ServiceNow Virtual Agent application provides user assistance through a conversational interface to help users to quickly obtain information and to perform common work tasks. Virtual Agent was enhanced and updated in the Australia release.The ServiceNow Virtual Agent application provides user assistance through a conversational interface to help users to quickly obtain information and to perform common work tasks. Virtual Agent was enhanced and updated in the Australia release.The ServiceNow Virtual Agent application provides user assistance through a conversational interface to help users to quickly obtain information and to perform common work tasks. Virtual Agent was enhanced and updated in the Australia release.The ServiceNow Virtual Agent application provides user assistance through a conversational interface to help users to quickly obtain information and to perform common work tasks. Virtual Agent was enhanced and updated in the Australia release.The ServiceNow Virtual Agent application provides user assistance through a conversational interface to help users to quickly obtain information and to perform common work tasks. Virtual Agent was enhanced and updated in the Australia release.The ServiceNow Virtual Agent application provides user assistance through a conversational interface to help users to quickly obtain information and to perform common work tasks. Virtual Agent was enhanced and updated in the Australia release.The ServiceNow Virtual Agent application provides user assistance through a conversational interface to help users to quickly obtain information and to perform common work tasks. Virtual Agent was enhanced and updated in the Australia release.
+description: The ServiceNow Virtual Agent application provides user assistance through a conversational interface to help users to quickly obtain information and to perform common work tasks. Virtual Agent was enhanced and updated in the Australia release.The ServiceNow Virtual Agent application provides user assistance through a conversational interface to help users obtain information and perform common work tasks. Virtual Agent was enhanced and updated in the Australia release.The ServiceNow Virtual Agent application provides user assistance through a conversational interface to help users to quickly obtain information and to perform common work tasks. Virtual Agent was enhanced and updated in the Australia release.The ServiceNow Virtual Agent application provides user assistance through a conversational interface to help users to quickly obtain information and to perform common work tasks. Virtual Agent was enhanced and updated in the Australia release.The ServiceNow Virtual Agent application provides user assistance through a conversational interface to help users to quickly obtain information and to perform common work tasks. Virtual Agent was enhanced and updated in the Australia release.The ServiceNow Virtual Agent application provides user assistance through a conversational interface to help users to quickly obtain information and to perform common work tasks. Virtual Agent was enhanced and updated in the Australia release.The ServiceNow Virtual Agent application provides user assistance through a conversational interface to help users to quickly obtain information and to perform common work tasks. Virtual Agent was enhanced and updated in the Australia release.The ServiceNow Virtual Agent application provides user assistance through a conversational interface to help users to quickly obtain information and to perform common work tasks. Virtual Agent was enhanced and updated in the Australia release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/virtual-agent-rn.html
 release: australia
 topic_type: topic
-last_updated: "2026-03-27"
-reading_time_minutes: 11
+last_updated: "2026-10-05"
+reading_time_minutes: 13
 breadcrumb: [Conversational Interfaces release notes, Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
 
@@ -16,7 +16,11 @@ The ServiceNow® Virtual Agent application provides user assistance through a co
 
 ## About Virtual Agent
 
-Australia Patch 6
+[Australia Patch 7](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-7.md)
+
+-   Use automated evaluations to test your conversational assistant.
+
+[Australia Patch 6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-6.md)
 
 -   Embed the enhanced chat widget on third-party websites.
 
@@ -39,6 +43,55 @@ See [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/
 
 **Parent Topic:**[Conversational Interfaces release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/conversational-interfaces-rn-landing.md)
 
+## October 2026
+
+The ServiceNow® Virtual Agent application provides user assistance through a conversational interface to help users obtain information and perform common work tasks. Virtual Agent was enhanced and updated in the Australia release.
+
+### What's new
+
+
+
+-   **[Cancel live agent request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/nava-integrated-chat.md)**
+
+    In premium chat, select the **Cancel** button on the banner while a live agent request is in process to cancel the request. After the request is canceled or the live agent connects to the chat, the banner disappears from chat.
+
+-   **[Configure voice settings for a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/manage-chat-voice-exp.md)**
+
+    Turn voice dictation on or off for an assistant on the **Voice experience** page. For ServiceNow Otto for Virtual Agent assistants, voice dictation is only available for premium chat. For ServiceNow Otto panel – Platform assistant, voice dictation is available for all chat experiences.
+
+    **Note:** Voice dictation was previously known as voice input, which was enabled from within [Enable additional chat features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/additional-chat-features.md).
+
+-   **[Display your assistant on Platform or ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/display-nap-assistant.md)**
+
+    For eligible new customers, premium chat is the default and the only available chat experience. If the assistant uses the Now LLM provider, the premium chat option isn't available.
+
+-   **[Non-English language recognition for voice input](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/nava-integrated-chat.md)**
+
+    When you speak in the default language selected in your profile, even if this language is non-English, your speech is transcribed into text in that same language.
+
+-   **[Testing assistant conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/evaluations-ad.md)**
+
+    Measure the quality of your conversational assistant at scale with automated evaluations in Assistant Designer. Choose the metrics that define success for you, such as conversation success, conversation fluency, faithfulness, skill selection accuracy, and turn count. You can run them against your own test data set and ground truth.
+
+
+### What's changed
+
+-   **[Enable additional chat features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/additional-chat-features.md)**
+
+    The **Prioritize AI agents during skills discovery** option is available when configuring additional chat features. Because all assistants now use agentic orchestration by default, AI agent skills are available during skills discovery. Turning on this option gives AI agents priority over other assets \(such as knowledge bases and Q&amp;A modules\) when the assistant discovers skills. If your assistant has overlapping skills, for example, a knowledge base article and an AI agent that both answer the same question, this setting lets you decide which one is prioritized, so you can steer users toward the AI agent experience instead of a static article.
+
+-   **[ServiceNow® Otto for Virtual Agent system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/nava-sys-props.md)**
+
+    The **sn\_nowassist\_va.assistant\_personalization** system property is removed from the admin experience. This property previously let admins show or hide chat personalization options \(agent persona, tone, and response length\) when [branding an assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/brand-assistant.md). By default, all settings are shown.
+
+
+### What's deprecated or removed
+
+-   **Agentic support page**
+
+    The **Agentic support** page has been deprecated for ServiceNow Otto for Virtual Agent and ServiceNow Otto panel - Platform. There is no loss of functionality previously provided by the **Agentic support** page. By default, all existing assistants operate in agentic mode. The **Prioritize AI agents during skills discovery** option is available when configuring [additional chat features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/additional-chat-features.md).
+
+
 ## September 2026
 
 The ServiceNow® Virtual Agent application provides user assistance through a conversational interface to help users to quickly obtain information and to perform common work tasks. Virtual Agent was enhanced and updated in the Australia release.
@@ -53,10 +106,6 @@ The ServiceNow® Virtual Agent application provides user assistance through a co
 
     Select **View all topics** on the chat’s greeting screen to show all promoted topics in premium chat.
 
--   **[Assign Model Context Protocol \(MCP\) servers to an assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/assign-mcp-servers.md)**
-
-    Configure and update permissions for each tool when assigning a Model Context Protocol \(MCP\) server to an assistant that uses premium chat. A tool is a function made available through an MCP server that allows an assistant to access data or perform a task on behalf of the user.
-
 -   **[Display your assistant on Platform or ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/display-nap-assistant.md)**
 
     For eligible new customers, premium chat is the default and the only available chat experience. If the assistant uses the Now LLM provider, the premium chat option isn't available.
@@ -68,7 +117,7 @@ The ServiceNow® Virtual Agent application provides user assistance through a co
 
     View an updated Otto processing animation.
 
--   **[Assign Model Context Protocol \(MCP\) servers to an assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/assign-mcp-servers.md)**
+-   ****
 
     Role-based configuration is no longer stored or managed within Assistant Designer.
 
@@ -256,7 +305,7 @@ The ServiceNow® Virtual Agent application provides user assistance through a co
     In premium chat conversations, switch between multiple interactive views through the drop-down selector including Knowledge Base articles, catalog forms, org charts, and AI agent widgets.
 
 
--   **[Assign Model Context Protocol \(MCP\) servers to an assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/assign-mcp-servers.md)**
+-   ****
 
     Admins can assign configured Model Context Protocol \(MCP\) servers to assistants. Role-based access can be configured for each assigned MCP server to control which users can access MCP-provided capabilities through the assistant.
 

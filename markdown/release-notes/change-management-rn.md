@@ -29,6 +29,12 @@ See [Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowD
 
     Change Management is a ServiceNow AI Platform feature that is active by default. The Change Management plugins listed are activated by default.
 
+-   **Upgrade information**
+
+    The ITSM Enhanced Security Features plugin \(com.snc.itsm.enhanced\_security\) is now activated automatically when you upgrade to the Australia release. Previously, the plugin was activated only on new instances. Activating the plugin adds "deny unless authenticated" access control list \(ACL\) rules to several IT Service Management tables.
+
+    To revert to the pre-upgrade behavior, contact ServiceNow Support for a list of ACLs to deactivate on specific tables. As a last resort, Support can run a script that deactivates all the new ACLs.
+
 
 ## Accessibility and localization
 

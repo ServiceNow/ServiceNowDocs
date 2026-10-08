@@ -19,8 +19,12 @@ Reference topics provide pattern information for AI Agent Topology Mapping, incl
 
 -   **[Amazon Bedrock pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/amazon-bedrock-pattern.md)**  
 AI Agent Topology Mapping discovers Amazon Bedrock AI services, agents, and models during horizontal discovery.
--   **[Microsoft Foundry \(Classic\) pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/microsoft-foundry-classic-pattern.md)**  
-AI Agent Topology Mapping discovers Microsoft Foundry \(Classic\) services, agents, and models during horizontal discovery.
+-   **[Microsoft Foundry \(classic\) pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/microsoft-foundry-classic-pattern.md)**  
+AI Agent Topology Mapping discovers Microsoft Foundry \(classic\) services, assistants, and models during horizontal discovery.
+-   **[Microsoft Foundry \(new\) pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/microsoft-foundry-new-pattern.md)**  
+AI Agent Topology Mapping discovers Microsoft Foundry \(new\) services, agents, and models during horizontal discovery.
+-   **[Microsoft Foundry Hub pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/microsoft-foundry-hub-pattern.md)**  
+AI Agent Topology Mapping discovers Microsoft Foundry Hub assistants and models during horizontal discovery.
 
 **Parent Topic:**[ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-visibility/itom-visibility-landing-page.md)
 

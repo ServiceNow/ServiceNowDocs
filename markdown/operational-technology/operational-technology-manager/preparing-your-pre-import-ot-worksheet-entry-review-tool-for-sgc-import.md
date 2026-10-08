@@ -921,7 +921,7 @@ string
 
 </td><td>
 
-The equipment models start at the site level and contain a detailed hierarchical structure that describes each industrial site.For more information, see [ISA-95 equipment model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/isa-95-equipment-model.md).
+The equipment models start at the site level and contain a detailed hierarchical structure that describes each industrial site.For more information, see [Industrial Process Manager common terminology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/operational-technology/industrial-process-manager/isa-95-equipment-model.md).
 
 </td></tr><tr><td>
 

@@ -203,15 +203,15 @@ You can assign ownership of a business impact analysis to an individual owner, t
 
 20. To perform more actions on the BIA, select **More actions**.
 
-<table id="choicetable_ypb_yzx_xfc"><thead><tr><th align="left" id="d269429e796">
+<table id="choicetable_ypb_yzx_xfc"><thead><tr><th align="left" id="d274393e796">
 
 Step
 
-</th><th align="left" id="d269429e799">
+</th><th align="left" id="d274393e799">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d269429e805">
+</th></tr></thead><tbody><tr><td id="d274393e805">
 
 **Select __Discuss__.**
 
@@ -219,7 +219,7 @@ Description
 
 Add the subject for the discussion and add participants that have access to the record. Include a brief message for the participants and select **Start discussion**.
 
-</td></tr><tr><td id="d269429e820">
+</td></tr><tr><td id="d274393e820">
 
 **Select __Generate MS Word__.**
 
@@ -227,7 +227,7 @@ Add the subject for the discussion and add participants that have access to the 
 
 Generate a report of the BIA, BCP, exercise, or crisis record in Microsoft Word format. The Microsoft Word copy of the BIA record is successfully generated that you can download.
 
-</td></tr><tr><td id="d269429e838">
+</td></tr><tr><td id="d274393e838">
 
 **Select __Generate PDF__.**
 
@@ -235,7 +235,7 @@ Generate a report of the BIA, BCP, exercise, or crisis record in Microsoft Word 
 
 Generate a PDF of the BIA with the legacy or Smart Assessment. The PDF of the BIA record is successfully generated that you can download. In the Impact Assessments section of the PDF, details of the Smart assessment are covered, including questions and answers for RPO and RTO in a tabular format, along with dependencies, contributors, and attachments.
 
-</td></tr><tr><td id="d269429e853">
+</td></tr><tr><td id="d274393e853">
 
 **Select __Copy__.**
 
@@ -245,7 +245,7 @@ Create a copy of the BIA. BIA details, including its state, assessments, questio
 
 The copied BIA inherits the original **BIA owner group** only. You're automatically assigned as the individual **BIA owner** of the copy.
 
-</td></tr><tr><td id="d269429e875">
+</td></tr><tr><td id="d274393e875">
 
 **Select __360º view__.**
 
@@ -253,7 +253,7 @@ The copied BIA inherits the original **BIA owner group** only. You're automatica
 
 Generate 360º relationships for the BIA. A graphical presentation of the BIA and its relationships is displayed.
 
-</td></tr><tr><td id="d269429e887">
+</td></tr><tr><td id="d274393e887">
 
 **Select __Delete__.**
 

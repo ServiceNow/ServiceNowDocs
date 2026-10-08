@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/australia/field-service-managem
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 21
+reading_time_minutes: 22
 breadcrumb: [Components installed, Reference, Field Service Management]
 ---
 
@@ -373,6 +373,67 @@ Enables Field Service Management to use the map ID for Google Maps used for clou
 
 -   Type: String
 -   Default value: `Blank`
+
+</td></tr><tr><td>
+
+sn\_fsm\_shift\_schdl.enable\_embed\_break\_in\_wot
+
+</td><td>
+
+Enables or disables break embedding within work order tasks globally.-   Type: Boolean
+-   Default value: true
+-   Location: System Properties list \[sys\_properties\] table
+
+</td></tr><tr><td>
+
+sn\_fsm\_shift\_schdl.wfo.break.auto\_status
+
+</td><td>
+
+When enabled, a break's status updates automatically once its scheduled end time passes, so technicians don't have to manually mark the break as taken.-   Type: Boolean
+-   Default value: true
+-   Location: System Properties list \[sys\_properties\] table
+
+</td></tr><tr><td>
+
+sn\_fsm\_shift\_schdl.wfo.break.reminder\_minutes
+
+</td><td>
+
+Sets how many minutes before a break's scheduled start time the system sends a reminder.-   Type: Integer
+-   Default value: 15
+-   Location: System Properties list \[sys\_properties\] table
+
+</td></tr><tr><td>
+
+sn\_fsm\_shift\_schdl.break\_buffer\_enabled
+
+</td><td>
+
+When true, pre/post break window buffering is active. Buffer values come from attribute plan records \(per-agent\) or break\_buffer\_minutes \(global fallback\).-   Type: Boolean
+-   Default value: false
+-   Location: System Properties list \[sys\_properties\] table
+
+</td></tr><tr><td>
+
+sn\_fsm\_shift\_schdl.break\_buffer\_minutes
+
+</td><td>
+
+Number of minutes of buffer time allowed around break windows.-   Type: Integer
+-   Default value: 0
+-   Allowed values: any positive integer — minutes of flexibility added to each side of the break window slot \(for example, a value of 5 expands the slot by 5 minutes on each side\)
+-   Location: System Properties list \[sys\_properties\] table
+
+</td></tr><tr><td>
+
+sn\_fsm\_shift\_schdl.wfo.break.end\_early\_enabled
+
+</td><td>
+
+When enabled \(and sn\_fsm\_shift\_schdl.wfo.break.auto\_status is off\), technicians can end a break early from the mobile agent app instead of waiting for it to end automatically. If sn\_fsm\_shift\_schdl.wfo.break.auto\_status is on, then sn\_fsm\_shift\_schdl.wfo.break.end\_early\_enabled is ignored.-   Type: Boolean
+-   Default value: false
+-   Location: System Properties list \[sys\_properties\] table
 
 </td></tr></tbody>
 </table>## Properties for calculating estimated travel time and distance
@@ -1171,6 +1232,26 @@ sn\_fsm\_disp\_wrkspc.dispatcher\_workspace.calendar\_event\_hover\_popover
 
 Enable on-hover popover on events in the calendar on Dispatcher Workspace.-   Type: true/ false
 -   Default value: true
+-   Location: System Properties list \[sys\_properties\] table
+
+</td></tr><tr><td>
+
+sn\_fsm\_disp\_wrkspc.dispatcher\_workspace.avoid\_ferry\_routes
+
+</td><td>
+
+When set to true, routes avoid ferries unless no other land route is available. Land routes are used even if they take longer than a ferry route. A ferry route is used only if there is no available land route.-   Type: true/ false
+-   Default value: false
+-   Location: System Properties list \[sys\_properties\] table
+
+</td></tr><tr><td>
+
+work.management.allow.doublebooking.event
+
+</td><td>
+
+Allow dispatchers to double book tasks along with events.-   Type: string
+-   Default value: false.
 -   Location: System Properties list \[sys\_properties\] table
 
 </td></tr></tbody>

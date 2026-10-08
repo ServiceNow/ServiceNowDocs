@@ -29,7 +29,7 @@ Add a new lifecycle for a TRM product. It creates the record directly without se
 -   **[Request TRM product lifecycle form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-create-trm-prod-lifecycle-req-form.md)**  
 Add a new request to create a lifecycle for a TRM product. An email notification is sent to the approver for approval. The approver belongs to the Enterprise Architect group.
 -   **[TRM technical debt form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-trm-technical-debt-form.md)**  
-Technology Reference Model \(TRM\) technical debts are created for products that aren't aligned with TRM phases and standards.
+Create Technology Reference Model \(TRM\) technical debts for products that aren't aligned with TRM phases and standards.
 -   **[TRM technical debt states and transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-trm-technical-debt-states.md)**  
 A TRM technical debt record persists across scheduled job runs and moves between Active, Resolved, and Archived states instead of being deleted and re-created.
 -   **[Governing TRM product fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-trm-governing-fields.md)**  

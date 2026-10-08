@@ -18,6 +18,8 @@ As administrator manage contract records.
 
 -   **[View a contract record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-view-contract-rec.md)**  
 View the history of a contract request to track changes, review the audit trail, and update fields. Easily see the date a contract was modified and who modified it.
+-   **[Contract repository record tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-view-cntr-tabs.md)**  
+Use the tabs on a contract repository record to view contract details, documents, requests, obligations, and history. Some tabs appear only after an amendment or renewal workflow completes.
 -   **[Modify a contract record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-modify-contract-rec.md)**  
 After a contract record is created, you can change the end date, parent contract, and contract model.
 -   **[Configure fields in contract template to display correct sys\_id value in contract documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-addin-adv-script.md)**  

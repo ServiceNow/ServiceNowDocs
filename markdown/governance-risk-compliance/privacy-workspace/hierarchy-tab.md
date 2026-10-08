@@ -7,7 +7,7 @@ release: australia
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Processing activities, Explore, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -32,9 +32,17 @@ You can also collect hierarchy information from business users by adding this se
 
     The node for which you're creating the relationship. When only one node has been added to the hierarchy, the primary node is the same as the primary record. Once more nodes are added, the primary node can be any node that has been linked with the processing activity.
 
+-   **Primary node location**
+
+    Location of the primary node. This field is automatically populated from the location set on the node. If the node location is not specified, the associated entity location is used. If that is not specified either, the associated CMDB record location is used.
+
 -   **Related node**
 
     The node connected to the primary node by a relationship. Depending on the relationship type selected, the related node can be the source of data flowing into the primary node or the destination of data flowing out of it.
+
+-   **Related node location**
+
+    Location of the related node. This field is automatically populated from the location set on the node. If the node location is not specified, the associated entity location is used. If that is not specified either, the associated CMDB record location is used.
 
 -   **Relationship type**
 
@@ -53,19 +61,19 @@ The lineage map not only displays the nodes directly linked to the current proce
 
 ## Part of processing activity
 
-The Part of Processing Activity filter helps you distinguish between the applications, vendors, business processes, companies, entities, and processing activities that are part of the specific processing activity versus those that are linked to it, but not part of it.
+The Show relationships filter helps you distinguish between the applications, vendors, business processes, companies, entities, and processing activities that are part of the specific processing activity versus those that are linked to it, but not part of it.
 
 Consider the Talent Screening processing activity, which includes SHL, HireVue, and Tableau. While Tableau and HireVue are part of Talent Screening, it is also used in other activities such as Interview Planning, since its data feeds into that process.
 
-Enabling this filter scopes the lineage map strictly to the nodes that belong to Talent Screening. To explore the broader data landscape, toggle the filter off to access the global map, where you can see how HireVue and Tableau connect to and support other processing activities beyond Talent Screening.
+To scope relationships strictly to the nodes that belong to Talent Screening, select Part of processing activity from the drop-down. To access the global map and explore the broader data landscape, select All relationships, which displays how HireVue and Tableau connect to and support other processing activities beyond Talent Screening.
 
-\[Omitted image "processing-activity-enabled.png"\] Alt text: \[Part of processing activity checkbox selected\]
+\[Omitted image "processing-activity-enabled.png"\] Alt text: Part of processing activity filter selected
 
-\[Omitted image "processing-activity-disabled.png"\] Alt text: Part of processing activity checkbox disabled
+\[Omitted image "processing-activity-disabled.png"\] Alt text: All relationships filter selected
 
 ## How Part of processing activity works
 
-Part of Processing Activity is always defined relative to the primary record. You can use the Part of processing activity toggle in the lineage map to show only the nodes that constitute the current processing activity. Nodes that exist in the hierarchy but are not marked as Part of processing activity are hidden when the toggle is enabled. By default, the lineage map displays only nodes marked as Part of Processing Activity.
+Part of processing activity is always defined relative to the primary record. Selecting Part of processing activity displays only the nodes that constitute the current processing activity. Nodes that exist in the hierarchy but are not marked as Part of processing activity are hidden when you choose this filter. By default, the lineage map displays only nodes marked as Part of processing activity.
 
 ## Update the maximum node level for the data lineage map
 

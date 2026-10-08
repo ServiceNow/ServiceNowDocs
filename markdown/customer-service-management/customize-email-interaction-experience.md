@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-06-25"
 reading_time_minutes: 1
 keywords: [Email Interaction for CSM]
-breadcrumb: [Email Interaction, Configure Email, Configure omnichannel, Configure, Customer Service Management]
+breadcrumb: [Configure the agent experience for email interactions, Email Interaction, Configure Email, Configure omnichannel, Configure, Customer Service Management]
 ---
 
 # Customize the email interaction experience

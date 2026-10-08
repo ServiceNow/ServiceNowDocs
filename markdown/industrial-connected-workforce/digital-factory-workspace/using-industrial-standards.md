@@ -26,6 +26,8 @@ Use the Industrial Standards application to manage industrial standards in your 
     Define when and how tasks should be automatically created from a standard using templates or custom schedules.
 
 
+-   **[Work set standard and task life cycles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/work-set-standard-task-life-cycle.md)**  
+A life cycle is the list of states that a work set standard or work set task can go through from creation to closure.
 -   **[Industrial Standards Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/industrial-standards-library.md)**  
 Use the Industrial Standards Library \(Standards hub\) to manage standards for the Industrial Connected Workforce \(ICW\).
 -   **[Scheduling standards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/scheduling-standards.md)**  
@@ -34,8 +36,6 @@ Scheduling of standards and tasks enables a proactive planning approach in manuf
 Use skill-based task management to assign manufacturing tasks only to workers who hold the necessary skills and certifications. This method helps reduce operational risk, supports compliance efforts, and contributes to higher job satisfaction by matching tasks to worker capabilities.
 -   **[Industrial standards and published standards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/relationship-industrial-published-standards.md)**  
 Industrial standards and published standards are stored in separate back-end tables. See how they relate. Choose the correct version of a standard depending on whether you need a specific version or the latest published one.
--   **[Work set standard and task life cycles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/work-set-standard-task-life-cycle.md)**  
-A life cycle is the list of states that a work set standard or work set task can go through from creation to closure.
 
 **Parent Topic:**[Using Digital Factory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/using-digital-factory-workspace.md)
 

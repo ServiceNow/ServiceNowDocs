@@ -9,6 +9,7 @@ classification: software-asset-management
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
+keywords: [software spend detection, software asset management software spend detection, software spend transaction, software spend detection user roles]
 breadcrumb: [Software Spend Detection, Software Asset Management, IT Asset Management, Asset Management]
 ---
 

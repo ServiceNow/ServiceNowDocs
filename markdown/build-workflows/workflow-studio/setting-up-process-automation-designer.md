@@ -31,6 +31,8 @@ Activate the Workflow Studio application to create flows, playbooks, and more fo
 Turn on the ServiceNow Otto for Creator skills for using generative AI for creating and managing Playbooks.
 -   **[Change the default LLM for playbook generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/change-default-llm-playbook-generation.md)**  
 Choose either the NowLLM/Mixtral model or OpenAI's GPT-4o as the default LLM to generate your playbooks.
+-   **[Managing playbook permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/playbook-permissions.md)**  
+Understand which mechanisms control who can build playbooks and who can interact with them while they run.
 -   **[Administering Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/administering-process-automation-designer.md)**  
 Monitor and troubleshoot issues by reviewing playbook executions.
 -   **[Configure accessibility preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/view-all-buttons-without-hover.md)**  

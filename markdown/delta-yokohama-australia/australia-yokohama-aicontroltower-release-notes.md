@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-yokohama-australia/australia-yokohama-aicontroltower-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 52
+last_updated: "2026-10-08"
+reading_time_minutes: 59
 breadcrumb: [Products combined by family]
 ---
 
@@ -118,7 +118,94 @@ Zurich
 
 </td><td>
 
--   **[Activity Center](https://www.servicenow.com/docs/access?context=aict-activity-center&family=zurich&ft:locale=en-US)**
+-   **[Control AI asset usage through policies](https://www.servicenow.com/docs/access?context=gov-pol-landing&family=zurich&ft:locale=en-US)**
+
+Create AI asset usage policies that automatically respond to detected AI threats or block an AI agent, domain, or model outright.
+
+-   **[Add an Azure AI Foundry connection](https://www.servicenow.com/docs/access?context=aict-configure-azure-foundry-security-connection&family=zurich&ft:locale=en-US)**
+
+Connect Azure AI Foundry to AI Control Tower so that policies and AI agent containment using kill switch protocol can reach and act on agents running on Azure AI Foundry.
+
+-   **[Add metrics from the AI system record](https://www.servicenow.com/docs/access?context=mon-ai-configure-ai-system-metrics&family=zurich&ft:locale=en-US)**
+
+Add evaluation metrics for a specific AI system without changing your organization's global metric configuration.
+
+-   **[Add specific metrics for one or more external AI systems](https://www.servicenow.com/docs/access?context=mon-ai-configure-asset-metrics-external&family=zurich&ft:locale=en-US)**
+
+Add, remove, or adjust the sample rate of metrics for one or more external AI systems, without changing your organization's global metric configuration.
+
+-   **[Add specific metrics for one or more ServiceNow AI systems](https://www.servicenow.com/docs/access?context=mon-ai-configure-asset-metrics-servicenow&family=zurich&ft:locale=en-US)**
+
+Add or remove metrics for one or more ServiceNow AI systems, without changing your organization's global metric configuration.
+
+-   **[Exclude an AI system from a metric](https://www.servicenow.com/docs/access?context=mon-ai-exclude-ai-systems-external&family=zurich&ft:locale=en-US)**
+
+Exclude one or more AI systems from a specific metric, without changing that metric's configuration for every other system.
+
+-   **[AI system performance metrics](https://www.servicenow.com/docs/access?context=mon-ai-asset-monitor&family=zurich&ft:locale=en-US)**
+
+Monitor operational health at a glance, including average latency and token usage per session.
+
+-   **[Latency and span counts for sessions](https://www.servicenow.com/docs/access?context=mon-ai-evaluated-sessions-overview&family=zurich&ft:locale=en-US)**
+
+See each session's response time and span count in the evaluated sessions lists and on individual session detail pages.
+
+-   **[Scoring bias indicator](https://www.servicenow.com/docs/access?context=mon-ai-monitoring-overview&family=zurich&ft:locale=en-US)**
+
+Learn when a composite score might be skewed. See how many evaluations back each metric, and identify when uneven evaluation coverage is influencing the score more than the configured weight suggests.
+
+-   **[Trace data retention controls](https://www.servicenow.com/docs/access?context=mon-ai-configure-trace-retention&family=zurich&ft:locale=en-US)**
+
+Keep session, trace, and span data for up to 30 days for scoring, or discard it to reduce storage usage, with quality and safety scores staying available either way. Discarding also disables AI Skill Kit insights and hides the evaluated sessions views.
+
+-   **[Custom date ranges for monitoring](https://www.servicenow.com/docs/access?context=mon-ai-monitoring-overview&family=zurich&ft:locale=en-US)**
+
+Analyze exactly the period you need by specifying an exact start and end date, up to 18 months apart.
+
+-   **[Review AI security posture in design-time metrics](https://www.servicenow.com/docs/access?context=gov-sec-reference&family=zurich&ft:locale=en-US)**
+
+Identify configuration issues in AI agents, tools, MCP servers, and system prompts that could lead to security risk with AI security posture metrics.
+
+-   **[Configuring connectors](https://www.servicenow.com/docs/access?context=aict-configuring-connectors&family=zurich&ft:locale=en-US)**
+    -   The Microsoft connector introduces the A365 agent platform to discover and import AI assets into ServiceNow AI Control Tower.
+-   **[Monitor agent activity chart improvements](https://www.servicenow.com/docs/access?context=mon-ai-monitoring-overview&family=zurich&ft:locale=en-US)**
+
+Monitor agentic AI performance over time using new filter options in the Monitor agent activity chart. View the top five lowest performing metrics, top five highest performing metrics, or view performance for a specific metric in the chart.
+
+-   **[Session details improvements](https://www.servicenow.com/docs/access?context=mon-ai-session-details&family=zurich&ft:locale=en-US)**
+
+View a list of lowest scoring metrics and the LLM judge's reasoning in the Quality and Safety score cards on the Session details page.
+
+-   **Connectors**
+
+Amazon Quick connector is a new connector which is part of discovering Systems, models, and prompts for creating AI connections.
+
+-   **[Edit an Explicit Block policy](https://www.servicenow.com/docs/access?context=gov-pol-edit-explicit-block-policy&family=zurich&ft:locale=en-US)**
+
+Change who an Explicit Block policy blocks, what they're blocked from using, or its follow-up actions after the policy is published.
+
+-   **[Block AI usage by department](https://www.servicenow.com/docs/access?context=gov-pol-create-explicit-block-policy&family=zurich&ft:locale=en-US)**
+
+Scope an Explicit Block policy to a department so everyone in that department is blocked from a specific AI agent, model, or domain.
+
+-   **[Use new role to contain AI agents](https://www.servicenow.com/docs/access?context=gov-sec-manage-ai-agents-using-kill-switch-protocol&family=zurich&ft:locale=en-US)**
+
+Perform AI agent containment \(kill switch\) with the AI Security Operator role. You can deactivate an AI agent without requiring full AI Steward–level access.
+
+-   **[Check whether the Security Analyzer agent is enabled](https://www.servicenow.com/docs/access?context=plat-ai-aict-security-analyzer-agent-ai-agent&family=zurich&ft:locale=en-US)**
+
+Check the status of the Security Analyzer agent which determines security event severity and insights for your top recommendations, data integrity incident detection, system prompt leakage, correctness detection, prompt injection, and agent goal deviation metrics. Available on the Security Insights tab in Settings &gt; Rules and templates &gt; Security.
+
+-   **[Sub-vendor AI costs](https://www.servicenow.com/docs/access?context=mc-ai-cost-types-and-sub-vendor-rates&family=zurich&ft:locale=en-US)**
+
+Set a rate for a specific service from an integrated vendor, such as an agent platform. The sub-vendor rate takes precedence over the vendor rate. The vendor rate applies to any usage that doesn't have a sub-vendor rate.
+
+-   **[\[Placeholder link text to key mc-subscription-based-cost-for-ai-vendors\]](https://www.servicenow.com/docs/access?context=mc-subscription-based-cost-for-ai-vendors&family=zurich&ft:locale=en-US)**
+
+Record per-seat subscription costs for integrated and non-integrated vendors. Specify the number of licensed seats, the cost per seat, and the contract dates. Optionally, add a one-time setup fee and distribute it over a set number of months so that it's included in the estimated monthly cost.
+
+
+ -   **[Activity Center](https://www.servicenow.com/docs/access?context=aict-activity-center&family=zurich&ft:locale=en-US)**
 
 Track and act on the governance work generated across AI Control Tower from a single workspace, including lifecycle tasks, security tasks, change and offboarding requests, and AI recommendations.
 
@@ -323,68 +410,50 @@ Use the following fields to specify additional details about your AI systems, AI
         -   Department
         -   Dataset creation date
 
- -   **[Detect shadow AI](https://www.servicenow.com/docs/access?context=sh-ai-landing&family=zurich&ft:locale=en-US)**
-
-Detect unsanctioned AI use in your organization and manage exposure by triaging detected AI services.
-
--   **[Control AI asset usage through policies](https://www.servicenow.com/docs/access?context=gov-pol-landing&family=zurich&ft:locale=en-US)**
-
-Create AI asset usage policies that automatically respond to detected AI threats or block an AI agent, domain, or model outright.
-
--   **[Add an Azure AI Foundry connection](https://www.servicenow.com/docs/access?context=aict-configure-azure-foundry-security-connection&family=zurich&ft:locale=en-US)**
-
-Connect Azure AI Foundry to AI Control Tower so that policies and AI agent containment using kill switch protocol can reach and act on agents running on Azure AI Foundry.
-
--   **[Add metrics from the AI system record](https://www.servicenow.com/docs/access?context=mon-ai-configure-ai-system-metrics&family=zurich&ft:locale=en-US)**
-
-Add evaluation metrics for a specific AI system without changing your organization's global metric configuration.
-
--   **[Add specific metrics for one or more external AI systems](https://www.servicenow.com/docs/access?context=mon-ai-configure-asset-metrics-external&family=zurich&ft:locale=en-US)**
-
-Add, remove, or adjust the sample rate of metrics for one or more external AI systems, without changing your organization's global metric configuration.
-
--   **[Add specific metrics for one or more ServiceNow AI systems](https://www.servicenow.com/docs/access?context=mon-ai-configure-asset-metrics-servicenow&family=zurich&ft:locale=en-US)**
-
-Add or remove metrics for one or more ServiceNow AI systems, without changing your organization's global metric configuration.
-
--   **[Exclude an AI system from a metric](https://www.servicenow.com/docs/access?context=mon-ai-exclude-ai-systems-external&family=zurich&ft:locale=en-US)**
-
-Exclude one or more AI systems from a specific metric, without changing that metric's configuration for every other system.
-
--   **[AI system performance metrics](https://www.servicenow.com/docs/access?context=mon-ai-asset-monitor&family=zurich&ft:locale=en-US)**
-
-Monitor operational health at a glance, including average latency and token usage per session.
-
--   **[Latency and span counts for sessions](https://www.servicenow.com/docs/access?context=mon-ai-evaluated-sessions-overview&family=zurich&ft:locale=en-US)**
-
-See each session's response time and span count in the evaluated sessions lists and on individual session detail pages.
-
--   **[Scoring bias indicator](https://www.servicenow.com/docs/access?context=mon-ai-monitoring-overview&family=zurich&ft:locale=en-US)**
-
-Learn when a composite score might be skewed. See how many evaluations back each metric, and identify when uneven evaluation coverage is influencing the score more than the configured weight suggests.
-
--   **[Trace data retention controls](https://www.servicenow.com/docs/access?context=mon-ai-configure-trace-retention&family=zurich&ft:locale=en-US)**
-
-Keep session, trace, and span data for up to 30 days for scoring, or discard it to reduce storage usage, with quality and safety scores staying available either way. Discarding also disables AI Skill Kit insights and hides the evaluated sessions views.
-
--   **[Custom date ranges for monitoring](https://www.servicenow.com/docs/access?context=mon-ai-monitoring-overview&family=zurich&ft:locale=en-US)**
-
-Analyze exactly the period you need by specifying an exact start and end date, up to 18 months apart.
-
--   **[Review AI security posture in design-time metrics](https://www.servicenow.com/docs/access?context=gov-sec-reference&family=zurich&ft:locale=en-US)**
-
-Identify configuration issues in AI agents, tools, MCP servers, and system prompts that could lead to security risk with AI security posture metrics.
-
--   **[Configuring connectors](https://www.servicenow.com/docs/access?context=aict-configuring-connectors&family=zurich&ft:locale=en-US)**
-    -   The Microsoft connector introduces the A365 agent platform to discover and import AI assets into ServiceNow AI Control Tower.
-
 </td></tr><tr><td>
 
 Australia
 
 </td><td>
 
--   **[Control AI asset usage through policies](https://www.servicenow.com/docs/access?context=gov-pol-landing&family=australia&ft:locale=en-US)**
+-   **[Monitor agent activity chart improvements](https://www.servicenow.com/docs/access?context=mon-ai-monitoring-overview&family=australia&ft:locale=en-US)**
+
+Monitor agentic AI performance over time using new filter options in the Monitor agent activity chart. View the top five lowest performing metrics, top five highest performing metrics, or view performance for a specific metric in the chart.
+
+-   **[Session details improvements](https://www.servicenow.com/docs/access?context=mon-ai-session-details&family=australia&ft:locale=en-US)**
+
+View a list of lowest scoring metrics and the LLM judge's reasoning in the Quality and Safety score cards on the Session details page.
+
+-   **Connectors**
+
+Amazon Quick connector is a new connector which is part of discovering Systems, models, and prompts for creating AI connections.
+
+-   **[Edit an Explicit Block policy](https://www.servicenow.com/docs/access?context=gov-pol-edit-explicit-block-policy&family=australia&ft:locale=en-US)**
+
+Change who an Explicit Block policy blocks, what they're blocked from using, or its follow-up actions after the policy is published.
+
+-   **[Block AI usage by department](https://www.servicenow.com/docs/access?context=gov-pol-create-explicit-block-policy&family=australia&ft:locale=en-US)**
+
+Scope an Explicit Block policy to a department so everyone in that department is blocked from a specific AI agent, model, or domain.
+
+-   **[Use new role to contain AI agents](https://www.servicenow.com/docs/access?context=gov-sec-manage-ai-agents-using-kill-switch-protocol&family=australia&ft:locale=en-US)**
+
+Perform AI agent containment \(kill switch\) with the AI Security Operator role. You can deactivate an AI agent without requiring full AI Steward–level access.
+
+-   **[Check whether the Security Analyzer agent is enabled](https://www.servicenow.com/docs/access?context=plat-ai-aict-security-analyzer-agent-ai-agent&family=australia&ft:locale=en-US)**
+
+Check the status of the Security Analyzer agent which determines security event severity and insights for your top recommendations, data integrity incident detection, system prompt leakage, correctness detection, prompt injection, and agent goal deviation metrics. Available on the Security Insights tab in Settings &gt; Rules and templates &gt; Security.
+
+-   **[Sub-vendor AI costs](https://www.servicenow.com/docs/access?context=mc-ai-cost-types-and-sub-vendor-rates&family=australia&ft:locale=en-US)**
+
+Set a rate for a specific service from an integrated vendor, such as an agent platform. The sub-vendor rate takes precedence over the vendor rate. The vendor rate applies to any usage that doesn't have a sub-vendor rate.
+
+-   **[\[Placeholder link text to key mc-subscription-based-cost-for-ai-vendors\]](https://www.servicenow.com/docs/access?context=mc-subscription-based-cost-for-ai-vendors&family=australia&ft:locale=en-US)**
+
+Record per-seat subscription costs for integrated and non-integrated vendors. Specify the number of licensed seats, the cost per seat, and the contract dates. Optionally, add a one-time setup fee and distribute it over a set number of months so that it's included in the estimated monthly cost.
+
+
+ -   **[Control AI asset usage through policies](https://www.servicenow.com/docs/access?context=gov-pol-landing&family=australia&ft:locale=en-US)**
 
 Apply policies to block AI activity and respond to AI threats.
 
@@ -483,7 +552,7 @@ See AI models, MCP servers, and providers in the agent map for complete resource
 
 -   **[Configure post-runtime security metrics](https://www.servicenow.com/docs/access?context=gov-sec-configure-event-metrics&family=australia&ft:locale=en-US)**
 
-System prompt leakage, threat monitoring, and sensitive data disclosure post-runtime metrics are now configured and active by default.
+System prompt leakage, threat monitoring, and sensitive data disclosure post-runtime metrics are now configured and active by default. The default values for Sampling rate and Max skill calls have changed to help ensure efficient, predictable analysis. If you're upgrading, your Sampling rate and Max skill calls are updated to the new defaults. Your Active setting for each metric is not affected. After upgrading, check your Sampling rate and Max skill calls settings under **Settings** &gt; **Rules and templates** &gt; **Security** and adjust if needed.
 
 -   **[Specify the asset state during AI asset creation](https://www.servicenow.com/docs/access?context=creating-ai-assets-newexperience&family=australia&ft:locale=en-US)**
 
@@ -643,13 +712,78 @@ Zurich
 
 </td><td>
 
--   **[New AI Control Tower experience](https://www.servicenow.com/docs/access?context=aict-ai-portfolio-overview&family=zurich&ft:locale=en-US)**
+-   **[Domain separation and AI Governance](https://www.servicenow.com/docs/access?context=aict-domain-separation&family=zurich&ft:locale=en-US)**
+
+Use AI Control Tower on a domain-separated instance.
+
+-   **[Domain separation and AI Governance](https://www.servicenow.com/docs/access?context=aict-domain-separation&family=zurich&ft:locale=en-US)**
+
+Use AI Control Tower on a domain-separated instance. In Security, detail pages for some metrics include a Domain column that shows the domain the AI asset belongs to, or shows `global` or is empty if domain separation isn't configured.
+
+-   **[Governing AI asset security](https://www.servicenow.com/docs/access?context=gov-sec-ai-asset&family=zurich&ft:locale=en-US)**
+
+Agent status is renamed to Access posture on the Security tab for an AI asset. Also, Detection time is now the first column in the list of events.
+
+-   **[Design-time metrics reorganized into subtabs](https://www.servicenow.com/docs/access?context=gov-sec-reference&family=zurich&ft:locale=en-US)**
+
+Design-time metrics are organized into three subtabs: AI security posture, AI vulnerabilities, and AI validation. If the AI Security Exposure Management plugin isn't installed, use the source dropdown to filter the metrics by asset source \(for example, ServiceNow or AWS Bedrock\).
+
+-   **[Governing AI asset security](https://www.servicenow.com/docs/access?context=gov-sec-ai-asset&family=zurich&ft:locale=en-US)**
+
+On the Security tab for an AI asset, a metric isn't shown if there's no data available for the asset. Also, access issues and access posture don't appear for AI models.
+
+-   **[Governing AI asset security](https://www.servicenow.com/docs/access?context=gov-sec-ai-asset&family=zurich&ft:locale=en-US)**
+
+AI agent containment using kill switch protocol is now available directly from an AI asset's Overview tab, not just its Security tab, for security events of any severity. It also supports retrying a failed or partial containment operation. You can also deactivate any managed AI agent directly from its asset record, whether or not it has an associated security event.
+
+-   **[Configuring security connections](https://www.servicenow.com/docs/access?context=aict-configuring-security-connections&family=zurich&ft:locale=en-US)**
+
+The Security tab under **Settings** &gt; **Integrations** is renamed to Control Enforcement Points.
+
+-   **[Add a Gemini Enterprise Agent Platform connection](https://www.servicenow.com/docs/access?context=aict-configure-gcp-vertex-ai-security-connection&family=zurich&ft:locale=en-US)**
+
+The GCP Vertex AI security connector is renamed to Gemini Enterprise Agent Platform.
+
+-   **[Agent containment list](https://www.servicenow.com/docs/access?context=gov-sec-review-kill-switch-protocol-log&family=zurich&ft:locale=en-US)**
+
+The Kill Switch Protocol Log is renamed the Agent containment list, and the **View details** option on the containment banner is renamed **View containment options**. The list now includes Domain and Actions columns. Containment details now show how the containment was initiated \(Manual or Automated\) and identity and enforcement details. The list can be filtered using the All, In progress, or Contained options, which replace the previous Show all link.
+
+-   **[AI Gateway](https://www.servicenow.com/docs/access?context=ai-gateway&family=zurich&ft:locale=en-US)**
+
+Starting in the September 2026 release, AI Gateway is available in AI Control Tower.
+
+-   **[Configuring connectors](https://www.servicenow.com/docs/access?context=aict-configuring-connectors&family=zurich&ft:locale=en-US)**
+    -   The GCP Vertex AI connector is renamed to Gemini Enterprise Agent Platform.
+    -   The application AI Service Graph Connector for GCP is renamed to AI Service Graph Connector for Google.
+    -   The Salesforce connector is renamed to AI Connector for Salesforce.
+-   **[View input and output in trace details](https://www.servicenow.com/docs/access?context=mon-ai-session-details&family=zurich&ft:locale=en-US)**
+
+Toggle between input and output when viewing trace details.
+
+-   **[Usability improvements to Security Overview metrics](https://www.servicenow.com/docs/access?context=gov-sec-reference&family=zurich&ft:locale=en-US)**
+
+See only actionable items in your top recommendations on the Security Overview tab. In addition, the recommendations rank AI agent insights by number of critical security events and show the agent name, critical event count, and top threat categories. The security events list now matches the list on the Post-runtime tab. The Access issues detailed view includes a description that explains each access issue in plain language—identifying the agent, the operation, the resource, and the denial count.
+
+-   **[Domain separation and AI Governance](https://www.servicenow.com/docs/access?context=aict-domain-separation&family=zurich&ft:locale=en-US)**
+
+Review sensitive data metrics for ServiceNow AI systems in a domain-separated instance. Available on the Runtime tab in Security.
+
+-   **[Configure Excessive Agency in Security](https://www.servicenow.com/docs/access?context=gov-sec-configure-event-metrics&family=zurich&ft:locale=en-US)**
+
+Control whether Excessive Agency is enabled in Post-runtime configuration in Security. This setting controls data for Access issues and Privileged AI agents metrics, as well as post-runtime metrics. The setting is off by default.
+
+-   **[Post-runtime Security probabilistic metrics and AI agent disabled by default](https://www.servicenow.com/docs/access?context=gov-sec-configure-event-metrics&family=zurich&ft:locale=en-US)**
+
+To reduce token consumption, screening for data integrity incident detection, system prompt leakage, correctness detection, prompt injection, and agent goal deviation is disabled by default. In addition, the Security Analyzer agent that determines security event severity and insights is disabled by default. The default sampling rate for all metrics is 1%. If you're upgrading, your Detection enabled setting for each metric isn’t affected. After upgrading, check your settings in **Settings** &gt; **Rules and templates** &gt; **Security** and adjust if needed.
+
+
+ -   **[New AI Control Tower experience](https://www.servicenow.com/docs/access?context=aict-ai-portfolio-overview&family=zurich&ft:locale=en-US)**
 
 The new AI Control Tower provides a more efficient, streamlined way for you to work. For information about how to upgrade, see the [AI Control Tower Migration \[KB3144679\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3144679) article in Now Support. Note that the legacy AI Control Tower workspace is still supported in this release.
 
 -   **[Now Assist &gt; ServiceNow Otto® announcement](https://www.servicenow.com/docs/access?context=sn-ai-implementation-landing&family=zurich&ft:locale=en-US)**
 
-Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
 
 -   **[Discover your agent network with the map](https://www.servicenow.com/docs/access?context=gov-sec-use-map&family=zurich&ft:locale=en-US)**
 
@@ -714,58 +848,34 @@ Starting with Australia Early Access, AI usage measurement is transitioning from
     -   The **Create AI Asset** button is added on the AI Control Tower home page.
     -   A new Quick link option is added to the employee center to help navigate AI asset owners and AI stewards to the AI Control Tower workspace home page.
 
- -   **[Domain separation and AI Governance](https://www.servicenow.com/docs/access?context=aict-domain-separation&family=zurich&ft:locale=en-US)**
-
-Use AI Control Tower on a domain-separated instance.
-
--   **[Domain separation and AI Governance](https://www.servicenow.com/docs/access?context=aict-domain-separation&family=zurich&ft:locale=en-US)**
-
-Use AI Control Tower on a domain-separated instance. In Security, detail pages for some metrics include a Domain column that shows the domain the AI asset belongs to, or shows `global` or is empty if domain separation isn't configured.
-
--   **[Governing AI asset security](https://www.servicenow.com/docs/access?context=gov-sec-ai-asset&family=zurich&ft:locale=en-US)**
-
-Agent status is renamed to Access posture on the Security tab for an AI asset. Also, Detection time is now the first column in the list of events.
-
--   **[Design-time metrics reorganized into subtabs](https://www.servicenow.com/docs/access?context=gov-sec-reference&family=zurich&ft:locale=en-US)**
-
-Design-time metrics are organized into three subtabs: AI security posture, AI vulnerabilities, and AI validation. If the AI Security Exposure Management plugin isn't installed, use the source dropdown to filter the metrics by asset source \(for example, ServiceNow or AWS Bedrock\).
-
--   **[Governing AI asset security](https://www.servicenow.com/docs/access?context=gov-sec-ai-asset&family=zurich&ft:locale=en-US)**
-
-On the Security tab for an AI asset, a metric isn't shown if there's no data available for the asset. Also, access issues and access posture don't appear for AI models.
-
--   **[Governing AI asset security](https://www.servicenow.com/docs/access?context=gov-sec-ai-asset&family=zurich&ft:locale=en-US)**
-
-AI agent containment using kill switch protocol is now available directly from an AI asset's Overview tab, not just its Security tab, for security events of any severity. It also supports retrying a failed or partial containment operation. You can also deactivate any managed AI agent directly from its asset record, whether or not it has an associated security event.
-
--   **[Configuring security connections](https://www.servicenow.com/docs/access?context=aict-configuring-security-connections&family=zurich&ft:locale=en-US)**
-
-The Security tab under **Settings** &gt; **Integrations** is renamed to Control Enforcement Points.
-
--   **[Add a Gemini Enterprise Agent Platform connection](https://www.servicenow.com/docs/access?context=aict-configure-gcp-vertex-ai-security-connection&family=zurich&ft:locale=en-US)**
-
-The GCP Vertex AI security connector is renamed to Gemini Enterprise Agent Platform.
-
--   **[Agent containment list](https://www.servicenow.com/docs/access?context=gov-sec-review-kill-switch-protocol-log&family=zurich&ft:locale=en-US)**
-
-The Kill Switch Protocol Log is renamed the Agent containment list, and the **View details** option on the containment banner is renamed **View containment options**. The list now includes Domain and Actions columns. Containment details now show how the containment was initiated \(Manual or Automated\) and identity and enforcement details. The list can be filtered using the All, In progress, or Contained options, which replace the previous Show all link.
-
--   **[AI Gateway](https://www.servicenow.com/docs/access?context=ai-gateway&family=zurich&ft:locale=en-US)**
-
-Starting in the September 2026 release, AI Gateway is available in AI Control Tower.
-
--   **[Configuring connectors](https://www.servicenow.com/docs/access?context=aict-configuring-connectors&family=zurich&ft:locale=en-US)**
-    -   The GCP Vertex AI connector is renamed to Gemini Enterprise Agent Platform.
-    -   The application AI Service Graph Connector for GCP is renamed to AI Service Graph Connector for Google.
-    -   The Salesforce connector is renamed to AI Connector for Salesforce.
-
 </td></tr><tr><td>
 
 Australia
 
 </td><td>
 
+-   **[View input and output in trace details](https://www.servicenow.com/docs/access?context=mon-ai-session-details&family=australia&ft:locale=en-US)**
+
+Toggle between input and output when viewing trace details.
+
+-   **[Usability improvements to Security Overview metrics](https://www.servicenow.com/docs/access?context=gov-sec-reference&family=australia&ft:locale=en-US)**
+
+See only actionable items in your top recommendations on the Security Overview tab. In addition, the recommendations rank AI agent insights by number of critical security events and show the agent name, critical event count, and top threat categories. The security events list now matches the list on the Post-runtime tab. The Access issues detailed view includes a description that explains each access issue in plain language—identifying the agent, the operation, the resource, and the denial count.
+
 -   **[Domain separation and AI Governance](https://www.servicenow.com/docs/access?context=aict-domain-separation&family=australia&ft:locale=en-US)**
+
+Review sensitive data metrics for ServiceNow AI systems in a domain-separated instance. Available on the Runtime tab in Security.
+
+-   **[Configure Excessive Agency in Security](https://www.servicenow.com/docs/access?context=gov-sec-configure-event-metrics&family=australia&ft:locale=en-US)**
+
+Control whether Excessive Agency is enabled in Post-runtime configuration in Security. This setting controls data for Access issues and Privileged AI agents metrics, as well as post-runtime metrics. The setting is off by default.
+
+-   **[Post-runtime Security probabilistic metrics and AI agent disabled by default](https://www.servicenow.com/docs/access?context=gov-sec-configure-event-metrics&family=australia&ft:locale=en-US)**
+
+To reduce token consumption, screening for data integrity incident detection, system prompt leakage, correctness detection, prompt injection, and agent goal deviation is disabled by default. In addition, the Security Analyzer agent that determines security event severity and insights is disabled by default. The default sampling rate for all metrics is 1%. If you're upgrading, your Detection enabled setting for each metric isn’t affected. After upgrading, check your settings in **Settings** &gt; **Rules and templates** &gt; **Security** and adjust if needed.
+
+
+ -   **[Domain separation and AI Governance](https://www.servicenow.com/docs/access?context=aict-domain-separation&family=australia&ft:locale=en-US)**
 
 Use AI Control Tower on a domain-separated instance. In Security, detail pages for some metrics include a Domain column that shows the domain the AI asset belongs to, or shows `global` or is empty if domain separation isn't configured.
 
@@ -938,12 +1048,16 @@ Zurich
 
 </td><td>
 
-The AI Gateway application is deprecated in the Australia release and is no longer supported.
+-   **[Now LLM Service deprecation notice](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=zurich&ft:locale=en-US)**
 
- -   **[Now LLM Service deprecation notice](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=zurich&ft:locale=en-US)**
+Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. We're committed to bringing you the latest industry advancements while maintaining sovereignty-focused options, all hosted and governed by ServiceNow with the infrastructure and data protections you rely on today. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
 
-Starting with the September 2026 release, Now LLM Service is being prepared for future deprecation. The Now LLM Service is no longer the default model provider for new or inactive AI assets, and it is no longer selected by default in AI Control Tower. A third-party LLM is now selected by default for AI assets, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+-   **[Traceloop Warehouse HTTPS connection removed](https://www.servicenow.com/docs/access?context=gov-sec-configure-pi-sensitive-metrics&family=zurich&ft:locale=en-US)**
 
+The base system Traceloop Warehouse HTTPS connection \(sn\_ai\_security.Traceloop\_API alias\) is removed. If you're upgrading and use Traceloop-based external AI metrics, create a new HTTPS connection under that alias and re-create your credential with connection URL `https://api.traceloop.com`.
+
+
+ The AI Gateway application is deprecated in the Australia release and is no longer supported.
 
 </td></tr><tr><td>
 
@@ -952,6 +1066,15 @@ Australia
 </td><td>
 
 -   **[Now LLM Service deprecation notice](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=australia&ft:locale=en-US)**
+
+Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. We're committed to bringing you the latest industry advancements while maintaining sovereignty-focused options, all hosted and governed by ServiceNow with the infrastructure and data protections you rely on today. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+
+-   **[Traceloop Warehouse HTTPS connection removed](https://www.servicenow.com/docs/access?context=gov-sec-configure-pi-sensitive-metrics&family=australia&ft:locale=en-US)**
+
+The base system Traceloop Warehouse HTTPS connection \(sn\_ai\_security.Traceloop\_API alias\) is removed. If you're upgrading and use Traceloop-based external AI metrics, create a new HTTPS connection under that alias and re-create your credential with connection URL `https://api.traceloop.com`.
+
+
+ -   **[Now LLM Service deprecation notice](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=australia&ft:locale=en-US)**
 
 Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. We're committed to bringing you the latest industry advancements while maintaining sovereignty-focused options, all hosted and governed by ServiceNow with the infrastructure and data protections you rely on today. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
 

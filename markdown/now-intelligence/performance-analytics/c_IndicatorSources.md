@@ -33,16 +33,14 @@ To provide a filtered data set of records that you can evaluate with one or more
 Look at the list of indicator sources, for these reasons:
 
 -   An indicator source that meets your requirements may already exist. To help maintain your instance, you should not create duplicate indicator sources.
--   Ensure that you give a unique name to any indicator source that you create. Giving the same name to different indicator sources can be confusing.
+-   Give a unique name to any indicator source that you create. Giving the same name to different indicator sources can be confusing.
 
 Role required: pa\_data\_collector or admin
 
 ### Procedure
 
-1.  Use one of the following navigation paths:
+1.  Navigate to **All** &gt; **Platform Analytics Administration** &gt; **Data Sources** &gt; **Indicator Sources** and select **New**.
 
-    -   If you are on an upgraded instance that has not migrated to Platform Analytics, navigate to **All** &gt; **Platform Analytics Administration** &gt; **Data Sources** &gt; **Indicator Sources** and select **New**.
-    -   If you are on a new instance or have migrated to Platform Analytics, navigate to **All** &gt; **Platform Analytics Administration** &gt; **Data Sources** &gt; **Indicator Sources** and select **New**.
 2.  Enter a unique **Name** by which you can easily see what the indicator source is used for, such as **Incidents.Open**.
 
 3.  Add a detailed **Description** to help others understand the use and purpose of this indicator source and to help them avoid creating duplicates.
@@ -63,15 +61,15 @@ Role required: pa\_data\_collector or admin
 
 6.  Select a facts table, either directly or by reusing a report source.
 
-<table id="choicetable_bwt_24j_dbb"><thead><tr><th align="left" id="d148045e279">
+<table id="choicetable_bwt_24j_dbb"><thead><tr><th align="left" id="d148730e246">
 
 Field
 
-</th><th align="left" id="d148045e282">
+</th><th align="left" id="d148730e249">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d148045e288">
+</th></tr></thead><tbody><tr><td id="d148730e255">
 
 **Facts table**
 
@@ -79,7 +77,7 @@ Description
 
 Specify the facts table and any conditions for filtering the records of that table. You can specify a [database view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/performance-analytics-glossary.md) as the facts table. Remote tables are not supported, but Workflow Data Fabric tables are supported.
 
-</td></tr><tr><td id="d148045e304">
+</td></tr><tr><td id="d148730e271">
 
 **Report source**
 
@@ -126,11 +124,11 @@ Specify an existing report source to reuse. A report source specifies a facts ta
 
     Select **Override record collection**, then enter a value in **Maximum number of records collected**. You are overriding the default value set on the property **com.snc.pa.dc.max\_row\_count\_indicator\_source**. For more information, see [Performance Analytics properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/pa-properties.md).
 
-12. Expand the context menu and click **Save**.
+12. Expand the context menu and select **Save**.
 
 13. If you have configured this indicator source to use a business calendar, set the number of periods for retaining scores and snapshots and for finding seasonal patterns.
 
-    These settings apply to all indicator sources and indicators that use the same calendar frequency. The owner of an indicator can override these settings for that indicator. If you do not set these values in the indicator source, the first time someone creates an indicator using this calendar frequency, they are prompted to set these values.
+    These settings apply to all indicator sources and indicators that use the same calendar frequency. The owner of an indicator can override these settings for that indicator. If you don't set these values in the indicator source, the first time someone creates an indicator using this calendar frequency, they are prompted to set these values.
 
     1.  In the Related Links, click **Configure retention periods**.
 

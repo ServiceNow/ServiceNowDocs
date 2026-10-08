@@ -1,50 +1,25 @@
 ---
-title: AI Admin Center help AI agent
-description: Use the AI Admin Center help AI agent in the conversational experience to find answers to your AI admin questions based on ServiceNow documentation.
+title: AI Admin Center help
+description: Use AI Admin Center help in the conversational experience to find answers to your AI admin questions based on ServiceNow documentation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-center-help-agent.html
 release: australia
 topic_type: concept
-last_updated: "2026-07-30"
+last_updated: "2026-10-02"
 reading_time_minutes: 1
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
 breadcrumb: [Using the ServiceNow Otto panel conversational experience, AI Admin Center, Enable AI experiences]
 ---
 
-# AI Admin Center help AI agent
+# AI Admin Center help
 
-Use the AI Admin Center help AI agent in the conversational experience to find answers to your AI admin questions based on ServiceNow documentation.
+Use AI Admin Center help in the conversational experience to find answers to your AI admin questions based on ServiceNow documentation.
 
-## AI Admin Center help AI agent overview
+## AI Admin Center help overview
 
 The AI Admin Center help AI agent is a product help assistant in the AI Admin Center conversational experience that uses all available ServiceNow documentation and training resources to answer your questions about the product. The AI agent responses provide relevant descriptions, instructions, references, and links to source documents that support your product experience.
 
-The AI Admin Center help AI agent is turned on by default.
-
 The AI Admin Center help AI agent may work with other AI agents to accomplish tasks. For more information on AI agents, see [Explore AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/exploring-ai-agents.md).
-
-## AI agent details
-
-The AI Admin Center help AI agent capabilities are associated with the following agents.
-
-<table id="table_vsk_1jj_yjc"><thead><tr><th>
-
-Agent
-
-</th><th>
-
-Capability
-
-</th></tr></thead><tbody><tr><td>
-
-NAC Help Agent
-
-</td><td>
-
-Answers help questions by querying ServiceNow documentation. The agent is engaged when the user asks "How do I", "What is", "Help with", or similar help-seeking questions.
-
-</td></tr></tbody>
-</table>For more information on viewing your AI agents, see [View and manage your AI assets in the asset inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-view-ai-assets.md).
 
 ## AI agent access
 

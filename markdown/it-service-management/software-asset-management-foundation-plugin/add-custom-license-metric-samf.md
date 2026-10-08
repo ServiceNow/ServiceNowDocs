@@ -1,5 +1,5 @@
 ---
-title: Add a Software Asset Management Foundation plugin custom license metric
+title: Add a Basic Software Asset Management custom license metric
 description: You can add a custom license metric to modify the default reconciliation process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/software-asset-management-foundation-plugin/add-custom-license-metric-samf.html
@@ -7,12 +7,12 @@ release: australia
 product: Software Asset Management Foundation plugin
 classification: software-asset-management-foundation-plugin
 topic_type: task
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
-breadcrumb: [Software Asset Management Foundation plugin Administration, Software Asset Management Foundation plugin, ITSM Software Asset Management, Asset Management common applications, IT Service Management]
+breadcrumb: [Basic Software Asset Management Administration, Basic Software Asset Management, ITSM Software Asset Management, Asset Management common applications, IT Service Management]
 ---
 
-# Add a Software Asset Management Foundation plugin custom license metric
+# Add a Basic Software Asset Management custom license metric
 
 You can add a custom license metric to modify the default reconciliation process.
 
@@ -104,5 +104,5 @@ The calculation method for the license metric is script. Specify the reconciliat
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Software Asset Management Foundation plugin Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/software-asset-management-foundation-plugin/c_SAMAdministrationSAMF.md)
+**Parent Topic:**[Basic Software Asset Management Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/software-asset-management-foundation-plugin/c_SAMAdministrationSAMF.md)
 

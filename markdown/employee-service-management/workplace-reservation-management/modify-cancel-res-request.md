@@ -36,15 +36,15 @@ You can also update the reserved workplace item in your reservation and change t
 
 1.  Navigate to **My Reservations** page from any of the following starting points.
 
-<table id="choicetable_prt_yr3_smb"><thead><tr><th align="left" id="d251451e91">
+<table id="choicetable_prt_yr3_smb"><thead><tr><th align="left" id="d253250e91">
 
 Location
 
-</th><th align="left" id="d251451e94">
+</th><th align="left" id="d253250e94">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d251451e100">
+</th></tr></thead><tbody><tr><td id="d253250e100">
 
 **From application navigator**
 
@@ -52,7 +52,7 @@ Steps
 
 Navigate to **Workplace Reservation Management** &gt; **Portal** &gt; **My Reservations**.
 
-</td></tr><tr><td id="d251451e121">
+</td></tr><tr><td id="d253250e121">
 
 **From Workplace Service Portal**
 

@@ -65,6 +65,8 @@ Role required: dashboard\_admin for all dashboards, or any role for dashboards t
 
         Select a color from a list of preconfigured colors, or use the color palette to specify a color. If there are multiple tabs, you can choose to customize the backgrounds of each tab.
 
+        **Note:** You can set custom background colors only on Platform Analytics dashboards, not on Core UI dashboards.
+
     -   In the **Dashboard Summary** section, choose whether to enable AI summary generation.
 
         When you select **AI summary generation**, viewers see a banner with a button to generate a summary of the contents of the dashboard, including the visualizations, filters, and other elements. The summary also includes highlights and what has changed in the dashboard since the last summary generation request. You can also add the ServiceNow Otto context menu as an individual component to dashboard or individual dashboard tabs.

@@ -9,7 +9,7 @@ classification: contract-management-pro
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Manual internal review, Review contract documents, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Manual internal review, Review contract documents, Common contract request tasks, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Share requested information for internal review
@@ -28,15 +28,15 @@ The work notes added when requesting information are available in the Activity s
 
 1.  Open the review task from workspace that you are using.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d153826e61">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d154542e61">
 
 Method
 
-</th><th align="left" id="d153826e64">
+</th><th align="left" id="d154542e64">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d153826e70">
+</th></tr></thead><tbody><tr><td id="d154542e70">
 
 **Contract Workspace listing**
 
@@ -48,7 +48,7 @@ Steps
 4.  Open the review task from the list
 
 
-</td></tr><tr><td id="d153826e117">
+</td></tr><tr><td id="d154542e117">
 
 **Contract Workspace landing page**
 
@@ -59,7 +59,7 @@ Steps
 3.  Open the review task from the list
 
 
-</td></tr><tr><td id="d153826e150">
+</td></tr><tr><td id="d154542e150">
 
 **Workspace used by your application**
 
@@ -70,7 +70,7 @@ Steps
 3.  Open the review task from the list.
 
 
-</td></tr><tr><td id="d153826e171">
+</td></tr><tr><td id="d154542e171">
 
 **Reviews tab**
 

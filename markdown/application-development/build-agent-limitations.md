@@ -5,9 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/build-agent-limitations.html
 release: australia
 topic_type: concept
-last_updated: "2026-06-15"
-reading_time_minutes: 2
-keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
+last_updated: "2026-09-22"
+reading_time_minutes: 3
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, Build Agent limitations, regulated environments, FedRAMP, GCC, NSC, Build Agent v1, Build Agent v2, Autonomous Engineer, AI-generated code review, Fluent API, deployment constraints, agentic development, off-instance services, security compliance]
+audience: developer
 breadcrumb: [Explore, Build Agent, Agentic development on the ServiceNow AI Platform, Building applications]
 ---
 
@@ -46,13 +47,15 @@ If ServiceNow Fluent does not support a metadata type, Build Agent cannot update
 
 ## Regulated environments
 
-Build Agent and Test Agent depend on off-instance services that have not completed the security compliance review required for regulated hosting environments. As a result, Build Agent v2 \(Australia Patch 0 and Zurich 8 and higher\) is not available in GCC, NSC, or FedRAMP environments.
+Build Agent, Autonomous Engineer, and Test Agent depend on off-instance services that have not completed the security compliance review required for regulated hosting environments. As a result, Build Agent v2 \(Australia Patch 0 and Zurich 8 and higher\) is not available in GCC, NSC, or FedRAMP environments.
 
-Customers in regulated environments must remain on Build Agent v1, which runs on-platform and is certified for regulated use.
+**Note:** As of Australia Patch 6, Build Agent, Autonomous Engineer, and Test Agent support ServiceNow Protected Platform for Australia, the EU, and Singapore.
+
+Customers in regulated environments must remain on Build Agent v1, which runs on-platform and is certified for regulated use.Autonomous Engineer, which depends on Build Agent v2 services, is also unavailable in regulated environments.
 
 In regulated environments where Build Agent v2 is unavailable, you can continue to use the following:
 
--   Core update set and Git workflows in ServiceNow Studio
+-   Core update set and Git workflows in ServiceNow Studio.
 -   Instance Scan
 
 ## Feedback on Build Agent

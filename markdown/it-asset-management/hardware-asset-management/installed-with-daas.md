@@ -53,3 +53,5 @@ Asset Manager \[asset\]
 |Inbound asset order \[sn\_itam\_common\_inbound\_asset\_order\]|Information about the asset request with multiple order lines, such as the originating account and the delivery address.|
 |Inbound asset order line \[sn\_itam\_common\_inbound\_asset\_orderline\]|Information about the model for which the asset is requested.|
 
+**Parent Topic:**[DaaS reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/reference-daas.md)
+

@@ -279,7 +279,7 @@ View details of the subscriptions consumed by your organization for the OT Asset
 **Related topics**  
 
 
-[Install OT Asset Management]()
+[Installing OT Asset Management]()
 
 [Installed with OT Asset Management]()
 

@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2026-08-02"
 reading_time_minutes: 4
 keywords: [batch remediation, AI-Eligible Findings, scan results, findings dashboard, bulk generate fixes]
-breadcrumb: [Understand scan results and findings, Prevent and resolve technical debt with AI, Platform Health, Using Impact, Impact]
+breadcrumb: [Prevent and resolve technical debt with AI, Platform Health, Using Impact, Impact]
 ---
 
 # Remediate existing findings with AI-suggested fixes
@@ -46,13 +46,16 @@ Before you begin:
 
     The table shows the following columns:
 
-    -   Application: The application where the finding was detected. Select the application name to expand and see child violations.
-    -   Description: A brief description of the violation. This corresponds to the scan definition that was triggered.
-    -   Category: The category assigned to this scan definition, for example, Performance, Security, or Style.
-    -   Finding counts: The number of violations with this finding. If a violation occurs in 5 different places in your code, the count is 5.
-    -   Impact to Instance: A number from 1 to 10 within the finding's enforcement level, where 10 is the highest priority.
-    -   Total Technical Debt \(time\): The estimated time it would take to manually fix all violations of this type. AI-suggested fixes can reduce this time significantly.
-    -   Fix Status: The current state of the fix: Ready for review, Reviewed, Revised, Processing, or Not applicable.
+    |Field|Description|
+    |-----|-----------|
+    |Application|The application where the finding was detected. Select the application name to expand and see child violations.|
+    |Description|A brief description of the violation. This corresponds to the scan definition that was triggered.|
+    |Category|The category assigned to this scan definition, for example, Performance, Security, or Style.|
+    |Finding counts|The number of violations with this finding. If a violation occurs in 5 different places in your code, the count is 5.|
+    |Impact to Instance|A number from 1 to 10 within the finding's enforcement level, where 10 is the highest priority.|
+    |Total Technical Debt \(time\)|The estimated time it would take to manually fix all violations of this type. AI-suggested fixes can reduce this time significantly.|
+    |Fix Status|The current state of the fix: Ready for review, Reviewed, Revised, Processing, or Not applicable.|
+
 4.  Sort by impact to instance or total technical debt to prioritize which findings to fix first.
 
     **Note:** ACT level findings must be fixed before you can save records. RECOMMEND level findings require either a fix or an exception. SUGGEST and REVIEW findings are lower priority but still important for code quality.

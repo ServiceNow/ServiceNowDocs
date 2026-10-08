@@ -7,7 +7,7 @@ release: australia
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Integrating with Computer Telephony Integration \(CTI\), Integrate, Customer Service Management]
+breadcrumb: [Configure voice, Configure omnichannel, Configure, Customer Service Management]
 ---
 
 # OpenFrame overview

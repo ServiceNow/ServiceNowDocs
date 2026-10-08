@@ -33,7 +33,7 @@ Publish a new version of a smart assessment template to revise its questionnaire
 -   **[Map a table with a processing activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/map-business-app-with-pa.md)**  
 Keep your processing activity updated and in sync with any table in ServiceNow® by mapping the entity fields with the processing activity.
 -   **[Configure data subject selection in hierarchy relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/config-ds-sys-property-hierarchy.md)**  
-Configure the sn\_privacy.relationship\_involving\_data\_subjects system property to enable data subject selection in custom hierarchy relationships.
+Enable data subject selection in custom relationship types by configuring the sn\_privacy.relationship\_involving\_data\_subjects system property.
 
 **Parent Topic:**[Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/privacy-management.md)
 

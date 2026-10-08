@@ -29,6 +29,8 @@ To link a contract as a parent, the following conditions must be met:
 -   Only one parent contract can be selected while linking.
 -   The parent contract must be a single contract type using own paper or third-party paper.
 
+When a renewal request is linked to a previous contract, the renewal does not inherit the previous contract's parent-child hierarchy or related-contract family structure. The renewed contract is a new contract connected to the previous one through the renewal link, not a child of it.
+
 **Parent Topic:**[Use Contract Management Pro for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-use-sn-legal-cont-landing.md)
 
 **Related topics**  
@@ -40,6 +42,8 @@ To link a contract as a parent, the following conditions must be met:
 
 [Contract amendments]()
 
+[Contract renewals]()
+
 [Internal review overview]()
 
 [Signature workflow for a request]()
@@ -47,8 +51,6 @@ To link a contract as a parent, the following conditions must be met:
 [Cancel a legal request]()
 
 [View and download a signed contract document]()
-
-[View contract requests]()
 
 [Manage Contract Management Pro for Legal Service Delivery]()
 

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-yokohama-australia/australia-yokohama-predictiveaiforcsm-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 20
+last_updated: "2026-10-08"
+reading_time_minutes: 21
 breadcrumb: [Products combined by family]
 ---
 
@@ -207,7 +207,12 @@ Australia
 
 </td><td>
 
--   **[Recommended Actions - Support for the Now Assist Multi-Content Response \(MCR\) genius model](https://www.servicenow.com/docs/access?context=ra-configuring-ai-search&family=australia&ft:locale=en-US)**
+-   **[Availability of MCP Server in ServiceNow Otto for Customer Service Management \(CSM\)](https://www.servicenow.com/docs/access?context=csm-mcp-server&family=australia&ft:locale=en-US)**
+
+ServiceNow Otto for Customer Service Management \(CSM\) can now provide key data and AI actions through MCP connectors, bringing intelligent case management to third-party interfaces seamlessly. CSM customers can now use subflow and actions such as retrieve cases and case task details or AI skills such as generate summaries and resolution notes, analyze sentiment, and draft activity responses when using any AI-enabled MCP client, such as Moveworks or frontier LLM model channels such as Claude in the web.
+
+
+ -   **[Recommended Actions - Support for the Now Assist Multi-Content Response \(MCR\) genius model](https://www.servicenow.com/docs/access?context=ra-configuring-ai-search&family=australia&ft:locale=en-US)**
 
 Recommended Actions now supports the Now Assist Multi-Content Response \(MCR\) genius model. When an author configures a recommendation backed by the MCR model, the agent sees a single MCR recommendation card in the Suggested Actions tab. The card appears in the Recommended Actions Contextual Side Panel in the agent workspace. The MCR recommendation card displays all its content blocks and citations grouped together under that one card.
 
@@ -714,7 +719,11 @@ Australia
 
 </td><td>
 
-[Australia Patch 5](https://www.servicenow.com/docs/access?context=australia-patch-5&family=australia&ft:locale=en-US)
+[Australia Patch 7](https://www.servicenow.com/docs/access?context=australia-patch-7&family=australia&ft:locale=en-US)
+
+-   Use MCP Server in ServiceNow Otto for Customer Service Management \(CSM\).
+
+ [Australia Patch 5](https://www.servicenow.com/docs/access?context=australia-patch-5&family=australia&ft:locale=en-US)
 
 -   Starting with Zurich Patch 12, ServiceNow Otto® is the new AI experience brand. This change is reflected in the name of ServiceNow products, including ServiceNow Otto for Customer Service Management \(CSM\). Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
 

@@ -7,7 +7,7 @@ release: australia
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage demands, Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -40,12 +40,53 @@ To create, edit, or delete demand stakeholders, you can also use the **Add stake
 
     **Note:** If the **Stakeholders** tab isn't visible, select **More** and then select **Stakeholders**.
 
-6.  Select **New**.
+6.  Add a stakeholder, either from the stakeholder registry or as a new record.
 
-7.  On the Demand Stakeholder form, fill in the fields.
+<table id="choicetable_xvt_lq4_skc"><thead><tr><th align="left" id="d278996e152">
 
-    For a description of the field values, see [Demand stakeholder form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/create-stakeholder-form-dw.md).
+Goal
 
-8.  Select **Save**.
+</th><th align="left" id="d278996e155">
+
+Action
+
+</th></tr></thead><tbody><tr><td id="d278996e161">
+
+**Add an existing stakeholder from registry**
+
+</td><td>
+
+1.  Select **Add Stakeholder**.
+2.  Select one or more stakeholders from the list.
+
+For information about the stakeholder registry, see [Populate the stakeholder registry for demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/populate-the-stakeholder-registry-dw.md).
+
+3.  Select **Add**.
+
+
+</td></tr><tr><td id="d278996e200">
+
+**Add a stakeholder to the registry**
+
+</td><td>
+
+1.  Select **New**.
+2.  Fill in the fields on the demand stakeholder form
+
+For a description of the field values, see [Demand stakeholder form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/create-stakeholder-form-dw.md).
+
+3.  Select **Save**.
+
+
+</td></tr></tbody>
+</table>7.  Remove a stakeholder's association with the demand.
+
+    1.  Select the check boxes for the required stakeholders.
+
+    2.  Select **Delete**.
+
+    3.  Select **Delete All** in the confirmation modal.
+
+        This removes the stakeholder's association with this demand; it doesn't delete the stakeholder's entry from the registry.
 
 

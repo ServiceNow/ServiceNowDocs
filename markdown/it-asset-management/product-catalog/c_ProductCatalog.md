@@ -42,5 +42,5 @@ Domain separation is supported in the Product Catalog. Domain separation enables
 **Related topics**  
 
 
-[Asset and CI management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/c_ManagingAssets.md)
+[Asset and CI management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/c_ManagingAssets.md)
 

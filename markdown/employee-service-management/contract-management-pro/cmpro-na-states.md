@@ -9,7 +9,7 @@ classification: contract-management-pro
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Contract review using AI, Review contract documents, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Contract review using AI, Review contract documents, Common contract request tasks, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Contract analysis states

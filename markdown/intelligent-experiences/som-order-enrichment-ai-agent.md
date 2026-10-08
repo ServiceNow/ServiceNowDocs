@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-08-14"
 reading_time_minutes: 2
-breadcrumb: [Sales Automation AI agents, Sales Automation, AI agents library, AI assets, Enable AI experiences]
+breadcrumb: [Order Management AI agents, Sales CRM AI agents, Sales CRM, AI agents library, AI assets, Enable AI experiences]
 ---
 
 # Order enrichment AI agent
@@ -121,5 +121,5 @@ Default VA Workflow
 </td></tr></tbody>
 </table>Learn more about Sales Customer Relationship Management at [Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/order-mgt-overview.md).
 
-**Parent Topic:**[Sales Automation AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/sales-automation-ai-agents-overview.md)
+**Parent Topic:**[Order Management AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/om-ai-agents-overview.md)
 

@@ -42,6 +42,8 @@ When you select an agent pin in the dispatch map, the agent profile appears. If 
 -   Behind schedule, between 30 to 60 minutes
 -   Behind schedule, more that an hour
 
+The agent pin on the Dispatcher Workspace map shows the technician's last known location — it doesn't revert to a home or team-based location when the technician goes off-shift.
+
 To display the agent schedule status in the user lists and records, navigate to **User Administration** &gt; **Users** and configure the User list and form to show the **On schedule** field. This action puts the schedule status field on all user records.
 
 A Field Service Agent’s schedule status is determined when the agent selects start travel on the Mobile Agent Application. The Field Service Agent’s schedule status table shows what the agent status is based on when they select start travel.

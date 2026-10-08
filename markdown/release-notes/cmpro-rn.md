@@ -1,6 +1,6 @@
 ---
 title: Contract Management Pro release notes
-description: The ServiceNow Contract Management Pro solution enables you to set up contract document templates, clauses, and clause variations, and to initiate contract and amendment requests. The solution uses AI to analyze contracts and extract metadata. It also supports e-signatures, wet signatures, and external storage systems.Contract Management Pro was enhanced and updated in the Australia release.
+description: The ServiceNow Contract Management Pro solution enables you to set up contract document templates, clauses, and clause variations, and to initiate contract, amendment and renewal requests. The solution uses AI to analyze contracts and extract metadata. It also supports e-signatures, wet signatures, and external storage systems.Contract Management Pro was enhanced and updated in the Australia release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/cmpro-rn.html
 release: australia
@@ -8,12 +8,12 @@ topic_type: topic
 last_updated: "2026-06-26"
 reading_time_minutes: 1
 keywords: [contract management, supporting documents, multi-file upload, document management, signatory roles, electronic signature roles]
-breadcrumb: [Employee Service Management release notes, Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
+breadcrumb: [Contract Management Pro release notes, Employee Service Management release notes, Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
 
 # Contract Management Pro release notes
 
-The ServiceNow® Contract Management Pro solution enables you to set up contract document templates, clauses, and clause variations, and to initiate contract and amendmentrequests. The solution uses AI to analyze contracts and extract metadata. It also supports e-signatures, wet signatures, and external storage systems.Contract Management Pro was enhanced and updated in the Australia release.
+The ServiceNow® Contract Management Pro solution enables you to set up contract document templates, clauses, and clause variations, and to initiate contract, amendment and renewal requests. The solution uses AI to analyze contracts and extract metadata. It also supports e-signatures, wet signatures, and external storage systems.Contract Management Pro was enhanced and updated in the Australia release.
 
 ## About Contract Management Pro
 
@@ -39,8 +39,10 @@ The ServiceNow® Contract Management Pro solution enables you to set up contract
     No upgrade actions are required for this release.
 
 
--   **[ServiceNow Otto for Contract Management Pro release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/cmpro-na-rn.md)**  
-The ServiceNow Otto for Contract Management Pro uses generative AI capabilities to analyze a contract for missing or non-standard clauses and conversational search to query documents using natural language. It also includes agentic AI capabilities that automatically extract metadata and obligations from signed contracts and calculate reminder dates for contract renewals or terminations. You can integrate external AI-powered negotiation tools with ServiceNow Otto for Contract Management Pro through Model Context Protocol to access contract context during negotiation. ServiceNow Otto for Contract Management Pro was enhanced and updated in the Australia release.
+-   **[October 2026](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/cmpro-rn-2026-10.md)**  
+Submit and manage contract requests without a parent record, directly from the Employee Center or Contract Workspace. Contract Management Pro also introduces a renewal workflow.
+-   **[September 2026](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/cmpro-rn-2026-09.md)**  
+Contract Management Pro supports parallel signing, enabling you to group signatories to sign a contract at the same time.
 
-**Parent Topic:**[Employee Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/employee-service-management-rn-landing.md)
+**Parent Topic:**[Contract Management Pro release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/cmpro-landing-page.md)
 

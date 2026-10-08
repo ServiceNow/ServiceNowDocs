@@ -1,16 +1,16 @@
 ---
-title: Create a data preserver \(legacy\)
+title: Preserve data during an instance clone
 description: Data preservers copy specified data to a target instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_CreateADataPreserver.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Create preservers, Configure, Instance Clone, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
-# Create a data preserver \(legacy\)
+# Preserve data during an instance clone
 
 Data preservers copy specified data to a target instance.
 
@@ -32,13 +32,13 @@ If you attempt to create a preserver on the target instance instead of the sourc
 
 ## Procedure
 
-1.  On the source instance, navigate to **Instance Clone** &gt; **Preserve Data**.
+1.  On the source instance, navigate to **All** &gt; **Clone Admin Console** &gt; **Clone Definition** &gt; **Preserve Data**.
 
     **Tip:**
 
     Verify you are on the source instance \(the instance you are cloning FROM, not cloning TO\). You can confirm this by checking the instance name in the top-right corner or in the URL.
 
-    You are now on the Preserve Data configuration page on the source instance.
+    You are now on the Clone Data Preservers page on the source instance.
 
 2.  Select **New**.
 

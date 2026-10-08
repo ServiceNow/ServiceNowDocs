@@ -25,7 +25,7 @@ Fill in the Certificate Routing Policy form to set up the routing policy for ACM
 -   **[Certificate routing policy form for EJBCA ACME](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/certificate-routing-policy-form-table.md)**  
 To automate the processes of your certificate life cycle, you must fill out a routing policy form that populates your Certificate Signing Requests. This table shows you the required fields and values.
 -   **[Certificate Inventory and Management patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/cert-invt-mgmt-patterns.md)**  
-Efficiently manage your Certificate Inventory with patterns to streamline the management of digital certificates. Patterns reduce the risk of vulnerabilities by bolstering security, compliance, and efficient lifecycle control.
+Efficiently manage your Certificate Inventory with patterns to streamline the management of digital certificates. Patterns reduce the risk of vulnerabilities by bolstering security, compliance, and efficient life cycle control.
 -   **[Certificate Inventory and Management terms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/cert-invt-mgmt-terms.md)**  
 The Certificate Inventory and Management glossary comprises a set of concise definitions and explanations for terms related to the tracking, storage, and management of digital certificates within an IT environment.
 -   **[Certificate authorities pattern API elements and permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/ca-api-permission.md)**  
@@ -40,6 +40,8 @@ Quick start test for certificate discovery for GoDaddy, Entrust, Digicert, Setig
 To perform Discovery on root certificates stored outside your server, you must set a special Discovery schedule that locates these certificates. This table guides you through the form required for this task.
 -   **[Certificate request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/req-new-cert-form-table-fields.md)**  
 The Request New Certificate \(Automated\) and Renew Certificate \(Automated\) forms enable you to submit or update a Certificate Signing Request \(CSR\) to be submitted to a certificate authority.
+-   **[Bulk certificate upload template fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/bulk-certificate-upload-template-fields.md)**  
+The bulk certificate upload Excel template contains fields that map to the fields in the Unique Certificate \[cmdb\_ci\_certificate\] table. You can import up to 5000 SSL certificates in bulk using the Excel file.
 
 **Parent Topic:**[Certificate Inventory and Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/cert-inventory-mgmt.md)
 

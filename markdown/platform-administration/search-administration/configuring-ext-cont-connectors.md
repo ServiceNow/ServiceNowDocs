@@ -166,7 +166,7 @@ AI Search administrator configures external content connector crawl settings for
 -   [Configure crawl settings for a WordPress external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-crawl-settings-wordpress-external-content-connector.md)
 -   [Configure crawl settings for a Workday external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-crawl-settings-workday-external-content-connector.md)
 -   [Configure crawl settings for a Workvivo external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-crawl-settings-workvivo-external-content-connector.md)
--   [Configure crawl settings for a Zendesk Guide external crawl connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-crawl-settings-zendesk-guide-external-crawl-connector.md)
+-   [Configure crawl settings for a Zendesk Guide external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-crawl-settings-zendesk-guide-external-content-connector.md)
 -   [Configure crawl settings for a Zoom external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-crawl-settings-zoom-external-content-connector.md)
 
 </td></tr><tr><td>
@@ -212,7 +212,7 @@ The Google Drive external content connector retrieves files and attachments from
 -   **[HubSpot external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/hubspot-external-content-connector.md)**  
 The HubSpot external content connector retrieves tickets and notes from your HubSpot source system and makes their content and metadata searchable in AI Search applications.
 -   **[Lucidchart external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/lucidchart-external-content-connector.md)**  
-The Lucidchart external content connector retrieves documents and folders from folders in your Lucidchart source system and makes their text content and metadata searchable in AI Search applications.
+The Lucidchart external content connector retrieves documents from folders in your Lucidchart source system and makes their text content and metadata searchable in AI Search applications.
 -   **[ManageEngine external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/manageengine-external-content-connector.md)**  
 The ManageEngine external content connector retrieves public-domain knowledge articles from knowledge bases in your ManageEngine source system and makes their content and metadata searchable in AI Search applications.
 -   **[Microsoft OneDrive external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/microsoft-onedrive-external-content-connector.md)**  

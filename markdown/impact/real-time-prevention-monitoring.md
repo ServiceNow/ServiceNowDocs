@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/impact/real-time-prevention-monitoring.html
 release: australia
 topic_type: task
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 3
 keywords: [real-time prevention, AI code fix, Otto, Scan Engine, technical debt prevention]
 breadcrumb: [Prevent and resolve technical debt with AI, Platform Health, Using Impact, Impact]
@@ -19,9 +19,12 @@ As you write and save code, the Scan Engine detects violations in real-time and 
 
 Real-time prevention monitoring must be enabled on the Scan Engine properties page.
 
-Supported record types include script actions, business rules, client scripts, catalog client scripts, email scripts, script includes, transform scripts, UI scripts, and scheduled scripts.
+**Note:** See  for the tables that are supported.
 
-Role required: `sn_impact_gen_ai_fix_user`
+Role required:
+
+-   sn\_se.scan\_engine\_user \(view findings and prevention messages\)
+-   sn\_impact\_gen\_ai\_fix\_user: \(access AI-generated code fix capabilities\)
 
 ## About this task
 
@@ -69,7 +72,7 @@ Manually Fix
 
 </td><td>
 
-Review the Steps to resolve issue guidance and fix the code yourself in the script editor and save again to verify the issue is resolved.
+Review the **Steps to resolve issue** guidance. Fix the code in the script editor and save again to verify the issue is resolved.
 
 </td></tr><tr><td>
 
@@ -96,11 +99,11 @@ Submit an Exception \(Recommend level findings only\)
 If you believe the finding is a false positive or the code has a valid business reason for the violation, select **Create exception** on the specific entry.**Note:** See [Submit exceptions for Scan Engine findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/submitting-exception-reasons-scan-engine.md) for details.
 
 </td></tr></tbody>
-</table>5.  If you chose to generate an AI-suggested fix, review the code comparison that appears.
+</table>5.  If you chose to generate an AI-suggested fix, review the code suggestions in the ServiceNow Otto panel.
 
-    \[Omitted image "AI-code-review-compare.png"\] Alt text: Code comparison view showing original code and AI-suggested changes with color-coded differences.
+    \[Omitted image "se-otto-panel-fixes.png"\] Alt text: Code suggestion view showing original code and AI-suggested changes in the ServiceNow Otto panel.
 
-    Your original code displays in one column and the suggested changes in another. Changes are color-coded: green indicates added code and pink indicates removed code. The script editor is read-only until you accept or reject the fix.
+    Your original code displays and the suggested changes are color-coded: green indicates added code and pink indicates removed code. The script editor is read-only until you accept or reject the fix.
 
 6.  Decide how to proceed with the AI-suggested fix.
 
@@ -114,29 +117,28 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Accept the Fix
+**Accept the solution**
 
 </td><td>
 
--   Select **Accept** to apply the AI-suggested changes.
+-   Applies the AI-suggested changes.
 -   Otto updates your code and the change appears in your active update set.
 -   A full audit trail is recorded, including who accepted the fix and when.
 
 
 </td></tr><tr><td>
 
-Reject the Fix
+**Reject the solution**
 
 </td><td>
 
--   Select **Reject**.
 -   The code editor becomes editable again and you can manually fix the issue.
 -   No changes are applied.
 
 
 </td></tr><tr><td>
 
-Revise the Fix
+Make additional changes
 
 </td><td>
 

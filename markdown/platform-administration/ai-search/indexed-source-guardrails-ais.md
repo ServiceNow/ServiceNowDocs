@@ -7,7 +7,7 @@ release: australia
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2026-07-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Indexed sources, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -30,7 +30,7 @@ When guardrails are enabled, AI Search first checks the Guard Rail Limit for Ind
 
 Guardrail limits on the number of records indexed are applied after the set of source records is limited by the indexed source's filter conditions and retention policy. For details on indexed source filter conditions and retention policies, see [Indexed source retention policies and filter conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/retention-policies-conditions-ais.md).
 
-AI Search always indexes the most recently modified records from the indexed source table. If indexing causes the record count for the table to exceed the guardrail limit, AI Search discards older records from the index to make room for the newer records.
+AI Search indexes the most recently modified records from the indexed source table. If indexing causes the record count for the table to exceed the guardrail limit, AI Search discards older records from the index to make room for the newer records.
 
 ## Modifying guardrail settings
 

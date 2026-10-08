@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/aws-create-user-policy-cloud-mgt.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 3
-breadcrumb: [Setting up AWS service accounts, Set up a cloud service account, Access to cloud environments for ITOM products, IT Operations Management]
+last_updated: "2026-10-01"
+reading_time_minutes: 4
+breadcrumb: [Setup AWS service accounts, Set up a cloud service account, Access to cloud environments for ITOM products, IT Operations Management]
 ---
 
 # Control AWS access and permissions using policies
@@ -55,8 +55,7 @@ The policy you configure defines the AWS permissions that you can assign to a us
         **Note:** To create a user policy that supports only Cloud Discovery rather than the provisioning of cloud resources, attach the `ReadOnlyAccess` policy instead.
 
     -   Create a custom policy with a descriptive name. In the Policy Document field, write the code that includes the APIs that this policy allows running.
-
-        **Note:** The following JSON sample is a partial example showing permissions for Cloud Discovery. It isn't a complete list of all required permissions.
+    -   The following JSON sample is a partial example and does not include org-level permissions required for management account discovery. For the complete list of all required API permissions, download the [Cloud Discovery patterns spreadsheet](https://downloads.docs.servicenow.com/resource/enus/api/servicenow-discovery-patterns-api-details.xlsx).
 
         ```
         {
@@ -125,7 +124,7 @@ The policy you configure defines the AWS permissions that you can assign to a us
         }
         ```
 
-    -   The following JSON sample is a partial example showing permissions for Cloud Discovery and Cloud Provisioning and Governance. It isn't a complete list of all required permissions.
+    -   The following JSON sample is a partial example showing permissions for Cloud Discovery and Cloud Provisioning and Governance. For the complete list of all required API permissions, download the [Cloud Discovery patterns spreadsheet](https://downloads.docs.servicenow.com/resource/enus/api/servicenow-discovery-patterns-api-details.xlsx)
 
         ```
         {
@@ -221,7 +220,7 @@ The policy you configure defines the AWS permissions that you can assign to a us
         ```
 
 
-**Parent Topic:**[Setting up AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/setup-aws-service-accounts.md)
+**Parent Topic:**[Setup AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/setup-aws-service-accounts.md)
 
 **Related topics**  
 
@@ -229,4 +228,8 @@ The policy you configure defines the AWS permissions that you can assign to a us
 [https://docs.aws.amazon.com/IAM/latest/UserGuide/access\_policies\_create-console.html\#access\_policies\_create-start](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_create-console.html#access_policies_create-start)
 
 [https://docs.aws.amazon.com/IAM/latest/UserGuide/access\_policies\_understand-service-summary.html](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_understand-service-summary.html)
+
+[Access setup for AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/access-aws-accounts.md)
+
+[Setup AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/setup-aws-service-accounts.md)
 

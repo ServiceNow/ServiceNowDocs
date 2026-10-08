@@ -6,13 +6,18 @@ canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experienc
 release: australia
 topic_type: task
 last_updated: "2025-08-08"
-reading_time_minutes: 1
+reading_time_minutes: 2
+keywords: [custom assistant, telephony provider, message authentication, token verification]
 breadcrumb: [Create an AI voice assistant, Deploy AI voice agents, AI Agent Studio \(legacy\), Enable AI experiences]
 ---
 
 # Configure custom assistant
 
 Configure a custom telephony provider to use instead of the out-of-the-box voice assistant.
+
+## About this task
+
+Configure a custom assistant when you want to use your own telephony provider instead of the out-of-the-box voice assistant. This requires setting up an authentication token, provider authentication, and a channel identity so the provider application can securely exchange messages with the instance.
 
 ## Before you begin
 
@@ -99,7 +104,7 @@ Authentication token that is used to authenticate the provider application. Ente
 
     2.  Select the **AI Voice Agent Provider Application** record to open it.
 
-        If you want to use an existing application or create a new provider application, be sure to update the existing configuration according to the values mentioned in [Configuration for custom AI voice agent provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/voice-agent-reference.md) before proceeding further.
+        If you want to use an existing application or create a new provider application, be sure to update the messaging channel, provider channel, and provider channel identity configuration to match the required values \(see [Configuration for custom AI voice agent provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/voice-agent-reference.md)\) before proceeding further.
 
     3.  In the Provider Channel Identity form, locate the **Message auth** field and select the message auth that you set up previously.
 

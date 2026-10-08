@@ -8,7 +8,7 @@ product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Use, Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
@@ -52,6 +52,8 @@ Role required: sn\_lg\_ops.legal\_user and sn\_cm\_core.contract\_user, sn\_lg\_
 
 [Contract amendments]()
 
+[Contract renewals]()
+
 [Linking parent-child contracts]()
 
 [Internal review overview]()
@@ -59,8 +61,6 @@ Role required: sn\_lg\_ops.legal\_user and sn\_cm\_core.contract\_user, sn\_lg\_
 [Signature workflow for a request]()
 
 [View and download a signed contract document]()
-
-[View contract requests]()
 
 [Manage Contract Management Pro for Legal Service Delivery]()
 

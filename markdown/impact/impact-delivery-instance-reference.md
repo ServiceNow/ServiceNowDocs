@@ -34,7 +34,7 @@ If you choose not to connect to the Impact Delivery Instance, refer to the follo
 Impact Store Application features supported without the connection to the Impact Delivery Instance:
 
 -   [Prevent and resolve technical debt with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/prevent-resolve-technical-debt-ai.md)
--   [Track Platform Health trends](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/scan-engine-diagnostic-dashboards.md)
+-   
 -   [Configure Scan Engine integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/instance-integration-scan-engine.md)
 -   [Monitor instance performance with Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/impact/io-overview.md)
 

@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/australia/integrate-application
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Amazon Redshift metadata collector, Configuring metadata collectors, Data Catalog, Workflow Data Fabric]
 ---
 
@@ -79,7 +79,52 @@ Use MID server
 
 </td><td>
 
-Enable the **Use MID server** toggle to connect to the source system through a MID Server. The system automatically selects an available MID Server.
+Option to connect to the source system through a MID Server. When selected, the **MID selection** options appear.
+
+</td></tr><tr><td>
+
+MID selection
+
+</td><td>
+
+MID Server routing option for the collector job. This field appears only when **Use MID server** is selected.
+
+ -   **Auto-Select MID Server** — The system selects an available MID Server at job execution time. Default selection.
+-   **Specific MID Server** — The collector job runs on the selected MID Server. If the MID Server is offline at job execution time, the job fails with an error identifying the MID Server by name.
+-   **Specific MID Cluster** — The collector job runs on any available MID Server within the selected cluster.
+
+
+</td></tr><tr><td>
+
+MID Server
+
+</td><td>
+
+MID Server to use for the collector job. This field appears only when **Specific MID Server** is selected. The selected MID Server is saved on the collector record and used for all subsequent collection runs until changed.
+
+</td></tr><tr><td>
+
+MID Cluster
+
+</td><td>
+
+MID cluster to use for the collector job. This field appears only when **Specific MID Cluster** is selected. The selected cluster is saved on the collector record; any available MID Server within the cluster may serve the job.
+
+</td></tr><tr><td>
+
+Capabilities
+
+</td><td>
+
+One or more capability labels that restrict auto-selection to MID Servers advertising those capabilities. This field appears only when **Auto-Select MID Server** is selected.
+
+</td></tr><tr><td>
+
+MID application
+
+</td><td>
+
+MID Server application to use for the collector job. This field appears only when **Auto-Select MID Server** is selected.
 
 </td></tr></tbody>
 </table>8.  Configure the authentication options.
@@ -241,6 +286,7 @@ The metadata collector is created and appears on the Connectors page with a **Co
 
 After creating the collector, you can perform any of the following tasks:
 
+-   Enable vault classification for columns harvested by the collector. This option is available only from the connection details of a saved collector. See [Enable Vault classification for a metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/enable-vault-classification.md).
 -   Run the collector manually to harvest metadata immediately. See [Run metadata collectors manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/run_metadata-collectors-manually.md).
 -   Automate metadata collection by scheduling regular collector runs. See [Schedule metadata collector runs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/schedule-metadata-collector-runs.md).
 -   Monitor execution status and troubleshoot issues by viewing the runtime logs. See [View runtime logs for collector runs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/view-runtime-logs-for-collector-runs.md).

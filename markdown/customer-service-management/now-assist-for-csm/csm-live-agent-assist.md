@@ -9,7 +9,7 @@ classification: now-assist-for-csm
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 9
-keywords: [generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
+keywords: [Agentic AI, Agentic AI for Customer Service Management, Live interaction recommendations AI Agents for customer service agents]
 breadcrumb: [Use agentic AI in CSM, ServiceNow Otto for CSM, Customer Service Management]
 ---
 
@@ -23,7 +23,7 @@ Live interaction recommendations AI agent reduces handle time, improves first-co
 
 ## How Live interaction recommendations AI agent works
 
-Live interaction recommendations AI agent consists two tools:
+Live interaction recommendations AI agent consists of two tools:
 
 -   **Get Interaction Context \(Script and autonomous\)**
 
@@ -91,7 +91,7 @@ Required role: B2B agents \(sn\_customerservice\_agent\) and B2C agents \(sn\_cu
 
 **Important:** To access data in the agentic workflow, the admin role must include the specified roles under **Contains roles**.
 
-Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aw.md).
+Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/implement-aias-security-new.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aw.md).
 
 In the data access settings, you must also add the necessary roles to enable agents to resolve cases efficiently. For example, add the csm role to the agentic workflow's list of approved roles to enable access to case records.
 
@@ -112,8 +112,6 @@ Before you begin:
     -   In the Edit trigger dialog, turn on the **Trigger is ON** radio button and select **Save**.
     For more information on modifying an AI agent, see [Modify an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/modify-ai-agent.md).
 
-
-Result: The Live interaction recommendations AI agent - Interaction trigger is active. The agent now runs automatically each time a voice call is accepted. When an agent accepts a call and opens the interaction record, Live interaction recommendations AI agent starts and displays recommendations in the ServiceNow Otto panel.
 
 ## Access Control lists \(ACLs\)
 
@@ -138,13 +136,16 @@ Before you begin:
 
 Procedure:
 
-1.  When a customer calls the support channel, an interaction record is created and assigned to a human agent. Select the ServeNow Otto icon.
+1.  When a customer calls the support channel, an interaction record is created and assigned to a human agent. Select the ServiceNow Otto icon.
 
     The Otto panel appears with the interaction ID.
 
 2.  After you gather details about customer requirements, select the **Get Recommendations** button on the ServiceNow Otto panel.
     -   The AI agent analyzes the conversation and generates recommendations or asks more questions. The processing icon appears while the agent processes the conversation before generating the next steps. If the customer asks multiple queries, you will be asked to choose the query you want to address first. You can pick a query and address one after another based on the customer's priority. For more information on how the recommendations are generated from the sources, see [Live interaction recommendations AI agent overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/now-assist-for-csm/csm-live-agent-assist.md).
-    -   When the recommendations are generated for a query, the sources from which the recommendations are generated appear under the **Sources and more** section following the recommendations. You can open these sources for further details. When you select the **Sources and more** button, the ServiceNow Otto panel expands where you continue your conversation with the AI agent and view the list of sources.
+    -   When the recommendations are generated for a query, the sources from which the recommendations are generated appear under the **Sources and more** section. When you select the **Sources and more** button, the ServiceNow Otto panel expands where you can continue your conversation with the AI agent and view the list of sources simultaneously. You can open these sources for further details.
+
+        \[Omitted image "sn-otto-live-interaction-ai-agent.png"\] Alt text: Live interaction recommendations AI agent
+
 3.  As you progress through the conversation, select the **Get Recommendations** button to get the recommendations.
 4.  Clarification handling: If the AI Agent needs additional context before generating a recommendation, it displays clarifying questions with rendered option buttons, then waits for user selection.
 

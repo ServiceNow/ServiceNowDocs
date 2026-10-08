@@ -40,7 +40,7 @@ This issue is caused by the fact that Before Query business rules are performed 
 
 ## Reports no longer public
 
-On upgrade to Australia, all public Core UI reports are unpublished to enhance security awareness and control. The glide.report.published\_reports.enabled property on all Core UI reports is set to false. Users with the report\_admin role can navigate to the Reports Public \[sys\_report\_public\] table to view unpublished reports and enable the public capacity or enable sharing with logged in users inside the platform. For more information, see [\(Legacy\) Publish a report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/t_PublishAReport.md).
+On upgrade to Australia, all public Core UI reports are unpublished to enhance security awareness and control. The glide.report.published\_reports.enabled property on all Core UI reports is set to false. Users with the report\_admin role can navigate to the Reports Public \[sys\_report\_public\] table to view unpublished reports and enable the public capacity or enable sharing with logged in users inside the platform. For more information, see .
 
 **Note:** To make a Core UI report available only to users who are logged in, set its **Sharing** setting to **Everyone**, but do not publish it.
 

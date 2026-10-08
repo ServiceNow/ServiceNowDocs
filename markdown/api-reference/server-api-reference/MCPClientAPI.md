@@ -8,7 +8,7 @@ product: Server API Reference
 classification: server-api-reference
 topic_type: concept
 last_updated: "2026-08-03"
-reading_time_minutes: 7
+reading_time_minutes: 8
 breadcrumb: [Server API reference, API reference, API implementation and reference]
 ---
 
@@ -76,15 +76,26 @@ Object
 
 </td><td>
 
-Optional. Query options. Default: `{}` \(default values used for all child properties\)
-
-```
-{ 
+Query options.```
+{
+   caller_product: "String",
    limit: Number,
    offset: Number,
    status: "String"
 }
 ```
+
+</td></tr><tr><td>
+
+params.caller\_product
+
+</td><td>
+
+String
+
+</td><td>
+
+The scope name of the application making the API call.
 
 </td></tr><tr><td>
 
@@ -260,7 +271,7 @@ Communication method. The only possible value is `SSE`.Data type: String
 ```
 var client = new sn_wdf_mcp_client.MCPClient();
 
-var result = client.getServers({ limit: 2, offset: 0 });
+var result = client.getServers({ limit: 2, offset: 0, caller_product: 'sn_wdf_connect_hub' });
 
 gs.info('Total approved servers: ' + result.meta.total);
 result.servers.forEach(function(server) {
@@ -276,7 +287,7 @@ Server: Atlassian Rovo (08eac8952b3dc7109fadf2a4ce91bf4a)
 Server: Atlassian Rovo (135a815d2be9cf109fadf2a4ce91bf13)
 ```
 
-## MCPClient - getToolInfo\(String serverId, String toolName\)
+## MCPClient - getToolInfo\(String serverId, String toolName, Object options\)
 
 Returns metadata for a single named tool on an approved MCP server.
 
@@ -315,6 +326,30 @@ String
 </td><td>
 
 Name of the tool. Case sensitive.To view tool names, call [listTools\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/api-reference/server-api-reference/MCPClientAPI.md).
+
+</td></tr><tr><td>
+
+options
+
+</td><td>
+
+Object
+
+</td><td>
+
+Options object containing the application scope.
+
+</td></tr><tr><td>
+
+options.caller\_product
+
+</td><td>
+
+String
+
+</td><td>
+
+The scope name of the application making the API call.
 
 </td></tr></tbody>
 </table><table id="table_gti_ret_03a" class="returns"><thead><tr><th>
@@ -458,7 +493,9 @@ Returned only on failure. Possible errors: the server is invalid, the tool name 
 var client = new sn_wdf_mcp_client.MCPClient();
 var serverId = 'a1b2c3d4e5f6a1b2c3d4e5f6';
 
-var info = client.getToolInfo(serverId, 'addTeamworkGraphContext');
+var info = client.getToolInfo(serverId, 'addTeamworkGraphContext', {
+    caller_product: 'sn_wdf_connect_hub' 
+});
 
 if (info.status === 'success') {
     gs.info('Found tool: ' + info.tool.name);
@@ -475,7 +512,7 @@ Found tool: addTeamworkGraphContext
 Description: Adds a relationship between two entities in the Teamwork Graph (e.g. linking two Jira work items, marking one as blocking another).
 ```
 
-## MCPClient - invokeTool\(String serverId, String toolName, Object toolArguments\)
+## MCPClient - invokeTool\(String serverId, String toolName, Object toolArguments, Object options\)
 
 Invokes a named tool on an approved MCP server.
 
@@ -528,6 +565,30 @@ Object
 </td><td>
 
 Optional. Arguments object passed through to the tool. Shape is tool-specific and defined by the target tool's input schema, for example `{ "inputs": { "toolArguments": {} } }`.
+
+</td></tr><tr><td>
+
+options
+
+</td><td>
+
+Object
+
+</td><td>
+
+Options object containing the application scope.
+
+</td></tr><tr><td>
+
+options.caller\_product
+
+</td><td>
+
+String
+
+</td><td>
+
+The scope name of the application making the API call.
 
 </td></tr></tbody>
 </table><table id="table_ivt_ret_04a" class="returns"><thead><tr><th>
@@ -624,6 +685,8 @@ var response = client.invokeTool(serverId, 'create_issue', {
             "issue_title": "New issue for MCP"
         }
     }
+}, {
+    caller_product: 'sn_wdf_connect_hub'
 });
 
 if (response.status === 'success') {
@@ -641,7 +704,7 @@ Tool create_issue invoked on a1b2c3d4e5f6a1b2c3d4e5f6
 Result: {"issue_number":42,"url":"https://..."}
 ```
 
-## MCPClient - listTools\(String serverId, String cursor\)
+## MCPClient - listTools\(String serverId, String cursor, Object options\)
 
 Lists all tools exposed by a specified approved MCP server.
 
@@ -680,6 +743,30 @@ String
 </td><td>
 
 Optional. Pagination cursor to start from. Get this value from **next\_cursor** in the previous result.Default: Starts from the first page.
+
+</td></tr><tr><td>
+
+options
+
+</td><td>
+
+Object
+
+</td><td>
+
+Options object containing the application scope.
+
+</td></tr><tr><td>
+
+options.caller\_product
+
+</td><td>
+
+String
+
+</td><td>
+
+The scope name of the application making the API call.
 
 </td></tr></tbody>
 </table><table id="table_lst_ret_02a" class="returns"><thead><tr><th>
@@ -823,7 +910,9 @@ Returned only on failure. The only possible value is `error`.Data type: String
 var client = new sn_wdf_mcp_client.MCPClient(); 
 var serverId = '08eac8952b3dc7109fadf2a4ce91bf4a'; // sys_id of an approved MCP server 
 
-var result = client.listTools(serverId); 
+var result = client.listTools(serverId, null, {
+    caller_product: 'sn_wdf_connect_hub' 
+}); 
 
 if (result.status === 'error') { 
    gs.error('Could not list tools: ' + result.errorMessage); 

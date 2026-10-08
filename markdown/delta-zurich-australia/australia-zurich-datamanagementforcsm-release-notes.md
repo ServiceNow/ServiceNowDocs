@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-zurich-australia/australia-zurich-datamanagementforcsm-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 18
 breadcrumb: [Products combined by family]
 ---
@@ -376,7 +376,7 @@ Introduced usability and functional enhancements to the Customer Access Manageme
 
 Added a system property \(sn\_customerservice.consumer.allowed\_user\_types\) to enhance unified user management. This property specifies which user types \(classes\) can be associated with consumers.
 
--   **[Configuring billing accounts](https://www.servicenow.com/docs/access?context=configuring-billing-accounts&family=australia&ft:locale=en-US)**
+-   **[Billing accounts](https://www.servicenow.com/docs/access?context=configuring-billing-accounts&family=australia&ft:locale=en-US)**
 
 Visualize a billing account's hierarchy directly from the account, making large parent-and-child account structures easier to navigate. The default view now adapts to the billing account type. The **Billing account type** field is populated automatically from the source customer to reduce manual setup and keep records consistent.
 

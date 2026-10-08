@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/purch-order-mgmt-ws.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [source-to-pay workspace, purchase order management landing page]
 breadcrumb: [Explore, Purchase Order Management, Source-to-Pay Operations, Finance and Supply Chain]

@@ -1,20 +1,20 @@
 ---
-title: Demand form
-description: The demand form information is used to create a demand.
+title: Demand details form
+description: The demand form information is used to update the Details tab of a demand.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/strategic-planning/demand-form-dw.html
 release: australia
 product: Strategic Planning
 classification: strategic-planning
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 14
 breadcrumb: [Forms, Reference, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Demand form
+# Demand details form
 
-The demand form information is used to create a demand.
+The demand form information is used to update the Details tab of a demand.
 
 <table id="table_olx_smf_cp"><thead><tr><th>
 
@@ -137,23 +137,19 @@ This field is carried forward to the **Approved end date** field of the Project 
 
 </td></tr><tr><td>
 
-Start date
+Planned start date
 
 </td><td>
 
 The preliminary or estimated date when the work is initially planned to begin. This date helps outline the intended timing for early demand planning and prioritization. You can set this date during initial demand creation or anytime in the planning phase when a rough idea forms. This date can be updated until the demand is officially approved. For example, you’re planning for a database upgrade to start on 2025-11-01.
 
-**Note:** The **Start date** column label is changed to **Planned start date**. This change is applicable only for new customers who begin using the Australia version. To ensure continuity, if you’re upgrading to the Australia release from an earlier release, you’ll continue to see the prior labels.
-
 </td></tr><tr><td>
 
-Due date
+Planned end date
 
 </td><td>
 
 The preliminary or estimated date when the planned work is expected to be completed. This date provides an expected completion window for planning and stakeholder communication. You can set this date anytime in the planning phase when a rough idea forms and can be updated until the demand is officially approved.For example, you’re planning to complete the database upgrade by 2025-12-31.
-
-**Note:** The **Due date** column label is changed to **Planned end date**. This change is applicable only for new customers who begin using the Australia version. To ensure continuity, if you’re upgrading to the Australia release from an earlier release, you’ll continue to see the prior labels.
 
 </td></tr><tr><td>
 
@@ -257,7 +253,7 @@ Project Manager
 
 </td><td>
 
-Project manager that would be assigned to the project created from this demand. When a project is created, this field becomes read only. This field appears if the **Category** field is set to Strategic and the **Type** field is set to Project. If you delete the project created from this demand, this field becomes editable.
+Project manager that would be assigned to the project created from this demand. When a project is created, this field is set to read only. This field appears if the **Category** field is set to Strategic and the **Type** field is set to Project. If you delete the project created from this demand, this field becomes editable.
 
 </td></tr><tr><td>
 
@@ -297,7 +293,7 @@ Impacted Business Applications
 
 </td><td>
 
-If the demand is to change, enhance, or add one or more business applications, the applications associated with the demand. Business applications are defined in the Enterprise Architecture \(formerly Application Portfolio Management\) module. For more information, see [Exploring business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-business-applications.md).You can select any business application in your enterprise regardless of whether it’s related to a capability selected in the **Business Capabilities** field.
+If the demand is to change, enhance, or add one or more business applications, the applications associated with the demand. Business applications are defined in the Enterprise Architecture \(formerly Application Portfolio Management\) module. For more information, see .You can select any business application in your enterprise regardless of whether it’s related to a capability selected in the **Business Capabilities** field.
 
 </td></tr><tr><td>
 
@@ -305,7 +301,7 @@ Business Applications
 
 </td><td>
 
-If the demand is to change, enhance, or add one or more business applications, the applications associated with the demand. Business applications are defined in the Enterprise Architecture \(formerly Application Portfolio Management\) module. For more information, see [Exploring business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-business-applications.md).You can select any business application in your enterprise regardless of whether it’s related to a capability selected in the **Business Capabilities** field.
+If the demand is to change, enhance, or add one or more business applications, the applications associated with the demand. Business applications are defined in the Enterprise Architecture \(formerly Application Portfolio Management\) module. For more information, see .You can select any business application in your enterprise regardless of whether it’s related to a capability selected in the **Business Capabilities** field.
 
 </td></tr></tbody>
 </table><table id="table_t23_vj3_fdc"><thead><tr><th>
@@ -597,8 +593,10 @@ Option for enabling the assessments for the demand. This option is active by def
 
  **Note:** If this option isn’t selected and you reset the demand to the Draft state, the option remains unselected.
 
+If smart assessments is enabled for the demand, this same field also determines whether a smart assessment is triggered when the demand reaches the Screening state. If this option isn't selected, the demand skips the assessment and moves directly to the Qualified state. For more information, see [Assess demands with smart assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/smart-assessments-overview.md)
+
 </td></tr></tbody>
-</table>**Note:** The values in the **Value** and **Score** fields are updated when a cost plan, benefit plan, or resource assignment is created or updated for the demand in the Qualified or Approved state. The values in the fields are updated only until an artifact such as project, enhancement, defect, or change is created from the demand.
+</table>**Note:** The values in the **Value** and **Score** fields are updated when a cost plan, benefit plan, or resource assignment is created or updated for the Qualified or Approved demand. Updates stop after an artifact is created from the demand. Artifacts include projects, enhancements, defects, and changes.
 
 |Field|Description|
 |-----|-----------|
@@ -640,7 +638,7 @@ Determines the calculation to use for task dependencies for the project when the
 </td></tr></tbody>
 </table>|Field|Description|
 |-----|-----------|
-|Team|The planning team to which the created EAP entity is assigned. This field becomes read only once the EAP entity is created. This value is an optional value.|
+|Team|The planning team to which the created EAP entity is assigned. This field is set to read only after the EAP entity is created. This value is an optional value.|
 |Converted to|The name of the created EAP entity. This field is read-only.|
 
 |Field|Description|

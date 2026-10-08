@@ -7,8 +7,8 @@ release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-05-15"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 keywords: [RoI, CSV report, DORA, TPRM]
 breadcrumb: [Register of information regulatory packages, Use digital resilience third-party registers, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -20,6 +20,12 @@ Use the CSV report option in the download page to generate regulator-ready Regis
 ## Before you begin
 
 Role required: sn\_vdr\_risk\_asmt.vendor\_assessor
+
+## About this task
+
+Generate a Register of Information \(RoI\) package to create DORA reporting files from your digital resilience third-party register data. You can generate an Excel master template for data preparation and review or a CSV reporting package for regulator submission. When processing is complete, the generated files are attached to the download request record.
+
+**Note:** A separate scheduled job, DORA: Quarterly CSV download, can automate this generation instead of you triggering the export manually each quarter. For details, see [Register of information regulatory packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-dora-roi.md).
 
 ## Procedure
 
@@ -54,4 +60,6 @@ Role required: sn\_vdr\_risk\_asmt.vendor\_assessor
 [Create a contract and enhance digital resilience data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-drtp-reg-contract.md)
 
 [Create New Excel download/upload request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-excel-upload-download-req.md)
+
+[Register of information regulatory packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-dora-roi.md)
 

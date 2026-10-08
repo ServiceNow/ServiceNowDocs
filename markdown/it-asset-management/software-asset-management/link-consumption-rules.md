@@ -54,5 +54,9 @@ Role required: sam\_user
     The consumption rule appears in the Entitlement Consumption Rules related list.
 
 
+## What to do next
+
+For details on how the system evaluates a linked consumption rule against software installations, see [Consumption rule evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/consumption-rule-evaluation.md).
+
 **Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/using-sam-workspace.md)
 

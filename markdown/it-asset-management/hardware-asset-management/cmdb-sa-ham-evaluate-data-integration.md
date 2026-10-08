@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
 keywords: [HAM data integration coverage, attribute coverage for model categories, Discovery pattern coverage, Service Graph Connector coverage, supported model categories and attributes]
-breadcrumb: [Analyze data integrations, Use HAM advisor, Asset and CI management, Explore, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Analyze data integrations, Use HAM advisor, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Evaluate HAM data integration coverage

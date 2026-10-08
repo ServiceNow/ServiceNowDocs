@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-xanadu-australia/australia-xanadu-servicenowottoforsalesautomation-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
@@ -370,6 +370,8 @@ Yokohama
 Now Assist features are available with activation of com.sn.now.platform plugin. For more information, see [Install Now Assist plugins](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&family=yokohama&ft:locale=en-US).
 
 
+**Important:** ServiceNow Otto for Sales Automation is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Zurich
@@ -380,6 +382,8 @@ Zurich
 
 Now Assist features are available with activation of com.sn.now.platform plugin. For more information, see [Install plugins for ServiceNow Otto](https://www.servicenow.com/docs/access?context=install-now-assist-feature-plugins&family=zurich&ft:locale=en-US).
 
+
+**Important:** ServiceNow Otto for Sales Automation is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 

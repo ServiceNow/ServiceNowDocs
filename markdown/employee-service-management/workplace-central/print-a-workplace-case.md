@@ -63,7 +63,7 @@ Role required: sn\_wsd\_case.case\_reader, sn\_wsd\_case.case\_writer, sn\_wsd\_
 
 [Manage workplace cases in calendar view in Workplace Central]()
 
-[Manage workplace cases in List view in Workplace Central]()
+[Workplace cases in List view in Workplace Central]()
 
-[View Facility Assets in Workplace Central]()
+[View facility assets in Workplace Central]()
 

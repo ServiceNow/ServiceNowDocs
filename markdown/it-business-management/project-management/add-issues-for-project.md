@@ -1,20 +1,20 @@
 ---
 title: Add issues for a project
-description: Add an issue to a project to escalate a risk or to track an unexpected problem such as a technical malfunction or resource unavailability that occurs during any phase of the project life cycle. If the issue remains unresolved, unnecessary conflicts, delays, or even a failure can occur.
+description: Add an issue to a project to escalate a risk or track an unexpected problem. Unresolved issues can cause conflicts, delays, or project failure.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-management/add-issues-for-project.html
 release: australia
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-08"
 reading_time_minutes: 1
 breadcrumb: [Adding RIDAC records for a project, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Add issues for a project
 
-Add an issue to a project to escalate a risk or to track an unexpected problem such as a technical malfunction or resource unavailability that occurs during any phase of the project life cycle. If the issue remains unresolved, unnecessary conflicts, delays, or even a failure can occur.
+Add an issue to a project to escalate a risk or track an unexpected problem. Unresolved issues can cause conflicts, delays, or project failure.
 
 ## Before you begin
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/itom-obs-aws-cloudwatch-api-agent-ai-agent.html
 release: australia
 topic_type: reference
-last_updated: "2026-06-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [IT Operations Management AI agents, IT Operations Management, AI agents library, AI assets, Enable AI experiences]
 ---
@@ -16,13 +16,14 @@ This AI agent investigates AWS CloudWatch alarm firings end to end by querying a
 
 ## Workflow
 
-1.  Determine whether the investigation starts from a known CloudWatch alarm name or from a named resource that needs to be matched to its alarm.
-2.  Retrieve the alarm's configuration and current state history.
-3.  Analyze the alarm's metric data against its configured thresholds to identify trends and deviations.
-4.  Discover the log groups associated with the affected resource and query them for related log evidence.
-5.  Check for machine-learning-detected anomalies on the relevant metrics.
-6.  Correlate metric spikes across related services to understand the broader impact.
-7.  Produce a structured root cause analysis report with supporting evidence from metrics and logs.
+1.  Identify what to investigate.
+
+    The agent uses either the provided CloudWatch alarm name and region or entity name and region.
+
+2.  Gather context about the resource and investigate metrics and logs.
+3.  Return findings, including a summary of probable causes, recommended next steps, and investigation notes.
+
+For more information about configuring this AI agent, see [Configure observability agents for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/configure-integration-agents-for-now-assist.md).
 
 <table><thead><tr><th>
 
@@ -121,7 +122,7 @@ Used in agentic workflows
 
 </td><td>
 
-Not applicable.
+[Analyze alert impact agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/now-assist-itom-agentic-aia.md)
 
 </td></tr></tbody>
 </table>For more information, see [ITOM AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-health-landing-page.md).

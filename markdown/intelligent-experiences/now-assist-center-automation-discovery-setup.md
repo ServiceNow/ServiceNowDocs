@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-center-automation-discovery-setup.html
 release: australia
 topic_type: concept
-last_updated: "2026-07-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup, AI Agent Advisor]
 breadcrumb: [Configure, AI Agent Advisor, AI Admin Center, Enable AI experiences]
@@ -17,7 +17,9 @@ Configure the data sources, filters, and schedule that AI Agent Advisor uses to 
 
 AI Agent Advisor runs a scheduled analysis of your instance records to discover automation opportunities. Follow these steps to specify which base system or custom data sourcesto include, apply filters to focus the analysis, and set the frequency and timing of the analysis.
 
--   **[Set up a data source for analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-admin-center-set-up-data-source.md)**  
+-   **[Set up a data source for analysis \(Next Experience UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-admin-center-set-up-data-source.md)**  
+Create and activate a scheduled analysis of your instance records to discover automation opportunities.
+-   **[Set up a data source for analysis \(Lux UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-admin-center-lux-set-up-data-source.md)**  
 Create and activate a scheduled analysis of your instance records to discover automation opportunities.
 -   **[Edit an analysis data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-agent-advisor-edit-data-source.md)**  
 Edit a scheduled analysis of your instance records.

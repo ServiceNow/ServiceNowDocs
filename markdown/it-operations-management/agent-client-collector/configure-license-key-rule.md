@@ -7,10 +7,10 @@ release: australia
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 3
 keywords: [license key discovery, parser script, file-based discovery, configuration]
-breadcrumb: [ACC File-Based Discovery, ACC deployment - endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
+breadcrumb: [License key discovery, ACC Discovery, ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Configure a license key discovery rule and write a parser script
@@ -96,5 +96,5 @@ The parser is created first because the file-matching rule references it.
 
 Your new rule is active and the agent will automatically discover license keys from files matching your configuration. The discovered licenses appear in the appropriate tables when they are successfully matched in the software catalog.
 
-**Parent Topic:**[Agent Client Collector File-Based Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/file-based-discovery-overview.md)
+**Parent Topic:**[License key discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/license-key-discovery.md)
 

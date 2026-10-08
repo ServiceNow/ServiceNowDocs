@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-08-20"
 reading_time_minutes: 2
 keywords: [voice call widget, voice calls, portal, Engagement Messenger, WebRTC, call management]
-breadcrumb: [Configure Voice, Configure omnichannel, Configure, Customer Service Management]
+breadcrumb: [Configure voice, Configure omnichannel, Configure, Customer Service Management]
 ---
 
 # Use Voice call widget for portal communication

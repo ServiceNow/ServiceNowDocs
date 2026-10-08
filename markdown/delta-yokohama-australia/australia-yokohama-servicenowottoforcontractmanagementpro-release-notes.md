@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-yokohama-australia/australia-yokohama-servicenowottoforcontractmanagementpro-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 19
 breadcrumb: [Products combined by family]
 ---
@@ -702,7 +702,7 @@ Australia
 
 </td><td>
 
-[\[Placeholder link text to key australia-patch-6\]](https://www.servicenow.com/docs/access?context=australia-patch-6&family=australia&ft:locale=en-US)
+[Australia Patch 6](https://www.servicenow.com/docs/access?context=australia-patch-6&family=australia&ft:locale=en-US)
 
 -   Contract Management Pro MCP Server to retrieve the approved contract analysis playbook for external AI tools, enabling the use of organization's standard terms and approved clause language when reviewing contracts.
 -   Contract document-based conversational search queries now return all matching results instead of 10 results. Use Show more option to load the remaining results.
@@ -724,7 +724,7 @@ Australia
 -   Configure use case mappings to extract metadata and obligations from a signed contract that is uploaded directly on a contract record.
 -   Use AI powered conversational search to query contract documents using natural language and dialogue-driven queries, making it easier to find relevant information.
 
- See [\[Placeholder link text to key bundle-emplsm.cncore-now-assit-landing\]](https://www.servicenow.com/docs/access?context=cncore-now-assit-landing&family=australia&ft:locale=en-US) for more information.
+ See [AI capabilities in Contract Management Pro](https://www.servicenow.com/docs/access?context=cncore-exp-now-assist-land&family=australia&ft:locale=en-US) for more information.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-yokohama-australia/rn-combined-intro.md)

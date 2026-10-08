@@ -7,7 +7,7 @@ release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-05-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [SBOM, software bill of materials, due diligence, vendor risk assessment, processing]
 breadcrumb: [Collecting software bill of materials, Assess third-party risk, Third-party Risk Management, Governance, Risk, and Compliance]

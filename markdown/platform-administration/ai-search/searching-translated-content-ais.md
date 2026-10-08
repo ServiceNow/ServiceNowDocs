@@ -7,7 +7,7 @@ release: australia
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Internationalization support, Administer, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -45,7 +45,7 @@ Starting with the Utah release, you can configure a filter condition for globall
 
 Starting with the Tokyo release, you can set a fallback language for each language enabled in your ServiceNow AI Platform instance. When a fallback language is configured for the user's session language, AI Search returns search results in both languages. For more details, see [AI Search interaction with fallback languages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/interaction-fallback-language-ais.md).
 
-You can configure a global fallback locale to make AI Search match documents in the instance locale's language as well as the user's session language. This configuration works best when you want to make all English-language documents globally searchable. To learn more about configuring a global fallback locale, see [Enable a global fallback locale for translated content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/enable-global-fallback-lang-ais.md).
+You can configure a global fallback locale to make AI Search match documents in the instance locale's language as well as the user's session language. This configuration works best when you need to make all English-language documents globally searchable. To learn more about configuring a global fallback locale, see [Enable a global fallback locale for translated content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/enable-global-fallback-lang-ais.md).
 
 **Parent Topic:**[Internationalization support for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/international-language-support-ais.md)
 

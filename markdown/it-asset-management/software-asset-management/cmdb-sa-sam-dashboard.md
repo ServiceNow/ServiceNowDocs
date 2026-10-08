@@ -7,8 +7,8 @@ release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2026-09-10"
-reading_time_minutes: 8
+last_updated: "2026-09-30"
+reading_time_minutes: 10
 keywords: [SAM advisor dashboard, monitor SAM data quality, software install data quality metrics, software installs missing edition version, duplicate software installs, virtual server host CI relationships]
 breadcrumb: [Use SAM advisor, Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -101,6 +101,14 @@ Select **View reasoning** to open the Reasoning popover, which explains the rank
 
 **Note:** Available only when the summarize CMDB readiness skill is configured. See [Configure the summarize CMDB readiness skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/na-cmdb-config-summ-rdy.md).
 
+The **Software installs missing version** card and the **CIs missing CPU attributes** card each display their own **Ask Otto** action, separate from the Remediation actions panel. For more information about the Remediation actions panel, see [Improving CMDB data quality for SAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/cmdb-sa-sam-remediation.md).
+
+Selecting **Ask Otto** opens the ServiceNow Otto panel in a dialog box. The panel starts the CMDB ingestion optimizer agent conversation. The agent recommends Discovery patterns, Service Graph Connectors, and specialized ingestion tools for the affected software products or CI classes.
+
+The **Ask Otto** action requires the now\_assist\_panel\_user role. Both cards also require the sam\_admin role or the sn\_cmdb\_admin role.
+
+**Note:** If the agent conversation fails to start, an error notification appears and the **Ask Otto** action remains available to try again.
+
 </td></tr></tbody>
 </table>## Filters
 
@@ -123,6 +131,8 @@ Select **Reset filters** to clear all filter selections and restore the dashboar
 
 Displays key metrics related to issues in software installation data that affect software inventory accuracy and licensing, limited to installs with a normalized product.
 
+**Note:** The KPI Details trend chart for the Software installs card covers the most recent 6 months of data. The percentage change comparison on the Software installs missing edition, Software installs missing version, and Server installs missing cloud license cards also covers 6 months.
+
 |Card|Description|Indicators|
 |----|-----------|----------|
 |Software installs|Total number of software installs in scope, broken down by discovery source.|[Software installs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/cmdb-sa-sam-dashboard-indicators.md)|
@@ -137,6 +147,8 @@ Displays key metrics related to issues in software installation data that affect
 Displays key metrics related to CIs on which the selected software products are installed.
 
 The **Installed on** sub-tab name reflects the **Installed on** field on the software installation record, which identifies the CI on which the software is installed. For more information, see [Software installation fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/software-installation-fields.md).
+
+**Note:** The KPI Details trend chart for the CIs not updated and Duplicate CIs cards covers the most recent 6 months of data. The percentage change comparison on the CIs missing environment, CIs missing assigned to, and Server CIs missing CPU attributes cards also covers 6 months.
 
 <table id="table_uvg_rz5_zjc"><thead><tr><th>
 
@@ -218,7 +230,7 @@ Duplicate CIs
 
 </td><td>
 
-Software installs on CIs identified as duplicates, with an open de-duplication task, causing data redundancy.
+Software installs on CIs identified as duplicates, with an active de-duplication task, causing data redundancy.
 
 </td><td>
 
@@ -230,6 +242,8 @@ Software installs on CIs identified as duplicates, with an open de-duplication t
 Displays key metrics related to CI relationships that connect virtual machine installs to their host infrastructure. Accurate mappings enable licensing compliance.
 
 **Note:** Run the **CMDB Health Dashboard - Relationship Compliance Processor** scheduled job to populate virtual machine host relationship data. If the job is inactive, the dashboard displays a `Relationship data incomplete` alert with a **Run job** action. The dashboard metrics update after the **CMDB Advisor - SAM Daily Data Collection** scheduled job runs. For more information, see [Components installed with CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/cmdb-sa-components-installed.md) and [Scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/c_ScheduledJobs.md).
+
+**Note:** The KPI Details trend chart for the Virtual CIs with incorrect host CI relationships card covers the most recent 6 months of data.
 
 <table id="table_e4p_rz5_zjc"><thead><tr><th>
 
@@ -266,6 +280,18 @@ Virtualized by or Member of relationships for virtual server CIs, limited to VMw
 </td><td>
 
 [Virtual CIs with incorrect host CI relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/cmdb-sa-sam-dashboard-indicators.md)
+
+</td></tr><tr><td>
+
+Virtual CIs on hosts with incorrect cluster relationships
+
+</td><td>
+
+Software installs on virtual server CIs whose host server has a cluster relationship with the wrong relationship type, broken down by virtualization technology. Covers VMware ESX Server, Microsoft Hyper-V, and Nutanix virtualization.**Note:** This card doesn't depend on the **CMDB Health Dashboard - Relationship Compliance Processor** scheduled job used by other cards in this section. The **CMDB Advisor - SAM Daily Data Collection** scheduled job populates it directly.
+
+</td><td>
+
+[Virtual CIs on hosts with incorrect cluster relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/cmdb-sa-sam-dashboard-indicators.md)
 
 </td></tr><tr><td>
 

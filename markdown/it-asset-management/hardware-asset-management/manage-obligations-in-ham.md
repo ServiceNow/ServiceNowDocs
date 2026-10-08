@@ -105,6 +105,8 @@ Create an obligation record for signed contracts in the Hardware Asset Workspace
 
 [Create an internal lifecycle in the Hardware Asset Workspace]()
 
+[Calculate the active lifecycle phase for a model]()
+
 [Receive asset warranty details from Lenovo]()
 
 [Manage stockrooms]()

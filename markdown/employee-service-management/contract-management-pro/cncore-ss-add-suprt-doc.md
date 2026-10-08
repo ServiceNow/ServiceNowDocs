@@ -9,7 +9,7 @@ classification: contract-management-pro
 topic_type: task
 last_updated: "2026-06-16"
 reading_time_minutes: 1
-breadcrumb: [Use non-self-served contract request, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Third-Party paper contract request, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Add supporting documents to the contract request
@@ -67,5 +67,5 @@ Role required: sn\_cm\_core.contract\_user, sn\_cm\_core.contract\_fulfiller
 
 The selected files are attached and listed in the Supporting Documents related list.
 
-**Parent Topic:**[Use non-self-served contract request]()
+**Parent Topic:**[Third-Party paper contract request]()
 

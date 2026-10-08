@@ -273,15 +273,15 @@ Role required: admin
         connect-microsoftteams
         ```
 
-        \[Omitted image "image.powershell-connect-teams-command"\] Alt text: PowerShell connect Teams command
+        \[Omitted image "powershell-connect-teams-command.png"\] Alt text: PowerShell connect Teams command
 
         Upon successful connection, a confirmation message is displayed in the browser.
 
-        \[Omitted image "image.authentication-message-browser"\] Alt text: Authentication message in browser
+        \[Omitted image "authentication-message-browser.png"\] Alt text: Authentication message in browser
 
         PowerShell will also display the tenant details.
 
-        \[Omitted image "image.powershell-confirmation"\] Alt text: Powershell confirmation
+        \[Omitted image "powershell-confirmation.png"\] Alt text: Powershell confirmation
 
 4.  Run the command below to create a new Application Access Policy in PowerShell.
 
@@ -300,11 +300,11 @@ Role required: admin
     For Example: New-CsApplicationAccessPolicy -Identity "OnlineMeetingsAccessPolicy" -AppIds "aaaaaaaa-1234-er4r-8dc9-123456789012" -Description "Grant OnlineMeeting Application Permission"
     ```
 
-    \[Omitted image "image.app-access-policy"\] Alt text: App access policy in Powershell
+    \[Omitted image "app-access-policy.png"\] Alt text: App access policy in Powershell
 
     Upon successfully creating the policy, the details are displayed in PowerShell.
 
-    \[Omitted image "image.powershell-app-access-success"\] Alt text: App access policy success message in Powershell
+    \[Omitted image "powershell-app-access-success.png"\] Alt text: App access policy success message in Powershell
 
 5.  Run the user permission policy in PowerShell.
 
@@ -329,7 +329,7 @@ Role required: admin
         
         ```
 
-        \[Omitted image "image.powershell-user-permissions"\] Alt text: User permissions
+        \[Omitted image "powershell-user-permissions.png"\] Alt text: User permissions
 
 
 ## Register Microsoft Teams Communications as an OAuth provider

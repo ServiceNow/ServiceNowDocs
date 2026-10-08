@@ -40,17 +40,5 @@ When you upgrade from the Xanadu release, understand the fixes in each release v
 
 [Browser support \[Omitted image "browser.png"\] Alt text: Supported browser versions and additional requirements for specific products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/browser-support.md)
 
-</td></tr><tr><td>
-
- 
-
-</td><td>
-
-Australia highlights \[Omitted image "highlights.png"\] Alt text: High-level overview of products and features in Australia
-
-</td><td>
-
- 
-
 </td></tr></tbody>
 </table>

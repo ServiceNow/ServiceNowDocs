@@ -8,7 +8,7 @@ product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 7
+reading_time_minutes: 8
 breadcrumb: [Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
@@ -112,6 +112,8 @@ Role required: inventory\_admin
 [Manage the lifecycle of hardware models with calculated lifecycle templates]()
 
 [Create an internal lifecycle in the Hardware Asset Workspace]()
+
+[Calculate the active lifecycle phase for a model]()
 
 [Receive asset warranty details from Lenovo]()
 

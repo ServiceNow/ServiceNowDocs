@@ -40,7 +40,7 @@ Watch this short video for an introduction to the Telecommunications Network Inv
 
 </td><td>
 
- 
+[Automate\[Omitted image "bus-artificial-intelligence.svg"\] Alt text:Use generative AI skills and agentic workflows to automate TNI tasks.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/telecom-network-inventory/ai-in-telecommunication-network-inventory.md)
 
 </td></tr></tbody>
 </table>## Additional resources

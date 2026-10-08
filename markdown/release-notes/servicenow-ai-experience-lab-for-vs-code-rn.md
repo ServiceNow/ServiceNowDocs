@@ -92,7 +92,7 @@ ServiceNow SDK
 
 </td><td>
 
-4.10 or later
+4.12.1 or later
 
 </td><td>
 
@@ -114,8 +114,5 @@ ServiceNow instance
 
 </td></tr></tbody>
 </table>
--   **[Version 1.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/servicenow-lux-lab-for-vs-code-rn-2026-09.md)**  
-The ServiceNow AI Experience Lab for VS Code is now named ServiceNow Lux Lab for VS Code.
-
 **Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/build-automate-rn-landing.md)
 

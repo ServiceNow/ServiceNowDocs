@@ -7,8 +7,9 @@ release: australia
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
+keywords: [request AI model, AI model form, AI model intake]
 breadcrumb: [Request an AI model, Use, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
 

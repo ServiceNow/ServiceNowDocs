@@ -7,7 +7,7 @@ release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [Reference, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -146,8 +146,6 @@ Use the external assessment template form to capture all the information that yo
 Use the Create New TPRM questionnaire template form to capture all the information that you need to create a TPRM SAE questionnaire template using the Smart Assessment template designer. As a third-party risk admin, you can create a questionnaire template.
 -   **[Third-party risk assessment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-create-assessment-form.md)**  
 Use the third-party risk assessment form to capture all the information that you need to create an assessment using the Third-party Risk Management application. As a third-party risk assessor or manager, you can create an external assessment.
--   **[Third-party element form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-tpe-form.md)**  
-Use the third-party element form to capture all the information that you need to create a third-party element record using the Third-party Risk Management application. As a third-party risk manager, third-party risk assessor, or due diligence request owner, you can create a third-party element record.
 -   **[Create new third-party risk task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-create-task-form.md)**  
 Use the third-party risk task form to capture the information needed to create a task in the Third-party Risk Management application. As a third-party risk assessor or manager, you can create an internal orexternal task.
 

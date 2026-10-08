@@ -22,7 +22,7 @@ To reclaim user subscriptions in the Software Asset Workspace, you must request 
 
 Role required: sam\_user
 
-**Important:** The SaaS License Management SurveyMonkey integration does not support reclamation through the ServiceNow AI Platform. To reclaim a SurveyMonkey user subscription, you must reassign or delete the user from your SurveyMonkey team directly using the SurveyMonkey admin portal. After the user is removed from your team, you must update the state of the corresponding removal candidate to **Closed Skipped** so that the user subscription is removed from the Software Subscriptions \[samp\_sw\_subscription\] table. See [Reclaim SurveyMonkey user subscriptions in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/saas-license-management/reclaim-surveymonkey-subscription-workspace.md) for detailed instructions.
+**Important:** The SaaS License Management SurveyMonkey integration doesn't support reclamation through the ServiceNow AI Platform. To reclaim a SurveyMonkey user subscription, you must reassign or delete the user from your SurveyMonkey team directly using the SurveyMonkey admin portal. After the user is removed from your team, you must update the state of the corresponding removal candidate to **Closed Skipped** so that the user subscription is removed from the Software Subscriptions \[samp\_sw\_subscription\] table. See [Reclaim SurveyMonkey user subscriptions in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/saas-license-management/reclaim-surveymonkey-subscription-workspace.md) for detailed instructions.
 
 **Important:** The SaaS License Management monday.com integration does not support reclamation through the ServiceNow AI Platform. To reclaim a monday.com user subscription, you must deactivate the user on your monday.com account. After the user is deactivated, you must update the state of the corresponding removal candidate to **Closed Skipped** so that the user subscription is removed from the Software Subscriptions \[samp\_sw\_subscription\] table. See [Reclaim monday.com user subscriptions in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/saas-license-management/reclaim-monday-subscription-workspace.md) for detailed instructions.
 
@@ -32,25 +32,19 @@ Role required: sam\_user
 
 1.  From your ServiceNow instance, navigate to **Software Asset** &gt; **Software Asset Workspace**.
 
-    The Software Asset Workspace launches in a new tab.
-
 2.  To reclaim a user subscription that was not automatically identified by a software reclamation rule, create a software removal candidate.
 
     See [Create a software removal candidate in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/add-sw-removal-workspace.md) for detailed instructions on how to create a software removal candidate in the Software Asset Workspace.
 
-3.  From the left navigation menu of the Software Asset Workspace, select **License usage**.
+3.  From the side menu of the Software Asset Workspace, navigate to **License operations** &gt; **Reclamation** &gt; **Removal candidates**.
 
-    The License usage view opens.
+4.  Reclaim user subscriptions.
 
-4.  In the License usage view, select the **Removal candidates** tab.
+    -   To reclaim all user subscriptions, select **Reclaim All**.
 
-5.  Reclaim user subscriptions.
+        **Note:** You must confirm before reclaiming all user subscriptions. Some users may still need their subscriptions even if they have no activity.
 
-    -   To reclaim all user subscriptions, click **Reclaim All**.
-
-        **Note:** Use caution when reclaiming all user subscriptions. Some users may still need their subscriptions even if they have no activity.
-
-    -   To reclaim an individual user subscription, select a removal candidate and then click **Reclaim** on the Removal Candidate form.
+    -   To reclaim an individual user subscription, select a removal candidate and then select **Reclaim** on the Removal Candidate form.
 
 
 ## Result

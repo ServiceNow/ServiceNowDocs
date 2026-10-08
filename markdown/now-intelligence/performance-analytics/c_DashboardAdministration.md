@@ -1,5 +1,5 @@
 ---
-title: Administering dashboards
+title: Administering Core UI dashboards
 description: Learn about administering dashboards including how to group dashboards, how to move a dashboard with an update set, and addressing permissions issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/c\_DashboardAdministration.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
-# Administering dashboards
+# Administering Core UI dashboards
 
 Learn about administering dashboards including how to group dashboards, how to move a dashboard with an update set, and addressing permissions issues.
 

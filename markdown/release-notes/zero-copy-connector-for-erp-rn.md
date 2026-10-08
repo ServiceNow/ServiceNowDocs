@@ -1,13 +1,13 @@
 ---
 title: Zero Copy Connector for ERP release notes
-description: The ServiceNow Zero Copy Connector for ERP application enables you to connect to an Enterprise Resource Planning \(ERP\) system of record, query remote tables, and build data models to use ERP data. Zero Copy Connector for ERP was enhanced and updated in the Australia release.The ServiceNow Zero Copy Connector for ERP application enables you to connect to an Enterprise Resource Planning \(ERP\) system of record, query remote tables, and build data models to use ERP data. Zero Copy Connector for ERP was enhanced and updated in the Australia release.The ServiceNow Zero Copy Connector for ERP application enables you to connect to an Enterprise Resource Planning \(ERP\) system of record, query remote tables, and build data models to use ERP data. Zero Copy Connector for ERP was enhanced and updated in the Australia release.The ServiceNow Zero Copy Connector for ERP application enables you to connect to an Enterprise Resource Planning \(ERP\) system of record, query remote tables, and build data models to use ERP data. Zero Copy Connector for ERP was enhanced and updated in the Australia release.The ServiceNow Zero Copy Connector for ERP application enables you to connect to an Enterprise Resource Planning \(ERP\) system of record, query remote tables, and build data models to use ERP data. Zero Copy Connector for ERP was enhanced and updated in the Australia release.
+description: The ServiceNow Zero Copy Connector for ERP application enables you to connect to an Enterprise Resource Planning \(ERP\) system of record, query remote tables, and build data models to use ERP data. Zero Copy Connector for ERP was enhanced and updated in the Australia release.The ServiceNow Zero Copy Connector for ERP application enables you to connect to an Enterprise Resource Planning \(ERP\) system of record, query remote tables, and build data models to use ERP data. Zero Copy Connector for ERP was enhanced and updated in the Australia release.The ServiceNow Zero Copy Connector for ERP application enables you to connect to an Enterprise Resource Planning \(ERP\) system of record, query remote tables, and build data models to use ERP data. Zero Copy Connector for ERP was enhanced and updated in the Australia release.The ServiceNow Zero Copy Connector for ERP application enables you to connect to an Enterprise Resource Planning \(ERP\) system of record, query remote tables, and build data models to use ERP data. Zero Copy Connector for ERP was enhanced and updated in the Australia release.The ServiceNow Zero Copy Connector for ERP application enables you to connect to an Enterprise Resource Planning \(ERP\) system of record, query remote tables, and build data models to use ERP data. Zero Copy Connector for ERP was enhanced and updated in the Australia release.The ServiceNow Zero Copy Connector for ERP application enables you to connect to an Enterprise Resource Planning \(ERP\) system of record, query remote tables, and build data models to use ERP data. Zero Copy Connector for ERP was enhanced and updated in the Australia release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/zero-copy-connector-for-erp-rn.html
 release: australia
 topic_type: topic
-last_updated: "2026-08-19"
-reading_time_minutes: 5
-keywords: [erp, canvas, erp canvas, model, integration, data hub, zero, copy, connector, sap, erp data, connect, erp, canvas, erp canvas, model, integration, data hub, zero, copy, connector, sap, erp data, connect, erp, canvas, erp canvas, model, integration, data hub, zero, copy, connector, sap, erp data, connect, erp, canvas, erp canvas, model, integration, data hub, zero, copy, connector, sap, erp data, connect, erp, canvas, erp canvas, model, integration, data hub, zero, copy, connector, sap, erp data, connect]
+last_updated: "2026-09-24"
+reading_time_minutes: 6
+keywords: [erp, canvas, erp canvas, model, integration, data hub, zero, copy, connector, sap, erp data, connect, erp, canvas, erp canvas, model, integration, data hub, zero, copy, connector, sap, erp data, connect, workday, raas, erp, canvas, erp canvas, model, integration, data hub, zero, copy, connector, sap, erp data, connect, erp, canvas, erp canvas, model, integration, data hub, zero, copy, connector, sap, erp data, connect, erp, canvas, erp canvas, model, integration, data hub, zero, copy, connector, sap, erp data, connect, erp, canvas, erp canvas, model, integration, data hub, zero, copy, connector, sap, erp data, connect]
 breadcrumb: [App development and low-code release notes, Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
 
@@ -18,6 +18,7 @@ The ServiceNow® Zero Copy Connector for ERP application enables you to connect 
 ## About Zero Copy Connector for ERP
 
 -   Connect to Oracle E-Business Suite \(12.2 and later\).
+-   Add Workday RaaS reports to read operations by pasting a sample report response.
 -   Use REST APIs to extend beyond SAP systems.
 -   Use the improved AI suggestions and interface to map fields in the Model Manager.
 -   As of version 29.2.11, ServiceNow Otto is the new AI experience brand. This change is reflected in the name of ServiceNow products, including ServiceNow Otto for Zero Copy Connector.
@@ -39,6 +40,24 @@ See [Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/S
 
 
 **Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/build-automate-rn-landing.md)
+
+## October 2026
+
+The ServiceNow® Zero Copy Connector for ERP application enables you to connect to an Enterprise Resource Planning \(ERP\) system of record, query remote tables, and build data models to use ERP data. Zero Copy Connector for ERP was enhanced and updated in the Australia release.
+
+### What's new
+
+-   **[Workday RaaS reports in read operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-add-a-raas-report-service.md)**
+
+    Add a Workday Report-as-a-Service \(RaaS\) report to a read operation by providing the report URL and pasting a sample response. The model entity and its fields are created from the sample. The host and tenant come from the model's system connection, so you can paste the report URL exactly as Workday provides it.
+
+
+### What's changed
+
+-   ****
+
+    [Building flows to read or update the ERP system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-canvas-build-flow-operation.md)Required and optional fields now display correctly in the Use ERP Data action when nested structures share a name.
+
 
 ## September 2026
 

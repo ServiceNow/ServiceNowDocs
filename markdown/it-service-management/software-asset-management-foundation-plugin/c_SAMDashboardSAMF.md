@@ -9,7 +9,7 @@ classification: software-asset-management-foundation-plugin
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Using Software Asset Management Foundation plugin classic, Software Asset Management Foundation plugin, ITSM Software Asset Management, Asset Management common applications, IT Service Management]
+breadcrumb: [Using Basic Software Asset Management classic, Basic Software Asset Management, ITSM Software Asset Management, Asset Management common applications, IT Service Management]
 ---
 
 # Software Asset Management Foundation dashboard
@@ -36,5 +36,5 @@ The source for overview data is the Product Result \[samp\_product\_result\] tab
 |Total True-up Cost|Cost to be compliant based on the average prices in entitlements for the rights.|
 |Top 10 Products by True-up Cost|Top 10 products graphed in order of true-up cost.|
 
-**Parent Topic:**[Using Software Asset Management Foundation plugin classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/software-asset-management-foundation-plugin/using-samf-classic.md)
+**Parent Topic:**[Using Basic Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/software-asset-management-foundation-plugin/using-samf-classic.md)
 

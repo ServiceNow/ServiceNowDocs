@@ -1,6 +1,6 @@
 ---
 title: Create an Explicit Block policy
-description: Stop a user, group, department, or everyone in your organization from using a specific AI agent, model, or domain.
+description: Stop a user, a department, or everyone in your organization from using a specific AI agent, model, or domain.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/gov-pol-create-explicit-block-policy.html
 release: australia
@@ -13,7 +13,7 @@ breadcrumb: [Manage policies, Controlling AI asset usage, Govern AI assets, AI C
 
 # Create an Explicit Block policy
 
-Stop a user, group, department, or everyone in your organization from using a specific AI agent, model, or domain.
+Stop a user, a department, or everyone in your organization from using a specific AI agent, model, or domain.
 
 ## Before you begin
 
@@ -23,7 +23,7 @@ Role required: sn\_ai\_governance.ai\_steward
 
 ## About this task
 
-An Explicit Block policy stops a user, group, department, or everyone in your organization from using a specific AI agent, model, or domain. Once published, it stays in effect until you deactivate it; there's no pause or in-between state.
+An Explicit Block policy stops a user, a department, or everyone in your organization from using a specific AI agent, model, or domain. Once published, it stays in effect until you delete it; there's no pause or in-between state.
 
 ## Procedure
 
@@ -37,19 +37,19 @@ An Explicit Block policy stops a user, group, department, or everyone in your or
 
 5.  In the Block section, define who's blocked.
 
-    For example, select a type, such as **User**, then search for someone specific. Leave the search field empty to apply the block to everyone.
+    Select **User** to block specific people, or **Department** to block everyone in a department. Leave the search field empty to apply the block to everyone.
 
 6.  In the Block section, define what they're blocked from using.
 
-<table><thead><tr><th align="left" id="d319075e166">
+<table><thead><tr><th align="left" id="d383663e169">
 
 Option
 
-</th><th align="left" id="d319075e169">
+</th><th align="left" id="d383663e172">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d319075e175">
+</th></tr></thead><tbody><tr><td id="d383663e178">
 
 **AI agent**
 
@@ -60,7 +60,7 @@ Description
 3.  Combine multiple conditions with **and** or **or**, or select **Add group** for another set of conditions.
 
 
-</td></tr><tr><td id="d319075e217">
+</td></tr><tr><td id="d383663e220">
 
 **Model**
 
@@ -70,7 +70,7 @@ Description
 2.  Enter one or more models in a comma-separated list.
 
 
-</td></tr><tr><td id="d319075e238">
+</td></tr><tr><td id="d383663e241">
 
 **Domain**
 
@@ -102,5 +102,5 @@ The policy takes effect at every enforcement point it applies to. If enforcement
 
 Confirm the policy is working as expected by reviewing the policy enforcement activity. For details, see [Reviewing policy enforcement in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-pol-reviewing-enforcement-activity.md).
 
-You can't edit a policy once it's published. To change who or what it blocks, clone the policy, make your changes in the cloned policy, then deactivate the original once your clone is confirmed working, if you no longer need it. For details, see [Clone a policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-pol-clone-policy.md).
+To change who or what a published policy blocks, edit it. For details, see [Edit an Explicit Block policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-pol-edit-explicit-block-policy.md). Alternatively, clone the policy to try a variant without changing the original, then delete the original once your clone is confirmed working, if you no longer need it. For details, see [Clone a policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/gov-pol-clone-policy.md).
 

@@ -8,7 +8,7 @@ topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 5
 keywords: [Configure, Case, incident, record, summarization, Now Assist, guided setup, admin console, gen AI, generative AI]
-breadcrumb: [Make a copy of AI skill, Using AI Admin Hub, AI Admin Hub, Enable AI experiences]
+breadcrumb: [Make a copy of an AI skill, Using AI Admin Hub, AI Admin Hub, Enable AI experiences]
 ---
 
 # Configure case or incident summarization in the AI Admin Hub console
@@ -19,7 +19,7 @@ Configure case or incident summarization by using the guided setup in the AI Adm
 
 ## Before you begin
 
-You can only customize the input data and prompt output for a copy of a record summarization skill. To learn more about making a skill copy, see [Make a copy of AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/make-a-copy-of-a-now-assist-skill.md). After you create a skill copy, you can learn the steps to complete the skill setup here.
+You can only customize the input data and prompt output for a copy of a record summarization skill. To learn more about making a skill copy, see [Make a copy of an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/make-a-copy-of-a-now-assist-skill.md). After you create a skill copy, you can learn the steps to complete the skill setup here.
 
 Role required: nsa\_admin
 
@@ -120,5 +120,5 @@ Your customized version of case or incident summarization is active on the insta
 
 Analyze your skill performance on the AI Admin Hub console to help determine the success of the new version of the skill. Learn more about tracking Now Assist usage at [Monitoring Now Assist usage in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/monitoring-now-assist-usage.md).
 
-**Parent Topic:**[Make a copy of AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/make-a-copy-of-a-now-assist-skill.md)
+**Parent Topic:**[Make a copy of an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/make-a-copy-of-a-now-assist-skill.md)
 

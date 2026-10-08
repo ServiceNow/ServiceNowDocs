@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/slo-supplier-approval-ai-agent.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-14"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Supplier Lifecycle Operations AI agents, Supplier Lifecycle Operations, AI agents library, AI assets, Enable AI experiences]
 ---
 
@@ -17,10 +17,11 @@ This Supplier Lifecycle Operations agent performs the supplier activation or sup
 ## Workflow
 
 1.  Identify whether the request is for supplier activation or rejection.
-2.  Confirm with the user that they want to proceed. If confirmed, execute the activation. If the user declines, switch to the rejection path.
-3.  Ask the user for a rejection reason, then execute the rejection with that reason.
+2.  Confirm with the user that they want to proceed. If the user declines, switch to the rejection path.
+3.  For an activation, set the supplier case status to Closed complete, and set **Onboarded** to Yes and **Active** to true on the supplier record.
+4.  For a rejection, ask the user for a rejection reason and set the supplier case status to Closed rejected.
 
-<table><thead><tr><th>
+<table id="table_nnh_ndt_5kc"><thead><tr><th>
 
 Field
 

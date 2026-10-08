@@ -1,6 +1,6 @@
 ---
 title: Contract Management Pro
-description: The ServiceNow Contract Management Pro solution enables you to set up contract document templates, clauses, and clause variations, and to initiate contract and amendment requests. The solution uses AI to analyze non-standard and missing clauses in contracts, extract obligations and metadata, and provide AI-assisted search. It also supports e-signatures, wet signatures, and external storage systems.
+description: The ServiceNow Contract Management Pro solution enables you to set up contract document templates, clauses, and clause variations, and to initiate contract, amendment and renewal requests. Contract requests can be submitted in two ways: linked to a business unit entity such as a purchase requisition or sourcing event, or as standalone requests without a parent record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-cmpro-landing-page.html
 release: australia
@@ -15,7 +15,11 @@ breadcrumb: [Legal and Contract Operations, Employee Service Management]
 
 # Contract Management Pro
 
-The ServiceNow® Contract Management Pro solution enables you to set up contract document templates, clauses, and clause variations, and to initiate contract and amendment requests. The solution uses AI to analyze non-standard and missing clauses in contracts, extract obligations and metadata, and provide AI-assisted search. It also supports e-signatures, wet signatures, and external storage systems.
+The ServiceNow® Contract Management Pro solution enables you to set up contract document templates, clauses, and clause variations, and to initiate contract, amendment and renewal requests. Contract requests can be submitted in two ways: linked to a business unit entity such as a purchase requisition or sourcing event, or as standalone requests without a parent record.
+
+The solution uses AI to analyze non-standard and missing clauses in contracts, extract obligations and metadata, and provide AI-assisted search. It also supports e-signatures, wet signatures, and external storage systems.
+
+## Contract Workspace and Dashboard
 
 You can use the actionable widgets on Contract Workspace to categorize, prioritize, and efficiently work on contract requests.
 

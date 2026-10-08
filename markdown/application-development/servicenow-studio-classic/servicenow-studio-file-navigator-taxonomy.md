@@ -1649,7 +1649,7 @@ Dashboard
 
 Dashboards display performance analytics, reporting, and other widgets on a single screen. Use dashboards to create a story with data that you can share with other users.
 
- For more information, see [Create and use dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-and-edit-dashboards.md).
+ For more information, see [Create and use Core UI dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/create-and-edit-dashboards.md).
 
 </td><td>
 

@@ -21,6 +21,8 @@ Install and configure foundational data for Contract Management Pro to effective
 
 This section provides a guided overview of all foundational setup tasks, from installing the application and integrating key tools, to defining contract types, templates, and repository rules.
 
+**Note:** For standalone requests the configurations should be done on the Contract Request table \[sn\_cm\_core\_contract\_request\].
+
 \[Omitted image "mmasset0021414-configuring-contract-management-pro-horizontal.png"\] Alt text: Flowchart with nine steps for setting up Contract Management Pro
 
 1.  [Install Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-install-cmpro.md)
@@ -43,7 +45,7 @@ This section provides a guided overview of all foundational setup tasks, from in
 
     Define various types of contract used in your organization and associate it with a contract model.
 
-6.  [Configure templates for a contract and amendment request in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-document-templates.md)
+6.  [Configure templates for a contract requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-document-templates.md)
 
     Create a contract template to add content controls for contract metadata, clauses, signatories, and dynamic tables. Contract documents in own-paper requests are generated from these contract templates based on contract type and other applicable rules.
 

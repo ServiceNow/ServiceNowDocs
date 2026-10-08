@@ -31,7 +31,7 @@ Increase the impact of your cross‑enterprise workflows by automating manual pr
 
 </td></tr><tr><td>
 
-Workflow Studio playbook experience \[Omitted image "bus-case-and-knowledge-management.svg"\] Alt text: Interact with a business workflow in real time from within Workspace.
+[Workflow Studio playbook experience \[Omitted image "bus-case-and-knowledge-management.svg"\] Alt text: Interact with a business workflow in real time from within Workspace.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/playbook-experience-admins.md)
 
 </td><td>
 
@@ -76,7 +76,7 @@ The ServiceNow AI Platform supports these classic workflow builder tools.
 
 -   **[Classic Approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/approvals/r_Approvals.md)**
 
-    Classic approvals are a legacy process to require authorization on tasks before the work is done. In earlier releases, you could create approval records to define approval tasks and associate users or groups to approve or reject them. You can replace classic approvals with Workflow Studio flows or classic workflows.
+    Classic approvals are records that store the authorization tasks that must be done to approve or reject a request. Approval records are typically created by a Workflow Studio flow or classic workflow. An approval defines both the approval tasks and the users or groups are assigned to approve or reject them. You can replace classic approvals with Workflow Studio flows or classic workflows.
 
 -   **[Classic Business Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_BusinessRules.md)**
 
@@ -113,7 +113,7 @@ The ServiceNow AI Platform supports these classic workflow builder tools.
 
     Workflow Studio decision tables enable developers to decouple decision logic from their code by creating and maintaining decision rules.
 
--   **Playbook experience**
+-   **[Playbook experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/playbook-experience-admins.md)**
 
     Interact with a business workflow in real time from within Workspace. Agents can use Playbook to update records, upload attachments, and complete tasks across multiple workflow activities.
 
@@ -123,7 +123,7 @@ The ServiceNow AI Platform supports these classic workflow builder tools.
 
 -   **[Classic Approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/approvals/r_Approvals.md)**
 
-    Classic approvals are a legacy process to require authorization on tasks before the work is done. In earlier releases, you could create approval records to define approval tasks and associate users or groups to approve or reject them.
+    Classic approvals are records that store the authorization tasks that must be done to approve or reject a request. Approval records are typically created by a Workflow Studio flow or classic workflow. An approval defines both the approval tasks and the users or groups are assigned to approve or reject them.
 
 -   **[Classic Business Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/c_BusinessRules.md)**
 

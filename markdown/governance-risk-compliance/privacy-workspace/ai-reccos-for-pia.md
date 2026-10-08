@@ -1,6 +1,6 @@
 ---
 title: AI reviewer assist for privacy assessment tasks
-description: Privacy analysts reviewing an assessment can use AI-assisted recommendations to identify relevant control objectives and risk statements from the library. Accepted recommendations are automatically scoped to the processing activity.
+description: Privacy analysts reviewing an assessment can use AI-assisted recommendations to quickly identify control objectives and risk statements that are most likely to apply to a processing activity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/privacy-workspace/ai-reccos-for-pia.html
 release: australia
@@ -8,22 +8,22 @@ product: Privacy Workspace
 classification: privacy-workspace
 topic_type: concept
 last_updated: "2026-08-24"
-reading_time_minutes: 5
+reading_time_minutes: 4
 keywords: [recommendations, control objectives, risk statements]
 breadcrumb: [ServiceNow Otto for Privacy Management, Privacy Management, Governance, Risk, and Compliance]
 ---
 
 # AI reviewer assist for privacy assessment tasks
 
-Privacy analysts reviewing an assessment can use AI-assisted recommendations to identify relevant control objectives and risk statements from the library. Accepted recommendations are automatically scoped to the processing activity.
+Privacy analysts reviewing an assessment can use AI-assisted recommendations to quickly identify control objectives and risk statements that are most likely to apply to a processing activity.
 
 ## Overview of AI recommendations in privacy assessment tasks
 
 Previously, control objectives and risk statements were mapped to assessment responses through automation rules in smart assessment templates. These rules were tied to the specific templates shipped with the product. Organizations that used custom templates or custom questionnaires had to manually configure these mappings.
 
-AI-assisted recommendations address this limitation. When an assessment task moves to the Review state, the reviewer can select the **Recommend** button on the Overview tab to trigger the AI recommendation skills. These skills analyze the completed assessment responses and the associated processing activity. The skills then identify relevant control objectives and risk statements from the library that the reviewer can either accept or dismiss.
+AI-assisted recommendations help address this limitation. After an assessment task moves to the Review state, the reviewer selects **Recommend** on the Overview tab to trigger the AI recommendation skills. These skills analyze the completed assessment responses and the associated processing activity, and then identify relevant control objectives and risk statements from the existing library. The reviewer can either accept or dismiss a recommendation.
 
-When a reviewer accepts a recommendation, the control objective or risk statement is added to the Applicable scope tab on the assessment task. After the reviewer closes the assessment task, the corresponding controls and risks for the records in applicable scope are automatically scoped to the processing activity.
+Accepted recommendations are added to the Applicable scope tab and automatically scoped to the processing activity when the assessment task closes.
 
 ## Key benefits
 
@@ -91,7 +91,7 @@ The Applicable scope tab lists all the records that apply to the processing acti
 
 Reviewers can manually add and remove records from Applicable scope regardless of how they originated, including accepted AI recommendations and records added through automation rules.
 
-**Note:** If a recommended record is already in applicable scope from another mode such as automation, accepting the recommendation does not create a duplicate. The Mode column retains the value of the original source. If that record is later removed from the Applicable scope tab and the reviewer then accepts the same recommendation, the record is added back with AI-assisted as its mode.
+**Note:** If a recommended record is already in applicable scope from another mode such as automation, accepting the recommendation does not create a duplicate. The Mode column retains the value of the original source. If that record is later removed from the Applicable scope tab and the reviewer then accepts the same recommendation, the record is added back with **AI-assisted** as its mode.
 
 The summary cards for control objectives and risk statements in the Overview tab display the following counts:
 

@@ -21,8 +21,6 @@ From creation until closure, SM application requests for work \(for example, wor
 Service Management Core includes several feature plugins. Each of these plugins installs several types of components in support of the service management process.
 -   **[Planned Maintenance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/planned-maintenance-family/c_SMPlanMaint.md)**  
 The Planned Maintenance application is not a Service Management application, but it works with Service Management applications to help organizations manage regular preventive maintenance of assets.
--   **[Facilities Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/FacilitiesLandingPage.md)**  
-With the ServiceNow® Facilities Service Management application, you can request changes to the operation and maintenance of your facilities, track these requests, and make the necessary changes.
 -   **[Request Management in a Service Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/rm-sm-application.md)**  
 Agents regularly access request records as they resolve requests and correspond with the submitters. They can also access built-in reports to see information like the number of active or unassigned requests for an SM application.
 

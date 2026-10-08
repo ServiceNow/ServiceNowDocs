@@ -143,7 +143,7 @@ Can't edit a skill
 
 Verify that you have the AI Admin Hub role: sn\_nowassist\_admin.nsa\_admin.
 
- You can edit a skill or make a copy of a skill to edit. For details, see [Edit an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/edit-a-now-assist-skill.md) and [Make a copy of AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/make-a-copy-of-a-now-assist-skill.md).
+ You can edit a skill or make a copy of a skill to edit. For details, see [Edit an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/edit-a-now-assist-skill.md) and [Make a copy of an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/make-a-copy-of-a-now-assist-skill.md).
 
 </td></tr><tr><td>
 

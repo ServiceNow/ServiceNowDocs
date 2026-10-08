@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-zurich-australia/australia-zurich-aidesktopactions-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 24
+last_updated: "2026-10-08"
+reading_time_minutes: 25
 breadcrumb: [Products combined by family]
 ---
 
@@ -73,7 +73,16 @@ Zurich
 
 </td><td>
 
--   **[Preserve context across long-running sessions](https://www.servicenow.com/docs/access?context=na-ai-wa-access-using-nap&family=zurich&ft:locale=en-US)**
+-   **[Execute recorded desktop actions on macOS](https://www.servicenow.com/docs/access?context=reusable-skills-adaptive-da&family=zurich&ft:locale=en-US)**
+    -   Enable the setting to automatically record adaptive desktop actions during execution and reuse them for similar tasks.
+    -   Automated recording captures your exact steps and converts them instantly into reusable action blocks.
+    -   AI-powered search automatically suggests matching desktop actions based on your current task.
+-   **[New system property added](https://www.servicenow.com/docs/access?context=components-installed-with-agentic-desktop&family=zurich&ft:locale=en-US)**
+
+The sn\_desktop\_core.enable\_reusable\_assets system property is added to manage the reusable skills feature. The system property creates reusable skills from adaptive desktop action recordings and enables deterministic replay. The default value is false.
+
+
+ -   **[Preserve context across long-running sessions](https://www.servicenow.com/docs/access?context=na-ai-wa-access-using-nap&family=zurich&ft:locale=en-US)**
 
 Preserve context across long-running sessions by summarizing older step history instead of discarding it. When history exceeds the configured window, older steps are automatically summarized instead of being discarded. They preserve context about earlier actions, failed approaches, and application state.
 
@@ -235,7 +244,16 @@ Australia
 
 </td><td>
 
--   **[Execute adaptive desktop actions on macOS](https://www.servicenow.com/docs/access?context=ai_desktop_actions_adaptive&family=australia&ft:locale=en-US)**
+-   **[Execute recorded desktop actions on macOS](https://www.servicenow.com/docs/access?context=reusable-skills-adaptive-da&family=australia&ft:locale=en-US)**
+    -   Enable the system property to automatically record adaptive desktop actions during execution and reuse them for similar tasks.
+    -   Automated recording captures your exact steps and converts them instantly into reusable skills.
+    -   AI-powered search automatically suggests matching skills based on your current task.
+-   **[New system property added](https://www.servicenow.com/docs/access?context=components-installed-with-agentic-desktop&family=australia&ft:locale=en-US)**
+
+The sn\_desktop\_core.enable\_reusable\_assets system property is added to manage the reusable skills feature. The system property creates reusable skills from adaptive desktop action recordings and enables deterministic replay. The default value is false.
+
+
+ -   **[Execute adaptive desktop actions on macOS](https://www.servicenow.com/docs/access?context=ai_desktop_actions_adaptive&family=australia&ft:locale=en-US)**
 
 Download the new AI Desktop Actions installer for macOS with M-series processor support \(ARM64 architecture\). The adaptive desktop actions enable AI agents to navigate applications and browsers and perform tasks on macOS systems. Both adaptive and defined desktop actions are now available with platform-specific installers.
 
@@ -364,7 +382,12 @@ Zurich
 
 </td><td>
 
--   **[Renamed ServiceNow AI experience](https://www.servicenow.com/docs/access?context=agentic-desktop-landing-page&family=zurich&ft:locale=en-US)**
+-   **[Claude Sonnet 4.6 supported](https://www.servicenow.com/docs/access?context=now-llm-model-updates&family=zurich&ft:locale=en-US)**
+
+Adaptive desktop actions now support version 4.6 of Claude Sonnet. It is now the default model for adaptive desktop actions.
+
+
+ -   **[Renamed ServiceNow AI experience](https://www.servicenow.com/docs/access?context=agentic-desktop-landing-page&family=zurich&ft:locale=en-US)**
 
 ServiceNow Otto is the new AI experience brand. This change is reflected in the name of ServiceNow products, including AI Desktop Actions. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
 
@@ -375,7 +398,11 @@ Australia
 
 </td><td>
 
--   **[Browser startup and tab behavior](https://www.servicenow.com/docs/access?context=na-ai-wa-access-using-nap&family=australia&ft:locale=en-US)**
+-   **[Claude Sonnet 4.6 supported](https://www.servicenow.com/docs/access?context=now-llm-model-updates&family=australia&ft:locale=en-US)**
+    -   Adaptive desktop actions now support version 4.6 of Claude Sonnet. It is now the default model for adaptive desktop actions.
+    -   Use function keys \(F1–F12\) and combo keys \(cmd+a, alt+F4, ctrl+c\) in desktop automation without manual intervention.
+
+ -   **[Browser startup and tab behavior](https://www.servicenow.com/docs/access?context=na-ai-wa-access-using-nap&family=australia&ft:locale=en-US)**
 
 Browser session now opens to an empty page instead of Google's homepage. Automation actions within the same chat window now reuse the existing browser tab instead of opening a new tab for every action. A new tab opens only when a new chat session starts or you close the current tab.
 

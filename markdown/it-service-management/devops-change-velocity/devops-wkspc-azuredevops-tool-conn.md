@@ -41,15 +41,15 @@ Role required: sn\_devops.admin or sn\_devops.tool\_owner
 
 1.  Navigate to **Workspaces** &gt; **DevOps Change Workspace** and use one of the following options to open the Playbook to onboard Azure DevOps.
 
-<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d42869e220">
+<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d43199e220">
 
 Option
 
-</th><th align="left" id="d42869e223">
+</th><th align="left" id="d43199e223">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d42869e229">
+</th></tr></thead><tbody><tr><td id="d43199e229">
 
 **Homepage**
 
@@ -59,7 +59,7 @@ Steps
 2.  On the  Connect to a tool  modal, select Azure DevOps from the appropriate category \(Orchestration, Plan, Code, Artifact, or Software quality\).
 
 
-</td></tr><tr><td id="d42869e253">
+</td></tr><tr><td id="d43199e253">
 
 **Applications module**
 
@@ -71,7 +71,7 @@ Steps
 4.  On the  Connect to a tool  modal, select Azure DevOps from the appropriate category \(Orchestration, Plan, Code, Artifact, or Software quality\).
 
 
-</td></tr><tr><td id="d42869e302">
+</td></tr><tr><td id="d43199e302">
 
 **Tools module**
 
@@ -99,7 +99,7 @@ Steps
 
 3.  In the Enter Azure DevOps instance details section, select one of the following values in the **Credential type** field.
 
-<table id="choicetable_j33_jgk_lcc"><tbody><tr><td id="d42869e409">
+<table id="choicetable_j33_jgk_lcc"><tbody><tr><td id="d43199e409">
 
 **Personal Access Token**
 
@@ -107,7 +107,7 @@ Steps
 
 Enter the password or access token to access this instance.For information on creating a PAT, see [Personal access token \(PAT\)](https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/use-personal-access-tokens-to-authenticate?view=azure-devops&tabs=preview-page). \[Omitted image "ado-pat-01.png"\] Alt text: Connect to a tool - ADO PAT
 
-</td></tr><tr><td id="d42869e429">
+</td></tr><tr><td id="d43199e429">
 
 **OAuth 2.0**
 
@@ -241,15 +241,15 @@ Role required: sn\_devops.admin or sn\_devops.tool\_owner
 
 1.  Navigate to **Workspaces** &gt; **DevOps Change Workspace** and use one of the following options to open the Playbook to onboard Azure DevOps.
 
-<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d42869e1063">
+<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d43199e1063">
 
 Option
 
-</th><th align="left" id="d42869e1066">
+</th><th align="left" id="d43199e1066">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d42869e1072">
+</th></tr></thead><tbody><tr><td id="d43199e1072">
 
 **Homepage**
 
@@ -259,7 +259,7 @@ Steps
 2.  On the  Connect to a tool  modal, select Azure DevOps from the appropriate category \(Orchestration, Plan, Code, Artifact, or Software quality\).
 
 
-</td></tr><tr><td id="d42869e1096">
+</td></tr><tr><td id="d43199e1096">
 
 **Applications module**
 
@@ -271,7 +271,7 @@ Steps
 4.  On the  Connect to a tool  modal, select Azure DevOps from the appropriate category \(Orchestration, Plan, Code, Artifact, or Software quality\).
 
 
-</td></tr><tr><td id="d42869e1145">
+</td></tr><tr><td id="d43199e1145">
 
 **Tools module**
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-center-reference.html
 release: australia
 topic_type: reference
-last_updated: "2026-07-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
 breadcrumb: [AI Admin Center, Enable AI experiences]
@@ -19,8 +19,6 @@ The following topics provide additional information about the features and prope
 Several components are installed with the AI Admin Center application.
 -   **[Domain separation and AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/domain-separation-now-assist-center.md)**  
 Domain separation is supported for AI Admin Center.
--   **[AI Admin Center glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-glossary.md)**  
-Before getting started with AI Admin Center, it is important to understand some key concepts used in the application.
 -   **[AI Admin Center roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-roles.md)**  
 AI Admin Center is installed with these roles.
 

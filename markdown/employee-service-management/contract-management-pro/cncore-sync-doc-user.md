@@ -9,7 +9,7 @@ classification: contract-management-pro
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Updating and synchronizing signatories, Use self-served contract request, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Updating and synchronizing signatories, Own paper contract requests, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Resolve the failure to send contract documents for signature \(starting with Contract Management Pro 1.2.1\)

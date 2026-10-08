@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-xanadu-australia/australia-xanadu-buildagent-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 4
+last_updated: "2026-10-08"
+reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
 
@@ -99,25 +99,7 @@ Zurich
 
 </td><td>
 
--   **[Build Agent in ServiceNow Studio](https://www.servicenow.com/docs/access?context=build-agent-in-servicenow-studio&family=zurich&ft:locale=en-US)**
-
-Access Build Agent in ServiceNow Studio to build apps conversationally in a consolidated development environment.
-
--   **[Improved LLM support](https://www.servicenow.com/docs/access?context=exploring-build-agent&family=zurich&ft:locale=en-US)**
-
-Use AWS Claude Opus 4.6 and Sonnet 4.5 in Build Agent for contextual conversations.
-
--   **[New metadata support](https://www.servicenow.com/docs/access?context=build-agent-supported-metadata&family=zurich&ft:locale=en-US)**
-
-Work with more metadata types, as Build Agent now supports the following:
-
-    -   Email integration
-    -   List controls
-    -   Service Catalog items
-    -   UI components
-    -   UI policies
-    -   UI views
-    -   Workspaces
+No updates for this release.
 
 </td></tr><tr><td>
 
@@ -125,25 +107,7 @@ Australia
 
 </td><td>
 
--   **[Build Agent in ServiceNow Studio](https://www.servicenow.com/docs/access?context=build-agent-in-servicenow-studio&family=australia&ft:locale=en-US)**
-
-Access Build Agent in ServiceNow Studio to build apps conversationally in a consolidated development environment.
-
--   **[Improved LLM support](https://www.servicenow.com/docs/access?context=exploring-build-agent&family=australia&ft:locale=en-US)**
-
-Use AWS Claude Opus 4.6 and Sonnet 4.5 in Build Agent for contextual conversations.
-
--   **[New metadata support](https://www.servicenow.com/docs/access?context=build-agent-supported-metadata&family=australia&ft:locale=en-US)**
-
-Work with more metadata types, as Build Agent now supports the following:
-
-    -   Email integration
-    -   List controls
-    -   Service Catalog items
-    -   UI components
-    -   UI policies
-    -   UI views
-    -   Workspaces
+No updates for this release.
 
 </td></tr></tbody>
 </table>## Changes
@@ -180,10 +144,7 @@ Zurich
 
 </td><td>
 
--   **[Support for global scope](https://www.servicenow.com/docs/access?context=exploring-build-agent&family=zurich&ft:locale=en-US)**
-
-Build apps and metadata in the global scope.
-
+No updates for this release.
 
 </td></tr><tr><td>
 
@@ -191,10 +152,7 @@ Australia
 
 </td><td>
 
--   **[Support for global scope](https://www.servicenow.com/docs/access?context=exploring-build-agent&family=australia&ft:locale=en-US)**
-
-Build apps and metadata in the global scope.
-
+No updates for this release.
 
 </td></tr></tbody>
 </table>## Removed
@@ -334,12 +292,7 @@ Australia
 
 </td><td>
 
--   **Activation information**
-
-Build Agent is a ServiceNow AI Platform feature that is active by default.
-
-**Note:** Build Agent is dependent on ServiceNow Otto for Creator. For more information, see [ServiceNow Otto for Creator release notes](https://www.servicenow.com/docs/access?context=now-assist-for-creator-rn&family=australia&ft:locale=en-US).
-
+No updates for this release.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -570,13 +523,7 @@ Australia
 
 </td><td>
 
--   Use Build Agent in ServiceNow Studio.
--   Work with additional Model Context Protocol \(MCP\) support.
--   Create apps and newly supported metadata in the global scope.
--   Choose from newly supported models.
--   Search external content without leaving Build Agent.
-
- See [Build Agent](https://www.servicenow.com/docs/access?context=build-agent&family=australia&ft:locale=en-US) for more information.
+No updates for this release.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Products combined by family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/delta-xanadu-australia/rn-combined-intro.md)

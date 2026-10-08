@@ -22,7 +22,7 @@ Configure Accounts Payable Operations to set up invoice processing, exception ha
 -   **[Install Accounts Payable Invoice Processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/install-acc-pay-mgmt.md)**  
 Install the Accounts Payable Invoice Processing \(sn\_ap\_apm\) application as an admin to include demo data and related ServiceNow® Store applications and plugins.
 -   **[Install Invoice Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/install-invoice-case-mgmt.md)**  
-Install the Invoice Case Management \(sn\_ap\_cm\) application as an admin to include demo data and related ServiceNow® Store applications and plugins.
+You can install the Invoice Case Management \(com.sn\_ap\_cm\) application if you have the admin role. The application includes demo data and installs related ServiceNow® Store applications and plugins if they are not already installed.
 -   **[Install Accounts Payable Operations integration with Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/apm-integration-docintel.md)**  
 Accounts Payable Operations integration with Document Intelligence \(com.sn\_ap\_ic\) is installed automatically with Accounts Payable Invoice Processing \(com.sn\_ap\_apm\) to enable invoice data extraction.
 -   **[Domain separation and Accounts Payable Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/accounts-payable-operations/apm-domain-separation.md)**  

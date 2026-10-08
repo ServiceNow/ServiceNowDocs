@@ -1,29 +1,29 @@
 ---
-title: Understanding Punchout
-description: PunchOut is a technology that connects a buyer’s eProcurement application directly to their supplier is third-party punchout suppliers’ eCommerce sites
+title: Understanding punchout
+description: Punchout is a technology that connects a buyer's eProcurement application to third-party supplier eCommerce sites. This connection enables direct catalog access while maintaining procurement controls.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/sourcing-and-procurement-operations/punchout-overview.html
 release: australia
 product: Sourcing and Procurement Operations
 classification: sourcing-and-procurement-operations
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Explore, Sourcing and Procurement Operations, Finance and Supply Chain]
 ---
 
-# Understanding Punchout
+# Understanding punchout
 
-PunchOut is a technology that connects a buyer’s eProcurement application directly to their supplier is third-party punchout suppliers’ eCommerce sites
+Punchout is a technology that connects a buyer's eProcurement application to third-party supplier eCommerce sites. This connection enables direct catalog access while maintaining procurement controls.
 
-PunchOut enables a buyer’s employees to shop on supplier is third-party punchout suppliers’ eCommerce sites, but complete their purchase in their organization’s eProcurement application, where approval workflows can be applied, and spending can be tracked.
+Punchout enables a buyer's employees to shop on third-party supplier eCommerce sites. They complete their purchase in their organization's eProcurement application, where approval workflows can be applied and spending can be tracked.
 
-In level 1 PunchOut, only the search functionality of the PunchOut catalog is available. Upon redirection to the supplier is third-party punchout supplier site, the shopper will be prompted to add items to their cart and then be redirected to ServiceNow to complete the order details.
+In level 1 punchout, only the search functionality of the punchout catalog is available. Upon redirection to the third-party punchout supplier's site, the shopper adds items to their cart. They are then redirected to ServiceNow to complete the order details.
 
-On the other hand, with level 2 PunchOut catalog, the customer can use the search capability of procurement system to search and order products in the PunchOutcatalogue without requiring redirection to the punchout system.
+With level 2 punchout catalogs, customers can search and order products directly in the procurement system. Redirection to the punchout system is not required.
 
 -   **[Punchout configuration in SPO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/punchout-configuration-spo.md)**  
-You must configure punchout for third-party suppliers.
+Punchout configuration enables third-party suppliers to integrate their catalogs with SPO.
 -   **[How L1 punchout works](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/level-one-punchout.md)**  
 In the Level 1 \(L1\) punchout, SPO and the punchout supplier communicate using the cXML protocol.
 -   **[Establishing connection between SPO and the supplier punchout system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/spo-punchout-connection.md)**  

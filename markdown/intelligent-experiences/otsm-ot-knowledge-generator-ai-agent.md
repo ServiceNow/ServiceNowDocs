@@ -1,18 +1,18 @@
 ---
 title: OT knowledge generator AI agent
-description: This AI agent creates a KB Article from a resolved Operational Technology incident.
+description: This AI agent creates a KB Article from a resolved Operational Technology \(OT\) incident.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/otsm-ot-knowledge-generator-ai-agent.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Operational Technology Service Management AI agents, Operational Technology Service Management, AI agents library, AI assets, Enable AI experiences]
+breadcrumb: [Operational Technology Service Management AI agents, Operational Technology Service Management \(OTSM\), AI agents library, AI assets, Enable AI experiences]
 ---
 
 # OT knowledge generator AI agent
 
-This AI agent creates a KB Article from a resolved Operational Technology incident.
+This AI agent creates a KB Article from a resolved Operational Technology \(OT\) incident.
 
 ## Workflow
 

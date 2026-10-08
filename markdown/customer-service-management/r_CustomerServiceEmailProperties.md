@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Email to case, Configure Email, Configure omnichannel, Configure, Customer Service Management]
+breadcrumb: [Configure email addresses and properties for email to case, Email to case, Configure Email, Configure omnichannel, Configure, Customer Service Management]
 ---
 
 # Customer service email properties

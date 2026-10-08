@@ -68,5 +68,9 @@ Create a work set standard, add sub-activities, and request approval to publish 
 
 [Publish a work set standard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/publish-work-set-standard.md)
 
+[Components installed with Industrial Standards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/components-installed-with-industrial-standards.md)
+
+[Work set standard form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/work-set-standard-form.md)
+
 [Work set sub-activity form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/work-set-sub-activity-form.md)
 

@@ -18,7 +18,7 @@ Understand how the Service Model Foundation \(SMF\) tables relate to each other 
 
 ## The Service Model Foundation data model
 
-Healthcare Operations Core is built on the Service Model Foundation \(SMF\) framework, the same platform framework used across industries such as banking, retail, and manufacturing. For the platform-wide overview of these tables, see [Service Model Foundation overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-industry-data-model.md).
+Healthcare Operations Core is built on the Service Model Foundation \(SMF\) framework, the same platform framework used across industries such as banking, retail, and manufacturing. For the platform-wide overview of these tables, see .
 
 The SMF location tables form an extension hierarchy. From parent to child:
 
@@ -28,11 +28,11 @@ The SMF location tables form an extension hierarchy. From parent to child:
 
 \[Omitted image "smf-data-model.png"\] Alt text: ERD diagram showing the Service Model Foundation data model, from the case table through Organization Core, Business Organization, Internal Organization, External Organization, healthcare organization, and common location.
 
-For the complete field-level reference for these tables, see [Service Model Foundation tables and plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-data-model-tables.md).
+For the complete field-level reference for these tables, see .
 
 **Note:**
 
-These tables were previously labeled **Service Organization**, **Business Location**, **Internal Business Location**, and **External Business Location**. Only the display name changed—the table names \(`sn_customer_service_organization`, `sn_csm_business_location`, `sn_csm_business_location_internal`, `sn_csm_business_location_external`\) and the Business Location plugin itself are unchanged. If you see the older names in existing configuration steps, integrations, or an instance that hasn't picked up the rename yet, they refer to the same tables. For the complete list of renamed entities and field labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/renamed-entities.md).
+These tables were previously labeled **Service Organization**, **Business Location**, **Internal Business Location**, and **External Business Location**. Only the display name changed—the table names \(`sn_customer_service_organization`, `sn_csm_business_location`, `sn_csm_business_location_internal`, `sn_csm_business_location_external`\) and the Business Location plugin itself are unchanged. If you see the older names in existing configuration steps, integrations, or an instance that hasn't picked up the rename yet, they refer to the same tables. For the complete list of renamed entities and field labels, see .
 
 Two additional tables relate to this hierarchy by reference rather than by extension:
 

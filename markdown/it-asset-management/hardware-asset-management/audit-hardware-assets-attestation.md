@@ -8,7 +8,8 @@ product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 8
+reading_time_minutes: 9
+keywords: [Asset attestation, Attestation playbook, Attestation schedule]
 breadcrumb: [Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
@@ -98,6 +99,8 @@ As an asset manager or inventory administrator, complete the open remediation ta
 
 [Create an internal lifecycle in the Hardware Asset Workspace]()
 
+[Calculate the active lifecycle phase for a model]()
+
 [Receive asset warranty details from Lenovo]()
 
 [Manage stockrooms]()
@@ -129,4 +132,6 @@ As an asset manager or inventory administrator, complete the open remediation ta
 [Acknowledge receipt of assets on the Employee Center portal]()
 
 [Update associated Decision tables for HAM flows]()
+
+[Asset Attestation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/asset-attestation-ham.md)
 

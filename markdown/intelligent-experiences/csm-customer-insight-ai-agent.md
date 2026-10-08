@@ -19,7 +19,7 @@ This agent is responsible for answering any questions related to the record. The
 The agent helps users complete tasks related to customer insight.
 
 1.  Question analysis and requirements gathering.
-2.  Question analysis validation: ensure that the customer has provided all relevant information.
+2.  Question analysis validation: Verify that the customer has provided all relevant information.
 3.  Use deep research to retrieve comprehensive data and insights.
 4.  Generate a response for the customer and respond to follow-up questions.
 
@@ -108,7 +108,7 @@ Used in agentic workflows
 
 </td><td>
 
-Provide customer 360 insights
+[Provide customer 360 insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/customer-service-management-ai-agent-collection-customer-360.md)
 
 </td></tr></tbody>
 </table>Learn more about Customer Service Management at [Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/c_CustomerServiceManagement.md).

@@ -16,7 +16,7 @@ Select which letter templates you want to use to notify applicants of their resu
 
 ## Before you begin
 
-Role required: sn\_gsm\_grnt\_mgmt.program\_manager, sn\_gsm\_grnt\_mgmt.grant\_director
+Role required: sn\_svc\_appl\_pgm\_mg.grant\_program\_manager or sn\_svc\_appl\_pgm\_mg.grant\_program\_director
 
 **Note:** Requires it to already be created. For info on how to create see [Create a Grants Program results letter template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/government-industry/psds-config-gmp-configure-results-template.md)
 

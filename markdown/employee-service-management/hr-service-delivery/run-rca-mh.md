@@ -48,6 +48,8 @@ After you install Manager Hub, you might encounter Restricted Caller Access \(RC
 
 [Configure important dates]()
 
+[Configure manager insights for ServiceNow Otto for HRSD]()
+
 [Configure team requests]()
 
 [Configure team data]()

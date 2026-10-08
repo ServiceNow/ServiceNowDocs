@@ -35,7 +35,7 @@ An agent can do these actions by using the ServiceNow Otto icon:
 
 **Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
-You can make a copy of this skill to configure it to meet your business needs. For more information, see [Make a copy of AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/make-a-copy-of-a-now-assist-skill.md).
+You can make a copy of this skill to configure it to meet your business needs. For more information, see [Make a copy of an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/make-a-copy-of-a-now-assist-skill.md).
 
 ## Procedure
 
@@ -43,15 +43,15 @@ You can make a copy of this skill to configure it to meet your business needs. F
 
 2.  Choose how to compose an email.
 
-<table id="choicetable_tbz_hyv_bcc"><thead><tr><th align="left" id="d204570e151">
+<table id="choicetable_tbz_hyv_bcc"><thead><tr><th align="left" id="d205940e151">
 
 Method
 
-</th><th align="left" id="d204570e154">
+</th><th align="left" id="d205940e154">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d204570e160">
+</th></tr></thead><tbody><tr><td id="d205940e160">
 
 **Compose email from More actions**
 
@@ -64,7 +64,7 @@ Description
 5.  Get a recommendation that is based on the existing context.
 
 
-</td></tr><tr><td id="d204570e211">
+</td></tr><tr><td id="d205940e211">
 
 **Compose an email from Activity stream**
 
@@ -78,15 +78,15 @@ Description
 </td></tr></tbody>
 </table>3.  In the email message window, either type a response, or leave blank, and then select the ServiceNow Otto \[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon for Now Assist..
 
-<table id="choicetable_e5x_3yv_bcc"><thead><tr><th align="left" id="d204570e268">
+<table id="choicetable_e5x_3yv_bcc"><thead><tr><th align="left" id="d205940e268">
 
 Email message window
 
-</th><th align="left" id="d204570e271">
+</th><th align="left" id="d205940e271">
 
 ServiceNow Otto icon
 
-</th></tr></thead><tbody><tr><td id="d204570e280">
+</th></tr></thead><tbody><tr><td id="d205940e280">
 
 **Typed response**
 
@@ -96,7 +96,7 @@ Provides the option to refine your response:-   Elaborate
 -   Shorten
 
 
-</td></tr><tr><td id="d204570e297">
+</td></tr><tr><td id="d205940e297">
 
 **Left blank**
 
@@ -104,7 +104,7 @@ Provides the option to refine your response:-   Elaborate
 
 Generates a recommended email reply that is based on the context of the email up to this point.
 
-</td></tr><tr><td id="d204570e306">
+</td></tr><tr><td id="d205940e306">
 
 **Use template**
 

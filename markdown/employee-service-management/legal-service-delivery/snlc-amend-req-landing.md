@@ -19,20 +19,20 @@ The contract amendment workflow enhances contract lifecycle management by enabli
 
 Amendments can be made by adding, removing, or updating terms, without the need to replace the entire contract.
 
-You can use the **Amendment request** intake form available in the Employee Center to submit an amendment request.
+You can use the **Contract Amendment and Renewal request** intake form available in the Employee Center to submit an amendment request.
 
-\[Omitted image "lsd-amend-rp.png"\] Alt text: Use the Amendment request record producer from Employee Center to submit an contract amendment request
+\[Omitted image "lsd-renew-rp.png"\] Alt text: Use the Amendment request record producer from Employee Center to submit an contract amendment request
 
-## Distinguish contract and amendment request
+## Distinguish request types
 
-The field, **Request type**, differentiates contract and amendment requests. For amendment request, the value is **Amendment** and for contract request its **New contract**.
+The **Request type** field differentiates contract, amendment, and renewal requests. For an amendment request, the value is **Amendment**; for a new contract request, it is **New contract**; and for a renewal request, it is **Renewal**.
 
-The Request type field is displayed in the contract details secondary header, and list pages making it easy to differentiate between the two request types.
+The Request type field is displayed in the contract details secondary header, and list pages making it easy to differentiate the request types.
 
-This field is also available in the following base system configurations \(when demo data is installed\) to indicate whether the configuration applies to a contract or an amendment request:
+This field is also available in the following base system configurations \(when demo data is installed\) to indicate the request type the configuration is applicable to:
 
--   Contract template rules
--   Contract configurations
+-   Contract Template Rules
+-   Contract Configurations
 
 \[Omitted image "lsd-amend-field-request-type.png"\] Alt text: Request type field to differentiate between contract and amendment request
 
@@ -50,7 +50,7 @@ While submitting an amendment request, you can select the **Type of paper** from
 
 The intake form and record producer for an amendment are available in the base system, enabling you to submit an amendment requests.
 
-\[Omitted image "lsd-amend-OOB-intakeform.png"\] Alt text: Amendment intake from and record producer in the base sysstem \(OOB\)
+\[Omitted image "lsd-amend-OOB-intakeform.png"\] Alt text: Amendment intake from and record producer in the base system \(OOB\)
 
 You can also create a customized record producer by copying a base system \(OOB\) record producer to reuse its existing configuration settings. For more information on how to create record producer, see [Create a legal contract intake workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-create-legal-contract.md).
 
@@ -119,6 +119,8 @@ View the amendment details in the contract repository record.
 
 [Third-party contract review requests]()
 
+[Contract renewals]()
+
 [Linking parent-child contracts]()
 
 [Internal review overview]()
@@ -128,8 +130,6 @@ View the amendment details in the contract repository record.
 [Cancel a legal request]()
 
 [View and download a signed contract document]()
-
-[View contract requests]()
 
 [Manage Contract Management Pro for Legal Service Delivery]()
 

@@ -7,7 +7,7 @@ release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
 breadcrumb: [Activate ServiceNow Otto Skills, Configure, ServiceNow Otto for CSM, Customer Service Management]
@@ -37,11 +37,11 @@ Trending topics dashboard is generated from the information that you enter in th
 
 4.  Select **General details** and edit name and description of the skill.
 
-    Additional information regarding details of the skill are displayed, but can’t be edited.
+    Additional information regarding details of the skill are displayed, but can't be edited.
 
 5.  Select **Cluster Input** and review the tables and fields to create prompts that determine the source from which the data is pulled.
 
-    You can’t modify the input data source.
+    You can't modify the input data source.
 
     |Input|Description|
     |-----|-----------|
@@ -54,12 +54,12 @@ Trending topics dashboard is generated from the information that you enter in th
 
 7.  Select **Define access** to determine who can access this skill.
 
-    By selecting specific roles, you’re controlling who can use it. The roles you choose will also be available in the next step **Select display**.
+    By selecting specific roles, you're controlling who can use it. The roles you choose will also be available in the next step **Select display**.
 
     Default and Custom Roles:
 
-    -   If no changes are made, the default role sn\_customerservice\_manager automatically appear in **Define Access** and **Select Display**.
-    -   If custom roles were added before the upgrade, they’re updated automatically by a script.
+    -   If no changes are made, the default role sn\_customerservice\_manager automatically appears in **Define Access** and **Select Display**.
+    -   If custom roles were added before the upgrade, they're updated automatically by a script.
     -   If new roles are created after the upgrade, you can manually add them in both the **Define Access** and **Select Display**.
 
         **Note:** In the **Select Display** step, you can only choose roles that were added in the **Define Access** step. If you add a role in **Define Access**, you still must manually select it in **Select Display** to make it active.
@@ -68,13 +68,13 @@ Trending topics dashboard is generated from the information that you enter in th
 
 9.  Select roles for whom trending topics dashboard are displayed.
 
-    The user roles added in the **Define access** step for each ACL\(access control list\) can be selected in this step.
+    The user roles added in the **Define access** step for each ACL \(access control list\) can be selected in this step.
 
-10. After selecting **Review and Activate** to examine changes, select **Done** to close the activity response generation settings.
+10. After selecting **Review and Activate** to examine changes, select **Done** to close the trending topic dashboard settings.
 
-11. Select **Activate** to turn on the skill for agents and complete the configuration.
+11. Select **Activate** to turn on the skill for managers and complete the configuration.
 
-    Skill is activated for agents.
+    Skill is activated for managers.
 
 
 **Related topics**  

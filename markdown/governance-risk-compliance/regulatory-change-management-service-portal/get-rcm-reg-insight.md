@@ -25,7 +25,7 @@ Role required: sn\_grc\_comp\_genai.reg\_change\_ai\_agent\_user
 
 The recommendations for regulatory alert skills are required for recommending impact areas. For more information, see [AI-generated recommendations for a regulatory alert skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/regulatory-change-management-service-portal/recommendations-for-a-regulatory-alert.md).
 
-Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aw.md).
+Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/implement-aias-security-new.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aw.md).
 
 ## About this task
 
@@ -55,15 +55,15 @@ When you modify an agentic workflow, AI agent, or tool, make sure that you updat
 
 4.  Analyze and enrich regulatory alerts by adding enriched insights or generating recommended impacted areas.
 
-<table id="choicetable_hf2_xq3_zgc"><thead><tr><th align="left" id="d425356e248">
+<table id="choicetable_hf2_xq3_zgc"><thead><tr><th align="left" id="d433202e248">
 
 Option
 
-</th><th align="left" id="d425356e251">
+</th><th align="left" id="d433202e251">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d425356e257">
+</th></tr></thead><tbody><tr><td id="d433202e257">
 
 **Add enriched insights**
 
@@ -78,7 +78,7 @@ In the ServiceNow Otto panel, ask the agent to enrich a regulatory alert with we
 -   You can discard the overview and create your own summary manually.
 
 
-</td></tr><tr><td id="d425356e296">
+</td></tr><tr><td id="d433202e296">
 
 **Recommend impacted areas**
 

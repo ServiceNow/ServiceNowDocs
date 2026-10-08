@@ -9,7 +9,7 @@ classification: journey-designer
 topic_type: task
 last_updated: "2026-02-24"
 reading_time_minutes: 1
-breadcrumb: [Offboarding knowledge transfer plan generation agentic workflow, AI in Journey designer, Use, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Offboarding knowledge transfer plan generation agentic workflow, AI in Journey designer, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Activate the Knowledge transfer record created trigger
@@ -74,6 +74,4 @@ Role required: admin \[virtual\_agent\_admin\]
 ## Result
 
 The following trigger is now active: Knowledge transfer record created. When a knowledge transfer record is generated, the system automatically engages the departing employee through ServiceNow Otto to review and approve the knowledge transfer content.
-
-**Parent Topic:**[Offboarding knowledge transfer plan generation agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/offboarding-knowledge-x-agentic-wf.md)
 

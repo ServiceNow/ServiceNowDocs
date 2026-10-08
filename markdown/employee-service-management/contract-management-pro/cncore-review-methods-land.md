@@ -11,7 +11,7 @@ last_updated: "2026-08-14"
 reading_time_minutes: 2
 keywords: [Contract review, AI contract analysis, Expert review, Manual review, Contract compliance, Otto Contract Management]
 audience: [sn\_cm\_core.contract\_fulfiller, sn\_cm\_core.contract\_reviewer]
-breadcrumb: [Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Common contract request tasks, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Review contract document
@@ -45,5 +45,5 @@ Review a contract document in a connected external AI tool that retrieves the ap
 -   **[Manual internal review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-expert-review.md)**  
 Assign contract documents to internal subject matter experts for detailed manual review. Experts can add review tasks, provide feedback, request additional information, and validate contract terms.
 
-**Parent Topic:**[Using Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-use-cmpro.md)
+**Parent Topic:**[Common contract request tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-common-contract-req-tasks.md)
 

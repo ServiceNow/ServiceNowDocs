@@ -7,7 +7,7 @@ release: australia
 product: Operational Technology Manager
 classification: operational-technology-manager
 topic_type: task
-last_updated: "2026-06-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [pre-import table, custom column, dictionary entry]
 breadcrumb: [Add a custom column to the staging table, Configuring the Service Graph Connector for Microsoft Excel, Service Graph Connector for Microsoft Excel, Use, Operational Technology Manager, Operational Technology]
@@ -29,7 +29,7 @@ Role required: ot\_excel\_import\_user
 
 2.  Find and select the **SG-OT Excel Pre Import** table record.
 
-    **Tip:** Use the filter conditions to help you locate the SG-OT Excel Pre Import table record. For example, you can set a filter of **\[Label\] \[contains\] \[SG-OT Excel\]**.
+    **Note:** Use the filter conditions to help you locate the SG-OT Excel Pre Import table record. For example, you can set a filter of **\[Label\] \[contains\] \[SG-OT Excel\]**.
 
 3.  On the **Columns** tab, select **New**.
 

@@ -8,7 +8,7 @@ product: Project Management
 classification: project-management
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 4
 breadcrumb: [Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
@@ -20,7 +20,7 @@ The planning console is a centralized interface for the Project Management appli
 
 The Planning console is no longer deployed, enhanced, or supported. It will be hidden and no longer available for upgrades or installation. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base. Use new [Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/project-workspace-landing-page.md) with enhanced UI to help you efficiently manage your projects.
 
-The planning console gives project managers a comprehensive view of all aspects of a project, including a hierarchical list of sub-projects, if any, project tasks that appear in a work breakdown structure \(WBS\) list, and the project Gantt chart. The console also integrates with Live Feed so your users can collaborate on projects.
+The planning console gives project managers a comprehensive view of all aspects of a project. This includes a hierarchical list of sub-projects, if any, project tasks that appear in a work breakdown structure \(WBS\) list, and the project Gantt chart. The console also integrates with Live Feed so your users can collaborate on projects.
 
 ## Sections in the planning console
 
@@ -50,7 +50,7 @@ Build your project structure quickly on the client side without having to save d
 
 ## Automatic and manual projects
 
-In an **automatic** project, any change to the dates, duration, or relationships of a project task automatically updates all the tasks in the entire project, including the project record, as necessary. The automatic project icon \(\[Omitted image "automatic\_project.png"\] Alt text: screenshot for automatic project icon\) appears adjacent to the project name.
+In an **automatic** project, any change to the dates, duration, or relationships of a project task automatically updates all the tasks in the entire project. This includes the project record, as necessary. The automatic project icon \(\[Omitted image "automatic\_project.png"\] Alt text: screenshot for automatic project icon\) appears adjacent to the project name.
 
 In a **manual** project, changes to the dates, duration, or relationships of a project task do not automatically update all tasks. So parent task dates do not reflect any changes made to dependents or child tasks. The only change that is made automatically is when a task date or duration change updates dates and duration of the project record. In a manual project, any update to actual start date does not update the planned end date of the project or project task. However, enabling the [project property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/r_InstalledWithProjectManagement.md) **Enable alter of planned date with Actual for Manual Project** updates the planned end date from actual start date and planned duration. The manual project icon \(\[Omitted image "manual\_project.png"\] Alt text: screenshot for manual project icon\) appears adjacent to the project name.
 
@@ -65,7 +65,7 @@ Access the planning console to perform the planning for the project.
 -   **[Planning console tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/r_PlanningConsoleTasks.md)**  
 You can perform several tasks on the planning console that you can perform on lists and forms, such as creating project tasks and copying projects. You can also perform several tasks unique to the console.
 -   **[Client side planning console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/client-side-planning-console.md)**  
-During calculation of project schedule in the planning console, it is possible to build your project structure quickly on the client side \(browser\) without having to save details in the server for each interaction. It prevents any time lags that occur after you perform any actions in the planning console, and improves the scheduling performance.
+Build your project structure quickly on the client side \(browser\) without saving details to the server for each interaction. This prevents time lags after you perform actions in the planning console and improves scheduling performance.
 -   **[Gantt chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/c_GanttChart.md)**  
 A Gantt chart on the planning console is a visual representation of a project timeline that shows start and end dates of tasks, and the dependencies between tasks.
 -   **[Create a parent-child relationship on the planning console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/t_CreateParentChildRelatConsole.md)**  

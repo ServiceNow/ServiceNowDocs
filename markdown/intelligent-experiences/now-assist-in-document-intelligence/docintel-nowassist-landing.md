@@ -21,7 +21,11 @@ With ServiceNow® Now Assist in Document Intelligence, you can use generative AI
 
 ## Get started
 
-**Important:** The ServiceNow® Content Understanding application replaces Now Assist in Document Intelligence. It brings multimodal generative AI to document and image processing, extracting key data, answering natural-language questions, and generating summaries from unstructured text, tables, and images. For more information, see [Content Understanding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/content-understanding-landing.md).
+**Important:**
+
+Now Assist in Document Intelligence has been renamed to Content Understanding. This renaming does not impact any functionality, and existing and new implementations continue to work without changes.
+
+It brings multimodal generative AI to document and image processing, extracting key data, answering natural-language questions, and generating summaries from unstructured text, tables, and images. For more information, see [Content Understanding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/content-understanding-landing.md).
 
 <table id="table_ekk_gb3_xcc" class="nav-card presentation"><tbody><tr><td>
 

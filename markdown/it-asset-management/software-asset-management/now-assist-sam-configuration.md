@@ -9,7 +9,7 @@ classification: software-asset-management
 topic_type: concept
 last_updated: "2026-07-13"
 reading_time_minutes: 1
-breadcrumb: [Configure, Software Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Configuring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Configuring ServiceNow Otto for Software Asset Management \(SAM\)

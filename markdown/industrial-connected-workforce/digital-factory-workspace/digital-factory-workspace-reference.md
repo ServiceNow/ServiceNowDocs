@@ -20,6 +20,10 @@ Reference topics provide additional information about Digital Factory Workspace.
 Reference topics that provide additional information about Industrial Standards.
 -   **[Industrial Guided Tasks reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/industrial-guided-tasks-reference.md)**  
 Reference topics provide additional information about Industrial Guided Tasks.
+-   **[Reference for Industrial Analytics and Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/reference-for-industrial-analytics-and-reporting.md)**  
+Reference information for the indicators and visualizations on the SQDC Analytics and shopfloor insights dashboards.
+-   **[Industrial Centerlines reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/industrial-centerlines-reference.md)**  
+Reference topics provide additional information about Industrial Centerlines.
 -   **[Action form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/action-form.md)**  
 The following table describes the field values for the Action form.
 -   **[Deviation form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/deviation-form.md)**  

@@ -7,7 +7,7 @@ release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-05-15"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Use digital resilience third-party registers, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -42,23 +42,25 @@ Use the Excel download/upload requests module in Digital resilience third-party 
 
 5.  Select the records that you want from the list and perform one of the following steps.
 
-<table id="choicetable_agc_y2k_fdc"><thead><tr><th align="left" id="d281534e159">
+    When you apply a filter to the list and then select All, the download includes only the records that match the filter.
+
+<table id="choicetable_agc_y2k_fdc"><thead><tr><th align="left" id="d286824e165">
 
 Step
 
-</th><th align="left" id="d281534e162">
+</th><th align="left" id="d286824e168">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d281534e168">
+</th></tr></thead><tbody><tr><td id="d286824e174">
 
 **Export to excel**
 
 </td><td>
 
-When making a download request for records related to Assessments, Branches, Contracts, Functions, Legal Entities, Supply Chains, Third Parties, or Third-Party Engagements, simply select the **Export to Info Excel** to export those records as a Microsoft Excel file.
+To download records related to Assessments, Branches, Contracts, Functions, Legal Entities, Supply Chains, Third Parties, or Third-Party Engagements, select **Export to Info Excel**. The records export as a Microsoft Excel file.
 
-</td></tr><tr><td id="d281534e186">
+</td></tr><tr><td id="d286824e192">
 
 **Export to info register**
 
@@ -71,7 +73,7 @@ When making a download request for a Excel master template record, select **Expo
 
 6.  Add the name that you want for the Microsoft Excel file and select **Save**.
 
-    In releases prior to 21.x.x of Digital resilience third-party registers, downloading the contract created a single sheet with all the contract data. Starting with version 21.x.x of Digital resilience third-party registers, when you generate a report on the contracts, it mirrors the UI and provides details, including information on entities, third parties, third-party engagements, and specific contract information in the Microsoft Excel sheet.
+    In releases prior to 21.x.x of Digital resilience third-party registers, downloading the contract created a single sheet with all the contract data. Starting with version 21.x.x of Digital resilience third-party registers, generating a contract report mirrors the UI. The report includes entities, third parties, third-party engagements, and specific contract information in the Microsoft Excel sheet.
 
     It generates a Microsoft Excel sheet that you can submit directly to your regulatory authority. The file strictly adheres to the format of the template issued by the regulatory authority and includes all necessary details for reporting your third-party engagements.
 
@@ -79,21 +81,21 @@ When making a download request for a Excel master template record, select **Expo
 
     The application also handles translations for meta data, including headers and drop-down options.
 
-    Ensure that no duplicate records are present after downloading data for Legal entities, Functions, etc. When downloading the template, ensure that there are no duplicate Third party rows. For example, creating one DORA Third party and two DORA entities, then creating DORA contracts for the same vendor using the same entity, result in only one Third party row in the downloaded template and not two duplicate rows. You can add new entities and enter their LEI \(even if not in the drop-down list\) in the downloaded contract file without needing to download the contract records again. You can upload the modified contract records back to the application.
+    Verify that no duplicate records are present after downloading data for legal entities, functions, and similar items. The downloaded template contains no duplicate Third-party rows. For example, two DORA entities sharing a vendor and entity produce one Third-party row in the template, not two. You can add new entities and enter their LEI in the downloaded contract file without downloading the contract records again. Upload the modified contract records back to the application.
 
     **Note:** During Excel upload, duplicate rows in the Contractual Arrangements – Specific Information \(B.02.02\) table are automatically detected and rejected. Rejected rows are logged to the upload error report. During CSV package download, duplicate rows in B.02.02 and in the ICT service supply chains \(B.05.02\) table are flagged in the request record's error log; duplicates are warned but not removed from the generated CSV.
 
 7.  To export Excel download/upload requests, select the requests you want and then **Export**.
 
-<table id="choicetable_zpm_dmr_xcc"><thead><tr><th align="left" id="d281534e322">
+<table id="choicetable_zpm_dmr_xcc"><thead><tr><th align="left" id="d286824e328">
 
 Step
 
-</th><th align="left" id="d281534e325">
+</th><th align="left" id="d286824e331">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d281534e331">
+</th></tr></thead><tbody><tr><td id="d286824e337">
 
 **Select __File Type__.**
 
@@ -105,7 +107,7 @@ File type selected for the export. Available choices are:-   **Excel**
 -   **PDF**
 
 
-</td></tr><tr><td id="d281534e361">
+</td></tr><tr><td id="d286824e367">
 
 **Select __Delivery Type__.**
 
@@ -115,7 +117,7 @@ Delivery type selected for the export. Available choices are:-   **Download**
 -   **Email**
 
 
-</td></tr><tr><td id="d281534e383">
+</td></tr><tr><td id="d286824e389">
 
 **Select __Export.__**
 

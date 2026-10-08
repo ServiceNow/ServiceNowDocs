@@ -19,11 +19,12 @@ This agent analyzes the potential business and operational impact of a proposed 
 The agent analyzes a change request to identify and document the potential impact on services and servers.
 
 1.  Validate that all prerequisites for the impact analysis are met before proceeding.
-2.  Extract the affected server IDs from the change request.
-3.  Identify which services are potentially impacted by mapping affected servers to suggested services.
-4.  Retrieve a combined view of impacted servers and suggested services.
-5.  Perform a full impact analysis for each suggested service, including cascading effects.
-6.  Compile the analysis results and update the change request work notes with a consolidated summary.
+2.  Retrieve the change request number from the current active page, or prompt you to provide it if unavailable.
+3.  Extract the affected server IDs from the change request.
+4.  Identify which services are potentially impacted by mapping affected servers to suggested services using the Service Mapping Candidate skill.
+5.  Retrieve a combined view of impacted servers and suggested services.
+6.  Perform a full impact analysis for each suggested service, including cascading effects, using the Service Mapping Candidates Impact skill.
+7.  Compile the analysis results and update the change request work notes with a consolidated summary.
 
 <table><thead><tr><th>
 

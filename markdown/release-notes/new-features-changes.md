@@ -127,8 +127,8 @@ IT Service Management has new and updated features in the Australia release.
 The ServiceNow® Manufacturing Commercial Operations enables manufacturers, agents, and dealers \(internal and channel partners\) to connect and track services and manage repair, recall, sales promotion campaigns, and quality management. Manufacturing Commercial Operations is a new application in the Australia release.
 -   **[Mobile Platform release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/mobile-rn.md)**  
 The ServiceNow® Mobile Platform application enables you to access your ServiceNow instance from anywhere. Mobile Platform was enhanced and updated in the Australia release.
--   **[Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/now-assist-rn-landing.md)**  
-Now Assist and agentic AI product enhancements and updates in the Australia release.
+-   **[ServiceNow Otto and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/now-assist-rn-landing.md)**  
+ServiceNow Otto and agentic AI product enhancements and updates in the Australia release.
 -   **[Operational Sustainability Management \(formerly Environmental, Social, and Governance\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/esg-management-rn.md)**  
 The ServiceNow® Operational Sustainability Management application \(formerly known as Environmental, Social, and Governance Management\) manages sustainability-related data, metrics, and reporting requirements. Operational Sustainability Management was enhanced and updated in the Australia release.
 -   **[Operational Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/operational-technology-rn-landing.md)**  

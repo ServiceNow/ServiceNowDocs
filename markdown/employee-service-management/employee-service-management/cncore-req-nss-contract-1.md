@@ -1,5 +1,5 @@
 ---
-title: Use non-self-served contract request
+title: Third-Party paper contract request
 description: Use Contract Management Pro to submit non self-served contract requests for review of contracts based on third-party templates.
 locale: en-US
 release: australia
@@ -9,7 +9,7 @@ reading_time_minutes: 4
 audience: sn\_cm\_core.contract\_fulfiller
 ---
 
-# Use non-self-served contract request
+# Third-Party paper contract request
 
 Use Contract Management Pro to submit non self-served contract requests for review of contracts based on third-party templates.
 
@@ -25,11 +25,11 @@ Non-self-served contract requests include the following features:
 -   Contracts repository containing the metadata of signed contract documents.
 -   Support for a configurable system property to generate a certification of completion.
 
-## Non-self-served contracts request workflow
+## Third-Party paper contracts request workflow
 
 A workflow for non-self-served contract request might progress as follows:
 
-1.  The Contract requester initiates a contract request from the workspace. For more information, see [Initiating a contract or amendment request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-initiate-contract.md).
+1.  The Contract requester initiates a contract request from the workspace. For more information, see [Parent-linked contract requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-initiate-contract.md).
 2.  A contract request is created in the Draft state.
 3.  The Contract requester uploads a single contract or multiple contracts and their supporting documents and classifies them.
 4.  The contract fulfiller views the contract document attached to the contract request.

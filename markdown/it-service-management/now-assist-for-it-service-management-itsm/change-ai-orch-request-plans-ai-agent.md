@@ -1,5 +1,5 @@
 ---
-title: Change request plans AI agent \(autonomous\)
+title: Change request plans AI agent
 description: This AI agent autonomously drafts change plan fields during the readiness phase. Field population is governed by a resolved change policy to ensure consistent behavior without requiring user input.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/now-assist-for-it-service-management-itsm/change-ai-orch-request-plans-ai-agent.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Change Management, Use agentic AI in IT Service Management, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
-# Change request plans AI agent \(autonomous\)
+# Change request plans AI agent
 
 This AI agent autonomously drafts change plan fields during the readiness phase. Field population is governed by a resolved change policy to ensure consistent behavior without requiring user input.
 
@@ -116,7 +116,7 @@ Used in agentic workflows
 
 </td><td>
 
-Not applicable.
+Change Management AI Orchestrator \(Readiness phase\)
 
 </td></tr></tbody>
 </table>

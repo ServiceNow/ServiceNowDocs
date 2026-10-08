@@ -9,6 +9,7 @@ classification: software-asset-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
+keywords: [software spend detection, software asset workspace]
 breadcrumb: [Software Asset Management, IT Asset Management, Asset Management]
 ---
 
@@ -28,16 +29,16 @@ The Software Spend Detection feature is available in the Software Asset Workspac
 
 -   **[Request Software Spend Detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/request-spend-detection.md)**  
 Request Software Spend Detection to track, analyze, and optimize software spending. To access Software Spend Detection, enable the Software Asset Management - Spend Detection \(com.sn\_sam\_spend\) plugin. This plugin includes demo data.
--   **[Software Spend Detection in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/spend-detection-sam-workspace.md)**  
-The Software Spend Detection feature is available in the Software Asset Workspace under License operations. Use the workspace to import financial transactions, review labeled transactions, and track software spending across your organization.
--   **[AI-powered Software Spend Detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/spend-detection-ai-enhancements.md)**  
+-   **[Managing software spend in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/spend-detection-sam-workspace.md)**  
+The Software Spend Detection feature is available in the Software Asset Workspace under License operations. Use Software Spend Detection in the Software Asset Workspace to import financial transactions, review labeled transactions, and track software spending across your organization.
+-   **[AI-powered software spend detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/spend-detection-ai-enhancements.md)**  
 AI-powered spend detection identifies software purchases in imported spend transactions and normalizes the derived raw publisher and raw product to existing publisher and product records in Software Asset Management Content Library. This automation improves spend reporting accuracy and reduces manual classification effort.
 -   **[Opt in to Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/opt-in-content-service.md)**  
 Opt in to Content Service for Software Spend Transactions to get more accurate predictions in Software Spend Detection by sharing financial transaction data with the ServiceNow Content Service team.
 -   **[Import financial transactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/import-spend-transactions.md)**  
 Import a Microsoft Excel spreadsheet of financial transaction data in the Software Asset Workspace to start managing software spending.
--   **[Manually create a spend transaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/manually-update-transactions.md)**  
-Manually create a spend transaction in the Software Asset Workspace to track a software purchase that is not part of a scheduled import.
+-   **[Create a spend transaction manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/manually-update-transactions.md)**  
+Create spend transactions for one-off software purchases or spend records that are not captured in your accounts payable import file. This allows you to track all software spending in one location.
 -   **[Installed with Software Spend Detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/installed-with-spend-detection.md)**  
 User roles and tables are installed with Software Spend Detection. Demo data is available for Software Spend Detection.
 

@@ -7,7 +7,7 @@ release: australia
 product: Search Administration
 classification: search-administration
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-15"
 reading_time_minutes: 6
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Zendesk Guide external content connector, Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
@@ -27,9 +27,7 @@ Role required: sn\_ext\_conn.xcc\_admin
 
 1.  Navigate to **All** &gt; **External Content Connectors** &gt; **External Content Admin Home**.
 
-2.  If prompted, select **Switch scope** to switch to the External Content Connectors Admin scope.
-
-    You must be in this scope to create or edit external content connectors.
+2.  If prompted to switch scope, select **Switch scope** and select the application scope specified in the prompt.
 
 3.  In the Connectors section, select **New**.
 
@@ -90,7 +88,7 @@ Secret for the OAuth 2.0 client application configured in Zendesk that grants ac
 
 8.  On the Crawl settings page, modify any default crawl settings that you want to override for this connector, then select **Next**.
 
-    If you want to skip this step for now, select **Skip** instead of **Next**. You can modify the crawl settings for this connector from the External Content Admin Home page. For details on this procedure and the available crawl settings, see [Configure crawl settings for a Zendesk Guide external crawl connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-crawl-settings-zendesk-guide-external-crawl-connector.md).
+    If you want to skip this step for now, select **Skip** instead of **Next**. You can modify the crawl settings for this connector from the External Content Admin Home page. For details on this procedure and the available crawl settings, see [Configure crawl settings for a Zendesk Guide external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-crawl-settings-zendesk-guide-external-content-connector.md).
 
 9.  On the User permission settings page, modify any default user permission settings that you want to override for this connector.
 
@@ -115,7 +113,7 @@ Your new external content connector appears in the Connectors list on the Extern
 
 To retrieve searchable content and security principals with your new connector, you must configure and run content and user mapping crawls for it. You can modify your new connector's crawl settings and create crawls for it from the External Content Admin Home page even if you skipped these steps during connector creation.
 
--   To learn how to configure your new connector's crawl settings, see [Configure crawl settings for a Zendesk Guide external crawl connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-crawl-settings-zendesk-guide-external-crawl-connector.md).
+-   To learn how to configure your new connector's crawl settings, see [Configure crawl settings for a Zendesk Guide external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-crawl-settings-zendesk-guide-external-content-connector.md).
 -   For details on creating crawls for your new connector, see [Create a content crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/create-content-crawl-external-content-connector.md) and [Create a user permission crawl for an external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/create-user-mapping-crawl-external-content-connector.md).
 
 To make content crawled by your new connector searchable in portals and search applications, you must link one of its search sources to the search profile used by each portal or search application. You can use the connector's default search source or create your own custom search sources.

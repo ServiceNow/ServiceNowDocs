@@ -30,11 +30,15 @@ There are two kinds of assets: consumable assets and serialized assets. Consumab
 
 -   **Unique identifiers for assets**
 
-    When you create an asset that belongs to a model category linked to a CI class with identification rules defined for fields like the Asset tag, Serial number, or MAC address, you should provide details for at least one of these fields. The identification rules for a CI class are defined in the CMDB Identification and Reconciliation engine \(IRE\). For more details, see [Identification rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_IdentificationRules.md) and [Create a CI identification rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateCIIdentificationRule.md). These rules help to uniquely identify the asset through these required fields and maintain accurate asset records. However, specifying the values for these fields is optional in the following scenarios:
+    When you create an asset, you can associate it with a model category that's linked to a CI class with identification rules defined for identifier fields like **Asset tag**, **Serial number**, and **MAC address**. These identification rules help uniquely identify each asset through the required identifier fields so that you can maintain accurate asset records. You can define identification rules for a CI class in the CMDB Identification and Reconciliation engine \(IRE\). For more information about identification rules, see [Identification rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/c_IdentificationRules.md) and [Create a CI identification rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_CreateCIIdentificationRule.md).
 
-    -   When you are creating an asset in the Build or On order state.
-    -   When you are creating an asset that belongs to a model category without a CI class.
-    -   When you are creating an asset that belongs to a model category linked to a CI class without any identification rules defined.
+    During asset creation, you must specify the value for at least one required identifier field. If any of the following scenarios occur, you must specify the value for the **Serial number** field:
+
+    -   The asset is associated with a model category that is not linked to any CI class.
+    -   The asset is associated with a model category that is linked to a CI class without any identification rules.
+    -   The IRE is turned off.
+    Specifying the values for the required identifier fields is optional if you're creating an asset in the Build or On order state.
+
 
 ## Procedure
 

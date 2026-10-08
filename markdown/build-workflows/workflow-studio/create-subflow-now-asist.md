@@ -8,7 +8,7 @@ product: Workflow Studio
 classification: workflow-studio
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Build subflows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
@@ -21,8 +21,8 @@ Use generative AI to create a subflow from text directionsand images.
 -   Roles required:
     -   admin, flow\_designer, or a delegated developer permission
     -   now.assist.creator
--   Turn on the flow generation skill. See .
--   Turn on the flow generation with images skill. See .
+-   Turn on the flow generation skill. See [Turn on the flow generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/turn-on-the-flow-generation-skill.md).
+-   Turn on the flow generation with images skill. See [Turn on the flow generation with images skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/turn-on-the-flow-generation-with-images-skill.md).
 
 ## About this task
 
@@ -77,7 +77,7 @@ Try and example
 Series of text examples to insert into the Now Assist directions field. Select this option to insert example text in the directions field. Each example illustrates directions that will build a subflow outline. Trying an example overwrites any directions text that you previously added. You can use the undo and redo options to revert to your previous directions.
 
 </td></tr></tbody>
-</table>    For general guidelines about writing Now Assist directions, see [Create a flow with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-flow-now-assist.md).
+</table>    For general guidelines about writing Now Assist directions, see [Create a flow with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/create-flow-now-assist.md).
 
 4.  Select **Show additional properties** and fill in the fields.
 

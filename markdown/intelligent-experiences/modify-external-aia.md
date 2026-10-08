@@ -1,5 +1,5 @@
 ---
-title: Modify and external AI agent
+title: Modify an external AI agent
 description: Modify an external AI agent in AI Agent Studio to refine its performance, align with business goals, or enable it to perform new tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/modify-external-aia.html
@@ -10,7 +10,7 @@ reading_time_minutes: 1
 breadcrumb: [Integrate external AI agents, AI Agent Studio, Enable AI experiences]
 ---
 
-# Modify and external AI agent
+# Modify an external AI agent
 
 Modify an external AI agent in AI Agent Studio to refine its performance, align with business goals, or enable it to perform new tasks.
 

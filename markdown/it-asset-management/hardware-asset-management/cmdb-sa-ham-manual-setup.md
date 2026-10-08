@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-07-24"
 reading_time_minutes: 2
 keywords: [manual dashboard setup, select model categories, HAM scope configuration, Select model categories dialog box, opt in resource categories]
-breadcrumb: [Get started with dashboard setup, Set up advisor, Use HAM advisor, Asset and CI management, Explore, Hardware Asset Management, IT Asset Management, Asset Management]
+breadcrumb: [Get started with dashboard setup, Set up advisor, Use HAM advisor, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Set up the HAM advisor dashboard manually

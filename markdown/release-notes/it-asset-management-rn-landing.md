@@ -22,6 +22,8 @@ The ServiceNow® Cloud Cost Management application \(formerly known as ServiceNo
 The ServiceNow® Enterprise Asset Management application manages the entire life cycle of your enterprise's connected and non-connected assets, which enables you to maintain and maximize the life of your assets while minimizing any costly downtimes. Enterprise Asset Management was enhanced and updated in the Australia release.
 -   **[Hardware Asset Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/hardware-asset-management-rn.md)**  
 The ServiceNow® Hardware Asset Management application provides advanced workflow, automation, and mobile capabilities to track and manage your technology asset environment. Hardware Asset Management was enhanced and updated in the Australia release.
+-   **[ServiceNow Otto for Hardware Asset Management \(HAM\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/servicenow-otto-for-ham-rn-static.md)**  
+The ServiceNow Otto for Hardware Asset Management \(HAM\) application brings agentic AI to Hardware Asset Management. See the following sections for release notes by version.
 -   **[Software Asset Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/software-asset-management-rn.md)**  
 The ServiceNow® Software Asset Management application enables you to systematically track, evaluate, and manage the cost, utilization, compliance, and optimization for software and SaaS applications. The Software Asset Management application was enhanced and updated in the Australia release.
 

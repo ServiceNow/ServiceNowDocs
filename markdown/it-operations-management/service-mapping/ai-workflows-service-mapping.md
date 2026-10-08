@@ -95,8 +95,8 @@ A Service Mapping administrator wants to process a large volume of ML-powered ca
 
 </td><td>
 
--   [AI Agents for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/service-mapping-ai-specialists.md)
--   [Activate AI Agents for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/activate-sm-ai-specialists.md)
+-   [AI Agents for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/service-mapping-ai-agents.md)
+-   [Activate AI Agents for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/activate-sm-ai-agents.md)
 
 </td></tr><tr><td>
 
@@ -104,7 +104,7 @@ Business App Mapping AI Agent
 
 </td><td>
 
-Automatically creates CSDM "Uses::Used by" relationships between Business Applications and discovered Application Services using AI semantic search.
+Automatically creates CSDM Consumes::Consumed by relationships between Business Applications and discovered Application Services by invoking the Business App Identification skill.**Note:** The Business App Mapping AI Agent is available through the Feature Preview Program. For more information, see [Feature Preview Program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/feature-preview-program.md).
 
 </td><td>
 
@@ -112,8 +112,8 @@ A Service Mapping administrator wants to connect discovered application services
 
 </td><td>
 
--   [AI Agents for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/service-mapping-ai-specialists.md)
--   [Activate AI Agents for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/activate-sm-ai-specialists.md)
+-   [AI Agents for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/service-mapping-ai-agents.md)
+-   [Activate AI Agents for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/activate-sm-ai-agents.md)
 
 </td></tr><tr><td>
 
@@ -137,7 +137,7 @@ An operator or change manager wants to assess the risk of a change request befor
 </td></tr></tbody>
 </table>-   **[Analyze potential impact agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/now-assist-itom-analyze-potential-impact-workflow.md)**  
 The Analyze potential impact agentic workflow analyzes how a change request might impact servers and services. This analysis helps you make informed decisions about the next steps regarding the change request.
--   **[AI Agents for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/service-mapping-ai-specialists.md)**  
+-   **[AI Agents for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/service-mapping-ai-agents.md)**  
 The Service Mapping AI agents automate the creation and maintenance of service maps in the Configuration Management Database \(CMDB\), reducing manual effort for Service Mapping administrators.
 -   **[Service Mapping MCP tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/service-mapping/service-mapping-mcp-server.md)**  
 The Service Mapping tools expose live application service data and enable AI clients to query service topology, identify mapping gaps, and create application services in natural language.

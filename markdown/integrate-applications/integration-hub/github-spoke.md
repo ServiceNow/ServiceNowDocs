@@ -844,7 +844,7 @@ Available AI agents include:
 |GitHub issue management AI agent|Manages and automates GitHub-related tasks in Integration Hub.|
 |GitHub repository management AI agent|Manages the GitHub repositories by handling the repository operations, pull requests, comments on pull request and milestones.|
 |GitHub source code management AI agent|Manages source code and handles the repository files, commits, and comments.|
-|GitHub Code Automation AI Agent|Manages code changes and GitHub operations from your ServiceNow instance. This agent interprets your requests, asks clarifying questions, and analyzes context to deliver well-integrated code updates. It also performs GitHub tasks such as creating branches, committing changes, and opening pull requests.|
+|GitHub Code Automation Agent|Manages code changes and GitHub operations from your ServiceNow instance. This agent interprets your requests, asks clarifying questions, and analyzes context to deliver well-integrated code updates. It also performs GitHub tasks such as creating branches, committing changes, and opening pull requests.|
 
 There might be AI agents installed on your instance that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/find-ai-agents.md).
 

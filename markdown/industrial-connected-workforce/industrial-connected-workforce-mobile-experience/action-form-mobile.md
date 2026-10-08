@@ -164,5 +164,9 @@ Escalate to
 User that the action should be escalated to.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Industrial Connected Workforce Mobile Experience reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/industrial-connected-workforce-mobile-experience-reference.md)
+</table>## Action header
+
+When an action has a **LOTO\(TO\) Level** or **Line Status** value, the value appears in the header of the action record. If a field is empty, it doesn't appear in the header.
+
+**Parent Topic:**[Industrial Connected Workforce Mobile Experience reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/industrial-connected-workforce-mobile-experience-reference.md)
 

@@ -141,15 +141,15 @@ Role required: sn\_customerservice.customer\_admin, sn\_customerservice.partner\
 
 3.  In the Actions list, select one of the following links.
 
-<table id="choicetable_fnc_gct_lrb"><thead><tr><th align="left" id="d244833e797">
+<table id="choicetable_fnc_gct_lrb"><thead><tr><th align="left" id="d248374e797">
 
 Choice
 
-</th><th align="left" id="d244833e800">
+</th><th align="left" id="d248374e800">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d244833e806">
+</th></tr></thead><tbody><tr><td id="d248374e806">
 
 **Disable login**
 
@@ -157,7 +157,7 @@ Description
 
 Disables the login for this contact. When the login is disabled, the contact can’t access the customer portal.This link is displayed if the login is enabled.
 
-</td></tr><tr><td id="d244833e818">
+</td></tr><tr><td id="d248374e818">
 
 **Enable login**
 

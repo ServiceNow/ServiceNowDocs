@@ -31,7 +31,7 @@ Role required: sn\_change\_write
 
 Required role:
 
-Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aw.md).
+Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/implement-aias-security-new.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aw.md).
 
 ## About this task
 
@@ -41,15 +41,15 @@ The agent verifies the prerequisites at the beginning of the agentic workflow. I
 
 1.  Either initiate the Analyze potential impact agentic workflow using a change request number or from an open change request.
 
-<table id="choicetable_rkr_bbt_3gc"><thead><tr><th align="left" id="d310614e147">
+<table id="choicetable_rkr_bbt_3gc"><thead><tr><th align="left" id="d316327e147">
 
 Situation
 
-</th><th align="left" id="d310614e150">
+</th><th align="left" id="d316327e150">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d310614e156">
+</th></tr></thead><tbody><tr><td id="d316327e156">
 
 **Change request number is known**
 
@@ -60,7 +60,7 @@ Steps
 3.  When prompted, enter the change request number.
 
 
-</td></tr><tr><td id="d310614e191">
+</td></tr><tr><td id="d316327e191">
 
 **Open change request**
 

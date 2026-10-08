@@ -21,7 +21,7 @@ Maintenance schedules define the periods during which a Configuration Item or ch
 -   **[Change Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/r_ChangeManagementProperties.md)**  
 Administrators can use change properties to configure Change Management behavior.
 -   **[Analyze change request risk and impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/change-risk-conflict-analysis.md)**  
-After you create a change request, you can assess and analyze the risk and impact involved in the change request. You can review any conflicts that are detected by reviewing the change request.
+Assess and analyze the risk and impact involved in the change request. You can review any conflicts that are detected by reviewing the change request.
 -   **[Success Probability definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/success-probability-definition.md)**  
 Success Probability definition is a configuration that defines the probability and the matching conditions of a change request.
 -   **[Calculated Risk Score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/risk-lookup.md)**  

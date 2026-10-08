@@ -38,7 +38,7 @@ On installing Contract Management Pro for Legal Service Delivery, Contracts Core
 
     Configure reminders for expiring contracts that each business unit can use without the need to create their own.
 
--   **[Configure templates for a contract and amendment request in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-document-templates.md)**
+-   **[Configure templates for a contract requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-document-templates.md)**
 
     Create a contract template of type .docx that can be used when submitting a legal contract request to generate a standard legal contract with predefined content.
 

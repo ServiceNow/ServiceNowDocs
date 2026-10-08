@@ -36,7 +36,7 @@ Example: The Care Team Member responsibility limits your access to cases for hea
 |Care Team Manager|Service location business manager|
 |Support Department Agent|Location Support Agent|
 
-For the base Service Model Foundation roles and responsibilities that these are adapted from, see [Assign roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configure-data-model-roles.md) and [Service definition roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-service-definitions-roles.md).
+For the base Service Model Foundation roles and responsibilities that these are adapted from, see  and .
 
 ## Why responsibilities matter
 

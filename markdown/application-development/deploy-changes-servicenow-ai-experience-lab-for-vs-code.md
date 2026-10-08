@@ -78,7 +78,7 @@ ServiceNow SDK
 
 </td><td>
 
-4.10 or later
+4.12.1 or later
 
 </td><td>
 
@@ -100,12 +100,16 @@ ServiceNow instance
 </td></tr></tbody>
 </table>## Procedure
 
-1.  Expand the **AI Experience Lab: Script Runner** panel.
+1.  Expand the **Lux Lab: Script Runner** panel.
 
 2.  Select **Deploy**.
 
-    The ServiceNow Lux Lab for VS Code extension attempts to deploy your changes. If successful, a banner appears confirming that the deployment to your target instance was successful.
 
+## Result
+
+The ServiceNow Lux Lab for VS Code extension attempts to deploy your changes. If successful, a notification appears confirming that the deployment to your target instance was successful.
+
+\[Omitted image "servicenow-lux-lab-vs-code-deploy-notification.png"\] Alt text: The ServiceNow Lux Lab for VS Code extension after a successful deploy, showing a notification with Open App and Show Output buttons.
 
 ## What to do next
 

@@ -7,7 +7,7 @@ release: australia
 product: ReleaseOps
 classification: releaseops
 topic_type: reference
-last_updated: "2026-07-23"
+last_updated: "2026-10-01"
 reading_time_minutes: 1
 keywords: [ReleaseOps, deploy changes, deploy apps, update sets, pipeline, ATF, schedule a release, deployment request, deployment analyzer, ServiceNow large scale deployments]
 breadcrumb: [Deploying applications, Building applications]

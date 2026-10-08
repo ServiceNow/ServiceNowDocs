@@ -32,15 +32,15 @@ Role required: admin
 
 3.  Edit an existing widget or create a widget to use it in scenario planning.
 
-<table id="choicetable_rl1_scr_dfc"><thead><tr><th align="left" id="d264021e96">
+<table id="choicetable_rl1_scr_dfc"><thead><tr><th align="left" id="d270759e96">
 
 Choice
 
-</th><th align="left" id="d264021e99">
+</th><th align="left" id="d270759e99">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d264021e105">
+</th></tr></thead><tbody><tr><td id="d270759e105">
 
 **Edit an existing widget**
 
@@ -50,7 +50,7 @@ Description
 2.  Edit the **Script** field to customize and fetch required financial information into the widget.
 
 
-</td></tr><tr><td id="d264021e126">
+</td></tr><tr><td id="d270759e126">
 
 **Create a widget**
 

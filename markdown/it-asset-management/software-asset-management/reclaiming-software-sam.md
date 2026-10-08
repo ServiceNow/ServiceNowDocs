@@ -26,21 +26,15 @@ Reclaiming software involves a workflow to remove software for a user. You can r
 
 You can select **Show Workflow** at any point of time in the reclamation workflow to see the current stage the workflow is in. For information on CSD 2.0, see [Client Software Distribution 2.0 application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/csd-app-2.md).
 
-Starting from the Australia release, the reclamation workflow can also be completed using the Software Reclamation Flow in the Flow Designer application along with additional error handling functionality.
-
 ## Procedure
 
-1.  Navigate to **All** &gt; **Software asset** &gt; **Software Asset Workspace**.
+1.  Navigate to **Workspaces** &gt; **Software Asset Workspace** &gt; **License operations** &gt; **Reclamation** &gt; **Removal candidates**.
 
-2.  Select **License usage**.
+2.  Select to open a removal candidate record.
 
-3.  Select the **Removal candidates** tab.
+    Verify that the **Assigned to** field has a value. If not, select a value. Typically, the sam\_admin role takes ownership of the workflow and ensures that a group is mentioned in the **Assignment group** field. Having a group specified in the **Assignment group** field ensures that the approval goes to the correct group. The assignment group consists of users who can approve or reject a request to keep the software.
 
-4.  Select to open a removal candidate record.
-
-    Ensure that the **Assigned to** field has a value. If not, select a value. Typically, the sam admin role takes ownership of the workflow and ensures that a group is mentioned in the **Assignment group** field. Having a group specified in the **Assignment group** field ensures that the approval goes to the correct group. The assignment group consists of users who can approve or reject a request to keep the software.
-
-5.  Select **Reclaim**
+3.  Select **Reclaim**
 
     The state of the removal candidate record changes from **Ready** to **Awaiting User**. An email notification is sent to the user to whom the software license is assigned. The user details are mentioned under the removal candidate section.
 
@@ -52,7 +46,7 @@ Starting from the Australia release, the reclamation workflow can also be comple
 
     -   **Yes**: indicates keeping the software.
     -   **No**: indicates removing the software.
-6.  Select **Yes** or **No**.
+4.  Select **Yes** or **No**.
 
     If the user selects **Yes**, the following steps take place:
 
@@ -74,9 +68,9 @@ Starting from the Australia release, the reclamation workflow can also be comple
     If the user selects **No**, the following steps take place:
 
     1.  The state of the removal candidate record changes to **Awaiting Revocation**.
-    2.  Based on the scenarios mentioned in the above note, software removal takes place.
+    2.  Based on the scenarios mentioned in the earlier note, software removal takes place.
 
-        **Note:** For removal candidates that are grouped into low usage or overlapping justifications, you do not need to manually remove subscriptions as auto reclamation is performed for these two justifications. Fore more information on justifications, see [Software installation optimization and removal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/c_SAMOptimization.md).
+        **Note:** For removal candidates that are grouped into low usage or overlapping justifications, you must not manually remove subscriptions as auto reclamation is performed for these two justifications. Fore more information on justifications, see [Software installation optimization and removal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/c_SAMOptimization.md).
 
 
 **Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/using-sam-workspace.md)

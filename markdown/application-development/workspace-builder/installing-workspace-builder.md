@@ -7,7 +7,7 @@ release: australia
 product: Workspace Builder
 classification: workspace-builder
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-23"
 reading_time_minutes: 1
 breadcrumb: [Configure, Workspace Builder, Builder library, Developing your application, Building applications]
 ---
@@ -16,11 +16,7 @@ breadcrumb: [Configure, Workspace Builder, Builder library, Developing your appl
 
 Workspace Builder is available on the ServiceNow Store.
 
-## Using the ServiceNow Store to install Workspace Builder
-
-The ServiceNow Store enables you to download core products and applications.
-
-Check that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements.
+Check your entitlements to determine if you have access to Workspace Builder.
 
 When you install Workspace Builder, you also install the following related items:
 
@@ -28,7 +24,16 @@ When you install Workspace Builder, you also install the following related items
 -   Tables
 -   Plugins
 
-## Licensing for Workspace Builder
+## Installing Workspace Builder for App Engine from the ServiceNow Store
 
-Workspace Builder requires an App Engine Enterprise license. For more information, see [App Engine products and offerings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/app-engine-products-offerings.md).
+1.  Navigate to the ServiceNow Store.
+2.  In the search bar, enter `Workspace Builder`.
+3.  Select the Workspace Builder for App Engine application.
+4.  Select **Buy**.
+5.  Log in to your ServiceNow instance.
+6.  Navigate to **All** &gt; **Application Manager**.
+7.  Enter `Workspace Builder` in the search bar.
+8.  Select **Install**.
+
+For more information about installing applications using the Application Manager, see [Installing applications, plugins, and products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/installing-apps-app-manager.md).
 

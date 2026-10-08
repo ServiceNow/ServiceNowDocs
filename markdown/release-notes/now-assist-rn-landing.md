@@ -1,6 +1,6 @@
 ---
-title: Now Assist and agentic AI release notes
-description: Now Assist and agentic AI product enhancements and updates in the Australia release.
+title: ServiceNow Otto and agentic AI release notes
+description: ServiceNow Otto and agentic AI product enhancements and updates in the Australia release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/now-assist-rn-landing.html
 release: australia
@@ -10,11 +10,11 @@ reading_time_minutes: 6
 breadcrumb: [Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
 
-# Now Assist and agentic AI release notes
+# ServiceNow Otto and agentic AI release notes
 
-Now Assist and agentic AI product enhancements and updates in the Australia release.
+ServiceNow Otto and agentic AI product enhancements and updates in the Australia release.
 
-Now Assist brings generative AI capabilities to the ServiceNow AI Platform. With Now Assist, you can improve the productivity and efficiency in your organization, deliver better self-service, recommend actions and provide answers, and empower your users to search more effectively.
+ServiceNow Otto brings generative AI capabilities to the ServiceNow AI Platform. With ServiceNow Otto, you can improve the productivity and efficiency in your organization, deliver better self-service, recommend actions and provide answers, and empower your users to search more effectively.
 
 -   **[AI Desktop Actions release notes]()**  
 The ServiceNow® AI Desktop Actions application enables you to automate repetitive tasks on your desktop and web. These desktop actions are executed by AI agents created in AI Agent Studio.

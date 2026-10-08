@@ -7,7 +7,7 @@ release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Third-party \(external\) risk assessment management, Reference, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -38,7 +38,15 @@ Number
 
 </td><td>
 
-For each task, the system auto-assigns a unique ID number that starts with the text VRT.The unique ID is used in all references to the item. You can use the ID to search or filter for the item that you want to work on.
+For each task, the system auto-assigns a unique ID number that starts with the text VRIT or VRT.The unique ID is used in all references to the item. You can use the ID to search or filter for the item that you want to work on.
+
+</td></tr><tr><td>
+
+Task type
+
+</td><td>
+
+Type of work the task is used for, such as **Element collection task**.
 
 </td></tr><tr><td>
 

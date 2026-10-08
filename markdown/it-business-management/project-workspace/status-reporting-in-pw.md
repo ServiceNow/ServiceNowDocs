@@ -1,24 +1,24 @@
 ---
 title: Status reporting in Project Workspace
-description: A status report in Project Workspace is a snapshot in time that gives an overview of your overall project health across key areas such as cost, resources, milestones, health, and more.
+description: A status report in Project Workspace provides a snapshot of your project health across key areas such as cost, resources, milestones, and schedule.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/project-workspace/status-reporting-in-pw.html
 release: australia
 product: Project Workspace
 classification: project-workspace
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-12"
 reading_time_minutes: 3
 breadcrumb: [Explore, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Status reporting in Project Workspace
 
-A status report in Project Workspace is a snapshot in time that gives an overview of your overall project health across key areas such as cost, resources, milestones, health, and more.
+A status report in Project Workspace provides a snapshot of your project health across key areas such as cost, resources, milestones, and schedule.
 
 \[Omitted video\] Description: Status reporting in Project Workspace video.
 
-The Status reports in Project Workspace provide a comprehensive, configurable, and customizable view of the current state of a project by capturing and displaying key project metrics such as overall health, schedule, scope, cost, and resource utilization. Status reports help project teams and stakeholders track progress, identify risks, and manage any project-related issues in real-time.
+The Status reports in Project Workspace provide a comprehensive, configurable, and customizable view of the current state of a project. They capture and display key project metrics such as overall health, schedule, scope, cost, and resource utilization. Status reports help project teams and stakeholders track progress, identify risks, and manage any project-related issues in real-time.
 
 |Metric|Description|
 |------|-----------|

@@ -22,6 +22,8 @@ Employees can submit legal requests for creating non-disclosure agreement \(NDA\
 Employees can submit legal requests for review of third-party contracts by the legal team.
 -   **[Contract amendments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-amend-req-landing.md)**  
 The contract amendment workflow enhances contract lifecycle management by enabling you to initiate, track, and finalize amendments to existing contracts with an audit trail.
+-   **[Contract renewals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-renewal-landing.md)**  
+The contract renewal workflow enables you to initiate, manage, and track the renewal of an existing contract as a dedicated request type, and to maintain the link between a previous contract and its renewed contract.
 -   **[Linking parent-child contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-linking-parent-child.md)**  
 Link a parent contract to a child contract to establish hierarchical relationships between contract requests and inherit fields from the parent contract request.
 -   **[Internal review overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-expert-review.md)**  
@@ -32,8 +34,6 @@ Contract Management Pro for Legal Service Delivery supports electronic signature
 Cancel a legal contract request if it is no longer necessary.
 -   **[View and download a signed contract document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-preview-contract.md)**  
 View and download a signed contract document.
--   **[View contract requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-view-contract-requests.md)**  
-When a legal request is submitted a contract request associated with it is initiated.
 -   **[Manage Contract Management Pro for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-manage-sn-legal-contracts.md)**  
 As administrator work on managing the word document templates and legal contracts.
 

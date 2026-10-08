@@ -1,6 +1,6 @@
 ---
 title: Creating external content connectors
-description: Connector administrators can create external content connectors to retrieve searchable content and metadate and security permissions from supported source systems.
+description: Connector administrators can create external content connectors to retrieve searchable content and metadata and security permissions from supported source systems.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/creating-ext-cont-connectors.html
 release: australia
@@ -15,7 +15,7 @@ breadcrumb: [Explore, External Content Connectors, Search administration, Config
 
 # Creating external content connectors
 
-Connector administrators can create external content connectors to retrieve searchable content and metadate and security permissions from supported source systems.
+Connector administrators can create external content connectors to retrieve searchable content and metadata and security permissions from supported source systems.
 
 -   **[Creating multiple external content connectors of the same type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/creating-multiple-external-content-connectors.md)**  
 Admins can create multiple external content connectors of the same type on a single ServiceNow AI Platform® instance. These connectors can crawl different source systems or the same source system. Connectors that crawl the same source system can include overlapping crawl locations.

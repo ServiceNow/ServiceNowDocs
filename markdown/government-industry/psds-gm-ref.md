@@ -14,3 +14,5 @@ breadcrumb: [Reference, Public Sector Digital Services \(PSDS\)]
 
 Reference tables and forms for configuring and using Grants Management capabilities.
 
+This section provides additional information that you may require while setting up or using the Grants Management or the grants management portals.
+

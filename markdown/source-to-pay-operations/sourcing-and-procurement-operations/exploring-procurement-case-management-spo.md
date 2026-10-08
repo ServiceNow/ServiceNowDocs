@@ -115,7 +115,7 @@ To learn more about installing and configuring procurement case management in So
 
 [Sourcing Pipeline Management]()
 
-[Understanding Punchout]()
+[Understanding punchout]()
 
 [AI Search for Sourcing and Procurement Operations]()
 

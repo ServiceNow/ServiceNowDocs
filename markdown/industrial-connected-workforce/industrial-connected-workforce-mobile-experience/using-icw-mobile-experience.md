@@ -8,7 +8,7 @@ product: Industrial Connected Workforce Mobile Experience
 classification: industrial-connected-workforce-mobile-experience
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Industrial Connected Workforce Mobile Experience, Industrial Connected Workforce]
 ---
 
@@ -68,6 +68,14 @@ Use breakdown analysis to investigate the cause of breakdown further.
 Create a safety incident directly from an existing task when you are using the Industrial Connected Workforce Mobile Experience.
 -   **[Report a safety incident from ICW Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/icw-mobile-report-safety-incident.md)**  
 Report a safety incident directly from your mobile device when you encounter a safety-related issue on the shop floor.
+-   **[Execute a work set task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/execute-work-set-task-mobile.md)**  
+Execute the sub-activities of a work set task from a single list in the Industrial Connected Workforce Mobile Experience, without navigating to a related list.
+-   **[View and edit a centerline audit task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/view-edit-centerline-audit-task-mobile.md)**  
+View and edit the details of a centerline audit task before you start it to ensure the correct material and assignment information is set.
+-   **[Execute a centerline audit task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/execute-centerline-audit-task-mobile.md)**  
+Execute a centerline audit task with the Industrial Connected Workforce Mobile Experience to measure process parameters against published standards and submit your results from the shop floor.
+-   **[Create a deviation from a centerline task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/create-deviation-from-centerline-task-mobile.md)**  
+When you submit a centerline audit task with parameters that are outside specified values, a deviation is automatically created for each non-compliant parameter. Issues are tracked immediately, with no manual deviation entry required.
 
 **Parent Topic:**[Industrial Connected Workforce Mobile Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/industrial-connected-workforce-mobile-experience/icw-mobile-exp-landing-page.md)
 

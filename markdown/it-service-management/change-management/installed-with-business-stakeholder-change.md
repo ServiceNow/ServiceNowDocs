@@ -7,7 +7,7 @@ release: australia
 product: Change Management
 classification: change-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Activate Business Stakeholder, Change Management plugins, Configure, Change Management, IT Service Management]
 ---
@@ -19,6 +19,8 @@ The Business Stakeholder plugin \(com.snc.business\_stakeholder\) installs the B
 **Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/find-components.md).
 
 ## Roles installed
+
+The business stakeholder role is a single reusable role that applies across all ITSM applications including Change Management and Request Management. The role and its contained role are identical across all applications from which they are viewed.
 
 <table id="table_u1t_gb1_wdb"><thead><tr><th>
 
@@ -38,7 +40,15 @@ Business Stakeholder\[business\_stakeholder\]
 
 </td><td>
 
-Users with this role can view and approve records within all products of ITSM.
+Users with this role can view and approve records within all products of ITSM.**Note:** The business stakeholder role contains the following ITSM roles:
+
+-   sn\_incident\_read
+-   sn\_problem\_read
+-   sn\_change\_read
+-   sn\_request\_read
+-   approver\_user roles
+
+The roles listed in the **Contains roles** column remain the same across all applications.
 
 </td><td>
 

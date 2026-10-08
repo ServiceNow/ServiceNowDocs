@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experienc
 release: australia
 topic_type: concept
 last_updated: "2026-04-23"
-reading_time_minutes: 5
+reading_time_minutes: 6
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, explore]
 breadcrumb: [AI Control Tower, Enable AI experiences]
 ---
@@ -31,6 +31,7 @@ As your organization deploys AI systems across business units, from generative A
 |----|-----------|
 |AI steward|Oversees the state of AI across all inventory, including value and adoption insights. Reviews quality and safety scores, monitors risk and compliance posture, investigates cases and inquiries, and coordinates with AI system owners to maintain governance standards.|
 |Administrator|Activates and configures AI Control Tower plugins, manages data sharing and multi-instance settings, configures AI model providers and data routing, sets up playbook templates, and maintains users and roles.|
+|Workspace administrator|Tailors AI Control Tower pages for the organization by configuring the widgets on them, so that each page presents the terminology, level of detail, and records that teams work with. Widget configurations apply to all users on the instance.|
 |AI asset owner / Product owner|Manages the AI assets they own, views value and adoption metrics for their systems, tracks lifecycle status, and creates or responds to AI cases and approval requests.|
 |Risk and compliance user|Monitors risk classifications, reviews compliance posture against authority documents and policies, manages risk assessments, and helps track regulatory changes affecting AI assets.|
 

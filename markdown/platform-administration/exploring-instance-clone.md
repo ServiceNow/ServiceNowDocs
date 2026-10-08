@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/exploring-instance-clone.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Instance Clone, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -48,15 +48,17 @@ For clone terminology and definitions, see [Clone terminology](https://raw.githu
 8.  Preservers: Data is preserved from the old target \(pre-clone instance\) and is copied to the new target instance.
 
 9.  Node repoint: The system switches from the old target to the new clone without user disruption.
-10. Scheduling scripts: All scripts are scheduled to run in the global scope. Starting with the Australia Patch 5 release, script status is visible. Any changes to cleanup scripts, which are defined on the source, must happen before the Restore phase of a clone to be processed within that clone request.
-11. Post Clone: The instance is set up in its own phase. Cleanup scripts run after the clone shows as Complete. To view cleanup script status on the source instance, enable **Multi-Instance View**. Both instances must be on Australia Patch 5 or later.
-
+10. Scheduling scripts: Cleanup scripts run in the global scope. Cleanup scripts are defined on the source instance. Make any changes to them before the Restore phase starts so the changes apply to that clone request.
+11. Post Clone: The post-clone phase sets up the target instance after the clone completes.
+12. Cleanup Scripts: Cleanup scripts run on the target instance after the Post Clone phase is Completed and the clone is fully complete. To view script status, go to the Clone Status page on the source instance with Multi-Instance View enabled, or select **View on target instance** from the same Clone Status page. For more information, see [Monitor cleanup script execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/monitor-cleanup-script-execution.md).
 
 ## Instance Clone users
 
-|User|Description|
-|----|-----------|
-|Clone Administrator|Clone admins with the **clone\_admin** role can request, cancel, or schedule clones.|
+|User|Description|Applies to|
+|----|-----------|----------|
+|Clone Administrator|Users with the **clone\_admin** role can request, cancel, or schedule clones, and manage clone profiles.|Source|
+|OAuth Administrator|Users with the **oauth\_admin** role on the target instance perform the one-time OAuth setup required to register that instance for cloning. After OAuth setup is complete, users submitting clones to that target instance only require the **clone\_admin** role. Reconfiguration is not required unless OAuth authorization is reset.|Target|
+|SOAP user|Users with the **soap** role can perform all SOAP operations using basic authentication. The identity type for basic authentication is machine.|Source and target|
 
 ## Instance Clone benefits
 

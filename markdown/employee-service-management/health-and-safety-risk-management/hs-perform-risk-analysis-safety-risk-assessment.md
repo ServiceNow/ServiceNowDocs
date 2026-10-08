@@ -36,15 +36,15 @@ A risk analysis can be associated with job steps in a job and have their inheren
 
 5.  In the **Risk analyses** tab, add risk analysis records.
 
-<table id="choicetable_b2k_l3c_4hc"><thead><tr><th align="left" id="d388298e114">
+<table id="choicetable_b2k_l3c_4hc"><thead><tr><th align="left" id="d392294e114">
 
 Option
 
-</th><th align="left" id="d388298e117">
+</th><th align="left" id="d392294e117">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d388298e123">
+</th></tr></thead><tbody><tr><td id="d392294e123">
 
 **Import from predefined job**
 
@@ -52,7 +52,7 @@ Steps
 
 To create risk analyses by importing hazards and controls from a predefined job, see [Create a risk analysis from a job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/health-and-safety-risk-management/import-hazards-and-controls.md).
 
-</td></tr><tr><td id="d388298e139">
+</td></tr><tr><td id="d392294e139">
 
 **Create in Risk analyses tab**
 

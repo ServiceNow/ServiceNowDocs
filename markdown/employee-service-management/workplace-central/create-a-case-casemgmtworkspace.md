@@ -79,7 +79,7 @@ The workplace service request is submitted and a workplace case is created. Refr
 
 [Manage workplace cases in calendar view in Workplace Central]()
 
-[Manage workplace cases in List view in Workplace Central]()
+[Workplace cases in List view in Workplace Central]()
 
-[View Facility Assets in Workplace Central]()
+[View facility assets in Workplace Central]()
 

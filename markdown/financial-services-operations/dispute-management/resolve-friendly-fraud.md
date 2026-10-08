@@ -78,15 +78,15 @@ You can follow the AI agent's recommendation or make a different decision. If yo
 
     If you are working with the AI agent, enter the number corresponding to your decision in the chat. Otherwise, select an option directly on the form.
 
-<table id="choicetable_z24_15n_52c"><thead><tr><th align="left" id="d110311e259">
+<table id="choicetable_z24_15n_52c"><thead><tr><th align="left" id="d110368e259">
 
 Action
 
-</th><th align="left" id="d110311e262">
+</th><th align="left" id="d110368e262">
 
 Result
 
-</th></tr></thead><tbody><tr><td id="d110311e268">
+</th></tr></thead><tbody><tr><td id="d110368e268">
 
 **Decline dispute transaction**
 
@@ -96,7 +96,7 @@ Result
 2.  The **Customer communication** activity is displayed. See [Resolve fraud customer communication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/dispute-management/resolve-fraud-customer-communication.md).
 
 
-</td></tr><tr><td id="d110311e299">
+</td></tr><tr><td id="d110368e299">
 
 **Issue credit and write-off**
 
@@ -107,7 +107,7 @@ Result
 3.  Provide the final credit and select **Close task**. The task is marked as **Closed Complete**.
 
 
-</td></tr><tr><td id="d110311e335">
+</td></tr><tr><td id="d110368e335">
 
 **Proceed with dispute**
 

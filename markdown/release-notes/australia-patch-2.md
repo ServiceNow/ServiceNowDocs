@@ -63,9 +63,9 @@ Australia Patch 2 includes fixes for security-related problems that affected cer
     Live Archive \(formerly Data Archiving\) moves records and attachments to object storage, freeing up space in the primary database while keeping data accessible for compliance and reporting. This capability improves query performance and provides scalable storage for large archives.
 
 -   ****
--   **[Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/now-assist-rn-landing.md)**
+-   **[ServiceNow Otto and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/now-assist-rn-landing.md)**
 
-    For Now Assist new features and changes, see [Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/now-assist-rn-landing.md).
+    For Now Assist new features and changes, see [ServiceNow Otto and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/now-assist-rn-landing.md).
 
 -   ****
 

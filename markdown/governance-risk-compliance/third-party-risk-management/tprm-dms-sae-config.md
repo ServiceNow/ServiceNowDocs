@@ -7,7 +7,7 @@ release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-05-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Now Assist, Third-party Risk Management, Smart Assessment Engine, DMS, document-assisted drafting, AI-assisted questionnaire pre-fill]
 breadcrumb: [Smart Assessment Engine assessments, Configure, Third-party Risk Management, Governance, Risk, and Compliance]

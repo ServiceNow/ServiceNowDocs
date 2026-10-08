@@ -16,6 +16,8 @@ breadcrumb: [UI test steps, Building and running automated tests with the Automa
 
 Test customized user interfaces such as UI pages and UI macros by retrieving their HTML and JavaScript page components and identifying the test actions they support.
 
+**Note:** For new test development, use the Run UI Test Script test step instead of Custom UI test steps.
+
 Custom UI test steps require the Automated Test Framework to retrieve and identify the testable components from a target web page.
 
 **Note:** Next UI Experience pages are not supported by the Custom UI test steps, including but not limited to Configurable Workspaces \(except for Form steps\) and UI Builder.

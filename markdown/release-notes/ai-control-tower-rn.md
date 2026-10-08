@@ -1,12 +1,12 @@
 ---
 title: AI Control Tower release notes
-description: The ServiceNow AI Control Tower application provides a centralized workspace to track and act on AI governance work across the enterprise. AI Control Tower was enhanced and updated in the Australia release.This release adds support for domain separation, policies, quality and safety metrics for specific assets, and more.The ServiceNow AI Control Tower application provides a centralized workspace to track and act on AI governance work across the enterprise. AI Control Tower was enhanced and updated in the Australia release.The ServiceNow AI Control Tower application provides a centralized workspace to track and act on AI governance work across the enterprise. AI Control Tower was enhanced and updated in the Australia release.The ServiceNow AI Control Tower application provides a centralized workspace to track and act on AI governance work across the enterprise. AI Control Tower was enhanced and updated in the Australia release.The ServiceNow AI Control Tower application provides a centralized workspace to track and act on AI governance work across the enterprise. AI Control Tower was enhanced and updated in the Australia release.The ServiceNow AI Control Tower application provides a centralized workspace to track and act on AI governance work across the enterprise. AI Control Tower was enhanced and updated in the Australia release.
+description: The ServiceNow AI Control Tower application provides a centralized workspace to track and act on AI governance work across the enterprise. AI Control Tower was enhanced and updated in the Australia release.The Australia Patch 7 release adds support for policy management improvements, improved monitoring visualizations, and more.This release adds support for domain separation, policies, quality and safety metrics for specific assets, and more.The ServiceNow AI Control Tower application provides a centralized workspace to track and act on AI governance work across the enterprise. AI Control Tower was enhanced and updated in the Australia release.The ServiceNow AI Control Tower application provides a centralized workspace to track and act on AI governance work across the enterprise. AI Control Tower was enhanced and updated in the Australia release.The ServiceNow AI Control Tower application provides a centralized workspace to track and act on AI governance work across the enterprise. AI Control Tower was enhanced and updated in the Australia release.The ServiceNow AI Control Tower application provides a centralized workspace to track and act on AI governance work across the enterprise. AI Control Tower was enhanced and updated in the Australia release.The ServiceNow AI Control Tower application provides a centralized workspace to track and act on AI governance work across the enterprise. AI Control Tower was enhanced and updated in the Australia release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/ai-control-tower-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
-reading_time_minutes: 23
+reading_time_minutes: 27
 breadcrumb: [AI Experiences release notes, Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
 
@@ -103,6 +103,83 @@ For more information on the legacy AI Control Tower experience, see [AI Control 
 
 
 **Parent Topic:**[AI Experiences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/intelligent-experiences-rn-landing.md)
+
+## Australia Patch 7
+
+The Australia Patch 7 release adds support for policy management improvements, improved monitoring visualizations, and more.
+
+### What's new
+
+-   **[Monitor agent activity chart improvements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mon-ai-monitoring-overview.md)**
+
+    Monitor agentic AI performance over time using new filter options in the Monitor agent activity chart. View the top five lowest performing metrics, top five highest performing metrics, or view performance for a specific metric in the chart.
+
+-   **[Session details improvements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mon-ai-session-details.md)**
+
+    View a list of lowest scoring metrics and the LLM judge's reasoning in the Quality and Safety score cards on the Session details page.
+
+-   **Connectors**
+
+    Amazon Quick connector is a new connector which is part of discovering Systems, models, and prompts for creating AI connections.
+
+-   **[Edit an Explicit Block policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-pol-edit-explicit-block-policy.md)**
+
+    Change who an Explicit Block policy blocks, what they're blocked from using, or its follow-up actions after the policy is published.
+
+-   **[Block AI usage by department](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-pol-create-explicit-block-policy.md)**
+
+    Scope an Explicit Block policy to a department so everyone in that department is blocked from a specific AI agent, model, or domain.
+
+-   **[Use new role to contain AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-sec-manage-ai-agents-using-kill-switch-protocol.md)**
+
+    Perform AI agent containment \(kill switch\) with the AI Security Operator role. You can deactivate an AI agent without requiring full AI Steward–level access.
+
+-   **[Check whether the Security Analyzer agent is enabled](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/plat-ai-aict-security-analyzer-agent-ai-agent.md)**
+
+    Check the status of the Security Analyzer agent which determines security event severity and insights for your top recommendations, data integrity incident detection, system prompt leakage, correctness detection, prompt injection, and agent goal deviation metrics. Available on the Security Insights tab in Settings &gt; Rules and templates &gt; Security.
+
+-   **Sub-vendor AI costs**
+
+    Set a rate for a specific service from an integrated vendor, such as an agent platform. The sub-vendor rate takes precedence over the vendor rate. The vendor rate applies to any usage that doesn't have a sub-vendor rate.
+
+-   ****
+
+    Record per-seat subscription costs for integrated and non-integrated vendors. Specify the number of licensed seats, the cost per seat, and the contract dates. Optionally, add a one-time setup fee and distribute it over a set number of months so that it's included in the estimated monthly cost.
+
+
+### What's changed
+
+-   **[View input and output in trace details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/mon-ai-session-details.md)**
+
+    Toggle between input and output when viewing trace details.
+
+-   **[Usability improvements to Security Overview metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-sec-reference.md)**
+
+    See only actionable items in your top recommendations on the Security Overview tab. In addition, the recommendations rank AI agent insights by number of critical security events and show the agent name, critical event count, and top threat categories. The security events list now matches the list on the Post-runtime tab. The Access issues detailed view includes a description that explains each access issue in plain language—identifying the agent, the operation, the resource, and the denial count.
+
+-   **[Domain separation and AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-domain-separation.md)**
+
+    Review sensitive data metrics for ServiceNow AI systems in a domain-separated instance. Available on the Runtime tab in Security.
+
+-   **[Configure Excessive Agency in Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-sec-configure-event-metrics.md)**
+
+    Control whether Excessive Agency is enabled in Post-runtime configuration in Security. This setting controls data for Access issues and Privileged AI agents metrics, as well as post-runtime metrics. The setting is off by default.
+
+-   **[Post-runtime Security probabilistic metrics and AI agent disabled by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-sec-configure-event-metrics.md)**
+
+    To reduce token consumption, screening for data integrity incident detection, system prompt leakage, correctness detection, prompt injection, and agent goal deviation is disabled by default. In addition, the Security Analyzer agent that determines security event severity and insights is disabled by default. The default sampling rate for all metrics is 1%. If you're upgrading, your Detection enabled setting for each metric isn’t affected. After upgrading, check your settings in **Settings** &gt; **Rules and templates** &gt; **Security** and adjust if needed.
+
+
+### What's deprecated or removed
+
+-   **[Now LLM Service deprecation notice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-large-language-models.md)**
+
+    Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. We're committed to bringing you the latest industry advancements while maintaining sovereignty-focused options, all hosted and governed by ServiceNow with the infrastructure and data protections you rely on today. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+
+-   **[Traceloop Warehouse HTTPS connection removed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-sec-configure-pi-sensitive-metrics.md)**
+
+    The base system Traceloop Warehouse HTTPS connection \(sn\_ai\_security.Traceloop\_API alias\) is removed. If you're upgrading and use Traceloop-based external AI metrics, create a new HTTPS connection under that alias and re-create your credential with connection URL `https://api.traceloop.com`.
+
 
 ## Australia Patch 6
 
@@ -262,7 +339,7 @@ The ServiceNow® AI Control Tower application provides a centralized workspace t
 
     Track your AI portfolio from strategy to delivery with the Plan menu. Plan connects goal alignment, intake management, and execution tracking in a single workspace, giving portfolio managers and AI COE leads a current view of AI investments.
 
--   **[Conversational interface in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-convrstn-support.md)**
+-   **[ServiceNow Otto in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-convrstn-support.md)**
 
     Use ServiceNow Otto premium chat in AI Control Tower for a better conversational experience with unified search and chat capabilities, including integrated web search and file uploads.
 
@@ -276,7 +353,7 @@ The ServiceNow® AI Control Tower application provides a centralized workspace t
 
 -   **[Configure post-runtime security metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/gov-sec-configure-event-metrics.md)**
 
-    System prompt leakage, threat monitoring, and sensitive data disclosure post-runtime metrics are now configured and active by default.
+    System prompt leakage, threat monitoring, and sensitive data disclosure post-runtime metrics are now configured and active by default. The default values for Sampling rate and Max skill calls have changed to help ensure efficient, predictable analysis. If you're upgrading, your Sampling rate and Max skill calls are updated to the new defaults. Your Active setting for each metric is not affected. After upgrading, check your Sampling rate and Max skill calls settings under **Settings** &gt; **Rules and templates** &gt; **Security** and adjust if needed.
 
 -   **[Specify the asset state during AI asset creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/creating-ai-assets-newexperience.md)**
 

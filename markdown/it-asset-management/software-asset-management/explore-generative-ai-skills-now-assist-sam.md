@@ -9,6 +9,7 @@ classification: software-asset-management
 topic_type: concept
 last_updated: "2026-06-29"
 reading_time_minutes: 3
+keywords: [ServiceNow Otto for Software Asset Management, software asset management, generative AI skills, Spend transaction software classification skill, Spend transaction software normalization skill]
 breadcrumb: [AI in Software Asset Management, Explore, Software Asset Management, IT Asset Management, Asset Management]
 ---
 

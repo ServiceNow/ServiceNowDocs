@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/purchase-order-mgmt-landing-page.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Source-to-Pay Operations, Finance and Supply Chain]
 ---

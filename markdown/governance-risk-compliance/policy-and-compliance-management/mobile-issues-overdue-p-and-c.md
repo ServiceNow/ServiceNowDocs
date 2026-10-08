@@ -9,7 +9,7 @@ classification: policy-and-compliance-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Managing mobile experience for GRC Policy and Compliance, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Managing mobile experience for GRC Policy and Compliance, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Reassign overdue Policy and Compliance Management issues with the GRC Mobile application
@@ -59,15 +59,15 @@ Edit or reassign an issue directly from the list of records. Alternatively, add 
 
     \[Omitted image "mobile-overdue-issue-record.jpg"\] Alt text: Overdue issue record.
 
-<table id="choicetable_adf_df2_yhb"><thead><tr><th align="left" id="d181438e248">
+<table id="choicetable_adf_df2_yhb"><thead><tr><th align="left" id="d184579e248">
 
 Option
 
-</th><th align="left" id="d181438e251">
+</th><th align="left" id="d184579e251">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d181438e257">
+</th></tr></thead><tbody><tr><td id="d184579e257">
 
 **Details tab**
 
@@ -84,7 +84,7 @@ Tap the **Control/Risk** field to expand it. A list of records is displayed. Tap
 -   Navigate back to the record and tap the menu icon \( \[Omitted image "mobile-top-menu.png"\] Alt text: Menu icon.\) to edit and reassign the issue. Follow the steps described in the preceding table.
 
 
-</td></tr><tr><td id="d181438e301">
+</td></tr><tr><td id="d184579e301">
 
 **Activity Stream tab**
 
@@ -94,7 +94,7 @@ With the Activity Stream tab selected, choose one to continue.-   View work note
 -   At the top right of the screen, tap the menu icon \( \[Omitted image "mobile-top-menu.png"\] Alt text: Menu icon.\) to edit and reassign the issue. Follow the steps described in the preceding table.
 
 
-</td></tr><tr><td id="d181438e331">
+</td></tr><tr><td id="d184579e331">
 
 **Related List tab**
 
@@ -106,7 +106,7 @@ With the Related List tab selected, follow these steps.
 2.  After your review, navigate back to the record on the Issue screen and tap the menu icon \( \[Omitted image "mobile-top-menu.png"\] Alt text: Menu icon.\) to edit and reassign the issue. Follow the steps described in the preceding table.
 
 
-</td></tr><tr><td id="d181438e361">
+</td></tr><tr><td id="d184579e361">
 
 **Screen icons at the bottom of the screen.**
 

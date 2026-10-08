@@ -17,7 +17,7 @@ Connect identity providers and hyperscalers to ServiceNow to let you contain and
 
 ## Before you begin
 
-Role required: AI steward \[sn\_ai\_governance\_ai\_steward\]
+Role required: AI steward \[sn\_ai\_governance.ai\_steward\]
 
 ## About this task
 

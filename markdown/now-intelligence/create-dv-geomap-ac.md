@@ -209,7 +209,7 @@ Type of color scheme to apply to the component. The choices are:
 
 
 </td></tr></tbody>
-</table>8.  Under **Chart interaction**, set what if anything happens when a viewer clicks a chart or a chart segment on the visualization.
+</table>8.  Under **Chart interaction**, set what if anything happens when a viewer selects a chart or a chart segment on the visualization.
 
 <table id="table_qnp_d2d_b1c"><thead><tr><th>
 

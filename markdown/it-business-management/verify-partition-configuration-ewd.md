@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/verify-partition-configuration-ewd.html
 release: australia
 topic_type: task
-last_updated: "2026-06-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [partition verification, impersonate user, partition roles, record visibility, enterprise-wide deployment]
 breadcrumb: [Configure, SPM Enterprise-Wide Deployment, Strategic Portfolio Management]

@@ -1,12 +1,12 @@
 ---
 title: Data Catalog release notes
-description: The ServiceNow Data Catalog application is the self-service discovery layer within the Workflow Data Fabric application that enables teams to find, understand, and govern data assets across your organization. Data Catalog is a new application in the Australia release.The September 2026 release adds bulk glossary management, cloud-based metadata collectors, rich text editing for data assets, and SAP HANA and Salesforce collectors.The ServiceNow Data Catalog application is the self-service discovery layer within the Workflow Data Fabric application that enables teams to find, understand, and govern data assets across your organization. Data Catalog is a new application in the Australia release.
+description: The ServiceNow Data Catalog application is the self-service discovery layer within the Workflow Data Fabric application that enables teams to find, understand, and govern data assets across your organization. Data Catalog is a new application in the Australia release.The October 2026 release adds AI-powered catalog enrichment, lineage enhancements, a Microsoft Fabric collector, MID Server routing, collector notifications, and data classification with Vault.The September 2026 release adds bulk glossary management, cloud-based metadata collectors, rich text editing for data assets, and SAP HANA and Salesforce collectors.The ServiceNow Data Catalog application is the self-service discovery layer within the Workflow Data Fabric application that enables teams to find, understand, and govern data assets across your organization. Data Catalog is a new application in the Australia release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/data-catalog-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-04-16"
-reading_time_minutes: 6
+reading_time_minutes: 7
 breadcrumb: [App development and low-code release notes, Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
 
@@ -34,6 +34,57 @@ See [Explore Data Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceN
 
 
 **Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/build-automate-rn-landing.md)
+
+## October 2026
+
+The October 2026 release adds AI-powered catalog enrichment, lineage enhancements, a Microsoft Fabric collector, MID Server routing, collector notifications, and data classification with Vault.
+
+### What's new
+
+-   **Metadata enrichment with ServiceNow Otto**
+
+    Accelerate catalog curation using AI-powered enrichment. Enrich asset names and descriptions across multiple assets in a single request, review AI-generated recommendations, and publish richer metadata to your catalog with less manual effort.
+
+-   **Lineage search facet and CSV export**
+
+    A new "Has lineage" search facet shows how much of your catalog has lineage and which assets have a lineage view in Graph Explorer. Download your current lineage view to CSV to analyze and use the data in other tools.
+
+-   ****
+
+    Automatically collect and synchronize metadata from Microsoft Fabric using metadata collectors.
+
+-   **MID Server routing for metadata collectors**
+
+    Choose whether a connection runs in the ServiceNow hosted cloud infrastructure \(the default\) or through a MID Server to reach your data sources. When a collector is configured to run on a MID Server, three routing models control how the system assigns a MID Server to the collection job.
+
+-   **Email notifications for collector runs**
+
+    When a collector run completes or fails, the platform sends an email notification to the collector owner and any subscribers. Notifications use the ServiceNow Notification framework.
+
+-   **Data classification with Vault**
+
+    Enable a metadata collector to classify harvested columns using ServiceNow Vault. The following metadata collector types support Vault classification:
+
+    -   Snowflake
+    -   Amazon Redshift
+    -   Databricks
+    -   Oracle
+    -   PostgreSQL
+    -   Teradata
+    -   MySQL
+    -   Microsoft SQL Server
+    -   SAP HANA
+
+### What's changed
+
+-   **Graph Explorer performance improvements**
+
+    Lineage views open faster by showing the nearest upstream and downstream connections first instead of waiting for the full diagram to load.
+
+-   **ServiceNow collector lineage from Import Set Transform Map**
+
+    The ServiceNow collector harvests lineage edges based on the platform's native Import Set Transform Map framework.
+
 
 ## September 2026
 

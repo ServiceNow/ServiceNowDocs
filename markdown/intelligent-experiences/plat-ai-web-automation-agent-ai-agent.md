@@ -79,7 +79,7 @@ Data access roles The specific user identity roles that determine which data the
 
 </td><td>
 
-snc\_internal
+sn\_aaa.web\_agent\_runtime
 
 </td></tr><tr><td>
 

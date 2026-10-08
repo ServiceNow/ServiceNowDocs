@@ -7,7 +7,7 @@ release: australia
 product: AI Search
 classification: ai-search
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [AI Search for Next Experience, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -165,7 +165,7 @@ AI Search Global \| Q&amp;A Genius Result
 
 </td><td>
 
-Contains view configuration settings for the Q&amp;A Genius Result configuration in AI Search for Next Experience. To learn more about this Genius Result configuration, see [Knowledge base articles Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/genius-result-q-a-ais.md).-   Application scope: AI Search For Next Experience
+Contains view configuration settings for the Q&amp;A Genius Result configuration in AI Search for Next Experience. To learn more about this Genius Result configuration, see [Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/genius-result-q-a-ais.md).-   Application scope: AI Search For Next Experience
 -   Location: **All** &gt; **Entity View Action Mapper \(EVAM\)** &gt; **View Definitions** &gt; **View Configurations**
 
 </td></tr><tr><td>
@@ -203,7 +203,7 @@ AI Search Global \| Q&amp;A Genius Result Template
 
 </td><td>
 
-Contains component, static value, field mapping, and action mapping settings for the Q&amp;A Genius Result configuration in AI Search for Next Experience. To learn more about this Genius Result configuration, see [Knowledge base articles Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/genius-result-q-a-ais.md).-   Application scope: AI Search For Next Experience
+Contains component, static value, field mapping, and action mapping settings for the Q&amp;A Genius Result configuration in AI Search for Next Experience. To learn more about this Genius Result configuration, see [Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/genius-result-q-a-ais.md).-   Application scope: AI Search For Next Experience
 -   Location: **All** &gt; **Entity View Action Mapper \(EVAM\)** &gt; **View Definitions** &gt; **View Templates**
 
 </td></tr><tr><td>

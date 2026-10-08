@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/rn-summary-plugin-info.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-23"
-reading_time_minutes: 23
+last_updated: "2026-10-08"
+reading_time_minutes: 24
 breadcrumb: [Release notes summaries for Australia features, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
 
@@ -284,6 +284,16 @@ Dev Sandboxes CC \(com.glide.dsb.cc\): A new plugin is available for clone prese
 
 </td></tr><tr><td>
 
+Enterprise Asset Management
+
+</td><td>
+
+-   Enterprise Data Transform \(sn\_ent\_datamap\): Provides access to all enterprise data transform tables.
+-   Enterprise Data Transform Components \(sn\_ent\_datamap\_components\): Provides access to seismic workspace components.
+-   AI Agents for Enterprise \(sn\_ent\_aia\): Provides AI skills related to model categories and classifications.
+
+</td></tr><tr><td>
+
 Enterprise Service Management Foundation
 
 </td><td>
@@ -374,14 +384,6 @@ Live Connect \(com.glide.rest.sqlapiserver\): Unified installer for the ServiceN
 
 </td></tr><tr><td>
 
-MCP Server Console
-
-</td><td>
-
-Model Context Protocol Server \(sn\_mcp\_server\): MCP Server Console enables secure and governed access to functionality on a ServiceNow instance for AI applications with Model Context Protocol \(MCP\) servers.
-
-</td></tr><tr><td>
-
 Now Assist for Employee Center Pro
 
 </td><td>
@@ -451,6 +453,14 @@ Self-service and omnichannel engagement for CSM
 
 </td></tr><tr><td>
 
+ServiceNow Cowork
+
+</td><td>
+
+ServiceNow Cowork \(sn\_app\_cowork\): Provides the Cowork policy, approval, and configuration records that govern the desktop agent.
+
+</td></tr><tr><td>
+
 ServiceNow Otto for Care Team Operations
 
 </td><td>
@@ -504,6 +514,14 @@ ServiceNow Vault
 </td><td>
 
 Vault Suite \(com.snc.vault\_suite\): Automates the deployment of the complete ServiceNow Vault offering, including Vault Console, Field Encryption, Zero Trust Access, Log Export Service, Code Signing Enterprise, and Cloud Encryption, on instances with a ServiceNow Vault subscription.
+
+</td></tr><tr><td>
+
+Software Asset Management
+
+</td><td>
+
+SAM Admin Experience - v1.0 \(sn\_samp\_admin\): Provides access to the Configuration Console for configuring the Software Asset Management application.
 
 </td></tr><tr><td>
 
@@ -883,6 +901,15 @@ Telecommunications Service Operations Management \(TSOM\)
 </td><td>
 
 Service Graph Connector for Meraki \(sn\_tsom\_meraki\_connector\):The application has been renamed to Service Graph Connector for Meraki Telco SD-WAN.
+
+</td></tr><tr><td>
+
+Zero Copy Connectors
+
+</td><td>
+
+-   Workflow Data Fabric Hub \(sn\_data\_fabric\): Renamed to Zero Copy Connector Hub \(sn\_data\_fabric\).
+-   [Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-1.md): Zero Copy Connectors \(sn\_data\_fabric\_zcc\): Now available as two separate installation options — Zero Copy Connectors Primary \(sn\_zcc\_primary\) for primary connectors only, or Zero Copy Connectors \(sn\_data\_fabric\_zcc\) for both primary and community connectors.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Release notes summaries for Australia features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/release-notes-summaries.md)

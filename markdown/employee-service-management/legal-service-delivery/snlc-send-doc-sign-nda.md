@@ -26,15 +26,15 @@ Role required: sn\_cm\_core.contract\_user and sn\_lg\_ops.legal\_user
 
 1.  Open a legal request.
 
-<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d702837e70">
+<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d709668e70">
 
 Method
 
-</th><th align="left" id="d702837e73">
+</th><th align="left" id="d709668e73">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d702837e79">
+</th></tr></thead><tbody><tr><td id="d709668e79">
 
 **__Employee Center__**
 
@@ -45,7 +45,7 @@ Actions
 3.  Open your submitted non-disclosure agreement request.
 
 
-</td></tr><tr><td id="d702837e113">
+</td></tr><tr><td id="d709668e113">
 
 **__Legal Service Portal__**
 
@@ -58,9 +58,7 @@ Actions
 
 
 </td></tr></tbody>
-</table>2.  Select the **Contract documents** tab.
-
-3.  Select **Send for signature**.
+</table>2.  Select **Send for signature**.
 
     **Note:** If a message states that the signatories are not in sync, update and sync them before sending the document for signature.
 
@@ -70,7 +68,7 @@ Actions
 
     A message appears displaying details of the contract document that is sent for signature.
 
-4.  Select **Send for signature** on the confirmation message.
+3.  Select **Send for signature** on the confirmation message.
 
 
 ## Result

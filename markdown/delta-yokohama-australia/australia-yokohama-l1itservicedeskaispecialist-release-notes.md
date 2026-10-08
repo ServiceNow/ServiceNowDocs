@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-yokohama-australia/australia-yokohama-l1itservicedeskaispecialist-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 7
+last_updated: "2026-10-08"
+reading_time_minutes: 9
 breadcrumb: [Products combined by family]
 ---
 
@@ -83,7 +83,24 @@ Zurich
 
 </td><td>
 
--   **[Routing criteria configuration](https://www.servicenow.com/docs/access?context=config-tasks-l1-sd-ai-spec-sow&family=zurich&ft:locale=en-US)**
+-   **[Configure task settings](https://www.servicenow.com/docs/access?context=config-tasks-l1-sd-ai-spec-sow&family=zurich&ft:locale=en-US) Response Templates**
+
+AI Admins can switch response templates between a fixed template and dynamic mode, where the AI Specialist writes activity notes, customer comments, work notes, and close notes from free-form instructions the administrator provides.
+
+-   **[Catalog request submission and tracking](https://www.servicenow.com/docs/access?context=catalog-variable-collection-slot-fill-l1-sd-ai-spec&family=zurich&ft:locale=en-US)**
+
+The L1 IT Service Desk AI Specialist can resolve incidents by submitting service catalog requests on behalf of users. The L1 IT Service Desk AI Specialist collects the required details through guided questions, submits or drafts the request, and resolves the linked incident so users can track fulfillment through the request.
+
+-   **[Catalog performance analytics](https://www.servicenow.com/docs/access?context=catalog-tab-l1-sd-ai-spec&family=zurich&ft:locale=en-US)**
+
+A new Catalog tab on the AI Specialist performance dashboard shows drafted, submitted, abandoned, and canceled request volumes by catalog item. This gives administrators visibility into how well the AI Specialist is handling catalog-based resolutions.
+
+-   **[Quality assessment skill](https://www.servicenow.com/docs/access?context=qa-l1-sd-ai-spec&family=zurich&ft:locale=en-US)**
+
+Evaluate L1 IT Service Desk AI Specialist's work, captured in a coaching assessment against the rubric defined on the coaching opportunity by using the AI Quality Assessment skill to get consistent, objective scoring.
+
+
+ -   **[Routing criteria configuration](https://www.servicenow.com/docs/access?context=config-tasks-l1-sd-ai-spec-sow&family=zurich&ft:locale=en-US)**
 
 Enable hand-offs between the AI specialist and human agents if work is better handled by a different group or requires additional human oversight.
 
@@ -121,7 +138,24 @@ Australia
 
 </td><td>
 
--   **[Routing criteria configuration](https://www.servicenow.com/docs/access?context=config-tasks-l1-sd-ai-spec-sow&family=australia&ft:locale=en-US)**
+-   **[Configure task settings](https://www.servicenow.com/docs/access?context=config-tasks-l1-sd-ai-spec-sow&family=australia&ft:locale=en-US) Response Templates**
+
+AI Admins can switch response templates between a fixed template and dynamic mode, where the AI Specialist writes activity notes, customer comments, work notes, and close notes from free-form instructions the administrator provides.
+
+-   **[Catalog request submission and tracking](https://www.servicenow.com/docs/access?context=catalog-variable-collection-slot-fill-l1-sd-ai-spec&family=australia&ft:locale=en-US)**
+
+The L1 IT Service Desk AI Specialist can resolve incidents by submitting service catalog requests on behalf of users. The L1 IT Service Desk AI Specialist collects the required details through guided questions, submits or drafts the request, and resolves the linked incident so users can track fulfillment through the request.
+
+-   **[Catalog performance analytics](https://www.servicenow.com/docs/access?context=catalog-tab-l1-sd-ai-spec&family=australia&ft:locale=en-US)**
+
+A new Catalog tab on the AI Specialist performance dashboard shows drafted, submitted, abandoned, and canceled request volumes by catalog item. This gives administrators visibility into how well the AI Specialist is handling catalog-based resolutions.
+
+-   **[Quality assessment skill](https://www.servicenow.com/docs/access?context=qa-l1-sd-ai-spec&family=australia&ft:locale=en-US)**
+
+Evaluate L1 IT Service Desk AI Specialist's work, captured in a coaching assessment against the rubric defined on the coaching opportunity by using the AI Quality Assessment skill to get consistent, objective scoring.
+
+
+ -   **[Routing criteria configuration](https://www.servicenow.com/docs/access?context=config-tasks-l1-sd-ai-spec-sow&family=australia&ft:locale=en-US)**
 
 Enable hand-offs between the AI specialist and human agents if work is better handled by a different group or requires additional human oversight.
 

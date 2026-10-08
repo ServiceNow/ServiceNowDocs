@@ -16,7 +16,7 @@ The ServiceNow® Knowledge Center helps you manage knowledge articles from a sin
 
 ## About Knowledge Center
 
-
+[Australia Patch 6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-6.md)
 
 -   Prioritize what matters most by assigning custom weights to individual scans at both the Article and Knowledge Base level in the Health Score configuration page.
 -   Catch outdated content with the new stale and expiring article detection in the Article Optimization scan, available at both the article and knowledge base level.

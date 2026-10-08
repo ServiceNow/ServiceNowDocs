@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-zurich-australia/australia-zurich-zerocopyconnectorforerp-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 13
 breadcrumb: [Products combined by family]
 ---
@@ -160,7 +160,12 @@ Australia
 
 </td><td>
 
--   **[Support for Oracle E-Business Suite](https://www.servicenow.com/docs/access?context=erp-canvas-oracle-rest-support&family=australia&ft:locale=en-US)**
+-   **[Workday RaaS reports in read operations](https://www.servicenow.com/docs/access?context=erp-add-a-raas-report-service&family=australia&ft:locale=en-US)**
+
+Add a Workday Report-as-a-Service \(RaaS\) report to a read operation by providing the report URL and pasting a sample response. The model entity and its fields are created from the sample. The host and tenant come from the model's system connection, so you can paste the report URL exactly as Workday provides it.
+
+
+ -   **[Support for Oracle E-Business Suite](https://www.servicenow.com/docs/access?context=erp-canvas-oracle-rest-support&family=australia&ft:locale=en-US)**
 
 Select Oracle E-Business Suite \(12.2 or later\) as the ERP software when you configure an ERP system record. Oracle E-Business Suite connects through REST.
 
@@ -290,7 +295,12 @@ Australia
 
 </td><td>
 
--   **[Simplified process for adding a REST entity to a model](https://www.servicenow.com/docs/access?context=add-a-rest-entity-to-a-model-operation&family=australia&ft:locale=en-US)**
+-   ****
+
+[Building flows](https://www.servicenow.com/docs/access?context=erp-canvas-build-flow-operation&family=australia&ft:locale=en-US)Required and optional fields now display correctly in the Use ERP Data action when nested structures share a name.
+
+
+ -   **[Simplified process for adding a REST entity to a model](https://www.servicenow.com/docs/access?context=add-a-rest-entity-to-a-model-operation&family=australia&ft:locale=en-US)**
 
 After you specify the REST service to use, the endpoint and return type are added automatically.
 
@@ -578,6 +588,7 @@ Australia
 </td><td>
 
 -   Connect to Oracle E-Business Suite \(12.2 and later\).
+-   Add Workday RaaS reports to read operations by pasting a sample report response.
 -   Use REST APIs to extend beyond SAP systems.
 -   Use the improved AI suggestions and interface to map fields in the Model Manager.
 -   As of version 29.2.11, ServiceNow Otto is the new AI experience brand. This change is reflected in the name of ServiceNow products, including ServiceNow Otto for Zero Copy Connector.

@@ -8,7 +8,7 @@ product: Knowledge Graph
 classification: knowledge-graph
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Using Enterprise graph schema, Knowledge Graph, Enable AI experiences]
 ---
 
@@ -18,7 +18,7 @@ Setup and use Enterprise Graph Schema, a unified Knowledge Graph schema, that ca
 
 ## Before you begin
 
-When you install Enterprise Graph, it automatically begins configuring instance tables. This may take several days and until the setup is complete, the schema won’t respond effectively to queries.
+When you install Enterprise Graph, it automatically begins configuring instance tables. This may take several days and until the setup is complete, the schema won't respond effectively to queries.
 
 If you have already completed the setup in sub-production instance, you can import the generated descriptions to production instance and fasten the process.
 
@@ -85,4 +85,15 @@ Role required: admin
 
 13. Repeat the import set and transformation steps for other three tables.
 
+14. For regulated market instance, complete the following additional steps:
+
+    -   Go to `sn_kg_picker_description_tracker` table and delete all the existing data.
+
+    -   Go to system properties \(sys\_properties\) and update the following fields:
+
+        -   Property name: sn\_kg.knowledge\_graph.description.server\_url\_prefix
+        -   Property value: `https://<CDN-server-url>/glide/distribution/builds/package/app-signed/knowledge-graph-descriptions/`. Replace the `<CDN-server-url>` with your CDN server URL.
+    -   Go to sys\_properties and verify if Knowledge Graph version is 2.1 or later and
+        -   Property name: sn\_kg.knowledge\_graph.description.version
+        -   Property value: 2.1
 

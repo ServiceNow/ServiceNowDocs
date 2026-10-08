@@ -34,15 +34,15 @@ Role required: sn\_acct\_lc.customer\_success\_agent, sn\_ind\_tsm\_sdwan.app\_e
 
 5.  Review the following account details.
 
-<table id="choicetable_byy_nsr_fkc"><thead><tr><th align="left" id="d25148e136">
+<table id="choicetable_byy_nsr_fkc"><thead><tr><th align="left" id="d25152e136">
 
 Option
 
-</th><th align="left" id="d25148e139">
+</th><th align="left" id="d25152e139">
 
 Details
 
-</th></tr></thead><tbody><tr><td id="d25148e145">
+</th></tr></thead><tbody><tr><td id="d25152e145">
 
 **Overview tab**
 
@@ -50,7 +50,7 @@ Details
 
 Select the **Overview** tab to view the touchpoints, escalations, and milestones. For more information, see [Technology Account 360 Overview tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/technology-account-360-overview-tab.md).
 
-</td></tr><tr><td id="d25148e164">
+</td></tr><tr><td id="d25152e164">
 
 **Account health tab**
 
@@ -58,7 +58,7 @@ Select the **Overview** tab to view the touchpoints, escalations, and milestones
 
 Select the **Account health** tab to view the health insights. For more information, see [Technology Account 360 Account health tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/technology-account-360-account-health-tab.md).
 
-</td></tr><tr><td id="d25148e183">
+</td></tr><tr><td id="d25152e183">
 
 **Financials tab**
 
@@ -66,7 +66,7 @@ Select the **Account health** tab to view the health insights. For more informat
 
 Select the **Financials** tab to view the financial insights. For more information, see [Technology Account 360 Financials tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/technology-account-360-financials-tab.md).
 
-</td></tr><tr><td id="d25148e202">
+</td></tr><tr><td id="d25152e202">
 
 **Product adoption tab**
 
@@ -74,7 +74,7 @@ Select the **Financials** tab to view the financial insights. For more informati
 
 Select the **Product adoption** tab to view the product adoption insights. For more information, see [Technology Account 360 Product adoption tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/technology-account-360-product-adoption-tab.md).
 
-</td></tr><tr><td id="d25148e222">
+</td></tr><tr><td id="d25152e222">
 
 **Open work tab**
 
@@ -82,7 +82,7 @@ Select the **Product adoption** tab to view the product adoption insights. For m
 
 Select the **Open work** tab to view the work insights. For more information, see [Technology Account 360 Open work tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/proactive-service-exp-workflows/product-support-for-technology/technology-account-360-open-work-tab.md).
 
-</td></tr><tr><td id="d25148e241">
+</td></tr><tr><td id="d25152e241">
 
 **Contextual Side-panel**
 

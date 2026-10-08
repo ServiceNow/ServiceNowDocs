@@ -24,7 +24,7 @@ OAuth is the standard method to authenticate MCP servers. If your MCP server sup
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Settings** &gt; **Manage Model Contextual Protocol \(MSCP\) Servers**.
+1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Settings** &gt; **Manage Model Contextual Protocol \(MCP\) Servers**.
 
 2.  Select **View** against **MCP Servers**.
 
@@ -147,7 +147,7 @@ Web address to revoke the previously provided token.
 
 12. Define the Tools for the Model Context Protocol Sever.
 
-    You can configure the MCP tools in the Assistant Designer. For more information see [Assign Model Context Protocol \(MCP\) servers to an assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/assign-mcp-servers.md).
+    You can configure the MCP tools in the Assistant Designer. For more information see .
 
 13. Select **Authenticate** to request a new token.
 

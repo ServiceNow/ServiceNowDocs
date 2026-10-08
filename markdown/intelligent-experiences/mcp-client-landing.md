@@ -16,15 +16,15 @@ The ServiceNow Model Context Protocol Client \(MCP Client\) allows you to access
 
 ## Get started
 
-<table id="table_gkl_gwc_lkc" class="nav-card presentation"><tbody><tr><td>
+<table id="table_jhv_g2w_4kc" class="nav-card presentation"><tbody><tr><td>
 
 [Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn how MCP Client allows you to access the MCP tools in AI Agent Studio.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/explore-mcp-client.md)
 
-</td><td colspan="2">
+</td><td>
 
 [Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the MCP Client in AI Agent Studio.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configure-mcp-client.md)
 
-</td></tr><tr><td colspan="2" align="left">
+</td></tr><tr><td>
 
 [Add MCP Servers\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Add MCP Servers in AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/add-mcp-client-aias-new.md)
 

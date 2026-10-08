@@ -136,7 +136,7 @@ ServiceNow® Legal Service Delivery provides a unified experience between the em
 
 </td><td>
 
-The ServiceNow® Contract Management Pro solution enables you to set up contract document templates, clauses, and clause variations, and to initiate contract and amendmentrequests. The solution uses AI to analyze contracts and extract metadata. It also supports e-signatures, wet signatures, and external storage systems.
+The ServiceNow® Contract Management Pro solution enables you to set up contract document templates, clauses, and clause variations, and to initiate contract, amendment and renewal requests. The solution uses AI to analyze contracts and extract metadata. It also supports e-signatures, wet signatures, and external storage systems.
 
 </td></tr><tr><td>
 

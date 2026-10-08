@@ -1,5 +1,5 @@
 ---
-title: Configure the contract request form header for your workspace
+title: Configure the contract request form header
 description: As an administrator, configure the header of the contract request form for your workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-configure-header.html
@@ -13,7 +13,7 @@ keywords: [Contract request header, BU configuration]
 breadcrumb: [Configure CM Pro for your workspace, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
-# Configure the contract request form header for your workspace
+# Configure the contract request form header
 
 As an administrator, configure the header of the contract request form for your workspace.
 
@@ -61,9 +61,9 @@ The form header contains a primary field and secondary fields. You can add your 
 
 [Add Contract requests tab to the contract request record]()
 
-[Add amendment tabs to contract repository record]()
-
 [Add Contract documents tab to the contract repository record]()
+
+[Add amendment tabs to contract repository record]()
 
 [Copy fields from parent request to contract request]()
 

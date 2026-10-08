@@ -79,7 +79,7 @@ ServiceNow SDK
 
 </td><td>
 
-4.10 or later
+4.12.1 or later
 
 </td><td>
 
@@ -107,9 +107,9 @@ ServiceNow instance
 
 2.  Access the command palette by pressing Ctrl+Shift+P on Windows or Command+Shift+P on macOS, or by navigating to **View** &gt; **Command Palette**.
 
-3.  Select **AIUX: Create Page**.
+3.  Select **Lux: Create Page**.
 
-4.  From the list, select **AIUX: New Page**.
+4.  From the list, select **Lux: New Page**.
 
     You can also create pages that extend existing pages. For more information, see [Extend an existing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/extend-existing-page-servicenow-ai-experience-lab-for-vs-code.md).
 

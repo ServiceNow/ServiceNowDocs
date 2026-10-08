@@ -28,7 +28,7 @@ Analyze flow execution details to identify errors and suggest potential fixes.
 
 </td></tr><tr><td>
 
-Analyze\[Omitted image "bus-start-developing.svg"\] Alt text:Analyze flow execution details
+[Analyze\[Omitted image "bus-start-developing.svg"\] Alt text:Analyze flow execution details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/analyze-a-flow.md)
 
 </td><td>
 

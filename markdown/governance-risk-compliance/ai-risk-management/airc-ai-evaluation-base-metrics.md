@@ -7,7 +7,7 @@ release: australia
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: reference
-last_updated: "2026-08-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [AI evaluation, metrics, agentic AI, compliance]
 breadcrumb: [Reference, AI Risk and Compliance, Governance, Risk, and Compliance]

@@ -20,6 +20,8 @@ Customize the demand form in Next Experience for Demand Management to configure 
 
 Role required: admin
 
+**Note:** If the demand also has a demand experience selected, the experience's own view rule may take precedence over this customization, depending on execution order. See [Demand experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/demand-experiences-dw.md).
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **Demand** &gt; **Demands** &gt; **All**.
@@ -43,5 +45,5 @@ Role required: admin
 
 ## Result
 
-The customized form layout is applied to the demand record form.
+The customized form layout is applied to the demand record form, unless a demand experience with a lower-execution-order view rule takes precedence for a given demand. See [Demand experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/demand-experiences-dw.md).
 

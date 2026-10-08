@@ -59,15 +59,15 @@ By leveraging the Redaction Library feature, TISC administrators and analysts ca
 
 9.  Select **New** to create Redaction Category Value record.
 
-<table id="choicetable_qsf_s3c_qfc"><thead><tr><th align="left" id="d403037e200">
+<table id="choicetable_qsf_s3c_qfc"><thead><tr><th align="left" id="d405063e200">
 
 Field
 
-</th><th align="left" id="d403037e203">
+</th><th align="left" id="d405063e203">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d403037e209">
+</th></tr></thead><tbody><tr><td id="d405063e209">
 
 **Redaction Category**
 
@@ -82,7 +82,7 @@ Indicates the redaction category. Few examples of Redaction Category are as foll
 -   Identification\_Number
 
 
-</td></tr><tr><td id="d403037e237">
+</td></tr><tr><td id="d405063e237">
 
 **Value**
 

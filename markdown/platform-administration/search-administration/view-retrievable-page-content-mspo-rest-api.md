@@ -1,6 +1,6 @@
 ---
 title: View retrievable page content using the Microsoft SharePoint Online REST API
-description: Review the elements of of a Microsoft SharePoint Online page's content that can be retrieved by the Microsoft SharePoint Online external content connector.
+description: Review the elements of a Microsoft SharePoint Online page's content that can be retrieved by the Microsoft SharePoint Online external content connector.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/search-administration/view-retrievable-page-content-mspo-rest-api.html
 release: australia
@@ -15,14 +15,14 @@ breadcrumb: [Microsoft SharePoint Online external content connector, Configure, 
 
 # View retrievable page content using the Microsoft SharePoint Online REST API
 
-Review the elements of of a Microsoft SharePoint Online page's content that can be retrieved by the Microsoft SharePoint Online external content connector.
+Review the elements of a Microsoft SharePoint Online page's content that can be retrieved by the Microsoft SharePoint Online external content connector.
 
 ## Before you begin
 
 You need the following details about each Microsoft SharePoint Online page that you want to view retrievable content for:
 
 -   Your site URL. This is typically in the format `https://<tenant-name>.sharepoint.com/sites/<site-name>`, where `<tenant-name>` is the hostname for your tenant and `<site-name>` is the name of the site in which the page resides. As an example, your site URL might be `https://example.sharepoint.com/sites/my-site`.
--   The `.aspx` page's filename, without the extension. As an example, if the URL for your page is `https://example.sharepoint.com/sites/my-site/SitePages/sample-page.aspx`, the page's filename is `sample-age`.
+-   The `.aspx` page's filename, without the extension. As an example, if the URL for your page is `https://example.sharepoint.com/sites/my-site/SitePages/sample-page.aspx`, the page's filename is `sample-page`.
 
     **Note:** Microsoft SharePoint Online page filenames are case-sensitive, so copy the filename exactly as it appears in the URL field of your web browser.
 

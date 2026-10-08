@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/mon-ai-review-ai-system-scores.html
 release: australia
 topic_type: task
-last_updated: "2026-06-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Monitoring an AI system, Working with AI asset records, Discover and manage AI assets, AI Control Tower, Enable AI experiences]
@@ -36,11 +36,11 @@ When a specific AI system needs attention, determine which metrics are affecting
 
     All score cards, trends, and session data on the page update to reflect the selected range.
 
-3.  Assess overall quality performance by reviewing the **Average overall quality score** card.
+3.  Assess overall quality performance by reviewing the **Average overall Quality score** card.
 
     For example, if the quality score is 88%, the data sources table might show that Task completion \(weight 40%\) scored 88% while Answer completeness \(weight 35%\) scored 86%. A low score on a heavily weighted metric has a larger impact on the composite.
 
-4.  Assess overall safety performance by reviewing the **Average overall safety score** card.
+4.  Assess overall safety performance by reviewing the **Average overall Safety score** card.
 
     For example, if the Instruction adherence score is lower than Secrets detection or Sexism detection, the agent may be handling sensitive data and language correctly but still straying from its approved response guidance. Reviewing the traces where Instruction adherence dipped lowest will show which specific exchanges the judge flagged and why.
 
@@ -64,13 +64,18 @@ When a specific AI system needs attention, determine which metrics are affecting
 
     Each card shows its change from the prior period. For the **Avg latency per session** card, select the expand icon to open a chart of total latency by day, summed across all sessions evaluated that day.
 
-8.  Check for regressions over time by reviewing the **Monitor agent activity** trend chart.
+8.  Check performance over time by reviewing the **Monitor agent activity** trend chart.
 
-    1.  Choose which metrics to display by selecting **All metric categories**, **Quality metrics**, or **Safety metrics** from the list.
+    |Option|Description|
+    |------|-----------|
+    |**__Lowest performing metrics__**|View the top five metrics with the largest decline in quality and safety over time.|
+    |**Highest performing metrics**|View the top five metrics with the largest increase in quality and safety over time.|
+    |**Quality metrics**|View the performance of quality metrics over time.|
+    |**Safety metrics**|View the performance of safety metrics over time.|
+    |**All metrics**|View the performance of all metrics over time.|
+    |**Select a specific metric**|View the performance for a specific metric by selecting it from the list.|
 
-    2.  Point to a data point on the chart to see the exact score for that date.
-
-    Solid lines represent metrics that contribute to this AI system's overall quality or safety score. Dotted lines represent metrics that are collected but don't contribute to those scores.
+    Solid lines represent metrics that contribute to this AI system's overall quality or safety score. Dotted lines represent metrics that are collected but don't contribute to those scores. You can point to a data point on the chart to see the exact score for that date.
 
     For example, a gradual decline in Task completion from 90% to 72% over three weeks indicates a quality regression for this AI system that warrants session-level investigation.
 

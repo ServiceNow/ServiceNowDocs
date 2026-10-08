@@ -1,19 +1,19 @@
 ---
-title: Make a copy of AI skill
-description: The 'Make a copy' feature enables you to create a copy of a Now Assist skill so that you can experiment with skill settings. Configure the skill to fit your business needs.
+title: Make a copy of an AI skill
+description: Create a copy of an AI skill using the Make a copy function in AI Admin Hub. With a copy of the skill, you can experiment with skill settings and tailor the skill to fit your business needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/make-a-copy-of-a-now-assist-skill.html
 release: australia
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-23"
 reading_time_minutes: 2
 keywords: [Copy, Now Assist, skill, admin, features]
 breadcrumb: [Using AI Admin Hub, AI Admin Hub, Enable AI experiences]
 ---
 
-# Make a copy of AI skill
+# Make a copy of an AI skill
 
-The 'Make a copy' feature enables you to create a copy of a Now Assist skill so that you can experiment with skill settings. Configure the skill to fit your business needs.
+Create a copy of an AI skill using the **Make a copy** function in AI Admin Hub. With a copy of the skill, you can experiment with skill settings and tailor the skill to fit your business needs.
 
 ## Before you begin
 
@@ -21,27 +21,26 @@ Role required: sn\_generative\_ai.nsa\_admin
 
 ## About this task
 
-The skills that come with the generative AI applications have default configurations that are optimized to serve the most common use cases. If you want to change the skill settings, you can edit a skill with the AI Admin Hub console or you can create a copy of the skill. Creating a copy leaves the original skill configuration intact in case you want to use it later or want to create another copy from the original. You can activate and configure the copies of the skills by using the same guided setup as the default skills.
+The skills that come with the generative AI applications have default configurations that are optimized to serve the most common use cases. To change the skill settings you can edit a skill in AI Admin Hub, or you can create a copy of the skill. Creating a copy leaves the original skill configuration intact in case you want to use it later or want to create another copy from the original. You can activate and configure copies of skills using the same guided setup as the default skills.
 
-**Note:** The 'Make a copy' feature is not available for all AI skills.
+**Note:**
 
-**Note:** In a default scenario, only one version of a skill can be active at a time. If you create and activate a copy of the skill, any previously activated version of the skill is deactivated.
+-   The **Make a copy** function is not available for all AI skills.
+-   In a default scenario, only one version of a skill can be active at a time. When you create and activate a copy of a skill, any previously activated version of the skill is deactivated.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **AI Skills**.
+1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Skills**.
 
-    If you’re already in the AI Admin Hub console, select the **AI Skills** tab.
+    If you’re already in AI Admin Hub, select the **AI Skills** tab.
 
 2.  In the navigation pane, select the workflow of the skill that you want to copy, such as Technology or Customer.
 
-3.  On the feature card that contains the default skill, select **View details**.
+3.  On the card that contains the default skill you want to copy, select the more options icon \[Omitted image "naa-more-options-icon.png"\] Alt text: More options icon. then select **Make a copy**.
 
-4.  In the All available skills or Active skills section, select the more options icon \[Omitted image "naa-more-options-icon.png"\] Alt text: More options icon. next to the skill that you want to make a copy of and select **Make a copy**.
+4.  As an alternative to the previous step, select **View details**, then on the details tab select **Make a copy** from the More actions drop-down list at **Edit configuration**.
 
-    **Note:** Only one version of a skill can be active at a time. If you create and activate a copy of the skill, any previously activated version of the skill is deactivated.
-
-5.  In the modal, select **Make a copy**.
+5.  In the modal window, select **Make a copy** to confirm.
 
 
 ## Result

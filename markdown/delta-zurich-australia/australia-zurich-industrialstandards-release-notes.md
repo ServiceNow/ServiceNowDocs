@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-zurich-australia/australia-zurich-industrialstandards-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -75,7 +75,16 @@ Australia
 
 </td><td>
 
--   **[Work set standards](https://www.servicenow.com/docs/access?context=work-set-standards&family=australia&ft:locale=en-US)Work Set standards**
+-   **[Safety and knowledge fields for Action sub-activities](https://www.servicenow.com/docs/access?context=work-set-sub-activity-form&family=australia&ft:locale=en-US)**
+
+Capture execution-critical context when authoring an Action sub-activity in a work set standard. Define the LOTO\(TO\) level, line status, and a knowledge article on the sub-activity, and these values carry over to the generated action when the work set runs.
+
+-   **[Schedule-based exceptions for sub-activities](https://www.servicenow.com/docs/access?context=work-set-standards&family=australia&ft:locale=en-US)**
+
+Run a sub-activity on its own schedule instead of the work set's schedule. Select Schedule-based exception on a sub-activity and configure a custom or shift-based recurrence, so a child task is generated for the sub-activity only when it's due within the work set task's timeframe.
+
+
+ -   **[Work set standards](https://www.servicenow.com/docs/access?context=work-set-standards&family=australia&ft:locale=en-US)Work Set standards**
 
 Author a work set standard that groups Standard and Action sub-activities, then publish it through the standard approval and versioning flow.Run a work set standard as a Work set task that automatically creates child industrial guided tasks and industrial actions for execution on the shop floor.
 
@@ -178,7 +187,10 @@ Australia
 
 </td><td>
 
-No updates for this release.
+-   **[Template schedule type for schedule plans](https://www.servicenow.com/docs/access?context=create-events-based-on-schedules&family=australia&ft:locale=en-US)**
+
+Removed. You can no longer create a schedule plan from a schedule template, and the Schedule type and Schedule fields are removed from the [Schedule plan form](https://www.servicenow.com/docs/access?context=scheduled-plan-form&family=australia&ft:locale=en-US). Use a custom schedule instead, which can also be shift-based.
+
 
 </td></tr></tbody>
 </table>## Activation information

@@ -1,6 +1,6 @@
 ---
 title: Security metrics analysis AI agent
-description: This Operational Technology Security Incident Response agent calculates and analyzes security incident response metrics for an individual analyst or a team over a specified time range.
+description: This Security Incident Response agent calculates and analyzes security incident response metrics for an individual analyst or a team over a specified time range.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/sir-security-metrics-analysis-ai-agent.html
 release: australia
@@ -12,7 +12,7 @@ breadcrumb: [Security Incident Response AI agents, Security Incident Response, A
 
 # Security metrics analysis AI agent
 
-This Operational Technology Security Incident Response agent calculates and analyzes security incident response metrics for an individual analyst or a team over a specified time range.
+This Security Incident Response agent calculates and analyzes security incident response metrics for an individual analyst or a team over a specified time range.
 
 ## Workflow
 
@@ -110,7 +110,7 @@ Used in agentic workflows
 Analyze security operations metrics
 
 </td></tr></tbody>
-</table>Learn more about Operational Technology Security Incident Response at .
+</table>Learn more about Security Incident Response at .
 
 **Parent Topic:**[Security Incident Response AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/sir-ai-agents-overview.md)
 

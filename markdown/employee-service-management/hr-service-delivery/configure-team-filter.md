@@ -146,6 +146,8 @@ Option to display **No data** as a filter value so that managers can filter thei
 
 [Configure important dates]()
 
+[Configure manager insights for ServiceNow Otto for HRSD]()
+
 [Configure team requests]()
 
 [Configure team data]()

@@ -1,24 +1,24 @@
 ---
-title: Platform Task closure agentic workflow
-description: The Task closure agentic workflow reviews open tickets against priority, sentiment, age, and status to identify which are ready to close, then guides a human agent through reviewing and closing each eligible ticket with resolution-note support.
+title: Platform Process task closure agentic workflow
+description: The Process task closure agentic workflow reviews open tickets against priority, sentiment, age, and status to identify which are ready to close, then guides a human agent through reviewing and closing each eligible ticket with resolution-note support.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/task-closure.html
 release: australia
 topic_type: concept
-last_updated: "2026-08-17"
+last_updated: "2026-09-28"
 reading_time_minutes: 5
 breadcrumb: [Platform agentic workflows, Agentic workflows, AI assets, Enable AI experiences]
 ---
 
-# Platform Task closure agentic workflow
+# Platform Process task closure agentic workflow
 
-The Task closure agentic workflow reviews open tickets against priority, sentiment, age, and status to identify which are ready to close, then guides a human agent through reviewing and closing each eligible ticket with resolution-note support.
+The Process task closure agentic workflow reviews open tickets against priority, sentiment, age, and status to identify which are ready to close, then guides a human agent through reviewing and closing each eligible ticket with resolution-note support.
 
-## Task closure overview
+## Process task closure overview
 
-The Task closure agentic workflow screens open tickets by priority, sentiment, age, and status to flag which are eligible for closure, then walks a human agent through each eligible ticket while showing its key details and offering to close or skip. If a ticket lacks resolution notes, the workflow can draft them automatically before a final closure confirmation, and it wraps up with a summary of every ticket's outcome. This keeps agents in control while cutting the manual work of reviewing and documenting ticket closures.
+The Process task closure agentic workflow screens open tickets by priority, sentiment, age, and status to flag which are eligible for closure, then walks a human agent through each eligible ticket while showing its key details and offering to close or skip. If a ticket lacks resolution notes, the workflow can draft them automatically before a final closure confirmation, and it wraps up with a summary of every ticket's outcome. This keeps agents in control while cutting the manual work of reviewing and documenting ticket closures.
 
-The agents, tools, and triggers that are associated with the Task closure agentic workflow are provided by AI applications. You can [activate the agentic workflow template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/activate-aia-use-case.md) by making triggers active and setting the display settings to include the ServiceNow Otto panel.
+The agents, tools, and triggers that are associated with the Process task closure agentic workflow are provided by AI applications. You can [activate the agentic workflow template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/activate-aia-use-case.md) by making triggers active and setting the display settings to include the ServiceNow Otto panel.
 
 **Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-native-sku-overview.md).
 
@@ -26,11 +26,11 @@ The agents, tools, and triggers that are associated with the Task closure agenti
 
 To access this workflow, you must have ServiceNow Otto for Platform installed on your instance, which you can get if you install any other AI application.
 
-## Role masking
+## Role filtering
 
-Required role: sn\_uxc\_gen\_ai.platform\_ai\_classify\_tasks
+Required role: sn\_uxc\_gen\_ai.task\_closure\_workflow
 
-Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/define-sec-controls-aw.md).
+Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/implement-aias-security-new.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/define-sec-controls-aw.md).
 
 In the data access settings, you must also add the necessary roles to enable reading of the tables for the records you want to close. For example, you can add the itil role to the agentic workflow's list of approved roles so that it can access incident records.
 
@@ -121,16 +121,16 @@ Number of tickets to consider for closure.
  Default: 10
 
 </td></tr></tbody>
-</table>## Accessing the Task closure agentic workflow
+</table>## Accessing the Process task closure agentic workflow
 
 To access the agentic workflow:
 
 1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Home** and then the **Agentic solutions** tab.
-2.  Select **Task closure**.
+2.  Select **Process task closure**.
 
 The first step of the guided setup includes a complete list of included AI agents. Selecting the name of an AI agent opens it in a new browser tab, where you can see the full description, role, list of steps, and tools. Tools are displayed in the second step of the AI agent guided setup, Add tools and information.
 
-## Testing the Task closure agentic workflow
+## Testing the Process task closure agentic workflow
 
 You can manually test an agentic workflow execution or access on the Testing page of AI Agent Studio if you have the sn.aia\_admin role and all other roles configured [in the security controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/define-sec-controls-aw.md). Start a manual test, select a test type and the name of the workflow, and use utterances in the Task field like the following samples. See [Test an agentic workflow execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/test-aia-use-case.md).
 
@@ -142,17 +142,17 @@ After the workflow has been activated in AI Agent Studio, enter these or similar
 
 -   Close my tasks
 -   Close all tickets
--   Set my tickeets to close
+-   Set my tickets to close
 
-## AI agents used in the Task closure agentic workflow
+## AI agents used in the Process task closure agentic workflow
 
-The following table lists the agents that are used in the Task closure agentic workflow.
+The following table lists the agents that are used in the Process task closure agentic workflow.
 
 **Important:** In the Define availability step of each AI agent's guided setup, make sure that the Status toggle is enabled to activate the AI agent.
 
 |AI agent name|AI agent description|Role required|
 |-------------|--------------------|-------------|
-|AI agent| | |
+|Task Closure Eligibility AI Agent|Evaluates task to possible closure based on the same criteria as the workflow overall.|sn\_uxc\_gen\_ai.task\_closure\_workflow|
 
 ## Other Platform agentic workflows
 

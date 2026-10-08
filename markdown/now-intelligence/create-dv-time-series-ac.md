@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/create-dv-time-series-ac.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 12
 breadcrumb: [Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
@@ -26,11 +26,15 @@ A time series is an ordered sequence of metrics taken continuously over time. Th
 -   Identifying turning points, such as whether a change in policy led to a change in indicator scores.
 -   Evaluating the relationships between data sources.
 
-When you are selecting a visualization for a time series, consider whether you want to emphasize the trend in the data or specific changes in the data. Also consider whether you want to show one data source or compare several related data sources.
+When you select a visualization for a time series, consider whether you want to emphasize the trend in the data or specific changes in the data. Also consider whether you want to show one data source or compare several related data sources.
 
 For information about the use of a Time series visualization in a dashboard, see [the Developer Site](https://developer.servicenow.com/dev.do#!/reference/now-experience/xanadu/shared-components/now-vis-timeseries-wrapper/usage). This site gives information about Time series data visualization components in the UI Builder, and some configuration options may differ from the Visualization Designer.
 
 For an example of creating a time series visualization, see [Time series data visualization example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/dv-example-line.md).
+
+**Note:**
+
+In Platform Analytics experience, time series visualizations do not display records when the configured Trend by field has no value. If the Trend by field is empty for all records, no records will show in the visualization. If the field is populated for only a subset of the records, only that subset will appear in the visualization.
 
 ## Procedure
 
@@ -39,6 +43,8 @@ For an example of creating a time series visualization, see [Time series data vi
 2.  Select **Create data visualization**.
 
 3.  Configure the **Header and border**. Header and border options are the same for all data sources.
+
+    None of the **Header and border** fields is required.
 
 <table id="table_ly5_djk_c5b"><thead><tr><th>
 
@@ -379,7 +385,7 @@ This option is available only for Table data sources and only if no more than on
  **Note:** Single color is only available when no **Group by** is selected.
 
 </td></tr></tbody>
-</table>7.  Under **Chart interaction**, set what if anything happens when a viewer clicks a chart or a chart segment on the visualization.
+</table>7.  Under **Chart interaction**, set what if anything happens when a viewer selects a chart or a chart segment on the visualization.
 
 <table id="table_qnp_d2d_b1c"><thead><tr><th>
 
@@ -403,13 +409,13 @@ Action
 
 </td><td>
 
-Choose the event that occurs when a user clicks in a visualization or one of its segments. Choices depend on the visualization type and data source. Applies only when **Allow chart interaction** is on. For more information, see [Chart interactions in a data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/dv-chart-interactions.md).
+Choose the event that occurs when a user selects in a visualization or one of its segments. Choices depend on the visualization type and data source. Applies only when **Allow chart interaction** is on. For more information, see [Chart interactions in a data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/dv-chart-interactions.md).
 
 -   **Go to data view** opens a list view, KPI Details page, or Usage Insights overview page relevant to the associated segment or visualization. For table data, a system property determines whether a Core UI list or a Platform Analytics list opens. For more information, see [Data views for different data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/visualization-drilldown-in-config-ws.md).
 -   **Go to URL** opens the specified URL, which can be on the instance or external. You have the option of specifying a page name to appear in the tooltip, for those visualizations with tooltips.
 -   **Drill down to chart** \(Visualization Designer only\) Opens a different data visualization that is filtered by the selected data. You can add a drill-down visualization for each metric on the parent visualization.
 
-**Note:** The last level of drill down in the Platform Analytics experience is always a Core UI list. Records do not open in Workspace embedded lists.
+**Note:** The last level of drill down in the Platform Analytics experience is always a Core UI list. Records don't open in Workspace embedded lists.
 
 **Drill down to chart** supports only table data sources.
 

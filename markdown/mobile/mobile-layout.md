@@ -54,7 +54,7 @@ Launcher screens serve as a landing page or a home page. Using a launcher screen
 
  -   **Header**
 
-The header of the launcher screen defines how the title of the screen appears and what information is shown in the header. For more details on configuring headers, see [Configure a launcher screen header](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/create-alp-header.md).
+The header of the launcher screen defines how the title of the screen appears and what information is shown in the header. For more details on configuring headers, see [Configure a launcher screen text header](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/create-alp-header.md).
 
 -   **Search**
 
@@ -113,7 +113,7 @@ Tap to list additional settings. For example, languages, enable push notificatio
     -   Language: Tap to display the Language page, where you can select a language for your ServiceNow mobile app. For more information, see [Languages on your mobile device](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/display-language.md).
     -   Notification: Option to enable push notifications on your mobile device. For more information, see [Enable notification settings for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/notification-preference-settings.md).
     -   Security: Tap to display the option to set up an app PIN. For more information, see [App PIN settings for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-app-pin-settings.md).
-    -   Theme: Option to enable the dark theme or the default theme on your mobile app. For more information. see [Enable dark theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/enable-dark-theme.md).
+    -   Theme: Option to enable the dark theme or the default theme on your mobile app. For more information. see [Theme settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/enable-dark-theme.md).
     -   Start my week: Option to select which day to allocate as the start of your week.
     -   Analytics: Enable analytics tracking for your mobile app journey. For more information about analytics settings, see [Analytics settings for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/mobile-analytics-settings.md).
     -   Banners: Tap to open the Banners page. Within the page, select the number of seconds a banner displays. You can also select whether to group multiple messages. For more information, see [Define notification banner display time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/mobile/banner-display.md).

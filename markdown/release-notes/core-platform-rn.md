@@ -97,7 +97,7 @@ The ServiceNow AI Platform® core features provide configurations for applicatio
     Use sample requests made to an API resource to generate request header associations, query parameter associations, and a request schema for that resource and the related scripted REST API service.
 
 
-## Australia
+## Australia Early Availability
 
 The ServiceNow AI Platform® core features provide configurations for applications and other parts of the ServiceNow AI Platform. The ServiceNow AI Platform core features were enhanced and updated in the Australia release.
 

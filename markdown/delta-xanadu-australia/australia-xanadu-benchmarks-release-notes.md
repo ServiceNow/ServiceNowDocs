@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-xanadu-australia/australia-xanadu-benchmarks-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -96,6 +96,9 @@ Yokohama
 
 -   New KPIs are added to the Call deflection - percentage. These new KPIs help you understand the number of Incidents that are created using Proactive Engagement and Digital End-User Experience self service.
 -   New KPI is added to the self-solved percentage. This new KPI shares the number of times the issue is resolved using the Digital End-User Experience self service channels like Desktop Assistant, Now Assist panel, and Employee portal.
+
+ -   The new KPI **Knowledge Articles created using Now Assist** is added to Productivity moments. This primary indicator shows how many knowledge base articles are created using Now Assist in a given period of time.
+-   Leverage benchmarking for HRSM indicators to evaluate your performance in comparison to your peers.
 
 </td></tr><tr><td>
 
@@ -279,6 +282,8 @@ Yokohama
 
 Benchmarks is a ServiceNow AI Platform feature that is active by default. The new Benchmarks dashboard is automatically installed with Yokohama and is available from the ServiceNow Store.
 
+
+**Important:** Benchmarks is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 

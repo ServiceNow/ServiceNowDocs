@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-xanadu-australia/australia-xanadu-nowassistaiagents-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 10
 breadcrumb: [Products combined by family]
 ---
@@ -111,9 +111,9 @@ Create a use case with an execution plan to solve complex tasks with Now Assist.
     -   Create triggers when creating a use case that calls the AI agent when a condition or objective is observed.
     -   Test a use case before execution.
     -   Resolve record-based cases with AI agents.
--   **[Enable Now Assist Guardian in AI agents](https://www.servicenow.com/docs/access?context=enable-aia-na-guardian&family=xanadu&ft:locale=en-US)**
+-   **[Enable AI Guardian in AI agents](https://www.servicenow.com/docs/access?context=enable-aia-na-guardian&family=xanadu&ft:locale=en-US)**
 
-Enable Now Assist Guardian in AI agents to automatically identify and block offensive messages that are sent by human agents.
+Enable AI Guardian in AI agents to automatically identify and block offensive messages that are sent by human agents.
 
 -   **[Multiple conversations in Now Assist AI agents](https://www.servicenow.com/docs/access?context=multiple-conversations-aia&family=xanadu&ft:locale=en-US)**
 
@@ -315,6 +315,8 @@ Yokohama
 Now Assist in AI agents is available with activation of any Now Assist plugin from the ServiceNow Store. For more information about the prerequisites for using Now Assist, see [Install Now Assist AI agents](https://www.servicenow.com/docs/access?context=install-ai-agents-plugins&family=yokohama&ft:locale=en-US).
 
 
+**Important:** Now Assist AI agents are available in ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Zurich
@@ -452,7 +454,7 @@ Xanadu
 
 -   **[Voice Input for Now Assist AI agents](https://www.servicenow.com/docs/access?context=now-assist-panel-overview&family=xanadu&ft:locale=en-US)**
 
-Administrators can enable an optional voice input setting for the Now Assist panel in the Now Assist Admin console. This feature gives users a voice-to-text input option to access the Now Assist skills in the panel in any supported language. For more information, see [Enable voice input for Now Assist panel](https://www.servicenow.com/docs/access?context=enable-voice-input-for-now-assist-panel&family=xanadu&ft:locale=en-US).
+Administrators can enable an optional voice input setting for the Now Assist panel in the AI Admin Hub console. This feature gives users a voice-to-text input option to access the Now Assist skills in the panel in any supported language. For more information, see [Enable voice input for Now Assist panel](https://www.servicenow.com/docs/access?context=enable-voice-input-for-now-assist-panel&family=xanadu&ft:locale=en-US).
 
 Once enabled, the Enable voice input for the Now Assist panel option will be available in individual user accessibility preferences. See [Configure Next Experience accessibility preferences](https://www.servicenow.com/docs/access?context=next-experience-accessibility-preferences&family=xanadu&ft:locale=en-US) for more information.
 
@@ -569,7 +571,7 @@ Xanadu
 -   Define agentic workflows with an execution plan to achieve various tasks.
 -   Use the Now Assist panel to communicate with the agent during an issue resolution.
 -   Clone existing AI agents and use cases to save time and avoid manual configuration.
--   Enable Now Assist Guardian to automatically identify and block offensive messages.
+-   Enable AI Guardian to automatically identify and block offensive messages.
 -   View the usage and performance of your AI agents with the AI agent analytics dashboard.
 -   Enable multiple conversations for AI agents on the Now Assist panel.
 

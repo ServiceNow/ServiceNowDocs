@@ -1,38 +1,44 @@
 ---
 title: Create a report
-description: On instance upgraded to Australia, you can create Core UI reports in the legacy Report Designer tool to visualize and analyze current instance data or temporary data that you have imported.Enter a question on the Report Designer form, and Analytics Q&amp;A generates a report. Analytics Q&amp;A gives you a choice of data sources and picks an appropriate visualization.When you edit a form, you can also choose to save, share, run, delete, or view more information about the report.
+description: Create Core UI reports in the legacy Report Designer tool to visualize and analyze instance data.Enter a question on the Report Designer form, and Analytics Q&amp;A generates a report. Analytics Q&amp;A gives you a choice of data sources and picks an appropriate visualization.When you edit a form, you can also choose to save, share, run, delete, or view more information about the report.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/reporting/t\_CreateYourOwnReport.html
 release: australia
 product: Reporting
 classification: reporting
 topic_type: task
-last_updated: "2026-04-16"
-reading_time_minutes: 6
+last_updated: "2026-09-17"
+reading_time_minutes: 7
 breadcrumb: [Core UI Reporting, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Create a report
 
-On instance upgraded to Australia, you can create Core UI reports in the legacy Report Designer tool to visualize and analyze current instance data or temporary data that you have imported.
+Create Core UI reports in the legacy Report Designer tool to visualize and analyze instance data.
 
 ## Before you begin
 
-Role required: itil, report\_user, report\_group, report\_global, report\_admin, or admin. To create a meaningful report, you must have the right to access the data you want to report on. To create Core UI reports in the Australia release, the system property **com.snc.par.coreui.report\_create.enabled** must be set to true.
+Role required: If the **com.snc.par.coreui.report\_create.enabled** system property is `true`, any user with an internal role can create Core UI reports. For more information, see [Platform Analytics experience properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/pae-properties.md).
+
+## About this task
+
+**Important:** You cannot create Core UI reports on instances that were net new on Xanadu or later. On instances that were net new on older releases, you can continue to create Core UI reports, even if the instance was fully migrated to Platform Analytics.
+
+Consider creating Platform Analytics data visualizations instead of Core UI dashboards. For more information, see [Data visualizations in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/analytics-center-data-visualizations.md).
 
 ## Procedure
 
 1.  Follow one of these paths.
 
-<table id="choicetable_urt_hlc_5w"><tbody><tr><td id="d203009e83">
+<table id="choicetable_urt_hlc_5w"><tbody><tr><td id="d204174e133">
 
 **Create a report**
 
 </td><td>
 
-Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations** and select **Create data visualization**. In the modal, select **Core UI**. For more information, see .
+Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations** and select **Create data visualization**. In the modal, select **Core UI**. For more information, see [Create Core UI reports on an upgraded instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-core-ui-reports-on-migrated-instance.md).
 
-</td></tr><tr><td id="d203009e116">
+</td></tr><tr><td id="d204174e179">
 
 **Edit an existing report**
 
@@ -40,7 +46,7 @@ Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Vis
 
 **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations** and select a report with the UI version **Core**. Edit the report according to its type. For more information, see [Report types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/report-types-creation-details-rd.md).
 
-</td></tr><tr><td id="d203009e149">
+</td></tr><tr><td id="d204174e212">
 
 **Create a report on a Core UI dashboard**
 
@@ -48,7 +54,7 @@ Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Vis
 
 Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Dashboards**, select the Core UI dashboard where you want to add the report, and select the Add Widgets icon \(\[Omitted image "AddWidgetButton.png"\] Alt text: Plus sign button\).
 
-</td></tr><tr><td id="d203009e182">
+</td></tr><tr><td id="d204174e245">
 
 **Edit a report on a Core UI dashboard**
 
@@ -195,15 +201,7 @@ Export to PDF
 
 </td><td>
 
-Generates a PDF that you can download or email. This option is not available for calendar reports.**Note:** Drilldown reports do not export to PDF. If you select **Export to PDF** on a drilldown report, a PDF of the top-level report is generated.
-
-</td></tr><tr><td>
-
-Publish
-
-</td><td>
-
-Creates a URL for the report and displays the URL above the report form. You can email this URL to share the report.
+Generates a PDF that you can download or email. This option is not available for calendar reports.**Note:** Drilldown reports don't export to PDF. If you select **Export to PDF** on a drilldown report, a PDF of the top-level report is generated.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 

@@ -56,9 +56,7 @@ A playbook defines the standard stages of a demand \(for example, Initiation, Pl
 **Related topics**  
 
 
-[Running Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/playbook-agents-and-fulfillers.md)
-
-[Playbooks reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/process-automation-designer-reference.md)
+[bundle-crworkflow.playbook-agents-and-fulfillers]
 
 [Playbooks in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/playbooks-in-demand-workspace.md)
 

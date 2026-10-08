@@ -27,15 +27,15 @@ Role required: sn\_ai\_governance.ai\_steward
 
 3.  Deactivate the connection using one of the following methods.
 
-<table id="choicetable-deactivate"><thead><tr><th align="left" id="d42268e102">
+<table id="choicetable-deactivate"><thead><tr><th align="left" id="d49293e102">
 
 Method
 
-</th><th align="left" id="d42268e105">
+</th><th align="left" id="d49293e105">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d42268e111">
+</th></tr></thead><tbody><tr><td id="d49293e111">
 
 **Actions menu**
 
@@ -45,7 +45,7 @@ Steps
 2.  In the confirmation dialog, select **Deactivate**.
 
 
-</td></tr><tr><td id="d42268e139">
+</td></tr><tr><td id="d49293e139">
 
 **Edit form**
 

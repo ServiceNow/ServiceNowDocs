@@ -17,7 +17,7 @@ Recommendations for AI assets are automatically generated for you to review and 
 
 ## Overview of recommendations
 
-Recommendations are automatically generated so that you can identify and address issues before they escalate, without the need for manual monitoring. You can view these recommendations only if you have the AI steward \[sn\_ai\_governance\_ai\_steward\] or AI asset owner \[sn\_ai\_asset\_mgmt.ai\_asset\_owner\] role.
+Recommendations are automatically generated so that you can identify and address issues before they escalate, without the need for manual monitoring. You can view these recommendations only if you have the AI steward \[sn\_ai\_governance.ai\_steward\] or AI asset owner \[sn\_ai\_asset\_mgmt.ai\_asset\_owner\] role.
 
 AI Control Tower checks for a range of conditions on your assets on a schedule that varies by recommendation type, giving you a current view of which assets need attention and why.
 

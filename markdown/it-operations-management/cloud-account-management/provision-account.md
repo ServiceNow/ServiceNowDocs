@@ -43,15 +43,15 @@ Role required: sn\_itom\_cam.cw\_admin
 
 5.  If you are provisioning an Azure account, determine whether to use an existing billing account or create and add a new billing account.
 
-<table id="choicetable_ovb_tlr_dfc"><thead><tr><th align="left" id="d145004e191">
+<table id="choicetable_ovb_tlr_dfc"><thead><tr><th align="left" id="d147861e191">
 
 Option
 
-</th><th align="left" id="d145004e194">
+</th><th align="left" id="d147861e194">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d145004e200">
+</th></tr></thead><tbody><tr><td id="d147861e200">
 
 **Add an existing billing account**
 
@@ -59,7 +59,7 @@ Action
 
 Select an existing account from the drop-down list.
 
-</td></tr><tr><td id="d145004e209">
+</td></tr><tr><td id="d147861e209">
 
 **Create and add a new single account**
 
@@ -72,7 +72,7 @@ Select an existing account from the drop-down list.
 5.  Select **Add**.
 
 
-</td></tr><tr><td id="d145004e254">
+</td></tr><tr><td id="d147861e254">
 
 **Create and add new bulk accounts**
 
@@ -93,15 +93,15 @@ Select an existing account from the drop-down list.
 
     An enrollment account is a management unit within a billing account for organizations with an Enterprise Agreement \(EA\). It organizes and controls Azure subscriptions and resources.
 
-<table id="choicetable_x33_4wr_dfc"><thead><tr><th align="left" id="d145004e344">
+<table id="choicetable_x33_4wr_dfc"><thead><tr><th align="left" id="d147861e344">
 
 Option
 
-</th><th align="left" id="d145004e347">
+</th><th align="left" id="d147861e347">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d145004e353">
+</th></tr></thead><tbody><tr><td id="d147861e353">
 
 **Enrollment account**
 
@@ -109,7 +109,7 @@ Action
 
 Select an existing account.
 
-</td></tr><tr><td id="d145004e362">
+</td></tr><tr><td id="d147861e362">
 
 **Create and add a new single account**
 
@@ -123,7 +123,7 @@ Select an existing account.
 6.  Select **Add**.
 
 
-</td></tr><tr><td id="d145004e411">
+</td></tr><tr><td id="d147861e411">
 
 **Create and add new bulk accounts**
 

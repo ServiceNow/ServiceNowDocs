@@ -28,15 +28,15 @@ Role required: sn\_ins\_claim\_indl.fnol\_representative, sn\_ins\_claim\_indl.m
 
 3.  Open the task from the case playbook or the Individual death claim tasks list.
 
-<table id="choicetable_dvz_rgb_qbc"><thead><tr><th align="left" id="d50638e114">
+<table id="choicetable_dvz_rgb_qbc"><thead><tr><th align="left" id="d50640e114">
 
 Option
 
-</th><th align="left" id="d50638e117">
+</th><th align="left" id="d50640e117">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d50638e123">
+</th></tr></thead><tbody><tr><td id="d50640e123">
 
 **From the case playbook**
 
@@ -46,7 +46,7 @@ Steps
 2.  In the list, select the case that contains the adjuster task.
 
 
-</td></tr><tr><td id="d50638e144">
+</td></tr><tr><td id="d50640e144">
 
 **From the Individual death claim tasks list**
 

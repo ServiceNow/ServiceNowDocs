@@ -18,6 +18,10 @@ Define security controls for an MCP Servers to determine which users can access 
 
 Role required: sn\_mcp\_client.admin
 
+## About this task
+
+The security control applies only when MCP server is added to an Assistant and when a user tries to invoke the respective MCP server from that Assistant. For adding to AI Agent, this ACL won't be applied and automatically agent ACLs are applied for the agent normally.
+
 ## Procedure
 
 1.  Open a Model Context Protocol Server and navigate to Access rules.

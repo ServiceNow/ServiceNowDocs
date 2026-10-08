@@ -18,8 +18,6 @@ Use DevOps Config to store and manage all of your config data as a single source
 
 **Important:** Starting with the Washington D.C. release, DevOps Config is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
 
-Watch this short video to see how config data snapshots in DevOps Config can help you identify issues caused by unintended config data changes.
-
 Use root cause analysis of configuration-related outages or alerts to quickly identify and resolve unintended config data changes, also known as configuration "drift." Compare current and past versions of intended config data changes attached to change requests, and roll back to the desired state when needed.
 
 For more information, see [Investigate config change alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/devops-family/cdm-d2a-investigate-cfg-changes.md).

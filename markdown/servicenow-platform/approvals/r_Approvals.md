@@ -1,26 +1,35 @@
 ---
 title: Classic approvals
-description: Classic approvals are a legacy process to require authorization on tasks before the work is done. In earlier releases, you could create approval records to define approval tasks and associate users or groups to approve or reject them.
+description: Classic approvals are records that store the authorization tasks that must be done to approve or reject a request. Approval records are typically created by a Workflow Studio flow or classic workflow. An approval defines both the approval tasks and the users or groups are assigned to approve or reject them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/approvals/r\_Approvals.html
 release: australia
 product: Approvals
 classification: approvals
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-30"
+reading_time_minutes: 3
 breadcrumb: [Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Classic approvals
 
-Classic approvals are a legacy process to require authorization on tasks before the work is done. In earlier releases, you could create approval records to define approval tasks and associate users or groups to approve or reject them.
+Classic approvals are records that store the authorization tasks that must be done to approve or reject a request. Approval records are typically created by a Workflow Studio flow or classic workflow. An approval defines both the approval tasks and the users or groups are assigned to approve or reject them.
 
-Administrators can define classic approval logic by navigating to **All** &gt; **System Policy** &gt; **Rules** &gt; **Approvals**.
+Administrators create approval logic from Workflow Studio flows or classic workflows.
 
-**Important:** Classic approval rules have been replaced by the Workflow Studio [Ask for Approval action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/ask-approval-flow-designer.md). Use Workflow Studio to create workflow-driven approval logic that is easier to maintain and provides better reporting information.
+-   Create a Workflow Studio flow that contains an [Ask for Approval action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/ask-approval-flow-designer.md).
+-   Create a classic workflow that contains either an [Approval - Group workflow activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/workflow-activities/r_ApprovalGroup.md) or an [Approval - User workflow activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/workflow-activities/r_ApprovalUser.md).
 
-Administrators can see all approval requests by navigating to **All** &gt; **Self-Service** &gt; **My Approvals** and removing the list filter.
+In either case, the approval record defines this information.
+
+-   The record type that needs approval. For example, a Service Catalog request or a change request.
+-   The people who can approve or deny the approval request. For example, a specific assignment group or a user's manager.
+-   The approval rules that determine how multiple approval decisions interact. For example, an approval that requires all approval users to respond or an approval where any single person can approve or reject an approval request.
+
+Users can see their approval requests by navigating to **All** &gt; **Self-Service** &gt; **My Approvals**.
+
+## Approval record
 
 An approval record consists of these fields:
 
@@ -30,7 +39,7 @@ Field
 
 </th><th>
 
-Input value
+Description
 
 </th></tr></thead><tbody><tr><td>
 
@@ -46,7 +55,7 @@ State
 
 </td><td>
 
-Choices are: -   Not Yet Requested \(This state indicates that you are not yet asking your approvers to approve this request. Until you set the status to **Requested** they will receive no email notifications about the request.\)
+Choices are: -   Not Yet Requested \(This state indicates that you aren't yet asking your approval users to approve this request. Until you set the status to **Requested** they will receive no email notifications about the request.\)
 -   Requested
 -   Approved
 -   Rejected

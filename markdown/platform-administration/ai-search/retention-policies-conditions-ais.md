@@ -7,7 +7,7 @@ release: australia
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2026-07-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Indexed sources, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -30,11 +30,11 @@ When the time since a source record's last update exceeds the limit from the ind
 
 To limit the set of records indexed from a source table, define filter conditions for your indexed source. AI Search only indexes records that match all defined filter conditions.
 
-Adding filter conditions can reduce the number of records indexed from a source table and reduce indexing frequency. As an example, if you exclude frequently updated open records based on their status, AI Search doesn't index data from those records, reducing your index size and the compute resources needed to index changes from the source table.
+Adding filter conditions can reduce the number of records indexed from a source table and reduce indexing frequency. As an example, if you exclude frequently updated open records based on their status, AI Search doesn't index data from those records. Excluding these records reduces your index size and the compute resources needed to index changes from the source table.
 
 When a source record no longer satisfies the indexed source's filter conditions, AI Search marks the corresponding indexed record as stale.
 
-**Note:** . Adding filter conditions doesn't reduce the number of AI Search indexing events generated for the indexed source. The system generates indexing events for every change to an indexed source table, unless the change is to a column that has a **no\_text\_index** field setting defined in the indexed source. The filter condition can reduce the number of records indexed for each event, however.
+**Note:** Adding filter conditions doesn't reduce the number of AI Search indexing events generated for the indexed source. The system generates indexing events for every change to an indexed source table, unless the change is to a column that has a **no\_text\_index** field setting defined in the indexed source. The filter condition can reduce the number of records indexed for each event, however.
 
 ## Purging stale records
 

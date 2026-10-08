@@ -1,40 +1,95 @@
 ---
-title: Build Agent release notes
-description: The ServiceNow Build Agent application enables developers to create, edit, and deploy full-stack applications and metadata through a conversational interface. Build Agent was enhanced and updated in the Australia release, and its Now Assist features have been rebranded to ServiceNow Otto.The ServiceNow Build Agent application enables developers to create, edit, and deploy full-stack applications and metadata through a conversational interface. Build Agent was enhanced and updated in the Australia release, and its Now Assist features have been rebranded to ServiceNow Otto.The ServiceNow Build Agent application enables developers to create, edit, and deploy full-stack applications and metadata through a conversational interface. Build Agent was enhanced and updated in the Australia release, and its Now Assist features have been rebranded to ServiceNow Otto.The ServiceNow Build Agent application enables developers to create, edit, and deploy full-stack applications and metadata through a conversational interface. Build Agent was enhanced and updated in the Australia release, and its Now Assist features have been rebranded to ServiceNow Otto.The ServiceNow Build Agent application enables developers to create, edit, and deploy full-stack applications and metadata through a conversational interface. Build Agent was enhanced and updated in the Australia release, and its Now Assist features have been rebranded to ServiceNow Otto.The ServiceNow Build Agent application enables developers to create, edit, and deploy full-stack applications and metadata through a conversational interface. Build Agent was enhanced and updated in the Australia release, and its Now Assist features have been rebranded to ServiceNow Otto.The ServiceNow Build Agent application enables developers to create, edit, and deploy full-stack applications and metadata through a conversational interface. Build Agent was enhanced and updated in the Australia release, and its Now Assist features have been rebranded to ServiceNow Otto.The ServiceNow Build Agent application enables developers to create, edit, and deploy full-stack applications and metadata through a conversational interface. Build Agent was enhanced and updated in the Australia release, and its Now Assist features have been rebranded to ServiceNow Otto.
+title: Build Agent and Autonomous Engineer release notes
+description: The ServiceNow Build Agent and Autonomous Engineer applications enable developers to create, edit, and deploy full-stack applications and metadata through a conversational interface. See the following sections for release notes by version.The October 2026 release of Build Agent includes support for Autonomous Engineer, Git integration, new model support, and more.The ServiceNow Build Agent application enables developers to create, edit, and deploy full-stack applications and metadata through a conversational interface. Build Agent was enhanced and updated in the Australia release, and its Now Assist features have been rebranded to ServiceNow Otto.The ServiceNow Build Agent application enables developers to create, edit, and deploy full-stack applications and metadata through a conversational interface. Build Agent was enhanced and updated in the Australia release, and its Now Assist features have been rebranded to ServiceNow Otto.The ServiceNow Build Agent application enables developers to create, edit, and deploy full-stack applications and metadata through a conversational interface. Build Agent was enhanced and updated in the Australia release, and its Now Assist features have been rebranded to ServiceNow Otto.The ServiceNow Build Agent application enables developers to create, edit, and deploy full-stack applications and metadata through a conversational interface. Build Agent was enhanced and updated in the Australia release, and its Now Assist features have been rebranded to ServiceNow Otto.The ServiceNow Build Agent application enables developers to create, edit, and deploy full-stack applications and metadata through a conversational interface. Build Agent was enhanced and updated in the Australia release, and its Now Assist features have been rebranded to ServiceNow Otto.The ServiceNow Build Agent application enables developers to create, edit, and deploy full-stack applications and metadata through a conversational interface. Build Agent was enhanced and updated in the Australia release, and its Now Assist features have been rebranded to ServiceNow Otto.The ServiceNow Build Agent application enables developers to create, edit, and deploy full-stack applications and metadata through a conversational interface. Build Agent was enhanced and updated in the Australia release, and its Now Assist features have been rebranded to ServiceNow Otto.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/build-agent-rn.html
 release: australia
 topic_type: topic
-last_updated: "2026-08-31"
-reading_time_minutes: 13
+last_updated: "2026-09-23"
+reading_time_minutes: 16
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, ServiceNow Otto, AI Agents, generative AI, agentic AI, ServiceNow Otto, AI Agents, generative AI, agentic AI, ServiceNow Otto, AI Agents, generative AI, agentic AI, ServiceNow Otto, AI Agents, generative AI, agentic AI, ServiceNow Otto, AI Agents, generative AI, agentic AI, ServiceNow Otto, AI Agents, generative AI, agentic AI, ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [App development and low-code release notes, Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
 
-# Build Agent release notes
+# Build Agent and Autonomous Engineer release notes
 
-The ServiceNow® Build Agent application enables developers to create, edit, and deploy full-stack applications and metadata through a conversational interface. Build Agent was enhanced and updated in the Australia release, and its Now Assist features have been rebranded to ServiceNow Otto®.
+The ServiceNow® Build Agent and Autonomous Engineer applications enable developers to create, edit, and deploy full-stack applications and metadata through a conversational interface. See the following sections for release notes by version.
 
-## About Build Agent
+## About Build Agent and Autonomous Engineer
 
--   Use Build Agent in ServiceNow Studio.
--   Work with additional Model Context Protocol \(MCP\) support.
--   Create apps and newly supported metadata in the global scope.
--   Choose from newly supported models.
--   Search external content without leaving Build Agent.
+-   Accelerate development by reducing backlogs and enabling faster deployment of new business applications, without requiring developers to manually handle repetitive build, test, and deployment steps.
+-   Describe an application in natural language to autonomously generate code, organize files, and manage both UI and back-end components, making development available to users at any level.
+-   Support automated testing through Automated Test Framework \(ATF\) test suite generation and execution, reducing the manual effort required to validate new or updated applications.
+-   Decrease development costs because Build Agent handles code compilation, quality checks, and documentation of existing applications automatically.
+-   Enable agentic development by letting you create agentic workflows, custom AI agents, and skills tailored to your organization directly from within ServiceNow Studio.
 
-See  for more information.
+See  and  for more information.
 
 ## Activation and other requirements
 
 -   **Activation information**
 
-    Build Agent is a ServiceNow AI Platform feature that is active by default.
+    Build Agent is a ServiceNow AI Platform feature that is active by default. You must install Autonomous Engineer.
 
-    **Note:** Build Agent is dependent on ServiceNow Otto for Creator. For more information, see [ServiceNow Otto for Creator release notes]().
+    **Note:** Build Agent is dependent on ServiceNow Otto for Creator. For more information, see [ServiceNow Otto for Creator release notes](). Autonomous Engineer is dependent on Build Agent.
 
 
 **Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/build-automate-rn-landing.md)
+
+## October 2026
+
+The October 2026 release of Build Agent includes support for Autonomous Engineer, Git integration, new model support, and more.
+
+### What's new
+
+-   **Generate implementations from specifications with Autonomous Engineer**
+
+    Use Autonomous Engineer, powered by Build Agent, to generate a complete implementation plan from your requirements.
+
+    1.  Provide requirements as a prompt or a file upload.
+    2.  Autonomous Engineer prompts you with questions to clarify ambiguous requirements, queries your instance to identify existing artifacts. For example, it might ask questions about tables, roles, and catalog items, and generates a plan with work items. Work items include acceptance criteria and test criteria in an Agile user story format.
+    3.  After you approve the plan, Autonomous Engineer generates a background agent for each work item. It then builds all work items in parallel in the background, generates and runs ATF tests, and attempts to resolve test failures.
+    4.  Items that require human intervention appear in the dashboard and in the chat panel.
+    5.  When the plan is complete, an update set is generated for deployment to your UAT or production environment.
+    Autonomous Engineer uses agent packs to give background agents product-specific domain knowledge during execution. The Custom app development agent pack is available in this release, which gives Autonomous Engineer awareness of platform tables, roles, and configuration patterns specific to custom app development.
+
+-   **New model support**
+
+    Build Agent and Autonomous Engineer support the Google Gemini 3.7 Flash model in the October 2026 release.
+
+-   **Additional metadata support**
+
+    The following metadata are now supported in Build Agent and Autonomous Engineer:
+
+    -   Assessments
+    -   Database views
+    -   Sys wizard answers
+-   **Support for SPP**
+
+    Build Agent and Autonomous Engineer now support regulated markets through the ServiceNow Protected Platform for Australia, the EU, and Singapore, a cloud offering that stores and processes all customer data in-country on Microsoft Azure infrastructure.
+
+-   **Expanded support for Playbooks**
+
+    Build Agent and Autonomous Engineer now include the following updates to Playbook support:
+
+    -   Public playbooks
+    -   Variants
+    -   Go back to activity definition
+    -   Golden path configuration
+    -   Using Automation plan pills
+    -   Image attachment support for Image to playbook generation
+    -   Configure golden path settings and define the ideal path through decision nodes
+
+### What's changed
+
+-   **Autonomous Engineer Test Agent settings enabled by default**
+
+    The Test Agent settings for Autonomous Engineer are enabled by default.
+
+-   **Larger input box for extended prompts**
+
+    The input field for Build Agent and Autonomous Engineer prompts and instructions now expands to accommodate longer text entries.
+
 
 ## September 2026
 

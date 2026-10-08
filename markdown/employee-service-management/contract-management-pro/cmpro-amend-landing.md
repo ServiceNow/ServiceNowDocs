@@ -8,7 +8,7 @@ product: Contract Management Pro
 classification: contract-management-pro
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 3
 keywords: [Amendment request, Amend contract, Amendment workflow]
 audience: sn\_cm\_core.contract\_fulfiller
 breadcrumb: [Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
@@ -20,23 +20,9 @@ The contract amendment workflow enables you to initiate, manage, and track chang
 
 Amendments can be made by adding, removing, or updating terms, without the need to replace the entire contract.
 
-You can initiate an amendment request from your workspace using the **Initiate contract** modal.
+You can initiate an amendment request from your workspace using the **Initiate contract** modal or from the contract repository record using the **Amend** option.
 
-To initiate an amendment request from your workspace, verify you have configured the initiate contract button. For more information, see [Add a workspace action button for initiating a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-config-initiate-cont.md).
-
-\[Omitted image "cmpro-amend-initiate.png"\] Alt text: Use initiate contract modal from the workspace to submit an contract amendment request
-
-## Distinguish contract and amendment request
-
-The field, **Request type**, differentiates between contract and amendment requests. For amendment request, the value is **Amendment** and for contract request it’s **New contract**.
-
-The Request type field is displayed in the contract details secondary header, and list pages making it easy to differentiate between the two request types.
-
-This field is also present in the configurations: Contract template rule and contract configuration records to indicate if the configuration applies to a contract or an amendment request.
-
-\[Omitted image "cmpro-amend-req-type-field.png"\] Alt text: Request type field to differentiate between contract and amendment request
-
-If you have customized the workflow to support amendments; the Request Type field may not display the correct value to differentiate between new contracts and amendments. To resolve Request type field value, update the script **Populate Request Typescript in CMR** and run it to set the request type correctly.
+To initiate an amendment request, verify you have configured the Initiate Contract modal and Amend option.
 
 ## Types of paper for an amendment
 
@@ -66,17 +52,14 @@ The contract amendment workflow might progress as follows:
     1.  Initiates an amendment request from the workspace.
     2.  Enters amendment details and submits the request.
     3.  Initiates an amendment request.
-
-        **Note:** Amendment request is created in Draft state.
-
     4.  For third-party paper amendment request, attaches contract document. For own-paper, the document is generated from a contract template.
     5.  Link a parent contract.
     6.  Submits amendment request.
 2.  The contract fulfiller does the following:
-    1.  Link a parent contract if already not linked or wants to change the linked parent contract.
-    2.  Assign the amendment contract request.
-    3.  Start working on the amendment request.
-    4.  Review the details of the amendment requested.
+    1.  Review the details of the amendment requested.
+    2.  Link a parent contract if already not linked or wants to change the linked parent contract.
+    3.  Assign the amendment contract request.
+    4.  Start working on the amendment request.
     5.  Update the contract details and contract document according to the amendment request.
     6.  Upload revised contract document using **Create revision** option.
     7.  Finalizes the contract amendment using the review, approval, and signature workflow.
@@ -89,6 +72,12 @@ The contract amendment workflow might progress as follows:
 For amendment documents, ServiceNow Otto for Contract Management Pro features of obligation extraction or metadata extraction aren’t supported. However, Contract Analysis is supported when all the configurations are complete and valid, enabling you to review and analyze amendments effectively.
 
 For more information, see [AI capabilities in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-exp-now-assist-land.md).
+
+## Amendment and renewal interactions
+
+You can submit both amendment and renewal requests for the same contract. The system allows parallel processing without blocking either request type. When you submit an amendment request while a renewal is in progress, or submit a renewal request while an amendment is in progress, the system displays warnings about potential conflicts.
+
+For more information about how amendment and renewal requests interact, see [Amendment and renewal interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-amend-renewal-int.md).
 
 -   **[Approve contracts to allow amendments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-approve-draft-cntr.md)**  
 Amendment requests can only be submitted for contracts in the Active state. If a contract is in Draft state and Awaiting Review substate, you need to manually approve it before submitting an amendment request.

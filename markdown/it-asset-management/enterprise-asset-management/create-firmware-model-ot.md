@@ -18,7 +18,7 @@ Create a firmware model for the firmware that's embedded into your OT assets if 
 
 ## Before you begin
 
-**Important:** The OT Asset Management application must be activated to access the OT Asset Workspace. For details, see [Install OT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/install-otam.md).
+**Important:** The OT Asset Management application must be activated to access the OT Asset Workspace. For details, see [Install OT Asset Management from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/install-otam.md).
 
 The firmware product and the firmware version details should be available in the Enterprise Asset Management Content Service. If not, you can also create the firmware product and the firmware version for your firmware model. For more details, see [Create a custom firmware product for your operational technology \(OT\) assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/create-custom-firmware-product-ot-assets.md) and [Create a custom firmware version for your operational technology \(OT\) assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/create-custom-firmware-version-ot-assets.md).
 

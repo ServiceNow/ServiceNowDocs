@@ -1,6 +1,6 @@
 ---
 title: Create Smart Assessment template for Workplace Case and Task
-description: Smart assessment templates define the structure, questions, and sections that workplace agents complete when working on cases and tasks. Case managers create templates to standardize data collection and ensure consistent quality checks across workplace cases and tasks. These assessments automatically attach to cases and tasks based on configurable trigger conditions.
+description: Create assessment templates to standardize data collection, define quality checks, and automatically attach assessments to workplace cases and tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-case-management/create-smart-assessment-template.html
 release: australia
@@ -9,12 +9,12 @@ classification: workplace-case-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Smart Assessment for Workplace Case and Task, Configure, Workplace Case Management, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Smart Assessment for workplace cases and tasks, Configure, Workplace Case Management, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Create Smart Assessment template for Workplace Case and Task
 
-Smart assessment templates define the structure, questions, and sections that workplace agents complete when working on cases and tasks. Case managers create templates to standardize data collection and ensure consistent quality checks across workplace cases and tasks. These assessments automatically attach to cases and tasks based on configurable trigger conditions.
+Create assessment templates to standardize data collection, define quality checks, and automatically attach assessments to workplace cases and tasks.
 
 ## Before you begin
 
@@ -63,7 +63,7 @@ Role required: sn\_wsd\_case.admin or sn\_wsd\_case.manager
         -   Select **Save**.
         \[Omitted image "wsd-input-types.png"\] Alt text:
 
-    4.  Select **+ Add assessment reference** and Add reference data to appear the card details under the Smart Assessments tab in a workplace case.
+    4.  Add reference data to appear in the card details under the Smart Assessments tab in a workplace case.
 
         -   In the **Card description** field, provide a description for the assessment reference card.
         -   Select the required columns and select **Add**.
@@ -74,5 +74,5 @@ Role required: sn\_wsd\_case.admin or sn\_wsd\_case.manager
     **Note:** Templates must be published before they can be attached to triggers and used in workplace cases.
 
 
-**Parent Topic:**[Smart Assessment for Workplace Case and Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/smart-assessment-for-workplace-case-and-task.md)
+**Parent Topic:**[Smart Assessment for workplace cases and tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-case-management/smart-assessment-for-workplace-case-and-task.md)
 

@@ -7,7 +7,7 @@ release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 3
 breadcrumb: [Configure, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -129,4 +129,5 @@ If the related list does not appear, confirm that:
 -   The related list is configured on the workspace record view.
 -   A configuration entry exists in the vertical layout table.
 -   The correct application scope is selected.
+-   After an upgrade, the configuration entry in the vertical layout table wasn't skipped. Check Upgrade History for skipped records related to the vertical layout configuration table, and preview and revert any that apply.
 

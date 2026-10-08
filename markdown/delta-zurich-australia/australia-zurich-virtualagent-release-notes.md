@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-zurich-australia/australia-zurich-virtualagent-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 15
+last_updated: "2026-10-08"
+reading_time_minutes: 18
 breadcrumb: [Products combined by family]
 ---
 
@@ -67,7 +67,12 @@ Zurich
 
 </td><td>
 
--   **[Assistant Designer](https://www.servicenow.com/docs/access?context=assistant-designer&family=zurich&ft:locale=en-US)**
+-   **[Testing assistant conversations](https://www.servicenow.com/docs/access?context=evaluations-ad&family=zurich&ft:locale=en-US)**
+
+Measure the quality of your conversational assistant at scale with automated evaluations in Assistant Designer. Choose the metrics that define success for you, such as conversation success, conversation fluency, faithfulness, skill selection accuracy, and turn count. You can run them against your own test data set and ground truth.
+
+
+ -   **[Assistant Designer](https://www.servicenow.com/docs/access?context=assistant-designer&family=zurich&ft:locale=en-US)**
 
 Create and manage LLM-based chat and voice assistants within Assistant Designer, a centralized assistant administrator experience. Assistant Designer is comprised of three main areas: Assistants, Asset library \(previously Virtual Agent Designer\), and Analytics.
 
@@ -82,7 +87,7 @@ Integrate Google Workspace chat with the ServiceNow® conversational interface f
 
 -   **[AI Connector utility](https://www.servicenow.com/docs/access?context=vad-ai-connector-utility&family=zurich&ft:locale=en-US)**
 
-Select AI agents to handle tasks in the AI Connector utility. For more information on AI agents in Virtual Agent Designer, see [Managing AI agents](https://www.servicenow.com/docs/access?context=managing-use-cases-ai-agents&family=zurich&ft:locale=en-US) and [Using AI agents in Virtual Agent topics](https://www.servicenow.com/docs/access?context=ai-agent-custom-skill&family=zurich&ft:locale=en-US).
+Select AI agents to handle tasks in the AI Connector utility. For more information on AI agents in Virtual Agent Designer, see [Managing AI agents](https://www.servicenow.com/docs/access?context=managing-use-cases-ai-agents&family=zurich&ft:locale=en-US) and [AI agents in Virtual Agent topics](https://www.servicenow.com/docs/access?context=ai-agent-custom-skill&family=zurich&ft:locale=en-US).
 
 -   **[Virtual Agent](https://www.servicenow.com/docs/access?context=virtual-agent-landing-page&family=zurich&ft:locale=en-US) server**
     -   In chatHandshake, set **dynamic\_step\_loader\_enabled** to `true` to send stacked agentic AI messages to the server. Set **dynamic\_step\_loader\_enabled** to `false` to avoid sending messages.
@@ -106,17 +111,38 @@ Australia
 
 </td><td>
 
--   **[Add the portable chat widget to a 3rd-party website](https://www.servicenow.com/docs/access?context=add-portable-va-client-website&family=australia&ft:locale=en-US)**
+
+
+ -   **[Cancel live agent request](https://www.servicenow.com/docs/access?context=nava-integrated-chat&family=australia&ft:locale=en-US)**
+
+In premium chat, select the **Cancel** button on the banner while a live agent request is in process to cancel the request. After the request is canceled or the live agent connects to the chat, the banner disappears from chat.
+
+-   **[Configure voice settings for a chat assistant](https://www.servicenow.com/docs/access?context=manage-chat-voice-exp&family=australia&ft:locale=en-US)**
+
+Turn voice dictation on or off for an assistant on the **Voice experience** page. For ServiceNow Otto for Virtual Agent assistants, voice dictation is only available for premium chat. For ServiceNow Otto panel – Platform assistant, voice dictation is available for all chat experiences.
+
+**Note:** Voice dictation was previously known as voice input, which was enabled from within [Enable additional chat features](https://www.servicenow.com/docs/access?context=additional-chat-features&family=australia&ft:locale=en-US).
+
+-   **[Display assistant on Platform or ServiceNow Studio](https://www.servicenow.com/docs/access?context=display-nap-assistant&family=australia&ft:locale=en-US)**
+
+For eligible new customers, premium chat is the default and the only available chat experience. If the assistant uses the Now LLM provider, the premium chat option isn't available.
+
+-   **[Non-English language recognition for voice input](https://www.servicenow.com/docs/access?context=nava-integrated-chat&family=australia&ft:locale=en-US)**
+
+When you speak in the default language selected in your profile, even if this language is non-English, your speech is transcribed into text in that same language.
+
+-   **[Testing assistant conversations](https://www.servicenow.com/docs/access?context=evaluations-ad&family=australia&ft:locale=en-US)**
+
+Measure the quality of your conversational assistant at scale with automated evaluations in Assistant Designer. Choose the metrics that define success for you, such as conversation success, conversation fluency, faithfulness, skill selection accuracy, and turn count. You can run them against your own test data set and ground truth.
+
+
+ -   **[Add the portable chat widget to a 3rd-party website](https://www.servicenow.com/docs/access?context=add-portable-va-client-website&family=australia&ft:locale=en-US)**
 
 Embed the chat widget for enhanced chat on third-party websites.
 
 -   **[View all topics on the premium chat greeting screen](https://www.servicenow.com/docs/access?context=nava-integrated-chat&family=australia&ft:locale=en-US)**
 
 Select **View all topics** on the chat’s greeting screen to show all promoted topics in premium chat.
-
--   **[Assign Model Context Protocol \(MCP\) servers to an assistant](https://www.servicenow.com/docs/access?context=assign-mcp-servers&family=australia&ft:locale=en-US)**
-
-Configure and update permissions for each tool when assigning a Model Context Protocol \(MCP\) server to an assistant that uses premium chat. A tool is a function made available through an MCP server that allows an assistant to access data or perform a task on behalf of the user.
 
 -   **[Display assistant on Platform or ServiceNow Studio](https://www.servicenow.com/docs/access?context=display-nap-assistant&family=australia&ft:locale=en-US)**
 
@@ -282,7 +308,7 @@ Zurich
 
 -   **[Now Assist &gt; ServiceNow Otto® announcement](https://www.servicenow.com/docs/access?context=sn-ai-implementation-landing&family=zurich&ft:locale=en-US)**
 
-Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
+ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows.
 
 
  -   **[Preferences](https://www.servicenow.com/docs/access?context=set-up-preferences-next-experience&family=zurich&ft:locale=en-US)**
@@ -314,7 +340,16 @@ Australia
 
 </td><td>
 
--   **[Updated Otto processing animation](https://www.servicenow.com/docs/access?context=nava-integrated-chat&family=australia&ft:locale=en-US)**
+-   **[Enable additional chat features](https://www.servicenow.com/docs/access?context=additional-chat-features&family=australia&ft:locale=en-US)**
+
+The **Prioritize AI agents during skills discovery** option is available when configuring additional chat features. Because all assistants now use agentic orchestration by default, AI agent skills are available during skills discovery. Turning on this option gives AI agents priority over other assets \(such as knowledge bases and Q&amp;A modules\) when the assistant discovers skills. If your assistant has overlapping skills, for example, a knowledge base article and an AI agent that both answer the same question, this setting lets you decide which one is prioritized, so you can steer users toward the AI agent experience instead of a static article.
+
+-   **[ServiceNow Otto for Virtual Agent system properties](https://www.servicenow.com/docs/access?context=nava-sys-props&family=australia&ft:locale=en-US)**
+
+The **sn\_nowassist\_va.assistant\_personalization** system property is removed from the admin experience. This property previously let admins show or hide chat personalization options \(agent persona, tone, and response length\) when [branding an assistant](https://www.servicenow.com/docs/access?context=brand-assistant&family=australia&ft:locale=en-US). By default, all settings are shown.
+
+
+ -   **[Updated Otto processing animation](https://www.servicenow.com/docs/access?context=nava-integrated-chat&family=australia&ft:locale=en-US)**
 
 View an updated Otto processing animation.
 
@@ -408,7 +443,12 @@ Australia
 
 </td><td>
 
--   Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. We're committed to bringing you the latest industry advancements while maintaining sovereignty-focused options, all hosted and governed by ServiceNow with the infrastructure and data protections you rely on today. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+-   **Agentic support page**
+
+The **Agentic support** page has been deprecated for ServiceNow Otto for Virtual Agent and ServiceNow Otto panel - Platform. There is no loss of functionality previously provided by the **Agentic support** page. By default, all existing assistants operate in agentic mode. The **Prioritize AI agents during skills discovery** option is available when configuring [additional chat features](https://www.servicenow.com/docs/access?context=additional-chat-features&family=australia&ft:locale=en-US).
+
+
+ -   Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. We're committed to bringing you the latest industry advancements while maintaining sovereignty-focused options, all hosted and governed by ServiceNow with the infrastructure and data protections you rely on today. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
 
  -   -   
 
@@ -587,7 +627,11 @@ Zurich
 
 </td><td>
 
-[Zurich Patch 12](https://www.servicenow.com/docs/access?context=zurich-patch-12&family=zurich&ft:locale=en-US)
+[Zurich Patch 13](https://www.servicenow.com/docs/access?context=zurich-patch-13&family=zurich&ft:locale=en-US)
+
+-   Use automated evaluations to test your conversational assistant.
+
+ [Zurich Patch 12](https://www.servicenow.com/docs/access?context=zurich-patch-12&family=zurich&ft:locale=en-US)
 
 -   ServiceNow Otto is the new AI experience brand. This change is reflected in the name of ServiceNow products, including ServiceNow Otto for Virtual Agent and ServiceNow Otto panel. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
 
@@ -614,7 +658,11 @@ Australia
 
 </td><td>
 
-[Australia Patch 6](https://www.servicenow.com/docs/access?context=australia-patch-6&family=australia&ft:locale=en-US)
+[Australia Patch 7](https://www.servicenow.com/docs/access?context=australia-patch-7&family=australia&ft:locale=en-US)
+
+-   Use automated evaluations to test your conversational assistant.
+
+ [Australia Patch 6](https://www.servicenow.com/docs/access?context=australia-patch-6&family=australia&ft:locale=en-US)
 
 -   Embed the enhanced chat widget on third-party websites.
 

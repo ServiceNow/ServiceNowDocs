@@ -14,7 +14,7 @@ breadcrumb: [Agent auto assignment using rating-based criteria, Agent auto assig
 
 Agents can be auto assigned based on the location defined in their user record and the location of the tasks.
 
-Auto assignment by location can be performed in a [task- or request-driven processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/service-management-for-the-enterprise/c_TaskVsRequestDrivenProcessing.md) environment when the **Auto-selection of agents will consider location of agents** configuration is enabled.
+Auto assignment by location can be performed in a task- or request-driven processing environment when the **Auto-selection of agents will consider location of agents** configuration is enabled.
 
 When a task is created, agent locations are compared to the following ranges to determine a location rating for each agent.
 

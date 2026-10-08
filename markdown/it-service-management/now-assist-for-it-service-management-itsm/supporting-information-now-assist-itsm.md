@@ -58,7 +58,7 @@ Consider a user who has been assigned multiple roles: A, B, and C, each with dis
 
 By applying both ACL permissions and role masking, the system ensures a secure and granular access control mechanism for ITSM skills, protecting sensitive information while providing users with the insights they need to perform their tasks effectively.
 
-For information on role masking, see [Role masking in AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-role-masking.md).
+For information on role masking, see .
 
 ## Supported user interfaces
 

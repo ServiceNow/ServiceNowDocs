@@ -16,9 +16,18 @@ breadcrumb: [Create and use dashboards, Responsive dashboards in the Core UI, Re
 
 Responsive dashboards enable you to share widgets such as reports and Performance Analytics visualizations in the classic environment. An easy-to-use drag and drop canvas helps you create, edit, and arrange content, and then share it with colleagues.
 
-The dashboard\_admin role is required to create or edit Core UI Responsive Dashboards, which may still be necessary in Service Portal, for example. To create dashboards in Platform Analytics experience, see [Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/analytics-center-dashboards.md).
+The ServiceNow AI Platform platform supports two dashboard technologies:
 
-Use dashboards to:
+-   The newer Platform Analytics dashboards, described in [Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/analytics-center-dashboards.md)
+-   The older Core UI Responsive Dashboards
+
+Starting in Australia, you can access all dashboards of either type through the [Dashboards library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/find-dashboard-library.md). However, you have Core UI dashboards only on instances that were originally created before the Xanadu release.
+
+**Note:**
+
+Owners of Core UI responsive dashboards have the option to migrate these dashboards to Platform Analytics experience. For more information, see [Migrate dashboards that you own](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/data-migration-migrate-dbs-you-own.md).
+
+Use Core UI dashboards to:
 
 -   Create and edit Performance Analytics visualizations and other widgets directly from the dashboard.
 -   Quickly find and preview widgets, then add them to the dashboard from the Add Widget pane.
@@ -41,4 +50,6 @@ ServiceNow mobile apps don’t give access to dashboards as dashboards aren’t 
 
 
 [Set responsive dashboards as your home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/t_SetDashboardsAsHome.md)
+
+[Differences between Core UI and Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/differences-between-core-ui-ne-dbs.md)
 

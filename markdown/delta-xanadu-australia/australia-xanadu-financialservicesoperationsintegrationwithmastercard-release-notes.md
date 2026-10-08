@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-xanadu-australia/australia-xanadu-financialservicesoperationsintegrationwithmastercard-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 5
+last_updated: "2026-10-08"
+reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
 
@@ -99,7 +99,19 @@ Zurich
 
 </td><td>
 
--   **​ [Mastercom subflows for disputes](https://www.servicenow.com/docs/access?context=financial-services-operations-integration-with-mastercard-subflows&family=zurich&ft:locale=en-US)**
+-   **[Additional Mastercom subflows for disputes](https://www.servicenow.com/docs/access?context=financial-services-operations-integration-with-mastercard-subflows&family=zurich&ft:locale=en-US)**
+
+New set of subflows to promote execution of Mastercom spoke actions for dispute management. This set includes the following subflows:
+
+    -   Mastercom - Look up Authorization Transaction Details
+    -   Mastercom - Look up Claim Details
+    -   Mastercom - Take Action on Existing Claim
+    -   Mastercom - Process Pending Queue
+    -   Mastercom - Look up Chargebacks Related Information
+    -   Mastercom - Look up Fraud Related Information
+    -   Mastercom - Reverse Chargeback
+
+ -   **​ [Mastercom subflows for disputes](https://www.servicenow.com/docs/access?context=financial-services-operations-integration-with-mastercard-subflows&family=zurich&ft:locale=en-US)**
 
 An integration layer that provides predefined subflows and a supporting data model to enable seamless execution of Mastercom spoke actions for dispute management. This layer includes the following subflows:
 
@@ -332,6 +344,8 @@ Zurich
 Install Financial Services Operations Integration with Mastercard by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
 
+**Important:** Financial Services Operations Integration with Mastercard is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Australia
@@ -342,6 +356,8 @@ Australia
 
 Install Financial Services Operations Integration with Mastercard by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
 
+
+**Important:** Financial Services Operations Integration with Mastercard is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements

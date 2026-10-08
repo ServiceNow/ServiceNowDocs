@@ -1,5 +1,5 @@
 ---
-title: Create change request AI agent \(autonomous\)
+title: Create change request AI agent
 description: This AI agent creates structured change requests from conversational input by autonomously selecting the appropriate change model and template.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/now-assist-for-it-service-management-itsm/change-ai-orch-create-change-ai-agent.html
@@ -12,7 +12,7 @@ reading_time_minutes: 2
 breadcrumb: [Change Management, Use agentic AI in IT Service Management, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
-# Create change request AI agent \(autonomous\)
+# Create change request AI agent
 
 This AI agent creates structured change requests from conversational input by autonomously selecting the appropriate change model and template.
 
@@ -122,7 +122,7 @@ Used in agentic workflows
 
 </td><td>
 
-Not applicable.
+Change Orchestrator AI agent \(Change creation phase\)
 
 </td></tr></tbody>
 </table>

@@ -20,6 +20,8 @@ Use the voice agent to generate an audio summary of a supported document or ask 
 
 Role required: sn\_audit\_ws.auditor, sn\_audit\_ws.supervisor
 
+Voice assist must be configured for your instance before you can use it. For the configuration guide, see [KB3153395](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3153395).
+
 ## Procedure
 
 1.  From the Documents panel, select a supported document, such as a PDF or a Microsoft Word document, to open it.

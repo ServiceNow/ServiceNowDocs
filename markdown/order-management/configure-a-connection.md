@@ -48,15 +48,15 @@ The following authentication types are available: bearer token, OAuth client cre
 
 9.  In the **Authentication type** field, select the credential method that the external system requires, then complete the fields for that authentication type.
 
-<table id="choicetable_ets_krs_djc"><thead><tr><th align="left" id="d57708e224">
+<table id="choicetable_ets_krs_djc"><thead><tr><th align="left" id="d58039e224">
 
 Authentication type
 
-</th><th align="left" id="d57708e227">
+</th><th align="left" id="d58039e227">
 
 Fields to complete
 
-</th></tr></thead><tbody><tr><td id="d57708e233">
+</th></tr></thead><tbody><tr><td id="d58039e233">
 
 **Bearer token**
 
@@ -64,7 +64,7 @@ Fields to complete
 
 In the **Authentication token** field, enter the token used to authenticate outbound requests.
 
-</td></tr><tr><td id="d57708e245">
+</td></tr><tr><td id="d58039e245">
 
 **OAuth client credentials**
 
@@ -76,7 +76,7 @@ In the **Authentication token** field, enter the token used to authenticate outb
 -   **Scope** \(optional\): the permissions granted to the token on the external system, if required.
 
 
-</td></tr><tr><td id="d57708e277">
+</td></tr><tr><td id="d58039e277">
 
 **JWT client credentials**
 

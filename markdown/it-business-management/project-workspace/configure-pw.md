@@ -27,7 +27,7 @@ Customize financials view, planning attributes, and activate scheduled jobs to w
 -   **[Configuring security for a project in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/configuring-security-for-a-project-in-pw.md)**  
 Configure security in a project to make the project confidential to ensure that only the authorized users can access the project and its sub projects and related entities.
 -   **[Configure project type fields and layouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/configure-project-type-pw.md)**  
-Define custom fields and a unique form layout to support configuration independence across different types of projects.
+Define custom fields, a unique form layout, and the visible modules to support configuration independence across different types of projects.
 
 **Parent Topic:**[Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/project-workspace-landing-page.md)
 

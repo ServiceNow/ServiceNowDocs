@@ -7,7 +7,7 @@ release: australia
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit
 topic_type: task
-last_updated: "2026-08-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configuring AI Skill Kit, AI Skill Kit, Enable AI experiences]
 ---
@@ -40,7 +40,7 @@ The **Deployment and skill settings** tab contains five sections that you can co
 
 4.  Configure the **Deployment settings** section.
 
-    \[Omitted image "nask-deploy-settings.png"\] Alt text: Deployment Settings page for AI Skill Kit.
+    \[Omitted image "nask-deploy-settings.png"\] Alt text: Deployment settings section for AI Skill Kit.
 
     Under **Now Assist features**, fill in the fields.
 
@@ -58,7 +58,7 @@ Workflow
 
 </td><td>
 
-The high-level category that this skill pertains to, such as **Technology**, **Employee**, **Creator**, or **Platform**. You can also select **Other** if none of the categories fit.
+High-level category for the skill, such as **Technology**, **Employee**, **Creator**, or **Platform**. You can also select **Other** if none of the categories fit.
 
  The workflow that you choose is where the skill appears in the AI Admin Hub console.
 
@@ -68,7 +68,7 @@ Product
 
 </td><td>
 
-The specific product that this skill operates within, such as ITSM, ITOM, HR Service Delivery, AI Admin Hub.
+Product that the skill operates within, such as ITSM, ITOM, HR Service Delivery, or AI Admin Hub.
 
 </td></tr><tr><td>
 
@@ -76,7 +76,7 @@ Feature
 
 </td><td>
 
-The feature that the skill is used on, such as Agent Chat, Knowledge, Virtual Agent. You can also define a custom feature if necessary.
+Feature that the skill is used in, such as Agent Chat, Knowledge, or Virtual Agent. You can also define a custom feature.
 
 </td></tr><tr><td>
 
@@ -84,7 +84,7 @@ Name
 
 </td><td>
 
-The name of the feature.
+Name of the feature.
 
 </td></tr><tr><td>
 
@@ -92,7 +92,7 @@ Description
 
 </td><td>
 
-A description of the feature.
+Description of the feature.
 
 </td></tr></tbody>
 </table>    Under **Select where you'd like to let the admin activate the skill**, select one or more activation points.
@@ -132,7 +132,7 @@ A description of the feature.
 
     For details about Now Assist consumption during prompt testing, see [Test a prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-kit/test-prompt-template.md).
 
-    1.  In the **Evaluation metrics** section, select the add icon \[Omitted image "icon-nask-add.png"\] Alt text: add icon.
+    1.  In the **Evaluation metrics** section, select the add icon \[Omitted image "icon-nask-add.png"\] Alt text:.
 
     2.  From the list of available metrics, select the metric that you want to add.
 
@@ -144,8 +144,8 @@ A description of the feature.
 
         |Tab|Description|
         |---|-----------|
-        |**About**|A description of the metric, how it works, when to use it, and its output format.|
-        |**Judge Prompt / Script**|The prompt that a language model uses to judge the response, or the script that evaluates the response, depending on how the metric is implemented.|
+        |About|Description of the metric, how it works, when to use it, and its output format.|
+        |Judge Prompt / Script|Prompt that a language model uses to judge the response, or script that evaluates the response, depending on how the metric is implemented.|
 
     4.  Select **Add**.
 

@@ -67,6 +67,8 @@ From the AI Admin Hub console, you can select the input tables, related lists, a
 
     Select only those related tables that are offered with the base system as part of the input data.
 
+    The skill evaluates content across the configured input fields \(short description, description, work notes, and additional comments\). The skill requires a minimum of 50 words of relevant content in those input fields to generate output. Configure input fields so incidents contain sufficient context.
+
     1.  For each input template state \(New, WIP, Resolved, and Closed\), select **+New related table field** and configure the base input table fields.
 
         Add multiple base input fields if more inputs are needed.
@@ -311,7 +313,7 @@ Closed
 
         -   **ServiceNow Otto panel**: When selected, AI skills are available in the Otto panel.
 
-            If you don't see this option, you must activate the Ottopanel. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
+            If you don't see this option, you must activate the Otto panel. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
             For the skills that appear in the Otto panel, select the down arrow to identify the roles that can use the skill.
 
@@ -358,4 +360,8 @@ Closed
 
     6.  Select **Done**.
 
+
+When setting inputs, follow the process in step 6. Editing the sn\_nowassist\_skill\_config\_var\_set record, specifically changing the **Resolution Choice** output field to anything other than **None**, is not a supported configuration.
+
+\[Omitted image "image.now-assist-itsm-customize-rel-notes1"\] Alt text: Resolution notes generation skill config var set record with resolution choice out field set to none.
 

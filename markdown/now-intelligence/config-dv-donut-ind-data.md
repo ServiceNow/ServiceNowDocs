@@ -171,9 +171,11 @@ List of breakdowns to choose from for grouping indicator scores.**Important:**
 -   Scripted breakdowns are not supported in dashboard filters.
 -   Only two levels of breakdown are supported in total, including data visualization and dashboard filters.
 
-Data snapshots indicators support only reference, boolean, and choice fields for group bys.
+ Each breakdown element is shown separately in the visualization. If a multiple select filter for that breakdown is also applied to the visualization, only the selected elements are shown. If you do not specify a breakdown in this field and apply a multiple select filter, the aggregate score of all selected breakdown elements is shown. For more information, see [Viewing multiple breakdown elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/view-multiple-breakdown-elements.md).
 
-For Data snapshots indicators, breakdowns are configured on the indicator source. For all other indicator data sources, breakdowns are configured on the indicator itself.
+ Data snapshots indicators support only reference, Boolean, and choice fields for group bys.
+
+ **Note:** For Data snapshots indicators, breakdowns are specified on the indicator source. For classic Performance Analytics indicators, breakdowns are specified on the indicator record.
 
 </td></tr><tr><td>
 

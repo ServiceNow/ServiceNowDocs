@@ -1,19 +1,19 @@
 ---
 title: ITSM MCP Server release notes
-description: Using the ServiceNow ITSM MCP Server application connect an AI-enabled Model Context Protocol \(MCP\) client application to your ServiceNow environment using the ITSM MCP Server. This connection enables incident and change management for service desk agents and IT managers, and enables requesters to check and manage their own tickets.Manage incidents, change requests, request items, and on-call schedules with the ITSM MCP Server. Empower requesters to handle their own tickets and access shared tools for approvals and ITSM data queries.
+description: The ServiceNow ITSM MCP Server application connects an AI-enabled Model Context Protocol \(MCP\) client application to your ServiceNow environment using the ITSM MCP Server. This connection enables incident and change management for service desk agents and IT managers, and enables requesters to check and manage their own tickets.Some of the ITSM MCP tools have been renamed and have also been made available to fulfillers and requesters in ITSM MCP Server in this release. Manage incidents, change requests, request items, and on-call schedules with the ITSM MCP Server. Empower requesters to handle their own tickets and access shared tools for approvals and ITSM data queries.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/itsm-mcp-server-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-08-25"
-reading_time_minutes: 3
-keywords: [ITSM MCP Server, change management, service catalog, change.query, change.relation, change.analyze]
+reading_time_minutes: 4
+keywords: [ITSM MCP Server, Model Context Protocol, incident management, change management, ITSM MCP Server, ITSM MCP Server, change management, service catalog, change.query, change.relation, change.analyze]
 breadcrumb: [IT Service Management release notes, Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
 
 # ITSM MCP Server release notes
 
-Using the ServiceNow® ITSM MCP Server application connect an AI-enabled Model Context Protocol \(MCP\) client application to your ServiceNow environment using the ITSM MCP Server. This connection enables incident and change management for service desk agents and IT managers, and enables requesters to check and manage their own tickets.
+The ServiceNow® ITSM MCP Server application connects an AI-enabled Model Context Protocol \(MCP\) client application to your ServiceNow environment using the ITSM MCP Server. This connection enables incident and change management for service desk agents and IT managers, and enables requesters to check and manage their own tickets.
 
 ## About ITSM MCP Server
 
@@ -28,21 +28,43 @@ Using ITSM MCP Server, manage incidents, change requests, and on-call schedule. 
 -   **On-call scheduling:** Retrieve rosters and shifts, request time off, and query availability through natural-language questions.
 
 
-See  for more information.
+See [ITSM MCP Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-mcp-server-overview.md) for more information.
 
 ## Activation and other requirements
 
 -   **Activation information**
 
-    ITSM MCP Server is available with activation of the following plugins:
+    Activate these plugins to use ITSM MCP Server:
 
-    -   ServiceNow Otto for IT Service Management \(ITSM\) plugin \(sn\_itsm\_gen\_ai\)
+    -   Now Assist for ITSM plugin \(sn\_itsm\_gen\_ai\)
     -   Model Context Protocol Server \(sn\_mcp\_server\)
     -   ITSM MCP Server \(sn\_itsm\_mcp\_server\)
-    For details, see .
+    For details, see [Activate the ITSM MCP Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/set-up-itsm-mcp-server.md).
 
 
 **Parent Topic:**[IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/it-service-management-rn-landing.md)
+
+## Australia Patch 7 and Version 3.3
+
+Some of the ITSM MCP tools have been renamed and have also been made available to fulfillers and requesters in ITSM MCP Server in this release.
+
+### What's changed
+
+-   **[Changes to the ITSM MCP Server tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-mcp-server-tools-reference.md)**
+    -   You need the sn\_mcp\_server.viewer role as the base role to access ITSM MCP server.
+    -   The **sn\_itsm\_mcp\_server.incident.get\_details** and **sn\_itsm\_mcp\_server.incident.modify** incident tools are available to both fulfillers and requesters.
+        -   As a fulfiller, you can use the **sn\_itsm\_mcp\_server.incident.modify** tool to also escalate incidents.
+        -   As a requester, you can use the **sn\_itsm\_mcp\_server.incident.get\_details** to check the status of a specific incident.
+    -   The **sn\_itsm\_mcp\_server.requester.add\_comment** tool has been renamed to **sn\_itsm\_mcp\_server.request.modify**.
+        -   As a requester, you can use the **sn\_itsm\_mcp\_server.request.modify** tool to add customer-visible comments to the requested items.
+        -   As a fulfiller, you can use the **sn\_itsm\_mcp\_server.incident.modify** to add customer-visible comments to incidents.
+
+### What's deprecated or removed
+
+-   **[Deprecated sn\_itsm\_mcp\_server.requester.escalate tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/manage-employee-experience-itsm-mcp-server.md)**
+
+    The **sn\_itsm\_mcp\_server.requester.escalate** tool is turned off by default. Use **sn\_itsm\_mcp\_server.incident.modify** with the **escalate** and **escalation\_reason** inputs instead.
+
 
 ## Australia Patch 4 and Version 3.2
 
@@ -61,7 +83,7 @@ Manage incidents, change requests, request items, and on-call schedules with the
     -   Search for similar incidents using semantic search with `incident.search_similar`, and look up assignment groups and users with `lookup_assignment_groups` and `lookup_users`.
     -   Search similar Knowledge Base \(KB\) articles using `incident.search_similar_kb`, and retrieve details for a published KB article using `incident.get_kb_details`.
     -   Link a KB article to an incident as a related reference using `incident.attach_kb`.
--   **Managing change requests**
+-   **[Managing change requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/manage-change-requests-itsm-mcp-server.md)**
 
     Use change management tools to query, analyze, and update change requests in the ITSM MCP Server.
 
@@ -71,7 +93,7 @@ Manage incidents, change requests, request items, and on-call schedules with the
     -   Analyze changes by recommending assignment groups, retrieving risk and impact data, and suggesting configuration items and templates with `change.analyze`.
     -   Retrieve, search, and aggregate change data, check schedules and conflicts, and score data quality with `change.query`.
     -   List tasks, affected CIs, approvals, incidents, problems, outages, and change policies with `change.relation`.
--   **Managing request items**
+-   **[Managing request items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/manage-employee-experience-itsm-mcp-server.md)**
 
     Use request item tools to create and manage your own tickets in the ITSM MCP Server.
 
@@ -80,7 +102,7 @@ Manage incidents, change requests, request items, and on-call schedules with the
     -   Create incidents or request catalog items through a guided workflow that includes knowledge base deflection, catalog item redirection, and duplicate detection using `requester.create_incident`.
     -   Escalate an incident's urgency with a mandatory reason using `requester.escalate`.
     -   Add customer-visible comments to your open incidents or requested items using `requester.add_comment`.
--   **Managing on-call schedules**
+-   **[Managing on-call schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/manage-on-call-schedule-itsm-mcp-server.md)**
 
     Use on-call management tools to look up coverage and manage your on-call schedule in the ITSM MCP Server.
 
@@ -88,7 +110,7 @@ Manage incidents, change requests, request items, and on-call schedules with the
 
     -   Identify current on-call engineers by assignment group or shift name, and view your next or active on-call shift details using `oncall.on_call_lookup`.
     -   Request time off from an on-call shift and arrange coverage through a two-phase analyze-and-create workflow using `oncall.timeoff_request`.
--   **Using ITSM MCP Server common tools**
+-   **[Using ITSM MCP Server common tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/itsm-mcp-server-tools-reference.md)**
 
     Use common tools to use with the ITSM MCP Server.
 

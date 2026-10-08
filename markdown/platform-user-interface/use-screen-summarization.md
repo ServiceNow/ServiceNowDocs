@@ -20,8 +20,6 @@ Install Screen Summarization by requesting it from the ServiceNow® Store. Visit
 
 Role required: workspace\_user
 
-## About this task
-
 \[Omitted video\] Description: Screen Summarization overview and instructions on how to use it
 
 ## Procedure

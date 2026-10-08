@@ -7,7 +7,7 @@ release: australia
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Explore, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -48,7 +48,7 @@ AI Search includes search features that help users find the answers they need.
 
 -   **Auto-correct typos in search query terms**
 
-    Automatically replace misspelled search query terms with spellings found in indexed content. Typo corrections are displayed above search results. Users can always choose to repeat the search with their original query terms.
+    Automatically replace misspelled search query terms with spellings found in indexed content. Typo corrections are displayed above search results. Users can choose to repeat the search with their original query terms.
 
     Typo handling auto-correction is a linguistic feature that search administrators configure in search profiles. For details on controlling the set of available auto-correction terms, see [Typo handling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/typo-handling-ais.md). AI Search supports derivation of auto-correction terms for Arabic, Brazilian Portuguese, Czech, Danish, Dutch, English, Finnish, French - Canada, French, German, Hebrew, Hungarian, Italian, Norwegian \(Bokmål\), Polish, Portuguese, Russian, Spanish, Swedish, and Turkish.
 

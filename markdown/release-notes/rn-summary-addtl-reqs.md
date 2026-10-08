@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/rn-summary-addtl-reqs.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-23"
-reading_time_minutes: 6
+last_updated: "2026-10-08"
+reading_time_minutes: 7
 breadcrumb: [Release notes summaries for Australia features, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
 
@@ -30,7 +30,7 @@ AI Admin Hub
 
 </td><td>
 
-The Next Experience UI Framework must be enabled before you can use the Now Assist panel.
+The Next Experience UI Framework must be enabled before you can use the ServiceNow Otto panel.
 
 </td></tr><tr><td>
 
@@ -60,6 +60,17 @@ You must enable Next Experience UI Framework before you can use the ServiceNow O
 
 </td></tr><tr><td>
 
+Advanced AI Search Management Tools
+
+</td><td>
+
+-   ****
+
+You must have the Usage Insights API application installed from the ServiceNow Store to use Advanced AI Search Management Tools.
+
+
+</td></tr><tr><td>
+
 Agentic Contact Center for Banking
 
 </td><td>
@@ -73,6 +84,17 @@ Agentic Contact Center for Insurance
 </td><td>
 
 This application requires ServiceNow Otto for Financial Services Operations \(FSO\). For activation and configuration details, see [ServiceNow Otto for Financial Services Operations \(FSO\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/now-assist-for-financial-services-operations-rn.md).
+
+</td></tr><tr><td>
+
+Autonomous Workforce
+
+</td><td>
+
+-   ****
+
+Your instance must be on Australia Patch 3.
+
 
 </td></tr><tr><td>
 
@@ -100,6 +122,17 @@ This application requires Financial Services Card Operations \(sn\_bom\_credit\_
 
 </td></tr><tr><td>
 
+External Content Connectors
+
+</td><td>
+
+-   ****
+
+Your instance needs inbound mTLS support to run external content connector crawls. If inbound mTLS support isn't already activated for your instance, it should be automatically activated after you install the External Content Connectors Application Suite plugin.
+
+
+</td></tr><tr><td>
+
 Financial Services Operations Integration with Verifi
 
 </td><td>
@@ -113,6 +146,17 @@ Interview management
 </td><td>
 
 The Hiring Core application provides essential data models and shared components for Hiring Experiences, and must be activated.
+
+</td></tr><tr><td>
+
+L1 IT Service Desk AI Specialist
+
+</td><td>
+
+-   ****
+
+Your instance must be on Australia Patch 5m.
+
 
 </td></tr><tr><td>
 
@@ -229,6 +273,94 @@ ServiceNow IDE
 </td><td>
 
 ServiceNow IDE uses the public npm registry \(`https://registry.npmjs.org`\) as its default package source. If your network blocks access to this registry, you must have access to an alternate registry to download packages and build applications in the ServiceNow IDE. If access to the public npm registry is blocked on your system, you must configure a private npm registry in your Package Manager user settings in the ServiceNow IDE. For more information, see .
+
+</td></tr><tr><td>
+
+ServiceNow Lux Lab for VS Code
+
+</td><td>
+
+-   ****
+
+The ServiceNow Lux Lab for VS Code extension requires the following:
+
+<table id="table_imf_rfb_dkc"><thead><tr><th>
+
+Application
+
+</th><th>
+
+Version
+
+</th><th>
+
+Resources for more information
+
+</th></tr></thead><tbody><tr><td>
+
+Visual Studio Code
+
+</td><td>
+
+1.97 later
+
+</td><td>
+
+[Visual Studio Code updates](https://code.visualstudio.com/updates/v1_132)
+
+</td></tr><tr><td>
+
+Node.js
+
+</td><td>
+
+24 or later
+
+</td><td>
+
+[Node.js](https://nodejs.org/en/download)
+
+</td></tr><tr><td>
+
+pnpm
+
+</td><td>
+
+10 or later
+
+</td><td>
+
+[pnpm](https://pnpm.io/installation)
+
+</td></tr><tr><td>
+
+ServiceNow SDK
+
+</td><td>
+
+4.12.1 or later
+
+</td><td>
+
+[ServiceNow SDK](https://www.npmjs.com/package/@servicenow/sdk)
+
+</td></tr><tr><td>
+
+ServiceNow instance
+
+</td><td>
+
+-   Australia Patch 5 or later
+-   Zurich Patch 12 or later
+
+
+</td><td>
+
+[Prepare your upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/rn-prepare-landing-page.md)
+
+</td></tr></tbody>
+</table>
+
 
 </td></tr><tr><td>
 

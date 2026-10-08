@@ -1,11 +1,11 @@
 ---
 title: Troubleshoot an AI skill
-description: Run diagnostics for a skill on AI Admin Hub and get information about the status of your skill configuration with AI Troubleshooting.
+description: Run diagnostics for a skill on the AI Admin Hub console to get information about the status of your skill configuration. The availability of diagnostics depends on the skill.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/troubleshoot-a-now-assist-skill.html
 release: australia
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 keywords: [Now Assist, skill, troubleshoot, diagnostic, nsa\_admin, Generative AI, GenAI]
 breadcrumb: [AI Admin Hub reference, AI Admin Hub, Enable AI experiences]
@@ -13,7 +13,7 @@ breadcrumb: [AI Admin Hub reference, AI Admin Hub, Enable AI experiences]
 
 # Troubleshoot an AI skill
 
-Run diagnostics for a skill on AI Admin Hub and get information about the status of your skill configuration with AI Troubleshooting.
+Run diagnostics for a skill on the AI Admin Hub console to get information about the status of your skill configuration. The availability of diagnostics depends on the skill.
 
 ## Before you begin
 
@@ -21,7 +21,7 @@ Role required: sn\_nowassist\_admin.nsa\_admin
 
 ## About this task
 
-Certain skills have diagnostic scripts that you can run from the AI Admin Hub. These diagnostic scripts check for successful skill execution and setup of the underlying [capability definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/generative-ai-controller/reference-for-generative-ai-controller.md). If you've created a copy of a skill, you will not be able to run diagnostics on the skill copy.
+Certain skills have diagnostic scripts that you can run from the AI Admin Hub console. These diagnostic scripts check for successful skill execution and setup of the underlying [capability definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/generative-ai-controller/reference-for-generative-ai-controller.md). If you've made a copy of a skill, you will not be able to run diagnostics on the skill copy.
 
 ## Procedure
 
@@ -31,11 +31,11 @@ Certain skills have diagnostic scripts that you can run from the AI Admin Hub. T
 
 2.  In the navigation pane, select the workflow of the skill that you want to troubleshoot, such as **Technology** or **Customer**.
 
-3.  On the feature card that contains the skill you want to troubleshoot, select **View details**.
+3.  In the All skills or Active skills section, locate the card for the skill you want to troubleshoot.
 
-4.  In the All available skills or Active skills section, select the more options icon \[Omitted image "naa-more-options-icon.png"\] Alt text: More options icon. next to the skill that you want to make a copy of and select **Run diagnostics**.
+4.  Select the more options icon \[Omitted image "naa-more-options-icon.png"\] Alt text: More options icon. for the skill, then select **Run diagnostics**.
 
-    **Run diagnostics** option is not applicable for skills where this option is not available or applicable.
+    **Note:** **Run diagnostics** is grayed out or not visible when this option is unavailable.
 
 5.  After the diagnostics are complete, review the results of each test.
 

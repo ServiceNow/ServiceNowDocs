@@ -34,15 +34,15 @@ Role required: sn\_acct\_lc.customer\_success\_agent, sn\_ind\_tsm\_sdwan.app\_e
 
 5.  Select **Compose touchpoint**, and then select one of the following from the drop-down list.
 
-<table id="choicetable_qqm_jnx_fkc"><thead><tr><th align="left" id="d23711e114">
+<table id="choicetable_qqm_jnx_fkc"><thead><tr><th align="left" id="d23715e114">
 
 Option
 
-</th><th align="left" id="d23711e117">
+</th><th align="left" id="d23715e117">
 
 Details
 
-</th></tr></thead><tbody><tr><td id="d23711e123">
+</th></tr></thead><tbody><tr><td id="d23715e123">
 
 **Meeting**
 
@@ -54,7 +54,7 @@ Select this option to schedule a new meeting.1.  Select **Meeting** to schedule 
 4.  Select **Save**.
 
 
-</td></tr><tr><td id="d23711e159">
+</td></tr><tr><td id="d23715e159">
 
 **Email**
 

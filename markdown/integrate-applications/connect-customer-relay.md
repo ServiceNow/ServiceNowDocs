@@ -36,7 +36,9 @@ Role required: sn\_zc\_tunnel.relay\_manager
 
     **Note:** After successful registration, a record ID is stored in the `config.yaml` file. Do not modify or remove this value.
 
-5.  6.  Register backend services to the relay.
+5.  In the relay record, select **Recreate gateways** to recreate a gateway instance.
+
+6.  Register backend services to the relay.
 
     1.  Note the fully qualified domain name \(FQDN\) and port number of the data source you want to access through the tunnel.
 

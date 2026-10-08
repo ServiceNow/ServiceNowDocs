@@ -26,15 +26,15 @@ Role required: itil or admin
 
 1.  Create a new change request.
 
-<table id="choicetable_vrd_rrt_tsb"><thead><tr><th align="left" id="d181412e55">
+<table id="choicetable_vrd_rrt_tsb"><thead><tr><th align="left" id="d182861e55">
 
 Source
 
-</th><th align="left" id="d181412e58">
+</th><th align="left" id="d182861e58">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d181412e64">
+</th></tr></thead><tbody><tr><td id="d182861e64">
 
 **Change list**
 
@@ -50,7 +50,7 @@ Description
 2.  Select **New**.
 
 
-</td></tr><tr><td id="d181412e100">
+</td></tr><tr><td id="d182861e100">
 
 **From a change template**
 
@@ -71,7 +71,7 @@ Description
 
 For more information on change templates, see [Create and propose a change template in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/service-operations-workspace/create-change-template-sow.md).
 
-</td></tr><tr><td id="d181412e165">
+</td></tr><tr><td id="d182861e165">
 
 **Incident**
 
@@ -81,7 +81,7 @@ For more information on change templates, see [Create and propose a change templ
 2.  In the incident record form, select **Create change request**.
 
 
-</td></tr><tr><td id="d181412e187">
+</td></tr><tr><td id="d182861e187">
 
 **Interaction**
 
@@ -91,7 +91,7 @@ For more information on change templates, see [Create and propose a change templ
 2.  In the interaction record form, from the **Create incident** drop-down list, select **Create change**.
 
 
-</td></tr><tr><td id="d181412e211">
+</td></tr><tr><td id="d182861e211">
 
 **Problem**
 

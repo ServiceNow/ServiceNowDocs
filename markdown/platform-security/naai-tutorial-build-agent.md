@@ -66,7 +66,7 @@ For a full explanation of how ACLs and user identities interact across the agent
 
 If your agent runs as a dynamic user, use role masking to define an allow-list of roles the agent can inherit from the invoking user. This enforces least-privilege access during tool execution and helps prevent agentic overreach — the agent cannot use roles beyond what is explicitly permitted, even if the invoking user has broader access.
 
-See [Role masking in AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-role-masking.md) for an explanation of how role masking works across the agent, workflow, and tool layers, and see [Define security controls for an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aia.md) for configuration steps.
+See  for an explanation of how role masking works across the agent, workflow, and tool layers, and see [Define security controls for an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aia.md) for configuration steps.
 
 ## Next step
 

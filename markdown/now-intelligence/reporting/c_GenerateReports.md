@@ -27,7 +27,7 @@ The ServiceNow system includes a range of predefined reports that provide data o
 -   **[View a report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/t_RunAReport.md)**  
 Open a report in the Report Designer to view current data in an existing report.
 -   **[Create a report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/t_CreateYourOwnReport.md)**  
-On instance upgraded to Australia, you can create Core UI reports in the legacy Report Designer tool to visualize and analyze current instance data or temporary data that you have imported.
+Create Core UI reports in the legacy Report Designer tool to visualize and analyze instance data.
 -   **[View the Reports list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/r_ViewTheReportsList.md)**  
 View a list of reports and create reports from the Reports list.
 -   **[Copy a report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/reporting/copy-report.md)**  

@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/australia/environmental-social-
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Configuring GRC: Metrics, GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
@@ -48,12 +48,14 @@ Threshold evaluation does not apply to ad hoc metric data tasks. For more inform
 
     -   If the threshold configuration validation is successful, the threshold is saved and becomes active based on the configured settings.
     -   If validation errors occur, the system displays error messages indicating the specific field and recommended actions. Review these messages and correct the issues before resubmitting.
-    The configured threshold is now active for the metric. When the Enable threshold breach monitoring check box is selected, the system monitors metric values and immediately triggers the specified actions when threshold levels are exceeded. Metric values are displayed with the appropriate color indicators in dashboards and reports.
+    The configured threshold is now active for the metric. When the Enable threshold breach monitoring option is selected, the system monitors metric values and immediately triggers the specified actions when threshold levels are exceeded. Metric values are displayed with the appropriate color indicators in dashboards and reports. Clearing the Enable threshold breach monitoring option hides the threshold justification field on affected metric data tasks.
 
 
 ## What to do next
 
 To add custom actions that trigger on threshold breach, see the [How to Add Custom Actions on Threshold Breach in GRC Metrics \[KB3072359\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB3072359) article in the Now Support Knowledge Base.
+
+You can edit or remove a threshold to keep the threshold ratings accurate. Editing a threshold recalculates the rating and breach status for associated metric data and metric definition data. Deleting or deactivating a threshold recalculates them against any other applicable threshold, and clears them if none applies. In either case, metric data that is already closed or completed keeps its existing rating.
 
 **Parent Topic:**[Configuring GRC: Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/environmental-social-governance/configuring-grc-metrics.md)
 

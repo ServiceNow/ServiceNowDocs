@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experienc
 release: australia
 topic_type: reference
 last_updated: "2026-05-11"
-reading_time_minutes: 5
+reading_time_minutes: 7
 keywords: [AI Control Tower, installed components, plugins, roles, tables]
 breadcrumb: [Reference, AI Control Tower, Enable AI experiences]
 ---
@@ -42,6 +42,7 @@ The following plugins extend AI Control Tower with capabilities for discovery, s
 |AWH for AI Control Tower|sn\_awh\_config|Configures the Agent Workspace Hub for AI Control Tower.|
 |ServiceNow AI Lens|sn\_ai\_lens|Provides AI reporting and lens capabilities.|
 |Asset Classes|sn\_ent|Required for AI Assets API access. Activate this plugin before configuring API-based integrations to the AI Asset records.|
+|Enterprise Architecture for AICT|com.sn\_ea\_aict|Provides the shared many-to-many data model connecting AI systems and business applications, independently of the plugin. For more information, see [Enterprise Architecture for AICT plugin installation and upgrade considerations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-ea-common-upgrade-considerations.md).|
 
 ## Roles installed
 
@@ -69,11 +70,24 @@ Leads the execution of AI Control Tower initiatives, configures governance and a
 
 </td><td>
 
--   sn\_ai\_governance.workspace\_admin
 -   sn\_nowassist\_admin.user
 -   sn\_aia.admin
 -   aig\_admin
 -   sn\_mcp\_client.admin
+
+</td></tr><tr><td>
+
+Workspace Administrator
+
+ \[sn\_ai\_governance.workspace\_admin\]
+
+</td><td>
+
+Configures the widgets on AI Control Tower pages, including titles, chart types, list sizes, and record conditions. Widget configurations that this role saves apply to all users on the instance.
+
+</td><td>
+
+sn\_ai\_governance.workspace\_user
 
 </td></tr><tr><td>
 
@@ -437,5 +451,27 @@ AI Usage
 
 Usage records imported from hyperscaler and external AI platform connectors. Installed with the AI Discovery plugin. Consumed by the AI Control Tower value dashboard.
 
+</td></tr><tr><td>
+
+Business Application Product Model Map
+
+ \[sn\_ea\_aict\_ba\_product\_model\_map\]
+
+</td><td>
+
+Many-to-many association table between AI System Component Product Model records and business applications. Installed with the Enterprise Architecture for AICT plugin.
+
 </td></tr></tbody>
-</table>
+</table>## Scheduled jobs installed
+
+|Scheduled job|Description|
+|-------------|-----------|
+|Migrate BA Product Model Map from EA Workspace|Migrates existing AI system-to-business application associations from the Enterprise Architecture Workspace map \[sn\_apm\_ws\_ba\_product\_model\_map\] to the Enterprise Architecture for AICT map \[sn\_ea\_aict\_ba\_product\_model\_map\]. Installed with the Enterprise Architecture for AICT plugin. This job doesn't run automatically. For steps, see [Run the Migrate BA Product Model Map job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-run-migrate-ba-product-model-map-job.md).|
+
+**Related topics**  
+
+
+[Enterprise Architecture for AICT plugin installation and upgrade considerations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aict-ea-common-upgrade-considerations.md)
+
+[Run the Migrate BA Product Model Map job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-run-migrate-ba-product-model-map-job.md)
+

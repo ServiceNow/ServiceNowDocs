@@ -1,6 +1,6 @@
 ---
 title: Managing Contract Management Pro
-description: As administrator work on managing the word document templates, contracts and view analytics.
+description: As an administrator, manage contract templates, contract records, and analytics for Contract Management Pro.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-manage-cmpro.html
 release: australia
@@ -15,7 +15,7 @@ breadcrumb: [Contract Management Pro, Legal and Contract Operations, Employee Se
 
 # Managing Contract Management Pro
 
-As administrator work on managing the word document templates, contracts and view analytics.
+As an administrator, manage contract templates, contract records, and analytics for Contract Management Pro.
 
 -   **[Manage clauses, tables, and contract templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-manage-clauses-ctemplates.md)**  
 As administrator manage clauses and contract templates.

@@ -9,7 +9,7 @@ classification: policy-and-compliance-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Managing mobile experience for GRC Policy and Compliance
@@ -68,5 +68,5 @@ Reassign overdue issues that are assigned to your assignment group. Navigate thr
 -   **[Filter records with the GRC Mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/policy-and-compliance-management/mobile-pc-set-filters.md)**  
 Set additional filters to limit the number of records that are displayed on a screen. Filtering records in the mobile app works like filtering with a condition builder on the ServiceNow AI Platform.
 
-**Parent Topic:**[Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/policy-and-compliance-management/r_PolicyComplianceMgmt.md)
+**Parent Topic:**[Use Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/policy-and-compliance-management/use-policy-compliance-mgmt.md)
 

@@ -7,7 +7,7 @@ release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Create a Microsoft Excel download request, Use digital resilience third-party registers, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -161,7 +161,7 @@ Enable currency conversion
 
 Option to convert each contract’s annual expense into a single base currency using historical exchange rates from the European Central Bank \(ECB\).**Note:** The Reference Date on the report determines the exchange rate used. Converted amounts appear only in the generated package; source records are unchanged.
 
-For more information, see [Currency conversion and third-party total expense aggregation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-dora-currency-aggregation.md)
+For more information, see [Currency conversion and third-party expense aggregation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-dora-currency-aggregation.md)
 
 </td></tr><tr><td>
 
@@ -171,7 +171,7 @@ Enable third‑party total expense aggregation
 
 Option to aggregate annual expenses across all contracts belonging to the same third‑party provider or third‑party engagement.**Note:** Aggregation only happens if all eligibility rules are met: All contracts for the provider must meet provider eligibility criteria \(for example, single‑provider contracts and currency alignment\). If currency conversion is not enabled, all contracts must already be in base currency. If currency conversion is enabled, all conversions must succeed.
 
-For more information, see [Currency conversion and third-party total expense aggregation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-dora-currency-aggregation.md)
+For more information, see [Currency conversion and third-party expense aggregation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-dora-currency-aggregation.md)
 
 </td></tr><tr><td>
 
@@ -192,4 +192,5 @@ Report type
 Specifies whether the report covers a single entity **Individual** or a **Consolidated** group of entities.
 
 </td></tr></tbody>
-</table>
+</table>**Note:** When you generate a Functions-type Excel master template or CSV download, and a dropdown field on the Details tab references a table with more than 10,000 rows, most commonly the configuration management database \(CMDB\) tables `cmdb_ci_service`, `cmdb_ci_business_process`, `service_offering`, or `cmdb_ci_business_capability`. The system limits that dropdown to the first 10,000 options rather than loading every row, to avoid exceeding the platform's maximum payload size for a single export. Options beyond the limit aren't included in the dropdown.
+

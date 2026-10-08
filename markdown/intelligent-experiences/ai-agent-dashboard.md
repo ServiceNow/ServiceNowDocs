@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experienc
 release: australia
 topic_type: concept
 last_updated: "2026-07-21"
-reading_time_minutes: 19
+reading_time_minutes: 18
 breadcrumb: [Reference, AI Agent Studio \(legacy\), Enable AI experiences]
 ---
 
@@ -1524,7 +1524,7 @@ Score card
 
 </td><td>
 
-Total number of agentic workflows without roles identified for [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aia-role-masking.md) and data access.
+Total number of agentic workflows without roles identified for role masking and data access.
 
 </td></tr><tr><td>
 

@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experienc
 release: australia
 topic_type: concept
 last_updated: "2026-08-31"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Integrate external AI agents, AI Agent Studio, Enable AI experiences]
 ---
 
@@ -26,7 +26,29 @@ You can use the same OAuth or API key for authenticating the agent discovery and
 
 To verify that your AI agent is running from the ServiceNow side, during a conversation with the AI agent, you can go to the **Execution Plan \[sn\_aia\_execution\_plan\]** table. From the Execution Plan table, you can identify the execution plan based on the **Objective** field that contains the prompt from the conversation on the other platform.
 
-For more information about setting up instructions for your ServiceNow AI agents as secondary agents \(acting as A2A server\), refer to [Authentication for Google A2A - ServiceNow as Secondary Agent](https://www.servicenow.com/community/now-assist-articles/authentication-for-google-a2a-servicenow-as-secondary-agent/ta-p/3446091).
+For more information about setting up instructions for your ServiceNow AI agents as secondary agents \(acting as A2A server\), refer to [Authentication for A2A - ServiceNow as Secondary Agent](https://www.servicenow.com/community/now-assist-articles/authentication-for-google-a2a-servicenow-as-secondary-agent/ta-p/3446091).
 
-For more information about sample payloads for Google A2A with ServiceNow AI agent as Secondary agent, see [Sample payloads for Google A2A](https://www.servicenow.com/community/now-assist-articles/sample-payloads-for-google-a2a-servicenow-as-secondary-agent/ta-p/3451904).
+For more information about sample payloads for A2A with ServiceNow AI agent as Secondary agent, see [Sample payloads for A2A](https://www.servicenow.com/community/now-assist-articles/sample-payloads-for-google-a2a-servicenow-as-secondary-agent/ta-p/3451904).
+
+## Agent-to-UI \(A2UI\) protocol support for secondary agents
+
+The A2UI protocol allows interactions that enable agents to drive UI workflows and receive structured responses from user interface surface with more advanced visual responses in external systems when connecting to ServiceNow agents. To enable the A2UI protocol, you must:
+
+-   Turn on the **sn\_aia.external\_agents.a2ui.enabled** system property to **true**, whose default value is **false**.
+-   Route the A2A deployment through off-glide experience. The A2UI responses can only be built on the off-glide path. Verify that the **sn\_nowassist\_va.show\_ai\_native\_experience** system property to **true** and the A2A deployment record experience to **AI native** in the **sys\_now\_assist\_deployment\_channel**, as shown in the following image:
+
+    \[Omitted image "a2ui-channel.png"\] Alt text: Enable AI native chat for AI Agent A2A Provider Application.
+
+-   Check the agent card. When you enable the system properties mentioned earlier, the card adds the extension under **capabilities.extensions**. If the property is enabled but the off-glide experience isn't setup, then the extension is left off the card without any warning. The only sign is an error in the log.
+-   Have the calling client request A2UI on each call. The client has to:
+    -   Send the header `X-A2A-Extensions`. For example, `https://a2ui.org/aa-extension/a2ui/v0.9`.
+
+        **Note:** Only versions **0.9** is supported.
+
+    -   Include `application/json+a2ui` or `application/json` if it sets the `configuration.accpetedOutputModes`. Without one of those, the requests is rejected with `InvalidAccpetedOutputModes`.
+
+        To get v1 when ServiceNow acts as primary agent, the premium chat should be enabled in the respective assistant this agent is being executed from. Refer to the [Premium Chat experience](https://www.servicenow.com/community/servicenow-ai-platform-blog/premium-chat-101-meet-servicenow-s-newest-conversational/ba-p/3590724) article on how that can be enabled.
+
+
+For more information about A2UI, see [A2UI documentation](https://a2ui.org/).
 

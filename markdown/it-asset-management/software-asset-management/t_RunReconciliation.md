@@ -7,7 +7,7 @@ release: australia
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Software license usage, Use SAM Core UI, Software Asset Management, IT Asset Management, Asset Management]
 ---
@@ -25,6 +25,8 @@ Role required: sam\_admin
 Reconciliation is run for products that have software entitlements or software installs. Grouping and subgrouping are supported so you can narrow the compliance results.
 
 When running reconciliation manually, allow enough time for the process to complete. For faster results, narrow the scope by selecting specific publishers.
+
+**Note:** The classic path requires the legacy SAM module. If the classic menu is not visible, use the reconciliation task in SAM Workspace reconciliation task instead.
 
 ## Procedure
 

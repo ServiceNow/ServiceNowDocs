@@ -17,7 +17,7 @@ Bring discovered or imported AI assets into your governance program by moving th
 
 ## Before you begin
 
-Role required: sn\_ai\_governance\_ai\_steward
+Role required: sn\_ai\_governance.ai\_steward
 
 ## Procedure
 

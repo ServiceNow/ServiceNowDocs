@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/enable-comm-channels.html
 release: australia
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure, Customer Service Management]
 ---
@@ -28,12 +28,12 @@ Set up multiple communication channels so that customers can contact you through
 
 </td><td>
 
-[Phone\[Omitted image "bus-customer-service-agent.svg"\] Alt text:Configure Computer Telephony Integration \(CTI\)- based phone support for customers using OpenFrame and ServiceNow native voice controls via Interaction Controls Component \(ICC\). Integrate with a third-party telephony system via CCaaS integration, and use the call capability within your Workspace.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/c_PhoneCommunication.md)
+[Voice\[Omitted image "bus-customer-service-agent.svg"\] Alt text:Configure voice call support by using OpenFrame and Interaction Controls Component \(ICC\). Integrate with a third-party telephony system through CCaaS integration to handle calls in the Workspace. Alternatively, enable WebRTC voice calls directly from portal pages or Engagement Messenger.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/c_PhoneCommunication.md)
 
 </td></tr></tbody>
 </table>## Communication channels overview
 
-Configure communication channels for users to email, call, or chat, and integrate social media channels. This ensures users can reach your team through their preferred method for assistance.
+Configure communication channels for users to email, call, or chat, and integrate social media channels. This helps users reach your team through their preferred method for assistance.
 
 -   **[Consumer messaging apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/messg-integrate-channels.md)**
 
@@ -49,10 +49,12 @@ Configure communication channels for users to email, call, or chat, and integrat
 
 -   **[Phone channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/c_PhoneCommunication.md)**
 
-    Computer Telephony Integration \(CTI\) helps integrate a third-party telephony system to your ServiceNow Workspace via OpenFrame and Interaction Controls Component \(ICC\). Any third-party Contact Center as a Service \(CCaaS\) platform \(like Amazon Connect or Genesys\) can integrate to the ServiceNow CRM Platform. CCaaS can integrate their voice call controls and workflows into their provisioned instance to enable agents to handle phone calls directly within their Workspace.
+    Computer Telephony Integration \(CTI\) helps integrate a third-party telephony system to your ServiceNow Workspace via OpenFrame and Interaction Controls Component \(ICC\). Any third-party Contact Center as a Service \(CCaaS\) platform \(like Amazon Connect, Genesys, and others\) can integrate to the ServiceNow CRM Platform. CCaaS can integrate their voice call controls and workflows into their provisioned instance to enable agents to handle phone calls directly within their Workspace.
+
+    You can also use voice call widgets using WebRTC to make calls directly from portal pages or the Engagement Messenger. Call context stays intact as customers navigate between pages. These calls connect to AI Voice Agents to deliver conversational voice experiences without relying on contact center platforms.
 
     [Omnichannel Callback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/configure-omni-callback.md)
 
-    Set up and configure Omnichannel Callback for Customer Service Management to enable customers to request voice or video callbacks. Customize the feature to meet your organization’s needs, enhancing customer experience and optimizing case resolution efficiency.
+    Set up and configure Omnichannel Callback for Customer Service Management to enable customers to request voice or video callbacks. Customize the feature to meet your organization's needs, enhancing customer experience and optimizing case resolution efficiency.
 
 

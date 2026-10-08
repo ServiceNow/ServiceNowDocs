@@ -42,7 +42,7 @@ The September 2026 release adds configurable fulfillment milestones to track ord
 
 ### What's new
 
--   **Order Fulfillment Milestones**
+-   ****
 
     Track order progress through configurable fulfillment milestones mapped to order specifications. Milestones are automatically generated when order lines are created and can be manually marked as reached. View milestone details, track milestone status on order lines, and associate milestones with tasks for integrated fulfillment tracking and visibility.
 

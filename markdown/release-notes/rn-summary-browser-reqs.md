@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/rn-summary-browser-reqs.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-23"
-reading_time_minutes: 3
+last_updated: "2026-10-08"
+reading_time_minutes: 4
 breadcrumb: [Release notes summaries for Australia features, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
 
@@ -38,7 +38,7 @@ AI Admin Hub
 
 </td><td>
 
-Now Assist supports various browsers, including Google Chrome and Microsoft Edge. Now Assist isn’t supported in Internet Explorer.
+ServiceNow Otto supports various browsers, including Google Chrome and Microsoft Edge. ServiceNow Otto isn’t supported in Internet Explorer.
 
 </td></tr><tr><td>
 
@@ -47,6 +47,28 @@ AI Agent Studio
 </td><td>
 
 AI agents and AI Agent Studio support various browsers, including Google Chrome and Microsoft Edge. AI agents and AI Agent Studio aren't supported in Internet Explorer.
+
+</td></tr><tr><td>
+
+AI Desktop Actions
+
+</td><td>
+
+-   ****
+
+ServiceNow Otto AI agents support various browsers, including Google Chrome and Microsoft Edge. ServiceNow Otto AI agents aren't supported in Internet Explorer.
+
+
+</td></tr><tr><td>
+
+AI Search
+
+</td><td>
+
+-   ****
+
+For optimal performance, use AI Search in the latest release of Google Chrome or Mozilla Firefox. AI Search doesn’t support Internet Explorer.
+
 
 </td></tr><tr><td>
 
@@ -63,6 +85,16 @@ Agent experience for CSM
 </td><td>
 
 ServiceNow workspaces don’t support mobile devices, Internet Explorer, or Microsoft Edge. Instead, use Microsoft Edge - Chromium or one of the other supported browsers listed in [Browser support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/browser-support.md).
+
+</td></tr><tr><td>
+
+Automated Test Framework
+
+</td><td>
+
+Automated Test Framework supports running tests only from desktop browsers. You can't run tests or test suites from tablets, mobile browsers, or the mobile UI. Some desktop browsers require additional configuration. For more information, see .
+
+Automated Test Framework offers limited support for test design on tablets. You can't add new custom UI test steps from tablets because tablets can't retrieve components. Review any existing custom UI test steps that were added from a desktop browser instead.
 
 </td></tr><tr><td>
 
@@ -87,6 +119,17 @@ Digital End-User Experience
 </td><td>
 
 Enable the DEX browser extension to monitor web applications for various operational or performance-based metrics on your system. For more information, see [Enable DEX browser extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/enable-dex-browser-extension.md).
+
+</td></tr><tr><td>
+
+External Content Connectors
+
+</td><td>
+
+-   ****
+
+For optimal performance, use External Content Connectors in the latest release of Google Chrome or Mozilla Firefox. Internet Explorer isn't supported.
+
 
 </td></tr><tr><td>
 

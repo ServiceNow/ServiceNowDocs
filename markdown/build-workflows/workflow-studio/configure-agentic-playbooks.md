@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2026-05-27"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
-breadcrumb: [Agentic Playbooks, Workflow Studio, Build workflows]
+breadcrumb: [Agentic Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Configuring Agentic Playbooks

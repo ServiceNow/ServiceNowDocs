@@ -128,7 +128,7 @@ Resource Schedule Attributes\[wm\_agent\_schedule\_attribute\_plan\]
 
 </td><td>
 
-Stores the attributes like start date, end date, start location, end location, shift hours etc of agents.
+Stores the attributes like start date, end date, start location, end location, shift hours, and pre-break and post-break buffers of agents. The buffers set for an agent override the global break buffer.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Components installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/r_InstalledWithFSM.md)

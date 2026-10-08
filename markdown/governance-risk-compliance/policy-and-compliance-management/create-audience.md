@@ -9,7 +9,7 @@ classification: policy-and-compliance-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Set up campaign, Acknowledge policy, Manage, Classic UI, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Set up campaign, Acknowledge policy, Manage, Classic UI, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Create an audience
@@ -32,7 +32,7 @@ Role required: sn\_compliance\_admin or sn\_compliance\_manager
 
 5.  Use the three tabs to identify members for this audience.
 
-<table id="choicetable_iyr_syf_mjb"><tbody><tr><td id="d97934e101">
+<table id="choicetable_iyr_syf_mjb"><tbody><tr><td id="d99390e101">
 
 **Users**
 
@@ -40,7 +40,7 @@ Role required: sn\_compliance\_admin or sn\_compliance\_manager
 
 Click **Edit** and add one or more individual users to the audience.
 
-</td></tr><tr><td id="d97934e113">
+</td></tr><tr><td id="d99390e113">
 
 **Groups**
 
@@ -48,7 +48,7 @@ Click **Edit** and add one or more individual users to the audience.
 
 Click **Edit** and add one or more predefined groups of users to the audience.
 
-</td></tr><tr><td id="d97934e125">
+</td></tr><tr><td id="d99390e125">
 
 **User Filters**
 

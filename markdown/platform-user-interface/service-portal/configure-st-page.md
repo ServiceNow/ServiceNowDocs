@@ -214,5 +214,5 @@ Configure summary fields on the standard ticket page such that the page displays
 
 [Configure actions for standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/configure-actions-for-standard-ticket-page.md)
 
-[Standard Ticket Page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-standard-ticket-page.md)
+[ServiceNow Otto in Standard Ticket Page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-in-standard-ticket-page.md)
 

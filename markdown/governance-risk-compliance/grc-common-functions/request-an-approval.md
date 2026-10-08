@@ -28,15 +28,15 @@ Role required: sn\_grc\_appr.approver
 
 2.  Select the approval type that you want to request.
 
-<table><thead><tr><th align="left" id="d81626e66">
+<table><thead><tr><th align="left" id="d83061e66">
 
 Approval type
 
-</th><th align="left" id="d81626e69">
+</th><th align="left" id="d83061e69">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d81626e75">
+</th></tr></thead><tbody><tr><td id="d83061e75">
 
 **__State Change__**
 
@@ -44,7 +44,7 @@ Action
 
 Attempt to move the record past the state that requires approval. The approval request is created automatically.
 
-</td></tr><tr><td id="d81626e86">
+</td></tr><tr><td id="d83061e86">
 
 **__Due Date Extension__**
 

@@ -34,6 +34,8 @@ Role required: sn\_icw\_igt.user or sn\_icw\_igt.expert
 
     For a description of the field values, see [Industrial Guided Task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/industrial-guided-task-form.md).
 
+    The **Priority** field defaults to **2 - This shift**. You can change it if needed.
+
 5.  Select **Save**.
 
 
@@ -44,6 +46,7 @@ The new industrial guided task is displayed in the following lists:
 -   List of all tasks
 -   List of industrial guided tasks
 -   The **Open tasks** tab for an Industrial Guided Task standard
+-   The **My tasks** list, if the task is assigned to you
 
 **Parent Topic:**[Using Industrial Guided Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/using-industrial-guided-tasks.md)
 

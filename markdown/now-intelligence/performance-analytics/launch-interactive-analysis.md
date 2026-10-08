@@ -7,7 +7,7 @@ release: australia
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
 breadcrumb: [Interactive Analysis, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---

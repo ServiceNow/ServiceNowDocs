@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-xanadu-australia/australia-xanadu-erpsemanticmining-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 5
+last_updated: "2026-10-08"
+reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
 
@@ -106,6 +106,19 @@ Yokohama
 -   **[Reset AI/ML analysis to control the ML training](https://www.servicenow.com/docs/access?context=erpcm-check-data-connection&family=yokohama&ft:locale=en-US)**
 
 Use **Reset AI/ML analysis** option to clear the AI/ML analysis so the flow can run again.
+
+
+ -   **[ERP Semantic Mining dashboard](https://www.servicenow.com/docs/access?context=erpcm-obtaining-statistics-and-mining-analysis&family=yokohama&ft:locale=en-US)**
+
+View statistics about mining results and candidates on the home page dashboard.
+
+-   **[Guided tours in ERP Customization Mining](https://www.servicenow.com/docs/access?context=guided-tours-in-erp-customization-mining&family=yokohama&ft:locale=en-US)**
+
+Learn about features and complete tasks through interactive steps by taking guided tours within ERP Semantic Mining.
+
+-   **[Updated home page](https://www.servicenow.com/docs/access?context=erpcm-obtaining-statistics-and-mining-analysis&family=yokohama&ft:locale=en-US)**
+
+The new home page provides a dashboard showing metrics through charts and graphs related to ERP Semantic Mining.
 
 
 </td></tr><tr><td>
@@ -302,6 +315,8 @@ Yokohama
 Install ERP Semantic Mining by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=yokohama&ft:locale=en-US).
 
 
+**Important:** ERP Semantic Mining is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Zurich
@@ -312,6 +327,8 @@ Zurich
 
 Install ERP Semantic Mining by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=zurich&ft:locale=en-US).
 
+
+**Note:** ERP Semantic Mining is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr><tr><td>
 

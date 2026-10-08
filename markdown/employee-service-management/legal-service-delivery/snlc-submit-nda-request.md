@@ -28,7 +28,9 @@ Submit a legal request for a non-disclosure agreement \(NDA\) with third parties
 
     **Note:** If you're using Legal Service Portal, you can submit a legal request by navigating to the Legal Service Portal and selecting a request from the **Service Catalog**.
 
-2.  Navigate **Help center** &gt; **Legal services**.
+2.  Navigate **Help center** &gt; **Legal services** &gt; **Legal agreements**.
+
+    **Note:** In new deployments, the base system legal contract intake forms \(Non-disclosure agreement, Third-party contract review, and Contract Amendment and Renewal request\) are hidden by default. On enabling they will be available under **Home** &gt; **Legal Services** &gt; **Legal agreements**. If you are upgrading from an existing deployment, your current intake form visibility settings are unchanged.
 
 3.  Search for and open the **Non-disclosure agreement** request item.
 
@@ -162,7 +164,7 @@ The default signature type is Electronic Signature.
     A record for each external signatory is created in the Signer \[sn\_cm\_core\_signer\] table.
 
 
-For more information on how to view and track a legal request, see [View and track non-disclosure agreement requests as a legal user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-view-legal-req-details.md).
+For more information on how to view and track a legal request, see [View and track NDA requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-view-legal-req-details.md).
 
 **Parent Topic:**[Non-disclosure agreement requests]()
 

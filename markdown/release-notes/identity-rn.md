@@ -62,7 +62,7 @@ The ServiceNow® Identity application supports mechanisms that let you validate 
 
 ### What's changed
 
--   **[Role masking in Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-role-masking.md)**
+-   **Role masking in Now Assist AI agents**
 
     Use role masking for AI agents and agentic workflows to limit the inherited roles during tool execution, verifying that AI agents run with restricted privileges, minimizing potential security risks and helping prevent unintended actions.
 

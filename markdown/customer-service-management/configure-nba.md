@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-mana
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Recommended Actions configuration, Implement Intelligence, Configure, Customer Service Management]
 ---
 
@@ -74,8 +74,20 @@ A decision tree is a guided flow for agents to follow. A decision tree is a mult
 
 Rina created a case to report that their phone isn’t charging. The agent assigned to the case is recommended to use a decision tree that asks a series of questions to troubleshoot the issue with the phone and provides a guidance in the end.
 
+</td></tr><tr><td>
+
+**Playbook**
+
+</td><td>
+
+A playbook is an interactive, step-by-step guided workflow that helps agents make decisions and resolve issues. Playbooks appear as action cards in the Recommended Actions panel. Agents can launch and execute a playbook inline without switching applications. For more information, see [Playbooks in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ra-playbooks.md).
+
+</td><td>
+
+An agent handling a complex billing dispute is recommended a playbook that walks through verification steps, escalation options, and resolution actions in the Recommended Actions panel.
+
 </td></tr></tbody>
-</table>Actions of the type **Guidance** and **Guided Decision Tree** are displayed as cards within the contextual side panel.
+</table>Actions of the type **Guidance**, **Guided Decision Tree**, and **Playbook** are displayed as cards within the contextual side panel.
 
 \[Omitted image "ra-guidance-type.png"\] Alt text: Guidance cards recommending the agent to view and attach a knowledge article or attach and add the link in comment as primary action
 
@@ -103,7 +115,7 @@ Configuring a recommended action is a multi-step process that involves:
 
 -   **Recommendation**
 
-    A recommendation is a way to suggest an action to an agent. You can create recommendations with action types of guidance and field recommendation. For more information, see [Recommendations in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ra-csm-recommendations.md).
+    A recommendation is a way to suggest an action to an agent. You can create recommendations with action types of guidance, field recommendation, and playbook. For more information, see [Recommendations in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/customer-service-management/ra-csm-recommendations.md).
 
 -   **Resource generators**
 

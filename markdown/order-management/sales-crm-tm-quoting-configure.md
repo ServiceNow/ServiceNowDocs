@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/australia/order-management/sale
 release: australia
 topic_type: concept
 last_updated: "2026-05-07"
-reading_time_minutes: 7
+reading_time_minutes: 8
 breadcrumb: [Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
@@ -78,4 +78,17 @@ Configure the ServiceNow Otto for Configure, Price, Quote \(CPQ\) application so
 The Quote AI Agent is part of ServiceNow Otto for CPQ that interprets sales representative intent, retrieves opportunity and contract data, configures products, applies pricing and discounts, generates quote documents, and drafts client emails. Sales representatives review and approve each step before the agent proceeds. The Quote AI Agent uses an orchestrator that coordinates seven specialized agents.
 
 **Parent Topic:**[Configuring the configure, price, quote applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configuring-cpq.md)
+
+**Related topics**  
+
+
+[ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quoting-experiences-overview.md)
+
+[Configuring Advanced Approval Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/configuring-advanced-approval-management.md)
+
+[Components installed with Advanced Approval Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/components-installed-advanced-approval-management-for-sales.md)
+
+[Quote Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-management-reference.md)
+
+[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/order-management/quote-mgmt-using.md)
 

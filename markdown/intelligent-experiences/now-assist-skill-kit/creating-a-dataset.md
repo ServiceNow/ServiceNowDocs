@@ -1,36 +1,36 @@
 ---
-title: Creating a dataset using AI Skill Kit
-description: Use these guidelines to create an effective dataset. Having an effective dataset provides better results for your prompt.
+title: Dataset guidelines for AI Skill Kit
+description: A representative, appropriately sized, and isolated dataset gives you a reliable measure of how your skill prompt performs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-skill-kit/creating-a-dataset.html
 release: australia
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [General guidelines for AI Skill Kit, Exploring AI Skill Kit, AI Skill Kit, Enable AI experiences]
 ---
 
-# Creating a dataset using AI Skill Kit
+# Dataset guidelines for AI Skill Kit
 
-Use these guidelines to create an effective dataset. Having an effective dataset provides better results for your prompt.
+A representative, appropriately sized, and isolated dataset gives you a reliable measure of how your skill prompt performs.
 
-## AI Skill Kit dataset creation overview
+## AI Skill Kit dataset creation
 
-A data-driven approach to skill development relies on the collection of a high-quality dataset to develop and test the skill. When you use AI Skill Kit, you can also leverage the existing capabilities of the ServiceNow AI Platform to create a high-quality dataset.
+A data-driven approach to skill development relies on the collection of a high-quality dataset to develop and test the skill. When you use AI Skill Kit, you can also use the existing capabilities of the ServiceNow AI Platform to create a high-quality dataset.
 
-When collecting data for this purpose, you should aim to create datasets that are:
+When collecting data for this purpose, create datasets that are:
 
 1.  Representative of the skill’s intended deployment environment. The data should:
     -   Seek to reflect the expected distribution of inputs in the deployment environment.
     -   Capture variance along several identified axes, for example, input length, urgency.
     -   Include any examples of inputs that are known to be important to the use case.
-    -   Consider edge cases \(which may be rare\) but that are suspected to cause problems, for example, long examples.
+    -   Consider edge cases that might be rare but are suspected to cause problems, for example, long inputs.
 2.  Sized appropriately for the team’s risk appetite.
     -   It’s possible to develop and deploy a skill with little data. However, a lack of data creates more uncertainty about how the skill performs in deployment.
-    -   You should think like statisticians and produce confidence intervals for any associated performance scores and prompt comparisons.
+    -   Produce confidence intervals for any associated performance scores and prompt comparisons.
 3.  Isolated from the data used for developing and writing the prompts.
-    -   You should split the data collected into development and testing sets. By splitting the data, you are protecting some data solely for evaluation purposes.
+    -   Split the collected data into development and testing sets so that some data is reserved for evaluation.
     -   If you use all the data during the process of developing the prompt, your final evaluation of the skill is biased, meaning that it over-reports performance. This bias is because of a phenomenon known as prompt overfitting.
 

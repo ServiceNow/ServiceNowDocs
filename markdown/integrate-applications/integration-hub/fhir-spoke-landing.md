@@ -28,6 +28,10 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 This spoke requires an Integration Hub subscription. For more information, see [Legal schedules - IntegrationHub overview](https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/legal/snc-addendum-integrationhub.pdf).
 
+## Spoke version
+
+HL7 FHIR Spoke v2.0.0 is the latest version. For version history of the spoke, see [HL7 FHIR Spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-hl7-fhir-spoke.html?contentId=v38STcRtksTASS8uRyyy1g).
+
 ## Supported versions
 
 This spoke was built for HL7 FHIR R4 and connects to any FHIR R4-conformant server. A connection attribute named `api_version` selects the FHIR R4 URL fragment \(default `baseR4`\), so you can re-point all actions to a different API path without re-authoring any flow.

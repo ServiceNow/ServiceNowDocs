@@ -1,27 +1,39 @@
 ---
-title: Monitor your recently activated AI solution in AI Admin Center
+title: Monitor your recently activated AI solution in AI Admin Center \(Next Experience UI\)
 description: View performance metrics on your most recently activated AI solutions on the AI Admin Center home page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/monitor-now-assist-performance-now-assist-center.html
 release: australia
 topic_type: task
-last_updated: "2026-07-30"
-reading_time_minutes: 1
+last_updated: "2026-10-05"
+reading_time_minutes: 2
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
 breadcrumb: [Monitor, AI Admin Center, Enable AI experiences]
 ---
 
-# Monitor your recently activated AI solution in AI Admin Center
+# Monitor your recently activated AI solution in AI Admin Center\(Next Experience UI\)
 
 View performance metrics on your most recently activated AI solutions on the AI Admin Center home page.
+
+**Important:** Lux is the new user experience for AI Admin Center. For more information on the Lux experience, see [AI Admin Center user experience \(Lux UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-admin-center-lux-user-experience.md).
+
+The Next Experience AI Admin Center workspace is being prepared for deprecation in the November store release and will no longer be supported. For more information on the Next Experience UI, see [AI Admin Center workspace \(Next Experience UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-workspace.md).
+
+In AI Admin Center version 6.1, the Next Experience and Lux user interfaces are both available.
 
 ## Before you begin
 
 Role required: sn\_na\_center.nac\_admin
 
+## About this task
+
+Follow these steps to view your most recently activated AI solutions.
+
+**Note:** This topic describes the AI Admin Center feature based on the Next Experience user interface \(UI\). There is no Lux UI version of this topic.
+
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Admin Center** or **Workspaces** &gt; **AI Admin Center**.
+1.  Navigate to **All** &gt; **AI Admin Center** &gt; **AI Admin Center \(Legacy\)**.
 
 2.  Select **Home** \(\[Omitted image "icon-now-assist-center-nav-home.png"\] Alt text: Home icon.\) in the side navigation bar.
 
@@ -33,7 +45,7 @@ Role required: sn\_na\_center.nac\_admin
 
     The Analytics page opens.
 
-    For more information, see [View AI assets usage and performance in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-view-ai-usage.md).
+    For more information, see [View AI assets usage and performance in AI Admin Center \(Next Experience UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-view-ai-usage.md).
 
 
 **Parent Topic:**[Monitoring in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-monitoring.md)
@@ -41,5 +53,7 @@ Role required: sn\_na\_center.nac\_admin
 **Related topics**  
 
 
-[View AI assets usage and performance in AI Admin Center]()
+[View AI assets usage and performance in AI Admin Center \(Next Experience UI\)]()
+
+[View AI assets usage and performance in AI Admin Center \(Lux UI\)]()
 

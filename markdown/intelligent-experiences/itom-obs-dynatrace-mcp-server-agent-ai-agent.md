@@ -1,29 +1,29 @@
 ---
 title: Dynatrace MCP server AI agent
-description: This AI agent provides the details for a given alert by querying the Dynatrace API.
+description: This agent investigates Dynatrace alerts by retrieving alert impact summaries and querying the Dynatrace API for problem details, entity enrichment, log analysis, and root cause theories.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/itom-obs-dynatrace-mcp-server-agent-ai-agent.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-14"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [IT Operations Management AI agents, IT Operations Management, AI agents library, AI assets, Enable AI experiences]
 ---
 
 # Dynatrace MCP server AI agent
 
-This AI agent provides the details for a given alert by querying the Dynatrace API.
+This agent investigates Dynatrace alerts by retrieving alert impact summaries and querying the Dynatrace API for problem details, entity enrichment, log analysis, and root cause theories.
 
 ## Workflow
 
-The agent fetches the problem report for a Dynatrace alert.
+1.  Identify what to investigate.
 
-1.  Retrieve problem details.
-2.  Extract the context of the problem.
-3.  Enrich entity information.
-4.  Perform scan analysis.
-5.  Summarize results.
-6.  Log the investigation.
+    The agent uses a Dynatrace problem ID or a provided entity name to determine what to investigate.
+
+2.  Gather relevant problem details, entity information, spans, and logs from Dynatrace.
+3.  Return the findings, including a problem overview, key findings, and actionable next steps.
+
+For more information about configuring this AI agent, see [Configure observability agents for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/configure-integration-agents-for-now-assist.md).
 
 <table><thead><tr><th>
 
@@ -122,7 +122,7 @@ Used in agentic workflows
 
 </td><td>
 
-Analyze alert impact
+[Analyze alert impact agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/now-assist-itom-agentic-aia.md)
 
 </td></tr></tbody>
 </table>For more information, see [ITOM AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-health-landing-page.md).

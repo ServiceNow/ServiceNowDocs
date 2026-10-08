@@ -66,7 +66,7 @@ A sample workflow for a non-disclosure agreement \(NDA\) contract request might 
 Submit a legal request for a non-disclosure agreement \(NDA\) with third parties such as vendors, customers, or partners.
 -   **[Modify a non-disclosure agreement legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-modify-nda-req.md)**  
 As a requester, modify the legal request for a non-disclosure agreement \(NDA\).
--   **[View and track non-disclosure agreement requests as a legal user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-view-legal-req-details.md)**  
+-   **[View and track NDA requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-view-legal-req-details.md)**  
 View the details of a non-disclosure agreement request after it has been submitted and track the activities in the request.
 -   **[Work on NDA legal requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-work-on-contract-request.md)**  
 As a member of the legal contracts support team, work on the legal request. Upload the revised document to the request and send the document to the requester from within the request.
@@ -80,6 +80,8 @@ As a member of the legal contracts support team, work on the legal request. Uplo
 
 [Contract amendments]()
 
+[Contract renewals]()
+
 [Linking parent-child contracts]()
 
 [Internal review overview]()
@@ -89,8 +91,6 @@ As a member of the legal contracts support team, work on the legal request. Uplo
 [Cancel a legal request]()
 
 [View and download a signed contract document]()
-
-[View contract requests]()
 
 [Manage Contract Management Pro for Legal Service Delivery]()
 

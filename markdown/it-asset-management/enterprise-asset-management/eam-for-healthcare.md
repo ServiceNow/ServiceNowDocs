@@ -20,10 +20,10 @@ The Enterprise Asset Management for Healthcare \(com.sn\_eamhc\) application is 
 
 This application provides functionalities, features, and workflows of Enterprise Asset Management that support healthcare-related roles and asset models.
 
--   **[Install Enterprise Asset Management for healthcare](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/install-eam-for-healthcare.md)**  
-You can install the Enterprise Asset Management for Healthcare application \(com.sn\_eamhc\) if you have the admin role. The application includes demo data and installs related ServiceNow® Store applications and plugins if they are not already installed.
+-   **[Installing Enterprise Asset Management for Healthcare](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/installing-eam-healthcare.md)**  
+Install the Enterprise Asset Management for Healthcare application so that you can manage the life cycles of your healthcare-specific assets. You can install the application from either the ServiceNow® Store or the Admin Home page.
 -   **[Installed with Enterprise Asset Management for Healthcare](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/installed-with-eam-healthcare.md)**  
-The user role components, plugins, and applications are installed with activation of the com.sn\_eamhc plugin.
+Several types of components are installed with activation of the com.sn\_eamhc plugin, including user roles and applications.
 
 **Parent Topic:**[Industry-specific Enterprise Asset Management solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/eam-related-apps.md)
 

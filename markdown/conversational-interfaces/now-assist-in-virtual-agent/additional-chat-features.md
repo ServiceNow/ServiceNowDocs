@@ -8,7 +8,7 @@ product: Now Assist in Virtual Agent
 classification: now-assist-in-virtual-agent
 topic_type: task
 last_updated: "2025-03-18"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Create a chat assistant, View assistants, Configuring assistants overview, ServiceNow Otto for Virtual Agent, Conversational Interfaces]
 ---
 
@@ -34,7 +34,7 @@ By default, all chat features, except web search mode, are turned on.
 
     **Note:** For premium chat, web search mode and web search fallback are dependent on one another. If web search mode is turned off, web search fallback is unavailable \(grayed out\). If web search mode is turned on, web search fallback is available, and can be turned on or off.
 
-    \[Omitted image "sno-voice-input-0826.png"\] Alt text: Turn different chat features for your assistant on or off.
+    \[Omitted image "sno-additional-chat.png"\] Alt text: Turn different chat features for your assistant on or off.
 
     Web search mode enables users to search the internet by selecting a globe icon within the chat window. The default web search provider, at the instance level, is Google Gemini.
 
@@ -63,14 +63,20 @@ By default, all chat features, except web search mode, are turned on.
 
     For more information on file formats for uploading files to an assistant, see [Upload documents in a chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/upload-documents-na-va.md).
 
+    **Note:** If AI Guardian is turned on for the instance, **Allow document uploads** can't be turned on. When you create a new assistant, this option is turned on by default if AI Guardian is off, and turned off by default if AI Guardian is on.
+
 4.  **Show closed chats** to allow users to view past chat history.
 
     Closed chat is only supported in the enhanced chat experience.
 
-5.  **Allow voice input** so that users can speak to their assistant instead of typing.
+5.  **Prioritize AI agents during skills discovery** so that AI agents take priority over other assets, such as knowledge bases and Q&amp;A modules, when the assistant discovers skills.
 
-    -   For ServiceNow Otto for Virtual Agent assistants, voice input is available for premium chat. For more information, see [Premium chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/now-assist-in-virtual-agent/nava-integrated-chat.md)
-    -   For ServiceNow Otto panel – Platform assistant, voice input is available for standard, enhanced, and premium chat. Azure Speech Service is used for standard chat and enhanced chat and Cartesia for premium chat. For more information about voice input, see [Standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-standard.md), [Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-enhanced.md), or [Premium chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/now-assist-panel-premium.md).
+    All assistants use agentic orchestration by default, so AI agent skills are always available for skills discovery. Selecting the **Prioritize AI agents during skills discovery** option gives AI agents priority over other assets for the assistant.
+
+    For more information about agentic AI, see [Explore AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/exploring-ai-agents.md).
+
+    **Note:** If you upgraded from an earlier release, this setting may already be enabled on your assistant. Upgrading the Now Assist in Virtual Agent plugin to version 23.0.6 or later automatically creates a configuration record that enables agentic orchestration. Verify your current assistant mode before proceeding. For guidance on what changes after an upgrade, see [Agentic conversations in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/agentic-conversations-vad.md).
+
 
 ## What to do next
 

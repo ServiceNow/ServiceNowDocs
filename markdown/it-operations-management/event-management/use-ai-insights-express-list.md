@@ -20,7 +20,7 @@ Access alert information in Express List that is consolidated autonomously by AI
 
 For this feature, you must have ServiceNow Otto for IT Operations Management \(ITOM\) installed on your instance. For more information about installing ServiceNow Otto plugins, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 
-Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aw.md).
+Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/implement-aias-security-new.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/define-sec-controls-aw.md).
 
 Role required: None
 
@@ -54,15 +54,15 @@ For information about configuring this workflow, see [Configure the manage alert
 
 3.  Review the AI insights through the following options.
 
-<table id="choicetable_qzt_n1y_thc"><thead><tr><th align="left" id="d135776e216">
+<table id="choicetable_qzt_n1y_thc"><thead><tr><th align="left" id="d138626e216">
 
 Review AI insights
 
-</th><th align="left" id="d135776e219">
+</th><th align="left" id="d138626e219">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d135776e225">
+</th></tr></thead><tbody><tr><td id="d138626e225">
 
 **Check for the AI Insights badge for alert status**
 
@@ -72,7 +72,7 @@ Procedure
 -   If insights aren't available for an alert, you can initiate the process manually. Details for generating insights are in the following options.
 
 
-</td></tr><tr><td id="d135776e248">
+</td></tr><tr><td id="d138626e248">
 
 **Search for alerts with AI Insights information and key words**
 
@@ -80,7 +80,7 @@ Procedure
 
 Search for content with the free text search. For more information, see [Find alert records in Express List using text search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/el-free-text-search.md).
 
-</td></tr><tr><td id="d135776e264">
+</td></tr><tr><td id="d138626e264">
 
 **Filter using AI Insights filter attribute**
 
@@ -88,7 +88,7 @@ Search for content with the free text search. For more information, see [Find al
 
 Filter using the **Insights** attribute with a minimum string of two characters. For more information, see [Filtering the alert display in the Express List pane](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/event-management/filter-express-list.md).
 
-</td></tr><tr><td id="d135776e283">
+</td></tr><tr><td id="d138626e283">
 
 **Review AI insights in the preview panel**
 
@@ -100,7 +100,7 @@ Filter using the **Insights** attribute with a minimum string of two characters.
 -   If the AI Specialist is in the active state, you can see the processing steps of the agentic workflow. After processing completes, the **View AI activity** link appears. Select the link to go to the **AI activity** tab on the alert details page. In the **AI activity** tab, view the detailed report of the alert along with the workflow steps.
 
 
-</td></tr><tr><td id="d135776e338">
+</td></tr><tr><td id="d138626e338">
 
 **Review AI Insights in the alert record overview**
 

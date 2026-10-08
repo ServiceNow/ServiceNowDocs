@@ -65,5 +65,5 @@ The following figure illustrates this flow:
 
 \[Omitted image "punchout-shipping-confirm.png"\] Alt text: Shipping confirmation from punchout system.
 
-**Parent Topic:**[Understanding Punchout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/punchout-overview.md)
+**Parent Topic:**[Understanding punchout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/sourcing-and-procurement-operations/punchout-overview.md)
 

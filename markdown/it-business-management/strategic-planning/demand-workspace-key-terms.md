@@ -7,8 +7,8 @@ release: australia
 product: Strategic Planning
 classification: strategic-planning
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Reference, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
@@ -97,6 +97,30 @@ Demand Task
 </td><td>
 
 A unit of work, created within a demand, to break down initial planning activities before converting the demand into a project. A demand task isn’t a planned task like a project task.
+
+</td></tr><tr><td>
+
+Demand experience
+
+</td><td>
+
+A configuration record that defines a governance process, such as Marketing or IT. It controls the form view, modules, and dynamic attributes that appear on a demand using that experience. For more information,see [Demand experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/demand-experiences-dw.md).
+
+</td></tr><tr><td>
+
+Demand dynamic category
+
+</td><td>
+
+A set of dynamic attributes that can be applied to a demand through its selected demand experience.
+
+</td></tr><tr><td>
+
+Smart assessment
+
+</td><td>
+
+An assessment automatically created from a template and scored when a demand reaches the Screening state, replacing the classic assessment instances and assessment results workflow. For more information, see [Assess demands with smart assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/smart-assessments-overview.md).
 
 </td></tr></tbody>
 </table>

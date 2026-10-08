@@ -7,7 +7,7 @@ release: australia
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
@@ -21,6 +21,8 @@ Certificate Inventory and Management serves as a centralized and automated solut
 Certificate Inventory and Management is a centralized and automated solution designed to streamline the tracking and management of digital certificates in an IT infrastructure. By automating the discovery, inventory, and monitoring processes, Certificate Inventory and Management enables organizations to maintain a comprehensive record of certificates, including essential details like expiration dates and issuers.
 
 The system facilitates real-time tracking, automates routine tasks such as renewals, and supports customization to align with specific organizational needs. With integration capabilities into existing CI-based Discovery schedules and support for IPv6, Certificate Inventory and Management offers flexibility and efficiency in managing the entire life cycle of certificates. Role-based access control ensures secure and tailored usage, while alerts and notifications keep administrators informed about critical events, contributing to enhanced security, compliance, and operational efficiency in certificate management.
+
+Domain separation is supported in Certificate Inventory and Management, certificate records and certificate tasks can be separated by domain. With domain separation, you can control the visibility of certificate data across domains.
 
 ## Certificate Inventory and Management workflow
 

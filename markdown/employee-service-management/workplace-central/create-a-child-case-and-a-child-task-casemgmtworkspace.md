@@ -125,7 +125,7 @@ Role required: sn\_wsd\_case.manager
 
 [Manage workplace cases in calendar view in Workplace Central]()
 
-[Manage workplace cases in List view in Workplace Central]()
+[Workplace cases in List view in Workplace Central]()
 
-[View Facility Assets in Workplace Central]()
+[View facility assets in Workplace Central]()
 

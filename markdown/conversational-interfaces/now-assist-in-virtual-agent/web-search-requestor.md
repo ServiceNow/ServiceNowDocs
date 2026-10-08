@@ -27,7 +27,7 @@ For example, if you ask `What's the latest Macbook pro configuration?` in web se
 
 \[Omitted image "standard-chat-web-search-example.png"\] Alt text: Web search mode providing results and including in-line citations.
 
-You can also use web search as a fallback option. For example, if you ask `What's the weather in Las Vegas in the month of May?`, the LLM and AI Search are unable to find an answer through internal sources. Instead, you can be presented with the fallback option to **Search the web**.
+You can also use web search as a fallback option. For example, if you ask `What's the weather in Las Vegas in the month of May?`, the LLM and AI Search do not return an answer through internal sources. Instead, you can be presented with the fallback option to **Search the web**.
 
 \[Omitted image "dw-web-search-fallback-example.png"\] Alt text: Search the web button is a fallback option for end users.
 

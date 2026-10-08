@@ -40,9 +40,9 @@ pwd\_reset.enable.dbListener
 
 </td><td>
 
-Use this property to enable or turn off the password reset DB listener \(to raise events\). The default value is **true**, which means that the property is enabled by default.
+Use this property to enable or turn off the password reset DB listener \(to raise events\). The default value is **false**, which means that the property is enabled by default.
 
- **Note:** If this property is enabled, the password expiration records are managed automatically while inserting or deleting user data. While importing bulk data, for each sys\_user or sys\_user\_grmember insertion or deletion, password expiration records are inserted or updated for each password reset process that users are entitled to. Even if updating the expiration data is an asynchronous activity, this activity might impact the performance, if the number of users is high. In that case, disable the **pwd\_reset.enable.dbListener** property by setting it to **false** so that there is not an event on insertion or deletion of sys\_user or sys\_user\_grmember.
+ **Note:** If this property is enabled, the password expiration records are managed automatically while inserting or deleting user data. While importing bulk data, for each sys\_user or sys\_user\_grmember insertion or deletion, password expiration records are inserted or updated for each password reset process that users are entitled to. Even if updating the expiration data is an asynchronous activity, this activity might impact the performance, if the number of users is high.
 
 </td></tr><tr><td>
 

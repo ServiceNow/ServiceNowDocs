@@ -1,20 +1,20 @@
 ---
 title: Add a retriever
-description: Add a retriever to your prompt to augment and add context to your prompts with AI search results.
+description: Add a retriever to your skill to augment your prompts with relevant context from AI Search results.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-skill-kit/add-retriever.html
 release: australia
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-23"
 reading_time_minutes: 2
-breadcrumb: [Create a prompt, Using AI Skill Kit, AI Skill Kit, Enable AI experiences]
+breadcrumb: [Add a tool, Create a prompt, Using AI Skill Kit, AI Skill Kit, Enable AI experiences]
 ---
 
 # Add a retriever
 
-Add a retriever to your prompt to augment and add context to your prompts with AI search results.
+Add a retriever to your skill to augment your prompts with relevant context from AI Search results.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: sn\_skill\_builder.admin
 
 ## About this task
 
-Using a retriever in a skill enhances the relevance and coherence of a response by pulling relevant information from a source and then feeding it to a large language model \(LLM\) to create the final output. This process leads to smoother conversational flow and better scalability as data grows, without requiring model fine-tuning.
+Using a retriever in a skill enhances the relevance and coherence of a response by pulling relevant information from a source and then feeding it to a large language model \(LLM\) to create the final output. This process doesn't require model fine-tuning.
 
 A retriever enables the chatbot to access external knowledge by fetching relevant background information, resulting in more factual, in-depth, and informed responses.
 
@@ -32,9 +32,9 @@ A retriever enables the chatbot to access external knowledge by fetching relevan
 
 2.  Create a skill or select the skill that you want to add a retriever to.
 
-3.  Select the **2. Add tools** tab.
+3.  Select the **Tool editor** tab.
 
-4.  Select \(+\) icon to add a node.
+4.  Select the \(+\) icon to add a node.
 
 5.  Select **Tool node**.
 
@@ -58,7 +58,7 @@ Name
 
 </td><td>
 
-The name for the retriever.
+Name of the retriever.
 
 </td></tr><tr><td>
 
@@ -66,7 +66,7 @@ Search query
 
 </td><td>
 
-The information that you want to search for. It can be static text or a skill input.
+Information to search for. The value can be static text or a skill input.
 
 </td></tr><tr><td>
 
@@ -100,7 +100,7 @@ Fields returned
 
 </td><td>
 
-The fields that you want returned from the search sources and sent to the large language model \(LLM\).
+Fields to return from the search sources and send to the LLM.
 
 </td></tr><tr><td>
 
@@ -108,7 +108,7 @@ Limit
 
 </td><td>
 
-The maximum number of results that are returned.
+Maximum number of results to return.
 
 </td></tr><tr><td>
 
@@ -119,7 +119,7 @@ Search criteria
 -   Hybrid
 -   Semantic
 -   Keyword
- **Note:** If you choose Hybrid or Semantic, you can make selections for chunking and reranking. To learn more about chunking and reranking, see [Retriever chunking and reranking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-kit/retriever-chunking.md).
+ **Note:** If you choose Hybrid or Semantic, you can make selections for chunking and reranking. To learn more about chunking and reranking, see [Configure retriever chunking and reranking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-kit/retriever-chunking.md).
 
 </td></tr></tbody>
 </table>9.  Select **Next**.
@@ -138,15 +138,15 @@ Search criteria
 
 13. Select **Next**.
 
-    **Note:** If you selected **Hybrid** or **Semantic** search criteria, see [Retriever chunking and reranking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-kit/retriever-chunking.md) to complete setting up your retriever.
+    **Note:** If you selected **Hybrid** or **Semantic** search criteria, see [Configure retriever chunking and reranking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-kit/retriever-chunking.md) to complete setting up your retriever.
 
 14. Review the retriever tool information.
 
 15. Select **Add tool**.
 
 
--   **[Retriever chunking and reranking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-kit/retriever-chunking.md)**  
-When you’re building a skill prompt that uses a retriever you can use chunking and reranking to enhance the accuracy and relevance of your responses.
+-   **[Configure retriever chunking and reranking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-kit/retriever-chunking.md)**  
+Configure chunking and reranking for a retriever that uses hybrid or semantic search to control how retrieved content is split, ranked, and passed to the LLM.
 
-**Parent Topic:**[Create a prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-kit/create-prompt-template.md)
+**Parent Topic:**[Add a tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-kit/add-a-tool.md)
 

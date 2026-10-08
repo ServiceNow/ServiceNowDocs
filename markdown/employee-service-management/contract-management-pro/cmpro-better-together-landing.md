@@ -1,6 +1,6 @@
 ---
 title: Contract Management Pro integrations
-description: Contract Management Pro integrates with other ServiceNow products to streamline contract workflows across your organization. These integrations enable seamless collaboration between legal teams and other departments.
+description: Contract Management Pro integrates with other ServiceNow products to connect contract workflows with business operations across your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cmpro-better-together-landing.html
 release: australia
@@ -15,7 +15,7 @@ breadcrumb: [Explore, Contract Management Pro, Legal and Contract Operations, Em
 
 # Contract Management Pro integrations
 
-Contract Management Pro integrates with other ServiceNow® products to streamline contract workflows across your organization. These integrations enable seamless collaboration between legal teams and other departments.
+Contract Management Pro integrates with other ServiceNow® products to connect contract workflows with business operations across your organization.
 
 Integrating Contract Management Pro with other ServiceNow® products creates powerful end-to-end workflows that connect legal contract processes with business operations. These integrations reduce manual handoffs, accelerate contract turnaround times, and ensure compliance across your organization.
 

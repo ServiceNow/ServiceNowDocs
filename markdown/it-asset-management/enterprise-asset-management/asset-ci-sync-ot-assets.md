@@ -71,11 +71,11 @@ The CI \[cmdb\_ci\] table has the **OT entity** \[cmdb\_ot\_entity\] field. Also
 **Related topics**  
 
 
-[OT Asset Management licensing]()
-
-[Install OT Asset Management]()
+[Installing OT Asset Management]()
 
 [Installed with OT Asset Management]()
 
 [OT Asset Workspace]()
+
+[OT Asset Management licensing]()
 

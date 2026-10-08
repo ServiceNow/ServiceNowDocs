@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-administration/t\_StartAClone.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Instance Clone, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -84,7 +84,7 @@ Clone Scheduled Start time
 
 </td><td>
 
-The start time to begin cloning your instance. See [Schedule recurring clones](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/schedule-cloning.md).**Note:** You may schedule multiple clones to the same target instance as long as they are scheduled at least five days apart. If two clone requests for the same target fall within a five day window, the system will return an error to prevent overlap. If a time you need is unavailable, check for any scheduled maintenance, upgrades, or existing clone requests affecting the relevant instances.
+The start time to begin cloning your instance. After you select a start time, the form displays the estimated duration and estimated completion time of the clone. See [Schedule recurring clones](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/schedule-cloning.md).**Note:** You may schedule multiple clones to the same target instance as long as they are scheduled at least five days apart. If two clone requests for the same target fall within a five day window, the system will return an error to prevent overlap. If a time you need is unavailable, check for any scheduled maintenance, upgrades, or existing clone requests affecting the relevant instances.
 
 </td></tr><tr><td>
 
@@ -105,6 +105,12 @@ The email or emails to be notified of the clone process and clone completion.
 
 5.  Select **Continue**.
 
-6.  Review your clone request summary and select **Confirm and Submit Clone Request**.
+6.  Review your clone request summary.
+
+    If other clone requests involve the same target instance within 30 days, they appear highlighted in yellow. Review these requests for potential conflicts before submitting.
+
+    The Clone request summary page displays the estimated clone duration, based on the scheduled start time and the size of the data to be copied to the target instance. For a new source-target pair, the estimate may be higher than expected and becomes more accurate after additional clones between the same instances.
+
+7.  Select **Confirm and Submit Clone Request**.
 
 

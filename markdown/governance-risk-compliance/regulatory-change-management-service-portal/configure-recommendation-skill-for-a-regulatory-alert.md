@@ -53,7 +53,7 @@ Recommendation skills help regulatory analysts quickly identify impacted areas b
     You can perform the following actions on ServiceNow Otto skills if you have the sn\_generative\_ai.nsa\_admin role:
 
     -   [Edit an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/edit-a-now-assist-skill.md)
-    -   [Make a copy of AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/make-a-copy-of-a-now-assist-skill.md)
+    -   [Make a copy of an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/make-a-copy-of-a-now-assist-skill.md)
     -   [Troubleshoot an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/troubleshoot-a-now-assist-skill.md)
     Activating a copy of a Regulatory alert impacted citations, Regulatory alert impacted control objectives, Regulatory alert impacted controls, or Regulatory alert impacted policies skill deactivates any other version of the same skill, including the default version.
 
@@ -120,15 +120,15 @@ Template used for this skill.
 </td></tr></tbody>
 </table>5.  Define the user roles that can access the skill by selecting **Define access** and specifying a User access option.
 
-<table id="choicetable_mvq_4wl_tgc"><thead><tr><th align="left" id="d228732e342">
+<table id="choicetable_mvq_4wl_tgc"><thead><tr><th align="left" id="d232201e342">
 
 Option
 
-</th><th align="left" id="d228732e345">
+</th><th align="left" id="d232201e345">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d228732e351">
+</th></tr></thead><tbody><tr><td id="d232201e351">
 
 **Any authenticated user**
 
@@ -136,7 +136,7 @@ Description
 
 Any user that has successfully logged in can access this skill.
 
-</td></tr><tr><td id="d228732e360">
+</td></tr><tr><td id="d232201e360">
 
 **Select Roles**
 

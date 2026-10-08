@@ -9,6 +9,7 @@ classification: software-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
+keywords: [software spend detection, software asset management content service, content service, Software Asset Management Content Service Program]
 breadcrumb: [Software Spend Detection, Software Asset Management, IT Asset Management, Asset Management]
 ---
 

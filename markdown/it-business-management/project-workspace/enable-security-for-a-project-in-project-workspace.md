@@ -7,7 +7,7 @@ release: australia
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring security for a project in Project Workspace, Configure, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -45,7 +45,9 @@ Role required: admin
 
 5.  Select **Save**.
 
-    Once you make the project confidential, the confidentiality setting is applied to the project, all sub projects, and entities such as cost plans, cost plan breakdowns, benefit plans, benefit plan breakdowns, expense lines, time cards, status reports, baselines, story, investment object, project tasks, resource plan, resource assignments, and RIDAC.
+    The confidentiality setting is applied to the project and all sub projects.
+
+    The setting also applies to related entities: cost plans, cost plan breakdowns, benefit plans, benefit plan breakdowns, expense lines, time cards, status reports, baselines, story, investment object, project tasks, resource plan, resource assignments, and RIDAC.
 
     These will only be accessible to individuals who have been explicitly added to the project.
 

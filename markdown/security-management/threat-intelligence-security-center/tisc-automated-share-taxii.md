@@ -45,15 +45,15 @@ Add record to TAXII Server Collection via automated process:
 
 5.  Go to **Actions**
 
-<table id="choicetable_ybr_fxh_qfc"><thead><tr><th align="left" id="d321622e137">
+<table id="choicetable_ybr_fxh_qfc"><thead><tr><th align="left" id="d323078e137">
 
 Action
 
-</th><th align="left" id="d321622e140">
+</th><th align="left" id="d323078e140">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d321622e146">
+</th></tr></thead><tbody><tr><td id="d323078e146">
 
 **Sharing Template\[Outbound Intel Sharing\]**
 
@@ -63,7 +63,7 @@ Select the sharing template.Template with a usage mode of both **Automated addit
 
  For more information see, [Configuring Outbound Intel Sharing Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/security-management/threat-intelligence-security-center/tisc-intel-sharing-templates.md).
 
-</td></tr><tr><td id="d321622e174">
+</td></tr><tr><td id="d323078e174">
 
 **Observable Record \[Observable\]**
 
@@ -71,7 +71,7 @@ Select the sharing template.Template with a usage mode of both **Automated addit
 
 Select the type of observable record to add records to TAXII server collections.
 
-</td></tr><tr><td id="d321622e183">
+</td></tr><tr><td id="d323078e183">
 
 **Indicator Record \[Indicator\]**
 
@@ -79,7 +79,7 @@ Select the type of observable record to add records to TAXII server collections.
 
 Select the type of indicators record to add records to TAXII server collections.
 
-</td></tr><tr><td id="d321622e192">
+</td></tr><tr><td id="d323078e192">
 
 **Object Record \[Object\]**
 
@@ -87,7 +87,7 @@ Select the type of indicators record to add records to TAXII server collections.
 
 Select the type of objects record to add records to TAXII server collections.
 
-</td></tr><tr><td id="d321622e202">
+</td></tr><tr><td id="d323078e202">
 
 **Include Related Records**
 

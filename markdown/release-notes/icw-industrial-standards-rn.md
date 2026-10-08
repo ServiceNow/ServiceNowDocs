@@ -1,12 +1,13 @@
 ---
 title: Industrial Standards release notes
-description: The ServiceNow Industrial Standards application provides a centralized, governed framework to define, publish, and maintain operational standards across plants and production lines. This application enables consistency through versioned definitions, reusable templates, and automated schedules that generate executable work. With clear life-cycle controls and skills‑aware enforcement, it improves quality, traceability, and compliance at scale. Industrial Standards is a new application in the Australia release.The ServiceNow Industrial Standards application provides a centralized, governed framework to define, publish, and maintain operational standards across plants and production lines. This application enables consistency through versioned definitions, reusable templates, and automated schedules that generate executable work. With clear life-cycle controls and skills‑aware enforcement, it improves quality, traceability, and compliance at scale. Industrial Standards is a new application in the Australia release.
+description: The ServiceNow Industrial Standards application provides a centralized, governed framework to define, publish, and maintain operational standards across plants and production lines. This application enables consistency through versioned definitions, reusable templates, and automated schedules that generate executable work. With clear life-cycle controls and skills‑aware enforcement, it improves quality, traceability, and compliance at scale. Industrial Standards is a new application in the Australia release.Work set sub-activities support Action-specific safety and knowledge fields and independent scheduling, and the Template schedule type is removed from schedule plans.The ServiceNow Industrial Standards application provides a centralized, governed framework to define, publish, and maintain operational standards across plants and production lines. This application enables consistency through versioned definitions, reusable templates, and automated schedules that generate executable work. With clear life-cycle controls and skills‑aware enforcement, it improves quality, traceability, and compliance at scale. Industrial Standards is a new application in the Australia release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/icw-industrial-standards-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
+keywords: [work set standard, sub-activity, schedule-based exception, schedule plan]
 breadcrumb: [Industrial Connected Workforce release notes, Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
 
@@ -35,6 +36,28 @@ See [Exploring Industrial Standards](https://raw.githubusercontent.com/ServiceNo
 
 
 **Parent Topic:**[Industrial Connected Workforce release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/industrial-connected-workforce-rn-landing.md)
+
+## Version 3.0.1
+
+Work set sub-activities support Action-specific safety and knowledge fields and independent scheduling, and the Template schedule type is removed from schedule plans.
+
+### What's new
+
+-   **[Safety and knowledge fields for Action sub-activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/work-set-sub-activity-form.md)**
+
+    Capture execution-critical context when authoring an Action sub-activity in a work set standard. Define the LOTO\(TO\) level, line status, and a knowledge article on the sub-activity, and these values carry over to the generated action when the work set runs.
+
+-   **[Schedule-based exceptions for sub-activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/work-set-standards.md)**
+
+    Run a sub-activity on its own schedule instead of the work set's schedule. Select Schedule-based exception on a sub-activity and configure a custom or shift-based recurrence, so a child task is generated for the sub-activity only when it's due within the work set task's timeframe.
+
+
+### What's deprecated or removed
+
+-   **[Template schedule type for schedule plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/create-events-based-on-schedules.md)**
+
+    Removed. You can no longer create a schedule plan from a schedule template, and the Schedule type and Schedule fields are removed from the [Schedule plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/scheduled-plan-form.md). Use a custom schedule instead, which can also be shift-based.
+
 
 ## Australia Early Availability
 

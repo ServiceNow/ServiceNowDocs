@@ -37,7 +37,7 @@ Role required: admin
 
     For more information, see [Record producers for legal investigations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-investigations/record-producers-legal-investigation.md).
 
-    1.  Navigate to **All** &gt; **Service Catalog** &gt; **Record Producers**.
+    1.  Navigate to **All** &gt; **Service Catalog** &gt; **Catalog Definitions** &gt; **Record Producers**.
 
     2.  Search and open record producers with the name **Ethics Complaints**.
 

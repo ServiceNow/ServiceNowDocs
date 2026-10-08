@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/rn-summary-localization.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-23"
+last_updated: "2026-10-08"
 reading_time_minutes: 2
 breadcrumb: [Release notes summaries for Australia features, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
@@ -38,7 +38,7 @@ AI Admin Hub
 
 </td><td>
 
-Now Assist supports Dynamic Translation for Australia.
+ServiceNow Otto supports Dynamic Translation for Australia.
 
 </td></tr><tr><td>
 
@@ -58,11 +58,33 @@ AI agents and AI Agent Studio are built on the GPT-4o-based framework and suppor
 
 </td></tr><tr><td>
 
+AI Search
+
+</td><td>
+
+-   ****
+
+AI Search supports indexing and search in all languages offered by the ServiceNow AI Platform. Search features, such as stop words and synonyms, are available in many supported languages. For details of language support by feature, see [Internationalization support for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/international-language-support-ais.md).
+
+
+</td></tr><tr><td>
+
 Accounts Payable Operations
 
 </td><td>
 
 Accounts Payable Operations supports multiple languages. However, the current DocIntel model is trained to extract invoices in the English language only. To process an invoice in the multiple languages supported by DocIntel, you must train the DocIntel model.
+
+</td></tr><tr><td>
+
+Autonomous Workforce
+
+</td><td>
+
+-   ****
+
+AI specialist supports multiple languages for user interaction. Because language detection and generation are based on an underlying large language model, not all languages have the same level of fluency. See [Multilingual support for AI specialists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/lang-support-aiw.md) for more information.
+
 
 </td></tr><tr><td>
 
@@ -89,6 +111,17 @@ Generative AI Controller
 </td><td>
 
 Generative AI Controller uses Microsoft Azure OEM for Dynamic Translation in Now Assist for multilanguage support. You can enable dynamic translation from the AI Admin Hub console. For more information, see [Microsoft Azure OEM for Dynamic Translation in Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/dynamic-translation-na-ms-azure-oem.md).
+
+</td></tr><tr><td>
+
+L1 IT Service Desk AI Specialist
+
+</td><td>
+
+-   ****
+
+Multi-language support for the L1 IT Service Desk AI Specialist may vary.
+
 
 </td></tr><tr><td>
 

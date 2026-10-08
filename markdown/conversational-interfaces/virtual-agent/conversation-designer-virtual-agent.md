@@ -167,7 +167,7 @@ Use the **Languages** tab to do the following:
 For more information about this tab, see [Topic Languages tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/vad-topic-languages-tab.md).
 
 -   **[Designing a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/design-va-topic.md)**  
-Walk through the design of an example Virtual Agent topic that enables users to view incidents they submitted. The example highlights various design controls that can be used to build the conversation flow.
+Walk through the design of an example Virtual Agent topic that enables users to view incidents they submitted. The example highlights the design controls that you can use to build the conversation flow.
 -   **[Creating a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md)**  
 Use Assistant Designer Asset library to create and modify Virtual Agent topics \(conversations\). Build your topic to meet a specific objective or goal, such as fulfilling a user's request or helping a user complete a task.
 -   **[Migrating NLU/keyword Virtual Agent topics to LLM topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/conversational-interfaces/virtual-agent/llm-topic-migration.md)**  

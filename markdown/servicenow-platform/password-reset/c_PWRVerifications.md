@@ -110,7 +110,7 @@ Soft PIN Verification
 
 </td><td>
 
-Implements a self-service Password Reset model that relies on a Soft PIN that's a six-digit number. Users can enroll for the Soft PIN verification for a process and reset the Soft PIN. ServiceNow® Virtual Agent supports the Soft PIN verification method.
+Implements a self-service Password Reset model that relies on a Soft PIN that's a six-digit number. Users can enroll for the Soft PIN verification for a process and reset the Soft PIN. **Note:** The out-of-the-box Reset Password \(Template\) and Unlock Account \(Template\) Virtual Agent topics don't support Soft PIN verification.
 
 </td></tr></tbody>
 </table>-   **[Personal data identification types and confirmation type verifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/password-reset/c_PersonalDataAndPDConfirmVerifs.md)**  

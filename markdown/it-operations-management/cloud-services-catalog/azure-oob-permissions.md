@@ -16,6 +16,8 @@ breadcrumb: [Out Of Box Catalogs using Cloud Services Catalog, Cloud Services Ca
 
 Cloud Services Catalog Microsoft Azure Out Of Box catalog items permissions.
 
+These catalog items are available out of box in CSC Content Pack applications.
+
 <table id="table_hfp_fcg_hzb"><thead><tr><th>
 
 Services
@@ -215,4 +217,9 @@ resources/\*
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Out Of Box Catalogs using Cloud Services Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-services-catalog/out-of-the-box-catalog-items.md)
+
+**Related topics**  
+
+
+[Out Of Box Catalogs using Cloud Services Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-services-catalog/out-of-the-box-catalog-items.md)
 

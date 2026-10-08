@@ -208,9 +208,21 @@ Allow aggregation of multiple breakdown element scores
 
 Enables widgets to show the summed score of multiple breakdown elements on this indicator. If this field is selected, you can select either aggregated or separated values on the form for a breakdown dashboard that uses this indicator. Formulas based on addition, subtraction, or multiplication are generally good candidates for allowing aggregation. Percentages are also supported, provided the percentages total to 100%. On the other hand, the results of aggregating elements on averages, or of percentages that are not related, are usually not meaningful. **Warning:** These aggregations are not checked for mathematical validity.
 
-</td></tr></tbody>
-</table>9.  In the **Forecasting** tab, set the forecast method, the number of data collection periods to forecast, the amount of historical data to base the forecast on, and the upper and lower limits of forecast values.
+</td></tr><tr><td>
 
+Show real-time score
+
+</td><td>
+
+If all contributing indicators have **Show real-time score** enabled, select this option to use real-time scores to calculate the formula.
+
+</td></tr></tbody>
+</table>9.  In the **Forecasting** tab, set the following fields:
+
+    -   Forecast method
+    -   The number of data collection periods to forecast
+    -   The amount of historical data to base the forecast on
+    -   The upper and lower limits of forecast values
     For more information, see [Performance Analytics scores forecasts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_ForecastingData.md).
 
 10. Expand the context menu and select **Save**.
@@ -221,9 +233,9 @@ Enables widgets to show the summed score of multiple breakdown elements on this 
 
     By default, you can apply only breakdowns that are configured for every contributing indicator in the formula.
 
-    **Note:** The system property **com.snc.pa.formula\_indicator\_valid\_breakdown** controls this behavior. By default, it is true. Changing it to false allows you to apply a breakdown to a formula indicator when at least one contributing indicator uses that breakdown. Attempts to view scores for unsupported breakdowns in a widget, the Analytics Hub, or KPI Details result in a warning message instead of a value.
+    **Note:** The system property **com.snc.pa.formula\_indicator\_valid\_breakdown** controls this behavior. By default, it is true. Changing it to false allows you to apply a breakdown to a formula indicator when at least one contributing indicator uses that breakdown. Attempts to view scores for unsupported breakdowns in a data visualization, the Analytics Hub, or KPI Details result in a warning message instead of a value.
 
-    You cannot select a breakdown element in the formula indicator record. The breakdown can only be used interactively, meaning on the Analytics Hub, KPI Details, appropriately configured data visualizations, and dashboards. For information about using the **Manage breakdowns** tool, see [Assign and map breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/create-breakdown-mapping.md).
+    You cannot select a breakdown element in the formula indicator record. The breakdown can only be used interactively, meaning on the Analytics Hub, KPI Details, appropriately configured data visualizations, and responsive dashboards. For information about using the **Manage breakdowns** tool, see [Assign and map breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/create-breakdown-mapping.md).
 
 
 ## Incident Backlog Growth

@@ -1,30 +1,29 @@
 ---
 title: Install Invoice Case Management
-description: Install the Invoice Case Management \(sn\_ap\_cm\) application as an admin to include demo data and related ServiceNow Store applications and plugins.
+description: You can install the Invoice Case Management \(com.sn\_ap\_cm\) application if you have the admin role. The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/source-to-pay-operations/accounts-payable-operations/install-invoice-case-mgmt.html
 release: australia
 product: Accounts Payable Operations
 classification: accounts-payable-operations
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-keywords: [APO, Accounts Payable Operations, invoice management, invoice case management, ServiceNow store, Shopping Hub]
 breadcrumb: [Configure, Accounts Payable Operations, Finance and Supply Chain]
 ---
 
 # Install Invoice Case Management
 
-Install the Invoice Case Management \(sn\_ap\_cm\) application as an admin to include demo data and related ServiceNow® Store applications and plugins.
+You can install the Invoice Case Management \(com.sn\_ap\_cm\) application if you have the admin role. The application includes demo data and installs related ServiceNow® Store applications and plugins if they are not already installed.
 
 ## Before you begin
 
 -   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 -   Review the Invoice Case Management application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
--   The Accounts Payable Invoice Processing \(sn\_ap\_apm\) application installs the following dependent plugins:
-    -   Source-to-Pay Common Architecture \(com.snc.sn\_shop\)
+-   The Invoice Case Management application installs the following dependent plugins:
+    -   Source-to-Pay Common Architecture
     -   Supplier Collaboration Portal
-    -   [Source-to-Pay Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/source-to-pay-operations-overview.md)
+    -   [Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/source-to-pay-workspace/source-to-pay-ws-overview.md)
 
 Role required: admin
 
@@ -43,7 +42,7 @@ For more information, see [Components installed with Invoice Case Management](ht
 
 1.  Navigate to **All** &gt; **System Applications** &gt; **All Available Applications** &gt; **All**.
 
-2.  Find the Invoice Case Management application \(sn\_ap\_cm\) using the filter criteria and search bar.
+2.  Find the Invoice Case Management application \(com.sn\_ap\_cm\) using the filter criteria and search bar.
 
     You can search for the application by its name or ID. If you cannot find the application, you might have to request it from the ServiceNow Store.
 

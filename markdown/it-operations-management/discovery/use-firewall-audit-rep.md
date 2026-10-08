@@ -23,7 +23,7 @@ Currently, ServiceNow works with Palo Alto Panorama and Fortinet FortiManager fi
 -   **[Discover firewall policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/disco-firewall-policies.md)**  
 As a member of a security team, you can discover firewall devices, policies, and owner groups from supported vendors \(Palo Alto Panorama and Fortinet FortiManager\), allowing a central view of the footprint. This data is updated in the ServiceNow CMDB. Set up a schedule to discover your firewall policies to help you keep track of your company's valuable information.
 -   **[Customize Firewall Audits and Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/customize-firewall-audit-reporting.md)**  
-Change Discovery properties to customize some of the aspects of Firewall Audits and Reporting.
+Configure default policy owner and approval groups for firewall rule change requests to reduce manual data entry.
 -   **[Archive firewall rule audit, rule requests, and audit tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/archive-firewall-rule-req-tasks.md)**  
 Archive firewall rule requests, audit requests, and audit tasks that are older than a specific time period to enhance system performance. At a later time, you can delete them from the archive table altogether to reduce the size of that table.
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/mon-ai-configure-asset-metrics-external.html
 release: australia
 topic_type: task
-last_updated: "2026-08-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configure evaluation scoring for external AI systems, Configure, Monitoring and evaluating AI systems, Monitor AI assets, AI Control Tower, Enable AI experiences]
@@ -33,15 +33,17 @@ You can optionally override which metrics are evaluated for specific external AI
 
 3.  Configure the metrics that you want to evaluate for specific AI systems.
 
-<table id="choicetable_asset_metric_actions"><thead><tr><th align="left" id="d319598e132">
+    **Important:** Adding more metrics increases the visibility you gain into each session, but also increases assist usage to evaluate it. Select the metrics that give you the insight you need.
+
+<table id="choicetable_asset_metric_actions"><thead><tr><th align="left" id="d384191e138">
 
 Option
 
-</th><th align="left" id="d319598e135">
+</th><th align="left" id="d384191e141">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d319598e141">
+</th></tr></thead><tbody><tr><td id="d384191e147">
 
 **Add one or more AI systems and selected metrics**
 
@@ -54,7 +56,7 @@ Steps
 5.  Select **Add metrics**.
 
 
-</td></tr><tr><td id="d319598e177">
+</td></tr><tr><td id="d384191e183">
 
 **Remove one or more metrics**
 
@@ -68,9 +70,11 @@ Steps
 </td></tr></tbody>
 </table>4.  Adjust the sample rate for one or more metrics.
 
-    The sample rate determines what percentage of AI executions a metric evaluates. For external AI systems, each metric has its own sample rate, so you can evaluate the metrics that matter most on more executions and sample the rest to limit processing.
+    The sample rate determines what percentage of AI executions a metric evaluates. For external AI systems, each metric has its own sample rate, so you can evaluate the metrics that matter most on more executions and sample the rest.
 
-    **Note:** When metrics that contribute to the same quality or safety score use different sample rates, the metric with the higher rate evaluates more executions and can skew that score toward its results.
+    When metrics that contribute to the same quality or safety score use different sample rates, the metric with the higher rate evaluates more executions and can skew that score toward its results.
+
+    **Important:** Increasing a metric's sample rate evaluates more executions and gives you more confidence in its score, but also increases assist usage. Set the lowest rate that produces enough evaluated sessions to trust the score.
 
     1.  In the Asset-specific metrics section, select one or more AI systems that you want to update.
 

@@ -9,14 +9,13 @@ classification: workplace-central
 topic_type: concept
 last_updated: "2026-05-18"
 reading_time_minutes: 5
+keywords: [calendar view, case management, scheduling, workplace central]
 breadcrumb: [Working with Case management, Use, Workplace Central, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Manage workplace cases in calendar view in Workplace Central
 
 The Calendar view in Workplace Central enables case managers and case agents to view and manage assigned cases in a color-coded, week-based layout. Cases are organized chronologically by date field and can be filtered, grouped, and navigated by time zone.
-
-The Calendar view for case management in Workplace Central provides a visual, date-based representation of cases. The view defaults to the current week and displays all cases that span the selected week. Case managers can assess workload distribution and take action without navigating away from the calendar.
 
 To access Calendar view:
 
@@ -48,9 +47,9 @@ Cases are grouped in the following hierarchy:
 -   First level: Assignment Group
 -   Second level: Assigned To \(individual user within the group\)
 
-Cases with no assignment group and no assigned user are displayed under an Unassigned section at the bottom of the calendar.
+Cases with no assignment group and no assigned user are displayed in an unassigned section at the bottom of the calendar.
 
-Cases with no assignment group are grouped under No Assignment Group section at the bottom of the calendar. Cases with an assignment group but no individual assignee are grouped under an Unassigned section within that group.
+Cases with no assignment group are grouped in a no assignment group section at the bottom of the calendar. Cases with an assignment group but no individual assignee are grouped in an unassigned section within that group.
 
 You can also configure a custom group-by option. If a custom group-by field is specified, the calendar data is grouped by that field instead of the default hierarchy.
 
@@ -83,9 +82,9 @@ The following filter options are available on the Calendar view:
 
 ## Inline editing and reassignment
 
-When you select a case card in the calendar, the side panel displays the case details allowing you to perform the following actions.
+Select a case card to open the side panel and view details. You can then perform these actions:
 
--   View all relevant case fields including priority, service agent, and location.
+-   View all relevant case fields including priority, assigned agent, and location.
 -   Edit case details by selecting a specific card on the Calendar view. For example, you can reassign a case to a different user or change the scheduled date.
 
 **Note:** All edits made in the side panel are reflected immediately on the calendar without a page reload.
@@ -96,13 +95,13 @@ If a case manager identifies a user with an overloaded schedule and another with
 
 View case details in specific time zones apart from the default time zone. Select a time zone from the available options to update all event times in the Calendar view accordingly.
 
-## Tool-tip context
+## Tooltip context
 
 Each card's tool-tip shows case number, priority, service, assigned agent, and location details.
 
 ## IFM Framework integration
 
-When Integrated Facilities Management \(IFM\) providers are configured, cases on the calendar display a provider tag to indicate whether the case is handled internally or by an external FM provider.
+When Integrated Facilities Management \(IFM\) providers are configured, cases on the calendar display a provider tag. This tag indicates whether the case is handled internally or by an external FM provider.
 
 |Tag|Meaning|
 |---|-------|
@@ -111,7 +110,7 @@ When Integrated Facilities Management \(IFM\) providers are configured, cases on
 
 **Note:** If no FM providers are configured, provider tags are not displayed. Only the case short description appears on the calendar block. The tooltip includes the case number, priority, service agent, and location.
 
-\[Omitted image "Calendarview-casemanagement.png"\] Alt text:
+\[Omitted image "Calendarview-casemanagement.png"\] Alt text: Calendar view showing case cards organized by assignment group with color-coded priority indicators and IFM provider tags
 
 **Parent Topic:**[Working with Case management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/working-with-case-management.md)
 
@@ -132,7 +131,7 @@ When Integrated Facilities Management \(IFM\) providers are configured, cases on
 
 [Cancel or delete a case]()
 
-[Manage workplace cases in List view in Workplace Central]()
+[Workplace cases in List view in Workplace Central]()
 
-[View Facility Assets in Workplace Central]()
+[View facility assets in Workplace Central]()
 

@@ -207,7 +207,7 @@ Sets the case status to On Hold.After this activity is completed, the playbook m
 
 -   **Confirm supplier information for FedEx Dataworks matching**
 
-    Verifies a supplier's details against FedEx Dataworks records to establish a FedEx Dataworks Supplier ID. This step is part of the supplier onboarding playbook and is required before risk assessment or performance benchmarking data can be retrieved. For more information, see [Validate supplier using FedEx Dataworks supplier validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/fedex-supplier-validation.md).
+    Verifies a supplier's details against FedEx Dataworks records to establish a FedEx Dataworks Supplier ID. This step is part of the supplier onboarding playbook and is required before risk assessment or performance benchmarking data can be retrieved. For more information, see [Validate supplier using FedEx Dataworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/fedex-supplier-validation.md).
 
 
 ## Qualification stage
@@ -303,7 +303,7 @@ After this activity is completed, the playbook moves to the Activation stage.
 
 -   **FedEx Dataworks Risk Assessment**
 
-    If selected, returns the risk factor ratings for a matched supplier, covering customs risk, restricted country screening, and dangerous goods risk. Risk assessment is available in the supplier onboarding playbook after a successful supplier match. For more information, see [Evaluate supplier risk using FedEx Dataworks risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/fedex-risk-assessment.md).
+    If selected, returns the risk factor ratings for a matched supplier, covering customs risk, restricted country screening, and dangerous goods risk. Risk assessment is available in the supplier onboarding playbook after a successful supplier match. For more information, see [Evaluate supplier risk using FedEx Dataworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/source-to-pay-operations/supplier-lifecycle-operations/fedex-risk-assessment.md).
 
 
 ## Activation stage

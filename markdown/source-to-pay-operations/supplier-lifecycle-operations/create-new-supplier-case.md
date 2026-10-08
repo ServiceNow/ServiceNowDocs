@@ -31,15 +31,15 @@ Role required: sn\_slm.manager, sn\_slm.owner, or sn\_slm.admin
 
 2.  Do one of the following.
 
-<table id="choicetable_qn2_ksn_wtb"><thead><tr><th align="left" id="d39272e115">
+<table id="choicetable_qn2_ksn_wtb"><thead><tr><th align="left" id="d39607e115">
 
 To
 
-</th><th align="left" id="d39272e118">
+</th><th align="left" id="d39607e118">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d39272e124">
+</th></tr></thead><tbody><tr><td id="d39607e124">
 
 **To create a case from Quick actions**
 
@@ -51,7 +51,7 @@ On the home page, do one of the following:-   Under Quick actions, select **Crea
     2.  From the **Create** drop-down list, select **Supplier case**.
 
 
-</td></tr><tr><td id="d39272e161">
+</td></tr><tr><td id="d39607e161">
 
 **To create a case from the List page**
 

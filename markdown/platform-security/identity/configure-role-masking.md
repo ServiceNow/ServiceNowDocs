@@ -7,7 +7,7 @@ release: australia
 product: Identity
 classification: identity
 topic_type: task
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 keywords: [role masking, AI agents, Agent Access Role Configuration, Agent Access Permission Set Configuration, Limit To Roles, Allow all session roles]
 breadcrumb: [Role masking for AI agents, Identity]

@@ -1,25 +1,25 @@
 ---
-title: Supplier document strategy generator AI agent
-description: This Supplier Lifecycle Operations agent assists with supplier onboarding by retrieving region and industry details, generating a task list from knowledge base content, and presenting it in a structured format.
+title: Supplier document strategy generator agent
+description: This Supplier Lifecycle Operations agent assists with supplier onboarding by retrieving the supplier's region and industry, then identifying customized onboarding tasks that meet compliance and regulatory requirements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/slo-supplier-document-strategy-generator-agent-ai-agent.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Supplier Lifecycle Operations AI agents, Supplier Lifecycle Operations, AI agents library, AI assets, Enable AI experiences]
 ---
 
-# Supplier document strategy generator AI agent
+# Supplier document strategy generator agent
 
-This Supplier Lifecycle Operations agent assists with supplier onboarding by retrieving region and industry details, generating a task list from knowledge base content, and presenting it in a structured format.
+This Supplier Lifecycle Operations agent assists with supplier onboarding by retrieving the supplier's region and industry, then identifying customized onboarding tasks that meet compliance and regulatory requirements.
 
 ## Workflow
 
-1.  Checks whether the supplier's region and industry are already known. Ask for either or both if they are missing.
-2.  Once both values are available, pass them to the task list generator to produce the supplier task list from the knowledge base.
+1.  Check whether the supplier's region and industry are already known. Ask for either or both if they are missing.
+2.  When both values are available, search all published knowledge base articles and extract the conformance and regulatory tasks from the articles relevant to the supplier's region and industry.
 
-<table><thead><tr><th>
+<table id="table_sfy_bht_5kc"><thead><tr><th>
 
 Field
 
@@ -72,7 +72,7 @@ sn\_supplier\_gen\_ai.now\_assist\_fulfiller, sn\_slm.owner
 
 </td></tr><tr><td>
 
-Data access roles The specific user identity roles that determine which data the AI agent can access and what actions it can take.
+Data access roles Specific user identity roles that determine which data the AI agent can access and what actions it can take.
 
 </td><td>
 

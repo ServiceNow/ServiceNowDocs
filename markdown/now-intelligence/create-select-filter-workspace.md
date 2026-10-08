@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/crea
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 9
+reading_time_minutes: 10
 breadcrumb: [Filters, Platform Analytics experience, Platform Analytics]
 ---
 
@@ -64,6 +64,8 @@ A Multiple select filter lets users select multiple values of a field or breakdo
         -   You can only select a breakdown that is used by at least one indicator.
         -   Scripted breakdowns on data visualizations are not supported.
         -   Only two levels of breakdown can be applied to an indicator at the same time. On a dashboard, this could be two filters or one filter and a breakdown specified in the data visualization.
+        If you create a multiple select filter, you can select multiple elements of a breakdown. The effect of such a filter on what a data visualization shows depends on whether a breakdown has been specified in that data visualization's **Group by** section. If no breakdown is specified in the visualization configuration, the visualization shows an aggregate score of all selected elements. If a breakdown is specified in the visualization configuration, the visualization shows each element separately. If you then select elements in the filter, only those elements are shown. For more information, see [Viewing multiple breakdown elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/view-multiple-breakdown-elements.md).
+
     -   If you selected a Usage Insights filter, select a UX Analytics property.
 4.  If you selected a Table source and a user hierarchy is defined for the table, you have the option of creating a filter on that hierarchy.
 

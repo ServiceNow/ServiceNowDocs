@@ -80,7 +80,7 @@ Boolean option indicating whether access to the external document is denied for 
 
  When set to **true**, this permission overrides all **groups** and **users** permissions.
 
- This permission is mutually exclusive with **none**. Only one of these two permissions can be set to **true** for any external document.
+ This permission is mutually exclusive with **everyone**. Only one of these two permissions can be set to **true** for any external document.
 
 </td></tr><tr><td>
 

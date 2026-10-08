@@ -1,0 +1,54 @@
+---
+title: Enable planning attributes for capacity in demands
+description: Enable the planning attributes Group, Skill, and Role to view resource capacity details in demands.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/australia/it-business-management/strategic-planning/enable-planning-attributes-for-capacity-dw.html
+release: australia
+product: Strategic Planning
+classification: strategic-planning
+topic_type: task
+last_updated: "2026-09-30"
+reading_time_minutes: 1
+keywords: [capacity planning, planning attributes, resource management]
+breadcrumb: [Configure capacity for demands, Configure, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+---
+
+# Enable planning attributes for capacity in demands
+
+Enable the planning attributes Group, Skill, and Role to view resource capacity details in demands.
+
+## Before you begin
+
+Role required: admin
+
+**Note:** This activation is a one-time task to enable planning attributes to plan and work on resource capacity.
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Strategic Planning** &gt; **Planning Attributes**.
+
+2.  Filter the Attribute name to locate and open the **Group** attribute.
+
+3.  Select the **Enable for capacity planning** check box.
+
+4.  Select **Update**.
+
+    **Note:** If an attribute is enabled for capacity planning, it is enabled for resource management by default.
+
+    \[Omitted image "cp-group-planning-attribute.png"\] Alt text: Group planning attribute enabled for Capacity.
+
+5.  Repeat step 2 through step 4 for the **Skill** and **Role** attributes.
+
+    \[Omitted image "cp-enable-planning-attributes.png"\] Alt text: Enabled planning attributes for Capacity.
+
+    You can create custom attributes and map them to resources. For more information, see [Create or edit planning attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/configure-planning-attributes.md).
+
+6.  Set the value of the Enable for capacity planning column for Group, Role, and Skill field to **true**.
+
+
+## What to do next
+
+1.  Configure attribute values: Navigate to **All** &gt; **Strategic Planning** &gt; **Planning Attributes** to view and manage attribute values. You can add, edit, or import attribute entries for Group, Skill, and Role.
+2.  Map attributes to resources: Assign the enabled planning attributes to your resources so they appear in capacity views. For custom attributes, see [Create or edit planning attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-management/configure-planning-attributes.md).
+3.  Start capacity planning: Navigate to the Resources tab in your demands to view resource capacity based on the enabled attributes.
+

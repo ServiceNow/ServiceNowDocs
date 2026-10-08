@@ -1,13 +1,13 @@
 ---
 title: Request an AI model
-description: Request the development or procurement of an AI model to support an AI system. This process captures the technical and business context needed to initiate governance review, risk assessment, and life cycle tracking for the model.
+description: Request the development or procurement of an AI model to support an AI system and initiate governance review, risk assessment, and life cycle tracking.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/ai-risk-management/request-ai-model.html
 release: australia
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [request AI model, AI model intake, AI governance]
 breadcrumb: [Use, AI Risk and Compliance, Governance, Risk, and Compliance]
@@ -15,29 +15,29 @@ breadcrumb: [Use, AI Risk and Compliance, Governance, Risk, and Compliance]
 
 # Request an AI model
 
-Request the development or procurement of an AI model to support an AI system. This process captures the technical and business context needed to initiate governance review, risk assessment, and life cycle tracking for the model.
+Request the development or procurement of an AI model to support an AI system and initiate governance review, risk assessment, and life cycle tracking.
 
 ## Before you begin
 
-Role required: AI risk and compliance business user \(Employee Center\), sn\_ai\_asset\_mgmt.ai\_asset\_owner \(AI Control Tower dashboard\)
+Role required: sn\_ai\_case\_mgmt.ai\_case\_business\_user \(Employee Center\), sn\_ai\_asset\_mgmt.ai\_asset\_owner \(AI Control Tower dashboard\)
 
 ## About this task
 
-An AI model is a core component of an AI system that performs learning, prediction, classification, or generation based on training data. Requesting an AI model initiates governance review, risk assessment, and life cycle tracking before the model is trained, procured, or deployed.
+An AI model is a core component of an AI system that performs learning, prediction, classification, or generation based on training data. Requesting an AI model initiates governance review, risk assessment, and life cycle tracking before the model is trained, procured, or deployed. After you submit this request, you land on the confirmation page in Employee Center. The **here** link in the confirmation message and the **Open in AI Control Tower** link on the post-submission page open the corresponding AI model in AI Control Tower instead of the legacy AI Control Tower workspace. The AI model record header also displays the model name and identifier.
 
 ## Procedure
 
 1.  Request an AI model using one of the following options.
 
-<table><thead><tr><th align="left" id="d95909e80">
+<table><thead><tr><th align="left" id="d97330e103">
 
 Option
 
-</th><th align="left" id="d95909e83">
+</th><th align="left" id="d97330e106">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d95909e89">
+</th></tr></thead><tbody><tr><td id="d97330e112">
 
 **Employee Center**
 
@@ -46,23 +46,27 @@ Description
 1.  Navigate to **All** &gt; **Self-Service** &gt; **Employee Center**.
 2.  Select **Help center** &gt; **Technology services** and then select **AI assets** from the Technology services topics section.
 3.  Select the **Request an AI model** card.
- **Note:** AI Risk and Compliance Business User and AI Asset owner can complete this option.
+ **Note:**
 
-</td></tr><tr><td id="d95909e140">
+AI Risk and Compliance Business User and AI Asset owner can complete this option.
+
+</td></tr><tr><td id="d97330e164">
 
 **AI Control Tower**
 
 </td><td>
 
 1.  Navigate to **All** &gt; **AI Control Tower**.
-2.  On the AI Control Tower dashboard, select the list icon \[Omitted image "list-icon-airc-ws.png"\] Alt text:, and navigate to the **AI asset inventory - Managed** or **AI asset inventory - Unmanaged**
+2.  On the AI Control Tower dashboard, select the list icon \[Omitted image "list-icon-airc-ws.png"\] Alt text:, and navigate to the **AI asset inventory - Managed** or **AI asset inventory - Unmanaged**.
 3.  Select **AI Model**, then select **Add AI Model**.
- **Note:** An AI Asset owner can complete this option.
+ **Note:**
+
+An AI Asset owner can complete this option.
 
 </td></tr></tbody>
 </table>2.  On the form, fill in the fields.
 
-    For descriptions of the fields, see [Request an AI model form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/request-ai-model-form.md). For more information, on adding an AI model using the AI Control Tower, see [Create AI model assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-ai-model-assets.md).
+    For descriptions of the fields, see [Request an AI model form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/request-ai-model-form.md). For more information about adding an AI model using the AI Control Tower, see [Create AI model assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/create-ai-model-assets.md).
 
 3.  To add attachments, select **Add attachments**.
 
@@ -73,13 +77,17 @@ Description
     The AI model request is submitted for review as part of the AI governance process.
 
 
+## Result
+
+The AI model request is submitted for governance review and routed to the appropriate AI governance stakeholders based on your organization's configured intake workflow.
+
 ## What to do next
 
 After submitting an AI model request, the next steps depend on your role in the AI governance life cycle.
 
-AI Product Owner or Requester \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_user\]: Provide additional information as requested during intake and onboarding, including details about the model purpose, training approach, intended usage, and how the model supports one or more AI systems. You may be asked to clarify model sourcing \(in-house or third-party\), data dependencies, or expected business outcomes.
+AI Product Owner or Requester \[`sn_grc_ai_gov.ai_risk_and_compliance_business_user`\]: Provide additional information as requested during intake and onboarding, including details about the model purpose, training approach, intended usage, and how the model supports one or more AI systems. You may be asked to clarify model sourcing \(in-house or third-party\), data dependencies, or expected business outcomes.
 
-AI Steward or AI Center of Excellence \(AI CoE\) \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_manager, sn\_ai\_asset\_mgmt.ai\_asset\_owner\]: Review submitted requests for business and strategy alignment, initiate the review process and trigger required assessments, and coordinate cross‑functional reviews. Continue to oversee the AI model through its life cycle, including inventory tracking, governance activities, linkage to related datasets and AI systems, and collaboration across stakeholders.
+AI Steward or AI Center of Excellence \(AI CoE\) \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_manager, sn\_ai\_asset\_mgmt.ai\_asset\_owner\]: Review submitted requests for business and strategy alignment, initiate the review process and trigger required assessments, and coordinate cross-functional reviews. Continue to oversee the AI model through its life cycle, including inventory tracking, governance activities, linkage to related datasets and AI systems, and collaboration across stakeholders.
 
 For more information, see [AI Control Tower dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-governance.md).
 
@@ -93,4 +101,13 @@ For an overview of how AI models move from intake through assessment, developmen
 The Request an AI model form is designed to streamline the request process for developing or procuring an AI model. This intake form confirms that all necessary details, supporting documents, and compliance considerations are captured before moving forward with the approval process.
 
 **Parent Topic:**[Using AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/using-ai-risk-and-compliance.md)
+
+**Related topics**  
+
+
+[Intake requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/airc-intake.md)
+
+[Request an AI use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/request-ai-system.md)
+
+[AI governance life cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/ai-gov-lifecycle.md)
 

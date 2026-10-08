@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-xanadu-australia/australia-xanadu-releaseops-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 5
+last_updated: "2026-10-08"
+reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
 
@@ -146,7 +146,16 @@ Australia
 
 </td><td>
 
--   **[Guided setup](https://www.servicenow.com/docs/access?context=complete-guided-setup&family=australia&ft:locale=en-US)**
+-   **[Generate an update set description](https://www.servicenow.com/docs/access?context=generate-update-set-description&family=australia&ft:locale=en-US)**
+
+Generate update descriptions using the release lifecycle documentation AI agent.
+
+-   **[Generate release notes](https://www.servicenow.com/docs/access?context=generate-release-notes&family=australia&ft:locale=en-US)**
+
+Generate release notes using the release lifecycle documentation AI agent.
+
+
+ -   **[Guided setup](https://www.servicenow.com/docs/access?context=complete-guided-setup&family=australia&ft:locale=en-US)**
 
 Use guided setup to start using ReleaseOps quickly. You can also continue to use manual setup for more complex setup scenarios and if you need to add changes to your ReleaseOps ecosystems later.
 
@@ -338,6 +347,8 @@ Zurich
 Install ReleaseOps by requesting it from the ServiceNow Store. Visit the ServiceNow Store to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the ServiceNow Store version history release notes.
 
 
+**Important:** ReleaseOps is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Australia
@@ -348,6 +359,8 @@ Australia
 
 Install ReleaseOps by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/access?context=sn-store-release-notes&family=australia&ft:locale=en-US).
 
+
+**Important:** ReleaseOps is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements

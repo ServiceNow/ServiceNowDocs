@@ -1,5 +1,5 @@
 ---
-title: AWS sub account pattern-based discovery
+title: AWS sub account regional pattern-based discovery
 description: Discovery and Service Mapping Patterns finds member accounts and the primary account within an AWS Organization. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/discovery-and-service-mapping-patterns/aws-sub-account-pattern.html
@@ -13,7 +13,7 @@ keywords: [Amazon AWS sub account discovery, AWS Organizations, AWS discovery, A
 breadcrumb: [AWS discovery, Available cloud discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
 
-# AWS sub account pattern-based discovery
+# AWS sub account regional pattern-based discovery
 
 Discovery and Service Mapping Patterns finds member accounts and the primary account within an AWS Organization. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 

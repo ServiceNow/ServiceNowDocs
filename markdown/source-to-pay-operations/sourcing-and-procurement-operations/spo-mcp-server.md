@@ -41,10 +41,6 @@ The SPO MCP Server provides the following capabilities:
 
     Users complete approval, sourcing, and acknowledgement tasks directly in chat. Tasks that require external interactions such as video calls or document signing, route to Employee Center.
 
--   **Proactive notifications**
-
-    Users receive targeted notifications when requests are created, tasks are assigned, approvals are completed, or requests are rejected. Users can take action or route to external workflows from the notification.
-
 
 ## SPO MCP Server users
 

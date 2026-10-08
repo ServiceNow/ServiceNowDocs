@@ -7,7 +7,7 @@ release: australia
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 keywords: [AI Risk and Compliance, AI governance, AI risk management]
 breadcrumb: [AI Risk and Compliance, Governance, Risk, and Compliance]
@@ -78,7 +78,7 @@ AI risk and compliance admin
 -   Defines AI case types, applies business rules for form fields and assignments, and designs reporting templates to meet business needs.
 
 </td></tr></tbody>
-</table>For specific roles within the AI Risk and Compliance application, refer to [Roles installed with AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/roles-installed-with-ai-risk-and-compliance.md).
+</table>For specific roles within the AI Risk and Compliance application, refer to [Roles and responsibilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/roles-installed-with-ai-risk-and-compliance.md).
 
 ## AI Risk and Compliance workflow
 
@@ -215,5 +215,5 @@ To learn more about configuring and using AI Risk and Compliance, see:
 
 [Intake requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/airc-intake.md)
 
-[Roles installed with AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/roles-installed-with-ai-risk-and-compliance.md)
+[Roles and responsibilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/roles-installed-with-ai-risk-and-compliance.md)
 

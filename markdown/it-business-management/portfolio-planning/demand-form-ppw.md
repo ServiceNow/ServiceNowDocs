@@ -7,7 +7,7 @@ release: australia
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 14
 breadcrumb: [Forms, Reference, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -137,23 +137,19 @@ This field is carried forward to the **Approved end date** field of the Project 
 
 </td></tr><tr><td>
 
-Start date
+Planned start date
 
 </td><td>
 
 The preliminary or estimated date when the work is initially planned to begin. This date helps outline the intended timing for early demand planning and prioritization. You can set this date during initial demand creation or anytime in the planning phase when a rough idea forms. This date can be updated until the demand is officially approved. For example, you’re planning for a database upgrade to start on 2025-11-01.
 
-**Note:** The **Start date** column label is changed to **Planned start date**. This change is applicable only for new customers who begin using the Australia version. To ensure continuity, if you’re upgrading to the Australia release from an earlier release, you’ll continue to see the prior labels.
-
 </td></tr><tr><td>
 
-Due date
+Planned end date
 
 </td><td>
 
 The preliminary or estimated date when the planned work is expected to be completed. This date provides an expected completion window for planning and stakeholder communication. You can set this date anytime in the planning phase when a rough idea forms and can be updated until the demand is officially approved.For example, you’re planning to complete the database upgrade by 2025-12-31.
-
-**Note:** The **Due date** column label is changed to **Planned end date**. This change is applicable only for new customers who begin using the Australia version. To ensure continuity, if you’re upgrading to the Australia release from an earlier release, you’ll continue to see the prior labels.
 
 </td></tr><tr><td>
 
@@ -297,7 +293,7 @@ Impacted Business Applications
 
 </td><td>
 
-If the demand is to change, enhance, or add one or more business applications, the applications associated with the demand. Business applications are defined in the Enterprise Architecture \(formerly Application Portfolio Management\) module. For more information, see [Exploring business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-business-applications.md).You can select any business application in your enterprise regardless of whether it’s related to a capability selected in the **Business Capabilities** field.
+If the demand is to change, enhance, or add one or more business applications, the applications associated with the demand. Business applications are defined in the Enterprise Architecture \(formerly Application Portfolio Management\) module. For more information, see .You can select any business application in your enterprise regardless of whether it’s related to a capability selected in the **Business Capabilities** field.
 
 </td></tr><tr><td>
 
@@ -305,7 +301,7 @@ Business Applications
 
 </td><td>
 
-If the demand is to change, enhance, or add one or more business applications, the applications associated with the demand. Business applications are defined in the Enterprise Architecture \(formerly Application Portfolio Management\) module. For more information, see [Exploring business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-portfolio-management/eaw-manage-business-applications.md).You can select any business application in your enterprise regardless of whether it’s related to a capability selected in the **Business Capabilities** field.
+If the demand is to change, enhance, or add one or more business applications, the applications associated with the demand. Business applications are defined in the Enterprise Architecture \(formerly Application Portfolio Management\) module. For more information, see .You can select any business application in your enterprise regardless of whether it’s related to a capability selected in the **Business Capabilities** field.
 
 </td></tr></tbody>
 </table><table id="table_t23_vj3_fdc"><thead><tr><th>
@@ -582,7 +578,7 @@ Score
 
 </td><td>
 
-The demand score is calculated based on the **risk**, **value**, and **size** attributes in the base system.The value of the **risk**, **value**, and **size** attributes are derived from the assessment metric category results.
+The demand score is calculated based on the **risk**, **value**, and **size** attributes in the base system.The value of the **risk**, **value**, and **size** attributes are derived from the assessment metric category results. For more information, see [assessment categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/demand-management/t_CreateAnAssessmentCategory.md) and [assessment category results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_ViewACategoryResult.md).
 
 -   When the **risk** and **size** values are high, the score of the demand is low.
 -   When the **value** setting is high, the score of the demand is high.
@@ -596,6 +592,8 @@ Assessment Required
 Option for enabling the assessments for the demand. This option is active by default. Only a demand manager can update this value when the demand is in the Draft or Submitted state.
 
  **Note:** If this option isn’t selected and you reset the demand to the Draft state, the option remains unselected.
+
+If smart assessments is enabled for the demand, this same field also determines whether a smart assessment is triggered when the demand reaches the Screening state. If this option isn't selected, the demand skips the assessment and moves directly to the Qualified state. For more information, see [Assess demands with smart assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/smart-assessments-overview-ppw.md)
 
 </td></tr></tbody>
 </table>**Note:** The values in the **Value** and **Score** fields are updated when a cost plan, benefit plan, or resource assignment is created or updated for the demand in the Qualified or Approved state. The values in the fields are updated only until an artifact such as project, enhancement, defect, or change is created from the demand.

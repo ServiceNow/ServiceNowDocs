@@ -70,7 +70,7 @@ All external content connectors support semantic vector indexing of content retr
 
 ## External Content Connectors indexed sources and search sources
 
-Each external content connector has its own indexed source for crawled content. It also has a default search source that specifies no filter conditions and so includes all items from its indexed source. If you want to apply filter conditions to an external content connector's indexed content, you can create your own search sources for that connector's indexed source.
+Each external content connector has its own indexed source for crawled content. It also has a default search source that specifies no filter conditions and so includes all items from its indexed source. To apply filter conditions to an external content connector's indexed content, create your own search sources for that connector's indexed source.
 
 To make a connector's content searchable in an AI Search application, include one of its search sources in the search profile used for that application. For more information about creating and using indexed sources and search sources, see [Indexed sources in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/indexed-sources-ais.md) and [Search sources in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/search-sources-ais.md).
 
@@ -99,7 +99,7 @@ When a connector's indexed content item count exceeds 800,000, a warning message
 
 External content connectors that support user permissions crawls can handle permissions for up to five hundred thousand \(500,000\) users and their groups. If a connector retrieves users in excess of this limit, user and group permissions may not be correctly applied to the connector's retrieved content. As a result, the content may not be searchable.
 
-If one of your connectors reaches the content indexing limit, you can update its crawl settings and file inclusion/exclusion filters to reduce the number of content items it retrieves. Alternatively, if you need a connector to index more than 1,000,000 content items, you can create a Customer Service and Support case at [https://support.servicenow.com/now](https://support.servicenow.com/now) to request a limit increase for the connector.
+If one of your connectors reaches the content indexing limit, you can update its crawl settings and file inclusion/exclusion filters to reduce the number of content items it retrieves. If you need to index more content items than the limit allows, you can create a Customer Service and Support case at [https://support.servicenow.com/now](https://support.servicenow.com/now) to request a limit increase for the connector.
 
 ## External Content Connectors benefits
 
@@ -121,11 +121,11 @@ If you have the ServiceNow Otto for AI Search and ServiceNow Otto for Virtual Ag
 External content search results are ignored when generating answers for Knowledge base articles Genius Results and Actions Genius Results.
 
 -   **[Estimating document volume for source systems](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/estimating-doc-volume-src-sys.md)**  
-Source system tools allow you to estimate the number of documents available for retrieval by external content connectors. By estimating the available document count for a source system, you can determine whether you need to apply crawl scope restrictions when configuring an external content connector for that source system.
+Source system tools enable you to estimate the number of documents available for retrieval by external content connectors. By estimating the available document count for a source system, you can determine whether you need to apply crawl scope restrictions when configuring an external content connector for that source system.
 -   **[Configuring source systems for external content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/cfg-src-sys-ext-content-indexing.md)**  
 Source system administrators configure settings to allow external content connectors to index your documents and security settings for search. These settings must be configured for a source system before you create an external content connector to crawl that source system.
 -   **[Creating external content connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/creating-ext-cont-connectors.md)**  
-Connector administrators can create external content connectors to retrieve searchable content and metadate and security permissions from supported source systems.
+Connector administrators can create external content connectors to retrieve searchable content and metadata and security permissions from supported source systems.
 -   **[Configuring crawl settings for external content connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/cfg-crawl-settings-ext-cont-connector.md)**  
 Connector administrators can configure crawl settings for each external content connector, such as which source system locations it crawls and which types of content it sends to AI Search for indexing.
 -   **[Delta content crawls for external content connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/delta-content-crawls-external-content-connectors.md)**  

@@ -18,7 +18,7 @@ File-based Discovery helps you identify what software is running on your Windows
 
 ## Required plugins
 
-The File-based Discovery \[com.snc.discovery.file\_based\_discovery\] plugin is required for file signature filtering. Your Discovery subscription includes this plugin, but you must [request activation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_RequestAPlugin.md). Once the File-based Discovery plugin is active, the Software Asset Management - File Signature Normalization \[com.snc.file\_signature\_normalization\] plugin is also activated. For more information on the File Signature Normalization plugin, see [File Signature Normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/sam-file-based-discovery.md).
+The File-based Discovery \[com.snc.discovery.file\_based\_discovery\] plugin is required for file signature filtering. Your Discovery subscription includes this plugin, but you must [request activation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_RequestAPlugin.md). Once the File-based Discovery plugin is active, the Software Asset Management - File Signature Normalization \[com.snc.file\_signature\_normalization\] plugin is also activated. For more information on the File Signature Normalization plugin, see File Signature Normalization.
 
 ## How File-based Discovery works
 

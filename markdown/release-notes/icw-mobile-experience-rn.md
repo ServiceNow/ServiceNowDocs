@@ -1,12 +1,13 @@
 ---
 title: Industrial Connected Workforce Mobile Experience release notes
-description: The ServiceNow Industrial Connected Workforce Mobile Experience \(ICW Mobile\) application provides a mobile‑first experience for frontline industrial workers. This application enables them to perform tasks, report deviations, escalate issues, and access standards and knowledge content directly from handheld devices. Designed for reliability in high‑activity environments, ICW Mobile enables operators to stay productive whether online or offline. ICW Mobile is a new application in the Australia release.The ServiceNow Industrial Connected Workforce Mobile Experience \(ICW Mobile\) application provides a mobile‑first experience for frontline industrial workers. This application enables them to perform tasks, report deviations, escalate issues, and access standards and knowledge content directly from handheld devices. Designed for reliability in high‑activity environments, ICW Mobile enables operators to stay productive whether online or offline. ICW Mobile is a new application in the Australia release.The ServiceNow Industrial Connected Workforce Mobile Experience \(ICW Mobile\) application provides a mobile‑first experience for frontline industrial workers. This application enables them to perform tasks, report deviations, escalate issues, and access standards and knowledge content directly from handheld devices. Designed for reliability in high‑activity environments, ICW Mobile enables operators to stay productive whether online or offline. ICW Mobile is a new application in the Australia release.
+description: The ServiceNow Industrial Connected Workforce Mobile Experience \(ICW Mobile\) application provides a mobile‑first experience for frontline industrial workers. This application enables them to perform tasks, report deviations, escalate issues, and access standards and knowledge content directly from handheld devices. Designed for reliability in high‑activity environments, ICW Mobile enables operators to stay productive whether online or offline. ICW Mobile is a new application in the Australia release.Run centerline audit tasks from the shop floor, and execute work set tasks from an ordered list of sub-activities that shows line status and LOTO\(TO\) level.The ServiceNow Industrial Connected Workforce Mobile Experience \(ICW Mobile\) application provides a mobile‑first experience for frontline industrial workers. This application enables them to perform tasks, report deviations, escalate issues, and access standards and knowledge content directly from handheld devices. Designed for reliability in high‑activity environments, ICW Mobile enables operators to stay productive whether online or offline. ICW Mobile is a new application in the Australia release.The ServiceNow Industrial Connected Workforce Mobile Experience \(ICW Mobile\) application provides a mobile‑first experience for frontline industrial workers. This application enables them to perform tasks, report deviations, escalate issues, and access standards and knowledge content directly from handheld devices. Designed for reliability in high‑activity environments, ICW Mobile enables operators to stay productive whether online or offline. ICW Mobile is a new application in the Australia release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/icw-mobile-experience-rn.html
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 5
+keywords: [centerline audit task, setting definition, deviation, work set task, LOTO, line status]
 breadcrumb: [Industrial Connected Workforce release notes, Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
 
@@ -36,6 +37,33 @@ See [Exploring Industrial Connected Workforce Mobile Experience](https://raw.git
 
 
 **Parent Topic:**[Industrial Connected Workforce release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/industrial-connected-workforce-rn-landing.md)
+
+## Version 3.0.1
+
+Run centerline audit tasks from the shop floor, and execute work set tasks from an ordered list of sub-activities that shows line status and LOTO\(TO\) level.
+
+### What's new
+
+-   **[Centerline audit tasks on mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/centerline-audit-task-mobile.md)**
+
+    Run centerline audits from the shop floor instead of on paper. Open a centerline audit task on your mobile device, move between setting groups in any order, and enter the measured value for each setting to see immediately whether it's within specification. Before you start a task, you can view and edit its details, including the active material.
+
+-   **[Setting definition details during an audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/open-setting-definition-details-mobile.md)**
+
+    Open the full specification for a setting definition while you run a centerline audit, without leaving the audit.
+
+-   **[Automatic deviations for out-of-specification settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/create-deviation-from-centerline-task-mobile.md)**
+
+    Track non-compliant settings as soon as an audit ends. When you submit a centerline audit task, a deviation is created automatically for each parameter that's outside its specification limits, with no manual deviation entry required.
+
+-   **[Sub-activity list for work set tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/execute-work-set-task-mobile.md)**
+
+    Execute a work set task from a single screen. When you open a work set task, the Tasks tab lists its Industrial Guided Tasks, actions, centerline tasks, deviations, and root cause analyses in execution order, so you don't need to open a related list. Each card shows the short description, task type, state, assigned user, equipment or functional location, planned start, and line status and LOTO\(TO\) level when set. Cards for inactive sub-activities show fewer details. Select a card to open the sub-activity.
+
+-   **[Line status and LOTO\(TO\) level in the action header](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/industrial-connected-workforce/action-form-mobile.md)**
+
+    See the safety context for an action before you perform it. When an action has a LOTO\(TO\) level or line status, those values appear in the header of the action record.
+
 
 ## Australia General Availability
 

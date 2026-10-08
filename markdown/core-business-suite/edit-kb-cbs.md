@@ -35,9 +35,9 @@ Modify knowledge base settings to control how articles are published, retired, a
 
 3.  Select the gear icon \[Omitted image "gear-icon-cbs.png"\] Alt text: gear icon to get to Knowledge Base settings. on the default Knowledge Base at the Core Business Suite level or at a business unit-level.
 
-4.  You're on the **Settings** tab.
+    You're on the **Settings** tab.
 
-5.  On the Edit knowledge base form, fill in the fields and select **Save**.
+4.  On the Edit knowledge base form, fill in the fields and select **Save**.
 
     For a description of the field values, see [Edit Knowledge Base form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/core-business-suite/edit-kb-ref-cbs.md).
 

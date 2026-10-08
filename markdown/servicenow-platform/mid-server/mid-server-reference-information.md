@@ -39,7 +39,7 @@ To discover certain information on a host server, the MID Server must run SSH co
 -   **[MIDSystem methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/r_MIDSystemMethods.md)**  
 MIDSystem variables \(referred to by the variable name ms.\) provide a variety of methods to get information about the MID Server.
 -   **[Manually start, stop, and restart a MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/t_InstallMIDServerAsWinService.md)**  
-If you did not start the MID Server at the end of the installation procedure, you can manually start the MID Server.
+Start, stop, or restart a MID Server manually when needed.
 -   **[MID Server heartbeat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/r_MIDServerHeartbeat.md)**  
 The instance checks the MID Server for a response every 5 minutes, using a synthetic transaction monitoring system.
 -   **[Set the MID Server JVM memory size](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/mid-server/t_MIDServerOptionalConfiguration.md)**  

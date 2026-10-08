@@ -1,28 +1,28 @@
 ---
 title: ERP action invoker AI agent
-description: This AI agent gathers user inputs for a specific operation.
+description: This AI agent gathers user inputs for a specific operation in Zero Copy Connector for ERP.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/zcc-erp-action-invoker-ai-agent.html
 release: australia
 topic_type: reference
-last_updated: "2026-08-14"
+last_updated: "2026-09-22"
 reading_time_minutes: 2
 breadcrumb: [Zero Copy Connector for ERP AI agents, Zero Copy Connector AI agents, AI agents library, AI assets, Enable AI experiences]
 ---
 
 # ERP action invoker AI agent
 
-This AI agent gathers user inputs for a specific operation.
+This AI agent gathers user inputs for a specific operation in Zero Copy Connector for ERP.
 
 ## Workflow
 
 The AI agent generates mandatory and optional inputs, and waits for the user to supply values for the mandatory inputs before passing the formatted inputs to a tool to invoke an action script.
 
-1.  Ask the user to provide mandatory inputs using the following strategy from the Retrieve Mandatory and Optional Inputs tool.
-2.  Ask a single yes/no question if user also wants to include optional inputs.
-3.  Pass the user input, along with the model ID and operation ID, to a tool that invokes an action script. Then wait until the response is received from the flow action invocation.
+1.  Ask the user to provide mandatory inputs using the `Retrieve Mandatory and Optional Inputs` tool.
+2.  Ask a single yes or no question if the user also wants to include optional inputs.
+3.  Pass the user input, the model ID, and the operation ID to a tool that invokes an action script. Then wait until the response is received from the flow action invocation.
 
-<table><thead><tr><th>
+<table id="table_g2w_dyy_qkc"><thead><tr><th>
 
 Field
 
@@ -108,7 +108,11 @@ Used in agentic workflows
 [Explore ERP models agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/now-assist-erp-aiagents-data-explorer-workflow.md)
 
 </td></tr></tbody>
-</table>Learn more at [ServiceNow Otto for Zero Copy Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/now-assist-for-zero-copy-connector-for-erp.md) and [Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-overview.md).
+</table>For more information, see:
+
+-   [Explore ERP models agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/now-assist-erp-aiagents-data-explorer-workflow.md)
+-   [ServiceNow Otto for Zero Copy Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/now-assist-for-zero-copy-connector-for-erp.md)
+-   [Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/erp-integration-overview.md)
 
 **Parent Topic:**[Zero Copy Connector for ERP AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/zcc-ai-agents-overview.md)
 

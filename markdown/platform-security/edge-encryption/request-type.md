@@ -7,7 +7,7 @@ release: australia
 product: Edge Encryption
 classification: edge-encryption
 topic_type: task
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [Define a custom encryption rule, Configuring Edge Encryption, Edge Encryption, Encryption]
 ---

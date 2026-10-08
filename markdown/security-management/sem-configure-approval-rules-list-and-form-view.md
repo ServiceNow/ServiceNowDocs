@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/security-management/sem-configure-approval-rules-list-and-form-view.html
 release: australia
 topic_type: task
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 2
 breadcrumb: [Unified Approval Rules Overview, Use, Unified Security Exposure Management, Security Operations]
 ---
@@ -43,6 +43,15 @@ Rule type
 </td><td>
 
 Determines the purpose of the approval \(e.g., false positive, exception\). The available types depend on the selected target tables.
+
+ Available rule types include:
+
+-   **deferral\_requests**: For exception and deferral approval workflows.
+-   **false\_positive**: For false positive approval workflows.
+-   **modify\_risk**: For risk modify requests type.
+-   **exception\_rules**: For exception rule creation and extension approvals.
+-   **unassign**: For unassignment approval workflows.
+-   **Note:** The "compensating\_control\_management" rule type is deprecated and all risk modify requests will be routed through the modify\_risk type.
 
 </td></tr><tr><td>
 

@@ -7,8 +7,8 @@ release: australia
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: reference
-last_updated: "2026-05-28"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 keywords: [risk assessment methodologies, RAM, AI Risk and Compliance, risk classification, risk scoring]
 breadcrumb: [Reference, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
@@ -25,8 +25,8 @@ The following table lists the default risk assessment methodologies \(RAMs\) ins
 
 |RAM|Applies to|Purpose|When used|
 |---|----------|-------|---------|
-|Risk classification for AI system|AI systems|Classifies AI systems by regulatory risk level based on factors captured during intake or assessment.|During intake screening or early assessment to determine initial regulatory risk classification. When configured and applied to the AI use case request form, this RAM evaluates responses in the Use and Purpose section and assigns a risk classification such as High, Medium, Low, or Unacceptable. If the AI Risk and Compliance admin doesn't complete the required configuration steps, the classification defaults to **To Be Determined**.|
-|Automated risk classification for AI system|AI systems|Automatically assigns an initial regulatory risk classification based on Use and Purpose responses.|During intake when automated screening is enabled.|
+|Risk classification for AI system|AI systems|Classifies AI systems by regulatory risk level based on factors captured during intake or assessment.|During intake screening or early assessment to determine initial regulatory risk classification.|
+|Automated risk classification for AI system|AI systems|Automatically assigns an initial regulatory risk classification based on Use and Purpose responses.|During intake when automated screening is enabled. When configured and applied to the AI use case request form, this RAM evaluates responses in the Use and Purpose section and assigns a risk classification such as High, Medium, Low, or Unacceptable. If the AI Risk and Compliance admin doesn't complete the required configuration steps, the classification defaults to **To Be Determined**.|
 |Risk assessment for AI inventory|AI systems, models, datasets|Evaluates individual risks using likelihood, impact, and control effectiveness to calculate inherent and residual risk scores.|During asset-level and bulk risk assessment projects. Individual risk scores roll up to form an aggregated risk score visible on the AI asset record and the Risk and Compliance dashboard. This RAM is the default for bulk risk assessment projects. You can specify it as the default primary RAM using the `sn_grc_ai_gov.aisystem_primary_ram` property.|
 |Risk classification for AI model or dataset|AI models, datasets|Classifies models and datasets by risk level based on characteristics, data sensitivity, and intended use.|When models or datasets require independent governance evaluation. Unlike AI system classification RAMs, this RAM is not applied through a global property — it is selected when initiating a risk assessment on an AI model or dataset.|
 
@@ -37,7 +37,7 @@ The following table lists the default risk assessment methodologies \(RAMs\) ins
 
 [Risk assessment methodologies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/airc-rams.md)
 
-[Assessment templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/airc-assessment-templates.md)
+[Set up Advanced Risk assessments properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/advanced-risk-assessments-properties-airc.md)
 
 [Assessment templates reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/airc-assessment-templates-ref.md)
 

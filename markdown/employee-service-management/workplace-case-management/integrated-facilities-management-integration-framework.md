@@ -1,6 +1,6 @@
 ---
-title: Setup Integrated Facilities Management Integration Framework
-description: Set up the Integrated Facilities Management \(IFM\) Integration Framework to connect Workplace Cases and Tasks in ServiceNow with external facilities management provider systems, enabling automated work order synchronization and end‑to‑end visibility across platforms.
+title: Integrated Facilities Management Integration Framework
+description: The Integrated Facilities Management \(IFM\) Integration Framework automates work order synchronization between ServiceNow workplace cases and external facilities management systems.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-case-management/integrated-facilities-management-integration-framework.html
 release: australia
@@ -12,11 +12,11 @@ reading_time_minutes: 2
 breadcrumb: [Workplace Case Management, Workplace Service Delivery, Employee Service Management]
 ---
 
-# Setup Integrated Facilities Management Integration Framework
+# Integrated Facilities Management Integration Framework
 
-Set up the Integrated Facilities Management \(IFM\) Integration Framework to connect Workplace Cases and Tasks in ServiceNow with external facilities management provider systems, enabling automated work order synchronization and end‑to‑end visibility across platforms.
+The Integrated Facilities Management \(IFM\) Integration Framework automates work order synchronization between ServiceNow workplace cases and external facilities management systems.
 
-The Integrated Facilities Management \(IFM\) Framework automates the creation and management of work orders with third-party facilities management providers when workplace cases are created in ServiceNow. This framework facilitates bidirectional communication, allowing ServiceNow to create, add comments to work order, and cancel work order in external FM systems while receiving status updates and comments back from FM providers.
+The Integrated Facilities Management \(IFM\) Framework automates the creation and management of work orders with third-party facilities management providers when workplace cases are created in ServiceNow. This framework supports bidirectional communication with external FM systems. ServiceNow can create work orders, add comments, and cancel work orders in those systems, and receives status updates and comments from FM providers.
 
 This integration framework eliminates manual work order creation and tracking, automates case-to-work-order lifecycle management, and provides unified visibility across both platforms.
 
@@ -27,7 +27,7 @@ The IFM Framework integration enables you to perform the following actions:
 -   Create work orders automatically in external FM systems directly from ServiceNow workplace cases.
 -   Configure provider routing rules to automatically assign workplace cases or tasks requests to appropriate FM providers based on service type, location, building, or custom criteria.
 -   Track work order synchronization status in real-time using the FM Provider and FM Work Order ID fields on workplace cases.
--   Add comments to workplace case or task, and any updates will automatically appear in external work order.
+-   Add comments to a workplace case or task, and any updates will automatically appear in the external work order.
 -   Cancel workplace case and automatically trigger cancellation of corresponding work orders in FM provider systems.
 -   Receive inbound updates from FM systems that automatically update ServiceNow cases or tasks.
 
@@ -35,7 +35,8 @@ The IFM Framework integration enables you to perform the following actions:
 
 1.  When a workplace case or task is created in ServiceNow, the provider routing engine evaluates the configured routing rules to determine the appropriate FM provider. Based on the matching rule, the selected provider is stamped on the workplace case or task record. The provider routing engine is triggered only at the time of record creation, and after the provider is stamped, it cannot be changed.
 2.  Once the provider is stamped, the workplace case or task is automatically synchronized with the external FM provider system, where a corresponding work order is created.
-3.  After synchronization is complete, the FM provider becomes the primary owner of the work order. Users can add comments or cancel the workplace case or task in ServiceNow, while all other edit operations are restricted to prevent data conflicts with the external FM provider system.
+3.  After synchronization is complete, the FM provider becomes the primary owner of the work order.
+4.  Users can add comments or cancel the workplace case or task in ServiceNow. All other edit operations are restricted to prevent data conflicts with the external FM provider system.
 
 ## Included Case Types
 

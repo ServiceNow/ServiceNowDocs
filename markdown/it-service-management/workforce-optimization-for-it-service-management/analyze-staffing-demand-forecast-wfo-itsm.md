@@ -44,15 +44,15 @@ Using Demand Forecast, you can:
 
     You can click the filter icon and select the assignment groups and shift plans for which you want to view the staff alignment.
 
-<table id="choicetable_pwx_2tw_nnb"><thead><tr><th align="left" id="d91549e138">
+<table id="choicetable_pwx_2tw_nnb"><thead><tr><th align="left" id="d92001e138">
 
 To analyze staff alignment
 
-</th><th align="left" id="d91549e141">
+</th><th align="left" id="d92001e141">
 
 Do the following
 
-</th></tr></thead><tbody><tr><td id="d91549e147">
+</th></tr></thead><tbody><tr><td id="d92001e147">
 
 **For each day**
 
@@ -72,7 +72,7 @@ You can also view the number of agents you have and the demand for every hour fo
 |Yellow|The number of agents you have scheduled are more than the demand you have for that hour.|
 |Red|The number of agents you have scheduled are less than the demand you have for that hour.|
 
-</td></tr><tr><td id="d91549e225">
+</td></tr><tr><td id="d92001e225">
 
 **For a given week**
 

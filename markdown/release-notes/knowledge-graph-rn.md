@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/knowled
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [AI Experiences release notes, Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
 
@@ -16,7 +16,9 @@ The ServiceNow® Knowledge Graph application enables you to create and manage a 
 
 ## About Knowledge Graph
 
+-   Knowledge Graph can now be accessed by External users, with user role snc\_external, by setting the sn\_kg.enable\_external\_user\_check property to true.
 
+[Australia Patch 6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-6.md)
 
 -   Improved search results accuracy with enhanced Knowledge Graph integration in ServiceNow Otto® panel, ServiceNow® Otto for Virtual Agent, and AI Agents.
 

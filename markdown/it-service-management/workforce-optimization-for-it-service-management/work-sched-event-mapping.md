@@ -54,15 +54,15 @@ Role required: workspace\_admin or ui\_builder\_admin​
 
     The **Create an event** popup screen displays.
 
-<table id="choicetable_c2r_hgm_ntb"><thead><tr><th align="left" id="d148332e232">
+<table id="choicetable_c2r_hgm_ntb"><thead><tr><th align="left" id="d149409e232">
 
 To Attach
 
-</th><th align="left" id="d148332e235">
+</th><th align="left" id="d149409e235">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d148332e241">
+</th></tr></thead><tbody><tr><td id="d149409e241">
 
 **The __CARD\_CLICKED__ event**
 
@@ -74,7 +74,7 @@ Do this
 4.  Click **Add**.
 
 
-</td></tr><tr><td id="d148332e288">
+</td></tr><tr><td id="d149409e288">
 
 **The __CARD\_ACTION\_CLICKED \(Work item cards\)__ event**
 

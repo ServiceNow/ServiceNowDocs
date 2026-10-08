@@ -9,7 +9,7 @@ classification: contract-management-pro
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 6
-breadcrumb: [Contract review using AI, Review contract documents, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Contract review using AI, Review contract documents, Common contract request tasks, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Review the AI suggestions for clause deviations
@@ -35,15 +35,15 @@ A clause is a section in a contract document that outlines the guidelines of the
 
 1.  Open the contract request from the workspace that you’re using.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d270347e126">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d273023e126">
 
 Method
 
-</th><th align="left" id="d270347e129">
+</th><th align="left" id="d273023e129">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d270347e135">
+</th></tr></thead><tbody><tr><td id="d273023e135">
 
 **Contract Workspace listing**
 
@@ -55,7 +55,7 @@ Steps
 4.  Select a contract request.
 
 
-</td></tr><tr><td id="d270347e182">
+</td></tr><tr><td id="d273023e182">
 
 **Workspace used by your application**
 
@@ -160,15 +160,15 @@ Lists all the standard clauses that are active for the contract type that the do
             -   Thumbs up \[Omitted image "thumbs-up-outline-24.svg"\] and Thumbs down \[Omitted image "thumbs-down-outline-24.svg"\] icons to capture the feedback.
     2.  Accept or ignore the suggestion.
 
-<table id="choicetable_zsg_1gb_1dc"><thead><tr><th align="left" id="d270347e510">
+<table id="choicetable_zsg_1gb_1dc"><thead><tr><th align="left" id="d273023e510">
 
 Action
 
-</th><th align="left" id="d270347e513">
+</th><th align="left" id="d273023e513">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d270347e519">
+</th></tr></thead><tbody><tr><td id="d273023e519">
 
 **Replace the non-standard clause**
 
@@ -178,7 +178,7 @@ Steps
 -   Select **Use this clause**.
 
 
-</td></tr><tr><td id="d270347e540">
+</td></tr><tr><td id="d273023e540">
 
 **Ignore suggestion**
 

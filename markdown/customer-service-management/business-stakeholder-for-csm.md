@@ -73,7 +73,6 @@ Case authorized contributor\[sn\_customerservice.case\_authorized\_contributor\]
 
 This role enables users, when added to an individual case as a related party, to: -   Add additional comments and attachments
 -   Receive notifications on case updates
--   Update case tasks
 -   Accept or reject a solution
 -   Close a case
 

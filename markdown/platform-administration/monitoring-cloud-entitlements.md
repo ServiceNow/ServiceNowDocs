@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/australia/platform-administrati
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Viewing account-level entitlements, Explore, Subscription Management, Get started, Administer the ServiceNow AI Platform]
 ---
 
@@ -67,5 +67,5 @@ You might have a combination of shared capacity and dedicated cloud capacity. Be
     -   The sum of all the values in **Total purchased pool capacity \(TB\)** column equals the value in the **Total purchased pool capacity \(TB\)** card.
     -   With shared capacity, additional capacity you might receive based on your purchase history appears in the **Subscriptions** list without an end date. The amount of additional capacity you receive can fluctuate depending on your future purchases and renewals of existing subscriptions.
 -   View the tables consuming the most amount of capacity on your current instance by selecting the **Top 10 table view** link.
--   After identifying the tables consuming the most amount of capacity, manage the growth of data on your instance by selecting the **Data management policies** link and reviewing each table's data management policy.
+-   Identify which tables are driving storage growth on specific instances from the Data management Console. You can access the Data Management Console by selecting the **Data Management Console** link included in the Cloud Capacity report in Subscription Management, or by navigating to **All** &gt; **System Data Management** &gt; **Data Management Console**. For more information about the Data Management Console, see [Data Management overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/data-management-overview.md).
 

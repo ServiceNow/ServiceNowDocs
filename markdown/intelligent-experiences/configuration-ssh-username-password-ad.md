@@ -52,3 +52,5 @@ Parameter records are supported for on-screen tasks and SSH background tasks. Us
 
 The Desktop action parameter record is created and appears in the Desktop Action Parameters list. You can now create Desktop action parameter value records under this parameter. For more information, see [Create a parameter value record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configure-parameter-value-record.md).
 
+**Parent Topic:**[Enable AI agents to securely access parameters in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configure-parameter-record-ad.md)
+

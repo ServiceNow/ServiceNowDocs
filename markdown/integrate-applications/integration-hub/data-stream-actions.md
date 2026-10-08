@@ -41,7 +41,7 @@ There are two ways to run a Data Stream action.
 
 -   **From a script**
 
-    You can start a Data Stream using the executeDataStreamAction\(\) method in the FlowAPI class. For more information, see FlowAPI.
+    You can start a Data Stream using the executeDataStreamAction\(\) method in the FlowAPI class. For more information, see [FlowAPI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/ScriptableFlowAPI.md).
 
 
 ## Action outline

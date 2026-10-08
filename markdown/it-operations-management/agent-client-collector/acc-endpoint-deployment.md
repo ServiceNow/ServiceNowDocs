@@ -8,7 +8,7 @@ product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 4
 breadcrumb: [Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
@@ -42,12 +42,16 @@ Agent Client Collector for Visibility Content \(ACC-VC\) version 1.3.0 supports 
 Determine which edition of software is in use on Windows devices in your environment, to maintain an accurate software inventory. Software products commonly support multiple editions, making it difficult to identify which edition is in use.
 -   **[Generate a Pattern allowlist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/generate-patterns-allow-list.md)**  
 Generate an allowlist for a selection of patterns, to configure the patterns permitted to run on an agent.
+-   **[Domain usage discovery and categorization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-ai-domain-usage-discovery.md)**  
+Agent Client Collector for Visibility \(ACC-VC\) domain usage discovery classifies the domains that users visit against a set of admin-defined domain signatures. It enables you to see which websites and services, such as AI tools, are being used across the endpoints in your environment.
 -   **[Browser extension discovery and categorization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-browser-extension-discovery.md)**  
 Agent Client Collector for Visibility \(ACC-VC\) browser extension discovery inventories browser extensions installed on the endpoints in your environment. When an admin-defined signature matches, ACC-VC classifies each extension into a category, such as AI Tools, Productivity, or Security.
 -   **[Software packages categorization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-software-categorization.md)**  
 Agent Client Collector for Visibility \(ACC-VC\) classifies discovered software packages in your environment into categories. This categorization removes the need to tag software records manually and provides an accurate software inventory.
 -   **[Discover portable software installed by package managers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/accvc-package-discovery.md)**  
 Agent Client Collector for Visibility Content \(ACC-VC\) can discover software on Windows, Linux, and macOS endpoints that is not discoverable by traditional ACC-VC checks and policies. ACC-VC uses third-party package managers to track essential tools and development packages for software asset management \(SAM\) and IT asset management \(ITAM\).
+-   **[ACC-VC NPVDI endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/accvc-npvdi-support.md)**  
+Agent Client Collector for Visibility Content \(ACC-VC\) adjusts how its discovery and software checks run on Windows non-persistent virtual desktop infrastructure \(NPVDI\) endpoints, so that data collected during a short-lived session reaches your instance before the session ends.
 
 **Parent Topic:**[Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/agent-client-collector/acc-landing-page.md)
 

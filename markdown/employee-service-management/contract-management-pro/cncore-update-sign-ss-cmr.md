@@ -9,7 +9,7 @@ classification: contract-management-pro
 topic_type: task
 last_updated: "2026-06-24"
 reading_time_minutes: 2
-breadcrumb: [Use self-served contract request, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Own paper contract requests, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Add signatories in self-served contract request
@@ -34,15 +34,15 @@ Role required: sn\_cm\_core.contract\_fulfiller or sn\_cm\_core.contract\_user
 
 5.  Configure the signatories.
 
-<table id="choicetable_hm4_3vk_byb"><thead><tr><th align="left" id="d457053e117">
+<table id="choicetable_hm4_3vk_byb"><thead><tr><th align="left" id="d461246e117">
 
 Option
 
-</th><th align="left" id="d457053e120">
+</th><th align="left" id="d461246e120">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d457053e126">
+</th></tr></thead><tbody><tr><td id="d461246e126">
 
 **Internal**
 
@@ -67,7 +67,7 @@ To enable this property, see [Enable signatory roles](https://raw.githubusercont
 4.  Select **Add**.
 
 
-</td></tr><tr><td id="d457053e216">
+</td></tr><tr><td id="d461246e216">
 
 **External**
 
@@ -93,5 +93,5 @@ To enable this property, see [Enable signatory roles](https://raw.githubusercont
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Use self-served contract request]()
+**Parent Topic:**[Own paper contract requests]()
 

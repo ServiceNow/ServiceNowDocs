@@ -31,7 +31,7 @@ You can optionally specify the following connection settings for an Amazon S3 ex
 
     **Note:** For regulatory market compliance, specify a regulated market AWS region, such as `us-gov-east-1` or `us-gov-west-1`.
 
--   Automatic selection or manual specification of the Amazon S3 endpoint used for connection and authentication operations. For AWS regions that offer endpoints compliant with FIPS \(the Federal Information Processing Standards\), you can optionally restrict automatic selection to those endpoints.
+-   Automatic selection or manual specification of the Amazon S3 endpoint used for connection and authentication operations. For AWS regions that offer endpoints compliant with the Federal Information Processing Standards \(FIPS\), you can optionally restrict automatic selection to those endpoints.
 -   A list of Amazon S3 buckets that the connector can access content from. If you leave this list empty, the connector finds buckets using auto-discovery. If you populate this list, the connector only accesses content from the specified buckets.
 
 For the full list of supported Amazon S3 endpoints and regions, see the [Amazon Simple Storage Service endpoints and quotas](https://docs.aws.amazon.com/general/latest/gr/s3.html) Amazon documentation resource.

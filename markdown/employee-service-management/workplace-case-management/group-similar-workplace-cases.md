@@ -70,7 +70,7 @@ The workplace case is assigned to a parent case.
 
 [Create a Workplace task template]()
 
-[Smart Assessment for Workplace Case and Task]()
+[Smart Assessment for workplace cases and tasks]()
 
 [Automating seat assignment for new hires]()
 

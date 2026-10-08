@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-zurich-australia/australia-zurich-disputerulescontentpackforvisa-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 8
+last_updated: "2026-10-08"
+reading_time_minutes: 11
 breadcrumb: [Products combined by family]
 ---
 
@@ -84,7 +84,54 @@ Australia
 
 </td><td>
 
--   **[Special Condition Indicator field](https://www.servicenow.com/docs/access?context=dispute-rules-content-pack-for-visa-landing-page-1&family=australia&ft:locale=en-US)**
+-   **[New transaction data fields for chargeback rule evaluation](https://www.servicenow.com/docs/access?context=dispute-rules-content-pack-for-visa-landing-page-1&family=australia&ft:locale=en-US)**
+
+Added 38 new fields to the Financial Transaction record to support the updated Visa chargeback eligibility rules for reason codes 10.4 and 11.3.
+
+Reason code 10.4 fields:
+
+    -   Account funding source
+    -   Type of cryptogram received
+    -   Authentication solution indicator
+    -   Issuer BIN country code
+    -   Purchase order number from 3-D Secure
+    -   Order ID from merchant
+    -   Device fingerprint
+    -   Customer account login ID from merchant
+    -   Customer account login ID from 3-D Secure
+    -   Customer account login ID from agentic
+    -   Shipping address 1 from 3-D Secure
+    -   Shipping address 2 from 3-D Secure
+    -   Shipping address 3 from 3-D Secure
+    -   Shipping city from 3-D Secure
+    -   Shipping country code from 3-D Secure
+    -   Shipping postal code from 3-D Secure
+    -   Shipping state from 3-D Secure
+    -   Shipping address line 1 from merchant
+    -   Shipping address line 2 from merchant
+    -   Shipping street name from merchant
+    -   Shipping building number from merchant
+    -   Shipping postal code from merchant
+    -   Shipping city from merchant
+    -   Shipping country code from merchant
+    -   Shipping address 1 from agentic
+    -   Shipping address 2 from agentic
+    -   Shipping address 3 from agentic
+    -   Shipping city from agentic
+    -   Shipping country code from agentic
+    -   Shipping postal code from agentic
+    -   Shipping state from agentic
+Reason code 11.3 fields:
+
+    -   Partial authorization eligible
+    -   Source settlement amount \(USD\)
+    -   Authorization amount \(USD\)
+    -   Initiating party indicator
+    -   Merchant initiated transaction class
+    -   Local cashback amount
+    -   PAN reference ID
+
+ -   **[Special Condition Indicator field](https://www.servicenow.com/docs/access?context=dispute-rules-content-pack-for-visa-landing-page-1&family=australia&ft:locale=en-US)**
 
 A new **Special Condition Indicator** field on the Financial Transaction record identifies transactions involving non-fiat currency, non-fungible tokens \(NFTs\), and related digital assets. The chargeback eligibility rules engine uses this field to apply the correct dispute conditions for RC 10.4, RC 13.1, and RC 13.3.
 
@@ -143,7 +190,24 @@ Australia
 
 </td><td>
 
--   **[Updated chargeback eligibility rules for Visa reason codes 10.1, 10.2, 10.3, 10.4, 13.1, 13.2, 13.3, and 13.4](https://www.servicenow.com/docs/access?context=dispute-rules-content-pack-for-visa-landing-page-1&family=australia&ft:locale=en-US)**
+-   **Updated reason code 10.4 fraud and address verification eligibility conditions**
+
+Refined the invalid-dispute conditions for reason code 10.4 \(Other Fraud – Card-Absent Environment\), including new region-specific Address Verification Service \(AVS\) conditions phased in for Canada, US, and UK domestic transactions through October 23, 2026, then extended to Europe and select Latin America and Caribbean countries, and to Australia, New Zealand, and Singapore starting April 24, 2027. Added a Kazakhstan-specific condition for transactions initiated by reading a QR code, and a new condition \(effective October 24, 2026\) that evaluates device fingerprint, login ID, and delivery address matches across prior undisputed transactions.
+
+-   **Updated reason code 11.3 authorization and clearing timeframe rules**
+
+Revised the No Authorization/Late Presentment conditions for ATM deposit and cash disbursement adjustments, removing outdated timeframe conditions and adding country-specific processing windows for India, Nepal, Japan, and Malaysia domestic transactions. Added new permitted-variance rules between authorization and clearing amounts for specific merchant category codes, including restaurants, cruise lines, lodging, and vehicle rental merchants, and for card-absent cardholder-initiated transactions. Added deferred-authorization timeframe conditions, including a Denmark-specific rule.
+
+-   **Added reason code 13.3 price-discrepancy ineligibility condition**
+
+Added a new condition marking reason code 13.3 \(Not as Described or Defective Merchandise/Services\) disputes ineligible when the dispute is based on a price discrepancy rather than a description or defect issue.
+
+-   **Refined chargeback documentation messages**
+
+Updated the required-documentation messages shown to dispute agents for reason codes 12.6 \(Duplicate Processing/Paid by Other Means\), 13.1 \(Merchandise/Services Not Received\), 13.2 \(Cancelled Recurring Transaction\), 13.5 \(Misrepresentation\), and 13.6 \(Credit Not Processed\) to align with the April 2026 Visa Chargeback Guide wording.
+
+
+ -   **[Updated chargeback eligibility rules for Visa reason codes 10.1, 10.2, 10.3, 10.4, 13.1, 13.2, 13.3, and 13.4](https://www.servicenow.com/docs/access?context=dispute-rules-content-pack-for-visa-landing-page-1&family=australia&ft:locale=en-US)**
 
 The chargeback eligibility rules for eight Visa reason codes have been updated to reflect Visa Chargeback Guide v1.1. The rules engine evaluates disputes automatically against the updated criteria; no manual configuration is required. Disputes that do not meet the updated eligibility criteria are flagged as ineligible before submission.
 

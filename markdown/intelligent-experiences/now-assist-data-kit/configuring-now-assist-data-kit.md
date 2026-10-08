@@ -1,38 +1,27 @@
 ---
 title: Configuring AI Data Kit
-description: Configure system properties, plugins, and roles to enable all features of AI Data Kit.
+description: Set up AI Data Kit so that users in your organization can start working with datasets.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-data-kit/configuring-now-assist-data-kit.html
 release: australia
 product: Now Assist Data Kit
 classification: now-assist-data-kit
 topic_type: concept
-last_updated: "2026-05-12"
+last_updated: "2026-09-29"
 reading_time_minutes: 1
 breadcrumb: [AI Data Kit, Enable AI experiences]
 ---
 
 # Configuring AI Data Kit
 
-Configure system properties, plugins, and roles to enable all features of AI Data Kit.
+Set up AI Data Kit so that users in your organization can start working with datasets.
 
-## System properties
+## Configuration overview
 
-Some AI Data Kit features require system properties that are not enabled by default. Configure the following properties in System Properties after installation.
+1.  [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-data-kit/install-na-data-kit.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-data-kit/install-na-data-kit.md)
 
-|Property|Value|Description|
-|--------|-----|-----------|
-|`sn_data_kit.enable_ground_truth`|true|Enables the **Create ground truth guidelines** button on dataset records. Must be created manually in the **Global** application scope as a String type. If this property does not exist or is set to any other value, the button does not appear.|
+    Install AI Data Kit and its dependent applications and plugins from Application Manager.
 
-## Required plugins for sensitive data scanning
+2.  Assign the sn\_data\_kit.admin role or the sn\_data\_kit.analyst role to users, depending on the tasks they perform.
 
-The sensitive data scan feature requires the following plugins to be active on your instance. Activate these before using [Find and cleanse sensitive data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-data-kit/sensitive-data.md).
-
--   `sn_data_discovery`
--   `sn_dp_store_app` \(Data Privacy\)
--   `com.glide.data_privacy`
-
-## Role configuration
-
-After installing AI Data Kit, assign roles to users who need access. The platform `admin` role alone does not grant access to the application. All users, including administrators, require at least `sn_data_kit.analyst` to access the AI Data Kit Home page. For full role descriptions and special considerations, see .
 

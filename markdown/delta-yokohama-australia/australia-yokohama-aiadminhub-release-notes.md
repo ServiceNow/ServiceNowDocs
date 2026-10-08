@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-yokohama-australia/australia-yokohama-aiadminhub-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 34
+last_updated: "2026-10-08"
+reading_time_minutes: 36
 breadcrumb: [Products combined by family]
 ---
 
@@ -213,7 +213,17 @@ Zurich
 
 </td><td>
 
--   **ServiceNow Otto [Approval assistance AI agent](https://www.servicenow.com/docs/access?context=platform-approval-aia&family=zurich&ft:locale=en-US)**
+-   **[New features in ServiceNow Otto panel premium chat](https://www.servicenow.com/docs/access?context=now-assist-panel-premium&family=zurich&ft:locale=en-US)**
+
+These features were added to ServiceNow Otto panel premium chat:
+
+    -   Switch between multiple interactive views in a single ServiceNow Otto conversation by using the drop-down selector in the interactive view header. Return to a Knowledge Base article, catalog form, or other content you opened earlier without searching for it again.
+    -   Preview files that ServiceNow Otto generates directly in the interactive view, including Microsoft Word, Microsoft PowerPoint, Microsoft Excel, and PDF. Review a file's content before you download it, without leaving the conversation.
+    -   Ask a follow-up question about specific content by highlighting text in a ServiceNow Otto response and selecting Ask a follow-up. The highlighted text appears as a quote above the input bar and doesn't carry over when you start or switch to a different conversation.
+    -   Download generated files that use plain Microsoft Office templates, with no ServiceNow branding applied. Share or edit downloaded Word, PowerPoint, and Excel files without removing extra formatting first.
+    -   Download a generated file directly from the chat by selecting the download icon on the attachment in a ServiceNow Otto response.
+
+ -   **ServiceNow Otto [Approval assistance AI agent](https://www.servicenow.com/docs/access?context=platform-approval-aia&family=zurich&ft:locale=en-US)**
 
 Starting with Zurich Patch 12, Now Assist is now ServiceNow Otto. ServiceNow Otto is the new AI experience brand. This change is reflected in the name of ServiceNow products, including Platform Approval assistance AI agent. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
 
@@ -509,7 +519,17 @@ Australia
 
 </td><td>
 
--   **[Manage version](https://www.servicenow.com/docs/access?context=manage-version&family=australia&ft:locale=en-US)**
+-   **[New features in ServiceNow Otto panel premium chat](https://www.servicenow.com/docs/access?context=now-assist-panel-premium&family=australia&ft:locale=en-US)**
+
+These features were added to ServiceNow Otto panel premium chat:
+
+    -   Switch between multiple interactive views in a single ServiceNow Otto conversation by using the drop-down selector in the interactive view header. Return to a Knowledge Base article, catalog form, or other content you opened earlier without searching for it again.
+    -   Preview files that ServiceNow Otto generates directly in the interactive view, including Microsoft Word, Microsoft PowerPoint, Microsoft Excel, and PDF. Review a file's content before you download it, without leaving the conversation.
+    -   Ask a follow-up question about specific content by highlighting text in a ServiceNow Otto response and selecting Ask a follow-up. The highlighted text appears as a quote above the input bar and doesn't carry over when you start or switch to a different conversation.
+    -   Download generated files that use plain Microsoft Office templates, with no ServiceNow branding applied. Share or edit downloaded Word, PowerPoint, and Excel files without removing extra formatting first.
+    -   Download a generated file directly from the chat by selecting the download icon on the attachment in a ServiceNow Otto response.
+
+ -   **[Manage version](https://www.servicenow.com/docs/access?context=manage-version&family=australia&ft:locale=en-US)**
 
 Experiment with new models for custom skills as a part of model preview program within AI Admin Hub. The program aims to provide an opportunity for the user to explore and experiment with the new models even before they are generally available.
 
@@ -892,10 +912,10 @@ Australia
 -   **Activation information**
     -   **[Skills](https://www.servicenow.com/docs/access?context=now-assist-skills&family=australia&ft:locale=en-US)**
 
-Now Assist features are available with activation of any Now Assist plugin from [https://www.servicenow.com/docs/access?context=external.sn-app-store&amp;family=australia&amp;ft:locale=en-US](https://www.servicenow.com/docs/access?context=external.sn-app-store&family=australia&ft:locale=en-US).
+AI features are available with activation of any ServiceNow Otto® plugin from [https://www.servicenow.com/docs/access?context=external.sn-app-store&amp;family=australia&amp;ft:locale=en-US](https://www.servicenow.com/docs/access?context=external.sn-app-store&family=australia&ft:locale=en-US). For AI Admin Hub in the ServiceNow® Store, see [https://store.servicenow.com/store/app/c3b967621b246a50a85b16db234bcb97](https://store.servicenow.com/store/app/c3b967621b246a50a85b16db234bcb97).
 
 
-**Important:** Now Assist is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+**Important:** AI Admin Hub is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements
@@ -934,7 +954,7 @@ Australia
 
 -   **Additional requirements**
 
-The Next Experience UI Framework must be enabled before you can use the Now Assist panel.
+The Next Experience UI Framework must be enabled before you can use the ServiceNow Otto panel.
 
 
 </td></tr></tbody>
@@ -974,7 +994,7 @@ Australia
 
 -   **Browser requirements**
 
-Now Assist supports various browsers, including Google Chrome and Microsoft Edge. Now Assist isn’t supported in Internet Explorer.
+ServiceNow Otto supports various browsers, including Google Chrome and Microsoft Edge. ServiceNow Otto isn’t supported in Internet Explorer.
 
 
 </td></tr></tbody>
@@ -1051,7 +1071,7 @@ Australia
 
 -   **Localization information**
 
-Now Assist supports Dynamic Translation for Australia.
+ServiceNow Otto supports Dynamic Translation for Australia.
 
 
 </td></tr></tbody>
@@ -1096,13 +1116,13 @@ Australia
  [Australia Patch 3](https://www.servicenow.com/docs/access?context=australia-patch-3&family=australia&ft:locale=en-US)
 
 -   AI Guardian is enabled by default and detects prompt injection attempts and offensive content without manual activation.
--   Configure prompt injection detection separately for each Now Assist skill.
--   Create knowledge articles from Now Assist using files stored in Box.
+-   Configure prompt injection detection separately for each generative AI skill.
+-   Create knowledge articles with AI using files stored in Box.
 -   Improve the clarity and accessibility of your articles with the AI-powered prompt Reading Ease scan.
 
  -   **[Merge duplicate articles](https://www.servicenow.com/docs/access?context=merge-duplicate-articles&family=australia&ft:locale=en-US)**
 
-Merge selected duplicate knowledge articles into a new consolidated article using Now Assist in Knowledge Management. The merge preserves references to source articles and helps maintain a clean, high‑quality knowledge base.
+Merge selected duplicate knowledge articles into a new consolidated article with ServiceNow® Otto for Knowledge Management. The merge preserves references to source articles and helps maintain a clean, high‑quality knowledge base.
 
 
 </td></tr></tbody>

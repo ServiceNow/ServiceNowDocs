@@ -74,7 +74,7 @@ To create routing agents, add users to the Source Operations Universal Request G
 
 [Sourcing Pipeline Management]()
 
-[Understanding Punchout]()
+[Understanding punchout]()
 
 [AI Search for Sourcing and Procurement Operations]()
 

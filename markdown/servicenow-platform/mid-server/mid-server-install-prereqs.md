@@ -50,6 +50,8 @@ Install MID Servers with the MID Server guided Windows installation package. The
 
 ### Before you begin
 
+Enable **File and Printer Sharing for Microsoft Networks** on the Windows host before you run the Windows MSI installer. The installer requires file and printer sharing to install the MID Server.
+
 Role required: admin or mid\_server
 
 ### About this task

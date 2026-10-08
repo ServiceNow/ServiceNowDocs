@@ -7,7 +7,7 @@ release: australia
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Activate ServiceNow Otto Skills, Configure, ServiceNow Otto for CSM, Customer Service Management]
 ---
@@ -26,8 +26,10 @@ Email reply recommendations are generated from the information that you enter in
 
 -   Short description
 -   Description
--   All journal fields
 -   Emails
+-   Additional Comments
+-   Work Notes
+-   Activity
 
 ## Procedure
 
@@ -39,7 +41,7 @@ Email reply recommendations are generated from the information that you enter in
 
     Each skill has a guided setup with multiple steps. A check symbol next to each step indicates whether its setup is complete, partially complete, or incomplete. After configuring a step, select **Save and continue** to move forward, or **Back** to return to a previous step.
 
-4.  Select **Choose Input** and review the tables and fields to create prompts that determines where data is pulled from.
+4.  Select **Choose Input** and review the tables and fields to create prompts that determine where data is pulled from.
 
     **Note:** You cannot modify the input data source.
 
@@ -84,8 +86,8 @@ Input fields
 
     Default and Custom Roles:
 
-    -   If no changes are made, the default role sn\_customerservice\_agent or sn\_customerservice.consumer\_agent  will automatically appear in **Define Access** and **Select Display**.
-    -   If custom roles were added before the upgrade, they’ll be updated automatically by a script.
+    -   If no changes are made, the default role sn\_customerservice\_agent or sn\_customerservice.consumer\_agent will automatically appear in **Define Access** and **Select Display**.
+    -   If custom roles were added before the upgrade, they are updated automatically by a script.
     -   If new roles are created after the upgrade, you must manually add them in both the **Define Access** and **Select Display**.
 
         **Note:** In the **Select Display** step, you can only choose roles that were added in the **Define Access** step. If you add a role in **Define Access**, you still must manually select it in **Select Display** to make it active.

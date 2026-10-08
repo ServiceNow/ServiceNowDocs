@@ -8,7 +8,7 @@ product: Project Workspace
 classification: project-workspace
 topic_type: task
 last_updated: "2026-04-14"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [Use AI Admin Hub, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
@@ -59,7 +59,7 @@ Use the AI applications and skills that you have activated.
 
 -   **[Configure project insights generation skill in the AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/configure-project-insights-generation-skill.md)**  
 Define the triggers, inputs, and display location for project insights generation skill.
--   **[Configure project status generation skill in the AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/configure-project-status-generation-skill.md)**  
+-   **[Configure project status generation skill in the AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/configure-project-status-generation-skill.md)**  
 Configure the project status generation AI skill to enable.
 
 **Parent Topic:**[Use AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/using-na-admin-spm.md)

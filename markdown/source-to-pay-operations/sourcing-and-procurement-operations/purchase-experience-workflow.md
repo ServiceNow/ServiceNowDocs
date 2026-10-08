@@ -96,7 +96,7 @@ A framework to integrate tax calculations into Sourcing and Purchasing Automatio
 
 [Sourcing Pipeline Management]()
 
-[Understanding Punchout]()
+[Understanding punchout]()
 
 [AI Search for Sourcing and Procurement Operations]()
 

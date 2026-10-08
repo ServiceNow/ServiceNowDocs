@@ -19,6 +19,8 @@ Adaptive desktop actions adjust their execution based on user context and system
 Download and install the AI Desktop Actions installer on your macOS machine for running adaptive desktop actions.
 -   **[Controlling what AI Desktop Actions can access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/security_policy_governance_concept.md)**  
 Control which desktop resources, such as files, folders, websites, and applications, AI Desktop Actions can access within your organization.
+-   **[Reusable skills in adaptive desktop actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/reusable-skills-adaptive-da.md)**  
+Reusable skills save steps from completed adaptive desktop actions, allowing future requests with similar intent to run those steps with new data. This accelerates repeated tasks and reduces AI token consumption.
 
 **Parent Topic:**[Configure AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configure-agentic-desktop.md)
 

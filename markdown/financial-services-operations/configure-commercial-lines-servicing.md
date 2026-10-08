@@ -28,15 +28,15 @@ Role required: sn\_ins\_policy\_b2b.admin or admin
 
 2.  Review the installed components and modify them or add new ones as applicable.
 
-<table id="choicetable_ajc_kk5_z4b"><thead><tr><th align="left" id="d35972e123">
+<table id="choicetable_ajc_kk5_z4b"><thead><tr><th align="left" id="d35974e123">
 
 Task
 
-</th><th align="left" id="d35972e126">
+</th><th align="left" id="d35974e126">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d35972e135">
+</th></tr></thead><tbody><tr><td id="d35974e135">
 
 **Configure service definitions**
 
@@ -46,7 +46,7 @@ Description
 -   Commercial Lines Underwriting
 
 
-</td></tr><tr><td id="d35972e168">
+</td></tr><tr><td id="d35974e168">
 
 **Configure record producers**
 
@@ -54,7 +54,7 @@ Description
 
 [Create or modify record producers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/create-modify-record-producers-fso-apps.md) to define request forms.
 
-</td></tr><tr><td id="d35972e188">
+</td></tr><tr><td id="d35974e188">
 
 **Create flows**
 
@@ -62,7 +62,7 @@ Description
 
 [Create flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/configure-flow-designer-flows-fso-apps.md) using Workflow Studio.
 
-</td></tr><tr><td id="d35972e210">
+</td></tr><tr><td id="d35974e210">
 
 **Configure playbooks**
 
@@ -70,7 +70,7 @@ Description
 
 [Edit or create a new playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/configure-playbooks-fso-apps.md) using Playbooks.
 
-</td></tr><tr><td id="d35972e232">
+</td></tr><tr><td id="d35974e232">
 
 **Configure CRM Workspace**
 
@@ -78,7 +78,7 @@ Description
 
 [Configure CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/configure-csm-workspace-fso-apps.md) to enable requesters, contributors, and processors to interact with customers, and create and work on cases.
 
-</td></tr><tr><td id="d35972e259">
+</td></tr><tr><td id="d35974e259">
 
 **Modify interceptors and workspace record type selectors**
 
@@ -86,7 +86,7 @@ Description
 
 [Modify interceptors and workspace record type selectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/configure-request-types-fso.md) to configure policy request types.
 
-</td></tr><tr><td id="d35972e278">
+</td></tr><tr><td id="d35974e278">
 
 **Configure user groups**
 
@@ -94,7 +94,7 @@ Description
 
 [Configure user groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/configure-groups-fso.md) for assignment of cases and tasks. You can also assign roles to groups and users.
 
-</td></tr><tr><td id="d35972e297">
+</td></tr><tr><td id="d35974e297">
 
 **Configure assignment rules**
 
@@ -102,7 +102,7 @@ Description
 
 [Configure assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/configure-assignment-rules-fso-applications.md) to identify cases that meet certain conditions and then route those cases to agents.
 
-</td></tr><tr><td id="d35972e314">
+</td></tr><tr><td id="d35974e314">
 
 **Configure Service Level Agreements \(SLAs\)**
 
@@ -110,7 +110,7 @@ Description
 
 [Configure the installed SLAs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/financial-services-operations/configure-sla-definitions-fso-cases.md) to configure SLA timings for policy service cases and tasks.
 
-</td></tr><tr><td id="d35972e333">
+</td></tr><tr><td id="d35974e333">
 
 **Configure Document Processor**
 

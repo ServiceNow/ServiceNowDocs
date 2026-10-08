@@ -25,7 +25,7 @@ The following plugins must be activated on your instance:
 
 -   ServiceNow Otto for HR Service Delivery \(HRSD\) plugin \(sn\_hrsd\_gen\_ai\)
 -   Model Context Protocol Server \(sn\_mcp\_server\)
--   HRSD MCP Server \(sn\_hrsd\_mcp\_server\)
+-   HRSD MCP Server \(sn\_hr\_mcp\_server\)
 
 Role required: sn\_mcp\_server.admin or admin
 
@@ -55,15 +55,15 @@ Role required: sn\_mcp\_server.admin or admin
 
     **Note:** Change the application scope to **Global**.
 
-<table id="choicetable_tss_d1b_dkc"><thead><tr><th align="left" id="d800134e208">
+<table id="choicetable_tss_d1b_dkc"><thead><tr><th align="left" id="d807641e208">
 
 Authentication option
 
-</th><th align="left" id="d800134e211">
+</th><th align="left" id="d807641e211">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d800134e217">
+</th></tr></thead><tbody><tr><td id="d807641e217">
 
 **Use the HRSD MCP Server OAuth client entry**
 
@@ -78,7 +78,7 @@ The fields on the Authorization code grant page are automatically populated.
 4.  Select **Save**.
 
 
-</td></tr><tr><td id="d800134e255">
+</td></tr><tr><td id="d807641e255">
 
 **Set up your own OAuth connection**
 

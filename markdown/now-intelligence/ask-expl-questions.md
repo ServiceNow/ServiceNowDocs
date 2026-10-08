@@ -95,7 +95,7 @@ The goal of AI Data Explorer is to understand your prompts in your own words, de
 Once you have a productive exploration going, with a lot of context, you may find that you can ask more abstract questions and get useful answers. However, these tips might help you get started.
 
 -   **[Indicator vs Table data source selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/indicator-vs-table-data-source-selection.md)**  
-After you submit a query to AI Data Explorer, the system checks the query for information whether to use table or indicator data. If there is no such information, it falls back on a default set in a system property.
+After you submit a query to AI Data Explorer, the system checks the query for specific keywords that indicator whether to use table or indicator data. If there are no such keywords, it falls back on a default set in a system property.
 -   **[Extended analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/hidden-insights.md)**  
 Generate a deeper level of analysis that can reveal new insights, enabling you to make more informed decisions.
 -   **[Add a data visualization from an exploration to a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/add-data-viz-from-expl-to-dboard.md)**  

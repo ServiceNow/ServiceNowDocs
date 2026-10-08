@@ -20,7 +20,7 @@ Deny-Unless ACLs are evaluated with a "deny-unless" approach. The ACL defines th
 
 **Important:** Deny-Unless ACLs will take priority against Allow-If ACLs in ACL Evaluation, as it will be evaluated first.
 
-A Deny-Unless ACL produces two outcomes
+A Deny-Unless ACL produces two outcomes:
 
 <table id="table_jnn_5pl_zbc"><thead><tr><th>
 
@@ -36,7 +36,7 @@ Pass
 
 </td><td>
 
-The defined roles, data conditions, security attributes, and script requirements are met. The ACL proceeds to further evaluation **Important:** Even if a Deny-Unless ACL matches, access is only granted when an Allow-If ACL explicitly permits it. If no Allow-If ACL is matched and the Deny-Unless ACL passes, the system grants access by default.
+The defined roles, data conditions, security attributes, and script requirements are met. The ACL proceeds to further evaluation .**Important:** Even if a Deny-Unless ACL matches, access is only granted when an Allow-If ACL explicitly permits it. If no Allow-If ACL is matched and the Deny-Unless ACL passes, the system grants access by default.
 
 </td></tr><tr><td>
 
@@ -47,11 +47,13 @@ Fail
 The Deny-Unless ACL is marked as failing and access will be denied.
 
 </td></tr></tbody>
-</table>The following is an explained example of a Deny-Unless ACL:
+</table>The following is an example of a Deny-Unless ACL:
 
--   ACL has roles `sn_hr_core.manager` and `itil`
+-   ACL has roles `sn_hr_core.manager` or `itil`
 -   Condition has active = `true`
 -   script has answer = `gs.isLoggedIn();`
 
-The user is denied access unless all three requirements for this ACL are satisfied. In order for this Deny-Unless ACL to pass, a user needs either the `sn_hr_core.manager` or `itil` roles, be accessing a record that has active field = `true`, and be logged in. The Deny-Unless ACL will fail if any of the three requirements isn't met.
+The user is denied access unless all three requirements for this ACL are satisfied. In order for this Deny-Unless ACL to pass, a user needs the `sn_hr_core.manager` or `itil` role, be accessing an active record, and be logged in. The Deny-Unless ACL will fail if any of the three requirements isn't met.
+
+If there are multiple Deny-Unless ACLs on a specific resource, all of them must evaluate to true for the user to have access.
 

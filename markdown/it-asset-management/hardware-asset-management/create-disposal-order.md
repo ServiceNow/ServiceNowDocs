@@ -9,6 +9,7 @@ classification: hardware-asset-management
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 10
+keywords: [Dispose hardware assets, Hardware disposal, Retire asset, Scrap hardware, Decommission asset]
 breadcrumb: [Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
@@ -38,15 +39,15 @@ Starting with Hardware Asset Management 15.0.0 version, the asset resale option 
 
 1.  Navigate to **All** &gt; **Hardware Asset Workspace** &gt; **Inventory view**.
 
-<table id="choicetable_l5h_scg_kyb"><thead><tr><th align="left" id="d360013e131">
+<table id="choicetable_l5h_scg_kyb"><thead><tr><th align="left" id="d366027e147">
 
 Interface
 
-</th><th align="left" id="d360013e134">
+</th><th align="left" id="d366027e150">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d360013e140">
+</th></tr></thead><tbody><tr><td id="d366027e156">
 
 **Core UI**
 
@@ -54,7 +55,7 @@ Action
 
 Navigate to **All** &gt; **Inventory** &gt; **Create Disposal Order**.
 
-</td></tr><tr><td id="d360013e161">
+</td></tr><tr><td id="d366027e177">
 
 **Hardware Asset Workspace**
 
@@ -224,6 +225,8 @@ Update the resale values for assets planned for disposal, and indicate that you 
 [Manage the lifecycle of hardware models with calculated lifecycle templates]()
 
 [Create an internal lifecycle in the Hardware Asset Workspace]()
+
+[Calculate the active lifecycle phase for a model]()
 
 [Receive asset warranty details from Lenovo]()
 

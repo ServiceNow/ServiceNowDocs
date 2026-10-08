@@ -20,7 +20,7 @@ Use Mobile Publishing if your company needs a branded app for any reason or to s
 
 -   Need more than two mobile apps to exist on any one device. Because the ServiceNow Mobile Platform doesn't support two mobile apps of the same type on the same mobile device, end users can only have one Now Mobile and one Mobile Agent app \(branded or not\) on their devices. If end users need a third mobile app type, you can use Mobile Publishing to create custom-type apps with unique mobile client names.
 -   Enable employee trust in the app and increase employee adoption.
--   Distribute your app privately off any app store through your intranet, by email, text link, iTune or Blackberry Enterprise Mobility Management \(EMM\) vendor, or by other means.
+-   Distribute your app privately off any app store through your intranet, by email, text link, iTune, or by other means.
 -   Need an "unlisted app" in the Apple app store. For more information, see [Distribute Unlisted Apps to Apple Devices](https://support.apple.com/guide/deployment/distribute-unlisted-apps-dep36d738732/web#:~:text=Unlisted%20Apps%20are%20still%20published,considered%20hidden%20but%20not%20private.) on the Apple support website.
 -   Use push notifications and you’re an on-prem customer.
 -   Need to be insulated from potential issues related to releases of the standard published ServiceNow mobile apps.

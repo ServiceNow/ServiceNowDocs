@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/australia/mobile/request-privat
 release: australia
 topic_type: task
 last_updated: "2026-08-20"
-reading_time_minutes: 11
+reading_time_minutes: 10
 breadcrumb: [Request, test, &amp; publish, Custom branded apps, Configuring the Mobile Platform, Mobile Platform]
 ---
 
@@ -143,10 +143,8 @@ Mobile Application Management vendor
 
 </td><td>
 
-Select one of the following MAM vendors form the list:
+Select the **Intune** MAM vendor form the list.
 
- -   **Blackberry**
--   **Intune**
  This field is only visible if you select the **Mobile Application Management \(MAM\)** toggle.
 
 </td></tr><tr><td>

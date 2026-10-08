@@ -80,3 +80,5 @@ The **Value** field displays as plain text or encrypted text depending on the **
 
 The Desktop action parameter value record is created and appears in the Desktop action parameter values related list on the Parameter record.
 
+**Parent Topic:**[Enable AI agents to securely access parameters in AI Desktop Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configure-parameter-record-ad.md)
+

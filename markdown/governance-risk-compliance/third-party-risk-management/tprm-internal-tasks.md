@@ -7,8 +7,8 @@ release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-07-16"
-reading_time_minutes: 2
+last_updated: "2026-09-14"
+reading_time_minutes: 3
 breadcrumb: [Assess third-party risk, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
 
@@ -22,13 +22,13 @@ Role required: sn\_vdr\_risk\_asmt.vendor\_assessor
 
 ## About this task
 
-Tasks typically track follow-up work with a third-party contact. For information about creating and managing tasks for third-party contacts, see [Create a task for a third party or engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-ws-task-create.md) and [Manage a task for a third party or engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-ws-task-manage.md). An internal task is a related but separate record type that assigns follow-up work to an internal user instead of a third-party contact. Internal tasks aren't visible to third-party contacts and don't appear in the third-party portal.
+Tasks are commonly used to track follow-up work with a third-party contact. For information about creating and managing tasks for third-party contacts, see [Create a task for a third party or engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-ws-task-create.md) and [Manage a task for a third party or engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-ws-task-manage.md). An internal task is a related but separate record type that assigns follow-up work to an internal user instead of a third-party contact. Internal tasks aren't visible to third-party contacts and don't appear in the third-party portal.
 
-Depending on how your organization configures its due diligence and risk processes, the system can automatically generate an internal task and assign it to a specified respondent. For example, the system can assign the task to the person who submitted a request, so the respondent can provide additional information before the process continues.
+Internal tasks can be automatically generated and assigned to a specified respondent, depending on how your organization configures its due diligence and risk processes. For example, the task can be assigned to the person who submitted a request, so the respondent can provide additional information before the process continues.
 
-When an internal task is submitted to a respondent, the system automatically grants the respondent the internal task responder role to manage the elements linked to the task. For more information about this role, see [Roles in Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-roles.md).
+When an internal task is submitted to a respondent, the respondent is automatically granted the internal task responder role required to complete the task. For more information about this role, see [Roles in Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-roles.md).
 
-You can assign an internal task to any internal user in your organization. The respondent completes the task from the **Employee Center**, under **GRC tasks**.
+You can assign an internal task to any internal user in your organization. The respondent completes the task from the Employee Center, under GRC tasks.
 
 ## Procedure
 
@@ -43,7 +43,16 @@ You can assign an internal task to any internal user in your organization. The r
 
 ## What to do next
 
-The assigned respondent completes the follow-up work from the **Employee Center**, under **GRC tasks**, and updates the task state as they progress. To monitor or update the task, see [Manage a task for a third party or engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-ws-task-manage.md).
+The assigned respondent completes the follow-up work from the Employee Center, under GRC tasks, and updates the task state as they progress. Monitor and update the task in [Manage a task for a third party or engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-ws-task-manage.md).
+
+The respondent can also view assigned internal tasks in the GRC Portal.
+
+Internal tasks transition through the following states as they are created, assigned, completed, and reviewed:
+
+-   **Open** — Task is created and awaiting assignment to a respondent.
+-   **Submitted to responder** — Task is assigned to a respondent; the respondent can now access and complete it. The respondent is automatically granted the internal task responder role.
+-   **Review** — Task is submitted for review by the assessor or due diligence request owner.
+-   **Closed** — Task review is complete and the task is closed.
 
 **Related topics**  
 

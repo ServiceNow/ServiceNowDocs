@@ -46,5 +46,5 @@ This functionality provides the following benefits:
 
 [Configure Chrome to download files automatically](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/config-chrome-download.md)
 
-[Considerations for file upload and download](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown)
+[Considerations for file upload and download](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/upload-download-ref.md)
 

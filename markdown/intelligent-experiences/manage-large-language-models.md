@@ -48,7 +48,7 @@ As per the AI Control Tower settings, the model provider selection is available 
     -   Policy and skill updates by the AI steward in AI Control Tower under the **Change History** tab.
 
 -   **[Manage model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/edit-model-providers.md)**  
-Edit or customise the model provider for a skill or skill group at the instance level from the list of supported third-party model providers, including the default Now LLM Service. You can also review the model policy set by your organisation, and view the change history here.
+Edit or customize the model provider for a skill or skill group at the instance level from the list of supported third-party model providers, including the default Now LLM Service. You can also review the model policy set by your organization, and view the change history here.
 -   **[Manage Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/manage-integration.md)**  
 Choose the preferred integration type for configuring the available model providers. There are two ways to configure a model provider in AI Admin Hub. You can either select Original Equipment Manufacturer \(OEM\) or Bring Your Own Key \(BYOK\).
 -   **[Manage version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/manage-version.md)**  

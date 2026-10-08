@@ -1,20 +1,20 @@
 ---
-title: Retriever chunking and reranking
-description: When you’re building a skill prompt that uses a retriever you can use chunking and reranking to enhance the accuracy and relevance of your responses.
+title: Configure retriever chunking and reranking
+description: Configure chunking and reranking for a retriever that uses hybrid or semantic search to control how retrieved content is split, ranked, and passed to the LLM.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-skill-kit/retriever-chunking.html
 release: australia
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Add a retriever, Create a prompt, Using AI Skill Kit, AI Skill Kit, Enable AI experiences]
+breadcrumb: [Add a retriever, Add a tool, Create a prompt, Using AI Skill Kit, AI Skill Kit, Enable AI experiences]
 ---
 
-# Retriever chunking and reranking
+# Configure retriever chunking and reranking
 
-When you’re building a skill prompt that uses a retriever you can use chunking and reranking to enhance the accuracy and relevance of your responses.
+Configure chunking and reranking for a retriever that uses hybrid or semantic search to control how retrieved content is split, ranked, and passed to the LLM.
 
 ## Before you begin
 
@@ -48,7 +48,7 @@ Max number of chunks per document
 
 </td><td>
 
-The maximum number of chunks that you want returned per document. The default value is 10.
+Maximum number of chunks to return per document. The default value is 10.
 
 </td></tr><tr><td>
 
@@ -62,7 +62,7 @@ Fixed size breaks down the full text into smaller passages. You can choose the p
 
 -   Small to big
 
-Small to big enables you to choose the top K best matched indexed chunks and expand them to include surrounding chunks. Then the expanded chunks are linked together into a large text and broken into smaller passages.
+Small to big enables you to choose the top K best-matched indexed chunks and expand them to include surrounding chunks. Then the expanded chunks are linked together into a large text and broken into smaller passages.
 
 Don’t use the small to big chunking strategy if you’re using full text or truncate index chunking configuration.
 
@@ -82,7 +82,7 @@ Chunk size
 
 </td><td>
 
-The size of the chunks that are returned. The default value for word size is 750. The default value for sentence size is 40.
+Size of the returned chunks. The default value for word size is 750. The default value for sentence size is 40.
 
 </td></tr><tr><td>
 
@@ -90,7 +90,7 @@ Expanded snippet size
 
 </td><td>
 
-The size of the expanded chunks that are included when you select the small to big chunking strategy.
+Size of the expanded chunks included when you select the small to big chunking strategy.
 
 </td></tr><tr><td>
 
@@ -98,12 +98,12 @@ Top K results
 
 </td><td>
 
-The number of chunks the reranker returns. If you leave this field empty, the default number of chunks that are returned will be the limit you entered.
+Number of chunks that the reranker returns. If this field is empty, the reranker returns the number of results set in the retriever Limit field.
 
 </td></tr></tbody>
 </table>5.  Select **Next**.
 
-6.  Select the type of condition that you want to be evaluated when the tool is executed.
+6.  Select the type of condition to evaluate when the tool runs.
 
 7.  Select **Next**.
 

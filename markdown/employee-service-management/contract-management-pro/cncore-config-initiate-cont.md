@@ -1,6 +1,6 @@
 ---
 title: Add a workspace action button for initiating a contract request
-description: Define an action button in your workspace and map it to the built-in action that initiates a contract request.
+description: Define an action button in your workspace and map it to the built-in action that initiates contract requests.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/contract-management-pro/cncore-config-initiate-cont.html
 release: australia
@@ -15,7 +15,7 @@ breadcrumb: [Configure CM Pro for your workspace, Configure, Contract Management
 
 # Add a workspace action button for initiating a contract request
 
-Define an action button in your workspace and map it to the built-in action that initiates a contract request.
+Define an action button in your workspace and map it to the built-in action that initiates contract requests.
 
 ## Before you begin
 
@@ -128,9 +128,9 @@ An action button to initiate contract requests from a contract record is availab
 
 [Add Contract requests tab to the contract request record]()
 
-[Add amendment tabs to contract repository record]()
-
 [Add Contract documents tab to the contract repository record]()
+
+[Add amendment tabs to contract repository record]()
 
 [Copy fields from parent request to contract request]()
 
@@ -138,7 +138,7 @@ An action button to initiate contract requests from a contract record is availab
 
 [Add access to obligation management from contract repository records]()
 
-[Configure the contract request form header for your workspace]()
+[Configure the contract request form header]()
 
 [Assign a role for configuring template mappings]()
 

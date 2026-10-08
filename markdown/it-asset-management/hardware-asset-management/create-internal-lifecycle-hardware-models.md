@@ -31,15 +31,15 @@ Beyond approximated and calculated lifecycles, Hardware Asset Management support
 
 2.  Open the create lifecycle form for the hardware model or consumable model record.
 
-<table id="choicetable_z1b_lpx_jjc"><thead><tr><th align="left" id="d169676e95">
+<table id="choicetable_z1b_lpx_jjc"><thead><tr><th align="left" id="d171324e95">
 
 Option
 
-</th><th align="left" id="d169676e98">
+</th><th align="left" id="d171324e98">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d169676e104">
+</th></tr></thead><tbody><tr><td id="d171324e104">
 
 **Open the __Hardware Model Lifecycles__ tab**
 
@@ -52,7 +52,7 @@ Description
 
 The Create New Hardware Model Lifecycle form is displayed.
 
-</td></tr><tr><td id="d169676e142">
+</td></tr><tr><td id="d171324e142">
 
 **Open the __Consumable Lifecycles__ tab**
 
@@ -115,6 +115,8 @@ The custom lifecycle record is created and listed in the Hardware Model Lifecycl
 [View RFID information of assets]()
 
 [Manage the lifecycle of hardware models with calculated lifecycle templates]()
+
+[Calculate the active lifecycle phase for a model]()
 
 [Receive asset warranty details from Lenovo]()
 

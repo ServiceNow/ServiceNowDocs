@@ -4789,7 +4789,7 @@ The Reporting quick start test Automated Test Framework - Reporting plugin \(com
 |----|-----------|---------------|
 |Report Visibility|Confirm whether reports are still visible to users whom they are shared with.|Madrid|
 
-## Software Asset Management Foundation plugin Software Asset Management
+## Basic Software Asset Management Software Asset Management
 
 Software Asset Management quick start tests require activating the Software Asset Management Professional plugin \(com.snc.samp\). Some quick start tests require activating the following additional plugins.
 
@@ -4830,7 +4830,7 @@ SAM - Oracle PaaS BYOL
 </td><td>
 
 -   Validates the addition of the new Serverless Hardware \[cmdb\_ci\_serverless\_hardware\] table, which stores information about PaaS devices.
--   Validates the license compliance of Oracle Database servers in Amazon Web Services \(AWS\) PaaS environments.
+-   Validates the license compliance of Oracle Database in Amazon Web Services \(AWS\) PaaS environments.
 
  **Note:** Requires the Software Asset Management Professional for Oracle \(com.snc.samp.oracle\) plugin and the CMDB CI Class Models store application.
 

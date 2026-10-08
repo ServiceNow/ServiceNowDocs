@@ -10,7 +10,7 @@ topic_type: task
 last_updated: "2025-11-13"
 reading_time_minutes: 2
 keywords: [Compare contract documents, Compare contract revisions]
-breadcrumb: [Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Common contract request tasks, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Compare contract revisions in Contract Management Pro
@@ -96,5 +96,5 @@ Workspace used by your application
 5.  Select **Download redlined document** to download the document, and make further modifications to it.
 
 
-**Parent Topic:**[Using Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-use-cmpro.md)
+**Parent Topic:**[Common contract request tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-common-contract-req-tasks.md)
 

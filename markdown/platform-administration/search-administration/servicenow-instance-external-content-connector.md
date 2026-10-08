@@ -23,7 +23,7 @@ Search administrators can run or schedule content crawls to retrieve updated con
 
 In your destination instance, the indexed content and metadata are stored as records in a connector-specific indexed source. Search administrators can create search sources from this indexed source and link them to search profiles to make the indexed records searchable in AI Search applications.
 
-**Important:** Your source and destination instances must be distinct from one another. The ServiceNow® instance external content connector is not designed to feed an instance's content back into itself.
+**Important:** Your source and destination instances must be distinct from one another. Don't use the ServiceNow® instance external content connector to feed an instance's content back into itself.
 
 ## User permissions
 

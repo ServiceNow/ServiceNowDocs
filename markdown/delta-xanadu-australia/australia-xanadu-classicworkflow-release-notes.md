@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-xanadu-australia/australia-xanadu-classicworkflow-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 3
 breadcrumb: [Products combined by family]
 ---
@@ -239,6 +239,9 @@ Zurich
 
 -   Support for classic workflows is in Planned Deprecation. For more information about application and plugin deprecation, see [KB0867184 on Support](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184).
 -   Use Workflow Studio flows and subflows instead of classic Workflow.
+
+ -   Removed the legacy workflows created and published by ServiceNow, Inc. for new customers who start on the Zurich release.
+-   Retained the legacy workflows created and published by ServiceNow, Inc. for customers who upgraded from versions prior to the Zurich release.
 
 </td></tr><tr><td>
 

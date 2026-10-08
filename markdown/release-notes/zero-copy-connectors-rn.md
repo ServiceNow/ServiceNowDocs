@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/zero-co
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
-reading_time_minutes: 3
+reading_time_minutes: 5
 breadcrumb: [App development and low-code release notes, Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
 
@@ -21,6 +21,9 @@ The ServiceNow® Zero Copy Connectors application unifies data from across the e
 -   Connect to Databricks, Oracle, and Snowflake using OAuth authentication.
 -   Query time-series monitoring data from Prometheus using the new community connector.
 -   Include either primary connectors only or both primary and community connectors.
+-   Retrieve real-time data from Oracle HCM \(Discovery\), and Acumatica using new REST connectors.
+-   Connect to MySQL and PostgreSQL using newly promoted primary connectors.
+-   Authenticate to external data sources using your own credentials with personal authentication support.
 
 See [Zero Copy Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/zero-copy-connectors.md) for more information.
 
@@ -43,9 +46,18 @@ The ServiceNow® Zero Copy Connectors application unifies data from across the e
 
 ### What's new
 
+-   **[Australia Patch 6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-6.md)**
+    -   [Oracle HCM \(Discovery\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/oracle-hcm-discovery-zcc.md): Retrieve discovery-related data from Oracle HCM in real-time without copying or duplicating the data.
+    -   [Acumatica](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/acumatica-zcc.md): Retrieve data from Acumatica in real-time without copying or duplicating the data.
+    -   [REST connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rest-connectors.md), Oracle HCM \(Discovery\) and Acumatica, display dedicated connector icons and a REST tag in the connector selection UI.
+    -   Authenticate to [Databricks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/databricks-zcc.md) and [Snowflake](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/snowflake-zcc.md) using your own credentials instead of a shared service account, so that access is individually authenticated and auditable at the source system.
 
 ### What's changed
 
+-   **[Australia Patch 6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-6.md)**
+    -   [MySQL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/mysql-zcc.md): The MySQL connector moved from the Community connector list to the Primary connector list. This connector is available with a Preview label, indicating that performance enhancements are ongoing.
+    -   [PostgreSQL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/postgresql-zcc.md): The PostgreSQL connector moved from the Community connector list to the Primary connector list.
+    -   Authentication options for MySQL and PostgreSQL connections: The connection form for MySQL and PostgreSQL now includes additional authentication drop-down options, including AWS IAM and OAuth, alongside basic authentication.
 
 ## June 2026
 
@@ -122,4 +134,28 @@ The ServiceNow® Zero Copy Connectors application unifies data from across the e
 ## Australia
 
 The ServiceNow® Zero Copy Connectors application unifies data from across the enterprise, providing access to external data in real time without needing to copy it to your instance. Zero Copy Connectors was enhanced and updated in the Australia release.
+
+### What's changed
+
+-   **[New application name](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/zero-copy-connectors.md)**
+
+    Workflow Data Fabric Hub is now Zero Copy Connector Hub.
+
+-   **[Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-1.md)**
+
+    [New connector package options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/zero-copy-connectors.md)When installing Zero Copy Connectors, you can include primary connectors only by selecting Zero Copy Connectors Primary \(sn\_zcc\_primary\). Alternatively, select Zero Copy Connectors \(sn\_data\_fabric\_zcc\) to include both primary and community connectors.
+
+-   **[Australia Patch 6](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-6.md)**
+    -   Authenticate to [Databricks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/databricks-zcc.md) and [Snowflake](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/snowflake-zcc.md) using your own credentials with personal authentication support.
+    -   Retrieve real-time metadata and data from REST-enabled systems without copying or duplicating the data. This release adds [REST connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/rest-connectors.md) for [Oracle HCM \(Discovery\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/oracle-hcm-discovery-zcc.md) and [Acumatica](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/acumatica-zcc.md).
+    -   [MySQL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/mysql-zcc.md) and [PostgreSQL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/postgresql-zcc.md) connectors moved from Community connectors to Primary connectors.
+
+### Plugin information
+
+-   **Renamed or changed plugins**
+
+    The following plugins were renamed or changed in Australia:
+
+    -   Workflow Data Fabric Hub \(sn\_data\_fabric\): Renamed to Zero Copy Connector Hub \(sn\_data\_fabric\).
+    -   [Australia Patch 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/australia-patch-1.md): Zero Copy Connectors \(sn\_data\_fabric\_zcc\): Now available as two separate installation options — Zero Copy Connectors Primary \(sn\_zcc\_primary\) for primary connectors only, or Zero Copy Connectors \(sn\_data\_fabric\_zcc\) for both primary and community connectors.
 

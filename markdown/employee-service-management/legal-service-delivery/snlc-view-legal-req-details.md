@@ -1,5 +1,5 @@
 ---
-title: View and track non-disclosure agreement requests as a legal user
+title: View and track NDA requests
 description: View the details of a non-disclosure agreement request after it has been submitted and track the activities in the request.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/legal-service-delivery/snlc-view-legal-req-details.html
@@ -12,7 +12,7 @@ reading_time_minutes: 1
 breadcrumb: [Non-disclosure agreement requests, Use, Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
-# View and track non-disclosure agreement requests as a legal user
+# View and track NDA requests
 
 View the details of a non-disclosure agreement request after it has been submitted and track the activities in the request.
 

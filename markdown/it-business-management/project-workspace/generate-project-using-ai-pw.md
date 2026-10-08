@@ -28,7 +28,7 @@ Role required: it\_project\_manager
 
 ## About this task
 
-AI scans your project and task details to generate content. Review and edit the output before creating the project. Supported file types are word, pdf, excel, and powerpoint, with a 5 MB file size limit. Only the first five attachments are processed.
+AI scans your project and task details to generate content. Review and edit the output before creating the project. Supported file types are word, pdf, excel, and powerpoint, with a 5 MB file size limit. Excel attachments are processed with a dedicated prompt tailored to tabular data, separate from word, pdf, and powerpoint attachments. Only the first five attachments are processed.
 
 For project and task supported column configurations, see [Supported columns for project and task generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/column-configuration-project-tasks.md).
 
@@ -45,7 +45,7 @@ For project and task supported column configurations, see [Supported columns for
 3.  Provide your project input using one or more of these methods.
 
     -   In the text field, describe your project using natural language. If you provide only natural language input, the document intelligence skill is not required.
-    -   Select Attach files and upload a word, pdf, excel, or powerpoint document. To use file attachments, activate the document intelligence skill. For more information, see [Activate a Now Assist in Document Intelligence skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-in-document-intelligence-skill.md).
+    -   Select Attach files and upload a word, pdf, excel, or powerpoint document. A preview of the attachment appears before you proceed. To use file attachments, activate the document intelligence skill. For more information, see [Activate a Now Assist in Document Intelligence skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-in-document-intelligence-skill.md).
     **Note:** Attach a file or enter context as free-form text before proceeding. No input returns an error. Insufficient context may also trigger an error.
 
 4.  Select **Next** to generate the project.

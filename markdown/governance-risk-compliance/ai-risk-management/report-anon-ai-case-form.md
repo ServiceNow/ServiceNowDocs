@@ -7,8 +7,9 @@ release: australia
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
+keywords: [anonymous report form, AI case anonymous reporting, Anonymous Report Center]
 breadcrumb: [Report an AI case anonymously, Use, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
 

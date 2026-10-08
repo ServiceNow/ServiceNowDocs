@@ -8,7 +8,7 @@ product: Digital Factory Workspace
 classification: digital-factory-workspace
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 4
 breadcrumb: [Use, Digital Factory Workspace, Industrial Connected Workforce]
 ---
 
@@ -46,9 +46,23 @@ Industrial Guided Tasks enables you to create, publish, and execute step-by-step
 
     Set up scoring logic and automation rules to optimize task execution and follow-up actions.
 
+-   **[Create a report on IGT question results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/create-report-igt-question-results.md)**
+
+    Report on individual question results by functional location, equipment, standard, or shift.
+
+-   **[View shopfloor insights for a manufacturing standard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/igt-view-shopfloor-insights.md)**
+
+    Access the embedded shopfloor insights dashboard on an IGT standard record to analyze execution performance and identify improvement opportunities. This feature is available as part of Industrial Analytics and Reporting.
+
+-   **[Filter shopfloor insights data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/igt-filter-shopfloor-insights.md)**
+
+    Use filters on the Insights Overview tab to refine shopfloor insights data by functional location, equipment, and time period. This feature is available as part of Industrial Analytics and Reporting.
+
 
 -   **[Publish an Industrial Guided Task standard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/publish-industrial-guided-task-standard.md)**  
 Use Industrial Guided Task \(IGT\) standards to create and publish custom industrial standards tailored to your industry and operations.
+-   **[Add a question bank question to an IGT standard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/add-question-bank-question-to-igt-standard.md)**  
+Add a question from the question bank to a section in an IGT standard to reuse an existing question without recreating it.
 -   **[Copy an Industrial Guided Task standard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/copy-industrial-guided-task-standard.md)**  
 Copy an Industrial Guided Task \(IGT\) standard to reuse it as a template, without having to draft the entire standard from the start.
 -   **[Using templates to create standards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/creating-standards-from-templates.md)**  
@@ -59,6 +73,12 @@ Create an Industrial Guided Task \(IGT\) from an IGT standard.
 Create an Industrial Guided Task \(IGT\) based on the Recommended Actions for a deviation.
 -   **[Use automation to create standard tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/use-automation-create-standard-tasks.md)**  
 Set up an automation to create a standard task that is directly related to the Industrial Guided Task \(IGT\) that triggered the standard task.
+-   **[Create a report on IGT question results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/create-report-igt-question-results.md)**  
+Create a report that shows the answers to IGT questions together with the functional location, equipment, standard, and shift of each task.
+-   **[View shopfloor insights for a manufacturing standard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/igt-view-shopfloor-insights.md)**  
+Access the embedded shopfloor insights dashboard on an IGT standard record to analyze execution performance and identify improvement opportunities.
+-   **[Filter shopfloor insights data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/igt-filter-shopfloor-insights.md)**  
+Use filters on the Insights Overview tab to refine shopfloor insights data by functional location, equipment, and time period.
 
 **Parent Topic:**[Using Digital Factory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/industrial-connected-workforce/digital-factory-workspace/using-digital-factory-workspace.md)
 

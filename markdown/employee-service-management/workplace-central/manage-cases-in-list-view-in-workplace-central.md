@@ -1,5 +1,5 @@
 ---
-title: Manage workplace cases in List view in Workplace Central
+title: Workplace cases in List view in Workplace Central
 description: The List view tab provides a traditional list view of cases in Workplace Central.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/workplace-central/manage-cases-in-list-view-in-workplace-central.html
@@ -9,14 +9,15 @@ classification: workplace-central
 topic_type: concept
 last_updated: "2026-05-20"
 reading_time_minutes: 3
+keywords: [List view, case management, case filtering, bulk operations]
 breadcrumb: [Working with Case management, Use, Workplace Central, Workplace Service Delivery, Employee Service Management]
 ---
 
-# Manage workplace cases in List view in Workplace Central
+# Workplace cases in List view in Workplace Central
 
 The List view tab provides a traditional list view of cases in Workplace Central.
 
-The List view tab complements the Calendar view by offering a structured, row-based representation of the same case data, making it suitable for users who prefer list-based navigation or to perform bulk operations.
+The List view tab complements the Calendar view by offering a structured, row-based representation of the same case data. Use List view if you prefer traditional list-based navigation. You can also use List view to perform bulk operations on multiple cases at once.
 
 To access List view:
 
@@ -35,7 +36,7 @@ In addition to the filters inherited from the Calendar view, the List view tab i
 
 ## Fixed condition filter
 
-When a case manager or case agent navigates to the List Tab in Workplace Central, the condition builder displays a set of populated filters that are automatically carried over from the Calendar View. These are referred to as fixed filters.
+When you navigate to the List Tab, the condition builder automatically displays the filters you set in the Calendar View. These are called fixed filters.
 
 The filters applied using the predicate builder, the case type filter, and the Campus filter are automatically passed as fixed filters into the condition builder.
 
@@ -55,7 +56,7 @@ The List view tab includes a declarative Assign action that allows enables case 
 
 The List view tab exposes standard presentational list component actions, including export options. You can export the current filtered list for offline use or reporting purposes.
 
-\[Omitted image "casemgmt-listview-tab.png"\] Alt text:
+\[Omitted image "casemgmt-listview-tab.png"\] Alt text: List view tab with workplace cases displayed in table format with filtering and bulk action options
 
 **Parent Topic:**[Working with Case management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/working-with-case-management.md)
 
@@ -78,5 +79,5 @@ The List view tab exposes standard presentational list component actions, includ
 
 [Manage workplace cases in calendar view in Workplace Central]()
 
-[View Facility Assets in Workplace Central]()
+[View facility assets in Workplace Central]()
 

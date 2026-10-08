@@ -85,7 +85,7 @@ Use the following tutorial to create a flow for the employee travel request appl
 
 5.  Select **Build your flow from scratch**.
 
-    You can also choose to build your flow with Now Assist. For more information, see [Create a flow with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/create-flow-now-assist.md).
+    You can also choose to build your flow with Now Assist. For more information, see [Create a flow with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/create-flow-now-assist.md).
 
 6.  Define the properties of the flow.
 

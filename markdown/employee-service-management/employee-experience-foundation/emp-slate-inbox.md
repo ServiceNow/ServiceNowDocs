@@ -8,7 +8,7 @@ product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
 last_updated: "2026-04-02"
-reading_time_minutes: 3
+reading_time_minutes: 4
 keywords: [Tasks and requests, tasks, approvals, requests, Employee Slate]
 breadcrumb: [Working with EmployeeWorks capabilities, ServiceNow EmployeeWorks Web App, Unified Employee Experience, Employee Service Management]
 ---
@@ -34,6 +34,14 @@ You can use the filters to view and track the tasks and requests from the follow
 ## Tasks and requests pages
 
 EmployeeWorks Web App provides task and request detail pages with all the context that an employee needs. Task and request types natively render with the full AI-native experience with AI Insights for approvals. For other types, the tasks and requests provides a link to Employee Center.
+
+## Filter and sort options in Tasks and requests
+
+Requests and tasks support different filter options to help employees manage long lists.
+
+Requests support a **30 days** and a **90 days** filter. The filter applies to requests created or updated within the selected range. The default is **30 days** to improve performance and page load time.
+
+Tasks support **Due date** and **Task type** filter options. It also has sort options within **Task type** and **Due date** filters to narrow your search further and navigate a long list of to-dos. Task filters are configurable. For more information, see [Task configuration enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/employee-experience-foundation/es-task-configuration.md).
 
 ## AI prioritization and summaries
 

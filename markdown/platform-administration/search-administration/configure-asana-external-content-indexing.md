@@ -27,7 +27,7 @@ Role required: none
 
 The Asana external content connector retrieves projects, tasks, and comments from your Asana source system using the Asana API.
 
-To allow the connector to access your Asana source system via the Asana API, you must configure and authorize an OAuth 2.0 application in the Asana developer console. Your connector administrator can use settings copied from the OAuth 2.0 application to configure the Asana external connector for proper connection to your source system.
+To allow the connector to access your Asana source system via the Asana API, you must configure and authorize an OAuth 2.0 application in the Asana developer console. Your connector administrator can use settings copied from the OAuth 2.0 application to configure the Asana external content connector for proper connection to your source system.
 
 ## Procedure
 

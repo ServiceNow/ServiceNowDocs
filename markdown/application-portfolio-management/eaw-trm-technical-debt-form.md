@@ -1,19 +1,19 @@
 ---
 title: TRM technical debt form
-description: Technology Reference Model \(TRM\) technical debts are created for products that aren't aligned with TRM phases and standards.
+description: Create Technology Reference Model \(TRM\) technical debts for products that aren't aligned with TRM phases and standards.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-portfolio-management/eaw-trm-technical-debt-form.html
 release: australia
 topic_type: reference
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 keywords: [TRM technical debt, technical debt form, technology reference model]
 breadcrumb: [Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # TRM technical debt form
 
-Technology Reference Model \(TRM\) technical debts are created for products that aren't aligned with TRM phases and standards.
+Create Technology Reference Model \(TRM\) technical debts for products that aren't aligned with TRM phases and standards.
 
 <table id="table_ak2_5fg_tyb"><thead><tr><th>
 
@@ -25,11 +25,19 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
+Number
+
+</td><td>
+
+Unique identifier of the technical debt record. Select this value to open the technical debt record. **Note:** If you upgraded to Enterprise Architecture Workspace version 10.1.3, technical debt records created before the upgrade display **\(empty\)** in this field. Select **\(empty\)** to open these records. Records created after the upgrade have a number.
+
+</td></tr><tr><td>
+
 Reason
 
 </td><td>
 
-Reason why the technical debt was created. Select this value to open the technical debt record.
+Reason why the technical debt was created.
 
 </td></tr><tr><td>
 
@@ -53,7 +61,7 @@ TRM product
 
 </td><td>
 
-TRM product. A software product that has version-specific life cycles.
+Software product that has version-specific life cycles.
 
 </td></tr><tr><td>
 
@@ -64,7 +72,7 @@ TRM phase
 Phase of the TRM product. The following TRM phases are available: -   Approved: The technology is approved for use.
 -   Approved with Constraints: The technology can be used within the constraints specified in the comments.
 -   Divest: A decision was taken to divest from the use of the technology.
--   Evaluation: This technology is being evaluated and cannot be used for production purposes.
+-   Evaluation: This technology is being evaluated and can't be used for production purposes.
 -   Unapproved: The technology is not permitted to be used.
 
  **Note:** You can modify these phases by navigating to **EA Workspace** &gt; **Setup** &gt; **TRM Phases**.

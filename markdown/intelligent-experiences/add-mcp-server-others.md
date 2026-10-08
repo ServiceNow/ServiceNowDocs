@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experienc
 release: australia
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Adding an MCP Server Console in AI Agent Studio, Configuring Model Context Protocol Client, MCP Client, AI Agent Studio, Enable AI experiences]
 ---
 
@@ -28,7 +28,7 @@ To use authentication methods not supported in MCP Server, use the Connection an
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Settings** &gt; **Manage Model Contextual Protocol \(MSCP\) Servers**.
+1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Settings** &gt; **Manage Model Contextual Protocol \(MCP\) Servers**.
 
 2.  Select **View** against **MCP Servers**.
 
@@ -87,7 +87,7 @@ Select a Connection and credential alias record to map with your MCP Server.
 
 9.  Define the Tools for the Model Context Protocol Sever.
 
-    You can configure the MCP tools in the Assistant Designer. For more information see [Assign Model Context Protocol \(MCP\) servers to an assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/assign-mcp-servers.md).
+    You can configure the MCP tools in the Assistant Designer. For more information see .
 
 10. Select **Save**.
 

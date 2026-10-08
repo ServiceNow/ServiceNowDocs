@@ -16,14 +16,14 @@ breadcrumb: [Use, Base Asset Management, Common applications, Asset Management]
 
 Manage the asset movement from one stockroom to the other using transfer order.
 
-The Asset Management application enables asset managers to create transfer orders for moving assets between company stockrooms.
+The Base Asset Management application enables asset managers to create transfer orders for moving assets between company stockrooms.
 
 Consumable assets and non-consumable assets can be transferred as follows:
 
 -   If an asset is consumable, it can be transferred and the quantity can be greater than one. Consumable parts are tracked by the system qualitatively.
 -   If an asset is non-consumable, it must be transferred as a single entity with a quantity of one. Non-consumable parts correspond to assets defined in the system.
 
-**Important:** In the Asset Management application, the Transfer Order Line workflow manages the processing of transfer order lines. If your ServiceNow instance has the following plugins activated, the transfer order lines are processed using a workflow, depending on the plugin installed.
+**Important:** In the Base Asset Management application, the Transfer Order Line workflow manages the processing of transfer order lines. If your ServiceNow instance has the following plugins activated, the transfer order lines are processed using a workflow, depending on the plugin installed.
 
 -   If the Service Management Core plugin is activated, the Transfer Order Line SM core workflow manages the processing of the transfer order lines.
 -   If the Field Service Management plugin \(com.snc.work\_management\) is activated, the Transfer Order Line SMCore workflow manages the processing of the transfer order lines.
@@ -63,7 +63,7 @@ Understand how transfer order line tasks are structured and when to create custo
 -   **[Transfer order line asset tracking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/r_TransferOrderLineAssetTracking.md)**  
 Understand how asset states and stock information update automatically as a transfer order line progresses through each stage. Consumables and non-consumables are tracked differently.
 
-**Parent Topic:**[Using Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/using-asset-management.md)
+**Parent Topic:**[Using Base Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/using-asset-management.md)
 
 **Related topics**  
 

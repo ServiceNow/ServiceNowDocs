@@ -1,6 +1,6 @@
 ---
 title: Compound Security Attributes
-description: Compound Security Attributes enable you to create consistent and reusable Security Attribute profiles suit your business needsCreate a compound Security Attribute for easy reuse.
+description: Compound security attributes enable you to create consistent and reusable security attribute profiles to suit your business needs.Create a compound Security Attribute for easy reuse.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/access-control/compound-security-attributes.html
 release: australia
@@ -14,13 +14,11 @@ breadcrumb: [Create Security Attributes, Security Attributes, Access Management]
 
 # Compound Security Attributes
 
-Compound Security Attributes enable you to create consistent and reusable Security Attribute profiles suit your business needs
+Compound security attributes enable you to create consistent and reusable security attribute profiles to suit your business needs.
 
 ## Overview
 
-Compound Security attributes are defined from one or more pre-existing Security Attributes to create a single reference combination of Security Attributes for permissions evaluation.
-
-## Compound Security Attribute Behavior
+Compound security attributes are defined from one or more existing security attributes to create a single reference combination of security attributes for permissions evaluation.
 
 ## Create compound Security Attributes
 

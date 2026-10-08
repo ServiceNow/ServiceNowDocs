@@ -108,7 +108,7 @@ Disable password-less authentication
 
 Help ensure strong authentication by disabling password-less authentication when possible. Without disabling password-less authentication, potential attackers could gain access to your instance by correctly guessing a user name \(such as firstname.lastname or a role title\).
 
- You can disable password-less authentication on your instance using a system property. For details on this property see [Disable password-less authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/instance-security-hardening-settings/sc-disable-password-less-authentication.md).
+ You can disable password-less authentication on your instance using a system property. For details on this property see .
 
 </td></tr><tr><td>
 

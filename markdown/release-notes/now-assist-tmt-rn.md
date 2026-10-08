@@ -7,7 +7,7 @@ release: australia
 topic_type: topic
 last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Now Assist and agentic AI release notes, Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
+breadcrumb: [ServiceNow Otto and agentic AI release notes, Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
 
 # ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) release notes
@@ -33,7 +33,7 @@ See [ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](http
     Now Assist features are available with activation of the ServiceNow Otto for TMT plugin. For more information, see [Install plugins for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 
 
-**Parent Topic:**[Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/now-assist-rn-landing.md)
+**Parent Topic:**[ServiceNow Otto and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/now-assist-rn-landing.md)
 
 ## Australia Early Availability
 

@@ -149,7 +149,7 @@ Create custom filters in the schedule view to control which records appear in yo
 -   **[View space details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/view-space-details.md)**  
 View the full details of a workspace that you selected in the schedule view. You can view details such as the floor, building, capacity, standard services, and reservation purpose on the space details panel.
 -   **[Schedule view flexibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/schedule-view-flexibility.md)**  
-Event planners and space planners can organize, view, and manage events across multiple spaces and time zones using the Event planner **Scheduled view** tab.
+Event planners and space planners can organize, view, and manage events across multiple spaces and time zones using the Event planner **Schedule view** tab.
 
 **Parent Topic:**[Working with Event planner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/workplace-central/working-with-event-planner.md)
 

@@ -16,7 +16,7 @@ Many ServiceNow applications support domain separation in the base system but no
 
 ## Domain separation support levels
 
-ServiceNow applications that support domain separation may support the separation of data and data routing only, have advanced business logic separation, or support tenant \(customer\) level administration of the application. ServiceNow applications are defined with the following incremental support levels.
+ServiceNow applications that support domain separation may support the separation of data and data routing only. They may also have advanced business logic separation or support tenant \(customer\) level administration of the application. ServiceNow applications are defined with the following incremental support levels.
 
 \[Omitted image "ds-support-levels.png"\] Alt text: Domain separation support levels
 
@@ -89,6 +89,7 @@ Sometimes, a platform feature or application may effectively support SP use case
 |[Employee Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/employee-service-management-overview.md)|[HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/hr-domain-separation.md)|Basic\*|
 |[Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/health-safety-domain-separation.md)|No support|
 |[Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/legal-domain-separation.md)|Basic|
+|Moveworks|No support|
 |[Procurement Service Management \(PSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/source-to-pay-operations/psm-domain-separation.md)|No support|
 |[Safe Workplace Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/domain-separation-safe-workplace.md)|See application site for individual application support levels|
 |[SharePoint Online Search Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/sharepoint-online-search-connector-domain-separation.md)|Basic|
@@ -99,7 +100,7 @@ Sometimes, a platform feature or application may effectively support SP use case
 |[Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/fsm-application-landing-page.md)|[Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/field-service-management/domain-separation-field-service.md)|Basic|
 |[Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/r_WhatIsGRC.md)|[Advanced Risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/domain-separation-risk-management.md)|Basic|
 |[Audit Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-domain-separation.md)|Basic|
-|Business Continuity Management|Basic|
+|[Business Continuity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/business-continuity-mangmt-overview.md)|Basic|
 |[Compliance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-domain-separation.md)|Basic|
 |[Continuous Authorization and Monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-domain-separation.md)|Basic|
 |[Governance, Risk, and Compliance \(GRC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/grc-domain-separation.md)|Basic|
@@ -117,7 +118,7 @@ Sometimes, a platform feature or application may effectively support SP use case
 |•[Financial Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/fso-overview.md)|Financial Services Card Operations|Basic|
 |Financial Services Deposit Operations|Basic|
 |Financial Services Loan Operations|Basic|
-|[Financial Services Payment Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/financial-services-operations/domain-separation-financial-services-payment-operations.md)|Basic|
+|Financial Services Payment Operations|Basic|
 |Financial Services Treasury Operations|Basic|
 |Intelligent Servicing for Fraud|Basic|
 |Property and Casualty Insurance Servicing|Basic|
@@ -196,7 +197,7 @@ Sometimes, a platform feature or application may effectively support SP use case
 |[Expense Line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/r_InstalledWithExpenseLine.md)|No support|
 |[Incident Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/domain-separation-incident-comm-mgt.md)|Standard|
 |[Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/domain-separation-incident-management.md)|Standard|
-|[Facilities Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/domain-separation-facilities-service-mgt.md)|Standard|
+|Facilities Service Management|Standard|
 |[Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/domain-separation-incident-management.md)|Standard|
 |[On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/domain-separation-on-call-scheduling.md)|Standard|
 |Asset Management|Basic|
@@ -208,7 +209,7 @@ Sometimes, a platform feature or application may effectively support SP use case
 |[Service Level Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/domain-separation-sla.md)|Basic|
 |[Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/SPM2-landing-page.md)|Basic\*|
 |Site Reliability Operations|Basic\*|
-|[Task outage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/domain-separation-task-outage.md)|Basic|
+|Task outage|Basic|
 ||No support|
 |[Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/domain-separation-walkup-experience.md)|Basic|
 |[Configure ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/configure-now-assist-for-itsm.md)|Basic|
@@ -220,6 +221,7 @@ Sometimes, a platform feature or application may effectively support SP use case
 |[Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/user-exp-analytics-landing.md)|Basic|
 |[The ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-platform/now-platform-landing.md)|[Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-domain-separation.md)|Standard|
 |[Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/ci-agent-chat-reference.md)|Standard|
+|[AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/aict-landing.md)|Basic\*|
 |[AI Search/Now Assist in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/ai-search-domain-separation.md)|Searches respect domain restrictions from indexed records|
 |[App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-domain-sep.md)|No support|
 |[Application Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/app-management-domain-separation.md)|No support|
@@ -232,7 +234,7 @@ Sometimes, a platform feature or application may effectively support SP use case
 |[Content Management System](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/domain-separation-content-management.md)|No support|
 |[Credentials and Connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/connections-and-credentials/domain-separation-credentials_conn.md)|Standard|
 |Data Certification|Basic\*|
-|[Data Classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/data-classification/domain-separation-data-classification.md)|Enhanced|
+|Data Certification|Enhanced|
 |Data Privacy|No support|
 |[Data Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/domain-separation-data-management.md)|Basic\*|
 |[Delegated Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/domain-separation-delegated-development.md)|No support|
@@ -336,7 +338,7 @@ Sometimes, a platform feature or application may effectively support SP use case
 |[Threat Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/domain-separation-threat-intelligence.md)|Standard|
 |Threat Intelligence Security Center|Standard|
 |[Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/security-management/domain-separation-vulnerability-response.md)|Standard|
-|[Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_ServiceManagement.md)|[Facilities Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/domain-separation-facilities-service-mgt.md)|Standard|
+|[Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/c_ServiceManagement.md)|Facilities Service Management|Standard|
 |[Planned Maintenance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/service-management-for-the-enterprise/domain-separation-planned-maintenance.md)|Standard\*|
 |Structured Problem Analysis|No support|
 |Workforce Optimization for ITSM|Basic|

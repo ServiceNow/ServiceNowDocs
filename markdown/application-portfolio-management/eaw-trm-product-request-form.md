@@ -30,7 +30,7 @@ Number
 
 </td><td>
 
-A unique, auto-generated identification number for the product request.
+Unique, auto-generated identification number for the product request.
 
 </td></tr><tr><td>
 
@@ -49,7 +49,7 @@ Type
 Select the type of the product. The list includes:-   Software
 -   Hardware
 
-**Note:** The fields **Is New Product**, **Software Product**, and **Hardware Product** will be displayed only when you have the Software Asset Management Foundation plugin and the Hardware Asset Management plugin installed on your instance.
+**Note:** The fields **Is New Product**, **Software Product**, and **Hardware Product** will be displayed only when you have the Basic Software Asset Management and the Hardware Asset Management plugin installed on your instance.
 
 </td></tr><tr><td>
 
@@ -65,7 +65,7 @@ Software Product
 
 </td><td>
 
-Name of the software product. This field appears only when the **Type** is selected as Software and Software Asset Management Foundation plugin is installed in your instance.
+Name of the software product. This field appears only when the **Type** is selected as Software and Basic Software Asset Management is installed in your instance.
 
 </td></tr><tr><td>
 

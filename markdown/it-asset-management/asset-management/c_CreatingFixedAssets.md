@@ -42,7 +42,7 @@ To sum the residual values of all assets in a fixed asset:
     The ServiceNow platform calculates the**Residual Value**, **Total cost,** and **Total depreciation** based on information in the **Financial** and **Depreciation** sections on the individual asset records.
 
 
-**Parent Topic:**[Using Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/using-asset-management.md)
+**Parent Topic:**[Using Base Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/asset-management/using-asset-management.md)
 
 **Related topics**  
 

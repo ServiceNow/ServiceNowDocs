@@ -9,7 +9,7 @@ classification: grc-compliance-management-workspace
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Set up policy acknowledgement campaign, Acknowledge policy, Manage control objectives and policies, Use, GRC Compliance workspace, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Set up policy acknowledgement campaign, Acknowledge policy, Manage control objectives and policies, Use, GRC Compliance workspace, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Create an audience using the Compliance Workspace
@@ -30,7 +30,7 @@ Role required: sn\_compliance\_admin or sn\_compliance\_manager
 
 4.  Use the three tabs to identify members for this audience.
 
-<table id="choicetable_iyr_syf_mjb"><tbody><tr><td id="d234985e100">
+<table id="choicetable_iyr_syf_mjb"><tbody><tr><td id="d238694e100">
 
 **Users**
 
@@ -38,7 +38,7 @@ Role required: sn\_compliance\_admin or sn\_compliance\_manager
 
 Click **Edit** and add one or more individual users to the audience.
 
-</td></tr><tr><td id="d234985e112">
+</td></tr><tr><td id="d238694e112">
 
 **Groups**
 
@@ -46,7 +46,7 @@ Click **Edit** and add one or more individual users to the audience.
 
 Click **Edit** and add one or more predefined groups of users to the audience.
 
-</td></tr><tr><td id="d234985e124">
+</td></tr><tr><td id="d238694e124">
 
 **User Filters**
 

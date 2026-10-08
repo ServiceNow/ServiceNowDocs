@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/report-grc-issue-frm-plan.html
 release: australia
 topic_type: task
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 2
 keywords: [GRC, issue, compliance, Otto]
 breadcrumb: [Reporting an issue from Business Continuity Workspace, Managing issues from Business Continuity Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
@@ -17,7 +17,7 @@ Report a Governance, Risk, and Compliance \(GRC\) issue from ServiceNow Otto® p
 
 ## Before you begin
 
-Verify that you have access to the Business Continuity Workspace or Employee Center. You also need appropriate permissions to create GRC issues in your organization.
+Confirm you have access to the Business Continuity Workspace or Employee Center. You must have appropriate permissions to create GRC issues in your organization.
 
 Role required: sn\_bcm.program\_manager, sn\_bcm.bcm\_viewer
 
@@ -25,7 +25,7 @@ Role required: sn\_bcm.program\_manager, sn\_bcm.bcm\_viewer
 
 1.  Navigate to **Workspaces** &gt; **Business Continuity Workspace**.
 
-2.  To report an issue from a plan or event record in Business Continuity Workspace, follow these steps.
+2.  To report an issue from a plan or event record in Business Continuity Workspace, complete these steps.
 
     1.  Select an issue from the plan or event record.
 
@@ -41,7 +41,7 @@ Role required: sn\_bcm.program\_manager, sn\_bcm.bcm\_viewer
 
         After submission, the ServiceNow Otto for IRM panel confirms the receipt and displays your issue request number.
 
-3.  To activate a Report a GRC issue AI agent from the ServiceNow Otto for IRM panel, follow the instructions in [Activate the Report a GRC issue AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/activate-the-issue-submission-ai-agent.md).
+3.  To activate a Report a GRC issue AI agent from the ServiceNow Otto for IRM panel, see [Activate the Report a GRC issue AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/activate-the-issue-submission-ai-agent.md).
 
 4.  To report a GRC issue from the Employee Center, follow the steps outlined in [Report a GRC issue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-common-functions/report-a-grc-issue.md).
 
@@ -54,11 +54,9 @@ Role required: sn\_bcm.program\_manager, sn\_bcm.bcm\_viewer
 
 ## What to do next
 
-Monitor your issue's progress as it moves through the Analyze, Respond, Review, and Closed states. You may be contacted if the compliance team needs clarification or additional documentation.
+Monitor your issue's progress as it moves through the Analyze, Respond, Review, and Closed states. The compliance team may contact you if the compliance team needs clarification or additional documentation.
 
-**Note:**
-
-Issues submitted through ServiceNow Otto for IRM aren't automatically classified as BCM issues, and aren't linked to a plan, event, or exercise. If the issue relates to business continuity, update the issue type, classification, and related record manually.
+**Note:** Issues submitted through ServiceNow Otto for IRM aren't automatically classified as BCM issues, and aren't linked to a plan, event, or exercise. If the issue relates to business continuity, update the issue type, classification, and related record manually.
 
 **Related topics**  
 
@@ -71,5 +69,5 @@ Issues submitted through ServiceNow Otto for IRM aren't automatically classified
 
 [Reporting an issue from Business Continuity Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/grc-iss-rep-frm-bcmws-w-ai.md)
 
-[Dependencies for integrating the Issues module with BCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/issues-bcm-dependencies.md)
+[Issues module integration dependencies with BCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/issues-bcm-dependencies.md)
 

@@ -7,7 +7,7 @@ release: australia
 product: Strategic Planning
 classification: strategic-planning
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Forms, Reference, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -56,6 +56,8 @@ Role
 
 Primary role of the resource.If a resource is selected, the primary role of the resource is populated by default.
 
+This field is disabled for Group assignment.
+
 </td></tr><tr><td>
 
 Skill
@@ -93,7 +95,7 @@ Name
 
 </td><td>
 
-Name of the assigned resource.
+Custom name of the resource assignment.
 
 </td></tr><tr><td>
 
@@ -127,6 +129,7 @@ Resource status
 
 Status of the resource assignment.The available values are:
 
+-   Pending
 -   Approved
 -   Unapproved
 -   Unassigned

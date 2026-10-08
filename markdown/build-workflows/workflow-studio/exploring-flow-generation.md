@@ -7,7 +7,7 @@ release: australia
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-07-29"
+last_updated: "2026-09-15"
 reading_time_minutes: 12
 breadcrumb: [Flow generation, Build flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Flow generation, Build flows, Flows, subflows, and actions, Workflo
 
 Create multiple step flows and subflows with generative AI. Generate appropriate data pill values for supported flow triggers and action inputs.
 
-\[Omitted video\] Description: Create a flow with ServiceNow Otto for Creator
+\[Omitted video\] Description: Create a flow with AI
 
 ## Activation
 
@@ -38,7 +38,7 @@ You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude on 
 
 Access flow generation skills from the Workflow Studio user interface.
 
-\[Omitted image "example-input-build-with-now-assist.png"\] Alt text: Dialog window with options to build a flow with Now Assist
+\[Omitted image "example-input-build-with-now-assist.png"\] Alt text: Dialog window with options to build a flow with AI
 
 ## Supported trigger types
 
@@ -106,7 +106,7 @@ Beginning with the Xanadu Patch 3 release, you can refer to a specific table in 
 
 \[Omitted image "example-hash-tags-autocomplete.jpg"\] Alt text: Autocomplete table name suggestions for the Strategic hash tag
 
-\[Omitted image "example-hash-tags-autocomplete-02.jpg"\] Alt text: Now Assist directions containing a hash tag link to the Strategic Priority table.
+\[Omitted image "example-hash-tags-autocomplete-02.jpg"\] Alt text: AI directions containing a hash tag link to the Strategic Priority table.
 
 -   **1. Hash tag text**
 
@@ -114,7 +114,7 @@ Beginning with the Xanadu Patch 3 release, you can refer to a specific table in 
 
 -   **2. Autocomplete table name suggestions**
 
-    The system displays table name suggestions that match your hash tag text. You can select an autocomplete suggestion to use data from that specific table in your Now Assist directions.
+    The system displays table name suggestions that match your hash tag text. You can select an autocomplete suggestion to use data from that specific table in your AI directions.
 
 -   **3. Hash tag link to table**
 
@@ -193,7 +193,7 @@ Flow generation inserts a placeholder step when it can’t match part of your re
 
 ## General guidelines
 
-Follow these general guidelines when writing Now Assist directions.
+Follow these general guidelines when writing AI directions.
 
 -   **Always describe the trigger first**
 

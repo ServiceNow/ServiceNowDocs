@@ -140,7 +140,7 @@ You can clear either the first- or second-level breakdown and element combinatio
 
 If you click a value on a chart in a widget on a dashboard, you open the Analytics Hub on that indicator. If you are on a breakdown dashboard and have multiple elements selected, and the widget shows the aggregate of those elements, the Analytics Hub also shows the aggregate of those elements.
 
-For more information about the aggregate view of multiple elements selected on a dashboard, see [Showing multiple elements separately or aggregated](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/multi-element-select-indicator-views.md).
+For more information about the aggregate view of multiple elements selected on a dashboard, see [Showing multiple elements separately or aggregated in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/multi-element-select-indicator-views.md).
 
 \[Omitted image "ah-from-multi-element-aggregate.png"\] Alt text: Clicking on a score that is the aggregate of all the selected elements in a widget on a breakdown dashboard
 

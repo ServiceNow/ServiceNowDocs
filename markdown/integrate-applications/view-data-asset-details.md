@@ -39,7 +39,9 @@ Asset detail pages organize information into tabs for easy navigation. The Overv
 
 5.  On the Columns tab, view column information for tabular assets, such as tables.
 
-    The tab displays details like Asset name, Relationship, Data type, etc. The Classifier field displays the classification assigned to the columns harvested by the ServiceNow collector. If classification has not run on the table, the Classifier column displays null. Check your entitlements to determine whether you have access to the data classification feature. For details, see [Data Classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-classification.md)
+    The tab displays details like Asset name, Relationship, Data type, etc. The Classifier field displays the classification assigned to the columns harvested by the ServiceNow collector. If classification has not run on the table, the Classifier column displays null.
+
+    Check that you have the right roles \(data\_classification\_admin or admin\) to assign classifications to columns. For details, see [Data Classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/data-classification.md).
 
     Select a column name to browse to the details page of the column.
 
@@ -51,7 +53,11 @@ Asset detail pages organize information into tabs for easy navigation. The Overv
 
     The Rules table lists each rule with its source, asset type, asset name, category, status, and last run time. External data quality tools submit rule results via the Data Quality API. Use filters and search to locate a specific rule. To control how long data quality audit and unmatched queue records are retained before they are purged, configure the retention property. For more information, see [Data quality properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/data-quality-properties.md).
 
-8.  On the Activity tab, review the activities performed on the data asset.
+8.  On the Sensitivity tab, view the sensitivity classification assigned to the columns of a table.
+
+    This tab is populated for the ServiceNow collectors and for collectors for which [Vault classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/enable-vault-classification.md) is enabled.
+
+9.  On the Activity tab, review the activities performed on the data asset.
 
     The system stores the name of the user who made the change, the change details, and the timestamp. Use filters, search, and sort to locate the change you want to track.
 

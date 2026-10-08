@@ -151,6 +151,8 @@ Text that must appear when multiple requests are displayed.For example: $\{count
 
 [Configure important dates]()
 
+[Configure manager insights for ServiceNow Otto for HRSD]()
+
 [Configure team data]()
 
 [Configure team column data]()

@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experienc
 release: australia
 topic_type: concept
 last_updated: "2025-01-30"
-reading_time_minutes: 3
+reading_time_minutes: 4
 keywords: [Now Assist panel, Gen AI, Generative AI, Next Experience, chat summarization, Incident summarization]
 breadcrumb: [ServiceNow Otto Experiences, Exploring AI Admin Hub, AI Admin Hub, Enable AI experiences]
 ---
@@ -31,6 +31,8 @@ If you want to use assistants, you must activate them. See [Configuring assistan
 
 **Note:** Voice input is automatically activated when you activate the ServiceNow Otto panel. As of the Zurich Patch 4 release, voice input is configured in the [Configure Next Experience accessibility preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-user-interface/next-experience-accessibility-preferences.md).
 
+**Warning:** Do not modify or remove the default AI disclaimer. If you modify or remove the default AI disclaimer, you are responsible for communicating to end users that they are interacting with an AI system and any associated risks. ServiceNow is not responsible for the effects of any changes made.
+
 For help with installation, see [Solving installation and configuration issues with ServiceNow AI features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-install-config-checklist.md).
 
 -   **[Standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-panel-standard.md)**  
@@ -38,7 +40,7 @@ With the ServiceNow Otto panel standard chat, you can get assistance from genera
 -   **[Enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-panel-enhanced.md)**  
 ServiceNow Otto panel enhanced chat is a conversational support experience within a dynamic window that also includes the ability to have multiple active conversations and superior search capabilities. Use ServiceNow Otto panel enhanced chat to improve your productivity and efficiency by leveraging generative AI to perform tasks such as summarize a chat, case, or incident, request help, generate resolution notes, among others.
 -   **[Premium chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-panel-premium.md)**  
-ServiceNow Otto panel premium chat is an AI chat experience built into your ServiceNow environment. It lets you ask questions, get answers from your organization's knowledge, and take action on records — all in one place. It supports file uploads, web search, and multi-step agentic tasks, so you can handle more complex requests without leaving the panel.
+ServiceNow Otto panel premium chat is an AI chat experience built into your ServiceNow environment. Ask questions, get answers from your organization's knowledge, and take action on records. It supports file uploads, web search, and multi-step agentic tasks, so you can handle more complex requests without leaving the panel.
 
 **Parent Topic:**[ServiceNow Otto Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-experiences.md)
 

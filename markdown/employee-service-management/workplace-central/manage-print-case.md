@@ -40,9 +40,9 @@ Use one of the following options to proceed:
 
 [Manage workplace cases in calendar view in Workplace Central]()
 
-[Manage workplace cases in List view in Workplace Central]()
+[Workplace cases in List view in Workplace Central]()
 
-[View Facility Assets in Workplace Central]()
+[View facility assets in Workplace Central]()
 
 ## Print filtered cases
 

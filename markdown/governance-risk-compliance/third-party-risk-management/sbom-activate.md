@@ -7,8 +7,8 @@ release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-05-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 keywords: [SBOM, Software Bill of Materials, activation, Third-Party Risk Management, TPRM, Smart Assessment Engine]
 breadcrumb: [Smart Assessment Engine assessments, Configure, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -38,8 +38,11 @@ An SBOM \(Software Bill of Materials\) is a structured inventory of the software
 
     |Application|ID|
     |-----------|---|
-    |SBOM Core|`sn_sbom_core`|
-    |Data Model for SBOM|`sn_sbom_dm`|
+    |Security Support Common|com.snc.security\_support.common|
+    |Data Model for SBOM|com.snc.sbom\_dm|
+    |SBOM Core|com.snc.sbom\_core|
+
+    **Note:** Starting with version 23.0.x, **Security Support Common** is required in addition to the core SBOM applications, as a soft dependency. Install **Security Support Common** before installing the other required SBOM applications. This dependency was added to enable parallel processing and resolves an issue where a product model record wasn't created after SBOM document processing completed.
 
     Core SBOM data structures and processing capabilities are available in the instance.
 
@@ -49,8 +52,8 @@ An SBOM \(Software Bill of Materials\) is a structured inventory of the software
 
     |Application|ID|
     |-----------|---|
-    |SBOM Response|`sn_sbom_resp`|
-    |Vulnerability Response|`sn_vul`|
+    |SBOM Response|`com.snc.sbom_resp`|
+    |Vulnerability Response|`com.snc.vulnerability`|
 
     **Note:** These applications enable vulnerability context for SBOM components but are not required to collect SBOM files.
 

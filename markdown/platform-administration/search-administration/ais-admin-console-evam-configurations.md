@@ -80,15 +80,15 @@ Add a new result-card interface for your search application
 
 6.  Manage the EVAM view configuration.
 
-<table id="choicetable_s32_yx1_cdc"><thead><tr><th align="left" id="d378328e349">
+<table id="choicetable_s32_yx1_cdc"><thead><tr><th align="left" id="d379327e349">
 
 Option
 
-</th><th align="left" id="d378328e352">
+</th><th align="left" id="d379327e352">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d378328e358">
+</th></tr></thead><tbody><tr><td id="d379327e358">
 
 **Create an EVAM view configuration**
 
@@ -98,7 +98,7 @@ Procedure
 2.  In the Create new view config dialog box, review the auto-populated values, and then select **Create**.
 
 
-</td></tr><tr><td id="d378328e386">
+</td></tr><tr><td id="d379327e386">
 
 **Edit the existing EVAM view configuration**
 

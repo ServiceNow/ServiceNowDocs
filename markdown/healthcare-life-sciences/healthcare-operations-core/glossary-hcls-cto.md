@@ -423,8 +423,8 @@ For example, the Care Team Member responsibility in HCO maps to the "Service loc
 
 To learn more, see:
 
--   [Service Model Foundation overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-industry-data-model.md)
--   [Service Model Foundation data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/data-models-smf.md)
+-   
+-   
 -   [Setting up roles and responsibilities for Healthcare Operations users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/healthcare-operations-core/cto-setting-up-roles-responsibilities.md)
 -   [Assign responsibilities to Healthcare Operations Core users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/healthcare-operations-core/hco-assign-responsibilities.md)
 -   [Roles and responsibilities in Care Team Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/healthcare-life-sciences/ctwm-understanding-roles-responsibilities.md)

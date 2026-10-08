@@ -1,23 +1,29 @@
 ---
-title: Activate an actionable use case in AI Admin Center
-description: Activate an AI solution from an actionable use case card on the AI Admin Center home page.
+title: View and activate actionable use cases in AI Admin Center \(Next Experience UI\)
+description: View the top actions you can take right away to adopt AI capabilities on your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/activate-solution-now-assist-center.html
 release: australia
 topic_type: task
-last_updated: "2026-07-30"
-reading_time_minutes: 2
+last_updated: "2026-10-02"
+reading_time_minutes: 3
 keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
 breadcrumb: [Activating actionable use cases, Setting up AI capabilities and configurations, AI Admin Center, Enable AI experiences]
 ---
 
-# Activate an actionable use case in AI Admin Center
+# View and activate actionable use cases in AI Admin Center\(Next Experience UI\)
 
-Activate an AI solution from an actionable use case card on the AI Admin Center home page.
+View the top actions you can take right away to adopt AI capabilities on your instance.
+
+**Important:** Lux is the new user experience for AI Admin Center. For more information on the Lux experience, see [AI Admin Center user experience \(Lux UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/ai-admin-center-lux-user-experience.md).
+
+The Next Experience AI Admin Center workspace is being prepared for deprecation in the November store release and will no longer be supported. For more information on the Next Experience UI, see [AI Admin Center workspace \(Next Experience UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-workspace.md).
+
+In AI Admin Center version 6.1, the Next Experience and Lux user interfaces are both available.
 
 ## Before you begin
 
-ServiceNow Otto panel must be enabled to activate the use cases. Actionable use cases work with the ServiceNow Otto panel to guide you through the setup in a chat conversation. For more information, see [Enable the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-enable-now-assist-panel.md).
+ServiceNow Otto panel must be enabled to activate the use cases. Actionable use cases work with the ServiceNow Otto panel to guide you through the setup in a chat conversation. For more information, see [Enable the ServiceNow Otto panel \(Next Experience UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-enable-now-assist-panel.md).
 
 Required plugins must be installed. For more information, see [Install and configure essential AI plugins using AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/install-configure-essential-now-assist-plugins.md).
 
@@ -31,9 +37,15 @@ Follow these steps to activate an actionable use case.
 
 The actionable use cases section on the home page displays solution cards tailored to your instance. Each card represents a base-system AI solution you can activate with guided assistance from the ServiceNow Otto panel. The system determines which cards to display based on your license entitlements, installed products, instance version compatibility, and current AI enablement state.
 
+If there are no actionable use cases, the section doesn't appear.
+
+**Note:** This topic describes the AI Admin Center feature based on the Next Experience UI. If you're using the Lux user experience for AI Admin Center, see the Lux UI version of this topic.
+
 ## Procedure
 
-1.  Navigate to **All** &gt; **AI Admin Center** or **Workspaces** &gt; **AI Admin Center**.
+1.  Navigate to **All** &gt; **AI Admin Center** &gt; **AI Admin Center \(Legacy\)**.
+
+    The AI Admin Center opens to the home page.
 
 2.  Review the actionable use case cards displayed in the first section of the home page.
 
@@ -47,7 +59,9 @@ The actionable use cases section on the home page displays solution cards tailor
 
     In the ServiceNow Otto panel, you can use natural language to have your AI companion implement the use case.
 
-    **Note:** To remove a card permanently without activating it, select **Dismiss** on the card. Dismissed cards don't reappear in future sessions.
+    **Note:** To remove a card permanently without activating it, select **Dismiss** on the card.
+
+    **Warning:** Dismissed cards don't reappear in future sessions.
 
 4.  In the ServiceNow Otto panel, review the information provided about the solution.
 
@@ -64,7 +78,7 @@ After it is activated, the card disappears and the new solution appears under th
 
 ## What to do next
 
-To monitor the performance of the activated solution, review the Recently activated AI section on the home page. For more information, see [Monitor your recently activated AI solution in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/monitor-now-assist-performance-now-assist-center.md).
+To monitor the performance of the activated solution, review the Recently activated AI section on the home page. For more information, see [Monitor your recently activated AI solution in AI Admin Center \(Next Experience UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/monitor-now-assist-performance-now-assist-center.md).
 
 **Parent Topic:**[Activating actionable use cases from AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-center-actionable-use-cases.md)
 
@@ -72,4 +86,6 @@ To monitor the performance of the activated solution, review the Recently activa
 
 
 [Install and configure essential AI plugins using AI Admin Center]()
+
+[View and activate your top actions in AI Admin Center \(Lux UI\)]()
 

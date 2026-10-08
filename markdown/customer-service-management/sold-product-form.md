@@ -173,11 +173,11 @@ The service location of the sold product.
 
 </td></tr><tr><td>
 
-Start and end dates
+Contract Start Date and Contract End Date
 
 </td><td>
 
-The existing Add order to Sold product to create Sold product state is changed to **In Preparation** if the start date &gt;current date. If `current_date >= start_date` and `current_date <= end_date` then the state is changed to **Active**. If `current_date > end_date` then the state is changed to **Expired**.
+The existing Add order to Sold product to create Sold product state is changed to **In Preparation** if the contract start date &gt;current date. If `current_date >= contract start_date` and `current_date <= contract end_date` then the state is changed to **Active**. If `current_date > contract end_date` then the state is changed to **Expired**.
 
 </td></tr><tr><td>
 

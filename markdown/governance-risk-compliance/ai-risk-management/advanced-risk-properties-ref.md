@@ -7,7 +7,7 @@ release: australia
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: reference
-last_updated: "2026-05-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Advanced Risk, risk assessment properties, migrate to advanced risk assessments, risk appetite, AI Risk and Compliance, system properties]
 breadcrumb: [Reference, AI Risk and Compliance, Governance, Risk, and Compliance]

@@ -18,7 +18,7 @@ Get the details of all the firmware models that the discovery tool discovered on
 
 ## Before you begin
 
-**Important:** The OT Asset Management application must be activated to access the OT Asset Workspace. For details, see [Install OT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/install-otam.md).
+**Important:** The OT Asset Management application must be activated to access the OT Asset Workspace. For details, see [Install OT Asset Management from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/enterprise-asset-management/install-otam.md).
 
 Role required: sn\_otam.ot\_asset\_manager
 

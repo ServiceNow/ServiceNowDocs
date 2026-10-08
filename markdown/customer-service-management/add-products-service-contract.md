@@ -32,15 +32,15 @@ A sold product or an install base item can be added to a Customer Contracts and 
 
 1.  Navigate to the ServiceNow AI Platform interface or the CRM Workspace.
 
-<table id="choicetable_zqd_tnc_pzb"><thead><tr><th align="left" id="d173487e88">
+<table id="choicetable_zqd_tnc_pzb"><thead><tr><th align="left" id="d175929e88">
 
 Interface
 
-</th><th align="left" id="d173487e91">
+</th><th align="left" id="d175929e91">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d173487e97">
+</th></tr></thead><tbody><tr><td id="d175929e97">
 
 **ServiceNow AI Platform interface**
 
@@ -48,7 +48,7 @@ Action
 
 Navigate to **All** &gt; **Customer Service** &gt; **Contracts and Entitlements**.
 
-</td></tr><tr><td id="d173487e120">
+</td></tr><tr><td id="d175929e120">
 
 **CRM Workspace**
 
@@ -61,15 +61,15 @@ Navigate to **All** &gt; **Customer Service** &gt; **Contracts and Entitlements*
 </td></tr></tbody>
 </table>2.  Add the sold product or install base item covered to customer contracts, contract lines, or entitlements.
 
-<table id="choicetable_zqd_tnc_pzb1"><thead><tr><th align="left" id="d173487e170">
+<table id="choicetable_zqd_tnc_pzb1"><thead><tr><th align="left" id="d175929e170">
 
 Add to
 
-</th><th align="left" id="d173487e173">
+</th><th align="left" id="d175929e173">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d173487e179">
+</th></tr></thead><tbody><tr><td id="d175929e179">
 
 **Customer Contracts**
 
@@ -83,7 +83,7 @@ Procedure
 3.  From the Products Covered or Install Base Items Covered related list, select **New**.
 
 
-</td></tr><tr><td id="d173487e220">
+</td></tr><tr><td id="d175929e220">
 
 **Customer Contract Lines**
 
@@ -98,7 +98,7 @@ Procedure
 4.  From the Sold Product Covered or Install Base Items Covered related list, select **New**.
  **Note:** When a sold product or an install base item covered is added to a contract line, it is not added to the related entitlements.
 
-</td></tr><tr><td id="d173487e267">
+</td></tr><tr><td id="d175929e267">
 
 **Entitlements**
 

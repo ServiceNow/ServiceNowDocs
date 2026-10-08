@@ -55,7 +55,5 @@ With the plugin activated, administrators have additional configuration options 
 -   Connector administrators can activate multimodal captioning in the crawl settings for an external content connector. To learn about configuring crawl settings for external content connectors, see [Configuring crawl settings for external content connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/cfg-crawl-settings-ext-cont-connector.md).
 -   AI Search administrators can select the VLM \(visual learning model\) provider and model used by the Platform Multimodal Service. For details on this process, see [Configure multimodal captioning for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/search-administration/configure-multimodal-captioning-for-ai-search.md).
 
-.
-
 **Parent Topic:**[Configuring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-administration/ai-search/configuring-ais.md)
 

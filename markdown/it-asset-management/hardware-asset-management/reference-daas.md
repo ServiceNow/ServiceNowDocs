@@ -16,3 +16,6 @@ breadcrumb: [Device as a Service, Hardware Asset Management, IT Asset Management
 
 Reference topics provide additional information about the lists and forms that you use to configure and administer Asset as a Service.
 
+-   **[Components installed with Hardware Asset Management for DaaS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/hardware-asset-management/installed-with-daas.md)**  
+Several types of components are installed with activation of the Hardware Asset Management for DaaS \(com.sn\_daas\_ham\) plugin, including tables and user roles.
+

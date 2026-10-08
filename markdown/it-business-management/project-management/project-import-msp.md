@@ -56,7 +56,7 @@ Import project data, from a Microsoft Project file, into an existing project in 
 
 [Project field mapping]()
 
-[Create custom field mapping for Microsoft Project import]()
+[Map custom fields for Microsoft Project import]()
 
 [Import project tasks for multiple projects]()
 

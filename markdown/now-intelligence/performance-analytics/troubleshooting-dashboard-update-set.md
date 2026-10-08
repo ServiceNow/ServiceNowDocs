@@ -26,7 +26,9 @@ Role required: admin.
 
 ### Procedure
 
-1.  In the **Update Set Preview Problems** related list, click the information icon \(\[Omitted image "Form\_ReferenceLookupIcon.png"\] Alt text:\) next to the error.\[Omitted image "update-set-preview-problems.png"\] Alt text: Update Set Preview Problems tab with two errors.
+1.  In the **Update Set Preview Problems** related list, click the information icon \(\[Omitted image "Form\_ReferenceLookupIcon.png"\] Alt text:\) next to the error.
+
+    \[Omitted image "update-set-preview-problems.png"\] Alt text: Update Set Preview Problems tab with two errors.
 
 2.  In the pa\_tabs record payload, copy the sys\_id associated with the canvas\_page field.
 

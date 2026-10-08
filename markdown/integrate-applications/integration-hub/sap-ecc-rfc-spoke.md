@@ -7,7 +7,7 @@ release: australia
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-10-05"
 reading_time_minutes: 10
 breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-SAP ECC RFC spoke v2.11.0 is the latest version. For version history of the spoke, see [SAP ECC RFC spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-sap-ecc-rfc.html).
+SAP ECC RFC spoke v2.12.0 is the latest version. For version history of the spoke, see [SAP ECC RFC spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-sap-ecc-rfc.html).
 
 ## Supported versions
 
@@ -212,7 +212,7 @@ Look up RFC Output Metadata
 
 Dynamically retrieves the output schema from SAP ECC - RFC, for the selected RFC.
 
-</td></tr><tr><td rowspan="22">
+</td></tr><tr><td rowspan="23">
 
 Procurement
 
@@ -223,6 +223,14 @@ Authorize Payment
 </td><td>
 
 Creates an authorize payment document in SAP ECC RFC.
+
+</td></tr><tr><td>
+
+Authorize Payment for Non-PO Invoice
+
+</td><td>
+
+Creates an authorize payment document for create non purchase order invoice in SAP ECC RFC.
 
 </td></tr><tr><td>
 
@@ -238,7 +246,7 @@ Create Service Goods Receipt
 
 </td><td>
 
-Creates a Service goods receipt document in SAP ECC - RFC.
+Creates a service goods receipt document in SAP ECC - RFC.
 
 </td></tr><tr><td>
 

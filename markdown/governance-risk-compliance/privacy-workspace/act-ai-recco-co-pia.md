@@ -27,7 +27,7 @@ Role required: sn\_privacy.analyst, sn\_prm\_gen\_ai.user
 
 ## About this task
 
-After a business user submits a privacy assessment, the assessment task moves to the Review state. As its assigned analyst, generate AI recommendations to quickly surface relevant control objectives and risk statements based on the assessment’s responses. The corresponding controls and risks for the accepted records are automatically scoped to the processing activity.
+After a business user submits a privacy assessment, the assessment task moves to the Review state. As its assigned analyst, generate AI recommendations to quickly surface relevant control objectives and risk statements based on the assessment’s responses. The corresponding controls and risks for the accepted records are automatically scoped to the processing activity when the assessment task closes.
 
 **Note:** Review all AI-generated recommendations for accuracy.
 
@@ -136,11 +136,11 @@ Citations mapped to the control objective. Citations are informational and don't
 
 ## Result
 
-All the records scoped to a processing activity based on assessment responses appear in the Applicable scope tab of the assessment task. These include the accepted AI recommendations, and records added manually and through smart assessment automation rules. Filter by AI-assisted in the Mode column to confirm if the accepted control objective recommendations appear in the list correctly. If you must add more records, you can manually add those to the tab.
+All the records scoped to a processing activity based on assessment responses appear in the Applicable scope tab of the assessment task. These include the accepted AI recommendations, and records added manually and through smart assessment automation rules. To verify that the accepted control objective recommendations appear in the list correctly, filter by **AI-assisted** in the Mode column. If you must add more records, you can manually add those to the tab.
 
-**Note:** If a recommended record is already in Applicable scope from another mode such as automation, accepting the recommendation does not create a duplicate. The Mode column retains the value of the original source. If that record is later removed from Applicable scope and the reviewer then accepts the same recommendation, the record is added back with AI-assisted as its mode.
+**Note:** If a recommended record is already in Applicable scope from another mode such as automation, accepting the recommendation does not create a duplicate. The Mode column retains the value of the original source. If that record is later removed from Applicable scope and you then accept the same recommendation, the record is added back with **AI-assisted** as its mode.
 
 ## What to do next
 
-Review the risk statement recommendations. For steps, see [Accept or dismiss AI-recommended risk statements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/act-ai-recco-rs-pia.md). When done, mark the assessment as complete. For steps, see [Review a privacy assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/review-a-privacy-assessment.md). Closing an assessment task automatically adds the corresponding controls for the accepted recommendations to the processing activity record.
+Review the risk statement recommendations. For steps, see [Accept or dismiss AI-recommended risk statements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/act-ai-recco-rs-pia.md). After reviewing all recommendations, mark the assessment as complete. For steps, see [Review a privacy assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/privacy-workspace/review-a-privacy-assessment.md). Closing an assessment task automatically adds the corresponding controls for the accepted recommendations to the processing activity record.
 

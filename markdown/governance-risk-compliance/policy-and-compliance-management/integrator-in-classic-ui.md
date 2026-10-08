@@ -9,7 +9,7 @@ classification: policy-and-compliance-management
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [GRC: Policy and Compliance integrator, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [GRC: Policy and Compliance integrator, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Using the GRC: Policy and Compliance integrator to display batch records and import tasks

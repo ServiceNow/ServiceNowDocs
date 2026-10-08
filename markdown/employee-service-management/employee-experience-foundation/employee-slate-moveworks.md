@@ -21,7 +21,7 @@ EmployeeWorks Web App \(built for Moveworks\) combines the Moveworks AI assistan
 
 You start any request from one chat bar and complete the request. You can work across ServiceNow workflows and connected business applications without switching tools, opening separate forms, or filing tickets.
 
-\[Omitted image "es-moveworks-home.svg"\] Alt text: EmployeeWorks Web App home page with the conversation interface and chat bar
+\[Omitted image "image.es-moveworks-home"\] Alt text: EmployeeWorks Web App home page with the conversation interface and chat bar
 
 ## Quick features overview
 

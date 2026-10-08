@@ -1,6 +1,6 @@
 ---
 title: License usage view
-description: Use the license usage view as a single plane to understand the license position of all software products, remediate non-compliance, view reconciliation results, view, or add removal candidates, and view Software Asset Management related reports.
+description: Use the License usage view as a single plane to understand the license position of all software products, remediate non-compliance, view reconciliation results, view, or add removal candidates, and view Software Asset Management related reports.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-asset-management/software-asset-management/sam-workspace-workbench.html
 release: australia
@@ -14,11 +14,11 @@ breadcrumb: [Software Asset Workspace, Explore, Software Asset Management, IT As
 
 # License usage view
 
-Use the license usage view as a single plane to understand the license position of all software products, remediate non-compliance, view reconciliation results, view, or add removal candidates, and view Software Asset Management related reports.
+Use the License usage view as a single plane to understand the license position of all software products, remediate non-compliance, view reconciliation results, view, or add removal candidates, and view Software Asset Management related reports.
 
 ## Overview of the License usage view
 
-The License usage view enables you to view the license usage trends for your organization and helps forecast the needs of your organization by trending the number of licenses required against the number of licenses purchased. Manage your license positions by purchasing additional rights before software consumption surpasses the number of rights owned.
+The License usage view enables you to view the license usage trends for your organization. This view helps forecast the needs of your organization by trending the number of licenses required against the number of licenses purchased. Manage your license positions by purchasing additional rights before software consumption surpasses the number of rights owned.
 
 Access the License usage view by navigating to **Software Asset Workspace** &gt; **License usage**.
 
@@ -32,7 +32,7 @@ Use the License usage view to:
 -   sort by true-up cost, over-licensed amount, and potential savings.
 -   run a reconciliation and view its results.
 -   be informed about the last reconciliation run.
--   view and add new removal candidates.
+-   view reclamation summary.
 -   view and export reports.
 -   generate a report on your ELP data.
 -   view publisher cards specific to the software products that you published as part of the phase-wise implementation of Software Asset Management. For more information, see [Publish a specific set of your software products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/add-published-products.md).
@@ -218,7 +218,7 @@ Indicates the compliance progress already made for this publisher, product, and 
 </td></tr></tbody>
 </table>## Reconciliation tab
 
-You can view all the historical reconciliation results in this tab along with the following status:
+View all the historical reconciliation results in this tab along with the following status:
 
 -   **Completed**: If all the products and publishers completed reconciliation successfully.
 -   **Failed**: If all the products and publishers failed reconciliation.
@@ -226,21 +226,19 @@ You can view all the historical reconciliation results in this tab along with th
 
 Results of the latest reconciliation run are shown in the License usage view. For more details, see [Software reconciliation for compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/c_SAMReconciliation.md).
 
-## Removal candidates tab
+## Reclamation tab
 
-View a list of all removal candidates in this tab. Removal candidates are used to reclaim software installations that aren’t being used.
-
-You can also create removal candidates. For more details, see [Create a software removal candidate in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/add-sw-removal-workspace.md).
+View consolidated reclamation summary across all publishers, SaaS integrations, installed software, and reconciliation flows. Access individual records for reviewing the reclamation details and act accordingly.
 
 ## Reports tab
 
-You can create, view, and run reports from this tab. All the following base system reports are available in this tab:
+Create, view, and run reports from this tab. All the following base system reports are available in this tab:
 
 -   [Software product lifecycle report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/software-models-and-entitlements.md)
 -   [Software license compliance position](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/sam-license-position-report.md)
 -   [Azure BYOL realized savings report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/azure-byol-realized-savings-report.md)
 -   [Software models with deactivated discovery maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/sam-content-updates.md)
--   [Oracle DB Server Deployments per Agreement report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/oracle-server-agreement.md)
+-   [Oracle Database Deployments per Agreement report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/oracle-server-agreement.md)
 -   [Oracle Infrastructure report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/oracle-infrastructure-report.md)
 -   [Microsoft Windows and SQL Server infrastructure details reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/azure-byol-realized-savings-report.md)
 -   [SaaS detection report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-asset-management/software-asset-management/shadow-saas-analytics.md)

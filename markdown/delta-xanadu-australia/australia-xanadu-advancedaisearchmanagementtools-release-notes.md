@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-xanadu-australia/australia-xanadu-advancedaisearchmanagementtools-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
@@ -99,6 +99,11 @@ Yokohama
 The **Search application** interactive filter now allows analysts to review performance metrics and trends for search applications used in Recommended Actions.
 
 
+ -   **[AI Search Analytics analytics dashboard](https://www.servicenow.com/docs/access?context=ai-search-analytics-dashboard&family=yokohama&ft:locale=en-US)**
+
+The **Search application** interactive filter now allows analysts to review performance metrics and trends for the Mobile Platform search application.
+
+
 </td></tr><tr><td>
 
 Zurich
@@ -106,6 +111,11 @@ Zurich
 </td><td>
 
 -   **[AI Search Analytics analytics dashboard](https://www.servicenow.com/docs/access?context=ai-search-analytics-dashboard&family=zurich&ft:locale=en-US)**
+
+The **Search application** interactive filter now allows analysts to review performance metrics and trends for search applications used in Recommended Actions.
+
+
+ -   **[AI Search Analytics analytics dashboard](https://www.servicenow.com/docs/access?context=ai-search-analytics-dashboard&family=zurich&ft:locale=en-US)**
 
 The **Search application** interactive filter now allows analysts to review performance metrics and trends for the Mobile Platform search application.
 
@@ -153,6 +163,11 @@ Yokohama
 The performance metrics, trends, and charts for this dashboard have been refreshed to offer a cleaner visual experience.
 
 
+ -   **[AI Search Analytics analytics dashboard](https://www.servicenow.com/docs/access?context=ai-search-analytics-dashboard&family=yokohama&ft:locale=en-US)**
+
+The **Date range** interactive filter now enables you to access data from the last 180 days, rather than the last 90 days.
+
+
 </td></tr><tr><td>
 
 Zurich
@@ -160,6 +175,11 @@ Zurich
 </td><td>
 
 -   **[AI Search Analytics analytics dashboard](https://www.servicenow.com/docs/access?context=ai-search-analytics-dashboard&family=zurich&ft:locale=en-US)**
+
+The performance metrics, trends, and charts for this dashboard have been refreshed to offer a cleaner visual experience.
+
+
+ -   **[AI Search Analytics analytics dashboard](https://www.servicenow.com/docs/access?context=ai-search-analytics-dashboard&family=zurich&ft:locale=en-US)**
 
 The **Date range** interactive filter now enables you to access data from the last 180 days, rather than the last 90 days.
 

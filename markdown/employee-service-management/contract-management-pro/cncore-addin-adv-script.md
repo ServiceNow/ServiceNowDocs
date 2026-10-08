@@ -48,5 +48,7 @@ Because the script for mapping variables using the Microsoft Word add-in for Ser
 
 [View a contract record]()
 
+[Contract repository record tabs]()
+
 [Modify a contract record]()
 

@@ -7,7 +7,7 @@ release: australia
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: task
-last_updated: "2026-05-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [risk assessment, AI systems, risk score, Advanced Risk, risk assessment methodology, perform risk assessment, AI Risk and Compliance]
 breadcrumb: [Use, AI Risk and Compliance, Governance, Risk, and Compliance]
@@ -21,7 +21,7 @@ Perform risk assessments on AI systems to evaluate the likelihood and impact of 
 
 The Advanced Risk application must be installed to perform risk assessment on the AI systems.
 
-Role required: sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_analyst or \[sn\_ai\_governance.ai\_steward\]
+Role required: sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_analyst
 
 ## About this task
 
@@ -29,10 +29,8 @@ To confirm risk-based assessments on AI assets and risk roll-up function correct
 
 ## Procedure
 
-1.  Navigate to one of the following locations:
+1.  Navigate to **All** &gt; **AI Risk and Compliance** &gt; **AI Risk and Compliance Workspace**.
 
-    -   **All** &gt; **AI Risk and Compliance** &gt; **AI Risk and Compliance Workspace**.
-    -   **All** &gt; **AI Control Tower \(Legacy\)**
 2.  Select the list icon \[Omitted image "list-icon-airc-ws.png"\] Alt text:.
 
 3.  From the Lists, open the AI systems for which you want to perform risk assessments.
@@ -70,9 +68,28 @@ To confirm risk-based assessments on AI assets and risk roll-up function correct
     The assessment is sent for review and approval if it meets the criteria, or published directly if no approvals are required.
 
 
+## Result
+
+The risk assessment is submitted. If approval is required, the assessment enters the approver's queue. After approval, the risk scores are finalized and applied to the AI asset.
+
 ## What to do next
+
+After submitting the risk assessment, next steps vary depending on your role.
+
+AI Risk and Compliance Analyst \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_analyst\]: Your task is complete. The assessment is sent to the designated approver for review. You may be contacted if the approver needs additional information.
+
+AI Risk and Compliance Manager \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_manager\]: Review and approve the submitted risk assessment. After approval, risk scores are finalized and applied to the AI asset.
+
+For more information, see [Create control attestations for an AI asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/attest-controls-for-ai-systems.md).
+
+**Parent Topic:**[Using AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/using-ai-risk-and-compliance.md)
+
+**Related topics**  
+
+
+[Initiate risk assessment on AI asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/initiate-risk-assessment-on-ai-systems.md)
 
 [Create control attestations for an AI asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/attest-controls-for-ai-systems.md)
 
-**Parent Topic:**[Using AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/using-ai-risk-and-compliance.md)
+[Risk assessment methodologies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/ai-risk-management/airc-rams.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/application-development/get-dev-instance.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-10-02"
 reading_time_minutes: 1
 breadcrumb: [Personal developer instance guide, Learning about developing on the ServiceNow AI Platform, Building applications]
 ---
@@ -26,15 +26,15 @@ Get a free ServiceNow personal developer instance \(PDI\). Build applications wi
 
 1.  Navigate to the [Developer Site](https://developer.servicenow.com/) in your browser.
 
-2.  Select **Sign In** or **Sign up and Start Building** if you do not have a ServiceNow developer account.
+2.  Select **Sign In** or **Sign up and Start Building** if you don't have a ServiceNow developer account.
 
 3.  After logging into the ServiceNow Developer Site, select **Guides**.
 
-4.  Select **Guides Overview**.
+    \[Omitted image "guides\_nav\_bar.png"\] Alt text: Developer site navigation bar with guides option highlighted.
 
-5.  Select **Personal Developer Instance \(PDI\) Guide** in the side navigation.
+4.  Select **Personal Developer Instance \(PDI\) Guide** in the side navigation \(you may need to scroll down\).
 
-6.  Follow the instructions to obtain your personal developer instance.
+5.  Follow the instructions to obtain your personal developer instance.
 
 
 **Parent Topic:**[Personal developer instance guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/personal_developer_instance_guide.md)

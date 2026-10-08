@@ -48,15 +48,15 @@ When you set a personal target, it is only visible to you.
     -   To set a personal target, click **Personal**.
 7.  Set the KPI target.
 
-<table id="choicetable_fdw_lqf_t4b"><thead><tr><th align="left" id="d257843e161">
+<table id="choicetable_fdw_lqf_t4b"><thead><tr><th align="left" id="d260018e161">
 
 To
 
-</th><th align="left" id="d257843e164">
+</th><th align="left" id="d260018e164">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d257843e170">
+</th></tr></thead><tbody><tr><td id="d260018e170">
 
 **Update an existing target**
 
@@ -64,7 +64,7 @@ Do this
 
 In the **Target** field, update the value that you'd like the agent to achieve for the selected KPI.
 
-</td></tr><tr><td id="d257843e182">
+</td></tr><tr><td id="d260018e182">
 
 **Set a target for a key performance indicator**
 
@@ -74,7 +74,7 @@ In the **Target** field, update the value that you'd like the agent to achieve f
 2.  In the **Target** field, enter a value that you'd like the agent to achieve for the selected KPI.
 
 
-</td></tr><tr><td id="d257843e203">
+</td></tr><tr><td id="d260018e203">
 
 **Set a target to improve an existing baseline value**
 

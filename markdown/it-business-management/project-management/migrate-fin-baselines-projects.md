@@ -7,8 +7,8 @@ release: australia
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 7
+last_updated: "2026-09-07"
+reading_time_minutes: 6
 breadcrumb: [Starting a project, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
@@ -22,14 +22,14 @@ Next Experience uses new data model that has two new tables Investment Baselines
 
 Baselines view in the Next Experience provides better insights to view and analyze the financial performance of your projects.
 
-Unlike the financial baselines created using Next Experience, the financial baselines created in the Classic UI don’t capture the actual expenses along with planned costs as a default behavior. To have relevant information for baselines comparison, the actual costs are captured as part of the baseline migration using the processed expense lines as of the baseline creation date of the financial baseline.
+Unlike the financial baselines created using Next Experience, the financial baselines created in the Classic UI don’t capture the actual expenses along with planned costs as a default behavior. To have relevant information for baselines comparison, the baseline migration captures the actual costs. The migration uses the processed expense lines as of the baseline creation date of the financial baseline.
 
 For detailed information and use cases on using financials in Next Experience, see [Managing financials for planning items in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/portfolio-planning/using-financials-pp.md).
 
 **Note:** Starting March 2026 release, for customers using multicurrency, migration of financial baselines updates the baseline data in project currency to investment currency.
 
 1.  Existing projects that have only project baselines but no investment baselines. With the migration, project baseline will be migrated to investment baseline and you can view the migrated baseline from the `sn_invst_pln_invst_investment_baseline` table list view.
-2.  Existing projects that have both project and investment baselines, you need to run the scheduled job to populate the fields for investment currency in the baselines with the values from project currency. For more information, see [Activate scheduled job to populate to multicurrency fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/multi-currency-scheduled-job-spw.md).
+2.  Existing projects that have both project and investment baselines require a scheduled job. Run the scheduled job to populate the investment currency fields in the baselines with the values from project currency. For more information, see [Activate scheduled job to populate to multicurrency fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/scenario-planning-in-spw/multi-currency-scheduled-job-spw.md).
 
 ## Before you begin
 
@@ -43,15 +43,15 @@ Role required: it\_project\_manager
 
 2.  Migrate baselines using one of the following options.
 
-<table id="choicetable_v4j_f5z_d1c"><thead><tr><th align="left" id="d53573e165">
+<table id="choicetable_v4j_f5z_d1c"><thead><tr><th align="left" id="d54120e165">
 
 Choice
 
-</th><th align="left" id="d53573e168">
+</th><th align="left" id="d54120e168">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d53573e174">
+</th></tr></thead><tbody><tr><td id="d54120e174">
 
 **Using list actions**
 
@@ -62,7 +62,7 @@ Description
 3.  Select **OK** on the Migrate Financial Baselines confirmation window.
 
 
-</td></tr><tr><td id="d53573e204">
+</td></tr><tr><td id="d54120e204">
 
 **Using related links**
 
@@ -72,7 +72,7 @@ Description
 2.  Select the **Migrate Financial Baselines** related link.
 
 
-</td></tr><tr><td id="d53573e225">
+</td></tr><tr><td id="d54120e225">
 
 **Activate a scheduled job**
 

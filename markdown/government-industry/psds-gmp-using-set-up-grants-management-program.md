@@ -21,11 +21,11 @@ Use the Public Sector Digital Services Grants Management program setup​ to eit
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_svc\_appl\_pgm\_mg.grant\_program\_manager
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **CRM Workspace**.
+1.  Navigate to **All** &gt; **Public Sector Workspace**.
 
 2.  Navigate to **Lists** &gt; **Grant Programs** &gt; **All** and select **New**.
 

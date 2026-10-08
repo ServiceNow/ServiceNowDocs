@@ -16,7 +16,7 @@ breadcrumb: [Enable AI experiences]
 
 Document Intelligence \(DocIntel\) is an AI solution that enables any organization to automate and accelerate the process of extracting data from documents. That data can easily be integrated into larger automation workflows to save time and resources.
 
-**Important:** Important: This product has been deprecated and replaced by [Now Assist in Document Intelligence \(Legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-in-document-intelligence/docintel-nowassist-landing.md) — the GenAI-powered evolution of Document Intelligence. NADI fully supports document extraction, processing, and multimodal capabilities through GenAI and third-party frontier models, with no model training required.
+**Important:** Important: This product has been deprecated and replaced by [Now Assist in Document Intelligence \(Legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-in-document-intelligence/docintel-nowassist-landing.md) which is now Content Understanding — the GenAI-powered evolution of Document Intelligence. NADI fully supports document extraction, processing, and multimodal capabilities through GenAI and third-party frontier models, with no model training required.
 
 ## Request apps on the Store
 

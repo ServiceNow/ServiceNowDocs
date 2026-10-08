@@ -1,6 +1,6 @@
 ---
 title: Implement Autonomous L1 Agent for Workplace
-description: Use the Autonomous L1 Agent for Workplace agent that automatically resolves frequently asked General Inquiry workplace cases without requiring manual agent intervention.
+description: Use the Autonomous L1 Agent for Workplace agent that automatically resolves General Inquiry workplace cases without requiring manual agent intervention.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/employee-service-management/now-assist-for-wsd/implement-autonomous-l1-agent-for-workplace.html
 release: australia
@@ -14,15 +14,15 @@ breadcrumb: [Using AI agent workflows in ServiceNow Otto for WSD, ServiceNow Ott
 
 # Implement Autonomous L1 Agent for Workplace
 
-Use the Autonomous L1 Agent for Workplace agent that automatically resolves frequently asked General Inquiry workplace cases without requiring manual agent intervention.
+Use the Autonomous L1 Agent for Workplace agent that automatically resolves General Inquiry workplace cases without requiring manual agent intervention.
 
-The Autonomous L1 Agent represents the initial uptake of ZTSD \(Zero Touch Service Desk\) Agent capabilities within Workplace Services. The agent scans two configured knowledge sources—Workplace Services knowledge base articles and previously closed workplace cases to identify matching resolutions and close eligible cases autonomously. When no match is found, the agent surfaces its best findings, unassigned itself, and returns the case to Ready state for human agent follow-up.
+The Autonomous L1 Agent represents the initial uptake of ZTSD \(Zero Touch Service Desk\) Agent capabilities within Workplace Services. The agent scans two configured knowledge sources—Workplace Services knowledge base articles and previously closed workplace cases to identify matching resolutions and close eligible cases autonomously. When no match is found, the agent surfaces its best findings, unassigns itself, and returns the case to Ready state for human agent follow-up.
 
 ## Overview of Autonomous L1 Agent for Workplace
 
 Workplace service desks receive a high volume of repetitive General Inquiry cases—questions about policies, services, and procedures that can be resolved from existing knowledge without live agent involvement. The Autonomous L1 Agent addresses this by processing cases immediately on creation, applying AI-driven knowledge matching against configured sources, and resolving or escalating cases based on outcome.
 
-When a General Inquiry workplace case is created, the L1 agent is automatically assigned to it—no manual routing is required. The agent queries its configured knowledge sources to find a matching resolution.
+When a General Inquiry workplace case is created, the L1 agent is automatically assigned. No manual routing is required.
 
 ## Knowledge Sources
 
@@ -33,7 +33,7 @@ The agent learns from two default knowledge sources.
 
 As agents manually resolve new types of cases, those resolutions are automatically added to the agent's learning corpus, improving autonomous resolution rates over time.
 
-## Agent Behaviour
+## Agent Behavior
 
 The following table describes L1 agent behavior for each case resolution scenario.
 

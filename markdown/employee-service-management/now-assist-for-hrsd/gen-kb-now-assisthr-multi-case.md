@@ -42,7 +42,7 @@ You can use the KB generation skill in either Core UI or Agent Workspace. The fi
 
 **Note:** The KB generation skill is supported in the ServiceNow Otto panel for the HR Case records \[sn\_hr\_core\_case\] table, but not on its extended table records.
 
-You can make a copy of this skill to configure it to meet your business needs. For more information, see [Make a copy of AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/make-a-copy-of-a-now-assist-skill.md).
+You can make a copy of this skill to configure it to meet your business needs. For more information, see [Make a copy of an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/make-a-copy-of-a-now-assist-skill.md).
 
 ## Procedure
 

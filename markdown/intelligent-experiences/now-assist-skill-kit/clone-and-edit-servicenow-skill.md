@@ -1,45 +1,36 @@
 ---
-title: Clone a skill
-description: Clone an existing skill to use it as a starting point for a new one. You can clone both base system ServiceNow skills and custom skills you have created.
+title: Clone and edit a ServiceNow skill
+description: Clone an eligible skill provided in ServiceNow Otto applications in AI Skill Kit so that you can edit its prompt or change its AI service provider. Editing the prompt lets you control the format and content of the large language model \(LLM\) response.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/now-assist-skill-kit/clone-and-edit-servicenow-skill.html
 release: australia
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit
 topic_type: task
-last_updated: "2026-04-30"
+last_updated: "2026-09-23"
 reading_time_minutes: 2
-keywords: [clone, clone skill, AI Skill Kit]
 breadcrumb: [Create a skill, Using AI Skill Kit, AI Skill Kit, Enable AI experiences]
 ---
 
-# Clone a skill
+# Clone and edit a ServiceNow skill
 
-Clone an existing skill to use it as a starting point for a new one. You can clone both base system ServiceNow skills and custom skills you have created.
+Clone an eligible skill provided in ServiceNow Otto applications in AI Skill Kit so that you can edit its prompt or change its AI service provider. Editing the prompt lets you control the format and content of the large language model \(LLM\) response.
 
 ## Before you begin
 
 Role required: sn\_skill\_builder.admin
 
-## About this task
-
-Cloning a skill creates a copy in Draft state with the original prompt content, inputs, and outputs carried over. You can then edit the prompt, change the provider, or adjust other settings without affecting the original skill.
-
-**Important:** Deployment settings for clones of base system ServiceNow skills cannot be edited after cloning. If you need custom deployment settings, create a new skill instead. Deployment settings for clones of custom skills can be edited normally.
-
 ## Procedure
 
 1.  Navigate to **All** &gt; **AI Skill Kit** &gt; **Home**.
 
-2.  Select the skill that you want to clone.
+2.  Select **ServiceNow skills**
 
-3.  Open the **Clone skill** dialog.
+3.  Select the ServiceNow skill that you want to clone.
 
-    There are two ways to access this dialog depending on the skill type:
+4.  Select **Clone Skill**.
 
-    -   For base system ServiceNow skills, select **Clone Skill** in the banner at the top of the skill page, or select the three-dot menu next to **Publish skill** and then select **Clone**.
-    -   For custom skills, select the three-dot menu next to **Publish skill** and then select **Clone**.
-4.  Fill in the fields and select **Clone**.
+5.  On the form, fill in the fields.
 
 <table id="table_chg_qth_lcc"><thead><tr><th>
 
@@ -51,11 +42,11 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Name \(required\)
+Skill name
 
 </td><td>
 
-A name for the cloned skill. Defaults to "Clone of \[original skill name\]".
+Name of the skill.
 
 </td></tr><tr><td>
 
@@ -63,39 +54,71 @@ Description
 
 </td><td>
 
-A description of the cloned skill.
+Description of the skill.
 
 </td></tr><tr><td>
 
-Default provider \(required\)
+Default provider
 
 </td><td>
 
-The LLM provider for the cloned skill. Available providers include Now LLM Service and external LLM options including prebuilt spokes for Microsoft Azure OpenAI Generative AI Spoke, OpenAI Generative AI Spoke, Aleph Alpha, WatsonX, and Google Gemini, or a custom LLM. For more information on setting up a custom LLM, see [Configure a generic large language model \(LLM\) connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/generative-ai-controller/configure-a-generic-llm-connector.md). **Note:** Spokes consume assists, not Integration Hub transactions.
+Available providers:-   Now LLM Service
+-   External LLM
+    -   Spokes
+    -   Custom LLM
+
+For more information on setting up a custom large language model \(LLM\), see [Configure a generic large language model \(LLM\) connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/generative-ai-controller/configure-a-generic-llm-connector.md)
+
+Available prebuilt spokes that enable you to connect with an external LLM:
+
+-   Microsoft Azure OpenAI Generative AI Spoke
+-   OpenAI Generative AI Spoke
+-   Aleph Alpha
+-   IBM watsonx
+-   Google Gemini \(MakerSuite and Vertex AI\)
+**Note:** The spokes don't consume Integration Hub transactions. The spokes consume assists.
 
 </td></tr><tr><td>
 
-Provider API \(required\)
+Provider API
 
 </td><td>
 
-The API for the selected provider.
-
-</td></tr><tr><td>
-
-Skill configuration only
-
-</td><td>
-
-Available for base system ServiceNow skills only.
+Provider of the API for the selected LLM.
 
 </td></tr></tbody>
-</table>
+</table>6.  Select **Clone**.
+
+    **Note:** When you clone a skill, you can't change the skill outputs, tools, or deployment settings.
+
+7.  Select the edit icon to add skill inputs.
+
+    |Section|Description|
+    |-------|-----------|
+    |Base input table fields|Each skill relies on a base input table and input fields with descriptions to provide context for the LLM to generate a response.|
+    |Rule conditions|Rule conditions determine when the input template is used. By default, record state determines which input template the LLM uses.|
+    |Additional input data sources|You can add input data sources such as related tables, activity streams, and relationships to provide more context to the LLM. You can also add rule conditions to these additional data sources.|
+
+8.  Select **Clone prompt** to edit the prompt.
+
+    The list shows all prompts that use the same supporting skill for each provider.
+
+9.  Add **Prompt usage conditions**.
+
+    Prompt usage conditions determine when a prompt runs.
+
+10. To test the prompt, select **Run test** and add test values.
+
+11. Select the **Skill settings** tab.
+
+12. In the **General information** section, select the toggle to change the default provider.
+
+
 ## What to do next
 
 Create your skill prompt. To learn more about creating a prompt, see [Create a prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-kit/create-prompt-template.md).
 
-After you clone and edit the skill and prompt, you can evaluate your prompt.To learn more about evaluating a prompt, see [Evaluate a prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-kit/evaluate-prompt.md).
+After you clone and edit the skill and prompt, you can evaluate your prompt. To learn more about evaluating a prompt, see [Evaluate a prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-kit/evaluate-prompt.md).
 
 **Parent Topic:**[Create a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/now-assist-skill-kit/create-new-skill.md)
 

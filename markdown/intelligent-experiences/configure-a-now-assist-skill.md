@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/configure-a-now-assist-skill.html
 release: australia
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-15"
 reading_time_minutes: 3
 keywords: [Activate, Now Assist, skill, panel, ServiceNow AI Platform, admin, features]
 breadcrumb: [Using AI Admin Hub, AI Admin Hub, Enable AI experiences]
@@ -17,7 +17,7 @@ Configure the triggers, settings, and display locations for AI skills to enable 
 
 ## Before you begin
 
-Role required: sn\_generative\_ai.nsa\_admin
+Role required: sn\_generative\_ai.nsa\_admin. For information about roles, see [AI Admin Hub roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/roles-installed-with-now-assist-admin.md) and .
 
 ## About this task
 

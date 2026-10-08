@@ -7,7 +7,7 @@ release: australia
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Search, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -58,7 +58,7 @@ Display the best answers for your search query along with actions you can take d
 
 </td><td>
 
-Displays static filter options for refining search results by search source. If you want to view only results from a single search source, select the option for that search source. To remove the filter, clear the search source option.
+Displays static filter options for refining search results by search source. To view only results from a single search source, select the option for that search source. To remove the filter, clear the search source option.
 
  Source names in source facet buckets display as options instead of links, and include a label showing how multiple selections are applied when filtering your search results. Labels include:
 

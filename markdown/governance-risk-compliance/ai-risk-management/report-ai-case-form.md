@@ -7,8 +7,9 @@ release: australia
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
+keywords: [report AI case form, AI case fields, Employee Center]
 breadcrumb: [Report an AI case, Use, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
 

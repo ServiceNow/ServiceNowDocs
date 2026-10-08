@@ -8,7 +8,7 @@ product: Project Management
 classification: project-management
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 5
+reading_time_minutes: 4
 breadcrumb: [Starting a project, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
@@ -26,15 +26,15 @@ Role required: it\_project\_manager
 
 2.  Migrate baselines using one of the following options.
 
-<table id="choicetable_v4j_f5z_d1c"><thead><tr><th align="left" id="d192266e85">
+<table id="choicetable_v4j_f5z_d1c"><thead><tr><th align="left" id="d196683e85">
 
 Choice
 
-</th><th align="left" id="d192266e88">
+</th><th align="left" id="d196683e88">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d192266e94">
+</th></tr></thead><tbody><tr><td id="d196683e94">
 
 **Using list actions**
 
@@ -45,7 +45,7 @@ Description
 3.  On the migrate budget confirmation window, select **OK**.
 
 
-</td></tr><tr><td id="d192266e124">
+</td></tr><tr><td id="d196683e124">
 
 **Using related links**
 
@@ -56,7 +56,7 @@ Description
 3.  On the migrate budget confirmation window, select **OK**.
 
 
-</td></tr><tr><td id="d192266e151">
+</td></tr><tr><td id="d196683e151">
 
 **Activate a scheduled job**
 

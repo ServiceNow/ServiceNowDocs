@@ -9,7 +9,7 @@ classification: contract-management-pro
 topic_type: task
 last_updated: "2026-06-03"
 reading_time_minutes: 1
-breadcrumb: [Use self-served contract request, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Own paper contract requests, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Create an updated contract document revision after modifying a self-served contract request \(starting Contract Management Pro 1.2.1\)
@@ -45,5 +45,5 @@ Role required: sn\_cm\_core.contract\_fulfiller or sn\_cm\_core.contract\_user
 
 A new contract document revision is created with the updated metadata and signatories. The changes made in the previous revision are retained.
 
-**Parent Topic:**[Use self-served contract request]()
+**Parent Topic:**[Own paper contract requests]()
 

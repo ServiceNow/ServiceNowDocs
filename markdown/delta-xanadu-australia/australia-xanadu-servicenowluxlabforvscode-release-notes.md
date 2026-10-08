@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-xanadu-australia/australia-xanadu-servicenowluxlabforvscode-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 4
 breadcrumb: [Products combined by family]
 ---
@@ -292,6 +292,8 @@ Australia
 Install ServiceNow Lux Lab for VS Code by requesting it from the Visual Studio Code Marketplace.
 
 
+**Note:** ServiceNow Lux Lab for VS Code is available in the Visual Studio Code Marketplace. For details, see the following activation information.
+
 </td></tr></tbody>
 </table>## Additional requirements
 
@@ -393,7 +395,7 @@ ServiceNow SDK
 
 </td><td>
 
-4.10 or later
+4.12.1 or later
 
 </td><td>
 

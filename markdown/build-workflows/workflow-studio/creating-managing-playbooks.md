@@ -106,8 +106,8 @@ Learn how playbook restart during runtime works and how restart rules control th
 Make a copy of an existing playbook with the same trigger, stages, activities, and experience configurations as the original. Edit the duplicated playbook to quickly create a working variation.
 -   **[Playbook summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/playbook-summarization.md)**  
 Use AI to generate overviews of a playbook's stages, activities, triggers, and inputs. Understand a playbook's purpose and flow without going into the details of what is being done at activity and stage level.
--   **[Playbooks as an MCP tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/playbook-as-mcp-tool.md)**  
-Expose a playbook as a tool in an MCP server, enabling MCP clients to trigger and execute the playbook through the Model Context Protocol \(MCP\).
+-   **[Ideal path for a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/ideal-path-for-playbook.md)**  
+The ideal path is the expected execution route through a playbook. The sequence of activities that should run when a decision resolves in the anticipated way. You can define an ideal path on each decision branch and visualize it across the entire playbook in Workflow Studio.
 -   **[Add translations for Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/build-workflows/workflow-studio/add-translations-playbooks.md)**  
 Make Playbooks available in multiple languages during runtime, to support worldwide business processes.
 

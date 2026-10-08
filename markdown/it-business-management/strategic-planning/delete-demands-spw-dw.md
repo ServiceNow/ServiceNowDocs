@@ -7,7 +7,7 @@ release: australia
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage demands, Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -18,11 +18,13 @@ Delete demands to remove them from Next Experience for Demand Management. Demand
 
 ## Before you begin
 
-Role required: it\_demand\_manager or it\_demand\_user
+Role required: it\_demand\_user or it\_demand\_manager
 
 ## About this task
 
 Deleting a demand removes all related data, including risks, demand tasks, requirements, and decisions. Stakeholders remain in the Stakeholder Register \[dmn\_stakeholders\_register\] table.
+
+Any open assessments for the demand, classic or smart, are cancelled. For more information, see [Assess demands with smart assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/strategic-planning/smart-assessments-overview.md).
 
 If a project has already been created from a demand, its reference is removed from the project along with the data related to the demand.
 

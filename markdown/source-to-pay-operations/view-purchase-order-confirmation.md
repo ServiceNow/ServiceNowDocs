@@ -7,6 +7,7 @@ release: australia
 topic_type: task
 last_updated: "2026-09-03"
 reading_time_minutes: 1
+keywords: [purchase order confirmation, order confirmation, PO confirmation]
 breadcrumb: [Source-to-Pay Workspace, Explore, Purchase Order Management, Source-to-Pay Operations, Finance and Supply Chain]
 ---
 

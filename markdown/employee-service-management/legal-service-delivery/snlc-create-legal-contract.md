@@ -8,7 +8,7 @@ product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: task
 last_updated: "2026-03-12"
-reading_time_minutes: 4
+reading_time_minutes: 5
 breadcrumb: [Configure, Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
@@ -25,7 +25,11 @@ Role required: sn\_lg\_cnt.contract\_config, admin
 
 
 -   The legal support for a contract request and amendment requestworks based on a workflow, so you must provide specific information while setting up the intake process.
--   Three record producers are available with the base system, Non-disclosure Agreement, Third-party Contract Review, and Amendment request. You can create a record producer by copying a base system \(OOB\) record producer to reuse its existing configuration settings.
+-   For new customers adopting CM Pro for LSD, the base system legal intake forms—Non Disclosure Agreement, third party Contract Review, and Contract Amendment and Renewal request intake forms—are hidden by default. If administrators enable these forms, they are available under **Home** &gt; **Legal Services** &gt; **Legal Agreements**.
+
+    For existing customers, intake form behavior is preserved after upgrade. Whether the intake forms were enabled or inactive before the upgrade, that configuration remains unchanged.
+
+-   Three record producers are available with the base system, Non-disclosure Agreement, third party Contract Review, and Contract Amendment and Renewal request. You can create a record producer by copying a base system \(base system\) record producer to reuse its existing configuration settings.
 -   To add supporting documents to an own-paper request, include the supporting documents widget in the record producer. For more information, see [Add supporting document widget in own-paper record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-add-support-doc-wdgt.md).
 -   To add external signatories to an third-party paper request, include the external signatories widget in the record producer. For more information, see [Add external signatories widget in third-party paper record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-service-delivery/snlc-add-ext-signer-wdgt.md).
 
@@ -35,7 +39,7 @@ Role required: sn\_lg\_cnt.contract\_config, admin
 
 2.  Create a record producer or copy a base system record producer for a new contract type.
 
-    -   To create a record producer, click **New**.
+    -   To create a record producer, select **New**.
 
         For more information, see [Create or modify a record producer for legal services through Classic environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/legal-request-management/create-record-producer-legal-request.md).
 

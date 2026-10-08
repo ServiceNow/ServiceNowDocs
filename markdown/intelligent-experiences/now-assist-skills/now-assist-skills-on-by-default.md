@@ -7,7 +7,7 @@ release: australia
 product: Now Assist Skills
 classification: now-assist-skills
 topic_type: concept
-last_updated: "2026-08-02"
+last_updated: "2026-10-06"
 reading_time_minutes: 10
 keywords: [generative AI, Gen AI, default-on]
 breadcrumb: [AI assets, Enable AI experiences]

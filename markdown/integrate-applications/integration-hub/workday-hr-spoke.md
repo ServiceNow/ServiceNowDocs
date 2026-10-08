@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Workday HR spoke v3.0.2 is the latest version. For version history of the spoke, see [Workday HR spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-workday-hr.html).
+Workday HR spoke v3.1.1 is the latest version. For version history of the spoke, see [Workday HR spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-workday-hr.html).
 
 ## Supported versions
 
@@ -2474,7 +2474,7 @@ Update Object Custom Fields
 
 Updates fields in the specified custom object.
 
-</td></tr><tr><td>
+</td></tr><tr><td rowspan="2">
 
 Payroll Management
 
@@ -2485,6 +2485,14 @@ Look up Payslip
 </td><td>
 
 Retrieves payslip details of the specified employee.
+
+</td></tr><tr><td>
+
+Look up Payslips Stream
+
+</td><td>
+
+Retrieves payslip details for an employee from Workday, including the payslip ID, descriptor, gross and net pay, payment date, and status.
 
 </td></tr><tr><td>
 
@@ -2569,7 +2577,7 @@ Look up Skills
 
 Retrieves skills from Workday.**Important:** You must create report in Workday instance to use this action. For more information, see [Create report to extract skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/wd-hr-lookup-skills.md).
 
-</td></tr><tr><td rowspan="8">
+</td></tr><tr><td rowspan="9">
 
 Resource Management
 
@@ -2636,6 +2644,14 @@ Look up Holiday Calendars Of An Employee \(Deprecated\)
 </td><td>
 
 Retrieves details of the holiday calendar for the specified employee.
+
+</td></tr><tr><td>
+
+Look up Authenticated User and Reportees Information
+
+</td><td>
+
+Retrieves the authenticated worker's details and, if available, their direct reportees from Workday, including employee ID, worker ID, and worker name.
 
 </td></tr><tr><td rowspan="7">
 

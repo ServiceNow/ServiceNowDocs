@@ -9,7 +9,7 @@ classification: journey-designer
 topic_type: task
 last_updated: "2026-02-27"
 reading_time_minutes: 1
-breadcrumb: [Offboarding knowledge transfer plan generation agentic workflow, AI in Journey designer, Use, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Offboarding knowledge transfer plan generation agentic workflow, AI in Journey designer, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Activate the AI skill for offboarding
@@ -36,6 +36,4 @@ Role required: admin \[virtual\_agent\_admin\]
 ## Result
 
 The skill is now active. The offboarding knowledge transfer plan generation agentic workflow can use this skill to group discovered documents and assign relevancy scores during the knowledge transfer process.
-
-**Parent Topic:**[Offboarding knowledge transfer plan generation agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/offboarding-knowledge-x-agentic-wf.md)
 

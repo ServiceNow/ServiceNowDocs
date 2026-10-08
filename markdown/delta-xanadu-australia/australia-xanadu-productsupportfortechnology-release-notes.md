@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-xanadu-australia/australia-xanadu-productsupportfortechnology-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 6
 breadcrumb: [Products combined by family]
 ---
@@ -198,7 +198,12 @@ Australia
 
 </td><td>
 
--   **[Service delivery overview](https://www.servicenow.com/docs/access?context=account-360-analytics-dashboard&family=australia&ft:locale=en-US)**
+-   **[Now LLM service deprecation](https://www.servicenow.com/docs/access?context=exploring-large-language-models&family=australia&ft:locale=en-US)**
+
+The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
+
+
+ -   **[Service delivery overview](https://www.servicenow.com/docs/access?context=account-360-analytics-dashboard&family=australia&ft:locale=en-US)**
 
 The Service Delivery Overview L1 menu is added to the Service Operations Workspace and CSM/FSM Configurable Workspace.
 
@@ -341,6 +346,8 @@ Australia
 
 Install Product Support for Technology and Proactive Service Experience Workflows by requesting them from the ServiceNow® Store.
 
+
+**Important:** Product Support for Technology is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements

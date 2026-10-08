@@ -62,5 +62,7 @@ If changes are made to a contract end date or its terms and conditions, a copy o
 
 [View a contract record]()
 
+[Contract repository record tabs]()
+
 [Configure fields in contract template to display correct sys\_id value in contract documents]()
 

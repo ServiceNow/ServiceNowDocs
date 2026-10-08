@@ -35,5 +35,5 @@ The visualization or breakdown selected in the widget record is used as the defa
 
 [Indicator breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_CreatingBreakdowns.md)
 
-[Using breakdowns on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_SpecialDashboards.md)
+[Using breakdowns on responsive dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_SpecialDashboards.md)
 

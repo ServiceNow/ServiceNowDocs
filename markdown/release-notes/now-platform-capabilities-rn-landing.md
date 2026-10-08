@@ -16,6 +16,8 @@ ServiceNow AI Platform® capabilities were enhancements and updates in the Austr
 
 Expand the services your system of action delivers with ServiceNow AI Platform capabilities. Activate and configure these optional features to create custom business logic, manage and secure data, and build alternate user interfaces.
 
+-   **[Automated Test Framework release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/automated-test-framework-rn.md)**  
+The ServiceNow® Automated Test Framework enables you to create and run automated tests to confirm that your modified instance works correctly. Use it after an upgrade, during application development, or when deploying instance configurations with update sets. Review failed test results to identify the changes that caused the failure and the changes that you should review. Automated Test Framework was enhanced and updated in the Australia release.
 -   **[Configuration Management Database \(CMDB\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/cmdb-rn.md)**  
 The ServiceNow® Configuration Management Database \(CMDB\) application stores data about the infrastructure of your organization. CMDB was enhanced and updated in the Australia release.
 -   **[Document Services release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/document-services-rn.md)**  

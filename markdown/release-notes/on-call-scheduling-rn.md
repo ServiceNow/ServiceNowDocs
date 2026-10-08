@@ -48,4 +48,8 @@ The ServiceNow® On-Call Scheduling application enables you to verify that dedic
 
     Configure on-call schedule features using the granular and specific role, sn\_on\_call\_admin. It contains sn\_trigger\_table\_cfg\_read and sn\_trigger\_table\_cfg\_write roles.
 
+-   **[Bulk on-call schedule setup wizard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/oc-create-bulk-schedule-onboarding.md)**
+
+    Admins with the rota\_admin role can now onboard many teams onto on-call rotations in a single guided flow, instead of configuring each team one-by-one in On-Call Scheduling. Select the **On-Call Bulk Onboarding** in Service Operations Workspace \(SOW\).
+
 

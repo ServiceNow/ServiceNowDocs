@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/retail-industry/rahi-retail-scenarios-tracking-store-plans.html
 release: australia
 topic_type: concept
-last_updated: "2026-04-15"
+last_updated: "2026-10-05"
 reading_time_minutes: 1
 breadcrumb: [Retail store plans tracking, Retail store plans, Explore, Retail]
 ---
@@ -17,7 +17,7 @@ Tracking can support several operational goals.
 HQ Manager:
 
 -   **Product recall oversight** - When a product recall plan is published, the HQ manager needs to confirm that all assigned stores have acknowledged, actioned, and closed their recall tasks within the compliance window. This capability helps the manager can escalate directly rather than waiting for ad-hoc status emails from regional teams.
--   **Promotional campaign rollout** - A seasonal promotional campaign requires consistent merchandising setup across 200 stores by a fixed launch date. HQ uses the plan-level view to track store-by-store progress, filter by completion status, and identify stores at risk of missing the launch window before the campaign goes live.
+-   **Promotional campaign rollout** - A seasonal promotional campaign requires consistent merchandising setup across 200 stores by a fixed launch date. HQ uses the plan-level view to track store-by-store progress, filter by state, and identify stores at risk of missing the launch window before the campaign goes live.
 
 Regional Manager:
 

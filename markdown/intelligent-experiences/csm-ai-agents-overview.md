@@ -38,6 +38,8 @@ The duplicate identification AI agent identifies duplicate records.
 The email response AI agent generates and sends an email response.
 -   **[Entity extraction AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/csm-entity-extraction-ai-agent.md)**  
 The entity extraction AI agent extracts entities from emails and information from documents. It matches the entities with a list of approved fields.
+-   **[Image to task plan template AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/csm-image-to-task-plan-template-ai-agent.md)**  
+This AI agent asks the user to upload an image, extracts the task dependencies from it, and returns the result as JSON.
 -   **[Informational queries AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/csm-informational-queries-ai-agent.md)**  
 The informational queries AI agent summarizes all informational answers for a record.
 -   **[Issue identifier complaint case intake AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/csm-cc-issue-identifier-complaint-case-intake-ai-agent.md)**  

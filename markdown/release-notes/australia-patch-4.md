@@ -78,9 +78,9 @@ Australia Patch 4 includes fixes for security-related problems that affected cer
 
     Encryption at rest for Hermes topics protects message data stored on broker disks from unauthorized access. Hermes supports both ServiceNow-managed keys and keys you provide using the Bring Your Own Key \(BYOK\) model.
 
--   **[Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/now-assist-rn-landing.md)**
+-   **[ServiceNow Otto and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/now-assist-rn-landing.md)**
 
-    For Now Assist new features and changes, see [Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/now-assist-rn-landing.md).
+    For Now Assist new features and changes, see [ServiceNow Otto and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/now-assist-rn-landing.md).
 
 -   **[Properties for Identification and Reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/properties-id-reconciliation.md)**
 

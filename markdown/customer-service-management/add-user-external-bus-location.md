@@ -55,7 +55,7 @@ External Business Organization
 
 </td><td>
 
-The automatically generated external rganization locations.
+The automatically generated external organizations.
 
 </td></tr><tr><td>
 

@@ -43,6 +43,8 @@ Activate and run the Add Manager Hub user role scheduled job to assign the Manag
 
 [Configure important dates]()
 
+[Configure manager insights for ServiceNow Otto for HRSD]()
+
 [Configure team requests]()
 
 [Configure team data]()

@@ -65,15 +65,15 @@ Role required: admin or decision\_table\_admin
 
 4.  Create a filter for an input or result.
 
-<table id="choicetable_mgh_hb1_cyb"><thead><tr><th align="left" id="d50420e274">
+<table id="choicetable_mgh_hb1_cyb"><thead><tr><th align="left" id="d50688e274">
 
 Action
 
-</th><th align="left" id="d50420e277">
+</th><th align="left" id="d50688e277">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d50420e283">
+</th></tr></thead><tbody><tr><td id="d50688e283">
 
 **Create a filter for a Reference type input**
 
@@ -88,7 +88,7 @@ The **Reference** column appears and displays the Reference table.
 4.  In the **Table** field, select the table to reference. For example, `sys_user`.
 
 
-</td></tr><tr><td id="d50420e333">
+</td></tr><tr><td id="d50688e333">
 
 **Create a filter for a Reference type result**
 

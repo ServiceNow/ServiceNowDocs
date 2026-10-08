@@ -120,6 +120,8 @@ Order in which additional filter conditions are applied.
 
 [Configure important dates]()
 
+[Configure manager insights for ServiceNow Otto for HRSD]()
+
 [Configure team requests]()
 
 [Configure team data]()

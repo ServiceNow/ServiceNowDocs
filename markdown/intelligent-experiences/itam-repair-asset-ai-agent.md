@@ -7,7 +7,7 @@ release: australia
 topic_type: reference
 last_updated: "2026-08-14"
 reading_time_minutes: 2
-breadcrumb: [IT Asset Management AI agents, IT Asset Management, AI agents library, AI assets, Enable AI experiences]
+breadcrumb: [Asset Management AI agents, IT Asset Management, AI agents library, AI assets, Enable AI experiences]
 ---
 
 # Repair asset AI agent
@@ -18,14 +18,14 @@ This AI agent assists users in resolving issues with assets that are in a defect
 
 The agent helps users to repair assets.
 
-1.  Initialize variables and use &lt;asset\_manufacturer&gt; and &lt;asset\_model&gt; for asset context which is already provided.
+1.  Uses the asset manufacturer and model details provided.
 2.  Determine if the issue is known.
-3.  If the issue is known, perform a web search and create a step by step hardware evaluation plan from the official &lt;asset\_manufacturer&gt; website for &lt;asset\_model&gt; having &lt;issue&gt;. Provide part requirements for each of the suggested repair steps. Give detailed steps for each issue.
+3.  If the issue is known, perform a web search and create a step by step hardware evaluation plan. Provide part requirements for each of the suggested repair steps. Give detailed steps for each issue.
 4.  Refine and format search results.
-5.  Display numbered troubleshooting steps to the user, one at a time.
+5.  Display numbered repair steps along with part requirements to the user, one at a time.
 6.  If the user indicates that the problem is solved, end the workflow.
-7.  If the user indicates that the problem is not solved, go to the next troubleshooting step.
-8.  When all steps are exhausted, end the workflow.
+7.  If the user indicates that the problem is not solved, ask the user to share the exact query again. Perform a web search based on that query and display the results.
+8.  End the workflow when the user confirms the steps resolved the issue or when the user remains unsatisfied after the second troubleshooting attempt.
 
 <table><thead><tr><th>
 
@@ -88,7 +88,7 @@ Data access roles The specific user identity roles that determine which data the
 
 </td><td>
 
-inventory\_user, 8c5ce94b77ac4210fa3fca22fe5a994b
+inventory\_user, sn\_eam.asset\_technician
 
 </td></tr><tr><td>
 
@@ -116,7 +116,7 @@ Used in agentic workflows
 -   Help repair hardware assets
 
 </td></tr></tbody>
-</table>Learn more about IT Asset Management at .
+</table>Learn more about Asset Management at [Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/asset-management-landing-page.md).
 
-**Parent Topic:**[IT Asset Management AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/itam-ai-agents-overview.md)
+**Parent Topic:**[Asset Management AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/itam-ai-agents-overview.md)
 

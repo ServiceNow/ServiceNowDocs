@@ -38,7 +38,7 @@ You can view the **Playbook** menu only if a playbook is active and the project 
 
 2.  Use an existing playbook or create a new one.
 
-    -   To create a new playbook, define the trigger condition in Workflow Studio. For more information, see [Triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/process-automation-designer-triggers.md).
+    -   To create a new playbook, define the trigger condition in Workflow Studio. For more information, see .
     -   To use an existing playbook:
 
         1.  From the menu, select **Playbooks**.
@@ -49,7 +49,7 @@ You can view the **Playbook** menu only if a playbook is active and the project 
         -   When you select **Mark Complete** or **Skip**, the activity becomes read-only.
         -   A stage is marked complete once all activities within it are either completed or skipped.
         -   Use the **Restart** option \(available at both the activity and stage levels\) to revisit or edit completed or skipped activities.
-    For more information on how to use playbooks, see [Building Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/building-a-process.md) and [Designing Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/playbook-experience-admins.md).
+    For more information on how to use playbooks, see  and .
 
 
 **Parent Topic:**[Managing projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/use-projects-pw.md)
@@ -57,9 +57,7 @@ You can view the **Playbook** menu only if a playbook is active and the project 
 **Related topics**  
 
 
-[Running Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/playbook-agents-and-fulfillers.md)
-
-[Playbooks reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/process-automation-designer-reference.md)
+[bundle-crworkflow.playbook-agents-and-fulfillers]
 
 [Playbooks configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/project-workspace/configure-playbooks-pw.md)
 

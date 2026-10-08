@@ -107,6 +107,10 @@ The ServiceNow® Platform Analytics experience provides a single center for cons
 
     Enable the **Show % of total in tooltip** option to show the percentage each data point contributes to the total alongside absolute values in the tooltip. Applies to time series, bar, bubble, donut, geomap, and heatmap visualizations.
 
+-   **Publish report functionality replaced with Read-only link option in Report Designer**
+
+    It is no longer possible to publish a report. The **Read-only** option provides a URL that authenticated users can follow to view a report.
+
 -   **[Explore native data snapshots indicators in KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/kpi-details.md)**
     -   Employ intraday analysis with granularity based on work shifts.
     -   Customize score formatting options.

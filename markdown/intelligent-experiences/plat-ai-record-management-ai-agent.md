@@ -63,6 +63,10 @@ Tools
 
 </td><td>
 
+-   **Knowledge graphs**
+
+User NLQ KG
+
 -   **Scripts**
 
 Attach Knowledge Article to Task
@@ -74,6 +78,8 @@ Get Fields from Table
 Get Task Tables
 
 save activity notes
+
+Validate UI Policies
 
 -   **Subflows**
 

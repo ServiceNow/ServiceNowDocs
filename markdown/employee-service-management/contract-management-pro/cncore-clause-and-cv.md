@@ -41,7 +41,7 @@ As a contract configurator, create a clause variation to use in a contract templ
 -   **[Add metadata to a clause using add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-add-meta-cls-addin.md)**  
 As a contract configurator, add metadata to pre-fill information that will be placed in the contract document.
 
-**Parent Topic:**[Configure templates for a contract and amendment request in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-document-templates.md)
+**Parent Topic:**[Configure templates for a contract requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-document-templates.md)
 
 **Related topics**  
 

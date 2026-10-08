@@ -60,6 +60,8 @@ The ServiceNow AI Platform® uses a licensing method where your organization is 
 
 The ServiceNow Product Documentation doesn't provide information on prices, packaging, or other details determined by your organization customer contract. For general information about licensing and subscriptions, see [ITOM/OT SU Licensing and subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/itom-su-licensing-landing-page.md).
 
+The ServiceNow Store regularly releases updates to applications created by ServiceNow. To access the latest features and updates for ITOM applications, deploy the latest upgrades from the [ServiceNow Store](https://store.servicenow.com/store). Each application may be on a different release schedule and is not specifically tied to a family release.
+
 ## Get started
 
 -   Work with an implementation specialist to achieve your desired business outcomes. To learn more, visit the [Customer Success Center](https://www.servicenow.com/success.html).

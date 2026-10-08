@@ -22,13 +22,13 @@ Domain separation is supported for the AI Admin Hub console. Domain separation e
 -   **[Fetch end points in Now Assist Conversational Help skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/fetch-end-points-in-conversational-help-skill.md)**  
 The Now Assist Conversational Help skills architecture solves latency by fetching answers hosted at the nearest location, which is best suited to the user.
 -   **[AI Admin Hub roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/roles-installed-with-now-assist-admin.md)**  
-Certain roles are required to use AI Admin Hub functionality.
+Certain roles are required to use AI Admin Hub functionality. The base admin \(sys\_admin\) role does not automatically grant or include the following roles, so assign these directly to users who require them.
 -   **[User data usage policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/user-data-usage-policy-now-assist.md)**  
 Your data is safe and secure with ServiceNow user data usage policy for generative AI. You can also mask sensitive data or opt-out of sharing data for model improvements.
 -   **[Troubleshoot an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/troubleshoot-a-now-assist-skill.md)**  
-Run diagnostics for a skill on AI Admin Hub and get information about the status of your skill configuration with AI Troubleshooting.
--   **[Now Assist panel system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/nap-sys-props.md)**  
-Use system properties to customize Now Assist panel. Some properties are available on a system properties form, but some lesser-used properties are available only from the System Property \[sys\_properties\] table.
+Run diagnostics for a skill on the AI Admin Hub console to get information about the status of your skill configuration. The availability of diagnostics depends on the skill.
+-   **[ServiceNow Otto panel system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/nap-sys-props.md)**  
+Use system properties to customize ServiceNow Otto panel. Some properties are available on a system properties form, but some lesser-used properties are available only from the System Property \[sys\_properties\] table.
 
 **Parent Topic:**[AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/platform-now-assist-landing.md)
 

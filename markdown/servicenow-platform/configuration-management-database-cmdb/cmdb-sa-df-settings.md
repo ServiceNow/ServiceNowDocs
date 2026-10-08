@@ -7,9 +7,9 @@ release: australia
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 1
-keywords: [Data Foundations settings assessment, CMDB Data Manager policies review, reconciliation rules review, CI creation from assets using IRE, CI classes missing managed by group]
+last_updated: "2026-09-28"
+reading_time_minutes: 2
+keywords: [Data Foundations settings assessment, CMDB Data Manager policies review, reconciliation rules review, CI creation from assets using IRE, CI classes missing managed by group, Sync managed by group business rule]
 breadcrumb: [Analyze CMDB settings, Use Data Foundations advisor, CMDB success advisor, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -52,6 +52,14 @@ Review CI classes without managed by group
 </td><td>
 
 Shows principal CI classes that do not have a **Managed by group** field configured in CI Class Manager. Ownership data is critical for routing incidents, changes, and service requests to the correct team.
+
+</td></tr><tr><td>
+
+Sync managed by group
+
+</td><td>
+
+Makes sure that the managed by group field value syncs to CIs by checking whether the Sync managed by group business rule is active.
 
 </td></tr><tr><td>
 

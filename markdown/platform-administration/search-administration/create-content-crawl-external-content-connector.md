@@ -48,7 +48,7 @@ You can run a content crawl as a one-time task or set it to recur on a scheduled
 4.  Select the tile for the scope you want for your content crawl.
 
     -   To retrieve searchable content and metadata from all available start points in your source system, select **Full content crawl**.
-    -   To only retrieve searchable content and metadata from a single start point, select **Partial content crawl** and enter or select the start point for the crawl. The partial crawl will only retrieve content from this start point and its descendant locations.
+    -   To only retrieve searchable content and metadata from a single start point, select **Partial content crawl** and enter or select the start point for the crawl. The partial crawl only retrieves content from this start point and its descendant locations.
 
         **Note:** When configuring a partial content crawl, you can select **Refresh start points** to populate the list of available start points. Refreshing this list requires retrieval of data from the source system and may take a minute or two.
 

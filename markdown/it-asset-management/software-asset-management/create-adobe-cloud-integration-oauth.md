@@ -29,19 +29,21 @@ Activate the following plugins:
 
 If you’re using Software Asset Workspace, the option to create the Adobe Cloud integration profile in Core UI is inactive.
 
+**Important:** Adobe has deprecated JWT authentication. You must migrate any integration using JWT authentication to OAuth Server-to-Server credentials. During migration, subscription data is re-imported through the new connection. Software models remain in place, but linked user subscriptions are deleted and re-imported, resetting the reclamation candidate generation cycle. Default reclamation rules resolve automatically while custom reclamation rules may require reconfiguration.
+
 ## Procedure
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d299385e98">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d302969e106">
 
 Interface
 
-</th><th align="left" id="d299385e101">
+</th><th align="left" id="d302969e109">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d299385e107">
+</th></tr></thead><tbody><tr><td id="d302969e115">
 
 **Core UI**
 
@@ -52,7 +54,7 @@ Action
 3.  Select **Adobe Cloud Integration Profile**.
 
 
-</td></tr><tr><td id="d299385e150">
+</td></tr><tr><td id="d302969e158">
 
 **Software Asset Workspace**
 
@@ -67,46 +69,13 @@ Action
 </td></tr></tbody>
 </table>2.  On the form, fill in the fields.
 
-<table id="table_x3l_x4d_c1b"><thead><tr><th>
+    |Field|Description|
+    |-----|-----------|
+    |Display name|Name of the Adobe Cloud integration profile.|
+    |Authentication type|Type of authentication to access Adobe Cloud APIs. Default value is OAuth 2.0.|
+    |Profile type|Type of integration profile. This field is automatically set to Adobe subscription.|
 
-Field
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Display name
-
-</td><td>
-
-Name of the Adobe Cloud integration profile.
-
-</td></tr><tr><td>
-
-Authentication type
-
-</td><td>
-
-Type of authentication to access Adobe Cloud APIs.-   OAuth 2.0
--   JWT
-**Note:**
-
--   For the existing Adobe Cloud integration profiles before upgrade to Software Asset Management - SaaS License Management 13.1.0 version or later, this field is automatically set to **JWT**.
--   For all the new Adobe Cloud integration profiles, this field is automatically set to **OAuth 2.0**.
-
-
-</td></tr><tr><td>
-
-Profile type
-
-</td><td>
-
-Type of integration profile. This field is automatically set to Adobe subscription.
-
-</td></tr></tbody>
-</table>3.  In the Process configuration section, view the required user roles or API permissions to minimize security risks and optimize SaaS licenses.
+3.  In the Process configuration section, view the required user roles or API permissions to minimize security risks and optimize SaaS licenses.
 
     **Note:**
 

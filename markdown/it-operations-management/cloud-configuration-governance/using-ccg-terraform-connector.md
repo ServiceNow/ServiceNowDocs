@@ -17,7 +17,7 @@ breadcrumb: [Cloud Services Catalog Terraform Connector, Support for continuous 
 Understand the high-level use cases and usage workflows for the Cloud Services Catalog Terraform Connector application.
 
 -   **[Associate the Terraform input parameters with the Cloud Provisioning and Governance catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/terraform-catalog-metadata-ingest.md)**  
-Create a JSON file to store the variables that are used in the template file so that you can map them to discovered resources, pools, and filters. You can use variables or parameters from the Terraform template to map to fields on the catalog item provision form.
+Create a JSON file to store Terraform template variables and map them to discovered resources, pools, filters, and catalog item provision form fields.
 -   **[Populate the datacenter in Terraform-based catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/terraform-auto-pop-location.md)**  
 In any request for a catalog item using Terraform templates, the required Location value specifies the datacenter or region where to provision the configuration items and stacks. You can use a variable named **region** in the Terraform template to map to the Location field on the request form.
 -   **[Create a catalog item from the Terraform template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/cloud-configuration-governance/catalog-item-terraform-template.md)**  

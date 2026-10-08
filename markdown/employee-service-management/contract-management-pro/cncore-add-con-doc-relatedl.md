@@ -69,7 +69,7 @@ The Contract document tab is available your workspace to view the contract docum
 
 [Add access to obligation management from contract repository records]()
 
-[Configure the contract request form header for your workspace]()
+[Configure the contract request form header]()
 
 [Assign a role for configuring template mappings]()
 

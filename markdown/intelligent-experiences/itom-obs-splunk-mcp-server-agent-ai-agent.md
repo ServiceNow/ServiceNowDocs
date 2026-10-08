@@ -1,29 +1,29 @@
 ---
 title: Splunk MCP server AI agent
-description: This AI agent investigates Splunk Cloud and compatible Splunk Enterprise alerts by querying SPL-based Splunk platform data using SPL queries, saved searches, index exploration, and ownership metadata retrieval. It translates alert questions into structured findings. This agent does not cover Splunk Observability Cloud or SignalFx.
+description: This AI agent investigates Splunk Cloud and compatible Splunk Enterprise alerts by querying Splunk platform data. It doesn't cover Splunk Observability Cloud.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/itom-obs-splunk-mcp-server-agent-ai-agent.html
 release: australia
 topic_type: reference
-last_updated: "2026-06-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [IT Operations Management AI agents, IT Operations Management, AI agents library, AI assets, Enable AI experiences]
 ---
 
 # Splunk MCP server AI agent
 
-This AI agent investigates Splunk Cloud and compatible Splunk Enterprise alerts by querying SPL-based Splunk platform data using SPL queries, saved searches, index exploration, and ownership metadata retrieval. It translates alert questions into structured findings. This agent does not cover Splunk Observability Cloud or SignalFx.
+This AI agent investigates Splunk Cloud and compatible Splunk Enterprise alerts by querying Splunk platform data. It doesn't cover Splunk Observability Cloud.
 
 ## Workflow
 
-The agent investigates a Splunk alert or a named entity by running SPL queries against Splunk Cloud or a compatible Splunk Enterprise deployment.
+1.  Identify what to investigate.
 
-1.  Determine whether the investigation is driven by an alert's own SPL search or by a named entity that needs to be checked for anomalies.
-2.  Run the relevant SPL query or a general anomaly search scoped to the entity across relevant indexes.
-3.  Broaden the search if the initial results are empty, to avoid missing relevant events.
-4.  Retrieve supporting knowledge objects, saved searches, and index metadata to add context to the findings.
-5.  Identify ownership metadata, such as the responsible team, from Splunk knowledge objects when available.
-6.  Return the structured findings, including supporting search results, to the calling agent.
+    The agent starts from the details of an alert, such as its Splunk search query.
+
+2.  Query Splunk to find the most affected entity, and explain the alert with event details, trends, and ownership data.
+3.  Return the findings, including root causes analysis and recommended actions.
+
+For more information about configuring this AI agent, see [Configure observability agents for ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/configure-integration-agents-for-now-assist.md).
 
 <table><thead><tr><th>
 
@@ -128,7 +128,7 @@ Used in agentic workflows
 
 </td><td>
 
-Not applicable.
+[Analyze alert impact agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/now-assist-itom-agentic-aia.md)
 
 </td></tr></tbody>
 </table>For more information, see [ITOM AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-operations-management/itom-health-landing-page.md).

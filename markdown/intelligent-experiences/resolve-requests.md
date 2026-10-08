@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/resolve-requests.html
 release: australia
 topic_type: concept
-last_updated: "2026-07-21"
+last_updated: "2026-09-28"
 reading_time_minutes: 8
 breadcrumb: [Platform agentic workflows, Agentic workflows, AI assets, Enable AI experiences]
 ---
@@ -28,11 +28,11 @@ To access this workflow, you must have ServiceNow Otto for Platform installed on
 
 For this agentic workflow to behave as expected, you must also configure Group Action Framework \(GAF\). See [Set up AI Search for Group Action Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/setup-ai-search-gaf.md) and [Configure Group Action Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/configure-gaf.md) for more information on getting started with GAF.
 
-## Role masking
+## Role filtering
 
 Required role: sn\_uxc\_gen\_ai.platform\_ai\_grp\_workflow.
 
-Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/define-sec-controls-aw.md).
+Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/implement-aias-security-new.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/intelligent-experiences/define-sec-controls-aw.md).
 
 In the data access settings, you must also add the necessary roles to enable reading of the tables for the records you want to access for potential resolution plans. For example, you can add the itil role to the agentic workflow's list of approved roles so that it can access Incident records.
 
@@ -255,6 +255,16 @@ After the workflow has been activated in AI Agent Studio, enter these or similar
 -   Generate resolution plan for INC0001
 -   Create detailed resolution steps for INC0001
 -   Resolve INC0001
+
+## UI action
+
+After upgrading to the latest version of the Generate resolution plan agentic workflow, previous UI actions associated with the workflow may need to be recreated.
+
+1.  Find the UI action in the UI Action \[sys\_ui\_action\] table by searching for "Generate Resolution Plan".
+2.  Deactivate the existing UI action.
+3.  Repair the sn-ai-engagement-experience plugin.
+4.  Ensure that the **com.glide.agentic\_processes\_view.enabled** system property is enabled.
+5.  Open the agentic workflow in AI Agent Studio, scroll down to the **Channels** section, and add a new UI action.
 
 ## AI agents used in the Generate resolution plan agentic workflow
 

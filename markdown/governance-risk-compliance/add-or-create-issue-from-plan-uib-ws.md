@@ -31,15 +31,15 @@ The **Issues** related list appears on a plan record when GRC: Profiles is insta
 
 2.  Complete the following steps to create or manage an issue from a plan record.
 
-<table id="choicetable_p55_b3s_jkc"><thead><tr><th align="left" id="d159828e109">
+<table id="choicetable_p55_b3s_jkc"><thead><tr><th align="left" id="d162084e109">
 
 Step
 
-</th><th align="left" id="d159828e112">
+</th><th align="left" id="d162084e112">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d159828e118">
+</th></tr></thead><tbody><tr><td id="d162084e118">
 
 **Create or add an issue from the plan record**
 
@@ -70,7 +70,7 @@ Use this option when you want to associate an existing issue with the plan as an
 
 The issue association is removed from the plan; the issue record isn't deleted from the instance.
 
-</td></tr><tr><td id="d159828e188">
+</td></tr><tr><td id="d162084e188">
 
 **Link a plan from the issue record**
 
@@ -97,7 +97,7 @@ The issue association is removed from the plan; the issue record isn't deleted f
 
 [Managing issues from Business Continuity Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/managing-issues-in-bcm.md)
 
-[Dependencies for integrating the Issues module with BCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/issues-bcm-dependencies.md)
+[Issues module integration dependencies with BCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/issues-bcm-dependencies.md)
 
 [Add or create an issue from an exercise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/add-or-create-issue-from-event-uib-ws.md)
 

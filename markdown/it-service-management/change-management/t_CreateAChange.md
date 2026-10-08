@@ -8,7 +8,7 @@ product: Change Management
 classification: change-management
 topic_type: task
 last_updated: "2025-01-30"
-reading_time_minutes: 13
+reading_time_minutes: 14
 breadcrumb: [Use, Change Management, IT Service Management]
 ---
 
@@ -39,7 +39,7 @@ To modify fields after saving, verify that the change request is still in an edi
 
 1.  Create the change request with one of these options.
 
-<table id="choicetable_agp_ckc_3t"><tbody><tr><td id="d194246e96">
+<table id="choicetable_agp_ckc_3t"><tbody><tr><td id="d195700e96">
 
 **From the Change application**
 
@@ -57,7 +57,7 @@ You can create all three types of change from the **Change** application. This i
 -   **All**: All models are available to select.
 
 
-</td></tr><tr><td id="d194246e192">
+</td></tr><tr><td id="d195700e192">
 
 **From an incident or a problem**
 
@@ -67,7 +67,7 @@ As a user with the sn\_change\_write role, you can create a standard, normal, or
 2.  Right-click the form header and select **Create Normal Change**, **Create Standard Change**, or **Create Emergency Change**.
 
 
-</td></tr><tr><td id="d194246e219">
+</td></tr><tr><td id="d195700e219">
 
 **From an existing change record**
 
@@ -136,9 +136,11 @@ Configuration item
 
 Select **Add** to add a CI for the change. You can add a CI for a change in **New** state only.
 
+**Important:** You can set or change the primary configuration item \(CI\) only while the change request is in the **New** state. After the change moves past **New**, manage additional CIs through the Affected CIs related list. For details, see [Associate multiple CIs with a change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/c_AffectedCIsAndImpactedServices.md).
+
 CI that the change applies to. Change requests can be associated with any type of CI, including service offerings, providing detailed access to SLA and availability requirements.When you select a dynamic CI group, all the configuration items related to the selected dynamic group will be populated in the Affected CIs related list. In the Affected CIs related list, you can also manually add and delete the dynamic CI groups. When you add a dynamic CI group, all the related CIs are added, and when you remove a dynamic CI group, the related CIs are removed.
 
- After selecting a CI, you can click the health dashboard icon \(\[Omitted image "Change\_CIHealthIcon.png"\] Alt text: Health dashboard icon.\) to view the CI health details.
+ After selecting a CI, you can select the health dashboard icon \(\[Omitted image "Change\_CIHealthIcon.png"\] Alt text: Health dashboard icon.\) to view the CI health details.
 
  **Note:** By default, Service Offering is filtered out and CIs with Principal Class are selected. The Principal Class filter functionality is applicable to new customers starting from the Paris release.
 
@@ -329,7 +331,7 @@ Affected CIs
 
 </td><td>
 
-List of CIs \(from the CMDB\) affected by the change. You can associate multiple affected CIs with a change.
+List of CIs \(from the CMDB\) affected by the change. You can associate multiple affected CIs with a change, including after the change has moved past the **New** state, when the primary configuration item can no longer be edited directly. For details, see [Associate multiple CIs with a change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/c_AffectedCIsAndImpactedServices.md) and [Add affected CIs using a BSM map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/c_AffectedCIsAndImpactedServices.md).
 
 </td></tr><tr><td>
 
@@ -348,6 +350,14 @@ Service Offerings
 List of service offerings affected by the change. You can associate multiple service offerings with a change. This related list is available only when a service offering is selected.If there are service offerings associated to the Impacted Services, then refresh the Impacted services/CIs related list to view the offerings.
 
  **Note:** If you have customized the default view of your form or related list before the Paris release, you cannot see the field or the related list by default. Modify the form to add them manually.
+
+</td></tr><tr><td>
+
+Approvers
+
+</td><td>
+
+This list is automatically generated from the workflow and any applicable change approval policies. You can also view the **Group** of approvers assigned to the task. To add additional approvers, define or update a change approval policy. For details, see [Change approval policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/change-approval-policy.md) and [Create approval definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/create-approval-definitions.md).
 
 </td></tr><tr><td>
 

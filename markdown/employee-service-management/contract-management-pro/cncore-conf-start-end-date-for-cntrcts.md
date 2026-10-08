@@ -48,7 +48,7 @@ Role required: admin
 
 The **Start date** and **End date** fields in the Initial contract window are automatically updated from the parent record while creating a contract request.
 
-For more information on initiating a contract request, see [Initiating a contract or amendment request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-initiate-contract.md).
+For more information on initiating a contract request, see [Parent-linked contract requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-initiate-contract.md).
 
 **Parent Topic:**[Configure additional features in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cmpro-additional-feature.md)
 

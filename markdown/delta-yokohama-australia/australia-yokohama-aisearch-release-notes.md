@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-yokohama-australia/australia-yokohama-aisearch-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 15
 breadcrumb: [Products combined by family]
 ---
@@ -118,7 +118,7 @@ Zurich
 
 -   **[ServiceNow Otto for AI Search](https://www.servicenow.com/docs/access?context=now-assist-ais&family=zurich&ft:locale=en-US)**
 
-Now Assist introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows. Name changes include but aren't limited to:
+ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows. Name changes include but aren't limited to:
 
     -   Now Assist in AI Search is now ServiceNow Otto for AI Search.
     -   Now Assist Actions is now Actions.
@@ -162,7 +162,20 @@ Australia
 
 </td><td>
 
--   **[Generate multi-content synthesized responses](https://www.servicenow.com/docs/access?context=generate-multi-content-synthesized-sources&family=australia&ft:locale=en-US)**
+-   **[ServiceNow Otto for AI Search](https://www.servicenow.com/docs/access?context=now-assist-ais&family=australia&ft:locale=en-US)**
+
+ServiceNow Otto introduced AI on the platform. As that experience has evolved, there's a new name for the experience. ServiceNow Otto® is the conversational AI platform integrated into ServiceNow workflows. It provides agentic capabilities, supports multimodal interactions across web, mobile, and messaging channels, and enables autonomous orchestration for cross-system workflows. Name changes include but aren't limited to:
+
+    -   Now Assist in AI Search is now ServiceNow Otto for AI Search.
+    -   Now Assist Action Genius Results are now Action Genius Results.
+    -   Now Assist Q&amp;A Genius Results are now Knowledge base article Genius Results.
+    -   Now Assist Multi-Content Response Genius Results are now Summary Genius Results.
+-   **[MCP Server](https://www.servicenow.com/docs/access?context=mcp-platform-manager-landing&family=australia&ft:locale=en-US)**
+
+AI Search capabilities are now available through the Model Context Protocol \(MCP\) Search tool category.
+
+
+ -   **[Generate multi-content synthesized responses](https://www.servicenow.com/docs/access?context=generate-multi-content-synthesized-sources&family=australia&ft:locale=en-US)**
 
 AI Search can now use multi-source synthesis to gather and combine information from any indexed source in your system.
 

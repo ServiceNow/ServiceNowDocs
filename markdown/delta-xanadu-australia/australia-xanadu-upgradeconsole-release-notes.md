@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-xanadu-australia/australia-xanadu-upgradeconsole-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-24"
-reading_time_minutes: 4
+last_updated: "2026-10-08"
+reading_time_minutes: 5
 breadcrumb: [Products combined by family]
 ---
 
@@ -112,13 +112,31 @@ Experience the new functionalities within the Preview application upgrades step 
 Review the Store application upgrades step in the post-upgrade activities for updated information in the App updates and Upgrade store applications sections. You can also use the new **Sync Now** option to update the list of installed applications that were either added or upgraded outside the upgrade process.
 
 
+ -   **[Additional way to access Upgrade Management](https://www.servicenow.com/docs/access?context=um-guided-tour-implement&family=zurich&ft:locale=en-US)**
+
+You can now access Upgrade Console through the Admin menu by selecting **Admin Home**, and then selecting the **Upgrade Console** link.
+
+-   **[Guided upgrade on sub-production instance](https://www.servicenow.com/docs/access?context=um-guided-tour-implement&family=zurich&ft:locale=en-US)**
+
+Upgrade your sub-production instance to facilitate a seamless and successful transition. This process is structured into three pivotal phases: Pre-upgrade, Instance upgrade, and Post-upgrade tasks.
+
+-   **[Guided upgrade on production instance](https://www.servicenow.com/docs/access?context=um-guided-tour-implement-prod&family=zurich&ft:locale=en-US)**
+
+Elevate your upgrade experience within your production instance by meticulously completing each stage of the transition. This comprehensive process encompasses four crucial phases: Select upgrade, Pre-upgrade, Instance upgrade, and Post-upgrade tasks, all designed for a successful upgrade experience.
+
+
 </td></tr><tr><td>
 
 Australia
 
 </td><td>
 
--   **[App version compatibility support](https://www.servicenow.com/docs/access?context=um-pre-upgrade-activities&family=australia&ft:locale=en-US)**
+-   **[Bulk application update console](https://www.servicenow.com/docs/access?context=um_bulk_app_update_desc&family=australia&ft:locale=en-US)**
+
+Review, select, and update multiple applications from a single console, reducing the effort of managing application updates individually.
+
+
+ -   **[App version compatibility support](https://www.servicenow.com/docs/access?context=um-pre-upgrade-activities&family=australia&ft:locale=en-US)**
 
 Update the Now Assist suite to manage application version compatibility by automatically updating all related applications to compatible versions when you upgrade an application in the compatibility matrix.
 
@@ -310,6 +328,8 @@ Zurich
 Upgrade Console is a ServiceNow AI Platform feature that is active by default.
 
 
+**Important:** Upgrade Console is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+
 </td></tr><tr><td>
 
 Australia
@@ -320,6 +340,8 @@ Australia
 
 Upgrade Console is a ServiceNow AI Platform feature that is active by default.
 
+
+**Important:** Upgrade Console is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 </td></tr></tbody>
 </table>## Additional requirements

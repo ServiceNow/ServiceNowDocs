@@ -9,7 +9,7 @@ classification: contract-management-pro
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Common contract request tasks, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Preview and download a signed contract document
@@ -51,15 +51,15 @@ When multiple contract documents are attached, a separate contract repository re
 
 6.  View the contract document.
 
-<table id="choicetable_vxh_nwf_t1c"><thead><tr><th align="left" id="d786059e125">
+<table id="choicetable_vxh_nwf_t1c"><thead><tr><th align="left" id="d793497e125">
 
 Choice
 
-</th><th align="left" id="d786059e128">
+</th><th align="left" id="d793497e128">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d786059e134">
+</th></tr></thead><tbody><tr><td id="d793497e134">
 
 **When internal storage is configured**
 
@@ -70,7 +70,7 @@ Steps
 3.  Select download icon to download the document.
 
 
-</td></tr><tr><td id="d786059e155">
+</td></tr><tr><td id="d793497e155">
 
 **When external storage is configured**
 
@@ -82,5 +82,5 @@ Steps
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-use-cmpro.md)
+**Parent Topic:**[Common contract request tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-common-contract-req-tasks.md)
 

@@ -7,8 +7,8 @@ release: australia
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Third-party Risk Management, Governance, Risk, and Compliance]
 ---
 
@@ -44,6 +44,8 @@ Perform a comprehensive external risk assessment when calculating multiple ratin
 Use the Third-party Risk Management \(TPRM\) data model to assess, monitor, and mitigate the risks for your risk management program.
 -   **[Domain separation and Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm-domain-separation.md)**  
 Domain separation is supported for TPRM. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
+-   **[TPRM email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/tprm_email_notification.md)**  
+Email notifications are sent automatically for TPRM events across due diligence requests, third-party risk assessments, issues and tasks, and third-party portal activity.
 -   **[Vendor Risk Overview reports — Legacy view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/governance-risk-compliance/third-party-risk-management/vendor-risk-overview-reports.md)**  
 The Vendor Risk Overview page is replaced by the third-party risk reports on the Vendor Management Workspace.
 

@@ -1,6 +1,6 @@
 ---
-title: Assess CMDB impact agentic workflow reference
-description: Reference information for the Assess CMDB impact agentic workflow, including input modes, output schema, supported record types, constraints, and system properties.
+title: CMDB impact analysis agentic workflow details
+description: Reference information for the Assess CMDB impact agentic workflow, including input modes, output schema, supported record types, workflow tools, and constraints.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-awf-impact-analysis-ref.html
 release: australia
@@ -13,9 +13,21 @@ keywords: [impact analysis, reference, API, schema, CMDB, ServiceNow Otto for CM
 breadcrumb: [Reference, ServiceNow Otto for Configuration Management Database \(CMDB\), Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Assess CMDB impact agentic workflow reference
+# CMDB impact analysis agentic workflow details
 
-Reference information for the Assess CMDB impact agentic workflow, including input modes, output schema, supported record types, constraints, and system properties.
+Reference information for the Assess CMDB impact agentic workflow, including input modes, output schema, supported record types, workflow tools, and constraints.
+
+**Note:** The Assess CMDB impact agentic workflow is deactivated by default. Activate it from Agentic Solutions before use, as described in [AI Agent Studio overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/ai-agent-studio.md).
+
+## Role requirements
+
+Access to the Assess CMDB impact agentic workflow requires the `itil` role to perform the following actions:
+
+-   Read CMDB CI records and CI relationship data
+-   Read change request and incident records
+-   Invoke the Impact Analysis agentic workflow from the ServiceNow Otto panel
+
+Additionally, users must have access to open the ServiceNow Otto panel from their workspace or application. Contact your administrator if you can't see the ServiceNow Otto icon.
 
 ## Input modes
 
@@ -43,18 +55,6 @@ Change request or incident number. For example, `CHG0000015` or `INC0001234`.
 
 “Help with the impact analysis for CHG000015”, "What is the impact of CHG0001234?", "Help me do the impact analysis for INC0001234" or "Analyze the impact of CHG0001235".
 
-</td></tr><tr><td>
-
-CI\_SYSID plus Change context
-
-</td><td>
-
-`ciid` \(sys\_id of the `cmdb_ci`\) + changeContext \(free-text description of the proposed change\)
-
-</td><td>
-
-"what would be the impact if I patched this server?" or "Analyze the impact of restarting server abc12345. We need to apply a kernel patch and restart".
-
 </td></tr></tbody>
 </table>## Supported record types
 
@@ -76,7 +76,9 @@ For invocation by change record, the workflow extracts the change description by
 -   For change\_request: Objective and Risk sections from the change summary
 -   For incident: Issue section from the incident summary
 
-If the task summary is unavailable or does not match the expected schema \(for example, a New-state change request with no summary content available\), the workflow falls back to the record's `short_description` or `description` field.
+If the task summary is unavailable or does not match the expected schema, the workflow falls back to the record's `short_description` or `description` field. For example, this fallback applies to a New-state change request with no summary content.
+
+If the record has no CI set, the workflow resolves the CI from the record's affected CI list. This fallback requires exactly one affected CI. If the affected CI list is empty or contains more than one CI, the workflow returns an error instead of running the analysis.
 
 ## Output schema
 
@@ -100,11 +102,26 @@ The workflow builds the dependency topology using a three-phase breadth-first se
 2.  Fetch topology.
 3.  Invoke LLM.
 
-## System properties
+## Workflow tools
 
-|Property|Default|Description|
-|--------|-------|-----------|
-|`sn_cmdb_gen_ai.impact_analysis.max_topology_nodes`|250|Maximum number of CI nodes to include in the CMDB topology traversal. When the limit is reached, traversal terminates and only the accumulated nodes are sent to the LLM for impact assessment.|
+The workflow delegates to an agent that uses the following tools:
+
+-   **Input validation**
+
+    Validates the change or incident number and confirms whether a CI or affected CI is available on the record.
+
+-   **Resolve input**
+
+    Fetches the change context that's passed to the LLM for reasoning.
+
+-   **Skill tool formatter**
+
+    Formats the impact analysis result for display in the ServiceNow Otto panel.
+
+-   **GetFullTopology**
+
+    Loads the topology visualization. This tool invokes a skill that processes the topology in chunks, sends each chunk to the LLM for assessment, and persists the results.
+
 
 ## Limitations
 
@@ -121,16 +138,8 @@ LLM reasoning accuracy depends on the richness and clarity of the change descrip
 |Provided change\_id does not exist|Error: change record not found|
 |Provided CI sys\_id does not exist in CMDB|Error: CI not found|
 |CI exists but has no upstream dependencies|Empty impact list \(valid result, not an error\)|
-
-## Role requirements
-
-Access to the Assess CMDB impact agentic workflow requires the `itil` role to perform the following actions:
-
--   Read CMDB CI records and CI relationship data
--   Read change request and incident records
--   Invoke the Impact Analysis agentic workflow from the ServiceNow Otto panel
-
-Additionally, users must have access to open the ServiceNow Otto panel from their workspace or application. Contact your administrator if you can't see the ServiceNow Otto icon.
+|Change or incident record has no CI set, and its affected CI list has more than one affected CI|Error: only one affected CI is supported|
+|Change or incident record has no CI set, and its affected CI list is empty|Error: cannot determine topology because no CI or affected CI is available|
 
 **Parent Topic:**[ServiceNow Otto for CMDB reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-reference.md)
 

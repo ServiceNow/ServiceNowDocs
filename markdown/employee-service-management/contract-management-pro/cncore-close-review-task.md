@@ -9,7 +9,7 @@ classification: contract-management-pro
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Manual internal review, Review contract documents, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Manual internal review, Review contract documents, Common contract request tasks, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Cancel an internal review task
@@ -24,15 +24,15 @@ Role required: sn\_cm\_core.contract\_fulfiller
 
 1.  Open the review task from workspace that you are using.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d113983e55">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d114594e55">
 
 Method
 
-</th><th align="left" id="d113983e58">
+</th><th align="left" id="d114594e58">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d113983e64">
+</th></tr></thead><tbody><tr><td id="d114594e64">
 
 **Contract Workspace listing**
 
@@ -44,7 +44,7 @@ Steps
 4.  Open the review task from the list
 
 
-</td></tr><tr><td id="d113983e111">
+</td></tr><tr><td id="d114594e111">
 
 **Contract Workspace landing page**
 
@@ -55,7 +55,7 @@ Steps
 3.  Open the review task from the list
 
 
-</td></tr><tr><td id="d113983e144">
+</td></tr><tr><td id="d114594e144">
 
 **Workspace used by your application**
 
@@ -66,7 +66,7 @@ Steps
 3.  Open the review task from the list.
 
 
-</td></tr><tr><td id="d113983e165">
+</td></tr><tr><td id="d114594e165">
 
 **Reviews tab**
 

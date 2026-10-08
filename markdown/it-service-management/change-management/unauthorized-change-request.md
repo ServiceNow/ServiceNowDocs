@@ -7,7 +7,7 @@ release: australia
 product: Change Management
 classification: change-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Create a change request, Use, Change Management, IT Service Management]
 ---
@@ -38,18 +38,18 @@ An unauthorized change request is created when an unplanned CI change activity o
 
 The **ci.change.unplanned** event that is generated automatically triggers the creation of an Emergency type change request.
 
+## Identify and review unauthorized changes
+
 With the help of the following details that are pre-populated on the form, you can identify and review the unauthorized change:
 
 -   The **Unauthorized** option is selected. This option indicates that the change is an unauthorized change.
 -   The **Assignment group** field is populated with **Change Management**.
 -   The **Configuration item** field is populated with the item that the unauthorized change was made for.
--   The **Description** field is populated with the information on the changed fields of the change request.
+-   The **Description** field is populated with the changed fields of the configuration item, including the CI field name and its new value.
 
 An email notification is sent to the Assignment group, CI Item managed by, Owned by, and Assigned to members for review and approval. However, if there are many CI changes and there are no open change requests created to include the CIs, the system creates unauthorized change requests on these CIs. When this event occurs, the members receive numerous unauthorized change notification emails. In such a case, you can choose to disable these notifications. For more information, see [Disable unauthorized change notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-service-management/change-management/disable-unauth-notification.md).
 
 **Note:** Email notifications are sent only when there is an unplanned change on the CI that is part of an application service \(discovered or manual service\).
-
-After this change request is approved, the state changes to **Review** and the regular process is followed to close the request.
 
 ## Assign post-implementation review
 

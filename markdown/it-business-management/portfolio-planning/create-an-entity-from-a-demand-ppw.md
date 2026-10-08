@@ -7,7 +7,7 @@ release: australia
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Manage demands, Use, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -76,4 +76,8 @@ To create an entity, you can also use the **Confirm details and convert to selec
 
     **Note:** For EAP entities, select the team that you want the EAP entity to be assigned to, in the **Team** field in the **EAP Details** section in the demand form. This field is set to read-only once the entity is created.
 
+
+## Result
+
+After the entity is created from the demand and associated with it, the demand type and category can't be changed. This restriction applies because work items are already linked to the demand once the artifact is created.
 

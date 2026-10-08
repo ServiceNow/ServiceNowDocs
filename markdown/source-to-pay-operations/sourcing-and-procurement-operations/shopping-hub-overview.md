@@ -102,7 +102,7 @@ Shopping Hub enables end users to save multiple delivery addresses for convenien
 
 [Sourcing Pipeline Management]()
 
-[Understanding Punchout]()
+[Understanding punchout]()
 
 [AI Search for Sourcing and Procurement Operations]()
 

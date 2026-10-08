@@ -9,7 +9,7 @@ classification: grc-compliance-management-workspace
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Performing compliance tasks in Compliance Workspace

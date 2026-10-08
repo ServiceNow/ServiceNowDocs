@@ -7,7 +7,7 @@ release: australia
 topic_type: topic
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Now Assist and agentic AI release notes, Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
+breadcrumb: [ServiceNow Otto and agentic AI release notes, Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
 
 # ServiceNow Otto for Software Asset Management \(SAM\) release notes
@@ -33,7 +33,7 @@ See [ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubus
     TBD.
 
 
-**Parent Topic:**[Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/now-assist-rn-landing.md)
+**Parent Topic:**[ServiceNow Otto and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/release-notes/now-assist-rn-landing.md)
 
 ## Australia
 

@@ -81,7 +81,7 @@ Amazing Admin \[sn\_ot\_amazing\_admin\]
 
 </td><td>
 
-Can create, modify and delete OT subnet records \(ot\_subnet\_mapping\) for all the equipment model entity OT subnet system properties.
+Can create, modify, and delete OT subnet records \(ot\_subnet\_mapping\) for all the equipment model entity OT subnet system properties.
 
 </td></tr><tr><td>
 
@@ -89,7 +89,7 @@ Amazing Editor \[sn\_ot\_amazing\_write\]
 
 </td><td>
 
-Can create, modify and delete OT subnet records \(ot\_subnet\_mapping\) for all the equipment model entities associated with the user.
+Can create, modify, and delete OT subnet records \(ot\_subnet\_mapping\) for all the equipment model entities associated with the user.
 
 </td></tr><tr><td>
 

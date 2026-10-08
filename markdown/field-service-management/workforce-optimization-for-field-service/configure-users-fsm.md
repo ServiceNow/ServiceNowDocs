@@ -44,3 +44,5 @@ The steps for configuring users are:
 
 [Setting up Field Service user groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/workforce-optimization-for-field-service/setting-up-field-service-user-groups.md)
 
+[Workforce Optimization for Field Service components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/field-service-management/components-wfo-fsm.md)
+

@@ -66,15 +66,15 @@ Create automation requests for your tasks directly from Task Mining. Capture bot
 
 7.  Select the task improvement action that you want to take, and select **Continue**.
 
-<table id="choicetable_fll_2fy_yjc"><thead><tr><th align="left" id="d23084e288">
+<table id="choicetable_fll_2fy_yjc"><thead><tr><th align="left" id="d23088e288">
 
 Option
 
-</th><th align="left" id="d23084e291">
+</th><th align="left" id="d23088e291">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d23084e297">
+</th></tr></thead><tbody><tr><td id="d23088e297">
 
 **Generate with AI**
 
@@ -82,7 +82,7 @@ Description
 
 Open an Automation Center request based on the improvement opportunity. Populate the **Description** and **Detailed sequence of steps** fields with data from the tasks. For more information, see step 8.
 
-</td></tr><tr><td id="d23084e315">
+</td></tr><tr><td id="d23088e315">
 
 **Complete manually**
 

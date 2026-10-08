@@ -17,7 +17,7 @@ Deactivate a managed AI agent directly from its asset record using kill switch p
 
 ## Before you begin
 
-Role required: sn\_ai\_governance\_ai\_steward
+Role required: sn\_ai\_governance.ai\_steward
 
 This action is available only for managed AI agents in the Agentic AI category. It isn't available for unmanaged agents.
 

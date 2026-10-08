@@ -16,7 +16,7 @@ Use AI to group similar records in a list based on their short descriptions and 
 
 ## Before you begin
 
-**Important:** The Group similar items feature is available with ServiceNow® Pro Plus licensing. Discuss licensing with your ServiceNow® account representative for information specific to your contract.
+**Important:** Check your entitlements to determine whether you have access to the Group similar items feature. Discuss licensing with your ServiceNow® account representative for information specific to your contract.
 
 Role required: workspace\_user
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/platform-security/encryption.html
 release: australia
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-29"
 reading_time_minutes: 5
 breadcrumb: [Encryption]
 ---
@@ -62,7 +62,7 @@ Key Management refers to the activities involved in handling your cryptographic 
 </td></tr></tbody>
 </table>## Activation information
 
-The ServiceNow Platform Encryption subscription bundle is a group commercial entitlement that includes Key Management Framework, Field Encryption Enterprise, Cloud Encryption, and Database Encryption.
+The ServiceNow Platform Encryption subscription bundle is a group commercial entitlement that includes Key Management Framework, Field Encryption Enterprise, and Cloud Encryption.
 
 Field Encryption Enterprise is the unlimited license of Field Encryption. The Field Encryption Enterprise plugin is available with the activation of the com.glide.now.platform.encryption plugin. For details, see [Encryption and Key Management subscription bundle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-security/platform-encryption/encryption-sku.md).
 

@@ -9,7 +9,7 @@ classification: journey-designer
 topic_type: task
 last_updated: "2026-02-25"
 reading_time_minutes: 1
-breadcrumb: [Offboarding knowledge transfer plan generation agentic workflow, AI in Journey designer, Use, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Offboarding knowledge transfer plan generation agentic workflow, AI in Journey designer, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Configure the AI agent triggers for offboarding to use Employee Center
@@ -51,6 +51,4 @@ This task applies to the following triggers associated with the offboarding know
 
 7.  Repeat this task to configure the following trigger: Knowledge transfer record created.
 
-
-**Parent Topic:**[Offboarding knowledge transfer plan generation agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/journey-designer/offboarding-knowledge-x-agentic-wf.md)
 

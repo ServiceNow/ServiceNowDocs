@@ -66,8 +66,6 @@ Analyzes the renewal likelihood and expansion potential of an engagement or cont
 Use the ServiceNow Otto for TMT Transform Mapping Assist feature to automatically transform inbound and outbound data between provider and consumer tables.
 -   **[Generate Telecom customer 360 insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/now-assist-for-telecom-media-and-technology/c360-ai-insights.md)**  
 Generate customer health insights and recent customer issue insights for a customer or consumer account.
--   **[Generate summary for remote hands case record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/now-assist-for-telecom-media-and-technology/generate-summary-for-remote-hands-case-record.md)**  
-Remote Hands Request Summarization generates a contextual summary of a Remote Hands case. It combines current case data with insights from similar historical cases using information submitted through the CSM portal.
 -   **[Using adaptive desktop actions for Customer Experimentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-adaptive-desktop-actions.md)**  
 Use adaptive desktop actions in Customer Success Management to test prompt-driven models on your workflows.
 -   **[Use touchpoint meeting skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-meeting-skills.md)**  

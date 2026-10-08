@@ -9,7 +9,7 @@ classification: contract-management-pro
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Common contract request tasks, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Send email to stakeholders
@@ -44,15 +44,15 @@ The option to compose an email is available only when the State is Awaiting appr
 
 8.  Compose an email body.
 
-<table id="choicetable_tcf_fx2_21c"><thead><tr><th align="left" id="d733907e127">
+<table id="choicetable_tcf_fx2_21c"><thead><tr><th align="left" id="d740923e127">
 
 Action
 
-</th><th align="left" id="d733907e130">
+</th><th align="left" id="d740923e130">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d733907e136">
+</th></tr></thead><tbody><tr><td id="d740923e136">
 
 **Enter your own message.**
 
@@ -60,7 +60,7 @@ Steps
 
 Enter your message in the text box.
 
-</td></tr><tr><td id="d733907e145">
+</td></tr><tr><td id="d740923e145">
 
 **Use Response templates to insert predefined content into the email body**
 
@@ -72,7 +72,7 @@ Enter your message in the text box.
 -   Paste the content in the email body.
 
 
-</td></tr><tr><td id="d733907e178">
+</td></tr><tr><td id="d740923e178">
 
 **Use Email templates to use predefined template**
 
@@ -87,15 +87,15 @@ Enter your message in the text box.
 </td></tr></tbody>
 </table>9.  Send the email immediately or later, or discard it.
 
-<table id="choicetable_a54_ll2_21c"><thead><tr><th align="left" id="d733907e225">
+<table id="choicetable_a54_ll2_21c"><thead><tr><th align="left" id="d740923e225">
 
 Action
 
-</th><th align="left" id="d733907e228">
+</th><th align="left" id="d740923e228">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d733907e234">
+</th></tr></thead><tbody><tr><td id="d740923e234">
 
 **Send the email immediately**
 
@@ -103,7 +103,7 @@ Steps
 
 To send the email immediately, select **Send email**.
 
-</td></tr><tr><td id="d733907e246">
+</td></tr><tr><td id="d740923e246">
 
 **Send the email later**
 
@@ -115,7 +115,7 @@ To send the email immediately, select **Send email**.
 -   To send the email, select **Send email**.
 .
 
-</td></tr><tr><td id="d733907e280">
+</td></tr><tr><td id="d740923e280">
 
 **Discard the email**
 
@@ -133,5 +133,5 @@ To see a list of available default email notifications, go to **All** &gt; **Sys
 
 For more information, see [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_CreateANotification.md).
 
-**Parent Topic:**[Using Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-use-cmpro.md)
+**Parent Topic:**[Common contract request tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/employee-service-management/contract-management-pro/cncore-common-contract-req-tasks.md)
 

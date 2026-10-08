@@ -1,6 +1,6 @@
 ---
-title: Add breakdown sources to a dashboard
-description: To enable dashboard users to filter visualizations on a dashboard by breakdown element, add breakdown sources to the dashboard.
+title: Add breakdown sources to a responsive dashboard
+description: To enable dashboard users to filter visualizations on a Core UI dashboard by breakdown element, add breakdown sources to the dashboard.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/performance-analytics/t\_ExistingBreakdownDashboard.html
 release: australia
@@ -9,12 +9,12 @@ classification: performance-analytics
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Using breakdowns on dashboards, Indicator breakdowns, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
+breadcrumb: [Using breakdowns on responsive dashboards, Create and use dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
-# Add breakdown sources to a dashboard
+# Add breakdown sources to a responsive dashboard
 
-To enable dashboard users to filter visualizations on a dashboard by breakdown element, add breakdown sources to the dashboard.
+To enable dashboard users to filter visualizations on a Core UI dashboard by breakdown element, add breakdown sources to the dashboard.
 
 ## Before you begin
 
@@ -55,14 +55,14 @@ The breakdown sources are available on the dashboard. Users can group the dashbo
 -   Configure the Performance Analytics widgets on the dashboard so that users can filter them by selecting breakdown elements on the dashboard. For more information, see [Configure widgets for breakdown dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/set-up-widgets-for-breakdown-dashboards.md).
 
 
-**Parent Topic:**[Using breakdowns on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_SpecialDashboards.md)
+**Parent Topic:**[Using breakdowns on responsive dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/performance-analytics/c_SpecialDashboards.md)
 
 **Related topics**  
 
 
 [Configure widgets for breakdown dashboards]()
 
-[Showing multiple elements separately or aggregated]()
+[Showing multiple elements separately or aggregated in Core UI]()
 
 [Same breakdown on widget and dashboard]()
 

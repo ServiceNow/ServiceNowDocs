@@ -35,7 +35,8 @@ Description
 -   SharePoint Online
 -   OneDrive for Business
 -   Teams
--   Project Online
+-   Project
+-   Planner
 -   Visio Online
 -   Microsoft 365 Copilot
 

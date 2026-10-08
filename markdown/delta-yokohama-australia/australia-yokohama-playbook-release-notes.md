@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/delta-yokohama-australia/australia-yokohama-playbook-release-notes.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 11
 breadcrumb: [Products combined by family]
 ---
@@ -186,7 +186,12 @@ Australia
 
 </td><td>
 
--   **[Playbook as an MCP tool](https://www.servicenow.com/docs/access?context=playbook-as-mcp-tool&family=australia&ft:locale=en-US)**
+-   **[Ideal path for a playbook](https://www.servicenow.com/docs/access?context=ideal-path-for-playbook&family=australia&ft:locale=en-US)**
+
+Use ideal path to identify the intended execution path or view upcoming work hidden behind conditions. Ideal Path enables playbook authors to define and visualize the preferred process route. The end users of a playbook gets runtime visibility into the expected workflow path, improving process clarity, usability, and observability.
+
+
+ -   **[Playbook as an MCP tool](https://www.servicenow.com/docs/access?context=playbook-as-mcp-tool&family=australia&ft:locale=en-US)**
 
 Expose a playbook as a tool in an MCP server, enabling MCP clients to trigger and execute the playbook through the Model Context Protocol \(MCP\).
 
@@ -641,11 +646,10 @@ Australia
 
 </td><td>
 
--   Nest playbooks within other playbooks.
--   Enable runtime users to launch a playbook on demand.
--   Test playbooks with the Automated Test Framework.
--   Preview the UI for an activity in when configuring a playbook activity in Workflow Studio.
--   Use AI agents as activities in your playbook to automate tasks.
+-   Playbooks are structured, guided workflows that lead users, agents, or technicians through the steps required to complete a business process, such as case resolution or work order fulfillment.
+-   Playbooks consist of sequential stages, each containing activities that can be manual tasks, automated actions, or guided decisions, ensuring consistency and conformance across records.
+-   Benefits include eliminating the need to memorize processes, providing real‑time guidance, automating routine steps, and enabling administrators to update processes centrally, which applies to all users.
+-   Playbooks support use cases across multiple domains.
 
  See [Explore](https://www.servicenow.com/docs/access?context=process-automation-designer&family=australia&ft:locale=en-US) for more information.
 

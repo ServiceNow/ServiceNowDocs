@@ -7,7 +7,7 @@ release: australia
 product: Connections and Credentials
 classification: connections-and-credentials
 topic_type: task
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 2
 breadcrumb: [Configure CyberArk, OAuth 2.0 authentication via MID Server using external credential storage, External credential storage, Get started with credentials, Connections and Credentials, Access Management]
 ---

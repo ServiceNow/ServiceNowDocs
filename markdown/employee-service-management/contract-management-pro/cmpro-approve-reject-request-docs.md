@@ -9,7 +9,7 @@ classification: contract-management-pro
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Initiate ad hoc approval, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
+breadcrumb: [Initiate ad hoc approval, Common contract request tasks, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Approve or reject a contract document
@@ -26,15 +26,15 @@ Role required: sn\_cm\_core.contract\_fulfiller
 
 1.  Open the approval record from the email notification, Self-Service, or Employee Center portal.
 
-<table id="choicetable_ix4_gbl_trb"><thead><tr><th align="left" id="d207562e54">
+<table id="choicetable_ix4_gbl_trb"><thead><tr><th align="left" id="d209045e54">
 
 Options
 
-</th><th align="left" id="d207562e57">
+</th><th align="left" id="d209045e57">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d207562e63">
+</th></tr></thead><tbody><tr><td id="d209045e63">
 
 **From the email notification**
 
@@ -42,7 +42,7 @@ Steps
 
 Click the link in the email to open the record that needs approval.
 
-</td></tr><tr><td id="d207562e72">
+</td></tr><tr><td id="d209045e72">
 
 **From Self-Service**
 
@@ -52,7 +52,7 @@ Click the link in the email to open the record that needs approval.
 2.  In the My Approvals list, click a record to open for approval.
 
 
-</td></tr><tr><td id="d207562e102">
+</td></tr><tr><td id="d209045e102">
 
 **From Employee Center**
 

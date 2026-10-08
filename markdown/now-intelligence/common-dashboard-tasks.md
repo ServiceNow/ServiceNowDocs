@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/australia/now-intelligence/comm
 release: australia
 topic_type: concept
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 keywords: [Dashboard record, Clear dashboard filters]
 breadcrumb: [Dashboards, Platform Analytics experience, Platform Analytics]
 ---
@@ -23,6 +23,8 @@ Anyone can duplicate, print, or bookmark any dashboard to which they have access
 
 -   **[Create a dashboard with the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-db-in-ac.md)**  
 In the Platform Analytics experience, you can create shareable dashboards with data visualizations, filters, and other elements. You can create elements and add existing elements from the inline editor.
+-   **[Create Core UI dashboards on upgraded instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/create-core-ui-db-on-migrated-instance.md)**  
+On upgraded instances, including ones fully migrated to Platform Analytics, you can create Core UI dashboards from the Platform Analytics Dashboards library. You can create shareable dashboards with data visualizations, filters, and other existing elements.
 -   **[Edit Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/edit-db-in-ac.md)**  
 You can edit dashboard and dashboard tab information in the inline editor. If the dashboard has been shared, any changes you make are applied globally.
 -   **[Share a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/share-db-in-ac.md)**  
@@ -36,7 +38,7 @@ Export a Platform Analytics experience dashboard to PDF or Microsoft PowerPoint.
 -   **[Schedule the export of dashboards and data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/schedule-export-dboards-data-viz.md)**  
 Automate the export and mailing of dashboards and data visualizations. Help colleagues build presentations, share information with external users, or track data over time.
 -   **[Bookmark a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/bookmark-dashboard-ac.md)**  
-Bookmark a dashboard so that you can find it easily in the Analytics Overview.
+Bookmark a dashboard so that you can find it easily in the Dashboard Library.
 -   **[Delete a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/delete-db-in-ac.md)**  
 You can delete a dashboard that is no longer useful. The Analytics Overview invokes the Workflow Studio to remove the dashboard from your instance.
 

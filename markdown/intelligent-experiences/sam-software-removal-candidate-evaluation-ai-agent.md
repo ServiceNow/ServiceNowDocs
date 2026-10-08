@@ -16,7 +16,7 @@ This Software Asset Management agent identifies unused or underused software lic
 
 ## Workflow
 
-1.  Identify the target product. If a Product ID is provided, use it directly. Otherwise, present available products for the user to select, optionally filtered by Publisher ID.
+1.  Identify the target product. If no product ID is available in the agent's context, present available products for the user to select, optionally filtered by Publisher ID.
 2.  Fetch removal candidate analysis data for the selected product. If no data is found, inform the user and end.
 3.  Validate that the data supports reclamation. The checks differ based on software type \(installed vs. subscription\) but follow the same pattern: confirm recent usage or activity data exists, and confirm the ratio of removal candidates to total installations or subscriptions is within an acceptable range. If any check fails, inform the user with a specific reason and end.
 4.  Present the number of eligible removal candidates and ask the user to confirm reclamation. Only non-VIP users with notifications enabled are included.

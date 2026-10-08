@@ -16,9 +16,9 @@ Integrate external AI agents in AI Agent Studio to connect the ServiceNow AI Pla
 
 ## What are External Agents
 
-External agents are autonomous AI systems deployed on platforms other than ServiceNow. They are designed to perform specialized tasks within their native environments and can be connected to ServiceNow AI agents through integration protocols. External agents bring domain-specific intelligence, proprietary algorithms, or third-party automation capabilities into your ServiceNow ecosystem.
+External agents are the AI agents deployed on other platforms or ServiceNow instances that support A2A protocol. A2A is the only protocol we support for this functionality.
 
-External agents operate independently and aren't managed directly by the ServiceNow platform. Instead, they are invoked by ServiceNow agents through defined API contracts or messaging protocols, allowing two-way communication and task orchestration across system boundaries.
+External agents operate independently and aren't managed directly by the ServiceNow AI Platform. Instead, they are invoked by ServiceNow agents through defined API contracts or messaging protocols, allowing two-way communication and task orchestration across system boundaries.
 
 ## Discover External AI agents
 
@@ -26,11 +26,11 @@ You can enable external AI agents on the AI Agent Studio via the Settings page. 
 
 -   **Allow ServiceNow to access external AI agents**: The external AI agents can integrate with the ServiceNow agentic AI system using the A2A protocol, with the **Allow** radio button selected by default.
 
-    To prevent external AI agents from being integrated with the ServiceNow agentic AI system using the A2A protocol, select **Do not allow**.
+    To prevent external AI agents from being integrated with the ServiceNow agentic AI system using the A2A protocol, select **don't allow**.
 
--   **Allow third party access to ServiceNow AI agents**: The ServiceNow AI agents are configured by default for integration into external AI systems, with the **Allow** option selected by default.
+-   **Allow third-party access to ServiceNow AI agents**: The ServiceNow AI agents are configured by default for integration into external AI systems, with the **Allow** option selected by default.
 
-    To prevent ServiceNow AI agents from being integrated into the external agentic AI system, select **Do not allow**.
+    To prevent ServiceNow AI agents from being integrated into the external agentic AI system, select **don't allow**.
 
     **Important:** You can integrate ServiceNow AI agents into other agentic AI systems, such as Google Cloud or Azure OpenAI.
 

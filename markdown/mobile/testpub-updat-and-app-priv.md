@@ -44,7 +44,6 @@ Role required: admin
 6.  Publish and distribute your Android app for private distribution by uploading your APK file to your private distribution site, managed Google Play site, or your EMM \(enterprise mobility management\) provider:
 
     -   See [Google documentation](https://support.google.com/a/answer/2494992?hl=en) for information about how to publish private apps from the Google Play Console.
-    -   If you are using the BlackBerry mobile application management \(MAM\), see [KB0813295](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0813295).
     -   If you are using the Microsoft Intune MAM, see [Microsoft documentation](https://learn.microsoft.com/en-us/mem/intune/apps/apps-add-android-for-work).
     -   For information about ServiceNow® mobile apps version history and changes, see:
         -   [Now Mobile](https://www.servicenow.com/docs/r/mobile-release-notes/mobile-apps.html)

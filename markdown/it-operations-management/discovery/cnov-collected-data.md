@@ -17,7 +17,9 @@ breadcrumb: [Reference, Kubernetes discovery using Kubernetes Visibility Agent, 
 
 The Kubernetes Visibility Agent Informer collects data on Kubernetes resources and populates various CMDB tables.
 
-For the information about the data Kubernetes Visibility Agent Informer collects on the Kubernetes resources and OpenShift resources, and about the CMDB tables it populates, see the KB article [KB2669848](https://support.servicenow.com/kb?id=kb_article_view&sys_kb_id=5883b26493ca3a10d9743f986cba1060)
+For information about the data Kubernetes Visibility Agent Informer collects on the Kubernetes resources and OpenShift resources, and about the CMDB tables it populates, see the KB article [KB2669848](https://support.servicenow.com/kb?id=kb_article_view&sys_kb_id=d76d131d9398cb54d744b94c5cba10ba)
+
+\[Omitted image "kva-ci-relationships.png"\] Alt text: Relationships between CIs created by Kubernetes Visibility Agent \(KVA\)
 
 **Parent Topic:**[Kubernetes Visibility Agent Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/discovery/cnov-reference.md)
 

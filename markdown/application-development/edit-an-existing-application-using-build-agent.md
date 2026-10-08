@@ -70,7 +70,7 @@ You can edit an application with Build Agent in both ServiceNow Studio and the S
 
 8.  Review the changes in the Change Log in a tab in ServiceNow Studio and continue iterating to refine the app.
 
-    For more information on the change log, see [Build Agent checkpoints and conversation change log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ba-conversational-change-log.md).
+    For more information on the change log, see [Checkpoints and conversation change log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-development/ba-conversational-change-log.md).
 
     Review updates to generated tables, flows, and scripts, and preview any user interfaces created in your application. You can interact with the preview to make additional edits, for example, select a button in the **Preview** tab and tell Build Agent to `Change the color of the button to purple`.
 

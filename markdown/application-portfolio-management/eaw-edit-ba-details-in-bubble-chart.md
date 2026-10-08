@@ -28,23 +28,25 @@ Role required: sn\_apm.apm\_analyst
 
 4.  Select the business application that you want to edit details for.
 
-<table id="choicetable_ebc_3mq_fhc"><thead><tr><th align="left" id="d28092e86">
+<table id="choicetable_ebc_3mq_fhc"><thead><tr><th align="left" id="d28227e86">
 
 Bubble type
 
-</th><th align="left" id="d28092e89">
+</th><th align="left" id="d28227e89">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d28092e95">
+</th></tr></thead><tbody><tr><td id="d28227e95">
 
 **Single bubble**
 
 </td><td>
 
-Select a single bubble. The side panel appears and the business application details are displayed.**Note:** Select **Full details** to view more details about the business application.
+Select a single bubble. The side panel appears and the business application details are displayed. To edit the business application, select the **Details** tab.**Note:** Select **Full details** to view more details about the business application.
 
-</td></tr><tr><td id="d28092e109">
+If the trigger type of the ServiceNow Otto Business application insights skill is set to **Automatic**, the side panel opens on the **Insights** tab instead. For information on the trigger type, see [Configure ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/configure-now-assist-ea.md).
+
+</td></tr><tr><td id="d28227e139">
 
 **Grouped bubble**
 
@@ -52,12 +54,15 @@ Select a single bubble. The side panel appears and the business application deta
 
 1.  Select a grouped bubble. The side panel appears, displaying the list of individual business applications that are part of the grouped bubble.
 2.  Select a business application. The business application details are displayed.
+    -   To edit the business application, select the **Details** tab.
+    -   If the trigger type of the ServiceNow Otto Business application insights skill is set to **Automatic**, the side panel opens on the **Insights** tab instead.
+
+For information on the trigger type, see [Configure ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/configure-now-assist-ea.md).
+
  **Note:** Select **Full details** to view more details about the business application.
 
 </td></tr></tbody>
-</table>    **Note:** You can also generate insights into a business application using Now Assist, by selecting the **Generate Insights** button available in the **Insights** tab on the side panel. For more details, see [Generate insights into business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/generate-insights-into-ba.md).
-
-5.  On the Business application form, fill in the fields.
+</table>5.  On the Business application form, fill in the fields.
 
     For a description of the field values, see [Business application form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/application-portfolio-management/eaw-apprat-business-application-form.md).
 

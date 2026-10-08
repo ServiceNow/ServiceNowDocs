@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/intelligent-experiences/pa-indicators-and-tables.html
 release: australia
 topic_type: reference
-last_updated: "2026-09-24"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [Reference, Measure AI system, Measure AI systems, AI Control Tower, Enable AI experiences]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Reference, Measure AI system, Measure AI systems, AI Control Tower,
 
 Learn about the out-of-the-box Performance Analytics \(PA\) indicators and the database tables that the AI Control Tower uses to calculate value.
 
-## Out-of-the-box PA indicators
+## Predefined PA indicators for ServiceNow® AI systems
 
 |Metric field|PA indicator name|Description|
 |------------|-----------------|-----------|
@@ -25,11 +25,18 @@ Learn about the out-of-the-box Performance Analytics \(PA\) indicators and the d
 |Time Saved \(Token\)|AIValue Average RWTS per Skill|Read/write token count; applicable for AI skills only|
 |Acceptance Rate|AIValue.CreatorMetrics.AcceptedCalls|Total accepted creator calls|
 
+## Predefined performance indicators for enterprise AI systems
+
+The following out-of-the-box performance indicators are available for enterprise \(third-party\) AI systems:
+
+-   EnterpriseAgents.InvocationCount.Daily - Tracks the number of third-party agent invocations per day.
+-   AIValue - Daily Worker Executions - Tracks the number of AI worker executions per day.
+
 ## Key database tables
 
 |Table|Purpose|
 |-----|-------|
-|`sys_gen_ai_usage_log`|Stores daily skill and agent execution counts and assist averages.|
+|`sys_gen_ai_usage_log`|Stores daily skill and agent execution counts and assist averages. Stores usage data for ServiceNow® AI systems.|
 |`sn_ai_disc_ai_usage`|Stores usage data for third-party \(external\) agent invocations.|
 
 The AI Control Tower derives two common measures from the `sys_gen_ai_usage_log` table:
