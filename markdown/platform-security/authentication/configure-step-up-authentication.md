@@ -7,7 +7,7 @@ release: brazil
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-10-08"
+last_updated: "2026-10-09"
 reading_time_minutes: 1
 keywords: [configure step-up authentication, step-up factor, Caller verification, AI Voice Assistant Designer]
 breadcrumb: [Step-up authentication, Configure authentication factors for AI voice agents, Authentication factors, Authentication, Access Management]

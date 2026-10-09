@@ -41,7 +41,7 @@ For more information about this component's configuration options and adding it 
 
 -   [Component developer documentation for Card Data Security](https://developer.servicenow.com/dev.do#!/reference/next-experience/australia/now-components/sn-card-data-security-container/overview)
 -   [UI Builder setup documentation for Card Data Security](https://developer.servicenow.com/dev.do#!/reference/next-experience/australia/now-components/sn-card-data-security-container/uib-setup)
--   [Customize UI Builder pages using components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/work-components.md)
+-   
 
 ## Card Number Reveal Component
 
@@ -115,7 +115,5 @@ Files in the **Merchant** tab that are ZIP archives can be opened in a viewer to
 
 [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ui-builder-overview.md)
 
-[Lux Page collections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/page-collections.md)
-
-[Extend your UI experience with viewport components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/viewports-overview.md)
+[bundle-cadev.page-collections]
 

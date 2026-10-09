@@ -347,7 +347,7 @@ ServiceNow Studio
 
 -   ****
 
-Studio \(com.glide.dev-studio\): The new ServiceNow Studio \(sn\_sns\) is the replacement for this plugin. For more information, see .
+Studio \(com.glide.dev-studio\): The new ServiceNow Studio \(sn\_sns\) is the replacement for this plugin. For more information, see [Exploring ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/exploring-servicenow-studio.md).
 
 
 </td></tr><tr><td>

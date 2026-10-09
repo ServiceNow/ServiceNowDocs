@@ -32,7 +32,7 @@ Role required: admin
 
 5.  On the Visit Assistant Designer page, select **Deactivate** if you want to change the default state.
 
-    The ServiceNow Otto panel is activated by default. For more information, see [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-panel-overview.md).
+    The ServiceNow Otto panel is activated by default. For more information, see .
 
 
 **Parent Topic:**[Configure Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/core-business-suite/configure-cbs.md)

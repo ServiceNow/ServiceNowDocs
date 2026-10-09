@@ -655,11 +655,11 @@ Available skills
 
 </th></tr></thead><tbody><tr><td>
 
-[ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/add-ai-to-custom-apps-with-now-assist-for-app-engine-enterprise.md)
+
 
 </td><td>
 
-[Custom app record summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/custom-app-record-summarization-na-for-app-engine.md)
+Custom app record summarization
 
 </td></tr><tr><td>
 
@@ -667,16 +667,16 @@ Creator
 
 </td><td>
 
--   [Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/build-agent.md)
+-   
 -   [Catalog item generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/create-catalog-item-using-now-assist.md)
--   [App summary generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/summarize-an-app-in-servicenow-studio.md)
--   [Summarize a client script using ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/client-script-summarization-generation.md)
+-   App summary generation
+-   
 -   [Code Assist autocomplete](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/scripts/generate-code-with-autocomplete.md)
 -   [Code Assist edit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/scripts/edit-code-now-assist.md)
 -   [Code assist summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/scripts/explain-and-summarize-code-with-quick-actions.md)
 -   [Code Assist generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/scripts/generate-scripts-from-text.md)
--   [Event handler generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/configure-an-event-handler-with-now-assist.md)
--   [Create an AI-generated experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/generate-ui.md)
+-   Event handler generation
+-   
 -   [Turn on the Flow execution analysis skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/turn-on-the-flow-execution-analysis-skill.md)
 -   [Flow generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/flow-generation-landing.md)
 -   [Flow generation with images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/flow-generation-with-images-landing.md)

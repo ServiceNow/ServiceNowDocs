@@ -7,7 +7,7 @@ release: brazil
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
 topic_type: concept
-last_updated: "2026-10-08"
+last_updated: "2026-10-09"
 reading_time_minutes: 1
 breadcrumb: [Use, Health and Safety Risk Management, Health and Safety, Employee Service Management]
 ---

@@ -24,7 +24,7 @@ Chat experiences in ServiceNow Otto for Virtual Agent are defined in assistants,
 
 \[Omitted image "nava-portal-screen.png"\] Alt text: Full-page view of the premium chat portal.
 
-For more information, see [Assistants and conversations in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/platai-assistant-designer.md) and [Premium chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/nava-integrated-chat.md).
+For more information, see [Assistants and conversations in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/platai-assistant-designer.md) and .
 
 ## ServiceNow Otto panel
 

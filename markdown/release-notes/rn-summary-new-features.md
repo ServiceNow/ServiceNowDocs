@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/release-notes/rn-summary-new-fe
 release: brazil
 topic_type: reference
 last_updated: "2026-10-08"
-reading_time_minutes: 151
+reading_time_minutes: 152
 breadcrumb: [Release notes summaries for Brazil features, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
@@ -173,7 +173,7 @@ Check the status of the Security Analyzer agent which determines security event 
 
     -   Associate AI systems with business applications whether you use Enterprise Architecture Workspace. The new Enterprise Architecture for AICT plugin stores these associations in its own data model and installs automatically as a dependency of AI Control Tower Core \(app-ai-governance\) application.
     -   Select business applications while creating an AI system in AI Control Tower. View AI adoption across your business application portfolio on the new **Business portfolio** tab in the AI Control Tower workspace homepage.
-For more information, see &gt;.
+For more information, see [AI Control Tower integration with Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-aict.md)&gt;.
 
 -   **[Cost types and sub-vendor rates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mc-ai-cost-types-and-sub-vendor-rates.md)**
 
@@ -315,7 +315,7 @@ After upgrading to version 23.0.2, AI Risk and Compliance analysts reviewing ass
 
 Business applications can be mapped directly to AI system records during intake, without requiring Enterprise Architecture Workspace to be installed. After upgrading AI Control Tower to version 9.0.3 and AI Risk and Compliance to version 23.1.1, Enterprise Architecture for AICT \(com.sn\_ea\_aict\) decouples the AI system-to-business-application association from Enterprise Architecture Workspace. The plugin installs automatically with AI Control Tower Core at the required version.
 
-**Warning:** If AI Risk and Compliance, EA Workspace, and AI Control Tower Core are upgraded out of sync, business application associations may be lost or unavailable. For more information, see [Enterprise Architecture for AICT plugin installation and upgrade considerations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-ea-common-upgrade-considerations.md), Enterprise Architecture for AICT plugin, and [Configuring AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/configuring-ai-risk-and-compliance.md).
+**Warning:** If AI Risk and Compliance, EA Workspace, and AI Control Tower Core are upgraded out of sync, business application associations may be lost or unavailable. For more information, see [Enterprise Architecture for AICT plugin installation and upgrade considerations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-ea-common-upgrade-considerations.md), [Enterprise Architecture for AICT plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-aict.md), and [Configuring AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/governance-risk-compliance/configuring-ai-risk-and-compliance.md).
 
 
 </td></tr><tr><td>
@@ -346,7 +346,7 @@ App Engine Management Center
 
 </td><td>
 
--   ****
+-   **[Assign Developer Sandboxes packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/assign-dsb-packs-aemc.md)**
 
 Assign Developer Sandboxes packs inside AEMC. You can see how many free, purchased, and unassigned sandbox packs you have entitlements for. You can also see which instances already have sandbox packs assigned to them and whether the packs include free sandboxes.
 
@@ -357,23 +357,23 @@ Application Runtime Policy
 
 </td><td>
 
--   **Tracking and enforcing modes**
+-   **[Tracking and enforcing modes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/arp-modes.md)**
 
 Activate Application Runtime Policy for an application in development in tracking or enforcing mode. Tracking mode automatically approved generated policies, while enforcing mode requires review and approval for each generated policy.
 
--   **Automatic network policy generation**
+-   **[Automatic network policy generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/review-network-policy-arp.md)**
 
 Review and approve or modify network policies that are automatically generated as you exercise application functionality.
 
--   **Cross-scope privilege policy generation**
+-   **[Cross-scope privilege policy generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/review-cross-scope-policy-arp.md)**
 
 Review and approve or modify cross-scope privilege policies that are automatically generated as you exercise application functionality.
 
--   **Quota configuration generation**
+-   **[Quota configuration generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/arp-quota-configurations.md)**
 
 Review or modify the default application quota configurations generated by Application Runtime Policy, or create additional default quota configurations. Default quota configurations define limits on the resources that an application can use after installation.
 
--   **Segment policy creation**
+-   **[Segment policy creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/create-segment-policy-arp.md)**
 
 Create segment policies to enable broad categories of access when out-of-scope resources called at runtime can't be known during application development.
 
@@ -460,7 +460,7 @@ Automation Center
 
 </td><td>
 
--   **Migration Accelerator now supports Automation Anywhere**
+-   **[Migration Accelerator now supports Automation Anywhere](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/migrating-automations-from-uipath.md)**
 
 Migration Accelerator enables the migration of Automation Anywhere automations along with Blue Prism and UiPath automations into ServiceNow RPA Hub, optimizing costs and minimizing effort.
 
@@ -506,26 +506,26 @@ Build Agent and Autonomous Engineer
 
 </td><td>
 
--   **New model support**
+-   **[New model support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ba-models-versions.md)**
 
 Build Agent and Autonomous Engineer support the Google Gemini 3.7 Flash model in the October 2026 release.
 
--   **Additional metadata support**
+-   **[Additional metadata support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/build-agent-supported-metadata.md)**
 
 The following metadata are now supported in Build Agent and Autonomous Engineer:
 
     -   Assessments
     -   Database views
     -   Sys wizard answers
--   **Support for SPP**
+-   **[Support for SPP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/build-agent-limitations.md)**
 
 Build Agent and Autonomous Engineer now support regulated markets through the ServiceNow Protected Platform for Australia, the EU, and Singapore, a cloud offering that stores and processes all customer data in-country on Microsoft Azure infrastructure.
 
--   **Automatic retry for stopped work items**
+-   **[Automatic retry for stopped work items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ae-resiliency.md)**
 
 Reduce manual intervention during plan execution by automatically retrying work items that stop due to transient failures. Autonomous Engineer retries a stopped work item up to three times before requiring that you take action, resolving intermittent failures without interrupting the execution flow.
 
--   **Expanded support for Playbooks**
+-   **[Expanded support for Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ba-playbooks.md)**
 
 Build Agent and Autonomous Engineer now include the following updates to Playbook support:
 
@@ -537,7 +537,7 @@ Build Agent and Autonomous Engineer now include the following updates to Playboo
     -   Image attachment support for Image to playbook generation
     -   Configure golden path settings and define the ideal path through decision nodes
 
--   **Generate implementations from specifications with Autonomous Engineer**
+-   **[Generate implementations from specifications with Autonomous Engineer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/autonomous-engineer.md)**
 
 Use Autonomous Engineer, powered by Build Agent, to generate a complete implementation plan from your requirements.
 
@@ -548,52 +548,52 @@ Use Autonomous Engineer, powered by Build Agent, to generate a complete implemen
     5.  When the plan is complete, an update set is generated for deployment to your UAT or production environment.
 Autonomous Engineer uses agent packs to give background agents product-specific domain knowledge during execution. The Custom app development agent pack is available in this release, which gives Autonomous Engineer awareness of platform tables, roles, and configuration patterns specific to custom app development.
 
--   **Automatic test generation from plans**
+-   **[Automatic test generation from plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/build-agent-testing.md)**
 
 When you use Autonomous Engineer to plan an application, Test Agent automatically generates Automated Test Framework tests for each work item and acceptance criteria that can be validated through automated testing. Generated tests are executed immediately, and Test Agent identifies and resolves any failures.
 
--   **New model support**
+-   **[New model support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ba-models-versions.md)**
 
 Build Agent and Autonomous Engineer now support the following models:
 
     -   Azure OpenAI GPT 5.6 Sol
     -   Anthropic Claude on AWS Opus 5
--   **Test suite authoring and execution**
+-   **[Test suite authoring and execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/build-agent-testing.md)**
 
 Create and run ATF test suites from Build Agent and Autonomous Engineer. Group multiple tests under a single suite and execute the suite to run regression testing without selecting individual tests. Execution status and any errors are reported in the chat panel.
 
--   **ATF list step support**
+-   **[ATF list step support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/build-agent-testing.md)**
 
 Test Agent can now generate ATF tests that use list and related list test steps, including validate related list visibility and apply filter to list. List step support extends test coverage beyond form-based interactions to include the full list view experience on the ServiceNow AI Platform.
 
--   **Support for Box MCP server**
+-   **[Support for Box MCP server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/accelerate-design-to-development-with-figma-mcp-server.md)**
 
 Build Agent now supports integrations with Box MCP server.
 
--   **Domain separation for ServiceNow Fluent**
+-   **[Domain separation for ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ba-domain-separation.md)**
 
 ServiceNow Fluent, which Build Agent uses to create apps, now supports domain separation on records and APIs. You can set the **sys\_domain** field and use **sys\_override** fields when working with records in domain-separated environments, so ServiceNow Fluent operates correctly across domains in your instance.
 
--   **Additional metadata support**
+-   **[Additional metadata support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/build-agent-supported-metadata.md)**
 
 The following metadata are now supported in Build Agent and Autonomous Engineer:
 
     -   Service Catalog dependent question support
     -   Transition condition
     -   UI style
--   **Right-click to configure ServiceNow AI Platform metadata**
+-   **[Right-click to configure ServiceNow AI Platform metadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/access-build-agent.md)**
 
 When you right-click a record or artifact and select **Configure**, the metadata editor now opens in ServiceNow Studio.
 
--   **Build Agent \(Trial\) automatically installed**
+-   **[Build Agent \(Trial\) automatically installed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/exploring-build-agent.md)**
 
 Build Agent \(Trial\) is available by default on all instances, without requiring installation.
 
--   **Automatic upgrades for Build Agent**
+-   **[Automatic upgrades for Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/install-build-agent.md)**
 
 Build Agent now supports automatic upgrades through the ServiceNow Store. Instances running Australia Patch 5 and later releases or Zurich Patch 12 and later releases that have Build Agent installed receive automatic upgrades when a new version is published.
 
--   **Playbook support updates**
+-   **[Playbook support updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ba-update-sets.md)**
 
 Build Agent includes the following updates to Playbook support:
 
@@ -989,11 +989,11 @@ Collect metadata from your data sources without hosting and maintaining a MID Se
 
 Document your data assets with rich text formatting and embedded images. Use bold, italics, lists, and links to format content, and embed images directly into catalog fields and resize them as needed.
 
--   **SAP HANA metadata collector**
+-   **[SAP HANA metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/sap-hana-metadata-collector.md)**
 
 Automatically collect and synchronize metadata from SAP HANA using metadata collectors.
 
--   **Salesforce metadata collector**
+-   **[Salesforce metadata collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/salesforce-metadata-collector.md)**
 
 Automatically collect and synchronize metadata from Salesforce using metadata collectors.
 
@@ -1019,18 +1019,18 @@ Data Management for CSM
 
 </td><td>
 
--   **View Customer contracts and entitlements for business organizations and edit entitlement usage**
+-   **[View Customer contracts and entitlements for business organizations and edit entitlement usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/configure-data-model-roles.md)**
 
 Location support agents \[sn\_bus\_loc.svc\_location\_support\_agent\] can view customer contract records \(Business Organization as a customer\) and their associated entitlements, and edit entitlement usage when either of the following is true:
 
     -   The channel partner is one of their organizations, and a buyer organization is specified.
     -   The buyer organization is one of the organizations that they manage.
 
--   **Restricted Customer Access now controls visibility**
+-   **[Restricted Customer Access now controls visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/associate-customers-or-bus-loc-to-so.md)**
 
 Extended the organization customer criteria for a business organization with a new **Restricted Customer Access** check box that controls visibility of customer records. When enabled, business organization staff can view only the customer and consumer records that satisfy the configured criteria at their business organization. This applies to both service and sales personas. Upgrade customers must run the one-time scheduled job, **Remove Legacy roles from Loc Mgr Contrib** to enable restricted customer access configuration.
 
--   **New business organization-scoped contributor personas**
+-   **[New business organization-scoped contributor personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-contributor-user-roles.md)**
 
 Added two new roles, Business Org Account Contributor \[sn\_bus\_loc.business\_org\_account\_contributor\] and Business Org Consumer Contributor \[sn\_bus\_loc.business\_org\_account\_contributor\] that grant location-scoped equivalents of the existing Account Contributor and Consumer Contributor roles. With Business Org Account Contributor role, you can create cases for accounts supported by your business organization. You can also track and manage cases created by you for the accounts associated with your organization. With Business Org Consumer Contributor role, you can create cases for consumers or households supported by your business organization. You can also track and manage cases created by you for the consumers or households associated with your organization.
 
@@ -1038,19 +1038,19 @@ Added two new roles, Business Org Account Contributor \[sn\_bus\_loc.business\_o
 
 Extended proactive customer service and major case management to business organizations, alongside the existing support for accounts and consumers. When a network alert affects install base items belonging to a business organization, the system can propose a major case and build a recipient list of the affected business organizations. If the major case manager accepts the proposal, they can create a child case for each affected business organization, so all affected business organizations are tracked and updated under a single major case. Business Organization staff can track cases from Business Organization Support Portal.
 
--   **Billing account address**
+-   **[Billing account address](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/associate-location-with-billing-account.md)**
 
 Associate one or more locations with a billing account using the new Billing Account Address \[sn\_billing\_account\_address\] table. Each address record captures the address type, identifies the primary address, and tracks whether the address is active or inactive.
 
--   **Billing account payment profile**
+-   **[Billing account payment profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/add-payment-profile-to-billing-account.md)**
 
 Define payment information for a billing account using the new Billing Account Payment Profile \[sn\_billing\_account\_payment\_profile\] table, which captures the payment method and related payment details for the account.
 
--   **Payment responsibility on billing accounts**
+-   **[Payment responsibility on billing accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/add-payment-profile-to-billing-account.md)**
 
 Specify who pays for a billing account with the new Paying party and Paying billing account fields, supporting self, parent, and designated-account payment relationships.
 
--   **Billing schedules on billing accounts**
+-   **[Billing schedules on billing accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/set-up-billing-schedule-for-billing-account.md)**
 
 Define when billing occurs for a billing account with the new Billing Schedule field, which links the account to a platform schedule and its schedule entry records. The new billing account schedule viewer \[sn\_billing\_account.schedule\_viewer\] and writer \[sn\_billing\_account.schedule\_writer\] roles control read and write access to these schedules.
 
@@ -1084,7 +1084,7 @@ Developer Sandboxes
 
 </td><td>
 
--   **Fully automated setup with self-serve license assignment**
+-   **[Fully automated setup with self-serve license assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/dsb-license-allocation-about.md)**
 
 Assign purchased sandbox packs to non-production instances directly from the **Developer Sandbox Management** tab in App Engine Management Center \(AEMC\), without opening a support case. Install the new licensing plugin on your license management instance, install the sandbox plugin on your non-production instances, and use the license management UI on the controller instance to distribute packs. Each pack provides 10 sandboxes, and you can assign a maximum of 3 packs to a single non-production instance.
 
@@ -1092,18 +1092,18 @@ In support, the following have been added when the new com.glide.dsb.licensing p
 
     -   A new instance allocation table \[sys\_dsb\_instance\_allocation\] is now installed with Developer Sandboxes.
     -   The new sandbox admin role \(`sn_dsb_commons.sandbox_license_admin`\) lets users distribute sandbox packs to non-production instances without full admin access.
--   **Four free sandbox licenses**
+-   **[Four free sandbox licenses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/dev-sbx-entitlements.md)**
 
 All instances now get four free sandboxes per non-production instance to try out Developer Sandboxes. You can use the four free licenses on the same instance as purchased sandboxes, for a maximum of 34 sandboxes on an instance.
 
 
--   **Sandbox pooling for faster provisioning**
+-   **[Sandbox pooling for faster provisioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/allocating-sandboxes.md)**
 
 Allocate sandboxes faster using pre-pooled instances. When you allocate a sandbox, you claim one from a pre-created pool rather than waiting for a new instance to be provisioned. Sandbox URLs are randomly generated strings and no longer match the sandbox display name. The display name remains configurable, but you can't change the URL.
 
 **Note:** Because pooled sandboxes are precreated, they may be out of date from the current base instance state, but are refreshed every 24 hours.
 
--   **Automatic update set sources**
+-   **[Automatic update set sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/dsb-update-sets.md)**
 
 Transfer update sets between production and sandbox instances without manual configuration. When a sandbox is created, an update set source pointing to the sandbox is automatically created on the base instance, and an update set source pointing to production is automatically created on the sandbox. When a sandbox is retired, both update set sources are automatically removed.
 
@@ -1452,34 +1452,34 @@ Enterprise Architecture
 
 </td><td>
 
--   **MCP for Enterprise Architecture**
+-   **[MCP for Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/exploring-ea-mcp-server.md)**
 
 Query business application insights, capability mappings, architectural relationships, and rationalization data from your AI assistant, without opening your ServiceNow instance.
 
--   **Enterprise Architecture for AICT plugin**
+-   **[Enterprise Architecture for AICT plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-aict.md)**
 
     -   Associate AI systems with business applications whether you use Enterprise Architecture Workspace. The new Enterprise Architecture for AICT plugin stores these associations in its own data model and installs automatically as a dependency of AI Control Tower Core \(app-ai-governance\) application.
     -   Select business applications while creating an AI system in AI Control Tower. View AI adoption across your business application portfolio on the new **Business portfolio** tab in the AI Control Tower workspace homepage.
 Before you upgrade, review [Enterprise Architecture for AICT plugin installation and upgrade considerations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/aict-ea-common-upgrade-considerations.md).
 
--   **Migrate BA Product Model Map from EA Workspace job**
+-   **[Migrate BA Product Model Map from EA Workspace job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-run-migrate-ba-product-model-map-job.md)**
 
 Use the new **Migrate BA Product Model Map from EA Workspace** scheduled job to move existing AI system-to-business application associations to the Enterprise Architecture for AICT plugin's data model. If you activated the AI Control Tower integration on an Enterprise Architecture Workspace version earlier than 10.1.3, run this job after you upgrade.
 
 
--   ****
+-   **[Technical debt settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-setup-tech-debt.md)**
 
 Control which server and reason criteria the **Populate TRM technical debts in the EA Workspace** scheduled job uses to create Technology Reference Model \(TRM\) technical debt records. Choose whether the job creates one technical debt record per server or a single record per software product regardless of how many servers it runs on, and select which of the standard reasons the job evaluates.
 
--   **Persistent technical debt states**
+-   **[Persistent technical debt states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-manage-trm-technical-debt.md)**
 
 Technical debt records now persist across scheduled job runs instead of being deleted and re-created. Each record moves between **Active**, **Resolved**, and **Archived** states as the underlying discovered technology or technical debt configuration changes, preserving history for reporting and trend analysis.
 
--   ****
+-   **[Governing TRM product fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-trm-governing-fields.md)**
 
 View the TRM product and product lifecycle that govern a discovered technology's obsolescence status directly on the TPM Technology Lifecycle record. The **Governing TRM Product** and **Governing TRM Product Lifecycle** fields update automatically as matches change on later scheduled job runs.
 
--   ****
+-   **[Run a scheduled job to update the TCO score range](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-run-job-update-score-range-indicator-score.md)**
 
 Starting with this release, the **Business applications by TCO score** widget on the **Portfolio TCO** tab reads the TCO score band from a **Score range** field on the **Indicator Score** record instead of from a database view. If you're upgrading from a previous release, your existing **Indicator Score** records don't have this field populated, and the widget shows **\(empty\)** as the X-axis label instead of the TCO score bands. Run the new **Update Score Range in Indicator Score Table** scheduled job to populate the field on your existing records. This is a one-time, on-demand job that's inactive by default. New installations aren't affected, because the field is populated automatically as indicator scores are generated.
 
@@ -1597,19 +1597,19 @@ Flows, subflows, and actions
 
 </td><td>
 
--   ****
+-   **[Enhanced Workflow Studio flow designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/enhanced-workflow-studio-flow-designer.md)**
 
 Create and manage flows from the enhanced Workflow Studio flow designer.
 
--   ****
+-   **[Flow troubleshooting agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/flow-troubleshooting-agent.md)**
 
 Diagnose and resolve flow errors from a conversation. Resume a flow the point of error, analyze flow steps, identify conflicts with business logic, and receive targeted recommendations to troubleshoot your flows.
 
--   **Flow input modification during debugging**
+-   **[Flow input modification during debugging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/flow-debugger.md)**
 
 Modify input configuration values while debugging a flow. Determine whether specific input values cause a flow to run to completion or cause errors.
 
--   ****
+-   **[Publish a system event for an unexpected state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/publish-a-system-event-when-a-flow-has-an-unexpected-state.md)**
 
 Publish a system event when a flow enters the error, cancelled, or presumed interrupted states. Use the default event name or specify a custom event name.
 
@@ -1943,11 +1943,11 @@ Intelligent approvals
 
 </td><td>
 
--   **Create an intelligent approval from a KB article**
+-   **[Create an intelligent approval from a KB article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/create-an-intelligent-approval-from-a-kb-article.md)**
 
 Use a KB article to create an intelligent approval. Have the system monitor the current state of the KB article and deactivate the intelligent approval when it is out of date or retired.
 
--   **Create an intelligent approval from a conversation**
+-   **[Create an intelligent approval from a conversation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/create-an-intelligent-approval.md)**
 
 Create an intelligent approval from the ServiceNow Otto® chat interface.
 
@@ -2252,7 +2252,7 @@ Playbooks
 
 </td><td>
 
--   **Ideal path for a playbookIdeal path for a playbook**
+-   **[Ideal path for a playbookIdeal path for a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/ideal-path-for-playbook.md)**
 
 Use ideal path to identify the intended execution path or view upcoming work hidden behind conditions. Ideal Path enables playbook authors to define and visualize the preferred process route. The end users of a playbook gets runtime visibility into the expected workflow path, improving process clarity, usability, and observability.
 
@@ -2341,7 +2341,7 @@ System-generated lines are marked with the System generated \[**system\_generate
 
 Configure the rounding precision applied to non-currency pricing fields, such as margin percentage, to match your organization's rounding requirements. The default precision is 4 decimal digits. To use a different precision, set the **sn\_csm\_pricing.rounding.non\_currency\_max\_precision\_digits** property in the system properties. Viewing or setting this property requires the Price List Administrator \(sn\_csm\_pricing.pricelist\_administrator\) role.
 
--   **Floor and ceiling price in the pricing response**
+-   **[Floor and ceiling price in the pricing response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/sales_crm_pricing-POST-compute-price.md)**
 
 Access floor and ceiling pricing values directly in pricing responses and persist them on custom quote or order line fields for downstream business processes and validations. To include these values in the response, the include\_floor\_ceiling pricing request setting must be set to true. When the setting is absent or false, floor and ceiling price are omitted from the response. If pricing\_elements setting isn't specified in the request, the PRICE element is included by default.
 
@@ -2745,11 +2745,11 @@ Self-service and omnichannel engagement for CSM
 
 </td><td>
 
--   ****
+-   **[View work orders on the Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/workorders-consumerportal.md)**
 
 View and track work orders directly in the Consumer Portal \(B2C\) using the new Work Orders page.
 
--   ****
+-   **[Enable WebRTC for voice calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/portal-phone-widget.md)**
 
 Customers can now make voice calls directly from portal pages or the Engagement Messenger. Call context stays intact as customers navigate between pages. These calls connect to AI Voice Agents to deliver conversational voice experiences without relying on contact center platforms.
 
@@ -2924,7 +2924,7 @@ ServiceNow Lux Lab for VS Code
 
 </td><td>
 
--   ****
+-   **[Create a collection page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/create-page-collection-servicenow-ai-experience-lab-for-vs-code.md)**
 
 Support multiple page variations on the same route by creating collection pages directly from the command palette or the file explorer. Show different content to different users based on role without maintaining a separate page and URL for each audience.
 
@@ -2958,38 +2958,38 @@ ServiceNow Otto for Virtual Agent
 
 </td><td>
 
--   **Cancel live agent request**
+-   **[Cancel live agent request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/nava-integrated-chat.md)**
 
 In premium chat, select the **Cancel** button on the banner while a live agent request is in process to cancel the request. After the request is cancelled or the live agent connects to the chat, the banner disappears from chat.
 
--   ****
+-   **[Configure voice settings for a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/manage-chat-voice-exp.md)**
 
 Turn voice dictation on or off for an assistant on the **Voice experience** page. For ServiceNow Otto for Virtual Agent assistants, voice dictation is only available for premium chat. For ServiceNow Otto panel – Platform assistant, voice dictation is available for all chat experiences.
 
-**Note:** Voice dictation was previously known as voice input, which was enabled from within .
+**Note:** Voice dictation was previously known as voice input, which was enabled from within [Enable additional chat features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/additional-chat-features.md).
 
--   ****
+-   **[Display your assistant on Platform or ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/display-nap-assistant.md)**
 
 For eligible new customers, premium chat is the default and the only available chat experience. If the assistant uses the Now LLM provider, the premium chat option isn't available.
 
--   **Non-English language recognition for voice input**
+-   **[Non-English language recognition for voice input](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/nava-integrated-chat.md)**
 
 When you speak in the default language selected in your profile, even if this language is non-English, your speech is transcribed into text in that same language.
 
--   ****
+-   **[Testing assistant conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/evaluations-ad.md)**
 
 Measure the quality of your conversational assistant at scale with automated evaluations in Assistant Designer. Choose the metrics that define success for you, such as conversation success, conversation fluency, faithfulness, skill selection accuracy, and turn count. You can run them against your own test data set and ground truth.
 
 
--   ****
+-   **[Display your assistant on Platform or ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/display-nap-assistant.md)**
 
 For eligible new customers, premium chat is the default and the only available chat experience. If the assistant uses the Now LLM Service provider, the premium chat option isn't available.
 
--   **Embed on third-party sites for enhanced chat**
+-   **[Embed on third-party sites for enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/add-portable-va-client-website.md)**
 
 Embed the chat widget for enhanced chat on third-party websites.
 
--   **View all topics on the premium chat greeting screen**
+-   **[View all topics on the premium chat greeting screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/nava-integrated-chat.md)**
 
 Select **View all topics** on the chat’s greeting screen to show all promoted topics in premium chat.
 
@@ -3053,20 +3053,20 @@ ServiceNow Studio
 
 </td><td>
 
--   ****
+-   **[Summarize the contents of an app in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/summarize-an-app-in-servicenow-studio.md)**
 
 ServiceNow Studio supports the Delegated Admin role for ServiceNow Otto app summary generation.
 
 
--   ****
+-   **[ServiceNow Studio quick start](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-quick-start.md)**
 
 Learn ServiceNow Studio efficiently with an updated course of quick start topics.
 
--   ****
+-   **[ServiceNow Studio user interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-user-interface.md)**
 
 Personalize the new, agentic-first ServiceNow Studio user interface by choosing which components you want to use. Use the pro option with all features, vibe mode with minimal components, or custom, to choose your own.
 
--   ****
+-   **[Autonomous Engineer in Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ba-autonomous-engineer.md)**
 
 ServiceNow Studio supports Build Agent spec mode, which generates a complete implementation plan from your requirements.
 
@@ -3295,11 +3295,11 @@ Stream Connect
 
 </td><td>
 
--   ****
+-   **[Stream Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/stream-producer.md)**
 
 Automatically stream changes from ServiceNow tables to Kafka topics with Stream Producer. Stream Producer uses change data capture \(CDC\) technology to capture inserts, updates, and deletes on selected tables. The captured changes are formatted as messages and sent to a Kafka topic, enabling real-time data synchronization with external applications.
 
--   **Stream Producer schemas**
+-   **[Stream Producer schemas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/schema-management.md)**
 
 Stream Producer supports the Avro serialization format for message payloads. When using an Avro format, Stream Producer uses the selected table's auto-generated schema to convert CDC payloads to Avro before sending them to Kafka.
 
@@ -3307,7 +3307,7 @@ Stream Producer supports the Avro serialization format for message payloads. Whe
 
 Authenticate using OAUTHBEARER as part of the SASL credential framework for Stream Connect message replication. OAUTHBEARER authentication lets Stream Connect administrators meet customer requirements, improve security, and align with existing OAuth capabilities on the platform, enabling seamless integration with Kafka environments that require advanced authentication.
 
--   **Stream Connect Dashboard**
+-   **[Stream Connect Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/stream-connect-dashboard.md)**
 
 Use the Stream Connect Dashboard to view data for Stream Producers, including the number of messages and bytes produced, the rate of production, and the number of messages still pending. Monitor and analyze Stream Producer performance with the Stream Producer CDC Statistics section on each Stream Producer's page. The Stream Connect Dashboard is available from the ServiceNow Store.
 
@@ -3569,7 +3569,7 @@ Workforce Optimization for CSM
 
 </td><td>
 
--   **Move agents between shifts and schedules in Shift Planning**
+-   **[Move agents between shifts and schedules in Shift Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/move-agents-between-shifts-wfo-cs.md)**
 
 As a shift planning admin \[sn\_shift\_planning.admin\], you can move one or more agents from one shift to another, within the same published schedule or to a different published schedule. You no longer need to unpublish and republish the schedule. Each move has a start and end date, and you can configure for the agents to automatically revert to the original shift on the end date if required. You can move agents in bulk, using the same dates for all of them or separate dates for each. The system validates each move, and a move history records the changes.
 
@@ -3580,19 +3580,19 @@ Zero Copy Connector for ERP
 
 </td><td>
 
--   **Support for Oracle E-Business Suite**
+-   **[Support for Oracle E-Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-canvas-oracle-rest-support.md)**
 
 Select Oracle E-Business Suite \(12.2 or later\) as the ERP software when you configure an ERP system record. Oracle E-Business Suite connects through REST.
 
--   **Use Oracle EBS ISG services**
+-   **[Use Oracle EBS ISG services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-canvas-create-an-oracle-ebs-connection.md)**
 
 Add Oracle E-Business Suite Integrated SOA Gateway \(ISG\) services to a model using their Web Application Description Language \(WADL\) definitions. When you create a model entity for a WADL operation, Zero Copy Connector for ERP generates its fields from the operation's WADL and XSD definitions.
 
--   **AI search for WADL service endpoints**
+-   **[AI search for WADL service endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-canvas-oracle-ebs-wadl-support.md)**
 
 Search for endpoints of discovered WADL services from the interface using AI Search.
 
--   **Row count for the scriptable API**
+-   **[Row count for the scriptable API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-api-getrowcount.md)**
 
 Call the `getRowCount()` method on the `API` class to return the total number of rows that a query matches without retrieving the records. Configure the query as you would for `execute()`.
 
@@ -3605,13 +3605,13 @@ Zero Copy Connectors
 
 </td><td>
 
--   ****
+-   **[REST connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/rest-connectors.md)**
 
 Retrieve real-time metadata and data from REST-enabled systems without copying or duplicating the data. This release adds REST connectors for Oracle HCM \(Discovery\) and Acumatica, built on a generic metadata connector framework that supports filter, limit, and groupBy pushdown operations.
 
 -   **Personal authentication for Databricks and Snowflake**
 
-Authenticate to  and  using your own credentials instead of a shared service account, so that access is individually authenticated at the source system.
+Authenticate to [Databricks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/databricks-zcc.md) and [Snowflake](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/snowflake-zcc.md) using your own credentials instead of a shared service account, so that access is individually authenticated at the source system.
 
 
 </td></tr><tr><td>

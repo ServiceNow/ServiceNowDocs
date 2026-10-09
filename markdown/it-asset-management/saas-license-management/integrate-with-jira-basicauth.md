@@ -149,15 +149,15 @@ If you’re using Software Asset Workspace, the option to create the Jira integr
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d211247e528">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d210746e528">
 
 Interface
 
-</th><th align="left" id="d211247e531">
+</th><th align="left" id="d210746e531">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d211247e537">
+</th></tr></thead><tbody><tr><td id="d210746e537">
 
 **Core UI**
 
@@ -168,7 +168,7 @@ Action
 3.  Select **Jira Integration Profile**.
 
 
-</td></tr><tr><td id="d211247e579">
+</td></tr><tr><td id="d210746e579">
 
 **Software Asset Workspace**
 

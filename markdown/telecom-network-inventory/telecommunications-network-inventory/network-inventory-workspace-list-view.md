@@ -40,7 +40,7 @@ Sites
 
 </td><td>
 
-View listings of network sites and data centers. Update or create site details. To learn more about network site, see [a42bd03443c35f2a64b41ccb9e132de81a9150ce.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/define-tni-sites.md). To learn more about data centers, see [Define the datacenter details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/define-data-center-details.md).
+View listings of network sites and data centers. Update or create site details. To learn more about network site, see [7364ede3b32e97bcf67fb8e3c0ca954bf9687fdf.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/define-tni-sites.md). To learn more about data centers, see [Define the datacenter details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/define-data-center-details.md).
 
 </td></tr><tr><td>
 

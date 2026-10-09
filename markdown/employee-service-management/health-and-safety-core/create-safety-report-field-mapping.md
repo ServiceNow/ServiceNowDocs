@@ -55,15 +55,15 @@ The report field mapping enables you to do the following:
 
     **Tip:** In the PDF preview, select a fillable field to highlight the corresponding field in the Field Mappings list. Alternatively, select a field in the Field Mappings list and it’s highlighted on the PDF preview.
 
-<table id="choicetable_u34_hz2_2bc"><thead><tr><th align="left" id="d71727e213">
+<table id="choicetable_u34_hz2_2bc"><thead><tr><th align="left" id="d71832e213">
 
 Option
 
-</th><th align="left" id="d71727e216">
+</th><th align="left" id="d71832e216">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d71727e222">
+</th></tr></thead><tbody><tr><td id="d71832e222">
 
 **Using the Health and Safety field list**
 
@@ -73,7 +73,7 @@ In the list available with each field name, select a Health and Safety field to 
 
 However, dot-walk fields are also available to select from the field mapping list to map further reference fields. For information on dot-walking, see [Dot-walking to data in related tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/c_DotWalking.md).
 
-</td></tr><tr><td id="d71727e248">
+</td></tr><tr><td id="d71832e248">
 
 **Using a custom script**
 

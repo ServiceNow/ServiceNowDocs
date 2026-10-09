@@ -62,7 +62,7 @@ A certificate request is considered a duplicate if there is another certificate 
 
 4.  The following options may occur.
 
-<table id="choicetable_ccx_lnc_nqb"><tbody><tr><td id="d78916e202">
+<table id="choicetable_ccx_lnc_nqb"><tbody><tr><td id="d79160e202">
 
 **If a single routing policy matches**
 
@@ -73,7 +73,7 @@ Verify the following conditions: -   Validate the subject common name using the 
 -   Check for duplicate Certificate Request is allowed flag in the Routing Policy table.
 
 
-</td></tr><tr><td id="d78916e223">
+</td></tr><tr><td id="d79160e223">
 
 **If multiple routing policies are eligible**
 
@@ -81,7 +81,7 @@ Verify the following conditions: -   Validate the subject common name using the 
 
 The task is assigned to the default approver group.
 
-</td></tr><tr><td id="d78916e232">
+</td></tr><tr><td id="d79160e232">
 
 **If there is no routing policy found**
 
@@ -89,7 +89,7 @@ The task is assigned to the default approver group.
 
 The task is assigned to the default approver group.
 
-</td></tr><tr><td id="d78916e241">
+</td></tr><tr><td id="d79160e241">
 
 **If single policy matches and approval needed flag is true**
 

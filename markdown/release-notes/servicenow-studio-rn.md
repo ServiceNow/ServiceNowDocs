@@ -20,7 +20,7 @@ The ServiceNow® ServiceNow Studio application provides a unified experience for
 -   Access low-code builders available in the ServiceNow AI Platform, including Table Builder and flows in Workflow Studio, alongside other development tools.
 -   Package changes for deployment using update sets, pipelines, or the Application Repository without leaving ServiceNow Studio.
 
-See  for more information.
+See [ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-landing.md) for more information.
 
 ## Activation and other requirements
 
@@ -37,14 +37,14 @@ ServiceNow Studio was enhanced and updated in the October release with updated t
 
 ### What's new
 
--   ****
+-   **[Summarize the contents of an app in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/summarize-an-app-in-servicenow-studio.md)**
 
     ServiceNow Studio supports the Delegated Admin role for ServiceNow Otto app summary generation.
 
 
 ### What's changed
 
--   ****
+-   **[Managing application and record changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/managing-application-and-record-changes.md)**
 
     Update sets and changes linked to source control both display in the Changes tab, with clear tracking paths for both options and support for simultaneous update set and source control use.
 
@@ -62,26 +62,26 @@ ServiceNow Studio was enhanced and updated in the September release with an agen
 
 ### What's new
 
--   ****
+-   **[ServiceNow Studio quick start](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-quick-start.md)**
 
     Learn ServiceNow Studio efficiently with an updated course of quick start topics.
 
--   ****
+-   **[ServiceNow Studio user interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-user-interface.md)**
 
     Personalize the new, agentic-first ServiceNow Studio user interface by choosing which components you want to use. Use the pro option with all features, vibe mode with minimal components, or custom, to choose your own.
 
--   ****
+-   **[Autonomous Engineer in Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ba-autonomous-engineer.md)**
 
     ServiceNow Studio supports Build Agent spec mode, which generates a complete implementation plan from your requirements.
 
 
 ### What's changed
 
--   ****
+-   **[ServiceNow Studio settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-settings.md)**
 
     ServiceNow Studio user preferences and settings have moved from the top right corner to the bottom left corner of the interface. View what's new in ServiceNow Studio, access command palette and keyboard shortcut options, and update preferences.
 
--   **App summary generation moves to an agentic architecture**
+-   **[App summary generation moves to an agentic architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/sns-exploring-now-assist-app-summarize.md)**
 
     ServiceNow Otto for app summary generation now uses an AI agent to generate application summaries. This change moves the App summary generation from a skill-based architecture to the AI agent orchestration model.
 
@@ -104,7 +104,7 @@ ServiceNow Studio was enhanced and updated in the September release with an agen
 
 -   **Tools tab**
 
-    The Tools tab has been removed from the ServiceNow Studio home page, with no replacement. For links to documentation for each development tool, see .
+    The Tools tab has been removed from the ServiceNow Studio home page, with no replacement. For links to documentation for each development tool, see [Integrated development tools for ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/integrated-development-tools.md).
 
 -   **Create menu**
 
@@ -119,6 +119,6 @@ ServiceNow Studio was enhanced and updated in the September release with an agen
 
 -   **Deprecated plugins**
 
-    Studio \(com.glide.dev-studio\): The new ServiceNow Studio \(sn\_sns\) is the replacement for this plugin. For more information, see .
+    Studio \(com.glide.dev-studio\): The new ServiceNow Studio \(sn\_sns\) is the replacement for this plugin. For more information, see [Exploring ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/exploring-servicenow-studio.md).
 
 

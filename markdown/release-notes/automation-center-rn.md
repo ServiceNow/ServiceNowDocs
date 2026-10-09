@@ -20,13 +20,13 @@ The ServiceNow® Automation Center application helps you govern your end-to-end,
 -   Measure the value of your automations with dashboards that track time saved, cost savings, and return on investment.
 -   Speed up delivery by standardizing how teams submit, review, and approve automation requests.
 
-See  for more information.
+See [Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/automation-center-landing-page.md) for more information.
 
 ## Activation and other requirements
 
 -   **Activation information**
 
-    Install the Automation Center application \(sn\_ac\) by requesting it from the ServiceNow® Store. The application includes demo data and installs related Automation Center Store applications and plugins if they aren't already installed. Installation requires the admin role. For more information, see .
+    Install the Automation Center application \(sn\_ac\) by requesting it from the ServiceNow® Store. The application includes demo data and installs related Automation Center Store applications and plugins if they aren't already installed. Installation requires the admin role. For more information, see [Install Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/install-automation-center.md).
 
 
 **Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/release-notes/build-automate-rn-landing.md)
@@ -37,7 +37,7 @@ Migration Accelerator now supports Automation Anywhere alongside Blue Prism and 
 
 ### What's new
 
--   **Migration Accelerator now supports Automation Anywhere**
+-   **[Migration Accelerator now supports Automation Anywhere](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/migrating-automations-from-uipath.md)**
 
     Migration Accelerator enables the migration of Automation Anywhere automations along with Blue Prism and UiPath automations into ServiceNow RPA Hub, optimizing costs and minimizing effort.
 

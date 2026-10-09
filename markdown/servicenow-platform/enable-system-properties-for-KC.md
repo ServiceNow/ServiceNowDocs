@@ -33,15 +33,15 @@ Role required: admin
 
 2.  Enable the following system properties by setting the parameter to **true**.
 
-<table id="choicetable_xcx_hpm_khc"><thead><tr><th align="left" id="d578826e134">
+<table id="choicetable_xcx_hpm_khc"><thead><tr><th align="left" id="d578608e134">
 
 System property
 
-</th><th align="left" id="d578826e137">
+</th><th align="left" id="d578608e137">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d578826e143">
+</th></tr></thead><tbody><tr><td id="d578608e143">
 
 **__sn\_km\_center.glide.knowman.enable__**
 
@@ -49,7 +49,7 @@ Description
 
 Provides access to the Knowledge Center and its features. It must be set to true to enable agents to access the plugin and use its features.
 
-</td></tr><tr><td id="d578826e156">
+</td></tr><tr><td id="d578608e156">
 
 **__sn\_km\_center.glide.knowman.ece.enable__**
 
@@ -57,7 +57,7 @@ Provides access to the Knowledge Center and its features. It must be set to true
 
 Governs access to the Knowledge Center Article Editor. If set to true, you get access to the enhanced editor capabilities. If set to false, the legacy TinyMCE editor remains available. As there are compatibility gaps between Article Editor and TinyMCE, you can choose based on your training and workflow requirements. Disabling this property also restricts access to article optimization features.
 
-</td></tr><tr><td id="d578826e170">
+</td></tr><tr><td id="d578608e170">
 
 **__sn\_km\_center.glide.knowman.redirect.enable__**
 
@@ -65,7 +65,7 @@ Governs access to the Knowledge Center Article Editor. If set to true, you get a
 
 Controls how links to the Knowledge Center behave. If set to true, all KC features are available in the updated interface. If set to false, users are redirected to the Core UI interface, which may be necessary for customizations incompatible with the updated interface. You can use KC features while retaining access to legacy forms for compatibility.
 
-</td></tr><tr><td id="d578826e189">
+</td></tr><tr><td id="d578608e189">
 
 **__sn\_km\_center.ao\_auto\_update.enabled__**
 
@@ -73,7 +73,7 @@ Controls how links to the Knowledge Center behave. If set to true, all KC featur
 
 Enables the auto-update feature for article optimization scans. When active, eligible multiple H1 tag and title relevancy findings can be auto-fixed from the Article Optimization dashboard. Active by default.
 
-</td></tr><tr><td id="d578826e200">
+</td></tr><tr><td id="d578608e200">
 
 **sn\_km\_gen\_ai.auto\_merge.enabled**
 
@@ -81,7 +81,7 @@ Enables the auto-update feature for article optimization scans. When active, eli
 
 Enables the auto-merge feature for potential duplicate articles. If this property is not enabled, users are taken to the existing potential duplicate experience.
 
-</td></tr><tr><td id="d578826e209">
+</td></tr><tr><td id="d578608e209">
 
 **sn\_km\_gen\_ai.auto\_merge.revert\_ttl\_days**
 
@@ -89,7 +89,7 @@ Enables the auto-merge feature for potential duplicate articles. If this propert
 
 Sets the default revert period, in days. After this period, automatically merged content and automatically updated content are no longer eligible for revert.
 
-</td></tr><tr><td id="d578826e218">
+</td></tr><tr><td id="d578608e218">
 
 **__sn\_km\_gen\_ai.auto\_merge.confidence\_threshold__**
 
@@ -97,7 +97,7 @@ Sets the default revert period, in days. After this period, automatically merged
 
 Sets the minimum confidence score, as a percentage, that a potential duplicate article group must meet to be eligible for automatic merge and publish. Groups with a confidence score less than this threshold are routed to manual review instead.
 
-</td></tr><tr><td id="d578826e228">
+</td></tr><tr><td id="d578608e228">
 
 **__sn\_km\_center.box\_integration\_enterprise\_id__**
 
@@ -105,7 +105,7 @@ Sets the minimum confidence score, as a percentage, that a potential duplicate a
 
 The Box Enterprise ID used for CCG \(Client Credentials Grant\) authentication in OAuthUtilBox. Find this in Box's Dev Console &gt; My Platform Apps &gt; \[App\] &gt; General Settings.
 
-</td></tr><tr><td id="d578826e238">
+</td></tr><tr><td id="d578608e238">
 
 **__sn\_km\_center.kb\_health\_score.enabled__**
 
@@ -113,7 +113,7 @@ The Box Enterprise ID used for CCG \(Client Credentials Grant\) authentication i
 
 Enables Article Health Score calculation for Knowledge Management.
 
-</td></tr><tr><td id="d578826e248">
+</td></tr><tr><td id="d578608e248">
 
 **__sn\_km\_center.reading\_ease.minimum\_score__**
 
@@ -121,7 +121,7 @@ Enables Article Health Score calculation for Knowledge Management.
 
 This is the minimum reading ease score value allowed before AO flags articles.
 
-</td></tr><tr><td id="d578826e259">
+</td></tr><tr><td id="d578608e259">
 
 **__sn\_km\_center.stale\_article\_threshold\_days__**
 
@@ -129,7 +129,7 @@ This is the minimum reading ease score value allowed before AO flags articles.
 
 Sets the number of days after publishing, at which an article should be highlighted as stale. Accepts values between 30 and 365; values outside this range fall back to the default of 365.
 
-</td></tr><tr><td id="d578826e272">
+</td></tr><tr><td id="d578608e272">
 
 **__sn\_km\_center.expiring\_article\_threshold\_days__**
 

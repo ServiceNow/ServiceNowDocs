@@ -7,7 +7,7 @@ release: brazil
 product: Audit Management
 classification: audit-management
 topic_type: reference
-last_updated: "2026-10-08"
+last_updated: "2026-10-09"
 reading_time_minutes: 7
 breadcrumb: [Manually create issues, Audit issues and remediation, Audit Management overview, Audit Management, Governance, Risk, and Compliance]
 ---

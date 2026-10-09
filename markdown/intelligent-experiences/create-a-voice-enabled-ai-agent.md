@@ -241,7 +241,7 @@ Necessary steps to be followed by the AI agent while carrying out its role.
 
     2.  In the **Choose voice assistants** field, select the default assistant or a custom assistant.
 
-        Voice assistants are created in Assistant Designer. See [Create a voice assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/configure-voice-assistants.md) for more information.
+        Voice assistants are created in Assistant Designer. See  for more information.
 
     3.  Activate the AI agent by toggling the **Status**.
 

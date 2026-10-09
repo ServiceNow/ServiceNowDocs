@@ -15,7 +15,7 @@ breadcrumb: [ServiceNow Otto for Creator AI agents, ServiceNow Otto for Creator,
 
 This AI agent enables developers to create, edit, and deploy full-stack ServiceNow® applications to update sets that encompass both user interface and back-end components.
 
-**Important:** Build Agent uses a different framework than other ServiceNow® AI agents. Review the following workflow and configuration settings for Build Agent. For more information, see [Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/build-agent.md).
+**Important:** Build Agent uses a different framework than other ServiceNow® AI agents. Review the following workflow and configuration settings for Build Agent. For more information, see .
 
 ## Workflow
 
@@ -63,7 +63,7 @@ Model context protocol \(MCP\) servers
 
 </td><td>
 
-Build Agent enables access to external tools and resources through standardized communication \(MCP servers\). For more information, see [MCP connections and Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/accelerate-design-to-development-with-figma-mcp-server.md) and [Connect Build Agent to a supported MCP server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ba-connct-mcp-server.md).
+Build Agent enables access to external tools and resources through standardized communication \(MCP servers\). For more information, see  and .
 
 </td></tr><tr><td>
 
@@ -74,7 +74,7 @@ Tests
 Test settings determine whether Build Agent and Autonomous Engineer generate and run Automated Test Framework \(ATF\) tests in conversations.-   **Sync ATF tests with app**: Generates ATF tests when the agent creates an app, and keeps the tests synced when the app is edited.
 -   **Run UI ATF tests**: Runs client-side and server-side UI ATF tests. This setting requires **Sync ATF tests with app** and is off by default because UI test runs are slower.
 
-For more information, see [Configure auto test prompting and UI tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ba-config-testing.md).
+For more information, see .
 
 </td></tr><tr><td>
 
@@ -85,7 +85,7 @@ Custom instructions
 Custom instructions control how Build Agent behaves during a session.-   Rules are preloaded into every session automatically. Rules enforce consistent behavior, such as naming conventions or organizational standards.
 -   Skills are available on demand when a user or the agent invokes them by name. Skills provide task-specific guidance, such as internal guidelines for a particular workflow pattern.
 
-The **Applies To** setting determines which sessions use an instruction: all sessions on the instance, sessions within a specific application scope, or only the sessions of the user who created it. For more information, see [Configure custom skills and rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ba-configure-custom-skills-rules.md).
+The **Applies To** setting determines which sessions use an instruction: all sessions on the instance, sessions within a specific application scope, or only the sessions of the user who created it. For more information, see .
 
 </td></tr></tbody>
 </table>## Access roles

@@ -42,7 +42,7 @@ Complete these steps if Visa is your card payment network provider.
 
     -   Visa Spoke actions to perform transaction inquiry, order insight digital, collaborate with merchants, and perform other functions with enhanced security.
     -   Dispute Rules Content Pack for Visa provides the dispute categorization rules according to Visa guidelines. Run chargeback eligibility rules based on Visa Core Rules and Visa Product and Service Rules.
-2.  [Set up Visa Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/set-up-visa-spoke.md)
+2.  
 
     Set up Visa Spoke to enable your organization to manage card disputes and card-on-file payments through Visa APIs. The spoke provides secure access to Visa Resolve Online \(VROL\) for dispute management and Visa Stop Payment Service \(VSPS\) for payment controls. This enables you to search transactions, collaborate with merchants, manage dispute cases, and control card-on-file payments.
 
@@ -59,7 +59,7 @@ Complete these steps if Mastercard is your card payment network provider.
 
     -   Mastercard Spoke actions perform transaction inquiry, order insight digital, collaborate with merchants, and perform other functions with enhanced security.
     -   Dispute Rules Content Pack for Mastercard provides dispute categorization rules according to Mastercard guidelines. You can run chargeback eligibility rules based on Mastercard Rules.
-2.  [Set up Mastercard spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/set-up-mastercard-spoke.md)
+2.  
 
     Set up Mastercard Spoke to enable your organization to manage card disputes and automate dispute lifecycle events through Mastercard APIs. This integration streamlines transaction searches, claim creation, chargeback processing, and merchant collaboration, reducing manual effort and improving dispute resolution accuracy.
 
@@ -78,11 +78,11 @@ If you require PCI DSS tokenization for Visa or Mastercard cardholder data, inst
 
 The following components apply regardless of which card payment network or ACH provider you use. Install them based on your organization's regulatory scope and desired capabilities; none are required for the base dispute management implementation.
 
--   [Set up Verifi Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/set-up-verifi-spoke.md)
+-   
 
     Use Verifi Spoke to integrate with the Verifi CDRN API suite and perform early dispute resolution.
 
--   [Set up Ethoca spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/set-up-ethoca-spoke.md)
+-   
 
     Use the Ethoca spoke to integrate with Ethoca Consumer Clarity APIs for early dispute resolution and fraud prevention.
 

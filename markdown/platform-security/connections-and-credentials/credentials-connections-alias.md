@@ -7,7 +7,7 @@ release: brazil
 product: Connections and Credentials
 classification: connections-and-credentials
 topic_type: concept
-last_updated: "2026-10-08"
+last_updated: "2026-10-09"
 reading_time_minutes: 4
 breadcrumb: [Connections and Credentials, Access Management]
 ---

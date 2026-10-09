@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/order-management/register-partner-staff-on-workspace.html
 release: brazil
 topic_type: task
-last_updated: "2026-10-08"
+last_updated: "2026-10-09"
 reading_time_minutes: 1
 breadcrumb: [Create Channel Partner record, Partner Workspace, Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---

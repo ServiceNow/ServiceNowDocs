@@ -7,7 +7,7 @@ release: brazil
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
-last_updated: "2026-10-08"
+last_updated: "2026-10-09"
 reading_time_minutes: 1
 breadcrumb: [Configure, Strategy and Goals, Strategic Planning, Strategic Portfolio Management]
 ---

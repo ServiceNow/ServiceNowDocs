@@ -251,7 +251,7 @@ For more information about configuring sources for skill or AI agent use, see th
 |AI Skill Kit|[General guidelines for AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-skill-kit/na-skill-kit-guidelines.md)|
 |RPA bot generation|[General guidelines for RPA bot generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/rpa-bot-generation.md)|
 |Test generation||
-|UI generation|[General guidelines UI generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/general-guidelines-ui-generation.md)|
+|UI generation||
 
 **Parent Topic:**[Large language models on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/servicenow-large-language-model-now-llm/exploring-large-language-models.md)
 

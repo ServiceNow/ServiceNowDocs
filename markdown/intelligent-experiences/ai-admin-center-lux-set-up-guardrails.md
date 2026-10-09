@@ -47,15 +47,15 @@ For more information on AI Guardian, see [AI Guardian](https://raw.githubusercon
 
     AI Guardian provides three guardrails. Each guardrail has a different scope.
 
-<table id="choicetable_lux_guard"><thead><tr><th align="left" id="d168315e244">
+<table id="choicetable_lux_guard"><thead><tr><th align="left" id="d168313e244">
 
 Guardrail
 
-</th><th align="left" id="d168315e247">
+</th><th align="left" id="d168313e247">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d168315e253">
+</th></tr></thead><tbody><tr><td id="d168313e253">
 
 **Prompt injection detection**
 
@@ -67,7 +67,7 @@ This guardrail detects attempts to override LLM instructions or expose restricte
 
  For more information on how to configure this guardrail, see [Configure prompt injection attack protection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/configure-prompt-injection-attack-protection.md).
 
-</td></tr><tr><td id="d168315e281">
+</td></tr><tr><td id="d168313e281">
 
 **Offensiveness detection**
 
@@ -79,7 +79,7 @@ This guardrail detects offensive or harmful content in AI inputs and outputs. It
 
  For more information on how to configure this guardrail, see [Activate offensiveness protection for generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/activate-offensiveness-protection-for-generative-ai.md).
 
-</td></tr><tr><td id="d168315e319">
+</td></tr><tr><td id="d168313e319">
 
 **Sensitive topic filters**
 

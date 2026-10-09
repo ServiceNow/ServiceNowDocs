@@ -7,7 +7,7 @@ release: brazil
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: concept
-last_updated: "2026-10-08"
+last_updated: "2026-10-09"
 reading_time_minutes: 2
 keywords: [AI for document designer, Document designer]
 breadcrumb: [Common GRC features, Governance, Risk, and Compliance]

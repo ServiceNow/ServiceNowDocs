@@ -7,7 +7,7 @@ release: brazil
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-10-08"
+last_updated: "2026-10-09"
 reading_time_minutes: 2
 breadcrumb: [Managing free-form roadmap views, Create a free-form roadmap, Plan roadmaps, Portfolio Planning, Strategic Portfolio Management]
 ---

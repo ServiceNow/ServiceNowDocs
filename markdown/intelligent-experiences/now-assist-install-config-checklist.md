@@ -275,7 +275,7 @@ Can't access skills in the ServiceNow Otto panel
 </td><td>
 
 -   Verify that the skill is configured to display in the ServiceNow Otto panel. For details, see [Edit an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/edit-a-now-assist-skill.md).
--   If you're using ServiceNow Otto for Virtual Agent, verify that search sources were configured for the ServiceNow Otto panel. You can specify search sources for a ServiceNow Otto panel assistant when you set it up. Search sources are essential for the panel and Virtual Agent. Without them, they cannot discover or rank skills and agentic workflows. For details, see [Assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/configure-now-assist-va.md) and [Assign search sources to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/add-info-sources-assistant.md).
+-   If you're using ServiceNow Otto for Virtual Agent, verify that search sources were configured for the ServiceNow Otto panel. You can specify search sources for a ServiceNow Otto panel assistant when you set it up. Search sources are essential for the panel and Virtual Agent. Without them, they cannot discover or rank skills and agentic workflows. For details, see [Assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/configure-now-assist-va.md) and .
 
 If ServiceNow Otto for Virtual Agent is not installed, the ServiceNow Otto panel uses default search sources.
 
@@ -326,8 +326,8 @@ Topic not returning as expected
 
 </td><td>
 
--   Verify that the Virtual Agent topic is in the Active state and is published. For details, see [Publish a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/publish-virtual-agent-topic.md).
--   Verify that the topics are using LLM topic discovery. NLU/keyword topics cannot be used in a portal that is using ServiceNow Otto for Virtual Agent. You can migrate NLU/keyword topics to LLM, however. For details, see [Migrating NLU/keyword Virtual Agent topics to LLM topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/llm-topic-migration.md).
+-   Verify that the Virtual Agent topic is in the Active state and is published. For details, see .
+-   Verify that the topics are using LLM topic discovery. NLU/keyword topics cannot be used in a portal that is using ServiceNow Otto for Virtual Agent. You can migrate NLU/keyword topics to LLM, however. For details, see .
 
 </td></tr><tr><td>
 
@@ -339,7 +339,7 @@ Can't add topics to the portal
 
 </td><td>
 
-Verify that the topics are using LLM topic discovery. NLU/keyword topics cannot be added to a portal that is using ServiceNow Otto for Virtual Agent. You can migrate these topics to LLM, however. For details, see [Migrating NLU/keyword Virtual Agent topics to LLM topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/llm-topic-migration.md).
+Verify that the topics are using LLM topic discovery. NLU/keyword topics cannot be added to a portal that is using ServiceNow Otto for Virtual Agent. You can migrate these topics to LLM, however. For details, see .
 
 </td></tr><tr><td>
 
@@ -378,7 +378,7 @@ Chat is not showing search results
 
 -   Verify that all of your AI or ServiceNow Otto plugins are up to date. For details, see [Update an application or plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/update-application-app-mgr.md).
 -   Verify that AI Search and ServiceNow Otto for AI Search are set up and configured. For details, see [Configuring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/configuring-ais.md) and [Install ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/install-now-assist-ais.md).
--   Verify that search sources were configured for the Virtual Agent assistant. You can specify search sources for an assistant when you set it up. Search sources are essential for Virtual Agent and the ServiceNow Otto panel. Without them, they cannot discover or rank skills and agentic workflows. For details, see [Assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/configure-now-assist-va.md) and [Assign search sources to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/add-info-sources-assistant.md).
+-   Verify that search sources were configured for the Virtual Agent assistant. You can specify search sources for an assistant when you set it up. Search sources are essential for Virtual Agent and the ServiceNow Otto panel. Without them, they cannot discover or rank skills and agentic workflows. For details, see [Assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/configure-now-assist-va.md) and .
 
 </td></tr><tr><td>
 
@@ -390,7 +390,7 @@ Error when attempting to migrate Virtual Agent NLU conversations to LLM
 
 </td><td>
 
-Verify that you have the correct role, either virtual\_agent\_admin or sn\_vad\_genai.topic\_migration\_admin. For more information, see [Migrate NLU topics to LLM topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/migrate-nlu-llm.md).
+Verify that you have the correct role, either virtual\_agent\_admin or sn\_vad\_genai.topic\_migration\_admin. For more information, see .
 
 </td></tr></tbody>
 </table>

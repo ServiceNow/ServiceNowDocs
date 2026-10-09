@@ -32,7 +32,7 @@ Use the case playbook that provides the activities and tasks required to researc
 
 3.  Open the task from the underwriting task list.
 
-<table><tbody><tr><td id="d60416e105">
+<table><tbody><tr><td id="d60443e105">
 
 **From the Individual Life Underwriting task list**
 
@@ -53,15 +53,15 @@ Use the case playbook that provides the activities and tasks required to researc
 
 6.  Close the task from the underwriting task form.
 
-<table><thead><tr><th align="left" id="d60416e182">
+<table><thead><tr><th align="left" id="d60443e182">
 
 Underwriting task
 
-</th><th align="left" id="d60416e185">
+</th><th align="left" id="d60443e185">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d60416e191">
+</th></tr></thead><tbody><tr><td id="d60443e191">
 
 **To review coverage change**
 
@@ -73,7 +73,7 @@ Action
     -   In the task form, in the **State** field, change the state of the task to **Closed Complete**.
 
 
-</td></tr><tr><td id="d60416e229">
+</td></tr><tr><td id="d60443e229">
 
 **To submit a review**
 

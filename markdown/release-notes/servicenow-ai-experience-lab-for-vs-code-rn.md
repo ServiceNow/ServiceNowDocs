@@ -24,7 +24,7 @@ The ServiceNow Lux Lab for VS Code extension transforms how you build on the Ser
 -   Access relevant experiences, pages, and widgets from your instance.
 -   Develop tailored experiences with AI tools.
 
-See  for more information.
+See [ServiceNow Lux Lab for VS Code extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-ai-experience-lab-for-vs-code-landing.md) for more information.
 
 ## Activation and other requirements
 
@@ -122,7 +122,7 @@ Create a page collection for an existing route using the command palette or the 
 
 ### What's new
 
--   ****
+-   **[Create a collection page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/create-page-collection-servicenow-ai-experience-lab-for-vs-code.md)**
 
     Support multiple page variations on the same route by creating collection pages directly from the command palette or the file explorer. Show different content to different users based on role without maintaining a separate page and URL for each audience.
 

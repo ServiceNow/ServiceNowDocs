@@ -46,5 +46,5 @@ By accessing the sales data and using integrated communication channels such as 
 
 [Linking, delinking, and link conversion conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/conditions-link-delink-toggle-records.md)
 
-[bundle-convint.using-sidebar]
+[Using Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/using-sidebar.md)
 

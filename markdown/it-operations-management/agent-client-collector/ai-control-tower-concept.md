@@ -7,7 +7,7 @@ release: brazil
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
-last_updated: "2026-10-08"
+last_updated: "2026-10-09"
 reading_time_minutes: 2
 keywords: [AI governance, AI traffic, data governance, compliance, policy enforcement]
 breadcrumb: [Agent Client Collector, IT Operations Management]

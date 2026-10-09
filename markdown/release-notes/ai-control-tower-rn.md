@@ -85,7 +85,7 @@ The Brazil Early Availability 2 release adds improvements for policy management,
 
     -   Associate AI systems with business applications whether you use Enterprise Architecture Workspace. The new Enterprise Architecture for AICT plugin stores these associations in its own data model and installs automatically as a dependency of AI Control Tower Core \(app-ai-governance\) application.
     -   Select business applications while creating an AI system in AI Control Tower. View AI adoption across your business application portfolio on the new **Business portfolio** tab in the AI Control Tower workspace homepage.
-    For more information, see &gt;.
+    For more information, see [AI Control Tower integration with Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/eaw-aict.md)&gt;.
 
 -   **[Cost types and sub-vendor rates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/mc-ai-cost-types-and-sub-vendor-rates.md)**
 

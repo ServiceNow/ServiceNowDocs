@@ -16,7 +16,7 @@ Assign roles to control access to features, capabilities, and data in the Manufa
 
 ## Before you begin
 
-Set the application scope to Manufacturing Commercial Operations using the application picker. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/c_ApplicationPicker.md).
+Set the application scope to Manufacturing Commercial Operations using the application picker. For more information, see Application picker.
 
 Role required: admin or sn\_mfg\_cmn.manufacturing\_operations\_admin
 
