@@ -19,7 +19,7 @@ Point the automatic demand to smart assessment trigger at a custom template by o
 
 ## Before you begin
 
-A custom assessment template is created. For more information, see 
+A custom assessment template is created. For more information, see [Create an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/governance-risk-compliance/sae-asmnt-template-create.md)
 
 Role required: admin
 

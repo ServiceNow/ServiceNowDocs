@@ -56,15 +56,15 @@ Role required: sn\_cm\_core.contract\_fulfiller
 
     -   For own paper amendments: Adding documents is optional. Attached documents are classified as supporting documents.
     -   For third-party paper amendments: Adding documents is required. You must classify the attached document as either a supporting document or the contract type selected.
-<table><thead><tr><th align="left" id="d691684e209">
+<table><thead><tr><th align="left" id="d691852e209">
 
 Method
 
-</th><th align="left" id="d691684e212">
+</th><th align="left" id="d691852e212">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d691684e218">
+</th></tr></thead><tbody><tr><td id="d691852e218">
 
 **Choose a file**
 
@@ -74,7 +74,7 @@ Actions
 2.  Select the files to attach and select **Open**.
 
 
-</td></tr><tr><td id="d691684e242">
+</td></tr><tr><td id="d691852e242">
 
 **Drag and drop**
 

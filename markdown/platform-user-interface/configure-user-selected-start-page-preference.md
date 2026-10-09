@@ -24,7 +24,7 @@ Role required: none
 
 1.  The admin must enable the **glide.next\_experience.user\_selected\_landing\_page\_enabled** system property.
 
-    If the property doesn't already exist, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to create it.
+    If the property doesn't already exist, see  to create it.
 
     1.  Select **All** to open the navigation filter, enter `sys_properties.list`, and press Enter to view the System Property table in list view.
 

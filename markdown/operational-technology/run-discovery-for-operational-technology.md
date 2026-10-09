@@ -30,15 +30,15 @@ Role required: ot\_discovery\_admin
 
 2.  Run Quick Discovery or select or create an OT discovery schedule.
 
-<table id="choicetable_dcf_hl5_vpb"><thead><tr><th align="left" id="d26919e145">
+<table id="choicetable_dcf_hl5_vpb"><thead><tr><th align="left" id="d26805e145">
 
 Task
 
-</th><th align="left" id="d26919e148">
+</th><th align="left" id="d26805e148">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d26919e154">
+</th></tr></thead><tbody><tr><td id="d26805e154">
 
 **Run an immediate Quick Discovery**
 
@@ -49,7 +49,7 @@ Select **Quick Discovery** and do the following actions:1.  In the **Target IP**
 3.  Select **OK**.
 
 
-</td></tr><tr><td id="d26919e196">
+</td></tr><tr><td id="d26805e196">
 
 **Select or create an OT discover schedule**
 
@@ -62,15 +62,15 @@ Select **Quick Discovery** and do the following actions:1.  In the **Target IP**
 </td></tr></tbody>
 </table>3.  In the form, fill in the OT Discovery Schedule fields.
 
-<table id="choicetable_fxf_qpx_nsb"><thead><tr><th align="left" id="d26919e229">
+<table id="choicetable_fxf_qpx_nsb"><thead><tr><th align="left" id="d26805e229">
 
 Field
 
-</th><th align="left" id="d26919e232">
+</th><th align="left" id="d26805e232">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d26919e238">
+</th></tr></thead><tbody><tr><td id="d26805e238">
 
 **Name**
 
@@ -78,7 +78,7 @@ Description
 
 Unique, descriptive name for your OT discovery schedule.
 
-</td></tr><tr><td id="d26919e247">
+</td></tr><tr><td id="d26805e247">
 
 **Discover**
 
@@ -92,7 +92,7 @@ Uses Discovery identifiers to match devices with configuration items \(CIs\) in 
 
 Scans devices without the use of credentials. These scans discover all the active IP addresses in the specified range and create device history records, but don't update the CMDB. IP address scans also show multiple IP addresses that are running on a single device. Identify devices by class and by type, such as Windows computers and Cisco network gear.
 
-</td></tr><tr><td id="d26919e298">
+</td></tr><tr><td id="d26805e298">
 
 **Default Purdue level**
 

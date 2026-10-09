@@ -21,11 +21,11 @@ Configure Agentic Contact Center for Banking by integrating your CCaaS provider,
 
     Install the application.
 
--   [Implement the Interaction Controls Component \(ICC\) for contact center voice call and callback integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/enable-icc-for-ccaas.md)
+-   
 
-    Integrate your CCaaS provider with Agentic Contact Center for Banking. For more information, see [Integrating with contact centers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/contactcenter-integration.md).
+    Integrate your CCaaS provider with Agentic Contact Center for Banking. For more information, see .
 
--   [Configure Interaction wrap-up codes and AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/enable-ai-wrap-up-code-and-notes-summary-generation.md)
+-   Configure Interaction wrap-up codes and AI skills
 
     Set up wrap-up codes and activate the Wrap Up Completion skill to enable AI-generated call summaries for your agents.
 

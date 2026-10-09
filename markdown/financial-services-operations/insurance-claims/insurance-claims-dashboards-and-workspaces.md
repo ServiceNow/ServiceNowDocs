@@ -148,5 +148,5 @@ For more information on the included dashboards and their layouts, see [Insuranc
 
 **Note:** The FNOL landing page is built into Financial Services Operations Core. Any changes to this page may impact other applications.
 
-For more information on landing pages as dashboards, see [Dashboard landing pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/csm-ws-landing-page-dashboard.md).
+For more information on landing pages as dashboards, see .
 

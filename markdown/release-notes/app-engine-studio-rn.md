@@ -18,7 +18,7 @@ The ServiceNow® App Engine Studio application enables creators of varying skill
 
 Several Integration Hub flow templates are being deprecated.
 
-See  for more information.
+See [Build apps using App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/aes-overview.md) for more information.
 
 ## Activation and other requirements
 

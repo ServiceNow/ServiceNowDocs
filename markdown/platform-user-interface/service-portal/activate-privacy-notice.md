@@ -18,7 +18,7 @@ If you enabled unauthenticated user tracking in your portal, you may be required
 
 ## Before you begin
 
-By default, unauthenticated user tracking is turned off for portals. To modify analytics settings for a portal, see [Configure Usage Insights Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/now-intelligence/config-analytics-settings.md).
+By default, unauthenticated user tracking is turned off for portals. To modify analytics settings for a portal, see Configure Usage Insights Settings.
 
 Role required: sp\_admin
 

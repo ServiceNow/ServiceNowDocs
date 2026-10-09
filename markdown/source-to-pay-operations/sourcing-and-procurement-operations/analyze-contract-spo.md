@@ -48,15 +48,15 @@ For more information, see [Contract review using ServiceNow Otto for Contract Ma
 
     The latest versions of the documents are automatically selected for analysis.
 
-<table id="choicetable_p3s_2gn_zcc"><thead><tr><th align="left" id="d164035e159">
+<table id="choicetable_p3s_2gn_zcc"><thead><tr><th align="left" id="d163932e159">
 
 Method
 
-</th><th align="left" id="d164035e162">
+</th><th align="left" id="d163932e162">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d164035e168">
+</th></tr></thead><tbody><tr><td id="d163932e168">
 
 **Run Now Assist analysis on a single contract document**
 
@@ -66,7 +66,7 @@ Steps
 2.  From the contextual side panel, select **Analyze with Now Assist**.
 
 
-</td></tr><tr><td id="d164035e195">
+</td></tr><tr><td id="d163932e195">
 
 **Run Now Assist analysis on multiple contract documents**
 

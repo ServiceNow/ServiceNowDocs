@@ -60,5 +60,5 @@ Additional use case: You can enable a similar relationship for the Request table
 **Related topics**  
 
 
-[GlideSystem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/scripts/p_GlideServerAPIs.md)
+[bundle-crapiref.c_GlideSystem]
 

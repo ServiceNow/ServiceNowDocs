@@ -25,7 +25,7 @@ Role required: pa\_data\_collector or higher
 
 1.  Select the application scope.
 
-    The Data snapshots source inherits your application scope. With this Data snapshots source, you can only create indicators in that application scope. You can only create one Data snapshots source for a fact table, so the choice of application scope is important. For more information, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationScope.md).
+    The Data snapshots source inherits your application scope. With this Data snapshots source, you can only create indicators in that application scope. You can only create one Data snapshots source for a fact table, so the choice of application scope is important. For more information, see .
 
 2.  Navigate to **All** &gt; **Data Snapshots** &gt; **Sources**.
 

@@ -26,15 +26,15 @@ The **Issues** related list appears on a crisis event record when GRC: Profiles 
 
 2.  Complete the following steps to create or manage an issue from a crisis event.
 
-<table id="choicetable_p55_b3s_jkc"><thead><tr><th align="left" id="d398645e97">
+<table id="choicetable_p55_b3s_jkc"><thead><tr><th align="left" id="d398542e97">
 
 Step
 
-</th><th align="left" id="d398645e100">
+</th><th align="left" id="d398542e100">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d398645e106">
+</th></tr></thead><tbody><tr><td id="d398542e106">
 
 **Create or add an issue from the event record**
 
@@ -65,7 +65,7 @@ Use this option when you want to associate an existing issue with the crisis eve
 
 The issue association is removed from the event; the issue record isn't deleted from the instance.
 
-</td></tr><tr><td id="d398645e176">
+</td></tr><tr><td id="d398542e176">
 
 **Link a crisis event from the issue record**
 

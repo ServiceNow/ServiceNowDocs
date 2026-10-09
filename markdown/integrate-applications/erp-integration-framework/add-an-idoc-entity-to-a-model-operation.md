@@ -56,5 +56,5 @@ Role required: sn\_erp\_integration.erp\_admin
 
 ## What to do next
 
-Explore the API for interacting with Zero Copy Connector for ERP models. For detailed information and examples of using the API, see [sn\_erp\_integration API - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/sn_erp_integrationBothAPI.md).
+Explore the API for interacting with Zero Copy Connector for ERP models. For detailed information and examples of using the API, see .
 

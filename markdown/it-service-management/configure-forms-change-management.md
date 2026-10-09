@@ -5,7 +5,7 @@ locale: en-us
 canonical_url: https://www.servicenow.com/docs/r/australia/it-service-management/configure-forms-change-management.html
 release: australia
 topic_type: task
-last_updated: "2026-10-08"
+last_updated: "2026-10-09"
 reading_time_minutes: 2
 keywords: [Change Management, forms configuration, form customization, Change Request, Form Builder]
 breadcrumb: [Configuring Simplified Change Management, Configuring the fulfiller experience in Simplified IT Service Management, Configure integrations and ITSM experiences in Simplified IT Service Management, Configure and integrate, Simplified IT Service Management, IT Service Management]

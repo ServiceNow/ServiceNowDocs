@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/now-ass
 release: australia
 topic_type: topic
 last_updated: "2026-03-12"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [App development and low-code release notes, Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---
 
@@ -28,7 +28,7 @@ The ServiceNow Otto for App Engine application enables creators to enhance custo
 
 -   If you have a ServiceNow Otto for Creator subscription, you can create AI assets conversationally using Build Agent.
 
-See  for more information.
+See [ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/add-ai-to-custom-apps-with-now-assist-for-app-engine-enterprise.md) for more information.
 
 ## Activation and other requirements
 
@@ -69,7 +69,7 @@ The ServiceNow Otto for App Engine application enables creators to enhance custo
 
 ### What's new
 
--   **Create AI assets conversationally with Build Agent**
+-   **[Create AI assets conversationally with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/create-custom-ai-agent.md)**
 
     If you have a ServiceNow Otto for Creator subscription, you can use Build Agent to conversationally create agentic workflows, AI agents, and skills for custom apps.
 

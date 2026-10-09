@@ -21,7 +21,7 @@ Create or edit a synthetic monitor to test the availability and performance of y
 
 **Note:** If you're monitoring an API discovered through API Insights or discovery patterns, see [Create a synthetic monitor for a discovered API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-operations-management/create-synthetic-monitor-for-discovered-api.md).
 
-**Note:** For information about how to bulk create synthetic monitors, see the .
+**Note:** For information about how to bulk create synthetic monitors, see the [Synthetic Monitoring Developer Guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/developer-guides/synth-monitor_dev-guide.md).
 
 Role required: sn\_sow\_synthetics.synthetics\_editor or sn\_sow\_synthetics.synthetics\_admin
 
