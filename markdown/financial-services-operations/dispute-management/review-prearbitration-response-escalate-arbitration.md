@@ -64,15 +64,15 @@ If the agent is not satisfied with the merchant’s pre-arbitration response, th
 
 12. Select one of the following options from the **Response outcome** drop-down.
 
-<table id="choicetable_c3f_zll_wfc"><thead><tr><th align="left" id="d37025e278">
+<table id="choicetable_c3f_zll_wfc"><thead><tr><th align="left" id="d37053e278">
 
 Option
 
-</th><th align="left" id="d37025e281">
+</th><th align="left" id="d37053e281">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d37025e287">
+</th></tr></thead><tbody><tr><td id="d37053e287">
 
 **Unresolved**
 
@@ -92,7 +92,7 @@ The next task [Review arbitration response](https://raw.githubusercontent.com/Se
 -   **No** to end the chargeback, then the transaction moves to the Financial adjustments 2. The task is then marked as Complete.
 
 
-</td></tr><tr><td id="d37025e368">
+</td></tr><tr><td id="d37053e368">
 
 **Resolved**
 

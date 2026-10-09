@@ -27,15 +27,15 @@ Role required: snc\_internal
 
 1.  Open a demand from **My Demands** or **Requests**.
 
-<table id="choicetable_dx3_nxp_jkc"><thead><tr><th align="left" id="d60502e93">
+<table id="choicetable_dx3_nxp_jkc"><thead><tr><th align="left" id="d60613e93">
 
 Goal
 
-</th><th align="left" id="d60502e96">
+</th><th align="left" id="d60613e96">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d60502e102">
+</th></tr></thead><tbody><tr><td id="d60613e102">
 
 **From My Demands**
 
@@ -47,7 +47,7 @@ Action
     2.  Select a demand from the list.
 
 
-</td></tr><tr><td id="d60502e128">
+</td></tr><tr><td id="d60613e128">
 
 **From Requests**
 

@@ -20,7 +20,7 @@ The Cloud API \(CAPI\) enables you to integrate Cloud Provisioning and Governanc
 
 Integration with cloud providers is performed through REST calls, such as PUT, GET, POST, and DELETE. CAPI provides the framework for you to integrate a cloud vendors REST API so that your instance can communicate with the cloud provider to manage cloud resources.
 
-See  to learn more.
+See [Browse APIs by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/api-product-type.md) to learn more.
 
 CAPI contains these components:
 

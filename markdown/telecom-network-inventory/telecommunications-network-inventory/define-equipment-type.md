@@ -71,7 +71,7 @@ Creates a Kubernetes pod machine instance. To learn more about the fields in the
 
 4.  In the Equipment form, fill in the fields.
 
-    To learn more about the fields in the Equipment form, see [ba2dcf9259766c1056a6c37a7888bb630a54016d.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/define-tni-equipment.md).
+    To learn more about the fields in the Equipment form, see [7caa6327c2947bf4e3fc7e6fbe4cac73b55e16d5.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/define-tni-equipment.md).
 
 5.  Create the Telecommunications Network Inventory attributes for the Telco Equipment form by selecting **Set Inventory Attributes**.
 
