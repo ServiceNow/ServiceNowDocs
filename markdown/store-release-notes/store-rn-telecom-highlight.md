@@ -34,6 +34,8 @@ Version history for the Telecommunications Service Management Data Model for Ord
 Version history for the ServiceNow® DCNAM for Telecommunications, Media and Technology - Advanced application on the ServiceNow Store.
 -   **[Deal Registration release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-telecom-deal-registration.md)**  
 Version history for the ServiceNow® Deal Registration application on the ServiceNow Store.
+-   **[Meeting Scheduler Plus release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-tmt-meeting-scheduler-plus.md)**  
+Version history for the ServiceNow® Meeting Scheduler Plus application on the ServiceNow Store.
 -   **[Network Inventory Advanced release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-telecom-network-inventory-advanced.md)**  
 Version history for the Network Inventory Advanced application on the ServiceNow Store.
 -   **[Network Inventory Core release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-telecom-network-inventory-core.md)**  
@@ -72,6 +74,8 @@ Version history for the ServiceNow® Sales Customer Relationship Management for 
 Version history for the Service Exchange application on the ServiceNow Store.
 -   **[Service Exchange for Providers release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-telecom-service-bridge-providers.md)**  
 Version history for the Service Exchange for Providers application on the ServiceNow Store.
+-   **[Service Lifecycle Request release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-telecom-service-lifecycle-request.md)**  
+Version history for the ServiceNow® Service Lifecycle Request application on the ServiceNow Store.
 -   **[ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-industry-now-assist-telecom.md)**  
 Version history for the ServiceNow® ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) application on the ServiceNow Store.
 -   **[Technology Account Management Experiences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-tmt-technology-account-management-experiences.md)**  

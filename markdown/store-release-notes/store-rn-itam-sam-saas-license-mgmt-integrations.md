@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itam-sam-saas-license-mgmt-integrations.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 19
+last_updated: "2026-10-08"
+reading_time_minutes: 21
 breadcrumb: [ServiceNow Store - IT Asset Management version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,18 @@ Version history for the IT Asset Management Software Asset Management - SaaS Lic
 
 ## Version history
 
+-   **Version 18.1.1 - October 2026 \(Brazil\)**
+    -   Zoom Workplace licensing is now fully supported through a new Zoom Workplace Subscription profile type, enabling accurate entitlement reconciliation and license consumption tracking for Meetings, Webinar, Team Chat, Mail &amp; Calendar, Phone, Scheduler, Docs, Visitor Management, and supported add-ons \(Whiteboard Plus, Clips Plus, Webinars Plus, Translated Captions, Large Meeting, and Customer Managed Key\).
+    -   Suite-based and individual Zoom licenses are now both supported. Suite licenses are tracked as one subscription, while individually assigned products and add-ons are tracked separately, giving you complete visibility into your Zoom licensing structure.
+    -   Reclamation is now available for all supported Zoom Workplace products and add-ons. Inactive licensed users are automatically downgraded to the free Basic plan, optimizing your license spending while maintaining user access.
+-   **Version 17.7.0 - October 2026 \(Australia\)**
+    -   Zoom Workplace licensing is now fully supported through a new Zoom Workplace Subscription profile type, enabling accurate entitlement reconciliation and license consumption tracking for Meetings, Webinar, Team Chat, Mail &amp; Calendar, Phone, Scheduler, Docs, Visitor Management, and supported add-ons \(Whiteboard Plus, Clips Plus, Webinars Plus, Translated Captions, Large Meeting, and Customer Managed Key\).
+    -   Suite-based and individual Zoom licenses are now both supported. Suite licenses are tracked as one subscription, while individually assigned products and add-ons are tracked separately, giving you complete visibility into your Zoom licensing structure.
+    -   Reclamation is now available for all supported Zoom Workplace products and add-ons. Inactive licensed users are automatically downgraded to the free Basic plan, optimizing your license spending while maintaining user access.
+-   **Version 16.10.0 - October 2026 \(Zurich\)**
+    -   Zoom Workplace licensing is now fully supported through a new Zoom Workplace Subscription profile type, enabling accurate entitlement reconciliation and license consumption tracking for Meetings, Webinar, Team Chat, Mail &amp; Calendar, Phone, Scheduler, Docs, Visitor Management, and supported add-ons \(Whiteboard Plus, Clips Plus, Webinars Plus, Translated Captions, Large Meeting, and Customer Managed Key\).
+    -   Suite-based and individual Zoom licenses are now both supported. Suite licenses are tracked as one subscription, while individually assigned products and add-ons are tracked separately, giving you complete visibility into your Zoom licensing structure.
+    -   Reclamation is now available for all supported Zoom Workplace products and add-ons. Inactive licensed users are automatically downgraded to the free Basic plan, optimizing your license spending while maintaining user access.
 -   **Version 18.0.4 - September 2026 \(Brazil\)**
     -   This release includes:
         -   Smartsheet SaaS integration now supports Smartsheet's User Subscription model, showing license distribution across Members, Provisional Members, and Contributors/Viewers

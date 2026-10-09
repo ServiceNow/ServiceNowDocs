@@ -1,6 +1,6 @@
 ---
-title: Information Request Playbook release notes
-description: Version history for the Information Request Playbook on the ServiceNow Store.
+title: Information Request Administration release notes
+description: Version history for the Information Request Administration on the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-public-sector-info-request-playbook.html
 release: store
@@ -10,9 +10,9 @@ reading_time_minutes: 2
 breadcrumb: [ServiceNow Store - Public Sector Industry version history release notes, ServiceNow Store version history release notes]
 ---
 
-# Information Request Playbook release notes
+# Information Request Administration release notes
 
-Version history for the Information Request Playbook on the ServiceNow Store.
+Version history for the Information Request Administration on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 

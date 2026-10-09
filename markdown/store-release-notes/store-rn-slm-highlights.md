@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-sl
 release: store
 topic_type: reference
 last_updated: "2025-10-16"
-reading_time_minutes: 1
+reading_time_minutes: 2
 breadcrumb: [ServiceNow Store - Source-to-Pay Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -48,6 +48,8 @@ Version history for the Supplier Payment Optimization application on the Service
 Version history for the ServiceNow® Supplier Operations application on the ServiceNow Store.
 -   **[Supplier Relationship and Performance Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-source-to-pay-ops-supplier-relationship-perf-mgmt.md)**  
 Version history for the Supplier Relationship and Performance Management application on the ServiceNow Store.
+-   **[SupplyOn Integration for Purchase Order Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-som-supplyon-integration-purchase-order-mgmt.md)**  
+Version history for the ServiceNow® SupplyOn Integration for Purchase Order Management application on the ServiceNow Store.
 
 **Parent Topic:**[ServiceNow Store - Source-to-Pay Operations version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-source-to-pay-ops.md)
 

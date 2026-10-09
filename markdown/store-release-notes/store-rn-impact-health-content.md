@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-impact-health-content.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 2
 breadcrumb: [ServiceNow Store - Impact version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,12 @@ Version history for the ServiceNow® Impact Health Content application on the Se
 
 ## Version history
 
+-   **Version 7.0.3 - October 2026**
+    -   New:
+        -   This release adds 460 Scan Engine definitions as part of the ongoing Health Assessment migration initiative. The new definitions include both global and application-specific health checks across areas such as Performance Analytics, Vulnerability Response, Customer Service Management, HR Service Delivery, GRC, Risk Management, Security Operations, Discovery, Service Mapping, and more.
+            -   242 Global definitions are available to all instances.
+            -   218 Plugin-specific definitions are evaluated only when the corresponding application or plugin is installed and active.
+        -   This release expands Platform Health coverage by adding additional Scan Engine-based health assessments across the ServiceNow platform and supported applications.
 -   **Version 6.0.3 - September 2026**
     -   New: As part of the ongoing modernization of Platform Health content, 244 Scan Engine definitions have been introduced, including migrated Health Assessment content and new platform health definitions. These definitions include a combination of system property validations, statistical analysis checks, conditional rule evaluations, and custom script-based assessments, expanding coverage across platform health, governance, and configuration standards.
         -   150 definitions are global and apply to all customer instances.

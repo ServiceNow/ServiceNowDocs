@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-sgc-meraki.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 3
 breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\) version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
@@ -15,6 +15,10 @@ breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\) versi
 Version history for the ServiceNow® Service Graph Connector for Meraki application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
+
+-   **Version 4.1.0 - October 2026**
+
+    This release improves the quality of data discovered from the Meraki Dashboard. Device and network descriptions are now automatically cleaned of irregular whitespace before being written to the CMDB, producing cleaner records and more reliable searching and reporting. This is a data-quality release; discovery behavior is otherwise unchanged from the September 2026 release.
 
 -   **Version 4.0.4 - September 2026**
     -   Changed: Camera and sensor relationships — Cameras and sensors discovered from Meraki are related to their network service instance in the CMDB. This relationship ensures that location data resolves correctly for these devices.

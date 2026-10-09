@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-som-quote-mgmt-data-model.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 5
+last_updated: "2026-10-08"
+reading_time_minutes: 7
 breadcrumb: [ServiceNow Store - Sales Customer Relationship Management version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -17,6 +17,27 @@ Version history for the Quote Management Data Model on the ServiceNow Store.
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 13.2.1 - October 2026 \(Australia\)**
+    -   New
+        -   Buyer organization fields added
+        -   Customers can now complete Advanced Quoting integration through a guided, automated setup experience. The guided setup streamlines onboarding between ServiceNow and Logik.io Transaction Manager, automating outbound OAuth and pricing connections, inbound JWT authentication, and Logik tenant configuration. Manual certificate and keystore steps are eliminated.
+        -   Admins can automate creation of the ServiceNow JWT connection in Logik. The guided setup now provisions the required JWT connection record in Logik automatically, reducing manual configuration.
+        -   Quote Experience guided setup menu is now available. A new application menu and module allow users to start the Quote Experience Integration Guided Setup directly from the interface.
+        -   Admins can add multiple user roles during guided setup. The guided setup now supports inserting multiple records in the User Role table for Transaction Manager, including advanced approval roles when the plugin is present.
+        -   Integration users are granted Lead to Cash Core viewer access automatically. The guided setup provisions the logik.intg integration user with the snl2ccore.viewer role as needed.
+        -   Certificate setup instructions are now accessible via a dedicated UI page. Users can view step-by-step guidance for generating public and private key pairs for OAuth during the guided setup.
+        -   Prerequisites confirmation and information pages are available for Advanced Quoting setup. The guided setup includes new pages to confirm required plugins and tenant settings before proceeding.
+        -   Guided setup for inbound JWT certificate handoff is now included. Users are guided through attaching certificates to the Trust Store, wiring them into the JWT Verifier Map, and locating the generated Key ID for handoff.
+    -   Changed
+        -   Quote Management Data Model and application have been updated for the October release. Enhancements and updates have been applied to both the data model and application, reflecting the latest release activities.
+        -   OAuth records are now included as part of the Quote Experience repository. The OAuth JWT Bearer setup for Logik.ai is integrated, with client credentials regenerated per instance and placeholder values cleared.
+        -   Guided setup now conditionally assigns advanced approval roles. If the Advanced Approval Management plugin is present, approval writer and viewer roles are automatically added to the integration user.
+        -   Guided setup error handling and rerun capability have been improved. The JWT connection setup now reports errors clearly and allows retrying the automation activity.
+        -   Guided setup process definition and help guidance records have been updated. The process definition and guidance reflect current instance state and include new activities and variables.
+-   **Version 11.7.1 - October 2026 \(Zurich\)**
+
+    Fixed: The quote screen now remains stable and no longer refreshes constantly. The automatic refresh triggered by order record changes has been removed, ensuring uninterrupted user interaction. Quote count updates continue to function as expected.
 
 -   **Version 13.1.3 - September 2026 \(Australia\)**
     -   New: Auto-add and update quote line segments for derived-price products based on source product offering contributions across date ranges

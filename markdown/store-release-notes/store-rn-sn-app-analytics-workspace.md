@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-sn-app-analytics-workspace.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 17
+last_updated: "2026-10-08"
+reading_time_minutes: 18
 breadcrumb: [ServiceNow Store - Platform Analytics version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,19 @@ Version history for the Platform Analytics Workspace on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 9.1.1 - October 2026**
+    -   Fixed:
+        -   In UI16, for bookmarked CoreUI reports and dashboards, when clicking on them on the Quick Access section of Platform Analytics Overview, page ends in "nav\_to.do?uri=%2Fblank"
+        -   Persist Column personalization and records per page for Dashboard and Data visualizations libraries
+        -   Platform Analytics Dashboard – Applied filters are lost after navigating away from the dashboard tab
+        -   Starting time of data visualization scheduled exports always uses UTC
+-   **Version 8.4.9 - October 2026**
+    -   Fixed:
+        -   Scheduled visualization export automatically disables the "Active" and "Omit if no records" toggle component for non-English language users
+        -   In Australia Patch 1 under All &gt; Platform Analytics &gt; Analytics Overview,  clicking on search results does nothing
+        -   Persist column personalization and records per page for Dashboard and Data visualization libraries
+        -   Library analytics summary card counts don't reconcile with the filtered list for "Not viewed in last" cards under Data visualization
+        -   In UI16, for bookmarked Core UI reports and dashboards, when clicking on them in the Quick Access section of Platform Analytics Overview, page ends in "nav\_to.do?uri=%2Fblank"
 -   **Version 9.0.14 - September 2026**
     -   Changed:
         -   The Edit button is now disabled for RenderJavascript widgets \(com.glide.ui.portal.RenderJavascript\) on migrated dashboards.

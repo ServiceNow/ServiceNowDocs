@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-vr-SBOM-response.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 6
+last_updated: "2026-10-08"
+reading_time_minutes: 7
 breadcrumb: [ServiceNow Store - Vulnerability Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,7 +18,12 @@ Version history for the Vulnerability Response Data Model for SBOM application o
 
 ## Version history
 
--   **Version 6.7.2 - September 2026\(USEM\)**
+-   **Version 6.7.3 - October 2026 \(USEM\)**
+    -   Fixed:
+        -   An issue preventing Licenses and Contacts from being marked as eligible for archival.
+        -   Resolved a regression affecting AVI rule creation.
+        -   Restored the Advanced Filter option for BOM Entities in the SBOM Workspace, making it available in the primary filter panel.
+-   **Version 6.7.2 - September 2026 \(USEM\)**
     -   New:
         -   You can configure an automated cleanup of older SBOM documents and metadata from a dedicated configuration page where you create and manage your own cleanup rules. This cleanup helps you reduce your data volume in the SBOM data tables and might help you improve query and ingestion performance.
         -   An archival capability that automatically unlinks and deactivates components from a prior SBOM version once a newer SBOM is ingested for the same application. Archiving helps you maintain the SBOM workspace so that you can focus on current, actionable data.

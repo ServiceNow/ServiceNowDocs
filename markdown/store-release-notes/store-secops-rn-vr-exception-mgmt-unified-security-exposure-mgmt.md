@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-vr-exception-mgmt-unified-security-exposure-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 8
 breadcrumb: [ServiceNow Store - Vulnerability Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
@@ -16,6 +16,16 @@ Version history for the ServiceNow® Exception Management for Unified Security E
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
+-   **Version 30.8.1 - October 2026 \(USEM\)**
+    -   Fixed:
+        -   Fixed an error \("Security constraints prevent access"\) that could occur when using the Request Exception button.
+        -   Fixed an issue where deferral counts were inflated because an approval filter counted updated records as new.
+    -   New:
+        -   Added bulk-edit support to close false positives, update Preferred Solution and Preferred Patch, and unassign remediation owner records.
+        -   Refreshed the UX for the Risk Adjustment and Exception Request bulk-edit experience.
+        -   Added support for scripted approver levels in exception rules, enabling more dynamic approval routing.
+        -   Updated the Exception Request and Modify Risk dialogs with UI improvements.
+        -   Improved notifications triggered by risk modification changes.
 -   **Version 30.7.5 - September 2026 \(USEM\)**
     -   Fixed:
         -   Missing approver levels after migrating to Unified Security Exposure Management \(USEM\).

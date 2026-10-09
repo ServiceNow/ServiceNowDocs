@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/sn-store-now-assist-suite-release-notes.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 9
+last_updated: "2026-10-08"
+reading_time_minutes: 11
 ---
 
 # Now Assist Suite release notes
@@ -32,6 +32,65 @@ Release date
 Suite version and compatible patch
 
 </th></tr></thead><tbody><tr><td>
+
+[October 08 2026 Now Assist Suite release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/na-suite-rn-2026-10-08.md)
+
+</td><td>
+
+-   28.5.20261008 - Zurich Patch 5
+-   28.6.20261008 - Zurich Patch 6
+-   28.7.20261008 - Zurich Patch 7
+-   28.8.20261008 - Zurich Patch 8
+-   28.9.20261008 - Zurich Patch 9
+-   28.10.20261008 - Zurich Patch 10
+-   28.11.20261008 - Zurich Patch 11
+-   28.12.20261008 - Zurich Patch 12
+-   28.13.20261008 - Zurich Patch 13
+-   29.0.20261008 - Australia Patch 0 \(Early Availability\)
+-   29.1.20261008 - Australia Patch 1
+-   29.2.20261008 - Australia Patch 2
+-   29.3.20261008 - Australia Patch 3
+-   29.4.20261008 - Australia Patch 4
+-   29.5.20261008 - Australia Patch 5
+-   29.6.20261008 - Australia Patch 6
+-   29.7.20261008 - Australia Patch 7
+-   30.0.20261008 - Brazil Patch 0 \(Early Availability\)
+-   30.1.20261008 - Brazil Patch 1
+
+</td></tr><tr><td>
+
+[September 24 2026 Now Assist Suite release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/na-suite-rn-2026-09-24.md)
+
+</td><td>
+
+-   28.10.20260924 - Zurich Patch 10
+-   28.11.20260924 - Zurich Patch 11
+-   28.12.20260924 - Zurich Patch 12
+-   29.3.20260924 - Australia Patch 3
+-   29.4.20260924 - Australia Patch 4
+-   29.5.20260924 - Australia Patch 5
+-   29.6.20260924 - Australia Patch 6
+-   30.0.20260924 - Brazil Early Availability \(Patch 0\)
+
+</td></tr><tr><td>
+
+[September 18 2026 Now Assist Suite release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/na-suite-rn-2026-09-18.md)
+
+</td><td>
+
+-   27.11.20260918 - Yokohama Patch 11
+-   27.12.20260918 - Yokohama Patch 12
+-   27.13.20260918 - Yokohama Patch 13
+-   28.10.20260918 - Zurich Patch 10
+-   28.11.20260918 - Zurich Patch 11
+-   28.12.20260918 - Zurich Patch 12
+-   29.3.20260918 - Australia Patch 3
+-   29.4.20260918 - Australia Patch 4
+-   29.5.20260918 - Australia Patch 5
+-   29.6.20260918 - Australia Patch 6
+-   30.0.20260918 - Brazil Early Availability \(Patch 0\)
+
+</td></tr><tr><td>
 
 [September 10 2026 Now Assist Suite release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/na-suite-rn-2026-09-10.md)
 

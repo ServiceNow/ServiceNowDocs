@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-som-quote-mgmt-app.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 5
+last_updated: "2026-10-08"
+reading_time_minutes: 7
 breadcrumb: [ServiceNow Store - Sales Customer Relationship Management version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -17,6 +17,20 @@ Version history for the Quote Management Application on the ServiceNow Store.
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 12.1.0 - October 2026 \(Australia\)**
+    -   New
+        -   Admins can now complete Advanced Quoting integration setup through a guided, automated process. The guided setup for Advanced Quoting \(Transaction Manager / One Quoting\) enables step-by-step onboarding, including prerequisite confirmation, certificate/key generation instructions, and automated configuration of both ServiceNow and Logik.io environments.
+        -   Automated creation of ServiceNow JWT connection in Logik.io is now supported. The setup process automatically provisions the required JWT connection record in Logik.io, reducing manual configuration steps.
+        -   Admins can now add multiple user roles during guided setup. The guided setup includes an activity to insert multiple records in the User Role table, ensuring integration users have the necessary permissions.
+        -   Integration user roles are now automatically assigned based on installed plugins. If the Advanced Approval Management plugin is present, the guided setup assigns approval writer and viewer roles to the integration user.
+        -   A dedicated menu option is available to launch the Quote Experience guided setup. Users can access the guided setup directly from the application menu for streamlined onboarding.
+        -   Certificate setup instructions are now available within the UI. A new UI page provides detailed steps for generating and configuring public/private key pairs for OAuth certificate setup.
+        -   OAuth records are now included as part of the Quote Experience repository. The required OAuth JWT Bearer integration records are provisioned for Logik.io, with client credentials generated per instance and certificate fields populated during guided setup.
+    -   Changed: Quote Management data model and application have been updated for the October release. The data model and application have been revised to support new integration and setup workflows.
+-   **Version 10.8.1 - October 2026 \(Zurich\)**
+
+    Fixed: The quote screen no longer refreshes constantly. The automatic refresh triggered by order record changes has been removed, preventing unnecessary reloads while maintaining core quote functionality. Order detail updates can be performed manually if needed.
 
 -   **Version 12.0.3 - September 2026 \(Australia\)**
 

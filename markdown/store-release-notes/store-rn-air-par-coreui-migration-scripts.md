@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-air-par-coreui-migration-scripts.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 8
+last_updated: "2026-10-08"
+reading_time_minutes: 9
 breadcrumb: [ServiceNow Store - Platform Analytics version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -17,6 +17,20 @@ Version history for the PAR CoreUI Migration Scripts application on the ServiceN
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 5.1.0 - October 2026**
+
+    Fixed: Stale sys\_report.title used in migrated widget headerTitle
+
+-   **Version 4.0.9 - October 2026**
+    -   Fixed:
+        -   Stale sys\_report.title used in migrated widget headerTitle.
+        -   Reports with multiple datasets in stacked bars migrate as unstacked. When stacked on the visualization, all are part of a single stack rather than separate for each dataset.
+        -   Single Score reports with COUNT aggregate and no custom formatting\_configuration migrate showing decimal precision and "Enable abbreviation" that did not exist in the original CoreUI report.
+        -   The drilldown is working on dashboards only if after the migration the Core UI has a drilldown view in the second drilldown.
+-   **Version 3.0.19 - October 2026**
+
+    Fixed: Colors are not changing after the migration when the visualization has alternative group by
 
 -   **Version 5.0.8 - September 2026**
 

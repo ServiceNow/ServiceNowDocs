@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-fso-financial-services-card-operations.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 15
+last_updated: "2026-10-08"
+reading_time_minutes: 16
 breadcrumb: [ServiceNow Store - Financial Services version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,22 @@ Version history for the Financial Services Operations Financial Services Card Op
 
 ## Version history
 
+-   **Version 14.3.0 - October 2026 \(Australia\)**
+    -   New: Added functions to count fraud chargebacks for a sold product by chargeback code and before the authorization date, enabling more granular fraud chargeback reporting.
+    -   Changed
+        -   Extended the Visa UI policy to also remove Mastercard-specific account status options \(FOC, ACG, CRI, SOR\) from the dropdown, preventing invalid combinations from appearing.
+        -   Added "Refund Not Processed" \(credit\_not\_processed\) with MCC filter as an additional condition group in the Transaction Merchant Voucher Future Use indicator UI policy.
+-   **Version 15.3.3 - October 2026**
+    -   New
+        -   New backend functions are available to query the count of fraud chargebacks by financial account and card dispute transaction, enabling more precise fraud analysis workflows.
+        -   The Refund Not Processed \(credit not processed\) dispute reason now triggers the merchant voucher/future-use question for travel-related merchants on Mastercard transactions, matching the existing goods/services-not-provided behavior.
+    -   Changed: The AI Summary component on the dispute record page has been replaced with the ServiceNow Otto context menu, providing a consistent AI-assisted summarization experience. The component is hidden on unsaved records and only appears when the Dispute Summarization skill configuration is active.
+    -   Fixed
+        -   Retrieving transaction inquiry results for disputes with multiple transactions no longer times out or leaves the UI spinner stuck; the inquiry now runs in a background transaction for both the initial attempt and manual re-triggers.
+        -   The sn\_bom.admin role has been granted the permissions needed to execute flows in the credit card disputes scope, resolving an access gap for administrators.
+        -   Four Mastercard-specific account status values \(FOC, ACG, CRI, SOR\) are now correctly hidden on Visa dispute forms, preventing them from appearing as invalid options.
+        -   Deletion records for 74 platform artifacts are now correctly applied on both fresh installs and upgrades, resolving a gap where they were being skipped due to update-set gating logic.
+        -   Orphaned demo data records referencing the BOM Document scope are now removed, fixing Store certification failures on instances where that scope is not installed.
 -   **Version 15.2.1 - September 2026**
     -   New:
         -   A merchant price difference indicator field was added to consumer dispute forms, allowing agents to capture and track price discrepancies reported by merchants during the dispute process.

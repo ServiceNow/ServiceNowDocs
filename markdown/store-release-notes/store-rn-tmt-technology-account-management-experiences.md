@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-tmt-technology-account-management-experiences.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 2
 breadcrumb: [ServiceNow Store - Telecommunications Service Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -17,6 +17,18 @@ Version history for the ServiceNow® Technology Account Management Experiences a
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 1.0.12 - October 2026**
+
+    No new features are released.
+
+-   **Version 1.1.7 - October 2026**
+
+    No new features are released.
+
+-   **Version 1.2.4 - October 2026**
+
+    No new features are released.
 
 -   **Version 1.0.5 - September 2026**
     -   Account 360: A new multi-tab account workspace giving CSMs and account executives a consolidated view of every account without switching apps.

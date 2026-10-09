@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-data-loss-prevention-incident-response.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 10
 breadcrumb: [ServiceNow Store - Security Incident Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
@@ -17,6 +17,10 @@ Version history for the Data Loss Prevention Incident Response application on th
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 2.4.3 - October 2026**
+
+    Fixed: DLP IR analysts can now save custom field values on the DLP Incident "Additional Details" tab. The issue preventing custom field updates has been resolved, and related test cases have been corrected.
 
 -   **Version 2.4.2 - September 2026**
 

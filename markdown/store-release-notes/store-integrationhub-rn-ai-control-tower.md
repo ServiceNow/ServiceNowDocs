@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-ai-control-tower.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 5
+last_updated: "2026-10-08"
+reading_time_minutes: 7
 breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,31 @@ Version history for the AI Control Tower application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 7.1.5 - October 2026**
+    -   AI Control Tower adds new capabilities across discovery, governance, security, monitoring, and measurement of AI usage.
+        -   Inventory and Discovery
+            -   Block AI services detected through ACC.
+            -   An AI Inventory Enrichment Agent scans your inventory for incomplete records and suggests values to fill the gaps.
+            -   New and enhanced connectors extend discovery to Microsoft Agent365, Azure AI Foundry, Copilot, and AWS.
+        -   Govern
+            -   Discovered AI systems are now risk-classified at the point of discovery, before they enter the managed workflow.
+            -   An AI Risk &amp; Control Applicability Advisor recommends the most relevant risks and controls for each system, with rationale.
+            -   Dynamic Playbook 2.0 tailors onboarding tasks to an asset's risk classification.
+            -   ServiceNow-managed AI agents can now be published to Microsoft Agent365 and other external registries.
+        -   Secure
+            -   AI agent containment can be triggered automatically based on authored policies in the AI Control Tower, removing the need for manual intervention. Support is extended to Azure AI Foundry for agent runtime and Gemini Enterprise Agent Platform \(via Okta integration\).
+            -   Design-time security now covers AI agents, tools, MCP servers, and system prompts, not just AI models.
+            -   The Veza connector now uses OAuth 2.0 for authentication.
+        -   Monitor
+            -   Configure trace data retention to fit your needs.
+            -   View new latency and token-usage visualizations.
+            -   Set evaluation metrics at the asset level.
+            -   Use custom date ranges of up to 18 months for evaluation data.
+        -   Measure
+            -   Product owners can now view and work with just the AI systems and metrics that matter to them.
+        -   Foundations
+            -   Domain separation is available across AI Control Tower, enabling MSP and multi-tenant deployments with isolated inventories, security posture, and value data for each tenant.
+            -   For full details, see AI Control Tower release notes
 -   **Version 7.1.0 - September 2026**
     -   AI Control Tower adds new capabilities across discovery, governance, security, monitoring, and measurement of AI usage.
     -   Inventory and Discovery

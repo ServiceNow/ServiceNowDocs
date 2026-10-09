@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-ms-exchange-online.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 4
+last_updated: "2026-10-08"
+reading_time_minutes: 5
 breadcrumb: [ServiceNow Store - Integration Hub version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,19 @@ Version history for the Integration Hub Microsoft Exchange Online Spoke on the S
 
 ## Version history
 
+-   **Version 4.1.2 - October 2026**
+    -   Fixed:
+        -   Attachments are made optional for Event Lifecycle Management &amp; Sync up Events subflows.
+        -   Timezone support for Organizer timezone in Sync up Events subflow
+        -   Webhook flow to support duplicate entries if subscription is done multiple times
+        -   Priority for 6 flows have been upgrade to High to support high volume traffic
+-   **Version 3.15.2 - October 2026**
+    -   Fixed:
+        -   Start timezone tracking for all-day events. The system now records the start timezone for all-day events, enabling more accurate scheduling and calendar management across time zones.
+        -   Attachments are made optional for Event Lifecycle Management &amp; Sync up Events subflows.
+        -   Timezone support for Organizer timezone in Sync up Events subflow
+        -   Webhook flow to support duplicate entries if subscription is done multiple times
+        -   Priority for 6 flows have been upgrade to High to support high volume traffic
 -   **Version 4.1.1 - September 2026**
     -   Added a new column "start timezone" on the exchange spoke events table, which would store binary format of the timezone for "all day" events.
     -   Added Limit, Offset and Max Rooms input to Look up Rooms Stream action

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-telecom-order-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 4
+last_updated: "2026-10-08"
+reading_time_minutes: 6
 breadcrumb: [ServiceNow Store - Telecommunications Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -17,6 +17,34 @@ Version history for the Order Management application on the ServiceNow Store.
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 18.4.1 - October 2026 \(Australia\)**
+    -   Converted "Decompose Customer Order" flow to Business rule and made flow as inactive.
+    -   As a part of buyer organization support in order creation, following fields and roles were introduced.
+        -   Buyer Organization: The name of the organization for which the order is created.
+        -   Buyer Organization Member: Employee for whom the order is created.
+        -   New Roles:
+            -   sn\_bus\_org\_orm.org\_b2l\_sales\_rep.  -- Role assigned to organization staff to create and manage Buyer Organization related orders at their locations.
+            -   sn\_bus\_org\_orm.org\_b2l\_approver.  -- Role assigned to organization staff to approve buyer organization related orders at their locations.
+            -   sn\_bus\_org\_orm.org\_bo\_b2l\_requestor.  --  Role assigned to organization staff to create and manage Buyer Organization related orders at their locations.
+            -   sn\_bus\_org\_orm.org\_bo\_b2l\_manager.   -- Role assigned to organization staff to create and manage Buyer Organization related orders at their hierarchical locations.
+-   **Version 17.7.2 - October 2026 \(Zurich\)**
+    -   Converted "Decompose Customer Order" flow to Business rule and made flow as inactive.
+    -   As a part of buyer organization support in order creation, following fields and roles were introduced.
+        -   Buyer Organization: The name of the organization for which the order is created.
+        -   Buyer Organization Member:  Employee for whom the order is created.
+        -   New Roles:
+            -   sn\_bus\_org\_orm.org\_b2l\_sales\_rep.  -- Role assigned to organization staff to create and manage Buyer Organization related orders at their locations.
+            -   sn\_bus\_org\_orm.org\_b2l\_approver.  -- Role assigned to organization staff to approve buyer organization related orders at their locations.
+            -   sn\_bus\_org\_orm.org\_bo\_b2l\_requestor.  --  Role assigned to organization staff to create and manage Buyer Organization related orders at their locations.
+            -   sn\_bus\_org\_orm.org\_bo\_b2l\_manager.   -- Role assigned to organization staff to create and manage Buyer Organization related orders at their hierarchical locations.
+-   **Version 18.3.5 - October 2026 \(Australia\)**
+
+    Order Management now introduces a configurable Order Milestones framework, giving customers a standardized way to track key checkpoints across the order lifecycle — from initiation through fulfillment to closure.
+
+-   **Version 17.5.8 - October 2026 \(Zurich\)**
+
+    Order Management now introduces a configurable Order Milestones framework, giving customers a standardized way to track key checkpoints across the order lifecycle — from initiation through fulfillment to closure.
 
 -   **Version 18.3.3 - September 2026 \(Australia\)**
 

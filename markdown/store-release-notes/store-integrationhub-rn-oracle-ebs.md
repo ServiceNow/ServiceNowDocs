@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-oracle-ebs.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
-reading_time_minutes: 2
+last_updated: "2026-10-08"
+reading_time_minutes: 3
 breadcrumb: [ServiceNow Store - Integration Hub version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,11 @@ Version history for the Integration Hub Oracle EBS Spoke on the ServiceNow Store
 
 ## Version history
 
+-   **Version 1.15.0 - October 2026**
+    -   Added 3 actions:
+        -   Look up Purchase Requisition
+        -   Create Purchase Requisition
+        -   Submit Purchase Requisition - Run Concurrent Program
 -   **Version 1.14.0 - June 2026**
 
     Security patch on non-glide ACLs

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-hr-health-safety-risk-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 9
 breadcrumb: [ServiceNow Store - Health and Safety version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,13 @@ Version history for the Health and Safety Risk Management application on the Ser
 
 ## Version history
 
+-   **Version 9.5.1 - October 2026**
+    -   Fixed:
+        -   Resolved internationalization issues, ensuring correct translations and display values across the application.
+        -   Fixed JSA detail screen location display in the Now Mobile app, replacing internal system messages.
+        -   Fixed risk assessment additions from the Audit &gt; Risk Assessment tab.
+        -   Corrected flow action date values for date fields in inspection and audit schedule automation, resolving locale and format issues.
+        -   Resolved Root Cause Analysis access issues.
 -   **Version 9.4.1 - September 2026**
     -   Fixed:
         -   Resolved internationalization \(i18n\) issues.

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-itbm-rn-portfolio-planning.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 17
+last_updated: "2026-10-08"
+reading_time_minutes: 18
 breadcrumb: [ServiceNow Store - Strategic Portfolio Management version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,21 @@ Version history for the Portfolio Planning on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 8.19.0 - October 2026**
+    -   New:
+        -   View and manage smart assessments in Demands, including an assessments list page, assessment form, database view, role-based access, automated business rules for triggering and scoring, and declarative stakeholder actions. Users can view the assessments relevant to them directly in Demands in Portfolio Planning Workspace.
+        -   Configure demand types with dynamic fields that render on the demand record page in Demands, supporting Enterprise-Wide Deployment. Administrators can configure a unique default dashboard for each partition.
+        -   View and manage resource assignments using the new Resource Board view in Demands.
+        -   View contextual info messages on the Actuals to Date, Progress, and Breakdown columns for Maintain-type targets.
+        -   Identify goals using the new unique identifier column in the goals grid of a portfolio plan.
+        -   Export roadmaps to PowerPoint for a date range of up to 3 years, extended from 1 year.
+        -   Improved program-level portfolio planning with general enhancements.
+    -   Fixed:
+        -   Resolved an issue where users were unable to switch views for a demand record in Demands in Portfolio Planning Workspace.
+        -   Resolved an issue where selecting a single score indicator visualization on a dashboard displayed the entire record list instead of the filtered subset.
+        -   Resolved an issue where CPAAM efforts were not generated for unassigned resource assignments of the Task type.
+        -   Resolved an issue where the bottom bar of the record preview in the Roadmap view shifted when selecting a button.
+        -   Resolved an accessibility issue in Scenario Planning where the info icon aria-labelwas hardcoded as "simulation mode".
 -   **Version 8.18.0 - September 2026**
     -   New:
         -   Added ACLs to support extended security for Enterprise-Wide Deployment partitions.

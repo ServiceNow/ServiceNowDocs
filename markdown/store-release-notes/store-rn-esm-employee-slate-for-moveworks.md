@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-esm-employee-slate-for-moveworks.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 3
+last_updated: "2026-10-08"
+reading_time_minutes: 4
 breadcrumb: [ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,14 @@ Version history for the ServiceNow® Employee Slate for Moveworks application on
 
 ## Version history
 
+-   **Version 1.5.2 - October 2026 \(Australia\)**
+    -   View tasks and approvals across the EmployeeWorks Web App assistant along with the Tasks and Requests page. It includes delegated and customer-defined task types, with actions that could be completed in split view.
+    -   Browse topics on the mobile app as an employee. Choose from different topic templates to organize and present content as the service owner.
+    -   Set a single corner-radius style from the Admin Console to apply consistent branding across cards, buttons, and form fields in EmployeeWorks for your organization.
+-   **Version 1.1.15 - October 2026 \(Zurich\)**
+    -   View tasks and approvals across the EmployeeWorks Web App assistant along with the Tasks and Requests page. It includes delegated and customer-defined task types, with actions that could be completed in split view.
+    -   Browse topics on the mobile app as an employee. Choose from different topic templates to organize and present content as the service owner.
+    -   Set a single corner-radius style from the Admin Console to apply consistent branding across cards, buttons, and form fields in EmployeeWorks for your organization.
 -   **Version 1.4.3 - September 2026 \(Australia\)**
     -   Directory template: New landing-page layout guides employees through topic subtopics for clearer content pathways.
     -   Breadcrumb navigation: Employees can now easily navigate through the topic hierarchy with contextual breadcrumb links.

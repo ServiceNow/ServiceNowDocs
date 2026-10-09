@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-industry-anomaly-detection-rule.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Public Sector Industry version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,17 @@ Version history for the ServiceNow® Anomaly Detection Rule application on the S
 
 ## Version history
 
+-   **Version 4.2.2 - October 2026 \(Brazil\)**
+    -   Changed:
+        -   Introduction of new Open Weight Model: Gemma 4 26B-A4B
+        -   The new Open Weight Model is now supported but is not designated as the default model for all ServiceNow Otto for Manufacturing Commercial Operations \(MCO\) capabilities.
+-   **Version 4.1.3 - October 2026 \(Australia\)**
+    -   Changed:
+        -   Introduction of new Open Weight Model: Gemma 4 26B-A4B
+        -   The new Open Weight Model is now supported but is not designated as the default model for all ServiceNow Otto for Manufacturing Commercial Operations \(MCO\) capabilities.
+-   **Version 4.0.1 - October 2026 \(Zurich\)**
+    -   New: Added CAPA effectiveness as an extension of the goals framework.
+    -   Changed: Improved Product Non-conformance \(PNCC\)/Product Quality Issue \(PQI\) summary readability.
 -   **Version 4.2.1 - September 2026 \(Brazil\)**
 
     No release notes.

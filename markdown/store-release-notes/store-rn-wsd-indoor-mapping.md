@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-wsd-indoor-mapping.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 10
 breadcrumb: [ServiceNow Store - Workplace Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,9 @@ Version history for the Indoor Mapping application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 1.18.0 - October 2026**
+    -   Changed: Performance enhancements to load data on demand.
+    -   Fixed: Enhanced support for accessibility within Map Studio while creating new campuses and uploading floor plans.
 -   **Version 1.17.3 - September 2026**
     -   Fixed:
         -   Improved map navigation in the Make a Reservation page that incorrectly redirected to adjacent buildings when zooming.

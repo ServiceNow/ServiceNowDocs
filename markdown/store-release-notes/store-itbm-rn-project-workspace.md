@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-itbm-rn-project-workspace.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 16
+last_updated: "2026-10-08"
+reading_time_minutes: 18
 breadcrumb: [ServiceNow Store - Strategic Portfolio Management version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,20 @@ Version history for the Project Workspace application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 7.7.3 - October 2026**
+    -   New
+        -   Configure which L2 menu items are visible for each project type in Project Workspace to provide tailored layouts and streamlined navigation.
+        -   View all project tasks assigned to you or created by you directly from your employee slate. Expand the list and load task details as needed.
+        -   Preview the tasks generated or extracted during the project plan generation flow on the Project Workspace home page and planning page. When an Excel document is provided, it is prioritized for task extraction over PDF, Word, and PowerPoint files.
+    -   Changed
+        -   The header now stacks elements and adapts its alignment at up to 200% zoom. Beyond 200% zoom, toolbar actions are grouped into drop-down lists for a better screen fit.
+        -   When a demand is converted to a project, the current offset is updated to keep assignment dates consistent, preventing auto-sync events and preserving assignment integrity.
+        -   The start date of a project task can no longer be moved later than the earliest actual time entered on the task, keeping task timelines accurate and preventing assignment sync errors.
+        -   Resource assignment data on the planning page is now retrieved based on the resource assignment toggle, improving the relevance of the data displayed.
+    -   Fixed
+        -   Resolved an issue where negative lag values entered when adding a dependency in Project Workspace were saved as zero.
+        -   Resolved an issue where saved project status reports appeared blank after the template was modified and published.
+        -   Resolved an issue where Project Workspace export logs did not correctly record exports to XML or Microsoft Project formats.
 -   **Version 7.6.2 - September 2026**
     -   New:
         -   Doc templates now support dynamic content, similar to status reports, with two default templates that use dynamic fields: Project Charter and Project Closeout.

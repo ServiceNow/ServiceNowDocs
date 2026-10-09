@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-grc-rn-digital-resilience-third-party-info-register.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 2
 breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance version history release notes, ServiceNow Store version history release notes]
 ---
@@ -17,6 +17,10 @@ Version history for the Digital Resilience Third-party Information Register appl
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 23.1.0 - October 2026 \(Brazil\)**
+
+    Fixed: Resolved duplicate supply chain detection in DORA contract CSV export \(PRB2078675\)- Corrected currency conversion exception for zero-amount TWD transactions \(PRB2079455\)- Fixed validation rule character encoding in information register \(PRB2074312\)
 
 -   **Version 23.0.3 - September 2026 \(Brazil\)**
     -   New:

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-contracts-entitlement-workflows.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 3
 breadcrumb: [ServiceNow Store - Customer Service Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,10 @@ Version history for the Contracts and Entitlement Workflows application on the S
 
 ## Version history
 
+-   **Version 15.1.1 - October 2026**
+    -   New
+        -   Enable users to create contracts and entitlements for buyer organizations, in addition to accounts and consumers.
+        -   Buyer organization and seller details sync automatically to contracts and entitlements upon order fulfillment—no manual entry required.
 -   **Version 15.0.1 - September 2026**
     -   New:
         -   Subscription management enhancement: Renewal and amendment quotes exclude subscription lines with an early termination or down-sell action.

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-etl.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 3
+last_updated: "2026-10-08"
+reading_time_minutes: 4
 breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\) version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -17,6 +17,10 @@ Version history for the ServiceNow AI Platform capabilities IntegrationHub ETL a
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 3.6.1 - October 2026**
+
+    New: Integration Hub ETL now supports reflow and accessibility at 400% zoom. Users can access and navigate ETL screens with improved accessibility, ensuring compliance with high-zoom requirements.
 
 -   **Version 3.6.0 - September 2026**
     -   New:

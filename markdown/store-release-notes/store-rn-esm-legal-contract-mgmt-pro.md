@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-esm-legal-contract-mgmt-pro.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 12
+last_updated: "2026-10-08"
+reading_time_minutes: 13
 breadcrumb: [ServiceNow Store - Legal Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,20 @@ Version history for the Legal Contract Management Pro application on the Service
 
 ## Version history
 
+-   **Version 1.7.15 - October 2026**
+    -   New:
+        -   Contract requests can now be created and processed as standalone requests, without requiring a parent record such as a purchase request, sourcing event, or legal request.
+        -   Introduced new default Out-of-the-box intake forms in the Employee Center that lets requesters submit standalone contract requests. These forms will be available under Employee center &gt; Help center &gt; Contracts.
+        -   A contract renewal workflow lets fulfillers and employees initiate renewals for own-paper and third-party-paper contracts, from the Contract Workspace and the Employee Center. The executed contract repository displays the full renewal history chain
+        -   Amendments and renewals can be initiated directly from an executed contract repository record.
+    -   Changed: The Contracts dashboard now includes a filter for contract request type.
+    -   Fixed:
+        -   The Initiate Approval action no longer lists user groups that have no members.
+        -   The Preview Signed Contract action is now visible in the Contracts repository tab for executed contracts.
+        -   Fetching a document from OneDrive no longer fails when creating a revision on external storage from contracts workspace.
+        -   You can now save a contract request with a valid start date on or after the opened date, without getting an incorrect date validation error.
+        -   Security fixes
+        -   UI improvements
 -   **Version 1.7.13 - September 2026**
     -   New: Parallel signature is now supported, allowing multiple signatories to sign a contract concurrently with Adobe Sign or DocuSign.
     -   Fixed: Fixed an issue where spaces between words were deleted while submitting change request for own paper workflow.

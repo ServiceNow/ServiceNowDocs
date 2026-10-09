@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-build-agent-trial.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 7
+last_updated: "2026-10-08"
+reading_time_minutes: 8
 breadcrumb: [ServiceNow Store - Other ServiceNow AI Platform Capabilities applications version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,30 @@ Version history for the Build Agent Trial on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 2.7.1 - October 2026**
+    -   New
+        -   New model support
+            -   Build Agent andAutonomous Engineer support the following models in the October 2026 release:
+                -   Google Gemini 3.7 Flash
+        -   Additional metadata support
+            -   The following metadata are now supported inBuild Agent andAutonomous Engineer:
+                -   Assessments
+                -   Database views
+                -   Sys wizard answers
+        -   Support for SPP
+            -   Build Agent andAutonomous Engineer now support regulated markets through theServiceNow Protected Platform for Australia, the EU, and Singapore, a cloud offering that stores and processes all customer data in-country on Microsoft Azure infrastructure.
+        -   Expanded support for Playbooks
+            -   Build Agent andAutonomous Engineer now include the following updates to Playbook support:
+                -   Public playbooks
+                -   Variants
+                -   Go back to activity definition
+                -   Golden path configuration
+                -   Using Automation plan pills
+                -   Image attachment support for Image to playbook generation
+                -   Configure golden path settings and define the ideal path through decision nodes
+    -   Changed
+        -   Larger input box for extended prompts
+            -   The input field forBuild Agent andAutonomous Engineer prompts and instructions now expands to accommodate longer text entries.
 -   **Version 2.6.3 - September 2026**
     -   New:
         -   New model support

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-retail-store-services.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Retail version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,11 @@ Version history for the Retail Store Services application on the ServiceNow Stor
 
 ## Version history
 
+-   **Version 5.1.0 - October 2026 \(Brazil\)**
+    -   New: Moveworks Webhooks: Added MoveworksWebhookHelper, MoveworksAuthStrategy, an async Business Rule, and a Connection &amp; Credential Alias to dispatch lifecycle events to Moveworks.
+    -   Changed
+        -   Moveworks Auth: Consolidated MoveworksAuthStrategy to API Key only, removing previously non-functional OAuth CC, JWT-OAuth, and HMAC branches.
+        -   Enabled access for store associates to write install\_base on retail break-fix case
 -   **Version 5.0.4 - September 2026 \(Brazil\)**
 
     New: Java 21 compatibility

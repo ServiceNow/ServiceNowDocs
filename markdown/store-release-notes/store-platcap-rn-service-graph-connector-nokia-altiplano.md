@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-service-graph-connector-nokia-altiplano.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\) version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
@@ -17,6 +17,10 @@ Version history for the Service Graph Connector for NOKIA Altiplano application 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 4.1.0 - October 2026**
+
+    This release brings the connector to the same validated engineering standard as the rest of the family through a comprehensive readiness remediation covering documentation, test reporting, and configuration guardrails. This ensures future changes to this connector are validated more consistently. Version and platform metadata are aligned with the October 2026 store release. OLT and ONU discovery behavior is unchanged from the September 2026 release.
 
 -   **Version 4.0.0 - September 2026**
 

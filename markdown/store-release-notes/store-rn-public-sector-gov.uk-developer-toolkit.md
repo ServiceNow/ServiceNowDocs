@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-public-sector-gov.uk-developer-toolkit.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Public Sector Industry version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,12 @@ Version history for the ServiceNow® GOV.UK Developer Toolkit application on the
 
 ## Version history
 
+-   **Version 1.5.1 - October 2026**
+    -   This version adds three GDS page patterns to the GDS portal which are:
+        -   Question pages: Forms experience where the questions are surfaces one by one on the UI, and the user can see their responses at the bottom and make changes to them
+        -   Step by step navigation: Where a user can see all the steps required to complete a task in one view
+        -   Confirmation page: Where a user sees the confirmation page after submitting their answer to the last question.
+        -   Exit a page: This button gives users a way to quickly and safely exit a service, website or application.
 -   **Version 1.4.2 - September 2026**
 
     This release resolves some accessibility defects which makes Gov.UK Developer Toolkit WCAG 2.2 AA conformant.

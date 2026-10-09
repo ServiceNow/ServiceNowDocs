@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-retail-store-audit.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Retail version history release notes, ServiceNow Store version history release notes]
 ---
@@ -17,6 +17,18 @@ Version history for the ServiceNow® Retail Store Audit application on the Servi
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 2.4.0 - October 2026 \(Brazil\)**
+    -   New
+        -   New cases created from the Store Audit Plan will populate Template item and Template execution columns.
+        -   Changes done for populating the Schedule\_Occurrence column on Cases.
+        -   The store audit organization picker is now filtered by the user's hierarchy and organization subtype.
+    -   Changed:
+        -   New cases created from the Store Audit Plan will no longer populate the Origin field.
+        -   Dependency updates
+-   **Version 1.5.2 - October 2026 \(Australia\)**
+
+    New: The store audit organization picker is now filtered by the user's hierarchy and organization subtype.
 
 -   **Version 2.0.5 - September 2026 \(Brazil\)**
 

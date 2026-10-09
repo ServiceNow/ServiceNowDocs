@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-vr-palo-alto-prisma-cloud.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-10-08"
 reading_time_minutes: 3
 breadcrumb: [ServiceNow Store - Vulnerability Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,14 @@ Version history for the Vulnerability Response Integration with Palo Alto Prisma
 
 ## Version history
 
+-   **Version 30.3.1 - October 2026 \(USEM\)**
+    -   Fixed:
+        -   Fixed an issue where the Prisma Cloud integration created duplicate Configuration Items for AWS assets instead of reconciling with existing items.
+        -   Fixed an issue where a Discovered Item remained in a Decommissioned state even after its resource became active again.
+-   **Version 2.10.1 - October 2026**
+    -   Fixed:
+        -   Fixed an issue where the Prisma Cloud integration created duplicate configuration items for AWS assets instead of reconciling with existing items.
+        -   Fixed an issue where a discovered item remained in a Decommissioned state even after its resource became active again.
 -   **Version 30.2.0 - June 2026 \(USEM\)**
 
     Changed: Updated Access Control Lists \(ACLs\) for queries on the app-vul-prismacloud repository in the Prisma Cloud \(Redlock\) integration to align with internal security directives.

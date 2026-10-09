@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-hr
 release: store
 topic_type: reference
 last_updated: "2025-10-16"
-reading_time_minutes: 11
+reading_time_minutes: 12
 breadcrumb: [ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -34,6 +34,8 @@ Version history for the HR Service Delivery Alumni Center on the ServiceNow Stor
 Version history for the Career Assessment Application on the ServiceNow Store.
 -   **[Career Conversations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr-egd-activities.md)**  
 Version history for the Career Conversations application on the ServiceNow Store.
+-   **[Case and Knowledge Management for EmployeeWorks and Employee Slate release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esm-case-knowledge-mgmt-employeeworks-employee-slate.md)**  
+Version history for the ServiceNow® Case and Knowledge Management for EmployeeWorks and Employee Slate application on the ServiceNow Store.
 -   **[Contact Tracing release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr-contact-tracing.md)**  
 Version history for the Safe Workplace Contact Tracing application on the ServiceNow Store.
 -   **[Content Analytics release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr-content-analytics.md)**  
@@ -62,6 +64,8 @@ Version history for the Document Template integration with Digital Signatures us
 Version history for the Document Template integration with Docusign on the ServiceNow Store.
 -   **[Document Templates release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr-document-templates.md)**  
 Version history for the Document Templates application on the ServiceNow Store.
+-   **[E-Signature for EmployeeWorks and Employee Slate release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esm-e-signature-employeeworks-employee-slate.md)**  
+Version history for the ServiceNow® E-Signature for EmployeeWorks and Employee Slate application on the ServiceNow Store.
 -   **[Emergency Exposure Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-bcm-emerg-exp-mgmt.md)**  
 Version history for the Emergency Exposure Management on the ServiceNow Store.
 -   **[Emergency Outreach release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-bcm-emerg-outreach.md)**  
@@ -80,6 +84,8 @@ Version history for the Employee Experience Foundation application on the Servic
 Version history for the Employee experience taxonomy application on the ServiceNow Store.
 -   **[Employee Goals release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr-employee-goals.md)**  
 Version history for the Employee Goals application on the ServiceNow Store.
+-   **[Employee Journeys for EmployeeWorks and Employee Slate release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-esm-employee-journeys-employeeworks-employee-slate.md)**  
+Version history for the ServiceNow® Employee Journeys for EmployeeWorks and Employee Slate application on the ServiceNow Store.
 -   **[Employee Health Screening release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr-employee-health-screening.md)**  
 Version history for the Safe Workplace Employee Health Screening application on the ServiceNow Store.
 -   **[Employee Profile release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-hr-employee-profile.md)**  

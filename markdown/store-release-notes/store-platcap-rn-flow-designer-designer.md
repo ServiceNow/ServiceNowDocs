@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-flow-designer-designer.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 3
+last_updated: "2026-10-08"
+reading_time_minutes: 4
 breadcrumb: [ServiceNow Store - Other ServiceNow AI Platform Capabilities applications version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -17,6 +17,19 @@ Version history for the Workflow Studio - Designer application on the ServiceNow
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 30.1.0 - October 2026 \(Brazil\)**
+    -   Changed: Updated the application branding to ServiceNow Otto.
+    -   Fixed:
+        -   Restored the Copy Subflow action.
+        -   Decision tables now report the reason for failure when execution fails.
+        -   Execution details now allow direct navigation to specific For Each loop iterations.
+-   **Version 29.7.0 - October 2026 \(Australia\)**
+    -   Changed: Updated the application branding to ServiceNow Otto.
+    -   Fixed: The Flow Designer condition builder now allows all field types, including GUID fields, to be used in the pill picker for Look Up Record conditions. This resolves errors that previously prevented selection of non-GUID fields after the Australia upgrade.
+-   **Version 28.0.18 - October 2026 \(Zurich\)**
+
+    Fixed: Updated the API used by flow recommendations.
 
 -   **Version 30.0.7 - September 2026**
     -   Changed: Rebranded application to use ServiceNow Otto.

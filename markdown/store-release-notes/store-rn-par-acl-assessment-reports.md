@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-par-acl-assessment-reports.html
 release: store
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 1
+last_updated: "2026-10-08"
+reading_time_minutes: 2
 breadcrumb: [ServiceNow Store - Platform Analytics version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -17,6 +17,10 @@ Version history for the ACL Assessment for Reports application on the ServiceNow
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 4.0.7 - October 2026**
+
+    New: Enhanced the ACL Assessment for Reports scanner to check the conditions set in the Core UI reports and Next Experience UI Data visualizations and inform if there are ACLs blocking the view of the charts
 
 -   **Version 3.1.2 - February 2025**
 

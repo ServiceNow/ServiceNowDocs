@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-retail-mobile.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 1
+last_updated: "2026-10-08"
+reading_time_minutes: 2
 breadcrumb: [ServiceNow Store - Retail version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,17 @@ Version history for the Retail Mobile application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 4.1.0 - October 2026 \(Brazil\)**
+
+    New
+
+    -   New
+        -   Integration with Strategic Portfolio Management \(SPM\) through which all store opening, closing, relocation and refurbishment project tasks to be performed at the store can be made visible to store employees on Retail mobile.
+        -   Adds a Projects navigation entry to My Store and a Tasks segment to My Work when App SPM Retail is installed, surfacing customer\_project\_task records.
+        -   Architecture: Added if/app-spm-retail/ conditional folder so all SPM-RO artifacts install only when App SPM Retail is present, with no runtime guard logic needed at the screen level.
+    -   Changed
+        -   My Work: Reuses the existing unified My Work list with a new sys\_sg\_filter\_category pill targeting customer\_project\_task rather than introducing a separate list screen .
+        -   Added due date field on retail case card and retail task
 -   **Version 4.0.4 - September 2026 \(Brazil\)**
 
     New: Java 21 compatibility

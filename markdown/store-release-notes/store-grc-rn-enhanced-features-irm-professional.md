@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-grc-rn-enhanced-features-irm-professional.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,9 @@ Version history for the ServiceNow® Enhanced Features for IRM Professional appl
 
 ## Version history
 
+-   **Version 23.1.0 - October 2026 \(Brazil\)**
+    -   Changed: Added support for NowLLM gemma
+    -   Fixed: Fixed skills not accessible due to AI native and Professional plus SKU
 -   **Version 23.0.2 - September 2026 \(Brazil\)**
 
     Fixed: Otto branding and logo changes

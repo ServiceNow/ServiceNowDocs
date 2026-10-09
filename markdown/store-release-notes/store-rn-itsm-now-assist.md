@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itsm-now-assist.html
 release: store
 topic_type: reference
-last_updated: "2026-08-06"
-reading_time_minutes: 25
+last_updated: "2026-10-08"
+reading_time_minutes: 28
 breadcrumb: [ServiceNow Store - IT Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,55 @@ Version history for the ServiceNow Otto for ITSM on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 18.0.2 - October 2026**
+    -   New
+        -   Incident Analyzer
+            -   Automatically investigates new incidents and writes a summary to the work notes:
+                -   What happened, likely cause, and supporting evidence.
+                -   Who to contact and proposed assignment groups.
+                -   Potentially responsible CIs and changes.
+                -   Related incidents, events, and alerts.
+                -   Investigation gaps.
+            -   Ships inactive. Admins can activate it and configure triggers; P1 and P2 incidents are the default scope.
+            -   Sections are omitted when the underlying data isn't available on the instance.
+            -   Each run consumes 4 assists.
+    -   Changed
+        -   Create and Edit Knowledge in the AI-native fulfiller experience
+            -   Now compatible with UI 26, so fulfillers can create and update knowledge articles without leaving the experience.
+        -   Gemma 4 model support and Now LLM deprecation
+            -   Gemma 4 26B-A4B is now a supported ServiceNow-hosted model, including for self-hosted deployments. It is not the default model.
+            -   Gemma 4 replaces GPT-OSS for Guardian moderation. By default, Guardian logs only for agents and conversations and blocks for skills.
+            -   Now LLM models Apriel and GPT-OSS are deprecated and will not receive long-term support.
+        -   Change AI Specialist guided conversational experience
+            -   Asks for human input only when needed, such as when mandatory fields can't be auto-populated, risk exceeds a threshold, conflicts are detected, or policy requires approval.
+            -   Asks focused questions instead of presenting forms, and explains why input was needed.
+            -   All interactions are captured in the change record's work notes.
+    -   Fixed
+        -   Investigate and resolve ITSM incidents workflow
+            -   Now runs after being duplicated to a subdomain with global scope.
+            -   No longer ends in a Terminated state or fails with a generic error.
+            -   The work notes tool no longer updates the wrong incident when incident numbers are duplicated.
+            -   No longer omits information in Dutch, French, Portuguese \(Brazil\), Spanish, Japanese, Italian, and German with certain models.
+            -   Instructions now reference the AI agent configured in the workflow.
+        -   Change quality and assessment
+            -   The Assess quality of a change request workflow no longer stalls waiting for confirmation when launched from the UI action.
+            -   The Change Quality Assessor agent now shows display names instead of internal field names, and saves internal values to the quality score table.
+            -   The Change Assessor workflow now validates the change record before running its tools.
+        -   Incident classification and triage
+            -   The Classify service and CI AI agent no longer overwrites populated Service, Service offering, or Configuration item fields.
+            -   The Triage and Categorize workflow no longer asks the user for input unexpectedly.
+        -   Requested Item Summarization
+            -   Summaries now match the requested item being viewed.
+            -   Summaries are no longer empty in Portuguese \(Brazil\) with Now LLM.
+        -   Incident record experience
+            -   The Assign button in Service Operations Workspace now generates hyperlinks.
+            -   The Now Assist modal now respects UI policies that make Assigned to optional.
+            -   Work notes bullet formatting no longer breaks when a field is changed and saved.
+            -   Incident Assist options now display in Japanese when that is the user's language.
+            -   Post Incident Report generation is faster.
+        -   SME AI agents
+            -   The SharePoint SME AI agent now reports a diagnosis with resolution pending when remedial action is disabled.
+            -   The Zscaler SME AI agent's Action Engagement tool no longer fails on invalid input format.
 -   **Version 17.0.5 - August 2026**
     -   New:
         -   AI can now automatically complete Change Risk Assessment and Dynamic Schema questions based on the change record's context, showing its reasoning for each answer so admins and change managers can verify or correct it. Answers that identify compliance exposure \(for example SOX, PCI-DSS, or HIPAA\) automatically populate the matching Dynamic Schema fields.

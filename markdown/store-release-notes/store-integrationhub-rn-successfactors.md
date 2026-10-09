@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-successfactors.html
 release: store
 topic_type: reference
-last_updated: "2026-08-06"
-reading_time_minutes: 6
+last_updated: "2026-10-08"
+reading_time_minutes: 7
 breadcrumb: [ServiceNow Store - Integration Hub version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,15 @@ Version history for the Integration Hub SuccessFactors spoke on the ServiceNow S
 
 ## Version history
 
+-   **Version 4.12.0 - October 2026**
+    -   Added:
+        -   OAuth API script to support personal authentication
+        -   Sample subflow showcasing personal auth use case where the action can derive the employee ID and employee profile for the authenticated user and optionally his/her reportees info so that the employee ID can be further parsed to subsequent actions as needed
+        -   Updated the existing actions and sample subflows to be personal auth compatible
+        -   Added more output fields for the Look up Users action
+    -   Fixed:
+        -   Added null check for response parsing in Look up Rated Skills Mapping Stream
+        -   Fixed remote table from not properly populating
 -   **Version 4.11.1 - August 2026**
 
     Fixed: Cleanup of Obsolete XML Configuration for Field Read-Only Attribute

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-releaseops.html
 release: store
 topic_type: reference
-last_updated: "2026-08-06"
-reading_time_minutes: 6
+last_updated: "2026-10-08"
+reading_time_minutes: 9
 breadcrumb: [ServiceNow Store - Other ServiceNow AI Platform Capabilities applications version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,48 @@ Version history for the ReleaseOps application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 3.0.5 - October 2026**
+    -   ReleaseOps v3.0.2 \(10.2026\) — Release Notes
+    -   New: Deployment Request Lifecycle
+        -   New: Deployment Requests can now be assessed before being attached to a Release by specifying a pipeline directly on the DR. Teams can validate changes earlier without needing to create or assign a release first.
+        -   New: A default pipeline and destination environment can be configured at the system level for on-demand Deployment Requests, reducing manual setup for repeated deployments.
+        -   New: Code Diff analysis is now supported on Deployment Requests that are not attached to a Release.
+    -   Changed: Deployment Request Lifecycle
+        -   Changed: When a pipeline is selected on a Deployment Request, the Release list is automatically filtered to show only compatible releases — reducing the risk of pipeline/release mismatch.
+        -   Changed: A confirmation dialog is now shown when the pipeline on a Deployment Request does not match the pipeline on the selected Release, preventing silent misconfigurations.
+        -   Changed: Work notes are updated when update sets are already committed on shared test environments during re-assessment, providing better visibility into assessment progress.
+    -   Fixed: Deployment Request Lifecycle
+        -   Fixed: Cancelling an On Demand Deployment Request now immediately stops the active assessment playbook — Previously, the playbook would continue running after cancellation. \(PRB2060086\)
+        -   Fixed: A commit failure during the Assessment phase is now surfaced correctly — Previously, the Deployment Request would be silently deferred at release time instead of reporting the failure. \(PRB2000711\)
+    -   Release Management
+        -   Fixed: Clearing the freeze date or release date on a Release now correctly removes the associated scheduled jobs — Previously, stale scheduled jobs could accumulate on the system. \(PRB2061675\)
+        -   Update Set Operations
+        -   Fixed: Releases no longer fail when a Deployment Request's update set is already present on the production environment. \(PRB2025380\)
+    -   Pipeline Configuration
+        -   Fixed: On-demand Deployment Requests now correctly use the configured default pipeline and destination environment — Previously, these properties were not applied. \(PRB2085070\)
+        -   Fixed: The Pipeline and Destination Environment fields on a Deployment Request are now pre-populated correctly for ReleaseOps developers. \(PRB2088087\)
+    -   Multi-Instance Operations
+        -   Fixed: Self-referential \(same-instance\) pull update set operations no longer incorrectly require a MIF trust profile item. \(PRB2066629\)
+    -   Work Notes &amp; Messaging
+        -   Fixed: The email notification link for Deployment Requests is now generated correctly — Previously, a reference to a removed method caused the link to be broken. \(PRB2078506\)
+-   **Version 2.4.3 - October 2026 \(Australia\)**
+    -   Defect fixes
+        -   Release Management
+            -   Fixed: Scheduled jobs tied to a release are now correctly deleted when the release's freeze date or release date is cleared. \(PRB2061675\)
+        -   Deployment Request Lifecycle
+            -   Fixed: A Deployment Request update set that's already present on production no longer causes the release to fail. \(PRB2025380\)
+            -   Fixed: The assessment playbook for an on-demand Deployment Request is now cancelled immediately when the request itself is cancelled - Previously it kept running. \(PRB2060086\)
+        -   Work Notes &amp; Messaging- Fixed: The email link in Deployment Request notifications is no longer broken. \(PRB2078506\)
+-   **Version 1.5.5 - October 2026 \(Zurich\)**
+    -   Defect Fixes
+        -   Deployment Request Lifecycle
+            -   Fixed: On-Demand Deployment Request Assessment playbooks are now cancelled immediately when the Deployment Request is cancelled - Previously, the playbook could continue running after cancellation. \(PRB2060086\)
+        -   Release Management
+            -   Fixed: Scheduled jobs are now correctly removed when a release's freeze date or release date is cleared - Previously, stale scheduled jobs could remain and fire unexpectedly. \(PRB2061675\)
+        -   Update Set Operations
+            -   Fixed: Releases no longer fail when an update set from a Deployment Request is already present on the production instance. \(PRB2025380\)
+        -   Work Notes &amp; Messaging
+            -   Fixed: The update set email notification link now works correctly - Previously, the link pointed to a removed function and would not load. \(PRB2078506\)
 -   **Version 2.3.2 - August 2026**
     -   Defect Fixes
         -   Deployment Request Lifecycle

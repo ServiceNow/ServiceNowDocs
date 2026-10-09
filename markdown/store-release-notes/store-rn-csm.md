@@ -90,12 +90,14 @@ Version history for the CSM Configurable Workspace application on the ServiceNow
 Version history for the ServiceNow® CSM Contributor User application on the ServiceNow Store.
 -   **[CSM Data Classification release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm-data-classification.md)**  
 Version history for the CSM Data Classification application on the ServiceNow Store.
--   **[Customer Proxy Contacts release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm-extension-for-proxy-contacts.md)**  
-Version history for the ServiceNow® Customer Proxy Contacts application on the ServiceNow Store.
 -   **[CSM Manager Dashboard release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm-manager-dashboard.md)**  
 Version history for the ServiceNow® CSM Manager Dashboard application on the ServiceNow Store.
 -   **[CSM MCP Server release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm-mcp-server.md)**  
 Version history for the ServiceNow® CSM MCP Server application on the ServiceNow Store.
+-   **[CSM Urban Planning Administration release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm-urban-planning-administration.md)**  
+Version history for the ServiceNow® CSM Urban Planning Administration application on the ServiceNow Store.
+-   **[Customer Proxy Contacts release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm-extension-for-proxy-contacts.md)**  
+Version history for the ServiceNow® Customer Proxy Contacts application on the ServiceNow Store.
 -   **[Customer Central release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm-customer-central.md)**  
 Version history for the Customer Central application on the ServiceNow Store.
 -   **[Customer Contracts and Entitlements release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm-customer-contracts-entitlements.md)**  

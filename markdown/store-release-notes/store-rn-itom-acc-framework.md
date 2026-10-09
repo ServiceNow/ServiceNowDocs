@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-acc-framework.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 20
+last_updated: "2026-10-08"
+reading_time_minutes: 21
 breadcrumb: [ServiceNow Store - IT Operations Management version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,17 @@ Version history for the IT Operations Management Agent Client Collector Framewor
 
 ## Version history
 
+-   **Version 7.1.1 - October 2026**
+    -   New:
+        -   AI Proxy Integration with ACC
+            -   Built-in AI proxy: Integrates AI traffic interception and discovery into Agent Client Collector, enabling visibility into AI usage and governance.
+            -   Adds ACC AI-proxy  commands for setup, teardown, and configuration verification, including OS trust-store, and system-proxy.
+            -   Adds AI proxy setup and cleanup to Windows, Linux, and macOS installation workflows, preserving enablement state during upgrades and adding safeguards when uninstall teardown fails.
+            -   Sends AI interaction events, shallow discovery sessions, CA certificate information, and proxy startup status through the pipeline, with the OpenTelemetry-compatible OTLP/JSON formatting.
+    -   Fixed:
+        -   Fixed OpenSSL vulnerabilities in 3.4.6, by upgrading to 3.4.7.
+        -   'Related Links' support for NP VDI agent record.
+        -   Policy calculation now correctly retains Configuration Items \(CIs\) when the calculation window differs from the removal window.
 -   **Version 7.0.4 - September 2026**
     -   New:
         -   Maintenance Token Protection for Windows Uninstalls

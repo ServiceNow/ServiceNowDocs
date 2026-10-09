@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-itbm-rn-export-to-powerpoint.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Strategic Portfolio Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,10 @@ Version history for the Export to PowerPoint application on the ServiceNow Store
 
 ## Version history
 
+-   **Version 2.5.0 - October 2026**
+    -   New:
+        -   Roadmap export now supports quarters and years views.
+        -   Users can export timelines in quarters or years mode with accurate placement of items, milestones, and dependency lines.
 -   **Version 2.4.2 - September 2026**
 
     Fixed: Exporting the SPW Roadmap to PowerPoint now preserves "Color by Status" formatting. Roadmap items with no status are handled correctly, preventing export crashes and ensuring all items display appropriate colors.

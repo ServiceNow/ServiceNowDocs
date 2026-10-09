@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-public-sector-psds-investigative-case-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 4
 breadcrumb: [ServiceNow Store - Public Sector Industry version history release notes, ServiceNow Store version history release notes]
 ---
@@ -16,6 +16,10 @@ Version history for the ServiceNow® PSDS Investigative Case Management applicat
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
+-   **Version 3.0.1 - October 2026**
+    -   Added lead management capabilities for lead submission, intake, triage, assignment, tracking, and investigation workflows, including portal experiences for submitting and monitoring leads.
+    -   Introduced Knowledge Graph and Link Analysis capabilities, including AI-powered relationship exploration and entity-centric investigative analysis.
+    -   Improved configurability of priority determination and information completeness criteria.
 -   **Version 2.8.0 - September 2026**
 
     New Feature: Investigators can see the Link Analysis - Node Map for each entity in the Link Analysis Tab

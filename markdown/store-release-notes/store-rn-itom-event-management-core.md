@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-event-management-core.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 4
 breadcrumb: [ServiceNow Store - ITOM AIOps version history release notes, ServiceNow Store - IT Operations Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,10 @@ Version history for the Event Management Core on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 23.19.1 - October 2026**
+    -   Changed:
+        -   ServiceNow Otto branding update: All references to "Now Assist" have been updated to "ServiceNow Otto" across the em-scoped-app and em-arm modules. UI labels, flow descriptions, hint texts, and rule labels now consistently use the new product name to align with branding changes.
+        -   Minor UI changes have reduced system resource usage.
 -   **Version 23.18.4 - September 2026**
 
     Changed: Minor UI changes to reduce system resources

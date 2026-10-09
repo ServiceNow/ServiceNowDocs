@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-grc-rn-third-party-risk-mgmt-advanced.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,11 @@ Version history for the ServiceNow® Third-party Risk Management Advanced applic
 
 ## Version history
 
+-   **Version 23.1.0 - October 2026 \(Brazil\)**
+    -   Changed:
+        -   Updated AI model configuration to support Gemma 4 26B A4B for issue recommendation and summarization skills
+        -   Updated skill configuration prompts for TPRM issue summarization with Now LLM Generic model
+        -   Updated AI asset subscription records to support Mixed AI Native SKU licensing
 -   **Version 23.0.3 - September 2026 \(Brazil\)**
 
     Changed: Updated the dependency versions to take advantage of latest updates from the Third-party Risk management application. Refer to the dependency app store release notes for details.

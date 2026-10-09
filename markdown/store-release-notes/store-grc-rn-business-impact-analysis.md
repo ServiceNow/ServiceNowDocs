@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-grc-rn-business-impact-analysis.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 7
 breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance version history release notes, ServiceNow Store version history release notes]
 ---
@@ -17,6 +17,10 @@ Version history for the GRC: Business Impact Analysis on the ServiceNow Store.
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 12.1.3 - October 2026 \(Brazil\)**
+
+    Added knowledge graph support for BCM apps.
 
 -   **Version 12.0.5 - September 2026 \(Brazil\)**
     -   New: Group ownership for BCM records is now supported - Customers can assign a group of users as owners for Business Impact Analyses \(BIAs\), Plans, and Event records in the BCM application.Collaborator synchronization for BIAs using Smart Assessment templates. When a BIA is created from a Smart Assessment template, the group owners and contributor list are automatically sync to Smart Assessment \(SAE\) instance. The Owner group manager will map to the SAE assessment owner\(BIA owner will sync as assessment owner if exist\), and other group members , contributors added to SAE collaborators.

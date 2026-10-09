@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-convo-int-google-chat.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Customer Service Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,14 @@ Version history for the Conversational Integration with Google Chat application 
 
 ## Version history
 
+-   **Version 3.0.5 - October 2026**
+    -   Fixed:
+        -   Consistent, correct message ordering has been restored \[PRB2087054\]
+        -   Formatting issues related to Markdown convention in catalog item messages have been resolved \[PRB2087052\]
+        -   When presented with a picker, the "You selected ..." message no longer gets duplicated after the user selects an option and submits \[PRB2071906\]
+        -   \[PRB2064064\]
+            -   Regex issues addressed
+            -   Resolves search term quote stripping being too narrow
 -   **Version 3.0.3 - July 2026**
 
     Enhanced a few Picker scenarios and fixed Catalog links for Synthesized Response.

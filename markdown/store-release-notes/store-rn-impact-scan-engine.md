@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-impact-scan-engine.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 6
+last_updated: "2026-10-08"
+reading_time_minutes: 7
 breadcrumb: [ServiceNow Store - Impact version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,19 @@ Version history for the ServiceNow® Scan Engine application on the ServiceNow S
 
 ## Version history
 
+-   **Version 7.0.3 - October 2026**
+    -   New:
+        -   Category-weighted Instance Health Score: The Instance Health Score now uses a category-weighted calculation across Security, Performance, Manageability, Upgradeability, and User Experience to provide a more representative view of overall instance health.
+        -   Consistent scoring across scan types: Full and Delta scans now use the same instance-wide counting scope, providing consistent score calculations across both scan types.
+        -   Human-readable finding numbers: Each scan finding now includes a unique, human-readable number, making findings easier to reference, track, and manage.
+    -   Changed: Faster On-Demand Definition Scans: On-Demand Definition Scans now evaluate only the files relevant to the selected definitions, improving scan performance and reducing processing time.
+    -   Fixed:
+        -   Fixed an issue where the Fix with Now Assist button remained enabled when the associated skill was deactivated.
+        -   Fixed an issue where on-demand scan requests did not return the correct asynchronous response code.
+        -   Improved input validation and error handling for Scan Engine REST API endpoints.
+        -   Resolved a security vulnerability in the exception modal.
+        -   Added the missing access control for exception reason lookups.
+        -   Fixed an issue where dashboard links did not open correctly in Next Experience.
 -   **Version 6.0.3 - September 2026**
     -   New:
         -   Headless Scan Engine APIs for CI/CD and ReleaseOps: Scan Engine can now be triggered, monitored, and queried outside the ServiceNow UI using REST APIs. Customers can start scans, check status, retrieve results, cancel scans, and access findings programmatically. This enables integration with CI/CD pipelines such as Jenkins and GitHub Actions to implement automated quality gates.

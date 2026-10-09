@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-air-usage-insight-data-export.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-10-08"
 reading_time_minutes: 2
 breadcrumb: [ServiceNow Store - Platform Analytics version history release notes, ServiceNow Store version history release notes]
 ---
@@ -17,6 +17,10 @@ Version history for the ServiceNow® Usage Insight Data Export application on th
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 1.0.4 - October 2026**
+
+    Fixed: store app - valk url fix.
 
 -   **Version 1.0.1 - July 2026**
     -   Usage Insight Data Export lets you programmatically export your User Experience Analytics \(UXA\) usage data from ServiceNow so you can analyze it alongside data from your other systems. Submit an export request through a simple REST API, and your data is processed asynchronously and delivered in batches to a dedicated, account-isolated messaging topic that you consume with a standard Kafka client.

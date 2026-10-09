@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-psm-procurement-common-architecture.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 18
 breadcrumb: [ServiceNow Store - Sourcing and Procurement Operations version history release notes, ServiceNow Store - Source-to-Pay Operations version history release notes, ServiceNow Store version history release notes]
 ---
@@ -17,6 +17,14 @@ Version history for the Source-to-Pay Common Architecture application on the Ser
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 25.0.3 - October 2026 \(Australia\)**
+
+    Fixed: Fixed an issue where the purchase requisition total amount was not populated when a quote was submitted using the I need to submit a quote record producer. The purchase requisition now correctly reflects the total amount from the submitted quote.
+
+-   **Version 23.0.3 - October 2026 \(Zurich\)**
+
+    Fixed: Fixed an issue where the purchase requisition total amount was not populated when a quote was submitted using the I need to submit a quote record producer. The purchase requisition now correctly reflects the total amount from the submitted quote.
 
 -   **Version 25.0.0 - September 2026 \(Australia\)**
     -   New:

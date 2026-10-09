@@ -16,10 +16,6 @@ The ServiceNow Store contains Security Operations apps for both Security Inciden
 
 Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store.
 
--   **[Access Analysis AI Agents release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-secops-access-analysis-ai-agents.md)**  
-Version history for the ServiceNow® Access Analysis AI Agents application on the ServiceNow Store.
--   **[Access Analyzer release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-platsec-rn-access-analyzer.md)**  
-Version history for the Access Analyzer on the ServiceNow Store.
 -   **[Early Warning for Security Exposure Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-secops-early-warning-security-exposure-mgmt.md)**  
 Version history for the ServiceNow® Early Warning for Security Exposure Management application on the ServiceNow Store.
 -   **[Security Exposure Management Workspace release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-secops-rn-security-exposure-mgmt-ws.md)**  

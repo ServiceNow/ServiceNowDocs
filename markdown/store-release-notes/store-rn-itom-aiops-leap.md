@@ -1,23 +1,28 @@
 ---
-title: LEAP release notes
-description: Version history for the LEAP application on the ServiceNow Store.
+title: AIOps LEAP release notes
+description: Version history for the AIOps LEAP application on the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-aiops-leap.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 5
+last_updated: "2026-10-08"
+reading_time_minutes: 6
 breadcrumb: [ServiceNow Store - ITOM AIOps version history release notes, ServiceNow Store - IT Operations Management version history release notes, ServiceNow Store version history release notes]
 ---
 
-# LEAP release notes
+# AIOps LEAP release notes
 
-Version history for the LEAP application on the ServiceNow Store.
+Version history for the AIOps LEAP application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
 
+-   **Version 4.4.0 - October 2026**
+    -   New: October 3P Model support is now available across all LEAP skills. The LEAP platform introduces Gemma 4 26B A4B IT as a new NowLLM model for the October release, set as the default within NowLLM's model pool for all skills. Admins can enable and configure 3P Model support, and users can utilize expanded GenAI model catalog capabilities as intended.
+    -   Removed:
+        -   NowLLM v2 model tier \(llmgenericlargev2, llmgenericlargev2-lts, llmgenericsmall\_v2-lts\) has been retired and is no longer available in the model catalog.
+        -   Gemini large, Gemini small, and Claude Sonnet 4.5 models have been retired. Gemini-3.5-flash and Claude Sonnet 4.6 remain as replacements.
 -   **Version 4.3.1 - September 2026**
     -   New:
         -   Knowledge base article improvements

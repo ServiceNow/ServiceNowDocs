@@ -18,6 +18,20 @@ Version history for the ServiceNow Oracle E-Business Suite Spoke Dependencies in
 
 ## Version history
 
+-   **Version 1.12.0 - October 2026**
+    -   Added/updated new dependency files to support 3 new actions released in Oracle EBS Spoke v1.15.
+    -   The 3 new actions for OEBS Spoke are:
+        -   Look up Purchase Requisition
+        -   Create Purchase Requisition
+        -   Submit Purchase Requisition - Run Concurrent Program
+    -   The added/updated dependency files needed are:
+        -   xxsn\_common\_integration\_pkg.pkb
+        -   xxsn\_po\_integration\_pkg.pkb
+        -   xxsn\_po\_integration\_pkg.pls
+-   **Version 1.1.0 - October 2026**
+
+    Added/updated 3 dependency files for OEBS Spoke v1.15 release
+
 -   **Version 1.0.1 - July 2026**
 
     Patch for Cancel Purchase Order action

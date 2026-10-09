@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-grc-rn-ai-risk-compliance-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 8
 breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,12 @@ Version history for the AI Risk and Compliance Management application on the Ser
 
 ## Version history
 
+-   **Version 23.1.1 - October 2026 \(Brazil\)**
+    -   New: Implemented EA integration with AI Asset intake process. Business application can be mapped to Asset record.
+    -   Fixed:
+        -   Bulk risk assessment creation issue.
+        -   Entity owner default user issue.
+        -   Implemented changes to enable improved security.
 -   **Version 23.0.3 - September 2026 \(Brazil\)**
     -   New:
         -   Enhanced AI Control Tower to automatically classify AI systems by risk at onboarding, helping identify managed and unmanaged assets and reducing manual review effort.

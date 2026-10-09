@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-source-to-pay-workspace.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 8
+last_updated: "2026-10-08"
+reading_time_minutes: 9
 breadcrumb: [ServiceNow Store - Sourcing and Procurement Operations version history release notes, ServiceNow Store - Source-to-Pay Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -17,6 +17,15 @@ Version history for the Source-to-Pay Workspace application on the ServiceNow St
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 21.0.3 - October 2026 \(Australia\)**
+    -   Changed:
+        -   Updated risk factor rendering so that Restricted and Not Restricted values apply only to the Origin Country risk factor; all other risk factors are displayed as percentiles.
+        -   Updated the performance factor threshold to support values greater than 100.
+        -   Updated button labels and improved error messaging for invalid values received from FedEx Dataworks.
+-   **Version 18.0.3 - October 2026 \(Zurich\)**
+
+    Fixed: Fixed an issue where the Purchase Lines related list could appear in the wrong tab in the Source-to-Pay Workspace. Purchase lines now display only in the appropriate tab for Purchase Requisitions and Sourcing Activities.
 
 -   **Version 21.0.0 - September 2026 \(Australia\)**
     -   New:

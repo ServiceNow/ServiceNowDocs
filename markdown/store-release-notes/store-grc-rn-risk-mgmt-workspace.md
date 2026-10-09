@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-grc-rn-risk-mgmt-workspace.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 12
+last_updated: "2026-10-08"
+reading_time_minutes: 13
 breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -17,6 +17,10 @@ Version history for the Risk Management Workspace application on the ServiceNow 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 23.1.0 - October 2026 \(Brazil\)**
+
+    \[New\]: This release adds UI Builder pages that support the correctness and suggestion capabilities of theData Quality Optimization for Governance, Risk, and Compliance Innovation Lab release. These pages appear as a side panel on any record page that has a GRC Advisor configuration defined in the Data Quality Optimization for Governance, Risk, and Compliance application. The side panel is available only when that application is installed and configured. Existing Risk Management Workspace functionality is unchanged.
 
 -   **Version 23.0.5 - September 2026 \(Brazil\)**
     -   New:

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-health-safety-incident-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 4
+last_updated: "2026-10-08"
+reading_time_minutes: 5
 breadcrumb: [ServiceNow Store - Health and Safety version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,11 @@ Version history for the Health and Safety Incident Management application on the
 
 ## Version history
 
+-   **Version 13.3.3 - October 2026**
+    -   New: Employees can view their Health and Safety incidents in EmployeeWorks. The My Requests page displays all incident records, enabling users to access details and updates for each incident directly within EmployeeWorks.
+    -   Fixed:
+        -   The injured person body-part labels correctly include Left/Right prefixes for symmetric body parts. Individual injury selections and data-driven side-specific values are preserved, and the body picker component no longer collapses multiple injuries to a single selection.
+        -   The Employee Center bundle reliably injects a framework de-duplication guard, preventing crashes in the body picker on customer Employee Center pages.
 -   **Version 13.3.2 - September 2026**
 
     Changed: Added support for Brazil and Australia, and removed support for Zurich.

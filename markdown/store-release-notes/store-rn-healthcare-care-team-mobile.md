@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-healthcare-care-team-mobile.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 1
+last_updated: "2026-10-08"
+reading_time_minutes: 2
 breadcrumb: [ServiceNow Store - Healthcare and Life Sciences version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,16 @@ Version history for the Care Team Mobile application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 1.5.1 - October 2026**
+    -   New Features:
+        -   Care Team Task fulfillment in FSM Mobile: Care team agents can view, update, and complete Care Team Tasks, including attached smart assessments, in FSM Mobile. Status, notes, and assessment results sync back to the desktop task.
+        -   Create Care Team Case: Care team members can create a Care Team Case from mobile with a title, description, and priority, all required.
+    -   Enhanced:
+        -   Care Team Case Assignment and Edit actions:
+            -   The case record screen now has an Assignment action, shown only while the case is unassigned, and an Edit action covering 8 case fields.
+            -   Care Team Task Assignment action: "Assign task" is renamed "Assignment" and now sets both assignment group and assignee.
+            -   Both Assignment actions: The assignee must be an active member of the selected group, and the server rejects anyone else.
+            -   Role-based user criteria for FSM Mobile icons: Six out-of-box user criteria records control home-screen icon visibility for the Biomed, EVS, Facilities, HCIT, catch-all, and base care team agent roles.
 -   **Version 1.3.0 - July 2026**
 
     This release includes internal platform improvements and maintenance updates. No new customer-facing features in this version.

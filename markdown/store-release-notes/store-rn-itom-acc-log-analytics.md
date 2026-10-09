@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-acc-log-analytics.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-10-08"
 reading_time_minutes: 2
 breadcrumb: [ServiceNow Store - IT Operations Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,9 @@ Version history for the Agent Client Collector Log Analytics application on the 
 
 ## Version history
 
+-   **Version 3.11.4 - October 2026**
+    -   Changed: ACC Log Analytics now usesFluent-based code and the ServiceNow SDK for AI-native development and faster releases.
+    -   Fixed: A security-related update.
 -   **Version 3.10.3 - June 2026**
 
     Changed: Enhanced to support onboarding of ACC Log Analytics data input in the SOW Integration Launchpad.

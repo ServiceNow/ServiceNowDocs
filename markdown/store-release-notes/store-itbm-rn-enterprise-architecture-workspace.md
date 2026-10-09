@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-itbm-rn-enterprise-architecture-workspace.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 12
+last_updated: "2026-10-08"
+reading_time_minutes: 14
 breadcrumb: [ServiceNow Store - Enterprise Architecture version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,29 @@ Version history for the Enterprise Architecture Workspace on the ServiceNow Stor
 
 ## Version history
 
+-   **Version 10.1.2 - October 2026 \(Zurich\)**
+    -   New: Added a unique Number to each TRM technical debt record in EA Workspace, making records easier to identify and reference.
+    -   Changed
+        -   Improved the Application Rationalization bubble chart so that the business application side panel opens on the default tab that matches your ServiceNow Otto Business application insights skill configuration. When insights are triggered automatically, the panel opens on the Insights tab. Otherwise, it opens on the Details tab.
+        -   Updated AI system associations for business applications to use the shared relationship model from Enterprise Architecture for AI Control Tower. You can continue to add and remove AI systems on business applications, and portfolio insights and dashboard counts reflect the updated associations.
+    -   Fixed
+        -   Fixed an issue where column personalization didn't work when the Actual Score toggle was turned on in the Application Rationalization list view side panel.
+        -   Fixed incorrect or misaligned Application Rationalization columns after using Autofit All Columns.
+        -   Removed unsupported column personalization actions from Gantt charts.
+        -   Strengthened query validation and access-control enforcement for Technology Reference Model lifecycle operations and workspace counts.
+-   **Version 10.1.3 - October 2026**
+
+    New:
+
+    -   New: Added a unique Number to each TRM technical debt record in EA Workspace, making records easier to identify and reference.
+    -   Changed:
+        -   Improved the Application Rationalization bubble chart so that the business application side panel opens on the default tab that matches your ServiceNow Otto Business application insights skill configuration. When insights are triggered automatically, the panel opens on the Insights tab. Otherwise, it opens on the Details tab.
+        -   Updated AI system associations for business applications to use the shared relationship model from Enterprise Architecture for AI Control Tower. You can continue to add and remove AI systems on business applications, and portfolio insights and dashboard counts reflect the updated associations.
+    -   Fixed
+        -   Fixed an issue where column personalization didn't work when the Actual Score toggle was turned on in the Application Rationalization list view side panel.
+        -   Fixed incorrect or misaligned Application Rationalization columns after using Autofit All Columns.
+        -   Removed unsupported column personalization actions from Gantt charts.
+        -   Strengthened query validation and access-control enforcement for Technology Reference Model lifecycle operations and workspace counts.
 -   **Version 10.0.3 - September 2026 \(Australia\)**
     -   New:
         -   Added domain separation support for AI Control Tower integration, so business application selection when associating an AI system is scoped to the global domain and the current domain. Viewing from a parent domain rolls up AI system associations from all of its child domains.

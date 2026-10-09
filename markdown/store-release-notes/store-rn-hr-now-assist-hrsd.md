@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-hr-now-assist-hrsd.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 5
 breadcrumb: [ServiceNow Store - HR Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,9 @@ Version history for the ServiceNow Otto for HRSD on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 13.6.4 - October 2026**
+    -   New: Employee Relations Case History summarizes past employee relations cases for an involved party.
+    -   Changed: This version has been enabled for mixed SKU environments.
 -   **Version 13.5.2 - September 2026**
 
     AICT positive feedback reporting for Now Assist Skills

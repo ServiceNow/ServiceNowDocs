@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-grc-rn-advanced-risk.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 18
+last_updated: "2026-10-08"
+reading_time_minutes: 19
 breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -17,6 +17,10 @@ Version history for the GRC: Advanced Risk on the ServiceNow Store.
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 23.1.2 - October 2026 \(Brazil\)**
+
+    \[New\]: This release adds a GRC Advisor configuration for the Risk and Risk Event tables, which enables correctness and suggestion capabilities on records in these tables. The configuration is available with the Innovation Lab release of theData Quality Optimization for Governance, Risk, and Compliance application and applies only when that application is installed.
 
 -   **Version 23.0.6 - September 2026 \(Brazil\)**
     -   New:

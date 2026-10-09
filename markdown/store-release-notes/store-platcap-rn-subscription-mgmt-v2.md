@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-subscription-mgmt-v2.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 6
 breadcrumb: [ServiceNow Store - Other ServiceNow AI Platform Capabilities applications version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
@@ -17,6 +17,10 @@ Version history for the Subscription Management v2 application on the ServiceNow
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 6.6.0 - October 2026**
+
+    Version update for backend only, with no customer-facing changes.
 
 -   **Version 6.5.0 - September 2026**
     -   New: The Cloud Capacity Dashboard now accurately reflects storage pooling across instances for shared environments. Instead of showing capacity at the individual instance level, the dashboard displays a unified pool view with "Total Purchased Pool Capacity" summing across all subscriptions \(instance-level and account-level\), a new "Hosting" indicator per instance, and "Used Pool Capacity" replacing the old per-instance usage columns.

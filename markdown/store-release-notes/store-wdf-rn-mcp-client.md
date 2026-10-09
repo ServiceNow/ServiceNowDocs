@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-wdf-rn-mcp-client.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Workflow Data Fabric version history release notes, ServiceNow Store version history release notes]
 ---
@@ -17,6 +17,10 @@ Version history for the ServiceNow® MCP Client application on the ServiceNow St
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 1.1.3 - October 2026**
+
+    MCP Client APIs now support product-level identification and telemetry. Users can now specify a product when interacting with MCP Client APIs, enabling tracking and aggregation of usage across products. Telemetry events are emitted for both MCP operations and tool invocations, allowing measurement of adoption and usage. Each operation and tool call generates a corresponding telemetry event, capturing product, method, server, status, and tool name.
 
 -   **Version 1.0.2 - July 2026**
 

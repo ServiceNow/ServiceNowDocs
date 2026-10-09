@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-sap-s4-hana-odata-spoke.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-10-08"
 reading_time_minutes: 2
 breadcrumb: [ServiceNow Store - Integration Hub version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,11 @@ Version history for the SAP S4 HANA OData Spoke application on the ServiceNow St
 
 ## Version history
 
+-   **Version 1.13.0 - October 2026**
+    -   Added 3 actions to support SAP 1909 EH8 and 2023 S/4HANA
+        -   Look up Payment Terms Stream
+        -   Look up Purchase Organizations Stream
+        -   Look up Purchase Groups Stream
 -   **Version 1.12.0 - June 2026**
 
     Security patch for non-glide ACLs
