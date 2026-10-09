@@ -19,7 +19,7 @@ The ServiceNow® Opportunity Marketplace application transforms internal mobilit
 -   Opportunity owners can select multiple user criteria when creating opportunities.
 -   Import an opportunity from the ServiceNow Project Workspace. Importing a project from the Project Workspace is only available with the Project type opportunity.
 
-See [Opportunity Marketplace overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/egd-opportunity-marketplace-ovrvw.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
@@ -38,18 +38,18 @@ The ServiceNow® Opportunity Marketplace application transforms internal mobilit
 
 ### What's new
 
--   **[Create project opportunities by importing project details from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/egd-create-other-opportunities.md)**
+-   **Create project opportunities by importing project details from Project Workspace**
 
     Opportunity owners create gigs, projects, and volunteer opportunities. Opportunity details for Project type opportunities can be imported from projects in the ServiceNow Project Workspace. These opportunities are different from internal jobs. OPM enables you to manage any opportunities that you create and track applications. The ability to create opportunities is based on user criteria.
 
--   **[Select multiple user criteria groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/egd-create-other-opportunities.md)**
+-   **Select multiple user criteria groups**
 
     Access to opportunities is controlled by assigning user criteria groups to an opportunity. From the Opportunity details page of the Create an opportunity widget, you can select multiple user criteria to manage access to the opportunity.
 
 
 ### What's changed
 
--   **[A new step is added in the task for creating opportunities.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/egd-create-other-opportunities.md)**
+-   **A new step is added in the task for creating opportunities.**
 
     You must select how you want to get started with creating an opportunity.
 
@@ -58,12 +58,12 @@ The ServiceNow® Opportunity Marketplace application transforms internal mobilit
         **Note:** This option is only visible when both Project Workspace and Opportunity Marketplace are installed.
 
     -   **Create on your own** enables Opportunity Marketplace opportunity owners to create opportunities of type **Gig**, **Project**, or **Volunteer**.
--   **[Enable selection of multiple user goups to manage which groups of users can view an opportunity.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/egd-create-other-opportunities.md)**
+-   **Enable selection of multiple user goups to manage which groups of users can view an opportunity.**
 
     Select multiple user criteria groups from the **Who can view this opportunity?** field on the Opportunity details widget page.
 
 
--   **[Import Project Workspace project information to create an opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/egd-create-other-opportunities.md)**
+-   **Import Project Workspace project information to create an opportunity**
 
     Opportunity Marketplace opportunity owners can create Project Opportunity types by importing projects from the ServiceNow® Project Workspace.
 
@@ -79,9 +79,9 @@ The ServiceNow® Opportunity Marketplace application transforms internal mobilit
 
         The sn\_ppm\_read role provides read-only access to the Portfolio, Program, and Timecard dashboards along with the Resources report to the assigned users.
 
--   **[Select multiple user criteria groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/egd-create-other-opportunities.md)**
+-   **Select multiple user criteria groups**
 
-    Opportunity owners can select multiple user criteria groups from the **Who can views this opportunity?** field on the Opportunity details page. For more information, see [Create opportunities in Opportunity Marketplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/egd-create-other-opportunities.md).
+    Opportunity owners can select multiple user criteria groups from the **Who can views this opportunity?** field on the Opportunity details page. For more information, see .
 
 
 -   **reource\_user [Resource management process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/r_ResourceManagementProcess.md)**

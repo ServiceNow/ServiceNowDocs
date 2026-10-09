@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/api-rn.h
 release: yokohama
 topic_type: topic
 last_updated: "2025-01-30"
-reading_time_minutes: 8
+reading_time_minutes: 6
 breadcrumb: [Features and changes by product, Release notes for upgrading from Xanadu, Learn about the Yokohama release, Yokohama release notes]
 ---
 
@@ -20,7 +20,7 @@ ServiceNow® APIs let you build custom applications and experiences. APIs were e
 -   Run client APIs whenever a client-based event occurs, such as when a form loads, a form is submitted, or a field value changes.
 -   Use inbound REST APIs to interact with various ServiceNow functionalities within your application.
 
-See [API implementation and reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/api-implementation-reference.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
@@ -80,7 +80,7 @@ ServiceNow® APIs let you build custom applications and experiences. APIs were e
 
 |Application|App Version|Class|Methods|
 |-----------|-----------|-----|-------|
-|ATF Test Generator and Cloud Runner|2.7.2|[TestGenerationApi – startJob\(String tableEncodedQuery, String userEncodedQuery, String catalogEncodedQuery, Number maxTestCount, Number maxTestCountPerTable, Number maxTestCountPerItem, String email, Boolean separateUpdateSetPerScope, String scopeForGeneratingTests, String suiteName\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/cloudrnr-TestGenerationAPI-scoped.md)|Added the **testSuite** parameter allowing you to set the name of the new test suite that is created during test generation.|
+|ATF Test Generator and Cloud Runner|2.7.2||Added the **testSuite** parameter allowing you to set the name of the new test suite that is created during test generation.|
 
 ## Yokohama General Availability
 
@@ -120,7 +120,7 @@ v3.0
 
 </td><td>
 
-[LeadAPIHelperOOB - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/LeadAPIHelperOOBAPI.md)
+
 
 </td><td>
 
@@ -138,7 +138,7 @@ v3.0
 
 </td><td>
 
-[LeadAPIProcessUtilOOB - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/LeadAPIProcessUtilOOBAPI.md)
+
 
 </td><td>
 
@@ -157,7 +157,7 @@ v3.0
 
 </td><td>
 
-[LeadAPIValidationUtilOOB - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/LeadAPIValidationUtilOOBAPI.md)
+
 
 </td><td>
 
@@ -174,7 +174,7 @@ Sales and Service API Core
 
 </td><td>
 
-[IBQConfigBase API - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/IBQConfigBaseAPIBoth.md)
+
 
 </td><td>
 
@@ -192,7 +192,7 @@ v12.5.0
 
 </td><td>
 
-[OrderGuide - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/OrderGuideScopedAPI.md)
+
 
 </td><td>
 
@@ -201,13 +201,13 @@ isOrderInDraftState\(\)
 </td></tr></tbody>
 </table>|Application|App Version|Class|Methods|
 |-----------|-----------|-----|-------|
-|Customer Service Management|v1.2|[openFrameAPI - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/c_openFrameAPI.md)|setICContext\(\)|
-|Mobile SDK|v2.9.0|[NowChatService class - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/cllent-mobile-api-reference/NowChatServiceAndroidAPI.md)|updateTheme\(\)|
-|Mobile SDK|v2.9.0|[NowWebService class - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/cllent-mobile-api-reference/NowWebServiceAndroidAPI.md)|updateTheme\(\)|
-|Mobile SDK|v2.9.0|[NowChatService class - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/cllent-mobile-api-reference/NowChatServiceiOSAPI.md)|updateTheme\(\)|
-|Mobile SDK|v2.9.0|[NowChatServiceDelegate protocol - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/cllent-mobile-api-reference/NowChatServiceDelegateiOSProtocol.md)|chatService\(\_chatService: NowChatService, systemThemeDidChange traitCollection: UITraitCollection\)|
-|Mobile SDK|v2.9.0|[NowWebViewController class - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/cllent-mobile-api-reference/NWebViewControlleriOSAPI.md)|updateTheme\(\)|
-|Mobile SDK|v2.9.0|[NowWebViewControllerDelegate protocol - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/cllent-mobile-api-reference/NWViewControllerDelegateiOSProtocol.md)|nowWebViewController\(\_ nowWebViewController: NowWebViewController, systemThemeDidChange traitCollection: UITraitCollection\)|
+|Customer Service Management|v1.2||setICContext\(\)|
+|Mobile SDK|v2.9.0||updateTheme\(\)|
+|Mobile SDK|v2.9.0||updateTheme\(\)|
+|Mobile SDK|v2.9.0||updateTheme\(\)|
+|Mobile SDK|v2.9.0||chatService\(\_chatService: NowChatService, systemThemeDidChange traitCollection: UITraitCollection\)|
+|Mobile SDK|v2.9.0||updateTheme\(\)|
+|Mobile SDK|v2.9.0||nowWebViewController\(\_ nowWebViewController: NowWebViewController, systemThemeDidChange traitCollection: UITraitCollection\)|
 
 <table id="table_qlh_nlc_tcc"><thead><tr><th>
 
@@ -235,7 +235,7 @@ v2.0.0
 
 </td><td>
 
-[AP Invoice API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/ap-invoice-api.md)
+
 
 </td><td>
 
@@ -251,7 +251,7 @@ v1.0
 
 </td><td>
 
-[AI Assets API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/ai-assets-api.md)
+
 
 </td><td>
 
@@ -278,7 +278,7 @@ v6.0
 
 </td><td>
 
-[Service Contract API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/servicecontract-api.md)
+
 
 </td><td>
 
@@ -297,7 +297,7 @@ v6.0
 
 </td><td>
 
-[Verify Entitlements API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/verifyentitlements-api.md)
+
 
 </td><td>
 
@@ -313,7 +313,7 @@ v3.0
 
 </td><td>
 
-[lead API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/lead-api.md)
+
 
 </td><td>
 
@@ -332,7 +332,7 @@ v4.0
 
 </td><td>
 
-[Sales Agreement API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/sales_agreement-api.md)
+
 
 </td><td>
 
@@ -368,7 +368,7 @@ V1.4
 
 </td><td>
 
-[LeadtoCashCore - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/LeadToCashCoreAPI.md)
+
 
 </td><td>
 
@@ -385,7 +385,7 @@ ATF Test Generator and Cloud Runner
 
 </td><td>
 
-[TestGenerationApi – startJob\(String tableEncodedQuery, String userEncodedQuery, String catalogEncodedQuery, Number maxTestCount, Number maxTestCountPerTable, Number maxTestCountPerItem, String email, Boolean separateUpdateSetPerScope, String scopeForGeneratingTests, String suiteName\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/cloudrnr-TestGenerationAPI-scoped.md)
+
 
 </td><td>
 
@@ -418,7 +418,7 @@ v1.2
 
 </td><td>
 
-[openFrameAPI - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/c_openFrameAPI.md)
+
 
 </td><td>
 
@@ -435,7 +435,7 @@ v2.9.0
 
 </td><td>
 
-[NowChatTheme interface - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/cllent-mobile-api-reference/NowChatThemeColorsAndroidInterface.md)
+
 
 </td><td>
 
@@ -451,7 +451,7 @@ v2.9.0
 
 </td><td>
 
-[NowWebTheme interface - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/cllent-mobile-api-reference/NowWebThemeAndroidInterface.md)
+
 
 </td><td>
 
@@ -467,7 +467,7 @@ v2.9.0
 
 </td><td>
 
-[NowChatThemeable protocol - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/cllent-mobile-api-reference/NowChatThemeableiOSProtocol.md)
+
 
 </td><td>
 
@@ -483,7 +483,7 @@ v2.9.0
 
 </td><td>
 
-[NowWebThemeable protocol - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/cllent-mobile-api-reference/NowWebThemeableiOSProtocol.md)
+
 
 </td><td>
 
@@ -516,7 +516,7 @@ v2.0.0
 
 </td><td>
 
-[AP Invoice API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/ap-invoice-api.md)
+
 
 </td><td>
 
@@ -533,7 +533,7 @@ ATF Test Generator and Cloud Runner
 
 </td><td>
 
-[Cloud Runner Test Generation - POST /now/sn\_atf\_tg/test\_generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/cloudrunner-testgeneration-api.md)
+
 
 </td><td>
 
@@ -549,7 +549,7 @@ v11.3.0
 
 </td><td>
 
-[Product Order Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/tmf622_product_ordering-api.md)
+
 
 </td><td>
 
@@ -568,7 +568,7 @@ v12.5.0
 
 </td><td>
 
-[Product Inventory Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/product-inventory-open-api.md)
+
 
 </td><td>
 
@@ -586,7 +586,7 @@ v14.1.0
 
 </td><td>
 
-[Product Catalog Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/product-catalog-open-api.md)
+
 
 </td><td>
 
@@ -618,7 +618,7 @@ Methods
 
 </th></tr></thead><tbody><tr><td>
 
-[Console - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/ConsoleAPI.md)
+
 
 </td><td>
 
@@ -637,7 +637,7 @@ Methods
 
 </td></tr><tr><td>
 
-[Fetch - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/FetchAPI.md)
+
 
 </td><td>
 
@@ -645,7 +645,7 @@ fetch\(\)
 
 </td></tr><tr><td>
 
-[Fetch Headers - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/Fetch.HeadersAPI.md)
+
 
 </td><td>
 
@@ -663,7 +663,7 @@ fetch\(\)
 
 </td></tr><tr><td>
 
-[Fetch Request - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/Fetch.RequestAPI.md)
+
 
 </td><td>
 
@@ -678,7 +678,7 @@ fetch\(\)
 
 </td></tr><tr><td>
 
-[Fetch RequestInit - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/Fetch.RequestInitAPI.md)
+
 
 </td><td>
 
@@ -686,7 +686,7 @@ requestInit\(\)
 
 </td></tr><tr><td>
 
-[Fetch Response - Scoped,Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/Fetch.ResponseAPI.md)
+
 
 </td><td>
 
@@ -699,7 +699,7 @@ requestInit\(\)
 
 </td></tr><tr><td>
 
-[GlideUser - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/c_GlideUserScopedAPI.md)
+
 
 </td><td>
 
@@ -708,7 +708,7 @@ requestInit\(\)
 
 </td></tr><tr><td>
 
-[OrderUtil - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/OrderUtilScopedAPI.md)
+
 
 </td><td>
 
@@ -717,7 +717,7 @@ requestInit\(\)
 
 </td></tr><tr><td>
 
-[PDFGenerationAPI - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/PDFGenerationAPIBothAPI.md)
+
 
 </td><td>
 
@@ -726,7 +726,7 @@ requestInit\(\)
 
 </td></tr><tr><td>
 
-[ProcessMiningIntegrationAPI - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/ProcessMiningIntAPIScoped.md)
+
 
 </td><td>
 
@@ -740,7 +740,7 @@ requestInit\(\)
 
 </td></tr><tr><td>
 
-[RESTMessageV2 - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/c_RESTMessageV2API.md)
+
 
 </td><td>
 
@@ -748,7 +748,7 @@ setAllowedRedirectURIs\(\)
 
 </td></tr><tr><td>
 
-[SOAPMessageV2 - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/c_SOAPMessageV2API.md)
+
 
 </td><td>
 
@@ -757,7 +757,7 @@ setAllowedRedirectURIs\(\)
 
 </td></tr><tr><td>
 
-[UriMatcher - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/UriMatcherScopedAPI.md)
+
 
 </td><td>
 
@@ -766,7 +766,7 @@ setAllowedRedirectURIs\(\)
 
 </td></tr><tr><td>
 
-[UriMatcherResponse - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/UriMatcherResponseScopedAPI.md)
+
 
 </td><td>
 
@@ -780,7 +780,7 @@ setAllowedRedirectURIs\(\)
 
 </td></tr><tr><td>
 
-[v\_record - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/v_recordAPI.md)
+
 
 </td><td>
 
@@ -797,7 +797,7 @@ Methods
 
 </th></tr></thead><tbody><tr><td>
 
-[Console - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/ConsoleAPI.md)
+
 
 </td><td>
 
@@ -816,7 +816,7 @@ Methods
 
 </td></tr><tr><td>
 
-[Fetch - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/FetchAPI.md)
+
 
 </td><td>
 
@@ -824,7 +824,7 @@ fetch\(\)
 
 </td></tr><tr><td>
 
-[Fetch Headers - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/Fetch.HeadersAPI.md)
+
 
 </td><td>
 
@@ -842,7 +842,7 @@ fetch\(\)
 
 </td></tr><tr><td>
 
-[Fetch Request - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/Fetch.RequestAPI.md)
+
 
 </td><td>
 
@@ -857,7 +857,7 @@ fetch\(\)
 
 </td></tr><tr><td>
 
-[Fetch RequestInit - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/Fetch.RequestInitAPI.md)
+
 
 </td><td>
 
@@ -865,7 +865,7 @@ requestInit\(\)
 
 </td></tr><tr><td>
 
-[Fetch Response - Scoped,Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/Fetch.ResponseAPI.md)
+
 
 </td><td>
 
@@ -878,7 +878,7 @@ requestInit\(\)
 
 </td></tr><tr><td>
 
-[GlideDynamicAttribute - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/GlideDynamicAttributeAPI.md)
+
 
 </td><td>
 
@@ -891,7 +891,7 @@ requestInit\(\)
 
 </td></tr><tr><td>
 
-[GlideDynamicAttributeStore - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/GlideDynamicAttStoreAPI.md)
+
 
 </td><td>
 
@@ -899,7 +899,7 @@ getDynamicAttributes\(\)
 
 </td></tr><tr><td>
 
-[GlideElementDynamicAttributeStore - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/GlideElementDynamicAttStoreAPI.md)
+
 
 </td><td>
 
@@ -908,7 +908,7 @@ getDynamicAttributes\(\)
 
 </td></tr><tr><td>
 
-[GlideTransientDynamicAttribute - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/GlideTransientDynamicAttributeAPI.md)
+
 
 </td><td>
 
@@ -921,7 +921,7 @@ getDynamicAttributes\(\)
 
 </td></tr><tr><td>
 
-[GlideUser - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/GUserAPI.md)
+
 
 </td><td>
 
@@ -930,7 +930,7 @@ getDynamicAttributes\(\)
 
 </td></tr><tr><td>
 
-[PDFGenerationAPI - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/PDFGenerationAPIBothAPI.md)
+
 
 </td><td>
 
@@ -939,7 +939,7 @@ getDynamicAttributes\(\)
 
 </td></tr><tr><td>
 
-[RESTMessageV2 - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/c_RESTMessageV2API.md)
+
 
 </td><td>
 
@@ -947,7 +947,7 @@ setAllowedRedirectURIs\(\)
 
 </td></tr><tr><td>
 
-[SOAPMessageV2 - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/c_SOAPMessageV2API.md)
+
 
 </td><td>
 
@@ -965,7 +965,7 @@ Endpoints
 
 </th></tr></thead><tbody><tr><td>
 
-[AWA Offer Work API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/awa-offer-work-api.md)
+
 
 </td><td>
 
@@ -973,7 +973,7 @@ POST /now/awa/documents/\{document\_table\}/\{document\_sys\_id\}/offer
 
 </td></tr><tr><td>
 
-[Continuous Integration and Continuous Delivery \(CICD\) Update Set API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/cicd-update-set-api.md)
+
 
 </td><td>
 
@@ -997,7 +997,7 @@ Methods
 
 </th></tr></thead><tbody><tr><td>
 
-[PDFGenerationAPI - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/PDFGenerationAPIBothAPI.md)
+
 
 </td><td>
 
@@ -1019,7 +1019,7 @@ Methods
 
 </th></tr></thead><tbody><tr><td>
 
-[PDFGenerationAPI - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/PDFGenerationAPIBothAPI.md)
+
 
 </td><td>
 
@@ -1033,5 +1033,5 @@ Methods
 </td></tr></tbody>
 </table>|API|Endpoints|
 |---|---------|
-|[Attachment API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/c_AttachmentAPI.md)|POST /now/attachment/file: A new parameter, creation\_time, can be used to capture attachment creation times when the Now Mobile app is offline and the attachment is uploaded to a record at a later time.|
+||POST /now/attachment/file: A new parameter, creation\_time, can be used to capture attachment creation times when the Now Mobile app is offline and the attachment is uploaded to a record at a later time.|
 

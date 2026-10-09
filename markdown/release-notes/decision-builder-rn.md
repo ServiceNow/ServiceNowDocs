@@ -40,22 +40,22 @@ The ServiceNow® Workflow Studio application provides an intuitive interface tha
 
 ### What's new
 
--   **[Filter decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/filtering-overview.md)**
+-   ****
 
     Apply filters to both condition and result column values in decision tables. Once filters are applied, only the relevant decisions are displayed, making it easier to refer or edit large tables.
 
--   **[Use enhanced reference record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/using-enhanced-reference-record.md)**
+-   ****
 
     When choosing a reference value as a condition or result, a new lookup icon enables you to select the reference record from the default list view. Additionally, you can preview the selected reference record by selecting the info icon.
 
--   **[Set rows active or inactive](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/set-active-inactive-rows.md)**
+-   ****
 
     Turn the rows on or off. Activating a row includes its data while executing a decision table, while deactivating a row excludes it. This feature helps you to temporarily use or skip conditions without deleting them.
 
 
 ### What's changed
 
--   **[Pagination](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/decision-builder-user-interface.md#section_lyv_v4r_ndc)**
+-   **Pagination**
 
     Use the pagination feature to switch between pages by selecting the page you'd like to see.
 

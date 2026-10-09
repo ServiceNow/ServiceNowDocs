@@ -31,7 +31,7 @@ The ServiceNow® Integrated Risk Management \(IRM\) application enables your org
 -   Some Now Assist skills are now turned on by default.
 -   Review changes to Now Assist usage measurements.
 
-For detailed documentation, see [Common Governance, Risk, and Compliance features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/common-grc-features.md).
+For detailed documentation, see .
 
 ## Activation and other requirements
 
@@ -67,11 +67,11 @@ The ServiceNow® Integrated Risk Management \(IRM\) application enables your org
 
 ### What's new
 
--   **[Entity Based Access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/entity-based-access.md)**
+-   **Entity Based Access**
 
     Implement data segregation and detailed access management so that users can access only the permitted data through entity-based access. Administrators can grant access to an entity's related records by adding users or user groups or by using entity user fields for entity-based access configuration. You can enhance your data security and minimize the risk of unnecessary data exposure while ensuring that only authorized users can access an entity's related records.
 
--   **[Gen AI issue summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/generate-grc-issue-resolution.md)**
+-   **Gen AI issue summarization**
 
     Optimize the GRC issue resolution agentic AI workflow in the Integrated Risk Management application to help your issue managers and analysts resolve GRC issues with AI agents in the Now Assist panel. This workflow makes the issue resolution process more efficient by introducing targeted solutions for key steps in the issue management life cycle.
 
@@ -82,31 +82,31 @@ The ServiceNow® Integrated Risk Management \(IRM\) application enables your org
 
 ### What's new
 
--   **[Gen AI issue summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/now-assist-for-irm.md)**
+-   **Gen AI issue summarization**
 
     Summarize an issue by using the ServiceNow Otto for IRM application to provide quicker context gathering and contextual awareness. You can quickly analyze the issue records, including the description, activity log, and remediation tasks, and then generate a concise summary that provides you with a concise context of the issue to help you resolve it. Check your entitlements to determine whether you have access to issue summarization.
 
--   **[Searching user groups to understand the licensing treatment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/grc-licensing-summary-dashboard.md)**
+-   **Searching user groups to understand the licensing treatment**
 
     Use the enhanced GRC licensing summary dashboard to understand the licensing treatment of users that are added to the group by roles that are mapped or assigned to the group.
 
--   **[Document designer integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/configuring-audit-word-based-templates.md)**
+-   **Document designer integration**
 
     Update and add content by using Microsoft 365 for ServiceNow Reporting, which is now integrated with the Document designer application. You can insert data and reports into a Microsoft Word document.
 
 
 ### What's changed
 
--   **[Create data relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/create-data-relationships.md)**
+-   ****
 
     The **Data Relationship** tab has been added to the template configuration record as part of the configuration process for the Document designer Microsoft Word add-in.
 
 
--   **[Column Organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/create-an-audit-report-template.md)**
+-   **Column Organization**
 
     You can select and reorder columns when adding a table into your template by using the Document designer Microsoft Word add-in. You can now organize your content better to meet your reporting needs.
 
--   **[Create content configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/create-content-configurations.md)**
+-   ****
 
     You can add up to 20 columns in a table and content block by using the Document designer application. You now have more flexibility with customizing your table and content block to meet your reporting needs.
 
@@ -117,7 +117,7 @@ The ServiceNow® Integrated Risk Management \(IRM\) application enables your org
 
 ### What's new
 
--   **[Overview of an agency record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/regulatory-agency-library-rcm.md)**
+-   **Overview of an agency record**
 
     View the pie charts that depict the total number of emails that are sent to the various regulatory domains. On the overview page of a regulatory agency, you can view the domains where the maximum number of emails were sent and access the Emails Tracker page directly from an agency record. You can also filter and display only the relevant emails that were sent to a specific agency.
 

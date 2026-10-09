@@ -22,7 +22,7 @@ The ServiceNow® AI Risk and Compliance application to manage your artificial in
 -   Manage and oversee AI-related cases and incidents through a structured case management process.
 -   Build a compliance-ready AI asset inventory aligned with regulatory requirements using the AI framework content pack.
 
-See [AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/ai-risk-and-compliance.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
@@ -45,11 +45,11 @@ The ServiceNow® AI Risk and Compliance application to manage your artificial in
 
     Manage the complete life-cycle of AI assets, from selecting appropriate AI systems to developing, deploying, and monitoring AI models and datasets. This feature helps maintain a centralized inventory, confirms consistent governance practices, and improves traceability and oversight across all stages of AI development and usage.
 
--   **[Perform impact assessment on an AI use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/perform-impact-assessment-of-ai-use-case.md)**
+-   ****
 
     Perform impact assessments to identify how AI systems, models, and datasets affect fundamental rights. This feature detects potential risks, such as copyright issues, algorithmic bias, privacy breaches, misinformation, and surveillance concerns, to support better oversight and risk management.
 
--   **[AI asset inventory risk management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/request-risk-assessments-for-ai-systems.md)**
+-   **AI asset inventory risk management**
 
     Identify individual and specific risks associated with AI assets, such as AI systems, models, and datasets. Perform risk assessments on each identified risk separately.
 
@@ -57,11 +57,11 @@ The ServiceNow® AI Risk and Compliance application to manage your artificial in
 
     Manage and track cases or incidents related to AI use cases across the organization. This feature provides a structured approach to documenting, investigating, and resolving AI-related issues and cases, supporting consistent oversight and accountability.
 
--   **[AI framework content pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/install-ai-risk-content-pack.md)**
+-   **AI framework content pack**
 
     Use the default AI framework content pack to prepare a compliance-ready inventory of AI assets. The content pack provides mappings to key AI regulations and standards, such as the European Union AI Act and the National Institute of Standards and Technology \(NIST\) AI Risk Management Framework \(AI RMF\). This feature helps organizations to align AI governance activities with regulatory requirements.
 
--   **[AI Risk and Compliance workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/ai-risk-and-compliance-workspace.md)**
+-   ****
 
     See a comprehensive overview of all your AI inventory-related information in the AI Risk and Compliance workspace. The AI Risk and Compliance workspace enables you to:
 
@@ -75,11 +75,11 @@ The ServiceNow® AI Risk and Compliance application to manage your artificial in
 
     Explore the relationships between critical AI assets that impact your business, including controls, risks, and issues.
 
--   **[Collaborate with internal users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/perform-impact-assessment-of-ai-use-case.md)**
+-   **Collaborate with internal users**
 
     Collaborate with internal users by starting chats focused on the ethical, transparency, and accountability aspects of AI assets. Use discussions to document considerations, share feedback, and drive informed decision-making throughout the AI asset life-cycle.
 
--   **[Roles installed with AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/roles-installed-with-ai-risk-and-compliance.md)**
+-   ****
 
     The following roles related to AI Risk and Compliance for managing AI systems across the enterprise were added:
 

@@ -19,11 +19,11 @@ The ServiceNow® Agent Workspace for HR Case Management application enables you 
 -   The HR Triaging Dashboard enables you to review your teams' case assignments through cases displayed as cards. Once you set up a layout for HR services, priorities, or assignment groups, moving of case cards between lanes, auto-updates the HR service, user assignment, or priority of cases.
 -   Provide a convenient and efficient way for deskless workers to seek in-person or remote assistance, report issues, and receive guidance from HR agents through designated walk-up centers.
 
-See [Agent Workspace for HR Case Management \(Configurable\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/agent-ws-hr-case-mgmt-landing-page.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
-**Important:** [Agent Workspace for HR Case Management \(Configurable\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/agent-ws-hr-case-mgmt-landing-page.md) is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+**Important:**  is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 -   **Activation information**
 
@@ -38,52 +38,52 @@ The ServiceNow® Agent Workspace for HR Case Management application enables you 
 
 ### What's new
 
--   **[Survey responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/t_ViewAnHRTask.md)**
+-   **Survey responses**
 
     View employee responses collected from an employee via the survey form sent through an HR task.
 
 
--   **[Response templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/hr-agent-ws-using-response-template.md)**
+-   **Response templates**
 
     Display response templates based on the language preference of selected user.
 
--   **[Copy a case in Agent Workspace for HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/copy-case-hr.md)**
+-   ****
 
     Avoid having to fill in the fields of a case manually by creating a copy of a case to auto-populate the case values.
 
--   **[HR Triaging Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/hr-triaging-dashboard.md)**
+-   ****
 
     View your teams' case assignments based on categories such as priority, HR service, or HR assignment group. Drag a case card from one lane to another to automatically update the priority, HR service, or assignment group of a case.
 
--   **[HR Walk-up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/hr-walkup.md)**
+-   ****
 
     Provide a convenient and efficient way for users to seek in-person or remote assistance, report issues, and receive guidance from HR agents through designated walk-up centers.
 
 
--   **[Page configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/page-configurations.md)**
+-   **Page configurations**
 
     Configure the layout and functionality of the HR Agent landing page or HR case page. You can preview your settings before implementing them.
 
 
--   **[PDF template preview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/hr-agent-ws-create-temp.md)**
+-   **PDF template preview**
 
     Preview a PDF document template attached to an HR case rather than being able to preview only HTML document templates.
 
 
--   **[Link child cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/t_CreateAnHRCase.md)**
+-   **Link child cases**
 
     Associate child cases to an HR case.
 
 
--   **[Delegation list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/hr-agent-ws-lists.md)**
+-   **Delegation list**
 
     View cases delegated to you or that you have delegated to other HR agents. The Delegation list appears only when you have activated the Granular Delegation \(com.glide.granular\_service\_delegation\) plugin.
 
--   **[Agent Workspace for HR Case Management contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/agent-ws-hr-case-mgmt-context-sidebar.md)**
+-   ****
     -   Apply template values to the HR case without having to fill in values manually.
     -   Download or delete multiple attachments at once.
 
--   **[Configure fields for Bulk case request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/segment-group-aws.md)**
+-   **Configure fields for Bulk case request**
 
     Configure fields that you want to view in the User segment group form in bulk case request through the Case Creation Configuration form.
 

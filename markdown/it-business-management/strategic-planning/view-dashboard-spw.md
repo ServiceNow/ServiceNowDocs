@@ -7,7 +7,7 @@ release: yokohama
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
-last_updated: "2026-10-08"
+last_updated: "2026-10-09"
 reading_time_minutes: 1
 breadcrumb: [Use, Dashboards, Strategic Planning, Strategic Portfolio Management]
 ---

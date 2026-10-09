@@ -22,7 +22,7 @@ The ServiceNow® Audit Management application supports activities related to pla
 -   Share a single cloud file with multiple records by linking it to any GRC record.
 -   Benefit from accessibility improvements to create a configurable workspace that supports Web Content Accessibility Guidelines \(WCAG\) 2.1 Level AA conformance.
 
-See [Audit Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/c_GRCAudits.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
@@ -73,7 +73,7 @@ The ServiceNow® Audit Management application supports activities related to pla
 
 ### What's new
 
--   **[Matrix report in the Audit Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/matrix-report-audit-ws.md)**
+-   **Matrix report in the Audit Workspace**
 
     Analyze relationships between different variables by using a Matrix report that presents data in a structured format. Assess and document risks and the internal controls designed to mitigate those risks through the Risk and Controls Matrix.
 

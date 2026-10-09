@@ -112,15 +112,7 @@ The ui\_example UI macro uses three jvar-prefixed variables: jvar\_name, jvar\_t
 **Related topics**  
 
 
-[UI pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/r_UIPages.md)
-
-[Jelly tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/r_JellyTags.md)
-
-[&lt;g:ui\_form/&gt;](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/c_ExtensionsToJellySyntax.md)
-
-[&lt;g:ui\_input\_field /&gt;](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/c_ExtensionsToJellySyntax.md)
-
-[&lt;g:ui\_checkbox/&gt;](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/c_ExtensionsToJellySyntax.md)
+[bundle-crapiref.r_UIPages]
 
 ## Calling UI macros
 

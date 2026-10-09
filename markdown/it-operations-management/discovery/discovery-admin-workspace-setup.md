@@ -7,7 +7,7 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-10-08"
+last_updated: "2026-10-09"
 reading_time_minutes: 12
 breadcrumb: [Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---

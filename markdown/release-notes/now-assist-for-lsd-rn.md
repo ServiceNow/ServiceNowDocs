@@ -25,7 +25,7 @@ Yokohama Patch 6
 
 -   Use Google Gemini and Anthropic Claude on AWS as AI model providers for Now Assist skills and AI agents in addition to Now LLM Service and Azure OpenAI.
 
-See [Explore ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/now-assist-lsd-exploring.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 

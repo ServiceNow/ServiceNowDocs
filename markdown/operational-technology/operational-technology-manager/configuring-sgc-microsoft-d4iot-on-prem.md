@@ -20,10 +20,10 @@ Use the Guided Setup for the Service Graph Connector for Microsoft Defender for 
 
 Dependencies and requirements:
 
--   The  store app, which is automatically installed.
--   The , which is automatically installed.
+-   The [Integration Commons for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/integration-commons-for-cmdb.md) store app, which is automatically installed.
+-   The [CMDB CI Class Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/cmdb-ci-class-models.md), which is automatically installed.
 -   The ITOM Discovery License plugin \(com.snc.itom.discovery.license\). You must activate this plugin.
--   ITOM Licensing plugin \(com.snc.itom.license\). For more information, see Request Discovery.
+-   ITOM Licensing plugin \(com.snc.itom.license\). For more information, see [Request Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/t_ActivateTheDiscoveryPlugin.md).
 -   The Datastream Action plugin \(com.glide.hub.action\_type.datastream\), which is automatically installed.
 
 Role required: admin
@@ -113,7 +113,7 @@ com.glide.communications.httpclient.verify\_revoked\_certificate
 
 </td><td>
 
-Set to **false**.If you need to add this system property, see Add a system property.
+Set to **false**.If you need to add this system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 </td></tr><tr><td>
 
@@ -134,7 +134,7 @@ Set to **true**.
         |Hostname check|**false**|
         |Revocation check|**false**|
 
-        For more information, see MID Server certificate check policies.
+        For more information, see [MID Server certificate check policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/mid-security-checks.md).
 
         The connection shows that it is set correctly when the progress window shows the Completion code **Success**, and the number of records processed shows as the same number of sensors in the connection manager.
 

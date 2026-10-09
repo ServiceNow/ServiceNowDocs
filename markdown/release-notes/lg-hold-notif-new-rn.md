@@ -20,7 +20,7 @@ The ServiceNow® Legal Hold Notification application helps organizations manage 
 -   Enhance custodian engagement by sending them legal hold notifications and reminders to ensure timely acknowledgment and accountability throughout the legal hold process.
 -   Reduce legal risk compliance with a controlled closure process. When the legal hold is officially closed, the Legal Hold Notification application stores detailed information about the preserved data.
 
-See [Legal Hold Notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/lg-hold-notif-landing-page.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
@@ -43,37 +43,37 @@ The ServiceNow® Legal Hold Notification application helps organizations manage 
 
 ### What's new
 
--   **[Legal hold matter management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/lg-hold-notif-landing-page.md)**
+-   **Legal hold matter management**
 
     Manage legal hold matters by submitting, updating, tracking, and closing them through a streamlined process that reduces effort and ensures organizational compliance.
 
 
--   **[Submitting legal hold matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/submit-lg-hold-notif-matter.md)**
+-   **Submitting legal hold matter**
 
     Submit a legal hold matter to initiate the data preservation process when a legal hold is issued.
 
 
--   **[Issuing legal hold notice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/issue-lg-hold-notif-matter.md)**
+-   **Issuing legal hold notice**
 
     Issue a legal hold notice to custodians to initiate timely data preservation, ensure accountability, and reduce the risk of data loss.
 
 
--   **[Legal hold notice acknowledgement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/acknow-lg-hold-notif.md)**
+-   **Legal hold notice acknowledgement**
 
     Record custodian acknowledgments of legal hold notices to confirm their responsibility to preserve data and ensure accountability.
 
 
--   **[Assign new custodians](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/add-new-custodian-lg-hold-notif.md)**
+-   **Assign new custodians**
 
     Assign newly identified custodians to existing legal hold matters to ensure comprehensive and up-to-date data preservation.
 
 
--   **[Acknowledge reminders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/send-reminder-for-acknowledgment.md)**
+-   **Acknowledge reminders**
 
     Send reminders to custodians who haven’t acknowledged legal hold notices to ensure accountability in data preservation.
 
 
--   **[Closing legal hold matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/close-lg-hold-notif-matter.md)**
+-   **Closing legal hold matter**
 
     Close a legal hold matter once the hold is lifted to complete the data preservation life cycle.
 

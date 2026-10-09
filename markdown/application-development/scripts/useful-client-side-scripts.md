@@ -452,11 +452,7 @@ Action name. This value is provided in the record listed in the UI Actions \[sys
 </table>**Related topics**  
 
 
-[GlideForm - getFormElement\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/c_GlideFormAPI.md)
-
-[Scoped GlideSystem - eventQueue\(String name, Object instance, String parm1, String parm2, String queue\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/c_GlideSystemScopedAPI.md)
-
-[GlideUser - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/c_GlideUserAPI.md)
+[bundle-crapiref.r_GlideFormGetFormElement]
 
 [Defining UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/c_UIActions.md)
 

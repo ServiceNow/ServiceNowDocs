@@ -37,5 +37,5 @@ After the Script Debugger pauses a script, use the step-through controls to move
 **Related topics**  
 
 
-[Set or remove breakpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/set-remove-breakpoints.md)
+[bundle-crapiref.set-remove-breakpoints]
 

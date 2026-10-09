@@ -92,7 +92,7 @@ obsolete-custom-processors
 
 </td><td>
 
-**Note:** This feature is deprecated. While legacy, existing custom processors continue to be supported, creating new custom processors has been deprecated. Instead, use the [Scripted REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/c_CustomWebServices.md).
+**Note:** This feature is deprecated. While legacy, existing custom processors continue to be supported, creating new custom processors has been deprecated. Instead, use the .
 
 </td></tr><tr><td colspan="2">
 
@@ -104,7 +104,7 @@ Access Controls
 
 </td><td>
 
-View and configure access controls for the UI page. See [Use access controls on UI pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/r_UIPages.md) for more information.
+View and configure access controls for the UI page. See  for more information.
 
 </td></tr><tr><td>
 
@@ -203,7 +203,7 @@ Role required: security\_admin and admin
 
 4.  Complete the form.
 
-    See [UI pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/r_UIPages.md) for additional information for UI field descriptions.
+    See  for additional information for UI field descriptions.
 
 5.  Select **Submit** or **Save**.
 
@@ -250,7 +250,7 @@ The message displays under the following conditions:
     **Note:** Public UI Pages that are public or that use GlideRecord don’t show a missing ACL warning.
 
 
-See [UI pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/r_UIPages.md) for details on high risk UI pages.
+See  for details on high risk UI pages.
 
 #### Conditions that display the security recommendations message
 

@@ -23,7 +23,7 @@ Role required:
 -   admin or flow\_designer
 -   virtual\_agent\_admin
 
-**Important:** Edit the **Now Assist Panel - Platform \(default\)** assistant and make sure that the Subflows and actions skill is assigned to the assistant. For information about editing an assistant, see .
+**Important:** Edit the **Now Assist Panel - Platform \(default\)** assistant and make sure that the Subflows and actions skill is assigned to the assistant. For information about editing an assistant, see [Manage LLM virtual agents on the Assistants screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/manage-llm-va.md).
 
 ## Procedure
 

@@ -69,7 +69,7 @@ After the user submits the form and after the scheduler runs the scheduled job c
 
 If a record has an asynchronous business rule that makes decisions based on the data in the record, multiple updates to the record in quick succession can cause the business rule to execute out of order or incorrectly.
 
-If multiple async business rules update the same record, the updates performed by one script could be overwritten by another script or made in an unexpected sequence because the order of execution isn't guaranteed. You can use the After option for business rules or [System Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/events.md) as an alternative in these situations.
+If multiple async business rules update the same record, the updates performed by one script could be overwritten by another script or made in an unexpected sequence because the order of execution isn't guaranteed. You can use the After option for business rules or  as an alternative in these situations.
 
 </td></tr><tr><td>
 
@@ -381,7 +381,7 @@ Script
 -   onAsync
 -   onBefore
 -   onDisplay
- For more information and examples, see [Example business rule scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/c_BusinessRules.md).
+ For more information and examples, see .
 
 </td></tr><tr><td colspan="2">
 
@@ -417,7 +417,7 @@ Use the following predefined global variables to reference the system in a busin
 |*current*|Current state of the record being referenced. See "Prevent null pointer exceptions" below to check for nulls before using this variable.|
 |*previous*|State of the referenced record prior to any updates made during the execution context, where the execution context begins with the first update or delete operation and ends after the script and any referenced business rules are executed. If multiple updates are made to the record within one execution context, *previous* will continue to hold the state of the record before the first update or delete operation. Available on update and delete operations only. Not available on async operations. See "Prevent null pointer exceptions" below to check for nulls before using this variable.|
 |*g\_scratchpad*|Scratchpad object is available on display rules, and is used to pass information to the client to be accessed from client scripts.|
-|*gs*|References to [GlideSystem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/c_GlideSystemScopedAPI.md) functions.|
+|*gs*|References to GlideSystem functions.|
 
 The variables *current*, *previous*, and *g\_scratchpad* are global across all business rules that run for a transaction.
 

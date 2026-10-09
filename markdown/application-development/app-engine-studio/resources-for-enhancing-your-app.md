@@ -88,8 +88,8 @@ Use Workspace Builder and UI Builder to further enhance experiences in your appl
 </td><td>
 
 Use Decision Builder to easily manage business logic for your application.-   [Create decision tables in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/create-decision-table-in-decision-designer.md)
--   [Manage decision tables in Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/manage-decision-tables-ms-excel.md)
--   [Modify decision table structure in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/format-decision-table-in-decision-designer.md)
+-   
+-   Modify decision table structure in Workflow Studio
 -   [Modify decision table rules in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/modify-decision-table-rules.md)
 
 </td><td>

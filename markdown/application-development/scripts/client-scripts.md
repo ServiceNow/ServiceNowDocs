@@ -199,5 +199,5 @@ New client scripts are run in strict mode, in which direct DOM access is turned 
 **Related topics**  
 
 
-[Client API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/api-client.md)
+[bundle-crapiref.api-client]
 

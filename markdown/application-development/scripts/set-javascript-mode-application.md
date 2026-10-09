@@ -22,11 +22,11 @@ Role required: delegated developer role granting full access or admin
 
 ## About this task
 
-The JavaScript mode is a design and runtime setting for custom applications and scripts. To support existing server-side scripts and new scripts developed to the ECMAScript 2021 standard, the JavaScript engine has three modes: ECMAScript 2021 \(ES12\), ES5 Standards, and Compatibility. For more information about each mode, see [JavaScript modes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/c_JS_modes.md).
+The JavaScript mode is a design and runtime setting for custom applications and scripts. To support existing server-side scripts and new scripts developed to the ECMAScript 2021 standard, the JavaScript engine has three modes: ECMAScript 2021 \(ES12\), ES5 Standards, and Compatibility. For more information about each mode, see .
 
-For applications that use ES5 Standards or Compatibility mode, you can also turn on ECMAScript 2021 \(ES12\) for individual scripts in the application. For more information, see [Turn on ECMAScript 2021 \(ES12\) mode for a script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/set-es12-mode-scripts.md).
+For applications that use ES5 Standards or Compatibility mode, you can also turn on ECMAScript 2021 \(ES12\) for individual scripts in the application. For more information, see .
 
-**Note:** Switching the JavaScript mode to ECMAScript 2021 \(ES12\) for an existing application might change the behavior of its scripts. For more information, see [Considerations for switching JavaScript modes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/considerations-switching-javascript-mode.md).
+**Note:** Switching the JavaScript mode to ECMAScript 2021 \(ES12\) for an existing application might change the behavior of its scripts. For more information, see .
 
 ## Procedure
 

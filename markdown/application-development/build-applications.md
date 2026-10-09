@@ -93,7 +93,7 @@ Build apps smarter and deliver them faster with the new ServiceNow Studio. Servi
     Choose a builder that matches the type of user experience that your application provides.
 
     -   See [Build apps using App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/aes-overview.md) to learn about low-code development.
-    -   See [Build workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/build-workflows.md) to learn about creating automation with Workflow Studio or Playbooks.
+    -   See  to learn about creating automation with Workflow Studio or Playbooks.
     -   See [Builder library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/builder-library-table.md) to learn about specialized application resources.
 -   **\[Omitted image "bus-automated-testing-framework.svg"\] Alt text: [Phase 3: Testing and debugging your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/testing-and-debugging-applications.md)**
 

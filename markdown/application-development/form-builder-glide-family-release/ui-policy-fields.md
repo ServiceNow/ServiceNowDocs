@@ -409,7 +409,7 @@ Indicates whether the client script applies to extended tables.
 
 The Business Rules section enables you to create business rules to accomplish tasks like automatically changing values in form fields when certain conditions are met.
 
-For a complete list of values for business rules, see [Create a business rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/c_BusinessRules.md).
+For a complete list of values for business rules, see Create a business rule.
 
 The following table shows field descriptions for the Business Rules rules section.
 

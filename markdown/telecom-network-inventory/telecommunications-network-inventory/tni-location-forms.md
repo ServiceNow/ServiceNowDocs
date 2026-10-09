@@ -130,7 +130,7 @@ Longitude of the location in decimal degrees.
 </table>**Related topics**  
 
 
-[06a7d6c7db3b1ebe6bf53886dc05dab0f73bc797.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/define-tni-locations.md)
+[53209e74a8bd46bceeee2a446f29624462ccc28d.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/define-tni-locations.md)
 
 ## Location form - Parent
 

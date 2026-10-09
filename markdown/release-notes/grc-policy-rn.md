@@ -24,7 +24,7 @@ The ServiceNow® Policy and Compliance Management application provides a central
 -   Enable data access by implementing Entity-Based Access controls.
 -   Recommend similar control objectives using generative AI. You can then retain, dismiss, or merge duplicate control objectives.
 
-See [Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/r_PolicyComplianceMgmt.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
@@ -68,23 +68,23 @@ The ServiceNow® Policy and Compliance Management application provides a central
 
 ### What's new
 
--   **[Calculate compliance score and roll up to entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/compliance-score-calculation-pc-ws.md)**
+-   **Calculate compliance score and roll up to entity**
 
     View a comprehensive compliance score at the entity level that includes all the child entities rolled up to the parent entity along with the compliance score of the parent entity's direct controls.
 
--   **[Elimination of duplicate citations from UCF Shared list download](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/ucf-deduplication-pc.md)**
+-   ****
 
     Eliminate duplicate citations associated with the authority documents when you download UCF content. You can retain one citation as active and mark the duplicate citations as inactive. Move the control objectives of the duplicate citations to the active citation, and update the duplicate citation records with the Source ID of the active citation.
 
--   **[Improve compliance workspace performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/compliance-manager-compliance-ws.md)**
+-   **Improve compliance workspace performance**
 
     Improved the performance of the compliance workspace by removing the issue widget to ensure a faster and smoother user experience. You can still access issue details from the "Issues Overview" section.
 
--   **[Entity based access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/c_GRCControls.md)**
+-   **Entity based access**
 
     Entity based access aims to provide a more granular approach to data access, ensuring that users can only access data through entity-based access. The entity-based access has been enabled for controls, attestations and policy exception to control mappings. Administrators can grant access to an entity's related records by adding users or user groups, or by using entity user fields for entity-based access configuration.
 
--   **[Deduplication of control objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/now-assist-for-irm.md)**
+-   **Deduplication of control objectives**
 
     Using Generative AI, identify and recommend similar control objectives. You can choose to accept a control objective as duplicate, dismiss those that are not similar, or retain a control objective as primary in which details from all other similar control objectives are merged. Additionally, the system automatically copies related records, including policies and risk statements, to ensure comprehensive information is maintained in one location after retiring the accepted control objectives.
 
