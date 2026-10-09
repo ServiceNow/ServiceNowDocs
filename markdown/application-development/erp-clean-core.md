@@ -44,9 +44,9 @@ Using ERP Canvas and ERP-CM together enables Solutions Integration consultants t
         -   [Query a remote table using ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-query-remote-table.md)
     5.  Work with ETL extraction tables to regularly scan the system of record and extract data to a staging table. Extraction tables retrieve large amounts of data using a scheduled query, and use transform tables to process data for use on the ServiceNow AI Platform.
         -   Create as many separate extraction tables as needed, such as one for each supported country. For more information, see [Extracting and transforming data in ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-canvas-extraction-tables.md).
-        -   You must first create the table transform map that connects the source table \(on the system of record\) to a Glide table on the ServiceNow AI Platform. For more information on creating table transform maps, see [Create a transform map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/t_CreateATransformMap.md).
+        -   You must first create the table transform map that connects the source table \(on the system of record\) to a Glide table on the ServiceNow AI Platform. For more information on creating table transform maps, see .
         -   Extraction processes are configured in the ServiceNow app that uses them. For example, Workflow Studio.
-        -   After the extraction process is run, use import sets to map imported data into ServiceNow AI Platform tables. For more information, see [Import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/import-sets-landing-page.md).
+        -   After the extraction process is run, use import sets to map imported data into ServiceNow AI Platform tables. For more information, see .
 4.  Identify legacy ERP system customizations to modernize and replatform with ERP-CM.
 5.  Move the ERP Canvas systems, ERP models, and tables to a production environment when they are ready. For more information, see [Managing ERP development pipelines in ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/manage-erp-tables-pipelines.md).
     1.  Meet with a customer and agree to run an analysis with ERP Customization Mining on their ERP system of record.
@@ -64,10 +64,10 @@ Using ERP Canvas and ERP-CM together enables Solutions Integration consultants t
     8.  Return to ERP Canvas to continue building data models with remote tables and extraction tables. Ensure that all the necessary data is available in the ServiceNow AI Platform. For more information, see [Building and managing ERP models to work with ERP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/work-with-erp-data-models.md).
 6.  Use the ERP data that is now available as the data source when building apps on the ServiceNow AI Platform, such as:
     -   App Engine Studio: For more information, see [Create a data model for your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/add-data.md).
-    -   Flows in Workflow Studio: For more information, see [Configuring flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/configuring-flow-designer.md).
+    -   Flows in Workflow Studio: For more information, see .
     -   Table Builder: For more information, see [Data in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/form-builder-glide-family-release/table-builder.md).
     -   UI Builder: For more information, see [Dynamically expose data in UI Builder pages \(advanced feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/data-resources.md).
-    -   Workflow Studio: For more information, see [Configuring flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/configuring-flow-designer.md).
+    -   Workflow Studio: For more information, see .
     -   Workspace Builder: For more information, see [Configure a record page for a workspace in Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/workspace-builder/configure-record-page-workspace.md).
 7.  Measure and monitor the performance of the new app using applicable metrics and parameters with your preferred analytic tools.
 
@@ -95,9 +95,9 @@ Get started with ERP Canvas and ERP-CM by completing these tasks:
 2.  Install and configure ERP-CM. For more information, see [Configuring ERP Customization Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/configuring-ecm.md).
 3.  Install and configure any additional ServiceNow AI Platform apps and builders that consume ERP data, such as the following:
     -   [Installing App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/install-aes.md)
-    -   [Configuring Flows in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/configuring-flow-designer.md)
+    -   Configuring Flows in Workflow Studio
     -   [Exploring Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/form-builder-glide-family-release/exploring-fb.md)
-    -   [Getting started with Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/getting-started-process-automation.md)
+    -   Getting started with Playbooks
     -   [UI Builder quick start](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/ui-builder-quick-start.md)
     -   [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio.md)
     -   [Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/workspace-builder/using-workspace-builder.md)

@@ -50,7 +50,7 @@ Determines whether access is granted for a specified operation to a specific ent
 
 </td></tr><tr><td>
 
-[Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/c_BusinessRules.md)
+Business rules
 
 </td><td>
 
@@ -58,7 +58,7 @@ sys\_script
 
 </td><td>
 
-Customize system behavior. -   [Business Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/c_BusinessRules.md) run when a database action occurs \(query, insert, update, or delete\).
+Customize system behavior. -   Business Rules run when a database action occurs \(query, insert, update, or delete\).
 -   The script can run:
     -   before or after the database action is performed \(runs as part of the database operation\).
     -   asynchronously \(at some point after the database operation\).
@@ -120,7 +120,7 @@ Display ServiceNow data graphically on a Google map page based on location data 
 
 </td></tr><tr><td>
 
-[Map transforms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/c_CreatingNewTransformMaps.md)
+Map transforms
 
 </td><td>
 
@@ -147,7 +147,7 @@ Determine how an application communicates with users and alerts them about impor
 
 </td></tr><tr><td>
 
-[Processors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/c_Processors.md)
+
 
 </td><td>
 
@@ -183,7 +183,7 @@ Define automated, server-side script logic that executes at a specific time or o
 
 </td></tr><tr><td>
 
-[Script actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/r_ScriptActions.md)
+
 
 </td><td>
 
@@ -247,7 +247,7 @@ Contain discrete scripted components that administrators can add to the user int
 
 </td></tr><tr><td>
 
-[UI pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/r_UIPages.md)
+
 
 </td><td>
 
@@ -278,7 +278,7 @@ The following apply to usage:
 
 </td></tr><tr><td>
 
-[UI scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/c_UIScripts.md)
+
 
 </td><td>
 

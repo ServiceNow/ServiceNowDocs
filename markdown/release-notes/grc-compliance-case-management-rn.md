@@ -20,7 +20,7 @@ The ServiceNow® Compliance Case Management application helps you to report, inv
 -   Utilize the unified **Tasks** page on Employee Center to complete your assessments.
 -   Benefit from accessibility improvements to create a configurable workspace that supports Web Content Accessibility Guidelines \(WCAG\) 2.1 Level AA conformance.
 
-See [Compliance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/compliance-case-management.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
@@ -51,18 +51,18 @@ The ServiceNow® Compliance Case Management application helps you to report, inv
 
 ### What's new
 
--   **[Smart assessments in Compliance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/smart-assessment-in-ccm.md)**
+-   ****
 
     Utilize the Smart Assessment Engine to assess if your employees are compliant with the necessary regulations. The compliance case administrator configures the questionnaire, and when an action task moves from the **Draft** to the **Assigned** state, the assessment is sent. After the assessment, the compliance case manager examines the nature of the non-compliance and its impact on the organization. Based on the findings, appropriate remediation measures are identified and implemented to resolution. To use the smart assessment, a new property called enable\_smart\_assessments \(sn\_grc\_case\_mgmt.enable\_smart\_assessments\) is introduced with the default value as **true**.
 
--   **[Unified Task-driven UI experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/perform-smart-assessment-on-action-task.md)**
+-   **Unified Task-driven UI experience**
 
     As a business user, use the **Tasks** page on the Employee Center for a consolidated view of all your tasks, enabling you to access and complete them efficiently. This page provides an easy way to manage all your assessments in one place, enabling you to view and perform tasks seamlessly.
 
 
 ### What's changed
 
--   **[Roles updated for smart assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/roles-compliance-case-management.md)**
+-   **Roles updated for smart assessment**
 
     The following roles in Compliance Case Management have been updated with respect to smart assessments.
 

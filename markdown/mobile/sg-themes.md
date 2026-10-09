@@ -33,5 +33,5 @@ Use mobile themes to change the color scheme of your mobile apps. The colors for
 </td></tr></tbody>
 </table>## Virtual Agent theming
 
-Theming for virtual agent is handled separately from mobile theming. For details on configuring the appearance of Virtual Agent, see Branding your chat client.
+Theming for virtual agent is handled separately from mobile theming. For details on configuring the appearance of Virtual Agent, see [Branding your chat client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/branding-chat-client.md).
 

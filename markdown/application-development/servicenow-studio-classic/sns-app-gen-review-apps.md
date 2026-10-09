@@ -171,7 +171,7 @@ Role required: a now.assist.creator role and the now\_assist\_panel\_user role
 
         For example, add or change triggers, actions, or subflows.
 
-        For more information about using Workflow Studio, see [Exploring flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/exploring-flows.md).
+        For more information about using Workflow Studio, see .
 
     3.  Close the Workflow Studio.
 

@@ -18,7 +18,7 @@ Submit incidents and requests, manage tasks, and access company resources from a
 
 This video highlights some of the capabilities of ServiceNow® mobile apps.
 
-For the full range of Now Mobile app documentation, see Now Mobile app in the Employee Service Management business unit.
+For the full range of Now Mobile app documentation, see [Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/mobile-employee-experience.md) in the Employee Service Management business unit.
 
 -   **Features of the Now Mobile app**
 
@@ -39,7 +39,7 @@ For the full range of Now Mobile app documentation, see Now Mobile app in the Em
 
 -   **Access the demo**
 
-    Try the Now Mobile app demo. The demo is a curated experience designed to show how your employees can work from anywhere. For more information on the app, see Now Mobile app demo.
+    Try the Now Mobile app demo. The demo is a curated experience designed to show how your employees can work from anywhere. For more information on the app, see [Now Mobile app demo](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/sg-mobile-demo.md).
 
 
 ## Base system experience with the Now Mobile app
@@ -80,7 +80,7 @@ Use the **Settings** to set preferences and review information about the app. Th
         -   Use the **Notifications** section to enabled or disable notifications from the app.
         -   Use the **Security** section to create or change the PIN to access the app. If allowed by your administrator, you can also allow the app to be unlocked with your device's biometric sensors.
         -   Use the **Theme** option to enable the dark theme or the default theme on your mobile app.
-        -   Use the **Analytics** section to enabled or disable analytics from the app. Enabling this option allows analytics tracking of your user journey. For more details, see User Experience Analytics.
+        -   Use the **Analytics** section to enabled or disable analytics from the app. Enabling this option allows analytics tracking of your user journey. For more details, see [User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/user-exp-analytics-landing.md).
     -   Use the **Legal** section review ServiceNow's privacy policy, open-source disclosure, and end user license agreement.
     -   Use the Give feedback option to provide feedback on your ServiceNow mobile app experience.
 For more details on setting in your mobile apps, see [Mobile app settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/manager-user-settings.md).

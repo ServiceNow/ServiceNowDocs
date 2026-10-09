@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/partner-relationship-management.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-10-08"
+last_updated: "2026-10-09"
 reading_time_minutes: 3
 breadcrumb: [Explore, Sales Customer Relationship Management]
 ---

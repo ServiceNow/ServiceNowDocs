@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/skills-i
 release: yokohama
 topic_type: topic
 last_updated: "2025-01-30"
-reading_time_minutes: 2
+reading_time_minutes: 1
 breadcrumb: [Talent Development release notes, Features and changes by product, Release notes for upgrading from Xanadu, Learn about the Yokohama release, Yokohama release notes]
 ---
 
@@ -20,7 +20,7 @@ The ServiceNow® Skills Foundation application provides an overview of skills-re
 -   Integrating Workday Learning skills and Workday Employee skills into the current import flow and relate them to the respective employees in the ServiceNow system.
 -   Support for dynamic skills import requests from Credly \(OOTB source\) and other external sources. The skills are verified with the skills library \(exact or mapped match\), and new skills are added to the queue for processing. The harmonized skills are then linked back to the source using metadata.
 
-See [Skills Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/skills-intelligence.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
@@ -43,7 +43,7 @@ The ServiceNow® Skills Foundation application provides an overview of skills-re
 
 ### What's new
 
--   **[Bring in skills through Skills import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/import-and-validate-custom-skills-onboarding.md)**
+-   ****
 
     Import skill sets from the Workday Employee spoke using the existing import flow in the Skills Workspace. The imported sets of skills can either be the full list of skills from a given input or a subset.Import skills data from the external systems with the new Integration option in the Skills import.Automatically identify skills that are similar to the existing skills in the library \(cmn\_skills\) and display them in the Existing matches section.Import skills from any external source and harmonize them with the new **Custom import** option.
 

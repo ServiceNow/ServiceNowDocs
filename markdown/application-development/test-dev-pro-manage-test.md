@@ -24,15 +24,15 @@ Test your ServiceNow apps.
 
 </td><td>
 
-[Script Debugger \[Omitted image "icon-debugger.png"\] Alt text: Script Debugger. Debug scripts using session logs and ServiceNow AI Platform debugging tools such as a walk-through script debugger and error messages that display in the UI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/script-debugger.md)
+Script Debugger \[Omitted image "icon-debugger.png"\] Alt text: Script Debugger. Debug scripts using session logs and ServiceNow AI Platform debugging tools such as a walk-through script debugger and error messages that display in the UI.
 
 </td></tr><tr><td>
 
-[Script Tracer \[Omitted image "icon-now-cli.png"\] Alt text: Script tracer. Filter your debugging search to quickly narrow down script problems.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/script-tracer.md)
+Script Tracer \[Omitted image "icon-now-cli.png"\] Alt text: Script tracer. Filter your debugging search to quickly narrow down script problems.
 
 </td><td>
 
-[Session Log \[Omitted image "icon-log.png"\] Alt text: Session Log. View and download the session log for business rules, script includes, and a custom UI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/script-debugger.md)
+Session Log \[Omitted image "icon-log.png"\] Alt text: Session Log. View and download the session log for business rules, script includes, and a custom UI.
 
 </td><td>
 

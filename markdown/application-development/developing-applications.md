@@ -75,7 +75,7 @@ The ServiceNow IDE is an implementation of Visual Studio Code for the Web on the
 
     Enhance App Engine applications with AI agents and skills using ServiceNow Otto for App Engine.
 
--   **[Generate scripts with AI-powered code generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/generate-code.md)**
+-   ****
 
     Generate scripts from text, code, or a combination of both with AI-powered code generation.
 
@@ -99,7 +99,7 @@ Build low-code apps quickly, with more creators and less complexity. Safely scal
 
     Empower business and IT to collaborate, manage, and govern low-code app development.​  Set development guardrails, apply standards, and check for compliance, all in one place.
 
--   **[Accelerate process automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/rpa-main-landing-page.md)**
+-   **Accelerate process automation**
 
     Automate processes fast and show value quickly with native integration and low code. Scale your workflows from simple to complex, with consistency across the enterprise.​
 

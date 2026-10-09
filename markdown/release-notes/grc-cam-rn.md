@@ -22,7 +22,7 @@ The ServiceNow® Continuous Authorization and Monitoring \(CAM\) application pro
 -   Generate additional reports in Microsoft Word format, such as a Security Assessment Plan \(SAP\), Authorization to Operate \(ATO\) Letter, and Executive Summary.
 -   Generate reports based on a Microsoft Word template.
 
-See [Continuous Authorization and Monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/grc-cam-landing-page.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
@@ -41,15 +41,15 @@ The ServiceNow® Continuous Authorization and Monitoring \(CAM\) application pro
 
 ### What's new
 
--   **[OSCAL Import landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/import-oscal.md)**
+-   **OSCAL Import landing page**
 
     Import files for catalog and SSP models on the new OSCAL Import landing page. Once the import process is initiated, you can check the status under the Import status section.
 
--   **[OSCAL Export button](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/export-catalog-cam-ws.md)**
+-   **OSCAL Export button**
 
     Export selected control objectives in the OSCAL format with the new **OSCAL Export** button while in the control objectives list view.
 
--   **[ATO artifacts in Microsoft Word](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/generate-ato-artifacts-cam-ws.md)**
+-   **ATO artifacts in Microsoft Word**
 
     Generate ATO artifacts from an authorization package in the Microsoft Word format. In CAM Workspace, you can use the **Generate SSP** drop-down list in a selected authorization package to generate the following reports:
 
@@ -61,11 +61,11 @@ The ServiceNow® Continuous Authorization and Monitoring \(CAM\) application pro
 
 ### What's changed
 
--   **[Generate the OSCAL SSP model of an authorization package](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/generate-oscal-models.md)**
+-   **Generate the OSCAL SSP model of an authorization package**
 
     Export the SSP model of an authorization package in the OSCAL format. The exported report contains only the control objectives linked to the authorization package and their additional information, such as inherited controls and the hierarchy of the control objectives.
 
--   **[Generate ATO artifacts in Microsoft Word and HTML templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/generate-ato-artifacts-cam-ws.md)**
+-   **Generate ATO artifacts in Microsoft Word and HTML templates**
 
     Use the Document designer plugin \(com.sn\_grc\_doc\_design\) to create report templates in Microsoft Word. A new property module has been introduced to select the template type as a Microsoft Word template in addition to an HTML template.
 

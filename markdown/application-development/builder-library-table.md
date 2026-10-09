@@ -30,7 +30,7 @@ Use case\(s\)
 
 </th></tr></thead><tbody><tr><td>
 
-[Exploring Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/decision-designer-overview.md)
+
 
 </td><td>
 
@@ -44,7 +44,7 @@ Determine a customer discount rate for a product given two inputs \(number of un
 
 </td></tr><tr><td>
 
-[Flow Template Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/flow-template.md)
+Flow Template Builder
 
 </td><td>
 
@@ -198,7 +198,7 @@ Create a new standard record page variant to show specific incident records, edi
 
 </td></tr><tr><td>
 
-[Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/conversation-designer-virtual-agent.md)
+Virtual Agent Designer
 
 </td><td>
 

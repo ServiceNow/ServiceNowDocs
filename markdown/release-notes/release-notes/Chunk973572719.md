@@ -32,7 +32,7 @@ Yokohama Patch 3
 -   Manage temporary space closures AI agentic workflow for emergency meeting room maintenance. This team of AI agents block a space for maintenance and move any existing reservations from the blocked room to a new location.
 -   Help manage workplace reservations for updating existing event planning reservations. This team of AI agents retrieve the reservation from workplace case details, analyze the reservation, and update the workplace case notes.
 
-See [Now Assist for WSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/now-assist-wsd-landing.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
@@ -72,18 +72,18 @@ The ServiceNow® ServiceNow Otto for Workplace Service Delivery \(WSD\) applicat
 
 ### What's new
 
--   **[Optimize cleaning activities agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/optimize-cleaning-activities-agent.md)**
+-   ****
 
     Use the Optimize cleaning activities agentic workflow to manage cleaning and maintenance schedules of a maintenance case based on the space utilization rate of the location where a maintenance case is created.
 
--   **[Automate map updates agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/automate-map-updates-agent-ai.md)**
+-   ****
 
     Use the Automate map updates AI agentic workflow to configure the map during bulk updates to Indoor Mapping.
 
     The Map Admin Agent autonomously retrieves the sources for the CAD file and resumes the import task. If the correct source isn't found, the agent moves the task to the Waiting user input state.
 
 
--   **[Manage temporary space closures agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/manage-temp-space-closure-agent-ai.md)**
+-   ****
 
     Use the Manage temporary space closures agentic workflow when an emergency maintenance request is created.
 
@@ -91,7 +91,7 @@ The ServiceNow® ServiceNow Otto for Workplace Service Delivery \(WSD\) applicat
     |-----------------|-----------|
     |Manage temporary space closures|AI agentic workflow blocks a room for emergency maintenance and moves any existing reservation from the blocked location to another.|
 
--   **[Help manage workplace reservations agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/manage-workplace-reservations-agent-ai.md)**
+-   ****
 
     Use the Help manage workplace reservations agentic workflow for updating a planned event reservation's time, date, or duration.
 

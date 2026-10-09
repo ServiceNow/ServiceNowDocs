@@ -20,11 +20,11 @@ Automate your ServiceNow apps.
 
 </td><td>
 
-[Flows in Workflow Studio \[Omitted image "icon-flow-designer.png"\] Alt text: Flow Designer. Enables process owners to automate work with the ServiceNow platform.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/exploring-flows.md)
+Flows in Workflow Studio \[Omitted image "icon-flow-designer.png"\] Alt text: Flow Designer. Enables process owners to automate work with the ServiceNow platform.
 
 </td><td>
 
-[Decision Builder \[Omitted image "icon-decision-builder.png"\] Alt text: Decision Builder. Enable developers to decouple decision logic from their code by creating and maintaining decision rules.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/decision-designer-overview.md)
+Decision Builder \[Omitted image "icon-decision-builder.png"\] Alt text: Decision Builder. Enable developers to decouple decision logic from their code by creating and maintaining decision rules.
 
 </td></tr><tr><td>
 
@@ -32,7 +32,7 @@ Automate your ServiceNow apps.
 
 </td><td>
 
-[Business rules \[Omitted image "icon-log.png"\] Alt text: Business rules. Use business rules to accomplish tasks like automatically changing values in form fields when certain conditions are met.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/c_BusinessRules.md)
+Business rules \[Omitted image "icon-log.png"\] Alt text: Business rules. Use business rules to accomplish tasks like automatically changing values in form fields when certain conditions are met.
 
 </td><td>
 

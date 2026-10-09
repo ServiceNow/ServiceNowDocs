@@ -46,7 +46,7 @@ server - script and any condition run on the server
 
 </td></tr><tr><td>
 
-[Ajax Scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/p_AJAX.md)
+Ajax Scripts
 
 </td><td>
 
@@ -60,7 +60,7 @@ Enables the client to get data from the server to dynamically incorporate into a
 
 </td></tr><tr><td>
 
-[Business Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/c_BusinessRules.md)
+Business Rules
 
 </td><td>
 
@@ -105,7 +105,7 @@ client
 
 </td></tr><tr><td>
 
-[Script actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/r_ScriptActions.md)
+Script actions
 
 </td><td>
 
@@ -133,7 +133,7 @@ server
 
 </td></tr><tr><td>
 
-[Transform maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/c_CreatingNewTransformMaps.md)
+Transform maps
 
 </td><td>
 
@@ -197,7 +197,7 @@ Contains modular, reusable components that can contain Jelly and are called by U
 
 </td></tr><tr><td>
 
-[UI Pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/r_UIPages.md)
+UI Pages
 
 </td><td>
 
@@ -268,7 +268,7 @@ client
 
 </td></tr><tr><td>
 
-[Validation Scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/c_ValidateDateAndTime.md)
+Validation Scripts
 
 </td><td>
 
@@ -280,7 +280,7 @@ client
 
 </td></tr><tr><td>
 
-[Workflow editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-editor.md)
+Workflow editor
 
 </td><td>
 

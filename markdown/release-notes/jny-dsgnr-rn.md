@@ -34,7 +34,7 @@ Yokohama Patch 3
     -   Account Notification
     -   Add LE activity user to Pulse Survey
 
-See [Journey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/jny-dsgnr-landing-page.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 

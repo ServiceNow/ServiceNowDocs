@@ -36,5 +36,5 @@ The impersonated debugging session lasts until:
 **Related topics**  
 
 
-[Script Debugger multiple developer support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/multiple-developer-support.md)
+[bundle-crapiref.multiple-developer-support]
 

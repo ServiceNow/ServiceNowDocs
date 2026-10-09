@@ -59,11 +59,11 @@ The ServiceNow IDE is an implementation of Visual Studio Code for the Web on the
 
     Use Workflow Studio to automate a repeatable task within a flow as a sequence of related steps. Enable flow authors to add actions to multiple flows with minimal configuration.
 
--   **[Client-side scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/client-side-scripting-overview.md)**
+-   **Client-side scripting**
 
     Client scripts enable the system to run JavaScript on the client \(web browser\) when client-based events occur, such as when a form loads, after form submission, or when a field changes value.
 
--   **[Now Assist for code generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/now-assist-code-landing.md)**
+-   ****
 
     Now Assist for code generation allows developers to write scripts quickly with AI-generated code suggestions based on text or code prompts.
 
@@ -71,7 +71,7 @@ The ServiceNow IDE is an implementation of Visual Studio Code for the Web on the
 
     Now Code Editor provides a rich-text editor interface that supports Cascading Style Sheets \(CSS\), Hypertext Markup Language \(HTML\), JavaScript, Extensible Markup Language \(XML\), and JavaScript Object Notation \(JSON\). Use Now Code Editor to modify UI configuration, data resource configuration, styles, events, client-side and server-side scripts in Next Experience UI Builder components.
 
--   **[Server-side scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/c_ServerScripting.md)**
+-   **Server-side scripting**
 
     Server scripts run on the server or database. They can change the appearance or behavior of the ServiceNow AI Platform or run as business rules when records and tables are accessed or modified.
 
@@ -105,7 +105,7 @@ The ServiceNow IDE is an implementation of Visual Studio Code for the Web on the
 
 ## Related applications and features
 
--   **[JavaScript APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/api-reference.md)**
+-   **JavaScript APIs**
 
     Use JavaScript APIs in scripts that you write to change the functionality of applications, or when you create new applications.
 

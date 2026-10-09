@@ -28,7 +28,7 @@ The ServiceNow® ServiceNow Otto for App Engine application enables creators to 
 -   Build custom AI agents and skills for the unique workflow of an application using AI Skill Kit and AI Agent Studio.
 -   Leverage AI agents and skills created with ServiceNow Otto for App Engine in custom applications at runtime, helping improve efficiency.
 
-See [Now Assist for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/add-ai-to-custom-apps-with-now-assist-for-app-engine-enterprise.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 

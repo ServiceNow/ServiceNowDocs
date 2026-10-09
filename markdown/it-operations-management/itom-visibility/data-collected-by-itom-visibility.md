@@ -60,7 +60,7 @@ ITOM Visibility collects unique data for each type of device and stores it in de
 
 <table id="table_zvp_5kj_lnb"><tbody><tr><td>
 
-\[Omitted image "e395f37945bc1db2a1d96ef122e2a75ac01a0721.png"\] Alt text:
+\[Omitted image "253c31b894faf435d52b57f4c01136c2458f2745.png"\] Alt text:
 
 </td><td>
 

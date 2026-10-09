@@ -51,5 +51,5 @@ Administrators can stop all currently running debugging sessions by navigating t
 **Related topics**  
 
 
-[Script Debugger impersonation support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/impersonation-support.md)
+[bundle-crapiref.impersonation-support]
 

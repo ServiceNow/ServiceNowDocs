@@ -41,5 +41,5 @@ The Script Debugger provides a standard set of transaction details for developer
 **Related topics**  
 
 
-[Transaction details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/transaction-details.md)
+[bundle-crapiref.transaction-details]
 

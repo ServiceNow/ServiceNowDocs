@@ -89,5 +89,5 @@ To begin generating applications, see [Generate apps with Now Assist for app gen
 **Related topics**  
 
 
-[Install ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/install-now-assist-for-creator.md)
+[bundle-crworkflow.install-now-assist-for-creator]
 

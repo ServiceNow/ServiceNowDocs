@@ -58,7 +58,7 @@ Enter a unique, user-facing name for your playbook. This name appears during pla
 
 </td><td>
 
-Choose an application scope that you want your playbook to run in. Selecting **Global** lets your playbook run in any application scope. For more information, see Application scope.
+Choose an application scope that you want your playbook to run in. Selecting **Global** lets your playbook run in any application scope. For more information, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/c_ApplicationScope.md).
 
 </td></tr><tr><td id="d148873e254">
 
