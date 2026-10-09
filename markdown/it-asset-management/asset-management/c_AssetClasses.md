@@ -7,7 +7,7 @@ release: zurich
 product: Asset Management
 classification: asset-management
 topic_type: concept
-last_updated: "2026-10-08"
+last_updated: "2026-10-09"
 reading_time_minutes: 1
 breadcrumb: [Use, Asset Management, IT Asset Management]
 ---

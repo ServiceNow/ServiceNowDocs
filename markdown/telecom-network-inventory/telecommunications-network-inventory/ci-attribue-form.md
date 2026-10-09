@@ -83,7 +83,7 @@ Site
 
 </td><td>
 
-Network site or data center in which the network inventory asset is installed. Click the search icon \(\[Omitted image "search.png"\] Alt text: Search icon.\) and select a network site. To learn more, see [6ae017e0af7d4246ad6f9813addb0b7ccaa73376.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/define-tni-sites.md).
+Network site or data center in which the network inventory asset is installed. Click the search icon \(\[Omitted image "search.png"\] Alt text: Search icon.\) and select a network site. To learn more, see [7176d9244e4c99a58be815bfcc9221b388f9fe35.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/telecom-network-inventory/telecommunications-network-inventory/define-tni-sites.md).
 
 </td></tr><tr><td>
 

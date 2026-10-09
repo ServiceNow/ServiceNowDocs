@@ -65,15 +65,15 @@ The following table lists the ServiceNow Otto for Finance and Procurement and sk
 
 11. Select **Define Availability** and choose one of the following options.
 
-<table id="choicetable_e25_bvj_1cc"><thead><tr><th align="left" id="d175132e370">
+<table id="choicetable_e25_bvj_1cc"><thead><tr><th align="left" id="d175135e370">
 
 Option
 
-</th><th align="left" id="d175132e373">
+</th><th align="left" id="d175135e373">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d175132e379">
+</th></tr></thead><tbody><tr><td id="d175135e379">
 
 **Skill is always available**
 
@@ -81,7 +81,7 @@ Description
 
 Skill is always available to users.
 
-</td></tr><tr><td id="d175132e388">
+</td></tr><tr><td id="d175135e388">
 
 **Customize skill availability**
 
@@ -94,15 +94,15 @@ The skill is available only when the certain conditions are met \(Default\).Use 
 
 13. Choose **Select display** to determine where you'd like to display the skill.
 
-<table id="choicetable_x1c_5b2_1cc"><thead><tr><th align="left" id="d175132e424">
+<table id="choicetable_x1c_5b2_1cc"><thead><tr><th align="left" id="d175135e424">
 
 Option
 
-</th><th align="left" id="d175132e427">
+</th><th align="left" id="d175135e427">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d175132e433">
+</th></tr></thead><tbody><tr><td id="d175135e433">
 
 **In-product desktop**
 
@@ -110,13 +110,13 @@ Description
 
 The Purchase order summarization for fulfiller skillis displayed in the Source-to-Pay Workspace for Sourcing and Procurement Operations, Supplier Lifecycle Operations, and Accounts Payable Operations.
 
-</td></tr><tr><td id="d175132e454">
+</td></tr><tr><td id="d175135e454">
 
 **ServiceNow Otto panel**
 
 </td><td>
 
-AI skills are available in the ServiceNow Otto panel. Turn on multi-language support for user-entered text with Dynamic Translation in ServiceNow Otto applications. For more information, see .**Note:** If you don't see this option, you must activate the ServiceNow Otto panel. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-now-assist-panel.md).
+AI skills are available in the ServiceNow Otto panel. Turn on multi-language support for user-entered text with Dynamic Translation in ServiceNow Otto applications. For more information, see [Configure multilingual service for Now Assist applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/enable-dynamic-translation-for-now-assist-applications.md).**Note:** If you don't see this option, you must activate the ServiceNow Otto panel. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
 </td></tr></tbody>
 </table>14. Select **Save and continue** to go to the next step.

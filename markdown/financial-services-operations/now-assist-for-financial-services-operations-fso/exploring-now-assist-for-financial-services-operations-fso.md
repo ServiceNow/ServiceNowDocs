@@ -112,7 +112,7 @@ Provides a customized skill that is configured with a series of related tables f
 
 ## ServiceNow Otto panel in Financial Services Workspace
 
-For case summarization or a conversational interaction for dispute resolution, an agent can use the ServiceNow Otto panel in Financial Services Workspace. This enables an agent to request a case summary in a conversational interface. For more information, see .
+For case summarization or a conversational interaction for dispute resolution, an agent can use the ServiceNow Otto panel in Financial Services Workspace. This enables an agent to request a case summary in a conversational interface. For more information, see [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/intelligent-experiences/now-assist-panel-overview.md).
 
 ## Sensitive data handling
 

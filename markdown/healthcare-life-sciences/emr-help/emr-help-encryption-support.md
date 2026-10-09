@@ -23,7 +23,7 @@ By default, the EMR Help application encrypts the following fields \(columns\) b
 
 The **emr\_data\_viewer** module access policy grants the sn\_ind\_rmt\_help.viewer role permission to decrypt and view these encrypted fields. Users without the sn\_ind\_rmt\_help.viewer role see the encrypted values.
 
-Field Encryption capabilities are required. For more information, see Activate Field Encryption.
+Field Encryption capabilities are required. For more information, see [Activate Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/platform-security/activate-platform-encryption.md).
 
 **Parent Topic:**[EMR Help reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/healthcare-life-sciences/emr-help/emr-reference.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/zurich/platform-administration/limit-activity-stream-entries.html
 release: zurich
 topic_type: task
-last_updated: "2026-10-08"
+last_updated: "2026-10-09"
 reading_time_minutes: 1
 breadcrumb: [Formatters, Administer, Form administration, Forms, fields, and lists, Configure core features, Administer]
 ---

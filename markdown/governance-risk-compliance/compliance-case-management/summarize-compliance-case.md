@@ -91,7 +91,7 @@ Select the information icon \(\[Omitted image "icon-more-info.png"\] Alt text: I
 
 Select **View less** to collapse the summary partially, or **View more** to expand it.
 
- Alternatively, select the **Expand card** icon \(\[Omitted image "4c8d6af8f04ca00074f757d1124e0f66858f9bd4.png"\] Alt text: Expand icon.\) or **Collapse card** icon \(\[Omitted image "8cffa3bcc1d964159f63fea32116e02fa88b6445.png"\] Alt text: Collapse icon.\) next to **Share to case summary** to fully expand or collapse the summary.
+ Alternatively, select the **Expand card** icon \(\[Omitted image "75a737138d097bcd8530fccd7e7b8b7a7dbc80db.png"\] Alt text: Expand icon.\) or **Collapse card** icon \(\[Omitted image "6031e40953c839c246c82803f22a3d0e308f2a53.png"\] Alt text: Collapse icon.\) next to **Share to case summary** to fully expand or collapse the summary.
 
 </td></tr><tr><td id="d276414e303">
 
@@ -99,7 +99,7 @@ Select **View less** to collapse the summary partially, or **View more** to expa
 
 </td><td>
 
-Select the helpful icon \(\[Omitted image "a3961a217c6c42794d87b70ca50a5c4e51637db4.png"\] Alt text: Helpful icon.\) for positive feedback. Select the not helpful icon \(\[Omitted image "a8538f6374f4f5e87b48dc63f04908d721aa1789.png"\] Alt text: Not helpful icon.\) if the summary wasn't helpful.
+Select the helpful icon \(\[Omitted image "686bdc7532da8a3d5b2548f101f5b2091038092b.png"\] Alt text: Helpful icon.\) for positive feedback. Select the not helpful icon \(\[Omitted image "dffc9e719de63903a1453c44d70c122bb8273399.png"\] Alt text: Not helpful icon.\) if the summary wasn't helpful.
 
 **Note:** User feedback doesn't affect future LLM outputs. It’s collected by ServiceNow® for internal quality monitoring only.
 
@@ -109,7 +109,7 @@ Select the helpful icon \(\[Omitted image "a3961a217c6c42794d87b70ca50a5c4e51637
 
 </td><td>
 
-Select the copy icon \(\[Omitted image "0e923b11ae593b3c5240d2fab57b32bca386c59d.png"\] Alt text: Copy icon.\) to copy the summary to the clipboard.
+Select the copy icon \(\[Omitted image "ea6a98bd0d399f9047adea178f8fce126935a4ed.png"\] Alt text: Copy icon.\) to copy the summary to the clipboard.
 
 </td></tr><tr><td id="d276414e352">
 

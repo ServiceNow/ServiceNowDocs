@@ -419,7 +419,7 @@ Required Dynatrace Intelligence settings
 </td></tr></tbody>
 </table>## Google Cloud
 
-**Note:** Before configuring this connection, create a keystore file by following the steps in .
+**Note:** Before configuring this connection, create a keystore file by following the steps in [Create a Java KeyStore certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/setup-google-translator.md).
 
 <table id="table_iqq_xqz_1kc"><thead><tr><th>
 

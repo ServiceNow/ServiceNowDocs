@@ -71,5 +71,5 @@ var res = bsManager.migrateManualToApplicationService("451047c6c0a8016400de0ae6d
 **Related topics**  
 
 
-[bundle-crapiref.BusinessServiceManagerAPI]
+[BusinessServiceManager - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/api-reference/server-api-reference/BusinessServiceManagerAPI.md)
 

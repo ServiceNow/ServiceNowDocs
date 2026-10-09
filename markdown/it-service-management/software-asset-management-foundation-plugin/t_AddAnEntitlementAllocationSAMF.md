@@ -7,7 +7,7 @@ release: zurich
 product: Software Asset Management Foundation plugin
 classification: software-asset-management-foundation-plugin
 topic_type: task
-last_updated: "2026-10-08"
+last_updated: "2026-10-09"
 reading_time_minutes: 1
 breadcrumb: [Create an entitlement, Configuring the classic Basic Software Asset Management, Basic Software Asset Management, ITSM Software Asset Management, Asset Management, IT Service Management]
 ---

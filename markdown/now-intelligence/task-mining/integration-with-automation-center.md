@@ -16,7 +16,7 @@ breadcrumb: [Integrating Task Mining, Explore, Task Mining, Platform Analytics]
 
 Create automation requests for your tasks directly from Task Mining. Capture both steps and desktop actions automation properties in a single recording session, instead of recording the same process twice. When a Task Mining analyst submits an automation request, the recording is delivered to the automation team with all UI properties needed to build desktop actions.
 
-You must install and configure the Automation Center plugin before using the integration. To use the ServiceNow Otto feature in the integration, you must install ServiceNow Otto for Platform and activate the User Task Step Summarization skill. For more information, see [Install Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/install-automation-center.md).
+You must install and configure the Automation Center plugin before using the integration. To use the ServiceNow Otto feature in the integration, you must install ServiceNow Otto for Platform and activate the User Task Step Summarization skill. For more information, see .
 
 ## Building desktop automations
 
@@ -47,5 +47,5 @@ For more information, see [Building desktop automations from Task Mining data](h
 
 [Identify task improvement actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/zurich/now-intelligence/task-mining/identify-improvement-opportunities.md)
 
-[Create an agent for Task Mining requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/integrate-applications/create-agent.md)
+[bundle-crint.create-agent]
 

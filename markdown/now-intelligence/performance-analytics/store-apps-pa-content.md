@@ -28,7 +28,7 @@ A Performance Analytics administrator may need to reschedule the [data collectio
 
 ## Customer Service applications
 
--   [Conversational Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/conversational-interfaces/VA-dashboard-landing-page-pae.md)
+-   
 -   [Workforce Optimization for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/zurich/markdown/customer-service-management/configurable-wfo-cs.md)
 
 ## DevOps applications
