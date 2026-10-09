@@ -46,15 +46,15 @@ To learn more about using the ServiceNow Otto panel, see [Working in the Service
 
 3.  Provide feedback, copy the response text to the clipboard, or refresh the response.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d525397e221">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d525615e221">
 
 Option
 
-</th><th align="left" id="d525397e224">
+</th><th align="left" id="d525615e224">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d525397e230">
+</th></tr></thead><tbody><tr><td id="d525615e230">
 
 **Provide feedback for the summary**
 
@@ -62,7 +62,7 @@ Procedure
 
 If you think that the response was helpful, select thumbs-up \[Omitted image "icon-thumbs-up.png"\]. If you think that it wasn’t helpful, select thumbs-down \[Omitted image "icon-thumbs-down.png"\].This feedback improves the agentic AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated response and stores it in the agentic AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d525397e245">
+</td></tr><tr><td id="d525615e245">
 
 **Copy the summary**
 
@@ -70,7 +70,7 @@ If you think that the response was helpful, select thumbs-up \[Omitted image "ic
 
 Select the copy to clipboard icon \[Omitted image "icon-clipboard.png"\] to use the response information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d525397e256">
+</td></tr><tr><td id="d525615e256">
 
 **Refresh the summary**
 

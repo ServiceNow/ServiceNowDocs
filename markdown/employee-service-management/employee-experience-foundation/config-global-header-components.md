@@ -36,15 +36,15 @@ Role required: admin
 
 5.  Edit the **Additional options, JSON format** field.
 
-<table id="choicetable_osb_gxg_5qb"><thead><tr><th align="left" id="d465926e113">
+<table id="choicetable_osb_gxg_5qb"><thead><tr><th align="left" id="d465826e113">
 
 Option
 
-</th><th align="left" id="d465926e116">
+</th><th align="left" id="d465826e116">
 
 Parameter setting
 
-</th></tr></thead><tbody><tr><td id="d465926e122">
+</th></tr></thead><tbody><tr><td id="d465826e122">
 
 **Search bar**
 
@@ -58,7 +58,7 @@ To enable this option, set the `exclude_search_on_homepage` value to **false**.`
 
 Default value: true**Note:** By default, the search widget is displayed in the Employee Center homepage. Search bar on the global header is hidden by default that you can enable, if needed.
 
-</td></tr><tr><td id="d465926e146">
+</td></tr><tr><td id="d465826e146">
 
 **Wishlist**
 
@@ -72,7 +72,7 @@ To enable this option, set the `enable_wishlist` value to **true** ```
 
 Default value: False
 
-</td></tr><tr><td id="d465926e164">
+</td></tr><tr><td id="d465826e164">
 
 **My Requests**
 
@@ -86,7 +86,7 @@ To disable this option, set the `enable_requests` value to **false** ```
 
 Default value: True
 
-</td></tr><tr><td id="d465926e182">
+</td></tr><tr><td id="d465826e182">
 
 **My Tasks**
 
@@ -100,7 +100,7 @@ To disable this option, set the `enable_tasks` value to **false** ```
 
 Default value: True
 
-</td></tr><tr><td id="d465926e201">
+</td></tr><tr><td id="d465826e201">
 
 **More**
 
@@ -116,7 +116,7 @@ To disable this option, set the `enable_more_items` value to **false** ```
 
 Default value: True
 
-</td></tr><tr><td id="d465926e219">
+</td></tr><tr><td id="d465826e219">
 
 **Cart**
 
@@ -130,7 +130,7 @@ To enable this option, set the `enable_cart` value to **true** ```
 
 Default value: False
 
-</td></tr><tr><td id="d465926e237">
+</td></tr><tr><td id="d465826e237">
 
 **Update Cart**
 

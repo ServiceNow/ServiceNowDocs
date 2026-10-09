@@ -24,7 +24,7 @@ The widget uses credentials from the User \[sys\_user\] record. In the **User na
 
 \[Omitted image "WidgetLogin.png"\] Alt text: Default login widget on the Service Portal landing page
 
-The login widget by default includes a **Forgot Password?** link that enables users to reset their password using the Password Reset application. For more information about Password Reset configuration, see [Password Reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/password-reset-landing-page.md).
+The login widget by default includes a **Forgot Password?** link that enables users to reset their password using the Password Reset application. For more information about Password Reset configuration, see Password Reset.
 
 **Note:** When the user selects **Forgot Password?**, the system redirects the user to the page value specified in the **glide.security.password\_reset.uri** system property.
 
@@ -36,7 +36,7 @@ External user self-registration enables a large group of users to register to a 
 
 \[Omitted image "self-registration-widget.png"\] Alt text: Self-registration link.
 
-For more information on external user self-registration, see [Enable external users to self-register to your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/external-user-self-registration.md).
+For more information on external user self-registration, see Enable external users to self-register to your ServiceNow instance.
 
 ## PIV/CAC authentication
 
@@ -46,7 +46,7 @@ After self-registering their PIV/CAC card, a user can log in by inserting their 
 
 \[Omitted image "piv-cac-login.png"\] Alt text: Login page with PIV/CAC option
 
-Before a user can register their PIV/CAC card, an administrator must activate certificate-based authentication and then set up PIV/CAC authentication. For more information on this setup process, see [Personal Identity Verification \(PIV\) card or Common Access Card \(CAC\) based authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/certificate-based-authentication.md).
+Before a user can register their PIV/CAC card, an administrator must activate certificate-based authentication and then set up PIV/CAC authentication. For more information on this setup process, see Personal Identity Verification \(PIV\) card or Common Access Card \(CAC\) based authentication.
 
 For more information on how a user self-registers their PIV/CAC card, see [Register your PIV/CAC card for Service Portal login](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/piv-cac-login.md).
 

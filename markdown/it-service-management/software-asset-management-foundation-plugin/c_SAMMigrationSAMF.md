@@ -7,7 +7,7 @@ release: australia
 product: Software Asset Management Foundation plugin
 classification: software-asset-management-foundation-plugin
 topic_type: concept
-last_updated: "2026-10-08"
+last_updated: "2026-10-09"
 reading_time_minutes: 2
 breadcrumb: [Basic Software Asset Management Administration, Basic Software Asset Management, ITSM Software Asset Management, Asset Management common applications, IT Service Management]
 ---

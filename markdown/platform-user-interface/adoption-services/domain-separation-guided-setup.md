@@ -43,5 +43,5 @@ There are some key points to note with domain separation support.
 **Related topics**  
 
 
-[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
+[bundle-psec.domain-sep-landing-page]
 

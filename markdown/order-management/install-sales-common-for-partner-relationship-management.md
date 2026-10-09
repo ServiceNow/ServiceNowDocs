@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/install-sales-common-for-partner-relationship-management.html
 release: australia
 topic_type: task
-last_updated: "2026-10-08"
+last_updated: "2026-10-09"
 reading_time_minutes: 2
 breadcrumb: [Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---

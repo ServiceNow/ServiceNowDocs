@@ -16,13 +16,13 @@ Turn on the theme creation workflow to generate themes using the ServiceNow Otto
 
 ## Before you begin
 
-The ServiceNow Otto for Creator application must be installed. See [Install ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/install-now-assist-for-creator.md).
+The ServiceNow Otto for Creator application must be installed. See .
 
 The ServiceNow Otto® panel must be turned on. See [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
 Role required: ui\_builder\_admin
 
-For information on granular roles, see [Granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/granular-admin-roles.md).
+For information on granular roles, see .
 
 ## About this task
 

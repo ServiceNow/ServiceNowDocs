@@ -52,7 +52,7 @@ The Configuration Console includes a **Configure with AI** option that opens a c
     -   Select **Choose something else** to view all available options, including groups, users, and roles.
 6.  Based on your selection, follow the prompts in the panel.
 
-<table id="choicetable_otq_dy3_hkc"><tbody><tr><td id="d346461e258">
+<table id="choicetable_otq_dy3_hkc"><tbody><tr><td id="d346369e258">
 
 **__Assignment groups \(Team management\)__ or __Roles \(Team management\)__**
 
@@ -65,7 +65,7 @@ Select one of the following options or enter a natural-language prompt: -   **As
 -   **Search by Org Chart**
 
 
-</td></tr><tr><td id="d346461e294">
+</td></tr><tr><td id="d346369e294">
 
 **__Users \(Team management\)__**
 

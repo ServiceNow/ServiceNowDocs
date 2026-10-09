@@ -28,8 +28,8 @@ A Performance Analytics administrator may need to reschedule the [data collectio
 
 ## Customer Service applications
 
--   [Conversational Analytics dashboard in Platform Analytics experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/VA-dashboard-landing-page-pae.md)
--   [Workforce Optimization for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/configurable-wfo-cs.md)
+-   
+-   Workforce Optimization for Customer Service Management
 
 ## DevOps applications
 
@@ -37,11 +37,11 @@ A Performance Analytics administrator may need to reschedule the [data collectio
 
 ## Employee Service Management
 
-[Safe Workplace dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/employee-service-management/safe-workplace-dashboard.md)
+Safe Workplace dashboard
 
 ## IT Asset Management applications
 
-[Cloud Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-asset-management/cloud-insights-landing-page.md)
+Cloud Insights
 
 ## Strategic Portfolio Management applications
 

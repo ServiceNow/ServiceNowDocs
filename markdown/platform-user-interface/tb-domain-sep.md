@@ -26,5 +26,5 @@ For more information on support levels, see [Application support for domain sepa
 **Related topics**  
 
 
-[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/domain-sep-landing-page.md)
+[bundle-psec.domain-sep-landing-page]
 

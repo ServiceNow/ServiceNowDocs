@@ -153,7 +153,7 @@ Securely connect to an external data source and access external data directly fr
 
     Define an inbound email action to script how the system responds to an inbound email.
 
--   **[Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio.md)**
+-   ****
 
     Integrate workflow authoring, configuring, and monitoring into a single page experience. Consolidate playbooks, flows, actions, decision tables, and integrations into one design environment.
 

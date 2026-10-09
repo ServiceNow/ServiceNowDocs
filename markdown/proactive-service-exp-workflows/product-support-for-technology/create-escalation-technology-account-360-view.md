@@ -36,7 +36,7 @@ Role required: sn\_acct\_lc.customer\_success\_agent, sn\_ind\_tsm\_sdwan.app\_e
 
 6.  On the Escalation form, fill in the fields.
 
-    For more information about the fields, see .
+    For more information about the fields, see [Escalate a case or an account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/customer-service-management/escalate-csm-case.md).
 
 7.  Select **Save**.
 

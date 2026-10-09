@@ -50,7 +50,7 @@ The ServiceNow® Sales CRM applications include the ServiceNow® Product Catalog
 
 ### What's new
 
--   **Eligible catalog-category hierarchy API**
+-   **[Eligible catalog-category hierarchy API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/product-catalog-search-api.md)**
 
     Enable external integrations and in-platform applications to retrieve the eligible catalog-category tree hierarchy by using a REST endpoint.
 
@@ -61,7 +61,7 @@ The ServiceNow® Sales CRM applications include the ServiceNow® Product Catalog
 
 ### What's new
 
--   ****
+-   **[Product Catalog Search API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/product-catalog-search-api.md)**
 
     Enable external integrations to query the product catalog by calling the `POST /api/sn_prd_pm/v1/catalog/search` endpoint. This REST API accepts a JSON request body and returns product offering and service specification results, including a semantic similarity score when AI Search is enabled. Users with the sn\_prd\_pm.product\_catalog\_viewer or sn\_prd\_pm.external\_product\_viewer role can access the endpoint.
 
@@ -97,11 +97,11 @@ The ServiceNow® Sales CRM applications include the ServiceNow® Product Catalog
 
 ### What's new
 
--   **Support manual pricing adjustments in the Sales CRM Pricing API**
+-   **[Support manual pricing adjustments in the Sales CRM Pricing API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/sales-crm-pricing-api.md)**
 
     Pass manual pricing adjustments as part of a pricing request payload using the Pricing API. External systems can include adjustment values directly in a pricing run, rather than fetch manual adjustments from the pricing database when running pricing calculations.
 
--   **Support external IDs in the Sales CRM Pricing API**
+-   **[Support external IDs in the Sales CRM Pricing API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/sales-crm-pricing-api.md)**
 
     Submit pricing requests that use custom external IDs or codes to reference objects from external systems, such as product offerings, price lists, and cost books. Set a request-level flag that indicates external IDs are to be used for these objects rather than sys\_ids. For additional information, see [External ID support in Sales CRM Pricing API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/order-management/external-ids-pricingapi.md).
 

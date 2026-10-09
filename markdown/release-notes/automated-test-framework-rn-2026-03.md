@@ -16,7 +16,7 @@ The ServiceNow® Automated Test Framework enables you to create and run automate
 
 ## What's new
 
--   **ATF Code Coverage**
+-   **[ATF Code Coverage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/atf-code-coverage.md)**
 
     View metadata code coverage for custom scripts executed during ATF test runs. Code coverage helps identify untested code, evaluate test quality, and assess deployment risk in ReleaseOps.
 

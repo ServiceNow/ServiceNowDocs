@@ -31,8 +31,8 @@ For detailed information, see [Import Workday or Salesforce data](https://raw.gi
 The following prerequisites must be fulfilled before using Process Mining for Workday and Process Mining for Salesforce.
 
 -   You must have Process Mining for External Data \(version 29.5.3\) installed. For more information, see [Request Process Mining for external data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/access-ext-data.md).
--   You must have Workday HR Spoke \(version 3.0.2\) installed \(For Process Mining for Workday\). For more information see, [Workday HR Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/workday-hr-spoke.md).
--   You must have Salesforce Spoke \(2.5.0\) installed \(For Process Mining for Salesforce\). For more information, see [Salesforce Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/salesforce-spoke.md).
+-   You must have Workday HR Spoke \(version 3.0.2\) installed \(For Process Mining for Workday\). For more information see, .
+-   You must have Salesforce Spoke \(2.5.0\) installed \(For Process Mining for Salesforce\). For more information, see .
 
 For information on requesting access to Process Mining for Salesforce and Process Mining for Workday, see [Request Process Mining for Salesforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/install-salesforce.md) and [Request Process Mining for Workday](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/now-intelligence/process-mining/install-workday.md) respectively.
 

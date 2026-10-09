@@ -7,7 +7,7 @@ release: australia
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-10-08"
+last_updated: "2026-10-09"
 reading_time_minutes: 3
 keywords: [license key discovery, parser script, file-based discovery, configuration]
 breadcrumb: [License key discovery, ACC Discovery, ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]

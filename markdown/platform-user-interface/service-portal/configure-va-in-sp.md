@@ -106,7 +106,7 @@ Server script
 
 </td><td>
 
-Script that passes page and widget data to an Agent Chat conversation. For example, pass a field to enable Agent Chat to access the value. Data passed in this script is available to every page in the portal. This script has access to the [GlideSPScriptable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/c_GlideSPScriptableScopedAPI.md) API.
+Script that passes page and widget data to an Agent Chat conversation. For example, pass a field to enable Agent Chat to access the value. Data passed in this script is available to every page in the portal. This script has access to the GlideSPScriptable API.
 
  **Note:** The portal suffix, page ID, and language are automatically available to Agent Chat and do not require a custom script. Sys ID and table are automatically available to Agent Chat when they are present in the URL.
 
@@ -304,7 +304,7 @@ Examine the widget to understand how data is passed to the widget client script.
     };
     ```
 
-    Keys passed to this API are unique per page. For example, if the `'agent-chat'` key is already initialized by another widget on the page through the addContext\(\) method, you must use the updateContextForKey\(\) method to update the key's data.. For more information about the spContextManager class, see [spContextManager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/spContextManagerAPI.md).
+    Keys passed to this API are unique per page. For example, if the `'agent-chat'` key is already initialized by another widget on the page through the addContext\(\) method, you must use the updateContextForKey\(\) method to update the key's data.. For more information about the spContextManager class, see spContextManager.
 
 3.  Click **Save.**
 

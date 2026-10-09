@@ -100,7 +100,7 @@ Specify the message to log. Entered as a string. This parameter is required.
 
 The new logs are available in the MID agent log and can be downloaded from the MID Server. For more information, see [Download the MID Server files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/t_DownloadMIDServerFiles.md).
 
-If you set the system property to view the logs in the instance, you can see them in the **Flow engine log entries** tab of the Flow engine context record. For more information, see [Flow execution details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/flow-execution-details.md).
+If you set the system property to view the logs in the instance, you can see them in the **Flow engine log entries** tab of the Flow engine context record. For more information, see Flow execution details.
 
 **Parent Topic:**[PowerShell step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/integrate-applications/integration-hub/powershell-step-action-designer.md)
 

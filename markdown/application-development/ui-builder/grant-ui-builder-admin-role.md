@@ -7,7 +7,7 @@ release: australia
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2026-10-08"
+last_updated: "2026-10-09"
 reading_time_minutes: 1
 breadcrumb: [Configure, UI generation, UI Builder, Builder library, Developing your application, Building applications]
 ---

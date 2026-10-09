@@ -18,7 +18,7 @@ Plan and configure your implementation of Financial Services Operations Integrat
 
 To configure Financial Services Operations Integration with Mastercard on your ServiceNow instance, you need to set up a sequence of tasks.
 
-1.  [Set up Mastercard spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/set-up-mastercard-spoke.md)
+1.  
 
     Use the Integration Hub to integrate Mastercard Spoke with your ServiceNow instance.
 

@@ -60,7 +60,7 @@ Role required: sn\_erp\_integration.erp\_admin
 
         Field information is added to **Data type**, **Required**, and **Mapped field** automatically.
 
-        The **Data type** field contains a variety of types including string, integer, array, and Boolean. For general information, see [Workflow Studio input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/action-inputs-outputs.md).
+        The **Data type** field contains a variety of types including string, integer, array, and Boolean. For general information, see .
 
     3.  Select **OK**.
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/governance-risk-compliance/report-grc-issue-frm-plan.html
 release: australia
 topic_type: task
-last_updated: "2026-10-08"
+last_updated: "2026-10-09"
 reading_time_minutes: 2
 keywords: [GRC, issue, compliance, Otto]
 breadcrumb: [Reporting an issue from Business Continuity Workspace, Managing issues from Business Continuity Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]

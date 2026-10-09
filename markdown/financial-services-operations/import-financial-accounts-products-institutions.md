@@ -40,7 +40,7 @@ Role required: sn\_bom.admin
 
 6.  Transform the data from the import set table to the target table.
 
-    For more information, see [Run an import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/integrate-applications/t_RunImport.md).
+    For more information, see Run an import.
 
 7.  Verify that the data records are imported into the target tables by navigating to the target tables.
 

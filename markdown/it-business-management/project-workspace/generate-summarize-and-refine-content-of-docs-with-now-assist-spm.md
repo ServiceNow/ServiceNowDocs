@@ -35,15 +35,15 @@ This task will be explained using Project Workspace as the example.
 
 2.  From your Doc, open the page you want to work with and use ServiceNow Otto for any of your use cases.
 
-<table id="choicetable_l3j_vx2_lgc"><thead><tr><th align="left" id="d216427e128">
+<table id="choicetable_l3j_vx2_lgc"><thead><tr><th align="left" id="d216461e128">
 
 Choice
 
-</th><th align="left" id="d216427e131">
+</th><th align="left" id="d216461e131">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d216427e137">
+</th></tr></thead><tbody><tr><td id="d216461e137">
 
 **Work with content of the whole page**
 
@@ -59,7 +59,7 @@ Some examples are:
     -   For product teams: **Analyze the customer feedback comments in this Doc, group into top 5 themes, and suggest top 3 enhancements for highest impact.**
  **Note:** Now Assist uses the context from your Doc page to generate a response.
 
-</td></tr><tr><td id="d216427e185">
+</td></tr><tr><td id="d216461e185">
 
 **Refine, elaborate, or improve the existing content within the page.**
 
@@ -75,7 +75,7 @@ Some examples are:
     -   **Rewrite this in a casual tone.**
 \[Omitted image "na-inline-open-text.png"\] Alt text: Sample of a ServiceNow Otto inline prompt for selected content on the page.
 
-</td></tr><tr><td id="d216427e236">
+</td></tr><tr><td id="d216461e236">
 
 **Take assistance on a blank page.**
 
@@ -92,7 +92,7 @@ Some examples are:
 
 \[Omitted image "na-blank-page-nacm.png"\] Alt text: Sample of creating first draft for a page using Otto.
 
-</td></tr><tr><td id="d216427e290">
+</td></tr><tr><td id="d216461e290">
 
 **Answer questions in the context of this Doc.**
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/order-management/channel-partner-components.html
 release: australia
 topic_type: reference
-last_updated: "2026-10-08"
+last_updated: "2026-10-09"
 reading_time_minutes: 1
 breadcrumb: [Partner Relationship Management, Reference, Sales Customer Relationship Management]
 ---

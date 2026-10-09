@@ -24,7 +24,7 @@ The ServiceNow Lux Lab for VS Code extension transforms how you build on the Ser
 -   Access relevant experiences, pages, and widgets from your instance.
 -   Develop tailored experiences with AI tools.
 
-See  for more information.
+See [ServiceNow Lux Lab for VS Code extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/servicenow-ai-experience-lab-for-vs-code-landing.md) for more information.
 
 ## Activation and other requirements
 

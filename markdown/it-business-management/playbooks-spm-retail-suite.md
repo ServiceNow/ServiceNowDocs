@@ -113,7 +113,11 @@ Playbooks add value to store life cycle management in the following ways:
 **Related topics**  
 
 
-[bundle-crworkflow.workflow-studio-playbooks-landing]
+[Workflow Studio Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/workflow-studio-playbooks-landing.md)
+
+[Building Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/building-a-process.md)
+
+[Designing Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/playbook-experience-admins.md)
 
 [Explore Retail Strategic Portfolio Management Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/it-business-management/explore-spm-retail-suite.md)
 

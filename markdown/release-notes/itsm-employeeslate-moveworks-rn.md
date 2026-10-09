@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/release-notes/itsm-employeeslate-moveworks-rn.html
 release: australia
 topic_type: topic
-last_updated: "2026-10-08"
+last_updated: "2026-10-09"
 reading_time_minutes: 2
 breadcrumb: [IT Service Management release notes, Features and changes by product, Release notes for upgrading from Zurich, Learn about the Australia release, Australia release notes]
 ---

@@ -192,7 +192,7 @@ Attachment
 
 </td><td>
 
-Attachment record that contains the request. You can look up or create this record in a prior step and define it as an input variable. Create it by using the [JSONStreamingBuilder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/JSONStreamingBuilderScopedAPI.md) and [XMLStreamingBuilder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/api-reference/server-api-reference/XMLStreamingBuilderScopedAPI.md) APIs in the Script step. **Note:** This field is available when the **Request Type** is **Binary**.
+Attachment record that contains the request. You can look up or create this record in a prior step and define it as an input variable. Create it by using the JSONStreamingBuilder and XMLStreamingBuilder APIs in the Script step. **Note:** This field is available when the **Request Type** is **Binary**.
 
 </td></tr><tr><td>
 
@@ -338,7 +338,7 @@ Option to exclude a header if the value is empty or null.**Note:** This check bo
 
     Data type: **Choice**
 
-    Option to continue running the next step or go to error evaluation. To use the step status code or message for a custom action error condition, see [Action error evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/build-workflows/action-error-evaluation.md).
+    Option to continue running the next step or go to error evaluation. To use the step status code or message for a custom action error condition, see .
 
 
 ## SOAP response size limit

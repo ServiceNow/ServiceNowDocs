@@ -7,7 +7,7 @@ release: australia
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
-last_updated: "2026-10-08"
+last_updated: "2026-10-09"
 reading_time_minutes: 1
 breadcrumb: [AI Control Tower, Agent Client Collector, IT Operations Management]
 ---

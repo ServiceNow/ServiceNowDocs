@@ -56,7 +56,7 @@ If configured, this section displays the following types of tabs for a submitted
 
     -   If the current ticket is a universal request, then all requests associated \(through the **Parent** field on the task table\) with child tickets of the universal request are displayed.
     -   If the current ticket isn’t a universal request, then all requests associated \(through the **Parent** field on the task table\) with the current ticket are displayed.
-    For information on defining filters for the My Requests widget, see [Define filters for My Requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/configure-my-requests.md).
+    For information on defining filters for the My Requests widget, see Define filters for My Requests.
 
 -   Custom tab
 
@@ -66,7 +66,7 @@ By default, the **Activity** and **Attachments** tabs are available.
 
 For each request type of a cross-scope application, the following configurations are required:
 
--   Restricted caller access privileges for the following standard ticket page widgets so that these widgets can access the application tables. For information about these privileges, see [Application access settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/application-development/c_ApplicationAccessSettings.md).
+-   Restricted caller access privileges for the following standard ticket page widgets so that these widgets can access the application tables. For information about these privileges, see .
     -   Widget: Standard Ticket Header
     -   Widget: Standard Ticket Attachments
     -   Widget: Standard Ticket Tab
@@ -98,9 +98,9 @@ If you have upgraded your instance, redirect the ticket page to standard\_ticket
 **Related topics**  
 
 
-[Standard ticket page for a requested item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/servicenow-platform/stpage-req-item.md)
+[bundle-platcap.stpage-req-item]
 
-[Incident standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/it-service-management/incident-stnd-ticket-page.md)
+[bundle-itsm.incident-stnd-ticket-page]
 
 [Configure the standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/australia/platform-user-interface/service-portal/configure-st-page.md)
 

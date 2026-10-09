@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/it-operations-management/deactivate-integration.html
 release: australia
 topic_type: task
-last_updated: "2026-10-08"
+last_updated: "2026-10-09"
 reading_time_minutes: 1
 breadcrumb: [Integrations Launchpad in SOW for ITOM, ITOM AIOps, IT Operations Management]
 ---

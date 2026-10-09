@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/australia/customer-service-management/task\_plan\_template\_configurations.html
 release: australia
 topic_type: task
-last_updated: "2026-10-08"
+last_updated: "2026-10-09"
 reading_time_minutes: 1
 breadcrumb: [Task Plan Templates, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---

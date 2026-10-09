@@ -86,7 +86,7 @@ Review the assignment rules that are installed with the Financial Services Opera
 |Travel claim baggage adjuster task|sn\_ins\_gen\_claim\_adj\_task|
 |Travel claim trip adjuster task|sn\_ins\_gen\_claim\_adj\_task|
 
-For advanced assignment rules, you can also use the ServiceNow Advanced Work Assignment \(AWA\) feature to automatically assign work items to agents, based on their availability, capacity, and optionally, skills. For more information, see [Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/conversational-interfaces/awa-overview.md).
+For advanced assignment rules, you can also use the ServiceNow Advanced Work Assignment \(AWA\) feature to automatically assign work items to agents, based on their availability, capacity, and optionally, skills. For more information, see Advanced Work Assignment.
 
 ## Procedure
 

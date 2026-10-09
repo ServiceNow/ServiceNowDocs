@@ -53,15 +53,15 @@ For custom widgets, the columns common to CWM task types and other work item typ
 
 7.  Add a predefined widget or create a custom one.
 
-<table id="choicetable_at1_rhy_hkc"><thead><tr><th align="left" id="d342034e194">
+<table id="choicetable_at1_rhy_hkc"><thead><tr><th align="left" id="d342080e194">
 
 Goal
 
-</th><th align="left" id="d342034e197">
+</th><th align="left" id="d342080e197">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d342034e203">
+</th></tr></thead><tbody><tr><td id="d342080e203">
 
 **Add a predefined widget**
 
@@ -69,7 +69,7 @@ Action
 
 Select **Add** next to a predefined widget to add it to the dashboard as-is.\[Omitted image "cwm-widget-add-option.png"\] Alt text: Add option for predefined widgets next to the widget name.
 
-</td></tr><tr><td id="d342034e221">
+</td></tr><tr><td id="d342080e221">
 
 **Create a custom widget**
 

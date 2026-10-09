@@ -18,7 +18,7 @@ Adjust a component to meet the Web Content Accessibility Guidelines \(WCAG\) 2.1
 
 Role required: ui\_builder\_admin
 
-For information on granular roles, see [Granular admin roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/australia/markdown/platform-security/granular-admin-roles.md).
+For information on granular roles, see .
 
 You can also watch a short video on how to fix accessibility errors.
 
@@ -34,15 +34,15 @@ The total number of accessibility violations are indicated on the red numbered b
 
 1.  From the Editor page, access the accessibility violations in one of the two ways listed in the following table.
 
-<table id="choicetable_php_1vv_2dc"><thead><tr><th align="left" id="d116206e110">
+<table id="choicetable_php_1vv_2dc"><thead><tr><th align="left" id="d116214e109">
 
 Option
 
-</th><th align="left" id="d116206e113">
+</th><th align="left" id="d116214e112">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d116206e119">
+</th></tr></thead><tbody><tr><td id="d116214e118">
 
 **From Accessibility inspector**
 
@@ -54,7 +54,7 @@ Description
 
 **Note:** The Component Editor page appears and the configurable style panel displays the editable hooks available for the selected component.
 
-</td></tr><tr><td id="d116206e158">
+</td></tr><tr><td id="d116214e157">
 
 **From the Component styles menu**
 
