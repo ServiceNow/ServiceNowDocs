@@ -40,8 +40,6 @@ Steps to reproduce
 
 PRB1624982
 
- [KB1209442](https://hi.service-now.com/kb_view.do?sysparm_article=KB1209442)
-
 </td><td>
 
 The HTML field doesn't show on the Details Screen if there are multiple calculated fields on the Details Screen
@@ -52,7 +50,7 @@ The HTML field doesn't show on the Details Screen if there are multiple calculat
 
 </td><td>
 
-Refer to the listed KB article for details.
+ 
 
 </td></tr><tr><td>
 
@@ -76,8 +74,6 @@ Mobile iOS \(non-classic\)
 
  PRB1611520
 
- [KB1182159](https://hi.service-now.com/kb_view.do?sysparm_article=KB1182159)
-
 </td><td>
 
 UI Rule does not apply on refresh of the record screen
@@ -88,7 +84,7 @@ The background color of the number on the record screen header card disappears.
 
 </td><td>
 
-Refer to the listed KB article for details.
+ 
 
 </td></tr><tr><td>
 
@@ -244,8 +240,6 @@ Mobile iOS \(non-classic\)
 
  PRB1599175
 
- [KB1164769](https://hi.service-now.com/kb_view.do?sysparm_article=KB1164769)
-
 </td><td>
 
 Messages are not getting translated in the Now mobile app when the iOS device's language is set to Japanese
@@ -256,7 +250,7 @@ Messages not getting translated include, 'Are you sure you want to cancel the co
 
 </td><td>
 
-Refer to the listed KB article for details.
+ 
 
 </td></tr><tr><td>
 
