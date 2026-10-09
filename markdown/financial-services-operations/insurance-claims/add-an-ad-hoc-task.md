@@ -30,15 +30,15 @@ This procedure references service definitions and products that are used in the 
 
 2.  Open the claim one of the following ways.
 
-<table id="choicetable_fp4_xnh_vcc"><thead><tr><th align="left" id="d111855e89">
+<table id="choicetable_fp4_xnh_vcc"><thead><tr><th align="left" id="d111882e89">
 
 Option
 
-</th><th align="left" id="d111855e92">
+</th><th align="left" id="d111882e92">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d111855e98">
+</th></tr></thead><tbody><tr><td id="d111882e98">
 
 **From the landing page**
 
@@ -46,7 +46,7 @@ Steps
 
 From a claims list, select the claim case that you want to create a task for.
 
-</td></tr><tr><td id="d111855e107">
+</td></tr><tr><td id="d111882e107">
 
 **From the applicable case/tasks list**
 

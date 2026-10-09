@@ -78,7 +78,7 @@ For details about available ServiceNow Otto Suites and their compatibility with 
 
 8.  If you have available application customizations, use the **Customized ver.** drop-down menu to select which customization to use.
 
-    Your customizations might not be compatible with a new application version. Update the application in a non-production instance, then make any necessary changes to your customization and validate compatibility before making updates in production instances. For more information about managing customizations, see [Manage customizations to applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/manage-customizations-store-apps.md).
+    Your customizations might not be compatible with a new application version. Update the application in a non-production instance, then make any necessary changes to your customization and validate compatibility before making updates in production instances. For more information about managing customizations, see .
 
 9.  Include demo data if it's desired and available.
 
@@ -94,15 +94,15 @@ For details about available ServiceNow Otto Suites and their compatibility with 
 
 11. Install the application now or schedule installation for a later time.
 
-<table><thead><tr><th align="left" id="d140906e461">
+<table><thead><tr><th align="left" id="d140904e460">
 
 Installation option
 
-</th><th align="left" id="d140906e464">
+</th><th align="left" id="d140904e463">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d140906e470">
+</th></tr></thead><tbody><tr><td id="d140904e469">
 
 **Install now**
 
@@ -112,7 +112,7 @@ Procedure
 2.  Select **Install**.
 
 
-</td></tr><tr><td id="d140906e494">
+</td></tr><tr><td id="d140904e493">
 
 **Install later**
 

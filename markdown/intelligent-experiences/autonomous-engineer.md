@@ -14,7 +14,7 @@ breadcrumb: [AI Workflow Factory AI agents, AI Workflow Factory, AI agents libra
 
 This AI agent helps with implementing ServiceNow applications. The agent accepts requirements, generates a plan with structured work items, and builds all work items in parallel using background AI agents.
 
-**Important:** Autonomous Engineer uses a different framework than other ServiceNow® AI agents. Review the following workflow and configuration settings for Autonomous Engineer. For more information, see [Autonomous Engineer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/autonomous-engineer.md).
+**Important:** Autonomous Engineer uses a different framework than other ServiceNow® AI agents. Review the following workflow and configuration settings for Autonomous Engineer. For more information, see .
 
 ## Build Agent dependency
 
@@ -46,7 +46,7 @@ Autonomous Engineer accepts requirements, generates a structured plan for the us
 |------------------|-----------|
 |Plugins|The Autonomous Engineer plugin is `sn_autonomous_eng`. When you install Autonomous Engineer, the Build Agent plugin is installed as a dependency.|
 |Access|Autonomous Engineer is accessible via the Build Agent chat panel in ServiceNow Studio.|
-|Agent packs|Autonomous Engineer uses agent packs to understand ServiceNow products. You can install different agent packs depending on the implementation you're completing. For more information, see [Agent packs for Autonomous Engineer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/ba-auto-eng-agent-packs.md).|
+|Agent packs|Autonomous Engineer uses agent packs to understand ServiceNow products. You can install different agent packs depending on the implementation you're completing. For more information, see .|
 
 **Parent Topic:**[AI Workflow Factory AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-workflow-factory-prime-ai-agents.md)
 

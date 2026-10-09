@@ -25,7 +25,7 @@ The **Skills** tab provides dashboards for monitoring the usage and performance 
 
 The **AI Agents** tab provides dashboards for monitoring the usage, performance, and operational health of AI agents and agentic workflows, including execution status, insights, assist consumption, and troubleshooting. For more information, see [AI Agent Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/ai-agent-dashboard.md).
 
-The **Assistants** tab provides dashboards for monitoring AI-powered assistant performance, including usage, adoption and engagement, self-solve rates, sentiment, and assist consumption. For more information, see [Analyzing assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/ai-engagement-analytics.md).
+The **Assistants** tab provides dashboards for monitoring AI-powered assistant performance, including usage, adoption and engagement, self-solve rates, sentiment, and assist consumption. For more information, see .
 
 To open the **Monitor** section, see [View AI assets usage and performance in AI Admin Center \(Next Experience UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-center-view-ai-usage.md).
 

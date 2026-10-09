@@ -16,7 +16,7 @@ breadcrumb: [Use, Operational Technology Manager, Operational Technology]
 
 The Service Graph Connector for Microsoft Excel function enables you to import your existing Operational Technology data from a populated Microsoft Excel flat-file spreadsheet. You use it in the Integration Hub Extract Transform Load \(ETL\) to upload this data to the Configuration Management Database \(CMDB\).
 
-Before you can run the import process, you must populate the Microsoft Excel spreadsheet with your existing Operational Technology data. When you import your Microsoft Excel spreadsheet using the Integration Hub ETL, it creates the correct configuration item \(CI\) records in the Configuration Management Database \(CMDB\). To learn more, see Operation Technology \(OT\) extension classes.
+Before you can run the import process, you must populate the Microsoft Excel spreadsheet with your existing Operational Technology data. When you import your Microsoft Excel spreadsheet using the Integration Hub ETL, it creates the correct configuration item \(CI\) records in the Configuration Management Database \(CMDB\). To learn more, see [Operation Technology \(OT\) extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/cmdb-ci-class-models-operation-technology.md).
 
 -   **[Configuring the Service Graph Connector for Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/operational-technology/operational-technology-manager/configuring-service-graph-connector-for-excel.md)**  
 Configure the Service Graph Connector for Microsoft Excel to import your existing Operational Technology data from a populated Microsoft Excel flat-file spreadsheet.
@@ -30,5 +30,5 @@ With the Service Graph Connector for Microsoft Excel, you can create import task
 
 [bundle-crint.integrationhub]
 
-[bundle-platcap.integrationhub-etl]
+[IntegrationHub ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/integrationhub-etl.md)
 

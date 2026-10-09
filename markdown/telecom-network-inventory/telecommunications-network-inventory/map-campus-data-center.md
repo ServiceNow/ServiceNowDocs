@@ -41,7 +41,7 @@ After you create a Indoor Mapping campus record, you must map it to the datacent
 
 4.  Select the location record in the **CMN Location Campus** field.
 
-    If you don't have a location record for your datacenter location, create one. Make sure to use the same location as the datacenter you want to map. To learn more about how to create location record, see [67731530c3ed594fce998d4afca297c37ecc25ba.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/define-tni-locations.md).
+    If you don't have a location record for your datacenter location, create one. Make sure to use the same location as the datacenter you want to map. To learn more about how to create location record, see [8a1c30d5486ba0d800d0f5527989394ea28de4f5.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/define-tni-locations.md).
 
 5.  Select **Update** to map the campus with the location record.
 

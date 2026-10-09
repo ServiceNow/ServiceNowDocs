@@ -31,15 +31,15 @@ By default, session, trace, and span data is retained for 30 days. If your organ
 
 3.  Choose a trace retention option.
 
-<table id="choicetable_xh1_qdf_hkc"><thead><tr><th align="left" id="d181879e106">
+<table id="choicetable_xh1_qdf_hkc"><thead><tr><th align="left" id="d181877e106">
 
 Option
 
-</th><th align="left" id="d181879e109">
+</th><th align="left" id="d181877e109">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d181879e115">
+</th></tr></thead><tbody><tr><td id="d181877e115">
 
 **Don't keep traces**
 
@@ -51,7 +51,7 @@ Permanently delete session, trace, and span data after approximately 1 day, once
 -   Actionable insights from AI Skill Kit are turned off.
 
 
-</td></tr><tr><td id="d181879e146">
+</td></tr><tr><td id="d181877e146">
 
 **Keep traces for scoring**
 

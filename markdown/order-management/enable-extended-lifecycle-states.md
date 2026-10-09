@@ -53,12 +53,12 @@ Product offerings and specifications can now move through Draft, In Test, Staged
 
 ## What to do next
 
-[36e0738cf8938e71ff603b1a07014fedcf33c1e8.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/move-offering-spec-states.md)
+[af706e26b2fafd69ff1a83541297eca5c5a4f90d.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/move-offering-spec-states.md)
 
 **Parent Topic:**[Validating product offerings before publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/extended-product-lifecycle-states.md)
 
 **Related topics**  
 
 
-[b03a1337caec0f2c07d23b948e7198add0b33a29.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/channel-specific-availability.md)
+[a2b9f521c0ceed85cf3656eb980c79fb246a0657.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/channel-specific-availability.md)
 

@@ -33,15 +33,15 @@ When you start a quote, a dialog box prompts you for quote information. You can 
 
 3.  On the **Create new quote** form, fill in the fields.
 
-<table id="choicetable_wss_lcm_11c"><thead><tr><th align="left" id="d173966e114">
+<table id="choicetable_wss_lcm_11c"><thead><tr><th align="left" id="d173964e114">
 
 To
 
-</th><th align="left" id="d173966e117">
+</th><th align="left" id="d173964e117">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d173966e123">
+</th></tr></thead><tbody><tr><td id="d173964e123">
 
 **Create quote for an account**
 
@@ -60,7 +60,7 @@ Select the **Account** and enter the following:-   Expiration date: Date and tim
 -   Short description: Brief description of the quote for this account.
 
 
-</td></tr><tr><td id="d173966e175">
+</td></tr><tr><td id="d173964e175">
 
 **Create quote for a consumer**
 
@@ -78,7 +78,7 @@ Select the **Consumer** name and enter the following:-   Deal type: Indicates th
 -   Short description: Brief description of the quote for this consumer.
 
 
-</td></tr><tr><td id="d173966e223">
+</td></tr><tr><td id="d173964e223">
 
 **Create quote for a buyer organization**
 

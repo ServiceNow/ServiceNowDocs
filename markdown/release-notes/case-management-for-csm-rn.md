@@ -21,7 +21,7 @@ The ServiceNow® Case management application enables customer service organizati
 -   Create and work cases as needed, using tools such as case tasks, work orders, SLA definitions, and knowledge and community content to support resolution.
 -   Configure Case form views, major issue management, and special handling notes to tailor the case experience and keep agents informed of important case details.
 
-See  for more information.
+See [Case management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/case-management.md) for more information.
 
 ## Activation and other requirements
 

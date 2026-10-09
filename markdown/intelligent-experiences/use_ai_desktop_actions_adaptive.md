@@ -94,15 +94,15 @@ AI Desktop Actions maintains context of the task until it is completed or failed
     -   **Cancel**: Select this option if you want to modify the plan and resubmit with more specific instructions.
 10. Depending on the security policy evaluation result, do one of the following.
 
-<table id="choicetable_tlm_zjb_jkc"><thead><tr><th align="left" id="d223599e367">
+<table id="choicetable_tlm_zjb_jkc"><thead><tr><th align="left" id="d223597e367">
 
 Resource access
 
-</th><th align="left" id="d223599e370">
+</th><th align="left" id="d223597e370">
 
 Description and action
 
-</th></tr></thead><tbody><tr><td id="d223599e376">
+</th></tr></thead><tbody><tr><td id="d223597e376">
 
 **Denied**
 
@@ -112,7 +112,7 @@ Description and action
 -   Application: The AI agent tries an alternative approach to open the application.
 
 
-</td></tr><tr><td id="d223599e394">
+</td></tr><tr><td id="d223597e394">
 
 **Allowed**
 
@@ -120,7 +120,7 @@ Description and action
 
 The AI agent continues with the task automatically.
 
-</td></tr><tr><td id="d223599e403">
+</td></tr><tr><td id="d223597e403">
 
 **Neither allowed nor denied**
 

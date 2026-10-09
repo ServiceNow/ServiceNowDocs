@@ -15755,7 +15755,7 @@ Data type: String
 
 productOrderItem.externalProductInventory
 
-</td><td id="d2727e5279">
+</td><td id="d4196e5279">
 
 Conditional. If supplied, each entry requires **externalProductInventoryId**. List of external IDs to map to the product inventories created for the order. Data type: Array of Objects
 

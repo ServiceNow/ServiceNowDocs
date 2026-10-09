@@ -331,5 +331,5 @@ Unit in which weight of the asset is measured. Select any one of the following.-
 **Related topics**  
 
 
-[b1d35984b5d54b6f7cdf924afb286502f3239a2b.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/define-tni-equipment-holders.md)
+[643f5d76f5382bb6151ab293dbadd46cd9951f11.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/telecom-network-inventory/telecommunications-network-inventory/define-tni-equipment-holders.md)
 

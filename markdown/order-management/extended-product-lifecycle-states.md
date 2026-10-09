@@ -89,7 +89,7 @@ This process enables the team to validate the complete bundle before release, wi
 5.  Move the validated record from Staged to Published when it is ready for release.
 6.  Retire a record when it's no longer in active use.
 
-For more information, see [36e0738cf8938e71ff603b1a07014fedcf33c1e8.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/move-offering-spec-states.md).
+For more information, see [af706e26b2fafd69ff1a83541297eca5c5a4f90d.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/move-offering-spec-states.md).
 
 -   **[Enable extended life cycle states for product offerings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/enable-extended-lifecycle-states.md)**  
 Turn on the In Test and Staged life cycle states for product offerings and product, service, and resource specifications, and optionally preview pre-publish records before they're published.

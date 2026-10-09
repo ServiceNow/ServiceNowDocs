@@ -7,7 +7,7 @@ release: brazil
 product: Orchestration
 classification: orchestration
 topic_type: reference
-last_updated: "2026-10-08"
+last_updated: "2026-10-09"
 reading_time_minutes: 1
 breadcrumb: [MID Servers for Orchestration, Classic Orchestration, Workflow Data Fabric]
 ---

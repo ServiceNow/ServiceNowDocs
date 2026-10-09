@@ -54,15 +54,15 @@ For information about configuring this workflow, see [Configure the manage alert
 
 3.  Review the AI insights through the following options.
 
-<table id="choicetable_qzt_n1y_thc"><thead><tr><th align="left" id="d138728e216">
+<table id="choicetable_qzt_n1y_thc"><thead><tr><th align="left" id="d138972e216">
 
 Review AI insights
 
-</th><th align="left" id="d138728e219">
+</th><th align="left" id="d138972e219">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d138728e225">
+</th></tr></thead><tbody><tr><td id="d138972e225">
 
 **Check for the AI Insights badge for alert status**
 
@@ -72,7 +72,7 @@ Procedure
 -   If insights aren't available for an alert, you can initiate the process manually. Details for generating insights are in the following options.
 
 
-</td></tr><tr><td id="d138728e248">
+</td></tr><tr><td id="d138972e248">
 
 **Search for alerts with AI Insights information and key words**
 
@@ -80,7 +80,7 @@ Procedure
 
 Search for content with the free text search. For more information, see [Find alert records in Express List using text search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/el-free-text-search.md).
 
-</td></tr><tr><td id="d138728e264">
+</td></tr><tr><td id="d138972e264">
 
 **Filter using AI Insights filter attribute**
 
@@ -88,7 +88,7 @@ Search for content with the free text search. For more information, see [Find al
 
 Filter using the **Insights** attribute with a minimum string of two characters. For more information, see [Filtering the alert display in the Express List pane](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/it-operations-management/event-management/filter-express-list.md).
 
-</td></tr><tr><td id="d138728e283">
+</td></tr><tr><td id="d138972e283">
 
 **Review AI insights in the preview panel**
 
@@ -100,7 +100,7 @@ Filter using the **Insights** attribute with a minimum string of two characters.
 -   If the AI Specialist is in the active state, you can see the processing steps of the agentic workflow. After processing completes, the **View AI activity** link appears. Select the link to go to the **AI activity** tab on the alert details page. In the **AI activity** tab, view the detailed report of the alert along with the workflow steps.
 
 
-</td></tr><tr><td id="d138728e338">
+</td></tr><tr><td id="d138972e338">
 
 **Review AI Insights in the alert record overview**
 

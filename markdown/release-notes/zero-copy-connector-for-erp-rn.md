@@ -20,7 +20,7 @@ The ServiceNow® Zero Copy Connector for ERP application enables you to connect 
 -   Add Workday RaaS reports to read operations by pasting a sample report response.
 -   Connect to Oracle E-Business Suite \(12.2 and later\).
 
-See  for more information.
+See [Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-overview.md) for more information.
 
 ## Activation and other requirements
 

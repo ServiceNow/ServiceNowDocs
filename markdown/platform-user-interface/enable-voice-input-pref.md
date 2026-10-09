@@ -14,7 +14,7 @@ breadcrumb: [Configure accessibility preferences, Preferences, Use, Next Experie
 
 Learn more about the Enable voice input for the Now Assist panel accessibility preference.
 
-**Note:** Voice input is automatically activated when the ServiceNow Otto® panel is activated. As of the Zurich Patch 4 release, voice input is configured in the Additional chat features and not with this option.
+**Note:** Voice input is automatically activated when the ServiceNow Otto® panel is activated. As of the Zurich Patch 4 release, voice input is configured in the [Additional chat features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/additional-chat-features.md) and not with this option.
 
 \[Omitted image "pol-pref-voice-input.png"\] Alt text: Enable voice input for the ServiceNow Otto panel.
 

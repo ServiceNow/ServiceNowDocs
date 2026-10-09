@@ -7,7 +7,7 @@ release: brazil
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-10-08"
+last_updated: "2026-10-09"
 reading_time_minutes: 1
 keywords: [manage IFL policies, IFL policy management]
 breadcrumb: [Use the IFL policies, Authentication Console, Authentication, Access Management]

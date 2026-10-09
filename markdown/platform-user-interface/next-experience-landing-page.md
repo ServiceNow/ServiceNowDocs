@@ -74,7 +74,7 @@ Connect Support is not available in Next Experience and is scheduled to be compl
 
 These features and products are not currently supported with Next Experience:
 
--   The functionality found in homepages, arranging information from your instance to tell a story about your data, is found in dashboards on new instances. On upgraded instances with Next Experience enabled, users can view existing homepages if they have a direct URL, but they can't create or edit them. Responsive dashboards and Analytics Overview dashboards take over homepage functionality. Use the Homepage deprecation help tool to convert the homepages on your instance to responsive dashboards.
+-   The functionality found in homepages, arranging information from your instance to tell a story about your data, is found in dashboards on new instances. On upgraded instances with Next Experience enabled, users can view existing homepages if they have a direct URL, but they can't create or edit them. Responsive dashboards and Analytics Overview dashboards take over homepage functionality. Use the [Homepage deprecation help tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/now-intelligence/homepage-deprecation-help-tool.md) to convert the homepages on your instance to responsive dashboards.
 -   [Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/c_GetStartedWithLiveFeed.md) is not supported.
 -   The JavaScript console log isn't supported in the Next Experience framework.
 -   ATF doesn't support these elements of Next Experience, but support for these features is planned for future releases:

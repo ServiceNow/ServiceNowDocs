@@ -44,7 +44,7 @@ Industrial Workspace
 
 The OT CMDB search feature uses the following agentic workflow and skill:
 
-    -   ServiceNow Otto for CMDB's Search CMDB agentic workflow. For more information, see Search the CMDB.
+    -   ServiceNow Otto for CMDB's Search CMDB agentic workflow. For more information, see [Search the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/servicenow-platform/na-cmdb-awf-search.md).
 
 **Note:** You must have the cmdb\_ot\_viewer role at minimum to use the CMDB search agentic workflow.
 

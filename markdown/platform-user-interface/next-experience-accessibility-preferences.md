@@ -105,7 +105,7 @@ Allows keyboard-only users to access truncated text. Truncated text is text that
 
 </td><td>
 
-Voice input is activated automatically when ServiceNow Otto® panel is activated. As of the Zurich patch 4, voice input is configured in Additional chat features and not with this option.
+Voice input is activated automatically when ServiceNow Otto® panel is activated. As of the Zurich patch 4, voice input is configured in [Additional chat features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/additional-chat-features.md) and not with this option.
 
 Activates voice-to-text in the ServiceNow Otto® panel. With this feature, use your voice to access ServiceNow Otto® skills in the [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/now-assist-panel-overview.md) in any supported language. For more information on this preference, see [Enable voice input for the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-user-interface/enable-voice-input-pref.md).**Note:** This preference appears only if your system administrator has enabled ServiceNow Otto® voice input for your instance. For more information, see [Enable voice input for ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/intelligent-experiences/enable-voice-input-for-now-assist-panel.md).
 

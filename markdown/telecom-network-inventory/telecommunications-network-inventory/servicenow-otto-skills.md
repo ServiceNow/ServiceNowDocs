@@ -7,7 +7,7 @@ release: brazil
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-10-08"
+last_updated: "2026-10-09"
 reading_time_minutes: 1
 breadcrumb: [AI in Telecommunication Network Inventory, Explore, Telecommunications Network Inventory]
 ---

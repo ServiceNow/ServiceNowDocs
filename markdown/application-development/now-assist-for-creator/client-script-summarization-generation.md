@@ -7,7 +7,7 @@ release: brazil
 product: Now Assist for Creator
 classification: now-assist-for-creator
 topic_type: task
-last_updated: "2026-10-08"
+last_updated: "2026-10-09"
 reading_time_minutes: 2
 breadcrumb: [Use, UI generation, Use generative AI, ServiceNow Otto for Creator, Build, AI Workflow Factory, Building applications]
 ---

@@ -79,9 +79,9 @@ Each tool in an agentic workflow is defined by three elements: its functionality
 
 ## Invoke Conversations with the AI Agent Background Channel
 
-The AI Agent Background Channel lets you invoke AI agent or agentic workflow execution from the Workspace. Use it with the AI Agent Background Provider, which is based on the Custom Adapter Framework from Virtual Agent. For more information, see [Configure a provider for your custom chat integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/create-provider-va-cccif.md).
+The AI Agent Background Channel lets you invoke AI agent or agentic workflow execution from the Workspace. Use it with the AI Agent Background Provider, which is based on the Custom Adapter Framework from Virtual Agent. For more information, see .
 
-To add conversational capabilities to your own provider application and obtain a new inbound ID, create a channel identifier in the Provider Channel Identities table \[sys\_cs\_provider\_application\]. For more information, see [Create a channel identifier for your custom chat integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/create-channel-id-va-cccif.md).
+To add conversational capabilities to your own provider application and obtain a new inbound ID, create a channel identifier in the Provider Channel Identities table \[sys\_cs\_provider\_application\]. For more information, see .
 
 To start a conversation, trigger the flow using the sn\_aia.AiAgentRunttimeUtil\(\).startAiAgentConversation\(request\) API in the Script Include \(sys\_script\_include\) of the AIAgentBackgroundProvider, then select **Run Script**. When the script execution status shows **Success**, the conversation begins in the order of utterances defined in the script.
 

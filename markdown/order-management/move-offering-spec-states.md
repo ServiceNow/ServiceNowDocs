@@ -54,5 +54,5 @@ Only the actions available for a record's current status appear on the record.
 **Related topics**  
 
 
-[b03a1337caec0f2c07d23b948e7198add0b33a29.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/channel-specific-availability.md)
+[a2b9f521c0ceed85cf3656eb980c79fb246a0657.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/channel-specific-availability.md)
 

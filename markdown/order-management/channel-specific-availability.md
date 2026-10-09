@@ -46,7 +46,7 @@ Use channel overrides to control when a product offering becomes available in ea
 -   Adjust a published offering safely. After publication, you can change the date on an existing override only to a future date.
 -   Keep availability current automatically. A nightly scheduled job applies channel availability as release dates arrive. You don't need to refresh the catalog manually.
 
-For more information, see [6b5fdcd25ab225319356670c436121273b57b6e4.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/set-channel-release-date.md).
+For more information, see [8b84a950f258296a467d1820045100481f1aa05d.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/set-channel-release-date.md).
 
 ## Distribution channels
 
@@ -72,7 +72,7 @@ Add a channel override to a product offering so it becomes available on a specif
 **Related topics**  
 
 
-[6b5fdcd25ab225319356670c436121273b57b6e4.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/set-channel-release-date.md)
+[8b84a950f258296a467d1820045100481f1aa05d.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/set-channel-release-date.md)
 
 [Components installed with Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/components-installed-catalog-mgmt.md)
 

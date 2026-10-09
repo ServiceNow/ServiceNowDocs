@@ -7,7 +7,7 @@ release: brazil
 product: Service Exchange
 classification: service-exchange
 topic_type: task
-last_updated: "2026-10-08"
+last_updated: "2026-10-09"
 reading_time_minutes: 2
 breadcrumb: [AI in Service Exchange, Explore, Service Exchange]
 ---

@@ -19,7 +19,7 @@ The ServiceNow® Financial Services Operations Core application provides a data 
 
 The case type selector in Financial Services Operations now uses the predefined Customer Service Management \(CSM\) implementation, replacing the previous FSO-specific override.
 
-See  for more information.
+See [Case type selector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-case-type-select-modals.md) for more information.
 
 ## Activation and other requirements
 

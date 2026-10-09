@@ -30,15 +30,15 @@ Role required: sn\_ai\_asset\_mgmt.ai\_asset\_owner or sn\_ai\_governance.ai\_st
 
 2.  On the Overview tab, enable evaluation for one or more AI systems.
 
-<table><thead><tr><th align="left" id="d151935e135">
+<table><thead><tr><th align="left" id="d151933e135">
 
 Option
 
-</th><th align="left" id="d151935e138">
+</th><th align="left" id="d151933e138">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d151935e144">
+</th></tr></thead><tbody><tr><td id="d151933e144">
 
 **Enable evaluation for a single AI system**
 
@@ -50,7 +50,7 @@ Steps
 4.  Select **Turn on evaluation** to confirm.
 
 
-</td></tr><tr><td id="d151935e177">
+</td></tr><tr><td id="d151933e177">
 
 **Enable evaluation for multiple AI systems**
 

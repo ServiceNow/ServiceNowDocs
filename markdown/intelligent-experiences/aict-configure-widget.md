@@ -41,15 +41,15 @@ You can configure cards on all pages and tabs except Activity Center, the Invent
 
     Leave a text field empty to keep the value that the card ships with.
 
-<table><thead><tr><th align="left" id="d41671e132">
+<table><thead><tr><th align="left" id="d41670e132">
 
 Common configuration options
 
-</th><th align="left" id="d41671e135">
+</th><th align="left" id="d41670e135">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d41671e141">
+</th></tr></thead><tbody><tr><td id="d41670e141">
 
 **Title override**
 
@@ -57,7 +57,7 @@ Description
 
 Enter the text that you want to display in the title of the card.
 
-</td></tr><tr><td id="d41671e150">
+</td></tr><tr><td id="d41670e150">
 
 **Subtitle override**
 
@@ -65,7 +65,7 @@ Enter the text that you want to display in the title of the card.
 
 Enter the text that you want to display in the subtitle of the card.
 
-</td></tr><tr><td id="d41671e159">
+</td></tr><tr><td id="d41670e159">
 
 **Empty-state message**
 
@@ -73,7 +73,7 @@ Enter the text that you want to display in the subtitle of the card.
 
 Enter the message that you want users to read when the card has no data to display.
 
-</td></tr><tr><td id="d41671e171">
+</td></tr><tr><td id="d41670e171">
 
 **Chart type**
 
@@ -81,7 +81,7 @@ Enter the message that you want users to read when the card has no data to displ
 
 Select the chart type that presents the data most clearly for your organization. For example, change a donut chart to a pie chart or a semi-donut chart or show a trend chart as an area chart.
 
-</td></tr><tr><td id="d41671e184">
+</td></tr><tr><td id="d41670e184">
 
 **Labels**
 
@@ -89,7 +89,7 @@ Select the chart type that presents the data most clearly for your organization.
 
 Adjust the label text to match the terms your organization uses.
 
-</td></tr><tr><td id="d41671e193">
+</td></tr><tr><td id="d41670e193">
 
 **Show category legend**
 
@@ -97,7 +97,7 @@ Adjust the label text to match the terms your organization uses.
 
 Show or hide the legend, depending on whether the labels repeat information that the chart already conveys.
 
-</td></tr><tr><td id="d41671e202">
+</td></tr><tr><td id="d41670e202">
 
 **Number of rows and sort order**
 
@@ -107,7 +107,7 @@ Show or hide the legend, depending on whether the labels repeat information that
 2.  Select the sort order so that the list opens on the records you want to review first, such as the lowest scores rather than the highest.
 
 
-</td></tr><tr><td id="d41671e220">
+</td></tr><tr><td id="d41670e220">
 
 **Additional filter**
 
@@ -117,7 +117,7 @@ Show or hide the legend, depending on whether the labels repeat information that
 2.  Add more conditions as needed.
  The condition builder is available only for cards that read directly from tables on your instance. The condition also applies to the page that the card navigates to.
 
-</td></tr><tr><td id="d41671e241">
+</td></tr><tr><td id="d41670e241">
 
 **Show view-all arrow**
 
@@ -125,7 +125,7 @@ Show or hide the legend, depending on whether the labels repeat information that
 
 Show or hide the arrow icon to view all items.
 
-</td></tr><tr><td id="d41671e250">
+</td></tr><tr><td id="d41670e250">
 
 **View-all URL**
 
@@ -135,7 +135,7 @@ Enter the URL that you want the arrow icon to open, so that users move to the li
 
  This setting is available only for cards that already include an icon for navigating to another page.
 
-</td></tr><tr><td id="d41671e266">
+</td></tr><tr><td id="d41670e266">
 
 **Optional card elements**
 

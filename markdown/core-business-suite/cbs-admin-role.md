@@ -16,7 +16,7 @@ Assign the CBS Admin role to grant users full administrative access to configure
 
 ## Before you begin
 
-Verify that the user exists. If the user does not exist, create the user record first. For more information, see [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/platform-administration/t_CreateAUser.md).
+Verify that the user exists. If the user does not exist, create the user record first. For more information, see .
 
 Role required: admin
 

@@ -36,15 +36,15 @@ Use Acknowledge to denote that the alert is known, and can temporarily be ignore
 
     You can acknowledge alerts regardless of whether you are working in the main pane or in the preview panel. The preview panel opens only when a single alert or alert group is selected.
 
-<table id="choicetable_s4j_1yg_vzb"><thead><tr><th align="left" id="d512210e95">
+<table id="choicetable_s4j_1yg_vzb"><thead><tr><th align="left" id="d512454e95">
 
 Location
 
-</th><th align="left" id="d512210e98">
+</th><th align="left" id="d512454e98">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d512210e104">
+</th></tr></thead><tbody><tr><td id="d512454e104">
 
 **The Express List pane**
 
@@ -61,7 +61,7 @@ To display the individual alerts inside a group, select the chevron icon \(\[Omi
 2.  From the **Close** drop-down list at the top right of the alert list, select **Acknowledge**.
 
 
-</td></tr><tr><td id="d512210e157">
+</td></tr><tr><td id="d512454e157">
 
 **The Express List preview panel for group alerts**
 

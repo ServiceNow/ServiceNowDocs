@@ -36,15 +36,15 @@ External AI systems require trace data to be scored by the evaluation engine. Un
 
 4.  Connect your external AI system to send trace data to AI Control Tower using SDK instrumentation or a trace connection.
 
-<table id="choicetable_connection_method"><thead><tr><th align="left" id="d37640e149">
+<table id="choicetable_connection_method"><thead><tr><th align="left" id="d37532e149">
 
 Connection method
 
-</th><th align="left" id="d37640e152">
+</th><th align="left" id="d37532e152">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d37640e158">
+</th></tr></thead><tbody><tr><td id="d37532e158">
 
 **SDK instrumentation**
 
@@ -133,7 +133,7 @@ The new API key appears in the **API key for external AI system evaluation** sec
 
 For instrumentation steps using the Traceloop SDK, see [Instrument a third-party AI agent with the Traceloop SDK for AI Control Tower Evaluations](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3144255).
 
-</td></tr><tr><td id="d37640e346">
+</td></tr><tr><td id="d37532e346">
 
 **Trace connection**
 

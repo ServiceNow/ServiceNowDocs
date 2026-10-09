@@ -7,7 +7,7 @@ release: brazil
 product: Industrial Process Manager
 classification: industrial-process-manager
 topic_type: task
-last_updated: "2026-10-08"
+last_updated: "2026-10-09"
 reading_time_minutes: 1
 keywords: [user access, Equipment Model, granular access control, ISA, permissions]
 breadcrumb: [ISA Access by User, Equipment Model entity access control tables, Configure the Industrial Process Manager, Industrial Process Manager, Operational Technology]

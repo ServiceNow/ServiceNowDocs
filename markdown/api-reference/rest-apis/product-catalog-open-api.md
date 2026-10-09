@@ -4797,7 +4797,7 @@ Description
 
 Content-Type
 
-</td><td id="d2725e217">
+</td><td id="d2737e217">
 
 Data format of the request body. Only supports **application/json**.
 
@@ -8576,7 +8576,7 @@ Description
 
 bundledGroupProductOffering
 
-</td><td id="d3419e293">
+</td><td id="d2753e293">
 
 Child groups of product offerings. These show hierarchical sub-grouping.Data type: Array of Objects
 
@@ -8595,7 +8595,7 @@ Child groups of product offerings. These show hierarchical sub-grouping.Data typ
 
 bundledGroupProductOffering.​bundledGroupProductOfferingOption
 
-</td><td id="d3419e306">
+</td><td id="d2753e306">
 
 A range of numbers that specifies the lower and upper limits of the number of the associated product offering that can be procured as part of the related bundled product offering.Data type: Object
 
@@ -8610,7 +8610,7 @@ A range of numbers that specifies the lower and upper limits of the number of th
 
 bundledGroupProductOffering.​bundledGroupProductOfferingOption.​numberRelOfferLowerLimit
 
-</td><td id="d3419e319">
+</td><td id="d2753e319">
 
 Lower limit for a product offering that can be procured as part of the related bundled product offering. Data type: String
 
@@ -8618,7 +8618,7 @@ Lower limit for a product offering that can be procured as part of the related b
 
 bundledGroupProductOffering.​bundledGroupProductOfferingOption.​numberRelOfferUpperLimit
 
-</td><td id="d3419e330">
+</td><td id="d2753e330">
 
 Upper limit for a product offering that can be procured as part of the related bundled product offering. Data type: String
 
@@ -8626,7 +8626,7 @@ Upper limit for a product offering that can be procured as part of the related b
 
 bundledGroupProductOffering.​bundledProductOffering
 
-</td><td id="d3419e341">
+</td><td id="d2753e341">
 
 Child groups of product offerings associated with the bundle. Same format as **bundledProductOffering** specified below.Data type: Array of Objects
 
@@ -8634,7 +8634,7 @@ Child groups of product offerings associated with the bundle. Same format as **b
 
 bundledGroupProductOffering.​id
 
-</td><td id="d3419e395">
+</td><td id="d2753e395">
 
 Sys\_id of the bundled group record. Useful in cases where the parent product offering or group includes multiple groups.Data type: String
 
@@ -8644,7 +8644,7 @@ Table: Product Offering Relationship Group \[sn\_prd\_pm\_product\_offering\_rel
 
 bundledGroupProductOffering.​name
 
-</td><td id="d3419e408">
+</td><td id="d2753e408">
 
 Name of the group of child product offerings.Data type: String
 
@@ -8672,7 +8672,7 @@ List of product offerings included in the product offering bundle. The product o
 
 bundledProductOffering.​bundledProductOfferingOption
 
-</td><td id="d3419e433">
+</td><td id="d2753e433">
 
 Product bundle options such as the default number of product offerings and any upper and lower product offering procurement constraints.Data type: Object
 
@@ -8688,7 +8688,7 @@ Product bundle options such as the default number of product offerings and any u
 
 bundledProductOffering.​bundledProductOfferingOption.​numberRelOfferDefault
 
-</td><td id="d3419e446">
+</td><td id="d2753e446">
 
 Default number of product offerings that should be procured as part of the related bundled product offering.Data type: String
 
@@ -8698,7 +8698,7 @@ Possible values: 0 to unbound.
 
 bundledProductOffering.​bundledProductOfferingOption.​numberRelOfferLowerLimit
 
-</td><td id="d3419e459">
+</td><td id="d2753e459">
 
 Lower limit of the number of the associated product offerings that can be procured as part of the related bundled product offering.Data type: String
 
@@ -8708,7 +8708,7 @@ Possible values: 0 to unbound.
 
 bundledProductOffering.​bundledProductOfferingOption.​numberRelOfferUpperLimit
 
-</td><td id="d3419e472">
+</td><td id="d2753e472">
 
 Upper limit of the number of the associated product offerings that can be procured as part of the related bundled product offering.Data type: String
 
@@ -8718,7 +8718,7 @@ Possible values: 0 to unbound.
 
 bundledProductOffering.​externalId
 
-</td><td id="d3419e485">
+</td><td id="d2753e485">
 
 External ID of the product offering   relationship.For additional information on product offering relationships, see [Create product offering relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/som-product-config-offering-relationships.md).
 
@@ -8728,7 +8728,7 @@ Data type: String
 
 bundledProductOffering.​id
 
-</td><td id="d3419e513">
+</td><td id="d2753e513">
 
 Sys\_id or external ID of the bundled product offering.Data type: String
 
@@ -8738,7 +8738,7 @@ Table: Product Offering \[sn\_prd\_pm\_product\_offering\]
 
 bundledProductOffering.​name
 
-</td><td id="d3419e526">
+</td><td id="d2753e526">
 
 Name of the product offering bundle.Data type: String
 
@@ -8746,7 +8746,7 @@ Name of the product offering bundle.Data type: String
 
 bundledProductOffering.​version
 
-</td><td id="d3419e537">
+</td><td id="d2753e537">
 
 Catalog version of the product offering. Data type: String
 
@@ -8841,7 +8841,7 @@ Description of the product offering.Data type: String
 
 displayName
 
-</td><td id="d3419e550">
+</td><td id="d2753e550">
 
 Display name of the product offering.Data type: String
 
@@ -8909,7 +8909,7 @@ Table: In the version field of the Product Offering \[sn\_prd\_pm\_product\_offe
 
 isBundle
 
-</td><td id="d3419e627">
+</td><td id="d2753e627">
 
 Flag that indicates whether the product offering is a bundle.Possible values:
 
@@ -8924,7 +8924,7 @@ Default: false
 
 isSellable
 
-</td><td id="d3419e650">
+</td><td id="d2753e650">
 
 Flag that indicates whether the associated product offering can be sold by itself or must be part of a product offering bundle.Possible values:
 
@@ -8969,7 +8969,7 @@ Name of the product offering.Data type: String
 
 prodSpecCharValueUse
 
-</td><td id="d3419e700">
+</td><td id="d2753e700">
 
 Product offering characteristics.Data type: Array of Objects
 
@@ -8989,7 +8989,7 @@ Product offering characteristics.Data type: Array of Objects
 
 prodSpecCharValueUse.​description
 
-</td><td id="d3419e713">
+</td><td id="d2753e713">
 
 Description of the characteristic.Data type: String
 
@@ -9007,7 +9007,7 @@ Data type: String
 
 prodSpecCharValueUse.​productSpecCharacteristicValue
 
-</td><td id="d3419e738">
+</td><td id="d2753e738">
 
 List of the possible values of the characteristic.
 
@@ -9028,7 +9028,7 @@ Data type: Array of Objects
 
 prodSpecCharValueUse.​productSpecCharacteristicValue.​isDefault
 
-</td><td id="d3419e754">
+</td><td id="d2753e754">
 
 Flag that indicates whether the associated characteristic value is the default value for the characteristic.Possible values:
 
@@ -9041,7 +9041,7 @@ Default: false
 
 prodSpecCharValueUse.​productSpecCharacteristicValue.​isMandatory
 
-</td><td id="d3419e775">
+</td><td id="d2753e775">
 
 Flag that indicates whether the associated characteristic value is a mandatory value for the characteristic.Possible values:
 
@@ -9054,7 +9054,7 @@ Default: false
 
 prodSpecCharValueUse.​productSpecCharacteristicValue.​validFor
 
-</td><td id="d3419e797">
+</td><td id="d2753e797">
 
 Date and time of when the characteristic is valid.Data type: Object
 
@@ -9068,7 +9068,7 @@ Date and time of when the characteristic is valid.Data type: Object
 
 prodSpecCharValueUse.​productSpecCharacteristicValue.​validFor.​startDateTime
 
-</td><td id="d3419e810">
+</td><td id="d2753e810">
 
 Start date and time of when the characteristic value is valid.Data type: String
 
@@ -9078,7 +9078,7 @@ Format: YYYY-MM-DD HH:mm:SS
 
 prodSpecCharValueUse.​productSpecCharacteristicValue.​value
 
-</td><td id="d3419e823">
+</td><td id="d2753e823">
 
 Value of the characteristic.
 
@@ -9088,7 +9088,7 @@ Data type: String
 
 prodSpecCharValueUse.​validFor
 
-</td><td id="d3419e837">
+</td><td id="d2753e837">
 
 Date range the characteristic is valid for.Data type: Object
 
@@ -9102,7 +9102,7 @@ Date range the characteristic is valid for.Data type: Object
 
 prodSpecCharValueUse.​validFor.​startDateTime
 
-</td><td id="d3419e850">
+</td><td id="d2753e850">
 
 Start date of the characteristic.Data type: String
 
@@ -9112,7 +9112,7 @@ Format: YYYY-MM-DD HH:mm:SS
 
 prodSpecCharValueUse.​valueType
 
-</td><td id="d3419e863">
+</td><td id="d2753e863">
 
 Data type of the **prodSpecCharValueUse.productSpecCharacteristicValue.value** parameter.Accepted values:
 
@@ -9175,7 +9175,7 @@ Value of the characteristic.Data type: String
 
 productOfferingCharacteristic
 
-</td><td id="d3419e961">
+</td><td id="d2753e961">
 
 Characteristic quality or distinctive feature of a product offering. Characteristics can take on a discrete value that is fixed at design time \(catalog authoring\), such as Mobile Plan Rank. These characteristics are not generally modifiable at inventory level.For additional information on product offering characteristics, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/som-product-config-add-characteristics.md).
 
@@ -9195,7 +9195,7 @@ productOfferingCharacteristic": [ 
 
 productOfferingCharacteristic.​characteristicValueSpecification
 
-</td><td id="d3419e979">
+</td><td id="d2753e979">
 
 List of characteristic values associated with the product offering characteristic.Data type: Array of Objects
 
@@ -9213,7 +9213,7 @@ List of characteristic values associated with the product offering characteristi
 
 productOfferingCharacteristic.​characteristicValueSpecification.​isDefault
 
-</td><td id="d3419e992">
+</td><td id="d2753e992">
 
 Flag that indicates whether the associated characteristic value is the default value for the associated characteristic.Possible values:
 
@@ -9228,7 +9228,7 @@ Default: false
 
 productOfferingCharacteristic.​characteristicValueSpecification.​isMandatory
 
-</td><td id="d3419e1015">
+</td><td id="d2753e1015">
 
 Flag that indicates whether the associated characteristic value is mandatory for the associated characteristic.Possible values:
 
@@ -9243,7 +9243,7 @@ Default: false
 
 productOfferingCharacteristic.​characteristicValueSpecification.​value
 
-</td><td id="d3419e1038">
+</td><td id="d2753e1038">
 
 Number or text assigned to the associated product specification characteristic .For example:
 
@@ -9264,7 +9264,7 @@ Data type: String
 
 productOfferingCharacteristic.​name
 
-</td><td id="d3419e1053">
+</td><td id="d2753e1053">
 
 Name of the associated product offering characteristic.Data type: String
 
@@ -9272,7 +9272,7 @@ Name of the associated product offering characteristic.Data type: String
 
 productOfferingCharacteristic.​valueType
 
-</td><td id="d3419e1065">
+</td><td id="d2753e1065">
 
 Data type of the **productOfferingCharacteristic.​characteristicValueSpecification.​value** parameter.Possible values:
 
@@ -9458,7 +9458,7 @@ Table: In the external\_version field of the Product Offering \[sn\_prd\_pm\_pro
 
 status
 
-</td><td id="d3419e1206">
+</td><td id="d2753e1206">
 
 Status of the product offering.Possible values:
 
@@ -13528,7 +13528,7 @@ Description
 
 bundledGroupProductOffering
 
-</td><td id="d3419e293">
+</td><td id="d2753e293">
 
 Child groups of product offerings. These show hierarchical sub-grouping.Data type: Array of Objects
 
@@ -13547,7 +13547,7 @@ Child groups of product offerings. These show hierarchical sub-grouping.Data typ
 
 bundledGroupProductOffering.​bundledGroupProductOfferingOption
 
-</td><td id="d3419e306">
+</td><td id="d2753e306">
 
 A range of numbers that specifies the lower and upper limits of the number of the associated product offering that can be procured as part of the related bundled product offering.Data type: Object
 
@@ -13562,7 +13562,7 @@ A range of numbers that specifies the lower and upper limits of the number of th
 
 bundledGroupProductOffering.​bundledGroupProductOfferingOption.​numberRelOfferLowerLimit
 
-</td><td id="d3419e319">
+</td><td id="d2753e319">
 
 Lower limit for a product offering that can be procured as part of the related bundled product offering. Data type: String
 
@@ -13570,7 +13570,7 @@ Lower limit for a product offering that can be procured as part of the related b
 
 bundledGroupProductOffering.​bundledGroupProductOfferingOption.​numberRelOfferUpperLimit
 
-</td><td id="d3419e330">
+</td><td id="d2753e330">
 
 Upper limit for a product offering that can be procured as part of the related bundled product offering. Data type: String
 
@@ -13578,7 +13578,7 @@ Upper limit for a product offering that can be procured as part of the related b
 
 bundledGroupProductOffering.​bundledProductOffering
 
-</td><td id="d3419e341">
+</td><td id="d2753e341">
 
 Child groups of product offerings associated with the bundle. Same format as **bundledProductOffering** specified below.Data type: Array of Objects
 
@@ -13586,7 +13586,7 @@ Child groups of product offerings associated with the bundle. Same format as **b
 
 bundledGroupProductOffering.​id
 
-</td><td id="d3419e395">
+</td><td id="d2753e395">
 
 Sys\_id of the bundled group record. Useful in cases where the parent product offering or group includes multiple groups.Data type: String
 
@@ -13596,7 +13596,7 @@ Table: Product Offering Relationship Group \[sn\_prd\_pm\_product\_offering\_rel
 
 bundledGroupProductOffering.​name
 
-</td><td id="d3419e408">
+</td><td id="d2753e408">
 
 Name of the group of child product offerings.Data type: String
 
@@ -13604,7 +13604,7 @@ Name of the group of child product offerings.Data type: String
 
 bundledProductOffering
 
-</td><td id="d3419e419">
+</td><td id="d2753e419">
 
 List of product offerings included in the product offering bundle. The product offering bundle inherits all of the attributes of the included product offerings.Data type: Array of Objects
 
@@ -13625,7 +13625,7 @@ List of product offerings included in the product offering bundle. The product o
 
 bundledProductOffering.​bundledProductOfferingOption
 
-</td><td id="d3419e433">
+</td><td id="d2753e433">
 
 Product bundle options such as the default number of product offerings and any upper and lower product offering procurement constraints.Data type: Object
 
@@ -13641,7 +13641,7 @@ Product bundle options such as the default number of product offerings and any u
 
 bundledProductOffering.​bundledProductOfferingOption.​numberRelOfferDefault
 
-</td><td id="d3419e446">
+</td><td id="d2753e446">
 
 Default number of product offerings that should be procured as part of the related bundled product offering.Data type: String
 
@@ -13651,7 +13651,7 @@ Possible values: 0 to unbound.
 
 bundledProductOffering.​bundledProductOfferingOption.​numberRelOfferLowerLimit
 
-</td><td id="d3419e459">
+</td><td id="d2753e459">
 
 Lower limit of the number of the associated product offerings that can be procured as part of the related bundled product offering.Data type: String
 
@@ -13661,7 +13661,7 @@ Possible values: 0 to unbound.
 
 bundledProductOffering.​bundledProductOfferingOption.​numberRelOfferUpperLimit
 
-</td><td id="d3419e472">
+</td><td id="d2753e472">
 
 Upper limit of the number of the associated product offerings that can be procured as part of the related bundled product offering.Data type: String
 
@@ -13671,7 +13671,7 @@ Possible values: 0 to unbound.
 
 bundledProductOffering.​externalId
 
-</td><td id="d3419e485">
+</td><td id="d2753e485">
 
 External ID of the product offering   relationship.For additional information on product offering relationships, see [Create product offering relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/som-product-config-offering-relationships.md).
 
@@ -13689,7 +13689,7 @@ Relative link to the associated product offering.Data type: String
 
 bundledProductOffering.​id
 
-</td><td id="d3419e513">
+</td><td id="d2753e513">
 
 Sys\_id or external ID of the bundled product offering.Data type: String
 
@@ -13699,7 +13699,7 @@ Table: Product Offering \[sn\_prd\_pm\_product\_offering\]
 
 bundledProductOffering.​name
 
-</td><td id="d3419e526">
+</td><td id="d2753e526">
 
 Name of the product offering bundle.Data type: String
 
@@ -13707,7 +13707,7 @@ Name of the product offering bundle.Data type: String
 
 bundledProductOffering.​version
 
-</td><td id="d3419e537">
+</td><td id="d2753e537">
 
 Catalog version of the product offering. Data type: String
 
@@ -13862,7 +13862,7 @@ Table: In the version field of the Product Offering \[sn\_prd\_pm\_product\_offe
 
 isBundle
 
-</td><td id="d3419e627">
+</td><td id="d2753e627">
 
 Flag that indicates whether the product offering is a bundle.Possible values:
 
@@ -13877,7 +13877,7 @@ Default: false
 
 isSellable
 
-</td><td id="d3419e650">
+</td><td id="d2753e650">
 
 Flag that indicates whether the associated product offering can be sold by itself or must be part of a product offering bundle.Possible values:
 
@@ -13924,7 +13924,7 @@ Name of the product offering.Data type: String
 
 prodSpecCharValueUse
 
-</td><td id="d3419e700">
+</td><td id="d2753e700">
 
 Product offering characteristics.Data type: Array of Objects
 
@@ -13944,7 +13944,7 @@ Product offering characteristics.Data type: Array of Objects
 
 prodSpecCharValueUse.​description
 
-</td><td id="d3419e713">
+</td><td id="d2753e713">
 
 Description of the characteristic.Data type: String
 
@@ -13952,7 +13952,7 @@ Description of the characteristic.Data type: String
 
 prodSpecCharValueUse.​name
 
-</td><td id="d3419e724">
+</td><td id="d2753e724">
 
 Name of the characteristic.
 
@@ -13962,7 +13962,7 @@ Data type: String
 
 prodSpecCharValueUse.​productSpecCharacteristicValue
 
-</td><td id="d3419e738">
+</td><td id="d2753e738">
 
 List of the possible values of the characteristic.
 
@@ -13983,7 +13983,7 @@ Data type: Array of Objects
 
 prodSpecCharValueUse.​productSpecCharacteristicValue.​isDefault
 
-</td><td id="d3419e754">
+</td><td id="d2753e754">
 
 Flag that indicates whether the associated characteristic value is the default value for the characteristic.Possible values:
 
@@ -13996,7 +13996,7 @@ Default: false
 
 prodSpecCharValueUse.​productSpecCharacteristicValue.​isMandatory
 
-</td><td id="d3419e775">
+</td><td id="d2753e775">
 
 Flag that indicates whether the associated characteristic value is a mandatory value for the characteristic.Possible values:
 
@@ -14009,7 +14009,7 @@ Default: false
 
 prodSpecCharValueUse.​productSpecCharacteristicValue.​validFor
 
-</td><td id="d3419e797">
+</td><td id="d2753e797">
 
 Date and time of when the characteristic is valid.Data type: Object
 
@@ -14023,7 +14023,7 @@ Date and time of when the characteristic is valid.Data type: Object
 
 prodSpecCharValueUse.​productSpecCharacteristicValue.​validFor.​startDateTime
 
-</td><td id="d3419e810">
+</td><td id="d2753e810">
 
 Start date and time of when the characteristic value is valid.Data type: String
 
@@ -14033,7 +14033,7 @@ Format: YYYY-MM-DD HH:mm:SS
 
 prodSpecCharValueUse.​productSpecCharacteristicValue.​value
 
-</td><td id="d3419e823">
+</td><td id="d2753e823">
 
 Value of the characteristic.
 
@@ -14043,7 +14043,7 @@ Data type: String
 
 prodSpecCharValueUse.​validFor
 
-</td><td id="d3419e837">
+</td><td id="d2753e837">
 
 Date range the characteristic is valid for.Data type: Object
 
@@ -14057,7 +14057,7 @@ Date range the characteristic is valid for.Data type: Object
 
 prodSpecCharValueUse.​validFor.​startDateTime
 
-</td><td id="d3419e850">
+</td><td id="d2753e850">
 
 Start date of the characteristic.Data type: String
 
@@ -14067,7 +14067,7 @@ Format: YYYY-MM-DD HH:mm:SS
 
 prodSpecCharValueUse.​valueType
 
-</td><td id="d3419e863">
+</td><td id="d2753e863">
 
 Data type of the **prodSpecCharValueUse.productSpecCharacteristicValue.value** parameter.Accepted values:
 
@@ -14130,7 +14130,7 @@ Value of the characteristic.Data type: String
 
 productOfferingCharacteristic
 
-</td><td id="d3419e961">
+</td><td id="d2753e961">
 
 Characteristic quality or distinctive feature of a product offering. Characteristics can take on a discrete value that is fixed at design time \(catalog authoring\), such as Mobile Plan Rank. These characteristics are not generally modifiable at inventory level.For additional information on product offering characteristics, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/order-management/som-product-config-add-characteristics.md).
 
@@ -14150,7 +14150,7 @@ productOfferingCharacteristic": [ 
 
 productOfferingCharacteristic.​characteristicValueSpecification
 
-</td><td id="d3419e979">
+</td><td id="d2753e979">
 
 List of characteristic values associated with the product offering characteristic.Data type: Array of Objects
 
@@ -14168,7 +14168,7 @@ List of characteristic values associated with the product offering characteristi
 
 productOfferingCharacteristic.​characteristicValueSpecification.​isDefault
 
-</td><td id="d3419e992">
+</td><td id="d2753e992">
 
 Flag that indicates whether the associated characteristic value is the default value for the associated characteristic.Possible values:
 
@@ -14183,7 +14183,7 @@ Default: false
 
 productOfferingCharacteristic.​characteristicValueSpecification.​isMandatory
 
-</td><td id="d3419e1015">
+</td><td id="d2753e1015">
 
 Flag that indicates whether the associated characteristic value is mandatory for the associated characteristic.Possible values:
 
@@ -14198,7 +14198,7 @@ Default: false
 
 productOfferingCharacteristic.​characteristicValueSpecification.​value
 
-</td><td id="d3419e1038">
+</td><td id="d2753e1038">
 
 Number or text assigned to the associated product specification characteristic .For example:
 
@@ -14219,7 +14219,7 @@ Data type: String
 
 productOfferingCharacteristic.​name
 
-</td><td id="d3419e1053">
+</td><td id="d2753e1053">
 
 Name of the associated product offering characteristic.Data type: String
 
@@ -14227,7 +14227,7 @@ Name of the associated product offering characteristic.Data type: String
 
 productOfferingCharacteristic.​valueType
 
-</td><td id="d3419e1065">
+</td><td id="d2753e1065">
 
 Data type of the **productOfferingCharacteristic.​characteristicValueSpecification.​value** parameter.Possible values:
 

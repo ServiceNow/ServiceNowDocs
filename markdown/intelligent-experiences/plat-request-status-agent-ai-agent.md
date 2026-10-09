@@ -143,7 +143,7 @@ To configure which actions are available, a user with the admin or sp\_admin rol
 
 To make the AI agent available for users, you must navigate to the **Toggle display** step of the guided setup in AI Agent Studio. Toggle Virtual Agent to `true` and select an assistant.
 
-To make the AI agent available in Microsoft Teams, you must configure an assistant for ServiceNow Otto for Virtual Agent to use a Teams channel. See [Display your assistant on a portal or channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/display-assistant-portal-channel.md) for steps to enable Teams for your assistant. Then, in the request status AI agent guided setup in AI Agent Studio, select the assistant you configured for Microsoft Teams in the **Toggle display** step.
+To make the AI agent available in Microsoft Teams, you must configure an assistant for ServiceNow Otto for Virtual Agent to use a Teams channel. See Display your assistant on a portal or channel for steps to enable Teams for your assistant. Then, in the request status AI agent guided setup in AI Agent Studio, select the assistant you configured for Microsoft Teams in the **Toggle display** step.
 
 ### Testing the request status AI agent
 

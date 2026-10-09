@@ -34,15 +34,15 @@ Role required: tag\_governance\_admin
 
 3.  Add or delete a tag category.
 
-<table id="choicetable_eks_y2x_yfc"><thead><tr><th align="left" id="d684528e129">
+<table id="choicetable_eks_y2x_yfc"><thead><tr><th align="left" id="d684772e129">
 
 Action
 
-</th><th align="left" id="d684528e132">
+</th><th align="left" id="d684772e132">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d684528e138">
+</th></tr></thead><tbody><tr><td id="d684772e138">
 
 **Add a tag category**
 
@@ -61,7 +61,7 @@ Description
 8.  Select **Submit** on the CI tag category - New Record page.
 
 
-</td></tr><tr><td id="d684528e199">
+</td></tr><tr><td id="d684772e199">
 
 **Delete a tag category**
 

@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/release-notes/rn-summary-highli
 release: brazil
 topic_type: reference
 last_updated: "2026-10-08"
-reading_time_minutes: 76
+reading_time_minutes: 77
 breadcrumb: [Release notes summaries for Brazil features, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
@@ -150,7 +150,7 @@ API
 -   Use inbound REST APIs to interact with various ServiceNow functionalities within your application.
 -   Client Next Experience APIs include client APIs compatible with the Next Experience UI.
 
-See  for more information.
+See [API implementation and reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/api-implementation-reference.md) for more information.
 
 </td></tr><tr><td>
 
@@ -222,7 +222,7 @@ Agent Chat
 -   Agent Chat connects directly to ServiceNow workflows, enabling agents to access customer context, update records, and resolve issues without switching between systems.
 -   AI-powered responses and automation handle routine inquiries, freeing agents to focus on complex, high-value interactions and improving overall productivity and job satisfaction.
 
-See  for more information.
+See [Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/ci-use-agent-chat.md) for more information.
 
 </td></tr><tr><td>
 
@@ -260,7 +260,7 @@ App Engine Management Center
 -   View insights into custom app production and usage across your organization.
 -   Analyze individual developer trends and contributions.
 
-See  for more information.
+See [App Engine Management Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/app-engine-management-center.md) for more information.
 
 </td></tr><tr><td>
 
@@ -273,7 +273,7 @@ App Engine Studio
 -   Use app templates, such as the Time Off template, to build applications, or create your own templates.
 -   Publish apps using the App Engine Management Center.
 
-See App Engine Studio for more information.
+See [App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/aes-overview.md) for more information.
 
 </td></tr><tr><td>
 
@@ -286,7 +286,7 @@ Application Runtime Policy
 -   Review, approve, and modify generated access policies to verify intended resource access.
 -   For ServiceNow Store partner developers, reduce ServiceNow Store certification time through structured declarations of an application's runtime resource access.
 
-See  for more information.
+See [Application Runtime Policy \(ARP\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/application-runtime-policy.md) for more information.
 
 </td></tr><tr><td>
 
@@ -339,7 +339,7 @@ Automation Center
 -   Measure the value of your automations with dashboards that track time saved, cost savings, and return on investment.
 -   Speed up delivery by standardizing how teams submit, review, and approve automation requests.
 
-See  for more information.
+See [Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/automation-center-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -366,7 +366,7 @@ Build Agent and Autonomous Engineer
 -   Decrease development costs because Build Agent handles code compilation, quality checks, and documentation of existing applications automatically.
 -   Enable agentic development by letting you create agentic workflows, custom AI agents, and skills tailored to your organization directly from within ServiceNow Studio.
 
-See  and  for more information.
+See [Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/build-agent.md) and [Autonomous Engineer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/autonomous-engineer.md) for more information.
 
 </td></tr><tr><td>
 
@@ -688,7 +688,7 @@ Data Management for CSM
 -   Manage related parties and deal context on sold products, and enable customers to create and track Return Merchandise Authorization \(RMA\) cases directly from the portal.
 -   Track business organization outages efficiently. As a major case manager, get auto-proposed major cases and child cases for every affected organization, ensuring consistent updates across all impacted accounts.
 
-See  feature for more information.
+See [Data management for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-data-management.md) feature for more information.
 
 </td></tr><tr><td>
 
@@ -727,7 +727,7 @@ Developer Sandboxes
 -   Integrate with source control \(Git\), reducing merge conflicts and making co-development smoother compared to shared development instances.
 -   Safely test configurations, workflows, and integrations within your own sandbox before promoting changes, reducing rework and protecting system stability.
 
-See  for more information.
+See [Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/sandboxes-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -917,7 +917,7 @@ Enterprise Architecture
 -   Work from a single Enterprise Architecture Workspace home page with role-based views for enterprise architects, administrators, and analysts, including portfolio insights, tasks that need your attention, and portfolio health.
 -   Ensure the accuracy, completeness, and reliability of enterprise architecture data with configurable Data Certification policies.
 
-See  for more information.
+See [Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-portfolio-management/ea-workspace.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1017,7 +1017,7 @@ Financial Services Operations Core
 
 The case type selector in Financial Services Operations now uses the predefined Customer Service Management \(CSM\) implementation, replacing the previous FSO-specific override.
 
-See  for more information.
+See [Case type selector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/csm-case-type-select-modals.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1053,7 +1053,7 @@ Flows, subflows, and actions
 -   Pass data between the steps of a flow.
 -   Pass data between child subflows and their parent calling flows.
 
-See  for more information.
+See [Workflow Studio flows, subflows, and actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio-flows-subflows-and-actions-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1260,7 +1260,7 @@ Intelligent approvals
 -   Translate an approval policy document into AI-generated approval rules.
 -   Use a approval policy document as the source of truth.
 
-See  for more information.
+See [Intelligent approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/intelligent-approvals.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1336,7 +1336,7 @@ Live Connect
 -   Supports OAuth authentication for secure, FedRamp-compliant connections.
 -   Integrates with enterprise analytics platforms such as Pyramid Analytics, Power BI, and Tableau.
 
-See  for more information.
+See [Access your ServiceNow data using Live Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/api-reference/web-services/accessing-your-servicenow-data-using-sql-api.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1379,7 +1379,7 @@ Lux
 -   Share data across widgets with the Context API, and across pages with layout data.
 -   Deploy your scoped application to an instance on its own schedule with the ServiceNow SDK.
 
-See the Lux documentation for more information, .
+See the Lux documentation for more information, [Lux Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/lux-development-landing.md).
 
 </td></tr><tr><td>
 
@@ -1395,7 +1395,7 @@ Lux Lab
 -   Get started quickly with a first-launch setup that checks your environment and signs you in to your instance.
 -   Create store applications with a custom scope that doesn't require your instance's company code.
 
-For more information, see .
+For more information, see [Lux Lab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/lux-lab-landing.md).
 
 </td></tr><tr><td>
 
@@ -1446,7 +1446,7 @@ Next Experience Components
 -   Build rich UI experiences with prebuilt system or custom components. To view the Next Experience Components API reference and usage guidance documentation, visit the [Horizon site Components section](https://horizon.servicenow.com/workspace/components).
 -   Use common web component patterns and principles, such as a JavaScript framework, immutable data, and simple action handlers.
 -   Reuse components across multiple user interfaces to create a cohesive experience for your end users.
--   Use preset property values to configure properties and event handlers automatically for a component. As a result, the component is ready to work when you add it to a page. Presets can connect to a controller that acts as a data resource for the component. For more information, see  and .
+-   Use preset property values to configure properties and event handlers automatically for a component. As a result, the component is ready to work when you add it to a page. Presets can connect to a controller that acts as a data resource for the component. For more information, see [Automatically configure components using presets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/presets.md) and [Bind data to UI Builder pages using controllers \(advanced feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/controllers.md).
 
 </td></tr><tr><td>
 
@@ -1624,7 +1624,7 @@ Playbooks
 -   Benefits include eliminating the need to memorize processes, providing real‑time guidance, automating routine steps, and enabling administrators to update processes centrally, which applies to all users.
 -   Playbooks support use cases across multiple domains.
 
-See  for more information.
+See [Workflow Studio playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/build-workflows/workflow-studio-playbooks-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1825,7 +1825,7 @@ ReleaseOps
 -   Schedule releases for routine updates or trigger on-demand releases to fast-track patches and hotfixes.
 -   Resolve deployment issues efficiently with auto-generated deployment tasks that are assigned to the right stakeholders.
 
-See  for more information.
+See [ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/releaseops-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -1864,7 +1864,7 @@ Retail
 
 See [Retail](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/retail-industry/rahi-retail-operations-overview.md) for more information.
 
--   ****
+-   **[Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/c_CustomerServiceManagement.md)**
 
 The ServiceNow ® Customer Service Management \(CSM\) application provides the foundation for the Retail Core application. Leverage the functionality of CSM applications to provide support to customers as well as retail sites.
 
@@ -1961,7 +1961,7 @@ Self-service and omnichannel engagement for CSM
 -   Handle inbound calls intelligently by configuring AI Voice Agents with ServiceNow Voice and Amazon Connect.
 -   Initiate WebRTC voice calls from portal pages or engagement messenger with a widget that maintains call state and context across page navigation.
 
-See , and  for more information.
+See [Self-service for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/self-service-options-csm-customers.md), and [Omnichannel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/omnichannel.md) for more information.
 
 **Note:** Self-service and omnichannel applications are available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
@@ -2098,7 +2098,7 @@ ServiceNow Lux Lab for VS Code
 -   Access relevant experiences, pages, and widgets from your instance.
 -   Develop tailored experiences with AI tools.
 
-See  for more information.
+See [ServiceNow Lux Lab for VS Code extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-ai-experience-lab-for-vs-code-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2159,7 +2159,7 @@ ServiceNow Otto for Virtual Agent
 -   Empower users to self-serve with AI agents, enhanced or premium chat with AI Search, conversational catalog skills, and more.
 -   Seamlessly transfer the entire conversation history and context to the right human agent so they can quickly address any escalations and resolve user issues.
 
-See  for more information.
+See [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/conversational-interfaces/virtual-agent-landing-page.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2186,7 +2186,7 @@ ServiceNow Studio
 -   Access low-code builders available in the ServiceNow AI Platform, including Table Builder and flows in Workflow Studio, alongside other development tools.
 -   Package changes for deployment using update sets, pipelines, or the Application Repository without leaving ServiceNow Studio.
 
-See  for more information.
+See [ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/application-development/servicenow-studio-landing.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2270,7 +2270,7 @@ Stream Connect
 -   Monitor consumer and producer performance with detailed reporting of statistics and performance metrics.
 -   Integrate your ServiceNow instance directly with your local Kafka environment with Direct Kafka.
 
-See  for more information.
+See [Using Stream Connect for Apache Kafka](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/stream-connect-apache-kafka.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2406,7 +2406,7 @@ Visa Spoke
 -   Connect with Visa's REST APIs to manage card disputes with VROL.
 -   Perform transaction inquiries, order digital insights, collaborate with merchants, and handle other dispute events with enhanced security through Visa spoke actions.
 
-See  for more information.
+See [Visa Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/visa-spoke.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2445,7 +2445,7 @@ Workforce Optimization for CSM
 -   Analyze the help requested interactions segmented by different channels, such as Chat, Email, Messaging, Phone and Video.
 -   Enable Schedule Management as a standalone capability, with backward compatibility for existing deployments and no additional configuration required after activation.
 
-See  for more information.
+See [Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/customer-service-management/configurable-wfo-cs.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2456,7 +2456,7 @@ Zero Copy Connector for ERP
 -   Add Workday RaaS reports to read operations by pasting a sample report response.
 -   Connect to Oracle E-Business Suite \(12.2 and later\).
 
-See  for more information.
+See [Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/erp-integration-overview.md) for more information.
 
 </td></tr><tr><td>
 
@@ -2469,7 +2469,7 @@ Zero Copy Connectors
 -   Connect to MySQL and PostgreSQL databases using primary connectors.
 -   Authenticate to Databricks and Snowflake using your own credentials with personal authentication support.
 
-See  for more information.
+See [Zero Copy Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/zero-copy-connectors.md) for more information.
 
 </td></tr><tr><td>
 

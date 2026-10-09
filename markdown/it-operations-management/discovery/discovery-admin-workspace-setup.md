@@ -121,7 +121,7 @@ To synchronize your IP data immediately instead of waiting for the next refresh 
 
 Discovery notifications enable administrators to receive real-time alerts or daily summaries of critical Discovery errors and schedule failures through Microsoft Teams and email, directly from the Discovery Admin Workspace.
 
-**Important:** This feature requires the ServiceNow AI Platform to be running on the Brazil, Australia, Zurich, or the Yokohama release starting with Patch 6. Before you can set up notifications, you must configure the Microsoft Teams Graph spoke. For more information, see .
+**Important:** This feature requires the ServiceNow AI Platform to be running on the Brazil, Australia, Zurich, or the Yokohama release starting with Patch 6. Before you can set up notifications, you must configure the Microsoft Teams Graph spoke. For more information, see [Set up the](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/brazil/markdown/integrate-applications/set-up-msteams.md).
 
 -   **Notification destinations**
 
