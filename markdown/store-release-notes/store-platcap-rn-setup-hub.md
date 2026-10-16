@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-setup-hub.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 2
 breadcrumb: [ServiceNow Store - Other ServiceNow AI Platform Capabilities applications version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,40 @@ Version history for the ServiceNow® Setup Hub application on the ServiceNow Sto
 
 ## Version history
 
+-   **Version 4.0.4 - October 2026**
+    -   Changed: Supported products \(October Release\)
+        -   AI Native
+            -   ITSM \(Foundation, Advanced, Prime\)
+            -   CBS \(Foundation, Advanced, Prime\)
+            -   ITOM \(Foundation, Advanced, Prime\)
+            -   ESM \(Foundation\)
+            -   Employee Slate
+            -   AICT
+            -   HAM \(Advanced, Prime\)
+            -   CCM \(Advanced\)
+            -   Sourcing &amp; Procurement \(Foundation, Prime\)
+            -   HRSD \(Foundation, Advanced, Prime\)
+            -   SPM \(Advanced, Prime\)
+            -   OT \(Foundation, Advanced, Prime\)
+            -   EAM \(Advanced\)
+        -   Pro Plus
+            -   ITSM \(Pro Plus\)
+            -   HRSD \(Pro Plus\)
+            -   ITOM \(Pro Plus\)
+            -   SAM \(Pro Plus, Enterprise Plus\)
+            -   HAM \(Pro Plus\)
+            -   Sourcing &amp; Procurement \(Plus\)
+            -   SPM \(Pro Plus\)
+    -   Non-AI
+        -   ITOM \(Standard, Enterprise, Professional\)
+        -   SPM \(Standard, Professional\)
+        -   Security Vault
+        -   SAM \(Professional, Enterprise\)
+        -   HAM \(Professional\)
+        -   CCM \(Professional\)
+        -   Sourcing &amp; Procurement \(Standard, Professional\)
+        -   EAM \(Professional\)
+        -   Impact
 -   **Version 3.0.7 - September 2026**
     -   Changed:
         -   Layered intelligent Admin Home and navigation:Admin Home is rebuilt on the AINPX framework, introducing a layered intelligence model and a restructured navigation experience that organizes platform management around core administrative jobs.

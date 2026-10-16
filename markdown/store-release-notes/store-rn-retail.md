@@ -26,6 +26,8 @@ Version history for the Retail HQ Operations application on the ServiceNow Store
 Version history for the Retail In-Store Operations application on the ServiceNow Store.
 -   **[Retail Mobile release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm-retail-mobile.md)**  
 Version history for the Retail Mobile application on the ServiceNow Store.
+-   **[Retail MCP Server Console release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-retail-mcp-server.md)**  
+Version history for the ServiceNow® Retail MCP Server Console Server application on the ServiceNow Store.
 -   **[Retail Playbook for Store Plan release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-industry-retail-playbook-store-plan.md)**  
 Version history for the ServiceNow® Retail Playbook for Store Plan application on the ServiceNow Store.
 -   **[Retail Store Audit release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-retail-store-audit.md)**  

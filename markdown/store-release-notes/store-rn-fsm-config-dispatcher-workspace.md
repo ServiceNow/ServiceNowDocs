@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-fsm-config-dispatcher-workspace.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 32
+last_updated: "2026-10-08"
+reading_time_minutes: 35
 breadcrumb: [ServiceNow Store - Field Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,42 @@ Version history for the FSM Configurable Dispatcher Workspace application on the
 
 ## Version history
 
+-   **Version 28.7.2 - October 2026**
+    -   Extended work order task tables now open to the correct URL in Dispatcher Workspace. Previously, clicking into a task based on an extended Work Order Task table would navigate to the base table URL rather than the specific extended table, preventing users from accessing the correct form. This has been resolved.
+    -   Event edit forms in Dispatcher Workspace now display dates correctly when using non-standard system date formats. When the system was configured with a date format where the day appears before the month \(e.g., DD/MM/YYYY\), editing a Work Force Optimization event could show the day and month swapped on the edit form. Dates now reflect the correct values regardless of the system date format configured.
+    -   Localization handling in Dispatcher Workspace client scripts has been improved. Certain UI labels were using a translation pattern that could produce warnings or display placeholder text \(such as \{0\}\) in some locales. These have been updated to use the correct translation approach, ensuring labels display properly across all supported languages.
+-   **Version 30.2.1 - October 2026**
+    -   New Features and Enhancements
+        -   Embedded Break and Lunch Support:
+            -   Dispatcher Workspace now displays agent lunch and break blocks directly on the calendar, giving dispatchers a clear view of each resource's availability without switching contexts.
+        -   Quick Task Filters:
+            -   A new quick filter modal allows dispatchers to filter visible tasks by multiple criteria simultaneously, including SLA status, window end time, and parts availability.
+            -   Tasks for resources added after a filter is applied are now correctly filtered to match the active filter criteria.
+            -   A loading indicator is displayed while filter queries are running, so dispatchers have clear feedback during longer filter operations.
+            -   Filtering performance for SLA-based queries has been significantly improved.
+        -   Calendar Event Highlighting:
+            -   When a search or filter is active, matching calendar events are highlighted and non-matching events are visually dimmed, making it easier to focus on relevant tasks at a glance.
+            -   Events without a type are correctly dimmed when they do not match the active filter, consistent with the behavior of typed events.
+        -   Calendar Time Format:
+            -   The calendar now correctly validates and displays times in HH:MM format, ensuring time entries are consistently formatted.
+    -   Fixes:
+        -   Calendar Display:
+            -   Fixed an issue where calendar events duplicated when Task Recommendations plugins were active, causing tasks to appear twice on the calendar.
+            -   Fixed infinite loading that occurred when switching between calendar views \(day, week, month\).
+            -   Fixed an issue where a personal event was not displayed on the calendar immediately after creation when Workforce Optimization \(WFO\) was enabled.
+        -   Event Editing:
+            -   Fixed an issue where the Event Edit form displayed an incorrect date when the system date format was non-standard \(day and month swapped\), affecting users with locale-specific date settings and WFO data model enabled.
+        -   Task Navigation and Extended Tables:
+            -   Fixed an issue where extended Work Order Task \(WOT\) tables opened with the base table URL instead of the correct extended table URL in Dispatcher Workspace.
+        -   Task Filtering:
+            -   Fixed an issue where the advanced task filter stopped working correctly when the browser tab was duplicated.
+            -   Fixed an issue where the Match Calendar Dates toggle setting was not applied to the task panel when the page was refreshed.
+            -   Fixed an issue where advanced task filter tooltips on the Cancel and Apply Filter buttons were redundant and unnecessarily cluttered the interface.
+        -   Maps:
+            -   Added the "Avoid Ferry Routes" routing option to the Dispatcher Workspace Maps settings, enabling dispatchers to exclude ferry routes from route calculations.
+        -   Localization and Translation:
+            -   Fixed an issue where the search operators "OR" and "AND" were not translated correctly before being passed to full-text search queries, causing incorrect results in non-English locales.
+            -   Fixed an issue where the "Temporary filter" label in the advanced resource filter was hardcoded in English and did not render correctly in other languages.
 -   **Version 31.0.6 - September 2026**
     -   New Features and Enhancements:
         -   Task Quick Filters with Skills — Dispatchers can now filter tasks and the calendar panel by skills, parts, SLA, and window end time, with pagination support for large task lists, giving faster access to the specific tasks that match a given filter combination.

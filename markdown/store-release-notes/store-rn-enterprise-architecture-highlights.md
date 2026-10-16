@@ -22,6 +22,8 @@ Version history for the Application Portfolio Management Digital Integration Man
 Version history for the IT Business Management Application Portfolio Management integration with Policy and Compliance on the ServiceNow Store.
 -   **[Application Portfolio Management integration with Risk Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-itbm-rn-apm-integration-risk-management.md)**  
 Version history for the IT Business Management Application Portfolio Management integration with Risk Management on the ServiceNow Store.
+-   **[Enterprise Architecture \(EA\) MCP Server release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-itbm-rn-ea-mcp-server.md)**  
+Version history for the ServiceNow® Enterprise Architecture \(EA\) MCP Server application on the ServiceNow Store.
 -   **[Enterprise Architecture Workspace release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-itbm-rn-enterprise-architecture-workspace.md)**  
 Version history for the Enterprise Architecture Workspace on the ServiceNow Store.
 -   **[Enterprise Modeling Common release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-itbm-rn-enterprise-modeling-common.md)**  

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-spm-rn-enterprise-wide-deployment.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Strategic Portfolio Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,11 @@ Version history for the ServiceNow® SPM Enterprise-Wide Deployment application 
 
 ## Version history
 
+-   **Version 1.1.0 - October 2026**
+    -   New:
+        -   Map dashboards to partitions in Demand Management to provide tailored layouts and settings for each partition. Administrators and users can view and manage dashboard-partition associations within the application.
+        -   Added partition support for portfolio and project mappings in the Portfolio Project \(pm\_m2m\_portfolio\_project\) table.
+        -   Users now see only the partitions they have access to when selecting from the Partition drop-down list in Demand Workspace, ensuring accurate visibility based on permissions.
 -   **Version 1.0.5 - September 2026**
     -   New: Control system administrator access to data across all partitions using a system property. By default, system administrators no longer have access to all partitions.
     -   Fixed: Resolved a field visibility issue for non-admin users in the Details section of theProject Type tab.

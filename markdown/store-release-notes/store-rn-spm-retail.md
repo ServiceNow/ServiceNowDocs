@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-spm-retail.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Strategic Portfolio Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,14 @@ Version history for the ServiceNow® SPM Retail application on the ServiceNow St
 
 ## Version history
 
+-   **Version 2.1.2 - October 2026**
+    -   New
+        -   Employees can now view and manage their assigned Customer Project tasks directly from their slate dashboard.
+            -   The new widget displays all project tasks assigned to or owned by the logged-in user displaying task status, due date, project, location, and priority.
+            -   Employees can work on widget to view, update, and track their tasks without navigating away from their dashboard.
+    -   Fixed
+        -   Out-of-box retail Playbook checklist tasks were locked to the system admins assignment and failed to update when project manager changes.
+            -   Checklist task ownership is with project manager assignments, enabling proper delegation and task completion by project manager/owner.
 -   **Version 2.0.4 - September 2026**
 
     Changed: Upgraded dependencies.

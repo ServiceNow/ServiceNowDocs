@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-manufacturing-industrial-guided-task.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Operational Technology version history release notes, ServiceNow Store version history release notes]
 ---
@@ -16,6 +16,11 @@ Version history for the ServiceNow® Industrial Guided Task application on the S
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
+-   **Version 3.0.3 - October 2026**
+    -   New:
+        -   Post-assessment actions now include option to create Deviations
+        -   New workspace list of IGTs initiated by the user \("Opened by Me"\)
+        -   New database view for IGT question results to allow easier reporting
 -   **Version 2.0.0 - June 2026**
 
     New: Work Set Tasks are generated from Work Set Standards and can contain one or more sub-tasks of type Industrial Guided Task or Industrial Action.

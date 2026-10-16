@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-spm-mcp-spm.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Strategic Portfolio Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,10 @@ Version history for the ServiceNow® MCP for Strategic Portfolio Management appl
 
 ## Version history
 
+-   **Version 1.5.0 - October 2026**
+    -   New:
+        -   Control access to MCP tools using role-based access control \(RBAC\) roles.
+        -   Added support for tool annotations, such as readOnlyHint, to describe tool behavior to MCP clients.
 -   **Version 1.4.0 - September 2026**
     -   With MCP for Strategic Portfolio Management, strategy/PMO leaders, portfolio managers, and project managers can access strategic insights, portfolio insights, project insights, status reports, and risk information directly in their AI client and planning workflows — without opening the ServiceNow instance.
     -   The application brings live Strategic Portfolio Management data — goals, portfolio plans, and projects — and Now Assist AI skills into any MCP-compatible AI client using natural language.

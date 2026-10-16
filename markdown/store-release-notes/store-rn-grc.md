@@ -48,6 +48,8 @@ Version history for the Basic Scoring for Smart Assessments application on the S
 Version history for the ServiceNow® Business Continuity Management Advanced application on the ServiceNow Store.
 -   **[Business Continuity Management Foundation release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-grc-rn-business-continuity-mgmt-foundation.md)**  
 Version history for the ServiceNow® Business Continuity Management Foundation application on the ServiceNow Store.
+-   **[Business Continuity Management Prime release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-grc-rn-business-continuity-mgmt-prime.md)**  
+Version history for the ServiceNow® Business Continuity Management Prime application on the ServiceNow Store.
 -   **[Claims for reporting release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-grc-rn-claims-for-reporting.md)**  
 Version history for the Claims for reporting application on the ServiceNow Store.
 -   **[Digital Operational Resilience Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-grc-rn-digital-operational-resilience-mgmt.md)**  

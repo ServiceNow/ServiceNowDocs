@@ -58,6 +58,8 @@ Version history for the Impact Value Management - ITSM application on the Servic
 Version history for the Interceptor UI for Service Operations Workspace application on the ServiceNow Store.
 -   **[Investigation Framework release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm-investigation-framework.md)**  
 Version history for the ITSM Investigation Framework on the ServiceNow Store.
+-   **[IT Service Management Advanced release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm-it-service-management-advanced.md)**  
+Version history for the ServiceNow® IT Service Management Advanced application on the ServiceNow Store.
 -   **[IT Service Management AI voice agent collection release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm-ai-voice-agent-collection.md)**  
 Version history for the ServiceNow® IT Service Management AI voice agent collection application on the ServiceNow Store.
 -   **[IT Service Management for Microsoft 365 release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm-ms-365.md)**  
@@ -72,6 +74,8 @@ Version history for the ServiceNow® ITSM - Foundation application on the Servic
 Version history for the ServiceNow® ITSM - Prime application on the ServiceNow Store.
 -   **[ITSM Analytics release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm-analytics.md)**  
 Version history for the ITSM Analytics on the ServiceNow Store.
+-   **[ITSM Autonomous Workforce release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm-autonomous-workforce.md)**  
+Version history for the ServiceNow® ITSM Autonomous Workforce application on the ServiceNow Store.
 -   **[ITSM Employee Slate for Moveworks release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm-employee-slate-moveworks.md)**  
 Version history for the ServiceNow® ITSM Employee Slate for Moveworks application on the ServiceNow Store.
 -   **[ITSM MCP Server release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itsm-mcp-server.md)**  

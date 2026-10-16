@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-grc-rn-ai-control-tower-enterprise-ai-foundation.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 4
+last_updated: "2026-10-08"
+reading_time_minutes: 7
 breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,42 @@ Version history for the ServiceNow® AI Control Tower for Enterprise AI Foundati
 
 ## Version history
 
+-   **Version 1.9.5 - October 2026**
+
+    AI Control Tower adds new capabilities across discovery, governance, security, monitoring, and measurement of AI usage.
+
+    Secure:
+
+    -   New: AI Security Operator role — lets teams delegate agent containment \(deactivate/reinstate\) without granting full AI Steward access.
+    -   Changed
+        -   Smarter Overview recommendations — "Your top recommendations" now ranks agents by critical security events \(with agent name, event count, and threat categories\); Overview and Post-runtime event lists are now consistent with each other.
+        -   On the Overview tab, the Access issues detailed view includes a description that explains each access issue in plain language — identifying the agent, the operation, the resource, and the denial count.
+        -   On the Runtime tab, Sensitive data metrics are shown for ServiceNow AI systems in a domain-separated instance.
+        -   In Settings &gt; Rules and templates &gt; Security , the default values for Sampling rate and Max skill calls have changed on the External AI systems tab to help ensure efficient, predictable analysis. If you're upgrading, your Sampling rate and Max skill calls are updated to the new defaults. Your Detection enabled setting for each metric isn’t affected. After upgrading, check your Sampling rate and Max skill calls settings and adjust if needed.
+    -   Fixed
+        -   In Policies, AWS Bedrock block and unblock actions fail without an error message when they don't succeed. \(PRB2077055\)
+        -   After navigating to the Security page, tabs from the previous page were sometimes still shown until the page was refreshed. \(PRB2063965\)
+        -   Selecting View source record from a security event's source log opened the underlying trace record directly, instead of the related page in Monitoring &gt; Traces. \(PRB2075468\)
+        -   In the legacy UI experience, some users couldn't see the Security and Privacy tab. \(PRB2090102\)
+        -   Security fixes
+    -   Removed: The base system Traceloop Warehouse HTTPS connection \(sn\_ai\_security.Traceloop\_API alias\) is removed. If you're upgrading and use Traceloop-based external AI metrics, create a new HTTPS connection under that alias and re-create your credential with connection URL
+    Monitor:
+
+    -   Changed
+        -   Go directly to the traces where a mismatch was detected from the AI agent usage deviates from declared purpose recommendation. Previously, the recommendation opened the parent asset record.
+        -   A new recommendation groups AI agent quality and safety score drops by severity level, so related drops across multiple assets appear on a single card rather than one card per asset.
+        -   Monitor agentic AI performance over time using new filter options in the Monitor agent activity chart. View the top five lowest performing metrics, top five highest performing metrics, or view performance for a specific metric in the chart.
+        -   View a list of lowest scoring metrics and the LLM judge's reasoning in the Quality and Safety score cards on the Session details page.
+        -   Toggle between input and output when viewing trace details.
+        -   Widget customization capability support across ALL AICT pages
+    Measure:
+
+    -   New
+        -   Sub-vendor AI costs: Set a rate for a specific service from an integrated vendor, such as an agent platform. The sub-vendor rate takes precedence over the vendor rate. The vendor rate applies to any usage that doesn't have a sub-vendor rate.
+        -   Subscription AI costs: Record per-seat subscription costs for integrated and non-integrated vendors. Specify the number of licensed seats, the cost per seat, and the contract dates. Optionally, add a one-time setup fee and distribute it over a set number of months so that it's included in the estimated monthly cost.
+    -   Changed:
+        -   Assign costs to specific services from integrated vendors.
+        -   Include per-seat subscription costs in AI cost tracking.
 -   **Version 1.9.2 - September 2026**
     -   AI Control Tower adds new capabilities across discovery, governance, security, monitoring, and measurement of AI usage.
     -   Inventory and Discovery

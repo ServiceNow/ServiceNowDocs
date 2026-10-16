@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-adobe-sign.html
 release: store
 topic_type: reference
-last_updated: "2026-08-06"
+last_updated: "2026-10-08"
 reading_time_minutes: 3
 breadcrumb: [ServiceNow Store - Integration Hub version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,9 +18,13 @@ Version history for the Integration Hub Adobe Acrobat Sign spoke on the ServiceN
 
 ## Version history
 
+-   **Version 2.11.0 - October 2026**
+
+    New: Participants can now receive private messages with agreements. Actions for adding participants to Adobe Sign agreements now support an input for a private message per recipient. This applies to flows using standard, password, email OTP, and phone authentication, as well as when sending agreements. Existing flows continue to operate and can optionally include private messages.
+
 -   **Version 2.10.1 - August 2026**
 
-    Fixed - Webhook HMAC timing oracle vulnerability
+    Fixed: Webhook HMAC timing oracle vulnerability
 
 -   **Version 2.10.0 - June 2026**
 

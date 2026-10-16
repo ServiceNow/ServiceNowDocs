@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-plat-sec-rn-data-discovery.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 4
+last_updated: "2026-10-08"
+reading_time_minutes: 5
 breadcrumb: [ServiceNow Store - ServiceNow AI Platform Security version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -17,6 +17,10 @@ Version history for the Data Discovery on the ServiceNow Store.
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 9.1.0 - October 2026**
+
+    New: AICT admins can now enable PII redaction for existing AI Control Tower traces and spans. two changes made in Data Discovery to meet AICT requirements:1. Added the Luhn Sum check logic to our Credit Card data patterns to improve detection accuracy / reduce false positives2. Enable test functionality for3. Defined additional synthetic data for each data pattern &amp; added synthetic data for NER data patterns
 
 -   **Version 9.0.2 - September 2026**
     -   New:

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-vr-int-wiz.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 14
 breadcrumb: [ServiceNow Store - Vulnerability Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,11 @@ Version history for the Vulnerability Response Integration with Wiz application 
 
 ## Version history
 
+-   **Version 32.9.1 - October 2026**
+    -   New: Added evidence mapping for the Wiz AI Security Findings integration. Updated the import set dictionary, REST message function, and "WizAISecurityFindingsProcessor" script include to capture and map finding evidence data from Wiz.
+    -   Fixed
+        -   An ES12 compile error in "WizAISecurityFindingsProcessor".
+        -   Resolved localization \(L10n\) warnings across multiple client scripts in the Wiz integration.
 -   **Version 32.8.4 - September 2026 \(USEM\)**
     -   New:
         -   Two new chained integrations to the Wiz container vulnerability pipeline:

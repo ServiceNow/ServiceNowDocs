@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-esm-legal-legal-contracts-common-utilities.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Legal Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -15,6 +15,10 @@ breadcrumb: [ServiceNow Store - Legal Service Delivery version history release n
 Version history for the ServiceNow® Legal and Contracts Common Utilities application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
+
+-   **Version 1.2.4 - October 2026**
+
+    Fixed: Security fixes.
 
 -   **Version 1.2.2 - September 2026**
 

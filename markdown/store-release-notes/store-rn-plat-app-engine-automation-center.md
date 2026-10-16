@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-plat-app-engine-automation-center.html
 release: store
 topic_type: reference
-last_updated: "2026-08-06"
+last_updated: "2026-10-08"
 reading_time_minutes: 12
 breadcrumb: [ServiceNow Store - ServiceNow AI Platform App Engine version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,12 @@ Version history for the App Engine Automation Center application on the ServiceN
 
 ## Version history
 
+-   **Version 16.0.0 - October 2026**
+    -   Migration Accelerator now supports Automation Anywhere
+    -   With this release, Automation Center’s Migration Accelerator enables the migration of Automation Anywhere automations along with Blue Prism and UiPath automations into ServiceNow RPA Hub, optimizing costs and minimizing effort.
+    -   You can leverage Automation Anywhere, Blue Prism, and UiPath automations to generate reports and migrate them directly to the ServiceNow RPA Hub server.
+    -   The Insights dashboard offers comprehensive information regarding the extent of manual intervention required to fully migrate automations to ServiceNow RPA Hub. It also highlights the added value that Migration Accelerator brings to business processes by enhancing their efficiency.
+    -   For further details, please refer to the product documentation.
 -   **Version 15.1.0 - August 2026**
     -   New: sn\_ac.auto\_onboarding\_catalog\_items — Use this system property to control how catalog items are onboarded as automations. Users with the sn\_ac.automation\_admin role can edit the system property.
         -   True \(default\): New catalog items are onboarded automatically and appear on the automation dashboard immediately, without time and cost savings for each catalog item.

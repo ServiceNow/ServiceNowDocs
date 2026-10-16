@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-tmt-customer-discovery-hub.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 2
 breadcrumb: [ServiceNow Store - Technology Provider Service Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -17,6 +17,18 @@ Version history for the ServiceNow® Customer Discovery Hub application on the S
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 1.5.1 - October 2026 \(Brazil\)**
+
+    No new features or behavior changes are introduced in this release.
+
+-   **Version 1.3.4 - October 2026 \(Australia\)**
+
+    No new features or behavior changes are introduced in this release.
+
+-   **Version 1.1.16 - October 2026 \(Zurich\)**
+
+    No new features are released.
 
 -   **Version 1.3.3 - September 2026 \(Australia\)**
 

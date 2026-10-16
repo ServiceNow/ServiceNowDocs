@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-qualys-integration.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 15
 breadcrumb: [ServiceNow Store - Vulnerability Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,14 @@ Version history for the Qualys Integration for Security Operations on the Servic
 
 ## Version history
 
+-   **Version 30.9.1 - October 2026 \(USEM\)**
+    -   Fixed:
+        -   Improved memory efficiency for large Qualys import operations. Importing large Host, Host List, Appliance, and Asset Group reports now uses less memory, enabling faster processing of larger datasets.
+        -   Improved resilience for report imports with record-level errors. Import operations now continue processing when individual records encounter issues, instead of failing the entire import operation.
+-   **Version 12.25.1 - October 2026**
+    -   Fixed:
+        -   Improved memory efficiency for large Qualys import operations. Importing large Host, Host List, Appliance, and Asset Group reports now uses less memory, enabling faster processing of larger datasets.
+        -   Improved resilience for report imports with record-level errors. Import operations now continue processing when individual records encounter issues, instead of failing the entire import operation.
 -   **Version 30.8.1 - September 2026 \(USEM\)**
     -   New: Added 16 pre-seeded Qualys Vulnerability Import data sources to support automatic scaling of the integration across larger environments.
     -   Changed:

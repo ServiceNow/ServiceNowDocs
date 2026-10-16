@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-telecom-product-capability-core.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 7
+last_updated: "2026-10-08"
+reading_time_minutes: 8
 breadcrumb: [ServiceNow Store - Technology Provider Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -17,6 +17,18 @@ Version history for the Product Capability Core application on the ServiceNow St
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 2.5.0 - October 2026 \(Brazil\)**
+
+    No new features or behavior changes are introduced in this release.
+
+-   **Version 2.3.4 - October 2026 \(Australia\)**
+
+    No new features or behavior changes are introduced in this release.
+
+-   **Version 2.1.15 - October 2026 \(Zurich\)**
+
+    No new features or behavior changes are introduced in this release.
 
 -   **Version 2.3.3 - September 2026 \(Australia\)**
 

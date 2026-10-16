@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-sales-agreement-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Customer Service Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,11 @@ Version history for the CSM Sales Agreement Management application on the Servic
 
 ## Version history
 
+-   **Version 8.3.1 - October 2026**
+    -   New
+        -   Sales Agreements now support buyer organization, alongside Account and Consumer.
+        -   Buyer Organization and Channel Partner fields added to the Sales Agreement form and list views, referencing active Service Organizations. Sales agreements are auto-populated when generated from a Quote.
+        -   Access is role-based, scoped to authorized members and managers of the Service Organization/Business location.
 -   **Version 8.2.1 - September 2026**
 
     Fixed minor defects.

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itam-sam-integration-with-workday.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - IT Asset Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -17,6 +17,10 @@ Version history for the ITAM Software Asset Management integration with Workday 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 1.0.22 - October 2026**
+
+    The basic authentication process is fixed when the samp\_sw\_subscription\_profile table does not exist.
 
 -   **Version 1.0.21 - September 2026**
 

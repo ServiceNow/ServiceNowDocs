@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-order-mgmt-business-locations.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Customer Service Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -17,6 +17,10 @@ Version history for the Order Management for Business Locations application on t
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 2.7.1 - October 2026**
+
+    New: A Business Organization can now act as a Buyer Organization. This enhancement enables Business Organizations to be designated as valid buyers on the order entities, allowing internal users to create and manage orders on behalf of Internal Organizations.
 
 -   **Version 2.6.1 - September 2026**
 

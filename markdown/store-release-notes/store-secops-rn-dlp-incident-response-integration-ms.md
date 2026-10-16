@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-dlp-incident-response-integration-ms.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 5
+last_updated: "2026-10-08"
+reading_time_minutes: 6
 breadcrumb: [ServiceNow Store - Security Incident Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,12 @@ Version history for the Security Operations DLP Incident Response integration wi
 
 ## Version history
 
+-   **Version 1.5.7 - October 2026**
+    -   Fixed:
+        -   Unique Blob Storage File Names for Microsoft DLP
+            -   Updated the external Blob Storage file naming convention for Microsoft DLP to include instance-specific details. This ensures that when multiple ServiceNow instances are configured to use the same Microsoft DLP source, each instance stores files with unique names, preventing encryption and decryption conflicts across instances.
+    -   Correct Match Count Display for DLP Endpoint Incidents
+        -   Resolved an issue where the Match Count field in the Details section of DLP Endpoint incidents always displayed 0, even when a valid Match Count was available in the SIT Info tab. The Details section now correctly displays the actual Match Count.
 -   **Version 1.5.5 - September 2026**
 
     Fixed: Addressed mapping issue during incident ingestion for fields "Detection date Sent" and "File Created".

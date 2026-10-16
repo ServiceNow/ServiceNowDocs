@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-omniexperience-standard-feature-set.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 3
 breadcrumb: [ServiceNow Store - Conversational Interfaces version history release notes, ServiceNow Store version history release notes]
 ---
@@ -17,6 +17,10 @@ Version history for the Omni-Experience Standard Feature Set application on the 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 9.1.4 - October 2026 \(Brazil\)**
+
+    Changed: Updated translations
 
 -   **Version 9.1.3 - September 2026 \(Brazil\)**
     -   Fixed: Security patches for Sidebar

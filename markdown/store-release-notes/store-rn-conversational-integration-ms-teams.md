@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-conversational-integration-ms-teams.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 7
 breadcrumb: [ServiceNow Store - Conversational Interfaces version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,16 @@ Version history for the Conversational Integration with Microsoft Teams on the S
 
 ## Version history
 
+-   **Version 10.6.4 - October 2026 \(Brazil\)**
+    -   Changed:
+        -   PRB2080691
+            -   In the standard picker card, the placeholder text is "Search text ..." in the first text input box and "Type to Search" in the second.
+            -   New Experience: the placeholder text is "Type a search term" in the first text input box and "Search above to load results" in the second
+    -   Fixed:
+        -   PRB2072368
+            -   Ensures that - when message streaming is enabled - the final message is always sent, avoiding the "response was stopped" stream message that can sometimes show up after a 429 on that final message send attempt.
+        -   PRB2038049
+            -   After submitting a non-conversational catalog item in the browser and returning to their Teams conversation, the user will now get a confirmation message indicating said catalog item was submitted, rather than the previously seen "technical issues" message in spite of a proper submission of the request.
 -   **Version 10.6.3 - September 2026 \(Brazil\)**
     -   Improvements to the:
         -   Product accessibility, particularly screen reader support

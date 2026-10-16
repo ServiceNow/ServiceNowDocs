@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-som-cpq-configurator.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Sales Customer Relationship Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,10 @@ Version history for the ServiceNow® CPQ Configurator application on the Service
 
 ## Version history
 
+-   **Version 1.5.0 - October 2026**
+    -   Performance and stability issues have been resolved. System reliability has increased, and regressions are less likely.
+    -   UI improvements.
+    -   Ability to override browser locale in runtime configurator
 -   **Version 1.4.5 - September 2026**
 
     Performance and stability improvements. Internal cleanup and expanded automated testing have been implemented to improve reliability and reduce future regressions.

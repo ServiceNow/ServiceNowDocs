@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-telecom-telecom-open-apis.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 3
 breadcrumb: [ServiceNow Store - Telecommunications Service Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,13 @@ Version history for the Telecommunication Open APIs application on the ServiceNo
 
 ## Version history
 
+-   **Version 8.0.3 - October 2026**
+    -   Fixed:
+        -   Create work order: when a template ID is present, work order item payload validation is removed.
+        -   The GET/LIST operation for Product Inventory Complex Characteristics now returns more than just the metadata.
+        -   Added support for V3 schema changes on the PATCH TMF622 V3 endpoint.
+        -   Added phone number validation for Account, Consumer, and Contact creation.
+        -   Legal name is now persisted during Account creation.
 -   **Version 8.0.1 - September 2026**
     -   New: 1. Support TMF 679 Product Offering Qualification API  \(Check and Query\)
     -   Change: 1. Support Filtering on LIST for Ordering APIs \(622,641\), Catalog API \(633,620\) and Inventory API \(637\).2. Support creation of Account, Consumer, Billing Account and Location for TMF 622 in case these are not already present in Servicenow.

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-quote-mgmt-business-locations.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Customer Service Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,10 @@ Version history for the Quote Management for Business Locations application on t
 
 ## Version history
 
+-   **Version 2.6.1 - October 2026**
+    -   New:
+        -   A Business Organization can now act as a Buyer organization. This enhancement enables Business Organizations to be designated as valid buyers on the quote entities, allowing internal users to create and manage quotes on behalf of Internal Organizations.
+        -   A new sales representative role has been introduced for business-to-business organizations. This role provides users with the appropriate access to view and manage quotes relevant to their organization.
 -   **Version 2.5.2 - September 2026**
 
     New: Restricted Customer Access now controls visibility:A new Restricted Customer Access field on customer criteria extends existing criteria, such as location-based criteria — to control not only workflow actions \(quote\) but also visibility of customer records. When enabled, staff can see only the customer and consumer records that meet the configured criteria, rather than all customer records in the instance. This applies to both service personas and sales personas.

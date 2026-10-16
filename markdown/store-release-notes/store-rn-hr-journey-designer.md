@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-hr-journey-designer.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 9
 breadcrumb: [ServiceNow Store - HR Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,12 @@ Version history for the Journey designer application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 7.7.0 - October 2026**
+    -   Fixed Defects:
+        1.  "JNY My Next Tasks" widget hardcodes Onboarding Journey type sys\_id — breaks task display for prehires when a custamer's journey type record doesn't match the OOB demo-data sys\_id
+        2.  Click on a journey of type 'New Hire Onboarding for Journeys' took 3.8 seconds to load
+        3.  Delete attachment confirmation modal appears behind window in Journey Designer tasks
+        4.  "Add task" button is visible for "other tasks" while edit journey is enabled, but task could not be added gives error invalid stage sys\_id
 -   **Version 7.6.9 - September 2026**
 
     Fixed: Fixed security defects as part of Project Shield.

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-esm-legal-now-assist-contract-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 6
 breadcrumb: [ServiceNow Store - Legal Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,10 @@ Version history for the ServiceNow® Otto for Contract Management Pro applicatio
 
 ## Version history
 
+-   **Version 2.6.1 - October 2026**
+    -   Fixed:
+        -   Fixed an issue where users with AI contract configuration roles could not see the field request table when configuring use case mappings in AI Admin Hub.
+        -   Review analysis cards in the Word Add-in now render correctly when variation details are unavailable, instead of failing to load.
 -   **Version 2.5.2 - September 2026**
     -   Changed:
         -   Contract document-based conversational search queries now return all matching results instead of 10 results. Use show more option to load the remaining results.

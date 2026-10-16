@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-public-sector-tech-product-support-case.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 8
 breadcrumb: [ServiceNow Store - Public Sector Industry version history release notes, ServiceNow Store version history release notes]
 ---
@@ -17,6 +17,18 @@ Version history for the Technology Product Support Case application on the Servi
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 4.5.0 - October 2026 \(Brazil\)**
+
+    No new features are released.
+
+-   **Version 4.4.6 - October 2026 \(Australia\)**
+
+    No new features are released.
+
+-   **Version 4.2.21 - October 2026 \(Zurich\)**
+
+    No new features or behavior changes are introduced in this release.
 
 -   **Version 4.4.5 - September 2026 \(Australia\)**
 

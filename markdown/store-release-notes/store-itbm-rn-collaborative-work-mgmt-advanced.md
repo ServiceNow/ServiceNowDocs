@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-itbm-rn-collaborative-work-mgmt-advanced.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 3
 breadcrumb: [ServiceNow Store - Strategic Portfolio Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -15,6 +15,10 @@ breadcrumb: [ServiceNow Store - Strategic Portfolio Management version history r
 Version history for the ServiceNow® Collaborative Work Management - Advanced application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
+
+-   **Version 2.2.2 - October 2026**
+
+    Changed: Gemma 4 26B A4B IT is now the default LLM \(large language model\) for ServiceNow Otto for Collaborative Work Management \(CWM\) skills, instead of the earlier Now LLM model.
 
 -   **Version 2.2.1 - September 2026**
     -   New:

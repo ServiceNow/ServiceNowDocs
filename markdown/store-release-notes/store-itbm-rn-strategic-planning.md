@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-itbm-rn-strategic-planning.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 28
+last_updated: "2026-10-08"
+reading_time_minutes: 30
 breadcrumb: [ServiceNow Store - Strategic Portfolio Management version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,26 @@ Version history for the Strategic Planning application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 4.19.0 - October 2026**
+    -   New:
+        -   View decisions in the RIDAC L1 menu for the Portfolios and Programs L2 menus.
+        -   In Enterprise Agile Planning \(EAP\), run Scrum and Kanban teams under the same Agile Release Train. Set the planning methodology when you add a team or on the team record.
+        -   Select Maintain above, Maintain below, or Maintain constant as the target type when defining a target to track progress based on keeping a value above, below, or within a specified range.
+        -   Breakdown periods are generated automatically when you create or edit a maintain-type target, with planned values set to the final target value. Adjust the planned values as needed.
+        -   View contextual info messages on the columns for maintain-type targets in Strategic Planning Workspace.
+        -   A warning now appears when you change the Type field on a target with no actuals, indicating that breakdowns and planned values will be regenerated.
+        -   Identify goals and targets across teams and views using the new unique identifier columns, which display a distinct number for each record.
+        -   View and manage smart assessments in Demands, including an assessments list page, assessment form, database view, role-based access, automated business rules for triggering and scoring, and declarative stakeholder actions. Users can view the assessments relevant to them directly in Demands in Portfolio Planning Workspace.
+        -   Configure demand types with dynamic fields that render on the demand record page in Demands, supporting Enterprise-Wide Deployment. Administrators can configure a unique default dashboard for each partition.
+        -   View and manage resource assignments using the new Resource Board view in Demands.
+    -   Changed:
+        -   Existing agile teams in EAP are assigned a Scrum or Kanban planning methodology on upgrade, based on whether the team or its configuration has a business calendar. Teams without one become Kanban and no longer show sprint controls.
+        -   Switching a team in EAP to Kanban cancels its incomplete sprints, including the current sprint. Work items stay assigned to the cancelled sprints. Teams connected to Collaborative Work Management can't switch while they have active or planned sprints.
+        -   Goal and target identifiers now use the OBJ and KR prefixes to align with OKR terminology. A scheduled migration converts existing records from the GOAL and TRGT prefixes, and new records use the updated prefixes.
+    -   Fixed:
+        -   Resolved an issue where Strategic Planning users inherited elevated role access through the out-of-the-box model\_managerrole hierarchy.
+        -   Resolved an issue where selecting a single score indicator visualization on a dashboard displayed the entire record list instead of the filtered subset.
+        -   Resolved an issue where users could not dot-walk in the Personalize Fields pop-up in Strategic Planning Workspace.
 -   **Version 4.18.0 - September 2026**
     -   New:
         -   Status is automatically calculated for targets based on a configurable threshold system property, and rolls up from targets to goals.

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-wsd-workplace-case-management.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 15
 breadcrumb: [ServiceNow Store - Workplace Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,15 @@ Version history for the Workplace Service Delivery Workplace Case Management on 
 
 ## Version history
 
+-   **Version 1.28.23 - October 2026**
+    -   Fixed:
+        -   The Workplace Central calendar view now loads correctly without displaying a "Failed to fetch calendar details" error.
+        -   Preparation Blocker reservations created via Record Producer now use the reservation's actual start time instead of the form submission time.
+        -   Yes/No variable values now display correctly on Workplace Cases — an out-of-box regression causing incorrect values to appear has been resolved.
+        -   The Case Management landing page dashboard now loads with improved performance, eliminating the degradation observed in the workspace view.
+        -   The "Legend" label and "Show Case Details" text in Workplace Case Management are now fully translatable and no longer hardcoded or partially concatenated.
+        -   Date-type variables in the Record Producer portal now register the selected value correctly on first interaction.
+        -   Translation strings in Workplace Case Management now load correctly on first render — the client-side message lookup no longer depends on all message keys being pre-populated.
 -   **Version 1.28.16 - September 2026**
     -   Fixed:
         -   The Workplace Central calendar view now loads correctly without displaying a "Failed to fetch calendar details" error.

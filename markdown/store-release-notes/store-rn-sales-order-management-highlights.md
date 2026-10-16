@@ -18,8 +18,6 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 -   **[Advanced Approval Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-som-advanced-approval-mgmt.md)**  
 Version history for the ServiceNow® Advanced Approval Management application on the ServiceNow Store.
--   **[Advanced Approval Management AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-som-advanced-approval-mgmt-ai.md)**  
-Version history for the ServiceNow® Advanced Approval Management AI application on the ServiceNow Store.
 -   **[AI agents and skills for Quote Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-som-ai-agents-skills-quote-mgmt.md)**  
 Version history for the ServiceNow® AI agents and skills for Quote Management application on the ServiceNow Store.
 -   **[AI sales activity association release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-som-ai-sales-activity-association.md)**  
@@ -122,6 +120,8 @@ Version history for the Sales Quota Data Model application on the ServiceNow Sto
 Version history for the ServiceNow® Sales CRM - Advanced application on the ServiceNow Store.
 -   **[Sales CRM - Prime release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-som-prime.md)**  
 Version history for the ServiceNow® Sales CRM - Prime application on the ServiceNow Store.
+-   **[Advanced Approval Management AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-som-advanced-approval-mgmt-ai.md)**  
+Version history for the ServiceNow® Advanced Approval Management AI application on the ServiceNow Store.
 -   **[ServiceNow Otto for CPQ release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-som-now-assist-cpq.md)**  
 Version history for the ServiceNow Otto for CPQ application on the ServiceNow Store.
 -   **[ServiceNow Otto for Sales Customer Relationship Management for Telecommunications release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-som-now-assist-som.md)**  

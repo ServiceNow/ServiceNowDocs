@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-ai-sgc-ms.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 3
 breadcrumb: [ServiceNow Store - Integration Hub version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
@@ -16,6 +16,10 @@ Version history for the ServiceNow® AI Service Graph Connector for Microsoft ap
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
+-   **Version 3.2.4 - October 2026**
+    -   New
+        -   Discovery of additional Attributes
+        -   tag based discovery
 -   **Version 3.1.19 - September 2026**
     -   New:
         -   Certificate based authentication support for setting up Microsoft connector. Support discovery across multiple Copilot environments through a single connection.

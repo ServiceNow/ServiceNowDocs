@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-esg-urjanet-esg-integration.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Operational Sustainability Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,9 @@ Version history for the Urjanet Operational Sustainability Management integratio
 
 ## Version history
 
+-   **Version 23.1.0 - October 2026 \(Brazil\)**
+    -   Changed: This release includes security enhancements that strengthen access controls across the application.
+    -   Fixed: Query ACL failure on the credential table has been resolved. Users can now access credential records as expected.
 -   **Version 23.0.2 - September 2026 \(Brazil\)**
     -   Changed: This release includes security enhancements that strengthen access controls across the application.
     -   Fixed: Query ACL failure on credential table

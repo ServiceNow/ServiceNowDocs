@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-manufacturing-industrial-standard.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Operational Technology version history release notes, ServiceNow Store version history release notes]
 ---
@@ -16,6 +16,14 @@ Version history for the ServiceNow® Industrial Standard application on the Serv
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
+-   **Version 3.0.1 - October 2026**
+    -   New:
+        -   Work Set Tasks now release sub-tasks based on scheduling exceptions defined in Work Set Standard subactivities
+        -   Add the ability define lock-out/tag-out \(LOTO\) level, required line status, and associated Knowledge articles for Work Set Action subactivities
+    -   Changed:
+        -   Ad-hoc tasks created from standards now have their Due Date timestamps set by default to the end of the current shift
+        -   LOTO Level, required line status, and Knowledge are now available as fields for Actions
+        -   Unassigned Actions can be assigned by users with the Action User role
 -   **Version 2.0.0 - June 2026**
 
     New: Work Set Standards provides an aggregation capability for Standards and Industrial Actions.

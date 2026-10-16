@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-pattern-designer-enhancements.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 3
 breadcrumb: [ServiceNow Store - ITOM Visibility version history release notes, ServiceNow Store - IT Operations Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,10 @@ Version history for the ITOM Pattern Designer Enhancements application on the Se
 
 ## Version history
 
+-   **Version 3.12.1 - October 2026**
+    -   Fixed:
+        -   Commands stored in the Command Validation Tool don't match what patterns execute due to incorrect command escaping. \(PRB2071225\)
+        -   The applicable OS class is resolved per pattern rather than per command. \(PRB2070412\)
 -   **Version 3.12.0 - September 2026**
     -   New:
         -   Added support for direct command execution through the Agent Tool.

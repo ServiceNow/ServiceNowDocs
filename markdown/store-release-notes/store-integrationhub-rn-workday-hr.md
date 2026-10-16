@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-workday-hr.html
 release: store
 topic_type: reference
-last_updated: "2026-08-06"
+last_updated: "2026-10-08"
 reading_time_minutes: 4
 breadcrumb: [ServiceNow Store - Integration Hub version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,12 @@ Version history for the Integration Hub Workday HR Spoke on the ServiceNow Store
 
 ## Version history
 
+-   **Version 3.1.1 - October 2026**
+
+    Added 2 actions:
+
+    -   Look up Payslips Stream
+    -   Look up Authenticated User and Reportees Information. This action handles the personal auth scenario where the authenticated user can view his/herself and optional his/her direct report employee profile
 -   **Version 3.0.2 - August 2026**
 
     Enhanced security for OOTB sample webhook

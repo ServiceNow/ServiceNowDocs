@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-itbm-rn-now-assist-spm.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 10
 breadcrumb: [ServiceNow Store - Strategic Portfolio Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,13 @@ Version history for the ServiceNow Otto for Strategic Portfolio Management appli
 
 ## Version history
 
+-   **Version 9.12.0 - October 2026**
+    -   New:
+        -   Project Data Quality Index \(DQI\): This will allow Project Managers to assess the completeness and accuracy of project data across multiple dimensions and receive actionable suggestions to improve the data quality of projects.
+        -   Introduced Tour Guides to Ask Otto and AI Identified Risks which help users to discover and leverage AI-powered capabilities while walking them through the streamlined process.
+    -   Changed:
+        -   Project Plan Generation includes a preview stage to review AI-extracted or generated tasks from Excel documents before creating projects.
+        -   Goal Insights now supports Maintain type targets \(Maintain Above, Maintain Below, Maintain Constant\) for goals focused on sustaining performance levels along with enhanced prompts.
 -   **Version 9.11.0 - September 2026**
     -   New:
         -   Self-guided “How it works” overview info \(i\) icon forAI-Identified Risks . This explains how AI detects, evaluates, scores, rationale, and the data considered for AI-identified risk.

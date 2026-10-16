@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-manufacturing-repair-claim-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 1
+last_updated: "2026-10-08"
+reading_time_minutes: 2
 breadcrumb: [ServiceNow Store - Operational Technology version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,17 @@ Version history for the Manufacturing Repair Claim Management application on the
 
 ## Version history
 
+-   **Version 5.2.1 - October 2026 \(Brazil\)**
+    -   Changed:
+        -   Introduction of new Open Weight Model: Gemma 4 26B-A4B
+        -   The new Open Weight Model is now supported but is not designated as the default model for all ServiceNow Otto for Manufacturing Commercial Operations \(MCO\) capabilities.
+-   **Version 5.1.3 - October 2026 \(Australia\)**
+    -   Changed:
+        -   Introduction of new Open Weight Model: Gemma 4 26B-A4B
+        -   The new Open Weight Model is now supported but is not designated as the default model for all ServiceNow Otto for Manufacturing Commercial Operations \(MCO\) capabilities.
+-   **Version 5.0.5 - October 2026 \(Zurich\)**
+    -   New: Added CAPA effectiveness as an extension of the goals framework.
+    -   Changed: Improved Product Non-conformance \(PNCC\)/Product Quality Issue \(PQI\) summary readability.
 -   **Version 5.2.0 - September 2026 \(Brazil\)**
 
     No release notes.

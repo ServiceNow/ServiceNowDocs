@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-mcp-server.html
 release: store
 topic_type: reference
-last_updated: "2026-08-06"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Customer Service Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,16 @@ Version history for the ServiceNow® CSM MCP Server application on the ServiceNo
 
 ## Version history
 
+-   **Version 1.4.6 - October 2026**
+    -   New
+        -   6 new GenAI tools for CSM MCP Server, featuring full enterprise security and intelligent plugin gating. These tools deploy only on instances where the com.sn.csm.gen.ai plugin is active—no setup dependencies.
+        -   The tool names are:
+            -   get\_customer\_service\_cases
+            -   get\_case\_tasks
+            -   case\_summarization
+            -   resolution\_notes\_generation
+            -   sentiment\_analysis
+            -   activity\_response
 -   **Version 1.2.0 - August 2026**
 
     New: Sentiment Analysis &amp; Activity Response Generation: Two new GenAI skills for CSM MCP Server, with full enterprise security and intelligent plugin gating. Tools deploy only on instances where the com.sn.csm.gen.ai plugin is active—no setup errors, no unnecessary dependencies.

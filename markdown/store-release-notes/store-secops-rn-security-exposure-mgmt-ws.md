@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-security-exposure-mgmt-ws.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 3
 breadcrumb: [ServiceNow Store - Security Operations Shared apps version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
@@ -15,6 +15,10 @@ breadcrumb: [ServiceNow Store - Security Operations Shared apps version history 
 Version history for the ServiceNow® Security Exposure Management Workspace application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
+
+-   **Version 30.8.2 - October 2026**
+
+    Fixed: An issue where the Unassigned findings section on Cloud Security Overview drilled through without the cloud-asset filter, causing a count mismatch with the underlying list.
 
 -   **Version 30.7.6 - September 2026 \(USEM\)**
     -   Fixed:

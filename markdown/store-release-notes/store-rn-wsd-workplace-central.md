@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-wsd-workplace-central.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 12
 breadcrumb: [ServiceNow Store - Workplace Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,13 @@ Version history for the WSD Workplace Central application on the ServiceNow Stor
 
 ## Version history
 
+-   **Version 1.16.30 - October 2026**
+    -   Fixed:
+        -   Translation strings throughout Workplace Central now display correctly across all supported languages.
+        -   The dashboard subtitle in Workplace Central is now fully translatable and no longer hardcoded.
+        -   The Workplace Central calendar view now loads correctly without displaying a "Failed to fetch calendar details" error.
+        -   The Case Management landing page dashboard now loads with improved performance, eliminating the degradation observed in the workspace view.
+        -   Move cases on the schedule calendar view can now be dragged to a different date without triggering an error.
 -   **Version 1.16.21 - September 2026**
     -   Fixed:
         -   Translation strings throughout Workplace Central now display correctly across all supported languages.

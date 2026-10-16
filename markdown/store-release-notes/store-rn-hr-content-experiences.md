@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-hr-content-experiences.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 3
+last_updated: "2026-10-08"
+reading_time_minutes: 4
 breadcrumb: [ServiceNow Store - HR Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -17,6 +17,14 @@ Version history for the Content Experiences application on the ServiceNow Store.
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 33.2.0 - October 2026 \(Australia\)**
+
+    Updated the support the latest version of the dependent apps.
+
+-   **Version 32.5.1 - October 2026 \(Zurich\)**
+
+    Updated the support the latest version of the dependent apps.
 
 -   **Version 33.1.1 - September 2026**
 

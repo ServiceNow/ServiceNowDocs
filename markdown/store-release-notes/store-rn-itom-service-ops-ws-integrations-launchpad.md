@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-service-ops-ws-integrations-launchpad.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 4
+last_updated: "2026-10-08"
+reading_time_minutes: 5
 breadcrumb: [ServiceNow Store - ITOM AIOps version history release notes, ServiceNow Store - IT Operations Management version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,10 @@ Version history for the ITOM Service Operations Workspace Integrations launchpad
 
 ## Version history
 
+-   **Version 27.4.2 - October 2026**
+    -   New: Added Service Otto support for SolarWinds, SCOM, Zabbix, Nagios, vCenter pull connectors
+    -   Changed: Enabled Activate with AI for all Health Log Analytics Data Inputs.
+    -   Fixed: PRB2066141 - Service Operations Workspace - "Health Log Analytics detected anomalies but didn't generate alerts in the last 24 hours" warning will not clear as name of Service exceeds 100 characters
 -   **Version 27.3.5 - September 2026**
     -   New: Added Service Otto support for SolarWinds, SCOM, Zabbix, Nagios, vCenter pull connectors
     -   Changed: Enabled Activate with AI for all Health Log Analytics Data Inputs.

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-threat-intel-common.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 5
 breadcrumb: [ServiceNow Store - Security Incident Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
@@ -17,6 +17,10 @@ Version history for the Security Operations Threat Intelligence Support Common a
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 13.8.6 - October 2026**
+
+    Fixed: Resolved a performance issue where MITRE technique rollup processing ran unnecessary database queries and background jobs for closed incidents. Rollups for closed incidents are now skipped and database operations are batched, reducing latency for customers with large incident volumes.
 
 -   **Version 13.8.0 - September 2026**
     -   New: Integrated Mitre Atlas

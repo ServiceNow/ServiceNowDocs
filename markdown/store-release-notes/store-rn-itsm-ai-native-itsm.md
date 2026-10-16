@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itsm-ai-native-itsm.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 3
 breadcrumb: [ServiceNow Store - IT Service Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -16,6 +16,9 @@ Version history for the ServiceNow® Simplified IT Service Management applicatio
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
+-   **Version 3.4.0 - October 2026**
+    -   Changed
+        -   Configuration of AI agents on DARE harness: AI agents for the IT service desk experience and Change Management workflows configuration now run on the DARE \(Decompose, Act, Recurse &amp; Execute\) harness following backend architecture updates.
 -   **Version 3.3.1 - September 2026**
     -   New:
         -   AppSee telemetry integration

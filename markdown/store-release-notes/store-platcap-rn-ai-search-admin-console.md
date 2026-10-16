@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-ai-search-admin-console.html
 release: store
 topic_type: reference
-last_updated: "2026-08-06"
+last_updated: "2026-10-08"
 reading_time_minutes: 6
 breadcrumb: [ServiceNow Store - Other ServiceNow AI Platform Capabilities applications version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---

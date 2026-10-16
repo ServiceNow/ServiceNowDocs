@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-hr-learning-core.html
 release: store
 topic_type: reference
-last_updated: "2026-08-06"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - HR Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -19,6 +19,12 @@ Version history for the Learning Core on the ServiceNow Store.
 **Note:** To automatically install all the Safe Workplace applications at once, download the ServiceNow® Safe Workplace suite application.
 
 ## Version history
+
+-   **Version 9.11.0 - October 2026**
+
+    Enabled Now Assist Engine \(NAE\) support for Learning Core tables, improving AI-assisted insights on training data.
+
+    A set of stability and data-integrity fixes are available across the Cornerstone integration.
 
 -   **Version 9.10.2 - August 2026**
 

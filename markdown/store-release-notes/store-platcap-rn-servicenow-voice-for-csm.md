@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-servicenow-voice-for-csm.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 2
 breadcrumb: [ServiceNow Voice version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,11 @@ Version history for the ServiceNow AI Platform capabilities ServiceNow Voice for
 
 ## Version history
 
+-   **Version 3.13.0 - October 2026**
+    -   Fixed:
+        -   Fixed an issue where the base system Amazon Connect inbound contact flow, imported from the Import Amazon Connect Contact Flows page, failed with ReferenceError: "VoiceConstants" is not defined,and didn't create interactions.
+        -   Fixed a security issue that could expose customer phone authentication PINs to users without the required access.
+    -   Changed: Simplified the demo inbound contact flow for AI-enabled CSM Voice with Amazon Connect by removing blocks that bypassed the Amazon Lex and operation handler logic.
 -   **Version 3.12.4 - September 2026**
 
     Changed: Updated the 'Setup PIN' catalog item for Angular portal compatibility to replace deprecated UI16 catalog experience.

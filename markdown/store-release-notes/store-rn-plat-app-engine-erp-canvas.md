@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-plat-app-engine-erp-canvas.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 8
 breadcrumb: [ServiceNow Store - ServiceNow AI Platform App Engine version history release notes, ServiceNow Store version history release notes]
 ---
@@ -17,6 +17,10 @@ Version history for the ERP Canvas on the ServiceNow Store.
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 10.7.1 - October 2026**
+
+    Support for Workday RAAS.
 
 -   **Version 10.6.0 - September 2026**
     -   Support for Oracle E-Business Suite

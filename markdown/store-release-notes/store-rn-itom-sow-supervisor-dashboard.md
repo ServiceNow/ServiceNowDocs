@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-sow-supervisor-dashboard.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 3
 breadcrumb: [ServiceNow Store - IT Operations Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,9 @@ Version history for the ServiceNow® Service Operations Workspace Supervisor Das
 
 ## Version history
 
+-   **Version 1.3.8 - October 2026**
+    -   New: Direct access to AI Specialist activity and auto-resolved alerts in Express List
+    -   Removed: The AI Supervision tab is removed, and supervision work is being done in the Express List
 -   **Version 1.3.7 - September 2026**
     -   New: Direct access to AI Specialist activity and auto-resolved alerts in Express List
     -   Removed: The AI Supervision tab is removed, and supervision work is being done in the Express List

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-hr-agent-workspace-hr-case-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 15
+last_updated: "2026-10-08"
+reading_time_minutes: 16
 breadcrumb: [ServiceNow Store - HR Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,16 @@ Version history for the Agent Workspace for HR Case Management application on th
 
 ## Version history
 
+-   **Version 4.6.5 - October 2026**
+    -   Fixed:
+        -   Multiple uploads on sn\_hr\_ef\_employee\_document are disabled via property, preventing multiple attachments on a single EDM record.Only a single attachment can now be uploaded to an employee document record, so duplicate documents no longer accumulate on the same record.
+        -   Agents can send an email to an employee's manager from At a Glance on a case without needing additional HR profile permissions
+        -   When creating a child case, the HR Service list reliably shows the valid services even when the parent case's Opened For and Subject Person are different people
+        -   Dependent choice fields refresh correctly each time the HR Service is changed, and are briefly held while the new options load so a quick selection is never lost
+        -   Capability-based HR Services, such as Exam and Performance, appear whether the agent selects the COE or the Subject Person first
+        -   The Start Work action on playbook cards is now available only to agents with permission to update the record, for both HR cases and HR tasks
+        -   Case creation no longer errors when the COE is selected before the Subject Person, or when a previously selected field is cleared
+        -   The AI agent worker configuration now displays on the HR Agent Workspace home page
 -   **Version 4.6.4 - September 2026**
     -   Fixed:
         -   Multiple uploads on sn\_hr\_ef\_employee\_document are disabled via property, preventing multiple attachments on a single EDM record.Only a single attachment can now be uploaded to an employee document record, so duplicate documents no longer accumulate on the same record.

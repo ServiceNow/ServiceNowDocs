@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-fsm-shift-scheduling.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 2
 breadcrumb: [ServiceNow Store - Field Service Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -17,6 +17,14 @@ Version history for the Shift Scheduling for Field Service application on the Se
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 8.1.3 - October 2026**
+
+    Compatibility changes
+
+-   **Version 7.3.5 - October 2026 \(Australia\)**
+
+    Compatibility changes
 
 -   **Version 8.0.11 - September 2026**
     -   What's New:

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-ai-sgc-amazon.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 2
 breadcrumb: [ServiceNow Store - Other ServiceNow AI Platform Capabilities applications version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
@@ -15,6 +15,10 @@ breadcrumb: [ServiceNow Store - Other ServiceNow AI Platform Capabilities applic
 Version history for the ServiceNow® AI Service Graph Connector for Amazon application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
+
+-   **Version 2.2.5 - October 2026**
+
+    New: Integration to support discovery of assets from Amazon Quicksuitediscovery of tags and additonal attributes.
 
 -   **Version 2.1.9 - September 2026**
     -   New:

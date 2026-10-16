@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-cmdb-
 release: store
 topic_type: reference
 last_updated: "2025-10-16"
-reading_time_minutes: 8
+reading_time_minutes: 9
 breadcrumb: [ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -16,6 +16,8 @@ Version history for Configuration Management Database \(CMDB\) releases on the S
 
 Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store.
 
+-   **[AI Service Graph Connector for Databricks release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-platcap-ai-sgc-databricks.md)**  
+Version history for the ServiceNow® AI Service Graph Connector for Databricks application on the ServiceNow Store.
 -   **[AI Service Graph Connector for HuggingFace release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-platcap-rn-ai-sgc-huggingface.md)**  
 Version history for the ServiceNow® AI Service Graph Connector for HuggingFace application on the ServiceNow Store.
 -   **[AI Service Graph Connector for LangGraph release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-platcap-rn-ai-service-graph-connector-langgraph.md)**  
@@ -80,6 +82,10 @@ Version history for the Service Graph Connector for Active Directory application
 Version history for the Service Graph Connector for Akamai API Security application on the ServiceNow Store.
 -   **[Service Graph Connector for AWS release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-platcap-rn-service-graph-connector-aws.md)**  
 Version history for the Service Graph Connector for AWS application on the ServiceNow Store.
+-   **[Service Graph Connector for BlueCat release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-platcap-rn-service-graph-connector-bluecat.md)**  
+Version history for the ServiceNow® Service Graph Connector for BlueCat application on the ServiceNow Store.
+-   **[Service Graph Connector for Confluent release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-platcap-rn-service-graph-connector-confluent.md)**  
+Version history for the ServiceNow® Service Graph Connector for Confluent application on the ServiceNow Store.
 -   **[Service Graph Connector for ExtraHop release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-platcap-rn-service-graph-connector-extrahop.md)**  
 Version history for the ServiceNow AI Platform capabilities Service Graph Connector for ExtraHop on the ServiceNow Store.
 -   **[Service Graph Connector for Fortinet release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-platcap-rn-sgc-fortinet.md)**  
@@ -106,6 +112,10 @@ Version history for the Service Graph Connector for Microsoft Defender Endpoint 
 Version history for the ServiceNow AI Platform capabilities Service Graph Connector for Microsoft Intune on the ServiceNow Store.
 -   **[Service Graph Connector for Microsoft SCCM release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-platcap-rn-service-graph-connector-microsoft-sccm.md)**  
 Version history for the ServiceNow AI Platform capabilities Service Graph Connector for Microsoft SCCM on the ServiceNow Store.
+-   **[Service Graph Connector for Nautobot release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-platcap-rn-service-graph-connector-nautobot.md)**  
+Version history for the ServiceNow® Service Graph Connector for Nautobot application on the ServiceNow Store.
+-   **[Service Graph Connector for NetBrain release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-cmdb-sgc-netbrain.md)**  
+Version history for the ServiceNow® Service Graph Connector for NetBrain application on the ServiceNow Store.
 -   **[Service Graph Connector for Netskope release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-integrationhub-rn-service-graph-connector-netskope.md)**  
 Version history for the Service Graph Connector for Netskope application on the ServiceNow Store.
 -   **[Service Graph Connector for NOKIA Altiplano release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-platcap-rn-service-graph-connector-nokia-altiplano.md)**  
@@ -120,6 +130,8 @@ Version history for the Service Graph Connector for Observability - Dynatrace ap
 Version history for the ServiceNow® Service Graph Connector for Observability - Dynatrace SaaS application on the ServiceNow Store.
 -   **[Service Graph Connector for Observability - New Relic release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-platcap-rn-service-graph-connector-obs-new-relic.md)**  
 Version history for the Service Graph Connector for Observability - New Relic application on the ServiceNow Store.
+-   **[Service Graph Connector for Omnissa Workspace ONE UEM release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-platcap-rn-service-graph-connector-omnissa-workspace-one-uem.md)**  
+Version history for the ServiceNow® Service Graph Connector for Omnissa Workspace ONE UEM application on the ServiceNow Store.
 -   **[Service Graph Connector for OpenTelemetry release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-platcap-rn-service-graph-connector-opentelemetry.md)**  
 Version history for the Service Graph Connector for OpenTelemetry application on the ServiceNow Store.
 -   **[Service Graph Connector for Qualys release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-platcap-rn-service-graph-connector-qualys.md)**  
@@ -146,6 +158,8 @@ Version history for the Service Graph Connector for VMware Workspace ONE UEM on 
 Version history for the Service Graph Connector for Wiz on the ServiceNow Store.
 -   **[Service Graph Connector Support Tools release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-platcap-rn-service-graph-connector-support-tools.md)**  
 Version history for the Service Graph Connector Support Tools application on the ServiceNow Store.
+-   **[Service Graph Experience release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-platcap-rn-service-graph-experience.md)**  
+Version history for the ServiceNow® Service Graph Experience application on the ServiceNow Store.
 -   **[Service Graph Workspace - Content release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-cmdb-rn-service-graph-ws-content.md)**  
 Version history for the ServiceNow® Service Graph Workspace - Content application on the ServiceNow Store.
 -   **[ServiceNow Otto for CMDB release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-cmdb-rn-now-assist-cmdb.md)**  

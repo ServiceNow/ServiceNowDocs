@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-plat-sec-rn-data-privacy.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 2
+last_updated: "2026-10-08"
+reading_time_minutes: 3
 breadcrumb: [ServiceNow Store - ServiceNow AI Platform Security version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,9 @@ Version history for the Data Privacy application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 9.1.1 - October 2026**
+    -   Admins can now configure policies for job-based anonymization - data/tables and catalog variables without using Active Data Patterns &amp; Target tables: Flexibility to define anonymization policies for jobs and catalog items without referencing Active Data Patterns or Target Tables.
+    -   AICT Default Anonymization Policy to scrub sensitive data in traces and spans: Default anonymization policy to anonymize sensitive data in AICT span tables. The policy is defined on any AICT instance with DP or Vault license; requires user to manually trigger anonymization job before policy can act on sensitive data in the AICT tables.
 -   **Version 9.0.2 - September 2026**
 
     New: Admins can now select child tables from different scopes when configuring policies. This enables more flexible policy management across parent and inherited child tables, allowing separate handling of inherited child table fields.

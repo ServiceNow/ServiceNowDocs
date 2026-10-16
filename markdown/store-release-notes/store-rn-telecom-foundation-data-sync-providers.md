@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-telecom-foundation-data-sync-providers.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 4
+last_updated: "2026-10-08"
+reading_time_minutes: 6
 breadcrumb: [ServiceNow Store - Technology Provider Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -17,6 +17,61 @@ Version history for the Foundation Data Sync for Providers application on the Se
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 2.3.31 - October 2026 \(Brazil\)**
+
+    Service Exchange Health v2.3.31
+
+    Fixed: Service Exchange Admin \(sn\_sb.admin\) can now deactivate a scan check from the scan\_check table view. \(PRB2082959\)
+
+    Service Exchange for Consumers v2.3.31
+
+    Fixed: Intermittent onboarding issues introduced in version 2.3.29 have been resolved. \(PRB2081177\)
+
+-   **Version 2.4.17 - October 2026**
+
+    Foundation Data Sync v2.4.15
+
+    Changed: Improved the attachment sync strategy between provider and consumer.
+
+    Service Exchange Remote Process Sync Transport v2.4.15
+
+    Fixed
+
+    -   Tightened OAuth client-credential token scope, limiting what a token can access. \(PRB2067950\)
+    -   Removed the snc\_internal role requirement from the REST API that failed if the role was missing \(PRB2076065\)
+    Service Exchange Health v2.4.15
+
+    -   New
+        -   When a connection goes down, some known issues are now auto-diagnosed and fixed, with the outcome logged on the resulting health issue.
+        -   Connection health now tracks slow/down occurrences, resetting monthly.
+        -   Overridden consumer updates now generate a visible error record instead of failing silently.
+        -   Existing error code 999 unknown health issues converted to known issue types
+    -   Changed: Stale slow/down status indicators now clear automatically once a connection recovers.
+    -   Fixed: Fixed translation issues in scan-suite filtering, offboarding, and a connection status label. \(PRB2038126\)
+
+    Service Exchange for Consumers v2.4.15
+
+    -   New: Error code 999 health issues now include more context on what's affected.
+    -   Fixed
+        -   Fixed a localization issue found during a routine scan. \(PRB2083235\)
+        -   Fixed embedded images appearing broken, or as raw HTML, when synced to the provider. \(PRB2076772\)
+    Service Exchange for Providers v2.4.15
+
+    -   New: Existing error code 999 unknown health issues converted to known issue types
+    -   Fixed: Fixed catalog item variable-set order not carrying over when published as a Remote Record Producer. \(PRB2074741\)
+    Service Exchange Base v2.4.15
+
+    -   New
+        -   Admins can upgrade a connection from legacy OAuth to Client Credentials directly from the connection record.
+        -   Sync job frequency is now configurable via a system property instead of fixed.
+    -   Fixed
+        -   Tightened OAuth client-credential token scope, limiting what a token can access. \(PRB2067950\)
+        -   Fixed an issue blocking simultaneous inbound and outbound transforms on the same field. \(PRB2075724\)
+        -   Fixed a Remote Record Producer publish issue where a dependent variable kept pointing to the prior version. \(PRB2074843\)
+        -   Fixed a missing translation label on the Case table. \(PRB2083234\)
+        -   The Service Exchange Admins group is no longer selectable as a task/problem assignment group. \(PRB2079342\)
+    v2.4.15 Foundation Data Sync for Consumers Foundation Data Sync for Providers, Service Exchange Order Management for Providers Transporter: These releases update the application to version 2.4.15 with no functional changes outside of the mentions above.
 
 -   **Version 2.4.10 - September 2026**
     -   Foundation Data Sync for Providers — v2.4.10

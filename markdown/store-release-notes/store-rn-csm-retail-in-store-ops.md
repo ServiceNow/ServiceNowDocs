@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-retail-in-store-ops.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 1
+last_updated: "2026-10-08"
+reading_time_minutes: 2
 breadcrumb: [ServiceNow Store - Retail version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,12 @@ Version history for the Retail In-Store Operations application on the ServiceNow
 
 ## Version history
 
+-   **Version 5.1.0 - October 2026 \(Brazil\)**
+    -   Changed
+        -   Changes have been made to replace usage of the “Origin” field with the new “Template item” field.
+        -   Moved the "My Work" screen segment to Retail Mobile. Original sysid retained to preserve any customer changes.
+        -   Added support for  Ad-hoc case and task creation via RSM Mobile \(Report an Issue\)
+        -   Fulfilment via RSM Mobile and Retail Service Portal for both plan-based with embedded questionnaires \(in-store plan\) and ad-hoc cases/tasks
 -   **Version 5.0.6 - September 2026 \(Brazil\)**
 
     New: Java 21 compatibility

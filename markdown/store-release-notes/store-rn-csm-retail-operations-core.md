@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-retail-operations-core.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 4
+last_updated: "2026-10-08"
+reading_time_minutes: 5
 breadcrumb: [ServiceNow Store - Retail version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,20 @@ Version history for the Retail Core on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 8.1.0 - October 2026 \(Brazil\)**
+    -   New
+        -   Retail organization lookups can now be scoped to the current user's hierarchy, via a reusable hierarchy path query on RetailOrganizationUtilsSNC
+        -   Plan progress summary dashboard with complete plan hierarchy tracking added on a single page replacing the previous drill-down-only tab experience.
+        -   A new "Schedule Occurrence" column has been added to the Retail Case table, referencing to the "Schedule Occurrence" table.
+        -   Integration with Strategic Portfolio Management \(SPM\) through which all store opening, closing, relocation and refurbishment project tasks to be performed at the store can be made visible to store employees on Retail portal=
+    -   Changed
+        -   Task pages in the SPM-RO portal now show a flat breadcrumb trail showing Task name instead of showing Task number
+        -   Added a plugin-gated "In-Store Ops Tasks" tab to the RSM portal Home page and Cases &amp; Tasks page
+    -   Fixed: The All, Open, Closed, and Overdue tab labels in the Track Plan dashboard now display in the user's locale.
+-   **Version 7.6.1 - October 2026 \(Australia\)**
+    -   New: Retail organization lookups can now be scoped to the current user's hierarchy, via a reusable hierarchy path query on RetailOrganizationUtilsSNC
+    -   Changed: Task pages in the SPM-RO portal now show a flat breadcrumb trail showing Task name \(Home &gt;\[Store\] &gt; \[Project\] &gt; \[Task\]\) instead of showing Task number \(Home &gt; \[Store\] &gt; \[Project\] &gt; \[CSPRJTAGTASK0001032\]\)
+    -   Fixed: The All, Open, Closed, and Overdue tab labels in the Track Plan dashboard now display in the user's locale.
 -   **Version 8.0.3 - September 2026 \(Brazil\)**
 
     New: Java 21 compatibility

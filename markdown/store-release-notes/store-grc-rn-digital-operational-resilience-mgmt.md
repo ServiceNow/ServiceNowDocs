@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-grc-rn-digital-operational-resilience-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 4
 breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,9 @@ Version history for the Digital Operational Resilience Management application on
 
 ## Version history
 
+-   **Version 23.1.0 - October 2026 \(Brazil\)**
+    -   Changed: Removed country code prefix from third-party identification codes to align with EBA requirements
+    -   Fixed: Resolved duplicate supply chain creation when establishing DORA contracts \(PRB2078675\)
 -   **Version 23.0.2 - September 2026 \(Brazil\)**
     -   New: Added scheduled quarterly ROI CSV reporting.
     -   Changed:

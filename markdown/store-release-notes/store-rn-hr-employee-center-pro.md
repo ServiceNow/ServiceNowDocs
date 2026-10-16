@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-hr-employee-center-pro.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 9
 breadcrumb: [ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -17,6 +17,14 @@ Version history for the Employee Center Pro application on the ServiceNow Store.
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 42.1.11 - October 2026 \(Australia\)**
+
+    Updated the support the latest version of the dependent apps.
+
+-   **Version 38.3.9 - October 2026 \(Zurich\)**
+
+    Updated the support the latest version of the dependent apps.
 
 -   **Version 42.1.6 - September 2026 \(Australia\)**
 

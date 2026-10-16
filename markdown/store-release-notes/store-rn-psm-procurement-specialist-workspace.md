@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-psm-procurement-specialist-workspace.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 4
 breadcrumb: [ServiceNow Store - Sourcing and Procurement Operations version history release notes, ServiceNow Store - Source-to-Pay Operations version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,11 @@ Version history for the Procurement Specialist Workspace application on the Serv
 
 ## Version history
 
+-   **Version 21.0.3 - October 2026 \(Australia\)**
+    -   Changed:
+        -   Updated risk factor rendering so that Restricted and Not Restricted values apply only to the Origin Country risk factor; all other risk factors are displayed as percentiles.
+        -   Updated the performance factor threshold to support values greater than 100.
+        -   Updated button labels and improved error messaging for invalid values received from FedEx Dataworks.
 -   **Version 21.0.0 - September 2026 \(Australia\)**
     -   New:
         -   Admins can access SPO Product Admin Home as a single entry point.

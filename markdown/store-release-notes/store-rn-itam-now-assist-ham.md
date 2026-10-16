@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itam-now-assist-ham.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 4
 breadcrumb: [ServiceNow Store - IT Asset Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,10 @@ Version history for the ServiceNow Otto for Hardware Asset Management \(HAM\) on
 
 ## Version history
 
+-   **Version 5.1.0 - October 2026**
+    -   Updates in this version:
+        -   Fixed issues in mixed AI Native SKU scenarios
+        -   Improved compatibility with third-party LLM models including Gemma
 -   **Version 5.0.1 - September 2026**
 
     This version adds support for installing and upgrading ServiceNow Otto for Hardware Asset Management through the Hardware Asset Management Product Hub feature.

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-itbm-rn-resource-mgmt-workspace.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 10
 breadcrumb: [ServiceNow Store - Strategic Portfolio Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,13 @@ Version history for the Resource Management Workspace application on the Service
 
 ## Version history
 
+-   **Version 5.11.1 - October 2026**
+    -   New:
+        -   End a resource assignment early that the planned end date. This action is available for assignments with resource data and works across Project Workspace, Resource Management Workspace, and Demand workspace.
+        -   View and manage resource assignments directly from the Demand Workspace.
+    -   Fixed:
+        -   Users can now change the resource table name on the resource card.
+        -   Realign assignments to task is disabled for project hierarchy when autosync is enabled, and enabled for non-project tasks such as demand, epic.
 -   **Version 5.10.1 - September 2026**
     -   Fixed:
         -   You can now edit planned effort for periods without actuals, even when the editing property is disabled. Heatmap cells follow the same behavior and remain editable unless actuals exist for the period.

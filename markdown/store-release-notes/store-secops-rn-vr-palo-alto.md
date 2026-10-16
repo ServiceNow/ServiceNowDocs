@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-vr-palo-alto.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 6
 breadcrumb: [ServiceNow Store - Vulnerability Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
@@ -17,6 +17,10 @@ Version history for the Vulnerability Response Integration with Palo Alto Networ
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 30.5.1 - October 2026**
+
+    Fixed:An issue where Prisma Cloud Compute hosts without cloud metadata resource IDs created a new duplicate unmatched configuration item \(CI\) record on every discovery run.
 
 -   **Version 30.4.1 - September 2026 \(USEM\)**
 

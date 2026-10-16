@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-esm-contract-mgmt-pro-prime.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 2
 breadcrumb: [ServiceNow Store - Legal Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,12 @@ Version history for the ServiceNow® Contract Management Pro - Prime application
 
 ## Version history
 
+-   **Version 1.0.23 - October 2026**
+    -   Changed:
+        -   In conversational search, introduced an option to preform in-document search after the contract metadata search results are available.
+        -   Contract document-based conversational search queries now return all matching results instead of 10 results. Use show more option to load the remaining results.
+        -   Contract Management Pro - Prime now uses the latest versions of its dependent platform applications for the September 2026 release.
+    -   Fixed: Fixed plugin names and icons for ServiceNow Otto for Contract Management Pro in AI Admin Hub.
 -   **Version 1.0.21 - September 2026**
     -   Changed:
         -   In conversational search, introduced an option to preform in-document search after the contract metadata search results are available.

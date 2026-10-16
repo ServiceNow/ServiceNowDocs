@@ -18,6 +18,10 @@ Version history for the ServiceNow CLI on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 1.2.0 - October 2026**
+
+    Support for Oauth and proxy
+
 -   **Version 1.1.3 - August 2025**
 
     Critical bug fixes.

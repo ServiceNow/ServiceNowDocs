@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-service-ops-workspace-itom-apps.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 21
+last_updated: "2026-10-08"
+reading_time_minutes: 22
 breadcrumb: [ServiceNow Store - IT Operations Management version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,20 @@ Version history for the Service Operations Workspace ITOM Apps on the ServiceNow
 
 ## Version history
 
+-   **Version 27.2.51 - October 2026**
+    -   Fixed:
+        -   Service Dashboard: Fixed global views becoming unselectable after a private view was previously selected and improved accessibility.
+        -   Integration Launchpad: Fixed  the Install With Otto button, which was not launching the agent
+        -   Express list:
+            -   Active search filter- new alerts that stream into the live list are now correctly filtered
+            -   The Express List tab is now responsive to a high volume of live alerts
+            -   Live-update timing- the minimum default value is updated
+            -   The number of redundant API calls that trigger when opening the alert preview panel is reduced
+            -   Fixed the issue with saved views not updating correctly after a refresh
+            -   Fixed the issue with saved views not retaining the selected display mode \(extended vs. essential\)
+            -   Tooltip appearance and removal issue fixed
+        -   AI Insight panel now hides when Generative AI is not installed
+        -   AIOps Supervisor homepage- supports the action of adding the AI specialist to a team
 -   **Version 27.2.24 - September 2026**
     -   New:
         -   Improved Push Connector credential setup. Users can select or generate Basic, API key, or OAuth credentials directly in the Push Connector setup form, and the UI now surfaces the last error message, payload, and timestamp for troubleshooting.

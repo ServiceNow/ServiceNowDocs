@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-telecom-tsom-event-mgmt-core.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Telecommunications Service Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -15,6 +15,10 @@ breadcrumb: [ServiceNow Store - Telecommunications Service Management version hi
 Version history for the ServiceNow® TSOM Event Management Core application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
+
+-   **Version 4.1.2 - October 2026**
+
+    This is a maintenance release for the assurance content pack, which provides telecom dashboards, key performance indicators, and the assurance administrator role. Package metadata and engine support are aligned with the October 2026 store release. Assurance dashboards and indicators are unchanged from the September 2026 release.
 
 -   **Version 4.0.6 - September 2026**
 

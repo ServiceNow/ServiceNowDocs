@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-grc-impact-value-mgmt-irm.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,9 @@ Version history for the Impact Value Management - IRM on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 4.0.1 - October 2026**
+    -   As part of this update, the IRM data collection apps are renamed toGovernance, Risk, and Compliance aligned to Product Line. This change only affects how the apps are presented; the underlying data collection functionality itself remains unchanged.
+    -   Compatible: Zurich, Australia, Brazil
 -   **Version 3.1.0 - September 2026**
 
     Compatible: Zurich, Australia, Brazil

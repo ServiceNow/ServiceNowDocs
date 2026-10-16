@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-event-mgmt-connectors.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 11
+last_updated: "2026-10-08"
+reading_time_minutes: 12
 breadcrumb: [ServiceNow Store - ITOM AIOps version history release notes, ServiceNow Store - IT Operations Management version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,17 @@ Version history for the IT Operations Management Event Management Connectors on 
 
 ## Version history
 
+-   **Version 2.22.2 - October 2026**
+    -   Changed:
+        -   Event Management Connectors app now uses Fluent-based code and the ServiceNow SDK for AI-native development and faster releases.
+        -   Added support for Datadog Work Items \(case management\) in the Datadog connector.
+        -   Enhanced the Dynatrace Event connector to support the new Dynatrace workflow \(3rd Gen\).
+    -   Fixed:
+        -   PRB2034941    logicMonitor bi-directional Pull connector MID script testConnection does not work
+        -   PRB2019709    EM Push Connectors in Subprod environments not retaining URL Parameter value specific to instance after cloneback form Production Environment
+        -   PRB2088497    Zabbix Pull Connector populates u\_event\_name using the host name
+        -   PRB2056053    ITOM EM Azure Monitor OOTB Connector + ITOM Discovery - No cmdb\_ci\_azure\_subscription CIs
+        -   PRB2062173    SolarWinds Custom Table Poller events with a specific network object type are not created in Event Management
 -   **Version 2.21.4 - September 2026**
     -   Changed: Add support for JSON api in vRealize connector
     -   Fixed:

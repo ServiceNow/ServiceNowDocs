@@ -6,7 +6,7 @@ canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-pu
 release: store
 topic_type: reference
 last_updated: "2025-05-01"
-reading_time_minutes: 2
+reading_time_minutes: 3
 breadcrumb: [ServiceNow Store version history release notes]
 ---
 
@@ -26,8 +26,10 @@ Version history for the ServiceNow® CSM Investigative Case Management applicati
 Version history for the ServiceNow® GOV.UK Developer Toolkit application on the ServiceNow Store.
 -   **[Grants Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-integrationhub-rn-grants-mgmt-playbook.md)**  
 Version history for the Grants Management application on the ServiceNow Store.
--   **[Information Request Playbook release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-public-sector-info-request-playbook.md)**  
-Version history for the Information Request Playbook on the ServiceNow Store.
+-   **[Identity Provider Integration release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-public-sector-identity-provider-int.md)**  
+Version history for the ServiceNow® Identity Provider Integration application on the ServiceNow Store.
+-   **[Information Request Administration release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-public-sector-info-request-playbook.md)**  
+Version history for the Information Request Administration on the ServiceNow Store.
 -   **[Investigative Case Management Foundation release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-public-sector-investigative-case-mgmt-foundation.md)**  
 Version history for the ServiceNow® Investigative Case Management Foundation application on the ServiceNow Store.
 -   **[License and Permit Playbook release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm-license-permit-playbook.md)**  
@@ -42,6 +44,8 @@ Version history for the ServiceNow® PSDS - Foundation application on the Servic
 Version history for the ServiceNow® PSDS - Prime application on the ServiceNow Store.
 -   **[PSDS Investigative Case Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-public-sector-psds-investigative-case-mgmt.md)**  
 Version history for the ServiceNow® PSDS Investigative Case Management application on the ServiceNow Store.
+-   **[PSDS Urban Planning and Permitting Administration release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-public-sector-psds-urban-planning-permitting-admin.md)**  
+Version history for the ServiceNow® PSDS Urban Planning and Permitting Administration application on the ServiceNow Store.
 -   **[Public Sector Digital Services Core release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-csm-public-sector-digital-services-core.md)**  
 Version history for the Public Sector Digital Services Core application on the ServiceNow Store.
 -   **[Service Applicant Information release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-public-sector-service-applicant-info.md)**  
@@ -50,8 +54,8 @@ Version history for the Service Applicant Information application on the Service
 Version history for the ServiceNow® Service Exchange - Advanced application on the ServiceNow Store.
 -   **[Service Exchange - Prime release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-industry-service-exchange-prime.md)**  
 Version history for the ServiceNow® Service Exchange - Prime application on the ServiceNow Store.
--   **[Service Request Playbook release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-ps-service-request-playbook.md)**  
-Version history for the Service Request Playbook application on the ServiceNow Store.
+-   **[Service Request Administration release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-ps-service-request-playbook.md)**  
+Version history for the Service Request Administration application on the ServiceNow Store.
 -   **[Service Applicant Program Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-public-sector-service-applicant-program-mgmt.md)**  
 Version history for the Service Applicant Program Management application on the ServiceNow Store.
 -   **[ServiceNow Otto for Manufacturing Commercial Operations \(MCO\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-industry-now-assist-mco.md)**  
@@ -64,6 +68,8 @@ Version history for the ServiceNow® ServiceNow Otto for RSM application on the 
 Version history for the Social Benefits Playbook application on the ServiceNow Store.
 -   **[Technology Product Support Case release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-public-sector-tech-product-support-case.md)**  
 Version history for the Technology Product Support Case application on the ServiceNow Store.
+-   **[Urban Planning Core release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-public-sector-urban-planning-core.md)**  
+Version history for the ServiceNow® Urban Planning Core application on the ServiceNow Store.
 
 **Parent Topic:**[ServiceNow Store version history release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/sn-store-release-notes.md)
 

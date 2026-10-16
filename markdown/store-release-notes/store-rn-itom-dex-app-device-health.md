@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-dex-app-device-health.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 20
+last_updated: "2026-10-08"
+reading_time_minutes: 22
 breadcrumb: [ServiceNow Store - IT Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -20,6 +20,25 @@ Version history for the DEX Application and Device Health application on the Ser
 
 See the [Now Assist for IT Service Management \(ITSM\)](https://www.servicenow.com/docs/bundle/store-release-notes/page/release-notes/store/it-service-management/store-rn-itsm-now-assist.html) release notes for information on agentic AI in DEX.
 
+-   **Version 5.3.2 - October 2026**
+    -   New
+        -   You can now use remedial actions to start or stop a Windows service, clear the system cache, and reset the print spooler.
+        -   You can now run remedial actions from Flow Designer. Each action runs only when the device is online and the action applies to it.
+        -   Metric rules and event rules are now rate limited per rule on the device. This prevents a single noisy rule from flooding the instance with alerts or events.
+        -   A new extension point for metric rule events gives admins more control over how events are evaluated before alerts are triggered.
+    -   Changed
+        -   The Devices page now includes a link to DEX dashboard, so users with multiple roles can reach the DEX homepage faster. Users with the Service Desk User role don't see the link.
+        -   Metric rule evaluation now uses a sliding time window. This reduces duplicate alerts for the same ongoing condition.
+        -   The Diagnose view in Device Health Check now explains why a category shows a Poor or Average status with no pending actions. It tells users that their IT team is reviewing additional metrics.
+    -   Fixed
+        -   Fixed an issue that could prevent you from saving applications on the Application Management page after you deleted another application.
+        -   Fixed an issue where a metric rule with a clear condition could stop metric evaluation for all rules on a device. Now only the affected rule is impacted.
+        -   Fixed an issue where you could add a URL for monitoring from DEX Administration even when Agent Client Collector for Visibility already monitored that URL. This caused duplicate monitoring.
+        -   Improved the load time of View Devices under System Time on the Insights tab.
+        -   Updated the out-of-box application definitions to reflect a changed Microsoft URL. Executable validation now continues to work as expected.
+        -   Network health checks now report latency, jitter, and packet loss on networks that block ping \(ICMP\) traffic. Previously, these checks reported a failure.
+        -   Improved the stability of Zscaler status checks and ZPA tunnel reconnection during Zscaler Client Connector installation or upgrade. These actions now pause during installation or upgrade, and unrecognized Zscaler statuses are no longer reported as disconnected.
+        -   Issue configurations of the Device Action type now appear in the self-service experience wherever device actions are available.
 -   **Version 5.2.3 - September 2026**
     -   Fixed:
         -   Reliable loading of the File Management tab in the Windows Device Overview.

@@ -56,6 +56,8 @@ Version history for the Cloud License Estimator application on the ServiceNow St
 Version history for the ITOM Cloud Native Operations on the ServiceNow Store.
 -   **[CCG Content Pack release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-ccg-content-pack.md)**  
 Version history for the CCG Content Pack release notes on the ServiceNow Store.
+-   **[Cryptographic Asset Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-cryptographic-asset-compliance.md)**  
+Version history for the ServiceNow® Cryptographic Asset Compliance application on the ServiceNow Store.
 -   **[CSC Content Pack release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-csc-content-pack.md)**  
 Version history for the CSC Content Pack application on the ServiceNow Store.
 -   **[Discovery and Service Mapping Patterns release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-itom-patterns.md)**  

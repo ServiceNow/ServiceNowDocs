@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-knowledge-center.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 2
+last_updated: "2026-10-08"
+reading_time_minutes: 3
 breadcrumb: [ServiceNow Store - Other ServiceNow AI Platform Capabilities applications version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,18 @@ Version history for the ServiceNow® Knowledge Center application on the Service
 
 ## Version history
 
+-   **Version 31.33.7 - October 2026 \(Zurich, Australia, Brazil\)**
+    -   New:
+        -   Authors can now edit Knowledge Center articles using a rich markdown code editor. The new editor supports rich text input with automatic markdown conversion, code highlighting, and autocomplete, and is integrated into UI16, Seismic KC, and AIUX article editing pages.
+        -   Manual translation for markdown content is now enabled. Users can manually translate markdown articles in both UI16 and Workspace environments, ensuring translated content retains markdown formatting and is accessible.
+    -   Changed:
+        -   The Attached Knowledge UI Macro has been modernized to an API-driven architecture.
+        -   The legacy Jelly/XML component is now replaced with a web component using LitJS and native CSS, improving performance, maintainability, and alignment with UI26 migration.
+    -   Fixed:
+        -   Scheduled Article Optimization jobs no longer generate errors related to missing references during execution.
+        -   Knowledge Center Enhanced Content Editor table component labels now display correctly in Japanese-language sessions.
+        -   Cross-scope privilege issues for article family overview reconciliation have been resolved; Knowledge Center features now operate as expected across scopes.
+        -   Top Knowledge Actions on the KC Hub page now redirect correctly for non-English session languages. Navigation for "Gap" and "Duplicates" actions has been corrected to match locale-dependent labels and widened to cover all relevant gap types.
 -   **Version 31.26.5 - September 2026 \(Brazil, Australia\)**
 
     defect fix

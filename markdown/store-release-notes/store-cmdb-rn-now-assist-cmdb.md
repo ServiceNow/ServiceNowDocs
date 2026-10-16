@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-cmdb-rn-now-assist-cmdb.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 4
+last_updated: "2026-10-08"
+reading_time_minutes: 5
 breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\) version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,11 @@ Version history for the ServiceNow Otto for CMDB application on the ServiceNow S
 
 ## Version history
 
+-   **Version 4.5.1 - October 2026**
+    -   New: Stale CI remediation at scale: Use the CMDB success advisor for Data Foundations to find stale CIs in principal classes, then apply the staleness agentic workflow to remediate them. The workflow defines a single staleness threshold, then automatically rediscovers stale CIs using activity signals such as changes and incidents. It flags discovery and Service Graph Connector schedule issues, then recommends life-cycle actions such as retirement, archival, or deletion. Apply actions to a full CI group, a subset, or ignore the recommendation.
+    -   Fixed
+        -   Performance enhancements for Impact Analysis.
+        -   Quality enhancements for CMDB Search.
 -   **Version 4.4.1 - September 2026**
 
     New: Ask questions about CMDB tables and attributes to get a better understanding of the schema. Responses are based on predefined content in the Data Model Navigator app, which contains information about the base-system CMDB schema.

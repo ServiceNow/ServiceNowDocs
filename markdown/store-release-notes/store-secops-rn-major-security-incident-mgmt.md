@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-major-security-incident-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 9
 breadcrumb: [ServiceNow Store - Security Incident Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
@@ -17,6 +17,10 @@ Version history for the Major Security Incident Management application on the Se
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 3.6.6 - October 2026**
+
+    Fixed: The access control list \(ACL\) issues in the Major Security Incident Workspace report feature have been resolved. Users now experience consistent permissions and access control when interacting with report features.
 
 -   **Version 3.6.5 - September 2026**
 

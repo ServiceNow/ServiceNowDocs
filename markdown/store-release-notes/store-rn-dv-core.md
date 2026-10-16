@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-dv-core.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 15
+last_updated: "2026-10-08"
+reading_time_minutes: 16
 breadcrumb: [Data Visualization components release notes, ServiceNow Store - Platform Analytics version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,27 @@ Version history for the Data visualization core application on the ServiceNow St
 
 ## Version history
 
+-   **Version 28.5.10 - October 2026**
+    -   Fixed:
+        -   GeoMap Data Visualization drill down displays "No data available" when cmn\_location.country is configured as a Reference field
+        -   GeoMap Data Visualization displays incorrect record counts when drilling down by State/City for Locations with identical city names across different countries
+        -   Configure ranges option is missing in French in Gauge visualization
+        -   Data Visualizations - hard-coded date range strings in the Critical Event Management dashboard in Health and Safety Workspace
+        -   Calendar agenda panel view fails to display short description text on cards after Australia upgrade
+        -   When the list opens on click on column graph, the list title is being sent as ~~undefined~~
+        -   Untranslatable string "Add alternative group by" with no context is implemented in Data Visualizations
+-   **Version 29.1.8 - October 2026**
+    -   Fixed:
+        -   Form Up/Down navigation arrows not displayed when records opened with Mouse Middle Click from Platform Analytics Visualization list view
+        -   Calendar agenda panel view fails to display short description text on cards
+        -   Add Data Visualizations map sources link to All menu
+        -   GeoMap Visualization displays incorrect record counts when drilling down by State/City for locations with identical city names across different countries
+        -   Data Visualizations - hardcoded date range strings in the Critical Event Management dashboard in Health and Safety Workspace
+        -   Adding same indicator more than once in the indicator scorecard
+        -   Show indicator scorecard score date instead of "latest score" label
+        -   Enable date range filtering for Indicator-Based Pivot Tables
+        -   Configure ranges option is missing in French in Gauge visualization
+        -   "Automatically aggregate periods" setting should not be available in "Additional settings" when data source is a Table
 -   **Version 30.1.1 - September 2026**
     -   New:
         -   Period over Period charts now support multiple series visualization. Charts render distinct lines for each series with unique colors, display a legend with human-readable labels, and show relative period labels on the X-axis.

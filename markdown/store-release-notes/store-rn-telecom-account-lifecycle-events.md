@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-telecom-account-lifecycle-events.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 9
+last_updated: "2026-10-08"
+reading_time_minutes: 10
 breadcrumb: [ServiceNow Store - Technology Provider Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,16 @@ Version history for Account Lifecycle Events application the on the ServiceNow S
 
 ## Version history
 
+-   **Version 6.5.22 - October 2026 \(Zurich\)**
+
+    Customer Success Managers working on complex or multi-tenant implementations can now associate a single engagement with multiple onboarding cases — directly in the platform, without manual workarounds.
+
+    What's new:
+
+    -   A new many-to-many relationship connects engagements to multiple onboarding cases
+    -   "Engagement Onboarding Links" related list on the Engagement record \(form and Workspace\)
+    -   "Engagement Onboarding Links" related list on the Onboarding Case record \(form and Workspace\)
+    -   Duplicate links are prevented automatically
 -   **Version 6.7.5 - September 2026 \(Australia\)**
     -   Touchpoint Conversation Builder
     -   AI-assisted preparation and post-meeting actioning layered on top of the Touchpoint record.

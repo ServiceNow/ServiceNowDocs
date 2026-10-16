@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-fso-financial-services-business-loan-operations.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 2
 breadcrumb: [ServiceNow Store - Financial Services version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,8 @@ Version history for the Financial Services Business Loan Operations on the Servi
 
 ## Version history
 
+-   **Version 4.2.0 - October 2026**
+    -   Fixed: Security ACLs, role assignments, UI actions, and event registrations that were missing after a fresh install or upgrade are now correctly applied, ensuring customers receive the complete intended permissions and event configuration.
 -   **Version 4.1.1 - September 2026**
 
     Changed: Updated internal application components to support ongoing platform enhancements

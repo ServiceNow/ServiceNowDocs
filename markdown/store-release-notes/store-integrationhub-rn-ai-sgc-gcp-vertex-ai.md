@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-ai-sgc-gcp-vertex-ai.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 2
+last_updated: "2026-10-08"
+reading_time_minutes: 3
 breadcrumb: [ServiceNow Store - Integration Hub version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -16,6 +16,27 @@ Version history for the ServiceNow® AI Service Graph Connector for GCP Vertex A
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
+-   **Version 1.4.1 - October 2026**
+    -   New:
+        -   Implement user-friendly functional error messaging across GCP SGC data source APIs
+        -   Import Gemini Enterprise App Agents
+        -   Import  Gemini Enterprise App Agents Usage
+        -   Import the following additional attributes
+            -   Platform Name information
+            -   Owner / Created by - critical for classification and accountability
+            -   Project / Resource ID
+            -   Identity / Access information
+            -   Original Creation Date
+        -   Import the tags of the AI agent to "cmdb\_key\_value" table
+    -   Changed: Add UX changes for Beta API usage for Gemini Enterprise App
+    -   Fixed:
+        -   The connector creates a Consumes::Consumed by relationship between AI Function CIs instead of Depends on::Used by. PRB2086636
+        -   Staging table inserts are processed sequentially, causing slow performance when discovering large numbers of Vertex AI assets. PRB2075641
+        -   The Gemini Enterprise discovery pipeline creates AI Function-to-Model relationships using the Consumes::Consumed by relationship type instead of Depends on::Used by. PRB2089225
+        -   If a single AI asset fails to insert during discovery, the remaining assets in the same discovery run aren't processed. PRB2089224
+        -   The Test IAM Permission action doesn't work correctly for connections configured with the JSON key file upload method. PRB2090569
+        -   Test Connection fails with an unhandled error, instead of returning a clear error message, when run against an invalid or missing connection. PRB2089222
+        -   If a data source template has a missing or deleted data source reference, provisioning stops and the remaining templates aren't provisioned. PRB2089221
 -   **Version 1.3.3 - September 2026**
     -   New:
         -   Google Multi-region support with parallel data loading

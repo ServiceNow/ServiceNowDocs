@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-telecom-now-assist-tmt.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 3
 breadcrumb: [ServiceNow Store - Technology Provider Service Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,11 @@ Version history for the ServiceNow Otto for Telecommunications, Media, and Techn
 
 ## Version history
 
+-   **Version 6.0.17 - October 2026**
+    -   1. Fluent conversion of APP
+    -   2. Success Play RecommendationSkill
+    -   3. Executive Briefing on Executive portfolio dashboard
+    -   4. Engagement Insights nad breifing Skill
 -   **Version 6.0.15 - September 2026**
     -   Fluent conversion of APP
     -   Success Play RecommendationSkill

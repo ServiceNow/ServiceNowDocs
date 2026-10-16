@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-wdf-rn-zero-copy-connectors-primary.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Workflow Data Fabric version history release notes, ServiceNow Store version history release notes]
 ---
@@ -15,6 +15,14 @@ breadcrumb: [ServiceNow Store - Workflow Data Fabric version history release not
 Version history for the ServiceNow® Zero Copy Connectors Primary application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
+
+-   **Version 3.0.2 - October 2026**
+
+    Microsoft SQL Server Connector Migration from Community to Primary
+
+-   **Version 2.3.6 - October 2026**
+
+    Backport to Australia and set correct Hub version dependency
 
 -   **Version 2.4.4 - September 2026**
     -   Community connector migration:

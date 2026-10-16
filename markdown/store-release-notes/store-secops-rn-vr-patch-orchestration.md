@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-vr-patch-orchestration.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 2
+last_updated: "2026-10-08"
+reading_time_minutes: 3
 breadcrumb: [ServiceNow Store - Vulnerability Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,15 @@ Version history for the Vulnerability Response Patch Orchestration application o
 
 ## Version history
 
+-   **Version 30.4.2 - October 2026 \(USEM\)**
+    -   New:
+        -   Admins can link Patch Requests to Change Requests, enabling automatic approval or rejection of Patch Requests based on Change Request state transitions. The workflow supports both backend and UI integration, allowing Patch Requests to be created and managed directly from Change Requests.
+        -   The Patch Deployment section is now available in the Change Request creation modal, enabling users to schedule and deploy patches as part of Change Request processes.
+    -   Changed:
+        -   The Patch Deployment section in the Change Request modal now adapts to installed applications. If both vulnerability response and patch orchestration modules are installed, the Patch Deployment section is visible; otherwise, it is hidden to streamline the user interface.
+        -   Patch Request state labels have been updated for clarity. The "change\_pending" state is now labeled as "Awaiting Change Approval" to better reflect its purpose.
+        -   Patch Request approval logic has been revised for Change Request state mapping. The system now accurately tracks when a Change Request reaches the Implement state, ensuring Patch Requests are approved or rejected reliably.
+    -   Removed: The Remediation Task state-based Patch Request sync workflow has been temporarily removed. This workflow is no longer active while cancellation behavior is redesigned and will be reintroduced in a future release.
 -   **Version 30.3.6 - September 2026**
     -   New: Framework enhancements to support multiple patch to multi asset/asset group deployments.
     -   New:

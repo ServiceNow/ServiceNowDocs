@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-rec-actions.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 4
+last_updated: "2026-10-08"
+reading_time_minutes: 5
 breadcrumb: [ServiceNow Store - Customer Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -17,6 +17,10 @@ Version history for the Recommended Actions application on the ServiceNow Store.
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 45.0.0 - October 2026**
+
+    New: Introduced the actionObject, which is a single parameter expected by the createAndExecuteAction of the sn-contextual-search-results widgets.
 
 -   **Version 44.0.4 - September 2026**
 

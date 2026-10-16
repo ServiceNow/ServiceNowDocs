@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-wsd-workplace-visitor-management.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 12
+last_updated: "2026-10-08"
+reading_time_minutes: 13
 breadcrumb: [ServiceNow Store - Workplace Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,26 @@ Version history for the Workplace Service Delivery Workplace Visitor Management 
 
 ## Version history
 
+-   **Version 2.2.3 - October 2026**
+    -   Changed: Set a custom filter on the location field while creating a visitor.
+    -   Fixed
+        -   Empty rows could be displayed when the display field differs.
+        -   Bulk import \(Excel/CSV\) failed with an error on mandatory requirement fields.
+        -   Adding visitors via bulk import to an already confirmed visit resulted in the registrations remaining stuck in the draft state.
+        -   An error was displayed when trying to download the CSV/Excel template on the Visitor Details page.
+        -   Multi-day visits used the session time zone over the time zone set for the visiting location.
+        -   In some cases, visitor registrations were not created for the arrival and departure days for all-day and multi-day registrations.
+        -   The receptionist was not redirected to the receptiondesk-page after creating a new visit.
+        -   Policies were not displayed in the email for internal users.
+        -   Visit times were not formatted according to the user’s locale setting.
+        -   A check-in notification could be triggered when an update occurs while the state is checked in.
+        -   In some cases, visitor registrations were displayed with the wrong date in the host experience.
+        -   It was possible to change the state of a past visit in draft.
+        -   An error was displayed when the receptionist tried to undo a checkout action.
+        -   The visitor portal could display an incorrect date and time.
+        -   Improvements for BC-time zone support.
+        -   Performance improvements.
+        -   Security fixes.
 -   **Version 2.1.4 - September 2026**
     -   Fixed:
         -   Fixed visitor email notifications to correctly update subject and location information across single and multi-space reservations.

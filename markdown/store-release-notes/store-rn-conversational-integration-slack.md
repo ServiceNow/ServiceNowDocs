@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-conversational-integration-slack.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 4
 breadcrumb: [ServiceNow Store - Conversational Interfaces version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,12 @@ Version history for the Conversational Integration with Slack integration on the
 
 ## Version history
 
+-   **Version 6.1.4 - October 2026 \(Brazil\)**
+    -   Fixed:
+        -   Feedback ingestion and persistence issues on the user analysis table
+        -   Show Me Everything functionality to respect the disableShowMeEverything flag
+        -   Date-time control UI blocking, fixed display issues for sources
+        -   Initial bot installation messages not being removed after server responses
 -   **Version 6.1.0 - September 2026 \(Brazil\)**
     -   New: Multi-select support
     -   Changed: Synthesis response rendering

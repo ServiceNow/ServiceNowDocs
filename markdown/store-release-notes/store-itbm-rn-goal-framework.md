@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-itbm-rn-goal-framework.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 6
+last_updated: "2026-10-08"
+reading_time_minutes: 7
 breadcrumb: [ServiceNow Store - Strategic Portfolio Management version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,17 @@ Version history for the ITBM Goal Framework application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 4.16.0 - October 2026**
+    -   New:
+        -   Select Maintain above, Maintain below, or Maintain constant as the target type when defining a target to track progress based on keeping a value above, below, or within a specified range.
+        -   Progress is now calculated for Maintain-type targets based on the breakdown periods achieved, reflecting partial attainment for each period according to the selected target type.
+        -   Identify goals and targets across teams and views using the new unique identifier columns, which display a distinct number for each record.
+    -   Changed:
+        -   Goal and target identifiers now use the OBJ and KR prefixes to align with OKR terminology. A scheduled migration converts existing records from the GOAL and TRGT prefixes, and new records use the updated prefixes.
+        -   Edit theType field on a target even when actuals exist. A warning appears before the change is saved, and the update is recorded in the audit history.
+        -   Changing theType field on a target no longer resets the unit of measure. The previously selected unit is retained across all editing surfaces and flows.
+        -   TheType andUnit of measure fields are now synchronized on the Create target window. The unit of measure defaults based on the selected type, reducing confusion during target creation.
+    -   Fixed: Resolved an issue where creating goal relationships caused errors when the sn\_align\_coreplugin was installed without the sn\_align\_wsplugin.
 -   **Version 4.13.1 - September 2026**
 
     Changed: Updated platform directives for scoping bypass handling and Cobalt Raven access control list \(ACL\) management.

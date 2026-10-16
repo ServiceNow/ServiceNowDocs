@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-grc-rn-metrics.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 12
 breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,11 @@ Version history for the GRC: Metrics application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 23.1.2 - October 2026 \(Brazil\)**
+    -   New: Historical metric data is now available. Metric records now store historical values, enabling users to track changes and trends over time.
+    -   Changed:
+        -   Threshold ratings and breach status for metric data tasks now update automatically when threshold settings are modified. Pop-up confirmation dialogs appear when editing or deleting thresholds, informing users that ratings and breach status will be recalculated or cleared for associated data.
+        -   Threshold rating and justification fields on metric data tasks now respond to threshold changes. When a threshold is deleted or breach monitoring is disabled, the justification field is hidden. Threshold ratings update correctly when metric data or override data is changed or saved.
 -   **Version 23.0.5 - September 2026 \(Brazil\)**
     -   New:
         -   Admins can now configure notification redirection for metric data tasks and composite definitions. Email notifications for metric data tasks and metric hierarchies now use the platform’s notification redirection framework, ensuring recipients land on the correct workspace or Classic view based on access.

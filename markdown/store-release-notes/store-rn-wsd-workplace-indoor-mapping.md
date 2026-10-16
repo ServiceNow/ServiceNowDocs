@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-wsd-workplace-indoor-mapping.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 7
 breadcrumb: [ServiceNow Store - Workplace Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,13 @@ Version history for the Workplace Indoor Mapping application on the ServiceNow S
 
 ## Version history
 
+-   **Version 1.18.12 - October 2026**
+
+    Fixed
+
+    -   Map Printing did not use the default bearing/orientation configured in the Map Studio
+    -   A message could be displayed indicating that the neighborhood is not available on a specific floor, even though it appeared on the map.
+    -   Performance improvements
 -   **Version 1.18.9 - September 2026**
     -   Fixed:
         -   Fixed accessibility toggle overlap with legend button in Outlook Add-in Map View.

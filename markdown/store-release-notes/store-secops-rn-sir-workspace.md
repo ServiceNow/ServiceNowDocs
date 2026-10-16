@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-sir-workspace.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 9
 breadcrumb: [ServiceNow Store - Security Incident Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,10 @@ Version history for the Security Incident Response Workspace on the ServiceNow S
 
 ## Version history
 
+-   **Version 1.12.0 - October 2026**
+    -   Fixed:
+        -   Resolved the page not found issue in dashboards in Security Incident Response Workspace.
+        -   Removed the Priority field from Create Incident and Create Problem modals.
 -   **Version 1.10.1 - September 2026**
     -   New: Integration of  MITRE ATLAS framework into SIR.
     -   Fixed:

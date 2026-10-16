@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-fsm-field-service-multi-day-task-scheduling.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Field Service Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -17,6 +17,10 @@ Version history for the ServiceNow® Field Service Multi-Day Task Scheduling app
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 30.1.1 - October 2026**
+
+    Maintenance release. Contains internal code updates with no impact to existing functionality or user-facing behavior.
 
 -   **Version 30.0.6 - September 2026**
     -   Multi-Day Task Scheduling enables to create, schedule, visualize, and execute long-cycle work that spans more than a single calendar day - all within a single work order task record. Rather than manually splitting long-duration work into separate per-day tasks, it captures the full continuity of extended jobs \(such as major installations, infrastructure deployments, or multi-shift repairs\) in one record.

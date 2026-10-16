@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-fso-card-data-security.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Financial Services version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,9 @@ Version history for the Card data security application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 2.2.1 - October 2026**
+    -   New: The Data Security document viewer now supports ZIP archive files with a dedicated layout and file navigation, making compressed document contents easier to browse.
+    -   Fixed: Fixed an issue where Data Security operations could use connection configurations that were not associated with the Data Security application.
 -   **Version 2.1.0 - September 2026**
 
     Changed: Updated internal application components to support ongoing platform enhancements

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-fsm-field-service-manager-mobile.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Field Service Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -16,6 +16,9 @@ Version history for the ServiceNow® Field Service Manager Mobile application on
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
+-   **Version 1.2.1 - October 2026 \(Australia\)**
+    -   Tasks embedded with breaks represented on mobile calendar
+    -   Added an embedded shift/break summary to the calendar card
 -   **Version 2.0.9 - September 2026**
     -   What's New:
         -   Tasks embedded with breaks represented on mobile calendar

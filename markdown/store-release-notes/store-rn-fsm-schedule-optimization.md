@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-fsm-schedule-optimization.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 3
 breadcrumb: [ServiceNow Store - Field Service Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -16,6 +16,19 @@ Version history for the ServiceNow® Schedule Optimization application on the Se
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
+-   **Version 30.0.3 - October 2026**
+    -   New:
+        -   Support for overlapping territories in Prioritized optimization — tasks and agents from overlapping territories are now considered together during optimization runs
+        -   Dynamically trigger Prioritized optimization based on configurable max-agent and event-count thresholds
+        -   Time-bound availability of demand channels in a territory
+        -   Optional skill level support in Schedule Optimization
+        -   Schedule Optimization now respects skill validity periods
+        -   Shift-level visibility in run results — Run Summary and Run Detail now include optimization horizon, shift, and resource columns; new Run Summary Shift table with related lists for Agent Schedules and Work Order Tasks
+    -   Fixed:
+        -   Scheduled intraday flow querying events from previous days, with a hard limit of 1000 events
+        -   Locked tasks not sent when window end has passed
+        -   Tasks with window end beyond the optimization horizon end not considered
+        -   Re-using scope from an already active batch incorrectly activating a new batch
 -   **Version 30.0.2 - September 2026**
     -   New:
         -   Support for overlapping territories in Prioritized optimization — tasks and agents from overlapping territories are now considered together during optimization runs

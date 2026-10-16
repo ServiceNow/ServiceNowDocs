@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-telecom-telecom-customer-360.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Telecommunications Service Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -15,6 +15,10 @@ breadcrumb: [ServiceNow Store - Telecommunications Service Management version hi
 Version history for the ServiceNow® Telecommunications Customer 360 application on the ServiceNow Store.
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
+
+-   **Version 3.2.0 - October 2026**
+
+    Changed: Enabled MACD actions \( Suspend/Modify/Disconnect/Resume\) on Child PIs within the Products and Services card in customer 360 view.
 
 -   **Version 3.1.0 - September 2026**
 

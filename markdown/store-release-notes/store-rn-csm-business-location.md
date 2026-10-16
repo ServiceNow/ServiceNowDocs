@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-business-location.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 3
+last_updated: "2026-10-08"
+reading_time_minutes: 4
 breadcrumb: [ServiceNow Store - Customer Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,10 @@ Version history for the Business Location application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 5.8.1 - October 2026**
+    -   New:
+        -   Contract, entitlement, and product inventory information now appears directly alongside business organization records, enabling you to access related information without navigating to other records.
+        -   A Business Organization can now act as a Buyer Organization. This enhancement enables Business Organizations to be designated as valid buyers on the quote and order entities, allowing internal users to create and manage quotes and orders on behalf of Internal Organizations.
 -   **Version 5.7.3 - September 2026**
     -   New:
         -   New location-scoped contributor roles: Location Account Contributor and Location Consumer Contributor — Allows to create cases for customers supported by your business organization and allows them to track and manage cases created by them for the customers associated with your organization.

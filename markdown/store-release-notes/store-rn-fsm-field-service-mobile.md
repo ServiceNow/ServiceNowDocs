@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-fsm-field-service-mobile.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Field Service Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,10 @@ Version history for the ServiceNow® Field Service Mobile application on the Ser
 
 ## Version history
 
+-   **Version 30.1.8 - October 2026**
+    -   Mark yourself on break – Update your break status in real time as you start and finish
+    -   Adjust your breaks – Delay them, end early, or reschedule to a time that works for you
+    -   Create recurring personal events – Set up repeating events once instead of entering them each time
 -   **Version 31.0.4 - September 2026**
     -   Agents will be notified whenever they are assigned a shift, including when a shift is removed or amended
     -   Agents will be able to tap the "take break" action on Break events and move a break from "planned break" status to "Break taken"

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-som-now-assist-som.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Sales Customer Relationship Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,10 @@ Version history for the ServiceNow Otto for Sales Customer Relationship Manageme
 
 ## Version history
 
+-   **Version 1.2.2 - October 2026**
+    -   Fixed:
+        -   Version support upgraded to BP0 and AP6
+        -   Dependent app version updated to support same engines
 -   **Version 1.1.7 - September 2026**
     -   Fixed:
         -   Version support upgraded to BP0 and AP6

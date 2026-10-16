@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-sir.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 14
 breadcrumb: [ServiceNow Store - Security Incident Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,10 @@ Version history for the Security Operations Security Incident Response on the Se
 
 ## Version history
 
+-   **Version 14.4.4 - October 2026**
+    -   Fixed:
+        -   Closed Security Incident records are now protected from further editing. The system enforces write access controls to prevent modifications to incidents in Closed or Canceled states.
+        -   Nightly failures affecting Security Incident Response profiles have been resolved. Automated processes now complete successfully across app-sir-core, app-sir-test, app-sir-func-test, and app-sec-global-func-test profiles.
 -   **Version 14.4.0 - September 2026**
     -   Fixed:
         -   Restricted 'Create Security Incident' UI action visibility for ITIL users without access.

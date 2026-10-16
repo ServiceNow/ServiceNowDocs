@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itam-hardware-asset-mgmt-advanced.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - IT Asset Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -17,6 +17,10 @@ Version history for the ServiceNow® Hardware Asset Management - Advanced applic
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 1.0.16 - October 2026**
+
+    Dependency updated on ServiceNow Otto for Platform Advanced to the latest version \(3.1.0\).
 
 -   **Version 1.0.11 - September 2026**
 

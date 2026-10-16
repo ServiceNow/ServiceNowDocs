@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-service-graph-connector-wiz.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 2
+last_updated: "2026-10-08"
+reading_time_minutes: 3
 breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\) version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,17 @@ Version history for the Service Graph Connector for Wiz on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 1.7.0 - October 2026**
+    -   New
+        -   The Append object ID suffix to server name connection property is enabled by default. This property controls whether the Wiz object ID is appended to server names to keep Server CIs unique.
+        -   The Exclude Representative Resources connection property is deactivated by default. This property controls whether Wiz representative resources are imported into the CMDB. Representative resources are standardized placeholder assets with synthetic identifiers.
+    -   Changed
+        -   The ingestion of AWS VM scale set members now uses the isEphemeral flag, along with the aws:autoscaling:groupName tag, to identify and skip ephemeral VMs.
+        -   Added the Global attribute to the Region class forLoad Balancer and Network Interface, aligning Google resource relationships with SG-GCP.
+    -   Fixed
+        -   Duplicate Server CI creation caused by inconsistent naming across connectors can now be prevented by activating Dynamic IRE for the Hardware class and deactivating the Append object ID suffix to server name connection property.
+        -   Duplicate or placeholder CI creation from Wiz representative resources can now be prevented by enabling the Exclude Representative Resources connection property, which stops these resources from being imported into the CMDB. Note: In some Wiz configurations, all Kubernetes pods are handled as representative resources, so no Pods are ingested when this property is enabled.
+        -   Updated the Cloud Function object\_id mapping to remove the cloudfunctions.googleapis.com prefix, so that CIs reconcile with SG-GCP and ServiceNow Discovery.
 -   **Version 1.6.0 - July 2026**
     -   New:
         -   Query ACLs are now built into the application.

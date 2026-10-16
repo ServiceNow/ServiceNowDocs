@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-case-playbook-csm.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 5
 breadcrumb: [ServiceNow Store - Customer Service Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,9 @@ Version history for the Playbooks for Customer Service Management on the Service
 
 ## Version history
 
+-   **Version 6.8.1 - October 2026**
+    -   Changed: Added Fluent SDK supportfor the Playbooks for Customer Service Management application.
+    -   Fixed: Fixed the issue related to downloading the file from Activity Stream in the Contextual Side Panel.
 -   **Version 6.7.1 - September 2026**
     -   Added support for migrating Guided Decision Trees \(GDT\) to Guided Decision Playbooks.
     -   Restored the Activity Stream tab on Playbook record pages, which was missing from the contextual sidebar.

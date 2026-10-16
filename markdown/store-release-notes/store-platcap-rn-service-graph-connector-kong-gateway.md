@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-service-graph-connector-kong-gateway.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Configuration Management Database \(CMDB\) version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,11 @@ Version history for the ServiceNow AI Platform capabilities API Service Graph Co
 
 ## Version history
 
+-   **Version 2.3.1 - October 2026**
+    -   New: Added MID server handling during setup.
+    -   Removed:
+        -   Legacy guided setup.
+        -   Basic auth setup option.
 -   **Version 2.2.1 - June 2026**
 
     Security fix.

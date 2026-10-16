@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-grc-rn-business-continuity-mgmt-advanced.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Governance, Risk, and Compliance version history release notes, ServiceNow Store version history release notes]
 ---
@@ -17,6 +17,10 @@ Version history for the ServiceNow® Business Continuity Management Advanced app
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
 ## Version history
+
+-   **Version 2.1.2 - October 2026 \(Brazil\)**
+
+    Updated BCM and AI Platform apps to Oct versions.
 
 -   **Version 2.0.3 - September 2026 \(Brazil\)**
     -   New: Report and summarizeGRC issues faster . Issue Summarization and Issue Validation are available acrossBCM Foundation,BCM Advanced. Automated Resolution Planning is available inBCM Advanced . These capabilities enable you to track issue status from discovery through closure from theEmployee Center in an instance or from plan and event records inBusiness Continuity Workspace.

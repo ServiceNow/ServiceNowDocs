@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-itbm-rn-now-assist-ea.html
 release: store
 topic_type: reference
-last_updated: "2026-08-06"
+last_updated: "2026-10-08"
 reading_time_minutes: 4
 breadcrumb: [ServiceNow Store - Strategic Portfolio Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,14 @@ Version history for the ServiceNow Otto for Enterprise Architecture \(EA\) appli
 
 ## Version history
 
+-   **Version 7.6.1 - October 2026**
+    -   New:
+        -   Analyze how configuration items, such as databases, servers, and storage devices, affect application services, business applications, and business capabilities by using the Enterprise Architecture query agent.
+        -   Added support for Gemma 4, a ServiceNow-hosted open-weight model available through Now LLM Service, for ServiceNow Otto for Enterprise Architecture skills.
+-   **Version 7.6.0 - October 2026 \(Zurich\)**
+    -   New:
+        -   Analyze how configuration items, such as databases, servers, and storage devices, affect application services, business applications, and business capabilities by using the Enterprise Architecture query agent.
+        -   Added support for Gemma 4, a ServiceNow-hosted open-weight model available through Now LLM Service, for ServiceNow Otto for Enterprise Architecture skills.
 -   **Version 7.5.2 - August 2026**
     -   New: Added support for linked text in Enterprise Architecture query agent responses. Selecting a linked record opens that record directly in Enterprise Architecture Workspace.
     -   Changed: Rebranded Now Assist to ServiceNow Otto. The product name Now Assist for Enterprise Architecture is updated to ServiceNow Otto for Enterprise Architecture as part of the rebranding initiative.

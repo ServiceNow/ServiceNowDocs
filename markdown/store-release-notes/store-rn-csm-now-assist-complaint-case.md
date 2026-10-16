@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-now-assist-complaint-case.html
 release: store
 topic_type: reference
-last_updated: "2026-08-06"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Customer Service Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -13,6 +13,10 @@ breadcrumb: [ServiceNow Store - Customer Service Management version history rele
 # ServiceNow Otto for Complaint Case \(CSM\) release notes
 
 Version history for the ServiceNow® ServiceNow Otto® for Complaint Case \(CSM\) application on the ServiceNow Store.
+
+-   **Version 2.3.2 - October 2026**
+
+    Changed: Migrated Complaint Case Summarization GenAI skill configurations from legacy model aliases to versioned model IDs for the LLM Generic \(Now LLM / gemma\) and Google Cloud Vertex AI \(gemini\) providers.
 
 -   **Version 2.2.1 - August 2026**
 

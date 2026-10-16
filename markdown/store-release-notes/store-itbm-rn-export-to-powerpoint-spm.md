@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-itbm-rn-export-to-powerpoint-spm.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Strategic Portfolio Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,11 @@ Version history for the Export to PowerPoint application for Strategic Portfolio
 
 ## Version history
 
+-   **Version 1.6.0 - October 2026**
+    -   New:
+        -   Support of dynamic timelines granularity for up to three years in Roadmap exports.
+            -   The export feature automatically selects months, quarters, or years based on the resolved date range to make sure accurate representation of ranges up to three years.
+            -   Gregorian and fiscal calendars are supported.
 -   **Version 1.5.0 - June 2026**
 
     Fixed: ACL handling in Export to PowerPoint.

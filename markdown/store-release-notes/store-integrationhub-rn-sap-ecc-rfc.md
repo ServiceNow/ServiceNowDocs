@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-sap-ecc-rfc.html
 release: store
 topic_type: reference
-last_updated: "2026-08-06"
+last_updated: "2026-10-08"
 reading_time_minutes: 3
 breadcrumb: [ServiceNow Store - Integration Hub version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,9 @@ Version history for the SAP ECC RFC Spoke on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 2.12.1 - October 2026**
+    -   Added 1 action: Authorize Payment for Non-PO Invoice
+    -   Fixed: Create Non Purchase Order Invoice - Added the Payment Block field in Vendor item \(IT\_ACCOUNTPAYABLE\)
 -   **Version 2.11.0 - August 2026**
 
     Added 1 new action: Cancel Non-PO Invoice

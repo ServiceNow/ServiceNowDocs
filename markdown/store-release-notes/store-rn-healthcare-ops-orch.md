@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-healthcare-ops-orch.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 1
+last_updated: "2026-10-08"
+reading_time_minutes: 2
 breadcrumb: [ServiceNow Store - Healthcare and Life Sciences version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -16,6 +16,11 @@ Version history for the ServiceNow® Healthcare Operations Orchestration applica
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
+-   **Version 1.5.2 - October 2026**
+    -   Fixed:
+        -   Priority and Service fields can be edited again on Orchestration Cases. The Service field is now labeled Service Definition.
+        -   Several fixes to care team work generated from orchestration playbooks.
+        -   Case actions: Close Case and Cancel now appear only for users with permission to update the case.
 -   **Version 1.4.0 - September 2026**
     -   New
         -   Care Team Activities Playbook — a guided, step-by-step experience for authoring daily activity task plans for recurring care team operational work.

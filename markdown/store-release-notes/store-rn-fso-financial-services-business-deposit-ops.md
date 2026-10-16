@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-fso-financial-services-business-deposit-ops.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 2
 breadcrumb: [ServiceNow Store - Financial Services version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,10 @@ Version history for the Financial Services Business Deposit Operations applicati
 
 ## Version history
 
+-   **Version 4.2.0 - October 2026**
+    -   Fixed
+        -   Debit account ownership is now validated on service insertion, preventing deposits from being processed against accounts the customer does not own.
+        -   Thirteen deletion records are now correctly applied on both fresh install and upgrade, resolving a gap where required data removals were being skipped due to update-set gating logic.
 -   **Version 4.1.1 - September 2026**
 
     Changed: Updated internal application components to support ongoing platform enhancements

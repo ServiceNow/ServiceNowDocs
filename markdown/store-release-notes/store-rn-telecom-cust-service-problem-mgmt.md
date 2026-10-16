@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-telecom-cust-service-problem-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 1
+last_updated: "2026-10-08"
+reading_time_minutes: 2
 breadcrumb: [ServiceNow Store - Telecommunications Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,12 @@ Version history for the Customer Service Problem Management application on the S
 
 ## Version history
 
+-   **Version 8.2.0 - October 2026**
+    -   Changed: The Service Test management data model was updated with the following:
+        -   Test Group characteristics​ - Add characteristics directly at the Test Group level​
+        -   Spec to Test Group mapping​ - Build a condition from product spec, characteristic, and value to decide which Test Group executes​
+        -   Attribute mapping​ - Propagate Test Group characteristics down to Test Definition characteristics​
+    -   Decomposition rule​ - Runtime logic decides whether, and which, Test Group characteristic values trigger a given Test Definition​
 -   **Version 8.1.0 - September 2026**
 
     Maintenance only

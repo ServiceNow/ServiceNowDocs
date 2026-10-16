@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itsm-service-reliability-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 2
 breadcrumb: [ServiceNow Store - IT Service Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,9 @@ Version history for the ITSM Service Reliability Management application on the S
 
 ## Version history
 
+-   **Version 7.3.1 - October 2026**
+    -   Changed: Improved alert visibility by including alerts from related configuration items in the alert count for technology management services.
+    -   Fixed: Adjusted SRM access controls to maintain access granted outside SRM.
 -   **Version 7.2.1 - September 2026**
 
     Changed: Service Reliability Management now leverages ServiceNow Fluent, enabling faster development and simpler maintenance through code-based application definition.

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-wsd-workplace-concierge.html
 release: store
 topic_type: reference
-last_updated: "2026-07-09"
-reading_time_minutes: 2
+last_updated: "2026-10-08"
+reading_time_minutes: 3
 breadcrumb: [ServiceNow Store - Workplace Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,15 @@ Version history for the Workplace Concierge application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 1.7.15 - October 2026**
+
+    Fixed
+
+    -   Inactive users were returned within the presence and collaborator APIs.
+    -   Workplace profile information should be available in the presence APIs.
+    -   The Location Directory was not navigating to the correct location when Building, Campus, or Floor was set as the primary location in the Workplace profile.
+    -   An error may be displayed when a building has no time zone.
+    -   Security fixes
 -   **Version 1.7.11 - July 2026**
 
     Fixed: Building timezone was not returned when retrieving the presence exceptions in conversational experiences.

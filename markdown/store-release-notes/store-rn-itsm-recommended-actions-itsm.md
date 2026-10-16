@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itsm-recommended-actions-itsm.html
 release: store
 topic_type: reference
-last_updated: "2026-08-06"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - IT Service Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,10 @@ Version history for the Recommended Actions for ITSM application on the ServiceN
 
 ## Version history
 
+-   **Version 3.4.2 - October 2026**
+    -   Fixed:
+        -   Recommended action default focus issue
+        -   Activity stream relationship-change noise
 -   **Version 3.4.1 - August 2026**
 
     Changed: Now Assist Multi-Content Response Genius Results support

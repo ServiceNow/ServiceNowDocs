@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-sow-synthetic-monitoring.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 7
 breadcrumb: [ServiceNow Store - ITOM AIOps version history release notes, ServiceNow Store - IT Operations Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,14 @@ Version history for the SOW Synthetic Monitoring application on the ServiceNow S
 
 ## Version history
 
+-   **Version 1.9.4 - October 2026**
+    -   Changed:
+        -   Synthetic Monitoring is updated to address platform and compliance requirements that include alignment with data model and read-only field requirements, API access controls for Stats API and GraphQL Aggregate API calls, and removal of unsupported data model exceptions.
+        -   MID Server security and ECC Queue authorization have been strengthened. Synthetic Monitoring now supports credential access mode validation and ECC Queue authorization requirements for synthetic monitor execution.
+    -   Fixed:
+        -   Security and platform compliance issues have been fixed for remediation of vulnerable libraries and updates required by platform security directives.
+        -   API Insight data handling has been corrected. Unsupported $characters have been removed from cmdb\_ci\_api\_component\_recordsdata resources.
+        -   Synthetic Monitor status display has been corrected. Status fields now display the appropriate choice labels instead of numeric values.
 -   **Version 1.9.2 - September 2026**
     -   New: Synthetic monitoring now supports multiple Application Services per check. Admins can associate a single HTTP endpoint or API with several application services, preserving all relationships in the CMDB database. The synthetic monitor creation form offers a multi-select application service field to enable teams to model shared infrastructure and maintain accurate service ownership.
     -   Changed: ECC Queue Auto-Purge job now reliably removes stale and orphaned synthetic monitoring records. The job deletes old completed messages, flags stuck or orphaned entries as errored, and identifies messages from disabled monitors. This prevents indefinite queue growth and confirms only active work remains.

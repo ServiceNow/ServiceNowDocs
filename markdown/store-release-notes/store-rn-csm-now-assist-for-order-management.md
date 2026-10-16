@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-now-assist-for-order-management.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 3
 breadcrumb: [ServiceNow Store - Customer Service Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -16,6 +16,14 @@ Version history for the ServiceNow® ServiceNow Otto for Order Management applic
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
+-   **Version 2.4.1 - October 2026 \(Australia\)**
+    -   Changed:
+        -   Order Management AI agents and skills are now accessible to customers with Professional Plus entitlements when ServiceNow Otto for platform plugins are installed. The following agents and skills are supported:
+            -   Order Exception Voice AI Agent
+            -   Invoice Dispute Support Assistant
+            -   Invoice Dispute Voice Agent
+            -   RMA AI Agentic workflow
+            -   Invoice Dispute Assist
 -   **Version 2.3.3 - September 2026**
 
     Maintenance release. Contains internal code updates with no impact to existing functionality or user-facing behavior.

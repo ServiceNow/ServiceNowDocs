@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-fsm-field-service-capacity-reservations-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Field Service Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,11 @@ Version history for the ServiceNow® Field Service Capacity and Reservations Man
 
 ## Version history
 
+-   **Version 30.2.1 - October 2026**
+    -   Audit of Capacity and Reservation Management usage patternsYou can access detailed metrics on how capacity and reservation management is configured and used, including assignment targeting, territory and group distribution, demand channels, and reservation rule configurations.
+    -   Territory list filtering by active capacity assignmentsCapacity planners can filter the territory list to show only territories with active capacity assignments within a selected date range, reducing clutter and improving operational focus.
+    -   Performance evaluation for demand channel mapping in Dynamic SchedulingVerified that the system efficiently handles high-volume territory resource demand channel records during schedule optimization and assignment operations.
+    -   MaintenanceContains internal code updates with no impact to existing functionality or user-facing behavior.
 -   **Version 30.1.6 - June 2026**
 
     Fixed minor defects related to timezone and performance

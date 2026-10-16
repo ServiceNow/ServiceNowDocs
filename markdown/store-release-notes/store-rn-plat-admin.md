@@ -28,6 +28,8 @@ Version history for the Instance Security Center application on the ServiceNow S
 Version history for the Intent Discovery on the ServiceNow Store.
 -   **[Localization Workspace release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-plat-admin-localization-ws.md)**  
 Version history for the Localization Workspace application on the ServiceNow Store.
+-   **[ServiceNow Cowork release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-plat-admin-servicenow-cowork.md)**  
+Version history for the ServiceNow® ServiceNow Cowork application on the ServiceNow Store.
 -   **[ServiceNow Data Catalog release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/store/markdown/store-release-notes/store-rn-plat-admin-sn-data-catalog.md)**  
 Version history for the ServiceNow® Data Catalog application on the ServiceNow Store.
 

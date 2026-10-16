@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-fsm-field-service-territory-planning.html
 release: store
 topic_type: reference
-last_updated: "2026-08-06"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Field Service Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,11 @@ Version history for the ServiceNow® Field Service Territory Planning applicatio
 
 ## Version history
 
+-   **Version 31.0.2 - October 2026**
+    -   New: Contains internal code updates with no impact to existing functionality or user-facing behavior.
+    -   Fixed:
+        -   Territory selection in the console now correctly highlights the region on the map. The system uses the correct geography identifier, resolving issues caused by composite keys in map highlighting.
+        -   Excessive lag during agent territory transfers has been resolved.
 -   **Version 30.3.1 - August 2026**
     -   Fixed:
         -   Fixed an issue where selecting a territory in the Territory Planning console did not highlight the corresponding region on the map. The territory selections in the Territory Planning console now highlight the correct region on the map as expected.

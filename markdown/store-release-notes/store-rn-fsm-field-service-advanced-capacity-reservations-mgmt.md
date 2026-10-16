@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-fsm-field-service-advanced-capacity-reservations-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-06-11"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Field Service Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -16,6 +16,9 @@ Version history for the ServiceNow® Field Service Advanced Capacity and Reserva
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
+-   **Version 30.3.2 - October 2026**
+    -   New: Contains internal code updates with no impact to existing functionality or user-facing behavior.
+    -   Fixed: Warning message for manual scheduling with recurrence in the territory demand channel table.- Corrected dates in the Capacity Console CSP view \(double timezone conversion\).- Performance improvement — recurrence objects now cached during batch range processing in demand channel mapping.
 -   **Version 30.2.5 - June 2026**
 
     New: Supports territory-specific, recurrence-based demand channel association with technicians. It enables planners to assign technicians to demand channels with complex recurrence patterns \(specific weekdays, weeks, or month-days\) and define start or end dates.

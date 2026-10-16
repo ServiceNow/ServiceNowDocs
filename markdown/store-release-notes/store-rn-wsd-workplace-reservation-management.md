@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-wsd-workplace-reservation-management.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 60
+last_updated: "2026-10-08"
+reading_time_minutes: 63
 breadcrumb: [ServiceNow Store - Workplace Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,53 @@ Version history for the Workplace Service Delivery Workplace Reservation Managem
 
 ## Version history
 
+-   **Version 3.7.0 - October 2026**
+    -   New: Create recurring reservations containing multiple spaces.
+    -   Changed
+        -   Employees can see the option to subscribe to the waitlist when the search did not return any results.
+        -   Sync configurations, used when synchronizing spaces, will be deactivated if critical space information is changed.
+        -   Improved experience of switching to another buildings when two or more buildings are closed to eachother.
+        -   Improvements to the time selector when searching for a space or editing an existing reservation.
+        -   A new UI page has been introduced for logging in to the Outlook add-in.
+    -   Fixed
+        -   Waitlist entries were not resolved when a space used a reservable quantity to limit its capacity for reservation.
+        -   An incorrect building could be set for a reservation within a multi-building group reservation when updating a space.
+        -   It was unable to search for a space near a reservation using the shared email.
+        -   An incorrect pattern could be displayed when selecting a custom recurring option with a monthly frequency.
+        -   The costs for service items changed after submitting the reservation.
+        -   External visitors were only added to the first occurrence of a multi-location recurring reservation.
+        -   The Recurrence dialog could fail to save updated selected days when editing a custom weekly recurrence.
+        -   The sync state could be incorrect after resolving a conflict, preventing the reservation from being synchronized, or result in an error as synchronization was not required.
+        -   The "notify Invitee for recurring rsv PL” notification was not sent to invitees of a recurring reservation.
+        -   Recurring/multi-day reservations would send duplicate confirmation emails per occurrence to external visitor invitees instead of a single consolidated email.
+        -   The reservation start and end times would reset when the date is changed.
+        -   The start time was not reset when a past time was set.
+        -   Editing a reservation with a start time in the past could display a JavaScript error.
+        -   Waitlist entry was not allocated when updating a reservation.
+        -   iCalendar attachments \(iCal, ics\) were not generated and included in the email for invitees of recurring reservations.
+        -   A recurring reservation imported from an iCalendar file \(ics\) did not display the correct pattern.
+        -   Reservations that cross daylight saving time could display incorrect start and end times.
+        -   The Space Details card did not show the correct reason for the blocked space.
+        -   The Confirm button should stay visible when the browser is zoomed in.
+        -   The selected-items bar and the mobile drawer could overlap with the Employee Center side menu.
+        -   Newly added invites did not receive a notification when they were added to an existing recurring reservation
+        -   Certain flows could not be opened in Flow Designer.
+        -   Including a mandatory checkbox as an additional field did not prevent the reservation from being created.
+        -   The extra services dropdown could be visible while scheduling a recurring reservation in the Outlook add-in.
+        -   General UI improvements for when using the Outlook add-in.
+        -   The maximum number of days for the multi-day option was positioned incorrectly on the reservable module form.
+        -   The reservation summary text could be longer than the field allowed, flowing over and overlapping other fields.
+        -   Resolved several values in the location hierarchy that were not translated.
+        -   Several values during the creation of a recurring reservation were not translated when using Français.
+        -   Resolved several translation issues in the search page when using Japanese.
+        -   General enhancements to support translations for fields \(like start and end\) and messages.
+        -   Enhanced support for Audio Visual Support when adding additional services to a reservation and creating a recurring reservation.
+        -   Addressed accessibility feedback when using the tree-picker and sort-by field.
+        -   The Escape \(ESC\) key did not close the “Add recurrence” model on the search page.
+        -   Added ARAI attribute for the invitee checkbox.
+        -   Improved the schedule view to show grayed-out times, unavailable rooms and hours demarcated clearer.
+        -   Performance improvements.
+        -   Security fixes.
 -   **Version 3.6.6 - September 2026**
     -   Changed:
         -   The building tree picker on the reservation pages \(Make a Reservation and Quick Reserve\) now sorts Region, Site, Campus, and Building by their Title-value when no order is applied, or the same order is applied.

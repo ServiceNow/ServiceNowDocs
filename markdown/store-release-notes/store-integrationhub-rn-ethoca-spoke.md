@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-ethoca-spoke.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Store - Integration Hub version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,10 @@ Version history for the Ethoca Spoke application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 4.1.0 - October 2026**
+    -   Changed
+        -   Alert status lookups now correctly map the refundDatetimefield to refund\_date\_timein post-processing responses, ensuring refund date information is returned in the expected format.
+        -   DELETE records for system scope privileges, event registrations, and event script actions are now applied on both fresh install and upgrade, resolving cases where these records were skipped during installation.
 -   **Version 4.0.3 - September 2026 \(Brazil\)**
 
     Changed: Updated internal application components to support ongoing platform enhancements

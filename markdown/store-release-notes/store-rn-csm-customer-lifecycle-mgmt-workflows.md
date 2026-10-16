@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-csm-customer-lifecycle-mgmt-workflows.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 5
 breadcrumb: [ServiceNow Store - Customer Service Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,11 @@ Version history for the Customer Life Cycle Management Workflows application on 
 
 ## Version history
 
+-   **Version 5.6.2 - October 2026**
+    -   New:
+        -   Customer lifecycle workflows can be initiated for the Products owned by Business organizations .
+        -   Sales reps, managers, and members in a buyer organization can now view and update the records relevant to them in Customer Lifecycle Workflows, including modifying products. What each person sees and can do depends on their role.
+    -   Changed: Improved ramp and split handling in MACD workflows: incorrect ramped contract lines are now filtered out when creating or reconfiguring quotes, and disconnect errors on sold products are resolved.
 -   **Version 5.5.5 - September 2026**
     -   New: Related parties from an Order \(Bill-To, Ship-To, Sold-To, Entitled-To, Partner, End Customer, Installed At\) are now automatically copied to the Sold Product created from it.
     -   Fixed:

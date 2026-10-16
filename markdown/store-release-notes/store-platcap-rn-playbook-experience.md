@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-playbook-experience.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 15
+last_updated: "2026-10-08"
+reading_time_minutes: 16
 breadcrumb: [ServiceNow Store - Other ServiceNow AI Platform Capabilities applications version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,12 @@ Version history for the Playbook Experience application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 30.2.8 - October 2026 \(Brazil\)**
+    -   New: See the ideal path. The stage picker and activity picker now show stages and activities that run only when their conditions are met, so playbook users can see what might come next.
+    -   Fixed: Accessibility and nested playbook user experience issues fixed
+-   **Version 29.7.5 - October 2026 \(Australia\)**
+    -   New: See the ideal path. The stage picker and activity picker now show stages and activities that run only when their conditions are met, so playbook users can see what might come next.
+    -   Fixed: Nested playbook user experience issues fixed
 -   **Version 30.1.5 - September 2026 \(Brazil\)**
     -   Fixed:
         -   Key accessibility fixes associated with reflow to 200% zoom, keyboard navigation/focus, and screen reader functions

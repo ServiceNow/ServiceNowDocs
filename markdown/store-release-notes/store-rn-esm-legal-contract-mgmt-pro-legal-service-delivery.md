@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-esm-legal-contract-mgmt-pro-legal-service-delivery.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 4
 breadcrumb: [ServiceNow Store - Legal Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,11 @@ Version history for the Contract Management Pro for Legal Service Delivery appli
 
 ## Version history
 
+-   **Version 3.10.1 - October 2026**
+    -   New: Introduced request type field with amendment/renewal options in existing intake form to accommodate both types of requests from the same form.
+    -   Changed:
+        -   Renamed catalog menu title from Contracts to Legal agreements for contract intake forms in Legal service delivery
+        -   For new customers, the Non Disclosure Agreement, Third-Party Contract Review, and Contract Amendment and Renewal request intake forms—are hidden by default.
 -   **Version 3.9.2 - September 2026**
 
     Fixed: UI improvements.

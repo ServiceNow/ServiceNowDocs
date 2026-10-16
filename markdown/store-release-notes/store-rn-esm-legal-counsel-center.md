@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-esm-legal-counsel-center.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 7
 breadcrumb: [ServiceNow Store - Legal Service Delivery version history release notes, ServiceNow Store - Employee Service Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,11 @@ Version history for the Legal Counsel Center application on the ServiceNow Store
 
 ## Version history
 
+-   **Version 2.6.1 - October 2026**
+    -   New: A Contract History tab is now available in the Legal Workspace to display the renewalhistory for the contract record.
+    -   Fixed:
+        -   The Enable Privilege and Enable Confidential actions now work correctly on legal operations records.
+        -   Legal matter tasks in Legal Counsel Center now display their associated checklist.
 -   **Version 2.5.1 - September 2026**
 
     New: Legal Counsel Center now supports parallel signature, allowing multiple signatories to sign concurrently.

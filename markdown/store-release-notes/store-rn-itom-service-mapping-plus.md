@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itom-service-mapping-plus.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 5
 breadcrumb: [ServiceNow Store - ITOM Visibility version history release notes, ServiceNow Store - IT Operations Management version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,13 @@ Version history for the Service Mapping Plus application on the ServiceNow Store
 
 ## Version history
 
+-   **Version 1.25.1 - October 2026**
+    -   Fixed
+        -   Empty Application Service Candidates \(ASC\) no longer persist in the ASC list.
+        -   Added missing query\_range Access Control Lists \(ACLs\) to Machine Learning \(ML\) tables to prevent admin user warnings.
+        -   Resolved TypeError and Inverse Document Frequency \(IDF\) score calculation failures in ASC recalculation.
+        -   Fixed a graph rendering issue with reference links on the unmapped servers tile.
+        -   Fixed lightweight model conversion and corrected sys\_index file placement during data model bootstrap.
 -   **Version 1.24.5 - September 2026**
 
     New: Lightweight Service Model: Improve service mapping performance by converting your Dynamic and Tag-Based services to Lightweight.

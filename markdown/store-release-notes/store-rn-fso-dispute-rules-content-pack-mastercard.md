@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-fso-dispute-rules-content-pack-mastercard.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 4
+last_updated: "2026-10-08"
+reading_time_minutes: 5
 breadcrumb: [ServiceNow Store - Financial Services version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,15 @@ Version history for the Dispute Rules Content Pack for Mastercard application on
 
 ## Version history
 
+-   **Version 5.2.2 - October 2026**
+    -   New: Added a fraud chargeback count \(before authorization date\) as a new ineligibility condition for Mastercard Chip Liability Shift rules RC 4870 and RC 4871, so disputes with two or more prior fraud chargebacks on the same sold product are automatically declined.
+    -   Changed
+        -   Updated the RC 4871 Chip Liability Shift rule so that a chargeback is ineligible when it was NOT raised within 3 days of the fraud report \(correcting a logic inversion\), and requires a fraud report reference to be present.
+        -   Updated the decline reason message for RC 4871 and RC 4870 to include the "fraud" qualifier, aligning with the Mastercard guide Q3 2026 wording.
+        -   Updated the RC 4853 decision table condition and reason message for the MCC and voucher condition.
+    -   Fixed
+        -   Mastercard chargeback-eligibility subflows \(RC 4808, RC 4837, RC 4849, RC 4870, RC 4871\) now execute in the requesting user's security context instead of as the System user, resolving a permissions issue that allowed bypassing ACL checks during eligibility evaluation.
+        -   Corrected a broken function reference in the RC 4870 and RC 4871 Chip Liability Shift subflows where the fraud chargeback count script was calling a renamed function, causing the calculation to fail.
 -   **Version 5.1.1 - September 2026**
 
     Changed: Updated internal application components to support ongoing platform enhancements

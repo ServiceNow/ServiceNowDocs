@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-itsm-foundation.html
 release: store
 topic_type: reference
-last_updated: "2026-08-06"
-reading_time_minutes: 7
+last_updated: "2026-10-08"
+reading_time_minutes: 10
 breadcrumb: [ServiceNow Store - IT Service Management version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -16,6 +16,53 @@ Version history for the ServiceNow® ITSM - Foundation application on the Servic
 
 **Important:** For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
+-   **Version 2.4.2 - October 2026**
+    -   New
+        -   Incident Analyzer
+            -   An agentic capability that automatically investigates new incidents and writes a summary to the incident work notes.
+            -   The summary covers:
+                -   What happened and the likely cause, with supporting evidence.
+                -   Who to contact and proposed assignment groups.
+                -   Potentially responsible CIs and changes.
+                -   Related active and historical incidents, events and alerts.
+                -   Investigation gaps.
+            -   Ships inactive. Admins can activate it and configure trigger conditions, with P1 and P2 incidents as the default scope.
+            -   Sections are left out when the underlying data is not available on the instance, such as Major Incident Management or event and alert tables.
+            -   Each run consumes 4 assists.
+    -   Changed
+        -   Create and Edit Knowledge in the AI-native fulfiller experience
+            -   Create Knowledge and Edit Knowledge are now compatible with UI 26.
+            -   Fulfillers working incidents and requests in this experience can create and update knowledge articles without leaving it.
+        -   Gemma 4 model support and Now LLM deprecation
+            -   Gemma 4 26B-A4B is now a supported ServiceNow-hosted model for Now Assist for ITSM skills and agents, including self-hosted deployments.
+            -   Gemma 4 is not set as the default model.
+            -   Gemma 4 replaces GPT-OSS for Guardian moderation. By default:
+                -   Guardian is on in logging-only mode for agents and conversations.
+                -   Guardian is on in blocking mode for skills.
+            -   The Now LLM models Apriel and GPT-OSS are deprecated and will not receive long-term support.
+    -   Fixed
+        -   Investigate and resolve ITSM incidents workflow
+            -   The workflow now runs after being duplicated to a subdomain with global scope.
+            -   Runs no longer end in a Terminated state.
+            -   The workflow no longer fails with a generic error asking the user to try again later.
+            -   The work notes tool no longer updates the wrong incident when duplicate incident numbers exist.
+            -   Output no longer leaves information out with certain model configurations. This affected Dutch, French, Portuguese \(Brazil\), Spanish, Japanese, Italian, and German.
+            -   Workflow instructions now reference the same AI agent that is configured in the workflow.
+        -   Incident classification and triage
+            -   The Classify service and CI AI agent no longer overwrites a populated Service, Service offering, or Configuration item field on an incident.
+                -   This includes cases where the agent could not read the referenced record.
+            -   The out-of-box Triage and Categorize agentic workflow no longer occasionally asks the user for input.
+        -   Requested Item Summarization
+            -   Summaries now match the requested item being viewed.
+            -   Summaries are no longer empty when the session language is Portuguese \(Brazil\) and Now LLM is in use.
+        -   Incident record experience
+            -   The Assign button in the Record Information panel in Service Operations Workspace now generates hyperlinks in its output.
+            -   The Now Assist modal now reflects the Assigned to field's mandatory state after a UI policy makes the field optional.
+                -   Previously this blocked saving the form in Service Operations Workspace.
+                -   Previously the mandatory state was shown inconsistently in the native UI.
+            -   Bullet-point formatting in work notes no longer breaks when a field such as Assignment group is changed and the record is saved.
+            -   Incident Assist agentic workflow options now display in Japanese when the user's language is set to Japanese.
+            -   Post Incident Report generation now responds faster.
 -   **Version 2.3.3 - August 2026**
     -   New: Employees creating a ticket in Service Portal now see an AI-generated suggestion — drawn from relevant knowledge articles and catalog items — before they submit, based on the ticket description and their hardware, location, and department.
     -   Changed:

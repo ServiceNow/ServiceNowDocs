@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-threat-intel.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 3
 breadcrumb: [ServiceNow Store - Security Incident Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,10 @@ Version history for the Security Operations Threat Intelligence app on the Servi
 
 ## Version history
 
+-   **Version 13.6.1 - October 2026**
+    -   Fixed:
+        -   Resolved the issue where non-dependency roles used in sys\_user\_role\_contains records — shipped out-of-box — could block MSIM Slack channel creation.
+        -   Resolved a performance issue in the "Hide MITRE modules based on entitlement" business rule caused by uncached gs.getProperty\(\) calls.
 -   **Version 13.5.0 - September 2026**
 
     New: Added MITRE ATLAS threat detection to identify AI- and ML-specific threats — such as prompt injection, model poisoning, data extraction, and adversarial attacks.

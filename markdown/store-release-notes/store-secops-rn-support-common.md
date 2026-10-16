@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-support-common.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 6
+last_updated: "2026-10-08"
+reading_time_minutes: 7
 breadcrumb: [ServiceNow Store - Security Incident Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,10 @@ Version history for the Security Support Common on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 30.7.1 - October 2026**
+    -   Fixed:
+        -   Resolved the null pointer error for EmailUserReportedPhishing.
+        -   Resolved the issue where the Approver Level Groups field defaulted to the False Positive Approver role when the Approval Rule field was empty on Exception Management levels.
 -   **Version 30.6.5 - September 2026**
     -   Fixed:
         -   Fixed an issue where retired configuration items \(CIs\) could be incorrectly associated with Security Incidents created from SIEM data ingestion.

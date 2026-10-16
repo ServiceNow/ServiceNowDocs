@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-secops-rn-vr-ai-security-exposure-mgmt.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 4
+last_updated: "2026-10-08"
+reading_time_minutes: 5
 breadcrumb: [ServiceNow Store - Vulnerability Response version history release notes, ServiceNow Store - Security Operations version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,12 @@ Version history for the ServiceNow® AI Security Exposure Management application
 
 ## Version history
 
+-   **Version 2.3.0 - October 2026**
+    -   New
+        -   Expanded AI posture findings for cloud assets. The system now stores and displays cloud account ID, region, and resource tags for AI assets hosted in cloud environments, including managed assets and agents. Cloud asset references are maintained for each discovered AI asset, enabling visibility into hosting relationships.
+        -   Remediation guidance and evidence for AI posture findings. Remediation steps for cloud configuration findings are now retrieved from Wiz and shown in a dedicated section within AI posture findings. Evidence provided by Wiz is also displayed in a scrollable section for review.
+        -   Delta time support for AI security findings integration. The integration now supports delta start time for importing findings, aligning with other Wiz integrations and improving data synchronization.
+    -   Changed: UI updates for AI posture findings. The posture rule description field is now split into a short description and a detailed description. The remediation section title is updated to "Remediation guidance," and an evidence section is added for findings. Metadata fields for managed AI assets are now displayed, including fallback to hosting asset or configuration item if direct values are unavailable.
 -   **Version 2.2.3 - September 2026**
     -   New:
         -   Employee-facing remediation tasks for AI posture findings. Remediation tasks are now generated for AI posture findings and assigned directly to the agent owner, who can resolve issues or request exceptions from Employee Center without security role access. Task outcomes update the posture finding state, and closure is verified on the next integration run. This is useful for assigning the issues on agents created by business users in platforms such as Copilot Studio.

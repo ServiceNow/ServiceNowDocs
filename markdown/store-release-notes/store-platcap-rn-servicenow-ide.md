@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-platcap-rn-servicenow-ide.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
-reading_time_minutes: 10
+last_updated: "2026-10-08"
+reading_time_minutes: 11
 breadcrumb: [ServiceNow Store - Other ServiceNow AI Platform Capabilities applications version history release notes, ServiceNow Store - ServiceNow AI Platform Capabilities version history release notes, ServiceNow Store version history release notes]
 ---
 
@@ -18,6 +18,12 @@ Version history for the ServiceNow® IDE application on the ServiceNow Store.
 
 ## Version history
 
+-   **Version 5.1.1 - October 2026**
+    -   New: ServiceNow Studio supports the Delegated admin role for ServiceNow Otto for app summary generation.
+    -   Changed
+        -   Performance improvements and maintenance.
+        -   Update sets and changes linked to source control both now display in the Changes tab, with clear tracking paths for both options and support for simultaneous update set and source control use.
+    -   Deprecated: The newly redesigned ServiceNow Studio went through several iterations before the replatform onto VS Code that occurred in March 2026. All versions before the replatform have been deprecated. Previously, turning off Build Agent returned you to the pre-VS Code version of ServiceNow Studio. Now, it stays on the VS Code version and turns off Build Agent.
 -   **Version 5.0.2 - September 2026**
 
     New: ServiceNow IDE was redesigned for an agentic-first development experience with Build Agent.

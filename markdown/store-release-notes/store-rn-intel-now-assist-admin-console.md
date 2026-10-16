@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/store-release-notes/store-rn-intel-now-assist-admin-console.html
 release: store
 topic_type: reference
-last_updated: "2026-09-10"
+last_updated: "2026-10-08"
 reading_time_minutes: 19
 breadcrumb: [ServiceNow Store - Platform Analytics version history release notes, ServiceNow Store version history release notes]
 ---
@@ -18,6 +18,11 @@ Version history for the AI Admin Hub Console application on the ServiceNow Store
 
 ## Version history
 
+-   **Version 10.4.5 - October 2026**
+    -   One Step Skill Activation for Out of the Box Skills
+    -   Model Provider Selection Enhancements \(version lifecycle management, impact summary, version status tracking, change history, improved role based access\)
+    -   Notification alerts for model versions
+    -   Defect fixes
 -   **Version 10.3.4 - September 2026**
     -   New: Admins can now integrate new domain separation APIs for Data Overflow processing, enabling improved data management across domains.
     -   Changed:
