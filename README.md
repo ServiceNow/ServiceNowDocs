@@ -21,6 +21,8 @@ normally at least monthly, sometimes more often.
   ```
 
 ## Change log
+- __16 October 2026__:
+  * Removed ICW bundle
 - __08 October 2026__:
   * October monthly refresh
 - __28 Sept 2026__:
